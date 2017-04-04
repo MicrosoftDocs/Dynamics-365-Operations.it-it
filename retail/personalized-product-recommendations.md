@@ -41,14 +41,14 @@ I suggerimenti dei prodotti sono abilitate per gli scenari di Retail POS. Sono d
 
 [proddetails![(]. /media/proddetails.png)](. /media/proddetails.png)
 
-1.  ** Transazione ** nella pagina:
+2.  ** Transazione ** nella pagina:
 
 -   Il motore di suggerimento suggerisce gli articoli in base all'intero elenco di articoli nel carrello.
 -   Se il livello del punto vendita viene aggiunto un cliente alla transazione, il motore di suggerimento vengono forniti suggerimenti personali utilizzando lo storico transazioni cliente ed Elenco di articoli nel carrello.
 
 ** Nota ** visualizzare i suggerimenti su ** transazione ** la pagina, il rivenditore deve aggiornare il layout dello schermo in Dynamics 365 per le operazioni. ** Suggerimenti ** il controllo deve essere depositato su ** transazione ** nella pagina. ![[] (transactionscreenmultipleproductslargemessengersbag-5. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  ** Dettagli cliente ** nella pagina:
+3.  ** Dettagli cliente ** nella pagina:
     -   Il motore di suggerimento suggerisce gli articoli in base all'ID utente e gli articoli nell'elenco di obiettivi del cliente.
 
 [customerdetailsrecommendations![(]. /media/customerdetailsrecommendations.png)](. /media/customerdetailsrecommendations.png)
