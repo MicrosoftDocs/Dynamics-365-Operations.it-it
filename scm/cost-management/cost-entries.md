@@ -1,0 +1,69 @@
+---
+title: Voci di costo
+description: "Questo articolo fornisce informazioni sulle voci di costo e sul momento in cui vengono create. Una voce di costo è un record che registra la quantità e il costo di un evento specifico."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 2017-04-04
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: InventCostOnhandItem
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 19131
+ms.assetid: dd2663d8-bcc0-47b1-b36d-57433143487c
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: yuyus
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 55f5ee731c40acc40e8fe20c24d4ed707fe2c81a
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="cost-entries"></a>Voci di costo
+
+Questo articolo fornisce informazioni sulle voci di costo e sul momento in cui vengono create. Una voce di costo è un record che registra la quantità e il costo di un evento specifico.
+
+Le voci di costo sono aggregazioni delle operazioni di magazzino registrate su dimensioni inventariali finanziarie attive.
+
+## <a name="examples"></a>Esempi
+### <a name="example-1-no-cost-entries-are-created"></a>Esempio 1: nessuna voce di costo viene creata
+
+Un evento del giornale di registrazione trasferimenti viene registrato. L'evento trasferisce un pezzo di articolo A dall'ubicazione A all'ubicazione B. La dimensione inventariale dell'ubicazione non viene considerata parte dell'oggetto di costo. Di conseguenza, l'evento crea due operazioni di magazzino e nessuna voce di costo.
+
+### <a name="example-2-cost-entries-are-created"></a>Esempio 2: vengono create voci di costo
+
+Un evento del giornale di registrazione trasferimenti viene registrato. Evento di trasferisce un singolo pezzo dell'articolo Al sito 1 su un sito. 2. La dimensione inventariale sito viene considerata parte dell'oggetto di costo. Di conseguenza, l'evento crea due operazioni di magazzino e due voci di costo.
+
+### <a name="example-3-one-cost-entry-is-created"></a>Esempio 3: viene creata una voce di costo
+
+Un evento dell'entrata prodotti viene registrato per un ordine fornitore. L'evento immette 100 pezzi di un articolo A a un costo unitario di 10,00 euro (EUR). Poiché l'articolo A utilizza un numero di serie per tenere traccia dello scopo di gestione articoli, un numero di serie univoco viene creato per ciascun articolo ricevuto. Di conseguenza, l'evento crea 100 operazioni di magazzino e una voce di costo.
+
+## <a name="cost-entries-page"></a>Pagina Voci di costo
+La nuova pagina **Voci di costo** consente di visualizzare e controllare le registrazioni delle quantità e dei costi. Questa pagina fa da complemento alle pagine **Operazione di magazzino** e **Liquidazione magazzino**. I record vengono registrati in ordine storico di un evento. Di conseguenza, è possibile cercare e verificare rapidamente i costi accumulati di un evento specifico o di tutti gli eventi correlati a un documento. Ecco un esempio:
+
+-   Un evento dell'entrata prodotti viene registrato per l'articolo A. Cento pezzi vengono ricevuti al costo unitario di 10,00 EUR.
+-   Alcuni giorni dopo che l'evento di fatturazione è stato registrato, il costo aumenta a 11,00 EUR. Di conseguenza, l'importo totale è 1.100 EUR. Un secondo giustificativo viene creato per rappresentare la differenza di 100 EUR.
+-   Alcuni giorni dopo spese varie di 15,00 EUR per coprire il costo di trasporto vengono registrate nell'ordine fornitore.
+
+| Giustificativo | Data       | Referenza      | Numero | ID lotto  | Lotto di riferimento | ID lotto resi | Quantità | Importo  |
+|---------|------------|----------------|--------|---------|---------------|---------------|----------|---------|
+| 00001   | 01/01/2015 | Ordine acquisto | 100001 | 0000101 |               |               | 100,00   | 1000,00 |
+| 00002   | 20/01/2015 | Ordine acquisto | 100001 | 0000101 |               |               |          | 100,00  |
+| 00003   | 31/01/2015 | Correzione     | 100001 | 0000101 |               |               |          | 15,00   |
+
+La pagina **Voci di costo** abilita il filtro in base all'ID e alla data del documento. ** Nota: ** Le voci dei costi sono disponibili solo per [] oggetti di costi () o cost-object.md prodotti rilasciati.
+
+<a name="see-also"></a>Vedere anche
+--------
+
+[Cost objects](cost-object.md)
+
+
