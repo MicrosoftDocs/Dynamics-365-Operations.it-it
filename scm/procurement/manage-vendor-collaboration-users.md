@@ -1,0 +1,93 @@
+---
+title: Gestire gli utenti di collaborazione fornitore
+description: "In questo argomento viene descritto come è possibile richiedere il provisioning di nuovi utenti di collaborazione fornitore e come aggiungere nuovi contatti per la collaborazione fornitore."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
+audience: Application User, IT Pro
+ms.search.scope: Operations, Core
+ms.custom: 220744
+ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+translationtype: Human Translation
+ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
+ms.openlocfilehash: 380f1bcdf7109dc12fd898199033eac7710d863c
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="manage-vendor-collaboration-users"></a>Gestire gli utenti di collaborazione fornitore
+
+In questo argomento viene descritto come è possibile richiedere il provisioning di nuovi utenti di collaborazione fornitore e come aggiungere nuovi contatti per la collaborazione fornitore. 
+
+L'interfaccia di collaborazione fornitore in Microsoft Dynamics 365 for Operations mostra informazioni sugli ordini fornitore, fatture e scorte di spedizione ai fornitori esterni. È possibile creare nuovi contatti per la collaborazione fornitore e richiedere il provisioning di nuovi  utenti se si lavora come fornitore esterno con il ruolo di sicurezza **Amministratore fornitore (esterno)** o simili autorizzazioni. È inoltre possibile eseguire queste attività se si lavora come responsabile di approvvigionamento. In questo argomento, questo ruolo si riferisce a un responsabile di approvvigionamento che lavora all'interno della società a cui appartiene l'istanza di Dynamics 365 for Operations. Per ulteriori informazioni sull'utilizzo della relazione fornitore se l'utente è un fornitore esterno, vedere [fornitore con i clienti] () vendor-collaboration-work-customers-dynamics-365-operations.md.  
+
+Per ulteriori informazioni sull'utilizzo della relazione fornitore se l'utente è un professionista di approvvigionamento, vedere [relazione fornitore con i fornitori esterni vendor-collaboration-work-external-vendors.md] ().
+
+## <a name="add-new-vendor-collaboration-contacts"></a>Aggiungere nuovi contatti per la collaborazione fornitore
+Se si desidera che un utente possa accedere alla collaborazione fornitore, questo deve innanzitutto essere aggiunto come contatto per la collaborazione fornitore. È inoltre possibile voler aggiungere contatti per i dipendenti della società che non utilizzeranno la collaborazione fornitore. Ad esempio, potrebbero essere il punto di contatto per altri tipi di informazioni di approvvigionamento. I nuovi contatti vengono aggiunti ** tutti i contatti ** nella pagina, che viene raggiunta ** relazione fornitore ** &gt; ** dai contatti ** menu. Per aggiungere un nuovo contatto:
+
+1.  Fare clic su **Nuovo**.
+2.  Immettere i dettagli del contatto primario.
+3.  Scegliere quale persona giuridica rappresentano nella società e con quale persona giuridica lavoreranno nella società con cui collaboreranno. È possibile effettuare questa operazione selezionando ** alla persona giuridica in mia società **/** persona giuridica della società del cliente ** campi.
+4.  Fare clic su **Crea**.
+
+Se si desidera eliminare un contatto, è solo possibile eliminare quelli che sono stati creati.
+
+## <a name="vendor-collaboration-user-requests"></a>Richieste utente collaborazione fornitore
+Le richieste di utente di collaborazione fornitore possono essere generate da un responsabile di approvvigionamento o da un amministratore del fornitore esterno.
+
+-   Un fornitore esterno, le richieste inviate ** tutti i contatti ** dalla pagina in collaborazione ** fornitore ** del modulo.
+-   Se si è un responsabile di approvvigionamento, le richieste si inviano dalla pagina **Visualizza contatto**. Per effettuare questa operazione, al record fornitore, ** impostazione ** nell'area del riquadro azioni, ** contatti ** ** &gt; la visualizzazione selezionata ** contatti.
+
+È possibile effettuare una richiesta di provisioning di un utente, di disattivazione di un utente o di modifica di ruoli di sicurezza. Se si è un amministratore di un fornitore esterno, è necessario essere registrati come contatto per i conti fornitore per cui si desidera effettuare richieste utente e si deve poter accedere all'interfaccia di collaborazione fornitore per tali conti fornitore.  
+
+Quando una richiesta viene inviata viene aggiunta all'elenco **Richieste utente collaborazione fornitore**nel modulo **Collaborazione fornitore** e all'elenco **Richieste utente collaborazione fornitore** nel modulo **Approvvigionamento** (il modulo Approvvigionamento non è accessibile agli utenti esterni).
+
+### <a name="provision-a-user"></a>Eseguire il provisioning di un utente
+
+Prima di poter richiedere il provisoning di un nuovo utente, tale persona deve essere impostata come contatto per uno o più conti fornitore. Per creare una richiesta per un nuovo utente di collaborazione fornitore:
+
+1.  ** Tutti i contatti ** alla pagina, fare clic su ** utente fornitore dell'accantonamento **.
+2.  Immettere un indirizzo di posta elettronica per l'utente. Questo indirizzo verrà utilizzato dall'utente per accedere a Dynamics 365 for Operations. Se l'indirizzo di posta elettronica appartiene a un dominio registrato come tenant con Microsoft Azure, l'indirizzo di posta elettronica deve essere un account Azure Active Directory (ADD) esistente perché il processo di provisioning venga completato correttamente. Se l'indirizzo di posta elettronica non appartiene a un dominio registrato con Microsoft Azure, un account ADD verrà creato durante il processo di provisioning e il nuovo utente riceverà un invito per posta. Indirizzi di posta elettronica del cliente con domini, ad @hotmail.com, @gmail.com o @comcast.net non possono essere utilizzati per registrare Dynamics 365 per l'utente delle operazioni.
+3.  Impostare l'opzione **Accesso a collaborazione fornitore consentito**su **Sì** per tutte le persone giuridiche a cui l'utente deve accedere.
+4.  Nella sezione **Assegna ruoli utente**, selezionare la casella di controllo **Assegna** per i ruoli di sicurezza che il nuovo utente deve avere.
+5.  Fare clic su **Invia**.
+
+Quando la richiesta utente di fornitore viene inviata, ** accesso di collaborazione fornitore consentito ** il campo è impostato su Sì ** ** per il conto fornitore e un flusso di lavoro di richiesta utente è stato avviato. Durante il flusso di lavoro, un nuovo utente viene creato in Dynamics 365 for Operations e i ruoli di sicurezza vengono assegnati. Inoltre, un servizio Azure B2B viene attivato che avvia l'interazione con il portale di Azure e associa un account AAD nuovo o esistente con l'account utente Dynamics 365 for Operations.
+
+### <a name="inactivate-a-user"></a>Disattivare un utente
+
+Sono disponibili due modi per rimuovere l'accesso alla collaborazione fornitore per un utente:
+
+-   Nella pagina **Contatti** per il fornitore, impostare l'opzione **Accesso a collaborazione fornitore consentito** su **No** per il contatto. Questa operazione può essere effettuata singolarmente per persona giuridica di cui la persona è un contatto. Questa opzione può essere utilizzata solo dai responsabili di approvvigionamento.
+-   Disattivare l'intero account utente, inviando una richiesta **Disattiva utente fornitore**.
+
+Per richiedere che un utente sia disattivato:
+
+1.  ** Tutti i contatti ** alla pagina, fare clic su ** inattivi ** ** utente ** fornitore.
+2.  Scrivere un commento nel campo **Motivazione aziendale**.
+3.  Fare clic su **Invia**.
+
+### <a name="modify-security-roles"></a>Modificare i ruoli di sicurezza
+
+** Gestire i ruoli utente fornitore ** la pagina è la stessa ** utente fornitore dell'accantonamento ** della pagina differenza che l'elenco dei ruoli di sicurezza può essere modificato.  
+
+Per richiedere che i ruoli di sicurezza vengano modificati in un utente:
+
+1.  ** Tutti i contatti ** alla pagina, fare clic su ** gestire ** ** ruoli utente ** fornitore.
+2.  Scrivere un commento nel campo **Motivazione aziendale**.
+3.  Nella sezione **Gestisci ruoli utente**, selezionare i ruoli di sicurezza che si desidera assegnareo deselezionare quelli che si desidera rimuovere.
+4.  Click **Submit**.
+
+
+

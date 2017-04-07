@@ -1,0 +1,42 @@
+---
+title: Gestire gli aggiornamenti dei costi standard
+description: Gli aggiornamenti dei dati di costo standard possono essere gestiti utilizzando due diversi metodi - l&quot;approccio basato su una sola versione e il metodo basato su due versioni.
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: CostingVersion
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 69992
+ms.assetid: 468de7af-c7b5-4345-bd5a-ba3aa5a900cc
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: mguada
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 7e0f0817ff37c82ed98a51f10bcdde7e785a19a3
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="manage-standard-cost-updates"></a>Gestire gli aggiornamenti dei costi standard
+
+Gli aggiornamenti dei dati di costo standard possono essere gestiti utilizzando due diversi metodi - l'approccio basato su una sola versione e il metodo basato su due versioni. 
+
+Il metodo a una versione utilizza un'unica versione di determinazione costi contenente tutti i record costi. Questi record includono i costi originali e tutti gli aggiornamenti costi.
+Il metodo basato su due versioni utilizza una versione contenente i record dei costi originali e una seconda versione contenente i record di tutti gli aggiornamenti costi. L'approccio basato su due versioni offre come vantaggio principale la possibilità di delineare in modo chiaro e di tenere traccia degli aggiornamenti dei costi in una versione di determinazione costi separata, senza modificare la versione di determinazione costi originale. Il concetto di un approccio basato su due versioni può essere utilizzato per identificare più aggiornamenti incrementali, in cui ciascun aggiornamento incrementale è associato a una versione di determinazione costi separata contenente i record dei costi incrementali. **Esempio** Nell'esempio seguente viene illustrato come i metodi basati su una o due versioni possono essere utilizzati per aggiornare i costi standard in un ambiente di produzione, ad esempio, per aggiornamenti che riflettono i nuovi articoli o correzioni di errori. Si supponga che una singola versione di determinazione costi rappresenti i costi standard per l'anno in corso. L'identificatore per questa versione è 2016-STD. La versione 2016-STD contiene i costi attivi correnti per tutti gli articoli. Inoltre, contiene tutte le categorie di costi correlate ai cicli di lavorazione e le formule di calcolo che sono state noti all'inizio dell'anno 2016. 2016-STD È la versione di determinazione costi originale.
+-   **Approccio basato su una sola versione per gli aggiornamenti dei dati relativi ai costi**: con l'approccio basato su una sola versione, nella versione di determinazione costi 2016-STD saranno contenuti tutti i record dei costi. Gli aggiornamenti di costo vengono registrati nel 2016 il relativo stato è impostato su" In sospeso". I costi in sospeso possono essere immessi manualmente per i nuovi articoli acquistati, oppure possono essere calcolati per un articolo prodotto riflettano le rettifiche. Utilizzando l'approccio basato su una sola versione viene utilizzato, i calcoli DBA non è richiesta un'origine dati di fallback poiché tutti i costi attivi contenuti nella versione di determinazione costi. Dopo l'attivazione dei costi in sospeso, nella versione di determinazione costi originale 2016-STD saranno di nuovo contenuti tutti i costi attivi correnti.
+-   **Approccio basato su due versioni per gli aggiornamenti dei dati relativi ai costi**: per l'approccio basato su due versioni è richiesta un'ulteriore versione di determinazione costi in cui saranno contenuti solo gli aggiornamenti costi. L'identificatore per questa versione è 2016-STD-CHANGES. Gli aggiornamenti di costo vengono registrati in 2016-STD e il relativo stato è impostato su "In sospeso". Con l'approccio basato su due versioni, per i calcoli DBA dei costi in sospeso per gli articoli prodotti è richiesta un'origine dati di fallback, poiché nella versione di determinazione costi aggiuntiva di 2016-STD-CHANGES è contenuto solo un sottoinsieme di dati relativi ai costi. Il fallback può essere espresso come costi attivi o come la versione di determinazione costi 2016-STD, poiché entrambi identificano l'origine dei dati relativi ai costi non presenti in 2016-STD-CHANGES. Dopo l'attivazione dei costi in sospeso, la versione di determinazione costi 2016-STD-CHANGES conterrà i costi attivi correnti che riflettono gli aggiornamenti, mentre la versione di determinazione costi originale 2016-STD rimarrà inalterata. Quando si utilizza l'approccio a due versioni, è opportuno impostare criteri di bloccaggio per la versione di determinazione costi originale per evitare l'aggiornamento. Per la versione di determinazione costi aggiuntiva devono essere impostati esattamente gli stessi criteri di bloccaggio impiegati per la versione di determinazione costi originale, ad eccezione della data di inizio specificata e dell'utilizzo selettivo dei criteri di bloccaggio per consentire gli aggiornamenti. La data di inizio specificata deve essere aggiornata con ciascun batch di modifiche in modo da riflettere la data di attivazione programmata.
+
+Nell'esempio è stata utilizzata una versione di determinazione costi aggiuntiva per la gestione degli aggiornamenti durante l'anno 2016. È possibile utilizzare più versioni di determinazione costi aggiuntive, ad esempio una per ciascun batch di aggiornamenti. Quando si utilizza più di una determinazione costi aggiuntiva, il fallback deve essere espresso come costi attivi, poiché questi vengono distribuiti su più versioni di determinazione costi.
+
+
+
+
