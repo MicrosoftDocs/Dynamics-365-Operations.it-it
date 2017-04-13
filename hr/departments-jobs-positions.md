@@ -56,10 +56,6 @@ Una mansione è una raccolta di attività e responsabilità proprie della person
 È possibile creare attività per una mansione che descrivono le attività di base che un lavoratore in una posizione per tale mansione deve completare. La stessa attività associata a una mansione può essere aggiunta a più mansioni e le posizioni di tali mansioni erediteranno tali attività. Esempi di attività di mansioni sono elencati nella seguente tabella.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Processo</th>

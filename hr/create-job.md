@@ -48,10 +48,10 @@ I tipi di processo per raggruppare posizioni lavorative simili in categorie. I t
 ## <a name="job-functions"></a>Funzioni lavorative
 Le giunzioni dei processi vengono descritte le categorie funzionali a livello principale e alle funzioni di livello superiore. Le funzioni lavorative non sono obbligatorie. È possibile utilizzare le funzioni lavorative, insieme ai tipi di processo, per filtrare i piani retribuzione per posizioni lavorative specifiche. È possibile associare le funzioni lavorative e i tipi di processo ai piani di retribuzione impostando regole di idoneità ** regole di idoneità ** nella pagina. È quindi possibile collegare un insieme di livelli a un piano di retribuzione applicabili alla specifica combinazione di tipo e di funzione lavorativa definita mediante una regola di idoneità. (Queste funzionalità si applicano sia ai piani di retribuzione fissa per i piani di retribuzione variabile). Tuttavia, se si prevede di utilizzare le funzioni lavorative per impostare le regole di idoneità per la gestione della retribuzione, è consigliabile impostare le funzioni lavorative prima di impostare le posizioni lavorative. Nella seguente tabella sono riportati alcuni esempi di funzioni lavorative.
 
-| Mansione           | Funzione lavorativa      |
-|---------------|-------------------|
-| Manager vendite | Gestore livello medio |
-| Ragioniere    | Professionisti     |
+| Mansione           | Funzione lavorativa         |
+|---------------|----------------------|
+| Manager vendite | Gestore livello medio    |
+| Ragioniere    | Professionisti        |
 
 Vengono gestite mediante le funzioni lavorative utilizzando ** funzioni lavorative ** la pagina. ** Funzioni lavorative ** nella pagina, immettere un codice di identificazione e una breve descrizione della funzione lavorativa.
 
