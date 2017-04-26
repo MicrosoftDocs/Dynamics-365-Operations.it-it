@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Home page Gestione cassa e banche
 
+[!include[banner](../includes/banner.md)]
+
+
 È possibile utilizzare Gestione banche e di cassa per gestire i conti bancari della persona giuridica e gli strumenti finanziari a essi associati, 
 
 quali distinte di deposito, assegni, effetti attivi ed effetti passivi. È inoltre possibile effettuare la riconciliazione dei rendiconti bancari e stampare i dati bancari in report standard.
@@ -69,4 +72,6 @@ quali distinte di deposito, assegni, effetti attivi ed effetti passivi. È inolt
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Scenario: Utilizzare un pagamento cliente per liquidare più fatture che si estendono su più periodi di sconto](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 

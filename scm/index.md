@@ -55,3 +55,5 @@ Ad esempio, è possibile leggere i post recenti su:
 ## <a name="elearning-courses"></a>corsi eLearning
 Per informazioni su Microsoft Dynamics 365 per le operazioni di formazione, vedere <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Learning Portal</a>. (richiede account CustomerSource) 
 
+
+
