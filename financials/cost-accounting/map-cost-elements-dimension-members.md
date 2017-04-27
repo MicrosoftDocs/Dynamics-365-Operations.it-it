@@ -1,5 +1,5 @@
 ---
-title: Mappare i membri della dimensione dell&quot;elemento di costo diverso in un set comune dei membri della dimensione
+title: Mappare membri delle dimensioni elemento di costo diversi a un set comune di membri delle dimensioni
 description: Mappando membri delle dimensioni elemento di costo diversi a un set comune di membri delle dimensioni elemento di costo, si uniscono i dati in un formato comune per scopi di analisi.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mappare i membri della dimensione dell'elemento di costo diverso in un set comune dei membri della dimensione
+# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mappare membri delle dimensioni elemento di costo diversi a un set comune di membri delle dimensioni
 
 Mappando membri delle dimensioni elemento di costo diversi a un set comune di membri delle dimensioni elemento di costo, si uniscono i dati in un formato comune per scopi di analisi.
 
@@ -41,7 +41,7 @@ Nel seguente esempio viene illustrato come un controller di costi può creare un
 | 5030: Annunci                                                     | 6390: Acquisti scorte\*                                                    | 7000: Spese di pulizia                                                 |
 | 7001: Spese di pulizia                                               | 7001: Spesa di viaggio                                                      | 7001: Spese di viaggio                                                   |
 
-\*il membro francese di dimensioni articolo di costo dell'acquisto scorte non è mappato.
+\*Il membro della dimensione elemento di costo francese Acquisto scorte non è mappato.
 
 ## <a name="currency-conversion"></a>Conversione valutaria
 I vari piani dei conti utilizzati possono essere impostati per l'utilizzo di valute diverse. In questo caso, assicurarsi di specificare una conversione valutaria, in modo che i dati relativi ai costi vengano elaborati con la valuta corretta, come definito nel conto CoGe di contabilità industriale in cui i membri delle dimensioni elemento di costo vengono utilizzati. Nell'esempio precedente, se il dollaro statunitense (USD) viene utilizzato nel conto CoGe di contabilità industriale, è necessario creare una conversione valutaria da USD a EUR (euro) per elaborare le transazioni per i membri delle dimensioni elemento di costo mappati.

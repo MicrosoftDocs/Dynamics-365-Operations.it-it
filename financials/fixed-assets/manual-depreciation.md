@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation"></a>Ammortamento manuale
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica del metodo di ammortamento manuale.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Manuale** nel campo **Metodo** della pagina **Profili di ammortamento**, l'ammortamento dei cespiti assegnati a questo profilo viene determinato dalla percentuale immessa per ciascun intervallo nell'anno di calendario. Gli intervalli per cui si impostano percentuali vengono registrati in base al valore selezionato nel campo **Frequenza periodo** della scheda dettaglio **Generale** nella pagina **Profili di ammortamento**. È possibile selezionare i seguenti valori:
@@ -63,13 +66,15 @@ Se si seleziona **Mensile**nel campo **Frequenza periodo**, vengono impostati 12
 | gennaio  | (11.000 – 1.000) × 10% = 1.000 |
 | febbraio | (11.000 – 1.000) × 50% = 5.000 |
 
-Se si seleziona ** semestrale ** la frequenza periodo di **** ** ** campo, è necessario impostare due intervalli di programmi manuali. Le quote di ammortamento per i primi due intervalli sono mostrate nella seguente tabella.
+Se si seleziona **Semestrale** nel campo **Frequenza periodo**, vengono impostati due intervalli di programmi manuali. Le quote di ammortamento per i primi due intervalli sono mostrate nella seguente tabella.
 
 | Intervallo    | Importo di ammortamento            |
 |-------------|--------------------------------|
 | 30 giugno     | (11.000 – 1.000) × 10% = 1.000 |
 | 31 dicembre | (11.000 – 1.000) × 50% = 5.000 |
 
-Totale delle percentuali per tutti gli intervalli ammonti a 100. Tuttavia, verrà visualizzato un messaggio se il valore ** percentuale cumulativa ** nel campo ** il profilo di ammortamento cespiti programma ** nella pagina non è ** ** 100.
+Non è necessario che il totale delle percentuali per tutti gli intervalli ammonti a 100. Tuttavia, verrà visualizzato un messaggio se il valore nel campo **Percentuale cumulativa*** della pagina **Programmi profili di ammortamento cespiti** non è **100**.
+
+
 
 

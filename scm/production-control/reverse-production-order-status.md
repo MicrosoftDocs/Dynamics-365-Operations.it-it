@@ -1,5 +1,5 @@
 ---
-title: Reimposta lo stato dell&quot;ordine di produzione
+title: Invertire lo stato degli ordini di produzione
 description: In questo argomento viene descritto come invertire lo stato degli ordini di produzione.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reverse-the-production-order-status"></a>Reimposta lo stato dell'ordine di produzione
+# <a name="reverse-the-production-order-status"></a>Invertire lo stato degli ordini di produzione
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento viene descritto come invertire lo stato degli ordini di produzione. 
 
@@ -49,5 +52,7 @@ Quando si inverte lo stato di un ordine di produzione da **Rilasciato** a **Prog
 
 ## <a name="from-started-to-released"></a>Da Iniziato a Rilasciato
 Quando si inverte lo stato di un ordine di produzione da **Iniziato** a **Rilasciato**, viene ripristinato lo stato precedente di tutti gli articoli dichiarati finiti. Se è stato prelevato materiale o sono state effettuate consegne in entrata o in uscita per la produzione, vengono invertite queste impostazioni. Il campo **Stato rimanenze** nelle righe DBA dell'ordine di produzione viene modificato da **Finito** a **Consumo materiali**. Se il tempo è stato registrato o le quantità sono state dichiarate finite per le operazioni del ciclo di lavorazione produzione, queste impostazioni vengono ripristinate allo stato precedente. Il campo **Stato rimanenze** viene modificato da **Finito** a **Consumo ciclo di lavorazione** nel ciclo di lavorazione produzione. Le impostazioni per tutti gli articoli registrati come in corso o semilavorati vengono ripristinate. Nella pagina **Dettagli ordine di produzione** i campi che indicano una quantità che è stata iniziata o stata dichiarata finita vengono reimpostati. Anche le date di queste transazioni vengono reimpostate.
+
+
 
 

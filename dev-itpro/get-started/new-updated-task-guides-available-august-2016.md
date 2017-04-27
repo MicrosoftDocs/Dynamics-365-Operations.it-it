@@ -1,6 +1,6 @@
 ---
-title: "Nuove o consente di gestire di attività (agosto 2016)"
-description: "Di seguito sono elencati nuove o consente di gestire di attività rilasciate alla raccolta unificata APQC Microsoft (agosto 2016 - tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata."
+title: "Guide attività nuove o aggiornate (agosto 2016)"
+description: "In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (agosto 2016 -- tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-august-2016"></a>Nuove o consente di gestire di attività (agosto 2016)
+# <a name="new-or-updated-task-guides-august-2016"></a>Guide attività nuove o aggiornate (agosto 2016)
 
-Di seguito sono elencati nuove o consente di gestire di attività rilasciate alla raccolta unificata APQC Microsoft (agosto 2016 - tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata.
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[] (attività) garantisce (agosto 2016 - tutte le lingue) nella raccolta unificata APQC per Microsoft Dynamics AX
+
+In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (agosto 2016 -- tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata.
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guide attività nella libreria unificata APQC (agosto 2016 - tutte le lingue) per Microsoft Dynamics AX
 ---------------------------------------------------------------------------------------------------
 
-(Agosto 2016 - tutte le lingue) la libreria unificata APQC contiene le aree di attività utilizzate per essere utilizzate per guida all'aggiornamento 2 della presentazione Microsoft Dynamics AX (agosto 2016), Dynamics AX l'aggiornamento dell'applicazione di il maggio 2016 e Microsoft Dynamics AX la versione del febbraio 2016. Per ulteriori informazioni su queste versioni, vedere [quanto è nuovo o variabile] (quanto è new-changed.md -). Le versioni localizzate delle aree di attività sono disponibili in questa raccolta. Per ulteriori informazioni sulla procedura per connettere il file della Guida a una raccolta della Guida di attività, vedere [inizi con la Guida help-overview.md] ().
+La libreria unificata APQC (agosto 2016 -- tutte le lingue) contiene le guide attività da utilizzare per ottenere assistenza per l'aggiornamento 2 della piattaforma Microsoft Dynamics AX (agosto 2016), l'aggiornamento di maggio 2016 dell'applicazione Microsoft Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Per ulteriori informazioni su queste versioni, vedere [Novità o modifiche](whats-new-changed.md). Le versioni localizzate delle guide attività sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md).
 
 ### <a name="data-access"></a>Accesso ai dati
 
@@ -97,10 +100,12 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 <a name="see-also"></a>Vedere anche
 --------
 
-[Nuove consente di attività (febbraio 2016)](new-task-guides-available-february-2016.md)
+[Nuove Guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)
 
-[Nuove o consente di gestire di attività (maggio 2016)](new-updated-task-guides-available-may-2016.md)
+[Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nuove o consente di gestire di attività (novembre 2016)](new-task-guides-november-2016.md)
+[Guide attività nuove o aggiornate (novembre 2016)](new-task-guides-november-2016.md)
+
+
 
 

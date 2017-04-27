@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-statuses"></a>Stati inventario
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive come utilizzare gli stati di magazzino per classificare e tenere traccia delle scorte.
 
 È possibile utilizzare gli stati inventario per suddividere in categorie l'inventario. È quindi possibile avviare le azioni appropriate, ad esempio il rifornimento o il lavoro di stoccaggio. 
@@ -47,5 +50,7 @@ Per il lavoro in uscita, utilizzare articoli con uno stato inventario disponibil
 Dopo aver impostato gli stati inventario, è possibile impostare lo stato inventario predefinito per un sito, un articolo e un magazzino. È inoltre possibile impostare uno stato predefinito per ordini acquisto, di trasferimento e cliente. Lo stato predefinito per gli ordini cliente e l'ordine di trasferimento in uscita non possono disporre del set di opzioni **Blocco scorte** su **Sì**. Lo stato inventario che viene ereditato dalle impostazioni predefinite in un sito, magazzino, articolo, ordine acquisto, di trasferimento o cliente può essere modificato utilizzando il dispositivo mobile oppure nella riga dell'ordine acquisto, cliente o di trasferimento. 
 
 Per pianificare la copertura per articoli con uno stato inventario disponibile, selezionare l'opzione **Piano di copertura per dimensione** per una dimensione di immagazzinamento nella pagina **Gruppi di dimensioni di immagazzinamento**. Quando si apre l'**Impostazione guidata copertura articoli**, gli articoli con uno stato disponibile vengono visualizzati nella pagina **Stato**. Per creare le impostazioni di copertura per tali articoli, selezionare l'ID dello stato inventario per gli stati di inventario disponibili. In base alle impostazioni di copertura, è possibile calcolare le richieste articoli e prevedere la domanda e l'offerta di articoli disponibili durante la pianificazione generale. Non è possibile creare un'impostazione copertura articoli con uno stato inventario bloccato. In alternativa, utilizzare la pagina **Copertura articoli** per creare o modificare i parametri di copertura articoli.
+
+
 
 

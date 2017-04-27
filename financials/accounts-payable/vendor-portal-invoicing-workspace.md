@@ -43,11 +43,11 @@ I riquadri **Riepilogo** offrono una panoramica delle fatture per il fornitore s
 Fare clic su un riquadro per aprire una visualizzazione filtrata della pagina **Elenco fatture**.
 ### <a name="tabular-lists"></a>Elenchi tabulari
 
-Nella sezione **Elenchi tabulari ** lo stato di fatturazione è suddiviso in simili modi ai riquadri riepilogo: Elenchi bozza e inviati, non approvati. Quando in stato di bozza, una fattura può essere inviata al flusso di lavoro o essere eliminata. Ultimo elenco tabulare tratta di un'opzione per trovare le fatture. È possibile filtrare la ricerca, mentre per consentire ricerche più rapide.
+Nella sezione **Elenchi tabulari ** lo stato di fatturazione è suddiviso in simili modi ai riquadri riepilogo: Elenchi bozza e inviati, non approvati. Quando in stato di bozza, una fattura può essere inviata al flusso di lavoro o essere eliminata. L'ultimo elenco tabulare è un'opzione per trovare le fatture. È possibile filtrare mentre si cerca, per consentire ricerche più rapide.
 Pagina elenco Tutte le fatture fornitore
 -----------------------------
 
-È possibile visualizzare tutte le fatture fornitore registrate e non registrate ** fatture per la collaborazione a l ** fornitore nella pagina elenco. È possibile utilizzare questa pagina elenco per visualizzare lo stato di pagamento delle fatture. Gli stati di pagamento sono Non registrato, Non pagato, Pagato parzialmente e Interamente pagato.
+È possibile visualizzare tutte le fatture fornitore registrate e non registrate nella pagina elenco **Fatture di collaborazione fornitore**. È possibile utilizzare questa pagina elenco per visualizzare lo stato di pagamento delle fatture. Gli stati di pagamento sono Non registrato, Non pagato, Pagato parzialmente e Interamente pagato.
 Creare una nuova fattura da un ordine fornitore
 --------------------------------------------
 
@@ -55,6 +55,6 @@ Creare una nuova fattura da un ordine fornitore
 
 
 
-Per ulteriori informazioni, vedere [collaborando con i fornitori mediante il portale] fornitore (/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Per ulteriori informazioni, vedere  [Collaborazione con i fornitori tramite il portale fornitori](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
 
 

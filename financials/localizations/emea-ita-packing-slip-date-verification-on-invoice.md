@@ -1,6 +1,6 @@
 ---
-title: Verifica la data del documento di trasporto nelle fatture per l&quot;Italia
-description: "Per l&quot;Italia, la data della fattura è stata verificata sui documenti di trasporto e sulle proposte di fatturazione. In questo argomento vengono fornite informazioni aggiuntive sulla verifica per l&quot;articolo."
+title: Verifica della data del documento di trasporto nelle fatture per l&quot;Italia
+description: "Per l&quot;Italia, la data della fattura è verificata sui documenti di trasporto e sulle proposte di fatturazione. In questo argomento vengono fornite informazioni aggiuntive sulla verifica eseguita."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="packing-slip-date-verification-on-invoices-for-italy"></a>Verifica la data del documento di trasporto nelle fatture per l'Italia
+# <a name="packing-slip-date-verification-on-invoices-for-italy"></a>Verifica della data del documento di trasporto nelle fatture per l'Italia
 
-Per l'Italia, la data della fattura è stata verificata sui documenti di trasporto e sulle proposte di fatturazione. In questo argomento vengono fornite informazioni aggiuntive sulla verifica per l'articolo. 
+[!include[banner](../includes/banner.md)]
 
-Per le persone giuridiche il cui indirizzo principale è in Italia è presente un passaggio di verifica della data documento di trasporto per gli utenti che generano fatture di vendita o fatture di progetto.
 
--   I documenti di trasporto che sono datati successiva alla fattura non devono essere inclusi nella quantità consigliata dell'aggiornamento.
--   Per Gestione progetti e contabilità, quando si crea una proposta di fatturazione, solo i documenti di trasporto del cliente presenti datati anteriore alla proposta di fatturazione vengono inclusi nella proposta. ** ** Nota: Se la data di input utente per la proposta di fatturazione è vuota, la data di sistema utilizzata.
+Per l'Italia, la data della fattura è verificata sui documenti di trasporto e sulle proposte di fatturazione. In questo argomento vengono fornite informazioni aggiuntive sulla verifica eseguita. 
+
+Per le persone giuridiche il cui indirizzo principale è in Italia è presente un passaggio di verifica della data documento di trasporto per gli utenti che generano fatture di vendita o fatture progetto.
+
+-   I documenti di trasporto che hanno data successiva alla fattura non devono essere inclusi nella quantità di aggiornamento consigliata.
+-   Per Gestione progetti e contabilità, quando si crea una proposta di fatturazione, solo i documenti di trasporto del cliente datati anteriore alla proposta di fatturazione vengono inclusi nella proposta. **Nota**: Se la data di input utente per la proposta di fatturazione è vuota, la data di sistema viene utilizzata.
+
+
 
 
 

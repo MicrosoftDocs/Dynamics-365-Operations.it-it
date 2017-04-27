@@ -1,5 +1,5 @@
 ---
-title: Approvazione e confermare gli ordini fornitore
+title: Approvare e confermare ordini fornitore
 description: "In questo articolo vengono descritti gli stati che attraversa un ordine fornitore (PO) dopo che è stato creato e l&quot;effetto dell&quot;attivazione di gestione delle modifiche sui PO."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Approvazione e confermare gli ordini fornitore
+# <a name="approve-and-confirm-purchase-orders"></a>Approvare e confermare ordini fornitore
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo articolo vengono descritti gli stati che attraversa un ordine fornitore (PO) dopo che è stato creato e l'effetto dell'attivazione di gestione delle modifiche sui PO.
 
@@ -73,12 +76,14 @@ Dopo che un ordine è stato confermato non è possibile eliminarlo. Tuttavia, è
 <a name="see-also"></a>Vedere anche
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Panoramica dell'ordine fornitore](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Creazione ordine fornitore](purchase-order-creation.md)
 
 [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
 
 [Panoramica delle fatture fornitore](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Aggiornamento da rivalutazione valuta e del singolo giustificativo per Microsoft Dynamics 365 per la versione 1611 di operazioni
-description: "In alcune organizzazioni o immettono i giornali di registrazione contengono un singolo giustificativo con più di un cliente o fornitore e di eseguire il processo di rivalutazione valuta estera della contabilità fornitori o Contabilità clienti. In questo argomento vengono descritti i passaggi che queste organizzazioni devono seguire quando l&quot;aggiornamento a Microsoft Dynamics 365 per la versione 1611 delle operazioni."
+title: Aggiornamento relativo a rivalutazione valuta e singolo giustificativo per Microsoft Dynamics 365 for Operations versione 1611
+description: "Alcune organizzazioni compilano giornali di registrazione che contengono un unico giustificativo che ha più clienti o fornitori ed eseguono anche il processo di rivalutazione valuta estera per la contabilità clienti o la contabilità fornitori. In questo argomento vengono descritti i passaggi che queste organizzazioni devono seguire quando eseguono l&quot;aggiornamento a Microsoft Dynamics 365 for Operations versione 1611."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-28 16 - 04 - 17
@@ -24,15 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Aggiornamento da rivalutazione valuta e del singolo giustificativo per Microsoft Dynamics 365 per la versione 1611 di operazioni
+# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Aggiornamento relativo a rivalutazione valuta e singolo giustificativo per Microsoft Dynamics 365 for Operations versione 1611
 
-In alcune organizzazioni o immettono i giornali di registrazione contengono un singolo giustificativo con più di un cliente o fornitore e di eseguire il processo di rivalutazione valuta estera della contabilità fornitori o Contabilità clienti. In questo argomento vengono descritti i passaggi che queste organizzazioni devono seguire quando l'aggiornamento a Microsoft Dynamics 365 per la versione 1611 delle operazioni.
+Alcune organizzazioni compilano giornali di registrazione che contengono un unico giustificativo che ha più clienti o fornitori ed eseguono anche il processo di rivalutazione valuta estera per la contabilità clienti o la contabilità fornitori. In questo argomento vengono descritti i passaggi che queste organizzazioni devono seguire quando eseguono l'aggiornamento a Microsoft Dynamics 365 for Operations versione 1611.
 
-Attenersi alle procedure quando si esegue l'aggiornamento a Microsoft Dynamics 365 per la versione 1611 delle operazioni.
+Quando si esegue l'aggiornamento a Microsoft Dynamics 365 for Operations versione 1611, attenersi alla seguente procedura.
 
-1.  Prima di eseguire l'aggiornamento a Dynamics 365 per le operazioni, eseguire i processi di rivalutazione valuta estera in Contabilità clienti e Contabilità fornitori. Impostare ** metodo ** il campo su ** data della fattura **. Una transazione di rivalutazione viene creato il segno l'ultima rivalutazione valuta estera. Di conseguenza, le transazioni aperte vengono valutate alla valuta di contabilizzazione originale.
-2.  Aggiornare in Dynamics 365 per la versione 1611 delle operazioni.
-3.  Eseguire la contabilità clienti e la rivalutazione valuta estera della contabilità fornitori vengono nuovamente. Questa volta, è impostato ** metodo ** il campo su ** ** standard. Una nuova transazione di rivalutazione vengono create in base ai tassi di cambio correnti. Questa transazione viene registrato il profitto non realizzato/perdite e il conto CoGe riepilogativo corretto.
+1.  Prima di eseguire l'aggiornamento a Dynamics 365 for Operations, eseguire i processi di rivalutazione valuta estera per la Contabilità clienti e la Contabilità fornitori. Impostare il campo **Metodo** su **Data fattura**. Viene creata una transazione di rivalutazione che annulla l'ultima rivalutazione valuta estera. Di conseguenza, le transazioni aperte vengono valutate alla valuta di contabilizzazione originale.
+2.  Eseguire l'aggiornamento a Dynamics 365 for Operations versione 1611.
+3.  Eseguire di nuovo il processo di rivalutazione valuta esterna per la contabilità fornitori e la contabilità clienti. Impostare questa volta il campo **Metodo** su **Standard**. Viene creata una nuova transazione di rivalutazione basata sui tassi di cambio correnti. Questa transazione registra il profitto/la perdita non realizzati e il conto CoGe riepilogativo corretto.
 
 
 

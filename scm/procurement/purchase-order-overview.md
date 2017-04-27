@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Panoramica dell'ordine fornitore
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono fornite informazioni generali sugli ordini fornitore (PO) e collegamenti a ulteriori articoli correlati alle varie fasi che attraversa un PO.
 
 Un ordine fornitore (PO) è un documento che rappresenta un contratto con un fornitore per acquistare beni o servizi. Il documento consente inoltre di tenere traccia delle entrate di prodotti che vengono effettuate rispetto all'ordine e, successivamente, la contabilità delle fatture che il fornitore emette rispetto all'ordine.  
 
-La pagina **Ordini fornitore** contiene una panoramica degli ordini disponibili e consente di modificare gli ordini. Quando si apre un PO, è possibile selezionare la visualizzazione **Intestazione**, che contiene informazioni specificate solo una volta per ogni ordine fornitore, esempio i dettagli del fornitore. In alternativa, è possibile selezionare la visualizzazione **Righe**, in cui è possibile modificare le righe dell'ordine. In genere, verrà ignorato tra queste due visualizzazioni mentre si modificano la posizione. Le spese non vengono elencate direttamente ** ** ordini fornitore nella pagina, ma sono accessibili tramite i menu nell'intestazione e nelle righe ordine.  
+La pagina **Ordini fornitore** contiene una panoramica degli ordini disponibili e consente di modificare gli ordini. Quando si apre un PO, è possibile selezionare la visualizzazione **Intestazione**, che contiene informazioni specificate solo una volta per ogni ordine fornitore, esempio i dettagli del fornitore. In alternativa, è possibile selezionare la visualizzazione **Righe**, in cui è possibile modificare le righe dell'ordine. In genere, si alterneranno queste due visualizzazioni mentre si modificano gli ordini fornitore. Le spese non vengono elencate direttamente nella pagina **Ordini fornitore**, ma sono accessibili tramite i menu nell'intestazione e nelle righe ordine.  
 
 Sono disponibili numerosi report in cui è possibile visualizzare informazioni su PO, entrate prodotti e fatture fornitore. Questi report si trovano nei moduli **Approvvigionamento** e **Contabilità fornitori**.  
 
-Le aree di lavoro **Preparazione ordini acquisto** e **Ricevimento e follow-up ordine acquisto** consentono di visualizzare elenchi di PO nei vari stati che hanno raggiunto. Offrono inoltre un riepilogo delle azioni che devono essere prese. L'area di lavoro **Preparazione ordini acquisto** si concentra sulla creazione e revisione dell'ordine fornitore, l'elaborazione dell'ordine tramite l'approvazione e la conferma con il fornitore. ** Entrata e il follow-up dell'ordine fornitore ** l'area di lavoro è incentrata sulla elaborare le entrate di merci o servizi in base alla posizione. Include gli elenchi che consentono alla descrizione delle entrate scadute, o in precedenza verranno scadenza per la consegna dal fornitore. Queste aree di lavoro non sono utilizzati per eseguire le attività di ricezione correlate che vengono eseguite nel magazzino. Tali attività vengono eseguite utilizzando pagine nei moduli **Gestione articoli** e **Gestione magazzino**. Elaborazione delle fatture fornitore deve essere eseguita utilizzando l'area di lavoro **Inserimento fatture fornitore** e i pagamenti devono essere eseguiti utilizzando l'area di lavoro **Pagamenti fornitore**.  
+Le aree di lavoro **Preparazione ordini acquisto** e **Ricevimento e follow-up ordine acquisto** consentono di visualizzare elenchi di PO nei vari stati che hanno raggiunto. Offrono inoltre un riepilogo delle azioni che devono essere prese. L'area di lavoro **Preparazione ordini acquisto** si concentra sulla creazione e revisione dell'ordine fornitore, l'elaborazione dell'ordine tramite l'approvazione e la conferma con il fornitore. L'area di lavoro **Ricevimento e follow-up ordine acquisto** è incentrata sulla elaborare le entrate di merci o servizi contro gli ordini fornitore. Include gli elenchi che consentono di analizzare le entrate scadute, o prossime alla consegna da parte del fornitore. Queste aree di lavoro non sono utilizzati per eseguire le attività di ricezione correlate che vengono eseguite nel magazzino. Tali attività vengono eseguite utilizzando pagine nei moduli **Gestione articoli** e **Gestione magazzino**. Elaborazione delle fatture fornitore deve essere eseguita utilizzando l'area di lavoro **Inserimento fatture fornitore** e i pagamenti devono essere eseguiti utilizzando l'area di lavoro **Pagamenti fornitore**.  
 
 I seguenti articoli forniscono una panoramica delle varie fasi che attraversa un ordine fornitore:
 
@@ -45,7 +48,7 @@ I seguenti articoli forniscono una panoramica delle varie fasi che attraversa un
 -   [Panoramica delle fatture fornitore](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Tipi di ordini fornitore
-Sono disponibili tre tipi di posizioni. Quando si crea un ordine fornitore, è necessario specificare il tipo. È possibile impostare un tipo di ordine predefinito per i nuovi ordini nella pagina **Parametri di approvvigionamento**.
+Sono disponibili tre tipi di ordini fornitore. Quando si crea un ordine fornitore, è necessario specificare il tipo. È possibile impostare un tipo di ordine predefinito per i nuovi ordini nella pagina **Parametri di approvvigionamento**.
 
 | Tipo di PO        | Descrizione                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,12 +83,14 @@ IL campo **Stato approvazione** viene utilizzato quando un ordine fornitore pass
 <a name="see-also"></a>Vedere anche
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Creazione ordine fornitore](purchase-order-creation.md)
 
 [Approvazione e conferma di un ordine fornitore](purchase-order-approval-confirmation.md)
 
 [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
 
 [Panoramica delle fatture fornitore](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

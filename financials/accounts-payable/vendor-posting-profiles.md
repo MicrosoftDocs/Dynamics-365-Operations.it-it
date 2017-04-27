@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>Profili registrazione fornitori
 
+[!include[banner](../includes/banner.md)]
+
+
 I profili di registrazione fornitore controllano la registrazione delle transazioni fornitore nella contabilità generale.
 
 <a name="vendor-posting-profiles"></a>Profili registrazione fornitori
@@ -146,6 +149,8 @@ Specificare i valori seguenti per impostare il profilo registrazione:
 | **Liquidazione** | Selezionare questa opzione per attivare la liquidazione automatica delle transazioni con questo profilo registrazione. Se questa opzione è deselezionata, è necessario liquidare manualmente le transazioni utilizzando la pagina Liquida transazioni aperte. |
 | **Annulla**     | Selezionare questa opzione per poter annullare le transazioni con questo profilo registrazione.                                                                                                               |
 | **Chiudi**      | Selezionare un profilo registrazione da applicare quando le transazioni con il profilo registrazione specificato vengono chiuse. È considerata chiusa una transazione liquidata completamente.                                       |
+
+
 
 
 

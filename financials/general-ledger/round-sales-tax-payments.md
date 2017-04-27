@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagamenti IVA e regole di arrotondamento
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo illustra il funzionamento dell'impostazione della regola di arrotondamento in Uffici IVA e l'arrotondamento del saldo dell'IVA durante il processo Liquida e registra IVA.
 
-Periodicamente, l'IVA deve essere dichiarata e pagata agli uffici tributari. Questa operazione può essere effettuata mediante l'esecuzione del processo VAT della posta e liquidati nella pagina VAT. L'VAT per un periodo verrà liquidato a fronte dei conti VAT e il saldo VAT verrà registrato nel conto di liquidazione VAT. Il saldo IVA, registrato nel conto di liquidazione IVA, può essere arrotondato in base a quanto richiesto dagli uffici tributari impostando una regola di arrotondamento nella pagina IVA. 
+Periodicamente, l'IVA deve essere dichiarata e pagata agli uffici tributari. Questa operazione può essere effettuata mediante l'esecuzione del processo di liquidazione e registrazione IVA nella pagina IVA. L'IVA per un periodo verrà liquidata nei conti IVA e il saldo IVA verrà registrato nel conto di liquidazione IVA. Il saldo IVA, registrato nel conto di liquidazione IVA, può essere arrotondato in base a quanto richiesto dagli uffici tributari impostando una regola di arrotondamento nella pagina IVA. 
 
 La differenza di arrotondamento viene registrata nel conto di arrotondamento IVA selezionato nel campo Conti per transazioni automatiche nella contabilità generale.
 
@@ -42,10 +45,10 @@ L'IVA totale per un periodo mostra un saldo in avere di -98.765,43. La persona g
 
 La persona giuridica desidera utilizzare un metodo che consenta di arrotondare il saldo all'unità più vicina. L'utente responsabile della contabilità IVA esegue le seguenti operazioni.
 
-1.  Uffici VAT &gt; VAT delle imposte &gt;&gt; indirette VAT clic su
+1.  Fare clic su Imposta &gt; Imposte indirette &gt; IVA &gt; Uffici IVA.
 2.  Nella scheda dettaglio Generale selezionare Normale nel campo Tipo di arrotondamento.
 3.  Nel campo Arrotondamento immettere 1.
-4.  Al momento del pagamento dell'IVA all'ufficio tributario, aprire la pagina Liquida e registra IVA. (VAT liquidati &gt;&gt; e &gt; Registra VAT delle dichiarazioni fiscali di clic.)
+4.  Al momento del pagamento dell'IVA all'ufficio tributario, aprire la pagina Liquida e registra IVA. Fare clic su Imposta &gt; Dichiarazioni &gt; IVA &gt; Liquida e registra IVA.
 5.  Nel conti di liquidazione IVA l'importo di soggettività tributaria di 98.765,43 viene arrotondato a 98.765.
 
 Le seguente tabella mostra un importo di 98.765,43 arrotondato utilizzando ogni metodo di arrotondamento disponibile nel campo Tipo di arrotondamento del modulo Uffici IVA.
@@ -61,6 +64,8 @@ Le seguente tabella mostra un importo di 98.765,43 arrotondato utilizzando ogni 
 > [!NOTE]                                                                                  
 > Se si seleziona A proprio vantaggio, l'arrotondamento è sempre a vantaggio della persona giuridica. 
 
-Per ulteriori informazioni, vedere panoramica [] (VAT) indirect-taxes-overview.md. 
+Per ulteriori informazioni, vedere [Panoramica IVA](indirect-taxes-overview.md). 
+
+
 
 

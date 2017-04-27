@@ -1,6 +1,6 @@
 ---
-title: Inserisci acquisto spese di analisi di contenuto Power BI
-description: "In questo argomento sono descritti gli argomenti inclusi nel collo del contenuto di analisi spese di acquisto relativa potenza di Microsoft BI. Descrive come accedere ai report inclusi nel collo e documentazione vengono fornite informazioni sul modello dati e sulle entità utilizzati per sviluppare un pacchetto di contenuto."
+title: Contenuto Power BI sull&quot;analisi delle spese di acquisto
+description: "In questo argomento viene descritto cosa è incluso nel pacchetto di contenuti sull&quot;analisi delle spese di acquisto per Microsoft Power BI. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il pacchetto di contenuti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-12-30 09 - 40 - 51
@@ -24,23 +24,23 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>Inserisci acquisto spese di analisi di contenuto Power BI
+# <a name="purchase-spend-analysis-power-bi-content"></a>Contenuto Power BI sull'analisi delle spese di acquisto
 
-In questo argomento sono descritti gli argomenti inclusi nel collo del contenuto di analisi spese di acquisto relativa potenza di Microsoft BI. Descrive come accedere ai report inclusi nel collo e documentazione vengono fornite informazioni sul modello dati e sulle entità utilizzati per sviluppare un pacchetto di contenuto.
+In questo argomento viene descritto cosa è incluso nel pacchetto di contenuti sull'analisi delle spese di acquisto per Microsoft Power BI. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il pacchetto di contenuti.
 
 <a name="overview"></a>Panoramica
 --------
 
-Il pacchetto del contenuto di analisi spese di acquisto relativa potenza di Microsoft BI è stato creato per i responsabili acquisti e i dirigenti responsabili di budget. Pianificato per aiutarli per gestire un occhio alla spesa di acquisto. Usa dati transazionali di acquisto da Microsoft Dynamics 365 per le operazioni e offre sia una visualizzazione aggregata di cifre livello di acquisto che il totale della spesa di acquisto dal fornitore e prodotto. Modifiche dei culminante dei report nell'acquisto di spesa nel tempo. Di conseguenza, è possibile utilizzare per avvisare i responsabili sulle tendenze positive e negative di spesa per singoli fornitori e prodotti. I grafici mostrano l'importo dell'acquisto per le categorie di approvvigionamento e i diversi gruppi di fornitori. Categoria e responsabili specifiche possono essere utile avvalersi utilizzare i grafici che consentono di identificare le modifiche al comportamento di spesa. Il pacchetto del contenuto dei responsabili acquisti e i dirigenti responsabili di budget analizzano la spesa di acquisto nei seguenti modi:
+Il pacchetto di contenuti sull'analisi delle spese di acquisto per Microsoft Power BI è stato creato per i responsabili degli acquisti e dei budget. È progettato per aiutare tali responsabili a controllare la spesa di acquisto. Usa dati transazionali di acquisto provenienti da Microsoft Dynamics 365 for Operations e offre sia una visualizzazione aggregata delle cifre di acquisto a livello di società che una scomposizione dettagliata della spesa di acquisto per fornitore e prodotto. I report evidenziano le modifiche nella spesa di acquisto nel tempo. Di conseguenza, è possibile utilizzarli per avvisare i responsabili sulle tendenze positive e negative di spesa per singoli fornitori e prodotti. I grafici mostrano la spesa di acquisto per categorie di approvvigionamento e gruppi di fornitori diversi. I responsabili di categoria e regionali possono trovare utile avvalersi di questi grafici per identificare i cambiamenti nel comportamento di spesa. Il pacchetto di contenuti consente ai responsabili degli acquisti e dei budget di analizzare la spesa di acquisto nei seguenti modi:
 
--   acquisto da inizio anno fino data (per gruppo di fornitori e singoli fornitori, categoria di approvvigionamento e i prodotti e percorso del fornitore)
--   Modifica di annuali di acquisto (per il gruppo e la categoria di approvvigionamento fornitori)
+-   Acquisto da inizio anno (per gruppo di fornitori e singoli fornitori, per categoria di approvvigionamento e singoli prodotti e per ubicazione del fornitore)
+-   Modifica di acquisto da inizio anno (per gruppo di fornitori e categoria di approvvigionamento)
 
-## <a name="accessing-the-content-pack"></a>Accesso al collo di contenuto
-Il pacchetto del contenuto di analisi spese di acquisto viene rilasciato come cespite all'implementazione del ciclo di vita di Microsoft Dynamics fornisce assistenza (LCS) ed è possibile accedere da Microsoft Dynamics 365 per le operazioni. Per ulteriori informazioni sull'accesso a e i report aperti di Power BI, vedere [di Power BI nel contenuto LC da Microsoft e dai partner power-bi-content-microsoft-partners.md] ().
+## <a name="accessing-the-content-pack"></a>Accesso al pacchetto di contenuti
+Il pacchetto di contenuti sull'analisi delle spese di acquisto viene pubblicato come risorsa di implementazione in Microsoft Dynamics Lifecycle Services (LCS) ed è possibile accedervi da Microsoft Dynamics 365 for Operations. Per ulteriori informazioni su come accedere ai report Power BI e aprirli, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>In inclusa pacchetto di contenuto
-Il pacchetto del contenuto di analisi spese di acquisto è incluso un report costituito da un insieme di stato. Questa e viene visualizzata come i grafici, le mattonelle e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel collo di contenuto.
+## <a name="metrics-that-are-included-in-the-content-pack"></a>Metriche incluse nel pacchetto di contenuti
+Il pacchetto di contenuti sull'analisi delle spese di acquisto include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel pacchetto di contenuti.
 
 <table>
 <colgroup>
@@ -50,110 +50,110 @@ Il pacchetto del contenuto di analisi spese di acquisto è incluso un report cos
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pagina del report</th>
+<th>Pagina di report</th>
 <th>Grafici</th>
-<th>Tiles</th>
+<th>Riquadri</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Acquisto dal fornitore</td>
+<td>Acquisti per fornitore</td>
 <td><ul>
-<li>Fornitori di principale 10 dall'acquisto (grafico a barre impilato)</li>
-<li>Acquisti totale dal gruppo/paese nome (grafico a torta) fornitore</li>
-<li>Acquisti per gruppo/paese nome (grafico del fornitore di colonna)</li>
-<li>Acquisti medio per gruppo/paese nome (grafico del fornitore di colonna)</li>
+<li>Primi 10 fornitori per acquisti (grafico a barre impilate)</li>
+<li>Acquisti totali per gruppo di fornitori/paese/nome (grafico a torta)</li>
+<li>Acquisti per gruppo di fornitori/paese/nome (istogramma)</li>
+<li>Media degli acquisti per gruppo di fornitori/paese/nome (istogramma)</li>
 </ul></td>
 <td><ul>
 <li>Totale acquisto</li>
-<li>Crescita di acquisto di YOY</li>
-<li>Totale # fornitori</li>
-<li>Totale # dei fornitori attivi</li>
+<li>Crescita degli acquisti su base annua</li>
+<li>N. totale fornitori</li>
+<li>N. totale dei fornitori attivi</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Per prodotto di acquisto</td>
+<td>Acquisti per prodotto</td>
 <td><ul>
-<li>Acquisto dalla categoria di approvvigionamento/nome prodotto (istogramma)</li>
-<li>Acquisti totale dalla categoria di approvvigionamento/nome prodotto (grafico a torta)</li>
-<li>Prodotti principale del 10 dall'acquisto (grafico a barre impilato)</li>
+<li>Acquisti per categoria di approvvigionamento/nome prodotto (istogramma)</li>
+<li>Acquisti totali per categoria di approvvigionamento/nome prodotto (grafico a torta)</li>
+<li>Primi 10 prodotti per acquisti (grafico a barre impilate)</li>
 </ul></td>
 <td><ul>
-<li>Totale # dei prodotti</li>
-<li>Percentuale attiva totale di prodotti del numero totale di prodotti</li>
-<li>Numero di prodotti che rappresentano un acquisto di 80%</li>
+<li>N. totale di prodotti</li>
+<li>Percentuale di prodotti attivi totali del numero totale di prodotti</li>
+<li>Numero di prodotti che rappresentano l'80% degli acquisti</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Acquisto da period*</td>
+<td>Acquisti per periodo*</td>
 <td><ul>
-<li>Acquisti mensili/giorno (istogramma)</li>
-<li>Scostamento cumulativo di acquisto YOY (grafico a cascata)</li>
-<li>Crescita acquisti totale YOY (istogramma)</li>
+<li>Acquisti al mese/giorno (istogramma)</li>
+<li>Scostamento di acquisti cumulativi su base annua (grafico a cascata)</li>
+<li>Crescita degli acquisti totali su base annua (istogramma)</li>
 <li>Rendiconto di approvvigionamento (matrice)</li>
 </ul></td>
 <td><ul>
-<li>Crescita di acquisto di YOY</li>
-<li>% Crescita di acquisto di YOY</li>
+<li>Crescita degli acquisti su base annua</li>
+<li>% di crescita degli acquisti su base annua</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Acquisti per ubicazione fornitore</td>
+<td>Acquisti per ubicazione del fornitore</td>
 <td><ul>
-<li>Acquisti la città</li>
-<li>% Crescita di acquisto YOY</li>
+<li>Acquisti per città</li>
+<li>% di crescita su base annua degli acquisti</li>
 <li>Acquisti per paese</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Analisi di spesa di acquisto in base all'ora</td>
+<td>Analisi delle spese di acquisto in base all'ora</td>
 <td><ul>
-<li>Anno di acquisto corrente in base al mese/giorno (grafico a linee)</li>
-<li>Corrente di acquisto e lo scorso anno (grafico riga e di colonna)</li>
+<li>Acquisti nell'anno corrente al mese/giorno (grafico a linee)</li>
+<li>Acquisti nell'anno corrente e nell'anno passato (grafico a linee e colonne)</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Analisi di spesa di acquisto dal fornitore</td>
+<td>Analisi delle spese di acquisto per fornitore</td>
 <td><ul>
-<li>Acquisti % del fornitore principale 10 - Fornitori (imbuto)</li>
-<li>Fornitori di principale 10 con YOY di spesa aumentato</li>
-<li>Fornitori di principale 10 con YOY di spesa di riduzione</li>
+<li>% di acquisti dei primi 10 fornitori (grafico a imbuto)</li>
+<li>Primi 10 fornitori con aumento delle spese su base annua</li>
+<li>Primi 10 fornitori con diminuzione delle spese su base annua</li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-acquisto\* questo anno e lo scorso anno e crescita per la categoria di approvvigionamento
+\* Acquisti nell'anno corrente e nell'anno passato e crescita per categoria di approvvigionamento
 
-## <a name="data-model-and-entities"></a>Modello dati e entità
-Dynamics 365 per i dati delle operazioni viene utilizzato per il report nel collo del contenuto di analisi spese di acquisto. Questi dati sono rappresentate come misure aggregate che sono con stato Approntato nella memoria di entità, ovvero un database di Microsoft SQL che viene ricerca per l'analisi dei dati. Per ulteriori informazioni sul record di entità, vedere [di Integrazione di Power BI al punto vendita dell'entità in Dynamics] (blog di registrazione dell'indirizzo https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le misure aggregate in questo Service Pack sono contenuti il sottoinsieme delle misurazioni aggregate cui è già disponibili nel cubo di acquisto in Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 per le operazioni 2012 R3. Per impostare in scenae le misure del cubo aggregate nella memoria di entità, è necessario renderli schierabili. Per ulteriori informazioni, vedere la procedura per impostare in scenae le misurazioni aggregate nel punto vendita dell'entità nel campo [di Integrazione di Power BI al punto vendita dell'entità in Dynamics] (blog di registrazione dell'indirizzo https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le seguenti misure aggregate chiave sono disponibili direttamente dalle righe entità fatture e utilizzate come base del collo di contenuto.
+## <a name="data-model-and-entities"></a>Modello dati ed entità
+I dati di Dynamics 365 for Operations vengono utilizzati per il report nel pacchetto di contenuti sull'analisi delle spese di acquisto. Questi dati sono rappresentati come misure aggregate che vengono collocate nell'archivio entità, ovvero un database di Microsoft SQL ottimizzato per l'analisi. Per ulteriori informazioni sull'Archivio entità, vedere il post di blog [Integrazione di Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le misure di aggregazione in questo pacchetto di contenuti sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Acquisti in Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 for Operations 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità nel post di blog [Integrazione di Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le seguenti misure di aggregazione chiave sono disponibili direttamente dall'entità delle righe della fattura e sono utilizzate come base del pacchetto di contenuti.
 
-| Entità        | Key aggregate measurements | Origine dati per Dynamics 365 per le operazioni | Campo              | descrizione                           |
+| Entità        | Misure di aggregazione chiave | Origine dati per Dynamics 365 for Operations | Campo              | descrizione                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
-| Righe fattura | Acquisti                   | VendInvoiceTrans                            | SUM (LineAmountMST) | Importo nella valuta di contabilizzazione |
+| Righe fattura | Acquisti                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Importo nella valuta di contabilizzazione |
 
-Nella seguente tabella vengono illustrate le misurazioni chiave calcolate nel collo di contenuto dall'entità delle righe fattura.
+Nella seguente tabella vengono illustrate le misurazioni chiave calcolate nel pacchetto di contenuti dall'entità delle righe della fattura.
 
 | Unità di misura               | Calcolo                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Anno di acquisto corrente | Anno di acquisto corrente SUM = ('acquisto di\]lines'entity_PLACEHOLDER [\ fatture)                                            |
-| Acquisti lo scorso anno    | L'acquisto lo scorso CALCOLA = (SUM di acquisto (\]), SAMEPERIODLASTYEAR (data di lines'entity_PLACEHOLDER\]\ [\[di date) |
-| Crescita di acquisto di YOY   | Crescita di acquisto di YOY =\] anno corrente \[acquisto \[- acquisto lo scorso\]\[                            |
+| Acquisti nell'anno corrente | Acquisto nell'anno corrente = SUM('Righe fattura'\[Acquisti\])                                            |
+| Acquisti nell'anno passato    | Acquisti nell'anno passato = CALCULATE(SUM('Righe fattura'\[Acquisti\]), SAMEPERIODLASTYEAR(Dates\[Data\])) |
+| Crescita degli acquisti su base annua   | Crescita degli acquisti su base annua = \[Acquisti nell'anno corrente\] - \[Acquisti nell'anno passato\]                            |
 
-Nelle dimensioni del collo documentazione vengono utilizzate come filtri per affettare le misurazioni aggregate, in modo che sia possibile ottenere ulteriori granularità e comprensioni analitiche più contrassegnate.
+Le seguenti dimensioni chiave nel pacchetto di contenuti vengono utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e fornire informazioni analitiche più approfondite.
 
 | Entità                 | Esempi di attributi                                |
 |------------------------|-------------------------------------------------------|
-| Fornitori                | Gruppi di fornitori, paese del fornitore o le regioni, nome del fornitore |
-| Prodotti               | Numero prodotto, nome prodotto, il nome di gruppi di articoli        |
-| Categorie di approvvigionamento | Categoria di approvvigionamento, nomi di categoria di approvvigionamento      |
+| Fornitori                | Gruppi di fornitori, paese o regioni del fornitore, nome del fornitore |
+| Prodotti               | Numero prodotto, nome prodotto, nome dei gruppi di articoli        |
+| Categorie di approvvigionamento | Categoria di approvvigionamento, nomi delle categorie di approvvigionamento      |
 | Persone giuridiche         | Nome persona giuridica                                     |
-| Appuntamenti                  | Date, contropartita di anno                                    |
+| Appuntamenti                  | Date, offset anno                                    |
 
-Per impostazione predefinita, il collo documentazione indicati i dati dell'anno di calendario corrente. Tuttavia, è possibile modificare il filtro per date nella sezione relativa ai filtri report. È inoltre possibile modificare il filtro dalla società.
+Per impostazione predefinita, il pacchetto di contenuti mostra i dati dell'anno di calendario corrente. Tuttavia, è possibile modificare il filtro della data nella sezione relativa ai filtri di report. È inoltre possibile modificare il filtro della società.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 Di seguito sono riportati alcuni collegamenti utili correlati alle entità e alla creazione di contenuto per Power BI:

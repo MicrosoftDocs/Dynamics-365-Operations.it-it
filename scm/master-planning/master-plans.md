@@ -1,6 +1,6 @@
 ---
 title: Piani generali
-description: "Utilizzare i vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione che si desidera monitorare e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni o la soddisfazione dei clienti interna."
+description: "Utilizzare vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione da sottoporre a monitoraggio e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni interne o alla soddisfazione dei clienti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>Piani generali
 
-Utilizzare i vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione che si desidera monitorare e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni o la soddisfazione dei clienti interna. 
+[!include[banner](../includes/banner.md)]
+
+
+Utilizzare vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione da sottoporre a monitoraggio e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni interne o alla soddisfazione dei clienti. 
 
 È possibile configurare i piani generali nella pagina **Piani generali**.
 
@@ -50,8 +53,10 @@ Una società può scegliere di utilizzare semplicemente un piano dinamico o il p
 
 [Impostazioni copertura](coverage-settings.md)
 
-[Separando pianificazione tattica e operative per la programmazione generale (http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)]
+[Separazione della pianificazione tattica e operativa per la programmazione generale](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[Pianificazione generale: Utilizzare un piano generale statico e dinamico o utilizzare un piano?] (https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[Pianificazione generale: utilizzare un piano generale statico e dinamico o utilizzare un piano?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

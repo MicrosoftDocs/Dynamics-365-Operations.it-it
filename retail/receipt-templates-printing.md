@@ -1,6 +1,6 @@
 ---
 title: Modelli e stampa di ricevute
-description: "In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Microsoft Dynamics 365 per le operazioni al dettaglio include una progettazione layout modulo in cui è possibile creare facilmente e modificare i vari tipi di layout modulo."
+description: "In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Microsoft Dynamics 365 for Operations - Retail include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="receipt-templates-and-printing"></a>Modelli e stampa di ricevute
 
-In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Microsoft Dynamics 365 per le operazioni al dettaglio include una progettazione layout modulo in cui è possibile creare facilmente e modificare i vari tipi di layout modulo.
+[!include[banner](includes/banner.md)]
 
-** Importante: ** È necessario impostare layout modulo e profili ricevuta per stampare ricevute e altri documenti da Retail POS moderno al dettaglio e per appannarti il POS. È possibile includere i layout modulo più in un profilo ricevuta. È possibile quindi assegnare il profilo della ricevuta a una stampante modificando un profilo hardware.
+
+In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Microsoft Dynamics 365 for Operations - Retail include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo.
+
+**Importante:** È necessario impostare i layout modulo e i profili della ricevuta per stampare le ricevute e altri documenti da Retail Modern POS e POS cloud. È possibile includere più layout modulo in un profilo ricevuta. È possibile quindi assegnare il profilo della ricevuta a una stampante modificando un profilo hardware.
 
 ## <a name="set-up-a-receipt-format"></a>Impostare un formato di ricevuta
-1.  ** Fare clic su Retail e il commercio ** &gt; ** Manica Impostazioni ** &gt; ** POS configurato ** &gt; ** POS ** &gt; ** formati di entrata **.
+1.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **POS** &gt; **Formati ricevuta**.
 2.  Nella pagina **Formati ricevuta** fare clic su **Nuovo** per creare un nuovo layout modulo o selezionare un layout modulo esistente.
 3.  Nel campo **Formati ricevuta** immettere un identificativo per il layout modulo e quindi selezionare il tipo di ricevuta per cui viene utilizzato per layout. È inoltre possibile immettere una descrizione e un nome breve per la ricevuta nel campo **Titolo**.
 4.  Nella scheda dettaglio **Generale** selezionare un'opzione per definire il comportamento di stampa:
@@ -44,11 +47,11 @@ In questo articolo viene descritto come modificare layout modulo per controllare
 ## <a name="design-a-receipt-format"></a>Progettare un formato di ricevuta
 Utilizzare il progetto del layout modulo per creare graficamente il layout del documento del modulo. La pagina **Progettazione formato ricevuta** include tre sezioni: **Intestazione**, **Righe** e **Piè di pagina**. Alcuni tipi di layout modulo utilizzano elementi di tutte e tre le sezioni, mentre altri tipi utilizzano elementi solo di una o due sezioni. Per visualizzare gli elementi disponibili per ogni sezione, fare clic sul pulsante nell'area di navigazione a sinistra della pagina.
 
-1.  ** Fare clic su Retail e il commercio ** &gt; ** Manica Impostazioni ** &gt; ** POS configurato ** &gt; ** POS ** &gt; ** formati di entrata **.
+1.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **POS** &gt; **Formati ricevuta**.
 2.  Nella pagina **Formato ricevuta** selezionare un layout modulo e quindi fare clic su **Progettazione**.
 3.  Fare clic su **Esegui** per avviare l'installazione dell'host della progettazione Retail.
-4.  Nella barra di notifica visualizzata nella parte inferiore della finestra di Internet Explorer, fare clic su **Apri** per avviare l'installazione della progettazione con un clic. La barra di notifica venga visualizzato in un percorso diverso in altri browser.) L'indicatore di avanzamento mostra l'avanzamento del processo di installazione.
-5.  Dopo l'installazione viene completata, immettere il proprio Dynamics 365 per le operazioni di nome utente e password e fare clic su ** segno in ** per avviare la finestra di progettazione.
+4.  Nella barra di notifica visualizzata nella parte inferiore della finestra di Internet Explorer, fare clic su **Apri** per avviare l'installazione della progettazione con un clic. La barra di notifica potrebbe apparire in una posizione diversa in altri browser. L'indicatore di avanzamento mostra l'avanzamento del processo di installazione.
+5.  Dopo che l'installazione è stata completata, immettere nome utente e password di Microsoft Dynamics 365 for Operations e quindi fare clic su **Accedi** per avviare la finestra di progettazione.
 6.  Dopo che le credenziali vengono convalidate e si avvia la progettazione, è possibile iniziare a progettare il formato ricevuta o a modificare un formato esistente.
 7.  Per creare gli elementi del modulo, selezionare la sezione **Intestazione**, **Righe** o **Piè di pagina** e quindi trascinare un elemento dalla sezione all'area di lavoro. La maggior parte degli elementi contengono variabili che sono automaticamente compilate con dati ricavati dal database. Altre elementi, ad esempio il **Testo**, consentono di stampare testo personalizzato sulla ricevuta. **Nota**: è possibile specificare su quante righe si estenderà ciascuna sezione modificando il numero nell'angolo inferiore destro della sezione. Per semplificare la modifica di una sezione, aumentare l'altezza della sezione trascinando la barra di ridimensionamento nella parte inferiore della sezione. L'altezza della sezione nell'area di lavoro non influisce sul numero di righe della ricevuta effettiva.
 8.  Dopo aver trascinato un elemento nello spazio di lavoro, impostare le proprietà per la parte nel riquadro **Informazioni oggetto **in fondo al modulo. Immettere una o più delle seguenti informazioni:
@@ -63,9 +66,11 @@ Utilizzare il progetto del layout modulo per creare graficamente il layout del d
 ## <a name="assign-receipt-profiles"></a>Assegnazione di profili ricevuta
 I profili ricevuta vengono assegnati direttamente alle stampanti nel profilo hardware.
 
-1.  Apre il profilo hardware ** facendo clic su Retail e il commercio ** &gt; ** il Manica impostato ** &gt; ** POS configurato ** &gt; ** profili Retail POS ** &gt; ** profilo hardware **.
+1.  Aprire il profilo hardware facendo clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profilo hardware**.
 2.  Selezionare la stampante e quindi, nel campo **Profilo ricevuta **assegnare il profilo ricevuta da utilizzare nel registro.
 
 **Nota:** se vengono utilizzate due stampanti, una stampante può essere utilizzata per stampare le ricevute termali a 40 colonne standard. La seconda stampante viene in genere utilizzata per stampare i tipi di ricevuta a pagina intera che richiedono ulteriori informazioni. Questi tipi di ricevuta includono le ricevute per l'ordine cliente e le fatture cliente.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: Ammortamento manuale dei cespiti per l&quot;Italia
-description: In questo argomento vengono fornite informazioni sull&quot;ammortamento dei cespiti per le persone giuridiche italiane.
+description: In questo argomento vengono fornite informazioni sull&quot;ammortamento dei cespiti per le persone giuridiche in Italia.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,20 +27,25 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation-of-fixed-assets-for-italy"></a>Ammortamento manuale dei cespiti per l'Italia
 
-In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche italiane. 
+[!include[banner](../includes/banner.md)]
 
-Per le persone giuridiche italiane, il metodo di ammortamento manuale ha funzionalità aggiuntive in cui sono inclusi i seguenti campi:
 
--   ** Base di calcolo ** - ** ** questo campo sono disponibili due opzioni: ** ** Giorni o mesi ** ** su ** profili di ammortamento ** pagina. L'ammortamento di cespiti viene calcolato per l'anno nel seguente modo:
-    -   Ammortamento di giorni = intera ammortamento \* (numero di anni delle rimanenze/totale di giorni di giorni nell'anno)
-    -   Mesi di ammortamento = intera ammortamento \* (numero di mesi remaining/12 di anni)
--   ** Data d'esecuzione ammortamento ** il campo è stato aggiunto alle pagine seguenti:
+In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia. 
+
+Per le persone giuridiche in Italia, il metodo di ammortamento manuale ha una funzionalità aggiuntiva che include i seguenti campi:
+
+-   **Base di calcolo** - ** **Questo campo presenta due opzioni: **Giorni** o **Mesi** nella pagina **Profili di ammortamento**. L'ammortamento di cespiti viene calcolato per l'anno nel seguente modo:
+    -   Ammortamento in giorni = intero ammortamento \* (numero di giorni rimanenti/giorni totali nell'anno)
+    -   Ammortamento in mesi = intero ammortamento \* (numero di mesi rimanenti/12)
+-   **Data d'esecuzione ammortamento**: questo campo è stato aggiunto alle pagine seguenti:
     -   Giornale di registrazione generale
     -   Giornale di registrazione cespiti
     -   Giornale di approvazione fatture
     -   Giornale di registrazione fatture
     -   Ordine fornitore
 
-** Data d'esecuzione ammortamento ** deve essere impostato al momento di acquisizione e viene impostata sulla data di sistema dell'acquisizione. ** Data d'esecuzione ammortamento ** viene utilizzato per calcolare l'ammortamento per ** numero di giorni rimanenti ** o ** numero di mesi ** rimanente, a seconda ** base di calcolo ** il valore. ** Se la data di esecuzione dell'** è precedente del secondo nome del mese (il giorno o quattordicesimo per febbraio), il mese corrente viene incluso la quantità mesi, il cespite verrà considerato come acquistato il mese successivo.
+La **Data d'esecuzione ammortamento** deve essere configurata al momento dell'acquisto ed essere impostata sulla data del sistema durante l'acquisto. La **Data d'esecuzione ammortamento** viene utilizzata per calcolare l'ammortamento per **Numero di giorni rimanenti** o **Numero di mesi rimanenti**, a seconda del valore di **Base di calcolo**. Se la **Data d'esecuzione ammortamento** è precedente alla metà del mese (il 15 o il 14 febbraio), il mese corrente viene incluso nel numero di mesi, in caso contrario il cespite viene considerato come acquisito nel mese successivo.
+
+
 
 

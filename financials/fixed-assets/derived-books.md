@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-books"></a>Libri derivati
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica delle funzionalità dei libri derivati.
 
-Lo scopo dei registri beni ammortizzabili derivati è semplificare la registrazione delle transazioni del libro cespiti pianificate a intervalli regolari.  È possibile selezionare un registro beni ammortizzabili come primario. Di solito si tratta del libro utilizzato per l'ammortamento contabile. Quindi lo si collega ad altri libri impostati per la registrazione di transazioni negli stessi intervalli del libro principale. I libri di ammortamento fiscale sono spesso impostati come libri derivati. 
+Lo scopo dei libri derivati è semplificare la registrazione delle transazioni relative ai libri di cespiti pianificate a intervalli regolari.  È possibile selezionare un libro come primario. Di solito si tratta del libro utilizzato per l'ammortamento contabile. Quindi lo si collega ad altri libri impostati per la registrazione di transazioni negli stessi intervalli del libro principale. I libri di ammortamento fiscale sono spesso impostati come libri derivati. 
 
 Le transazioni più comuni da impostare per la registrazione in libri derivati sono le acquisizioni, le rettifiche di acquisizioni e le dismissioni. 
 
@@ -42,6 +45,8 @@ Quando la transazione viene registrata, una transazione di acquisizione viene ge
 > [!NOTE]                                                                                                                               
 > I libri impostati per la registrazione di transazioni a intervalli diversi da quelli del libro principale devono essere collegati al cespite come libri separati, non come libri derivati.  
 
-Per ulteriori informazioni, vedere [registrazione con i registri beni ammortizzabili derivati post-derived-value-models.md] ().
+Per ulteriori informazioni, vedere [Registrazione con i libri derivati](post-derived-value-models.md).
+
+
 
 

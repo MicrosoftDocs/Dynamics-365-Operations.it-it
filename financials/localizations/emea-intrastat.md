@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="intrastat"></a>Intrastat
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
 
 Intrastat è il sistema per la raccolta e la generazione di statistiche sugli scambi commerciali tra paesi dell'Unione Europea. La dichiarazione Intrastat è richiesta ogni volta che un prodotto attraversa il confine di un altro paese UE. In più paesi, il report Intrastat si applica anche ai servizi. Gli elementi obbligatori e facoltativi possono essere raccolti nella dichiarazione Intrastat. Gli elementi seguenti sono obbligatori: numero di imposta sul valore aggiunto (IVA) della parte responsabile di immettere informazioni, il periodo di riferimento, il flusso (arrivo o spedizione), il codice di voce doganale di otto cifre, lo stato membro del partner (stato membro della spedizione negli arrivi e stato membro di destinazione delle spedizioni), il valore delle merci, la quantità delle merci (massa netto e unità supplementare) e la natura della transazione. Per i paesi/regioni è inoltre possibile raccogliere gli elementi facoltativi nelle varie condizioni. Alcuni elementi facoltativi sono il paese di origine, i termini di consegna, la modalità di trasporto, un codice di voce doganale più dettagliato che CN8, l'area di origine nelle spedizioni e l'area di destinazione degli arrivi, la procedura statistica, il valore statistico, una descrizione delle merci e il porto/aeroporto di carico/di scarico.
@@ -34,24 +37,24 @@ Intrastat è il sistema per la raccolta e la generazione di statistiche sugli sc
 ## <a name="overview-of-the-intrastat-reporting-process"></a>Panoramica del processo di reporting Intrastat
 Le seguenti sezioni illustrano il flusso globale di informazioni utilizzato per la dichiarazione Intrastat.
 
-### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Immettere una transazione che supera il confine di un altro paese UE
+### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Immettere una transazione che attraversa il confine di un altro paese UE
 
-Una fattura cliente, una fattura a testo libero, una fattura di acquisto, una fattura di progetto, un documento di trasporto cliente, un'entrata prodotti del fornitore, un ordine di trasferimento viene trasferito nel giornale di registrazione Intrastat solo se il tipo di paesi di destinazione (sulle spedizioni) o la spedizione (gli arrivi) è **UE**. Questa funzionalità è estesa per Microsoft Dynamics 365 per la versione 1611 delle operazioni e consente di specificare gli indirizzi di carico per una transazione intracomunitaria. Se l'indirizzo di carico è diverso all'ufficio del fornitore (o l'indirizzo commerciale del cliente per ordine di reso) la dichiarazione Intrastat per consentire a queste informazioni. Quando si crea un ordine cliente, una fattura a testo libero, un ordine fornitore, una fattura fornitore, una fattura di progetto, un ordine di trasferimento, alcuni campi correlati al commercio estero hanno valori predefiniti nell'intestazione del documento o nella riga. Il codice transazione predefinito viene ricavato dal campo corrispondente sulla pagina **Parametri per il commercio estero**. Il codice di voce doganale predefinito, il paese di origine e lo stato/regione o provincia di origine vengono ottenuti dall'articolo. È possibile modificare i valori predefiniti ed è inoltre necessario completare altre informazioni commerciali estere: procedura statistica, metodo di trasporto e porto.
+Una fattura cliente, una fattura a testo libero, una fattura di acquisto, una fattura di progetto, un documento di trasporto cliente, un'entrata prodotti del fornitore, un ordine di trasferimento viene trasferito nel giornale di registrazione Intrastat solo se il tipo di paesi di destinazione (sulle spedizioni) o la spedizione (gli arrivi) è **UE**. Questa funzionalità è stata estesa per Microsoft Dynamics 365 for Operations versione 1611 e consente di specificare gli indirizzi di carico per una transazione intracomunitaria. Se l'indirizzo di carico è diverso all'ufficio del fornitore (o l'indirizzo commerciale del cliente per ordine di reso) la dichiarazione Intrastat opererà con queste informazioni. Quando si crea un ordine cliente, una fattura a testo libero, un ordine fornitore, una fattura fornitore, una fattura di progetto, un ordine di trasferimento, alcuni campi correlati al commercio estero hanno valori predefiniti nell'intestazione del documento o nella riga. Il codice transazione predefinito viene ricavato dal campo corrispondente sulla pagina **Parametri per il commercio estero**. Il codice di voce doganale predefinito, il paese di origine e lo stato/regione o provincia di origine vengono ottenuti dall'articolo. È possibile modificare i valori predefiniti ed è inoltre necessario completare altre informazioni commerciali estere: procedura statistica, metodo di trasporto e porto.
 
-### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Utilizzare il giornale di registrazione Intrastat per generare le informazioni sugli scambi commerciali tra i paesi UE
+### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Utilizzare il giornale di registrazione Intrastat per generare informazioni relative agli scambi commerciali tra i paesi dell'Unione Europea (UE).
 
 A fini statistici, generare ogni mese le informazioni relative al commercio tra i diversi paesi/regioni UE. È possibile trasferire le transazioni da una fattura a testo libero, una fattura cliente, un documento di trasporto cliente, una fattura fornitore, un documento di trasporto fornitore, una fattura progetto, o un ordine di trasferimento, in base ai criteri di trasferimento impostati nella pagina **Parametri per il commercio estero**. In alternativa, è possibile immettere le transazioni manualmente. È possibile aggiornare manualmente le transazioni trasferite nel giornale di registrazione Intrastat, se gli aggiornamenti vengono richiesti. Sotto le condizioni specifiche impostate nella pagina **Compressione di Intrastat**, è possibile comprimere le transazioni nel giornale di registrazione Intrastat. Alcuni paesi consentono di applicare una piccola soglia di transazione. È quindi possibile dichiarare tutte le transazioni in tale soglia nel codice di voce doganale specificato. È possibile aggiornare il codice di voce doganale sulle righe del giornale di registrazione Intrastat corrispondenti, in**Limite minimo** base all'impostazione della pagina **Parametri per il commercio estero**. È inoltre possibile comprimere le transazioni, in base all'impostazione **Compressione di Intrastat**. È possibile convalidare la completezza delle transazioni nel giornale di registrazione Intrastat, in base all'impostazione **Impostazione dell'assegno** della pagina **Parametri per il commercio estero**. I dati nei campi corrispondenti possono essere convalidati per completezza: paese, stato/regione o provincia, peso, codice di voce doganale, codice transazione, unità aggiuntiva, porta, origine, termini di consegna, metodo di trasporto e numero esenzione IVA. Le transazioni che non vengono completate verranno contrassegnate come non valide.
 
-### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Utilizzare il giornale di registrazione Intrastat per visualizzare le informazioni relative agli scambi commerciali tra i paesi UE
+### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Utilizzare il giornale di registrazione Intrastat per registrare e visualizzare informazioni relative agli scambi commerciali tra i paesi dell'Unione Europea (UE).
 
-A fini statistici, registrare ogni mese le informazioni relative al commercio tra i diversi paesi/regioni UE. È possibile stampare il report Intrastat, in base alle impostazioni **Mapping formato di report** nella pagina **Parametri per il commercio estero**. È possibile anche generare un file elettronico, in base alle impostazioni **Mapping formato file** nella pagina **Parametri per il commercio estero**. Per ulteriori informazioni sulla dichiarazione Intrastat, inclusi i prerequisiti necessari, vedere le registrazioni di attività di dichiarazione Intrastat:
+A fini statistici, registrare ogni mese le informazioni relative al commercio tra i diversi paesi/regioni UE. È possibile stampare il report Intrastat, in base alle impostazioni **Mapping formato di report** nella pagina **Parametri per il commercio estero**. È possibile anche generare un file elettronico, in base alle impostazioni **Mapping formato file** nella pagina **Parametri per il commercio estero**. Per ulteriori informazioni sulla dichiarazione Intrastat, inclusi i prerequisiti necessari, vedere le registrazioni attività sulla dichiarazione Intrastat:
 
--   Generare una dichiarazione Intrastat, UE
--   Transazioni di trasferimento al modulo Intrastat,
--   Specificando indirizzo di carico per una transazione intracomunitaria.
+-   Generare una dichiarazione Intrastat UE
+-   Trasferire transazioni a Intrastat
+-   Specifica di un indirizzo di carico per una transazione intracomunitaria
 
 ## <a name="prerequisites"></a>Prerequisiti
-Nella tabella riportata di seguito sono elencati i prerequisiti per la dichiarazione Intrastat.
+Nella seguente tabella vengono elencati i prerequisiti per la dichiarazione Intrastat.
 
 <table>
 <colgroup>
@@ -235,5 +238,7 @@ Utilizzare la pagina **Parametri per il commercio estero** per impostare i param
 </table>
 
  
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="main-account-types"></a>Tipi di conto principale
 
+[!include[banner](../includes/banner.md)]
+
+
 I tipi di conto principale determinano la modalità di utilizzo di un conto principale nel piano dei conti.
 
 È necessario selezionare un tipo di conto principale quando si crea un conto principale nella pagina Conti principali - piano dei conti.
@@ -35,6 +38,8 @@ I tipi di conto principale determinano la modalità di utilizzo di un conto prin
 -   Stato patrimoniale, Cespite, Passività e Capitale netto: questi conti principali vengono utilizzati come conti di transazione per registrare gli importi in Avere o in Dare di una persona giuridica.
 -   Totale: questi conti principali vengono utilizzati per aggiungere intervalli di conti. Configurare il tipo di conto principale Totale utilizzando la pagina Intervallo conti, in cui viene visualizzato il totale dei saldi del gruppo per tutti gli intervalli dei conti. Per accedere alla pagina Intervallo conti, fare clic su Totali nella scheda Generale una volta selezionato il tipo di conto Totale.
 -   Reporting: questi conti principali vengono utilizzati per i report del rendiconto finanziario (solo per il Brasile).
+
+
 
 
 

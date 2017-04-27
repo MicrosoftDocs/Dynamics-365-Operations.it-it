@@ -1,5 +1,5 @@
 ---
-title: Gruppi di calcoli DBA
+title: Gruppi di calcolo DBA
 description: "In questo articolo sono riportate informazioni sui gruppi di calcolo per le distinte base (DBA) e su come impostarli. Per eseguire un calcolo DBA, è necessario impostare i gruppi di calcolo e assegnarli ai singoli articoli oppure impostare un gruppo di calcolo predefinito. Le impostazioni di calcolo dal gruppo di calcolo vengono poi utilizzate come valori predefiniti nella pagina Calcolo DBA al momento del calcolo DBA."
 author: YuyuScheller
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-groups"></a>Gruppi di calcoli DBA
+# <a name="bom-calculations-groups"></a>Gruppi di calcolo DBA
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo articolo sono riportate informazioni sui gruppi di calcolo per le distinte base (DBA) e su come impostarli. Per eseguire un calcolo DBA, è necessario impostare i gruppi di calcolo e assegnarli ai singoli articoli oppure impostare un gruppo di calcolo predefinito. Le impostazioni di calcolo dal gruppo di calcolo vengono poi utilizzate come valori predefiniti nella pagina Calcolo DBA al momento del calcolo DBA. 
 
-È necessario un gruppo di calcolo predefinito nella pagina **Parametri di gestione articoli e magazzino** o un gruppo di calcolo specifico del prodotto nella pagina **Dettagli prodotto rilasciato**. Il sistema prima ricerca di impostazione del gruppo di calcolo ** modulo Dettagli prodotto rilasciato ** nella pagina. Se non viene trovata un gruppo di calcolo, quale verrà considerata ** parametri di Gestione articoli e magazzino scorte ** la pagina. Se non viene individuato un gruppo di calcolo, verrà generato un messaggio di errore durante il calcolo. Un gruppo di calcolo contiene i criteri per il modello prezzo di costo, il modello prezzo di vendita e l'elenco di controllo di avvisi. Le impostazioni di calcolo dal gruppo di calcolo vengono utilizzate come valori predefiniti nella pagina **Calcolo DBA** al momento del calcolo DBA.
+È necessario un gruppo di calcolo predefinito nella pagina **Parametri di gestione articoli e magazzino** o un gruppo di calcolo specifico del prodotto nella pagina **Dettagli prodotto rilasciato**. Innanzi tutto il sistema ricerca l'impostazione del gruppo di calcolo nella pagina **Dettagli prodotto rilasciato**. Se non viene trovato un gruppo di calcolo lì, ricerca nella pagina **Parametri di gestione articoli e magazzino**. Se il sistema non trova un gruppo di calcolo, l'utente riceve un messaggio di errore durante il calcolo. Un gruppo di calcolo contiene i criteri per il modello prezzo di costo, il modello prezzo di vendita e l'elenco di controllo di avvisi. Le impostazioni di calcolo dal gruppo di calcolo vengono utilizzate come valori predefiniti nella pagina **Calcolo DBA** al momento del calcolo DBA.
 
 ## <a name="purposes-of-bom-calculation-groups"></a>Scopi dei gruppi di calcolo DBA
 Si assegna un gruppo di calcolo DBA agli articoli per diversi motivi:
@@ -72,7 +75,7 @@ Nella scheda dettaglio **Avvisi**, si selezionano le opzioni per i messaggi di a
 Impostazione predefinita in Parametri di gestione articoli e magazzino
 --------------------------------------------------------------
 
-Poiché i gruppi di calcolo sono necessari per eseguire calcoli, è necessario impostare un gruppo di calcolo predefinito nei parametri di Gestione articoli. Questa impostazione consente alle aziende di disporre di un gruppo di costi e un'impostazione di profitto standard per tutti gli articoli. Quindi, se un particolare articolo presenta requisiti particolari di calcolo, l'utente può assegnare un altro gruppo di calcolo a quell'articolo. In genere, è possibile impostare gruppi di calcolo per gli articoli di componente DBA invece gli articoli DBA. Tuttavia, quando sono visualizzati messaggi di avviso, i gruppi di calcolo possono essere applicati. Un gruppo di calcolo assegnato agli articoli sostituisce il valore predefinito impostato nei parametri di Gestione articoli. È possibile impostare il parametro predefinito a ** gestione dei costi ** &gt; ** inventariate i criteri contabili impostati ** &gt; ** parametri ** &gt; ** contabilità scorte ** &gt; ** gruppo di calcolo **. Impostando un gruppo di configurazione predefinito, è inoltre possibile configurare le condizioni di avviso per gli utenti durante il processo di calcolo DBA, se i componenti selezionati potrebbero causare errori di calcolo.
+Poiché i gruppi di calcolo sono necessari per eseguire calcoli, è necessario impostare un gruppo di calcolo predefinito nei parametri di Gestione articoli. Questa impostazione consente alle aziende di disporre di un gruppo di costi e un'impostazione di profitto standard per tutti gli articoli. Quindi, se un particolare articolo presenta requisiti particolari di calcolo, l'utente può assegnare un altro gruppo di calcolo a quell'articolo. In genere, è possibile impostare gruppi di calcolo per gli articoli di componente DBA invece gli articoli DBA. Tuttavia, quando sono visualizzati messaggi di avviso, i gruppi di calcolo possono essere applicati. Un gruppo di calcolo assegnato agli articoli sostituisce il valore predefinito impostato nei parametri di Gestione articoli. È possibile impostare il parametro predefinito in **Gestione costi** &gt; **Impostazioni criteri contabili inventario** &gt; **Parametri** &gt; **Contabilità inventario** &gt; **Gruppo di calcolo**. Impostando un gruppo di configurazione predefinito, è inoltre possibile configurare le condizioni di avviso per gli utenti durante il processo di calcolo DBA, se i componenti selezionati potrebbero causare errori di calcolo.
 Visualizzazione dei messaggi di avviso nella pagina Operazione completata
 ------------------------------------------
 
@@ -85,5 +88,7 @@ Un calcolo DBA genera messaggi di avviso. È possibile visualizzare avvisi su un
 -   Identificare quando per l'articolo in una riga DBA è indicata una percentuale di redditività inferiore a quella desiderata.
 
 È possibile definire più gruppi di calcolo DBA, a seconda dei requisiti per le variazioni nei messaggi di avviso. Un solo gruppo ad esempio con condizioni di avviso per una DBA attiva, una quantità componente pari a 0 (zero) e un costo componente pari a 0 (zero) potrebbe essere sufficiente. Quando si avvia un calcolo DBA, le condizioni di avviso associate al gruppo di calcolo DBA possono essere sostituite. È anche possibile aggiungere o rimuovere condizioni di avviso. Ad esempio, è possibile rimuovere la condizione di avviso relativa a un ciclo di lavorazione attivo se per la situazione corrente non sono coinvolti dati su tale ciclo. **Nota:** Orario e presenze include una pagina **Gruppi di calcolo**, ma la pagina non ha relazioni con i gruppi di calcolo DBA. In Orario e presenze i lavoratori possono essere assegnati a gruppi di calcolo che riflettono il raggruppamento dei lavoratori associati allo stesso supervisore o responsabile. Il calcolo delle registrazioni dei lavoratori può essere eseguito automaticamente o manualmente da un supervisore o un responsabile.
+
+
 
 

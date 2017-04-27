@@ -1,5 +1,5 @@
 ---
-title: Panoramica della produzione snella
+title: Panoramica sul lean manufacturing
 description: "In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Panoramica della produzione snella
+# <a name="lean-manufacturing-overview"></a>Panoramica sul lean manufacturing
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Microsoft Dynamics AX.
 
@@ -76,6 +79,8 @@ I processi kanban sono pienamente integrati con i processi correnti per le opera
 Inoltre, la funzionalità lean manufacturing supporta i processi di acquisto e di fatturazione per i servizi ai quali fanno riferimento le attività in conto lavoro.
 -   È possibile assegnare servizi e righe del contratto di acquisto alle attività in conto lavoro.
 -   È possibile creare ordini fornitore e comunicazioni di ricevimento periodici a supporto dell'acquisto e della fatturazione dei servizi.
+
+
 
 
 

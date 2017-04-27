@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Aggiornare costi standard in un ambiente non di produzione
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce indicazioni per aggiornare i costi standard in un ambiente non di produzione.
 
 Nelle seguenti indicazioni si presuppone che venga utilizzato per l'aggiornamento dei costi standard un approccio basato su due versioni. Secondo questo approccio, una versione di determinazione costi contiene i costi standard inizialmente definiti per il periodo bloccato e la seconda versione di determinazione costi contiene gli aggiornamenti incrementali. Ogni aggiornamento viene immesso come record dei costi all'interno della seconda versione di determinazione costi e infine attivato. In alternativa, è possibile adottare un approccio basato su una sola versione, in cui si utilizza il set di costi standard definiti inizialmente. L'approccio basato su due versioni richiede la definizione di una seconda versione di determinazione costi. Di seguito sono riportate le indicazioni per la definizione di tale versione.
@@ -46,6 +49,8 @@ Per correggere, rettificare o aggiornare i costi standard dei nuovi articoli, ef
 4.  Utilizzare la pagina **Gestione versione di determinazione costi** per modificare il flag di blocco per consentire l'attivazione dei record costi in sospeso all'interno della seconda versione di determinazione costi.
 5.  Utilizzare la pagina **Attiva prezzi** (accessibile dalla pagina **Gestione versione di determinazione costi**) per attivare tutti i record di costo articolo in sospeso all'interno della seconda versione di determinazione costi. È inoltre possibile attivare i record costi in sospeso per i singoli articoli facendo clic sul pulsante **Attiva prezzo in sospeso** nella pagina **Prezzo articolo**.
 6.  Per evitare ulteriori operazioni di manutenzione dati, utilizzare la pagina **Impostazione versione di determinazione costi** per modificare i flag di blocco all'interno della seconda versione di determinazione costi. I criteri di blocco impediranno l'immissione di nuovi costi in sospeso e l'attivazione dei costi in sospeso.
+
+
 
 
 

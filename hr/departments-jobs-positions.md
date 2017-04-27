@@ -1,5 +1,5 @@
 ---
-title: Consente di organizzare la forza lavoro utilizzando i reparti, i processi e delle posizioni
+title: Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
 description: Reparti, mansioni e posizioni sono elementi organizzativi che vengono gestiti in Risorse umane. Questo argomento descrive le nozioni relative a questi elementi.
 author: rschloma
 manager: AnnBe
@@ -26,22 +26,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Consente di organizzare la forza lavoro utilizzando i reparti, i processi e delle posizioni
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
+
+[!include[banner](includes/banner.md)]
+
 
 Reparti, mansioni e posizioni sono elementi organizzativi che vengono gestiti in Risorse umane. Questo argomento descrive le nozioni relative a questi elementi. 
 
 Il seguente esempio viene utilizzato per illustrare i concetti descritti in questo argomento.
 
-|**Reparto**|**Position**|**Job**|
+|**Reparto**|**Posizione**|**Mansione**|
 |---|---|---|
 |**Vendite**|Manager vendite (Est)|Manager vendite|
 |**Vendite**|Manager vendite (Ovest)|Manager vendite|
 |**Vendite**|Manager vendite (Centro)|Manager vendite|
-|**Accounting**|Supervisore contabile|Direttore amministrativo|
-|**Accounting**|Contabilità A|Ragioniere|
-|**Human resources**|Responsabile risorse umane (Est)|Responsabile risorse Umane|
-|**Human resources**|Responsabile risorse umane (Ovest)|Responsabile risorse Umane|
-|**Human resources**|Responsabile risorse umane (Centro)|Responsabile risorse Umane|
+|**Contabilità**|Supervisore contabile|Direttore amministrativo|
+|**Contabilità**|Contabilità A|Ragioniere|
+|**Risorse umane**|Responsabile risorse umane (Est)|Responsabile risorse Umane|
+|**Risorse umane**|Responsabile risorse umane (Ovest)|Responsabile risorse Umane|
+|**Risorse umane**|Responsabile risorse umane (Centro)|Responsabile risorse Umane|
 
  
  <a name="departments"></a>Reparti
@@ -79,7 +82,7 @@ Una mansione è una raccolta di attività e responsabilità proprie della person
 
 ### <a name="job-functions"></a>Funzioni lavorative
 
-Le funzioni lavorative sono simili alle attività associate alle mansioni. Una funzione lavorativa descrive una o più attività, compiti o responsabilità assegnati a una mansione. Le funzioni lavorative possono essere assegnate alle mansioni e utilizzate per impostare e implementare le regole di idoneità per i piani di retribuzione. Esempi di funzioni lavorative sono elencati nella seguente tabella.
+Le funzioni lavorative sono simili alle attività associate alle mansioni. Una funzione lavorativa descrive una o più attività, compiti o responsabilità assegnati a una mansione. Le funzioni lavorative possono essere assegnate alle mansioni e utilizzate per impostare e implementare le regole di idoneità per i piani di retribuzione. Esempi di funzioni di mansioni sono elencati nella seguente tabella.
 
 | Processo           | Funzione lavorativa                                                |
 |---------------|-------------------------------------------------------------|
@@ -101,7 +104,7 @@ Utilizzare le aree di responsabilità per indicare i ruoli di lavoro, i processi
 <a name="positions"></a>Posizioni
 ----------
 
-Le posizioni sono un elemento importante del livello inferiore di una gerarchia organizzativa. Una posizione è una singola istanza di un processo. Ad esempio, la posizione ", manager vendite (Est)", sarà sufficiente una delle ubicazioni associata al processo, il manager vendite". Le posizioni presenti in un reparto e vengono assegnate ai lavoratori.
+Le posizioni sono un elemento importante del livello inferiore di una gerarchia organizzativa. Una posizione è una singola istanza di un processo. Ad esempio, la posizione "Manager vendite (Est") è solo una delle posizioni associate alla mansione "Manager vendite". Le posizioni esistono in un reparto e vengono assegnate ai lavoratori.
 ### <a name="position-creation-and-maintenance"></a>Creazione e gestione di posizioni
 
 -   È possibile visualizzare lo storico delle modifiche al sistema relative alle posizioni in una pagina elenco di semplice accesso.
@@ -161,6 +164,8 @@ Per alcuni record, è possibile specificare le modifiche future al record. Le se
 </table>
 
 È possibile modificare le informazioni citate nella tabella precedente per una posizione o una mansione e specificare una data in cui le modifiche alla posizione o alla mansione devono essere rese effettive. Ad esempio, una posizione può essere assegnata solo a un lavoratore, ma Sanjay Patel, assegnato alla posizione Ragioniere-A, lascerà la società tra due settimane. Joe Healy sostituirà Sanjay Patel. Anche se Sanjay è ancora assegnato alla posizione, è possibile assegnare Joe Healy alla stessa posizione in modo che l'assegnazione sia valida solo dopo l'ultimo giorno di Sanjay.
+
+
 
 
 

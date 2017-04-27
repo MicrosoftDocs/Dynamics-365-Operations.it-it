@@ -1,5 +1,5 @@
 ---
-title: Liquidare un pagamento parziale del fornitore che ha sconti sulle note di accredito fornitore
+title: Liquidare un pagamento fornitore parziale con sconti sulle note di accredito fornitore
 description: Questo articolo descrive uno scenario in cui una nota di credito viene liquidata a fronte di una fattura.
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidare un pagamento parziale del fornitore che ha sconti sulle note di accredito fornitore
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidare un pagamento fornitore parziale con sconti sulle note di accredito fornitore
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo descrive uno scenario in cui una nota di credito viene liquidata a fronte di una fattura.
 
 I fornitori di Fabrikam offrono sconti di cassa sulle note di accredito. Il fornitore 3050 consente a Fabrikam di eseguire uno sconto di cassa dell'1% se una fattura viene pagata in 14 giorni.
 
 ## <a name="invoice-and-credit-memo"></a>Fattura e nota di accredito
-Il 29 giugno aprile, viene creata una fattura di 1,000.00 per il fornitore 3050. Il 2 luglio, viene creata una nota di accredito per 200.00. Nella pagina **Fornitori** April apre la pagina **Liquida transazioni**. Può utilizzare la pagina **Liquida transazioni** per contrassegnare sia la nota di accredito che la fattura per la liquidazione. Uno sconto del 2,00 viene calcolato sulla nota di accredito. Di conseguenza, il valore totale della nota di accredito viene ridotto a 198,00.
+Il 29 giugno April crea una fattura per 1.000,00 per il fornitore 3050. Il 2 luglio, crea una nota di accredito per 200,00. Nella pagina **Fornitori** April apre la pagina **Liquida transazioni**. Può utilizzare la pagina **Liquida transazioni** per contrassegnare sia la nota di accredito che la fattura per la liquidazione. Uno sconto del 2,00 viene calcolato sulla nota di accredito. Di conseguenza, il valore totale della nota di accredito viene ridotto a 198,00.
 
 | Contrassegna                     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -65,6 +68,8 @@ April può verificare le transazioni del fornitore nella pagina **Transazioni fo
 | Inv-10071  |                  | 2/7/2015  | CR10071 | 200,00                               |                                       | 0,00    | GBP      |
 | DISC-10071 |  Sconto di cassa   | 2/7/2015  |         | 2,00                                 |                                       | 0,00    | GBP      |
 | DISC-10071 |  Sconto di cassa   | 2/7/2015  |         |                                      | 2,00                                  | 0,00    | GBP      |
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Impostare la protezione per il contenuto di potenza di analisi della contabilità industriale BI"
-description: "In questo argomento viene descritto come eseguire propagare della protezione a livello dell&quot;Access nella contabilità industriale a protezione riga riga in Microsoft Power BI. Questa funzionalità assicura che gli utenti vedono solo i dati di Power BI autorizzato ad accedere a."
+title: "Impostare la sicurezza per il contenuto Power BI per l&quot;analisi della contabilità industriale"
+description: "In questo argomento viene descritto come propagare la protezione a livello di accesso nella contabilità industriale alla protezione a livello di riga in Microsoft Power BI. Questa funzionalità assicura che gli utenti visualizzino solo i dati Power BI ai quali sono autorizzati ad accedere."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,38 +24,43 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Impostare la protezione per il contenuto di potenza di analisi della contabilità industriale BI
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Impostare la sicurezza per il contenuto Power BI per l'analisi della contabilità industriale
 
-In questo argomento viene descritto come eseguire propagare della protezione a livello dell'Access nella contabilità industriale a protezione riga riga in Microsoft Power BI. Questa funzionalità assicura che gli utenti vedono solo i dati di Power BI autorizzato ad accedere a.
+[!include[banner](../includes/banner.md)]
+
+
+In questo argomento viene descritto come propagare la protezione a livello di accesso nella contabilità industriale alla protezione a livello di riga in Microsoft Power BI. Questa funzionalità assicura che gli utenti visualizzino solo i dati Power BI ai quali sono autorizzati ad accedere.
 
 <a name="overview"></a>Panoramica
 --------
 
-** Analisi di contabilità industriale ** il contenuto di Power BI Microsoft utilizza la protezione BI riga riga di potenza per limitare l'accesso di un utente. La protezione di è basata sulla gerarchia organizzativa a livello dell'Access impostata nei parametri di contabilità industriale. Per ulteriori informazioni su ** analisi della contabilità industriale ** alimenti BI il contenuto, vedere [Contabilità industriale di analisi di Power BI contenuto] (Contabilità industriale - analysis-content-pack.md).
+Il contenuto Microsoft Power BI per l'**Analisi della contabilità industriale** utilizza la protezione a livello di riga di Power BI per limitare l'accesso di un utente. La protezione è basata sulla gerarchia organizzativa a livello di accesso impostata nei parametri della contabilità industriale. Per ulteriori informazioni sul contenuto Power BI per l'**Analisi della contabilità industriale**, vedere [Contenuto Power BI per l'analisi della contabilità industriale](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>Imposta
-Per propagare della protezione a livello dell'Access per alimentare BI, il proprietario del contenuto di Power BI deve completare i passaggi seguenti. ** Nota: ** Utente che ha emesso ** analisi della contabilità industriale ** del contenuto Power BI diventa automaticamente il proprietario. Solo un responsabile può impostare la protezione in Power BI. Inoltre, il proprietario finché non aggiungere altri utenti su Nessuno PowerBI.com, a meno che il proprietario i dipendenti tutti i dati in ** analisi della contabilità industriale ** alimenti BI il contenuto.
+Per propagare la protezione a livello di accesso a Power BI, il proprietario del contenuto Power BI deve attenersi alla procedura seguente. **Nota:** l'utente che pubblica il contenuto Power BI per l'**Analisi della contabilità industriale** ne diventa automaticamente il proprietario. Solo un proprietario può impostare la protezione in Power BI. Inoltre, finché il proprietario non aggiunge altri utenti su PowerBI.com, nessuno tranne il proprietario può visualizzare alcun dato nel contenuto Power BI per l'**Analisi della contabilità industriale**.
 
-1.  Registrare il file di definizioni per alimentare BI.
-2.  Accesso all'indirizzo PowerBI.com.
-3.  Individuare le il set di dati per ** analisi della contabilità industriale ** alimenti BI il contenuto.
+1.  Pubblicare il file di definizioni su Power BI.
+2.  Accedere a PowerBI.com.
+3.  Individuare il set di dati per il contenuto Power BI per l'**Analisi della contabilità industriale**.
 4.  Aprire la pagina di protezione. 
 
-    [![che apre la pagina] di protezione (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png) (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)]
+    [![Apertura della pagina di protezione](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
 
-5.  ** Da di oggetto di ** il ruolo è già creato. Aggiungere altri membri alla gerarchia organizzativa a livello dell'Access della contabilità industriale. 
+5.  Il ruolo **Controller oggetto di costo** è già creato. Aggiungere altri membri che fanno parte della gerarchia organizzativa a livello di accesso della contabilità industriale. 
 
-    [![a cui aggiungere i membri (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)] (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)]
+    [![Aggiunta di membri](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
 
-Gli utenti aggiunti ** controller di oggetto di ** al ruolo verranno visualizzati soltanto i dati che possono visualizzare, in base alla definizione della gerarchia organizzativa a livello dell'Access della contabilità industriale. ** Nota: ** la protezione Riga riga si applica a mattonelle e report in Microsoft Dynamics 365 per le operazioni incluse da Power BI.
+Gli utenti aggiunti al ruolo **Controller oggetto di costo** visualizzeranno solo i dati sono autorizzati a visualizzare, in base alla definizione della gerarchia organizzativa a livello di accesso della contabilità industriale. **Nota:** la protezione a livello di riga si applica ai riquadri e ai report in Microsoft Dynamics 365 for Operations incorporati da Power BI.
 
-## <a name="updating-security"></a>Aggiornamento di protezione
-Se gli aggiornamenti vengono eseguiti di protezione a livello dell'Access nella contabilità industriale e si desidera Power BI riflettere gli aggiornamenti, è necessario aggiornare il punto di entità per ** analisi della contabilità industriale ** alimentate BI il contenuto. Dopo aver completato l'aggiornamento del record di entità da Dynamics 365 per le operazioni, è necessario aggiornare gli elementi in PowerBI.com. Per ulteriori informazioni sull'ente archiviare l'aggiornamento, vedere [] il record di entità aggiornamento (power-bi-integration-entity-store.md#update-entity-store). ** Il proprietario analisi della contabilità industriale ** i contenuti di Power BI necessario effettuare inoltre un aggiornamento del record di entità se nuovi utenti accesso alla gerarchia organizzativa. Inoltre, il proprietario deve aggiungere nuovi utenti ** controller di oggetto di ** al ruolo in PowerBI.com, in modo che la protezione riga riga viene applicata la merce.
+## <a name="updating-security"></a>Aggiornamento della protezione
+Se vengono eseguiti aggiornamenti alla protezione a livello di accesso nella contabilità industriale e si desidera che Power BI rifletta tali aggiornamenti, è necessario aggiornare l'archivio entità per il contenuto Power BI per l'**Analisi della contabilità industriale**. Dopo aver completato l'aggiornamento dell'archivio entità da Dynamics 365 for Operations, è necessario aggiornare gli elementi in PowerBI.com. Per ulteriori informazioni sull'aggiornamento dell'archivio entità, vedere [Aggiornare l'archivio entità](power-bi-integration-entity-store.md#update-entity-store). Il proprietario dei contenuti Power BI per l'**Analisi della contabilità industriale** deve inoltre effettuare un aggiornamento dell'archivio entità se a nuovi utenti viene concesso l'accesso alla gerarchia organizzativa. Inoltre, il proprietario deve aggiungere i nuovi utenti al ruolo **Controller oggetto di costo** in PowerBI.com, in modo che la protezione a livello di riga venga applicata a tali utenti.
 
-## <a name="disabling-security"></a>Sicurezza restituendo non valida
-Supponiamo che l'organizzazione desidera limitare l'accesso ai dati. Se, per qualsiasiasi motivo, parametri di protezione sono disattivate quando si esegue la contabilità industriale, il proprietario deve aggiungere gli utenti ** contabile di costo ** al ruolo in anziché Power BI. Se si modifica la protezione da uno stato abilitato allo stato di disabili, è consigliabile rimuovere gli utenti ** controller di oggetto di ** dal ruolo. E vice versa se riabilitate la protezione. Gli utenti possono appartenere a entrambi i ruoli. L'accesso verrà unito il sindacato di entrambi i ruoli. Nel caso di ** analisi della contabilità industriale ** alimenti BI, il contenuto utenti che hanno accesso unito avere accesso ai dati senza restrizioni. Se il target è di applicare l'accesso limitato, gli utenti devono essere assegnati solo costi ** Il controllore oggetti ** al ruolo. Negli aggiornamenti della protezione righi riga diventano immediatamente. Gli utenti devono interessati utenti devono riavviare browser.
+## <a name="disabling-security"></a>Disabilitazione della protezione
+Supponiamo che l'organizzazione desideri limitare l'accesso ai dati. Se, per qualsiasi motivo, i parametri di protezione sono disabilitati quando si esegue la contabilità industriale, il proprietario deve invece aggiungere gli utenti al ruolo **Contabilità industriale** in Power BI. Se si modifica la protezione da uno stato abilitato a uno stato disabilitato, è consigliabile rimuovere gli utenti dal ruolo **Controller oggetto di costo**. Se si abilita nuovamente la protezione, è opportuno aggiungere gli utenti a tale ruolo. Gli utenti possono appartenere a entrambi i ruoli. L'accesso congiunto è l'unione di entrambi i ruoli. Nel caso del contenuto Power BI per l'**Analisi della contabilità industriale**, gli utenti che dispongono dell'accesso congiunto hanno accesso ai dati senza limitazioni. Se l'obiettivo è applicare un accesso limitato, è necessario assegnare agli utenti solo il ruolo **Controller oggetto di costo**. Questi aggiornamenti della protezione a livello di riga hanno effetto immediato. Gli utenti interessati devono aggiornare il proprio browser.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-Per ulteriori informazioni sulla protezione BI riga riga di potenza, vedere [gestire la protezione sul modello in l Power BI] (https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Per ulteriori informazioni sulla protezione a livello di riga di Power BI, vedere [Gestire la protezione sul proprio modello in Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
 
 

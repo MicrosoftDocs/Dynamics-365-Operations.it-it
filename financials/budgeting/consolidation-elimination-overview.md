@@ -86,5 +86,5 @@ L'opzione **Report finanziari** è la soluzione. Le gerarchie organizzative che 
 Utilizzando l'opzione **Esporta saldi società** per esportare da un'istanza e quindi utilizzando l'opzione **Consolida con importazione** sull'altra istanza, è possibile consolidare i dati.
 
 
-Per ulteriori informazioni, vedere [revalution di valute nella società di consolidamento] finanicials (\ \ \ contabilità generale valuta-rivalutazione-consolidamento- società).
+Per ulteriori informazioni, vedere [Rivalutazione della valuta in una società di consolidamento](\finanicials\general-ledger\currency-revaluation-consolidation-company).
 

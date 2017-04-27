@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Ubicazioni di magazzino
 
+[!include[banner](../includes/banner.md)]
+
+
 Le ubicazioni di magazzino vengono utilizzate con l'immagazzinaggio base (WMS I) per determinare dove vengono immagazzinati e dove vengono prelevati gli articoli in un magazzino WMS.
 
 Questo argomento si applica alle funzionalità nel modulo Gestione inventario. Non si applica alle funzioni nel modulo Gestione magazzino.
@@ -64,6 +67,8 @@ Gestire le ubicazioni di magazzino tramite modulo di magazzino
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare un nuovo layout di magazzino (Guida di attività)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Creare un nuovo layout di magazzino (guida attività)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

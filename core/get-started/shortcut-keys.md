@@ -1,6 +1,6 @@
 ---
 title: Tasti di scelta rapida
-description: In vengono utilizzati i tasti di scelta rapida Microsoft Dynamics 365 per le operazioni.
+description: In Microsoft Dynamics 365 for Operations vengono utilizzati i tasti di scelta rapida descritti di seguito.
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
-In vengono utilizzati i tasti di scelta rapida Microsoft Dynamics 365 per le operazioni. 
+[!include[banner](../includes/banner.md)]
+
+
+In Microsoft Dynamics 365 for Operations vengono utilizzati i tasti di scelta rapida descritti di seguito. 
 
 **Nota:** i tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
 
@@ -40,7 +43,7 @@ In vengono utilizzati i tasti di scelta rapida Microsoft Dynamics 365 per le ope
 | Spostarti sull'opzione successiva/precedente in un menu            | Freccia SU/Freccia GIÙ            |
 | Chiudere una scheda nel riquadro azioni o un menu          | ESC                              |
 | Simulare un clic con il pulsante destro del mouse                            | MAIUSC + F10                        |
-| Aprire Dynamics 365 per il menu di scelta rapida delle operazioni | CTRL + F10                         |
+| Aprire il menu di scelta rapida di Dynamics 365 for Operations | CTRL + F10                         |
 | Eseguire il pulsante predefinito nel modulo/finestra di dialogo       | ALT + INVIO                        |
 | Fare clic sul pulsante o un riquadro                            | INVIO o Barra spaziatrice                   |
 | Aggiornare le informazioni per un riquadro di conteggio         | ALT + Freccia SU                     |
@@ -64,7 +67,7 @@ In vengono utilizzati i tasti di scelta rapida Microsoft Dynamics 365 per le ope
 | Aprire il riquadro Dettaglio informazioni (o spostare lo stato attivo sul riquadro Dettaglio informazioni se è già aperto) | CTRL + F2                                   |
 | Chiudere il riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                         | ESC                                       |
 | Spostarsi sul riquadro Dettaglio informazioni successivo/precedente (con lo stato attivo nel riquadro Dettaglio informazioni)              | ALT + MAIUSC+ Freccia GIÙ/ALT + MAIUSC + Freccia SU |
-| Passare &lt;all'ennesimo&gt;(scheda dettaglio con lo stato attivo nel riquadro Dettaglio informazioni)                | Alt+n&lt;&gt; (&lt;N&gt; ) = 1-9           |
+| Spostarsi sull'&lt;n&gt;simo riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Espandere un riquadro Dettaglio informazioni (con lo stato attivo nell'intestazione di Dettaglio informazioni)                             | INVIO o Barra spaziatrice                            |
 | Comprimere il riquadro Dettaglio informazioni corrente                                                    | ALT + 0                                     |
 
@@ -111,8 +114,8 @@ In vengono utilizzati i tasti di scelta rapida Microsoft Dynamics 365 per le ope
 | Spostarsi sul campo successivo/precedente                     | TAB/MAIUSC + TAB                              |
 | Spostarsi sulla scheda successiva/precedente                       | ALT + MAIUSC+ Freccia DESTRA/ALT + MAIUSC + Freccia SINISTRA |
 | Spostarsi sulla scheda dettaglio successiva/precedente                   | ALT + MAIUSC+ Freccia GIÙ/ALT + MAIUSC + Freccia SU    |
-| Passare &lt;all'ennesimo&gt;dettaglio                     | Alt+n&lt;&gt; (&lt;N&gt; ) = 1-9              |
-| Passare &lt;all'ennesima&gt;scheda                         | Alt+Shift+n&lt;&gt; (&lt;N&gt; ) = 1-9        |
+| Spostarsi sull'&lt;n&gt;sima Scheda dettaglio                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Spostarsi sull'&lt;n&gt;sima scheda                         | ALT+MAIUSC+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Espandere una scheda dettagli informazioni (con lo stato attivo nell'intestazione della scheda) | INVIO o Barra spaziatrice                               |
 | Comprimere la scheda dettagli corrente                        | ALT + 0                                        |
 | Passare alla visualizzazione griglia                                 | CTRL + MAIUSC + G                                 |
@@ -152,7 +155,7 @@ In vengono utilizzati i tasti di scelta rapida Microsoft Dynamics 365 per le ope
 | Aprire ricerca, casella combinata, selezione data, finestra di dialogo a discesa           | ALT + Freccia GIÙ                |
 | Chiudere ricerca, casella combinata, selezione data, finestra di dialogo a discesa          | ESC                           |
 | Spostare lo stato attivo in una ricerca (quando la ricerca è già aperta) | ALT + Freccia GIÙ                |
-| Aprire la previsione avanzata di controllo                        | ALT + Freccia SU                  |
+| Aprire l'anteprima avanzata del controllo                        | ALT + Freccia SU                  |
 | Selezionare testo nel campo corrente                           | CTRL + A                        |
 | Entrare/uscire da un'area di testo in un controllo dell'editor HTML        | ALT + Freccia SU/ALT + Freccia GIÙ |
 
@@ -174,18 +177,18 @@ In vengono utilizzati i tasti di scelta rapida Microsoft Dynamics 365 per le ope
 | Andare al dashboard                                                       | ALT + MAIUSC + HOME  |
 | Andare alla barra di spostamento                                                  | ALT + MAIUSC + F1    |
 | Andare al pannello di navigazione                                                 | ALT + F1          |
-| Favorite/un-favorite un modulo (con lo stato attivo su un modulo nel pannello di navigazione) | Shift+F         |
+| Impostare come preferito/annullare l'impostazione per un modulo (con lo stato attivo su un modulo nel pannello di navigazione) | MAIUSC+F         |
 | Passare alla selezione delle società                                                  | CTRL + MAIUSC + O    |
 | Andare alla ricerca negli elementi di spostamento                                                   | CTRL + / o ALT + G |
-| Aprono il riquadro della Guida                                                        | Ctrl+?          |
-| Aprono il parser di traccia                                                     | Alt+Shift+T     |
+| Aprire il riquadro della Guida                                                        | CTRL+?          |
+| Aprire il parser di traccia                                                     | ALT+MAIUSC+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Tasti di scelta rapida per il controllo di voci segmentato
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Operazione da eseguire**                                                                                                          | **Tasti di premere**                        |
 | Aprire l'elenco a discesa (quando l'elenco a discesa è chiuso)                                                             | ALT + Freccia GIÙ                   |
 | Spostare lo stato attivo nel campo di input per il segmento corrente nell'elenco a discesa (l'elenco a discesa è già aperto) | ALT + Freccia GIÙ                   |
 | Chiudere l'elenco a discesa                                                                                                | ALT + Freccia SU                     |
@@ -199,5 +202,7 @@ In vengono utilizzati i tasti di scelta rapida Microsoft Dynamics 365 per le ope
 | Passare alla parte superiore/inferiore della ricerca                                                                                    | HOME/FINE                       |
 
  
+
+
 
 

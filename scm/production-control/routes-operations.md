@@ -1,6 +1,6 @@
 ---
-title: Cicli di lavorazione e le operazioni
-description: In questo argomento vengono fornite informazioni sui cicli di lavorazione e le operazioni. Un ciclo definisce il processo per la produzione di un prodotto o della variante prodotto. Viene descritto ogni fase (operazione) nel processo di produzione e nell&quot;ordine in cui queste operazioni devono essere eseguite in. Per ciascuna fase, il ciclo di lavorazione inoltre di definire le risorse operative richieste, il tempo di attrezzaggio obbligatorio e il tempo e come costo deve essere calcolata.
+title: Cicli di lavorazione e operazioni
+description: In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni. Un ciclo di lavorazione definisce il processo per la produzione di un prodotto o della variante prodotto. Viene descritto ogni passaggio (operazione) del processo di produzione insieme all&quot;ordine in cui queste operazioni devono essere eseguite. Per ciascun passaggio, il ciclo di lavorazione definisce inoltre le risorse operative richieste, il tempo di attrezzaggio necessario e il tempo di esecuzione e il modo in cui il costo deve essere calcolato.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,216 +26,221 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="routes-and-operations"></a>Cicli di lavorazione e le operazioni
+# <a name="routes-and-operations"></a>Cicli di lavorazione e operazioni
 
-In questo argomento vengono fornite informazioni sui cicli di lavorazione e le operazioni. Un ciclo definisce il processo per la produzione di un prodotto o della variante prodotto. Viene descritto ogni fase (operazione) nel processo di produzione e nell'ordine in cui queste operazioni devono essere eseguite in. Per ciascuna fase, il ciclo di lavorazione inoltre di definire le risorse operative richieste, il tempo di attrezzaggio obbligatorio e il tempo e come costo deve essere calcolata.
+[!include[banner](../includes/banner.md)]
+
+
+In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni. Un ciclo di lavorazione definisce il processo per la produzione di un prodotto o della variante prodotto. Viene descritto ogni passaggio (operazione) del processo di produzione insieme all'ordine in cui queste operazioni devono essere eseguite. Per ciascun passaggio, il ciclo di lavorazione definisce inoltre le risorse operative richieste, il tempo di attrezzaggio necessario e il tempo di esecuzione e il modo in cui il costo deve essere calcolato.
 
 <a name="overview"></a>Panoramica
 --------
 
-Un ciclo viene descritto l'ordine delle operazioni necessario per la produzione di un prodotto o una variante prodotto. Per ciascuna operazione, il ciclo di lavorazione inoltre di definire le risorse operative richieste, il tempo necessario per impostare ed eseguire l'operazione e come costo deve essere calcolata. È possibile utilizzare lo stesso ciclo di lavorazione per produrre i più prodotti, oppure definire un ciclo di lavorazione univoco per ogni variante prodotto o prodotto. È inoltre possibile avere più cicli di lavorazione per lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato varia, in base ai fattori quali la quantità che deve essere prodotta. La definizione di un ciclo di lavorazione in Microsoft Dynamics 365 per le operazioni è costituito da quattro diversi elementi che, insieme, viene descritto il processo di produzione:
+Un ciclo di lavorazione descrive l'ordine delle operazioni necessarie per la produzione di un prodotto o una variante prodotto. Per ciascuna operazione, il ciclo di lavorazione inoltre definisce le risorse operative richieste, il tempo di attrezzaggio ed esecuzione necessario per l'operazione e il modo in cui il costo deve essere calcolato. È possibile utilizzare lo stesso ciclo di lavorazione per produrre i più prodotti oppure definire un ciclo di lavorazione univoco per ogni variante prodotto o prodotto. È inoltre possibile avere più cicli di lavorazione per lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato varia, in base ai fattori quali la quantità che deve essere prodotta. La definizione di un ciclo di lavorazione in Microsoft Dynamics 365 for Operations è costituito da quattro diversi elementi che, insieme, descrivono il processo di produzione:
 
--   ** Il ciclo di lavorazione ** un ciclo definisce la struttura del processo di produzione. Si definisce l'ordine delle operazioni.
--   ** L'operazione ** - un'operazione identifica il processo denominato in un ciclo di lavorazione, come ** Assemblaggio **. La stessa operazione può verificarsi in più cicli di lavorazione e può contenere numeri di operazione diversi.
--   ** La relazione operativa ** di una relazione operativa definisce le proprietà operative di un'operazione, ad esempio il tempo e al tempo di attrezzaggio, categorie di costi, parametri del consumo e requisiti risorsa. La relazione operativa consente di impostare le proprietà di un'operazione di variare, in base al ciclo di lavorazione che l'operazione viene utilizzata nei prodotti o in producendi.
--   ** La versione del ciclo di lavorazione - ** una versione del ciclo di lavorazione definisce il ciclo di lavorazione utilizzato per creare un prodotto o una variante prodotto. Le versioni cicli di lavorazione consentono ai cicli di lavorazione di essere riutilizzate nei prodotti o di essere modificate nel tempo. Vengono inoltre consentono ai cicli di lavorazione diversi di essere utilizzate per produrre lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato dipende da fattori quali la posizione o la quantità che è possibile produrre.
+-   **Ciclo di lavorazione** - un ciclo definisce la struttura del processo di produzione. In altre parole, definisce l'ordine delle operazioni.
+-   **Operazione** - un'operazione identifica un passaggio denominato in un ciclo di lavorazione, ad esempio **Assemblaggio**. La stessa operazione può verificarsi in più cicli di lavorazione e può contenere un numero di operazioni diverso.
+-   **Relazione operativa** - una relazione operativa definisce le proprietà operative di un'operazione, ad esempio il tempo di attrezzaggio, il tempo di esecuzione, le categorie costi, i parametri del consumo e i requisiti risorsa. La relazione operativa consente di impostare le proprietà operative di un'operazione per la variazione, in base al ciclo di lavorazione in cui l'operazione viene utilizzata o ai prodotti che vengono prodotti.
+-   **Versione del ciclo di lavorazione** - una versione del ciclo di lavorazione definisce il ciclo di lavorazione specifico utilizzato per creare un prodotto o una variante prodotto. Le versioni dei cicli di lavorazione consentono ai cicli di lavorazione di essere riutilizzati nei prodotti o di essere modificati nel tempo. Inoltre consentono l'utilizzo dei diversi cicli di lavorazione per produrre lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato dipende da fattori quali l'ubicazione o la quantità che deve essere prodotta.
 
 ## <a name="routes"></a>Cicli di lavorazione
-Un ciclo viene descritto l'ordine delle operazioni utilizzato per creare un prodotto o una variante prodotto. Ciascuna operazione viene assegnato un numero di operazione e un'operazione di successiva. L'ordine delle operazioni forma una rete di cicli di lavorazione che può essere rappresentata da un grafico diretta con uno o più punti di origine e un unico punto finale. In Dynamics 365 per le operazioni, i cicli di lavorazione vengono specifico in base al tipo di struttura. I due tipi di cicli di lavorazione sono cicli di lavorazione e le semplici reti di cicli di lavorazione. Nei parametri di Controllo produzione, è possibile specificare se visualizzare solo i cicli di lavorazione semplici possono essere utilizzati, o se le reti complesse più cicli di lavorazione possono essere utilizzate.
+Un ciclo di lavorazione descrive l'ordine delle operazioni utilizzate per la produzione di un prodotto o una variante prodotto. A ciascuna operazione viene assegnato un numero di operazione e un'operazione successiva. L'ordine delle operazioni forma una rete di cicli di lavorazione che può essere rappresentata da un grafico diretto con uno o più punti di origine e un unico punto finale. In Dynamics 365 for Operations, i cicli di lavorazione vengono distinti in base al tipo di struttura. I due tipi di cicli di lavorazione sono cicli di lavorazione semplici e reti di cicli di lavorazione. Nei parametri di controllo produzione, è possibile specificare se è possibile utilizzare solo i cicli di lavorazione semplici o reti più complesse di cicli di lavorazione.
 
 ### <a name="simple-routes"></a>Cicli di lavorazione semplici
 
-Un ciclo di lavorazione sequenziale è semplice ed è disponibile un solo punto di partenza per il ciclo di lavorazione.  
+Un ciclo di lavorazione semplice è sequenziale ed è disponibile un solo punto di partenza per il ciclo di lavorazione.  
 
-[lavorazione semplice![(]. /media/routes-and-operations-1-simple-route.png)](. /media/routes-and-operations-1-simple-route.png)  
+[![Ciclo di lavorazione semplice](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Se si attiva solo ai cicli di lavorazione semplici nei parametri di Controllo produzione, Dynamics 365 per le operazioni viene generato automaticamente i numeri delle operazioni (10, 20, 30 e così via, quando si definisce il ciclo di lavorazione.
+Se si attiva solo i cicli di lavorazione semplici nei parametri di controllo produzione, Dynamics 365 for Operations genera automaticamente i numeri delle operazioni (10, 20, 30 e così via) quando si definisce il ciclo di lavorazione.
 
-### <a name="route-networks"></a>Reti del ciclo di lavorazione
+### <a name="route-networks"></a>Reti di cicli di lavorazione
 
-Se si consente a più reti complesse del ciclo di lavorazione nei parametri di Controllo produzione, è possibile definire i cicli di lavorazione con i punti di origine e più operazioni che possono essere eseguiti in parallelo.  
+Se si consentono reti più complesse del ciclo di lavorazione nei parametri di controllo produzione, è possibile definire cicli di lavorazione con più punti di origine e più operazioni che possono essere eseguite in parallelo.  
 
-[![Route network](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rete di cicli di lavorazione](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 **Note:**
 
--   Ciascuna operazione può essere presente una sola operazione successiva del ciclo di lavorazione e di tutti deve terminare con una sola operazione.
--   Non esiste alcuna garanzia che più operazioni con la stessa operazione di attività successiva, ad esempio operazioni 30 e 40 nella precedente figura) effettivamente verranno eseguite in parallelo. La disponibilità e la capacità delle risorse possono inserire i vincoli in modo che le operazioni programmate.
--   Non è possibile utilizzare 0 (zero) come numero di operazione. Le il numero è prenotato e viene utilizzato per specificare che l'ultima operazione del ciclo di lavorazione non dispone di operazione successiva.
+-   Ciascuna operazione può avere una sola operazione successiva e l'intero ciclo di lavorazione deve terminare con una sola operazione.
+-   Non esiste alcuna garanzia che più operazioni con la stessa operazione successiva (ad esempio operazioni 30 e 40 nella precedente figura) verranno effettivamente eseguite in parallelo. La disponibilità e la capacità delle risorse possono determinare i vincoli nel modo in cui le operazioni sono programmate.
+-   Non è possibile utilizzare 0 (zero) come numero di operazione. Questo numero è prenotato e viene utilizzato per specificare che l'ultima operazione del ciclo di lavorazione non dispone di operazione successiva.
 
-### <a name="parallel-operations"></a>Le operazioni parallele
+### <a name="parallel-operations"></a>Operazioni parallele
 
-Talvolta, una combinazione di più risorse operative che hanno caratteristiche di progetti è necessaria per eseguire un'operazione. Ad esempio, per un'operazione di assemblaggio potrebbe richiedere a una macchina, a uno strumento e a un lavoratore per ogni due computer sorvegli l'operazione. In questo esempio può essere modellizzato utilizzando le operazioni parallele, in cui un'operazione è indicata come l'operazione primaria e le altre vengono secondarie.  
+Talvolta, una combinazione di più risorse operative che hanno caratteristiche diverse sono necessarie per eseguire un'operazione. Ad esempio, un'operazione di assemblaggio potrebbe richiedere una macchina, uno strumento e un lavoratore per ogni due macchine per la supervisione dell'operazione. Questo esempio può essere modellizzato utilizzando le operazioni parallele, in cui un'operazione è indicata come l'operazione primaria e le altre sono secondarie.  
 
-[lavorazione![che ha operazioni primarie e secondarie (]. /media/routes-and-operations-3-parallel-operations.png)](. /media/routes-and-operations-3-parallel-operations.png)  
+[![Ciclo di lavorazione con operazioni primarie e secondarie](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
-In genere, l'operazione primaria per la risorsa collo di bottiglia e detta di esecuzione per le operazioni secondarie. Tuttavia, durante la programmazione che include la capacità limitata, le risorse che sono programmati per l'operazione principale dalle operazioni secondarie deve essere disponibile e potranno essere capacità contemporaneamente.  
+In genere, l'operazione primaria rappresenta la risorsa collo di bottiglia e detta il tempo di esecuzione per le operazioni secondarie. Tuttavia, durante la programmazione che prevede la capacità limitata, le risorse che sono programmate per l'operazione primaria e le operazioni secondarie devono essere disponibili e avere allo stesso tempo capacità libera.  
 
-Sia l'operazione principale dalle operazioni secondarie devono avere la stessa operazione numero (30 nella precedente figura).  
+Sia l'operazione primaria che le operazioni secondarie devono avere lo stesso numero di operazione (30 nella precedente figura).  
 
-Nell'esempio precedente, i requisiti risorsa per l'operazione primaria (30) è il computer, mentre i requisiti risorsa per le operazioni secondarie (30 a 30 e ") vengono strumento e il lavoratore. Consente di un carico di cinquanta- PERCENT garantire che il lavoratore è programmato L'obiettivo due computer contemporaneamente.
+Nell'esempio precedente, il requisito risorsa per l'operazione primaria (30) è la macchina, mentre i requisiti risorsa per le operazioni secondarie (30' e 30'') sono lo strumento e il lavoratore. Un carico del 50% garantisce che il lavoratore programmato possa supervisionare due macchine contemporaneamente.
 
 ### <a name="approval-of-routes"></a>Approvazione cicli di lavorazione
 
-Un ciclo di lavorazione deve prima essere approvato che può essere utilizzata in Pianificazione o durante il processo di produzione. L'approvazione indica che la progettazione del ciclo di lavorazione è stata completata. Lo stesso prodotto rilasciato o varianti prodotto rilasciato può avere più cicli di lavorazione approvati. In genere, l'approvazione da un ciclo di lavorazione avviene la prima la versione del ciclo di lavorazione è approvata. Tuttavia, in alcuni scenari aziendali, l'approvazione del ciclo di lavorazione e del ciclo di lavorazione sono attività separate che possono essere coinvolti i proprietari di diversi.  
+Prima che un ciclo di lavorazione possa essere utilizzato nella pianificazione o nel processo di produzione, deve essere approvato. L'approvazione indica che la progettazione del ciclo di lavorazione è stata completata. Lo stesso prodotto rilasciato o varianti prodotto rilasciate possono avere più cicli di lavorazione approvati. In genere, l'approvazione di un ciclo di lavorazione si verifica quando la prima versione rilevante del ciclo di lavorazione è approvata. Tuttavia, in alcuni scenari aziendali, l'approvazione del ciclo di lavorazione e delle versione del ciclo di lavorazione sono attività separate che possono coinvolgere i proprietari del processo.  
 
-Ogni ciclo di lavorazione può essere approvato o non separatamente. Tuttavia, noti che, quando un ciclo di lavorazione viene annullata l'approvazione, tutte le versioni correlate del ciclo di lavorazione vengono inoltre non approvate. Nei parametri di Controllo produzione, è possibile specificare se i cicli di lavorazione possono essere non approvate e se i cicli di lavorazione approvati possono essere modificati.  
+Ogni ciclo di lavorazione può essere approvato o non approvato separatamente. Tuttavia, se un ciclo di lavorazione non è approvato, anche tutte le versioni del ciclo di lavorazione correlate non sono approvate. Nei parametri di controllo produzione, è possibile specificare se i cicli di lavorazione possono essere non approvati e se i cicli di lavorazione approvati possono essere modificati.  
 
-Se è necessario tenere un registro di record che approva ciascun ciclo di lavorazione, è possibile richiedere firme elettroniche per l'approvazione di un ciclo di lavorazione. Gli utenti dovranno quindi confermare la propria identità utilizzando firma elettronica [] (/dynamics365/operations/organization-administration/electronic-signature-overview).
+Se è necessario tenere un registro per registrare chi approva ciascun ciclo di lavorazione è possibile richiedere firme elettroniche per l'approvazione di un ciclo di lavorazione. Gli utenti dovranno quindi confermare la propria identità utilizzando una [firma elettronica](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Operazioni
-Un'operazione è un passaggio del processo di produzione. In Dynamics 365 per le operazioni, ciascuna operazione ha un ID e una descrizione semplice. Nelle tabelle seguenti sono indicati gli esempi comuni delle operazioni di officina meccanico.
+Un'operazione costituisce un passaggio del processo di produzione. In Dynamics 365 for Operations, ciascuna operazione ha un ID e una descrizione semplice. Nelle tabelle seguenti sono indicati gli esempi comuni delle operazioni di un'officina meccanica.
 
 | Operazione  | descrizione        |
 |------------|--------------------|
-| PipeCut    | Taglia di tubo       |
-| TIGweld    | Saldatura di TIG        |
-| JigAssy    | Assembly maschera       |
-| Ispezione | Controllo di qualità |
+| PipeCut    | Taglio tubi       |
+| TIGweld    | Saldatura TIG        |
+| JigAssy    | Assemblaggio struttura di montaggio       |
+| Ispezione | Ispezione di controllo qualità |
 
-Le proprietà operative per l'operazione, ad esempio il tempo di impostazione ed esecuzione, requisiti risorsa, informazioni di determinazione costi e al calcolo del consumo, vengono specificate alla relazione operativa. Per ulteriori informazioni sulle relazioni operative, vedere la sezione successiva.)
+Le proprietà operative dell'operazione, ad esempio il tempo di attrezzaggio, il tempo di esecuzione, i requisiti risorse, le informazioni di determinazione costi e il calcolo del consumo, sono specificate nella relazione operativa. Per ulteriori informazioni sulle relazioni operative, vedere la sezione successiva.
 
 ## <a name="operation-relations"></a>Relazioni operative
 Le seguenti proprietà operative di un'operazione vengono gestite nella relazione operativa:
 
 -   Categorie costi
 -   Parametri di consumo
--   Tempi di lavorazione
--   Elaborazione delle quantità
+-   Tempi di elaborazione
+-   Quantità di elaborazione
 -   Requisiti risorsa
 -   Note e istruzioni
 
-È possibile definire le relazioni operative più per la stessa operazione. Tuttavia, ciascuna relazione operativa è specifica a un'operazione e vengono archiviate le proprietà specifiche di un ciclo di lavorazione, un prodotto rilasciato, o in un set di prodotti rilasciati correlati a un gruppo di articoli. Di conseguenza, la stessa operazione può essere utilizzata in più cicli di lavorazione con proprietà operative diversi. Inoltre, è possibile gestire più facilmente i dati master se si utilizzano operazioni standard con le stesse proprietà operative, indipendentemente dall'lavorazione utilizzato e prodotto da produrre. L'ambito della relazione operativa è definito in ** codice articolo, ** ** relazione articolo, ** ** il ciclo di lavorazione ** e ** relazione ciclo di lavorazione ** le proprietà, come illustrato nella seguente tabella.
+È possibile definire più relazioni operative per la stessa operazione. Tuttavia, ciascuna relazione operativa è specifica di un'operazione e vengono memorizzare le proprietà specifiche di un ciclo di lavorazione, un prodotto rilasciato, o un set di prodotti rilasciati correlati a un gruppo di articoli. Di conseguenza, la stessa operazione può essere utilizzata in più cicli di lavorazione con proprietà operative diverse. Inoltre, è possibile gestire più facilmente i dati master se si utilizzano operazioni standard con le stesse proprietà operative, indipendentemente dal ciclo di lavorazione utilizzato e dal prodotto da produrre. L'ambito della relazione operativa è definito tramite le proprietà **Codice articolo**, **Relazione articolo**, **Codice ciclo di lavorazione** e **Relazione ciclo di lavorazione** come illustrato nella seguente tabella.
 
 | Codice articolo | Relazione articolo         | Codice ciclo di lavorazione | Relazione ciclo di lavorazione   | Ambito della relazione operativa                                                                                                                                                                                                                                                                              |
 |-----------|-----------------------|------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tabella     | &lt;ID articolo&gt;       | Ciclo      | &lt;ID ciclo di lavorazione&gt; | Le proprietà operative di un'operazione quando è utilizzato l'ID del ciclo di lavorazione=lavorazione in cui ** numero&lt;del ciclo di lavorazione **&gt; la produzione del prodotto rilasciato in cui ** numero di articolo ** ID&lt;articolo.=&gt;                                                                                                                        |
-| Tabella     | &lt;ID articolo&gt;       | Tutti        |                  | Le proprietà operative predefinito di un'operazione quando utilizzato per la produzione del prodotto rilasciato in cui ** numero di articolo ** ID&lt;articolo.=&gt; Ovvero le proprietà operative vengono applicati quando non esistono relazioni operative relative specifica per il prodotto rilasciato.                                     |
-| Raggruppa     | &lt;Identificazione del gruppo di articoli&gt; | Ciclo      | &lt;ID ciclo di lavorazione&gt; | Le proprietà operative di un'operazione quando è utilizzato nel ciclo di lavorazione in cui ** numero del ciclo di lavorazione ** l'ID&lt;del ciclo=&gt; la produzione rilasciati i prodotti associati all'ID gruppo di articoli &lt;gruppo di articoli, a meno che esista una relazione operativa a specifica per il prodotto rilasciato.                         |
-| Raggruppa     | &lt;Identificazione del gruppo di articoli&gt; | Tutti        |                  | Le proprietà operative predefinito di un'operazione quando utilizzato per la produzione dei prodotti rilasciati associati all'ID gruppo di articoli &lt;gruppo di articoli, a meno che una relazione operativa presente più specifica.                                                                                                  |
-| Tutti       |                       | Ciclo      | &lt;ID ciclo di lavorazione&gt; | Le proprietà operative predefinito dell'operazione quando è utilizzato nel ciclo di lavorazione in cui ** numero del ciclo di lavorazione ** identificazione&lt;del ciclo di lavorazione=&gt;. Ovvero le proprietà operative vengono applicati quando non esistono relazioni operative per il ciclo di lavorazione specifico al prodotto rilasciato o al gruppo di articoli. |
-| Tutti       |                       | Tutti        |                  | Le proprietà operative predefinito di un'operazione. Queste proprietà operative vengono applicati quando una relazione operativa più specifica non è disponibile.                                                                                                                                                                |
+| Tabella     | &lt;ID articolo&gt;       | Ciclo      | &lt;ID ciclo di lavorazione&gt; | Le proprietà operative di un'operazione quando utilizzata nel ciclo di lavorazione in cui **Numero ciclo di lavorazione**=&lt;ID ciclo di lavorazione&gt; per la produzione del prodotto rilasciato in cui **Numero articolo**=&lt;ID articolo&gt;.                                                                                                                        |
+| Tabella     | &lt;ID articolo&gt;       | Tutti        |                  | Le proprietà operative predefinite di un'operazione quando utilizzata per la produzione del prodotto rilasciato in cui **Numero articolo**=&lt;ID articolo&gt;. Ovvero, le proprietà operative vengono applicate quando non esistono relazioni operative specifiche del ciclo di lavorazione per il prodotto rilasciato.                                     |
+| Raggruppa     | &lt;ID gruppo di articoli&gt; | Ciclo      | &lt;ID ciclo di lavorazione&gt; | Le proprietà operative di un'operazione quando è utilizzata nel ciclo di lavorazione in cui **Numero ciclo di lavorazione**=&lt;ID ciclo di lavorazione&gt; per produrre i prodotti rilasciati associai all'ID gruppo di articoli del &lt;gruppo di articoli&gt; a meno che esista una relazione operativa specifica per il prodotto rilasciato.                         |
+| Raggruppa     | &lt;ID gruppo di articoli&gt; | Tutti        |                  | Le proprietà operative predefinite di un'operazione quando utilizzata per la produzione dei prodotti rilasciati associati all'ID gruppo di articoli del &lt;gruppo di articoli&gt;, a meno che sia presente una relazione operativa più specifica.                                                                                                  |
+| Tutti       |                       | Ciclo      | &lt;ID ciclo di lavorazione&gt; | Le proprietà operative predefinite dell'operazione quando è utilizzate nel ciclo di lavorazione in cui **Numero del ciclo di lavorazione**=&lt;ID del ciclo di lavorazione&gt;. Ovvero, le proprietà operative vengono applicate quando non esistono relazioni operative per questo ciclo di lavorazione né per il prodotto rilasciato né per il gruppo di articoli associato. |
+| Tutti       |                       | Tutti        |                  | Le proprietà operative predefinite di un'operazione. Queste proprietà operative vengono applicate quando una relazione operativa più specifica non è disponibile.                                                                                                                                                                |
 
-È inoltre possibile specificare che una relazione operativa è specifica a un sito. In questo modo, le proprietà operative di un'operazione possono variare, a seconda della posizione ovvero il sito) in cui l'operazione viene eseguita. Per i prodotti configurati, è inoltre possibile specificare le proprietà operative diversi per ciascuna configurazione prodotto.  
+È inoltre possibile specificare che una relazione operativa è specifica di un sito. In questo modo, le proprietà operative di un'operazione possono variare, a seconda dell'ubicazione (ovvero il sito) in cui l'operazione viene eseguita. Per i prodotti configurati, è inoltre possibile specificare proprietà operative diverse per ciascuna configurazione prodotto.  
 
-Le relazioni operative consentono i lotti di flessibilità quando si definiscono i cicli di lavorazione. Inoltre, la capacità di definire le aree delle proprietà predefinita riduce la quantità di dati master che dovranno poi. Tuttavia, questa flessibilità significa anche per i quali è necessario considerare il contesto di modifica di una relazione operativa in.  
+Le relazioni operative offrono molta flessibilità quando si definiscono i cicli di lavorazione. Inoltre, la capacità di definire delle proprietà predefinite riduce la quantità di dati master da gestire. Tuttavia, questa flessibilità significa anche che è necessario considerare il contesto di modifica di una relazione operativa.  
 
-** Nota: ** Poiché le proprietà relazioni operative vengono archiviate in esecuzione per l'operazione del ciclo di lavorazione, tutti gli eventi la stessa operazione, ad esempio Assemblaggio) presentano lo stesso tempo di attrezzaggio, il tempo di esecuzione, requisiti risorsa, e così via. Di conseguenza, se due eventi di un'operazione devono verificarsi nello stesso ciclo di lavorazione ma non avere diversi, è necessario creare due operazioni distinte, ad esempio Assembly1 e Assembly2.
+**Nota**: poiché le proprietà operative vengono archiviate in relazioni operative per operazione per ciclo di lavorazione, tutti le occorrenze della stessa operazione, ad esempio Assemblaggio, presentano lo stesso tempo di attrezzaggio, tempo di esecuzione, gli stessi requisiti risorsa e così via. Di conseguenza, se due occorrenze di un'operazione devono verificarsi nello stesso ciclo di lavorazione ma con tempi di esecuzione diversi, è necessario creare due operazioni distinte, ad esempio Assembly1 e Assembly2.
 
-### <a name="modifying-product-specific-routes"></a>Cicli di lavorazione per un prodotto specifico di modifica
+### <a name="modifying-product-specific-routes"></a>Modifica di cicli di lavorazione specifici di prodotto
 
-Quando si apre ** lavorazione ** la pagina ** modulo Dettagli prodotto rilasciato dalla pagina **, le versioni del ciclo di lavorazione associate al prodotto rilasciato selezionato. In questo contesto, per ciascuna operazione, Dynamics 365 per le operazioni vengono visualizzate le proprietà operative la relazione operativa alle corrispondenze per la versione del ciclo di lavorazione. Noterete che l'elenco delle operazioni include ** codice articolo e ** ** il ciclo di lavorazione ** le proprietà della relazione operativa. Di conseguenza, è possibile determinare la relazione operativa viene visualizzata.  
+Quando si apre la pagina **Ciclo di lavorazione** dalla pagina **Dettagli prodotto rilasciato**, vengono mostrate le versioni del ciclo di lavorazione associate al prodotto rilasciato selezionato. In questo contesto, per ciascuna operazione, Dynamics 365 for Operations visualizza le proprietà operative per la relazione operativa con migliore corrispondenza rispetto alla versione del ciclo di lavorazione. Si può notare che l'elenco delle operazioni include le proprietà **Codice articolo** e **Codice ciclo di lavorazione** della relazione operativa. Di conseguenza, è possibile determinare quale relazione operativa viene visualizzata.  
 
-** Ciclo ** nella pagina, è possibile modificare le proprietà dell'operazione operative, ad esempio il tempo di esecuzione o categorie di costi. Le modifiche verranno salvate in relazione operativa specifiche al ciclo di lavorazione e al prodotto rilasciato a cui viene fatto riferimento nella versione del ciclo di lavorazione corrente. Se la relazione operativa indicato non è specifico al ciclo di lavorazione e al prodotto rilasciato, prima delle modifiche desiderate siano archiviate, viene creata una copia della relazione operativa. Questo *is* di copia specifico al ciclo di lavorazione e al prodotto rilasciato. Di conseguenza, le modifiche non influiranno sui cicli di lavorazione o altri prodotti rilasciati. Per verificare la relazione operativa viene modificanda ** lavorazione ** nella pagina, esaminare ** codice articolo e ** ** il ciclo di lavorazione ** campi.  
+Nella pagina **Ciclo di lavorazione**, è possibile modificare le proprietà operative dell'operazione, ad esempio il tempo di esecuzione o le categorie di costi. Le modifiche verranno salvate nella relazione operativa specifica del ciclo di lavorazione e del prodotto rilasciato a cui viene fatto riferimento nella versione del ciclo di lavorazione corrente. Se la relazione operativa mostrata non è specifica del ciclo di lavorazione e del prodotto rilasciato, prima che le modifiche siano archiviate, viene creata una copia della relazione operativa. Questa copia *è* specifica del ciclo di lavorazione e del prodotto rilasciato. Di conseguenza, le modifiche non influiranno su altri cicli di lavorazione o prodotti rilasciati. Per verificare quale relazione operativa viene modificata nella pagina **Ciclo di lavorazione**, esaminare i campi **Codice articolo** e **Codice ciclo di lavorazione**.  
 
-È inoltre possibile creare manualmente un'operazione specifiche di un ciclo di lavorazione e a un prodotto rilasciato utilizzando ** copia e relazione di modifica ** la funzione.  
+È inoltre possibile creare manualmente un'operazione specifica di un ciclo di lavorazione e un prodotto rilasciato utilizzando la funzione **Copia e modifica relazione**.  
 
-** Nota: ** Se si aggiungono nuove operazioni a un ciclo di lavorazione ** ** nella pagina, una relazione operativa viene creata solo per il prodotto rilasciato corrente. Pertanto, se il ciclo di lavorazione viene utilizzato anche per produrre altri prodotti rilasciati, alcuna relazione operativa presente applicabile per i prodotti rilasciati il ciclo di lavorazione e non potrà più essere utilizzato per i prodotti rilasciati.
+**Nota:** se si aggiungono nuove operazioni a un ciclo di lavorazione nella pagina **Ciclo di lavorazione**, viene creata una relazione operativa solo per il prodotto rilasciato corrente. Pertanto, se il ciclo di lavorazione viene utilizzato anche per produrre altri prodotti rilasciati, nessuna relazione operativa sarà presente applicabile per questi prodotti rilasciati e il ciclo di lavorazione non potrà più essere utilizzato per tali prodotti rilasciati.
 
-### <a name="maintaining-operation-relations-per-route"></a>Relazioni operative per la gestione di lavorazione
+### <a name="maintaining-operation-relations-per-route"></a>Gestire le relazioni operative per ciclo di lavorazione
 
-Quando si apre ** il ciclo di lavorazione Dettagli ** la pagina ** cicli di lavorazione ** dalla pagina elenco, l'elenco di tutte le relazioni operative applicate al ciclo di lavorazione selezionato è indicato. Di conseguenza, è possibile verificare facilmente le proprietà operative vengono utilizzate per cui prodotti. È possibile modificare sia i valori di una proprietà predefinita che i valori di una proprietà per un prodotto specifico.  
+Quando si apre la pagina **Dettagli ciclo di lavorazione** dalla pagina elenco **Cicli di lavorazione**, viene mostrato l'elenco di tutte le relazioni operative applicate al ciclo di lavorazione selezionato. Di conseguenza, è possibile verificare facilmente quali proprietà operative vengono utilizzate per quali prodotti. È possibile modificare sia i valori di una proprietà predefinita che i valori di una proprietà specifica di prodotto.  
 
-Se si aggiunge una nuova relazione operativa ** il ciclo di lavorazione ** dettagli della pagina, ** il ciclo di lavorazione ** il campo viene impostato automaticamente su ** ** lavorazione e ** relazione ciclo di lavorazione ** il campo è impostato sul numero del ciclo di lavorazione corrente.
+Se si aggiunge una nuova relazione operativa nella pagina **Dettagli ciclo di lavorazione**, il campo **Codice ciclo di lavorazione** viene impostato automaticamente su **Ciclo di lavorazione** e il campo **Relazione ciclo di lavorazione** viene impostato sul numero del ciclo di lavorazione corrente.
 
-### <a name="maintaining-operation-relations-per-operation"></a>Relazioni operative per la gestione delle operazioni
+### <a name="maintaining-operation-relations-per-operation"></a>Gestire le relazioni operative per operazione
 
-** Operazioni ** dalla pagina, è possibile aprire ** relazioni operative ** la pagina. In questa pagina, è possibile modificare tutte le relazioni operative per una specifica operazione. È inoltre possibile modificare le relazioni operative che contengono i valori predefiniti.  
+Nella pagina **Operazioni** è possibile aprire la pagina **Relazioni operative**. In questa pagina, è possibile modificare tutte le relazioni operative per una specifica operazione. È inoltre possibile modificare le relazioni operative che contengono i valori predefiniti.  
 
-Se le operazioni standard vengono utilizzate professionali e se i parametri operativi sono uguali in tutti i prodotti e processi, ** relazioni operative ** la pagina offre un metodo pratico gestire proprietà operative standard delle operazioni.
+Se le operazioni standard vengono utilizzate in azienda e se i parametri operativi sono uguali per tutti i prodotti e processi, la pagina **Relazioni operative** offre un metodo pratico gestire proprietà operative predefinite di tali operazioni.
 
-### <a name="applying-operation-relations"></a>Applicazione delle relazioni operative
+### <a name="applying-operation-relations"></a>Applicare le relazioni operative
 
-In alcuni casi, Dynamics 365 per le operazioni devono trovare le proprietà operative per un'operazione. Ad esempio, quando viene creato un ordine fornitore, le proprietà operative di ciascuna operazione da copiare in base alle relazioni operative nel ciclo di produzione. In queste situazioni, Dynamics 365 per le operazioni la ricerca di relazioni operative rilevanti dalla combinazione più specifica la combinazione meno specifica.  
+In alcuni casi, Dynamics 365 for Operations deve trovare le proprietà operative per un'operazione. Ad esempio, quando viene creato un ordine fornitore, le proprietà operative di ciascuna operazione devono essere copiate dalle relazioni operative al ciclo di produzione. In queste situazioni, Dynamics 365 for Operations cerca le relazioni operative rilevanti dalla combinazione più specifica alla combinazione meno specifica.  
 
-Quando Dynamics 365 per le operazioni viene ricercata la relazione operativa più appropriato per un prodotto rilasciato, una relazione operativa che corrisponde all'ID di articolo del prodotto rilasciato questa opzione su una relazione operativa che corrisponde all'ID del gruppo di articoli. La sua volta, una relazione operativa che corrisponde all'ID del gruppo di articoli è consigliabile alla relazione operativa predefinito. La ricerca viene eseguita nel seguente ordine:
+Quando Dynamics 365 for Operations cerca la relazione operativa più rilevante per un prodotto rilasciato, una relazione operativa che corrisponde all'ID articolo del prodotto rilasciato ha priorità rispetto a una relazione operativa che corrisponde all'ID del gruppo di articoli. A sua volta, una relazione operativa che corrisponde all'ID del gruppo di articoli ha priorità rispetto alla relazione operativa predefinita. L'ordine di ricerca è il seguente:
 
-1.  ** Codice articolo **=** Tabella ** e ** relazione articolo ** ID&lt;articolo=&gt;
-2.  ** Codice articolo **=** gruppo ** e ** relazione articolo ** ID&lt;gruppo di articoli=&gt;
-3.  ** Codice articolo **=** tutti **
-4.  ** Codice di lavorazione **=** ** lavorazione e ** relazione ciclo di lavorazione ** identificazione&lt;del ciclo di lavorazione=&gt;
-5.  ** Codice di lavorazione **=** tutti **
-6.  ** Configurazione ** identificazione&lt;della configurazione=&gt;
-7.  **Configuration**=
-8.  ** Sito ** ID sito&lt;di=&gt;
-9.  **Site**=
+1.  **Codice articolo**=**Tabella** e **Relazione articolo**=&lt;ID articolo&gt;
+2.  **Codice articolo**=**Gruppo** e **Relazione articolo**=&lt;ID gruppo di articoli&gt;
+3.  **Codice articolo**=**Tutto**
+4.  **Codice ciclo di lavorazione**=**Ciclo di lavorazione** e **Relazione ciclo di lavorazione**=&lt;ID ciclo di lavorazione&gt;
+5.  **Codice ciclo di lavorazione**=**Tutto**
+6.  **Configurazione**=&lt;ID configurazione&gt;
+7.  **Configurazione**=
+8.  **Sito**=&lt;ID sito&gt;
+9.  **Sito**=
 
-Di conseguenza, un'operazione è necessario utilizzare una sola volta per ogni ciclo di lavorazione. Se l'operazione viene eseguita più volte lo stesso ciclo di lavorazione, tutti gli eventi di tale operazione avranno lo stesso relazione operativa e non sarà possibile avere proprietà diverse, ad esempio tempo di esecuzione) per ogni occorrenza.
+Di conseguenza, un'operazione essere utilizzata una sola volta per ogni ciclo di lavorazione. Se l'operazione viene eseguita più volte nello stesso ciclo di lavorazione, tutti le occorrenze di tale operazione avranno la stessa relazione operativa e non sarà possibile avere proprietà diverse, ad esempio il tempo di esecuzione, per ogni occorrenza.
 
 ## <a name="route-versions"></a>Versioni cicli di lavorazione
-Le versioni cicli di lavorazione vengono utilizzate per le variazioni nella produzione dei prodotti o per aumentare il controllo del processo di produzione. Definiscono il ciclo di lavorazione deve essere utilizzato per un prodotto rilasciato specifico o una variante prodotto rilasciato produrre. È possibile utilizzare i seguenti vincoli per definire il ciclo di lavorazione viene utilizzato per un prodotto rilasciato:
+Le versioni del ciclo di lavorazione vengono utilizzate per adeguare il ciclo di lavorazione alle variazioni nella produzione dei prodotti o per migliorare il controllo del processo di produzione. Definiscono quale ciclo di lavorazione deve essere utilizzato quando si produce un prodotto rilasciato specifico o una variante prodotto rilasciata. È possibile utilizzare i seguenti vincoli per definire quale ciclo di lavorazione utilizzare per un prodotto rilasciato:
 
--   Dimensioni prodotto (dimensione, colore, Stile configurazione, o)
+-   Le dimensioni prodotto (dimesnioni, colore, stile o configurazione)
 -   Quantità di produzione
 -   Sito di produzione
 -   Data di produzione
 
-Quando si producendo il prodotto presso un sito specifico, una quantità specifica, o in un periodo specifico, è possibile indicare una versione specifica del ciclo di lavorazione nella versione del ciclo di lavorazione predefinito. Tuttavia, noti che solo un ciclo di lavorazione attivo è consentito un prodotto rilasciato specifico e un set specifico dei vincoli.  
+Quando si produce il prodotto presso un sito specifico, con una quantità specifica o in un periodo specifico, è possibile indicare una versione specifica del ciclo di lavorazione come versione del ciclo di lavorazione predefinito. Tuttavia, si noti che solo un ciclo di lavorazione attivo è consentito per un prodotto rilasciato specifico e per un set specifico di vincoli.  
 
-Nei parametri di Controllo produzione, è possibile richiedere che il periodo di validità della versione del ciclo di lavorazione sia sempre specificato.
+Nei parametri di controllo produzione, è possibile richiedere che il periodo di validità di una versione del ciclo di lavorazione sia sempre specificato.
 
-### <a name="approval-of-route-versions"></a>Approvazione delle versioni cicli di lavorazione
+### <a name="approval-of-route-versions"></a>Approvazione delle versioni del ciclo di lavorazione
 
-Prima di una versione del ciclo di lavorazione possa essere utilizzata in Pianificazione o durante il processo di produzione, deve essere approvata. Quando si approva una versione del ciclo di lavorazione, è inoltre possibile approvare il ciclo di lavorazione correlato. Tuttavia, noti che una versione del ciclo di lavorazione può essere approvata solo se il ciclo di lavorazione correlato viene approvato.
+Prima che una versione di un ciclo di lavorazione possa essere utilizzata nella pianificazione o nel processo di produzione, deve essere approvata. Quando si approva una versione del ciclo di lavorazione, è possibile approvare anche il ciclo di lavorazione correlato. Tuttavia, si noti che una versione di un ciclo di lavorazione può essere approvata solo se anche il ciclo di lavorazione correlata viene approvato.
 
-### <a name="activating-the-default-route-version"></a>Attivazione della versione del ciclo di lavorazione predefinito
+### <a name="activating-the-default-route-version"></a>Attivazione della versione predefinita del ciclo di lavorazione
 
-Se si attiva una versione del ciclo di lavorazione, la designate come la versione del ciclo di lavorazione predefinito che la pianificazione generale utilizzerà, o che verrà utilizzata per la creazione degli ordini di produzione. È possibile utilizzare solo una versione attiva per un set specifico dei vincoli, ad esempio periodo, il sito, o quantità). Se la versione che si sta tentando di attivare i conflitti con una versione già attiva, si riceverà un messaggio di errore. Per evitare di attivazione ambigua, è necessario quindi disattivare la versione separati o modificare i vincoli (in genere il periodo) nella versione del ciclo di lavorazione.
+Se si attiva una versione del ciclo di lavorazione, si designa tale versione come versione predefinita del ciclo di lavorazione che la pianificazione generale utilizzerà o che verrà utilizzata per la creazione degli ordini di produzione. È possibile disporre solo di una versione attiva per un set specifico di vincoli, ad esempio periodo, sito o quantità. Se la versione che si sta tentando di attivare è in conflitto con una versione già attiva, viene visualizzato un messaggio di errore. È quindi necessario disattivare la versione in conflitto o modificare i vincoli della versione (in genere il periodo) nella versione del ciclo di lavorazione per impedire un'attivazione ambigua.
 
 ### <a name="electronic-signatures"></a>Firme elettroniche
 
-Se è necessario tenere un registro di record che approva attiva e ogni versione del ciclo di lavorazione, è possibile richiedere firme elettroniche per queste attività. Gli utenti che approvano e attivare le versioni del ciclo di lavorazione quindi dovranno confermare la propria identità utilizzando firma elettronica [] (/dynamics365/operations/organization-administration/electronic-signature-overview).
+Se è necessario tenere un registro per registrare chi approva e attiva ciascuna versione del ciclo di lavorazione è possibile richiedere firme elettroniche per queste attività. Gli utenti che approvano e attivano le versioni del ciclo di lavorazione dovranno quindi confermare la propria identità utilizzando una [firma elettronica](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
-### <a name="product-change-that-uses-case-management"></a>Modifica di un prodotto che utilizza la gestione dei casi
+### <a name="product-change-that-uses-case-management"></a>Modifica dei prodotti con gestione dei casi
 
-In caso di modifica del prodotto per l'approvazione e l'attivazione dei nuovi cicli di lavorazione o variabili e delle versioni cicli di lavorazione fornisce un metodo semplice per visualizzare una panoramica dei vincoli di versione del ciclo di lavorazione. È inoltre possibile approvare e attivare tutti i cicli di lavorazione correlate a una modifica specifica in un'unica operazione e documentare i risultati nel caso del prodotto.
+Il caso di modifica del prodotto per l'approvazione e l'attivazione di nuovi o modificati cicli di lavorazione e versioni di cicli di lavorazione fornisce un modo semplice di visualizzare una panoramica dei vincoli della versione del ciclo di lavorazione. È inoltre possibile approvare e attivare tutti i cicli di lavorazione correlati a una modifica specifica con un'unica operazione e documentare i risultati nel caso del prodotto.
 
-## <a name="maintaining-routes"></a>Cicli di lavorazione gestione
-In base ai requisiti aziendali, è possibile ridurre la risorsa necessario per gestire le definizioni di processo.
+## <a name="maintaining-routes"></a>Gestione dei cicli di lavorazione
+In base ai requisiti aziendali, è possibile ridurre le risorse necessarie per gestire le definizioni di processo.
 
-### <a name="making-routes-independent-of-resources"></a>Impostazione dei cicli di lavorazione indipendenti dalle risorse
+### <a name="making-routes-independent-of-resources"></a>Impostazione di cicli di lavorazione indipendenti dalle risorse
 
-In molti sistemi, la risorsa operativa o il gruppo di risorse che devono eseguire un'operazione deve essere specificato nel ciclo di lavorazione. Tuttavia, in Dynamics 365 per le operazioni, è possibile definire un insieme di richieste da una risorsa operativa deve soddisfare per essere applicabile per l'operazione. Di conseguenza, il gruppo di risorse o la risorsa operativa specifica che deve essere utilizzato non deve essere risoluti fino a programmare l'operazione effettivamente. Questa funzionalità è particolarmente utile se si dispone di numerosi lavoratori o computer che possono eseguire la stessa operazione.  
+In molti sistemi, la risorsa operativa o il gruppo di risorse che devono eseguire un'operazione devono essere specificati nel ciclo di lavorazione. Tuttavia, in Dynamics 365 for Operations,, è possibile definire un insieme di requisiti che una risorsa operativa deve soddisfare per essere applicabile per l'operazione. Di conseguenza, il gruppo di risorse o la risorsa operativa specifici che devono essere utilizzati non devono essere determinati fino a che l'operazione viene effettivamente programmata. Questa funzionalità è particolarmente utile se si dispone di numerosi lavoratori o macchine che possono eseguire la stessa operazione.  
 
-Ad esempio, si specifica che un'operazione richiede una risorsa operativa ** del computer in ** che ha a ** timbrando ** la capacità di 20 tonnellate. Il motore di programmazione quindi risolverà tali requisiti a una risorsa operativa o a un gruppo di risorse specifica quando l'operazione verrà programmata. Poiché è possibile specificare solo tali requisiti anziché legare l'operazione a un computer specifico, è molto più flessibile. Inoltre, la manutenzione è più semplice quando le risorse viene modificato o nuove risorse vengono aggiunti.  
+Ad esempio, si specifica che un'operazione richiede una risorsa operativa del tipo **Macchina** con capacità di **punzonatura** di 20 tonnellate. Il motore di programmazione risolverà quindi tali requisiti per una risorsa operativa o un gruppo di risorse specifico quando l'operazione verrà programmata. È possibile specificare solo tali requisiti anziché associare l'operazione a una macchina specifica e questo garantisce maggiore flessibilità. Inoltre, la gestione è più semplice quando le risorse vengono spostate o quando nuove risorse vengono aggiunte.  
 
-Per ulteriori informazioni sui diversi tipi di requisiti risorsa e come tal caso, vedere Requisiti di risorse operative e [] capacità delle risorse (resource-capabilities.md).
+Per ulteriori informazioni sui diversi tipi di requisiti risorsa e sul loro utilizzo, vedere Requisiti risorsa operativa e [Capacità risorsa](resource-capabilities.md).
 
-### <a name="sharing-routes-across-sites"></a>Divisione dei cicli di lavorazione che avvenga tra siti
+### <a name="sharing-routes-across-sites"></a>Condivisione dei cicli di lavorazione tra siti
 
-Se lo stesso prodotto prodotto in più siti di produzione e se i passaggi per la produzione del prodotto sono uguali a tutti i siti, è possibile progettare un ciclo di lavorazione spesso comune utilizzato in tutti i siti di produzione. Per creare un ciclo di lavorazione comune, non specificare un sito in l ciclo di lavorazione. Tuttavia, non è necessario creare una versione del ciclo di lavorazione che associa il ciclo di lavorazione comune al prodotto in ciascun sito.  
+Se si produce lo stesso prodotto in più siti di produzione e se i passaggi per la produzione del prodotto sono uguali in tutti i siti, spesso è possibile progettare un ciclo di lavorazione condiviso utilizzato in tutti i siti di produzione. Per creare un ciclo di lavorazione condiviso, non specificare un sito nel ciclo di lavorazione stesso. Tuttavia, è necessario creare una versione del ciclo di lavorazione che associa il ciclo di lavorazione condiviso al prodotto in ciascun sito.  
 
-È inoltre necessario assicurarsi che i requisiti risorsa per ciascuna operazione nel ciclo di lavorazione non di richiedere le risorse operative specifiche o gruppi di risorse, tuttavia è invece espressi in termini di capacità delle risorse necessarie. Il motore di programmazione sarà quindi assegnare le risorse operative appropriate dal sito che la produzione viene programmata sopra. Ad esempio, se si creano piccole differenze tempo di esecuzione, o se il tempo di attrezzaggio per una determinata operazione è specifico del sito, è possibile specificare queste informazioni aggiungendo una relazione operativa aggiuntivo per il sito.  
+È inoltre necessario assicurarsi che i requisiti risorsa per ciascuna operazione del ciclo di lavorazione non richiedano risorse operative specifiche o gruppi di risorse specifici, ma siano invece espressi in termini di capacità delle risorse necessarie. Il motore di programmazione sarà quindi in grado di assegnare le risorse operative appropriate dal sito in cui la produzione viene programmata. Ad esempio, se sono presenti piccole differenze nel tempo di esecuzione, o se il tempo di attrezzaggio per una determinata operazione è specifico del sito, è possibile specificare queste informazioni aggiungendo un'ulteriore relazione operativa per il sito.  
 
-Per sfruttare completamente dai benefit dei cicli di lavorazione comuni, è necessario inoltre possibile utilizzare il consumo delle risorse nella distinta base (BOM) corrispondente. Quando si imposta il flag del consumo delle risorse nella riga DBA, il magazzino e la posizione alle materie prime devono essere utilizzate da è arguito dalla risorsa operativa che l'operazione verrà programmata sopra. Di conseguenza, il magazzino e l'ubicazione non è necessario determinare fino a programmare la produzione effettiva. In questo modo, è possibile effettuare sia la DBA in cui indipendente di lavorazione dell'ubicazione fisica in cui il prodotto viene prodotto.
+Per sfruttare completamente i vantaggi dei cicli di lavorazione condivisi, è necessario inoltre utilizzare il consumo delle risorse nella distinta base (BOM) corrispondente. Quando si imposta il flag del consumo delle risorse nella riga DBA, il magazzino e l'ubicazione presso la quale le materie prime devono essere utilizzate vengono dedotti dalla risorsa operativa per cui l'operazione verrà programmata. Di conseguenza, il magazzino e l'ubicazione non devono necessario determinati fino al momento in cui la produzione è effettivamente programmata. In questo modo, è possibile rendere indipendenti sia la DBA che il ciclo di lavorazione dell'ubicazione fisica in cui il prodotto viene prodotto.
 
 ### <a name="standard-operation-relations"></a>Relazioni operative standard
 
-Se gli standardizzassero professionali utilizzare le operazioni in qualsiasi produzione e se è presente poca o non sono consentite variazioni nel tempo di attrezzaggio, il tempo, il calcolo del consumo, i costi, e così via, potrebbe essere utile per creare relazioni operative predefinito per tutte le operazioni. In questo caso, di creare relazioni operative specifiche a qualsiasi ciclo di lavorazione o prodotto rilasciato.  
+Se in azienda vengono utilizzate operazioni standardizzare nella produzione e se sono presenti variazioni minime o assenti nel tempo di attrezzaggio ed esecuzione, nel calcolo del consumo e dei costi e così via, potrebbe essere utile creare relazioni operative predefinite per tutte le operazioni. In questo caso, evitare di creare relazioni operative specifiche do cicli di lavorazione o prodotti rilasciati.  
 
-Se inoltre esprimete i requisiti risorsa in termini di competenze e capacità e si i cicli di lavorazione e indipendente, è possibile limitare al minimo il corso la gestione dei processi aziendali.  
+Se inoltre i requisiti risorsa vengono espressi in termini di competenze e capacità e se i cicli di lavorazione vengono resi indipendente, è possibile limitare al minimo la gestione dei processi aziendali.  
 
-Quando si utilizza questo metodo, ** relazioni operative ** la pagina viene impostata come destinazione la principale per il runtime della gestione e altre proprietà.
+Quando si utilizza questo metodo, la pagina **Relazioni operative** viene impostata come destinazione principale per la gestione dei tempi di esecuzione e di altre proprietà.
 
-### <a name="resource-specific-process-times"></a>periodi specifici trattati Risorsa-
+### <a name="resource-specific-process-times"></a>Tempi di processi specifici della risorsa
 
-Se non si specifica una risorsa operativa o un gruppo di risorse insieme ai requisiti risorsa per un'operazione, le risorse applicabili possono eseguire le diverse velocità. Come risultato, il tempo necessario per elaborare l'operazione potrebbe variare. Per risolvere questo problema, è possibile utilizzare ** formula ** liquidate alla relazione operativa per specificare come tempo di processo viene calcolato. Sono disponibili le seguenti opzioni:
+Se non si specifica una risorsa operativa o un gruppo di risorse come parte dei requisiti risorsa per un'operazione, le risorse applicabili possono funzionare secondo velocità diverse. Come risultato, il tempo necessario per elaborare l'operazione potrebbe variare. Per risolvere questo problema, è possibile utilizzare il campo **Formula** della relazione operativa per specificare come viene calcolato il tempo di elaborazione. Sono disponibili le seguenti opzioni:
 
--   ** Il valore predefinito ** - (opzione predefinita) nel calcolo vengono utilizzate solo i campi della relazione operativa e l'importo il tempo di esecuzione specificato per la quantità dell'ordine.
--   ** La capacità ** - Il calcolo include ** capacità ** sistema dalla risorsa operativa. Di conseguenza, l'ora viene disponibilità dipendente. Il valore specificato per la risorsa operativa è capacità oraria. Questo valore viene moltiplicato per la quantità ordine e ** fattore ** il valore della relazione operativa.
--   ** Il processo batch - ** una capacità batch viene calcolato utilizzando le informazioni relative alla relazione operativa. Numero di lotto e, di conseguenza, il tempo di esecuzione possono quindi essere calcolati in base alla quantità dell'ordine.
--   ** Il processo batch delle risorse ** questa opzione è fondamentalmente lo stesso batch ** ** dell'opzione. Tuttavia, il calcolo include ** capacità batch ** sistema dalla risorsa operativa. Di conseguenza, l'ora viene disponibilità dipendente.
+-   **Standard** – (opzione predefinita) nel calcolo vengono utilizzati solo i campi della relazione operativa e viene moltiplicato il tempo di esecuzione specificato per la quantità dell'ordine.
+-   **Capacità** – il calcolo include il campo **Capacità** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa. Il valore specificato per la risorsa operativa è la capacità oraria. Questo valore viene moltiplicato per la quantità ordine e il valore **Fattore** della relazione operativa.
+-   **Batch** – una capacità batch viene calcolata utilizzando le informazioni relative alla relazione operativa. Numero di batch e, di conseguenza, il tempo di elaborazione possono quindi essere calcolati in base alla quantità dell'ordine.
+-   **Batch risorsa** – questa opzione è fondamentalmente uguale all'opzione **Batch**. Tuttavia, il calcolo include il campo **Capacità batch** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa.
 
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Bills of materials and formulas](bill-of-material-bom.md)
+[Distinte base e formule](bill-of-material-bom.md)
 
-[Cost categories used in production routing](../cost-management/cost-categories-used-production-routings.md)
+[Categorie di costi utilizzate nei cicli di lavorazione](../cost-management/cost-categories-used-production-routings.md)
 
-[Resource capabilities](resource-capabilities.md)
+[Capacità risorsa](resource-capabilities.md)
 
-[Electronic signature overview](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Panoramica delle firme elettroniche](/dynamics365/operations/organization-administration/electronic-signature-overview)
+
+
 
 

@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organizations-and-organizational-hierarchies"></a>Organizzazioni e gerarchie organizzative
 
+[!include[banner](../includes/banner.md)]
+
+
 Un'organizzazione è un gruppo di persone che collaborano per svolgere un processo aziendale o raggiungere un obiettivo. Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda.
 
 <a name="organizations"></a>Organizzazioni
 -------------
 
-In Microsoft Dynamics 365 per le operazioni, è possibile definire i seguenti tipi di organizzazioni interne: persone giuridiche, unità operative e team.
+In Microsoft Dynamics 365 for Operations è possibile definire i seguenti tipi di organizzazioni interne: persone giuridiche, unità operative e team.
 
 Tutte le organizzazioni interne sono tipi di entità di **Parte**. Di conseguenza, utilizzano le funzionalità della rubrica per archiviare l'indirizzo e le informazioni sul contatto. Una parte, che può essere una persona o un'organizzazione, può appartenere a una o più rubriche.
 ### <a name="legal-entities"></a>Persone giuridiche
 
-Una persona giuridica è un'organizzazione dotata di una struttura legale istituita o registrata. Le persone giuridiche possono stipulare contratti e hanno l'obbligo di preparare rendiconti sul loro rendimento. Una società è un tipo di persona giuridica. In questa versione di Microsoft Dynamics 365 per le operazioni, le società sono l'unico tipo di persona giuridica che è possibile creare e ogni persona giuridica è associata a un ID società. Questa associazione esiste perché alcune aree funzionali del programma utilizzano un ID società, o DataAreaId, nei loro modelli di dati. In queste aree funzionali, le società vengono usate come limite per la sicurezza dei dati. Gli utenti possono accedere solo ai dati della società a cui sono collegati.
+Una persona giuridica è un'organizzazione dotata di una struttura legale istituita o registrata. Le persone giuridiche possono stipulare contratti e hanno l'obbligo di preparare rendiconti sul loro rendimento. Una società è un tipo di persona giuridica. In questa versione di Microsoft Dynamics 365 for Operations le società sono l'unico tipo di persona giuridica che è possibile creare e ogni persona giuridica è associata a un ID società. Questa associazione esiste perché alcune aree funzionali del programma utilizzano un ID società, o DataAreaId, nei loro modelli di dati. In queste aree funzionali, le società vengono usate come limite per la sicurezza dei dati. Gli utenti possono accedere solo ai dati della società a cui sono collegati.
 
 ### <a name="operating-units"></a>Unità operative
 
-Un'unità operativa è un'organizzazione utilizzata per dividere il controllo delle risorse economiche e dei processi operativi in un'azienda. Le persone in un'unità operativa hanno il compito di ottimizzare l'utilizzo delle risorse meno efficienti, di migliorare i processi e di rendere conto delle loro prestazioni. In Microsoft Dynamics 365 per le operazioni, i tipi di unità operative includono centri di costo, business unit, i flussi del valore, i reparti e i canali al dettaglio. Nella tabella riportata di seguito vengono fornite ulteriori informazioni su ciascun tipo di unità operativa.
+Un'unità operativa è un'organizzazione utilizzata per dividere il controllo delle risorse economiche e dei processi operativi in un'azienda. Le persone in un'unità operativa hanno il compito di ottimizzare l'utilizzo delle risorse meno efficienti, di migliorare i processi e di rendere conto delle loro prestazioni. In Microsoft Dynamics 365 for Operations i tipi di unità operative includono centri di costo, business unit, flussi del valore, reparti e canali di vendita al dettaglio. Nella tabella riportata di seguito vengono fornite ulteriori informazioni su ciascun tipo di unità operativa.
 | Tipo di unità operativa | Descrizione                                                                                                                                    | Scopo                                                                                                                                 |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Centro di costo         | Unità operativa i cui manager sono responsabili delle spese a budget ed effettive.                                                      | Serve per la gestione e il controllo operativo di processi aziendali che si estendono a più persone giuridiche.                                         |
@@ -55,7 +58,9 @@ Un team è un'organizzazione i cui membri condividono una responsabilità, un in
 Gerarchie organizzative
 --------------------------
 
-Impostare le gerarchie organizzative per la visualizzazione e il reporting sull'attività aziendale da diverse prospettive. È possibile impostare, ad esempio, una gerarchia di persone giuridiche per il reporting fiscale, legale o statutario. Impostare una gerarchia che si basa sulle unità operative per il reporting di informazioni finanziarie non obbligatorio per legge, ma utilizzato per il controllo interno. È ad esempio possibile creare una gerarchia per gli acquisti che controlli i criteri di acquisto, le relative regole e processi aziendali. Ogni gerarchia vengono definiti uno scopo in Microsoft Dynamics 365 per le operazioni. Lo scopo di una gerarchia determina i tipi di organizzazioni che è possibile includere nella gerarchia. Lo scopo consente inoltre di determinare gli scenari di applicazione per la gerarchia. Le organizzazioni di una gerarchia possono condividere parametri, criteri e transazioni. Le organizzazioni possono ereditare o sostituire i parametri della relativa organizzazione padre. Tuttavia, i dati master condivisi, ad esempio prodotti e rubriche, vengono applicati a tutta l'organizzazione e non possono essere sostituiti per le singole organizzazioni. La creazione di organizzazioni e gerarchie richiede una pianificazione attenta. Per ulteriori informazioni, vedere [Pianificazione della gerarchia organizzativa](plan-organizational-hierarchy.md).
+Impostare le gerarchie organizzative per la visualizzazione e il reporting sull'attività aziendale da diverse prospettive. È possibile impostare, ad esempio, una gerarchia di persone giuridiche per il reporting fiscale, legale o statutario. Impostare una gerarchia che si basa sulle unità operative per il reporting di informazioni finanziarie non obbligatorio per legge, ma utilizzato per il controllo interno. È ad esempio possibile creare una gerarchia per gli acquisti che controlli i criteri di acquisto, le relative regole e processi aziendali. A ogni gerarchia viene assegnato uno scopo in Microsoft Dynamics 365 for Operations. Lo scopo di una gerarchia determina i tipi di organizzazioni che è possibile includere nella gerarchia. Lo scopo consente inoltre di determinare gli scenari di applicazione per la gerarchia. Le organizzazioni di una gerarchia possono condividere parametri, criteri e transazioni. Le organizzazioni possono ereditare o sostituire i parametri della relativa organizzazione padre. Tuttavia, i dati master condivisi, ad esempio prodotti e rubriche, vengono applicati a tutta l'organizzazione e non possono essere sostituiti per le singole organizzazioni. La creazione di organizzazioni e gerarchie richiede una pianificazione attenta. Per ulteriori informazioni, vedere [Pianificazione della gerarchia organizzativa](plan-organizational-hierarchy.md).
+
+
 
 
 

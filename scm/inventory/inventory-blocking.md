@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-blocking"></a>Blocco scorte
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Microsoft Dynamics AX. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
 
 È possibile bloccare gli articoli di magazzino in uno dei modi seguenti.
@@ -53,17 +56,19 @@ Nell'esempio seguente viene generato un ordine di controllo qualità quando vien
 | Un'associazione di controllo qualità specifica che al momento della registrazione di un documento di trasporto dell'ordine fornitore deve essere generato un ordine di controllo qualità. L'impostazione del campionamento articoli dell'ordine di controllo qualità specifica che deve essere sottoposto a ispezione il 10% della quantità della riga dell'ordine fornitore. Se è selezionata la casella di controllo **Bloccaggio totale**, l'impostazione del campionamento articoli indica inoltre che durante l'ispezione deve essere bloccata l'intera quantità delle riga dell'ordine fornitore indipendentemente dalla quantità da sottoporre a ispezione. | Viene registrato il documento di trasporto. | Viene generato un ordine di controllo qualità. Viene sottoposto a ispezione il 10% della quantità nell'ordine fornitore dell'articolo. Viene bloccata l'intera quantità della riga dell'ordine fornitore. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Blocco degli articolo tramite il blocco dello stato di magazzino
-È possibile specificare i stati di magazzino vengono bloccando gli stati utilizzando ** blocco scorte ** il parametro ** gli stati di magazzino ** nella pagina.  Non è possibile utilizzare gli stati di magazzino come stati di blocco per ordini di produzione, ordini cliente, ordini di trasferimento, transazioni in uscita o integrazioni di progetto. Per il lavoro in uscita, utilizzare articoli con uno stato inventario disponibile. Se si dispone di articoli con stato **Rotto** e la pianificazione generale viene eseguita su tali articoli, questi vengono considerati mancanti e l'inventario viene automaticamente rifornito.
+È possibile specificare quali stati delle scorte sono stati di blocco tramite il parametro **Blocco scorte** nella pagina **Stati inventario**.  Non è possibile utilizzare gli stati di magazzino come stati di blocco per ordini di produzione, ordini cliente, ordini di trasferimento, transazioni in uscita o integrazioni di progetto. Per il lavoro in uscita, utilizzare articoli con uno stato inventario disponibile. Se si dispone di articoli con stato **Rotto** e la pianificazione generale viene eseguita su tali articoli, questi vengono considerati mancanti e l'inventario viene automaticamente rifornito.
 
 
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare e gestire un blocco scorte (Guida di attività)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[Creare e gestire un blocco scorte (guida attività)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
 
-[Quality management processes](quality-management-processes.md)
+[Processi di gestione qualità](quality-management-processes.md)
 
-[Analizzare la qualità delle merci (Guida di attività)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Verificare la qualità delle merci (guida attività)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

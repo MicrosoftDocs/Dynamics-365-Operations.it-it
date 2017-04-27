@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Distribuzioni contabili e sugli inserimenti nel giornale di registrazione secondario per le fatture a testo libero
 
+[!include[banner](../includes/banner.md)]
+
+
 Le distribuzioni contabili vengono utilizzate per definire il modo in cui importo verrà conteggiato, ad esempio i ricavi, le tasse o le spese vengono conteggiate in una fattura a testo libero. Ogni importo che deve essere conteggiato quando la fattura a testo libero viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili.
 
 <a name="accounting-distributions"></a>Distribuzioni contabili
@@ -35,7 +38,7 @@ Le distribuzioni contabili vengono utilizzate per definire il modo in cui import
 
 È possibile utilizzare i pulsanti riportati di seguito nella pagina Fattura testo libero per visualizzare ed eventualmente modificare le distribuzioni contabili per ogni importo nella fattura testo libero.
 
--   ** Distribuire gli importi ** di visualizzare e modificare le distribuzioni contabili per una singola riga della richiesta sono figlio, ad esempio imposte o spese. È inoltre possibile visualizzare e modificare le distribuzioni contabili per la riga figlio direttamente dalla pagina Transazioni VAT o Transazioni spese.
+-   **Distribuisci importi**: consente di visualizzare e modificare le distribuzioni contabili per una singola riga e tutte le righe figlio, ad esempio imposte o spese. È inoltre possibile visualizzare e modificare le distribuzioni contabili per la riga figlio direttamente dalla pagina Transazioni VAT o Transazioni spese.
     -   Modificare gli importi intestazione della fattura a testo libero, ad esempio le spese o gli importi di arrotondamento valuta.
     -   Modificare importi riga fattura a testo libero.
 -   **Visualizza distribuzioni**: visualizza le distribuzioni contabili per tutte le righe del documento. Non è possibile modificare le distribuzioni contabili da questa visualizzazione.
@@ -132,5 +135,7 @@ impossibile creare distribuzioni contabili per imposte fino a quando queste ulti
 
 ## <a name="subledger-journals-for-free-text-invoices"></a>Giornali di registrazione secondari per fatture a testo libero.
 Prima di registrare una fattura a testo libero, è possibile visualizzare l'intera voce contabile della fattura, che include i debiti e gli accrediti, per verificare che la fattura venga registrata nei conti corretti. Questa visualizzazione della voce contabile completa viene chiamata giornale di registrazione secondario. L'inserimento nel giornale di registrazione secondario non può essere modificato se non è corretto quando lo si visualizza in anteprima prima di inserire nel giornale di registrazione la fattura a testo libero. È invece necessario modificare le distribuzioni contabili o il profilo registrazione. Le distribuzioni contabili vengono utilizzate per definire un lato della voce contabile, dare o avere. La voce contabile giornale di registrazione secondario in contropartita viene creata dai profili registrazione, ad esempio il conto client o le imposte.
+
+
 
 

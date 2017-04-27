@@ -68,14 +68,14 @@ Con la media mobile, il costo del prodotto viene determinato dal ricevimento del
 3.  Creare un ordine cliente per una quantità pari a 1 e un prezzo unitario di 10,00.
 4.  Creare una fattura di acquisto per una quantità pari a 2 e un prezzo unitario di 12,00.
 
-La differenza nel prezzo unitario, 2,00, viene registrata al conto Differenza di prezzo per media mobile al momento della registrazione della fattura di acquisto. Il motivo è che i due prodotti sono stati acquistati per un costo di 20,00. Uno dei prodotti è stato venduto per un prezzo unitario di 10,00. La fattura di acquisto è stata registrata con un prezzo unitario di 12.00 con una quantità pari a 2. Il prezzo unitario del prodotto non può essere registrato a 14.00.
+La differenza nel prezzo unitario, 2,00, viene registrata al conto Differenza di prezzo per media mobile al momento della registrazione della fattura di acquisto. Il motivo è che i due prodotti sono stati acquistati per un costo di 20,00. Uno dei prodotti è stato venduto per un prezzo unitario di 10,00. La fattura di acquisto è stata registrata con un prezzo unitario di 12,,00 e una quantità pari a 2. Il prezzo unitario del prodotto non può essere registrato a 14,00.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Rettifica del prodotto e magazzino a media mobile
 Se è necessario rettificare il costo a media mobile di un prodotto, le rettifiche magazzino sono consentite a partire dalla data odierna. Non è consentita la retrodatazione di una rettifica magazzino per correggere il costo a media mobile di un prodotto. Non è possibile trasmettere il costo su transazioni successive. In questo esempio, verrà rettificato il costo a media mobile per un prodotto.
 1.  Selezionare il prodotto per il quale si desidera rettificare la media mobile.
-    | **Note**                                                                                    |
+    | **Nota**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | ** Rivalutazione per la media mobile ** la pagina rivede le scorte disponibili per un prodotto. |
+    | Nella pagina **Rivalutazione per media mobile** vengono esaminate le scorte disponibili per un prodotto. |
 
     Il prodotto selezionato ha una quantità registrata di 1, un valore registrato di 12,00, un costo unitario registrato di 12,00 e un costo unitario di 12,00.
 2.  Aggiornare il campo **Costo unitario** su 16,00. il sistema calcola i campi rimanenti.
@@ -88,7 +88,7 @@ Se è necessario rettificare il costo a media mobile di un prodotto, le rettific
 Nella pagina **Liquidazioni per giustificativo** è possibile visualizzare una rettifica di 4,00 registrati nel conto Rivalutazione costo per la media mobile.
 
 ## <a name="moving-average-with-production"></a>Media mobile con produzione
-La media mobile supporta gli articoli prodotti. Se si prevede di utilizzare la media spostato in un ambiente di produzione, ** prezzo di costo stimato di l ** il cursore ** parametri di Controllo produzione ** nella pagina deve essere selcted. Ciò significa che il prezzo di costo che viene calcolato durante la stima viene utilizzato invece del prezzo di costo del calcolo DBA.
+La media mobile supporta gli articoli prodotti. Se si prevede di utilizzare la media mobile in un ambiente di produzione, è necessario selezionare il dispositivo di scorrimento **Utilizza prezzo di costo stimato** nella pagina **Parametri di controllo produzione**. Ciò significa che il prezzo di costo che viene calcolato durante la stima viene utilizzato invece del prezzo di costo del calcolo DBA.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Media mobile con una transazione retrodatata
 Le transazioni retrodatate sono assegnate al costo a media mobile corrente e la quantità fisica del prodotto viene aggiornata, ma il costo a media mobile prodotto rimane invariato. In questo esempio con media mobile, viene registrata una transazione retrodatata per un prodotto a media mobile.

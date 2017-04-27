@@ -1,5 +1,5 @@
 ---
-title: Richiesta di offerta (RFQs)
+title: Richieste di offerta (RdO)
 description: "Questo articolo fornisce una panoramica di richieste di offerta (RdO) emesse dalle organizzazioni quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori. In una richiesta di offerta viene richiesto ai fornitori di fornire i prezzi e i tempi di consegna per le quantità di articoli specificati. È inoltre possibile chiedere ai fornitori di specificare se esistono eventuali spese accessorie, ad esempio i costi di spedizione o se il fornitore offre sconti per grandi ordini o per il pagamento anticipato della fattura fornitore."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Richiesta di offerta (RFQs)
+# <a name="request-for-quotations-rfqs"></a>Richieste di offerta (RdO)
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce una panoramica di richieste di offerta (RdO) emesse dalle organizzazioni quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori. In una richiesta di offerta viene richiesto ai fornitori di fornire i prezzi e i tempi di consegna per le quantità di articoli specificati. È inoltre possibile chiedere ai fornitori di specificare se esistono eventuali spese accessorie, ad esempio i costi di spedizione o se il fornitore offre sconti per grandi ordini o per il pagamento anticipato della fattura fornitore.
 
@@ -37,9 +40,9 @@ Il processo di richiesta di offerta (RdO) riguarda le seguenti attività:
 
 Nell'illustrazione riportata di seguito viene fornita una panoramica del processo relativo alla richiesta di offerta.  
 
-[processo di richiesta di offerta![(]. /media/rfq-process-458x1024.jpg)](. /media/rfq-process.jpg)  
+[![Processo richiesta di offerta](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
 
-È possibile creare una richiesta di offerta da ordini pianificati, da una richiesta di acquisto o da un'immissione manuale. La richiesta di offerta creata è denominata caso RdO e si tratta del documento di base da utilizzare per emettere una richiesta di offerta a ciascun fornitore. Dopo che si prepara il caso RdO e aggiungere i fornitori, fare clic su ** inviare ** sul caso di offerta e un giornale di registrazione specifico viene generato per ciascun fornitore a cui è stata inviata la richiesta di offerta. È possibile configurare le impostazioni di Gestione stampa per l'azione di invio da stampare un report per ogni fornitore in un archivio o inviare un report all'indirizzo di posta elettronica di ciascun fornitore. Inoltre, il giornale di registrazione di richieste di offerta per ciascun fornitore può essere utilizzato per generare un report da inviare o inviare successivamente a un fornitore. È inoltre possibile configurare l'azione Invio per generare un foglio di risposta che il fornitore può completare.  
+È possibile creare una richiesta di offerta da ordini pianificati, da una richiesta di acquisto o da un'immissione manuale. La richiesta di offerta creata è denominata caso RdO e si tratta del documento di base da utilizzare per emettere una richiesta di offerta a ciascun fornitore. Dopo aver preparato il caso RdO e aver aggiunto i fornitori, fare clic su **Invia** nel caso RdO. Verrà generato un giornale di registrazione richieste di offerta per ogni fornitore a cui si invia la richiesta di offerta. È possibile configurare le impostazioni di gestione della stampa per l'azione Invia per stampare un report per ogni fornitore in un archivio o per inviare un report all'indirizzo di posta elettronica di ogni fornitore. Inoltre, il giornale di registrazione di richieste di offerta per ciascun fornitore può essere utilizzato per generare un report da inviare o inviare successivamente a un fornitore. È inoltre possibile configurare l'azione Invio per generare un foglio di risposta che il fornitore può completare.  
 
 Se è necessario modificare una richiesta di offerta dopo averla inviata, è possibile inviarla nuovamente ai fornitori quando è completata.  
 
@@ -49,18 +52,18 @@ Se una seconda iterazione di una risposta è necessaria per un fornitore specifi
 
 Se sono stati aggiunti criteri di punteggio al caso RdO, alla risposta alla richiesta di offerta sarà associato un pannello in cui è possibile immettere i punteggi. I punteggi totali verranno visualizzati quando si confrontano le risposte nella pagina **Confronta risposte**, in cui è inoltre possibile confrontare altri dati di risposta, ad esempio il prezzo della riga, la data di consegna e il prezzo totale.  
 
-Dopo aver deciso se considerare un'offerta oppure offerte parziali, è possibile accettarle e rifiutare il resto. Vengono generati giornali di registrazione accettazione, giornali di registrazione rifiuto e report corrispondenti. Questi verranno stampati, o e verranno inviati in base alle impostazioni di Gestione stampa. Quando si accetta un'offerta o le righe specifiche di un'offerta, un contratto di acquisto o l'ordine fornitore viene generato, ovvero una richiesta di acquisto viene aggiornata, a seconda del tipo di acquisto di offerta. È possibile creare un accordo commerciale che è possibile utilizzare successivamente per qualsiasi risposta, indipendentemente dal fatto che siano state accettate o rifiutate.  
+Dopo aver deciso se considerare un'offerta oppure offerte parziali, è possibile accettarle e rifiutare il resto. Vengono generati giornali di registrazione accettazione, giornali di registrazione rifiuto e report corrispondenti. Questi giornali verranno stampati, archiviati e inviati in base alle impostazioni di gestione della stampa. Quando si accetta un'offerta o si accettano righe specifiche di un'offerta, viene generato un contratto di acquisto o un ordine fornitore oppure viene aggiornata una richiesta di acquisto, a seconda del tipo di acquisto correlato alla richiesta di offerta. È possibile creare un accordo commerciale che è possibile utilizzare successivamente per qualsiasi risposta, indipendentemente dal fatto che siano state accettate o rifiutate.  
 
 Lo stato di una richiesta di offerta viene visualizzato nell'intestazione della richiesta e dipende dallo stato delle righe della richiesta di offerta. Lo status indica il punto fino al quale la richiesta è stata elaborata. Ogni richiesta di offerta dispone di due valori per lo stato: il minimo e il massimo. Lo stato minimo corrisponde allo stato meno avanzato, mentre stato massimo è lo stato più avanzato di qualsiasi riga della richiesta di offerta. Ad esempio, se la fase meno avanzata in una richiesta di offerta è per una riga creata, lo stato minimo per la richiesta di offerta è **Creato**. Se la fase più avanzata in una richiesta di offerta è per una riga inviata ai fornitori, lo stato massimo per la richiesta di offerta è **Inviato**. Gli stati vengono aggiornati automaticamente quando si elabora una richiesta di offerta.  
 
 È possibile visualizzare gli stati minimo e massimo per l'intestazione di una richiesta di offerta nella pagina di elenco **Tutte le richieste di offerta**. È possibile visualizzare gli stati minimo e massimo per una riga di una richiesta di offerta nella scheda **Righe** nella pagina **Richieste di offerta**.  
 
-Ecco la sequenza degli stati di elaborare le richieste di offerta:
+La sequenza di stati per l'elaborazione di una RdO è la seguente:
 
 1.  **Creato**
-2.  **Sent**
-3.  **Received**
-4.  ** Accettato **/** annullato **/** rifiutato **
+2.  **Inviato**
+3.  **Ricevuto**
+4.  **Accettato**/**Annullato**/**Rifiutato**
 
 Gli stati verranno descritti in modo più dettagliato nelle sezioni successive dell'articolo.
 
@@ -72,7 +75,7 @@ Prima di creare un caso RdO, è necessario impostare le informazioni sulla richi
 -   Informazioni di consegna e condizioni di pagamento.
 -   Campi che devono essere inclusi nella risposta alla richiesta di offerta
 
-È possibile sostituire tali valori per un caso specifico della richiesta di offerta. È inoltre necessario configurare il processo di modifica. Come parte della configurazione, è possibile attivare il blocco dei campi. Quando il blocco dei campi è attivato, un professionista dell'approvvigionamento che desidera modificare una richiesta di offerta deve innanzitutto fare clic su **Crea** nella sezione **Modifica** della scheda **Offerta**. Dopo che la richiesta di offerta è stato aggiornato con la modifica, il professionista di approvvigionamento deve completare il processo scegliendo ** finalizzare **. ** ** Azione finale viene generato un messaggio di posta elettronica con cui i fornitori alla richiesta di offerta modificata. Selezionare il modello per la notifica tramite posta elettronica che viene inviata ai fornitori nella pagina **Parametri di approvvigionamento**. Quando viene creato, un modello può includere i seguenti token di sostituzione:
+È possibile sostituire tali valori per un caso specifico della richiesta di offerta. È inoltre necessario configurare il processo di modifica. Come parte della configurazione, è possibile attivare il blocco dei campi. Quando il blocco dei campi è attivato, un professionista dell'approvvigionamento che desidera modificare una richiesta di offerta deve innanzitutto fare clic su **Crea** nella sezione **Modifica** della scheda **Offerta**. Dopo che la richiesta di offerta è stata aggiornata con la modifica, il responsabile approvvigionamenti deve completare il processo facendo clic su **Finalizza**.** **L'azione di finalizzazione genera un messaggio di posta elettronica che notifica ai fornitori la richiesta di offerta modificata. Selezionare il modello per la notifica tramite posta elettronica che viene inviata ai fornitori nella pagina **Parametri di approvvigionamento**. Quando viene creato, un modello può includere i seguenti token di sostituzione:
 
 -   %Motivo di restituzione dell'offerta%
 -   %Motivo della modifica%
@@ -124,7 +127,7 @@ Nella seguente tabella vengono visualizzati i cambiamenti di stato di una richie
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **Lowest RFQ header status** | **Highest RFQ header status**                   | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Azione**                         | **Stato minimo intestazione RdO** | **Stato massimo intestazione RdO**                   | **Stato minimo riga RdO** | **Stato massimo riga RdO** |
 | Creare l'intestazione e la riga RdO.    | Creata                      | Creata                                         | Creata                    | Creata                     |
 | Inviare la richiesta di offerta a un fornitore specifico. | Inviato                         | Inviato                                            | Inviato                       | Inviato                        |
 | Aggiungere un altro fornitore.                | Creata                      | Inviato (la richiesta di offerta è stata inviata a un solo fornitore). | Creata                    | Inviata                        |
@@ -146,7 +149,7 @@ Se un questionario è collegato al caso RdO, è necessario immettere manualmente
 
 Se è necessario immettere righe alternative e il caso RdO lo consente, nella scheda dettaglio **Righe offerte di acquisto** fare clic su **Aggiungi riga**. Immettere le informazioni sul prodotto, ad esempio il numero di articolo o la categoria di approvvigionamento, la quantità, il prezzo e lo sconto.  
 
-Se sono state specificate una risposta ma si richiedono una nuova offerta per fornitore, è possibile inviare la richiesta di offerta. Verrà generato un nuovo giornale di registrazione e indica che è possibile utilizzare per richiedere modifiche dal fornitore.  
+Se è stata specificata una risposta ma si richiede una nuova offerta dal fornitore, è possibile inviare nuovamente la RdO. Verranno generati un giornale di registrazione e un report nuovi che sarà possibile utilizzare per richiedere modifiche dal fornitore.  
 
 È possibile visualizzare una panoramica di tutte le richieste di offerta e di tutti i relativi stati nella pagina **Follow-up richiesta di offerta**.  
 
@@ -154,7 +157,7 @@ Nella seguente tabella viene visualizzato il modo in cui la richiesta di offerta
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Azione**                                     | **Stato offerta minimo** | **Stato offerta massimo** | **Stato minimo intestazione RdO** | **Stato massimo intestazione RdO** | **Stato minimo riga RdO** | **Stato massimo riga RdO** |
 | Registrare l'offerta di un fornitore e salvarla.        | Inviato                  | Ricevuto               | Inviato                         | Ricevuto                      | Inviato                       | Ricevuto                    |
 | Registrare la seconda offerta di un fornitore e salvarla. | Ricevuto              | Ricevuto               | Ricevuto                     | Ricevuto                      | Ricevuto                   | Ricevuto                    |
 
@@ -183,9 +186,11 @@ Nella seguente tabella viene indicato come cambia lo stato della richiesta di of
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Azione**              | **Stato offerta minimo** | **Stato offerta massimo** | **Stato minimo intestazione RdO** | **Stato massimo intestazione RdO** | **Stato minimo riga RdO** | **Stato massimo riga RdO** |
 | Accettare una delle offerte. | Ricevuto              | Accettata               | Ricevuto                     | Accettata                      | Ricevuto                   | Accettata                    |
 | Rifiutare le altre offerte.  | Rifiutati              | Accettata               | Rifiutati                     | Accettata                      | Rifiutati                   | Accettata                    |
+
+
 
 
 

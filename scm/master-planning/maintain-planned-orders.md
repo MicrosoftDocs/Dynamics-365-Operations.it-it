@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Gestisci ordini pianificati
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulla modalità di gestione degli ordini pianificati. Viene descritto come aggiornare lo stato degli ordini pianificati, stabilizzarli e filtrare gli ordini pianificati con lo stesso stato dell'ordine pianificato selezionato.
 
 È possibile gestire gli ordini pianificati nell'area di lavoro **Pianificazione generale**, nell'elenco **Ordine pianificato** o negli elenchi **Ordini di produzione pianificati**, **Ordini fornitore pianificati** e **Trasferimento pianificato**. È possibile utilizzare il campo **Stato** per tenere facilmente traccia dell'avanzamento. Vengono utilizzati i valori seguenti:
@@ -48,6 +51,8 @@ Quando un ordine pianificato viene stabilizzato, viene spostato nella sezione re
 <a name="see-also"></a>Vedere anche
 --------
 
-[Master plans](master-plans.md)
+[Piani generali](master-plans.md)
+
+
 
 

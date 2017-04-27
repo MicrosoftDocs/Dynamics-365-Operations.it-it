@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Contratti di progetto
 
+[!include[banner](../includes/banner.md)]
+
+
 Vengono forniti esempi e descrizioni di contratti creabili per diversi tipi di progetto e fonti di finanziamento e viene illustrato il modo in cui è possibile gestire i contratti e fatturare i progetti ai clienti in Microsoft Dynamics 365 for Operations.
 
 Il tipo di progetto creato per un contratto di progetto determina il metodo utilizzato per rilasciare fatture ai clienti del progetto. È possibile modificare un contratto di progetto e il relativo progetto, ma non è possibile modificare il tipo di progetto. 
@@ -192,7 +195,7 @@ Nella tabella seguente questo scenario viene esaminato in modo più dettagliato.
 <tbody>
 <tr class="odd">
 <td><strong>Elemento attivo</strong></td>
-<td><strong>Details</strong></td>
+<td><strong>Dettagli</strong></td>
 </tr>
 <tr class="even">
 <td>Regole di finanziamento</td>
@@ -220,7 +223,7 @@ Nella tabella seguente questo scenario viene esaminato in modo più dettagliato.
 </tr>
 <tr class="odd">
 <td>Transazione 2</td>
-<td><strong>Importo della transazione:</strong> 5,000.00<strong>Finanziamento:</strong> La transazione viene pagata in base a tutte e tre le regole.<strong>Regola 1</strong>
+<td><strong>Importo della transazione:</strong> 5.000,00<strong>Finanziamento:</strong> La transazione viene pagata in base a tutte e tre le regole.<strong>Regola 1</strong>
 <ul>
 <li>Fonte di finanziamento 2: 450,00</li>
 <li>Fonte di finanziamento 3: 450,00</li>
@@ -339,5 +342,7 @@ Al momento di impostare il contratto di progetto, l'utente accetta di fatturare 
 -   L'utente crea una fattura cliente alla fine di ogni mese di calendario per tutta la durata del progetto.
 
 Durante il primo mese, i consulenti registrano 800 ore di lavoro totali nell'ambito del progetto. Il costo della cancelleria addebitato al progetto è di 2.000. Alla fine del mese, l'utente crea quindi una fattura per un importo di 122.000, calcolato nel modo seguente: 800 ore al costo di 150 all'ora più 2.000 per gli articoli di cancelleria.
+
+
 
 

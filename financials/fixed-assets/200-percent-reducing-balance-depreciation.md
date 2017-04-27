@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>Riduzione del 200% dell'ammortamento del saldo
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 200%.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Saldo decrescente 200%** nel campo **Metodo** della pagina **Profili di ammortamento**, ai cespiti che sono assegnati al profilo di ammortamento verrà applicata la stessa percentuale di ammortamento in ciascun periodo di ammortamento. Questa percentuale viene calcolata in base alla vita utile del cespite. Ad esempio, se un cespite ha una vita utile di cinque anni, la percentuale viene calcolata come 40% (200% ÷ 5). 
@@ -44,7 +47,7 @@ La selezione determina le opzioni disponibili nel campo **Frequenza periodo**. I
 
 È possibile scegliere di mantenere il valore predefinito nel campo **Anno di ammortamento**, **Calendario**. 
 
-L'opzione **Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, l'ammortamento rappresenta il valore contabile netto e il valore di scarto. Negli esempi illustrati più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. 
+L'opzione **Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, l'ammortamento corrisponde al valore contabile netto meno il valore di recupero. Negli esempi illustrati più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. 
 
 Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
@@ -58,7 +61,7 @@ Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza 
 
 Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, l'ammortamento a saldi decrescenti del 200% viene calcolato in base all'anno fiscale del calendario fiscale specificato per il libro oppure del calendario fiscale selezionato nella pagina **Contabilità generale**. I calendari fiscali vengono impostati nella pagina **Calendari fiscali**. 
 
-Ad esempio, per l'anno fiscale dal 1° luglio al 30 giugno, il calcolo dell'il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato per ciascun periodo. La durata dell'anno fiscale successivo si baserà sull'impostazione dei periodi nella pagina **Calendari fiscali**. 
+Se ad esempio l'anno fiscale inizia il 1° luglio e termina il 30 giugno, il calcolo dell'ammortamento inizia il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato per ciascun periodo. La durata dell'anno fiscale successivo si baserà sull'impostazione dei periodi nella pagina **Calendari fiscali**. 
 
 Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
@@ -83,6 +86,8 @@ Il metodo a saldi decrescenti del 200% consente di dividere il 200% per gli anni
 | Anno 3 | 3.600 × 40% = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
 
 > [!NOTE] 
-> In genere, quando l'importo calcolato utilizzando i 200% metodi di ammortamento a saldi decrescenti diventa inferiore all'importo che viene calcolato utilizzando il metodo a quote costanti, è presente una conversione al metodo a quote costanti per la vita utile rimanente.
+> In genere, quando l'importo calcolato utilizzando il metodo di ammortamento a saldi decrescenti del 200% diventa inferiore all'importo che sarà calcolato utilizzando il metodo a quote costanti, si verifica una conversione al metodo a quote costanti per la vita utile rimanente.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Rubriche
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>Come si controlla se sono presenti record duplicati?
@@ -53,7 +56,7 @@ Occasionalmente potrebbe essere necessario modificare il tipo di parte di un rec
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>È possibile unire due o più record di parti in un record?
 Talvolta può essere opportuno unire due o più record di parti in un singolo record, ad esempio in caso di creazione intenzionale o involontaria di uno o più record di parti duplicati. Se si uniscono record di parti, viene selezionato un record da mantenere. Le informazioni dell'altro record verranno unite a quelle del primo record. Ad esempio, le informazioni relative a Fabrikam sono archiviate in tre record di parti, A, B e C. L'utente sceglie di mantenere il record di parti A. Le informazioni archiviate nei record di parti B e C verranno pertanto unite nel record A. In alcuni casi non è possibile unire i record di parte:
 
--   Non è possibile unire record di parti associati allo stesso ruolo della parte, ad esempio un cliente o un fornitore, nella stessa persona giuridica. Ad esempio, parti impegnate A è associato a un cliente nella persona giuridica 123 e la parte B è associata a un altro cliente nella persona giuridica 123. Questi Non è possibile unire questi record, poiché se sono stati unire, il record della parte unito verrebbe associato a più clienti nella stessa persona giuridica e questo non è consentito. I record potranno tuttavia essere uniti se la parte B è associata a un fornitore nella persona giuridica 123 o a un cliente in un'altra persona giuridica.
+-   Non è possibile unire record di parti associati allo stesso ruolo della parte, ad esempio un cliente o un fornitore, nella stessa persona giuridica. La parte A è ad esempio associata a un cliente nella persona giuridica 123 e la parte B è associata a un altro cliente nella persona giuridica 123. Non è possibile unire questi record di parti, in quanto se fossero uniti il record unito verrebbe associato a più clienti nella stessa persona giuridica e questo non è consentito. I record potranno tuttavia essere uniti se la parte B è associata a un fornitore nella persona giuridica 123 o a un cliente in un'altra persona giuridica.
 -   Non è possibile unire record di organizzazioni di parti interne nella stessa persona giuridica, team o unità operativa.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>È necessario creare un record di parti nella Rubrica globale o in un'altra posizione, ad esempio la pagina cliente o fornitore?
@@ -64,5 +67,7 @@ Talvolta può essere opportuno unire due o più record di parti in un singolo re
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>È possibile tradurre le informazioni relative all'indirizzo per record di parti?
 È possibile impostare le traduzioni delle informazioni relative all'indirizzo in modo che vengano visualizzate nella lingua dell'utente (lingua del sistema) in Microsoft Dynamics 365 for Operations, ma in un'altra lingua nei documenti, ad esempio ordini cliente. È possibile immettere traduzioni per i nomi dei paesi, gli scopi di indirizzo e le sequenze nome. Ad esempio, la lingua del sistema è danese e viene creato un ordine cliente per un cliente in Francia. In questo caso, è possibile visualizzare il record cliente in Danese nel programma ma visualizzare le informazioni relative all'indirizzo nell'ordine cliente stampato. Quando vengono impostate le traduzioni, è necessario immetterne una per ogni elemento nell'elenco. Tutti gli articoli per cui non si immette una traduzione appariranno nella lingua del sistema. Ad esempio, la lingua del sistema è danese e viene inviato un documento a un cliente in Spagna. Se non sono state immesse le traduzioni spagnole per le informazioni sull'indirizzo, queste verranno visualizzate in Danese sia nel programma sia nel documento stampato.
+
+
 
 

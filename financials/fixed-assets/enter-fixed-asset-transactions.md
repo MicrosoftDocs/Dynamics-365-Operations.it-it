@@ -1,5 +1,5 @@
 ---
-title: Opzioni di transazione cespiti
+title: Opzioni per le transazioni cespiti
 description: Questo articolo descrive i metodi diversi disponibili per creare le transazioni cespiti.
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fixed-asset-transaction-options"></a>Opzioni di transazione cespiti
+# <a name="fixed-asset-transaction-options"></a>Opzioni per le transazioni cespiti
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo descrive i metodi diversi disponibili per creare le transazioni cespiti.
 
@@ -36,7 +39,7 @@ Questo articolo descrive i metodi diversi disponibili per creare le transazioni 
 È possibile immettere le transazioni cespiti nella pagina Giustificativo giornale di registrazione. È possibile aprire questa pagina dalla pagina Giornale di registrazione fatture. È inoltre possibile aprire la pagina Giornale di registrazione fatture dalla pagina Giornale di approvazione fatture. Nel campo Tipo di conto di contropartita selezionare Cespiti. Quindi, nel campo Conto di contropartita selezionare un numero cespiti. Nella scheda Cespiti immettere i valori nei campi Tipo di transazione e Libro.
 
 ## <a name="accounts-receivable"></a>Contabilità clienti
-È possibile immettere le transazioni cespiti nella pagina della fattura a testo libero.  Nella pagina della fattura a testo libero, nella griglia delle righe fattura, selezionare una voce. Fare clic sulla scheda dettaglio Dettagli riga. Immettere il numero cespite e il libro per la transazione di dismissione. Nelle fatture a testo libero il tipo di transazione cespiti è sempre Vendita di dismissione.
+È possibile immettere le transazioni cespiti nella pagina Fattura a testo libero.  Nella pagina Fattura a testo libero, nella griglia Righe fattura, selezionare una voce. Fare clic sulla scheda dettaglio Dettagli riga. Immettere il numero cespite e il libro per la transazione di dismissione. Nelle fatture a testo libero il tipo di transazione cespiti è sempre Vendita di dismissione.
 
 ## <a name="procurement-and-sourcing"></a>Approvvigionamento
 È possibile immettere le transazioni cespiti nella pagina Ordine acquisto. Immettere le informazioni necessarie per creare un ordine fornitore, quindi fare clic su OK. Nella pagina Ordine fornitore, fare clic sulla Scheda dettaglio Dettagli riga. Quindi, nella scheda Cespiti, immettere le informazioni sui cespiti. 
@@ -65,6 +68,8 @@ Nella pagina Giornale di registrazione generale può essere registrato qualsiasi
 
 
 
-Per ulteriori informazioni, vedere [] integrazione cespiti (fixed-asset-integration.md).
+Per ulteriori informazioni, vedere [Integrazione dei cespiti](fixed-asset-integration.md).
+
+
 
 

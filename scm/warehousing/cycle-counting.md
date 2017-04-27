@@ -102,7 +102,7 @@ Sono disponibili due metodi per programmare la creazione ricorrente del lavoro d
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Creare il lavoro di conteggio ciclo in base a parametri di soglia per gli articoli
 
-Il lavoro di conteggio ciclo può essere creato quando il numero di articoli scende al di sotto di un valore di soglia specifico in un'ubicazione. Ad esempio, sono presenti 60 articoli in una posizione con una soglia di conteggio ciclo di 40. Durante la transazione di ordini cliente, 25 articoli vengono prelevati dalla posizione e ordinare un percorso di organizzazione. Poiché il nuovo conteggio articoli di 35 è inferiore alla quantità soglia, il lavoro di conteggio ciclo viene creato automaticamente per l'ubicazione.
+Il lavoro di conteggio ciclo può essere creato quando il numero di articoli scende al di sotto di un valore di soglia specifico in un'ubicazione. Ad esempio, sono presenti 60 articoli in una ubicazione con una soglia di conteggio ciclo di 40. Durante la transazione di ordini cliente, 25 articoli vengono prelevati dalla ubicazione e collocati in una ubicazione temporanea. Poiché il nuovo conteggio articoli di 35 è inferiore alla quantità soglia, il lavoro di conteggio ciclo viene creato automaticamente per l'ubicazione.
 
 ### <a name="schedule-cycle-counting-work"></a>Programmare un lavoro di conteggio ciclo
 
@@ -129,7 +129,7 @@ Nel seguente esempio viene illustrato come eseguire il conteggio ciclo a campion
 ## <a name="resolve-cycle-counting-differences"></a>Risolvere differenze di conteggio ciclo
 Una differenza di conteggio ciclo si verifica negli scenari seguenti se l'opzione **Supervisore conteggio ciclo** è impostata su **No** per un ID utente di lavoro:
 
--   Il valore conteggiato non è compreso nei limiti di deviazione specificati nel campo **Limite percentuale massima** o **Limite quantità massima** della pagina **Utenti di lavoro**. Ad esempio, la quantità disponibile di magazzino in una posizione è 50 e il limite di scostamento per l'utente di lavoro è 10. Se l'utente di lavoro immettere un valore che non è compreso tra 40 e 60, una differenza viene eseguita.
+-   Il valore conteggiato non è compreso nei limiti di deviazione specificati nel campo **Limite percentuale massima** o **Limite quantità massima** della pagina **Utenti di lavoro**. Ad esempio, la quantità di scorte disponibile in una ubicazione è 50 e il limite di deviazione per l'utente di lavoro è 10. Se l'utente di lavoro immette un valore che non è compreso tra 40 e 60, una differenza si verifica.
 -   Il valore conteggiato differisce dalla quantità di scorte disponibili e non ci sono limiti di deviazione impostati.
 
 È possibile rettificare le differenze nel valore conteggiato e quindi accettare il valore conteggiato nella pagina **Conteggio ciclo con revisione in sospeso**. È possibile verificare il conteggio modificato della quantità dell'articolo nella pagina **Disponibili per ubicazione**. Il valore conteggiato viene rifiutato se la differenza non può essere approvata.

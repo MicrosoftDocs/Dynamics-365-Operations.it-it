@@ -1,6 +1,6 @@
 ---
 title: Home page di cespiti
-description: "I cespiti sono articoli di valore, ad esempio edifici, veicoli, terreni e attrezzature, di proprietà di un utente o da un&quot;organizzazione."
+description: "I cespiti sono articoli di valore di proprietà di un utente o di una organizzazione, ad esempio edifici, veicoli, terreni e attrezzature."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-home-page"></a>Home page di cespiti
 
-I cespiti sono articoli di valore, ad esempio edifici, veicoli, terreni e attrezzature, di proprietà di un utente o da un'organizzazione.
+[!include[banner](../includes/banner.md)]
+
+
+I cespiti sono articoli di valore di proprietà di un utente o di una organizzazione, ad esempio edifici, veicoli, terreni e attrezzature. 
 
 È possibile impostare e immettere informazioni sull'acquisizione per i cespiti, quindi gestirli utilizzando la funzione di ammortamento e impostare una soglia di capitalizzazione per determinare l'ammortamento. È inoltre possibile calcolare le rettifiche ai cespiti ed eseguire la dismissione dei cespiti. Quando si utilizza Contabilità generale insieme a Cespiti, è possibile visualizzare il valore corrente di tutti i cespiti. La modalità di gestione dei cespiti deve corrispondere sia agli standard contabili internazionali sia alla legislazione contabile di ogni paese. I requisiti possono includere regole per la registrazione di transazioni di acquisizione e dismissione, ammortamento, durata, rivalutazione e svalutazione di cespiti. Nelle funzionalità relative ai cespiti sono integrati molti di questi standard e regole.
+
+
 
 
 

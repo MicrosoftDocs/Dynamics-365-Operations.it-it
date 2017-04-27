@@ -1,9 +1,9 @@
 ---
-title: Moduli di impostazione
+title: Impostare i cespiti
 description: In questo argomento viene fornita una panoramica dell&quot;impostazione del modulo Cespiti.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-fixed-assets"></a>Moduli di impostazione
+# <a name="set-up-fixed-assets"></a>Impostare i cespiti
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento viene fornita una panoramica dell'impostazione del modulo Cespiti.
 
@@ -43,7 +46,7 @@ I cespiti vengono assegnati a un gruppo nel momento in cui vengono creati. Per i
 I profili di ammortamento devono essere impostati per primi. Nel profilo di ammortamento, configurate in che modo il valore di un cespite viene ammortizzato nel tempo. È necessario definire il metodo di ammortamento, l'anno di ammortamento (anno di calendario o anno fiscale) e la frequenza di ammortamento.
 
 ## <a name="books"></a>Libri
-Dopo aver impostato i profili di ammortamento, è necessario creare i libri necessari per i cespiti. Ciascun libro tiene traccia di un ciclo di vita finanziario indipendente di un cespite. I libri possono essere configurati per registrare le transazioni associate nella contabilità generale. Questa configurazione è l'impostazione predefinita, poiché viene utilizzata in genere per i report finanziari aziendale. I libri che non vengono registrate da registrare nella contabilità generale solo al giornale di registrazione secondario del cespite e in genere vengono utilizzati ai fini delle dichiarazioni fiscali.
+Dopo aver impostato i profili di ammortamento, è necessario creare i libri necessari per i cespiti. Ciascun libro tiene traccia di un ciclo di vita finanziario indipendente di un cespite. I libri possono essere configurati per registrare le transazioni associate nella contabilità generale. Questa configurazione è l'impostazione predefinita, poiché viene utilizzata in genere per i report finanziari aziendali. I libri che non registrano nella contabilità generale registrano solo nel giornale di registrazione cespiti secondario e in genere vengono utilizzati ai fini delle dichiarazioni fiscali.
 
 Un profilo di ammortamento primario viene assegnato a ciascun libro. I libri hanno anche un profilo di ammortamento alternativo, se questo tipo di profilo è applicabile. Per includere automaticamente il libro cespiti nelle esecuzioni di ammortamento, è necessario abilitare l'opzione Calcola ammortamento. Se l'opzione non è selezionata per un cespite, la proposta di ammortamento salta il cespite.
 
@@ -62,14 +65,16 @@ Gruppo cespite è l'unico campo obbligatorio quando si crea un cespite. Il valor
 ## <a name="fixed-asset-parameters"></a>Parametri Cespiti
 L'ultimo passaggio è l'aggiornamento dei parametri del cespite.
 
-Il campo Soglia di capitalizzazione determina i cespiti che verranno ammortizzati. Se una riga di acquisto è selezionata come cespite, ma non corrisponde al valore soglia di capitalizzazione, il cespite è ancora stato creato o aggiornato, ma l'opzione di ammortamento calcolo è impostata su No. Di conseguenza, il cespite non verrà ammortizzato automaticamente come parte delle proposte di ammortamento.
+Il campo Soglia di capitalizzazione determina i cespiti che verranno ammortizzati. Se una riga di acquisto è selezionata come cespite, ma non corrisponde al valore soglia di capitalizzazione specificato, il cespite viene ancora creato o aggiornato, ma l'opzione Calcola ammortamento è impostata su No. Di conseguenza, il cespite non verrà ammortizzato automaticamente come parte delle proposte di ammortamento.
 
 Una importante opzione è Crea automaticamente importi di rettifica all'ammortamento con dismissione. Quando si imposta questa opzione su Sì, l'ammortamento del cespite viene rettificato automaticamente, in base alle impostazioni di ammortamento al momento della dismissione. Un'altra opzione consente di detrarre gli sconti di cassa dall'importo di acquisizione quando si acquistano i cespiti utilizzando una fattura fornitore.
 
-Nella scheda dettaglio Ordini fornitore, è possibile configurare la modalità secondo cui i cespiti vengono creati durante il processo di acquisto. La prima opzione è Consenti acquisizione cespiti da Acquisto. Se si imposta questa opzione su Sì, l'acquisizione del cespite verrà applicata quando viene registrata la fattura. Se si imposta questa opzione su No, è comunque possibile inserire un cespite in un ordine fornitore (PO) e in fattura, ma l'acquisizione non verranno registrate. La registrazione deve essere eseguita come passaggio separato dal giornale di registrazione cespiti. Cespite di creazione dell'opzione di registrazione della fattura o dell'entrata prodotti consente di creare "" riavviare un nuovo cespite durante la registrazione, in modo che non sia impostato come cespite prima della transazione. L'ultima opzione, Verifica creazione cespiti durante l'immissione riga, si applica solo alle richieste di acquisto.
+Nella scheda dettaglio Ordini fornitore, è possibile configurare la modalità secondo cui i cespiti vengono creati durante il processo di acquisto. La prima opzione è Consenti acquisizione cespiti da Acquisto. Se si imposta questa opzione su Sì, l'acquisizione del cespite verrà applicata quando viene registrata la fattura. Se si imposta questa opzione su No, sarà comunque possibile inserire un cespite in un ordine fornitore (PO) e in fattura, ma l'acquisizione non verrà registrata. La registrazione deve essere eseguita come passaggio separato dal giornale di registrazione cespiti. L'opzione Crea cespite durante la registrazione entrata prodotti o fattura consente di creare un nuovo cespite rapidamente  durante la registrazione, in modo che non deve essere impostato come cespite prima della transazione. L'ultima opzione, Verifica creazione cespiti durante l'immissione riga, si applica solo alle richieste di acquisto.
 
 I codici motivo possono essere configurati come necessari per le modifiche a un cespite o per transazioni cespiti specifiche.
 
 Infine, nella scheda Sequenze numeriche, è necessario definire le sequenze numeriche per i cespiti. La sequenza numerica cespiti può essere sostituita dalla sequenza numerica del gruppo cespite è stata specificata.
+
+
 
 

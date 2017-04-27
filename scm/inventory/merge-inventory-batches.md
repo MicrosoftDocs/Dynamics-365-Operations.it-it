@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Unisci batch di magazzino
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono fornite informazioni sul consolidamento di due o più batch di magazzino in un batch unito. 
 
 Quando i batch vengono uniti, i calcoli possono consentire di ottimizzare le caratteristiche e gli attributi batch nel batch unito. Dopo la selezione dei batch di origine, quello unito può essere rivisto e modificato prima della registrazione. È inoltre possibile trasferire l'unione batch in un giornale di registrazione magazzino per l'approvazione. Le scorte possono quindi essere prenotate o registrate direttamente dal giornale di registrazione magazzino. Quando si registra un batch unito, il magazzino viene regolato per i batch di origine e il batch unito.
@@ -48,7 +51,7 @@ Sì, sono disponibili alcune cose che è necessario impostare prima di utilizzar
 <tbody>
 <tr class="odd">
 <td>Nomi giornale di registrazione, Magazzino</td>
-<td>È necessario creare un nome del giornale di registrazione utilizzato per impostazione predefinita quando si registrano le unioni batch nei giornali di registrazione magazzino. È facoltativo, ma consigliato, specificare che le prenotazioni vengano effettuate automaticamente quando l'unione batch viene trasferita nel giornale di registrazione magazzino. In caso contrario, c'è il rischio che venga apportata una modifica al magazzino disponibile dopo aver impostato i dettagli dell'unione batch e aver registrato il giornale di registrazione. Per attivare le prenotazioni automatiche per il giornale di registrazione, selezionare il nome del campo.</td>
+<td>È necessario creare un nome del giornale di registrazione utilizzato per impostazione predefinita quando si registrano le unioni batch nei giornali di registrazione magazzino. È facoltativo, ma consigliato, specificare che le prenotazioni vengano effettuate automaticamente quando l'unione batch viene trasferita nel giornale di registrazione magazzino. In caso contrario, c'è il rischio che venga apportata una modifica al magazzino disponibile dopo aver impostato i dettagli dell'unione batch e aver registrato il giornale di registrazione. Per abilitare le prenotazioni automatiche per il nome del giornale di registrazione, selezionare <strong>Automatico</strong> nel campo <strong><strong>Prenotazione</strong></strong>.</td>
 </tr>
 <tr class="even">
 <td>Parametri di Gestione articoli e magazzino</td>
@@ -134,9 +137,11 @@ La registrazione funziona in due modi, a seconda che si utilizzi un processo di 
 -   **Trasferisci nel giornale di registrazione**: trasferisce i dettagli di unione del batch in un nuovo giornale di registrazione magazzino. Se sono state impostate prenotazioni automatiche, le quantità nei batch di origine vengono prenotate. I dettagli dell'unione batch non possono essere modificati. Per modificare l'unione batch, è necessario eliminare il giornale di registrazione. Il giornale di registrazione può essere utilizzato come attività che un altro dipendente deve eseguire in un secondo momento. La prenotazione della quantità batch nella riga del giornale di registrazione è protetta. Questa allocazione consente a un responsabile dei controlli di qualità o a un responsabile del magazzino di creare attività per sé o per i propri dipendenti.
 -   **Registra l'unione batch**: registra direttamente l'unione batch. Questa azione può essere eseguita dopo l'unione fisica.
 
-È possibile approvare il giornale di registrazione magazzino per l'unione batch dalla pagina elenco **Tutte le unioni batch**. Fare clic su ** giornale di registrazione ** &gt; ** ** posta. Dopo aver registrato un giornale di registrazione, non è possibile modificare i dettagli nel batch unito. Dopo aver trasferito un'unione batch in un giornale di registrazione magazzino, è possibile modificare i dettagli solo se il giornale di registrazione viene eliminato.
+È possibile approvare il giornale di registrazione magazzino per l'unione batch dalla pagina elenco **Tutte le unioni batch**. Fare clic su **Giornale di registrazione** &gt; **Registra**. Dopo aver registrato un giornale di registrazione, non è possibile modificare i dettagli nel batch unito. Dopo aver trasferito un'unione batch in un giornale di registrazione magazzino, è possibile modificare i dettagli solo se il giornale di registrazione viene eliminato.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Una volta registrate in un elemento di catchweight, poiché Impossibile visualizzare le informazioni di catchweight nel giornale di registrazione magazzino?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Perché non riesco a visualizzare le informazioni sul peso variabile nel giornale di registrazione magazzino dopo aver unito un articolo a peso variabile?
 È possibile unire i batch degli articoli a peso variabile come tutti gli altri articoli. Tuttavia, le informazioni sul peso variabile non vengono visualizzate nel giornale di registrazione magazzino. Si consiglia di verificare le informazioni sul peso variabile prima di trasferire l'unione batch nel giornale di registrazione magazzino.
+
+
 
 

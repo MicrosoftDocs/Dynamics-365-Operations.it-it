@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-elements"></a>Elementi flusso di lavoro
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive i vari elementi che costituiscono un flusso di lavoro.
 
 Un flusso di lavoro è costituito da elementi. Nelle sezioni indicate di seguito viene descritto ciascun tipo di elemento.
@@ -55,14 +58,14 @@ Un *processo di approvazione* è costituito da vari passaggi separati. A ogni pa
 -   Richiedere una modifica del documento.
 -   Assegnare il documento a un altro utente per l'approvazione.
 
-## <a name="lineitem-workflow-elements"></a>Elementi del flusso di lavoro di Lineitem
-È possibile creare un flusso di lavoro per elaborare documenti o le voci in un documento. Si supponga ad esempio di aver creato un flusso di lavoro di approvazione per fogli presenze. Verrà fatto riferimento al flusso di lavoro come workflow* di *document). È possibile aggiungere un elemento di workflow* di *line-item al flusso di lavoro del documento. Quando viene eseguito l'elemento voce, ogni voce nel documento viene inviata per l'elaborazione. È possibile decidere di elaborare tutte le voci tramite lo stesso flusso di lavoro voci oppure elaborare ogni singola voce tramite un flusso di lavoro voci diverso. Si supponga che un dipendente abbia inviato un foglio presenze analogo a quello illustrato nella figura indicata di seguito. ![Flusso di lavoro con voci](./media/workflow_lineitemworkflow.gif) In questo scenario è possibile creare i flussi di lavoro voci seguenti:
+## <a name="lineitem-workflow-elements"></a>Elemento del flusso di lavoro voci
+È possibile creare un flusso di lavoro per elaborare documenti o le voci in un documento. Si supponga ad esempio di aver creato un flusso di lavoro di approvazione per fogli presenze. Verrà fatto riferimento al flusso di lavoro come *flusso di lavoro del documento*. È possibile aggiungere un *flusso di lavoro voci* a tale flusso di lavoro del documento. Quando viene eseguito l'elemento voce, ogni voce nel documento viene inviata per l'elaborazione. È possibile decidere di elaborare tutte le voci tramite lo stesso flusso di lavoro voci oppure elaborare ogni singola voce tramite un flusso di lavoro voci diverso. Si supponga che un dipendente abbia inviato un foglio presenze analogo a quello illustrato nella figura indicata di seguito. ![Flusso di lavoro con voci](./media/workflow_lineitemworkflow.gif) In questo scenario è possibile creare i flussi di lavoro voci seguenti:
 
 -   **Flusso di lavoro voci 1**: questo flusso di lavoro viene utilizzato per elaborare le voci con ID progetto 1111.
 -   **Flusso di lavoro voci 2**: questo flusso di lavoro viene utilizzato per elaborare le voci con ID progetto 2222.
 -   **Flusso di lavoro voci 3**: questo flusso di lavoro viene utilizzato per elaborare le voci con ID progetto 3333.
 
-## <a name="flowcontrol-elements"></a>Elementi di controllo di flusso
+## <a name="flowcontrol-elements"></a>Elementi del controllo di flusso
 Gli elementi indicati di seguito consentono di progettare flussi di lavoro con rami alternati o rami eseguiti contemporaneamente.
 
 ### <a name="manual-decision"></a>Decisione manuale
@@ -80,5 +83,7 @@ Un'*attività parallela* è un elemento del flusso di lavoro che include due o p
 ### <a name="subworkflow"></a>Flusso di lavoro secondario
 
 Un *flusso di lavoro secondario* è un flusso di lavoro eseguito nel contesto di un altro flusso di lavoro.
+
+
 
 

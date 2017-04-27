@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidated-batch-orders"></a>Ordini batch consolidati
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive il concetto degli ordini batch consolidati.
 
 Un articolo in blocco che viene prodotto viene considerato un elemento padre, mentre un articolo imballato viene considerato un articolo figlio. La relazione tra l'articolo in blocco e l'articolo imballato viene espressa in una conversione articolo in blocco. La conversione articolo in blocco è definita nell'articolo in blocco stesso.  
@@ -41,6 +44,8 @@ Un ordine lotto consolidato può contenere qualsiasi combinazione dei seguenti o
 -   Più ordini stoccaggio e più ordini articoli imballati
 -   Più ordini stoccaggio e un singolo ordine articoli imballati
 -   Solo ordini articoli imballati
+
+
 
 
 

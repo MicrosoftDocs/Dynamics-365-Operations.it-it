@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Rinunciare all'addebito di interessi o commissioni, ripristinarli o stornarli
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo illustra come rinunciare ad addebitare, ripristinare e stornare le spese per gli interessi e le commissioni.
 
 È possibile utilizzare i pulsanti della scheda **Raccogli** nella pagina elenco **Tutti i clienti** per rinunciare a spese, ripristinarle o stornarle:
@@ -43,7 +46,7 @@ Tutte queste azioni modificano una nota d'interesse. Una nota d'interesse è un 
 | Stornare le note d'interesse complete. - Oppure - Stornare transazioni interessi selezionate che fanno parte di note d'interesse. **Nota:** non è possibile stornare una commissione. Tuttavia, è possibile stornare un'intera nota d'interesse che include una commissione. | Le spese non sono più dovute dal cliente. Le spese diventano però di nuovo esigibili se vengono ricalcolati gli interessi. | Il processo è analogo alla rinuncia al processo di addebito di note d'interesse o di transazioni interessi selezionate. Viene creata una nota di accredito, o fattura di rettifica, per il cliente. Tale nota di credito viene utilizzata per liquidare automaticamente la nota d'interesse. È possibile utilizzare un processo separato per ricalcolare gli interessi e creare una nuova nota d'interesse.                                                                                                                                                                                                                                                                                                                                                                                              |
 
 > [!NOTE] 
-> È inoltre possibile utilizzare un processo separato per annullare debiti inesigibili. Questo processo consente di contrassegnare tutte le transazioni cliente per la liquidazione, anziché rinunciare solo alle spese che fanno parte delle note d'interesse.
+> È inoltre possibile utilizzare un processo separato per annullare crediti a rischio. Questo processo consente di contrassegnare tutte le transazioni cliente per la liquidazione, anziché rinunciare solo alle spese che fanno parte delle note d'interesse.
 
 ## <a name="adjust-interest-for-invoices"></a>Rettificare gli interessi per le fatture
 Oltre a rettificare le note d'interesse, è possibile rimuovere l'addebito interessi dalle fatture tramite uno dei processi seguenti. Entrambi i processi consentono di rettificare le note d'interesse correlate.
@@ -89,5 +92,7 @@ Oltre a rettificare le note d'interesse, è possibile rimuovere l'addebito inter
 È possibile visualizzare lo storico dettagliato delle rettifiche effettuate per le note d'interesse, ad esempio l'utente che ha immesso la rettifica, il tipo di rettifica, l'importo e la data di immissione della rettifica. È possibile ad esempio visualizzare le rettifiche precedenti immesse per una nota d'interesse prima di creare una nuova nota d'interesse. 
 
 È possibile stornare le transazioni interessi utilizzando il pulsante **Storico **nella scheda **Raccogli** della pagina **Cliente**.
+
+
 
 

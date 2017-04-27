@@ -1,5 +1,5 @@
 ---
-title: Materiali di imballaggio e commissioni
+title: Materiali di imballaggio e addebiti
 description: "Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli. Per ciascun materiale di cui si compone un&quot;unità di imballaggio viene pagato un importo per unità di peso. Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="packing-materials-and-fees"></a>Materiali di imballaggio e commissioni
+# <a name="packing-materials-and-fees"></a>Materiali di imballaggio e addebiti
+
+[!include[banner](../includes/banner.md)]
+
 
 Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli. Per ciascun materiale di cui si compone un'unità di imballaggio viene pagato un importo per unità di peso. Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario.
 
@@ -52,7 +55,7 @@ Quando si crea una riga ordine cliente, viene effettuata una verifica per accert
 ## <a name="packing-units-on-purchase-order-lines"></a>Unità di imballaggio nelle righe ordine fornitore
 Le transazioni per materiale di imballaggio per una riga ordine fornitore non vengono create dal sistema. È necessario creare manualmente le transazioni per le righe ordine fornitore fatturate nella pagina **Transazioni materiale di imballaggio**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Numero di licenza packagingmaterialfee di impostazione dei clienti
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Impostare i numeri di licenza dei clienti per l'addebito relativo al materiale di imballaggio
 Se gli addebiti per il materiale di imballaggio sono a carico dei clienti, specificare i relativi numeri di licenza nella pagina **Clienti**. Quando si assegna un numero di licenza a un cliente, gli addebiti per il materiale di imballaggio vengono calcolati automaticamente al momento della fatturazione degli ordini cliente. Dopo la fatturazione la casella di controllo **Calcola addebito** viene deselezionata nella pagina **Transazioni materiale di imballaggio**, in quanto non è necessario calcolare e stampare un report. È possibile stampare i pesi del materiale di imballaggio sulla fattura e informare i clienti che gli addebiti relativi sono a loro carico. 
 
 Se gli addebiti per il materiale di imballaggio sono a carico della società, non specificare i numeri di licenza dei clienti. Dopo la fatturazione, la casella di controllo **Calcolare la commissione** è selezionata nella pagina **Transazioni materiale di imballaggio**. Ciò significa che gli addebiti vengono calcolati al momento della creazione di un report. È possibile stampare i pesi sulla fattura e indicare che gli addebiti relativi sono a carico della società.
@@ -60,6 +63,8 @@ Se gli addebiti per il materiale di imballaggio sono a carico della società, no
 ## <a name="print-packaging-material-weights-on-invoices"></a>Stampare i pesi del materiale di imballaggio sulle fatture
 È possibile stampare i pesi del materiale di imballaggio sulla fattura e indicare a chi sono imputabili gli addebiti per tale materiale. I pesi vengono riepilogati per codice di imballaggio.
  
+
+
 
 
 

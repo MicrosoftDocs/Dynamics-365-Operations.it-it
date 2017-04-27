@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>Chiavi di riduzione
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce esempi che illustrano come impostare una chiave di riduzione. Include informazioni sulle diverse impostazioni della chiave di riduzione e sui risultati di ciascuna. È possibile utilizzare una chiave di riduzione per definire il modo in cui ridurre i requisiti di previsione.
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>Esempio 1: Principio di riduzione previsioni di Percentuale - chiave di riduzione
@@ -58,7 +61,7 @@ Se si esegue una programmazione previsionale il 1° gennaio, i requisiti di prev
 | aprile                | 750                       |
 | Da maggio a dicembre | 1.000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Esempio 2: Principio di riduzione previsioni della chiave di riduzione transazioni
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Esempio 2: Principio di riduzione previsioni di Transazioni - chiave di riduzione
 In questo esempio viene illustrato come gli ordini effettivi, che si verificano durante i periodi definiti dalla chiave di riduzione, riducono i requisiti di previsione della domanda.
 
 -   Nel campo **Principio di riduzione** della pagina **Piani generali** selezionare **Transazioni - chiave di riduzione**.
@@ -82,7 +85,7 @@ Utilizzando la stessa previsione della domanda di 1.000 pezzi al mese, vengono t
 | aprile                | 881                       |
 | Da maggio a dicembre | 1.000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Esempio 3: Dinamico principio di riduzione previsioni del periodo di transazioni
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Esempio 3: Principio di riduzione previsioni di Transazioni - periodo dinamico
 Nella maggior parte dei casi i sistemi vengono impostati in modo che le transazioni riducano la previsione della domanda entro periodi specifici di previsione: settimane, mesi, ecc. I periodi vengono sono definiti nella chiave di riduzione. Tuttavia, il tempo trascorso tra due righe di previsione della domanda può anche *implicare* un periodo.
 
 1.  Creare una previsione della domanda per le seguenti date e quantità.
@@ -129,6 +132,8 @@ Questo campo è un riepilogo della riduzione **Transazioni - periodo dinamico**:
 <a name="see-also"></a>Vedere anche
 --------
 
-[Master plans](master-plans.md)
+[Piani generali](master-plans.md)
+
+
 
 

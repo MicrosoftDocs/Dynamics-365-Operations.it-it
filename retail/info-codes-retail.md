@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="info-codes"></a>Codici informativi
 
+[!include[banner](includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica sui codici informazioni, sui gruppi di codici informazioni e su come utilizzarli.
 
 I codici di informazioni offrono all'utente una modalità di acquisizione dei dati in un registratore di cassa POS. È possibile utilizzare i codici di informazioni per suggerire al cassiere di inserire le informazioni nelle varie azioni nel POS, ad esempio le vendite dell'articolo, i resi articolo o la selezione dei clienti. I cassieri possono selezionare l'input da un elenco o inserirlo come codice, numero, data o testo. È possibile assegnare codici di informazione ad azioni predefinite del punto vendita, articoli al dettaglio, metodi di pagamento, clienti o attività POS specifiche. È possibile utilizzare i codici informativi per effettuare le operazioni riportate di seguito:
@@ -38,7 +41,7 @@ I codici di informazioni offrono all'utente una modalità di acquisizione dei da
 -   Fare in modo che il cassiere immetta un valore o lo selezioni da un elenco di sottocodici quando viene aperto il cassetto del registratore senza eseguire un'operazione di vendita.
 
 ## <a name="info-codes-group-in-retail-and-commerce"></a>Gruppo di codici delle informazioni in Vendita al dettaglio e commercio
-In Dynamics 365 per le operazioni al dettaglio, è possibile creare gruppi di codici di informazioni. I gruppi di codici informativi aggiungono flessibilità consentendo di definire meno codici informativi e quindi utilizzandoli modi più versatili. È possibile utilizzare i gruppi di codici informativi nei modi seguenti:
+In Dynamics 365 for Operations - Retail,, è possibile creare gruppi di codici di informazioni. I gruppi di codici informativi aggiungono flessibilità consentendo di definire meno codici informativi e quindi utilizzandoli modi più versatili. È possibile utilizzare i gruppi di codici informativi nei modi seguenti:
 -   Definire meno codici informativi e riutilizzarli facilmente. I codici di informazioni che vengono inclusi nei gruppi dei codici informativi non hanno dipendenze predefinite in altri codici informativi. È possibile includere lo stesso codice informativo in più gruppi di codici informativi e quindi utilizzare la priorità per presentare gli stessi codici informativi nell'ordine significativo in qualsiasi specifica situazione.
 -   Collegare i codici informativi ad altri codici informativi o a gruppi di codici informativi per raccogliere informazioni su un prodotto o una transazione senza dover definire un codice informativo separato o un codice informativo collegato per ogni scenario.
 
@@ -47,6 +50,8 @@ In Dynamics 365 per le operazioni al dettaglio, è possibile creare gruppi di co
 
  
 -
+
+
 
 
 

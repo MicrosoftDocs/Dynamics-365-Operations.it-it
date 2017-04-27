@@ -1,6 +1,6 @@
 ---
-title: Report finanziari di pianificazione e di visualizzazione
-description: L&quot;articolo gli esercizi prevede che entrano si alla visualizzazione e creare report finanziari per Microsoft Dynamics 365 per le operazioni. Nei report finanziari costituito da una visualizzazione di esperienza in Dynamics 365 per le operazioni e clic- una volta Progettazione report che consente di creare e modificare report finanziari.
+title: Visualizzare e progettare report finanziari
+description: "L&quot;articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Operations. I report finanziari sono costituiti da una esperienza di visualizzazione in Dynamics 365 for Operations e una funzionalità di progettazione report con un solo clic che consente di creare e modificare report finanziari."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Report finanziari di pianificazione e di visualizzazione
+# <a name="view-and-design-financial-reports"></a>Visualizzare e progettare report finanziari
 
-L'articolo gli esercizi prevede che entrano si alla visualizzazione e creare report finanziari per Microsoft Dynamics 365 per le operazioni. Nei report finanziari costituito da una visualizzazione di esperienza in Dynamics 365 per le operazioni e clic- una volta Progettazione report che consente di creare e modificare report finanziari.  
+[!include[banner](../includes/banner.md)]
+
+
+L'articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Operations. I report finanziari sono costituiti da una esperienza di visualizzazione in Dynamics 365 for Operations e una funzionalità di progettazione report con un solo clic che consente di creare e modificare report finanziari.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Esercizio 1: generare ed esplorare un report finanziario predefinito
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ Per questo esercizio verrà generato ed esplorato un report predefinito esistent
 3.  Salvare la configurazione della dimensione. Successivamente, genereremo un report ed esploreremo i dati nel report.
 4.  Passare **Report finanziari** in **Richieste di informazioni e report** nella contabilità generale.
 5.  Selezionare la riga per il report denominato **Dettagli CoGe - Predefinito**.
-6.  Selezionare **Modifica**. Nota: Verrà richiesto di scaricare clic- una volta Progettazione report e di accedere. Utilizzare le credenziali per accedere.
+6.  Selezionare **Modifica**. Nota: verrà richiesto di scaricare la funzionalità di progettazione report con un solo clic e di accedere. Per accedere, utilizzare le proprie credenziali.
 7.  Modificare l'anno di base a 2012 e selezionare **Genera**. Quando un report viene generato mediante la funzionalità di progettazione report, verrà aperto in una nuova scheda del browser. È possibile esplorare il report nella nuova scheda del browser o accedere alla scheda del browser originale e aprire il report da tale posizione selezionandolo dall'elenco **Report finanziari**.
 8.  Nel report aperto, selezionare uno degli importi di cui eseguire il drill-down nei dettagli del conto per il report.
 9.  Nei dettagli del conto, selezionare un conto con dati ed **eseguire il drill-down a livello di transazione report**. A livello di transazione report è possibile visualizzare le proprietà (attributi) inclusi nella progettazione del report. A seconda della transazione e del conto, è possibile che vengano visualizzati alcuni o tutti gli attributi.
@@ -55,7 +58,7 @@ Per questo esercizio verrà generato ed esplorato un report predefinito esistent
 13. Selezionare **Opzioni report**.
 14. Selezionare **Aggiungere un filtro dimensioni** e scegliere **Business Unit**.
 15. Digitare 001 nel campo e selezionare **OK**. Il report mostra ora solo i dati per la Business Unit 001. Si tratta di una visualizzazione personalizzata del report e non è disponibile per altri utenti.
-16. Chiudere il report filtrato. I report finanziari possono essere visualizzati in qualsiasi valuta che è stata aggiunta a Dynamics 365 per le operazioni.
+16. Chiudere il report filtrato. I report finanziari possono essere visualizzati in qualsiasi valuta aggiunta a Dynamics 365 for Operations.
 17. Selezionare **Valuta**, quindi **EUR**. Il report viene ora visualizzato in euro. Tutti i codici valuta o simboli di valuta inclusi nella progettazione del report vengono ora visualizzati nella valuta applicata. Se per una valuta non viene definito un simbolo di valuta, questo non viene visualizzato.
 18. Chiudere il report **Dettagli CoGe**.
 19. Chiudere **Progettazione report**.
@@ -66,7 +69,7 @@ In questo esercizio verrà modificato un report predefinito esistente. Verrà ag
 1.  Passare a **Report finanziari** in Richieste di informazioni e report nella contabilità generale.
 2.  Selezionare la riga per il report denominato **Bilancio di verifica riepilogativo - Predefinito**.
 3.  Selezionare **Modifica**. **Bilancio di verifica riepilogativo - Predefinito** si aprirà nella funzionalità di progettazione report.
-4.  Selezionare **File**, quindi **Salva con nome** e denominare il report Bilancio di verifica dettagliato con attributi. Nota: In qualsiasi momento un nuovo report viene creato in Progettazione report, l'elenco di report finanziari vengono aggiornati in Dynamics 365 per le operazioni.
+4.  Selezionare **File**, quindi **Salva con nome** e denominare il report Bilancio di verifica dettagliato con attributi. Nota: quando un nuovo report viene creato nella funzionalità di progettazione report, l'elenco dei report finanziari viene aggiornato in Dynamics 365 for Operations.
 5.  Dalla definizione di report, selezionare l'icona di definizione di riga per aprire la **definizione di riga Bilancio di verifica - Predefinito**.
 6.  Salvare la definizione di riga come **Bilancio di verifica dettagliato con attributi**
 7.  Con il cursore sulla riga 50, selezionare **Modifica**, quindi **Inserire le righe delle dimensioni**. L'inserimento di righe dalle dimensioni consente di scegliere le dimensioni che si desidera inserire nella definizione di riga. Per questo esercizio verrà creata la definizione di riga utilizzando il conto principale.
@@ -96,7 +99,7 @@ In questo esercizio verrà modificato un report predefinito esistente. Verrà ag
 25. Chiudere il report **Bilancio di verifica dettagliato con attributi**.
 26. Chiudere **Progettazione report**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Esercizio 3: Creare un report multidimensionale utilizzando un albero gerarchico
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Esercizio 3: creare un report multidimensionale utilizzando un albero gerarchico
 Per questo esercizio verrà modificato un report predefinito esistente. Verrà creata una struttura del report e verrà aggiunta a una definizione di report per produrre un centro di costo/conto economico divisionario. Una volta completati gli aggiornamenti, verrà generato il centro di costo/conto economico divisionario e verrà esplorato il report utilizzando la struttura del report. Cominceremo dall'elenco Report finanziari.
 
 1.  Passare a **Report finanziari** in Richieste di informazioni e report nella contabilità generale.
@@ -138,7 +141,7 @@ Per questo esercizio verrà modificato un report predefinito esistente. Si aggiu
 1.  Passare a **Report finanziari** in Richieste di informazioni e report nella contabilità generale.
 2.  Selezionare la riga per il report denominato **Conto patrimoniale e conto economico affiancati - Predefinito**
 3.  Selezionare **Modifica**. **Conto patrimoniale e conto economico affiancati - Predefinito** si aprirà nella funzionalità di progettazione report.
-4.  Selezionare ** file ** &gt; ** Salva come ** e nome del report ** lo stato patrimoniale consolidata e economico in parallelo **.
+4.  Selezionare **File** &gt; **Salva con nome** e denominare il report **Conto patrimoniale e conto economico consolidati affiancati**.
 5.  Modificare l'anno di base in 2012.
 6.  Fare clic sulla freccia a discesa Tipo di struttura, quindi selezionare **Gerarchie organizzative**.
 7.  Fare clic sulla freccia a discesa Struttura, quindi selezionare **Disponibilità Contoso**.
@@ -151,7 +154,7 @@ Per questo esercizio verrà modificato un report predefinito esistente. Si aggiu
 14. Chiudere **Conto patrimoniale e conto economico consolidati affiancati**.
 15. Chiudere **Progettazione report**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Esercizio 5: Creare un report modalità affiancata
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Esercizio 5: creare un report di reparto affiancato
 In questo esercizio verrà creato un nuovo report. Il report del conto economico di reparto affiancato. Verrà utilizzata una definizione di riga esistente, ma verrà creata una nuova definizione di report e una nuova definizione di colonna che utilizza i filtri di dimensione. Cominceremo dall'elenco Report finanziari.
 
 1.  Passare a **Report finanziari** in Richieste di informazioni e report nella contabilità generale.
@@ -179,8 +182,10 @@ In questo esercizio verrà creato un nuovo report. Il report del conto economico
 18. **Salvare** le modifiche e **generare**. Una volta generato e aperto il report, è possibile esplorarlo.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-Report finanziari [] (\ \ dati finanziari contabilità generale financial-reporting-getting-started.md \ 
-) [] report finanziari di visualizzazione (\ \ dati finanziari contabilità generale view-financial-reports.md \ 
-) [] blog di reporting finanziario di Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Report finanziari](\financials\general-ledger\financial-reporting-getting-started.md) 
+[Visualizza report finanziari](\financials\general-ledger\view-financial-reports.md) 
+[Blog per i report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

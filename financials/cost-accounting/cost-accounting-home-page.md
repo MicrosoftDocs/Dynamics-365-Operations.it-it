@@ -1,6 +1,6 @@
 ---
-title: "Contabilità industriale home page"
-description: "In questo argomento viene fornito un elenco di argomenti della Guida e altre risorse disponibili per la contabilità industriale."
+title: "Home page Contabilità industriale"
+description: "In questo articolo sono elencati gli argomenti della Guida e altre risorse disponibili per la Contabilità industriale."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Contabilità industriale home page
+# <a name="cost-accounting-home-page"></a>Home page Contabilità industriale
 
-In questo argomento viene fornito un elenco di argomenti della Guida e altre risorse disponibili per la contabilità industriale.
+[!include[banner](../includes/banner.md)]
 
-Nel modulo Contabilità industriale consente di eseguire le operazioni seguenti:
 
--   Consente di definire le dimensioni dell'elemento di costo, i membri della dimensione dell'elemento di costo e mappare le dimensioni dell'elemento di costo.
--   Consente di definire le dimensioni relative all'oggetto e importare i membri dei costi delle dimensioni dell'oggetto.
+In questo articolo sono elencati gli argomenti della Guida e altre risorse disponibili per la Contabilità industriale.
+
+Il modulo Contabilità industriale consente di eseguire le operazioni seguenti:
+
+-   Definire le dimensioni elemento di costo, importare i membri di dimensioni elemento di costo e associare le dimensioni elemento di costo.
+-   Definire le dimensioni oggetto di costo e importare i membri di dimensioni oggetto di costo.
 -   Definire o importare dimensioni statistiche.
 -   Creare modelli provider di misure statistiche.
 -   Creare movimenti CoGe di contabilità industriale.
@@ -46,29 +49,31 @@ Nel modulo Contabilità industriale consente di eseguire le operazioni seguenti:
 
 ## <a name="get-started"></a>Per iniziare
 
-I laboratori pratici per la contabilità industriale sono illustrati i passaggi di base per configurare Microsoft Dynamics 365 per le operazioni - Contabilità industriale per eseguire l'analisi dei costi effettivi. E una serie di procedure che possono essere eseguite nell'ordine in cui sono visualizzati.
+I laboratori pratici per la Contabilità industriale illustrano i passaggi di base per configurare il modulo Contabilità industriale di Microsoft Dynamics 365 for Operations per eseguire l'analisi dei costi effettivi. L'articolo fornisce inoltre una serie di procedure che possono essere eseguite nell'ordine in cui sono visualizzate.
 
--   Introduzione a [Contabilità industriale (https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)] (il white paper e richiede un account CustomerSource)
+-   [Get started with Cost accounting](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (white paper che richiede un account CustomerSource)
 
-Per comprendere come utilizzare il costo per le attività quotidiane, è necessario comprendere i concetti.
+Per comprendere come utilizzare Contabilità industriale per le attività quotidiane, è necessario acquisire familiarità con questi concetti.
 
--   [Key terms in Cost accounting](terms-cost-accounting.md)
--   [Elementi di costo e dimensioni] dell'elemento di costo (cost-elements.md)
--   [Map different cost element dimension members to a common set of cost element dimension members](map-cost-elements-dimension-members.md)
--   [Consente di creare elementi di costo (http://ax.help.dynamics.com/en/wiki/create-cost-elements/)] (Guida di attività)
--   [Cost object dimensions](cost-objects.md)
--   [Creare oggetti di costo (http://ax.help.dynamics.com/en/wiki/create-cost-objects/)] (Guida di attività)
+-   [Termini chiave nella contabilità industriale](terms-cost-accounting.md)
+-   [Elementi di costo e dimensioni dell'elemento di costo](cost-elements.md)
+-   [Mappare membri delle dimensioni elemento di costo diversi a un set comune di membri delle dimensioni elemento di costo](map-cost-elements-dimension-members.md)
+-   [Creare elementi di costo](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (guida attività)
+-   [Dimensioni oggetto di costo](cost-objects.md)
+-   [Creare oggetti di costo](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (guida attività)
 
-## <a name="cost-control-mobile-workspace"></a>Area di lavoro di cellulare del controllo costi
-Nell'area di lavoro di cellulare del controllo costi, dirigenti del centro di costo possono visualizzare le prestazioni del centro di costo in qualsiasi momento e ovunque.
+## <a name="cost-control-mobile-workspace"></a>Area di lavoro mobile controllo costi
+Nell'area di lavoro mobile controllo costi, i dirigenti dei centri di costo possono esaminare le prestazioni del centro di costo in qualsiasi momento e ovunque si trovino.
 
--   [Cost control mobile workspace](cost-controlling-mobile-workspace.md)
+-   [Area di lavoro mobile controllo costi](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>La contabilità industriale di analisi di contenuto Power BI
-Il contenuto di potenza di Microsoft di analisi della contabilità industriale BI serve ai controller dei costi o qualsiasi utente responsabile di eseguire il controllo dei costi di un'organizzazione. Include metriche chiave, ad esempio costi, grandezza e il tasso di costo da costo effettivo, dei costi in budget e dai costi in budget flessibile. Utilizza i dati della transazione da Contabilità industriale in Microsoft Dynamics 365 per le operazioni e offre una visualizzazione di aggregazione dei costi per l'intera organizzazione in una valuta di dichiarazione. I responsabili possono filtrare i dati in base agli oggetti di costo per eseguire il controllo dei costi delle unità organizzative, anche se l'organizzazione può avere più persone giuridiche.
+## <a name="cost-accounting-analysis-power-bi-content"></a>Contenuto Power BI per l'analisi della contabilità industriale
+Il contenuto Microsoft Power BI per l'Analisi della contabilità industriale è destinato ai controller di costo o qualsiasi utente responsabile di eseguire il controllo dei costi di un'organizzazione. Include metriche chiave, ad esempio costi, grandezza e il tasso di costo per costo effettivo, costo a budget e costo a budget flessibile. Utilizza i dati delle transazioni da Contabilità industriale in Microsoft Dynamics 365 for Operations e offre una visualizzazione aggregata dei costi per l'intera organizzazione in un'unica valuta di dichiarazione. I responsabili possono filtrare i dati in base agli oggetti di costo per eseguire il controllo dei costi delle unità organizzative, anche se l'organizzazione può avere più persone giuridiche.
 
--   [Cost accounting analysis Power BI content](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Protezione di impostazione per Contabilità industriale di analisi del contenuto Power BI] (/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Contenuto Power BI per l'analisi della contabilità industriale](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Impostare la sicurezza per il contenuto Power BI per l'analisi della contabilità industriale](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+
+
 
 
 

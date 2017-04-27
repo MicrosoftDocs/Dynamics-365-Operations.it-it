@@ -27,25 +27,30 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-hr-parameters-across-legal-entities"></a>Configurare i parametri HR nelle persone giuridiche
 
+[!include[banner](includes/banner.md)]
+
+
 È necessario impostare parametri condivisi per i record condivisi tra società, ad esempio Record posizione. In questo articolo viene spiegato come impostare i parametri delle risorse umane tra persone giuridiche.
 
 Alcuni tipi di record, ad esempio i record Posizione, sono condivisi tra le società. Per questi record, è necessario configurare dei parametri condivisi. Ad esempio, è possibile utilizzare la pagina **Parametri condivisi Risorse umane** per configurare i parametri HR in tutte le persone giuridiche. 
 
 Nella pagina **Parametri condivisi Risorse umane** i parametri sono raggruppati in aree a seconda della relativa funzionalità. 
 
-Nella scheda **Identificazione** è necessario selezionare i tipi di identificazione che rappresentano i numeri di identificazione che sono elencati nella pagina. È necessario impostare i tipi di identificazione prima di immettere le informazioni di identificazione per i lavoratori. Le informazioni sul Social Security Number, il numero del documento di identità, il numero di identificativo straniero e il codice ID personale vengono gestite nella pagina **Tipo di identificazione**. Per definire un nuovo ID digitare o esaminare l'elenco dei tipi esistenti, fare clic su ** Risorse umane ** &gt; ** impostazione ** &gt; ** tipi di identificazione **. È possibile immettere un codice e una descrizione semplici. 
+Nella scheda **Identificazione** è necessario selezionare i tipi di identificazione che rappresentano i numeri di identificazione che sono elencati nella pagina. È necessario impostare i tipi di identificazione prima di immettere le informazioni di identificazione per i lavoratori. Le informazioni sul Social Security Number, il numero del documento di identità, il numero di identificativo straniero e il codice ID personale vengono gestite nella pagina **Tipo di identificazione**. Per definire un nuovo tipo di identificazione o rivedere l'elenco dei tipi esistenti, fare clic su su **Risorse umane** &gt; **Impostazione** &gt; **Tipi di identificazione**. È possibile immettere un codice e una descrizione semplici. 
 
 Nella scheda **Sequenze numeriche** è possibile selezionare le sequenze numeriche che sono utilizzate per i seguenti record: Numero dipendente, Posizione, ID richiesta utente, Documento I-9, Candidato, Discussione, ID benefit e Azione dipendente (se questo tipo di record è attivato). Per gestire i codici e i riferimenti delle sequenze numeriche, utilizzare la pagina elenco **Sequenze numeriche**. Per trovare questa pagina, utilizzare la funzionalità di ricerca della pagina. 
 
 Nella scheda **Posizioni** indicare se per impostazione predefinita sono disponibili nuove posizioni da assegnare:
 
--   ** ** - È possibile assegnare sempre i lavoratori alle nuove ubicazioni quando vengono create posizioni. Quando vengono create posizioni, ** disponibile per l'assegnazione ** la data e l'ora ** dettagli relativi all'identificazione ** nella scheda ** ** posizione della pagina vengono impostate automaticamente alla data e all'ora di creazione.
+-   **Sempre**: è possibile assegnare lavoratori a nuove posizioni quando si creano posizioni. Quando vengono create posizioni, la data e l'ora **Disponibile per l'assegnazione** nella scheda **Generale** della pagina **Posizione** vengono impostate automaticamente sulla data e ora di creazione.
 -   **Mai**: non è possibile assegnare lavoratori a nuove posizioni quando si creano posizioni. Se si seleziona questa opzione, è necessario aprire la pagina **Posizione** per ciascuna nuova posizione nel momento in cui diventa disponibile e, successivamente, nella scheda **Generale**, immettere la data di **Disponibile per l'assegnazione **per consentire l'assegnazione ai lavoratori.
 
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[] Parametri specifici di HR Società di attrezzaggio setup-company-specific-hr-parameters.md)
+[Impostare parametri HR specifici della società](set-up-company-specific-hr-parameters.md)
+
+
 
 

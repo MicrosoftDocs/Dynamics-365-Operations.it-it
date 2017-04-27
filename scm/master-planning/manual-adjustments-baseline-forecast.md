@@ -1,5 +1,5 @@
 ---
-title: Effettuare rettifiche manuali alla previsione di base
+title: Implementare correzioni manuali nella previsione di base
 description: Questo articolo illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione.
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effettuare rettifiche manuali alla previsione di base
+# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Implementare correzioni manuali nella previsione di base
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione. 
 
@@ -35,11 +38,11 @@ Prima di apportare correzioni manuali, è importante comprendere alcuni concetti
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Griglia della pagina Previsione della domanda modificata
 La pagina **Previsione della domanda modificata** include una griglia con la seguente struttura:
 
--   La prima colonna mostra gli articoli, le chiavi di allocazione articolo, le società, e così via, per cui la previsione è stata generata. Il sottotitolo della pagina fornisce una descrizione delle dimensioni di previsione correnti visualizzate nella griglia. Ad esempio, se il sottotitolo della pagina si ** società/sito/chiave di allocazione articolo ** e una delle intestazioni di riga nella griglia viene USMF **/1/D\_Alloc **, tale riga viene visualizzata la previsione per la società di USMF, il sito e 1 ** D\_Alloc ** la chiave di allocazione articolo.
+-   La prima colonna mostra gli articoli, le chiavi di allocazione articolo, le società, e così via, per cui la previsione è stata generata. Il sottotitolo della pagina fornisce una descrizione delle dimensioni di previsione correnti visualizzate nella griglia. Ad esempio, se il sottotitolo della pagina è **Società/sito/chiave di allocazione articolo** e una delle intestazioni della riga nella griglia è **USMF / 1 / D\_Alloc**, la riga mostra la previsione per la società USMF, il sito 1 e la chiave di allocazione articolo **D\_Alloc**.
 -   Le colonne successive rappresentano gli intervalli di previsione per cui la previsione è stata generata. Ogni intestazione di colonna corrisponde alla data dell'intervallo di previsione che mostra la colonna.
 -   I valori delle celle rappresentano la previsione per un articolo, chiave di allocazione articolo, e altri valori specifici di tale intervallo di previsione.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Aggregazione e deaggregation di previsione
+## <a name="forecast-aggregation-and-deaggregation"></a>Aggregazione e annullamento dell'aggregazione di previsione
 Il sottotitolo della pagina mostra il livello di aggregazione della previsione. 
 
 Ad esempio, se il sottotitolo della pagina è **Società/sito/chiave di allocazione/numero articolo/colore/dimensioni/configurazione/stile**, non esiste alcuna aggregazione di previsione e la previsione viene visualizzata a livello di articolo e delle relative dimensioni. Per modificare l'aggregazione, utilizzare la pagina **Modifica dimensioni previsione** che è possibile aprire dal menu dell'applicazione. 
@@ -50,7 +53,7 @@ Se si modifica l'aggregazione affinché la pagina visualizzi ulteriori dati aggr
 
 Ad esempio, è stata generata la previsione a livello di articolo, ma si sa che la domanda per l'articolo aumenterà in tutti i siti a causa di una promozione o di un altro evento simile. In questo caso, è possibile impostare l'aggregazione su **Società / Chiave di allocazione articolo / Articolo** nella pagina **Modifica dimensioni previsione**. È possibile correggere la previsione globale per l'articolo in tutti i siti nella griglia **Previsione della domanda modificata**. Per visualizzare l'effetto della modifica in tutti i siti, aprire la pagina **Righe di previsione della domanda**. In questa pagina, sarà possibile visualizzare una riga per l'articolo per ogni sito, la quantità di previsione corretta e la quantità di previsione originale. 
 
-Quando la rettifica della quantità prevista viene effettuata a livello aggregazione, verrà utilizzata l'allocazione a peso variabile in cui distribuire la modifica tra le righe che determinano una situazione di aggregazione. 
+Quando la correzione della quantità programmata viene effettuata a livello aggregato, il sistema utilizza un metodo di allocazione pesato per distribuire la modifica tra le righe che creano l'aggregazione. 
 
 È inoltre possibile apportare correzioni manuali nella pagina **Righe di previsione della domanda** modificando il valore della **Quantità totale** o le celle della **Quantità** nella griglia di annullamento della aggregazione.
 
@@ -69,15 +72,17 @@ La pagina **Dettagli di previsione della domanda** visualizza le informazioni se
 **Note:**
 
 -   L'intervallo di fiducia visualizzato nella sezione **Previsione** della pagina rappresenta la differenza tra il limite superiore dell'intervallo di fiducia e il limite minimo dell'intervallo di fiducia. Per visualizzare i valori dei limiti superiori e inferiori, passare il mouse sul grafico nella sezione **Domanda e previsioni storiche in formato grafico**.
--   Se si utilizza Dynamics 365 per l'utilizzo di apprendimento automatico di Microsoft Azure di previsione della domanda operazioni, è possibile specificare la percentuale del livello di fiducia che la previsione che viene generata e deselezionarla. Un intervallo di fiducia è costituito da un intervallo di valori che fungono da stime affidabili per la previsione della domanda. Un livello di fiducia del 95% indica ad esempio che è presente una possibilità del 5% che il risultato di previsione della domanda previsto non sia compreso nell'intervallo stabilito.
+-   Se si utilizza il servizio di Microsoft Azure Machine Learning della previsione della domanda di Dynamics 365 for Operations, è possibile specificare la percentuale del livello di fiducia che la previsione generata deve avere. Un intervallo di fiducia è costituito da un intervallo di valori che fungono da stime affidabili per la previsione della domanda. Un livello di fiducia del 95% indica ad esempio che è presente una possibilità del 5% che il risultato di previsione della domanda previsto non sia compreso nell'intervallo stabilito.
 
 È inoltre possibile apportare correzioni manuali alla previsione nella pagina **Dettagli previsione della domanda** modificando i valori della riga **Previsione** nella sezione **Previsione**.
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Monitoraggio della precisione previsione](monitor-forecast-accuracy.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[Generazione di una previsione di base statistica](generate-statistical-baseline-forecast.md)
+
+
 
 

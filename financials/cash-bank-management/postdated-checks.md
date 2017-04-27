@@ -1,6 +1,6 @@
 ---
 title: Assegni postdatati
-description: "L&quot;articolo prevede le informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 le operazioni. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l&quot;assegno non può più essere incassato fino alla data specificata."
+description: "Questo articolo fornisce informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 for Operations. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l&quot;assegno non può più essere incassato fino alla data specificata."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="postdated-checks"></a>Assegni postdatati
 
-L'articolo prevede le informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 le operazioni. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l'assegno non può più essere incassato fino alla data specificata.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 per le operazioni del ciclo di gestione completo per gli assegni postdatati nelle contabilità clienti che la contabilità fornitori, come illustrato nella seguente tabella.
+
+Questo articolo fornisce informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 for Operations. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l'assegno non può più essere incassato fino alla data specificata.
+
+Microsoft Dynamics 365 for Operations supporta il ciclo di gestione completo per assegni postdatati sia in Contabilità clienti che in Contabilità fornitori, come illustrato nella seguente tabella.
 <table>
 <colgroup>
 <col width="50%" />
@@ -48,11 +51,11 @@ Microsoft Dynamics 365 per le operazioni del ciclo di gestione completo per gli 
 </tr>
 <tr class="even">
 <td>Registrare un assegno postdatato per un fornitore</td>
-<td>Registrare i dettagli di un assegno postdatato da emettere a favore di un fornitore. Se un pagamento viene registrato, le passività fornitore viene riconosciuta, ma il conto bancario non è ancora credito. A questo scopo viene utilizzato invece un conto di compensazione.</td>
+<td>Registrare i dettagli di un assegno postdatato da emettere a favore di un fornitore. Quando il pagamento viene registrato, la passività fornitore viene riconosciuta, ma il conto bancario non è ancora accreditato. A questo scopo viene utilizzato invece un conto di compensazione.</td>
 </tr>
 <tr class="odd">
 <td>Registrare un assegno postdatato di un cliente</td>
-<td>Registrare i dettagli di un assegno postdatato ricevuto da un cliente. Se un pagamento viene registrato, il cliente a credito è credito, ma il conto bancario non è ancora Avere. A questo scopo viene utilizzato invece un conto di compensazione.</td>
+<td>Registrare i dettagli di un assegno postdatato ricevuto da un cliente. Quando il pagamento viene registrato, la contabilità cliente viene accreditata, ma il conto bancario non è ancora addebitato. A questo scopo viene utilizzato invece un conto di compensazione.</td>
 </tr>
 <tr class="even">
 <td>Registrare un assegno postdatato in sostituzione per un cliente o un fornitore</td>
@@ -71,15 +74,17 @@ Se l'assegno originale per un fornitore o da un cliente viene perso o danneggiat
 <td>Annullare un assegno postdatato per un fornitore</td>
 <td>È possibile annullare gli assegni postdatati registrati nelle seguenti situazioni: - L'assegno viene restituito dalla banca.
 - L'assegno è applicato a una fattura non corretta.
-- Pagamento in contanti viene effettuato a fronte dell'assegno.
+- Un pagamento in contanti viene effettuato a fronte dell'assegno.
 </td>
 </tr>
 <tr class="even">
-<td>Pagamento di interruzione per un assegno postdatato</td>
-<td>È possibile bloccare il pagamento di un assegno postdatato emesso a un fornitore per diversi motivi quali, ad esempio, copertura insufficiente, modifica delle condizioni del contratto con il fornitore, fornitura di merci difettose da parte del fornitore o merce resa al fornitore. È possibile interrompere il pagamento solo degli assegni che non sono stati annullati.</td>
+<td>Bloccare il pagamento di un assegno postdatato</td>
+<td>È possibile bloccare il pagamento di un assegno postdatato emesso a un fornitore per diversi motivi quali, ad esempio, copertura insufficiente, modifica delle condizioni del contratto con il fornitore, fornitura di merci difettose da parte del fornitore o merce resa al fornitore. È possibile bloccare il pagamento solo degli assegni che non sono stati annullati.</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 

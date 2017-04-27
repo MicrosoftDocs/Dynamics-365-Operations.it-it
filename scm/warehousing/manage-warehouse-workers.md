@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Gestione degli addetti magazzino
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene descritto come utilizzare Microsoft Dynamics AX per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
 
 Se si utilizza la funzionalità di gestione magazzino, tutte le operazioni del lavoratore di magazzino sono indicate come *lavoro*. Ad esempio il lavoro di prelievo, spostamento e conteggio delle scorte disponibili viene registrato utilizzando i dispositivi mobili. Prima che un lavoratore di magazzino possa completare il lavoro, deve essere associato a un lavoratore nelle Risorse umane. Ogni account **lavoratore** può avere più utenti di lavoro di magazzino associati. Tali utenti di lavoro possono lavorare in magazzini diversi e possono avere diversi livelli di accesso a vari menu del dispositivo mobile. È possibile pensare agli utenti di lavoro di magazzino come a diversi accessi per il lavoratore selezionato. A ogni utente di lavoro è associato un magazzino predefinito e i flussi di lavoro specifici sono esposti dalle voci di menu disponibili per tale utente di lavoro. 
@@ -51,6 +54,8 @@ L'analisi di tempo utilizzato per elaborare gli elementi di lavoro consente di p
 
 -   **Manodopera per utente**: il report mostra la produttività del lavoratore, in base alle ore effettive e al tempo previsto.
 -   **Manodopera per tipo di transazione lavoro**: consente di utilizzare il report per esaminare le inefficienze in processi specifici del magazzino. Ad esempio, si nota che i prelievi per gli ordini di trasferimento richiedono più tempo nella settimana corrente rispetto a quelle precedenti. È quindi possibile utilizzare queste informazioni per un'analisi più approfondita.
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Riduzione del 125% dell'ammortamento del saldo
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 125%.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Saldo decrescente 125%** nel campo **Metodo** della pagina **Profili di ammortamento**, ai cespiti che sono assegnati al profilo di ammortamento verrà applicata la stessa percentuale di ammortamento in ciascun periodo di ammortamento. Questa percentuale viene calcolata in base alla vita utile del cespite. Ad esempio, se un cespite ha una vita utile di cinque anni, la percentuale viene calcolata come 25% (125% ÷ 5).
@@ -56,7 +59,7 @@ Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza 
 
 Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, l'ammortamento a saldi decrescenti del 125% viene calcolato in base all'anno fiscale del calendario fiscale specificato per il libro oppure del calendario fiscale selezionato nella pagina **Contabilità generale**. I calendari fiscali vengono impostati nella pagina **Calendari fiscali**. 
 
-Ad esempio, per l'anno fiscale dal 1° luglio al 30 giugno, il calcolo dell'il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato automaticamente per ciascun periodo e la durata dell'anno fiscale successivo dipende dall'impostazione dei periodi nella pagina **Calendari fiscali**. 
+Se ad esempio l'anno fiscale inizia il 1° luglio e termina il 30 giugno, il calcolo dell'ammortamento inizia il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato automaticamente per ciascun periodo e la durata dell'anno fiscale successivo dipende dall'impostazione dei periodi nella pagina **Calendari fiscali**. 
 
 Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
@@ -81,6 +84,8 @@ Il metodo a saldi decrescenti del 125% consente di dividere il 125% per gli anni
 | Anno 3 | 5.625 × 25% = 1.406,25                        | (6.625 - 1.406,25) = 5.218,75 | (5.625 - 1.406,25) = 4.218,75         |
 
 > [!NOTE] 
-> In genere, quando l'importo calcolato utilizzando i 125% metodi di ammortamento a saldi decrescenti diventa inferiore all'importo che viene calcolato utilizzando il metodo a quote costanti, è presente una conversione al metodo a quote costanti per la vita utile rimanente.
+> In genere, quando l'importo calcolato utilizzando il metodo di ammortamento a saldi decrescenti del 125% diventa inferiore all'importo che sarà calcolato utilizzando il metodo a quote costanti, si verifica una conversione al metodo a quote costanti per la vita utile rimanente.
+
+
 
 

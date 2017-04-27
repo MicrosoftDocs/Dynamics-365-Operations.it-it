@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Creare un reparto e associarlo alla gerarchia reparti
 
+[!include[banner](includes/banner.md)]
+
+
 Un reparto è un'unità operativa che rappresenta una categoria o un'area operativa di un'organizzazione. Un reparto è responsabile di una specifica area dell'organizzazione, ad esempio la vendita, la contabilità o le risorse umane. È possibile utilizzare i reparti per creare report sulle aree operative. I reparti possono essere responsabili di profitti e perdite.
 
-Un reparto può includere un gruppo di centri di costo. È possibile assegnare delle posizioni ai reparti. Per creare un reparto, fare clic su ** Risorse umane ** &gt; ** i reparti ** &gt; ** ** reparto. Nella tabella seguente vengono descritti i campi disponibili.
+Un reparto può includere un gruppo di centri di costo. È possibile assegnare delle posizioni ai reparti. Per creare un reparto, fare clic su **Risorse umane** &gt; **Reparti** &gt; **Reparto**. Nella seguente tabella vengono illustrati i campi disponibili.
 
 | Campo               | Descrizione                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,12 +49,14 @@ Un reparto può includere un gruppo di centri di costo. È possibile assegnare d
 
 Per aggiungere un reparto alla gerarchia reparti, effettuare le operazioni indicate di seguito.
 
-1.  Fare clic su ** Risorse umane ** &gt; ** reparti ** &gt; ** gerarchia del reparto **.
+1.  Fare clic su **Risorse umane** &gt; **Reparti** &gt; **Gerarchia reparti**.
 2.  Fare clic su **Modifica**, quindi selezionare l'organizzazione sotto alla quale si trova il reparto.
 3.  Fare clic su **Inserisci** e selezionare **Reparto** nell'elenco.
 4.  Nell'elenco dei reparti visualizzato, selezionare il reparto da aggiungere alla gerarchia.
-5.  Salvare le modifiche. Viene visualizzato un messaggio che una versione bozza della gerarchia è stata creata.
-6.  Quando si è pronti, fare clic su ** pubblicare ** in Designer gerarchia. È possibile immettere una data di validità che indica il momento in cui la gerarchia deve essere emessa. Ad esempio, per aggiungere un nuovo reparto all'inizio dell'anno di calendario successivo, impostare la data di validità sul 1° gennaio del nuovo anno. Le modifiche alla gerarchia diverranno effettive in tale data.
+5.  Salvare le modifiche. Viene visualizzato un messaggio che indica che è stata creata una versione bozza della gerarchia.
+6.  Quando si è pronti, fare clic su **Pubblica** nella finestra di progettazione della gerarchia. È possibile immettere una data di validità che indica il momento in cui la gerarchia deve essere pubblicata. Ad esempio, per aggiungere un nuovo reparto all'inizio dell'anno di calendario successivo, impostare la data di validità sul 1° gennaio del nuovo anno. Le modifiche alla gerarchia diverranno effettive in tale data.
+
+
 
 
 

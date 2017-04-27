@@ -1,6 +1,6 @@
 ---
 title: Requisiti di sistema
-description: Di seguito sono elencati i requisiti di sistema della versione corrente di Microsoft Dynamics 365 per le operazioni.
+description: In questo argomento vengono elencati i requisiti di sistema per la versione corrente di Microsoft Dynamics 365 for Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 2017-04-04
@@ -26,102 +26,102 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-requirements"></a>Requisiti di sistema
 
-Di seguito sono elencati i requisiti di sistema della versione corrente di Microsoft Dynamics 365 per le operazioni.
+In questo argomento vengono elencati i requisiti di sistema per la versione corrente di Microsoft Dynamics 365 for Operations.
 
 <a name="supported-web-browsers"></a>Web browser supportati
 ----------------------
 
-Microsoft Dynamics 365 per l'applicazione Web delle operazioni è possibile eseguire nei seguenti browser Web che utilizzano sistemi operativi specificati:
+L'applicazione Web Microsoft Dynamics 365 for Operations può essere eseguita in uno dei seguenti Web browser eseguiti sui sistemi operativi specificati:
 
--   Bordo Microsoft (il più tardi pubblicamente - versione se disponibili in Windows 10
+-   Microsoft Edge (ultima versione pubblicamente disponibile) su Windows 10
 -   Internet Explorer 11 in Windows 10, Windows 8.1 o Windows 7
--   Google Cromato (il più tardi pubblicamente - versione se disponibili in compressa di Windows 10, 8.1 di Windows, di Windows 8, 7 di Windows, o del Google Nexus 10
--   Apple Safari (il più tardi pubblicamente - versione) disponibile in Mac OS X 10.10 (Yosemite), 10.11 (EL Capitan) o 10.12 (sierra), ovvero iPad di Apple
+-   Google Chrome (ultima versione pubblicamente disponibile) su Windows 10, Windows 8.1, Windows 8, Windows 7 o tablet Google Nexus 10
+-   Apple Safari (ultima versione pubblicamente disponibile) su Mac OS X 10.10 (Yosemite), 10.11 (El Capitan), 10.12 (Sierra) o Apple iPad
 
 Per trovare l'ultima versione rilasciata di ogni Web browser, andare al sito Web del produttore software. **Note:**
 
--   Per acquisire le immagini generate dal Registrazione attività e comprenderle nei documenti di Microsoft Word, è necessario avere estensione Cromato impostato. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
--   L'editor flusso di lavoro viene attivato come applicazione ClickOnce. Solo il bordo e Internet Explorer Microsoft (su una versione supportata di Microsoft Windows) supporto le applicazioni ClickOnce. L'applicazione ClickOnce dell'editor flusso di lavoro richiede un sistema operativo compatibile a 64 bit.
--   In Progettazione report per i report finanziari viene avviato come applicazione ClickOnce. Richiede un sistema operativo compatibile a 64 bit. Se si utilizza Cromato, è necessario impostare un'estensione ClickOnce per scaricare il client di Progettazione report. Se si utilizza Cromato in incognito la modalità, verificare che la proroga ClickOnce anche attivata per incognito nella modalità.
+-   Per acquisire le immagini generate da Registrazione attività e includerle nei documenti di Microsoft Word, è necessario che sia installata un'estensione Chrome. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
+-   L'editor flusso di lavoro viene avviato come un'applicazione ClickOnce. Solo Microsoft Edge e Internet Explorer (su una versione supportata di Microsoft Windows) supportano le applicazioni ClickOnce. L'applicazione ClickOnce dell'editor flusso di lavoro richiede un sistema operativo compatibile a 64 bit.
+-   La funzionalità Progettazione report per i report finanziari viene avviata come un'applicazione ClickOnce. Richiede un sistema operativo compatibile a 64 bit. Se si utilizza Chrome, è necessario installare un'estensione ClickOnce per poter scaricare il client per la progettazione di report. Se si utilizza Chrome con la modalità in incognito, assicurarsi che l'estensione ClickOnce sia abilitata anche per tale modalità.
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Web browser supportati per POS cloud vendita al dettaglio
 
-In Retail POS verrà su cloud per Dynamics 365 per le operazioni è possibile eseguire nei seguenti browser Web che utilizzano sistemi operativi specificati:
+Retail Cloud POS per Dynamics 365 for Operations può essere eseguita in uno dei seguenti Web browser eseguiti sui sistemi operativi specificati:
 
--   Bordo Microsoft (il più tardi pubblicamente - versione se disponibili in Windows 10
+-   Microsoft Edge (ultima versione pubblicamente disponibile) su Windows 10
 -   Internet Explorer 11 in Windows 10, Windows 8.1 o Windows 7
--   Cromato (il più tardi pubblicamente - versione se disponibili in Windows 10, Windows 8.1, o su Windows 7
+-   Chrome (ultima versione pubblicamente disponibile) su Windows 10, Windows 8.1 o Windows 7
 
 ## <a name="network-requirements"></a>Requisiti di rete
--   Dynamics 365 per le operazioni è progettato per le reti alla latenza inferiore a 150 attesa di (ms). Si tratta della latenza da un client del browser al centro dati di Microsoft Azure tale host Dynamics 365 per le operazioni. Si consiglia di verificare la latenza di rete< all'> indirizzo http://www.azurespeed.com.
--   I requisiti di larghezza di banda di Dynamics 365 per le operazioni dipendono dal scenario. La maggior parte dei tipici scenari che richiedono una larghezza di banda di più di 50 eventi al secondo kbps (). Tuttavia, per scenari con una richiesta del carico utile, ad esempio le aree di lavoro o gli scenari che includono estesa personalizzazione, oltre a larghezza di banda è consigliata.
+-   Dynamics 365 for Operations è progettato per reti con latenza inferiore a 150 millisecondi (ms). Tale latenza è utilizzata da un client del browser al data center di Microsoft Azure che ospita Dynamics 365 for Operations. Si consiglia di verificare la latenza di rete all'indirizzo <http://www.azurespeed.com>.
+-   I requisiti di larghezza di banda per Dynamics 365 for Operations dipendono dallo scenario. La maggior parte degli scenari tipici richiede una larghezza di banda superiore a 50 kilobyte al secondo (Kbps). Tuttavia, per scenari con requisiti di carico utile elevati, ad esempio aree di lavoro o scenari che implicano personalizzazioni estese, è consigliabile disporre di maggiore larghezza di banda.
 
-Dynamics 365 per le operazioni è in genere ricerca per Internet. Numero di round trip da un client del browser al centro azzurrato dati sia troppo esiguo e l'intero carico utile è compresso. ** Avvertendo: ** Non computi i requisiti di larghezza di banda ridotta da un'ubicazione del client moltiplicando il numero di utenti per i requisiti minimi di larghezza di banda. L'utilizzo di concorrente una posizione data è molto difficile calcolare. Per i clienti a cui sono interessati sui fabbisogni di larghezza di banda, utilizzare una versione di previsione di Dynamics 365 per le operazioni.
+In genere, Dynamics 365 for Operations è ottimizzato per Internet. Il numero di round trip da un client del browser al data center di Azure è esiguo e l'intero carico utile è compresso. **Avviso:** non calcolare i requisiti di larghezza di banda da un'ubicazione del client moltiplicando il numero di utenti per i requisiti minimi di larghezza di banda. L'utilizzo simultaneo di una determinata ubicazione è molto difficile da calcolare. Per i clienti con problemi relativi ai requisiti di larghezza di banda, utilizzare una versione di anteprima di Dynamics 365 for Operations.
 
-## <a name="net-framework-requirements"></a>requisiti di .NET Framework
-Dynamics 365 per le operazioni richiede la versione 4.6.2 di .NET Framework per tutti clic- una modifica delle applicazioni, ad esempio l'agente di registrazione del documento. Per istruzioni di installazione, vedere [installato .NET Framework] (https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
+## <a name="net-framework-requirements"></a>Requisiti per .NET Framework
+Dynamics 365 for Operations richiede .NET Framework versione 4.6.2 per tutte le applicazioni ClickOnce, ad esempio l'agente di distribuzione documenti. Per istruzioni relative all'installazione, vedere [Installazione di .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
 
-## <a name="supported-microsoft-office-applications"></a>Applicazioni di supporto Microsoft Office
--   Per eseguire Microsoft Excel e per esprimere i componenti aggiuntivi, è necessario che Microsoft Office 2016 per Windows o Mac impostato. Per ulteriori informazioni sui requisiti di rilascio, vedere [] risoluzione di integrazione di Office (/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
--   Per visualizzare i documenti generati dall'esportazione in Excel o dall'esportazione per esprimere la funzionalità, è necessario che Microsoft Office 2007 o versione successiva eseguita.
+## <a name="supported-microsoft-office-applications"></a>Applicazioni di Microsoft Office supportate
+-   Per eseguire i componenti aggiuntivi di Microsoft Excel e Word, è necessario che sia installato Microsoft Office 2016 per Windows o Mac. Per ulteriori informazioni sui requisiti di versione, vedere [Risoluzione dei problemi di integrazione di Office](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Per visualizzare i documenti generati dalla funzionalità Esporta in Excel o Esporta in Word, è necessario che sia installato Microsoft Office 2007 o versioni successive.
 
-## <a name="retail-modern-pos-requirements"></a>Requisiti moderni Retail POS
-### <a name="supported-operating-systems"></a>Liquidare operativi supportati
+## <a name="retail-modern-pos-requirements"></a>Requisiti per Retail Modern POS
+### <a name="supported-operating-systems"></a>Sistemi operativi supportati
 
--   In Retail POS moderno al dettaglio è un'applicazione a 32 bit, ma verrà eseguito le architetture su x86 che in x64.
--   In Retail POS moderno al dettaglio è supportato solo su Windows 10 uscite di assistenza a lungo termine con di impresa, e impresa della filiale (LTSB).
+-   Retail Modern POS è un'applicazione a 32 bit, ma verrà eseguita su entrambe le architetture x86 e x64.
+-   Retail Modern POS è supportato solo su Windows 10 edizioni Pro, Enterprise ed Enterprise Long Term Servicing Branch (LTSB).
 
-### <a name="minimum-system-requirements"></a>Requisiti di sistema minimi
+### <a name="minimum-system-requirements"></a>Requisiti minimi di sistema
 
--   La risoluzione di supporto minima è 1280 × 1024.
--   Il computer su cui il POS moderno al dettaglio viene eseguito deve soddisfare tali requisiti:
-    -   Disporre di, al minimo, il processore dual-core che opera per non inferiore a 2 GHz (GHz).
-    -   Disporre di, al minimo, 3 gigabyte di (GB) di RAM.
-    -   Disporre di accesso a Internet.
+-   La risoluzione minima supportata è 1280 × 1024.
+-   Il computer su cui viene eseguito Retail Modern POS deve soddisfare i seguenti requisiti:
+    -   Deve disporre, come minimo, di un processore dual-core in esecuzione ad almeno 2 gigahertz (GHz).
+    -   Deve disporre, come minimo, di 3 gigabyte (GB) di RAM.
+    -   Deve disporre dell'accesso a Internet.
 
-## <a name="retail-hardware-station-requirements"></a>Requisiti di articoli al dettaglio della propria postazione hardware
-### <a name="supported-operating-systems"></a>Liquidare operativi supportati
+## <a name="retail-hardware-station-requirements"></a>Requisiti per Retail hardware station
+### <a name="supported-operating-systems"></a>Sistemi operativi supportati
 
--   La propria postazione di articoli al dettaglio hardware è un'applicazione a 32 bit, ma verrà eseguito le architetture su x86 che in x64.
--   La propria postazione di articoli al dettaglio hardware è supportata sui sistemi operativi:
-    -   Professionista di Windows 7, contenuti organizzazione e le uscite ** nota: ** Windows 7 è supportato solo se Internet Explorer 11 è impostato manualmente nel sistema.
-    -   Professionista di servizi di Windows 8.1, 1 e uscite medie incluse
-    -   Windows 10, uscite di impresa e impresa LTSB
+-   Retail hardware station è un'applicazione a 32 bit, ma verrà eseguita su entrambe le architetture x86 e x64.
+-   Retail hardware station è supportata sui seguenti sistemi operativi:
+    -   Windows 7 edizioni Professional, Enterprise e Ultimate **Nota:** Windows 7 è supportato solo se Internet Explorer 11 viene installato manualmente nel sistema.
+    -   Windows 8.1 Update 1 edizioni Professional, Enterprise ed Embedded
+    -   Windows 10 edizioni Pro, Enterprise ed Enterprise LTSB
 
-### <a name="minimum-system-requirements"></a>Requisiti di sistema minimi
+### <a name="minimum-system-requirements"></a>Requisiti minimi di sistema
 
-La macchina deve soddisfare tutte le richieste di sistema dell'installazione e all'utilizzo dei seguenti elementi:
+Il computer deve soddisfare tutti i requisiti di sistema per l'installazione e l'utilizzo dei seguenti elementi:
 
 -   Internet Information Services (IIS)
 -   Hardware di terze parti
 
-## <a name="retail-store-scale-unit-requirements"></a>Richieste di unità della scala punto vendita al dettaglio
-### <a name="supported-operating-systems"></a>Liquidare operativi supportati
+## <a name="retail-store-scale-unit-requirements"></a>Requisiti per Retail Store Scale Unit
+### <a name="supported-operating-systems"></a>Sistemi operativi supportati
 
--   Unità di pesatura punto vendita al dettaglio è un'applicazione a 32 bit, ma verrà eseguito le architetture su x86 che in x64.
--   Unità di pesatura punto vendita al dettaglio è supportata sui sistemi operativi:
-    -   Professionista di Windows 7, contenuti organizzazione e le uscite
-    -   Professionista di servizi di Windows 8.1, 1 e uscite medie incluse
-    -   Windows 10, uscite di impresa e impresa LTSB
+-   Retail Store Scale Unit è un'applicazione a 32 bit, ma verrà eseguita su entrambe le architetture x86 e x64.
+-   Retail Store Scale Unit è supportata sui seguenti sistemi operativi:
+    -   Windows 7 edizioni Professional, Enterprise e Ultimate
+    -   Windows 8.1 Update 1 edizioni Professional, Enterprise ed Embedded
+    -   Windows 10 edizioni Pro, Enterprise ed Enterprise LTSB
 
-### <a name="minimum-system-requirements"></a>Requisiti di sistema minimi
+### <a name="minimum-system-requirements"></a>Requisiti minimi di sistema
 
--   GB di RAM
--   Processore 1.6 GHz di picco di velocità di CPU di tempo (i due centri al minimo).
--   Almeno 10 GB di spazio libero (il database del canale può richiedere molto elevato di spazio).
+-   4 GB di RAM
+-   CPU con velocità di picco da 1,6 GHz per core (minimo due core).
+-   Almeno 10 GB di spazio libero (il database del canale può richiedere una quantità di spazio notevole).
 
 ### <a name="recommended-system-requirements"></a>Requisiti di sistema consigliati
 
--   6Gb Di RAM
--   Processore 2.4 GHz o equivalenti (i7) di picco di velocità di CPU di tempo (pezzi disponibili centri utilizzare).
--   Almeno 10 GB di spazio libero (il database del canale può richiedere molto elevato di spazio).
+-   6 GB di RAM
+-   CPU con velocità di picco da 2,4 GHz i7 (o equivalente) per core (quattro core consigliati).
+-   Almeno 10 GB di spazio libero (il database del canale può richiedere una quantità di spazio notevole).
 
-## <a name="requirements-for-development-on-local-vms"></a>Requisiti di sviluppo locale in VM
-Per ulteriori informazioni sui requisiti di sviluppo sulle macchine virtuali locali (VMs), vedere in locali [] correnti in VM (/dynamics365/operations/dev-itpro/dev-tools/access-instances #vm-that-is-running-in-premises).
+## <a name="requirements-for-development-on-local-vms"></a>Requisiti per sviluppo su VM locali
+Per ulteriori informazioni sui requisiti per lo sviluppo su macchine virtuali locali (VM), vedere [VM in esecuzione presso la sede](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Ottenere una copia di valutazione Dynamics 365 per le operazioni] (/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Ottenere una copia di valutazione di Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
 
 

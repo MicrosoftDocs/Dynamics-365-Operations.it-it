@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consumption-depreciation"></a>Ammortamento del consumo
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica del metodo di ammortamento basato su consumo.
 
 Quando si imposta un profilo di ammortamento per i cespiti e si seleziona l'opzione **Consumo** nel campo **Metodo** della pagina **Profili di ammortamento**, l'assegnazione dei cespiti al profilo di ammortamento è basata sul loro utilizzo. Non è necessario impostare le percentuali e gli intervalli nella pagina **Profili di ammortamento**. Dopo avere creato un profilo di ammortamento che utilizza il metodo Consumo, è possibile impostare il metodo in diversi modi.
@@ -64,5 +67,7 @@ Viene impostato il seguente fattore di ammortamento basato sul consumo per il 31
 -   La quantità stimata del cespite è 2.000.
 
 La proposta di ammortamento il 31 gennaio è la seguente: Quantità stimata × Percentuale x Ammortamento unità 2.000 × ,10 × 1,5 = 300
+
+
 
 

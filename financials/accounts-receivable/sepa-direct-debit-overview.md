@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sepa-direct-debit-overview"></a>Panoramica di addebito diretto SEPA
 
+[!include[banner](../includes/banner.md)]
+
+
 SEPA (Single Euro Payments Area) viene impostata dalla Commissione Europea e determina che tutti i pagamenti elettronici vengono considerati nazionali, indipendentemente dal paese in cui si trovano i singoli individui, le aziende o l'organizzazione e la banca. Non c'è differenza tra i pagamenti nazionali e quelli transfrontalieri. SEPA include i 28 stati membri dell'Unione Europea (UE) oltre all'Islanda, il Liechtenstein, la Norvegia, la Svizzera, Monaco e San Marino. SEPA consente di formare un singolo mercato per le transazioni di pagamento all'interno dell'Area Economica Europea. Infine, SEPA prevede di ridurre il numero dei formati di pagamento con cui lavorano le banche, le aziende e i singoli individui.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>Cosa si un obiettivo per addebito diretto SEPA?
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>Qual è l'obiettivo degli addebiti diretti SEPA?
 ---------------------------------------
 
-Un addebito diretto SEPA consente a un creditore riscuotere fondi dal conto bancario di un cliente, purché un mandato è stato firmato dal cliente assegnato al creditore. Il cliente firma un mandato che autorizza il creditore a riscuotere un pagamento e istruisce la banca del cliente a effettuare il pagamento. 
+Un addebito diretto SEPA consente al creditore di prelevare denaro dal conto corrente bancario del cliente, ammesso che il cliente abbia concesso un mandato firmato al creditore. Il cliente firma un mandato che autorizza il creditore a riscuotere un pagamento e istruisce la banca del cliente a effettuare il pagamento. 
 
 L'addebito diretto SEPA crea, per la prima volta, uno strumento di pagamento che può essere utilizzato sia per gli addebiti diretti nazionali che transfrontalieri di euro attraverso i 32 paesi SEPA. 
 
@@ -60,7 +63,7 @@ La combinazione di addebito diretto B2B SEPA viene applicata alle transazioni e 
 Sì. È possibile utilizzare la combinazione COR1 per i mandati di addebito diretto SEPA in Austria, in Belgio, Germania, in Francia, Italia, in Spagna e nei Paesi Bassi. Lo schema fornisce un periodo di notifica preliminare più breve per la raccolta di addebito diretto del creditore.
 
 ## <a name="what-are-international-bank-account-numbers-iban-and-bank-identifier-codes-bic"></a>Cosa sono i numeri IBAN e BIC?
-I codici IBAN (International Bank Account Number) e BIC (Bank Identifier Code) sono utilizzati per identificare qualsiasi conto in 32 paesi SEPA. Registrare il BIC nel campo Codice SWIFT e IBAN nel campo IBAN. Entrambi i campi si trovano nella FastTab Identificazione aggiuntiva nella scheda Dettaglio del conto bancario nella pagina dei conti bancari. Questa opzione è vera per il conto bancario del creditore e del cliente.
+I codici IBAN (International Bank Account Number) e BIC (Bank Identifier Code) sono utilizzati per identificare qualsiasi conto in 32 paesi SEPA. Immettere il codice BIC nel campo Codice SWIFT e l'IBAN nel campo IBAN. Entrambi i campi si trovano nella FastTab Identificazione aggiuntiva nella scheda Dettaglio del conto bancario nella pagina dei conti bancari. Questa opzione è vera per il conto bancario del creditore e del cliente.
 
 ## <a name="where-do-i-enter-creditor-identifiers-direct-debit-ids"></a>Dove si immettono gli identificatori del creditore (ID addebito diretto)?
 In SEPA, ogni creditore viene identificato da un identificatore univoco del creditore. Questo identificatore consente al cliente e alla banca di filtrare tutti gli addebiti diretti e quindi di elaborare o rifiutare l'addebito diretto in base alle istruzioni del cliente. I creditori devono richiedere questo identificatore tramite la propria banca. Immettere questo identificatore nel campo ID addebito diretto per il conto bancario della persona giuridica.
@@ -69,7 +72,7 @@ In SEPA, ogni creditore viene identificato da un identificatore univoco del cred
 Il cliente firma un mandato che autorizza il creditore a riscuotere un pagamento e istruisce la banca del cliente a effettuare il pagamento. Il cliente può emettere il mandato in forma cartacea o elettronica. Per impostazione predefinita, il mandato scade 36 mesi dopo aver inizializzato l'ultimo addebito diretto.
 
 ## <a name="where-do-i-specify-the-sepa-direct-debit-file-format-iso-20022"></a>Dove è necessario specificare il formato di file di addebito diretto SEPA (ISO 20022)?
-I formati dati SEPA si basano sugli standard di messaggio ISO 20022. Controllerete la casella di controllo elettronica generica di reporting e verranno selezionati il formato di pagamento in addebito diretto SEPA la configurazione del formato di esportazione quando si configura la modalità di pagamento della contabilità clienti. Utilizzare questo metodo di pagamento quando si genera un file di pagamento in un giornale di registrazione pagamenti del cliente.
+I formati dati SEPA si basano sugli standard di messaggio ISO 20022. È necessario selezionare la casella di controllo Report elettronici generici e il formato di addebito diretto SEPA come configurazione del formato di esportazione quando si configurano i metodi di pagamento per la contabilità clienti. Utilizzare questo metodo di pagamento quando si genera un file di pagamento in un giornale di registrazione pagamenti del cliente.
 
 ## <a name="in-what-file-formats-can-i-generate-sepa-direct-debit-payment-files"></a>Nei formati di file posso generare i file di pagamento in addebito diretto SEPA?
 L'utente può generare file di pagamento elettronico per addebito diretto SEPA nei seguenti formati:
@@ -78,6 +81,8 @@ L'utente può generare file di pagamento elettronico per addebito diretto SEPA n
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Come funzionano i rimborsi e i resi con gli addebiti diretti SEPA?
 In entrambe le combinazioni di addebito diretto SEPA, i clienti hanno determinati diritti sui rimborsi. Al cliente è consentito di richiamare tutte le transazioni autorizzate durante un periodo di otto giorni successivi alla data di scadenza, senza dover fornire un motivo. Nel caso delle transazioni non autorizzate, il periodo è esteso a 13 mesi dopo la data di scadenza. Gli storni di tutti i pagamenti effettuati vengono eseguiti manualmente tramite il pulsante Annulla pagamento nella pagina Transazioni cliente.
+
+
 
 
 

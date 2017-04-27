@@ -1,6 +1,6 @@
 ---
 title: Report finanziari del conto patrimoniale
-description: In questo articolo viene descritto i report predefiniti per gli stati patrimoniali. Sono descritti i blocchi predefiniti associati a questi report.
+description: In questo articolo viene descritto i report predefiniti per gli stati patrimoniali. Sono descritti inoltre i blocchi predefiniti associati a questi report.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>Report finanziari del conto patrimoniale
 
-In questo articolo viene descritto i report predefiniti per gli stati patrimoniali. Sono descritti i blocchi predefiniti associati a questi report. 
+[!include[banner](../includes/banner.md)]
+
+
+In questo articolo viene descritto i report predefiniti per gli stati patrimoniali. Sono descritti inoltre i blocchi predefiniti associati a questi report. 
 
 <a name="default-balance-sheet-reports"></a>Report predefiniti del conto patrimoniale
 -----------------------------
@@ -72,10 +75,12 @@ Le definizioni di colonna contengono i diversi tipi di colonna per fornire diver
 <a name="see-also"></a>Vedere anche
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Creazione di report finanziari](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Visualizza report finanziari](view-financial-reports.md)
 
-[] Blog di reporting finanziario di Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog sui report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

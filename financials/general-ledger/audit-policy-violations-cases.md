@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-violations-and-cases"></a>Casi e violazioni dei criteri di controllo
 
+[!include[banner](../includes/banner.md)]
+
+
 L'articolo illustra come i casi di controllo vengono generati dalle violazioni delle regole dei criteri di controllo. Include inoltre le informazioni sulle varie modalità in cui i criteri di controllo utilizzano l'intervallo di date per la selezione dei documenti.
 
 <a name="how-audit-cases-are-generated"></a>Modalità di generazione dei casi di controllo
@@ -39,10 +42,10 @@ I criteri di controllo vengono eseguiti in modalità batch. Quando si eseguono d
 
 Ogni regola dei criteri valuta un insieme di documenti. La regola dei criteri seleziona i documenti che sono inclusi nell'intervallo di date di selezione e che soddisfano i criteri specificati. Ad esempio, una regola dei criteri potrebbe selezionare le note spese con pasti di valore superiore a 50,00. Un'altra regola dei criteri potrebbe selezionare le fatture fornitore a debito per un fornitore specifico. Per ogni documento selezionato nell'insieme, viene generata una violazione. Tale violazione è costituita da un record di un documento specifico, ad esempio la fattura 12345, che non è conforme alla regola dei criteri. 
 
-Più record di violazione di controllo vengono raggruppati e associati ai casi di controllo. Per impostazione predefinita, i casi relativi a ogni criterio di controllo vengono raggruppati per regola dei criteri di controllo. Se si preferisce, è possibile selezionare altri criteri di raggruppamento tramite la pagina **Criteri di raggruppamento casi**. Ad esempio, è possibile raggruppare le intestazioni di spesa per ID progetto e le fatture fornitore per conto fornitore. In questo caso, tutte le violazioni alle intestazioni di spesa con lo stesso ID progetto verranno raggruppate nello stesso caso e tutte le fatture fornitore con lo stesso conto fornitore verranno raggruppate nello stesso caso. 
+Più record di violazione di controllo vengono raggruppati e associati ai casi di controllo. Per impostazione predefinita, i casi relativi a ogni criterio di controllo vengono raggruppati per regola dei criteri di controllo. Se si preferisce, è possibile selezionare altri criteri di raggruppamento tramite la pagina **Criteri di raggruppamento casi**. È possibile, ad esempio, raggruppare le intestazioni di spesa per ID progetto e le fatture fornitore per conto fornitore. In tal caso, tutte le violazioni alle intestazioni di spesa con lo stesso ID progetto e tutte le fatture fornitore con lo stesso conto fornitore verranno raggruppate, rispettivamente, nello stesso caso. 
 
 > [!NOTE]
-> Per le regole dei criteri di controllo basate su un duplicato ** ** eseguire il tipo, le violazioni non vengono raggruppati in base alla regola dei criteri o in base ai criteri specificati ** caso dei criteri di raggruppamento ** nella pagina. ma verranno invece raggruppate in base ai criteri incorporati nella regola dei criteri di controllo. Ad esempio, se una regola dei criteri valuta le note spese in base alle spese duplicate con uguale importo, ID esercente e data, tutte le spese con gli stessi valori in questi campi rappresenteranno un caso. Qualsiasi spesa con valori diversi rappresenterà un caso distinto.
+> Per le regole dei criteri di controllo basate su un tipo di query **Duplicato**, le violazioni non vengono raggruppate in base alla regola dei criteri di controllo o in base ai criteri specificati nella pagina **Criteri di raggruppamento casi**. ma verranno invece raggruppate in base ai criteri incorporati nella regola dei criteri di controllo. Ad esempio, se una regola dei criteri valuta le note spese in base alle spese duplicate con uguale importo, ID esercente e data, tutte le spese con gli stessi valori in questi campi rappresenteranno un caso. Qualsiasi spesa con valori diversi rappresenterà un caso distinto.
 
 Dopo la generazione, i casi di controllo verranno gestiti mediante i tipici processi di gestione dei casi.
 
@@ -56,6 +59,8 @@ Di seguito sono riportate altre modalità in cui un criterio di controllo utiliz
 -   Per le regole dei criteri che si basano su un tipo di query **Elenca ricerca**, i criteri valutano documenti per le entità controllate che risultano valide nell'ultimo giorno dell'intervallo delle date per la selezione dei documenti.
 
 
-Per ulteriori informazioni, vedere [regole dei criteri di controllo] () audit-policy-rules.md
+Per ulteriori informazioni, vedere [Regole dei criteri di controllo](audit-policy-rules.md)
+
+
 
 

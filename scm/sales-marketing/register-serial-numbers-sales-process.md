@@ -1,5 +1,5 @@
 ---
-title: Numeri di serie del registro del processo di vendita
+title: Registrare numeri di serie nel processo di vendita
 description: "Questo articolo spiega come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall&quot;entrata all&quot;uscita delle merci in magazzino."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Numeri di serie del registro del processo di vendita
+# <a name="register-serial-numbers-in-the-sales-process"></a>Registrare numeri di serie nel processo di vendita
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo spiega come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
 
@@ -65,7 +68,7 @@ Sì, è possibile eseguire una richiesta di informazioni nella riga del giornale
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>È possibile visualizzare gli articoli serializzati di cui si dispone?
 No, non è possibile visualizzare gli articoli serializzati di cui si dispone poiché i numeri di serie degli articoli non vengono registrati finché i prodotti non vengono venduti.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Posso registrare i numeri di serie per i dati di catchweight?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>È possibile registrare i numeri di serie per gli articoli a peso variabile?
 No, durante il processo di vendita non è possibile registrare i numeri di serie per gli articoli a peso variabile. Inoltre, se il prodotto è impostato come articolo a peso variabile, non è possibile assegnare il prodotto a un gruppo di dimensioni di tracciabilità impostato per l'utilizzo dei numeri di serie solo durante il processo di vendita.
 Posso registrare i numeri di serie presso i terminali Retail POS?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Sì, al terminale Retail POS verrà richiesto all'utente di immettere un numero 
 Questa funzionalità è disponibile per tutti i ruoli che possono gestire i documenti di trasporto e le fatture di vendita. I compiti seguenti consentono ai lavoratori di correggere i numeri di serie e registrare voci vuote per i numeri di serie che non possono essere letti o sottoposti a scansione:
 -   Gestisci correzioni dei numeri di serie
 -   Gestisci registrazione dei numeri di serie non leggibili
+
+
 
 
 

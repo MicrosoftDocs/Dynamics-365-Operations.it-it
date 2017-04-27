@@ -1,6 +1,6 @@
 ---
-title: "Vendite e di redditività di prestazione di contenuto Power BI"
-description: "In questo argomento sono descritti gli argomenti inclusi in Dynamics 365 per le operazioni di vendita e pacchetto del contenuto delle prestazioni di redditività per Microsoft Power BI. Descrive come accedere ai report inclusi nel collo e documentazione vengono fornite informazioni sul modello dati e sulle entità utilizzati per sviluppare un pacchetto di contenuto."
+title: "Contenuto Power BI per le prestazioni di vendite e redditività"
+description: "In questo argomento sono descritti gli argomenti inclusi in Dynamics 365 for Operations - Pacchetto di contenuti per le prestazioni di vendite e redditività per Microsoft Power BI. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il pacchetto di contenuti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,84 +24,84 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Vendite e di redditività di prestazione di contenuto Power BI
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Contenuto Power BI per le prestazioni di vendite e redditività
 
-In questo argomento sono descritti gli argomenti inclusi in Dynamics 365 per le operazioni di vendita e pacchetto del contenuto delle prestazioni di redditività per Microsoft Power BI. Descrive come accedere ai report inclusi nel collo e documentazione vengono fornite informazioni sul modello dati e sulle entità utilizzati per sviluppare un pacchetto di contenuto.
+In questo argomento sono descritti gli argomenti inclusi in Dynamics 365 for Operations - Pacchetto di contenuti per le prestazioni di vendite e redditività per Microsoft Power BI. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il pacchetto di contenuti.
 
 <a name="overview"></a>Panoramica
 --------
 
-Il pacchetto di contenuto è stato creato per i controlli vendita vendita e la chiave di vendita dei ricavi, il profitto lordo e i margini di profitto. Usa dati transazionali di vendita da Dynamics 365 per le operazioni e offre sia una visualizzazione aggregata delle cifre delle vendite a livello di società una scomposizione delle prestazioni di vendita per i clienti e i prodotti. Evidenziando modifiche alla crescita di profitto e ricavi nel tempo, i report possono essere utilizzati per avvisare i responsabili sul valore positivo e negativa tende per singoli clienti e prodotti. Categoria e responsabili specifiche troveranno che utile disporre di grafici per la valutazione dei ricavi e della redditività delle categorie e dei clienti di prodotto diverse Gruppi l'una con l'altra per scegliere i ritardatari e i vendita. Un report completo di mapping dei singoli ricavi del cliente da margine di profitto offre al responsabile da un base supportato da dati per adattare le vendite e iniziative di marketing corrispondente al profilo di ciascun cliente. Vendite e il collo del contenuto delle prestazioni di redditività consente di vendita vendita di analizzare le prestazioni di vendita operazioni:
+Questo pacchetto di contenuti è stato creato per i manager delle vendite per monitorare le metriche delle vendite chiave relative a fatturato, profitto lordo e margini di profitto. Utilizza i dati transazionali delle vendite provenienti da Microsoft Dynamics 365 for Operations e offre sia una visualizzazione aggregata delle cifre delle vendite a livello di società che una scomposizione dettagliata delle prestazioni delle vendite per clienti e prodotti. Evidenziando le modifiche nel fatturato e nella crescita di profitto nel tempo, i report possono essere utilizzati per segnalare ai responsabili le tendenze positive e negative per singoli clienti e prodotti. I responsabili di categoria e regionali troveranno utile disporre di grafici che mettono a confronto il fatturato e la redditività di categorie di prodotti e gruppi di clienti diversi per individuare quelli con prestazioni scadenti e quelli con prestazioni ottimali. Un report completo che traccia i ricavi rispetto al margine di profitto di un singolo cliente offre agli account manager informazioni basate sui dati per adattare le attività di vendite e marketing al profilo specifico di ciascun cliente. Il pacchetto di contenuti per le prestazioni di vendite e redditività consente ai responsabili delle vendite di analizzare le prestazioni delle vendite in base ai seguenti elementi:
 
--   Ricavi, inizio anno (in base al gruppo di clienti e singoli clienti, categorie di vendita e singoli prodotti e geografie)
--   Modifica dei ricavi, di annuali ad aree e le categorie di vendita cliente)
+-   Ricavi, da inizio anno (per gruppo di clienti e singoli clienti, categorie di vendita, nonché singoli prodotti e aree geografiche)
+-   Modifica nei ricavi, su base annua (per regioni dei clienti e categorie di vendita)
 
-La redditività può essere analizzati da:
+La redditività può essere analizzata in base ai seguenti elemento:
 
--   Profitto e margine lordo dei profitti (per i gruppi di clienti e le categorie di vendita di prodotti)
--   Modifica di profitto lordo, di annuali
--   Redditività cliente (a fronte dei ricavi margine lordo)
+-   Profitto lordo e margine di profitto (per gruppi di clienti e categorie di vendita di prodotti)
+-   Modifica nel profitto lordo, su base annua
+-   Redditività del cliente (per ricavi rispetto a margine lordo)
 
-## <a name="accessing-the-content-pack"></a>Accesso al collo di contenuto
-Vendite e il collo del contenuto di potenza delle prestazioni di redditività BI viene emessa quando un cespite all'implementazione del ciclo di vita servizi (LCS) ed è possibile accedere da Dynamics 365 per le operazioni. Per ulteriori informazioni sull'accesso e avviare i report di Power BI, vedere [di Power BI nel contenuto LC da Microsoft e dai partner power-bi-content-microsoft-partners.md] ().
+## <a name="accessing-the-content-pack"></a>Accesso al pacchetto di contenuti
+Il pacchetto di contenuti Power BI per le prestazioni di vendite e redditività viene pubblicato come risorsa di implementazione in Lifecycle Services (LCS) ed è possibile accedervi da Dynamics 365 for Operations. Per ulteriori informazioni su come accedere ai report Power BI e aprirli, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-included-in-the-content-pack"></a>In incluso nel collo di contenuto
-Il pacchetto di contenuto è incluso un report costituito da un insieme di riepilogare visualizzata come i grafici, le mattonelle e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel collo di contenuto.
+## <a name="metrics-included-in-the-content-pack"></a>Metriche incluse nel pacchetto di contenuti
+Il pacchetto di contenuti include un report costituito da un set di metriche visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel pacchetto di contenuti.
 
 |                        |                                            |                                                         |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| ** Pagina del report **        | **Charts**                                 | ** Affianca **                                               |
-| Ricavi dal cliente    | Clienti principale del 10 dei ricavi                | Totale ricavi                                           |
-|                        | Ricavi totali in base al gruppo di clienti            | Crescita dei ricavi di YOY                                      |
-|                        | Ricavi cliente media dal gruppo di clienti | Margine lordo                                            |
-|                        | Ricavi e profitto lordo dal gruppo di clienti   |                                                         |
-| Per prodotto ricavi     | Ricavi e profitto lordo per la categoria di vendita   | \# totale di prodotti                                    |
-|                        | Prodotti principale del 10 dei ricavi                 | Numero totale di prodotti attivi e percentuale del totale |
-|                        | Ricavi totali per la categoria di vendita            | Numero di prodotti che rappresentano i ricavi di 80%           |
-| Ricavi per periodo\*    | Ricavi mensili                           | Crescita dei ricavi di YOY                                      |
-|                        | Scostamento di trascinamento dei ricavi, YOY             | % Crescita dei ricavi di YOY                                    |
-|                        | Scostamento di vendita totale area del cliente    |                                                         |
-| Ricavi per ubicazione    | Rendita di vendita in base alla città                      |                                                         |
-|                        | % Crescita dei ricavi di YOY                       |                                                         |
-|                        | Rendita da vendite area                    |                                                         |
-| Redditività cliente | Margine lordo e ricavi, dal cliente   | Profitto lordo, margine lordo, crescita dei ricavi di YOY          |
-| Analisi redditività | Ricavi e profitto lordo mensili          |                                                         |
-|                        | Clienti principale del 15 per margine lordo           |                                                         |
-|                        | Profitto lordo mensili, YOY                 |                                                         |
+| **Pagina di report**        | **Grafici**                                 | **Riquadri**                                               |
+| Ricavi per cliente    | Primi 10 clienti in base ai ricavi                | Totale ricavi                                           |
+|                        | Totale ricavi per gruppo di clienti            | Crescita dei ricavi su base annua                                      |
+|                        | Media dei ricavi del cliente per gruppo di clienti | Margine lordo                                            |
+|                        | Ricavi e profitto lordo per gruppo di clienti   |                                                         |
+| Ricavi per prodotto     | Ricavi e profitto lordo per categoria di vendita   | \# totale di prodotti                                    |
+|                        | Primi 10 prodotti in base ai ricavi                 | Numero totale di prodotti attivi e percentuale del totale |
+|                        | Totale ricavi per categoria di vendita            | Numero di prodotti che rappresentano l'80% dei ricavi           |
+| Ricavi per periodo\*    | Ricavi al mese                           | Crescita dei ricavi su base annua                                      |
+|                        | Scostamento finale dei ricavi, su base annua             | % di crescita dei ricavi su base annua                                    |
+|                        | Scostamento totale delle vendite per regione del cliente    |                                                         |
+| Ricavi per ubicazione    | Ricavi di vendita per città                      |                                                         |
+|                        | % di crescita dei ricavi su base annua                       |                                                         |
+|                        | Ricavi di vendita per regione                    |                                                         |
+| Redditività del cliente | Margine lordo rispetto a ricavi, per cliente   | Profitto lordo, margine lordo, crescita dei ricavi su base annua          |
+| Analisi redditività | Ricavi e profitto lordo al mese          |                                                         |
+|                        | Primi 15 clienti per margine lordo           |                                                         |
+|                        | Profitto lordo al mese, su base annua                 |                                                         |
 
-ricavi\* questi e lo scorso anno e crescita per la categoria di vendita.
+\* Ricavi nell'anno corrente e nell'anno passato e crescita per categoria di vendita.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-Dynamics 365 per i dati delle operazioni viene utilizzato per popolare il report in Vendite e nel collo del contenuto delle prestazioni di redditività. Questo è rappresentata come misure aggregate che sono con stato Approntato nella memoria di entità, ovvero un database di Microsoft SQL ricerca per l'analisi dei dati. Legge più in blog [di Integrazione di Power BI al punto vendita dell'entità in Dynamics] (https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le misure aggregate in questo Service Pack sono contenuti il sottoinsieme delle misurazioni aggregate cui è già disponibili nel cubo di vendita in Dynamics AX 2012 e AX 2012 R3. Per impostare in scenae le misure del cubo aggregate nel punto vendita dell'entità è necessario renderli schierabili. Per ulteriori informazioni, vedere la procedura su come impostare in scenae le misurazioni aggregate nel punto vendita dell'entità in blog [di Integrazione di Power BI al punto vendita dell'entità in Dynamics] (https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le seguenti misure aggregate chiave di entità delle righe fattura vengono utilizzate come base del collo di contenuto.
+I dati di Dynamics 365 for Operations vengono utilizzati per compilare il report nel pacchetto di contenuti per le prestazioni di vendite e redditività. Questi dati sono rappresentati come misure aggregate che vengono collocate nell'Archivio entità, ovvero un database di Microsoft SQL ottimizzato per l'analisi. Ulteriori informazioni sono disponibili nel blog [Integrazione di Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le misure di aggregazione in questo pacchetto di contenuti sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Vendite in Dynamics AX 2012 e AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura su come rappresentare le misure di aggregazione nell'Archivio entità nel blog [Integrazione di Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le seguenti misure di aggregazione chiave dell'entità delle righe della fattura sono utilizzate come base del pacchetto di contenuti.
 
 |               |                                              |                                                 |                                              |                                          |
 |---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Entity**    | ** Misurazioni aggregate chiave **               | ** Origine dati per Dynamics 365 per le operazioni ** | **Field**                                    | **Description**                          |
-| Righe fattura | Ricavi                                      | CustInvoiceTrans                                | SUM (LineAmountMST)                           | Importo nella valuta di contabilizzazione            |
-|               | Costo del venduto                           | InventTrans                                     | SUM CostAmountPosted (+) CostAmountAdjustment | Importo di costo + rettifica                 |
-|               | Importo della provvigione in valuta di contabilizzazione | CustInvoiceTrans                                | SUM (CommissAmountMST)                        | Importo della provvigione nella valuta di contabilizzazione |
+| **Entità**    | **Misure di aggregazione chiave**               | **Origine dati per Dynamics 365 for Operations** | **Campo**                                    | **Descrizione**                          |
+| Righe fattura | Ricavi                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Importo nella valuta di contabilizzazione            |
+|               | Costo del venduto                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Importo costi + correzione                 |
+|               | Importo riga commissione - valuta di contabilizzazione | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Importo commissione nella valuta di contabilizzazione |
 
-Nella seguente tabella vengono illustrate le misurazioni aggregate chiave di entità delle righe fattura utilizzate per creare diverse misure calcolate nel set di dati del contenuto del collo.
+Nella tabella seguente vengono illustrate le misure di aggregazione chiave dell'entità delle righe della fattura utilizzate per creare diverse misure calcolate nel set di dati del pacchetto di contenuti.
 
 |                   |                                                                                                  |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Measure**       | ** Spese calcolate come **                                                                                |
-| Profitto lordo      | SUM ricavi - (COGS - imposta vendite con provvigione (inclusa nell'importo della riga di fattura cliente)          |
-| Margine lordo      | SUM (profitto lordo/(ricavi - (VAT inclusa nell'importo della riga di fattura cliente)( report)             |
-| Ricavi lo scorso anno | I ricavi lo scorso CALCOLANO = (SUM di ricavi (\]), SAMEPERIODLASTYEAR (data di lines'entity_PLACEHOLDER\]\ [\[di date) |
+| **Unità di misura**       | **Calcolato come**                                                                                |
+| Profitto lordo      | SUM(Ricavi - COGS - Commissione - IVA (inclusa nell'importo della riga fattura cliente))          |
+| Margine lordo      | SUM(Profitto lordo/(Ricavi - IVA (inclusa nell'importo della riga fattura cliente)))             |
+| Ricavi nell'anno passato | Ricavi nell'anno passato = CALCULATE(SUM('Righe fattura'\[Ricavi\]), SAMEPERIODLASTYEAR(Dates\[Data\]) |
 
-Nelle dimensioni chiave in ** cubo di vendita ** vengono utilizzate come filtri per affettare le misurazioni aggregate per ottenere una maggiore granularità e le comprensioni analitiche più contrassegnate.
+Le dimensioni chiave seguenti nel **cubo Vendite** vengono utilizzate come filtri per dividere le misure di aggregazione per ottenere una maggiore granularità e informazioni analitiche più approfondite.
 
 |                  |                                                      |
 |------------------|------------------------------------------------------|
-| **Entity**       | ** Esempi di attributi **                           |
-| Clienti        | Gruppi di clienti, il cliente, indirizzo, settore |
-| Prodotti         | Numero prodotto, nome prodotto, il nome di gruppi di articoli       |
-| Categorie di vendita | Nomi di categoria di vendita                                 |
-| Persone giuridiche   | Nomi di persona giuridica                                   |
+| **Entità**       | **Esempi di attributi**                           |
+| Clienti        | Gruppi di clienti, regioni dei clienti, indirizzo, settore |
+| Prodotti         | Numero prodotto, nome prodotto, nome dei gruppi di articoli       |
+| Categorie di vendita | Nomi di categorie di vendita                                 |
+| Persone giuridiche   | Nomi di persone giuridiche                                   |
 | Appuntamenti            | Appuntamenti                                                |
 
-Per impostazione predefinita, il collo di contenuto visualizzare i dati dell'anno di calendario corrente, ma è possibile aprire la sezione relativa ai filtri report e modificare il filtro dalla data. È inoltre possibile modificare il filtro dalla società.
+Per impostazione predefinita, il pacchetto di contenuti visualizza i dati dell'anno di calendario corrente, ma è possibile aprire la sezione relativa ai filtri di report e modificare il filtro della data. È inoltre possibile modificare il filtro della società.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 Di seguito sono riportati alcuni collegamenti utili correlati alle entità e alla creazione di contenuto per Power BI:

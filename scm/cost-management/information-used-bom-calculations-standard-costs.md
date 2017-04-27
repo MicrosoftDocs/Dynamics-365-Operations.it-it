@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bom-calculations-with-standard-costs"></a>Calcoli DBA con costi standard
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Nelle informazioni sull'articolo acquistato utilizzate in un calcolo DBA per i costi standard è incluso quanto segue:
@@ -78,6 +81,8 @@ Nelle informazioni sulla versione di determinazione costi utilizzate in un calco
 -   Costi da includere nel contenuto della versione di determinazione costi: nel contenuto devono essere inclusi i costi e facoltativamente i prezzi di vendita per calcolare i prezzi di vendita consigliati per gli articoli prodotti.
 
 È possibile specificare diverse fonti di informazioni quando si avvia un calcolo DBA, tra cui il sito, la data di calcolo e la versione di determinazione costi.
+
+
 
 
 

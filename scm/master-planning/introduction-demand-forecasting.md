@@ -1,6 +1,6 @@
 ---
-title: Panoramica di previsione della domanda
-description: La previsione della domanda viene utilizzata per prevedere la domanda indipendente da ordini cliente e la domanda dipendente in qualsiasi punto di disaccoppiamento per gli ordini cliente. Le regole avanzate di riduzione di previsione della domanda viene fornita una soluzione ideale per la personalizzazione di massa.
+title: Cenni preliminari sulla previsione della domanda
+description: La previsione della domanda viene utilizzata per prevedere la domanda indipendente da ordini cliente e la domanda dipendente in qualsiasi punto di disaccoppiamento per gli ordini cliente. Le regole avanzate di riduzione della previsione della domanda forniscono una soluzione ideale per la personalizzazione in massa.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="demand-forecasting-overview"></a>Panoramica di previsione della domanda
+# <a name="demand-forecasting-overview"></a>Cenni preliminari sulla previsione della domanda
 
-La previsione della domanda viene utilizzata per prevedere la domanda indipendente da ordini cliente e la domanda dipendente in qualsiasi punto di disaccoppiamento per gli ordini cliente. Le regole avanzate di riduzione di previsione della domanda viene fornita una soluzione ideale per la personalizzazione di massa.
+[!include[banner](../includes/banner.md)]
 
-Per generare la previsione di base, viene trasmesso un riepilogo delle transazioni storiche a un servizio Microsoft Azure Machine Learning ospitato in Azure. Poiché il servizio non è condiviso tra gli utenti, può essere facilmente personalizzato per soddisfare i requisiti di settore specifici. È possibile utilizzare Dynamics 365 per le operazioni corrente della previsione, per rettificare la previsione e visualizzare indicatori di prestazioni chiave (KPIs) sull'accuratezza programmata.
+
+La previsione della domanda viene utilizzata per prevedere la domanda indipendente da ordini cliente e la domanda dipendente in qualsiasi punto di disaccoppiamento per gli ordini cliente. Le regole avanzate di riduzione della previsione della domanda forniscono una soluzione ideale per la personalizzazione in massa.
+
+Per generare la previsione di base, viene trasmesso un riepilogo delle transazioni storiche a un servizio Microsoft Azure Machine Learning ospitato in Azure. Poiché il servizio non è condiviso tra gli utenti, può essere facilmente personalizzato per soddisfare i requisiti di settore specifici. È possibile utilizzare Dynamics 365 for Operations per visualizzare la previsione, modificarla e per visualizzare gli indicatori di prestazione chiave (KPI) relativi all'accuratezza di previsione.
 
 ## <a name="key-features-of-demand-forecasting"></a>Funzionalità principali della previsione della domanda
 Di seguito vengono descritte alcune delle funzionalità principali della previsione della domanda:
@@ -45,43 +48,45 @@ Di seguito vengono descritte alcune delle funzionalità principali della previsi
 ## <a name="major-themes-in-demand-forecasting"></a>Temi principali nella previsione della domanda
 Nella previsione della domanda sono implementati tre temi principali:
 
--   **Modularità**: la previsioni della domanda è modulare e facile da configurare. È possibile attivare la funzionalità delle operazioni e di inattività cambiando la chiave di configurazione Commercio ** ** &gt; ** al magazzino previste ** &gt; ** previsione della domanda **.
--   ** Se per il riutilizzo della pila Microsoft ** - Microsoft ha avviato la presentazione di apprendimento automatico nel febbraio 2015. In apprendimento automatico, che ora fa parte di serie dell'analisi dei dati di Microsoft Cortana, selezionare un modo semplice e rapido creazione di esperimenti premonitori di analisi, ad esempio esperimenti di stima della domanda, utilizzare gli algoritmi R o i linguaggi di programmazione di pitone e un'interfaccia semplice di trascinamento della selezione.
-    -   È possibile scaricare Dynamics 365 per gli esperimenti di previsione della domanda operazioni, modificarli per soddisfare i requisiti aziendali, pubblicare come servizio Web in azzurro e utilizzarli per generare previsioni della domanda. In esperimenti disponibili per il download se è stato acquistato Dynamics 365 per la sottoscrizione delle operazioni per un Pianificazione di produzione come utente del livello società.
-    -   È possibile scaricare uno degli esperimenti di previsione della domanda attualmente disponibili dalla [raccolta di analisi dei dati Cortana](https://gallery.cortanaanalytics.com/). Benché che Dynamics 365 per gli esperimenti di previsione della domanda delle operazioni viene eseguita automaticamente con Dynamics 365 per le operazioni, clienti e partner devono utilizzare l'integrazione di esperimenti che del [] raccolta dell'analisi dei dati di Cortana (https://gallery.cortanaanalytics.com/). Di conseguenza, il esperimenti [raccolta dell'analisi dei dati di Cortana] (https://gallery.cortanaanalytics.com/) non è diretto utilizzare come Dynamics 365 per gli esperimenti di previsione della domanda delle operazioni. È necessario modificare il codice di esperimenti in modo che utilizzino Dynamics 365 per Application Programming Interface (API) delle operazioni.
+-   **Modularità**: la previsioni della domanda è modulare e facile da configurare. È possibile attivare o disattivare la funzionalità modificando la chiave di configurazione in **Commercio** &gt; **Previsione di magazzino** &gt; **Previsione della domanda**.
+-   **Riutilizzo dello stack Microsoft**: nel febbraio 2015 Microsoft ha lanciato la piattaforma Machine Learning. Machine Learning, che ora fa parte di Analytics Suite di Microsoft Cortana, consente di creare in modo facile e rapido esperimenti di analisi predittive, ad esempio esperimenti di stima della domanda, tramite l'uso di algoritmi R o linguaggi di programmazione Python e una semplice interfaccia basata sul trascinamento della selezione.
+    -   È possibile scaricare gli esperimenti di previsione della domanda di Dynamics 365 for Operations, modificarli in base ai requisiti aziendali, pubblicarli come servizio Web in Azure e utilizzarli per generare previsioni della domanda. Gli esperimenti sono disponibili per il download se si dispone di una sottoscrizione di Dynamics 365 for Operations destinata a un responsabile di pianificazione come utente di livello di aziendale.
+    -   È possibile scaricare uno degli esperimenti di previsione della domanda attualmente disponibili dalla [raccolta di analisi dei dati Cortana](https://gallery.cortanaanalytics.com/). Mentre gli esperimenti di previsione della domanda di Dynamics 365 for Operations vengono automaticamente integrati in Dynamics 365 for Operations, l'integrazione degli esperimenti scaricati dalla [raccolta di analisi dei dati di Cortana](https://gallery.cortanaanalytics.com/) deve essere gestita dai clienti e dai partner. Di conseguenza, gli esperimenti della [raccolta di analisi dei dati di Cortana](https://gallery.cortanaanalytics.com/) non risultano immediati da utilizzare come gli esperimenti di previsione della domanda di Dynamics 365 for Operations. È necessario modificare il codice degli esperimenti in modo che utilizzino l'API di Dynamics 365 for Operations.
     -   È possibile creare esperimenti personalizzati Microsoft Azure Machine Learning Studio, pubblicarli come servizi in Azure e utilizzarli per generare le previsioni della domanda.
     -   Se non sono richieste prestazioni elevate, o l'elaborazione di una grade quantità di dati, è possibile utilizzare la versione di prova gratuita di Machine Learning. Si consiglia di iniziare sempre da questo livello, in particolare durante le fasi di test e implementazione. Se sono richieste prestazioni elevate e spazio di archiviazione aggiuntivo, è possibile utilizzare il livello standard di Machine Learning. Questo livello richiede una sottoscrizione di Azure e comporta costi aggiuntivi. Per dettagli sui prezzi di Machine Learning, vedere <http://aka.ms/machine-learning-price-info>.
--   ** Riduzione di previsione in qualsiasi punto di disaccoppiamento ** - previsione della domanda di Dynamics 365 per le configurazioni di operazioni su queste funzionalità, che consente di programmare sia il dipendente che la domanda indipendente da qualsiasi punto di disaccoppiamento.
+-   **Riduzione della previsione in qualsiasi punto di disaccoppiamento**: la previsione della domanda in Dynamics 365 for Operations è basata su questa funzionalità, che consente di prevedere la domanda dipendente e indipendente da qualsiasi punto di disaccoppiamento.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Flusso di base nella previsione della domanda
 Nel seguente diagramma viene visualizzato il flusso di base nella previsione della domanda. 
 
-[diagramma dell'introduzione di previsione della domanda![(]. /media/demand-forecasting-introduction.png)](. /media/demand-forecasting-introduction.png)
+[![diagramma di introduzione alla previsione della domanda](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-La generazione di previsione della domanda inizia in Dynamics 365 per le operazioni. I dati transazionali dello storico da Dynamics 365 per il database transazionale delle operazioni vengono raccolti e vengono immessi una tabella dell'organizzazione. In questa tabella dell'organizzazione successivamente viene immessa al servizio di apprendimento automatico. Realizzando la personalizzazione minima, è possibile inserire le varie origini dati della tabella dell'organizzazione. Le origini dati possono includere i file di Microsoft Excel, i valori separati da virgole di (CSV) di valore e dati di Microsoft Dynamics AX 2009 e da Microsoft Dynamics AX 2012. Di conseguenza, è possibile generare previsioni della domanda e vengono presi in considerazione i dati dello storico che sono sparsi tra i sistemi. Tuttavia, l'anagrafica, ad esempio i nomi degli articoli e le unità di misura, devono essere uguali tra le varie origini dati.
+La generazione della previsione della domanda inizia in Dynamics 365 for Operations. I dati transazionali storici del database transazionale di Dynamics 365 for Operations vengono raccolti e usati per popolare una tabella di gestione temporanea. Questa tabella viene successivamente immessa nel servizio di Machine Learning. Con una personalizzazione minima, è possibile inserire le varie origini dati nella tabella di gestione temporanea. Le origini dati possono includere file di Microsoft Excel, file CSV e dati di Microsoft Dynamics AX 2009 e di Microsoft Dynamics AX 2012. È di conseguenza possibile generare previsioni della domanda che considerino i dati storici che sono sparsi in più sistemi. Tuttavia, l'anagrafica, ad esempio i nomi degli articoli e le unità di misura, devono essere uguali tra le varie origini dati.
 
-Se si utilizza Dynamics 365 per gli esperimenti di apprendimento automatico di previsione della domanda delle operazioni, cercare il il migliore rettifica tra cinque metodi di previsioni di serie cronologiche per calcolare una previsione di base. I parametri di questi metodi di previsioni vengono gestiti in Dynamics 365 per le operazioni. 
+Se si utilizzano gli esperimenti di Machine Learning della previsione della domanda di Dynamics 365 for Operations, questi cercano il metodo più adatto tra i cinque metodi di previsione disponibili per calcolare una previsione di base. I parametri per i metodi di previsione vengono gestiti in Dynamics 365 for Operations. 
 
-Le previsioni, i dati dello storico e le eventuali modifiche apportate alle previsioni della domanda nelle precedenti non saranno quindi disponibili in Dynamics 365 per le operazioni. 
+Le previsioni, i dati storici e tutte le modifiche effettuate nelle previsioni della domanda in iterazioni precedenti sono quindi disponibili in Dynamics 365 for Operations. 
 
-È possibile utilizzare Dynamics 365 per le operazioni corrente e per modificare le previsioni di base. Le correzioni manuali devono essere autorizzate prima che le previsioni possano essere utilizzate per la programmazione.
+È possibile utilizzare Dynamics 365 for Operations per visualizzare e modificare le previsioni di base. Le correzioni manuali devono essere autorizzate prima che le previsioni possano essere utilizzate per la programmazione.
 
 ## <a name="limitations"></a>Limiti
-La previsione della domanda in Dynamics 365 per le operazioni è uno strumento che aiuti i clienti nel settore manufatturiera a creare i processi di previsioni. Offrono la funzionalità di base di una soluzione di previsione della domanda e vengono pianificati in modo che possa essere facilmente essere estesi. La previsione della domanda non sia il migliore rettifica per i clienti in settori ad esempio vendita al dettaglio, la vendita all'ingrosso, di immagazzinamento, il trasporto, o altri servizi professionali.
+La previsione della domanda in Dynamics 365 for Operations è uno strumento che consente ai clienti del settore manifatturiero di creare processi di previsione. Questo strumento offre le funzionalità di base di una soluzione di previsione della domanda ed è progettato in modo che possa essere facilmente esteso. La previsione della domanda potrebbe non essere la soluzione migliore per i clienti di settori come la vendita al dettaglio, la vendita all'ingrosso, l'immagazzinamento, il trasporto o altri servizi professionali.
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Demand forecasting setup](demand-forecasting-setup.md)
+[Impostazione della previsione della domanda](demand-forecasting-setup.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[Generazione di una previsione di base statistica](generate-statistical-baseline-forecast.md)
 
-[Making manual adjustments to the baseline forecast](manual-adjustments-baseline-forecast.md)
+[Implementazione di correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Autorizzazione della previsione rettificata](authorize-adjusted-forecast.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Monitoraggio della precisione previsione](monitor-forecast-accuracy.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Eliminare gli outlier dai dati di transazione storici quando si calcola una previsione della domanda](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

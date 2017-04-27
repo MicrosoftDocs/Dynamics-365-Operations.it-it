@@ -1,6 +1,6 @@
 ---
 title: Definizioni di registrazione
-description: L&quot;articolo prevede alcuni esempi relativi a l si utilizzano le definizioni di registrazione per gli impegni di spesa e le ripartizioni di budget dell&quot;ordine fornitore.
+description: L&quot;articolo offre alcuni esempi che mostrano come utilizzare le definizioni di registrazione per gli impegni di spesa di ordini fornitore e le ripartizioni di budget.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="posting-definition-examples"></a>Esempi delle definizioni di registrazione
+# <a name="posting-definition-examples"></a>Esempi di definizioni di registrazione
 
-L'articolo prevede alcuni esempi relativi a l si utilizzano le definizioni di registrazione per gli impegni di spesa e le ripartizioni di budget dell'ordine fornitore.
+[!include[banner](../includes/banner.md)]
+
+
+L'articolo offre alcuni esempi che mostrano come utilizzare le definizioni di registrazione per gli impegni di spesa di ordini fornitore e le ripartizioni di budget.
 
 Prima di leggere questo argomento, è consigliabile acquisire familiarità con le definizioni di registrazione e le definizioni di registrazione della transazione. Per ulteriori informazioni, vedere [Definizioni di registrazione](posting-definitions.md). Gli esempi seguenti possono essere impostati nella pagina **Definizioni di registrazione**. Ogni esempio contiene queste sezioni:
 
@@ -39,7 +42,7 @@ Prima di leggere questo argomento, è consigliabile acquisire familiarità con l
 
 In caso di corrispondenza tra i conti e i valori di dimensione nel riquadro **Associa criteri** per la definizione di registrazione e i conti e i valori di dimensione sulla transazione, vengono generate voci di contabilità generale basate sul riquadro **Voci generate** per la definizione di registrazione. 
 > [!NOTE]
-> Per associare una definizione di registrazione a un tipo di transazione, utilizzare ** definizioni di registrazione transazioni ** la pagina. Dopo aver associato una definizione di registrazione a un tipo di transazione e si seleziona ** definizioni di registrazione utilizzare ** ** parametri di contabilità generale ** nella pagina, tutte le transazioni del tipo selezionato devono utilizzare le definizioni di registrazione.
+> Per associare una definizione di registrazione a uno specifico tipo di transazione, utilizzare la pagina **Definizioni di registrazione transazioni**. Dopo aver associato una definizione di registrazione a un tipo di transazione e selezionato **Usa definizioni di registrazione** nella pagina **Parametri di contabilità generale**, tutte le transazioni del tipo selezionato devono utilizzare definizioni di registrazione.
 
 ## <a name="example-purchase-order-encumbrances"></a>Esempio: impegni di spesa ordini fornitore
 Quando si abilita l'elaborazione degli impegni di spesa selezionando **Abilita processo di impegno di spesa** nella pagina **Parametri di contabilità generale**, è necessario utilizzare le definizioni di registrazione per registrare gli impegni di spesa nella contabilità generale per tutti i conti che devono essere prenotati. Nella maggior parte dei casi, tutti i conti spese vengono prenotati sullo stato patrimoniale. 
@@ -80,7 +83,7 @@ Le voci di contabilità generale generate vengono create per registrare gli impe
 | 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
 | 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
 
-In questo esempio, qualsiasi conto fa parte di Struttura conti - profitti e perdite corrispondono ai criteri delle definizioni di registrazione. Pertanto, quando 606500-OU\_1-OU\_3566-Training viene valutato, le voci generate vengono create per i conti definiti ** voci generate ** nel riquadro per la definizione di registrazione.
+In questo esempio, qualsiasi conto fa parte di Struttura conti - profitti e perdite corrispondono ai criteri delle definizioni di registrazione. Pertanto, quando viene valutato 606500-OU\_1-OU\_3566-Training, le voci generate vengono create per i conti definiti nel riquadro **Voci generate** per la definizione di registrazione.
 
 ## <a name="example-budget-appropriations"></a>Esempio: Ripartizioni di budget
 Quando si abilita la ripartizione di budget selezionando **Abilita ripartizione budget** nella pagina **Parametri contabilità generale**, le definizioni di registrazione devono essere utilizzate per registrare le voci del registro di budget nella contabilità generale. Quando una configurazione del controllo del budget è attiva e abilitata, le definizioni di registrazione e le definizioni di registrazione delle transazioni possono essere utilizzate per sostenere la registrazione delle voci di ripartizione, revisione, trasferimento, progetto, cespite, e di previsione della domanda e dell'offerta nella contabilità generale. 
@@ -121,7 +124,9 @@ Le voci di contabilità generale generate vengono create per registrare il budge
 | 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
 | 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
-In questo esempio, qualsiasi conto fa parte di Struttura conti - profitti e perdite corrispondono ai criteri delle definizioni di registrazione. Pertanto, quando 606400-OU\_1-OU\_3566-Training viene valutato, le voci di contabilità generale generate vengono create.
+In questo esempio, qualsiasi conto fa parte di Struttura conti - profitti e perdite corrispondono ai criteri delle definizioni di registrazione. Pertanto, quando viene valutato 606400-OU\_1-OU\_3566-Training, vengono create le voci della contabilità generale generate.
+
+
 
 
 

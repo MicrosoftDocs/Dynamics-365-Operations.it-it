@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit"></a>Lettere di credito
 
+[!include[banner](../includes/banner.md)]
+
+
 Le lettere di credito sono documenti bancari utilizzati comunemente per la compravendita di merci tra paesi diversi. 
 
 Le lettere di credito vengono utilizzate nell'ambito delle transazioni internazionali come garanzia che i pagamenti verranno effettuati. Una lettere di credito è un contratto emesso da una banca, nel quale la banca acconsente a garantire un pagamento per conto dell'acquirente, qualora vengano osservati i termini del contratto tra l'acquirente e il venditore. Si noti che le lettere di credito vengono anche denominate crediti documentari (DC). 
@@ -41,5 +44,7 @@ Per una lettera di credito di importazione, la persona giuridica è l'acquirente
 La lettera di credito include una descrizione delle merci, eventuali documenti richiesti, la data di spedizione e la data di scadenza oltre la quale non verrà più effettuato il pagamento. La banca emittente raccoglie un margine per la lettere di credito. 
 
 Una lettera di credito può essere revocabile o irrevocabile. La natura di una lettera di credito può essere trasferibile, non trasferibile o rotativa. In genere, una lettera di credito è un contratto irrevocabile e confermato che il pagamento verrà effettuato a un beneficiario specifico al ricevimento di una documentazione di spedizione completa e accurata.
+
+
 
 

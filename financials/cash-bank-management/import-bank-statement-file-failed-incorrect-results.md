@@ -1,6 +1,6 @@
 ---
-title: Risoluzione per l&quot;importazione di file di rendiconto bancario
-description: "È importante che il file di rendiconto bancario dalla corrispondenza della banca il layout di Microsoft Dynamics 365 per le operazioni sono supportati. A causa dei rigorosi standard per i rendiconti bancari, la maggior parte delle integrazioni funzionerà correttamente. Tuttavia, talvolta il file di rendiconto non può essere importato o contiene risultati non corretti. In genere, questi ultimi problemi sono provocati da piccole differenze nel file di rendiconto bancario. In questo articolo viene descritto come risolvere tali differenze e risolvere i problemi."
+title: Risoluzione dei problemi di importazione di file di rendiconto bancario
+description: "È importante che il file di rendiconto bancario della banca corrisponda al layout supportato da Microsoft Dynamics 365 for Operations. A causa dei rigorosi standard per i rendiconti bancari, la maggior parte delle integrazioni funzionerà correttamente. Tuttavia, talvolta il file di rendiconto non può essere importato o contiene risultati non corretti. In genere, questi ultimi problemi sono provocati da piccole differenze nel file di rendiconto bancario. In questo articolo viene descritto come risolvere tali differenze e risolvere i problemi."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bank-statement-file-import-troubleshooting"></a>Risoluzione per l'importazione di file di rendiconto bancario
+# <a name="bank-statement-file-import-troubleshooting"></a>Risoluzione dei problemi di importazione di file di rendiconto bancario
 
-È importante che il file di rendiconto bancario dalla corrispondenza della banca il layout di Microsoft Dynamics 365 per le operazioni sono supportati. A causa dei rigorosi standard per i rendiconti bancari, la maggior parte delle integrazioni funzionerà correttamente. Tuttavia, talvolta il file di rendiconto non può essere importato o contiene risultati non corretti. In genere, questi ultimi problemi sono provocati da piccole differenze nel file di rendiconto bancario. In questo articolo viene descritto come risolvere tali differenze e risolvere i problemi.
+[!include[banner](../includes/banner.md)]
+
+
+È importante che il file di rendiconto bancario della banca corrisponda al layout supportato da Microsoft Dynamics 365 for Operations. A causa dei rigorosi standard per i rendiconti bancari, la maggior parte delle integrazioni funzionerà correttamente. Tuttavia, talvolta il file di rendiconto non può essere importato o contiene risultati non corretti. In genere, questi ultimi problemi sono provocati da piccole differenze nel file di rendiconto bancario. In questo articolo viene descritto come risolvere tali differenze e risolvere i problemi.
 
 <a name="what-is-the-error"></a>Qual è l'errore?
 ------------------
@@ -34,16 +37,16 @@ ms.lasthandoff: 03/31/2017
 Dopo aver tentato di importare un file di rendiconto bancario, passare allo storici processi della gestione dati e ai dettagli di esecuzione per individuare l'errore. L'errore potrà aiutare a indicare il rendiconto, il saldo o la riga del rendiconto. Tuttavia, è improbabile che tali informazioni siano sufficienti per identificare il campo o l'elemento che causa il problema.
 
 ## <a name="what-are-the-differences"></a>Quali sono le differenze?
-Confrontare la definizione del layout di file bancari a Microsoft Dynamics 365 per la definizione di importazione delle operazioni e osservare tutte le differenze nei campi e le voci. Confrontare il file di rendiconto bancario correlato a campione Dynamics 365 per il file delle operazioni. Nei file ISO20022, tutte le differenze devono essere semplice da visualizzare.
+Confrontare la definizione del layout del file bancario con la definizione di importazione di Microsoft Dynamics 365 for Operations e osservare tutte le differenze nei campi e gli elementi. Confrontare il file di rendiconto bancario al file di esempio di Dynamics 365 for Operations correlato. Nei file ISO20022, tutte le differenze dovrebbero essere semplici da visualizzare.
 
 ## <a name="transformations"></a>Trasformazioni
 In genere, la modifica deve essere eseguita in una delle tre trasformazioni. Ogni trasformazione viene scritta per uno specifico standard.
 
 | Nome risorsa                                         | Nome file                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_BAI2CSV xslt\_a\_BAI2XML\_            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_ISO20022XML xslt\_a\_di riconciliazione\_ | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_MT940TXT xslt\_a\_MT940XML\_          | MT940TXT-to-MT940XML.xslt          |
+| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
+| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
+| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
 
 ## <a name="debugging-transformations"></a>Debug delle trasformazioni
 ### <a name="adjust-the-bai2-and-mt940-files"></a>Modificare i file BAI2 e MT940
@@ -68,7 +71,7 @@ Per ulteriori informazioni, vedere <https://msdn.microsoft.com/en-us/library/ms2
 5.  Impostare l'input sul percorso del file di rendiconto bancario.
 6.  Definire un percorso il nome file per l'output.
 7.  Impostare i punti di interruzione necessari.
-8.  Nel menu, fare clic su XML ** ** &gt; ** avviare la ricerca degli errori XSLT **.
+8.  Nel menu fare clic su **XML** &gt; **Avvia debug XSLT**.
 
 ### <a name="format-the-xslt-output"></a>Formattare l'output XSLT
 
@@ -76,7 +79,7 @@ Quando la trasformazione viene eseguita, creare un file di output da visualizzar
 
 ### <a name="adjust-the-transformation"></a>Modificare la trasformazione
 
-Modificare la trasformazione per ottenere il campo o l'elemento appropriato nel file di rendiconto bancario. In base a un campo o elemento in Dynamics 365 appropriato per l'elemento delle operazioni.
+Modificare la trasformazione per ottenere il campo o l'elemento appropriato nel file di rendiconto bancario. Quindi mappare il campo o l'elemento all'elemento appropriato di Dynamics 365 for Operations.
 
 ### <a name="debitcredit-indicator"></a>Indicatore Dare/Avere
 
@@ -87,7 +90,7 @@ Talvolta, importi Dare potrebbero essere importati come voci Avere e viceversa. 
 -   Modello MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Esempi di formati di rendiconto bancario e di layout tecnici
-Nella tabella seguente vengono elencati esempi di definizioni di layout tecnici per file di importazione di riconciliazione bancaria e tre file di esempio di rendiconti bancari correlati. È possibile scaricare i file di esempio e layout di seguito: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Nella tabella seguente vengono elencati esempi di definizioni di layout tecnici per file di importazione di riconciliazione bancaria e tre file di esempio di rendiconti bancari correlati. È possibile scaricare i file di esempio e i layout tecnici a questo indirizzo: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Definizione di layout tecnico                             | File di esempio di rendiconto bancario          |
@@ -95,6 +98,8 @@ Nella tabella seguente vengono elencati esempi di definizioni di layout tecnici 
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

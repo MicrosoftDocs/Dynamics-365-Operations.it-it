@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Visualizza report finanziari
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics AX. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
 
 <a name="financial-reporting-overview"></a>Panoramica sui report finanziari
@@ -48,7 +51,7 @@ Se i dati sono dati del budget, è possibile scegliere di aprire le voci contabi
 
 -   Per modificare il periodo base e l'anno base di un report, selezionare un periodo base e un anno base, quindi fare clic su **OK**.
 -   Per applicare filtri di attributi a un report, selezionare **Aggiungere un filtro attributi**. Selezionare il tipo di attributo, immettere il valore attributo, quindi fare clic su **OK**. Ad esempio, se si seleziona l'attributo **Categoria conti**, immettere **VENDITE** come valore di attributo. Per rimuovere un filtro di attributo, fare clic su **Cancella**.
--   Per applicare filtri di dimensioni a un report, selezionare ** aggiungere un filtro dimensioni **. Selezionare la dimensione e quindi di qualsiasi tipo ID dimensione o selezionare la dimensione nell'elenco. Per rimuovere un filtro dimensione, fare clic su **Cancella**.
+-   Per applicare filtri di dimensioni a un report,  selezionare **Aggiungere un filtro dimensioni**. Selezionare la dimensione e quindi digitare l'ID dimensione o selezionare la dimensione nell'elenco. Per rimuovere un filtro dimensione, fare clic su **Cancella**.
 -   Per modificare lo scenario su un report **Effettivi rispetto al budget**, selezionare un nuovo scenario, quindi fare clic su **OK**. Se lo scenario selezionato è relativo a un anno diverso, assicurarsi di aggiornare l'anno di base. Ad esempio, se lo scenario corrente è per l'anno fiscale 2015 e si seleziona un nuovo scenario che è per l'anno fiscale 2016, si dovrà modificare l'anno base su **2016**.
 
 Quando si fa clic su **OK**, tutte le opzioni selezionate sono applicate al report. Se si decide che non si desidera applicare le opzioni selezionate, fare clic su **Annulla**.
@@ -66,7 +69,7 @@ Un report finanziario può essere visualizzato in qualsiasi valuta in qualsiasi 
 Un report finanziario può contenere le righe di dettaglio e le righe riepilogative. Le righe di dettaglio sono righe contenenti i conti principali o le dimensioni. Le righe riepilogative sono descrizione, totale e righe di calcolo. Per visualizzare solo le righe riepilogative di un report, fare clic su **Mostra**, quindi su **Solo righe di riepilogo**. Il report viene compresso e visualizza solo le righe riepilogative. Per visualizzare le righe di dettaglio insieme alle righe di riepilogo, fare clic su **Mostra**, quindi di nuovo su **Solo righe di riepilogo**.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Aprire un report finanziario di un mese precedente
-È possibile visualizzare i report per il mese corrente o i mesi precedenti senza rigenerare il report. Per aprire il report per un mese precedente, fare clic su l ** ** quindi fare clic su ** report ** precedenti. Elenco dei mese precedenti che il report viene generato per visualizzato. Espandere il mese di cui visualizzare il report, selezionare la data, quindi fare clic su **OK**. Viene visualizzato il report per il mese precedente. Per tornare al report del mese corrente, fare clic su **Annulla**.
+È possibile visualizzare i report per il mese corrente o i mesi precedenti senza rigenerare il report. Per aprire il report per un mese precedente, fare clic su **Mostra** quindi fare clic su **Report precedenti**. Un elenco dei mese precedenti per cui il report viene generato viene visualizzato. Espandere il mese di cui visualizzare il report, selezionare la data, quindi fare clic su **OK**. Viene visualizzato il report per il mese precedente. Per tornare al report del mese corrente, fare clic su **Annulla**.
 
 ## <a name="print-a-financial-report"></a>Stampare un report finanziario
 Per stampare un report finanziario, nel Riquadro azioni fare clic su **Stampa**, quindi completare uno o più dei passaggi riportati di seguito per impostare le opzioni di stampa:
@@ -85,5 +88,7 @@ Per esportare un report finanziario, nel Riquadro azioni fare clic su **Esporta*
 --------
 
 [Report finanziari per Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

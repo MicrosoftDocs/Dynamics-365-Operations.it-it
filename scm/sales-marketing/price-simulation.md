@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-simulation"></a>Simulazione prezzo
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono fornite informazioni sulla simulazione di prezzo per le offerte. La simulazione di prezzo consente di valutare l'effetto delle detrazioni sul prezzo di vendita futuro durante il processo di offerta, prima di stabilire un prezzo specifico.
 
 In una simulazione di prezzo per un'offerta viene mostrato il nuovo importo totale in base a un nuovo prezzo proposto. È inoltre possibile visualizzare un nuovo importo per una riga specifica, creato per un'offerta già esistente. È possibile inserire una simulazione di prezzo e applicarla in un secondo momento. In alternativa, è possibile utilizzare l'offerta originale, senza alcuna simulazione di prezzo, apportandovi ulteriori modifiche durante il processo di vendita in collaborazione con il cliente.  
@@ -50,7 +53,7 @@ Per assicurarsi che gli sconti e i prezzi vengano calcolati correttamente, prest
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Tipi di sconti negli accordi commerciali
 
-Gli accordi commerciali in Microsoft Dynamics 365 per le operazioni sono previsti quattro tipi di sconti sui prezzi. Tali sconti possono essere impostati per articoli, clienti o gruppi di prezzi diversi e possono avere un'applicazione limitata in base alla data. Per evitare calcoli errati, durante il processo di simulazione del prezzo è necessario considerare gli accordi commerciali. I quattro tipi di sconti previsti negli accordi commerciali sono i seguenti:
+Per gli accordi commerciali in Microsoft Dynamics 365 for Operations sono previsti quattro tipi di sconti sui prezzi. Tali sconti possono essere impostati per articoli, clienti o gruppi di prezzi diversi e possono avere un'applicazione limitata in base alla data. Per evitare calcoli errati, durante il processo di simulazione del prezzo è necessario considerare gli accordi commerciali. I quattro tipi di sconti previsti negli accordi commerciali sono i seguenti:
 
 -   **Prezzo di vendita**è possibile specificare prezzi di vendita distinti per gli articoli. Quando vengono create le righe dell'offerta, il programma cerca il prezzo di vendita corretto per un articolo e lo trasferisce nelle righe dell'offerta. Questo tipo di sconto negli accordi commerciali non influisce pertanto sul processo di simulazione del prezzo. Il prezzo di vendita utilizzato nella riga dell'offerta riflette l'accordo commerciale.
 -   **Sconto riga**: a seconda della quantità ordinata, vengono specificati sconti speciali per gli articoli. Gli importi riga in genere vengono ridotti dello sconto riga prima che venga eseguita una simulazione del prezzo. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.
@@ -141,5 +144,7 @@ Eseguire una simulazione di prezzo e applicare uno sconto totale del 10% alle un
 | Nuovo rapporto di contribuzione totale                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38,93%   |
 
 La simulazione del prezzo ha effetto solo sulla riga a cui viene applicata e riduce il totale relativo a tale riga.
+
+
 
 

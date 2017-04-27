@@ -28,13 +28,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="build-a-product-configuration-model"></a>Creare un modello di configurazione prodotto
 
+[!include[banner](../includes/banner.md)]
+
+
 La necessità di configurare i prodotti per soddisfare requisiti speciali sta diventando la regola anziché l'eccezione, sia nelle relazioni tra aziende che nelle relazioni tra azienda e utente.
 
 Un produttore che supporta scenari di configurazione su ordine ha l'opportunità di soddisfare con più attenzione le esigenze del cliente. Inoltre, immagazzinando le merci semilavorate sotto forma di componenti generici anziché di prodotti finiti, il produttore può limitare il capitale che è legato al magazzino.  
 
 Un passaggio efficace da un'impostazione da produzione a magazzino a una di configurazione su ordine richiede un'attenta analisi delle strutture dei prodotti, l'identificazione delle famiglie di prodotti e la componentizzazione. Per ridurre il numero di parti e ridurre al minimo il numero di beni coinvolti nel processo, è molto importante capire le interfacce dei prodotti che si progettano per la riutilizzabilità.  
 
-Ci sono numerosi principi relativi alla modellazione della configurazione prodotti, ad esempio la modellizzazione in base alle regole, alle dimensioni e ai vincoli. Alcuni studi dimostrano che la metodologia basata sui vincoli può praticamente dimezzare il numero di righe di codice rispetto ad altri principi di modellazione. Di conseguenza, questa metodologia può ridurre il costo totale di proprietà (TCO). Muovendoti da un modello basata su regole in base al codice X++ a un modello basato su vincoli, più non sono necessarie una licenza di sviluppo per gestire i modelli prodotto.
+Ci sono numerosi principi relativi alla modellazione della configurazione prodotti, ad esempio la modellizzazione in base alle regole, alle dimensioni e ai vincoli. Alcuni studi dimostrano che la metodologia basata sui vincoli può praticamente dimezzare il numero di righe di codice rispetto ad altri principi di modellazione. Di conseguenza, questa metodologia può ridurre il costo totale di proprietà (TCO). Con il passaggio da un modello basato su regole, che si basa su codice X++, a un modello basato su vincoli, non è più necessario disporre di una licenza per sviluppatori per gestire i modelli prodotto.
 
 ## <a name="product-configuration"></a>Configurazione prodotto
 Il periodo di industrializzazione ha portato a grandi i risultati nella realizzazione di prodotti completi, di alta qualità e dai prezzi accessibili. Le economie di scala hanno permesso alla maggioranza delle persone del mondo industrializzato di acquistare automobili, TV, elettrodomestici e altri beni che la maggior parte di noi considera essenziali nella vita quotidiana.  
@@ -64,11 +67,11 @@ L'utilizzo di un modello di configurazione prodotto basato su vincoli implica la
 
 ### <a name="table-constraints"></a>Vincoli di tabella
 
-I vincoli di tabella possono essere definiti dall'utente o dal sistema sono stati definiti.  
+I vincoli di tabella possono essere definiti dall'utente o dal sistema.  
 
 Un vincolo di tabella definito dall'utente è creato dall'utente. L'utente seleziona una combinazione di tipi di attributo per rappresentare le colonne della tabella e immette i valori dai domini dei tipi di attributo selezionati per creare le righe nel vincolo di tabella.  
 
-Un vincolo definito dal sistema della tabella è specificato selezionando di Microsoft Dynamics 365 per operazioni di tabella da utilizzare come riferimento e quindi campi selezionare la tabella per formare le colonne nel vincolo. Le righe del vincolo della tabella sono le righe di Dynamics 365 della tabella di operazioni che sono presenti all'ora di configurazione.  
+Un vincolo di tabella definito dal sistema viene definito selezionando la tabella di Microsoft Dynamics 365 for Operations da utilizzare come riferimento e quindi selezionando i campi dalla tabella per creare le colonne nel vincolo. Le righe del vincolo di tabella sono le righe della tabella di Dynamics 365 for Operations che sono presenti al momento della configurazione.  
 
 Un vincolo di tabella viene incluso in un modello di configurazione prodotto facendo riferimento alla definizione del vincolo di tabella ed eseguendo il mapping degli attributi appropriati nel modello alle colonne del vincolo di tabella.
 
@@ -103,7 +106,7 @@ Infine, è possibile eseguire la convalida di un modello di configurazione prodo
 
 ### <a name="testing"></a>Test
 
-Verificare un modello è simile a eseguire una sessione di configurazione effettiva. L'utente può camminare tra le pagine di configurazione e verificare che la struttura di modelli supporta il processo di configurazione. L'utente può verificare che i valori di attributo siano corretti e che le descrizioni di attributo lo guidino alla selezione dei valori corretti. Infine, una volta completata la sessione di test, il sistema tenta di creare la DBA e il ciclo di lavorazione che corrisponde ai valori degli attributi selezionati e visualizza un messaggio nel momento in cui si verifica un errore.
+Il test di un modello è simile a eseguire una sessione di configurazione effettiva. L'utente può procedere nelle pagine di configurazione e verificare che la struttura del modello supporta il processo di configurazione. L'utente può verificare che i valori di attributo siano corretti e che le descrizioni di attributo lo guidino alla selezione dei valori corretti. Infine, una volta completata la sessione di test, il sistema tenta di creare la DBA e il ciclo di lavorazione che corrisponde ai valori degli attributi selezionati e visualizza un messaggio nel momento in cui si verifica un errore.
 
 ### <a name="the-configuration-page"></a>Pagina di configurazione
 
@@ -129,17 +132,17 @@ Se il prodotto verrà venduto in altri paesi, è possibile inserire le traduzion
 L'ultimo passaggio, e il più importante, nel processo di completamento consiste nel creare una versione del modello di configurazione prodotto. La versione rappresenta la relazione tra la rappresentazione generale prodotto, che può essere selezionata per la configurazione su un ordine o in una riga di offerta, e il modello di configurazione prodotto. Per essere utilizzata in una sessione di configurazione, la versione deve essere prima approvata e attivata.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Estensione di un modello di configurazione prodotto nell'API
-È stata implementata un'API dedicata affinché i partner e altri che dispongono di una licenza per sviluppatori possano estendere le funzionalità di un modello di configurazione prodotto. Lo scopo principale è stato di definire un meccanismo che consente partner e clienti che utilizzano il Configuratore prodotto esistente migrati il codice incluso nei modelli di Configuratore prodotto all'API. In questo modo, possono eseguire la migrazione dei modelli dal Configuratore prodotti a una configurazione prodotto. Tuttavia, i nuovi partner e i nuovi clienti possono inoltre beneficiare dell'utilizzo dell'API per estendere nuovi modelli di configurazione prodotto.
+È stata implementata un'API dedicata affinché i partner e altri che dispongono di una licenza per sviluppatori possano estendere le funzionalità di un modello di configurazione prodotto. L'obiettivo principale è stato quello di stabilire un meccanismo che consente ai partner e ai clienti che utilizzano il Configuratore prodotti esistente di eseguire la migrazione del codice integrato nei modelli del Configuratore prodotti verso l'API. In questo modo, possono eseguire la migrazione dei modelli dal Configuratore prodotti a una configurazione prodotto. Tuttavia, i nuovi partner e i nuovi clienti possono inoltre beneficiare dell'utilizzo dell'API per estendere nuovi modelli di configurazione prodotto.
 
 ### <a name="pcadaptor-class"></a>Classe PCAdaptor
 
-L'API è implementata utilizzando un set di classi **PCAdaptor** che espongono la struttura dati dei modelli di configurazione prodotto. Istanza ** PCAdaptor ** della classe deve essere creata per ciascun modello che verrà esteso. Dopo che una sessione di configurazione viene completata, le verifiche di sistema per un'istanza di questi classe e cicli l'uso.  
+L'API è implementata utilizzando un set di classi **PCAdaptor** che espongono la struttura dati dei modelli di configurazione prodotto. Un'istanza della classe **PCAdaptor** deve essere creata per ciascun modello che verrà esteso. Dopo che una sessione di configurazione viene completata, il sistema verifica la presenza di un'istanza di questa classe e la esegue se la trova.  
 
 Nel seguente diagramma di flusso viene illustrato il processo.  
 
-[organigramma![(]. /media/product_configuration_2.png)](. /media/product_configuration_2.png)  
+[![Diagramma di flusso](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Organigramma API DDE configurazione prodotto
+Diagramma di flusso dell'API di configurazione prodotto
 
 ## <a name="product-configuration"></a>Configurazione prodotto
 La configurazione prodotto può essere eseguita dalle seguenti aree:
@@ -155,5 +158,7 @@ Lo scopo di configurazione è di creare una variante distinta del prodotto che s
 ### <a name="multiple-sites-and-intercompany"></a>Più siti e interaziendale
 
 Se la configurazione viene effettuata presso un sito, o una società, diverso dal sito, o dalla società, in cui avviene la produzione, la DBA e il ciclo di lavorazione verranno creati e inseriti presso il sito del fornitore nella società fornitrice. La variante prodotto verrà rilasciata a tutte le società che partecipano alla supply chain.
+
+
 
 

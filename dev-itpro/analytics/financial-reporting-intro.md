@@ -85,6 +85,6 @@ Per ulteriori informazioni, vedere la sezione "Componenti interattivi e funziona
 
 #<a name="see-also"></a>Vedere anche
 
-[Generare un report finanziario] (dynamics365 (\ \ operazioni dati finanziari \ \ contabilità generale generare-dato finanziario- report)
+[Generare un report finanziario]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

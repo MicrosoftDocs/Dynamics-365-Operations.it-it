@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="release-production-orders"></a>Rilasciare gli ordini di produzione
 
+[!include[banner](../includes/banner.md)]
+
+
 Un ordine di produzione rilasciato è un ordine che è stato autorizzato per la produzione. Il termine Rilasciato viene utilizzato per descrivere uno stato del ciclo di vita dell'ordine di produzione, quando l'ordine di produzione è disponibile per l'esecuzione nello shop floor di produzione e per i processi di magazzino. 
 
 <a name="characteristics-of-the-released-state"></a>Caratteristiche dello stato Rilasciato
@@ -42,7 +45,7 @@ Lo stato **Rilasciato** è uno stato del ciclo di vita dell'ordine di produzione
 -   Per i materiali che vengono prenotati fisicamente, viene generato lavoro di magazzino per prelevare materiali per l'ordine di produzione.
 
 ## <a name="releasing-jobs-to-the-shop-floor"></a>Rilascio dei processi nel reparto produzione
-Dopo che un ordine di produzione viene rilasciato, i processi di produzione correlati all'ordine sono visibili e pronti per la registrazione. Gli operatori possono effettuare le registrazioni dei processi, ad esempio l'avvio, l'interruzione e il completamento, ** terminale di registrazione schede processi ** nella pagina ** unità o schede processi ** la pagina. Le informazioni orarie registrate e la quantità verranno trasferite automaticamente nelle pagine di registrazione nei giornali di registrazione produzione per tenere traccia del tempo e della quantità consumati.
+Dopo che un ordine di produzione viene rilasciato, i processi di produzione correlati all'ordine sono visibili e pronti per la registrazione. Gli operatori possono effettuare le registrazioni dei processi, ad esempio l'avvio, l'interruzione e il completamento, nella pagina **Terminale schede processi** o nella pagina **Dispositivo schede processo**. Le informazioni su ora e quantità registrate verranno trasferite automaticamente dalle pagine di registrazione ai giornali di registrazione produzione per tenere traccia del tempo e della quantità consumati.
 
 ## <a name="route-cards"></a>Schede del ciclo di lavorazione
 Una scheda ciclo di lavorazione fornisce una panoramica delle informazioni di impostazione del ciclo di lavorazione e delle operazioni e dei metodi di programmazione delle operazioni e dei processi.
@@ -54,11 +57,13 @@ Un processo del ciclo di lavorazione elenca ciascun processo di un'operazione in
 In una scheda processo sono elencati i singoli processi di una particolare operazione. Viene visualizzato un processo per pagina. I processi inclusi in una scheda processi e i relativi tempi stimati derivano dalle informazioni di impostazione dei cicli di lavorazione e delle operazioni. In una scheda processo, è possibile aprire **Righe giornale di registrazione produzione**, **scheda processo**. Il responsabile delle risorse operative fornisce un riscontro sul processo di produzione. In alcuni campi è possibile immettere le statistiche sui consumi e informazioni quali la quantità difettosa.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Lavoro di magazzino per il prelievo di materie prime
-Il lavoro per il prelievo delle materie prime viene generato durante il rilascio. Il lavoro viene generato solo per la quantità di materiale fisicamente prenotata per l'ordine di produzione prima che l'ordine è stato rilasciato. Nella seguente impostazione è necessaria per generare il lavoro del magazzino di prelievo di materie prime:
+Il lavoro per il prelievo delle materie prime viene generato durante il rilascio. Il lavoro viene generato solo per la quantità di materiale fisicamente prenotata per l'ordine di produzione prima che l'ordine è stato rilasciato. La seguente impostazione è necessaria per generare il lavoro del magazzino per il prelievo di materie prime:
 
 -   Una direttiva di ubicazione per il prelievo delle materie prime che determina l'ubicazione di magazzino da cui prelevare i materiali
 -   Un modello di ondata per le materie prime, in cui sono configurati i criteri per l'esecuzione di lavoro di magazzino
 -   Un'ubicazione di entrata produzione che determina l'ubicazione in cui stoccare i materiali
+
+
 
 
 

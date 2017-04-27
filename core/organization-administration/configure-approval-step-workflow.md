@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Configurare un passaggio di approvazione in un flusso di lavoro
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento viene descritto come configurare le proprietà per un passaggio del processo di approvazione.
 
 Per configurare un passaggio di approvazione, nell'editor flusso di lavoro fare clic con il pulsante destro del mouse sul passaggio di approvazione, quindi scegliere **Proprietà** per aprire la pagina **Proprietà**. Per configurare le proprietà del passaggio di approvazione, attenersi alle procedure indicate di seguito.
@@ -124,10 +127,10 @@ Per specificare gli utenti a cui assegnare il passaggio del processo di approvaz
     </tr>
     <tr class="even">
     <td>Utente</td>
-    <td>Microsoft Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Microsoft Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong> Nell'elenco sono inclusi l'eventuale Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui assegnare il passaggio, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui assegnare il passaggio, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +232,10 @@ Se un utente non esegue un'azione su un documento nel tempo prestabilito, il doc
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong> Nell'elenco sono inclusi l'eventuale Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui riassegnare il documento, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui riassegnare il documento, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ Se un utente non esegue un'azione su un documento nel tempo prestabilito, il doc
 
 5.  Ripetere i passaggi da 3 a 4 per ogni utente che si desidera aggiungere al percorso di riassegnazione. È possibile modificare l'ordine degli utenti.
 6.  Se gli utenti nel percorso di riassegnazione non inviano una risposta nel tempo prestabilito, verrà automaticamente eseguita un'azione sul documento dal sistema. Per specificare l'azione presa dal sistema, selezionare la riga **Azione**, quindi nella scheda **Termina azione** selezionare un'opzione.
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Impostare tassi d'interesse per un codice interessi
 
+[!include[banner](../includes/banner.md)]
+
+
 I codici interessi contengono le impostazioni che determinano quando gli interessi vengono addebitati e come vengono calcolati nei conti scaduti.
 
 È possibile impostare un singolo codice interessi e applicarlo a più profili di registrazione cliente, codici di fatturazione o righe specifiche della fattura. Quando i dettagli del codice interessi vengono modificati, tutte le funzionalità che utilizzano il codice implementeranno automaticamente le modifiche nelle nuove transazioni. Per ogni codice interessi, è possibile impostare due tipi di tassi:
@@ -44,17 +47,17 @@ Quando si utilizza un codice interessi per calcolare gli interessi, viene creata
 
 -   L'importo degli interessi si applica a tutte le valute.
 -   È possibile immettere limiti per l'importo interessi facoltativi.
--   ** Percentuale ** è selezionato ** ** in ** calcolare gli interessi basato su sistemi ** ** impostano i codici interessi ** pagina.
+-   **Percentuale** è selezionato  nel campo **Calcola interessi in base a** nella pagina **Imposta codici interessi**.
 
-Ad esempio, per impostare un codice interessi che valutano il 5 degli interessi per ogni due mesi che il pagamento della fattura supera la scadenza della transazione, è imposterebbe 2 in ** calcolare gli interessi vengono calcolati ogni ** sistema e selezionare ** ** mese.
+Ad esempio, per impostare un codice interessi che valuta un interesse del 5% per ogni due mesi in cui il pagamento della fattura supera la data di scadenza della transazione, immettere 2 nel campo **Calcola interessi ogni** quindi selezionare **Mese**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Tassi d'interesse in base agli importi
 È possibile impostare tassi d'interesse che calcolano una quantità specificata per valuta.
 -   Un importo interessi è specificato per ciascuna valuta relativa al codice interessi.
 -   È possibile immettere limiti per l'importo interessi facoltativi.
--   ** Importo ** è selezionato in ** calcolare gli interessi basato su sistemi ** ** impostano i codici interessi ** pagina.
+-   **Importo** è selezionato nel campo **Calcola interessi in base** a nella pagina **Imposta codici interessi**.
 
-Ad esempio, per impostare un codice interessi che valutano un tasso di interessi pari a 25.00 per ogni 20 giorni per il pagamento della fattura supera la scadenza della transazione, è imposterebbe 20 in ** calcolare gli interessi vengono calcolati ogni ** sistema e selezionare ** ** giorno.
+Ad esempio, per impostare un codice interessi che valuta un interesse pari a 25,00 per ogni 20 giorni in cui il pagamento della fattura supera la data di scadenza della transazione, immettere 20 nel campo **Calcola interessi ogni** e selezionare **Giorno**.
 
 ## <a name="interest-rates-based-on-ranges"></a>Tassi d'interesse in base agli intervalli
 È possibile impostare tassi d'interesse che variano a seconda dell'importo scaduto e del numero di giorni o mesi accumulati dalla scadenza della fattura.
@@ -67,13 +70,13 @@ Si imposta un codice interessi che valuta gli interessi una volta per ogni tre m
 | **Nome campo**                  | **Valore campo** |
 |---------------------------------|-----------------|
 | **Codice interessi**               | 3M%ByAmt        |
-| **Calcola interessi ogni**    | 3/Month         |
+| **Calcola interessi ogni**    | 3/Mese         |
 | **Interessi in base a intervallo**           | Importo          |
 | **Calcola interessi in base a** | Percentuale      |
 
 Le informazioni sull'intervallo vengono impostate nel modo indicato di seguito.
 
-| **From value** | **Interest value** |
+| **Dal valore** | **Valore interessi** |
 |----------------|--------------------|
 | 0              | 1                  |
 | 1,001          | 2                  |
@@ -94,7 +97,7 @@ Si imposta un codice interessi che valuta gli interessi una volta per ogni 15 gi
 
 Le informazioni sull'intervallo vengono impostate nel modo indicato di seguito.
 
-| **From value** | **Interest value** |
+| **Dal valore** | **Valore interessi** |
 |----------------|--------------------|
 | 0              | 10                 |
 | 61             | 15                 |
@@ -109,21 +112,23 @@ Si imposta un codice interessi che valuta gli interessi una volta per ogni mese 
 | **Nome campo**                  | **Valore campo** |
 |---------------------------------|-----------------|
 | **Codice interessi**               | 1M%ByMth        |
-| **Calcola interessi ogni**    | 1/Month         |
+| **Calcola interessi ogni**    | 1/Mese         |
 | **Interessi in base a intervallo**           | Mesi          |
 | **Calcola interessi in base a** | Percentuale      |
 
 Le informazioni sull'intervallo vengono impostate nel modo indicato di seguito.
 
-| **From value** | **Interest value** |
+| **Dal valore** | **Valore interessi** |
 |----------------|--------------------|
 | 0              | 1.5                |
 | 4              | 2                  |
 | 7              | 2,5                |
 
-## <a name="new-versions"></a>Funzionalità nuove versioni
+## <a name="new-versions"></a>Nuove versioni
 I codici interessi contengono una data valida. Se si desidera modificare il tasso d'interesse, è possibile creare una **nuova versione** valida a partire da una data futura.
 
 Per visualizzare versioni diverse, è possibile utilizzare l'opzione di menu **In data** per selezionare la data limite. È inoltre possibile selezionare **Visualizza tutti i record** per visualizzare tutti i codici interessi nella pagina.
+
+
 
 

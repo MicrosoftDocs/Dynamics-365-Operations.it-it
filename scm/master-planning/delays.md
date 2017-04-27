@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Ritardi
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulle date ritardate nella pianificazione generale. Una data ritardata è una data di scadenza realistica che una transazione riceve se la prima data di evasione che la pianificazione generale calcola è successiva alla data richiesta.
 
 La pianificazione generale può calcolare la prima data di evasione possibile per una transazione, in base ai lead time, alla disponibilità del materiale, alla disponibilità della capacità e a vari parametri di pianificazione. 
@@ -41,11 +44,13 @@ In alcune situazioni, è possibile scegliere di non calcolare i ritardi, ad esem
 
 Nella pagina **Parametri di pianificazione generale**, è possibile impostare l'ora di inizio per il calcolo dei ritardi. Se un ordine viene evaso dopo questo orario, viene aggiunto un ritardo di un giorno alla data di ritardo dell'ordine. 
 
-** Nota: ** Nelle versioni precedenti, ritardi calcolati sono stati definiti come messages* di *futures, la data in cui è stata noto anche come date* di *futures e una transazione in ritardo è dichiarata alla transazione di *a stampato set* futuro.
+**Nota:** nelle versioni precedenti, i ritardi calcolati erano denominati *messaggi di ritardo*, la data di ritardo era denominata *data ritardo* e una transazione ritardata era definita *una transazione impostata su una data futura*.
 
 <a name="see-also"></a>Vedere anche
 --------
 
 [Impostazioni copertura](coverage-settings.md)
+
+
 
 

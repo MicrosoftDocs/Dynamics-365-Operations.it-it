@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-catalogs"></a>Cataloghi di approvvigionamento
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive, in modo generale, in che modo i professionisti degli acquisti possono impostare e gestire i cataloghi di approvvigionamento. I cataloghi di approvvigionamento definiscono gli articoli e i servizi che i dipendenti della società possono ordinare per uso interno.
 
 I professionisti degli acquisti possono creare e gestire cataloghi degli articoli e dei servizi che possono essere acquistati per uso interno in un'organizzazione. Dopo che i cataloghi vengono impostati, i dipendenti della società possono creare richieste di acquisto per ordinare tramite essi. I cataloghi possono essere utilizzati per applicare i criteri di acquisto, in modo che i dipendenti possano ordinare solo gli articoli e i servizi autorizzati per la loro persona giuridica acquirente. Quando si crea un catalogo di approvvigionamento, è necessario considerare le seguenti attività:
 
 -   Configurare la gerarchia di categorie di approvvigionamento prima di creare il catalogo.
--   Stabilire quali prodotti si desidera che i dipendenti possono ordinare. È possibile visualizzare o nascondere i prodotti specifici di un nodo del catalogo, è possibile nascondere o visualizzare tutti i prodotti in un nodo.
+-   Stabilire quali prodotti si desidera che i dipendenti possono ordinare. È possibile visualizzare o nascondere prodotti specifici in un nodo del catalogo o è possibile nascondere o visualizzare tutti i prodotti in un nodo.
 -   Stabilire di quanti cataloghi di approvvigionamento si ha bisogno. L'accesso a un catalogo di approvvigionamento è determinato dalla regola dei criteri del catalogo che viene configurata per la persona giuridica e l'unità operativa cui è assegnato un dipendente.
 
 Diversi fattori determinano i prodotti che i dipendenti possono ordinare e le categorie di approvvigionamento che possono utilizzare quando creano richieste di acquisto:
@@ -52,7 +55,7 @@ La tabella seguente descrive le attività che è necessario eseguire prima che u
 ## <a name="setting-up-a-catalog"></a>Impostazione di un catalogo
 Dopo aver soddisfatto i prerequisiti, è possibile impostare cataloghi. È possibile creare un catalogo utilizzato dall'intera organizzazione o più cataloghi utilizzati dalle varie divisioni dell'organizzazione. Se si crea un catalogo per l'intera organizzazione, l'accesso al catalogo è controllato dalle regole dei criteri di acquisto.  
 
-Il catalogo definisce quali prodotti sono disponibili quando le richieste di acquisto vengono create, ma è possibile utilizzare le regole dei criteri di accesso alle categorie per applicare restrizioni aggiuntive. Poiché i nodi di un catalogo sono categorie di approvvigionamento, possono essere eliminati da una regola dei criteri di accesso alle categorie. In questo caso, i prodotti nella categoria non sono disponibili agli utenti l'utilizzo delle richieste. Per definire le regole dei criteri di accesso alle categorie ** criteri di acquisto ** nella pagina. Nella seguente tabella vengono descritte le attività che è necessario eseguire per impostare un catalogo.
+Il catalogo definisce quali prodotti sono disponibili quando le richieste di acquisto vengono create, ma è possibile utilizzare le regole dei criteri di accesso alle categorie per applicare restrizioni aggiuntive. Poiché i nodi di un catalogo sono categorie di approvvigionamento, possono essere eliminati da una regola dei criteri di accesso alle categorie. In questo caso, i prodotti nella categoria non sono disponibili per i dipendenti da utilizzare nelle richieste. Si definiscono le regole dei criteri di accesso alle categorie nella pagina **Criteri acquisto**. Nella seguente tabella vengono descritte le attività che è necessario eseguire per impostare un catalogo.
 
 | Attività                                                   | Ruolo             | Descrizione                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,6 +73,8 @@ Gli aggiornamenti vengono pubblicati automaticamente o manualmente, a seconda de
 <a name="see-also"></a>Vedere anche
 --------
 
-[Impostare una gerarchia di categorie di approvvigionamento della Guida (attività)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+[Impostare una gerarchia di categorie di approvvigionamento (guida attività)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+
+
 
 

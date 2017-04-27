@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-posting-profiles"></a>Profili di registrazione cliente
 
+[!include[banner](../includes/banner.md)]
+
+
 I profili di registrazione cliente controllano la registrazione delle transazioni cliente nella contabilità generale.
 
 <a name="customer-posting-profiles"></a>Profili di registrazione cliente
 -------------------------
 
-I profili registrazione del cliente consentono di assegnare i conti CoGe e le impostazioni del documento a tutti i clienti, a un gruppo di clienti o a un singolo cliente. Queste impostazioni vengono utilizzate quando si creano ordini cliente, fatture a testo libero, pagamenti in contanti, lettere di sollecito e note d'interesse. Per alcune transazioni, è possibile selezionare un profilo registrazione diverso a cui verrà accordata precedenza sui profili registrazione impostati per le transazioni in questa pagina. 
+I profili registrazione del cliente consentono di assegnare i conti CoGe e le impostazioni del documento a tutti i clienti, a un gruppo di clienti o a un singolo cliente. Queste impostazioni verranno utilizzate quando si creano ordini cliente, fatture a testo libero, pagamenti in contanti, lettere di sollecito e note d'interesse. Per alcune transazioni, è possibile selezionare un profilo registrazione diverso a cui verrà accordata precedenza sui profili registrazione impostati per le transazioni in questa pagina. 
 
 Il profilo di registrazione predefinito viene definito nella scheda dettaglio Contabilità generale e IVA nella pagina dei parametri Contabilità clienti. Il profilo di registrazione predefinito verrà incluso automaticamente nell'intestazione di nuovi documenti in cui è possibile modificarlo in un profilo registrazione diverso se necessario.
 
@@ -126,7 +129,7 @@ Se si desidera assegnare lo stesso profilo registrazione a tutte le transazioni 
 
 ### 
 
-### <a name="table-restrictions"></a>**Table restrictions**
+### <a name="table-restrictions"></a>**Restrizioni tabella**
 
 Per le transazioni con il profilo registrazione selezionato, specificare se le transazioni verranno liquidate automaticamente, gli interessi verranno calcolati e le lettere di sollecito verranno emesse. È inoltre possibile selezionare il conto utilizzato quando le transazioni con il profilo registrazione selezionato vengono chiuse.
 
@@ -138,6 +141,8 @@ Specificare i valori seguenti per impostare il profilo registrazione:
 | **Interessi**          | Selezionare questa opzione se gli interessi devono essere calcolati sui saldi residui per i conti cliente che utilizzano questo profilo. Se questa opzione è deselezionata, gli interessi non verranno calcolati per tali clienti.                                           |
 | **Lettera di sollecito** | Selezionare questa opzione se le lettere di sollecito devono essere generate per i conti cliente che utilizzano questo profilo. Se questa opzione è deselezionata, le lettere di sollecito non verranno generate per tali clienti.                                                 |
 | **Chiudi**             | Selezionare un profilo registrazione da applicare quando le transazioni con il profilo registrazione specificato vengono chiuse. È considerata chiusa una transazione liquidata completamente.                                                                           |
+
+
 
 
 

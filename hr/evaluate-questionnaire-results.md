@@ -1,6 +1,6 @@
 ---
 title: Visualizzare e valutare i risultati di un questionario
-description: "In questo argomento viene descritto come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completamento."
+description: "In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Visualizzare e valutare i risultati di un questionario
 
-In questo argomento viene descritto come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completamento. 
+In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano. 
 
 Dopo che gli intervistati avranno compilato un questionario, sarà possibile vedere e valutare i risultati del questionario nei modi seguenti:
 

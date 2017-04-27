@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Prerequisiti per la conversione in costo standard
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento vengono illustrate le attività da completare prima di eseguire una conversione in costo standard. 
 
 Prima di eseguire una conversione in costo standard, completare i seguenti passaggi.
@@ -38,7 +41,7 @@ Prima di eseguire una conversione in costo standard, completare i seguenti passa
     -   Il gruppo di costi assegnato a un articolo prodotto può funzionare come base per l'assegnazione di conti CoGe correlati ai costi standard, ad esempio per l'assegnazione di conti CoGe per scostamenti della produzione.
 
 3.  Assegnare una **quantità ordine standard** a un articolo prodotto con costi costanti. La quantità ordine standard per un articolo prodotto funziona come dimensioni lotto di contabilità per ammortizzare (o ripartire proporzionalmente) i costi costanti, ad esempio i tempi di impostazione nelle operazioni dei cicli di lavorazione o una quantità di componenti costante in una distinta base (DBA).
-4.  Assegnare **conto CoGe** correlati ai costi standard, in particolare lo scostamento di rivalutazione. Utilizzare ** registrazione ** la pagina (** Gestione articoli ** &gt; ** impostazione **) per assegnare conti CoGe correlati ai costi standard. I requisiti minimi per il processo di conversione a costo standard prevedono l'assegnazione del conto relativo allo scostamento di rivalutazione per tutti gli articoli e per tutti i gruppi di costi. Utilizzare la pagina **Piano dei conti** per definire i conti CoGe che saranno necessari per i costi standard. Utilizzare il modulo **Combinazioni di transazioni** per attivare le relazioni costi (per tabelle, gruppi e tutti gli elementi) prima di definire le regole di registrazione articoli.
+4.  Assegnare **conto CoGe** correlati ai costi standard, in particolare lo scostamento di rivalutazione. Utilizzare la pagina **Registrazione** (**Gestione articoli** &gt; **Impostazioni**) per assegnare conti CoGe correlati ai costi standard. I requisiti minimi per il processo di conversione a costo standard prevedono l'assegnazione del conto relativo allo scostamento di rivalutazione per tutti gli articoli e per tutti i gruppi di costi. Utilizzare la pagina **Piano dei conti** per definire i conti CoGe che saranno necessari per i costi standard. Utilizzare il modulo **Combinazioni di transazioni** per attivare le relazioni costi (per tabelle, gruppi e tutti gli elementi) prima di definire le regole di registrazione articoli.
 5.  Definire i parametri di Gestione articoli correlati ai costi standard. Utilizzare la scheda **Sequenze numeriche** nella pagina **Parametri di Gestione articoli e magazzino** per assegnare una sequenza numerica ai giustificativi di rivalutazione. Il giustificativo di rivalutazione viene generato quando la conversione a costo standard determina una variazione del valore di magazzino di un articolo. Utilizzare la pagina **Parametri di Gestione articoli e magazzino** per definire i parametri di controllo dei costi (nella scheda **Contabilità inventario**) per definire due parametri correlati ai costi standard.
     -   Utilizzare il campo **Scomposizione costi** per selezionare No o contabilità secondaria. La selezione di contabilità secondaria è definita scomposizione dei costi attiva. La scomposizione dei costi attiva è fondamentale per il calcolo, il mantenimento e la visualizzazione della segmentazione per gruppi di costi in una struttura di prodotti multilivello per voci di costo standard. Quando la scomposizione dei costi è attiva, è possibile eseguire il reporting e l'analisi dei seguenti elementi in un formato a livello singolo, multilivello o totale:
         1.  Scorte
@@ -47,6 +50,8 @@ Prima di eseguire una conversione in costo standard, completare i seguenti passa
 
         Con una scomposizione dei costi attiva, l'attivazione del costo di un articolo prodotto determina l'archiviazione della segmentazione dei gruppi di costi nel record del costo dell'articolo. Se non si immette alcun valore nel campo **Scomposizione costi**, non verrà eseguita la segmentazione per gruppi di costi per le voci di costo standard. Il costo standard di un articolo prodotto verrà pertanto calcolato e gestito come singolo importo, senza segmentazione per gruppi di costi e i contributi costi dei componenti prodotti verranno aggregati nell'importo singolo.
     -   Impostare il campo **Scostamenti rispetto a standard** su Riepilogo o Per gruppo di costo. L'opzione Per gruppo di costo consente di identificare gli scostamenti dei prezzi di acquisto e gli scostamenti produzione per gruppo di costi, nonché di identificare i quattro tipi di scostamenti produzione, ovvero Scostamento dimensioni lotto, Scostamento quantità, Scostamento prezzi e Scostamento sostitutivo. Se si seleziona Riepilogo, non sarà possibile identificare gli scostamenti per gruppo di costi né identificare i quattro tipi di scostamenti produzione. Sarà possibile visualizzare solo uno scostamento produzione riepilogativo. I criteri relativi allo scostamento rispetto al costo standard sono indipendenti dai criteri di scomposizione dei costi. È possibile pertanto impostare il criterio di scomposizione dei costi su nessuno e gli scostamenti su Per gruppo di costo in modo che vengano comunque acquisiti gli scostamenti produzione per gruppo di costi.
+
+
 
 
 

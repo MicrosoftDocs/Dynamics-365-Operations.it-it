@@ -1,6 +1,6 @@
 ---
-title: Configurare i nomi del campo dell&quot;app Approvazioni nell&quot;app Approvazioni di immagazzinamento
-description: "In questo argomento viene descritto come impostare e configurare i nomi e le priorità del campo dell&quot;app Approvazioni di magazzino in Dynamics 365 per le operazioni."
+title: Configurare i nomi di campo app nell&quot;app Magazzino
+description: "In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app nell&quot;app Magazzino in Dynamics 365 for Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>Configurare i nomi del campo dell'app Approvazioni nell'app Approvazioni di immagazzinamento
+# <a name="configure-app-field-names-in-warehousing-app"></a>Configurare i nomi di campo app nell'app Magazzino
 
-In questo argomento viene descritto come impostare e configurare i nomi e le priorità del campo dell'app Approvazioni di magazzino in Dynamics 365 per le operazioni. 
+[!include[banner](../includes/banner.md)]
 
-** Nota: ** In questo argomento viene applicato alle funzionalità della gestione magazzino. Non è applicabile alle funzionalità di Gestione articoli. Dynamics 365 per le operazioni di magazzino è un'applicazione che consentono di eseguire attività di magazzino. È possibile definire e configurare i nomi dei campi utilizzati nell'app Approvazioni nonché configurare la priorità a cui i nomi dei campi devono essere assegnati. In questo argomento viene illustrato come definire e configurare questi per immagazzinare i nomi e le priorità del campo dell'app Approvazioni e come vengono utilizzati in Dynamics 365 per le operazioni di immagazzinando. Per informazioni dettagliate sulla configurazione della connessione in Dynamics 365 per le operazioni di immagazzinando, fare riferimento al esercitazione [impostare e configurare Dynamics 365 per le operazioni di immagazzinanti install-configure-warehousing-app.md] ().
 
-<a name="configure-warehouse-app-field-names"></a>Configurare i nomi del campo dell'app Approvazioni di magazzino
+In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app nell'app Magazzino in Dynamics 365 for Operations. 
+
+**Nota:** questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. Dynamics 365 for Operations - Magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità di campo dell'app Magazzino e viene descritto come utilizzarli in Dynamics 365 for Operations - Magazzino. Per informazioni dettagliate su come configurare la connessione in Dynamics 365 for Operations - Magazzino, fare riferimento all'esercitazione [Installare e configurare Dynamics 365 for Operations - Magazzino](install-configure-warehousing-app.md).
+
+<a name="configure-warehouse-app-field-names"></a>Configurare i nomi di campo dell'app Magazzino
 ===================================
 
-Quando si utilizza Dynamics 365 per le operazioni di immagazzinando sul dispositivo mobile, è possibile configurare la modalità dei metadati da visualizzare sull'unità ** immagazzinate nei nomi del campo dell'app Approvazioni ** pagina. In una nuova società in Dynamics 365 per le operazioni, selezionare ** creare l'impostazione predefinita ** generare tutti i nomi dei campi che verranno utilizzati nei flussi di lavoro del dispositivo mobile di magazzino e quindi specificare la modalità di input e un tipo di input preferiti. Dopo aver generato alcun nome del campo, è possibile selezionare le seguenti operazioni in cui immettere le opzioni.
+Quando si utilizza Dynamics 365 for Operations - Magazzino sul dispositivo mobile, è possibile configurare la modalità con cui devono essere visualizzati i metadati sul dispositivo nella pagina **Nomi campo per app magazzino**. In una nuova società in Dynamics 365 for Operations, selezionare **Crea impostazione predefinita** per generare tutti i nomi di campo che verranno utilizzati nei flussi di lavoro del dispositivo mobile di magazzino, quindi assegnare loro una modalità e un tipo di input preferiti. Dopo aver generato tutti i nomi di campo, è possibile selezionare le seguenti opzioni di input.
 
 <table>
 <colgroup>
@@ -51,25 +54,25 @@ Quando si utilizza Dynamics 365 per le operazioni di immagazzinando sul disposit
 <tbody>
 <tr class="odd">
 <td>Modalità di input preferita</td>
-<td>Questa opzione indica se un campo della scansione o un campo di input di immissione manuale deve essere visualizzato per il nome del campo selezionato. Questa opzione è utile per distinguere i campi in base ai codici a barre vengono utilizzati per il campo. <strong>Nota:</strong> Per i nomi dei campi con la modalità di input preferito impostata <strong>Scansione</strong>su, è possibile immettere manualmente le informazioni se il codice a barre è illeggibile o spostato.</td>
+<td>Questa opzione definisce se un campo di scansione o un campo di input di immissione manuale deve essere visualizzato per il nome di campo selezionato. Questa opzione è utile per distinguere i campi a seconda che vengano utilizzati o meno codici a barre per il campo. <strong>Nota:</strong> per i nomi di campo con modalità di input preferita impostata su <strong>Scansione</strong>, è possibile immettere manualmente le informazioni se il codice a barre è illeggibile o danneggiato.</td>
 </tr>
 <tr class="even">
 <td>Tipo di input</td>
-<td>Questa opzione indica il tipo di input da utilizzare per il nome del campo selezionato. Quattro opzioni disponibili:
+<td>Questa opzione definisce il tipo di input da utilizzare per il nome di campo selezionato. Sono disponibili quattro opzioni:
 <ul>
-<li><strong>Selezione</strong> - contiene un elenco di opzioni per effettuare la selezione da. I nomi dei campi con questa opzione non sono modificabili.</li>
-<li><strong>Data</strong>i nomi dei campi - specificati come data verranno visualizzati un formato di data all'etichetta. In questo modo i lavoratori magazzino a individuare la formato di data. I nomi dei campi con questa opzione non sono modificabili.</li>
-<li><strong>Alpha</strong> - se l'opzione è selezionata, la tastiera per unità verrà utilizzato per fornire le informazioni manualmente nell'app Approvazioni. Esperienza tastiera può essere modificata in base all'unità viene utilizzata.</li>
-<li><strong>Numerico</strong> - per i nomi dei campi che utilizzano l'input solo numerico, è possibile selezionare questa opzione per visualizzare una tastiera numerica personalizzato al campo di entrata anziché tastiera dell'unità.</li>
+<li><strong>Selezione</strong> - Contiene un elenco di opzioni tra cui scegliere. I nomi di campo con questa opzione non sono modificabili.</li>
+<li><strong>Data</strong> - I nomi di campo specificati come data verranno visualizzati in un formato data con l'etichetta. Ciò consente ai lavoratori di magazzino di individuare in quale formato immettere la data. I nomi di campo con questa opzione non sono modificabili.</li>
+<li><strong>Ordine alfabetico</strong> - Se l'opzione è selezionata, la tastiera del dispositivo verrà utilizzata quando si immettono le informazioni manualmente nell'app. L'esperienza della tastiera può essere modificata in base al dispositivo utilizzato.</li>
+<li><strong>Numerico</strong> - Per i nomi di campo che utilizzano l'input solo numerico, è possibile selezionare questa opzione per visualizzare una tastiera numerica personalizzata con il campo di input anziché la tastiera del dispositivo.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Configurare la priorità del campo dell'app Approvazioni di magazzino
+<a name="configure-warehouse-app-field-priority"></a>Configurare la priorità di campo nell'app Magazzino
 ======================================
 
-** Magazzino la priorità del campo dell'app Approvazioni ** nella pagina, è possibile impostare i nomi dei campi nei gruppi di priorità diversi. Ciò consente di scegliere le informazioni da visualizzare nella pagina della principale quando i lavoratori di magazzino eseguono le attività nell'app Approvazioni. ** Se si sceglie di creare l'impostazione predefinita **, un gruppo predefinito dei gruppi di priorità viene generato. È possibile creare un numero illimitato di gruppi di priorità se necessario, ma solo tre gruppi di priorità verranno visualizzati nell'attività. Quando Dynamics 365 per le operazioni invia i metadati al manager app, la modalità di assegnazione di priorità relative in base al relativo gruppo di priorità e il app visualizzare i primi tre gruppi di priorità contenuti nei metadati nell'attività. Il resto dei metadati di straripamento vengono visualizzati in una pagina dei dettagli secondaria. Nella tabella seguente viene illustrato un esempio di cinque gruppi di priorità.
+Nella pagina **Priorità campo per app magazzino**, è possibile inserire i nomi di campo in gruppi di priorità diversi. Ciò consente di scegliere le informazioni da visualizzare nella pagina dell'attività principale quando i lavoratori di magazzino eseguono attività mediante l'app. Se si fa clic su **Crea impostazione predefinita**, verrà generato un set predefinito di gruppi di priorità. È possibile creare un numero illimitato di gruppi di priorità, se necessario, ma solo tre gruppi di priorità verranno visualizzati nella pagina dell'attività. Quando Dynamics 365 for Operations invia i metadati all'app, a ogni campo verrà assegnata una priorità relativa a seconda del rispettivo gruppo di priorità e l'app visualizzerà i primi tre gruppi di priorità contenuti nei metadati nella pagina dell'attività. Il resto dei metadati aggiuntivi verranno visualizzati in una pagina dei dettagli secondaria. Nella tabella seguente viene illustrato un esempio di cinque gruppi di priorità.
 
 <table>
 <colgroup>
@@ -123,7 +126,7 @@ Quando si utilizza Dynamics 365 per le operazioni di immagazzinando sul disposit
 </tbody>
 </table>
 
-Ad esempio, quando un lavoratore di magazzino è in esecuzione un'attività in un dispositivo mobile, se il metadati visualizzate nell'app Approvazioni è costituita dai seguenti campi:
+Ad esempio, quando un lavoratore di magazzino esegue un'attività su un dispositivo mobile, se i metadati visualizzati nell'app sono costituiti dai seguenti campi:
 
 -   Articolo
 -   Quantità
@@ -131,17 +134,19 @@ Ad esempio, quando un lavoratore di magazzino è in esecuzione un'attività in u
 -   Descrizione articolo
 -   Dimensione e ubicazione
 
-In base all'impostazione di priorità del campo dell'app Approvazioni di magazzino nella tabella precedente, le seguenti 3 righe di informazioni vengono visualizzate nella pagina di attività:
+In base alla priorità di campo dell'app Magazzino impostata nella tabella precedente, le seguenti 3 righe di informazioni verranno visualizzate nella pagina dell'attività:
 
--   Riga 1: Articolo, quantità, unità di misura
+-   Riga 1: Articolo, Quantità, Unità di misura
 -   Riga 2: Descrizione dell'articolo
 -   Riga 3: Dimensione
 
-Metadati rimanenti, ad esempio, l'ubicazione, non viene visualizzato nell'attività, ma verranno visualizzati in una pagina dei dettagli. Per ulteriori informazioni e visualizzare esempi dell'interfaccia utente, fare riferimento al di registrazione blog [che annuncia Dynamics 365 per le operazioni immagazzinando] - (https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+I metadati rimanenti, ad esempio l'ubicazione, non verranno visualizzati nella pagina dell'attività, ma verranno visualizzati in una pagina dei dettagli. Per ulteriori informazioni e per visualizzare esempi dell'interfaccia utente, fare riferimento al post di blog [Presentazione di Dynamics 365 for Operations - Magazzino](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Installare e configurare Microsoft Dynamics 365 per le operazioni di immagazzinando] () install-configure-warehousing-app.md
+[Installare e configurare Microsoft Dynamics 365 for Operations - Magazzino](install-configure-warehousing-app.md)
+
+
 
 

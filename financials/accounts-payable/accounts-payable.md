@@ -1,6 +1,6 @@
 ---
 title: "Home page di contabilità fornitori"
-description: "In questo argomento viene fornita una panoramica della contabilità fornitori."
+description: "Viene fornita una panoramica della contabilità fornitori."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Home page di contabilità fornitori
 
-In questo argomento viene fornita una panoramica della contabilità fornitori.
+[!include[banner](../includes/banner.md)]
 
-È possibile immettere manualmente le fatture fornitore o riceverle elettronicamente tramite un'entità di dati. Dopo che le fatture vengono registrate o ricevute, è possibile esaminarle e approvarle utilizzando un giornale di approvazione fatture o ** fattura fornitore ** la pagina. È possibile utilizzare l'abbinamento fatture, i criteri di fattura fornitore e il flusso di lavoro per automatizzare il processo di revisione, in modo che le fatture che soddisfano determinati criteri vengano approvate automaticamente e le rimanenti fatture vengano contrassegnate per la revisione da un utente autorizzato.
+
+Viene fornita una panoramica della contabilità fornitori. 
+
+È possibile immettere manualmente le fatture fornitore o riceverle elettronicamente tramite un'entità di dati. Dopo che le fatture sono state immesse o ricevute, è possibile esaminarle e approvarle utilizzando un giornale di approvazione fatture o la pagina **Fattura fornitore**. È possibile utilizzare l'abbinamento fatture, i criteri di fattura fornitore e il flusso di lavoro per automatizzare il processo di revisione, in modo che le fatture che soddisfano determinati criteri vengano approvate automaticamente e le rimanenti fatture vengano contrassegnate per la revisione da un utente autorizzato.
+
+
 
 

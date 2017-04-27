@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>Oggetti di costo
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce le informazioni sugli oggetti di costo e illustra come i costi e le quantità sono accumulati. Un oggetto di costo è un'entità per cui costi e quantità sono accumulati. Un'entità oggetto di costo può essere un prodotto o varianti prodotto, ad esempio varianti per stile e colore.  
 
 <a name="cost-objects"></a>Oggetti di costo
@@ -65,19 +68,21 @@ Nella seguente tabella vengono illustrate le definizioni di oggetto di costo e d
     -   Quantità registrata
 -   Il campo **Costo unitario medio** è un campo calcolato. Il valore viene calcolato dividendo il valore di **Valore** per il valore di **Quantità**.
 
-** Nota: ** ** Includi valore fisico ** il parametro non ha alcun effetto sui calcoli precedenti.
+**Nota:** Il parametro **Includi valore fisico** non ha alcun effetto sui calcoli precedenti.
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Gruppo di dimensioni prodotto](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Gruppo di dimensioni di immagazzinamento](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[Gruppo di dimensioni di tracciabilità](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Novità o variabile in Microsoft Dynamics AX (/dynamics365/operations/dev-itpro/get-started/what] - nuova è variabile)
+[Novità o modifiche in Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[Voci di costo](cost-entries.md)
+
+
 
 

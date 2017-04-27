@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>Ordini fornitore per un progetto
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive i vari metodi da utilizzare per creare ordini fornitore per un progetto. Il metodo utilizzato dipende dallo scopo dell'ordine fornitore, da quando gli articoli acquistati vengono consumati e da quando vengono addebitati a un progetto.
 
-In Microsoft Dynamics 365 per le operazioni, è possibile utilizzare diversi metodi per creare ordini fornitore per un progetto. Il metodo utilizzato dipende dallo scopo dell'ordine fornitore, da quando gli articoli acquistati vengono consumati e da quando vengono addebitati a un progetto.
+In Microsoft Dynamics 365 for Operations, è possibile utilizzare più metodi per creare ordini fornitore per un progetto. Il metodo utilizzato dipende dallo scopo dell'ordine fornitore, da quando gli articoli acquistati vengono consumati e da quando vengono addebitati a un progetto.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Metodi per la creazione di un ordine fornitore
 
@@ -72,5 +75,7 @@ Per creare un ordine fornitore nel modulo Gestione progetti e contabilità, è p
 
 > [!NOTE] 
 > Quando si aggiorna la fattura fornitore o il documento di trasporto, verrà chiesto di aggiornare il documento di trasporto per la richiesta articolo.
+
+
 
 

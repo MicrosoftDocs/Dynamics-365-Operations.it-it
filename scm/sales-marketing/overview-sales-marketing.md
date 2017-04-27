@@ -26,23 +26,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Vendite e marketing
 
+[!include[banner](../includes/banner.md)]
+
+
 È possibile utilizzare Vendite e marketing per ottenere, archiviare e utilizzare vari tipi di dati nel flusso di vendita. Ciò include l'iniziativa di vendita iniziale, azioni follow-up successive e vendite aggiuntive.
 
 <a name="marketing"></a>Marketing
 ---------
 
-Utilizzare campagne e attività di marketing per individuare e sviluppare relazioni con potenziali clienti, in modo che le interazioni iniziali possono trasformarsi in relazioni di vendita. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per il marketing. [processo aziendale![di marketing (]. /media/marketing01.jpg)](. /media/marketing01.jpg)
+Utilizzare campagne e attività di marketing per individuare e sviluppare relazioni con potenziali clienti, in modo che le interazioni iniziali possono trasformarsi in relazioni di vendita. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per il marketing. [![Processo aziendale per il marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Relazioni
 
-In vendite e marketing, le interazioni iniziali con potenziali clienti possono verificarsi in diverse situazioni. È possibile, ad esempio, trovare un potenziale cliente mentre si partecipa a una fiera o si potrebbe avere un possibile lead con un cliente dopo l'esecuzione di una campagna di mailing di massa da parte dell'organizzazione. È molto importante comprendere il flusso dell'entità di una parte prima che diventi un cliente. Nell'immagine seguente è illustrato il flusso di relazioni di entità quando un potenziale cliente diventa un cliente effettivo. ![[] (SalesandMarketing01. /media/salesandmarketing01.jpg)](. /media/salesandmarketing01.jpg)
+In vendite e marketing, le interazioni iniziali con potenziali clienti possono verificarsi in diverse situazioni. È possibile, ad esempio, trovare un potenziale cliente mentre si partecipa a una fiera o si potrebbe avere un possibile lead con un cliente dopo l'esecuzione di una campagna di mailing di massa da parte dell'organizzazione. È molto importante comprendere il flusso dell'entità di una parte prima che diventi un cliente. Nell'immagine seguente è illustrato il flusso di relazioni di entità quando un potenziale cliente diventa un cliente effettivo. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campagne
 
-Una campagna è destinata ai contatti per i prospect, i clienti potenziali, le opportunità e i clienti selezionati per partecipare alla campagna. In Microsoft Dynamics 365 per le operazioni, è possibile creare vari tipi di campagne, ad esempio il telemarketing, la spedizione e le campagne di posta elettronica, ottimizzare il cliente potenziale. Man mano che avanza la campagna e si ricevono risposte positive, è possibile iniziare il processo di vendita con i destinatari che hanno risposto positivamente alla campagna.
+Una campagna è destinata ai contatti per i prospect, i clienti potenziali, le opportunità e i clienti selezionati per partecipare alla campagna. In Microsoft Dynamics  365 for Operations, è possibile creare diversi tipi di campagne, quali telemarketing, mailing e campagne di posta elettronica, per massimizzare il potenziale di clienti. Man mano che avanza la campagna e si ricevono risposte positive, è possibile iniziare il processo di vendita con i destinatari che hanno risposto positivamente alla campagna.
 
 ## <a name="sales"></a>Vendite
-Utilizzare la funzionalità di vendita per creare le offerte, effettuare l'upselling e il cross-selling a clienti nuovi ed esistenti, creare ordini cliente e creare fatture di vendita per i clienti. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per le vendite. [processo aziendale![per le vendite (]. /media/sales01.jpg)](. /media/sales01.jpg)
+Utilizzare la funzionalità di vendita per creare le offerte, effettuare l'upselling e il cross-selling a clienti nuovi ed esistenti, creare ordini cliente e creare fatture di vendita per i clienti. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per le vendite. [![Processo aziendale per le vendite](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Offerte di vendita
 
@@ -50,7 +53,7 @@ Creare offerte di vendita per presentare ai clienti un'offerta di beni o servizi
 
 ### <a name="up-sellcross-sell"></a>Up-selling/cross-selling
 
-Upselling e cross-sell sono le tecniche per la vendita di prodotti quando si immette un ordine per un cliente. In upselling, viene suggerito un altro prodotto anziché il prodotto corrente. In cross-selling, viene suggerito un prodotto in aggiunta al prodotto corrente. Quando si impostano gli elenchi dei prodotti, è possibile creare le regole specifiche per indicare quando un prodotto deve essere suggerito come la vendita di prodotti o la vendita.
+Upselling e cross-sell sono le tecniche per la vendita di prodotti quando si immette un ordine per un cliente. In upselling, viene suggerito un altro prodotto anziché il prodotto corrente. In cross-selling, viene suggerito un prodotto in aggiunta al prodotto corrente. Quando si impostano gli elenchi di prodotti, è possibile creare regole specifiche per indicare quando deve essere suggerito un prodotto come prodotto di upselling o cross-selling.
 
 ### <a name="sales-orders"></a>Ordini cliente
 
@@ -117,5 +120,7 @@ Una fattura a testo libero è una fattura non correlata a un ordine cliente. Con
 #### <a name="pro-forma-invoice"></a>Fattura proforma
 
 Una fattura proforma è una fattura preparata come stima degli importi effettivi prima della registrazione della fattura vera e propria. È possibile stampare una fattura di questo tipo per una fattura cliente o per una fattura a testo libero.
+
+
 
 

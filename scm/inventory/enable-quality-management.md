@@ -1,5 +1,5 @@
 ---
-title: "Panoramica della gestione della qualità"
+title: "Panoramica sulla gestione della qualità"
 description: "In questo articolo viene descritto come utilizzare la gestione della qualità in Microsoft Dynamics 365 for Operations per migliorare la qualità del prodotto all&quot;interno della supply chain."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Panoramica della gestione della qualità
+# <a name="quality-management-overview"></a>Panoramica sulla gestione della qualità
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo articolo viene descritto come utilizzare la gestione della qualità in Microsoft Dynamics 365 for Operations per migliorare la qualità del prodotto all'interno della supply chain.
 
@@ -344,7 +347,7 @@ Occorre definire un'associazione di controllo qualità per ogni variazione in un
 </tr>
 <tr class="even">
 <td>Risultati variabile di test</td>
-<td>Utilizzare questa pagina per impostare, modificare e visualizzare i possibili risultati di una variabile di test associata a un test qualitativo. Per ogni risultato è possibile assegnare lo stato <strong>superato</strong> o <strong>non superato</strong>. È necessario definire una variabile e i relativi risultati per un test qualitativo definito nella pagina <strong>Test</strong>. Per i test qualitativi, il tipo di test è <strong>Opzione</strong>  <strong>Test</strong> impostato nella pagina). Utilizzare <strong>Gruppi di test</strong> la pagina per assegnare una variabile di test e il risultato predefinito a un singolo test qualitativo.</td>
+<td>Utilizzare questa pagina per impostare, modificare e visualizzare i possibili risultati di una variabile di test associata a un test qualitativo. Per ogni risultato è possibile assegnare lo stato <strong>superato</strong> o <strong>non superato</strong>. È necessario definire una variabile e i relativi risultati per un test qualitativo definito nella pagina <strong>Test</strong>. Per i test qualitativi, il tipo di test è impostato su <strong>Opzione</strong> nella pagina <strong>Test</strong>. Utilizzare la pagina <strong>Gruppi di test</strong> per assegnare una variabile di test e il risultato predefinito a un singolo test qualitativo.</td>
 <td>Una società produttrice di biscotti utilizza un test di ispezione per il prodotto finito. Il test di ispezione ha diverse variabili. Una variabile si riferisce al gusto e i possibili risultati per questa variabile sono buono o cattivo. Una seconda variabile riguarda il colore e i risultati possibili troppo scuro, troppo chiaro e corretto. A ogni risultato viene assegnato lo stato <strong>superato</strong> o <strong>non superato</strong>. Durante il test di ispezione per ogni variabile, l'ispettore indica il risultato del test selezionando uno dei risultati.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ Occorre definire un'associazione di controllo qualità per ogni variazione in un
 <a name="see-also"></a>Vedere anche
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Processi di gestione qualità](quality-management-processes.md)
 
 [Attivazione della gestione di non conformità](enable-nonconformance-management.md)
+
+
 
 

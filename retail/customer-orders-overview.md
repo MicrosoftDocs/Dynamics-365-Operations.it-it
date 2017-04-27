@@ -1,6 +1,6 @@
 ---
-title: Customer orders overview
-description: In questo argomento vengono fornite informazioni sugli ordini cliente in Retail moderno al dettaglio MPOS (). Gli ordini cliente anche noti come ordini speciali. Oggetto include una discussione sui parametri correlati nella transazione flussi risultanti.
+title: Cenni preliminare sugli ordini cliente
+description: In questo argomento vengono fornite informazioni sugli ordini cliente in Retail Modern POS (MPOS). Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -25,75 +25,80 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="customer-orders-overview"></a>Customer orders overview
+# <a name="customer-orders-overview"></a>Cenni preliminare sugli ordini cliente
 
-In questo argomento vengono fornite informazioni sugli ordini cliente in Retail moderno al dettaglio MPOS (). Gli ordini cliente anche noti come ordini speciali. Oggetto include una discussione sui parametri correlati nella transazione flussi risultanti.
+[!include[banner](includes/banner.md)]
 
-In una situazione di vendita al dettaglio di omni- Manica, molte rivenditori sono riportate le opzioni degli ordini cliente, o ordini speciali, in base alle varie richieste di evasione e prodotto. Di seguito sono riportati alcuni scenari comuni:
 
--   Un cliente desidera che i prodotti essere consegnato a un indirizzo specifico in una data specifica.
--   Un cliente desidera richiedere prodotti da un punto vendita o da una posizione diversa dal punto vendita o alla posizione in cui il cliente ha acquisito i prodotti.
--   Un cliente desidera eseguire altri prodotti che il cliente ha acquistato.
+In questo argomento vengono fornite informazioni sugli ordini cliente in Retail Modern POS (MPOS). Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
 
-I rivenditori viene utilizzato anche negli ordini cliente per ridurre le vendite perse che i guasti scorte potrebbero causare altrimenti, poiché la merce possono essere consegnate da o in una data o in una località diverso.
+In un mondo di vendita al dettaglio omni-canale, molti rivenditori offrono l'opzione degli ordini cliente, o ordini speciali, per soddisfare vari requisiti di prodotti ed evasione. Di seguito sono riportati alcuni scenari comuni:
 
-## <a name="set-up-customer-orders"></a>Ordini di impostazione dei clienti
-Di seguito sono riportati alcuni dei parametri che è possibile impostare parametri ** al dettaglio ** nella pagina per definire la modalità delle richieste del cliente vengono soddisfatti:
+-   Un cliente desidera che i prodotti siano consegnati a un indirizzo specifico in una data specifica.
+-   Un cliente desidera prelevare i prodotti da un punto vendita o da una posizione diversa dal punto vendita o posizione in cui il cliente ha acquisito i prodotti.
+-   Un cliente desidera che qualcun altro prelevi i prodotti che il cliente ha acquistato.
 
--   ** Percentuale di smaltimento predefinito ** consente di specificare l'importo che il cliente deve pagare come un deposito prima di un ordine possa essere confermato. Importo del deposito predefinita viene calcolata come percentuale del valore dell'ordine. A seconda dei privilegi, un livello del punto vendita può essere possibile ignorare l'importo utilizzando ** sostituzione di deposito **.
--   ** La percentuale di spese varie di annullamento ** se una spesa verrà utilizzata quando un ordine cliente è deselezionata, specificare l'importo della spesa.
--   ** Il codice di spese varie di annullamento ** se una spesa verrà utilizzata quando un ordine cliente viene annullato, la spesa verrà visualizzato con un codice di spese nell'ordine cliente in Microsoft Dynamics AX. Utilizzare questo parametro per definire il codice di spese varie di annullamento.
--   ** Il codice di spese di spedizione ** - rivenditori possono addebitare una commissione supplementare per tipi di spedizione a un cliente. Importo della nota spese di spedizione verrà visualizzato con un codice di spese nell'ordine cliente in Dynamics AX. Utilizzare questo parametro per mappare il codice di spesa delle spedizioni alle spese di spedizione nell'ordine cliente.
--   ** Le spese di spedizione di rimborso ** consente di specificare se le spese di spedizione associate a un ordine cliente in rimborsabili.
--   ** Importo massimo senza approvazione ** se le spese di spedizione vengono rimborsabili, specificare l'importo massimo di rimborsi di spese di spedizione negli ordini di reso. Se questo importo viene superato, la forzatura del responsabile è necessaria per proseguire il rimborso. Per soddisfare i seguenti scenari, un rimborso delle spese di spedizione può superare l'importo da consegnare pagato:
-    -   Le spese vengono applicate a livello di intestazione ordine cliente e quando una certa quantità della linea di prodotti verrà restituita, il rimborso massimo delle spese di spedizione consentito i prodotti e la quantità non può essere impostata in modo che opera per tutti i clienti al dettaglio.
-    -   Le spese di spedizione verranno sostenute per ciascuna istanza di spedizione. Se un cliente restituisce più volte dei prodotti e i criteri del rivenditore indica che il rivenditore sopporterà il costo delle spese di spedizione reso, le spese di spedizione reso saranno più delle spese di spedizione effettive.
+I rivenditori utilizzano gli ordini cliente anche per ridurre al minimo le vendite perse che l'esaurimento delle scorte potrebbero causare altrimenti, poiché la merce può essere consegnata o prelevata in una data o in una località diversa.
 
-## <a name="transaction-flow-for-customer-orders"></a>Flusso della transazione relativo agli ordini cliente
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Crea ordine cliente nel POS moderno al dettaglio
+## <a name="set-up-customer-orders"></a>Impostare gli ordini cliente
+Di seguito sono riportati alcuni dei parametri che è possibile impostare nella pagina **Parametri di vendita al dettaglio** per definire la modalità di evasione degli ordini cliente:
+
+-   **Percentuale di deposito predefinita ** - consente di specificare l'importo che il cliente deve pagare come deposito prima che un ordine possa essere confermato. L'importo del deposito predefinito viene calcolato come percentuale del valore dell'ordine. A seconda dei privilegi, un associato del punto vendita può ignorare l'importo utilizzando ***Sostituzione deposito**.
+-   **Percentuale spese di annullamento** - se un addebito verrà applicato quando un ordine cliente viene annullato, specificare l'importo dell'addebito.
+-   **Codice spese di annullamento** - se un addebito verrà applicato quando un ordine cliente viene annullato, l'addebito verrà visualizzato con un codice spese nell'ordine cliente in Microsoft Dynamics AX. Utilizzare questo parametro per definire il codice spese di annullamento.
+-   **Codice spese di spedizione** - rivenditori possono addebitare una commissione supplementare per la spedizione della merce a un cliente. L'importo delle spese di spedizione verrà visualizzato con un codice spese nell'ordine cliente in Dynamics AX. Utilizzare questo parametro per mappare il codice spese di spedizione alle spese di spedizione nell'ordine cliente.
+-   **Rimborso spese di spedizione** - consente di specificare se le spese di spedizione associate a un ordine cliente sono rimborsabili.
+-   **Importo massimo senza approvazione** - se le spese di spedizione sono rimborsabili, specificare l'importo massimo di rimborsi di spese di spedizione negli ordini di reso. Se questo importo viene superato, la sostituzione del responsabile è necessaria per proseguire con il rimborso. Per soddisfare i seguenti scenari, un rimborso delle spese di spedizione può superare l'importo originariamente pagato:
+    -   Le spese vengono applicate a livello di intestazione ordine cliente e quando una certa quantità di una riga prodotto viene restituita, il rimborso massimo delle spese di spedizione consentito per i prodotti e la quantità non può essere determinato in un modo che funziona per tutti i clienti al dettaglio.
+    -   Le spese di spedizione vengono sostenute per ciascuna istanza di spedizione. Se un cliente restituisce più volte dei prodotti e i criteri del rivenditore indicano che il rivenditore sopporterà il costo delle spese di spedizione reso, le spese di spedizione reso saranno superiori alle spese di spedizione effettive.
+
+## <a name="transaction-flow-for-customer-orders"></a>Flusso della transazione per gli ordini cliente
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Creare un ordine cliente in Retail Modern POS
 
 1.  Aggiungere un cliente alla transazione.
 2.  Aggiungere prodotti al carrello.
-3.  Fare clic su ** creare un ordine cliente ** quindi selezionare il tipo di ordine. Tipo di ordine può essere o ** ordine cliente o ** ** ** offerta.
-4.  Fare clic su ** spedizione selezionata o ** ** inclusi tutti ** spedire prodotti a un indirizzo per il conto cliente, specificare la data di spedizione richiesta e specificare le spese di spedizione.
-5.  Fare clic su ** opzioni selezionate in selezionato ** o ** tutti Pick-up ** selezionare i prodotti che saranno rilevati dal punto vendita corrente o da un punto vendita diverso in una data specifica.
+3.  Fare clic su **Crea ordine cliente** quindi selezionare il tipo di ordine. Tipo di ordine può essere **Ordine cliente** o **Offerta**.
+4.  Fare clic su **Spedizione selezionata** o **Spedisci tutto** per spedire i prodotti a un indirizzo nel conto cliente, specificare la data di spedizione richiesta e specificare le spese di spedizione.
+5.  Fare clic su **Prelievo selezionato** o **Preleva tutto** per selezionare i prodotti che saranno prelevati dal punto vendita corrente o da un punto vendita diverso in una data specifica.
 6.  Incassare l'importo del deposito, se un deposito è obbligatorio.
 
 ### <a name="edit-an-existing-customer-order"></a>Modificare un ordine cliente esistente
 
-1.  Nella home page, fare clic su ** individuare un ordine **.
-2.  Individuare e selezionare l'ordine da modificare. Nella parte inferiore della pagina, fare clic su ** ** modifica.
+1.  Nella home page, fare clic su **Trova ordine**.
+2.  Trovare e selezionare l'ordine da modificare. In fondo alla pagina fare clic su **Modifica**.
 
-### <a name="pick-up-an-order"></a>Rimuovere un ordine
+### <a name="pick-up-an-order"></a>Prelevare un ordine
 
-1.  Nella home page, fare clic su ** individuare un ordine **.
-2.  Selezionare l'ordine da eseguire. Nella parte inferiore della pagina, fare clic su ** prelievo e ** imballaggio.
-3.  Fare clic su ** effettuare **.
+1.  Nella home page, fare clic su **Trova ordine**.
+2.  Selezionare l'ordine da prelevare. In fondo alla pagina fare clic su **Prelievo e imballaggio**.
+3.  Fare clic su **Preleva**.
 
 ### <a name="cancel-an-order"></a>Annullare un ordine
 
-1.  Nella home page, fare clic su ** individuare un ordine **.
-2.  Selezionare l'ordine da annullare. Nella parte inferiore della pagina, fare clic su ** ** annullamento.
+1.  Nella home page, fare clic su **Trova ordine**.
+2.  Selezionare l'ordine cliente da annullare. In fondo alla pagina fare clic su **Annulla**.
 
 #### <a name="create-a-return-order"></a>Creare un ordine di reso
 
-1.  Nella home page, fare clic su ** individuare un ordine **.
-2.  Selezionare l'ordine da restituire, selezionare la fattura per l'ordine quindi selezionare la linea di prodotti per la merce desidera restituire.
-3.  Nella parte inferiore della pagina, fare clic su ** ordine di reso **.
+1.  Nella home page, fare clic su **Trova ordine**.
+2.  Selezionare l'ordine da restituire, selezionare la fattura per l'ordine quindi selezionare la riga prodotto della merce da restituire.
+3.  In fondo alla pagina fare clic su **Ordine di reso**.
 
-## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Flusso asincrono della transazione relativo agli ordini cliente
-Gli ordini cliente possono essere creati dal client di (POS) del POS in modalità sincrona o in modalità asincrona.
+## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Flusso asincrono della transazione per gli ordini cliente
+Gli ordini cliente possono essere creati dal client POS in modalità sincrona o in modalità asincrona.
 
-### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Consentire agli ordini cliente da creare in modalità asincrona
+### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Abilitare la creazione degli ordini cliente in modalità asincrona
 
-1.  In Dynamics AX, fare clic su ** al dettaglio e il commercio ** &gt; ** il Manica impostato ** &gt; ** POS configurato ** &gt; ** profilo di Retail POS ** &gt; ** profili funzionalità **.
-2.  ** Generale ** clic, impostare ** creare un ordine cliente in modalità di async ** l'opzione ** Sì **.
+1.  In Dynamics AX, fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili funzionalità**.
+2.  Nella Scheda dettaglio **Generale** , impostare l'opzione **Crea ordine cliente in modalità asincrona** su **Sì**.
 
-Quando ** creare un ordine cliente in modalità di async ** l'opzione è impostata su Sì ** **, ordini cliente vengono creati sempre in modalità asincrona, anche se Retail Transaction Service (RTS) è disponibile. Se si imposta questa opzione non ** **, ordini cliente vengono creati sempre in modalità sincrona utilizzando il RTS. Quando gli ordini cliente vengono creati in modalità asincrona, vengono estratti e immessi in Dynamics AX per i processi di Pull (P). Gli ordini cliente corrispondenti vengono creati in Dynamics AX quando ** sincronizzare gli ordini ** viene eseguita manualmente o tramite un processo batch.
+Quando l'opzione **Crea ordine cliente in modalità asincrona** è impostata su **Sì**, ordini cliente vengono creati sempre in modalità asincrona, anche se Retail Transaction Service (RTS) è disponibile. Se si imposta questa opzione su **No**, ordini cliente vengono creati sempre in modalità sincrona utilizzando RTS. Quando gli ordini cliente vengono creati in modalità asincrona, vengono estratti e immessi in Dynamics AX tramite i processi Pull (P). Gli ordini cliente corrispondenti vengono creati in Dynamics AX quando **Sincronizza ordini** viene eseguito manualmente o tramite un processo batch.
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[] Ibridi Ordini cliente (hybrid-customer-orders.md)
+[Ordini cliente ibridi](hybrid-customer-orders.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Le disponibile l&quot;area di lavoro mobile per Microsoft Dynamics 365 per il app delle operazioni
-description: Tramite mobili dell&quot;area di lavoro delle scorte disponibili effettuate le comprensioni spostati in magazzino disponibile e prenotato in qualsiasi momento e ovunque.
+title: "Area di lavoro mobile Disponibilità scorte per l&quot;app Microsoft Dynamics 365 for Operations"
+description: L&quot;area di lavoro mobile Scorte disponibili consente di ottenere informazioni su dispositivo mobile relative alle scorte disponibili e prenotate in qualsiasi momento e ovunque.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,72 +25,72 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Le disponibile l'area di lavoro mobile per Microsoft Dynamics 365 per il app delle operazioni
+# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Area di lavoro mobile Disponibilità scorte per l'app Microsoft Dynamics 365 for Operations
 
-Tramite mobili dell'area di lavoro delle scorte disponibili effettuate le comprensioni spostati in magazzino disponibile e prenotato in qualsiasi momento e ovunque. 
+L'area di lavoro mobile Scorte disponibili consente di ottenere informazioni su dispositivo mobile relative alle scorte disponibili e prenotate in qualsiasi momento e ovunque. 
 
 <a name="prerequisites"></a>Prerequisiti
 -------------
 
 | Prerequisito                                                         | descrizione                                                                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Letto di Microsoft Dynamics 365 per la presentazione di cellulare di operazioni | [Dynamics 365 per la presentazione mobile] di operazioni (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
-| Dynamics 365 per le operazioni                                          | In un ambiente con Microsoft Dynamics 365 per la versione 1611 delle operazioni e Microsoft Dynamics per l'aggiornamento 3 la piattaforma delle operazioni (novembre 2016) |
-| 3215650 KB di Hotfix                                                    | Impostare il hotfix per abilitare le aree di lavoro che vengono fornite in Microsoft Dynamics 365 per le operazioni.                                       |
-| Dispositivo mobile con Dynamics 365 per il app delle operazioni in | Scaricare Dynamics 365 per il app delle operazioni dalla memoria di cellulare del app.                                                                           |
+| Informazioni sulla piattaforma mobile Microsoft Dynamics 365 for Operations | [Piattaforma mobile di Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
+| Dynamics 365 for Operations                                          | Un ambiente con Microsoft Dynamics 365 for Operations versione 1611 e aggiornamento 3 della piattaforma di Microsoft Dynamics for Operations (novembre 2016) |
+| Hotfix KB 3215650                                                    | Impostare l'hotfix per abilitare le aree di lavoro che vengono fornite in Microsoft Dynamics 365 for Operations.                                       |
+| Dispositivo mobile con l'app Dynamics 365 for Operations installata | Scaricare l'app Dynamics 365 for Operations dall'App Store mobile.                                                                           |
 
 ## <a name="introduction"></a>Introduzione
-In genere, le società con più spedizioni e più ricevimenti dell'inventario ogni giorno. Tali movimenti vengono modificati costantemente allo stato di disponibilità di magazzino. L'area di lavoro mobile per le scorte disponibili consente di visualizzare lo stato delle scorte interaziendali disponibili, in modo da poter ottenere le ultime comprensioni i dati del magazzino nel dispositivo mobile scelta. Indipendentemente dal fatto che si lavora nel magazzino, acquisto, di vendita, nella produzione, o nella gestione, o contengono altri ruoli, è possibile accedere a disposizione dei dati di magazzino in qualsiasi momento e ovunque. L'area di lavoro mobile offre un punto di vista istantaneo disponibile dello stato delle attrezzature e consente di visualizzare le scorte disponibili tra le attrezzature, le prenotazioni correnti materiali e le scorte disponibili non prenotato. È inoltre possibile immettere i numeri di articolo per eseguire query sulle scorte disponibili ed eseguire una ricerca filtrata disponibile per i prodotti o di varianti. In particolare, l'area di lavoro mobile sono disponibili le seguenti funzionalità:
+In genere, le società con più spedizioni e più ricevimenti di scorte ogni giorno. Tali movimenti modificano costantemente lo stato delle scorte disponibili. L'area di lavoro mobile Scorte disponibili consente di visualizzare lo stato delle scorte interaziendali disponibili, in modo da poter ottenere le informazioni più aggiornate sui dati delle scorte sul dispositivo mobile di propria scelta. Indipendentemente dal fatto che si lavori nel magazzino o nei reparti acquisti, vendite, produzione, gestione o si ricoprano altri ruoli, è possibile accedere ai dati sulle scorte disponibili in qualsiasi momento e ovunque. L'area di lavoro mobile offre un punto di vista istantaneo dello stato di disponibilità in tutte le strutture e consente di visualizzare le scorte disponibili in tutte le strutture, le prenotazioni correnti di materiali e le scorte disponibili non prenotate. È inoltre possibile immettere i numeri di articolo per eseguire query sulle scorte disponibili ed eseguire una ricerca filtrata per i prodotti o le varianti disponibili. In particolare, l'area di lavoro mobile fornisce le seguenti funzionalità:
 
--   È possibile cercare il numero o il nome prodotto sotto/co-prodotti per individuare i prodotti per visualizzare le scorte disponibili lo stato delle scorte.
+-   È possibile cercare per nome o numero di prodotto per individuare i prodotti per i quali visualizzare lo stato delle scorte disponibili.
 -   Per i prodotti selezionati, è possibile visualizzare le seguenti informazioni:
-    -   Scorte disponibili per sito
-    -   Scorte disponibili per magazzino
-    -   Scorte disponibili per l'ubicazione
-    -   Scorte disponibili per batch (per i prodotti controllato per lotto)
-    -   Scorte disponibili per stato di magazzino
+    -   Scorte disponibili in base al sito
+    -   Scorte disponibili in base al magazzino
+    -   Scorte disponibili in base alla località
+    -   Scorte disponibili per batch (per prodotti controllati in base ai batch)
+    -   Scorte disponibili in base allo stato dell'inventario
 
 <!-- -->
 
--   La quantità di prodotto disponibile viene visualizzato nei seguenti modi:
-    -   Dall'inventario fisico (questa visualizzazione per l'importo totale.)
-    -   Da quantità fisica prenotata (questa visualizzazione alla quantità prenotata).
-    -   Dal valore Fisico disponibile (questa visualizzazione alla quantità disponibile per il quale non è necessario).
+-   Le scorte di prodotti disponibili vengono visualizzate nei seguenti modi:
+    -   Per scorte fisiche (questa visualizzazione rappresenta l'importo totale).
+    -   Per scorte prenotate (questa visualizzazione rappresenta l'importo prenotato).
+    -   Per scorte fisiche disponibili (questa visualizzazione rappresenta la quantità disponibile senza prenotazioni).
 
 ## <a name="get-started"></a>Per iniziare
 Per iniziare sul dispositivo mobile:
 
-1.  Dalla memoria di cellulare del app, download e impostare Microsoft Dynamics 365 per il app delle operazioni.
-2.  Inizia app Approvazioni sull'unità.
-3.  Immettere il proprio Dynamics 365 URL.
-4.  Immettere la società in per accedere a. Ad esempio, immettere USMF ** **.
-5.  La prima volta che ha in, verrà chiesto di specificare il nome utente e password per il sistema Microsoft Dynamics 365 per l'account operazioni. Immettere le credenziali. Dopo avere accesso in, vengono visualizzate le aree di lavoro disponibili per la società.
+1.  Nell'App Store mobile, scaricare e installare l'app Microsoft Dynamics 365 for Operations.
+2.  Avviare l'app sul dispositivo.
+3.  Immettere il proprio URL Dynamics 365.
+4.  Immettere la società a cui accedere. Ad esempio, immettere **USMF**.
+5.  La prima volta che si accede, verrà richiesto di specificare il nome utente e la password per l'account Microsoft Dynamics 365 for Operations. Immettere le proprie credenziali. Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società.
 
-Per visualizzare le aree di lavoro nell'app Approvazioni di cellulare, è necessario rilasciare le aree di lavoro desiderate in Dynamics 365 per il app delle operazioni.
+Per visualizzare le aree di lavoro nell'app mobile, è necessario innanzitutto pubblicare le aree di lavoro desiderate nell'app Dynamics 365 for Operations.
 
-1.  Avviare Dynamics 365 per le operazioni.
-2.  ** Fare clic su Amministrazione sistema ** &gt; ** l'impostazione ** &gt; ** parametri di sistema **.
-3.  Selezionare ** gestire il app mobile **.
-4.  Selezionare l'area di lavoro per emettere la piattaforma spostato.
-5.  ** Pubblicare Selezionare l'area di lavoro **.
-6.  Aggiorna la propria unità per visualizzare le aree di lavoro generati.
+1.  Avviare Dynamics 365 for Operations.
+2.  Passare ad **Amministrazione sistema** &gt; **Impostazioni** &gt; **Parametri di sistema**.
+3.  Selezionare **Gestisci app per dispositivi mobili**.
+4.  Selezionare l'area di lavoro da pubblicare nella piattaforma mobile.
+5.  Selezionare **Pubblica area di lavoro**.
+6.  Aggiornare il dispositivo per visualizzare le aree di lavoro pubblicate.
 
-## <a name="view-the-onhand-inventory-for-a-product"></a>Visualizza il disponibile per un prodotto
-1.  Nel dispositivo mobile, selezionare ** scorte disponibili ** l'area di lavoro.
-2.  Selezionare ** controlli disponibili per un articolo **. Gli un elenco di prodotti caricati nell'app per l'utilizzo offline. Per impostazione predefinita, 50 articoli vengono caricati, ma è possibile cambiare questo numero. Per ulteriori informazioni, vedere il manuale di preliminari read.
-3.  Se all'articolo non è presente nell'elenco selezionare, cercare ** più ** effettuare una ricerca in linea in Dynamics 365 per le operazioni. Ricerca del numero di prodotti, o selezionare un nome di sottoprodotto di ricerca.
-4.  Selezionare un prodotto. Se l'articolo è un'immagine, l'immagine verrà visualizzata.
-5.  Selezionare una delle seguenti opzioni per visualizzare le scorte disponibili lo stato delle scorte:
-    -   Visualizza le scorte disponibili per sito
-    -   Visualizza le scorte disponibili per magazzino
-    -   Visualizza le scorte disponibili per l'ubicazione
-    -   Visualizza le scorte disponibili per batch (per i prodotti controllato per lotto)
-    -   Visualizza le scorte disponibili per stato di magazzino
+## <a name="view-the-onhand-inventory-for-a-product"></a>Visualizzare le scorte disponibili per un prodotto
+1.  Sul dispositivo mobile, selezionare l'area di lavoro **Scorte disponibili**.
+2.  Selezionare **Verifica disponibilità per un articolo**. Viene visualizzato un elenco dei prodotti caricati nell'app per l'utilizzo offline. Per impostazione predefinita, 50 articoli vengono caricati, ma è possibile cambiare questo numero. Per ulteriori informazioni, vedere il manuale iniziale.
+3.  Se l'articolo non è presente nell'elenco, selezionare **Cerca altro** per effettuare una ricerca online in Dynamics 365 for Operations. Cercare per numero di prodotto o passare a una ricerca per nome di prodotto.
+4.  Selezionare un prodotto. Se l'articolo dispone di un'immagine, l'immagine viene visualizzata.
+5.  Selezionare una delle seguenti opzioni per visualizzare lo stato delle scorte disponibili:
+    -   Visualizzare le scorte disponibili in base al sito
+    -   Visualizzare le scorte disponibili in base al magazzino
+    -   Visualizzare le scorte disponibili in base alla località
+    -   Visualizzare le scorte disponibili per batch (per prodotti controllati in base ai batch)
+    -   Visualizzare le scorte disponibili in base allo stato dell'inventario
 
-    La quantità di prodotto disponibile viene visualizzato nei seguenti modi:
-    -   Dall'inventario fisico (questa visualizzazione per l'importo totale.)
-    -   Da quantità fisica prenotata (questa visualizzazione alla quantità prenotata).
-    -   Dal valore Fisico disponibile (questa visualizzazione alla quantità disponibile per il quale non è necessario).
+    Le scorte di prodotti disponibili vengono visualizzate nei seguenti modi:
+    -   Per scorte fisiche (questa visualizzazione rappresenta l'importo totale).
+    -   Per scorte prenotate (questa visualizzazione rappresenta l'importo prenotato).
+    -   Per scorte fisiche disponibili (questa visualizzazione rappresenta la quantità disponibile senza prenotazioni).
 
 
 

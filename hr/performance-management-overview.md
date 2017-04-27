@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Panoramica della gestione delle prestazioni
 
+[!include[banner](includes/banner.md)]
+
+
 Il processo di gestione delle prestazioni consente ai dipendenti di documentare e discutere le prestazioni con il responsabile. A loro volta, i responsabili possono quindi fornire un riscontro e le indicazioni ai dipendenti.  
 
 Come illustrato nel diagramma, sono disponibili tre pagine che consentono di gestire il processo:
@@ -34,7 +37,7 @@ Come illustrato nel diagramma, sono disponibili tre pagine che consentono di ges
 -   Obiettivi
 -   Verifica delle prestazioni
 
-Nel diagramma riportato di seguito viene illustrato come i componenti principali di gestione delle prestazioni sono correlati tra loro. [panoramica del processo![prestazione![(]. /media/hcm_performanceoverviewdiagram-300x189.png)](. /media/hcm_performanceoverviewdiagram.png)    
+Nel diagramma riportato di seguito viene illustrato come i componenti principali di gestione delle prestazioni sono correlati tra loro. [![Panoramica del processo delle prestazioni](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Giornale di registrazione prestazioni
 In qualità di dipendente, prima di completare la revisione, spesso si raccolgono informazioni sulle attività o sugli eventi che hanno contribuito al proprio successo durante un periodo di revisione. Nel giornale di registrazione prestazioni è possibile documentare tali attività ed eventi. Inoltre, è possibile creare attività future che devono essere completate per raggiungere un obiettivo, soddisfare i requisiti di un piano di sviluppo o soddisfare requisiti di prestazioni. I giornali di registrazione prestazioni non sono necessari per creare obiettivi o revisioni delle prestazioni. 
@@ -132,7 +135,7 @@ Il dipendente e/o il responsabile verranno elencati nella revisione in base ai p
 Il flusso di lavoro Revisione lavoratore ha due elementi:
 
 1.  Approva revisione. Aggiungere questo elemento per controllare la modifica dello stato da **In corso** a **Pronto per revisione**. Modificare l'assegnazione per utilizzare la gerarchia direttiva in cui il livello del responsabile Employee.line = 1.
-2.  Revisione finale. Aggiungono questa voce per controllare la modifica allo stato da ** attesa di revisione ** ** ricerca finale **. Consente di modificare l'allocazione per utilizzare la gerarchia direttiva in cui il livello del responsabile di Employee.line = 1 se si desidera che il responsabile della revisione finale. Modificare l'assegnazione su Utente del flusso di lavoro se si desidera che il dipendente la approvi. Se si desidera che il responsabile e il dipendente la approvino, aggiungere due passaggi nel flusso di lavoro ed effettuare l'assegnazione appropriata per ogni passaggio nell'ordine che si desidera venga seguito dalle approvazioni.
+2.  Revisione finale. Aggiungere questo elemento per controllare la modifica dello stato da **Pronto per revisione** a **Revisione finale**. Modificare l'assegnazione per utilizzare la gerarchia direttiva dove il livello del responsabile Employee.line = 1 se si desidera che il responsabile approvi la revisione finale. Modificare l'assegnazione su Utente del flusso di lavoro se si desidera che il dipendente la approvi. Se si desidera che il responsabile e il dipendente la approvino, aggiungere due passaggi nel flusso di lavoro ed effettuare l'assegnazione appropriata per ogni passaggio nell'ordine che si desidera venga seguito dalle approvazioni.
 
 ## <a name="setup"></a>Imposta
 Sono disponibili tre pagine che consentono di impostare le informazioni necessarie per completare il processo delle prestazioni: la pagina **misure**, la pagina **tipi di origine giornale di registrazione prestazioni** e la pagina **tipi di revisione**.
@@ -148,5 +151,7 @@ I tipi di origine giornale di registrazione prestazioni descrivono la provenienz
 ### <a name="review-types"></a>Tipi di revisione
 
 I tipi di revisione prestazioni consentono di controllare il comportamento di una revisione. È possibile abilitare o disabilitare il flusso di lavoro di una revisione. Se la revisione non utilizza un flusso di lavoro, è possibile definire lo stato predefinito da utilizzare quando la revisione viene creata. È inoltre possibile decidere se al dipendente, al responsabile o a entrambi verrà richiesto di confermare la revisione.
+
+
 
 

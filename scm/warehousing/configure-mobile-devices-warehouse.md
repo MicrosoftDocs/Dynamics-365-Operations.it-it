@@ -1,5 +1,5 @@
 ---
-title: Dispositivi mobili di impostazione del lavoro del magazzino
+title: Configurare i dispositivi mobili per il lavoro magazzino
 description: Questo articolo descrive come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Dispositivi mobili di impostazione del lavoro del magazzino
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurare i dispositivi mobili per il lavoro magazzino
 
 Questo articolo descrive come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 
@@ -35,7 +35,7 @@ Questo articolo descrive come si configurano le voci di menu che i lavoratori de
 -   Creare un lavoro che viene eseguito tramite un altro processo. Ad esempio, la ricezione di un articolo per un ordine fornitore può creare il lavoro di stoccaggio per un altro lavoratore.
 -   Eseguire il lavoro creato da un altro processo (lavoro esistente), ad esempio lavoro di stoccaggio creato quando un articolo è stato ricevuto per un ordine fornitore.
 
-Per creare una voce di menu per un'attività o una richiesta, impostare ** modalità ** il campo su ** ** indiretti. Elenco ** codice attività ** opzioni quindi diventa disponibile, in modo da poter selezionare il tipo di indagine o di attività che la voce di menu viene impostato. Per creare una voce di menu per generare il lavoro del magazzino, impostare ** modalità ** il campo su ** ** lavoro. Elenco ** processo di creazione di lavoro ** opzioni quindi sarà disponibile. Per creare una voce di menu per elaborare un lavoro di magazzino esistente, impostare il campo **Modo** su **Lavoro**, quindi impostare l'opzione **Utilizza lavoro esistente** su **Sì**. ** Nota: ** Campi aggiuntivi possono essere disponibili per le voci di menu, a seconda della modalità selezionata per la voce di menu e se la voce di menu utilizzata per eseguire il lavoro esistente. Per informazioni sulle selezioni di campi aggiuntivi, vedere più avanti la sezione "Opzioni aggiuntive sulla voce di menu nella documentazione relativa all'articolo.
+Per creare una voce di menu per un'attività o una richiesta, impostare il campo **Modalità** su **Indiretta**. Diventa quindi disponibile un elenco di opzioni **Codice attività**, nel quale è possibile selezionare il tipo di richiesta o di attività per il quale è impostata la voce di menu. Per creare una voce di menu per generare il lavoro magazzino, impostare il campo **Modalità** su **Lavoro**. Diventa disponibile un elenco di opzioni **Processo di creazione lavoro**. Per creare una voce di menu per elaborare un lavoro di magazzino esistente, impostare il campo **Modo** su **Lavoro**, quindi impostare l'opzione **Utilizza lavoro esistente** su **Sì**. **Nota:** se la voce di menu viene utilizzata per eseguire un lavoro esistente e a seconda della modalità selezionata per la voce di menu, sono disponibili campi aggiuntivi per le voci di menu. Per informazioni sulle selezioni dei campi aggiuntivi, vedere la sezione "Opzioni aggiuntive della voce di menu" in questo argomento.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurare voci di menu per attività e richieste di informazioni
 Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è possibile creare una voce di menu per eseguire un'attività o una richiesta di informazioni generale che non crea il lavoro. Esempi includono attività quali la ristampa di etichette targa e le richieste di informazioni per gli articoli in un'ubicazione. Nella seguente tabella vengono elencate le opzioni disponibili.
@@ -190,7 +190,7 @@ Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è poss
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configurare voci di menu per elaborare il lavoro esistente
-Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile impostare le voci di menu per elaborare lavoro che è già stato creato. Impostare il campo **Modalità** su **Lavoro** e selezionare l'opzione **Utilizza lavoro esistente**. Alcune opzioni aggiuntive quindi sono disponibili ** dettagli relativi all'identificazione ** nella scheda. È possibile controllare l'accesso alla voce di menu assegna una o più classi di lavoro ** classe di lavoro ** clic. Le classi di lavoro definiscono il lavoro che la voce di menu può elaborare. La classe di lavoro può anche essere utilizzata per concedere l'accesso a ruoli utente specifici o per separare l'elaborazione per diversi tipi di transazioni. Nella seguente tabella vengono illustrate le opzioni disponibili.
+Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile impostare le voci di menu per elaborare lavoro che è già stato creato. Impostare il campo **Modalità** su **Lavoro** e selezionare l'opzione **Utilizza lavoro esistente**. Alcune opzioni aggiuntive diventano quindi disponibili nella scheda **Generale**. È possibile controllare l'accesso alla voce di menu assegnando una o più classi di lavoro nella Scheda dettaglio **Classe lavoro**. Le classi di lavoro definiscono il lavoro che la voce di menu può elaborare. La classe di lavoro può anche essere utilizzata per concedere l'accesso a ruoli utente specifici o per separare l'elaborazione per diversi tipi di transazioni. Nella seguente tabella vengono illustrate le opzioni disponibili.
 
 <table>
 
@@ -210,7 +210,7 @@ Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile i
 </tr>
 <tr class="even">
 <td>Diretto dal sistema</td>
-<td>Microsoft Dynamics 365 per i controlli operativi il tipo di lavoro assegnato a un lavoratore e l'ordine in cui il lavoratore esegue l'intervento di entrata. Quando si seleziona questa opzione, è possibile fare <strong>Sistema- di lavoro</strong> clic su nel riquadro azioni per <strong>Sistema- disposti nell'ordine</strong> aprire la pagina, in cui è possibile impostare i criteri di ordinamento per il lavoro. I criteri di ordinamento consentono di controllare l'ordine in cui il lavoratore eseguire il lavoro in. È possibile aggiungere un numero illimitato dei criteri come ordinati.</td>
+<td>Microsoft Dynamics 365 for Operations controlla il tipo di lavoro che viene assegnato al lavoratore e l'ordine in cui il lavoratore esegue il lavoro. Quando si seleziona questa opzione, è possibile fare clic su <strong>Lavoro gestito dal sistema</strong> nel riquadro Azione per aprire la pagina <strong>Ordinamento gestito dal sistema</strong>, nella quale si possono impostare i criteri di ordinamento per il lavoro. I criteri di ordinamento controllano l'ordine in cui il lavoratore esegue il lavoro. È possibile aggiungere tutti i criteri necessari.</td>
 </tr>
 <tr class="odd">
 <td>Diretto dall'utente</td>
@@ -230,7 +230,7 @@ Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile i
 </tr>
 <tr class="even">
 <td>Diretto dall'utente con convalida</td>
-<td>Il lavoratore seleziona il lavoro da eseguire quando il lavoro è associato a un'entità più grande, ad esempio un carico o una spedizione. Lavoratore determina l'ordine in cui vengono prelevati gli articoli in. Se si seleziona questa opzione, i seguenti campi sono obbligatori:
+<td>Il lavoratore seleziona il lavoro da eseguire quando il lavoro è associato a un'entità più grande, ad esempio un carico o una spedizione. Il lavoratore determina l'ordine in cui prelevare gli articoli. Se si seleziona questa opzione, i seguenti campi sono obbligatori:
 <ul>
 <li><strong>Campo diretto dall'utente con convalida</strong>: selezionare il campo che verrà sottoposto a scansione dal lavoratore per raggruppare il lavoro.</li>
 <li><strong>Etichetta diretta dall'utente con convalida</strong>: immettere il testo per indicare al lavoratore gli elementi da sottoporre a scansione quando il lavoro di prelievo viene raggruppato dal sistema.</li>
@@ -271,7 +271,7 @@ Nella seguente tabella sono descritte queste opzioni.
 </tr>
 <tr class="even">
 <td>Ancoraggio</td>
-<td>Selezionare questa opzione per consentire ai lavoratori di specificare un'ubicazione che sostituisca l'ubicazione di carico o di gestione temporanea suggerita. Tutto il lavoro di stoccaggio rimanente viene indirizzato alla nuova ubicazione. Ad esempio, questa opzione è utile quando un lavoratore deve inserire gli articoli per l'ordine 1 in un'ubicazione di gestione temporanea dalla banchina 1, ma non può perché un carico precedente non ha cancellato l'ubicazione. Anziché attendere la posizione dell'organizzazione del cross-docking 1 per migliorare disponibile, il lavoratore può scegliere di utilizzare la posizione di organizzazione per il cross-docking. 2. In questo caso, il lavoratore sovrascrive l'ubicazione mettente Approntato consigliata. L'ubicazione di stoccaggio per tutti gli articoli rimanenti dell'ordine di lavoro viene aggiornata impostando l'ubicazione di gestione temporanea della banchina 2. Se si seleziona questa opzione, è necessario immettere un valore nel campo <strong>Ancora per</strong>.</td>
+<td>Selezionare questa opzione per consentire ai lavoratori di specificare un'ubicazione che sostituisca l'ubicazione di carico o di gestione temporanea suggerita. Tutto il lavoro di stoccaggio rimanente viene indirizzato alla nuova ubicazione. Ad esempio, questa opzione è utile quando un lavoratore deve inserire gli articoli per l'ordine 1 in un'ubicazione di gestione temporanea dalla banchina 1, ma non può perché un carico precedente non ha cancellato l'ubicazione. Anziché attendere che diventi disponibile l'ubicazione gestione temporanea banchina 1, il lavoratore può scegliere di utilizzare l'ubicazione gestione temporanea per la banchina 2. In questo caso, il lavoratore ignora l'ubicazione gestione temporanea suggerita. L'ubicazione di stoccaggio per tutti gli articoli rimanenti dell'ordine di lavoro viene aggiornata impostando l'ubicazione di gestione temporanea della banchina 2. Se si seleziona questa opzione, è necessario immettere un valore nel campo <strong>Ancora per</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Ancora per</td>
@@ -380,7 +380,7 @@ Nella seguente tabella sono descritte queste opzioni.
 </tr>
 <tr class="odd">
 <td>Codice modello lavoro</td>
-<td>Selezionare il modello di lavoro che crea il lavoro per un processo. Ad esempio, se si riceve un articolo per un ordine fornitore, assegnare - tramite il lavoro verrà generato in base al modello di lavoro. Se non si seleziona un modello di lavoro, Microsoft Dynamics 365 per le operazioni assegna un modello, in base ai criteri di query. Per ulteriori informazioni sui modelli di lavoro, vedere <a href="control-warehouse-location-directives.md">Controllo del lavoro di magazzino con modelli di lavoro e direttive di ubicazione</a>.</td>
+<td>Selezionare il modello di lavoro che crea il lavoro per un processo. Ad esempio, se si riceve un articolo per un ordine fornitore, il lavoro di stoccaggio viene generato in base al modello di lavoro. Se non si seleziona un modello di lavoro, Microsoft Dynamics 365 for Operations assegna un modello, in base ai criteri di query. Per ulteriori informazioni sui modelli di lavoro, vedere <a href="control-warehouse-location-directives.md">Controllo del lavoro di magazzino con modelli di lavoro e direttive di ubicazione</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -409,8 +409,8 @@ Nella tabella seguente sono descritti i diversi tipi di lavoro per cui è possib
 
 [Impostazioni di visualizzazione per il dispositivo mobile del magazzino](change-warehouse-mobile-device-displays.md)
 
-[Impostazione di una voce di menu del dispositivo mobile per ultimare lavoro di tipo ordine fornitore (Guida di attività)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[Impostare una voce di menu del dispositivo mobile per ultimare i lavori di tipo ordine acquisto (guida attività)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Impostazione di una voce di menu del dispositivo mobile per registrare gli articoli ricevuti (Guida di attività)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti (guida attività)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
 
 

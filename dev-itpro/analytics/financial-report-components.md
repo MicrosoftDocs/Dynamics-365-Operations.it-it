@@ -101,7 +101,7 @@ Dopo che un gruppo di blocchi predefiniti è stato creato e viene utilizzato, è
 
 ### <a name="export-a-building-block-group"></a> Esportare un gruppo di blocchi predefiniti
 
-È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti del report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il file gruppo di blocchi predefiniti come copia di backup. È inoltre possibile copiare i dati esportati tra gruppi di blocchi predefiniti o Dynamics 365 per le installazioni delle operazioni. In Progettazione report include gli stili di carattere e i set di dimensioni a cui viene fatto riferimento con il gruppo di blocchi predefiniti.
+È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti del report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il gruppo di blocchi predefiniti esportati come backup. È inoltre possibile copiare i dati esportati tra gruppi di blocchi predefiniti o installazioni di Dynamics 365 for Operations. La funzionalità di progettazione report include gli stili di carattere e i set di dimensioni di riferimento con il gruppo di blocchi predefiniti.
 1.  In Progettazione report, menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
 2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti**, selezionare il gruppo di blocchi predefiniti da esportare e fare clic su **Esporta**.
 3.  Nella finestra di dialogo **Esporta**, selezionare le definizioni di report da esportare:

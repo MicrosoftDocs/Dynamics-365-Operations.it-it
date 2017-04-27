@@ -1,6 +1,6 @@
 ---
 title: Configurare le rubriche globali
-description: "In questo articolo viene descritto considerazioni e le decisioni che è necessario effettuare durante il processo di pianificazione, prima di impostare e configurare la rubrica globale ed eventuali ulteriori rubriche in Microsoft Dynamics 365 per le operazioni. Alcune decisioni richiederanno la conferma delle decisioni che sono state prese per altre aree del prodotto, ad esempio la gerarchia organizzativa."
+description: "Questo articolo descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di impostare e configurare la rubrica globale ed eventuali rubriche aggiuntive in Microsoft Dynamics 365 for Operations. Alcune decisioni richiederanno la conferma delle decisioni che sono state prese per altre aree del prodotto, ad esempio la gerarchia organizzativa."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-global-address-books"></a>Configurare le rubriche globali
 
-In questo articolo viene descritto considerazioni e le decisioni che è necessario effettuare durante il processo di pianificazione, prima di impostare e configurare la rubrica globale ed eventuali ulteriori rubriche in Microsoft Dynamics 365 per le operazioni. Alcune decisioni richiederanno la conferma delle decisioni che sono state prese per altre aree del prodotto, ad esempio la gerarchia organizzativa.
+[!include[banner](../includes/banner.md)]
+
+
+Questo articolo descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di impostare e configurare la rubrica globale ed eventuali rubriche aggiuntive in Microsoft Dynamics 365 for Operations. Alcune decisioni richiederanno la conferma delle decisioni che sono state prese per altre aree del prodotto, ad esempio la gerarchia organizzativa.
 
 <a name="global-address-book"></a>Rubrica globale
 -------------------
@@ -61,6 +64,8 @@ Dopo aver creato la Rubrica globale, è possibile creare Rubriche aggiuntive in 
 In qualsiasi momento è possibile creare rubriche e impostare parametri di sicurezza per le rubriche. Non è necessario impostare i privilegi di sicurezza per una rubrica, me se non si fa, tutti i lavoratori all'interno dell'organizzazione potranno visualizzare tutti i record di parti nella rubrica. È possibile impostare privilegi di sicurezza per record di parti nelle rubriche. I privilegi di sicurezza sono basati sui team. Questo approccio garantisce che solo i lavoratori assegnati a un team con l'autorizzazione ad accedere a una rubrica possono visualizzare i record di parti nella rubrica. È necessario selezionare i team che hanno accesso a ogni rubrica. Per ogni rubrica è possibile impostare privilegi di sicurezza che consentono o negano l'accesso a specifici team. Se a un team vengono concessi privilegi per una rubrica, tutti i membri del team potranno visualizzare i record nella rubrica. Se a un team non viene concesso l'accesso a una rubrica, i membri del team non potranno visualizzare la rubrica o i suoi contenuti. **Decisione:**
 
 -   Quali team devo avere accesso a ogni nuova rubrica creata?
+
+
 
 
 

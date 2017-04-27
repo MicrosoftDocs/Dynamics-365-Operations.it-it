@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Conti di registrazione per dismissione cespiti
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo illustra come impostare i conti di registrazione della contabilità generale per la dismissione dei cespiti.
 
 Nella pagina Profilo registrazione cespiti, nella scheda dettaglio Conti CoGe selezionare Dismissione - Vendita e dismissione - Scarto per impostare le registrazioni nella contabilità generale.
@@ -37,6 +40,8 @@ Per entrambi i tipi di transazione, nel conto CoGe verrà accreditato il valore 
 Fare clic su Dismissione e quindi su Vendita o Scarto, quindi impostare i dettagli dei conti in cui stornare il valore contabile netto del cespite. È inoltre possibile immettere informazioni nei campi Valore registrato e Tipo valore netto di vendita nella pagina dei parametri di dismissione. 
 
 La transazione di dismissione per un cespite in un pool a basso valore riduce il valore contabile netto del pool soltanto dell'importo dismesso. Quando tuttavia la vendita di un cespite è superiore al valore contabile netto del pool, il valore contabile netto viene ridotto a zero.
+
+
 
 
 

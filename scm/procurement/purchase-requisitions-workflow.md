@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>flusso di lavoro delle richieste di acquisto
 
+[!include[banner](../includes/banner.md)]
+
+
 Il processo del flusso di lavoro fa avanzare le richieste di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di Bozza fino allo stato finale di Approvata. Nel momento in cui si crea e si invia una richiesta di acquisto per la revisione, ha inizio il processo del flusso di lavoro. In seguito all'approvazione della richiesta di acquisto, è possibile generare un ordine fornitore per le righe della richiesta di acquisto e inviarlo al fornitore per evasione dell'ordine.
 
 Prima di poter inviare una richiesta di acquisto per la revisione, è necessario configurare un flusso di lavoro. Il processo del flusso di lavoro può includere uno o più passaggi di revisione in qualsiasi ordine. Il processo del flusso di lavoro può anche essere configurato in modo da ignorare le attività di revisione e da approvare automaticamente la richiesta di acquisto. È possibile configurare il processo del flusso di lavoro per inoltrare la richiesta di acquisto come singolo documento oppure è possibile inoltrare righe singole di richiesta di acquisto agli opportuni revisori. È inoltre possibile creare uno scenario in cui la richiesta di acquisto viene inviata come documento singolo ad alcuni revisori, mentre ad altri revisori vengono inviate specifiche righe della richiesta di acquisto.  
@@ -106,12 +109,14 @@ Per utilizzare uno dei revisori spese definiti in un flusso di lavoro, è necess
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare una richiesta per il consumo della Guida (attività)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Creare una richiesta per il consumo (guida attività)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [Definizione di flussi di lavoro di processi aziendali per le richieste di acquisto](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[Flussi di lavoro di approvvigionamento](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[Panoramica delle richieste di acquisto](purchase-requisitions-overview.md)
+
+
 
 

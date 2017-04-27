@@ -1,6 +1,6 @@
 ---
-title: Organizzazioni e gerarchie organizzative (elementi fondamentali del commercio)
-description: "Elementi fondamentali del commercio ha tre tipi di organizzazioni interne che è possibile definire per consentire a un&quot;organizzazione per svolgere un processo aziendale o raggiungere un obiettivo."
+title: "Organizzazioni e gerarchie organizzative (Funzionalità fondamentali commercio)"
+description: "Funzionalità fondamentali commercio ha tre tipi di organizzazioni interne che è possibile definire per consentire a un&quot;organizzazione di svolgere un processo aziendale o raggiungere un obiettivo."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizzazioni e gerarchie organizzative (elementi fondamentali del commercio)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizzazioni e gerarchie organizzative (Funzionalità fondamentali commercio)
 
-Elementi fondamentali del commercio ha tre tipi di organizzazioni interne che è possibile definire per consentire a un'organizzazione per svolgere un processo aziendale o raggiungere un obiettivo. 
+[!include[banner](includes/banner.md)]
+
+
+Funzionalità fondamentali commercio ha tre tipi di organizzazioni interne che è possibile definire per consentire a un'organizzazione di svolgere un processo aziendale o raggiungere un obiettivo. 
 
 Un'organizzazione è un gruppo di persone che collaborano per svolgere un processo aziendale o per raggiungere un obiettivo. Una gerarchia organizzativa rappresenta le relazioni tra le Business Unit che fanno parte dell'organizzazione.
 
@@ -47,7 +50,7 @@ Un'unità operativa è un'organizzazione utilizzata per dividere il controllo de
 | Canale di vendita al dettaglio          | Un'unità operativa che rappresenta un punto vendita fisico.                             | Può essere utilizzato per gestire e controllare uno o più punti vendita all'interno di una o più persone giuridiche.                                                               |
 
 ## <a name="organizational-hierarchies"></a>Gerarchie organizzative
-In Elementi fondamentali del commercio, a ogni gerarchia viene assegnato uno scopo. Lo scopo di una gerarchia determina i tipi di organizzazioni che è possibile includere nella gerarchia. Lo scopo consente inoltre di determinare gli scenari di applicazione per la gerarchia. Ad esempio, una gerarchia punti vendita al dettaglio può essere utilizzata per acquistare e vendita di prodotti in una vendita al dettaglio. Le organizzazioni di una gerarchia possono condividere parametri, criteri e transazioni. Le organizzazioni possono ereditare o sostituire i parametri della relativa organizzazione padre. Tuttavia, l'anagrafica condivisa, ad esempio prodotti e rubriche, vengono applicati a tutta l'organizzazione e non possono essere sostituiti per le singole organizzazioni.
+In Elementi fondamentali del commercio, a ogni gerarchia viene assegnato uno scopo. Lo scopo di una gerarchia determina i tipi di organizzazioni che è possibile includere nella gerarchia. Lo scopo consente inoltre di determinare gli scenari di applicazione per la gerarchia. Ad esempio, una gerarchia punti vendita al dettaglio può essere utilizzata per acquistare e vendere prodotti in un punto vendita al dettaglio. Le organizzazioni di una gerarchia possono condividere parametri, criteri e transazioni. Le organizzazioni possono ereditare o sostituire i parametri della relativa organizzazione padre. Tuttavia, l'anagrafica condivisa, ad esempio prodotti e rubriche, vengono applicati a tutta l'organizzazione e non possono essere sostituiti per le singole organizzazioni.
 ### <a name="best-practices-for-setting-up-an-organization-in-a-hierarchy"></a>Procedure consigliate per l'impostazione di un'organizzazione in una gerarchia
 
 Quando si implementa una gerarchia organizzativa, considerare le procedure ottimali seguenti:
@@ -68,6 +71,8 @@ Nella seguente tabella sono descritti gli scenari di Elementi fondamentali del c
 | Gestire il rifornimento per la vendita al dettaglio                                                    | Raggruppare i negozi per rifornire le scorte in base alle regole di rifornimento.                                                                                                                                                                                                                                          | Rifornimento per vendita al dettaglio |
 | Creare report di dati per i negozi                                                         | Raggruppare i negozi per la creazione dei report.                                                                                                                                                                                                                                                                                | Report per vendita al dettaglio     |
 | Registrare il magazzino, calcolare o registrare i rendiconti per un gruppo di negozi | Creare un gruppo di negozi che possa essere assegnato a un processo batch. Quando si definisce un processo batch per la registrazione del magazzino, il calcolo o la registrazione dei rendiconti, è possibile specificare a quale gerarchia applicare il processo. Quando si aggiungono o si rimuovono i negozi dalla gerarchia, non è necessario modificare il processo batch. | Registrazione Retail POS   |
+
+
 
 
 

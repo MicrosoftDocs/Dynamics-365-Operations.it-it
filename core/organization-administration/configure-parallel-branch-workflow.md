@@ -26,13 +26,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Configurare un ramo parallelo in un flusso di lavoro
 
+[!include[banner](../includes/banner.md)]
+
+
 Per configurare un ramo parallelo, attenersi alle procedure indicate di seguito nell'editor flusso di lavoro.
 
 Un ramo parallelo è essenzialmente un flusso di lavoro eseguito nel contesto di un flusso di lavoro padre.
 
 ## <a name="name-a-branch"></a>Denominare un ramo
 Per immettere un nome per un ramo parallelo, effettuare le operazioni indicate di seguito.
-1.  Fare clic con il pulsante destro del mouse sul ramo parallelo e fare clic su ** proprietà **. Verrà visualizzato il modulo **Proprietà**.
+1.  Fare clic con il pulsante destro del mouse sul ramo parallelo, quindi scegliere **Proprietà**. Verrà visualizzato il modulo **Proprietà**.
 2.  Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
 3.  Nel campo **Nome** immettere un nome univoco per il ramo parallelo.
 4.  Fare clic su **Chiudi**.
@@ -47,6 +50,8 @@ Per progettare e configurare gli elementi del ramo parallelo, effettuare le oper
 <a name="see-also"></a>Vedere anche
 --------
 
-[Create a workflow](create-workflow.md)
+[Creare un flusso di lavoro](create-workflow.md)
+
+
 
 

@@ -28,23 +28,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-promising"></a>Promesse ordine
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date.
 
 Le promesse di ordine calcolano la prima data di spedizione e di entrate e si basa sul metodo di controllo data di consegna e sui giorni di consegna. È possibile scegliere tra quattro metodi di controllo della data di consegna:
 
--   ** Lead time di vendita - ** il lead time di vendita è il tempo tra la creazione dell'ordine cliente e la spedizione degli articoli. Il calcolo della data di consegna è basato su un numero predefinito di giorni e non verrà considerata la disponibilità scorte, la richiesta, nota o il rifornimento pianificato.
--   ** ATP (available-to-promise) - ** il valore ATP si intende la quantità di articolo disponibile e può essere promessa a un cliente in una data specifica. Il calcolo della quantità ATP include magazzino non impegnato, lead time, entrate e uscite pianificate.
+-   **Lead time di vendita**: è il tempo che trascorre tra la creazione di un ordine cliente e la spedizione degli articoli. Il calcolo della data di consegna è basato su un numero predefinito di giorni e non considera la disponibilità delle scorte, la domanda nota e l'offerta pianificata.
+-   **ATP (available-to-promise)**: è la quantità di un articolo disponibile e che può essere promessa a un cliente in una data specifica. Il calcolo della quantità ATP include magazzino non impegnato, lead time, entrate e uscite pianificate.
 -   **ATP + margine su uscita magazzino**: la data di spedizione è uguale alla data ATP più il margine su uscita da magazzino per l'articolo. Il margine su uscita da magazzino consiste nel tempo richiesto per preparare gli articoli per la spedizione.
 -   **CTP (capable-to-promise)**: la disponibilità viene calcolata tramite un'esplosione.
 
 ## <a name="atp-calculations"></a>Calcoli ATP
-La quantità ATP viene calcolata mediante la ATP cumulativa con il metodo dell'futuri. Il vantaggio principale del metodo di calcolo ATP è in grado di supportare i casi in cui la somma delle uscite tra le entrate è più consegna dell'ultima entrata (ad esempio, se la quantità da un'entrata precedente deve essere utilizzata per soddisfare una richiesta). "l'ATP cumulativa dal metodo di calcolo di ricerca in avanti" incluse tutte le uscite finché la quantità cumulativa da ricevere non superare la quantità cumulativa per l'uscita. Di conseguenza, il metodo di calcolo ATP valuta se parte della quantità di un periodo precedente può essere utilizzata in un periodo successivo.  
+La quantità ATP viene calcolata in base al metodo dell'ATP cumulativa includendo i periodi futuri. Il metodo di calcolo ATP ha come vantaggio principale la capacità di gestire i casi in cui la somma delle uscite tra le entrate è maggiore dell'ultima entrata, ad esempio nei casi in cui è necessario utilizzare una quantità di un'entrata precedente per soddisfare un fabbisogno. Il metodo di calcolo dell'ATP cumulativa includendo i periodi futuri include tutte le uscite finché la quantità cumulativa da ricevere non supera la quantità cumulativa per l'uscita. Di conseguenza, il metodo di calcolo ATP valuta se parte della quantità di un periodo precedente può essere utilizzata in un periodo successivo.  
 
 La quantità ATP è il saldo di magazzino non impegnato nel primo periodo. In genere viene calcolato per ogni periodo in cui è programmata un'entrata. Il periodo ATP viene calcolato in giorni e come prima data per la quantità ATP viene calcolata la data corrente. Nel primo periodo la quantità ATP include le scorte disponibili meno gli ordini cliente in scadenza o scaduti.  
 
 La quantità ATP viene calcolata utilizzando la seguente formula:  
 
-Per ATP = il valore ATP per il periodo precedente + entrate del periodo corrente - uscite del periodo corrente - quantità di uscita netta di ciascun periodo futuro fino al periodo in cui la somma delle entrate per tutti i periodi futuri, fino al periodo futuro, supera la somma delle uscite fino al periodo futuro.  
+ATP = ATP del periodo precedente + entrate del periodo corrente - uscite del periodo corrente - quantità di uscita netta di ciascun periodo futuro fino al periodo in cui la somma delle entrate di tutti i periodi futuri (periodo futuro incluso) non supera la somma delle uscite (periodo futuro incluso).  
 
 Una volta considerate tutte le uscite o le entrate, la quantità ATP delle date successive corrisponderà all'ultima quantità ATP calcolata.  
 
@@ -66,8 +69,10 @@ Un cliente chiama per ordinare 150 pezzi dello stesso prodotto. Quando si verifi
 
 Si crea una riga ordine cliente per il prodotto e si immette **150** per la quantità.  
 
-Poiché il metodo di controllo della data di consegna è ATP, i dati ATP vengono calcolati per individuare la prima data di spedizione possibile. In base alle impostazioni, l'ordine fornitore e l'ordine cliente scaduti vengono considerati e la quantità ATP risultante dalla data corrente è 0. Domani, quando l'ordine fornitore in cui è programmato per essere ricevuto, la quantità ATP viene calcolata in più di 0, in questo caso calcolato come 125). Tuttavia, i 10 giorni dalla data odierna, nell'ordine fornitore a per 100 pezzi si prevede di ricevere, la quantità ATP diventa superiore a 150.  
+Poiché il metodo di controllo della data di consegna è ATP, i dati ATP vengono calcolati per individuare la prima data di spedizione possibile. In base alle impostazioni, vengono considerati l'ordine fornitore e l'ordine cliente in ritardo e la quantità ATP risultante per la data corrente è 0. Il giorno successivo, quando è in programma la ricezione dell'ordine fornitore in ritardo, la quantità ATP viene calcolata come maggiore di 0, in questo caso, viene calcolata come 125. Nei 10 giorni successivi alla data corrente, quando si prevede la ricezione di un altro ordine fornitore da 100 pezzi, la quantità ATP diventa superiore a 150.  
 
-Di conseguenza, la data di spedizione è impostato su 10 giorni dalla data odierna, in base al calcolo ATP. SI informa pertanto il cliente che la quantità richiesta può essere consegnata a 10 giorni dalla data odierna.
+La data di spedizione viene quindi impostata su 10 giorni dalla data corrente, in base al calcolo ATP. SI informa pertanto il cliente che la quantità richiesta può essere consegnata a 10 giorni dalla data odierna.
+
+
 
 

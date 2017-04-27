@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-customer-invoice"></a>Creare una fattura cliente
 
+[!include[banner](../includes/banner.md)]
 
 
-Una **fattura cliente per un ordine cliente** è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente. Questo tipo di fattura cliente viene creato in base a un ordine cliente che include righe ordine e numeri articolo. I numeri articolo vengono specificati e registrati nella contabilità generale. Gli inserimenti nel giornale di registrazione secondario non sono disponibili per una fattura cliente per un ordine cliente. 
+
+
+Una **fattura cliente per un ordine cliente** è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente. Questo tipo di fattura cliente viene creato in base a un ordine cliente che include righe ordine e numeri articolo. I numeri articolo vengono specificati e registrati nella contabilità generale. Non sono disponibili inserimenti nel giornale di registrazione secondario per una fattura cliente relativa a un ordine cliente. 
 
 Una **fattura a testo libero** non è correlata a un ordine cliente. Contiene righe ordine che includono conti CoGe, descrizioni a testo libero e un importo di vendita immesso manualmente. Non è possibile immettere un numero articolo in questo tipo di fattura. È necessario immettere le informazioni sull'IVA appropriate. In ogni riga fattura viene indicato il conto principale per la vendita, che può essere distribuito in più conti CoGe facendo clic su **Distribuisci importi** nella **fattura a testo libero**. Il saldo cliente, inoltre, viene registrato nel conto riepilogativo dal profilo di registrazione utilizzato per la fattura a testo libero.
 
@@ -55,7 +58,7 @@ Visualizzare lo stato degli ordini cliente nella pagina elenco **Tutti gli ordin
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Consolidare gli ordini cliente o i documenti di trasporto per la registrazione
 Utilizzare questo processo quando uno o più ordini cliente sono pronti per la fatturazione e si desidera consolidarli in una singola fattura. 
 
-È possibile selezionare più fatture nella pagina elenco **Ordine cliente** e quindi utilizzare **Genera fatture** per consolidarle. ** Fattura di registrazione ** nella pagina, è possibile modificare ** ordine riepilogativo ** l'impostazione per riepilogare numero di ordine in cui sono presenti documenti di trasporto indirizzi per un singolo ordine cliente) o dal conto fatture in cui sono presenti ordini cliente indirizzi per un singolo conto fatture). Utilizzare ** sistemi ** viene subito per stabilizzare gli ordini cliente nelle singole fatture, in base ** ordine riepilogativo ** le impostazioni.
+È possibile selezionare più fatture nella pagina elenco **Ordine cliente** e quindi utilizzare **Genera fatture** per consolidarle. Nella pagina **Registrazione fattura** è possibile modificare l'impostazione **Ordine riepilogativo** per riepilogare per numero ordine (in cui sono presenti più documenti di trasporto per un singolo ordine cliente) o per conto fatture (in cui sono presenti più ordini cliente per un singolo conto fatture). Utilizzare il pulsante ****Disponi**** per consolidare gli ordini cliente in singole fatture, in base alle impostazioni ****Ordine riepilogativo****.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Impostazioni aggiuntive che modificano il comportamento di registrazione
 I seguenti campi modificano il comportamento del processo di registrazione.
@@ -123,8 +126,8 @@ I seguenti campi modificano il comportamento del processo di registrazione.
 <td>Verifica limite di credito</td>
 <td>Selezionare le informazioni che devono essere analizzate quando viene eseguito un controllo del limite di credito.
 <ul>
-<li><strong>None</strong> – There is no requirement for the credit limit check.</li>
-<li><strong>Balance</strong> – The credit limit is checked against the customer balance.</li>
+<li><strong>Nessuno</strong>: non è presente alcuna richiesta di controllo del limite di credito.</li>
+<li><strong>Saldo</strong>: il limite di credito viene verificato rispetto al saldo cliente.</li>
 <li><strong>Saldo+Documento di trasporto o entrata prodotti</strong>: il limite di credito viene verificato rispetto al saldo e alle consegne del cliente.</li>
 <li><strong>Saldo+Tutto</strong>: la verifica del limite di credito viene eseguita in base al saldo del cliente, alle consegne e agli ordini aperti.</li>
 </ul></td>
@@ -150,6 +153,8 @@ I seguenti campi modificano il comportamento del processo di registrazione.
 </tr>
 </tbody>
 </table>
+
+
 
 
 

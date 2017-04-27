@@ -1,6 +1,6 @@
 ---
-title: Dettagli delle dichiarazioni VAT per l&quot;Italia
-description: In questo argomento viene descritto come installare una dichiarazione VAT per le persone giuridiche italiane.
+title: Dettagli delle dichiarazioni IVA per l&quot;Italia
+description: In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,107 +24,112 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni VAT per l'Italia
+# <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni IVA per l'Italia
 
-In questo argomento viene descritto come installare una dichiarazione VAT per le persone giuridiche italiane. 
+[!include[banner](../includes/banner.md)]
 
-<a name="set-up-customervendor-tax-information-for-tax-reports"></a>Impostare le informazioni fiscali di clienti e fornitori per i report VAT
+
+In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia. 
+
+<a name="set-up-customervendor-tax-information-for-tax-reports"></a>Impostare le informazioni fiscali di clienti/fornitori per report fiscali
 ------------------------------------------------------
 
-Per generare il report VAT, cliente e il fornitore devono essere configurati con le informazioni fiscali per l'Italia. ** Clienti ** nella pagina, selezionare i campi nella seguente tabella.
+Per generare il report IVA, il cliente e il fornitore devono essere configurati con le informazioni fiscali per l'Italia. Nella pagina **Clienti**, selezionare i campi nella seguente tabella.
 
 #### <a name="invoice-and-delivery"></a>Fattura e consegna
 
-| **Field**             | **Description**                                        |
+| **Campo**             | **Descrizione**                                        |
 |-----------------------|--------------------------------------------------------|
-| **Tax exempt number** | Immettere la partita VAT per la dichiarazione VAT.       |
-| **Fiscal code**       | Immettere il codice fiscale del cliente.               |
-| ** Fascia VAT **   | Selezionare una fascia VAT da utilizzare per il cliente. |
+| **Partita IVA** | Immettere il numero di partita IVA per la dichiarazione IVA.       |
+| **Codice fiscale**       | Immettere il codice fiscale per questo cliente.               |
+| **Fascia IVA**   | Selezionare una fascia IVA da utilizzare per questo cliente. |
 
-** Fornitori ** nella pagina, selezionare i campi nella seguente tabella.
+Nella pagina **Fornitori**, selezionare i campi nella seguente tabella.
 
 #### <a name="invoice-and-delivery"></a>Fattura e consegna
 
-| **Field**             | **Description**                                      |
+| **Campo**             | **Descrizione**                                      |
 |-----------------------|------------------------------------------------------|
-| **Tax exempt number** | Immettere la partita VAT per la dichiarazione VAT.     |
-| **Fiscal code**       | Immettere il codice fiscale del fornitore.               |
-| ** Fascia VAT **   | Selezionare una fascia VAT da utilizzare per il fornitore. |
+| **Partita IVA** | Immettere il numero di partita IVA per la dichiarazione IVA.     |
+| **Codice fiscale**       | Immettere il codice fiscale per questo fornitore.               |
+| **Fascia IVA**   | Selezionare una fascia IVA da utilizzare per questo fornitore. |
 
-## <a name="set-up-a-company-fiscal-code-and-tax-registration-number"></a>Impostare un numero di conto della società e tassi il numero di registrazione
-Per generare report, il codice della società e il numero di registrazione fiscale devono essere installati ** persona giuridica ** nella pagina. ** Persona giuridica ** nella pagina, selezionare i campi nella seguente tabella.
+## <a name="set-up-a-company-fiscal-code-and-tax-registration-number"></a>Impostare codice fiscale e partita IVA della società
+Per generare report, il codice fiscale e la partita IVA della società devono essere impostati nella pagina **Persona giuridica**. Nella pagina **Persona giuridica**, selezionare i campi nella seguente tabella.
 
 #### <a name="registration-numbers"></a>Numeri di registrazione
 
-| **Field**        | **Description**                                                    |
+| **Campo**        | **Descrizione**                                                    |
 |------------------|--------------------------------------------------------------------|
-| ** Numero di conto **  | Immettere il codice fiscale della registrazione della persona giuridica è in Italia. |
-| ** Natura giuridica ** | Immettere la struttura legale della società.                          |
-| **CUC**          | Immettere il codice di CUC.                                                |
+| **Codice fiscale**  | Immettere il codice fiscale della registrazione della persona giuridica in Italia. |
+| **Natura giuridica** | Immettere la struttura legale della società.                          |
+| **CUC**          | Immettere il codice CUC.                                                |
 
 #### <a name="tax-registration"></a>Registrazione fiscale
 
-| **Field**               | **Description**                                                 |
+| **Campo**               | **Descrizione**                                                 |
 |-------------------------|-----------------------------------------------------------------|
-| Partita IVA | Immettere il numero di registrazione fiscale per la persona giuridica è in Italia |
+| Partita IVA | Immettere la partita IVA per la persona giuridica in Italia |
 
-#### <a name="set-up-parameters-for-italian-sales-tax-book"></a>Consente di impostare i parametri per il libro VAT italiano
+#### <a name="set-up-parameters-for-italian-sales-tax-book"></a>Impostare i parametri per il libro IVA italiano
 
-** VAT ** nella pagina, creare libri VAT da dichiarare al governo italiano dopo il periodo di liquidazione è oltre.
+Nella pagina **IVA**, creare i libri IVA da dichiarare al governo italiano dopo il periodo di liquidazione.
 
-| **Field**                     | **Description**                                 |
+| **Campo**                     | **Descrizione**                                 |
 |-------------------------------|-------------------------------------------------|
-| **Sales tax book type**       | Immettere la direzione di movimento. (Unità di vendita/acquisto)  |
-| **Sales tax book**            | Consente di immettere l'identificatore del libro VAT.     |
-| **Name**                      | Immettere il nome del libro VAT.           |
-| **Sales tax book type**       | Immettere la direzione di movimento. (Unità di vendita/acquisto)  |
-| **Settlement period**         | Il periodo per il libro VAT.                   |
-| **Closed to**                 | Selezionare la data della transazione.                    |
-| **EU sales**                  | Importo venduto all'Unione Europea.          |
-| ** ATECOFIN **                  | Numero di conto per il reporting VAT.           |
-| **Print summary and payment** | Selezionare questa opzione per stampare il riepilogo e il report di pagamento. |
+| **Tipo di libro IVA**       | Immettere la direzione del movimento. (Vendite/acquisti)  |
+| **Libro IVA**            | Immettere l'identificatore del libro IVA.     |
+| **Nome**                      | Immettere il nome del libro IVA.           |
+| **Tipo di libro IVA**       | Immettere la direzione del movimento. (Vendite/acquisti)  |
+| **Periodo di liquidazione**         | Il periodo per questo libro fiscale.                   |
+| **Chiuso al**                 | Selezionare la data della transazione.                    |
+| **Vendite UE**                  | L'importo di vendita per l'Unione Europea.          |
+| **ATECOFIN**                  | Il codice fiscale per il reporting IVA.           |
+| **Stampa riepilogo e pagamenti** | Selezionare questa opzione per stampare il riepilogo e il report di pagamento. |
 
 ## <a name="yearly-tax-communication-report"></a>Report di comunicazione annuale delle imposte
-Alla fine anno, generare il report per ogni periodo di liquidazione. La trasmissione è obbligatoria in base alle esigenze dell'autorità fiscale italiano tramite un sito Web. ** Impostazioni comunicazione annuale imposte ** nella pagina, è possibile creare o visualizzare un report.
+Dopo la fine dell'anno, generare il report per ogni periodo di liquidazione. La trasmissione è obbligatoria in base a quanto richiesto dall'autorità fiscale italiana tramite un sito Web. Nella pagina **Comunicazione annuale imposte**, è possibile creare o visualizzare un report.
 
 #### <a name="overview"></a>Panoramica
 
-| **Field**                | **Description**                                                                               |
+| **Campo**                | **Descrizione**                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------|
-| **Tax communication ID** | Immettere il numero di identificazione del report comunicazione annuale imposte.                       |
-| **Years**                | Immettere l'anno della comunicazione VAT.                                                      |
-| **ATECOFIN Code**        | Immettere il codice fiscale associato alla classificazione delle possibili attività della società. |
-| **Exported**             | Indica che il file con estensione ivc esportato.                                                     |
+| **ID comunicazione imposte** | Immettere il numero di identificazione del report Comunicazione annuale imposte.                       |
+| **Anni**                | Immettere l'anno della comunicazione imposte.                                                      |
+| **Codice ATECOFIN**        | Immettere il codice imposta associato alla classificazione di possibili attività della società. |
+| **Esportato**             | Indica che il file con estensione .ivc è esportato.                                                     |
 
 #### <a name="general"></a>Generale
 
-| **Field**                | **Description**                                                                               |
+| **Campo**                | **Descrizione**                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------|
-| **Tax communication ID** | Immettere il numero di identificazione del report comunicazione annuale imposte.                       |
-| **Years**                | Immettere l'anno della comunicazione VAT.                                                      |
-| **ATECOFIN Code**        | Immettere il codice fiscale associato alla classificazione delle possibili attività della società. |
-| **Exported**             | Indica che il file è stato esportato.                                                         |
-| **Date of export**       | Data in cui il file con estensione ivc è stato esportato.                                                     |
-| **Export file name**     | Nome del file con estensione ivc.                                                                    |
+| **ID comunicazione imposte** | Immettere il numero di identificazione del report Comunicazione annuale imposte.                       |
+| **Anni**                | Immettere l'anno della comunicazione imposte.                                                      |
+| **Codice ATECOFIN**        | Immettere il codice imposta associato alla classificazione di possibili attività della società. |
+| **Esportato**             | Indica che il file è stato esportato.                                                         |
+| **Data di esportazione**       | Data in cui è stato esportato il file con estensione .ivc.                                                     |
+| **Nome file di esportazione**     | Nome del file con estensione ivc.                                                                    |
 
-## <a name="vat-summary-report"></a>Minuti riepilogativo VAT
-Per il reporting VAT, l'Italia in informazioni specifiche da dichiarare e formattare. In ** gli uffici VAT ** pagine, da ** imposta impostata **, configurare l'autorità italiano.
+## <a name="vat-summary-report"></a>Report di riepilogo IVA
+Per il reporting IVA, l'Italia richiede la dichiarazione e la formattazione di informazioni specifiche. Nella pagina **Uffici IVA**, in **Impostazione fiscale**, configurare l'autorità italiana.
 
-| **Field**                                 | **Description**                                                                                |
+| **Campo**                                 | **Descrizione**                                                                                |
 |-------------------------------------------|------------------------------------------------------------------------------------------------|
-| **Report layout**                         | Selezionare il report italiano per attivare i campi italiani.                                            |
-| **Print blank page with no transactions** | Selezionare per stampare le pagine vuote quando non sono presenti transazioni.                                  |
-| **Separate summary register**             | Selezionare questa casella di controllo per utilizzare un libro IVA separato per numerare le sezioni riepilogative. |
-| **Account gain**                          | Guadagno dovuto l'arrotondamento.                                                                          |
-| **Account loss**                          | Perdita dovuta l'arrotondamento.                                                                          |
+| **Layout del report**                         | Selezionare il report italiano per attivare i campi italiani.                                            |
+| **Stampa pagina vuota senza transazioni** | Selezionare per stampare le pagine vuote quando non sono presenti transazioni.                                  |
+| **Registro riepilogo separato**             | Selezionare questa casella di controllo per utilizzare un libro IVA separato per numerare le sezioni riepilogative. |
+| **Conto Guadagni**                          | Guadagno dovuto all'arrotondamento.                                                                          |
+| **Conto Perdite**                          | Perdita dovuta all'arrotondamento.                                                                          |
 
 ## <a name="sales-tax-settlement-periods"></a>Periodi liquidazione IVA
-Per normativa italiana, le regole si applicano ai periodi di liquidazione. Ad esempio, dopo il periodo di liquidazione è chiuso, non sono consentite modifiche è consentita. È necessario indicare se la liquidazione si riferisce all'ultimo periodo dell'anno fiscale. Visualizzare lo stato del periodo di liquidazione e report se si riferisce a una chiusura annuale. ** Periodo di liquidazione VAT ** nella &gt; pagina ** intervalli periodici ** la scheda, selezionare i seguenti campi.
+Per la legislazione italiana, le regole si applicano ai periodi di liquidazione. Ad esempio, una volta chiuso il periodo di liquidazione, non sono consentite modifiche. È necessario dichiarare se la liquidazione si riferisce all'ultimo periodo dell'anno fiscale. Visualizzare lo stato del periodo di liquidazione e dichiarare se si riferisce a una chiusura annuale. Nela pagina **Periodo liquidazione IVA** &gt; scheda **Intervalli periodici**, selezionare i seguenti campi.
 
-| **Field**       | **Description**                                                                                   |
+| **Campo**       | **Descrizione**                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------|
-| **Closed**      | Indica se il libro VAT italiano relativo al periodo è stato aggiornato e chiuso automaticamente. |
-| **Last period** | Selezionare questa opzione se si tratta dell'ultimo periodo di un anno IVA.                          |
+| **Chiuso**      | Indica se il libro IVA italiano relativo al periodo è stato aggiornato e chiuso automaticamente. |
+| **Ultimo periodo** | Selezionare questa opzione se si tratta dell'ultimo periodo di un anno IVA.                          |
+
+
 
 
 

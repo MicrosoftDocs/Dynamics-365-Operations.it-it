@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="dimension-based-product-configuration"></a>Configurazione prodotto basata su dimensioni
 
+[!include[banner](../includes/banner.md)]
+
+
 La configurazione prodotto basata su dimensioni rappresenta una soluzione semplice per la creazione di più varianti prodotto da una singola rappresentazione generale prodotto e dalle relative distinte base.
 
-prodotto per configurazione basata su dimensioni è una delle tre tecnologie l'accessibilità di configurazione prodotto. Le altre due tecnologie sono varianti predefinite e configurazione basata su vincoli. Tutte e tre le tecnologie utilizzano una rappresentazione generale prodotto come punto di inizio e consentono all'utente di creare più varianti prodotto per una rappresentazione generale prodotto.
+La configurazione prodotto basata su dimensioni è una delle tre tecnologie incorporate di configurazione prodotto. Le altre due tecnologie sono varianti predefinite e configurazione basata su vincoli. Tutte e tre le tecnologie utilizzano una rappresentazione generale prodotto come punto di inizio e consentono all'utente di creare più varianti prodotto per una rappresentazione generale prodotto.
 
 ## <a name="key-concepts"></a>Concetti chiave
 La configurazione prodotto basata su dimensioni si fonde sui concetti chiave seguenti:
@@ -68,10 +71,12 @@ Il ciclo di lavorazione di configurazione determina la sequenza dei gruppi di co
 Le regole di configurazione rappresentano un meccanismo per assicurarsi che un prodotto incluso in un gruppo di configurazioni in una DBA determini l'inclusione o l'esclusione di un prodotto in un gruppo di configurazioni diverso nella stessa DBA.
 
 ## <a name="product-modeling-process"></a>Processo di modellizzazione prodotto
-La sequenza naturale per generare un modello prodotto per un prodotto basato su dimensioni parte dalla definizione dei gruppi di configurazioni competenti. È importante assicurarsi che tutti i prodotti che verranno utilizzati nella DBA siano stati rilasciati alla società per la quale il modello prodotto è stato sviluppato. Con queste blocchi predefiniti configurati, l'utente può creare la DBA e assegnare gruppi di configurazione in tutte le righe DBA rilevanti. Quando la DBA è completato, un ciclo di lavorazione di configurazione può essere definito per l'ordine di gruppi di configurazioni nella sequenza appropriata. collegato\_282671 "di id= del titolo\[" width= " alignnone del align= " 1187 " in\][prodotto basato su dimensioni![a un processo (]. /media/dimension-based-product-modeling-process-v1.png)](. a prodotto basato su dimensioni dell'indirizzo /media/dimension-based-product-modeling-process-v1.png) di modellizzazione di\[/caption\] presenza di determinati prodotti da diversi gruppi di configurazione che deve o non deve essere utilizzato insieme, è possibile creare le regole di configurazione che applicate queste relazioni tra prodotti. Dopo che la DBA è stata collegata a una rappresentazione generale prodotto basata su dimensioni tramite una versione DBA ed entrambe sono state approvate e attivate, è possibile creare le configurazioni prodotto e inserire un nome per ciascuna configurazione. È possibile definire le configurazioni prima che vengano generate tutte le transazioni oppure quando si verifica la necessità di una configurazione.
+La sequenza naturale per generare un modello prodotto per un prodotto basato su dimensioni parte dalla definizione dei gruppi di configurazioni competenti. È importante assicurarsi che tutti i prodotti che verranno utilizzati nella DBA siano stati rilasciati alla società per la quale il modello prodotto è stato sviluppato. Con queste blocchi predefiniti configurati, l'utente può creare la DBA e assegnare gruppi di configurazione in tutte le righe DBA rilevanti. Quando la DBA è completata, un ciclo di lavorazione di configurazione può essere definito per l'ordine di gruppi di configurazioni nella sequenza appropriata. \[caption id="attachment\_282671" align="alignnone" width="1187"\][![Processo di modellizzazione prodotto basato su dimensioni](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Processo di modellizzazione prodotto basato su dimensioni\[/caption\] Se sono disponibili alcuni prodotti provenienti da gruppi di configurazione diversi che devono o non devono essere utilizzati insieme, è possibile creare regole di configurazione che imporranno tali relazioni tra i prodotti. Dopo che la DBA è stata collegata a una rappresentazione generale prodotto basata su dimensioni tramite una versione DBA ed entrambe sono state approvate e attivate, è possibile creare le configurazioni prodotto e inserire un nome per ciascuna configurazione. È possibile definire le configurazioni prima che vengano generate tutte le transazioni oppure quando si verifica la necessità di una configurazione.
 
 ### <a name="suggested-use"></a>Utilizzo suggerito
 
 La tecnologia di configurazione basata su dimensioni è consigliata per i prodotti con variabilità limitata e la combinazione di dimensione, colore, stile e configurazione delle dimensioni prodotto standard è inadatta per l'identificazione di varianti prodotto specifiche. Un esempio potrebbe essere bicicletta con altezza di telaio, dimensione delle rotelle, i tipi del freno e ingranaggi diversi.
+
+
 
 

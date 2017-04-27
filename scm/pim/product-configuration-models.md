@@ -1,6 +1,6 @@
 ---
-title: Panoramica dei modelli di configurazione prodotto
-description: "Questo articolo definisce le condizioni e i concetti rilevanti ai modelli di configurazione prodotto. I modelli di configurazione prodotto consentono di creare una struttura di prodotto generico utilizzabile per configurare più varianti per un singolo prodotto."
+title: Panoramica sui modelli di configurazione prodotto
+description: "Questo articolo definisce termini e concetti importanti relativi ai modelli di configurazione prodotto. I modelli di configurazione prodotto consentono di creare una struttura di prodotto generica utilizzabile per configurare più varianti di un singolo prodotto."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-configuration-models-overview"></a>Panoramica dei modelli di configurazione prodotto
+# <a name="product-configuration-models-overview"></a>Panoramica sui modelli di configurazione prodotto
 
-Questo articolo definisce le condizioni e i concetti rilevanti ai modelli di configurazione prodotto. I modelli di configurazione prodotto consentono di creare una struttura di prodotto generico utilizzabile per configurare più varianti per un singolo prodotto.
+Questo articolo definisce termini e concetti importanti relativi ai modelli di configurazione prodotto. I modelli di configurazione prodotto consentono di creare una struttura di prodotto generica utilizzabile per configurare più varianti di un singolo prodotto.
 
 I modelli di configurazione prodotto vengono creati per rappresentare una struttura di prodotto generica. Dopo aver impostato un modello di configurazione prodotto, è possibile configurare una variante prodotto specifico con una distinta base (DBA) e un ciclo univoci. I modelli di configurazione prodotto utilizzano sia i vincoli dichiarativi che i calcoli imperativi per gestire le relazioni e i limiti tra varianti prodotto diverse. È possibile configurare gli articoli negli ordini cliente, nelle offerte di vendita, negli ordini fornitore e negli ordini di produzione. Nella seguente tabella sono descritti i termini e i concetti relativi ai vincoli di tabella.
 <table>
@@ -69,16 +69,16 @@ I modelli di configurazione prodotto vengono creati per rappresentare una strutt
 <li><strong>Testo</strong> con o senza un elenco fisso</li>
 <li><strong>Booleano</strong></li>
 </ul>
-Se il tipo di attributo è <strong>Boolean</strong>, <strong>Intero</strong> con un intervallo, o <strong>Testo</strong> con un elenco fisso, l'insieme dei valori è disponibile quando un modello di configurazione prodotto è installato. <strong>Nota:</strong> Il risolutore di configurazione prodotto riconosce solo i seguenti tipi di attributo: <strong>Booleano</strong>, <strong>Testo</strong> a un elenco predefinito e <strong>Intero</strong> con un intervallo. Di conseguenza, è possibile utilizzare solo quei tipi di attributo nei vincoli di espressione e condizioni.</td>
+Se il tipo di attributo è <strong>Boolean</strong>, <strong>Intero</strong> con un intervallo, o <strong>Testo</strong> con un elenco fisso, l'insieme dei valori è disponibile quando un modello di configurazione prodotto è installato. <strong>Nota:</strong> il risolutore della configurazione prodotto riconosce solo i seguenti tipi di attributo: <strong>Booleano</strong>, <strong>Testo</strong> con elenco fisso e <strong>Intero</strong> con intervallo. Di conseguenza, è possibile utilizzare solo quei tipi di attributo nei vincoli di espressione e condizioni.</td>
 </tr>
 <tr class="even">
 <td>Vincoli</td>
 <td>I vincoli descrivono le restrizioni della configurazione del modello prodotto. I vincoli vengono utilizzati per garantire che solo i valori validi vengano selezionati quando il prodotto viene configurato. I vincoli possono essere sia vincoli di espressione che vincoli di tabella:
 <ul>
 <li>I vincoli di espressione possono essere utilizzati solo per il componente a cui sono correlati. I vincoli di espressione per un componente possono fare riferimento ad attributi di sottocomponenti del componente. Il solver di configurazione prodotto viene utilizzato per risolvere i vincoli ed è necessario utilizzare la sintassi del solver quando si scrivono i vincoli. Per ulteriori informazioni, vedere il collegamento di wiki sui vincoli di espressione e i vincoli di tabella.</li>
-<li>I vincoli di tabella devono essere definiti prima di poter essere applicato a un componente in un modello di configurazione prodotto. I vincoli di tabella possono essere definiti dall'utente o definiti a livello di sistema. Un vincolo di tabella definito dall'utente è un tipo di matrice che può essere utilizzato per descrivere il set di combinazioni per i valori dell'attributo definiti dai tipi di attributo. Ad esempio, se vengono prodotti altoparlanti, la matrice per il vincolo di tabella definito dall'utente può presentare colonne per il rivestimento e la griglia dell'altoparlante.</li>
+<li>I vincoli di tabella devono essere definiti prima di poter essere applicati a un componente in un modello di configurazione prodotto. I vincoli di tabella possono essere definiti dall'utente o dal sistema. Un vincolo di tabella definito dall'utente è un tipo di matrice che può essere utilizzato per descrivere il set di combinazioni per i valori dell'attributo definiti dai tipi di attributo. Ad esempio, se vengono prodotti altoparlanti, la matrice per il vincolo di tabella definito dall'utente può presentare colonne per il rivestimento e la griglia dell'altoparlante.</li>
 </ul>
-<strong>Esempio</strong> Gli altoparlanti sono disponibili in quattro rivestimenti: nero, quercia, palissandro e bianco. Gli pubblici possono avere uno dei tre precedenti: Nero, metallo o, vuoto. Il fine list disponibile per tutte le griglie, mentre gli altri finiture sono limitati alle griglie specifiche. Nella tabella indicata di seguito viene illustrato un esempio delle informazioni visualizzate nella scheda <strong>Combinazioni consentite</strong> nella pagina <strong>Modifica vincolo di tabella</strong>.
+<strong>Esempio</strong> Gli altoparlanti sono disponibili in quattro rivestimenti: nero, quercia, palissandro e bianco. La griglia frontale degli altoparlanti può essere nei seguenti colori: nero, metallo o bianco. La finitura in nero è disponibile per tutte le griglie, mentre le altre finiture sono limitate a griglie specifiche. Nella tabella indicata di seguito viene illustrato un esempio delle informazioni visualizzate nella scheda <strong>Combinazioni consentite</strong> nella pagina <strong>Modifica vincolo di tabella</strong>.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Se il tipo di attributo è <strong>Boolean</strong>, <strong>Intero</strong> con
 </tr>
 </tbody>
 </table>
-Un vincolo definito dal sistema della tabella rappresenta un mapping tra un tipo di attributo e un campo in Dynamics 365 della tabella di operazioni. Un vincolo definito dal sistema della tabella e in modo dinamico il tipo di attributo nel campo. Il collegamento consente all'attributo in un modello di configurazione prodotto per riflettere i dati del campo in Dynamics 365 della tabella di operazioni.</td>
+Un vincolo di tabella definito dal sistema rappresenta un mapping tra un tipo di attributo e un campo in una tabella di Dynamics 365 for Operations. Un vincolo di tabella definito dal sistema collega dinamicamente il tipo di attributo al campo. Il collegamento consente all'attributo in un modello di configurazione prodotto di riflettere i dati del campo nella tabella di Dynamics 365 for Operations.</td>
 </tr>
 <tr class="odd">
 <td>Calcoli</td>
-<td>I calcoli per un supplemento ai vincoli. È possibile utilizzare un calcolo per eseguire le operazioni aritmetiche sugli <strong>Decimale</strong> attributi di tipo <strong>Intero</strong> e, o le operazioni logiche che includono Attributi a un elenco predefinito e <strong>Booleano</strong> i tipi. Un calcolo ha un attributo di destinazione è un attributo che detiene il risultato dell'espressione di calcolo. L'espressione di calcolo viene creata utilizzando l'editor espressioni.</td>
+<td>I calcoli rappresentano un supplemento ai vincoli. È possibile utilizzare un calcolo per eseguire operazioni aritmetiche su attributi di tipo <strong>Decimale</strong> e<strong>Intero</strong> o operazioni logiche che includono attributi di tipo <strong>Testo</strong> con un elenco fisso e <strong>Booleano</strong>. Un calcolo ha un attributo di destinazione è un attributo che detiene il risultato dell'espressione di calcolo. L'espressione di calcolo viene creata utilizzando l'editor espressioni.</td>
 </tr>
 <tr class="even">
 <td>Sottocomponenti</td>

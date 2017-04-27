@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendari fiscali, anni fiscali e periodi
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono illustrati calendari fiscali, anni fiscali e periodi e il modo in cui utilizzarli per le persone giuridiche, i cespiti e l'impostazione del budget.
 
 I calendari fiscali forniscono una struttura per l'attività finanziaria di un'organizzazione. Ogni calendario fiscale contiene uno o più anni fiscali e ogni anno fiscale contiene più periodi. I calendari fiscali possono essere basati su un anno di calendario dal 1° gennaio al 31 dicembre o su date selezionate. Alcune organizzazioni selezionano, ad esempio, un calendario fiscale che inizia il 1° luglio di un anno e termina il 30 giugno dell'anno successivo. 
@@ -58,6 +61,8 @@ I cicli di budget sono periodi di tempo durante i quali viene utilizzato un budg
 
 ## <a name="maintain-periods-for-your-organization"></a>Gestire i periodi per l'organizzazione
 È possibile utilizzare la pagina Calendario contabilità generale per visualizzare i dettagli del calendario fiscale, gli anni fiscali e i periodi utilizzati dall'organizzazione. È inoltre possibile modificare lo stato dei periodi e selezionare gli utenti che possono registrare transazioni contabili nei periodi. È possibile ad esempio che all'inizio di un nuovo periodo un gruppo utenti debba concludere la registrazione di transazioni finanziarie nel periodo precedente, mentre altri gruppi debbano gestire solo il nuovo periodo.
+
+
 
 
 

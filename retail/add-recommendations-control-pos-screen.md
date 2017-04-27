@@ -1,6 +1,6 @@
 ---
-title: "Aggiungere un controllo di suggerimenti alla pagina delle transazioni per un&quot;unità di Retail POS"
-description: "In questo argomento viene descritto come aggiungere un controllo di suggerimenti su schermo delle transazioni per un&quot;unità di (POS) del POS mediante Progettazione layout dello schermo in Microsoft Dynamics 365 per le operazioni."
+title: Aggiungere un controllo di suggerimenti alla pagina della transazione su un dispositivo POS
+description: "In questo argomento viene descritto come aggiungere un controllo di suggerimenti alla schermata della transazione su un dispositivo POS mediante la funzionalità di progettazione del layout dello schermo in Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,55 +25,60 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Aggiungere un controllo di suggerimenti alla pagina delle transazioni per un'unità di Retail POS
+# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Aggiungere un controllo di suggerimenti alla pagina della transazione su un dispositivo POS
 
-In questo argomento viene descritto come aggiungere un controllo di suggerimenti su schermo delle transazioni per un'unità di (POS) del POS mediante Progettazione layout dello schermo in Microsoft Dynamics 365 per le operazioni.
+[!include[banner](includes/banner.md)]
 
-È possibile visualizzare i suggerimenti del prodotto nell'unità di Retail POS quando si utilizza Microsoft Dynamics 365 per le operazioni. il *Recommendations* è articoli che il cliente potrebbe essere interessato in base al storico acquisti, gli articoli nell'elenco di obiettivi e gli articoli che altri clienti essi acquistati in linea e le quantità richieste di mattone-e- mortaio. Per visualizzare i suggerimenti del prodotto, è necessario aggiungere un controllo della stampa transazione mediante Progettazione layout dello schermo.
+
+In questo argomento viene descritto come aggiungere un controllo di suggerimenti alla schermata della transazione su un dispositivo POS mediante la funzionalità di progettazione del layout dello schermo in Microsoft Dynamics 365 for Operations.
+
+È possibile visualizzare i suggerimenti di prodotti sul proprio dispositivo POS quando si utilizza Microsoft Dynamics 365 for Operations. *Suggerimenti* sono articoli a cui il cliente potrebbe essere interessato in base al relativo storico acquisti, articoli nell'elenco preferenze e che altri clienti hanno acquistato online e in punti vendita fisici. Per visualizzare i suggerimenti di prodotti, è necessario aggiungere un controllo alla schermata della transazione mediante la funzionalità di progettazione del layout dello schermo.
 
 ## <a name="open-layout-designer"></a>Aprire Progettazione layout
-1.  ** Va al dettaglio e il commercio ** &gt; ** il Manica impostato ** &gt; ** POS configurato ** &gt; ** POS ** &gt; ** layout dello schermo **.
-2.  Utilizzare il filtro rapido per individuare lo schermo che si desidera aggiungere al controllo. Ad esempio, filtrare il ** ID layout dello schermo ** il campo utilizzando un valore pari a F2CP16: 9M".
-3.  Nell'elenco trovare e selezionare il record desiderato. Ad esempio, selezionare il nome ": F2CP16: ID layout dello schermo di 9M: F2CP16: 9M".
-4.  ** Fare clic su Progettazione layout **.
-5.  Utilizzare le richieste per aprire Progettazione layout. Quando richiesto per le credenziali, immettere le stesse credenziali cui è utilizzata quando Progettazione layout è stato avviato ** layout dello schermo ** dalla pagina.
-6.  Quando si apre la sessione, una pagina simile a quella di seguito viene publicata. Il layout verrà diverso a seconda delle personalizzazioni effettuate per il punto vendita.
+1.  Passare a **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **POS** &gt; **Layout schermo**.
+2.  Utilizzare il filtro rapido per individuare la schermata a cui si desidera aggiungere il controllo. Ad esempio, filtrare il campo **ID layout schermo** utilizzando un valore pari a "F2CP16: 9M".
+3.  Nell'elenco trovare e selezionare il record desiderato. Ad esempio, selezionare "Nome: F2CP16:9M ID layout schermo: F2CP16:9M".
+4.  Fare clic su **Progettazione layout**.
+5.  Seguire i prompt per avviare Progettazione layout. Quando vengono richieste le credenziali, immettere le stesse credenziali utilizzate quando la funzionalità Progettazione layout è stata avviata dalla pagina **Layout schermo**.
+6.  Quando si effettua l'accesso, viene visualizzata una pagina simile a quella riportata di seguito. Il layout sarà diverso a seconda delle personalizzazioni effettuate per il punto vendita.
 
-![[] (screenlayout-pic-1. /media/screenlayout-pic-1.png)](. /media/screenlayout-pic-1.png) Scelgono un'opzione di visualizzazione
+[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Scegliere un'opzione di visualizzazione
 -----------------------
 
-Sono disponibili due opzioni di configurazioni disponibili. Scegliere l'opzione che funziona in modo ottimale per la memoria e seguire le istruzioni rimanenti il completamento di impostare il controllo. Le due opzioni sono:
--   I premi produttività vengono sempre disponibili.
--   A ** suggerimenti ** scheda viene visualizzata la griglia sul lato destro dello schermo.
+Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona in modo ottimale per il punto vendita e seguire le istruzioni rimanenti per completare l'impostazione del controllo. Le due opzioni sono le seguenti:
+-   I suggerimenti sono sempre visibili.
+-   Una scheda **Suggerimenti** viene visualizzata nella griglia sul lato destro della schermata.
 
 #### <a name="to-make-recommendations-always-visible"></a>Per rendere i suggerimenti sempre visibili
 
-1.  Ridurre l'altezza dell'area dei dettagli delle righe di transazione in modo che sia la stessa quella del pannello del cliente relativa a sinistra. [] (. /media/pic-2.png![) [] (screenlayout-pic-2. /media/screenlayout-pic-2.png)](. /media/screenlayout-pic-2.png)
-2.  Dal menu a sinistra, la la chiusura e il controllo di suggerimenti tra all'area dettagli riga di transazione e la griglia dei pulsanti nella parte inferiore dello schermo centrale di transazione. Ridimensiona il controllo in modo che va bene per quello spazio. [] (. /media/pic-3.png![) [] (screenlayout-pic-3. /media/screenlayout-pic-3.png)](. /media/screenlayout-pic-3.png)
-3.  ** Cliccano X ** per salvare le modifiche e chiudere la finestra di progettazione del layout.
-4.  In Dynamics 365 per le operazioni, spostarsi ** al dettaglio e il commercio ** &gt; ** IT al dettaglio ** &gt; ** programmazioni di distribuzione **.
-5.  Nell'elenco selezionare, immettere 1090 ** **.
-6.  Fare clic su ** esecuzione ora **.
+1.  Ridurre l'altezza dell'area dei dettagli delle righe di transazione in modo che sia la stessa di quella del pannello del cliente alla sua sinistra.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+2.  Dal menu a sinistra, trascinare il controllo dei suggerimenti tra l'area dei dettagli delle righe di transazione e la griglia dei pulsanti in basso al centro della schermata della transazione. Ridimensionare il controllo in modo da adattarlo a tale spazio.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+3.  Fare clic su **X** per salvare le modifiche e chiudere Progettazione layout.
+4.  In Dynamics 365 for Operations, passare a **Vendita al dettaglio e commercio** &gt; **Vendita al dettaglio IT** &gt; **Programmazioni della distribuzione**.
+5.  Nell'elenco, selezionare **1090 Registri**.
+6.  Fare clic su **Esegui adesso**.
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Per aggiungere una scheda di suggerimenti alla griglia dei pulsanti a destra dello schermo
+#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Per aggiungere una scheda Suggerimenti alla griglia dei pulsanti sul lato destro della schermata
 
 1.  Fare clic con il pulsante destro del mouse sullo spazio vuoto sotto l'ultima scheda nella griglia dei pulsanti presente sul lato destro della pagina.
-2.  Per personalizzare ** **.![[] (pic-5. /media/pic-5.png)](. /media/pic-5.png)
-3.  Fare clic su ** nuova scheda **.
-4.  Individuare la nuova scheda aggiunti appena. Può essere necessario necessario scorrere l'elenco.
-5.  ** Contenuto ** in a discesa, selezionare ** prodotti consigliati **. ![[] (pic-6. /media/pic-6.png)](. /media/pic-6.png)
-6.  ** Etichetta ** nel campo, digitare un nome per il foglio di suggerimenti. Ad esempio, digitare "i prodotti consigliati".
-7.  In ** immagine ** sistemi, selezionare l'immagine da visualizzare nella scheda.
-8.  Click **OK**. La nuova scheda viene visualizzata nella griglia.
-9.  ** Cliccano X ** per salvare le modifiche e chiudere la finestra di progettazione del layout.
-10. In Dynamics 365 per le operazioni, spostarsi ** al dettaglio e il commercio ** &gt; ** IT al dettaglio ** &gt; ** programmazioni di distribuzione **.
-11. Nell'elenco selezionare, immettere 1090 ** **.
-12. Fare clic su ** esecuzione ora **.
+2.  Fare clic **Personalizza**.[![pic-5](./media/pic-5.png)](./media/pic-5.png)
+3.  Fare clic su **Nuova scheda**.
+4.  Individuare la nuova scheda appena aggiunta. Potrebbe essere necessario scorrere verso il basso.
+5.  Nell'elenco a discesa **Contenuti**, selezionare **Prodotti consigliati**. [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+6.  Nel campo **Etichetta**, digitare un nome per la scheda dei suggerimenti. Ad esempio, digitare "Prodotti consigliati".
+7.  Nel campo **Immagine**, selezionare l'immagine che verrà visualizzata sulla scheda.
+8.  Fare clic su **OK**. La nuova scheda viene visualizzata nella griglia dei pulsanti.
+9.  Fare clic su **X** per salvare le modifiche e chiudere Progettazione layout.
+10. In Dynamics 365 for Operations, passare a **Vendita al dettaglio e commercio** &gt; **Vendita al dettaglio IT** &gt; **Programmazioni della distribuzione**.
+11. Nell'elenco, selezionare **1090 Registri**.
+12. Fare clic su **Esegui adesso**.
 
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[] Panoramica personale di suggerimenti prodotto (personalized-product-recommendations.md)
+[Panoramica dei suggerimenti di prodotti personalizzati](personalized-product-recommendations.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Organizational Training Power BI content
-description: "In questo argomento viene descritto Dynamics 365 per le operazioni di contenuto organizzativo di potenza di formazione BI. Descrive come accedere al collo di contenuto e viene descritto il modello dati e le entità che sono stati utilizzati per sviluppare un pacchetto di contenuto."
+title: Contenuto Power BI sulla formazione nell&quot;organizzazione
+description: "In questo argomento viene descritto il contenuto Power BI sulla formazione nell&quot;organizzazione in Dynamics 365 for Operations. Spiega come accedere al pacchetto di contenuti e descrive il modello dati e le entità che sono stati utilizzati per creare il pacchetto di contenuti."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,45 +24,48 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizational-training-power-bi-content"></a>Organizational Training Power BI content
+# <a name="organizational-training-power-bi-content"></a>Contenuto Power BI sulla formazione nell'organizzazione
 
-In questo argomento viene descritto Dynamics 365 per le operazioni di contenuto organizzativo di potenza di formazione BI. Descrive come accedere al collo di contenuto e viene descritto il modello dati e le entità che sono stati utilizzati per sviluppare un pacchetto di contenuto.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Accesso al collo di contenuto
+
+In questo argomento viene descritto il contenuto Power BI sulla formazione nell'organizzazione in Dynamics 365 for Operations. Spiega come accedere al pacchetto di contenuti e descrive il modello dati e le entità che sono stati utilizzati per creare il pacchetto di contenuti.
+
+<a name="accessing-the-content-pack"></a>Accesso al pacchetto di contenuti
 --------------------------
 
-Per trovare il collo organizzativo del contenuto di formazione nella raccolta delle risorse condivise nei servizi (LCS) del ciclo di vita di Microsoft Dynamics. Per ulteriori informazioni su come download del collo di contenuto e collegarlo al sistema Microsoft Dynamics 365 per le operazioni dati, vedere [di Power BI nel contenuto LC da Microsoft e dai partner power-bi-content-microsoft-partners.md] ().
+Il pacchetto di contenuti sulla formazione nell'organizzazione è disponibile nella libreria delle risorse condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il pacchetto di contenuti e collegarlo ai dati Microsoft Dynamics 365 for Operations, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Report inclusi nel collo di contenuto
-Dopo aver collegato il collo al contenuto Dynamics 365 per i dati delle operazioni, i report sono illustrati i dati dell'organizzazione. Se non è stato utilizzato mai potenza di Microsoft BI prima, possono ottenere ulteriori informazioni sulla Guida [quattro pagina per Power BI] (https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). I report inclusi nel collo di contenuto hanno e i grafici da tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.
+## <a name="reports-that-are-included-in-the-content-pack"></a>Report inclusi nel pacchetto di contenuti
+Dopo aver collegato il pacchetto di contenuti ai dati di Microsoft Dynamics 365 for Operations, nei report vengono visualizzati i dati dell'organizzazione. Se non è mai stato usato Microsoft Power BI in precedenza, è possibile ottenere informazioni in merito nella [pagina Formazione guidata a Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). I report inclusi nel pacchetto di contenuti dispongono di grafici e tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.
 
 | Report          | Contenuto                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
-| Analisi del corso | Registrazione per ubicazione, partecipanti al corso dallo stato e elenco di registrazione |
+| Analisi del corso | Registrazione in base all'ubicazione, partecipanti al corso in base allo stato ed elenco di registrazione |
 | Tipi di corso    | Tipi di corsi in base alla competenza                                                       |
 
-È possibile filtrare i grafici e i mattonelle nei report e appuntate i grafici e i mattonelle al dashboard. Per ulteriori informazioni su come filtrarne e nel perno Power BI, vedere [creare e configurare un dashboard] (https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-Dynamics 365 per i dati delle operazioni viene utilizzato per inserire i report in colli organizzativo del contenuto di formazione. Nella tabella seguente vengono illustrate le entità che il collo di contenuto è basato su.
+I dati di Dynamics 365 for Operations vengono utilizzati per compilare i report nel pacchetto di contenuti sulla formazione nell'organizzazione. Nella tabella seguente vengono illustrate le entità su cui è stato basato il pacchetto di contenuti.
 
 | Entità                    | Contenuto                                                         | Relazioni con altre entità                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Addestramento\_CalendarOffset  | Contropartite al calendario della sezione con report                                | Addestramento\_CourseAgenda che prepara CourseAttendees\_                                                                                                                                                   |
-| Società\_di formazione         | Società per filtrare i report per                                   | Addestramento\_CourseAgenda che prepara CourseAttendees\_                                                                                                                                                   |
-| Corso\_di formazione          | Corso, Descrizione, nome dell'istruttore, l'ubicazione, la stanza e lo stato | Addestramento\_CourseAgenda che prepara\_CourseAttendees che prepara CourseSkill\_                                                                                                                             |
-| Addestramento\_CourseAgenda    | Agenda, corso e ore di inizio e fine                          | Società\_di formazione che prepara\_CalendarOffset che prepara la data\_che prepara corso\_                                                                                                                         |
-| Addestramento\_CourseAttendees | Nome, lo stato, processo e data di registrazione                         | Società\_di formazione che prepara\_CalendarOffset che prepara la data\_che consente di preparare Demographics\_che prepara lavoro\_che prepara corso\_che prepara\_WorkerName che prepara\_WorkerTitle che prepara posizione\_di formazione sull'utilizzo\_ |
-| Addestramento\_CourseSkill     | Competenza, tipo e a livello                                     | Corso\_di formazione                                                                                                                                                                                   |
-| Data\_di formazione            | Giorni, settimane, mesi e anni                                   | Addestramento\_CourseAgenda che prepara CourseAttendees\_                                                                                                                                                   |
-| Demographics\_di formazione    | Data di nascita, il sesso, l'origine etnica e lo stato civile         | Addestramento\_CourseAgenda che prepara CourseAttendees\_                                                                                                                                                   |
-| Impiego\_di formazione      | Data di inizio, Data di fine e data della transizione                        | Addestramento\_CourseAgenda che prepara CourseAttendees\_                                                                                                                                                   |
-| Processo\_di formazione             | Funzione, il tipo e titolo                                        | Addestramento\_CourseAgenda che prepara CourseAttendees\_                                                                                                                                                   |
-| Posizione\_di formazione        | Ubicazione, funzione e a tempo pieno equivalente (FTE)                  | Addestramento\_CourseAgenda che prepara CourseAttendees\_                                                                                                                                                   |
-| Addestramento\_WorkerName      | Nome, e cognome nome completo                             | Addestramento\_CourseAttendees                                                                                                                                                                          |
-| Addestramento\_WorkerTitle     | Data di anzianità e del titolo                                         | Addestramento\_CourseAttendees                                                                                                                                                                          |
+| Formazione\_OffsetCalendario  | Offset di calendario su report suddivisi                                | Formazione\_ProgrammaCorso Formazione\_PartecipantiCorso                                                                                                                                                   |
+| Formazione\_Società         | Società in base a cui filtrare i report                                   | Formazione\_ProgrammaCorso Formazione\_PartecipantiCorso                                                                                                                                                   |
+| Formazione\_Corso          | Corso, descrizione, nome istruttore, ubicazione, sala e stato | Formazione\_ProgrammaCorso Formazione\_PartecipantiCorso Formazione\_CompetenzaCorso                                                                                                                             |
+| Formazione\_ProgrammaCorso    | Programma, corso e orario di inizio e fine                          | Formazione\_Società Formazione\_OffsetCalendario Formazione\_Data Formazione\_Corso                                                                                                                         |
+| Formazione\_PartecipantiCorso | Nome, stato, mansione e data di registrazione                         | Formazione\_Società Formazione\_OffsetCalendario Formazione\_Data Formazione\_DatiDemografici Formazione\_Impiego Formazione\_Corso Formazione\_NomeLavoratore Formazione\_TitoloLavoratore Formazione\_Mansione Formazione\_Posizione |
+| Formazione\_CompetenzaCorso     | Competenza, tipo di competenza e livello                                     | Formazione\_Corso                                                                                                                                                                                   |
+| Formazione\_Data            | Giorni, settimane, mesi e anni.                                   | Formazione\_ProgrammaCorso Formazione\_PartecipantiCorso                                                                                                                                                   |
+| Formazione\_DatiDemografici    | Data di nascita, sesso, origine etnica e stato civile         | Formazione\_ProgrammaCorso Formazione\_PartecipantiCorso                                                                                                                                                   |
+| Formazione\_Impiego      | Data di inizio, data di fine e data della transizione                        | Formazione\_ProgrammaCorso Formazione\_PartecipantiCorso                                                                                                                                                   |
+| Formazione\_Mansione             | Funzione, tipo e titolo                                        | Formazione\_ProgrammaCorso Formazione\_PartecipantiCorso                                                                                                                                                   |
+| Formazione\_Posizione        | Posizione, titolo ed equivalente a tempo pieno (FTE)                  | Formazione\_ProgrammaCorso Formazione\_PartecipantiCorso                                                                                                                                                   |
+| Formazione\_NomeLavoratore      | Nome, cognome e nome completo                             | Formazione\_PartecipantiCorso                                                                                                                                                                          |
+| Formazione\_TitoloLavoratore     | Titolo e data di anzianità                                         | Formazione\_PartecipantiCorso                                                                                                                                                                          |
 
-Le entità sono state utilizzate per creare le misure calcolate nel modello dati. Le misure calcolate vengono utilizzate per calcolare gli indicatori di prestazione chiave (KPIs) e i report utilizzati nel collo di contenuto. Se si desidera includere i calcoli aggiuntive nei report e dashboard, è possibile scaricare e modificare il file di Training.pbix da LC. Questo file è il modello dati predefinito utilizzato per creare il collo di contenuto. Dopo aver apportato le modifiche, è possibile creare un collo e il dashboard contenuto delle persone che contengono informazioni che sono stati aggiunti.
+Le entità sono state utilizzate per creare le misure calcolate nel modello dati. Queste misure calcolate vengono quindi utilizzate per calcolare gli indicatori di prestazione chiave (KPI) e i report utilizzati nel pacchetto di contenuti. Se si desidera includere calcoli aggiuntivi nei report e nel dashboard, è possibile scaricare e modificare il file Training.pbix da LCS. Questo file è il modello dati predefinito utilizzato per creare il pacchetto di contenuti. Una volta apportate le modifiche, è possibile creare un pacchetto di contenuti per l'organizzazione e un dashboard che contengono le informazioni aggiunte.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 Di seguito sono riportati alcuni collegamenti utili correlati alle entità e alla creazione di contenuto per Power BI:
@@ -71,6 +74,8 @@ Di seguito sono riportati alcuni collegamenti utili correlati alle entità e all
 -   [Creazione di pacchetti di contenuti per l'organizzazione](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modellazione di dati tramite Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Aggiunta di riquadri Power BI ad aree di lavoro](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

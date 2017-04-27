@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Conti di registrazione acquisizione cespiti
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo illustra come impostare i conti di registrazione della contabilità generale per l'acquisizione dei cespiti.
 
 I conti utilizzati per registrare le acquisizioni cespiti possono variare in base al metodo utilizzato per l'acquisizione del cespite. Nella pagina Profili registrazione cespiti, nella scheda Conti CoGe selezionare Acquisizione e Rettifica acquisizione per impostare i conti cespiti per la registrazione nella contabilità generale. 
@@ -40,6 +43,8 @@ Se per le acquisizioni dei cespiti si utilizza il giornale di registrazione fatt
 
 Per le acquisizioni registrate in Contabilità generale utilizzando il giornale di registrazione Scorte a cespiti, il cespite non viene acquistato da origini esterne ma trasferito dalle scorte della società. Di conseguenza, il conto di contropartita per l'articolo di magazzino presente in Gestione articoli è costituito da un conto uscite da magazzino.
 
-Per ulteriori informazioni, vedere [acquisti i cespiti con approvvigionamento acquire-assets-procurement.md] ().
+Per ulteriori informazioni, vedere [Acquisire cespiti tramite approvvigionamento](acquire-assets-procurement.md).
+
+
 
 

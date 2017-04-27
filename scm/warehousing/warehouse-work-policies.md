@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Criteri di lavoro magazzino
 
+[!include[banner](../includes/banner.md)]
+
+
 Nuovi criteri di lavoro di magazzino sono stati introdotti in Microsoft Dynamics AX 7.0.1 (aggiornamento di maggio 2016). Questi criteri di lavoro controllano se il lavoro del magazzino è stato creato per i processi di magazzino in fase di produzione.
 
-Questi criteri di lavoro controllano se il lavoro del magazzino è stato creato per i processi di magazzino in fase di produzione. È possibile impostare i criteri di lavoro mediante una combinazione di **tipi di ordine di lavoro**, una **ubicazione di magazzino** e un **prodotto**. Ad esempio, il prodotto L0101 viene dichiarato finito in un percorso di output 001. Il prodotto finito viene successivamente consumato in un altro ordine di produzione per il percorso di output 001. In questo caso, è possibile impostare i criteri di lavoro per impedire il lavoro per i prodotti finiti si mette - via per essere creato quando si L0101 il prodotto finito in un percorso di output 001. I criteri di lavoro sono una singola entità che può essere descritta con le seguenti informazioni:
+Questi criteri di lavoro controllano se il lavoro del magazzino è stato creato per i processi di magazzino in fase di produzione. È possibile impostare i criteri di lavoro mediante una combinazione di **tipi di ordine di lavoro**, una **ubicazione di magazzino** e un **prodotto**. Ad esempio, il prodotto L0101 viene dichiarato finito nell'ubicazione di uscita 001. Il prodotto finito viene successivamente consumato in un altro ordine di produzione all'ubicazione di uscita 001. In questo caso, è possibile impostare i criteri di lavoro per impedire che lavoro per lo stoccaggio di prodotti finiti venga creato quando si dichiara il prodotto L0101 finito nell'ubicazione di uscita 001. I criteri di lavoro sono una singola entità che può essere descritta con le seguenti informazioni:
 
 -   **Nome dei criteri di lavoro **(identificatore univoco dei criteri di lavoro)
 -   **Tipi di ordine di lavoro **e** Metodo di creazione lavoro**
@@ -55,7 +58,7 @@ Il campo **Metodo di creazione lavoro** ha il valore **Mai**. Questo valore indi
 ## <a name="example"></a>Esempio
 Nel seguente esempio, sono presenti due ordini di produzione, PRD-001 e PRD-00*2*. L'ordine di produzione PRD-001 ha un'operazione denominata **Assemblaggio**, in cui il prodotto SC1 viene dichiarato finito nell'ubicazione O1. L'ordine di produzione PRD-002 ha un'operazione denominata **Verniciatura** e utilizza il prodotto SC1 dall'ubicazione O1. L'ordine di produzione PRD-002 utilizza anche le materie prime RM1 dall'ubicazione O1. RM1 sono immagazzinate nell'ubicazione BULK-001 e verranno prelevate nell'ubicazione O1 dal lavoro di magazzino per il prelievo di materie prime. Il lavoro di prelievo viene generato quando l'ordine di produzione PRD-002 viene rilasciato. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Criteri di lavoro magazzino](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Quando si pianifica di configurazione dei criteri di lavoro di magazzino per questo scenario, valutare le seguenti informazioni:
 
@@ -66,11 +69,11 @@ Di seguito è riportato un esempio dei criteri di lavoro che è possibile impost
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| Nessun tramite messo `01                    |- Prodotto finito aggiunto via<br>                           |
-|                                         |**Locations**<br>                                      |
+|**Nome criteri di lavoro**<br>                 |**Tipi di ordine di lavoro**<br>                               |
+| Nessuno stoccaggio 01     `                    |- Stoccaggio prodotto finito<br>                           |
+|                                         |**Ubicazioni**<br>                                      |
 |                                         |- O1   |                                               |
-|                                         |**Products** <br>                                      |
+|                                         |**Prodotti** <br>                                      |
 |                                         |- SC1                                                  |
 
 Nelle procedure riportate di seguito vengono fornite istruzioni dettagliate sull'impostazione dei criteri di lavoro di magazzino per questo scenario. Una impostazione di esempio che mostra come dichiarare finito un ordine di produzione  in un'ubicazione non controllata da targhe viene anche descritta.
@@ -244,5 +247,7 @@ PASSAGGI (25)
 </tr>
 </tbody>
 </table>
+
+
 
 

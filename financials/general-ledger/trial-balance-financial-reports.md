@@ -1,6 +1,6 @@
 ---
 title: Report finanziari del bilancio di verifica
-description: In questo articolo viene descritto i report predefiniti per i bilanci di verifica. Sono descritti i blocchi predefiniti associati a questi report e come possibile modificare i report in modo da soddisfare i requisiti aziendali.
+description: "In questo articolo viene descritto i report predefiniti per i bilanci di verifica. Sono descritti inoltre i blocchi predefiniti associati a questi report e come è possibile modificare i report in modo da soddisfare i requisiti aziendali."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>Report finanziari del bilancio di verifica
 
-In questo articolo viene descritto i report predefiniti per i bilanci di verifica. Sono descritti i blocchi predefiniti associati a questi report e come possibile modificare i report in modo da soddisfare i requisiti aziendali. 
+[!include[banner](../includes/banner.md)]
+
+
+In questo articolo viene descritto i report predefiniti per i bilanci di verifica. Sono descritti inoltre i blocchi predefiniti associati a questi report e come è possibile modificare i report in modo da soddisfare i requisiti aziendali. 
 
 <a name="default-trial-balance-reports"></a>Report predefiniti del bilancio di verifica
 -----------------------------
@@ -51,7 +54,7 @@ I report finanziari del bilancio di verifica utilizzano i seguenti blocchi prede
 
 ### <a name="row-definition"></a>Definizione riga
 
-La definizione di riga, bilancio di verifica - predefinita, contiene una singola riga che recupera tutti i conti principali. Di conseguenza, chiunque può generare il report senza dover apportare eventuali modifiche. Quando si visualizza il report, si analizza la singola riga per visualizzare i dettagli relativi a ciascun conto. È possibile modificare la definizione di riga in modo da includere più dettagli. Per modificare la definizione di riga Bilancio di verifica - Predefinito in modo che includa le righe per tutti i conti, attenersi ai passaggi seguenti.
+La definizione di riga, Bilancio di verifica - Predefinito, contiene una singola riga che esegue il pull in tutti i conti principali. Di conseguenza, chiunque può generare il report senza dover apportare eventuali modifiche. Quando si visualizza il report, si analizza la singola riga per visualizzare i dettagli relativi a ciascun conto. È possibile modificare la definizione di riga in modo da includere più dettagli. Per modificare la definizione di riga Bilancio di verifica - Predefinito in modo che includa le righe per tutti i conti, attenersi ai passaggi seguenti.
 
 1.  Fare clic su **Modifica** e quindi su **Inserisci righe da dimensioni**. Il comando **Inserisci righe da dimensioni** consente di scegliere le dimensioni che si desidera inserire nella definizione di riga. Per questa definizione di riga, si utilizza **Conto principale**.
 2.  Assicurarsi che **Conto principale** contenga tutte le e commerciali (&) e quindi fare clic su **OK**.
@@ -100,10 +103,12 @@ Ogni report di bilancio di verifica utilizza una definizione di colonna diversa.
 <a name="see-also"></a>Vedere anche
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Creazione di report finanziari](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Visualizza report finanziari](view-financial-reports.md)
 
-[] Blog di reporting finanziario di Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog sui report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

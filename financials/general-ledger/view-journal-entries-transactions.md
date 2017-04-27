@@ -46,12 +46,12 @@ Oltre ai report finanziari, è possibile utilizzare i seguenti report di contabi
 
 -   **Rendiconto dimensioni**: questo report mostra le transazioni per giorno e conto e sono inoltre disponibili opzioni per visualizzare le transazioni per dimensione e periodo.
 -   **Elenco transazioni contabili**: questo report mostra le transazioni nelle valute di transazione, contabilizzazione e dichiarazione per un conto.
--   ** Il giornale di registrazione stampa ** il report verranno visualizzati i risultati di un giornale registrato. È possibile eseguire il report per numero batch del giornale di registrazione o dal tipo, o aggiungere ulteriori campi.
+-   **Stampa giornale di registrazione** - Il report mostra i risultati di un giornale registrato. È possibile eseguire il report per numero batch di giornale di registrazione o tipo di giornale di registrazione o aggiungere ulteriori campi.
 -   **Transazioni registrate per giornale**: questo report mostra le transazioni registrate in un giornale di registrazione, raggruppate per giustificativo.
 -   **Elenco transazioni per data**: questo report mostra tutte le transazioni per data, insieme al numero del giornale di registrazione, giustificativo e conto CoGe. In questo report vengono inoltre visualizzate le transazioni nelle valute di transazione, contabilizzazione e dichiarazione.
 -   **Origine della transazione**: questo report di transazione mostra il conto per giornale di registrazione e per valuta di transazione, contabilizzazione e dichiarazione. In questo report viene inoltre visualizzata ogni riga del giornale di registrazione utilizzata come contropartita.
 
 
-Per ulteriori informazioni, vedere [saldi dei conti] di Contabilità generale (general-ledger-account-balances.md), [Esplora di origine della contabilità] (dati finanziari \ \ \ contabilità fornitori contabilità-sorgente- Explorer) e i report finanziari [] () financial-reporting-getting-started.md
+Per ulteriori informazioni, vedere [Saldi dei conti della contabilità generale](general-ledger-account-balances.md), [Esplora origine contabilità](\financials\accounts-payable\accounting-source-explorer) e [Creazione di report finanziari](financial-reporting-getting-started.md)
 
 

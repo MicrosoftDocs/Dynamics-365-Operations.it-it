@@ -1,5 +1,5 @@
 ---
-title: Liquidare un pagamento parziale del cliente che ha sconti sulle note di accredito
+title: Liquidare un pagamento cliente parziale con sconti sulle note di accredito
 description: Questo articolo descrive uno scenario in cui uno sconto di cassa viene applicato su una nota di accredito quando anche la fattura originale ha uno sconto di cassa.
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidare un pagamento parziale del cliente che ha sconti sulle note di accredito
+# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidare un pagamento cliente parziale con sconti sulle note di accredito
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo descrive uno scenario in cui uno sconto di cassa viene applicato su una nota di accredito quando anche la fattura originale ha uno sconto di cassa. 
 
-Fabrikam consente ai clienti di applicare sconti di cassa a pagamenti parziali e anche a note di accredito (note di credito). Uno sconto di cassa può essere applicato a una nota di accredito quando la nota di accredito viene emessa per una fattura di un cliente alla quale è stato applicato uno sconto di cassa. Anziché accordare crediti per l'intero importo, è possibile accordare un credito al saldo cliente per un importo che escluda le percentuali di sconto di cassa applicate al cliente. I parametri di liquidazione si trovano ** parametri di contabilità clienti ** nella pagina.
+Fabrikam consente ai clienti di applicare sconti di cassa a pagamenti parziali e anche a note di accredito (note di credito). Uno sconto di cassa può essere applicato a una nota di accredito quando la nota di accredito viene emessa per una fattura di un cliente alla quale è stato applicato uno sconto di cassa. Anziché accordare crediti per l'intero importo, è possibile accordare un credito al saldo cliente per un importo che escluda le percentuali di sconto di cassa applicate al cliente. I parametri di liquidazione si trovano nella pagina **Parametri contabilità clienti**.
 
 ## <a name="invoice-and-credit-note"></a>Fattura e nota di accredito
 Il cliente 4035 ha una fattura di 1.000,00 e una nota di accredito di 100,00. Ciascun documento ha uno sconto dell'1% se viene pagata in 14 giorni. Arnie può visualizzare questa informazione nella pagina **Transazioni cliente**.
@@ -59,5 +62,7 @@ Le informazioni di sconto vengono visualizzate nella parte inferiore della pagin
 | Importo sconto di cassa da applicare | -1,00     |
 
 La liquidazione sarà di 100,00 e includerà un pagamento di 99,00 e uno sconto di 1,00.
+
+
 
 

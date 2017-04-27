@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Giustificativo singolo con più record cliente o fornitore
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future di Microsoft Dynamics 365 for Operations e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell'impatto della contabilità sull'elaborazione della liquidazione. 
 
 Alcuni esempi comuni in cui un giustificativo viene utilizzato per più clienti o fornitori includono i trasferimenti del saldo tra clienti e la compensazione dei saldi tra clienti e fornitori nella stessa organizzazione. 
@@ -91,10 +94,10 @@ Se l'utente non è soddisfatto dell'allocazione dello sconto di cassa per tutte 
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Giustificativo** | **Tipo di conto** | **Conto**  | **Descrizione** | **Dare** | **Avere** | **Offset type** | **Offset account** |
-| GNJL001     | Fornitore           | 1001         | INV1            |           | 100,00     | Contabilità generale          | &lt;vuoto&gt;      |
-| GNJL001     | Contabilità generale           | 606300-001-- | INV1            |   50,00   |            | Contabilità generale          | &lt;vuoto&gt;      |
-| GNJL001     | Contabilità generale           | 606300-002-- | INV1            |   50,00   |            | Contabilità generale          | &lt;vuoto&gt;      |
+| **Giustificativo** | **Tipo di conto** | **Conto**  | **Descrizione** | **Dare** | **Avere** | **Tipo contropartita** | **Conto di contropartita** |
+| GNJL001     | Fornitore           | 1001         | INV1            |           | 100,00     | Contabilità generale          | &lt;vuoto&gt;:      |
+| GNJL001     | Contabilità generale           | 606300-001-- | INV1            |   50,00   |            | Contabilità generale          | &lt;vuoto&gt;:      |
+| GNJL001     | Contabilità generale           | 606300-002-- | INV1            |   50,00   |            | Contabilità generale          | &lt;vuoto&gt;:      |
 | GNJL002     | Fornitore           | 1001         | INV2            |           | 200,00     | Contabilità generale          | 606300-003--       |
 | GNJL003     | Fornitore           | 1001         | INV3            |           | 300,00     | Contabilità generale          | 606300-004--       |
 
@@ -248,5 +251,7 @@ Per evitare problemi indesiderati con le liquidazioni future per la transazione,
 | 002         | Fornitore           | 1001        |                 |  75,00    |            | Contabilità generale          | 999999---          |
 
  
+
+
 
 

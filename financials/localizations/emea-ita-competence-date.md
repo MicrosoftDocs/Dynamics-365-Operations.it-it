@@ -1,5 +1,5 @@
 ---
-title: Data di competenza dalle transazioni
+title: Data di competenza per le transazioni
 description: "In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia."
 author: ShylaThompson
 manager: AnnBe
@@ -24,19 +24,22 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="competence-date-for-transactions"></a>Data di competenza dalle transazioni
+# <a name="competence-date-for-transactions"></a>Data di competenza per le transazioni
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia.
 
-In Italia, le società devono utilizzare una data di registrazione per registrare le transazioni. Data di registrazione corrisponde alla data in cui la società riconosce la transazione. Le transazioni di chiusura e rettifica è possibile effettuare diversi mesi dopo l'ultimo giorno dell'anno fiscale. (In genere, queste transazioni vengono effettuate alla data in cui lo stato patrimoniale viene approvato dal consiglio di amministrazione.) Queste transazioni devono essere dichiarate nel giornale di registrazione fiscale italiano alla data in cui vengono registrati, ma devono disporre di un riferimento alla data delle competenze. Di conseguenza, due date sono richieste:
+In Italia, le società devono utilizzare una data di registrazione per registrare le transazioni. La data di registrazione è la data in cui la società conferma la transazione. Le transazioni di chiusura e rettifica possono essere effettuate diversi mesi dopo l'ultimo giorno dell'anno fiscale. In genere, queste transazioni vengono effettuate alla data in cui lo stato patrimoniale viene approvato dal Consiglio di Amministrazione. Queste transazioni devono essere dichiarate nel giornale di registrazione fiscale italiano alla data in cui vengono registrate, ma devono disporre di un riferimento alla data di competenza. Due sono pertanto le date richieste:
 
--   Data competenze, che rappresenta la data in cui la transazione sull'importo del saldo
--   Data di registrazione, ovvero la data in cui l'utente registra la transazione
+-   La data di competenza, che rappresenta la data in cui la transazione influisce sull'importo del saldo
+-   La data di registrazione, che è la data in cui l'utente registra la transazione
 
-** Esempio: ** L'anno fiscale della società è dal 1° gennaio al 31 dicembre. Stato patrimoniale viene approvato il 15 aprile. Di conseguenza, le transazioni di chiusura e rettifica vengono dichiarate nel giornale di registrazione fiscale italiano ad aprile, ma influiscono sul saldo il 31 dicembre.
+**Esempio:** l'anno fiscale della società inizia l'1 gennaio e termina il 31 dicembre. Lo stato patrimoniale viene approvato il 15 aprile. Di conseguenza, le transazioni di chiusura e rettifica vengono dichiarate nel giornale di registrazione fiscale italiano ad aprile, ma influiscono sul saldo al 31 dicembre.
 
 ## <a name="enable-the-competence-date"></a>Attivare la data di competenza
-Per attivare questa funzionalità per le transazioni, in ** parametri di contabilità generale ** pagine, ** contabilità generale ** nella scheda, impostare ** riferimento alla data transazione alla data di competenza ** l'opzione ** Sì **. Dopo la data di competenza è attivata, è possibile specificare le competenze e le date di transazione per ogni giornale di registrazione utilizzato per registrare la rettifica e la chiusura e/o transazioni di apertura per l'anno fiscale:
+Per attivare questa funzionalità per le transazioni, nella pagina **Parametri di contabilità generale**, nella scheda **Contabilità generale**, impostare l'opzione **Riferimento alla data competenza nella data della transazione** su **Sì**. Dopo aver attivato la data di competenza, è possibile specificare le date di competenza e delle transazioni per ogni giornale di registrazione utilizzato per registrare le transazioni di rettifica e di chiusura/apertura per l'anno fiscale:
 
 -   Giornale di registrazione generale
 -   Giornale di registrazione cespiti
@@ -44,9 +47,11 @@ Per attivare questa funzionalità per le transazioni, in ** parametri di contabi
 -   Bilancio di chiusura
 -   Transazione di apertura
 -   Progetto - Registra costi
--   Progetto - (si il fatturato
--   Progetto - posta di stima
--   Progetto - storno di stima
+-   Progetto - Volume d'affari accumulato
+-   Progetto - Stima registrata
+-   Progetto - Storna stima
+
+
 
 
 

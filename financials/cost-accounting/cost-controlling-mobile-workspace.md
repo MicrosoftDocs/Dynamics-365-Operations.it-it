@@ -1,6 +1,6 @@
 ---
-title: Area di lavoro mobile di controllo dei costi per Microsoft Dynamics 365 per il app di operazioni
-description: Nell&quot;area di lavoro di cellulare di controllo costi, dirigenti del centro di costo possono visualizzare le prestazioni del centro di costo in qualsiasi momento e ovunque.
+title: Area di lavoro mobile Controllo costi per l&quot;app Microsoft Dynamics 365 for Operations
+description: Nell&quot;area di lavoro mobile Controllo costi, i responsabili del centro di costo possono esaminare le prestazioni del centro di costo in qualsiasi momento e ovunque si trovino.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 53 - 04
@@ -24,89 +24,89 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Area di lavoro mobile di controllo dei costi per Microsoft Dynamics 365 per il app di operazioni
+# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Area di lavoro mobile Controllo costi per l'app Microsoft Dynamics 365 for Operations
 
-Nell'area di lavoro di cellulare di controllo costi, dirigenti del centro di costo possono visualizzare le prestazioni del centro di costo in qualsiasi momento e ovunque. 
+Nell'area di lavoro mobile Controllo costi, i responsabili del centro di costo possono esaminare le prestazioni del centro di costo in qualsiasi momento e ovunque si trovino. 
 
 <a name="prerequisites"></a>Prerequisiti
 -------------
 
 | Prerequisito                                                         | descrizione                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Letto di Microsoft Dynamics 365 per la presentazione di cellulare di operazioni | [Dynamics 365 per la presentazione mobile] di operazioni (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 per le operazioni                                          | Assicurarsi che si utilizza un ambiente con Microsoft Dynamics 365 per la versione 1611 delle operazioni e Microsoft Dynamics per l'aggiornamento 3 la piattaforma delle operazioni (novembre 2016). |
-| 3215650 KB di Hotfix                                                    | Impostare il hotfix per abilitare le aree di lavoro che vengono fornite in Microsoft Dynamics 365 per le operazioni.                                                                       |
-| Dispositivo mobile con Dynamics 365 per il app delle operazioni in | Scaricare Dynamics 365 per il app delle operazioni dalla memoria di cellulare del app.                                                                                                      |
+| Informazioni sulla piattaforma mobile Microsoft Dynamics 365 for Operations | [Piattaforma mobile di Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Assicurarsi di utilizzare un ambiente con Microsoft Dynamics 365 for Operations versione 1611 e l'aggiornamento 3 della piattaforma di Microsoft Dynamics for Operations (novembre 2016). |
+| Hotfix KB 3215650                                                    | Impostare l'hotfix per abilitare le aree di lavoro che vengono fornite in Microsoft Dynamics 365 for Operations.                                                                       |
+| Dispositivo mobile con l'app Dynamics 365 for Operations installata | Scaricare l'app Dynamics 365 for Operations dall'App Store mobile.                                                                                                      |
 
 ## <a name="introduction"></a>Introduzione
-L'area di lavoro di cellulare di controllo costi è disponibile una visualizzazione immediata delle prestazioni corrente di centri di costo confrontando i costi effettivi rispetto ai costi a budget. È possibile eseguire il drill-down negli stati di singoli elementi di costo.
+L'area di lavoro mobile Controllo costi fornisce una visualizzazione immediata delle prestazioni correnti dei centri di costo confrontando i costi effettivi rispetto ai costi a budget. È possibile eseguire il drill-down per visualizzare gli stati di singoli elementi di costo.
 
 ### <a name="example"></a>Esempio
 
-Un dipendente riceve un invito a una conferenza internazionale. Organizzazione dovrà coprire tutte le spese di viaggio. Il dipendente richiede la relativa mangiatoia se è possibile partecipare alla conferenza. Il responsabile aperto rapidamente l'area di lavoro mobile di controllo dei costi nel suo cellulare di verificare se in budget per il dipendente è possibile conferenza.
+Un dipendente riceve un invito a una conferenza internazionale. L'organizzazione dovrà coprire tutte le spese di viaggio. Il dipendente chiede al responsabile se può partecipare alla conferenza. Il responsabile apre rapidamente l'area di lavoro mobile Controllo costi sul suo telefono cellulare per verificare se dispone del budget per consentire al dipendente di partecipare alla conferenza.
 
 ### <a name="data-security"></a>Sicurezza dei dati
 
-I dati nell'area di lavoro di controllo costi vengono assicurati le credenziali dell'utente. Un responsabile del centro di costo è consentito visualizzare solo i dati per il proprio il centro di costo. La protezione a livello di accesso viene gestita nel modulo Contabilità industriale. I costi contabili definiscono la configurazione di cellulare di controllo costi dell'area di lavoro nel modulo Contabilità industriale. Al termine dell'area di lavoro viene emessa a Microsoft Dynamics 365 per il app operazioni, è disponibile in Dynamics 365 per il app di cellulare delle operazioni. Ciò garantisce che tutti i responsabili del centro di costo dell'organizzazione la i dati nello stesso formato.
+I dati nell'area di lavoro Controllo costi sono protetti mediante l'uso di credenziali dell'utente. Un responsabile del centro di costo può visualizzare solo i dati per il proprio centro di costo. La protezione a livello di accesso viene gestita nel modulo Contabilità industriale. I contabili definiscono la configurazione dell'area di lavoro mobile Controllo costi nel modulo Contabilità industriale. Una volta che l'area di lavoro è stata pubblicata nell'app Microsoft Dynamics 365 for Operations, è disponibile nell'app mobile Microsoft Dynamics 365 for Operations. Ciò garantisce che tutti i responsabili del centro di costo dell'organizzazione visualizzino i dati nello stesso formato.
 
-### <a name="actions-views-and-links"></a>Azioni, visualizzazione e collegamenti
+### <a name="actions-views-and-links"></a>Azioni, visualizzazioni e collegamenti
 
-L'area di lavoro di controllo mobile per Dynamics di costo per il 365 dell'app Approvazioni delle operazioni sono disponibili le seguenti azioni, visualizzazione e collegamenti:
+L'area di lavoro mobile Controllo costi per l'app Dynamics 365 for Operations fornisce le seguenti azioni, visualizzazioni e collegamenti:
 
 -   Azioni 
-    -   Selezionare ** configurazioni ** per selezionare un layout.
-    -   Selezionare ** costi gli oggetti ** per selezionare i centri di costo nel quale i dati di filtro. ** Nota: ** Nell'elenco vengono visualizzati in base all'accesso assegnato nel modulo Contabilità industriale.
+    -   Selezionare **Configurazioni** per scegliere un layout.
+    -   Selezionare **Oggetti di costo** per scegliere i centri di costo nei quali si desidera filtrare i dati. **Nota:** l'elenco viene visualizzato in base all'accesso assegnato nel modulo Contabilità industriale.
 
 <!-- -->
 
--   In base a quanto viene selezionato sotto ** ** azioni e delle transazioni viene configurato nel modulo Contabilità industriale, è possibile visualizzare le seguenti informazioni nelle schede. Tenere presente che l'importo visualizzato lo stesso formato: Le entrate, budget, scostamento e scostamento %. 
-    -   Effettivi rispetto al budget (periodo corrente)
-    -   Effettivi rispetto al budget rivisto (periodo corrente)
-    -   Effettivi rispetto al budget (periodo precedente)
-    -   Effettivi rispetto al budget rivisto (periodo precedente)
-    -   Effettivi rispetto al budget (Data di fine anno)
-    -   Effettivi rispetto al budget rivisto (Data di fine anno)
+-   In base a quanto selezionato in **Azioni** e quanto configurato nel modulo Contabilità industriale, è possibile visualizzare le seguenti informazioni nelle schede. Tenere presente che l'importo è visualizzato nello stesso formato: Effettivo, Budget, Scostamento e % scostamento. 
+    -   Effettivo rispetto a Budget (periodo corrente)
+    -   Effettivo rispetto a Budget rivisto (periodo corrente)
+    -   Effettivo rispetto a Budget (periodo precedente)
+    -   Effettivo rispetto a Budget rivisto (periodo precedente)
+    -   Effettivo rispetto a Budget (anno fino a oggi)
+    -   Effettivo rispetto a Budget rivisto (anno fino a oggi)
 
 <!-- -->
 
 -   Collegamenti
-    -   Dettagli del periodo corrente.
-    -   Dettagli del periodo precedente.
-    -   Dettagli per Data di fine anno.
+    -   Dettagli per periodo corrente.
+    -   Dettagli per periodo precedente.
+    -   Dettagli per anno fino a oggi.
 
-Quando si seleziona uno dei collegamenti, una scheda per visualizzare l'elemento di costo. Importo nelle schede visualizzate nel formato seguente: Scostamento valori effettivi, di budget, di budget, scostamento di budget %, scostamento di budget rivisto, del budget rivisto e scostamento di budget rivisto %.  [![che controlla (]. /media/cost-controlling.png)](. /media/cost-controlling.png)
+Quando si seleziona uno dei collegamenti, viene visualizzata una scheda per elemento di costo. L'importo nelle schede viene visualizzato nel formato seguente: Effettivo, Budget, Scostamento budget, % scostamento budget, Budget rivisto, Scostamento budget rivisto e % scostamento budget rivisto.  [![controllo-costi](./media/cost-controlling.png)](./media/cost-controlling.png)
 
 ## <a name="get-started"></a>Per iniziare
-Seguire questi passaggi per iniziare nell'app Approvazioni di cellulare del controllo costi del dispositivo mobile.
+Seguire questi passaggi per iniziare a utilizzare l'app mobile Controllo costi sul proprio dispositivo mobile.
 
-1.  Nella memoria di cellulare del app, download e impostare Microsoft Dynamics 365 per il app delle operazioni.
-2.  Inizia app Approvazioni sull'unità.
-3.  Immettere il proprio Dynamics 365 URL.
-4.  Immettere la società in per accedere a. Ad esempio, immettere USMF ** **.
-5.  La prima volta che ha in, verrà chiesto di specificare il nome utente e password per il sistema Microsoft Dynamics 365 per l'account operazioni. Immettere le credenziali. Dopo avere accesso in, vengono visualizzate le aree di lavoro disponibili per la società.
+1.  Nell'App Store mobile, scaricare e installare l'app Microsoft Dynamics 365 for Operations.
+2.  Avviare l'app sul dispositivo.
+3.  Immettere il proprio URL Dynamics 365.
+4.  Immettere la società a cui accedere. Ad esempio, immettere **USMF**.
+5.  La prima volta che si accede, verrà richiesto di specificare il nome utente e la password per l'account Microsoft Dynamics 365 for Operations. Immettere le proprie credenziali. Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società.
 
-Per visualizzare le aree di lavoro nell'app Approvazioni di cellulare, è necessario rilasciare le aree di lavoro desiderate in Dynamics 365 per il app delle operazioni.
+Per visualizzare le aree di lavoro nell'app mobile, è necessario innanzitutto pubblicare le aree di lavoro desiderate nell'app Dynamics 365 for Operations.
 
-1.  Avviare Dynamics 365 per le operazioni.
-2.  ** Fare clic su Amministrazione sistema ** &gt; ** l'impostazione ** &gt; ** parametri di sistema **.
-3.  Selezionare ** gestire il app mobile **.
-4.  Selezionare l'area di lavoro ** ** di controllo per emettere la piattaforma spostato.
-5.  ** Pubblicare Selezionare l'area di lavoro **.
-6.  Aggiorna la propria unità per visualizzare le aree di lavoro generati.
+1.  Avviare Dynamics 365 for Operations.
+2.  Passare ad **Amministrazione sistema** &gt; **Impostazioni** &gt; **Parametri di sistema**.
+3.  Selezionare **Gestisci app per dispositivi mobili**.
+4.  Selezionare l'area di lavoro **Controllo costi** per pubblicare nella piattaforma mobile.
+5.  Selezionare **Pubblica area di lavoro**.
+6.  Aggiornare il dispositivo per visualizzare le aree di lavoro pubblicate.
 
-## <a name="view-the-performance-of-your-cost-center"></a>Consente di visualizzare le prestazioni del centro di costo
-1.  Nel dispositivo mobile, selezionare ** il controllo costi ** l'area di lavoro.
-2.  ** Selezionare il controllo costi oggetti **.
-3.  Fare clic su ** ** azioni.
-4.  Fare clic su ** configurazione selezionata ** per selezionare un layout di controllo di costi.
-5.  Click **Done**.
-6.  Fare clic su ** ** azioni.
-7.  Fare clic su ** oggetto di costo selezionato ** per selezionare i centri di costo a cui è stato assegnato l'accesso.
-8.  Click **Done**.
-9.  Consente di visualizzare le prestazioni complessive del centro di costo.
-10. Fare clic su ** dettagli per il periodo corrente **.
-11. Consente di visualizzare le prestazioni di singoli elementi di costo.
-12. È inoltre possibile cercare gli elementi dei costi specifici.
+## <a name="view-the-performance-of-your-cost-center"></a>Visualizzare le prestazioni del centro di costo
+1.  Sul dispositivo mobile, selezionare l'area di lavoro **Controllo costi**.
+2.  Selezionare **Controllo oggetto di costo**.
+3.  Fare clic su **Azioni**.
+4.  Fare clic su **Seleziona configurazione** per selezionare un layout di controllo dei costi.
+5.  Fare clic su **Fine**.
+6.  Fare clic su **Azioni**.
+7.  Fare clic su **Seleziona oggetto di costo** per selezionare i centri di costo a cui si ha accesso.
+8.  Fare clic su **Fine**.
+9.  Visualizzare le prestazioni complessive del centro di costo.
+10. Fare clic su **Dettagli per periodo corrente**.
+11. Visualizzare le prestazioni dei singoli elementi di costo.
+12. È inoltre possibile cercare elementi di costo specifici.
 
 
 

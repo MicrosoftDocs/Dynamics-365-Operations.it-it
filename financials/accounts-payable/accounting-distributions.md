@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions"></a>Distribuzioni contabili
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulle distribuzioni contabili e descrive le opzioni disponibili per elaborarle. Le distribuzioni contabili vengono utilizzate per allocare gli importi monetari per un documento di origine in conti CoGe specifici. 
 
 Le distribuzioni contabili sono una funzionalità per tutto il programma che viene utilizzata ed estesa da ciascun documento di origine, ad esempio un ordine fornitore, una fattura fornitore, una nota spese e una fattura a testo libero. Per impostazione predefinita, una distribuzione contabile viene generata per ogni riga e importo monetario del documento di origine ed è condizionatamente abilitata per la modifica. 
 
 > [!Note] 
-> Alcuni documenti anche supporto gli importi monetari del documento di intestazione, ad esempio le spese per ordini e fatture. 
+> Alcuni documenti supportano anche gli importi monetari del documento di intestazione, ad esempio le spese degli ordini e delle fatture. 
 
 Le funzionalità di distribuzione contabile generiche forniscono le seguenti opzioni per elaborare le distribuzioni contabili:
 
@@ -44,15 +47,17 @@ Le funzionalità di distribuzione contabile generiche forniscono le seguenti opz
     -   Il pulsante **Dividi** potrebbe essere abilitato per le distribuzioni padre. **Dividi** genera le nuove distribuzioni contabili e la divisione può essere basata sulla percentuale, l'importo o la quantità.
     -   Il pulsante** Distribuisci equamente** può essere utilizzato congiuntamente a **Dividi** per allocare automaticamente ed equamente l'importo in tutte le distribuzioni.
     -   Il pulsante **Reimposta** può essere abilitato per le distribuzioni padre quando esiste più di una distribuzione. **Reimposta** inverte qualsiasi modifica manuale alla distribuzione eliminando tutte le distribuzioni esistenti e rigenerando le distribuzioni predefinite.
-    -   Qualsiasi distribuzione figlia, ad esempio sconto, spesa e IVA, segue sempre la distribuzione padre. È possibile visualizzare la relazione rende visivamente la gerarchia ** ** &gt; ** riferimento alle informazioni padre **.
+    -   Qualsiasi distribuzione figlia, ad esempio sconto, spesa e IVA, segue sempre la distribuzione padre. È possibile visualizzare la relazione padre/figlia in **Riferimento** &gt; **Informazioni padre**.
     -   Il conto principale e la dimensione finanziaria potrebbero essere modificabili anche per i figli.
     -   Le dimensioni finanziarie nelle distribuzioni contabili seguono un modello predefinito che un documento può estendere. Per ulteriori informazioni, vedere gli articoli correlati.
-    -   Le distribuzioni di scostamento possono essere generate negli scenari corrispondenti, ad esempio con corrispondenza tra una fattura fornitore e un ordine fornitore. È possibile visualizzare le relazioni di abbinamento tra distribuzione contabile ** ** &gt; ** riferimento alle informazioni del documento **.
-    -   Il pulsante **Corretto** viene visualizzato ed è abilitato per i documenti che supportano le correzioni. ** Corretto ** crea nuove distribuzioni. Innanzitutto, distribuzioni vengono create da stornare le distribuzioni originali. Le distribuzioni non possono essere modificate. A questo punto, nuove distribuzioni contabili vengono create corrette. Le distribuzioni possono essere modificate se le distribuzioni originali potevano essere modificate.
+    -   Le distribuzioni di scostamento possono essere generate negli scenari corrispondenti, ad esempio con corrispondenza tra una fattura fornitore e un ordine fornitore. È possibile visualizzare le relazioni corrispondenti tra distribuzione contabile in **Riferimento** &gt; **Informazioni documento**.
+    -   Il pulsante **Corretto** viene visualizzato ed è abilitato per i documenti che supportano le correzioni. **Corretto** crea nuove distribuzioni. Innanzitutto, distribuzioni vengono create per stornare le distribuzioni originali. Queste distribuzioni non possono essere modificate. A questo punto, nuove distribuzioni contabili correte vengono create. Le distribuzioni possono essere modificate se le distribuzioni originali potevano essere modificate.
     -   Il pulsante** Dettagli progetto** è abilitato come estensione quando una riga è correlata a un progetto. Le distribuzioni contabili di progetto consentono di modificare dettagli, quali la fonte di finanziamento e la proprietà riga.
-    -   È possibile visualizzare lo stato di registrazione del documento corrente di riferimento ** **. Lo stato viene per l'intero documento e indica se il documento è in corso o completato.
--   ** Le distribuzioni di visualizzazione ** consente di visualizzare le distribuzioni contabili per tutte le righe e importi monetari nel documento. Non è possibile modificare le distribuzioni contabili da questa visualizzazione.
+    -   È possibile visualizzare lo stato contabile del documento corrente in **Riferimento**. Lo stato è per l'intero documento e indica se il documento è in corso o completato.
+-   ** Visualizza distribuzioni**: consente di visualizzare le distribuzioni contabili per tutte le righe e gli importi monetari del documento. Non è possibile modificare le distribuzioni contabili da questa visualizzazione.
 
 
-Per ulteriori informazioni, vedere [distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture a testo libero] () accounting-distributions-subledger-journal-entries-vendor-invoices.md.
+Per ulteriori informazioni, vedere [Distribuzioni contabili e sugli inserimenti nel giornale di registrazione secondario per le fatture a testo libero](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
 

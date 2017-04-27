@@ -1,6 +1,6 @@
 ---
 title: Impostare gli effetti attivi
-description: Viene descritta la procedura per l&quot;impostazione degli effetti attivi.
+description: In questo argomento viene illustrata la procedura per l&quot;impostazione degli effetti attivi.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,55 +26,60 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-bills-of-exchange"></a>Impostare gli effetti attivi
 
-Viene descritta la procedura per l'impostazione degli effetti attivi.
+[!include[banner](../includes/banner.md)]
 
-Un effetto attivo è un ordine scritto o elettronico di un cliente in cui è specificato che un'altra entità, in genere una banca, deve pagare un determinato importo alla società. Quando si utilizza un effetto attivo come pagamento per una fattura di ordine cliente o una fattura a testo libero, si esegue un accredito sul conto cliente. Tale accredito viene garantito dall'effetto attivo finché il cliente non paga l'effetto attivo alla banca. In genere, sistemerete la fattura liquidata con l'effetto attivo alla data di scadenza. Quando si riceve la notifica dalla banca che il pagamento è stato effettuato, l'effetto attivo può essere chiuso. È possibile emettere un effetto attivo tramite la banca all'uno o nelle seguenti fasi:
 
--   Alla data di scadenza. Questo metodo è noto anche come rimessa per incasso.
--   Prima della scadenza, in genere alla data sconto specificata in termini di pagamento impostati per il cliente. Quando si registra la transazione, l'importo dello sconto viene registrato in un conto spese. L'importo residuo è considerato una passività finché la banca riceverà il pagamento dal cliente. Questo metodo è noto anche come rimessa per sconto.
+In questo argomento viene illustrata la procedura per l'impostazione degli effetti attivi.
+
+Un effetto attivo è un ordine scritto o elettronico di un cliente in cui è specificato che un'altra parte, in genere una banca, deve pagare un determinato importo alla società. Quando si utilizza un effetto attivo come pagamento per una fattura di ordine cliente o una fattura a testo libero, si esegue un accredito sul conto cliente. Tale accredito viene garantito dall'effetto attivo finché il cliente non paga l'effetto attivo alla banca. In genere, la fattura viene liquidata con l'effetto attivo alla data di scadenza. Quando si riceve la notifica dalla banca che il pagamento è stato effettuato, l'effetto attivo può essere chiuso. È possibile emettere un effetto attivo tramite la propria banca con la seguente tempistica:
+
+-   Alla data di scadenza. Questo approccio è conosciuto come rimessa per incasso.
+-   Prima della data di scadenza, generalmente alla data dello sconto specificata nei termini di pagamento impostati per il cliente. Quando si registra la transazione, l'importo dello sconto viene registrato in un conto spese. L'importo residuo è considerato una passività finché la banca riceverà il pagamento dal cliente. Questo approccio è conosciuto come rimessa per sconto.
 
 ## <a name="set-up-posting-profiles-for-bills-of-exchange"></a>Impostare profili registrazione per gli effetti attivi
-** Utilizzare profili registrazione dei clienti ** impaginano per impostare i profili di registrazione da utilizzare con gli effetti attivi, effetti attivi protestati, le rimesse per incasso e le rimesse per sconto. In ** conto riepilogativo ** sistemi, selezionare il conto riepilogativo in cui registrare gli importi degli effetti attivi. Questo conto viene effettuato l'accredito in o, a seconda del tipo di transazione effetto attivo:
--   Per gli effetti attivi, viene eseguito un addebito sul conto quando viene registrato un effetto attivo e viene effettuato quando una rimessa per sconto o viene registrata una rimessa per incasso.
+Utilizzare la pagina **Profili di registrazione cliente** per impostare profili di registrazione da utilizzare con effetti attivi, effetti attivi protestati, rimesse per incasso e rimesse per sconto. Nel campo **Conto riepilogativo**, selezionare il conto riepilogativo in cui registrare gli importi degli effetti attivi. Su questo conto vengono effettuati addebiti o accrediti in base al tipo di transazione di effetto attivo:
+-   Per gli effetti attivi, viene eseguito un addebito sul conto quando viene registrato un effetto attivo e viene eseguito un accredito quando viene registrata una rimessa per sconto o una rimessa per incasso.
 -   Per gli effetti attivi protestati, viene eseguito un addebito sul conto quando viene registrato un effetto attivo protestato.
 -   Per le rimesse per incasso, viene eseguito un addebito sul conto quando viene registrata una rimessa per incasso.
 -   Per le rimesse per sconto, viene eseguito un addebito sul conto quando viene registrata una rimessa per sconto.
 
-In ** conto liquidità ** sistemi, selezionare il conto di cassa per registrare gli importi degli effetti attivi. Viene eseguito un addebito sul conto quando viene liquidato un effetto attivo. In ** pagamenti anticipati VAT ** sistemi, selezionare il conto riepilogativo in cui registrare gli importi VAT quando vengono utilizzati gli effetti attivi per i pagamenti anticipati. ** Nel conto per passività di sconto ** sistemi, selezionare il conto in cui registrare l'importo dello sconto per le rimesse per sconto. Viene eseguito un accredito sul conto quando viene registrata una rimessa per sconto.
+Nel campo **Conto di liquidazione**, selezionare il conto di cassa in cui registrare gli importi degli effetti attivi. Viene eseguito un addebito sul conto quando viene liquidato un effetto attivo. Nel campo **Pagamenti anticipati IVA**, selezionare il conto riepilogativo in cui registrare gli importi IVA quando vengono utilizzati gli effetti attivi per i pagamenti anticipati. Nel campo **Conto per passività di sconto**, selezionare il conto in cui registrare l'importo dello sconto per le rimesse per sconto. Viene eseguito un accredito sul conto quando viene registrata una rimessa per sconto.
 
-## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Impostare i parametri di contabilità clienti per gli effetti attivi
-** Parametri contabilità clienti ** nella pagina, i profili di registrazione predefinito per gli effetti attivi immessi ** contabilità generale e VAT ** nella scheda. Le sequenze numeriche vengono definite sequenze numeriche ** ** nella scheda.
+## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Impostare parametri della contabilità clienti per gli effetti attivi
+Nella pagina **Parametri contabilità clienti**, i profili di registrazione predefiniti per gli effetti attivi vengono immessi nella scheda **Contabilità generale e IVA**. Le sequenze numeriche vengono definite nella scheda **Sequenze numeriche**.
 Impostare nomi di giornale di registrazione per gli effetti attivi
 ------------------------------------------
 
-** Nomi dei giornali di registrazione ** nella pagina, è necessario creare almeno cinque nomi di giornale di registrazione da utilizzare per gli effetti attivi. Di seguito vengono riportati i tipi di giornale di registrazione:
--   ** Effetti attivi cliente emessi ** consente di creare un nome di giornale di registrazione per il giornale di registrazione effetti attivi emessi.
--   ** Effetti attivi cliente protestati ** consente di creare un nome di giornale di registrazione per il giornale di registrazione effetti attivi protestati.
--   ** Il cliente riemessi l'effetto attivo ** consente di creare un nome del giornale di registrazione effetti attivi riemessi.
--   ** Rimessa bancaria cliente ** consente di creare un nome di giornale di registrazione per il giornale di registrazione rimesse.
--   ** Effetti attivi cliente liquidati ** consente di creare un nome di giornale di registrazione per il giornale di registrazione effetti attivi liquidati.
+Nella pagina **Nomi giornali di registrazione**, creare almeno cinque nomi di giornale di registrazione da utilizzare per gli effetti attivi. Di seguito sono riportati i tipi di giornale di registrazione:
+-   **Effetto attivo cliente emesso**: consente di creare un nome di giornale di registrazione per il giornale di registrazione degli effetti attivi emessi.
+-   **Effetto attivo cliente protestato**: consente di creare un nome di giornale di registrazione per il giornale di registrazione degli effetti attivi protestati.
+-   **Effetto attivo cliente riemesso**: consente di creare un nome di giornale di registrazione per il giornale di registrazione degli effetti attivi riemessi.
+-   **Rimessa bancaria cliente**: consente di creare un nome di giornale di registrazione per il giornale di registrazione rimesse.
+-   **Effetto attivo cliente liquidato**: consente di creare un nome di giornale di registrazione per il giornale di registrazione degli effetti attivi liquidati.
 
-Nella pagina Giustificativo giornale di registrazione per ciascun giornale di registrazione effetti attivi, immettere le informazioni sull'effetto attivo ** effetto attivo ** nella scheda. Dopo che le righe del giornale di registrazione effetti attivi, è possibile visualizzarli ** indagine del giornale di registrazione effetti attivi ** nella pagina ed ** Statistiche effetti attivi ** nella pagina.
+Nella pagina del giustificativo del giornale di registrazione di ciascun giornale di registrazione degli effetti attivi, immettere informazioni sull'effetto attivo nella scheda **Effetti attivi**. Una volta registrate le righe del giornale di registrazione degli effetti attivi, è possibile visualizzarle nelle pagine **Richiesta informazioni su giornale di registrazione fatture effetto attivo** e **Statistiche effetti attivi**.
 Impostare metodi di pagamento per gli effetti attivi
 -----------------------------------------------
 
-** Metodi di pagamento ** nella pagina, impostare almeno un metodo di pagamento per gli effetti attivi. Se si intrattengono relazioni commerciali con più banche, impostare un metodo di pagamento che corrisponda al formato di rimessa che ogni banca richiede per gli effetti attivi.
+Nella pagina **Metodi di pagamento**, impostare almeno un metodo di pagamento per gli effetti attivi. Se si intrattengono relazioni commerciali con più banche, impostare un metodo di pagamento che corrisponda al formato di rimessa richiesto da ciascuna banca per gli effetti attivi.
 Impostare commissioni di pagamento per gli effetti attivi
 -----------------------------------------
 
-Una commissione di pagamento è una spesa associata al processo di riscossione dei pagamenti dai clienti. Le più righe di impostazione della commissione di pagamento è possibile associare ogni commissione di pagamento. È possibile utilizzare le righe di impostazione per controllare il modo in cui gli importi predefiniti per le commissioni di pagamento vengono calcolati. È ad esempio possibile creare righe di impostazione per metodi di pagamento, specifiche di pagamento, valute e periodi. È anche possibile creare righe di impostazione per percentuali o un importo basato su intervalli di giorni. Ad esempio, è possibile impostare una percentuale di interesse basata su una durata del pagamento. Se commissioni diverse la banca addebita tipi di rimessa, ad esempio ** sollecito ** o ** ** sconto, impostare una riga di commissione di pagamento separata per ciascun tipo di rimessa.
+Una commissione di pagamento è una spesa associata al processo di riscossione dei pagamenti dai clienti. È possibile associare più righe di impostazione di commissione di pagamento a ciascuna commissione di pagamento. È possibile utilizzare le righe di impostazione per controllare la modalità di calcolo degli importi predefiniti per le commissioni di pagamento. È ad esempio possibile creare righe di impostazione per metodi di pagamento, specifiche di pagamento, valute e periodi. È inoltre possibile creare righe di impostazione per una percentuale o un importo basato su intervalli di giorni. Ad esempio, è possibile impostare una percentuale di interesse basata sul tempo trascorso dalla scadenza di un pagamento. Se la banca addebita commissioni diverse in base ai tipi di rimessa, ad esempio **Incasso** o **Sconto**, impostare una riga di commissione di pagamento separata per ciascun tipo di rimessa.
 Impostare gli addebiti di rimessa per i file rimesse bancarie
 ------------------------------------------------
 
-** Conti bancari ** nella pagina, è possibile impostare addebiti di rimessa che le competenze relative a ogni file rimesse generata. Gli addebiti di rimessa vengono registrati dopo la conferma della rimessa e una volta conosciuti gli importi degli addebiti realizzati. Gli addebiti di rimessa diversi dalle commissioni di pagamento, che si riscuotono dai clienti e sono collegate alle righe.
+Nella pagina **Conti bancari**, è possibile impostare addebiti di rimessa addebitati da una banca per ciascun file rimesse che viene generato. Gli addebiti di rimessa vengono registrati dopo la conferma della rimessa e una volta conosciuti gli importi degli addebiti realizzati. Gli addebiti di rimessa sono diversi dalle commissioni di pagamento, che si riscuotono dai clienti e sono collegate alle righe dei giornali di registrazione.
 Impostare layout di documento per gli effetti attivi
 ---------------------------------------------
 
-** Conti bancari ** alla pagina, fare clic su ** impostazione ** e specificare il layout di documento richiesto per ciascun conto bancario di generare i documenti effetti attivi stampati.
+Nella pagina **Conti bancari**, fare clic su **Impostazioni**, quindi specificare il layout di documento richiesto per ciascun conto bancario per il quale verranno generati effetti attivi stampati.
 Impostare clienti per gli effetti attivi
 --------------------------------------
 
-Nel cliente ** ** impaginivi, per ciascun cliente che ha accettato di effettuare i pagamenti tramite un effetto attivo, può impostare un metodo di pagamento predefinito per gli effetti attivi ** standard di pagamento ** nella scheda.
+Nella pagina **Clienti**, per ciascun cliente che ha accettato di effettuare i pagamenti tramite un effetto attivo, è possibile impostare un metodo di pagamento predefinito per gli effetti attivi nella scheda **Impostazioni predefinite pagamento**.
+
+
 
 
 

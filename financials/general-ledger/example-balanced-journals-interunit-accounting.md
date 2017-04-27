@@ -1,5 +1,5 @@
 ---
-title: "Giornali saldo per contabilizzazione interunità"
+title: "Giornali di registrazione bilanciati per la contabilizzazione interunità"
 description: "Questo articolo mostra in che modo un giornale di registrazione viene automaticamente bilanciato quando si seleziona una dimensione finanziaria di bilanciamento nella pagina Contabilità generale."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Giornali saldo per contabilizzazione interunità
+# <a name="balanced-journals-for-interunit-accounting"></a>Giornali di registrazione bilanciati per la contabilizzazione interunità
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo mostra in che modo un giornale di registrazione viene automaticamente bilanciato quando si seleziona una dimensione finanziaria di bilanciamento nella pagina Contabilità generale. 
 
@@ -34,9 +37,9 @@ Se la voce contabile non è in pareggio a livello dei valori di dimensione finan
 
 |                      |           |
 |----------------------|-----------|
-| 6100 - MSP -\_ oU 256 | 100,00 DR |
-| 6100 - NY -\_ oU 249  | 100,00 DR |
-| 2100 - MSP -\_ oU 256 | 200,00 CR |
+| 6100 – MSP – OU\_256 | 100,00 DR |
+| 6100 – NY – OU\_249  | 100,00 DR |
+| 2100 – MSP – OU\_256 | 200,00 CR |
 
 In questo caso, i seguenti saldi sono determinati:
 
@@ -47,8 +50,10 @@ Pertanto, le seguenti voci contabili vengono create automaticamente per bilancia
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Dare) di Interunit - MSP -\_ oU 256 | 100,00 DR |
-| (Avere) di Interunit - NY -\_ oU 249 | 100,00 CR |
+| (Interunità - Dare) – MSP – OU\_256 | 100,00 DR |
+| (Interunità - Avere– NY – OU\_249 | 100,00 CR |
+
+
 
 
 

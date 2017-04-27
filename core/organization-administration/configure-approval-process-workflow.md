@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 Per configurare le proprietà del processo di approvazione, attenersi alla procedura indicata di seguito.
 
-Per configurare un processo di approvazione, nell'editor flusso di lavoro, fare clic con il pulsante destro del mouse sull'elemento di approvazione e scegliere ** proprietà ** per aprire ** proprietà ** il modulo.
+Per configurare un processo di approvazione, nell'editor flusso di lavoro fare clic con il pulsante destro del mouse sull'elemento di approvazione e scegliere **Proprietà** per aprire il modulo **Proprietà**.
 Assegnare un nome al processo di approvazione
 -------------------------
 
@@ -40,7 +40,7 @@ Per immettere un nome per il processo di approvazione, effettuare le operazioni 
 È possibile configurare il sistema in modo che venga automaticamente eseguita un'azione sul documento, se vengono soddisfatte determinate condizioni. Il sistema può ad esempio approvare le note spese con importi totali inferiori a USD 100. Per specificare se il sistema esegue automaticamente un'azione sul documento, attenersi alla procedura indicata di seguito.
 1.  Nel riquadro sinistro fare clic su **Azioni automatiche**.
 2.  Selezionare la casella di controllo **Attiva azioni automatiche**.
-3.  Click **Add condition**.
+3.  Fare clic su **Aggiungi condizione**.
 4.  Immettere una condizione.
 5.  Se necessario, immettere condizioni aggiuntive.
 6.  Per verificare la correttezza della configurazione delle condizioni immesse, eseguire i passaggi seguenti:
@@ -71,7 +71,7 @@ Per immettere un nome per il processo di approvazione, effettuare le operazioni 
     4.  Fare clic su **Inserisci**.
 
 7.  Per aggiungere traduzioni della notifica, fare clic su **Traduzioni**. Nel modulo visualizzato attenersi alla procedura indicata di seguito.
-    1.  Click **Add**.
+    1.  Fare clic su **Aggiungi**.
     2.  Nell'elenco visualizzato selezionare la lingua in cui immettere il testo.
     3.  Nella casella di testo **Testo tradotto** immettere il testo.
     4.  Per personalizzare il testo, inserire segnaposto.
@@ -112,11 +112,11 @@ Per immettere un nome per il processo di approvazione, effettuare le operazioni 
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>Microsoft Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td><strong>Utente</strong></td>
+    <td>Utenti di Microsoft Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong>: l'elenco include un intero Microsoft Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Microsoft Dynamics 365 for Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

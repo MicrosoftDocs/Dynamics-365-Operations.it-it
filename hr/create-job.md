@@ -1,6 +1,6 @@
 ---
-title: Impostazione dei componenti del processo
-description: "In questo argomento sono descritti gli elementi riportati di un processo può includere e vengono forniti alcuni esempi di utilizzo gli elementi dell&quot;organizzazione."
+title: Impostazione dei componenti di una mansione
+description: "In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell&quot;organizzazione."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,38 +25,41 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="setting-up-the-components-of-a-job"></a>Impostazione dei componenti del processo
+# <a name="setting-up-the-components-of-a-job"></a>Impostazione dei componenti di una mansione
 
-In questo argomento sono descritti gli elementi riportati di un processo può includere e vengono forniti alcuni esempi di utilizzo gli elementi dell'organizzazione. 
+[!include[banner](includes/banner.md)]
 
-Per poter creare posizioni lavorative, è necessario impostare alcune informazioni di riferimento. È possibile creare una posizione lavorativa con un solo conto. Tuttavia, includendo informazioni aggiuntive, ad esempio una qualifica, vengono immessi valori predefiniti per le posizioni assegnate al processo. Inoltre, alcune informazioni immesse possono essere utilizzate per filtrare i piani retribuzione per posizioni lavorative specifiche. Se si desidera impostare idoneità in cui è possibile filtrare i piani di retribuzione a un processo specifico, è necessario impostare le funzioni lavorative e i tipi di posizione lavorativa prima di impostare le posizioni lavorative. Avendo questi valori predefiniti disponibili, salverete l'ora in cui è possibile aggiungere le posizioni al processo. 
 
-Alcuni dettagli di processo, ad esempio la qualifica, il tipo e funzione di validità, sono valide. Se si crea una posizione lavorativa attualmente ma non aggiungere i dettagli fino a successivamente quindi pubblicate manualmente il processo a partire dalla data di creazione, i dettagli non verrà visualizzata. Di conseguenza, è necessario creare alcune informazioni di riferimento la prima che si. Tale modo, è possibile aggiungere informazioni ai nuovi processi quando vengono create.
+In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione. 
+
+Per creare mansioni, è necessario impostare alcune informazioni sui riferimenti. È possibile creare una mansione con un solo nome. Tuttavia, includendo informazioni aggiuntive, ad esempio una qualifica, vengono forniti valori predefiniti per le posizioni assegnate alla mansione. Inoltre, alcune informazioni immesse possono essere utilizzate per filtrare i piani di retribuzione per mansioni specifiche. Se si desidera impostare l'idoneità da poter utilizzare per filtrare i piani di retribuzione per una mansione specifica, è necessario impostare i tipi di mansione e le funzioni lavorative prima delle mansioni. Se si dispone di questi valori predefiniti, l'aggiunta di posizioni alla mansione sarà più rapida. 
+
+Alcuni dettagli della mansione, ad esempio la qualifica, il tipo e la funzione, dispongono di una data di validità. Se si crea una mansione ma questi dettagli vengono aggiunti in un secondo momento e si visualizza la mansione in base alla data di creazione, tali dettagli non saranno visibili. Di conseguenza, è opportuno creare alcune di queste informazioni di riferimento prima che siano necessarie. In tal modo, è possibile aggiungere le informazioni alle nuove mansioni quando vengono create.
 
 ## <a name="job-titles"></a>Qualifiche
 Prima di creare posizioni lavorative, è necessario impostare titoli per tali posizioni. Le posizioni ereditano i titoli dalle mansioni a cui sono associate. 
 
-Gestire le qualifiche utilizzando ** titoli ** della pagina, che può essere aperto tramite la funzione di ricerca. ** Titoli ** nella pagina, immettere i titoli che si prevede di utilizzare per i processi.
+Gestire le qualifiche utilizzando la pagina **Titoli**, che può essere aperta tramite la funzione di ricerca. Nella pagina **Titoli**, immettere i titoli che si prevede di utilizzare per le mansioni.
 
 ## <a name="job-types"></a>Tipi di posizione lavorativa
-I tipi di processo per raggruppare posizioni lavorative simili in categorie. I tipi di posizione lavorativa non sono obbligatori. Tuttavia, se si prevede di utilizzare i tipi di posizione lavorativa per impostare le regole di idoneità per la gestione della retribuzione, è consigliabile impostare i tipi di posizione lavorativa prima di impostare le posizioni lavorative. Alcuni esempi di tipi di processo a tempo pieno e a tempo parziale, o lo stipendio e retribuzione oraria. Vengono gestite mediante i tipi di processo mediante ** tipi di posizione lavorativa ** la pagina. ** Il processo in ** nella pagina, immettere un nome e una breve descrizione del tipo di processo. In ** stato di esenzione ** sistemi, selezionare una delle opzioni seguenti per indicare lo stato di esenzione di (FLSA) consente di base predefinito di lavoro dei processi con questo tipo:
+I tipi di mansione vengono utilizzati per raggruppare mansioni simili in categorie. I tipi di mansione non sono obbligatori. Tuttavia, se si prevede di utilizzare i tipi di posizione lavorativa per impostare le regole di idoneità per la gestione della retribuzione, è consigliabile impostare i tipi di posizione lavorativa prima di impostare le posizioni lavorative. Alcuni esempi di tipi di mansione a tempo pieno e a tempo parziale o stipendio e retribuzione oraria. I tipi di mansione vengono gestiti mediante la pagina **Tipi di mansione**. Nella pagina **Tipi di mansione**, immettere un nome per una breve descrizione del tipo di mansione. Nel campo **Stato di esenzione**, selezionare una delle opzioni seguenti per indicare lo stato di esenzione FLSA (Fair Labor Standards Act) di mansioni che dispongono di questo tipo di mansione:
 
--   ** ** - I processi non sono esenti dallo straordinario in base all'FLSA.
--   ** ** i processi Non esenti non sono esenti dallo straordinario in base all'FLSA.
--   ** Non applicabile ** la copertura FLSA non è applicabile.
+-   **Esente** - Le mansioni sono esenti dallo straordinario in base all'FLSA.
+-   **Non esente** - Le mansioni non sono esenti dallo straordinario in base all'FLSA.
+-   **Non applicabile** - La copertura FLSA non è applicabile.
 
 ## <a name="job-functions"></a>Funzioni lavorative
-Le giunzioni dei processi vengono descritte le categorie funzionali a livello principale e alle funzioni di livello superiore. Le funzioni lavorative non sono obbligatorie. È possibile utilizzare le funzioni lavorative, insieme ai tipi di processo, per filtrare i piani retribuzione per posizioni lavorative specifiche. È possibile associare le funzioni lavorative e i tipi di processo ai piani di retribuzione impostando regole di idoneità ** regole di idoneità ** nella pagina. È quindi possibile collegare un insieme di livelli a un piano di retribuzione applicabili alla specifica combinazione di tipo e di funzione lavorativa definita mediante una regola di idoneità. (Queste funzionalità si applicano sia ai piani di retribuzione fissa per i piani di retribuzione variabile). Tuttavia, se si prevede di utilizzare le funzioni lavorative per impostare le regole di idoneità per la gestione della retribuzione, è consigliabile impostare le funzioni lavorative prima di impostare le posizioni lavorative. Nella seguente tabella sono riportati alcuni esempi di funzioni lavorative.
+Le funzioni lavorative descrivono categorie funzionali di alto livello e correlano compiti di alto livello. Le funzioni lavorative non sono obbligatorie. È possibile utilizzare le funzioni lavorative, insieme ai tipi di mansione, per filtrare i piani di retribuzione in base a mansioni specifiche. Per associare tipi di mansione e funzioni lavorative ai piani di retribuzione, impostare le regole di idoneità nella pagina **Regole di idoneità**. È quindi possibile collegare un insieme di livelli a un piano di retribuzione applicabili alla specifica combinazione di un tipo di mansione e funzione lavorativa definita mediante una regola di idoneità. (Queste funzionalità si applicano ai piani di retribuzione sia fissa sia variabile). Tuttavia, se si prevede di utilizzare le funzioni lavorative per impostare le regole di idoneità per la gestione della retribuzione, è opportuno impostarle prima di impostare le mansioni. Nella tabella seguente sono riportati alcuni esempi di funzioni lavorative.
 
 | Mansione           | Funzione lavorativa         |
 |---------------|----------------------|
-| Manager vendite | Gestore livello medio    |
+| Manager vendite | Responsabile di livello medio    |
 | Ragioniere    | Professionisti        |
 
-Vengono gestite mediante le funzioni lavorative utilizzando ** funzioni lavorative ** la pagina. ** Funzioni lavorative ** nella pagina, immettere un codice di identificazione e una breve descrizione della funzione lavorativa.
+Le funzione lavorative vengono gestite mediante la pagina **Funzioni lavorative**. Nella pagina **Funzioni lavorative**, immettere un codice di identificazione e una breve descrizione della funzione lavorativa.
 
 ## <a name="job-tasks"></a>Mansioni di lavoro
-Le mansioni di lavoro vengono descritte le attività di base che un lavoratore in un'ubicazione per un processo deve completare. La stessa attività di processo può essere aggiunti a più posizioni e alle ubicazioni per le posizioni lavorative che utilizzano tali attività di processo. Nella seguente tabella sono riportati alcuni esempi di attività di processo.
+Le mansioni di lavoro descrivono le attività di base che un lavoratore che ricopre una posizione per una mansione deve completare. La stessa mansione di lavoro può essere aggiunta a più mansioni e alle posizioni per le mansioni che utilizzano tali mansioni di lavoro. Nella tabella seguente sono riportati alcuni esempi di mansioni di lavoro.
 
 <table>
 <thead>
@@ -69,20 +72,22 @@ Le mansioni di lavoro vengono descritte le attività di base che un lavoratore i
 <tr class="odd">
 <td>Manager vendite</td>
 <td><ul>
-<li><strong>Perforazione- revisione</strong> - Consente di visualizzare il rendimento di lavoro per ogni venditore.</li>
-<li><strong>ABS- revisione</strong> Consente di approvare o rifiutare richieste o le registrazioni delle assenze applicate da ciascun fornitore.</li>
+<li><strong>Verifica-prestazioni</strong>: verificare le prestazioni di ciascun venditore.</li>
+<li><strong>Verifica-assenze</strong>: approvare o rifiutare le richieste o le registrazioni di assenza di ciascun venditore.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Ragioniere</td>
-<td><strong>Aletta-report</strong> - Report finanziari settimanali inviare al responsabile finanziario.</td>
+<td><strong>Report-finanziario</strong>: presentare report finanziari settimanali al responsabile finanziario.</td>
 </tr>
 </tbody>
 </table>
 
-Vengono gestite mediante le attività di processo mediante ** mansioni di lavoro ** la pagina. ** Mansioni di lavoro ** nella pagina, immettere un nome e una descrizione per la mansione di lavoro. In ** nota ** sistemi, è possibile scegliere di immettere le informazioni aggiuntive. Le note possono essere aggiornate per uno specifico processo senza modificare le note immesse in questo campo.
+Le mansioni di lavoro vengono gestite mediante la pagina **Mansioni di lavoro**. Nella pagina **Mansioni di lavoro**, immettere un nome per una breve descrizione della mansione di lavoro. Nel campo **Nota** è possibile immettere informazioni aggiuntive. Le note possono essere aggiornate per una mansione specifica senza modificare le note immesse in questo campo.
 
 ## <a name="areas-of-responsibility"></a>Aree di responsabilità
-È possibile utilizzare le aree di responsabilità per indicare i ruoli di lavoro, i processi e i prodotti che un lavoratore in un'ubicazione per un processo è responsabile del sistema. Ad esempio, per un processo denominato "," contabile un'area di responsabilità può essere "report finanziari per il prodotto A". Vengono gestite mediante le aree di responsabilità utilizzando ** aree di responsabilità ** la pagina, che è possibile trovare utilizzando la funzione di ricerca. ** Aree di responsabilità ** nella pagina, immettere un nome e una descrizione della responsabilità. In ** nota ** sistemi, è possibile scegliere di immettere le informazioni aggiuntive. Le note possono essere aggiornate per uno specifico processo senza modificare le note immesse in questo campo.
+Le aree di responsabilità vengono utilizzate per indicare i ruoli di lavoro, i processi e i prodotti di cui un lavoratore in una posizione per una mansione è responsabile. Ad esempio, per una mansione denominata "Ragioniere", un'area di responsabilità potrebbe essere "Reporting finanziario per il prodotto A". Le aree di responsabilità vengono gestite mediante la pagina **Aree di responsabilità**, individuabile tramite la funzione di ricerca. Nella pagina **Aree di responsabilità**, immettere un nome e una descrizione della responsabilità. Nel campo **Nota** è possibile immettere informazioni aggiuntive. Le note possono essere aggiornate per una mansione specifica senza modificare le note immesse in questo campo.
+
+
 
 

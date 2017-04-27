@@ -1,6 +1,6 @@
 ---
 title: Creare piani di retribuzione variabile
-description: La retribuzione variabile rappresenta una retribuzione non regolare del dipendente, ad esempio premio o premi in azioni. In questo argomento vengono descritti i componenti che devono essere impostate per poter utilizzare la retribuzione variabile e registrare un dipendente a un piano di retribuzione variabile.
+description: La retribuzione variabile rappresenta una retribuzione non regolare del dipendente, ad esempio premio o premi in azioni. Questo argomento descrive i componenti che devono essere impostati per utilizzare una retribuzione variabile e per iscrivere un dipendente in un piano di retribuzione variabile.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-variable-compensation-plans"></a>Creare piani di retribuzione variabile
 
+[!include[banner](includes/banner.md)]
+
+
 La retribuzione variabile rappresenta una retribuzione non regolare del dipendente, ad esempio premio o premi in azioni. Questo articolo descrive i componenti che devono essere impostati per utilizzare una retribuzione variabile e per iscrivere un dipendente in un piano di compensazione variabile.
 
 Il calcolo degli importi di retribuzione variabile per i dipendenti può basarsi su diversi fattori, ad esempio le prestazioni del dipendente, il livello retributivo del dipendente e le prestazioni del reparto.
@@ -39,22 +42,22 @@ I **tipi di retribuzione variabile **costituiscono una componente necessaria. I 
 
 ### <a name="describe-vesting-rules"></a>Descrivere regole di distribuzione incentivi
 
-Facoltativamente, le società possono impostare **regole di distribuzione incentivi**. Conferendo le regole viene descritto come premio variabile deve disporre nel tempo. Ad esempio, una regola di distribuzione degli incentivi è possibile che il dipendente riceverà il 25 del premio totale per ciascun anno i quattro anni successivi. Conferendo le regole sono solo informative.
+Facoltativamente, le società possono impostare **regole di distribuzione incentivi**. Le regole di distribuzione incentivi descrivono come il premio variabile deve essere allocato nel tempo. Ad esempio, una regola di distribuzione degli incentivi potrebbe indicare che il dipendente riceverà il 25% del proprio premio totale ogni anno per i quattro anni successivi. Le regole di distribuzione incentivi sono solo informative.
 
 ## <a name="variable-compensation-plans"></a>Piani di retribuzione variabile
-Il **piano di retribuzione variabile** contiene le regole, i metodi di calcolo e i valori predefiniti per il calcolo di retribuzione variabile per dipendenti iscritti al piano. Quando si crea un piano di retribuzione variabile, è necessario impostare il tipo di retribuzione variabile. Tipo di retribuzione variabile determinano se il sistema calcolerà un importo in valuta o un numero di unità come premio. È inoltre necessario impostare il metodo di calcolo:
+Il **piano di retribuzione variabile** contiene le regole, i metodi di calcolo e i valori predefiniti per il calcolo di retribuzione variabile per dipendenti iscritti al piano. Quando si crea un piano di retribuzione variabile, è necessario impostare il tipo di retribuzione variabile. Il tipo di retribuzione variabile determina se il sistema calcolerà un importo in valuta o un numero di unità come premio. È inoltre necessario impostare il metodo di calcolo:
 
--   ** Il momento ** il calcolo del premio variabile è basato sulla retribuzione fissa che il dipendente ha avuto in una data specifica. Tale data viene specificata sull'evento processo quando nuovi importi di incremento retributivo verranno elaborati.
--   **Composito**: un importo del premio viene calcolato per ogni tariffa retributiva univoca della retribuzione fissa che il dipendente ha percepito tra la data di inizio e la data di fine del ciclo nell'evento di processo. I tassi vengono combinati per determinare il premio finale. Ad esempio, durante il ciclo, un dipendente trasferito in un percorso diverso che ha un tasso retributivo diverso. In questo caso, il premio variabile viene rettificato in base alla durata di ogni tariffa retributiva del dipendente.
+-   **Temporizzato** - Il calcolo del premio variabile è basato sulla retribuzione fissa che il dipendente ha avuto in una data specifica. Tale data viene specificata all'evento processo quando i nuovi importi di retribuzione vengono elaborati.
+-   **Composito**: un importo del premio viene calcolato per ogni tariffa retributiva univoca della retribuzione fissa che il dipendente ha percepito tra la data di inizio e la data di fine del ciclo nell'evento di processo. I tassi vengono quindi sommati per determinare il premio finale. Ad esempio, durante il ciclo, un dipendente trasferito in una posizione diversa che aveva una retribuzione diversa. In questo caso, il premio variabile viene rettificato in base alla durata di ogni tariffa retributiva del dipendente.
 
 L'importo del premio variabile può basarsi su una percentuale del reddito di base regolare del dipendente o su un numero stabilito di unità.
 
--   Selezionare l'opzione **Percentuale della base** per immettere una percentuale predefinita e specificare se la base deve essere la tariffa di retribuzione fissa del dipendente o il punto di controllo per il livello retributivo del dipendente. Livello retributivo viene impostato sulla mansione dei dipendenti. Uno dei punti di riferimento dalla struttura retributiva può essere impostato come punto di controllo nel piano di retribuzione fissa. Nel sistema verrà utilizzato il livello retributivo dal processo del dipendente e lo riferirà al punto di controllo elencato nel piano di retribuzione fissa del dipendente e l'importo di controllo per il livello retributivo del dipendente. Importo del punto di controllo quindi utilizzare in sostituzione della retribuzione fissa del dipendente come base per il premio.
--   Selezionare l'opzione** Numero di unità** per immettere un numero di unità predefinito, il valore di ciascuna unità e la valuta del valore unitario se il piano di retribuzione è relativo a un premio non in contanti (ad esempio, 200 unità di scorte che vengono valutate a 40 EUR) o solo il numero di unità se il piano di retribuzione è relativo a un premio in contanti. Per un premio in contanti, il dipendente riceverà il numero di unità specificate della valuta utilizzata per il proprio piano di retribuzione fissa, ad esempio 500 unità di 1 EUR). Il controllo uno-a-uno di relazione può essere utilizzato per indicare se esiste un mapping uno-a-uno diretto tra il numero di unità e il valore unitario. Quando si crea un piano di retribuzione variabile per un piano base alla cassa con il numero di unità, questa verrà chiusa automaticamente su Sì ** ** e il valore unitario è 1.0000 ** **.
+-   Selezionare l'opzione **Percentuale della base** per immettere una percentuale predefinita e specificare se la base deve essere la tariffa di retribuzione fissa del dipendente o il punto di controllo per il livello retributivo del dipendente. Il livello retributivo viene impostato sulla mansione del dipendente. Uno dei punti di riferimento dalla struttura retributiva può essere impostato come punto di controllo nel piano di retribuzione fissa. Il sistema utilizzerà il livello retributivo della mansione del dipendente e lo incrocerà con il punto di controllo elencato nel piano di retribuzione fissa del dipendente per trovare l'importo del punto di controllo per il livello retributivo del dipendente. L'importo del punto di controllo verrà quindi utilizzato in sostituzione della retribuzione fissa del dipendente come base per il premio.
+-   Selezionare l'opzione** Numero di unità** per immettere un numero di unità predefinito, il valore di ciascuna unità e la valuta del valore unitario se il piano di retribuzione è relativo a un premio non in contanti (ad esempio, 200 unità di scorte che vengono valutate a 40 EUR) o solo il numero di unità se il piano di retribuzione è relativo a un premio in contanti. Per un premio in contanti, il dipendente riceverà il numero di unità specificate della valuta utilizzata per il proprio piano di retribuzione fissa, ad esempio 500 unità di 1 EUR. Il controllo della relazione uno-a-uno può essere utilizzato per indicare se esiste un mapping uno-a-uno diretto tra il numero di unità e il valore unitario. Quando si crea un piano di retribuzione variabile per un piano basato su contanti usando il numero di unità, questa viene automaticamente bloccata su **Sì** e il valore unitario è **1,0000**.
 
-** Regola di assunzione ** l'impostazione consente di specificare se tutti i dipendenti devono ricevere lo stesso aumento, indipendentemente dalla data che sono stati Dipendente (** regola di assunzione ** = ** ** nessuno), ovvero se i dipendenti devono ricevere una percentuale del premio basato sulla durata del lavoro durante il ciclo (** regola di assunzione ** = ** la percentuale **). 
+L'impostazione **Regola di assunzione** consente di specificare se tutti i dipendenti devono ricevere lo stesso aumento, indipendentemente dalla data in cui sono stati assunti (**Regola di assunzione** = **Nessuno**) o se i dipendenti devono ottenere una percentuale del premio in base alla durata dell'impiego durante il ciclo (**Regola di assunzione** = **Percentuale**). 
 
-** Influenza ** consente di rettificare il premio dipendente, a seconda delle prestazioni del reparto del dipendente. La stato delle prestazioni può essere impostata per ciascun reparto ** reparti ** nella pagina, in ** moduli correlati ** &gt; ** retribuzione ** &gt; ** ** prestazioni. Il premio che i dipendenti del reparto ricevono dipende dal valore di ** la percentuale di obiettivo raggiunta ** sistema, che indica le prestazioni del reparto:
+**Fattore**  consente di rettificare il premio di un dipendente, a seconda delle prestazioni del reparto del dipendente. Metriche delle prestazioni possono essere impostate per ciascun reparto nella pagina **Reparti**, in **Moduli correlati** &gt; **Retribuzione** &gt; **Prestazioni**. Il premio che i dipendenti del reparto ricevono dipende dal valore del campo **Percentuale dell'obiettivo raggiunta**, che indica le prestazioni del reparto:
 
 -   Se le prestazioni del reparto sono 100 percento, il premio per i dipendenti in tale reparto viene moltiplicato per la percentuale impostata nel campo** Pagamento al 100%**.
 -   Se le prestazioni del reparto sono superiori al 100 percento, il sistema aggiunge la percentuale impostata nel campo **Ogni 1% al di sopra dell'obiettivo** alla percentuale impostata nel campo **Pagamento al 100%** finché non viene raggiunto il valore impostato nel campo **Pagamento massimo consentito**.
@@ -62,11 +65,11 @@ L'importo del premio variabile può basarsi su una percentuale del reddito di ba
 
 È possibile impostare** livelli di tolleranza** sulle percentuali di soglia in modo da visualizzare un messaggio di avviso se il fattore causa il superamento della percentuale di soglia. 
 
-Per impostazione predefinita, il sistema cerca il reparto impostato in base alla posizione. Tuttavia, il premio per alcuni dipendenti potrebbe dipendere dalle prestazioni di più reparti. In questo caso, i diversi reparti e la percentuale del premio assegnato alla prestazione di ciascun reparto possono essere impostate sull'iscrizione della retribuzione variabile dipendente. Per ulteriori informazioni, vedere la sezione di registrazione di retribuzione variabile" che segue. 
+Per impostazione predefinita, il sistema cerca il reparto impostato sulla posizione del dipendente. Tuttavia, il premio per alcuni dipendenti potrebbe dipendere dalle prestazioni di più reparti. In questo caso, i diversi reparti e la percentuale del premio allocato alle prestazioni di ciascun reparto possono essere impostati all'iscrizione del dipendente al piano di retribuzione variabile. Per ulteriori informazioni, vedere la sezione "Iscrizione retribuzione variabile" che segue. 
 
 Il fattore viene utilizzato solo se l'impostazione **Retribuzione basata sulla produttività** è selezionata quando viene eseguito il processo retributivo. 
 
-** I livelli sovrascrive ** la scheda consente di sostituire la percentuale predefinita o il numero di unità del premio, in base al livello retributivo del dipendente. ** Se abilitare sovrascrive per i livelli ** è impostato su Sì ** ** per i dipendenti che sono iscritti al piano di retribuzione variabile, vengono presi il livello retributivo o dipendenti e quindi liquidarla la ricerca nei livelli sostituisce la tabella per determinare la percentuale o il numero di unità per tale livello. Se il livello non viene ricavato dal livello sostituisce la tabella, la percentuale predefinita o il numero di unità ** ** dettagli relativi all'identificazione della scheda utilizzata. Percentuale e il numero di unità possono inoltre essere sostituiti nell'iscrizione del dipendente nel piano di retribuzione variabile.
+La scheda **Sostituzioni livelli** consente di sostituire la percentuale predefinita o il numero di unità del premio, in base al livello retributivo del dipendente. Se **Abilita sostituzioni per livelli** è impostato su **Sì** per i dipendenti che sono iscritti al piano di retribuzione variabile, il sistema prende il livello dalla mansione di un dipendente e quindi lo cerca nella tabella delle sostituzioni livelli per determinare la percentuale o il numero di unità per tale livello. Se il livello non viene trovato nella tabella delle sostituzioni livelli, la percentuale o il numero di unità predefinito dalla scheda **Generale** viene utilizzato. La percentuale e il numero di unità possono inoltre essere sostituiti nell'iscrizione del dipendente nel piano di retribuzione variabile.
 
 ## <a name="variable-compensation-enrollment"></a>Iscrizione retribuzione variabile
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Stabilire chi è idoneo per il piano
@@ -80,7 +83,7 @@ Se si desidera iscrivere i dipendenti a un piano di retribuzione variabile, il p
     -   I campi **Funzione** e **Tipo di mansione** sulla scheda **Classificazione mansione**
     -   Il campo **Livello** sulla scheda **Retribuzione**
 -   Nella pagina **Posizioni**: i campi **Reparto** e **Paese di retribuzione**
--   ** Dipendenti ** nella pagina: Le informazioni sui sindacati associate ai sindacati dipendente in ** &gt; informazioni personali ** ** ** nella scheda del **** del lavoratore di ****
+-   Nella pagina **Dipendenti**: le informazioni sui sindacati associati al dipendente in **Informazioni personali** &gt; **Sindacati** sulla scheda ****Lavoratore****
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Abilitare l'iscrizione al piano di retribuzione variabile
 
@@ -88,19 +91,21 @@ Nella pagina **Piani di retribuzione variabile**, impostare l'opzione **Abilita 
 
 ### <a name="enroll-the-employee"></a>Iscrivere il dipendente al piano
 
-È ora possibile iscrivere i dipendenti al piano di retribuzione variabile. Per iscrivere un dipendente, passare alla pagina **Dipendenti** e selezionare il dipendente. Quindi, nel riquadro azioni, fare clic su retribuzione ** ** &gt; ** registrazione variabile di piano **. 
+È ora possibile iscrivere i dipendenti al piano di retribuzione variabile. Per iscrivere un dipendente, passare alla pagina **Dipendenti** e selezionare il dipendente. Quindi, nel riquadro azioni, fare clic su **Retribuzione** &gt; **Iscrizione al piano di retribuzione variabile**. 
 
-**Nota:** l'opzione **Iscrizione** deve essere impostata su **Sì** nel piano di retribuzione variabile. ** Piano ** il campo viene visualizzato solo i piani in cui il dipendente ha diritto a, in base alle regole di idoneità impostate per i piani. Se una regola di idoneità non viene definita per un piano, non verrà apportata alcuna dipendenti idonee per il piano. 
+**Nota:** l'opzione **Iscrizione** deve essere impostata su **Sì** nel piano di retribuzione variabile. Il campo **Piano** indica solo i piani per i quali un dipendente è idoneo in base alle regole di idoneità impostate per tali piani. Se non si specifica alcuna regola di idoneità per un piano, nessun dipendente sarà idoneo per tale piano. 
 
-Assicurarsi che ** data di validità ** il campo sia impostato correttamente. Se il piano di retribuzione variabile utilizza ** composizione ** il metodo di calcolo, la data di validità di registrazione può essere considerata durante il calcolo del premio dipendente. 
+Assicurarsi che il campo **Data di validità** sia impostato correttamente. Se il piano di retribuzione variabile utilizza il metodo di calcolo **Composito**, la data di validità dell'iscrizione può essere considerata durante il calcolo del premio del dipendente. 
 
-È possibile utilizzare ** sovrascrive ** la scheda per sostituire i valori specifici per il dipendente. Ad esempio, se ** regola di assunzione ** è impostato su ** le percentuali ** sul piano e una data diversa di assunzione deve essere utilizzato durante il calcolo della percentuale dell'assunzione del dipendente, è possibile impostare la data di assunzione ** assumere la data della regola ** nel campo. È inoltre possibile sostituire uno o ** la percentuale del premio ** il valore o ** numero di unità ** il valore per un dipendente specifico, a seconda delle impostazioni del piano. Questi valori che verranno scomposti dalla regola di assunzione, dai fattori di performance e ad altre impostazioni per il piano. 
+È possibile utilizzare la scheda **Sostituzioni** per sostituire i valori specifici per il dipendente. Ad esempio, se **Regola di assunzione**  è impostato su **Percentuale** nel piano e una data di assunzione diversa deve essere utilizzata durante il calcolo della percentuale dell'assunzione del dipendente, è possibile impostare la data di assunzione nel campo **Data regola di assunzione**. È inoltre possibile sostituire il valore **Percentuale premio** o il valore **Numero di unità** per un dipendente specifico, a seconda delle impostazioni del piano. Questi valori verranno comunque moltiplicati per la regola di assunzione, i fattori di prestazioni e altri impostazioni nel piano. 
 
-** Organizzativo sovrascrive ** vengono utilizzati per basare il premio dipendente sulle prestazioni di uno o più reparti. Percentuale assegnata tra reparti deve essere pari al 100. La singola prestazioni di un dipendente verrà considerata. Queste impostazioni vengono utilizzate solo se ** retribuzione basata sulla produttività ** viene prelevato quando il processo retributivo viene eseguito.
+**Sostituzioni organizzative** vengono utilizzate per basare il premio del dipendente sulle prestazioni di uno o più reparti. La percentuale allocata tra reparti deve essere pari al 100%. La singola prestazioni di un dipendente viene anche considerata. Queste impostazioni vengono utilizzate solo se **Retribuzione basata sulla produttività** è selezionata quando viene eseguito il processo retributivo.
 
 <a name="see-also"></a>Vedere anche
 --------
 
 [Piani di retribuzione](compensation-plans.md)
+
+
 
 

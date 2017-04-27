@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Programmazione operazioni
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento sono riportate informazioni sulla programmazione delle operazioni. Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo.
 
 È possibile programmare la produzione il livello di operazione e di processo. A differenza della programmazione processi, la programmazione delle operazioni non esplode le operazioni per il ciclo di lavorazione produzione in processi. Se si desidera includere più dettagli nella programmazione, ad esempio informazioni sulla capacità corrente, è possibile eseguire la programmazione processi dopo la programmazione delle operazioni. È inoltre possibile eseguire solo la programmazione processi. La programmazione dei processi viene solitamente utilizzata per programmare singoli processi del reparto produzione e viene eseguita immediatamente o entro un breve intervallo di tempo.
@@ -76,5 +79,7 @@ Se si utilizzano i materiali limitati, la programmazione dipende anche dalla dis
 --------
 
 [Opzioni di programmazione delle operazioni](operation-scheduling-options.md)
+
+
 
 

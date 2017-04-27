@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Immettere le combinazioni di conto e dimensione (controllo di voci segmentato)
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive come immettere le combinazioni di conto e dimensioni o conti CoGe. All'esperienza di inserimento si fa spesso riferimento come controllo di voci segmentato.
 
-Gli utenti immettano le combinazioni di conto e alle varie pagine, ad esempio pagine per i giornali di registrazione generali, l'impostazione del budget e di registrazione. Le combinazioni di conto e dimensione valide dipendono dalle strutture dei conti assegnate alla contabilità generale e alle regole avanzate assegnate alle strutture dei conti. Quando gli utenti immettono una combinazione, possono immettere manualmente i valori o consentire avanzati, esperienza di ricerca. Quando si immette il campo, è possibile iniziare a immettere e verranno cercati il campo e la descrizione. Ad esempio, se digitare 180 cercherete di valore che inizia con la combinazione di numero. In è possibile immettere i contanti e cercheranno qualsiasi valore con una descrizione che inizia in contanti. È inoltre possibile utilizzare un jolly, ad esempio \* o \*180 per cercare se il valore o la descrizione contiene i criteri di ricerca. 
+Gli utenti immettono le combinazioni di conto e dimensione su diverse pagine, ad esempio pagine per i giornali di registrazione generali, impostazione del budget e definizioni di registrazione. Le combinazioni di conto e dimensione valide dipendono dalle strutture dei conti assegnate alla contabilità generale e alle regole avanzate assegnate alle strutture dei conti. Quando gli utenti immettono una combinazione, possono digitare il valori manualmente o sfruttare un'esperienza di ricerca complessa. Quando si immette il campo, è possibile iniziare a digitare e verranno cercati il valore e la descrizione. Ad esempio, se si digita 180 verrà cercato qualsiasi valore che inizia con quella combinazione di numeri. Oppure è possibile digitare Contanti e verrà cercato qualsiasi valore con una descrizione che inizia con Contanti. È inoltre possibile utilizzare un jolly, ad esempio  \*Contanti o \*180  per cercare se il valore o la descrizione contiene i criteri di ricerca. 
 
 Nella seguente tabella sono descritti i tasti di scelta rapida che possono essere utilizzati quando la ricerca viene chiusa.
 
@@ -108,5 +111,7 @@ Nella seguente tabella sono descritti i tasti di scelta rapida che possono esser
 </table>
 
  
+
+
 
 

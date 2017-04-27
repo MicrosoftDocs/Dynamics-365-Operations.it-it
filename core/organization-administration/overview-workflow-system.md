@@ -1,6 +1,6 @@
 ---
-title: Descrizione del sistema Workflow
-description: In questo articolo viene descritto il sistema Workflow in Microsoft Dynamics 365 per le operazioni.
+title: Panoramica del sistema del flusso di lavoro
+description: Viene descritto il sistema flusso di lavoro in Microsoft Dynamics 365 for Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="workflow-system-overview"></a>Descrizione del sistema Workflow
+# <a name="workflow-system-overview"></a>Panoramica del sistema del flusso di lavoro
 
-In questo articolo viene descritto il sistema Workflow in Microsoft Dynamics 365 per le operazioni.
+[!include[banner](../includes/banner.md)]
+
+
+Viene descritto il sistema flusso di lavoro in Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-workflow"></a>Flusso di lavoro e Workflow
 -----------------
@@ -34,7 +37,7 @@ In questo articolo viene descritto il sistema Workflow in Microsoft Dynamics 365
 Il termine *flusso di lavoro* può essere definito in due modi: come un sistema e come un processo aziendale.
 ### <a name="workflow-is-a-system"></a>Flusso di lavoro: il sistema
 
-Workflow è un sistema impostato con Dynamics 365 per le operazioni e in esecuzione nel server oggetti applicativi (AOS). Nel sistema sono disponibili funzionalità che consentono di creare singoli flussi di lavoro o processi aziendali.
+Il sistema del flusso di lavoro viene installato con Dynamics 365 for Operations e viene eseguito esecuzione nel server oggetti applicativi (AOS). Nel sistema sono disponibili funzionalità che consentono di creare singoli flussi di lavoro o processi aziendali.
 
 ### <a name="workflow-is-a-business-process"></a>Flusso di lavoro: il processo aziendale
 
@@ -46,6 +49,7 @@ Di seguito sono descritti i vantaggi derivanti dall'utilizzo di un sistema basat
 -   **Processi coerenti**: è possibile definire il processo di elaborazione di documenti specifici, ad esempio richieste di acquisto e note spese. L'utilizzo del sistema di flusso di lavoro consente di garantire che i documenti vengano elaborati e approvati in modo efficiente e coerente.
 -   **Visibilità dei processi**: è possibile tenere traccia delle metriche relative a stato, storico e prestazioni di istanze di flussi di lavoro. In questo modo è possibile stabilire se il flusso di lavoro necessita di modifiche allo scopo di migliorarne l'efficienza.
 -   **Elenco di lavoro centralizzato**: gli utenti possono visualizzare un elenco di lavoro centralizzato contenente le attività del flusso di lavoro e le approvazioni assegnati.
+
 
 
 

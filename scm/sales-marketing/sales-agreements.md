@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-agreements"></a>Contratti di vendita
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sui contratti di vendita. Un contratto di vendita è un contratto con cui il cliente si impegna ad acquistare prodotti in una determinata quantità o per uno specifico importo nel tempo in cambio di sconti o prezzi speciali.
 
 Un contratto di vendita è un contratto che impegna il cliente ad acquistare prodotti in una quantità specifica o per un importo specifico nel tempo, in cambio di prezzi speciali, sconti speciali nonché altre condizioni speciali, ad esempio pagamento e termini di consegna. I prezzi e gli sconti del contratto di vendita prevalgono sui prezzi e gli sconti dichiarati in eventuali contratti commerciali esistenti.  
@@ -36,7 +39,7 @@ Il periodo di validità di un contratto di vendita viene definito dai campi **Da
 
 È possibile creare un ordine cliente direttamente da un contratto di vendita mediante l'azione **Ordine di rilascio**. In alternativa, è possibile selezionare un contratto di vendita valido quando si prendono gli ordini (vedere la sezione “Applicazione di contratti di vendita nel processo di ordinazione" in questo articolo).  
 
-** Nota: ** Nelle versioni precedenti, contratti di vendita erano chiamati ordini cliente di copertura.
+**Nota:** Nelle versioni precedenti, i contratti di vendita erano chiamati ordini cliente di copertura.
 
 ## <a name="commitment-types"></a>Tipi di impegno
 Ogni riga di un contratto di vendita indica un impegno di vendita di un prodotto. In generale sono disponibili due categorie di impegno:
@@ -98,16 +101,18 @@ Se è stato creato (rilasciato) un ordine cliente a fronte di un contratto di ve
 | Quantità                                                          | Se si specifica una quantità che supera quella indicata in una riga del contratto di vendita in cui è selezionata la casella di controllo **Valore massimo applicato**, una finestra di messaggio richiede di salvare la quantità modificata. Fare clic su **Sì** per rimuovere il collegamento alla riga del contratto di vendita e ricalcolare il prezzo. Fare clic su **No** per rimuovere il collegamento alla riga del contratto di vendita senza ricalcolare il prezzo.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Restituzione di un articolo ordinato da un contratto di vendita
-Quando un reso di un prodotto che è stato ordinato per un contratto di vendita, Microsoft Dynamics 365 per le operazioni viene individuato e aggiornare automaticamente correlato l'impegno del contratto di vendita in base alla modifica della quantità o l'importo. Creando un ordine di reso in base all'ordine cliente originario che è collegato a un contratto di vendita, si stabilisce una relazione tra l'impegno del contratto di vendita, la riga ordine cliente e la fattura di ordine di reso.  
+Quando un cliente restituisce un prodotto ordinato da un contratto di vendita, Microsoft Dynamics 365 for Operations può trovare e aggiornare automaticamente l'impegno del contratto di vendita correlato per riflettere la modifica nella quantità o nell'importo. Creando un ordine di reso in base all'ordine cliente originario che è collegato a un contratto di vendita, si stabilisce una relazione tra l'impegno del contratto di vendita, la riga ordine cliente e la fattura di ordine di reso.  
 
 Se non si desidera detrarre la quantità di reso dall'impegno del contratto di vendita, è possibile utilizzare il controllo **Rimuovi collegamento** nella pagina **Ordine di reso** per rimuovere il collegamento tra l'ordine di reso e l'impegno del contratto di vendita. Se è necessario ristabilire successivamente il collegamento, fare clic su **Crea collegamento**.  
 
 **Nota:** Un ordine di reso può essere collegato a un solo contratto di vendita. Se il cliente restituisce più di un prodotto ordinato da più di un contratto di vendita, è necessario creare un nuovo ordine di reso per ogni prodotto e creare un collegamento al contratto di vendita corrispondente.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Ricerca automatica dei contratti di vendita
-In alcune situazioni in cui gli ordini cliente vengono creati indirettamente, come quando si crea una nota di accredito o ordini cliente interaziendali, è possibile controllare se Microsoft Dynamics 365 per operazioni di ricerca automatica dei contratti di vendita applicabili.
+In alcune situazioni in cui gli ordini cliente vengono creati indirettamente, ad esempio quando si crea una nota di accredito o ordini cliente interaziendali, è possibile definire se Microsoft Dynamics 365 for Operations deve cercare automaticamente i contratti di vendita applicabili.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Dimensioni finanziarie nei contratti di vendita
 È possibile copiare le dimensioni finanziarie in intestazioni documento o in singole righe di un contratto di vendita. È possibile modificare le dimensioni nell'intestazione o in una riga del contratto in qualsiasi momento. In questo caso, le dimensioni vengono automaticamente copiate nell'intestazione di rilascio o nella riga di rilascio degli ordini di rilascio.
+
+
 
 

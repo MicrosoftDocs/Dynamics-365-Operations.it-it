@@ -1,5 +1,5 @@
 ---
-title: Corsi di formazione di impostazione
+title: Impostare i corsi di formazione
 description: "Gli amministratori e gli amministratori delle Risorse umane possono utilizzare le funzionalità dei corsi per gestire le informazioni sulla formazione offerta ai lavoratori."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-training-courses"></a>Corsi di formazione di impostazione
+# <a name="set-up-training-courses"></a>Impostare i corsi di formazione
+
+[!include[banner](includes/banner.md)]
+
 
 Gli amministratori e gli amministratori delle Risorse umane possono utilizzare le funzionalità dei corsi per gestire le informazioni sulla formazione offerta ai lavoratori.
 
@@ -85,7 +88,7 @@ Per ogni corso, è possibile effettuare le seguenti attività.
 -   Hotel consigliati per i partecipanti al corso
 -   Creare una descrizione del corso che potrà essere pubblicizzata su Dipendente self-service
 
-  >** Nota ** è possibile eliminare un corso solo se nessuna registrate. 
+  >**Nota** È possibile eliminare un corso solo se nessuno vi si è registrato. 
     
 ## <a name="course-statuses"></a>Stati del corso
 Nella seguente tabella sono elencati gli stati possibili del corso e le azioni che è possibile completare quando il corso ha uno stato specifico.
@@ -132,7 +135,9 @@ I partecipanti a un corso sono i dipendenti, i candidati o i contatti che prendo
 <a name="workflow"></a>Flusso di lavoro
 --------
 
-I dipendenti registrati per un corso ** tramite Self Service dipendenti ** la pagina possono disporre dei instradati registrazione tramite il flusso di lavoro per l'approvazione.  Può essere assegnato a un corso ** dettagli relativi all'identificazione ** clic ** ** corsi nella pagina.
+I dipendenti registrati per un corso tramite la pagina **Dipendente self-service** possono avere la registrazione instradata tramite il flusso di lavoro per l'approvazione.  Un flusso di lavoro può essere assegnato a un corso nella Scheda dettaglio **Generale** della pagina **Corsi**.
+
+
 
 
 

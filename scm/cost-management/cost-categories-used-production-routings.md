@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Categorie di costi utilizzate nei cicli di lavorazione
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulle categorie di costi applicate agli ambienti di produzione che utilizzano i cicli di lavorazione.
 
 Le categorie di costi si applicano agli ambienti di produzione in cui vengono utilizzati i cicli di lavorazione e vengono assegnate alle risorse operative e alle operazioni del ciclo di lavorazione per definire i costi orari e segmentare i contributi costi nei costi calcolati di un articolo prodotto. I gruppi di costi assegnati alle categorie di costi classificano i contributi costi di produzione in base alle risorse operative e al tipo di attività, ad esempio tempo di attrezzaggio ed esecuzione. La specificità delle assegnazioni dei gruppi di costi permette il calcolo dei costi generali di produzione secondo le informazioni del ciclo di lavorazione. 
@@ -51,5 +54,7 @@ Il record di costo per una categoria di costi può essere specifico del sito o a
 Un'operazione del ciclo di lavorazione in genere eredita le categorie di costi assegnate alla risorsa operativa o all'operazione principale. Quando si crea un ordine di produzione, le operazioni del ciclo di lavorazione all'interno del ciclo di lavorazione produzione riflettono la versione del ciclo selezionata. È possibile ignorare le categorie di costi assegnate alle operazioni nel ciclo di lavorazione produzione. 
 
 Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. In questo caso è necessaria una categoria di costi per gli scopi di produzione e progetto. È necessario definire ulteriori informazioni correlate al progetto quando una categoria di costi è contrassegnata per l'utilizzo nei progetti.
+
+
 
 

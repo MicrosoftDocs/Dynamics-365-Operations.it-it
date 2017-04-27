@@ -1,6 +1,6 @@
 ---
 title: Distinte base e formule
-description: L&quot;articolo prevede informazioni sulle distinte base (BOMs) e sulle formule, che fanno parte della banca centrale della definizione dei prodotti e varianti prodotto. Le distinte base e le formule specificano i materiali o gli ingredienti necessari per un prodotto specifico. Le formule vengono inoltre specificati i co-prodotti e sottoprodotti ricevuti nel contesto di produzione specifico.
+description: L&quot;articolo offre informazioni sulle distinte base (DBA) e sulle formule, che sono una parte centrale della definizione dei prodotti e varianti prodotto. Le distinte base e le formule specificano i materiali o gli ingredienti necessari per un prodotto specifico. Le formule inoltre specificano i co-prodotti e sottoprodotti ricevuti nel contesto di produzione specifico.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Distinte base e formule
 
-L'articolo prevede informazioni sulle distinte base (BOMs) e sulle formule, che fanno parte della banca centrale della definizione dei prodotti e varianti prodotto. Le distinte base e le formule specificano i materiali o gli ingredienti necessari per un prodotto specifico. Le formule vengono inoltre specificati i co-prodotti e sottoprodotti ricevuti nel contesto di produzione specifico. 
+[!include[banner](../includes/banner.md)]
+
+
+L'articolo offre informazioni sulle distinte base (DBA) e sulle formule, che sono una parte centrale della definizione dei prodotti e varianti prodotto. Le distinte base e le formule specificano i materiali o gli ingredienti necessari per un prodotto specifico. Le formule inoltre specificano i co-prodotti e sottoprodotti ricevuti nel contesto di produzione specifico. 
 
 <a name="bills-of-materials"></a>Distinte base
 ------------------
@@ -38,7 +41,7 @@ Una distinta base (DBA) definisce i componenti necessari per produrre un prodott
 
 Quando viene associata a un ciclo di lavorazione o a un flusso di produzione che descrive le operazioni e le risorse necessarie per sviluppare un prodotto, la DBA forma la base per calcolare il costo stimato del prodotto.  
 
-Le DBA è una singola entità che viene descritta dalle seguenti informazioni:
+Una DBA è una singola entità descritta dalle seguenti informazioni:
 
 -   ID DBA
 -   Nome DBA
@@ -49,7 +52,7 @@ Una singola DBA descrive un singolo livello che viene identificato da un ID univ
 
 ### <a name="formulas-co-products-and-by-products"></a>Formule, co-prodotti e sottoprodotti
 
-Una formula è un sottotipo di DBA che viene in genere utilizzato per la produzione del processo. Oltre ai componenti e agli ingredienti, una formula descrive i co-prodotti e i sottoprodotti. Nella versione corrente, la definizione dei co-prodotti e sottoprodotti per la formula per la versione di formula. Una formula viene definita in genere per un articolo finito specifico (un articolo di pianificazione o della formula) definita nella versione di formula.
+Una formula è un sottotipo di DBA che viene in genere utilizzato per la produzione del processo. Oltre ai componenti e agli ingredienti, una formula descrive i co-prodotti e i sottoprodotti. Nella versione corrente, la definizione dei co-prodotti e sottoprodotti per la formula richiede la versione della formula. Una formula viene definita in genere per un prodotto finito specifico (un articolo formula o di pianificazione) definito nella versione della formula.
 
 ### <a name="boms-in-the-product-lifecycle"></a>DBA nel ciclo di vita del prodotto
 
@@ -61,7 +64,7 @@ Nel ciclo di vita del prodotto numerosi tipi di DBA potrebbero essere creati per
 -   **DBA di produzione** – Questa è la DBA effettiva utilizzata per una produzione specifica. Una DBA di produzione deve considerare le risorse effettive utilizzate per produrre il prodotto. Quando un ordine di produzione, un ordine batch o un kanban viene creato, i livelli multipli di DBA che sono rappresentati da voci fittizie sono compressi in un unico livello e vengono distribuiti sulle operazioni dell'ordine.
 -   **DBA di determinazione costi** – Questa DBA consente di calcolare il costo stimato di un prodotto. Ad esempio, è possibile utilizzare una DBA di determinazione costi quando viene utilizzato il costo standard o viene calcolato il costo pianificato stimato di un prodotto specificato. La determinazione costi DBA può fare riferimento a una specifica combinazione di materiali e di risorse che si prevede di utilizzare. Di conseguenza, è possibile utilizzare la DBA di determinazione costi per creare un costo stimato rappresentativo per un periodo e contribuire a evitare gli scostamenti nel tempo.
 
-I tipi della DBA che effettivamente vengono utilizzati di un'implementazione dipendono dall'implementazione e agli scenari e dai requisiti aziendali. Nelle implementazioni semplici una DBA pianificante, una DBA di produzione e una DBA di determinazione costi possono essere modellate come DBA unica. Negli ambienti con frequenti modifiche di progetto e più cicli alternativi verrà probabilmente richiesto un maggiore set di tipi di DBA.
+I tipi di DBA che vengono effettivamente utilizzati in un'implementazione dipendono dall'implementazione e anche dagli scenari e dai requisiti aziendali. Nelle implementazioni semplici una DBA pianificante, una DBA di produzione e una DBA di determinazione costi possono essere modellate come DBA unica. Negli ambienti con frequenti modifiche di progetto e più cicli alternativi verrà probabilmente richiesto un maggiore set di tipi di DBA.
 
 ### <a name="approval-of-boms-and-formulas"></a>Approvazione delle DBA e delle formule
 
@@ -78,7 +81,7 @@ Prima che una versione DBA possa essere utilizzata nella pianificazione o nel pr
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Attivazione della versione DBA o formula predefinita
 
-Per impostare una DBA o una formula specifica nella versione DBA o formula predefinita che verrà utilizzata dalla pianificazione generale o che verrà usata per creare gli ordini di produzione, è necessario attivare la versione. Quando una versione è attivata, la unicità di rilascio per i vincoli dati, ad esempio periodo, il sito, o quantità) viene verificata. Viene visualizzato un messaggio di errore se la versione che si sta tentando di attivare i conflitti con una versione già attiva. È quindi necessario disattivare la versione in conflitto o modificare i vincoli della versione (in genere il periodo) per impedire un'attivazione ambigua.
+Per impostare una DBA o una formula specifica nella versione DBA o formula predefinita che verrà utilizzata dalla pianificazione generale o che verrà usata per creare gli ordini di produzione, è necessario attivare la versione. Quando una versione è attivata, la unicità della versione per i vincoli dati, ad esempio periodo, il sito, o quantità, viene verificata. Viene visualizzato un messaggio di errore se la versione che si sta tentando di attivare è in conflitto con una versione già attiva. È quindi necessario disattivare la versione in conflitto o modificare i vincoli della versione (in genere il periodo) per impedire un'attivazione ambigua.
 
 ### <a name="product-change-with-case-management"></a>Modifica dei prodotti con gestione dei casi
 
@@ -114,5 +117,7 @@ Selezionare il tipo di riga** Fornitura sottoposta a pegging** quando si desider
 Selezionare il tipo di riga **Fornitore** se per il processo di produzione viene utilizzato un terzista e si desidera creare automaticamente una produzione secondaria o un ordine fornitore per il terzista.  
 
 **Nota sulle operazioni in conto lavoro in una DBA:** Il servizio o il lavoro realizzato dal terzista deve essere creato come articolo di tipo Assistenza di cui viene tenuta traccia nell'inventario. È necessario collegare un articolo di tipo Assistenza all'articolo principale come riga DBA. Nel ciclo di lavorazione deve essere presente un'operazione assegnata alla risorsa operativa del terzista.
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Configurare una decisione manuale in un flusso di lavoro
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento viene descritto come configurare le proprietà per una decisione manuale.
 
 Per configurare una decisione manuale, nell'editor flusso di lavoro fare clic con il pulsante destro del mouse sulla decisione e scegliere **Proprietà** per aprire la pagina **Proprietà**. Per configurare le proprietà della decisione manuale, attenersi alle procedure indicate di seguito.
@@ -95,8 +98,8 @@ Se un documento viene assegnato a un decisore, a quest'ultimo viene in genere ri
 
 1.  Nel riquadro sinistro fare clic su **Notifiche**.
 2.  Selezionare la casella di controllo accanto agli eventi per cui inviare notifiche:
-    -   ** la scelta 1\]\[** - l'utente assegnato ha selezionato ** scelta 1\]\[**.
-    -   ** la scelta 2\]\[** - l'utente assegnato ha selezionato ** scelta 2\]\[**.
+    -   **\[Prima scelta\]** – L'utente assegnato ha selezionato **\[Prima scelta\]**.
+    -   **\[Seconda scelta\]** – L'utente assegnato ha selezionato **\[Seconda scelta\]**.
     -   **Delega**: se l'utente assegnato ha delegato la decisione a un altro utente.
     -   **Riassegna**: se l'utente assegnato non ha preso la decisione nel tempo prestabilito.
 
@@ -148,10 +151,10 @@ Se un documento viene assegnato a un decisore, a quest'ultimo viene in genere ri
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Microsoft Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Microsoft Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong> Nell'elenco sono inclusi l'eventuale Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ Per specificare gli utenti a cui assegnare una decisione manuale, effettuare le 
     </tr>
     <tr class="even">
     <td>Utente</td>
-    <td>Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong> Nell'elenco sono inclusi l'eventuale Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui assegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui assegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -235,7 +238,7 @@ Per specificare gli utenti a cui assegnare una decisione manuale, effettuare le 
     <li>Nell'elenco <strong>Nome coda</strong> selezionare <strong>Coda condizionale</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Nota:</strong> questa opzione viene utilizzato solo per alcuni flussi di lavoro, ad esempio la gestione dei casi.</td>
+    <strong>Nota:</strong> questa opzione viene utilizzata solo per alcuni flussi di lavoro, ad esempio la gestione dei casi.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Se l'utente non prende la decisione nel tempo prestabilito, la decisione scadrà
     |----------|----------------------------|
     | 1        | Assegna a: Maria           |
     | 2        | Assegna a: Francesca            |
-    | 3        | Azione finale: scelta 1\]\[ |
+    | 3        | Azione finale: \[Prima scelta\] |
 
-    In questo esempio la decisione scaduta viene assegnata a Maria. Se Maria non prende la decisione nel tempo prestabilito, la decisione verrà assegnata a Francesca. Se Francesca non prende la decisione nel tempo prestabilito, verrà selezionato ** scelta 1\]\[** come decisione.
+    In questo esempio la decisione scaduta viene assegnata a Maria. Se Maria non prende la decisione nel tempo prestabilito, la decisione verrà assegnata a Francesca. Se Francesca non prende la decisione nel tempo prestabilito, verrà selezionato  **\[Prima scelta\]** come decisione.
 3.  Per aggiungere un utente al percorso di riassegnazione, fare clic su **Aggiungi riassegnazione**. Selezionare una delle opzioni nella tabella indicata di seguito, quindi seguire le altre indicazioni per l'opzione prima di procedere al passaggio 4.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Se l'utente non prende la decisione nel tempo prestabilito, la decisione scadrà
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong> Nell'elenco sono inclusi l'eventuale Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui riassegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui riassegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Per prendere la decisione in un periodo di tempo specifico, effettuare le operaz
     -   **Anni**: selezionare il giorno, la settimana e il mese entro i quali prendere la decisione. È ad esempio possibile scegliere di far prendere la decisione entro il venerdì della terza settimana di dicembre.
 
 4.  Se viene superato il limite di tempo, la decisione verrà presa dal sistema. Nell'elenco **Azione** selezionare l'opzione che dovrà essere selezionata dal sistema.
+
+
 
 
 

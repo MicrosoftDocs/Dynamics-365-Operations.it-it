@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>Gestione spese
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Pianificazione della gestione delle spese](plan-expense-management.md) Ulteriori informazioni verranno aggiunte in seguito; verificare in un secondo momento.
+
+
 
 

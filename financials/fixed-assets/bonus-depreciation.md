@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>ammortamento straordinario
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica delle funzionalità di ammortamento straordinario.
 
 La funzionalità di ammortamento aggiuntivo consente di applicare importi di ammortamento straordinari durante il primo anno in cui il cespite viene messo in servizio e ammortizzato. L'ammortamento aggiuntivo deve essere applicato prima di qualsiasi altro calcolo dell'ammortamento. Di conseguenza, è preferibile utilizzare l'ammortamento straordinario con i libri in cui la funzionalità Registra nella contabilità generale è disabilitata. È possibile utilizzare l'opzione **Elimina transazioni non registrate nella contabilità generale** per eliminare lo storico transazioni per i libri che non registrano nella contabilità generale. È quindi possibile inserire successivamente l'ammortamento aggiuntivo nel ciclo di vita del cespite eliminando le transazioni di ammortamento precedentemente registrate. 
@@ -61,5 +64,7 @@ Quando l'ammortamento aggiuntivo viene calcolato mediante il processo di propost
 È possibile creare un numero illimitato di record di ammortamento aggiuntivo. Una volta assegnati tali record al libro gruppo cespite, questi record vengono applicati al libro cespiti. 
 
 L'ammortamento aggiuntivo viene immesso sotto forma di percentuale o di importo fisso. Quando si registrano le proposte di ammortamento, le transazioni relative a questo tipo di ammortamento vengono registrate nel libro come transazioni distinte dalle altre.
+
+
 
 

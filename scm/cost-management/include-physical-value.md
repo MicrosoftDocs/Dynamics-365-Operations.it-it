@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="include-physical-value"></a>Includi valore fisico
 
+[!include[banner](../includes/banner.md)]
+
+
 Si utilizza la casella di controllo Includi valore fisico nella scheda dettaglio Modello inventariale della pagina Gruppi di modelli di articolo per specificare se nel calcolo del prezzo di costo medio corrente dell'articolo vengono considerate le transazioni aggiornate fisicamente.
 
 La casella di controllo **Includi valore fisico** ha i seguenti valori.
@@ -49,5 +52,7 @@ La casella di controllo ha effetti leggermente diversi a seconda del modello inv
 -   Un ordine acquisto per una quantità 3 a un prezzo di costo di 12,00 EUR aggiornato nella fattura
 
 In questo caso il prezzo di costo medio corrente sarà di 11,20 EUR, poiché per calcolare il prezzo di costo verranno utilizzate sia le transazioni aggiornate fisicamente sia le transazioni aggiornate finanziariamente. **Esempio 2** Non è stata selezionata la casella di controllo **Includi valore fisico** e il prezzo di costo nell'impostazione dell'articolo è di 10,00 EUR. È stato ricevuto un ordine acquisto per una quantità 20 a un prezzo di costo di 12,00 EUR aggiornato nel documento di trasporto. Quando viene registrato un ordine cliente, viene registrato automaticamente un importo costi di 10,00 EUR, poiché il prezzo di costo medio corrente non includerà transazioni registrate fisicamente. **Nota:** a fini di confronto, se si seleziona la casella di controllo **Includi valore fisico** per questo articolo, quando si registra un ordine cliente, l'importo costi registrato sarà 12,00 EUR.
+
+
 
 

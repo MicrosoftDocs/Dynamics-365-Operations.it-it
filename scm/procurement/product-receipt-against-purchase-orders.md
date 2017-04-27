@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Entrata prodotti e ordini fornitore
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
 
 L'entrata prodotti è il processo di registrazione che i prodotti ordinati sono stati ricevuti, in modo che le righe di ordine fornitore possono quindi essere elaborate per la fatturazione. In alcuni casi, i prodotti attraversano la preregistrazione, in cui informazioni aggiuntive da parte del fornitore vengono registrate prima del ricevimento dei prodotti. All'arrivo dei prodotti, sono prima contrassegnati come **Registrato**. I prodotti quindi prima possono attraversare processi aggiuntivi, quali la gestione della qualità, prima di essere contrassegnati come **Ricevuto**.
@@ -52,19 +55,21 @@ Se un dipendente ha ordinato merci utilizzando una richiesta di acquisto, tale d
 
 I PO potrebbero essere creati da un ordine cliente dove l'opzione **Consegna diretta** è stata selezionata. Quando si utilizza la consegna diretta, i prodotti non arrivano in magazzino ma vengono spediti direttamente dal fornitore al cliente. In questo caso, l'entrata è in genere registrata direttamente nell'ordine fornitore. L'entrata può essere eseguita automaticamente, ad esempio mediante EDI (electronic data interchange) con il fornitore. In alternativa, se l'ordine fornitore è interaziendale, Microsoft Dynamics 365 for Operations consente di automatizzare l'entrata sull'ordine cliente interaziendale quando si verifica la spedizione. Quando si utilizza la consegna diretta, pi rodotti sono ancora contabilizzati come magazzino, anche se non arrivano fisicamente nel magazzino. Pertanto, quando l'entrata prodotti è registrata nell'ordine fornitore, l'ordine cliente viene automaticamente aggiornato con un documento di trasporto, in modo che la variazione generale nel magazzino è 0 (zero). In scenari di consegna diretta, è opportuno non utilizzare la preregistrazione. Se si utilizzano magazzini che sono abilitati per la gestione magazzino, è possibile evitare il requisito per la registrazione di targa specificando invece un magazzino virtuale. Specificare il magazzino nel campo **Magazzino consegna diretta** sul prodotto. 
 
-Dopo che l'entrata prodotti è stata elaborata in ordine fornitore, lo stato degli ordini fornitore è impostato su ** ricevuto ** per indicare che la fattura può essere elaborata per l'ordine. È possibile esaminare i dettagli sui prodotti che sono già stati ricevuti utilizzando la pagina **Giornali di registrazione entrata prodotti**.  
+Dopo che l'entrata prodotti è stato elaborata nell'ordine fornitore, lo stato dell'ordine è impostato su **Ricevuto** per indicare che la fattura può essere elaborata per l'ordine. È possibile esaminare i dettagli sui prodotti che sono già stati ricevuti utilizzando la pagina **Giornali di registrazione entrata prodotti**.  
 
 È possibile accedere a questa pagina dal gruppo di azioni **Ricevuta** nella pagina **Ordine fornitore**. Le informazioni nei giornali di registrazione includono informazioni dettagliate sulle dimensioni, quantità e date.
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Panoramica dell'ordine fornitore](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Creazione ordine fornitore](purchase-order-creation.md)
 
 [Approvazione e conferma di un ordine fornitore](purchase-order-approval-confirmation.md)
 
 [Panoramica delle fatture fornitore](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

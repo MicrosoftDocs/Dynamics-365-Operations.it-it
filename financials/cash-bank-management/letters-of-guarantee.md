@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-guarantee"></a>Lettere di garanzia
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulle lettere di garanzia. In una lettera di garanzia, una banca accetta di pagare una somma di denaro specifica a una persona se uno dei clienti della banca non adempie a un pagamento o a un obbligo nei confronti di tale persona. 
 
 La lettera di garanzia è un contratto con cui una banca (garante) si impegna a pagare una somma di denaro concordata a una persona (beneficiario) se un cliente della banca (committente) non adempie a un pagamento o a un obbligo nei confronti del beneficiario. Le lettere di garanzia non sono trasferibili. Si applicano solo al beneficiario nominato nel contratto. Il committente può richiedere un aumento o una diminuzione del valore di una lettera di garanzia, a seconda dei termini del contratto. 
@@ -55,6 +58,8 @@ Nella tabella riportata di seguito vengono descritte le azioni che è possibile 
 | Proroga              | Dopo la consegna della lettera di garanzia al beneficiario, estendere il periodo di validità, se è necessaria un'estensione. |
 | Annulla              | Quando decade lo scopo per cui è stata richiesta la lettera di garanzia, annullare il contratto.                  |
 | Liquida           | Quando il beneficiario presenta la lettera di garanzia alla banca, consente di liquidare la lettera di garanzia.                      |
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Unità periferiche dell&quot;hardware POS"
+title: Periferiche hardware POS
 description: "Retail Modern POS e POS cloud possono utilizzare una vasta gamma di periferiche hardware POS, con più opzioni di interfacce e distribuzione per soddisfare vari scenari aziendali di un rivenditore."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>Unità periferiche dell'hardware POS
+# <a name="pos-hardware-peripherals"></a>Periferiche hardware POS
+
+[!include[banner](includes/banner.md)]
+
 
 Retail Modern POS e POS cloud possono utilizzare una vasta gamma di periferiche hardware POS, con più opzioni di interfacce e distribuzione per soddisfare vari scenari aziendali di un rivenditore. 
 
@@ -63,6 +66,8 @@ Nel seguente elenco sono inclusi modelli di dispositivi, in ciascuna classe, che
 
 -   Codice a barre – Honeywell 1900, HP LS2208
 -   MSR - Magtek PN - 21073075
+
+
 
 
 

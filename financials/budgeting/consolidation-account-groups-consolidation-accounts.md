@@ -1,6 +1,6 @@
 ---
-title: Gruppi di conto di consolidamento e conti di consolidamento aggiuntivi
-description: In questo argomento vengono fornite informazioni sui gruppi di conto di consolidamento e conti di consolidamento aggiuntive e viene illustrato come vengono utilizzate in Microsoft Dynamics 365 per le operazioni.
+title: Gruppi di conti di consolidamento e conti di consolidamento aggiuntivi
+description: In questo argomento vengono fornite informazioni sui gruppi di conti di consolidamento e sui conti di consolidamento aggiuntivi e viene illustrato come vengono utilizzati in Microsoft Dynamics 365 for Operations.
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,27 +24,32 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Gruppi di conto di consolidamento e conti di consolidamento aggiuntivi
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Gruppi di conti di consolidamento e conti di consolidamento aggiuntivi
 
-In questo argomento vengono fornite informazioni sui gruppi di conto di consolidamento e conti di consolidamento aggiuntive e viene illustrato come vengono utilizzate in Microsoft Dynamics 365 per le operazioni.
+[!include[banner](../includes/banner.md)]
+
+
+In questo argomento vengono fornite informazioni sui gruppi di conti di consolidamento e sui conti di consolidamento aggiuntivi e viene illustrato come vengono utilizzati in Microsoft Dynamics 365 for Operations.
 
 <a name="consolidation-account-groups"></a>Gruppi di conti di consolidamento
 ----------------------------
 
-I gruppi di conto di consolidamento consentono di creare gruppi di conti da utilizzare per consolidare i dati. In genere, un gruppo di conti di consolidamento per un piano dei conti governo definito o abbinare i conti a un gruppo definito dalla sede della società. Per i gruppi di conto di consolidamento ** impostazione ** nell'area ** consolidamenti ** del modulo. Quando si aggiunge un nuovo gruppo, quindi immettere un identificatore univoco per il gruppo di conti e un nome.
+I gruppi di conti di consolidamento consentono di creare gruppi di conti da utilizzare per consolidare i dati. In genere, un gruppo di conti di consolidamento rappresenta un piano dei conti definito dal Governo o mappa i conti a un gruppo definito dalla sede centrale della società. I gruppi di conti di consolidamento sono disponibili nell'area **Impostazioni** del modulo **Consolidamenti**. Quando si aggiunge un nuovo gruppo, si immette un identificatore univoco per il gruppo di conti e un nome.
 
 ## <a name="additional-consolidation-accounts"></a>Conti di consolidamento aggiuntivi
-I conti di consolidamento aggiuntivi consentono di assegnare un conto da un piano dei conti esistente a un gruppo di conti di consolidamento. È quindi possibile specificare un valore e un nome di conto di consolidamento. 
+I conti di consolidamento aggiuntivi consentono di assegnare un conto da un piano dei conti esistente a un gruppo di conti di consolidamento. Successivamente è possibile specificare un valore e un nome di conto di consolidamento. 
 
-Per i conti di consolidamento aggiuntive ** impostazione ** nell'area ** consolidamenti ** del modulo. Quando si crea un nuovo conto di consolidamento, sarà necessario specificare le informazioni seguenti:
+I conti di consolidamento aggiuntivi sono disponibili nell'area **Impostazioni** del modulo **Consolidamenti**. Quando si crea un nuovo conto di consolidamento, è necessario specificare le informazioni seguenti:
 
--   ** Il conto principale ** il campo è una ricerca in cui vengono visualizzati tutti i conti principali basate sul piano dei conti selezionato nella pagina. Quando si seleziona un conto, il nome automaticamente ** nome del conto principale ** nel campo.
--   ** Gruppo di conti di consolidamento ** consente di utilizzare questo campo per specificare il gruppo per assegnare il conto. Se si consolidano in due modi diversi, è necessario aggiungere lo stesso conto per tutte e quattro i gruppi di conto di consolidamento.
--   ** Conto di consolidamento ** immettere il valore del conto di consolidamento. Questo valore non deve essere un account da un piano dei conti. È possibile immettere qualsiasi valore desiderato.
--   ** Nome conto di consolidamento ** il nome del conto che si desidera visualizzare le richieste di informazioni e nei report.
--   ** Il livello di servizio SAT ** in questo campo viene utilizzato per dichiarare gli estratti conto agli uffici tributari messicane. 
+-   **Conto principale**: si tratta di un campo di ricerca che mostra tutti i conti principali basati sul piano dei conti selezionato nella pagina. Quando si seleziona un conto, il relativo nome viene automaticamente inserito nel campo **Nome conto principale**.
+-   **Gruppo di conti di consolidamento**: utilizzare questo campo per specificare il gruppo a cui assegnare il conto. Se si esegue il consolidamento in due modi diversi, è necessario aggiungere lo stesso conto a tutti e quattro i gruppi di conti di consolidamento.
+-   **Conto di consolidamento**: immettere il valore del conto di consolidamento. Questo valore non deve essere un conto di un piano dei conti. È possibile immettere qualsiasi valore desiderato.
+-   **Nome conto di consolidamento**: immettere il nome del conto che si desidera visualizzare le richieste di informazioni e nei report.
+-   **Livello SAT**: questo campo viene utilizzato per segnalare gli estratti conto agli uffici tributari messicani. 
 
-Al termine di creare i gruppi di conto di consolidamento e conti di consolidamento supplementari, è possibile selezionare il gruppo nel processo di consolidamento in linea.
+Dopo aver creato i gruppi di conti di consolidamento e i conti di consolidamento aggiuntivi, è possibile selezionare il gruppo nel processo di consolidamento online.
+
+
 
 
 

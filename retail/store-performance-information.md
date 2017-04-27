@@ -1,6 +1,6 @@
 ---
 title: Analisi delle prestazioni del punto vendita
-description: In questo articolo viene descritto come utilizzare la il punto vendita e l&quot;analisi dei dati in tempo reale per accedere, esplorare e conquistare alla comprensione sulle prestazioni del punto vendita, in base al sistema Microsoft Dynamics 365 per i dati delle operazioni.
+description: In questo articolo viene illustrato come utilizzare l&quot;analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dei punti di vendita, in base ai dati di Microsoft Dynamics 365 for Operations.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-store-performance"></a>Analisi delle prestazioni del punto vendita
 
-In questo articolo viene descritto come utilizzare la il punto vendita e l'analisi dei dati in tempo reale per accedere, esplorare e conquistare alla comprensione sulle prestazioni del punto vendita, in base al sistema Microsoft Dynamics 365 per i dati delle operazioni. 
+[!include[banner](includes/banner.md)]
 
-Come parte di Dynamics 365 per le operazioni, gli utenti possono esaminare le prestazioni del punto vendita in tempo reale tra diversi livelli della gerarchia organizzativa per un periodo selezionato aprendo la casella dati non ** riepilogo di Manica ** riferimento dalle seguenti posizioni:
 
--   ** La gestione della vendita al dettaglio ** area di lavoro Dynamics 365 per le operazioni &gt; ** al dettaglio e il commercio ** &gt; ** canali ** &gt; ** gestione della vendita al dettaglio ** &gt; ** report ** &gt; ** incanalano il report riepilogativo **
--   ** I dati finanziari punto vendita al dettaglio ** area di lavoro Dynamics 365 per le operazioni &gt; ** al dettaglio e il commercio ** &gt; ** canali ** &gt; ** dati finanziari punto vendita al dettaglio ** &gt; ** report ** &gt; ** incanalano il report riepilogativo **
--   ** Le richieste di informazioni e report ** sezioni Dynamics 365 per le operazioni &gt; ** al dettaglio e il commercio ** &gt; ** richieste di informazioni e report statistici basati ** &gt; ** i report di vendita ** &gt; ** incanalano il report riepilogativo **
+In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dei punti di vendita, in base ai dati di Microsoft Dynamics 365 for Operations. 
+
+Come parte di Microsoft Dynamics 365 for Operations, gli utenti possono analizzare le prestazioni del punto vendita in tempo reale nei diversi livelli della gerarchia organizzativa per un periodo selezionato aprendo il report predefinito **Riepilogo canale** da uno dei seguenti percorsi:
+
+-   Area di lavoro di Dynamics 365 for Operations in **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**
+-   Area di lavoro di Dynamics 365 for Operations in **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**
+-   Sezione di Dynamics 365 for Operations in **Richieste di informazioni e report** &gt; **Vendita al dettaglio e commercio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report di riepilogo canale**
 
 In questo report viene fornito uno snapshot dei riepiloghi seguenti come parte delle prestazioni del punto vendita:
 
@@ -42,4 +45,6 @@ In questo report viene fornito uno snapshot dei riepiloghi seguenti come parte d
 -   Riepilogo IVA
 -   Riepilogo sostituzione prezzo
 -   Riepilogo sconti
+
+
 

@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Lettere di credito e pagamenti all'importazione
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni generali sulle le previsioni informazioni generali sulle lettere di credito e sui pagamenti all'importazione. Entrambi i tipi di documenti bancari sono spesso utilizzati per la compravendita di merci tra paesi diversi.
 
 <a name="letters-of-credit"></a>Lettere di credito
 -----------------
 
-Le lettere di credito verranno utilizzate per le transazioni internazionali e la garanzia della Guida che i pagamenti verranno eseguiti. Una lettera di credito è un contratto emesso da una banca, in cui la banca acconsente a garantire un pagamento per conto di un acquirente, purché le condizioni del contratto tra l'acquirente e il venditore effettivamente si verificano. Una lettera di credito anche denominate crediti documentari (DC).
+Le lettere di credito vengono utilizzate nell'ambito delle transazioni internazionali e aiutano a garantire che i pagamenti verranno effettuati. Una lettera di credito è un contratto emesso da una banca, nel quale la banca acconsente a garantire un pagamento per conto di un acquirente, purché vengano osservate le condizioni del contratto tra l'acquirente e il venditore. Una lettera di credito è anche denominata credito documentario (DC).
 
 Per una lettera di credito di importazione, la persona giuridica è l'acquirente o il candidato per la lettera di credito. Per una lettera di credito di esportazione, la persona giuridica è il venditore o il beneficiario della lettera di credito. Le seguenti parti sono coinvolte in una lettera di credito:
 
@@ -50,5 +53,7 @@ Una lettera di credito può essere **revocabile** o **irrevocabile**. La natura 
 Un pagamento all'importazione è un contratto tra la banca e l'esportatore (il venditore) in cui la banca accetta la consegna della documentazione di spedizione all'importatore internazionale (l'acquirente). La banca deve consegnare la documentazione di spedizione al ricevimento del pagamento per le merci esportate in contanti o al ricevimento di una tratta firmata a garanzia del pagamento. 
 
 Un pagamento all'importazione aiuta a garantire che il venditore riceva il pagamento quando l'acquirente riceve i documenti di spedizione per accettare la consegna delle merci importate.
+
+
 
 

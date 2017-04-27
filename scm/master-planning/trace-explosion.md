@@ -1,5 +1,5 @@
 ---
-title: Utilizzare la tracciatura dell&quot;esplosione
+title: Utilizzare la tracciatura per l&quot;esplosione
 description: In questo articolo viene illustrato come utilizzare l&quot;analisi per esplorare le cause associate al risultato dell&quot;esplosione di un ordine.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>Utilizzare la tracciatura dell'esplosione
+# <a name="use-tracing-for-explosion"></a>Utilizzare la tracciatura per l'esplosione
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo articolo viene illustrato come utilizzare l'analisi per esplorare le cause associate al risultato dell'esplosione di un ordine.
 
@@ -43,6 +46,8 @@ Abilitando la tracciatura, è possibile visualizzare informazioni sui fattori ch
 <a name="see-also"></a>Vedere anche
 --------
 
-[Master plans](master-plans.md)
+[Piani generali](master-plans.md)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cash-discounts"></a>Sconti di cassa
 
+[!include[banner](../includes/banner.md)]
+
+
 Gli sconti di cassa vengono impostati e condivisi per la contabilità fornitori e la contabilità clienti.  Lo sconto di cassa disponibile può essere definito sulla fattura cliente o sulla fattura fornitore e verrà applicato se la fattura viene pagata entro la data dello sconto di cassa. 
 
 <a name="cash-discounts"></a>Sconti di cassa
@@ -61,8 +64,8 @@ La valuta di contabilizzazione della persona giuridica è l'EUR e per gli USD ve
 -   1 febbraio = 110
 -   1 marzo = 80
 
-Una fattura del valore di 1000 USD con termini di sconto di cassa di 20G2% viene registrata il 15 febbraio. L'importo della fattura nella valuta di contabilizzazione è di 1100 EUR. Un pagamento di 980 USD viene liquidato con la fattura il 1 marzo. L'importo dello sconto di cassa è 20 USD. L'importo del pagamento nella valuta di contabilizzazione è di 784 EUR. Importo nella valuta di contabilizzazione dello sconto di cassa viene calcolato utilizzando il tasso di cambio il 1° marzo: 20 \* 80/100 = 16 EUR.
-| **Note**                                                                                                                                                                                                                             |
+Una fattura del valore di 1000 USD con termini di sconto di cassa di 20G2% viene registrata il 15 febbraio. L'importo della fattura nella valuta di contabilizzazione è di 1100 EUR. Un pagamento di 980 USD viene liquidato con la fattura il 1 marzo. L'importo dello sconto di cassa è 20 USD. L'importo del pagamento nella valuta di contabilizzazione è di 784 EUR. L'importo dello sconto di cassa nella valuta di contabilizzazione viene calcolato usando il tasso di cambio al 1 marzo: 20 \* 80 / 100 = 16 EUR.
+| **Nota**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se l'opzione Calcola sconti di cassa per pagamenti parziali è selezionata nei parametri di contabilità clienti o nelle pagine di parametri di contabilità fornitori, viene utilizzato il tasso di cambio in vigore alla data di ciascun pagamento parziale. |
 
@@ -70,5 +73,7 @@ Una fattura del valore di 1000 USD con termini di sconto di cassa di 20G2% viene
 =
 
  
+
+
 
 

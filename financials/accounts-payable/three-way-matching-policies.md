@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="three-way-matching-policies"></a>Criteri di abbinamento a tre elementi di verifica
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce esempi di abbinamento a tre elementi di verifica.
 
 <a name="example-three-way-matching-for-items"></a>Esempio: criteri di abbinamento a tre elementi di verifica per gli articoli
@@ -62,7 +65,7 @@ I criteri di abbinamento fatture in questo esempio sono di supporto alle persone
 1.  Sammy, un lavoratore nel reparto addetto al ricevimento in Fabrikam, riceve la quantità totale di computer forniti da Contoso. Immette una quantità di 5 in un'entrata prodotti. Poiché l'ordine fornitore è stato interamente ricevuto, lo stato dell'ordine fornitore cambia in Ricevuto.
 2.  April, che coordina la contabilità fornitori in Fabrikam, immette e verifica la fattura che viene inviata da Contoso. Verifica le informazioni seguenti:
     -   Per gli articoli che richiedono i criteri di abbinamento a tre elementi di verifica, la quantità nella riga fattura corrisponde alla quantità ricevuta. La quantità ricevuta è indicata nell'entrata prodotti abbinata alla fattura.
-    -   Per gli articoli che richiedono l'abbinamento a due o a tre elementi di verifica, i prezzi nella riga della fattura sono nelle tolleranze definite in Microsoft Dynamics 365 per Operations.This comprendono i seguenti tipi dei risultati dei prezzi:
+    -   Per gli articoli che richiedono abbinamento a due oppure a tre elementi di verifica, i prezzi della riga fattura sono nelle tolleranze definite in Microsoft Dynamics 365 for Operations. Sono inclusi i seguenti tipi di abbinamento prezzi:
         -   Abbinamento dei prezzi unitari netti: il prezzo unitario netto nella riga fattura corrisponde al prezzo unitario netto nella riga ordine fornitore nella percentuale di tolleranza. In questo esempio la tolleranza del prezzo unitario netto è pari a +8%.
         -   Abbinamento totali dei prezzi: l'importo netto della riga fattura corrisponde all'importo netto della riga ordine fornitore in termini di percentuale o importo di tolleranza o entrambi. In questo esempio la tolleranza di abbinamento dei totali dei prezzi è pari a +15%.
 
@@ -75,7 +78,7 @@ La fattura su carta di Contoso contiene le informazioni seguenti.
 | Imposta sul reddito                         |          |            | 0,00       |
 | Totale                       |          |            | 44.500,00  |
 
-In Microsoft Dynamics 365 per le operazioni, la riga della fattura include le seguenti informazioni.
+In Microsoft Dynamics 365 for Operations, la riga fattura include le seguenti informazioni.
 
 | Numero articolo                 | Quantità | Prezzo unitario | Importo netto riga | Criteri di abbinamento    | Abbinamento quantità entrata prodotti | Abbinamento prezzi | Abbinamento totale prezzo |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -111,7 +114,7 @@ I criteri di abbinamento fatture in questo esempio sono di supporto alle persone
 1.  Gli articoli arrivano. Sammy, un lavoratore nel reparto addetto al ricevimento della divisione di Fabrikam in Malaysia, viene interrotto e non registra l'entrata prodotti immediatamente.
 2.  April, che coordina la contabilità fornitori in Fabrikam, immette e verifica la fattura che viene inviata da Contoso. Verifica le informazioni seguenti:
     -   Per gli articoli che richiedono i criteri di abbinamento a tre elementi di verifica, la quantità nella riga fattura corrisponde alla quantità ricevuta. La quantità ricevuta è indicata nell'entrata prodotti abbinata alla fattura.
-    -   Per gli articoli che richiedono l'abbinamento a due o a tre elementi di verifica, i prezzi nella riga della fattura sono nelle tolleranze definite in Microsoft Dynamics 365 per le operazioni. Sono inclusi i seguenti tipi di abbinamento prezzi:
+    -   Per gli articoli che richiedono i criteri di abbinamento a due o a tre elementi di verifica, i prezzi nella riga fattura rientrano nelle tolleranze definite in Microsoft Dynamics 365 for Operations. Sono inclusi i seguenti tipi di abbinamento prezzi:
         -   Abbinamento dei prezzi unitari netti: il prezzo unitario netto nella riga fattura corrisponde al prezzo unitario netto nella riga ordine fornitore nella percentuale di tolleranza. In questo esempio la tolleranza del prezzo unitario netto è pari a +2%.
         -   Abbinamento totali dei prezzi: l'importo netto della riga fattura corrisponde all'importo netto della riga ordine fornitore in termini di percentuale o importo di tolleranza o entrambi. In questo esempio la tolleranza di abbinamento dei totali dei prezzi è pari a +10%.
 
@@ -124,7 +127,7 @@ La fattura su carta di Contoso contiene le informazioni seguenti.
 | Unità USB             | 200      | 10,05      | 2.010,00   |
 | Fattura totale         |          |            | 7.092,00   |
 
-In Microsoft Dynamics 365 per le operazioni, la riga della fattura include le seguenti informazioni.
+In Microsoft Dynamics 365 for Operations, la riga fattura include le seguenti informazioni.
 
 | Numero articolo           | Quantità | Prezzo unitario | Importo netto riga | Criteri di abbinamento    | Abbinamento quantità entrata prodotti | Abbinamento prezzi | Abbinamento totale prezzo |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -140,6 +143,8 @@ Notare gli articoli seguenti:
 Se è necessaria l'approvazione per la registrazione delle fatture in presenza di discrepanze di abbinamento fatture, la casella di controllo Approva registrazione con discrepanze di abbinamento nella pagina Dettagli abbinamento fatture deve essere selezionata prima che la fattura possa essere registrata con errori di abbinamento prezzi ed errori di abbinamento quantità. Se l'approvazione non è richiesta, l'elaborazione della fattura può continuare se non sono presenti altri errori di registrazione.
 
 
-Per ulteriori informazioni, vedere [] abbinamento fatture della contabilità fornitori (accounts-payable-invoice-matching.md).
+Per ulteriori informazioni, vedere [Abbinamento fatture della contabilità fornitori](accounts-payable-invoice-matching.md).
+
+
 
 

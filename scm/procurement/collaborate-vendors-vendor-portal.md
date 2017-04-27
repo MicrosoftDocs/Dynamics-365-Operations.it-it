@@ -1,6 +1,6 @@
 ---
-title: Collabori con i fornitori mediante il portale fornitori
-description: In questo argomento viene illustrato come gli addetti agli acquisti possono utilizzare il portale fornitori per collaborare con i fornitori esterni durante il processo di conferma dell&quot;ordine fornitore. Queste informazioni si applicano solo alle versioni &amp; del febbraio 2016 maggio 2016 di Dynamics AX.
+title: Collaborare con i fornitori tramite il portale fornitori
+description: In questo argomento viene illustrato come gli addetti agli acquisti possono utilizzare il portale fornitori per collaborare con i fornitori esterni durante il processo di conferma dell&quot;ordine fornitore. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collabori con i fornitori mediante il portale fornitori
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborare con i fornitori tramite il portale fornitori
 
-In questo argomento viene illustrato come gli addetti agli acquisti possono utilizzare il portale fornitori per collaborare con i fornitori esterni durante il processo di conferma dell'ordine fornitore. Queste informazioni si applicano solo alle versioni &amp; del febbraio 2016 maggio 2016 di Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-Le informazioni in questo argomento si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX. La funzionalità portale fornitori è stata sostituita da funzionalità estese di collaborazione fornitore in Dynamics 365 per la versione 1611 delle operazioni. Per ulteriori informazioni sulla nuova funzionalità di collaborazione fornitore, vedere [utilizzando la collaborazione fornitore che si desidera utilizzare i fornitori esterni vendor-collaboration-work-external-vendors.md] ().  
+
+In questo argomento viene illustrato come gli addetti agli acquisti possono utilizzare il portale fornitori per collaborare con i fornitori esterni durante il processo di conferma dell'ordine fornitore. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
+
+Le informazioni in questo argomento si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX. La funzionalità portale fornitori è stata sostituita da funzionalità estese di collaborazione fornitore in Dynamics 365 for Operations versione 1611. Per ulteriori informazioni sulle nuove funzionalità di collaborazione fornitore, vedere [Utilizzo di collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).  
 
 Il portale fornitori è destinato ai fornitori che non dispongono dell'integrazione EDI (Electronic Data Interchange) con Microsoft Dynamics AX per scambiare le informazioni sugli ordini fornitore. Il portale consente agli addetti agli acquisti di inviare un ordine al fornitore e di ricevere una risposta di conferma o rifiuto direttamente in Dynamics AX.  
 
@@ -66,9 +69,9 @@ Nella tabella seguente è riportato un esempio delle modifiche dello stato e del
 | Si invia la nuova versione dell'ordine fornitore nel portale fornitori. | Una nuova versione viene registrata nel portale e lo stato passa a **In revisione esterna**. |
 | Il fornitore approva la nuova versione dell'ordine.           | Lo stato viene modificato in **Confermato**.                                                                |
 
-Per visualizzare le versioni di ordine fornitore inviate al fornitore e le risposte dei fornitori, fare clic su giornali ** ** &gt; ** richieste di conferma **ordine fornitore.  
+Per visualizzare le versioni dell'ordine fornitore che sono state inviate al fornitore e le relative risposte, fare clic su **Giornali di registrazione** &gt; **Richieste di conferma** dall'ordine fornitore.  
 
-Gli ordini inviati al fornitore per una risposta e con stato **In revisione esterna** verranno visualizzati nell'elenco **Ordini fornitore inviati al portale fornitori e in attesa di risposta** o **Ordini fornitore inviati al portale fornitori e per cui la risposta richiede un'azione**. Quando si modifica un ordine che è stato inviato al fornitore, in modo che lo stato torni nuovamente ad **Approvato**, l'ordine non viene più visualizzato in questi elenchi. Per verificare se in precedenza è stato emesso una risposta all'ordine fornitore, fare clic su giornali ** ** &gt; ** richieste di conferma **.  
+Gli ordini inviati al fornitore per una risposta e con stato **In revisione esterna** verranno visualizzati nell'elenco **Ordini fornitore inviati al portale fornitori e in attesa di risposta** o **Ordini fornitore inviati al portale fornitori e per cui la risposta richiede un'azione**. Quando si modifica un ordine che è stato inviato al fornitore, in modo che lo stato torni nuovamente ad **Approvato**, l'ordine non viene più visualizzato in questi elenchi. Per verificare se in precedenza è stata emessa una risposta all'ordine dal fornitore, fare clic su **Giornali di registrazione** &gt; **Richieste di conferma**.  
 
 I fornitori non devono confermare l'ordine nel portale fornitori. Possono anche inviare un messaggio di posta elettronica o comunicare l'accettazione di un ordine attraverso altri canali. È quindi possibile confermare l'ordine manualmente in Dynamics AX. In questo caso, viene visualizzato un avviso che l'ordine sta per essere confermato anche in assenza di risposte dal fornitore. L'ordine fornitore viene visualizzato nello storico di conferma nel portale fornitori come ordine confermato aperto che non dispone di risposte. Il fornitore non ha più la possibilità di rifiutare o confermare l'ordine fornitore.  
 
@@ -97,5 +100,7 @@ Nella tabella riportata di seguito viene mostrato un esempio di modifica allo st
 [Configurazione della sicurezza per gli utenti di collaborazione fornitore](configure-security-vendor-portal-users.md)
 
 [Area di lavoro fatturazione di collaborazione fornitore](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+
+
 
 

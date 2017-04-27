@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Requisiti di impostazione della produzione
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sui requisiti di impostazione per utilizzare un controllo produzione. 
 
-Controllo produzione è integrato con le funzionalità in altri moduli. Tale interconnettività consente di modificare gli ordini di produzione e di assicurarsi che vengano aggiornati automaticamente in tutti gli altri processi e calcoli correlati nel sistema. Le procedure di impostazione che seguono dovranno essere completate nell'ordine indicato.
+Il controllo produzione è integrato con funzionalità in altri moduli. Tale interconnettività consente di modificare gli ordini di produzione e di assicurarsi che vengano aggiornati automaticamente in tutti gli altri processi e calcoli correlati nel sistema. Le procedure di impostazione che seguono dovranno essere completate nell'ordine indicato.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Impostazioni di base obbligatorie in altri moduli
 Prima di utilizzare il modulo Controllo produzione è necessario impostare alcune informazioni in altri moduli. L'impostazione include le seguenti attività:
@@ -52,7 +55,7 @@ Prima di utilizzare il modulo Controllo produzione, aprire Amministrazione organ
 4.  **Risorse**: consente di impostare le risorse operative per definire le risorse utilizzate per completare il processo di produzione e il piano di capacità.
 
 ## <a name="required-production-parameters-setup"></a>Impostazione dei parametri di produzione obbligatori
-** I parametri di Controllo produzione ** - l'impostazione dei parametri di produzione per definire la modalità di maniglie di sistema e l'elaborazione degli ordini di produzione. Definire la modalità di creazione, valutazione, programmazione e uso degli ordini di produzione. È inoltre possibile selezionare il genere di riscontro desiderato e il modo in cui la contabilità industriale viene condotta.
+**Parametri di controllo produzione**: consente di impostare i parametri di produzione di base per definire la modalità con cui il sistema gestisce ed elabora gli ordini di produzione. Definire la modalità di creazione, valutazione, programmazione e uso degli ordini di produzione. È inoltre possibile selezionare il genere di riscontro desiderato e il modo in cui la contabilità industriale viene condotta.
 
 ## <a name="required-journal-name-identification"></a>Identificazione del nome del giornale
 **Nomi giornale di registrazione produzione**: consente di specificare i nomi dei giornali di registrazione produzione utilizzati per memorizzare e registrare le transazioni.
@@ -76,6 +79,8 @@ Se si utilizzano i cicli di lavorazione, è necessario definire le operazioni pe
 1.  **Gruppi di produzione**: consente di impostare gruppi di produzione per stabilire delle relazioni tra l'ordine di produzione e i conti CoGe. I conti CoGe sono utilizzati per registrare o raggruppare gli ordini da dichiarare.
 2.  **Pool di produzioni**: creare pool di produzioni per raggruppare ordini di produzione allo scopo di elaborare gli ordini di produzione urgenti o eliminare e registrare gruppi di ordini.
 3.  **Proprietà**: consente di definire le proprietà per creare gli attributi speciali che è possibile assegnare alle risorse per controllare la sequenza delle produzioni. Questi attributi sono collegati al modello di orario di lavoro.
+
+
 
 
 

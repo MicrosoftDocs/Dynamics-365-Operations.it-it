@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Ammortamento cespiti
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene fornita una panoramica dell'ammortamento dei cespiti.
 
 Per ammortamento si intende una transazione periodica che di solito determina una riduzione del valore dei cespiti nello stato patrimoniale e viene addebitata come spesa in un conto profitti e perdite. Di conseguenza, per l'accredito dell'ammortamento periodico nello stato patrimoniale viene in genere utilizzato un conto principale. Un conto di contropartita è un conto nella parte profitti e perdite del piano dei conti.
@@ -51,6 +54,8 @@ Ciascun libro è associato a un calendario utilizzato per l'ammortamento dei ces
 
 È possibile creare calendari condivisi utilizzando la pagina **Calendari fiscali** nella contabilità generale.
 
-Per ulteriori informazioni, vedere [metodi e convenzioni depreciation-methods-conventions.md] ().
+Per ulteriori informazioni, vedere [Metodi e convenzioni di ammortamento](depreciation-methods-conventions.md).
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Nuove o consente di gestire di attività (novembre 2016)"
-description: "Di seguito sono elencati nuove o consente di gestire di attività rilasciate alla raccolta unificata APQC Microsoft (novembre 2016 - tutte le lingue) per Microsoft Dynamics 365 per le operazioni. Nessuna nuova libreria introduttiva è stata rilasciata."
+title: "Guide attività nuove o aggiornate (novembre 2016)"
+description: "In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (novembre 2016 -- tutte le lingue) per Microsoft Dynamics 365 for Operations. Nessuna nuova libreria introduttiva è stata rilasciata."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-november-2016"></a>Nuove o consente di gestire di attività (novembre 2016)
+# <a name="new-or-updated-task-guides-november-2016"></a>Guide attività nuove o aggiornate (novembre 2016)
 
-Di seguito sono elencati nuove o consente di gestire di attività rilasciate alla raccolta unificata APQC Microsoft (novembre 2016 - tutte le lingue) per Microsoft Dynamics 365 per le operazioni. Nessuna nuova libreria introduttiva è stata rilasciata.
+[!include[banner](../includes/banner.md)]
 
-(Novembre 2016 Produzione su Raccolta qualsiasi unificata APQC di lingue) contiene le aree di attività utilizzate per essere utilizzate per ottenere con Microsoft Dynamics 365 per le operazioni, Microsoft Dynamics 365 per l'aggiornamento 3 la piattaforma operazioni, l'aggiornamento della piattaforma 2 di Microsoft Dynamics AX, Dynamics AX l'aggiornamento di il maggio 2016 e Microsoft Dynamics AX la versione del febbraio 2016. Per ulteriori informazioni su queste versioni, vedere [quanto è nuovo o variabile] (quanto è new-changed.md -). Le versioni localizzate delle aree di attività sono disponibili in questa raccolta. Per ulteriori informazioni sulla procedura per connettere il file della Guida a una raccolta della Guida di attività, vedere [inizi con la Guida help-overview.md] (). ** Nota: ** L'asterisco (**\***) accanto al titolo di una riga di (BPM) del Modellatore di processi aziendali indica che la Guida di attività per il processo aziendale è stata creata per Dynamics 365 per le operazioni l'aggiornamento di il novembre 2016 e non è supportata nelle versioni precedenti di Microsoft Dynamics AX.
+
+In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (novembre 2016 -- tutte le lingue) per Microsoft Dynamics 365 for Operations. Nessuna nuova libreria introduttiva è stata rilasciata.
+
+La libreria unificata APQC (novembre 2016 -- tutte le lingue) contiene contiene le guide attività da utilizzare per ottenere assistenza per Microsoft Dynamics 365 for Operations, la piattaforma Microsoft Dynamics 365 for Operations versione 3, la piattaforma Microsoft Dynamics AX versione 2, l'aggiornamento di maggio 2016 di Microsoft Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Per ulteriori informazioni su queste versioni, vedere [Novità o modifiche](whats-new-changed.md). Le versioni localizzate delle guide attività sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md). **Nota**: un asterisco (**\***) accanto al titolo di una riga Modellatore di processi aziendali (BPM) indica che la guida attività per il processo aziendale è stata creata per l'aggiornamento di Dynamics 365 for Operations di novembre 2016 e non è supportata nelle versioni precedenti di Microsoft Dynamics AX.
 
 ### <a name="accounts-payable"></a>Contabilità fornitori
 
 | Riga per BPM                                                                                           | Paese |
 |----------------------------------------------------------------------------------------------------|----------------|
-| Data chiave della fattura nel sistema di contabilità fornitori mediante il giornale di approvazione                                               | Globali         |
-| Data chiave della fattura nel sistema di contabilità fornitori mediante la fattura fornitore (immettere e registrare una fattura fornitore con l'abbinamento) | Globali         |
+| Dati principali della fattura nel sistema di contabilità fornitori utilizzando il giornale di registrazione approvazioni                                               | Globali         |
+| Dati principali della fattura in sistema di contabilità fornitori utilizzando la fattura fornitore (Immettere e registrare una fattura fornitore con la corrispondenza) | Globali         |
 | Dati principali della fattura in sistema di contabilità fornitori utilizzando il giornale di registrazione fatture                                              | Globali         |
 | Dati principali della fattura in sistema di contabilità fornitori utilizzando il pool fatture                                                 | Globali         |
-| Registrare il ricevimento della fattura fornitore e associarle alla quantità ricevuta                           | Globali         |
+| Registrare il ricevimento di una fattura fornitore e associarla alla quantità ricevuta                           | Globali         |
 | Impostare la convalida dell'abbinamento fatture della contabilità fornitori                                                | Globali         |
 | Imposta i criteri fatture fornitore                                                                    | Globali         |
 
@@ -49,7 +52,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Riga per BPM                                                                           | Paese |
 |------------------------------------------------------------------------------------|----------------|
 | Assegnare a un cliente un modello di fattura a testo libero ricorrente                        | Globali         |
-| Calcolare interessi e creare e stampare e registrare le note d'interesse (Interest di lavorazione) | Globali         |
+| Calcolare interessi e creare e stampare e registrare le note d'interesse (elaborare note d'interesse) | Globali         |
 | Creare una sequenza di lettere di sollecito                                                | Globali         |
 | Crea un nuovo mandato di addebito diretto per un cliente                                       | Globali         |
 | Crea una fattura a testo libero                                                         | Globali         |
@@ -59,7 +62,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Creare fatture dell'ordine cliente                                                        | Globali         |
 | Generare e registrare fatture a testo libero ricorrenti                                     | Globali         |
 | Elaborare lettere di sollecito                                                         | Globali         |
-| Verificare le informazioni sulle riscossioni                                                      | Globali         |
+| Esaminare le informazioni sulle riscossioni.                                                      | Globali         |
 | Impostare e generare le informazioni di aging della contabilità clienti                          | Globali         |
 
 ### 
@@ -77,7 +80,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 
 | Riga per BPM                    | Paese |
 |-----------------------------|----------------|
-| Modificare un layout per il piano di budget | Globali         |
+| Modificare un layout del piano di budget | Globali         |
 
 ### 
 
@@ -104,7 +107,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Impostare gli assegni postdatati                                              | Globali         |
 | Liquidare un assegno postdatato per un fornitore                                | Globali         |
 | Liquidare un assegno postdatato di un cliente                             | Globali         |
-| Panoramica di pagamenti fornitore                                             | Globali         |
+| Panoramica pagamenti fornitore                                             | Globali         |
 
 ### 
 
@@ -137,45 +140,45 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 
 | Riga per BPM                                                                                                                             | Paese                    |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Aggiungere le caselle della dichiarazione BAS e generare il rendiconto Business Activity Statement (BAS) Australia                                                    | Australia e Nuova Zelanda         |
+| Aggiungere le caselle di dichiarazione BAS e generare la Business Activity Statement (BAS) australiana                                                    | Australia e Nuova Zelanda         |
 | Imposta codici motivo per BAS Australia                                                                                                | Australia e Nuova Zelanda         |
-| **\***Chinese voucher continuity check                                                                                               | Cina                             |
-| **\*** gerarchia di CN-00010 Cina del piano dei conti                                                                                  | Cina                             |
-| **\*** registro dell'operazione di CN-00016 utente dalla regola di gestione della Cina                                                                              | Cina                             |
-| **\***Golden tax integration export setup                                                                                            | Cina                             |
-| **\***Post vouchers from other modules, like sales invoices                                                                          | Cina                             |
-| **\***Post vouchers from the general journal                                                                                         | Cina                             |
-| **\***Set up basic tax integration profile for China                                                                                 | Cina                             |
-| **\***Set up Chinese vouchers                                                                                                        | Cina                             |
+| **\***Verifica continuità giustificativo cinese                                                                                               | Cina                             |
+| **\***CN-00010 Gerarchia dei piani dei conti Cina                                                                                  | Cina                             |
+| **\***CN-00016 Registro operazioni dell'utente per regola di lavoro cinese                                                                              | Cina                             |
+| **\***Impostazione esportazione integrazione Golden tax                                                                                            | Cina                             |
+| **\***Registrare i giustificativi da altri moduli, ad esempio le fatture di vendita                                                                          | Cina                             |
+| **\***Registrare i giustificativi dal giornale di registrazione generale                                                                                         | Cina                             |
+| **\***Impostare il profilo di integrazione imposte di base per la Cina                                                                                 | Cina                             |
+| **\***Impostare i giustificativi cinesi                                                                                                        | Cina                             |
 | Creare e registrare una fattura cliente per un cliente del settore pubblico                                                                      | Danimarca                           |
 | Creare e registrare una fattura a testo libero per un cliente del settore pubblico                                                                     | Danimarca                           |
 | Creare e registrare una fattura progetto per un cliente del settore pubblico                                                                       | Danimarca                           |
-| Distinta ordine di accredito di DK-00007 FIK 752/Registra una fattura a testo libero con una distinta di pagamento                                               | Danimarca                           |
-| Distinta ordine di accredito di DK-00007 FIK 752/Registra una fattura di progetto con una distinta di pagamento                                                 | Danimarca                           |
+| DK-00007 FIK 752 distinta ordine di accredito/Registrare una fattura a testo libero con una distinta di pagamento                                               | Danimarca                           |
+| DK-00007 FIK 752 distinta ordine di accredito/Registrare una fattura di progetto con una distinta di pagamento                                                 | Danimarca                           |
 | Importare le configurazioni della fatturazione elettronica OIOUBL                                                                                    | Danimarca                           |
 | Impostare gli account cliente per la fatturazione elettronica OIOUBL                                                                             | Danimarca                           |
 | Impostare la fatturazione elettronica OIOUBL                                                                                                   | Danimarca                           |
 | Imposta il formato della distinta                                                                                                           | Danimarca                           |
-| **\***EEU-00047 Advance payment to employee                                                                                          | Europa orientale                    |
+| **\***EEU-00047 Pagamento anticipato al dipendente                                                                                          | Europa orientale                    |
 | Creare ed esportare i pagamenti fornitore usando il formato di pagamento ISO20022                                                                      | Europa                            |
 | Creare pagamenti per i clienti con mandati di addebito diretto                                                                          | Europa                            |
-| **\*** strumento di generazione di riferimento di pagamento EE-00015                                                                                     | Europa                            |
+| **\***EE-00015 Strumento di generazione riferimento di pagamento                                                                                     | Europa                            |
 | EUR-00002 Generare una dichiarazione Intrastat UE                                                                                       | Europa                            |
-| **\*** EUR-00002 specificare un indirizzo di carico per una transazione intracomunitaria                                                          | Europa                            |
+| **\***EUR-00002 Specificare un indirizzo di carico per una transazione intracomunitaria                                                          | Europa                            |
 | EUR-00002 Trasferire transazioni a Intrastat                                                                                     | Europa                            |
 | EUR-00011 - Generare la dichiarazione Elenco vendite UE                                                                                          | Europa                            |
 | EUR-00011 - Imposta dichiarazioni elenco vendite UE                                                                                             | Europa                            |
 | EUR-00012 - Emettere un certificato di entrata UE                                                                                              | Europa                            |
 | EUR-00012 - Ricevere un certificato di entrata UE                                                                                            | Europa                            |
-| **\***EUR-00015 Party search using VAT ID                                                                                            | Europa                            |
-| **\***EUR-00015 Registration of vendor VAT ID                                                                                        | Europa                            |
-| **\*** identificazione di impostare l'VAT EUR-00015                                                                                                        | Europa                            |
-| **\*** calcolo del tasso di cambio HU-00001                                                                                             | Europa                            |
+| **\***EUR-00015 Ricerca della parte utilizzando l'ID IVA                                                                                            | Europa                            |
+| **\***EUR-00015 Registrazione dell'ID IVA fornitore                                                                                        | Europa                            |
+| **\***EUR-00015 Impostare l'ID IVA                                                                                                        | Europa                            |
+| **\***HU-00001 Calcolo tasso di cambio                                                                                             | Europa                            |
 | Importare la configurazione di bonifico ISO20022                                                                                        | Europa                            |
 | Importare la configurazione di addebito diretto ISO20022                                                                                           | Europa                            |
-| **\*** il documento trasferimento LT-00003 per il movimento di merci nella società/genera un documento trasferimento per un trasferimento interno di magazzino   | Europa                            |
-| **\*** il documento trasferimento LT-00003 per il movimento di merci nella società/imposta i documenti di trasferimento per il movimento di merci in una società | Europa                            |
-| **\*** pagamento cliente NO-00002 in base all'ID pagamento                                                                                  | Europa                            |
+| **\***LT-00003 Documento di trasferimento per il movimento di merci nella società/Generare un documento di trasferimento per un trasferimento scorte interno   | Europa                            |
+| **\***LT-00003 Documento di trasferimento per il movimento di merci nella società/Impostare i documenti di trasferimento per il movimento di merci all'interno di una società | Europa                            |
+| **\***NO-00002 Pagamento cliente in base all'ID pagamento                                                                                  | Europa                            |
 | Impostare i conti bancari della società per i bonifici ISO20022                                                                           | Europa                            |
 | Impostare i conti bancari della società per gli addebiti diretti ISO20022                                                                              | Europa                            |
 | Impostare i clienti e i conti bancari dei clienti per gli addebiti diretti ISO20022                                                               | Europa                            |
@@ -183,7 +186,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Impostare un metodo di pagamento per addebito diretto ISO20022                                                                                   | Europa                            |
 | Impostare i fornitori e i conti bancari dei fornitori per i bonifici ISO20022                                                                | Europa                            |
 | Definire metodi di pagamento cliente                                                                                                | Francia                            |
-| Conto cliente FR-00002 e fornitore                                                                                                 | Francia                            |
+| FR-00002 Conto fornitori e clienti                                                                                                 | Francia                            |
 | FR-00003 Codici NAF e Numeri Siret                                                                                                 | Francia                            |
 | FR-00004 Approva e registra effetto attivo emesso                                                                                      | Francia                            |
 | FR-00004 Effetti attivi ed effetti passivi francesi                                                                               | Francia                            |
@@ -200,7 +203,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | ER configurare il formato per eseguire il conteggio e la sommatoria (parte 2: configurare i calcoli)                                                      | Germania                           |
 | ER configurare il formato per eseguire il conteggio e la sommatoria (parte 3: usare i calcoli per creare l'output)                                         | Germania                           |
 | ER configurare il formato per eseguire il conteggio e la sommatoria (parte 4: eseguire il formato)                                                                  | Germania                           |
-| Il ER crea un fornitore di configurazione e lo contrassegna come attivo                                                                             | Germania                           |
+| ER Creare un provider di configurazione e contrassegnarlo come attivo                                                                             | Germania                           |
 | ER Progettare una configurazione per la creazione di report nel formato Microsoft WORD (novembre 2016)                                            | Germania                           |
 | RE Progettare il modello dati specifico di dominio (novembre 2016)                                                                                 | Germania                           |
 | ER importa una configurazione da Lifecycle Services                                                                                    | Germania                           |
@@ -218,21 +221,21 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | ER utilizzare intervalli espandibili orizzontalmente per aggiungere dinamicamente le colonne in report di Excel (parte 2: eseguire il formato)                               | Germania                           |
 | Generare il file di controllo tedesco                                                                                                           | Germania                           |
 | Importare la configurazione del file di controllo tedesco                                                                                               | Germania                           |
-| **\*** report di riconciliazione VAT EUR-00018                                                                                            | Islanda                           |
-| La dichiarazione fattura fornitore IS-00006/crea un conto fornitore e allega la dichiarazione fattura                                       | Islanda                           |
-| La dichiarazione fattura fornitore IS-00006/imposta una dichiarazione fattura per i fornitori                                                        | Islanda                           |
-| La dichiarazione fattura fornitore IS-00006/le dichiarazioni fattura fornitore e genera il report                                       | Islanda                           |
-| Gestire il piano dei conti/riferimenti obbligatori di pagamento impostati                                                                       | Islanda                           |
+| **\***EUR-00018 Report di riconciliazione IVA                                                                                            | Islanda                           |
+| IS-00006 Dichiarazione fattura fornitore/Creare un account fornitore e collegare la dichiarazione fattura                                       | Islanda                           |
+| IS-00006 Dichiarazione fattura fornitore/Impostare una dichiarazione fattura per i fornitori                                                        | Islanda                           |
+| IS-00006 Dichiarazione fattura fornitore/Aggiornare le dichiarazioni fattura fornitore e generare il report                                       | Islanda                           |
+| Gestisci piano dei conti/Configurare i riferimenti di pagamento obbligatori                                                                       | Islanda                           |
 | Acquisire un cespite con obblighi di ritiro cespiti                                                                              | Giappone                             |
-| Intestazione dei cespiti, richiesta per la sovvenzione amministrativi                                                                                 | Giappone                             |
+| Acquisire cespiti, richiedere la concessione di governo                                                                                 | Giappone                             |
 | Rettifica della stima dell'obbligo di ritiro cespiti                                                                               | Giappone                             |
-| Assegnare il valore di carico di risorsa condivisa e l'attivazione ai gruppi elettrogeni di cassa                                                   | Giappone                             |
+| Allocare l'importo di mantenimento di risorsa condivisa e avviamento in unità generatrici di contanti                                                   | Giappone                             |
 | Modificare metodo di ammortamento durante la durata dei cespiti per un cespite                                                                   | Giappone                             |
 | Modificare metodo di ammortamento durante la durata dei cespiti per un libro                                                                        | Giappone                             |
 | Configurare i profili di registrazione e i parametri di ammortamento accelerato                                                                   | Giappone                             |
 | CN-00004 Allocazione di ammortamento cespiti (JP-)                                                                                   | Giappone                             |
-| Configurare un profilo di ammortamento e un profilo di registrazione per l'ammortamento aggiuntivo                                                   | Giappone                             |
-| Configurare un profilo di ammortamento e un profilo di registrazione per ammortamento speciale                                                      | Giappone                             |
+| Configurare un profilo di ammortamento e un profilo registrazione per l'ammortamento aggiuntivo                                                   | Giappone                             |
+| Configurare un profilo di ammortamento e un profilo registrazione per l'ammortamento speciale                                                      | Giappone                             |
 | Configurare i parametri della fattura consolidata e l'impostazione della contabilità fornitori                                                             | Giappone                             |
 | Configurare i conti principali per la registrazione dell'obbligo di ritiro dei cespiti e dei tassi di sconto sul mercato                                            | Giappone                             |
 | Creare un cespite con ammortamento aggiuntivo                                                                                    | Giappone                             |
@@ -259,14 +262,14 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Richieste di obbligo di ritiro cespiti correlate a transazioni                                                                    | Giappone                             |
 | Richiesta su spese deducibili                                                                                                       | Giappone                             |
 | JP-00005 Giornale di registrazione entrata nel modulo conto T (Giappone)                                                                                     | Giappone                             |
-| JP-00011 fattura consolidata - contabilità clienti consente di creare e confermare una fattura consolidata cliente                                              | Giappone                             |
-| JP-00027 modulo 26 per la dichiarazione fiscale ammortizzabile                                                                                     | Giappone                             |
+| JP-00011 Fattura consolidata - AR - Creare e confermare una fattura consolidata cliente                                              | Giappone                             |
+| JP-00027 Modulo 26 per la dichiarazione fiscale ammortizzabile                                                                                     | Giappone                             |
 | Gestire i file di anagrafica dei cespiti per le spese deducibili                                                                       | Giappone                             |
 | Gestire gli indicatori di riduzione per singoli cespiti                                                                                  | Giappone                             |
 | Pagare una transazione fornitore avallando un effetto attivo del cliente                                                                    | Giappone                             |
 | Liquidazione periodica dell'ammortamento in eccesso e in difetto                                                                                   | Giappone                             |
 | Proporre ammortamento aggiuntivo                                                                                                      | Giappone                             |
-| Proponga e registrare l'ammortamento accelerato                                                                                        | Giappone                             |
+| Proporre e registrare l'ammortamento accelerato                                                                                        | Giappone                             |
 | Proporre e registrare l'importo di riduzione per batch                                                                                      | Giappone                             |
 | Proporre e registrare l'importo di riduzione utilizzando il giornale di registrazione cespiti                                                                  | Giappone                             |
 | Proporre e registrare l'importo di riduzione in un'unità generatrice di flussi finanziari                                                                     | Giappone                             |
@@ -300,12 +303,12 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | MX-00010 - Domanda e stampa una fattura elettronica                                                                                     | Messico                            |
 | MX-00010 - Registra fattura a testo libero                                                                                                    | Messico                            |
 | MX-00010 - Imposta parametri per una fattura elettronica                                                                                    | Messico                            |
-| MX-00020: Produca la versione elettronica messicana 1.1 per la valutazione di contabilità generale                                                            | Messico                            |
+| MX-00020: produci report contabilizzazione per la contabilità generale elettronico messicano versione 1.1                                                            | Messico                            |
 | MX-00020 - Imposta il piano dei conti per una persona giuridica in Messico                                                                   | Messico                            |
 | MX-00020 - Specifica ID di registrazione RFC per i conti bancari messicani                                                                 | Messico                            |
 | NL-00003 - integrazione di Semansys XBRL                                                                                                   | Paesi Bassi                       |
 | NL-00010 - Dichiarazioni fiscali elettroniche (IVAE)                                                                                          | Paesi Bassi                       |
-| MY-00003 gestiscono la nota addebito clienti e la nota di accredito per il GST                                                                          | Singapore, Malaysia e Thailandia |
+| MY-00003 Gestisci note di addebito e di accredito cliente per GST                                                                          | Singapore, Malaysia e Thailandia |
 | MY-00004 Gestisci note di addebito e di accredito fornitore per GST                                                                            | Singapore, Malaysia e Thailandia |
 | MY-00005 - Stampa fattura imposta GST                                                                                                      | Singapore, Malaysia e Thailandia |
 | MY-00006 01 Imposta clausole di sblocchi GST                                                                                                | Singapore, Malaysia e Thailandia |
@@ -340,7 +343,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Modifica gruppo cespite                                        | Globali         |
 | Cambiare le convenzioni di ammortamento per più cespiti | Globali         |
 | Creare un cespite                                      | Globali         |
-| Creare e acquisti i cespiti dalla contabilità fornitori           | Globali         |
+| Creare e acquisire cespiti dalla contabilità fornitori           | Globali         |
 | Crea proposta di ammortamento                              | Globali         |
 | Eliminare un cespite utilizzando una fattura a testo libero        | Globali         |
 | Immettere un cespite aggiuntivo                        | Globali         |
@@ -362,7 +365,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Riga per BPM                                       | Paese |
 |------------------------------------------------|----------------|
 | Chiudere l'anno fiscale                          | Globali         |
-| Creare un inserimento nel giornale utilizzando un modello        | Globali         |
+| Creare una scrittura contabile utilizzando un modello        | Globali         |
 | Creare un conto principale                          | Globali         |
 | Creare strutture dei conti                      | Globali         |
 | Creare schemi di attribuzione per competenza                         | Globali         |
@@ -371,7 +374,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Creare transazioni di attribuzione per competenza in contabilità generale             | Globali         |
 | Definire le dimensioni finanziarie                    | Globali         |
 | Inserire inserimenti registrati nel giornale di registrazione              | Globali         |
-| Gestione dei modelli di dimensione finanziaria         | Globali         |
+| Gestire modelli dimensione finanziaria         | Globali         |
 | Chiusura di massa periodo finanziario                    | Globali         |
 | Elaborare gli inserimenti nel giornale di registrazione                        | Globali         |
 | Elaborare giornale di registrazione allocazioni contabili              | Globali         |
@@ -387,9 +390,9 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 
 | Riga per BPM                                                                       | Paese |
 |--------------------------------------------------------------------------------|----------------|
-| **\***Change the ownership of consignment inventory based on production demand | Globali         |
-| **\***Create a consignment replenishment order                                 | Globali         |
-| **\***Monitor consignment inventory using vendor collaboration                 | Globali         |
+| **\***Modificare la proprietà dell'inventario spedizione in base alla domanda di produzione | Globali         |
+| **\***Creare un nuovo ordine di rifornimento spedizione                                 | Globali         |
+| **\***Verificare l'inventario spedizione utilizzando la collaborazione fornitore                 | Globali         |
 
 ### 
 
@@ -416,9 +419,9 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 
 | Riga per BPM                                                         | Paese |
 |------------------------------------------------------------------|----------------|
-| **\***Add to your performance journal and send praise to someone | Globali         |
-| **\***Create a goal                                              | Globali         |
-| **\***Create a performance review                                | Globali         |
+| **\***Aggiungere al giornale di registrazione delle prestazioni e inviare complimento a un utente | Globali         |
+| **\***Creare un obiettivo                                              | Globali         |
+| **\***Creare una revisione delle prestazioni                                | Globali         |
 
 ### 
 
@@ -442,9 +445,9 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Aggiungere un'immagine a un prodotto                                               | Globali         |
 | Classificare un prodotto utilizzando le gerarchie di categorie                           | Globali         |
 | Creare un codice a barre per un prodotto                                         | Globali         |
-| In\* creata una per il numero prodotto per le varianti prodotto predefiniti | Globali         |
-| In\* creata una per il numero prodotto per le varianti prodotto configurati | Globali         |
-| \* consente di definire le impostazioni di ordine predefinite per un articolo                            | Globali         |
+| \* Creare una nomenclatura di numero prodotto per le varianti prodotto predefinite | Globali         |
+| \* Creare una nomenclatura di numero prodotto per le varianti prodotto configurate | Globali         |
+| \* Definire le impostazioni ordine predefinite per un articolo                            | Globali         |
 | Creare un ordine cliente per un prodotto configurabile                         | Globali         |
 | Creare criteri di selezione di prezzo di vendita                                   | Globali         |
 | Immettere il codice GTIN per un prodotto                                       | Globali         |
@@ -468,7 +471,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Riga per BPM                                                                      | Paese |
 |-------------------------------------------------------------------------------|----------------|
 | Aggiungere un tipo di certificazione a un fornitore per il settore pubblico                        | Globali         |
-| Controlla l'accesso ai contratti di acquisto nel settore pubblico                      | Globali         |
+| Controllare l'accesso ai contratti di acquisto per il settore pubblico                      | Globali         |
 | Creare una classificazione della priorità di pagamento                                               | Globali         |
 | Creare un codice di fatturazione                                                         | Globali         |
 | Creare un impegno per prenotare fondi di budget al settore pubblico                 | Globali         |
@@ -480,10 +483,10 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Creare una voce di contabilità generale avanzata nel settore pubblico                          | Globali         |
 | Creare un budget originale e annullare le voci di budget preliminare         | Globali         |
 | Creare e assegnare un codice partner commerciale nel settore pubblico                 | Globali         |
-| Creare le pagine di firma e del tribunale per i report dei pagamenti per il settore pubblico   | Globali         |
+| Creare le pagine di copertina e di firma per report di pagamento per il settore pubblico   | Globali         |
 | Importare e creare più fatture e fornitori occasionali per il settore pubblico | Globali         |
 | Impostare una gerarchia finanziaria derivata nel settore pubblico                     | Globali         |
-| Consente di impostare un fondo nel settore pubblico                                            | Globali         |
+| Impostare un fondo nel settore pubblico                                            | Globali         |
 | Imposta le classificazioni dei contratti di acquisto per il settore pubblico                   | Globali         |
 
 ### 
@@ -493,17 +496,17 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Riga per BPM                                                         | Paese |
 |------------------------------------------------------------------|----------------|
 | Configurare un lavoratore                                               | Globali         |
-| **\***Configure machine learning-powered product recommendations | Globali         |
+| **\***Configurare i suggerimenti sul prodotto basati su Machine Learning | Globali         |
 | Configurare il profilo funzionalità per un rappresentante   | Globali         |
-| **\***Create a POS visual profile (November 2016)                | Globali         |
+| **\***Creare un profilo visivo POS (novembre 2016)                | Globali         |
 | Creare e associare registri                                   | Globali         |
 | Creare ordini servizio clienti                                        | Globali         |
 | Creare accordi commerciali utilizzando una regola per prezzi di categoria            | Globali         |
 | Creare, calcolare e registrare una dichiarazione per un punto vendita              | Globali         |
 | Definire un rapporto e assegnare uno sconto                      | Globali         |
-| Consente di definire e gestire i gruppi di autorizzazioni di Retail POS                          | Globali         |
-| Definire la continuità di programmazione                                       | Globali         |
-| **\*** definire le comunicazioni di canale al dettaglio (CDX)                 | Globali         |
+| Definire e gestire gruppi di autorizzazioni POS                          | Globali         |
+| Definire programmazione di continuità                                       | Globali         |
+| **\***Definire le comunicazioni del canale di vendita al dettaglio (CDX)                 | Globali         |
 | Rettifiche premi fedeltà                                      | Globali         |
 | Gestire assortimenti                                               | Globali         |
 | Assegnazione e forzatura IVA                                | Globali         |
@@ -526,7 +529,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Soddisfare contratti di vendita                   | Globali         |
 | Generare ed elaborare gli sconti cliente      | Globali         |
 | Cercare i prezzi e gli sconti applicabili    | Globali         |
-| Gestire le sospensioni di ordine cliente                   | Globali         |
+| Gestire sospensioni ordine cliente                   | Globali         |
 | Creazione di massa offerte di vendita               | Globali         |
 | Elaborare sconti per il pagamento                | Globali         |
 | Registrare le provvigioni di vendita                 | Globali         |
@@ -554,7 +557,7 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 
 ### 
 
-### <a name="supply-relationship-management"></a>Immettere la gestione di relazione
+### <a name="supply-relationship-management"></a>Gestione delle relazioni di fornitura
 
 | Riga per BPM                                                           | Paese |
 |--------------------------------------------------------------------|----------------|
@@ -575,14 +578,14 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 | Riga per BPM                                                                    | Paese |
 |-----------------------------------------------------------------------------|----------------|
 | Creare un profilo di ubicazione                                                   | Globali         |
-| **\***Create a mobile device menu item for license plate consolidation      | Globali         |
+| **\***Creare una voce di menu del dispositivo mobile per il consolidamento della targa      | Globali         |
 | Riconciliare il trasporto manualmente                                                  | Globali         |
 | Registrare il check-in e il check-out del conducente per un appuntamento                   | Globali         |
-| Impostare una voce di menu del dispositivo mobile per completare il lavoro di tipo ordine fornitore | Globali         |
+| Impostare una voce di menu del dispositivo mobile per ultimare i lavori di tipo ordine acquisto | Globali         |
 | Impostare un appuntamento per un carico                                            | Globali         |
 | Impostare un metodo di pagamento del trasporto                                              | Globali         |
 | Impostare la riconciliazione trasporto automatica                                     | Globali         |
-| **\***Set up short picking item reallocation                                | Globali         |
+| **\***Impostare la riallocazione articolo per prelievo breve                                | Globali         |
 
 
 
@@ -593,6 +596,8 @@ Di seguito sono elencati nuove o consente di gestire di attività rilasciate all
 
 [Guide attività nuove o aggiornate disponibili (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 
-[New or updated task guides available (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Guide attività nuove o aggiornate disponibili (agosto 2016)](new-updated-task-guides-available-august-2016.md)
+
+
 
 

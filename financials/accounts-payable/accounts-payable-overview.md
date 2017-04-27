@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-payable"></a>Configurare la contabilità fornitori
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive le pagine utilizzate per impostare le funzionalità di base e facoltative per la contabilità fornitori in Microsoft Dynamics AX. Vengono descritti i passaggi di configurazione da completare prima di iniziare a impostare la contabilità fornitori.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Prerequisiti per l'impostazione della contabilità fornitori
@@ -51,15 +54,15 @@ Utilizzare le pagina descritte di seguito per impostare le funzionalità di base
 6.  Nella pagina Impostazione moduli definire il formato di vari documenti correlati ai fornitori e utilizzati all'interno dell'organizzazione per tenere traccia dei ricevimenti dai fornitori e per specificare i motivi del flusso di pagamenti a favore dei fornitori.
 7.  Nella pagina Fornitori creare e gestire i conti fornitore e gli uffici tributari a cui devono essere inviati i report IVA dell'organizzazione.
 
-## <a name="optional-setup-pages-for-accounts-payable"></a>Pagine di impostazione facoltativi per la contabilità fornitori
+## <a name="optional-setup-pages-for-accounts-payable"></a>Pagine di impostazione facoltative per la contabilità fornitori
 Oltre alla funzionalità di base, la contabilità fornitori ha altre funzionalità da impostare.
 
 Le pagine di impostazione aggiuntive sono organizzate per funzionalità.
 
-**Policies**
+**Criteri**
 -   Nella pagina Criteri fattura fornitore, impostare i criteri fatture fornitore.
 
-**Invoice matching**
+**Abbinamento fatture**
 
 -   Nella pagina Tolleranze totali fatture, impostare le tolleranze per i totali fattura.
 -   Nella pagina Criteri di abbinamento, impostare i criteri di abbinamento a due elementi di verifica e a tre elementi di verifica.
@@ -68,39 +71,39 @@ Le pagine di impostazione aggiuntive sono organizzate per funzionalità.
 -   Nella pagina Gruppi di controllo tolleranza prezzi fornitore impostare i gruppi di controllo tolleranza per prezzi fornitore.
 -   Nella pagina Tolleranze spese, impostare le tolleranze per le spese.
 
-**Workflow**
+**Flusso di lavoro**
 
 -   Nella pagina Flussi di lavoro contabilità fornitori impostare configurazioni di flusso di lavoro per l'approvazione dei giornali di registrazione e per le richieste di acquisto.
 
-**Reasons**
+**Motivi**
 
 -   Nella pagina Motivi fornitore, impostare i codici motivo.
 
-**Charges**
+**Spese**
 
 -   Nella pagina Codice spese, impostare i codici per le spese utilizzate negli ordini fornitore.
--   Nel fornitore che le spese parte della pagina, che creare e gestire gruppi di spese per i fornitori.
+-   Nella pagina Gruppo di addebiti fornitore creare e gestire gruppi di spese per i fornitori.
 -   Nella pagina Gruppi di addebito articoli  creare e gestire i gruppi di spese per gli articoli.
 -   Nella pagina Spese automatiche , definire le spese assegnate automaticamente agli ordini.
 
-**Supplementary items**
+**Articoli supplementari**
 
 -   Nella pagina Gruppi di articoli supplementari - Fornitore , creare e gestire gruppi di articoli supplementari per i fornitori.
 -   Nella pagina Gruppi di articoli supplementari - Magazzino creare e gestire gruppi di articoli supplementari per gli articoli.
 
-**Distribution**
+**Distribuzione**
 
 -   Nella pagina Termini di consegna, creare e gestire le condizioni per il trasferimento di un articolo dal venditore all'acquirente.
 -   Nella pagina Modi di consegna, creare e gestire il mezzo di trasporto utilizzato per la consegna di un ordine dal venditore all'acquirente.
 -   Nella pagina Codici di destinazione, creare e gestire gli ID e le descrizioni per le destinazioni di consegna.
 
-**Forms**
+**Moduli**
 
 -   Nella pagine Note moduli, creare il testo standard visualizzato su diverse pagine.
 -   Nella pagina Parametri di ordinamento moduli, impostare i criteri di ordinamento per le richieste di approvvigionamento, gli elenchi entrate, i documenti di trasporto e le fatture.
 -   Nella pagina Impostazione Gestione stampa impostare informazioni di gestione stampa per gli originali e le copie delle pagine.
 
-**Payments**
+**Pagamenti**
 
 -   Nella pagina Sconti di cassa, impostare e gestire le condizioni per ottenere sconti di cassa. I codici sconto di cassa vengono collegati ai fornitori e applicati ai rispettivi ordini.
 -   Nella pagina Scadenzari pagamenti, impostare gli scadenzari pagamenti utilizzati per gestire i pagamenti rateali ai fornitori.
@@ -108,17 +111,17 @@ Le pagine di impostazione aggiuntive sono organizzate per funzionalità.
 -   Nella pagina Commissione pagamento creare e gestire le commissioni di pagamento associate ai fornitori.
 -   Nella pagina Istruzione di pagamento, creare e gestire le istruzioni di pagamento.
 
-**Statistics**
+**Statistiche**
 
 -   Nella pagina Definizioni periodo di aging, impostare intervalli definiti dall'utente utilizzati per analizzare la distribuzione delle scadenze dei conti fornitore.
 -   Nella pagina Linea di business creare i codici della linea di business (LOB) assegnati ai fornitori.
 
 **Imposta 1099**
 
--   ** Campi 1099 ** nella pagina, verificare e aggiornare gli importi minimi che devono essere dichiarati all'IRS (Internal Revenue Service (IRS), in base ai più recenti requisiti IRS.
+-   Nella pagina **Campi 1099**, verificare e aggiornare gli importi minimi che devono essere dichiarati in IRS (Internal Revenue Service), in base ai più recenti requisiti IRS.
 
-## <a name="optional-setup-for-other-modules"></a>** Impostazioni facoltative per altri moduli **
-**Organization administration**
+## <a name="optional-setup-for-other-modules"></a>**Impostazione facoltativa per altri moduli**
+**Amministrazione organizzazione**
 
 -   Nella pagina Sequenze numeriche, impostare i gruppi di sequenze numeriche per i numeri di fattura.
 -   Nelle seguenti pagine impostare le informazioni relative all'indirizzo:
@@ -126,7 +129,7 @@ Le pagine di impostazione aggiuntive sono organizzate per funzionalità.
     -   Codici NAF
     -   Importa codici postali (CAP)
 
-**General ledger**
+**Contabilità generale**
 
 -   Nella pagina Dimensioni finanziarie impostare le dimensioni finanziarie.
 -   Nelle seguenti pagine impostare le informazioni sulle imposte:
@@ -139,9 +142,10 @@ Le pagine di impostazione aggiuntive sono organizzate per funzionalità.
     -   Uffici IVA
     -   Periodi liquidazione IVA
 
-**Cash and bank management**
+**Gestione cassa e banche**
 
 -   Nella pagina Codici scopo pagamento impostare il codice di scopo pagamento della banca centrale.
+
 
 
 

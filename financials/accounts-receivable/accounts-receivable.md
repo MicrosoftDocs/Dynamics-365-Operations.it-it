@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-home-page"></a>Home page di contabilità clienti
 
-La contabilità clienti consente di tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti.
+[!include[banner](../includes/banner.md)]
+
+
+La contabilità clienti consente di tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti. 
 
 È possibile creare fatture cliente in base a ordini cliente o documenti di trasporto. È inoltre possibile immettere fatture a testo libero non associate a ordini cliente. È possibile ricevere pagamenti utilizzando diversi tipi di pagamento, ad esempio effetti attivi, contanti, assegni, carte di credito e pagamenti elettronici. Se l'organizzazione include più persone giuridiche, è possibile utilizzare pagamenti centralizzati per registrare i pagamenti in una persona giuridica per conto di altre persone giuridiche.
+
+
 
 
 

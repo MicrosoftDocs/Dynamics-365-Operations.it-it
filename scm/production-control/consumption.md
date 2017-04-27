@@ -1,5 +1,5 @@
 ---
-title: Calcolare il consumo materiali
+title: Calcolare il consumo di materiali
 description: Questo articolo fornisce informazioni sulle varie opzioni correlate al calcolo del consumo materiali.
 author: YuyuScheller
 manager: AnnBe
@@ -27,22 +27,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculate-material-consumption"></a>Calcolare il consumo materiali
+# <a name="calculate-material-consumption"></a>Calcolare il consumo di materiali
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce informazioni sulle varie opzioni correlate al calcolo del consumo materiali. 
 
 Le seguenti opzioni correlate al calcolo del consumo di materiali sono disponibili nelle schede **Impostazioni** e **Consumo fase** della scheda dettaglio **Dettagli riga** nella pagina **Distinta base**.
 
 ## <a name="variable-and-constant-consumption"></a>Consumo variabile e costante
-In ** il consumo viene ** sistemi, è possibile selezionare se il consumo deve essere calcolata come una quantità o quantità variabile. Selezionare ** costante ** se una quantità o un volume fissa è necessaria per la produzione, indipendentemente dalla quantità prodotta. Selezionare **la variabile**, ovvero l'impostazione predefinita, se la quantità di materiale richiesta i prodotti finiti è proporzionale al numero di prodotti finiti che vengono prodotti.
+Nel campo **Il consumo è** è possibile scegliere se il consumo deve essere calcolato come una quantità costante o variabile. Selezionare **Costante** se per la produzione è necessario utilizzare una quantità o un volume fisso, indipendentemente dalla quantità prodotta. Selezionare **la variabile**, ovvero l'impostazione predefinita, se la quantità di materiale richiesta i prodotti finiti è proporzionale al numero di prodotti finiti che vengono prodotti.
 
 ## <a name="calculating-consumption-from-a-formula"></a>Calcolo del consumo tramite una formula
 Nel campo **Formula** è possibile impostare diverse formule per il calcolo dl consumo di materiali. Se si utilizza il valore predefinito **Standard**, il consumo non viene calcolato da una formula. Le formule seguenti utilizzano i campi **Altezza**, **Larghezza**, **Profondità**, **Densità** e **Costante**:
 
--   Costante di \* di altezza
--   Costante \* alla larghezza \* di altezza
--   Costante \* della profondità \* alla larghezza \* di altezza
--   (Profondità/Densità \* alla larghezza \* di altezza costante) \*
+-   Altezza \* Costante
+-   Altezza \* Larghezza \* Costante
+-   Altezza \* Larghezza \* Profondità \* Costante
+-   (Altezza \* Larghezza \* Profondità / Densità) \* Costante
 
 ## <a name="rounding-up-and-multiples"></a>Arrotondamento per eccesso e multipli
 I campi **Arrotondamento per eccesso** e **Multipli** consentono di arrotondare il valore del consumo materiali. Ad esempio, è possibile arrotondare il valore in base all'unità movimentazione in cui le materie prime vengono prelevate per la produzione. Nel campo **Arrotondamento per eccesso** sono disponibili le seguenti opzioni: **Quantità**, **Misurazione** e **Consumo**.
@@ -53,7 +56,7 @@ Se si seleziona **Quantità** come meccanismo di arrotondamento per eccesso, la 
 
 ### <a name="measurement"></a>Misurazione
 
-In genere, si seleziona **Misurazione** come meccanismo di arrotondamento per eccesso quando le materie prime provengono in dimensioni specifiche. Ad esempio, un pezzo di tubo di metallo di 2 metri è necessario per un prodotto finito e il tubo di metallo viene immagazzinato in lunghezze di 4,5 metri. In questo caso, il meccanismo di arrotondamento per eccesso **Misurazione** può essere utilizzato per calcolare il numero tubi di metallo necessari per produrre un numero specifico di pezzi del prodotto finito. Per questo esempio, ** formula ** il campo è impostato su ** costante \* di altezza **. ** Altezza ** il campo è impostato su 2 ** ** per indicare la durata del tubo necessario per il prodotto finito. Il campo **Multiplo** è impostato su **4,5** per indicare che il tubo viene prelevato in lunghezze di 4,5 metri. Questo è il calcolo:
+In genere, si seleziona **Misurazione** come meccanismo di arrotondamento per eccesso quando le materie prime provengono in dimensioni specifiche. Ad esempio, un pezzo di tubo di metallo di 2 metri è necessario per un prodotto finito e il tubo di metallo viene immagazzinato in lunghezze di 4,5 metri. In questo caso, il meccanismo di arrotondamento per eccesso **Misurazione** può essere utilizzato per calcolare il numero tubi di metallo necessari per produrre un numero specifico di pezzi del prodotto finito. Per questo esempio, il campo **Formula** è impostato su **Altezza \* Costante**. Il campo **Altezza** è impostato su **2** per indicatore la lunghezza del tubo necessario per il prodotto finito. Il campo **Multiplo** è impostato su **4,5** per indicare che il tubo viene prelevato in lunghezze di 4,5 metri. Questo è il calcolo:
 
 1.  Numero di multipli necessari per 10 pezzi del prodotto finito: 10 ÷ 2 = 5 pezzi
 2.  Consumo totale: metri 4,5 × 5 = 22,5 di tubo di metallo
@@ -78,5 +81,7 @@ Il consumo per fasi viene utilizzato per calcolare il consumo costante in interv
 | 200,00      | 40,0000  |
 
 La quantità nella distinta base (DBA) è 1 e la quantità di produzione è 110. La formula per il calcolo del consumo è  Da serie (Quantità) = Consumo. Poiché la quantità di produzione è 110, rientra nella formula "Da 100 serie". Pertanto la quantità è 20.
+
+
 
 

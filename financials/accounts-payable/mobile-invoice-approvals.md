@@ -1,6 +1,6 @@
 ---
-title: Approvazioni mobili fatture
-description: "Le capacità spostati in Microsoft Dynamics 365 per le operazioni è necessaria un utente aziendali progettare le esperienze mobili. Per gli scenari avanzati, la piattaforma anche consente agli sviluppatori estendere le capacità quando desiderano. La maggior parte del modo più efficiente di ottenere alcuni nuovi concetti del cellulare è di passare attraverso il processo di pianificazione di alcuni scenari. In questo argomento viene utilizzato per fornire un approccio di progettazione gli scenari mobili calcolando le approvazioni fatture fornitore per il cellulare come caso di utilizzo. In questo argomento nella progettazione altre variazioni degli scenari e può applicare anche altri scenari non correlati alle fatture fornitore."
+title: Approvazione mobile delle fatture
+description: "Le funzionalità mobili in Microsoft Dynamics 365 for Operations consentono agli utenti aziendali di progettare esperienze mobili. Per gli scenari avanzati, la piattaforma anche consente agli sviluppatori di estendere le funzionalità nel modo desiderato. Il modo più efficace di apprendere alcuni dei nuovi concetti sulle funzionalità mobili è di esaminare il processo di progettazione di alcuni scenari. Questo argomento è destinato a fornire un approccio pratico alla progettazione di scenari mobili utilizzando l&quot;approvazione delle fatture fornitore come caso d&quot;uso. Questo argomento dovrebbe aiutare nella progettazione di altre variazioni degli scenari e può essere applicato anche ad altri scenari non correlati alle fatture fornitore."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,44 +24,47 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="mobile-invoice-approvals"></a>Approvazioni mobili fatture
+# <a name="mobile-invoice-approvals"></a>Approvazione mobile delle fatture
 
-Le capacità spostati in Microsoft Dynamics 365 per le operazioni è necessaria un utente aziendali progettare le esperienze mobili. Per gli scenari avanzati, la piattaforma anche consente agli sviluppatori estendere le capacità quando desiderano. La maggior parte del modo più efficiente di ottenere alcuni nuovi concetti del cellulare è di passare attraverso il processo di pianificazione di alcuni scenari. In questo argomento viene utilizzato per fornire un approccio di progettazione gli scenari mobili calcolando le approvazioni fatture fornitore per il cellulare come caso di utilizzo. In questo argomento nella progettazione altre variazioni degli scenari e può applicare anche altri scenari non correlati alle fatture fornitore.
+[!include[banner](../includes/banner.md)]
+
+
+Le funzionalità mobili in Microsoft Dynamics 365 for Operations consentono agli utenti aziendali di progettare esperienze mobili. Per gli scenari avanzati, la piattaforma anche consente agli sviluppatori di estendere le funzionalità nel modo desiderato. Il modo più efficace di apprendere alcuni dei nuovi concetti sulle funzionalità mobili è di esaminare il processo di progettazione di alcuni scenari. Questo argomento è destinato a fornire un approccio pratico alla progettazione di scenari mobili utilizzando l'approvazione delle fatture fornitore come caso d'uso. Questo argomento dovrebbe aiutare nella progettazione di altre variazioni degli scenari e può essere applicato anche ad altri scenari non correlati alle fatture fornitore.
 
 <a name="prerequisites"></a>Prerequisiti
 -------------
 
 | Prerequisito                                                                                            | descrizione                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pre- read mobile manuali                                                                                |(/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform.md)                                                                                                  |
-| Dynamics 365 per le operazioni                                                                             | In un ambiente con Microsoft Dynamics 365 per la versione 1611 delle operazioni e Microsoft Dynamics per l'aggiornamento 3 la piattaforma delle operazioni (novembre 2016)                   |
-| Impostare il 3204341 KB di hotfix.                                                                              | In Registrazione attività può registrare per errore due controlli vicina per i dialoghi che a discesa è incluso in Dynamics 365 per l'aggiornamento 3 (aggiornamento) novembre 2016 la piattaforma dell'operazione |
-| Impostare il 3207800 KB di hotfix.                                                                              | Questo hotfix consente agli allegati con essere pubblicato sul client che spostato è incluso in Dynamics 365 per l'aggiornamento 3 (aggiornamento) novembre 2016 la piattaforma dell'operazione.           |
-| Impostare il 3208224 KB di hotfix.                                                                              | Il codice dell'applicazione dell'applicazione mobile di approvazione fatture fornitore è incluso nell'applicazione 7.0.1 Microsoft Dynamics AX (maggio 2016).                          |
-| Android Dynamic o un dispositivo di Windows con il app mobile impostate per Dynamics 365 per le operazioni | Ricerca del app Approvazioni nella memoria del app.                                                                                                                     |
+| Lettura preventiva del manuale sulle funzionalità mobili                                                                                |(/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform.md)                                                                                                  |
+| Dynamics 365 for Operations                                                                             | Un ambiente con Microsoft Dynamics 365 for Operations versione 1611 e aggiornamento 3 della piattaforma di Microsoft Dynamics for Operations (novembre 2016)                   |
+| Installare l'aggiornamento rapido KB 3204341.                                                                              | Registrazione attività può registrare per errore due comandi di chiusura per le finestre di dialogo a discesa. Incluso nell'aggiornamento 3 della piattaforma di Dynamics 365 for Operations (aggiornamento di novembre 2016) |
+| Installare l'aggiornamento rapido KB 3207800.                                                                              | Questo aggiornamento rapido consente agli allegati di essere visualizzati sul client mobile. Incluso nell'aggiornamento 3 della piattaforma di Dynamics 365 for Operations (aggiornamento di novembre 2016).           |
+| Installare l'aggiornamento rapido KB 3208224.                                                                              | Codice dell'applicazione mobile di approvazione fatture fornitore. Incluso nell'applicazione Microsoft Dynamics AX 7.0.1 (maggio 2016).                          |
+| Un dispositivo Android o iOS o Windows su cui è installata l'applicazione mobile di Dynamics 365 for Operations | Cercare l'app nell'app store appropriato.                                                                                                                     |
 
 ## <a name="introduction"></a>Introduzione
-Le approvazioni mobili per le fatture fornitore richiedono i tre hotfixes indicati nella sezione "prerequisiti". Questi hotfixes non fanno un'area di lavoro per le approvazioni fatture. Per informazioni sui tempi un'area di lavoro nel contesto del cellulare, leggere il manuale mobile in cui è indicato nella sezione "prerequisiti". L'area di lavoro di approvazione fatture deve essere pianificata. 
+Le approvazioni mobili per le fatture fornitore richiedono i tre aggiornamenti rapidi indicati nella sezione "Prerequisiti". Questi aggiornamenti rapidi non forniscono un'area di lavoro per le approvazioni fatture. Per informazioni su cos'è un'area di lavoro nel contesto delle funzionalità mobili, leggere il relativo manuale indicato nella sezione "Prerequisiti". L'area di lavoro di approvazione fatture deve essere progettata. 
 
-Ogni organizzazione orchestra diverso e definisce il proprio processo aziendale delle fatture fornitore. Prima di iniziare a progettare di esperienza mobile per le approvazioni fatture fornitore, valutare i seguenti aspetti del processo aziendale. Il concetto di base è di utilizzare questi punti del più informazioni possibile per ottimizzare le esperienze utente nell'unità.
+Ogni organizzazione orchestra e definisce il proprio processo aziendale per le fatture fornitore in modo diverso. Prima di iniziare a progettare un'esperienza mobile per le approvazioni fatture fornitore, valutare i seguenti aspetti del processo aziendale. Il concetto di base è di utilizzare questi punti dati il più possibile per ottimizzare l'esperienza utente sul dispositivo.
 
--   I campi dall'intestazione della fattura l'utente vorrà visualizzare in passato spostato e il relativo ordine?
--   I campi dalle righe fattura l'utente vorrà visualizzare in passato spostato e il relativo ordine?
--   Quante righe della fattura è presente una fattura? Applicare la regola 80-20 e ottimizzazione di seguito per i 80.
--   Gli utenti vorranno visualizzare le distribuzioni contabili (codifica della fattura al dispositivo mobile nelle revisioni? Se la risposta a questo problema in caso affermativo, considerare le domande seguenti:
-    -   Quante distribuzioni contabili (prezzo esteso, l'VAT, spese, spaccature e così via, vengono sono per una riga della fattura? Anche in questo caso, applicare la regola 80-20.
-    -   Le fatture vengono inoltre le distribuzioni contabili nell'intestazione della fattura? In tal caso, queste devono distribuzioni contabili essere disponibili nell'unità?
+-   Quali campi dall'intestazione fattura l'utente vorrà visualizzare nell'esperienza mobile e in che ordine?
+-   Quali campi delle righe fattura l'utente vorrà visualizzare nell'esperienza mobile e in che ordine?
+-   Quante righe fattura sono presenti in una fattura? Applicare la regola 80-20 qui e ottimizzare per l'80%.
+-   Gli utenti vorranno visualizzare le distribuzioni contabili (codifica della fattura) sul dispositivo mobile nelle revisioni? Se la risposta a questa domanda è affermativa, considerare le domande seguenti:
+    -   Quante distribuzioni contabili (prezzo esteso, IVA, spese, suddivisioni e così via) esistono per una riga della fattura? Anche in questo caso, applicare la regola 80-20.
+    -   Le fatture hanno distribuzioni contabili anche nell'intestazione? In tal caso, queste distribuzioni contabili devono essere disponibili sul dispositivo?
 
 > [!NOTE]
-> In questo argomento non viene illustrato come modificare le distribuzioni contabili, poiché non è attualmente non sono supportate per scenari mobili.
+> In questo argomento non viene illustrato come modificare le distribuzioni contabili, poiché questa funzionalità non è attualmente supportata per scenari mobili.
 
--   Gli utenti vorranno visualizzare gli allegati per la fattura all'unità?
+-   Gli utenti vorranno visualizzare gli allegati della fattura sul dispositivo?
 
-La pianificazione delle esperienze mobile per le approvazioni fatture, varia in base alle risposte. La destinazione è di ottimizzare l'esperienza utente del processo aziendale il cellulare di un'organizzazione. Nel resto di questo argomento, esamineremo le due variazioni allo scenario in base alle diverse risposte alle domande precedenti. 
+La progettazione dell'esperienza mobile per le approvazioni fatture varierà in base alle risposte a queste domande. L'obiettivo è di ottimizzare l'esperienza utente del processo aziendale sui dispositivi mobili di un'organizzazione. Nel resto di questo argomento, esamineremo due variazioni allo scenario basate sulle diverse risposte alle domande precedenti. 
 
-In generale generale quando si dedicano alla finestra di progettazione, assicurarsi di cellulare "" emettere le modifiche per evitare la perdita degli aggiornamenti.
+In generale quando si lavora con lo strumento di progettazione mobile, assicurarsi di "pubblicare" le modifiche per evitare la perdita degli aggiornamenti.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Progettazione allo scenario semplice di approvazione fatture per Contoso
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Progettazione di uno scenario semplice di approvazione fatture per Contoso
 <table>
 <colgroup>
 <col width="50%" />
@@ -75,7 +78,7 @@ In generale generale quando si dedicano alla finestra di progettazione, assicura
 </thead>
 <tbody>
 <tr class="odd">
-<td>I campi dall'intestazione della fattura l'utente vorrà visualizzare in passato spostato e il relativo ordine?</td>
+<td>Quali campi dall'intestazione fattura l'utente vorrà visualizzare nell'esperienza mobile e in che ordine?</td>
 <td><ol>
 <li>Nome fornitore</li>
 <li>Totale fattura</li>
@@ -88,7 +91,7 @@ In generale generale quando si dedicano alla finestra di progettazione, assicura
 </ol></td>
 </tr>
 <tr class="even">
-<td>I campi dalle righe fattura l'utente vorrà visualizzare in passato spostato e il relativo ordine?</td>
+<td>Quali campi delle righe fattura l'utente vorrà visualizzare nell'esperienza mobile e in che ordine?</td>
 <td><ol>
 <li>Categoria di approvvigionamento</li>
 <li>Quantità</li>
@@ -98,85 +101,85 @@ In generale generale quando si dedicano alla finestra di progettazione, assicura
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Quante righe della fattura è presente una fattura? Applicare la regola 80-20 e ottimizzazione di seguito per i 80.</td>
+<td>Quante righe fattura sono presenti in una fattura? Applicare la regola 80-20 qui e ottimizzare per l'80%.</td>
 <td>1</td>
 </tr>
 <tr class="even">
-<td>Gli utenti vorranno visualizzare le distribuzioni contabili (codifica della fattura al dispositivo mobile nelle revisioni?</td>
+<td>Gli utenti vorranno visualizzare le distribuzioni contabili (codifica della fattura) sul dispositivo mobile nelle revisioni?</td>
 <td>Sì</td>
 </tr>
 <tr class="odd">
-<td>Quante distribuzioni contabili (prezzo esteso, l'VAT, spese e così via, vengono sono per una riga della fattura? Anche in questo caso, applicare la regola 80-20.</td>
-<td>Prezzo esteso: VAT: 2 Spese: 0 0</td>
+<td>Quante distribuzioni contabili (prezzo esteso, IVA, spese e così via) esistono per una riga della fattura? Anche in questo caso, applicare la regola 80-20.</td>
+<td>Prezzo esteso: 2 IVA: 0 Spese: 0</td>
 </tr>
 <tr class="even">
-<td>Le fatture vengono inoltre le distribuzioni contabili nell'intestazione della fattura? In tal caso, queste devono distribuzioni contabili essere disponibili nell'unità?</td>
+<td>Le fatture hanno distribuzioni contabili anche nell'intestazione? In tal caso, queste distribuzioni contabili devono essere disponibili sul dispositivo?</td>
 <td>Non utilizzato</td>
 </tr>
 <tr class="odd">
-<td>Gli utenti vorranno visualizzare gli allegati per la fattura all'unità?</td>
+<td>Gli utenti vorranno visualizzare gli allegati della fattura sul dispositivo?</td>
 <td>Sì</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="create-the-workspace"></a>Crea area di lavoro
+### <a name="create-the-workspace"></a>Creare l'area di lavoro
 
-1.  In un browser, aperto Dynamics 365 per le operazioni e di firma.
-2.  Una volta completati in, aggiungere ** &mode=mobile ** all'URL come illustrato nella seguente esempio e aggiornare la pagina: https://yoururl/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**&lt;&gt;
-3.  Fare clic su ** impostazioni ** (ingranaggio) in l pulsante in alto a destra della pagina e fare clic su ** app mobile **. In Designer di cellulare del app è indicato così come la funzione Registrazione attività è indicato.
-4.  Fare clic su ** aggiungere ** per creare una nuova area di lavoro. Per questo esempio, assegnare l'area di lavoro ** recuperare le approvazioni **.
+1.  In un browser, aprire Dynamics 365 for Operations e accedere.
+2.  Effettuato l'accesso. aggiungere **&mode=mobile** all'URL come mostrato nell'esempio seguente e aggiornare la pagina: https://&lt;urlutente&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+3.  Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**. Lo strumento di progettazione app per dispositivo mobili deve apparire come Registrazione attività.
+4.  Fare clic su **Aggiungi** per creare una nuova area di lavoro. Per questo esempio, chiamare l'area di lavoro **My approvals**.
 5.  Immettere una descrizione.
-6.  Selezionare un colore dell'area di lavoro. Colore di area di lavoro verrà utilizzato per lo stile globale delle esperienze mobile per l'area di lavoro.
+6.  Seleziona un colore per l'area di lavoro. IL colore dell'area di lavoro verrà utilizzato per lo stile globale dell'esperienza mobile per l'area di lavoro.
 7.  Selezionare un'icona per l'area di lavoro.
-8.  Fare clic su ** effettuato **
-9.  Fare clic su ** pubblicare l'area di lavoro ** per salvare le modifiche
+8.  Fare clic su **Fine**.
+9.  Fare clic su **Pubblica area di lavoro** per salvare le modifiche.
 
 ### <a name="vendor-invoices-assigned-to-me"></a>Fatture fornitore assegnate all'utente
 
-La prima pagina mobile in cui è consigliabile pianificare l'elenco di fatture assegnato all'utente per la revisione. Per pianificare la pagina di cellulare, utilizzare VendMobileInvoiceAssignedToMeListPage ** ** impaginano in Dynamics 365 per le operazioni. Prima di completare questa procedura, assicurarsi di almeno una fattura fornitore sia assegnati per la visualizzazione e la riga fattura è due distribuzioni. Questa impostazione soddisfa i requisiti di questo scenario.
+La prima pagina in versione mobile che è consigliabile progettare è l'elenco di fatture assegnate all'utente per la revisione. Per progettare questa pagina in versione mobile, utilizzare la pagina **VendMobileInvoiceAssignedToMeListPage** di Dynamics 365 for Operations. Prima di completare questa procedura, assicurarsi di avere almeno una fattura fornitore assegnata per la revisione e che la riga fattura abbia due distribuzioni. Questa impostazione soddisfa i requisiti di questo scenario.
 
-1.  In Dynamics 365 per le operazioni URL, sostituire il nome della voce di menu con ** VendMobileInvoiceAssignedToMeListPage ** per aprire la versione ** spostata in Fatture fornitore in sospeso assegnate me ** della pagina elenco ** contabilità fornitori ** nel modulo. A seconda del numero delle fatture da pagare nel sistema assegnato all'utente, questa pagina verranno visualizzate le fatture. Per trovare una fattura specifica, è possibile utilizzare il filtro a sinistra. Tuttavia, non richiediamo una fattura specifica per questo esempio. Per appena una fattura assegnati ad esempio desiderano consentire a progettare la pagina spostato. Le pagine disponibili sono state progettato appositamente per creare gli scenari mobili per la fattura fornitore. Di conseguenza, è necessario utilizzare queste pagine. L'URL deve essere il seguente URL e dopo l'applicazione dello voci, la pagina indicato nella figura deve essere publicata: https://yourURL/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile&lt;&gt;[di fatture fornitore in attesa![assegnate me pagina (]. /media/mobile-invoice-approvals01-1024x281.png)](. /media/mobile-invoice-approvals01.png)
-2.  ** Impostazioni Cliccano ** il pulsante (di ingranaggio) nell'angolo superiore destro della pagina e fare clic su ** app mobile **
-3.  Selezionare nell'area di lavoro e fare clic su ** modifica **
-4.  Fare clic su ** aggiungere la pagina ** per creare la prima pagina spostato.
-5.  Immettere un nome, ad esempio ** recuperare le fatture fornitore ** e una descrizione, ad esempio ** fatture fornitore assegnate me per l'esame **.
-6.  Click **Done**.
-7.  In Progettazione di cellulare, ** ** campi nella scheda, fare clic su ** campi selezionati **. Nelle colonne della pagina elenco devono essere alla figura seguente. [colonne![delle fatture fornitore in attesa assegnate me pagina (]. /media/mobile-invoice-approvals02-1024x117.png)](. /media/mobile-invoice-approvals02.png)
-8.  Aggiungere colonne necessarie dalla pagina elenco da cui deve essere visualizzata agli utenti della pagina spostato. Ordine in cui viene aggiunto l'ordine in cui i campi visualizzati in utilizzatore finale. Il solo per modificare l'ordine di campi verrà riselezionando tutti i campi. In base ai requisiti di questo esempio, i seguenti otto campi obbligatori. Tuttavia, alcuni utenti possono considerare otto campi troppe informazioni sulla visualizzazione di un dispositivo mobile. Di conseguenza, mostreremo solo i campi più importanti spostato nell'elenco. I campi rimanenti sembreranno visualizzare i dettagli che pianificare in un secondo momento. Per ora, aggiungeremo i seguenti campi. Fare clic sul segno (**+**) nelle colonne da aggiungere alla pagina spostato.
+1.  Nell'URL di Dynamics 365 for Operations, sostituire il nome della voce di menu con **VendMobileInvoiceAssignedToMeListPage** per aprire la versione  mobile della pagina elenco **Fatture fornitore in sospeso assegnate all'utente** nel modulo **Contabilità fornitori**. A seconda del numero delle fatture assegnate all'utente, questa pagina mostrerà tali fatture. È possibile usare il filtro a sinistra per trovare una fattura specifica. Tuttavia, non è richiesta una fattura specifica per questo esempio. È solo necessario avere qualche fattura assegnata in modo da poter progettare la pagina in versione mobile. Le nuove pagine disponibili sono state progettate appositamente per sviluppare scenari mobili per la fattura fornitore. Di conseguenza, è necessario utilizzare queste pagine. L'URL deve essere simile al seguente e dopo l'immissione la pagina indicata nella figura deve essere visualizzata: https://&lt;URLutente&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Pagina Fatture fornitore in sospeso assegnate all'utente](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+2.  Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**.
+3.  Selezionare l'area di lavoro e fare clic su **Modifica**
+4.  Fare clic su **Aggiungi pagina** per creare la prima pagina in versione mobile.
+5.  Immettere un nome, ad esempio **My vendor invoices*** e una descrizione, ad esempio **Vendor invoices assigned to me for review**.
+6.  Fare clic su **Fine**.
+7.  Nello strumento di progettazione mobile, nella scheda **Campi** fare clic su **Seleziona campi**. Le colonne della pagina elenco devono essere simili alla figura seguente. [![Colonne nella pagina Fatture fornitore in sospeso assegnate all'utente](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+8.  Aggiungere le colonne necessarie dalla pagina elenco che devono essere visualizzate agli utenti nella pagina in versione mobile. L'ordine di aggiunta è l'ordine in cui i campi verranno visualizzati all'utente finale. Il solo modo per modificare l'ordine dei campi è riselezionarli tutti. In base ai requisiti di questo scenario, sono necessari i seguenti otto campi. Tuttavia, alcuni utenti potrebbero considerare otto campi troppe informazioni da avere su un dispositivo mobile. Di conseguenza, mostreremo solo i campi più importanti nella visualizzazione elenco mobile. I campi rimanenti sembreranno appariranno nella visualizzazione dettagli che progetteremo in un secondo momento. Per ora, aggiungeremo i seguenti campi. Fare clic sul segno (**+**) nelle colonne da aggiungere alla pagina mobile.
     1.  Nome fornitore
     2.  Totale fattura
     3.  Conto fatture
     4.  Numero fattura
     5.  Data fattura
 
-    Dopo che i campi vengono aggiunti, la pagina deve essere spostato alla figura seguente. [la pagina![dopo i campi viene aggiunto (]. /media/mobile-invoice-approvals03.png)](. /media/mobile-invoice-approvals03.png)
-9.  È inoltre possibile aggiungere le seguenti colonne, in modo da consentire possiamo successivamente le azioni del flusso di lavoro.
-    1.  Consente di visualizzare le attività completata
-    2.  Consente di visualizzare le attività del delegato
-    3.  Visualizza l'attività di Richiamo
-    4.  Visualizza l'attività di scarto
-    5.  Consente di visualizzare le attività di completamento di richiesta
-    6.  La visualizza l'attività presenta di nuovo
+    Dopo che i campi vengono aggiunti, la pagina mobile deve somigliare alla figura seguente. [![Pagina dopo l'aggiunta dei campi](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+9.  È inoltre necessario aggiungere le seguenti colonne ora, in modo da abilitare le azioni del flusso di lavoro successivamente.
+    1.  Mostra attività completare
+    2.  Mostra attività delegare
+    3.  Mostra attività richiamare
+    4.  Mostra attività rifiutare
+    5.  Mostra attività richiedere completamento
+    6.  Mostra attività inviare nuovamente
 
-10. Fare clic su ** effettuato ** per annullare modalità di modifica.
-11. Fare clic su Indietro ** ** quindi ** effettuato ** uscire dall'area di lavoro
-12. Fare clic su ** pubblicare l'area di lavoro ** per salvare il lavoro.
-13. Attivare ** totale fattura di visualizzazione nell'elenco in sospeso delle fatture fornitore ** nel modulo Accounts payable parameters in ** ** fattura. Tenere presente che, consentendo soltanto a questo parametro, i totali fattura verranno calcolati da visualizzare nella pagina elenco in attesa delle fatture fornitore. Si tratta di una nuova funzione nella correzione rapida 3208224 di registrazione.
+10. Fare clic su **Fine** per uscire dalla modalità di modifica.
+11. Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
+12. Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
+13. Abilitare **Visualizza totale fatture su elenco fatture fornitore in sospeso** nel modulo dei parametri contabilità fornitori in **Fattura**. Tenere presente che solo abilitando questo parametro, i totali fattura verranno calcolati e visualizzati nella pagina elenco delle fatture fornitore in sospeso. Si tratta di una nuova funzionalità nell'ambito dell'aggiornamento rapido 3208224.
 
 ### <a name="vendor-invoice-details"></a>Dettagli fattura fornitore
 
-Per pianificare la pagina dei dettagli del cellulare, utilizzare VendMobileInvoiceHeaderDetails ** ** impaginano in Dynamics 365 per le operazioni. Tenere presente che, a seconda del numero di fatture da pagare nel sistema, in questa pagina precedente a quella della fattura (la fattura creata innanzitutto). Per trovare una fattura specifica, è possibile utilizzare il filtro a sinistra. Tuttavia, non richiediamo una fattura specifica per questo esempio. Per solo alcuni dati della fattura in per consentire a Microsoft di pianificare quale la pagina spostato. [pagina del flusso di lavoro![(]. /media/mobile-invoice-approvals04-1024x425.png)](. /media/mobile-invoice-approvals04.png)
+Per progettare la pagina dei dettagli fattura per l'ambiente mobile, utilizzare la pagina **VendMobileInvoiceHeaderDetails** in Dynamics 365 for Operations. Tenere presente che, a seconda del numero di fatture nel sistema, la pagina mostra la fattura più vecchia (la fattura creata per prima). È possibile usare il filtro a sinistra per trovare una fattura specifica. Tuttavia, non è richiesta una fattura specifica per questo esempio. Sono neecssari solo alcuni dati della fattura per progettare la pagina in versione mobile. [![Pagina Flusso di lavoro](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  In Dynamics 365 per le operazioni, URL sostituiscono il nome della voce di menu con ** VendMobileInvoiceHeaderDetails ** per aprire il modulo
-2.  Consente di aprire Progettazione report spostato da ** impostazioni ** pulsante di ingranaggio ().
-3.  Fare clic su ** modifica ** viene subito per avviare la modalità di modifica nell'area di lavoro.
-4.  Selezionare ** recuperare le fatture fornitore ** impaginano creato in precedenza quindi su ** ** modifica.
-5.  ** ** Campi nella scheda, fare clic su ** griglia ** la colonna.
-6.  Fare clic su ** proprietà ** &gt; ** aggiungere la pagina **. ** Nota: ** Quando si fa clic su ** griglia ** l'intestazione e si aggiunge una pagina, la relazione con la pagina dei dettagli è impostato automaticamente.
-7.  Immettere un titolo della pagina, ad esempio ** dettagli della fattura ** e una descrizione, ad esempio ** intestazione e dettagli della riga dello storico di **.
-8.  Fare clic su ** campi selezionati **. Tenere presente che, l'ordine in cui viene aggiunto l'ordine in cui i campi visualizzati in utilizzatore finale. Il solo per modificare l'ordine di campi verrà riselezionando tutti i campi.
-9.  Aggiungere i seguenti campi dall'intestazione, in base ai requisiti per questo scenario:
+1.  Nell'URL di Dynamics 365 for Operations, sostituire il nome della voce di menu con **VendMobileInvoiceHeaderDetails** per aprire il modulo
+2.  Aprire lo strumento di progettazione mobile dal pulsante **Impostazioni** (ingranaggio).
+3.  Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
+4.  Selezionare la pagina **My vendor invoices ** creata in precedenza quindi fare clic su **Modifica**.
+5.  Nella scheda **Campi** fare clic sull'intestazione di colonna **Griglia**.
+6.  Fare clic su **Proprietà** &gt; **Aggiungi pagina**. **Nota:** Quando si fa clic su l'intestazione **Griglia** e si aggiunge una pagina, la relazione con la pagina dei dettagli è impostata automaticamente.
+7.  Immettere un titolo della pagina, ad esempio **Invoice details** e una descrizione, ad esempio **View invoice header and line details**.
+8.  Fare clic su **Seleziona campi**. Notare che l'ordine di aggiunta è l'ordine in cui i campi verranno visualizzati all'utente finale. Il solo modo per modificare l'ordine dei campi è riselezionarli tutti.
+9.  Aggiungere i campi seguenti dall'intestazione in base ai requisiti di questo scenario:
     1.  Nome fornitore
     2.  Totale fattura
     3.  Conto fatture
@@ -193,34 +196,34 @@ Per pianificare la pagina dei dettagli del cellulare, utilizzare VendMobileInvoi
     4.  Importo netto riga
     5.  Importo 1099
 
-11. Dopo tutti i campi da due passaggi precedenti sono stati aggiunti, fare clic su ** effettuato **. Verrà visualizzata la pagina deve essere alla figura seguente. [![Page after fields are added](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
-12. Fare clic su ** effettuato ** per annullare modalità di modifica.
-13. Fare clic su Indietro ** ** quindi ** effettuato ** uscire dall'area di lavoro
-14. Fare clic su ** pubblicare l'area di lavoro ** per salvare il lavoro
+11. Dopo che tutti i campi dai due passaggi precedenti sono stati aggiunti, fare clic su **Fine**. La pagina deve essere simili alla figura seguente. [![Pagina dopo l'aggiunta dei campi](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+12. Fare clic su **Fine** per uscire dalla modalità di modifica.
+13. Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
+14. Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
 
 ### <a name="workflow-actions"></a>Azioni flusso di lavoro
 
-Per aggiungere le azioni del flusso di lavoro, utilizzare VendMobileInvoiceHeaderDetails ** ** impaginano in Dynamics 365 per le operazioni. Per visualizzare questa pagina, sostituire il nome della voce di menu nell'URL, ad esempio la selezione precedente. Per aprire Progettazione report spostato da ** impostazioni ** pulsante di ingranaggio (). Seguire questi passaggi per aggiungere le azioni del flusso di lavoro nella pagina dei dettagli.
+Per aggiungere le azioni del flusso di lavoro, utilizzare la pagina **VendMobileInvoiceHeaderDetails** in Dynamics 365 for Operations. Per visualizzare questa pagina, sostituire il nome della voce di menu nell'URL, come fatto in precedenza. Quindi aprire lo strumento di progettazione mobile dal pulsante **Impostazioni** (ingranaggio). Seguire questi passaggi per aggiungere le azioni del flusso di lavoro nella pagina dei dettagli.
 
-1.  Fare clic su ** modifica ** viene subito per avviare la modalità di modifica nell'area di lavoro.
-2.  Selezionare ** dettagli della fattura ** impaginano creato in precedenza quindi su ** ** modifica.
-3.  ** Azioni ** nella scheda, fare clic su Aggiungi ** ** azione.
-4.  Immettere un titolo dell'azione, come ** approvare ** e una descrizione, ad esempio ** approvare la fattura **. Si noti che il titolo di azione immesso in questo campo diventa il nome dell'azione che verrà visualizzata all'utente nell'app Approvazioni spostato.
-5.  Click **Done**.
-6.  Fare clic su ** campi selezionati **.
-7.  Passare al processo del flusso di lavoro ** VendMobileInvoiceHeaderDetails ** nella pagina ed eseguire l'azione aver voluto la registrazione. Assicurarsi di immettere commenti del flusso di lavoro durante il processo, in modo da un campo di commenti viene inoltre incluso in passato spostato.
-8.  Dopo che l'azione del flusso di lavoro viene eseguita, fare clic su ** effettuato ** per completare l'attività selezionata i campi.
-9.  Fare clic su ** effettuato ** per annullare modalità di modifica.
-10. Fare clic su Indietro ** ** quindi ** effettuato ** uscire dall'area di lavoro
-11. Fare clic su ** pubblicare l'area di lavoro ** per salvare il lavoro
-12. Ripetere i passaggi da 3 a 11 per registrare tutte le azioni necessarie del flusso di lavoro. Tenere presente che, è obbligatorio essere assegnate a fatture in una condizione per rendere disponibili le azioni del flusso di lavoro per l'utente che si desidera pianificare.
-13. Apre il Blocco note o Microsoft Visual Studio e inserire il seguente codice. Salvare il file come file di .js. Questo codice viene due elementi:
-    1.  Nasconde le colonne correlate ai flussi di lavoro aggiuntivi disponibili aggiunto in precedenza nella pagina elenco spostato. È stato aggiunto le colonne in modo che il app cui le informazioni nel contesto e è necessario il passaggio successivo.
-    2.  In base al passaggio del flusso di lavoro attiva, viene applicata la logica per visualizzare solo le azioni.
+1.  Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
+2.  Selezionare la pagina **Invoice details** creata in precedenza quindi fare clic su **Modifica**.
+3.  Nella scheda **Azioni** fare clic su **Aggiungi azione**.
+4.  Immettere un titolo dell'azione, come **Approve** e una descrizione, ad esempio **Approve invoice**. Si noti che il titolo di azione immesso in questo campo diventa il nome dell'azione che verrà visualizzata all'utente nell'app per dispositivi mobili.
+5.  Fare clic su **Fine**.
+6.  Fare clic su **Seleziona campi**.
+7.  Procedere lungo il processo del flusso di lavoro nella pagina **VendMobileInvoiceHeaderDetails** e completare l'azione che si è voluta registrare. Assicurarsi di immettere commenti del flusso di lavoro durante il processo, in modo che un campo di commenti viene anche incluso nell'esperienza mobile.
+8.  Dopo che l'azione del flusso di lavoro viene eseguita, fare clic su **Fine** per completare l'attività Seleziona campi.
+9.  Fare clic su **Fine** per uscire dalla modalità di modifica.
+10. Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
+11. Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
+12. Ripetere i passaggi da 3 a 11 per registrare tutte le azioni necessarie del flusso di lavoro. Tenere presente che è obbligatorio avere fatture assegnate che si trovato in stato tale da rendere disponibili le azioni del flusso di lavoro per l'utente per la progettazione desiderata.
+13. Aprire il Blocco note o Microsoft Visual Studio e incollare il seguente codice. Salvare il file come file .js. Questo codice fa due cose:
+    1.  Nasconde le colonne extra correlate ai flussi di lavoro che abbiamo aggiunto in precedenza nella pagina elenco in versione mobile. Abbiamo aggiunto le colonne in modo che l'app abbia quelle informazioni nel contesto e possa eseguire il passaggio successivo.
+    2.  In base al passaggio del flusso di lavoro attivo, viene applicata la logica per visualizzare solo queste azioni.
 
-Tenere presente che, il nome delle pagine e altri controlli nel codice JS devono essere ugualiarea di lavoro.
+Tenere presente che il nome delle pagine e altri controlli nel codice JS devono essere gli stessi dell'area di lavoro.
 
-1.  conto principale (funzione di metadataService, dataService, cacheService, $q) {reso {appInit: (funzione appMetadata) {controlli di nascondere di //che devono essere presenti, ma non metadataService.configureControl visibile ("Mio-fornitore- fatture ", "ShowAccept", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowApprove", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowReject", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowDelegate", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowRequestChange", nascosto: { riga});              metadataService.configureControl ("Mio-fornitore- fatture ", "ShowRecall", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowComplete", nascosto: { riga});            metadataService.configureControl ("Mio-fornitore- fatture ", "ShowResubmit", nascosto: { riga});            }, pageInit: (funzione pageMetadata, params) {se Fattura- dettagli (") di == di pageMetadata.Name "{azioni del flusso di lavoro di l o nascondere di //in base al passaggio metadataService.configureAction del flusso di lavoro ("," accettare visibile: { riga});                    metadataService.configureAction ("Approvare", visibile: { riga});                    metadataService.configureAction ("e", visibile: { riga});                    metadataService.configureAction ("a", visibile: { riga});                    metadataService.configureAction ("Richiesta- modifica", visibile: { riga});                    metadataService.configureAction Richiamo ("," visibile: { riga});                    metadataService.configureAction ("a", visibile: { riga});                    metadataService.configureAction ("," inviare di nuovo disponibile: { riga});
+1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -256,56 +259,56 @@ Tenere presente che, il nome delle pagine e altri controlli nel codice JS devono
            };
         }
 
-2.  Caricare il file del codice nell'area di lavoro selezionando ** logica ** la scheda
-3.  Fare clic su ** effettuato ** per annullare modalità di modifica.
-4.  Fare clic su Indietro ** ** quindi ** effettuato ** uscire dall'area di lavoro
-5.  Fare clic su ** pubblicare l'area di lavoro ** per salvare il lavoro
+2.  Caricare il file del codice nell'area di lavoro selezionando la scheda **Logica**
+3.  Fare clic su **Fine** per uscire dalla modalità di modifica.
+4.  Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
+5.  Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
 
-### <a name="vendor-invoice-attachments"></a>Allegati fatture fornitore
+### <a name="vendor-invoice-attachments"></a>Allegati della fattura fornitore
 
-1.  ** Impostazioni Cliccano ** il pulsante (di ingranaggio) nell'angolo superiore destro della pagina e fare clic su ** app mobile **
-2.  Fare clic su ** modifica ** viene subito per avviare la modalità di modifica nell'area di lavoro.
-3.  Selezionare ** dettagli della fattura ** impaginano creato in precedenza quindi su ** ** modifica.
-4.  Impostare ** gestione documenti ** l'opzione ** Sì ** come indicato di seguito. ** Nota: ** Se non sono presenti fabbisogni visualizzare gli allegati del dispositivo mobile, è possibile lasciare questa opzione impostata alcuna ** **, che è l'impostazione predefinita.
-5.  [docmanagement![(]. /media/docmanagement-216x300.png)](. /media/docmanagement.png)
-6.  Fare clic su ** effettuato ** per annullare modalità di modifica.
-7.  Fare clic su Indietro ** ** quindi ** effettuato ** uscire dall'area di lavoro
-8.  Fare clic su ** pubblicare l'area di lavoro ** per salvare il lavoro
+1.  Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**.
+2.  Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
+3.  Selezionare la pagina  **Invoice details** creata in precedenza quindi fare clic su **Modifica**.
+4.  Impostare l'opzione **Gestione documenti** su **Sì** come indicato di seguito. **Nota:** Se non sono presenti esigenze di visualizzare gli allegati sul dispositivo mobile, è possibile lasciare questa opzione impostata su **No**, che è l'impostazione predefinita.
+5.  [![docmanagement](./media/docmanagement-216x300.png)](./media/docmanagement.png)
+6.  Fare clic su **Fine** per uscire dalla modalità di modifica.
+7.  Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
+8.  Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
 
-### <a name="vendor-invoice-line-distributions"></a>Distribuzioni delle righe fattura fornitore
+### <a name="vendor-invoice-line-distributions"></a>Distribuzioni a livello di riga fattura fornitore
 
-I requisiti di questo scenario confermare che ci saranno utilizzato solo nelle distribuzioni a livello di riga e una fattura che contiene sempre una sola riga. Poiché questo scenario è semplice, l'esperienza utente del dispositivo mobile sia sufficiente semplice che l'utente non è presente in più livelli per visualizzare le distribuzioni. Le fatture fornitore in Dynamics 365 per le operazioni includono l'opzione di mostra di tutte le distribuzioni dall'intestazione della fattura. Questa passato viene delle informazioni necessarie per abbiamo lo scenario spostato. Di conseguenza, useremo ** VendMobileInvoiceAllDistributionTree ** la pagina per pianificare la parte dello scenario spostato. 
+I requisiti di questo scenario confermano che ci saranno solo distribuzioni a livello di riga e che una fattura conterrà sempre una sola riga. Poiché questo scenario è semplice, anche l'esperienza utente sul dispositivo mobile deve essere abbastanza semplice da evitare che l'utente debba eseguire il drill-down di più livelli per visualizzare le distribuzioni. Le fatture fornitore in Dynamics 365 for Operations includono l'opzione di mostrare tutte le distribuzioni dall'intestazione della fattura. Questa esperienza è quello che serve per lo scenario mobile. Di conseguenza, useremo la pagina **VendMobileInvoiceAllDistributionTree** per progettare questa parte dello scenario mobile. 
 
 > [!NOTE] 
-> Conoscere i requisiti sono facilita la pagina decidere quali specifica da utilizzare con precisione e la quantità di ottimizzare l'esperienza mobile per l'utente per pianificare lo scenario. Nel secondo scenario, useremo una pagina diversa per visualizzare le distribuzioni, poiché i requisiti di questo scenario diversi.
+> Conoscere i requisiti aiuta a decidere quale pagina specifica utilizzare come esattamente ottimizzare l'esperienza mobile per l'utente nella progettazione dello scenario. Nel secondo scenario, useremo una pagina diversa per visualizzare le distribuzioni, poiché i requisiti di quello scenario sono diversi.
 
-1.  Nell'URL, sostituire il nome della voce di menu, ad esempio è stata effettuata prima. Verrà visualizzata la pagina visualizzata deve essere alla figura seguente. [![qualsiasi pagina di distribuzioni (]. /media/mobile-invoice-approvals06.png)](. /media/mobile-invoice-approvals06.png)
-2.  Consente di aprire Progettazione report spostato da ** impostazioni ** pulsante di ingranaggio ().
-3.  Fare clic su ** modifica ** viene subito per avviare la modalità di modifica nell'area di lavoro. ** Nota: ** Vedrete che due pagine sono state create automaticamente. Il sistema crea queste pagine, poiché è stato attivato la gestione dei documenti nella sezione precedente. È possibile ignorare tali pagine.
-4.  Fare clic su ** aggiungere la pagina **.
-5.  Immettere un titolo della pagina, ad esempio ** contabilità di visualizzazione ** e una descrizione, ad esempio ** visualizzazione che rappresenta la fattura **.
-6.  Click **Done**.
-7.  ** ** Campi nella scheda, fare clic su ** campi selezionati **, selezionare i seguenti campi della pagina di distribuzioni e fare clic su ** effettuato **:
+1.  Nell'URL, sostituire il nome della voce di menu, come fatto in precedenza. Verrà visualizzata una che deve essere simile alla figura seguente. [![Pagina Tutte le distribuzioni](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+2.  Aprire lo strumento di progettazione mobile dal pulsante **Impostazioni** (ingranaggio).
+3.  Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro. **Nota:**  Vedrete che due pagine sono state create automaticamente. Il sistema crea queste pagine, poiché è stata abilitata la gestione dei documenti nella sezione precedente. È possibile ignorare tali nuove pagine.
+4.  Fare clic su **Aggiungi pagina**.
+5.  Immettere un titolo della pagina, ad esempio **View accounting** e una descrizione, ad esempio **View accounting for the invoice**.
+6.  Fare clic su **Fine**.
+7.  Nella scheda **Campi** fare clic su **Seleziona campi**, selezionare i campi seguenti dalla pagina delle sitribuzioni e fare clic su **Fine**:
     1.  Importo
     2.  Valuta
     3.  Conto CoGe
 
 > [!NOTE] 
-> Non magazzino è attualmente selezionato ** descrizione ** la colonna nella griglia di distribuzioni, poiché i requisiti di questo scenario è confermato che il prezzo esteso è l'unico importo che ci saranno distribuzioni. Pertanto, l'utente non richiede altre campo per determinare l'importo del tipo che la distribuzione sia. Tuttavia, nello scenario successiva, ** ** utilizziamo queste informazioni, poiché i requisiti di questo scenario indica che un altro importo di tipo ha distribuzioni, ad esempio VAT).
-8.  Fare clic su ** effettuato ** per annullare modalità di modifica.
-9.  Fare clic su Indietro ** ** quindi ** effettuato ** uscire dall'area di lavoro
-10. Fare clic su ** pubblicare l'area di lavoro ** per salvare il lavoro
+> Non abbiamo selezionato la colonna **Descrizione** nella griglia di distribuzioni, poiché i requisiti di questo scenario hanno confermato che il prezzo esteso è l'unico importo per cui ci saranno distribuzioni. Pertanto, l'utente non avrà bisogno di un altro campo per determinare il tipo di importo per cui è la distribuzione. Tuttavia, nello scenario successivo, queste informazioni **verranno** utilizzate, poiché i requisiti di quello scenario specificano che altri tipi di importo hanno distribuzioni, ad esempio IVA.
+8.  Fare clic su **Fine** per uscire dalla modalità di modifica.
+9.  Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
+10. Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
 
-** Nota: ** ** Contabilità ** di visualizzare la pagina spostato non è attualmente associata a una delle pagine mobili disponibili previsto fino a questo momento. Poiché l'utente deve poter accedere ** contabilità di visualizzazione della pagina ** ** dettagli della fattura ** la pagina del dispositivo mobile, dobbiamo specificare il percorso ** dettagli della fattura ** dalla pagina ** contabilità di visualizzazione ** nella pagina. Stabiliamo questo percorso utilizzando la logica aggiuntivo tramite il JavaScript.
+**Nota:** la pagina in versione mobile **View accounting** non è attualmente collegata a nessuna delle pagine mobili disponibili progettate fino a questo momento. Poiché l'utente deve poter accedere alla pagina **View accounting** dalla pagina **Invoice details** sul dispositivo mobile, dobbiamo specificare lo spostamento dalla pagina **Invoice details** alla pagina **View accounting** . Stabiliamo questo spostamento utilizzando la logica aggiuntiva tramite JavaScript.
 
-1.  Apre il file di .js creato in precedenza e aggiungere righe che vengono evidenziate nel codice riportato di seguito. Questo codice viene due elementi:
-    1.  Aiuta la garanzia che gli utenti non potranno accedere direttamente all'area di lavoro della contabilità ** ** visualizzazione della pagina.
-    2.  Stabilisce un controllo di navigazione ** dettagli della fattura ** dalla pagina ** contabilità di visualizzazione ** nella pagina.
+1.  Apre il file .js creato in precedenza e aggiungere le righe che vengono evidenziate nel codice riportato di seguito. Questo codice fa due cose:
+    1.  Aiuta a garantire che gli utenti non possono accedere direttamente dall'area di lavoro alla pagina **View accounting**.
+    2.  Stabilisce un controllo di spostamento dalla pagina **Invoice details** alla pagina **View accounting**.
 
 > [!NOTE] 
-> Nome delle pagine e di altri controlli nel codice JS deve essere lo stessoarea di lavoro.
+> Il nome delle pagine e altri controlli nel codice JS devono essere gli stessi dell'area di lavoro.
 
-1.  conto principale (funzione di metadataService, dataService, cacheService, $q) {reso {appInit: (funzione appMetadata) {controlli di nascondere di //che devono essere presenti, ma non metadataService.configureControl visibile ("Mio-fornitore- fatture ", "ShowAccept", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowApprove", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowReject", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowDelegate", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowRequestChange", nascosto: { riga});              metadataService.configureControl ("Mio-fornitore- fatture ", "ShowRecall", nascosto: { riga});                metadataService.configureControl ("Mio-fornitore- fatture ", "ShowComplete", nascosto: { riga});            metadataService.configureControl ("Mio-fornitore- fatture ", "ShowResubmit", nascosto: { riga});                Il di nascondere //impagina non applicabile per percorso metadataService.hideNavigation ("contabilità Visualizzazione- ") radice;                //Link per visualizzare metadataService.addLink di stima ("Fattura- dettagli ", "contabilità Visualizzazione- ", "Visualizzazione-contabilità-NAV- control ", "contabilità di visualizzazione", soddisfatte);            }, pageInit: (funzione pageMetadata, params) {se Fattura- dettagli (") di == di pageMetadata.Name "{azioni del flusso di lavoro di l o nascondere di //in base al passaggio metadataService.configureAction del flusso di lavoro ("," accettare visibile: { riga});                    metadataService.configureAction ("Approvare", visibile: { riga});                    metadataService.configureAction ("e", visibile: { riga});                    metadataService.configureAction ("a", visibile: { riga});                    metadataService.configureAction ("Richiesta- modifica", visibile: { riga});                    metadataService.configureAction Richiamo ("," visibile: { riga});                    metadataService.configureAction ("a", visibile: { riga});                    metadataService.configureAction ("," inviare di nuovo disponibile: { riga});
+1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });                // Hide pages not applicable for root navigation                metadataService.hideNavigation('View-accounting');                //Link to view accounting                metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -341,24 +344,24 @@ I requisiti di questo scenario confermare che ci saranno utilizzato solo nelle d
            };
         }
 
-2.  Caricare il file del codice nell'area di lavoro selezionando ** logica ** la scheda sovrascrivere il codice precedente
-3.  Fare clic su ** effettuato ** per annullare modalità di modifica.
-4.  Fare clic su Indietro ** ** quindi ** effettuato ** uscire dall'area di lavoro
-5.  Fare clic su ** pubblicare l'area di lavoro ** per salvare il lavoro
+2.  Caricare il file del codice nell'area di lavoro selezionando la scheda **Logica** per sovrascrivere il codice precedente
+3.  Fare clic su **Fine** per uscire dalla modalità di modifica.
+4.  Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
+5.  Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
 
 ### <a name="validation"></a>Convalida
 
-Dal dispositivo mobile, aprire il app e connettersi a l Dynamics 365 per l'istanza delle operazioni. Verificare che firmiate nella società in cui le fatture fornitore vengono assegnate per la revisione. È possibile eseguire le seguenti operazioni:
+Dal dispositivo mobile, aprire l'app e connettersi all'istanza di Dynamics 365 for Operations. Verificare di accedere alla società in cui le fatture fornitore sono assegnate a se stessi per la revisione. Dovrebbe esssere possibile eseguire le seguenti azioni:
 
--   ** Per recuperare le approvazioni ** l'area di lavoro.
--   Eseguire ** recuperare le approvazioni ** nell'area di lavoro e vedere ** recuperare le fatture fornitore ** la pagina.
--   Eseguire il ** recuperare le fatture fornitore ** impaginano e visualizzare l'elenco delle fatture assegnato all'utente.
--   Drill nelle fatture cliente e visualizzare i dettagli e i dettagli riga dell'intestazione della fattura.
--   Nei dettagli di pagine, vedere un collegamento agli allegati e utilizzare questo collegamento per spostarsi all'elenco degli allegati e visualizzare gli allegati.
--   Nei dettagli di pagine, vedere un collegamento ** contabilità di visualizzazione ** nella pagina e utilizzare questo collegamento per accedere alla pagina di distribuzioni e visualizzare le distribuzioni.
--   Nei dettagli di pagine, fare clic su ** azioni ** il menu nella parte inferiore ed eseguire azioni del flusso di lavoro applicabili al passaggio del flusso di lavoro.
+-   Vedere l'area di lavoro **My approvals**.
+-   Analizzare l'area di lavoro **My approvals** e vedere la pagina **My vendor invoices**.
+-   Analizzare la pagina **My vendor invoices**e visualizzare l'elenco delle fatture assegnate all'utente.
+-   Analizzare una delle fatture e visualizzare i dettagli dell'intestazione della fattura e delle righe.
+-   Nella pagina dei dettagli, vedere un collegamento agli allegati e utilizzare questo collegamento per spostarsi all'elenco degli allegati e visualizzare gli allegati.
+-   Nella pagina dei dettagli, vedere un collegamento alla pagina **View accounting** e utilizzare questo collegamento per spostarsi alla pagina delle distribuzioni e visualizzare le distribuzioni.
+-   Nella pagina dei dettagli, fare clic sul menu **Azioni** nella parte inferiore ed eseguire le azioni del flusso di lavoro applicabili al passaggio del flusso di lavoro.
 
-## <a name="designing-a-complex-invoice-approval-scenario-for-fabrikam"></a>Progettazione allo scenario complessa di approvazione fatture per Fabrikam
+## <a name="designing-a-complex-invoice-approval-scenario-for-fabrikam"></a>Progettazione di uno scenario complesso di approvazione fatture per Fabrikam
 <table>
 <colgroup>
 <col width="50%" />
@@ -372,7 +375,7 @@ Dal dispositivo mobile, aprire il app e connettersi a l Dynamics 365 per l'istan
 </thead>
 <tbody>
 <tr class="odd">
-<td>I campi dall'intestazione della fattura l'utente vorrà visualizzare in passato spostato e il relativo ordine?</td>
+<td>Quali campi dall'intestazione fattura l'utente vorrà visualizzare nell'esperienza mobile e in che ordine?</td>
 <td><ol>
 <li>Nome fornitore</li>
 <li>Importo fattura</li>
@@ -385,7 +388,7 @@ Dal dispositivo mobile, aprire il app e connettersi a l Dynamics 365 per l'istan
 </ol></td>
 </tr>
 <tr class="even">
-<td>I campi dalle righe fattura l'utente vorrà visualizzare in passato spostato e il relativo ordine?</td>
+<td>Quali campi delle righe fattura l'utente vorrà visualizzare nell'esperienza mobile e in che ordine?</td>
 <td><ol>
 <li>Categoria di approvvigionamento</li>
 <li>Quantità</li>
@@ -395,23 +398,23 @@ Dal dispositivo mobile, aprire il app e connettersi a l Dynamics 365 per l'istan
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Quante righe della fattura è presente una fattura? Applicare la regola 80-20 e ottimizzazione di seguito per i 80.</td>
+<td>Quante righe fattura sono presenti in una fattura? Applicare la regola 80-20 qui e ottimizzare per l'80%.</td>
 <td>5</td>
 </tr>
 <tr class="even">
-<td>Gli utenti vorranno visualizzare le distribuzioni contabili (codifica della fattura al dispositivo mobile nelle revisioni?</td>
+<td>Gli utenti vorranno visualizzare le distribuzioni contabili (codifica della fattura) sul dispositivo mobile nelle revisioni?</td>
 <td>Sì</td>
 </tr>
 <tr class="odd">
-<td>Quante distribuzioni contabili (prezzo esteso, l'VAT, spese e così via, vengono sono per una riga della fattura? Anche in questo caso, applicare la regola 80-20.</td>
-<td>Prezzo esteso: VAT: 2 Spese: 2 2</td>
+<td>Quante distribuzioni contabili (prezzo esteso, IVA, spese e così via) esistono per una riga della fattura? Anche in questo caso, applicare la regola 80-20.</td>
+<td>Prezzo esteso: 2 IVA: 2 Spese: 2</td>
 </tr>
 <tr class="even">
-<td>Le fatture vengono inoltre le distribuzioni contabili nell'intestazione della fattura? In tal caso, queste devono distribuzioni contabili essere disponibili nell'unità?</td>
+<td>Le fatture hanno distribuzioni contabili anche nell'intestazione? In tal caso, queste distribuzioni contabili devono essere disponibili sul dispositivo?</td>
 <td>Non utilizzato</td>
 </tr>
 <tr class="odd">
-<td>Gli utenti vorranno visualizzare gli allegati per la fattura all'unità?</td>
+<td>Gli utenti vorranno visualizzare gli allegati della fattura sul dispositivo?</td>
 <td>Sì</td>
 </tr>
 </tbody>
@@ -419,16 +422,18 @@ Dal dispositivo mobile, aprire il app e connettersi a l Dynamics 365 per l'istan
 
 ### <a name="exercise"></a>Esercizio
 
-Nelle variazioni possono essere effettuate per lo scenario 1, in base ai requisiti dello scenario 2. Utilizzare questa sezione viene illustrato come lavoro che è possibile completare dell'apprendimento di reporting.
+Le variazioni seguenti possono essere effettuate per lo scenario 1, in base ai requisiti dello scenario 2. Utilizzare questa sezione come esercizio che è possibile completare  a scopo di apprendimento.
 
-1.  Poiché più righe della fattura verranno programmate nello scenario 2, le seguenti modifiche alla struttura consentano di ottimizzare l'esperienza utente del dispositivo mobile:
-    1.  Anziché dello storico delle righe nella pagina dei dettagli (come lo scenario 1), gli utenti può scegliere di visualizzare le righe in una pagina separata spostato.
-    2.  Poiché più righe della fattura viene programmata in questo scenario, se ** VendMobileInvoiceAllDistributionTree ** la pagina viene utilizzata per pianificare la pagina di distribuzioni per il cellulare (ad esempio lo scenario 1), potrebbe essere confusionario all'utente correli le righe le distribuzioni. Di conseguenza, utilizzare VendMobileInvoiceLineDistributionTree ** ** la pagina per pianificare la pagina di distribuzioni.
-    3.  A livello ideale, distribuzioni devono essere visualizzate nel contesto di una riga della fattura in questo scenario. Di conseguenza, assicurarsi che un utente possa eseguire in una riga per visualizzare la pagina di distribuzioni. Utilizzare la capacità di collegamento di pagina per stabilire tra trapano-, come dimensioni nell'intestazione e sulle pagine nello scenario 1.
+1.  Poiché più righe fattura sono previste nello scenario 2, le seguenti modifiche alla progettazione aiuteranno a ottimizzare l'esperienza utente sul dispositivo mobile:
+    1.  Anziché visualizzare le righe fattura nella pagina dei dettagli (come nello scenario 1), gli utenti possono scegliere di visualizzare le righe in una pagina in versione mobile separata.
+    2.  Poiché più righe fattura sono previste in questo scenario, se la pagina **VendMobileInvoiceAllDistributionTree** viene utilizzata per progettare la pagina delle distribuzioni per l'ambiente mobile (come nello scenario 1), potrebbe confondere l'utente correlare le righe alle distribuzioni. Di conseguenza, utilizzare la pagina **VendMobileInvoiceLineDistributionTree** per progettare la pagina delle distribuzioni.
+    3.  A livello ideale, le distribuzioni devono essere visualizzate nel contesto di una riga della fattura in questo scenario. Di conseguenza, assicurarsi che l'utente possa eseguire il drill-down in una riga per visualizzare la pagina delle distribuzioni. Utilizzare la funzionalità di collegamento pagina per stabilire il drill-through, esattamente come fatto per l'intestazione e le pagine dei dettagli nello scenario 1.
 
-2.  Poiché più Tipo di importo viene programmato nelle distribuzioni allo scenario 2 (sconti, VAT, spese), verrà utile visualizzare la descrizione dell'importo del tipo. Si (omesso queste informazioni nello scenario 1).
+2.  Poiché sono previsti più tipi di importo nelle distribuzioni nello scenario 2 (IVA, spese e così via), sarà utile visualizzare la descrizione del tipo di importo. (Abbiamo omesso queste informazioni nello scenario 1).
 
 ## <a name="conclusion"></a>Conclusione
-Area spostati né le capacità dell'applicazione consentono di progettare gli scenari che vengono spostati ottimizzati per una base di utenti di un'organizzazione. A seconda degli esempi disponibili in questo argomento, è possibile provare altre modifiche e creare le esperienze diversi da soddisfare un fabbisogno specifica.
+Le funzionalità delle piattaforma mobile e dell'applicazione consentono di progettare scenari mobili ottimizzati per una base di utenti di un'organizzazione. In base agli esempi forniti in questo argomento, è possibile provare altre variazioni e creare esperienze diverse che soddisfano esigenze specifiche.
+
+
 
 

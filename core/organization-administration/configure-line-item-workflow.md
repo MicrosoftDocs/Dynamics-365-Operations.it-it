@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-line-item-workflow"></a>Configurare un flusso di lavoro voci
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento viene descritto come configurare un elemento del flusso di lavoro voci.
 
 Per configurare un elemento del flusso di lavoro voci, nell'editor flusso di lavoro fare clic con il pulsante destro del mouse sull'elemento e scegliere **Proprietà** per aprire la pagina **Proprietà**. Quindi, per configurare le proprietà dell'elemento del flusso di lavoro voci, attenersi alle procedure indicate di seguito.
 
-## <a name="name-the-lineitem-workflow-element"></a>Assegnare un nome all'elemento del flusso di lavoro del lineitem
+## <a name="name-the-lineitem-workflow-element"></a>Assegnare un nome all'elemento del flusso di lavoro voci
 Per immettere un nome per l'elemento del flusso di lavoro voci, effettuare le operazioni indicate di seguito.
 
 1.  Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
@@ -50,6 +53,8 @@ Per specificare di utilizzare lo stesso flusso di lavoro per elaborare tutte le 
     6.  Per verificare la correttezza della configurazione del set di condizioni immesse, fare clic su **Test**. Nella pagina **Test condizione flusso di lavoro**, nell'area **Convalida condizione**, selezionare un record e fare clic su **Test**. Il sistema valuta il record per determinare se soddisfa le condizioni definite. Fare clic su **OK** o su **Annulla** per tornare alla pagina **Proprietà**.
 
     Nella scheda **Flusso di lavoro** selezionare il flusso di lavoro da utilizzare per elaborare le voci che soddisfano il set di condizioni definite.
+
+
 
 
 

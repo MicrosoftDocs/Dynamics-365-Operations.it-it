@@ -1,6 +1,6 @@
 ---
 title: Impostare le maschere codice a barre
-description: "In questo argomento viene descritto come impostare i caratteri maschera codice a barre, maschere codice a barre e la modalità di allocazione delle maschere codice a barre ai codici a barre."
+description: In questo argomento viene descritto come impostare i caratteri di maschera codice a barre e come assegnare le maschere codice a barre ai codici a barre.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
@@ -27,57 +27,62 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-bar-code-masks"></a>Impostare le maschere codice a barre
 
-In questo argomento viene descritto come impostare i caratteri maschera codice a barre, maschere codice a barre e la modalità di allocazione delle maschere codice a barre ai codici a barre.
+[!include[banner](includes/banner.md)]
+
+
+In questo argomento viene descritto come impostare i caratteri di maschera codice a barre e come assegnare le maschere codice a barre ai codici a barre.
 
 <a name="set-up-bar-code-mask-characters"></a>Impostare caratteri di maschera codice a barre
 -------------------------------
 
-Le maschere codici a barre sono utilizzate per creare i codici a barre e per identificare rapidamente i codici a barre per quelle personalizzate vengono esaminate nel POS (POS). Le maschere sono incluse caratteri che funziona come segnaposto che indicano il formato dei codici a barre che verranno creati. Per configurare una maschera codice a barre, è necessario impostare i caratteri maschera codice a barre. ** Va al dettaglio e il commercio ** &gt; ** su Gestione articoli ** &gt; ** codici a barre e etichette ** &gt; ** caratteri maschera **. Fare clic su ** nuovo ** per creare i caratteri maschera codice a barre. I caratteri maschera possono essere creati per indicare i seguenti dati di codice a barre.
+Le maschere codice a barre sono utilizzate per creare i codici a barre e identificare rapidamente i codici a barre sottoposti a scansione nel POS. Le maschere sono costituite da caratteri con la funzione di segnaposto che indicano il formato per i codici a barre che verranno creati. Per configurare una maschera codice a barre, è necessario impostare i caratteri di maschera codice a barre. Andare a **Vendita al dettaglio e commercio** &gt; **Gestione inventario** &gt; **Codici a barre ed etichette** &gt; **Caratteri maschera**. Fare clic su **Nuovo** per creare nuovi caratteri di maschera codice a barre. I caratteri di maschera possono essere creati per indicare i seguenti dati di codice a barre.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Field**            | **Description**                                                                                                 |
-| **Product**          | Segnaposto per l'identificazione del prodotto.                                                                                     |
-| **Any number**       | Consente di specificare un numero che verrà codificato definitivo i codici a barre.                                                  |
-| **Check digit**      | Indica che il formato del codice a barre in una maschera codice a barre viene utilizzata una cifra di controllo per verificare la validità di un codice a barre. |
-| **Size digit**       | Indica le dimensioni di un codice a barre creato per una variante prodotto che include la dimensione.                                 |
-| **Color digit**      | Indica il colore di un codice a barre creato per una variante prodotto che include il colore.                               |
-| **Style digit**      | Indica lo stile di immettere un codice a barre creato per una variante prodotto che include uno stile.                             |
-| **EAN license code** | Segnaposto per la licenza EAN emessa per i codici di licenza EAN.                                                       |
-| **Prezzo**            | Indica il prezzo per i codici a barre inclusi prezzo.                                                                   |
-| **Quantity**         | Indica la quantità la quantità/i codici a barre inclusi peso casuale.                                                |
-| **Employee**         | Indica il segmento di codice a barre per il numero di ID dipendente utilizzato per l'accesso a Retail POS di codice a barre.                                  |
-| **Customer**         | Indica il segmento di identificazione cliente.                                                                                  |
-| ** Inserimento di dati **       | *Not eppure implemented.*                                                                                          |
-| **Discount code**    | Indica il codice sconto per un codice a barre utilizzato per aggiungere uno sconto a una transazione del POS             |
-| **Gift card**        | Indica il numero della gift card o un'uscita quando il pagamento deve essere effettuato tramite gift card.                                               |
-| **Loyalty card**     | Aggiunge un cliente programma fedeltà alla transazione e può essere utilizzato quando si paga dal programma fedeltà.                             |
+| **Campo**            | **Descrizione**                                                                                                 |
+| **Prodotto**          | Segnaposto per ID prodotto.                                                                                     |
+| **Qualsiasi numero**       | Utilizzato specificare un numero che verrà hardcoded in codici a barre.                                                  |
+| **Cifra di controllo**      | Indica che il formato del codice a barre in una maschera di codice a barre utilizza una cifra di controllo per confermare la validità di un codice a barre. |
+| **Cifra dimensioni**       | Indica le dimensioni in un codice a barre creato per una variante prodotto che include le dimensioni.                                 |
+| **Cifra colore**      | Indica il colore in un codice a barre creato per una variante prodotto che include il colore.                               |
+| **Cifra stile**      | Indica lo stile in un codice a barre creato per una variante prodotto che include uno stile.                             |
+| **Codice di licenza EAN** | Segnaposto per la licenza EAN emessa per codici di licenza EAN.                                                       |
+| **Prezzo**            | Indica il prezzo per i codici a barre con prezzo incorporato.                                                                   |
+| **Quantità**         | Indica la quantità nei codici a barre con quantità/peso casuale incorporato.                                                |
+| **Dipendente**         | Indica il segmento del codice a barre per il numero ID dipendente utilizzato per l'accesso al POS del codice a barre.                                  |
+| **Cliente**         | Indica il segmento di ID cliente.                                                                                  |
+| **Immissione dati**       | *Non ancora implementato.*                                                                                          |
+| **Codice sconto**    | Indica il codice sconto per un codice a barre utilizzato per aggiungere uno sconto a una transazione del POS             |
+| **Gift card**        | Indica il numero della gift card quando si emette o si effettua il pagamento tramite gift card.                                               |
+| **Carta fedeltà**     | Aggiunge un cliente del programma fedeltà alla transazione e può essere utilizzato quando si paga mediante il programma fedeltà.                             |
 
 ## <a name="define-bar-code-masks"></a>Definire le maschere codice a barre
-Dopo che i caratteri maschera codice a barre vengono specificati per le maschere necessarie ai codici a barre, spostarsi ** al dettaglio e il commercio ** &gt; ** su Gestione articoli ** &gt; ** codici a barre e contrassegna ** &gt; ** maschera codice a barre impostata **. In questa pagina, è possibile definire le maschere codice a barre che utilizzano caratteri specificati in precedenza. Le maschere codice a barre verranno utilizzate per la generazione di codici a barre e anche consentano di identificare i codici a barre scanditi al POS.
+Una volta specificati i caratteri di maschera codice a barre per le maschere codice a barre necessarie, passare a **Vendita al dettaglio e commercio** &gt; **Gestione inventario** &gt; **Codici a barre ed etichette** &gt; **Impostazione maschera codice a barre**. In questa pagina è possibile definire le maschere codice a barre che utilizzano i caratteri specificati in precedenza. Queste maschere codice a barre verranno utilizzate quando vengono generati i codici a barre e consentono inoltre di identificare i codici a barre sottoposti a scansione presso il POS.
 
-1.  Fare clic su ** nuovo ** per creare una nuova maschera codice a barre.
-2.  Immettere i valori ** ID maschera ** e ** descrizione ** i campi e quindi selezionare una maschera codice a barre in ** tipo ** il campo.
-3.  ** Generale ** nell'area, selezionare un valore in ** standard di codici a barre ** Sistemano quindi specificare il prefisso di codice a barre, se è obbligatorio.
-4.  ** Segmento maschera codice a barre ** Nell'area, aggiungere i segmenti di codice a barre utilizzato nel codice a barre da creare.
+1.  Fare clic su **Nuovo** per creare una nuova maschera codice a barre.
+2.  Immettere i valori nei campi **ID maschera** e **Descrizione**, quindi selezionare una maschera codice a barre nel campo **Tipo**.
+3.  Nella sezione **Generale**, selezionare un valore nel campo **Codice a barre standard**, quindi specificare il prefisso del codice a barre, se necessario.
+4.  Nella sezione **Segmento maschera codice a barre**, aggiungere i segmenti del codice a barre che verranno utilizzati nel codice a barre da creare.
 
-Come esempio, creare una maschera codice a barre con l'ID "prodotto" maschera, fareste le seguenti operazioni:
+Ad esempio, per creare una maschera codice a barre con ID maschera "Prodotto", è necessario effettuare le seguenti operazioni:
 
-1.  Creare una nuova maschera codice a barre e selezionare il tipo "" prodotto.
-2.  Selezionare un valore predefinito del codice a barre, ad esempio, "Codice 39".
-3.  Immettere un prefisso da utilizzare per identificare facilmente il codice a barre. Ad esempio, "22 ".
-4.  Aggiungere un segmento maschera. Segmento maschera "prodotto" verrà selezionato.
-5.  Immettere una lunghezza per il segmento del prodotto, ad esempio, "10 ". Lunghezza deve equivalere alla durata di un ID prodotto in genere utilizzata nel punto vendita. La maschera visualizzati come previsione ** dettagli relativi all'identificazione ** nella sezione in ** maschera **.
+1.  Creare una nuova maschera codice a barre e selezionare il tipo "Prodotto".
+2.  Selezionare un codice a barre standard, ad esempio "Code 39".
+3.  Immettere un prefisso da utilizzare per identificare facilmente il codice a barre. Ad esempio "22".
+4.  Aggiungere un segmento maschera. Il segmento maschera "Prodotto" verrà selezionato.
+5.  Immettere una lunghezza per il segmento del prodotto, ad esempio "10". La lunghezza deve corrispondere alla lunghezza di un ID prodotto generalmente utilizzato nel punto vendita. La maschera verrà visualizzata come anteprima nella sezione **Generale** in **Maschera**.
 
-## <a name="assign-bar-code-masks-to-bar-codes"></a>Assegnare le maschere codice a barre ai codici a barre
-Le maschere codici a barre e devono essere assegnate ai codici a barre affinché possano essere utilizzate. In base all'esempio precedente, assegnare la maschera codice a barre a un codice a barre, effettuare le seguenti operazioni:
+## <a name="assign-bar-code-masks-to-bar-codes"></a>Assegnare maschere codice a barre a codici a barre
+Le maschere codice a barre devono essere assegnate ai codici a barre prima di poter essere utilizzate. In base all'esempio precedente, per assegnare la maschera codice a barre a un codice a barre, effettuare le seguenti operazioni:
 
-1.  Va ** Amministrazione organizzazione ** &gt; ** l'impostazione ** &gt; ** codici a barre **. Fare clic su ** nuovo ** per creare un nuovo codice a barre.
-2.  Immettere i valori ** codice a barre ** ** impostazione ** e ** impostazione ** campi.
-3.  In ** dettagli relativi all'identificazione ** aree, in ** tipo di codice a barre ** Sistemano, selezionare il "Codice 39". ** Maschera ** ** l'ID ** sistemi, selezionare la maschera "prodotto" creata in precedenza.
-4.  In ** dimensione **, immettere "12 ".
-5.  Click **Save**.
+1.  Passare ad **Amministrazione organizzazione** &gt; **Impostazioni** &gt; **Codici a barre**. Fare clic su **Nuovo** per creare un nuovo codice a barre.
+2.  Immettere i valori nei campi **Impostazione** **codice a barre** e **Impostazioni**.
+3.  Nella sezione **Generale**, nel campo **Tipo di codice a barre**, selezionare "Code 39". Nel campo **ID** **maschera**, selezionare la maschera "Prodotto" creata in precedenza.
+4.  In **Dimensioni**, immettere "12".
+5.  Fare clic su **Salva**.
 
-La maschera codice a barre possono ora essere utilizzata per creare i codici a barre per i prodotti. I passaggi precedenti sono riportati esempi della creazione delle maschere codice a barre per i prodotti, ma anche viene illustrato come creare le maschere codice a barre per tutti gli altri tipi di codice a barre supportati. Le maschere, i tipi e le lunghezze di codice a barre se devono essere registrati per ottenere utilizzare nell'ambiente specifico.
+La maschera codice a barre può ora essere utilizzata per creare codici a barre per prodotti. I passaggi precedenti sono esempi che illustrano come creare maschere codice a barre per prodotti, ma descrivono anche come creare maschere codice a barre per qualsiasi altro tipo di codice a barre supportato. Le maschere, i tipi e le lunghezze dei codici a barre devono essere modificati in base all'utilizzo nell'ambiente specifico.
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Convertire valute di contabilizzazione o di dichiarazione
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Una società che deve cambiare la valuta di contabilizzazione o la valuta di dichiarazione ha due opzioni. La prima opzione è creare una nuova società e iniziare da zero. La seconda opzione è eseguire il processo di conversione delle valute di contabilizzazione e di dichiarazione. Si tratta di un processo molto lungo che modifica ogni transazione nel sistema. Prima di eseguire il processo, è necessario effettuare alcune impostazioni.
@@ -72,6 +75,8 @@ Dopo la conversione valutaria è necessario generare di nuovo tutti i report di 
 -   Se la conversione della valuta di contabilizzazione per la contabilità generale causa differenze di arrotondamento, tali differenze non vengono registrate utilizzando il giustificativo in cui si è verificata la differenza di arrotondamento, bensì tramite il giustificativo immesso per le registrazioni di conversione. Dopo la conversione queste differenze di arrotondamento verranno incluse in tutti i report che effettuano la verifica per giustificativo e data. Questo comportamento è corretto e può essere ignorato.
 -   Se nella riga del totale dei report di riconciliazione cliente e fornitore è presente un importo per la differenza che non era indicato prima della conversione, tale importo deve essere registrato. Il conto da utilizzare è il conto riepilogativo per clienti e fornitori. Il conto di contropartita è il conto CoGe per la perdita o il profitto da conversione.
 
-Dopo aver eliminato tutti i giornali di registrazione transazioni contabili, è possibile inserire le transazioni contabili nel giornale di registrazione. Fare clic su ** contabilità generale ** &gt; ** periodico ** &gt; ** giornali ** &gt; ** ** registrazione. È possibile rivalutare gli importi in valuta estera dopo la conversione valutaria, se la rivalutazione è obbligatoria. Si rivalutano gli importi in valuta estera selezionando **Standard** nel campo per la rivalutazione **Metodo**.
+Dopo aver eliminato tutti i giornali di registrazione transazioni contabili, è possibile inserire le transazioni contabili nel giornale di registrazione. Fare clic su **Contabilità generale** &gt; **Periodico** &gt; **Giornali di registrazione** &gt; **Inserimento nel giornale di registrazione**. È possibile rivalutare gli importi in valuta estera dopo la conversione valutaria, se la rivalutazione è obbligatoria. Si rivalutano gli importi in valuta estera selezionando **Standard** nel campo per la rivalutazione **Metodo**.
+
+
 
 

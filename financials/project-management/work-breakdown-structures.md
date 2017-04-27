@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="work-breakdown-structures"></a>Strutture di suddivisione del lavoro
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Strutture di suddivisione del lavoro Una struttura di suddivisione del lavoro configura è una descrizione del lavoro che verrà eseguito per un progetto. È una gerarchia di attività che rappresenta la conoscenza da parte del team di progetto della composizione del lavoro e delle dimensione, del costo e della durata di ciascun componente o attività. Una struttura di suddivisione del lavoro presenta tre scopi principali:
@@ -39,17 +42,17 @@ Il grado di dettaglio in una struttura di suddivisione del lavoro dipende dal li
 
 Per contro, i progetti in settori quali media e pubblicità, software e infrastruttura IT tendono a una essere di tipo e la produttività è correlata all'esperienza e alla competenza dell'utente che esegue l'attività. Di conseguenza, questi settori utilizzano una struttura di suddivisione del lavoro per ottenere un'approssimazione della dimensione del progetto, non per tenere traccia dello stato di avanzamento del progetto. 
 
-Generare una struttura di suddivisione del lavoro è un processo intensivo in genere eseguito per lungo periodo e che richiede la collaborazione e le informazioni di un'ampia gamma di persone. In questo argomento viene descritto come utilizzare i miglioramenti di WBS in Microsoft Dynamics 365 per le operazioni soddisfacciate le richieste delle stime e di tracciabilità.
+Generare una struttura di suddivisione del lavoro è un processo intensivo in genere eseguito per lungo periodo e che richiede la collaborazione e le informazioni di un'ampia gamma di persone. In questo argomento viene descritto come utilizzare i miglioramenti nella struttura di suddivisione del lavoro in Microsoft Dynamics 365 for Operations per soddisfare i requisiti relativi a stime e tracciabilità.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Prerequisiti per creare una struttura di suddivisione del lavoro
 Per creare una struttura di suddivisione del lavoro, è necessario poter creare un programma lavori e stimare il costo di lavoro.
 
 ### <a name="prerequisites-for-creating-a-work-schedule"></a>Prerequisiti per creare un programma lavori
 
-Per utilizzare le funzionalità complete di programmazione delle funzionalità di WBS, attenersi alle seguenti impostazioni:
+Per utilizzare le funzionalità complete di programmazione delle funzionalità della struttura di suddivisione del lavoro, completare le seguenti impostazioni:
 
 1.  Impostare un calendario predefinito e un calendario di progetto:
-    1.  ** Fare clic su Gestione progetti e contabilità ** &gt; ** impostazione ** &gt; ** ** programmazione. Nel campo **Calendario di lavoro predefinito**, specificare un calendario predefinito. Questo sarà il calendario di lavoro predefinito per qualsiasi nuovo progetto creato.
+    1.  Fare clic su **Gestione progetti e contabilità** &gt; **Impostazione** &gt; **Programmazione**. Nel campo **Calendario di lavoro predefinito**, specificare un calendario predefinito. Questo sarà il calendario di lavoro predefinito per qualsiasi nuovo progetto creato.
     2.  È possibile modificare il calendario predefinito per un progetto specifico. Fare clic sulla pagina dei dettagli del progetto, quindi nella Scheda dettaglio **Team progetto e programmazione** aggiornare il campo **Calendario di programmazione** selezionando un altro calendario.
 
 2.  Impostare i giorni lavorativi e le ore lavorative standard. Il calendario impostato come calendario lavorativo per il progetto verrà utilizzato nella struttura di suddivisione del lavoro per determinare le seguenti informazioni:
@@ -57,13 +60,13 @@ Per utilizzare le funzionalità complete di programmazione delle funzionalità d
 -   Giorni lavorativi e ferie
 -   Numero di ore lavorative in un giorno
 
-Per impostare i giorni lavorativi e le ore lavorative per il calendario, o creare un nuovo calendario, fare clic su Amministrazione organizzazione ** ** &gt; ** il Ordinarie ** &gt; ** calendari **.
+Per impostare i giorni e le ore lavorativi per un calendario o per creare un nuovo calendario, fare clic su **Amministrazione organizzazione** &gt; **Comune** &gt; **Calendari**.
 
 ### <a name="prerequisites-for-estimating-the-cost-of-work"></a>Prerequisiti per stimare il costo del lavoro
 
 Per utilizzare le funzionalità complete di stima dei costi della struttura di suddivisione del lavoro, è necessario impostare costi e prezzi di vendita per i lavoratori, categorie di lavoro, spese e commissioni e articoli.
 
--   Per impostare i prezzi di vendita di manodopera, le spese e le categorie di commissioni, fare clic su ** gestione progetti e contabilità ** &gt; ** l'impostazione ** &gt; ** ** prezzi.
+-   Per impostare il costo e il prezzo di vendita di manodopera, spese e categorie di commissioni, fare clic su **Gestione progetti e contabilità** &gt; **Impostazione** &gt; **Prezzi**.
 -   Per impostare il costo e il prezzo di vendita degli articoli, utilizzare la pagina **Accordi commerciali** per ogni articolo nella pagina elenco **Prodotti rilasciati** nella gestione delle informazioni sul prodotto.
 
 ## <a name="creating-a-wbs"></a>Creazione di una struttura di suddivisione del lavoro
@@ -73,11 +76,11 @@ Creare una struttura di suddivisione del lavoro include tre attività:
 2.  **Programma lavori** Consente di stimare il tempo necessario per completare un'attività, impostare le interdipendenze tra le attività e selezionare le date di inizio e di fine delle attività.
 3.  **Stima costi** Consente di stimare i costi per ogni attività.
 
-Nelle seguenti sezioni viene descritto come capacità di WBS possono ottenere ulteriori informazioni su ciascuna di queste attività.
+Nelle seguenti sezioni viene illustrato come le funzionalità della struttura di suddivisione del lavoro possono essere di supporto per ciascuna di queste attività.
 
 ### <a name="work-decomposition"></a>Scomposizione del lavoro
 
-Creare una scomposizione o suddivisione del lavoro è in genere il primo passaggio nel processo di creazione di una struttura di suddivisione del lavoro. La funzionalità di WBS supporta le seguenti costruzioni di base per la scomposizione la o decomposizione di lavoro. 
+Creare una scomposizione o suddivisione del lavoro è in genere il primo passaggio nel processo di creazione di una struttura di suddivisione del lavoro. La funzionalità di struttura di suddivisione del lavoro supporta i seguenti costrutti di base per la suddivisione o scomposizione del lavoro. 
 
 **Attività principale di progetto** L'attività principale del progetto è l'attività di riepilogo di livello superiore per un progetto. Tutte le altre attività del progetto vengono create sotto questa attività. All'attività principale viene sempre assegnato il nome del progetto. Le risorse di lavoro, le date e la durata del nodo principale riepilogano i valori per le attività sottostanti all'attività principale. Non è possibile modificare le proprietà del nodo principale né eliminarlo.
 
@@ -94,7 +97,7 @@ Attualmente, non è possibile personalizzare la numerazione delle strutture di s
 **Rientro attività** Quando applica un rientro un'attività, questa diventa figlio dell'attività che la precede. Il numero della struttura di suddivisione del lavoro di una nuova attività figlio verrà ricalcolato automaticamente in base al numero della struttura di suddivisione del lavoro della nuova attività padre. L'attività padre ora è un'attività contenitore o di riepilogo e quindi diventa un rollup delle attività costitutive. 
 
 > [!NOTE] 
-> Quando rientrate le attività in un'attività che è un nodo di foglia prima che inizi l'operazione del rientro, l'attività di riepilogo appena creato perda le propri date, lavoro e numero di risorse. Ora utilizza un riepilogo dei valori delle nuove attività costitutive. 
+> Quando si applica il rientro alle attività sotto un'attività che prima dell'operazione di rientro costituiva un nodo foglia, l'attività di riepilogo appena creata perde le date, le risorse di lavoro e il numero di risorse a essa associate. Ora utilizza un riepilogo dei valori delle nuove attività costitutive. 
 
 **Attività di rientro negativo** Quando si applica un rientro negativo a un'attività, questa non è più un'attività costitutiva dell'attività padre. Il numero della struttura di suddivisione del lavoro dell'attività verrà ricalcolato automaticamente in modo da riflettere il nuovo livello dell'attività nella gerarchia. Le risorse di lavoro, il costo e le date di attività della precedente attività padre dell'attività vengono ricalcolati per escludere tale attività. 
 
@@ -102,10 +105,10 @@ Attualmente, non è possibile personalizzare la numerazione delle strutture di s
 
 ### <a name="schedule-estimation"></a>Stima di programmazione
 
-La stima di programmazione è generalmente il secondo passaggio per la creazione di una struttura di suddivisione del lavoro. Come procedura consigliata, è necessario completare la stima della programmazione dopo aver creato le attività. ** Struttura di suddivisione del lavoro ** pagina in Microsoft Dynamics 365 per l'operazione ha due sezioni. Il riquadro superiore è destinato alla stima della programmazione e il riquadro inferiore include una scheda **Costi e ricavi stimati** da utilizzare per la stima dei costi. 
+La stima di programmazione è generalmente il secondo passaggio per la creazione di una struttura di suddivisione del lavoro. Come procedura consigliata, è necessario completare la stima della programmazione dopo aver creato le attività. La pagina **Struttura di suddivisione del lavoro** in Microsoft Dynamics 365 for Operations presenta due sezioni. Il riquadro superiore è destinato alla stima della programmazione e il riquadro inferiore include una scheda **Costi e ricavi stimati** da utilizzare per la stima dei costi. 
 **Dipendenze attività** In una struttura di suddivisione del lavoro, è possibile creare una relazione delle attività precedenti tra le attività. Quando si assegnano le attività precedenti a un'attività, tale attività può iniziare solo dopo che tutte le relative attività precedenti sono completate. La data di inizio pianificata dell'attività viene automaticamente impostata sulla data più recente di tutte le relative attività precedenti. 
 
-** Attività della programmazione in Microsoft Dynamics 365 per le operazioni ** i fattori seguenti determinano la programmazione delle attività del nodo di foglia:
+**Programmazione attività in Microsoft Dynamics 365 for Operations** I fattori seguenti determinano la programmazione delle attività del nodo foglia:
 
 -   Attività precedenti
 -   Risorsa
@@ -114,27 +117,27 @@ La stima di programmazione è generalmente il secondo passaggio per la creazione
 
 La data di inizio di un'attività del nodo foglia senza attività precedenti viene automaticamente impostata sulla data di inizio della programmazione del progetto. La durata di un'attività del nodo foglia viene sempre calcolata come il numero di giorni lavorativi tra le relative date di inizio e di fine. 
 
-Programmazione dei **** regolano il **** l'assistenza automatica di programmazione abilitata, le regole seguenti viene applicata all'attività di programmazione per le attività del nodo di foglia:
+****Regole di programmazione**** Se è attivata l'assistenza per la programmazione automatica, le seguenti regole vengono applicate alla programmazione delle attività del nodo foglia:
 
 -   La data di inizio e di fine di un'attività devono essere giorni lavorativi, in base al calendario di programmazione del progetto.
 -   La data di inizio di un'attività con attività precedenti viene automaticamente impostata sulla data di fine più recente delle relative attività precedenti.
 -   Le risorse di lavoro di un'attività vengono automaticamente calcolate nel modo seguente:
 
-Numero × di durata × del numero di persone di ore in un giorno lavorativo standard nel calendario del progetto. 
+Numero di persone × Durata × Numero di ore in un giorno lavorativo standard nel calendario di progetto. 
 
-In alcuni casi, potrebbe essere utile deviare da tali regole. È possibile disattivare la programmazione automatica per impedire Microsoft Dynamics 365 per le operazioni automaticamente le impostazioni o la rettifica delle proprietà delle attività del nodo di foglia. Quando si immettono informazioni per un'attività che genera una violazione di tutte le regole di programmazione, viene visualizzata un'icona di errore di programmazione per l'attività. Se non si desidera che gli errori di programmazione vengano visualizzati, fare clic su **Gli errori di programmazione sono visualizzati** per disattivare la funzionalità. 
+In alcuni casi, potrebbe essere utile deviare da tali regole. È possibile disattivare la programmazione automatica per evitare che Microsoft Dynamics 365 for Operations imposti o corregga automaticamente tutte le proprietà delle attività del nodo foglia. Quando si immettono informazioni per un'attività che genera una violazione di tutte le regole di programmazione, viene visualizzata un'icona di errore di programmazione per l'attività. Se non si desidera che gli errori di programmazione vengano visualizzati, fare clic su **Gli errori di programmazione sono visualizzati** per disattivare la funzionalità. 
 
 > [!NOTE] 
-> I valori per un'attività del contenitore Riepilogo o continuano a essere calcolati come somma dei valori delle attività costituenti, indipendentemente da l assistenza automatica di programmazione è girata inserita/disinserita. 
+> I valori per un'attività contenitore o di riepilogo continuano a essere calcolati come somma dei valori delle attività costitutive, indipendentemente dal fatto che l'assistenza per la programmazione automatica sia disattivata o attivata. 
 
 **Correzione degli errori di programmazione** Quando l'assistenza per la programmazione automatica è attivata, è meno probabile che si verifichino gli errori di programmazione. Tuttavia, se si disattiva l'assistenza per la programmazione automatica quindi attiva di nuovo, è possibile che le icone di errore di programmazione vengano visualizzate lo struttura di suddivisione del lavoro. 
 
 **Correzione degli errori di programmazione per attività** Quando di fa doppio clic sull'icona di errore di programmazione per un'attività specifica, in una finestra di dialogo vengono visualizzati tutti gli errori di programmazione per tale attività. È possibile decidere quali errori di programmazione correggersi per l'attività. 
 
-** Riparando tutti gli errori di programmazione ** se si desidera che Microsoft Dynamics 365 per le operazioni ripariate tutti gli errori di programmazione nel WBS, nel riquadro azioni, fare clic su ** correggere le eventuali discrepanze di programmazione **. 
+**Correzione di tutti gli errori di programmazione** Se si desidera che Microsoft Dynamics 365 for Operations corregga tutti gli errori di programmazione nella struttura di suddivisione del lavoro, nel riquadro azioni fare clic su **Correggi tutte le discrepanze programmazione**. 
 
 > [!NOTE] 
-> Questa funzionalità può causare le modifiche significative al WBS. Gli errori vengono corretti nel seguente ordine:
+> Questa funzionalità può causare modifiche significative alla struttura di suddivisione del lavoro. Gli errori vengono corretti nel seguente ordine:
 
 1.  Lo sforzo stimato in tutte le attività viene modificato in modo che sia uguale alla capacità definita nel calendario di progetto.
 2.  La data di inizio di ciascuna attività viene modificata in modo che l'attività cominci dopo che tutte le relative attività precedenti sono completate.
@@ -145,7 +148,7 @@ In alcuni casi, potrebbe essere utile deviare da tali regole. È possibile disat
 Come indicato in precedenza nel documento, si immette la stima dei costi per ciascuna attività del nodo foglia utilizzando la scheda **Costi e ricavi stimati** nel riquadro inferiore della pagina **Struttura di suddivisione del lavoro**. 
 
 > [!NOTE] 
-> Non è possibile modificare la stima dei costi per un'attività del contenitore o riepilogativo. La stima dei costi per un'attività di riepilogo corrisponde alla somma della stima dei costi delle relative attività del nodo foglia. Il costo totale stimato per ogni attività viene calcolato come la somma degli importi dei costi stimati per i seguenti tipi di transazione:
+> Non è possibile modificare la stima dei costi per un'attività contenitore o di riepilogo. La stima dei costi per un'attività di riepilogo corrisponde alla somma della stima dei costi delle relative attività del nodo foglia. Il costo totale stimato per ogni attività viene calcolato come la somma degli importi dei costi stimati per i seguenti tipi di transazione:
 
 -   Manodopera
 -   Articolo o materiale
@@ -161,12 +164,12 @@ Quando si stimano i costi di manodopera, materiali e spese per ogni attività, �
 
 **Stimare i costi di materiale e spese** La scheda **Costi e ricavi stimati** consente anche di stimare i costi di materiale e spese per un'attività, se sono necessarie stime. 
 
-Il prezzo di costo e di vendita per ogni riga di stima dei costi o di manodopera sono basati sull'impostazione definita per ogni categoria nelle tabelle di valutazione ** Gestione progetti e contabilità ** &gt; ** all'impostazione ** &gt; ** valutazione **. Per gli articoli, i prezzi di vendita e di costo vengono aggiunti per impostazione predefinita dagli accordi sugli articoli o commerciali nella pagina elenco **Prodotti rilasciati** nella gestione delle informazioni sul prodotto.
+Il costo e il prezzo di vendita per ogni riga di stima di spesa o manodopera sono basati sull'impostazione definita per ogni categoria nelle tabelle di determinazione dei prezzi in **Gestione progetti e contabilità** &gt; **Impostazione** &gt; **Determinazione prezzi**. Per gli articoli, i prezzi di vendita e di costo vengono aggiunti per impostazione predefinita dagli accordi sugli articoli o commerciali nella pagina elenco **Prodotti rilasciati** nella gestione delle informazioni sul prodotto.
 
 ## <a name="tracking-progress-on-the-wbs"></a>Lo stato di avanzamento nella struttura di suddivisione del lavoro
 Alcuni settori tengono traccia dello stato di avanzamento di un progetto a un livello molto granulare nella struttura di suddivisione del lavoro, mentre altri tengono traccia dello stato di avanzamento a un livello più alto della struttura di suddivisione del lavoro. In questa sezione viene descritto come utilizzare la tracciabilità dello stato di avanzamento nella struttura di suddivisione del lavoro in base ai requisiti del progetto. 
 
-Microsoft Dynamics 365 per le operazioni nelle seguenti visualizzazioni per il WBS di un progetto: la visualizzazione di pianificazione, visualizzazione di tracciabilità di lavoro e visualizzazione di tracciabilità dei costi.
+Microsoft Dynamics 365 for Operations offre tre visualizzazioni per la struttura di suddivisione del lavoro in un progetto: la visualizzazione pianificazione, la visualizzazione Tracciabilità risorse e la visualizzazione Tracciabilità costi.
 
 ### <a name="planning-view"></a>Visualizzazione pianificazione
 
@@ -177,7 +180,7 @@ La visualizzazione pianificazione consente di visualizzare la stima pianificata 
 La visualizzazione Tracciabilità risorse consente di visualizzare lo stato di avanzamento delle attività nella struttura di suddivisione del lavoro. Confronta le ore effettive accumulate delle risorse di lavoro per un'attività con le ore pianificate delle risorse. Le seguenti formule forniscono i valori nella visualizzazione Tracciabilità risorse:
 
 -   Percentuale di avanzamento = Risorse di lavoro effettive a data corrente ÷ Risorse di lavoro pianificate per l'attività
--   Risorsa rimanente (conosciuto anche come Stima \[a\]completo e così via) = lavoro previsto - risorsa fine effettiva
+-   Risorse rimanenti (anche noto come Stima di completamento \[ETC\]) = Risorsa pianificata - Risorse di lavoro effettive a data corrente
 -   Stima al completamento = Risorse rimanenti + Risorse di lavoro effettive a data corrente
 -   Scostamento risorse previsto = Risorsa pianificata - Stima al completamento
 
@@ -188,7 +191,7 @@ La visualizzazione Tracciabilità risorse consente di visualizzare una proiezion
 
 **Riproiezione delle risorse di lavoro da parte del manager di progetto** Occasionalmente, il manager di progetto o un altro utente che tiene traccia dello stato di avanzamento di un progetto dovrà rivedere le stime originali per un'attività. L'attività può procedere più velocemente o più lentamente di quanto originariamente programmato per diversi motivi. Ad esempio, l'ambito è stato ridotto o i lavoratori hanno meno esperienza di quanto originariamente pianificato. Le proiezioni sono una percezione delle stime da parte di un manager di progetto, in base allo stato corrente in un progetto. In generale, non è necessario modificare i numeri di base, poiché una base di progetto rappresenta un documento pubblicato per la programmazione e la stima dei costi del progetto per cui tutte le parti interessate al progetto si sono accordate. 
 
-Sono disponibili due modi in cui i manager di progetto possono modificare la risorsa sulle attività:
+Sono disponibili due modi in cui i responsabili di progetto possono modificare le risorse nelle attività:
 
 -   Modificare le risorse rimanenti che sono automaticamente impostate per aggiornare le risorse effettive rimanenti per l'attività.
 -   Modificare la percentuale di avanzamento che è automaticamente impostata per l'avanzamento effettivo per l'attività.
@@ -222,7 +225,7 @@ La visualizzazione Tracciabilità costi consente di visualizzare una proiezione 
 **Riproiezione del costo da parte del manager di progetto** I manager di progetto devono utilizzare il Costo di completamento per rivedere la stima dei costi originale su un'attività. Il manager di progetto può modificare il valore di Costo di completamento nel costo richiesto per completare l'attività. Se si modifica il valore di Costo di completamento, Costo di completamento, Costo al completamento e Percentuale di costo consumata dell'attività e lo Scostamento costo previsto su un'attività vengono ricalcolati. Costo di completamento, Costo di completamento, Costo al completamento e Percentuale di costo consumata nell'attività di riepilogo vengono anche ricalcolati e il relativo scostamento costo previsto viene aggiornato. 
 
 > [!NOTE] 
-> Quando rivedete semplice per un'attività di WBS nella visualizzazione di tracciabilità di sforzo, il ctc dell'attività, EAC, la percentuale del costo consumato e lo scostamento costo previsto tutte vengono ricalcolati nella visualizzazione di tracciabilità dei costi. Tuttavia, le revisioni costi non influiscono sui valori nella visualizzazione Tracciabilità risorse, poiché il costo per tipo di transazione (manodopera, materiali, o spese) o dalla categoria di progetto non viene rivisto. 
+> Quando si rivedono le risorse per un'attività della struttura di suddivisione del lavoro nella visualizzazione Tracciabilità risorse, il costo di completamento, il costo al completamento, la percentuale di costo consumata e lo scostamento costo previsto dell'attività vengono ricalcolati nella visualizzazione Tracciabilità costi. Tuttavia, le revisioni costi non influiscono sui valori nella visualizzazione Tracciabilità risorse, poiché il costo per tipo di transazione (manodopera, materiali, o spese) o dalla categoria di progetto non viene rivisto. 
 
 **Revisione della proiezione per i costi nelle attività di riepilogo** È possibile rivedere i costi nelle attività di riepilogo e i calcoli si verificano automaticamente nel seguente ordine:
 
@@ -236,24 +239,24 @@ Fare clic su **Espandi al livello** nella Visualizzazione tracciabilità costi p
 
 ### <a name="earned-value-management"></a>Gestione valori ottenuti
 
-È possibile utilizzare il metodo (EVM) di costo realizzato per tenere traccia dello stato di avanzamento di un progetto. È possibile visualizzare metriche dei valori ottenuti nel Centro gestione ruolo del manager progetto. Il componente del grafico dei valori ottenuti mostra i valori su scala cronologica del valore pianificato e del costo effettivo. Il valore ottenuto a partire dalla data corrente viene visualizzato come punto. I dati su scala cronologica per il valore ottenuto non sono attualmente disponibili. 
+È possibile utilizzare il metodo EVM (earned value method, metodo dei valori ottenuti) per tenere traccia dello stato di avanzamento di un progetto. È possibile visualizzare metriche dei valori ottenuti nel Centro gestione ruolo del manager progetto. Il componente del grafico dei valori ottenuti mostra i valori su scala cronologica del valore pianificato e del costo effettivo. Il valore ottenuto a partire dalla data corrente viene visualizzato come punto. I dati su scala cronologica per il valore ottenuto non sono attualmente disponibili. 
 
 La scala cronologica nel grafico del valore ottenuto viene visualizzata per settimana o mese. In questa sezione vengono descritte i tre pilastri colonne del metodo EVM: valore pianificato, valore ottenuto e costo effettivo. 
 
 **Valore pianificato** In base alla teoria EVM il tracciato del valore pianificato rappresenta la velocità a cui il team del progetto ha pianificato di ottenere il valore del progetto. 
 
-Microsoft Dynamics 365 per le operazioni utilizza il 0:100 che vengono la regola quando traccia il valore previsto. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
+Microsoft Dynamics 365 for Operations utilizza la regola relativa al reddito 0:100 per tracciare il valore pianificato. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
 
 In Gestione progetti e contabilità, è possibile immettere la data di fine dei nodi foglia e il relativo costo pianificato. Quando il grafico del valore pianificato viene visualizzato per settimana, il valore pianificato è riepilogato per settimana per tutte le attività del nodo foglia per la durata del progetto. 
 
 **Valore ottenuto** In base alla teoria EVM il tracciato del valore ottenuto rappresenta la velocità a cui il team del progetto ottiene effettivamente il valore del progetto. 
 
-Microsoft Dynamics 365 per le operazioni utilizza il 0:100 che vengono la regola quando il relativo costo realizzato di mapping. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
+Microsoft Dynamics 365 for Operations utilizza la regola relativa al reddito 0:100 per tracciare il valore ottenuto. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
 
 Quando il valore ottenuto viene calcolato, la percentuale dello stato di avanzamento di ogni attività viene considerata. Nella regola 0:100, solo le attività completate in un periodo specificato vengono considerate per il calcolo del valore ottenuto a partire dalla fine del periodo. Il valore ottenuto del progetto viene calcolato per tutte le attività che sono state completate quando il diagramma viene creato. 
 
 > [!NOTE] 
-> Attualmente, il sistema per la registrazione di l WBS non ha strutture dati per archiviare le percentuali dello storico di avanzamento in ogni attività. Pertanto, il valore ottenuto può essere dichiarato solo a partire dal momento in cui il cubo viene elaborato. Elaborare regolarmente il cubo per aggiornare i dati del valore ottenuto visualizzati nel Centro gestione ruolo. 
+> Attualmente il sistema per la tracciabilità nella struttura di suddivisione del lavoro non dispone di strutture di dati per archiviare le percentuali di avanzamento storiche in ogni attività. Pertanto, il valore ottenuto può essere dichiarato solo a partire dal momento in cui il cubo viene elaborato. Elaborare regolarmente il cubo per aggiornare i dati del valore ottenuto visualizzati nel Centro gestione ruolo. 
 
 **Costo effettivo** In base alla teoria EVM il tracciato del costo effettivo rappresenta la velocità a cui il denaro viene speso nel progetto. 
 
@@ -274,7 +277,7 @@ Se il costo effettivo che viene speso per un periodo è maggiore del valore otte
 Se il costo effettivo che viene speso per un periodo è minore del valore ottenuto, è stato guadagnato più denaro di quello speso. Di conseguenza, il progetto è sotto il budget.
 
 ## <a name="wbs-templates"></a>Modelli WBS
-È possibile utilizzare la funzionalità relativa ai modelli di WBS per creare modelli standard per i progetti. Se i progetti che la società offre comportano molto lavoro ripetibile, è necessario considerare la possibilità di creare un modello di struttura di suddivisione del lavoro. 
+È possibile utilizzare la funzionalità relativa ai modelli WBS per creare modelli standard per i progetti. Se i progetti che la società offre comportano molto lavoro ripetibile, è necessario considerare la possibilità di creare un modello di struttura di suddivisione del lavoro. 
 
 È possibile creare un modello di struttura di suddivisione del lavoro dalla struttura di suddivisione del lavoro di un progetto esistente, in modo che la conoscenza e le procedure consigliate riunite durante la pianificazione di tale progetto possano essere riutilizzate in progetti simili in futuro. Tuttavia, talvolta, può non avere senso salvare l'intera struttura di suddivisione del lavoro come modello. Di conseguenza, è anche possibile creare i modelli da parti della struttura di suddivisione del lavoro di un progetto.
 
@@ -313,5 +316,7 @@ Lavoro richiesto = Numero di risorse × Durata × Numero di ore in un giorno lav
 È possibile correggere tutti gli errori di programmazione contemporaneamente facendo clic su **Correggi tutti gli errori di programmazione**. 
 
 In alternativa, è possibile correggere gli errori di programmazione singolarmente facendo clic sull'icona di avviso per ogni attività.
+
+
 
 

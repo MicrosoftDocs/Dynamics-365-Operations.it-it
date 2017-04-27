@@ -1,6 +1,6 @@
 ---
 title: Aggiornamento di massa dei cespiti
-description: "Se si utilizzano i registri, è possibile modificare le convenzioni di ammortamento per i gruppi di cespiti appartenenti allo stesso registro."
+description: "Se si utilizzano libri, è possibile modificare le convenzioni di ammortamento per i gruppi di cespiti appartenenti allo stesso libro."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-mass-update"></a>Aggiornamento di massa dei cespiti
 
-Se si utilizzano i registri, è possibile modificare le convenzioni di ammortamento per i gruppi di cespiti appartenenti allo stesso registro.
+[!include[banner](../includes/banner.md)]
+
+
+Se si utilizzano libri, è possibile modificare le convenzioni di ammortamento per i gruppi di cespiti appartenenti allo stesso libro.
 
 Se la società ha sede, ad esempio, negli Stati Uniti ed è stato messo in servizio oltre il 40 percento dei cespiti nel quarto trimestre dell'anno, sarà necessario utilizzare la convenzione di ammortamento a metà trimestre. Per modificare tutti i cespiti che richiedono la nuova convenzione di ammortamento, sarà possibile utilizzare il processo di aggiornamento di massa. 
 
@@ -36,6 +39,8 @@ Quando si aggiorna la convenzione di ammortamento per i cespiti, si eliminano tu
 Per aggiornare la convenzione di ammortamento per i cespiti già dismessi, è necessario eliminare prima le transazioni di dismissione esistenti. È inoltre necessario eliminare tutte le transazioni generate a causa del processo di dismissione. 
 
 Dopo aver aggiornato la convenzione di ammortamento per i cespiti, è possibile elaborare l'ammortamento e l'ammortamento straordinario per ciascun cespite. È inoltre possibile apportare rettifiche manuali di ammortamento, se necessarie.
+
+
 
 
 

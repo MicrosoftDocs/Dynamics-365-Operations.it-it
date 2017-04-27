@@ -1,6 +1,6 @@
 ---
-title: Calcolare per il FAQ dei modelli di configurazione prodotto
-description: In questo articolo viene descritto i calcoli per i modelli di configurazione prodotto e viene illustrato come utilizzare i calcoli con i vincoli.
+title: Domande frequenti sui calcoli per i modelli di configurazione prodotto
+description: In questo articolo vengono descritti i calcoli per i modelli di configurazione prodotto e viene spiegato come utilizzare i calcoli insieme ai vincoli.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculations-for-product-configuration-models-faq"></a>Calcolare per il FAQ dei modelli di configurazione prodotto
+# <a name="calculations-for-product-configuration-models-faq"></a>Domande frequenti sui calcoli per i modelli di configurazione prodotto
 
-In questo articolo viene descritto i calcoli per i modelli di configurazione prodotto e viene illustrato come utilizzare i calcoli con i vincoli.
+[!include[banner](../includes/banner.md)]
+
+
+In questo articolo vengono descritti i calcoli per i modelli di configurazione prodotto e viene spiegato come utilizzare i calcoli insieme ai vincoli.
 
 I calcoli possono essere utilizzati per le operazioni aritmetiche o logiche e sono complementari ai vincoli di espressione nei modelli di configurazione prodotto. È possibile definire i calcoli nella pagina **Dettagli modello di configurazione prodotto basato su vincoli**, quindi sviluppare espressioni per i calcoli nell'editor espressioni. Per ulteriori informazioni sul calcolo, vedere Creazione di calcoli.
 
@@ -45,9 +48,9 @@ Un attributo di destinazione è un attributo che riceve il risultato dell'espres
 
 Nella seguente espressione, l'attributo di destinazione è la misurazione di una tovaglia:  
 
-** Espressione: ** Se decimalAttribute1 &lt;=\[,\]decimalAttribute2 true e False  
+**Expressione:** If\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]  
 
-** DecimalAttribute1 ** corrisponde alla lunghezza della tabella e ** decimalAttribute2 ** corrisponde alla lunghezza di tovaglia. Tale espressione restituisce un valore **True** all'attributo di destinazione se **decimalAttribute2** è maggiore o uguale a **decimalAttribute1**. In caso contrario, l'espressione restituisce il valore **False**. Di conseguenza la misura della tovaglia è accettabile se la sua lunghezza è uguale o superiore alla lunghezza del tavolo.
+**DecimalAttribute1** è la lunghezza del tavolo e **decimalAttribute2** è la lunghezza della tovaglia. Tale espressione restituisce un valore **True** all'attributo di destinazione se **decimalAttribute2** è maggiore o uguale a **decimalAttribute1**. In caso contrario, l'espressione restituisce il valore **False**. Di conseguenza la misura della tovaglia è accettabile se la sua lunghezza è uguale o superiore alla lunghezza del tavolo.
 
 ## <a name="what-attribute-types-can-be-set-to-target-attributes"></a>Quali tipi di attributo possono essere impostati per gli attributi di destinazione?
 Tutti i tipi di attributo che sono supportati per la configurazione prodotto possono essere impostati sugli attributi di destinazione ad eccezione del testo senza un elenco predefinito.
@@ -57,11 +60,11 @@ No, il valore di un attributo di destinazione non può limitare i valori per gli
 
 ### <a name="example"></a>Esempio
 
-Nella seguente condizione, la destinazione per il calcolo è la durata di un cliente potenziale di alimentazione e il valore di input da un colore:  
+Nella seguente espressione, la destinazione per il calcolo è la lunghezza di un cavo di alimentazione e il valore di input è un colore:  
 
-** Espressione: ** \[se == "" verde del colore, 1.5, 1.0\]  
+**Espressione**: \[If Color == "Verde", 1,5, 1,0]\]  
 
-Quando si configura l'articolo, la lunghezza di cliente potenziale di alimentazione è impostata su 1.5 ** ** si specifica ** verde ** come valore dell'attributo del colore. Se si specifica un qualsiasi altro colore, la lunghezza diventa **1,0**. Tuttavia, poiché i calcoli sono unidirezionali, il calcolo non fissa il valore dell'attributo colore su **Verde** se si specifica prima la lunghezza di **1,5**.
+Quando si configura l'articolo, la lunghezza del cavo di alimentazione viene impostata su **1,5** se si specifica **Verde** come valore dell'attributo colore. Se si specifica un qualsiasi altro colore, la lunghezza diventa **1,0**. Tuttavia, poiché i calcoli sono unidirezionali, il calcolo non fissa il valore dell'attributo colore su **Verde** se si specifica prima la lunghezza di **1,5**.
 
 ## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a>Cosa succede se un calcolo dispone di un attributo di destinazione di tipo intero ma un calcolo genera come risultato un numero decimale?
 Se un attributo di destinazione è di tipo intero, ma un calcolo genera un numero decimale, solo la parte intera del risultato del calcolo viene restituita. La parte decimale viene rimossa e il risultato non viene arrotondato. Ad esempio, il risultato di 12,70 verrà visualizzato come 12.
@@ -72,16 +75,16 @@ I calcoli si verificano quando si immette un valore per tutti gli attributi di i
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>È possibile sovrascrivere il valore calcolato per l'attributo di destinazione?
 È possibile sovrascrivere il valore calcolato per l'attributo di destinazione, a meno che l'attributo di destinazione non sia impostato come nascosto o di sola lettura.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Come si impostano un attributo di destinazione come nascosto o passivi?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Come si imposta un attributo di destinazione come nascosto o di sola lettura?
 Per impostare un attributo come nascosto o di sola lettura, effettuare le operazioni seguenti:
 
-1.  ** Fare clic su Gestione delle informazioni sul prodotto ** &gt; ** Ordinarie ** &gt; ** modelli di configurazione prodotto **.
+1.  Fare clic su **Gestione informazioni sul prodotto** &gt; **Comune** &gt; **Modelli di configurazione prodotto**.
 2.  Selezionare un modello di configurazione prodotto e quindi nel Riquadro azioni fare clic su **Modifica**.
 3.  Nella pagina **Dettagli modello di configurazione prodotto basato su vincoli**, selezionare l'attributo da utilizzare come attributo di destinazione.
 4.  Nella scheda dettaglio **Attributi** selezionare **Nascosto** o **Sola lettura**.
 
 ## <a name="can-a-calculation-overwrite-the-values-that-i-set"></a>Può un calcolo sovrascrivere i valori impostati dall'utente?
-N. I valori impostati durante la configurazione di un prodotto sono valori utilizzati. Il calcolo che si verifica quando i valori di input nel calcolo vengono modificati non può sovrascrivere i valori che sono stati immessi per un attributo specifico.
+N. I valori impostati quando si configura un prodotto sono i valori che vengono utilizzati. Il calcolo che si verifica quando i valori di input nel calcolo vengono modificati non può sovrascrivere i valori che sono stati immessi per un attributo specifico.
 
 ## <a name="what-happens-if-i-remove-an-input-value-in-a-calculation"></a>Cosa succede se si rimuove un valore di input nel calcolo?
 Se si rimuove un valore di input nel calcolo, anche il valore dell'attributo di destinazione verrà rimosso.
@@ -93,13 +96,15 @@ Questo messaggio viene visualizzato quando un calcolo include un errore o quando
 -   È presente un conflitto tra i due seguenti elementi:
     -   I valori disponibili per un attributo e che vengono limitati da un vincolo.
     -   Un valore generato da un calcolo.
--   I valori restituiti dal calcolo sono al di fuori del dominio dell'attributo. Un esempio è un numero intero 1..10 \[\] che viene calcolata al 0.
+-   I valori restituiti dal calcolo sono al di fuori del dominio dell'attributo. Un esempio è un intero da  \[1..10\] che viene calcolato in 0.
 
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Poiché viene generato un messaggio di errore anche se il modello prodotto è stato convalidato correttamente?
 I calcoli non sono inclusi nella convalida. È necessario eseguire il test del modello di configurazione prodotto per individuare gli errori nei calcoli. Nei passaggi seguenti viene descritto come eseguire i test di un modello di configurazione prodotto:
 
-1.  ** Fare clic su Gestione delle informazioni sul prodotto ** &gt; ** Ordinarie ** &gt; ** modelli di configurazione prodotto **.
+1.  Fare clic su **Gestione informazioni sul prodotto** &gt; **Comune** &gt; **Modelli di configurazione prodotto**.
 2.  Selezionare un modello di configurazione prodotto e quindi nel gruppo **Esecuzione** del Riquadro azioni fare clic su **Test**.
+
+
 
 
 

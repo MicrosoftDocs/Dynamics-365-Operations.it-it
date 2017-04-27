@@ -1,5 +1,5 @@
 ---
-title: Contributo della scheda di trasferimento di kanban ai lettori di codici a barre
+title: Supporto della bacheca di trasferimento kanban per i lettori di codici a barre
 description: La scheda di trasferimento kanban supporta l&quot;input da uno scanner di codici a barre widget per selezionare, iniziare, completare e svuotare un processo kanban.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Contributo della scheda di trasferimento di kanban ai lettori di codici a barre
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Supporto della bacheca di trasferimento kanban per i lettori di codici a barre
+
+[!include[banner](../includes/banner.md)]
+
 
 La scheda di trasferimento kanban supporta l'input da uno scanner di codici a barre widget per selezionare, iniziare, completare e svuotare un processo kanban.
 
@@ -46,13 +49,13 @@ Nella scheda dettaglio **Registrazione scanner** è possibile selezionare la mod
 <a name="registration-mode-select"></a>Modalità di registrazione Seleziona
 ------------------------
 
-Quando si utilizza uno scanner di codice a barre per selezionare un processo, la modalità di visualizzazione della bacheca kanban viene modificato. In questo modo, sono valide le seguenti condizioni:
+Quando si utilizza un lettore di codice a barre per selezionare un processo, la modalità di visualizzazione della bacheca kanban cambia. In questo modo, sono valide le seguenti condizioni:
 
 -   Viene visualizzato solo il processo kanban sottoposto a scansione.
 -   I dettagli del processo selezionato vengono visualizzati nella scheda dettaglio **Dettagli**.
 -   Nella scheda dettaglio **Messaggi** vengono visualizzati i messaggi solo per il processo selezionato.
 -   È possibile modificare lo stato del processo con le funzioni disponibili nel riquadro azioni. La bacheca di trasferimento kanban continua a visualizzare solo un singolo processo durante questo intervallo di tempo.
--   È possibile aggiornare manualmente le informazioni nell'elenco di processi facendo clic su ** aggiornare ** (Shift+F5) nel riquadro azioni. Dopo aver aggiornato le informazioni, i risultati completi per il filtro del processo vengono nuovamente visualizzati.
+-   È possibile aggiornare le informazioni nell'elenco di processi manualmente facendo clic su **Aggiorna** (MAIUSC + F5) nel riquadro azioni. Dopo aver aggiornato le informazioni, i risultati completi per il filtro del processo vengono nuovamente visualizzati.
 
 ## <a name="job-status-and-possible-actions"></a>Stato del processo e azioni possibili
 Lo stato del processo selezionato e lo stato di tutti i processi sottoposti a pegging per i kanban evento stabiliscono se è possibile elaborare il processo ulteriormente. Nella seguente tabella vengono visualizzate le informazioni sugli stati e le attività:
@@ -185,6 +188,8 @@ Lo stato del processo selezionato e lo stato di tutti i processi sottoposti a pe
 </tr>
 </tbody>
 </table>
+
+
 
 
 

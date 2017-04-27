@@ -49,18 +49,18 @@ In Progettazione report, è possibile rinominare le cartelle, le definizioni di 
 ### <a name="create-a-report-group"></a>Creare un gruppo di report.
 
 1.  In Progettazione report, nel pannello di navigazione, fare clic su **Gruppi di report**.
-2.  ** File ** il menu, fare clic su ** nuovo ** &gt; ** la definizione del gruppo di report ** aprire un nuovo gruppo di report nella finestra del visualizzatore. In alternativa, fare clic su ** gruppo di report ** il pulsante! [Gruppo di report] (https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "gruppo di report") sulla barra degli strumenti.
+2.  Nel menu **File**, fare clic su **Nuovo** &gt; **Definizione gruppo di report** per aprire un nuovo gruppo di report nella finestra del visualizzatore. In alternativa, fare clic sul pulsante **Gruppo di report** ![Gruppo di report](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Gruppo di report") sulla barra degli strumenti.
 3.  Fare clic sulla scheda **Gruppo di report**. Per ignorare le informazioni sulle singole definizioni di report per la generazione di questo report, selezionare la casella di controllo **Ignora impostazioni società, dettagli e data dalle singole definizioni di report**. Il nome della società, il livello di dettaglio, l'impostazione provvisoria e le informazioni sulla data vengono immessi automaticamente ma è comunque possibile effettuare aggiornamenti.
 4.  Selezionare la casella di controllo **Includi tutte le valute di dichiarazione** per generare più report che mostrano tali valute. È quindi possibile accedere a più visualizzazioni facendo clic sul pulsante **Valuta** nel Visualizzatore Web quando si visualizza il report.
 5.  Nel campo **Report nel gruppo**, fare clic su **Aggiungi** per selezionare i report da includere nel gruppo di report. Per selezionare più report nella finestra di dialogo **Aggiungi**, tenere premuto il tasto Ctrl mentre si seleziono i report. Una volta terminata la selezione dei report, fare clic su **OK**.
-6.  Fare clic su ** file ** &gt; ** Salva ** salvare il nuovo gruppo di report.
+6.  Fare clic su **File** &gt; **Salva** per salvare il nuovo gruppo di report.
 
 ### <a name="modify-a-report-group"></a>Modificare un gruppo di report
 
 1.  In Progettazione report, nel pannello di navigazione, fare clic su **Gruppi di report**.
 2.  Fare doppio clic sul gruppo di report da modificare.
 3.  Nella scheda **Gruppo di report** apportare le modifiche desiderate.
-4.  ** File ** il menu, fare clic su Salva ** ** per salvare il gruppo di report, modifica, fare clic su un'area ** Salva ** il pulsante! Salva [] (https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "")icona sulla barra degli strumenti.
+4.  Nel menu **File** fare clic su **Salva** per salvare il gruppo di report modificato. In alternativa, fare clic sul pulsante **Salva** ![Salva](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Salva") sulla barra degli strumenti.
 
 **Nota:** Se è stata pianificata la generazione di report a intervalli stabiliti, è possibile ignorare tali impostazioni e generare un report immediatamente.
 
@@ -68,7 +68,7 @@ In Progettazione report, è possibile rinominare le cartelle, le definizioni di 
 
 1.  In Progettazione report, nel pannello di navigazione, fare clic su **Gruppi di report**.
 2.  Aprire il gruppo di report da generare.
-3.  Fare clic su ** generare il report ** il pulsante! [Generare il report] (https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "generato il report") Generare i report.
+3.  Fare clic sul pulsante **Genera report** ![Genera report](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Genera report") per generare i report.
 
 ### <a name="delete-a-report-group"></a>Eliminare un gruppo di report
 
@@ -104,8 +104,8 @@ Nella tabella riportata di seguito viene fornita una descrizione dei controlli p
 <td>Specificare il livello di dettaglio da includere nei report.
 <ul>
 <li><strong>Finanziario</strong>- Un report di riepilogo di alto livello. Non è possibile eseguire il drill-down nei conti e dimensioni, ad eccezione di quelli aggiunti tramite un albero gerarchico.</li>
-<li><strong>Riepilogo finanziario &amp; Conto</strong> Report del tasso contenente un riepilogo generale e i dettagli dei conti.</li>
-<li><strong>Riepilogo finanziario, conto, &amp; Transazione</strong> Report del tasso contenente un riepilogo generale e i dettagli delle transazioni.</li>
+<li><strong>Finanziario e conto</strong>- Un report contenente un riepilogo di alto livello e i dettagli del conto.</li>
+<li><strong>Finanziario, conto e transazione</strong>- Un report contenente un riepilogo di alto livello e i dettagli delle transazioni.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Solo le impostazioni del periodo di base predefinito vengono salvate con la defi
 <a name="see-also"></a>Vedere anche
 --------
 
-[Report finanziari per Microsoft Dynamics 365 per le operazioni financial-reporting-intro.md] ()
+[Report finanziari per Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

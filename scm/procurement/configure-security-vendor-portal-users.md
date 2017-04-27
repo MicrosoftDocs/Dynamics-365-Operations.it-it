@@ -1,6 +1,6 @@
 ---
-title: Sicurezza portale utente del fornitore
-description: In questo articolo viene illustrato come configurare la sicurezza dei fornitori esterni che utilizzano il portale fornitori. Queste informazioni si applicano solo alle versioni &amp; del febbraio 2016 maggio 2016 di Dynamics AX.
+title: Sicurezza degli utenti del portale fornitori
+description: In questo articolo viene illustrato come configurare la sicurezza dei fornitori esterni che utilizzano il portale fornitori. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-portal-user-security"></a>Sicurezza portale utente del fornitore
+# <a name="vendor-portal-user-security"></a>Sicurezza degli utenti del portale fornitori
 
-In questo articolo viene illustrato come configurare la sicurezza dei fornitori esterni che utilizzano il portale fornitori. Queste informazioni si applicano solo alle versioni &amp; del febbraio 2016 maggio 2016 di Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-La funzionalità portale fornitori è stata sostituita da funzionalità estese di collaborazione fornitore in Dynamics 365 per la versione 1611 delle operazioni. Per ulteriori informazioni sulla protezione dell'impostazione di relazione fornitore, vedere [impostazione e gestisce la collaborazione] fornitore (setup-maintain-vendor-collaboration.md). Il portale fornitori espone un set limitato di informazioni sugli ordini fornitore per i fornitori esterni. È importante impostare correttamente le autorizzazioni utente del portale fornitori in Microsoft Dynamics AX, in modo che i fornitori non abbiano accesso in modo non intenzionale a informazioni aggiuntive nella soluzione Dynamics AX. **Importante**: a differenza degli altri utenti, i fornitori esterni non devono avere il ruolo **SystemUser**. Il ruolo **SystemUser** consente l'accesso a un set di privilegi non appropriati per gli utenti esterni.
+
+In questo articolo viene illustrato come configurare la sicurezza dei fornitori esterni che utilizzano il portale fornitori. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
+
+La funzionalità portale fornitori è stata sostituita da funzionalità estese di collaborazione fornitore in Dynamics 365 for Operations versione 1611. Per ulteriori informazioni su come impostare la sicurezza per la collaborazione fornitore, vedere [Impostare e gestire la collaborazione fornitore](set-up-maintain-vendor-collaboration.md). Il portale fornitori espone un set limitato di informazioni sugli ordini fornitore per i fornitori esterni. È importante impostare correttamente le autorizzazioni utente del portale fornitori in Microsoft Dynamics AX, in modo che i fornitori non abbiano accesso in modo non intenzionale a informazioni aggiuntive nella soluzione Dynamics AX. **Importante**: a differenza degli altri utenti, i fornitori esterni non devono avere il ruolo **SystemUser**. Il ruolo **SystemUser** consente l'accesso a un set di privilegi non appropriati per gli utenti esterni.
 
 ## <a name="setting-up-a-vendor-portal-user"></a>Impostazione di un utente del portale fornitori
 Prima di creare un account utente per una persona che utilizzerà il portale fornitori, è necessario impostare il fornitore per consentire collaborazione tramite il portale fornitori. Utilizzare il campo **Collaborazione su ordine fornitore** nella scheda **Generale** della pagina **Fornitori**. I fornitori esterni che utilizzano il portale fornitori devono avere la seguente impostazione:
@@ -44,6 +47,8 @@ Se la stessa persona richiede l'accesso al portale fornitori per più conti forn
 <a name="see-also"></a>Vedere anche
 --------
 
-[Vendor collaboration](collaborate-vendors-vendor-portal.md)
+[Collaborazione fornitore](collaborate-vendors-vendor-portal.md)
+
+
 
 

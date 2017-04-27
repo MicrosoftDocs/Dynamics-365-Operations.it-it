@@ -1,6 +1,6 @@
 ---
 title: Esplosione di una versione DBA
-description: L&quot;articolo viene illustrato uno scenario di pianificazione generale che include l&quot;esplosione di una versione distinta base (BOM).
+description: Questo articolo descrive uno scenario di pianificazione generale che include l&quot;esplosione di una versione di distinta base (DBA).
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="explosion-of-a-bom-version"></a>Esplosione di una versione DBA
 
-L'articolo viene illustrato uno scenario di pianificazione generale che include l'esplosione di una versione distinta base (BOM).
+[!include[banner](../includes/banner.md)]
+
+
+Questo articolo descrive uno scenario di pianificazione generale che include l'esplosione di una versione di distinta base (DBA).
 
 Un'esplosione della domanda di una versione DBA (distinta base) crea una domanda per ciascun articolo della riga DBA in un sito specifico e, probabilmente, in un magazzino specifico. In una DBA specifica del sito può essere definito un magazzino specifico per ogni riga DBA. Inoltre, per ogni riga DBA, le impostazioni delle dimensioni dell'articolo determinano la necessità o meno del magazzino. La domanda risultante per ciascun elemento della riga DBA diventa, quindi, il punto di inizio per un'ulteriore esplosione della domanda. In questo scenario di pianificazione generale sono previste le seguenti condizioni:
 
@@ -41,8 +44,10 @@ Nella figura riportata di seguito è illustrato il processo di esplosione della 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Pianificazione generale - sulla determinazione della versione DBA master-plan-bom-version-determined.md] ()
+[Pianificazione generale - Come determinare la versione DBA](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
+
+
 
 

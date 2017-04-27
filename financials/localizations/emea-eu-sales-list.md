@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulla dichiarazione elenco vendite dell'Unione Europea (UE).
 
 <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
@@ -64,11 +67,11 @@ Nella seguente tabella vengono visualizzati i prerequisiti che devono essere val
 <tbody>
 <tr class="odd">
 <td><strong>Impostazione:</strong> persona giuridica</td>
-<td>L'indirizzo principale della persona giuridica deve essere uno stato membro UE. <strong>Persone giuridiche</strong> Nella pagina (> <strong>Amministrazione organizzazione</strong> &gt; <strong>Organizzazioni</strong> &gt; <strong>Persone giuridiche</strong>), selezionare la persona giuridica. Nella Scheda dettaglio <strong>Indirizzi</strong>, creare un indirizzo, selezionare un paese e altri elementi dell'indirizzo, quindi contrassegnare l'indirizzo come <strong>Primario</strong>. Nella Scheda dettaglio <strong>Registrazione fiscale</strong>, nel campo <strong>Partita IVA</strong>, specificare la partita IVA della propria società.</td>
+<td>L'indirizzo principale della persona giuridica deve essere uno stato membro UE. Nella pagina <strong>Persone giuridiche</strong> (fare clic su <strong>Amministrazione organizzazione</strong> &gt; <strong>Organizzazioni</strong> &gt; <strong>Persone giuridiche</strong>), selezionare la persona giuridica. Nella Scheda dettaglio <strong>Indirizzi</strong>, creare un indirizzo, selezionare un paese e altri elementi dell'indirizzo, quindi contrassegnare l'indirizzo come <strong>Primario</strong>. Nella Scheda dettaglio <strong>Registrazione fiscale</strong>, nel campo <strong>Partita IVA</strong>, specificare la partita IVA della propria società.</td>
 </tr>
 <tr class="even">
 <td><strong>Impostazione:</strong> parametri di partita IVA</td>
-<td>Impostare i parametri non tassabili di identificazione <strong>Parametri paese</strong> della pagina (> <strong>Imposta</strong> &gt; <strong>Impostazione</strong> &gt; <strong>VAT</strong> &gt; <strong>Parametri paese</strong>). Per ciascun paese in cui si hanno delle controparti, creare un record nella pagina e specificare le seguenti informazioni:
+<td>Impostare i parametri di identificazione dell'esenzione IVA nella pagina <strong>Parametri paese</strong> (fare clic su <strong>Imposta</strong> &gt; <strong>Impostazione</strong> &gt; <strong>IVA</strong> &gt; <strong>Parametri paese</strong>). Per ciascun paese in cui si hanno delle controparti, creare un record nella pagina e specificare le seguenti informazioni:
 <ul>
 <li><strong>Paese</strong> - Selezionare un paese da associare alla partita IVA.</li>
 <li><strong>IVA</strong> - Immettere il numero di partita IVA (ovvero il prefisso della partita IVA) per il paese selezionato.</li>
@@ -77,7 +80,7 @@ Nella seguente tabella vengono visualizzati i prerequisiti che devono essere val
 </tr>
 <tr class="odd">
 <td><strong>Impostazione: </strong>partite IVA</td>
-<td>Creare le partite VAT per le contropartite <strong>Partite VAT</strong> nella pagina (> <strong>Imposta</strong> &gt; <strong>Impostazione</strong> &gt; <strong>VAT</strong> &gt; <strong>Partite VAT</strong>). Per ogni partita IVA, creare un record nella pagina e specificare le seguenti informazioni:
+<td>Creare i numero di esenzione IVA per le controparti nella pagina <strong>Partite IVA</strong> (fare clic su <strong>Imposta</strong> &gt; <strong>Impostazione</strong> &gt; <strong>IVA</strong> &gt; <strong>Partite IVA</strong>). Per ogni partita IVA, creare un record nella pagina e specificare le seguenti informazioni:
 <ul>
 <li><strong>Paese </strong> - Selezionare il paese di registrazione IVA della controparte.</li>
 <li><strong>Partita IVA</strong> - Immettere la partita IVA della controparte.</li>
@@ -86,11 +89,11 @@ Nella seguente tabella vengono visualizzati i prerequisiti che devono essere val
 </tr>
 <tr class="even">
 <td><strong>Impostazione: </strong>registrazione fiscale delle controparti</td>
-<td>Impostare le informazioni di registrazione dell'VAT per le contropartite <strong>Tutti i clienti</strong> nella pagina (clic <strong>Vendite e marketing</strong> &gt; <strong>Clienti</strong> &gt; <strong>Tutti i clienti</strong>su, selezionare un record cliente e scegliere <strong>Opzioni</strong> &gt; <strong>Cambia la visualizzazione</strong> &gt; <strong>Consente di visualizzare i dettagli</strong>) o <strong>Fornitori</strong> nella pagina (clic <strong>Approvvigionamento</strong> &gt; <strong>Fornitori</strong> &gt; <strong>Fornitori</strong>su, selezionare un record fornitore e fare <strong>Opzioni</strong> &gt; <strong>Cambia la visualizzazione</strong> &gt; <strong>Consente di visualizzare i dettagli</strong>clic su). Nella Scheda dettaglio <strong>Fattura e consegna</strong>, nel campo <strong>Partita IVA</strong>, selezionare il numero di partita IVA.</td>
+<td>Impostare le informazioni per la registrazione fiscale delle controparti nella pagina <strong>Tutti i clienti</strong> (fare clic su <strong>Vendite e marketing</strong> &gt; <strong>Clienti</strong> &gt; <strong>Tutti i clienti</strong>, selezionare il record di un cliente, quindi fare clic su <strong>Opzioni</strong> &gt; <strong>Cambia visualizzazione</strong> &gt; <strong>Visualizzazione dettagli</strong>) o nella pagina <strong>Fornitori</strong> (fare clic su <strong>Approvvigionamento</strong> &gt; <strong>Fornitori</strong> &gt; <strong>Fornitori</strong>, selezionare il record di un fornitore, quindi fare clic su <strong>Opzioni</strong> &gt; <strong>Cambia visualizzazione</strong> &gt; <strong>Visualizzazione dettagli</strong>). Nella Scheda dettaglio <strong>Fattura e consegna</strong>, nel campo <strong>Partita IVA</strong>, selezionare il numero di partita IVA.</td>
 </tr>
 <tr class="odd">
 <td><strong>Impostazione: </strong>IVA</td>
-<td>Consente <strong>Elenco vendite UE</strong> di impostare numeri di conto da includere nel <strong>Codici VAT</strong> report nella pagina (> <strong>Imposta</strong> &gt; <strong>Imposte indirette</strong> &gt; <strong>VAT</strong> &gt; <strong>Codici VAT</strong>). Nella Scheda dettaglio <strong>Impostazione report</strong>, per ogni codice IVA da includere nel report, deselezionare la casella di controllo <strong>Escluso</strong>. Impostare i parametri VAT per gli articoli <strong>Fascia VAT articoli</strong> nella pagina (> <strong>Imposta</strong> &gt; <strong>Imposte indirette</strong> &gt; <strong>VAT</strong> &gt; <strong>Fascia VAT articoli</strong>). Per ogni fascia IVA articoli, selezionare un valore nel campo <strong>Tipo di dichiarazione</strong>. Il valore che si seleziona determina la colonna dell'importo ESL nella quale sarà incluso l'importo della riga.
+<td>Impostare i codici imposta da includere nella dichiarazione <strong>Elenco vendite UE</strong> nella pagina <strong>Codici IVA</strong> (fare clic su <strong>Imposta</strong> &gt; <strong>Imposte indirette</strong> &gt; <strong>IVA</strong> &gt; <strong>Codici IVA</strong>). Nella Scheda dettaglio <strong>Impostazione report</strong>, per ogni codice IVA da includere nel report, deselezionare la casella di controllo <strong>Escluso</strong>. Impostare i parametri IVA per gli articoli nella pagina <strong>Fasce IVA articoli</strong> (fare clic su <strong>Imposta</strong> &gt; <strong>Imposte indirette</strong> &gt; <strong>IVA</strong> &gt; <strong>Fasce IVA articoli</strong>). Per ogni fascia IVA articoli, selezionare un valore nel campo <strong>Tipo di dichiarazione</strong>. Il valore che si seleziona determina la colonna dell'importo ESL nella quale sarà incluso l'importo della riga.
 <ul>
 <li><strong>Vuoto</strong> - L'importo della riga viene incluso nella colonna <strong>Valore non assegnato</strong>.</li>
 <li><strong>Articolo</strong> - L'importo della riga viene incluso nella colonna <strong>Valore degli articoli</strong>.</li>
@@ -104,7 +107,7 @@ Nella seguente tabella vengono visualizzati i prerequisiti che devono essere val
 </tr>
 <tr class="odd">
 <td><strong>Impostazione: </strong>parametri generali</td>
-<td>Impostare i parametri di dichiarazione di ESL <strong>Parametri per il commercio estero</strong> nella pagina (> <strong>Imposta</strong> &gt; <strong>Impostazione</strong> &gt; <strong>Commercio estero</strong> &gt; <strong>Parametri per il commercio estero</strong>). Specificare i seguenti parametri:
+<td>Impostare i parametri della dichiarazione ESL nella pagina <strong>Parametri per il commercio estero</strong> (fare clic su <strong>Imposta</strong> &gt; <strong>Impostazione</strong> &gt; <strong>Commercio estero</strong> &gt; <strong>Parametri per il commercio estero</strong>). Specificare i seguenti parametri:
 <ul>
 <li>Scheda <strong>Elenco vendite UE</strong>:
 <ul>
@@ -147,7 +150,7 @@ Le transazioni dei seguenti tipi possono essere considerate transazioni commerci
 -   Fatture progetto
 -   Fatture fornitore
 
-Una transazione viene considerata una transazione commerciale intracomunitaria se l'indirizzo di consegna della transazione si trova in uno stato membro dell'UE. Per tali paesi, deve essere presente un record nella scheda **Parametri paese** della pagina **Parametri per il commercio estero** e il valore in **Tipo di paese** deve essere impostato su **UE**. Le transazioni commerciali intracomunitarie sono contrassegnate nel campo **Codice elenco**. Questo campo consente inoltre di separare le transazioni commerciali intracomunitarie generali dalle transazioni commerciali triangolari. È inoltre possibile raccogliere informazioni sulle transazioni per il commercio intracomunitario ** vendite UE ** nella pagina Fare clic su ** imposta ** &gt; ** dichiarazioni ** &gt; ** commercio estero ** &gt; ** vendite UE **) utilizzando ** trasferimento ** la funzione. Questa funzione consente di includere le transazioni che hanno importi di tipi di report differenti (vale a dire, articoli o servizi), in base alle fasce IVA articoli specificate nelle righe di transazione. È inoltre possibile applicare altri filtri per definire le transazioni che devono essere incluse. La funzione di **trasferimento** crea un record nella pagina **Elenco vendite UE** per ogni transazione commerciale intracomunitaria che viene inclusa e specifica un numero di conto di contropartita, un paese, una partita IVA, un numero di fattura e la data e gli importi totali delle righe per il tipo di report. La funzione copia inoltre il valore **Codice elenco** dalla transazione. È possibile modificare manualmente il codice elenco per la transazione nella pagina **Elenco vendite UE**. La funzione di **trasferimento** crea record nei quali il valore di **Stato relazione** è impostato su **Incluso**. È possibile convalidare le informazioni che vengono raccolte nella pagina **Elenco vendite UE** utilizzando la funzione **Convalida**.
+Una transazione viene considerata una transazione commerciale intracomunitaria se l'indirizzo di consegna della transazione si trova in uno stato membro dell'UE. Per tali paesi, deve essere presente un record nella scheda **Parametri paese** della pagina **Parametri per il commercio estero** e il valore in **Tipo di paese** deve essere impostato su **UE**. Le transazioni commerciali intracomunitarie sono contrassegnate nel campo **Codice elenco**. Questo campo consente inoltre di separare le transazioni commerciali intracomunitarie generali dalle transazioni commerciali triangolari. È possibile raccogliere le informazioni sulle transazioni commerciali intracomunitarie nella pagina **Elenco vendite UE** (fare clic su **Imposta** &gt; **Dichiarazioni** &gt; **Commercio estero** &gt; **Elenco vendite UE**) utilizzando la funzione **Trasferimento**. Questa funzione consente di includere le transazioni che hanno importi di tipi di report differenti (vale a dire, articoli o servizi), in base alle fasce IVA articoli specificate nelle righe di transazione. È inoltre possibile applicare altri filtri per definire le transazioni che devono essere incluse. La funzione di **trasferimento** crea un record nella pagina **Elenco vendite UE** per ogni transazione commerciale intracomunitaria che viene inclusa e specifica un numero di conto di contropartita, un paese, una partita IVA, un numero di fattura e la data e gli importi totali delle righe per il tipo di report. La funzione copia inoltre il valore **Codice elenco** dalla transazione. È possibile modificare manualmente il codice elenco per la transazione nella pagina **Elenco vendite UE**. La funzione di **trasferimento** crea record nei quali il valore di **Stato relazione** è impostato su **Incluso**. È possibile convalidare le informazioni che vengono raccolte nella pagina **Elenco vendite UE** utilizzando la funzione **Convalida**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>Generazione della dichiarazione Elenco vendite UE
 
@@ -156,5 +159,7 @@ Una transazione viene considerata una transazione commerciale intracomunitaria s
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>Chiusura del periodo di dichiarazione Elenco vendite UE.
 
 Una volta completato il processo di creazione del report per uno specifico periodo (ad esempio, quando gli uffici IVA hanno accettato la dichiarazione **Elenco vendite UE**), è possibile contrassegnare i record dell'ESL che sono inclusi nel report del periodo impostando il valore in **Stato relazione** su **Chiuso**. Per impostare questo stato, utilizzare la funzione **Contrassegna come chiuso** nella pagina **Elenco vendite UE**. Se si annulla la chiusura del periodo, è possibile contrassegnare i record dell'ESL impostando il valore in **Stato relazione** su **Incluso**. Questi record possono quindi essere inclusi nuovamente in una dichiarazione **Elenco vendite UE**. Per impostare questo stato, utilizzare la funzione **Contrassegna come** **incluso** nella pagina **Elenco vendite UE**.
+
+
 
 

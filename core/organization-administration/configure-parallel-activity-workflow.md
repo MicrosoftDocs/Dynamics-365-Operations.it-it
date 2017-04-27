@@ -32,7 +32,7 @@ Un'attività parallela è costituita da rami del flusso di lavoro eseguiti conte
 
 ## <a name="name-a-parallel-activity"></a>Assegnare un nome a un'attività parallela
 Per immettere un nome per un'attività parallela, effettuare le operazioni indicate di seguito.
-1.  Fare clic con il pulsante destro del mouse sull'attività parallela e scegliere ** proprietà ** per aprire ** proprietà ** il modulo.
+1.  Fare clic con il pulsante destro del mouse sull'attività parallela e scegliere **Proprietà** per aprire il modulo **Proprietà**.
 2.  Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
 3.  Nel campo **Nome** immettere un nome univoco per l'attività parallela.
 4.  Fare clic su **Chiudi**.

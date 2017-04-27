@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Configurare la gestione delle spese
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di configurare la gestione delle spese in Microsoft Dynamics AX. Nell'area di gestione delle spese, è possibile archiviare informazioni sui metodi di pagamento, richieste di viaggio, note spese e criteri. 
 
 Poiché molte decisioni che prese quando si pianifica la configurazione per la gestione delle spese si basano sulla struttura finanziaria e gerarchica dell'organizzazione, è necessario fare riferimento ai documenti di pianificazione per le aree.
@@ -133,6 +136,8 @@ Si noti che, se durante la pianificazione della contabilità generale, si è dec
 -   Quando i criteri scadono?
 -   Qual è la regola dei criteri?
 -   Qual è il risultato della regola dei criteri?
+
+
 
 
 

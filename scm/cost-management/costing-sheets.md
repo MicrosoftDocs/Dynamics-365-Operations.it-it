@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Schede di determinazione costi
 
+[!include[banner](../includes/banner.md)]
+
+
 L'impostazione della scheda di determinazione costi prevede due obiettivi. Come primo obiettivo viene definito il formato di visualizzazione delle informazioni sul costo del venduto per un articolo prodotto o un ordine di produzione. La visualizzazione formattata è denominata scheda di determinazione costi. Come secondo obiettivo viene definita la base per il calcolo dei costi indiretti. L'impostazione della scheda di determinazione costi si basa sulla funzionalità gruppo di costi per visualizzare le informazioni e per le formule di calcolo dei costi indiretti. I due obiettivi dell'impostazione della scheda di determinazione costi sono descritti in questo articolo. 
 
 Una scheda di determinazione costi è la visualizzazione formattata delle informazioni sul costo del venduto per un articolo prodotto o un ordine di produzione. Quando si imposta una scheda di determinazione costi, si definisce il formato delle informazioni e anche la base per il calcolo dei costi indiretti. L'impostazione della scheda di determinazione costi si basa sulle funzionalità gruppo di costi per visualizzare le informazioni e per le formule di calcolo dei costi indiretti. Di seguito sono riportate ulteriori informazioni sui due obiettivi dell'impostazione della scheda di determinazione costi:
@@ -43,6 +46,8 @@ Due criteri di bloccaggio per una versione di determinazione costi determinano s
 Dopo aver definito il formato della scheda di determinazione costi e i calcoli dei costi indiretti, è necessario eseguire un passaggio a parte per la convalida e il salvataggio delle informazioni. La scheda di determinazione costi rappresenta un formato valido a livello aziendale per la visualizzazione uniforme delle informazioni sui costi del venduto. 
 
 La scheda di determinazione costi viene visualizzata nella pagina **Calcola costo articolo**. La scheda di determinazione costi può essere visualizzata per il record del costo calcolato di un articolo prodotto nella pagina **Prezzo articolo** oppure per il record di calcolo specifico di un ordine nella pagina **Risultati calcolo DBA**. Può essere inoltre visualizzata nella pagina **Calcolo dei prezzi** per un ordine di produzione.
+
+
 
 
 

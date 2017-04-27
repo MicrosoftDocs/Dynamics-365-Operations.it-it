@@ -40,7 +40,7 @@ Un evento del giornale di registrazione trasferimenti viene registrato. L'evento
 
 ### <a name="example-2-cost-entries-are-created"></a>Esempio 2: vengono create voci di costo
 
-Un evento del giornale di registrazione trasferimenti viene registrato. Evento di trasferisce un singolo pezzo dell'articolo Al sito 1 su un sito. 2. La dimensione inventariale sito viene considerata parte dell'oggetto di costo. Di conseguenza, l'evento crea due operazioni di magazzino e due voci di costo.
+Un evento del giornale di registrazione trasferimenti viene registrato. L'evento trasferisce un singolo pezzo dell'articolo A dal sito 1 al sito 2. La dimensione inventariale Sito viene considerata parte dell'oggetto di costo. Di conseguenza, l'evento crea due operazioni di magazzino e due voci di costo.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>Esempio 3: viene creata una voce di costo
 
@@ -59,11 +59,11 @@ La nuova pagina **Voci di costo** consente di visualizzare e controllare le regi
 | 00002   | 20/01/2015 | Ordine acquisto | 100001 | 0000101 |               |               |          | 100,00  |
 | 00003   | 31/01/2015 | Correzione     | 100001 | 0000101 |               |               |          | 15,00   |
 
-La pagina **Voci di costo** abilita il filtro in base all'ID e alla data del documento. ** Nota: ** Le voci dei costi sono disponibili solo per [] oggetti di costi () o cost-object.md prodotti rilasciati.
+La pagina **Voci di costo** abilita il filtro in base all'ID e alla data del documento. **Nota:** le voci di costo sono disponibili solo per gli [oggetti di costo](cost-object.md) o i prodotti rilasciati.
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Cost objects](cost-object.md)
+[Oggetti di costo](cost-object.md)
 
 

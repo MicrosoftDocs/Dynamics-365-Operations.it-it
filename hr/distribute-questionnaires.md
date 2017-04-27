@@ -1,6 +1,6 @@
 ---
 title: Distribuire e completare un questionario
-description: In questo argomento viene descritto come distribuire questionari la pianificazione, in modo che disponibili per la persona o del gruppo di persone che li completeranno.
+description: In questo argomento viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili alla persona o al gruppo di persone che li dovranno completare.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Distribuire e completare un questionario
 
-In questo argomento viene descritto come distribuire questionari la pianificazione, in modo che disponibili per la persona o del gruppo di persone che li completeranno. 
+In questo argomento viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili alla persona o al gruppo di persone che li dovranno completare. 
 
 Sono disponibili più metodi per distribuire un questionario:
 
@@ -38,7 +38,7 @@ Sono disponibili più metodi per distribuire un questionario:
 -   Crea una programmazione. Il questionario può quindi essere disponibile per più persone.
 
 ## <a name="marking-a-questionnaire-as-active"></a>Contrassegnare il questionario come attivo
-** La attivo ** il campo su Sì ** ** ** questionari ** nella pagina, rendere disponibile il questionario per tutti i dipendenti completare. Gli intervistati possono completare i più volte del questionario. Questa funzionalità è utile se si desidera raccogliere il riscontro continuo durante l'anno. Ad esempio, è possibile effettuare un questionario che i dipendenti utilizzano per fornire un riscontro sul servizio mensa nel self-service.
+Se si imposta il campo **Attivo** su **Sì** nella pagina **Questionari**, si rende il questionario disponibile a tutti i dipendenti. Gli intervistati possono completare il questionario più volte. Questa funzionalità è utile se si desidera raccogliere costantemente commenti nell'arco dell'anno. Ad esempio, è possibile effettuare un questionario che i dipendenti utilizzano per fornire un riscontro sul servizio mensa nel self-service.
 
 ## <a name="questionnaire-groups"></a>Gruppi di questionari
 È possibile impostare gruppi di questionari e quindi includere gli intervistati a cui un questionario deve essere distribuito. 
@@ -48,7 +48,7 @@ Sono disponibili più metodi per distribuire un questionario:
 -   **Gruppi di questionari**: solo gli utenti inclusi in un gruppo di questionari possono compilare un questionario selezionato. Ad esempio, se il gruppo di destinatari desiderato è quello dei terzisti, è possibile creare un gruppo di questionari specifico di tali intervistati.
 -   **Membri gruppo di questionari**: è possibile aggiungere le persone ai gruppi di questionario.
 
-Per assegnare un gruppo di questionari a un questionario, ** questionari ** alla pagina, fare clic su ** diritti utente **. Dopo che il questionario viene salvato come attivo, i membri del gruppo di questionari possono completare il questionario. Questa funzionalità è utile se si desidera verificare un questionario su un gruppo di persone Seleziona lo stato del rotoliate uscita a un maggiore gruppo, o se si desidera definire un questionario a un lavoratore specifico pubblico.
+Per assegnare un gruppo di questionari a un questionario, nella pagina **Questionari** fare clic su **Diritti dell'utente**. Dopo che il questionario è stato salvato come attivo, i membri del gruppo di questionari possono completarlo. Questa funzionalità è utile se si desidera verificare un questionario su un gruppo di persone prima di distribuirlo a un gruppo più ampio o se si desidera dedicare un questionario a un pubblico molto specifico.
 
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sessioni di risposte pianificate in un questionario
 Le sessioni di risposte pianificate sono questionari progettati e selezionati per gli intervistati. 
@@ -82,24 +82,24 @@ I tipi di pianificazione sono necessari se si desidera programmare le sessioni d
 
 È possibile utilizzare i tipi di riferimento per immettere i criteri per gli intervistati che è possibile selezionare quando si programma un questionario. 
 
-Utilizzare la pagina **Tipi di riferimento** per impostare i tipi di riferimento per un questionario. Ogni tipo di riferimento corrisponde a una tabella in Microsoft Dynamics 365 per le operazioni. Quando si creano programmazioni questionari, è possibile specificare i singoli record della tabella o un intervallo di record a cui verrà associato il questionario. 
+Utilizzare la pagina **Tipi di riferimento** per impostare i tipi di riferimento per un questionario. Ogni tipo di riferimento corrisponde a una tabella in Microsoft Dynamics 365 for Operations. Quando si creano programmazioni questionari, è possibile specificare i singoli record della tabella o un intervallo di record a cui verrà associato il questionario. 
 
 Ad esempio, se si seleziona la tabella Corsi, è possibile decidere il corso specifico a cui il questionario si riferirà. Se si imposta un riferimento per la tabella Corsi, verranno resi disponibili alcuni campi e pulsanti nel modulo **Corsi**.
 
 ### <a name="questionnaire-schedules"></a>Programmazioni questionari
 
-È possibile utilizzare la programmazione del questionario per generare le sessioni di risposte pianificate più per un gruppo utenti, in base a un tipo di riferimento. Consente di programmare ** programmazione del questionario ** nella pagina. Selezionare il tipo di pianificazione per classificare la programmazione e selezionare il tipo di riferimento da utilizzare per eseguire query sul sistema per utenti specifici. Ad esempio, se si imposta il tipo di riferimento ai corsi tabella, è possibile selezionare un corso specifico ** riferimento ** nel campo. 
+È possibile utilizzare le programmazioni questionari per generare più sessioni di risposte pianificate per un gruppo di utenti, in base a un tipo di riferimento. Creare una programmazione nella pagina **Programmazioni questionari**. Selezionare il tipo di pianificazione per classificare la programmazione e selezionare anche il tipo di riferimento da utilizzare per eseguire query nel sistema su utenti specifici. Ad esempio, se si imposta il tipo di riferimento sulla tabella Corsi, è possibile selezionare un corso specifico nel campo **Riferimento**. 
 
-Fare clic su **Dettagli impostazione** per selezionare il questionario e altri criteri. Ad esempio, specificare il nome dell'istruttore come criterio se il questionario è una valutazione dell'istruttore. Al termine di immettere i dettagli di attrezzaggio, il sistema genera le sessioni di risposte pianificate per gli utenti inclusi nella query. 
+Fare clic su **Dettagli impostazione** per selezionare il questionario e altri criteri. Specificare, ad esempio, il nome dell'istruttore come criterio se il questionario è una valutazione dell'istruttore. Dopo aver immesso i dettagli di impostazione, il sistema genera sessioni di risposte pianificate per gli utenti che sono inclusi nella query. 
 
 Fare clic su **Sessioni di risposte pianificate** per visualizzare le sessioni di risposte per la programmazione. È possibile quindi creare manualmente sessioni di risposte pianificate aggiuntive o eliminare le sessioni di risposte pianificate a cui non sono state fornite risposte. 
 
-Fare clic su Funzioni ** ** &gt; ** inizio ** rendere disponibile il questionario agli utenti le sessioni di risposte pianificate correlate. Fare clic su **Risposte** per visualizzare le risposte completate nel questionario. Si può scegliere di copiare le impostazioni di programmazione questionario, le sessioni di risposte pianificate e le risposte in una nuova programmazione questionario.
+Fare clic su **Funzioni** &gt; **Inizio** per rendere disponibile il questionario agli utenti nelle sessioni di risposte pianificate correlate. Fare clic su **Risposte** per visualizzare le risposte completate nel questionario. Si può scegliere di copiare le impostazioni di programmazione questionario, le sessioni di risposte pianificate e le risposte in una nuova programmazione questionario.
 
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Informare gli intervistati dei questionari disponibili
 Quando viene distribuito un questionario, è necessario avvisare gli intervistati che i questionari sono disponibili. 
 
-** Nota: ** Gli intervistati devono essere utente in Microsoft Dynamics 365 per le operazioni compilati un questionario.
+**Nota:** gli intervistati devono essere utenti di Microsoft Dynamics 365 for Operations per poter completare un questionario.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Informare gli intervistati su una sessione di risposte pianificata
 
@@ -107,7 +107,7 @@ Se si utilizza una sessione di risposte pianificata, è necessario informare dir
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Informare gli intervistati su una programmazione
 
-Utilizzare la pagina **Programmazioni questionari** per preparare e inviare un messaggio di posta elettronica a tutti gli intervistati a cui è stato assegnato il questionario. Immettere il testo del messaggio di posta elettronica nella scheda **Posta elettronica per dipendente self-service**. Una volta completata la programmazione è stata avviata, fare clic su ** funzioni ** &gt; ** inviare messaggi di posta elettronica ** generare e inviare messaggi di posta elettronica agli intervistati. Gli intervistati possono quindi firma nel sito Web e completare il questionario. 
+Utilizzare la pagina **Programmazioni questionari** per preparare e inviare un messaggio di posta elettronica a tutti gli intervistati a cui è stato assegnato il questionario. Immettere il testo del messaggio di posta elettronica nella scheda **Posta elettronica per dipendente self-service**. Dopo che la programmazione è stata avviata, fare clic su **Funzioni** &gt; **Invia posta elettronica** per generare la posta elettronica e inviarla agli intervistati. Gli intervistati possono quindi accedere al sito Web e completare il questionario. 
 
 **Nota:** affinché si possa utilizzare la funzionalità di posta elettronica, è necessario che l'amministratore IT immetta le impostazioni di posta elettronica nella pagina **Parametri posta elettronica**.
 
@@ -119,7 +119,7 @@ Utilizzare la pagina **Programmazioni questionari** per preparare e inviare un m
 ## <a name="completing-questionnaires"></a>Completamento di questionari
 Dopo che è stato progettato e distribuito, un questionario può essere completato dagli intervistati selezionati. È possibile completare i questionari disponibili da due posizioni:
 
--   Nel riquadro di spostamento, fare clic su ** questionari ** &gt; ** distribuire ** &gt; ** compilare un questionario **.
+-   Nel pannello di navigazione fare clic su **Questionari** &gt; **Distribuisci** &gt; **Compilare un questionario**.
 -   In Dipendente self-service, fare clic su **Questionari da completare**.
 
 I questionari possono essere messi a disposizione di utenti o gruppi di utenti specifici o di tutti gli utenti in una rete.
@@ -131,6 +131,6 @@ I questionari possono essere messi a disposizione di utenti o gruppi di utenti s
 
 [Utilizzo di questionari](questionnaires.md)
 
-[Visualizzazione e valutare i risultati dei questionari evaluate-questionnaire-results.md] ()
+[Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md)
 
 

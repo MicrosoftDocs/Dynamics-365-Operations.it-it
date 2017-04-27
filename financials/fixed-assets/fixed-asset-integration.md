@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Integrazione dei cespiti
 
+[!include[banner](../includes/banner.md)]
+
+
 È possibile integrare Cespiti con Contabilità generale, Gestione articoli, Contabilità clienti e Contabilità fornitori. È inoltre possibile impostare i cespiti per l'integrazione con gli ordini fornitore.
 
 <a name="general-ledger"></a>Contabilità generale
@@ -82,7 +85,7 @@ L'integrazione per ciascuna riga ordine viene attivata nella scheda **Cespiti** 
 ## <a name="project-management-and-accounting"></a>Gestione progetti e contabilità
 È possibile associare un progetto a un cespite interessato dal progetto. È inoltre possibile associare ogni fase, attività o sottoprogetto a un cespite diverso. Un cespite può essere associato a ogni record di progetto. È possibile creare l'associazione quando si immette un numero di cespite nel campo **Numero cespite** della pagina **Progetti**. Il tipo di progetto deve essere **Interno** o **Piano dei costi**. 
 
-È possibile utilizzare la pagina **Progetti** anche per visualizzare i dettagli dei cespiti associati ai progetti. Per visualizzare il record cespite, fare clic sul collegamento al cespite nella scheda dettaglio **Impostazioni** per aprire la pagina **Cespiti**. Fare clic su ** progetti ** &gt; ** tutti i progetti ** visualizzare i progetti associati al cespite. 
+È possibile utilizzare la pagina **Progetti** anche per visualizzare i dettagli dei cespiti associati ai progetti. Per visualizzare il record cespite, fare clic sul collegamento al cespite nella scheda dettaglio **Impostazioni** per aprire la pagina **Cespiti**. Quindi fare clic su **Progetti** &gt; **Tutti i progetti** per visualizzare i progetti associati al cespite. 
 
 I cespiti in genere vengono associati ai progetti quando questi sono relativi a lavoro, manutenzione o miglioramenti connessi al cespite. Quando il progetto è stato completato, non viene creata automaticamente una rettifica di rivalutazione per il cespite. Pertanto, sarà necessario crearla manualmente, se richiesta. 
 
@@ -90,6 +93,8 @@ Per eliminare l'associazione tra un progetto e un cespite, deselezionare il camp
 
 È inoltre possibile designare un cespite che si sta creando o producendo come parte di un progetto stima. Al termine di tale progetto, sarà possibile registrare automaticamente una transazione di acquisizione cespiti.
 
-Per ulteriori informazioni, vedere [acquisti i cespiti con approvvigionamento acquire-assets-procurement.md] ()
+Per ulteriori informazioni, vedere [Acquisire cespiti tramite approvvigionamento](acquire-assets-procurement.md).
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: Liquidare un pagamento parziale fornitore e il pagamento totale finale prima della data dello sconto
+title: Liquidare un pagamento fornitore parziale e il pagamento finale completo prima della data dello sconto
 description: Questo articolo descrive uno scenario in cui vengono effettuati pagamenti parziali per una fattura fornitore e viene preso uno sconto di cassa.
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidare un pagamento parziale fornitore e il pagamento totale finale prima della data dello sconto
+# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidare un pagamento fornitore parziale e il pagamento finale completo prima della data dello sconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo descrive uno scenario in cui vengono effettuati pagamenti parziali per una fattura fornitore e viene preso uno sconto di cassa.
 
-Fabrikam acquista merci dal fornitore 3064. Il fornitore Fabrikam assegnare a uno sconto di cassa del 1 se la fattura viene pagata in 14 giorni. Le fatture devono essere pagate in 30 giorni. Il fornitore consente inoltre a Fabrikam di applicare sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano ** parametri di contabilità fornitori ** nella pagina. Il 25 giugno April immette una fattura per 1.000,00 per il fornitore 3064.
+Fabrikam acquista merci dal fornitore 3064. Il fornitore concede a Fabrikam uno sconto di cassa dell'1% se la fattura viene pagata in 14 giorni. Le fatture devono essere pagate in 30 giorni. Il fornitore consente inoltre a Fabrikam di applicare sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano nella pagina **Parametri contabilità fornitori**. Il 25 giugno April immette una fattura per 1.000,00 per il fornitore 3064.
 
 ## <a name="vendor-invoice-on-june-25"></a>Fattura fornitore del 25 giugno
-Il 25 giugno aprile, immette e registra una fattura di 1,000.00 per il fornitore 3064. April può visualizzare la transazione nella pagina **Transazioni fornitore**.
+Il 25 giugno April immette e registra una fattura per 1.000,00 per il fornitore 3064. April può visualizzare la transazione nella pagina **Transazioni fornitore**.
 
 | Giustificativo   | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo   | Valuta |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -63,7 +66,7 @@ April fa clic sulla scheda **Sconto di cassa** per visualizzare l'importo dello 
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Pagamento parziale effettuato il 1° luglio utilizzando la pagina Liquida transazioni
-April può creare un giornale di registrazione pagamenti per il pagamento aprendo la pagina **Giornale di registrazione pagamenti** nella contabilità fornitori. Crea un nuovo giornale di registrazione e immette una riga per il fornitore 3064. Quindi aperto ** transazioni liquidati ** la pagina, in modo da poter collegare la fattura per la liquidazione. April contrassegna la fattura e modifica il valore nel campo **Importo da liquidare** in **-500,00**. Vede che il valore nel campo **Importo sconto di cassa** è **-10,00** per l'intera fattura e che il valore nel campo **Importo sconto di cassa da applicare** è **-5,05**. Di conseguenza, April sta liquidando -505,05 della fattura.
+April può creare un giornale di registrazione pagamenti per il pagamento aprendo la pagina **Giornale di registrazione pagamenti** nella contabilità fornitori. Crea un nuovo giornale di registrazione e immette una riga per il fornitore 3064. Apre quindi la pagina **Liquida transazioni**, in modo che sia possibile contrassegnare la fattura per la liquidazione. April contrassegna la fattura e modifica il valore nel campo **Importo da liquidare** in **-500,00**. Vede che il valore nel campo **Importo sconto di cassa** è **-10,00** per l'intera fattura e che il valore nel campo **Importo sconto di cassa da applicare** è **-5,05**. Di conseguenza, April sta liquidando -505,05 della fattura.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -95,7 +98,7 @@ Le informazioni di sconto vengono visualizzate nella parte inferiore della pagin
 | Sconto di cassa applicato          | 0,00      |
 | Importo sconto di cassa da applicare | -5,00     |
 
-April chiude la pagina **Transazioni di liquidare**. Nel giornale di registrazione viene creata una riga di pagamento di 495,00 e April registra il giornale di registrazione. April può verificare le transazioni fornitore ** ** transazioni fornitore nella pagina. Nota che le fatture con un saldo pari a -500.00. Vede inoltre un pagamento di 495,00 e uno sconto di cassa di 5,00.
+April chiude la pagina **Transazioni di liquidare**. Nel giornale di registrazione viene creata una riga di pagamento di 495,00 e April registra il giornale di registrazione. April può rivedere la transazione fornitore nella pagina **Transazioni fornitore**. Vede che la fattura ha un saldo pari a -500,00. Vede inoltre un pagamento di 495,00 e uno sconto di cassa di 5,00.
 
 | Giustificativo    | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -136,6 +139,8 @@ April registra il giornale di registrazione pagamenti e rivede le transazioni ne
 | DISC-10010 | Sconto di cassa    | 1/7/2015  |         | 5,00                                 |                                       | 0,00    | GBP      |
 | APP-10011  | Pagamento          | 8/7/2015  |         | 495,00                               |                                       | 0,00    | GBP      |
 | DISC-10011 | Sconto di cassa    | 8/7/2015  |         | 5,00                                 |                                       | 0,00    | GBP      |
+
+
 
 
 

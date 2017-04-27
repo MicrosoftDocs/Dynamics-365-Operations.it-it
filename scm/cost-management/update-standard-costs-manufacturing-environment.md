@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Aggiornare costi standard in un ambiente di produzione
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce indicazioni su come aggiornare i costi standard in un ambiente di produzione. 
 
 Gli aggiornamenti possono riflettere nuovi articoli, categorie di costi o formule di calcolo dei costi indiretti. Possono anche riflettere le correzioni e le variazioni di costo. Le operazioni da completare per l'aggiornamento dei costi standard dipendono dal tipo di aggiornamento, come illustrato nei casi descritti di seguito;
@@ -43,5 +46,7 @@ Gli aggiornamenti possono riflettere nuovi articoli, categorie di costi o formul
 -   Calcolare i costi di un nuovo articolo prodotto in base alle informazioni sui cicli di lavorazione e sulla DBA definita, approvata e attiva.
 
 In ciascun caso è necessario valutare con attenzione come aggiornare i costi standard.
+
+
 
 

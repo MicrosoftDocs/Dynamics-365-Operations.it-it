@@ -1,6 +1,6 @@
 ---
 title: Ordini cliente ibridi
-description: "Ordine ibrido cliente è un singolo ordine, contenente i prodotti che possono essere eseguiti punto vendita per cliente nonché prodotti che verrà intrapresa o verranno spediti secondo momento."
+description: "Un ordine cliente ibrido è un ordine singolo che contiene prodotti che possono essere ritirati nel punto vendita dal cliente e prodotti che verranno ritirati o spediti in un secondo momento."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,18 +27,23 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="hybrid-customer-orders"></a>Ordini cliente ibridi
 
-Ordine ibrido cliente è un singolo ordine, contenente i prodotti che possono essere eseguiti punto vendita per cliente nonché prodotti che verrà intrapresa o verranno spediti secondo momento.
+[!include[banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 per le operazioni al dettaglio, è possibile selezionare si esegue tutti i prodotti o si effettuano i prodotti selezionati per un ordine cliente. Le righe di prodotti contrassegnate come effettuano fatturate automaticamente dopo che l'ordine è stato creato, contea) in modo analogo le stesse per un ordine che deve essere selezionato l'articolo prodotto dopo che l'ordine viene creato. Importo dovuto sugli ordini ibridi viene determinato sommando la percentuale di deposito nelle righe di prodotti di spedizione e di prelievo con l'importo totale delle righe di pagamento. Per gli ordini ibridi, vengono attivati alternativamente la modalità di ordine cliente e la modalità di carry cash e nel seguente modo:
 
--   Se tutti i prodotti nel carrello vengono impostati su ** eseguire la consegna **, l'ordine verrà trattato come transazione di carry cash and.
--   Se una di queste righe nel carrello verranno impostati su o ** prelievo ** o ** consegna della spedizione **, l'ordine verrà trattato come transazione degli ordini cliente.
+Un ordine cliente ibrido è un ordine singolo che contiene prodotti che possono essere ritirati nel punto vendita dal cliente e prodotti che verranno ritirati o spediti in un secondo momento.
 
-Se una riga del carrello è selezionata e ** prelievo selezionato, ** ** la spedizione è selezionata, ** o ** Carry out ** selezionato è selezionato, nella riga specifica del carrello viene impostata con il metodo di consegna. In tal caso, il flusso downstream di un'operazione continua normalmente. Tuttavia, se ** il prelievo è selezionata, ** ** la spedizione è selezionata, ** o ** Carry out ** selezionato è selezionato senza una riga del carrello selezionata, una nuova pagina verrà aperto con l'elenco di tutte le righe carrello. In tale schermo, è possibile selezionare più righe contemporaneamente per l'impostazione del metodo di consegna. Quando si utilizza il metodo per selezionare le righe, un metodo precedente di consegna assegnato alla riga verrà ignorato.
+In Microsoft Dynamics 365 for Operations - Vendita al dettaglio è possibile selezionare o trasportare tutti i prodotti o trasportare prodotti selezionati per un ordine cliente. Le righe di prodotti contrassegnate come trasporto vengono fatturate automaticamente dopo la creazione dell'ordine, in modo analogo è lo stesso per un ordine che deve essere selezionato dopo che l'ordine è stato creato. L'importo dovuto sugli ordini ibridi viene determinato sommando la percentuale di deposito nelle righe prelievo e spedizione di prodotti con l'importo totale delle righe di trasporto. Per gli ordini ibridi, il sistema passa tra la modalità ordine cliente e la modalità cash-and-carry nel seguente modo:
+
+-   Se tutti i prodotti nel carrello vengono impostati sull'**esecuzione consegna**, l'ordine verrà trattato come transazione cash-and-carry.
+-   Se una o tutte le righe nel carrello vengono impostate su **Prelievo** o **spedizione consegna**, l'ordine verrà gestito come transazione ordine cliente.
+
+Se è selezionata una riga del carrello ed è selezionata l'opzione **Preleva selezionati**, **Spedizione selezionata** o **Esecuzione selezionata**, solo la riga del carrello specifica verrà impostata con quel metodo di consegna. In tal caso, il flusso downstream dell'operazione continua normalmente. Se invece l'opzione **Preleva selezionati**, **Spedizione selezionata** o **Esecuzione selezionata** è selezionata ma non è selezionata alcune riga del carrello, verrà visualizzata una nuova pagina con l'elenco di tutte le righe del carrello. In questa schermata è possibile selezionare più righe contemporaneamente per l'impostazione del metodo di consegna. Quando si utilizza tale metodo per selezionare le righe, qualsiasi metodo di consegna precedente assegnato alla riga verrà ignorato.
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Cliente ordina la panoramica customer-orders-overview.md] ()
+[Cenni preliminare sugli ordini cliente](customer-orders-overview.md)
+
+
 
 

@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-a-vendor-payment"></a>Stornare un pagamento fornitore
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive le differenze tra lo storno, l'eliminazione, l'annullamento e il rifiuto di un pagamento. Inoltre, illustra i due metodi per stornare un assegno fornitore. 
 
-Occasionalmente, dopo che un pagamento fornitore è stato registrato, il pagamento deve essere stornato. Lo storno è diverso da eliminare, annullare o rifiutare un pagamento. È possibile eliminare un pagamento solo se ha lo stato di **Creato**. Questo stato indica che il pagamento è stato creato ma non è ancora stato generato. Questa limitazione si applica sempre, indipendentemente dal metodo di pagamento. È possibile annullare gli assegni non registrati dopo che sono stati generati ma prima che siano stati registrati. Se il pagamento generato verrà eseguita come un trasferimento di fondi elettronico (EFT), è possibile rifiutare il pagamento prima che venga registrato. Per rifiutare un pagamento, ** modificare lo stato del pagamento ** il valore. Un pagamento che è stata annullata o rifiutato stato può essere rigenerato dopo ** lo stato del pagamento ** il valore verrà impostato a ** Se **. 
+Occasionalmente, dopo che un pagamento fornitore è stato registrato, il pagamento deve essere stornato. Lo storno è diverso da eliminare, annullare o rifiutare un pagamento. È possibile eliminare un pagamento solo se ha lo stato di **Creato**. Questo stato indica che il pagamento è stato creato ma non è ancora stato generato. Questa limitazione si applica sempre, indipendentemente dal metodo di pagamento. È possibile annullare gli assegni non registrati dopo che sono stati generati ma prima che siano stati registrati. Se il pagamento generato viene eseguito come bonifico (EFT), è possibile rifiutare il pagamento prima che venga registrato. Per rifiutare un pagamento, cambiare il valore **Stato pagamento**. Un pagamento che è stata annullato o rifiutato può essere rigenerato dopo che il valore **Stato pagamento** viene reimpostato su **Nessuno**. 
 
-Dopo che un pagamento viene registrato, gli storni vengono utilizzati. I pagamenti effettuati elettronicamente non possono essere stornati dopo che sono stati registrati. In alternativa, una nuova transazione deve essere creata per l'importo del pagamento per ottenere le passività al conto fornitore. Sono disponibili due metodi per stornare assegni registrati. In un metodo gli storni vengono registrati immediatamente quando si fa clic su **Storno di pagamento** nella pagina **Assegno**. Con l'altro metodo, quando si fa clic su **Storno di pagamento** nella pagina **Assegno** lo storno viene inviato al giornale di registrazione storno assegni in Gestione cassa e banche, dove un revisore può quindi registrare o rifiutare lo storno. 
+Dopo che un pagamento viene registrato, gli storni vengono utilizzati. I pagamenti effettuati elettronicamente non possono essere stornati dopo che sono stati registrati. Invece, una nuova transazione deve essere creata per l'importo del pagamento per ottenere la passività di nuovo sul conto del fornitore. Sono disponibili due metodi per stornare assegni registrati. In un metodo gli storni vengono registrati immediatamente quando si fa clic su **Storno di pagamento** nella pagina **Assegno**. Con l'altro metodo, quando si fa clic su **Storno di pagamento** nella pagina **Assegno** lo storno viene inviato al giornale di registrazione storno assegni in Gestione cassa e banche, dove un revisore può quindi registrare o rifiutare lo storno. 
 
 Per conoscere il metodo utilizzato dall'organizzazione, visualizzare la pagina **Parametri di gestione cassa e banche**. Se l'opzione **Usa processo di revisione per storni di pagamenti** è impostata su **Sì**, gli storni vengono inviati al giornale di registrazione storno assegni per la revisione. Nella tabella seguente vengono descritte le differenze dei metodi di storno assegni.
 
@@ -57,7 +60,7 @@ Se si è un utente che deve esaminare gli storni, è possibile approvare e regis
 -   Per rifiutare lo storno, eliminare il giornale di registrazione storno.
 
 > [!NOTE]
-> Se si elimina il giornale di registrazione, lo storno viene rimosso dal sistema, ma l'assegno originale rimane ** assegno ** nella pagina. Lo stato dell'assegno non è più **In attesa di annullamento**.
+> Se si elimina il giornale di registrazione, lo storno viene rimosso dal sistema, ma l'assegno originale rimane nella pagina **Assegno**. Lo stato dell'assegno non è più **In attesa di annullamento**.
 
 ## <a name="results-of-posting-a-reversal"></a>Risultati della registrazione di uno storno
 Quando si registra lo storno di un assegno, si verificano i seguenti eventi:
@@ -78,6 +81,8 @@ Se l'assegno stornato è stato emesso per un rimborso al cliente, si verificano 
 
 -   Una transazione viene registrata nel conto cliente per lo storno del pagamento, mentre viene stornato il saldo tra il pagamento originale e il documento a fronte del quale il pagamento è stato liquidato originariamente (viene creato un pagamento negativo).
 -   Uno storno di pagamento viene applicato al pagamento originale. Il campo **Ultimo giustificativo di liquidazione** della pagina **Transazioni cliente** relativo al pagamento originale del cliente viene aggiornato in base al numero di giustificativi della transazione stornata.
+
+
 
 
 

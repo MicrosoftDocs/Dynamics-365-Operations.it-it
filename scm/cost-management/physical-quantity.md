@@ -1,5 +1,5 @@
 ---
-title: Le i valori oggetti
+title: Valori di un oggetto di magazzino
 description: Questo articolo fornisce informazioni sul modo in cui vengono calcolati i valori di un oggetto di magazzino.
 author: YuyuScheller
 manager: AnnBe
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Le i valori oggetti
+# <a name="inventory-object-values"></a>Valori di un oggetto di magazzino
 
 Questo articolo fornisce informazioni sul modo in cui vengono calcolati i valori di un oggetto di magazzino. 
 
-Una nuova funzionalità denominata ** quantità fisica ** consente di visualizzare i valori di un oggetto specifico di magazzino. Un oggetto di costo rappresenta il livello di entità in cui la contabilità inventario viene eseguita. Per ulteriori informazioni sugli oggetti di costo, vedere [Oggetti di costo](cost-object.md). Per visualizzare i valori di un magazzino specifico, fare clic sull'oggetto ** quantità fisica ** ** oggetto di costo ** nella pagina. Ecco come valore di un oggetto dell'inventario viene calcolato: Oggetto di magazzino. Oggetto di costo = di valore. Oggetto medio di l × di costo unitario. Quantità le seguenti in l esempio i valori di un oggetto e inventariali un oggetto di costo vengono calcolati. Due eventi di entrata prodotti vengono registrati nell'articolo A:
+Una nuova funzionalità denominata **quantità fisica** consente di visualizzare i valori di un oggetto specifico di magazzino. Un oggetto di costo rappresenta il livello di entità in cui la contabilità inventario viene eseguita. Per ulteriori informazioni sugli oggetti di costo, vedere [Oggetti di costo](cost-object.md). Per visualizzare i valori di un oggetto di magazzino specifico, fare clic su **Quantità fisica** nella pagina **Oggetto di costo**. Ecco in che modo il valore di un oggetto di magazzino viene calcolato: Oggetto di magazzino.Valore = Oggetto di costo.Costo unitario medio x Oggetto di magazzino.Quantità. L'esempio riportato di seguito illustra come vengono calcolati i valori di un oggetto di magazzino e di un oggetto di costo. Due eventi di entrata prodotti vengono registrati nell'articolo A:
 
--   Entrata prodotti 1: Quantità = 100. pc, importo = $1,000.00 sito, = 1, =11 magazzino, lotto meno. = B1
--   Entrata prodotti 2: Quantità = 50. pc, importo = $800.00 sito, = 1, =11 magazzino, lotto meno. = B2
+-   Entrata prodotti 1: Quantità = 100. pz, Importo = $ 1.000, 00, Sito = 1, Magazzino =11 Batch n. = B1
+-   Entrata prodotti 2: Quantità = 50. pz, Importo = $800,00, Sito = 1, Magazzino =11 Batch n. = B2
 
 Nella seguente tabella viene visualizzato il risultato del calcolo per un oggetto di costo. È possibile visualizzare il risultato nella pagina **Oggetto di costo**.
 
@@ -130,10 +130,10 @@ Nella seguente tabella viene visualizzato il risultato del calcolo per un oggett
 <a name="see-also"></a>Vedere anche
 --------
 
-[Cost objects](cost-object.md)
+[Oggetti di costo](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Voci di costo](cost-entries.md)
 
-[Novità e variabile in Microsoft Dynamics AX (/dynamics365/operations/dev-itpro/get-started/what] - nuova è variabile)
+[Novità e modifiche in Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>Risorse Operations
 
+[!include[banner](../includes/banner.md)]
+
+
 Le risorse operative eseguono le attività di un progetto o di un processo di produzione. Possono essere di diversi tipi e possono avere capacità diverse. 
 
 <a name="operations-resources"></a>Risorse Operations
@@ -80,5 +83,7 @@ Quando un gruppo di risorse viene utilizzato come cella di lavoro produzione sne
 
 ## <a name="costing-resources"></a>Risorsa per la determinazione costi
 Quando si definisce un'attività, ad esempio un'operazione del ciclo di lavorazione o una previsione di ore per il progetto, è possibile specificare il fabbisogno di una risorsa operativa o di un gruppo di risorse specifico. Tuttavia, è inoltre possibile specificare il fabbisogno di una risorsa operativa di un tipo specifico o di una risorsa operativa con una funzione o una competenza specifica. Per questo motivo, l'effettiva assegnazione della risorsa non viene effettuata fino a quando l'attività non è stata programmata e la capacità non è stata prenotata. Di conseguenza, in un'operazione del ciclo di lavorazione è possibile specificare che la stima e il calcolo DBA devono essere basati su una risorsa operativa specifica. Questa risorsa operativa viene definita come la risorsa per la determinazione dei costi. È inoltre possibile trasferire le categorie costi e i tempi operativi dalla risorsa per la determinazione dei costi all'attività. Se l'operazione è programmata, per la stima e il calcolo DBA viene utilizzata la risorsa operativa effettivamente programmata.
+
+
 
 

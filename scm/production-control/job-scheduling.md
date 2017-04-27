@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>Programmazione processo
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulla programmazione processi, ovvero una forma più dettagliata di programmazione della programmazione operazioni. È possibile utilizzare la programmazione processi per pianificare i singoli processi o ordini di lavorazione e controllare l'ambiente di produzione.
 
 È possibile utilizzare la programmazione processi per pianificare i singoli processi o ordini di lavorazione e controllare l'ambiente di produzione. La programmazione processi consente di suddividere ciascuna operazione in singoli processi o singole attività. I processi vengono quindi assegnati alle risorse operative che li eseguiranno. La programmazione processi consente inoltre di sincronizzare tutti i processi a cui fa riferimento il processo selezionato. È possibile specificare una data e un'ora di inizio o fine per il processo, quindi eseguire la programmazione. L'ora specificata può essere l'ora di inizio o di fine a seconda della direzione di programmazione. Questa funzionalità viene utilizzata, ad esempio, quando un processo può essere eseguito solo in un computer alla volta o quando si desidera ottimizzare il processo che viene eseguito per ciascuna risorsa.
@@ -39,7 +42,7 @@ La programmazione processi include le seguenti attività:
 -   Suddividere le operazioni in processi.
 -   Programmare i processi in base alle date e alle ore per le risorse specificate per l'operazione correlata.
 -   Calcolare le ore di inizio e di fine per ciascun processo. È possibile utilizzare la funzione di capacità limitata per assicurarsi che non si verifichi una sovrapposizione di orari.
--   Stabilire in quali risorse nel gruppo di risorse eseguire il processo. Questa attività è necessario che un gruppo di risorse venga specificato per un'operazione. La programmazione processi consente di selezionare le risorse o i gruppi di risorse in base al lead time più breve e di considerare tutte le prenotazioni precedenti delle risorse.
+-   Stabilire in quali risorse nel gruppo di risorse eseguire il processo. Questa attività richiede che un gruppo di risorse venga specificato per un'operazione. La programmazione processi consente di selezionare le risorse o i gruppi di risorse in base al lead time più breve e di considerare tutte le prenotazioni precedenti delle risorse.
 -   Esplodere le operazioni in processi quando si esegue la programmazione processi. I processi vengono programmati per data e ora in base all'ordine specificato dal ciclo di lavorazione produzione. L'impostazione dell'operazione determina i processi da esplodere durante la fase di programmazione. Il gruppo di cicli di lavorazione assegnato all'operazione determina se i processi vengono generati. Un processo viene generato solo se ha una durata specifica. Ad esempio, un processo di tempo di trasporto viene generato se il tempo di trasporto è stato specificato per l'operazione selezionata.
 
 ## <a name="scheduling-direction"></a>Direzione della programmazione
@@ -73,5 +76,7 @@ Le risorse vengono assegnate ai processi con la programmazione processi. È poss
 
 ## <a name="resource-efficiency"></a>Efficienza delle risorse
 La programmazione processi considera le percentuali di efficienza specificate per le risorse. Le percentuali di efficienza riducono o aumentano il tempo prenotato per la risorsa. Di conseguenza, anche il lead time aumenterà o diminuirà. Per il calcolo viene utilizzata la seguente formula: Tempo di programmazione = Tempo × 100 ÷ Percentuale efficienza. In questa formula, *Tempo* indica sia il tempo di esecuzione che il tempo di attrezzaggio.
+
+
 
 

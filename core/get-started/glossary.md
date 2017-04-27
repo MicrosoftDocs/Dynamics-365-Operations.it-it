@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 per il glossario di operazioni
+title: Glossario di Dynamics 365 for Operations
 description: Il glossario di Microsoft Dynamics 365 for Operations contiene le definizioni dei concetti e dei termini chiave relativi al prodotto Microsoft Dynamics 365 for Operations.
 author: tonyafehr
 manager: AnnBe
@@ -25,13 +25,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 per il glossario di operazioni
+# <a name="dynamics-365-for-operations-glossary"></a>Glossario di Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 Il glossario di Microsoft Dynamics 365 for Operations contiene le definizioni dei concetti e dei termini chiave relativi al prodotto Microsoft Dynamics 365 for Operations. 
 
 ### <a name="a"></a>**A**
 
-###### <a name="accounting-journal"></a>**accounting journal**
+###### <a name="accounting-journal"></a>**giornale di registrazione contabile**
 
 Giornale utilizzato per registrare le conseguenze finanziarie di eventi contabili in un sistema contabile.
 
@@ -73,7 +76,7 @@ Numero di giorni in un periodo di tempo utilizzati per segnalare un saldo pagame
 
 Rendiconto della posizione finanziaria di un'organizzazione che indica lo stato di cespiti, passività e capitale netto in una data specificata.
 
-###### <a name="balance-sheet-account"></a>**balance sheet account**
+###### <a name="balance-sheet-account"></a>**conto dello stato patrimoniale**
 
 Conto che descrive le modifiche al valore riportate in uno stato patrimoniale.
 
@@ -89,7 +92,7 @@ Attributo del prodotto di un lotto di trasferimento o di processo.
 
 Data entro la quale è consigliabile consumare un prodotto per godere della qualità e delle caratteristiche migliori.
 
-###### <a name="best-before-period"></a>**best before period**
+###### <a name="best-before-period"></a>**periodo di consumo consigliato**
 
 Periodo di tempo entro il quale è possibile godere della qualità e delle caratteristiche ottimali di un prodotto.
 
@@ -109,23 +112,23 @@ Sospensione di un prodotto o di un documento.
 
 Procedura di autorizzazione alla spesa solo quando i fondi di budget possono essere prenotati per far fronte agli impegni di pagamento futuro.
 
-###### <a name="budget-control-dimension"></a>**budget control dimension**
+###### <a name="budget-control-dimension"></a>**dimensione di controllo del budget**
 
 Combinazione di valori di dimensione finanziaria attivi utilizzati per allocare i fondi di budget al pagamento delle attività pianificate.
 
-###### <a name="budget-control-rule"></a>**budget control rule**
+###### <a name="budget-control-rule"></a>**regola di controllo del budget**
 
 Codifica di una decisione aziendale per la verifica della spesa effettiva e di quella impegnata rispetto ai fondi di budget disponibili allocati per attività dettagliate o aggregate definite da combinazioni valide di valori di dimensione di controllo del budget.
 
-###### <a name="budget-cycle-time-span"></a>**budget cycle time span**
+###### <a name="budget-cycle-time-span"></a>**durata ciclo di budget**
 
 Periodo di tempo specificato come numero di periodi di calendario fiscale. Il periodo di budget può essere diverso dal periodo contabile.
 
-###### <a name="budget-group"></a>**budget group**
+###### <a name="budget-group"></a>**gruppo di budget**
 
 Insieme di valori di dimensione finanziaria in una gerarchia di dimensioni budget utilizzato per calcolare i fondi di budget aggregati allocati ai valori di dimensione finanziaria di livello superiore sommando i fondi di budget allocati ai valori di dimensione finanziaria di livello inferiore.
 
-###### <a name="budget-model"></a>**budget model**
+###### <a name="budget-model"></a>**modello di budget**
 
 Struttura per la programmazione delle spese e delle allocazioni dei fondi di budget.
 
@@ -147,7 +150,7 @@ Unità operativa semi-autonoma creata per conseguire gli obiettivi aziendali str
 
 Quantità massima di lavoro programmato che un centro di lavoro può eseguire al livello di capacità necessario.
 
-###### <a name="capacity-planning"></a>**capacity planning**
+###### <a name="capacity-planning"></a>**pianificazione capacità**
 
 Procedura per la determinazione dei fabbisogni di capacità risorse per soddisfare la domanda di output futuro durante periodi di tempo specifici.
 
@@ -191,11 +194,11 @@ Articolo prodotto insieme a un altro articolo.
 
 Unità operativa i cui manager sono responsabili delle spese a budget ed effettive.
 
-###### <a name="cost-of-goods-sold"></a>**cost of goods sold**
+###### <a name="cost-of-goods-sold"></a>**costo del venduto**
 
 Categoria contabile utilizzata per sommare le conseguenze finanziarie della produzione e della gestione del magazzino.
 
-###### <a name="cost-variance"></a>**cost variance**
+###### <a name="cost-variance"></a>**scostamento costo**
 
 Differenza tra un costo previsto e un costo effettivo.
 
@@ -249,7 +252,7 @@ Il mezzo utilizzato per la distribuzione nel test UAT (User Acceptance Testing) 
 
 Uno strumento di Visual Studio utilizzato per creare, aggiornare e controllare gli elementi del modello.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**. \ \ dimensioni finanziarie configurazione basata su dimensioni **
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\financial-dimensions\configurazione basata su dimensioni**
 
 Tecnologia di configurazione utilizzata per creare varianti prodotto selezionando valori per dimensioni prodotto.
 
@@ -261,7 +264,7 @@ Prodotto identificabile in modo univoco.
 
 Metodo di sospensione di un processo operativo mentre gli articoli ordinati sono sottoposti a un processo di controllo della qualità.
 
-###### <a name="document-management-system"></a>**document management system**
+###### <a name="document-management-system"></a>**sistema di gestione documenti**
 
 Servizio dell'applicazione per l'archiviazione e la gestione dei documenti di un'organizzazione.
 
@@ -293,7 +296,7 @@ Personalizzazione di una domanda di lavoro aggiungendo funzionalità a un codice
 
 Classificatore di dati finanziari creato da parti, ubicazioni, prodotti e attività di un'organizzazione e utilizzato per la creazione di report gestionali.
 
-###### <a name="financial-dimension-value"></a>**financial dimension value**
+###### <a name="financial-dimension-value"></a>**valore di dimensione finanziaria**
 
 Elemento dati nel dominio di una dimensione finanziaria.
 
@@ -353,7 +356,7 @@ Procedura di abbinamento dei prezzi e delle quantità di prodotti delle fatture 
 
 Raggruppamento in famiglie di prodotti utilizzato a scopo di previsione e programmazione della domanda.
 
-###### <a name="item-relation"></a>**item relation**
+###### <a name="item-relation"></a>**relazione articolo**
 
 Riferimento al gruppo di allocazione articolo o all'articolo e alle relative dimensioni prodotto in una regola kanban.
 
@@ -375,7 +378,7 @@ Attività di trasferimento o elaborazione in un flusso di produzione attivata da
 
 Prelievo di componenti di prodotti dal magazzino allo scopo di completare i processi di produzione kanban.
 
-###### <a name="kanban-product-quantity"></a>**kanban product quantity**
+###### <a name="kanban-product-quantity"></a>**quantità di prodotti kanban**
 
 Numero di richieste articoli effettuate su un kanban in base a una regola kanban.
 
@@ -499,9 +502,9 @@ Parte di un prodotto.
 
 ###### <a name="product-dimension"></a>**dimensioni prodotto**
 
-Dimensione, Colore, o gli attributi del prodotto di configurazione cui vengono utilizzati. \ \ dimensioni finanziarie configurazione basata su dimensioni.
+Attributi del prodotto quali dimensioni, colore o configurazione utilizzati per ..\financial-dimensions\configurazione basata su dimensioni.
 
-###### <a name="product-family"></a>**product family**
+###### <a name="product-family"></a>**famiglia di prodotti**
 
 Raggruppamento univoco di articoli, servizi o diritti che partecipano alle stesse attività di produzione o consegna o che vengono offerti agli stessi segmenti di mercato. In Microsoft Dynamics 365 for Operations il raggruppamento viene rappresentato tramite una chiave di allocazione previsione.
 
@@ -509,23 +512,23 @@ Raggruppamento univoco di articoli, servizi o diritti che partecipano alle stess
 
 Rappresentazione standard o funzionale di un prodotto che costituisce la base della configurazione delle varianti prodotto.
 
-###### <a name="product-receipt"></a>**product receipt**
+###### <a name="product-receipt"></a>**entrata prodotti**
 
 Documento di origine in cui viene documentata l'entrata dei prodotti ordinati, dei prodotti resi o dei prodotti ricevuti alla consegna.
 
-###### <a name="product-variant"></a>**product variant**
+###### <a name="product-variant"></a>**variante prodotto**
 
 Configurazione di una rappresentazione generale prodotto.
 
-###### <a name="production-flow"></a>**production flow**
+###### <a name="production-flow"></a>**flusso di produzione**
 
 Processo di produzione progettato tramite i principi della produzione snella.
 
-###### <a name="production-flow-model"></a>**production flow model**
+###### <a name="production-flow-model"></a>**modello di flusso di produzione**
 
 Rappresentazione della capacità produttiva fornita da un gruppo di celle di lavoro durante il processo del flusso di produzione.
 
-###### <a name="production-order"></a>**production order**
+###### <a name="production-order"></a>**ordine di produzione**
 
 Documento di origine in cui vengono documentati i requisiti per la produzione di articoli allo scopo di soddisfare una domanda.
 
@@ -599,7 +602,7 @@ Prodotto la cui distribuzione è limitata o vincolata da un'autorità governativ
 
 Documento di origine in cui viene documentato un contratto tra due o più parti sulla base di un principio secondo il quale la parte venditrice si impegna a vendere una quantità o un valore specifico di prodotto nell'arco di un periodo di tempo in cambio di prezzi favorevoli e sconti.
 
-###### <a name="sales-agreement-policy"></a>**sales agreement policy**
+###### <a name="sales-agreement-policy"></a>**criteri contratto di vendita**
 
 Criteri che autorizzano le parti a modificare i termini del contratto di vendita.
 
@@ -615,7 +618,7 @@ Documento di origine in cui viene documentata un'offerta di fornitura di una qua
 
 Insieme definito di privilegi di accesso dell'applicazione. Il ruolo di sicurezza assegnato a un utente determina le attività che l'utente può eseguire e le parti dell'interfaccia utente che può visualizzare. Per accedere al sistema, è necessario che a tutti gli utenti venga assegnato almeno un ruolo di sicurezza.
 
-###### <a name="segregation-of-duties"></a>**segregation of duties**
+###### <a name="segregation-of-duties"></a>**separazione dei compiti**
 
 Principio di progettazione avente lo scopo di ridurre i rischi di frode, irregolarità ed errori separando i compiti di registrazione, verifica, autorizzazione, protezione dei cespiti e revisione periodica di coloro che partecipano a, documentano o registrano le conseguenze finanziarie delle transazioni economiche.
 
@@ -697,7 +700,7 @@ Unità operativa che controlla uno o più flussi di produzione.
 
 Metodo di modellazione delle rappresentazioni generali prodotto e di ricerca di configurazioni varianti prodotto.
 
-###### <a name="vat-value-added-tax"></a>** VAT (imposta sul valore aggiunto (VAT) **
+###### <a name="vat-value-added-tax"></a>**IVA (imposta sul valore aggiunto)**
 
 Imposta sui prodotti a ogni fase della produzione basata sul valore aggiunto durante tale fase.
 
@@ -705,7 +708,7 @@ Imposta sui prodotti a ogni fase della produzione basata sul valore aggiunto dur
 
 Elenco di offerte di prodotti disponibili per l'acquisto da un fornitore.
 
-###### <a name="vendor-invoice"></a>**vendor invoice**
+###### <a name="vendor-invoice"></a>**fattura fornitore**
 
 Documento di origine in cui viene documentata una richiesta di pagamento fornitore. Una fattura fornitore può fare riferimento a uno o più ordini fornitore. Quando la fattura fornitore viene autorizzata, è possibile effettuare un pagamento al fornitore.
 
@@ -722,5 +725,7 @@ Persona che assume il ruolo di un dipendente o di un terzista e che viene pagato
 ###### <a name="workspace"></a>**area di lavoro**
 
 Una pagina che fornisce una panoramica di una delle attività che l'utente esegue. La pagina utilizza riquadri, elenchi e grafici per visualizzare il lavoro in sospeso e i dati correlati da più fonti, oltre alle attività frequenti correlate ai dati. I riquadri visualizzati nella sezione di riepilogo dell'area di lavoro vengono inoltre visualizzati nella sezione correlata del dashboard.
+
+
 
 

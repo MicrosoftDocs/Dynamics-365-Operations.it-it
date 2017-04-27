@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="online-store-overview"></a>Panoramica sui negozi online
+
+[!include[banner](includes/banner.md)]
+
 
 Questo articolo fornisce informazioni sui negozi al dettaglio online e su come impostarli in Microsoft Dynamics 365 for Operations.
 
@@ -50,5 +53,7 @@ Prima di creare un negozio online, è necessario definire la gerarchia di naviga
 
 ## <a name="organization-hierarchies"></a>Gerarchie organizzative
 Le gerarchie organizzative vengono utilizzate per strutturare canali di vendita al dettaglio. Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda. Quando si impostano i negozi online, è possibile aggiungerli a una gerarchia organizzativa. I punti vendita, quindi, condividono i dati utilizzati per assortimenti, rifornimento e dichiarazione. Quando si crea una gerarchia organizzativa, è necessario assegnarle uno scopo. Lo scopo indica la modalità con cui viene utilizzata la gerarchia nella struttura aziendale. È possibile creare una gerarchia organizzativa per le operazioni del punto vendita e utilizzare tale gerarchia per assortimenti, rifornimento e reporting. In alternativa, è possibile creare una gerarchia organizzativa separata per ogni scopo. È inoltre possibile creare più gerarchie con lo stesso scopo e assegnare un canale separato a ognuna di esse. Se si intende pubblicare cataloghi di prodotti al dettaglio nel negozio online, è necessario almeno aggiungere il negozio online a una gerarchia organizzativa per gli assortimenti. I prodotti di un catalogo vengono selezionati dagli assortimenti assegnati al negozio online. Quando il catalogo viene pubblicato, il processo di pubblicazione confronta le date di validità per l'assortimento assegnato al negozio online ai prodotti inclusi nel catalogo per determinare i prodotti da rendere disponibili nel negozio online.
+
+
 
 

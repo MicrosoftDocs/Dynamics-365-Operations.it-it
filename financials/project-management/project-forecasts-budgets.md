@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-forecasts-and-budgets"></a>Budget e previsioni di progetto
 
+[!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 per le operazioni sono disponibili due metodi gestire e controllare i progetti: previsioni di progetto e budget di progetto. 
+
+
+Microsoft Dynamics 365 for Operations offre due modi per gestire e controllare i progetti: previsioni di progetto e budget di progetto. 
 
 Utilizzare le previsioni di progetto se l'organizzazione si basa su una prospettiva operativa ed è incentrata su ricavi e costi derivati da transazioni specifiche. Utilizzare l'impostazione del budget se l'organizzazione è incentrata maggiormente sugli importi finanziari. 
 
@@ -45,9 +48,9 @@ Ciascun metodo ha i relativi vantaggi. È necessario considerare i seguenti punt
 | **Variabili di transazione** | Quando si immettono le transazioni previsionali, è possibile utilizzare ogni attributo esistente per una transazione effettiva. Ciò garantisce un livello di dettaglio maggiore nella previsione. Ad esempio, è possibile immettere i dettagli relativi a quantità, lavoratori, articoli o proprietà riga.         | Quando si immettono i dettagli relativi al budget, è possibile utilizzare solo importi, categorie e attività.                                                                                    |
 | **Sicurezza**              | Le previsioni si basano sulle transazioni immesse nei moduli previsionali e non prevedono un meccanismo di controllo dei processi. Qualsiasi lavoratore con autorizzazioni per un modulo previsionale può effettuare revisioni delle informazioni senza necessità di approvazione.                                        | L'impostazione del budget utilizza il sistema per la gestione del flusso di lavoro, che consente di gestire le modifiche e di mantenere uno storico delle revisioni.                                                       |
 | **Tipi di voce**           | Le voci delle transazioni previsionali si basano sul numero di unità e sui prezzi di costo e di unità di vendita.                                                                                                                                                       | I dettagli relativi al budget si basano sugli importi, che vengono suddivisi tra costi e ricavi.                                                                                        |
-| **Forecast models**       | Poiché è necessario associare ogni previsione a un modello, è possibile creare più modelli previsionali e impostare dei sottomodelli.                                                                                                                               | L'impostazione del budget di progetto impone dei limiti per i modelli previsionali utilizzati per il budget. Un numero limitato di modelli previsionali consente di aumentare la coerenza delle proiezioni.                           |
+| **Modelli previsionali**       | Poiché è necessario associare ogni previsione a un modello, è possibile creare più modelli previsionali e impostare dei sottomodelli.                                                                                                                               | L'impostazione del budget di progetto impone dei limiti per i modelli previsionali utilizzati per il budget. Un numero limitato di modelli previsionali consente di aumentare la coerenza delle proiezioni.                           |
 | **Sovraccarichi di costo**         | È possibile consentire o impedire solo l'immissione di transazioni che determinerebbero un sovraccarico di costo.                                                                                                                                                                | L'impostazione del budget di progetto rende disponibili opzioni aggiuntive di controllo per gli utenti. È possibile consentire avvisi e sovraccarichi di costo.                                                                   |
-| **Control**               | Il controllo previsionale viene eseguito tramite la riduzione previsionale. Gli importi effettivi vengono sottratti dai saldi delle transazioni previsionali senza audit trail. Ciò può complicare l'individuazione del punto in cui hanno avuto luogo le transazioni effettive.                   | Nel controllo del budget di progetto, gli importi effettivi vengono sottratti agli importi del budget residuo. Ciò consente un audit trail più chiaro.                                   |
+| **Controllo**               | Il controllo previsionale viene eseguito tramite la riduzione previsionale. Gli importi effettivi vengono sottratti dai saldi delle transazioni previsionali senza audit trail. Ciò può complicare l'individuazione del punto in cui hanno avuto luogo le transazioni effettive.                   | Nel controllo del budget di progetto, gli importi effettivi vengono sottratti agli importi del budget residuo. Ciò consente un audit trail più chiaro.                                   |
 
 ## <a name="project-forecasts"></a>Previsioni progetto
 Quando si utilizzano le previsioni di progetto, è possibile immettere le transazioni previsionali nei moduli di previsione per ciascun tipo di transazione. Ogni attributo disponibile per una transazione effettiva può essere utilizzato per una transazione previsionale, ad esempio la redditività della riga, gli attributi della riga, i lavoratori o le descrizioni. È inoltre possibile prevedere quanto tempo dopo aver sostenuto un costo verrà emessa la fattura a un cliente. 
@@ -62,7 +65,7 @@ I modelli previsionali possono utilizzare la riduzione di previsione come meccan
 
 Le previsioni di progetto possono essere riviste, copiate, eliminate oppure trasferite a un budget di contabilità generale. Non è tuttavia previsto alcun controllo dei processi. Qualsiasi lavoratore con autorizzazione per un modulo di previsione può effettuare revisioni senza ulteriore verifica.
 
--   ** Revisione ** possibile modificare una transazione previsionale negli stessi moduli in cui erano state create.
+-   **Rivedi:** consente di effettuare la revisione di una transazione previsionale negli stessi moduli in cui erano state create le voci originali.
 -   **Copia o elimina**: quando si copiano transazioni previsionali, vengono copiate le righe di transazione di un modello previsionale in un altro modello previsionale. Quando si eliminano previsioni, vengono eliminate le transazioni previsionali da un modello previsionale. Per limitare le transazioni previsionali copiate o eliminate, selezionare i tipi di transazione e le date specifici. Ciò consente di copiare o eliminare solo parti specifiche di una previsione.
 -   **Trasferisci**: quando si trasferisce una previsione di progetto a un budget di contabilità generale, vengono trasferite le transazioni previsionali di un modello previsionale a un budget di contabilità generale. È possibile sovrascrivere tutte le transazioni trasferite in precedenza nel budget di contabilità generale nel quale si trasferisce la previsione di progetto in uso.
 
@@ -78,6 +81,8 @@ I budget di progetto vengono associati automaticamente con due modelli prevision
 ## <a name="forecast-models"></a>Modelli previsionali
 I modelli previsionali dispongono di una gerarchia a un solo livello. Pertanto, ogni previsione di progetto deve essere associata a un modello previsionale.
 
-Se si utilizzano le previsioni di progetto, è possibile identificare i modelli come sottomodelli. È possibile quindi creare le previsioni per reparto, periodo di tempo, o area. Ad esempio, è possibile creare un modello previsionale per un anno e quindi creare sottomodelli per le previsioni relative alle aree del Nordest, Sudest, Sudovest e Nordovest inviate su base regionale. La selezione di diverse opzioni disponibili nei report, è possibile visualizzare le informazioni per previsione totale o per sottomodello.
+Se si utilizzano le previsioni di progetto, è possibile identificare i modelli come sottomodelli. In questo modo è possibile creare previsioni per reparto, periodo di tempo o area. Ad esempio, è possibile creare un modello previsionale per un anno e quindi creare sottomodelli per le previsioni relative alle aree del Nordest, Sudest, Sudovest e Nordovest inviate su base regionale. Scegliendo opzioni diverse nei report disponibili, è possibile visualizzare le informazioni per previsione totale o per sottomodello.
+
+
 
 

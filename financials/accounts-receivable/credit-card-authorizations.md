@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Impostazione, autorizzazione e acquisizione della carta di credito
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica dell'autorizzazione della carta di credito in Microsoft Dynamics AX. Sono riportate informazioni sull'impostazione di un servizio di pagamento, sull'aggiunta di una carta di credito a un ordine cliente e sull'annullamento di un'autorizzazione.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Impostazione del servizio di pagamento con carta di credito
@@ -55,7 +58,7 @@ Quando una carta di credito viene autorizzata, il numero della carta e il nome d
 
 ### <a name="address-verification"></a>Verifica indirizzo
 
-Le informazioni sulla verifica dell'indirizzo vengono inviate sempre al fornitore dei servizi di pagamento. È possibile definire la quantità di informazioni necessaria per una transazione in difetto. Assicurarsi di controllare con il fornitore per determinare se accettare tali informazioni. Di seguito sono le opzioni per la verifica dell'indirizzo:
+Le informazioni sulla verifica dell'indirizzo vengono inviate sempre al fornitore dei servizi di pagamento. È possibile stabilire la quantità di informazioni necessaria per accettare una transazione. Assicurarsi di controllare con il fornitore se accetta queste informazioni. Di seguito sono le opzioni per la verifica dell'indirizzo:
 -   **Accetta sempre transazione**: consente di accettare la transazione indipendentemente dai risultati della verifica dell'indirizzo.
 -   **Titolare conto**: confrontare il nome del titolare della carta per la transazione con le informazioni del gestore della carta di credito.
 -   **Indirizzo di fatturazione**: confrontare il nome del titolare della carta e l'indirizzo di fatturazione per la transazione con le informazioni del gestore della carta di credito.
@@ -68,10 +71,12 @@ Per ogni tipo di carta di credito supportato, è possibile specificare il livell
 -   **Livello 3**: trasferire le informazioni di livello 2, più le informazioni sulla riga ordine.
 
 ## <a name="partial-payments"></a>Pagamenti parziali
-Se si spedisce parte di un ordine, l'importo dell'ordine parziale viene acquisito e l'autorizzazione, che si riferiva all'importo dell'intero ordine, viene chiusa. Una nuova autorizzazione verrà inviata per l'importo rimanente dell'ordine non spedita.
+Se si spedisce parte di un ordine, l'importo dell'ordine parziale viene acquisito e l'autorizzazione, che si riferiva all'importo dell'intero ordine, viene chiusa. Quindi, una nuova autorizzazione viene inviata per l'importo rimanente dell'ordine non spedito.
 
 ## <a name="voiding-an-authorization"></a>Annullamento di un'autorizzazione 
 Per annullare un'autorizzazione della carta di credito, è possibile modificare il metodo di pagamento per sceglierne uno non correlato a una carta di credito.
+
+
 
 
 

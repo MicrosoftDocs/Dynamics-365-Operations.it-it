@@ -1,6 +1,6 @@
 ---
-title: BI &amp; dichiarare la home page
-description: Di seguito sono elencati BI &amp; il reporting delle risorse disponibili in Microsoft Dynamics 365 per le operazioni.
+title: Home page di BI e report
+description: In questo argomento sono elencate le risorse per BI e report disponibili in Microsoft Dynamics 365 for Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI &amp; dichiarare la home page
+# <a name="bi-amp-reporting-home-page"></a>Home page di BI e report
 
-Di seguito sono elencati BI &amp; il reporting delle risorse disponibili in Microsoft Dynamics 365 per le operazioni.
+[!include[banner](../includes/banner.md)]
+
+
+In questo argomento sono elencate le risorse per BI e report disponibili in Microsoft Dynamics 365 for Operations. 
 
 <a name="working-with-aggregate-data"></a>Utilizzo di dati aggregati
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Analisi](analytics.md)
 -   [Modelli di aggregazione in tempo reale, in memoria sostituiscono cubi SSAS](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Di modellizzazione e utilizzare i dati aggregati] () model-aggregate-data.md
--   [Migri un cubo aggiornato di vendita R3 di Dynamics AX 2012 al punto vendita dell'entità (]. \ \ migrazione- aggiornamento migrate-upgraded-cube-entity-store.md)
+-   [Modellazione e utilizzo dei dati aggregati](model-aggregate-data.md)
+-   [Migrazione di un cubo Vendite Dynamics AX 2012 R3 aggiornato all'archivio entità](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>In Self Service
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Report self-service
+-   [Integrazione di Power BI](power-bi-integration.md)
 -   [Configurazione dell'integrazione di Power BI per le aree di lavoro](configure-power-bi-integration.md)
 -   [Creare un report Power BI utilizzando i dati di Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
--   [Creare un report di Power BI e il dashboard] () create-powerbi-report-dashboard.md
--   [Il Manica di prestazione di potenza contenuto al dettaglio BI] () retail-channel-performance-dashboard-power-bi-data.md
--   [Il prestazioni finanziarie di Power BI contenuto] () financial-performance-power-bi-content-pack.md
--   [Vendite e di redditività di prestazione di Power BI contenuto] () sales-profitability-performance-content-pack.md
+-   [Creare un report e un dashboard Power BI](create-powerbi-report-dashboard.md)
+-   [Contenuto Power BI per le prestazioni del canale di vendita al dettaglio](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Contenuto Power BI per le prestazioni finanziarie](financial-performance-power-bi-content-pack.md)
+-   [Contenuto Power BI per le prestazioni di vendite e redditività](sales-profitability-performance-content-pack.md)
 -   [Utilizzare una configurazione di creazione di report elettronici per fornire a Power BI dati di Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Compilare esperienze analitiche incorporate nel client Dynamics 365 for Operations
@@ -95,6 +98,8 @@ Di seguito sono elencati BI &amp; il reporting delle risorse disponibili in Micr
 -   [ER Usare file di gestione documenti in output di formato (parte 5: modificare ed eseguire il formato)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (guida attività)
 -   [ER Generare documenti elettronici per i pagamenti utilizzando una configurazione di formato](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (guida attività)
 -   [ER Aggiornare il formato adottandone una nuova versione di base](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (guida attività)
+
+
 
 
 

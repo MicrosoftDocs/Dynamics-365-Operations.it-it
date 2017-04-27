@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-overview"></a>Panoramica sulla pianificazione del budget
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene illustrata la pianificazione del budget e sono contenute informazioni per semplificare la configurazione della pianificazione del budget e l'impostazione dei processi di pianificazione del budget.
 
 <a name="overview-of-budget-planning"></a>Panoramica della pianificazione del budget
@@ -34,7 +37,7 @@ In questo articolo viene illustrata la pianificazione del budget e sono contenut
 
 La pianificazione del budget viene eseguita quando si stanno preparando i budget che verranno implementati da un'organizzazione. Un'organizzazione può configurare la pianificazione del budget e quindi impostare i processi di pianificazione del budget per soddisfare i criteri, le procedure e i requisiti della preparazione del budget. 
 
-Quando comprendere i concetti e la terminologia utilizzati in Microsoft Dynamics 365 per le operazioni, sarà più semplice per implementare la pianificazione del budget nell'organizzazione.
+Quando si capiscono i concetti e la terminologia utilizzati in Microsoft Dynamics 365 for Operations, sarà più facile implementare la pianificazione del budget nell'organizzazione.
 
 ### <a name="key-terms"></a>Termini importanti
 
@@ -44,7 +47,7 @@ Quando comprendere i concetti e la terminologia utilizzati in Microsoft Dynamics
 -   **Fasi di pianificazione del budget** Le fasi di pianificazione del budget definiscono i passaggi che un piano di budget deve seguire dall'approvazione iniziale a quella finale. Le fasi di pianificazione del budget sono disposte in flussi di lavoro di pianificazione del budget.
 -   **Flussi di lavoro di pianificazione del budget** I flussi di lavoro di pianificazione del budget sono costituiti e definiscono le fasi della pianificazione del budget. I flussi di lavoro di pianificazione del budget sono associati ai flussi di lavoro impostazione budget. I flussi di lavoro impostazione budget sono i processi automatizzati e manuali che spostano i piani di budget tra le fasi di pianificazione del budget.
 
-[terminologia di pianificazione del budget![(]. /media/budgetplanning-terms-1024x504.png)](. /media/budgetplanning-terms.png)
+[Terminologia relativa alla pianificazione del budget![](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="common-tasks"></a>Attività comuni
 
@@ -55,7 +58,7 @@ Quando comprendere i concetti e la terminologia utilizzati in Microsoft Dynamics
 -   Instradare automaticamente i piani di budget, insieme a fogli di lavoro, documenti di motivazione e altri allegati, per la revisione e l'approvazione.
 -   Consolidare più piani di budget da un livello più basso dell'organizzazione in un unico piano di budget padre a un livello superiore dell'organizzazione. È inoltre possibile elaborare un piano di budget singolo a un livello superiore dell'organizzazione e allocare il budget ai livelli minimi dell'organizzazione.
 
-La pianificazione del budget è integrata con un altro Microsoft Dynamics 365 per i moduli di operazioni. Pertanto, si possono utilizzare le informazioni provenienti da budget precedenti, cespiti e risorse umane. Poiché la pianificazione del budget è integrato anche in Microsoft Excel e Microsoft Word, è possibile utilizzare questi programmi per lavorare con i dati di pianificazione del budget. Ad esempio, un responsabile budget può esportare la richiesta del budget di un reparto in uno scenario di piani di budget in un foglio di lavoro Excel. I dati possono essere analizzati, aggiornati e essere tracciati nel foglio di lavoro e quindi essere pubblicati alle righe di piano di budget.
+La pianificazione del budget è integrata nei moduli di Microsoft Dynamics 365 for Operations. Pertanto, si possono utilizzare le informazioni provenienti da budget precedenti, cespiti e risorse umane. Poiché la pianificazione del budget è integrato anche in Microsoft Excel e Microsoft Word, è possibile utilizzare questi programmi per lavorare con i dati di pianificazione del budget. Ad esempio, un responsabile budget può esportare la richiesta del budget di un reparto in uno scenario di piani di budget in un foglio di lavoro Excel. I dati possono essere analizzati, aggiornati e essere tracciati nel foglio di lavoro e quindi essere pubblicati alle righe di piano di budget.
 
 ## <a name="configuring-budget-planning"></a>Configurazione della pianificazione del budget
 La pagina **Configurazione pianificazione del budget** contiene la maggior parte delle impostazioni necessarie per impostare la pianificazione del budget. Nelle sezioni seguenti vengono descritti alcuni fattori chiave da considerare per configurare la pianificazione del budget. Dopo aver completato la configurazione, si impostano i processi di pianificazione del budget.
@@ -64,11 +67,11 @@ La pagina **Configurazione pianificazione del budget** contiene la maggior parte
 
 Il primo passo facoltativo sebbene consigliato consiste nel creare uno schema contenente la procedura dell'organizzazione per la formulazione del budget. È possibile utilizzare un metodo qualsiasi per creare questo schema. La figura seguente illustra un esempio generico, in cui flussi di lavoro separati di pianificazione del budget vengono creati per diversi livelli dell'organizzazione. Le fasi sono definite all'interno di ciascun flusso di lavoro e vengono assegnati scenari specifici a ciascuna fase per utilizzare i dati di budget. Le attività vengono eseguite per spostare i dati da una fase alla successiva. Ad esempio, gli importi possono essere aggregati o allocati a diversi conti, approvazioni o altra revisione. In questo esempio, il testo corsivo indica uno scenario che non è modificabile durante la fase oppure i dati dello storico o che sono stati approvati in una fase precedente e pertanto non devono essere modificati. 
 
-[budget![che prevede schema generico (]. /media/budgetplanninggenericschema-300x145.png)](. /media/budgetplanninggenericschema.png) 
+[![Schema generico di pianificazione del budget](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
-Nel seguente esempio, la sede centrale stima gli importi iniziali di riferimento del budget vengono distribuiti ai reparti vendite. I reparti vendite quindi stimano e inviano la previsione di nuovo alla sede centrale, dove il responsabile budget aggrega e modifica la previsione. Infine, il responsabile budget invia gli importi del budget rettificati al responsabile finanziario per la revisione, le rettifiche finali e l'approvazione. 
+Nel seguente esempio, la sede centrale aziendale stima gli importi di base iniziale del budget e li distribuisce ai reparti vendite. I reparti vendite quindi stimano e inviano la previsione di nuovo alla sede centrale, dove il responsabile budget aggrega e modifica la previsione. Infine, il responsabile budget invia gli importi del budget rettificati al responsabile finanziario per la revisione, le rettifiche finali e l'approvazione. 
 
-[esempio dello schema di pianificazione del budget![(]. /media/budgetplanningexampleschema-300x145.png)](. /media/budgetplanningexampleschema.png)
+[![Esempio di schema di pianificazione del budget](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ###  <a name="organization-hierarchy-for-budget-planning"></a>Gerarchia organizzativa per la pianificazione del budget
 
@@ -84,17 +87,17 @@ La pianificazione del budget può seguire uno dei due modelli di sicurezza per d
 
 I flussi di lavoro di pianificazione del budget vengono utilizzati insieme ai flussi di lavoro impostazione budget per gestire la creazione e l'evoluzione del piano di budget.
 
-Un flusso di lavoro di pianificazione del budget è costituito da un insieme ordinato di fasi in cui si sposta il piano di budget. Ogni flusso di lavoro di pianificazione del budget è associato a un flusso di lavoro impostazione budget. I flussi di lavoro impostazione budget sono uno dei tipi di flussi di lavoro utilizzati in Microsoft Dynamics 365 per le operazioni. Il flusso di lavoro impostazione budget indirizza i piani di budget, insieme ai fogli di lavoro, alle motivazioni e agli allegati mediante l'organizzazione per essere rivisti e approvati. 
+Un flusso di lavoro di pianificazione del budget è costituito da un insieme ordinato di fasi in cui si sposta il piano di budget. Ogni flusso di lavoro di pianificazione del budget è associato a un flusso di lavoro impostazione budget. I flussi di lavoro impostazione budget sono uno dei tipi di flussi di lavoro utilizzati in Microsoft Dynamics  365 for Operations. Il flusso di lavoro impostazione budget indirizza i piani di budget, insieme ai fogli di lavoro, alle motivazioni e agli allegati mediante l'organizzazione per essere rivisti e approvati. 
 
 Creare il flusso di lavoro di pianificazione del budget nella sezione **Fasi del flusso di lavoro** della pagina **Configurazione pianificazione del budget**. Sarà possibile selezionare le fasi e il flusso di lavoro impostazione budget che verranno utilizzati e si potranno configurare impostazioni aggiuntive. 
 
 La procedura consigliata consiste nel creare un flusso di lavoro di pianificazione del budget per ciascun livello della gerarchia di impostazione budget. Assegnare un flusso di lavoro impostazione budget che contiene gli elementi che corrispondono alle fasi del flusso di lavoro di pianificazione del budget. Nello schema di esempio visualizzato in precedenza in questo articolo, un flusso di lavoro di pianificazione del budget viene creato per i reparti vendite e un altro viene creato per la sede centrale. Un flusso di lavoro impostazione budget sposta i piani di budget tra le fasi. 
 
-Creare il flusso di lavoro impostazione budget per la pianificazione del budget nella pagina **Flussi di lavoro impostazione budget**. Il processo è analogo a quello per creare altri flussi di lavoro di Microsoft Dynamics 365 per le operazioni. Nella figura seguente viene illustrato un esempio di un flusso di lavoro della sede centrale. 
+Creare il flusso di lavoro impostazione budget per la pianificazione del budget nella pagina **Flussi di lavoro impostazione budget**. Il processo è analogo a quello per creare altri flussi di lavoro di Microsoft Dynamics 365 for Operations.. Nella figura seguente viene illustrato un esempio di un flusso di lavoro della sede centrale. 
 
-[flusso di lavoro impostazione budget![per la pianificazione del budget (]. /media/budgetingworkflowforbudgetplanning-300x300.png)](. /media/budgetingworkflowforbudgetplanning.png) 
+[![Flusso di lavoro impostazione budget per la pianificazione del budget](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
-Il flusso di lavoro include elementi per l'allocazione ai reparti vendite e all'aggregazione dei invi, la revisione dal responsabile budget, l'approvazione dal CFO e le transizioni della fase tra ogni fase. 
+Il flusso di lavoro include gli elementi per l'allocazione ai reparti vendita e l'aggregazione degli invii, la revisione del responsabile budget, l'approvazione del responsabile finanziario e le transizioni delle fasi per ogni fase. 
 
 Assegnare il flusso di lavoro impostazione budget a ogni flusso di lavoro di pianificazione del budget nella sezione **Fasi del flusso di lavoro** della pagina **Configurazione pianificazione del budget**.
 
@@ -112,8 +115,8 @@ Nella pianificazione del budget, è possibile allocare gli importi o le quantit�
 
 Le programmazioni di allocazione allocano automaticamente le righe del piano di budget durante l'elaborazione del flusso di lavoro. È possibile eseguire le allocazioni utilizzando uno dei seguenti metodi dell'elenco **Metodo di allocazione**:
 
--   **Alloca nei periodi**: utilizzare una chiave di allocazione per periodo per allocare le righe del piano di budget dallo scenario del piano di budget di origine tra i periodi dello scenario di destinazione. ** Nota: ** Prima di poter assegnare tra più periodi, è necessario impostare le chiavi di allocazione per periodo nella pagina del **** di categorie di allocazione per periodo di ****.
--   **Alloca a dimensioni**: le righe del piano di budget vengono allocate dallo scenario del piano di budget di origine tra le dimensioni finanziarie nello scenario di destinazione. ** Nota: ** Prima di poter assegnare dimensioni, è necessario impostare i termini di allocazione budget nella pagina del **** di termini di allocazione budget di ****.
+-   **Alloca nei periodi**: utilizzare una chiave di allocazione per periodo per allocare le righe del piano di budget dallo scenario del piano di budget di origine tra i periodi dello scenario di destinazione. **Nota:**  prima di allocare tra più periodi, è necessario impostare le chiavi di allocazione per periodo nella pagina ****Categorie di allocazione**** per periodo.
+-   **Alloca a dimensioni**: le righe del piano di budget vengono allocate dallo scenario del piano di budget di origine tra le dimensioni finanziarie nello scenario di destinazione. **Nota:** prima di allocare le dimensioni, è necessario impostare i termini di allocazione budget nella pagina ****Termini di allocazione budget****.
 -   **Aggrega**: le righe del piano di budget sono aggregate dallo scenario del piano di budget di origine nei piani di budget associati allo scenario di destinazione nel piano di budget padre.
 -   **Distribuisci**: le righe del piano di budget sono distribuite dallo scenario del piano di budget di origine nel piano di budget padre allo scenario di destinazione nei piani di budget associati.
 -   **Utilizza regole di allocazione contabilità generale**: le righe di piano di budget vengono distribuite dallo scenario di origine del piano di budget allo scenario di destinazione del piano del budget in base alla regola di allocazione di contabilità generale selezionata.
@@ -123,15 +126,15 @@ Le programmazioni di allocazione allocano automaticamente le righe del piano di 
 
 Le allocazioni di fase vengono utilizzate per allocare automaticamente le righe del piano di budget durante l'elaborazione del flusso di lavoro. Quando si utilizzano le allocazioni di fase, le righe del piano di budget nello scenario di destinazione possono essere create e modificate senza l'intervento del preparatore o del revisione del piano di budget.
 
-Quando si imposta un'allocazione di fase, associare il flusso di lavoro e la fase di pianificazione del budget alla pianificazione di allocazione. Il flusso di lavoro di pianificazione del budget deve essere associato a un flusso di lavoro impostazione budget che utilizza le attività del flusso di lavoro **** automatica di allocazione della fase di progettazione del budget di ****. Quando il flusso di lavoro raggiunge la fase specificata, l'allocazione avviene automaticamente. Questa attività automatica può essere utilizzata per creare le righe del piano di budget in un nuovo scenario. 
+Quando si imposta un'allocazione di fase, associare il flusso di lavoro e la fase di pianificazione del budget alla pianificazione di allocazione. Il flusso di lavoro di pianificazione del budget deve essere associato a un flusso di lavoro di impostazione del budget che utilizza l'attività del flusso di lavoro ****Allocazione di fasi di pianificazione del budget**** automatizzata. Quando il flusso di lavoro raggiunge la fase specificata, l'allocazione avviene automaticamente. Questa attività automatica può essere utilizzata per creare le righe del piano di budget in un nuovo scenario. 
 
 Nello schema di esempio mostrato in precedenza in questo articolo, un'allocazione viene eseguita per trasferire gli importi da un piano di budget e dagli scenari della fase di base della sede centrale a un altro piano di budget e agli scenari della fase di stima del reparto vendite. La figura seguente mostra la sezione dello schema di esempio.
 
-[allocazione della fase![(]. /media/stageallocation-204x300.png)](. /media/stageallocation.png) 
+[![Allocazioni di fasi](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
-Inoltre, nello schema di esempio, un'aggregazione viene effettuata dai piani di budget e gli scenari inviata la fase del reparto di vendita in un piano principale in fase di rollup di HQ. La figura seguente mostra la sezione dello schema di esempio.
+Inoltre, nello schema di esempio, un'aggregazione viene eseguita dai piani di budget e dagli scenari della fase inviata del reparto vendite a un piano padre della fase di aggiornamento cumulativo della sede centrale. La figura seguente mostra la sezione dello schema di esempio.
 
-[![Aggregation](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Aggregazione](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Priorità
 
@@ -149,9 +152,9 @@ Oltre alle colonne per gli importi del budget, è possibile definire le colonne 
 
 Per lo schema di esempio, si potrebbero voler creare le colonne per gli scenari di vendita, contratti e previsione dell'anno fiscale (la figura seguente illustra la sezione pertinente dello schema). È quindi possibile suddividere uno o tutti questi scenari in colonne separate per ogni trimestre dell'anno fiscale, in modo che il responsabile del reparto vendite possa correttamente immettere gli importi di previsione per ciascun periodo.
 
-[![Columns](./media/columns.png)](./media/columns.png) 
+[![Colonne](./media/columns.png)](./media/columns.png) 
 
-Vengono inoltre indicate se ciascun elemento del layout (colonna) è modificabile e se è disponibile in qualsiasi modello del foglio di lavoro creato per il layout. Per lo schema di esempio, nel layout utilizzato per la fase di stima, le colonne di previsione sono modificabili, mentre le colonne di vendita e dei contratti dell'anno fiscale sono di sola lettura.
+Inoltre, è possibile definire se ogni elemento di layout (colonna) è modificabile e se è disponibile in qualsiasi modello del foglio di lavoro creato per il layout. Per lo schema di esempio, nel layout utilizzato per la fase di stima, le colonne di previsione sono modificabili, mentre le colonne di vendita e dei contratti dell'anno fiscale sono di sola lettura.
 
 ### <a name="templates"></a>Modelli
 
@@ -160,7 +163,7 @@ Nella sezione **Layout** della pagina **Configurazione pianificazione del budget
 È possibile generare, visualizzare o caricare un modello per ogni layout. Quando un modello viene generato, il layout è bloccato e non può essere modificato. Il blocco assicura che il formato del modello corrisponda al layout del piano di budget e includa gli stessi dati. Una volta generato, un modello può essere visualizzato e modificato. Ad esempio, è possibile aggiungere grafici al modello o personalizzarne ulteriormente l'aspetto.
 
 > [!NOTE] 
-> Il modello devono essere salvati in una posizione a cui l'utente può accedere a, in modo che è possibile caricare nel layout dopo essere state modificate completato. In tal modo il modello verrà utilizzato con i piani di budget che utilizzano il layout.
+> Il modello deve essere salvato in un percorso a cui l'utente ha accesso, in modo da poterlo caricare nel layout una volta completata la modifica. In tal modo il modello verrà utilizzato con i piani di budget che utilizzano il layout.
 
 ### <a name="descriptions"></a>Descrizioni
 
@@ -184,6 +187,8 @@ Nel menu **Azioni** è possibile anche creare un nuovo processo copiandone uno e
 
 Un altro comando utile nel menu **Azioni** è **Visualizza stato del processo di budget**. Questo comando consente di visualizzare graficamente i piani di budget all'interno di un processo, insieme ai dati rilevanti, ad esempio lo stato del flusso di lavoro dei piani, i riepiloghi per importo e per unità e la navigazione con un clic ai piani di budget stessi.
 
-[![Budget planning process status](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Stato del processo di pianificazione del budget](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-order-cost-estimation"></a>Stima dei costi degli ordini di produzione
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono fornite informazioni sulla stima dei costi di produzione. Tale stima consente di ottenere i costi relativi al consumo di materiali e alla capacità previsti per la produzione della quantità di un articolo indicata nell'ordine di produzione pianificato. 
 
 Dopo avere creato un ordine di produzione, è necessario stimare i costi di produzione. Lo scopo è quello di stimare il consumo dell'articolo e del ciclo di lavorazione per il processo di produzione, in quanto queste stime rappresentano la base per i successivi processi di programmazione e produzione.
@@ -59,6 +62,8 @@ Una stima dei costi fornisce inoltre le informazioni seguenti:
 -   Confronti con informazioni sui costi relative a produzioni precedenti
 -   Informazioni relative a budget e previsioni
 -   Stime del volume di produzione necessario per mantenere un costo a un determinato livello
+
+
 
 
 

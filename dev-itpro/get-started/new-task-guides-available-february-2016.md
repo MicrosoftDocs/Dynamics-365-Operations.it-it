@@ -1,6 +1,6 @@
 ---
-title: "Nuove consente di attività (febbraio 2016)"
-description: "Questo wiki sono elencate le aree di attività rilasciate librerie di Microsoft BPM il febbraio 2016.  Le raccolte emesse includono (febbraio 2016) APQC la libreria unificata iniziare per Microsoft Dynamics 365 per le operazioni e febbraio 2016 ()."
+title: "Nuove guide attività (febbraio 2016)"
+description: "In questo wiki sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.  Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics 365 for Operations e la libreria di introduzione (febbraio 2016)."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Nuove consente di attività (febbraio 2016)
+# <a name="new-task-guides-february-2016"></a>Nuove guide attività (febbraio 2016)
 
-Questo wiki sono elencate le aree di attività rilasciate librerie di Microsoft BPM il febbraio 2016.  Le raccolte emesse includono (febbraio 2016) APQC la libreria unificata iniziare per Microsoft Dynamics 365 per le operazioni e febbraio 2016 ().
+In questo wiki sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.  Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics 365 for Operations e la libreria di introduzione (febbraio 2016).
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Pagine consente febbraio 2016 () della raccolta unificata APQC per Microsoft Dynamics 365 per le operazioni
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Guide attività nella libreria unificata APQC (febbraio 2016) per Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
 
-() Febbraio 2016 la libreria unificata APQC contiene le aree di attività utilizzate per essere utilizzate per ottenere con Dynamics 365 per la versione di l operazioni. Se sono necessari Versioni localizzate di queste aree di attività, sono disponibili (maggio 2016) nella raccolta unificata APQC per Microsoft Dynamics 365 per le operazioni. Per ulteriori informazioni sulla procedura per connettere il file della Guida a una raccolta della Guida di attività, vedere [inizi con la Guida help-overview.md] ().
+La libreria unificata APQC (febbraio 2016) contiene le guide attività da utilizzare per ottenere assistenza per la versione di Dynamics 365 for Operations 7.0.0. Se sono necessarie versioni localizzate di queste guide attività, sono disponibili nella libreria unificata APQC (maggio 2016) per Microsoft Dynamics 365 for Operations. Per ulteriori informazioni su come connettere la Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md).
 
 ### <a name="accounts-payable"></a>Contabilità fornitori
 
@@ -531,7 +531,7 @@ Questo wiki sono elencate le aree di attività rilasciate librerie di Microsoft 
 | Aggiungere un calcolo a un modello di configurazione dei prodotti    | Globali             |
 | Approvare un modello di configurazione prodotto                 | Globali             |
 | Completare l'impostazione di base di una rappresentazione generale prodotto rilasciata | Globali             |
-| Crea A. \ \ dimensioni finanziarie rappresentazione generale prodotto basata su dimensioni               | Globali             |
+| Creare una ..\financial-dimensions\rappresentazione generale prodotto basata su dimensioni               | Globali             |
 | Creare una nuova gerarchia di classificazione del prodotto          | Globali             |
 | Creare un modello di configurazione prodotto                  | Globali             |
 | Creare una rappresentazione generale prodotto                               | Globali             |
@@ -544,7 +544,7 @@ Questo wiki sono elencate le aree di attività rilasciate librerie di Microsoft 
 | Gestire DBA per un modello di configurazione prodotto        | Globali             |
 | Gestisci ciclo di lavorazione per un modello di prodotto                    | Globali             |
 | Gestisci prodotti rilasciati                              | Globali             |
-| Rilascia A. \ \ dimensioni finanziarie rappresentazione generale prodotto basata su dimensioni              | Globali             |
+| Rilasciare una ..\financial-dimensions\rappresentazione generale prodotto basata su dimensioni              | Globali             |
 | Trasferire i dati per i modelli prodotto                      | Globali             |
 
  
@@ -718,10 +718,10 @@ Questo wiki sono elencate le aree di attività rilasciate librerie di Microsoft 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Nuove o consente di gestire di attività (maggio 2016)](new-updated-task-guides-available-may-2016.md)
+[Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nuove o consente di gestire di attività (agosto 2016)](new-updated-task-guides-available-august-2016.md)
+[Guide attività nuove o aggiornate (agosto 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Nuove o consente di gestire di attività (novembre 2016)](new-task-guides-november-2016.md)
+[Guide attività nuove o aggiornate (novembre 2016)](new-task-guides-november-2016.md)
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Liquidare un pagamento parziale fornitore con periodi di sconto più"
+title: "Liquidare un pagamento fornitore parziale che ha più periodi di sconto"
 description: "Questo articolo descrive uno scenario in cui vengono effettuati più pagamenti parziali a un fornitore che offre più sconti di cassa."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Liquidare un pagamento parziale fornitore con periodi di sconto più
+# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Liquidare un pagamento fornitore parziale che ha più periodi di sconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo descrive uno scenario in cui vengono effettuati più pagamenti parziali a un fornitore che offre più sconti di cassa. 
 
 Il fornitore 3054 offre a Fabrikam uno sconto di cassa del 2% se la fattura viene pagata in cinque giorni e uno sconto di cassa dell'1% se la fattura viene pagata in 14 giorni.
 
 ## <a name="invoice"></a>Fattura
-Il 28 giugno aprile, viene creata una fattura di 1,000.00 per il fornitore 3054. April può visualizzare la transazione nella pagina **Transazioni fornitore**.
+Il 28 giugno April crea una fattura per 1.000,00 per il fornitore 3054. April può visualizzare la transazione nella pagina **Transazioni fornitore**.
 
 | Giustificativo   | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo   | Valuta |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -48,7 +51,7 @@ Per la fattura sono disponibili le date e gli importi di sconto di cassa seguent
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="payment-on-july-2"></a>Pagamento il 2 luglio
-Il 2 luglio, aprile desidera pagare 300.00 rispetto alla fattura. Creazione di un prodotto pagamento in addebito utilizzando ** giornale di registrazione pagamenti ** la pagina in Contabilità fornitori. Aggiunge una riga per il fornitore 3054 e immette un importo di pagamento di **300,00**. April apre quindi la pagina **Liquida transazioni** per contrassegnare la fattura per la liquidazione. Aggiorna il valore nel campo **Importo da liquidare** su **300,00** e nota che il valore del campo **Importo sconto di cassa da applicare** è cambiato in **6,12**. Poiché il pagamento viene effettuato nel primo periodo di sconto, viene applicato uno sconto del 2%.
+Il 2 luglio, April desidera pagare 300,00 sulla fattura. Crea un pagamento occasionale utilizzando la pagina **Giornale di registrazione pagamenti** in Contabilità fornitori. Aggiunge una riga per il fornitore 3054 e immette un importo di pagamento di **300,00**. April apre quindi la pagina **Liquida transazioni** per contrassegnare la fattura per la liquidazione. Aggiorna il valore nel campo **Importo da liquidare** su **300,00** e nota che il valore del campo **Importo sconto di cassa da applicare** è cambiato in **6,12**. Poiché il pagamento viene effettuato nel primo periodo di sconto, viene applicato uno sconto del 2%.
 
 | Contrassegna | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -134,6 +137,8 @@ Il 20 luglio April crea un pagamento finale di 200,00 per la fattura. Non viene 
 | APP-10061  | 12/7/2015 |         | 495,00                               |                                       | 0,00    | GBP      |
 | DISC-10061 | 12/7/2015 |         | 5,00                                 |                                       | 0,00    | GBP      |
 | APP-10062  | 20/7/2015 |         | 200,00                               |                                       | 0,00    | GBP      |
+
+
 
 
 

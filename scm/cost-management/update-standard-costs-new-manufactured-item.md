@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Aggiornare i costi standard per un nuovo articolo prodotto
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce indicazioni per aggiornare i costi standard per un nuovo articolo prodotto. 
 
 Nelle seguenti indicazioni si presuppone che venga utilizzato per l'aggiornamento dei costi standard un approccio basato su due versioni. In tale approccio, una versione di determinazione costi contiene i costi standard inizialmente definiti per il periodo bloccato e la seconda versione di determinazione costi contiene gli aggiornamenti incrementali dei nuovi articoli prodotti. Gli aggiornamenti incrementali verranno immessi come record costi nella seconda versione di determinazione costi e infine verranno attivati. L'approccio basato su due versioni richiede la definizione di una seconda versione di determinazione costi. Di seguito sono riportate le indicazioni per la definizione di tale versione.
@@ -47,6 +50,8 @@ Per aggiungere nuovi articoli prodotti durante il periodo bloccato, effettuare l
 5.  Utilizzare la pagina **Impostazione versione di determinazione costi** per modificare il flag di blocco per consentire l'attivazione dei record costi in sospeso nella seconda versione di determinazione costi.
 6.  Utilizzare la pagina **Attiva prezzi** (accessibile dalla pagina **Gestione versione di determinazione costi**) per attivare tutti i record di costo articolo in sospeso nella seconda versione di determinazione costi. È inoltre possibile attivare i record costi in sospeso per i singoli articoli facendo clic sul pulsante **Attiva** nella pagina **Prezzo articolo**.
 7.  Utilizzare la pagina **Impostazione versione di determinazione costi** per modificare i flag di blocco nella seconda versione di determinazione costi per evitare ulteriori operazioni di manutenzione dati. I criteri di bloccaggio impediranno l'immissione di nuovi costi in sospeso e l'attivazione dei costi in sospeso.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="factor-depreciation"></a>Ammortamento basato su coefficiente
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica del metodo di ammortamento basato su coefficiente.
 
 I fattori sono percentuali utilizzate per l'ammortamento dei cespiti. Quando si imposta un profilo di ammortamento cespiti e si seleziona **Fattore** nel campo **Metodo** della pagna **Profili di ammortamento**, è possibile impostare un ammortamento progressivo, digressivo o a quote costanti.
@@ -39,7 +42,7 @@ I fattori sono percentuali utilizzate per l'ammortamento dei cespiti. Quando si 
 Nelle regole e negli esempi illustrati di seguito viene descritto come impostare i fattori per ogni tipo di ammortamento. 
 
 > [!NOTE] 
-> Quando si seleziona ** fattore ** in ** metodo ** sistemi, ** fattore ** il campo e ** intervallo ** il campo visualizzare.
+> Quando si seleziona **Fattore** nel campo **Metodo**, sono visualizzati il campo **Fattore** e il campo **Intervallo**.
 
 ## <a name="progressive-depreciation"></a>Ammortamento progressivo
 Il valore del campo **Fattore** è maggiore di **50**
@@ -75,5 +78,7 @@ Si supponga che il prezzo di acquisizione sia 100.000, il fattore sia 20, la vit
 
 ## <a name="straight-line-depreciation"></a>Ammortamento a quote costanti
 Il valore del campo **Fattore** è uguale a **50**. In questo caso, l'ammortamento è lo stesso in ogni periodo ed è consigliabile prendere in considerazione le implicazioni delle scelte effettuate in altri campi, come descritto in [Ammortamento a quote costanti basato sulla vita utile](straight-line-service-life-depreciation.md).
+
+
 
 

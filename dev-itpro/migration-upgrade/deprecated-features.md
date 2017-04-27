@@ -118,7 +118,7 @@ eGiro si basa sullo standard internazionale UN EDIFACT CREMUL, (Multiple Credit 
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | Il formato di pagamento non è più utilizzato.                                                     |
-| Sostituita da un'altra funzionalità? | N. Formato verrà sostituito con i formati di importazione di rendiconto ISO 20022 nelle versioni future. |
+| Sostituita da un'altra funzionalità? | N. Il formato verrà sostituito dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
 | Moduli interessati             | Contabilità clienti                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Inventario esterno per la Polonia
@@ -138,7 +138,7 @@ Strumento per impostare la raccolta dei dati per i report fiscali e contabili ed
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | Utilizzo limitato                                                                            |
-| Sostituita da un'altra funzionalità? | N. Lo strumento verrà sostituito dalle configurazioni dichiarazioni elettroniche nelle versioni future. |
+| Sostituita da un'altra funzionalità? | N. Lo strumento verrà sostituito nelle versioni future dalle configurazioni dei report elettronici. |
 | Moduli interessati             | Contabilità generale                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Importazione delle transazioni di pagamento dei clienti per la Finlandia
@@ -148,7 +148,7 @@ Strumento per impostare la raccolta dei dati per i report fiscali e contabili ed
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | Il formato di pagamento non è più utilizzato.                                                     |
-| Sostituita da un'altra funzionalità? | N. Formato verrà sostituito con i formati di importazione di rendiconto ISO 20022 nelle versioni future. |
+| Sostituita da un'altra funzionalità? | N. Il formato verrà sostituito dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
 | Moduli interessati             | Contabilità clienti                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importazione delle transazioni di pagamento in un giornale di registrazione contabile per la Finlandia
@@ -158,7 +158,7 @@ Un formato specifico per la Finlandia viene utilizzato per importare le transazi
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | Il formato di pagamento non è più utilizzato.                                                     |
-| Sostituita da un'altra funzionalità? | N. Formato verrà sostituito con i formati di importazione di rendiconto ISO 20022 nelle versioni future. |
+| Sostituita da un'altra funzionalità? | N. Il formato verrà sostituito dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
 | Moduli interessati             | Contabilità clienti                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Integrazione con CIS (Client Isabel Synchronizer) per il Belgio
@@ -218,7 +218,7 @@ I formati Telehansa e TeleTeenus vengono utilizzati per l'importazione di pagame
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                                                    |
-| Sostituita da un'altra funzionalità? | N. I formati verranno sostituiti dai formati di importazione di rendiconto ISO 20022 nelle versioni future. |
+| Sostituita da un'altra funzionalità? | N. I formati verranno sostituiti dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
 | Moduli interessati             | Contabilità clienti                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Flusso di lavoro relativo agli obiettivi di gestione delle prestazioni
@@ -228,7 +228,7 @@ La gestione delle prestazioni include la gestione e l'integrazione degli obietti
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | La gestione delle prestazioni è stata riprogettata e il numero di pagine degli obiettivi è stato ridotto per semplificare il processo.                 |
-| Sostituita da un'altra funzionalità? | N. Gli obiettivi sono visibili ai responsabili tramite il portale Self Service relative ai manager e possono essere modificati e visualizzati dal responsabile. |
+| Sostituita da un'altra funzionalità? | N. Gli obiettivi sono visibili ai responsabili tramite il portale Responsabile self-service e possono essere modificati e visualizzati dal responsabile. |
 | Moduli interessati             | Gestione risorse umane                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Formati di pagamento Postgirot e Postgirot Utland per la Svezia
@@ -247,7 +247,7 @@ RFID (Radio Frequency Identification) è una tecnologia di raccolta dei dati che
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Motivo del deprecamento       | Utilizzo del cliente e un gruppo limitato di funzionalità. |
+| Motivo del deprecamento       | Basso utilizzo cliente e set di funzionalità limitato. |
 | Sostituita da un'altra funzionalità? | No                                            |
 | Moduli interessati             | Gestione inventario                          |
 
@@ -312,7 +312,7 @@ Un flusso di lavoro per la gestione della creazione degli obiettivi dei dipenden
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integrazioni di AIF, di AxD e di AxBC
 
-In Application Integration Framework (AIF), i dati possono essere scambiati ai sistemi esterni in logica di business che è esposta come servizi. Dynamics AX include i servizi basati su documenti e .NET Business Connector (AxBC). Un documento viene creato utilizzando XML. XML contiene le informazioni di intestazione aggiunte per creare un *messaggio* che è possibile trasferire da o a Microsoft Dynamics AX. Esempi dei documenti comprendono gli ordini cliente e ordini fornitore. Tuttavia, quasi qualsiasi entità, ad esempio un cliente, può essere rappresentata da un documento. Servizi basati sui documenti utilizzano ** classi &lt;di *** di *Document&gt;Axd.
+In Application Integration Framework (AIF), i dati possono essere scambiati ai sistemi esterni in logica di business che è esposta come servizi. Dynamics AX include i servizi basati su documenti e .NET Business Connector (AxBC). Un documento viene creato utilizzando XML. XML contiene le informazioni di intestazione aggiunte per creare un *messaggio* che è possibile trasferire da o a Microsoft Dynamics AX. Esempi dei documenti comprendono gli ordini cliente e ordini fornitore. Tuttavia, quasi qualsiasi entità, ad esempio un cliente, può essere rappresentata da un documento. I servizi basati sui documenti usano le classi **Axd &lt;*Document*&gt;**.
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ Rendiconto delle imposte federali dell'imposta ICMS
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | Questo rendiconto non è più applicabile in alcuni stati brasiliani.                                                     |
-| Sostituita da un'altra funzionalità? | N. Gli utenti possono utilizzare lo strumento generico elettronico di reporting per configurare il rendiconto su richiesta nelle situazioni specifiche. |
+| Sostituita da un'altra funzionalità? | N. Gli utenti possono utilizzare lo strumento generico di creazione report elettronici per configurare il rendiconto se richiesto in situazioni specifiche. |
 | Moduli interessati             | Libri fiscali                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Modalità di contingenza SCAN brasiliana per NF-e
@@ -631,7 +631,7 @@ Informazioni sulle retribuzioni in Risorse umane
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | Questa funzionalità è stata sostituita dalle pagine principali sulle risorse umane e sulle retribuzioni.                                                                                                                                                                                                                                              |
-| Sostituita da un'altra funzionalità? | **Benefit**, **Redditi** e altre pagine correlate, incluse in precedenza nelle retribuzioni degli Stati Uniti ora sono state riconfigurate e fanno parte della configurazione principale Risorse umane per supportare l'elaborazione esterna delle retribuzioni. Questa funzionalità è disponibile tramite ** Risorse umane 1 ** &gt; ** la funzionalità Retribuzioni ** chiave di configurazione. |
+| Sostituita da un'altra funzionalità? | **Benefit**, **Redditi** e altre pagine correlate, incluse in precedenza nelle retribuzioni degli Stati Uniti ora sono state riconfigurate e fanno parte della configurazione principale Risorse umane per supportare l'elaborazione esterna delle retribuzioni. Questa funzionalità è accessibile utilizzando la chiave di configurazione **Risorse umane 1** &gt; **Retribuzione**. |
 | Moduli interessati             | Risorse umane, retribuzioni                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Blocco privato di magazzino e giornali di registrazione di gestione magazzino
@@ -698,12 +698,12 @@ La funzionalità Sites Services consente di costruire i siti Web che estendono i
 | Sostituita da un'altra funzionalità? | No                                                                                                                                       |
 | Moduli interessati             | Selezione del personale, gestione dei casi, richiesta di offerta, registrazione fornitore                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>Strategia di previsione della domanda di SSAS
+### <a name="ssas-demand-forecasting-strategy"></a>Strategia di previsione della domanda SSAS
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La struttura della funzionalità non può essere supportata nella nuova architettura di cloud. |
-| Sostituita da un'altra funzionalità? | Strategia azzurrata di previsione della domanda di apprendimento automatico                           |
+| Motivo del deprecamento       | La struttura della funzionalità non può essere supportata nella nuova architettura cloud. |
+| Sostituita da un'altra funzionalità? | Strategia di previsione della domanda Azure Machine Learning                           |
 | Moduli interessati             | Pianificazione                                                                     |
 
 ### <a name="travel-requisitions"></a>Richieste di viaggio

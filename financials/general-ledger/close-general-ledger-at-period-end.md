@@ -1,6 +1,6 @@
 ---
 title: "Chiudere la contabilità generale a fine periodo"
-description: "In questo argomento vengono descritte le attività che vengono completate in genere si esegue una chiusura periodo per la contabilità generale."
+description: "In questo argomento vengono descritte le attività che vengono completate in genere quando si esegue una chiusura periodo per la contabilità generale."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Chiudere la contabilità generale a fine periodo
 
-In questo argomento vengono descritte le attività che vengono completate in genere si esegue una chiusura periodo per la contabilità generale. 
+[!include[banner](../includes/banner.md)]
 
-In Contabilità generale, è possibile completare le procedure di chiusura per un periodo di tempo o un anno. La chiusura di processi consente di preparare il sistema per nuovo periodo. Per preparare il sistema per un nuovo anno, è necessario eseguire la chiusura di fine anno. Ogni organizzazione ha i processi e operazioni diverse che esegue per la fine di un periodo. Di seguito sono riportati alcuni passaggi facoltativi per la fine del periodo:
+
+In questo argomento vengono descritte le attività che vengono completate in genere quando si esegue una chiusura periodo per la contabilità generale. 
+
+In Contabilità generale, è possibile completare le procedure di chiusura per un periodo di tempo o un anno. La chiusura di processi consente di preparare il sistema per nuovo periodo. Per preparare il sistema per un nuovo anno, è necessario eseguire il processo di chiusura di fine anno. Ogni organizzazione ha processi e passaggi diversi che esegue per la fine di un periodo. Di seguito sono riportati alcuni passaggi facoltativi per la fine del periodo:
 
 -   Completare tutte le attività per tutti gli altri moduli, ad esempio Contabilità clienti, Contabilità fornitori e Inventario.
 -   Verificare che tutte i giornali di registrazione siano stati registrati.
@@ -39,9 +42,11 @@ In Contabilità generale, è possibile completare le procedure di chiusura per u
 -   Inserire transazioni nel giornale di registrazione e revisionare il report **Giornale di registrazione contabile**.
 -   Eseguire un consolidamento utilizzando una società di consolidamento o report finanziari.
 -   Generare rendiconti finanziari di fine periodo utilizzando i report finanziari.
--   Impostare i periodi contabili su **In attesa** in modo che non vengano eseguite ulteriori registrazioni. Per un maggiore controllo, è inoltre possibile limitare un periodo a un gruppo di utenti specifico durante l'esecuzione delle attività di fine periodo. Non è consigliabile impostare i periodi a ** definitivamente chiuso **, in quanto non è possibile riaprire un periodo che è stato chiuso.
+-   Impostare i periodi contabili su **In attesa** in modo che non vengano eseguite ulteriori registrazioni. Per un maggiore controllo, è inoltre possibile limitare un periodo a un gruppo di utenti specifico durante l'esecuzione delle attività di fine periodo. Non è consigliabile impostare i periodi su **Chiuso in modo permanente** poiché non è possibile riaprire un periodo che è stato chiuso.
 
-L'area di lavoro di chiusura periodo può essere utilizzata per organizzare e tenere traccia delle attività richieste per vari tipi di periodo terminare processi. Per [area di lavoro] finanziaria di chiusura periodo (financial-period-close-workspace.md) e [chiusura di fine anno] ad argomenti Year-end-close.md () per ulteriori informazioni. 
+L'area di lavoro Chiusura periodo finanziario può essere utilizzata per organizzare e tenere traccia delle attività richieste per vari processi di fine periodo. Fare riferimento agli argomenti [Area di lavoro Chiusura periodo finanziario](financial-period-close-workspace.md) e [Chiusura di fine anno](Year-end-close.md) per ulteriori informazioni. 
+
+
 
 
 

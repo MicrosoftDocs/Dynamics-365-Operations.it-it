@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>Azioni flusso di lavoro
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono illustrate le azioni che ciascun partecipante a un processo di approvazione del flusso di lavoro può eseguire.
 
-Un flusso di lavoro può coinvolgere più gruppi di persone: l'iniziatore, gli assegnatari di attività, i decisori e gli approvatori. Nell'esempio di flusso di lavoro relativo alle note spese indicato di seguito, Giorgio è l'iniziatore, i membri della coda sono gli assegnatari dell'attività, Gianni è un decisore ed Ezio, Luisa ed Elena sono gli approvatori.   [flusso di lavoro\_WithManualDecision![(]. /media/workflow_withmanualdecision.gif)](. /media/workflow_withmanualdecision.gif) Le sezioni seguenti vengono descritte le azioni del flusso di lavoro che ogni gruppo può eseguire.
+Un flusso di lavoro può coinvolgere più gruppi di persone: l'iniziatore, gli assegnatari di attività, i decisori e gli approvatori. Nell'esempio di flusso di lavoro relativo alle note spese indicato di seguito, Giorgio è l'iniziatore, i membri della coda sono gli assegnatari dell'attività, Gianni è un decisore ed Ezio, Luisa ed Elena sono gli approvatori.   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) Nelle seguenti sezioni vengono descritte le azioni del flusso di lavoro che ognuno di questi gruppi può eseguire.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Azioni eseguibili da un iniziatore
 L'iniziatore avvia un'istanza del flusso di lavoro inviando un documento per l'elaborazione. Per inviare ad esempio una nota spese, Giorgio dovrà fare clic sul pulsante **Invia** nella pagina **Nota spese** per inviare la nota spese.
@@ -63,7 +66,7 @@ Occasionalmente, un membro della coda di elementi di lavoro potrebbe accettare u
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Azioni eseguibili da un decisore
 Solitamente, un documento viene assegnato a un decisore perché, in genere, è necessario che risponda a una domanda. La risposta tipica a questa domanda è **Sì** o **No** oppure **Vero** o **Falso**. Se il decisore non seleziona una di queste opzioni, può delegare la decisione.
 
-### <a name="choice-1-or-choice-2"></a>scelta 1 scelta 2\]\[ o\]\[
+### <a name="choice-1-or-choice-2"></a>\[Prima scelta\] o \[Seconda scelta\]
 
 Un decisore deve rispondere a una domanda relativa al documento. La risposta tipica a questa domanda è **Sì** o **No** oppure **Vero** o **Falso**. La risposta selezionata dal decisore determinerà quale ramo del flusso di lavoro verrà utilizzato per elaborare il documento. Si supponga ad esempio che la nota spese di Giorgio verrà assegnata a Gianni. Gianni deve decidere se le informazioni contenute nel documento richiedono una chiamata al manager di Giorgio. In caso affermativo, la nota spese verrà assegnata a Renata, che dovrà chiamare il manager di Giorgio. In caso negativo, la nota spese verrà assegnata a Ezio per l'approvazione.
 
@@ -89,5 +92,7 @@ Quando un approvatore delega un documento, quest'ultimo viene assegnato a un alt
 ### <a name="request-change"></a>Richiedi modifica
 
 Quando un approvatore richiede una modifica di un documento, quest'ultimo viene inviato di nuovo all'iniziatore. Si supponga ad esempio che Giorgio abbia presentato un documento pari a USD 12.000 assegnato a Luisa. Se Luisa richiede una modifica, la nota spese viene restituita a Giorgio. Giorgio può quindi inviare di nuovo la nota spese. È possibile apportare le modifiche richieste prima, oppure può inviare la versione originale della nota spese. Se Giorgio presenta di nuovo la nota spese, questa viene inviata a Ezio per l'approvazione, in quanto Ezio è il primo approvatore nel processo di approvazione.
+
+
 
 

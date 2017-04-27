@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Effetti di ammortamento con storni
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono illustrate le implicazioni potenziali dello storno di una transazione cespiti. 
 
 È possibile stornare le transazioni cespiti e le transazioni associate a un cespite. Una transazione stornata può anche essere revocata. 
@@ -90,6 +93,8 @@ L'ammortamento è sottovalutato di 16,95 (983,62 - 966,67).
 <a name="see-also"></a>Vedere anche
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Ammortamento cespiti](fixed-asset-depreciation.md)
+
+
 
 

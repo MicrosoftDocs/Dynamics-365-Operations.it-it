@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurare Contabilità clienti e Crediti e riscossioni
 
+[!include[banner](../includes/banner.md)]
+
+
 Configurare i moduli Contabilità clienti e Crediti e riscossioni per tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti.
 
 È possibile impostare gruppi di clienti, clienti, profili registrazione, varie opzioni di pagamento, note d'interesse, lettere di sollecito, provvigioni, parametri relativi a clienti, spese, consegne e destinazioni, effetti attivi e altri tipi di informazioni relative a Contabilità clienti e Crediti e riscossioni.
 Nella tabella seguente sono elencate le pagine che supportano la configurazione e la gestione di Contabilità clienti e Crediti e riscossioni. Le voci della tabella sono suddivise per attività e ordinate alfabeticamente in base al nome della pagina.
 
-| ! Nota [] (https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "nota") ** nota **          |
+| ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**          |
 |--------------------------------------------------------------------------------------------------|
 | Per accedere ad alcune pagina riportate nella tabella è necessario immettere dati o impostazioni dei parametri. |
 
@@ -98,14 +101,16 @@ Nella tabella seguente sono elencate le pagine che supportano la configurazione 
 |                                                      | Impostazioni contatti cliente e posta elettronica | Impostare i contatti dei clienti con i rispettivi indirizzi di posta elettronica. Gli indirizzi verranno visualizzati nella pagina Riscossioni e verranno utilizzati per creare i messaggi di posta elettronica da inviare ai clienti. Impostare inoltre un contatto Riscossioni predefinito per ciascun cliente che verrà visualizzato per primo nella pagina Riscossioni. |
 |                                                      | Pool di clienti                       | Consente di impostare pool di clienti, ovvero query che definiscono un gruppo di conti cliente che possono essere visualizzati e gestiti per i processi di riscossione o di aging.                                                                                                                           |
 |                                                      | Profilo registrazione clienti             | Consente di impostare i profili che controllano la registrazione delle transazioni cliente nella contabilità generale.                                                                                                                                                                                      |
-|                                                      | Codici motivo cliente                | Impostazione dei motivi di impostazione dei clienti.                                                                                                                                                                                                                                                    |
-|                                                      | Codici motivo annullamento clienti      | Impostare i codici motivi di annullamento clienti che verranno utilizzati per le transazioni di annullamento.                                                                                                                                                                                             |
+|                                                      | Codici motivo cliente                | Impostare codici motivo cliente.                                                                                                                                                                                                                                                    |
+|                                                      | Codici motivo annullamento cliente      | Impostare i codici motivo di annullamento cliente che verranno utilizzati per le transazioni di annullamento.                                                                                                                                                                                             |
 |                                                      | Impostazione moduli                           | Consente di definire i parametri relativi alle note dei moduli per le offerte, le conferme, le distinte di prelievo, i documenti di trasporto, le fatture cliente, le fatture a testo libero e le note d'interesse.                                                                                                                               |
 |                                                      | Interessi                             | Consente di impostare e gestire i codici interessi.                                                                                                                                                                                                                                                 |
-|                                                      | Informazioni NSF.                     | Impostare le informazioni NSF (Non Sufficient Funds, senza copertura) sul conto bancario da utilizzare quando un pagamento viene contrassegnato come transazione NSF nella pagina di riscossione.                                                                                                                                              |
+|                                                      | Informazioni NSF                     | Impostare le informazioni NSF (Non Sufficient Funds, senza copertura) sul conto bancario da utilizzare quando un pagamento viene contrassegnato come transazione NSF nella pagina di riscossione.                                                                                                                                              |
 |                                                      | Informazioni Venditore              | Impostare l'indirizzo di posta elettronica per i venditori. Gli indirizzi verranno visualizzati nella pagina Riscossioni ed è possibile utilizzarli per inviare posta elettronica al venditore dalla pagina.                                                                                                                |
 
  
-Per ulteriori informazioni, vedere [credito e riscossioni nella contabilità clienti] () collections-credit-accounts-receivable.md.
+Per ulteriori informazioni, vedere [Crediti e riscossioni in Contabilità clienti](collections-credit-accounts-receivable.md).
+
+
 
 

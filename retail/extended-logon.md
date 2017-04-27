@@ -1,5 +1,5 @@
 ---
-title: "Impostare la funzionalità estese di accesso per il POS e di MPOS cloud"
+title: "Impostare la funzionalità di accesso esteso per POS cloud e MPOS"
 description: Questo wiki illustra le opzioni per l&quot;impostazione dell&quot;accesso esteso per POS cloud e Retail Modern POS (MPOS).
 author: josaw1
 manager: AnnBe
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Impostare la funzionalità estese di accesso per il POS e di MPOS cloud
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Impostare la funzionalità di accesso esteso per POS cloud e MPOS
 
 Questo wiki illustra le opzioni per l'impostazione dell'accesso esteso per POS cloud e Retail Modern POS (MPOS).
 
 <a name="setting-up-extended-logon"></a>Impostazione dell'accesso esteso
 =========================
 
-Per l'impostazione delle maschere codice a barre ** al dettaglio e il commercio ** &gt; ** al Manica impostato ** &gt; ** POS configurato ** &gt; ** profili Retail POS ** &gt; ** profili funzionalità **. La scheda Dettaglio **Funzioni** include le seguenti opzioni correlate all'accesso esteso.
+Le impostazioni per le maschere dei codici a barre sono disponibili in **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili funzionalità**. La scheda Dettaglio **Funzioni** include le seguenti opzioni correlate all'accesso esteso.
 
 ### <a name="staff-bar-code-logon"></a>Accesso personale con codice a barre
 
@@ -53,7 +53,7 @@ Se l'opzione **L'accesso personale con badge richiede la password** è attivata,
 <a name="assigning-an-extended-logon"></a>Assegnazione di un accesso esteso
 ===========================
 
-Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per concedere l'accesso esteso, passare a ** accesso esteso ** nel POS. Per cercare un lavoratore immettendo la relativa identificazione dell'operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK **diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
+Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per assegnare l'accesso esteso, passare a ** **Accesso esteso** ** nel POS. Quindi cercare un lavoratore immettendo il relativo ID operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK **diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
 
 <a name="deleting-an-extended-logon"></a>Eliminazione di un accesso esteso
 ==========================

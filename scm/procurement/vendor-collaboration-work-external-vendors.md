@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento viene illustrato come gli addetti agli acquisti possono collaborare con i fornitori esterni per scambiare informazioni sugli ordini fornitore e l'inventario spedizione.
 
 Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 for Operations. Consente ai fornitori di utilizzare ordini fornitore, fatture e dati dell'inventario spedizione. In questo argomento viene descritto come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare gli ordini fornitore e l'inventario spedizione. Viene inoltre descritto come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore. Per ulteriori informazioni sulle attività che i fornitori esterni possono eseguire nell'interfaccia di collaborazione fornitore, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).  
@@ -64,11 +67,11 @@ Se si desidera condividere le informazioni relative ai prezzi, ad esempio il pre
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Ricorrere agli ordini fornitore quando si utilizza la collaborazione fornitore
 ### <a name="sending-a-po-to-the-vendor"></a>Invio di un ordine fornitore al fornitore
 
-Gli ordini fornitore sono preparati in Dynamics 365 for Operations. Quando un ordine fornitore con stato di ** ** approvato, lo invia al fornitore utilizzando ** inviare per la conferma ** l'azione ** ** ordine fornitore nella pagina. Lo stato dell'ordine fornitore diventa **In revisione esterna**. Dopo che l'ordine fornitore è stato inviato, il fornitore può visualizzarlo nella pagina **Ordini fornitore per la revisione** nell'interfaccia di collaborazione fornitore, dove è possibile accettarlo, rifiutarlo o suggerire eventuali modifiche. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore, è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail.
+Gli ordini fornitore sono preparati in Dynamics 365 for Operations. Quando l'ordine fornitore ha lo stato **Approvato**, viene inviato al fornitore che utilizza l'azione **Invia per conferma** nella pagina **Ordine fornitore**. Lo stato dell'ordine fornitore diventa **In revisione esterna**. Dopo che l'ordine fornitore è stato inviato, il fornitore può visualizzarlo nella pagina **Ordini fornitore per la revisione** nell'interfaccia di collaborazione fornitore, dove è possibile accettarlo, rifiutarlo o suggerire eventuali modifiche. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore, è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Conferma e accettazione dell'ordine fornitore da parte del fornitore
 
-Se un fornitore ha accettato un ordine fornitore, l'ordine fornitore può essere confermato automaticamente o è possibile che debba essere confermato manualmente. Ciò dipende se ** attivazione del fornitore ** il campo è impostato ** attivo (ordine fornitore viene confermato automatica) ** per il fornitore, o a ** attivo (ordine fornitore automatica non è confermato **).  
+Se un fornitore ha accettato un ordine fornitore, l'ordine fornitore può essere confermato automaticamente o è possibile che debba essere confermato manualmente. Ciò dipende dal fatto che il campo **Attivazione fornitore** sia impostato su **Attiva (con conferma automatica OF)** per il fornitore o su **Attiva (senza conferma automatica OF)**.  
 
 La tabella di seguito mostra uno scambio di informazioni tipico, a seconda del modo in cui il fornitore risponde quando si invia un ordine fornitore per la conferma.
 
@@ -95,19 +98,19 @@ La tabella di seguito mostra uno scambio di informazioni tipico, a seconda del m
 <td>La risposta del fornitore viene registrata come <strong>Rifiutata</strong> e lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. Il rifiuto viene ricevuto con la nota dei fornitori.</td>
 </tr>
 <tr class="odd">
-<td>Il fornitore <strong>accettare l'ordine con le modifiche</strong>. Le modifiche verranno visualizzate a livello di riga. È possibile accettare o rifiutare singole righe. Altre modifiche possibili sono:
+<td>Il fornitore <strong>accetta l'ordine con le modifiche</strong>. Le modifiche vengono suggerite a livello di riga. È possibile accettare o rifiutare singole righe. Altre modifiche possibili sono:
 <ul>
 <li>Modificare le date o quantità.</li>
 <li>Suddividere righe per date o quantità di consegna differenti.</li>
 <li>Sostituire un articolo.</li>
 </ul>
 Le informazioni relative ai prezzi e le spese non possono essere modificate dal fornitore. Eventuali modifiche possono essere suggerite utilizzando le note.</td>
-<td>La risposta del fornitore viene <strong>Accettato con le modifiche</strong> <strong></strong> registrata come e lo stato degli ordini fornitore rimane <strong>In revisione esterna</strong>.</td>
+<td>La risposta del fornitore viene registrata come<strong> Accettata con modifiche</strong> <strong></strong> e lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>.</td>
 </tr>
 </tbody>
 </table>
 
-È possibile utilizzare ** ordine fornitore ** ** la preparazione ** area di lavoro da controllare in cui la posizione il fornitore ha risposto. Questa area di lavoro contiene due elenchi di cui contenga gli ordini fornitore con stato ** la revisione esterna **:
+È possibile utilizzare l'area di lavoro **Preparazione** **ordini acquisto** per controllare a quali ordini fornitore il fornitore ha risposto. Questa area di lavoro contiene due elenchi che contengono gli ordini fornitore con stato **In revisione esterna**:
 
 -   In revisione esterna richiede un'azione.
 -   In revisione esterna in attesa della risposta fornitore.
@@ -125,7 +128,7 @@ Quando si annulla un ordine fornitore, viene ripristinato lo stato **Approvato**
 È possibile aggiungere allegati quali file, immagini e note all'ordine fornitore utilizzando il sistema di gestione documenti. Gli allegati aggiunti con la restrizione di tipo **Esterno** saranno visibili al fornitore quando si invia un ordine fornitore.
 
 ## <a name="purchase-order-statuses-and-versions"></a>Stati e versioni degli ordini fornitore
-In questa sezione vengono descritti gli stati diversi che un ordine fornitore può avere fino al momento in cui viene confermato e a che punto le nuove versioni dell'ordine fornitore vengono rese disponibili al fornitore. Sono presenti differenze in questa, a seconda che si utilizza la gestione modifiche per gli ordini fornitore. 
+In questa sezione vengono descritti gli stati diversi che un ordine fornitore può avere fino al momento in cui viene confermato e a che punto le nuove versioni dell'ordine fornitore vengono rese disponibili al fornitore. Sono presenti differenze, a seconda che si utilizzi la gestione modifiche per gli ordini fornitore.  
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versioni e stati se non si utilizza la gestione modifiche
 
@@ -168,6 +171,8 @@ Se si utilizza l'inventario spedizione, i fornitori possono usare l'interfaccia 
 -   **Ordini fornitore che utilizzano inventario spedizione** - Gli ordini fornitore per l'inventario di spedizione vengono generati quando la proprietà dell'inventario passa dal fornitore alla società. Contemporaneamente viene registrata un'entrata prodotti. Questi ordini fornitore di spedizione vengono visualizzati solo nella pagina **Ordini fornitore che utilizzano inventario spedizione**. Non sono inclusi nella pagina **Tutti gli ordini fornitore confermati** del modulo **Collaborazione fornitore**.
 -   **Prodotti entrati da inventario spedizione** - In questa pagina sono elencate tutte le transazioni in cui la proprietà dei prodotti è stata trasferita dal fornitore alla società. I fornitori possono utilizzare queste informazioni per la fatturazione al cliente.
 -   **Inventario spedizione disponibile** - In questa pagina viene mostrato l'inventario spedizione disponibile di proprietà del fornitore, che è stato ricevuto presso il magazzino del cliente.
+
+
 
 
 

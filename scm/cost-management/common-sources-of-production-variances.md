@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Origini comuni degli scostamenti di produzione
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo illustra le varie origini normali di ciascun tipo di scostamento produzione. 
 
 Di seguito sono alcune origini tipiche di uno scostamento di **dimensioni lotto**:
@@ -57,6 +60,8 @@ Di seguito sono alcune origini tipiche di uno scostamento **sostitutivo di produ
 -   Aggiunta manuale di un'operazione al ciclo di lavorazione di produzione e dichiarazione della stessa come consumata.
 -   Quando si crea l'ordine di produzione, si seleziona una versione DBA diversa dalla versione DBA utilizzata nel calcolo di costo standard.
 -   Quando si crea l'ordine di produzione, si seleziona una versione del ciclo di lavorazione diversa dalla versione del ciclo di lavorazione utilizzata nel calcolo di costo standard.
+
+
 
 
 

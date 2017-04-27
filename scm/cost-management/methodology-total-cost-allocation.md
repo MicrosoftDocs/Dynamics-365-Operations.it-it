@@ -32,7 +32,7 @@ Questo articolo fornisce le indicazioni per l'utilizzo dell'allocazione costi to
 
 L'allocazione costi totali (TCA) è un metodo di calcolo del costo tra l'articolo formula principale per un ordine batch e i co-prodotti definiti per la formula. Questo metodo è dinamico. Calcola il costo come media ponderata tra le quantità dichiarate finite per l'articolo formula e i co-prodotti. Quando si utilizza l'allocazione costi totale, non è necessario rivedere le allocazioni costi per ogni ordine batch. Se non si utilizza l'allocazione costi totali, il calcolo della formula utilizza la funzionalità esistente.
 
-## <a name="using-tca-for-coproducts"></a>Utilizzo di TCA per i coproducts
+## <a name="using-tca-for-coproducts"></a>Utilizzo dell'allocazione costi totali per co-prodotti
 Di seguito sono riportate alcune indicazioni per l'utilizzo dell'allocazione costi totali per co-prodotti:
 
 -   Se si imposta il dispositivo di scorrimento **Allocazione costi totali** su **Sì** per una versione della formula, i co-prodotti devono avere un prezzo di costo maggiore di 0 (zero). Il valore può essere recuperato dalla versione di costo attiva per lo stesso sito o per il primo sito per una formula non specifica del sito. Questa condizione viene convalidata all'approvazione della formula.
@@ -46,7 +46,7 @@ Di seguito sono riportate alcune indicazioni per l'utilizzo dell'allocazione cos
 -   Quando si crea un ordine batch manualmente o si stabilizza un ordine pianificato, il valore del dispositivo di scorrimento **Allocazione costi totali** per la versione della formula viene copiato nell'ordine batch. Tuttavia, è possibile modificare questa impostazione nell'ordine batch. Se il dispositivo di scorrimento di **Allocazione costi totali** è impostato su **No** per la versione della formula e viene impostato su **Sì** per l'ordine batch, il metodo di allocazione dei costi per ogni riga impostato su **Manuale** viene impostato su **TCA**. Un'allocazione dei costi pari a **Nessuno** è invariata. Se il dispositivo di scorrimento di **Allocazione costi totali** è impostato su **Sì** per la versione della formula e viene impostato su **No** per l'ordine batch, il metodo di allocazione dei costi per ogni co-prodotto di tipo **Produzione** viene impostato su **Manuale**. Qualsiasi percentuale stimata dell'allocazione dei costi è invariata.
 -   La pagina **Allocazione costi co-prodotto** mostra la percentuale di allocazione dei costi calcolata. È possibile aprire questa pagina dalla pagina **Ordine batch**. Queste informazioni sono utili quando i prodotti e le quantità dichiarati sono diversi dalle quantità programmate o iniziate nell'ordine batch. Se il costo viene completato, le nuove allocazioni percentuali dall'allocazione costi totali vengono visualizzate nella pagina **Allocazione costi co-prodotti**.
 
-## <a name="calculating-the-burden-for-byproducts"></a>Calcolo del carico ai sottoprodotti
+## <a name="calculating-the-burden-for-byproducts"></a>Calcolo del carico per i sottoprodotti
 Il campo **Allocazione costi sottoprodotti** nella pagina **Co-prodotti** è un campo di enumeratore utilizzato solo per i sottoprodotti. Per i co-prodotti, il valore di questo campo è sempre **Nessuno**. Per le righe di sottoprodotti, questo campo determina come viene aggiunto l'importo costi per la riga del sottoprodotto al costo totale della produzione. Sono disponibili le seguenti opzioni:
 
 -   **Nessuno** ─ non viene aggiunto alcun importo al costo totale di produzione per la riga del sottoprodotto.

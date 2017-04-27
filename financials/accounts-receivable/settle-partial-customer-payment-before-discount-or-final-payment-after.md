@@ -1,5 +1,5 @@
 ---
-title: Liquidare un pagamento parziale del cliente prima della data dello sconto a un pagamento finale dopo la data sconto
+title: Liquidare un pagamento cliente parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
 description: "Questo articolo illustra l&quot;effetto della liquidazione dei pagamenti delle fatture per i clienti. Lo scenario si concentra sugli effetti della contabilità secondaria, non della contabilità generale."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidare un pagamento parziale del cliente prima della data dello sconto a un pagamento finale dopo la data sconto
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidare un pagamento cliente parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo illustra l'effetto della liquidazione dei pagamenti delle fatture per i clienti. Lo scenario si concentra sugli effetti della contabilità secondaria, non della contabilità generale.
 
-Fabrikam vendita di merci al cliente 4027. Fabrikam offre uno sconto di cassa del 1 se la fattura viene pagata in 14 giorni. Le fatture devono essere pagate in 30 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano ** parametri di contabilità clienti ** nella pagina.
+Fabrikam vende merci al cliente 4027. Fabrikam offre uno sconto di cassa dell'1% se la fattura viene pagata entro 14 giorni. Le fatture devono essere pagate in 30 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano nella pagina **Parametri contabilità clienti**.
 
 ## <a name="invoice"></a>Fattura
-Il 25 giugno, Arnie immette e registra una fattura di 1,000.00 per il cliente 4027. Arnie può visualizzare la fattura utilizzando ** transazioni ** i pulsanti ** clienti ** nella pagina.
+Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 4027. Arnie può visualizzare la fattura utilizzando il pulsante **Transazioni** nella pagina **Clienti**.
 
 | Giustificativo   | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -46,7 +49,7 @@ Il 2 luglio il cliente 4027 effettua un pagamento parziale di 297,00 per la fatt
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Selezionata | Normale            | FTI-10020 | 4027    | 25/6/2015 | 25/7/2015 | 10020   | 1.000,00                             | GBP      | 297,00           |
 
-Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**. Se non si modifica il valore di **Importo da liquidare** in 297,00, i valori di **Importo sconto di cassa** visualizzati saranno differenti. Tuttavia, 3.00 verrà applicato lo sconto di cassa quando viene registrato il pagamento, poiché la liquidazione automaticamente regola ** importo da liquidare ** il valore dell'utente.
+Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**. Se non si modifica il valore di **Importo da liquidare** in 297,00, i valori di **Importo sconto di cassa** visualizzati saranno differenti. Tuttavia, quando viene registrato il pagamento, verrà applicato lo sconto di cassa pari a 3,00, poiché la liquidazione rettifica automaticamente il valore di **Importo da liquidare**.
 
 |                              |           |
 |------------------------------|-----------|
@@ -105,6 +108,8 @@ Arnie imposta il valore nel campo **Utilizzare lo sconto di cassa** di nuovo su 
 | ARP-10020  |                  | 7/1/2015  |         |                                      | 297,00                                | 0,00    | GBP      |
 | DISC-10020 |                  | 7/1/2015  |         |                                      | 3,00                                  | 0,00    | GBP      |
 | ARP-10021  |                  | 7/11/2015 |         |                                      | 700,00                                | 0,00    | GBP      |
+
+
 
 
 

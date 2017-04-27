@@ -1,5 +1,5 @@
 ---
-title: Management Reporter consente di Progettazione report e il client Web
+title: Management Reporter - Progettazione e client Web
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter consente di Progettazione report e il client Web
+# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter - Progettazione e client Web
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

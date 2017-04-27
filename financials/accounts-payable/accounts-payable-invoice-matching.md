@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Abbinamento fatture della contabilità fornitori
 
+[!include[banner](../includes/banner.md)]
+
+
 Il processo di abbinamento fatture della contabilità fornitori consente di abbinare le informazioni relative a fatture fornitore, ordini fornitore ed entrate prodotti.
 
 Quando si abbinano documenti, le differenze tra questi documenti sono dette discrepanze di abbinamento. Le discrepanze di abbinamento vengono confrontate con le tolleranze specificate. Se una discrepanza di abbinamento supera la percentuale o l'importo di tolleranza, nelle pagne Fattura fornitore e Dettagli cronologia e abbinamento fatture verranno visualizzate icone di scostamento relative all'abbinamento. 
@@ -48,9 +51,9 @@ Sono disponibili i tipi di abbinamento fatture di contabilità fornitori indicat
 
 Tramite l'abbinamento a due e a tre elementi di verifica vengono abbinate sempre le informazioni sul prezzo in base al prezzo unitario. È inoltre possibile configurare questi criteri per abbinare le informazioni sul prezzo in base al totale dei prezzi.
 -   Abbinamento prezzo unitario netto: consente di abbinare le informazioni sul prezzo per l'abbinamento a due o a tre elementi di verifica tramite il confronto tra il prezzo unitario netto per ogni riga fattura e il prezzo unitario netto corrispondente dell'ordine fornitore. Il prezzo unitario netto viene determinato in base alla formula seguente: importo netto riga / quantità riga.
--   Abbinamento totali dei prezzi: consente di abbinare le informazioni sul prezzo per l'abbinamento a due o a tre elementi di verifica tramite il confronto tra l'importo netto (totale dei prezzi) per ogni riga fattura e l'importo netto corrispondente dell'ordine fornitore. L'importo netto viene determinato in base alla seguente formula: (Quantità della riga \* del prezzo unitario) + spese - sconti riga
+-   Abbinamento totali dei prezzi: consente di abbinare le informazioni sul prezzo per l'abbinamento a due o a tre elementi di verifica tramite il confronto tra l'importo netto (totale dei prezzi) per ogni riga fattura e l'importo netto corrispondente dell'ordine fornitore. L'importo netto viene determinato in base alla formula seguente: (prezzo unitario \* quantità riga) + spese riga - sconti riga
 
-In genere, i calcoli di abbinamento fatture vengono eseguiti automaticamente al momento della modifica delle fatture fornitore nella pagina Fattura fornitore. In alternativa, l'abbinamento fatture può essere eseguito su richiesta, se necessario. L'abbinamento fatture a richiesta viene controllato automaticamente per la persona giuridica dallo stato dell'intestazione della fattura di aggiornamento nella pagina Parametri contabilità fornitori nella scheda di convalida fattura. L'abbinamento fatture può inoltre essere eseguito come parte di un processo di revisione della fattura. È possibile visualizzare i risultati di abbinamento fatture automatico sulla pagina Fattura fornitore e nelle pagine di abbinamento fatture correlate.
+In genere, i calcoli di abbinamento fatture vengono eseguiti automaticamente al momento della modifica delle fatture fornitore nella pagina Fattura fornitore. In alternativa, l'abbinamento fatture può essere eseguito su richiesta, se necessario. L'abbinamento fatture a richiesta viene controllato per la persona giuridica da Aggiorna automaticamente lo stato dell'intestazione fattura nella pagina Parametri contabilità fornitori nella scheda Convalida fattura. L'abbinamento fatture può inoltre essere eseguito come parte di un processo di revisione della fattura. È possibile visualizzare i risultati di abbinamento fatture automatico sulla pagina Fattura fornitore e nelle pagine di abbinamento fatture correlate.
 
 ## <a name="invoice-totals-matching"></a>Abbinamento totali fatture
 È possibile utilizzare l'abbinamento totali fatture per assicurarsi che gli importi totali fattura non si discostino dagli importi previsti oltre un livello accettabile. Sei totali vengono confrontati nella pagina dei dettagli di abbinamento totali fatture, come illustrato nella seguente tabella. Se la tolleranza consentita per l'abbinamento totali fatture è pari al 20%, la percentuale di scostamento 100% per l'importo totale degli sconti verrà considerata una discrepanza di abbinamento.
@@ -165,7 +168,7 @@ Gli stessi importi riga vengono confrontati nella pagina dei dettagli abbinament
 Criteri di abbinamento a tre vie controllati per la persona giuridica dal campo Criteri di abbinamento riga della pagina Parametri contabilità fornitori. A seconda della selezione effettuata nel campo Consenti di ignorare i criteri di abbinamento, nella pagina Criteri di abbinamento è possibile selezionare l'abbinamento a tre elementi di verifica per un fornitore, un articolo o una combinazione di articolo e fornitore specifici. Nella pagina Ordine acquisto è possibile selezionare l'abbinamento a due elementi di verifica per un ordine fornitore specifico.
 
 ## <a name="charges-matching"></a>Abbinamento spese
-È possibile utilizzare l'abbinamento spese per assicurarsi gli importi spese non si discostino dagli importi previsti oltre una percentuale accettabile. Gli importi totali relativi a ogni codice spesa che si applica alla fattura e l'ordine fornitore viene confrontato con i valori delle spese di confronto di fattura: pagina, come illustrato nella seguente tabella. Se la tolleranza consentita per il codice spese è pari al 25%, la percentuale di scostamento 99.999.999.999,99% per il codice spese Licenza viene considerata una discrepanza di abbinamento.
+È possibile utilizzare l'abbinamento spese per assicurarsi gli importi spese non si discostino dagli importi previsti oltre una percentuale accettabile. Gli importi totali relativi a ogni codice spesa che si applica alla fattura e all'ordine fornitore vengono confrontati nella pagina Confronta valori spese - Fattura, come illustrato nella tabella riportata di seguito. Se la tolleranza consentita per il codice spese è pari al 25%, la percentuale di scostamento 99.999.999.999,99% per il codice spese Licenza viene considerata una discrepanza di abbinamento.
 
 > [!NOTE] 
 > Una percentuale di scostamento pari al 99.999.999.999,99% indica che l'importo previsto basato sull'ordine fornitore è pari a zero e l'importo effettivo della fattura corrisponde a un valore positivo. 
@@ -188,7 +191,9 @@ Anziché sugli ordini fornitore, spesso le fatture fornitore si basano sulle ent
 -   Immettere gli importi fattura che non erano stati inclusi nell'ordine fornitore originale, in modo che le informazioni della fattura corrispondano alla fattura ricevuta dal fornitore. È possibile confrontare le spese per gli ordini fornitore con le spese per le fatture. Se necessario, è possibile aggiungere spese alle fatture e allocarle alle righe fattura.
 -   Visualizzare e approvare le eventuali discrepanze di abbinamento tra il prezzo unitario netto in fattura e il prezzo unitario netto nell'ordine fornitore. È possibile impostare le percentuali di tolleranza prezzi per persone giuridiche, fornitori e articoli. Se il prezzo delle righe fattura fornitore non rientra nella tolleranza di prezzo accettabile, è possibile salvare la fattura in attesa che venga approvata per la registrazione o che il fornitore faccia pervenire una rettifica.
 
-Per ulteriori informazioni, vedere [criteri di abbinamento a tre elementi di verifica three-way-matching-policies.md] ().
+Per ulteriori informazioni, vedere [Criteri di abbinamento a tre elementi di verifica](three-way-matching-policies.md).
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Assegnare il tempo ai processi di un&quot;aggregazione di processi
+title: Allocare tempo ai processi in un&quot;aggregazione di processi
 description: "In Esecuzione produzione, è possibile aggregare i processi. È quindi possibile avviare più processi contemporaneamente nella pagina Elenco processi."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Assegnare il tempo ai processi di un'aggregazione di processi
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Allocare tempo ai processi in un'aggregazione di processi
+
+[!include[banner](../includes/banner.md)]
+
 
 In Esecuzione produzione, è possibile aggregare i processi. È quindi possibile avviare più processi contemporaneamente nella pagina Elenco processi.
 
@@ -107,5 +110,7 @@ Si supponga che un lavoratore abbia eseguito tre processi con una retribuzione o
 | Processo 3 | (3,33 ÷ 5) × USD 12,00                 | USD 8,00                | 5 ore        | USD 40,00         |
 
 Il costo orario corretto e il tempo necessario per il processo vengono registrati in un giornale di registrazione produzione. **Nota:** se si seleziona l'opzione **Categoria costi** nella scheda **Generale** della pagina **Impostazioni predefinite ordini di produzione**, l'ora effettiva per ciascun processo viene trasferita in un giornale di registrazione produzione, in cui il costo è applicato alla categoria di costi del processo specifico.
+
+
 
 

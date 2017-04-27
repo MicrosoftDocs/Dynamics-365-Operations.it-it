@@ -1,5 +1,5 @@
 ---
-title: "Liquidare un pagamento parziale del cliente che ha periodi di sconto più"
+title: "Liquidare un pagamento cliente parziale che ha più periodi di sconto"
 description: "Questo articolo illustra come vengono liquidati i pagamenti cliente se sono presenti più periodi di sconto."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidare un pagamento parziale del cliente che ha periodi di sconto più
+# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidare un pagamento cliente parziale che ha più periodi di sconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo illustra come vengono liquidati i pagamenti cliente se sono presenti più periodi di sconto.
 
-Fabrikam offre al cliente 4031 due periodi di sconto di cassa. Il cliente riceve uno sconto di cassa del 2% se salda la fattura entro cinque giorni e uno sconto di cassa dell'1% se salda la fattura entro 14 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano ** parametri di contabilità clienti ** nella pagina.
+Fabrikam offre al cliente 4031 due periodi di sconto di cassa. Il cliente riceve uno sconto di cassa del 2% se salda la fattura entro cinque giorni e uno sconto di cassa dell'1% se salda la fattura entro 14 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano nella pagina **Parametri contabilità clienti**.
 
 ## <a name="invoice"></a>Fattura
-Il 25 giugno, Arnie immette e registra una fattura di 1,000.00 per il cliente 4031. Quando infine gli sconti di cassa per la fattura, Arnie visualizzerà il cliente 4031 otterrà uno sconto 20.00 se la fattura viene pagata dal 30 giugno. Se la fattura viene pagata dal 9 luglio, il cliente otterrà uno sconto 10.00.
+Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 4031. Quando rivede gli sconti di cassa per la fattura, Arnie vede che il cliente 4031 otterrà uno sconto di 20,00 se la fattura viene pagata entro il 30 giugno. Se la fattura viene pagata entro il 9 luglio, il cliente otterrà uno sconto di 10,00.
 
 | Data sconto di cassa | Importo sconto di cassa | Importo nella valuta della transazione |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ Il saldo della fattura ora è pari a 0,00. Arnie visualizza le informazioni nell
 | DISC-10030 |  Sconto di cassa   | 28/6/2015 |         |                                      | 6,00                                  | 0,00    | GBP      |
 | ARP-10031  |  Pagamento         | 8/7/2015  |         |                                      | 693,00                                | 0,00    | GBP      |
 | DISC-1031  |  Sconto di cassa   | 8/7/2015  |         |                                      | 7,00                                  | 0,00    | GBP      |
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Configurare crediti e riscossioni
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene descritto come impostare le funzionalità di riscossione.
 
 <a name="set-up-aging-period-definitions"></a>Imposta le definizioni di periodi di aging
@@ -46,7 +49,7 @@ Se nell'organizzazione le attività di riscossione vengono svolte da più person
 ## <a name="set-up-a-collections-case-category"></a>Impostare una categoria di casi di riscossione
 Se le riscossioni vengono organizzate tramite i casi, impostare una categoria di casi con tipo di categoria **Riscossioni**. L'impostazione è necessaria solo se si desidera utilizzare la funzione caso nella pagina **Riscossioni**.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Nomi giornale di registrazione (liquidazione, annullamento e NSF)
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Impostare i nomi di giornali di registrazione: liquidazione, annullamento e NSF, Non Sufficient Funds (senza copertura)
 Impostare i nomi di giornale di registrazione utilizzati quando le transazioni vengono elaborate nella pagina **Riscossioni**. Sono incluse le operazioni di liquidazione e annullamento di transazioni nonché l'elaborazione di pagamenti senza copertura (NSF).
 
 | Descrizione | Tipo di giornale di registrazione     |
@@ -82,11 +85,13 @@ Se si desidera inviare messaggi di posta elettronica ai contatti tramite la pagi
 Nella scheda dettaglio **Crediti e riscossioni** per un cliente, nel campo **Contatto riscossioni**, selezionare la persona dell'organizzazione del cliente che lavora con l'agente di riscossione. Questa persona verrà utilizzata come contatto predefinito nella pagina **Riscossioni** e corrisponderà al destinatario dei messaggi di posta elettronica inviati. 
 
 > [!NOTE] 
-> Se un contatto per la riscossione non specificata per un cliente, il contatto primario per il cliente. Se non è stato specificato un contatto principale, i messaggi di posta elettronica verranno inviati al primo indirizzo elencato nella pagina **Contatti**.
+> Se per un cliente non è stato specificato un contatto per la riscossione, verrà utilizzato il contatto principale per il cliente. Se non è stato specificato un contatto principale, i messaggi di posta elettronica verranno inviati al primo indirizzo elencato nella pagina **Contatti**.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Configurare le impostazioni di posta elettronica per i venditori
 Se si desidera inviare messaggi di posta elettronica ai venditori tramite la pagina **Riscossioni**, impostare gli indirizzi di posta elettronica per i venditori. Impostare un indirizzo di posta elettronica per ogni rappresentante in ogni gruppo vendite con provvigione. Il rappresentante per il quale è selezionata l'opzione **Contatto** corrisponde al venditore predefinito destinatario dei messaggi di posta elettronica inviati. 
 
 Se non è stato specificato un rappresentante, verrà utilizzato il venditore principale per l'organizzazione del cliente. Se non è stato specificato un venditore principale, i messaggi di posta elettronica verranno inviati al primo venditore elencato nel modulo.
+
+
 
 

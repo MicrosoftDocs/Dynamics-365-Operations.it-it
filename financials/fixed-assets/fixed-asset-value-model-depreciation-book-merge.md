@@ -1,6 +1,6 @@
 ---
 title: Unione del modello di valore cespite e registro beni ammortizzabili
-description: "Nelle versioni precedenti, presenza di due concetti dei prezzi per i cespiti ridotto - modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 per le operazioni di 1611, la funzionalità modello di valore e funzionalità del registro beni ammortizzabili è stata fusa in un unico concetto noti come registro beni ammortizzabili."
+description: "Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti: modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 for Operations versione 1611, le funzionalità dei modelli di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Unione del modello di valore cespite e registro beni ammortizzabili
 
-Nelle versioni precedenti, presenza di due concetti dei prezzi per i cespiti ridotto - modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 per le operazioni di 1611, la funzionalità modello di valore e funzionalità del registro beni ammortizzabili è stata fusa in un unico concetto noti come registro beni ammortizzabili.
+[!include[banner](../includes/banner.md)]
 
-La nuova funzionalità dei libri si basa sulla precedente funzionalità dei modelli di valore ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili. [libro![come una fusione la funzionalità del registro beni ammortizzabili e modello di valore di ammortamento (]. /media/fixed-assets.png)](. /media/fixed-assets.png) A causa della stampa unione, sarà possibile utilizzare un singolo insieme di pagine, delle richieste di informazioni e nei report per tutti i processi del cespite. Le tabelle in questo argomento descrivono la precedente funzionalità dei modelli di valore e dei registri dei beni ammortizzabili, insieme alle nuove funzionalità per i libri.
+
+Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti: modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 for Operations versione 1611, le funzionalità dei modelli di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro.
+
+La nuova funzionalità dei libri si basa sulla precedente funzionalità dei modelli di valore ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili. [![Libro come unione di funzionalità dei modelli di valore e dei registri beni ammortizzabili](./media/fixed-assets.png)](./media/fixed-assets.png) A causa di questa unione, è ora possibile usare un singolo insieme di pagine, richieste di informazioni e report per tutti i processi cespiti. Le tabelle in questo argomento descrivono la precedente funzionalità dei modelli di valore e dei registri dei beni ammortizzabili, insieme alle nuove funzionalità per i libri.
 
 ## <a name="setup"></a>Imposta
 Per impostazione predefinita, i libri registrano sia nella contabilità generale che nel giornale di registrazione cespiti secondario. I libri hanno una nuova opzione **Registra nella contabilità generale** che consente di disabilitare la registrazione nella contabilità generale e registrare solo nel giornale di registrazione cespiti secondario. Questa funzionalità somiglia al precedente comportamento di registrazione per i registri beni ammortizzabili. L'impostazione dei nomi di giornale di registrazione ha un nuovo livello di registrazione denominato Nessuno. Tale livello di registrazione è stato aggiunto specificamente per le transazioni cespiti. Per registrare transazioni per libri che non registrano nella contabilità generale è necessario usare un nome di giornale di registrazione il cui livello di registrazione è impostato su **Nessuno**.
@@ -66,5 +69,7 @@ Le richieste di informazioni e i report supportano tutti i libri. I report non i
 
 ## <a name="upgrade"></a>Aggiorna
 Il processo di aggiornamento sposterà l'impostazione esistente e tutte le transazioni esistenti nella nuova struttura dei libri. I modelli di valore rimarranno come sono attualmente, come libro che registra nella contabilità generale. Tuttavia, i registri beni ammortizzabili vengono spostati in un libro con l'opzione **Registra nella contabilità generale** impostata su **No**. I nomi di giornale di registrazione per registri beni ammortizzabili vengono spostati in un nome di giornale di registrazione di contabilità generale con livello di registrazione impostato su **Nessuno**.
+
+
 
 

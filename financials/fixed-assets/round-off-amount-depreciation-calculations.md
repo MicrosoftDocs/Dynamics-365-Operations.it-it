@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Importo per l'arrotondamento dei calcoli di ammortamento
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo illustra il campo Arrotonda ammortamento presente nelle pagine Impostazione libro.
 
-Gli importi di arrotondamento di ammortamento vengono impostati per ciascun libro. Gli importi di arrotondamento di ammortamento vengono utilizzati nel profilo di ammortamento cespiti con l'ammortamento e il valore futuro del cespite nonché nelle proposte di ammortamento. Immettere l'importo minimo dell'ammortamento consentito per il libro. 
+Gli importi di arrotondamento per l'ammortamento vengono impostati per ogni libro. Gli importi di arrotondamento per l'ammortamento vengono utilizzati nel profilo di ammortamento cespiti che mostra l'ammortamento e il valore futuri del cespite e anche nelle proposte di ammortamento. Immettere l'importo minimo dell'ammortamento consentito per il libro. 
 
 Indipendentemente dall'arrotondamento che viene impostato, l'importo di ammortamento nell'ultimo periodo di ammortamento non viene arrotondato. Alla fine dell'ultimo periodo di ammortamento, il valore del cespite deve essere 0 (zero) o il valore di scarto, se il valore di scarto viene utilizzato.
 
@@ -43,6 +46,8 @@ L'ammortamento senza arrotondamento ammonta a 2.444,44. Come indicato nella tabe
 | Arrotondamento 1,00   | 2.444,00            |
 | Arrotondamento 10,00  | 2.440,00            |
 | Arrotondamento 100,00 | 2.400,00            |
+
+
 
 
 

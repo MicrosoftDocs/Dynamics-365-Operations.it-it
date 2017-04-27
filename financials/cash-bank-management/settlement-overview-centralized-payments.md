@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Panoramica sulla liquidazione per i pagamenti centralizzati
 
+[!include[banner](../includes/banner.md)]
+
+
 Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una persona giuridica che gestisca tutti i pagamenti. In questo modo si evita di dover immettere la stessa transazione in più persone giuridiche ed è possibile risparmiare tempo grazie alla semplificazione del processo delle proposte di pagamento, del processo di liquidazione, della modifica delle transazioni aperte e della modifica delle transazioni chiuse per i pagamenti centralizzati. 
 
 Quando un pagamento cliente o fornitore viene immesso in una determinata persona giuridica e liquidato con una fattura precedentemente immessa in un'altra persona giuridica, per ciascuna persona giuridica vengono generate automaticamente le transazioni contabili applicabili relative a importi da versare e da ricevere. Un record di liquidazione viene creato per ciascuna combinazione di fattura e pagamento nella transazione. A ogni record di liquidazione viene assegnato un nuovo numero di giustificativo basato sulla serie di sequenze numeriche dei giustificativi di pagamento specificata nella pagina **Parametri contabilità clienti** per i clienti e nella pagina **Parametri contabilità fornitori** per i fornitori. 
@@ -108,6 +111,8 @@ In caso di pagamenti fornitore, le transazioni relative a importi da versare e d
 
 ## <a name="withholding-tax"></a>Ritenuta d'acconto
 Il conto fornitore associato alla fattura viene utilizzato per determinare se la ritenuta d'acconto deve essere calcolata. Se la ritenuta d'acconto viene applicata, l'imposta verrà calcolata nella persona giuridica associata alla fattura. Se le persone giuridiche utilizzano valute diverse, verrà utilizzato il tasso di cambio dalla persona giuridica associata alla fattura.
+
+
 
 
 

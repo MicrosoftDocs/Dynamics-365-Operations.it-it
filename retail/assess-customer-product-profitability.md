@@ -1,6 +1,6 @@
 ---
 title: "Valutare la redditività di prodotti e clienti"
-description: "In questo articolo viene descritto come utilizzare la il punto vendita e l&quot;analisi dei dati in tempo reale per accedere, esplorare e conquistare alla comprensione su clienti e alla redditività del prodotto dal sistema Microsoft Dynamics 365 per i dati delle operazioni."
+description: "In questo articolo viene illustrato come utilizzare l&quot;analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sui clienti e la redditività dei prodotti dai dati di Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Valutare la redditività di prodotti e clienti
 
-In questo articolo viene descritto come utilizzare la il punto vendita e l'analisi dei dati in tempo reale per accedere, esplorare e conquistare alla comprensione su clienti e alla redditività del prodotto dal sistema Microsoft Dynamics 365 per i dati delle operazioni. 
+[!include[banner](includes/banner.md)]
 
-Come parte di Dynamics 365 per le operazioni, gli utenti possono esaminare la redditività per i clienti superiore (10 - 100) in diversi livelli della gerarchia organizzativa, in base a uno dei seguenti criteri:
+
+In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sui clienti e la redditività dei prodotti dai dati di Microsoft Dynamics 365 for Operations. 
+
+Come parte di Dynamics 365 for Operations, gli utenti possono analizzare la redditività relativa ai clienti principali (da 10 a 100) nei diversi livelli della gerarchia organizzativa, in base a uno dei seguenti criteri:
 
 -   Importo vendite
 -   Quantità
@@ -38,8 +41,8 @@ Come parte di Dynamics 365 per le operazioni, gli utenti possono esaminare la re
 
 Per la valutazione, è possibile utilizzare direttamente il report **Primi clienti** che è possibile aprire tramite uno dei seguenti percorsi:
 
--   ** La gestione della vendita al dettaglio ** area di lavoro Dynamics 365 per le operazioni &gt; ** al dettaglio e il commercio ** &gt; ** canali ** &gt; ** gestione della vendita al dettaglio ** &gt; ** report ** &gt; ** i clienti superiori sono **
--   ** Le richieste di informazioni e report ** sezioni Dynamics 365 per le operazioni &gt; ** al dettaglio e il commercio ** &gt; ** richieste di informazioni e report statistici ** &gt; ** i report di vendita ** &gt; ** il report superiore dei clienti **
+-   Area di lavoro di Dynamics 365 for Operations in **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report primi clienti**
+-   Sezione di Dynamics 365 for Operations in **Richieste di informazioni e report** &gt; **Vendita al dettaglio e commercio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report primi clienti**
 
 In modo analogo, gli utenti possono analizzare la redditività relativa ai prodotti principali (da 10 a 100) tra diversi livelli della gerarchia organizzativa, in base a uno dei seguenti criteri:
 
@@ -50,8 +53,10 @@ In modo analogo, gli utenti possono analizzare la redditività relativa ai prodo
 
 Per la valutazione, è possibile utilizzare direttamente il report **Report prodotti principali **che è possibile aprire tramite uno dei seguenti percorsi:
 
--   ** La gestione della vendita al dettaglio ** area di lavoro Dynamics 365 per le operazioni &gt; ** al dettaglio e il commercio ** &gt; ** canali ** &gt; ** gestione della vendita al dettaglio ** &gt; ** report ** &gt; ** completano il report dei prodotti **
--   ** La categoria e la gestione del prodotto ** area di lavoro Dynamics 365 per le operazioni &gt; ** al dettaglio e il commercio ** &gt; ** prodotti e categorie ** &gt; ** gestione della vendita al dettaglio ** &gt; ** report ** &gt; ** i prodotti di livello superiore sono **
--   ** Le richieste di informazioni e report ** sezioni Dynamics 365 per le operazioni &gt; ** al dettaglio e il commercio ** &gt; ** richieste di informazioni e report statistici ** &gt; ** i report di vendita ** &gt; ** il report superiore dei prodotti **
+-   Area di lavoro di Dynamics 365 for Operations in **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report prodotti principali**
+-   Area di lavoro di Dynamics 365 for Operations **Gestione categorie e prodotti** &gt; **Vendita al dettaglio e commercio** &gt; **Prodotti e categorie** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report prodotti principali**
+-   Sezione di Dynamics 365 for Operations in **Richieste di informazioni e report** &gt; **Vendita al dettaglio e commercio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report prodotti principali**
+
+
 
 

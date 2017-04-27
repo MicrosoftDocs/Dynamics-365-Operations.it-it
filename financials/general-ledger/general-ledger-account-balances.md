@@ -1,6 +1,6 @@
 ---
 title: "Saldi dei conti della contabilità generale"
-description: "In questo articolo viene descritto due modi visualizzare i saldi dei conti di contabilità generale - la pagina elenco e i report finanziari del bilancio di verifica. Viene inoltre discusso come aggiornare i saldi del set di dimensioni."
+description: 'Questo articolo illustra due modi per visualizzare i saldi dei conti CoGe: la pagina elenco Bilancio di verifica e i report finanziari. Viene inoltre discusso come aggiornare i saldi del set di dimensioni.'
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>Saldi dei conti della contabilità generale
 
-In questo articolo viene descritto due modi visualizzare i saldi dei conti di contabilità generale - la pagina elenco e i report finanziari del bilancio di verifica. Viene inoltre discusso come aggiornare i saldi del set di dimensioni.
+[!include[banner](../includes/banner.md)]
+
+
+Questo articolo illustra due modi per visualizzare i saldi dei conti CoGe: la pagina elenco Bilancio di verifica e i report finanziari. Viene inoltre discusso come aggiornare i saldi del set di dimensioni.
 
 Sono disponibili varie modalità in cui gli utenti possono visualizzare i saldi nella contabilità generale. Alcune opzioni più comuni sono:
 
@@ -46,6 +49,8 @@ Quando un utente modifica i parametri, i saldi vengono aggiornati. L'utente può
 
 Gli utenti possono eseguire il drill-down per visualizzare le transazioni che costituiscono il saldo.    
 
-Per ulteriori informazioni, vedere [] report finanziari di visualizzazione (view-financial-reports.md).
+Per ulteriori informazioni, vedere [Visualizzare report finanziari](view-financial-reports.md).
+
+
 
 

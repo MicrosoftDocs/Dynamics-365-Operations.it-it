@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Ammortamento basato sulla vita utile rimanente a quote costanti
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile rimanente a quote costanti.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Vita utile rimanente a quote costanti** nel campo **Metodo** della pagina **Profili di ammortamento**, l'ammortamento dei cespiti assegnati al profilo di ammortamento verrà basato sulla vita utile rimanente del cespite. In genere è lo stesso importo in ciascun periodo di ammortamento. Per impostare l'ammortamento a quote costanti basato sulla vita utile rimanente, è inoltre necessario selezionare le opzioni presenti nel campo **Anno di ammortamento** e nel campo **Frequenza periodo** della pagina **Profili di ammortamento**. Le opzioni disponibili nel campo **Frequenza periodo** variano a seconda del valore selezionato in **Anno di ammortamento**.
@@ -36,7 +39,7 @@ Quando si imposta un profilo di ammortamento cespiti e si seleziona **Vita utile
 
 ### <a name="calendar"></a>Calendario
 
-Se si seleziona ** calendario ** nel campo del *** di anno di ammortamento del ***, un anno di dal 1° gennaio al 31 dicembre si presuppone, anche se è stato definito per il calendario fiscale. L'opzione **Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, la base di ammortamento corrisponde al valore contabile netto meno il valore di realizzo. Nell'esempio illustrato più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
+Se si seleziona **Calendario** nel campo ***Anno di ammortamento***, si presuppone che l'anno inizi il primo gennaio e termini il 31 dicembre, anche se il calendario fiscale è stato definito in modo diverso. L'opzione **Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, la base di ammortamento corrisponde al valore contabile netto meno il valore di realizzo. Nell'esempio illustrato più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
 -   **Annuale**: viene registrato un importo il 31 dicembre.
 -   **Mensile**: viene registrato un importo mensile alla fine di ciascun mese di calendario.
@@ -48,7 +51,7 @@ Se ad esempio si seleziona **Annuale**, l'ammortamento annuale viene registrato 
 
 ### <a name="fiscal"></a>Fiscale
 
-Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, viene utilizzato l'ammortamento a quote costanti basato sulla vita utile rimanente, calcolato in base agli anni fiscali rimanenti. Ad esempio, per l'anno fiscale da il 1° luglio 2015, fino al 30 giugno 2016, il calcolo dell'il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato per ciascun periodo fiscale. La durata dell'anno fiscale successivo si baserà sui periodi fiscali impostati nella pagina **Calendari fiscali**. Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
+Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, viene utilizzato l'ammortamento a quote costanti basato sulla vita utile rimanente, calcolato in base agli anni fiscali rimanenti. Se ad esempio l'anno fiscale inizia il 1° luglio 2015 e termina il 30 giugno 2016, il calcolo dell'ammortamento inizia il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato per ciascun periodo fiscale. La durata dell'anno fiscale successivo si baserà sui periodi fiscali impostati nella pagina **Calendari fiscali**. Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
 -   L'opzione **Annuale** registra l'importo totale dell'ammortamento che viene calcolato per l'anno fiscale come importo unico nell'ultimo giorno dell'anno fiscale.
 -   **Periodo fiscale **calcola l'importo totale dell'ammortamento per l'anno fiscale. L'importo totale viene quindi attribuito ai periodi fiscali definiti nella pagina **Calendari fiscali** per il calendario fiscale specificato per il libro.
@@ -73,6 +76,8 @@ L'importo di ammortamento è uguale ogni anno: (Costo di acquisizione – Valore
 | Anno 3 | (7.000 – 1.000) ÷ 3 = 2.000                   | 5.000                                 |
 | Anno 4 | (5.000 – 1.000) ÷ 2 = 2.000                   | 3.000                                 |
 | Anno 5 | (3.000 – 1.000) ÷ 1 = 2.000                   | 1.000                                 |
+
+
 
 
 

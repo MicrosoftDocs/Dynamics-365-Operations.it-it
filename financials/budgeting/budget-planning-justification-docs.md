@@ -1,6 +1,6 @@
 ---
-title: Budget planning justification documents
-description: "I documenti di motivazione immettere una descrizione per quelle che invitano un budget di spiegare perché un budget specifico necessario."
+title: Documenti di motivazione per la pianificazione del budget
+description: "I documenti di motivazione forniscono una descrizione per chi richiede un budget per spiegare perché un budget specifico è necessario."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,47 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="budget-planning-justification-documents"></a>Budget planning justification documents
+# <a name="budget-planning-justification-documents"></a>Documenti di motivazione per la pianificazione del budget
 
-I documenti di motivazione immettere una descrizione per quelle che invitano un budget di spiegare perché un budget specifico necessario. 
+[!include[banner](../includes/banner.md)]
 
-Un modello di piano di budget viene creato dal responsabile budget in Microsoft Word a cui è assegnato il processo di pianificazione del budget corrente. Numero dei proprietari potrà quindi aprire il modello e avere dati inseriti automaticamente in Word basato sulla relativa richiesta di budget. È quindi possibile aggiungere testo aggiuntivo o dati prima del salvataggio e per l'allegato del documento personale di giustificazione al piano di budget.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Componente di Office di Microsoft Dynamics di Microsoft Word
+I documenti di motivazione forniscono una descrizione per chi richiede un budget per spiegare perché un budget specifico è necessario. 
 
-1.  Visualizza un nuovo documento di Microsoft Word.
-2.  Fare clic su ** inserimento ** sulla barra multifunzione e fare clic su ** ** punto vendita.
-3.  Ricerca di Componente di Office di Microsoft Dynamics e fare clic su ** aggiungere **.
-4.  In Word, nel riquadro destro, fare clic su ** aggiungere le informazioni sul server **.
-5.  Tipo o incollare il server URL e fare clic su OK ** **.
+Un modello di piano di budget viene creato dal responsabile budget in Microsoft Word e viene assegnato al processo di pianificazione del budget corrente. I proprietari del budget potranno quindi aprire il modello e i dati verranno inseriti automaticamente in Word in base alla relativa richiesta di budget. I proprietari possono quindi aggiungere testo o dati aggiuntivi prima di salvare e allegare il proprio documento di motivazione personale al piano di budget.
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>Consente di impostare il modello di giustificativo in Microsoft Word
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Impostare il componente aggiuntivo di Microsoft Dynamics Office per Microsoft Word
 
-1.  Fare clic su ** progettazione ** in Componente di Office di Microsoft Dynamics dopo che è stato associato.
-2.  Per informazioni di intestazione, utilizzare ** aggiungere i campi ** il pulsante.
-3.  Selezionare l'origine dati dell'entità di BudgetPlanJustification e fare clic su ** dopo **. ** Nota: ** La entità è necessaria per qualsiasi documento di motivazione. Le altre entità possono essere utilizzate ma il caricamento di nuovo a Microsoft Dynamics 365 per le operazioni avrà esito negativo se questa entità non verrà inclusa.
-4.  Aggiungere il BudgetPlanName, il BudgetPlanPreparer, il ResponsibilityCenter ed etichette e i valori di DocumentNumber nel documento Word. ** Nota: ** È possibile utilizzare le proprie etichette personalizzati, anziché le etichette standard, se necessario.
-5.  Fare clic su ** effettuato ** per completare la sezione di intestazione.
-6.  Per il dettaglio livello di riga per gli importi del piano di budget, fare clic su ** aggiungere la tabella **.
-7.  Anche in questo caso, selezionare l'origine dati dell'entità di BudgetPlanJustification e fare clic su ** dopo **.
-8.  Aggiungere i campi per EffectiveDate, ScenarioName, AccountDisplayValue e AccountingCurrencyExpenseAmount. ** Nota: ** Se i commenti sono disponibili per aggiungere all'interno di un singolo piano di budget, queste righe possono essere aggiunti alla tabella corrispondente.
-9.  Aggiunge tutte le istruzioni aggiuntive immettere all'utilizzatore finale ed eseguire qualsiasi formattazione necessaria o la designazione al documento.
-10. Salvare il documento nel computer locale e chiudere il file prima di continuare.
+1.  Aprire un nuovo documento di Microsoft Word.
+2.  Fare clic su **Inserisci** sulla barra multifunzione e fare clic su **Punto vendita**.
+3.  Ricerca di un componente aggiuntivo di Microsoft Dynamics Office e fare clic su **Aggiungi**.
+4.  In Word, nel riquadro destro, fare clic su **Aggiungi informazioni sul server**.
+5.  Digitare o incollare l'URL del server e fare clic su **OK**.
 
-##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Impostare il processo di pianificazione del budget per utilizzare il modello di giustificativo
+##### <a name="define-the-justification-template-in-microsoft-word"></a>Definire il modello Motivazione in Microsoft Word
 
-1.  In Microsoft Dynamics 365 per le operazioni, spostarsi ** crearlo ** &gt; ** l'impostazione ** &gt; ** pianificazione del budget ** &gt; ** la motivazione aziendale vengono documentati i modelli **.
-2.  Fare clic su ** nuovo ** e funzione di visualizzazione nel documento di recente di Microsoft Word.
-3.  Immettere un nome visualizzato e una descrizione per il modello. Click **OK**.
-4.  Va ** crearlo ** &gt; ** l'impostazione ** &gt; ** budget ** ** pianificazione ** &gt; ** processo di pianificazione del budget **.
-5.  Selezionare il processo cui un modello di giustificativo deve essere utilizzato e fare clic su ** ** modifica.
-6.  In ** modello di documento di motivazione ** sistemi, selezionare il modello appropriato e salvare.
+1.  Fare clic su **Progetto** nel componente aggiuntivo di Office di Microsoft Dynamics Office dopo aver effettuato l'accesso.
+2.  Per informazioni sull'intestazione, utilizzare il pulsante **Aggiungi campi**.
+3.  Selezionare l'origine dati dell'entità di BudgetPlanJustification, quindi fare clic su **Avanti**. **Nota:** l'entità è necessaria per qualsiasi documento di motivazione. È possibile utilizzare altre entità ma il caricamento di nuovo su Microsoft Dynamics 365 for Operations avrà esito negativo se questa entità non verrà inclusa.
+4.  Aggiungere i valori e le etichette BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter e DocumentNumber nel documento Word. **Nota:** è possibile utilizzare le proprie etichette personalizzate anziché le etichette standard, se necessario.
+5.  Fare clic su **Fine** per completare la sezione dell'intestazione.
+6.  Per il dettaglio del livello di riga degli importi del piano di budget, fare clic su **Aggiungi tabella**.
+7.  Di nuovo, selezionare l'origine dati dell'entità di BudgetPlanJustification, quindi fare clic su **Avanti**.
+8.  Aggiungere i campi per EffectiveDate, ScenarioName, AccountDisplayValue e AccountingCurrencyExpenseAmount. **Nota:** se è possibile aggiungere commenti all'interno di singole righe del piano di budget, questi possono essere aggiunti alla tabella corrispondente.
+9.  Aggiungere eventuali istruzioni aggiuntive da fornire all'utente finale ed eseguire eventuali formattazioni necessarie o modifiche allo stile del documento.
+10. Salvare il documento sul computer locale e chiudere il file prima di continuare.
 
-##### <a name="edit-and-save-personalized-justification-documents"></a>Consente di modificare e salvare i documenti di motivazione personali
+##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Configurare il processo di pianificazione del budget per utilizzare per il modello Motivazione
 
-1.  In Dynamics 365 per le operazioni, creare un nuovo piano di budget o aprire un piano di budget esistente.
-2.  ** Giustificazione ** dal menu a discesa, selezionare ** creare una nuova motivazione **.
-3.  Dopo il ricaricamento in dettaglio, selezionare per caricare il documento personale ** motivazione ** dal menu a discesa.
+1.  In Microsoft Dynamics 365 for Operations, passare a **Impostazione budget** &gt; **Impostazioni** &gt; **Pianificazione del budget** &gt; **Modelli documento di motivazione**.
+2.  Fare clic su **Nuovo** e individuare il documento di Microsoft Word appena creato.
+3.  Immettere un nome di visualizzazione e una descrizione del modello. Fare clic su **OK**.
+4.  Accedere a **Impostazione budget** &gt; **Impostazioni** &gt; **Pianificazione** del **budget** &gt; **Processo di pianificazione del budget**.
+5.  Selezionare il processo in cui il modello di motivazione deve essere utilizzato e fare clic su **Modifica**.
+6.  Nel campo **Modello documento di motivazione**, selezionare il modello appropriato e salvare.
+
+##### <a name="edit-and-save-personalized-justification-documents"></a>Modificare e salvare documenti di motivazione personalizzati
+
+1.  In Dynamics 365 for Operations, creare un nuovo piano di budget o aprire un piano di budget esistente.
+2.  Dal menu a discesa **Motivazione**, selezionare **Crea nuova motivazione**.
+3.  Dopo aver inserito i dettagli, selezionare per caricare il documento personalizzato dal menu a discesa **Motivazione**.
+
+
 
 
 

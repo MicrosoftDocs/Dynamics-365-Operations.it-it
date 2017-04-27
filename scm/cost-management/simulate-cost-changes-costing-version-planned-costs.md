@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simulare le variazioni di costo mediante una versione di determinazione costi per i costi pianificati
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene illustrato come simulare gli effetti prodotti dalle variazioni di costo sui costi calcolati di un articolo prodotto con una versione di determinazione costi separata per costi pianificati.
 
 Gli effetti prodotti dalle variazioni di costo sui costi calcolati di un articolo prodotto possono essere simulati con una versione di determinazione costi separata per costi pianificati. Utilizzare questa versione di determinazione costi separata per immettere record di costi in sospeso che riflettono variazioni di costo incrementali e per calcolare l'impatto dei costi sugli articoli prodotti. Poiché nei calcoli DBA verrà utilizzato un principio di fallback di costi attivi, è necessario immettere solo le variazioni di costo incrementali.
@@ -54,5 +57,7 @@ Negli scenari descritti di seguito viene illustrato l'utilizzo della versione di
 -   Simulare la variazione di costo in una formula di calcolo di costi indiretti. La variazione di costo ad esempio può riflettere una diminuzione o un aumento previsto dei costi generali di produzione. Per definire la variazione in una formula di calcolo di costi indiretti, utilizzare la pagina **Impostazione scheda di determinazione costi** per immettere un record di costo in sospeso nella versione di determinazione costi di simulazione e per convalidare e salvare la variazione.
 
 Dopo aver immesso le variazioni di costo simulate, calcolare i costi degli articoli prodotti interessati dalle variazioni di costo. Utilizzare la pagina **Calcolo** per la versione di determinazione costi di simulazione e identificare gli articoli prodotti selezionati che saranno interessati dalle variazioni di costo. I calcoli DBA verranno applicati a tutti gli articoli prodotti, a meno che non si selezionino articoli specifici. È possibile in alternativa utilizzare l'opzione del calcolo DBA per aggiornamenti dove-usato. Visualizzare i record dei costi degli articoli nella versione di determinazione costi di simulazione per analizzare l'impatto delle variazioni di costo simulate sui costi degli articoli prodotti selezionati. Utilizzare le pagine **Prezzo articolo** e **Calcola costo articolo** per visualizzare e analizzare i costi.
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: Invia posta elettronica ai ammortizzabili derivati
+title: Registrare con i libri derivati
 description: In questo articolo viene descritta la procedura per utilizzare i libri derivati.
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Invia posta elettronica ai ammortizzabili derivati
+# <a name="post-with-derived-books"></a>Registrare con i libri derivati
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo articolo viene descritta la procedura per utilizzare i libri derivati.
 
@@ -49,11 +52,13 @@ Di seguito viene descritto come impostare le transazioni di acquisizione con la 
 
 I libri possono quindi essere collegati ai cespiti specifici. 
 
-Quando si registra un'acquisizione per un cespite con il registro beni ammortizzabili VM 1, la registrazione viene effettuata non solo in VM 1, ma anche nel registro beni ammortizzabili derivato VM 2. Lo stato di entrambi i libri cespiti viene aggiornato da aprire.
+Quando si registra un'acquisizione per un cespite con il libro VM 1, la registrazione viene effettuata non solo in VM 1, ma anche nel libro derivato VM 2. Lo stato di entrambi i libri cespiti viene aggiornato in Aperto.
 
 > [!NOTE]                                                                                                         
 > Se non si utilizzano libri derivati, è necessario registrare l'acquisizione del cespite sia per il libro VM 1 sia per il libro VM 2.
 
-Per ulteriori informazioni, vedere ammortizzabili derivati [] () derived-books.md
+Per ulteriori informazioni, vedere [Libri derivati](derived-books.md).
+
+
 
 

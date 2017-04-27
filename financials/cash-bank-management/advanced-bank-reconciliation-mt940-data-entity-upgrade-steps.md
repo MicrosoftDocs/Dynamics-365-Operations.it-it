@@ -1,5 +1,5 @@
 ---
-title: "Importazione avanzata di riconciliazione estratti conto MT940 - Aggiornamento composito di entità di dati"
+title: "Importazione MT940 riconciliazione estratti conto avanzata - Aggiornamento entità di dati compositi"
 description: "Un numero progressivo deve essere aggiunto all&quot;entità importazione rendiconto bancario per supportare il formato MT940."
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importazione avanzata di riconciliazione estratti conto MT940 - Aggiornamento composito di entità di dati
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importazione MT940 riconciliazione estratti conto avanzata - Aggiornamento entità di dati compositi
+
+[!include[banner](../includes/banner.md)]
+
 
 Un numero progressivo deve essere aggiunto all'entità importazione rendiconto bancario per supportare il formato MT940. 
 
 Effettuare le seguenti operazioni per aggiungere l'entità importazione rendiconto bancario per supportare il formato MT940.
 
 1.  Compilare e sincronizzare quanto segue:
-    -   Entità Panoramica dati compositi BankStatementImportEntity\\
-    -   Entità BankStatementBalanceEntity\\
-    -   Entità BankStatementDocumentEntity\\
-    -   Entità BankStatementEntity\\
-    -   Entità BankStatementLineEntity\\
-    -   Pertanto BankStatementStaging\\
+    -   Entità composta\\BankStatementImportEntity
+    -   Entità\\BankStatementBalanceEntity
+    -   Entità\\BankStatementDocumentEntity
+    -   Entità\\BankStatementEntity
+    -   Entità\\BankStatementLineEntity
+    -   Tabelle\\BankStatementStaging
 
-2.  Progetti di dati\\per la gestione dei dati.
+2.  Gestione dati\\Progetti dati.
     1.  Caricare i progetti di importazione MT940
         1.  Modificare XSLT.
             -   Fare clic su **Visualizza mapping**.
@@ -58,6 +61,8 @@ Effettuare le seguenti operazioni per aggiungere l'entità importazione rendicon
                 -   Verificare che **SequenceNumber** sia mappato da Origine a Gestione temporanea.
 
 3.  Importare il nuovo rendiconto.
+
+
 
 
 

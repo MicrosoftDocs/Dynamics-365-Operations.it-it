@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opzioni Importo totale e Intervallo per i codici IVA
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo illustra le opzioni del campo Metodo di calcolo sui codici IVA e come si calcola l'IVA per intervalli e interi importi.
 
 È possibile impostare un codice IVA da calcolare in base a un importo totale o a un importo di intervallo. Nella pagina Codici IVA utilizzare il campo Metodo di calcolo nella Scheda dettaglio Calcolo per selezionare la modalità di calcolo di un codice IVA.
@@ -56,10 +59,10 @@ L'IVA viene calcolata sull'intero importo tassabile.
 
 | Importo tassabile (prezzo) | Calcolo    | IVA |
 |------------------------|----------------|-----------|
-| 35,00                  | 35.00 \* 0.30  | 10,50     |
-| 50,00                  | 50.00 \* 0.30  | 15,00     |
-| 85,00                  | 85.00 \* 0.20  | 17,00     |
-| 305,00                 | 305.00 \* 0.10 | 30,50     |
+| 35,00                  | 35,00 \* 0,30  | 10,50     |
+| 50,00                  | 50,00 \* 0,30  | 15,00     |
+| 85,00                  | 85,00 \* 0,20  | 17,00     |
+| 305,00                 | 305,00 \* 0,10 | 30,50     |
 
 ## <a name="example-interval-method-of-calculation"></a>Esempio: metodo di calcolo dell'intervallo
 Nella pagina Valori vengono impostati i seguenti intervalli per le aliquote IVA:
@@ -75,14 +78,16 @@ L'IVA è la somma degli importi delle imposte calcolati per ciascun intervallo d
 
 | Importo tassabile (prezzo) | Calcolo                                                               | IVA |
 |------------------------|---------------------------------------------------------------------------|-----------|
-| 35,00                  | 35.00 \* 0.30                                                             | 10,50     |
-| 50,00                  | 50.00 \* 0.30                                                             | 15,00     |
-| 85,00                  | (50.00 \* 0.30 = 15.00) + (35.00 \* 0.20 = 7.00)                          | 22,00     |
-| 305,00                 | (50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50) | 45,50     |
+| 35,00                  | 35,00 \* 0,30                                                             | 10,50     |
+| 50,00                  | 50,00 \* 0,30                                                             | 15,00     |
+| 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
+| 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
 
  
 
-Per ulteriori informazioni, vedere [controlla le aliquote di vendita in base ai campi marginali] del metodo di calcolo e di base (marginal-base-field.md).
+Per ulteriori informazioni, vedere [Determinare le aliquote IVA in base ai campi Imponibile marginale e Metodo di calcolo](marginal-base-field.md).
+
+
 
 
 

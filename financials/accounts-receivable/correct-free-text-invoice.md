@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="correct-a-free-text-invoice"></a>Correzione di una fattura a testo libero
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene illustrato come correggere una fattura a testo libero registrata e come riemetterla in modo corretto.
 
-Per correggere una fattura a testo libero già stato registrato, aprire la fattura a testo libero registrata. ** Fattura ** nella pagina, selezionare ** annullamento ** quindi selezionare ** correggere una fattura **. Selezionare un codice motivo, aggiungere commenti e selezionare la data della nuova fattura corretta. È possibile modificare la fattura corretta e registrarla. 
+Per correggere una fattura a testo libero già registrata, aprire la fattura a testo libero registrata. Nella pagina **Fattura** selezionare **Annulla** e quindi selezionare **Fattura corretta**. Selezionare un codice motivo, aggiungere commenti e selezionare la data della nuova fattura corretta. È possibile modificare la fattura corretta e registrarla. 
 
 Quando si registra la fattura corretta, una fattura di annullamento viene creata per un importo in Avere equivalente all'importo della fattura originale. Quindi, il saldo combinato della fattura originale e della fattura di annullamento sarà 0 (zero). La fattura di annullamento viene liquidata a fronte della fattura originale. 
 
@@ -43,9 +46,11 @@ Dopo la registrazione della fattura corretta, si avranno tre fatture:
 È possibile identificare la fattura di annullamento e di correzione in due modi:
 
 -   La pagina **Tutte le fatture a testo libero** include una colonna **Correzione**, in cui è possibile visualizzare quali fatture sono di annullamento e quali fatture corrette.
--   L'intestazione di fattura a testo libero contenente lo stato di annullamento ** fattura "numero di fattura\[\]" ** o ** fattura corretta "numero di fattura\[\]" **.
+-   Nell'intestazione della fattura a testo libero viene visualizzato uno stato **Fattura di annullamento '\[numero fattura\]'** o **Fattura corretta '\[numero fattura\]'**.
 
 > [!NOTE]
-> Questa funzionalità è disponibile solo se ** correzione fattura a testo libero ** è selezionata la chiave di configurazione.
+> Questa funzionalità è disponibile solo se è selezionata la chiave di configurazione **Correzione fattura a testo libero.**
+
+
 
 

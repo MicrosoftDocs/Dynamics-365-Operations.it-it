@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-integration-with-other-modules"></a>Integrazione della pianificazione del budget con altri moduli
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="periodic-processes-for-generating-budget-plans"></a>Processi periodici per la generazione di piani di budget
@@ -49,13 +52,13 @@ Gli elementi di base del processo periodico sono uguali per tutti i processi. Le
 
 Per ciascun processo di creazione, sono disponibili tre azioni:
 
--   ** Creare un nuovo piano di budget ** crea un nuovo piano con gli attributi selezionati in ** obiettivo ** sezione. Questi attributi non devono essere univoci. Di conseguenza, due piani possono avere lo stesso nome e altri valori uguali.
+-   **Crea un nuovo piano di budget** consente di creare un nuovo piano con gli attributi selezionati nella sezione **Destinazione**. Questi attributi non devono essere univoci. Di conseguenza, due piani possono avere lo stesso nome e altri valori uguali.
 -   **Sostituisci lo scenario del piano di budget esistente**: consente di eliminare tutti i dati del piano di budget di destinazione nello scenario del piano di budget selezionato e creare nuove righe che utilizzano i dati di origine selezionati.
 -   **Aggiornare lo scenario del piano di budget esistente e aggiungere nuovi dati**: consente di aggiornare le righe esistenti del piano di destinazione che corrispondono alle righe di origine e aggiungere nuove righe per i nuovi dati. La corrispondenza si basa su conto CoGe, data, classe del budget e diversi altri campi. Ad esempio, quando si genera di piano di budget dalle posizioni previste, il numero di posizione è un campo importante. Tutte le righe con un numero di posizione che corrisponde al numero di posizione di origine vengono sostituite dalle nuove righe dall'origine.
 
 ### <a name="source"></a>Origine
 
-Per tutti i processi, ** origine ** la scheda consente di filtrare i dati utilizzando ** filtro ** il pulsante. Per impostazione predefinita, i campi specifici vengono aggiunte al filtro per ciascun processo. Ad esempio per il processo **Genera piano di budget da contabilità generale**, le categorie **Conto CoGe** e **Conto principale** sono disponibili e compaiano nella pagina della creazione. Tutti i campi aggiunti al filtro vengono aggiunti anche alla pagina, insieme a qualsiasi altro criterio aggiunto.
+Per tutti i processi, la scheda **Origine** consente di filtrare i dati utilizzando il pulsante **Filtro**. Per impostazione predefinita, i campi specifici vengono aggiunti al filtro per ciascun processo. Ad esempio per il processo **Genera piano di budget da contabilità generale**, le categorie **Conto CoGe** e **Conto principale** sono disponibili e compaiano nella pagina della creazione. Tutti i campi aggiunti al filtro vengono aggiunti anche alla pagina, insieme a qualsiasi altro criterio aggiunto.
 
 ### <a name="target"></a>Obiettivo
 
@@ -63,7 +66,7 @@ L'opzione **Storico** nella scheda **Destinazione** consente di utilizzare le da
 
 Anche il campo **Aggrega totale per** nella parte superiore della pagina determina la data utilizzata. Questo campo somma gli importi e facoltativamente applica la data di validità al primo giorno dell'anno fiscale o del periodo fiscale. 
 
-Molti dei campi nella scheda **Destinazione** diventano modificabili o di sola lettura, a seconda dell'azione selezionata. Quando si cambia dalla creazione di un nuovo di piano di budget all'aggiornamento di un piano esistente, il campo **Nome piano di budget** non risulta disponibile e i campi correlati alla selezione di un piano esistente diventano disponibili. In entrambi ** obiettivo ** la scheda e ** origine ** la scheda, ** contabilità generale ** il campo è mai disponibili, in quanto il valore è determinato dal processo di pianificazione del budget selezionato. 
+Molti dei campi nella scheda **Destinazione** diventano modificabili o di sola lettura, a seconda dell'azione selezionata. Quando si cambia dalla creazione di un nuovo di piano di budget all'aggiornamento di un piano esistente, il campo **Nome piano di budget** non risulta disponibile e i campi correlati alla selezione di un piano esistente diventano disponibili. Nella scheda **Destinazione** e nella scheda **Origine**, il campo **Contabilità generale** non è mai disponibile, poiché il valore dipende dal processo di pianificazione del budget selezionato. 
 
 Il campo **Classe budget** consente di impostato le righe del piano di budget come transazioni di spesa o transazioni ricavi. In genere, le transazioni ricavi vengono accreditate in un conto CoGe e vengono quindi salvate come importi negativi. In genere, queste transazioni vengono visualizzate anche come importi negativi nel piano di budget. Tuttavia, aggiungendo la classe del budget come un campo del layout del piano, è possibile abilitare la visualizzazione dei ricavi come importi di positivi.
 
@@ -73,7 +76,7 @@ Tre campi forniscono funzionalità aggiuntive: **Fattore**, **Minimo** e **Regol
 
 Il valore nel campo **Fattore** viene moltiplicato per l'importo di origine per impostare l'importo nel piano di budget. È quindi possibile apportare correzioni quando si creano righe di piano di budget. Ad esempio, è possibile immettere **1,03** come un incremento del 3%. Il fattore deve essere un numero positivo. 
 
-Il campo **Minimo** consente di impostare l'importo di soglia per la creazione di una riga del piano di budget. Se l'importo di origine è inferiore a questo numero, la riga del piano di budget non verrà creata. Un valore di 0.00 ** ** consente tutti gli importi ma non sono disponibili righe di limite agli importi di positività. (Nessun righe di limiti di valore agli importi di positività. Gli importi negativi vengono sempre inclusi e in genere rappresentano le voci in Avere).
+Il campo **Minimo** consente di impostare l'importo di soglia per la creazione di una riga del piano di budget. Se l'importo di origine è inferiore a questo numero, la riga del piano di budget non verrà creata. Un valore di  **0.00** consente tutti gli importi ma non limita le righe agli importi positivi. (Se non si specifica nessun valore le righe vengono limitate agli importi positivi. Gli importi negativi vengono sempre inclusi e in genere rappresentano le voci in Avere).
 
 Il campo **Regola di arrotondamento** consente di impostare la precisione delle righe di piano di budget create. È possibile arrotondare gli importi in valuta alla cifra più vicina 1,00, 10,00, 100,00 e così via.
 
@@ -86,13 +89,13 @@ Nella destinazione, il campo **Classe budget** viene impostato su **Spese** o **
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Genera piano di budget da cespiti
 
-Il processo **Genera piano di budget da cespiti** non ha alcuna opzione per l'aggregazione per periodo o giorno. Non è inoltre opzione per l'impostazione del piano indicato storico. È possibile utilizzare questo processo periodico per includere sono previsti le transazioni per i cespiti nella pianificazione del budget.
+Il processo **Genera piano di budget da cespiti** non ha alcuna opzione per l'aggregazione per periodo o giorno. Non c'è inoltre nessuna opzione per l'impostazione del piano come storico. È possibile utilizzare questo processo periodico per includere le transazioni previste per i cespiti nella pianificazione del budget.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Genera righe del piano di budget da posizioni previste
 
 Il processo **Genera righe del piano di budget da posizioni previste** assegna la posizione prevista di origine alla riga del piano di budget. È possibile visualizzare la posizione sommando la posizione prevista come una riga nel layout del piano di budget o tramite la richiesta **Righe del piano di budget**. Se non si desidera che la posizione prevista sia assegnata alle righe del piano del budget, impostare l'opzione **Includi posizione nella riga del piano di budget** su **No**.
 
-Le righe del piano di budget verranno aggregate per conto CoGe e posizionano. Tuttavia, è possibile escludere il numero di ubicazione, in modo che le righe verranno aggregate al conto CoGe specificato. Nella scheda **Destinazione** impostare l'opzione **Includi posizione nella riga del piano di budget** su **No**.
+Le righe del piano di budget verranno aggregate per conto CoGe e posizione. Tuttavia, è possibile escludere il numero di posizione, in modo che le righe vengano aggregate solo per conto CoGe. Nella scheda **Destinazione** impostare l'opzione **Includi posizione nella riga del piano di budget** su **No**.
 
 Nel campo **Scenario FTE del piano di budget** è possibile selezionare uno scenario per includere il numero di equivalenti a tempo pieno (FTE) nel piano di budget. Questo campo è limitato a scenari di tipo quantità inclusi nel layout del piano di budget di destinazione. Se si seleziona uno scenario FTE, è necessario selezionare anche un conto principale FTE. Questo conto viene utilizzato per creare le righe di piano di budget di quantità. 
 
@@ -140,5 +143,7 @@ Selezionare una riga e fare clic sul pulsante **Righe di piano di budget** per e
 Utilizzare i pulsanti **Previsione dell'offerta** e **Previsione della domanda** per eseguire le query. In entrambi i casi, la query eseguono la ricerca delle righe di previsione che possono avere creato le righe di piano di budget. 
 
 Report aggiuntivi disponibili includono il report **Posizioni previste per piano di budget**. Questo report è particolarmente utile se si desidera determinare se una posizione sia stata allocata al piano di budget in modo corretto.
+
+
 
 

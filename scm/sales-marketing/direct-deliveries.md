@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Consegne dirette
 
+[!include[banner](../includes/banner.md)]
+
+
 Vengono fornite le informazioni sulle consegne dirette, ovvero le consegne di articoli direttamente dal fornitore al cliente.
 
 Le consegne dirette consentono di ridurre i tempi e i costi associati alla gestione del magazzino, dato che i prodotti non vengono trattenuti nel magazzino prima della spedizione al cliente.  
@@ -49,5 +52,7 @@ Se si tenta di eliminare una riga ordine cliente di tipo **Consegna diretta**, v
 
 ## <a name="warehouse"></a>Magazzino
 Quando si crea una consegna diretta, gli articoli venduti non arrivano mai nel proprio magazzino. Tuttavia, è necessario specificare un magazzino nella riga ordine cliente. In modo analogo, è possibile specificare i requisiti per il prelievo nel gruppo di modelli di articoli per l'articolo. Tuttavia, poiché gli articoli non arrivano mai fisicamente nel magazzino, tali requisiti vengono ignorati quando l'ordine cliente è una consegna diretta.
+
+
 
 

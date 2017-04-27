@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-accounts-receivable"></a>Chiusura della contabilità clienti
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Nella tabella riportata di seguito sono elencate le pagine di supporto al processo aziendale relativo alla chiusura della contabilità clienti.
 
 > [!NOTE] 
-> Per aprire alcune finestre della tabella, sarà necessario immettere le informazioni o specificare le impostazioni dei parametri.
+> Per aprire alcune pagine riportate nella tabella è necessario immettere informazioni o specificare impostazioni di parametri.
 
-** Attività componente processo aziendale **                   
+**Attività componente processo aziendale**                   
 
 Chiudere i periodi nella contabilità generale
 
@@ -43,21 +46,23 @@ Chiudere i periodi nella contabilità generale
 |Conferma ordine cliente                   | Consente di aggiornare gli ordini cliente.                                                                       |
 |Rivalutazione valuta estera          | Consente di generare transazioni per aggiornare il valore delle transazioni cliente aperte in valuta estera.                                                                                                                         |
 | Giornale di registrazione                              | Consente di registrare fatture, pagamenti ed effetti passivi.                                             |
-| Giustificativo giornale di registrazione                      | -   **Payment journal** – Generate, process, and post payments.
+| Giustificativo giornale di registrazione                      | -   **Giornale di registrazione pagamenti**: consente di generare, elaborare e registrare pagamenti.
                                          -   **Draw bill of exchange journal** – Post bills of exchange.
                                          -   **Protest bill of exchange journal** – Post protested bills of exchange.
                                          -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
                                          -   **Remittance journal** – Post remittances.
                                          -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-_=_ Registrazione del documento di trasporto                 _=_ Documenti di trasporto dell'aggiornamento degli ordini cliente.                                                     _=_ _=_ Registra fattura a testo libero               _=_ Registrare le fatture a testo libero.                                                                   _=_ _=_ Registrazione fattura                      _=_ Consente di registrare le fatture per gli ordini cliente.                                                            _=_ _=_ Registrazione distinta di prelievo                 _=_Distinta di prelievo dell'aggiornamento per gli ordini cliente.                                                      |
+| Registrazione documento di trasporto                 | Aggiorna i documenti di trasporto per gli ordini cliente.                                                     | | Registra fattura a testo libero | Registra le fatture a testo libero.                                                                   | | Registrazione fattura            | Consente di registrare le fatture per gli ordini cliente.                                                            | | Registrazione distinta di prelievo  |Aggiorna le distinte di prelievo per gli ordini cliente.                                                      |
 
-** Attività componente processo aziendale **   
+**Attività componente processo aziendale**   
 
 Creare e inviare l'elenco vendite UE
 
 | Nome pagina                            | Uso                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |Elenco vendite UE                         | Consente di creare report sulle vendite UE (Unione Europea) da inviare agli uffici IVA ai fini della dichiarazione IVA.                                                                                                                           |
+
+
 
 
 

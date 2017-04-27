@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-element-dimensions"></a>Dimensioni elemento di costo
 
+[!include[banner](../includes/banner.md)]
+
+
 Uno dei pilastri fondamentali della contabilità industriale, le dimensioni elemento di costo vengono utilizzate per categorizzare e tracciare il flusso dei costi. 
 
 Un elemento di costo corrisponde a un articolo pertinente per i costi nel piano dei conti. In sostanza, può essere qualsiasi tipo di elemento al livello più basso di un'azienda in cui i costi possono fluire. Gli elementi di costo come concetto variano dai conti CoGe a tutte le risorse pertinenti per i costi. Attualmente, la contabilità industriale supporta i conti CoGe.
@@ -64,12 +67,14 @@ Sono disponibili due tipi di elementi di costo: elementi di costo primari ed ele
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensioni elemento di costo e membri di dimensioni elemento di costo
 Gli elementi di costo vengono indicati come *dimensioni elemento di costo*. I singoli valori delle dimensioni vengono denominati *membri delle dimensioni elemento di costo*. Ad esempio, si dispone di una struttura del piano dei conti statunitense (COA) che costituisce la base per il reporting statutario. Questo COA viene utilizzato come dimensione elemento di costo. I conti, ovvero elementi di costo primari, sono rappresentati come membri della dimensione elemento di costo nella contabilità industriale. Nella schermata seguente è illustrato un esempio dei conti principali come dimensione elemento di costo con i relativi conti principali effettivi come membri della dimensione elemento di costo. 
 
-[costo-elemento- dimensioni![(]. /media/cost-element-dimensions.png)](. /media/cost-element-dimensions.png)
+[![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Importare i membri delle dimensioni elemento di costo tramite connettori dati
 Per semplificare l'impostazione dei membri delle dimensioni elemento di costo nella contabilità industriale, è possibile utilizzare connettori dati predefiniti o personalizzati per recuperare gli elementi di costo primari da uno o più sistemi di origine.
 
 ## <a name="implementation-considerations"></a>Considerazioni sull'implementazione
 Poiché gli elementi di costo rappresentano il livello minimo dei dettagli di costo, è necessario assicurarsi che tutti gli elementi di costo richiesti per effettuare il reporting gestionale siano inclusi durante l'implementazione della struttura degli elementi di costo. Può essere una sfida individuare un numero appropriato di elementi di costo per il controllo dei costi. La disponibilità di migliaia di elementi di costo può rendere difficile controllare ogni elemento di costo. In alternativa, è possibile raggruppare gli elementi di costo e gestire il controllo costi a livello aggregato.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Versioni determinazione costi
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono fornite informazioni sulle versioni di determinazione costi, sul modo di gestirle e sui tipi di dati che è possibile includervi. Lo scopo principale è quello di includere i record dei costi per gli articoli, le categorie di costi e le formule di calcolo per i costi indiretti.
 
 Una versione di determinazione costi può avere una o più finalità, in base ai dati in essa contenuti. Lo scopo principale è quello di includere i record dei costi per gli articoli, le categorie di costi e le formule di calcolo per i costi indiretti. In una versione di determinazione costi può essere contenuto un insieme di record dei costi standard o un insieme di record dei costi pianificati basati sul tipo di determinazione costi assegnato alla versione di determinazione costi.
@@ -63,5 +66,7 @@ Lo scopo principale per cui si abilita la visualizzazione dei dati sui prezzi di
 A tale scopo è necessario definire come prima cosa un gruppo di calcolo DBA contenente un modello di prezzo di costo del prezzo di acquisto dell'articolo, quindi assegnare il gruppo di calcolo DBA agli articoli acquistati È quindi necessario utilizzare un modello di prezzo di costo per il gruppo di calcolo DBA quando si eseguono i calcoli DBA che utilizzano costi pianificati per calcolare i prezzi di vendita degli articoli prodotti. 
 
 I record dei prezzi di acquisto per gli articoli, inoltre, vengono utilizzati come informazioni di riferimento. Cambiando lo stato del record di un prezzo di acquisto di un articolo da **sospeso** ad **attivo** è possibile aggiornare il prezzo di acquisto base, il quale non è tuttavia specifico del sito e può essere sostituito manualmente. Il prezzo di acquisto base dell'articolo funge da prezzo di acquisto predefinito negli ordini fornitore.
+
+
 
 

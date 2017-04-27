@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Panoramica sulla riconciliazione bancaria avanzata
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive il flusso del processo di riconciliazione estratti conto avanzato. La funzionalità avanzata di riconciliazione estratti conto consente di importare rendiconti bancari che possono essere riconciliati automaticamente nelle transazioni bancarie.
 
 La funzionalità di riconciliazione bancaria avanzata consente di includere i rendiconti bancari. Il rendiconto bancario importato può automaticamente essere riconciliato dalle transazioni bancarie. Di seguito sono riportati i passaggi del flusso di riconciliazione bancaria avanzata.
@@ -38,13 +41,15 @@ La funzionalità di riconciliazione bancaria avanzata consente di includere i re
     -   La funzionalità può essere estesa a qualsiasi formato.
 
 2.  Impostare una sequenza numerica da utilizzare per la riconciliazione bancaria avanzata e definire le regole di abbinamento della riconciliazione estratti conto.
-    -   Regola di abbinamento di riconciliazione è un insieme di criteri utilizzati per filtrare le righe di rendiconto bancario e Microsoft Dynamics 365 per le righe di transazione bancaria delle operazioni durante il processo di riconciliazione. A seconda della pratica aziendale, è possibile impostare più regola di corrispondenza automatizzare e ottimizzare il processo di riconciliazione.
+    -   Una regola di abbinamento della riconciliazione è un set di criteri utilizzati per filtrare le righe del rendiconto bancario e le righe di transazione bancaria di Microsoft Dynamics 365 for Operations durante il processo di riconciliazione. A seconda della procedura aziendale, è possibile impostare più regole di abbinamento per automatizzare e ottimizzare il processo di riconciliazione.
 
-3.  Riconciliazione dei rendiconti bancari con Dynamics 365 per le transazioni bancarie delle operazioni.
+3.  Riconciliare i rendiconti bancari con le transazioni bancarie di Microsoft Dynamics 365 for Operations.
     -   Eseguire la corrispondenza automatica e la creazione dei giornali di registrazione riconciliazione.
-    -   Visualizza in parallelo i rendiconti bancari e Dynamics 365 per le transazioni bancarie delle operazioni.
-    -   Registrare automaticamente Dynamics 365 per le transazioni bancarie delle operazioni se vengono visualizzate in un rendiconto bancario ma non venga visualizzata in Dynamics 365 per le operazioni.
+    -   Visualizzare i rendiconti bancari e le transazioni bancarie di Microsoft Dynamics 365 for Operations in modalità affiancata.
+    -   Registrare automaticamente le transazioni bancarie di Microsoft Dynamics 365 for Operations se vengono visualizzate in un rendiconto bancario ma non in Microsoft Dynamics 365 for Operations.
     -   Generare un rendiconto riconciliazione.
+
+
 
 
 

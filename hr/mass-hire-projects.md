@@ -46,7 +46,7 @@ Nella pagina **Progetti di assunzione collettiva** selezionare il progetto "Summ
 
 Dopo aver selezionato gli studenti da assumere per le posizioni interne, immettere le informazioni degli studenti in **Dettagli posizioni** per la posizione per cui vengono assunti. Dopo aver immesso in tutti i dettagli della posizione, selezionare la posizione nella pagina Progetti di assunzione collettiva, quindi fare clic su **Assumi**. Un record posizione verrà creato per ogni posizione e un record lavoratore verrà creato e assegnato alla posizione corretta per ogni persona che si assume.
 
-## <a name="masshire-project-statuses"></a>Gli stati di progetto Masshire
+## <a name="masshire-project-statuses"></a>Stati progetto di assunzione collettiva
 Un progetto di assunzione collettiva può includere i seguenti stati.
 -   Creata
 -   Aperto

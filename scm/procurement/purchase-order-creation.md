@@ -33,7 +33,7 @@ Quando si crea un ordine fornitore (PO), le informazioni generali sull'intero or
 
 È inoltre possibile creare PO copiando le righe da un altro documento di ordine fornitore o cliente. In questo caso, è possibile invertire il segno in magazzino, come si invertirebbe il segno di una fattura per indicare credito.  
 
-Sebbene sia possibile creare manualmente PO, di solito vengono generati da altri processi. Gli ordini possono essere creati automaticamente in base ad altri documenti, quali le richieste. In alternativa, è possibile utilizzare durante il processo di pianificazione generale alla posizione prevista. Se si utilizzano i contratti di acquisto, la posizione può essere creata tramite ** ordine di rilascio ** l'azione. Vi sono anche metodi più avanzati per la creazione automatica di un ordine fornitore. Ad esempio è possibile creare ordini quando si utilizza la consegna diretta o le catene di ordini interaziendali.
+Sebbene sia possibile creare manualmente PO, di solito vengono generati da altri processi. Gli ordini possono essere creati automaticamente in base ad altri documenti, quali le richieste. In alternativa, possono essere creati durante il processo di pianificazione generale tramite ordini fornitore pianificati. Se si utilizzano i contratti di acquisto, gli ordini fornitore può essere creata tramite l'azione **Ordine di rilascio**. Vi sono anche metodi più avanzati per la creazione automatica di un ordine fornitore. Ad esempio è possibile creare ordini quando si utilizza la consegna diretta o le catene di ordini interaziendali.
 
 ## <a name="creating-a-purchase-order-header"></a>Creazione dell'intestazione di un ordine fornitore
 Quando si crea un nuovo ordine fornitore, viene visualizzata una finestra di dialogo in cui è possibile immettere le informazioni più comuni per l'intestazione dell'ordine fornitore. Quando fa clic su **OK** per chiudere la finestra di dialogo, l'ordine viene creato e quindi è possibile specificare ulteriori informazioni nell'intestazione.  
@@ -84,7 +84,7 @@ Potrebbe essere necessario ritardare il completamento di un ordine fornitore. Ad
 <a name="see-also"></a>Vedere anche
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Panoramica dell'ordine fornitore](purchase-order-overview.md)
 
 [Approvazione e conferma di un ordine fornitore](purchase-order-approval-confirmation.md)
 

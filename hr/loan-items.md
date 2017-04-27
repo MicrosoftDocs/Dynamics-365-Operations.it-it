@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-items-lent-to-workers"></a>Gestire gli articoli prestati ai lavoratori
 
+[!include[banner](includes/banner.md)]
+
+
 Gli articoli prestito sono record che consentono ai responsabili di tenere traccia degli articoli fisici che la società presta ai lavoratori. 
 
 I punti di seguito sono esempi di articoli che una società potrebbe prestare ai lavoratori:
@@ -39,7 +42,7 @@ Ogni articolo fisico deve avere un articolo prestito corrispondente. Per ciascun
 
 Quando un articolo viene concesso in prestito, è necessario immettere la data di inizio del prestito e la data di restituzione pianificata. Quando l'articolo viene restituito, immettere la data di restituzione effettiva.
 
-I dipendenti possono visualizzare i record degli articoli che sono stati concessi in prestito loro utilizzando area di lavoro Self Service dipendenti. È inoltre possibile modificare i record esistenti o immettere i nuovi articoli prestito, si riceverà gli articoli fisici aggiuntive.  Il flusso di lavoro può essere configurato in modo da inoltrare le modifiche ai nuovi o esistenti articoli prestito a un processo di approvazione. 
+I dipendenti possono visualizzare i record degli articoli che sono stati prestati utilizzando area di lavoro Dipendente self-service. Possono inoltre modificare i record esistenti o immettere nuovi articoli prestito,se hanno ricevuto articoli fisici aggiuntivi.  Il flusso di lavoro può essere configurato in modo da instradare le modifiche ai nuovi o esistenti articoli prestito tramite un processo di approvazione. 
 
 I responsabili possono visualizzare gli articoli prestati per i propri subordinati diretti. Può anche essere concessa l'autorizzazione per aggiungere nuovi articoli in prestito per conto dei relativi dipendenti.
 
@@ -52,6 +55,8 @@ Se un articolo viene non correttamente collocato o danneggiato, immettere una re
 <a name="see-also"></a>Vedere anche
 --------
 
-[Human resources](index.md)
+[Risorse umane](index.md)
+
+
 
 

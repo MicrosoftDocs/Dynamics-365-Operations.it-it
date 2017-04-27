@@ -34,14 +34,14 @@ I rivenditori fissano spesso sconti diversi in canali diversi. In questo argomen
 <a name="channel-specific-discounts"></a>Sconti specifici del canale
 --------------------------
 
-I rivenditori spesso offrono gli sconti diversi di canali diversi. Si tratta può essere effettuata per eliminare le condizioni di mercato locali o per la gestione dei rivenditori concorrenti.
+I rivenditori offrono spesso sconti diversi in canali diversi. Questa strategia può servire per andare incontro alle condizioni di mercato locali o per gestire i rivenditori concorrenti.
 
-La vendita al dettaglio e il commercio in Microsoft Dynamics 365 per le operazioni utilizzati i gruppi di prezzi per definire gli sconti Manica- specifici. I gruppi di prezzi possono essere assegnati a una o più delle entità seguenti: canali, cataloghi, affiliazioni e programmi fedeltà. In questo articolo vengono illustrati i canali, ma gli stessi concetti si applicano per gli sconti di catalogo, gli sconti di affiliazioni e gli sconti fedeltà.
+La vendita al dettaglio e il commercio in Microsoft Dynamics 365 for Operations utilizzano i gruppi di prezzi per definire gli sconti specifici del canale. I gruppi di prezzi possono essere assegnati a una o più delle entità seguenti: canali, cataloghi, affiliazioni e programmi fedeltà. In questo articolo vengono illustrati i canali, ma gli stessi concetti si applicano per gli sconti di catalogo, gli sconti di affiliazioni e gli sconti fedeltà.
 
 ## <a name="price-groups"></a>Gruppi prezzi
-alignnone" width= " 640 "di align= " a " id= del titolo\[con\_256084 "\][gruppi di prezzi![(]. /media/price-groups-1024x608.png)](. Il gruppo di prezzi /media/price-groups.png) dei collegamenti da\[a /caption\]
+\[caption id="attachment\_256084" align="alignnone" width="640"\][![Gruppi di prezzi](./media/price-groups-1024x608.png)](./media/price-groups.png) Link a gruppi di prezzi per la vendita al dettaglio\[/caption\]
 
-Nel diagramma di cui sopra illustrata la relazione tra le entità che possono essere in una transazione (canale, catalogo, report, clienti, Carta fedeltà) e nei vari tipi di sconti che è possibile configurare. Tutte le transazioni si verificano in un canale, il canale viene garantito per essere presente una transazione. Le entità rimanenti sono facoltative. In ogni pagina anagrafica è presente un collegamento a una pagina correlata dei gruppi di prezzi in cui è possibile visualizzare e aggiungere i gruppi di prezzi in base alle necessità. Un gruppo di prezzi viene utilizzato per collegare quattro diversi tipi di entità agli sconti, le rettifiche di prezzo e agli accordi commerciali. È consigliabile a progettare una strategia per la nominerete i gruppi di prezzi tenerli organizzati. Opzione disponibile sarà di utilizzare una lettera o un prefisso o un suffisso di distinguere i diversi tipi. Ad esempio, 1 xxxxx per gruppi di prezzi del canale e 2 xxxxx per gruppi di prezzi del catalogo. Sono disponibili quattro pagine di richiesta che si concentrano in ciascuna delle entità al dettaglio che possono essere associate.
+Il diagramma precedente illustra la relazione tra le entità che possono essere presenti in una transazione (canale, catalogo, affiliazione, cliente, carta fedeltà) e i vari tipi di sconto che possono essere configurati. Tutte le transazioni si verificano in un canale, pertanto il canale è sicuramente presente in una transazione. Le entità rimanenti sono facoltative. In ogni pagina anagrafica è presente un collegamento a una pagina correlata dei gruppi di prezzi in cui è possibile visualizzare e aggiungere i gruppi di prezzi in base alle necessità. Un gruppo di prezzi viene utilizzato per collegare quattro diversi tipi di entità agli sconti, le rettifiche prezzo e gli accordi commerciali. È consigliabile progettare una strategia sui nomi da assegnare ai gruppi di prezzi per tenerli organizzati. Un'opzione consiste nell'utilizzare un prefisso o un suffisso numerico o letterale per distinguere i diversi tipi. Ad esempio, 1-xxxxx per gruppi di prezzi del canale e 2-xxxxx per gruppi di prezzi del catalogo. Sono disponibili quattro pagine di richiesta che si concentrano in ciascuna delle entità al dettaglio che possono essere associate.
 
 -   **Gruppi di prezzi canale di vendita al dettaglio **- In questa pagina viene visualizzato un elenco dei canali e degli sconti collegati e per ogni gruppo prezzi.
 -   **Gruppi prezzi catalogo **- In questa pagina viene visualizzato un elenco dei cataloghi e degli sconti collegati e per ogni gruppo prezzi.
@@ -62,6 +62,6 @@ Nel seguente esempio sono illustrate le attività in questione nell'impostazione
 <a name="see-also"></a>Vedere anche
 --------
 
-[Price adjustments and discounts](price-adjustments-discounts.md)
+[Rettifiche prezzi e sconti](price-adjustments-discounts.md)
 
 

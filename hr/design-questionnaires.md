@@ -1,6 +1,6 @@
 ---
 title: Progettare un questionario
-description: Viene descritta la procedura per la creazione di un questionario. Il primo passaggio consiste nel progettare il questionario. Quando si progetta un questionario, non si scrivono solo le domande e le risposte, ma si crea anche la struttura che consente di registrare e tabulare le risposte.
+description: In questo argomento viene descritto il processo per creare un questionario. Il primo passaggio consiste nel progettare il questionario. Quando si progetta un questionario, non si scrivono solo le domande e le risposte, ma si crea anche la struttura che consente di registrare e tabulare le risposte.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="design-a-questionnaire"></a>Progettare un questionario
 
-Viene descritta la procedura per la creazione di un questionario. Il primo passaggio consiste nel progettare il questionario. Quando si progetta un questionario, non si scrivono solo le domande e le risposte, ma si crea anche la struttura che consente di registrare e tabulare le risposte. 
+In questo argomento viene descritto il processo per creare un questionario. Il primo passaggio consiste nel progettare il questionario. Quando si progetta un questionario, non si scrivono solo le domande e le risposte, ma si crea anche la struttura che consente di registrare e tabulare le risposte. 
 
 Un'attenta progettazione del questionario consente di migliorare la qualità dei dati raccolti. Mediante un'attenta progettazione, è possibile aggiornare selezionare le opzioni appropriate al momento opportuno per un questionario. I seguenti passaggi possono risultare utili per pianificare un questionario efficace:
 
@@ -87,14 +87,14 @@ Parametri Gestione questionari sono facoltativi. È possibile non utilizzarli, i
 
 I parametri Gestione questionari definiscono l'anonimato, i codici di sequenza numerica e i tipi di riferimento di un questionario. Quando un'organizzazione distribuisce un questionario, potrebbe essere utile l'opzione che consente agli intervistati di rimanere anonimi. 
 
-I codici di sequenza numerica sono utilizzati per organizzare le domande e le risposte. In base ai codici di sequenza numerica, i valori vengono assegnati automaticamente agli articoli. 
+I codici di sequenza numerica sono utilizzati per organizzare le domande e le risposte. In base ai codici di sequenza numerica, i valori vengono automaticamente assegnati agli articoli. 
 
 È consigliabile definire tutti i parametri prima di iniziare a creare i dati. È possibile modificare le impostazioni dei parametri di gestione questionari in qualsiasi momento.
 
 ## <a name="questionnaire-components"></a>Componenti di questionario
-I questionari sono disponibili tre elementi principali: gruppi di risposte contenenti le risposte alle domande a scelta multiple, le domande e il questionario. È possibile raggruppare le domande di un questionario nei gruppi di risultati. I gruppi di risultati consentono di classificare le domande e analizzare ulteriormente il questionario. 
+Nei questionari sono disponibili tre elementi principali: gruppi di risposte contenenti le risposte alle domande a scelta multipla, le domande e il questionario. È possibile facoltativamente raggruppare le domande di un questionario in gruppi di risultati. I gruppi di risultati consentono di classificare le domande e analizzare ulteriormente il questionario. 
 
-![[] (QuestionnaireComponents. /media/questionnairecomponents-1024x615.png)](. /media/questionnairecomponents.png)
+[![Componenti di questionario](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Gruppi di risposte e risposte
 
@@ -235,6 +235,6 @@ In alternativa, è possibile impostare un questionario in modo che se un intervi
 
 [Distribuzione e completamento di questionari](distribute-questionnaires.md)
 
-[Visualizzazione e valutare i risultati dei questionari evaluate-questionnaire-results.md] ()
+[Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md)
 
 

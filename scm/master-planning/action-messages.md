@@ -1,5 +1,5 @@
 ---
-title: non vengano
+title: non documentato
 description: "Un messaggio di azione è un suggerimento generato dal sistema per modificare un ordine pianificato o stabilizzato."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="undocumented"></a>non vengano
+# <a name="undocumented"></a>non documentato
 
 Un messaggio di azione è un suggerimento generato dal sistema per modificare un ordine pianificato o stabilizzato.
 

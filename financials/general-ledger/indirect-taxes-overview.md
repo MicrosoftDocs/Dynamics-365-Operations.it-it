@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-overview"></a>Panoramica IVA
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica del sistema IVA. Descrive gli elementi di configurazione IVA e il modo in cui interagiscono.
 
 <a name="overview"></a>Panoramica
 --------
 
-Framework supporta VAT diversi tipi di imposta indirette, ad esempio l'VAT, l'imposta sul valore aggiunto (VAT), e l'imposta Goods and Services Tax (GST), a commissioni basate sull'unità e la ritenuta d'acconto. Le imposte calcolate e documentate nelle transazioni di acquisto e di vendita. Periodicamente si riceva una notifica relativa, deve essere dichiarata e pagata agli uffici tributari. 
+Il framework dell'IVA supporta numerosi tipi di imposte indirette, ad esempio imposta sul valore aggiunto (IVA), Imposta sui Beni e Servizi (GST, Goods and Services Tax), commissioni in base a unità e ritenuta d'acconto. Queste imposte vengono calcolate e documentate nelle transazioni di acquisto e di vendita. Periodicamente, devono essere dichiarate e pagate agli uffici tributari. 
 
 Nel seguente diagramma vengono mostrate le entità di impostazione imposte e viene indicato come sono correlate.
 
-![[] (TaxOverview. /media/taxoverview1-300x209.jpg)](. /media/taxoverview1.jpg) 
+[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
-Per ogni VAT che una società deve rappresentare, un codice VAT deve essere definito. In un codice VAT sono archiviate le aliquote di imposta e le regole di calcolo dell'IVA. 
+Per ogni importo IVA che una società deve contabilizzare, un codice IVA deve essere definito. In un codice VAT sono archiviate le aliquote di imposta e le regole di calcolo dell'IVA. 
 
 Ogni codice VAT deve essere collegato a un periodo di liquidazione IVA. I periodi di liquidazione IVA definiscono gli intervalli con cui deve essere dichiarata e pagate l'IVA all'ufficio IVA. Ogni periodo di liquidazione IVA deve essere assegnato a un ufficio IVA. L'ufficio IVA rappresenta la persona giuridica a cui viene dichiarata e pagata l'IVA. Consente inoltre di definire il layout del report IVA. Gli uffici VAT possono essere correlati ai conti fornitore. 
 
@@ -69,17 +72,17 @@ In ogni transazione (righe documento di acquisto/vendita, giornali di registrazi
 In ciascuna transazione, è possibile individuare l'IVA calcolata aprendo la pagina **Transazione IVA**. È possibile individuare l'IVA per una riga di documento o per l'intero documento. Per alcuni documenti (ad esempio, fatture fornitore e giornali di registrazione generale), è possibile rettificare l'IVA calcolata se nel documento originale vengono mostrati gli importi devianti.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Liquidazione e reporting IVA
-L'IVA deve essere dichiarata e pagata agli uffici tributari a intervalli regolari (mensile, trimestrale e così via). Microsoft Dynamics 365 per le operazioni sono disponibili funzionalità che consente di liquidare l'VAT per l'intervallo e compensata dai saldi al conto di liquidazione VAT, come specificato in gruppi di registrazione contabile. È possibile accedere a questa funzionalità ** VAT della posta e liquidati ** nella pagina. È necessario specificare il periodo di liquidazione VAT che l'VAT dovrà essere liquidato. 
+L'IVA deve essere dichiarata e pagata agli uffici tributari a intervalli regolari (mensile, trimestrale e così via). In Microsoft Dynamics 365 for Operations sono disponibili funzionalità che consentono di liquidare i conti IVA per l'intervallo e utilizzare in contropartita i saldi nel conto di liquidazione IVA, come specificato nei gruppi di registrazione contabile. È possibile accedere a questa funzionalità nella pagina **Liquida e registra IVA**. È necessario specificare il periodo di liquidazione IVA per cui l'IVA dovrà essere liquidata. 
 
 Dopo aver pagato l'IVA, il saldo del conto di liquidazione IVA deve essere bilanciato a fronte del conto bancario. Se l'ufficio IVA specificato nel periodo di liquidazione IVA è correlato a un conto fornitore, il saldo IVA viene registrato come fattura fornitore aperta e può essere incluso nella proposta di pagamento normale.
 
 ## <a name="conditional-sales-tax"></a>IVA condizionata
 L'IVA condizionata viene applicata proporzionalmente all'importo effettivo pagato da una fattura. Viceversa, l'IVA standard viene calcolata al momento della fatturazione. L'IVA condizionata deve essere pagata all'ufficio IVA quando viene registrato il pagamento, non quando viene registrata la fattura. Quando viene registrata la fattura, la transazione deve essere dichiarata nel report su libro IVA. La transazione, tuttavia, deve essere esclusa dal report relativo al pagamento IVA. 
 
-Se si selezionano le termine VAT condizionata la casella di controllo nel modulo Parametri di contabilità generale, l'VAT non possono essere dedotte finché non verrà pagato la fattura. Questo è un requisito legale in molti paesi.
+Se si seleziona la casella di controllo IVA condizionata nel modulo Parametri di contabilità generale, l'IVA non può essere dedotta finché non verrà pagata la fattura. Questo è un requisito legale in molti paesi.
 
 > [!NOTE]
-> Quando si selezionano le termine VAT condizionata la casella di controllo, è necessario impostare i codici VAT e fasce VAT e di creare gruppi di registrazione contabile, per supportare questa funzionalità. |
+> Quando si seleziona la casella di controllo IVA condizionata è necessario impostare i codici IVA e le fasce IVA e creare inoltre i gruppi di registrazione contabile per supportare questa funzionalità. |
 
 ###  <a name="example"></a>Esempio
 
@@ -90,5 +93,7 @@ Liquidare l'IVA ogni mese. Il 15 giugno creare una fattura cliente di 10.000 pi�
 In genere è necessario liquidare e pagare 2.500 all'ufficio tributario quando viene registrata la fattura a giugno, anche se non è stato ricevuto il pagamento dal cliente. 
 
 Tuttavia, se si utilizza un'IVA condizionata, è possibile liquidare quando si riceve il pagamento dal cliente il 30 luglio.
+
+
 
 

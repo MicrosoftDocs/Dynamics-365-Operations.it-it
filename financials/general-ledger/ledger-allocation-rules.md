@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-allocation-rules"></a>Regole di allocazione contabile
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulle regole di allocazione della contabilità generale. Descrive i vari componenti delle regole di allocazione e i metodi di allocazione che possono essere utilizzati per tali regole.
 
 Le regole di allocazione contabile vengono utilizzate per calcolare e generare automaticamente i giornali di registrazione e le voci contabili per l'allocazione dei saldi contabili o degli importi fissi. I metodi di allocazione possono essere variabili o fissi. I seguenti metodi di allocazione possono essere utilizzati per le regole di allocazione contabile:
@@ -42,10 +45,12 @@ Se Base è il metodo di allocazione utilizzato per una regola di allocazione, è
 Le regole di allocazione sono composte da quattro componenti: generale, origine, destinazione e contropartita. Un componente aggiuntivo, regole di base dell'allocazione contabile, è necessario se Base viene utilizzato come metodo di allocazione. Ciascun componente corrisponde a un'informazione critica per l'elaborazione delle allocazioni.
 
 -   **Generale**: in questo componente vengono specificate alcune opzioni, quali il metodo di allocazione, le impostazioni delle regole interaziendali e l'impostazione della regola come attiva o inattiva.
--   **Origine**: in questo componente l'utente specifica i dati di origine per l'allocazione. L'allocazione può essere basata sui saldi contabili (** origine dati ** = ** contabilità generale **) o gli importi fissi (** origine dati ** = ** valore fisso **). Quando l'opzione **Origine dati** è impostata su **Contabilità generale**, i criteri di filtro dell'origine devono essere definiti per la regola di allocazione contabile (ad esempio, per le spese di pubblicità).
+-   **Origine**: in questo componente l'utente specifica i dati di origine per l'allocazione. L'allocazione può essere basata sui saldi contabili (**Origine dati** =  **Contabilità generale**) o gli importi fissi (**Origine dati** =  ** Valore fisso**). Quando l'opzione **Origine dati** è impostata su **Contabilità generale**, i criteri di filtro dell'origine devono essere definiti per la regola di allocazione contabile (ad esempio, per le spese di pubblicità).
 -   **Destinazione**: in questo componente vengono definiti la distribuzione e l'incidenza del risultato del calcolo di allocazione. Ad esempio, vi può essere una riga di destinazione per ciascun reparto.
 -   **Contropartita**: questo componente stabilisce come i conti principali e le dimensioni debbano essere determinati per le voci di contropartita che sono a saldo delle voci di destinazione. Le opzioni definite dall'utente vengono solitamente utilizzate al posto dei conti e delle dimensioni basati sull'origine. Quando l'opzione **Origine dati** è impostata su **Valore fisso**, **Origine** non può essere utilizzata come opzione.
 -   **Regole di base di allocazione contabile**: queste regole utilizzano i propri i criteri di filtro di origine per determinare i saldi contabili che devono essere utilizzati per l'allocazione (ad esempio, i ricavi per reparto). È possibile utilizzare ciascuna regola base di allocazione con più regole di allocazione.
+
+
 
 
 

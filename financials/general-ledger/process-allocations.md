@@ -1,6 +1,6 @@
 ---
 title: Elaborare le allocazioni
-description: "L&quot;articolo prevede le informazioni sulle allocazioni, le opzioni di elaborarle in Microsoft Dynamics 365 per le operazioni come e possono essere utilizzate nella pianificazione del budget. Le allocazioni vengono utilizzate per distribuire importi tra più combinazioni di conti CoGe. Consentono di garantire che le spese o i ricavi vengano contabilizzate in relazione all&quot;oggetto corretto."
+description: "Questo articolo fornisce informazioni sulle allocazioni, le opzioni per elaborarle in Microsoft Dynamics 365 for Operations e sul modo in cui possono essere utilizzate nella pianificazione del budget. Le allocazioni vengono utilizzate per distribuire importi tra più combinazioni di conti CoGe. Consentono di garantire che le spese o i ricavi vengano contabilizzate in relazione all&quot;oggetto corretto."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -28,11 +28,11 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="process-allocations"></a>Elaborare le allocazioni
 
-L'articolo prevede le informazioni sulle allocazioni, le opzioni di elaborarle in Microsoft Dynamics 365 per le operazioni come e possono essere utilizzate nella pianificazione del budget. Le allocazioni vengono utilizzate per distribuire importi tra più combinazioni di conti CoGe. Consentono di garantire che le spese o i ricavi vengano contabilizzate in relazione all'oggetto corretto.
+Questo articolo fornisce informazioni sulle allocazioni, le opzioni per elaborarle in Microsoft Dynamics 365 for Operations e sul modo in cui possono essere utilizzate nella pianificazione del budget. Le allocazioni vengono utilizzate per distribuire importi tra più combinazioni di conti CoGe. Consentono di garantire che le spese o i ricavi vengano contabilizzate in relazione all'oggetto corretto.
 
-Microsoft Dynamics 365 per le operazioni sono disponibili le seguenti funzionalità per supportare questo processo:
+Microsoft Dynamics 365 for Operations offre le seguenti funzionalità per supportare questo processo:
 
--   Assegnare manualmente gli importi delle transazioni mediante l'azione divise nelle distribuzioni contabili o, applicando i modelli predefiniti di dimensione finanziaria a un documento. Per ulteriori informazioni, vedere distribuzioni contabili []. (\ \ contabilità fornitori accounting-distributions.md)
+-   Allocare manualmente gli importi delle transazioni utilizzando l'operazione Dividi nelle distribuzioni contabili o applicando i modelli predefiniti di dimensioni finanziarie a un documento. Per ulteriori informazioni, vedere [Distribuzioni contabili.](\accounts-payable\accounting-distributions.md)
 -   Allocare automaticamente gli importi delle transazioni in base ai termini di allocazione definite in un conto principale. Le voci del conto di allocazione verranno generate per ciascun giornale di registrazione in base alla percentuale e al conto CoGe di destinazione ogni volta che una voce contabile soddisfa i criteri definiti come conto CoGe originale.
 -   Allocare automaticamente i saldi contabili o gli importi fissi in base alle regole di allocazione contabile. Le regole di allocazione contabile vengono elaborate su base periodica utilizzando i giornali di registrazione allocazione. 
 

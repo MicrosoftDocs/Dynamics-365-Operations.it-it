@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Fatturazione progetto
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica della fatturazione per i progetti di tempistica e materiali e a prezzo fisso. Sono riportate informazioni sulle proposte di fatturazione (fatture preliminari), controllo della fattura, fatturazione acconti, fatturazione fornitori e note di credito.
 
 La procedura di fatturazione da applicare è determinata dal tipo di progetto. È possibile fatturare solo i due tipi di progetto esterni, ovvero i progetti di tempistica e materiali e quelli a prezzo fisso. I progetti di tempistica e materiali e quelli a prezzo fisso sono sempre collegati a un contratto di progetto.
@@ -103,7 +106,7 @@ Per fatturare un progetto a prezzo fisso è necessario definire un programma di 
 Quando i pagamenti cardine sono pronti per essere fatturati, utilizzare la procedura relativa alla fatturazione degli importi di acconto.
 
 ## <a name="vendor-invoicing"></a>Fatturazione fornitore
-Quando si ordina un articolo da un fornitore e lo si assegna a un progetto, la proprietà riga che si seleziona per la riga ordine fornitore per l'articolo determina se l'articolo acquistato viene fatturato a un cliente. Se si imposta le proprietà predefinite riga, visualizzare per l'articolo nella riga ordine fornitore (dettagli &gt; riga della &gt; proprietà riga). Sono disponibili due metodi per modificare la proprietà riga:
+Quando si ordina un articolo da un fornitore e lo si assegna a un progetto, la proprietà riga che si seleziona per la riga ordine fornitore per l'articolo determina se l'articolo acquistato viene fatturato a un cliente. Se si impostano proprietà riga predefinite, tali proprietà vengono visualizzate per l'articolo nella riga ordine fornitore (Dettagli riga &gt; Progetto &gt; Proprietà riga). Sono disponibili due metodi per modificare la proprietà riga:
 
 -   Fatturale l'articolo al cliente del progetto: Impostare la proprietà riga per l'articolo su un valore addebitabile nell'ordine fornitore e quindi fatturare al cliente mediante il metodo di fatturazione corretto per il progetto.
 -   Non fatturare l'articolo al cliente del progetto: non selezionare la proprietà riga **Addebitabile** nella riga ordine fornitore per l'articolo. È quindi possibile fatturare l'ordine fornitore e non saranno necessarie ulteriori operazioni.
@@ -118,5 +121,7 @@ Lo stesso documento può includere transazioni selezionate per l'accredito, tran
 Per accreditare un importo fatturato, è necessario prima selezionare l'importo fatturato da accreditate, quindi creare una nota di accredito. Una nota di accredito si crea effettuando la stessa procedura utilizzata per generare una fattura cliente. 
 
 È possibile creare una fattura con un importo negativo; in questo caso la fattura viene classificata come nota di accredito. Per creare e stampare una nota di accredito, è necessario selezionare le transazioni precedentemente registrate per una fattura cliente e, successivamente, modificarle. A meno che l'indirizzo della persona giuridica si trovi in Germania, il titolo della fattura è "Fattura correttiva".
+
+
 
 

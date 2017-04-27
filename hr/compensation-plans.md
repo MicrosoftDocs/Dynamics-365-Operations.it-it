@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Piani di retribuzione
 
+[!include[banner](includes/banner.md)]
+
+
 I responsabili di benefit e retribuzione possono utilizzare la gestione della retribuzione per gestire ed elaborare i piani di retribuzione fissa e variabile per i dipendenti dell'organizzazione.
 
 ### <a name="introduction"></a>Introduzione
 
-La gestione delle retribuzioni consente di controllare la consegna di retribuzione base e i premi. Gli incentivi fissi la retribuzione base e di merito dipendente vengono controllati mediante piani di retribuzione fissa. È possibile controllare il pagamento degli incentivi, ad esempio il pagamento dei bonus, dei premi produttività, dei diritti di opzione, delle sovvenzioni, oltre che dei premi una tantum, tramite i piani di retribuzione variabile. 
+La gestione delle retribuzioni consente di controllare la liquidazione dei premi e della retribuzione base. La retribuzione di base fissa di un dipendente e gli aumenti per merito sono controllati mediante piani di retribuzione fissa. È possibile controllare il pagamento degli incentivi, ad esempio il pagamento dei bonus, dei premi produttività, dei diritti di opzione, delle sovvenzioni, oltre che dei premi una tantum, tramite i piani di retribuzione variabile. 
 
 I dipendenti possono essere iscritti a uno o più piani di entrambi i tipi. Un dipendente deve soddisfare i seguenti requisiti per poter essere iscritto a un piano di retribuzione:
 -   L'assegnazione di posizione del dipendente deve essere attiva.
@@ -54,7 +57,7 @@ La seguente tabella elenca le componenti del processo di retribuzione che posson
 <td>Le azioni di retribuzione fissa hanno due scopi:
 <ul>
 <li>Le azioni possono specificare il tipo di informazioni che deve essere registrato quando una retribuzione dipendente cambia. Ad esempio, è possibile richiedere che il motivo una modifica, ad esempio una promozione o una retrocessione, venga registrato.</li>
-<li>Le azioni possono fornire un calcolo che venga applicato quando i piani di retribuzione fissa vengono elaborati.  Ad esempio, le azioni di tipo capitale netto confronteranno i dipendenti sono previsti al punto di riferimento il livello minimo di un dipendente e assicurarsi che il dipendente sia retribuito ottenendo almeno il livello minimo.</li>
+<li>Le azioni possono assicurare che un calcolo venga applicato durante l'elaborazione dei piani di retribuzione fissa.  Ad esempio, le azioni di tipo capitale netto confrontano la retribuzione dei dipendenti con il punto di riferimento minimo per il livello del dipendente e garantiscono al dipendente almeno la retribuzione minima.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ La seguente tabella elenca le componenti del processo di retribuzione che posson
 </tr>
 <tr class="even">
 <td>Frequenze retribuzione</td>
-<td>Le frequenze di retribuzione utilizzate per definire il periodo durante il quale la retribuzione verrà specificata.  Ad esempio, guide di frequenza di retribuzione comprendere se l'importo della retribuzione verrà specificato come retribuzione annuali a una tariffa di retribuzione oraria. Le frequenze di retribuzione utilizzate anche per impostare i fattori di conversione per gli importi relativi di conversione da mensile, settimanale da, bisettimanalmente e le frequenze di retribuzione oraria a una frequenza di retribuzione annuali.</td>
+<td>Le frequenze di retribuzione vengono utilizzate per definire il periodo per il quale è specificata la retribuzione.  Ad esempio, la frequenza di retribuzione aiuta a comprendere se l'importo della retribuzione viene specificato come retribuzione annuale anziché come tariffa di retribuzione oraria. Le frequenze di retribuzione sono inoltre utilizzate per impostare i fattori di conversione che consentono di convertire gli importi retributivi da frequenze di retribuzione mensile, settimanale, bisettimanale e oraria in una frequenza di retribuzione annua.</td>
 </tr>
 <tr class="odd">
 <td>Paesi di retribuzione</td>
@@ -126,9 +129,11 @@ Gli eventi processo consentono di calcolare le informazioni sulle retribuzioni i
 <a name="compensation-events"></a>Eventi retributivi
 -------------------
 
-Ogni volta che viene eseguito un evento processo, un evento della retribuzione verrà creato.  Gli eventi di retribuzione contengono i risultati del processo retributivo per ciascun dipendente incluso nell'evento processo.  Se i calcoli sono corretti, è possibile caricare l'evento retributiva per aggiornare i record dei dipendenti interessati dall'evento processo.
+Ogni volta che viene eseguito un evento processo, viene creato un evento retribuzione.  Gli eventi retribuzione contengono i risultati del processo retributivo per ciascun dipendente incluso nell'evento processo.  Quando i calcoli sono corretti, è possibile caricare l'evento retribuzione per aggiornare le voci relative alla retribuzione per i dipendenti interessati dall'evento processo.
 
 ## <a name="recommendations"></a>Suggerimenti
 Dopo aver eseguito un evento processo, è possibile suggerire correzioni dell'aumento per merito o dell'importo del premio di un dipendente, in base alle linee guida calcolate per l'evento processo. Per proporre suggerimenti relativi ai dipendenti, è necessario abilitare i suggerimenti quando si impostano i piani di retribuzione o l'evento processo.
+
+
 
 

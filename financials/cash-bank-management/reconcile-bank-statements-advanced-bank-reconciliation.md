@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Riconciliare rendiconti bancari utilizzando la riconciliazione bancaria avanzata
 
+[!include[banner](../includes/banner.md)]
+
+
 La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Operations. In questo argomento viene descritto il processo di riconciliazione.  
 
 <a name="import-an-electronic-bank-statement"></a>Importare un rendiconto bancario elettronico
@@ -74,7 +77,7 @@ Esistono tre modi per abbinare o riconciliare transazioni del rendiconto bancari
 -   Abbinare le transazioni con una transazione del rendiconto bancario di storno.
 -   Contrassegnare le transazioni come **Nuove**, in modo che possono essere registrate in un secondo momento come una transazione bancaria in Dynamics 365 for Operations.
 
-Per associare manualmente le transazioni, selezionare le transazioni ** transazioni di rendiconto bancario ** nella griglia, selezionare le transazioni corrispondenti ** transazioni bancarie di operazioni ** nella griglia quindi su ** corrispondenza **. Le transazioni selezionate vengono spostate dalle griglie superiori delle transazioni non abbinate a quelle inferiori delle transazioni abbinate. Inoltre, gli importi totali abbinati e non abbinati vengono aggiornati. È possibile avere abbinamenti di transazioni uno a uno, molti-a-uno e molti-a-molti. Gli abbinamenti devono seguire le regole per le differenze di date consentite e il mapping dei tipi di transazione. Queste regole vengono impostate nella pagina **Parametri di gestione cassa e banche**.
+Per abbinare le transazioni manualmente, selezionare le transazioni nella griglia **Transazioni rendiconto bancario**, selezionare le transazioni corrispondenti nella griglia **Transazioni bancarie Operations** e quindi fare clic su **Associa**. Le transazioni selezionate vengono spostate dalle griglie superiori delle transazioni non abbinate a quelle inferiori delle transazioni abbinate. Inoltre, gli importi totali abbinati e non abbinati vengono aggiornati. È possibile avere abbinamenti di transazioni uno a uno, molti-a-uno e molti-a-molti. Gli abbinamenti devono seguire le regole per le differenze di date consentite e il mapping dei tipi di transazione. Queste regole vengono impostate nella pagina **Parametri di gestione cassa e banche**.
 
 Potrebbero verificarsi differenze in centesimi nella riconciliazione. È possibile abbinare una transazione di rendiconto bancario singola e una singola transazione bancaria Operations che presentano differenze di centesimi se le differenze in centesimi rientrano nell'importo di tolleranza definito dal campo **Differenza in centesimi consentita** del conto bancario. L'importo viene mostrato nel campo **Importo correttivo** nella transazione bancaria Operations abbinata. Quando la riconciliazione degli estratti conto è contrassegnata come riconciliata, le rettifiche vengono registrate automaticamente utilizzando il conto principale definito nel tipo di transazione bancaria associato. Le correzioni non sono supportate per i tipi di documento **Assegno** e **Deposito**. 
 
@@ -90,5 +93,7 @@ Dopo aver elaborate tutte le righe del rendiconto, è necessario contrassegnare 
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Registare nuove transazioni associate alla riconciliazione
 Le transazioni del rendiconto bancario contrassegnate come **Nuovo** nel foglio di lavoro di riconciliazione vengono registrate nella pagina **Rendiconto bancario**. Nella pagina **Rendiconto bancario**, selezionare l'ID del rendiconto per visualizzarne i dettagli. Nel menu **Contabilità**, è possibile utilizzare le opzioni **Visualizza distribuzioni** e **Visualizza contabilità** per visualizzare i dettagli dietro le nuove transazioni e i movimenti contabili associati. Selezionare l'opzione **Registra** per registrare le righe del rendiconto bancario contrassegnate come **Nuovo** nella contabilità generale. Notare che la registrazione può essere completata solo una volta per ogni rendiconto bancario.
+
+
 
 

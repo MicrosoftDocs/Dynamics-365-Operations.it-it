@@ -1,5 +1,5 @@
 ---
-title: "Aggiorna l&quot;entità compositi del giornale di registrazione bancaria"
+title: "Aggiornare l&quot;entità composta giornale di registrazione bancario"
 description: I passaggi seguenti sono necessari per aggiungere il campo BankTransactionType aggiuntivo a BankJournalEntity composta.
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Aggiorna l'entità compositi del giornale di registrazione bancaria
+# <a name="update-the-bank-journal-composite-entity"></a>Aggiornare l'entità composta giornale di registrazione bancario
+
+[!include[banner](../includes/banner.md)]
+
 
 I passaggi seguenti sono necessari per aggiungere il campo BankTransactionType aggiuntivo a BankJournalEntity composta.
 
 Effettuare le seguenti operazioni per aggiungere il campo BankTransactionType aggiuntivo a BankJournalEntity composta.
 
 1.  Compilare e sincronizzare le entità composte, entità e tabelle di gestione temporanea del giornale di registrazione bancario seguenti:
-    -   Entità Panoramica dati compositi BankJournalEntity\\
-    -   Entità BankJournalHeaderEntity\\
-    -   Entità BankJournalLineEntity\\
-    -   Tabella BankJournalHeaderStaging\\
-    -   Tabella BankJournalLineStaging\\
+    -   Entità composta\\BankJournalEntity
+    -   Entità\\BankJournalHeaderEntity
+    -   Entità\\BankJournalLineEntity
+    -   Tabella\\BankJournalHeaderStaging
+    -   Tabella\\BankJournalLineStaging
 
-2.  Progetti di dati\\per la gestione dei dati
+2.  Gestione dati\\Progetti dati
     -   Esporre il tipo **Transazione bancaria **sul layout **Dati di origine**.
         -   Formato dati di origine = Elemento XML
         -   Nome entità = Giornale di registrazione bancario
@@ -49,6 +52,8 @@ Effettuare le seguenti operazioni per aggiungere il campo BankTransactionType ag
             -   Verificare che Tipo di transazione bancaria sia mappato da Origine a Gestione temporanea.
 
 3.  Importare il nuovo rendiconto.
+
+
 
 
 

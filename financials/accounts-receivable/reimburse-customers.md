@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reimburse-customers"></a>Rimborsare i clienti
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene illustrato come creare transazioni di rimborso per un gruppo di clienti. Se un cliente dispone di un saldo in Avere, è possibile rimborsare il cliente per l'importo del saldo. 
 
 Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di iniziare.
@@ -47,6 +50,8 @@ Quando si creano le transazioni di rimborso, viene creata una fattura fornitore 
     Gli importi in Avere verranno trasferiti nei conti fornitore dei clienti ed elaborati come normali pagamenti. Se un cliente non dispone di conto fornitore, verrà creato automaticamente un conto fornitore occasionale per il cliente.
 3.  Per visualizzare le transazioni di rimborso create, utilizzare la pagina **Rimborso**.
 4.  In Contabilità fornitori, creare un pagamento per le fatture fornitore create dal processo di rimborso.
+
+
 
 
 

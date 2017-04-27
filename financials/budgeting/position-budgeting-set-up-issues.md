@@ -1,5 +1,5 @@
 ---
-title: Posizioni la risoluzione di budget
+title: Risoluzione dei problemi dell&quot;impostazione budget posizione
 description: Questo articolo fornisce le risposte alle domande che potrebbero sorgere quando si configura il budget per la posizione. Risolve le domande frequenti sulla creazione degli elementi costo budget, i gruppi di retribuzione e le griglie retributive.
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>Posizioni la risoluzione di budget
+# <a name="position-budgeting-troubleshooting"></a>Risoluzione dei problemi dell'impostazione budget posizione
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce le risposte alle domande che potrebbero sorgere quando si configura il budget per la posizione. Risolve le domande frequenti sulla creazione degli elementi costo budget, i gruppi di retribuzione e le griglie retributive. 
 
@@ -58,6 +61,8 @@ Le date nella riga dell'elemento costo della posizione prevista devono rientrare
 -   Le date di attivazione e pensionamento della posizione.
 -   Le date di attivazione e di scadenza dell'elemento costo budget.
 -   Le date di inizio e di fine del ciclo di budget associato al processo di pianificazione del budget della posizione prevista.
+
+
 
 
 

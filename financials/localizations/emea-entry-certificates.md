@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-entry-certificates"></a>Certificati di entrata UE
 
+[!include[banner](../includes/banner.md)]
+
+
 Vengono fornite le informazioni sui certificati di entrata dell'Unione Europea (UE).
 
 È possibile completare le seguenti attività per un certificato di entrata UE (Unione Europea):
@@ -76,7 +79,7 @@ Nella seguente tabella vengono visualizzati i prerequisiti che devono essere val
 </table>
 
 ## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>Creazione, registrazione e caricamento di un certificato di entrata UE
-È possibile creare un certificato di entrata UE automaticamente o manualmente. In un certificato di l viene creato automaticamente e stampato quando si registra un documento di trasporto o una fattura per un cliente utilizzando ** registrazione documenti di trasporto ** la pagina o ** fattura di registrazione ** la pagina. Per creare manualmente o ristampare un certificato di l per una fattura cliente, utilizzare ** giornale di registrazione fatture ** la pagina. Inoltre, è possibile utilizzare la pagina **Giornale di registrazione certificati di entrata** per immettere i dettagli relativi a un certificato di entrata UE emesso da una terza parte.
+È possibile creare un certificato di entrata UE automaticamente o manualmente. Un certificato di entrata UE viene creato e stampato automaticamente quando si registra un documento di trasporto o una fattura per un cliente utilizzando la pagina **Registrazione documento di trasporto** o la pagina **Registrazione fattura**. Per creare o ristampare manualmente un certificato di entrata UE per una fattura cliente, utilizzare la pagina **Giornale di registrazione fatture**. Inoltre, è possibile utilizzare la pagina **Giornale di registrazione certificati di entrata** per immettere i dettagli relativi a un certificato di entrata UE emesso da una terza parte.
 
 ### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>Creazione di un certificato di entrata UE automaticamente o manualmente
 
@@ -121,6 +124,8 @@ Se non si ha accesso alle pagine utilizzate per completare questa attività, con
 </tr>
 </tbody>
 </table>
+
+
 
 
 

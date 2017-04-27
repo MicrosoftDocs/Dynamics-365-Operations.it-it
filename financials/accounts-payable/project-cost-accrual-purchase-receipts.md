@@ -1,6 +1,6 @@
 ---
-title: Rateo dei costi per il progetto nelle entrate di acquisto
-description: "In questo argomento viene descritto come i costi di progetto accumulati in base alle entrate di acquisto è possibile eseguire in Microsoft Dynamics 365 per le operazioni."
+title: Attribuzione dei costi per progetto nelle entrate acquisti
+description: In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 for Operations.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Rateo dei costi per il progetto nelle entrate di acquisto
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Attribuzione dei costi per progetto nelle entrate acquisti
 
-In questo argomento viene descritto come i costi di progetto accumulati in base alle entrate di acquisto è possibile eseguire in Microsoft Dynamics 365 per le operazioni. 
+[!include[banner](../includes/banner.md)]
 
-Le fatture per un progetto spesso arrivano successivamente di merci e servizi vengono concessi in prestito, che potrebbero avere un impatto significativo sugli indicatori di prestazione chiave Gestione progetti (KPIs). Importante poter utilizzare queste transazioni nei report finanziari che nei report.
 
-Il seguente scenario di questo esempio viene illustrato. 
+In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 for Operations. 
 
-Il servizi di consulenza per Contoso ha avviato un nuovo progetto di distribuzione cloud. Un ordine fornitore viene creato di acquistare un computer per il progetto. Il computer costerà $1500 e i servizi dell'installazione costeranno dollari. Il fornitore ha consegnato e installato il computer, ma la fattura non è ancora raggiunto il servizi di consulenza per Contoso. Il manager di progetto Richiesta visualizzare una competenza dei costi per il progetto di $1650 prima della registrazione ottenesse consegnata. Il costo deve essere riportato nei rendiconti finanziari di fine mese della società. 
+Le fatture per un progetto spesso arrivano dopo la consegna di merci e servizi, aspetto che potrebbe avere un impatto significativo sugli indicatori di prestazione chiave (KPI) del progetto. È importante poter tenere traccia di queste transazioni sia nei report finanziari che in quelli di progetto.
 
-Il costo accumulato deve essere registrato sia a livello finanziario che il livello del progetto a scopo di reporting. In Dynamics 365 per le operazioni, aggiornamento finanziario dell'entrata prodotti può essere seguito per l'articolo e le categorie di approvvigionamento. 
+Nel seguente scenario di esempio viene illustrato questo aspetto. 
 
-Per gli articoli, ** parametri di contabilità fornitori ** nella pagina, selezionare ** registrare le entrate prodotti nella contabilità generale ** l'opzione.
-![[] (accruals1. /media/accruals1-1024x409.png)](. /media/accruals1.png) 
+Contoso Consulting ha avviato un nuovo progetto di distribuzione cloud. Un ordine fornitore viene creato per acquistare un computer per il progetto. Il computer costerà $ 1.500 e i servizi di installazione costeranno $ 150. Il fornitore ha consegnato e installato il computer ma Contoso Consulting non ha ancora ricevuto la fattura. Il manager di progetto desidera esaminare l'attribuzione dei costi per il progetto di $ 1.650 prima che la fattura venga consegnata. Questi costi devono essere riportati anche nei rendiconti finanziari di fine mese della società. 
 
-Per le categorie di approvvigionamento, ** regola dei criteri categorie ** nella pagina, selezionare ** ** dei criteri e quindi selezionare ** si (l'importo dell'acquisto sulla ricevuta ** per ogni categoria di approvvigionamento.
-![[] (accruals2. /media/accruals2-1024x569.png)](. /media/accruals2.png) 
+I ratei e risconti passivi devono essere registrati sia a livello finanziario che a quello di progetto a scopo di reporting. In Dynamics 365 for Operations, l'aggiornamento finanziario dell'entrata prodotti può essere tracciato per l'articolo e le categorie di approvvigionamento. 
 
-** Spese di acquisto non fatturate ** e ** competenza acquisti ** i conti in ** registrazione sono ** verranno utilizzati quando i giustificativi correlati all'entrata prodotti registrati.
-![[] (accruals3. /media/accruals3-1024x429.png)](. /media/accruals3.png) 
+Per gli articoli, nella pagina **Parametri contabilità fornitori**, selezionare l'opzione **Registra entrate prodotti nella contabilità generale**.
+[![ratei1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
-Utilizzando questo stesso scenario, vedere lascici come registrare un'entrata prodotti urterà la contabilità generale e proietterà le informazioni. 
+Per le categorie di approvvigionamento, nella pagina **Regola dei criteri categorie**, selezionare i criteri **Acquisto**, quindi selezionare **Accumula spese su acquisti in entrata** per ciascuna categoria di approvvigionamento.
+[![ratei2](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
-** Passaggio 1: ** Creare e confermare un nuovo ordine fornitore per il progetto per il quale si desidera registrare l'acquisto di un computer per $1500 e i servizi dell'installazione di dollari.
-![[] (accruals4. /media/accruals4-1024x497.png)](. /media/accruals4.png) 
+I conti **Spese acquisto non fatturate** e **Competenza acquisti** in **Impostazione di registrazione** verranno utilizzati quando i giustificativi correlati all'entrata prodotti vengono registrati.
+[![ratei3](./media/accruals3-1024x429.png)](./media/accruals3.png) 
+
+Utilizzando questo stesso scenario, esaminiamo come la registrazione di un'entrata prodotti influirà sulla contabilità generale e sulle informazioni relative al progetto. 
+
+**Passaggio 1:** creare e confermare un nuovo ordine fornitore per il progetto per registrare l'acquisto di un computer per $ 1.500 e i servizi di installazione pari a $ 150.
+[![ratei4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
 Quando l'ordine fornitore viene confermato, le transazioni del costo impegnato vengono create per il progetto. 
-![[] (accruals5. /media/accruals5-1024x219.png)](. /media/accruals5.png) 
+[![ratei5](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
-> Le transazioni per il costo impegnato avranno ** origine della transazione ** il campo impostato su ** ** ordine fornitore. Creazione e confermando un ordine fornitore non dà origine a transazioni per un progetto. 
+> Le transazioni per il costo impegnato avranno il campo **Origine transazione** impostato su **Ordine fornitore**. La creazione e la conferma di un ordine fornitore non creano transazioni per un progetto. 
 
-** Passaggio 2: ** Il e servizi verranno consegnati e un'entrata prodotti è registrata. 
+**Passaggio 2:** le merci e i servizi vengono consegnati e un'entrata prodotti è registrata. 
 
-Registrare un'entrata prodotti verrà generata e registrata un giustificativo nella contabilità generale. Giustificativo addebiterà le spese di acquisto, il conto non fatturate e il conto di competenza acquisti a credito. 
-![[] (accruals6. /media/accruals6-1024x214.png)](. /media/accruals6.png)
+La registrazione di un'entrata prodotti genera e registra un giustificativo nella contabilità generale. Il giustificativo addebiterà le spese di acquisto non fatturate e accrediterà il conto ratei di acquisto. 
+[![ratei6](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
 > [!NOTE]
-> Registrare un'entrata prodotti verrà utilizzata la registrazione per impostare le categorie di approvvigionamento e prodotti e non le impostazioni di registrazione per le categorie di progetti. Per indicare se l'impatto finanziario dei ratei di acquisto, questa operazione deve essere linea. 
+> La registrazione di un'entrata prodotti utilizzerà l'impostazione di registrazione per i prodotti e le categorie di approvvigionamento e non l'impostazione di registrazione per le categorie di progetto. Per riflettere correttamente l'impatto finanziario dei ratei di acquisto, questa impostazione deve essere allineata. 
 
-È possibile mappare le categorie di approvvigionamento alle categorie ** categoria di approvvigionamento ** nella pagina.
-![[] (accruals7. /media/accruals7-1024x390.png)](. /media/accruals7.png)
+È possibile mappare le categorie di approvvigionamento alle categorie di progetto nella pagina **Categoria di approvvigionamento**.
+[![ratei7](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
-** Passaggio 3: ** Creare una fattura fornitore del progetto. 
+**Passaggio 3:** creare una bozza della fattura fornitore. 
 
-In Dynamics 365 per le operazioni, registrare un'entrata prodotti non influisce sulle informazioni sul progetto. Come soluzione alternativa, è possibile generare una fattura fornitore del progetto registrare subito dopo l'entrata di acquisto. Passare ** ** ordine fornitore nella &gt; pagina ** scheda fatture generano ** &gt; ** ** &gt; ** ** fattura. Verrà creato un documento di fattura in attesa che gli aggiornamenti delle informazioni. 
+In Dynamics 365 for Operations, la registrazione di un'entrata prodotti non influisce sulle informazioni relative al progetto. Come soluzione alternativa, è possibile generare una bozza della fattura fornitore subito aver registrato l'entrata acquisti. Passare alla pagina **Ordine fornitore** &gt; **scheda Fattura** &gt; **Genera** &gt; **Fattura**. Verrà creato un documento di fattura in sospeso che aggiorna le informazioni sul progetto. 
 
-Creazione di una fattura fornitore del progetto creato in attesa delle transazioni di progetto. 
-![[] (accruals8. /media/accruals8-1024x225.png)](. /media/accruals8.png) 
+La creazione di una bozza di fattura fornitore genera transazioni di progetto in sospeso. 
+[![ratei8](./media/accruals8-1024x225.png)](./media/accruals8.png) 
 
-** Costo impegnato ** nella pagina, i record creati nel passaggio 1 verranno chiusi e nuovi record verranno creati per riflettere l'impegno di costo derivante della fattura fornitore in sospeso. ** Origine transazione ** il campo per il costo impegnato verrà impostato su ** ** fattura fornitore.
-![[] (accruals9. /media/accruals9-1024x200.png)](. /media/accruals9.png)
+Nella pagina **Costo impegnato**, i record creati nel passaggio 1 verranno chiusi e nuovi record verranno creati per riflettere gli impegni di costo derivanti dalla fattura fornitore in sospeso. Il campo **Origine transazione** per il costo impegnato verrà impostato su **Fattura fornitore**.
+[![ratei9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
-La fattura fornitore rimane di uno con stato in sospeso finché la fattura fornitore effettivo non arrivi.
+La fattura fornitore rimane con stato in sospeso finché non arriva la fattura fornitore effettiva.
+
+
 
 

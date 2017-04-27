@@ -1,6 +1,6 @@
 ---
-title: Nomenclatura il numero prodotto
-description: "In questo argomento viene descritto come impostare una per il numero prodotto in sostituzione del formato fisso, [il numero della rappresentazione generale prodotto - Configurazione - Dimensione - colore di stile], con il formato di destinazione a che include il numero della rappresentazione generale prodotto, le dimensioni prodotto attive e i delimitatori di testo scelta. È anche possibile creare una nomenclatura per identificare le configurazioni create in base alla configurazione basata su vincoli del prodotto. Queste nomenclature possono includere gli attributi scelti."
+title: Nomenclatura del numero prodotto
+description: "In questo argomento viene descritto come impostare una nomenclatura di numero prodotto in sostituzione del formato fisso, [Numero della rappresentazione generale prodotto -  Configurazione - Dimensione - Colore - Stile], con un formato di destinazione che includa il numero della rappresentazione generale prodotto, le dimensioni prodotto attive e i delimitatori di testo scelti. È anche possibile creare una nomenclatura per identificare le configurazioni create in base alla configurazione basata su vincoli del prodotto. Queste nomenclature possono includere gli attributi scelti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-number-nomenclature"></a>Nomenclatura il numero prodotto
+# <a name="product-number-nomenclature"></a>Nomenclatura del numero prodotto
 
-In questo argomento viene descritto come impostare una per il numero prodotto in sostituzione del formato fisso, [il numero della rappresentazione generale prodotto - Configurazione - Dimensione - colore di stile], con il formato di destinazione a che include il numero della rappresentazione generale prodotto, le dimensioni prodotto attive e i delimitatori di testo scelta. È anche possibile creare una nomenclatura per identificare le configurazioni create in base alla configurazione basata su vincoli del prodotto. Queste nomenclature possono includere gli attributi scelti.
+[!include[banner](../includes/banner.md)]
+
+
+In questo argomento viene descritto come impostare una nomenclatura di numero prodotto in sostituzione del formato fisso, [Numero della rappresentazione generale prodotto -  Configurazione - Dimensione - Colore - Stile], con un formato di destinazione che includa il numero della rappresentazione generale prodotto, le dimensioni prodotto attive e i delimitatori di testo scelti. È anche possibile creare una nomenclatura per identificare le configurazioni create in base alla configurazione basata su vincoli del prodotto. Queste nomenclature possono includere gli attributi scelti.
 
 La nuova nomenclatura dei numeri di varianti prodotto consente di includere segmenti negli identificatori di varianti prodotto. I segmenti possono includere il numero della rappresentazione generale prodotto, le dimensioni prodotto, le sequenze numeriche, le costanti di testo e gli attributi. Questa funzionalità consente di trovare velocemente una variante di prodotto specifica quando si crea un ordine cliente o un ordine fornitore.
 
@@ -66,8 +69,8 @@ Una maglietta (TS1234) viene prodotta in 3 in diverse dimensioni (S, M, L), 4 co
 
 Il numero di variante prodotto per la polo piccola e rossa sarà: TS1234-Red-Small-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenclatura delle configurazioni constraintbased
-Per le configurazioni basate su vincoli, una per dedicata può essere generato per la dimensione di configurazione prodotto. È possibile selezionare i segmenti che seguono nella pagina **Nomenclatura di prodotto**.
+## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenclatura delle configurazioni basate su vincoli
+Per le configurazioni basate su vincoli, una nomenclatura dedicata può essere generata per la dimensione di prodotto della configurazione. È possibile selezionare i segmenti che seguono nella pagina **Nomenclatura di prodotto**.
 
 -   Valore sequenza numerica
 -   Costante testo
@@ -90,8 +93,8 @@ Una nomenclatura di configurazione viene definita mediante i seguenti segmenti:
 
 L'ID di configurazione per materiale di legno con una lunghezza di 78 otterrà l'ID di configurazione successivo: WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclatura delle configurazioni dimensionbased
-Per le configurazioni in base a una dimensione, nomenclatura dedicata può essere generato per la dimensione di configurazione prodotto. È possibile selezionare i segmenti che seguono nella pagina **Nomenclatura di prodotto**.
+## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclatura di configurazioni basate su dimensioni
+Per le configurazioni basate su dimensioni, una nomenclatura dedicata può essere generata per la dimensione di prodotto della configurazione. È possibile selezionare i segmenti che seguono nella pagina **Nomenclatura di prodotto**.
 
 -   Valore sequenza numerica
 -   Costante testo
@@ -132,7 +135,7 @@ Quando si utilizza la tecnologia di configurazione basata su vincoli o su dimens
 In questo esempio è possibile utilizzare una nomenclatura del numero di varianti prodotto costituita dai seguenti segmenti:
 
 1.  Numero rappresentazione generale prodotto
-2.  Testo costante "\_"
+2.  Costante testo '\_'
 3.  Configurazione
 
 La nomenclatura di configurazione può consistere dei seguenti segmenti:
@@ -147,7 +150,7 @@ La nomenclatura di configurazione può consistere dei seguenti segmenti:
 -   Materiale = plastica
 -   Lunghezza = 12
 
-Numero di varianti prodotto è: M0099\_PlasticAAA12.
+Il numero di varianti prodotto diventerà: M0099\_PlasticAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Esempio per le configurazioni basate su dimensioni
 
@@ -180,7 +183,7 @@ Si verificherà un errore se si tenta di generare manualmente o automaticamente 
 
 ### <a name="constraint-based-configurations"></a>Configurazioni basata su vincoli
 
-A seconda della nomenclatura, il sistema può tentare di assegnare un numero di variante prodotto non univoco a una configurazione. In questo caso, verrà utilizzata la sequenza numerica per la dimensione di configurazione come numero di varianti prodotto corrispondenti. In questo caso, verrà visualizzato un avviso. Per evitare questo, è consigliabile includere sufficiente attributi nella nomenclatura per garantire la unicità e verificare che l'opzione **Riutilizza** sia attivata per il componente.
+A seconda della nomenclatura, il sistema può tentare di assegnare un numero di variante prodotto non univoco a una configurazione. In questo caso verrà utilizzata la sequenza numerica per la dimensione di configurazione come numero di variante prodotto. In questo caso, verrà visualizzato un avviso. Per evitare questo, è consigliabile includere sufficiente attributi nella nomenclatura per garantire la unicità e verificare che l'opzione **Riutilizza** sia attivata per il componente.
 
 ### <a name="dimension-based-configurations"></a>Configurazioni basate su dimensioni
 
@@ -191,8 +194,10 @@ Il processo di configurazione include un passaggio in cui verrà suggerito autom
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare una per il numero prodotto per le varianti prodotto predefiniti della Guida (attività)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Creare una nomenclatura di numero prodotto per le varianti prodotto predefinite (guida attività)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Creare una per il numero prodotto per le varianti prodotto configurati Guida di attività)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+[Creare una nomenclatura di numero prodotto per le varianti prodotto configurate (guida attività)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+
+
 
 

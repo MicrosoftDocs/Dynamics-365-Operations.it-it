@@ -59,5 +59,5 @@ Quando si creano collegamenti nelle definizioni di registrazione vengono applica
 -   È possibile assegnare una definizione di registrazione a qualsiasi tipo di transazione, tuttavia tale tipo di transazione deve trovarsi nello stesso modulo della definizione di registrazione. Utilizzare la pagina **Definizioni di registrazione transazioni** per visualizzare in quale modulo si trova un tipo di transazione.
 
 
-Per ulteriori informazioni, vedere [] esempi di definizioni di registrazione (/general-ledger/example-posting-definitions.md). 
+Per ulteriori informazioni, vedere [Esempi di definizione di registrazione](/general-ledger/example-posting-definitions.md). 
 

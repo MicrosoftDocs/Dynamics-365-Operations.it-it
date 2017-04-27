@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Rivalutazione della valuta in una società di consolidamento
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Quando si consolidano i dati da una valuta di contabilizzazione a un'altra, è necessario eseguire la rivalutazione della valuta in presenza di una variazione nei tassi di cambio, affinché i saldi dei conti vengano rivalutati correttamente. Quando si consolidano i dati, utilizzare la scheda **Conversione valuta** per selezionare i tassi di cambio iniziali per la conversione durante il processo di consolidamento. Dopo che si è inserito un nuovo tasso di cambio (ad esempio nel mese successivo), è necessario rivalutare i saldi dei conti. I profitti non realizzati o le perdite non realizzate vengono aggiornati di conseguenza, in base al nuovo tasso di cambio e alla data. Nell'esempio riportato di seguito vengono mostrare le registrazioni contabili che vengono create durante il processo.
@@ -33,7 +36,7 @@ Quando si consolidano i dati da una valuta di contabilizzazione a un'altra, è n
 ## <a name="company-setup"></a>Impostazione società
 -   **Società operative/di origine (USMF)** - Vengono utilizzati gli euro (EUR) come valuta di contabilità e di dichiarazione.
 -   **Società consolidata (CON)** - Vengono utilizzati gli euro (EUR) come valuta di contabilità e di dichiarazione.
-    -   ** Profitto realizzato ** - Conto CoGe 801500
+    -   **Profitto realizzato** - Conto CoGe 801500
     -   **Perdita realizzata** - Conto CoGe 801600
     -   **Profitto realizzato**- - Conto CoGe 801600
     -   **Perdita realizzata** - Conto CoGe 801400
@@ -82,6 +85,8 @@ Verranno visualizzate transazioni aggiuntive per gli importi in valuta di dichia
 | 130100         | EUR      | -500,00 | Importo originale di -500 × 1                          |
 | 801400         | EUR      | 250     | 500 – 333.33 = 166,67 166,67 + 83,33 = 250           |
 | 801600         | EUR      | -250    | -500 – (-333,33) = -166,67 -166,67 + (-83,33) = -250 |
+
+
 
 
 

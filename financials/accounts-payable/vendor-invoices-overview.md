@@ -27,18 +27,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici. 
 
 <a name="vendor-invoices"></a>Fatture fornitore
 ---------------
 
-Una fattura fornitore da un ordine fornitore è una fattura generata quando i prodotti o servizi vengono ricevuti in base a un ordine fornitore che è stato emesso per un fornitore. La fattura fornitore contiene un'intestazione e una o più righe per articoli o servizi. Una fattura fornitore completa il ciclo ordine fornitore dall'entrata prodotti alla fattura fornitore. 
+Una fattura fornitore da un ordine fornitore è una fattura generata quando i prodotti o servizi vengono ricevuti in base a un ordine fornitore che è stato emesso per un fornitore. La fattura fornitore contiene un'intestazione e una o più righe per articoli o servizi. Una fattura fornitore completa il ciclo dall'ordine fornitore all' entrata prodotti alla fattura fornitore. 
 
 Sebbene alcune fatture fornitore siano collegate a un ordine fornitore, le fatture fornitore possono anche contenere righe che non corrispondono alle righe ordine fornitore. È anche possibile creare fatture fornitore non associate ad alcun ordine fornitore. Queste fatture fornitore potrebbero rappresentare i servizi in corso, ad esempio una fattura di utilità, e non è necessario fare riferimento a un ordine fornitore quando si aggiungono. 
 
 Sono disponibili diversi modi di immettere una fattura fornitore:
 
--   Il registro fatture fornitore consente di determinare immettere le fatture che non fanno riferimento a un ordine fornitore, in modo da poter accumulare la spesa. Utilizzando il giornale di approvazione fatture fornitore, è possibile selezionare le fatture e registrarle nel conto fornitore per stornare i ratei.
+-   Il registro fatture fornitore consente di immettere rapidamente le fatture che non fanno riferimento a un ordine fornitore, in modo da poter accumulare la spesa. Utilizzando il giornale di registrazione approvazioni fatture fornitore, è possibile selezionare le fatture e registrarle al saldo fornitore per stornare gli importi della competenza..
 -   Il giornale di registrazione fatture fornitore consente di immettere rapidamente le fatture che non fanno riferimento a un ordine fornitore, in un unico passaggio.
 -   Insieme al pool fatture fornitore, il registro fatture fornitore consente di immettere rapidamente fatture per accumulare la competenza. È possibile aprire successivamente gli ordini fornitore associati per registrare la fattura a fronte del conto spese.
 -   Le pagine **Fatture fornitore aperte** e **Fatture fornitore in sospeso** consentono di creare fatture fornitore da ordini fornitore confermati.
@@ -57,7 +60,7 @@ Quando si apre una fattura fornitore da un ordine fornitore correlato, righe fat
 Se la persona giuridica utilizza l'abbinamento fatture, è possibile visualizzare i risultati degli abbinamenti quantità nella colonna **Abbinamento quantità entrata prodotti**. È anche possibile utilizzare il comando di menu **Dettagli corrispondenti** nella scheda **Revisione** per visualizzare i risultati degli abbinamenti quantità.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Aggiungere una riga non presente dell'ordine fornitore
-È possibile aggiungere una nuova riga fa parte dell'ordine fornitore alla fattura fornitore. È necessario selezionare un numero o una categoria di approvvigionamento di articolo. È possibile aggiungere le quantità, i prezzi e gli importi nella riga. La riga verrà inclusa solo nei criteri di abbinamento nei totali fattura.
+È possibile aggiungere una nuova riga non presente nell'ordine fornitore alla fattura fornitore. È necessario selezionare un numero di articolo o una categoria di approvvigionamento. È possibile aggiungere le quantità, i prezzi e gli importi nella riga. La riga verrà inclusa solo nei criteri di abbinamento nei totali fattura.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Invio di una fattura fornitore per la revisione
 L'organizzazione può utilizzare flussi di lavoro per gestire il processo di revisione per le fatture fornitore. La revisione del flusso di lavoro può essere necessaria per l'intestazione della fattura, per la riga di fattura o per entrambe. I controlli del flusso di lavoro vengono applicati all'intestazione o alla riga, a seconda della posizione dello stato attivo quando si fa clic sul controllo. Anziché il pulsante **Registra**, verrà visualizzato il pulsante **Invia** che può essere utilizzato per inviare la fattura fornitore tramite il processo di revisione.
@@ -74,6 +77,8 @@ In questa opzione si presuppone che per l'ordine fornitore sia stata registrata 
 ## <a name="working-with-multiple-invoices"></a>Utilizzo con più fatture
 
 È possibile utilizzare più fatture e registrarle tutte contemporaneamente. Se è necessario creare più fatture, utilizzare la pagina **Fatture fornitore in sospeso**. Se è necessario registrare e stampare più fatture fornitore, utilizzare la pagina del giornale di approvazione fatture. Se si utilizza il giornale di approvazione fatture è necessario che sia registrata almeno un'entrata prodotti per l'ordine fornitore e che sia registrata una fattura per l'ordine fornitore in un registro fatture. Le informazioni finanziarie relative alla fattura derivano dalla fattura inserita nel registro.
+
+
 
 
 

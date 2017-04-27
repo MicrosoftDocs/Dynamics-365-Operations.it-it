@@ -1,5 +1,5 @@
 ---
-title: Metodi di pagamento in una call center
+title: Metodi di pagamento in un servizio clienti
 description: "In questo argomento vengono descritti i vari metodi di pagamento che è possibile utilizzare in un servizio clienti di Vendita al dettaglio e commercio."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Metodi di pagamento in una call center
+# <a name="payment-methods-in-a-call-center"></a>Metodi di pagamento in un servizio clienti
+
+[!include[banner](includes/banner.md)]
+
 
 In questo argomento vengono descritti i vari metodi di pagamento che è possibile utilizzare in un servizio clienti di Vendita al dettaglio e commercio.
 
@@ -43,6 +46,8 @@ Se si invia un pagamento con carta di credito dalla pagina **Ordine cliente** e 
 
 -   Le sopensioni assegno consentono al personale finanziario di elaborare gli ordini che sono stati sospesi perché è stato utilizzato un assegno come metodo di pagamento e l'importo di soglia di sospensione dell'assegno è stato superato. La sospensione può essere rilasciata manualmente o scade automaticamente alla fine del periodo configurato.
 -   È possibile impostare soglie superiori alle quali i rimborsi che vengono emessi tramite assegno e carta di credito devono essere manualmente approvati. Qualsiasi rimborso che supera l'importo di soglia viene aggiunto alla coda di approvazione. Dopo l'approvazione del rimborso, l'ordine cliente reso può essere fatturato.
+
+
 
 
 

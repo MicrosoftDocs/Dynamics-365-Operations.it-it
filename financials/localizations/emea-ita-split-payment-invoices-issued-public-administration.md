@@ -1,6 +1,6 @@
 ---
-title: Pagamento diviso per le fatture ha rilasciato in Amministrazione pubblica
-description: "In questo argomento vengono fornite informazioni sullo schema di contabilità di pagamento divise."
+title: Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
+description: "In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,86 +25,91 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="split-payment-for-invoices-issued-to-the-public-administration"></a>Pagamento diviso per le fatture ha rilasciato in Amministrazione pubblica
+# <a name="split-payment-for-invoices-issued-to-the-public-administration"></a>Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
 
-In questo argomento vengono fornite informazioni sullo schema di contabilità di pagamento divise.
+[!include[banner](../includes/banner.md)]
 
-Lo schema di contabilità di pagamento da dividere è valido per la vendita di merci e servizi resi a pubblica amministrazione. Il meccanismo di pagamento Dividi di trasferisce obbligo di pagamento VAT a pubblica ufficio che sarà obbligatorio per pagare solo la base imponibile al fornitore. L'VAT viene accreditata sul conto prenotato specifico. Le società con relazioni con la pubblica ufficio devono essere certi che l'VAT venga registrata rilevante per vendite del registro, senza procedere al pagamento VAT periodico.
+
+In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.
+
+Lo schema di contabilità di scissione dei pagamenti è valido per la vendita di merci e servizi resi alla Pubblica amministrazione. Il meccanismo di scissione dei pagamenti trasferisce l'obbligo di pagamento delle imposte alla Pubblica amministrazione che sarà obbligata a pagare solo la base imponibile al fornitore. L'IVA viene accreditata in un conto riservato specifico. Le società con relazioni con la Pubblica amministrazione devono assicurarsi che l'IVA relativa venga registrata nelle vendite del registro, senza contribuire al pagamento IVA periodico.
 
 ## <a name="prerequisites"></a>Prerequisiti
 Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di iniziare.
 
-**Category**
+**Categoria**
 
-**Prerequisite**
+**Prerequisito**
 
-** Attrezzaggio: ** Registrazione VAT
+**Impostazioni**: registrazione IVA
 
-Creare un nuovo conto principale per il pagamento VAT dividere e quindi selezionare ** VAT ** ** tipo di registrazione ** nel campo. Creare un gruppo registrazione per dividere il pagamento VAT quindi selezionare il conto CoGe creato ** VAT a debito, ** ** VAT a credito ** e ** conto di liquidazione ** campi.
+Creare un nuovo conto principale per la scissione dei pagamenti IVA, quindi selezionare **IVA** nel campo **Tipo di registrazione**. Creare un gruppo di registrazione per la scissione dei pagamenti IVA, quindi selezionare il conto CoGe creato nei campi **IVA a debito**, **IVA a credito** e **Conto di liquidazione**.
 
 **Impostazione: **IVA
 
-Creare ** alla fascia VAT ** pubblica per la gestione e quindi selezionare ** dividi pagamento ** l'opzione. Creare un codice VAT per dividere il pagamento VAT. Impostare il valore utilizzabile per il paese e aggiungere il codice VAT in ** fascia VAT e ** ** fascia VAT articoli **.
+Creare una **Fascia IVA** per la Pubblica amministrazione, quindi selezionare l'opzione **Scissione dei pagamenti**. Creare un codice IVA per la scissione dei pagamenti IVA. Impostare il valore utilizzabile per il paese, quindi aggiungere il codice IVA in **Fascia IVA** e **Fascia IVA articoli**.
 
-** Attrezzaggio: ** Contabilità clienti
+**Impostazioni:** contabilità clienti
 
-Impostare ** sequenza numerica ** ** per dividere il giustificativo di pagamento ** il riferimento nei parametri di contabilità fornitori. Selezionare il codice di sequenza numerica per registrare l'VAT invertita per le fatture nel meccanismo di pagamento Dividi ** per dividere il giustificativo di pagamento ** il riferimento. Creare un gruppo di sequenze numeriche per il cliente - pubblica amministrazione. ** Sequenze numeriche ** la scheda, quindi selezionare la riga con ** giustificativi fattura a testo libero ** il riferimento e fare clic su ** gruppo ** il pulsante. ** Gruppi di sequenze numeriche ** nella pagina, creare un nuovo gruppo e selezionare una sequenza numerica per i riferimenti seguenti:
+Impostare la **Sequenza numerica** per il riferimento **Giustificativo scissione dei pagamenti** nei parametri di contabilità fornitori. Selezionare il codice di sequenza numerica per registrare l'IVA stornata per le fatture nel meccanismo di scissione dei pagamenti per il riferimento **Giustificativo scissione dei pagamenti**. Creare un gruppo di sequenze numeriche per il cliente - Pubblica amministrazione. Nella scheda **Sequenze numeriche**, selezionare la riga con il riferimento **Giustificativo fattura a testo libero**, quindi fare clic sul pulsante **Gruppo**. Nella pagina **Gruppi di sequenze numeriche**, creare un nuovo gruppo, quindi selezionare una sequenza numerica per i riferimenti seguenti:
 
 -   Giustificativo fattura a testo libero
 -   Giustificativo nota di accredito a testo libero
 -   Giustificativo fattura cliente
 -   Giustificativo nota di accredito vendita
 
-Impostare ** alla fascia VAT ** e ** gruppo di sequenze numeriche ** per l'amministrazione di Cliente- pubblico ** tutti i clienti ** nella pagina.
+Impostare **Fascia IVA** e **Gruppo di sequenze numeriche** per i Clienti- Pubblica amministrazione nella pagina **Tutti i clienti**.
 
-** Attrezzaggio: ** Area del libro VAT e del libro VAT
+**Impostazioni:** libro IVA e sezione Libro IVA
 
-Creare un nuovo libro VAT per le fatture a pubblica amministrazione. Creare una nuova area per il libro VAT.
+Creare un nuovo libro IVA per registrare fatture alla Pubblica amministrazione. Creare una nuova sezione per il libro IVA.
 
 **Transazioni correlate**
 
--   Consente di registrare una vendita a un cliente con le impostazioni di pagamento divise.
--   Registrare una fattura a testo libero per un cliente con le impostazioni di pagamento divise.
+-   Registrare una vendita a un cliente con le impostazioni di scissione dei pagamenti.
+-   Registrare una fattura a testo libero per un cliente con impostazioni di scissione dei pagamenti.
 
-## <a name="working-with-the-split-payment-invoices"></a>Utilizzo delle fatture di pagamento Dividi
-Quando si registra la fattura, ad esempio un ordine cliente, una fattura a testo libero, o fattura di progetto. con la fascia VAT di pagamento Dividi, le transazioni di storno VAT ai codici VAT rilevanti vengono registrate per risolvere le imposte che accumulata. Per ridurre il saldo cliente, una transazione cliente per l'importo VAT verrà creata automaticamente e verrà compensata con la fattura come registrazione fatture. Si riduce il saldo del cliente dall'importo VAT. ** Nota: ** Le transazioni VAT registrate con ** pagamento diviso ** l'opzione selezionata vengono escluse dal processo di liquidazione VAT. eInvoice creati utilizzando il processo di pagamento Dividi hanno una " S" nel tag &lt; esigibilitaIVA&gt;.
+## <a name="working-with-the-split-payment-invoices"></a>Utilizzo delle fatture di scissione dei pagamenti
+Quando si registra la fattura, ad esempio un ordine cliente, una fattura a testo libero o una fattura di progetto. Con la fascia IVA di scissione dei pagamenti, le transazioni IVA di storno con i relativi codici di imposta vengono registrate per eliminare l'imposta accumulata. Per ridurre il saldo cliente, una transazione cliente per l'importo IVA viene creata e automaticamente compensata con la fattura durante la registrazione della fattura. In tal modo, il saldo cliente viene ridotto dell'importo IVA. **Nota:** le transazioni IVA registrate con l'opzione **Scissione dei pagamenti** selezionata sono escluse dal processo di pagamento IVA. Le fatture create utilizzando il processo di scissione dei pagamenti hanno una "S" nel tag &lt;EsigibilitaIVA&gt;.
 
 ### <a name="booking-example-for-sales-invoice"></a>Esempio di prenotazione per la fattura di vendita
 
-Nella seguente tabella è riportato un esempio di transazioni di contabilità generale per due transazioni cliente сreated per una fattura di pagamento divise.
+Nella seguente tabella è riportato un esempio di transazioni di contabilità generale per due transazioni cliente create per una fattura di scissione dei pagamenti.
 
 ** **
 
 **Conto**
 
-**Debit**
+**Dare**
 
-**Credit**
+**Avere**
 
-** Contabilità fatture **
+**Contabilizzazione fattura**
 
-Società di utilizzo\_cliente
+Cliente\_Società pubblica
 
 1220
 
-Rendita da vendite
+Ricavi vendite
 
 1000
 
-Pagamento VAT diviso
+Scissione dei pagamenti IVA
 
 220
 
-** Eliminazione di debito VAT **
+**Eliminazione debito IVA**
 
-Società di utilizzo\_cliente
+Cliente\_Società pubblica
 
 220
 
-Pagamento VAT diviso
+Scissione dei pagamenti IVA
 
 220
 
  
+
+
 
 

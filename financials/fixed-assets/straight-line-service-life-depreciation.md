@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Ammortamento a quote costanti basato sulla vita utile
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile a quote costanti.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona Vita utile a quote costanti nel campo Metodo della pagina Profili di ammortamento, i cespiti cui è assegnato questo profilo vengono ammortizzati in base all'intera vita utile del cespite. In genere è lo stesso importo in ciascun periodo di ammortamento. 
@@ -98,9 +101,11 @@ La vita utile della rettifica di acquisizione è la stessa del cespite e inizia 
 | Anno 3 | 14.000 / 5 = 2.800                        | 10.200 - 2.800 = 7.400                |
 | Anno 4 | 14.000 / 5 = 2.800                        | 7.400 - 2.800 = 4.600                 |
 | Anno 5 | 14.000 / 5 = 2.800                        | 4.600 - 2.800 = 1.800                 |
-| Anno 6 | 800 Rimanenti\*                           | 1.800 – 800 = 1.000                   |
+| Anno 6 | Importo rimanente 800\*                           | 1.800 – 800 = 1.000                   |
 
-\*Poiché l'importo rimanente è inferiore all'importo di ammortamento, solo l'importo rimanente meno il valore di realizzo.
+\*Poiché l'importo rimanente è inferiore all'importo dell'ammortamento, viene considerato solo l'importo rimanente meno il valore di realizzo.
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Utilizzare un pagamento cliente per liquidare fatture che coprono più periodi di sconto più"
+title: "Utilizzare un pagamento cliente per liquidare più fatture che coprono più periodi più di sconto"
 description: "Questo articolo mostra come vengono pagate più fatture quando ogni fattura consente di ottenere uno sconto di cassa. Gli scenari dell&quot;articolo evidenziano le variazioni degli sconti di cassa ottenuti, a seconda di quando si effettua il pagamento."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Utilizzare un pagamento cliente per liquidare fatture che coprono più periodi di sconto più
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Utilizzare un pagamento cliente per liquidare più fatture che coprono più periodi più di sconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo mostra come vengono pagate più fatture quando ogni fattura consente di ottenere uno sconto di cassa. Gli scenari dell'articolo evidenziano le variazioni degli sconti di cassa ottenuti, a seconda di quando si effettua il pagamento.
 
-Fabrikam vendita di merci al cliente 4032. Fabrikam offre uno sconto di cassa del 1 se la fattura viene pagata in 14 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di settement si trovano ** parametri di contabilità clienti ** nella pagina.
+Fabrikam vende merci al cliente 4032. Fabrikam offre uno sconto di cassa dell'1% se la fattura viene pagata entro 14 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano nella pagina **Parametri contabilità clienti**.
 
 ## <a name="invoices"></a>Fatture
 Il cliente 4032 ha tre fatture con totale 3.000,00:
 
--   Fatturare per FTI-10040, 1,000.00, è stato immesso il 15 maggio. Questa fattura viene concesso uno sconto di cassa del 1 se pagato entro 14 giorni.
--   Fatturare per FTI-10041, 1,000.00, è stato immesso il 25 giugno. Questa fattura viene concesso uno sconto di cassa del 1 se pagato entro 14 giorni.
--   Fatturare per FTI-10042, 1,000.00, è stato immesso il 25 giugno. Questa fattura viene concesso uno sconto di cassa del 2 se pagato entro cinque giorni e in uno sconto del 1 se pagato entro 14 giorni.
+-   La fattura FTI-10040, per 1.000,00, è stata immessa il 15 maggio. Questa fattura è idonea a uno sconto di cassa dell'1% se viene pagata entro 14 giorni.
+-   La fattura FTI-10041, per 1.000,00, è stata immessa il 25 giugno. Questa fattura è idonea a uno sconto di cassa dell'1% se viene pagata entro 14 giorni.
+-   La fattura FTI-10042, per 1.000,00, è stata immessa il 25 giugno. Questa fattura è idonea a uno sconto di cassa del 2% se pagata entro cinque giorni e di uno sconto dell'1% se pagata entro 14 giorni.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Liquidare tutte le fatture il 29 giugno
 Se Arnie crea un giornale di registrazione pagamenti per liquidare completamente le fatture il 29 giugno, il pagamento sarà pari a 2.970,00. Il totale di tutti gli importi di sconto è 30,00. Arnie crea un pagamento per il cliente 4032 e quindi apre la pagina **Liquida transazioni**. Nella pagina **Liquida transazioni** Arnie contrassegna tutte le tre righe di fattura per la liquidazione:
@@ -76,7 +79,7 @@ Il cliente 4032 può pagare un importo parziale, ad esempio metà di ciascuna fa
 | Selezionato                 | Normale            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | GBP      | 495,00           |
 | Selezionato ed evidenziato | Normale            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | GBP      | 490,00           |
 
-Arnie può inoltre possibile impostare manualmente l'importo del pagamento di 1,485.00 prima di aprire ** transazioni liquidati ** la pagina. Se Arnie immette manualmente l'importo del pagamento e quindi consente di contrassegnare tutte e tre le transazioni, ma non regola il valore in ** importo da liquidare ** sistema per ciascuna transazione, riceve il seguente messaggio per la chiusura della pagina:
+Arnie può inoltre immettere manualmente l'importo del pagamento di 1.485,00 prima di aprire la pagina **Liquida transazioni**. Se Arnie immette manualmente l'importo del pagamento e quindi contrassegna tutte e tre le transazioni, ma non rettifica il valore nel campo **Importo da liquidare** per ciascuna transazione, riceve il seguente messaggio alla chiusura della pagina:
 
 > L'importo totale delle transazioni contrassegnate è diverso da quello riportato nel giornale di registrazione. Modificare l'importo del giornale?
 
@@ -95,6 +98,8 @@ Arnie visualizza le informazioni nella pagina **Transazioni cliente**.
 | FTI-10042  | Fattura          | 25/6/2015 | 10042   | 1.000,00                             |                                       | 505,10   | GBP      |
 | ARP-10040  | Pagamento          | 29/6/2015 |         |                                      | 1.485,00                              | 0,00     | GBP      |
 | DISC-10040 | Sconto di cassa    | 29/6/2015 |         |                                      | 9,90                                  | 0,00     | GBP      |
+
+
 
 
 

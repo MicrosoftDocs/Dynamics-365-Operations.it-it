@@ -29,13 +29,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="coverage-settings"></a>Impostazioni copertura
 
+[!include[banner](../includes/banner.md)]
+
+
 Nella programmazione generale vengono utilizzate impostazioni di copertura per calcolare le richieste di articoli. 
 
 È possibile specificare impostazioni di copertura in vari modi:
 
--   Specificare impostazioni di copertura per un gruppo di copertura. È possibile creare un gruppo di copertura contenente impostazioni per tutti i prodotti collegati al gruppo. Fare clic su ** pianificazione &gt; generale impostare &gt; i gruppi &gt; di copertura di copertura ** per creare un gruppo di copertura. È possibile collegare un gruppo di copertura a un prodotto. Se il collegamento è specifico a un sito, un magazzino, o a una dimensione prodotto, utilizzare il campo **Gruppo di copertura** nella pagina **Copertura articoli**. Se il collegamento è generico, indipendentemente dalle dimensioni prodotto, utilizzare **Gruppo di copertura** in **Piano** su **Dettagli prodotto**. Se non si collega un gruppo di copertura a una pianificazione generale prodotti, verrà utilizzato per impostazione predefinita il **Gruppo di copertura generale** specificato in **Parametri di pianificazione generale**.
+-   Specificare impostazioni di copertura per un gruppo di copertura. È possibile creare un gruppo di copertura contenente impostazioni per tutti i prodotti collegati al gruppo. Fare clic su **Pianificazione generale &gt; Impostazione &gt; Copertura &gt; Gruppi di copertura** per creare un gruppo di copertura. È possibile collegare un gruppo di copertura a un prodotto. Se il collegamento è specifico a un sito, un magazzino, o a una dimensione prodotto, utilizzare il campo **Gruppo di copertura** nella pagina **Copertura articoli**. Se il collegamento è generico, indipendentemente dalle dimensioni prodotto, utilizzare **Gruppo di copertura** in **Piano** su **Dettagli prodotto**. Se non si collega un gruppo di copertura a una pianificazione generale prodotti, verrà utilizzato per impostazione predefinita il **Gruppo di copertura generale** specificato in **Parametri di pianificazione generale**.
 
--   Specificare le impostazioni di copertura per un prodotto. È possibile creare impostazioni di copertura per un prodotto specifico. ** Prodotti Fare clic su Gestione informazioni &gt; sul &gt; prodotto rilasciati i prodotti **. Selezionare il prodotto, ** nel riquadro azioni **, nel piano ** ** la scheda, in ** gruppo di copertura **, fare clic su ** copertura articoli ** per aprire ** copertura articoli ** la pagina. Se il prodotto è già collegato a un gruppo di copertura, è possibile ignorare le impostazioni del gruppo utilizzando il campo **Forzatura**. Le impostazioni** Copertura articoli** di copertura nella pagina hanno la priorità sulle impostazioni **Gruppo di copertura** nella pagina.
+-   Specificare le impostazioni di copertura per un prodotto. È possibile creare impostazioni di copertura per un prodotto specifico. Fare clic su **Gestione informazioni sul prodotto &gt; Prodotti &gt; Prodotti rilasciati**. Selezionare il prodotto, nel **riquadro azion**i della scheda **Pianificazione** fare clic su **Gruppo di copertura**, **Copertura articolo** per aprire la pagina **Copertura articolo**. Se il prodotto è già collegato a un gruppo di copertura, è possibile ignorare le impostazioni del gruppo utilizzando il campo **Forzatura**. Le impostazioni** Copertura articoli** di copertura nella pagina hanno la priorità sulle impostazioni **Gruppo di copertura** nella pagina.
 
 <!-- -->
 
@@ -43,13 +46,15 @@ Nella programmazione generale vengono utilizzate impostazioni di copertura per c
 
 <!-- -->
 
--   Specificare impostazioni di copertura per un gruppo di dimensioni. Fare clic su ** Ordinarie Gestione informazioni &gt; sul &gt; prodotto rilasciati i prodotti **. ** Nei dettagli del prodotto rilasciato ** pagine, il ** ** la scheda dettagli relativi all'identificazione, amministrazione ** ** nel gruppo, fare clic su ** gruppo di dimensioni di immagazzinamento ** il collegamento. Nella pagina **Gruppo di dimensioni di immagazzinamento** selezionare il campo **Piano di copertura della dimensione** per creare le impostazioni di copertura per una dimensione nel gruppo di dimensioni di immagazzinamento. Tutte le dimensioni, ad esempio la configurazione, colore, la dimensione, stile, devono avere ** piano di copertura per dimensione ** il campo selezionato.
+-   Specificare impostazioni di copertura per un gruppo di dimensioni. Fare clic su **Gestione informazioni sul prodotto &gt; Comune &gt; Prodotti rilasciati**. Nella pagina **Dettagli prodotto rilasciato** , nella scheda **Generale**, nel gruppo **Amministrazione** fare clic sul collegamento **Gruppo di dimensioni di immagazzinamento**. Nella pagina **Gruppo di dimensioni di immagazzinamento** selezionare il campo **Piano di copertura della dimensione** per creare le impostazioni di copertura per una dimensione nel gruppo di dimensioni di immagazzinamento. Tutte le dimensioni prodotto, ad esempio configurazione, colore, dimensioni, stile, devono avere il campo **Piano di copertura per dimensione** selezionato.
 
 
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Master plans](master-plans.md)
+[Piani generali](master-plans.md)
+
+
 
 

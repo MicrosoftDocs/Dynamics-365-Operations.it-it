@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Rifornimento
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo vengono descritte le strategie di rifornimento disponibili per i magazzini che utilizzano la funzionalità disponibile in Gestione magazzino.
 
 In questo articolo vengono descritte le strategie di rifornimento disponibili per i magazzini che utilizzano la funzionalità disponibile in Gestione magazzino. Le informazioni non sono applicabili alla soluzione di immagazzinaggio disponibile in Gestione articoli. Sono disponibili tre strategie di rifornimento:
@@ -67,6 +70,8 @@ Il rifornimento basato sulla domanda di carico somma la domanda di diversi caric
 | Profili ubicazione       | I profili ubicazione sono necessari per creare le ubicazioni.                                                                                                                                                                                       |
 | Direttive ubicazione     | Le direttive di ubicazione sono necessarie per guidare il lavoro nelle ubicazioni in cui è richiesto il rifornimento e nelle ubicazioni da cui provengono le scorte.                                                                                     |
 | Modelli di lavoro          | Modelli di lavoro di tipo **Rifornimento** sono necessari per creare il lavoro di rifornimento in modo che le scorte possano essere spostate nell'ubicazione desiderata.                                                                                           |
+
+
 
 
 

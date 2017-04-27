@@ -1,6 +1,6 @@
 ---
 title: Utilizzare il componente aggiuntivo di Excel
-description: "In questo argomento viene illustrato come i dati dell&quot;entità aperta in Microsoft Excel e quindi visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Office di Microsoft Dynamics in Excel. Per aprire i dati di entità, è possibile iniziare da Excel o da Microsoft Dynamics 365 per le operazioni."
+description: "In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Per aprire i dati di entità, è possibile iniziare da Excel o da Microsoft Dynamics 365 for Operations."
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,67 +26,67 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="use-the-excel-add-in"></a>Utilizzare il componente aggiuntivo di Excel
 
-In questo argomento viene illustrato come i dati dell'entità aperta in Microsoft Excel e quindi visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Office di Microsoft Dynamics in Excel. Per aprire i dati di entità, è possibile iniziare da Excel o da Microsoft Dynamics 365 per le operazioni.
+In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Per aprire i dati di entità, è possibile iniziare da Excel o da Microsoft Dynamics 365 for Operations.
 
-I dati dell'entità di apertura in Microsoft Excel, è possibile visualizzare e modificare modo semplice e rapido i dati utilizzando il componente aggiuntivo Office di Microsoft Dynamics in Excel. Questo componente aggiuntivo richiede Microsoft Excel 2016. ** Nota: ** Se nel titolare di Active Directory di Microsoft Azure (ANNUNCIO azzurrato) viene configurato Active Directory utilizzare Federation Services ANNUNCIO FS), verificare che l'aggiornamento sia del maggio 2016 viene applicato, in modo che il componente aggiuntivo di Excel può firmarvi correttamente in.
+Aprendo i dati entità in Microsoft Excel, è possibile visualizzare in modo rapido e facile i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Questo componente aggiuntivo richiede Microsoft Excel 2016. **Nota:** se il tenant Microsoft Azure Active Directory (Azure AD) viene configurato per l'utilizzo di Active Directory Federation Services (AD FS), è necessario verificare che l'aggiornamento del mese di maggio 2016 sia stato applicato, in modo che il componente aggiuntivo di Excel possa consentire correttamente l'accesso.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Data dell'entità aperta in Excel quando si inizia da Dynamics 365 per le operazioni
-1.  In una pagina in Microsoft Dynamics 365 per le operazioni, fare clic su ** aprire Microsoft Office **. Se l'origine dati principale (scheda della pagina è analoga a quella l'origine dati per tutte le entità, standard principale ** aperto in Excel ** opzioni per il quale è stata generata la pagina. ** Aperto in Excel ** opzioni è possibile individuare le pagine spesso utilizzate, ad esempio ** tutti i fornitori ** ** e tutti i clienti **.
-2.  Fare clic su ** aprire in Excel ** un'opzione e aprire la cartella di lavoro generata. Questa cartella di lavoro è obbligatorio per l'entità, un puntatore all'ambiente e un puntatore al componente aggiuntivo Excel.
-3.  In Excel, fare clic su ** abilitare modificare ** per attivare il componente aggiuntivo di Excel da eseguire. Il componente aggiuntivo Excel esecuzione nel riquadro a destra della finestra di Excel.
-4.  Se si esegue per la prima volta il componente aggiuntivo di Excel, fare clic su fidi ** di questo Componente **.
-5.  Se viene richiesto di firma in, fare clic su ** segno in ** quindi segno in utilizzare le stesse credenziali utilizzato per la firma in Dynamics a 365 per le operazioni. Il componente aggiuntivo Excel un precedente verrà utilizzata nel contesto di accesso tramite Internet Explorer e automaticamente vengono firmerà in, se possibile. Di conseguenza, verificare il nome utente nell'angolo superiore destro del componente aggiuntivo Excel.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Aprire i dati entità in Excel quando si inizia da Dynamics 365 for Operations
+1.  In una pagina in Microsoft Dynamics 365 for Operations fare clic su **Apri in Microsoft Office**. Se l'origine dati principale (tabella) della pagina è analoga a quella dell'origine dati principale di tutte le entità, le opzioni predefinite **Apri in Excel** vengono generate per la pagina. Le opzioni **Apri in Excel** possono essere individuate su pagine utilizzate di frequente, ad esempio **Tutti i fornitori** e **Tutti i clienti**.
+2.  Fare clic sull'opzione **Apri in Excel** e aprire la cartella di lavoro generata. Questa cartella di lavoro contiene dati vincolanti per l'entità, un puntatore all'ambiente in uso e un puntatore al componente aggiuntivo di Excel.
+3.  In Excel fare clic su **Abilita modifica** per attivare il componente aggiuntivo di Excel da eseguire. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
+4.  Se si esegue per la prima volta il componente aggiuntivo di Excel, fare clic su **Considera attendibile questo componente aggiuntivo**.
+5.  Se viene richiesto di accedere, fare clic su **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso a Dynamics 365 for Operations. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente rispetto a Internet Explorer e consentirà l'acceso automatico, se possibile. Di conseguenza, verificare il nome utente nell'angolo superiore destro del componente aggiuntivo di Excel.
 
-Il componente aggiuntivo Excel legge automaticamente i dati dell'entità selezionata. Tenere presente che non verrà apportata alcuna dati nella cartella di lavoro finché il componente aggiuntivo di Excel non nel leggere.
+Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità selezionata. Tenere presente che non saranno disponibili dati nella cartella di lavoro finché il componente aggiuntivo di Excel la leggerà.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Data dell'entità aperta in Excel quando si inizia da Excel
-1.  In Excel, il ** inserimento ** cataloghi, ** Componenti ** nel gruppo, fare clic sul record ** ** per aprire la memoria di Office.
-2.  Nella memoria di Office, cercare la parola chiave "Dynamics," e fare clic su ** aggiungere ** accanto a ** Componente di Office di Microsoft Dynamics (** il componente aggiuntivo di Excel).
-3.  Se si esegue per la prima volta il componente aggiuntivo di Excel, fare clic su fidi ** di questo Componente ** per attivare il componente aggiuntivo di Excel da eseguire. Il componente aggiuntivo Excel esecuzione nel riquadro a destra della finestra di Excel.
-4.  Fare clic su ** aggiungere le informazioni sul server ** per aprire ** opzioni ** il riquadro.
-5.  Copiare il browser che l'URL dal destinatario Dynamics 365 per le operazioni relativo ad esempio, inserirlo nel server ** URL ** il campo e quindi eliminare tutti dopo il nome host, ad esempio **/? di eliminazione** cmp=usmf&mi=CustTableListPage). L'URL risultante è necessario che soltanto il nome host, ad esempio ** https://xxx.dynamics.com**).
-6.  Fare clic su OK ** ** quindi fare clic su Sì ** ** per confermare la modifica. I aggiungere- I valori di Excel e metadati i carichi. ** Progettazione ** il pulsante risulterà disponibile. Se il componente aggiuntivo di Excel è a applet ** del carico ** pulsante, è probabilmente non siano firmati nella modalità di accesso corretto. Per ulteriori informazioni, vedere l'argomento relativo al pulsante di applet del carico è visualizzato nella sezione "Finestra" risoluzione di questo argomento.
-7.  Fare clic su ** progettazione **. Il componente aggiuntivo Excel recupera i metadati dell'entità.
-8.  Fare clic su ** aggiungere la tabella **. Elenco di entità verrà visualizzato. Le entità vengono elencate nel nome "-" contrassegni il formato.
-9.  Selezionare dopo un'entità nell'elenco, ad esempio ** cliente per i clienti ** quindi fare clic su ** **.
-10. Per aggiungere un campo ** campi disponibili **elenco a ** campi selezionati ** elenchi, e selezionare il campo e quindi fare clic su ** aggiungere **. In alternativa, fare doppio clic sul campo.
-11. Dopo aver aggiunto i campi desiderati ** campi selezionati ** all'elenco, verificare che il cursore non sia nella posizione corretta nel foglio di lavoro, ad esempio cella A1) e fare clic su ** effettuato **. Fare clic su ** effettuato ** per chiudere la finestra di progettazione.
-12. Fare clic su ** aggiornare ** per effettuare il pull di una serie di dati.
+## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Aprire i dati entità in Excel quando si inizia da Excel
+1.  In Excel nel gruppo **Componenti aggiuntivi** della scheda **Inserisci** fare clic su **Store** per aprire l'Office Store.
+2.  Nell'Office Store cercare la parola chiave "Dynamics" e fare clic su **Aggiungi** accanto a **Microsoft Dynamics Office Add-in** (il componente aggiuntivo di Excel).
+3.  Se si esegue per la prima volta il componente aggiuntivo di Excel, abilitarlo facendo clic su **Considera attendibile questo componente aggiuntivo**. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
+4.  Fare clic su **Aggiungi informazioni sul server** per aprire il riquadro **Opzioni**.
+5.  Copiare l'URL del browser dall'istanza Dynamics 365 for Operations di destinazione, incollarlo nel campo **URL server**, quindi eliminare tutto ciò che segue il nome host (ad esempio, eliminare **/?cmp=usmf&mi=CustTableListPage**). L'URL risultante dovrebbe contenere soltanto il nome host (ad esempio, **https://xxx.dynamics.com**).
+6.  Fare clic su **OK**, quindi su **Sì** per confermare la modifica. Il componente aggiuntivo di Excel si riavvia e carica i metadati. Il pulsante **Progettazione** è ora disponibile. Se il componente aggiuntivo di Excel è un pulsante **Carica applet**, è probabile che la modalità di accesso non sia corretta. Per ulteriori informazioni, vedere "Viene visualizzato il pulsante Carica applet" nella sezione "Risoluzione dei problemi" di questo argomento.
+7.  Fare clic su **Progettazione**. Il componente aggiuntivo di Excel recupera i metadati dell'entità.
+8.  Fare clic su **Aggiungi tabella**. Verrà visualizzato un elenco di entità. Le entità vengono elencate nel formato "Nome - Etichetta".
+9.  Selezionare un'entità nell'elenco, ad esempio **Cliente - Clienti**, quindi fare clic su **Avanti**.
+10. Per aggiungere un campo dell'elenco **Campi disponibili** all'elenco **Campi selezionati**, fare clic sul campo, quindi su **Aggiungi**. In alternativa, fare doppio clic nel campo.
+11. Dopo aver aggiunto i campi desiderati all'elenco **Campi selezionati**, verificare che il cursore sia nella posizione corretta nel foglio di lavoro (ad esempio, cella A1), quindi fare clic su **Fine**. Fare quindi clic su **Fine** per chiudere la finestra di progettazione.
+12. Fare clic su **Aggiorna** per effettuare il pull di una serie di dati.
 
-## <a name="view-and-update-entity-data-in-excel"></a>Consente di visualizzare e aggiornare i dati dell'entità in Excel
-Dopo che il componente aggiuntivo di Excel legge i dati dell'entità nella cartella di lavoro, è possibile aggiornare in qualsiasi momento facendo clic sui dati ** aggiornare ** il componente aggiuntivo Excel.
+## <a name="view-and-update-entity-data-in-excel"></a>Visualizzare e aggiornare i dati entità in Excel
+Dopo che il componente aggiuntivo di Excel avrà letto i dati entità nella cartella di lavoro, sarà possibile aggiornarli in qualsiasi momento facendo clic su **Aggiorna** nel componente aggiuntivo di Excel.
 
-## <a name="edit-entity-data-in-excel"></a>Modifica dei dati dell'entità in Excel
-È possibile modificare i dati di entità come ordinati e quindi pubblicate data facendo clic ** pubblicare ** il componente aggiuntivo Excel. Per modificare un record, selezionare una cella del foglio di lavoro quindi modificare il valore di cella. Per aggiungere un nuovo record, eseguire uno dei seguenti passaggi:
+## <a name="edit-entity-data-in-excel"></a>Modificare i dati entità in Excel
+È possibile modificare i dati entità come richiesto, quindi pubblicarli facendo clic su **Pubblica** nel componente aggiuntivo di Excel. Per modificare un record, selezionare una cella del foglio di lavoro, quindi cambiare il valore di cella. Per aggiungere un nuovo record, effettuare uno dei seguenti passaggi:
 
--   Fare clic in un punto qualsiasi nel foglio di lavoro e fare clic su ** ** nel nuovo componente aggiuntivo di Excel.
--   Fare clic sull'ultima riga del foglio di lavoro quindi premere il tasto TAB finché il cursore si sposta dall'ultima colonna della riga e una nuova riga venga creata.
--   Fare clic sulla riga immediatamente nel foglio di lavoro e iniziare a immettere dati in una cella. Quando si sposta l'elemento attivo della cella, il foglio di lavoro si espande per includere la nuova riga.
+-   Fare clic in un punto qualsiasi del foglio di lavoro, quindi su **Nuovo** nel componente aggiuntivo di Excel.
+-   Fare clic sull'ultima riga del foglio di lavoro, quindi premere il tasto TAB finché il cursore non si sposta dall'ultima colonna della riga e viene creata una nuova riga.
+-   Fare clic sulla riga immediatamente sotto il foglio di lavoro e iniziare a immettere dati in una cella. Quando si sposta l'elemento attivo della cella, il foglio di lavoro si espande per includere la nuova riga.
 
-Per eliminare un record, eseguire uno dei seguenti passaggi:
+Per eliminare un record, effettuare uno dei seguenti passaggi:
 
--   Fare clic con il pulsante destro del mouse sul numero di riga accanto alla riga del foglio di lavoro da eliminare e fare clic su Elimina ** **.
--   Fare clic con il pulsante destro del mouse sulla riga del foglio di lavoro da eliminare e fare clic su Elimina ** ** &gt; ** le righe della tabella **.
+-   Fare clic con il pulsante destro del mouse sul numero di riga accanto alla riga del foglio di lavoro da eliminare e fare clic su **Elimina**.
+-   Fare clic con il pulsante destro del mouse nella riga del foglio di lavoro da eliminare, quindi su **Elimina** &gt; **Righe tabella**.
 
 ## <a name="add-or-remove-columns"></a>Aggiungi o rimuovi colonne
-È possibile utilizzare la finestra di progettazione per rettificare le colonne aggiunti automaticamente al foglio di lavoro.
+È possibile utilizzare la finestra di progettazione per modificare le colonne aggiunte automaticamente al foglio di lavoro.
 
-1.  Avvia la finestra di progettazione di origine dati del componente aggiuntivo Excel utilizzando opzioni ** ** viene subito (il simbolo di ingranaggio) e facendo ** attivare la progettazione ** la casella di controllo.
-2.  Fare clic su ** progettazione ** il componente aggiuntivo Excel. Tutte le origini dati di lavoro.
-3.  Accanto all'origine dati, scegliere ** modifica ** il pulsante (il simbolo a matita).
-4.  Modificare l'elenco in ** campi selezionati ** elenco come ordinati:
-    -   Per aggiungere un campo ** campi disponibili **elenco a ** campi selezionati ** elenchi, e selezionare il campo e quindi fare clic su ** aggiungere **. In alternativa, fare doppio clic sul campo.
-    -   Per rimuovere un campo da ** campi selezionati ** elenchi, e selezionare il campo e quindi fare clic su ** rimuovere **. In alternativa, fare doppio clic sul campo.
-    -   Per modificare l'ordine dei campi, fare clic sul campo in ** campi selezionati ** elencate e fare clic su ** ** o ** il drill-down **.
+1.  Avviare la finestra di progettazione dell'origine dati del componente aggiuntivo di Excel facendo clic sul pulsante **Opzioni** (il simbolo dell'ingranaggio), quindi selezionando la casella di controllo **Abilita progettazione**.
+2.  Fare clic su **Progettazione** nel componente aggiuntivo di Excel. Tutte le origini dati sono elencate.
+3.  Accanto all'origine dati fare clic sul pulsante **Modifica** (il simbolo della matita).
+4.  Modificare l'elenco **Campi selezionati** in base alle esigenze:
+    -   Per aggiungere un campo dell'elenco **Campi disponibili** all'elenco **Campi selezionati**, fare clic sul campo, quindi su **Aggiungi**. In alternativa, fare doppio clic nel campo.
+    -   Per rimuovere un campo dall'elenco **Campi selezionati** fare clic sul campo, quindi su **Rimuovi**. In alternativa, fare doppio clic nel campo.
+    -   Per modificare l'ordine dei campi, fare clic sul campo nell'elenco **Campi selezionati**, quindi su **Su** o **Giù**.
 
-5.  Applica le modifiche alla fonte dei dati facendo ** ** aggiornamento. Fare clic su ** effettuato ** per chiudere la finestra di progettazione. Si supponga un campo (colonna), scegliere ** aggiornare ** per effettuare il pull di una serie di dati aggiornati.
+5.  Applicare le modifiche all'origine dati facendo clic su **Aggiorna**. Fare quindi clic su **Fine** per chiudere la finestra di progettazione. Se è stato aggiunto un campo (colonna), scegliere **Aggiorna** per effettuare il pull di una serie aggiornata di dati.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Troubleshooting
-Sono disponibili alcuni problemi che possono essere risolti per alcuni passaggi semplice.
+## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Risoluzione dei problemi
+Sono disponibili alcuni problemi che possono essere risolti attraverso alcuni semplici passaggi.
 
--   ** Il pulsante di applet del carico è indicato. ** Se il componente aggiuntivo di Excel è a applet ** del carico ** pulsante dopo accesso in, è probabilmente non siano firmati nella modalità di accesso corretto. Per risolvere questo problema, verificare che il nome utente corretto visualizzato nell'angolo superiore destro del componente aggiuntivo Excel. Se un nome utente non viene visualizzato, clicchilo segno di uscita, quindi firmi data di entrata.
--   ** Viene visualizzato un messaggio "grave". ** Se si riceve un messaggio "grave" come componente aggiuntivo Excel viene caricare i metadati, il conto da firmare nel componente aggiuntivo Excel non dispone dell'autorizzazione a utilizzare il servizio, l'istanza, o il database di destinazione. Per risolvere questo problema, verificare che il nome utente corretto visualizzato nell'angolo superiore destro del componente aggiuntivo Excel. Se un nome utente non viene visualizzato, clicchilo segno di uscita, quindi firmi data di entrata.
--   ** La pagina Web vuoto viene visualizzata sopra Excel. ** Se una pagina Web vuoto viene visualizzato durante il processo di accesso, il conto per il ANNUNCIO FS, ma la versione di Excel che esegue il componente aggiuntivo non è sufficiente per caricare accesso nella finestra di dialogo. Per risolvere questo problema, aggiornare la versione di Excel in uso. Per aggiornare la versione di Excel quando si avrà il un'impresa che è al canale restituito, utilizzare [] strumento di distribuzione di Office (https://technet.microsoft.com/library/jj219422.aspx) [spostamento dal canale restituire al canale corrente] (https://technet.microsoft.com/library/mt455210.aspx).
+-   **Viene visualizzato il pulsante Carica applet.** Se il componente aggiuntivo di Excel mostra un pulsante **Carica applet** dopo l'accesso, è probabile che la modalità di accesso non sia corretta. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, fare clic su di esso, disconnettersi e riaccedere.
+-   **Viene visualizzato un messaggio "Non consentito".** Se si riceve un messaggio "Non consentito" mentre il componente aggiuntivo di Excel sta caricando i metadati, l'account cui si accede nel componente aggiuntivo di Excel non dispone dell'autorizzazione a utilizzare il servizio, l'istanza o il database di destinazione. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, fare clic su di esso, disconnettersi e riaccedere.
+-   **Una pagina Web vuota viene visualizzata sopra Excel.** Se una pagina Web vuota viene visualizzata durante il processo di accesso, l'account richiede AD FS, ma la versione di Excel in cui è in esecuzione il componente aggiuntivo non è abbastanza recente per caricare la finestra di dialogo di accesso. Per risolvere questo problema, aggiornare la versione di Excel in uso. Per aggiornare la versione di Excel quando si è in un'azienda che si trova sul canale differito, utilizzare lo [strumento di distribuzione di Office](https://technet.microsoft.com/library/jj219422.aspx) per [spostare dal canale differito al canale corrente](https://technet.microsoft.com/library/mt455210.aspx).
 
 
 

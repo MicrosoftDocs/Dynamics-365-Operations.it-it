@@ -1,5 +1,5 @@
 ---
-title: Prendere uno sconto di cassa al periodo di sconto di cassa
+title: Applicare uno sconto di cassa fuori del periodo dello sconto di cassa
 description: Questo articolo fornisce due scenari che illustrano come applicare uno sconto di cassa anche se il pagamento viene effettuato al di fuori del periodo dello sconto di cassa.
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Prendere uno sconto di cassa al periodo di sconto di cassa
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Applicare uno sconto di cassa fuori del periodo dello sconto di cassa
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce due scenari che illustrano come applicare uno sconto di cassa anche se il pagamento viene effettuato al di fuori del periodo dello sconto di cassa.
 
-Il 28 giugno aprile, viene creata una fattura di 2,000.00 per il fornitore 3052. Per la fattura è disponibile uno sconto di cassa del 1 se la fattura viene pagata in 14 giorni.
+Il 28 giugno April crea una fattura per 2.000,00 per il fornitore 3052. La fattura ha uno sconto di cassa dell'1% se la fattura viene pagata entro 14 giorni.
 
 ## <a name="use-cash-discount-option--always"></a>Utilizzare le opzioni dello sconto di cassa = Sempre
 April crea un pagamento il 1° luglio, ovvero dopo la data dello sconto. April apre il modulo **Liquida transazioni** per visualizzare le transazioni che possono essere liquidate. 
 
-April contrassegna la fattura per il pagamento. Non viene applicato alcuno sconto di cassa, poiché il pagamento è successivo alla data dello sconto. Tuttavia, il fornitore ha concesso l'approvazione di aprile per essere comunque lo sconto di cassa. Di conseguenza, il mese di aprile viene modificato il valore ** sconto di cassa di utilizzo ** nel campo a ** sempre **.
+April contrassegna la fattura per il pagamento. Non viene applicato alcuno sconto di cassa, poiché il pagamento è successivo alla data dello sconto. Tuttavia, il fornitore ha concesso ad April l'approvazione per applicare comunque lo sconto di cassa. Di conseguenza, April cambia il valore del campo **Utilizzare lo sconto di cassa** in **Sempre**.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data sconto di cassa | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ Le informazioni di sconto vengono visualizzate nella parte inferiore della pagin
 | Utilizzare lo sconto di cassa            | Normale    |
 | Sconto di cassa applicato          | 0,00      |
 | Importo sconto di cassa da applicare | -5,05     |
+
+
 
 
 

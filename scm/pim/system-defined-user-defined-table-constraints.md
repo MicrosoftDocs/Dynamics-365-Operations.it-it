@@ -1,6 +1,6 @@
 ---
 title: Vincoli di tabella definiti dall&quot;utente e dal sistema
-description: In questo articolo viene descritto i due tipi di vincoli di tabella per i componenti in un modello di configurazione prodotto - definito dall&quot;utente e definito dal sistema. I vincoli di tabella rappresentano le matrici delle combinazioni di attributo consentite, in cui ogni riga definisce un insieme di valori di attributi possibili.
+description: 'In questo articolo vengono descritti i due tipi di vincoli di tabella per i componenti di un modello di configurazione prodotto: definiti dall&quot;utente e definiti dal sistema. I vincoli di tabella rappresentano le matrici delle combinazioni di attributo consentite, in cui ogni riga definisce un insieme di valori di attributi possibili.'
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Vincoli di tabella definiti dall'utente e dal sistema
 
-In questo articolo viene descritto i due tipi di vincoli di tabella per i componenti in un modello di configurazione prodotto - definito dall'utente e definito dal sistema. I vincoli di tabella rappresentano le matrici delle combinazioni di attributo consentite, in cui ogni riga definisce un insieme di valori di attributi possibili.
+[!include[banner](../includes/banner.md)]
+
+
+In questo articolo vengono descritti i due tipi di vincoli di tabella per i componenti di un modello di configurazione prodotto: definiti dall'utente e definiti dal sistema. I vincoli di tabella rappresentano le matrici delle combinazioni di attributo consentite, in cui ogni riga definisce un insieme di valori di attributi possibili.
 
 I vincoli di tabella rappresentano matrici delle combinazioni di attributi consentite per i componenti in un modello di configurazione del prodotto. Ogni riga nella tabella definisce un insieme di possibili valori degli attributi. È possibile dichiarare due tipi di vincoli in un modello di configurazione prodotto:
 
@@ -57,11 +60,13 @@ Un vincolo di tabella definito dal sistema crea un mapping dinamico tra un tipo 
 
 Quando si crea un vincolo di tabella definito dal sistema, si seleziona una tabella, è possibile scegliere la query da utilizzare e quindi si associano i tipi di attributo ai campi nella tabella selezionata. I tipi di campi devono corrispondere ai tipi di attributo.  
 
-Prima che un vincolo della tabella possa essere rese effettive in un modello di configurazione prodotto, il vincolo della tabella deve essere incluso in un vincolo su una dei componenti del modello. La procedura è creare un nuovo vincolo, selezionare il tipo di vincolo della tabella quindi selezionare la definizione del vincolo della tabella da utilizzare. Infine, tutti i campi del vincolo della tabella devono essere mappati agli attributi nel modello di configurazione prodotto.
+Prima che un vincolo di tabella possa essere reso effettivo in un modello di configurazione prodotto, deve essere incluso in un vincolo su uno dei componenti del modello. La procedura è creare un nuovo vincolo, selezionare il tipo di vincolo di tabella e quindi selezionare la definizione di vincolo di tabella da utilizzare. Infine, tutti i campi del vincolo della tabella devono essere mappati agli attributi nel modello di configurazione prodotto.
 
 <a name="see-also"></a>Vedere anche
 --------
 
 [Concetti chiave nei modelli configurazione prodotto](product-configuration-models.md)
+
+
 
 

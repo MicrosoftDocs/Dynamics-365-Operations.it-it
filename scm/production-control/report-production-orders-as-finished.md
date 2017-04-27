@@ -1,6 +1,6 @@
 ---
 title: Dichiarare finiti gli ordini di produzione
-description: "Il report finita è una fase di produzione. In questa fase, un prodotto finito viene dichiarata e spostato nell&quot;ordine di produzione al magazzino."
+description: "Dichiara finito è una fase di produzione. In questa fase, un prodotto finito viene dichiarato e spostato dall&quot;ordine di produzione all&quot;inventario."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="report-production-orders-as-finished"></a>Dichiarare finiti gli ordini di produzione
 
-Il report finita è una fase di produzione. In questa fase, un prodotto finito viene dichiarata e spostato nell'ordine di produzione al magazzino.
+[!include[banner](../includes/banner.md)]
+
+
+Dichiara finito è una fase di produzione. In questa fase, un prodotto finito viene dichiarato e spostato dall'ordine di produzione all'inventario.
 
 Quando una quantità di prodotti finiti viene dichiarata finita in un ordine di produzione, viene impostata su disponibile nel magazzino. Quantità parziali della quantità dell'ordine originariamente pianificata possono essere dichiarate finite. Quando si dichiarano finite delle quantità, è inoltre possibile dichiarare quantità di errore con una causale dell'errore associata. Quando l'ordine di produzione raggiunge la fase Dichiarato come finito significa che non vi sono più quantità da dichiarare nell'ordine di produzione.
 Anche le seguenti caratteristiche vengono associate al processo **Dichiara finito**:
@@ -44,5 +47,7 @@ La quantità viene dichiarata nell'ubicazione di uscita. Il lavoro magazzino vie
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Impostare un ordine di produzione su Dichiarato finito
 È possibile impostare un ordine di produzione su **Dichiara finito** attraverso la funzione di aggiornamento degli ordini di produzione standard o tramite i giornali di registrazione delle schede processo o delle schede cicli di lavorazione oppure attraverso il giornale **Dichiara finito**. È inoltre possibile aggiornare la fase a **Dichiara finito** tramite le pagine Termina schede processi e Dispositivo schede processo, quando si dichiara l'ultimo processo dell'ordine di produzione. Infine, è possibile abilitare l'opzione **Dichiara finito** come processo per la soluzione del dispositivo di magazzino palmare.  
+
+
 
 

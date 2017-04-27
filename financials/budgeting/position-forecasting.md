@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="position-forecasting"></a>Previsione della posizione
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Le spese relative ai lavoratori costituiscono spesso una grande proporzione dei costi di un'organizzazione. Le previsioni di posizione consentono di pianificare le spese e includerle nella pianificazione di budget.
 
 ## <a name="position-forecasting-in-budget-planning"></a>Previsione della posizione nella pianificazione del budget
 
-[di grafica![(]. /media/graphic-top.png)](. /media/graphic-top.png) 
+[![Graphic top](./media/graphic-top.png)](./media/graphic-top.png) 
 
-Posizionano di utilizzo di previsioni tre componenti principali immettere importi di budget accurati per le spese di posizione. Gli importi possono quindi essere introdotti nel piano di budget per i calcoli di budget. 
+La previsione della posizione utilizza tre componenti principali per fornire importi di budget accurati per le spese di posizione. Gli importi possono quindi essere introdotti nel piano di budget per i calcoli di budget. 
 
 Il componente principale è la **previsione di posizione**, che rappresenta tutti i dati sui costi correlati a una singola posizione. È possibile creare più versioni di una posizione prevista assegnando un diverso scenario del piano di budget a ciascuna versione. Più versioni consentono un approccio iterativo al budget e un confronto di scenari di simulazione. Ogni posizione prevista ha una posizione corrispondente in Risorse umane.
 
@@ -45,14 +48,14 @@ Un **gruppo di retribuzione** è un componente facoltativo di impostazione utili
 
 ### <a name="position-forecasting-processes"></a>Processi della previsione della posizione
 
-![[] (graphic1b. /media/graphic1b.png)](. /media/graphic1b.png) 
+[![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
 
-In un tipico processo per le previsioni di posizione, creare innanzitutto i componenti di impostazione (elementi dei costi in budget e gruppi retributiva). Le posizioni previste vengono quindi generate, in base alle posizioni esistenti. È quindi possibile apportare modifiche in qualsiasi momento. Ad esempio, è possibile aggiungere o terminare posizioni, modificare retribuzioni e benefit e aggiungere aumenti salariali. È possibile creare più versioni di una posizione prevista per agevolare il confronto tra diversi scenari di budget. In seguito, è possibile includere le posizioni previste nei piani di budget e riportare i costi delle posizioni previste come righe del piano di budget.
+In un tipico processo per la previsione di posizione, è necessario innanzitutto creare i componenti di impostazione (elementi di costo del budget e gruppi di retribuzione). Le posizioni previste vengono quindi generate, in base alle posizioni esistenti. È quindi possibile apportare modifiche in qualsiasi momento. Ad esempio, è possibile aggiungere o terminare posizioni, modificare retribuzioni e benefit e aggiungere aumenti salariali. È possibile creare più versioni di una posizione prevista per agevolare il confronto tra diversi scenari di budget. In seguito, è possibile includere le posizioni previste nei piani di budget e riportare i costi delle posizioni previste come righe del piano di budget.
 
 È possibile creare versioni aggiuntive di posizione prevista quando il piano di budget viene rivisto. Le nuove versioni forniscono una base per le revisioni.
 
 ## <a name="position-forecasting-setup"></a>Impostazione della previsione della posizione
-![[] (graphic2. /media/graphic2-1024x327.png)](. /media/graphic2.png)
+[![graphic2](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Elementi costo budget
 
@@ -64,9 +67,9 @@ Il calcolo dell'importo del costo dell'elemento del costo di budget utilizza le 
 
 Se l'elemento di costo è basato su una percentuale, è necessario specificare gli elementi di costo del budget utilizzati come base per il calcolo.
 
-**Example** 
+**Esempio** 
 
-Organizzazione di Jodi fornisce un rimborso spese di formazione del 5 della retribuzione base del dipendente. Jodi desidera creare un elemento di costo del budget per questo costo. Jodi crea un nuovo elemento di costo del budget e assegna **Benefit** come tipo di costo del budget.
+L'organizzazione in cui lavora Jodi prevede un rimborso spese di formazione pari al 5% della retribuzione di base di un dipendente. Jodi desidera creare un elemento di costo del budget per questo costo. Jodi crea un nuovo elemento di costo del budget e assegna **Benefit** come tipo di costo del budget.
 
 Jodi non vuole che i responsabili possano modificare l'importo del benefit. Di conseguenza, seleziona l'opzione **Non consentire modifiche costo** nel campo **Sostituzione posizione prevista**. L'organizzazione desidera che il costo venga assegnato ogni mese in ugual misura. Di conseguenza, Jodi seleziona **Trimestrale** nel campo **Metodo di allocazione**. 
 
@@ -82,18 +85,18 @@ La funzione di base dei gruppi di retribuzione è di assegnare un gruppo di arti
 
 I gruppi di retribuzione possono inoltre determinare le tariffe di reddito per una posizione prevista. È possibile impostare un gruppo per utilizzare una base oraria o una base dello stipendio annuale per calcolare i redditi della posizione prevista. Nella scheda **Tabelle scaglioni retributivi**, una griglia di retribuzione di tariffe retributive determina i redditi aggiunti a una posizione prevista, in base a un livello e un passaggio assegnati. Queste griglie possono essere basate su griglie di retribuzione esistenti in Risorse umane. In alternativa, è possibile creare nuove griglie di retribuzione per la pianificazione del budget. 
 
-Le date di validità e di scadenza nelle tabelle scaglioni retributivi consentono di modificare le tariffe in qualsiasi data. Questa funzionalità è utile quando un'unità di contrattazione ha negoziato un incremento generale a metà di un ciclo di budget. In questo caso, si modifica la data di scadenza della tabella esistente al giorno la data del tasso e nuove tabelle del tasso inizia alla nuova data. Quando si crea una nuova tabella di tariffa, se si seleziona ** creare una nuova griglia retributiva da una griglia esistente **, è possibile selezionare una tabella esistente del tasso delle risorse umane. Nella tabella di tariffa creata, l'opzione **Modifica in massa** consente di applicare una percentuale o un importo forfettario di incremento o diminuzione a tutte le tariffe nella griglia. 
+Le date di validità e di scadenza nelle tabelle scaglioni retributivi consentono di modificare le tariffe in qualsiasi data. Questa funzionalità è utile quando un'unità di contrattazione ha negoziato un incremento generale a metà di un ciclo di budget. In questo caso, si modifica la data di scadenza della tabella esistente al giorno nella data della modifica tariffa e si aggiunge una nuova tabella di tariffe che inizia alla nuova data. Quando si crea una nuova tabella di tariffe, se si seleziona **Crea una nuova griglia di retribuzione da una griglia esistente**, è possibile selezionare una tabella di tariffe esistente da Risorse umane. Nella tabella di tariffa creata, l'opzione **Modifica in massa** consente di applicare una percentuale o un importo forfettario di incremento o diminuzione a tutte le tariffe nella griglia. 
 
 I campi **Programmazione incentivi** e **Data di incentivo** nel gruppo di retribuzione vengono utilizzati quando è necessario creare incrementi di retribuzione poiché le posizioni vanno da un passaggio al successivo. Un incremento di retribuzione annuale è uno scenario tipico. La programmazione incentivi determina se utilizzare la data di ricorrenza annuale della posizione o una singola data comune per l'incremento di passaggio. La programmazione incentivi si applica a tutte le posizioni previste del gruppo di retribuzione. 
 
 L'elemento di costo selezionato nel gruppo di retribuzione viene utilizzato quando si creano redditi per le posizioni previste del gruppo, tra cui le retribuzioni di base e gli incrementi di passaggio. Il campo **Piano di retribuzione fissa** collega il gruppo di retribuzione a un piano di retribuzione fissa in Risorse umane. Questo collegamento consente di assegnare le informazioni di retribuzione fissa di un lavoratore a una posizione prevista e può pertanto realizzare il piano di budget per una pianificazione più accurata. Ricordare che la struttura della griglia di retribuzione (livelli e passaggi) per il gruppo di retribuzione deve corrispondere alla struttura del piano di retribuzione fissa. In caso contrario, il sistema non è viene correttamente collegato al gruppo di retribuzione e al piano di retribuzione fissa.
 
 ## <a name="creating-forecast-positions"></a>Creazione delle posizioni previste
-![[] (graphic3. /media/graphic3-1024x327.png)](. /media/graphic3.png)
+[![graphic3](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Creazione di posizioni previste per le posizioni esistenti
 
-Per la pianificazione del budget più accurata, è possibile creare posizioni di previsione utilizzando i dettagli da già presenti in Microsoft Dynamics 365 per le operazioni, indipendentemente dalla posizione immessa è attualmente o non completati. 
+Per una pianificazione più precisa del budget, è possibile creare posizioni previste utilizzando i dettagli delle posizioni esistenti in Microsoft Dynamics 365 for Operations, indipendentemente dalla posizione attualmente compilata o non compilata. 
 
 La funzione **Aggiungi posizioni esistenti** visualizza tutte le posizioni di un'organizzazione. Impostando la data** A partire dal**, è possibile modificare l'elenco di posizioni in modo che contenga le posizioni lavorative esistenti in una data nel passato o, più comunemente, in futuro, ad esempio, all'inizio del ciclo di budget successivo. Selezionare un processo di pianificazione del budget e uno scenario del piano di budget, selezionare le posizioni dall'elenco e quindi fare clic su **OK** per creare posizioni previste per le posizioni selezionate. Si noti che è possibile creare solo una posizione prevista per ogni posizione esistente in un processo di pianificazione del budget e in uno scenario. Tuttavia, è possibile creare versioni aggiuntive assegnando gli diversi scenari del piano di budget. 
 
@@ -103,11 +106,11 @@ Se un elemento di costo del budget è selezionato, l'importo annuale di retribuz
 
 Quando l'opzione è **Assegna gruppo di retribuzione** è impostata su **Sì**, se il lavoratore assegnato alla posizione ha un piano di retribuzione fissa in base al passaggio che è collegato a un gruppo di retribuzione (come descritto in precedenza), il livello e il passaggio del lavoratore vengono assegnati alla posizione prevista, insieme al gruppo di retribuzione. L'elemento di costo di budget utili non distribuito del gruppo di retribuzione viene aggiunto alla posizione prevista e vengono utilizzati la tariffa retributiva e il passaggio del gruppo di retribuzione. 
 
-Il valore dell'opzione **Assegna gruppo di retribuzione** ha la priorità rispetto all'impostazione dell'**assegnazione dell'elemento costo budget**. Due impostazioni possono essere utilizzate contemporaneamente. 
+Il valore dell'opzione **Assegna gruppo di retribuzione** ha la priorità rispetto all'impostazione dell'**assegnazione dell'elemento costo budget**. È possibile usare le due impostazioni contemporaneamente. 
 
-![[] (graphic4. /media/graphic4.png)](. /media/graphic4.png) 
+[![graphic4](./media/graphic4.png)](./media/graphic4.png) 
 
-Un'altra opzione è allocare una data di anniversario. La data selezionata (data di inizio rettificata, data di inizio lavoratore, data di inizio impiego o data di anzianità) del lavoratore assegnato verrà impostata come data di ricorrenza annuale della posizione prevista e utilizzata per informazioni e durante la generazione degli aumenti retributivi.
+Un'altra opzione consiste nell'assegnare una data di anniversario. La data selezionata (data di inizio rettificata, data di inizio lavoratore, data di inizio impiego o data di anzianità) del lavoratore assegnato verrà impostata come data di ricorrenza annuale della posizione prevista e utilizzata per informazioni e durante la generazione degli aumenti retributivi.
 
 ### <a name="creating-new-forecast-positions"></a>Creazione di nuove posizioni previste
 
@@ -118,7 +121,7 @@ Quando una posizione prevista è selezionata, selezionare **Copia posizione prev
 È inoltre possibile creare una posizione prevista completamente nuova. Selezionare un processo esistente e selezionare anche un processo di pianificazione del budget e uno scenario del piano di budget. È possibile aggiungere tutti gli altri dettagli da aggiungere. Anche in questo caso, in Risorse umane viene creata contemporaneamente una nuova posizione.
 
 ## <a name="working-with-forecast-positions"></a>Utilizzo delle posizioni previste
-![[] (graphic5. /media/graphic5-1024x327.png)](. /media/graphic5.png)
+[![graphic5](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Più versioni di una posizione prevista
 
@@ -138,9 +141,9 @@ Ad esempio, una riga dell'elemento di costo budget dal 1° gennaio 2017, al 30 g
 
 Le righe dell'elemento di costo budget devono essere ricalcolate quando il valore di FTE viene modificato nella posizione prevista. Le righe devono essere ricalcolate quando le date di attivazione o le date di pensionamento vengono modificate. Le modifiche alle date possono determinare un aggiornamento delle date di inizio e di fine dell'elemento di costo budget, che devono essere comprese tra le date della posizione prevista. Quando è necessario il ricalcolo, il pulsante **Ricalcola** diventa disponibile e viene visualizzato il messaggio "Richiede calcolo". Il ricalcolo viene anche richiesto se è necessario aggiungere o eliminare un elemento di costo budget.
 
-**Example** 
+**Esempio** 
 
-L'organizzazione viene considerando due opzioni per la riduzione del costo di una posizione Contabile. Un'opzione consiste nella conclusione della posizione durante l'anno. L'altra opzione è di modificare la posizione a tempo a ridotto per l'intero anno. Brad ha creato una posizione prevista per la posizione esistente del contabile in uno scenario di base. Copia questa posizione prevista di base nello scenario A, fissa la data di pensionamento al 31 maggio e ricalcola. Brad quindi copia la posizione prevista di base nello scenario B, modifica il valore FTE su **0,50** e ricalcola. Brad ora ha tre versioni, ciascuna delle quali ha totali di costo allineati rispetto alle relative opzioni.
+L'organizzazione sta valutando due opzioni per ridurre il costo di una posizione da contabile. Un'opzione consiste nella conclusione della posizione durante l'anno. L'altra opzione è di modificare la posizione a tempo a ridotto per l'intero anno. Brad ha creato una posizione prevista per la posizione esistente del contabile in uno scenario di base. Copia questa posizione prevista di base nello scenario A, fissa la data di pensionamento al 31 maggio e ricalcola. Brad quindi copia la posizione prevista di base nello scenario B, modifica il valore FTE su **0,50** e ricalcola. Brad ora ha tre versioni, ciascuna delle quali ha totali di costo allineati rispetto alle relative opzioni.
 
 #### <a name="assigning-a-compensation-group"></a>Assegnazione di un gruppo di retribuzione
 
@@ -160,9 +163,9 @@ Se si fa clic su **Genera incrementi** una seconda volta, il processo viene eseg
 
 Gli aggiornamenti alle posizioni previste possono essere provenienti da altre aree, ad esempio da un elemento di costo budget o da pagine di configurazione del gruppo di retribuzione. È inoltre possibile modificare le posizioni previste utilizzando il processo di aggiornamento in massa. 
 
-Due opzioni sono disponibili ** elemento dei costi in budget ** nell'impostazione: ** Aggiungere alle posizioni ** ** e i percorsi di aggiornamento **. L'opzione **Aggiungi a posizioni** aggiunge l'elemento costo budget alle posizioni previste selezionate. Se l'elemento è già assegnato a una posizione prevista, la posizione prevista viene ignorata. L'opzione **Aggiorna posizioni** applica i valori correnti (conto principale, percentuali, importo annuale e così via) alle posizioni previste selezionate. 
+Sono disponibili due opzioni nella pagina di configurazione **Elemento costo budget**: **Aggiungi a posizioni** e **Aggiorna posizioni**. L'opzione **Aggiungi a posizioni** aggiunge l'elemento costo budget alle posizioni previste selezionate. Se l'elemento è già assegnato a una posizione prevista, la posizione prevista viene ignorata. L'opzione **Aggiorna posizioni** applica i valori correnti (conto principale, percentuali, importo annuale e così via) alle posizioni previste selezionate. 
 
-Ogni processo ha una pagina analoga in cui è possibile selezionare le posizioni previste. La pagina **Aggiungi a posizioni** visualizza tutte le posizioni previste disponibili per la selezione, mentre la pagina **Aggiorna posizioni** visualizza solo le posizioni previste che hanno già l'elemento costo budget assegnato. (Di conseguenza, ** ubicazioni di aggiornamento ** le pagine restituisce modo verificare che previste le ubicazioni è già collegare l'elemento di costi). Muovete le ubicazioni di previsione per una griglia superiore a una griglia inferiore per includerli nell'aggiornamento. 
+Ogni processo ha una pagina analoga in cui è possibile selezionare le posizioni previste. La pagina **Aggiungi a posizioni** visualizza tutte le posizioni previste disponibili per la selezione, mentre la pagina **Aggiorna posizioni** visualizza solo le posizioni previste che hanno già l'elemento costo budget assegnato. Di conseguenza, la pagina **Aggiorna posizioni** offre un modo per individuare a quali posizioni di previsione è già stato associato l'elemento costo. È possibile spostare le posizioni di previsioni da una griglia superiore a una inferiore per includerle nell'aggiornamento. 
 
 Si noti che la funzione **Modifica date** nella scheda **Calcolo costi** modifica immediatamente le date di inizio e di fine dell'elemento costo budget nelle posizioni previste. Non sono disponibili opzioni di selezione. 
 
@@ -174,9 +177,9 @@ Il processo di ricalcolo viene automaticamente utilizzato in qualsiasi posizione
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Inserimento di posizioni previste nei piani di budget
 
-![[] (graphic6. /media/graphic6-1024x327.png)](. /media/graphic6.png)
+[![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
-Lo scopo di creare e della modifica delle ubicazioni programmate è di aggiungerle ai piani di budget, in modo che i piani di budget sono inclusi gli importi di budget più accurati. Sono disponibili due metodi per l'aggiunta di posizioni previste al piano di budget. È possibile utilizzare un processo di creazione o un processo di selezione nel piano di budget.
+Lo scopo della creazione e della modifica delle posizioni di previsione consiste nell'aggiungerle ai piani di budget, in modo che i piani di budget includano importi budget più accurati. Sono disponibili due metodi per l'aggiunta di posizioni previste al piano di budget. È possibile utilizzare un processo di creazione o un processo di selezione nel piano di budget.
 
 ### <a name="generating-a-budget-plan-from-forecast-positions"></a>Generazione di un piano di budget da posizioni previste
 
@@ -215,5 +218,7 @@ Per il processo di generazione e della procedura di selezione, la data di inizio
 Le righe di piano di budget mostrano l'origine degli importi di budget (numero posizione prevista), ma non sono collegate. Di conseguenza, le modifiche alla posizione prevista non vengono visualizzate nella riga del piano di budget e le modifiche alla riga del piano di budget vengono visualizzate nella posizione prevista. Se si modifica una posizione prevista e si desidera che gli aggiornamenti vengano inclusi in un piano del budget, è necessario riportare la posizione prevista nel piano. Tuttavia, si ricordi che il processo rimuove tutte le righe a cui la posizione di previsione è assegnata. Di conseguenza, tutte le modifiche apportate alle righe verranno rimosse. 
 
 Per visualizzare in quali piani di budget una posizione prevista è stata inclusa, è possibile generare il report **Posizioni previste per piano di budget**. In alternativa, nella posizione prevista è possibile aprire il riquadro Dettaglio informazioni **Piani di budget associati** per visualizzare i piani.
+
+
 
 

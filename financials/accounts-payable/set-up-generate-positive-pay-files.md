@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Impostare e generare file pagamenti sicuri
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo spiega come impostare un pagamento sicuro e generare file pagamenti sicuri. 
 
 Impostare il pagamento sicuro per generare l'elenco elettronico degli assegni che viene fornito alla banca. Quando si presenta un assegno alla banca, la banca lo confronta con l'elenco degli assegni. Se l'assegno corrisponde a uno presente nell'elenco, la banca lo liquida. Se l'assegno non corrisponde a un assegno nell'elenco, la banca lo trattiene per esaminarlo.
 
 ## <a name="security-for-positive-pay-files"></a>Sicurezza dei file pagamenti sicuri
-I file pagamenti sicuri possono contenere dati riservati sui beneficiari e sugli importi dell'assegno. Di conseguenza, assicurarsi di utilizzare le misure di sicurezza appropriate dalla generazione dei file fino alla loro ricezione da parte della banca. I file pagamenti sicuri vengono scaricati nel percorso specificato dal Web browser. Poiché i file di positività della retribuzione possono contenere informazioni sensibili, è importante che solo gli utenti autorizzati possano accedere per generare e visualizzare queste informazioni in Microsoft Dynamics 365 per le operazioni. Utilizzare la seguente tabella per determinare i privilegi necessari.
+I file pagamenti sicuri possono contenere dati riservati sui beneficiari e sugli importi dell'assegno. Di conseguenza, assicurarsi di utilizzare le misure di sicurezza appropriate dalla generazione dei file fino alla loro ricezione da parte della banca. I file pagamenti sicuri vengono scaricati nel percorso specificato dal Web browser. Poiché i file pagamenti sicuri possono contenere informazioni riservate, è importante che solo gli utenti autorizzati abbiano accesso per generare e visualizzare queste informazioni in Microsoft Dynamics 365 for Operations. Utilizzare la seguente tabella per determinare i privilegi necessari.
 
 <table>
 <colgroup>
@@ -156,5 +159,7 @@ Dopo aver pagato gli assegni elencati in un file pagamenti sicuri, viene visuali
 
 ## <a name="recall-a-positive-pay-file"></a>Richiamare un file pagamenti sicuri
 Per modificare un file pagamenti sicuri, è possibile richiamarlo. Nella pagina **Riepilogo file pagamenti sicuri**, selezionare un file pagamenti sicuri con stato **Creato**, quindi selezionare l'azione **Immetti conferma**. Per ogni assegno nel file pagamenti sicuri, viene reimpostato il campo che indica se l'assegno è stato incluso in un file pagamenti sicuri. È quindi possibile creare un nuovo file pagamenti sicuri che includa l'assegno richiamato.
+
+
 
 

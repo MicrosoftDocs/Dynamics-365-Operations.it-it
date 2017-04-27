@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-manual-task-in-a-workflow"></a>Configurare un'attività manuale in un flusso di lavoro
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento viene descritto come configurare le proprietà per un'attività manuale.
 
 Per configurare un'attività manuale, nell'editor flusso di lavoro fare clic con il pulsante destro del mouse sull'attività, quindi scegliere **Proprietà** per aprire la pagina **Proprietà**. Per configurare le proprietà dell'attività manuale, attenersi alle procedure indicate di seguito.
@@ -124,10 +127,10 @@ Per specificare gli utenti a cui assegnare l'attività manuale, effettuare le op
     </tr>
     <tr class="even">
     <td>Utente</td>
-    <td>Microsoft Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Microsoft Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong> Nell'elenco sono inclusi l'eventuale Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui assegnare l'attività, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui assegnare l'attività, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -146,7 +149,7 @@ Per specificare gli utenti a cui assegnare l'attività manuale, effettuare le op
     <li>Nell'elenco <strong>Nome coda</strong> selezionare <strong>Coda condizionale</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Nota:</strong> questa opzione viene utilizzato solo per alcuni flussi di lavoro, ad esempio la gestione dei casi.</td>
+    <strong>Nota:</strong> questa opzione viene utilizzata solo per alcuni flussi di lavoro, ad esempio la gestione dei casi.</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ Se un utente non completa l'attività manuale nel tempo prestabilito, l'attivit�
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong> Nell'elenco sono inclusi l'eventuale Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui riassegnare l'attività, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui riassegnare l'attività, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Se un utente non completa l'attività manuale nel tempo prestabilito, l'attivit�
 6.  Se gli utenti nel percorso di riassegnazione non completano l'attività nel tempo prestabilito, verrà eseguita un'azione sull'attività dal sistema. Per specificare l'azione presa dal sistema, selezionare la riga **Azione**, quindi nella scheda **Termina azione** selezionare un'opzione.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Specificare quando il sistema deve eseguire automaticamente un'azione sull'attività
-È possibile configurare il sistema in modo che venga eseguita automaticamente un'azione sull'attività, se vengono soddisfatte specifiche condizioni. Si supponga, ad esempio, che un'attività richieda che un membro del reparto responsabile delle note spese verifichi le ricevute inviate insieme a una nota spese. In base alle politiche aziendali, deve essere eseguita se l'importo totale della nota spese è maggiore di USD 100. In questo scenario, è possibile configurare il sistema in modo che l'attività come ** completare ** quando l'importo totale sia inferiore a 100. Per specificare quando il sistema deve eseguire automaticamente un'azione sull'attività manuale, attenersi alla procedura indicata di seguito.
+È possibile configurare il sistema in modo che venga eseguita automaticamente un'azione sull'attività, se vengono soddisfatte specifiche condizioni. Si supponga, ad esempio, che un'attività richieda che un membro del reparto responsabile delle note spese verifichi le ricevute inviate insieme a una nota spese. In base alle politiche aziendali, tale attività deve essere eseguita se l'importo totale della nota spese è maggiore di USD 100. In questo scenario è possibile configurare il sistema in modo che l'attività venga contrassegnata automaticamente come **Completa** quando l'importo totale è inferiore a 100. Per specificare quando il sistema deve eseguire automaticamente un'azione sull'attività manuale, attenersi alla procedura indicata di seguito.
 
 1.  Nel riquadro sinistro fare clic su **Azioni automatiche**.
 2.  Selezionare la casella di controllo **Attiva azioni automatiche**.
@@ -308,10 +311,10 @@ Se un utente non completa l'attività manuale nel tempo prestabilito, l'attivit�
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong> Nell'elenco sono inclusi l'eventuale Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ Se è necessario completare l'attività manuale in un periodo di tempo specifico
 1.  Nel riquadro sinistro, fare clic sull'icona **Impostazioni avanzate**.
 2.  Selezionare la casella di controllo **Imposta un limite di tempo per l'elemento del flusso di lavoro**.
 3.  Nel campo **Durata** specificare il momento in cui completare l'attività. Consente di selezionare una delle opzioni indicate di seguito.
-    -   ** Le ore ** di immettere il numero di ore che l'attività deve essere completata in. Selezionare quindi il calendario utilizzato dall'organizzazione e immettere informazioni sulla settimana lavorativa dell'organizzazione.
-    -   ** Giorni ** di immettere il numero di giorni che l'attività deve essere completata in. Selezionare quindi il calendario utilizzato dall'organizzazione e immettere informazioni sulla settimana lavorativa dell'organizzazione.
+    -   **Ore**: immettere il numero di ore entro cui deve essere completata l'attività. Selezionare quindi il calendario utilizzato dall'organizzazione e immettere informazioni sulla settimana lavorativa dell'organizzazione.
+    -   **Giorni**: immettere il numero di giorni entro cui deve essere completata l'attività. Selezionare quindi il calendario utilizzato dall'organizzazione e immettere informazioni sulla settimana lavorativa dell'organizzazione.
     -   **Settimane**: immettere il numero di settimane entro cui deve essere completata l'attività.
     -   **Mesi**: selezionare il giorno e la settimana entro cui deve essere completata l'attività. È ad esempio possibile scegliere di completare il processo di approvazione entro il venerdì della terza settimana del mese.
     -   **Anni**: selezionare il giorno, la settimana e il mese entro cui deve essere completata l'attività. È ad esempio possibile scegliere che l'attività venga completata entro il venerdì della terza settimana di dicembre.
@@ -343,6 +346,8 @@ Quando l'attività manuale viene assegnata a un utente, quest'ultimo dovrà eseg
 5.  Selezionare la casella di controllo **Delega** se si desidera consentire all'utente di assegnare l'attività a un altro utente.
 6.  Selezionare la casella di controllo **Riassegna** se si desidera consentire all'utente di riassegnare l'attività a un altro utente nella coda di elementi di lavoro.
 7.  Selezionare la casella di controllo **Rilascio** se si desidera consentire all'utente di riassegnare l'attività alla coda di elementi di lavoro. Un altro utente potrà quindi completare l'attività.
+
+
 
 
 

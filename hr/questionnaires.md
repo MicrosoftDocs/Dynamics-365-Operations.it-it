@@ -1,6 +1,6 @@
 ---
 title: Questionari
-description: "In questo argomento sono riportate le informazioni generali sui questionari e collegamenti a informazioni più dettagliate. Un questionario è un insieme di domande utilizzate per raccogliere informazioni per vari di scopi. È possibile progettare, creare, distribuire e completare i questionari e quindi analizzarne i risultati."
+description: "In questo argomento vengono fornite informazioni generali sui questionari e collegamenti a informazioni più dettagliate. Un questionario è un insieme di domande utilizzate per raccogliere informazioni per vari di scopi. È possibile progettare, creare, distribuire e completare i questionari e quindi analizzarne i risultati."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Questionari
 
-In questo argomento sono riportate le informazioni generali sui questionari e collegamenti a informazioni più dettagliate. Un questionario è un insieme di domande utilizzate per raccogliere informazioni per vari di scopi. È possibile progettare, creare, distribuire e completare i questionari e quindi analizzarne i risultati. 
+[!include[banner](includes/banner.md)]
 
-È possibile personalizzare un questionario in base ai requisiti specifici utilizzando varie funzioni disponibili in Microsoft Dynamics 365 per le operazioni. Di seguito sono riportati alcuni esempi di utilizzo dei questionari:
+
+In questo argomento vengono fornite informazioni generali sui questionari e collegamenti a informazioni più dettagliate. Un questionario è un insieme di domande utilizzate per raccogliere informazioni per vari di scopi. È possibile progettare, creare, distribuire e completare i questionari e quindi analizzarne i risultati. 
+
+È possibile personalizzare un questionario per soddisfare esigenze specifiche utilizzando diverse funzioni disponibili in Microsoft Dynamics 365 for Operations. Di seguito sono riportati alcuni esempi di utilizzo dei questionari:
 
 -   Verificare le competenze professionali di dipendenti e candidati.
 -   Valutare se i partecipanti ai corsi hanno imparato il materiale del corso.
@@ -42,9 +45,9 @@ Nella seguente tabella vengono forniti i collegamenti alle informazioni sulle at
 
 | Argomento| descrizione|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | In questo articolo sono riportate informazioni su cine progettare un questionario. Il processo di progettazione include impostare i prerequisiti, le risposte e le domande quindi combinare questi elementi in un questionario. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | In questo articolo sono presenti informazioni su come distribuire un questionario agli intervistati e come completare i questionari.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | In questo articolo vengono riportate informazioni sulla visualizzazione e la valutazione dei risultati generati dai questionari completati.                                                                                        |
+| [Progettare un questionario](design-questionnaires.md)  | In questo articolo sono riportate informazioni su cine progettare un questionario. Il processo di progettazione include impostare i prerequisiti, le risposte e le domande quindi combinare questi elementi in un questionario. |
+| [Distribuire e completare un questionario](distribute-questionnaires.md)  | In questo articolo sono presenti informazioni su come distribuire un questionario agli intervistati e come completare i questionari.                                                                       |
+| [Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md) | In questo articolo vengono riportate informazioni sulla visualizzazione e la valutazione dei risultati generati dai questionari completati.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ Nella seguente tabella vengono forniti i collegamenti alle informazioni sulle at
 
 [Distribuzione e completamento di questionari](distribute-questionnaires.md)
 
-[Visualizzazione e valutare i risultati dei questionari evaluate-questionnaire-results.md] ()
+[Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md)
+
+
 
 

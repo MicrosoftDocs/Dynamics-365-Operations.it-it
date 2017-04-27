@@ -1,6 +1,6 @@
 ---
-title: "Impostazione della contabilità interaziendale"
-description: "In questo argomento viene descritto come impostare la contabilità interaziendale per consentire l&quot;utilizzo dei giornali di registrazione interaziendale per le allocazioni contabili e i giornali di registrazione finanziari, ad esempio i giornali di registrazione giornalieri, i giornali di registrazione fatture fornitore e giornali di registrazione pagamenti."
+title: "Configurazione della contabilità interaziendale"
+description: "Questo articolo illustra come impostare la contabilità interaziendale in modo da poter utilizzare i giornali di registrazione interaziendali per allocazioni contabili e giornali di registrazione finanziari, ad esempio giornali di registrazione giornalieri, giornali di registrazione fatture fornitore e giornali di registrazione pagamenti."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,25 +25,30 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="intercompany-accounting-setup"></a>Impostazione della contabilità interaziendale
+# <a name="intercompany-accounting-setup"></a>Configurazione della contabilità interaziendale
 
-In questo argomento viene descritto come impostare la contabilità interaziendale per consentire l'utilizzo dei giornali di registrazione interaziendale per le allocazioni contabili e i giornali di registrazione finanziari, ad esempio i giornali di registrazione giornalieri, i giornali di registrazione fatture fornitore e giornali di registrazione pagamenti.
+[!include[banner](../includes/banner.md)]
 
-I giornali di registrazione interaziendale possono essere create in numerosi scenari, ad esempio per i giornali di registrazione giornalieri, i giornali di registrazione fatture fornitore, le allocazioni contabili e i pagamenti centralizzati. Per attivare questi scenari, è necessario impostare la contabilità interaziendale.
 
-## <a name="define-main-accounts"></a>Definire i conti principali
-Innanzitutto, è necessario creare i conti principali interaziendali da utilizzare per le voci contabili Dovuto a e Dovuto da. È consigliabile utilizzare conti principali univoci per ciascuna società in modo da semplificare la riconciliazione e l'eliminazione di voci contabili interaziendali. Se si utilizza una dimensione del partner commerciale o corrispondenti per identificare la parte interaziendale, è possibile definire la dimensione come fisse sul conto principale definito nella contabilità interaziendale. Quando si impostano i conti principali, è necessario impostare ** tipo di conto principale ** il campo su ** lo stato patrimoniale ** ** conti principali ** nella pagina.
+Questo articolo illustra come impostare la contabilità interaziendale in modo da poter utilizzare i giornali di registrazione interaziendali per allocazioni contabili e giornali di registrazione finanziari, ad esempio giornali di registrazione giornalieri, giornali di registrazione fatture fornitore e giornali di registrazione pagamenti.
 
-## <a name="define-journal-names"></a>Consente di definire i nomi di giornale di registrazione
-Quindi, è necessario definire un nome di giornale di registrazione. Impostare ** tipo di giornale di registrazione ** il campo su ** giornaliero ** ** nomi di giornale di registrazione ** nella pagina. È consigliabile utilizzare un nome di giornale di registrazione specifico per contabilità interaziendale.
+È possibile creare giornali di registrazione interaziendali in diversi scenari, ad esempio per giornali di registrazione giornalieri, giornali di registrazione fatture fornitore, allocazioni della contabilità generale e pagamenti centralizzati. Per attivare questi scenari, è necessario impostare la contabilità interaziendale.
 
-## <a name="define-intercompany-accounting-setup"></a>Definire l'impostazione della contabilità interaziendale
-** Contabilità interaziendale ** la pagina viene utilizzata per creare coppie le persone giuridiche che potrà essere gestito tra loro. L'impostazione della contabilità interaziendale viene diviso, in modo tale che l'impostazione sia visibile da tutte le persone giuridiche. Quando si crea una nuova coppia della persona giuridica, assicurarsi che sia presente della persona giuridica è definita come società di origine rispetto alla società di destinazione. Durante l'immissione di transazioni interaziendali, la transazione deve determinare la persona giuridica è iniziale o producente la transazione. Ad esempio, la contabilità interaziendale è impostata per USMF (nascere) e USSI destinazione (). Se un utente è attivo in USSI e immette una transazione interaziendale con USMF, la transazione non registrata nella contabilità interaziendale viene definita solo per USMF che è l'iniziatore. Se una società può produrre una transazione, sarà necessario creare una seconda coppia della persona giuridica per l'impostazione reciproca. 
+## <a name="define-main-accounts"></a>Definire conti principali
+Innanzitutto, è necessario creare i conti principali interaziendali da utilizzare per le voci contabili Dovuto a e Dovuto da. È consigliabile utilizzare conti principali univoci per ciascuna società in modo da semplificare la riconciliazione e l'eliminazione di voci contabili interaziendali. Se si utilizza una dimensione di controparte o partner commerciale per identificare la parte interaziendale, è possibile definire tale dimensione come fissa nel conto principale definito nella contabilità interaziendale. Quando si impostano i conti principali, è necessario impostare il campo **Tipo di conto principale** sul valore **Stato patrimoniale** nella pagina **Conti principali**.
 
-Selezionare ** conto in Dare ** (da) e ** conto in Avere dovuto (**) sia per la nascita della persona giuridica di destinazione. Consente di definire ** nome di giornale di registrazione ** verrà utilizzato quando viene creata la transazione nella società di destinazione. Il giornale di registrazione per la società di origine è già noto che ha selezionato dall'utente durante la creazione della transazione interaziendale. 
+## <a name="define-journal-names"></a>Definire nomi di giornali di registrazione
+Quindi, è necessario definire un nome di giornale di registrazione. Impostare il campo **Tipo di giornale di registrazione** sul valore **Giornaliero** nella pagina **Nomi giornale di registrazione**. È consigliabile utilizzare un nome di giornale di registrazione specifico per contabilità interaziendale.
 
-Infine, selezionare quali persona giuridica riceverà gli importi di supporto rappresentanti, ad esempio lo sconto di cassa o i profitti realizzati/perdite per i pagamenti centralizzati. 
+## <a name="define-intercompany-accounting-setup"></a>Definire la configurazione della contabilità interaziendale
+La pagina **Contabilità interaziendale** la pagina viene utilizzata per creare coppie di persone giuridiche che possono eseguire transazioni tra loro. La configurazione della contabilità interaziendale è condivisa in modo che sia visibile all'interno di tutte le persone giuridiche. Quando si crea una nuova coppia di persone giuridiche, assicurarsi di conoscere quale persona giuridica è definita come società di origine rispetto alla società di destinazione. Durante l'immissione di transazioni interaziendali, la transazione determina quale persona giuridica inizia o dà origine alla transazione. Ad esempio, la contabilità interaziendale è impostata per USMF (di origine) e USSI (di destinazione). Se un utente è attivo in USSI e immette una transazione interaziendale con USMF, la transazione non verrà registrata perché la contabilità interaziendale viene definita solo se USMF è la società di origine. Se entrambe le società possono dare origine a una transazione, sarà necessario creare una seconda coppia di persone giuridiche per la configurazione reciproca. 
 
-Relazione reciproca può essere impostata in modo semplice ** la contabilità interaziendale ** nella pagina utilizzando ** creare una relazione reciproca ** il pulsante dopo la prima coppia della persona giuridica viene creata. Quando la coppia reciproca viene creata, le informazioni relative alla società di destinazione verranno copiate nella società di origine e viceversa. Il giornale di registrazione definito per la società di destinazione rimarrà. La maggior parte delle organizzazioni utilizzano la stessa convenzione di denominazione per i nomi di giornale di registrazione, in modo che il nome del giornale di registrazione è lo stesso. Se il nome di giornale di registrazione è diverso, un avviso sembrerà nel campo la registrazione del giornale di registrazione non sono presenti e un giornale di registrazione diverso può essere selezionato.
+Selezionare **Conto in Dare (dovuto da)** e **Conto in Avere (dovuto a)** per entrambe le persone giuridiche di origine e di destinazione. Definire il **Nome giornale di registrazione** che verrà utilizzato quando viene creata la transazione nella società di destinazione. Il giornale di registrazione per la società di origine è già noto perché è stato selezionato dall'utente durante la creazione della transazione interaziendale. 
+
+Infine, selezionare la persona giuridica che riceverà la contabilità per gli importi di supporto, ad esempio come sconto di cassa o le perdite/i profitti realizzati per i pagamenti centralizzati. 
+
+Una relazione reciproca può essere configurata in modo semplice nella pagina **Contabilità interaziendale** utilizzando il pulsante **Crea relazione reciproca** dopo la creazione della prima coppia di persone giuridiche. Quando la coppia reciproca viene creata, le informazioni relative alla società di destinazione vengono copiate nella società di origine e viceversa. Il giornale di registrazione definito per la società di destinazione rimarrà. La maggior parte delle organizzazioni utilizza la stessa convenzione di denominazione per i propri nomi di giornale di registrazione, in modo che il nome del giornale di registrazione sia lo stesso. Se il nome del giornale di registrazione è diverso, verrà visualizzato un avviso nel campo per segnalare che il giornale di registrazione non esiste e che è possibile selezionare un giornale di registrazione diverso.
+
+
 
 

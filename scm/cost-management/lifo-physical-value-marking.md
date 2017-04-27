@@ -55,16 +55,16 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 -   Le operazioni di magazzino sono rappresentate da frecce verticali.
 -   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 -   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore della transazione di magazzino è specificato il prezzo Quantity@Unit di formato.
+-   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unit di prezzo.
 -   Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 -   Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 -   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
+-   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
 -   Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
 -   Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
 
 ## <a name="lifo-with-the-include-physical-value-option"></a>LIFO con opzione Includi valore fisico
-** Se Includi valore fisico ** la casella di controllo è selezionata per un articolo ** gruppi di modelli di articoli ** nella pagina, verrà utilizzato le transazioni in entrata fisiche e finanziarie per calcolare il prezzo di costo medio corrente. Dove applicabile, alla transazione in uscita aggiornata fisicamente verranno anche apportate dal sistema le rettifiche necessarie. Se la casella di controllo **Includi valore fisico** è deselezionata, la chiusura dell'inventario con il modello inventariale LIFO consentirà di effettuare le liquidazioni solo per le transazioni aggiornate finanziariamente. La figura di seguito mostra le transazioni:
+Se la casella di controllo **Includi valore fisico** è selezionata per un articolo nella pagina **Gruppi di modelli di articoli**, il sistema utilizza entrambe le transazioni di entrata fisica e finanziaria per calcolare il prezzo del costo medio corrente. Dove applicabile, alla transazione in uscita aggiornata fisicamente verranno anche apportate dal sistema le rettifiche necessarie. Se la casella di controllo **Includi valore fisico** è deselezionata, la chiusura dell'inventario con il modello inventariale LIFO consentirà di effettuare le liquidazioni solo per le transazioni aggiornate finanziariamente. La figura di seguito mostra le transazioni:
 
 -   1a. Entrata fisica in magazzino per una quantità pari a 1 al costo unitario di 10,00 EUR.
 -   1b. Entrata finanziaria in magazzino per una quantità pari a 1 al costo unitario di 10,00 EUR.
@@ -78,16 +78,16 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 -   6a. Uscita fisica da magazzino per una quantità pari a 1 al prezzo di costo unitario di 21,25 EUR.
 -   7. Viene eseguita la chiusura inventario. In base al metodo LIFO, l'ultima transazione in uscita verrà rettificata o compensata a fronte dell'ultima entrata aggiornata.
 
-La transazione 6a verrà rettificata secondo la transazione in entrata 4b. Transazioni non verranno compensate dal sistema, perché l'entrata viene aggiornata fisicamente ma non finanziariamente. Verrà in realtà effettuata solo una rettifica di 8,75 EUR per la transazione in uscita fisica. La transazione 5b verrà rettificata secondo la transazione in entrata fisica 3a. Il sistema non compenserà tali transazioni perché non sono state entrambe aggiornate finanziariamente. Verrà in realtà effettuata solo una rettifica di -3,75 EUR per la transazione in uscita. Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 20,00 EUR. La seguente illustrazione mostra gli effetti del modello inventariale LIFO in questa serie di transazioni quando viene utilizzata l'opzione **Includi valore fisico**. ![LIFO con Includi valore fisico](./media/lifowithincludephysicalvalue.gif) **Chiave del diagramma**
+La transazione 6a verrà rettificata secondo la transazione in entrata 4b. Il sistema non compenserà tali transazioni perché l'entrata viene aggiornata solo fisicamente e non finanziariamente. Verrà in realtà effettuata solo una rettifica di 8,75 EUR per la transazione in uscita fisica. La transazione 5b verrà rettificata secondo la transazione in entrata fisica 3a. Il sistema non compenserà tali transazioni perché non sono state entrambe aggiornate finanziariamente. Verrà in realtà effettuata solo una rettifica di -3,75 EUR per la transazione in uscita. Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 20,00 EUR. La seguente illustrazione mostra gli effetti del modello inventariale LIFO in questa serie di transazioni quando viene utilizzata l'opzione **Includi valore fisico**. ![LIFO con Includi valore fisico](./media/lifowithincludephysicalvalue.gif) **Chiave del diagramma**
 
 -   Le operazioni di magazzino sono rappresentate da frecce verticali.
 -   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 -   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore della transazione di magazzino è specificato il prezzo Quantity@Unit di formato.
+-   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unit di prezzo.
 -   Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 -   Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 -   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
+-   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
 -   Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
 -   Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
 
@@ -111,11 +111,11 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 -   Le operazioni di magazzino sono rappresentate da frecce verticali.
 -   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 -   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore della transazione di magazzino è specificato il prezzo Quantity@Unit di formato.
+-   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unit di prezzo.
 -   Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 -   Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 -   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
+-   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
 -   Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
 -   Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
 

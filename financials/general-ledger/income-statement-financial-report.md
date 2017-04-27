@@ -1,6 +1,6 @@
 ---
 title: Report finanziario conto economico
-description: In questo articolo viene descritto il report predefinito per i conti. Sono descritti i blocchi predefiniti associati al report.
+description: In questo articolo viene descritto il report predefinito per i conti economici. Sono descritti inoltre i blocchi predefiniti associati a questo report.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Report finanziario conto economico
 
-In questo articolo viene descritto il report predefinito per i conti. Sono descritti i blocchi predefiniti associati al report. 
+[!include[banner](../includes/banner.md)]
+
+
+In questo articolo viene descritto il report predefinito per i conti economici. Sono descritti inoltre i blocchi predefiniti associati a questo report. 
 
 <a name="default-income-statement-report"></a>Report predefinito conto economico
 -------------------------------
@@ -61,10 +64,12 @@ Le definizioni di colonna contengono i diversi tipi di colonna per fornire diver
 <a name="see-also"></a>Vedere anche
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Creazione di report finanziari](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Visualizzare report finanziari](view-financial-reports.md)
 
-[] Blog finanziario di Dynamics Reportign (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog sui report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

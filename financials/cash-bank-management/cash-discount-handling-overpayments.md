@@ -1,5 +1,5 @@
 ---
-title: Gestione degli sconti di cassa per le eccedenze
+title: Gestione degli sconti di cassa per le eccedenze di pagamento
 description: Questo articolo fornisce gli scenari che mostrano come un pagamento viene gestito quando il cliente ha uno sconto di cassa ma paga anche un importo superiore al dovuto.
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Gestione degli sconti di cassa per le eccedenze
+# <a name="handling-cash-discounts-for-overpayments"></a>Gestione degli sconti di cassa per le eccedenze di pagamento
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce gli scenari che mostrano come un pagamento viene gestito quando il cliente ha uno sconto di cassa ma paga anche un importo superiore al dovuto. 
 
@@ -133,6 +136,8 @@ L'importo dello sconto di cassa viene ridotto da 10,50 a 10,00. Il pagamento e l
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Sconto di cassa (il campo **Conto principale per sconti cliente** nella pagina **Sconti di cassa**) | 10,50        |               |
 | Contabilità clienti                                                                              |              | 10,50         |
+
+
 
 
 

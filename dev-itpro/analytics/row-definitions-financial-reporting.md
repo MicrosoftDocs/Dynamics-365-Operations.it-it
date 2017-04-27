@@ -45,7 +45,7 @@ Una definizione di riga è un componente di report, o blocco predefinito, che sp
 Una definizione di riga può contenere fino a 20.000 righe di dimensione finanziaria e includere le seguenti informazioni:
 
 -   Testo descrittivo che aggiunge significato al report creando intestazioni di sezione, righe e spazi, ad esempio **Contante** o **Totale ricavi**.
--   Collegamenti ai dati finanziari, che possono includere valori di dimensione in Microsoft Dynamics 365 per le operazioni ** nota: ** È possibile impostare una definizione di riga per il recupero ogni volta che i dati dal sistema di dimensioni finanziarie che viene generato il report.
+-   Collegamenti ai dati finanziari, che possono includere valori di dimensione in Microsoft Dynamics 365 for Operations **Nota:** È possibile impostare una definizione di riga per il pull dei dati dal sistema di dimensioni finanziarie ogni volta che viene generato il report.
 -   Totali e formule di riga basati sui dati finanziari collegati
 
 In genere, ogni riga in una definizione contiene uno dei seguenti tipi di informazioni:
@@ -64,7 +64,7 @@ Una dimensione è un'intersezione di dati e valori. È possibile raggruppare dat
 
 | Opzione                | Descrizione                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dimensione             | Il modello che identifica la dimensione da aggiungere alla definizione di riga. Questo schema include una e commerciale (&) o il cancelletto (\#) per ciascuna posizione delle dimensioni. In genere, utilizzare la e commerciale per la dimensione del conto principale e il cancelletto per le altre dimensioni. |
+| Dimensione             | Il modello che identifica la dimensione da aggiungere alla definizione di riga. Questo modello contiene una e commerciale (&) o un cancelletto  (\#) per ogni posizione nelle dimensioni. In genere, utilizzare la e commerciale per la dimensione del conto principale e il cancelletto per le altre dimensioni. |
 | Inizio intervallo dimensioni | Il primo valore della dimensione da aggiungere alla definizione di riga.                                                                                                                                                                                                                 |
 | Fine intervallo dimensioni   | L'ultimo valore della dimensione da aggiungere alla definizione di riga.                                                                                                                                                                                                                  |
 
@@ -73,9 +73,9 @@ Per aggiungere le dimensioni a una definizione di riga, effettuare i passaggi se
 1.  In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
 2.  Nel menu **Modifica** fare clic su **Inserire le righe delle dimensioni**.
 3.  Nella finestra di dialogo **Inserisci righe da dimensioni **, nella riga **Dimensioni**, selezionare la cella per la dimensione da trasferire alla definizione di riga e fare clic su **Tutti &&&**.
-4.  Per limitare la definizione di riga a un intervallo specifico di valori di dimensione, immettere il valore di dimensione iniziale nella cella **Inizio intervallo dimensioni** e specificare il valore finale della dimensione nella cella **Fine intervallo dimensioni**. Per includere tutti i valori della dimensione selezionata, lasciare vuote le celle. ** Nota: ** I caratteri jolly (? o\* ) negli intervalli di dimensioni potrebbero non restituire tutti i risultati desiderati, a seconda del database ERP regole di confronto applicate ai dati.
+4.  Per limitare la definizione di riga a un intervallo specifico di valori di dimensione, immettere il valore di dimensione iniziale nella cella **Inizio intervallo dimensioni** e specificare il valore finale della dimensione nella cella **Fine intervallo dimensioni**. Per includere tutti i valori della dimensione selezionata, lasciare vuote le celle. **Nota**: i caratteri jolly s (\* or ?) negli intervalli di dimensione possono non restituire tutti risultati desiderati, a seconda della modalità di raccolta dei dati del database ERP.
 5.  Nel campo **Codice di riga iniziale** specificare il codice della riga per il primo valore di dimensione da aggiungere alla definizione di riga.
-6.  Nel campo **Incremento per ogni riga di** specificare la distanza tra codici di riga consecutivi. Ad esempio, se il primo codice di riga è 100 e il valore di incremento è 30, le prime nuove righe hanno i codici 100, 130, 160, 190 e 220. Utilizzare un valore di incremento che consenta lo spazio sufficiente per inserire nuove righe della formula e di formato.
+6.  Nel campo **Incremento per ogni riga di** specificare la distanza tra codici di riga consecutivi. Ad esempio, se il primo codice di riga è 100 e il valore di incremento è 30, le prime nuove righe hanno i codici 100, 130, 160, 190 e 220. Utilizzare un valore di incremento che offra lo spazio sufficiente per inserire nuove righe di formula e di formato.
 7.  Scegliere **OK**. Per ogni valore di dimensione selezionato viene aggiunta una riga alla definizione di riga.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a> Regolare l'arrotondamento in una definizione riga
@@ -146,7 +146,7 @@ La formattazione specificata nella definizione di riga sostituisce la formattazi
 
 1.  In Progettazione report, aprire la definizione di riga da modificare.
 2.  Selezionare le celle da formattare. Per selezionare più celle, tenere premuto CTRL mentre si seleziona la cella.
-3.  Fare clic sul pulsante del formato da applicare nella barra degli strumenti. Ad esempio, per applicare un rientro a una riga, selezionare la riga e fare clic su ** rientro di aumento **! [] Rientro di eventuali https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "rientro di aumento") sulla barra degli strumenti.
+3.  Fare clic sul pulsante del formato da applicare nella barra degli strumenti. Ad esempio, per impostare il rientro di una riga, selezionare la riga e fare clic su **Aumenta rientro** ![Aumenta rientro](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Aumenta rientro") sulla barra degli strumenti.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Rettificare le colonne durante la progettazione dei report
 
@@ -173,6 +173,6 @@ Per semplificare la visualizzazione delle colonne su cui si lavora nella definiz
 <a name="see-also"></a>Vedere anche
 --------
 
-[Report finanziari per Microsoft Dynamics 365 per le operazioni financial-reporting-intro.md] ()
+[Report finanziari per Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

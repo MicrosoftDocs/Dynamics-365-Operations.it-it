@@ -1,5 +1,5 @@
 ---
-title: "Liquidazione priorità e automatiche"
+title: "Liquidazione automatica e assegnazione di priorità"
 description: "Questo articolo descrive la modalità di liquidazione delle transazioni se si seleziona la liquidazione automatica nella pagina Parametri contabilità clienti. Viene anche illustrato come è possibile utilizzare la liquidazione automatica insieme alla priorità di pagamento."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="automatic-settlement-and-prioritization"></a>Liquidazione priorità e automatiche
+# <a name="automatic-settlement-and-prioritization"></a>Liquidazione automatica e assegnazione di priorità
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo descrive la modalità di liquidazione delle transazioni se si seleziona la liquidazione automatica nella pagina Parametri contabilità clienti. Viene anche illustrato come è possibile utilizzare la liquidazione automatica insieme alla priorità di pagamento.
 
-Quando vengono liquidati i pagamenti con le fatture e altre transazioni sono disponibili due opzioni. È possibile selezionare manualmente le transazioni per liquidare, o Microsoft Dynamics 365 per le operazioni possibile selezionare automaticamente le transazioni utilizzando la funzionalità Liquidazione automatica. È inoltre possibile personalizzare il modo in cui le liquidazioni automatiche vengono elaborate tramite l'opzione **Assegna priorità a liquidazione**. Tutte queste opzioni fanno parte dei parametri di liquidazione definiti ** parametri di contabilità clienti ** nella pagina. La modalità in cui le transazioni vengono automaticamente liquidate può essere diversa, a seconda del metodo utilizzato per la liquidazione automatica. Sono disponibili i seguenti metodi:
+Quando vengono liquidati i pagamenti con le fatture e altre transazioni sono disponibili due opzioni. È possibile selezionare manualmente le transazioni da liquidare oppure Microsoft Dynamics 365 for Operations può selezionare le transazioni automaticamente utilizzando la funzionalità di liquidazione automatica. È inoltre possibile personalizzare il modo in cui le liquidazioni automatiche vengono elaborate tramite l'opzione **Assegna priorità a liquidazione**. Tutte queste opzioni fanno parte dei parametri di liquidazione definiti nella pagina **Parametri contabilità clienti**. La modalità in cui le transazioni vengono automaticamente liquidate può essere diversa, a seconda del metodo utilizzato per la liquidazione automatica. Sono disponibili i seguenti metodi:
 
 -   Priorità di liquidazione definita dall'utente
 -   Liquidazione automatica predefinita
@@ -45,9 +48,9 @@ Gli esempi di liquidazioni più avanti in questo articolo si basano sulle seguen
 | Fattura 1     | 15 agosto   | 100,00 | 2%14, Net 30        | 29 agosto          |                                                                                                                                                                                               |
 | Fattura 2     | 1 settembre | 250,00 | 2%14, Net 30        | 15 settembre       |                                                                                                                                                                                               |
 | Fattura 3     | 15 ottobre  | 500,00 | 2% 14/Net 30        | 29 ottobre         |                                                                                                                                                                                               |
-| Nota d'interesse | 15 ottobre  | 7,00   |                     |                    | Questa nota d'interesse applicato sarà quello della fattura 1 e la 2. fattura. L'importo viene calcolato come 2 degli interessi sugli importi che sono oltre i 30 o più giorni. Ad esempio, 0,02 × (100,00 + 250,00) = 7,00. |
+| Nota d'interesse | 15 ottobre  | 7,00   |                     |                    | Questa nota d'interesse è per la fattura 1 e la fattura 2. L'importo viene calcolato come interesse del 2% sugli importi che sono scaduti da 30 o più giorni. Ad esempio, 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Priorità di destinazione specificati da l liquidazione
+## <a name="userdefined-settlement-priority"></a>Priorità di liquidazione definita dall'utente
 Se si imposta **Utilizza priorità per liquidazioni automatiche** su **Sì** nella pagina **Parametri contabilità clienti**, la priorità di liquidazione definita nella pagina **Priorità liquidazione** viene utilizzata quando le transazioni vengono selezionate per la liquidazione automatica. Per questo esempio, la seguente priorità di liquidazione viene definita:
 
 1.  Tipo di transazione
@@ -77,6 +80,8 @@ Se non esiste una priorità di liquidazione definita dall'utente, le transazioni
 | Fattura 2     | 01/09/2015   | 10002   | 250,00                         | 250,00           | 0,00    | GBP      |
 | Fattura 3     | 15/10/2015 |         | 500,00                         | 350,00           | 150,00  | GBP      |
 | Nota d'interesse | 15/10/2015 |         | 7,00                           | 0,00             | 0,00    | GBP      |
+
+
 
 
 

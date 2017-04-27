@@ -1,6 +1,6 @@
 ---
 title: "Crediti e riscossioni in Contabilità clienti"
-description: "Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale mediante Microsoft Dynamics 365 per la pagina delle riscossioni delle operazioni. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti."
+description: "Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crediti e riscossioni in Contabilità clienti
 
-Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale mediante Microsoft Dynamics 365 per la pagina delle riscossioni delle operazioni. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti.
+[!include[banner](../includes/banner.md)]
+
+
+Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti.
 
 Prima di iniziare a impostare o a utilizzare le riscossioni, è necessario comprendere i concetti seguenti:
 -   Gli snapshot di aging dei clienti contengono informazioni sui saldi con aging in un momento specifico del tempo
@@ -55,9 +58,9 @@ Per ogni periodo di aging nella definizione del periodo di aging viene creato un
 I pool di clienti sono query che definiscono un gruppo di record cliente che possono essere visualizzati e gestiti per i processi di riscossione o di aging. Utilizzare i pool di clienti per filtrare le informazioni presenti nelle pagine elenco Saldi con aging, Attività di riscossione e Casi di riscossione. È inoltre possibile utilizzare i pool di clienti per filtrare i conti cliente inclusi quando vengono creati gli snapshot di aging.
 
 ## <a name="collections-agents"></a>Agenti di riscossione
-Per impostazione predefinita, Microsoft Dynamics 365 per gli utenti delle operazioni può visualizzare tutte le informazioni sui clienti nelle pagine elenco di riscossione. È possibile utilizzare i record agente di riscossione per determinare i pool di clienti disponibili per filtrare le informazioni presenti nelle pagine elenco di riscossione e nella pagina Riscossioni. 
+Per impostazione predefinita, gli utenti di Microsoft Dynamics 365 for Operations possono visualizzare tutte le informazioni sui clienti nelle pagine elenco di riscossione. È possibile utilizzare i record agente di riscossione per determinare i pool di clienti disponibili per filtrare le informazioni presenti nelle pagine elenco di riscossione e nella pagina Riscossioni. 
 
-Un agente di riscossione è una persona che lavora con i clienti per accertarsi che i pagamenti vengano riscossi con puntualità. In Microsoft Dynamics 365 per le operazioni, gli agenti di riscossione sono lavoratori assegnati agli utenti di pagina delle impostazioni utente.
+Un agente di riscossione è una persona che lavora con i clienti per accertarsi che i pagamenti vengano riscossi con puntualità. In Microsoft Dynamics 365 for Operations, gli agenti di recupero crediti sono lavoratori assegnati agli utenti nella pagina di configurazione dell'utente.
 
 ## <a name="collections-list-pages"></a> Pagine elenco Riscossioni 
 Le pagine elenco seguenti facilitano l'organizzazione delle informazioni sulla riscossione.
@@ -67,7 +70,7 @@ Le pagine elenco seguenti facilitano l'organizzazione delle informazioni sulla r
 
 > [!NOTE]
 > Per poter visualizzare le informazioni in queste pagine elenco, è necessario creare uno snapshot di aging. Le informazioni sono visualizzate solo per i clienti per i quali è stato creato uno snapshot di aging. I record presenti nella pagina elenco possono essere ulteriormente filtrati, ad esempio:
-<li>Per impostazione predefinita, Microsoft Dynamics 365 per l'utente delle operazioni ha accesso a tutti i clienti che hanno uno snapshot di aging.</li>
+<li>Per impostazione predefinita, un utente di Microsoft Dynamics 365 for Operations ha accesso a tutti i clienti che dispongono di uno snapshot di aging.</li>
 <li>Se sono presenti pool di clienti, è necessario che un utente sia impostato come agente di riscossione per utilizzare i pool per filtrare le informazioni nelle pagine elenco di riscossione. Le informazioni sono limitate ai clienti inclusi nel pool di clienti selezionato.</li>
 <li>Se un utente viene impostato come agente di riscossione, nella pagina elenco saranno disponibili solo i pool selezionati per tale agente di riscossione. Se il pulsante Consenti ad agente di visualizzare tutti i pool di clienti è selezionato nella pagina Agenti di riscossione per un agente di riscossione specifico, tutti i pool sono disponibili per tale agente.</li>
 
@@ -75,7 +78,7 @@ Le pagine elenco seguenti facilitano l'organizzazione delle informazioni sulla r
 ## <a name="collections-page"></a> Pagina Riscossioni
 Utilizzare la pagina Riscossioni per visualizzare, gestire e intraprendere le azioni necessarie sui casi, le attività e le informazioni sulla riscossione per un cliente. 
 
-I casi di visualizzazione del riquadro superiore per il cliente selezionato. Il riquadro centrale visualizzare le transazioni per il cliente. Nel riquadro inferiore vengono visualizzate le attività per il cliente. È possibile creare casi di riscossione per tenere traccia delle informazioni sulla riscossione per una o più transazioni e attività. Le informazioni presenti nei riquadri superiore e inferiore possono essere filtrate in base al caso. 
+Nel riquadro superiore vengono visualizzati i casi per il cliente selezionato. Nel riquadro centrale vengono visualizzate le transazioni per il cliente. Nel riquadro inferiore vengono visualizzate le attività per il cliente. È possibile creare casi di riscossione per tenere traccia delle informazioni sulla riscossione per una o più transazioni e attività. Le informazioni presenti nei riquadri superiore e inferiore possono essere filtrate in base al caso. 
 
 Nei riquadri Dettaglio informazioni vengono visualizzati i saldi con aging e le informazioni sul limite di credito per il cliente selezionato. Tali informazioni vengono archiviate nello snapshot di aging. Se necessario, è possibile aggiornare lo snapshot di aging con le informazioni correnti. 
 
@@ -100,6 +103,8 @@ Elaborare un pagamento NSF (Non Sufficient Funds, senza copertura)
 --------------------------------------------
 
 È possibile elaborare pagamenti NSF facendo clic su Pagamento NSF nella pagina Riscossioni. Quando si fa clic su questo pulsante, il pagamento viene annullato. Se al cliente viene applicata una commissione NSF, viene creata una transazione di spese in un giornale di registrazione pagamenti. L'importo della commissione si basa sulle impostazioni delle spese automatiche. Le spese automatiche che si applicano ai pagamenti NSF vengono specificate in base al gruppo di spese varie selezionato nella pagina Conti bancari per il conto bancario interessato.
+
+
 
 
 

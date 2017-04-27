@@ -1,6 +1,6 @@
 ---
 title: Report block list italiano
-description: Ottenere come impostare e gestire il report list italiano.
+description: Informazioni su come impostare e gestire il report black list italiano.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,41 +26,46 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="italian-black-list-report"></a>Report block list italiano
 
-Ottenere come impostare e gestire il report list italiano.
+[!include[banner](../includes/banner.md)]
 
-Report black list italiano fornisce un elenco di transazioni tassabili con società situate in paesi con regimi fiscali privilegiati. Questi paesi sono indicati come "elencati list" dal governo italiano e presentano un rischio elevato da una prospettiva VAT. Questo report deve essere inviato agli uffici VAT italiani e in genere viene utilizzato dai responsabili, dai responsabili delle riscossioni, per il dipendente Contabilità clienti, dai responsabili della contabilità clienti, ai prezzi di vendita per il dipendente di vendita. È necessario impostare alcune considerazioni poter generare ** list italiano ** lo possibile ed esportarlo nel formato richiesto.
 
--   Selezionare una sequenza numerica per ** nera identificazione del report elenco ** il riferimento della sequenza numerica ** parametri per il commercio estero ** nella pagina.
--   Impostare il formato di report di mapping per ** annerisca l'elenco ** riferimento specificando i riferimenti alle configurazioni dichiarazioni elettroniche nel annerisca ** l'elenco ** ** parametri per il commercio estero ** nella pagina.
--   Impostare un paese come "black elencata".
+Informazioni su come impostare e gestire il report black list italiano.
+
+Il report black list italiano fornisce un elenco di transazioni tassabili con società situate in paesi con regimi fiscali privilegiati. Questi paesi sono indicati come "black list" dal governo italiano e presentano un rischio elevato dal punto di vista fiscale. Questo report deve essere inviato agli uffici IVA italiani e in genere viene utilizzato da ragionieri, responsabili delle riscossioni, addetti alla contabilità clienti, responsabili della contabilità clienti, manager delle vendite e addetti alle vendite. È necessario impostare alcuni elementi prima di poter generare il report **black list italiano** ed esportarlo nel formato richiesto.
+
+-   Selezionare una sequenza numerica per il riferimento della sequenza numerica di **ID report black list** nella pagina **Parametri per il commercio estero**.
+-   Impostare il mapping del formato di report per il report **Black list** specificando i riferimenti alle configurazioni di report elettronici nella **Black list** nella pagina **Parametri per il commercio estero**.
+-   Impostare un paese o una regione come "black list".
 -   Impostare la natura giuridica di una persona giuridica.
--   Impostare il paese di residenza di un cliente/fornitore estero.
--   Impostare il tipo di VAT per un codice VAT.
+-   Impostare il paese di residenza di un cliente/fornitore straniero.
+-   Impostare il tipo di IVA per un codice IVA.
 
 ## <a name="set-up-a-country-or-region-as-black-listed"></a>Impostare un paese come "black list"
-Scheda di utilizzo ** proprietà paese ** ** parametri per il commercio estero ** nella pagina per identificare un paese come "black list":
+Utilizzare la scheda **Proprietà paese** nella pagina **Parametri per il commercio estero** per identificare un paese come "black list":
 
--   In ** codice IT di tre cifre ** sistemi, impostare il codice paese numerico come indicato nelle istruzioni del report dal governo italiano.
--   Selezionare ** black list paese/regione ** la casella di controllo.
+-   Nel campo **Codice IT di tre cifre**, impostare il codice paese numerico come indicato nelle istruzioni relative al report del governo italiano.
+-   Selezionare la casella di controllo **Paese in black list**.
 
-** La provincia ** la scheda ** indirizzo ** impostato nella pagina nella Rubrica globale per specificare ** italiano codice provincia **.
+Utilizzare la scheda **Provincia** nella pagina **Impostazione indirizzo** nella Rubrica globale per specificare il **Codice provincia italiana**.
 
 ## <a name="set-up-the-legal-nature-of-a-legal-entity"></a>Impostare la natura giuridica di una persona giuridica
-Utilizzare ** numeri di registrazione ** la sezione ** persone giuridiche ** la finestra per specificare il numero di conto e la natura giuridica di una persona giuridica. La natura giuridica è la struttura legale cui viene registrato presso le autorità fiscali, ad esempio ** associazioni limitate ** della società, ** limitata a responsabilità (). s.r.l **, o ** società per azioni (STAZIONE TERMALE **).
+Utilizzare la sezione **Numeri di registrazione** nella pagina **Persone giuridiche** per specificare il codice fiscale e la natura giuridica di una persona giuridica. La natura giuridica è la struttura legale della persona giuridica registrata presso le autorità fiscali competenti, ad esempio **Società in accomandita per azioni**, **Società a responsabilità limitata (SRL)** o **Società per azioni (SPA)**.
 
 ## <a name="set-up-the-countryregion-of-residence-for-a-foreign-customervendor"></a>Impostare il paese di residenza di un cliente/fornitore straniero
-Utilizzare ** i dati demografici di vendita ** la sezione ** clienti/fornitori ** pagine per impostare il paese di residenza di un cliente in un paese straniero e specificare le informazioni sul contatto primario, ad esempio il contatto, il luogo di nascita e la provincia di nascita primari. Solo le transazioni fatture con persone giuridiche situate in paesi con regimi fiscali privilegiati (paesi" black list") vengono incluse ** list italiano ** nel report. Se il cliente è anche un fornitore, le transazioni di vendita e acquisto vengono riepilogate come record ** list italiano ** nel report.
+Utilizzare la sezione **Dati demografici vendite** nelle pagine **Clienti/fornitori** per impostare il paese di residenza di un cliente in un paese straniero e specificare le informazioni sul contatto primario, ad esempio il contatto primario, il luogo di nascita e la provincia di nascita. Solo le transazioni fatture con persone giuridiche residenti in paesi con regimi fiscali privilegiati (paesi "black list") sono incluse nel report **black list italiano**. Se il cliente è anche un fornitore, le transazioni di vendita e acquisto vengono riepilogate come un solo record nel report **black list italiano**.
 
 ## <a name="set-up-the-vat-type-for-a-sales-tax-code"></a>Impostare il tipo di IVA per un codice IVA
-Utilizzare ** codici VAT (** ** imposta ** &gt; ** imposte indirette ** &gt; ** VAT **) pagina per impostare il tipo di VAT da calcolare per ** list italiano ** il report. Il tipo di IVA specificato determina la categoria in cui gli importi netto e IVA per le fatture vengono stampati nel report e la posizione in cui si trovano nel file. Se l'importo netto o IVA fatturato in un periodo è negativo per un tipo di IVA specifico, viene visualizzato come accredito per il periodo precedente o l'anno precedente se il periodo inizia a gennaio. Utilizzare la seguente procedura per generare un report. È inoltre possibile visualizzare e aggiornare le transazioni prima di generare il report.
+Utilizzare la pagina **Codici IVA** (**Imposta** &gt; **Imposte indirette** &gt; **IVA**) per impostare il tipo di imposta da calcolare per il report **black list italiano**. Il tipo di IVA specificato determina la categoria in cui gli importi netto e IVA per le fatture vengono stampati nel report e la posizione in cui si trovano nel file. Se l'importo netto o IVA fatturato in un periodo è negativo per un tipo di IVA specifico, viene visualizzato come accredito per il periodo precedente o l'anno precedente se il periodo inizia a gennaio. Per generare un report, attenersi alla seguente procedura. È inoltre possibile visualizzare e aggiornare le transazioni prima di generare il report.
 
-## <a name="generate-the-italian-black-list-report"></a>Generare il report list italiano
-Utilizzare ** report list italiano ** la pagina per creare un nuovo report e le transazioni di trasferimento ** list italiano ** al report:
+## <a name="generate-the-italian-black-list-report"></a>Generare il report black list italiano
+Utilizzare la pagina **Report black list italiano** per creare un nuovo report e trasferire le transazioni al report **black list italiano**:
 
--   Specificare le informazioni ** dettagli relativi all'identificazione ** nell'area.
--   Utilizzato ** trasferimento ** trasferire le transazioni fatture fornitore e cliente ** transazioni ** la sezione in base ai criteri specificati ** dettagli relativi all'identificazione ** nell'area. Nel report vengono visualizzate solo le transazioni associate a un codice IVA. Verificare le transazioni e apportare eventuali modifiche, se necessario.
--   Utilizzato ** applicare la soglia ** escludere le fatture da ** list italiano ** report che con valore all'importo soglia specificato in ** importo soglia ** sistemi ** dettagli relativi all'identificazione ** nell'area.
--   Utilizzato ** report ** generare ed esportare il report come file.
+-   Specificare le informazioni nella sezione **Generale**.
+-   Utilizzare **Trasferimento** per trasferire le transazioni delle fatture cliente e fornitore alla sezione **Transazioni** in base ai criteri che sono specificati nella sezione **Generale**. Nel report vengono visualizzate solo le transazioni associate a un codice IVA. Verificare le transazioni e apportare eventuali modifiche, se necessario.
+-   Utilizzare **Applica soglia** per escludere le fatture dal report **black list italiano** inferiori all'importo di soglia specificato nel campo **Importo soglia** nella sezione **Generale**.
+-   Utilizzare **Report** per generare ed esportare il report come file.
+
+
 
 
 

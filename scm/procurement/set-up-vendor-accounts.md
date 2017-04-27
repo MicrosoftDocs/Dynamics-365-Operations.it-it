@@ -1,5 +1,5 @@
 ---
-title: Impostare i conti fornitore
+title: Impostare conti fornitore
 description: "In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-vendor-accounts"></a>Impostare i conti fornitore
+# <a name="set-up-vendor-accounts"></a>Impostare conti fornitore
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore.
 
@@ -40,7 +43,7 @@ Quando si crea un conto fornitore, è necessario immettere le informazioni sul f
 -   Impostare le informazioni su IVA, consegna, fattura e pagamento per il fornitore. Per impostazione predefinita, queste impostazioni vengono copiate nei nuovi documenti creati per il fornitore.
 -   Impostare le dimensioni finanziarie predefinite che vengono utilizzate per registrare automaticamente le transazioni con il fornitore nei conti finanziari.
 
-Per accelerare il processo di creazione conti fornitore, è possibile creare modelli. Per creare un modello, il fornitore ** ** pagina, nel riquadro azioni, fare clic su ** opzioni ** &gt; ** informazioni ** record. Fare clic su **Modello di account società**. I modelli di account società sono condivisi con altri utenti.  
+Per accelerare il processo di creazione conti fornitore, è possibile creare modelli. Per creare un modello, nel riquadro azioni della pagina **Fornitore** fare clic su **Opzioni** &gt; **Informazioni sui record**. Fare clic su **Modello di account società**. I modelli di account società sono condivisi con altri utenti.  
 
 È inoltre possibile creare un modello utente per proprio uso. Non è possibile eliminare un fornitore se questo è associato ad altri record, ad esempio contatti o prodotti.
 
@@ -56,7 +59,7 @@ Per ciascun fornitore, è possibile definire più indirizzi, ciascuno dei quali 
 ## <a name="vendor-contacts"></a>Contatti fornitore
 È possibile archiviare i contatti per un fornitore. Tali contatti possono quindi essere utilizzati in diversi documenti, ad esempio ordini fornitore o richieste di offerta.  
 
-Per aggiungere i contatti per un fornitore, su ** tutti i fornitori ** pagine, il fornitore ** ** la scheda, ** impostazione ** nel gruppo, fare clic su ** contatti ** &gt; ** aggiunti i contatti **.  
+Per aggiungere contatti per un fornitore, nella pagina **Tutti i fornitori**, nella scheda **Fornitore**, nel gruppo **Imposta** fare clic su **Contatti** &gt; **Aggiungi contatti**.  
 
 È possibile creare nuovi contatti fornitore. In alternativa, è possibile copiare i dettagli di un'altra persona già registrate in Microsoft Dynamics 365 for Operations e modificare le informazioni in base alle esigenze.  
 
@@ -64,7 +67,7 @@ Per aggiungere i contatti per un fornitore, su ** tutti i fornitori ** pagine, i
 
 Non è possibile eliminare un record di contatto se al contatto viene fatto riferimento in un documento. In alternativa, è possibile disattivare il contatto.  
 
-È possibile aggiungere i contatti fornitore ai contatti personali in Microsoft Office 365. Tuttavia, è innanzitutto necessario impostare la sincronizzazione tra Dynamics 365 per le operazioni e di Office 365 sia nella sincronizzazione con Microsoft cambio Server che nell'Installazione guidata di Microsoft Outlook.
+È possibile aggiungere contatti fornitore ai contatti personali in Microsoft Office 365. Tuttavia, è innanzitutto necessario impostare la sincronizzazione tra Dynamics 365 for Operations e Office 365 sia nella sincronizzazione con Microsoft Exchange Server che nell'Installazione guidata di Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Fornitori in persone giuridiche diverse
 Se un fornitore viene registrato solo per una persona giuridica nell'organizzazione e altre persone giuridiche devono registrare lo stesso fornitore, è possibile utilizzare la pagina **Aggiungi fornitore a un'altra persona giuridica** per configurare il fornitore in modo che svolga attività commerciali con un'altra persona giuridica. È necessario selezionare un gruppo di fornitori, la valuta e l'eventuale stato di sospensione del fornitore nella persona giuridica selezionata.  
@@ -101,5 +104,7 @@ Se è necessario effettuare i pagamenti a un conto bancario fornitore, è possib
 È possibile specificare i conti predefiniti visualizzati automaticamente nei giornali di registrazione delle fatture fornitore per il fornitore specificato. Utilizzare questa opzione se in genere si pagano gli stessi tipi di articoli o servizi dagli stessi fornitori nel tempo. Quando si specifica un conto predefinito, è possibile immettere in modo rapido ed efficiente voci nel giornale di registrazione fatture. I conti predefiniti specificati non vengono utilizzati per ordini fornitore o fatture fornitore immesse nella pagina **Fattura fornitore**.  
 
 Selezionare i conti predefiniti nella pagina **Impostazione conto predefinito**, accessibile dalla scheda **Fattura** nel record fornitore. I conti selezionati qui sono visualizzati nell'elenco filtrato dei conti relativi al fornitore quando si effettua un inserimento nel giornale di registrazione. È possibile impostare uno dei conti come conto predefinito.
+
+
 
 

@@ -30,7 +30,7 @@ ms.lasthandoff: 03/29/2017
 
 In questo articolo vengono fornite informazioni sulle definizioni di report. Una definizione di report è un componente di report (o blocco predefinito) che utilizza una definizione di riga, una definizione di colonna e una definizione facoltativa dell'albero gerarchico per creare un report. Una definizione di report prevede inoltre opzioni e impostazioni che per la personalizzazione di un report. 
 
-Una definizione di report è un componente di report (o blocco predefinito) che utilizza una definizione di riga, una definizione di colonna e una definizione facoltativa dell'albero gerarchico per creare un report. Una definizione di report sono inoltre disponibili le opzioni e impostazioni che consentono di personalizzare un report. Dopo aver definito le definizioni di riga e le definizioni di colonna, è necessario combinarle in una definizione di report. In questa fase, vengono anche definiti altri aspetti delle definizioni, ad esempio la data del report e il livello di dettaglio. È quindi possibile salvare e generare un report. I report finanziari offrono i seguenti livelli di dettaglio:
+Una definizione di report è un componente di report (o blocco predefinito) che utilizza una definizione di riga, una definizione di colonna e una definizione facoltativa dell'albero gerarchico per creare un report. Una definizione di report fornisce anche opzioni e impostazioni da utilizzare per personalizzare un report. Dopo aver definito le definizioni di riga e le definizioni di colonna, è necessario combinarle in una definizione di report. In questa fase, vengono anche definiti altri aspetti delle definizioni, ad esempio la data del report e il livello di dettaglio. È quindi possibile salvare e generare un report. I report finanziari offrono i seguenti livelli di dettaglio:
 
 -   Finanziario
 -   Finanziario e contabile
@@ -89,6 +89,6 @@ Nella seguente tabella sono descritte le schede in una definizione di report e c
 <a name="see-also"></a>Vedere anche
 --------
 
-[Report finanziari per Microsoft Dynamics 365 per le operazioni financial-reporting-intro.md] ()
+[Report finanziari per Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

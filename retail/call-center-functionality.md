@@ -1,6 +1,6 @@
 ---
 title: "Funzionalità per call center"
-description: "L&quot;articolo prevede una panoramica delle funzionalità di vendita della call center in Microsoft Dynamics 365 per le operazioni."
+description: "Questo articolo fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="call-center-functionality"></a>Funzionalità per call center
 
-L'articolo prevede una panoramica delle funzionalità di vendita della call center in Microsoft Dynamics 365 per le operazioni.
+[!include[banner](includes/banner.md)]
 
-Vendita al dettaglio e commercio in Microsoft Dynamics AX supporta i call center come tipo di canale di vendita al dettaglio. In un servizio clienti, i lavoratori prendono gli ordini dai clienti a telefono e creano gli ordini cliente. Nella funzionalità del servizio clienti sono incluse le funzioni progettate per semplificare gli ordini per telefono e la gestione dell'assistenza clienti tramite il processo di esecuzione dell'ordine. Ad esempio, i lavoratori di call center possono immettere le informazioni relative ai pagamenti direttamente nell'ordine cliente e possono visualizzare un riepilogo dettagliato delle spese e dei pagamenti prima di inviare l'ordine. I dipendenti hanno inoltre a disposizione opzioni per controllare la determinazione del prezzo e possono accedere a vari dati sui clienti, i prodotti e i prezzi dalla pagina **Ordine cliente**. Inoltre i call center dispongono di funzionalità avanzate per il monitoraggio dello storico clienti e dello stato degli ordini. Ogni servizio clienti può avere propri utenti, metodi di pagamento, gruppi di prezzi, dimensioni finanziarie e modalità di consegna. È possibile configurare queste opzioni quando si crea il servizio clienti. È inoltre possibile utilizzare la pagina **Call center** per attivare o disattivare i seguenti gruppi di funzionalità che sono esclusive dei call center:
+
+Questo articolo fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Operations.
+
+Vendita al dettaglio e commercio in Microsoft Dynamics AX supporta i call center come tipo di canale di vendita al dettaglio. In un servizio clienti, i lavoratori prendono gli ordini dai clienti a telefono e creano gli ordini cliente. Nella funzionalità del servizio clienti sono incluse le funzioni progettate per semplificare gli ordini per telefono e la gestione dell'assistenza clienti tramite il processo di esecuzione dell'ordine. Ad esempio, i lavoratori del servizio clienti possono immettere le informazioni relative ai pagamenti direttamente nell'ordine cliente e possono visualizzare un riepilogo dettagliato delle spese e dei pagamenti prima di inviare l'ordine. I dipendenti hanno inoltre a disposizione opzioni per controllare la determinazione del prezzo e possono accedere a vari dati sui clienti, i prodotti e i prezzi dalla pagina **Ordine cliente**. Inoltre i call center dispongono di funzionalità avanzate per il monitoraggio dello storico clienti e dello stato degli ordini. Ogni servizio clienti può avere propri utenti, metodi di pagamento, gruppi di prezzi, dimensioni finanziarie e modalità di consegna. È possibile configurare queste opzioni quando si crea il servizio clienti. È inoltre possibile utilizzare la pagina **Call center** per attivare o disattivare i seguenti gruppi di funzionalità che sono esclusive dei call center:
 
 -   **Completamento ordine** - Questo gruppo include funzionalità correlate ai pagamenti e al completamento degli ordini nella pagina **Ordine cliente**.
 -   **Vendita diretta** - Questo gruppo include funzionalità che sono correlate ai codici di origine, agli script e alla richieste di catalogo.
@@ -44,6 +47,8 @@ Una volta abilitate nelle impostazioni del call center, queste funzionalità son
 -   Gli addetti alle vendite possono aggiungere all'ordine buoni sconto del rivenditore.
 -   Gli addetti alle vendite possono vendere i programmi di continuità.
 -   Gli ordini possono essere messi in attesa manualmente o automaticamente, a indicare che occorrono informazioni aggiuntive prima che l'ordine possa essere elaborato.
+
+
 
 
 

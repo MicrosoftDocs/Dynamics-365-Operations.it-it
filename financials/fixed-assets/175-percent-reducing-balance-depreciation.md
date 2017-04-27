@@ -54,9 +54,9 @@ Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza 
 
 ### <a name="fiscal"></a>Fiscale
 
-Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, l'ammortamento a saldi decrescenti del 175% viene calcolato in base all'anno fiscale del calendario fiscale specificato per il libro oppure del calendario fiscale selezionato nella pagina **Contabilità generale**. I calendari fiscali vengono impostati nella pagina **Calendari fiscali**. Per ulteriori informazioni, vedere [calendari fiscali, anni fiscali e periodi fiscali.] (dati finanziari \ \ \ l'impostazione fiscal-calendars-fiscal-years-periods.md).
+Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, l'ammortamento a saldi decrescenti del 175% viene calcolato in base all'anno fiscale del calendario fiscale specificato per il libro oppure del calendario fiscale selezionato nella pagina **Contabilità generale**. I calendari fiscali vengono impostati nella pagina **Calendari fiscali**. Per ulteriori informazioni, vedere [Calendari fiscali, anni fiscali e periodi.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md)
 
-Ad esempio, per l'anno fiscale dal 1° luglio al 30 giugno, il calcolo dell'il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato automaticamente per ciascun periodo e la durata dell'anno fiscale successivo dipende dall'impostazione dei periodi nella pagina **Calendari fiscali**. 
+Se ad esempio l'anno fiscale inizia il 1° luglio e termina il 30 giugno, il calcolo dell'ammortamento inizia il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato automaticamente per ciascun periodo e la durata dell'anno fiscale successivo dipende dall'impostazione dei periodi nella pagina **Calendari fiscali**. 
 
 Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
@@ -81,6 +81,6 @@ Il metodo di ammortamento a saldi decrescenti del 175% divide il 175% per gli an
 | Anno 3 | 4.225 × 35% = 1.478,75                        | 5.225 – 1.478.75 = 3.746,25 | 4.225 – 1.478,75 = 2.746,25           |
 
 > [!NOTE] 
-> In genere, quando l'importo calcolato utilizzando i 175% metodi di ammortamento a saldi decrescenti diventa inferiore all'importo che viene calcolato utilizzando il metodo a quote costanti, è presente una conversione al metodo a quote costanti per la vita utile rimanente.
+> In genere, quando l'importo calcolato utilizzando il metodo di ammortamento a saldi decrescenti del 175% diventa inferiore all'importo che sarà calcolato utilizzando il metodo a quote costanti, si verifica una conversione al metodo a quote costanti per la vita utile rimanente.
 
 

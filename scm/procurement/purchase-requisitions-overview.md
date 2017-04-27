@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Panoramica della richiesta di acquisto
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive il flusso di lavoro delle richieste di acquisto e i diversi stati che può avere una richiesta di acquisto.
 
 A seconda della configurazione dell'organizzazione, è possibile creare richieste di acquisto per i prodotti utilizzati. Una richiesta di acquisto è un documento interno con cui si autorizza il reparto acquisti ad acquistare articoli o servizi.  
@@ -48,7 +51,7 @@ Quando si crea una richiesta di acquisto, a questa è assegnato uno stato. A ogn
 
 Nel diagramma riportato di seguito vengono illustrati gli stati assegnati a una richiesta di acquisto e a una riga della richiesta di acquisto mentre avanzano nel processo di revisione.  
 
-[![Purchase requisition header and line statuses](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Stati dell'intestazione e delle righe della richiesta di acquisto](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Intestazione richiesta di acquisto e relazioni degli stati delle righe
 
@@ -77,7 +80,7 @@ Lo stato generale della richiesta di acquisto viene determinato dallo stato dell
 <td>Se il flusso di lavoro è stato configurato per inoltrare le righe della richiesta di acquisto a singoli revisori, ciascuna riga può avere lo stato <strong>In revisione</strong> o <strong>Rifiutato</strong>. Lo stato della richiesta di acquisto viene aggiornato quando il processo di revisione è stato completato per tutte le righe della richiesta di acquisto e non vi sono altri passaggi di revisione per la richiesta di acquisto.
 <ul>
 <li><strong>In revisione</strong>: le righe della richiesta di acquisto sono state inviate in revisione. Quando il processo del flusso di lavoro è completo per una riga della richiesta di acquisto, questa resta nello stato <strong>In revisione</strong> finché non vengono riviste tutte le righe della richiesta di acquisto.</li>
-<li><strong>Rifiutata</strong> - Una riga della richiesta di acquisto è stata rifiutata. Le righe della richiesta di acquisto rifiutate possono essere modificate e inviate nuovamente.</li>
+<li><strong>Rifiutata</strong>: una riga della richiesta di acquisto è stata rifiutata. Le righe della richiesta di acquisto rifiutate possono essere modificate e inviate nuovamente.</li>
 </ul>
 Se si invia nuovamente una riga della richiesta di acquisto che è stata rifiutata, il processo di revisione ricomincia per tutte le righe della richiesta di acquisto ancora in revisione. <strong>Nota:</strong> è possibile richiamare una richiesta di acquisto che è già stata inviata. Quando si richiama una richiesta di acquisto, vengono richiamate anche tutte le altre righe della richiesta di acquisto. Le righe della richiesta di acquisto richiamate possono essere eliminate.</td>
 </tr>
@@ -133,7 +136,7 @@ Se si invia nuovamente una riga della richiesta di acquisto che è stata rifiuta
 È possibile distribuire il costo di un prodotto incluso in una richiesta di acquisto a più conti finanziari. Se l'organizzazione utilizza dimensioni, ad esempio centri di costo e reparti, è possibile distribuire il costo di un prodotto alle dimensioni relative ai conti finanziari.
 
 ## <a name="requisition-purposes"></a>Scopi della richiesta
-Gli scopi della richiesta di acquisto rendono il processo di evasione della richiesta più flessibile. Quando si crea una richiesta di acquisto, è possibile assegnarle uno di due scopi: consumo o rifornimento. A seconda dello scopo di richiesta e l'impostazione dell'organizzazione, la richiesta di acquisto Può essere eseguito da un ordine fornitore, un ordine di trasferimento, un ordine di produzione, oppure da un kanban.  
+Gli scopi della richiesta di acquisto rendono il processo di evasione della richiesta più flessibile. Quando si crea una richiesta di acquisto, è possibile assegnarle uno di due scopi: consumo o rifornimento. In base allo scopo della richiesta di acquisto e della configurazione dell'organizzazione, la richiesta può essere soddisfatta da un ordine fornitore, un ordine di trasferimento, un ordine di produzione o un kanban.  
 
 Nei criteri di approvvigionamento è possibile determinare gli scopi disponibili quando una richiesta di acquisto viene creata per l'organizzazione.
 
@@ -152,7 +155,7 @@ Per utilizzare le richieste di acquisto con scopo di rifornimento, è necessario
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Richieste di acquisto e richieste di offerte
 In alcuni casi, è necessario avviare un processo di richiesta di offerta (RdO) per identificare il fornitore e il prezzo per i prodotti richiesti in una richiesta di acquisto. Una richiesta di offerta può essere generata quando la richiesta di acquisto è in fase di revisione. Quando si accetta l'offerta, le informazioni su fornitore, prezzo e così via vengono trasferite alla richiesta di acquisto.  
 
-È possibile inserire una richiesta di acquisto in attesa selezionando ** in attesa ** la casella di controllo ** dettagli della richiesta di acquisto ** nella pagina. L'elaborazione della richiesta di acquisto può continuare solo dopo che si deseleziona la sospensione deselezionando la casella di controllo.  
+È possibile mettere una richiesta di acquisto in attesa selezionando la casella di controllo **In attesa** nella pagina **Dettagli richiesta di acquisto** . L'elaborazione della richiesta di acquisto può continuare solo dopo che si rimuove la sospensione deselezionando la casella di controllo.  
 
 **Nota:** in eProcurement, la richiesta di offerta per la richiesta di acquisto può consentire ai fornitori di aggiungere righe alternative. In questo caso le alternative approvate sono riflesse nella richiesta di acquisto.
 
@@ -178,7 +181,7 @@ Per creare un ordine fornitore per le righe della richiesta di acquisto non idon
 
 Il processo per il consolidamento della domanda inizia nel momento in cui una richiesta di acquisto viene approvata in un flusso di lavoro e le prenotazioni budget e gli impegni preliminari di spesa sono stati registrati, se il controllo del budget è configurato per l'organizzazione. Nel seguente diagramma viene illustrato il flusso di processo per il consolidamento della domanda.  
 
-[flusso![per![per il consolidamento della domanda (]. /media/demand-consolidation.gif)](. /media/demand-consolidation.gif)  
+[![Flusso del processo per il consolidamento della domanda](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Per consolidare le righe della richiesta di acquisto approvate, attenersi alla seguente procedura:
 
@@ -192,8 +195,10 @@ Per consolidare le righe della richiesta di acquisto approvate, attenersi alla s
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare una richiesta per il consumo della Guida (attività)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Creare una richiesta per il consumo (guida attività)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Flusso di lavoro delle richieste di acquisto](purchase-requisitions-workflow.md)
+
+
 
 

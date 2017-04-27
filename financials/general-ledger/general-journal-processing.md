@@ -1,6 +1,6 @@
 ---
 title: Elaborazione giornale di registrazione generale
-description: "Questo gli articoli vengono descritte le capacità in Microsoft Dynamics 365 per le operazioni che possono rendere più l&quot;elaborazione di giornale di registrazione generale più semplice e utilizzabili anche consentono di assicurarsi che i dati corretti vengono Per e il controllo interno non viene compromesso."
+description: "Questo articolo descrive le funzionalità di Microsoft Dynamics 365 for Operations che possono contribuire a rendere l&quot;elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,32 +28,35 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-journal-processing"></a>Elaborazione giornale di registrazione generale
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive le funzionalità di Microsoft Dynamics AX che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso.  
 
 Nomi giornale di registrazione
 
-Una della maggior parte delle aree principali che viene configurata viene nomi di giornale di registrazione. È consigliabile definire nomi di giornali di registrazione specifici per ogni scopo, ad esempio interaziendale, la rettifica del rateo e correttivo. È possibile adattare ciascun nome di giornale di registrazione per un'immissione dei dati per ogni scopo semplice e sicuro. 
+Una delle aree più importanti da configurare è i nomi di giornale di registrazione. È consigliabile definire nomi di giornali di registrazione specifici per ogni scopo, ad esempio interaziendale, rettifica ratei e correttivo. È possibile personalizzare ciascun nome di giornale di registrazione per rendere semplice e sicura l'immissione dei dati per ogni scopo. 
 
 Nella pagina **Nomi giornale di registrazione** è possibile impostare i seguenti elementi:
 
--   **Approvazione flusso di lavoro** – Per aumentare il controllo interno, definire flussi di lavoro del giornale di registrazione che stabiliscono i limiti di materialità per i passaggi di revisione e approvazione, in base a criteri quali l'importo totale in Dare. Impostare i flussi di lavoro per i giornali di registrazione generali ** flussi di lavoro della contabilità generale ** nella pagina.
+-   **Approvazione flusso di lavoro** – Per aumentare il controllo interno, definire flussi di lavoro del giornale di registrazione che stabiliscono i limiti di materialità per i passaggi di revisione e approvazione, in base a criteri quali l'importo totale in Dare. Vengono impostati flussi di lavoro per i giornali di registrazione generali nella pagina **Flussi di lavoro contabilità generale**.
 -   **Valori predefiniti** - Selezionare valori predefiniti per i conti di contropartita, la valuta e le dimensioni finanziarie.
 -   **Controllo giornale di registrazione** - È possibile impostare restrizioni sul tipo di società e di conto e anche sui valori segmento. 
 
 **Esempi**
 
-Un nome di giornale di registrazione può essere utilizzato solo per le rettifiche. In questo caso, è possibile specificare che solo il tipo di conto **Contabilità generale** è valido per tutte le società. [il conto di controllo del giornale![registrazione in![(]. /media/journal-control-account-types1.png)](. /media/journal-control-account-types1.png)
+Un nome di giornale di registrazione può essere utilizzato solo per le rettifiche. In questo caso, è possibile specificare che solo il tipo di conto **Contabilità generale** è valido per tutte le società. [![Tipi di conto di controllo giornale di registrazione](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
-Un nome di giornale di registrazione può essere utilizzato solo per un segmento specifico o per un intervallo di conti principali. [segmento di controllo del giornale![(]. /media/journal-control-segment1.png)](. /media/journal-control-segment1.png)
+Un nome di giornale di registrazione può essere utilizzato solo per un segmento specifico o per un intervallo di conti principali. [![Segmento controllo giornale di registrazione](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 L'opzione **Storno automatico** è disponibile nei giornali di registrazione generali. Ad esempio, si dispone di una rettifica di attribuzione per competenza in cui il documento effettivo non è ancora stato elaborato, come illustrato nella figura seguente.
-[giornale di registrazione generale![che determina lo storno (]. /media/general-journal-reversing1.png)](. /media/general-journal-reversing1.png) 
+[![Storno giornale di registrazione generale](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Il componente aggiuntivo di Microsoft Excel per l'inserimento nel giornale di registrazione fornisce un ulteriore livello di automazione e consente l'immissione dei dati più semplice. L'azione **Apri righe in Excel **è disponibile nelle pagine **Giornale di registrazione generale** e **Giustificativo giornale di registrazione**. 
+Il componente aggiuntivo di Microsoft Excel per le scritture contabili fornisce un ulteriore livello di automazione e rende l'immissione di dati più semplice. L'azione **Apri righe in Excel **è disponibile nelle pagine **Giornale di registrazione generale** e **Giustificativo giornale di registrazione**. 
 
 Nella pagina **Giornali di registrazione periodici** è possibile impostare i giornali ricorrenti per automatizzare l'elaborazione del giornale di registrazione. 
 
-È possibile utilizzare in qualsiasi momento modelli di giustificativo. ** Giornali di registrazione generali ** nella pagina, ** Salva ** e ** modello di giustificativo selezionato ** le azioni sono presenti ** giustificativo ** nella pagina, in ** funzioni ** per le righe del giustificativo.
+È possibile utilizzare in qualsiasi momento modelli di giustificativo. Nella pagina **Giornali di registrazione generali** le azioni **Salva** e **Seleziona modello giustificativo** si trovano nella pagina **Giustificativo giornale di registrazione**, sotto **Funzioni** per le righe del giustificativo.
 
 ## <a name="related-setup"></a>Impostazione correlata
 La seguente impostazione non è specifica dei giornali di registrazione generali, ma contribuirà a garantire che l'immissione di dati sia semplice e corretta.
@@ -78,6 +81,7 @@ L'impostazione del conto principale offre numerose opzioni per l'elaborazione de
 
 Le strutture di contabilità e delle regole avanzate sono estremamente importanti per garantire che i dati necessari per i report finanziari e il monitoraggio delle prestazioni vengano acquisiti durante l'elaborazione del giornale di registrazione generale e in qualsiasi documentazione. Le strutture di contabilità e delle regole avanzate consentono di personalizzare l'esperienza dell'immissione dati. È possibile consentire l'immissione di dati solo per le dimensioni finanziarie pertinenti in ogni situazione e è inoltre possibile applicare la condizione che vengano sempre acquisiti i dati obbligatori e corretti.
 
-Per ulteriori informazioni, vedere [pianificazione: Piano dei conti plan-chart-of-accounts.md] (). 
+Per ulteriori informazioni, vedere [Pianificazione: piano dei conti](plan-chart-of-accounts.md). 
+
 
 

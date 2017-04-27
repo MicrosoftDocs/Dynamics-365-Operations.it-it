@@ -36,9 +36,9 @@ Non tutte le pagine presentano descrizioni dei campi. Sono riportate solo le des
 Se si ha accesso all'ambiente di sviluppo di Microsoft Dynamics 365 for Operations è possibile aggiungere nuove descrizioni dei campi e personalizzare quelle esistenti. Ad esempio, è possibile aggiungere informazioni specifiche della società per la descrizione di un campo. Per ulteriori informazioni, vedere [Personalizzare la Guida relativa ai campi](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Vedere le descrizioni dei campi nell'interfaccia utente.
-È possibile visualizzare le descrizioni dei campi passando con il mouse su un campo. Se non è disponibile alcuna descrizione, verrà visualizzato il nome del campo al passaggio del mouse sul campo. (Nota: Nella versione l'intervallo, le descrizioni dei campi possono essere visualizzate solo ** descrizioni dei campi ** nella pagina). Nella seguente figura è illustrata la descrizione del campo visualizzato quando sorvolate ** chiudere articoli durante il conteggio ** il campo. 
+È possibile visualizzare le descrizioni dei campi passando con il mouse su un campo. Se non è disponibile alcuna descrizione, verrà visualizzato il nome del campo al passaggio del mouse sul campo. (Nota: Nella versione 7.0.0, le descrizioni dei campi possono essere visualizzate solo nella pagina  **Descrizioni campi**). Nella seguente figura è illustrata la descrizione del campo visualizzato quando si passa con il mouse sul campo **Blocca articoli durante il conteggio**. 
 
-[esempio![di una descrizione del campo (]. /media/field-description.png)](. /media/field-description.png)
+[![Esempio di una descrizione di campo](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Utilizzare la pagina Descrizioni campi per visualizzare ed esportare la Guida sui campi
 La pagina **Descrizioni campi** consente di visualizzare ed esportare le descrizioni dei campi. È possibile visualizzare le descrizioni disponibili per una pagina alla volta.
@@ -73,7 +73,7 @@ Vi sono diversi modi per cercare una pagina nel campo **Seleziona pagina**. In m
     -   Se esiste più di una corrispondenza esatta, nessuna descrizione viene visualizzata. È necessario aprire l'elenco a discesa e selezionare la pagina desiderata.
     -   Se il nome digitato è parte del nome di un'altra pagina, sarà possibile visualizzare le descrizioni della pagina. Tuttavia, se si apre l'elenco a discesa, vengono visualizzate altre pagine che contengono il nome.
 
-Ad esempio, nessuna descrizione viene visualizzata in seguito a l ** particolare ** nel **** si seleziona un campo di **** della pagina. Si apre l'elenco a discesa e si nota che ci sono due pagine con il nome **Conteggio**, nonché varie pagine il cui nome contiene la parola "Conteggio". Se si seleziona la pagina che presenta il nome AOT **InventJournalCount**, vengono visualizzate le descrizioni dei campi per tale pagina. Tuttavia, se si apre nuovamente l'elenco a discesa, si noterà che l'elenco ora contiene tutte le pagine che presentano come parte del loro nome AOT "InventJournalCount".
+Ad esempio, nessuna descrizione viene visualizzata quando si digita **Conteggio** nel campo ****Seleziona pagina****. Si apre l'elenco a discesa e si nota che ci sono due pagine con il nome **Conteggio**, nonché varie pagine il cui nome contiene la parola "Conteggio". Se si seleziona la pagina che presenta il nome AOT **InventJournalCount**, vengono visualizzate le descrizioni dei campi per tale pagina. Tuttavia, se si apre nuovamente l'elenco a discesa, si noterà che l'elenco ora contiene tutte le pagine che presentano come parte del loro nome AOT "InventJournalCount".
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 In questa sezione vengono fornite informazioni per consentire la risoluzione dei problemi che si possono riscontrare utilizzando le descrizioni campi.

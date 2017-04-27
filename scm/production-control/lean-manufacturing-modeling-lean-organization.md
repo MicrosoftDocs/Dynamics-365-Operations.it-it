@@ -1,5 +1,5 @@
 ---
-title: Modellizzazione dell&quot;organizzazione produzione snella
+title: Modellizzazione di un&quot;organizzazione snella
 description: L&quot;articolo fornisce informazioni sui concetti chiave della modellazione di un&quot;organizzazione snella.
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="modeling-a-lean-organization"></a>Modellizzazione dell'organizzazione produzione snella
+# <a name="modeling-a-lean-organization"></a>Modellizzazione di un'organizzazione snella
 
 L'articolo fornisce informazioni sui concetti chiave della modellazione di un'organizzazione snella. 
 
@@ -35,7 +35,7 @@ In genere uno scenario di lean manufacturing è più di una raccolta di regole k
 ## <a name="production-flows-in-lean-manufacturing"></a>Flussi di produzione nella lean manufacturing
 Negli scenari di produzione basati su ordini di produzione, il materiale viene rilasciato a un ordine di produzione specifico. Durante una sequenza di operazioni basata su una distinta base (DBA) e cicli di lavorazione, i prodotti vengono creati e infine ricevuti presso l'ubicazione fornita. Il tempo di produttività degli ordini di produzione varia da minuti a settimane. Tutti i costi, i materiali e la manodopera correlati vengono accumulati nell'ordine di produzione. Per ridurre i lead time di consegna e l'eccesso di magazzino tra centri di lavoro causati dalla produzione in batch, la lean manufacturing introduce il rifornimento kanban e le aree di deposito nella produzione e nel rifornimento magazzino. In genere, ciò interrompe la produzione di cicli di lavorazione kanban parzialmente indipendenti. Il rifornimento di un kanban per un prodotto semilavorato non viene più attivato da un ordine per un prodotto finito. Per ristabilire un contesto di costi e di produzione per i diversi scenari kanban proposti in Microsoft Dynamics AX, i flussi di produzione basati su attività sono stati introdotti come spina dorsale della lean manufacturing. Tutte le regole kanban fanno riferimento a questa struttura predefinita. Il modello basato su attività supporta l'impostazione di una più vasta gamma di scenari supportati dalle versioni precedenti di lean manufacturing per Dynamics AX. Tuttavia, il modello non aggiunge complessità per i lavoratori del reparto produzione, in quanto tutti gli scenari utilizzano la stessa interfaccia utente basata sulle attività.
 
-## <a name="semifinished-products-nonbom-levels"></a>Ordinare prodotti semilavorati (livelli di nonBOM)
+## <a name="semifinished-products-nonbom-levels"></a>Prodotti semilavorati (livelli non DBA)
 La lean manufacturing per Dynamics AX integra i kanban per i prodotti inventariati e i prodotti semilavorati in un unico framework, offrendo in tal modo un'interfaccia utente unificata per tutte le situazioni. A causa dell'architettura, i livelli aggiuntivi DBA non devono più essere introdotti per attivare i kanban da utilizzare per i prodotti semilavorati. Questa architettura contribuisce anche a ridurre al minimo le operazioni di magazzino.
 
 ## <a name="products-and-material-in-work-in-progress"></a>Prodotti e materiali nel WIP (Work-in-Progress)
@@ -51,6 +51,6 @@ Il consolidamento periodico dei costi per un flusso di produzione corregge il co
 Per supportare al meglio il miglioramento continuo, i flussi di produzione vengono implementati in versioni efficaci nel tempo. Di conseguenza, una versione del flusso di produzione esistente, insieme a tutte le regole kanban correlate, può essere copiata in una versione futura del flusso di produzione. Inoltre, il flusso di produzione dello stato futuro può essere modellato prima di essere convalidato e attivato per la produzione. Per assicurare un flusso di materiale senza problemi alla data di transizione e oltre, i kanban esistenti dalle versioni del flusso di produzione obsolete sono automaticamente correlati alla nuova versione.
 
 ## <a name="simplicity"></a>Semplicità
-Per l'implementazione della produzione snella per Dynamics AX, scegliamo un flusso di produzione e un approccio di attività che supporta scenari semplici e unità di produzione da modellizzazione in una singola architettura dimensionabili. Uno sguardo più attenzione al concetto di attività risulta una nuova semplicità per gli utenti che richiedono la: floor e i lavoratori di Logistica. Con la segnalazione rispetto ai processi basati su attività anziché la segnalazione delle transazioni di magazzino, un'interfaccia utente unificata per tutte le varianti di lean manufacturing trasferisce la complessità aziendale dall'interfaccia utente all'area a cui appartiene: il flusso di produzione come spina dorsale della lean manufacturing.
+Per l'implementazione di Lean Manufacturing per Dynamics AX, scegliamo l'approccio di un flusso di produzione e di un'attività che consente di modellare scenari di produzione semplici e complessi in un'unica architettura scalabile. Uno sguardo più attento al concetto di attività rivela una nuova semplicità per gli utenti che ne hanno necessità: i lavoratori dei reparti shop floor e logistica. Con la segnalazione rispetto ai processi basati su attività anziché la segnalazione delle transazioni di magazzino, un'interfaccia utente unificata per tutte le varianti di lean manufacturing trasferisce la complessità aziendale dall'interfaccia utente all'area a cui appartiene: il flusso di produzione come spina dorsale della lean manufacturing.
 
 

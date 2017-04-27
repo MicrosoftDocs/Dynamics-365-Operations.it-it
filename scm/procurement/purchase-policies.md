@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Criteri acquisto
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sui criteri di acquisto. I criteri di acquisto rappresentano raccolte di regole per il controllo del processo di richiesta di acquisto. I criteri di acquisto consentono agli amministratori di approvvigionamento di implementare la strategia di approvvigionamento creando una struttura di criteri in linea con le esigenze per gli acquisti strategici dell'organizzazione.
 
 I criteri di acquisto sono sostituiti da un insieme di regole dei criteri. Quando si definisce una regola dei criteri, è necessario selezionare innanzitutto un tipo di regola. Si crea quindi una regola per il tipo di regola definendo le relative impostazioni, la data di inizio e la data di fine.  
@@ -41,11 +44,11 @@ A seconda della modalità di configurazione dei criteri di acquisto, gli utenti 
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>Esempio 1: configurazione semplice dei criteri di acquisto
 
-Le organizzazioni che vengono trasferite e la meno complessa possibile impostare i criteri di acquisto da persona giuridica e possono utilizzare la gerarchia organizzativa delle società.  
+Le organizzazioni di piccole dimensioni e meno complesse possono impostare i criteri di acquisto in base alla persona giuridica e possono utilizzare solo la gerarchia organizzativa Società.  
 
 Per Fabrikam, un'azienda di piccole dimensioni, le esigenze di acquisto a livello di organizzazione variano poco. Le regole di acquisto variano solo tra le persone giuridiche dell'organizzazione. Ad esempio, i dipendenti di Fabrikam Canada e quelli di Fabrikam negli Stati Uniti acquistano prodotti e servizi da cataloghi e fornitori diversi. Di conseguenza, Fabrikam imposta i criteri di acquisto a livello di persona giuridica.  
 
-Fabrikam crea due criteri di acquisto. I criteri A vengono applicati alla persona giuridica negli Stati Uniti, 1111. I criteri B vengono applicati alla persona giuridica 2222 in Canada. Quando un dipendente nella persona giuridica 1111 crea una richiesta di acquisto, le regole dei criteri vengono ricavate dai criteri A. Ad esempio, il catalogo prodotti visualizzato dal dipendente è specificato nella regola dei criteri dei criteri A.  
+Fabrikam crea due criteri di acquisto. I criteri A vengono applicati alla persona giuridica 1111 negli Stati Uniti. I criteri B vengono applicati alla persona giuridica 2222 in Canada. Quando un dipendente nella persona giuridica 1111 crea una richiesta di acquisto, le regole dei criteri vengono ricavate dai criteri A. Ad esempio, il catalogo prodotti visualizzato dal dipendente è specificato nella regola dei criteri dei criteri A.  
 
 Quando un dipendente nella persona giuridica 2222 crea una richiesta di acquisto, le regole dei criteri vengono ricavate dai criteri B.  
 
@@ -117,7 +120,7 @@ La regola di controllo rifornimento è una regola facoltativa che definisce i ca
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Regola di consolidamento domanda e creazione ordini fornitore
 
-Regola di consolidamento domanda e creazione dell'ordine fornitore definisce le regole dei criteri da utilizzare quando viene generato un ordine fornitore da una richiesta di acquisto approvata. Quando si creano regole di questo tipo, è possibile impostare delle opzioni nelle varie schede:
+La regola di consolidamento domanda e creazione ordini fornitore definisce le regole dei criteri da utilizzare quando viene generato un ordine fornitore da una richiesta di acquisto approvata. Quando si creano regole di questo tipo, è possibile impostare delle opzioni nelle varie schede:
 
 -   Nella scheda **Divisione ordine fornitore** è possibile definire i criteri per dividere le righe di richiesta di acquisto in ordini acquisto distinti.
 -   Nella scheda **Trasferimento prezzi/sconti** è possibile definire quando ricalcolare l'accordo sul prezzo durante la creazione di un ordine acquisto:
@@ -126,7 +129,7 @@ Regola di consolidamento domanda e creazione dell'ordine fornitore definisce le 
 
     È inoltre possibile consentire al richiedente di modificare il metodo di trasferimento dello sconto e del prezzo per le singole righe di acquisto, indipendentemente dalla regola di trasferimento sconto/prezzo definita. Selezionare l'opzione **Consenti forzatura manuale per la riga richiesta di acquisto** per attivare questa funzionalità.
 -   Nella scheda **Trasferimento descrizione articolo** è possibile trasferire la descrizione dell'articolo dalla richiesta quando viene originata da una RdO.
--   Nella scheda **Tolleranza prezzi** è possibile definire le regole per instradare di nuovo le richieste di acquisto approvate attraverso il processo di revisione quando il prezzo di un articolo del catalogo di approvvigionamento aumenta. Impostare l'importo massimo di cui l'importo netto in una voce di una richiesta di acquisto può aumentare tra il momento dell'approvazione della richiesta di acquisto e il momento della creazione dell'ordine acquisto. L'importo netto viene calcolato utilizzando la seguente formula: (spese varie dell'unità di\] + prezzo di acquisto di ÷ × Quantità\[(prezzo unitario - Sconto) le righe della richiesta di acquisto di 100 ÷ × (100 - sconti percentuale) che superano la tolleranza prezzi impostata vengono elaborate manualmente. Le regole che si configurano nella scheda **Elaborazione errore** determinano la modalità di elaborazione delle righe della richiesta di acquisto.
+-   Nella scheda **Tolleranza prezzi** è possibile definire le regole per instradare di nuovo le richieste di acquisto approvate attraverso il processo di revisione quando il prezzo di un articolo del catalogo di approvvigionamento aumenta. Impostare l'importo massimo di cui l'importo netto in una voce di una richiesta di acquisto può aumentare tra il momento dell'approvazione della richiesta di acquisto e il momento della creazione dell'ordine acquisto. L'importo netto viene calcolato utilizzando la formula seguente: (\[Quantità × (Prezzo unitario - Sconto) ÷ Prezzo unitario\]  + Spese varie di acquisto) × (100 – Percentuale di sconto) ÷ 100. Le righe richiesta di acquisto che superano la tolleranza di prezzo impostata sono conservate per l'elaborazione manuale. Le regole che si configurano nella scheda **Elaborazione errore** determinano la modalità di elaborazione delle righe della richiesta di acquisto.
 -   Nella scheda **Elaborazione errore** è possibile configurare la regola di elaborazione che viene applicata a una richiesta di acquisto se durante la creazione l'ordine di acquisto fallisce la convalida a causa di un errore del fornitore o un errore nella tolleranza del prezzo. Consente di selezionare una delle opzioni indicate di seguito.
     -   **Nessuna azione** - Le righe della richiesta di acquisto rimangono nella pagina **Rilascia richieste di acquisto approvate**. Lo stato delle righe di richiesta di acquisto rimane impostato su **Approvata**. Tuttavia, è necessario risolvere gli errori affinché sia possibile generare un ordine fornitore per le righe di richiesta di acquisto.
     -   **Annulla la riga della richiesta di acquisto** - Le righe della richiesta di acquisto vengono annullate. Tuttavia, il richiedente può creare una nuova richiesta di acquisto per le righe annullate se desidera richiedere le voci.
@@ -141,6 +144,8 @@ Regola di consolidamento domanda e creazione dell'ordine fornitore definisce le 
     -   **Non consentire consolidamento domanda** - Nessuna riga della richiesta di acquisto è idonea per il consolidamento della domanda. Questa opzione è selezionata per impostazione predefinita e si applica solo alle righe di richiesta di acquisto che richiedono l'elaborazione manuale per la creazione dell'ordine fornitore.
     -   **Consenti sempre consolidamento domanda** - Tutte le righe della richiesta di acquisto sono idonee per il consolidamento della domanda. **Nota:** se si seleziona l'opzione **Consenti sempre consolidamento domanda** nella scheda **Consolidamento domanda** ma si seleziona l'opzione **Crea automaticamente ordini fornitore** nella scheda **Creazione manuale ordini fornitore**, tutte le richieste di acquisto vengono conservate per l'elaborazione manuale.
     -   **Consenti consolidamento domanda in queste condizioni** - Definire i criteri che determinano se le righe della richiesta di acquisto approvata sono idonee al consolidamento della domanda. Per ogni tipo di riga di richiesta di acquisto è possibile impostare i criteri in base alla categoria di approvvigionamento e al fornitore. Se si seleziona **Consenti consolidamento domanda in queste condizioni**, è possibile impostare i criteri in base alla categoria di approvvigionamento e al fornitore per ciascun tipo di riga della richiesta di acquisto. Quando si seleziona una categoria di approvvigionamento, vengono selezionate anche tutte le sottocategorie definite per tale categoria di approvvigionamento. Se si seleziona l'opzione **Tutte** per un tipo di riga specifico, tutte le righe della richiesta di acquisto di tale tipo saranno idonee per il consolidamento della domanda.
+
+
 
 
 

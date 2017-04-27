@@ -1,6 +1,6 @@
 ---
-title: "Recentemente aggiunto modificando le funzionalità in Registrazione attività"
-description: "Se si utilizza la funzione Registrazione attività per creare le aree di attività, è possibile modificare più efficiente i file utilizzando la funzionalità descritta in questo wiki."
+title: "Funzionalità di modifica recentemente aggiunte in Registrazione attività"
+description: "Se si utilizza Registrazione attività per creare guide attività, è possibile modificare i file in modo più efficiente utilizzando la funzionalità descritta in questo wiki."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,66 +25,66 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recently-added-editing-features-in-task-recorder"></a>Recentemente aggiunto modificando le funzionalità in Registrazione attività
+# <a name="recently-added-editing-features-in-task-recorder"></a>Funzionalità di modifica recentemente aggiunte in Registrazione attività
 
-Se si utilizza la funzione Registrazione attività per creare le aree di attività, è possibile modificare più efficiente i file utilizzando la funzionalità descritta in questo wiki.
+Se si utilizza Registrazione attività per creare guide attività, è possibile modificare i file in modo più efficiente utilizzando la funzionalità descritta in questo wiki.
 
-Queste funzionalità sono disponibili ** registrazione &gt; di modifica Registrazione &gt; attività le impostazioni ** il menu.
+Queste funzioni sono disponibili nel menu **Impostazioni &gt; Registrazione attività &gt; Modifica registrazione**.
 
--   Inserire i passaggi senza immettere di nuovo l'intero file.
--   Spostare i passaggi in una secondario senza immettere di nuovo l'intero file.
--   Campi di nome e descrizione del giornale di crollo.
+-   Inserire i passaggi senza registrare di nuovo l'intero file.
+-   Spostare i passaggi in un'attività secondaria senza registrare di nuovo l'intero file.
+-   Comprimere i campi del nome e della descrizione della registrazione.
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Inserire i passaggi senza immettere di nuovo l'intero file
-È possibile aggiungere un passaggio in un punto qualsiasi in una guida di attività senza riprodure o immettere di nuovo l'intero file.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Inserire i passaggi senza registrare di nuovo l'intero file
+È possibile ora aggiungere un passaggio in qualsiasi punto in una guida attività senza riprodurre o registrare di nuovo l'intero file.
 
-1.  Selezionare la fase di scadenza che si desidera inserire il nuovo passaggio inserire. Verificare che il passaggio sia evidenziato.
+1.  Selezionare il passaggio dopo il quale si desidera inserire il nuovo passaggio. Verificare che il passaggio sia evidenziato.
 
-Per consentire la funzione Registrazione attività per inserire un passaggio, è necessario che la pagina aperta corretta. Verrà visualizzata la pagina corretta la finestra in cui il nuovo processo si verifica. In Registrazione attività è un meccanismo che determina la finalità della pagina è attiva e renderà non valida la funzionalità se la pagina corretta non aperta. 
+Per consentire a Registrazione attività di inserire un passaggio, è necessario che sia aperta la pagina corretta. La pagina corretta è quella in cui viene effettuato il nuovo passaggio. Registrazione attività dispone di un meccanismo che determina qual è la pagina attiva e disabiliterà la funzionalità se la pagina corretta non è aperta. 
 
-![[] (tg1. /media/tg1.png)](. /media/tg1.png) 
+[![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Al nella pagina corretta, ** passaggio di inserimento ** diventa disponibile.
+Se è aperta la pagina corretta, l'opzione **Inserisci passaggio** diventa disponibile.
 
-![[] (tg2. /media/tg2-231x300.png)](. /media/tg2.png)
+[![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. Fare clic su ** passaggio di inserimento **.
+2. Fare clic su **Inserisci passaggio**.
 
-Quando si fa clic su ** passaggio di inserimento **, i record Switch registrazione della modalità record. Qualsiasi azione del installata ora verrà registrata e aggiunte configurati come operazioni.
+Quando si fa clic su **Inserisci passaggio**, Registrazione attività passa alla modalità di registrazione. Qualsiasi azione intrapresa nell'interfaccia utente verrà ora registrata e aggiunta sul posto come passaggi.
 
-3. Fare clic su ** ** interruzione.
+3. Fare clic su **Interrompi**.
 
-È possibile ripetere il processo, l'aggiunta di un numero illimitato di operazioni o spostare tutti i compiti secondari e Nuovo margine (vedere di seguito per i compiti secondari).
+È possibile ripetere il processo, aggiungendo un numero illimitato di passaggi o spostando tutte le attività secondarie necessarie (vedere di seguito per le attività secondarie).
 
-4. Al termine di modifica della Guida di attività, fare clic su ** modificare i fatti ** quindi selezionare una delle opzioni per salvare o emettere la Guida di attività.
+4. Al termine della modifica della guida attività, fare clic su **Fine modifica**, quindi selezionare una delle opzioni per salvare o pubblicare la guida attività.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Spostare i passaggi in una secondario senza immettere di nuovo l'intero file
-È possibile spostare i passaggi in una secondario senza riprodure o immettere di nuovo l'intero file. È inoltre possibile spostare il passaggio di una secondario o il passaggio di una secondario di fine per raggruppare un blocco esistente di passaggi.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Spostare i passaggi in un'attività secondaria senza registrare di nuovo l'intero file
+È possibile spostare i passaggi in un'attività secondaria senza riprodurre o registrare di nuovo l'intero file. È inoltre possibile spostare il passaggio dell'attività secondaria o il passaggio dell'attività secondaria finale se si desidera raggruppare un blocco esistente di passaggi.
 
-1.  Selezionare la fase o il passaggio di una secondario che si desidera spostare. Verificare che il passaggio sia evidenziato.
-2.  Fare clic su ellissi, quindi fare clic su ** spostare il passaggio dopo **.
+1.  Selezionare il passaggio o il passaggio dell'attività secondaria che si desidera spostare. Verificare che il passaggio sia evidenziato.
+2.  Fare clic sui puntini di sospensione, quindi su **Sposta passaggio dopo**.
 
-![[] (tg3. /media/tg3.png)](. /media/tg3.png)
+[![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Selezionano il passaggio o il passaggio di una secondario che si desidera spostare dopo il passaggio o il passaggio di una secondario. In Registrazione attività muoverà il passaggio.
+3. Selezionare il passaggio o il passaggio di un'attività secondaria dopo il quale si desidera spostare il passaggio o il passaggio dell'attività secondaria. Registrazione attività sposterà il passaggio.
 
-4. Per spostare il passaggio di una secondario di fine, selezionarlo, fare clic sugli ellissi, fare clic su ** spostare il passaggio dopo ** quindi selezionare il passaggio di scadenza che si desidera il passaggio di una secondario di fine possibile.
+4. Per spostare il passaggio di un'attività secondaria finale, selezionarlo, fare clic sui puntini di sospensione, quindi su **Sposta passaggio dopo**, quindi selezionare il passaggio dopo il quale si desidera inserire il passaggio dell'attività secondaria finale.
 
-Se si desidera che il primo passaggio nella Guida di attività trovarsi in una secondario, creare un passaggio della secondario come secondo passaggio quindi immettere la prima fase in. È possibile aggiungere o spostare tutti i passaggi o compiti secondari secondo le esigenze.
+Se si desidera che il primo passaggio nella guida attività sia all'interno di un'attività secondaria, creare un passaggio dell'attività secondaria come secondo passaggio, quindi spostare il primo passaggio all'interno di esso. È possibile aggiungere o spostare tutti i passaggi o le attività secondarie necessari.
 
-5. Al termine di modifica della Guida di attività, fare clic su ** modificare i fatti ** quindi selezionare una delle opzioni per salvare o emettere la Guida di attività.
+5. Al termine della modifica della guida attività, fare clic su **Fine modifica**, quindi selezionare una delle opzioni per salvare o pubblicare la guida attività.
 
-## <a name="collapse-recording-name-and-description"></a>Nome e la descrizione di registrazione di crollo
-È possibile espandere e comprimere ** nome di registrazione e ** ** descrizione di registrazione ** campi. Quando questi campi sono crollati, più passaggi saranno visibili in Registrazione attività di modificare il riquadro. 
+## <a name="collapse-recording-name-and-description"></a>Comprimere nome e descrizione della registrazione
+È possibile espandere e comprimere i campi **Nome registrazione** e **Descrizione registrazione**. Quando questi campi sono compressi, più passaggi saranno visibili nel riquadro di modifica Registrazione attività. 
 
-![[] (tg4. /media/tg4-300x252.png)](. /media/tg4.png)  
+[![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
 <a name="see-also"></a>Vedere anche
 --------
 
 [Creare documentazione o formazione utilizzando le registrazioni di attività](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-Riferimento veloce [] Registrazione attività (/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Riferimento rapido Registrazione attività](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

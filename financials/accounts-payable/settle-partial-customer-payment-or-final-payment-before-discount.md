@@ -1,5 +1,5 @@
 ---
-title: Liquidare un pagamento parziale del cliente e il pagamento totale finale prima della data dello sconto
+title: Liquidare un pagamento cliente parziale e il pagamento finale completo prima della data dello sconto
 description: Questo articolo fornisce scenari che illustrano come registrare pagamenti parziali per un cliente e applicare sconti di cassa all&quot;interno del periodo dello sconto di cassa.
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidare un pagamento parziale del cliente e il pagamento totale finale prima della data dello sconto
+# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidare un pagamento cliente parziale e il pagamento finale completo prima della data dello sconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce scenari che illustrano come registrare pagamenti parziali per un cliente e applicare sconti di cassa all'interno del periodo dello sconto di cassa.
 
-Fabrikam vendita di merci al cliente 4028. Fabrikam offre uno sconto di cassa del 1 se la fattura viene pagata in 14 giorni. Le fatture devono essere pagate in 30 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano ** parametri di contabilità clienti ** nella pagina.
+Fabrikam vende merci al cliente 4028. Fabrikam offre uno sconto di cassa dell'1% se la fattura viene pagata entro 14 giorni. Le fatture devono essere pagate in 30 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano nella pagina **Parametri contabilità clienti**.
 
 ## <a name="customer-invoice"></a>Fattura cliente
-Il 25 giugno, Arnie immette e registra una fattura di 1,000.00 per il cliente 4028. Arnie può visualizzare la transazione nella pagina** Transazioni cliente**.
+Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 4028. Arnie può visualizzare la transazione nella pagina** Transazioni cliente**.
 
 | Giustificativo   | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -63,14 +66,14 @@ Arnie fa clic sulla scheda **Sconto di cassa** per visualizzare l'importo dello 
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Pagamento parziale utilizzando la pagina Pagamenti cliente
-Il cliente 4028 il 1° luglio invia un pagamento di 500.00. Immettere il pagamento, Arnie non su ** ** righe. Invece, registra il pagamento creando un nuovo giornale di registrazione pagamenti e quindi aprendo la pagina **Pagamenti cliente**. Immette le informazioni sul pagamento e contrassegna la fattura immessa. Quando Arnie immette **500,00** come importo, immette anche **500,00** nel campo **Importo da pagare** nella griglia. Poiché Fabrikam consente uno sconto di cassa sui pagamenti parziali, vede che verrà applicato uno sconto di cassa parziale di 5,05. Il calcolo di questo sconto è 500,00/0,99 × 0,01 = 5,05. Nel calcolo, 500,00 viene diviso per 0,99 poiché è presente uno sconto dell'1%. Di conseguenza, il cliente paga il 99% della fattura. Il risultato viene quindi moltiplicato per la percentuale di sconto, che è pari all'1% o 0,01. Se il cliente ha lo sconto totale di 10.00, l'importo che deve essere liquidato sarà 990.00). Informazioni sullo sconto visualizzate nella griglia nella parte inferiore ** immettere pagamenti cliente ** nella pagina.
+Il cliente 4028 invia un pagamento di 500,00 il 1° luglio. Per immettere il pagamento, Arnie non fa clic su **Righe**. Invece, registra il pagamento creando un nuovo giornale di registrazione pagamenti e quindi aprendo la pagina **Pagamenti cliente**. Immette le informazioni sul pagamento e contrassegna la fattura immessa. Quando Arnie immette **500,00** come importo, immette anche **500,00** nel campo **Importo da pagare** nella griglia. Poiché Fabrikam consente uno sconto di cassa sui pagamenti parziali, vede che verrà applicato uno sconto di cassa parziale di 5,05. Il calcolo di questo sconto è 500,00/0,99 × 0,01 = 5,05. Nel calcolo, 500,00 viene diviso per 0,99 poiché è presente uno sconto dell'1%. Di conseguenza, il cliente paga il 99% della fattura. Il risultato viene quindi moltiplicato per la percentuale di sconto, che è pari all'1% o 0,01. Se il cliente prende lo sconto totale di 10,00, l'importo che deve essere liquidato sarà 990,00. Informazioni sullo sconto appaiono nella griglia nella parte inferiore della pagina **Pagamenti cliente**.
 
 | Importo sconto di cassa da applicare | Sconto di cassa applicato | Importo da pagare |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Pagamento parziale tramite le righe del giornale di registrazione
-Anziché aprire la pagina **Pagamenti cliente** nel giornale di registrazione pagamenti, Arnie può fare clic su **Righe** per immettere un pagamento. Il giornale di registrazione pagamenti finestra di dialogo, Arnie può fornire una riga per il cliente 4028. Arnie apre quindi la pagina **Liquida transazioni**, in modo che sia possibile contrassegnare la fattura per la liquidazione. Arnie contrassegna la fattura e modifica il valore nel campo **Importo da liquidare** su **-500,00**. Vede che il valore nel campo **Importo sconto di cassa** è **10,00** per l'intera fattura e che il valore nel campo **Importo sconto di cassa da applicare** è **5,05**. Di conseguenza, Arnie sta liquidando 505,05 della fattura.
+Anziché aprire la pagina **Pagamenti cliente** nel giornale di registrazione pagamenti, Arnie può fare clic su **Righe** per immettere un pagamento. Il giornale di registrazione pagamenti viene visualizzato in cui Arnie può immettere una riga per il cliente 4028. Arnie apre quindi la pagina **Liquida transazioni**, in modo che sia possibile contrassegnare la fattura per la liquidazione. Arnie contrassegna la fattura e modifica il valore nel campo **Importo da liquidare** su **-500,00**. Vede che il valore nel campo **Importo sconto di cassa** è **10,00** per l'intera fattura e che il valore nel campo **Importo sconto di cassa da applicare** è **5,05**. Di conseguenza, Arnie sta liquidando 505,05 della fattura.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -143,6 +146,8 @@ Arnie registra questo giornale e rivede le transazioni nella pagina **Transazion
 | DISC-10010 | Sconto di cassa    | 1/7/2015  |         |                                      | 5,00                                  | 0,00    | GBP      |
 | ARP-10011  | Pagamento          | 8/7/2015  |         |                                      | 495,00                                | 0,00    | GBP      |
 | DISC-10011 | Sconto di cassa    | 8/7/2015  |         |                                      | 5,00                                  | 0,00    | GBP      |
+
+
 
 
 

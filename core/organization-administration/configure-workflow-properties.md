@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>Configurare le proprietà di un flusso di lavoro
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento viene descritto come configurare le proprietà per un flusso di lavoro.
 
 Per configurare le proprietà di un flusso di lavoro, aprirlo nell'editor flusso di lavoro. Fare clic sulla canvas dell'editor flusso di lavoro, quindi scegliere **Proprietà** per aprire la pagina **Proprietà**. Per configurare le diverse proprietà del flusso di lavoro, attenersi alle procedure indicate di seguito.
@@ -147,10 +150,10 @@ Quando si invia un documento per l'elaborazione, viene creata un'istanza del flu
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Nella scheda <strong>Destinatario</strong>, fare clic su <strong>Utente</strong>.</li>
-    <li><strong>Utente</strong> Nella <strong>Utenti disponibili</strong> scheda, l'elenco include qualsiasi Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nella scheda <strong>Utente</strong>, nell'elenco <strong>Utenti disponibili</strong> sono presenti tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ Per immettere commenti sulle modifiche apportate al flusso di lavoro, effettuare
 2.  Nel campo **Immettere commenti sul flusso di lavoro** immettere i commenti.
 3.  Rivedere i commenti. Dopo aver aggiunto i commenti, non sarà più possibile modificarli.
 4.  Fare clic su **Aggiungi** per aggiungere commenti all'are **Cronologia commenti**.
+
+
 
 
 

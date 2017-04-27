@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Pagamenti centralizzati per la contabilità fornitori
 
+[!include[banner](../includes/banner.md)]
+
+
 Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una sola persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Questo articolo fornisce esempi che indicano come gestire la registrazione dei pagamenti centralizzati in diversi scenari.
 
 Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Inoltre, l'organizzazione risparmia tempo, poiché il processo di pagamento viene semplificato.
@@ -66,14 +69,14 @@ Fabrikam East ha una fattura aperta per il conto fornitore 100, Fourth Coffee. F
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Pagamento Fabrikam liquidato con fattura Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                           | Importo in Dare | Importo in Avere |
 |-----------------------------------|--------------|---------------|
 | Dovuto da Fabrikam East (Fabrikam) | 600,00       |               |
 | Contabilità fornitori (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                          | Importo in Dare | Importo in Avere |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam East ha una fattura aperta per il fornitore 100, Fourth Coffee. Per la 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Pagamento Fabrikam liquidato con fattura Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                           | Importo in Dare | Importo in Avere |
 |-----------------------------------|--------------|---------------|
 | Dovuto da Fabrikam East (Fabrikam) | 580,00       |               |
 | Contabilità fornitori (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                          | Importo in Dare | Importo in Avere |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam East ha una fattura aperta per il fornitore 100, Fourth Coffee. Fabrika
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Pagamento Fabrikam liquidato con fattura Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                           | Importo in Dare            | Importo in Avere           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam East ha una fattura aperta per il fornitore 100, Fourth Coffee. Fabrika
 | Perdita realizzata (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
 | Dovuto da Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                          | Importo in Dare            | Importo in Avere           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam East ha una fattura aperta per il fornitore 100, Fourth Coffee. Per la 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Pagamento Fabrikam liquidato con fattura Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                           | Importo in Dare            | Importo in Avere           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam East ha una fattura aperta per il fornitore 100, Fourth Coffee. Per la 
 | Perdita realizzata (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
 | Dovuto da Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                          | Importo in Dare            | Importo in Avere           |
 |----------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam East ha una fattura aperta per il fornitore 100, Fourth Coffee. Per la 
 | Sconto di cassa (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Esempio 5: nota di accredito fornitore con pagamento primario
-Fabrikam genera un pagamento di 75,00 per il fornitore 3004, Fourth Coffee. Il pagamento viene liquidato con una fattura aperta per il fornitore 3004 di Fabrikam West e una nota di accredito aperta per il fornitore 100 di Fabrikam East. Il pagamento viene selezionato come pagamento primario ** transazioni liquidati ** nella pagina.
+Fabrikam genera un pagamento di 75,00 per il fornitore 3004, Fourth Coffee. Il pagamento viene liquidato con una fattura aperta per il fornitore 3004 di Fabrikam West e una nota di accredito aperta per il fornitore 100 di Fabrikam East. Il pagamento viene selezionato come pagamento primario nella pagina **Liquida transazioni**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Fattura registrata in Fabrikam West per il fornitore 3004
 
@@ -224,7 +227,7 @@ Fabrikam genera un pagamento di 75,00 per il fornitore 3004, Fourth Coffee. Il p
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Pagamento Fabrikam liquidato con fattura Fabrikam West e nota di accredito Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                           | Importo in Dare | Importo in Avere |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam genera un pagamento di 75,00 per il fornitore 3004, Fourth Coffee. Il p
 | Dovuto da Fabrikam West (Fabrikam) | 100,00       |               |
 | Contabilità fornitori (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                           | Importo in Dare | Importo in Avere |
 |-----------------------------------|--------------|---------------|
 | Dovuto da Fabrikam (Fabrikam East) | 25,00        |               |
 | Contabilità fornitori (Fabrikam East)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Registrazione Fabrikam West**
 
 | Conto                          | Importo in Dare | Importo in Avere |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam genera un pagamento di 75,00 per il fornitore 3004, Fourth Coffee. Il p
 | Dovuto a Fabrikam (Fabrikam West)  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Esempio 6: nota di accredito fornitore senza pagamento primario
-Fabrikam genera un pagamento di 75,00 per il fornitore 3004, Fourth Coffee. Il pagamento viene liquidato con una fattura aperta per il fornitore 3004 di Fabrikam West e una nota di accredito aperta per il fornitore 100 di Fabrikam East. Il pagamento non viene selezionato come pagamento primario ** transazioni liquidati ** nella pagina.
+Fabrikam genera un pagamento di 75,00 per il fornitore 3004, Fourth Coffee. Il pagamento viene liquidato con una fattura aperta per il fornitore 3004 di Fabrikam West e una nota di accredito aperta per il fornitore 100 di Fabrikam East. Il pagamento non viene selezionato come pagamento primario nella pagina **Liquida transazioni**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Fattura registrata in Fabrikam West per il fornitore 3004
 
@@ -273,21 +276,21 @@ Fabrikam genera un pagamento di 75,00 per il fornitore 3004, Fourth Coffee. Il p
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Pagamento Fabrikam liquidato con fattura Fabrikam West e nota di accredito Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                           | Importo in Dare | Importo in Avere |
 |-----------------------------------|--------------|---------------|
 | Dovuto da Fabrikam West (Fabrikam) | 75,00        |               |
 | Contabilità fornitori (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                                | Importo in Dare | Importo in Avere |
 |----------------------------------------|--------------|---------------|
 | Dovuto da Fabrikam West (Fabrikam East) | 25,00        |               |
 | Contabilità fornitori (Fabrikam East)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Registrazione Fabrikam West**
 
 | Conto                              | Importo in Dare | Importo in Avere |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam genera un pagamento di 75,00 per il fornitore 3004, Fourth Coffee. Il p
 | Dovuto a Fabrikam (Fabrikam West)      |              | 75,00         |
 | Contabilità fornitori (Fabrikam West)     | 25,00        |               |
 | Dovuto a Fabrikam East (Fabrikam West) |              | 25,00         |
+
+
 
 
 

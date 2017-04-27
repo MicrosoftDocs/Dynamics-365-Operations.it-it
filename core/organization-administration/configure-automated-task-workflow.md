@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-an-automated-task-in-a-workflow"></a>Configurare un'attività automatica in un flusso di lavoro
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento viene descritto come configurare le proprietà per un'attività automatica.
 
 Per configurare un'attività automatica, nell'editor flusso di lavoro fare clic con il pulsante destro del mouse sull'attività e scegliere **Proprietà** per aprire la pagina **Proprietà**. Per configurare le proprietà dell'attività automatica, attenersi alle procedure indicate di seguito.
@@ -92,16 +95,18 @@ Per immettere un nome per l'attività automatica, effettuare le operazioni indic
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Microsoft Dynamics specifico 365 per gli utenti di operazioni</td>
+    <td>Utenti di Microsoft Dynamics 365 for Operations specifici</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li><strong>Utenti disponibili</strong> Nell'elenco sono inclusi l'eventuale Dynamics 365 per gli utenti delle operazioni. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  Ripetere i passaggi dal 3 al 7 per ciascun evento selezionato nel passaggio 2.
+
+
 
 
 

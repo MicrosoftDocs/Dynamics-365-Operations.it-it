@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Impostare ed elaborare fatture ricorrenti
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo illustra come impostare ed elaborare le fatture ricorrenti. È possibile utilizzare le fatture ricorrenti se è necessario fatturare ai clienti lo stesso importo su base regolare.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Creare un modello di fattura ricorrente a testo libero
@@ -61,5 +64,7 @@ Stampare fatture a testo libero ricorrenti
 ----------------------------------
 
 Dopo la registrazione delle fatture ricorrenti, è possibile stampare le fatture dalla pagina elenco delle fatture a testo libero. È possibile stampare le fatture selezionate oppure selezionare un intervallo di fatture da stampare.
+
+
 
 

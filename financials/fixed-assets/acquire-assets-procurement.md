@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Acquisire cespiti tramite approvvigionamento
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo descrive come impostare l'integrazione di Cespiti con la contabilità fornitori in modo da consentire la creazione automatica di cespiti a partire da ordini o fatture fornitore oppure la registrazione automatica di transazioni di acquisizione e di rettifica acquisizione per i cespiti.
 
  Sono disponibili i seguenti metodi per l'integrazione di Cespiti e Contabilità fornitori. È necessario utilizzare lo stesso metodo per tutti i cespiti.
@@ -103,6 +106,8 @@ Per questo scenario sono possibili le seguenti varianti:
 -   Se viene ricevuta solo una quantità parziale, non verrà creata alcuna acquisizione cespiti per la prima fattura fornitore a causa delle restrizioni relative al gruppo utenti. Sarà possibile registrare un'acquisizione per la seconda fattura fornitore che completa la quantità ordinata solo nel caso in cui sia già stata immessa una transazione di acquisizione per la prima fattura fornitore e si appartenga al gruppo utenti autorizzato a registrare le acquisizioni.
 
 
-Per ulteriori informazioni, vedere [] integrazione cespiti (fixed-asset-integration.md).
+Per ulteriori informazioni, vedere [Integrazione dei cespiti](fixed-asset-integration.md).
+
+
 
 

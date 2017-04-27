@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-entry-deadlines"></a>Termini per registrazione ordine
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulle scadenze di registrazione ordine. Una scadenza di registrazione ordine è un tempo limite che determina se un ordine cliente è considerato (ed evaso) come ricevuto il giorno corrente o il giorno successivo.
 
 In molte società vige una regola secondo cui solo gli ordini cliente pervenuti entro una certa ora del giorno vengono considerati come ricevuti in quel giorno. Tutti gli ordini ricevuti dopo tale scadenza vengono trattati come se ricevuti il giorno lavorativo successivo. Questo tempo limite per gli ordini è conosciuto come termine per la registrazione degli ordini.  
 
-I termini per la registrazione degli ordini vengono utilizzati come input per le promesse di ordine. Di conseguenza, consentono di gestire le aspettative cliente sulle consegne di ordini. Ad esempio, i clienti possono vedere che, se effettuano un ordine prima di un ora specifica, vi impegnerete a spedire le merci lo stesso giorno. Tuttavia, se mancano il termine, possono prevedere la spedizione solo nel day business successivo. È possibile impostare i termini per l'inserimento di ordini basati sulle capacità di magazzino e programmazioni di gestione delle spedizioni.  
+I termini per la registrazione degli ordini vengono utilizzati come input per le promesse di ordine. Di conseguenza, consentono di gestire le aspettative cliente sulle consegne di ordini. Ad esempio, i clienti possono vedere che, se effettuano un ordine prima di un ora specifica, vi impegnerete a spedire le merci lo stesso giorno. Tuttavia, se non rispettano la scadenza, possono prevedere la spedizione solo il giorno lavorativo successivo. È possibile impostare i termini per l'inserimento di ordini in base alle capacità di magazzino e alle programmazioni del vettore di spedizione.  
 
 Gli orari dei termini di registrazione degli ordini per tutti i giorni della settimana vengono impostati nella pagina **Termini per registrazione ordine.** Se gli ordini vengono ricevuti dopo gli orari specificati, vengono trattati come se ricevuti il giorno lavorativo successivo. Per impostazione predefinita, questi orari sono impostati su 23.59, ovvero un minuto prima della mezzanotte del giorno pertinente. L'ora predefinita può essere modificata in modo che coincida con l'ora di scadenza di spedizione o di entrata effettiva.  
 
@@ -43,7 +46,7 @@ Nel caso ad esempio di una società presente in più siti, è possibile impostar
 Nella pagina **Attiva combinazioni di termini per la registrazione ordine** si definiscono le combinazioni di siti e gruppi di termini per la registrazione ordine consentite.
 
 ## <a name="example-order-entry-deadline"></a>Esempio: termine per la registrazione ordine
-Il termine per la registrazione ordine del martedì è stato impostato su 16.00. Un determinato martedì, alle 17.00, si tenta di impostare la data corrente come data di spedizione. Nota (non è presente alcun lead time per questo esempio). ** Se controllo della data di consegna ** la casella di controllo è selezionata, viene visualizzato un avviso indicante che la data non è valida. Questo avviso viene visualizzato nella pagina **Date di spedizione e di ricevimento disponibili**, in cui è possibile selezionare le date alternative.
+Il termine per la registrazione ordine del martedì è stato impostato su 16.00. Un determinato martedì, alle 17.00, si tenta di impostare la data corrente come data di spedizione. Notare che non c'è lead time per questo esempio. Se la casella di controllo **Controllo data di consegna** è selezionata, viene visualizzato un avviso che indica che la data non è valida. Questo avviso viene visualizzato nella pagina **Date di spedizione e di ricevimento disponibili**, in cui è possibile selezionare le date alternative.
 
 ## <a name="example-different-order-entry-deadlines-per-site"></a>Esempio: termini per la registrazione ordine diversi in base al sito
 La società è presente in due siti I siti si trovano in fusi orari diversi, come illustrato nella seguente tabella.
@@ -55,7 +58,7 @@ La società è presente in due siti I siti si trovano in fusi orari diversi, com
 
 Nei siti A e B sono stati definiti i seguenti termini per la registrazione ordine.
 
-| Giorno della settimana             | A: Termini per inserimento ordini (Ora solare Pacifico) | B: Termini per inserimento ordini (Ora solare fuso orientale) |
+| Giorno della settimana             | A: Termini per registrazione ordine (Ora solare Pacifico) | B: Termini per registrazione ordine (Ora solare fuso orientale) |
 |-----------------------------|--------------------------------|--------------------------------|
 | Lunedì                      | 13.00                          | 14:00:00                          |
 | Martedì                     | 13.00                          | 14:00:00                          |
@@ -67,7 +70,7 @@ L'addetto all'elaborazione degli ordini si trova nello Utah dove è in vigore l'
 
 Nella seguente tabella viene illustrato in che modo i termini per la registrazione ordine per i siti A e B vengono convertiti in base all'ora solare del fuso occidentale.
 
-| Sito A: Ora solare Pacifico         | Sito A: A        | Sito B: Ora solare fuso orientale           | Sito B: A        |
+| Sito A: Ora solare Pacifico         | Sito A: Ora solare fuso occidentale        | Sito B: Ora solare fuso orientale           | Sito B: Ora solare fuso occidentale        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13.00               | 14:00:00              | 14:00:00                 | 12.00              |
 
@@ -95,7 +98,7 @@ L'addetto all'elaborazione degli ordini si trova nello Utah dove è in vigore l'
 
 Nella seguente tabella viene illustrato in che modo i termini per la registrazione ordine per i siti A e B vengono convertiti in base all'ora solare del fuso occidentale.
 
-| Sito A: Ora solare Pacifico         | Sito A: A        | Sito B: Ora solare fuso orientale           | Sito B: A        |
+| Sito A: Ora solare Pacifico         | Sito A: Ora solare fuso occidentale        | Sito B: Ora solare fuso orientale           | Sito B: Ora solare fuso occidentale        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13.00               | 14:00:00              | 13.00                 | 11.00              |
 
@@ -104,6 +107,8 @@ Nella seguente tabella viene illustrato in che modo i termini per la registrazio
 <a name="see-also"></a>Vedere anche
 --------
 
-[Delivery schedules](delivery-schedules.md)
+[Programmazioni consegna](delivery-schedules.md)
+
+
 
 

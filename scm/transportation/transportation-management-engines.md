@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Motori di gestione del trasporto
 
+[!include[banner](../includes/banner.md)]
+
+
 I motori di gestione del trasporto definiscono la logica utilizzata per generare ed elaborare le tariffe di trasporto in Gestione trasporto. 
 
 Il motore di gestione del trasporto calcola le attività, ad esempio la tariffa di trasporto del vettore. Il sistema di motore consente di modificare le strategie di calcolo in fase di esecuzione, in base ai dati presenti in Microsoft Dynamics 365 for Operations. Il motore di gestione del trasporto è simile a un plug-in correlato a un contratto di vettore specifico.
@@ -58,7 +61,7 @@ Un motore di gestione del trasporto per funzionare in un determinato modo richie
 Nella maggior parte dei casi, per configurare i dati di inizializzazione è possibile fare clic sul pulsante **Parametri** nei moduli di impostazione del motore di gestione del trasporto. **Esempio di configurazione di un motore tariffe che fa riferimento a un motore** Nel seguente esempio viene illustrata l'impostazione necessaria per un motore tariffe basato sul tipo di motore .NET Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEnginee e viene fatto riferimento a un motore chilometraggio.
 | Parametro             | Descrizione                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | Tipo .NET che interpreta i dati di assegnazione di base della tariffa per uno schema specifico. La sintassi del valore del parametro è composto da due segmenti delimitati da una barra (verticale|). Il primo segmento contiene il nome dell'assembly che definisce il tipo di assigner. Il secondo segmento definisce il nome completo del tipo di assigner. Questo include lo spazio dei nomi del tipo. |
+| *RateBaseAssigner*    | Tipo .NET che interpreta i dati di assegnazione di base della tariffa per uno schema specifico. La sintassi del valore del parametro è costituita da due segmenti delimitati da una barra verticale (|). Il primo segmento contiene il nome dell'assembly che definisce il tipo di assigner. Il secondo segmento definisce il nome completo del tipo di assigner. Questo include lo spazio dei nomi del tipo. |
 | *MileageEngineCode*   | Codice del motore chilometraggio che identifica il record motore chilometraggio nel database di Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Codice del motore generico che identifica il motore di ripartizione nel database di Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ I metadati per i motori di gestione del trasporto vengono configurati in modo di
 | **Motore di tempo di transito** e **Motore di trasferta** | Recupera i metadati direttamente dal modulo di impostazione della configurazione del motore chilometraggio.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Esempio di metadati per il motore tariffe** Il motore di gestione del trasporto richiede l'identificazione dell'indirizzo di origine, lo stato/regione e il paese di destinazione e il punto iniziale e finale della spedizione. Utilizzando tali requisiti, i metadati assomiglierebbero ai dati della tabella seguente. La tabella include inoltre informazioni sul tipo di dati di input necessari.
--   Definire queste impostazioni di informazioni in ** gestione di trasporto &gt; ** ** ** ** tipo di base della tariffa ** nella pagina.
+-   Definire queste informazioni in **Gestione trasporto** &gt; **Impostazioni** nella pagina **Tipo di base tariffa**.
 
 | Sequenza | Nome                          | Tipo di campo | Tipo di dati | Tipo di ricerca    | Obbligatorio |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ I metadati per i motori di gestione del trasporto vengono configurati in modo di
 | 3        | Codice postale di inizio destinazione | Assegnazione | Stringa    | CAP    | Selezionata  |
 | 4        | Codice postale di fine destinazione   | Assegnazione | Stringa    | CAP    | Selezionata  |
 | 5        | Paese di destinazione           | Assegnazione | Stringa    | Paese |           |
+
+
 
 
 

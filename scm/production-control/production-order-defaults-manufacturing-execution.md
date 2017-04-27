@@ -1,5 +1,5 @@
 ---
-title: Standard dell&quot;ordine di produzione in Esecuzione produzione
+title: Impostazioni predefinite degli ordini di produzione nell&quot;esecuzione produzione
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>Standard dell'ordine di produzione in Esecuzione produzione
+# <a name="production-order-defaults-in-manufacturing-execution"></a>Impostazioni predefinite degli ordini di produzione nell'esecuzione produzione
+
+[!include[banner](../includes/banner.md)]
 
 
 
-È opportuno considerare attentamente tutte le impostazioni ** standard dell'ordine di produzione ** nella pagina prima che i lavoratori inizino ad effettuare registrazioni nei processi di produzione. Se la società utilizza la funzionalità multisito, è possibile impostare gli standard differenti per gli ordini di produzione per ogni sito. Le impostazioni predefinite degli ordini per l'integrazione con il controllo produzione vengono impostate sulle schede seguenti nella pagina **Impostazioni predefinite ordini di produzione**:
+
+Prima che i lavoratori inizino ad effettuare registrazioni per i processi di produzione, esaminare attentamente tutte le impostazioni della pagina **Impostazioni predefinite ordini di produzione**. Se la società utilizza la funzionalità multisito, è possibile impostare valori predefiniti diversi per gli ordini di produzione di ciascun sito. Le impostazioni predefinite degli ordini per l'integrazione con il controllo produzione vengono impostate sulle schede seguenti nella pagina **Impostazioni predefinite ordini di produzione**:
 
 -   **Generale**: impostazioni predefinite generali dell'ordine per i processi di produzione in Esecuzione produzione.
 -   **Inizio**: impostazioni ordine predefinite che vengono utilizzate durante i processi di produzione o all'avvio delle operazioni.
@@ -68,6 +71,8 @@ Il consumo di materiali durante il processo di dichiarazione di finito per un or
 -   **Principio di registrazione del consumo di materiali**: se un ordine di produzione viene dichiarato finito, le quantità di materiale verranno utilizzate in base al principio di registrazione del consumo di materiali impostato nelle righe DBA di produzione. Solo le righe relative al materiale in cui il principio di registrazione del consumo di materiali è impostato su **Fine** verranno utilizzate.
 -   **Sempre**: le quantità di materiale proporzionali alla quantità dichiarata finita verranno sempre utilizzate.
 -   **Mai**: le quantità di materiale non verranno mai utilizzate.
+
+
 
 
 

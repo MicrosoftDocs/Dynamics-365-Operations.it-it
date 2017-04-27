@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Criteri di idoneità benefit
 
-Di seguito vengono descritti i criteri di idoneità di benefit, che consentono di specificare le persone è idonea per i benefit specifici.
+[!include[banner](includes/banner.md)]
+
+
+Questo argomento fornisce le informazioni sui criteri di idoneità ai benefit, che consentono di definire chi è idoneo per ottenere i benefit specifici.
 
 Quando si creano benefit, si decide quali benefit saranno disponibili per determinati dipendenti. Nella seguente tabella vengono visualizzati gli esempi di benefit che è possibile rendere disponibili per dipendenti specifici.
 
@@ -38,7 +41,7 @@ Quando si creano benefit, si decide quali benefit saranno disponibili per determ
 | Cellulare     | Venditori, dirigenti         |
 | Pass di parcheggio   | Dirigenti                      |
 
-Di seguito sono riportati i componenti in vengono utilizzate per creare i criteri di idoneità:
+I seguenti componenti vengono utilizzati per creare i criteri di idoneità:
 
 -   Tipi di regola dei criteri
 -   Criteri di idoneità benefit
@@ -51,5 +54,7 @@ Definire l'ambito della regola all'interno del criterio. Ad esempio, se si crea 
 --------
 
 [Definizione e gestione di un programma di benefit](manage-benefit-program.md)
+
+
 
 

@@ -40,7 +40,7 @@ I vincoli di tabella elencano le combinazioni di valori consentiti per gli attri
 
 ### <a name="example-of-a-table-constraint"></a>Esempio di vincolo di tabella
 
-In questo esempio viene illustrato come è possibile limitare la configurazione di un altoparlante a rivestimenti e frontali specifici del cabinet. Nella prima tabella vengono illustrati i rivestimenti e i frontali del cabinet che sono in genere disponibili per la configurazione. I valori sono definiti per ** il fine del Governo ** e ** fronteggi la griglia ** l'attributo i tipi.
+In questo esempio viene illustrato come è possibile limitare la configurazione di un altoparlante a rivestimenti e frontali specifici del cabinet. Nella prima tabella vengono illustrati i rivestimenti e i frontali del cabinet che sono in genere disponibili per la configurazione. I valori sono definiti per i tipi di attributo **Rivestimento del cabinet** e **Griglia anteriore**.
 
 | Tipo di attributo | Valori                      |
 |----------------|-----------------------------|
@@ -60,8 +60,8 @@ Nella tabella seguente vengono illustrate le combinazioni definite dal vincolo d
 
 È possibile creare vincoli di tabella definiti dal sistema e vincoli di tabella definiti dall'utente. Per ulteriori informazioni, vedere [Vincoli di tabella definiti dall'utente e dal sistema](system-defined-user-defined-table-constraints.md).
 
-## <a name="what-syntax-should-be-used-to-write-constraints"></a>Sintassi che dovrà essere utilizzata per scrivere i vincoli?
-Per scrivere i vincoli, è necessario utilizzare la sintassi OML (Optimization Modeling Language). Il sistema utilizza risolutore del vincolo di Solver Foundation di Microsoft per risolvere i vincoli.
+## <a name="what-syntax-should-be-used-to-write-constraints"></a>Quale sintassi deve essere utilizzata per scrivere i vincoli?
+Per scrivere i vincoli, è necessario utilizzare la sintassi OML (Optimization Modeling Language). Il sistema utilizza il risolutore di vincoli Microsoft Solver Foundation per risolvere i vincoli.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>È meglio utilizzare i vincoli di tabella o i vincoli di espressione?
 È possibile utilizzare i vincoli di espressione o i vincoli di tabella, a seconda di come si preferisce creare i vincoli. Si sviluppa un vincolo di tabella come matrice, mentre un vincolo di espressione è una singola istruzione. Quando si configura un prodotto, non importa il tipo di vincolo utilizzato. Nel seguente esempio è mostrato in che modo i due metodi differiscono.  
@@ -110,32 +110,32 @@ Nelle tabelle seguenti sono elencati gli operatori e la notazione di infisso che
 <td>È true se la prima condizione è false, la seconda condizione è true o entrambi.</td>
 <td>Implies[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operatore:</strong> [Implica x! = 0, Y &gt;= 0]</li>
-<li><strong>Notazione di infisso:</strong> x! = 0 -: X &gt;= 0</li>
+<li><strong>Operatore:</strong> Implies[x != 0, y &gt;= 0]</li>
+<li><strong>Notazione di infisso:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>E</td>
 <td>È true solo se tutte le condizioni sono true. Se il numero di condizioni è 0 (zero), viene generato il valore <strong>True</strong>.</td>
-<td>In args [], infisso: &amp; è &amp; una z... &amp;</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operatore:</strong> In [==, Y 2 x &lt;2 =]</li>
-<li><strong>Notazione di infisso:</strong> x == Y &lt;2 &amp; = 2</li>
+<li><strong>Operatore:</strong> And[x == 2, y &lt;= 2]</li>
+<li><strong>Notazione di infisso:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>O</td>
 <td>È true se qualsiasi condizione è true. Se il numero di condizioni è 0 (zero), viene generato il valore <strong>False</strong>.</td>
-<td>In args [], infisso: a _=_ b _=_ _=_... z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operatore:</strong> In [==, Y 2 x &lt;2 =]</li>
-<li><strong>Notazione di infisso:</strong> == x 2 _=_ X &lt;= 2</li>
+<li><strong>Operatore:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Notazione di infisso:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Più</td>
 <td>Questa espressione somma le condizioni. Se il numero di condizioni è 0 (zero), viene generato il valore <strong>0</strong>.</td>
-<td>In args [], infisso: + a quanto + + z...</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Operatore:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Notazione di infisso:</strong> x + y + 2 == z</li>
@@ -159,7 +159,7 @@ Nelle tabelle seguenti sono elencati gli operatori e la notazione di infisso che
 <tr class="odd">
 <td>Tempi</td>
 <td>questa espressione accetta il prodotto delle proprie condizioni. Se il numero di condizioni è 0 (zero), viene generato il valore <strong>1</strong>.</td>
-<td>Periodi args [], infisso: a quanto * * * z...</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Operatore:</strong> Times[x, y, 2] == z</li>
 <li><strong>Notazione di infisso:</strong> x * y * 2 == z</li>
@@ -167,8 +167,8 @@ Nelle tabelle seguenti sono elencati gli operatori e la notazione di infisso che
 </tr>
 <tr class="even">
 <td>Potenza</td>
-<td>Questa espressione accetta un valore esponenziale. Questa espressione applica l'elevamento a potenza da destra a sinistra. (Ovvero è diritto- associativa). Di conseguenza, <strong>[Potenza su, B, è]</strong> è equivalente. <strong>Elevamento a potenza</strong> può essere utilizzato solo se l'esponente è una costante positiva.</td>
-<td>Potenza args [], infisso: ^ un z di ^ di ^ b...</td>
+<td>Questa espressione accetta un valore esponenziale. Questa espressione applica l'elevamento a potenza da destra a sinistra. Ciò significa che è associativa a destra e di conseguenza <strong>Power[a, b, c]</strong> equivale a <strong>Power[a, Power[b, c]]</strong>. <strong>Elevamento a potenza</strong> può essere utilizzato solo se l'esponente è una costante positiva.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operatore:</strong> Power[x, 2] == y</li>
 <li><strong>Notazione di infisso:</strong> x ^ 2 == y</li>
@@ -191,7 +191,7 @@ Nelle tabelle seguenti sono elencati gli operatori e la notazione di infisso che
 <td>Questa espressione genera l'inverso logico della propria condizione. Questa espressione deve avere esattamente una condizione.</td>
 <td>Not[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Operatore:</strong> Non x [] &amp; [non == di Y 3]</li>
+<li><strong>Operatore:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Notazione di infisso:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -203,7 +203,7 @@ Gli esempi nella seguente tabella illustrano come scrivere una notazione di infi
 | Notazione di infisso    | descrizione                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | x + y + z         | Addizione                                                                                      |
-| Y x \* \* z       | Moltiplicazione                                                                                |
+| x \* y \* z       | Moltiplicazione                                                                                |
 | x - y             | La sottrazione binaria è tradotta come l'addizione binaria nei casi in cui esiste un secondo valore negato. |
 | x ^ y ^ z         | Elevamento a potenza con associatività a destra                                                   |
 | !x                | Booleano not                                                                                   |
@@ -212,14 +212,14 @@ Gli esempi nella seguente tabella illustrano come scrivere una notazione di infi
 | x & y & z         | Booleano and                                                                                   |
 | x == y == z       | Uguaglianza                                                                                      |
 | x != y != z       | Distinto                                                                                      |
-| Y x &lt; &lt; z   | Minore di                                                                                     |
-| Y x &gt; &gt; z   | Maggiore di                                                                                  |
-| x &lt;= X &lt;= z | Uguale o minore di                                                                         |
-| x &gt;= X &gt;= z | Uguale o maggiore di                                                                      |
+| x &lt; y &lt; z   | Minore di                                                                                     |
+| x &gt; y &gt; z   | Maggiore di                                                                                  |
+| x &lt;= y &lt;= z | Uguale o minore di                                                                         |
+| x &gt;= y &gt;= z | Uguale o maggiore di                                                                      |
 | (x)               | Le parentesi hanno precedenza sulla priorità predefinita.                                                      |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Perché i vincoli di espressione non vengono convalidati correttamente?
-Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione per gli attributi, i componenti o i sottocomponenti nel modello di configurazione prodotto. Di seguito è riportato un elenco delle parole chiave prenotate non è possibile utilizzare:
+Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione per gli attributi, i componenti o i sottocomponenti nel modello di configurazione prodotto. Ecco un elenco delle parole chiave riservate che non possono essere utilizzate.
 
 -   Arrotonda eccesso
 -   Elemento
@@ -245,8 +245,8 @@ Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare un vincolo di espressioni della Guida (attività)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Creare un vincolo di espressione (guida attività)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
-[Aggiungere un calcolo a un modello di configurazione prodotto (Guida di attività)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Aggiungere un calcolo a un modello di configurazione prodotto (guida attività)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
 
 

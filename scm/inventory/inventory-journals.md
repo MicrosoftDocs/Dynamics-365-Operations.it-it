@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-journals"></a>Giornali di registrazione magazzino
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico. 
 
 I giornali di registrazione magazzino in Microsoft Dynamics 365 for Operations vengono utilizzati per registrare le transazioni di inventario fisico di diversi tipi, ad esempio la registrazione delle uscite e delle entrate, i movimenti inventario, la creazione delle distinte base (DBA) e la riconciliazione dell'inventario fisico. Tutti i giornali di registrazione magazzino vengono utilizzati in una modalità simile, ma vengono suddivisi in diversi tipi.
@@ -72,7 +75,7 @@ I giornali di registrazione entrata produzione funzionano in modo analogo ai gio
 
 ### <a name="counting"></a>Conteggio
 
-Giornali di registrazione di conteggio consentono di correggere le scorte attualmente disponibili registrate per gli articoli o i gruppi di articoli e registrare l'effettivo conteggio fisico, in modo che è possibile apportare rettifiche necessarie per riconciliare le differenze. È possibile associare i criteri di conteggio ai gruppi di conteggio per agevolare gli articoli del gruppo con varie caratteristiche, in modo che gli articoli possano essere inclusi in un giornale di registrazione di conteggio. Ad esempio, è possibile impostare i gruppi di conteggio per conteggiare gli articoli che hanno una frequenza specifica o per conteggiare gli articoli quando le scorte rientrano in un livello specifico. Per informazioni sulla definizione dei gruppi, vedere [definire i processi di conteggio scorte (Guida di attività)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Giornali di registrazione di conteggio consentono di correggere le scorte attualmente disponibili registrate per gli articoli o i gruppi di articoli e registrare l'effettivo conteggio fisico, in modo che è possibile apportare rettifiche necessarie per riconciliare le differenze. È possibile associare i criteri di conteggio ai gruppi di conteggio per agevolare gli articoli del gruppo con varie caratteristiche, in modo che gli articoli possano essere inclusi in un giornale di registrazione di conteggio. Ad esempio, è possibile impostare i gruppi di conteggio per conteggiare gli articoli che hanno una frequenza specifica o per conteggiare gli articoli quando le scorte rientrano in un livello specifico. Per informazioni su come definire i gruppi di conteggio, vedere [Definire i processi di conteggio scorte (guida attività)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
 
 ### <a name="tag-counting"></a>Conteggio tag
 
@@ -89,5 +92,7 @@ A un giornale di registrazione può accedere solo un utente per volta. Se più u
 
 ## <a name="posting-journal-lines"></a>Registrazione delle righe del giornale di registrazione
 È possibile registrare le righe del giornale di registrazione create in qualsiasi momento fino a bloccare un articolo da ulteriori transazioni. I dati immessi in un giornale di registrazione vengono mantenuti nel giornale anche se questo viene chiuso senza registrare le righe.
+
+
 
 

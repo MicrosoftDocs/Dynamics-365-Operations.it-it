@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Conti di contropartita predefiniti per i giornali di registrazione fatture fornitore e giornali di registrazione di approvazione fatture
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 I conti di contropartita predefiniti vengono utilizzati nelle pagine seguenti del giornale di registrazione fatture fornitore:
@@ -92,6 +95,8 @@ Utilizzare la seguente tabella per consentire di decidere se assegnare i conti p
 </tr>
 </tbody>
 </table>
+
+
 
 
 

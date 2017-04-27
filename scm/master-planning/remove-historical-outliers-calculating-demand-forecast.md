@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Eliminare gli outlier dai dati di transazione storici quando si calcolo una previsione della domanda
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo articolo viene descritto come escludere gli outlier dai dati storici utilizzati per calcolare una previsione della domanda. Escludendo gli outlier, è possibile migliorare la precisione previsione.
 
-È possibile escludere i valori erratici per migliorare l'accuratezza di previsione. Questa attività è facoltativa. Ecco una panoramica del processo:
+È possibile escludere gli outlier per migliorare la precisione previsione. Questa attività è facoltativa. Ecco una panoramica del processo:
 
-1.  Fare clic su ** pianificazione generale ** &gt; ** impostazione ** &gt; ** previsione della domanda ** &gt; ** rimozione di valore erratico ** aprire ** rimozione di valore erratico ** la pagina, in cui è possibile utilizzare una query per selezionare le transazioni da escludere.
+1.  Fare clic su **Pianificazione generale** &gt; **Impostazioni** &gt; **Previsione della domanda** &gt; **Rimozione outlier** per aprire la pagina **Rimozione outlier**, in cui è possibile utilizzare una query per selezionare le transazioni da escludere.
 2.  Selezionare la società per la quale viene applicata la query, quindi immettere un nome e una descrizione. Il campo **Data query** viene impostato automaticamente sulla data corrente.
 3.  Selezionare la casella di controllo **Attiva** per escludere le transazioni trovate dalla query dai i dati storici. Questa impostazione diventerà effettive quando si crea una previsione di base.
 4.  Nella pagina **Query di rimozione outlier** è possibile aggiungere, rimuovere e selezionare i criteri che definiscono le transazioni che verranno escluse quando viene calcolata la previsione di base. Ad esempio, selezionare un articolo o una transazione di ordini specifici che si desidera escludere.
@@ -43,8 +46,10 @@ In questo articolo viene descritto come escludere gli outlier dai dati storici u
 <a name="see-also"></a>Vedere anche
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Introduzione alla previsione della domanda](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Monitoraggio della precisione previsione](monitor-forecast-accuracy.md)
+
+
 
 

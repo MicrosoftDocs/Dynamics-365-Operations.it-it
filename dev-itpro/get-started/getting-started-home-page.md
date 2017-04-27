@@ -1,6 +1,6 @@
 ---
-title: Dove di inizio
-description: Avviare rapidamente in questo campo a bordo e dispari Microsoft Dynamics 365 per le operazioni installata.
+title: Punto di inizio
+description: "Per apprendere in modo facile e rapido l&quot;interfaccia utente di Microsoft Dynamics 365 for Operations, è possibile iniziare da qui."
 eauthor: sericks007
 manager: AnnBe
 ms.date: 2015-12-11 15 - 19 - 40
@@ -26,44 +26,44 @@ ms.lasthandoff: 03/30/2017
 
 ---
 
-# <a name="where-to-start"></a>Dove di inizio
+# <a name="where-to-start"></a>Punto di inizio
 
-Avviare rapidamente in questo campo a bordo e dispari Microsoft Dynamics 365 per le operazioni installata.
+Per apprendere in modo facile e rapido l'interfaccia utente di Microsoft Dynamics 365 for Operations, è possibile iniziare da qui.
 
-## <a name="onboarding"></a>Onboarding
-Nelle risorse sono riportate informazioni generali sull'utilizzo del partner per ottenere onboarded in Dynamics 365 per le operazioni e di utilizzo Dynamics 365 per i servizi del ciclo di vita delle operazioni. 
+## <a name="onboarding"></a>Presentazione
+Le seguenti risorse forniscono una panoramica di come collaborare con il proprio partner per scoprire Dynamics 365 for Operations e di come utilizzare Lifecycle Services di Dynamics 365 for Operations. 
 
-- [Veloce Mapping da Microsoft per la panoramica] di Dynamics (365 /dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
-- [Sign up for a subscription](../dev-tools/sign-up-preview-subscription.md) 
-- [Ciclo di vita servizi (LCS) per Microsoft Dynamics 365 per i clienti delle operazioni (]. /lifecycle-services/lcs-works-lcs.md) 
-- [Come i clienti da essi acquistati Microsoft Dynamics 365 per le operazioni tramite un cloud Service Provider possono ottenere la versione dei in locali di Dynamics 365 per le operazioni (2012]. /deployment/csp-download-customersource.md)
+- [Cenni preliminari su Microsoft FastTrack per Dynamics 365](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
+- [Iscrizione a una sottoscrizione](../dev-tools/sign-up-preview-subscription.md) 
+- [Lifecycle Services (LCS) per i clienti Microsoft Dynamics 365 for Operations](../lifecycle-services/lcs-works-lcs.md) 
+- [In che modo i clienti che hanno acquistato Microsoft Dynamics 365 for Operations attraverso un provider di servizi cloud possono ottenere la versione locale di Dynamics 365 for Operations 2012](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Interfaccia utente
-Nelle risorse sono riportate informazioni su Dynamics 365 perutente delle operazioni. 
--   [Novità in Dynamics 365 perutente di operazioni (combinazione di Office)](https://mix.office.com/watch/1ohsrrpsd02e1)
+Le risorse indicate di seguito forniscono informazioni sull'esperienza utente di Dynamics 365 for Operations. 
+-   [Novità nell'esperienza utente di Dynamics 365 for Operations (Office Mix)](https://mix.office.com/watch/1ohsrrpsd02e1)
 -   [Personalizzazione dell'esperienza utente](/dynamics365/operations/get-started/personalize-user-experience)
 -   [Configurazione e filtro delle aree di lavoro](/dynamics365/operations/get-started/configure-filter-workspaces)
--   [Navigation search](/dynamics365/operations/get-started/navigation-search)
+-   [Ricerca per navigazione](/dynamics365/operations/get-started/navigation-search)
 -   [Ricerca di azioni](/dynamics365/operations/get-started/action-search)
--   [Keyboard shortcuts](/dynamics365/operations/get-started/shortcut-keys)
--   [Display pages side-by-side using the Open in New Window icon](/dynamics365/operations/get-started/display-pages-side-by-side)
--   [Advanced filtering and query options](/dynamics365/operations/get-started/advanced-filtering-query-options)
--   [Dynamics 365 per il FAQ] client di operazioni (/dynamics365/operations/get-started/client-faq)
--   [Metodo di insegna o il logo della Guida (attività)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
+-   [Tasti di scelta rapida](/dynamics365/operations/get-started/shortcut-keys)
+-   [Visualizzare le pagine affiancate utilizzando l'icona Apri in nuova finestra](/dynamics365/operations/get-started/display-pages-side-by-side)
+-   [Opzioni di filtro e query avanzate](/dynamics365/operations/get-started/advanced-filtering-query-options)
+-   [Domande frequenti sul client Microsoft Dynamics 365 for Operations](/dynamics365/operations/get-started/client-faq)
+-   [Modificare il banner o il logo (guida attività)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
 
 ## <a name="help-system"></a>Guida
 Nelle risorse riportate di seguito viene fornita una panoramica del sistema di Guida e viene descritto come visualizzare le descrizioni dei campi.
 
--   [Getting started with Help](help-overview.md)
--   [Connect the Help system](help-connect.md)
+-   [Introduzione alla Guida](help-overview.md)
+-   [Collegamento alla Guida](help-connect.md)
 -   [Come visualizzare ed esportare i campi](/dynamics365/operations/get-started/view-export-field-descriptions)
--   [Dynamics 365 per il file della Guida di operazioni (nota sintetica)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+-   [Guida in linea di Dynamics 365 for Operations (scheda informativa)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 
-### <a name="task-recordings-and-task-guides"></a>Pagine delle registrazioni e attività consente
+### <a name="task-recordings-and-task-guides"></a>Registrazioni di attività e guide attività
 
-In Registrazione attività viene Dynamics 365 per lo strumento di operazioni che è possibile utilizzare per registrare le azioni contenente l'interfaccia utente (UI). Quando si crea una *registrazione di attività*, tutti gli eventi che vengono eseguiti sul server vengono registrati come li eseguite nell'interfaccia utente. Questi eventi includono l'aggiunta di valor, modificare le impostazioni e rimuovere i dati. Una *guida attività* è un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di una registrazione attività. È possibile aprire (*riprodurre*) una guida attività dal sistema di Guida.
+Registrazione attività è uno strumento di Dynamics 365 for Operations che è possibile utilizzare per registrare le azioni che vengono eseguite nell'interfaccia utente. Quando si crea una *registrazione di attività*, tutti gli eventi che vengono eseguiti sul server vengono registrati come li eseguite nell'interfaccia utente. Questi eventi includono l'aggiunta di valor, modificare le impostazioni e rimuovere i dati. Una *guida attività* è un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di una registrazione attività. È possibile aprire (*riprodurre*) una guida attività dal sistema di Guida.
 -   [Connessione alla Guida](help-connect.md)
--   [Registrazione attività in Dynamics 365 per le operazioni (]. /user-interface/task-recorder.md)
+-   [Registrazione attività in Dynamics 365 for Operations](../user-interface/task-recorder.md)
 -   [Creare documentazione o formazione utilizzando le registrazioni di attività](../user-interface/task-recorder.md)
 -   [Nuove Guide attività disponibili (febbraio 2016)](new-task-guides-available-february-2016.md)
 
@@ -71,12 +71,12 @@ In Registrazione attività viene Dynamics 365 per lo strumento di operazioni che
 <a name="see-also"></a>Vedere anche
 --------
 
-[La creazione di nuove librerie di formazione per Dynamics 365 per le operazioni in servizi del ciclo di vita tramite Registrazione attività (collegamento esterno)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Creazione di nuove librerie di formazione per Dynamics 365 for Operations all'interno di Lifecycle Services mediante Registrazione attività (collegamento esterno)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
-[Nuove consente di attività (febbraio 2016)](new-task-guides-available-february-2016.md)
+[Nuove Guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)
 
-[Nuove o consente di gestire di attività (maggio 2016)](new-updated-task-guides-available-may-2016.md)
+[Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nuove o consente di gestire di attività (novembre 2016)](new-task-guides-november-2016.md)
+[Guide attività nuove o aggiornate (novembre 2016)](new-task-guides-november-2016.md)
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Registrazione Orario e presenze
 
+[!include[banner](../includes/banner.md)]
+
+
 I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo articolo vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l'approvazione automatica al processo di approvazione delle schede attività. 
 
 <a name="registrations"></a>Registrazioni
@@ -62,7 +65,7 @@ Dopo l'impostazione i lavoratori possono immettere tipi diversi di registrazioni
 -   Attività indirette, ovvero attività non produttive che un lavoratore potrebbe intraprendere nel corso di una giornata lavorativa. Esempi di queste attività comprendono le riunioni o la pulitura dell'area di lavoro.
 -   Straordinario, che può essere registrato come ore aggiuntive, orario flessibile o ore straordinarie.
 
-## <a name="adding-clockout-registrations"></a>Aggiunta delle registrazioni dei clockout
+## <a name="adding-clockout-registrations"></a>Aggiunta di registrazioni dell'uscita
 Se un lavoratore dimentica di registrare l'uscita al termine della giornata lavorativa, è possibile aggiungere la registrazione dimenticata eseguendo un processo batch. Il sistema confronterà l'ora di entrata e l'ora di uscita in base al profilo associato del lavoratore e inserirà automaticamente la registrazione dell'ora di uscita mancante per farla corrispondere all'ora di fine del profilo. Entrambi le registrazioni di entrata e di uscita sono importanti per il calcolo e l'approvazione successivi delle registrazioni delle ore prima che vengano trasferite alle retribuzioni.
 
 ## <a name="calculating-registrations"></a>Calcolo delle registrazioni
@@ -113,6 +116,8 @@ I lavoratori con mansioni di lavoro che non richiedono un riscontro immediato, c
 -   Consumo di tempo
 -   Commissioni progetto
 -   Articoli progetto
+
+
 
 
 

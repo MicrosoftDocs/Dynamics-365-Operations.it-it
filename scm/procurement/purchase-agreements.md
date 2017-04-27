@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un'organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell'impegno, l'acquirente riceve prezzi e sconti speciali. 
 
 I contratti di acquisto possono essere applicati a una specifica quantità di un prodotto, a un importo in valuta specifico di un prodotto o a un importo in valuta specifico dei prodotti in una categoria di approvvigionamento. I prezzi e gli sconti del contratto di acquisto sostituiscono i prezzi e gli sconti specificati in eventuali contratti commerciali esistenti.  
@@ -70,7 +73,7 @@ L'area **Contratto** indica la quantità totale o l'importo totale per cui la ri
 È possibile accedere alle righe di ORDINE FORNITORE e alle righe di fattura che contribuiscono al calcolo di evasione selezionando l'azione **Informazioni correlate** sulle righe o sull'intestazione di un contratto di acquisto.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Conferme e storico della versione per i contratti di acquisto
-Quando si conferma un contratto di acquisto, la versione corrente del contratto viene archiviata in una tabella dello storico. Se si modifica il contratto di acquisto, è possibile confermarlo di nuovo per archiviare un'altra versione del contratto di acquisto nello storico. Se non si conferma un contratto di acquisto, è comunque possibile utilizzarlo per creare la posizione. Tuttavia, le informazioni dello storico per il contratto di acquisto non vengono archiviate. È possibile visualizzare in anteprima o stampare tutte le versioni dell'accordo. È possibile quindi condividere le revisioni con il fornitore per ottenere l'approvazione.
+Quando si conferma un contratto di acquisto, la versione corrente del contratto viene archiviata in una tabella dello storico. Se si modifica il contratto di acquisto, è possibile confermarlo di nuovo per archiviare un'altra versione del contratto di acquisto nello storico. Se non si conferma un contratto di acquisto, è comunque possibile utilizzarlo per creare ordini fornitore. Tuttavia, le informazioni sullo storico per il contratto di acquisto non vengono archiviate. È possibile visualizzare in anteprima o stampare tutte le versioni dell'accordo. È possibile quindi condividere le revisioni con il fornitore per ottenere l'approvazione.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Applicazione di contratti di acquisto nel processo di ordinazione
 Quando si crea un ORDINE FORNITORE, è possibile applicarvi un contratto di acquisto. Le informazioni dei termini del contratto, ad esempio termini di pagamento, termini di consegna e indirizzo di consegna, vengono copiate nell'intestazione del PO. Se il PO contiene una o più righe che si riferiscono a prodotti e categorie specificati nel contratto, per tali righe vengono utilizzati i prezzi e gli sconti del contratto di acquisto. L'importo o la quantità nella riga ordine contribuiscono all'evasione dell'impegno nel contratto di acquisto. Lo stesso PO può includere sia le righe che non sono correlate a un contratto di acquisto sia le righe con un impegno per un contratto di acquisto.  
@@ -91,8 +94,10 @@ Se si crea un ordine fornitore interaziendale che utilizza il contratto di acqui
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare un contratto di acquisto (Guida di attività)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Creare un contratto di acquisto (guida attività)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[Creare un ordine di rilascio da un contratto di acquisto (Guida di attività)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Creare un ordine fornitore di rilascio da un contratto di acquisto (guida attività)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

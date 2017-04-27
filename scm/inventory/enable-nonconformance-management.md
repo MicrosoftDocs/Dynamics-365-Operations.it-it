@@ -1,5 +1,5 @@
 ---
-title: "Gestione di non conformità"
+title: "Gestione della non conformità"
 description: "Questo articolo descrive l&quot;impostazione di base necessaria per l&quot;utilizzo della non conformità. Un&quot;impostazione aggiuntiva è richiesta se si desidera utilizzare la non conformità negli ordini di controllo qualità."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="nonconformance-management"></a>Gestione di non conformità
+# <a name="nonconformance-management"></a>Gestione della non conformità
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo descrive l'impostazione di base necessaria per l'utilizzo della non conformità. Un'impostazione aggiuntiva è richiesta se si desidera utilizzare la non conformità negli ordini di controllo qualità. 
 
@@ -34,7 +37,7 @@ Per attivare la gestione di non conformità, effettuare le operazioni seguenti:
 1.  Definire i parametri di Gestione articoli e magazzino correlati alle non conformità:
     -   Impostare l'opzione **Usa Gestione qualità** su **Sì**.
     -   Nel campo **Tariffa oraria**, immettere una tariffa oraria per la manodopera nella valuta locale. La tariffa oraria viene utilizzata per calcolare i costi delle operazioni correlate a una non conformità. La tariffa oraria e i costi calcolati forniscono informazioni di riferimento per una non conformità. Non interagiscono con altre funzionalità.
-    -   ** La gestione della qualità ** la scheda ** impostazione report ** nella pagina per definire il tipo di documento da stampare. È possibile stampare un report di non conformità, un tag di non conformità, un report di correzione. È possibile definire più di un record per la stampa di tipi di documento diversi in un report o per la stampa di note interne ed esterne. Può essere utile utilizzare la pagina **Tipo di documento** per definire un tipo di documento univoco per non conformità e un tipo di documento univoco per le correzioni. Ad esempio, si desidera immettere note su una non conformità utilizzando il tipo di documento univoco per non conformità. In questo caso, identificare il tipo di documento univoco nelle opzioni di report.
+    -   Usare la scheda **Gestione qualità** della pagina **Impostazione report** per definire il tipo di documento da stampare. È possibile stampare un report di non conformità, un tag di non conformità o un report di correzioni. È possibile definire più di un record per la stampa di tipi di documento diversi in un report o per la stampa di note interne ed esterne. Può essere utile utilizzare la pagina **Tipo di documento** per definire un tipo di documento univoco per non conformità e un tipo di documento univoco per le correzioni. Ad esempio, si desidera immettere note su una non conformità utilizzando il tipo di documento univoco per non conformità. In questo caso, identificare il tipo di documento univoco nelle opzioni di report.
     -   Attivare le sequenze numeriche per non conformità e i riferimenti di correzione.
 
 2.  Attivare l'approvazione dell'utente di non conformità. Utilizzare il campo **Nome** nella pagina **Utenti** per assegnare un dipendente a ciascun utente che deve approvare una non conformità. Il sistema utilizza i dipendenti che modificano lo stato di una non conformità per tenere traccia dello storico non conformità. Gli utenti possono approvare una non conformità solo se è stato loro assegnato un ID dipendente.
@@ -47,10 +50,12 @@ Per attivare la gestione di non conformità, effettuare le operazioni seguenti:
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare ed elaborare una non conformità (Guida di attività)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[Creare ed elaborare una non conformità (guida attività)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[Processi di gestione qualità](quality-management-processes.md)
 
-[Prerequisiti per l'impostazione della gestione di non conformità (Guida di attività)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Impostare prerequisiti per la gestione di non conformità (guida attività)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Area di lavoro mobile per ordini cliente per Microsoft Dynamics 365 per il app di operazioni
-description: "Le informazioni fornite negli ordini cliente area di lavoro di cellulare, è possibile restare aggiornato negli ordini cliente e in un punto qualsiasi in qualsiasi momento."
+title: Area di lavoro mobile Gestione ordini cliente per l&quot;app Microsoft Dynamics 365 for Operations
+description: "Con l&quot;area di lavoro mobile per gli ordini cliente, è possibile avere informazioni sempre aggiornate sugli ordini cliente ovunque ci si trovi."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,93 +25,93 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Area di lavoro mobile per ordini cliente per Microsoft Dynamics 365 per il app di operazioni
+# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Area di lavoro mobile Gestione ordini cliente per l'app Microsoft Dynamics 365 for Operations
 
-Le informazioni fornite negli ordini cliente area di lavoro di cellulare, è possibile restare aggiornato negli ordini cliente e in un punto qualsiasi in qualsiasi momento. 
+Con l'area di lavoro mobile per gli ordini cliente, è possibile avere informazioni sempre aggiornate sugli ordini cliente ovunque ci si trovi. 
 
 <a name="prerequisites"></a>Prerequisiti
 -------------
 
 | Prerequisito                                                         | descrizione                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Letto di Microsoft Dynamics 365 per la presentazione di cellulare di operazioni | [Dynamics 365 per la presentazione mobile] di operazioni (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 per le operazioni                                          | Assicurarsi che si utilizza un ambiente con Microsoft Dynamics 365 per la versione 1611 delle operazioni e Microsoft Dynamics per l'aggiornamento 3 la piattaforma delle operazioni (novembre 2016). |
-| 3215650 KB di Hotfix                                                    | Impostare il hotfix per abilitare le aree di lavoro che vengono fornite in Microsoft Dynamics 365 per le operazioni.                                                                       |
-| Dispositivo mobile con Dynamics 365 per il app delle operazioni in | Scaricare Dynamics 365 per il app delle operazioni dalla memoria di cellulare del app.                                                                                                      |
+| Informazioni sulla piattaforma mobile Microsoft Dynamics 365 for Operations | [Piattaforma mobile di Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Assicurarsi di utilizzare un ambiente con Microsoft Dynamics 365 for Operations versione 1611 e l'aggiornamento 3 della piattaforma di Microsoft Dynamics for Operations (novembre 2016). |
+| Hotfix KB 3215650                                                    | Impostare l'hotfix per abilitare le aree di lavoro che vengono fornite in Microsoft Dynamics 365 for Operations.                                                                       |
+| Dispositivo mobile con l'app Dynamics 365 for Operations installata | Scaricare l'app Dynamics 365 for Operations dall'App Store mobile.                                                                                                      |
 
 ## <a name="overview"></a>Panoramica
-Questa area di lavoro di cellulare accede a Dynamics 365 per l'applicazione delle operazioni e consente di visualizzare informazioni dettagliate su ciascuno stato dell'ordine, ad esempio, di ordine cliente, le informazioni di contatto del cliente e le informazioni di contatto di Acquirente dell'ordine. L'area di lavoro spostata viene fornita una visualizzazione immediata di ordini cliente. È possibile visualizzare gli ordini cliente dal cliente, o visualizzare tutti gli ordini cliente, o visualizzare informazioni su un ordine cliente specifico. L'area di lavoro mobile sono disponibili due visualizzazioni per semplificare l'analisi gli ordini di approfonditi vendita.
+Questa area di lavoro mobile accede all'applicazione Dynamics 365 for Operations e consente di visualizzare informazioni dettagliate su ogni ordine cliente, ad esempio lo stato dell'ordine, le informazioni di contatto del cliente e le informazioni di contatto dell'incaricato dell'ordine. L'area di lavoro mobile offre una visualizzazione immediata degli ordini cliente. È possibile visualizzare gli ordini cliente in base al cliente, visualizzare tutti gli ordini cliente oppure visualizzare le informazioni relative a un ordine cliente specifico. L'area di lavoro mobile offre due visualizzazioni che rendono più semplice analizzare a fondo gli ordini cliente.
 
-### <a name="view-all-sales-orders"></a>Consente di visualizzare tutti gli ordini cliente
+### <a name="view-all-sales-orders"></a>Visualizza tutti gli ordini cliente
 
-Questa visualizzazione sono elencati tutti gli ordini cliente.
+Questa visualizzazione elenca tutti gli ordini cliente.
 
 -   Utilizzare uno dei seguenti filtri per selezionare gli ordini cliente che si desidera visualizzare.
-    -   Ricerca di ordine cliente
-    -   Ricerca del cliente
-    -   Ricerca dal nome del cliente
-    -   Ricerca in base allo stato
-    -   Ricerca dallo stato della versione
-    -   Ricerca in base alla data e ora creazione
+    -   Cerca per ordine cliente
+    -   Cerca per account cliente
+    -   Cerca per nome cliente
+    -   Cerca per stato
+    -   Cerca per stato di rilascio
+    -   Cerca per data e ora di creazione
 
 <!-- -->
 
--   Dopo aver selezionato ordini cliente, è possibile visualizzare i dettagli di ordini specifici. In particolare, è possibile visualizzare:
-    -   Consente di nome e l'indirizzo del cliente
-    -   Date diversi dell'ordine cliente, ad esempio la data di spedizione richiesta e la data di spedizione confermata
-    -   Informazioni di contatto di Acquirente di ordine
+-   Dopo aver selezionato gli ordini cliente, è possibile visualizzare i dettagli di ordini specifici. In particolare, è possibile visualizzare:
+    -   Informazioni sul nome e sull'indirizzo del cliente
+    -   Diverse date dell'ordine cliente, ad esempio la data di spedizione richiesta e la data di spedizione confermata
+    -   Informazioni di contatto dell'incaricato dell'ordine
     -   Informazioni di contatto del cliente
     -   Righe ordine
-    -   Posta in cui viene illustrato come e quando un ordine cliente spedita
+    -   Spedizioni che indicano la modalità e la data di spedizione dell'ordine cliente
 
-### <a name="view-orders-for-a-customer-"></a>Ordini di visualizzazione per un cliente ** **
+### <a name="view-orders-for-a-customer-"></a>Visualizza ordini per un cliente** **
 
-Questa visualizzazione verranno elencati gli ordini cliente per cliente.
+Questa visualizzazione elenca gli ordini cliente in base al cliente.
 
 -   Utilizzare uno dei seguenti filtri per visualizzare gli ordini per un cliente.
-    -   Ricerca per nome
-    -   Ricerca in base al conto
+    -   Cerca per nome
+    -   Cerca per account
 
 <!-- -->
 
 -   Dopo avere selezionato un cliente, è possibile visualizzare:
-    -   Nome e gruppo di clienti
+    -   Nome cliente e gruppo
     -   Informazioni di contatto del cliente
-    -   Ordini cliente e dettagli del cliente sugli ordini cliente:
-        -   Consente di nome e l'indirizzo del cliente
-        -   Date diversi di ordine cliente
-        -   Informazioni di contatto di Acquirente di ordine
+    -   Ordini cliente e dettagli sugli ordini cliente:
+        -   Informazioni sul nome e sull'indirizzo del cliente
+        -   Diverse date dell'ordine cliente
+        -   Informazioni di contatto dell'incaricato dell'ordine
         -   Informazioni di contatto del cliente
         -   Righe ordine
-        -   Posta in cui viene illustrato come e quando gli ordini cliente spedita
+        -   Spedizioni che indicano la modalità e la data di spedizione degli ordini cliente
 
 ## <a name="get-started"></a>Per iniziare
-Seguire questi passaggi per iniziare in base all'area di lavoro mobile per ordini cliente nel dispositivo mobile.
+Attenersi a questa procedura per iniziare a utilizzare l'area di lavoro mobile degli ordini cliente sul proprio dispositivo mobile.
 
-1.  Nella memoria di cellulare del app, download e impostare Microsoft Dynamics 365 per il app delle operazioni.
-2.  Inizia app Approvazioni sull'unità.
-3.  Immettere il proprio Dynamics 365 URL.
-4.  Immettere la società in per accedere a. Ad esempio, immettere USMF ** **.
-5.  La prima volta che ha in, verrà chiesto di specificare il nome utente e password per il sistema Microsoft Dynamics 365 per l'account operazioni. Immettere le credenziali. Dopo avere accesso in, vengono visualizzate le aree di lavoro disponibili per la società.
+1.  Nell'App Store mobile, scaricare e installare l'app Microsoft Dynamics 365 for Operations.
+2.  Avviare l'app sul dispositivo.
+3.  Immettere il proprio URL Dynamics 365.
+4.  Immettere la società a cui accedere. Ad esempio, immettere **USMF**.
+5.  La prima volta che si accede, verrà richiesto di specificare il nome utente e la password per l'account Microsoft Dynamics 365 for Operations. Immettere le proprie credenziali. Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società.
 
-Per visualizzare le aree di lavoro nell'app Approvazioni di cellulare, è necessario rilasciare le aree di lavoro desiderate in Dynamics 365 per il app delle operazioni.
+Per visualizzare le aree di lavoro nell'app mobile, è necessario innanzitutto pubblicare le aree di lavoro desiderate nell'app Dynamics 365 for Operations.
 
-1.  Avviare Dynamics 365 per le operazioni.
-2.  ** Fare clic su Amministrazione sistema ** &gt; ** l'impostazione ** &gt; ** parametri di sistema **.
-3.  Selezionare ** gestire il app mobile **.
-4.  Selezionare l'area di lavoro per emettere la piattaforma spostato.
-5.  ** Pubblicare Selezionare l'area di lavoro **.
-6.  Aggiorna la propria unità per visualizzare le aree di lavoro generati.
+1.  Avviare Dynamics 365 for Operations.
+2.  Passare ad **Amministrazione sistema** &gt; **Impostazioni** &gt; **Parametri di sistema**.
+3.  Selezionare **Gestisci app per dispositivi mobili**.
+4.  Selezionare l'area di lavoro da pubblicare nella piattaforma mobile.
+5.  Selezionare **Pubblica area di lavoro**.
+6.  Aggiornare il dispositivo per visualizzare le aree di lavoro pubblicate.
 
-## <a name="view-information-about-sales-orders-for-a-customer"></a>Consente di visualizzare informazioni sugli ordini cliente per un cliente
-1.  Nel dispositivo mobile, selezionare ** ordini cliente ** l'area di lavoro.
-2.  Selezionare ** visualizzare gli ordini per un cliente **.
-3.  Utilizzato ** conto ** o ** nome del cliente ** informazioni trovare il cliente desiderato.
+## <a name="view-information-about-sales-orders-for-a-customer"></a>Visualizzare informazioni sugli ordini cliente per un cliente specifico
+1.  Sul dispositivo mobile, selezionare l'area di lavoro **Ordini cliente**.
+2.  Selezionare **Visualizza ordini per un cliente**.
+3.  Utilizzare le informazioni **Account **o **Nome cliente** per individuare il cliente desiderato.
 4.  Selezionare il cliente.
-5.  Selezionare ** informazioni sul contatto o ** ** ** ordini cliente.
-6.  ** Se ordini cliente ** è selezionata, un elenco di ordini cliente per il cliente.
-7.  Selezionare ** ** ordine cliente.
-8.  Di seguito sono riportate informazioni sulle righe di ordine cliente, spedizioni, le informazioni di contatto del cliente e al contatto di Acquirente dell'ordine.
+5.  Selezionare **Informazioni di contatto** o **Ordini cliente**.
+6.  Se si seleziona **Ordini cliente**, viene visualizzato un elenco di ordini cliente del cliente.
+7.  Selezionare **Ordine cliente**.
+8.  Qui è possibile visualizzare informazioni sulle righe dell'ordine cliente, le spedizioni, le informazioni di contatto del cliente e dell'incaricato dell'ordine.
 
 
 

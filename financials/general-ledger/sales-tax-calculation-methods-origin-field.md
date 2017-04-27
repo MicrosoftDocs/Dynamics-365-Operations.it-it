@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Metodi di calcolo IVA nel campo Origine
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo illustra le opzioni nel campo Origine nella pagina Codici IVA e spiega come viene calcolata l'IVA in base all'opzione selezionata per un codice IVA.
 
 Per ogni codice IVA creato nella pagina Codici IVA è necessario selezionare il metodo di calcolo da applicare all'importo imponibile nel campo Origine.
@@ -124,5 +127,7 @@ Il documento/giornale di registrazione è impostato su Importo IVA inclusa =No I
 [Determinare le aliquote IVA in base ai campi Imponibile marginale e Metodo di calcolo](marginal-base-field.md)
 
 [Opzioni Importo totale e Intervallo per i codici IVA](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

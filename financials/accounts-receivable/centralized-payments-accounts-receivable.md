@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Pagamenti centralizzati per contabilità clienti
 
+[!include[banner](../includes/banner.md)]
+
+
 Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una sola persona giuridica che gestisca tutti i pagamenti. Di conseguenza, la stessa transazione non deve essere immessa in più persone giuridiche. Questo articolo fornisce esempi che indicano come gestire la registrazione dei pagamenti centralizzati in diversi scenari.
 
 Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una persona giuridica che gestisca tutti i pagamenti. Di conseguenza, la stessa transazione non deve essere immessa in più persone giuridiche. Inoltre, l'organizzazione risparmia tempo, poiché i processi per le proposte di pagamento, le liquidazioni e la modifica di transazioni aperte e chiuse per i pagamenti centralizzati vengono semplificati. 
 
-In un'organizzazione di pagamento centralizzata sono presenti numerose persone giuridiche per le operazioni e ciascuna persona giuridica operativa gestisce le proprie informazioni in merito alle fatture a credito. I pagamenti per tutte le persone giuridiche operative vengono ricevuti da una singola persona giuridica, noto come persona giuridica del pagamento. Durante il processo di liquidazione, vengono generate le transazioni relative a importi da versare e da ricevere. È possibile specificare quale persona giuridica dell'organizzazione riceverà le transazioni di profitto realizzato o di perdita realizzata e la modalità di gestione delle transazioni di sconto di cassa correlate a un pagamento centralizzato. 
+In un'organizzazione di pagamento centralizzata sono presenti numerose persone giuridiche per le operazioni e ciascuna persona giuridica operativa gestisce le proprie informazioni in merito alle fatture a credito. I pagamenti per tutte le persone giuridiche operative vengono ricevuti da una singola persona giuridica, definita persona giuridica del pagamento. Durante il processo di liquidazione, vengono generate le transazioni relative a importi da versare e da ricevere. È possibile specificare quale persona giuridica dell'organizzazione riceverà le transazioni di profitto realizzato o di perdita realizzata e la modalità di gestione delle transazioni di sconto di cassa correlate a un pagamento centralizzato. 
 
 Negli esempi riportati di seguito viene illustrata la modalità di gestione della registrazione in diversi scenari. Per tutti gli esempi si presuppone la seguente configurazione:
 
@@ -66,14 +69,14 @@ Fabrikam riceve un pagamento di 600,00 per il conto cliente 4000, Northwind Trad
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Pagamento Fabrikam liquidato con fattura Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                         | Importo in Dare | Importo in Avere |
 |---------------------------------|--------------|---------------|
 | Contabilità clienti (Fabrikam)  | 600,00       |               |
 | Dovuto a Fabrikam East (Fabrikam) |              | 600,00        |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                             | Importo in Dare | Importo in Avere |
 |-------------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam riceve un pagamento di 580,00 per il cliente 4000, Northwind Traders, d
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Pagamento Fabrikam liquidato con fattura Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                         | Importo in Dare | Importo in Avere |
 |---------------------------------|--------------|---------------|
 | Contabilità clienti (Fabrikam)  | 580,00       |               |
 | Dovuto a Fabrikam East (Fabrikam) |              | 580,00        |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                             | Importo in Dare | Importo in Avere |
 |-------------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam riceve un pagamento di 600,00 Euro (EUR) per il conto cliente 4000, Nor
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Pagamento Fabrikam liquidato con fattura Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                         | Importo in Dare            | Importo in Avere           |
 |---------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam riceve un pagamento di 600,00 Euro (EUR) per il conto cliente 4000, Nor
 | Dovuto a Fabrikam East (Fabrikam) | 0,00 EUR / 12,90 USD    |                         |
 | Profitto realizzato (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                             | Importo in Dare            | Importo in Avere           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam registra un pagamento per il cliente 4000, Northwind Traders, di Fabrik
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Pagamento Fabrikam liquidato con fattura Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                         | Importo in Dare            | Importo in Avere           |
 |---------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam registra un pagamento per il cliente 4000, Northwind Traders, di Fabrik
 | Dovuto a Fabrikam East (Fabrikam) | 0,00 EUR / 13,46 USD    |                         |
 | Profitto realizzato (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                             | Importo in Dare            | Importo in Avere           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam registra un pagamento per il cliente 4000, Northwind Traders, di Fabrik
 | Contabilità clienti (Fabrikam East) |                         | 12,00 EUR / 14,47 USD   |
 
 ## <a name="example-5-customer-credit-note-with-primary-payment"></a>Esempio 5: nota di accredito cliente con pagamento primario
-Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pagamento viene liquidato con una fattura aperta per il cliente 10000 di Fabrikam West e una nota di accredito aperta per il cliente 4000 di Fabrikam East. Il pagamento viene selezionato come pagamento primario ** transazioni liquidati ** nella pagina.
+Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pagamento viene liquidato con una fattura aperta per il cliente 10000 di Fabrikam West e una nota di accredito aperta per il cliente 4000 di Fabrikam East. Il pagamento viene selezionato come pagamento primario nella pagina **Liquida transazioni**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Fattura registrata in Fabrikam West per il cliente 10000
 
@@ -224,7 +227,7 @@ Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pa
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Pagamento Fabrikam liquidato con fattura Fabrikam West e nota di accredito Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                           | Importo in Dare | Importo in Avere |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pa
 | Contabilità clienti (Fabrikam)    | 100,00       |               |
 | Dovuto a Fabrikam West (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                             | Importo in Dare | Importo in Avere |
 |-------------------------------------|--------------|---------------|
 | Contabilità clienti (Fabrikam East) | 25,00        |               |
 | Dovuto a Fabrikam (Fabrikam East)     |              | 25,00         |
 
-**Fabrikam West posting**
+**Registrazione Fabrikam West**
 
 | Conto                             | Importo in Dare | Importo in Avere |
 |-------------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pa
 | Contabilità clienti (Fabrikam West) |              | 100,00        |
 
 ## <a name="example-6-customer-credit-note-without-primary-payment"></a>Esempio 6: nota di accredito cliente senza pagamento primario
-Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pagamento viene liquidato con una fattura aperta per il cliente 10000 di Fabrikam West e una nota di accredito aperta per il cliente 4000 di Fabrikam East. Il pagamento non viene selezionato come pagamento primario ** transazioni liquidati ** nella pagina.
+Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pagamento viene liquidato con una fattura aperta per il cliente 10000 di Fabrikam West e una nota di accredito aperta per il cliente 4000 di Fabrikam East. Il pagamento non viene selezionato come pagamento primario nella pagina **Liquida transazioni**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Fattura registrata in Fabrikam West per il cliente 10000
 
@@ -273,21 +276,21 @@ Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pa
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Pagamento Fabrikam liquidato con fattura Fabrikam West e nota di accredito Fabrikam East
 
-**Fabrikam posting**
+**Registrazione Fabrikam**
 
 | Conto                         | Importo in Dare | Importo in Avere |
 |---------------------------------|--------------|---------------|
 | Contabilità clienti (Fabrikam)  | 75,00        |               |
 | Dovuto a Fabrikam West (Fabrikam) |              | 75,00         |
 
-**Fabrikam East posting**
+**Registrazione Fabrikam East**
 
 | Conto                              | Importo in Dare | Importo in Avere |
 |--------------------------------------|--------------|---------------|
 | Contabilità clienti (Fabrikam East)  | 25,00        |               |
 | Dovuto a Fabrikam West (Fabrikam East) |              | 25,00         |
 
-**Fabrikam West posting**
+**Registrazione Fabrikam West**
 
 | Conto                                | Importo in Dare | Importo in Avere |
 |----------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pa
 | Contabilità clienti (Fabrikam West)    |              | 75,00         |
 | Dovuto da Fabrikam East (Fabrikam West) | 25,00        |               |
 | Contabilità clienti (Fabrikam West)    |              | 25,00         |
+
+
 
 
 

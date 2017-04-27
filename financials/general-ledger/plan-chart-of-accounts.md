@@ -1,5 +1,5 @@
 ---
-title: Progetti il piano dei conti
+title: Pianificare il piano dei conti
 description: Questo articolo fornisce le informazioni che consentono di pianificare il piano dei conti per l&quot;organizzazione.
 author: RobinARH
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Progetti il piano dei conti
+# <a name="plan-your-chart-of-accounts"></a>Pianificare il piano dei conti
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce le informazioni che consentono di pianificare il piano dei conti per l'organizzazione.
 
@@ -34,7 +37,7 @@ Per tenere traccia e gestire le informazioni finanziarie in un'organizzazione, �
 
 Il piano dei conti consiste in un elenco strutturato dei conti CoGe di una persona giuridica. Questo elenco viene utilizzato per preparare i report finanziari destinati agli uffici competenti e ai proprietari. I conti vengono raggruppati in tipi di conti, quindi ulteriormente aggregati in categorie più ampie. A livello generale, i conti vengono raggruppati in costi e ricavi (conti di gestione) e in attività e passività (conti collettivi). 
 
-Un piano dei conti può essere condiviso e utilizzato da qualsiasi persona giuridica in un'organizzazione. Il piano dei conti utilizzato da una persona giuridica viene definito ** contabilità generale ** nella pagina. 
+Un piano dei conti può essere condiviso e utilizzato da qualsiasi persona giuridica in un'organizzazione. Il piano dei conti utilizzato da una persona giuridica è definito nella pagina **Contabilità generale**. 
 
 Di seguito vengono indicati alcuni fattori da prendere in considerazione quando si pianifica la struttura del piano dei conti per l'organizzazione:
 
@@ -48,10 +51,12 @@ Creare i piani dei conti nella pagina **Piano dei conti**. I conti principali po
 
 Utilizzare la pagina **Configura strutture dei conti** per creare strutture dei conti. Le strutture dei conti consentono di definire combinazioni valide. Le combinazioni, insieme ai conti principali, formano un piano dei conti. 
 
-**Legal entity overrides** 
+**Sostituzioni persona giuridica** 
 
-Non tutti i conti principali sono validi per tutte le persone giuridiche e alcuni possono solo essere pertinenti per un periodo specifico. In questo scenario la sezione Sostituzioni persona giuridica può essere utilizzata per identificare quali sono le società per cui è necessario sospendere il conto principale, l'identità del proprietario e il periodo di tempo durante il quale la dimensione è attiva. Le sostituzioni a livello condiviso non possono essere più restrittive di quelle a livello della persona giuridica.
+Non tutti i conti principali sono validi per tutte le persone giuridiche e alcuni potrebbero essere pertinenti solo per un periodo di tempo specifico. In questo scenario la sezione Sostituzioni persona giuridica può essere utilizzata per identificare quali sono le società per cui è necessario sospendere il conto principale, l'identità del proprietario e il periodo di tempo durante il quale la dimensione è attiva. Le sostituzioni a livello condiviso non possono essere più restrittive di quelle a livello della persona giuridica.
 
-Per ulteriori informazioni, vedere dimensioni finanziarie [] () financial-dimensions.md.
+Per ulteriori informazioni, vedere [Dimensioni finanzarie](financial-dimensions.md).
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Metodi e convenzioni di ammortamento
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce una panoramica delle convenzioni e dei metodi di ammortamento che sono supportati da Microsoft Dynamics AX.
 
 È possibile selezionare diversi metodi e convenzioni di ammortamento. Scopo dei metodi è l'allocazione del valore ammortizzabile del cespite ai periodi fiscali. Tale valore corrisponde al prezzo di acquisizione da cui viene dedotto un valore di scarto, se presente. 
@@ -66,26 +69,27 @@ Ad esempio, se si utilizza la convenzione di ammortamento semestrale su tre anni
 <a name="see-also"></a>Vedere anche
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Ammortamento cespiti](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Ammortamento a quote costanti basato sulla vita utile](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Ammortamento a saldi decrescenti](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Ammortamento manuale](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Ammortamento basato su coefficiente](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Ammortamento del consumo](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Ammortamento basato sulla vita utile rimanente a quote costanti](straight-line-life-remaining-depreciation.md)
 
-[riduzione del 125 di ammortamento] saldi (125 percent-reducing-balance-depreciation.md)
+[Riduzione del 125% dell'ammortamento del saldo](125-percent-reducing-balance-depreciation.md)
 
-[riduzione del 150 di ammortamento] saldi (150 percent-reducing-balance-depreciation.md)
+[Riduzione del 150% dell'ammortamento del saldo](150-percent-reducing-balance-depreciation.md)
 
-[riduzione del 175 di ammortamento] saldi (175 percent-reducing-balance-depreciation.md)
+[Riduzione del 175% dell'ammortamento del saldo](175-percent-reducing-balance-depreciation.md)
 
-[200 percent reducing balance depreciation](200-percent-reducing-balance-depreciation.md)
+[Riduzione del 200% dell'ammortamento del saldo](200-percent-reducing-balance-depreciation.md)
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: Determinare la versione DBA
-description: "Durante l&quot;esplosione della domanda, se un articolo è impostato il tipo di ordine predefinite di produzione, il motore di pianificazione identifica una versione DBA valida in base al sito."
+description: "Durante un&quot;esplosione della domanda, se per un articolo è impostato il tipo di ordine predefinito Produzione, il motore di pianificazione identifica una versione DBA valida in base al sito,"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="determine-the-bom-version"></a>Determinare la versione DBA
 
-Durante l'esplosione della domanda, se un articolo è impostato il tipo di ordine predefinite di produzione, il motore di pianificazione identifica una versione DBA valida in base al sito. 
+[!include[banner](../includes/banner.md)]
+
+
+Durante un'esplosione della domanda, se per un articolo è impostato il tipo di ordine predefinito Produzione, il motore di pianificazione identifica una versione DBA valida in base al sito, 
 
 La dimensione sito è sempre nota ed è indicata nella transazione della domanda. Di seguito è illustrato il processo in base al quale viene determinata la versione DBA da utilizzare:
 
@@ -38,6 +41,8 @@ La dimensione sito è sempre nota ed è indicata nella transazione della domanda
 -   Se non è presente una versione DBA da utilizzare, l'esplosione della domanda verrà interrotta in questo punto.
 
 Una versione DBA valida, generale o specifica di un sito, deve soddisfare i criteri relativi alla data e alla quantità.
+
+
 
 
 
