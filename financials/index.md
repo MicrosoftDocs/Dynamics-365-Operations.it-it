@@ -1,5 +1,5 @@
 ---
-title: Home page di gestione finanziaria
+title: Home page di Gestione finanziaria
 description: "In questo argomento viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
@@ -24,22 +24,22 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Home page di gestione finanziaria
+# <a name="financial-management-home-page"></a>Home page di Gestione finanziaria
 
 [!include[banner](includes/banner.md)]
 
 In questo argomento viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 for Operations. 
 
-Selezionare un'area delle funzionalità per ulteriori informazioni.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+Selezionare l'area di una funzionalità per ulteriori informazioni.
+- [Contabilità fornitori](accounts-payable\accounts-payable.md) 
+- [Contabilità clienti](accounts-receivable\accounts-receivable.md) 
+- [Gestione cassa e banche](cash-bank-management\cash-bank-management.md)
+- [Contabilità industriale](cost-accounting\cost-accounting-home-page.md)
+- [Cespiti](fixed-assets\fixed-assets.md)
+- [Contabilità generale](general-ledger\general-ledger.md) 
+- [Gestione progetti](project-management\overview-project-management-accounting.md)
+- [Settore pubblico](public-sector\public-sector-functionality.md) 
+- [Impostazione budget](budgeting\budgeting-overview.md) 
 
 
 

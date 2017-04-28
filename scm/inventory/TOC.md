@@ -1,21 +1,21 @@
 # Creare il layout di magazzino
-# Processo Indbound
+# Processo in entrata
 # Processo in uscita
-# Consente di impostare Gestione inventario
-## [Inventory journals](inventory-journals.md)
-## [Inventory locations](inventory-locations.md)
-## [Inventory statuses](inventory-statuses.md)
-## [Prenotare quantità di magazzino](reserve-inventory-quantities.md)
-## [Riserva lo stesso batch per un ordine di vendita](../sales-marketing/reserve-same-batch-sales-order.md)
+# Impostare la tracciabilità inventario
+## [Giornali di registrazione magazzino](inventory-journals.md)
+## [Ubicazioni di magazzino](inventory-locations.md)
+## [Stati inventario](inventory-statuses.md)
+## [Prenotare quantità di scorte](reserve-inventory-quantities.md)
+## [Prenotare lo stesso lotto per un ordine cliente](../sales-marketing/reserve-same-batch-sales-order.md)
 # Inventario spedizione
-## [Consignment](consignment.md)
+## [Spedizione](consignment.md)
 ## [Impostare la spedizione](set-up-consignment.md)
 # Gestione qualità
-## [Enable quality management](enable-quality-management.md)
-## [Inventory blocking](inventory-blocking.md)
-## [Gestione di non conformità](enable-nonconformance-management.md)
-## [Quarantine order](quarantine-orders.md)
+## [Abilitare la gestione qualità](enable-quality-management.md)
+## [Blocco scorte](inventory-blocking.md)
+## [Gestione della non conformità](enable-nonconformance-management.md)
+## [Ordine di quarantena](quarantine-orders.md)
 ## [Processo di gestione qualità](quality-management-processes.md)
-# Batch e la voce di traccia
-## [Unire i batch di magazzino](merge-inventory-batches.md)
-## [Elemento di traccia e delle materie prime](trace-items-raw-materials-inventory-production-sales.md)
+# Tracciare l'articolo e il batch
+## [Unire un batch di magazzino](merge-inventory-batches.md)
+## [Tracciare l'articolo e le materie prime](trace-items-raw-materials-inventory-production-sales.md)
