@@ -42,6 +42,7 @@
 ## [Modificare gli ID fattura negli ordini cliente](emea-edit-invoice-id-sales-orders.md)
 ## [Certificati di entrata UE](emea-entry-certificates.md)
 ## [Dichiarazione elenco vendite UE](emea-eu-sales-list.md)
+## [Rettifiche del tasso di cambio](emea-exchange-rate-adjustments.md)
 ## [Formati di file per i metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Dismissione dei cespiti per Estonia e Lituania](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Intrastat](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [Panoramica dei bonifici SEPA](../accounts-payable/sepa-credit-transfer.md)
 ## [Panoramica degli addebiti diretti SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Impostare i firmatari per la stampa dei moduli](emea-set-up-signers-for-printing-forms.md)
-## [Periodi divisi nei giornali di registrazione periodici](emea-create-post-periodic-journals.md)
-## [Aggiornare la modalità di visualizzazione degli importi nei report e nei documenti](emea-amount-printing-forms.md)
-## [Dichiarazione IVA](emea-vat-reporting.md)
+## [Tassi di cambio IVA](emea-vat-exchange-rate.md)
 ## [Visualizzare le transazioni in liquidazione](emea-transactions-settlement-form.md)
 ## Austria
+### [Ammortamento semestrale](emea-aut-half-year-depreciation.md)
 ### [Addebiti per materiale di imballaggio](emea-aut-packing-material-fee-calculation.md)
 ### [Dichiarazione IVA](emea-aut-vat-statement-details.md)
 ## Belgio
 ### [Rendiconto bancario CODA](emea-bel-coda-bank-statement-import.md)
+### [Dichiarazione IVA Intervat](emea-bel-intervat-tax-declaration.md)
 ### [Impostazione report PRODCOM](emea-bel-prodcom-report.md)
 
 ## Repubblica Ceca
+### [Sconto di cassa nella nota di credito](emea-cze-credit-note-cash-discount.md)
 ### [Arrotondamento dell'ammortamento](emea-cze-depreciation-rounding.md)
 ### [Sospensione dell'ammortamento](emea-cze-depreciation-suspension-holidays.md)
 ### [Ammortamento dei cespiti](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [Report elenco giornali di registrazione](emea-deu-journal-list-report.md)
 ### [Stampare un'etichetta separata per le note di credito che provengono da vendite](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Ungheria
+### [Metodi di ammortamento dei cespiti](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Cespiti fissi a basso costo](emea-hun-low-cost-fixed-assets.md)
+### [Spostare un cespite nel magazzino](emea-hun-fixed-asset-to-inventory.md)
 ## Italia
 ### [Dettagli della dichiarazione IVA](emea-ita-vat-statements-details.md)
 ### [Report black list](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [Verifica della data dei documenti di trasporto nelle fatture](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [Libri IVA](emea-ita-fiscal-books.md)
 ### [Pagamento diviso per le fatture emesse all'amministrazione pubblica](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Ritenuta d'acconto](emea-ita-withholding tax.md)
 ## Lettonia
 ### [Contabilità cespiti](emea-lva-fixed-assets-accounting.md)
 ### [Rilevamento modifiche delle ubicazioni cespiti](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [Duplicare la numerazione della fattura di vendita](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Ammortamento dei cespiti](emea-pol-fixed-assets-depreciation.md)
 ### [Estensione della funzionalità di dismissione del cespite](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [Imballaggio a rendere](emea-pol-returnable-packages.md)
+### [Report IVA](emea-pol-sales-tax-reports.md)
+### [File di controllo standard (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [Rendiconto saldi fatturato](emea-pol-turnover-balances-statement.md)
 ## Spagna
-### [Opzioni per effetto attivo](emea-esp-bill-of-exchange-options.md)
 ### [Applicare gli sconti di cassa nella fattura](emea-esp-cash-discount-applied-invoice.md)
+### [Opzioni per effetto attivo](emea-esp-bill-of-exchange-options.md)
+### [IVA condizionata](emea-esp-conditional-sales-tax.md)
 ### [Conto fatture di dati fiscali](emea-esp-fiscal-data-invoice-account.md)
 ### [Rivalutazione gruppo cespiti](emea-esp-fixed-asset-group-revaluation.md)
+### [IVA intracomunitaria](emea-esp-intra-community-vat.md)
 ### [Clienti occasionali](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [Opzioni per effetto passivo](emea-esp-promissory-note-options.md)
 ### [Cicli di acquisto e vendita](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # Nord America
 ## [Report 1099 di fine anno per gli Stati Uniti](noam-usa-year-end-1099-reporting.md)
+

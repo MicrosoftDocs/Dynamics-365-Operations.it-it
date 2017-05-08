@@ -1,6 +1,6 @@
 ---
 title: Home page di impostazione budget
-description: "Viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione budget e delle funzionalità di creazione di report in Microsoft Dynamics 365 for Operations."
+description: "In questo argomento viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione budget e delle funzionalità di creazione di report in Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: f7b4efc06b8e64c05da026850b41cb5b68c33ec3
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: aacce0449c9490c4ab66cacb9945ed64fa40de34
+ms.contentlocale: it-it
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -29,35 +30,35 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione budget e delle funzionalità di creazione di report in Microsoft Dynamics 365 for Operations. 
+In questo argomento viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione budget e delle funzionalità di creazione di report in Microsoft Dynamics 365 for Operations. 
 
-<a name="components-of-budgeting-functionality"></a>Componenti della funzionalità Impostazione budget
+<a name="components-of-budgeting-functionality"></a>Componenti della funzionalità di impostazione del budget
 -------------------------------------
 
-Il ciclo di pianificazione delle risorse per una società è costituito in genere dalla programmazione, dall'impostazione del budget e dalla previsione delle attività.
-[![Componenti della funzionalità Impostazione budget](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg): I processi per la pianificazione strategica di lungo termine e per la pianificazione del budget annuale sono supportati tramite un documento di piano di budget. I documenti dei piani di budget sono strettamente integrati con Microsoft Excel. Gli utenti possono configurare gli scenari monetari e quantitativi illimitati e anche definire una gerarchia organizzativa di impostazione del budget per supportare i metodi di impostazione budget dall'alto verso il basso e dal basso verso l'alto. Dopo che un budget è definito e approvato in Microsoft Dynamics 365 for Operations, il piano di budget viene convertito in una voce del registro di budget. Le voci del registro di budget forniscono gli strumenti per gestire il budget e per tenere traccia degli importi attraverso codici di budget. Le voci del registro di budget consentono di esaminare i budget originali, eseguono i trasferimenti e riportano gli importi del budget dell'anno precedente. In base al budget stabilito, una società può abilitare il controllo del budget. Il livello di controllo dipende dalla cultura e dal livello di sviluppo dell'organizzazione. Le organizzazioni con un livello basso di sviluppo potrebbero lasciare il budget "com'è" ed essere più reattive che dinamiche se un budget non soddisfa le aspettative. Altre organizzazioni possono abilitare i criteri di controllo del budget che impediscono agli utenti di acquistare se i fondi di budget non sono disponibili. Infine, le organizzazioni molto mature potrebbero stabilire una cultura organizzativa in cui i dipendenti vengono formati sugli obiettivi dell'organizzazione e seguono tali obiettivi tramite criteri quali "Valuta una riunione online anziché un viaggio". Dynamics 365 for Operations include una struttura di controllo del budget che consente al management della società di seleziona il controllo rigido (che impedisce le registrazioni che supererebbero il budget) o controllo flessibile (in cui gli utenti vengono avvisati che supereranno i fondi budget disponibili ma possono decidere autonomamente come continuare). Infine, è possibile utilizzare previsioni ricorrenti. Una previsione ricorrente è un confronto normale tra il budget e i numeri reali e viene utilizzata per stabilire quanto bene la società opera rispetto al budget. Una previsione ricorrente viene inoltre utilizzata per identificare le tendenze. In Microsoft Dynamics 365 for Operations le previsioni ricorrenti sono supportate, tramite un documento di piano di budget, come attività iniziali di pianificazione. Possono essere eseguite parallelamente alla pianificazione del ciclo di budget imminente.
+Il ciclo di pianificazione delle risorse per un'azienda consiste di norma nelle attività di pianificazione, impostazione del budget e previsione.
+[![Componenti della funzionalità di impostazione del budget](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg) I processi di pianificazione strategica a lungo termine e pianificazione del bilancio annuale sono supportati da un documento del piano di budget. I documenti del piano di budget sono strettamente integrati con Microsoft Excel. Gli utenti possono configurare scenari quantitativi e monetari illimitati e possono definire anche una gerarchia organizzativa di impostazione del budget per supportare i metodi di impostazione del budget dall'alto in basso e dal basso verso l'alto. Dopo aver definito e approvato un budget in Microsoft Dynamics 365 for Operations, è possibile convertire il piano di budget in una voce del registro di budget. Le voci del registro di budget forniscono gli strumenti per la gestione del budget e per tracciare gli importi tramite i codici budget. Le voci del registro di budget consentono di rivedere i budget originali, eseguire trasferimenti e riportare gli importi di budget dall'anno precedente. Sulla base del budget determinato, una società può abilitare il controllo del budget. Il livello del controllo dipende dalle impostazioni cultura e dal livello di maturità dell'organizzazione. Le organizzazioni con un basso livello di maturità potrebbero lasciare il budget "così come è" e potrebbero essere più reattive che proattive se un budget non soddisfa le aspettative. Altre organizzazioni potrebbero abilitare i criteri di controllo del budget che impediscono agli utenti di acquistare se i fondi di budget non sono disponibili. Infine, le organizzazioni con un alto livello di maturità potrebbero definire le impostazioni cultura dell'organizzazione in cui i dipendenti vengono istruiti sugli obiettivi organizzativi e seguono tali obiettivi attraverso i criteri quali "Considerare la riunione online anziché un viaggio". Dynamics 365 for Operations include un framework di controllo di budget che consente alla gestione aziendale di selezionare un rigido controllo (che impedisce le registrazioni che superino il budget) o un controllo soft (dove gli utenti vengono avvertiti che supereranno i fondi di budget disponibili ma possono decidere autonomamente come procedere). Infine, è possibile utilizzare le previsioni di rolling. Una previsione di rolling è un confronto regolare del budget rispetto agli effettivi e viene utilizzato per definire come la società utilizza il budget. La previsione di rolling viene utilizzata anche per identificare le tendenze. In Microsoft Dynamics 365 for Operations, le previsioni di rolling sono supportate tramite un documento del piano di budget, come attività di pianificazione iniziale. Le previsioni di rolling possono essere eseguite in parallelo con la pianificazione del successivo ciclo di budget.
 
--   [Pianificazione del budget di base: panoramica e configurazione](basic-budgeting-overview-configuration.md)
+-   [Impostazione del budget di base: panoramica e configurazione](basic-budgeting-overview-configuration.md)
 -   [Controllo del budget: panoramica e configurazione](budget-control-overview-configuration.md)
--   [Pianificazione del budget: panoramica e configurazione](budget-planning-overview-configuration.md)
--   [Previsione della posizione](position-forecasting.md)
--   [Documenti di motivazione per la pianificazione del budget](budget-planning-justification-docs.md)
+-   [Impostazione del budget: panoramica e configurazione](budget-planning-overview-configuration.md)
+-   [Previsione delle posizioni](position-forecasting.md)
+-   [Documenti di motivazione per pianificazione del budget](budget-planning-justification-docs.md)
 -   [Modelli di Microsoft Excel per la pianificazione del budget](budget-planning-excel-templates.md)
 
-## <a name="budgeting-tools-in-dynamics-365-for-operations"></a>Strumenti di budget in Dynamics 365 for Operations
+## <a name="budgeting-tools-in-dynamics-365-for-operations"></a>Strumenti di impostazione del budget in Dynamics 365 for Operations
 [![Strumenti di impostazione del budget](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
-La pianificazione aggiuntiva e le funzionalità di impostazione del budget sono disponibili in Dynamics 365 for Operations e sono integrate nei budget della contabilità generale.
+In Dynamics 365 for Operations sono disponibili ulteriori funzionalità di pianificazione e impostazione del budget che sono integrate nei budget contabili.
 
--   **Budget della forza lavoro** - L'impostazione del budget della forza lavoro include la pianificazione dettagliata dei componenti di costo del budget per le posizioni, i gruppi di retribuzione e così via.
--   **Budget cespiti** - In base alle informazioni sui cespiti, è possibile calcolare l'ammortamento pianificato e registrare altre transazioni pianificate correlate ai cespiti.
--   **Budget di progetto** - Nel modulo Progetti è possibile creare le previsioni di progetto dettagliate. Le previsioni di progetto comprenderanno i dettagli relativi a ore, spese, commissioni e articoli pianificati.
--   **Previsione della domanda**  - In base ai dati transazione storici, è possibile valutare la richiesta futura di inventario e creare le previsioni della domanda.
+-   **Budget della forza lavoro**: l'impostazione del budget della forza lavoro include la pianificazione dettagliata dei componenti del costo di budget per posizioni, gruppi di compensazione e così via.
+-   **Budget di cespiti**: sulla base delle informazioni dei cespiti, è possibile calcolare l'ammortamento pianificato e registrare altre transazioni pianificate relative ai cespiti.
+-   **Budget di progetto**: nel modulo del progetto è possibile creare previsioni dettagliate per il progetto. Le previsioni dei progetti includono i dettagli sulle ore, sulle spese, sulle commissioni e sugli articoli pianificati.
+-   **Previsione della domanda**: Sulla base dei dati storici delle transazioni, è possibile stimare la domanda di articoli futura e creare previsioni della domanda.
 
-Per informazioni su come introdurre i dati di pianificazione da altri moduli nel piano del budget, vedere [Integrazione della pianificazione del budget con altri moduli](budget-planning-integration-other-modules.md).
+Per informazioni su come utilizzare i dati di pianificazione di altri moduli nei piani di budget, vedere [Integrazione della pianificazione del budget con altri moduli](budget-planning-integration-other-modules.md).
 
 ## <a name="user-interface-and-reporting-capabilities"></a>Interfaccia utente e funzionalità di creazione di report
-In Microsoft Dynamics 365 for Operations gli utenti possono creare piani di budget direttamente nel client Microsoft Dynamics 365 for Operations (mediante una pagina configurabile del documento di piano di budget) o in Excel. Excel fornisce più funzionalità aggiuntive. Ad esempio, è possibile utilizzare i dati esterni come origine per un piano di budget, eseguire calcoli personalizzati e utilizzare le tabelle pivot e i grafici Microsoft. La maggior parte delle variabili nel processo di pianificazione del budget può essere configurata. Ad esempio, è possibile definire gli utenti che impostano il budget, che cosa viene sottoposto a budget e a che cosa assomiglia il processo. Sebbene sia possibile utilizzare Excel per la pianificazione del budget, Dynamics 365 for Operations è considerato l'unica fonte attendibile e consente di impedire problemi di controllo del budget. I processi periodici possono essere utilizzati per introdurre i dati iniziali per l'impostazione del budget nel piano di budget. Per la dichiarazione Dynamics 365 for Operations offre un set di pagine standard di indagine che consentono di visualizzare e analizzare i dati di impostazione del budget. I dati del piano di budget sono accessibili tramite lo Strumento di creazione report di gestione e scenari del piano di budget distinti possono essere visualizzati come colonne nel report Strumento di creazione report di gestione.
+In Dynamics 365 for Operations, gli utenti possono creare i piani di budget direttamente nel client Dynamics 365 for Operations (utilizzando una pagina del documento di piano di budget configurabile) o tramite Excel. In Excel sono fornite diverse funzionalità aggiuntive. Ad esempio, è possibile utilizzare dati esterni come origine di un piano di budget, eseguire calcoli personalizzati e utilizzare la tabella pivot e i grafici di Microsoft. È possibile configurare la maggior parte delle variabili del processo di pianificazione del budget. Ad esempio, è possibile definire chi esegue l'impostazione del budget, cosa è incluso nel budget e l'aspetto del processo. Sebbene sia possibile utilizzare Excel per la pianificazione del budget, Dynamics 365 for Operations è considerata l'unica soluzione attendibile che consente di evitare problemi di controllo del budget. I processi periodici possono essere utilizzati per passare i dati iniziali dell'impostazione del budget nel piano di budget. Per la dichiarazione, Dynamics 365 for Operations offre un set di pagine di indagine standard che consentono di visualizzare e analizzare i dati dell'impostazione del budget. È possibile accedere ai dati del piano di budget tramite Management Reporter e gli scenari dei piani di budget separati possono essere visualizzati come colonne del report di Management Reporter.
 
 
 

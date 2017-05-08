@@ -22,10 +22,14 @@
 ## [Data media ponderata](weighted-average-date.md)
 ## [Media ponderata con valore fisico e contrassegno](weighted-average-physical-value-marking.md)
 # Determinazione dei costi di produzione
+## [Ammortamento dei costi costanti per un articolo prodotto](amortize-constant-costs-manufactured-item.md)
+## [Determinazione costi di tipo backflush](backflush-costing.md)
+## [Calcoli DBA](bom-calculations.md)
 ## [Gruppo di calcolo DBA](bom-calculation-groups.md)
 ## [Origini comuni dello scostamento di produzione](common-sources-of-production-variances.md)
 ## [Categoria di costo utilizzata nel ciclo di lavorazione](cost-categories-used-production-routings.md)
 ## [Categoria di costo utilizzata in Controllo produzione e Gestione progetti e contabilità](cost-categories-used-production-control-project-management-accounting.md)
+## [Visualizzazione delle spese per un articolo prodotto](charges-manufactured-item.md)
 ## [Analisi dei costi degli ordini di produzione](production-order-cost-analysis.md)
 ## [Stima dei costi degli ordini di produzione](production-order-cost-estimation.md)
 ## [Registrazione produzione](production-posting.md)
@@ -39,5 +43,6 @@
 ## [Aggiornare un costo standard in un ambiente di produzione](update-standard-costs-manufacturing-environment.md)
 ## [Aggiornare un costo standard per un nuovo articolo prodotto](update-standard-costs-new-manufactured-item.md)
 ## [Aggiornare un costo standard in un ambiente non di produzione](update-standard-costs-non-manufacturing-environment.md)
+
 
 

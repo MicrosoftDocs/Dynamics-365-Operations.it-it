@@ -1,5 +1,6 @@
 # Creare il layout di magazzino
 # Processo in entrata
+## [Panoramica arrivi](arrival-overview.md)
 # Processo in uscita
 # Impostare la tracciabilità inventario
 ## [Giornali di registrazione magazzino](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [Spedizione](consignment.md)
 ## [Impostare la spedizione](set-up-consignment.md)
 # Gestione qualità
+## [Area di lavoro mobile per scorte disponibili](inventory-on-hand-mobile-workspace.md)
 ## [Abilitare la gestione qualità](enable-quality-management.md)
 ## [Blocco scorte](inventory-blocking.md)
 ## [Gestione della non conformità](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # Tracciare l'articolo e il batch
 ## [Unire un batch di magazzino](merge-inventory-batches.md)
 ## [Tracciare l'articolo e le materie prime](trace-items-raw-materials-inventory-production-sales.md)
+
