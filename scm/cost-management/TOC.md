@@ -1,0 +1,48 @@
+# Power BI Content Packs
+## [Pacchetto di contenuti per la gestione dei costi](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Costo predeterminato
+## [Scheda di determinazione costi](costing-sheets.md)
+## [Versione determinazione costi](costing-versions.md)
+## [Simulare una variazione di costo mediante una versione di determinazione costi per i costi pianificati](simulate-cost-changes-costing-version-planned-costs.md)
+# Determinazione costi inventario
+## [Rettificare il valore di costo delle scorte disponibili](adjust-hand-inventory-cost-values.md)
+## [Oggetto di costo](cost-object.md)
+## [Voce di costo](cost-entries.md)
+## [Gruppo di costi](cost-groups.md)
+## [FIFO con valore fisico e contrassegno](fifo-physical-value-marking.md)
+## [Includi valore fisico](include-physical-value.md)
+## [Valore oggetto inventario](physical-quantity.md)
+## [Chiusura inventario](inventory-close.md)
+## [Data LIFO con valore fisico e contrassegno](lifo-date-physical-value-marking.md)
+## [LIFO con valore fisico e contrassegno](lifo-physical-value-marking.md)
+## [Media mobile](moving-average.md)
+## [Aggiornamento fisico e finanziario](physical-financial-updates.md)
+## [Prezzo di costo medio corrente](running-average-cost-price.md)
+## [Traccia del costo medio corrente per dimensione inventariale](track-running-average-cost-per-inventory-dimension.md)
+## [Data media ponderata](weighted-average-date.md)
+## [Media ponderata con valore fisico e contrassegno](weighted-average-physical-value-marking.md)
+# Determinazione dei costi di produzione
+## [Ammortamento dei costi costanti per un articolo prodotto](amortize-constant-costs-manufactured-item.md)
+## [Determinazione costi di tipo backflush](backflush-costing.md)
+## [Calcoli DBA](bom-calculations.md)
+## [Gruppo di calcolo DBA](bom-calculation-groups.md)
+## [Origini comuni dello scostamento di produzione](common-sources-of-production-variances.md)
+## [Categoria di costo utilizzata nel ciclo di lavorazione](cost-categories-used-production-routings.md)
+## [Categoria di costo utilizzata in Controllo produzione e Gestione progetti e contabilità](cost-categories-used-production-control-project-management-accounting.md)
+## [Visualizzazione delle spese per un articolo prodotto](charges-manufactured-item.md)
+## [Analisi dei costi degli ordini di produzione](production-order-cost-analysis.md)
+## [Stima dei costi degli ordini di produzione](production-order-cost-estimation.md)
+## [Registrazione produzione](production-posting.md)
+## [Impostare un prodotto che può essere prodotto o approvvigionato](manufactured-items-treated-as-purchased-items.md)
+## [Metodo di allocazione costi totali](methodology-total-cost-allocation.md)
+# Costo standard
+## [Calcoli DBA con costo standard](information-used-bom-calculations-standard-costs.md)
+## [Gestire l'aggiornamento dei costi standard](manage-standard-cost-updates.md)
+## [Prerequisito per la conversione in costo standard](prerequisites-standard-cost-conversion.md)
+## [Panoramica della conversione in costo standard](standard-cost-conversion-overview.md)
+## [Aggiornare un costo standard in un ambiente di produzione](update-standard-costs-manufacturing-environment.md)
+## [Aggiornare un costo standard per un nuovo articolo prodotto](update-standard-costs-new-manufactured-item.md)
+## [Aggiornare un costo standard in un ambiente non di produzione](update-standard-costs-non-manufacturing-environment.md)
+
+
+
