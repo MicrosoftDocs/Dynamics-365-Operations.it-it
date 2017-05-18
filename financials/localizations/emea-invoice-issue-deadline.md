@@ -17,10 +17,11 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 6121be0dd02659e4e8466b0c1381678be64fefc2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f1e572ae423a05337117bcd5ea3ac3e12bd0d42b
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -79,7 +80,7 @@ Per impostare Microsoft Dynamics 365 for Operations in modo da calcolare le date
 Dopo aver completato l'impostazione dei parametri per calcolare le date di scadenza emissione fattura, è possibile creare e registrare le seguenti transazioni per calcolare automaticamente e aggiornare le date di scadenza per l'emissione delle fatture:
 
 -   **Ordini cliente**: quando si crea un ordine cliente e si registra un documento di trasporto, la data di scadenza per l'emissione della fattura viene calcolata e aggiornata nel documento di trasporto. La data di scadenza viene calcolata in base all'intervallo di date associato al paese specificato nell'indirizzo di consegna dell'ordine cliente. Dopo aver registrato il documento di trasporto, è possibile verificare la data di scadenza emissione fattura nel campo **Data di scadenza emissione fattura** della pagina **Giornale di registrazione documenti di trasporto**. Fare clic su **Vendite e marketing** &gt; **Ordine cliente** &gt; **Spedizione ordine** &gt; **Ddocumento di trasporto**). È possibile visualizzare tutti i documenti di trasporto che non sono fatturati e le relative date di scadenza emissione fattura nella pagina **Documenti di trasporto non fatturati**. (Fare clic su **Vendite e marketing** &gt; **Ordine cliente** &gt; **Spedizione ordine** &gt; **Documenti di trasporto non fatturati**).
--   **Ordini acquisto**: quando si crea un ordine acquisto e si registra un'entrata prodotti, la data di scadenza per l'emissione della fattura viene calcolata e aggiornata all'entrata prodotti. La data di scadenza viene calcolata in base all'intervallo di date associato al paese specificato nell'indirizzo principale del fornitore. Dopo aver registrato l'entrata prodotti, è possibile verificare la data di scadenza emissione fattura nel campo **Data di scadenza emissione fattura** della pagina **Giornale di registrazione entrata prodotti**. Fare clic su **** Approvvigionamento** ** &gt; ****Ordini fornitore** ** &gt; ****Ricezione di prodotti** &gt; **Entrata prodotti **). È possibile visualizzare tutte le entrate prodotti non fatturate e le relative date di scadenza emissione fattura nella pagina **Entrate prodotti non fatturate** . (Fare clic su **Approvvigionamento** &gt; **Ordini fornitore** &gt; **Ricezione di prodotti** &gt; **Entrate prodotti non fatturate**).
+-   **Ordini acquisto**: quando si crea un ordine acquisto e si registra un'entrata prodotti, la data di scadenza per l'emissione della fattura viene calcolata e aggiornata all'entrata prodotti. La data di scadenza viene calcolata in base all'intervallo di date associato al paese specificato nell'indirizzo principale del fornitore. Dopo aver registrato l'entrata prodotti, è possibile verificare la data di scadenza emissione fattura nel campo **Data di scadenza emissione fattura** della pagina **Giornale di registrazione entrata prodotti**. Fare clic su **** Approvvigionamento** ** &gt; ****Ordini fornitore** ** &gt; ****Ricezione di prodotti** &gt; **Entrata prodotti**). È possibile visualizzare tutte le entrate prodotti non fatturate e le relative date di scadenza emissione fattura nella pagina **Entrate prodotti non fatturate** . (Fare clic su **Approvvigionamento** &gt; **Ordini fornitore** &gt; **Ricezione di prodotti** &gt; **Entrate prodotti non fatturate**).
 
 ## <a name="technical-information-for-system-administrators"></a>Informazioni tecniche per gli amministratori di sistema
 Se non si ha accesso alle pagine utilizzate per completare le attività menzionate in questo articolo, contattare l'amministratore di sistema e fornire le informazioni indicate nella tabella che segue.

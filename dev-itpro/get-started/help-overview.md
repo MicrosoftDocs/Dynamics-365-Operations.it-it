@@ -3,7 +3,7 @@ title: Panoramica della Guida
 description: "Questo articolo fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Operations. Viene illustrato come è possibile fornire documentazione personalizzata e formazione all&quot;organizzazione."
 author: margoc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 240060606c8a2955c3f0a0d47fb25b0cde64c187
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.contentlocale: it-it
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="help-overview"></a>Panoramica della Guida
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Operations. Viene illustrato come è possibile fornire documentazione personalizzata e formazione all'organizzazione. 
 
@@ -37,18 +41,18 @@ Dynamics 365 for Operations include una Guida basata su due componenti principal
 È possibile accedere agli articoli e alle guide attività dal riquadro Guida in Dynamics 365 for Operations, come illustrato nel seguente screenshot. [![Riquadro Guida](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png) Questo articolo descrive la Guida e spiega come creare documentazione e risorse di formazione personalizzate per l'organizzazione.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Guida sul sito docs.microsoft.com
-Il sito docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) rappresenta la fonte principale di documentazione sul prodotto Dynamics 365 for Operations. Il sito offre le seguenti funzionalità:
+Il sito docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) rappresenta la fonte principale di documentazione sul prodotto Dynamics 365 for Operations. Il sito offre le seguenti funzionalità:
 
 -   **Accesso a contenuti più aggiornati**: il sito offre modi più veloci e più flessibili per creare, fornire e aggiornare la documentazione del prodotto. Di conseguenza, aiuta a garantire l'accesso alle ultime informazioni tecniche.
--    **Contenuto scritto da esperti**: il sito fornisce un set più dettagliato di documentazione del prodotto che può essere aggiornato da membri della community interni ed esterni a Microsoft.
--   **Accesso a diversi tipi di contenuto**: il sito consente di accedere rapidamente a diversi tipi di contenuto su Dynamics 365 for Operations, ad esempio presentazioni di Microsoft Office Mix, guide attività, video e articoli wiki.
--    **Contenuto che supporta i processi aziendali**: il sito include contenuto incentrato su processi aziendali che sfrutta i vantaggi offerti dal Modellatore di processi aziendali in Microsoft Dynamics Lifecycle Services (LCS).
+-   **Contenuto scritto da esperti**: il sito fornisce un set più dettagliato di documentazione del prodotto che può essere aggiornato da membri della community interni ed esterni a Microsoft.
+-   **Accesso a diversi tipi di contenuto**: il sito consente di accedere rapidamente a diversi tipi di contenuto su Dynamics 365 for Operations, ad esempio presentazioni di Microsoft Office Mix, guide attività, video e argomenti.
+-   **Contenuto che supporta i processi aziendali**: il sito include contenuto incentrato su processi aziendali che sfrutta i vantaggi offerti dal Modellatore di processi aziendali in Microsoft Dynamics Lifecycle Services (LCS).
 
 Tutto il contenuto della guida precedente è stato migrato sul sito docs. Siamo molto soddisfatti del nostro nuovo sito e speriamo che lo siano anche i nostri utenti.
 
 ### <a name="when-can-we-use-it"></a>Quando può essere utilizzato?
 
-È possibile leggere immediatamente il contenuto nel sito docs, che è completamente pubblico ed esplorabile senza richiedere l'accesso. È possibile utilizzare uno dei motori di ricerca preferiti per trovare il contenuto. Se lo si desidera, è possibile commentare gli articoli nel sito accedendo con un account GitHub.
+È possibile leggere immediatamente il contenuto nel sito docs, che è completamente pubblico ed esplorabile senza richiedere l'accesso. È possibile utilizzare uno dei motori di ricerca preferiti per trovare il contenuto. Se lo si desidera, è possibile commentare gli articoli nel sito effettuando l'accesso.
 
 
 ## <a name="task-guides"></a>Guide attività
@@ -68,7 +72,7 @@ Per ulteriori informazioni su Registrazione attività, vedere [Registrazione att
 È possibile creare registrazioni attività personalizzate oppure scaricare e personalizzare le registrazioni attività fornite da Microsoft. Di conseguenza, è possibile creare la Guida personalizzata per l'organizzazione in base alla specifica implementazione di Dynamics 365 for Operations. Per visualizzare una registrazione attività nel riquadro Guida di Dynamics 365 for Operations e riprodurla come una guida attività, si dovrà salvare la registrazione in una libreria BPM in LCS. Per i partner, se si promuove una libreria a libreria aziendale e si include in una soluzione, sarà disponibile per i clienti. Per le istruzioni complete, vedere [Utilizzo delle registrazioni attività per creare documentazione o formazione](../user-interface/task-recorder.md).
 
 ## <a name="in-product-help"></a>Guida nel prodotto
-Per accedere al contenuto della Guida all'interno di Dynamics 365 for Operations, fare clic sull'icona **Guida** (**?**) oppure scegliere Guida o premere CTRL+MAIUSC+?. In entrambi i casi, verrà aperto il riquadro della Guida. Dal riquadro Guida è possibile accedere ad articoli o guide attività. [![](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Per accedere al contenuto della Guida all'interno di Dynamics 365 for Operations, fare clic sull'icona **Guida** (**?**) oppure scegliere Guida o premere CTRL+MAIUSC+?. In entrambi i casi, verrà aperto il riquadro della Guida. Dal riquadro Guida è possibile accedere ad articoli o guide attività. [![Riquadro della Guida](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Accesso agli articoli dal riquadro Guida
 
@@ -81,9 +85,9 @@ Affinché si possa accedere alle guide attività dal riquadro Guida, è necessar
 -   Per configurare la Guida, è necessario essere connessi con un account nello stesso tenant di distribuzione di Dynamics 365 for Operations.
 -   Non è possibile connettersi a una libreria LCS da un'istanza di Dynamics 365 for Operations in esecuzione in un'unità disco rigido virtuale (VHD) locale.
 
-[![Modulo Parametri di sistema con impostazioni della Guida](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Nella pagina **Parametri di sistema **effettuare le operazioni seguenti:
+[![Modulo Parametri di sistema con impostazioni della Guida](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Nella pagina **Parametri di sistema**effettuare le operazioni seguenti:
 
-1.  **Importante: **La prima volta che si apre la scheda della Guida, è necessario connettersi a Lifecycle Services. Assicurarsi di fare clic sul collegamento al centro del modulo, attendere la connessione, chiudere la finestra di dialogo quindi scegliere OK per ottenere il modulo dei parametri.[![Connessione a LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+1.  **Importante:**La prima volta che si apre la scheda della Guida, è necessario connettersi a Lifecycle Services. Assicurarsi di fare clic sul collegamento al centro del modulo, attendere la connessione, chiudere la finestra di dialogo quindi scegliere OK per ottenere il modulo dei parametri.[![Connessione a LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
 2.  Selezionare il progetto Lifecycle Services a cui connettersi.
 3.  Selezionare le librerie BPM (nel progetto selezionato) da cui recuperare le registrazioni attività.
 4.  Impostare l'ordine di visualizzazione delle librerie BPM. Ciò determina l'ordine in cui le registrazioni attività delle librerie verranno visualizzate nel riquadroGuida.
@@ -101,13 +105,13 @@ Nella tabella di seguito sono elencati i siti Web che forniscono il contenuto di
 
 | Sito                                                                     | descrizione                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Docs.microsoft.com](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) | Host o collegamenti a tutta la documentazione del prodotto per Dynamics 365 for Operations.                                                                                                                                                               |
+| [Docs.microsoft.com](/dynamics365/#pivot=solutions&panel=solutions_operations) | Host o collegamenti a tutta la documentazione del prodotto per Dynamics 365 for Operations.                                                                                                                                                               |
 | [Lifecycle Services](http://lcs.dynamics.com/en/)\*                      | Offre un'area di lavoro collaborativa basata sul cloud che i clienti e i partner possono utilizzare per gestire i progetti Dynamics 365 for Operations dalle prevendite all'implementazione e alle operazioni. Questo sito è utile in tutte le fasi dell'implementazione. |
 | [CustomerSource](http://www.customersource.com/)\*                       | Ospita risorse di formazione estese e rappresenta il sito di supporto primario per Dynamics 365 for Operations. L'accesso potrebbe essere necessario per visualizzare risorse specifiche del sito.                                                                      |
 | [Blog di supporto](http://aka.ms/AXSupportBlog)                              | Fornisce suggerimenti pubblicati dal team del supporto di Dynamics 365 for Operations.                                                                                                                                                  |
 | [MSDN](http://aka.ms/AXMSDN)                                             | Ospita contenuto delle versioni precedenti scritto per gli sviluppatori.                                                                                                                                                                       |
 | [TechNet](http://aka.ms/TechNet)                                         | Ospita contenuti delle versioni precedenti scritti per i professionisti IT e gli utenti di applicazioni.                                                                                                                                           |
-| [Community di Dynamics](http://community.dynamics.com/en/)                  | Ospita blog, i forum e video.                                                                                                                                                                                                           |
+| [Community di Dynamics](http://community.dynamics.com/)                  | Ospita blog, i forum e video.                                                                                                                                                                                                           |
 | [Microsoft.com/Dynamics/](http://www.microsoft.com/dynamics/)                 | Fornisce informazioni su vendite e valutazione.                                                                                                                                                                                                 |
 
 
@@ -125,6 +129,8 @@ Nella tabella di seguito sono elencati i siti Web che forniscono il contenuto di
 [Guide attività nuove o aggiornate (agosto 2016)](new-updated-task-guides-available-august-2016.md)
 [Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 [Nuove guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)
+
+
 
 
 

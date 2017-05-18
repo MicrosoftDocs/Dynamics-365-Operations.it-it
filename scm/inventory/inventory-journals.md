@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: c64ba9e081ab4224556af86ec855ebf508853454
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e50d12b62e03ae3c3c6a37b5f0be879ad8d802d7
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Quando si dichiara una DBA come finita, è possibile creare un giornale di regis
 
 ### <a name="item-arrival"></a>Arrivo articoli
 
-È possibile utilizzare il giornale di registrazione arrivi articoli per registrare l'entrata di articoli (ad esempio, ordini fornitore). Un giornale di registrazione arrivi articoli può essere creato come parte della gestione degli arrivi dalla pagina **Panoramica arrivi** oppure è possibile creare manualmente un inserimento nel giornale di registrazione dalla pagina **Arrivo articoli **. Se si consente al nome del giornale di registrazione arrivi articoli di controllare le ubicazioni di prelievo, Dynamics 365 for Operations cerca una ubicazione per gli articoli ricevuti e, se c'è spazio disponibile, genera le destinazioni di ubicazione per gli articoli in arrivo.
+È possibile utilizzare il giornale di registrazione arrivi articoli per registrare l'entrata di articoli (ad esempio, ordini fornitore). Un giornale di registrazione arrivi articoli può essere creato come parte della gestione degli arrivi dalla pagina **Panoramica arrivi** oppure è possibile creare manualmente un inserimento nel giornale di registrazione dalla pagina **Arrivo articoli**. Se si consente al nome del giornale di registrazione arrivi articoli di controllare le ubicazioni di prelievo, Dynamics 365 for Operations cerca una ubicazione per gli articoli ricevuti e, se c'è spazio disponibile, genera le destinazioni di ubicazione per gli articoli in arrivo.
 
 ### <a name="production-input"></a>Entrata produzione
 

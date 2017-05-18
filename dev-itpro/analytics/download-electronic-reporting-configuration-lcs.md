@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo argomento illustra come scaricare le configurazioni per la creazione di report elettronici da Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -43,9 +47,10 @@ Questa esercitazione guida l'utente nel processo di download della versione più
     1.  Fare clic su **Aggiungi** per aggiungere un nuovo archivio.
     2.  Selezionare **LCS** come tipo di archivio.
     3.  Fare clic su **Crea archivio**.
-    4.  Immettere un nome e una descrizione per l'archivio.
-    5.  Fare clic su **OK** per confermare la nuova voce di archivio.
-    6.  Nella griglia, selezionare il nuovo archivio di tipo **LCS**.
+    4. Se richiesto, seguire le istruzioni di autorizzazione.
+    5.  Immettere un nome e una descrizione per l'archivio.
+    6.  Fare clic su **OK** per confermare la nuova voce di archivio.
+    7.  Nella griglia, selezionare il nuovo archivio di tipo **LCS**.
 
 6.  Fare clic su **Apri** per visualizzare l'elenco delle configurazioni di ER per l'archivio selezionato. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Nella struttura di configurazioni nel riquadro sinistro, selezionare la configurazione per la creazione di report elettronici desiderata.
@@ -58,5 +63,7 @@ Questa esercitazione guida l'utente nel processo di download della versione più
 --------
 
 [Panoramica sui report elettronici](general-electronic-reporting.md)
+
+
 
 

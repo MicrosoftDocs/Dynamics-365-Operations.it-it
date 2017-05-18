@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c0c918b94fe96d123bb6c25c42fe168a026cd8a9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36b307870f2427cc43a189e92cbd8c30f6ddb0c1
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,20 +40,20 @@ Per generare una previsione di base statistica, andare a **Pianificazione genera
 
 L'intervallo di previsione può essere selezionato al momento della generazione della previsione. I valori disponibili sono: Giorno, Settimana e Mese. 
 
-Il numero di intervalli per la generazione della previsione viene impostato nel campo** Orizzonte previsione**. 
+Il numero di intervalli per la generazione della previsione viene impostato nel campo**Orizzonte previsione**. 
 
 Se la strategia di previsione è impostata su **Copia domanda storica**, la fine dell'orizzonte storico viene ignorata. Il sistema copia il numero di intervalli specificato nel campo **Orizzonte di previsione** nella previsione della domanda, a partire dalla data impostata nel campo **Dal** in **Orizzonte storico**. Copiando la domanda storica da una determinata data in avanti, i responsabili di pianificazione della produzione possono creare il piano per il trimestre successivo in due modi:
 
 -   Copiando la domanda dello stesso trimestre dell'anno precedente.
 -   Copiando la domanda del trimestre precedente.
 
-Per evitare confusione nei piani di produzione, è possibile bloccare un certo numero di intervalli di previsione. Questo numero viene impostato nel campo **Intervallo temporale blocco**. Nella pagina **Previsione della domanda modificata **le celle corrispondenti agli intervalli bloccati vengono disabilitate, per fornire un'indicazione visiva che i valori non devono essere modificati. 
+Per evitare confusione nei piani di produzione, è possibile bloccare un certo numero di intervalli di previsione. Questo numero viene impostato nel campo **Intervallo temporale blocco**. Nella pagina **Previsione della domanda modificata**le celle corrispondenti agli intervalli bloccati vengono disabilitate, per fornire un'indicazione visiva che i valori non devono essere modificati. 
 
 La data di inizio per la previsione della domanda di base non deve corrispondere alla data corrente o a una data in futuro. Per impostare una data di inizio diversa, utilizzare il campo **Data di inizio previsione di base - Da**. Ad esempio, a giugno, gli utenti possono generare una previsione per l'anno successivo. Poiché gli intervalli di previsione tra la fine della richiesta storica e l'inizio di base mancano, le previsioni potrebbero non essere precise. Se si utilizza il servizio di previsione della domanda di Microsoft Dynamics 365 for Operations, sono disponibili quattro modalità in cui è possibile riempire i periodi mancanti. È possibile selezionare il metodo di registrazione desiderato impostando il parametro MISSING\_VALUE\_SUBSTITUTION nella pagina **Parametri di previsione della domanda**. 
 
 Il campo **Data di inizio previsione di base** - **Dal** deve essere impostato all'inizio di un intervallo di previsione, ad esempio negli Stati Uniti questo giorno corrisponderà alla domenica se l'intervallo di previsione è settimanale. Il sistema regola automaticamente il campo **Data di inizio previsione di base**  - **Dal** in modo che corrisponda all'inizio di un intervallo di previsione. 
 
-Il campo **Data di inizio previsione di base** - ** Dal** può essere impostato su una data nel passato. Ovvero è possibile generare una previsione della domanda nel passato. Questa opzione è utile, poiché consente agli utenti di adattare i parametri del servizio di previsione in modo che la previsione statistica generata nel passato corrisponda alla richiesta storica effettiva. Gli utenti possono quindi continuare a utilizzare le impostazioni dei parametri per generare una previsione di base statistica per il futuro. 
+Il campo **Data di inizio previsione di base** - **Dal** può essere impostato su una data nel passato. Ovvero è possibile generare una previsione della domanda nel passato. Questa opzione è utile, poiché consente agli utenti di adattare i parametri del servizio di previsione in modo che la previsione statistica generata nel passato corrisponda alla richiesta storica effettiva. Gli utenti possono quindi continuare a utilizzare le impostazioni dei parametri per generare una previsione di base statistica per il futuro. 
 
 Le rettifiche manuali effettuate nelle iterazioni precedenti di previsione della domanda possono essere applicati automaticamente alla nuova previsione di base se è selezionata la casella di controllo **Trasferisci correzioni manuali alla previsione della domanda**. Se la casella di controllo è deselezionata, le correzioni manuali non vengono aggiunte alla previsione di base, ma non verranno eliminate. Le correzioni manuali effettuate in una previsione possono essere eliminate solo durante l'importazione della previsione, deselezionando la casella di controllo **Salva le rettifiche manuali apportate alla previsione della domanda di base**. Le correzioni manuali vengono salvate nella fase di autorizzazione. Di conseguenza, se un utente apporta rettifiche manuali alla previsione, ma non autorizza la previsione in Dynamics 365 for Operations, le modifiche vanno perse. Per ulteriori informazioni sulle rettifiche manuali e sul loro utilizzo, vedere [Autorizzazione della previsione rettificata](authorize-adjusted-forecast.md). 
 

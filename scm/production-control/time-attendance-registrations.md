@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Nelle società che utilizzano Orario e presenze i lavoratori devono registrare i
 -   Lavoratori che devono registrare orario e presenza a intervalli regolari, ad esempio giornalmente, settimanalmente o bisettimanalmente.
 -   Supervisori, dirigenti e responsabili delle retribuzioni che calcolano, approvano e trasferiscono le registrazioni dei lavoratori per sottoporle a ulteriore elaborazione.
 
-| **Nota **                                                                                                                                                                                                                                                    |
+| **Nota**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se si esegue Orario e presenze insieme a Esecuzione produzione, verrà presa nota di tutte le registrazioni relative a progetti, attività di progetto, attività indirette, codici assenze, straordinari e ore di flessibilità e saranno utilizzate per calcolare la retribuzione in entrambi i moduli. |
 
@@ -53,7 +54,7 @@ Dopo l'impostazione i lavoratori possono immettere tipi diversi di registrazioni
 -   Consumo per ore e per articoli nei processi di produzione.
 -   Tempo utilizzato su una macchina nel shop floor, se il computer è stato definito come risorsa.
 
-| **Nota **                                                                                                                                                                                                                      |
+| **Nota**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A un lavoratore possono essere assegnate automaticamente le registrazioni delle ore effettuate su una particolare macchina nel shop floor, se il lavoratore sceglie di lavorare come assistente alla macchina quando avvia il processo di produzione. |
 
@@ -82,7 +83,7 @@ Non appena si assegna un gruppo di calcolo a un lavoratore con registrazione ore
 -   Aggiungere premi manuali.
 -   Immettere informazioni aggiuntive sulle registrazioni delle assenze.
 
-| **Nota **                                                                                                                                                                             |
+| **Nota**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se per determinati lavoratori è stato calcolato uno straordinario, è possibile allocare tale straordinario a processi specifici eseguiti durante la giornata. Questo aspetto è particolarmente importante se i costi dei processi vengono calcolati sulla base della retribuzione del lavoratore. |
 
@@ -102,7 +103,7 @@ Una volta approvate, le registrazioni possono essere trasferite a un processo pe
 ## <a name="reversing-transferred-registrations"></a>Annullamento delle registrazioni trasferite
 L'attività di annullamento delle transazioni, il rollback, può essere effettuata fino al momento dell'esecuzione del trasferimento della retribuzione per il periodo retributivo, ovvero il momento in cui i dati di retribuzione vengono trasferiti in un file esterno. Quando si effettua l'annullamento, tutte le registrazioni vengono ritirate e le transazioni registrate in specifici progetti o ordini di produzione vengono compensate e quindi revocate.
 
-| **Nota **                                                 |
+| **Nota**                                                 |
 |----------------------------------------------------------|
 | Il file esterno può essere importato in un sistema di gestione delle retribuzioni. |
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 288605570462c2e7659a894731c12933410d7636
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7e6a3c25dd97d242e28bff319c75a64718c39f55
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -68,7 +69,7 @@ Una definizione di albero gerarchico contiene le colonne descritte nella seguent
 Completare i passaggi seguenti per creare una definizione di albero gerarchico:
 
 1.  Aprire Progettazione report.
-2.  Fare clic su **File** &gt; **Nuovo ** &gt; **Definizione di albero gerarchico**.
+2.  Fare clic su **File** &gt; **Nuovo** &gt; **Definizione di albero gerarchico**.
 3.  Fare clic su **Modifica** &gt; **Inserisci unità gerarchiche da dimensioni**.
 4.  Nella finestra di dialogo **Inserisci unità gerarchiche da dimensioni** selezionare la casella di controllo per ogni dimensione da includere nell'albero gerarchico. La finestra di dialogo **Inserisci unità gerarchiche da dimensioni** contiene le seguenti sezioni.
 
@@ -128,7 +129,7 @@ Un'unità gerarchica padre è un'unità di riepilogo che aggrega informazioni ri
 
 ### <a name="add-text-about-a-reporting-unit"></a> Aggiungere testo su un'unità gerarchica
 
-Una voce di testo aggiuntivo è una stringa di testo statica lunga fino a 255 caratteri che aggiunge informazioni nella definizione di albero gerarchico. Ad esempio, il testo può essere una descrizione breve della società. È possibile creare fino a dieci voci di testo aggiuntivo per ogni unità gerarchica in una definizione di albero gerarchico. Il testo aggiuntivo viene visualizzato nel report dell'unità gerarchica a cui il testo verrà assegnato. È possibile aggiungere le voci di testo dalla colonna ** Descrizione** della definizione di riga e dalla scheda **Intestazioni e piè di pagina** nella definizione di report.
+Una voce di testo aggiuntivo è una stringa di testo statica lunga fino a 255 caratteri che aggiunge informazioni nella definizione di albero gerarchico. Ad esempio, il testo può essere una descrizione breve della società. È possibile creare fino a dieci voci di testo aggiuntivo per ogni unità gerarchica in una definizione di albero gerarchico. Il testo aggiuntivo viene visualizzato nel report dell'unità gerarchica a cui il testo verrà assegnato. È possibile aggiungere le voci di testo dalla colonna **Descrizione** della definizione di riga e dalla scheda **Intestazioni e piè di pagina** nella definizione di report.
 
 1.  In Progettazione report, aprire l'albero gerarchico da modificare.
 2.  Fare doppio clic sulla cella **Testo aggiuntivo** della riga dell'unità gerarchica.

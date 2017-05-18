@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 9da48c7861f48ec2a154ac12616149d1208346cf
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 31c3354590935b40ecadd3a2fb380f4f103eb2b7
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -44,14 +45,14 @@ Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 40
 | 9/7/2015           | 10,00                | 990,00                         |
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
-Arnie può visualizzare la transazione nella pagina** Transazioni cliente**.
+Arnie può visualizzare la transazione nella pagina**Transazioni cliente**.
 
 | Giustificativo   | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI-10030 | Fattura          | 25/6/2015 | 10030   | 1.000,00                             |                                       | 1.000,00 | GBP      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Pagamento parziale prima della data dello sconto di cassa
-Il 28 giugno, il cliente 4031 effettua un pagamento parziale di 294,00. Poiché il 28 giugno rientra nel primo periodo di sconto di cassa, il cliente riceverà lo sconto di 6,00. Nella pagina **Liquida transazioni**, il valore di** Importo sconto di cassa** è di 20,00 e il valore di **Importo sconto di cassa da applicare** è pari a 6,00.
+Il 28 giugno, il cliente 4031 effettua un pagamento parziale di 294,00. Poiché il 28 giugno rientra nel primo periodo di sconto di cassa, il cliente riceverà lo sconto di 6,00. Nella pagina **Liquida transazioni**, il valore di**Importo sconto di cassa** è di 20,00 e il valore di **Importo sconto di cassa da applicare** è pari a 6,00.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

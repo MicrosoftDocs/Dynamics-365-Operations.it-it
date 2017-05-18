@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 0a716310a3b813e08d46ac609e8ac6ce9a2db3e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5f3d0e2016a3ffe5500ecae9508d44a115c56880
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ L'ufficio tributario richiede il versamento di imposte speciali su un articolo. 
 -   IVA = 25%, con il metodo di calcolo Percentuale dell'importo lordo
 
 Se l'importo netto è 10,00, IMPOSTA 1 sarà 1,00 (10,00 x 10%) e IMPOSTA 2 sarà 2,00 (10,00 x 20%). Gli importi sarebbero i seguenti: Importo lordo: Importo netto + importo IMPOSTA 1 + importo IMPOSTA 2 (10,00 + 1,00 + 2,00) = 13,00 IVA = 13,00 x 25% = 3,25 Totale IMPOSTE e IVA: 1,00 + 2,00 + 3,25 = 6,25 Importo totale: 10,00 + 6,25 = 16,25
-| **Nota **                                                                                                                                                                                                                 |
+| **Nota**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Un solo codice IVA con Origine = Percentuale dell'importo lordo può essere utilizzato per una transazione. Se più di un codice di questo tipo viene determinato per una transazione, verrà visualizzato l'errore che l'IVA non può essere calcolata. |
 
@@ -68,7 +69,7 @@ Dati i codici IVA seguenti:
 -   IVA = 25%, con il metodo Percentuale dell'importo lordo
 
 Importo netto: 10,00 IMPOSTA 1: 10,00 x 10% = 1,00 IMPOSTA 2: 1,00 x 20% = 0,20 Importo lordo: 10,00 + 1,00 + 0,20 = 11.20 IVA: 11,20 x 25% = 2,80 Totale IMPOSTE e IVA: 1,00 + 0,20 + 2,80 = 4,00 Importo totale: 10,00 + 4,00 = 14,00
-| **Nota **                                                                                                                                                                                                                    |
+| **Nota**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | I calcoli di imposta su imposta multilivello non sono possibili. Un'imposta non può essere calcolata in base a un'imposta che viene già calcolata in base a un'altra imposta. Più codici imposta su imposta a livello singolo possono essere calcolati per una transazione. |
 
@@ -77,7 +78,7 @@ Quando si seleziona Importo unitario nel campo Origine, l'IVA viene calcolata co
 ### <a name="example"></a>Esempio
 
 Il codice IVA è impostato come: 1,20 USD per unità = scatola In una riga di fattura di vendita 25 scatole di un articolo sono vendute L'IVA è calcolata come 25 x 1,20 = 30,00
-| **Nota **                                                                                                                                                                                                 |
+| **Nota**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se la transazione è stata immessa in un'unità diversa dall'unità specificata nel codice IVA, viene convertita automaticamente in base alle conversioni unità impostate nella pagina Conversioni unità. |
 

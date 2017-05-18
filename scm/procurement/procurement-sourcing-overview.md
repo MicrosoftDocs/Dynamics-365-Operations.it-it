@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 758c516b378b4858c248fbca2befc6b9c47cc32a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e8a12f846bb24c9fc79c3533d4e65a2d3ece257b
+ms.openlocfilehash: 6d4d476e294e1b5cbe91a61a7ffe151a6c865ea6
+ms.contentlocale: it-it
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -40,7 +41,7 @@ Il parametro *Limiti spesa *consente di impostare vincoli relativi alla spesa de
   
 Il reparto di approvvigionamento identifica i fornitori per i prodotti e i servizi richiesti e questo può determinare l'invio di una *richiesta di offerta *a più fornitori potenziali. È possibile condividere le specifiche del prodotto richiesto e i fornitori potenziali possono visualizzare e controllare se possono consegnare un prodotto conforme a tali specifiche. I fornitori restituiscono le offerte che vengono verificate dal reparto di approvvigionamento prima di selezionare il fornitore desiderato.  
 
-Gli ordini fornitore includono un'opzione per inviare la *richiesta di acquisto *al fornitore come alternativa a un processo più completo della richiesta di offerta. La richiesta di acquisto può essere utilizzata per contribuire a stabilire termini quali prezzi, sconti e data di consegna dell'ordine. Se i fornitori sono impostati per l'uso del **Portale fornitori**,  la funzionalità di richiesta di acquisto è disabilitata. L'ordine viene condiviso nel portale** fornitori** e quando viene inviata una *richiesta di conferma* il fornitore può direttamente confermare l'ordine.  
+Gli ordini fornitore includono un'opzione per inviare la *richiesta di acquisto *al fornitore come alternativa a un processo più completo della richiesta di offerta. La richiesta di acquisto può essere utilizzata per contribuire a stabilire termini quali prezzi, sconti e data di consegna dell'ordine. Se i fornitori sono impostati per l'uso del portale **Fornitore**, la funzionalità di richiesta di acquisto è disabilitata. L'ordine viene condiviso nel portale**fornitori** e quando viene inviata una *richiesta di conferma* il fornitore può direttamente confermare l'ordine.  
 
 *Cataloghi fornitore *è possibile utilizzare i cataloghi per raccogliere informazioni sull'assortimento di prodotti che i fornitori possono fornire. I fornitori possono pubblicare il proprio catalogo, pertanto è più semplice mantenere aggiornato il catalogo. È possibile allegare un *elenco di fornitori approvati* a un prodotto e questo può agevolare la selezione del fornitore quando i nuovi ordini fornitore vengono aperti e impedire l'utilizzo dei fornitori non desiderati.
 

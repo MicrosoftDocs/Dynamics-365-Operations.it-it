@@ -1,16 +1,16 @@
 ---
 title: Definizioni di colonna nei report finanziari
 description: "In questo articolo vengono fornite informazioni sulle definizioni di colonna. Una definizione di colonna è un componente di report, o blocco predefinito, che specifica il contenuto delle colonne in un report. Al pari delle definizioni di riga, le definizioni delle colonne di base possono essere utilizzate nei report."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo articolo vengono fornite informazioni sulle definizioni di colonna. Una definizione di colonna è un componente di report, o blocco predefinito, che specifica il contenuto delle colonne in un report. Al pari delle definizioni di riga, le definizioni delle colonne di base possono essere utilizzate nei report.
 
@@ -150,7 +154,7 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 1.  In Progettazione report, aprire la definizione di colonna da modificare.
 2.  Selezionare una cella nella riga di intestazione.
-3.  Nel menu **Modifica** fare clic su **Inserisci riga**. La nuova riga viene inserita sopra la riga selezionata nel passaggio 2. **Nota: **se sono presenti quattro o più righe di intestazioni in un report, le intestazioni risulteranno sovrapposte quando il report verrà esportato in un foglio di calcolo Excel. Per visualizzare tutte le intestazioni nel report, aumentare il margine superiore nella definizione di report.
+3.  Nel menu **Modifica** fare clic su **Inserisci riga**. La nuova riga viene inserita sopra la riga selezionata nel passaggio 2. **Nota:**se sono presenti quattro o più righe di intestazioni in un report, le intestazioni risulteranno sovrapposte quando il report verrà esportato in un foglio di calcolo Excel. Per visualizzare tutte le intestazioni nel report, aumentare il margine superiore nella definizione di report.
 
 ### <a name="delete-a-column-header-row"></a>Eliminare una riga dell'intestazione di colonna
 
@@ -318,11 +322,11 @@ La cella **Controllo stampa** può contenere i codici che regolano la visualizza
 2.  Fare doppio clic sulla cella **Controllo stampa**.
 3.  Nella finestra di dialogo **Controllo stampa** selezionare un codice nell'elenco **Seleziona opzioni controllo di stampa**. Per selezionare più di un codice, tenere premuto il tasto Ctrl e selezionare i codici.
 4.  Selezionare un'opzione nel campo **Opzioni stampa condizionale**. Per impostazione predefinita è selezionato **(nessuno)**. È possibile selezionare un solo codice di stampa condizionale alla volta.
-5.  Scegliere **OK**.
+5.  Fare clic su **OK**.
 
-**Suggerimento:** È inoltre possibile immettere i codici di stampa direttamente nella cella **Controllo stampa**. Separare più codici di controllo di stampa con una virgola.
+> [!TIP]
+> È inoltre possibile immettere i codici di stampa direttamente nella cella **Controllo stampa**. Separare più codici di controllo di stampa con una virgola.
 
-### 
 
 ## <a name="column-types"></a>Tipi di colonna
 Il tipo di informazioni che ogni colonna di un report include è specificato dal valore nella riga **Tipo di colonna** nella definizione di colonna. Ogni definizione di colonna deve includere almeno una colonna di descrizione (**DESC**) e una colonna di importo (**FD**, **WKS** o **CALC**). **Nota:** I codici del tipo di colonna non sono applicabili a tutti i sistemi contabili. Se si seleziona un tipo che non è valido per il sistema contabile, la colonna è vuota nel report.
@@ -507,7 +511,8 @@ Un report con più valute può visualizzare gli importi nella valuta naturale (l
 -   **Visualizzazione di valuta** - Consente di specificare il tipo di valuta, ovvero naturale, funzionale o di dichiarazione, in cui sono visualizzate le transazioni. Questa funzionalità viene talvolta definita conversione di valuta. La conversione valuta è la capacità di riportare gli importi di contabilità generale in una valuta che non sia la valuta funzionale della società o la valuta in cui la transazione è stata immessa.
 -   **Filtro valuta** Consente di specificare un filtro valuta. Solo le transazioni immesse nella valuta selezionata vengono visualizzate nel report.
 
-**Nota:** Per creare report che utilizzano più valute, è necessario selezionare la casella di controllo **Includi tutte le valute di dichiarazione** nella scheda **Report** della definizione di report. Per determinare la valuta funzionale di una società, effettuare le operazioni indicate di seguito.
+> [!NOTE]
+> Per creare report che utilizzano più valute, è necessario selezionare la casella di controllo **Includi tutte le valute di dichiarazione** nella scheda **Report** della definizione di report. Per determinare la valuta funzionale di una società, effettuare le operazioni indicate di seguito.
 
 1.  In Progettazione report, menu **Società**, fare clic su **Società**.
 2.  Nella finestra di dialogo **Società**, selezionare una società e quindi fare clic su **Visualizza**.
@@ -516,10 +521,11 @@ Un report con più valute può visualizzare gli importi nella valuta naturale (l
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Specificare la valuta in un report con più valute
 
 1.  In Progettazione report, aprire la definizione di colonna da modificare.
-2.  Fare doppio clic sulla cella ** Visualizzazione valuta** nella colonna **FD** appropriata e selezionare l'opzione per la visualizzazione di informazioni sulla valuta: **Valuta naturale/di origine**, **Valuta funzionale da informazioni società**, o la valuta di dichiarazione.
+2.  Fare doppio clic sulla cella **Visualizzazione valuta** nella colonna **FD** appropriata e selezionare l'opzione per la visualizzazione di informazioni sulla valuta: **Valuta naturale/di origine**, **Valuta funzionale da informazioni società**, o la valuta di dichiarazione.
 3.  Fare doppio clic sulla cella **Filtro valuta** nella colonna **FD** appropriata e selezionare il codice valuta appropriato nell'elenco. Solo le transazioni immesse in questa valuta vengono visualizzate nel report.
 
-**Nota:** Le opzioni che vengono descritte in questo modulo possono differire, a seconda del sistema ERP. Per ulteriori informazioni, vedere la [Documentazione relativa al sistema Microsoft ERP](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+> [!NOTE]
+> Le opzioni che vengono descritte in questo modulo possono differire, a seconda del sistema ERP. Per ulteriori informazioni, vedere la [Documentazione relativa al sistema Microsoft ERP](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Esempio delle celle Visualizzazione valuta e Filtro valuta
 
@@ -572,7 +578,7 @@ Un calcolo complesso può contenere qualsiasi combinazione di riferimenti a cell
 
 #### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Moltiplicare o dividere una colonna per una riga di base
 
-È possibile creare una colonna che visualizza tutti i valori in una colonna specificata come percentuale di un numero base. Di conseguenza, è possibile visualizzare le relazioni tra le righe, ad esempio una percentuale di una riga di vendita o una percentuale di riga spese totali. Per moltiplicare o dividere ogni riga in una colonna specifica per una riga di base, immettere la colonna da utilizzare nel calcolo quindi immettere **\*BASEROW** o **/BASEROW**. Ad esempio, immettere **C\*BASEROW** o **C/BASEROW**. ** Nota:** Quando si utilizza un calcolo con riga di base in una definizione di colonna, assicurarsi che ogni definizione di riga utilizzata con la definizione di colonna contenga almeno una riga di base per i calcoli.
+È possibile creare una colonna che visualizza tutti i valori in una colonna specificata come percentuale di un numero base. Di conseguenza, è possibile visualizzare le relazioni tra le righe, ad esempio una percentuale di una riga di vendita o una percentuale di riga spese totali. Per moltiplicare o dividere ogni riga in una colonna specifica per una riga di base, immettere la colonna da utilizzare nel calcolo quindi immettere **\*BASEROW** o **/BASEROW**. Ad esempio, immettere **C\*BASEROW** o **C/BASEROW**. **Nota:** Quando si utilizza un calcolo con riga di base in una definizione di colonna, assicurarsi che ogni definizione di riga utilizzata con la definizione di colonna contenga almeno una riga di base per i calcoli.
 
 #### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Dividere l'importo in una colonna per il numero di periodi
 
@@ -584,5 +590,7 @@ Un calcolo complesso può contenere qualsiasi combinazione di riferimenti a cell
 [Definizioni di riga nei report finanziari](row-definitions-financial-reporting.md)
 
 [Opzioni di formattazione avanzate nei report finanziari](advanced-formatting-options-financial-reporting.md)
+
+
 
 

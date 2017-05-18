@@ -1,9 +1,9 @@
 ---
 title: Reimpostare il data mart dei report finanziari dopo il ripristino di un database
 description: In questo argomento viene descritto come reimpostare il data mart dei report finanziari dopo il ripristino di un database di Microsoft Dynamics 365 for Operations.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Reimpostare il data mart dei report finanziari dopo il ripristino di un database
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento viene descritto come reimpostare il data mart dei report finanziari dopo il ripristino di un database di Microsoft Dynamics 365 for Operations. 
 
@@ -43,7 +47,11 @@ Innanzitutto, esportare le progettazioni di report disponibili in Progettazione 
 5.  Immettere un nome di file e selezionare un percorso protetto in cui si desidera salvare le definizioni di report esportate.
 6.  Fare clic su **Salva**.
 
-Il file può essere copiato o caricato in un percorso protetto, in modo da consentirne l'importazione in un ambiente diverso in un secondo momento. Le informazioni sull'utilizzo di un account di archiviazione di Microsoft Azure sono disponibili in [Trasferire dati con l'utilità riga di comando di AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Nota:** Microsoft non fornisce un account di archiviazione incluso nel contratto Dynamics 365 for Operations. È necessario richiedere un account di archiviazione o impostarne uno da una sottoscrizione Azure separata. **Importante:** tenere presente il comportamento dell'unità D sulle macchine virtuali Azure. Non conservare i gruppi di blocchi predefiniti esportati in questa posizione in modo permanente. Per ulteriori informazioni sulle unità temporanee, vedere [Informazioni sull'unità temporanea sulle macchine virtuali Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Il file può essere copiato o caricato in un percorso protetto, in modo da consentirne l'importazione in un ambiente diverso in un secondo momento. Le informazioni sull'utilizzo di un account di archiviazione di Microsoft Azure sono disponibili in [Trasferire dati con l'utilità riga di comando di AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
+> [!NOTE]
+> Microsoft non fornisce un account di archiviazione incluso nel contratto Dynamics 365 for Operations. È necessario richiedere un account di archiviazione o impostarne uno da una sottoscrizione Azure separata. 
+> [!WARNING]
+> Tenere presente il comportamento dell'unità D sulle macchine virtuali Azure. Non conservare i gruppi di blocchi predefiniti esportati in questa posizione in modo permanente. Per ulteriori informazioni sulle unità temporanee, vedere [Informazioni sull'unità temporanea sulle macchine virtuali Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Interrompere i servizi
 Utilizzare Desktop remoto per collegarsi a tutti i computer nell'ambiente e interrompere i seguenti servizi Windows utilizzando services.msc:
@@ -96,7 +104,9 @@ Utilizzare services.msc per riavviare i servizi interrotti in precedenza:
 Importare le progettazioni di report da Progettazione report, utilizzando il file creato durante l'esportazione:
 
 1.  In Progettazione report, passare a **Società** &gt; **Gruppi di blocchi predefiniti**.
-2.  Selezionare il gruppo di blocchi predefiniti da esportare, quindi fare clic su **Esporta**. **Nota:** per Dynamics 365 for Operations, è supportato un solo gruppo di blocchi predefiniti, **Predefinito**.
+2.  Selezionare il gruppo di blocchi predefiniti da esportare, quindi fare clic su **Esporta**. 
+    > [!NOTE]
+    > Per Dynamics 365 for Operations, è supportato un solo gruppo di blocchi predefiniti, **Predefinito**.
 3.  Selezionare il blocco predefinito **Predefinito** e fare clic su **Importa**.
 4.  Selezionare il file contenente le definizioni di report esportate e fare clic su **Apri**.
 5.  Nella finestra di dialogo Importa, selezionare le definizioni di report da importare:
@@ -104,6 +114,8 @@ Importare le progettazioni di report da Progettazione report, utilizzando il fil
     -   Per importare specifici report, righe, colonne, alberi o set di dimensioni, selezionare i report, le righe, le colonne, gli alberi o i set di dimensioni da importare.
 
 6.  Fare clic su **Importa**.
+
+
 
 
 

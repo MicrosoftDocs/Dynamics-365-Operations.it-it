@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 64bcea1f305d67c01967184596a58a48a002cf48
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e90741b9151f19c70923685fdf1edb2552296a08
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -56,7 +57,7 @@ Per quanto riguarda i modelli di lavoro, è possibile impostare una query per de
 
 Le righe delle direttive ubicazione impostano restrizioni aggiuntive sull'applicazione delle regole di individuazione dell'ubicazione. È possibile specificare una quantità minima e una quantità massima a cui la direttiva deve essere applicata e specificare che la direttiva deve essere destinata a un'unità di magazzino specifica. Ad esempio, se l'unità di misura sono i pallet, gli articoli in pallet potranno essere stoccati in un'ubicazione specifica. È inoltre possibile specificare se la quantità può essere suddivisa tra più ubicazioni. Come l'intestazione della direttiva ubicazione, ciascuna riga direttiva ubicazione ha un numero progressivo che determina l'ordine in cui vengono valutate le righe. 
 
-Le direttive ubicazione hanno un livello di dettagli aggiuntivo: *le azioni di direttiva ubicazione*. È possibile definire più azioni direttive ubicazione per ciascuna riga. Ancora una volta, viene utilizzato un numero progressivo per determinare l'ordine in cui le azioni vengono valutate. A questo livello, è possibile impostare una query per definire come individuare la migliore ubicazione nel magazzino. È inoltre possibile utilizzare le impostazioni **Strategia **predefinite per trovare un'ubicazione ottimale.
+Le direttive ubicazione hanno un livello di dettagli aggiuntivo: *le azioni di direttiva ubicazione*. È possibile definire più azioni direttive ubicazione per ciascuna riga. Ancora una volta, viene utilizzato un numero progressivo per determinare l'ordine in cui le azioni vengono valutate. A questo livello, è possibile impostare una query per definire come individuare la migliore ubicazione nel magazzino. È inoltre possibile utilizzare le impostazioni **Strategia**predefinite per trovare un'ubicazione ottimale.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Esempio di utilizzo delle direttive ubicazione
 

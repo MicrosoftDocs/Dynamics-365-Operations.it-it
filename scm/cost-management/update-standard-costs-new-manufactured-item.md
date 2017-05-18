@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 84b9f91f49e988244b98aeb7a6a6344548d6a8c0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fb9f7b8aa9198b66f196613641de5237fac2ac2c
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Nelle seguenti indicazioni si presuppone che venga utilizzato per l'aggiornament
 -   Assegnare un tipo di determinazione costi di **Costo standard**.
 -   Assegnare un identificatore significativo che indichi il contenuto della versione di determinazione costi, ad esempio **AGGIORNAMENTI-2016**.
 -   Nel gruppo di campi **Consenti tipo di prezzo**, verificare che **Prezzo di costo** sia impostato su **Sì**.
--   Consente l'immissione di record costi per tutti i siti (ciò significa lasciare vuoto il campo **Sito **). Se si immette un sito, è possibile immettere i record costi solo per tale sito.
+-   Consente l'immissione di record costi per tutti i siti (ciò significa lasciare vuoto il campo **Sito**). Se si immette un sito, è possibile immettere i record costi solo per tale sito.
 -   Utilizzare un principio di fallback **Attivo**.
 
 Per aggiungere nuovi articoli prodotti durante il periodo bloccato, effettuare le seguenti operazioni.

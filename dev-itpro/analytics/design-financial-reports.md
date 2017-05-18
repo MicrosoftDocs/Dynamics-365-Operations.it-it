@@ -1,7 +1,7 @@
 ---
 title: Visualizzare e progettare report finanziari
-description: "L&quot;articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Operations. I report finanziari sono costituiti da una esperienza di visualizzazione in Dynamics 365 for Operations e una funzionalità di progettazione report con un solo clic che consente di creare e modificare report finanziari."
-author: twheeloc
+description: L&quot;articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Operations.
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: it-it
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -165,7 +166,7 @@ In questo esercizio verrà creato un nuovo report. Il report del conto economico
 6.  Fare doppio clic nel campo **Filtro di dimensione**.
 7.  Nella finestra **Dimensione**, fare doppio clic sulla colonna **Reparto**.
 8.  Nella sezione Singolo o Intervallo della finestra di dialogo, fare clic su **...** per il campo **Da** per visualizzare un elenco di reparti.
-9.  Selezionare il reparto **022**, quindi **Vendite e marketing**, quindi fare clic su** OK**.
+9.  Selezionare il reparto **022**, quindi **Vendite e marketing**, quindi fare clic su **OK**.
 10. Ripetere i passaggi da 5 a 8 per i reparti 23-25.
 11. Nella riga **Intestazione 2** per ogni colonna FD, digitare le seguenti descrizioni di reparto:
     -   Colonna B - Vendite e marketing
@@ -182,8 +183,8 @@ In questo esercizio verrà creato un nuovo report. Il report del conto economico
 18. **Salvare** le modifiche e **generare**. Una volta generato e aperto il report, è possibile esplorarlo.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-[Report finanziari](\financials\general-ledger\financial-reporting-getting-started.md) 
-[Visualizza report finanziari](\financials\general-ledger\view-financial-reports.md) 
+[Report finanziari](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[Visualizza report finanziari](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Blog per i report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

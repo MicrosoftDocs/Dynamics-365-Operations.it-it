@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: fabaacbc7187b38a1745c2139a9eb7760f2be987
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a0a105ade7e47d7c554d62ee112ed03437bb7521
+ms.contentlocale: it-it
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -54,10 +55,10 @@ Utilizzare il progetto del layout modulo per creare graficamente il layout del d
 5.  Dopo che l'installazione è stata completata, immettere nome utente e password di Microsoft Dynamics 365 for Operations e quindi fare clic su **Accedi** per avviare la finestra di progettazione.
 6.  Dopo che le credenziali vengono convalidate e si avvia la progettazione, è possibile iniziare a progettare il formato ricevuta o a modificare un formato esistente.
 7.  Per creare gli elementi del modulo, selezionare la sezione **Intestazione**, **Righe** o **Piè di pagina** e quindi trascinare un elemento dalla sezione all'area di lavoro. La maggior parte degli elementi contengono variabili che sono automaticamente compilate con dati ricavati dal database. Altre elementi, ad esempio il **Testo**, consentono di stampare testo personalizzato sulla ricevuta. **Nota**: è possibile specificare su quante righe si estenderà ciascuna sezione modificando il numero nell'angolo inferiore destro della sezione. Per semplificare la modifica di una sezione, aumentare l'altezza della sezione trascinando la barra di ridimensionamento nella parte inferiore della sezione. L'altezza della sezione nell'area di lavoro non influisce sul numero di righe della ricevuta effettiva.
-8.  Dopo aver trascinato un elemento nello spazio di lavoro, impostare le proprietà per la parte nel riquadro **Informazioni oggetto **in fondo al modulo. Immettere una o più delle seguenti informazioni:
+8.  Dopo aver trascinato un elemento nello spazio di lavoro, impostare le proprietà per la parte nel riquadro **Informazioni oggetto**in fondo al modulo. Immettere una o più delle seguenti informazioni:
     -   **Allinea**: impostare l'allineamento del campo su **A sinistra** o **A destra**.
     -   **Carattere di riempimento**: specificare il carattere di spazio vuoto. Per impostazione predefinita, viene utilizzato uno spazio vuoto ma può essere immesso qualsiasi carattere.
-    -   **Prefisso**: immettere il valore che viene visualizzato all'inizio del campo. Questa impostazione è valida solo per la sezione **Righe **del layout.
+    -   **Prefisso**: immettere il valore che viene visualizzato all'inizio del campo. Questa impostazione è valida solo per la sezione **Righe**del layout.
     -   **Caratteri**: consente di specificare il numero massimo di caratteri che il campo può contenere se l'elemento contiene una variabile. Se il testo del campo ha una lunghezza superiore al numero di caratteri specificati, il testo viene troncato in modo che si adatti al campo.
     -   **Variabile**: se l'elemento contiene una variabile e non può essere personalizzato, la casella di controllo viene automaticamente selezionata.
     -   **Tipo di carattere**: impostare lo stile di carattere su **Normale** o **Grassetto**. Le lettere in grassetto utilizzano due volte lo spazio delle lettere normali. Pertanto, alcuni caratteri potrebbero essere troncati.
@@ -67,7 +68,7 @@ Utilizzare il progetto del layout modulo per creare graficamente il layout del d
 I profili ricevuta vengono assegnati direttamente alle stampanti nel profilo hardware.
 
 1.  Aprire il profilo hardware facendo clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profilo hardware**.
-2.  Selezionare la stampante e quindi, nel campo **Profilo ricevuta **assegnare il profilo ricevuta da utilizzare nel registro.
+2.  Selezionare la stampante e quindi, nel campo **Profilo ricevuta**assegnare il profilo ricevuta da utilizzare nel registro.
 
 **Nota:** se vengono utilizzate due stampanti, una stampante può essere utilizzata per stampare le ricevute termali a 40 colonne standard. La seconda stampante viene in genere utilizzata per stampare i tipi di ricevuta a pagina intera che richiedono ulteriori informazioni. Questi tipi di ricevuta includono le ricevute per l'ordine cliente e le fatture cliente.
 

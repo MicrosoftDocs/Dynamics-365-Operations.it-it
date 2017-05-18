@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d585ae0716a4bd9c3531e8639cd7c6b3cab780ac
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c8947f9335b3a2de83ab00bad1043ee14d35f2c8
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -43,7 +44,7 @@ Per definire il testo visualizzato nella risposta dell'ordine fornitore:
 1.  Aprire la pagina **Informazioni per i fornitori che rispondono agli ordini di acquisto**.
 2.  Selezionare uno dei tipi di risposta.
 3.  Fare clic su **Modifica**.
-4.  Immettere i dati da visualizzare ai fornitori nella casella **Messaggio informazioni **.
+4.  Immettere i dati da visualizzare ai fornitori nella casella **Messaggio informazioni**.
 
 Se è necessario aggiungere messaggi in più lingue, creare messaggi diversi con codici lingua appropriati. Al fornitore verrà visualizzato il messaggio nella lingua che utilizza.
 
@@ -57,8 +58,8 @@ Le impostazioni generali per la collaborazione fornitore in Dynamics 365 for Ope
 
 Prima di creare account utente per un fornitore esterno, è necessario configurare il conto fornitore per consentire l'utilizzo della collaborazione fornitore. A tale scopo, impostare il campo **Attivazione collaborazione** su Attivo nella scheda **Generale** della pagina **Fornitori**. Sono disponibili due opzioni selezionabili:
 
--   **Attiva (con conferma automatica OF) **- Gli ordini fornitore vengono confermati automaticamente quando il fornitore li accetta senza apportare modifiche.
--   **Attiva (senza conferma automatica OF) **- Gli ordini fornitore devono essere confermati manualmente dall'organizzazione dopo che il fornitore li ha accettati.
+-   **Attiva (con conferma automatica OF)**- Gli ordini fornitore vengono confermati automaticamente quando il fornitore li accetta senza apportare modifiche.
+-   **Attiva (senza conferma automatica OF)**- Gli ordini fornitore devono essere confermati manualmente dall'organizzazione dopo che il fornitore li ha accettati.
 
 ### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Specificare se si desidera che il fornitore visualizzi le informazioni relative ai prezzi.
 
@@ -142,7 +143,7 @@ Nella tabella seguente è riportato un esempio delle modifiche dello stato e del
 | Il fornitore invia una risposta **Accettata con modifiche** .                  | Lo stato è ancora **In revisione esterna**.                                                                                                                  |
 | Si apportano alcune modifiche richieste dal fornitore.                  | Lo stato viene impostato su **Approvato**.                                                                                                                        |
 | La nuova versione dell'ordine fornitore viene inviata al fornitore.                        | Una nuova versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**.                                      |
-| Il fornitore accetta la nuova versione dell'ordine.                            | Lo stato è ancora **In revisione esterna **a meno che il conto fornitore sia configurato per impostare automaticamente l'ordine fornitore su uno stato **Confermato** quando viene accettato. |
+| Il fornitore accetta la nuova versione dell'ordine.                            | Lo stato è ancora **In revisione esterna**a meno che il conto fornitore sia configurato per impostare automaticamente l'ordine fornitore su uno stato **Confermato** quando viene accettato. |
 
 I fornitori non devono confermare l'ordine fornitore tramite l'interfaccia di collaborazione fornitore. Possono anche inviare un messaggio di posta elettronica o comunicare l'accettazione di un ordine attraverso altri canali. È quindi possibile confermare l'ordine manualmente in Dynamics 365 for Operations. In questo caso, verrà visualizzato un avviso che l'ordine sta per essere confermato anche in assenza di risposte dal fornitore. L'ordine fornitore viene visualizzato nello storico di conferma come ordine confermato aperto che non dispone di risposte. Il fornitore non ha più la possibilità di rifiutare o confermare l'ordine fornitore.  
 

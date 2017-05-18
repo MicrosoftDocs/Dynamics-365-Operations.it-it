@@ -3,7 +3,7 @@ title: Riduzione del 175% dell&quot;ammortamento del saldo
 description: Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 175%.
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 812fbb3cc3159783e9908e537c366ffc7f934092
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf428d61f89ea70a83e440c656fbc84d7dbded8d
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>Riduzione del 175% dell'ammortamento del saldo
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 175%.
 
@@ -54,14 +58,14 @@ Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza 
 
 ### <a name="fiscal"></a>Fiscale
 
-Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, l'ammortamento a saldi decrescenti del 175% viene calcolato in base all'anno fiscale del calendario fiscale specificato per il libro oppure del calendario fiscale selezionato nella pagina **Contabilità generale**. I calendari fiscali vengono impostati nella pagina **Calendari fiscali**. Per ulteriori informazioni, vedere [Calendari fiscali, anni fiscali e periodi.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md)
+Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, l'ammortamento a saldi decrescenti del 175% viene calcolato in base all'anno fiscale del calendario fiscale specificato per il libro oppure del calendario fiscale selezionato nella pagina **Contabilità generale**. I calendari fiscali vengono impostati nella pagina **Calendari fiscali**. Per ulteriori informazioni, vedere [Calendari fiscali, anni fiscali e periodi.](..\budgeting\fiscal-calendars-fiscal-years-periods.md)
 
 Se ad esempio l'anno fiscale inizia il 1° luglio e termina il 30 giugno, il calcolo dell'ammortamento inizia il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato automaticamente per ciascun periodo e la durata dell'anno fiscale successivo dipende dall'impostazione dei periodi nella pagina **Calendari fiscali**. 
 
 Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
 -   **Annuale**: l'importo totale dell'ammortamento calcolato per l'anno fiscale viene registrato come importo unico nell'ultimo giorno dell'anno fiscale.
--   **Periodo fiscale **: calcola l'importo totale dell'ammortamento per l'anno fiscale. Questo importo viene attribuito ai periodi fiscali definiti nella pagina **Calendari fiscali**.
+-   **Periodo fiscale**: calcola l'importo totale dell'ammortamento per l'anno fiscale. Questo importo viene attribuito ai periodi fiscali definiti nella pagina **Calendari fiscali**.
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Esempio di ammortamento a saldi decrescenti del 175%
 |                                |        |
@@ -82,5 +86,7 @@ Il metodo di ammortamento a saldi decrescenti del 175% divide il 175% per gli an
 
 > [!NOTE] 
 > In genere, quando l'importo calcolato utilizzando il metodo di ammortamento a saldi decrescenti del 175% diventa inferiore all'importo che sarà calcolato utilizzando il metodo a quote costanti, si verifica una conversione al metodo a quote costanti per la vita utile rimanente.
+
+
 
 

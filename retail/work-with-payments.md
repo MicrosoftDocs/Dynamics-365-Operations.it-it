@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 636d83ecc7732a164924352853603588cded0db4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: ec9bc4ff511c13740c6f63728bb3d0f837670293
+ms.contentlocale: it-it
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/31/2017
 
 In questo argomento vengono descritti i vari metodi di pagamento che è possibile utilizzare in un servizio clienti di Vendita al dettaglio e commercio.
 
-I metodi di pagamento utilizzati in altri canali in Vendita al dettaglio e commercio in Microsoft Dynamics AX, ad esempio contanti, assegni, carte di credito e gift card, possono essere utilizzati anche nei servizi clienti. Dopo aver impostato un metodo di pagamento per un servizio clienti, viene visualizzato come una delle opzioni nella sezione **Pagamenti** della pagina ** Ordine cliente ** per gli utenti del servizio clienti. È possibile inoltre impostare dei buoni sconto per offrire degli sconti ai clienti che effettuano un ordine presso il servizio clienti di un'organizzazione. I buoni sconto possono indicare un importo di sconto fisso o una percentuale sul prezzo dell'articolo o sul totale dell'ordine. Ad esempio, un buono basato su importo può offrire uno sconto di 75 euro quando il cliente spende 750 euro o oltre. Potete creare diversi tipi di buoni sconto, impostare buoni sconto padre/figlio e copiare o annullare un buono sconto. Utilizzare le opzioni nella tabella seguente per creare i buoni sconto.
+I metodi di pagamento utilizzati in altri canali in Vendita al dettaglio e commercio in Microsoft Dynamics AX, ad esempio contanti, assegni, carte di credito e gift card, possono essere utilizzati anche nei servizi clienti. Dopo aver impostato un metodo di pagamento per un servizio clienti, viene visualizzato come una delle opzioni nella sezione **Pagamenti** della pagina **Ordine cliente** per gli utenti del servizio clienti. È possibile inoltre impostare dei buoni sconto per offrire degli sconti ai clienti che effettuano un ordine presso il servizio clienti di un'organizzazione. I buoni sconto possono indicare un importo di sconto fisso o una percentuale sul prezzo dell'articolo o sul totale dell'ordine. Ad esempio, un buono basato su importo può offrire uno sconto di 75 euro quando il cliente spende 750 euro o oltre. Potete creare diversi tipi di buoni sconto, impostare buoni sconto padre/figlio e copiare o annullare un buono sconto. Utilizzare le opzioni nella tabella seguente per creare i buoni sconto.
 
 |                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

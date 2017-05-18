@@ -3,7 +3,7 @@ title: Elaborazione giornale di registrazione generale
 description: "Questo articolo descrive le funzionalità di Microsoft Dynamics 365 for Operations che possono contribuire a rendere l&quot;elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: 50cd203025be8857de943e458fc32315e494fb7a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c020566928cecc15bd7de504164f5adbf34eda44
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo descrive le funzionalità di Microsoft Dynamics AX che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso.  
+Questo articolo descrive le funzionalità di Microsoft Dynamics 365 for Operations che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso.  
 
 Nomi giornale di registrazione
 
@@ -52,7 +53,7 @@ Un nome di giornale di registrazione può essere utilizzato solo per un segmento
 L'opzione **Storno automatico** è disponibile nei giornali di registrazione generali. Ad esempio, si dispone di una rettifica di attribuzione per competenza in cui il documento effettivo non è ancora stato elaborato, come illustrato nella figura seguente.
 [![Storno giornale di registrazione generale](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Il componente aggiuntivo di Microsoft Excel per le scritture contabili fornisce un ulteriore livello di automazione e rende l'immissione di dati più semplice. L'azione **Apri righe in Excel **è disponibile nelle pagine **Giornale di registrazione generale** e **Giustificativo giornale di registrazione**. 
+Il componente aggiuntivo di Microsoft Excel per le scritture contabili fornisce un ulteriore livello di automazione e rende l'immissione di dati più semplice. L'azione **Apri righe in Excel**è disponibile nelle pagine **Giornale di registrazione generale** e **Giustificativo giornale di registrazione**. 
 
 Nella pagina **Giornali di registrazione periodici** è possibile impostare i giornali ricorrenti per automatizzare l'elaborazione del giornale di registrazione. 
 
@@ -82,6 +83,7 @@ L'impostazione del conto principale offre numerose opzioni per l'elaborazione de
 Le strutture di contabilità e delle regole avanzate sono estremamente importanti per garantire che i dati necessari per i report finanziari e il monitoraggio delle prestazioni vengano acquisiti durante l'elaborazione del giornale di registrazione generale e in qualsiasi documentazione. Le strutture di contabilità e delle regole avanzate consentono di personalizzare l'esperienza dell'immissione dati. È possibile consentire l'immissione di dati solo per le dimensioni finanziarie pertinenti in ogni situazione e è inoltre possibile applicare la condizione che vengano sempre acquisiti i dati obbligatori e corretti.
 
 Per ulteriori informazioni, vedere [Pianificazione: piano dei conti](plan-chart-of-accounts.md). 
+
 
 
 

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 557f9218032e2b1160b6ea0631ada951353d2afd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c3bb41aa8823e5ed59c33014c05ed76bb50e6843
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -58,7 +59,7 @@ I dati di Dynamics 365 for Operations vengono utilizzati per compilare i report 
 | Forzalavoro\_PosizioneCorrente        | Posizione a partire dalla data corrente, equivalente a tempo pieno (FTE), posizioni aperte e posizioni da aperte ad assegnate | Forzalavoro\_Mansione Forzalavoro\_Posizione                                                                                                                                                                                                                                                                                               |
 | Forzalavoro\_LavoratoreCorrente          | Lavoratori a partire dalla data corrente, età e numero di dipendenti                                                         | Forzalavoro\_Società Forzalavoro\_Retribuzione Forzalavoro\_PosizioneGeografica Forzalavoro\_Prestazioni Forzalavoro\_NomeLavoratore Forzalavoro\_NomeSuperiore Forzalavoro\_TitoloLavoratore Forzalavoro\_DatiDemografici Forzalavoro\_Mansione Forzalavoro\_Impiego Forzalavoro\_Posizione Forzalavoro\_BenefitLavoratore                                            |
 | Forzalavoro\_Data                   | Giorni, settimane, mesi e anni.                                                                             | Forzalavoro\_AssegnazionePosizionePrecedente Forzalavoro\_TendenzaPosizione Forzalavoro\_LavoratoreCongedato Forzalavoro\_TendenzaLavoratore                                                                                                                                                                                                                     |
-| Forzalavoro\_DatiDemografici           | Data di nascita, sesso, origine etnica e stato civile                                                   | Forzalavoro\_LavoratoreCorrente Forzalavro\_LavoratoreCongedato Forzalavoro\_TendenzaLavoratore                                                                                                                                                                                                                                                       |
+| Forzalavoro\_DatiDemografici           | Data di nascita, sesso, origine etnica e stato civile                                                   | Forzalavoro\_LavoratoreCorrente Forzalavoro\_LavoratoreCongedato Forzalavoro\_TendenzaLavoratore                                                                                                                                                                                                                                                       |
 | Forzalavoro\_Impiego             | Data di inizio, data di fine e data della transizione                                                                  | Forzalavoro\_LavoratoreCorrente Forzalavoro\_LavoratoreCongedato Forzalavoro\_TendenzaLavoratore                                                                                                                                                                                                                                                       |
 | Forzalavoro\_PosizioneGeografica     | Città, provincia, codice postale e stato/regione o provincia                                                           | Forzalavoro\_LavoratoreCorrente Forzalavoro\_LavoratoreCongedato Forzalavoro\_TendenzaLavoratore                                                                                                                                                                                                                                                       |
 | Forzalavoro\_Mansione                    | Funzione, tipo e titolo                                                                                  | Forzalavoro\_PosizioneCorrente Forzalavoro\_LavoratoreCorrente                                                                                                                                                                                                                                                                              |

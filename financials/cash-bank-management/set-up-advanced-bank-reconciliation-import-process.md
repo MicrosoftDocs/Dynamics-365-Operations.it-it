@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eab840b2974f4e9e8cf542c146482ba8e4239079
-ms.openlocfilehash: acf7bacf6e95725024ff0a542a059349593d01a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 51f45ce0953f31e0573833ba41d9e0b5ac43bfbb
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,7 +65,7 @@ Innanzitutto, è necessario definire il gruppo di elaborazione formati rendicont
 1.  Passare a **Aree di lavoro** &gt; **Gestione dati**.
 2.  Fare clic su **Importa**.
 3.  Immettere un nome per il formato, ad esempio **ISO20022**.
-4.  Impostare il campo **Formato dati di origine **su **XML-Element**.
+4.  Impostare il campo **Formato dati di origine**su **XML-Element**.
 5.  Impostare il campo **Nome entità** su **Rendiconti bancari**.
 6.  Per caricare i file di importazione, fare clic su **Carica**e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
 7.  Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.
@@ -97,7 +98,7 @@ Innanzitutto, è necessario definire il gruppo di elaborazione formati rendicont
 1.  Passare a **Aree di lavoro** &gt; **Gestione dati**.
 2.  Fare clic su **Importa**.
 3.  Immettere un nome per il formato, ad esempio **MT940**.
-4.  Impostare il campo **Formato dati di origine **su **XML-Element**.
+4.  Impostare il campo **Formato dati di origine**su **XML-Element**.
 5.  Impostare il campo **Nome entità** su **Rendiconti bancari**.
 6.  Per caricare i file di importazione, fare clic su **Carica**e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
 7.  Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.
@@ -133,7 +134,7 @@ Innanzitutto, è necessario definire il gruppo di elaborazione formati rendicont
 1.  Passare a **Aree di lavoro** &gt; **Gestione dati**.
 2.  Fare clic su **Importa**.
 3.  Immettere un nome per il formato, ad esempio **BAI2**.
-4.  Impostare il campo **Formato dati di origine **su **XML-Element**.
+4.  Impostare il campo **Formato dati di origine**su **XML-Element**.
 5.  Impostare il campo **Nome entità** su **Rendiconti bancari**.
 6.  Per caricare i file di importazione, fare clic su **Carica**e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
 7.  Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.

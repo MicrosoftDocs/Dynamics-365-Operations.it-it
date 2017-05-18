@@ -3,7 +3,7 @@ title: "Funzionalità Designer DBA"
 description: "In questo articolo viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM). È possibile fare clic su Impostazione per selezionare diverse configurazioni e specificare quali informazioni visualizzare sulle righe della struttura."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-08 21 - 09 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2c98039c9fa8179408394f9f66b9fca0f8cad3fe
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ff482c183276a99a3c9a632d41d9121bf77befbf
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="bom-designer-functionality"></a>Funzionalità Designer DBA
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo articolo viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM). È possibile fare clic su Impostazione per selezionare diverse configurazioni e specificare quali informazioni visualizzare sulle righe della struttura.
 
@@ -95,7 +99,7 @@ Il filtro applicabile per la DBA e il ciclo di lavorazione viene visualizzato ne
 Quando si utilizza Designer DBA per rivedere o modificare le DBA che sono costituite da uno o più livelli di voci fittizie, il ciclo di lavorazione associato all'articolo di livello superiore in genere estende la gerarchia completa DBA. Per semplificare la panoramica, è possibile bloccare il ciclo di livello superiore nella visualizzazione facendo clic su **Visualizza** &gt; **Blocca ciclo di lavorazione**. Per sbloccare il ciclo di lavorazione, fare clic su **Visualizza** &gt; **Sblocca ciclo di lavorazione**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Aggiunta e modifica di DBA e di righe DBA
-Utilizzare le funzioni **Righe DBA** o **DBA** per modificare le righe DBA o la DBA. Quando si seleziona un nodo nella struttura ad albero, il tipo di nodo determina quali funzioni sono disponibili.
+Utilizzare le funzioni **Righe DBA**o **DBA** per modificare le righe DBA o la DBA. Quando si seleziona un nodo nella struttura ad albero, il tipo di nodo determina quali funzioni sono disponibili.
 
 | Funzione                            | descrizione                                                                                               | Tipo di nodo e condizioni                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,6 +119,8 @@ Fare clic su **Impostazione** per personalizzare le informazioni che vengono mos
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DBA         | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati nella struttura ad albero. I criteri selezionati vengono visualizzati nella parte inferiore di entrambe le schede di Designer DBA. |
 | Ciclo di lavorazione       | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati per i cicli di lavorazione.                                                                                    |
+
+
 
 
 

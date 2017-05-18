@@ -3,7 +3,7 @@ title: Creazione degli ordini fornitore
 description: In questo articolo vengono descritti il processo e le opzioni di creazione manuale di un ordine fornitore.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: de8fa93bfc0119d6f9433fb4215c326abdda2899
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b87e4be4541ce5a33b3f6ed0ffe3b08f6447d293
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="create-purchase-orders"></a>Creazione degli ordini fornitore
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo articolo vengono descritti il processo e le opzioni di creazione manuale di un ordine fornitore.
 
@@ -66,7 +70,7 @@ In alcuni casi, è possibile che si voglia dividere la quantità che è stata or
 Le spese possono essere aggiunte automaticamente alle righe dell'ordine se le spese automatiche sono state impostate per il fornitore o il gruppo di spese del fornitore e per l'articolo o il gruppo di spese dell'articolo. Tuttavia, in genere, le spese vengono aggiunte manualmente a livello di riga dell'ordine. Per aggiungere una spesa, aprire la pagina **Gestisci spese** utilizzando l'azione **Gestisci spese** nel menu **Dati finanziari** della visualizzazione **Righe**. Il vantaggio dell'aggiunta di spese direttamente a livello di riga è che l'addebito può essere allocato come un costo di magazzino. Per impostare i codici di addebito in modo da registrare il costo del prodotto, utilizzare l'opzionedi addebito **Articolo**. Questi tipi di spese devono essere allocati dall'intestazione dell'ordine fornitore alle righe prima di poter confermare l'ordine. Ad esempio, si potrebbe desiderare di allocare le spese in base alla quantità di ciascuna riga. La categoria di spesa influisce anche su come le spese vengono registrate. Ad esempio, le spese fisse specificano un importo fisso e le spese percentuali vengono calcolate come percentuale dell'importo netto per la riga ordine. I PO possono essere assegnati a un carico e il carico può includere una stima della spesa prevista per il costo di trasporto. È possibile allocare questa spesa dal carico alle righe dell'ordine fornitore.
 
 ## <a name="purchase-order-actions"></a>Azioni degli ordini fornitore
-Dopo aver aggiunto l'intestazione e righe all'ordine fornitore, spesso è necessario completare passaggi aggiuntivi prima che l'ordine sia pronto per essere confermato. Perché così tante opzioni sono disponibili, potrebbe essere utile utilizzare [Ricerca di azioni](/dynamics365/operations/action-search) per trovare la voce di menu desiderata.  
+Dopo aver aggiunto l'intestazione e righe all'ordine fornitore, spesso è necessario completare passaggi aggiuntivi prima che l'ordine sia pronto per essere confermato. Perché così tante opzioni sono disponibili, potrebbe essere utile utilizzare [Ricerca di azioni](/dynamics365/operations/get-started/action-search) per trovare la voce di menu desiderata.  
 
 È possibile configurare i prodotti nell'ordine in modo che abbiano articoli supplementari. Gli articoli supplementari sono prodotti che devono o possono essere acquistati con altri prodotti. Prodotti supplementari possono essere aggiunti come prodotti di accompagnamento gratuiti, o potrebbe essere possibile decidere se si aggiungerli all'ordine o no. È possibile esaminare gli articoli supplementari dopo ogni riga di ordine che viene aggiunta. Tuttavia, è probabilmente più comodo rivedere e aggiungere articoli supplementari pertinenti per tutte le righe ordine utilizzando la pagina **Articoli supplementari** che è possibile aprire dal riquadro azioni.  
 
@@ -91,5 +95,7 @@ Potrebbe essere necessario ritardare il completamento di un ordine fornitore. Ad
 [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
 
 [Panoramica delle fatture fornitore](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

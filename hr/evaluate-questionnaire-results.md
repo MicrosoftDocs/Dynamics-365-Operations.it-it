@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: bcf59ea8862280675c9fb711d2aab1e8dff18806
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0285103ef30ebf8322f2bf60941b07c7496e9c70
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Visualizzare e valutare i risultati di un questionario
+
+[!include[banner](includes/banner.md)]
+
 
 In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano. 
 
@@ -56,7 +60,8 @@ Dalla pagina **Risposte**, è possibile visualizzare i dettagli sulle risposte, 
 -   **Report risposte**: il report mostra le risposte che l'intervistato ha selezionato per ciascuna domanda del questionario.
 -   **Risposte errate**: questo report mostra le informazioni correlate alle risposte errate selezionate dall'intervistato.
 
-**Nota:** il report **Risultati** è disponibile solo se si utilizzano i gruppi di risultati del questionario e se è stato selezionato **Pagina risultati** nella pagina **Questionari**. Il report **Risposta** e il report **Risposte errate** sono disponibili solo se **Report risposte** è stato selezionato nella pagina **Questionari**.
+> **Nota**
+>   Il report **Risultati** è disponibile solo se si utilizzano i gruppi di risultati del questionario e se è stato selezionato **Pagina risultati** nella pagina **Questionari**. Il report **Risposta** e il report **Risposte errate** sono disponibili solo se **Report risposte** è stato selezionato nella pagina **Questionari**.
 
 ## <a name="questionnaire-statistics"></a>Statistiche questionario
 È possibile utilizzare le statistiche del questionario per analizzare i risultati di un questionario completato, basato sui calcoli definiti. Per definire i calcoli, è necessario completare le seguenti attività:
@@ -79,5 +84,7 @@ Le impostazioni definite vengono salvate e possono essere utilizzate per ricalco
 [Utilizzo di questionari](questionnaires.md)
 
 [Distribuzione e completamento di questionari](distribute-questionnaires.md)
+
+
 
 

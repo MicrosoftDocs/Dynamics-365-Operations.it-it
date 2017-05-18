@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 60abaa69debd891b2fe2dd98184c0dab50b0bf9f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 26ad7fb0e9371b8e1d45d61f2348241c6aca16b9
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -33,7 +34,7 @@ ms.lasthandoff: 03/29/2017
 
 Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verrà utilizzata per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine. Le impostazioni ordine predefinite vengono utilizzate durante la creazione di ordini fornitore, ordini cliente, ordini di trasferimento, giornali di registrazione magazzino e durante la pianificazione generale per la generazione degli ordini pianificati. Le impostazioni ordine predefinite possono essere specifiche dell'articolo, del sito, della variante prodotto o della dimensioni prodotto.
 
-È possibile definire le impostazioni ordine predefinite nella pagina **Impostazioni ordine predefinite**. Per visualizzare questa pagina, andare a **Gestione informazioni sul prodotto** &gt; **Prodotti ** &gt; **Prodotti rilasciati** &gt; selezionare un prodotto rilasciato &gt; nel riquadro azioni **Piano** o ****Gestione articoli**** &gt; ** Impostazioni ordine** &gt; **Impostazioni ordine predefinite**.
+È possibile definire le impostazioni ordine predefinite nella pagina **Impostazioni ordine predefinite**. Per visualizzare questa pagina, andare a **Gestione informazioni sul prodotto** &gt; **Prodotti** &gt; **Prodotti rilasciati** &gt; selezionare un prodotto rilasciato &gt; nel riquadro azioni **Piano** o ****Gestione articoli**** &gt; **Impostazioni ordine** &gt; **Impostazioni ordine predefinite**.
 
 ## <a name="default-order-settings"></a>Impostazioni ordine predefinite
 Sono disponibili tre tipi di impostazioni ordine predefinite per acquisti, vendite e scorte. Le impostazioni ordine predefinite per gli acquisti vengono utilizzate durante la creazione di:
@@ -151,7 +152,7 @@ La regola con classificazione zero serve da regola di sicurezza. Se non vengono 
 
 Poiché il numero di classificazione è così importante, nel riquadro azioni **Impostazioni ordine predefinite**, sono presenti le funzioni per spostare in una regola verso l'alto o verso il basso e per rinumerare le regole, in modo che siano sempre in incrementi di 10. 
 
-Il numero di regole create per un prodotto rilasciato può essere notevole. Per ottenere un giovamento da ciò che ogni regola ignora e dal perché è necessaria, è consigliabile utilizzare la **Visualizzazione griglia** nella pagina ** Impostazioni ordine predefinite**. È possibile abilitare la visualizzazione griglia passando al riquadro azioni **Opzioni** &gt; **Opzioni pagina** &gt; **Cambia visualizzazione** &gt; **Visualizzazione griglia**. Il numero di colonne nella griglia potrebbe essere significativo, soprattutto per le schede vendite e magazzino. Per limitare il numero di colonne visualizzate nella griglia, i gruppi di colonne possono essere nascosti o visualizzati utilizzando i pulsanti del menu **Impostazioni ordine predefinite** &gt; **Visualizzazione di colonna**.
+Il numero di regole create per un prodotto rilasciato può essere notevole. Per ottenere un giovamento da ciò che ogni regola ignora e dal perché è necessaria, è consigliabile utilizzare la **Visualizzazione griglia** nella pagina **Impostazioni ordine predefinite**. È possibile abilitare la visualizzazione griglia passando al riquadro azioni **Opzioni** &gt; **Opzioni pagina** &gt; **Cambia visualizzazione** &gt; **Visualizzazione griglia**. Il numero di colonne nella griglia potrebbe essere significativo, soprattutto per le schede vendite e magazzino. Per limitare il numero di colonne visualizzate nella griglia, i gruppi di colonne possono essere nascosti o visualizzati utilizzando i pulsanti del menu **Impostazioni ordine predefinite** &gt; **Visualizzazione di colonna**.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Impostazioni ordine specifiche per la variante prodotto rilasciato
 

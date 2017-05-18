@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2225707329c67a30d9234bef5282d49834ea042a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dad6d4ec3788ae73386d582433a8585602e1290e
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -65,7 +66,7 @@ Si presume che 0,5 metri di tubo vengano scartati per ogni cinque pezzi di tubo 
 
 ### <a name="consumption"></a>Consumo
 
-In genere, si seleziona** Consumo** come meccanismo di arrotondamento per eccesso quando le materie prime devono essere prelevate nelle quantità intere di unità movimentazione specifica del prodotto. Ad esempio, 2 litri di vernice vengono utilizzati per produrre un pezzo di un prodotto finito e la vernice viene prelevata in latte da 25 litri. In questo caso, il meccanismo di arrotondamento per eccesso **Consumo** può essere utilizzato per arrotondare per eccesso il consumo ai numeri interi di latte da 25 litri. Questo è il calcolo della quantità di vernice necessaria se devono essere prodotti 180 pezzi del prodotto finito:
+In genere, si seleziona**Consumo** come meccanismo di arrotondamento per eccesso quando le materie prime devono essere prelevate nelle quantità intere di unità movimentazione specifica del prodotto. Ad esempio, 2 litri di vernice vengono utilizzati per produrre un pezzo di un prodotto finito e la vernice viene prelevata in latte da 25 litri. In questo caso, il meccanismo di arrotondamento per eccesso **Consumo** può essere utilizzato per arrotondare per eccesso il consumo ai numeri interi di latte da 25 litri. Questo è il calcolo della quantità di vernice necessaria se devono essere prodotti 180 pezzi del prodotto finito:
 
 1.  Vernice necessaria, esclusi scarti: 180 × 2 = 360 litri
 2.  Numero di latte: 360 ÷ 25 = 14,4, che viene arrotondato per eccesso a 15

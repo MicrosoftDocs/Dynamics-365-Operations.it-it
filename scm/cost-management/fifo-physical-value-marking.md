@@ -3,7 +3,7 @@ title: Informazioni su FIFO con valore fisico e contrassegno
 description: "FIFO (First In, First Out) è un modello inventariale secondo il quale gli articoli acquistati per primi sono i primi a uscire dal magazzino. Le uscite da magazzino aggiornate finanziariamente vengono compensate a fronte delle prime entrate in magazzino aggiornate finanziariamente in base alla data finanziaria della transazione di magazzino."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 18 - 57 - 00
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8e3d189fc4dbc5c747a3473d3a221c739c323050
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b0be852bde33e8dfc82ceb42dd98be10537f318d
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a>Informazioni su FIFO con valore fisico e contrassegno
+
+[!include[banner](../includes/banner.md)]
+
 
 FIFO (First In, First Out) è un modello inventariale secondo il quale gli articoli acquistati per primi sono i primi a uscire dal magazzino. Le uscite da magazzino aggiornate finanziariamente vengono compensate a fronte delle prime entrate in magazzino aggiornate finanziariamente in base alla data finanziaria della transazione di magazzino. 
 
@@ -50,7 +54,9 @@ In questo esempio, il gruppo di modelli di articoli non è contrassegnato per in
 -   5b. Uscita finanziaria da magazzino per una quantità pari a 1 al prezzo di costo unitario di 20,00 EUR (media corrente delle transazioni aggiornate finanziariamente).
 -   6. Viene eseguita la chiusura inventario. In base al metodo FIFO, la prima uscita aggiornata finanziariamente verrà compensata con la prima entrata aggiornata finanziariamente. Per la transazione in uscita verrà effettuata una rettifica di 10,00 EUR.
 
-Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente. Le seguenti illustrazioni mostrano gli effetti del modello inventariale FIFO in questa serie di transazioni quando non viene utilizzata l'opzione **Includi valore fisico**. ![FIFO senza Includi valore fisico](./media/fifowithoutincludephysicalvalue.gif) **Chiave del diagramma**
+Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente. Le seguenti illustrazioni mostrano gli effetti del modello inventariale FIFO in questa serie di transazioni quando non viene utilizzata l'opzione **Includi valore fisico**. ![FIFO senza Includi valore fisico](./media/fifowithoutincludephysicalvalue.gif) 
+
+**Informazioni sul diagramma**
 
 -   Le operazioni di magazzino sono rappresentate da frecce verticali.
 -   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
@@ -78,7 +84,9 @@ Se la casella di controllo **Includi valore fisico** è selezionata per un artic
 -   6a. Uscita fisica da magazzino per una quantità pari a 1 al prezzo di costo unitario di 21,25 EUR.
 -   7. Viene eseguita la chiusura inventario. In base al metodo FIFO, la prima transazione finanziaria in uscita verrà rettificata o compensata con la prima entrata aggiornata, che sia finanziaria o fisica.
 
-La transazione 5b verrà compensata con la transazione in entrata 1b. Verrà eseguita una rettifica di -11,25 EUR per questa transazione in uscita. Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. La seguente illustrazione mostra gli effetti del modello inventariale FIFO in questa serie di transazioni quando viene utilizzata l'opzione **Includi valore fisico**. ![FIFO con Includi valore fisico](./media/fifowithincludephysicalvalue.gif) **Chiave del diagramma**
+La transazione 5b verrà compensata con la transazione in entrata 1b. Verrà eseguita una rettifica di -11,25 EUR per questa transazione in uscita. Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. La seguente illustrazione mostra gli effetti del modello inventariale FIFO in questa serie di transazioni quando viene utilizzata l'opzione **Includi valore fisico**. ![FIFO con Includi valore fisico](./media/fifowithincludephysicalvalue.gif) 
+
+**Informazioni sul diagramma**
 
 -   Le operazioni di magazzino sono rappresentate da frecce verticali.
 -   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
@@ -106,7 +114,9 @@ Il contrassegno è un processo che consente di collegare, o contrassegnare, una 
 -   6a. Uscita fisica da magazzino per una quantità pari a 1 al prezzo di costo unitario di 21,25 EUR.
 -   7. Viene eseguita la chiusura inventario. Poiché la transazione FIFO aggiornata finanziariamente è contrassegnata rispetto a un'entrata esistente, queste transazioni vengono liquidate reciprocamente senza effettuare alcuna rettifica.
 
-Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. Nella seguente illustrazione vengono mostrati gli effetti del modello inventariale FIFO su questa serie di transazioni quando viene utilizzato il contrassegno tra entrate e uscite. ![FIFO con contrassegno](./media/fifowithmarking.gif) **Chiave del diagramma**
+Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. Nella seguente illustrazione vengono mostrati gli effetti del modello inventariale FIFO su questa serie di transazioni quando viene utilizzato il contrassegno tra entrate e uscite. ![FIFO con Contrassegno](./media/fifowithmarking.gif) 
+
+**Informazioni sul diagramma**
 
 -   Le operazioni di magazzino sono rappresentate da frecce verticali.
 -   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
@@ -118,6 +128,8 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 -   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
 -   Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
 -   Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
+
+
 
 
 

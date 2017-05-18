@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 822e621f22f8af63b2a827dcc50a6b0ac68d3e21
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7aebcdf0578d931d326420b42e2b220407049bc6
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Area di lavoro fatturazione di collaborazione fornitore
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento viene descritto come è possibile visualizzare le fatture fornitore e inviare le fatture dall'area di lavoro Fatturazione di collaborazione fornitore.
 
@@ -43,7 +47,7 @@ I riquadri **Riepilogo** offrono una panoramica delle fatture per il fornitore s
 Fare clic su un riquadro per aprire una visualizzazione filtrata della pagina **Elenco fatture**.
 ### <a name="tabular-lists"></a>Elenchi tabulari
 
-Nella sezione **Elenchi tabulari ** lo stato di fatturazione è suddiviso in simili modi ai riquadri riepilogo: Elenchi bozza e inviati, non approvati. Quando in stato di bozza, una fattura può essere inviata al flusso di lavoro o essere eliminata. L'ultimo elenco tabulare è un'opzione per trovare le fatture. È possibile filtrare mentre si cerca, per consentire ricerche più rapide.
+Nella sezione **Elenchi tabulari** lo stato di fatturazione è suddiviso in simili modi ai riquadri riepilogo: Elenchi bozza e inviati, non approvati. Quando in stato di bozza, una fattura può essere inviata al flusso di lavoro o essere eliminata. L'ultimo elenco tabulare è un'opzione per trovare le fatture. È possibile filtrare mentre si cerca, per consentire ricerche più rapide.
 Pagina elenco Tutte le fatture fornitore
 -----------------------------
 
@@ -55,6 +59,8 @@ Creare una nuova fattura da un ordine fornitore
 
 
 
-Per ulteriori informazioni, vedere  [Collaborazione con i fornitori tramite il portale fornitori](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Per ulteriori informazioni, vedere  [Collaborazione con i fornitori tramite il portale fornitori](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+
+
 
 

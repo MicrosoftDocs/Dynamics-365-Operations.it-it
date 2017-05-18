@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 6a33117f454b5b0d109c8a5c460fa218eab5c0f7
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 434b603fd0b2322372c7e2e7584267173fb90b94
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ Questo articolo fornisce una panoramica dei processi di produzione. Descrive le 
 
 La produzione degli articoli, processo talvolta detto anche ciclo di vita della produzione, segue passaggi specifici necessari per completare la realizzazione di un articolo. Il ciclo di vita inizia alla creazione dell'ordine di produzione, di un ordine batch o di un processo kanban. Termina con un articolo completato che è pronto per un cliente o un'altra fase di produzione. Ogni fase del ciclo di vita richiede diversi tipi di informazioni per il completamento del processo. L'ordine di produzione, l'ordine batch o il processo kanban riflette il completamento di ogni passaggio, mostrando una modifica nello stato della produzione. I diversi tipi di prodotti richiedono processi di produzione diversi.  
 
-Il modulo **Controllo produzione** è collegato ad altri moduli, ad esempio **Gestione informazioni sul prodotto**, **Gestione articoli**, **Contabilità generale**, **Gestione magazzino**, **Contabilità progetti**  e** Amministrazione organizzazione**. Grazie a tale integrazione, viene garantito il supporto del flusso di informazioni necessario per completare la produzione di un articolo finito.  
+Il modulo **Controllo produzione** è collegato ad altri moduli, ad esempio **Gestione informazioni sul prodotto**, **Gestione articoli**, **Contabilità generale**, **Gestione magazzino**, **Contabilità progetti**  e**Amministrazione organizzazione**. Grazie a tale integrazione, viene garantito il supporto del flusso di informazioni necessario per completare la produzione di un articolo finito.  
 
 Il processo di produzione in genere è influenzato dalla contabilità industriale e dai metodi di valutazione del magazzino scelti per un processo di produzione specifico. Dynamics 365 for Operations supporta sia i metodi di costo effettivo (\[FIFO\], \[LIFO\], media mobile e media ponderata periodica) che i metodi di costo standard. La produzione snella è implementata in base al principio di determinazione costi di tipo backflush.  
 

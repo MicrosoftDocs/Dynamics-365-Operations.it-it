@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
-ms.openlocfilehash: 4bd934091c80ab9a4d244499d2bce2c4646c3e99
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 769680aff8c018bc042ffce98ee50a9760a65fcf
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -126,7 +127,7 @@ Il dipendente e/o il responsabile verranno elencati nella revisione in base ai p
 È possibile utilizzare il flusso di lavoro Revisione lavoratore per verificare l'approvazione di una revisione. È inoltre possibile scegliere di ignorare il flusso di lavoro automatizzato e di modificare manualmente lo stato della revisione che consente di creare documenti più semplici come una riunione a due senza dover utilizzare il processo del flusso di lavoro. L'accesso a una revisione è controllato dallo stato della revisione.
 
 1.  Al momento della creazione la revisione è impostata sullo stato **Non avviata**. La revisione è modificabile da chiunque.
-2.  Dopo che il dipendente preme il pulsante **Inizia revisione**, la revisione è impostata sullo stato ** In corso**. Il dipendente quindi inizia ad aggiungere il contenuto. A questo punto, il responsabile non potrà più visualizzare il documento di revisione.
+2.  Dopo che il dipendente preme il pulsante **Inizia revisione**, la revisione è impostata sullo stato **In corso**. Il dipendente quindi inizia ad aggiungere il contenuto. A questo punto, il responsabile non potrà più visualizzare il documento di revisione.
 3.  Il dipendente modifica lo stato su **Pronto per revisione**.
 4.  Il responsabile può aggiungere commenti e valutazioni. A questo punto, solo il responsabile può visualizzare la revisione.
 5.  Il responsabile cambia lo stato in **Revisione finale**, in modo che sia il responsabile che il dipendente possano visualizzare la revisione e discuterla. È possibile specificare i parametri indipendentemente dal fatto che la revisione può essere modificata in questo momento. Anche questo passaggio è facoltativo se il responsabile desidera semplicemente condividere la revisione con il dipendente e contrassegnarla come **Completato** al termine.

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 820c8cfd426ef760a85371623739b78a407e4c53
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fdb52addb95aa3a3365d84a38cbd22bacc41779b
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,7 +36,7 @@ Questo articolo fornisce una panoramica delle firme elettroniche e descrive come
 <a name="what-is-an-electronic-signature"></a>Firma elettronica
 --------------------------------
 
-Una firma elettronica consente di confermare l'identità di una persona che sta per avviare o approvare un processo di elaborazione. In alcuni settori una firma elettronica è considerata legalmente vincolante come una firma manuale. Le firme elettroniche rappresentano un requisito di legge per diversi settori regolamentati, tra cui quello farmaceutico, quello alimentare e quello aerospaziale e della difesa. Sono inoltre obbligatorie per la conformità alle normative incluse in 21 CFR Part 11 emanate dalla Food and Drug Administration (FDA) negli Stati Uniti. **Note:** Una firma elettronica in sé non equivale a una firma digitale. Una firma elettronica viene utilizzata soltanto in sostituzione di una firma manuale, mentre una firma digitale soddisfa ulteriori requisiti di sicurezza, ad esempio consente di rilevare se i dati sono stati manomessi da un altro utente o processo. Una firma digitale può inoltre essere verificata e tale verifica non può essere rifiutata dal proprietario del certificato utilizzato per la firma dei dati. Come descritto più avanti, nelle firme elettroniche di Microsoft Dynamics 365 for Operations è incorporata la funzionalità di firma digitale.
+Una firma elettronica consente di confermare l'identità di una persona che sta per avviare o approvare un processo di elaborazione. In alcuni settori una firma elettronica è considerata legalmente vincolante come una firma manuale. Le firme elettroniche rappresentano un requisito di legge per diversi settori regolamentati, tra cui quello farmaceutico, quello alimentare e quello aerospaziale e della difesa. Sono inoltre obbligatorie per la conformità alle normative incluse in 21 CFR Part 11 emanate dalla Food and Drug Administration (FDA) negli Stati Uniti. **Nota:** una firma elettronica in sé non equivale a una firma digitale. Una firma elettronica viene utilizzata soltanto in sostituzione di una firma manuale, mentre una firma digitale soddisfa ulteriori requisiti di sicurezza, ad esempio consente di rilevare se i dati sono stati manomessi da un altro utente o processo. Una firma digitale può inoltre essere verificata e tale verifica non può essere rifiutata dal proprietario del certificato utilizzato per la firma dei dati. Come descritto più avanti, nelle firme elettroniche di Microsoft Dynamics 365 for Operations è incorporata la funzionalità di firma digitale.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Firme elettroniche in Microsoft Dynamics 365 for Operations
 In Microsoft Dynamics 365 for Operations è possibile utilizzare le firme elettroniche per i processi aziendali critici. In alcuni processi sono disponibili funzionalità di firma elettronica incorporate. È inoltre possibile creare requisiti di firma personalizzati per qualsiasi tabella o campo di database. Nelle firme elettroniche è incorporata la funzionalità di firma digitale. Ogni utente che firma documenti deve ottenere un certificato di crittografia valido. Al momento della firma di un documento, la chiave privata associata al certificato viene convalidata. In Dynamics 365 for Operations le informazioni relative alle firme elettroniche vengono memorizzate in un registro in modo da costituire un audit trail. Per impostare le firme elettroniche, vedere [Impostare le firme elettroniche (guida attività)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).

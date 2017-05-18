@@ -3,7 +3,7 @@ title: Installare e configurare Microsoft Dynamics 365 for Operations &#8211; Ma
 description: In questo argomento viene descritto come installare e configurare Microsoft Dynamics 365 for Operations - Magazzino.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Installare e configurare Microsoft Dynamics 365 for Operations &#8211; Magazzino
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento viene descritto come installare e configurare Microsoft Dynamics 365 for Operations - Magazzino.
 
@@ -67,7 +71,7 @@ Per abilitare l'app a interagire con un server Dynamics 365 for Operations speci
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Creare e configurare un account utente in Dynamics 365 for Operations
 Per abilitare Dynamics 365 for Operations a utilizzare l'applicazione Azure AD, è necessario completare i seguenti passaggi di configurazione:
 
-1.  Creare un nuovo account utente in Azure Active Directory per il tenant Dynamics 365 for Operations. Lo scopo di questo account utente è di accedere al servizio personalizzato specifico dell'app Magazzino, esposta dal server Dynamics 365 for Operations. Al termine di questo passaggio, si disporrà delle credenziali utente WMDP, costituite da un indirizzo di posta elettronica WMDP e una password WMDP. Per informazioni sui passaggi di base per aggiungere utenti a Azure AD e Dynamics 365 for Operations, fare riferimento a questa esercitazione: [Iscriversi per una sottoscrizione di Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  Creare un nuovo account utente in Azure Active Directory per il tenant Dynamics 365 for Operations. Lo scopo di questo account utente è di accedere al servizio personalizzato specifico dell'app Magazzino, esposta dal server Dynamics 365 for Operations. Al termine di questo passaggio, si disporrà delle credenziali utente WMDP, costituite da un indirizzo di posta elettronica WMDP e una password WMDP. Per informazioni sui passaggi di base per aggiungere utenti a Azure AD e Dynamics 365 for Operations, fare riferimento a questa esercitazione: [Iscriversi per una sottoscrizione di Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  Creare un utente di Dynamics 365 for Operations che corrisponde alle credenziali dell'utente dell'app per il magazzino.
     1.  In Dynamics 365 for Operations, andare a **Amministrazione sistema** &gt; **Comune** &gt; **Utenti**.
     2.  Creare un nuovo utente.
@@ -83,8 +87,8 @@ Per abilitare Dynamics 365 for Operations a utilizzare l'applicazione Azure AD, 
 
 1.  Nel'app, andare a **Impostazioni di connessione**.
 2.  Cancellare il campo **Modalità demo**. [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
-3.  Immettere le seguenti informazioni: **ID client Azure Active Directory** - L'ID client ottenuto nel passaggio 13 in "Creare un'applicazione servizio Web in Active Directory". -**Segreto  client Azure Active Directory** - il segreto client ottenuto nel passaggio 13 in "Creare un'applicazione servizio Web in Active Directory". - **Risorsa Azure Active Directory** - La risorsa Azure AD Directory mostra l'URL radice di Dynamics 365 for Operations. **Note**:  Non terminare questo campo con un carattere di barra (/). - **Tenant Azure Active Directory** - IL tenant  Azure AD usato con il server Dynamics 365 for Operations: https://login.windows.net/&lt;ID-tenant-AD&gt;. Ad esempio: https://login.windows.net/contosooperations.onmicrosoft.com. 
-**Note**:  Non terminare questo campo con un carattere di barra (/). - **Società***- Immettere la persona giuridica in Dynamics 365 for Operations a cui si desidera connettere l'applicazione. [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+3.  Immettere le seguenti informazioni: **ID client Azure Active Directory** - L'ID client ottenuto nel passaggio 13 in "Creare un'applicazione servizio Web in Active Directory". -**Segreto client Azure Active Directory** - il segreto client ottenuto nel passaggio 13 in "Creare un'applicazione servizio Web in Active Directory". - **Risorsa Azure Active Directory** - La risorsa Azure AD Directory mostra l'URL radice di Dynamics 365 for Operations. **Nota**: non terminare questo campo con un carattere di barra (/). - **Tenant Azure Active Directory** - Il tenant Azure AD usato con il server Dynamics 365 for Operations: https://login.windows.net/&lt;ID-tenant-AD&gt;. Ad esempio: https://login.windows.net/contosooperations.onmicrosoft.com. 
+**Nota**: non terminare questo campo con un carattere di barra (/). - **Società***- Immettere la persona giuridica in Dynamics 365 for Operations a cui si desidera connettere l'applicazione. [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Selezionare il pulsante **Indietro** nell'angolo superiore sinistro dell'applicazione. L'applicazione si connetterà al server Dynamics 365 for Operations e apparirà la schermata di accesso per il lavoratore di magazzino. [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
 ## <a name="remove-access-for-a-device"></a>Rimuovere l'accesso per un dispositivo
@@ -93,11 +97,13 @@ In caso di un dispositivo perso o compromesso, è necessario rimuovere l'accesso
 1.  In Dynamics 365 for Operations, andare a **Amministrazione sistema** &gt; **Impostazione** &gt; **Applicazioni di Azure Active Directory**.
 2.  Eliminare la riga corrispondente al dispositivo a cui si desidera rimuovere l'accesso. Annotare l'**ID client** utilizzato per il dispositivo rimosso.
 3.  Accedere al portale classico di Azure all'indirizzo <https://manage.windowsazure.com>.
-4.  Fare clic sull'icona  ** **Active Directory** *nel menu sinistro e fare clic sulla directory desiderata.
-5.  Nel menu superiore, fare clic su **Applicazioni** quindi fare clic sull'applicazione da configurare. La pagina **Avvio rapido**  verrà visualizzata con il punto di accesso singolo e altre informazioni di configurazione.
+4.  Fare clic sull'icona ** **Active Directory** *nel menu sinistro e fare clic sulla directory desiderata.
+5.  Nel menu superiore, fare clic su **Applicazioni** quindi fare clic sull'applicazione da configurare. La pagina **Avvio rapido** verrà visualizzata con il punto di accesso singolo e altre informazioni di configurazione.
 6.  Fare clic sulla scheda **Configura**, scorrere verso il basso e verificare che l'**ID client ID** dell'applicazione sia lo stesso di nel passaggio 2 di questa sezione.
 7.  Fare clic sul pulsante **Elimina** sulla barra dei comandi.
 8.  Nel messaggio di conferma, fare clic su **Sì**.
+
+
 
 
 

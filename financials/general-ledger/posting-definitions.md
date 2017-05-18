@@ -3,7 +3,7 @@ title: Definizioni di registrazione
 description: "Questo articolo fornisce informazioni sulle definizioni di registrazione e sul modo in cui definirle e collegarle. Per i tipi di registrazione e i documenti supportati è possibile utilizzare definizioni di registrazione anziché profili di registrazione per classificare i conti principali e le dimensioni finanziarie nelle voci contabili."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,26 +18,30 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: 357ae498e84ef27e46142c7dcc0f90ecb0ee9f1c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aea0a5c078e4fb3a47cce3a7b427b56bf7a9bcf5
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="posting-definitions"></a>Definizioni di registrazione
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni sulle definizioni di registrazione e sul modo in cui definirle e collegarle. Per i tipi di registrazione e i documenti supportati è possibile utilizzare definizioni di registrazione anziché profili di registrazione per classificare i conti principali e le dimensioni finanziarie nelle voci contabili.
 
 Per i tipi di registrazione e i documenti supportati è possibile utilizzare definizioni di registrazione anziché profili di registrazione per classificare i conti principali e le dimensioni finanziarie nelle voci contabili. È possibile visualizzare i documenti e i tipi di registrazione supportati nella pagina **Definizioni di registrazione transazioni**. 
 
-Per iniziare a utilizzare le definizioni di registrazione, selezionare l'opzione** Usa definizioni di registrazione** nella pagina **Parametri di contabilità generale**. Anche quando si utilizzano le definizioni di registrazione, è ancora necessario definire i profili di registrazione per le voci di origine e i documenti e i tipi di registrazione non supportati. 
+Per iniziare a utilizzare le definizioni di registrazione, selezionare l'opzione**Usa definizioni di registrazione** nella pagina **Parametri di contabilità generale**. Anche quando si utilizzano le definizioni di registrazione, è ancora necessario definire i profili di registrazione per le voci di origine e i documenti e i tipi di registrazione non supportati. 
 
 Le definizioni di registrazione devono essere utilizzate per consentire la contabilità degli impegni di spesa per gli ordini fornitore e la contabilità degli impegni preliminari di spesa per le richieste di acquisto.
 
 ## <a name="defining-posting-definitions"></a>Definizioni di registrazione
-Utilizzare la pagina** Definizioni di registrazione** per specificare i criteri di corrispondenza e definire le voci che devono essere generate quando una corrispondenza si verifica. I criteri di corrispondenza vengono valutati per le voci di origine come distribuzioni contabili. 
+Utilizzare la pagina**Definizioni di registrazione** per specificare i criteri di corrispondenza e definire le voci che devono essere generate quando una corrispondenza si verifica. I criteri di corrispondenza vengono valutati per le voci di origine come distribuzioni contabili. 
 
 Nella pagina **Definizioni di registrazione** è possibile anche assegnare numeri di priorità alle righe di immissione per definire l'ordine in cui vengono valutate le righe. Le righe con il numero di priorità inferiore vengono valutate per prime. Ad esempio, vengono valutate tutte le righe con priorità 1, quindi le righe con priorità 2 e così via. Quando viene rilevata una corrispondenza, gli altri criteri di corrispondenza vengono ignorati. Inoltre, solo per i criteri del gruppo corrispondenti alla transazione di origine vengono create voci generate. 
 
@@ -59,5 +63,7 @@ Quando si creano collegamenti nelle definizioni di registrazione vengono applica
 -   È possibile assegnare una definizione di registrazione a qualsiasi tipo di transazione, tuttavia tale tipo di transazione deve trovarsi nello stesso modulo della definizione di registrazione. Utilizzare la pagina **Definizioni di registrazione transazioni** per visualizzare in quale modulo si trova un tipo di transazione.
 
 
-Per ulteriori informazioni, vedere [Esempi di definizione di registrazione](/general-ledger/example-posting-definitions.md). 
+Per ulteriori informazioni, vedere [Esempi di definizione di registrazione](example-posting-definitions.md). 
+
+
 

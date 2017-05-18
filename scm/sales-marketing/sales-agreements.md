@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 4dd1eae27ae33837fbab16f764083168578d0a29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69535f07cadda4f17bb5d846132ffe614495553e
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -44,7 +45,7 @@ Il periodo di validità di un contratto di vendita viene definito dai campi **Da
 ## <a name="commitment-types"></a>Tipi di impegno
 Ogni riga di un contratto di vendita indica un impegno di vendita di un prodotto. In generale sono disponibili due categorie di impegno:
 
--   **Impegno valore **: il cliente accetta di acquistare prodotti per un importo specifico.
+-   **Impegno valore**: il cliente accetta di acquistare prodotti per un importo specifico.
 -   **Impegno quantità**: il cliente accetta di acquistare una quantità specifica di prodotti.
 
 Inoltre, un contratto può impegnare il cliente ad acquistare uno o più prodotti specifici in una categoria di prodotti. Combinando questi due fattori (valore rispetto a quantità e prodotti specifici rispetto a categorie di prodotti), otteniamo quattro tipi di impegni:

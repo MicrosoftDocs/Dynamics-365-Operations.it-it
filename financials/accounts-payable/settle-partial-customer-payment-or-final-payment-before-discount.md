@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: ac2c569666b97bc430d3d677366a88446ab76091
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0b96ab8833146041bd41fe8b1b0d9aad28287e29
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ Questo articolo fornisce scenari che illustrano come registrare pagamenti parzia
 Fabrikam vende merci al cliente 4028. Fabrikam offre uno sconto di cassa dell'1% se la fattura viene pagata entro 14 giorni. Le fatture devono essere pagate in 30 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano nella pagina **Parametri contabilità clienti**.
 
 ## <a name="customer-invoice"></a>Fattura cliente
-Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 4028. Arnie può visualizzare la transazione nella pagina** Transazioni cliente**.
+Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 4028. Arnie può visualizzare la transazione nella pagina**Transazioni cliente**.
 
 | Giustificativo   | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|

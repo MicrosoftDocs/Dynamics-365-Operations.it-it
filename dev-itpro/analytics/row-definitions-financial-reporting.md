@@ -1,16 +1,16 @@
 ---
 title: Definizioni di riga in Progettazione report finanziari
 description: "Una definizione di riga è un componente di report, o blocco predefinito, che specifica il contenuto di ciascuna riga in un report finanziario. Una definizione di riga può combinarsi con le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report per creare un gruppo di blocchi predefiniti che può essere utilizzato da più società."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Definizioni di riga in Progettazione report finanziari
+
+[!include[banner](../includes/banner.md)]
+
 
 Una definizione di riga è un componente di report, o blocco predefinito, che specifica il contenuto di ciascuna riga in un report finanziario. Una definizione di riga può combinarsi con le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report per creare un gruppo di blocchi predefiniti che può essere utilizzato da più società.
 
@@ -72,7 +76,7 @@ Per aggiungere le dimensioni a una definizione di riga, effettuare i passaggi se
 
 1.  In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
 2.  Nel menu **Modifica** fare clic su **Inserire le righe delle dimensioni**.
-3.  Nella finestra di dialogo **Inserisci righe da dimensioni **, nella riga **Dimensioni**, selezionare la cella per la dimensione da trasferire alla definizione di riga e fare clic su **Tutti &&&**.
+3.  Nella finestra di dialogo **Inserisci righe da dimensioni**, nella riga **Dimensioni**, selezionare la cella per la dimensione da trasferire alla definizione di riga e fare clic su **Tutti &&&**.
 4.  Per limitare la definizione di riga a un intervallo specifico di valori di dimensione, immettere il valore di dimensione iniziale nella cella **Inizio intervallo dimensioni** e specificare il valore finale della dimensione nella cella **Fine intervallo dimensioni**. Per includere tutti i valori della dimensione selezionata, lasciare vuote le celle. **Nota**: i caratteri jolly s (\* or ?) negli intervalli di dimensione possono non restituire tutti risultati desiderati, a seconda della modalità di raccolta dei dati del database ERP.
 5.  Nel campo **Codice di riga iniziale** specificare il codice della riga per il primo valore di dimensione da aggiungere alla definizione di riga.
 6.  Nel campo **Incremento per ogni riga di** specificare la distanza tra codici di riga consecutivi. Ad esempio, se il primo codice di riga è 100 e il valore di incremento è 30, le prime nuove righe hanno i codici 100, 130, 160, 190 e 220. Utilizzare un valore di incremento che offra lo spazio sufficiente per inserire nuove righe di formula e di formato.
@@ -97,9 +101,9 @@ Per rettificare l'arrotondamento nello stato patrimoniale, completare i passaggi
     -   **Riga totale passività e capitale netto**: il codice della riga nello stato patrimoniale contenente le passività e il capitale netto totali.
     -   **Limiti importo di rettifica**: il limite, espresso come numero intero positivo, per le rettifiche automatiche. Questo importo viene confrontato con il valore assoluto della differenza di arrotondamento effettiva.
 
-    **Nota: **questi codici di riga devono essere collegati ai dati finanziari. In altre parole, la riga deve avere un valore di dimensione nella cella **Collegamento a dimensioni finanziarie**. **Non** fare riferimento a una riga di descrizione (**DESC**), calcolata (**CALC**) e totalizzata (**TOT**).
+    **Nota:**questi codici di riga devono essere collegati ai dati finanziari. In altre parole, la riga deve avere un valore di dimensione nella cella **Collegamento a dimensioni finanziarie**. **Non** fare riferimento a una riga di descrizione (**DESC**), calcolata (**CALC**) e totalizzata (**TOT**).
 
-Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando l'arrotondamento è abilitato. **Nota: **il limite di rettifica si applica in base all'opzione **Precisione di arrotondamento** specificata per la definizione di report. Ad esempio, se si seleziona di arrotondare il report alle migliaia e si immette **2** nel campo **Limiti importo di rettifica**, viene visualizzato un messaggio di avviso quando il valore identificato nel campo **Riga rettifica arrotondamento** aumenta o diminuisce di più di 2.000.
+Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando l'arrotondamento è abilitato. **Nota:**il limite di rettifica si applica in base all'opzione **Precisione di arrotondamento** specificata per la definizione di report. Ad esempio, se si seleziona di arrotondare il report alle migliaia e si immette **2** nel campo **Limiti importo di rettifica**, viene visualizzato un messaggio di avviso quando il valore identificato nel campo **Riga rettifica arrotondamento** aumenta o diminuisce di più di 2.000.
 
 ## <a name="format-row-and-column-text"></a>Riga di formato e testo di colonna
 È possibile personalizzare l'aspetto dei report modificando i tipi di carattere e formattando il testo. Nelle sezioni seguenti viene descritto come formattare l'aspetto delle righe e delle colonne nei report.
@@ -173,6 +177,8 @@ Per semplificare la visualizzazione delle colonne su cui si lavora nella definiz
 <a name="see-also"></a>Vedere anche
 --------
 
-[Report finanziari per Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Creazione di report finanziari](financial-reporting-intro.md)
+
+
 
 

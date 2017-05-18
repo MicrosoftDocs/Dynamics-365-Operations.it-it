@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 32cd09975861083b8940368ed53ae16e89bcd748
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 712eb9ec22f4eea4a969a7bd23b7d3728b35772e
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,7 +36,7 @@ Questo argomento fornisce informazioni sull'impostazione e l'uso degli ID regist
 Molti paesi e regioni prevedono normative e requisiti diversi per la registrazione delle partite IVA o ID registrazione. In questo argomento viene fornita una panoramica delle impostazioni e dell'elaborazione dei tipi di registrazione supportati per le parti in diversi paesi europei. Tutti i paesi hanno propri requisiti per supportare varie funzionalità specifiche di paese correlati ai numeri di registrazione forniti dai diversi uffici di stato. Esempi di numeri di registrazione includono il Social Security Number (SSN), numero identificativo delle imposte (TIN) e la partita IVA europea (ID IVA UE). Questa funzionalità offre un framework unificato per tutti i paesi in tutte le regioni prendendo in considerazione i requisiti specifici di paese di alcuni paesi europei. Nelle sezioni seguenti viene descritto il flusso generale di informazioni utilizzato per impostare ed elaborare gli ID registrazione.
 
 ## <a name="registration-type-creation"></a>Creazioen del tipo di registrazione
-Prima di immettere l'ID registrazione, è necessario impostare i tipi di registrazione per i diversi tipi di numeri di registrazione a cui ogni parte è soggetta. Andare a **Amministrazione organizzazione** &gt; **Rubrica globale** &gt; **Tipi di registrazione** &gt; pagina **Tipi di registrazione ** per creare e gestire i tipi di registrazione per fornitori, clienti, lavoratori e persone giuridiche situate in paesi diversi.
+Prima di immettere l'ID registrazione, è necessario impostare i tipi di registrazione per i diversi tipi di numeri di registrazione a cui ogni parte è soggetta. Andare a **Amministrazione organizzazione** &gt; **Rubrica globale** &gt; **Tipi di registrazione** &gt; pagina **Tipi di registrazione** per creare e gestire i tipi di registrazione per fornitori, clienti, lavoratori e persone giuridiche situate in paesi diversi.
 
 |Campo                 |descrizione      |
 |------------------------------|----------------------------|                                                                           
@@ -50,7 +51,7 @@ Prima di immettere l'ID registrazione, è necessario impostare i tipi di registr
 | Principale per paese | Se una parte è associata a uno o più indirizzi in un particolare paese e l'ID di registrazione è valido per tutti gli indirizzi, è necessario definire un indirizzo come primario per il paese. È possibile registrare solo un ID come primario. Determina se il numero di registrazione può essere specificato solo per l'indirizzo del paese primario. |
 
 ## <a name="assign-a-registration-type-to-a-registration-category"></a>Assegnare un tipo di registrazione a una categoria di registrazione
-La categoria di registrazione è l'identificatore di registrazione del paese/regione approvato per l'utilizzo in un particolare paese/regione a fini di imposte doganali e di altro tipo. Questa categoria definisce le regole di convalida di un ID di registrazione specifico (incluse cifre di controllo e così via) e l'ID di registrazione di inclusione in diversi report. Utilizzare la pagina ****Amministrazione organizzazione ** &gt; **Rubrica globale** &gt; **Tipi di registrazione** &gt; **Categorie di registrazione** per assegnare il tipo di registrazione di un determinato paese alla categoria di registrazione supportata.
+La categoria di registrazione è l'identificatore di registrazione del paese/regione approvato per l'utilizzo in un particolare paese/regione a fini di imposte doganali e di altro tipo. Questa categoria definisce le regole di convalida di un ID di registrazione specifico (incluse cifre di controllo e così via) e l'ID di registrazione di inclusione in diversi report. Utilizzare la pagina ****Amministrazione organizzazione** &gt; **Rubrica globale** &gt; **Tipi di registrazione** &gt; **Categorie di registrazione** per assegnare il tipo di registrazione di un determinato paese alla categoria di registrazione supportata.
 
 | Campo            | descrizione|
 |-----------------------|----------------|

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 969a95ddfede4614a346ca07032f4514187de8f2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6a9010f34e862400ca0d25ffde3c3d462a77a43a
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -254,7 +255,7 @@ Nel contratto di progetto negoziato con il cliente vengono definiti tempi e moda
 Si possono impostare i seguenti tipi di regole di fatturazione:
 
 -   **Unità di consegna** – Fatturazione al cliente dopo il completamento di un'unità di consegna. L'utente definisce le unità di consegna all'interno del contratto.
--   **Stato ** – Fatturazione al cliente dopo il completamento di una percentuale di progetto specificata. È possibile impostare una regola di fatturazione per calcolare automaticamente la percentuale di lavoro completato, oppure è possibile calcolare manualmente la percentuale di lavoro completato e l'importo da fatturare al cliente.
+-   **Stato** – Fatturazione al cliente dopo il completamento di una percentuale di progetto specificata. È possibile impostare una regola di fatturazione per calcolare automaticamente la percentuale di lavoro completato, oppure è possibile calcolare manualmente la percentuale di lavoro completato e l'importo da fatturare al cliente.
 -   **Punto cardine** – Fatturazione a un cliente per l'intero importo relativo a un punto cardine di un progetto quando viene raggiunto tale punto cardine.
 -   **Commissioni** - Fatturazione a un cliente per i servizi forniti più una commissione di gestione, in genere costituita da una percentuale del costo dei servizi.
 -   **Tempistica e materiali** - Fatturazione a un cliente per il valore di tempo e i materiali utilizzati per un progetto.

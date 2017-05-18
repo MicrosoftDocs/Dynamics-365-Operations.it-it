@@ -3,7 +3,7 @@ title: Vincoli di espressione e vincoli di tabella nei modelli di configurazione
 description: "In questo argomento viene descritto l&quot;utilizzo dei vincoli di espressione e dei vincoli di tabella. I vincoli consentono di controllare i valori di attributo da selezionare quando si configurano i prodotti per un ordine cliente, un&quot;offerta di vendita, un ordine fornitore o un ordine di produzione. È possibile utilizzare i vincoli di espressione o i vincoli di tabella, a seconda di come si preferisce creare i vincoli."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento viene descritto l'utilizzo dei vincoli di espressione e dei vincoli di tabella. I vincoli consentono di controllare i valori di attributo da selezionare quando si configurano i prodotti per un ordine cliente, un'offerta di vendita, un ordine fornitore o un ordine di produzione. È possibile utilizzare i vincoli di espressione o i vincoli di tabella, a seconda di come si preferisce creare i vincoli. 
 
@@ -40,7 +44,7 @@ I vincoli di tabella elencano le combinazioni di valori consentiti per gli attri
 
 ### <a name="example-of-a-table-constraint"></a>Esempio di vincolo di tabella
 
-In questo esempio viene illustrato come è possibile limitare la configurazione di un altoparlante a rivestimenti e frontali specifici del cabinet. Nella prima tabella vengono illustrati i rivestimenti e i frontali del cabinet che sono in genere disponibili per la configurazione. I valori sono definiti per i tipi di attributo **Rivestimento del cabinet** e **Griglia anteriore**.
+In questo esempio viene illustrato come è possibile limitare la configurazione di un altoparlante a rivestimenti e frontali specifici del cabinet. Nella prima tabella vengono illustrati i rivestimenti e i frontali del cabinet che sono in genere disponibili per la configurazione. I valori sono definiti per i tipi di attributo **Rivestimento del cabinet**e **Griglia anteriore**.
 
 | Tipo di attributo | Valori                      |
 |----------------|-----------------------------|
@@ -84,7 +88,7 @@ Quando si configura un prodotto tramite le seguenti impostazioni del vincolo, so
 (Color == "Nero" & (size == "30" | size == "50")) | (color == "Rosso" & size = "20")
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>È necessario utilizzare gli operatori o la notazione di infisso quando si scrivono i vincoli di espressione?
-È possibile scrivere un vincolo di espressione utilizzando gli operatori di prefisso disponibili o la notazione di infisso. Per gli operatori **Min**, **Max** e **Abs **non è possibile utilizzare una notazione di infisso. Questi operatori sono inclusi come operatori standard nella maggior parte dei linguaggi di programmazione.
+È possibile scrivere un vincolo di espressione utilizzando gli operatori di prefisso disponibili o la notazione di infisso. Per gli operatori **Min**, **Max** e **Abs**non è possibile utilizzare una notazione di infisso. Questi operatori sono inclusi come operatori standard nella maggior parte dei linguaggi di programmazione.
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Quali operatori e notazione di infisso è possibile utilizzare quando si scrivono i vincoli di espressione?
 Nelle tabelle seguenti sono elencati gli operatori e la notazione di infisso che è possibile utilizzare per scrivere un vincolo di espressione per un componente in un modello di configurazione prodotto. Negli esempi della prima tabella è possibile vedere come scrivere un'espressione utilizzando la notazione di infisso o gli operatori.
@@ -248,5 +252,7 @@ Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione 
 [Creare un vincolo di espressione (guida attività)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [Aggiungere un calcolo a un modello di configurazione prodotto (guida attività)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

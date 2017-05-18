@@ -3,7 +3,7 @@ title: "Contenuto Power BI per l&quot;analisi della contabilità industriale"
 description: "In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l&quot;analisi della contabilità industriale. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,25 +16,31 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 50e7bd92ee693f59fd013226aee22bd1a54c81e2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: be4165f58b17bed0b0984b760fd8eea09267a251
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenuto Power BI per l'analisi della contabilità industriale
 
+[!include[banner](../includes/banner.md)]
+
+
 In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi della contabilità industriale. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 <a name="overview"></a>Panoramica
 --------
 
-Il contenuto Microsoft Power BI per l'**Analisi della contabilità industriale** è destinato ai controller di costo o qualsiasi utente responsabile di eseguire il controllo dei costi di un'organizzazione. Include metriche chiave, ad esempio costi, grandezza e il tasso di costo per costo effettivo, costo a budget e costo a budget flessibile. Utilizza i dati delle transazioni da Contabilità industriale in Microsoft Dynamics 365 for Operations e offre una visualizzazione aggregata dei costi per l'intera organizzazione in un'unica valuta di dichiarazione. I responsabili possono filtrare i dati in base agli oggetti di costo per eseguire il controllo dei costi delle unità organizzative, anche se l'organizzazione può avere più persone giuridiche. Poiché il contenuto Power BI per l'**analisi della contabilità industriale** evidenzia gli scostamenti tra i costi effettivi e i costi a budget, i responsabili possono ricevere una notifica delle tendenze positive e negative per le relative unità operative. I responsabili possono eseguire il drill-down nelle gerarchie degli elementi di costo o nei singoli elementi di costo per ottenere informazioni dettagliate su come si sono verificati gli scostamenti e intraprendere un'azione efficace. Il contenuto Power BI per l'**analisi della contabilità industriale** consente ai contabili di analizzare come i costi fluiscono attraverso gli oggetti di costo dell'intera organizzazione. Per ulteriori informazioni sulla contabilità industriale, vedere [Home page di contabilità industriale](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). Definendo la sicurezza a livello di accesso nella contabilità industriale e combinandola alla sicurezza a livello di riga in Power BI, è possibile concedere a tutti i proprietari degli oggetti di costo l'accesso al contenuto Power BI per l'**analisi della contabilità industriale**. Tutti i dati delle visualizzazioni verranno filtrati in base al livello di accesso che viene controllato nella contabilità industriale. Per ulteriori informazioni sulla sicurezza a livello di accesso e a livello di riga, vedere [Impostare la sicurezza del contenuto della contabilità industriale per Power BI](setup-security-cost-accounting-content-pack.md).
+Il contenuto Microsoft Power BI per l'**Analisi della contabilità industriale** è destinato ai controller di costo o qualsiasi utente responsabile di eseguire il controllo dei costi di un'organizzazione. Include metriche chiave, ad esempio costi, grandezza e il tasso di costo per costo effettivo, costo a budget e costo a budget flessibile. Utilizza i dati delle transazioni da Contabilità industriale in Microsoft Dynamics 365 for Operations e offre una visualizzazione aggregata dei costi per l'intera organizzazione in un'unica valuta di dichiarazione. I responsabili possono filtrare i dati in base agli oggetti di costo per eseguire il controllo dei costi delle unità organizzative, anche se l'organizzazione può avere più persone giuridiche. Poiché il contenuto Power BI per l'**analisi della contabilità industriale** evidenzia gli scostamenti tra i costi effettivi e i costi a budget, i responsabili possono ricevere una notifica delle tendenze positive e negative per le relative unità operative. I responsabili possono eseguire il drill-down nelle gerarchie degli elementi di costo o nei singoli elementi di costo per ottenere informazioni dettagliate su come si sono verificati gli scostamenti e intraprendere un'azione efficace. Il contenuto Power BI per l'**analisi della contabilità industriale** consente ai contabili di analizzare come i costi fluiscono attraverso gli oggetti di costo dell'intera organizzazione. Per ulteriori informazioni sulla contabilità industriale, vedere [Home page di contabilità industriale](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Definendo la sicurezza a livello di accesso nella contabilità industriale e combinandola alla sicurezza a livello di riga in Power BI, è possibile concedere a tutti i proprietari degli oggetti di costo l'accesso al contenuto Power BI per l'**analisi della contabilità industriale**. Tutti i dati delle visualizzazioni verranno filtrati in base al livello di accesso che viene controllato nella contabilità industriale. Per ulteriori informazioni sulla sicurezza a livello di accesso e a livello di riga, vedere [Impostare la sicurezza del contenuto della contabilità industriale per Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-È possibile trovare il contenuto Power BI per l'**analisi della contabilità industriale** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il contenuto e collegarlo ai dati Dynamics 365 for Operations, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). **Nota:** KB4011327** ** è un prerequisito per il contenuto Power BI per l'**analisi della contabilità industriale**.  Dopo avere eseguito l'accesso a Lifecycle Services, è possibile accedere alla KB qui: : <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+È possibile trovare il contenuto Power BI per l'**analisi della contabilità industriale** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il contenuto e collegarlo ai dati Dynamics 365 for Operations, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). 
+
+> NOTA: l'articolo **KB 4011327** è un prerequisito per questo contenuto Power BI. Dopo avere eseguito l'accesso a Lifecycle Services, è possibile accedere alla KB qui: : <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto include un set di pagine di report. Ciascuna pagina è costituita da un set di metriche visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto Power BI per l'**analisi della contabilità industriale**.
@@ -117,5 +123,7 @@ Di seguito sono riportati alcuni collegamenti utili correlati alle entità e all
 -   [Modellazione di dati tramite Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Aggiunta di riquadri Power BI ad aree di lavoro](configure-power-bi-integration.md)
 -   [Impostazione della sicurezza del contenuto della contabilità industriale per Power BI](setup-security-cost-accounting-content-pack.md)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 9577a7058986d200073d66a5824fbba29efa5125
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 06c806da29c8c925bfcea2e8b5045f9bc7043b48
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,8 +43,8 @@ Ciascun metodo ha i relativi vantaggi. È necessario considerare i seguenti punt
 
 |                           |                                                                                                                                                                                                                                                         |                                                                                                                                                                         |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                           | **Previsioni per il progetto **                                                                                                                                                                                                                                 | **Budget di progetto **                                                                                                                                                   |
-| **Allocazione periodo **     | Non è possibile allocare in modo esplicito le transazioni in un periodo fiscale. La previsione e il relativo controllo si basano invece sulla durata del progetto. Poiché le previsioni si basano su una data specifica, è necessario derivare il periodo dalla data. | Non è possibile allocare le transazioni nell'intero progetto o in un periodo fiscale. Se si esegue l'allocazione in un periodo, è possibile riportare nel periodo fiscale successivo gli importi inutilizzati. |
+|                           | **Previsioni per il progetto**                                                                                                                                                                                                                                 | **Budget di progetto**                                                                                                                                                   |
+| **Allocazione periodo**     | Non è possibile allocare in modo esplicito le transazioni in un periodo fiscale. La previsione e il relativo controllo si basano invece sulla durata del progetto. Poiché le previsioni si basano su una data specifica, è necessario derivare il periodo dalla data. | Non è possibile allocare le transazioni nell'intero progetto o in un periodo fiscale. Se si esegue l'allocazione in un periodo, è possibile riportare nel periodo fiscale successivo gli importi inutilizzati. |
 | **Visualizzazione di transazioni**  | Le transazioni possono essere visualizzate nei moduli previsionali, in cui vengono mostrate le previsioni per l'intera società per tutti i progetti, indipendentemente dalla gerarchia. Per focalizzare l'attenzione su un determinato progetto, è necessario filtrare i dati.                                       | È possibile visualizzare le transazioni a budget per una singola gerarchia di progetto. È pertanto possibile visualizzare i dettagli relativi alla transazione per un progetto principale o per i relativi sottoprogetti.                 |
 | **Variabili di transazione** | Quando si immettono le transazioni previsionali, è possibile utilizzare ogni attributo esistente per una transazione effettiva. Ciò garantisce un livello di dettaglio maggiore nella previsione. Ad esempio, è possibile immettere i dettagli relativi a quantità, lavoratori, articoli o proprietà riga.         | Quando si immettono i dettagli relativi al budget, è possibile utilizzare solo importi, categorie e attività.                                                                                    |
 | **Sicurezza**              | Le previsioni si basano sulle transazioni immesse nei moduli previsionali e non prevedono un meccanismo di controllo dei processi. Qualsiasi lavoratore con autorizzazioni per un modulo previsionale può effettuare revisioni delle informazioni senza necessità di approvazione.                                        | L'impostazione del budget utilizza il sistema per la gestione del flusso di lavoro, che consente di gestire le modifiche e di mantenere uno storico delle revisioni.                                                       |

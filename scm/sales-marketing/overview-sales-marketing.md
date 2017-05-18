@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f9e79b5dad120e057193b97d9c87665c54fea023
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 33a50e9600e3d213718c95db86ba7861b817f279
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -107,7 +108,7 @@ Una fattura cliente è un conto che un'organizzazione presenta a un cliente in r
 
 È possibile registrare e stampare una fattura cliente unica, basata su un ordine cliente o sul documento di trasporto e la data. È anche possibile registrare e stampare più fatture cliente insieme, in base ai documenti di trasporto e alle date. Quando viene registrata una singola fattura cliente usando l'ordine cliente, la quantità **Rimanente fattura** relativa a ciascun articolo viene aggiornata con il totale delle quantità fatturate, tratto dall'ordine cliente selezionato.  
 
-Se entrambe le quantità **Rimanente fattura** e ** Rimanente consegna** per tutti gli articoli dell'ordine cliente sono uguali a 0 (zero), lo stato dell'ordine cliente passa a **Fatturato**. Se la quantità di uno dei due campi è diversa da zero, lo stato dell'ordine cliente non viene modificato ed è possibile immettere ulteriori fatture. Se si prevede di registrare e stampare una o più fatture cliente basate sui documenti di trasporto, è necessario avere già registrato almeno un documento di trasporto per ogni ordine cliente. La fattura cliente si basa sui documenti di trasporto e riflette le quantità elencate.  
+Se entrambe le quantità **Rimanente fattura** e **Rimanente consegna** per tutti gli articoli dell'ordine cliente sono uguali a 0 (zero), lo stato dell'ordine cliente passa a **Fatturato**. Se la quantità di uno dei due campi è diversa da zero, lo stato dell'ordine cliente non viene modificato ed è possibile immettere ulteriori fatture. Se si prevede di registrare e stampare una o più fatture cliente basate sui documenti di trasporto, è necessario avere già registrato almeno un documento di trasporto per ogni ordine cliente. La fattura cliente si basa sui documenti di trasporto e riflette le quantità elencate.  
 
 È possibile creare una fattura cliente in base agli articoli delle righe dei documenti di trasporto spediti fino alla data corrente, anche se non sono stati ancora spediti tutti gli articoli di un ordine cliente specifico. Questa funzionalità è utilizzabile, ad esempio, se per ogni cliente la persona giuridica emette una fattura al mese per coprire tutte le consegne del mese in questione. Ogni documento di trasporto corrisponde a una consegna completa o parziale dell'ordine cliente.  
 

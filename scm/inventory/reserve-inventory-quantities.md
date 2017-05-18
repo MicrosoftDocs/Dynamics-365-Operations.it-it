@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7361b2e04376284238c8c9b1f91d03d18b121d24
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e414d5a5f946ff67befdf824cbf994a99dfe3eb6
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -71,7 +72,7 @@ In questo esempio, le scorte disponibili per il numero articolo A esistono per t
 Per un ordine cliente che dovrà essere prenotato automaticamente e consegnato in data 4 aprile 2016 viene prenotato il batch indicato di seguito:
 -   Se entrambe le caselle di controllo **Controllo in base a data FIFO** e **Indietro da data di spedizione** sono deselezionate, viene prenotato il batch 1000 perché è quello con il numero inferiore.
 -   Se la casella di controllo **Controllo in base a data FIFO** è selezionata e la casella di controllo **Indietro da data di spedizione** è deselezionata, viene prenotato il batch 1001 perché è quello con la prima data di entrata (FIFO).
--   Se entrambe le caselle di controllo **Controllo in base a data FIFO** e **Indietro da data di spedizione ** sono deselezionate, viene prenotato il batch 1002 perché è quello con l'entrata più vicina alla data di spedizione dell'ordine cliente.
+-   Se entrambe le caselle di controllo **Controllo in base a data FIFO** e **Indietro da data di spedizione** sono deselezionate, viene prenotato il batch 1002 perché è quello con l'entrata più vicina alla data di spedizione dell'ordine cliente.
 
 ### <a name="policies-on-the-inventory-and-warehouse-management-parameter-page"></a>Criteri nella pagina Parametri di gestione articoli e magazzino
 

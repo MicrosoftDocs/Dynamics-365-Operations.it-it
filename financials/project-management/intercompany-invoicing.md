@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 8a606f81e6e66390bf0add3deeeb032ab4cbd90b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8af9f2c1f6720c5d0a7b98c250a2cc52a5641cef
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -92,7 +93,7 @@ USSI, la persona giuridica concessionaria , deve creare e registrare la fattura 
 
 | Graduale | Punto di ingresso                                                                                             | descrizione                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Gestione progetti e contabilità ** &gt; **Fatture progetto** &gt; **Fattura cliente interaziendale**  | Fare clic su **Nuovo** per aprire la pagina **Crea fattura interaziendale**.                                                                                  |
+| A    | **Gestione progetti e contabilità** &gt; **Fatture progetto** &gt; **Fattura cliente interaziendale**  | Fare clic su **Nuovo** per aprire la pagina **Crea fattura interaziendale**.                                                                                  |
 | B    | **Gestione progetti e contabilità** &gt; **Fatture progetto** &gt; **Fatture cliente interaziendali** | Nella pagina **Crea fattura interaziendale**, immettere la persona giuridica, specificare la transazione che deve essere inclusa e quindi fare clic su **Cerca**. |
 | C    | **Gestione progetti e contabilità** &gt; **Fatture progetto** &gt; **Fatture cliente interaziendali** | Selezionare le transazioni da fatturare oppure fare clic su **Seleziona tutto** per fatturare tutte le transazioni nell'elenco e quindi fare clic su **OK**.                  |
 | D    | Pagina **Fattura interaziendale**                                                                       | Viene illustrata la proposta di fattura cliente interaziendale.                                                                                             |

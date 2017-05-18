@@ -3,7 +3,7 @@ title: Metodo di allocazione costi totali
 description: "Questo articolo fornisce le indicazioni per l&quot;utilizzo dell&quot;allocazione costi totali (TCA). L&quot;allocazione costi totali (TCA) è un metodo di calcolo del costo tra l&quot;articolo formula principale per un ordine batch e i co-prodotti definiti per la formula."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>Metodo di allocazione costi totali
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce le indicazioni per l'utilizzo dell'allocazione costi totali (TCA). L'allocazione costi totali (TCA) è un metodo di calcolo del costo tra l'articolo formula principale per un ordine batch e i co-prodotti definiti per la formula.
 
@@ -36,6 +40,11 @@ L'allocazione costi totali (TCA) è un metodo di calcolo del costo tra l'articol
 Di seguito sono riportate alcune indicazioni per l'utilizzo dell'allocazione costi totali per co-prodotti:
 
 -   Se si imposta il dispositivo di scorrimento **Allocazione costi totali** su **Sì** per una versione della formula, i co-prodotti devono avere un prezzo di costo maggiore di 0 (zero). Il valore può essere recuperato dalla versione di costo attiva per lo stesso sito o per il primo sito per una formula non specifica del sito. Questa condizione viene convalidata all'approvazione della formula.
+
+    -   Non è necessario immettere manualmente le percentuali di allocazione costi per i co-prodotti. In alternativa, viene creata automaticamente la percentuale di allocazione costi come media dei prezzi di costo attivi di co-prodotti. 
+    -   Non è necessario immettere il costo standard per voci di costo non standard che corrispondono a co-prodotti. Sono disponibili due tipi di versioni di determinazione costi nel sistema: costo standard e costo pianificato 
+    -   Se un articolo non è valutato con il metodo di valutazione Costo standard, si consiglia utilizzare un prezzo di costo attivo nella versione di determinazione costi pianificati. Questo prezzo viene utilizzato per la stima dei costi, ad esempio, il calcolo DBA, la stima dei costi di produzione e il prezzo di fallback nel processo di valutazione del magazzino. 
+
 -   Se si imposta il dispositivo di scorrimento di **Allocazione costi totali** su **Sì** per la versione della formula e le seguenti condizioni sono vere, il metodo di allocazione dei costi è **TCA** e la percentuale di allocazione dei costi è invariata:
     -   Sono stati aggiunti co-prodotti.
     -   È stato utilizzato un metodo diverso di allocazione dei costi per i co-prodotti.
@@ -53,6 +62,8 @@ Il campo **Allocazione costi sottoprodotti** nella pagina **Co-prodotti** è un 
 -   **Percentuale** ─ l'importo costi viene calcolato come percentuale del costo totale delle materie prime consumate nella produzione. La percentuale utilizzata per il calcolo viene immessa nel campo.
 -   **Per serie** ─ l'importo costi viene calcolato come importo per dimensioni batch standard dell'ordine di produzione. Questo importo è indipendente dalla quantità dichiarata nella produzione. L'importo utilizzato per il calcolo viene immesso nel campo.
 -   **Per quantità** ─ l'importo costi viene calcolato come importo per quantità dichiarata dell'articolo formula nella produzione. L'importo utilizzato per il calcolo viene immesso nel campo.
+
+
 
 
 

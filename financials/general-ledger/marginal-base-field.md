@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 114dee90b0fe525f0b3efabbf651d2804a22dd7d
-ms.openlocfilehash: ad731401fe553cdc50665cc87aaac64dc48813f2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1d92fbe0d872cc3a2cd03623cb6285a4d438a434
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -181,7 +182,7 @@ Vengono impostati i seguenti intervalli per le aliquote IVA:
 | 50 - 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Imponibile marginale: **Totale fattura inclusi altri importi IVA ** Metodo di calcolo: **Intervallo**   
+Imponibile marginale: **Totale fattura inclusi altri importi IVA** Metodo di calcolo: **Intervallo**   
 Su ciascuna lampada viene applicata un'imposta speciale di EUR 5,00. Gli importi delle imposte vengono aggiunti all'importo netto prima del calcolo dell'IVA. Si acquistano 8 lampade al costo di 25,00 l'una. L'importo netto della fattura è pari a EUR 200. L'importo lordo della fattura è pari a EUR 200 + (8 x 5,00) = EUR 240,00. L'IVA viene calcolata nel seguente modo: IVA totale = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 10 + 14 = 39,00 = 5,00 x 8 = 40,00 Importi della fattura totale = 200,00 + 39,00 + 40,00 = 279,00
 
 Per ulteriori informazioni, vedere [Opzioni Importo totale e Intervallo per i codici IVA](whole-amount-interval-options-sales-tax-codes.md) e [Metodi di calcolo IVA nel campo Origine](sales-tax-calculation-methods-origin-field.md)

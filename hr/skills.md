@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
-ms.openlocfilehash: 31dda85ff2e4a4e5380401b031b2dd74acff394b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4fd6e61e88ca3ca3fa63308dead1258c0263e5aa
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Allineare le competenze della forza lavoro alle esigenze
+
+[!include[banner](includes/banner.md)]
+
 
 È possibile tenere traccia delle competenze che hanno o dovranno avere i lavoratori, i candidati o le persone di contatto per svolgere i loro ruoli in modo efficace. È inoltre possibile specificare le competenze necessarie per una posizione lavorativa specifica.
 
@@ -52,24 +56,12 @@ Quando si immettono informazioni su una mansione, è possibile specificare le co
 
 I profili di mapping delle competenze consentono di trovare i dipendenti o i candidati con qualifiche che corrispondono direttamente alle esigenze dell'azienda.  È possibile ad esempio creare un profilo di mapping delle competenze per una posizione aperta nell'organizzazione. Creando un profilo per una posizione lavorativa specifica e copiando le competenze, il tipo di formazione e i certificati adatti a quella posizione nel profilo, è possibile trovare rapidamente lavoratori, candidati o persone di contatto che soddisfino uno o più dei criteri immessi nel profilo e visualizzare un elenco di candidati le cui competenze corrispondano il più possibile a quelle necessarie per la posizione lavorativa richiesta.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Nota </strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Solo i lavoratori, i candidati o le persone di contatto selezionate per essere incluse nelle ricerche del mapping delle competenze possono essere visualizzate in un elenco di risultati del mapping delle competenze o essere incluse in un profilo competenze. Per includere un lavoratore, un candidato o una persona di contatto nelle ricerche del mapping delle competenze, impostare la selezione <strong>Includi nel mapping competenze</strong> su Sì nelle pagine seguenti:
-<ul>
-<li>Lavoro</li>
-<li>Dipendente</li>
-<li>Richiedente</li>
-<li>Contatti</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+>**Nota**: solo i lavoratori, i candidati o le persone di contatto selezionate per essere incluse nelle ricerche del mapping delle competenze possono essere visualizzate in un elenco di risultati del mapping delle competenze o essere incluse in un profilo competenze. Per includere un lavoratore, un candidato o una persona di contatto nelle ricerche del mapping delle competenze, impostare la selezione **Includi nel mapping competenze** su Sì nelle pagine seguenti:
+
+> + Lavoro
+> + Dipendente
+> + Richiedente
+> + Contatti
 
 ## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Analisi della lacuna competenze e del profilo competenze
 È possibile creare un'analisi profilo competenze per visualizzare un elenco di competenze di un lavoratore, un candidato o una persona di contatto a partire da una data specifica. È possibile creare un'analisi della lacuna competenze per confrontare le competenze di una persona con le competenze richieste per una posizione lavorativa specifica.  
@@ -80,5 +72,7 @@ I profili di mapping delle competenze consentono di trovare i dipendenti o i can
 --------
 
 [Risorse umane](index.md)
+
+
 
 
