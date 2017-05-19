@@ -1,0 +1,45 @@
+---
+title: Visualizzazione di spese per un articolo prodotto
+description: "I costi costanti di un articolo prodotto riflettono i tempi di impostazione delle operazioni e i componenti con una quantità o un importo di scarto costante."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/20/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: CostingVersion, InventItemPrice
+audience: Application User
+ms.reviewer: annbe
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 274483
+ms.assetid: 6f5b851b-c5a7-43ef-b380-0d316667c1ef
+ms.search.region: global
+ms.search.industry: Manufacturing
+ms.author: yuyus
+ms.dyn365.ops.intro: AX 7.0.0
+ms.search.validFrom: 2016-02-28
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 119f49d9456c49b1e010da1e0b2c52e369164344
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
+
+
+---
+
+# <a name="display-charges-for-a-manufactured-item"></a>Visualizzazione di spese per un articolo prodotto
+
+[!include[banner](../includes/banner.md)]
+
+
+I costi costanti di un articolo prodotto riflettono i tempi di impostazione delle operazioni e i componenti con una quantità o un importo di scarto costante.
+
+È possibile visualizzare l'importo calcolato delle spese di un articolo con i costi unitari dell'articolo. Tuttavia, le spese vengono talvolta visualizzate come due campi separati e non vengono incluse nei costi unitari dell'articolo. Quando le spese vengono visualizzate come campi separati, un campo indica l'importo totale delle varie e l'altro le dimensioni lotto di determinazione costi utilizzate per ammortizzare l'importo. Nella Pagina Prezzo articolo, ad esempio, le spese vengono visualizzate come due campi separati. Tuttavia, nella pagina Completo viene visualizzato il costo totale dell'articolo per unità e i costi ammortizzati vengono inclusi nei costi unitari.
+Le spese per un articolo prodotto vengono sempre incluse nel costo unitario dell'articolo ai fini dei costi standard, mentre possono essere incluse facoltativamente nel caso di costi pianificati. La decisione di includere le spese nel costo di un articolo prodotto viene applicata da criteri in una versione di determinazione costi. Quando si attiva il record di costo di un articolo, le spese vengono aggiornate per le informazioni di costo di base dell'articolo visualizzate nella pagina Prezzo articolo. Le spese vengono visualizzate come due campi separati e non vengono incluse nel costo unitario dell'articolo. Le informazioni di costo di base dell'articolo vengono aggiornate a ogni attivazione, anche se quest'ultima riguarda siti diversi. Tali informazioni devono pertanto essere considerate come informazioni di riferimento.
+
+
+
+
+
+

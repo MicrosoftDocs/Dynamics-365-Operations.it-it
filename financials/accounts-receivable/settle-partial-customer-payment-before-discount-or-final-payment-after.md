@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: f3234bf607ef9ce1643226894716b975a2c2a7b9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a12c5b0ab85ac336592941f1fb62aa62ddc5d40d
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -100,7 +101,7 @@ Le informazioni di sconto vengono visualizzate nella parte inferiore della pagin
 | Sconto di cassa applicato          | 3,00      |
 | Importo sconto di cassa da applicare | 7,00      |
 
-Arnie imposta il valore nel campo **Utilizzare lo sconto di cassa** di nuovo su **Normale**, poiché non ha intenzione di applicare per il cliente lo sconto di cassa rimanente di 7,00. Arnie, quindi, registra il pagamento. Quando Arnie apre la pagina** Transazioni cliente**, vede che la fattura ha un saldo pari a 0,00. Vede inoltre che sono disponibili due pagamenti. Un pagamento è di 297,00 e ha uno sconto di cassa di 3,00 e l'altro pagamento è di 700,00.
+Arnie imposta il valore nel campo **Utilizzare lo sconto di cassa** di nuovo su **Normale**, poiché non ha intenzione di applicare per il cliente lo sconto di cassa rimanente di 7,00. Arnie, quindi, registra il pagamento. Quando Arnie apre la pagina**Transazioni cliente**, vede che la fattura ha un saldo pari a 0,00. Vede inoltre che sono disponibili due pagamenti. Un pagamento è di 297,00 e ha uno sconto di cassa di 3,00 e l'altro pagamento è di 700,00.
 
 | Giustificativo    | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: d38d05fe445bf0326d408038dff84ccf8c0ff64c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b6b0edfbbcebed323be63d5bc892dba1170b9c67
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Dopo aver creato un riferimento, è possibile creare una destinazione di file pe
 
 [![Creazione di una destinazione di file](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Note:** È possibile creare una destinazione del file per ciascun componente di output dello stesso formato, ad esempio una cartella o un file selezionato nel campo **Nome campo**. È quindi possibile abilitare e disabilitare singole destinazioni per la destinazione di file nella finestra di dialogo **Impostazioni destinazione**. Il pulsante **Impostazioni** consente di controllare tutte le destinazioni per una destinazione di file selezionata. Nella finestra di dialogo **Impostazioni destinazione** è possibile controllare separatamente ogni destinazione impostando la relativa opzione **Abilitato**.
+**Nota:** È possibile creare una destinazione del file per ciascun componente di output dello stesso formato, ad esempio una cartella o un file selezionato nel campo **Nome campo**. È quindi possibile abilitare e disabilitare singole destinazioni per la destinazione di file nella finestra di dialogo **Impostazioni destinazione**. Il pulsante **Impostazioni** consente di controllare tutte le destinazioni per una destinazione di file selezionata. Nella finestra di dialogo **Impostazioni destinazione** è possibile controllare separatamente ogni destinazione impostando la relativa opzione **Abilitato**.
 
 [![Finestra di dialogo Impostazioni di destinazione](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -60,7 +61,7 @@ Sono supportati vari tipi di destinazioni. È possibile disabilitare o abilitare
 
 ### <a name="email-destination"></a>Destinazione posta elettronica
 
-Impostare **Abilitato **su **Sì** per inviare un file di output tramite posta elettronica. Dopo aver abilitato questa opzione, è possibile specificare i destinatari del messaggio di posta elettronica e modificare l'oggetto e il corpo del messaggio. È possibile impostare testi costanti per l'oggetto e il corpo del messaggio di posta elettronica oppure utilizzare le formule ER per creare in modo dinamico i testi del messaggio di posta elettronica. È possibile configurare gli indirizzi di posta elettronica per ER in due modi. La configurazione può essere completata in modo analogo alla funzionalità Gestione stampa in Dynamics 365 for Operations. In alternativa, è possibile risolvere un indirizzo di posta elettronica utilizzando un riferimento diretto alla configurazione ER mediante una formula.
+Impostare **Abilitato**su **Sì** per inviare un file di output tramite posta elettronica. Dopo aver abilitato questa opzione, è possibile specificare i destinatari del messaggio di posta elettronica e modificare l'oggetto e il corpo del messaggio. È possibile impostare testi costanti per l'oggetto e il corpo del messaggio di posta elettronica oppure utilizzare le formule ER per creare in modo dinamico i testi del messaggio di posta elettronica. È possibile configurare gli indirizzi di posta elettronica per ER in due modi. La configurazione può essere completata in modo analogo alla funzionalità Gestione stampa in Dynamics 365 for Operations. In alternativa, è possibile risolvere un indirizzo di posta elettronica utilizzando un riferimento diretto alla configurazione ER mediante una formula.
 
 ### <a name="email-address-types"></a>Tipi di indirizzo di posta elettronica
 
@@ -92,7 +93,7 @@ Usano questo tipo di messaggio di posta elettronica se la configurazione da util
 
 ### <a name="archive-destination"></a>Destinazione archivio
 
-È possibile utilizzare questa opzione per inviare l'output a una cartella di Microsoft SharePoint o Archiviazione di Microsoft Azure. Impostare **Abilitato** su **Sì **per inviare l'output a una destinazione definita dal tipo di documento selezionato. Solo tipi di documento in cui il gruppo è impostato su **File** sono disponibili per la selezione. I tipi di documento vengono definiti in **Amministrazione organizzazione** &gt; **Gestione documenti** &gt; **Tipi di documento**. La configurazione per le destinazioni ER è lo stessa della configurazione del sistema di gestione documenti.
+È possibile utilizzare questa opzione per inviare l'output a una cartella di Microsoft SharePoint o Archiviazione di Microsoft Azure. Impostare **Abilitato** su **Sì**per inviare l'output a una destinazione definita dal tipo di documento selezionato. Solo tipi di documento in cui il gruppo è impostato su **File** sono disponibili per la selezione. I tipi di documento vengono definiti in **Amministrazione organizzazione** &gt; **Gestione documenti** &gt; **Tipi di documento**. La configurazione per le destinazioni ER è lo stessa della configurazione del sistema di gestione documenti.
 
 [![Pagina Tipi di documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: b46037b9509f329e18f0da69d530f6b1f88c8888
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fef518bf156aa45dff66d21d49b433ed613cead1
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ La query della proposta di pagamento contiene le varie schede, ciascuna delle qu
 
 ## <a name="parameters"></a>Parametri
 -   **Selezionare le fatture in base a**: le fatture incluse nell'intervallo di date specificato dai campi **Dal** e **Al** possono essere selezionate in base alla data di scadenza, alla data dello sconto di cassa o entrambe. Se si utilizza la data dello sconto di cassa, il sistema cercherà innanzitutto fatture con data dello sconto di cassa inclusa nell'intervallo di date specificato dai Campi Dal e Al. Il sistema quindi determina se la fattura è ammissibile per lo sconto di cassa utilizzando la data della sessione per assicurarsi che la data dello sconto di cassa non sia già trascorsa.
--   **Dal** e** Al**: le fatture con data dello sconto di cassa o di scadenza comprese in questo intervallo sono selezionate per il pagamento.
+-   **Dal** e**Al**: le fatture con data dello sconto di cassa o di scadenza comprese in questo intervallo sono selezionate per il pagamento.
 -   **Data di pagamento**: se una data viene definita, tutti i pagamenti vengono creati in questa data. Il campo **Data di pagamento minima** viene ignorato.
 -   **Data di pagamento minima**: consente di immettere la data di pagamento minima. Ad esempio, i campi **Dal** e **Al** specificano un intervallo dal 1° settembre al 10 settembre e la data di pagamento minima corrisponde al 5 settembre. In questo caso, tutte le fatture con data di scadenza dal 1° settembre al 5 settembre hanno una data di pagamento del 5 settembre. Tuttavia, tutte le fatture con data di scadenza dal 5 settembre al 10 settembre hanno una data di pagamento che corrisponde alla data di scadenza di ciascuna fattura.
 -   **Limite importo**: consente di immettere l'importo totale massimo per tutti i pagamenti.

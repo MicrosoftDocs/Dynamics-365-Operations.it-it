@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d9dcdd63649d6dbff96efe2eec7cad34025ab2ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 01ab473951bc04c68a0248b37041a116eebcaea9
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ In questo scenario di esempio, la società USMF ha un accordo di spedizione con 
 USMF eseguirà i processi periodici aggiuntivi:
 
 -   Lo spostamento fisico dell'inventario di proprietà del fornitore tra magazzini diversi viene elaborato tramite un giornale di registrazione trasferimenti.
--   L'inventario fisico disponibile viene aggiornato utilizzando un giornale** Conteggio articoli**. Il conteggio può essere utilizzato dal fornitore per aggiornare l'inventario disponibile, se è autorizzato a tale operazione.
+-   L'inventario fisico disponibile viene aggiornato utilizzando un giornale**Conteggio articoli**. Il conteggio può essere utilizzato dal fornitore per aggiornare l'inventario disponibile, se è autorizzato a tale operazione.
 
 Il fornitore, US-104, può monitorare gli aggiornamenti utilizzando la pagina **Inventario spedizione disponibile**.
 

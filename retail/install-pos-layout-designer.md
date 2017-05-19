@@ -18,25 +18,29 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b33cbf67c00b6baea4393e82d19300085781af29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e60994f5c4fa38fc2be17b4021e2def904c87b7f
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Installare lo strumento di progettazione layout di Retail POS
 
+[!include[banner](includes/banner.md)]
+
+
 È possibile utilizzare lo strumento di progettazione con un clic per progettare layout di Retail Modern POS (MPOS) e POS cloud diversi, con orientamento orizzontale o verticale, per punti vendita, registratori di cassa, cassieri e responsabili.
 
 L'interfaccia di progettazione grafica per MPOS o POS cloud viene controllata tramite il layout cassetto. Un layout controlla la posizione di diversi oggetti. Gli esempi includono il layout totale, il layout griglia articoli, il layout cliente, il layout pagamento, e il layout di diversi pulsanti di menu. I layout includono anche l'aspetto generale dell'interfaccia relativa alle vendite presentata ai lavoratori.
 
-## <a name="install-the-oneclick-designer"></a>Installare lo strumento di progettazione con un clic
+## <a name="install-the-one-click-designer"></a>Installare lo strumento di progettazione con un clic
 1.  In Microsoft Dynamics 365 for Operations, utilizzare il menu in alto a sinistra per accedere a **Vendita al dettaglio** **e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **POS** &gt; **Layout schermo**.
 2.  Selezionare il layout con tipo applicazione **Modern POS per Windows** o **POS cloud**, quindi fare clic su **Progettazione layout**.
 3.  Nella barra di notifica visualizzata nella parte inferiore della finestra di Internet Explorer, fare clic su **Apri** per avviare l'installazione della progettazione con un clic. (La barra di notifica potrebbe essere visualizzata in un posto diverso in altri browser).
-4.  Nella finestra di messaggio **Esecuzione applicazione - Avviso di sicurezza** visualizzata, fare clic su  **Esegui **per installare l'host della progettazione Retail. Un indicatore di stato mostra lo stato di avanzamento di installazione.
+4.  Nella finestra di messaggio **Esecuzione applicazione - Avviso di sicurezza** visualizzata, fare clic su  **Esegui**per installare l'host della progettazione Retail. Un indicatore di stato mostra lo stato di avanzamento di installazione.
 5.  Dopo che l'installazione è stata completata, nella pagina **Accedi** immettere nome utente e password di Microsoft Dynamics 365 for Operations e quindi fare clic **Accedi** per avviare lo strumento di progettazione.
 6.  Dopo che le credenziali vengono convalidate e si avvia la progettazione, è possibile iniziare a progettare il proprio layout o modificare il layout esistente. [![Layout nello strumento di progettazione con un clic](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
@@ -52,5 +56,7 @@ L'interfaccia di progettazione grafica per MPOS o POS cloud viene controllata tr
 --------
 
 [Configurare, scaricare, installare e attivare Retail Modern POS](retail-modern-pos-device-activation.md)
+
+
 
 

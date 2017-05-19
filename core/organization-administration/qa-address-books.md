@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 444ffcc8a14650085e24d0ea0d7f725e9d324d69
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f3d34f9ee0c9db97e79b8577d006b198f9a5cb29
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,8 +42,8 @@ ms.lasthandoff: 03/31/2017
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>È possibile aggiungere o eliminare i record di parti dalla Rubrica?
 Sì, è possibile aggiungere più record di parti a una Rubrica e rimuovere più record di parti.
 
--   Per aggiungere più record di parti a una Rubrica, **Rubrica globale **nella pagina elenco, selezionare le parti nell'elenco. Nella scheda **Parti** del riquadro azioni, nel gruppo **Gestisci** fare clic su **Assegna parti**. Selezionare le rubriche a cui aggiungere i record di parti selezionati, quindi fare clic su **OK**. Tutti i record di parti selezionati vengono aggiunti alle rubriche selezionate.
--   Per rimuovere più record di parti da una Rubrica, nella pagina elenco **Rubrica globale **, selezionare le parti nell'elenco. Nella scheda **Parti** del riquadro azioni, nel gruppo **Gestisci** fare clic su **Rimuovi parti**. Selezionare le rubriche da cui rimuovere le parti e fare clic su **OK**. Tutti i record di parti selezionati vengono rimossi dalle rubriche selezionate.
+-   Per aggiungere più record di parti a una Rubrica, **Rubrica globale**nella pagina elenco, selezionare le parti nell'elenco. Nella scheda **Parti** del riquadro azioni, nel gruppo **Gestisci** fare clic su **Assegna parti**. Selezionare le rubriche a cui aggiungere i record di parti selezionati, quindi fare clic su **OK**. Tutti i record di parti selezionati vengono aggiunti alle rubriche selezionate.
+-   Per rimuovere più record di parti da una Rubrica, nella pagina elenco **Rubrica globale**, selezionare le parti nell'elenco. Nella scheda **Parti** del riquadro azioni, nel gruppo **Gestisci** fare clic su **Rimuovi parti**. Selezionare le rubriche da cui rimuovere le parti e fare clic su **OK**. Tutti i record di parti selezionati vengono rimossi dalle rubriche selezionate.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Posso modificare il tipo di parte di un record o devo eliminare il record precedente e crearne uno nuovo?
 Occasionalmente potrebbe essere necessario modificare il tipo di parte di un record da persona a organizzazione o da organizzazione a persona. Ad esempio, Nancy è un membro del team di vendita per Fabrikam U.K.. Durante una fiera commerciale a Londra, incontra sei nuovi prospect. Nancy creare un record parte per ciascun prospect. Quando Nancy salva i record, questi verranno creati anche nella rubrica globale. Fabrikam ha il tipo predefinito di parte impostato su organizzazione, ma due dei nuovi prospect devono avere un tipo di record persona. Pertanto, quando Nancy torna dalla fiera, deve modificare il tipo di parte dei due record prospect. Per modificare un record parte da un tipo di parte a un altro, è necessario innanzitutto creare un nuovo record parte del tipo corretto nella rubrica globale. Quindi associare il record parte precedente al nuovo record. Dopo avere effettuato la nuova associazione di parte, eliminare il record parte originale con il tipo di record errato.

@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 29938d962db42a521dd8dc03b8e45e0e34410e4d
-ms.openlocfilehash: d3b36ec2a3f859215d93dd7ebf1f1ecfb2731c59
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: ba1bb54a29250a2bb59622ee4391b64ac455af33
+ms.contentlocale: it-it
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -44,14 +45,14 @@ Il rilevamento modifiche di Microsoft SQL Server nel database di Dynamics 365 fo
 
 [![Async Service](./media/async-300x239.png)](./media/async.png)
 
-### <a name="retail-scheduler"></a>Retail Scheduler
+### <a name="retail-scheduler"></a>Retail scheduler
 
-I processi Retail Scheduler sono il meccanismo per la distribuzione dei dati dalle e alle ubicazioni. I processi sono costituiti da processi secondari, che specificano le tabelle e i campi di tabella che contengono i dati da distribuire. Dynamics 365 for Operations include processi e processi secondari di Retail Scheduler predefiniti che soddisfano i requisiti di replica della maggior parte delle organizzazioni. Vengono creati i seguenti tipi di processi predefiniti:
+I processi Retail scheduler sono il meccanismo per la distribuzione dei dati dalle e alle ubicazioni. I processi sono costituiti da processi secondari, che specificano le tabelle e i campi di tabella che contengono i dati da distribuire. Dynamics 365 for Operations include processi e processi secondari di Retail scheduler predefiniti che soddisfano i requisiti di replica della maggior parte delle organizzazioni. Vengono creati i seguenti tipi di processi predefiniti:
 
 -   **Processi di download**: i processi di download inviano i dati modificati da Dynamics 365 for Operations ai database di canale. Le modifiche ai record vengono tracciate tramite il rilevamento delle modifiche di SQL Server.
 -   **Processi di caricamento (processi P)**: i processi di caricamento effettuano il pull delle transazioni di vendita da un canale nel database di Dynamics 365 for Operations. I processi P caricano i dati in modo incrementale. Quando viene eseguito un processo P, la libreria Async Client controlla il contatore di replica per i record che sono già stati ricevuti da un'ubicazione. Un record viene caricato solo se il relativo contatore di replica è maggiore del valore più grande trovato. I processi P non aggiornano i dati caricati in precedenza.
 
-La programmazione di distribuzione viene utilizzata per eseguire il trasferimento dei dati, manualmente o tramite la programmazione di un processo batch in Dynamics 365 for Operations. La programmazione di distribuzione può contenere uno o più gruppi di dati del canale e uno o più processi Retail Scheduler.
+La programmazione di distribuzione viene utilizzata per eseguire il trasferimento dei dati, manualmente o tramite la programmazione di un processo batch in Dynamics 365 for Operations. La programmazione di distribuzione può contenere uno o più gruppi di dati del canale e uno o più processi Retail scheduler.
 
 ## <a name="realtime-service"></a>Real-time Service
 Commerce Data Exchange: Real-time Service è un servizio integrato che consente la comunicazione in tempo reale tra Dynamics 365 for Operations e i canali di vendita al dettaglio. Real-time Service consente ai singoli computer POS e ai negozi online di recuperare dati specifici da Dynamics 365 for Operations in tempo reale. Sebbene la maggior parte delle operazioni principali possa essere eseguita nel database del canale locale, i seguenti scenari richiedono l'accesso diretto ai dati archiviati in Dynamics 365 for Operations:

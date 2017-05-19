@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 380f1bcdf7109dc12fd898199033eac7710d863c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1f1df1e69f3933125bff3eba73d14e8615d7a2a6
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,7 +42,7 @@ Se si desidera che un utente possa accedere alla collaborazione fornitore, quest
 
 1.  Fare clic su **Nuovo**.
 2.  Immettere i dettagli del contatto primario.
-3.  Scegliere quale persona giuridica rappresentano nella società e con quale persona giuridica lavoreranno nella società con cui collaboreranno. È possibile effettuare questa operazione selezionando una coppia **Persona giuridica nella società personale** /** Persona giuridica nella società cliente**.
+3.  Scegliere quale persona giuridica rappresentano nella società e con quale persona giuridica lavoreranno nella società con cui collaboreranno. È possibile effettuare questa operazione selezionando una coppia **Persona giuridica nella società personale** /**Persona giuridica nella società cliente**.
 4.  Fare clic su **Crea**.
 
 Se si desidera eliminare un contatto, è solo possibile eliminare quelli che sono stati creati.

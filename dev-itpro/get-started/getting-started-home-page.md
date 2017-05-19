@@ -3,7 +3,7 @@ title: Punto di inizio
 description: "Per apprendere in modo facile e rapido l&quot;interfaccia utente di Microsoft Dynamics 365 for Operations, è possibile iniziare da qui."
 eauthor: sericks007
 manager: AnnBe
-ms.date: 2015-12-11 15 - 19 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ o# ms.search.industry:
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 8f75131c6be6ce0f23cce456405d5e211912f19a
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69995d2f8a463e82e7a26b673737889b4ea17402
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="where-to-start"></a>Punto di inizio
+
+[!include[banner](../includes/banner.md)]
+
 
 Per apprendere in modo facile e rapido l'interfaccia utente di Microsoft Dynamics 365 for Operations, è possibile iniziare da qui.
 
@@ -36,7 +40,7 @@ Le seguenti risorse forniscono una panoramica di come collaborare con il proprio
 - [Cenni preliminari su Microsoft FastTrack per Dynamics 365](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
 - [Iscrizione a una sottoscrizione](../dev-tools/sign-up-preview-subscription.md) 
 - [Lifecycle Services (LCS) per i clienti Microsoft Dynamics 365 for Operations](../lifecycle-services/lcs-works-lcs.md) 
-- [In che modo i clienti che hanno acquistato Microsoft Dynamics 365 for Operations attraverso un provider di servizi cloud possono ottenere la versione locale di Dynamics 365 for Operations 2012](../deployment/csp-download-customersource.md)
+- [In che modo i clienti che hanno acquistato Microsoft Dynamics 365 for Operations attraverso un provider di servizi cloud possono ottenere la versione locale di Dynamics AX 2012](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Interfaccia utente
 Le risorse indicate di seguito forniscono informazioni sull'esperienza utente di Dynamics 365 for Operations. 
@@ -71,12 +75,12 @@ Registrazione attività è uno strumento di Dynamics 365 for Operations che è p
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creazione di nuove librerie di formazione per Dynamics 365 for Operations all'interno di Lifecycle Services mediante Registrazione attività (collegamento esterno)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Nuove Guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)
 
 [Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guide attività nuove o aggiornate (novembre 2016)](new-task-guides-november-2016.md)
+
+
 
 

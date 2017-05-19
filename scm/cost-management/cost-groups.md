@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 1a8cbe01bb774ac7fc4aac721dca00674852197f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3592f3c076681c5b755b62383212bbe6d158f62d
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,7 +51,7 @@ La segmentazione per gruppi di costi può applicarsi inoltre a scostamenti per u
 È possibile assegnare a un gruppo di costi un tipo di gruppo di costi e un comportamento sempre ai fini della segmentazione.
 
 -   **Tipo gruppo di costi**: a ciascun gruppo di costi deve essere assegnato un tipo di gruppo di costi, a indicare che il gruppo di costi si applica a materiale diretto, fabbricazione diretta o esternalizzazione diretta oppure per designarlo come indiretto o non definito. Un gruppo di costi designato come materiale diretto può essere assegnato agli articoli. Un gruppo di costi di fabbricazione diretta può essere assegnato alle categorie di costi. Un gruppo di costi di esternalizzazione diretta può essere assegnato a un tipo di prodotto di servizio che consente di classificare i costi associati all'acquisto del servizio alle attività in conto lavoro. Un gruppo di costi indiretto può essere assegnato a costi indiretti per supplementi o tariffe. Un gruppo di costi designato come non definito può essere assegnato ad articoli, categorie di costi o costi indiretti. L'assegnazione di un tipo di gruppi di costi ha diverse finalità. Consente innanzitutto di limitare la capacità di assegnare un gruppo di costi e di visualizzare un elenco di gruppi di costi applicabili. In secondo luogo consente di eseguire un'ulteriore segmentazione per il reporting. Può essere utilizzata infine per assegnare conti CoGe per scostamenti.
--   **Comportamento**: è possibile assegnare facoltativamente a ciascun gruppo di costi un comportamento, a indicare che il gruppo di costi si applica a costi fissi o a costi variabili. Un gruppo di costi con valore nullo per il comportamento viene gestito come costo variabile. L'assegnazione di un comportamento serve esclusivamente per il reporting. I costi ad esempio possono essere visualizzati con la segmentazione di costi fissi e variabili nella scheda di determinazione costi e nella pagina** Rollup costo per gruppo di costi**. Se si assegna una percentuale di impostazione del profitto a ciascun gruppo di costi, il calcolo della distinta base (DBA) fornisce un prezzo di vendita consigliato basato su un approccio comprendente una percentuale di ricarico.
+-   **Comportamento**: è possibile assegnare facoltativamente a ciascun gruppo di costi un comportamento, a indicare che il gruppo di costi si applica a costi fissi o a costi variabili. Un gruppo di costi con valore nullo per il comportamento viene gestito come costo variabile. L'assegnazione di un comportamento serve esclusivamente per il reporting. I costi ad esempio possono essere visualizzati con la segmentazione di costi fissi e variabili nella scheda di determinazione costi e nella pagina**Rollup costo per gruppo di costi**. Se si assegna una percentuale di impostazione del profitto a ciascun gruppo di costi, il calcolo della distinta base (DBA) fornisce un prezzo di vendita consigliato basato su un approccio comprendente una percentuale di ricarico.
 
 
 

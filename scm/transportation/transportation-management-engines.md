@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 9db73514d71239d75dc63fcf6e9f45923b1272f4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c65f7e44459478cac7663575abe588ad057f18e0
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ I dati utilizzati quando si calcolano le tariffe in Microsoft Dynamics 365 for O
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>I metadati sono necessari per le configurazioni di tutti i motori?
 No, i motori di gestione del trasporto utilizzati per recuperare i dati richiesti per il calcolo delle tariffe da sistemi esterni non richiedono i metadati. I dati relativi alle tariffe di questi motori possono essere recuperati dai sistemi di vettori di trasporto esterni, in genere tramite un servizio Web. Ad esempio, in è possibile utilizzare un motore chilometraggio che recupera i dati direttamente da Bing Maps in modo che per questo motore non siano necessari i metadati.
-| **Nota **                                                                                                                                                                                                                                                                                                                                                                     |
+| **Nota**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | I motori di gestione del trasporto forniti con Microsoft Dynamics 365 for Operations si basano sui dati recuperati dall'applicazione. I motori che si connettono ai sistemi esterni non sono inclusi in Operations. Tuttavia, il modello di estendibilità basato sul motore consente di creare estensioni utilizzando Visual Studio Tools per Microsoft Dynamics 365 for Operations. |
 

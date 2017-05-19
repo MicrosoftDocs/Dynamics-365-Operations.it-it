@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 849cffa64eaf777f9f4c9243dab41b00fa59ad79
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 33bba0e037a8ccc09b3d47268ca2b350d1d25b5f
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ April fa clic su **Registra**. Quindi rivede la liquidazione completata. April v
 | Selezionato ed evidenziato | Normale            | Inv-10070 | 3050    | 29/6/2015 | 29/7/2015 | 10070    | -1.000,00                      | GBP      | -200,00          |
 | Selezionato                 | Normale            | CR-10070  | 3050    | 2/7/2015  | 29/7/2015 | CR-10070 | 200,00                         | GBP      | 198,00           |
 
-April può verificare le transazioni del fornitore nella pagina **Transazioni fornitore** selezionando un fornitore nella pagina **Tutti i fornitori **, quindi nel Riquadro azioni facendo clic su **Transazioni**. In questa pagina April vede che la fattura ha un saldo pari a -800,00. Vede anche una nota di accredito per 198,00 e uno sconto di 2,00.
+April può verificare le transazioni del fornitore nella pagina **Transazioni fornitore** selezionando un fornitore nella pagina **Tutti i fornitori**, quindi nel Riquadro azioni facendo clic su **Transazioni**. In questa pagina April vede che la fattura ha un saldo pari a -800,00. Vede anche una nota di accredito per 198,00 e uno sconto di 2,00.
 
 | Giustificativo    | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

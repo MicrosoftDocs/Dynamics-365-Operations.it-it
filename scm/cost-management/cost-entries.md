@@ -3,7 +3,7 @@ title: Voci di costo
 description: "Questo articolo fornisce informazioni sulle voci di costo e sul momento in cui vengono create. Una voce di costo è un record che registra la quantità e il costo di un evento specifico."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 55f5ee731c40acc40e8fe20c24d4ed707fe2c81a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 341251119304456a89b02c7a8d4af941ea21196d
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-entries"></a>Voci di costo
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce informazioni sulle voci di costo e sul momento in cui vengono create. Una voce di costo è un record che registra la quantità e il costo di un evento specifico.
 
@@ -53,17 +57,22 @@ La nuova pagina **Voci di costo** consente di visualizzare e controllare le regi
 -   Alcuni giorni dopo che l'evento di fatturazione è stato registrato, il costo aumenta a 11,00 EUR. Di conseguenza, l'importo totale è 1.100 EUR. Un secondo giustificativo viene creato per rappresentare la differenza di 100 EUR.
 -   Alcuni giorni dopo spese varie di 15,00 EUR per coprire il costo di trasporto vengono registrate nell'ordine fornitore.
 
-| Giustificativo | Data       | Referenza      | Numero | ID lotto  | Lotto di riferimento | ID lotto resi | Quantità | Importo  |
-|---------|------------|----------------|--------|---------|---------------|---------------|----------|---------|
-| 00001   | 01/01/2015 | Ordine acquisto | 100001 | 0000101 |               |               | 100,00   | 1000,00 |
-| 00002   | 20/01/2015 | Ordine acquisto | 100001 | 0000101 |               |               |          | 100,00  |
-| 00003   | 31/01/2015 | Correzione     | 100001 | 0000101 |               |               |          | 15,00   |
+| Giustificativo | Data       | Riferimento      | Numero | ID lotto  | Quantità | Importo  |
+|---------|------------|----------------|--------|---------|---------------|----|
+| 00001   | 01/01/2015 | Ordine fornitore | 100001 | 0000101 | 100,00   | 1000,00 |
+| 00002   | 20/01/2015 | Ordine acquisto | 100001 | 0000101 |          | 100,00  |
+| 00003   | 31/01/2015 | Correzione     | 100001 | 0000101 |          | 15,00   |
 
-La pagina **Voci di costo** abilita il filtro in base all'ID e alla data del documento. **Nota:** le voci di costo sono disponibili solo per gli [oggetti di costo](cost-object.md) o i prodotti rilasciati.
+La pagina **Voci di costo** abilita il filtro in base all'ID e alla data del documento. 
+
+> [!NOTE]
+> Le voci di costo sono disponibili solo per gli [oggetti di costo](cost-object.md) o i prodotti rilasciati.
 
 <a name="see-also"></a>Vedere anche
 --------
 
 [Oggetti di costo](cost-object.md)
+
+
 
 

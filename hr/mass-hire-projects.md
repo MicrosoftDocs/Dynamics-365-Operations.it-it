@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: d330f73ee9cbdd6bdcc197c3783a9230b26e04d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ba5816b65bcaa3a71ab3367cfbe6a115e52062a
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="mass-hire-projects"></a>Progetti di assunzione collettiva
+
+[!include[banner](includes/banner.md)]
+
 
 I progetti di assunzione collettiva consentono ai responsabili delle risorse umane di creare più posizioni e assumere in modo efficiente i lavoratori per tali posizioni.
 
@@ -46,7 +50,7 @@ Nella pagina **Progetti di assunzione collettiva** selezionare il progetto "Summ
 
 Dopo aver selezionato gli studenti da assumere per le posizioni interne, immettere le informazioni degli studenti in **Dettagli posizioni** per la posizione per cui vengono assunti. Dopo aver immesso in tutti i dettagli della posizione, selezionare la posizione nella pagina Progetti di assunzione collettiva, quindi fare clic su **Assumi**. Un record posizione verrà creato per ogni posizione e un record lavoratore verrà creato e assegnato alla posizione corretta per ogni persona che si assume.
 
-## <a name="masshire-project-statuses"></a>Stati progetto di assunzione collettiva
+## <a name="mass-hire-project-statuses"></a>Stati del progetto di assunzione collettiva
 Un progetto di assunzione collettiva può includere i seguenti stati.
 -   Creata
 -   Aperto
@@ -92,6 +96,8 @@ Nella pagina **Progetto di assunzione collettiva** fare clic su **Apri progetto*
 </table>
 
  
+
+
 
 
 

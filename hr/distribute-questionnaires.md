@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Distribuire e completare un questionario
+
+[!include[banner](includes/banner.md)]
+
 
 In questo argomento viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili alla persona o al gruppo di persone che li dovranno completare. 
 
@@ -53,7 +57,8 @@ Per assegnare un gruppo di questionari a un questionario, nella pagina **Questio
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sessioni di risposte pianificate in un questionario
 Le sessioni di risposte pianificate sono questionari progettati e selezionati per gli intervistati. 
 
-**Nota:** Prima di impostare le sessioni di risposte pianificate, è necessario progettare un questionario. 
+> **Nota**
+>   Prima di impostare le sessioni di risposte pianificate, è necessario progettare un questionario. 
 
 Nella pagina **Sessione di risposte pianificata** è possibile creare una sessione di risposte pianificata per un singolo dipendente. Nell'elenco della pagina sono visualizzati tutti i questionari pianificati. 
 
@@ -99,7 +104,8 @@ Fare clic su **Funzioni** &gt; **Inizio** per rendere disponibile il questionari
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Informare gli intervistati dei questionari disponibili
 Quando viene distribuito un questionario, è necessario avvisare gli intervistati che i questionari sono disponibili. 
 
-**Nota:** gli intervistati devono essere utenti di Microsoft Dynamics 365 for Operations per poter completare un questionario.
+> **Nota**
+>   Gli intervistati devono essere utenti di Microsoft Dynamics 365 for Operations per poter completare un questionario.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Informare gli intervistati su una sessione di risposte pianificata
 
@@ -109,12 +115,14 @@ Se si utilizza una sessione di risposte pianificata, è necessario informare dir
 
 Utilizzare la pagina **Programmazioni questionari** per preparare e inviare un messaggio di posta elettronica a tutti gli intervistati a cui è stato assegnato il questionario. Immettere il testo del messaggio di posta elettronica nella scheda **Posta elettronica per dipendente self-service**. Dopo che la programmazione è stata avviata, fare clic su **Funzioni** &gt; **Invia posta elettronica** per generare la posta elettronica e inviarla agli intervistati. Gli intervistati possono quindi accedere al sito Web e completare il questionario. 
 
-**Nota:** affinché si possa utilizzare la funzionalità di posta elettronica, è necessario che l'amministratore IT immetta le impostazioni di posta elettronica nella pagina **Parametri posta elettronica**.
+> **Nota**
+>   Prima di poter utilizzare la funzionalità di posta elettronica, è necessario che l'amministratore IT immetta le impostazioni di posta elettronica nella pagina **Parametri posta elettronica**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Completamento di un questionario programmato
 È possibile concludere un questionario programmato dopo che tutti gli intervistati hanno completato le sessioni di risposte assegnate. In seguito al completamento di un questionario programmato, non è possibile copiarne le impostazioni in una nuova programmazione. 
 
-**Nota:** Se alcuni intervistati non hanno completato il questionario ma si desidera comunque completare la programmazione, è necessario innanzitutto eliminare gli intervistati in questione dall'elenco presente nella pagina **Sessione di risposte pianificata**. Sarà quindi possibile completare la programmazione.
+> **Nota**
+>   Se alcuni intervistati non hanno completato il questionario ma si desidera comunque completare la programmazione, è necessario innanzitutto eliminare gli intervistati in questione dall'elenco presente nella pagina **Sessione di risposte pianificata**. Sarà quindi possibile completare la programmazione.
 
 ## <a name="completing-questionnaires"></a>Completamento di questionari
 Dopo che è stato progettato e distribuito, un questionario può essere completato dagli intervistati selezionati. È possibile completare i questionari disponibili da due posizioni:
@@ -132,5 +140,7 @@ I questionari possono essere messi a disposizione di utenti o gruppi di utenti s
 [Utilizzo di questionari](questionnaires.md)
 
 [Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md)
+
+
 
 

@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ Il motore ER presenta le seguenti funzionalità:
 ## <a name="concepts"></a>Concetti
 ### <a name="components"></a>Componenti
 
-ER supporta due tipi di componenti: **Modello dati **e **Formato**.
+ER supporta due tipi di componenti: **Modello dati**e **Formato**.
 
 #### <a name="data-model-components"></a>Componenti modello dati
 
@@ -93,9 +94,9 @@ Un componente formato offre la possibilità di allegare file specifici che posso
 Il controllo delle versioni è supportato per i componenti ER. Viene fornito il seguente flusso di lavoro per la gestione delle modifiche nei componenti ER:
 
 -   La versione che viene creata in origine è contrassegnata come versione **BOZZA**. Questa versione può essere modificata ed è disponibile per le esecuzioni dei test.
--   La versione** BOZZA** può essere convertita in una versione **COMPLETATA**. Questa versione può essere utilizzata nei processi di creazione di report locali.
+-   La versione**BOZZA** può essere convertita in una versione **COMPLETATA**. Questa versione può essere utilizzata nei processi di creazione di report locali.
 -   La versione **COMPLETATA** può essere convertita in una versione **CONDIVISA**. Questa versione viene pubblicata su LCS e può essere utilizzata nei processi globali di reporting.
--   La versione** CONDIVISA** può essere convertita in una versione **INTERROTTA**. Questa versione può quindi essere eliminata.
+-   La versione**CONDIVISA** può essere convertita in una versione **INTERROTTA**. Questa versione può quindi essere eliminata.
 
 Le versioni nello stato** COMPLETATO** o **CONDIVISO** sono disponibili per un altro interscambio di dati. Su un componente che dispone di questi stati è possibile eseguire queste azioni:
 
@@ -112,7 +113,7 @@ L'accesso ai componenti di formato ER dipende dall'impostazione dei codici di pa
 
 #### <a name="configuration"></a>Configurazione
 
-Una configurazione ER è il wrapper di un determinato componente ER, **Modello dati **o **Formato**. Una configurazione può includere versioni diverse di un particolare componente ER. Ciascuna configurazione viene contrassegnata come di proprietà di un provider di una determinata configurazione. La versione **BOZZA** di un componente di una configurazione può essere modificata quando il proprietario della configurazione è stato selezionato come provider attivo nelle impostazioni ER di Dynamics 365 for Operations. Ogni configurazione modello contiene un componente **modello dati**. Una nuova configurazione formato può derivare da una configurazione modello dati specifica. La configurazione formato che viene creata verrà presentata nella struttura della configurazione come elemento figlio della configurazione modello di dati originale. La configurazione formato creata contiene un componente **formato**. Il componente **modello dati** della configurazione modello originale viene inserito automaticamente nel componente **formato** della configurazione formato figlio creata come origine dati predefinita. Una configurazione ER è condivisa per le società Dynamics 365 for Operations.
+Una configurazione ER è il wrapper di un determinato componente ER, **Modello dati**o **Formato**. Una configurazione può includere versioni diverse di un particolare componente ER. Ciascuna configurazione viene contrassegnata come di proprietà di un provider di una determinata configurazione. La versione **BOZZA** di un componente di una configurazione può essere modificata quando il proprietario della configurazione è stato selezionato come provider attivo nelle impostazioni ER di Dynamics 365 for Operations. Ogni configurazione modello contiene un componente **modello dati**. Una nuova configurazione formato può derivare da una configurazione modello dati specifica. La configurazione formato che viene creata verrà presentata nella struttura della configurazione come elemento figlio della configurazione modello di dati originale. La configurazione formato creata contiene un componente **formato**. Il componente **modello dati** della configurazione modello originale viene inserito automaticamente nel componente **formato** della configurazione formato figlio creata come origine dati predefinita. Una configurazione ER è condivisa per le società Dynamics 365 for Operations.
 
 #### <a name="provider"></a>Provider
 
@@ -120,7 +121,7 @@ Il provider ER è l'identificatore della parte che viene utilizzato per indicare
 
 #### <a name="repository"></a>Archivio
 
-In un archivio ER sono archiviate le configurazioni di ER. Attualmente sono supportati i seguenti tipi di archivio ER: **Risorse Operations** e **Progetto LCS**. Un archivio** Risorse Operations** consente l'accesso all'elenco delle configurazioni che vengono rilasciate come parte della soluzione Dynamics 365 for Operations da Microsoft come provider di configurazioni ER. Tali configurazioni possono essere importate nell'istanza corrente di Dynamics 365 for Operations e utilizzate per la creazione di report elettronici. Possono inoltre essere utilizzate per altre localizzazioni/personalizzazioni. L'archivio **Progetto LCS **consente l'accesso all'elenco delle configurazioni di un determinato progetto LCS (raccolta risorse di progetto LCS) selezionato alla fase di registrazione archivio. ER consente di caricare le configurazioni condivise dall'istanza corrente di Dynamics 365 for Operations in un determinato archivio **Progetto LCS**. È anche possibile importare configurazioni da un determinato archivio **Progetto LCS** nell'istanza corrente di Dynamics 365 for Operations. È possibile registrare individualmente archivi **Progetto LCS** obbligatori per ciascun provider di configurazioni dell'istanza corrente di Dynamics 365 for Operations. Ogni archivio può essere dedicato a un provider di configurazioni specifico.
+In un archivio ER sono archiviate le configurazioni di ER. Attualmente sono supportati i seguenti tipi di archivio ER: **Risorse Operations** e **Progetto LCS**. Un archivio** Risorse Operations** consente l'accesso all'elenco delle configurazioni che vengono rilasciate come parte della soluzione Dynamics 365 for Operations da Microsoft come provider di configurazioni ER. Tali configurazioni possono essere importate nell'istanza corrente di Dynamics 365 for Operations e utilizzate per la creazione di report elettronici. Possono inoltre essere utilizzate per altre localizzazioni/personalizzazioni. L'archivio **Progetto LCS**consente l'accesso all'elenco delle configurazioni di un determinato progetto LCS (raccolta risorse di progetto LCS) selezionato alla fase di registrazione archivio. ER consente di caricare le configurazioni condivise dall'istanza corrente di Dynamics 365 for Operations in un determinato archivio **Progetto LCS**. È anche possibile importare configurazioni da un determinato archivio **Progetto LCS** nell'istanza corrente di Dynamics 365 for Operations. È possibile registrare individualmente archivi **Progetto LCS** obbligatori per ciascun provider di configurazioni dell'istanza corrente di Dynamics 365 for Operations. Ogni archivio può essere dedicato a un provider di configurazioni specifico.
 
 ## <a name="supported-scenarios"></a>Scenari supportati
 ### <a name="building-a-data-model"></a>Generazione di un modello dati
@@ -154,7 +155,7 @@ Progettazione formato ER è utilizzabile per creare un particolare documento ele
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Archiviazione di un componente formato progettato in una configurazione di formato
 
-ER è in grado di archiviare un formato progettato insieme ai mapping di dati configurati come configurazione di formato dell'istanza corrente di Dynamics 365 for Operations. Nell'illustrazione precedente viene illustrato un esempio di questo tipo di configurazione di formato (**BACS (UK)**, che è figlio della configurazione **modello di pagamento **). Per acquisire familiarità con i dettagli di questo scenario, eseguire la guida attività **Progettare con ER un formato specifico di dominio** (parte del processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)**).
+ER è in grado di archiviare un formato progettato insieme ai mapping di dati configurati come configurazione di formato dell'istanza corrente di Dynamics 365 for Operations. Nell'illustrazione precedente viene illustrato un esempio di questo tipo di configurazione di formato (**BACS (UK)**, che è figlio della configurazione **modello di pagamento**). Per acquisire familiarità con i dettagli di questo scenario, eseguire la guida attività **Progettare con ER un formato specifico di dominio** (parte del processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)**).
 
 ### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Configurazione di Dynamics 365 for Operations per utilizzare internamente un formato creato
 

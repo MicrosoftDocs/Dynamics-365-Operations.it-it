@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c5986dbce88a1cb704dddfc2afbcf2ac8c4b0dd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2a39054e5736c1162634cf9b1dd3f7e0c0c4ec16
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -104,7 +105,7 @@ Non è necessario definire configurazioni del revisore spese. È possibile invec
 
 È possibile impostare i revisori spese nella pagina **Revisori spese per la richiesta di acquisto**. Creare una configurazione del revisore spese e immettere i valori per ogni persona giuridica dell'organizzazione. Per le richieste di acquisto assegnate a un progetto, è possibile specificare il ruolo responsabile della revisione delle richieste di acquisto: controller di progetto, manager di progetto o responsabile vendite di progetto. Le spese verranno inviate all'utente assegnato al ruolo specificato. È inoltre possibile inviare la spesa al proprietario della dimensione finanziaria selezionando l'opzione appropriata relativa alla dimensione finanziaria nella scheda **Distribuzioni organizzazione**.  
 
-Per utilizzare uno dei revisori spese definiti in un flusso di lavoro, è necessario impostare l'opzione **Tipo di partecipante** su** Partecipanti alla spesa** nelle proprietà** Assegnazione** dell'elemento del flusso di lavoro rilevante.
+Per utilizzare uno dei revisori spese definiti in un flusso di lavoro, è necessario impostare l'opzione **Tipo di partecipante** su**Partecipanti alla spesa** nelle proprietà**Assegnazione** dell'elemento del flusso di lavoro rilevante.
 
 <a name="see-also"></a>Vedere anche
 --------

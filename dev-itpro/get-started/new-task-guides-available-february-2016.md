@@ -1,6 +1,6 @@
 ---
 title: "Nuove guide attività (febbraio 2016)"
-description: "In questo wiki sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.  Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics 365 for Operations e la libreria di introduzione (febbraio 2016)."
+description: "In questo argomento sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.  Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics 365 for Operations e la libreria di introduzione (febbraio 2016)."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,17 +16,21 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 6462951cba3c289368887a037d4b71187f4523df
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d9e6620c1f4c808646e6f5c3b9f5b607c64c51df
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>Nuove guide attività (febbraio 2016)
 
-In questo wiki sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.  Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics 365 for Operations e la libreria di introduzione (febbraio 2016).
+[!include[banner](../includes/banner.md)]
+
+
+In questo argomento sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.  Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics 365 for Operations e la libreria di introduzione (febbraio 2016).
 
 <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Guide attività nella libreria unificata APQC (febbraio 2016) per Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
@@ -723,5 +727,7 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 [Guide attività nuove o aggiornate (agosto 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Guide attività nuove o aggiornate (novembre 2016)](new-task-guides-november-2016.md)
+
+
 
 

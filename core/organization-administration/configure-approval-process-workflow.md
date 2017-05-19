@@ -3,7 +3,7 @@ title: Configurare un processo di approvazione in un flusso di lavoro
 description: "Per configurare le proprietà del processo di approvazione, attenersi alla procedura indicata di seguito."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 579e393ef64bc5ad72d129ac08ac215c524d5c55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Configurare un processo di approvazione in un flusso di lavoro
+
+[!include[banner](../includes/banner.md)]
+
 
 Per configurare le proprietà del processo di approvazione, attenersi alla procedura indicata di seguito.
 
@@ -132,7 +136,7 @@ Per immettere un nome per il processo di approvazione, effettuare le operazioni 
 
 ## <a name="set-a-time-limit"></a>Impostare un limite di tempo
 Se è necessario completare il processo di approvazione in un periodo di tempo specifico, attenersi alla procedura indicata di seguito.
-| **Nota **                                                                                                                                                |
+| **Nota**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Le opzioni selezionate in questi passaggi prevalgono su quelle selezionate nelle aree **Assegnazione** e **Riassegnazione** di ogni passaggio di approvazione. |
 
@@ -161,7 +165,9 @@ Quando un documento viene assegnato per l'approvazione a un utente, quest'ultimo
 Un processo di approvazione è costituito da passaggi di approvazione. Per aggiungere passaggi al processo e configurarli, attenersi alla procedura indicata di seguito.
 1.  Nell'editor flusso di lavoro fare doppio clic sul processo di approvazione. Verranno visualizzati i passaggi del processo di approvazione.
 2.  Per aggiungere un passaggio di approvazione, trascinarlo dall'area **Elementi flusso di lavoro** nella canvas.
-3.  Per configurare un passaggio di approvazione, vedere [Configurare un passaggio di approvazione](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/).
+3.  Per configurare un passaggio di approvazione, vedere [Configurare un passaggio di approvazione](configure-approval-step-workflow.md).
+
+
 
 
 

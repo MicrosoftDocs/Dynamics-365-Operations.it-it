@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenuto Power BI per le prestazioni di vendite e redditività
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento sono descritti gli argomenti inclusi in Dynamics 365 for Operations - Pacchetto di contenuti per le prestazioni di vendite e redditività per Microsoft Power BI. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il pacchetto di contenuti.
 
@@ -44,6 +48,7 @@ La redditività può essere analizzata in base ai seguenti elemento:
 
 ## <a name="accessing-the-content-pack"></a>Accesso al pacchetto di contenuti
 Il pacchetto di contenuti Power BI per le prestazioni di vendite e redditività viene pubblicato come risorsa di implementazione in Lifecycle Services (LCS) ed è possibile accedervi da Dynamics 365 for Operations. Per ulteriori informazioni su come accedere ai report Power BI e aprirli, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md).
+**Nota**: l'articolo KB 4011327 è un prerequisito per questo contenuto Power BI. Dopo avere eseguito l'accesso a Lifecycle Services, è possibile accedere alla KB qui: : <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Metriche incluse nel pacchetto di contenuti
 Il pacchetto di contenuti include un report costituito da un set di metriche visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel pacchetto di contenuti.
@@ -110,6 +115,8 @@ Di seguito sono riportati alcuni collegamenti utili correlati alle entità e all
 -   [Creazione di pacchetti di contenuti per l'organizzazione](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modellazione di dati tramite Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Aggiunta di riquadri Power BI ad aree di lavoro](configure-power-bi-integration.md)
+
+
 
 
 

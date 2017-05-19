@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: bd2ba11ff4f10d3369babf10fc70659ae8a717fa
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf723381ed2f9696512d17af7e882582cbfcb49e
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Se Base è il metodo di allocazione utilizzato per una regola di allocazione, è
 Le regole di allocazione sono composte da quattro componenti: generale, origine, destinazione e contropartita. Un componente aggiuntivo, regole di base dell'allocazione contabile, è necessario se Base viene utilizzato come metodo di allocazione. Ciascun componente corrisponde a un'informazione critica per l'elaborazione delle allocazioni.
 
 -   **Generale**: in questo componente vengono specificate alcune opzioni, quali il metodo di allocazione, le impostazioni delle regole interaziendali e l'impostazione della regola come attiva o inattiva.
--   **Origine**: in questo componente l'utente specifica i dati di origine per l'allocazione. L'allocazione può essere basata sui saldi contabili (**Origine dati** =  **Contabilità generale**) o gli importi fissi (**Origine dati** =  ** Valore fisso**). Quando l'opzione **Origine dati** è impostata su **Contabilità generale**, i criteri di filtro dell'origine devono essere definiti per la regola di allocazione contabile (ad esempio, per le spese di pubblicità).
+-   **Origine**: in questo componente l'utente specifica i dati di origine per l'allocazione. L'allocazione può essere basata sui saldi contabili (**Origine dati** =  **Contabilità generale**) o gli importi fissi (**Origine dati** =  **Valore fisso**). Quando l'opzione **Origine dati** è impostata su **Contabilità generale**, i criteri di filtro dell'origine devono essere definiti per la regola di allocazione contabile (ad esempio, per le spese di pubblicità).
 -   **Destinazione**: in questo componente vengono definiti la distribuzione e l'incidenza del risultato del calcolo di allocazione. Ad esempio, vi può essere una riga di destinazione per ciascun reparto.
 -   **Contropartita**: questo componente stabilisce come i conti principali e le dimensioni debbano essere determinati per le voci di contropartita che sono a saldo delle voci di destinazione. Le opzioni definite dall'utente vengono solitamente utilizzate al posto dei conti e delle dimensioni basati sull'origine. Quando l'opzione **Origine dati** è impostata su **Valore fisso**, **Origine** non può essere utilizzata come opzione.
 -   **Regole di base di allocazione contabile**: queste regole utilizzano i propri i criteri di filtro di origine per determinare i saldi contabili che devono essere utilizzati per l'allocazione (ad esempio, i ricavi per reparto). È possibile utilizzare ciascuna regola base di allocazione con più regole di allocazione.

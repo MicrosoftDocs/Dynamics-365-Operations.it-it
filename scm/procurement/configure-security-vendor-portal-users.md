@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 3a5c6a256f8330ba238ea3c0c25f14b10a9a58e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8885f40a36eed1de7b0f6a2f369b1fc5a9d3fc8a
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ La funzionalità portale fornitori è stata sostituita da funzionalità estese d
 Prima di creare un account utente per una persona che utilizzerà il portale fornitori, è necessario impostare il fornitore per consentire collaborazione tramite il portale fornitori. Utilizzare il campo **Collaborazione su ordine fornitore** nella scheda **Generale** della pagina **Fornitori**. I fornitori esterni che utilizzano il portale fornitori devono avere la seguente impostazione:
 
 -   Un account utente di Microsoft Azure Active Directory (AAD) deve essere registrato per il fornitore nella pagina **Utenti** in Dynamics AX.
--   Il fornitore deve avere il ruolo di sicurezza **Fornitore (esterno)**, non il ruolo **SystemUser **. **Nota**: il ruolo **SystemUser** viene concesso automaticamente quando si crea un nuovo account utente in Dynamics AX. Di conseguenza, è necessario rimuovere questo ruolo e verificare il messaggio di avviso ricevuto.
+-   Il fornitore deve avere il ruolo di sicurezza **Fornitore (esterno)**, non il ruolo **SystemUser**. **Nota**: il ruolo **SystemUser** viene concesso automaticamente quando si crea un nuovo account utente in Dynamics AX. Di conseguenza, è necessario rimuovere questo ruolo e verificare il messaggio di avviso ricevuto.
 -   All'utente fornitore non deve essere concessa l'autorizzazione ad aggiungere ulteriori campi delle tabelle dell'ordine fornitore nella visualizzazione dell'ordine fornitore. Nella scheda **Personalizzazione** della scheda **Utenti** impostare l'opzione **Personalizzazione esplicita consentita** per l'utente su **No**.
 -   L'account utente deve essere associato a un contatto registrato. Nella pagina **Utenti**, selezionare un contatto nel campo **Nome**. La persona selezionata deve avere il ruolo **Contatto** per il fornitore pertinente.
 

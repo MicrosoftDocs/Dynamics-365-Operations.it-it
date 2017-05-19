@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: ecd32549b6067ed4c1211996e846e210f77f5013
-ms.openlocfilehash: bc6fb66e9038612cc133dc89e60eb3cb75cc7943
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a6b18343337ca7058c5027c8d4325c4301f1abed
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -70,7 +71,7 @@ L'organizzazione può utilizzare flussi di lavoro per gestire il processo di rev
 
 È possibile creare una fattura fornitore basata sulle voci entrata prodotti ricevute fino alla data corrente, anche se non sono stati ancora ricevuti tutti gli articoli di un ordine fornitore specifico. È possibile ad esempio utilizzare questa opzione se un fornitore emette una fattura al mese per coprire tutte le consegne spedite nel mese in questione. Ogni entrata prodotti corrisponde a una consegna completa o parziale degli articoli inclusi nell'ordine fornitore. 
 
-Quando viene registrata la fattura, la quantità **Rimanente fattura** relativa a ogni articolo viene aggiornata con il totale delle quantità ricevute, tratto dalle entrate prodotti selezionate. Se entrambe le quantità **Rimanente fattura** e ** Rimanente consegna** per tutti gli articoli dell'ordine fornitore sono uguali a 0 (zero), lo stato dell'ordine fornitore passa a **Fatturato**. Se la quantità **Rimanente fattura** è diversa da 0 (zero), lo stato dell'ordine fornitore non viene modificato e per tale ordine è possibile immettere ulteriori fatture.
+Quando viene registrata la fattura, la quantità **Rimanente fattura** relativa a ogni articolo viene aggiornata con il totale delle quantità ricevute, tratto dalle entrate prodotti selezionate. Se entrambe le quantità **Rimanente fattura** e **Rimanente consegna** per tutti gli articoli dell'ordine fornitore sono uguali a 0 (zero), lo stato dell'ordine fornitore passa a **Fatturato**. Se la quantità **Rimanente fattura** è diversa da 0 (zero), lo stato dell'ordine fornitore non viene modificato e per tale ordine è possibile immettere ulteriori fatture.
 
 In questa opzione si presuppone che per l'ordine fornitore sia stata registrata almeno un'entrata prodotti. La fattura fornitore si basa sulle entrate prodotti e riflette le quantità in esse contenute. Le informazioni finanziarie per la fattura si basano sulle informazioni immesse al momento della registrazione della fattura stessa.
 

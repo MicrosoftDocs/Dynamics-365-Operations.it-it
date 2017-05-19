@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 1bc458d58834be1e2e9b602619f76424b3bb449b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 62dcc8a9b17ad044ac63080a94593a5f6ae2f182
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -98,7 +99,7 @@ L'elemento di costo selezionato nel gruppo di retribuzione viene utilizzato quan
 
 Per una pianificazione più precisa del budget, è possibile creare posizioni previste utilizzando i dettagli delle posizioni esistenti in Microsoft Dynamics 365 for Operations, indipendentemente dalla posizione attualmente compilata o non compilata. 
 
-La funzione **Aggiungi posizioni esistenti** visualizza tutte le posizioni di un'organizzazione. Impostando la data** A partire dal**, è possibile modificare l'elenco di posizioni in modo che contenga le posizioni lavorative esistenti in una data nel passato o, più comunemente, in futuro, ad esempio, all'inizio del ciclo di budget successivo. Selezionare un processo di pianificazione del budget e uno scenario del piano di budget, selezionare le posizioni dall'elenco e quindi fare clic su **OK** per creare posizioni previste per le posizioni selezionate. Si noti che è possibile creare solo una posizione prevista per ogni posizione esistente in un processo di pianificazione del budget e in uno scenario. Tuttavia, è possibile creare versioni aggiuntive assegnando gli diversi scenari del piano di budget. 
+La funzione **Aggiungi posizioni esistenti** visualizza tutte le posizioni di un'organizzazione. Impostando la data**A partire dal**, è possibile modificare l'elenco di posizioni in modo che contenga le posizioni lavorative esistenti in una data nel passato o, più comunemente, in futuro, ad esempio, all'inizio del ciclo di budget successivo. Selezionare un processo di pianificazione del budget e uno scenario del piano di budget, selezionare le posizioni dall'elenco e quindi fare clic su **OK** per creare posizioni previste per le posizioni selezionate. Si noti che è possibile creare solo una posizione prevista per ogni posizione esistente in un processo di pianificazione del budget e in uno scenario. Tuttavia, è possibile creare versioni aggiuntive assegnando gli diversi scenari del piano di budget. 
 
 Se gli elementi di costo del budget sono stati assegnati alla posizione in Risorse umane, tali elementi di costo del budget vengono assegnati anche alla posizione prevista e utilizzano gli importi predefiniti. Il campo **Lavoratore assegnato** nella posizione prevista viene impostato sul nome del lavoratore assegnato alla posizione, se un lavoratore è assegnato. Questo campo è un campo di testo semplice. Non viene creato alcun collegamento diretto. 
 

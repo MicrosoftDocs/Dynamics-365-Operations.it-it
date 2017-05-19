@@ -3,7 +3,7 @@ title: Conteggio ciclo
 description: "Questo articolo descrive come utilizzare il conteggio ciclo con la soluzione di immagazzinaggio disponibile in Gestione magazzino. Questo articolo non è applicabile alla soluzione di immagazzinaggio disponibile in Gestione inventario."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Conteggio ciclo
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo descrive come utilizzare il conteggio ciclo con la soluzione di immagazzinaggio disponibile in Gestione magazzino. Questo articolo non è applicabile alla soluzione di immagazzinaggio disponibile in Gestione inventario.
 
@@ -39,7 +43,6 @@ Nella seguente illustrazione viene mostrato il processo di conteggio ciclo. ![El
 
 ## <a name="cycle-counting-prerequisites"></a>Prerequisiti di conteggio ciclo
 Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di utilizzare il conteggio ciclo.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ Nella seguente tabella vengono visualizzati i prerequisiti che devono essere val
 <li>Raggruppamento conteggio ciclo</li>
 <li>Conteggio ciclo a campione</li>
 </ul>
-Per ulteriori informazioni, vedere <a href="configure-mobile-devices-warehouse">Configurare i dispositivi mobili per il lavoro di magazzino</a>.</li>
+</li>
 <li>Impostare un menu per il dispositivo mobile.</li>
 <li>Creare un account utente di lavoro e assegnare un menu del dispositivo mobile all'ID utente di lavoro.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Una differenza di conteggio ciclo si verifica negli scenari seguenti se l'opzion
 -   Il valore conteggiato differisce dalla quantità di scorte disponibili e non ci sono limiti di deviazione impostati.
 
 È possibile rettificare le differenze nel valore conteggiato e quindi accettare il valore conteggiato nella pagina **Conteggio ciclo con revisione in sospeso**. È possibile verificare il conteggio modificato della quantità dell'articolo nella pagina **Disponibili per ubicazione**. Il valore conteggiato viene rifiutato se la differenza non può essere approvata.
+
+# <a name="see-also"></a>Vedere anche
+[Configurare i dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md)
 
 
 

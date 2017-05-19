@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 30229c0d24aed0bd927993b9af76b32d9bb073ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 511dc31b96f2f5133dd0c22712d2c8d6f8746e8c
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -128,7 +129,7 @@ In generale quando si lavora con lo strumento di progettazione mobile, assicurar
 1.  In un browser, aprire Dynamics 365 for Operations e accedere.
 2.  Effettuato l'accesso. aggiungere **&mode=mobile** all'URL come mostrato nell'esempio seguente e aggiornare la pagina: https://&lt;urlutente&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
 3.  Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**. Lo strumento di progettazione app per dispositivo mobili deve apparire come Registrazione attività.
-4.  Fare clic su **Aggiungi** per creare una nuova area di lavoro. Per questo esempio, chiamare l'area di lavoro **My approvals**.
+4.  Fare clic su **Aggiungi** per creare una nuova area di lavoro. Per questo esempio, chiamare l'area di lavoro **Approvazioni personali**.
 5.  Immettere una descrizione.
 6.  Seleziona un colore per l'area di lavoro. IL colore dell'area di lavoro verrà utilizzato per lo stile globale dell'esperienza mobile per l'area di lavoro.
 7.  Selezionare un'icona per l'area di lavoro.
@@ -299,7 +300,7 @@ I requisiti di questo scenario confermano che ci saranno solo distribuzioni a li
 9.  Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
 10. Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
 
-**Nota:** la pagina in versione mobile **View accounting** non è attualmente collegata a nessuna delle pagine mobili disponibili progettate fino a questo momento. Poiché l'utente deve poter accedere alla pagina **View accounting** dalla pagina **Invoice details** sul dispositivo mobile, dobbiamo specificare lo spostamento dalla pagina **Invoice details** alla pagina **View accounting** . Stabiliamo questo spostamento utilizzando la logica aggiuntiva tramite JavaScript.
+**Nota:** la pagina in versione mobile **Visualizza contabilità** non è attualmente collegata a nessuna delle pagine mobili disponibili progettate fino a questo momento. Poiché l'utente deve poter accedere alla pagina **Visualizza contabilità** dalla pagina **Dettagli fattura** sul dispositivo mobile, dobbiamo specificare lo spostamento dalla pagina **Dettagli fattura** alla pagina **Visualizza contabilità** . Stabiliamo questo spostamento utilizzando la logica aggiuntiva tramite JavaScript.
 
 1.  Apre il file .js creato in precedenza e aggiungere le righe che vengono evidenziate nel codice riportato di seguito. Questo codice fa due cose:
     1.  Aiuta a garantire che gli utenti non possono accedere direttamente dall'area di lavoro alla pagina **View accounting**.

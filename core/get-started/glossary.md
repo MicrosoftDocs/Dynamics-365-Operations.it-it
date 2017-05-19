@@ -1,6 +1,6 @@
 ---
 title: Glossario di Dynamics 365 for Operations
-description: Il glossario di Microsoft Dynamics 365 for Operations contiene le definizioni dei concetti e dei termini chiave relativi al prodotto Microsoft Dynamics 365 for Operations.
+description: Il glossario di Microsoft Dynamics 365 for Operations contiene le definizioni dei concetti e dei termini chiave relativi al prodotto Dynamics 365 for Operations.
 author: tonyafehr
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0d8af341c8020f756f1a736f6f74402e992d6e16
-ms.openlocfilehash: c6372e366db6abc7b586c2f1185ecd44bbf28502
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.contentlocale: it-it
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Il glossario di Microsoft Dynamics 365 for Operations contiene le definizioni dei concetti e dei termini chiave relativi al prodotto Microsoft Dynamics 365 for Operations. 
+Il glossario di Microsoft Dynamics 365 for Operations contiene le definizioni dei concetti e dei termini chiave relativi al prodotto Dynamics 365 for Operations. 
 
 ### <a name="a"></a>**A**
 
@@ -42,7 +43,7 @@ Giornale utilizzato per registrare le conseguenze finanziarie di eventi contabil
 
 Regola di un sistema contabile che controlla i principi, i metodi e le procedure di classificazione, registrazione e reporting delle conseguenze finanziarie di eventi contabili.
 
-###### <a name="ach-automated-clearing-house"></a>**ACH (Automated Clearing House)**
+###### <a name="ach-automated-clearing-house"></a>**ACH (Automated Clearing House (US))**
 
 Sistema di trasferimento fondi elettronico (bonifico) disponibile negli Stati Uniti che agevola il trasferimento di fondi tra i conti bancari della parte ricevente e quelli della parte di origine.
 
@@ -56,11 +57,11 @@ Servizio fornito da un sistema di elaborazione delle carte di credito che certif
 
 ###### <a name="adjusted-unit-price"></a>**prezzo unitario rettificato**
 
-Il prezzo unitario calcolato in base al prezzo basato su attributi e all'effettiva potenza ricevuta.
+Prezzo unitario calcolato in base alla determinazione prezzo basata su attributi e alla potenza effettiva ricevuta.
 
-###### <a name="advanced-pricing"></a>**determinazione dei prezzi avanzata**
+###### <a name="advanced-pricing"></a>**determinazione prezzo avanzata**
 
-Logica utilizzata per calcolare il prezzo di acquisto di un articolo con potenza specifica.
+Logica utilizzata per calcolare i prezzi di acquisto di un articolo con potenza.
 
 ###### <a name="aging"></a>**aging**
 
@@ -86,7 +87,7 @@ Procedura di riconciliazione di un conto CoGe che rappresenta un conto bancario 
 
 ###### <a name="batch-attribute"></a>**attributo batch**
 
-Attributo del prodotto di un lotto di trasferimento o di processo.
+Attributo del prodotto di un batch di lavorazione o di trasferimento.
 
 ###### <a name="best-before-date"></a>**data di consumo consigliata**
 
@@ -130,7 +131,7 @@ Insieme di valori di dimensione finanziaria in una gerarchia di dimensioni budge
 
 ###### <a name="budget-model"></a>**modello di budget**
 
-Struttura per la programmazione delle spese e delle allocazioni dei fondi di budget.
+Struttura per la pianificazione delle spese e delle allocazioni dei fondi di budget.
 
 ###### <a name="bulk-item"></a>**articolo in blocco**
 
@@ -160,7 +161,7 @@ Budget trasferito da un anno fiscale al successivo e prenotato per ordini fornit
 
 ###### <a name="cash-generating-unit"></a>**unità generatrice di flussi finanziari**
 
-Il più piccolo gruppo di cespiti classificabili che genera i contanti indipendentemente da altri cespiti all'interno di un'organizzazione. Questi gruppi di cespiti vengono utilizzati per misurare le perdite di riduzione valore che verranno sostenute.
+Il gruppo più piccolo di cespiti classificabili che genera contanti indipendentemente dagli altri cespiti dell'organizzazione. Questi gruppi di cespiti vengono utilizzati per misurare le perdite per riduzione di valore sostenute.
 
 ###### <a name="catch-weight"></a>**peso variabile**
 
@@ -222,15 +223,15 @@ Tempo necessario per il completamento di un'attività.
 
 ###### <a name="dashboard"></a>**dashboard**
 
-La tipica pagina di avvio di Microsoft Dynamics 365 for Operations. Nel dashboard viene visualizzata una sezione per ogni area di lavoro a cui hanno accesso gli utenti. Ciascuna sezione mostra i riquadri delle sezioni riepilogative nell'area di lavoro correlata. Il dashboard è costituito da un nome e da sezioni con riquadri.
+Pagina iniziale tipica di Dynamics 365 for Operations. Nel dashboard gli utenti vedono una sezione per ogni area di lavoro a cui possono accedere. In ogni sezione vengono visualizzati i riquadri delle sezioni di riepilogo dell'area di lavoro correlata. Il dashboard è costituito da un nome e dalle sezioni con i riquadri.
 
 ###### <a name="data-entity"></a>**entità di dati**
 
-Struttura dati che rappresenta i dati caratteristici di un'entità.
+Struttura di informazioni che rappresenta la caratteristica dei dati di un'entità.
 
-###### <a name="delegate"></a>**delegato**
+###### <a name="delegate"></a>**delega**
 
-Un delegato è un tipo che rappresenta i riferimenti ai metodi con un elenco di parametri particolare e un tipo restituito.
+Tipo che rappresenta i riferimenti ai metodi con un tipo restituito e un elenco di parametri particolari.
 
 ###### <a name="delivery-note"></a>**bolla di consegna**
 
@@ -242,17 +243,17 @@ Previsione della domanda futura di prodotti.
 
 ###### <a name="demand-forecasting"></a>**previsione della domanda**
 
-Processo aziendale che stima la domanda futura e crea le previsioni della domanda in base ai dati transazione storici.
+Processo aziendale che è in grado di stimare la domanda futura e creare le previsioni della domanda sulla base dei dati storici delle transazioni.
 
 ###### <a name="deployable-package"></a>**pacchetto distribuibile**
 
-Il mezzo utilizzato per la distribuzione nel test UAT (User Acceptance Testing) e negli ambienti di produzione.
+Veicolo utilizzato per la distribuzione in ambienti di produzione e Test di accettazione utenti (UAT, User Acceptance Test).
 
-###### <a name="designer"></a>**designer**
+###### <a name="designer"></a>**progettazione**
 
-Uno strumento di Visual Studio utilizzato per creare, aggiornare e controllare gli elementi del modello.
+Strumento di Visual Studio che si usa per creare, aggiornare e controllare gli elementi di modello.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\financial-dimensions\configurazione basata su dimensioni**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**configurazione del prodotto basata su dimensioni**
 
 Tecnologia di configurazione utilizzata per creare varianti prodotto selezionando valori per dimensioni prodotto.
 
@@ -268,29 +269,29 @@ Metodo di sospensione di un processo operativo mentre gli articoli ordinati sono
 
 Servizio dell'applicazione per l'archiviazione e la gestione dei documenti di un'organizzazione.
 
-###### <a name="duty"></a>**diritti**
+###### <a name="duty"></a>**compito**
 
 Nel modello di sicurezza, insieme di privilegi di accesso dell'applicazione di cui l'utente deve disporre per adempiere alle sue responsabilità.
 
 ### <a name="e"></a>**E**
 
-###### <a name="eft-electronic-funds-transfer"></a>**bonifico**
+###### <a name="eft-electronic-funds-transfer"></a>**EFT (bonifico)**
 
 Sistema di rete per il trasferimento di fondi da un conto bancario a un altro.
 
 ###### <a name="event"></a>**evento**
 
-Un evento consente a una classe o un oggetto di notificare altri classi o oggetti quando si verifica un evento d'interesse.
+Consente a una classe o un oggetto di notificare altre classi o oggetti quando si verifica qualcosa di interessante.
 
 ###### <a name="epe-every-product-every"></a>**EPE (Every Product Every)**
 
 Concetto correlato alla produzione snella utilizzato per definire un ciclo di produzione ripetitivo regolare.
 
-###### <a name="extension"></a>**interno **
+###### <a name="extension"></a>**estensione**
 
-Personalizzazione di una domanda di lavoro aggiungendo funzionalità a un codice esistente.
+Personalizzazione di un'applicazione tramite l'aggiunta di funzionalità al codice esistente.
 
-### <a name="f"></a>**V**
+### <a name="f"></a>**F**
 
 ###### <a name="financial-dimension"></a>**dimensione finanziaria**
 
@@ -310,7 +311,7 @@ Costo indipendente dalle variazioni dell'uscita o della consegna di prodotti.
 
 ###### <a name="fixed-currency"></a>**valuta fissa**
 
-Una valuta con un tasso di cambio fisso in relazione a un'altra valuta.
+Valuta con un tasso di cambio fisso in relazione a un'altra valuta.
 
 ###### <a name="fixed-quantity-kanban"></a>**kanban a quantità fissa**
 
@@ -332,13 +333,13 @@ Uscita di un processo batch controllata da una formula.
 
 ###### <a name="general-budget-reservation"></a>**prenotazione di budget generale**
 
-Un documento spesso utilizzato da entità del settore pubblico per accantonare o contrassegnare i fondi a budget in modo che tali fondi non siano disponibili per altri scopi.
+Documento spesso utilizzato dalle entità del settore pubblico per accantonare o stanziare i fondi di budget in modo che non siano più disponibili per altri scopi.
 
 ###### <a name="grace-period"></a>**periodo di tolleranza**
 
 Periodo di tempo oltre una data specificata durante il quale è possibile adempiere a un obbligo senza incorrere in penali.
 
-###### <a name="gst-goods-and-services-tax"></a>**GST (Goods and Services Tax, Imposta sui Beni e Servizi)**
+###### <a name="gst-goods-and-services-tax"></a>**GST (Imposta sui Beni e Servizi)**
 
 Imposta sul valore aggiunto applicata in alcuni paesi.
 
@@ -368,7 +369,7 @@ Segnale che comunica un fabbisogno di una quantità di prodotto.
 
 ###### <a name="kanban-flow"></a>**flusso kanban**
 
-Consente di definire la sequenza delle attività eseguite per i kanban creati per una regola kanban.
+Definisce la sequenza delle attività eseguite per i kanban creati per una regola kanban.
 
 ###### <a name="kanban-job"></a>**processo kanban**
 
@@ -384,17 +385,17 @@ Numero di richieste articoli effettuate su un kanban in base a una regola kanban
 
 ###### <a name="kanban-rule"></a>**regola kanban**
 
-Regola in un sistema di produzione snella che applica i criteri di rifornimento e pianificazione dei materiali controllando il coordinamento delle attività di lavorazione e trasferimento nei flussi di produzione.
+Regola in un sistema di lean manufacturing che applica i criteri di rifornimento e pianificazione dei materiali controllando il coordinamento delle attività di lavorazione e trasferimento nei flussi di produzione.
 
 ### <a name="l"></a>**L**
 
-###### <a name="lean-manufacturing"></a>**produzione snella**
+###### <a name="lean-manufacturing"></a>**lean manufacturing**
 
-Una filosofia in cui le operazioni produttive promuovono flussi di produzione snella e attività commerciali.
+Politica in cui le operazioni di produzione promuovono attività aziendali e flussi di produzione snelli.
 
-###### <a name="lean-schedule-group"></a>**gruppo di programmazione snella**
+###### <a name="lean-schedule-group"></a>**gruppo di produzione snella**
 
-Un modo in cui è possibile aggregare gli articoli per la produzione, ad esempio, in base a un gruppo di attrezzaggio, di spedizione o di trasporto.
+Modalità per aggregare gli articoli per la produzione, ad esempio, in base a un gruppo di attrezzaggio, di spedizione o di trasporto.
 
 ###### <a name="ledger-account"></a>**conto CoGe**
 
@@ -406,13 +407,13 @@ Chiave alfanumerica che concede a una parte il diritto di utilizzare un software
 
 ###### <a name="liquidity"></a>**liquidità**
 
-Capacità di una parte di utilizzare il capitale circolante per liquidare le passività correnti.
+Capacità di una parte di utilizzare i cespiti correnti per liquidare le passività correnti.
 
-### <a name="m"></a>**L**
+### <a name="m"></a>**M**
 
-###### <a name="manufacturing-overhead-based-on-material"></a>**costi generali di produzione basati sul materiale**
+###### <a name="manufacturing-overhead-based-on-material"></a>**costo generale di produzione basato sul materiale**
 
-Tali costi sono espressi come formule di calcolo di costi indiretti per una percentuale di supplemento. Come base per una formula di calcolo viene utilizzato un gruppo di costi assegnato a componenti materiale. Le formule possono essere impostate per prodotti singoli o per gruppi di articoli assegnati a prodotti al fine di garantire maggiore flessibilità per il calcolo dei costi generali di produzione basati sul materiale.
+Costo generale di produzione espresso sotto forma di formule di calcolo di costi indiretti per una percentuale di supplemento. Come base per una formula di calcolo viene utilizzato un gruppo di costi assegnato a componenti materiale. Le formule di calcolo possono essere impostate per prodotti singoli o per gruppi di articoli assegnati a prodotti al fine di garantire maggiore flessibilità per il calcolo dei costi generali di produzione basati sul materiale.
 
 ###### <a name="master-scheduling"></a>**programmazione generale**
 
@@ -420,11 +421,11 @@ Processo di generazione di una tabella orari per far corrispondere l'offerta all
 
 ###### <a name="model"></a>**modello**
 
-Un modello contiene elementi del codice e metadati di riferimento. Viene creato e controllato in Visual Studio.
+Modello contenente gli elementi di codice e i metadati di rifermento. Viene creato e ispezionato in Visual Studio.
 
 ###### <a name="model-element"></a>**elemento modello**
 
-Un modello è un gruppo di elementi (file di origine e metadati) che costituisce una soluzione software distribuibile. Il modello è un concetto della fase di progettazione.
+Gruppo di elementi (metadati e file di origine) che costituiscono una soluzione software distribuibile. Il modello è un concetto design-time.
 
 ### <a name="n"></a>**N**
 
@@ -448,17 +449,17 @@ Prodotti fisici risultanti da un'attività.
 
 ###### <a name="overlayering"></a>**sovrapposizione**
 
-Un metodo per la personalizzazione del codice sorgente tramite l'inserimento di nuovo codice sorgente che sostituisce il codice sorgente predefinito.
+Metodo per la personalizzazione del codice di origine tramite la specifica di un nuovo codice di origine che sostituisce il codice di origine predefinito.
 
 ### <a name="p"></a>**P**
 
 ###### <a name="package"></a>**pacchetto**
 
-Un pacchetto è un'unità di uno o più modelli che è possibile compilare e distribuire.
+Unità distribuibile e compilabile costituita da uno o più modelli.
 
 ###### <a name="party"></a>**parte**
 
-Entità che presuppone un ruolo legalmente vincolante quando si partecipa alle relazioni contrattuali.
+Entità che assume un ruolo legalmente vincolante nelle relazioni contrattuali.
 
 ###### <a name="party"></a>**parte**
 
@@ -470,7 +471,7 @@ Processo di tracciatura della quantità di un articolo richiesto per identificar
 
 ###### <a name="pegging-event"></a>**evento di pegging**
 
-Evento di flusso di risorse che segnala la domanda di un prodotto.
+Evento flusso di risorsa che segnala la domanda di un prodotto.
 
 ###### <a name="phantom-item"></a>**articolo fittizio**
 
@@ -480,7 +481,7 @@ Articolo prodotto ma non stoccato.
 
 Domanda prevista di un prodotto da parte di una persona giuridica che assume il ruolo di fornitore. La domanda pianificata viene generata dalla domanda pianificata di un prodotto da una persona giuridica downstream.
 
-###### <a name="post"></a>**registrazione**
+###### <a name="post"></a>**registrare**
 
 Registrare il valore monetario di un evento economico in un conto specifico oppure riepilogare e riclassificare le voci contabili del giornale di registrazione generali e affiliate in voci contabili del conto CoGe generali e affiliate.
 
@@ -502,11 +503,11 @@ Parte di un prodotto.
 
 ###### <a name="product-dimension"></a>**dimensioni prodotto**
 
-Attributi del prodotto quali dimensioni, colore o configurazione utilizzati per ..\financial-dimensions\configurazione basata su dimensioni.
+Attributi del prodotto quali dimensioni, colore o configurazione utilizzati per la configurazione del prodotto basata su dimensioni.
 
 ###### <a name="product-family"></a>**famiglia di prodotti**
 
-Raggruppamento univoco di articoli, servizi o diritti che partecipano alle stesse attività di produzione o consegna o che vengono offerti agli stessi segmenti di mercato. In Microsoft Dynamics 365 for Operations il raggruppamento viene rappresentato tramite una chiave di allocazione previsione.
+Raggruppamento univoco di articoli, servizi o diritti che partecipano alle stesse attività di produzione o consegna o che vengono offerti agli stessi segmenti di mercato. In Dynamics 365 for Operations il raggruppamento viene rappresentato tramite una chiave di allocazione previsione.
 
 ###### <a name="product-master"></a>**rappresentazione generale prodotto**
 
@@ -532,7 +533,7 @@ Rappresentazione della capacità produttiva fornita da un gruppo di celle di lav
 
 Documento di origine in cui vengono documentati i requisiti per la produzione di articoli allo scopo di soddisfare una domanda.
 
-###### <a name="production-schedule"></a>**programmazione produzione**
+###### <a name="production-schedule"></a>**programmazione di produzione**
 
 Programmazione della produzione di un articolo e di una determinata quantità in un momento specifico e da parte di risorse umane e operative specifiche.
 
@@ -554,7 +555,7 @@ Documento di origine in cui viene documentata un'offerta di acquisto di una quan
 
 ###### <a name="purchase-requisition"></a>**richiesta di acquisto**
 
-Documento di origine in cui vengono documentate richieste di prodotto in modo che possano essere inviate per la revisione ed essere utilizzate per autorizzare l'acquisto da parte di un'organizzazione acquirente.
+Documento di origine in cui vengono documentate richieste di prodotto in modo che possano essere sottoposte alla revisione e utilizzate per autorizzare gli acquisti di un'organizzazione acquirente.
 
 ### <a name="q"></a>**Q**
 
@@ -574,17 +575,17 @@ Procedura di rettifica di due o più conti o rendiconti in modo che le cifre cor
 
 ###### <a name="reduction-key"></a>**chiave di riduzione**
 
-Metodo utilizzato per aumentare o ridurre i requisiti di previsione nella pianificazione generale, in base alle percentuali definite dall'utente applicabili durante periodi specifici.
+Metodo utilizzato per aumentare o diminuire i requisiti di previsione nella pianificazione generale sulla base delle percentuali definite dall'utente che vengono applicate in periodi specifici.
 
 ###### <a name="register"></a>**registro**
 
-Record utilizzato per registrare le conseguenze operative, legali e finanziarie di eventi di flusso di risorse in un sistema contabile.
+Record utilizzato per registrare le conseguenze operative, legali e finanziarie degli eventi flusso di risorse in un sistema contabile.
 
 ###### <a name="regulated-product"></a>**prodotto regolamentato**
 
 Prodotto regolamentato da un'autorità governativa che richiede la conformità e il reporting di controllo.
 
-###### <a name="rfq-request-for-quotation"></a>**RdO (Richiesta di Offerta)**
+###### <a name="rfq-request-for-quotation"></a>**RdO (richiesta di offerta)**
 
 Documento di origine in cui viene documentato un invito a fare un'offerta di fornitura di una quantità di prodotto per un prezzo specificato ed entro una data specificata.
 
@@ -592,11 +593,11 @@ Documento di origine in cui viene documentato un invito a fare un'offerta di for
 
 Persona che richiede le risorse economiche.
 
-###### <a name="restricted-product"></a>**prodotto limitato**
+###### <a name="restricted-product"></a>**prodotto con restrizioni**
 
 Prodotto la cui distribuzione è limitata o vincolata da un'autorità governativa.
 
-### <a name="s"></a>**D**
+### <a name="s"></a>**S**
 
 ###### <a name="sales-agreement"></a>**contratto di vendita**
 
@@ -626,9 +627,9 @@ Principio di progettazione avente lo scopo di ridurre i rischi di frode, irregol
 
 Ordine in cui vengono elaborati i processi o eseguite le operazioni presso la struttura produttiva allo scopo di conseguire obiettivi.
 
-###### <a name="shared-asset"></a>**cespite condiviso**
+###### <a name="shared-asset"></a>**risorsa condivisa**
 
-Un cespite utilizzato da più di un'unità generatrice di flussi finanziari (CGU). Un esempio è un centro di distribuzione utilizzato per archiviare gli articoli prima di essere trasportati in mercati diversi che condividono lo stesso centro di distribuzione.
+Cespite utilizzato da più unità generatrici di flussi finanziari. Un esempio è un centro di distribuzione utilizzato per immagazzinare gli articoli prima che vengano trasportati in diversi mercati che condividono lo stesso centro di distribuzione.
 
 ###### <a name="single-use-kanban"></a>**kanban per utilizzo singolo**
 
@@ -644,39 +645,39 @@ Quantità di prodotto documentata in una riga di documento di origine che crea u
 
 ###### <a name="statistical-baseline-forecast"></a>**previsione di base statistica**
 
-Stima della domanda futura creata applicando un algoritmo di previsione ai dati transazione storici.
+Previsione della domanda futura creata dall'applicazione di un algoritmo di previsione ai dati storici delle transazioni.
 
 ###### <a name="supermarket"></a>**area di deposito**
 
-Ubicazione di magazzino con capacità limitata e utilizzata per sistemare in lotti i materiali nei pressi di un punto di consumo.
+Ubicazione di magazzino con capacità limitata e utilizzata per sistemare in batch i materiali nei pressi di un punto di consumo.
 
 ###### <a name="system-defined-financial-dimension-type"></a>**tipo di dimensione finanziaria definito dal sistema**
 
 Dimensione finanziaria mappata a una tabella o visualizzazione del database che rappresenta un tipo di entità e i cui valori rientrano nel dominio di un attributo di quel tipo di entità.
 
-### <a name="t"></a>**M**
+### <a name="t"></a>**T**
 
 ###### <a name="takt-time"></a>**tempo di produzione di un'unità**
 
 Tempo necessario per produrre una unità di prodotto.
 
-###### <a name="task-guide"></a>**Guida attività**
+###### <a name="task-guide"></a>**guida attività**
 
-Un'esperienza controllata e guidata tramite i passaggi di una registrazione dell'attività. La guida attività agevola l'utente nell'esperienza registrata. Tutti i comportamenti delle applicazioni, la sicurezza e i dati di una guida attività sono uguali a quelli della stessa attività svolta senza guida. La guida attività utilizza gli stessi strumenti della registrazione attività per rilevare quando un utente ha completato il passaggio previsto, in modo da poter invitare l'utente a intraprendere al passaggio successivo della registrazione.
+Esperienza controllata e guidata tramite passaggi di una Registrazione attività. La guida attività fornisce all'utente le informazioni necessarie per utilizzare l'esperienza registrata. Tutti i comportamenti di sicurezza, dati e applicazioni sono gli stessi con o senza guida attività. La guida attività utilizza la stessa strumentazione di Registrazione attività per capire quando un utente ha completato la fase prevista, in modo da potergli richiedere di avanzare al passaggio successivo della registrazione.
 
 ###### <a name="task-recorder"></a>**Registrazione attività**
 
-Uno strumento preinstallato in Microsoft Dynamics 365 for Operations. Durante la registrazione, registra tutti gli eventi generati dall'utente tramite l'interfaccia utente di Dynamics 365 for Operations ed eseguiti nel server, inclusi i valori aggiunti, le impostazioni modificate, i dati rimossi e così via.
+Strumento preinstallato in Dynamics 365 for Operations. Durante la registrazione, vengono registrati tutti gli eventi che l'utente immette nell'interfaccia utente di Dynamics 365 for Operations e che vengono eseguiti in relazione al server, inclusi i valori aggiunti, le impostazioni modificate, i dati rimossi e così via.
 
-###### <a name="task-recording"></a>**File di Registrazione attività**
+###### <a name="task-recording"></a>**file di Registrazione attività**
 
-Un file contenente le azioni e le annotazioni che sono acquisite al momento dell'esecuzione di Registrazione attività in Microsoft Dynamics 365 for Operations.
+File contenente le azioni e le annotazioni acquisite quando si esegue Registrazione attività in Microsoft Dynamics 365 for Operations.
 
 ###### <a name="three-way-matching-policy"></a>**criteri di abbinamento a tre elementi di verifica**
 
 Criteri di abbinamento che richiedono che uno o più prezzi della fattura fornitore corrispondano a uno o più prezzi dell'ordine fornitore e che una o più quantità della fattura fornitore corrispondano a una o più quantità di entrate prodotti.
 
-###### <a name="transfer-batch"></a>**lotto di trasferimento**
+###### <a name="transfer-batch"></a>**batch di trasferimento**
 
 Quantità di uno o più articoli che può essere o viene effettivamente trasferita.
 
@@ -712,7 +713,7 @@ Elenco di offerte di prodotti disponibili per l'acquisto da un fornitore.
 
 Documento di origine in cui viene documentata una richiesta di pagamento fornitore. Una fattura fornitore può fare riferimento a uno o più ordini fornitore. Quando la fattura fornitore viene autorizzata, è possibile effettuare un pagamento al fornitore.
 
-### <a name="w"></a>**M**
+### <a name="w"></a>**W**
 
 ###### <a name="work-cell"></a>**cella di lavoro**
 
@@ -724,7 +725,7 @@ Persona che assume il ruolo di un dipendente o di un terzista e che viene pagato
 
 ###### <a name="workspace"></a>**area di lavoro**
 
-Una pagina che fornisce una panoramica di una delle attività che l'utente esegue. La pagina utilizza riquadri, elenchi e grafici per visualizzare il lavoro in sospeso e i dati correlati da più fonti, oltre alle attività frequenti correlate ai dati. I riquadri visualizzati nella sezione di riepilogo dell'area di lavoro vengono inoltre visualizzati nella sezione correlata del dashboard.
+Pagina che fornisce la panoramica di una delle attività eseguite dall'utente. Nella pagina vengono utilizzati riquadri, elenchi e grafici per visualizzare i lavori in sospeso e i dati correlati provenienti da più origini e vengono replicate le attività frequenti relative a tali dati. I riquadri visualizzati nella sezione di riepilogo dell'area di lavoro vengono visualizzati anche nella sezione correlata del dashboard.
 
 
 

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 24caafcd01875f04cf3ae5299aadcf9b38ac0e15
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 38725d4d873a3b39eb3916c3f616826f8a266b60
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -58,7 +59,7 @@ Quando la correzione della quantità programmata viene effettuata a livello aggr
 È inoltre possibile apportare correzioni manuali nella pagina **Righe di previsione della domanda** modificando il valore della **Quantità totale** o le celle della **Quantità** nella griglia di annullamento della aggregazione.
 
 ## <a name="viewing-details-of-the-forecast"></a>Visualizzazione dei dettagli della previsione
-È possibile aprire la pagina** Dettagli di previsione della domanda** per visualizzare ulteriori informazioni sulla previsione. 
+È possibile aprire la pagina**Dettagli di previsione della domanda** per visualizzare ulteriori informazioni sulla previsione. 
 
 La pagina **Dettagli di previsione della domanda** visualizza le informazioni seguenti in formati grafici e tabulari:
 

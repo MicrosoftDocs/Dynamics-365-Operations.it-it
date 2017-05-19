@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 25c2f85298bb89cb2802c7f0f7ff632c08aeca8f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e25a7657c2b859ffd57313ed7eb8da6583e7130d
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -91,7 +92,7 @@ Oltre a rettificare le note d'interesse, è possibile rimuovere l'addebito inter
 ## <a name="view-the-history-of-adjustments-for-charges-that-were-waived-reinstated-or-reversed"></a>Visualizzare lo storico delle rettifiche per le spese ripristinate, stornate o di cui si è rinunciato all'addebito
 È possibile visualizzare lo storico dettagliato delle rettifiche effettuate per le note d'interesse, ad esempio l'utente che ha immesso la rettifica, il tipo di rettifica, l'importo e la data di immissione della rettifica. È possibile ad esempio visualizzare le rettifiche precedenti immesse per una nota d'interesse prima di creare una nuova nota d'interesse. 
 
-È possibile stornare le transazioni interessi utilizzando il pulsante **Storico **nella scheda **Raccogli** della pagina **Cliente**.
+È possibile stornare le transazioni interessi utilizzando il pulsante **Storico**nella scheda **Raccogli** della pagina **Cliente**.
 
 
 

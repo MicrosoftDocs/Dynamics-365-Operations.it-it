@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a639e509cf6a3d2f1b850f27481d7b95546522b8
-ms.openlocfilehash: b62e14f7c91692ae97bb332b38b0deeb328cc1bd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0e3484ee731423798e686b9a70f4f09b5c3c45b4
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ Il responsabile budget può verificare lo stato corrente di un budget nell'area 
 > [!NOTE] 
 > Il campo **Responsabile reparto** nella pagina **Unità organizzative** determina quali responsabili supportano specifiche combinazioni di dimensioni finanziarie. Fare clic su **Ulteriori informazioni** nella parte inferiore della scheda per aprire la pagina di richiesta **Confronto tra budget e valori effettivi** per visualizzare altri dettagli sugli importi di budget rispetto agli importi effettivi. 
 
-La pagina di richiesta **Effettivi rispetto al budget** consente di esaminare a fondo i dettagli del budget rispetto agli importi effettivi. Selezionare una riga nella pagina di richiesta e quindi fare clic su **Saldi del periodo** per visualizzare come il budget e gli importi effettivi si estendono su più periodi fiscali. La pagina **Voci contabili budget** fornisce informazioni dettagliate sull'importo del budget nelle voci del registro di budget. La pagina **Inserimenti nel giornale di registrazione generale **apre le transazioni contabili che sono incluse nell'importo **Effettivi** calcolato. 
+La pagina di richiesta **Effettivi rispetto al budget** consente di esaminare a fondo i dettagli del budget rispetto agli importi effettivi. Selezionare una riga nella pagina di richiesta e quindi fare clic su **Saldi del periodo** per visualizzare come il budget e gli importi effettivi si estendono su più periodi fiscali. La pagina **Voci contabili budget** fornisce informazioni dettagliate sull'importo del budget nelle voci del registro di budget. La pagina **Inserimenti nel giornale di registrazione generale**apre le transazioni contabili che sono incluse nell'importo **Effettivi** calcolato. 
 
 Una società che utilizza la funzionalità di pianificazione del budget può creare e utilizzare le *previsioni di budget* nell'area di lavoro **Budget contabili e previsioni**.
 

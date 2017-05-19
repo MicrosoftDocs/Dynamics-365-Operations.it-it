@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: f3a45327aaa53bc4592e4b08cb550671b6c426a5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 055670a5aed0078a1157bd081af9f4617b1d1d76
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Una **fattura proforma** è una fattura preparata come stima degli importi effet
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Registrare e stampare le singole fatture cliente basate sugli ordini cliente
 Utilizzare questa procedura per creare una fattura basata su un ordine cliente. È possibile effettuare questa operazione se si decide di fatturare al cliente prima di consegnare le merci o servizi. 
 
-Quando viene registrata una fattura, la quantità **Rimanente fattura** relativa a ciascun articolo viene aggiornata con il totale delle quantità fatturate, tratto dall'ordine cliente selezionato. Se entrambe le quantità **Rimanente fattura** e ** Rimanente consegna** per tutti gli articoli dell'ordine cliente sono uguali a 0 (zero), lo stato dell'ordine cliente passa a **Fatturato**. Se la quantità **Rimanente fattura** è diversa da 0 (zero), lo stato dell'ordine cliente non viene modificato e per tale ordine è possibile immettere ulteriori fatture.
+Quando viene registrata una fattura, la quantità **Rimanente fattura** relativa a ciascun articolo viene aggiornata con il totale delle quantità fatturate, tratto dall'ordine cliente selezionato. Se entrambe le quantità **Rimanente fattura** e **Rimanente consegna** per tutti gli articoli dell'ordine cliente sono uguali a 0 (zero), lo stato dell'ordine cliente passa a **Fatturato**. Se la quantità **Rimanente fattura** è diversa da 0 (zero), lo stato dell'ordine cliente non viene modificato e per tale ordine è possibile immettere ulteriori fatture.
 
 Nella pagina elenco **Tutti gli ordini cliente** è possibile visualizzare lo stato degli ordini. Utilizzare la pagina elenco **Fatture cliente aperte** per visualizzare le fatture registrate.
 
@@ -49,7 +50,7 @@ Utilizzare questa procedura quando uno più documenti di trasporto sono stati re
 
 È possibile creare una fattura cliente in base agli articoli delle righe dei documenti di trasporto spediti fino alla data corrente, anche se non sono stati ancora spediti tutti gli articoli di un ordine cliente specifico. Questa funzionalità è utilizzabile, ad esempio, se per ogni cliente la persona giuridica emette una fattura al mese per coprire tutte le consegne del mese in questione. Ogni documento di trasporto corrisponde a una consegna completa o parziale dell'ordine cliente. 
 
-Quando la fattura viene registrata, la quantità **Rimanente fattura** per ogni articolo viene aggiornata con il totale delle quantità consegnate, tratto dai documenti di trasporto selezionati. Se entrambe le quantità **Rimanente fattura** e ** Rimanente consegna** per tutti gli articoli dell'ordine cliente sono uguali a 0 (zero), lo stato dell'ordine cliente passa a **Fatturato**. Se la quantità **Rimanente fattura** è diversa da 0 (zero), lo stato dell'ordine cliente non viene modificato e per tale ordine è possibile immettere ulteriori fatture. 
+Quando la fattura viene registrata, la quantità **Rimanente fattura** per ogni articolo viene aggiornata con il totale delle quantità consegnate, tratto dai documenti di trasporto selezionati. Se entrambe le quantità **Rimanente fattura** e **Rimanente consegna** per tutti gli articoli dell'ordine cliente sono uguali a 0 (zero), lo stato dell'ordine cliente passa a **Fatturato**. Se la quantità **Rimanente fattura** è diversa da 0 (zero), lo stato dell'ordine cliente non viene modificato e per tale ordine è possibile immettere ulteriori fatture. 
 
 Le operazioni di magazzino vengono aggiornate con il numero di fattura e lo stato nel campo **Stato riga** dell'ordine cliente passa a **Fatturato**. 
 

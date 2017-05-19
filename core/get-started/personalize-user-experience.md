@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Tutte le personalizzazioni, di qualsiasi tipo, che un utente applica in Dynamics
 ## <a name="systemwide-options-for-the-current-user"></a>Opzioni a livello di sistema per l'utente corrente
 Nella barra di spostamento individuare l'icona dell'ingranaggio che corrisponde al pulsante di menu **Impostazioni**. Aprendo il menu **Impostazioni** si ha a disposizione una serie di opzioni. Selezionare **Opzioni** per visualizzare la pagina **Opzioni** dell'utente. In questa pagina solo disponibili quattro schede di opzione: **Visuale**, **Preferenze**, **Conto** e **Flusso di lavoro**.
 
--   **Visuale: **utilizzare questa opzione per scegliere un tema colori e le dimensioni predefinite per gli elementi delle pagine.
+-   **Visuale:**utilizzare questa opzione per scegliere un tema colori e le dimensioni predefinite per gli elementi delle pagine.
 -   **Preferenze:** questa opzione consente di selezionare le impostazioni predefinite per ogni avvio di Dynamics 365 for Operations, inclusa la società, la pagina iniziale e la modalità di visualizzazione/modifica predefinita (che determina se una pagina viene bloccata per la visualizzazione o aperta per la modifica ogni volta che la si apre). Sono inoltre disponibili opzioni per lingua, fuso orario e data, ora e opzioni di formattazione per i numeri. Infine la pagina contiene una serie di preferenze che variano in base alla versione del prodotto.
--   **Conto: **utilizzare per immettere il proprio ID utente e altre opzioni correlate.
--   **Flusso di lavoro: **selezionare le opzioni relative al flusso di lavoro.
+-   **Conto:**utilizzare per immettere il proprio ID utente e altre opzioni correlate.
+-   **Flusso di lavoro:**selezionare le opzioni relative al flusso di lavoro.
 
 ## <a name="implicit-personalizations"></a>Personalizzazioni implicite
 Le personalizzazioni implicite sono personalizzazioni applicate semplicemente interagendo con alcuni controlli che richiamano il relativo stato visibile corrente. 
@@ -106,7 +107,7 @@ Alcune aree di lavoro contengono riquadri di conteggio, che includono numeri, ch
 Il dashboard è spesso la prima pagina che l'utente visualizza quando si apre Dynamics 365 for Operations. È possibile personalizzare il dashboard per assegnare nuovi nomi i riquadri di navigazione dell'area di lavoro, per mostrare solo le sezioni desiderate, rinominare le sezioni o per organizzare le sezioni nell'ordine preferito. Per personalizzare il dashboard, selezionare qualsiasi riquadro e fare clic con il pulsante destro del mouse su di esso per aprire un menu di scelta rapida. Nel menu di scelta rapida, selezionare **Personalizza**. Se il riquadro selezionato è un riquadro che si desidera nascondere, rinominare o ignorare, è possibile apportare tale modifica direttamente nella finestra della proprietà visualizzata. Se si desidera organizzare i riquadri, selezionare **Personalizza modulo** nella finestra delle proprietà per aprire la barra degli strumenti di personalizzazione. È quindi possibile utilizzare lo strumento Spostamento per organizzare i riquadri.
 
 ## <a name="administration-of-personalization"></a>Amministrazione della personalizzazione
-È possibile personalizzare una pagina e condividerla con altri utenti semplicemente esportando la pagina personalizzata e chiedendo agli altri utenti di passare alla pagina personalizzata e di importare il file di personalizzazione creato. Se un utente ha privilegi di amministrazione, è inoltre possibile gestire le personalizzazioni per altri utenti nella pagina di **impostazione della personalizzazione**. Spostarsi nella pagina b. Nella pagina **Personalizzazione** sono disponibili due schede, una contrassegnata **Sistema** e una** Utenti**. 
+È possibile personalizzare una pagina e condividerla con altri utenti semplicemente esportando la pagina personalizzata e chiedendo agli altri utenti di passare alla pagina personalizzata e di importare il file di personalizzazione creato. Se un utente ha privilegi di amministrazione, è inoltre possibile gestire le personalizzazioni per altri utenti nella pagina di **impostazione della personalizzazione**. Spostarsi nella pagina b. Nella pagina **Personalizzazione** sono disponibili due schede, una contrassegnata **Sistema** e una**Utenti**. 
 
 **Sistema:** è possibile disabilitare temporaneamente o "disattivare" tutte le personalizzazioni nel sistema. Questo non comporta l'eliminazione delle personalizzazioni, ma reimposta tutti i moduli allo stato predefinito. È possibile successivamente riabilitare la personalizzazione per applicare nuovamente tutte le personalizzazioni a ogni modulo utente. È anche possibile eliminare tutte le personalizzazioni per tutti gli utenti. Si noti che l'eliminazione delle personalizzazioni non consente di riabilitare in seguito automaticamente le personalizzazioni dal sistema. Assicurarsi di esportare le personalizzazioni che si desidera successivamente importare, prima di eseguire questo passaggio. 
 

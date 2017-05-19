@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a812c93a13fd36f44e659c9976099af62793098f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce03d3b55ecdc05f70a36762f7de49b3018b6451
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Esempi di sequenze numeriche
 Negli esempi riportati di seguito viene illustrato come utilizzare segmenti per creare formati di sequenze numeriche: In particolare, gli esempi dimostrano gli effetti dell'utilizzo dei segmenti ambito.
 ### <a name="expense-report-numbers"></a>Numeri di note spese
 
-Nell'esempio seguente i numeri delle note spese vengono impostati per la persona giuridica **CS**. **Area: **viaggi e spese **Riferimento: **numero report spese **Ambito: **persona giuridica **Persona giuridica: **CS
+Nell'esempio seguente i numeri delle note spese vengono impostati per la persona giuridica **CS**. **Area:** viaggi e spese **Riferimento:** numero report spese **Ambito:** persona giuridica **Persona giuridica:** CS
 | Segmenti  | Tipo di segmento | Valore     |
 |-----------|--------------|-----------|
 | Segmento 1 | Persona giuridica | CS        |
@@ -49,7 +50,7 @@ Nell'esempio seguente i numeri delle note spese vengono impostati per la persona
 
 ### <a name="sales-order-numbers"></a>Numeri di ordini cliente
 
-Nell'esempio seguente i numeri degli ordini cliente vengono impostati per l'ID società **CEU**. **Area: **vendite **Riferimento: **ordine cliente **Ambito: ** società **Società: **CEU
+Nell'esempio seguente i numeri degli ordini cliente vengono impostati per l'ID società **CEU**. **Area:** vendite **Riferimento:** ordine cliente **Ambito:** società **Società:** CEU
 | Segmenti  | Tipo di segmento | Valore    |
 |-----------|--------------|----------|
 | Segmento 1 | Costante     | OC:      |
@@ -59,7 +60,7 @@ Nell'esempio seguente i numeri degli ordini cliente vengono impostati per l'ID s
 
 ### <a name="purchase-requisition-numbers"></a>Numeri delle richieste di acquisto
 
-Nell'esempio seguente i numeri delle richieste di acquisto si riferiscono all'intera organizzazione. **Area: **richiesta **Riferimento: **richiesta di acquisto **Ambito: **condiviso
+Nell'esempio seguente i numeri delle richieste di acquisto si riferiscono all'intera organizzazione. **Area:** richiesta **Riferimento:** richiesta di acquisto **Ambito:** condiviso
 | Segmenti  | Tipo di segmento | Valore    |
 |-----------|--------------|----------|
 | Segmento 1 | Costante     | Rich      |

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 2c99b2e1f7ddecb61be62832ca1a8d3ac1fd21a8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 94f5874cb24b53476843f1a073dc9c4cfdb36ac9
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,7 +53,7 @@ Per rendere l'accesso alla tastiera più semplice, si intende implementare in f
 ## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>Dov'è la funzionalità Visualizza dettagli in Dynamics 365 for Operations?
 L'opzione **Visualizza dettagli** è disponibile in un paio di modi:
 
--   Se un controllo ha le funzionalità **Visualizza dettagli **e se il controllo ha un valore, il valore viene visualizzato come collegamento ipertestuale. È possibile fare clic sul collegamento ipertestuale per aprire la pagina contenente dettagli aggiuntivi.
+-   Se un controllo ha le funzionalità **Visualizza dettagli**e se il controllo ha un valore, il valore viene visualizzato come collegamento ipertestuale. È possibile fare clic sul collegamento ipertestuale per aprire la pagina contenente dettagli aggiuntivi.
 -   **Visualizza dettagli** è anche un'opzione dei menu di scelta rapida di Dynamics 365 for Operations. Per ulteriori informazioni su quando i menu di scelta rapida di Dynamics 365 for Operations vengono visualizzati quando si fa clic con il pulsante destro del mouse, vedere la sezione precedente.
 
 

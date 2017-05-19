@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 0e2eb6e7c130f03edbf60a185d397d94b5d61d7d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2ae8255a84f36af624e915e85bc769a8ca37fa7e
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -99,11 +100,11 @@ Sì, è possibile utilizzare il menu **Progettazione**per aggiungere le entità 
 
 ### <a name="can-i-hide-the-design-option-in-the-data-connector-for-other-users"></a>Posso nascondere l'opzione di progettazione in Connettore dati ad altri utenti?
 
-Sì. aprire le opzioni del **Connettore dati ** per nascondere l'opzione **Progettazione** ad altri utenti.
+Sì. aprire le opzioni del **Connettore dati** per nascondere l'opzione **Progettazione** ad altri utenti.
 
 [![bpt13](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
-Espandere le opzioni del **Connettore dati** e deselezionare la casella di controllo **Abilita progettazione**. Questo nasconderà l'opzione  **Progettazione ** dal **Connettori dati**.
+Espandere le opzioni del **Connettore dati** e deselezionare la casella di controllo **Abilita progettazione**. Questo nasconderà l'opzione  **Progettazione** dal **Connettori dati**.
 
 [![bpt14](./media/bpt14-1024x592.png)](./media/bpt14.png)
 

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 6a25593632575dcd71fa4a3c9cf5b83c9f8ecd39
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0a64e9dc4009850039e22e98f1c7330c81a5c4b3
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -59,7 +60,7 @@ Sebbene lo stato attivo sia ancora nel controllo di ricerca, sarà possibile uti
 ## <a name="typing-in-more-than-ids"></a>Digitare non solo gli ID
 Quando si inseriscono i dati, per gli utenti è naturale tentare di identificare un'entità, ad esempio un cliente o un fornitore, in base al nome anziché a un identificatore che rappresenta l'entità. Nella versione corrente di Dynamics 365 for Operations molte (ma non tutte) le ricerche consentono ora l'immissione di dati contestuali. Questa potente funzionalità consente all'utente di immettere l'ID o il nome corrispondente nel controllo di ricerca. 
 
-Ad esempio, si consideri il campo **Conto cliente** quando si crea un ordine cliente. Questo campo mostra l'**ID conto ** per il cliente, ma un utente preferirebbe in genere immettere un **Nome conto** anziché un **ID conto** per questo campo quando si crea un ordine cliente, ad esempio "Forest Wholesales" anziché "US-003".
+Ad esempio, si consideri il campo **Conto cliente** quando si crea un ordine cliente. Questo campo mostra l'**ID conto** per il cliente, ma un utente preferirebbe in genere immettere un **Nome conto** anziché un **ID conto** per questo campo quando si crea un ordine cliente, ad esempio "Forest Wholesales" anziché "US-003".
 
 Se l'utente iniziasse a immettere l'**ID conto** nel controllo di ricerca, il menu a discesa si aprirebbe automaticamente come descritto nella sezione precedente e l'utente vedrebbe la ricerca come indicato di seguito.
 

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: 08c0af5eabc31dca0b36a2dc62ce2f739b808cde
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7389844e8b05582294f644b31c872866967a6721
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -81,7 +82,7 @@ In caso di profitti o perdite su cambio valutario, tali profitti o perdite vengo
 <a name="cash-discounts"></a>Sconti di cassa
 --------------
 
-Gli sconti di cassa generati durante il processo di compensazione interaziendale vengono registrati nella persona giuridica della fattura o nella persona giuridica del pagamento, a seconda dell'opzione selezionata nel campo **Registra sconto di cassa** della pagina **Contabilità interaziendale ** per la persona giuridica del pagamento. Nella persona giuridica della fattura viene generata una transazione di liquidazione corrispondente.
+Gli sconti di cassa generati durante il processo di compensazione interaziendale vengono registrati nella persona giuridica della fattura o nella persona giuridica del pagamento, a seconda dell'opzione selezionata nel campo **Registra sconto di cassa** della pagina **Contabilità interaziendale** per la persona giuridica del pagamento. Nella persona giuridica della fattura viene generata una transazione di liquidazione corrispondente.
 
 <a name="overpayments-and-underpayments"></a>Eccedenze e insufficienze di pagamento
 ------------------------------

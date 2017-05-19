@@ -3,7 +3,7 @@ title: Programmazione dei processi kanban per lean manufacturing
 description: "Questo articolo fornisce informazioni su controllo visivo sulla programmazione dei processi kanban e le modalità varie per la programmazione dei processi kanban."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Programmazione dei processi kanban per lean manufacturing
 
+[!include[banner](../includes/banner.md)]
+
+
 Questo articolo fornisce informazioni su controllo visivo sulla programmazione dei processi kanban e le modalità varie per la programmazione dei processi kanban.  
 
 La pagina **Programmazione processi kanban** fornisce il controllo visivo sulle programmazioni di celle di lavoro lean manufacturing. Fornisce una panoramica di tutti i processi kanban e fornisce molteplici funzionalità di filtro. Da questa pagina è possibile spostare tutte le altre pagine che sono correlate alla configurazione e all'esecuzione kanban.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Programmazione automatica dei processi kanban
-La programmazione può essere attivata automaticamente se si imposta il parametro **Quantità di pianificazione automatica** sulla regola kanban. Se si imposta **Quantità di pianificazione automatica** su **1**, ogni processo kanban è pianificato immediatamente quando viene creato. Il risultato è una serie di operazioni "first pull, first serve". Se si imposta **Quantità di pianificazione automatica** su un valore superiore a 1, i processi kanban vengono raggruppati prima di essere pianificati. Questo concetto consente di ridurre le dimensioni kanban sotto le dimensioni batch economiche effettive. Ad esempio, la dimensione batch economica per un articolo specifico (o famiglia di articoli) è 30. Anziché creare kanban che utilizzano la quantità di prodotto, 30, è possibile configurare la regola kanban in modo che abbia una quantità di prodotto pari a 10 e un valore di **Quantità di pianificazione automatica **di **3**. Sebbene la pianificazione automatica consenta di programmare i processi kanban per la cella di lavoro solo in presenza di tre processi non pianificati, è chiarissimo a chi pianifica e al supervisore dello shop floor che vi sono due processi non pianificati in attesa di esecuzione. I responsabili della pianificazione e dello shop floor possono integrare i due processi nella produzione pianificandoli manualmente o creando kanban aggiuntivi.
+La programmazione può essere attivata automaticamente se si imposta il parametro **Quantità di pianificazione automatica** sulla regola kanban. Se si imposta **Quantità di pianificazione automatica** su **1**, ogni processo kanban è pianificato immediatamente quando viene creato. Il risultato è una serie di operazioni "first pull, first serve". Se si imposta **Quantità di pianificazione automatica** su un valore superiore a 1, i processi kanban vengono raggruppati prima di essere pianificati. 
+
+Questo concetto consente di ridurre le dimensioni kanban sotto le dimensioni batch economiche effettive. Ad esempio, la dimensione batch economica per un articolo specifico (o famiglia di articoli) è 30. Anziché creare kanban che utilizzano la quantità di prodotto, 30, è possibile configurare la regola kanban in modo che abbia una quantità di prodotto pari a 10 e un valore di **Quantità di pianificazione automatica** di **3**. Sebbene la pianificazione automatica consenta di programmare i processi kanban per la cella di lavoro solo in presenza di tre processi non pianificati, è chiarissimo a chi pianifica e al supervisore dello shop floor che vi sono due processi non pianificati in attesa di esecuzione. I responsabili della pianificazione e dello shop floor possono integrare i due processi nella produzione pianificandoli manualmente o creando kanban aggiuntivi.
 
 ## <a name="manual-scheduling"></a>Programmazione manuale
 Per la programmazione manuale in Microsoft Dynamics AX 2012 è stata introdotta la bacheca di programmazione kanban. La programmazione manuale può essere combinata con la programmazione automatica. La bacheca di programmazione kanban consente di pianificare i processi, e di annullarne la pianificazione, di spostarli in sequenza o da un periodo all'altro. I processi che sono basati su una regola kanban in cui il valore di **Pianificazione automatica** è superiore a **0** possono essere eliminati dalla pianificazione manualmente. Tuttavia, questi processi saranno ripianificati quando si verifica il successivo evento di pianificazione automatica, vale a dire quando viene creato un nuovo kanban). Sono disponibili le seguenti opzioni per la programmazione manuale:
@@ -66,5 +72,7 @@ Nella pagina elenco **Programmazione processo kanban** è incluso un riquadro De
 
 <a name="see-also"></a>Vedere anche
 --------
+
+
 
 

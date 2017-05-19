@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 8af663b47117759ed3b2e2ed8eee85ae4df100d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f80d5d49cae3107390a605e9605d8af65bf2342d
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="use-the-excel-add-in"></a>Utilizzare il componente aggiuntivo di Excel
+
+[!include[banner](../includes/banner.md)]
+
 
 In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Per aprire i dati di entità, è possibile iniziare da Excel o da Microsoft Dynamics 365 for Operations.
 
@@ -44,7 +48,8 @@ Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità sele
 2.  Nell'Office Store cercare la parola chiave "Dynamics" e fare clic su **Aggiungi** accanto a **Microsoft Dynamics Office Add-in** (il componente aggiuntivo di Excel).
 3.  Se si esegue per la prima volta il componente aggiuntivo di Excel, abilitarlo facendo clic su **Considera attendibile questo componente aggiuntivo**. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
 4.  Fare clic su **Aggiungi informazioni sul server** per aprire il riquadro **Opzioni**.
-5.  Copiare l'URL del browser dall'istanza Dynamics 365 for Operations di destinazione, incollarlo nel campo **URL server**, quindi eliminare tutto ciò che segue il nome host (ad esempio, eliminare **/?cmp=usmf&mi=CustTableListPage**). L'URL risultante dovrebbe contenere soltanto il nome host (ad esempio, **https://xxx.dynamics.com**).
+5.  Copiare l'URL del browser dall'istanza Dynamics 365 for Operations di destinazione, incollarlo nel campo **URL server**, quindi eliminare tutto ciò che segue il nome host. L'URL risultante deve includere soltanto il nome host.
+Ad esempio, se l'URL è https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, eliminare tutto ad eccezione di **https://xxx.dynamics.com**.
 6.  Fare clic su **OK**, quindi su **Sì** per confermare la modifica. Il componente aggiuntivo di Excel si riavvia e carica i metadati. Il pulsante **Progettazione** è ora disponibile. Se il componente aggiuntivo di Excel è un pulsante **Carica applet**, è probabile che la modalità di accesso non sia corretta. Per ulteriori informazioni, vedere "Viene visualizzato il pulsante Carica applet" nella sezione "Risoluzione dei problemi" di questo argomento.
 7.  Fare clic su **Progettazione**. Il componente aggiuntivo di Excel recupera i metadati dell'entità.
 8.  Fare clic su **Aggiungi tabella**. Verrà visualizzato un elenco di entità. Le entità vengono elencate nel formato "Nome - Etichetta".
@@ -59,14 +64,17 @@ Dopo che il componente aggiuntivo di Excel avrà letto i dati entità nella cart
 ## <a name="edit-entity-data-in-excel"></a>Modificare i dati entità in Excel
 È possibile modificare i dati entità come richiesto, quindi pubblicarli facendo clic su **Pubblica** nel componente aggiuntivo di Excel. Per modificare un record, selezionare una cella del foglio di lavoro, quindi cambiare il valore di cella. Per aggiungere un nuovo record, effettuare uno dei seguenti passaggi:
 
--   Fare clic in un punto qualsiasi del foglio di lavoro, quindi su **Nuovo** nel componente aggiuntivo di Excel.
--   Fare clic sull'ultima riga del foglio di lavoro, quindi premere il tasto TAB finché il cursore non si sposta dall'ultima colonna della riga e viene creata una nuova riga.
--   Fare clic sulla riga immediatamente sotto il foglio di lavoro e iniziare a immettere dati in una cella. Quando si sposta l'elemento attivo della cella, il foglio di lavoro si espande per includere la nuova riga.
+-   Fare clic in un punto qualsiasi della tabella di origini dati, quindi su **Nuovo** nel componente aggiuntivo di Excel.
+-   Fare clic sull'ultima riga della tabella di origini dati, quindi premere il tasto TAB finché il cursore non si sposta dall'ultima colonna della riga e viene creata una nuova riga.
+-   Fare clic sulla riga immediatamente sotto la tabella di origini dati e iniziare a immettere dati in una cella. Quando si sposta l'elemento attivo della cella, la tabella si espande per includere la nuova riga.
+-   Per le associazioni del campo dei record di intestazione, fare clic su uno dei campi e quindi fare clic su **Nuovo** nel componente aggiuntivo di Excel.
 
+Tenere presente che un nuovo record può essere creato solo se tutti i campi obbligatori sono associati nel foglio di lavoro o se i valori predefiniti sono stati specificati tramite la condizione di filtro.
 Per eliminare un record, effettuare uno dei seguenti passaggi:
 
 -   Fare clic con il pulsante destro del mouse sul numero di riga accanto alla riga del foglio di lavoro da eliminare e fare clic su **Elimina**.
 -   Fare clic con il pulsante destro del mouse nella riga del foglio di lavoro da eliminare, quindi su **Elimina** &gt; **Righe tabella**.
+Se le origini dati sono state aggiunte come correlate, l'intestazione viene pubblicata prima delle righe. Se ci sono dipendenze tra altre origini dati, potrebbe essere necessario modificare l'ordine di pubblicazione predefinito. Per cambiare l'ordine di pubblicazione, nel componente aggiuntivo di Excel, fare clic sul pulsante **Opzioni** (simbolo di ingranaggio). Quindi, nella scheda dettaglio **Connettore dati**, fare clic su **Configura ordine di pubblicazione**.
 
 ## <a name="add-or-remove-columns"></a>Aggiungi o rimuovi colonne
 È possibile utilizzare la finestra di progettazione per modificare le colonne aggiunte automaticamente al foglio di lavoro.
@@ -77,9 +85,10 @@ Per eliminare un record, effettuare uno dei seguenti passaggi:
 4.  Modificare l'elenco **Campi selezionati** in base alle esigenze:
     -   Per aggiungere un campo dell'elenco **Campi disponibili** all'elenco **Campi selezionati**, fare clic sul campo, quindi su **Aggiungi**. In alternativa, fare doppio clic nel campo.
     -   Per rimuovere un campo dall'elenco **Campi selezionati** fare clic sul campo, quindi su **Rimuovi**. In alternativa, fare doppio clic nel campo.
-    -   Per modificare l'ordine dei campi, fare clic sul campo nell'elenco **Campi selezionati**, quindi su **Su** o **Giù**.
+    -   Per modificare l'ordine dei campi, fare clic sul campo nell'elenco **Campi selezionati**, fare clic su un campo quindi su **Su** o **Giù**.
 
-5.  Applicare le modifiche all'origine dati facendo clic su **Aggiorna**. Fare quindi clic su **Fine** per chiudere la finestra di progettazione. Se è stato aggiunto un campo (colonna), scegliere **Aggiorna** per effettuare il pull di una serie aggiornata di dati.
+5. Per applicare le modifiche all'origine dati fare clic su **Aggiorna**. Fare quindi clic su **Fine** per chiudere la finestra di progettazione. 
+6. Se è stato aggiunto un campo (colonna), scegliere **Aggiorna** per effettuare il pull di una serie aggiornata di dati.
 
 ## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Risoluzione dei problemi
 Sono disponibili alcuni problemi che possono essere risolti attraverso alcuni semplici passaggi.
@@ -87,6 +96,8 @@ Sono disponibili alcuni problemi che possono essere risolti attraverso alcuni se
 -   **Viene visualizzato il pulsante Carica applet.** Se il componente aggiuntivo di Excel mostra un pulsante **Carica applet** dopo l'accesso, è probabile che la modalità di accesso non sia corretta. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, fare clic su di esso, disconnettersi e riaccedere.
 -   **Viene visualizzato un messaggio "Non consentito".** Se si riceve un messaggio "Non consentito" mentre il componente aggiuntivo di Excel sta caricando i metadati, l'account cui si accede nel componente aggiuntivo di Excel non dispone dell'autorizzazione a utilizzare il servizio, l'istanza o il database di destinazione. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, fare clic su di esso, disconnettersi e riaccedere.
 -   **Una pagina Web vuota viene visualizzata sopra Excel.** Se una pagina Web vuota viene visualizzata durante il processo di accesso, l'account richiede AD FS, ma la versione di Excel in cui è in esecuzione il componente aggiuntivo non è abbastanza recente per caricare la finestra di dialogo di accesso. Per risolvere questo problema, aggiornare la versione di Excel in uso. Per aggiornare la versione di Excel quando si è in un'azienda che si trova sul canale differito, utilizzare lo [strumento di distribuzione di Office](https://technet.microsoft.com/library/jj219422.aspx) per [spostare dal canale differito al canale corrente](https://technet.microsoft.com/library/mt455210.aspx).
+
+
 
 
 

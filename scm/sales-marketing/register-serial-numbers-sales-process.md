@@ -19,10 +19,11 @@ ms.search.industry: Distribution
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: ec2907129e68f39e6e5f56f0617b7599598312d2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: de1d8bc2fa1080e549cb8c33657ad0f373644d38
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ L'impostazione del gruppo di dimensioni di tracciabilità assegnato al prodotto 
 È possibile creare fatture e documenti di trasporto parziali per gli ordini cliente e registrare i numeri di serie solo per gli articoli inclusi. Se si desidera creare una fattura parziale e si dispone di più documenti di trasporto per l'ordine cliente, è possibile includere i numeri di serie da più documenti di trasporto. Tuttavia, può esistere un solo documento di trasporto in cui non sono inclusi tutti i numeri di serie. Ad esempio, se si dispone di tre documenti di trasporto e ognuno include due articoli serializzati, non è possibile creare una fattura parziale per un articolo da ciascun documento di trasporto.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Quali operazioni si possono eseguire se un numero di serie non è leggibile?
-Se un numero di serie non può essere letto o digitalizzato, è possibile creare una riga vuota per l'articolo facendo clic su **Non leggibile **nella pagina **Numeri di serie**. Se il numero di serie diventa disponibile in seguito, è possibile aggiornare la fattura o il documento di trasporto. Per ulteriori informazioni, vedere la sezione successiva ""È possibile correggere o modificare i numeri di serie registrati per un ordine cliente?"
+Se un numero di serie non può essere letto o digitalizzato, è possibile creare una riga vuota per l'articolo facendo clic su **Non leggibile**nella pagina **Numeri di serie**. Se il numero di serie diventa disponibile in seguito, è possibile aggiornare la fattura o il documento di trasporto. Per ulteriori informazioni, vedere la sezione successiva ""È possibile correggere o modificare i numeri di serie registrati per un ordine cliente?"
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>È possibile correggere o modificare i numeri di serie registrati per un ordine cliente?
 Sì, e possibile correggere i numeri di serie se vengono soddisfatte le seguenti condizioni:

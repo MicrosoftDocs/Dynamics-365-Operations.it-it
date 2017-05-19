@@ -3,7 +3,7 @@ title: Panoramica dei bonifici SEPA
 description: "Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un&quot;altra società o un altro individuo. Nell&quot;argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 848df5e3898f37284d7746c59bff8b38d35ac883
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f7adaf2f3a14d2c0e094314f0b36b5d4bdb0a65c
+ms.contentlocale: it-it
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>Panoramica dei bonifici SEPA
+
+[!include[banner](../includes/banner.md)]
+
 
 Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico.
 
@@ -55,7 +59,7 @@ Il formato di pagamento dei bonifici per i paesi europei è implementato utilizz
 È necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**. La sezione successiva, "Cosa devo impostare?", fornisce un collegamento all'argomento che illustra come creare un archivio LCS per esaminare le configurazioni disponibili e importare quelle selezionate.
 
 ## <a name="what-do-i-have-to-set-up"></a>Cosa devo impostare?
--   Prima di poter creare file di bonifico, almeno una configurazione attiva di bonifico deve essere importata nelle configurazioni ER. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Prima di poter creare file di bonifico, almeno una configurazione attiva di bonifico deve essere importata nelle configurazioni ER. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 -   Quando si configurano i metodi di pagamento per la contabilità fornitori, selezionare la casella di controllo **Report elettronici generici**, quindi selezionare il formato di bonifico appropriato (ad esempio **Bonifico ISO 20022 (AT)**) come configurazione del formato di esportazione.
 -   È inoltre necessario impostare la persona giuridica e le informazioni sul conto bancario in Dynamics 365 for Operations.
 -   I numeri di conto bancario, IBAN, e talvolta i codici SWIFT (BIC) o altri ID sono necessari per creare pagamenti tramite bonifico validi. Di conseguenza, è necessario impostarli per il conto bancario del fornitore e il conto bancario per l'organizzazione che richiede il trasferimento.
@@ -121,5 +125,7 @@ I codici IBAN (International Bank Account Number) e BIC (Bank Identifier Code) s
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Come si trasmette un file di pagamento alla banca?
 Quando si generano pagamenti, viene generato il file di pagamento e viene richiesto di salvarlo dal Web browser in uso in qualsiasi posizione disponibile. Il passaggio successivo è quello di inviare il file XML alla banca. Questo processo varia in base alla banca. Seguire le istruzioni dalla banca per inviare i file alla banca per l'elaborazione.
+
+
 
 
