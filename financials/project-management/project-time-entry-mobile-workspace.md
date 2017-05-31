@@ -3,10 +3,10 @@ title: Area di lavoro mobile per immissione ora progetto per l&quot;app Microsof
 description: In questo argomento vengono fornite informazioni sull&quot;area di lavoro mobile per l&quot;immissione di ore progetto. Questa area di lavoro consente agli utenti di immettere e salvare le ore dedicate a un progetto utilizzando il dispositivo mobile.
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -31,7 +31,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile per l'immissione di ore progetto per l'app mobile Dynamics 365 for Operations. Questa area di lavoro consente agli utenti di immettere e salvare le ore dedicate a un progetto utilizzando il dispositivo mobile.
@@ -71,7 +70,7 @@ Prima di implementare l'area di lavoro mobile **Immissione ora progetto**, è ne
 <tr class="odd">
 <td>Deve essere stato implementato Microsoft Dynamics 365 for Operations versione 1611 con aggiornamento alla piattaforma 3 o versione successiva.</td>
 <td>Amministratore di sistema</td>
-<td>Se Dynamics 365 for Operations non è ancora stato distribuito nell'organizzazione, l'amministratore di sistema deve vedere <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Distribuire un ambiente di dimostrazione di Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Se Dynamics 365 for Operations non è ancora stato distribuito nell'organizzazione, l'amministratore di sistema deve vedere <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Distribuire un ambiente di dimostrazione di Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>Deve essere stato implementato l'articolo KB 4018050.</td>
@@ -79,9 +78,9 @@ Prima di implementare l'area di lavoro mobile **Immissione ora progetto**, è ne
 <td>L'articolo KB 4018050 è un aggiornamento X++ o aggiornamento rapido dei metadati contenente l'area di lavoro mobile <strong>Immissione ora progetto</strong>. Per implementare l'articolo KB 4018050, l'amministratore di sistema deve completare i passaggi seguenti:
 <ol>
 <li>Eseguire il download di KB 4018050 da Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installare l'aggiornamento rapido dei metadati</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Creare un pacchetto distribuibile</a> contenente i modelli <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Applicare il pacchetto distribuibile</a> al sistema Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installare l'aggiornamento rapido dei metadati</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Creare un pacchetto distribuibile</a> contenente i modelli <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Applicare il pacchetto distribuibile</a> al sistema Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

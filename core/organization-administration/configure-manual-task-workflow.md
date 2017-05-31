@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: a62b56bd2ac0a7484471190c5f342a1db335ab07
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Per specificare gli utenti a cui assegnare l'attività manuale, effettuare le op
     <td>Utenti in una specifica gerarchia organizzativa</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Gerarchia</strong>, nella scheda <strong>Selezione gerarchia</strong> selezionare il tipo di gerarchia cui assegnare l'attività nell'elenco <strong>Tipo di gerarchia</strong>.</li>
-    <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere assegnata l'attività. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema:
-    <ol>
+    <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere assegnata l'attività. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema: <ol>
     <li>Per specificare il punto di inizio, selezionare una persona dall'elenco <strong>Inizia da</strong>.</li>
     <li>Per specificare il punto finale, fare clic su <strong>Aggiungi condizione</strong>. Immettere quindi una condizione per determinare il punto della gerarchia in cui verrà arrestato il recupero dei nomi da parte del sistema.</li>
     </ol></li>
-    <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo l'attività deve essere assegnata:
-    <ul>
+    <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo l'attività deve essere assegnata: <ul>
     <li><strong>Assegna a tutti gli utenti recuperati</strong> - L'attività viene assegnata a tutti gli utenti nell'intervallo.</li>
     <li><strong>Assegna solo all'ultimo utente recuperato</strong> - L'attività viene assegnata solo all'ultimo utente dell'intervallo.</li>
     <li><strong>Escludi utenti con la seguente condizione:</strong> - L'attività non viene assegnata ad alcun utente nell'intervallo che soddisfa una specifica condizione. Fare clic su <strong>Aggiungi condizione</strong> per specificare la condizione.</li>
@@ -139,13 +137,11 @@ Per specificare gli utenti a cui assegnare l'attività manuale, effettuare le op
     <td>Coda di elementi di lavoro</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Coda</strong> fare clic sulla scheda <strong>Basato su coda</strong>.</li>
-    <li>Per assegnare l'attività a una specifica coda, effettuare le operazioni seguenti:
-    <ol>
+    <li>Per assegnare l'attività a una specifica coda, effettuare le operazioni seguenti: <ol>
     <li>Nell'elenco <strong>Tipo coda</strong> selezionare <strong>Coda di elementi di lavoro</strong>.</li>
     <li>Nell'elenco <strong>Nome coda</strong> selezionare la coda.</li>
     </ol></li>
-    <li>Se una specifica condizione deve determinare la coda a cui viene assegnata l'attività, effettuare le operazioni seguenti:
-    <ol>
+    <li>Se una specifica condizione deve determinare la coda a cui viene assegnata l'attività, effettuare le operazioni seguenti: <ol>
     <li>Nell'elenco <strong>Tipo coda</strong> selezionare <strong>Code di elementi di lavoro condizionali</strong>.</li>
     <li>Nell'elenco <strong>Nome coda</strong> selezionare <strong>Coda condizionale</strong>.</li>
     </ol></li>
@@ -196,13 +192,11 @@ Se un utente non completa l'attività manuale nel tempo prestabilito, l'attivit�
     <td>Utenti in una specifica gerarchia organizzativa</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Gerarchia</strong>, nella scheda <strong>Selezione gerarchia</strong> selezionare il tipo di gerarchia cui riassegnare l'attività nell'elenco <strong>Tipo di gerarchia</strong>.</li>
-    <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere riassegnata l'attività. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema:
-    <ol>
+    <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere riassegnata l'attività. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema: <ol>
     <li>Per specificare il punto di inizio, selezionare una persona dall'elenco <strong>Inizia da</strong>.</li>
     <li>Per specificare il punto finale, fare clic su <strong>Aggiungi condizione</strong>. Immettere quindi una condizione per determinare il punto della gerarchia in cui verrà arrestato il recupero dei nomi da parte del sistema.</li>
     </ol></li>
-    <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo l'attività deve essere riassegnata:
-    <ul>
+    <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo l'attività deve essere riassegnata: <ul>
     <li><strong>Assegna a tutti gli utenti recuperati</strong> - L'attività viene riassegnata a tutti gli utenti nell'intervallo.</li>
     <li><strong>Assegna solo all'ultimo utente recuperato</strong> - L'attività viene riassegnata solo all'ultimo utente dell'intervallo.</li>
     <li><strong>Escludi utenti con la seguente condizione:</strong> - L'attività non viene riassegnata ad alcun utente nell'intervallo che soddisfa una specifica condizione. Fare clic su <strong>Aggiungi condizione</strong> per specificare la condizione.</li>

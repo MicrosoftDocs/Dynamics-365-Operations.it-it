@@ -3,10 +3,10 @@ title: Area di lavoro mobile per ordini cliente
 description: In questo argomento vengono fornite informazioni sull&quot;area di lavoro mobile per ordini cliente, disponibile per l&quot;app mobile Microsoft Dynamics 365 for Operations. Questa area di lavoro offre aggiornamenti costanti sugli ordini cliente in qualsiasi momento e ovunque.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ In questo argomento vengono fornite informazioni sull'area di lavoro mobile per 
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>Panoramica dell'area di lavoro mobile per ordini cliente
 ---------------------------------------------
 
-L'area di lavoro mobile **Ordini cliente** accede a Microsoft Dynamics 365 for Operations e consente di visualizzare informazioni dettagliate su ogni ordine cliente. Tali informazioni includono lo stato dell'ordine, le informazioni di contatto per il cliente e le informazioni di contatto per l'incaricato dell'ordine. L'area di lavoro mobile **Ordini cliente** offre una visualizzazione immediata degli ordini cliente. È possibile visualizzare gli ordini cliente o visualizzare gli ordini cliente in base al cliente oppure visualizzare le informazioni relative a un ordine cliente specifico. L'area di lavoro mobile offre due visualizzazioni che rendono più semplice analizzare a fondo gli ordini cliente.
+L'area di lavoro mobile **Ordini cliente** accede a Microsoft Dynamics 365 for Operations e consente di visualizzare informazioni dettagliate su ogni ordine cliente. Tali informazioni includono lo stato dell'ordine, le informazioni di contatto per il cliente e le informazioni di contatto per l'incaricato dell'ordine. L'area di lavoro mobile **Ordini cliente** offre una visualizzazione immediata degli ordini cliente. È possibile visualizzare gli ordini cliente o visualizzare gli ordini cliente in base al cliente oppure visualizzare le informazioni relative a un ordine cliente specifico. 
+
+L'area di lavoro mobile offre due visualizzazioni che rendono più semplice analizzare a fondo gli ordini cliente.
 
 ### <a name="view-all-sales-orders"></a>Visualizza tutti gli ordini cliente
 
@@ -50,6 +52,7 @@ Questa visualizzazione elenca tutti gli ordini cliente.
     -   Cerca per stato
     -   Cerca per stato di rilascio
     -   Cerca per data e ora di creazione
+    
 -   Dopo aver selezionato gli ordini cliente, è possibile visualizzare i dettagli di ordini specifici. In particolare, è possibile visualizzare le seguenti informazioni:
     -   Informazioni sul nome e sull'indirizzo del cliente
     -   Diverse date per l'ordine cliente, ad esempio la data di spedizione richiesta e la data di spedizione confermata
@@ -65,6 +68,7 @@ Questa visualizzazione elenca gli ordini cliente per cliente.
 -   Utilizzare uno dei seguenti filtri per visualizzare gli ordini per un cliente:
     -   Cerca per nome
     -   Cerca per account
+
 -   Dopo avere selezionato un cliente, è possibile visualizzare le seguenti informazioni:
     -   Nome cliente e gruppo
     -   Informazioni di contatto del cliente
@@ -96,7 +100,7 @@ Prima di utilizzare l'area di lavoro mobile **Ordini cliente**, è necessario ve
 <tr class="odd">
 <td>Deve essere stato implementato Dynamics 365 for Operations versione 1611 con aggiornamento alla piattaforma 3 o versione successiva.</td>
 <td>Amministratore di sistema</td>
-<td>Se Dynamics 365 for Operations non è ancora stato distribuito nell'organizzazione, l'amministratore di sistema deve vedere <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Distribuire un ambiente di dimostrazione di Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Se Dynamics 365 for Operations non è ancora stato distribuito nell'organizzazione, l'amministratore di sistema deve vedere <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">Distribuire un ambiente di dimostrazione di Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>Deve essere stato implementato l'articolo KB 4013633.</td>
@@ -104,9 +108,9 @@ Prima di utilizzare l'area di lavoro mobile **Ordini cliente**, è necessario ve
 <td>KB 4013633 (un aggiornamento X++ o aggiornamento rapido dei metadati) contiene quattro aree di lavoro mobili per la gestione della supply chain. Per implementare l'articolo KB 4013633, l'amministratore di sistema deve completare i passaggi seguenti:
 <ol>
 <li>Eseguire il download di KB 4013633 da Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Installare l'aggiornamento rapido dei metadati</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Creare un pacchetto distribuibile</a> contenente il modello <strong>SCMMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Applicare il pacchetto distribuibile</a> al sistema Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installare l'aggiornamento rapido dei metadati</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Creare un pacchetto distribuibile</a> contenente il modello <strong>SCMMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Applicare il pacchetto distribuibile</a> al sistema Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

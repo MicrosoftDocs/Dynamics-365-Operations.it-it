@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ In Microsoft Dynamics 365 for Operations vengono utilizzati i tasti di scelta ra
 | Aprire il riquadro Dettaglio informazioni (o spostare lo stato attivo sul riquadro Dettaglio informazioni se è già aperto) | CTRL + F2                                   |
 | Chiudere il riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                         | ESC                                       |
 | Spostarsi sul riquadro Dettaglio informazioni successivo/precedente (con lo stato attivo nel riquadro Dettaglio informazioni)              | ALT + MAIUSC+ Freccia GIÙ/ALT + MAIUSC + Freccia SU |
-| Spostarsi sull'&lt;n&gt;simo riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Spostarsi sul riquadro Dettaglio informazioni &lt;n&gt; (con lo stato attivo nel riquadro Dettaglio informazioni)                | ALT+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Espandere un riquadro Dettaglio informazioni (con lo stato attivo nell'intestazione di Dettaglio informazioni)                             | INVIO o Barra spaziatrice                            |
 | Comprimere il riquadro Dettaglio informazioni corrente                                                    | ALT + 0                                     |
 
@@ -115,8 +115,8 @@ In Microsoft Dynamics 365 for Operations vengono utilizzati i tasti di scelta ra
 | Spostarsi sul campo successivo/precedente                     | TAB/MAIUSC + TAB                              |
 | Spostarsi sulla scheda successiva/precedente                       | ALT + MAIUSC+ Freccia DESTRA/ALT + MAIUSC + Freccia SINISTRA |
 | Spostarsi sulla scheda dettaglio successiva/precedente                   | ALT + MAIUSC+ Freccia GIÙ/ALT + MAIUSC + Freccia SU    |
-| Spostarsi sull'&lt;n&gt;sima Scheda dettaglio                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Spostarsi sull'&lt;n&gt;sima scheda                         | ALT+MAIUSC+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Spostarsi sulla scheda dettaglio &lt;n&gt;                     | ALT+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Spostarsi sulla scheda &lt;n&gt;                         | ALT+MAIUSC+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Espandere una scheda dettagli informazioni (con lo stato attivo nell'intestazione della scheda) | INVIO o Barra spaziatrice                               |
 | Comprimere la scheda dettagli corrente                        | ALT + 0                                        |
 | Passare alla visualizzazione griglia                                 | CTRL + MAIUSC + G                                 |

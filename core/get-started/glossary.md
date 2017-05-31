@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
 ms.contentlocale: it-it
-ms.lasthandoff: 05/10/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -253,7 +253,7 @@ Veicolo utilizzato per la distribuzione in ambienti di produzione e Test di acce
 
 Strumento di Visual Studio che si usa per creare, aggiornare e controllare gli elementi di modello.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**configurazione del prodotto basata su dimensioni**
+###### <a name="dimension-based-product-configuration"></a>**configurazione prodotto basata su dimensioni**
 
 Tecnologia di configurazione utilizzata per creare varianti prodotto selezionando valori per dimensioni prodotto.
 
@@ -503,7 +503,7 @@ Parte di un prodotto.
 
 ###### <a name="product-dimension"></a>**dimensioni prodotto**
 
-Attributi del prodotto quali dimensioni, colore o configurazione utilizzati per la configurazione del prodotto basata su dimensioni.
+Attributi del prodotto quali dimensioni, colore o configurazione utilizzati per la configurazione prodotto basata su dimensioni.
 
 ###### <a name="product-family"></a>**famiglia di prodotti**
 

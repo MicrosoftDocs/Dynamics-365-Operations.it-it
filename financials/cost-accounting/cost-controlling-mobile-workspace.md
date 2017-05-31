@@ -3,10 +3,10 @@ title: Area di lavoro mobile di controllo costi
 description: In questo argomento vengono fornite informazioni sull&quot;area di lavoro mobile di controllo costi, disponibile per l&quot;app mobile Microsoft Dynamics 365 for Operations. Questa area di lavoro consente ai responsabili del centro di costo visualizzare informazioni sulle prestazioni del centro di costo in qualsiasi momento e ovunque.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 05/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 31a9650774b2ddb70827ffa210154ca10c761236
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 09383c24b0dd2ad61a836f6c8dc97f4389915772
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -36,11 +36,15 @@ In questo argomento vengono fornite informazioni sull'area di lavoro mobile di c
 <a name="overview-of-the-cost-controlling-mobile-workspace"></a>Panoramica dell'area di lavoro mobile di controllo costi
 -------------------------------------------------
 
-L'area di lavoro mobile **Controllo costi** fornisce una visualizzazione immediata delle prestazioni correnti dei centri di costo confrontando i costi effettivi rispetto ai costi a budget. È possibile eseguire il drill-down per visualizzare gli stati di singoli elementi di costo. Ad esempio, un dipendente riceve un invito a una conferenza internazionale, ma l'organizzazione deve coprire tutte le spese di viaggio. Il dipendente chiede al responsabile se può partecipare alla conferenza. Il responsabile apre rapidamente l'area di lavoro mobile **Controllo costi** sul dispositivo mobile per verificare se dispone del budget per consentire al dipendente di partecipare alla conferenza.
+L'area di lavoro mobile **Controllo costi** fornisce una visualizzazione immediata delle prestazioni correnti dei centri di costo confrontando i costi effettivi rispetto ai costi a budget. È possibile eseguire il drill-down per visualizzare gli stati di singoli elementi di costo. 
+
+Ad esempio, un dipendente riceve un invito a una conferenza internazionale, ma l'organizzazione deve coprire tutte le spese di viaggio. Il dipendente chiede al responsabile se può partecipare alla conferenza. Il responsabile apre rapidamente l'area di lavoro mobile **Controllo costi** sul dispositivo mobile per verificare se dispone del budget per consentire al dipendente di partecipare alla conferenza.
 
 ### <a name="data-security"></a>Sicurezza dei dati
 
-I dati nell'area di lavoro **Controllo costi** sono protetti mediante l'uso di credenziali dell'utente. I responsabili del centro di costo possono visualizzare solo i dati relativi al proprio centro di costo. La protezione a livello di accesso viene gestita nel modulo **Contabilità industriale**. I contabili definiscono la configurazione dell'area di lavoro mobile **Controllo costi** nel modulo **Contabilità industriale**. Una volta che l'area di lavoro è stata pubblicata nell'app mobile Microsoft Dynamics 365 for Operations, sarà disponibile nell'app mobile. Pertanto, tutti i responsabili del centro di costo dell'organizzazione visualizzano i dati nello stesso formato.
+I dati nell'area di lavoro **Controllo costi** sono protetti mediante l'uso di credenziali dell'utente. I responsabili del centro di costo possono visualizzare solo i dati relativi al proprio centro di costo. La protezione a livello di accesso viene gestita nel modulo **Contabilità industriale**. 
+
+I contabili definiscono la configurazione dell'area di lavoro mobile **Controllo costi** nel modulo **Contabilità industriale**. Una volta che l'area di lavoro è stata pubblicata nell'app mobile Microsoft Dynamics 365 for Operations, sarà disponibile nell'app mobile. Pertanto, tutti i responsabili del centro di costo dell'organizzazione visualizzano i dati nello stesso formato.
 
 ### <a name="actions-views-and-links"></a>Azioni, visualizzazioni e collegamenti
 
@@ -87,7 +91,7 @@ Prima di utilizzare l'area di lavoro mobile **Controllo costi**, è necessario v
 <tr class="odd">
 <td>Deve essere stato implementato Dynamics 365 for Operations versione 1611 con aggiornamento alla piattaforma 3 o versione successiva.</td>
 <td>Amministratore di sistema</td>
-<td>Se Dynamics 365 for Operations non è ancora stato distribuito nell'organizzazione, l'amministratore di sistema deve vedere <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Distribuire un ambiente di dimostrazione di Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Se Dynamics 365 for Operations non è ancora stato distribuito nell'organizzazione, l'amministratore di sistema deve vedere <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Distribuire un ambiente di dimostrazione di Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>Deve essere stato implementato l'articolo KB 4013633.</td>
@@ -95,9 +99,9 @@ Prima di utilizzare l'area di lavoro mobile **Controllo costi**, è necessario v
 <td>KB 4013633 (un aggiornamento X++ o aggiornamento rapido dei metadati) contiene quattro aree di lavoro mobili per la gestione della supply chain. Per implementare l'articolo KB 4013633, l'amministratore di sistema deve completare i passaggi seguenti:
 <ol>
 <li>Eseguire il download di KB 4013633 da Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Installare l'aggiornamento rapido dei metadati</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Creare un pacchetto distribuibile</a> contenente il modello <strong>SCMMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Applicare il pacchetto distribuibile</a> al sistema Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installare l'aggiornamento rapido dei metadati</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Creare un pacchetto distribuibile</a> contenente il modello <strong>SCMMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Applicare il pacchetto distribuibile</a> al sistema Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

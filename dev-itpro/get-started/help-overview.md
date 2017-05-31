@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
-ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 181ad9a7ab4e83ce9eb34312e93b1ebdeb2e04eb
 ms.contentlocale: it-it
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -38,10 +38,14 @@ Dynamics 365 for Operations include una Guida basata su due componenti principal
 -   Sito di documentazione
 -   Guide attività
 
-È possibile accedere agli articoli e alle guide attività dal riquadro Guida in Dynamics 365 for Operations, come illustrato nel seguente screenshot. [![Riquadro Guida](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png) Questo articolo descrive la Guida e spiega come creare documentazione e risorse di formazione personalizzate per l'organizzazione.
+È possibile accedere agli articoli e alle guide attività dal riquadro Guida in Dynamics 365 for Operations, come illustrato nel seguente screenshot.
+
+![Riquadro della Guida](./media/help-pane-ops-task-guides-1024x741.png)
+
+Questo articolo descrive la Guida e spiega come creare documentazione e risorse di formazione personalizzate per l'organizzazione.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Guida sul sito docs.microsoft.com
-Il sito docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) rappresenta la fonte principale di documentazione sul prodotto Dynamics 365 for Operations. Il sito offre le seguenti funzionalità:
+Il sito docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) rappresenta la fonte principale di documentazione sul prodotto Dynamics 365 for Operations. Il sito offre le seguenti funzionalità:
 
 -   **Accesso a contenuti più aggiornati**: il sito offre modi più veloci e più flessibili per creare, fornire e aggiornare la documentazione del prodotto. Di conseguenza, aiuta a garantire l'accesso alle ultime informazioni tecniche.
 -   **Contenuto scritto da esperti**: il sito fornisce un set più dettagliato di documentazione del prodotto che può essere aggiornato da membri della community interni ed esterni a Microsoft.
@@ -50,13 +54,48 @@ Il sito docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamic
 
 Tutto il contenuto della guida precedente è stato migrato sul sito docs. Siamo molto soddisfatti del nostro nuovo sito e speriamo che lo siano anche i nostri utenti.
 
-### <a name="when-can-we-use-it"></a>Quando può essere utilizzato?
+### <a name="searching-on-docsmicrosoftcom"></a>Ricerca in docs.microsoft.com
+Diverse sono le domande ricevute sulla modalità di ricerca del contenuto. Nel sito, se si inizia da una pagina su Dynamics 365 for Operations, si suppone che l'ambito della ricerca sia per il contenuto di Dynamics 365 for Operations. È possibile rimuovere l'ambito facendo clic sulla X accanto a Operations nella casella di ricerca. 
+![Cerca ordini](./media/search-scope.png)
 
-È possibile leggere immediatamente il contenuto nel sito docs, che è completamente pubblico ed esplorabile senza richiedere l'accesso. È possibile utilizzare uno dei motori di ricerca preferiti per trovare il contenuto. Se lo si desidera, è possibile commentare gli articoli nel sito effettuando l'accesso.
+È possibile trovare il contenuto con un qualsiasi motore di ricerca. Per i risultati ottimali si consiglia di utilizzare una ricerca del tipo site:docs.microsoft.com "termine di ricerca"  
+![Ricerca nel sito](./media/site-search.png)
+
+![Risultati della ricerca nel sito](./media/site-search-results.png)
+
+
+### <a name="how-can-i-contribute"></a>Come è possibile contribuire? 
+
+Scrivere un commento. 
+
+1 Fare clic su **Commenti** per passare al riquadro dei commenti nell'area inferiore della pagina.
+
+![Commenti](./media/comments.png)
+
+2 Iniziare a digitare i commenti quindi fare clic su **Pubblica un commento**.
+
+![Pubblica un commento](./media/before-signin.png)
+
+3 Selezionare il tipo di account con cui si desidera accedere:  
+Fare clic su una delle icone a sinistra per associare questo sito a un account esistente, ad esempio un account di Twitter, Facebook o Microsoft. 
+
+O 
+
+A destra, immettere l'indirizzo di posta elettronica e una nuova password per creare un nuovo account per il sito. 
+
+![Opzioni di accesso](./media/signin-options.png)
 
 
 ## <a name="task-guides"></a>Guide attività
-Una guida attività è un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di un'attività o di un processo aziendale. È possibile aprire (riprodurre) una guida attività dal riquadro Guida. Quando si fa clic per la prima volta su una guida attività, nel riquadro Guida vengono visualizzate le istruzioni dettagliate per l'attività. Ora sono disponibili guide attività localizzate. [![Visualizzazione lettura delle guide attività](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png) Per avviare un'esperienza interattiva guidata, fare clic su **Avvia guida attività** nella parte inferiore del riquadro Guida. Un puntatore nero si apre e indica l'azione che è necessario eseguire. Seguire le indicazioni visualizzate nell'interfaccia utente e immettere i dati come richiesto. [![Istruzione dettagliata della guida attività](./media/task-guide-step-1-ops.png)](./media/task-guide-step-1-ops.png) **Importante:** i dati che si immettono in una guida attività sono reali. Se si è in un ambiente di produzione, i dati verranno immessi nella società attualmente utilizzata.
+Una guida attività è un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di un'attività o di un processo aziendale. È possibile aprire (riprodurre) una guida attività dal riquadro Guida. Quando si fa clic per la prima volta su una guida attività, nel riquadro Guida vengono visualizzate le istruzioni dettagliate per l'attività. Ora sono disponibili guide attività localizzate. 
+
+![Visualizzazione lettura delle guide attività](./media/task-guide-ops-1024x742.png)
+
+Per avviare l'esperienza guidata e interattiva, fare clic su **Avvia guida attività** nella parte inferiore del riquadro Guida. Un puntatore nero si apre e indica l'azione che è necessario eseguire. Seguire le indicazioni visualizzate nell'interfaccia utente e immettere i dati come richiesto. 
+![Istruzione dettagliata della guida attività](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT] 
+> I dati immessi quando si riproduce una guida attività sono reali. Se si è in un ambiente di produzione, i dati verranno immessi nella società attualmente utilizzata.
 
 ### <a name="it-all-begins-with-task-recorder"></a>Tutto ciò ha inizio con Registrazione attività
 
@@ -72,7 +111,9 @@ Per ulteriori informazioni su Registrazione attività, vedere [Registrazione att
 È possibile creare registrazioni attività personalizzate oppure scaricare e personalizzare le registrazioni attività fornite da Microsoft. Di conseguenza, è possibile creare la Guida personalizzata per l'organizzazione in base alla specifica implementazione di Dynamics 365 for Operations. Per visualizzare una registrazione attività nel riquadro Guida di Dynamics 365 for Operations e riprodurla come una guida attività, si dovrà salvare la registrazione in una libreria BPM in LCS. Per i partner, se si promuove una libreria a libreria aziendale e si include in una soluzione, sarà disponibile per i clienti. Per le istruzioni complete, vedere [Utilizzo delle registrazioni attività per creare documentazione o formazione](../user-interface/task-recorder.md).
 
 ## <a name="in-product-help"></a>Guida nel prodotto
-Per accedere al contenuto della Guida all'interno di Dynamics 365 for Operations, fare clic sull'icona **Guida** (**?**) oppure scegliere Guida o premere CTRL+MAIUSC+?. In entrambi i casi, verrà aperto il riquadro della Guida. Dal riquadro Guida è possibile accedere ad articoli o guide attività. [![Riquadro della Guida](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Per accedere al contenuto della Guida all'interno di Dynamics 365 for Operations, fare clic sull'icona **Guida** (**?**) oppure scegliere Guida o premere CTRL+MAIUSC+?. In entrambi i casi, verrà aperto il riquadro della Guida. Dal riquadro Guida è possibile accedere ad articoli o guide attività. 
+
+![Riquadro della Guida](./media/help-pane-wiki-1024x684.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Accesso agli articoli dal riquadro Guida
 
@@ -80,19 +121,24 @@ Dal riquadro della Guida è possibile accedere ad articoli applicabili al client
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Accesso alle guide attività dal riquadro Guida
 
-Affinché si possa accedere alle guide attività dal riquadro Guida, è necessario che un amministratore di sistema acceda alla pagina **Parametri di sistema** in Dynamics 365 for Operations e configuri alcune impostazioni. **Note:**
+Affinché si possa accedere alle guide attività dal riquadro Guida, è necessario che un amministratore di sistema acceda alla pagina **Parametri di sistema** in Dynamics 365 for Operations e configuri alcune impostazioni. 
 
--   Per configurare la Guida, è necessario essere connessi con un account nello stesso tenant di distribuzione di Dynamics 365 for Operations.
--   Non è possibile connettersi a una libreria LCS da un'istanza di Dynamics 365 for Operations in esecuzione in un'unità disco rigido virtuale (VHD) locale.
+> [!NOTE]
+> -   Per configurare la Guida, è necessario essere connessi con un account nello stesso tenant di distribuzione di Dynamics 365 for Operations.
+> -   Non è possibile connettersi a una libreria LCS da un'istanza di Dynamics 365 for Operations in esecuzione in un'unità disco rigido virtuale (VHD) locale.
 
-[![Modulo Parametri di sistema con impostazioni della Guida](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Nella pagina **Parametri di sistema**effettuare le operazioni seguenti:
+![Modulo Parametri di sistema con impostazioni per la Guida](./media/system-parameters_ops-1024x437.png)
 
-1.  **Importante:**La prima volta che si apre la scheda della Guida, è necessario connettersi a Lifecycle Services. Assicurarsi di fare clic sul collegamento al centro del modulo, attendere la connessione, chiudere la finestra di dialogo quindi scegliere OK per ottenere il modulo dei parametri.[![Connessione a LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+Nella pagina **Parametri di sistema** effettuare i seguenti passaggi:
+
+1.  **Importante:**La prima volta che si apre la scheda della Guida, è necessario connettersi a Lifecycle Services. Assicurarsi di fare clic sul collegamento al centro del modulo, attendere la connessione, chiudere la finestra di dialogo quindi scegliere OK per ottenere il modulo dei parametri.
+![Connetti a LCS](./media/connect-to-lcs-crop-1024x365.png)
 2.  Selezionare il progetto Lifecycle Services a cui connettersi.
 3.  Selezionare le librerie BPM (nel progetto selezionato) da cui recuperare le registrazioni attività.
 4.  Impostare l'ordine di visualizzazione delle librerie BPM. Ciò determina l'ordine in cui le registrazioni attività delle librerie verranno visualizzate nel riquadroGuida.
 
-Dopo che un amministratore di sistema ha completato questi passaggi, è possibile aprire il riquadro della guida e fare clic sulla scheda **Guide attività**. Verranno visualizzate le guide attività applicabili alla pagina attualmente aperta in Dynamics 365 for Operations. Se non viene trovata alcuna guida attività, è possibile immettere le parole chiave per ridefinire la ricerca. Dopo ave fatto clic su una guida attività, nel riquadro Guida vengono visualizzate le istruzioni dettagliate ed è possibile riprodurre la guida attività. [![Visualizzazione lettura delle guide attività](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png)
+Dopo che un amministratore di sistema ha completato questi passaggi, è possibile aprire il riquadro della guida e fare clic sulla scheda **Guide attività**. Verranno visualizzate le guide attività applicabili alla pagina attualmente aperta in Dynamics 365 for Operations. Se non viene trovata alcuna guida attività, è possibile immettere le parole chiave per ridefinire la ricerca. Dopo ave fatto clic su una guida attività, nel riquadro Guida vengono visualizzate le istruzioni dettagliate ed è possibile riprodurre la guida attività. 
+![Visualizzazione lettura delle guide attività](./media/task-guide-ops-1024x742.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Dove sono le guide attività tradotte?
 
