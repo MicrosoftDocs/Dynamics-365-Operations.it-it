@@ -67,6 +67,7 @@
 ### [Rendiconto bancario CODA](emea-bel-coda-bank-statement-import.md)
 ### [Dichiarazione IVA Intervat](emea-bel-intervat-tax-declaration.md)
 ### [Impostazione report PRODCOM](emea-bel-prodcom-report.md)
+### [Report di riconciliazione](emea-bel-reconciliation-reports.md)
 
 ## Repubblica Ceca
 ### [Sconto di cassa nella nota di credito](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [Sospensione dell'ammortamento](emea-cze-depreciation-suspension-holidays.md)
 ### [Ammortamento dei cespiti](emea-cze-fixed-assets-depreciation.md)
 ### [Ammortamento semestrale](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [Reporting IVA ](emea-cze-intra-community-vat-transactions.md)
 ### [Dichiarazione IVA](emea-cze-vat-statement-details.md)
 ## Estonia
 ### [Dichiarazione IVA](emea-est-vat-statement-details.md)

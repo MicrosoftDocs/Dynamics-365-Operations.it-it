@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ Il tipo di informazioni che ogni colonna di un report include è specificato dal
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Visualizza i dati finanziari o i dati da un foglio di lavoro di Excel quando si usa una colonna <strong>Collegamento a dimensioni finanziarie</strong> o una colonna <strong>Collegamento a foglio di lavoro</strong> nella definizione di riga. Quando si seleziona il tipo di colonna <strong>FD</strong>, le impostazioni predefinite vengono automaticamente specificate per le seguenti righe:
-    <ul>
+    <td>Visualizza i dati finanziari o i dati da un foglio di lavoro di Excel quando si usa una colonna <strong>Collegamento a dimensioni finanziarie</strong> o una colonna <strong>Collegamento a foglio di lavoro</strong> nella definizione di riga. Quando si seleziona il tipo di colonna <strong>FD</strong>, le impostazioni predefinite vengono automaticamente specificate per le seguenti righe: <ul>
     <li><strong>Codice libro/Categoria attributi:</strong> ACTUAL</li>
     <li><strong>Codice libro/Categoria attributi:</strong> ACTUAL</li>
     <li><strong>Anno fiscale:</strong> BASE</li>
@@ -359,7 +358,7 @@ Il tipo di informazioni che ogni colonna di un report include è specificato dal
     <li><strong>Periodi coperti:</strong> PERIODIC</li>
     <li><strong>Larghezza colonna:</strong> 14</li>
     </ul>
-    Le impostazioni predefinite possono essere modificate.</td>
+Le impostazioni predefinite possono essere modificate.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -387,12 +386,11 @@ Il tipo di informazioni che ogni colonna di un report include è specificato dal
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Visualizza i dati di cui è effettuato il pull da un foglio di lavoro di Excel. Quando si seleziona il tipo di colonna <strong>WKS</strong>, le impostazioni predefinite vengono automaticamente specificate per le seguenti righe:
-    <ul>
+    <td>Visualizza i dati di cui è effettuato il pull da un foglio di lavoro di Excel. Quando si seleziona il tipo di colonna <strong>WKS</strong>, le impostazioni predefinite vengono automaticamente specificate per le seguenti righe: <ul>
     <li><strong>Anno fiscale:</strong> PERIODIC</li>
     <li><strong>Periodo:</strong> BASE</li>
     </ul>
-    Le impostazioni predefinite possono essere modificate.</td>
+Le impostazioni predefinite possono essere modificate.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

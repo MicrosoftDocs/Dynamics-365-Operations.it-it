@@ -18,6 +18,7 @@
     - name: Vendita al dettaglio
       tocHref: /dynamics365/operations/retail/
       topicHref: /dynamics365/operations/retail/index
-    - name: Supply chain 
+    - name: Supply chain
+ 
       tocHref: /dynamics365/operations/supply-chain/
       topicHref: /dynamics365/operations/supply-chain/index

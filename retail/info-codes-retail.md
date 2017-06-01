@@ -1,15 +1,15 @@
 ---
 title: Codici informativi
 description: Questo articolo fornisce una panoramica sui codici informazioni, sui gruppi di codici informazioni e su come utilizzarli.
-author: RobinARH
+author: mumani
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
@@ -19,10 +19,10 @@ ms.author: sijoshi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
-ms.openlocfilehash: aaf02ce5bf3af94dea12344c9bfc5c8e9be7abb9
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
 ms.contentlocale: it-it
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,12 @@ In Dynamics 365 for Operations - Retail,, è possibile creare gruppi di codici d
 -   Collegare i codici informativi ad altri codici informativi o a gruppi di codici informativi per raccogliere informazioni su un prodotto o una transazione senza dover definire un codice informativo separato o un codice informativo collegato per ogni scenario.
 
 ## <a name="info-code-examples"></a>Esempi di codici informativi
-**Esempio 1: riutilizzare i codici informativi** È possibile collegare i codici informativi in modo che quando un codice informativo viene attivato, ne viene attivato immediatamente un altro successivamente. Ad esempio, quando vengono venduti determinati prodotti, è possibile suggerire al cassiere di chiedere al cliente se desidera acquistare le batterie e una garanzia del prodotto. Per altri prodotti, è possibile suggerire al cassiere di chiedere al cliente se desidera acquistare le batterie e anche registrare il codice postale. Se si creano codici informativi collegati per questi scenari, è necessario impostare ogni variazione del codice informativo in modo da richiedere al cassiere le giuste informazioni. Se si utilizzano gruppi di codici informativi, codici informativi comuni, ad esempio la richiesta di batterie, possono essere impostati una volta e quindi riutilizzati in più gruppi di codici informativi. È inoltre possibile utilizzare la priorità nei gruppi di codici informativi per identificare l'ordine in cui vengono visualizzate le richieste. **Esempio 2: collegare i codici informativi ai gruppi di codici informativi** Quando si vendono alcuni prodotti, ad esempio i dispositivi mobili, si desidera sempre raccogliere un set specifico di informazioni, ad esempio il numero di telefono, l'identificatore per l'attrezzatura mobile (MEID) e il numero di serie. Tuttavia, si desidera inoltre raccogliere informazioni diverse per un tablet rispetto a un telefono cellulare. È possibile impostare un gruppo di codici informativi che includa le richieste del numero di telefono, del MEID e del numero di serie e quindi collegare il gruppo di codici informativi a un singolo codice informativo. Quando il codice informativo specifico del prodotto viene attivato, il gruppo del codici informativo può essere attivato successivamente per consentire di raccogliere i dati comuni senza dover definire più insiemi di codici informativi collegati per ogni dispositivo.
+**Esempio 1: riutilizzare i codici informativi** È possibile collegare i codici informativi in modo che quando un codice informativo viene attivato, ne viene attivato immediatamente un altro successivamente. Ad esempio, quando vengono venduti determinati prodotti, è possibile suggerire al cassiere di chiedere al cliente se desidera acquistare le batterie e una garanzia del prodotto. Per altri prodotti, è possibile suggerire al cassiere di chiedere al cliente se desidera acquistare le batterie e anche registrare il codice postale. Se si creano codici informativi collegati per questi scenari, è necessario impostare ogni variazione del codice informativo in modo da richiedere al cassiere le giuste informazioni. Se si utilizzano gruppi di codici informativi, codici informativi comuni, ad esempio la richiesta di batterie, possono essere impostati una volta e quindi riutilizzati in più gruppi di codici informativi. È inoltre possibile utilizzare la priorità nei gruppi di codici informativi per identificare l'ordine in cui vengono visualizzate le richieste.
+
+
+**Esempio 2: collegare i codici informativi ai gruppi di codici informativi** Quando si vendono alcuni prodotti, ad esempio i dispositivi mobili, si desidera sempre raccogliere un set specifico di informazioni, ad esempio il numero di telefono, l'identificatore per l'attrezzatura mobile (MEID) e il numero di serie. Tuttavia, si desidera inoltre raccogliere informazioni diverse per un tablet rispetto a un telefono cellulare. È possibile impostare un gruppo di codici informativi che includa le richieste del numero di telefono, del MEID e del numero di serie e quindi collegare il gruppo di codici informativi a un singolo codice informativo. Quando il codice informativo specifico del prodotto viene attivato, il gruppo del codici informativo può essere attivato successivamente per consentire di raccogliere i dati comuni senza dover definire più insiemi di codici informativi collegati per ogni dispositivo.
 
  
--
-
-
-
 
 
 

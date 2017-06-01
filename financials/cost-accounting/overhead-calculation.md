@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ Il calcolo dei costi generali si basa sui criteri di contabilità industriale es
 -   Anno fiscale
 -   Periodo fiscale
 
-Il calcolo dei costi generali viene eseguito indipendentemente dalla versione. Di conseguenza, è possibile calcolare la versione Budget prima della versione Effettivo. Il calcolo dei costi generali è costituito da quattro passaggi, come illustrato nella figura seguente. A ogni passaggio, un'intestazione del giornale di registrazione viene creata con voci del giornale di registrazione. In questa intestazione del giornale di registrazione sono archiviati i dati di input per ogni passaggio di calcolo. I criteri e le regole vengono applicati a ogni riga del giornale di registrazione e le voci di costo vengono generate come output. Di conseguenza, la tracciabilità è sempre completa. [![Calcolo dei costi generali](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+Il calcolo dei costi generali viene eseguito indipendentemente dalla versione. Di conseguenza, è possibile calcolare la versione Budget prima della versione Effettivo. Il calcolo dei costi generali è costituito da quattro passaggi, come illustrato nella figura seguente. A ogni passaggio, un'intestazione del giornale di registrazione viene creata con voci del giornale di registrazione. In questa intestazione del giornale di registrazione sono archiviati i dati di input per ogni passaggio di calcolo. I criteri e le regole vengono applicati a ogni riga del giornale di registrazione e le voci di costo vengono generate come output. Di conseguenza, la tracciabilità è sempre completa. 
+[![Calcolo dei costi generali](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calcolare e allocare il costo generale dell'elettricità
 Nella contabilità finanziaria, alcuni costi, ad esempio l'elettricità, vengono registrati come somma forfettaria. Di conseguenza, l'analisi manageriale dettagliata non viene fornita per la contabilità industriale. In contabilità industriale, per fornire l'analisi manageriale dettagliata corretta in tutte le unità organizzative e livelli, i costi devono essere trasferiti attraverso le unità organizzative. Questo flusso deve basarsi su un record accurato del consumo o su una valutazione equa. Nella contabilità generale, il costo di elettricità può essere registrato come illustrato nella seguente tabella.
@@ -622,7 +623,7 @@ Per informazioni dettagliate sui criteri di tasso generali, vedere Criterio di t
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Passaggio 4: Elaborare il calcolo allocazione costo
 
-L'allocazione è utilizzata per assegnare il saldo di un oggetto costo ad altri oggetti costo applicando una base di allocazione. Microsoft Dynamics 365 for Operations supporta il metodo di allocazione reciproco. Nel metodo di allocazione reciproco, i servizi reciproci che gli oggetti costo ausiliario si scambiano sono completamente riconosciuti. Il sistema determina automaticamente l'ordine corretto per eseguire le allocazioni. Il saldo di un oggetto costo viene assegnato da una singola base di allocazione. Le allocazioni in più dimensioni di oggetti costo e i rispettivi membri sono supportate. L'ordine di allocazione è controllato dall'unità di controllo dei costi. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+L'allocazione è utilizzata per assegnare il saldo di un oggetto costo ad altri oggetti costo applicando una base di allocazione. Microsoft Dynamics 365 for Operations supporta il metodo di allocazione reciproco. Nel metodo di allocazione reciproco, i servizi reciproci che gli oggetti costo ausiliario si scambiano sono completamente riconosciuti. Il sistema determina automaticamente l'ordine corretto per eseguire le allocazioni. Il saldo di un oggetto costo viene assegnato da una singola base di allocazione. Le allocazioni in più dimensioni di oggetti costo e i rispettivi membri sono supportate. L'ordine di allocazione è controllato dall'unità di controllo dei costi. [![Metodo reciproco](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Definizione dell'allocazione costi
 

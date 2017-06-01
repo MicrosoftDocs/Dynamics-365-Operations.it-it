@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 3df3144b08c54441699d9c0b48fe507857877586
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5208dc64d86345de4e53c5e293fbc861351a63ef
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -59,6 +59,7 @@ Quando un dipendente nella persona giuridica 2222 crea una richiesta di acquisto
 
 Nell'esempio precedente tutte le regole di acquisto vengono definite in un'unica gerarchia organizzativa, nel caso specifico nella gerarchia organizzativa Società. In un'organizzazione complessa invece è possibile che vengano definiti criteri per più gerarchie organizzative.  
 
+
 Contoso è una grande società che richiede regole di acquisto complesse per il controllo del processo di richiesta di acquisto. Contoso ha definito le regole per due diverse gerarchie organizzative: Reparto e Controllo acquisti globale.  
 
 I criteri 123 sono definiti per la gerarchia organizzativa Reparto per il reparto Regno Unito - Vendite. Nei criteri 123, la regola Controllo richiesta di acquisto specifica la necessità di imporre delle restrizioni sulle quantità minime degli ordini. In questa regola, l'opzione **Applica restrizioni quantità ordine minima** è selezionata.  
@@ -93,6 +94,9 @@ La regola dei criteri categorie definisce il modo in cui gli utenti possono sele
 ### <a name="re-approval-rule-for-purchase-orders"></a>Regola di riapprovazione per gli ordini fornitore
 
 La regola di riapprovazione è una regola facoltativa che definisce i criteri per richiedere la riapprovazione quando vengono apportate modifiche a un ordine acquisto. I campi selezionati vengono valutati nel flusso di lavoro dell'ordine acquisto quando la condizione "Riapprovazione dell'ordine fornitore richiesta" è impostata nel flusso di lavoro.
+
+> [!NOTE]
+> La distribuzione contabile viene sempre reimpostata quando viene modificato un ordine fornitore approvato con la gestione modifiche attivata. È pertanto necessario tenere presente che per evitare una nuova approvazione di un ordine fornitore quando determinati campi vengono modificati, il campo Distribuzione contabile modificato NON deve essere incluso come campo selezionato per rieseguire l'approvazione. 
 
 ### <a name="purchase-requisition-rfq-rule"></a>Regola RdO richiesta di acquisto
 

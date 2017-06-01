@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 17a5dcf0f406380fbc4ff242932516894562fe5d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -30,7 +30,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 In questo argomento sono elencate le aree di lavoro mobili rilasciate di recente per l'app mobile Microsoft Dynamics 365 for Operations.
@@ -51,9 +50,9 @@ In questo argomento sono elencate le aree di lavoro mobili rilasciate di recente
 | Area di lavoro mobile     | descrizione                                                                                                                                                                         | Ulteriori informazioni                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Controllo costi     | I responsabili dei centri di costo possono esaminare le prestazioni del centro di costo in qualsiasi momento e ovunque si trovino.                                                                                               | [Area di lavoro mobile di controllo costi](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| Scorte disponibili    | Consente di acquisire dati preziosi relativi alle scorte prenotate e disponibili in qualsiasi momento e ovunque.                                                                                                    | [Area di lavoro mobile per le scorte disponibili](/dynamics365/operations/scm/production-control/inventory-on-hand-mobile-workspace)       |
-| Gestione ordini cliente         | Aggiornamenti costanti sugli ordini cliente in qualsiasi momento e ovunque.                                                                                                                          | [Area di lavoro mobile per ordini cliente](/dynamics365/operations/scm/production-control/sales-orders-mobile-workspace)                 |
-| Collaborazione fornitore | I fornitori possono restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione e visualizzare le informazioni sugli ordini fornitore e i contatti nuovi e aggiornati. | [Area di lavoro mobile di collaborazione fornitore](/dynamics365/operations/scm/procurement/vendor-collaboration-mobile-workspace) |
+| Scorte disponibili    | Consente di acquisire dati preziosi relativi alle scorte prenotate e disponibili in qualsiasi momento e ovunque.                                                                                                    | [Area di lavoro mobile per scorte disponibili](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
+| Gestione ordini cliente         | Aggiornamenti costanti sugli ordini cliente in qualsiasi momento e ovunque.                                                                                                                          | [Area di lavoro mobile per ordini cliente](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
+| Collaborazione fornitore | I fornitori possono restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione e visualizzare le informazioni sugli ordini fornitore e i contatti nuovi e aggiornati. | [Area di lavoro mobile di collaborazione fornitore](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
 ## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>Funzionalità dell'area di lavoro mobile rilasciata nel dicembre 2016
 | Area di lavoro mobile        | descrizione                                                                    | Ulteriori informazioni                                                                                                            |

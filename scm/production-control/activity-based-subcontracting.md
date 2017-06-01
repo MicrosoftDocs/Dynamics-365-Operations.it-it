@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 4d8ebe2c0a8b4fe08fa7f63ba310c1d9203c1150
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -90,7 +90,7 @@ Per quanto riguarda le attività di processo, è necessario configurare un servi
 ## <a name="service-quantity-calculation"></a>Calcolo della quantità del servizio
 L'intero processo di acquisto è basato su un riferimento articolo per un servizio. Questo riferimento articolo viene misurato in un'unità di misura di un servizio. I servizi vengono misurati in genere o in numero di servizi (unità) o in tempo. Per calcolare la quantità di servizio, in base al completamento registrato dei processi kanban, è possibile utilizzare i seguenti metodi:
 
--   **Calcolo basato sul numero di processi**: un  processo kanban è uguale a *n* unità di servizio, indipendentemente dalla quantità di prodotto fornita. In lean manufacturing, un processo corrisponde a un'unità movimentazione. Questo metodo di calcolo viene applicato a tutti i servizi con prezzo fisso per unità di movimentazione. Di conseguenza, questo metodo viene applicato in genere alle attività di trasferimento. Tuttavia, è applicabile anche alle attività di processo che elaborano delle intere unità movimentazione.
+-   **Calcolo basato sul numero di processi**: un processo kanban è uguale a *n* unità di servizio, indipendentemente dalla quantità di prodotto fornita. In lean manufacturing, un processo corrisponde a un'unità movimentazione. Questo metodo di calcolo viene applicato a tutti i servizi con prezzo fisso per unità di movimentazione. Di conseguenza, questo metodo viene applicato in genere alle attività di trasferimento. Tuttavia, è applicabile anche alle attività di processo che elaborano delle intere unità movimentazione.
 -   **Calcolo basato sulla quantità di prodotto**: la quantità di servizio è relativa alla quantità di prodotto programmato/fornito. Quando la quantità di prodotto fornito viene calcolata, è possibile includere o escludere le quantità difettose . Questo metodo viene applicato a tutti i casi in cui il prezzo del servizio per unità di prodotto elaborato viene concordato.
 -   **Calcolo basato sul tempo di attività**: i tempi teorici di attività vengono calcolati in base al tempo di elaborazione dell'attività, la quantità elaborata totale e il rapporto di produttività del prodotto elaborato. Questo metodo di calcolo viene applicato ai servizi che vengono pagati su base oraria e hanno uno scostamento di tempo per prodotto elaborato.
 

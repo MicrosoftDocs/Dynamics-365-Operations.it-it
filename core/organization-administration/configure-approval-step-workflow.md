@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
 ms.contentlocale: it-it
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Per specificare gli utenti a cui assegnare il passaggio del processo di approvaz
     <td>Utenti in una specifica gerarchia organizzativa</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Gerarchia</strong>, nella scheda <strong>Selezione gerarchia</strong> selezionare il tipo di gerarchia cui assegnare il passaggio nell'elenco <strong>Tipo di gerarchia</strong>.</li>
-    <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere assegnato il passaggio. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema:
-    <ol>
+    <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere assegnato il passaggio. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema: <ol>
     <li>Per specificare il punto di inizio, selezionare una persona dall'elenco <strong>Inizia da</strong>.</li>
     <li>Per specificare il punto finale, fare clic su <strong>Aggiungi condizione</strong>. Immettere quindi una condizione per determinare il punto della gerarchia in cui verrà arrestato il recupero dei nomi da parte del sistema.</li>
     </ol></li>
-    <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo il passaggio deve essere assegnato:
-    <ul>
+    <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo il passaggio deve essere assegnato: <ul>
     <li><strong>Assegna a tutti gli utenti recuperati</strong> - Il passaggio viene assegnato a tutti gli utenti nell'intervallo.</li>
     <li><strong>Assegna solo all'ultimo utente recuperato</strong> - Il passaggio viene assegnato solo all'ultimo utente dell'intervallo.</li>
     <li><strong>Escludi utenti con la seguente condizione:</strong> - Il passaggio non viene assegnato ad alcun utente nell'intervallo che soddisfa una specifica condizione. Fare clic su <strong>Aggiungi condizione</strong> per specificare la condizione.</li>
@@ -211,13 +209,11 @@ Se un utente non esegue un'azione su un documento nel tempo prestabilito, il doc
     <td>Utenti in una specifica gerarchia organizzativa</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Gerarchia</strong>, nella scheda <strong>Selezione gerarchia</strong> selezionare il tipo di gerarchia cui riassegnare il documento nell'elenco <strong>Tipo di gerarchia</strong>.</li>
-    <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere riassegnato il documento. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema:
-    <ol>
+    <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere riassegnato il documento. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema: <ol>
     <li>Per specificare il punto di inizio, selezionare una persona dall'elenco <strong>Inizia da</strong>.</li>
     <li>Per specificare il punto finale, fare clic su <strong>Aggiungi condizione</strong>. Immettere quindi una condizione per determinare il punto della gerarchia in cui verrà arrestato il recupero dei nomi da parte del sistema.</li>
     </ol></li>
-    <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo il documento deve essere riassegnato:
-    <ul>
+    <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo il documento deve essere riassegnato: <ul>
     <li><strong>Assegna a tutti gli utenti recuperati</strong> - Il documento viene riassegnato a tutti gli utenti nell'intervallo.</li>
     <li><strong>Assegna solo all'ultimo utente recuperato</strong> - Il documento viene riassegnato solo all'ultimo utente dell'intervallo.</li>
     <li><strong>Escludi utenti con la seguente condizione:</strong> - Il documento non viene riassegnato ad alcun utente nell'intervallo che soddisfa una specifica condizione. Fare clic su <strong>Aggiungi condizione</strong> per specificare la condizione.</li>
