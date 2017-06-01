@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxBookSection, TaxGroup
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 261314
-ms.assetid: 31b20504-a9e7-4d8e-b290-92e6e80a9ff4
 ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30

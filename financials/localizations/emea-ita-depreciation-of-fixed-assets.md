@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetDepreciationProfile, LedgerJournalTransApprove, LedgerJournalTransAsset, LedgerJournalTransDaily, LedgerJournalTransVendInvoice, PurchTable
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 264294
-ms.assetid: 89d8fca3-b653-4fc8-9186-b765c31f7544
 ms.search.region: Italy
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
