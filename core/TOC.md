@@ -1,34 +1,34 @@
 # [Introduzione](index.md)
 
-# [Introduzione a Dynamics 365 for Operations](get-started/onboarding-home.md)
-## Introduzione a Dynamics 365 for Operations
+# [Introduzione a Finance and Operations](get-started/onboarding-home.md)
+## Introduzione a Finance and Operations
 ### [Introduzione a Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
-### [Iscrizione a una sottoscrizione](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [Come ottenere la versione locale di Dynamics AX 2012](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [Distribuire un ambiente di dimostrazione](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+### [Iscrizione a una sottoscrizione](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Come ottenere la versione locale di Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Distribuire un ambiente di dimostrazione](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Esplorare l'interfaccia utente
 ### [Ricerca di azioni](get-started/action-search.md)
 ### [Sintassi di query e filtro avanzata](get-started/advanced-filtering-query-options.md)
-### [Domande frequenti sul client Dynamics 365 for Operations](get-started/client-faq.md)
+### [Domande frequenti sul client di Finance and Operations](get-started/client-faq.md)
 ### [Configurare e filtrare le aree di lavoro](get-started/configure-filter-workspaces.md)
 ### [Visualizzare le pagine affiancate utilizzando l'icona Apri in nuova finestra](get-started/display-pages-side-by-side.md)
 ### [Ricerca per navigazione](get-started/navigation-search.md)
 ### [Personalizzare l'esperienza utente](get-started/personalize-user-experience.md)
 ### [Tasti di scelta rapida](get-started/shortcut-keys.md)
 ### [Gestire la modalità di visualizzazione delle pagine](get-started/window-management.md)
-### [Esaminare Lifecycle Services](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [Esaminare Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Guida e supporto
-### [Panoramica della Guida](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [Collegarsi alla Guida](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [Panoramica della Guida](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Collegarsi alla Guida](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Visualizzare ed esportare le descrizioni campi](get-started/view-export-field-descriptions.md)
 
 ### Guide attività e registrazione attività
-#### [Registrazione attività](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [Creare la documentazione o la formazione](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [Registrazione attività](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Creare la documentazione o la formazione](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [Contenuti della Guida specifici del paese](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [Contenuti della Guida specifici del paese](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 # [Configurare l'organizzazione](organization-administration/organization-administration-home-page.md)
 ## [Organizzazioni e gerarchie organizzative](organization-administration/organizations-organizational-hierarchies.md)
@@ -63,17 +63,17 @@
 ## [Configurare il processo batch di elaborazione messaggi](organization-administration/workflow-batch-job-critical.md)
 ## [Report per tipi di flussi di lavoro](organization-administration/workflow-types-report.md)
 
-# [Dati finanziari](/dynamics365/operations/financials/index)
+# [Dati finanziari](/dynamics365/unified-operations/financials/index)
 
-# [Risorse umane](/dynamics365/operations/human-resources/index)
+# [Risorse umane](/dynamics365/unified-operations/talent/index)
 
-# [Vendita al dettaglio](/dynamics365/operations/retail/index)
+# [Vendita al dettaglio](/dynamics365/unified-operations/retail/index)
 
-# [Gestione della supply chain](/dynamics365/operations/supply-chain/index)
+# [Gestione della supply chain](/dynamics365/unified-operations/supply-chain/index)
 
-# [Sviluppatore e amministratore](/dynamics365/operations/dev-itpro/index)
+# [Sviluppatore e amministratore](/dynamics365/unified-operations/dev-itpro/index)
 
 # Altre risorse
-## [Glossario di Dynamics 365 for Operations](get-started/glossary.md)
-## [Novità o modifiche](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+## [Glossario di Finance and Operations](get-started/glossary.md)
+## [Novità o modifiche](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 

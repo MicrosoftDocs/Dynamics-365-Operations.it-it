@@ -1,4 +1,4 @@
-# [Panoramica della localizzazione](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Panoramica della localizzazione](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Asia Pacifico
 ## Australia
 ### [Formati file bancari](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [Registrare l'acquisizione preventiva di un cespite](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Codici postali](emea-import-create-postal-codes-manually.md)
 ## [ID registrazione](emea-registration-ids.md)
+## [Reverse charge](emea-reverse-charge.md)
 ## [Panoramica dei bonifici SEPA](../accounts-payable/sepa-credit-transfer.md)
 ## [Panoramica degli addebiti diretti SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Impostare i firmatari per la stampa dei moduli](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [Report elenco giornali di registrazione](emea-deu-journal-list-report.md)
 ### [Stampare un'etichetta separata per le note di credito che provengono da vendite](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Ungheria
-### [Metodi di ammortamento dei cespiti](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Metodi di ammortamento dei cespiti](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Cespiti fissi a basso costo](emea-hun-low-cost-fixed-assets.md)
 ### [Spostare un cespite nel magazzino](emea-hun-fixed-asset-to-inventory.md)
 ## Italia
@@ -138,6 +139,7 @@
 ### [Rivalutazione gruppo cespiti](emea-esp-fixed-asset-group-revaluation.md)
 ### [IVA intracomunitaria](emea-esp-intra-community-vat.md)
 ### [Clienti occasionali](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [Stampa assegni con un layout spagnolo](emea-esp-print-checks-with-spanish-layout.md)
 ### [Opzioni per effetto passivo](emea-esp-promissory-note-options.md)
 ### [Cicli di acquisto e vendita](emea-esp-sales-purchase-cycle.md)
 ### [Movimenti speciali e bilanci di apertura](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [Libri fiscali](latam-bra-fiscal-books.md)
 #### [Documenti fiscali di imposta ICMS](latam-bra-icms-tax-fiscal-documents.md)
 #### [Importare documenti fiscali](latam-bra-import-fiscal-documents.md)
+#### [Esportare e importare transazioni di persona giuridica dal consolidamento della contabilità generale](latam-bra-general-ledger-consolidation-transactions.md)
 #### [Importare e verificare documenti XML NF-e e file DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Elaborare rimesse di pagamento elettronico](latam-bra-process-electronic-payment-remittances.md)
 #### [Documenti fiscali](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [Segnaposti per testi di documento fiscale](latam-bra-fiscal-document-text-placeholders.md)
 #### [Documenti fiscali complementari di acquisto](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [Giornali di registrazione generati durante il processo di reso con pagamento elettronico](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [Processo NF-e](latam-bra-nf-e-process.md)
 ### [Parametri per le persone giuridiche](latam-bra-legal-entity-parameters.md)
+### [Acquisire un cespite CIAP](latam-bra-ciap-fixed-asset.md)
+### [Smaltire un cespite CIAP](latam-bra-ciap-fixed-asset.md)
 ### [Imposte](latam-bra-calculate-taxes.md)
 #### [Attributi imposte](latam-bra-tax-attributes.md)
 #### [Pagamenti imposte](latam-bra-tax-payments.md)

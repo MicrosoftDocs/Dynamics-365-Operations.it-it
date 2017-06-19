@@ -15,8 +15,9 @@
 ## [Configurare e installare una stazione hardware vendita al dettaglio](retail-hardware-station-configuration-installation.md)
 ## [Orario e presenze vendita al dettaglio](retail-time-attendance.md)
 # MPOS e POS cloud
-## Periferiche hardware
+## Hardware e periferiche
 ### [Panoramica delle periferiche di vendita al dettaglio](retail-peripherals-overview.md)
+### [Simulatore di periferica di vendita al dettaglio](retail-peripheral-simulator.md)
 ### [Periferiche hardware POS testate da Microsoft](microsoft-tested-pos-hardware-peripherals.md)
 ### [Definire e gestire i client di canale, i registratori di cassa e le stazioni hardware](define-maintain-channel-clients-registers-hw-stations.md)
 ## Layout schermo
@@ -42,6 +43,7 @@
 ## Ricevute
 ### [Impostare i modelli di ricevuta](receipt-templates-printing.md) 
 ### [Inviare le ricevute tramite posta elettronica da MPOS](email-receipts.md)
+## [Registrazione attività e Guida per il POS](task-recorder-retail-pos.md)
 # Monitoraggio e analisi
 ## [Monitorare le prestazioni di vendite e margini](monitor-sales-margin-performance.md)
 ## [Eseguire analisi delle tendenze e dei criteri di vendita](analyze-sales-trends-patterns.md)
@@ -53,6 +55,7 @@
 ## [Rettifiche prezzi e sconti](price-adjustments-discounts.md)
 ## [Determinare la combinazione ottimale di sconti sovrapposti](optimal-combination-overlapping-discounts.md)
 ## [Definire gli sconti specifici del canale](define-channel-specific-discounts.md)
+## [Creare buoni sconto per le vendite al dettaglio](retail-coupons.md)
 # Prodotti e merchandising
 ## [Gerarchie punti vendita al dettaglio](retail-hierarchies.md)
 ## [Creare e gestire gli attributi](create-manage-attributes.md)
@@ -60,6 +63,7 @@
 ## [Impostare codici a barre](set-up-bar-codes.md)
 ## [Impostare le maschere codice a barre](set-up-bar-code-masks.md)
 ## [Impostare gli assortimenti](set-up-assortments.md)
+## [Prodotti resi e di vendita non inclusi in un assortimento](sell-return-outside-assortments.md)
 # Fedeltà
 ## [Impostare un programma fedeltà per clienti](set-up-customer-loyalty-program.md)
 # Magazzino
@@ -69,15 +73,15 @@
 ## [Organizzazioni e gerarchie organizzative (funzionalità fondamentali commercio)](organizational-hierarchies-commerce-essentials.md)
 # [Contenuto per sviluppatori e professionisti IT](dev-itpro/TOC.md)
 
-# [Dati finanziari](/dynamics365/operations/financials/index)
+# [Dati finanziari](/dynamics365/unified-operations/financials/index)
 
-# [Risorse umane](/dynamics365/operations/human-resources/index)
+# [Risorse umane](/dynamics365/unified-operations/talent/index)
 
-# [Gestione della supply chain](/dynamics365/operations/supply-chain/index)
+# [Gestione della supply chain](/dynamics365/unified-operations/supply-chain/index)
 
-# [Sviluppatore e amministratore](/dynamics365/operations/dev-itpro/index)
+# [Sviluppatore e amministratore](/dynamics365/unified-operations/dev-itpro/index)
 
 # Altre risorse
-## [Glossario di Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [Novità o modifiche](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [Glossario di Dynamics 365 for Retail](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [Novità o modifiche](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 

@@ -21,4 +21,5 @@
 # Tracciare l'articolo e il batch
 ## [Unire un batch di magazzino](merge-inventory-batches.md)
 ## [Tracciare l'articolo e le materie prime](trace-items-raw-materials-inventory-production-sales.md)
+## [Registrare il numero di serie nel processo di vendita](../sales-marketing/register-serial-numbers-sales-process.md)
 
