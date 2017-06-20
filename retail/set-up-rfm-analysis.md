@@ -1,6 +1,6 @@
 ---
-title: Impostare l&quot;analisi RFM
-description: In questo argomento viene illustrato come impostare un&quot;analisi Recency, Frequency and Monetary (RFM) dei clienti.
+title: Impostare l'analisi RFM
+description: In questo argomento viene illustrato come impostare un'analisi Recency, Frequency and Monetary (RFM) dei clienti.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,7 +16,7 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail Version
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 1d5deb781d938dd31326826049372f705bdf6938
