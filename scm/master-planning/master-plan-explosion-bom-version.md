@@ -1,9 +1,9 @@
 ---
 title: Esplosione di una versione DBA
-description: Questo articolo descrive uno scenario di pianificazione generale che include l&quot;esplosione di una versione di distinta base (DBA).
+description: Questo articolo descrive uno scenario di pianificazione generale che include l'esplosione di una versione di distinta base (DBA).
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

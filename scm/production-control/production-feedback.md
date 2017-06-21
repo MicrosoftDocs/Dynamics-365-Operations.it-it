@@ -1,9 +1,9 @@
 ---
 title: Riscontro di produzione
-description: "Questo articolo fornisce informazioni sul riscontro di produzione, che fornisce a lavoratori il riscontro sui processi di produzione. L&quot;articolo include informazioni sulle varie modalità di aggiornamento del riscontro di produzione."
+description: "Questo articolo fornisce informazioni sul riscontro di produzione, che fornisce a lavoratori il riscontro sui processi di produzione. L'articolo include informazioni sulle varie modalità di aggiornamento del riscontro di produzione."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

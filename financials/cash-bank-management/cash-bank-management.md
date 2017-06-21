@@ -3,7 +3,7 @@ title: Home page di Gestione cassa e banche
 description: "È possibile utilizzare Gestione banche e di cassa per gestire i conti bancari della persona giuridica e gli strumenti finanziari a essi associati."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

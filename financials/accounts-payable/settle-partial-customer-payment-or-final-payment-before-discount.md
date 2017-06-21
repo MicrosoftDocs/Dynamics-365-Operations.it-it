@@ -1,9 +1,9 @@
 ---
 title: Liquidare un pagamento cliente parziale e il pagamento finale completo prima della data dello sconto
-description: Questo articolo fornisce scenari che illustrano come registrare pagamenti parziali per un cliente e applicare sconti di cassa all&quot;interno del periodo dello sconto di cassa.
+description: Questo articolo fornisce scenari che illustrano come registrare pagamenti parziali per un cliente e applicare sconti di cassa all'interno del periodo dello sconto di cassa.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

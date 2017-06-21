@@ -1,9 +1,9 @@
 ---
 title: Riutilizzare le configurazioni prodotto
-description: "È possibile specificare che si desidera automaticamente riutilizzare una configurazione esistente per un prodotto. Quindi quando l&quot;utente termina una sessione di configurazione, il sistema verifica se è già presente una configurazione corrispondente alle selezioni dell&quot;utente. Se viene rilevata una configurazione corrispondente, vengono riutilizzati l&quot;ID di configurazione, la distinta base (DBA) corrispondente e il ciclo di lavorazione."
+description: "È possibile specificare che si desidera automaticamente riutilizzare una configurazione esistente per un prodotto. Quindi quando l'utente termina una sessione di configurazione, il sistema verifica se è già presente una configurazione corrispondente alle selezioni dell'utente. Se viene rilevata una configurazione corrispondente, vengono riutilizzati l'ID di configurazione, la distinta base (DBA) corrispondente e il ciclo di lavorazione."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

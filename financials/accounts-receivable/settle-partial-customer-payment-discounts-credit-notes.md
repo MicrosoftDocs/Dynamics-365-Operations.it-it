@@ -3,7 +3,7 @@ title: Liquidare un pagamento cliente parziale con sconti sulle note di accredit
 description: Questo articolo descrive uno scenario in cui uno sconto di cassa viene applicato su una nota di accredito quando anche la fattura originale ha uno sconto di cassa.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

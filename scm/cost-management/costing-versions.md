@@ -3,7 +3,7 @@ title: Versioni determinazione costi
 description: "In questo articolo vengono fornite informazioni sulle versioni di determinazione costi, sul modo di gestirle e sui tipi di dati che è possibile includervi. Lo scopo principale è quello di includere i record dei costi per gli articoli, le categorie di costi e le formule di calcolo per i costi indiretti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

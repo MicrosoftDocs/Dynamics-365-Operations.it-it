@@ -3,7 +3,7 @@ title: "Home page di contabilità clienti"
 description: "La contabilità clienti consente di tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

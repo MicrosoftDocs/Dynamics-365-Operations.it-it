@@ -3,7 +3,7 @@ title: Panoramica su eliminazione e consolidamento
 description: Questo articolo fornisce informazioni generali sul processo di consolidamento ed eliminazione. Sono incluse le risposte ad alcune domande frequenti.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Organizzare i componenti del report in Progettazione report
 description: "Dopo aver progettato i blocchi predefiniti e generato i report, è utile organizzare questi oggetti in modo che gli utenti possano individuarli più facilmente. In questo articolo viene spiegato come organizzare i report, i blocchi predefiniti e gli oggetti esistenti in Progettazione report."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: Ammortamento basato sulla vita utile rimanente a quote costanti
 description: Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile rimanente a quote costanti.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

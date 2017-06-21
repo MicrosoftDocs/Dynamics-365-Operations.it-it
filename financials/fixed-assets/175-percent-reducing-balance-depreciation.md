@@ -1,9 +1,9 @@
 ---
-title: Riduzione del 175% dell&quot;ammortamento del saldo
+title: Riduzione del 175% dell'ammortamento del saldo
 description: Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 175%.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

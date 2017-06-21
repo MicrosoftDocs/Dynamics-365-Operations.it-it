@@ -1,9 +1,9 @@
 ---
 title: Panoramica di addebito diretto SEPA
-description: "SEPA (Single Euro Payments Area) viene impostata dalla Commissione Europea e determina che tutti i pagamenti elettronici vengono considerati nazionali, indipendentemente dal paese in cui si trovano i singoli individui, le aziende o l&quot;organizzazione e la banca. Non c&quot;è differenza tra i pagamenti nazionali e quelli transfrontalieri. SEPA include i 28 stati membri dell&quot;Unione Europea (UE) oltre all&quot;Islanda, il Liechtenstein, la Norvegia, la Svizzera, Monaco e San Marino. SEPA consente di formare un singolo mercato per le transazioni di pagamento all&quot;interno dell&quot;Area Economica Europea. Infine, SEPA prevede di ridurre il numero dei formati di pagamento con cui lavorano le banche, le aziende e i singoli individui."
+description: "SEPA (Single Euro Payments Area) viene impostata dalla Commissione Europea e determina che tutti i pagamenti elettronici vengono considerati nazionali, indipendentemente dal paese in cui si trovano i singoli individui, le aziende o l'organizzazione e la banca. Non c'è differenza tra i pagamenti nazionali e quelli transfrontalieri. SEPA include i 28 stati membri dell'Unione Europea (UE) oltre all'Islanda, il Liechtenstein, la Norvegia, la Svizzera, Monaco e San Marino. SEPA consente di formare un singolo mercato per le transazioni di pagamento all'interno dell'Area Economica Europea. Infine, SEPA prevede di ridurre il numero dei formati di pagamento con cui lavorano le banche, le aziende e i singoli individui."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

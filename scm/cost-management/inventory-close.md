@@ -3,7 +3,7 @@ title: Chiusura inventario
 description: "Durante il processo per liquidare le transazioni in uscita con le transazioni in entrata, è possibile scegliere di aggiornare la contabilità generale in base alle rettifiche effettuate."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

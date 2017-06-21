@@ -3,12 +3,13 @@ title: Tenere traccia delle provvigioni nel POS tramite gruppi di vendite
 description: "È pratica comune nella vendita al dettaglio tenere traccia delle vendite di un assistente che ha lavorato con il cliente fornendo assistenza, eseguendo l'up-selling ed elaborando la transazione."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations, Core
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa

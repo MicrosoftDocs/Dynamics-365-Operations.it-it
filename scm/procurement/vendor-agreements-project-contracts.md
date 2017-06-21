@@ -3,7 +3,7 @@ title: Contratti fornitore Retribuisci su retribuzione
 description: "Questo articolo descrive le condizioni del metodo Retribuisci su retribuzione per i contratti fornitore. Le condizioni del metodo Retribuisci su retribuzione consentono di sospendere parzialmente o completamente il pagamento a un fornitore finché il cliente del progetto non paga. Questo articolo fornisce anche un esempio reale per mostrare come utilizzare le condizioni di tale metodo per un progetto."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

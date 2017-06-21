@@ -1,9 +1,9 @@
 ---
 title: Calendari fiscali, anni fiscali e periodi
-description: In questo articolo vengono illustrati calendari fiscali, anni fiscali e periodi e il modo in cui utilizzarli per le persone giuridiche, i cespiti e l&quot;impostazione del budget.
+description: In questo articolo vengono illustrati calendari fiscali, anni fiscali e periodi e il modo in cui utilizzarli per le persone giuridiche, i cespiti e l'impostazione del budget.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

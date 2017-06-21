@@ -1,9 +1,9 @@
 ---
 title: Definizioni di registrazione
-description: L&quot;articolo offre alcuni esempi che mostrano come utilizzare le definizioni di registrazione per gli impegni di spesa di ordini fornitore e le ripartizioni di budget.
+description: L'articolo offre alcuni esempi che mostrano come utilizzare le definizioni di registrazione per gli impegni di spesa di ordini fornitore e le ripartizioni di budget.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

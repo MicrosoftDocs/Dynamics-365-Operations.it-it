@@ -3,7 +3,7 @@ title: Lettere di credito
 description: Le lettere di credito sono documenti bancari utilizzati comunemente per la compravendita di merci tra paesi diversi.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

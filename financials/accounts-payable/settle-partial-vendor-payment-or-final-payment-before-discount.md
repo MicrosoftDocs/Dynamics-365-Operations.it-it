@@ -3,7 +3,7 @@ title: Liquidare un pagamento fornitore parziale e il pagamento finale completo 
 description: Questo articolo descrive uno scenario in cui vengono effettuati pagamenti parziali per una fattura fornitore e viene preso uno sconto di cassa.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

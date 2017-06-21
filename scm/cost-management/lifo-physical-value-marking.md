@@ -1,9 +1,9 @@
 ---
 title: Informazioni su LIFO con valore fisico e contrassegno
-description: "LIFO (Last In, First Out) è un modello inventariale in cui le ultime entrate (le più recenti) sono le prime a uscire. Le uscite da magazzino vengono compensate a fronte delle ultime entrate in magazzino in base alla data dell&quot;operazione di magazzino."
+description: "LIFO (Last In, First Out) è un modello inventariale in cui le ultime entrate (le più recenti) sono le prime a uscire. Le uscite da magazzino vengono compensate a fronte delle ultime entrate in magazzino in base alla data dell'operazione di magazzino."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

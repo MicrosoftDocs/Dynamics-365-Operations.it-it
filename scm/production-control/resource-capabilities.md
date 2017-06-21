@@ -1,9 +1,9 @@
 ---
 title: "Capacità risorsa"
-description: "Questo articolo fornisce informazioni sulle capacità delle risorse. Si definisce capacità l&quot;idoneità di una risorsa operativa di eseguire un&quot;attività specifica. L&quot;articolo illustra come le capacità e i concetti correlati, ad esempio il livello di competenza e priorità, vengono utilizzati per selezionare le risorse appropriate per un&quot;attività."
+description: "Questo articolo fornisce informazioni sulle capacità delle risorse. Si definisce capacità l'idoneità di una risorsa operativa di eseguire un'attività specifica. L'articolo illustra come le capacità e i concetti correlati, ad esempio il livello di competenza e priorità, vengono utilizzati per selezionare le risorse appropriate per un'attività."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

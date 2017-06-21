@@ -3,7 +3,7 @@ title: Eseguire il mapping dei membri di dimensione elemento di costo a un set c
 description: Mappando membri delle dimensioni elemento di costo diversi a un set comune di membri delle dimensioni elemento di costo, si uniscono i dati in un formato comune per scopi di analisi.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

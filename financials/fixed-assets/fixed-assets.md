@@ -1,9 +1,9 @@
 ---
 title: Home page di cespiti
-description: "I cespiti sono articoli di valore di proprietà di un utente o di un&quot;organizzazione, ad esempio edifici, veicoli, terreni e attrezzature."
+description: "I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

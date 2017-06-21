@@ -1,9 +1,9 @@
 ---
 title: "Utilizzare un pagamento cliente per liquidare più fatture che coprono più periodi più di sconto"
-description: "Questo articolo mostra come vengono pagate più fatture quando ogni fattura consente di ottenere uno sconto di cassa. Gli scenari dell&quot;articolo evidenziano le variazioni degli sconti di cassa ottenuti, a seconda di quando si effettua il pagamento."
+description: "Questo articolo mostra come vengono pagate più fatture quando ogni fattura consente di ottenere uno sconto di cassa. Gli scenari dell'articolo evidenziano le variazioni degli sconti di cassa ottenuti, a seconda di quando si effettua il pagamento."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

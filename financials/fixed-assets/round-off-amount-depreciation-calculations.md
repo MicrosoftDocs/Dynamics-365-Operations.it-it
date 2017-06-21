@@ -1,9 +1,9 @@
 ---
-title: Importo per l&quot;arrotondamento dei calcoli di ammortamento
+title: Importo per l'arrotondamento dei calcoli di ammortamento
 description: Questo articolo illustra il campo Arrotonda ammortamento presente nelle pagine Impostazione libro.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

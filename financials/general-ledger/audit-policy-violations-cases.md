@@ -1,9 +1,9 @@
 ---
 title: Casi e violazioni dei criteri di controllo
-description: "L&quot;articolo illustra come i casi di controllo vengono generati dalle violazioni delle regole dei criteri di controllo. Include inoltre le informazioni sulle varie modalità in cui i criteri di controllo utilizzano l&quot;intervallo di date per la selezione dei documenti."
+description: "L'articolo illustra come i casi di controllo vengono generati dalle violazioni delle regole dei criteri di controllo. Include inoltre le informazioni sulle varie modalità in cui i criteri di controllo utilizzano l'intervallo di date per la selezione dei documenti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

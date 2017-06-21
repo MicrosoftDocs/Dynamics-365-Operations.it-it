@@ -3,7 +3,7 @@ title: Utilizzare Importazione/esportazione rapida
 description: "Lo scopo di Importazione/esportazione rapida è consentire di importare ed esportare con meno passaggi."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
 ms.service: 

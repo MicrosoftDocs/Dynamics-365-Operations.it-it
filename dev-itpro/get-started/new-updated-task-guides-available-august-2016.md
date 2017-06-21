@@ -3,7 +3,7 @@ title: "Guide attività nuove o aggiornate (agosto 2016)"
 description: "In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (agosto 2016 -- tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

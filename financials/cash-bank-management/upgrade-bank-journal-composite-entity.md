@@ -1,9 +1,9 @@
 ---
-title: "Aggiornare l&quot;entità composta giornale di registrazione bancario"
+title: "Aggiornare l'entità composta giornale di registrazione bancario"
 description: I passaggi seguenti sono necessari per aggiungere il campo BankTransactionType aggiuntivo a BankJournalEntity composta.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

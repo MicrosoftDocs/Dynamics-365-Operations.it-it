@@ -3,7 +3,7 @@ title: Gestione degli sconti di cassa per le eccedenze di pagamento
 description: Questo articolo fornisce gli scenari che mostrano come un pagamento viene gestito quando il cliente ha uno sconto di cassa ma paga anche un importo superiore al dovuto.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

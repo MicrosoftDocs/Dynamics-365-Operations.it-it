@@ -1,9 +1,9 @@
 ---
 title: Certificati di entrata UE
-description: Vengono fornite le informazioni sui certificati di entrata dell&quot;Unione Europea (UE).
+description: Vengono fornite le informazioni sui certificati di entrata dell'Unione Europea (UE).
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

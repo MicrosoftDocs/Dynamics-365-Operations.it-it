@@ -3,7 +3,7 @@ title: Conti di registrazione per dismissione cespiti
 description: "Questo articolo illustra come impostare i conti di registrazione della contabilità generale per la dismissione dei cespiti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

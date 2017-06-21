@@ -1,9 +1,9 @@
 ---
 title: Integrazione dei cespiti
-description: "È possibile integrare Cespiti con Contabilità generale, Gestione articoli, Contabilità clienti e Contabilità fornitori. È inoltre possibile impostare i cespiti per l&quot;integrazione con gli ordini fornitore."
+description: "È possibile integrare Cespiti con Contabilità generale, Gestione articoli, Contabilità clienti e Contabilità fornitori. È inoltre possibile impostare i cespiti per l'integrazione con gli ordini fornitore."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

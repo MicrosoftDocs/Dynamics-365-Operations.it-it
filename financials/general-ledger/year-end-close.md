@@ -1,9 +1,9 @@
 ---
 title: Chiusura di fine anno
-description: "In questo argomento viene descritto la configurazione e la procedura richieste per l&quot;esecuzione del processo di chiusura di fine anno della contabilità generale."
+description: "In questo argomento viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

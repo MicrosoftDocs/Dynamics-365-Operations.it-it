@@ -3,7 +3,7 @@ title: "Configurare Contabilità clienti e Crediti e riscossioni"
 description: "Configurare i moduli Contabilità clienti e Crediti e riscossioni per tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
-title: Report della distinta di pagamento per l&quot;Europa
-description: Di seguito vengono descritti i report della distinta di pagamento per l&quot;Europa.
+title: Report della distinta di pagamento per l'Europa
+description: Di seguito vengono descritti i report della distinta di pagamento per l'Europa.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,10 +3,10 @@ title: Panoramica della gestione delle prestazioni
 description: Il processo di gestione delle prestazioni consente ai dipendenti di documentare e discutere le prestazioni con il responsabile. A loro volta, i responsabili possono quindi fornire un riscontro e le indicazioni ai dipendenti.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

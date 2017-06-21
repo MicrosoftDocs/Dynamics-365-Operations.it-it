@@ -1,9 +1,9 @@
 ---
 title: Attributi batch
-description: Questo articolo fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L&quot;articolo illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
+description: Questo articolo fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'articolo illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

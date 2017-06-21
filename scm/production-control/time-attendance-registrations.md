@@ -3,7 +3,7 @@ title: Registrazione Orario e presenze
 description: "I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo articolo vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l'approvazione automatica al processo di approvazione delle schede attività."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

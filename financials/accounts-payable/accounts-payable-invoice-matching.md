@@ -3,7 +3,7 @@ title: "Abbinamento fatture della contabilità fornitori"
 description: "Il processo di abbinamento fatture della contabilità fornitori consente di abbinare le informazioni relative a fatture fornitore, ordini fornitore ed entrate prodotti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Distribuzioni contabili e sugli inserimenti nel giornale di registrazione
 description: "Le distribuzioni contabili vengono utilizzate per definire il modo in cui importo verrà conteggiato, ad esempio i ricavi, le tasse o le spese vengono conteggiate in una fattura a testo libero. Ogni importo che deve essere conteggiato quando la fattura a testo libero viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Liquidare un pagamento fornitore parziale prima della data dello sconto c
 description: "In questo articolo viene descritto uno scenario in cui vengono eseguiti più pagamenti parziali, alcuni nel periodo dello sconto di cassa e altri fuori dello stesso periodo."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

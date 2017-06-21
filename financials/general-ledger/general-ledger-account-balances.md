@@ -3,7 +3,7 @@ title: "Saldi dei conti della contabilità generale"
 description: 'Questo articolo illustra due modi per visualizzare i saldi dei conti CoGe: la pagina elenco Bilancio di verifica e i report finanziari. Viene inoltre discusso come aggiornare i saldi del set di dimensioni.'
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

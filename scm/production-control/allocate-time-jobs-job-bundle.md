@@ -1,9 +1,9 @@
 ---
-title: Allocare tempo ai processi in un&quot;aggregazione di processi
+title: Allocare tempo ai processi in un'aggregazione di processi
 description: "In Esecuzione produzione, è possibile aggregare i processi. È quindi possibile avviare più processi contemporaneamente nella pagina Elenco processi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
 title: "Importazione MT940 riconciliazione estratti conto avanzata - Aggiornamento entità di dati compositi"
-description: "Un numero progressivo deve essere aggiunto all&quot;entità importazione rendiconto bancario per supportare il formato MT940."
+description: "Un numero progressivo deve essere aggiunto all'entità importazione rendiconto bancario per supportare il formato MT940."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

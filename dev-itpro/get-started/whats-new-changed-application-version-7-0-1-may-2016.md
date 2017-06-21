@@ -3,7 +3,7 @@ title: "Novità o modifiche introdotte in Dynamics AX versione applicazione 7.0.
 description: "Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynamics AX versione applicazione 7.0.1. Questa versione è stata rilasciata nel maggio 2016 e ha numero di build 7.0.1265.23014."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

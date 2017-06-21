@@ -3,7 +3,7 @@ title: Aggiornare costi standard in un ambiente di produzione
 description: Questo articolo fornisce indicazioni su come aggiornare i costi standard in un ambiente di produzione.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Opzioni di formattazione avanzate nei report finanziari
 description: "Quando si crea un report nei report finanziari, sono disponibili funzioni di formattazione aggiuntive, inclusi i filtri per dimensioni, restrizioni per le colonne e le unità di report, righe non stampabili e istruzioni IF/THEN/ELSE nei calcoli."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

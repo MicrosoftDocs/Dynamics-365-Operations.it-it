@@ -3,7 +3,7 @@ title: Categorie di costi utilizzate nei cicli di lavorazione
 description: Questo articolo fornisce informazioni sulle categorie di costi applicate agli ambienti di produzione che utilizzano i cicli di lavorazione.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

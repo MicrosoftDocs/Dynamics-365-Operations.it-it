@@ -1,9 +1,9 @@
 ---
 title: Liquidare un pagamento cliente parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
-description: "Questo articolo illustra l&quot;effetto della liquidazione dei pagamenti delle fatture per i clienti. Lo scenario si concentra sugli effetti della contabilità secondaria, non della contabilità generale."
+description: "Questo articolo illustra l'effetto della liquidazione dei pagamenti delle fatture per i clienti. Lo scenario si concentra sugli effetti della contabilità secondaria, non della contabilità generale."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Regole di allocazione contabile
 description: "Questo articolo fornisce informazioni sulle regole di allocazione della contabilità generale. Descrive i vari componenti delle regole di allocazione e i metodi di allocazione che possono essere utilizzati per tali regole."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

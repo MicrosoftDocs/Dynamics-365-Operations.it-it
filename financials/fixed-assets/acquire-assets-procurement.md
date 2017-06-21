@@ -1,9 +1,9 @@
 ---
 title: Acquisire cespiti tramite approvvigionamento
-description: "Questo articolo descrive come impostare l&quot;integrazione di Cespiti con la contabilità fornitori in modo da consentire la creazione automatica di cespiti a partire da ordini o fatture fornitore oppure la registrazione automatica di transazioni di acquisizione e di rettifica acquisizione per i cespiti."
+description: "Questo articolo descrive come impostare l'integrazione di Cespiti con la contabilità fornitori in modo da consentire la creazione automatica di cespiti a partire da ordini o fatture fornitore oppure la registrazione automatica di transazioni di acquisizione e di rettifica acquisizione per i cespiti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

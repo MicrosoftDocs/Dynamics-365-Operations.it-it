@@ -3,7 +3,7 @@ title: Configurare crediti e riscossioni
 description: "In questo articolo viene descritto come impostare le funzionalità di riscossione."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

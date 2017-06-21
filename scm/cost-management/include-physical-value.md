@@ -1,9 +1,9 @@
 ---
 title: Includi valore fisico
-description: Si utilizza la casella di controllo Includi valore fisico nella scheda dettaglio Modello inventariale della pagina Gruppi di modelli di articolo per specificare se nel calcolo del prezzo di costo medio corrente dell&quot;articolo vengono considerate le transazioni aggiornate fisicamente.
+description: Si utilizza la casella di controllo Includi valore fisico nella scheda dettaglio Modello inventariale della pagina Gruppi di modelli di articolo per specificare se nel calcolo del prezzo di costo medio corrente dell'articolo vengono considerate le transazioni aggiornate fisicamente.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

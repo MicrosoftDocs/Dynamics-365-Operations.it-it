@@ -1,9 +1,9 @@
 ---
 title: Fatture di pagamento anticipato e pagamenti anticipati a confronto
-description: Questo articolo descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati. Con un metodo si crea una fattura di pagamento anticipato associata a un ordine fornitore. Con l&quot;altro metodo si creano i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di scritture contabili e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato.
+description: Questo articolo descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati. Con un metodo si crea una fattura di pagamento anticipato associata a un ordine fornitore. Con l'altro metodo si creano i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di scritture contabili e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

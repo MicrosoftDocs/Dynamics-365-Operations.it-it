@@ -3,7 +3,7 @@ title: Definizioni di registrazione
 description: "Questo articolo fornisce informazioni sulle definizioni di registrazione e sul modo in cui definirle e collegarle. Per i tipi di registrazione e i documenti supportati è possibile utilizzare definizioni di registrazione anziché profili di registrazione per classificare i conti principali e le dimensioni finanziarie nelle voci contabili."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

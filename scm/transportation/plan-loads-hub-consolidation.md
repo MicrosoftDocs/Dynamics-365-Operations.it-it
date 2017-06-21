@@ -3,7 +3,7 @@ title: Pianificare carichi utilizzando il consolidamento di hub
 description: "Questo articolo descrive la funzionalità di consolidamento delle spedizioni in un hub quando si consegnano merci dai magazzini diversi allo stesso cliente o quando merci vengono consegnate da più fornitori allo stesso magazzino."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

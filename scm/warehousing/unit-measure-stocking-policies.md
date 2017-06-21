@@ -3,7 +3,7 @@ title: "Politiche di immagazzinamento e di unità di misura"
 description: "Questo articolo descrive come si utilizzano le unità predefinite, le sequenze unità e le conversioni di unità nei processi di magazzino."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

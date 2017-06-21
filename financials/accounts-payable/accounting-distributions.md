@@ -3,7 +3,7 @@ title: Distribuzioni contabili
 description: Questo articolo fornisce informazioni sulle distribuzioni contabili e descrive le opzioni disponibili per elaborarle. Le distribuzioni contabili vengono utilizzate per allocare gli importi monetari per un documento di origine in conti CoGe specifici.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

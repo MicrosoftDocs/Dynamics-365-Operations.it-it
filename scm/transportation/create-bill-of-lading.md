@@ -3,7 +3,7 @@ title: Creare una polizza di carico
 description: In questo argomento viene descritto come creare una polizza di carico quando si utilizzano i processi di gestione magazzino.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

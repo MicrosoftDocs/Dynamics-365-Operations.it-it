@@ -3,7 +3,7 @@ title: Report finanziari del conto patrimoniale
 description: In questo articolo viene descritto i report predefiniti per gli stati patrimoniali. Sono descritti inoltre i blocchi predefiniti associati a questi report.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

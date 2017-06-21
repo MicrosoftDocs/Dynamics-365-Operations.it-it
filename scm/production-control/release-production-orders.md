@@ -1,9 +1,9 @@
 ---
 title: Rilasciare gli ordini di produzione
-description: "Un ordine di produzione rilasciato è un ordine che è stato autorizzato per la produzione. Il termine Rilasciato viene utilizzato per descrivere uno stato del ciclo di vita dell&quot;ordine di produzione, quando l&quot;ordine di produzione è disponibile per l&quot;esecuzione nello shop floor di produzione e per i processi di magazzino."
+description: "Un ordine di produzione rilasciato è un ordine che è stato autorizzato per la produzione. Il termine Rilasciato viene utilizzato per descrivere uno stato del ciclo di vita dell'ordine di produzione, quando l'ordine di produzione è disponibile per l'esecuzione nello shop floor di produzione e per i processi di magazzino."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

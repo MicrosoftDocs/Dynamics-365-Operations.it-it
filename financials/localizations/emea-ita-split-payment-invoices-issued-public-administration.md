@@ -3,7 +3,7 @@ title: Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
 description: "In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,10 +3,10 @@ title: Impostazione dei componenti di una mansione
 description: "In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User

@@ -3,7 +3,7 @@ title: Genera un report finanziario
 description: In questo argomento sono riportate informazioni sulla generazione di un report finanziario.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

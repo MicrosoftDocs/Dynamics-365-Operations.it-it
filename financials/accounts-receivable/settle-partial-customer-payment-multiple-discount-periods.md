@@ -3,7 +3,7 @@ title: "Liquidare un pagamento cliente parziale che ha più periodi di sconto"
 description: "Questo articolo illustra come vengono liquidati i pagamenti cliente se sono presenti più periodi di sconto."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

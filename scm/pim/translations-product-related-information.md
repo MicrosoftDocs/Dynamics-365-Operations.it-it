@@ -3,7 +3,7 @@ title: Domande frequenti sulle traduzioni relative ai prodotti
 description: In questo argomento viene descritto come gestire le traduzioni per i prodotti, i valori di dimensione prodotto e gli attributi del prodotto.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

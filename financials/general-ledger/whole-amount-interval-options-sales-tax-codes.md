@@ -1,9 +1,9 @@
 ---
 title: Opzioni Importo totale e Intervallo per i codici IVA
-description: Questo articolo illustra le opzioni del campo Metodo di calcolo sui codici IVA e come si calcola l&quot;IVA per intervalli e interi importi.
+description: Questo articolo illustra le opzioni del campo Metodo di calcolo sui codici IVA e come si calcola l'IVA per intervalli e interi importi.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

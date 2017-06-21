@@ -1,9 +1,9 @@
 ---
 title: Criteri acquisto
-description: Questo articolo fornisce informazioni sui criteri di acquisto. I criteri di acquisto rappresentano raccolte di regole per il controllo del processo di richiesta di acquisto. I criteri di acquisto consentono agli amministratori di approvvigionamento di implementare la strategia di approvvigionamento creando una struttura di criteri in linea con le esigenze per gli acquisti strategici dell&quot;organizzazione.
+description: Questo articolo fornisce informazioni sui criteri di acquisto. I criteri di acquisto rappresentano raccolte di regole per il controllo del processo di richiesta di acquisto. I criteri di acquisto consentono agli amministratori di approvvigionamento di implementare la strategia di approvvigionamento creando una struttura di criteri in linea con le esigenze per gli acquisti strategici dell'organizzazione.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

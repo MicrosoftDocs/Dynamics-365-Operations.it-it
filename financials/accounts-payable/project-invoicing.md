@@ -3,7 +3,7 @@ title: Fatturazione progetto
 description: Questo articolo fornisce una panoramica della fatturazione per i progetti di tempistica e materiali e a prezzo fisso. Sono riportate informazioni sulle proposte di fatturazione (fatture preliminari), controllo della fattura, fatturazione acconti, fatturazione fornitori e note di credito.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

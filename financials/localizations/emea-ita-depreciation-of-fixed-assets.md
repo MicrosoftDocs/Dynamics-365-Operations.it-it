@@ -1,9 +1,9 @@
 ---
-title: Ammortamento manuale dei cespiti per l&quot;Italia
-description: In questo argomento vengono fornite informazioni sull&quot;ammortamento dei cespiti per le persone giuridiche in Italia.
+title: Ammortamento manuale dei cespiti per l'Italia
+description: In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

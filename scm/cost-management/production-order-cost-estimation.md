@@ -1,9 +1,9 @@
 ---
 title: Stima dei costi degli ordini di produzione
-description: "In questo articolo vengono fornite informazioni sulla stima dei costi di produzione. Tale stima consente di ottenere i costi relativi al consumo di materiali e alla capacità previsti per la produzione della quantità di un articolo indicata nell&quot;ordine di produzione pianificato."
+description: "In questo articolo vengono fornite informazioni sulla stima dei costi di produzione. Tale stima consente di ottenere i costi relativi al consumo di materiali e alla capacità previsti per la produzione della quantità di un articolo indicata nell'ordine di produzione pianificato."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

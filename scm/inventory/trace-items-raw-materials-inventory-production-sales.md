@@ -3,7 +3,7 @@ title: Traccia di articoli e materie prime in magazzino, nella produzione e nell
 description: "In questo argomento viene descritto come utilizzare la tracciabilità articolo per identificare il punto in cui vengono utilizzati gli articoli o le materie prime o quello in cui verranno utilizzati nei processi di produzione e vendita."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

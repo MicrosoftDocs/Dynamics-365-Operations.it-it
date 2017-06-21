@@ -1,9 +1,9 @@
 ---
 title: Analisi del costo ordine di produzione
-description: "Questo articolo fornisce informazioni sull&quot;analisi dei costi che è possibile effettuare per gli ordini di produzione completati e correnti. È possibile analizzare i costi stimati ed effettivi utilizzando la pagina Calcolo dei prezzi o il report Stima e determinazione dei costi. Vengono visualizzate informazioni sui costi e sulle quantità effettivi e stimati di ogni articolo componente, sull&quot;operazione di ciclo di lavorazione e sul costo indiretto."
+description: "Questo articolo fornisce informazioni sull'analisi dei costi che è possibile effettuare per gli ordini di produzione completati e correnti. È possibile analizzare i costi stimati ed effettivi utilizzando la pagina Calcolo dei prezzi o il report Stima e determinazione dei costi. Vengono visualizzate informazioni sui costi e sulle quantità effettivi e stimati di ogni articolo componente, sull'operazione di ciclo di lavorazione e sul costo indiretto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

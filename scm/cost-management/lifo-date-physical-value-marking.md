@@ -1,9 +1,9 @@
 ---
 title: Data LIFO con valore fisico e contrassegno
-description: "Data LIFO (Last In, First Out) è un modello inventariale basato sul principio LIFO. Le uscite da magazzino vengono liquidate a fronte delle ultime entrate in magazzino in base alla data della transazione di magazzino. Mediante questo modello inventariale, in assenza di entrate antecedenti all&quot;uscita, quest&quot;ultima viene liquidata a fronte delle entrate successive alla data dell&quot;uscita. In caso di più uscite con la stessa data, la liquidazione può essere effettuata in base all&quot;ordine ultima uscita, ultima entrata."
+description: "Data LIFO (Last In, First Out) è un modello inventariale basato sul principio LIFO. Le uscite da magazzino vengono liquidate a fronte delle ultime entrate in magazzino in base alla data della transazione di magazzino. Mediante questo modello inventariale, in assenza di entrate antecedenti all'uscita, quest'ultima viene liquidata a fronte delle entrate successive alla data dell'uscita. In caso di più uscite con la stessa data, la liquidazione può essere effettuata in base all'ordine ultima uscita, ultima entrata."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

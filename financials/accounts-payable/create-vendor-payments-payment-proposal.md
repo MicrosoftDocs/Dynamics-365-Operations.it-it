@@ -3,7 +3,7 @@ title: Creare pagamenti fornitore utilizzando una proposta di pagamento
 description: "Questo argomento fornisce una panoramica delle opzioni di proposta di pagamento e include alcuni esempi che illustrano come funzionano le proposte di pagamento. Le proposte di pagamento sono spesso utilizzate per creare pagamenti fornitore, poiché la query può essere utilizzata per selezionare rapidamente le fatture fornitore per il pagamento, in base a criteri quali la data di scadenza e lo sconto di cassa."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

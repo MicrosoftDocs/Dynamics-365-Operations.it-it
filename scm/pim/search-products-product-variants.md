@@ -3,7 +3,7 @@ title: Ricerca di prodotti e varianti prodotto durante la registrazione ordine
 description: "Utilizzare il campo <strong>Numero articolo </strong>per cercare i prodotti e le varianti prodotto quando si crea manualmente una riga ordine cliente o una riga ordine fornitore.  In questo modo è possibile trovare rapidamente le varianti prodotto quando si dispone solo della stringa di configurazione o una delle dimensioni prodotto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

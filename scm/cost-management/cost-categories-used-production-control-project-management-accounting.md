@@ -3,7 +3,7 @@ title: "Categorie costi utilizzate in Controllo produzione e Gestione progetti e
 description: "Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. Questo articolo fornisce informazioni sulle categorie di costi che è necessario definire per questi tipi di lavoro di produzione ai fini della produzione e del progetto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

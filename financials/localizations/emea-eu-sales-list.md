@@ -1,9 +1,9 @@
 ---
 title: Dichiarazione elenco vendite UE
-description: Questo articolo fornisce informazioni sulla dichiarazione elenco vendite dell&quot;Unione Europea (UE).
+description: Questo articolo fornisce informazioni sulla dichiarazione elenco vendite dell'Unione Europea (UE).
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

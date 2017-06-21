@@ -1,9 +1,9 @@
 ---
 title: Distinte base e formule
-description: L&quot;articolo offre informazioni sulle distinte base (DBA) e sulle formule, che sono una parte centrale della definizione dei prodotti e varianti prodotto. Le distinte base e le formule specificano i materiali o gli ingredienti necessari per un prodotto specifico. Le formule inoltre specificano i co-prodotti e sottoprodotti ricevuti nel contesto di produzione specifico.
+description: L'articolo offre informazioni sulle distinte base (DBA) e sulle formule, che sono una parte centrale della definizione dei prodotti e varianti prodotto. Le distinte base e le formule specificano i materiali o gli ingredienti necessari per un prodotto specifico. Le formule inoltre specificano i co-prodotti e sottoprodotti ricevuti nel contesto di produzione specifico.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
