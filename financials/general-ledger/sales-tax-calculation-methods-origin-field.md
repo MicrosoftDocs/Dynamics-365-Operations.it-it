@@ -1,9 +1,9 @@
 ---
 title: Metodi di calcolo IVA nel campo Origine
-description: Questo articolo illustra le opzioni nel campo Origine nella pagina Codici IVA e spiega come viene calcolata l&quot;IVA in base all&quot;opzione selezionata per un codice IVA.
+description: Questo articolo illustra le opzioni nel campo Origine nella pagina Codici IVA e spiega come viene calcolata l'IVA in base all'opzione selezionata per un codice IVA.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

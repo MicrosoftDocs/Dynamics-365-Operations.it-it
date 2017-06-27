@@ -1,16 +1,16 @@
 ---
 title: Abbinamento fatture e sugli ordini fornitore interaziendali
-description: "La persona giuridica acquirente coinvolta in una transazione di commercio interaziendale può essere impostata per l&quot;utilizzo dell&quot;abbinamento fatture contabilità fornitori. In questo caso, affinché vengano registrate le fatture relative agli ordini fornitore interaziendali, devono essere soddisfatti i requisiti di registrazione sia per il commercio interaziendale sia per l&quot;abbinamento fatture contabilità fornitori."
+description: "La persona giuridica acquirente coinvolta in una transazione di commercio interaziendale può essere impostata per l'utilizzo dell'abbinamento fatture contabilità fornitori. In questo caso, affinché vengano registrate le fatture relative agli ordini fornitore interaziendali, devono essere soddisfatti i requisiti di registrazione sia per il commercio interaziendale sia per l'abbinamento fatture contabilità fornitori."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf

@@ -3,7 +3,7 @@ title: Programmazione operazioni
 description: "In questo argomento sono riportate informazioni sulla programmazione delle operazioni. Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

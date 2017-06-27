@@ -1,9 +1,9 @@
 ---
 title: Pianificare il piano dei conti
-description: Questo articolo fornisce le informazioni che consentono di pianificare il piano dei conti per l&quot;organizzazione.
+description: Questo articolo fornisce le informazioni che consentono di pianificare il piano dei conti per l'organizzazione.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

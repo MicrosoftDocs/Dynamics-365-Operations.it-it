@@ -3,7 +3,7 @@ title: Sostituzione di materiale in fase di produzione
 description: In questo argomento viene descritto come sostituire i materiali durante il processo di produzione.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

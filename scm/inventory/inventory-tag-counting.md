@@ -1,9 +1,9 @@
 ---
 title: Conteggio tag scorte
-description: Questo articolo fornisce informazioni sul conteggio dei tag, utilizzato per confrontare l&quot;effettivo contenuto di un magazzino con le scorte disponibili.
+description: Questo articolo fornisce informazioni sul conteggio dei tag, utilizzato per confrontare l'effettivo contenuto di un magazzino con le scorte disponibili.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

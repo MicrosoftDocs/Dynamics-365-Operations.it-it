@@ -3,7 +3,7 @@ title: Termini per registrazione ordine
 description: "Questo articolo fornisce informazioni sulle scadenze di registrazione ordine. Una scadenza di registrazione ordine è un tempo limite che determina se un ordine cliente è considerato (ed evaso) come ricevuto il giorno corrente o il giorno successivo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

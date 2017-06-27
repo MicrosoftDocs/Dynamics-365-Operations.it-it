@@ -1,9 +1,9 @@
 ---
-title: Rinunciare all&quot;addebito di interessi o commissioni, ripristinarli o stornarli
+title: Rinunciare all'addebito di interessi o commissioni, ripristinarli o stornarli
 description: Questo articolo illustra come rinunciare ad addebitare, ripristinare e stornare le spese per gli interessi e le commissioni.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

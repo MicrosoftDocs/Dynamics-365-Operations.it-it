@@ -3,7 +3,7 @@ title: Origini comuni degli scostamenti di produzione
 description: Questo articolo illustra le varie origini normali di ciascun tipo di scostamento produzione.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

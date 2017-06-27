@@ -3,7 +3,7 @@ title: "Rivalutazione valuta estera per contabilità generale"
 description: "In questo argomento viene fornita una panoramica delle seguenti operazioni relative al processo di rivalutazione valuta estera della contabilità generale: impostazione, esecuzione del processo, calcolo per il processo e lo storno di transazioni di rivalutazione, se necessario."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

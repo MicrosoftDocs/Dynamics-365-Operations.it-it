@@ -3,7 +3,7 @@ title: Aggiornamento di massa dei cespiti
 description: "Se si utilizzano libri, è possibile modificare le convenzioni di ammortamento per i gruppi di cespiti appartenenti allo stesso libro."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

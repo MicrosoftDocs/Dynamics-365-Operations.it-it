@@ -1,9 +1,9 @@
 ---
 title: Impostare gli effetti attivi
-description: In questo argomento viene illustrata la procedura per l&quot;impostazione degli effetti attivi.
+description: In questo argomento viene illustrata la procedura per l'impostazione degli effetti attivi.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

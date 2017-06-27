@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustParameters, LedgerJournalSetup, ProjJournalName, TaxBook, TaxBookSection, TaxBookSectionLookupVoucherSeries, TaxBookStatus, TaxBookTable, VendParameters
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 268654
-ms.assetid: 3e761795-22e4-4d40-8c51-1f4a3f94b573
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30

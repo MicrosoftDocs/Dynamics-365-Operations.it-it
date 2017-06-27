@@ -3,7 +3,7 @@ title: Cataloghi di approvvigionamento
 description: "Questo articolo descrive, in modo generale, in che modo i professionisti degli acquisti possono impostare e gestire i cataloghi di approvvigionamento. I cataloghi di approvvigionamento definiscono gli articoli e i servizi che i dipendenti della società possono ordinare per uso interno."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
-title: Risoluzione dei problemi dell&quot;impostazione budget posizione
+title: Risoluzione dei problemi dell'impostazione budget posizione
 description: Questo articolo fornisce le risposte alle domande che potrebbero sorgere quando si configura il budget per la posizione. Risolve le domande frequenti sulla creazione degli elementi costo budget, i gruppi di retribuzione e le griglie retributive.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

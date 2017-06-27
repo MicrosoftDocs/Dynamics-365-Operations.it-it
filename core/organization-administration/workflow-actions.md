@@ -3,7 +3,7 @@ title: Azioni flusso di lavoro
 description: "In questo articolo vengono illustrate le azioni che ciascun partecipante a un processo di approvazione del flusso di lavoro può eseguire."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

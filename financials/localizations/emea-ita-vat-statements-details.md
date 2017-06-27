@@ -1,14 +1,15 @@
 ---
-title: Dettagli delle dichiarazioni IVA per l&quot;Italia
+title: Dettagli delle dichiarazioni IVA per l'Italia
 description: In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 269664
 ms.assetid: af07d122-5694-4de6-96bf-7bf5478b0175

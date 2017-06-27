@@ -3,7 +3,7 @@ title: Promesse ordine
 description: "Questo articolo fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

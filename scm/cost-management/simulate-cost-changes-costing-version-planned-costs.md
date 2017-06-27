@@ -3,7 +3,7 @@ title: Simulare le variazioni di costo mediante una versione di determinazione c
 description: In questo articolo viene illustrato come simulare gli effetti prodotti dalle variazioni di costo sui costi calcolati di un articolo prodotto con una versione di determinazione costi separata per costi pianificati.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

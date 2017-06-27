@@ -3,7 +3,7 @@ title: Programmazione dei processi kanban per lean manufacturing
 description: "Questo articolo fornisce informazioni su controllo visivo sulla programmazione dei processi kanban e le modalità varie per la programmazione dei processi kanban."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

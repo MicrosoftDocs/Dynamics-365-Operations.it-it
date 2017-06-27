@@ -3,7 +3,7 @@ title: Liquidare un pagamento fornitore parziale con sconti sulle note di accred
 description: Questo articolo descrive uno scenario in cui una nota di credito viene liquidata a fronte di una fattura.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
 title: Impostare un modello di configurazione prodotto
-description: Questo articolo descrive i passaggi per l&quot;impostazione e la creazione di un modello di configurazione prodotto.
+description: Questo articolo descrive i passaggi per l'impostazione e la creazione di un modello di configurazione prodotto.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

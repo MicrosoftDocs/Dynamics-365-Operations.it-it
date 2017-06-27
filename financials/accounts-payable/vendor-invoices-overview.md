@@ -3,7 +3,7 @@ title: Panoramica delle fatture fornitore
 description: Questo articolo fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

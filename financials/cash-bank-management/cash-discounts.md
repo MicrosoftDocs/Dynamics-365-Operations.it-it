@@ -3,7 +3,7 @@ title: Sconti di cassa
 description: "Gli sconti di cassa vengono impostati e condivisi per la contabilità fornitori e la contabilità clienti.  Lo sconto di cassa disponibile può essere definito sulla fattura cliente o sulla fattura fornitore e verrà applicato se la fattura viene pagata entro la data dello sconto di cassa."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

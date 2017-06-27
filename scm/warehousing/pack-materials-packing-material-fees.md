@@ -1,9 +1,9 @@
 ---
 title: Materiali di imballaggio e addebiti
-description: "Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli. Per ciascun materiale di cui si compone un&quot;unità di imballaggio viene pagato un importo per unità di peso. Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario."
+description: "Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli. Per ciascun materiale di cui si compone un'unità di imballaggio viene pagato un importo per unità di peso. Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

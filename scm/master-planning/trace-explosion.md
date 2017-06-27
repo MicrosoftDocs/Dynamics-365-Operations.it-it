@@ -1,9 +1,9 @@
 ---
-title: Utilizzare la tracciatura per l&quot;esplosione
-description: In questo articolo viene illustrato come utilizzare l&quot;analisi per esplorare le cause associate al risultato dell&quot;esplosione di un ordine.
+title: Utilizzare la tracciatura per l'esplosione
+description: In questo articolo viene illustrato come utilizzare l'analisi per esplorare le cause associate al risultato dell'esplosione di un ordine.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

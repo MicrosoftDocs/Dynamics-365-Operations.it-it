@@ -1,17 +1,17 @@
 ---
-title: Verifica della data del documento di trasporto nelle fatture per l&quot;Italia
-description: "Per l&quot;Italia, la data della fattura è verificata sui documenti di trasporto e sulle proposte di fatturazione. In questo argomento vengono fornite informazioni aggiuntive sulla verifica eseguita."
+title: Verifica della data del documento di trasporto nelle fatture per l'Italia
+description: "Per l'Italia, la data della fattura è verificata sui documenti di trasporto e sulle proposte di fatturazione. In questo argomento vengono fornite informazioni aggiuntive sulla verifica eseguita."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 263824
-ms.assetid: 5fd63f5d-f6b1-48f2-962b-26360a7072a2
 ms.search.region: Italy
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30

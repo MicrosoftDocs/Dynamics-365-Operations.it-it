@@ -1,9 +1,9 @@
 ---
 title: Dichiarare finiti gli ordini di produzione
-description: "Dichiara finito è una fase di produzione. In questa fase, un prodotto finito viene dichiarato e spostato dall&quot;ordine di produzione all&quot;inventario."
+description: "Dichiara finito è una fase di produzione. In questa fase, un prodotto finito viene dichiarato e spostato dall'ordine di produzione all'inventario."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

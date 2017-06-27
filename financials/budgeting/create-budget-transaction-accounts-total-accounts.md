@@ -3,7 +3,7 @@ title: Creare un budget da conti transazioni e conti totali
 description: "Questo articolo fornisce una panoramica del processo per creare budget basati sui conti totali. Illustra inoltre come attivare il controllo del budget per i conti totali, se il controllo del budget è necessario."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

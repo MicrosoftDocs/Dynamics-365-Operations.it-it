@@ -1,9 +1,9 @@
 ---
 title: Immettere le combinazioni di conto e dimensione (controllo di voci segmentato)
-description: Questo articolo descrive come immettere le combinazioni di conto e dimensioni o conti CoGe. All&quot;esperienza di inserimento si fa spesso riferimento come controllo di voci segmentato.
+description: Questo articolo descrive come immettere le combinazioni di conto e dimensioni o conti CoGe. All'esperienza di inserimento si fa spesso riferimento come controllo di voci segmentato.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

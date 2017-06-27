@@ -1,9 +1,9 @@
 ---
 title: Programmazione processo
-description: "Questo articolo fornisce informazioni sulla programmazione processi, ovvero una forma più dettagliata di programmazione della programmazione operazioni. È possibile utilizzare la programmazione processi per pianificare i singoli processi o ordini di lavorazione e controllare l&quot;ambiente di produzione."
+description: "Questo articolo fornisce informazioni sulla programmazione processi, ovvero una forma più dettagliata di programmazione della programmazione operazioni. È possibile utilizzare la programmazione processi per pianificare i singoli processi o ordini di lavorazione e controllare l'ambiente di produzione."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

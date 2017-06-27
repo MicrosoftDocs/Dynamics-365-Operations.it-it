@@ -1,9 +1,9 @@
 ---
 title: Pagamenti IVA e regole di arrotondamento
-description: Questo articolo illustra il funzionamento dell&quot;impostazione della regola di arrotondamento in Uffici IVA e l&quot;arrotondamento del saldo dell&quot;IVA durante il processo Liquida e registra IVA.
+description: Questo articolo illustra il funzionamento dell'impostazione della regola di arrotondamento in Uffici IVA e l'arrotondamento del saldo dell'IVA durante il processo Liquida e registra IVA.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

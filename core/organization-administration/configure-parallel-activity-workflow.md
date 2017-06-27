@@ -1,9 +1,9 @@
 ---
-title: "Configurare un&quot;attività parallela in un flusso di lavoro"
-description: "Per configurare un&quot;attività parallela, attenersi alle procedure indicate di seguito nell&quot;editor flusso di lavoro."
+title: "Configurare un'attività parallela in un flusso di lavoro"
+description: "Per configurare un'attività parallela, attenersi alle procedure indicate di seguito nell'editor flusso di lavoro."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
 title: Impostare prodotti che possono essere prodotti o ottenuti
-description: 'I prodotti possono essere originati in vari modi: possono essere prodotti (fabbricati) o approvvigionati (acquistati). Questo articolo descrive alcuni punti tipici da considerare quando si configurano i prodotti per supportare l&quot;approvvigionamento multiplo.'
+description: 'I prodotti possono essere originati in vari modi: possono essere prodotti (fabbricati) o approvvigionati (acquistati). Questo articolo descrive alcuni punti tipici da considerare quando si configurano i prodotti per supportare l''approvvigionamento multiplo.'
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

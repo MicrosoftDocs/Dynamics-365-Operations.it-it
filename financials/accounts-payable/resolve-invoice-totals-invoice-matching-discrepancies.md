@@ -1,9 +1,9 @@
 ---
-title: Risolvere le discrepanze durante l&quot;abbinamento dei totali fatture
+title: Risolvere le discrepanze durante l'abbinamento dei totali fatture
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

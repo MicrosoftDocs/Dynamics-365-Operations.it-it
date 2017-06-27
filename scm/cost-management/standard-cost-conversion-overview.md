@@ -3,7 +3,7 @@ title: Panoramica sulla conversione in costo standard
 description: Questo articolo fornisce una panoramica del processo per impostare ed eseguire una conversione in costo standard. I passaggi elencati devono essere completati dopo il completamento dei prerequisiti per una conversione in costo standard.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

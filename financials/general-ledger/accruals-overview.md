@@ -3,7 +3,7 @@ title: Panoramica dei ratei
 description: Questo articolo descrive i ratei e fornisce informazioni su come impostarli e su come creare le transazioni.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

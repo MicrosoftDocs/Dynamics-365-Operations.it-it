@@ -3,7 +3,7 @@ title: "Rivalutazione valuta estera per la contabilità fornitori e la contabili
 description: "Le fluttuazioni nei tassi di cambio causano la variazione nel tempo del valore teorico (contabile) delle transazioni aperte in valuta estera. Questo articolo fornisce informazioni sul processo di rivalutazione valuta estera eseguito per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

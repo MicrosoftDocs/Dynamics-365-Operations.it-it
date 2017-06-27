@@ -3,7 +3,7 @@ title: Effetti di ammortamento con storni
 description: In questo articolo vengono illustrate le implicazioni potenziali dello storno di una transazione cespiti.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

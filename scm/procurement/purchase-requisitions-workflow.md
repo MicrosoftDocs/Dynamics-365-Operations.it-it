@@ -1,9 +1,9 @@
 ---
 title: flusso di lavoro delle richieste di acquisto
-description: "Il processo del flusso di lavoro fa avanzare le richieste di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di Bozza fino allo stato finale di Approvata. Nel momento in cui si crea e si invia una richiesta di acquisto per la revisione, ha inizio il processo del flusso di lavoro. In seguito all&quot;approvazione della richiesta di acquisto, è possibile generare un ordine fornitore per le righe della richiesta di acquisto e inviarlo al fornitore per evasione dell&quot;ordine."
+description: "Il processo del flusso di lavoro fa avanzare le richieste di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di Bozza fino allo stato finale di Approvata. Nel momento in cui si crea e si invia una richiesta di acquisto per la revisione, ha inizio il processo del flusso di lavoro. In seguito all'approvazione della richiesta di acquisto, è possibile generare un ordine fornitore per le righe della richiesta di acquisto e inviarlo al fornitore per evasione dell'ordine."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

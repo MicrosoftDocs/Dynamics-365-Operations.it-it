@@ -3,7 +3,7 @@ title: Sicurezza degli utenti del portale fornitori
 description: In questo articolo viene illustrato come configurare la sicurezza dei fornitori esterni che utilizzano il portale fornitori. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

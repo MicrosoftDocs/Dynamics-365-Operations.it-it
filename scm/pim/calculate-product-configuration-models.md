@@ -3,7 +3,7 @@ title: Domande frequenti sui calcoli per i modelli di configurazione prodotto
 description: In questo articolo vengono descritti i calcoli per i modelli di configurazione prodotto e viene spiegato come utilizzare i calcoli insieme ai vincoli.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

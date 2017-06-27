@@ -1,9 +1,9 @@
 ---
 title: Gestire gli aggiornamenti di costo standard
-description: 'Gli aggiornamenti dei dati di costo standard possono essere gestiti utilizzando due metodi diversi: il metodo basato su un&quot;unica versione oppure il metodo basato su due versioni.'
+description: 'Gli aggiornamenti dei dati di costo standard possono essere gestiti utilizzando due metodi diversi: il metodo basato su un''unica versione oppure il metodo basato su due versioni.'
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

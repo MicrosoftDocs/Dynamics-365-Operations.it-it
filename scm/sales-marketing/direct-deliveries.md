@@ -3,7 +3,7 @@ title: Consegne dirette
 description: Vengono fornite le informazioni sulle consegne dirette, ovvero le consegne di articoli direttamente dal fornitore al cliente.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

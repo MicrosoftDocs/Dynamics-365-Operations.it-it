@@ -3,7 +3,7 @@ title: Impostazioni copertura
 description: Nella programmazione generale vengono utilizzate impostazioni di copertura per calcolare le richieste di articoli.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Gruppi di calcolo DBA
 description: "In questo articolo sono riportate informazioni sui gruppi di calcolo per le distinte base (DBA) e su come impostarli. Per eseguire un calcolo DBA, è necessario impostare i gruppi di calcolo e assegnarli ai singoli articoli oppure impostare un gruppo di calcolo predefinito. Le impostazioni di calcolo dal gruppo di calcolo vengono poi utilizzate come valori predefiniti nella pagina Calcolo DBA al momento del calcolo DBA."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

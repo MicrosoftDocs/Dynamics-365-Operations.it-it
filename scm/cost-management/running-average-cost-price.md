@@ -1,9 +1,9 @@
 ---
 title: Prezzo di costo medio corrente
-description: Il processo di chiusura dell&quot;inventario  consente di compensare le transazioni in uscita a fronte delle transazioni in entrata in base al metodo di valutazione del magazzino selezionato nel gruppo di modelli di articoli dell&quot;articolo. Prima di eseguire la chiusura dell&quot;inventario, tuttavia, il sistema calcola un prezzo di costo medio corrente che viene in genere utilizzato per la registrazione delle transazioni in uscita.
+description: Il processo di chiusura dell'inventario  consente di compensare le transazioni in uscita a fronte delle transazioni in entrata in base al metodo di valutazione del magazzino selezionato nel gruppo di modelli di articoli dell'articolo. Prima di eseguire la chiusura dell'inventario, tuttavia, il sistema calcola un prezzo di costo medio corrente che viene in genere utilizzato per la registrazione delle transazioni in uscita.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

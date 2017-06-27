@@ -3,7 +3,7 @@ title: "Configurazione della contabilità interaziendale"
 description: "Questo articolo illustra come impostare la contabilità interaziendale in modo da poter utilizzare i giornali di registrazione interaziendali per allocazioni contabili e giornali di registrazione finanziari, ad esempio giornali di registrazione giornalieri, giornali di registrazione fatture fornitore e giornali di registrazione pagamenti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

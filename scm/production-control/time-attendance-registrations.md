@@ -1,15 +1,16 @@
 ---
 title: Registrazione Orario e presenze
-description: "I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo articolo vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l&quot;approvazione automatica al processo di approvazione delle schede attività."
+description: "I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo articolo vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l'approvazione automatica al processo di approvazione delle schede attività."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f

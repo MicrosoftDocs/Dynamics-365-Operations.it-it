@@ -3,15 +3,15 @@ title: Report block list italiano
 description: Informazioni su come impostare e gestire il report black list italiano.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 261414
-ms.assetid: 6816ee1b-cb27-4653-8254-19e229934e6f
 ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30

@@ -3,7 +3,7 @@ title: Registrazione per Esecuzione produzione
 description: "In questo argomento vengono descritti i concetti e termini importanti con cui sarà necessario acquisire familiarità per configurare e utilizzare la funzionalità di esecuzione produzione."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

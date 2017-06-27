@@ -1,9 +1,9 @@
 ---
-title: Preferenze dell&quot;utente in Progettazione report finanziari
-description: "In questo articolo viene spiegato come impostare le preferenze utente per personalizzare le interazioni utente in Progettazione report finanziari e controllare l&quot;esperienza di accesso iniziale. È inoltre possibile controllare come singoli report, la raccolta report e i percorsi predefiniti dei file vengono visualizzati."
+title: Preferenze dell'utente in Progettazione report finanziari
+description: "In questo articolo viene spiegato come impostare le preferenze utente per personalizzare le interazioni utente in Progettazione report finanziari e controllare l'esperienza di accesso iniziale. È inoltre possibile controllare come singoli report, la raccolta report e i percorsi predefiniti dei file vengono visualizzati."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

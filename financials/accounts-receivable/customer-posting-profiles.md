@@ -3,7 +3,7 @@ title: Profili di registrazione cliente
 description: "I profili di registrazione cliente controllano la registrazione delle transazioni cliente nella contabilità generale."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

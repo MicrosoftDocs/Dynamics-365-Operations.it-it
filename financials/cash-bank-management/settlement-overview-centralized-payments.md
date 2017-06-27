@@ -3,7 +3,7 @@ title: Panoramica sulla liquidazione per i pagamenti centralizzati
 description: "Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una persona giuridica che gestisca tutti i pagamenti. In questo modo si evita di dover immettere la stessa transazione in più persone giuridiche ed è possibile risparmiare tempo grazie alla semplificazione del processo delle proposte di pagamento, del processo di liquidazione, della modifica delle transazioni aperte e della modifica delle transazioni chiuse per i pagamenti centralizzati."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

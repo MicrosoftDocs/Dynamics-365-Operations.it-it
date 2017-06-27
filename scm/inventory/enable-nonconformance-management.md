@@ -1,9 +1,9 @@
 ---
 title: "Gestione della non conformità"
-description: "Questo articolo descrive l&quot;impostazione di base necessaria per l&quot;utilizzo della non conformità. Un&quot;impostazione aggiuntiva è richiesta se si desidera utilizzare la non conformità negli ordini di controllo qualità."
+description: "Questo articolo descrive l'impostazione di base necessaria per l'utilizzo della non conformità. Un'impostazione aggiuntiva è richiesta se si desidera utilizzare la non conformità negli ordini di controllo qualità."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

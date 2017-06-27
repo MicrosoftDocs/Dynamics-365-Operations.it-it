@@ -1,9 +1,9 @@
 ---
 title: Definizioni di albero gerarchico nei report finanziari
-description: "In questo articolo vengono fornite informazioni sulle definizioni di albero gerarchico. Una definizione di albero gerarchico è un componente di report, o blocco predefinito, che consente di definire la struttura e la gerarchia dell&quot;organizzazione."
+description: "In questo articolo vengono fornite informazioni sulle definizioni di albero gerarchico. Una definizione di albero gerarchico è un componente di report, o blocco predefinito, che consente di definire la struttura e la gerarchia dell'organizzazione."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

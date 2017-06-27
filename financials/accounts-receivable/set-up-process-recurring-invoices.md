@@ -3,7 +3,7 @@ title: Impostare ed elaborare fatture ricorrenti
 description: "Questo articolo illustra come impostare ed elaborare le fatture ricorrenti. È possibile utilizzare le fatture ricorrenti se è necessario fatturare ai clienti lo stesso importo su base regolare."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

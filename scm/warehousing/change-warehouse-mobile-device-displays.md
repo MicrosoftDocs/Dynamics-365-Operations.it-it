@@ -1,9 +1,9 @@
 ---
 title: Impostazioni di visualizzazione per il dispositivo mobile del magazzino
-description: In questo articolo viene descritto come impostare l&quot;aspetto di visualizzazione del dispositivo mobile e come mappare i tasti di scelta rapida ai controlli, ad esempio i pulsanti.
+description: In questo articolo viene descritto come impostare l'aspetto di visualizzazione del dispositivo mobile e come mappare i tasti di scelta rapida ai controlli, ad esempio i pulsanti.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

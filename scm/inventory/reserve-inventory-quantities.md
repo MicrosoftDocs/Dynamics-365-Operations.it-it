@@ -3,7 +3,7 @@ title: "Prenotare quantità di scorte"
 description: In questo argomento vengono descritte le diverse opzioni disponibili per prenotare le scorte.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

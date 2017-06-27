@@ -3,7 +3,7 @@ title: Prerequisiti per la conversione in costo standard
 description: "In questo argomento vengono illustrate le attività da completare prima di eseguire una conversione in costo standard."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

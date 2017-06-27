@@ -3,7 +3,7 @@ title: "Funzionalità Designer DBA"
 description: "In questo articolo viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM). È possibile fare clic su Impostazione per selezionare diverse configurazioni e specificare quali informazioni visualizzare sulle righe della struttura."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

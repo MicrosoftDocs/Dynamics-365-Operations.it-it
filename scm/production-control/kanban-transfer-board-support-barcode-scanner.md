@@ -1,9 +1,9 @@
 ---
 title: Supporto della bacheca di trasferimento kanban per i lettori di codici a barre
-description: La scheda di trasferimento kanban supporta l&quot;input da uno scanner di codici a barre widget per selezionare, iniziare, completare e svuotare un processo kanban.
+description: La scheda di trasferimento kanban supporta l'input da uno scanner di codici a barre widget per selezionare, iniziare, completare e svuotare un processo kanban.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Ricalcolare i costi di sostituzione e i valori assicurati per i gruppi di
 description: Questo articolo illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

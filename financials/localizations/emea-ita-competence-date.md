@@ -3,15 +3,15 @@ title: Data di competenza per le transazioni
 description: "In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 264534
-ms.assetid: d151f65a-3257-4296-8b00-d93c1dfdcf0e
 ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30

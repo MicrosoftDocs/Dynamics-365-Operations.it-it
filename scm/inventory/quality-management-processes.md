@@ -3,7 +3,7 @@ title: "Processi di gestione qualità"
 description: "In questo articolo vengono fornite informazioni sul processo di gestione della qualità per i prodotti non conformi. e viene descritto come utilizzare la funzionalità di controllo qualità e come definire e gestire le non conformità e le correzioni."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: non documentato
 description: "Un messaggio di azione è un suggerimento generato dal sistema per modificare un ordine pianificato o stabilizzato."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

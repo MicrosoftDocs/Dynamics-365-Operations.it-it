@@ -3,7 +3,7 @@ title: "Liquidare un pagamento fornitore parziale che ha più periodi di sconto"
 description: "Questo articolo descrive uno scenario in cui vengono effettuati più pagamenti parziali a un fornitore che offre più sconti di cassa."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

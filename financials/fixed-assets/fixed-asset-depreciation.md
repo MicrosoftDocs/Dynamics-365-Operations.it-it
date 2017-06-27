@@ -1,9 +1,9 @@
 ---
 title: Ammortamento cespiti
-description: In questo articolo viene fornita una panoramica dell&quot;ammortamento dei cespiti.
+description: In questo articolo viene fornita una panoramica dell'ammortamento dei cespiti.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

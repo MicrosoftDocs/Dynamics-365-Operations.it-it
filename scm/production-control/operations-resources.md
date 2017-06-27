@@ -3,7 +3,7 @@ title: Risorse Operations
 description: "Le risorse operative eseguono le attività di un progetto o di un processo di produzione. Possono essere di diversi tipi e possono avere capacità diverse."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

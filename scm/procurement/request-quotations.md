@@ -3,7 +3,7 @@ title: Richieste di offerta (RdO)
 description: "Questo articolo fornisce una panoramica di richieste di offerta (RdO) emesse dalle organizzazioni quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori. In una richiesta di offerta viene richiesto ai fornitori di fornire i prezzi e i tempi di consegna per le quantità di articoli specificati. È inoltre possibile chiedere ai fornitori di specificare se esistono eventuali spese accessorie, ad esempio i costi di spedizione o se il fornitore offre sconti per grandi ordini o per il pagamento anticipato della fattura fornitore."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
