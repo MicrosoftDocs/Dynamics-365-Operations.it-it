@@ -1,6 +1,6 @@
 ---
 title: Metodo di allocazione costi totali
-description: "Questo articolo fornisce le indicazioni per l&quot;utilizzo dell&quot;allocazione costi totali (TCA). L&quot;allocazione costi totali (TCA) è un metodo di calcolo del costo tra l&quot;articolo formula principale per un ordine batch e i co-prodotti definiti per la formula."
+description: "Questo articolo fornisce le indicazioni per l'utilizzo dell'allocazione costi totali (TCA). L'allocazione costi totali (TCA) è un metodo di calcolo del costo tra l'articolo formula principale per un ordine batch e i co-prodotti definiti per la formula."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/20/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxBookSection, TaxGroup
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261314
 ms.search.region: Italy
 ms.author: epopov
