@@ -1,15 +1,15 @@
 ---
 title: Home page di BI e report
-description: In questo argomento sono elencate le risorse disponibili per BI e report in Microsoft Dynamics 365 for Operations.
+description: In questo argomento sono elencate le risorse disponibili per BI e servizi di reporting in Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,20 +17,20 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>Home page di BI e report
+# <a name="bi-amp-reporting-home-page"></a>Home page di BI e servizi di reporting
 
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento sono elencate le risorse disponibili per BI e report in Microsoft Dynamics 365 for Operations. 
+In questo argomento sono elencate le risorse disponibili per BI e servizi di reporting in Microsoft Dynamics 365 for Finance and Operations. 
 
 <a name="working-with-aggregate-data"></a>Utilizzo dell'aggregazione dei dati
 ---------------------------
@@ -43,22 +43,22 @@ In questo argomento sono elencate le risorse disponibili per BI e report in Micr
 ## <a name="self-service-reporting"></a>Report self-service
 -   [Integrazione di Power BI](power-bi-integration.md)
 -   [Configurazione dell'integrazione di Power BI per aree di lavoro](configure-power-bi-integration.md)
--   [Creare un report Power BI utilizzando i dati di Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
--   [Creare un dashboard e un report Power BI](create-powerbi-report-dashboard.md)
+-   [Creare un report Power BI utilizzando i dati di Microsoft Dynamics 365 for Finance and Operations](create-powerbi-report-data.md)
+-   [Creare un report e un dashboard Power BI](create-powerbi-report-dashboard.md)
 -   [Contenuto Power BI per prestazioni del canale di vendita al dettaglio](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Contenuto Power BI per prestazioni finanziarie](financial-performance-power-bi-content-pack.md)
 -   [Contenuto Power BI per prestazioni di vendita e profitto](sales-profitability-performance-content-pack.md)
--   [Utilizzare la configurazione di creazione report elettronici per fornire a Power BI i dati da Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Utilizzare la configurazione di creazione report elettronici per fornire a Power BI i dati da Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Creazione di esperienze di analisi incorporata nel client Microsoft Dynamics 365 for Operations
--   [Business Intelligence incorporato](analytics.md#embedded-business-intelligence)
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Creazione di esperienze di analisi incorporata nel client Finance and Operations
+-   [Business Intelligence incorporata](analytics.md#embedded-business-intelligence)
 -   [Modellazione e personalizzazione di KPI](analytics.md#kpi-modeling-and-customization)
 -   [Aggiunta di BI alle aree di lavoro](add-bi-workspaces.md)
 -   [Aggiunta di BI contestuale ai moduli](add-contextual-bi-forms.md)
 
-## <a name="document-reporting-and-printing"></a>Stampa e dichiarazione dei documenti
+## <a name="document-reporting-and-printing"></a>Reporting e stampa dei documenti
 -   [Panoramica di Reporting Services per documenti](document-reporting-services.md)
--   [Stampa nelle applicazioni di Dynamics 365 for Operations](print-documents.md)
+-   [Stampa nelle applicazioni Finance and Operations](print-documents.md)
 -   [Installazione dell'agente di distribuzione documenti per abilitare le stampanti di rete](install-document-routing-agent.md)
 -   [Esecuzione dell'agente di distribuzione documenti come servizio Windows](run-document-routing-agent-as-windows-service.md)
 -   [Creazione delle soluzioni di report di prossima generazione](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ In questo argomento sono elencate le risorse disponibili per BI e report in Micr
 -   [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 -   [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 -   [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Utilizzare la configurazione di creazione report elettronici per fornire a Power BI i dati da Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Utilizzare la configurazione di creazione report elettronici per fornire a Power BI i dati da Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Creazione di report elettronici: creare e attivare un provider di configurazione](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (guida attività)
 -   [Creazione di report elettronici: progettare un modello di dati specifico del dominio](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (guida attività)
 -   [Creazione di report elettronici: definire il mapping di modello e selezionare le origini dati](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (guida attività)

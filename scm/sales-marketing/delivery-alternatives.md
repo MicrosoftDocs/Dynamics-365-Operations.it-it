@@ -1,6 +1,6 @@
 ---
 title: Alternative di consegna
-description: I dipendenti che gestiscono gli ordini cliente possono utilizzare la pagina Alternative di consegna per trovare opzioni alternative l&quot;evasione dell&quot;ordine.
+description: I dipendenti che gestiscono gli ordini cliente possono utilizzare la pagina Alternative di consegna per trovare opzioni alternative l'evasione dell'ordine.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/10/2017
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 271623
 ms.assetid: 527f6084-44fe-41bb-924f-4386e926358a
 ms.search.region: global

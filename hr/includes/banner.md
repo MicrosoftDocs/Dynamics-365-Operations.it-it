@@ -1,3 +1,2 @@
 > [!IMPORTANT]
-> Documentazione per Microsoft Dynamics 365 for Operations in docs.microsoft.com. Il contenuto è in fase di migrazione da Wiki Guida Dynamics 365 for Operations. 
-
+> Questo argomento si applica a Dynamics 365 for Talent (versione provvisoria), Dynamics 365 for Finance and Operations, Enterprise Edition e Dynamics 365 for Operations. 
