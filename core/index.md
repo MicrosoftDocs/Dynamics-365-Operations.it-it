@@ -40,7 +40,7 @@ In questa documentazione sono incluse le informazioni per utilizzare al meglio D
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Dati finanziari</h3>
+<td><h3>Financials</h3>
 <p><a href="../financials/general-ledger/audit-policy-rules">Conformità</a></p>
 <p>Gestione finanziaria</p>
 <ul style="list-style-type:none">
