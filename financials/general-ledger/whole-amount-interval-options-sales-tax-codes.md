@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
@@ -30,6 +30,9 @@ ms.lasthandoff: 05/25/2017
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opzioni Importo totale e Intervallo per i codici IVA
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
+
 
 
 Questo articolo illustra le opzioni del campo Metodo di calcolo sui codici IVA e come si calcola l'IVA per intervalli e interi importi.

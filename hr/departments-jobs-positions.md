@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
 
 [!include[banner](includes/banner.md)]
+
+[!include[retail name](includes/retail-name.md)]
 
 
 Reparti, mansioni e posizioni sono elementi organizzativi che vengono gestiti in Risorse umane. Questo argomento descrive le nozioni relative a questi elementi. 
