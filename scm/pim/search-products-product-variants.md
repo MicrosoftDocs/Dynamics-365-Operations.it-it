@@ -31,6 +31,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[Retail name](../includes/retail-name.md)]
 
 Utilizzare il campo <strong>Numero articolo </strong>per cercare i prodotti e le varianti prodotto quando si crea manualmente una riga ordine cliente o una riga ordine fornitore.  In questo modo è possibile trovare rapidamente le varianti prodotto quando si dispone solo della stringa di configurazione o una delle dimensioni prodotto.
 

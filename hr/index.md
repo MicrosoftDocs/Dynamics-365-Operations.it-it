@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: it-it
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -32,18 +32,19 @@ ms.lasthandoff: 06/21/2017
 
 Microsoft Dynamics 365 for Talent consente di semplificare molte attività di routine di gestione dei record e automatizzare diversi processi relativi al personale dell'organizzazione. Questi processi includono la fidelizzazione dei dipendenti, l'amministrazione dei benefit, la formazione, la valutazione delle prestazioni e la gestione delle modifiche. Fornisce inoltre al personale delle risorse umane un framework per gestire le aree di supervisione.
 
-Dynamics 365 for Talent è strettamente correlato alla funzionalità Risorse umane di Dynamics 365 for Finance and Operations, Enterprise Edition. La stessa funzionalità può essere presente in entrambi i prodotti. Di conseguenza, negli argomenti principalmente correlati a Risorse umane il nome del prodotto sarà Dynamics 365 for Finance and Operations, Enterprise Edition, mentre negli argomenti principalmente correlati a Talent il nome del prodotto sarà Dynamics 365 for Talent. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
-
 È possibile utilizzare Talent per effettuare le seguenti attività:
 
-> + Amministrare le strutture organizzative.
-> + Gestire le informazioni complete sui lavoratori, dall'assunzione al pensionamento.
-> + Definire e amministrare i piani di benefit, iscrivere i lavoratori, assegnare la copertura delle persone a carico e nominare i beneficiari.
-> + Stabilire e monitorare i criteri di assenza.
-> + Implementare e tenere traccia della gestione del tempo basata sul profilo e generare le informazioni di retribuzione da esportare in un sistema di gestione delle retribuzioni.
-> + Gestire le competenze del lavoratore.
-> + Verificare le prestazioni e implementare gli obiettivi dei lavoratori.
-> + Impostare, fornire e analizzare corsi di formazione che comprendano agende, sessioni e tracce.
++ Amministrare le strutture organizzative.
++ Gestire le informazioni complete sui lavoratori, dall'assunzione al pensionamento.
++ Definire e amministrare i piani di benefit, iscrivere i lavoratori, assegnare la copertura delle persone a carico e nominare i beneficiari.
++ Stabilire e monitorare i criteri di assenza.
++ Implementare e tenere traccia della gestione del tempo basata sul profilo e generare le informazioni di retribuzione da esportare in un sistema di gestione delle retribuzioni.
++ Gestire le competenze del lavoratore.
++ Verificare le prestazioni e implementare gli obiettivi dei lavoratori.
++ Impostare, fornire e analizzare corsi di formazione che comprendano agende, sessioni e tracce.
+
+> [!NOTE] 
+> Dynamics 365 for Talent è strettamente correlato alla funzionalità Risorse umane di Dynamics 365 for Finance and Operations, Enterprise Edition. La stessa funzionalità può essere presente in entrambi i prodotti. Di conseguenza, negli argomenti principalmente correlati a Risorse umane il nome del prodotto sarà Dynamics 365 for Finance and Operations, Enterprise Edition, mentre negli argomenti principalmente correlati a Talent il nome del prodotto sarà Dynamics 365 for Talent. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Sviluppare una strategia per la gestione delle risorse umane
 ---------------------------------------------------------

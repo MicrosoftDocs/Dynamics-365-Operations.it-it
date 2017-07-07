@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Data media ponderata
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 La data media ponderata è un modello inventariale basato sul principio di media ponderate. Per tale principio, le uscite da magazzino vengono valutate al valore medio degli articoli ricevuti in magazzino per ogni giorno del periodo di chiusura inventario. Quando si esegue una chiusura inventario tramite la data media ponderata, tutte le entrate giornaliere vengono liquidate a fronte di un'uscita virtuale. Quest'ultima comprende la quantità totale ricevuta e il valore del giorno. Questa uscita virtuale è associata a un'entrata virtuale corrispondente rispetto a cui verrà liquidata. In questo modo a tutte le uscite viene assegnato lo stesso costo medio. L'uscita e l'entrata virtuali possono essere considerate come un trasferimento virtuale, denominato *trasferimento di chiusura inventario media ponderata*. 
