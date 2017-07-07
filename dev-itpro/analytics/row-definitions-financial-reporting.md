@@ -3,7 +3,7 @@ title: Definizioni di riga in Progettazione report finanziari
 description: "Una definizione di riga è un componente di report, o blocco predefinito, che specifica il contenuto di ciascuna riga in un report finanziario. Una definizione di riga può combinarsi con le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report per creare un gruppo di blocchi predefiniti che può essere utilizzato da più società."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cf0886725e2d8d4031e19810e75755f4306b7c49
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,7 +49,7 @@ Una definizione di riga è un componente di report, o blocco predefinito, che sp
 Una definizione di riga può contenere fino a 20.000 righe di dimensione finanziaria e includere le seguenti informazioni:
 
 -   Testo descrittivo che aggiunge significato al report creando intestazioni di sezione, righe e spazi, ad esempio **Contante** o **Totale ricavi**.
--   Collegamenti ai dati finanziari, che possono includere valori di dimensione in Microsoft Dynamics 365 for Operations **Nota:** È possibile impostare una definizione di riga per il pull dei dati dal sistema di dimensioni finanziarie ogni volta che viene generato il report.
+-   Collegamenti ai dati finanziari, che possono includere valori di dimensione in Microsoft Dynamics 365 for Finance and Operations **Nota:** È possibile impostare una definizione di riga per il pull dei dati dal sistema di dimensioni finanziarie ogni volta che viene generato il report.
 -   Totali e formule di riga basati sui dati finanziari collegati
 
 In genere, ogni riga in una definizione contiene uno dei seguenti tipi di informazioni:
@@ -101,9 +101,9 @@ Per rettificare l'arrotondamento nello stato patrimoniale, completare i passaggi
     -   **Riga totale passività e capitale netto**: il codice della riga nello stato patrimoniale contenente le passività e il capitale netto totali.
     -   **Limiti importo di rettifica**: il limite, espresso come numero intero positivo, per le rettifiche automatiche. Questo importo viene confrontato con il valore assoluto della differenza di arrotondamento effettiva.
 
-    **Nota:**questi codici di riga devono essere collegati ai dati finanziari. In altre parole, la riga deve avere un valore di dimensione nella cella **Collegamento a dimensioni finanziarie**. **Non** fare riferimento a una riga di descrizione (**DESC**), calcolata (**CALC**) e totalizzata (**TOT**).
+    **Nota:** questi codici di riga devono essere collegati ai dati finanziari. In altre parole, la riga deve avere un valore di dimensione nella cella **Collegamento a dimensioni finanziarie**. **Non** fare riferimento a una riga di descrizione (**DESC**), calcolata (**CALC**) e totalizzata (**TOT**).
 
-Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando l'arrotondamento è abilitato. **Nota:**il limite di rettifica si applica in base all'opzione **Precisione di arrotondamento** specificata per la definizione di report. Ad esempio, se si seleziona di arrotondare il report alle migliaia e si immette **2** nel campo **Limiti importo di rettifica**, viene visualizzato un messaggio di avviso quando il valore identificato nel campo **Riga rettifica arrotondamento** aumenta o diminuisce di più di 2.000.
+Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando l'arrotondamento è abilitato. **Nota:** il limite di rettifica si applica in base all'opzione **Precisione di arrotondamento** specificata per la definizione di report. Ad esempio, se si seleziona di arrotondare il report alle migliaia e si immette **2** nel campo **Limiti importo di rettifica**, viene visualizzato un messaggio di avviso quando il valore identificato nel campo **Riga rettifica arrotondamento** aumenta o diminuisce di più di 2.000.
 
 ## <a name="format-row-and-column-text"></a>Riga di formato e testo di colonna
 È possibile personalizzare l'aspetto dei report modificando i tipi di carattere e formattando il testo. Nelle sezioni seguenti viene descritto come formattare l'aspetto delle righe e delle colonne nei report.

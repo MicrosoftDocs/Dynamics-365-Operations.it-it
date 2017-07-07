@@ -3,14 +3,14 @@ title: Report finanziario conto economico
 description: In questo articolo viene descritto il report predefinito per i conti economici. Sono descritti inoltre i blocchi predefiniti associati a questo report.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12294
 ms.assetid: 30820be0-d943-4f8b-8c25-6414ec393b3d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1773a36ab58f1b24c544c08dc1c48039513e28d9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f07aea0b87bc3e09982f9ba248d3c28540fd2dc5
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -67,7 +67,7 @@ Le definizioni di colonna contengono i diversi tipi di colonna per fornire diver
 
 [Creazione di report finanziari](financial-reporting-getting-started.md)
 
-[Visualizzare report finanziari](view-financial-reports.md)
+[Visualizzare i report finanziari](view-financial-reports.md)
 
 [Blog sui report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 

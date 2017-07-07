@@ -1,9 +1,9 @@
 ---
 title: Impostazione, autorizzazione e acquisizione della carta di credito
-description: Questo articolo fornisce una panoramica dell&quot;autorizzazione della carta di credito in Microsoft Dynamics AX. Sono riportate informazioni sull&quot;impostazione di un servizio di pagamento, sull&quot;aggiunta di una carta di credito a un ordine cliente e sull&quot;annullamento di un&quot;autorizzazione.
+description: In questo articolo vengono fornite una panoramica sull'autorizzazione della carta di credito in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Sono riportate informazioni sull'impostazione di un servizio di pagamento, sull'aggiunta di una carta di credito a un ordine cliente e sull'annullamento di un'autorizzazione.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 3041
 ms.assetid: 678f6899-bfa5-439b-aaca-b4affcc338ba
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 96a16f2ff3d092fc9448bf607abfa28ad6cb1e6d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5b3dc7710ebbce50366ca9299bfb30dffc03187
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,8 +31,10 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
-Questo articolo fornisce una panoramica dell'autorizzazione della carta di credito in Microsoft Dynamics AX. Sono riportate informazioni sull'impostazione di un servizio di pagamento, sull'aggiunta di una carta di credito a un ordine cliente e sull'annullamento di un'autorizzazione.
+
+In questo articolo vengono fornite una panoramica sull'autorizzazione della carta di credito in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Sono riportate informazioni sull'impostazione di un servizio di pagamento, sull'aggiunta di una carta di credito a un ordine cliente e sull'annullamento di un'autorizzazione.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Impostazione del servizio di pagamento con carta di credito
 ------------------------------------------

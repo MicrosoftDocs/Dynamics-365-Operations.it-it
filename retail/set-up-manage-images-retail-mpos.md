@@ -3,25 +3,27 @@ title: Impostare e gestire immagini per Retail Modern POS
 description: "In questo articolo vengono descritti i passaggi necessari per impostare e gestire le immagini per le varie entità che vengono visualizzate in Retail Modern POS (MPOS)."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 06915686e1421742c2f1dd1ebbb02491f04431fd
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 3985d731709eff4085927b277996528e4e448ba9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,19 +38,19 @@ In questo articolo vengono descritti i passaggi necessari per impostare e gestir
 <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Impostazione dell'URL di base multimediale e definizione dei modelli media per la configurazione del formato per gli URL dell'immagine
 -------------------------------------------------------------------------------------------------
 
-Le immagini visualizzate in Retail Modern POS (MPOS) devono essere ospitate esternamente a Microsoft Dynamics 365 for Operations - Vendita al dettaglio. In genere, sono ospitate in un sistema di gestione dei contenuti, una rete per la distribuzione di contenuti (CDN, Content Delivery Network) di consegna o in un server media. MPOS quindi recupera e visualizza le immagini per le entità appropriate, ad esempio prodotti e cataloghi, accedendo all'URL di destinazione. Per recuperare le immagini ospitate esternamente, MPOS richiede un formato corretto per l'URL delle immagini. È possibile configurare il formato URL richiesto per le immagini impostando il valore **URL di base multimediale**nel profilo del canale e utilizzando la funzionalità **Definisci modello media**per ogni entità. È inoltre possibile sovrascrivere il formato standard dell'URL per un sottoinsieme di entità utilizzando la funzionalità **Modifica in Excel**. **Nota importante**: nella versione corrente di Dynamics 365 for Operations non è più possibile impostare il formato URL tramite l'attributo XML **Immagine** per MPOS nel gruppo di attributi **Predefinito** per le entità. Se si ha familiarità con Microsoft Dynamics AX 2012 R3 e attualmente si utilizza la versione corrente di Dynamics 365 for Operations, per impostare le immagini assicurarsi di utilizzare sempre la nuova funzione **Definisci modello media**. Non utilizzare o non modificare l'attributo **Immagine** nel gruppo di attributi **Predefinito** per alcuna entità, inclusi i prodotti. Le modifiche apportate direttamente nel gruppo di attributi **Predefinito** per le immagini non verranno applicate. Questa opzione verrà disabilitata in una versione successiva. Nelle procedure indicate di seguito, le immagini vengono impostate per l'entità del catalogo come esempio. Queste procedure contribuiranno a garantire che il percorso di destinazione dell'immagine corretto venga impostato in modo implicito per tutte le immagini del catalogo che utilizzano un percorso comune. Ad esempio, se è stato impostato un server media o un CDN esternamente e si desidera che le immagini vengano visualizzate in MPOS per un punto vendita specifico, la funzione **Definisci modello media** consente di impostare il percorso in cui MPOS può recuperare le immagini. **Nota**: per questo esempio di dati dimostrativi, il server media viene distribuito nel server Retail. Tuttavia, è possibile utilizzare una posizione qualsiasi esterna a Dynamics 365 for Operations.
+Le immagini visualizzate in Retail Modern POS (MPOS) devono essere ospitate esternamente a Microsoft Dynamics 365 for Retail. In genere, sono ospitate in un sistema di gestione dei contenuti, una rete per la distribuzione di contenuti (CDN, Content Delivery Network) di consegna o in un server media. MPOS quindi recupera e visualizza le immagini per le entità appropriate, ad esempio prodotti e cataloghi, accedendo all'URL di destinazione. Per recuperare le immagini ospitate esternamente, MPOS richiede un formato corretto per l'URL delle immagini. È possibile configurare il formato URL richiesto per le immagini impostando il valore **URL di base multimediale** nel profilo del canale e utilizzando la funzionalità **Definisci modello media** per ogni entità. È inoltre possibile sovrascrivere il formato standard dell'URL per un sottoinsieme di entità utilizzando la funzionalità **Modifica in Excel**. **Nota importante**: nella versione corrente di Dynamics 365 for Retail non è più possibile impostare il formato URL tramite l'attributo XML **Immagine** per MPOS nel gruppo di attributi **Predefinito** per le entità. Se si ha familiarità con Microsoft Dynamics AX 2012 R3 e si utilizza la versione corrente di Dynamics 365 for Retail, assicurarsi di utilizzare sempre la nuova funzionalità **Definisci modello media** per impostare le immagini. Non utilizzare o non modificare l'attributo **Immagine** nel gruppo di attributi **Predefinito** per alcuna entità, inclusi i prodotti. Le modifiche apportate direttamente nel gruppo di attributi **Predefinito** per le immagini non verranno applicate. Questa opzione verrà disabilitata in una versione successiva. Nelle procedure indicate di seguito, le immagini vengono impostate per l'entità del catalogo come esempio. Queste procedure contribuiranno a garantire che il percorso di destinazione dell'immagine corretto venga impostato in modo implicito per tutte le immagini del catalogo che utilizzano un percorso comune. Ad esempio, se è stato impostato un server media o un CDN esternamente e si desidera che le immagini vengano visualizzate in MPOS per un punto vendita specifico, la funzione **Definisci modello media** consente di impostare il percorso in cui MPOS può recuperare le immagini. **Nota**: per questo esempio di dati dimostrativi, il server media viene distribuito nel server Retail. È tuttavia possibile averlo ovunque al di fuori di Dynamics 365 for Retail.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Impostare gli URL di base multimediale per un canale
 
-1.  Aprire il portale della sede centrale di Dynamics 365 for Operations.
-2.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Profili canale**. [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
+1.  Aprire il portale HQ Dynamics 365 for Retail.
+2.  Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Profili canale**. [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
 3.  Nel profilo del canale che il punto vendita utilizza per MPOS, aggiornare il campo **URL di base multimediale** con l'URL di base del media server o CDN. L'URL di base corrisponde alla prima parte dell'URL condivisa da tutte le cartelle di immagine di entità diverse.[![channel-profile2](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Definire il modello media per un'entità
 
-1.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Gestione cataloghi** &gt; **Immagini di catalogo**.
+1.  Fare clic su **Vendita al dettaglio** &gt; **Gestione cataloghi** &gt; **Immagini di catalogo**.
 2.  Nella pagina **Immagini di catalogo**, nel Riquadro azioni fare clic su **Definisci modello media**. Nella finestra di dialogo **Definisci modello media**, nel campo **Entità** il valore **Catalogo** deve essere selezionato per impostazione predefinita.
-3.  Nella scheda dettaglio **Percorso media** immettere il percorso rimanente della posizione dell'immagine. Il percorso media supporta **LanguageID** come variabile. Ad esempio, per i dati dimostrativi, è possibile creare una cartella **Cataloghi** per tutte le immagini del catalogo nell'URL di base multimediale per il server media (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). È quindi possibile creare una cartella per ciascuna lingua, ad esempio en-US o fr-FR e copiare le immagini appropriate in ogni cartella. Se non si dispone di immagini diverse per le varie lingue, è possibile omettere la variabile **LanguageID** dalla struttura di cartelle e puntare direttamente alla cartella dei cataloghi che contiene le immagini del catalogo. **Nota**: la versione corrente di Dynamics AX supporta il token **{LanguageId}** per le entità catalogo, prodotto e categoria. (Il token **{LanguageID}** non è supportato per le entità lavoratore e cliente, in base allo standard esistente che è stato valido a partire dalla versione Microsoft Dynamics AX 6.x).
+3.  Nella scheda dettaglio **Percorso media** immettere il percorso rimanente della posizione dell'immagine. Il percorso media supporta **LanguageID** come variabile. Ad esempio, per i dati dimostrativi, è possibile creare una cartella **Cataloghi** per tutte le immagini del catalogo nell'URL di base multimediale per il server media (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). È quindi possibile creare una cartella per ciascuna lingua, ad esempio en-US o fr-FR e copiare le immagini appropriate in ogni cartella. Se non si dispone di immagini diverse per le varie lingue, è possibile omettere la variabile **LanguageID** dalla struttura di cartelle e puntare direttamente alla cartella dei cataloghi che contiene le immagini del catalogo. **Nota**: la versione corrente di Dynamics 365 for Retail supporta il token **{LanguageId}** per le entità catalogo, prodotto e categoria. (Il token **{LanguageID}** non è supportato per le entità lavoratore e cliente, in base allo standard esistente che è stato valido a partire dalla versione Microsoft Dynamics AX 6.x).
 4.  Per le immagini, il formato del nome file è hardcoded al catalogo e non può essere modificato. Di conseguenza, rinominare le immagini in modo che abbiano nomi di catalogo appropriati, per garantire che MPOS possa gestirli in modo corretto.
 5.  Nel campo **Estensione del file** selezionare l'estensione del nome file prevista, a seconda del tipo delle immagini di cui si dispone. Ad esempio, per i dati dimostrativi, le immagini di catalogo sono impostate con estensione .jpg. (I file di immagine sono anche rinominati in modo da avere nomi di catalogo.)
 6.  Fare clic su **OK**.
@@ -78,10 +80,10 @@ Come illustrato nella sezione precedente, il modello media per un'entità specif
 
 ### <a name="overwrite-by-using-edit-in-excel"></a>Sovrascrivere utilizzando Modifica in Excel
 
-1.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Gestione cataloghi** &gt; **Immagini di catalogo**.
+1.  Fare clic su **Vendita al dettaglio** &gt; **Gestione cataloghi** &gt; **Immagini di catalogo**.
 2.  Nella pagina **Immagini di catalogo** fare clic su **Definisci modello media**. Nella finestra di dialogo **Definisci modello media**, nel campo **Entità** deve essere selezionato il valore **Catalogo**.
 3.  Nella scheda dettaglio **Percorso di media** prendere nota della posizione dell'immagine.
-4.  Nella scheda dettaglio **Genera URL immagine per Excel** fare clic su **Genera**. **Importante**: ogni volta che il modello media viene modificato, necessario fare clic su **Genera** prima di poter utilizzare la funzione Modifica in Excel. [![excel1](./media/excel1.jpg)](./media/excel1.jpg) Viene ora visualizzata un'anteprima degli URL di immagine che sono stati generati in base all'ultimo modello media salvato. [![excel2](./media/excel2.png)](./media/excel2.png) **Nota:** gli URL generati per Excel utilizzano il percorso e le convenzioni del modello media definito. Le convenzioni includono le convenzioni relative ai nomi file. L'aspettativa è che l'utente abbia impostato le immagini fisiche esternamente a Dynamics AX e che le immagini possano essere recuperate tramite gli URL derivati dal modello media definito in precedenza. È possibile sovrascrivere gli URL derivati utilizzando la funzionalità Modifica in Excel.
+4.  Nella scheda dettaglio **Genera URL immagine per Excel** fare clic su **Genera**. **Importante**: ogni volta che il modello media viene modificato, necessario fare clic su **Genera** prima di poter utilizzare la funzione Modifica in Excel. [![excel1](./media/excel1.jpg)](./media/excel1.jpg) Viene ora visualizzata un'anteprima degli URL di immagine che sono stati generati in base all'ultimo modello media salvato. [![excel2](./media/excel2.png)](./media/excel2.png) **Nota:** gli URL generati per Excel utilizzano il percorso e le convenzioni del modello media definito. Le convenzioni includono le convenzioni relative ai nomi file. L'aspettativa è che l'utente abbia impostato le immagini fisiche esternamente a Dynamics 365 for Retail e che le immagini possano essere recuperate tramite gli URL derivati dal modello media definito in precedenza. È possibile sovrascrivere gli URL derivati utilizzando la funzionalità Modifica in Excel.
 5.  Fare clic su **Modifica in Excel**.
 6.  Dopo l'apertura del foglio di lavoro di Microsoft Excel, fare clic su **Abilita modifica** quando richiesto.
 7.  Quando richiesto, fare clic su **Considera attendibile questo componente aggiuntivo** nel riquadro destro e attendere il completamento dell'installazione del componente aggiuntivo. [![Considera attendibile questo componente aggiuntivo](./media/excel4.jpg)](./media/excel4.jpg)

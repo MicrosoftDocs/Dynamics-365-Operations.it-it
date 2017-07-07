@@ -1,28 +1,29 @@
 ---
 title: Creare e gestire gli attributi
-description: Questo articolo descrive gli attributi in Microsoft Dynamics 365 for Operations. Gli attributi consentono di descrivere un prodotto e le relative caratteristiche tramite campi definiti dall&quot;utente.
+description: Questo articolo descrive gli attributi in Microsoft Dynamics 365 for Retail. Gli attributi consentono di descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Questo articolo descrive gli attributi in Microsoft Dynamics 365 for Operations. Gli attributi consentono di descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente.
+Questo articolo descrive gli attributi in Microsoft Dynamics 365 for Retail. Gli attributi consentono di descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente.
 
 Gli attributi consentono di descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente. Ad esempio, è possibile specificare la dimensione di memoria del prodotto o la capacità del disco rigido e indicare se il prodotto è conforme allo standard Energy Star. Gli attributi possono essere associati a varie entità al dettaglio, come ad esempio le categorie di prodotti e canali di vendita al dettaglio. Inoltre è possibile impostarne dei valori predefiniti. I prodotti ereditano i propri attributi e valori predefiniti quando vengono associati alle categorie di prodotti o ai canali di vendita al dettaglio. I valori predefiniti possono essere sovrascritti a livello di singolo prodotto, a livello di canale di vendita al dettaglio o in un catalogo al dettaglio.
 
@@ -59,7 +60,7 @@ Gli attributi consentono di descrivere un prodotto e le relative caratteristiche
 ## <a name="attribute-type"></a>Tipo di attributo
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
   
-Gli attributi si basano sui tipi di attributo. I tipi di attributo identificano il tipo di dati che può essere immesso per un attributo specifico. Attualmente, Microsoft Dynamics 365 for Operations supporta i seguenti tipi di attributo:
+Gli attributi si basano sui tipi di attributo. I tipi di attributo identificano il tipo di dati che può essere immesso per un attributo specifico. Attualmente, Microsoft Dynamics 365 for Retail supporta i seguenti tipi di attributo:
 
 -   **Valuta** - Questo tipo di attributo supporta i valori di valuta. Può essere associato (ovvero può supportare un intervallo di valori) oppure può essere lasciato aperto.
 -   **Data e ora** - Questo tipo di attributo supporta i valori di data e ora. Può essere associato (ovvero può supportare un intervallo di valori) oppure può essere lasciato aperto.

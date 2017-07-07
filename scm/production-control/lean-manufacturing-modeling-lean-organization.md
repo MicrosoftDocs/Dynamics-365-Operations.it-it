@@ -1,16 +1,16 @@
 ---
-title: Modellizzazione di un&quot;organizzazione snella
-description: L&quot;articolo fornisce informazioni sui concetti chiave della modellazione di un&quot;organizzazione snella.
+title: Modellizzazione di un'organizzazione snella
+description: L'articolo fornisce informazioni sui concetti chiave della modellazione di un'organizzazione snella.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ec9191054a1b3587ebbde16acf278084cbd22660
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: c5bb642df692451e975be74bd8aa7d856b964a68
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -41,7 +41,7 @@ Negli scenari di produzione basati su ordini di produzione, il materiale viene r
 
 Per ridurre i lead time di consegna e l'eccesso di magazzino tra centri di lavoro causati dalla produzione in batch, la lean manufacturing introduce il rifornimento kanban e le aree di deposito nella produzione e nel rifornimento magazzino. In genere, ciò interrompe la produzione di cicli di lavorazione kanban parzialmente indipendenti. Il rifornimento di un kanban per un prodotto semilavorato non viene più attivato da un ordine per un prodotto finito. 
 
-Per ristabilire un contesto di costi e di produzione per i diversi scenari kanban proposti in Microsoft Dynamics AX, i flussi di produzione basati su attività sono stati introdotti come spina dorsale della lean manufacturing. Tutte le regole kanban fanno riferimento a questa struttura predefinita. Il modello basato su attività supporta l'impostazione di una più vasta gamma di scenari supportati dalle versioni precedenti di lean manufacturing per Dynamics AX. Tuttavia, il modello non aggiunge complessità per i lavoratori del reparto produzione, in quanto tutti gli scenari utilizzano la stessa interfaccia utente basata sulle attività.
+Per ristabilire un contesto di costi e di produzione per i diversi scenari kanban proposti in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, i flussi di produzione basati su attività sono stati introdotti come spina dorsale della lean manufacturing. Tutte le regole kanban fanno riferimento a questa struttura predefinita. Il modello basato su attività supporta l'impostazione di una più vasta gamma di scenari supportati dalle versioni precedenti di lean manufacturing per Dynamics AX. Tuttavia, il modello non aggiunge complessità per i lavoratori del reparto produzione, in quanto tutti gli scenari utilizzano la stessa interfaccia utente basata sulle attività.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Prodotti semilavorati (livelli non DBA)
 La lean manufacturing per Dynamics AX integra i kanban per i prodotti inventariati e i prodotti semilavorati in un unico framework, offrendo in tal modo un'interfaccia utente unificata per tutte le situazioni. A causa dell'architettura, i livelli aggiuntivi DBA non devono più essere introdotti per attivare i kanban da utilizzare per i prodotti semilavorati. Questa architettura contribuisce anche a ridurre al minimo le operazioni di magazzino.

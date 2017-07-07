@@ -3,27 +3,26 @@ title: Creare un catalogo del servizio clienti
 description: Questo articolo fornisce una panoramica del processo per creare un catalogo per un call center.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef58d4b2028aee5bccd9f060abed8342381888eb
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28aaa84c11a897b895b2a106ca5f0cd6168997b2
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/20/2017
 
 ---
 
@@ -34,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Questo articolo fornisce una panoramica del processo per creare un catalogo per un call center. 
 
-In un servizio clienti è possibile utilizzare i cataloghi dei prodotti per identificare quelli che si desidera offrire ai clienti. In genere nei servizi clienti vengono utilizzati i cataloghi stampati. La progettazione e la produzione di un catalogo stampato viene gestita al di fuori di Microsoft Dynamics 365 for Operations. Tuttavia, è possibile creare e archiviare un formato digitale di un catalogo in Vendita al dettaglio e commercio in Dynamics 365 for Operations utilizzando gli stessi moduli che si utilizzano per impostare i cataloghi al dettaglio online. Prima di poter creare un catalogo, è necessario impostare gli assortimenti dei prodotti e assegnare gli assortimenti a un servizio clienti. Successivamente, è possibile aggiungere i prodotti al catalogo selezionandoli da questi assortimenti. Al termine dell'aggiunta dei prodotti al catalogo e del completamento del catalogo, è necessario convalidare quest'ultimo per verificare i dati. Successivamente, è necessario inviare il catalogo per la revisione e l'approvazione. Dopo l'approvazione, il catalogo può essere pubblicato. Quando viene creato un catalogo del servizio clienti, è possibile acquisire uno snapshot dei dati del catalogo al momento della pubblicazione. Questa funzionalità dello snapshot consente di accedere a una determinata versione del catalogo anche se quest'ultimo viene modificato e aggiornato in un secondo momento. I cataloghi dei servizi clienti possono inoltre essere configurati per includere le funzionalità facoltative riportate di seguito.
+In un servizio clienti è possibile utilizzare i cataloghi dei prodotti per identificare quelli che si desidera offrire ai clienti. In genere nei servizi clienti vengono utilizzati i cataloghi stampati. La progettazione e la produzione di un catalogo stampato viene gestita al di fuori di Microsoft Dynamics 365 for Retail. Tuttavia, è possibile creare e archiviare un formato digitale di un catalogo utilizzando gli stessi moduli che si utilizzano per impostare i cataloghi al dettaglio online. Prima di poter creare un catalogo, è necessario impostare gli assortimenti dei prodotti e assegnare gli assortimenti a un servizio clienti. Successivamente, è possibile aggiungere i prodotti al catalogo selezionandoli da questi assortimenti. Al termine dell'aggiunta dei prodotti al catalogo e del completamento del catalogo, è necessario convalidare quest'ultimo per verificare i dati. Successivamente, è necessario inviare il catalogo per la revisione e l'approvazione. Dopo l'approvazione, il catalogo può essere pubblicato. Quando viene creato un catalogo del servizio clienti, è possibile acquisire uno snapshot dei dati del catalogo al momento della pubblicazione. Questa funzionalità dello snapshot consente di accedere a una determinata versione del catalogo anche se quest'ultimo viene modificato e aggiornato in un secondo momento. I cataloghi dei servizi clienti possono inoltre essere configurati per includere le funzionalità facoltative riportate di seguito.
 
 -   **Codici di origine**: codici utilizzati per tenere traccia della risposta del cliente a una determinata posta del catalogo.
 -   **Prodotti gratuiti**: prodotti inclusi nell'ordine di un cliente senza costi aggiuntivi. Questi prodotti vengono aggiunti automaticamente all'ordine quando il codice sorgente del catalogo viene immesso nell'ordine.

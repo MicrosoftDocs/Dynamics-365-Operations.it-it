@@ -114,7 +114,7 @@ In questa documentazione sono incluse le informazioni per utilizzare al meglio D
 <p><a href="../retail/call-center-functionality">Servizio clienti</p>
 <p><a href="../retail/define-maintain-retail-channels">Impostazione e gestione del canale</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS e POS cloud</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Sviluppo e amministrazione di vendita al dettaglio</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Sviluppo e amministrazione Retail</p>
 
 </td>
 </tr>

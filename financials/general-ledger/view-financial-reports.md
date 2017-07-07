@@ -1,27 +1,27 @@
 ---
 title: Visualizza report finanziari
-description: "In questo articolo viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics AX. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l&quot;aspetto e i dati inclusi."
-author: RobinARH
+description: "In questo articolo viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics AX. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
+In questo articolo viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
 
 <a name="financial-reporting-overview"></a>Panoramica sui report finanziari
 ----------------------------
@@ -64,7 +64,7 @@ Quando si fa clic su **OK**, tutte le opzioni selezionate sono applicate al repo
 Dopo avere aggiornato un report finanziario, è possibile pubblicarlo. Altre persone dell'organizzazione potranno quindi visualizzarlo. Per pubblicare un report, nel Riquadro azioni fare clic su **Pubblica**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Visualizzare un report finanziario in una valuta diversa
-Un report finanziario può essere visualizzato in qualsiasi valuta in qualsiasi momento. Per visualizzare un report in una valuta diversa, nel Riquadro azioni fare clic su **Valuta**, quindi selezionare una valuta. Il report viene convertito nella valuta e i risultati vengono visualizzati. Tutti i codici valuta o simboli inclusi come parte della progettazione del report vengono aggiornati in modo da riflettere la nuova valuta. Le valute visualizzate nell'elenco sono le valute di dichiarazione configurate in Microsoft Dynamics AX.
+Un report finanziario può essere visualizzato in qualsiasi valuta in qualsiasi momento. Per visualizzare un report in una valuta diversa, nel Riquadro azioni fare clic su **Valuta**, quindi selezionare una valuta. Il report viene convertito nella valuta e i risultati vengono visualizzati. Tutti i codici valuta o simboli inclusi come parte della progettazione del report vengono aggiornati in modo da riflettere la nuova valuta. Le valute visualizzate nell'elenco sono le valute di dichiarazione configurate in Finance and Operations.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Visualizzare una visualizzazione riepilogativa del report finanziario
 Un report finanziario può contenere le righe di dettaglio e le righe riepilogative. Le righe di dettaglio sono righe contenenti i conti principali o le dimensioni. Le righe riepilogative sono descrizione, totale e righe di calcolo. Per visualizzare solo le righe riepilogative di un report, fare clic su **Mostra**, quindi su **Solo righe di riepilogo**. Il report viene compresso e visualizza solo le righe riepilogative. Per visualizzare le righe di dettaglio insieme alle righe di riepilogo, fare clic su **Mostra**, quindi di nuovo su **Solo righe di riepilogo**.
@@ -88,7 +88,8 @@ Per esportare un report finanziario, nel Riquadro azioni fare clic su **Esporta*
 <a name="see-also"></a>Vedere anche
 --------
 
-[Report finanziari per Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Report finanziari per Microsoft Dynamics AX](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

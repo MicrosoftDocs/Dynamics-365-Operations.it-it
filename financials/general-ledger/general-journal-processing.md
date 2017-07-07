@@ -1,6 +1,6 @@
 ---
 title: Elaborazione giornale di registrazione generale
-description: "Questo articolo descrive le funzionalità di Microsoft Dynamics 365 for Operations che possono contribuire a rendere l&quot;elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso."
+description: "Questo articolo descrive le funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 150ca540fca154947cca47e97e45ce865ab1f507
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo descrive le funzionalità di Microsoft Dynamics 365 for Operations che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso.  
+Questo articolo descrive le funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso.  
 
 Nomi giornale di registrazione
 
@@ -53,7 +53,7 @@ Un nome di giornale di registrazione può essere utilizzato solo per un segmento
 L'opzione **Storno automatico** è disponibile nei giornali di registrazione generali. Ad esempio, si dispone di una rettifica di attribuzione per competenza in cui il documento effettivo non è ancora stato elaborato, come illustrato nella figura seguente.
 [![Storno giornale di registrazione generale](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Il componente aggiuntivo di Microsoft Excel per le scritture contabili fornisce un ulteriore livello di automazione e rende l'immissione di dati più semplice. L'azione **Apri righe in Excel**è disponibile nelle pagine **Giornale di registrazione generale** e **Giustificativo giornale di registrazione**. 
+Il componente aggiuntivo di Microsoft Excel per le scritture contabili fornisce un ulteriore livello di automazione e rende l'immissione di dati più semplice. L'azione **Apri righe in Excel** è disponibile nelle pagine **Giornale di registrazione generale** e **Giustificativo giornale di registrazione**. 
 
 Nella pagina **Giornali di registrazione periodici** è possibile impostare i giornali ricorrenti per automatizzare l'elaborazione del giornale di registrazione. 
 

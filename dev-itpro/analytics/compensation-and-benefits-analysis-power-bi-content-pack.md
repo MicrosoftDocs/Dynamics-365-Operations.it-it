@@ -1,15 +1,15 @@
 ---
 title: Contenuto Power BI di retribuzioni e benefit
-description: "In questo argomento vengono fornite le informazioni sul contenuto Power BI di retribuzioni e benefit di Dynamics 365 for Operations. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare un pacchetto di contenuti."
+description: "In questo argomento vengono fornite le informazioni sul contenuto Power BI di retribuzioni e benefit di Finance and Operations. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare un pacchetto di contenuti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 263914
 ms.assetid: 18634bb5-3341-42f2-9cc9-7b04708b506b
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6f8375d31cb3b6a68314eba8341d94dce2edaac2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 70e35a33e06fe7c89dd64d17703f19a71d4a157e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,15 +30,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento vengono fornite le informazioni sul contenuto Power BI di retribuzioni e benefit di Dynamics 365 for Operations. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare un pacchetto di contenuti.
+In questo argomento vengono fornite le informazioni sul contenuto Power BI di retribuzioni e benefit di Finance and Operations. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare un pacchetto di contenuti.
 
 <a name="accessing-the-content-pack"></a>Accesso al pacchetto di contenuti
 --------------------------
 
-Il pacchetto di contenuti di retribuzioni e benefit è disponibile nella libreria delle risorse condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il pacchetto di contenuti e collegarlo ai dati Microsoft Dynamics 365 for Operations, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md).
+Il pacchetto di contenuti di retribuzioni e benefit è disponibile nella libreria delle risorse condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il pacchetto di contenuti e collegarlo ai dati Microsoft Dynamics 365 for Finance and Operations, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Report inclusi nel pacchetto di contenuti
-Dopo aver collegato il pacchetto di contenuti ai dati di Microsoft Dynamics 365 for Operations, nei report vengono visualizzati i dati dell'organizzazione. Se non è mai stato usato Microsoft Power BI in precedenza, è possibile ottenere informazioni in merito nella [pagina Formazione guidata a Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). I report inclusi nel pacchetto di contenuti dispongono di grafici e tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.
+Dopo aver collegato il pacchetto di contenuti ai dati di Finance and Operations, nei report vengono visualizzati i dati dell'organizzazione. Se non è mai stato usato Microsoft Power BI in precedenza, è possibile ottenere informazioni in merito nella [pagina Formazione guidata a Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). I report inclusi nel pacchetto di contenuti dispongono di grafici e tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.
 
 | Report                     | Contenuto                                                                                                                              |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Dopo aver collegato il pacchetto di contenuti ai dati di Microsoft Dynamics 365 
 È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-I dati di Dynamics 365 for Operations vengono utilizzati per compilare i report nel pacchetto di contenuti di retribuzioni e benefit. Nella tabella seguente vengono illustrate le entità su cui è stato basato il pacchetto di contenuti.
+I dati di Finance and Operations vengono utilizzati per compilare i report nel pacchetto di contenuti di retribuzioni e benefit. Nella tabella seguente vengono illustrate le entità su cui è stato basato il pacchetto di contenuti.
 
 | Entità                            | Contenuto                                                                                                   | Relazioni con altre entità                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -3,7 +3,7 @@ title: "Creare documentazione o formazione utilizzando le registrazioni di attiv
 description: "In questo argomento vengono illustrate la funzionalità Registrazione attività e le guide attività, viene descritto come creare file di Registrazione attività e come personalizzare le guide attività di Microsoft e includerle nella Guida."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b44dc66cdcd1ede59cb9bb4ed05be27dd465599
+ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
+ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/17/2017
 
 
 ---
@@ -31,19 +31,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento vengono illustrate la funzionalità Registrazione attività e le guide attività, viene descritto come creare file di Registrazione attività e come personalizzare le guide attività di Microsoft e includerle nella Guida.
+In questo argomento vengono illustrate la funzionalità Registrazione attività e le guide attività, viene descritto come creare file di Registrazione attività e come personalizzare le guide attività di Microsoft per i prodotti Unified Operations e includerle nella Guida.
+
+> [!IMPORTANT]
+> Non è possibile creare guide attività personalizzate Dynamics 365 for Talent. La Guida per Talent è automaticamente connessa alle guide attività per il prodotto. 
 
 <a name="learn-about-task-recorder"></a>Informazioni su Registrazione attività
 -------------------------
 
-Registrazione attività è uno strumento di Microsoft Dynamics 365 for Operations che è possibile utilizzare per registrare le azioni che vengono eseguite nell'interfaccia utente del prodotto. Quando si utilizza Registrazione attività, tutti eventi generati nell'interfaccia utente ed eseguiti nel server, tra cui l'aggiunta di valori, la modifica delle impostazioni, la rimozione di dati, vengono acquisiti. I passaggi registrati vengono collettivamente denominati *registrazione di attività*. Le registrazioni di attività possono essere utilizzate in molti modi:
+Registrazione attività è uno strumento che è possibile utilizzare per registrare le azioni eseguite nell'interfaccia utente del prodotto. Quando si utilizza Registrazione attività, tutti eventi generati nell'interfaccia utente ed eseguiti nel server, tra cui l'aggiunta di valori, la modifica delle impostazioni, la rimozione di dati, vengono acquisiti. I passaggi registrati vengono collettivamente denominati *registrazione di attività*. Le registrazioni di attività possono essere utilizzate in molti modi:
 
--   **Le registrazioni di attività possono essere riprodotte come guide attività.** Le guide attività sono parte integrante dell'esperienza della Guida di Dynamics 365 for Operations. Una guida attività è un'esperienza controllata, guidata e interattiva che guida attraverso i passaggi di un processo aziendale. All'utente vengono fornite istruzioni per completare ciascun passaggio mediante un messaggio popup (o "bolla") che si animerà nell'interfaccia utente e punterà all'elemento dell'interfaccia utente con cui l'utente deve interagire. La "bolla" fornisce inoltre informazioni su come interagire con l'elemento, ad esempio "Fare clic qui" o "In questo campo, immettere un valore". Una guida attività viene eseguita per il set di dati corrente dell'utente e i dati immessi vengono salvati nell'ambiente dell'utente.
+-   **Le registrazioni di attività possono essere riprodotte come guide attività.** Le guide attività sono un pezzo integrale della Guida. Una guida attività è un'esperienza controllata, guidata e interattiva che guida attraverso i passaggi di un processo aziendale. All'utente vengono fornite istruzioni per completare ciascun passaggio mediante un messaggio popup (o "bolla") che si animerà nell'interfaccia utente e punterà all'elemento dell'interfaccia utente con cui l'utente deve interagire. La "bolla" fornisce inoltre informazioni su come interagire con l'elemento, ad esempio "Fare clic qui" o "In questo campo, immettere un valore". Una guida attività viene eseguita per il set di dati corrente dell'utente e i dati immessi vengono salvati nell'ambiente dell'utente.
 -   **I file di Registrazione attività possono essere visualizzati come passaggi procedurali nel riquadro della Guida.** È possibile utilizzare il riquadro della Guida per cercare e visualizzare i file di Registrazione attività. È possibile accedere al riquadro della Guida facendo clic sull'icona **?** nella barra di navigazione superiore oppure è possibile utilizzare la combinazione di tasti di scelta rapida **CTRL+MAIUSC+?**. È possibile leggere i passaggi di una registrazione attività nel riquadro della Guida oppure scegliere di riprodurre la registrazione come guida attività, per essere guidati nell'interfaccia utente.
--   **Le registrazioni attività possono essere salvate in BPM.** È possibile salvare la propria registrazione attività in una riga di una gerarchia in una libreria BPM (Modellatore di processi aziendali) in Lifecycle Services (LCS). Un elenco dei passaggi e un diagramma di flusso di processi aziendali verranno generati dalla registrazione. Le registrazioni attività salvate in una libreria di BPM possono essere visualizzate in Dynamics 365 for Operations come Guida.
+-   **Le registrazioni attività possono essere salvate in BPM.** È possibile salvare la propria registrazione attività in una riga di una gerarchia in una libreria BPM (Modellatore di processi aziendali) in Lifecycle Services (LCS). Un elenco dei passaggi e un diagramma di flusso di processi aziendali verranno generati dalla registrazione. Le registrazioni attività che sono state salvate in una libreria BPM possono essere visualizzate come Guida.
 -   **Le registrazioni attività possono essere salvate come documenti di Word.** Ciò consente di produrre con facilità guide di formazione stampabili.
 
-È possibile creare i propri file di Registrazione attività, riprodurre i file di Registrazione attività forniti da Microsoft o modificarli in base alla configurazione in uso. Per ulteriori informazioni su Registrazione attività, vedere [Registrazione attività in Dynamics 365 for Operations](task-recorder.md).
+È possibile creare i propri file di Registrazione attività, riprodurre i file di Registrazione attività forniti da Microsoft o modificarli in base alla configurazione in uso. Per ulteriori informazioni su Registrazione attività, vedere [Registrazione attività](task-recorder.md).
 
 ## <a name="plan-your-task-recording"></a>Pianificare la registrazione attività
 Sia se si crea una nuova registrazione attività sia se si basa la registrazione su una registrazione attività Microsoft, considerare le seguenti informazioni.
@@ -83,7 +86,7 @@ Così apparirà l'annotazione per le note nella "bolla" della guida attività.
 
 [![schermata4](./media/screen4.png)](./media/screen4.png)
 
--   **Passaggio informativo**: queste annotazioni vengono create facendo clic con il pulsante destro del mouse su un controllo o in un punto qualsiasi su un modulo &lt; **Registrazione attività** &lt; **Aggiungi passaggio informativo. **I passaggi informativi verranno visualizzati come un passaggio numerato in qualsiasi punto vengano immessi, anche se non è stata registrata alcuna azione nell'interfaccia utente. È possibile aggiungere un passaggio informativo a livello di modulo o un passaggio informativo associato a un controllo. Quando un passaggio informativo è associato a un modulo, quando la guida attività viene riprodotta la relativa “bolla" verrà visualizzata in qualche parte del modulo, senza puntatore. Quando un passaggio informativo è associato a un controllo, la "bolla" della guida attività punterà al controllo quando la guida attività viene riprodotta. Nel riquadro della Guida, un'annotazione del passaggio informativo verrà visualizzata come passaggio numerato con il testo immesso. Utilizzare i passaggi informativi per preparare l'utente per i passaggi successivi, per descrivere i passaggi che devono essere effettuati al di fuori di Dynamics 365 for Operations o per fare riferimento ad altre registrazioni (sebbene non sia possibile creare collegamenti ipertestuali nelle annotazioni).
+-   **Passaggio informativo**: queste annotazioni vengono create facendo clic con il pulsante destro del mouse su un controllo o in un punto qualsiasi su un modulo &lt; **Registrazione attività** &lt; **Aggiungi passaggio informativo. **I passaggi informativi verranno visualizzati come un passaggio numerato in qualsiasi punto vengano immessi, anche se non è stata registrata alcuna azione nell'interfaccia utente. È possibile aggiungere un passaggio informativo a livello di modulo o un passaggio informativo associato a un controllo. Quando un passaggio informativo è associato a un modulo, quando la guida attività viene riprodotta la relativa “bolla" verrà visualizzata in qualche parte del modulo, senza puntatore. Quando un passaggio informativo è associato a un controllo, la "bolla" della guida attività punterà al controllo quando la guida attività viene riprodotta. Nel riquadro della Guida, un'annotazione del passaggio informativo verrà visualizzata come passaggio numerato con il testo immesso. Utilizzare i passaggi informativi per preparare l'utente per i passaggi successivi, per descrivere i passaggi che devono essere effettuati al di fuori di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition o per fare riferimento ad altre registrazioni (sebbene non sia possibile creare collegamenti ipertestuali nelle annotazioni).
 
 **Determinare la lunghezza della registrazione**
 
@@ -101,7 +104,7 @@ Per i passaggi dettagliati della procedura, vedere [Come creare un file di Regis
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Copiare e personalizzare le registrazioni attività di Microsoft
 È possibile scaricare e modificare i file di Registrazione attività di Microsoft per utilizzarli per la documentazione della Guida o i materiali di formazione. Per scaricare una registrazione attività di Microsoft, effettuare i passaggi seguenti:
 
-1.  In Dynamics 365 for Operations, aprire Registrazione attività. Registrazione attività si trova nel menu **Impostazioni**.
+1.  Aprire Registrazione attività. Registrazione attività si trova nel menu **Impostazioni**.
 2.  Nel riquadro Registrazione attività, fare clic su **Gestisci una registrazione.**
 3.  In **Dove è la registrazione**, fare clic su **È presente in una libreria LCS**.
 4.  fare clic su **Selezionare la libreria LCS**.
@@ -119,18 +122,13 @@ Per visualizzare i file di Registrazione attività personalizzati nel riquadro d
 <a name="see-also"></a>Vedere anche
 --------
 
-[Guida Dynamics 365 for Operations](..\get-started\help-overview.md)
+[Panoramica della Guida](..\get-started\help-overview.md)
 
-[Collegamento alla Guida](..\get-started\help-connect.md)
+[Collegarsi alla Guida](..\get-started\help-connect.md)
 
-[Registrazione attività in Dynamics 365 for Operations](task-recorder.md)
+[Registrazione attività](task-recorder.md)
 
 [Funzionalità di Registrazione attività aggiunte di recente](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[Creazione di nuove librerie di formazione per Dynamics AX all'interno di Lifecycle Services mediante Registrazione attività (collegamento esterno)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Creare argomenti dettagliati della Guida con Registrazione attività (collegamento esterno)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-
 

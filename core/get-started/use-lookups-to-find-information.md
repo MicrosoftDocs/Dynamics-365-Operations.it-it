@@ -1,15 +1,15 @@
 ---
 title: Utilizzare le ricerche per trovare informazioni
-description: "In Microsoft Dynamics 365 for Operations molti campi presentano ricerche per semplificare la ricerca del valore corretto o desiderato. Alle ricerche sono stati aggiunti diversi miglioramenti che rendono questi controlli più utilizzabili e gli utenti più produttivi. In questo argomento si apprenderanno le nuove funzionalità di ricerca e si riceveranno alcuni suggerimenti utili per l&quot;utilizzo ottimale delle ricerche nel sistema."
+description: "In Microsoft Dynamics 365 for Finance and Operations molti campi presentano ricerche per semplificare la ricerca del valore corretto o desiderato. Alle ricerche sono stati aggiunti diversi miglioramenti che rendono questi controlli più utilizzabili e gli utenti più produttivi. In questo argomento si apprenderanno le nuove funzionalità di ricerca e si riceveranno alcuni suggerimenti utili per l'utilizzo ottimale delle ricerche nel sistema."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269934
 ms.assetid: f20cbd2c-14e0-47e7-b351-8e60d3537f96
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 652fbdb7a96c516ca1fc17357683d94b85cd93f3
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5d0a9edd2cb5747fc799c6fdca45dd9ba5720f7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In Microsoft Dynamics 365 for Operations molti campi presentano ricerche per semplificare la ricerca del valore corretto o desiderato. Alle ricerche sono stati aggiunti diversi miglioramenti che rendono questi controlli più utilizzabili e gli utenti più produttivi. In questo argomento si apprenderanno le nuove funzionalità di ricerca e si riceveranno alcuni suggerimenti utili per l'utilizzo ottimale delle ricerche nel sistema.  
+In Microsoft Dynamics 365 for Finance and Operations molti campi presentano ricerche per semplificare la ricerca del valore corretto o desiderato. Alle ricerche sono stati aggiunti diversi miglioramenti che rendono questi controlli più utilizzabili e gli utenti più produttivi. In questo argomento si apprenderanno le nuove funzionalità di ricerca e si riceveranno alcuni suggerimenti utili per l'utilizzo ottimale delle ricerche nel sistema.  
 
 <a name="responsive-lookups"></a>Ricerche responsive
 ------------------
 
-Nelle versioni precedenti di Dynamics 365 for Operations, interagendo con un controllo di ricerca, un utente avrebbe dovuto eseguire un'azione esplicita per aprire il menu a discesa. Ciò poteva verificarsi digitando un asterisco (\*) nel controllo per filtrare la ricerca sulla base del valore corrente del controllo, facendo clic sul pulsante a discesa oppure tramite i tasti di scelta rapida **Alt**+**Freccia GIÙ**. I controlli della ricerca sono stati modificati nei seguenti modi per allinearli meglio alle pratiche Web in essere:
+Nelle versioni precedenti di Finance and Operations, interagendo con un controllo di ricerca, un utente deve eseguire un'azione esplicita per aprire il menu a discesa. Ciò poteva verificarsi digitando un asterisco (\*) nel controllo per filtrare la ricerca sulla base del valore corrente del controllo, facendo clic sul pulsante a discesa oppure tramite i tasti di scelta rapida **Alt**+**Freccia GIÙ**. I controlli della ricerca sono stati modificati nei seguenti modi per allinearli meglio alle pratiche Web in essere:
 
 -   i menu a discesa di ricerca si apriranno ora automaticamente dopo una piccola pausa nella digitazione, con il contenuto dei menu a discesa filtrati in base al valore del controllo di ricerca.
     -   Il vecchio comportamento di apertura automatica della casella a discesa dopo l'immessione di un asterisco (\*) è obsoleto.
@@ -58,7 +58,7 @@ Sebbene lo stato attivo sia ancora nel controllo di ricerca, sarà possibile uti
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Digitare non solo gli ID
-Quando si inseriscono i dati, per gli utenti è naturale tentare di identificare un'entità, ad esempio un cliente o un fornitore, in base al nome anziché a un identificatore che rappresenta l'entità. Nella versione corrente di Dynamics 365 for Operations molte (ma non tutte) le ricerche consentono ora l'immissione di dati contestuali. Questa potente funzionalità consente all'utente di immettere l'ID o il nome corrispondente nel controllo di ricerca. 
+Quando si inseriscono i dati, per gli utenti è naturale tentare di identificare un'entità, ad esempio un cliente o un fornitore, in base al nome anziché a un identificatore che rappresenta l'entità. Nella versione corrente di Finance and Operations molte (ma non tutte) ricerche consentono ora l'immissione di dati contestuali. Questa potente funzionalità consente all'utente di immettere l'ID o il nome corrispondente nel controllo di ricerca. 
 
 Ad esempio, si consideri il campo **Conto cliente** quando si crea un ordine cliente. Questo campo mostra l'**ID conto** per il cliente, ma un utente preferirebbe in genere immettere un **Nome conto** anziché un **ID conto** per questo campo quando si crea un ordine cliente, ad esempio "Forest Wholesales" anziché "US-003".
 

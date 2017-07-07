@@ -1,15 +1,15 @@
 ---
-title: "Configurare un&quot;attività manuale in un flusso di lavoro"
-description: "In questo argomento viene descritto come configurare le proprietà per un&quot;attività manuale."
+title: "Configurare un'attività manuale in un flusso di lavoro"
+description: "In questo argomento viene descritto come configurare le proprietà per un'attività manuale."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 242abaae1aa17578ba8eab4b2664794ff2c2caec
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -126,10 +126,10 @@ Per specificare gli utenti a cui assegnare l'attività manuale, effettuare le op
     </tr>
     <tr class="even">
     <td>Utente</td>
-    <td>Utenti di Microsoft Dynamics 365 for Operations specifici</td>
+    <td>Utenti specifici di Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui assegnare l'attività, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Finance and Operations. Selezionare gli utenti a cui assegnare l'attività, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -212,10 +212,10 @@ Se un utente non completa l'attività manuale nel tempo prestabilito, l'attivit�
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Utenti di Dynamics 365 for Operations specifici</td>
+    <td>Utenti specifici di Finance and Operations</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui riassegnare l'attività, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Finance and Operations. Selezionare gli utenti a cui riassegnare l'attività, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -306,10 +306,10 @@ Se un utente non completa l'attività manuale nel tempo prestabilito, l'attivit�
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Utenti di Dynamics 365 for Operations specifici</td>
+    <td>Utenti specifici di Finance and Operations</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Finance and Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

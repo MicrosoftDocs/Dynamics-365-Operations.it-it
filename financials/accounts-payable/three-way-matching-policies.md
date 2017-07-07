@@ -3,15 +3,15 @@ title: Criteri di abbinamento a tre elementi di verifica
 description: Questo articolo fornisce esempi di abbinamento a tre elementi di verifica.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -66,7 +66,7 @@ I criteri di abbinamento fatture in questo esempio sono di supporto alle persone
 1.  Sammy, un lavoratore nel reparto addetto al ricevimento in Fabrikam, riceve la quantità totale di computer forniti da Contoso. Immette una quantità di 5 in un'entrata prodotti. Poiché l'ordine fornitore è stato interamente ricevuto, lo stato dell'ordine fornitore cambia in Ricevuto.
 2.  April, che coordina la contabilità fornitori in Fabrikam, immette e verifica la fattura che viene inviata da Contoso. Verifica le informazioni seguenti:
     -   Per gli articoli che richiedono i criteri di abbinamento a tre elementi di verifica, la quantità nella riga fattura corrisponde alla quantità ricevuta. La quantità ricevuta è indicata nell'entrata prodotti abbinata alla fattura.
-    -   Per gli articoli che richiedono abbinamento a due oppure a tre elementi di verifica, i prezzi della riga fattura sono nelle tolleranze definite in Microsoft Dynamics 365 for Operations. Sono inclusi i seguenti tipi di abbinamento prezzi:
+    -   Per gli articoli che richiedono abbinamento a due oppure a tre elementi di verifica, i prezzi della riga fattura sono nelle tolleranze definite in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Sono inclusi i seguenti tipi di abbinamento prezzi:
         -   Abbinamento dei prezzi unitari netti: il prezzo unitario netto nella riga fattura corrisponde al prezzo unitario netto nella riga ordine fornitore nella percentuale di tolleranza. In questo esempio la tolleranza del prezzo unitario netto è pari a +8%.
         -   Abbinamento totali dei prezzi: l'importo netto della riga fattura corrisponde all'importo netto della riga ordine fornitore in termini di percentuale o importo di tolleranza o entrambi. In questo esempio la tolleranza di abbinamento dei totali dei prezzi è pari a +15%.
 
@@ -79,7 +79,7 @@ La fattura su carta di Contoso contiene le informazioni seguenti.
 | Imposta sul reddito                         |          |            | 0,00       |
 | Totale                       |          |            | 44.500,00  |
 
-In Microsoft Dynamics 365 for Operations, la riga fattura include le seguenti informazioni.
+In Finance and Operations la riga fattura include le seguenti informazioni.
 
 | Numero articolo                 | Quantità | Prezzo unitario | Importo netto riga | Criteri di abbinamento    | Abbinamento quantità entrata prodotti | Abbinamento prezzi | Abbinamento totale prezzo |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -115,7 +115,7 @@ I criteri di abbinamento fatture in questo esempio sono di supporto alle persone
 1.  Gli articoli arrivano. Sammy, un lavoratore nel reparto addetto al ricevimento della divisione di Fabrikam in Malaysia, viene interrotto e non registra l'entrata prodotti immediatamente.
 2.  April, che coordina la contabilità fornitori in Fabrikam, immette e verifica la fattura che viene inviata da Contoso. Verifica le informazioni seguenti:
     -   Per gli articoli che richiedono i criteri di abbinamento a tre elementi di verifica, la quantità nella riga fattura corrisponde alla quantità ricevuta. La quantità ricevuta è indicata nell'entrata prodotti abbinata alla fattura.
-    -   Per gli articoli che richiedono i criteri di abbinamento a due o a tre elementi di verifica, i prezzi nella riga fattura rientrano nelle tolleranze definite in Microsoft Dynamics 365 for Operations. Sono inclusi i seguenti tipi di abbinamento prezzi:
+    -   Per gli articoli che richiedono i criteri di abbinamento a due o a tre elementi di verifica, i prezzi nella riga fattura rientrano nelle tolleranze definite in Finance and Operations. Sono inclusi i seguenti tipi di abbinamento prezzi:
         -   Abbinamento dei prezzi unitari netti: il prezzo unitario netto nella riga fattura corrisponde al prezzo unitario netto nella riga ordine fornitore nella percentuale di tolleranza. In questo esempio la tolleranza del prezzo unitario netto è pari a +2%.
         -   Abbinamento totali dei prezzi: l'importo netto della riga fattura corrisponde all'importo netto della riga ordine fornitore in termini di percentuale o importo di tolleranza o entrambi. In questo esempio la tolleranza di abbinamento dei totali dei prezzi è pari a +10%.
 
@@ -128,7 +128,7 @@ La fattura su carta di Contoso contiene le informazioni seguenti.
 | Unità USB             | 200      | 10,05      | 2.010,00   |
 | Fattura totale         |          |            | 7.092,00   |
 
-In Microsoft Dynamics 365 for Operations, la riga fattura include le seguenti informazioni.
+In Finance and Operations la riga fattura include le seguenti informazioni.
 
 | Numero articolo           | Quantità | Prezzo unitario | Importo netto riga | Criteri di abbinamento    | Abbinamento quantità entrata prodotti | Abbinamento prezzi | Abbinamento totale prezzo |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|

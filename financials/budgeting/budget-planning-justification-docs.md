@@ -3,13 +3,13 @@ title: Documenti di motivazione per la pianificazione del budget
 description: "I documenti di motivazione forniscono una descrizione per chi richiede un budget per spiegare perché un budget specifico è necessario."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ Un modello di piano di budget viene creato dal responsabile budget in Microsoft 
 
 1.  Fare clic su **Progetto** nel componente aggiuntivo di Office di Microsoft Dynamics Office dopo aver effettuato l'accesso.
 2.  Per informazioni sull'intestazione, utilizzare il pulsante **Aggiungi campi**.
-3.  Selezionare l'origine dati dell'entità di BudgetPlanJustification, quindi fare clic su **Avanti**. **Nota:** l'entità è necessaria per qualsiasi documento di motivazione. È possibile utilizzare altre entità ma il caricamento di nuovo su Microsoft Dynamics 365 for Operations avrà esito negativo se questa entità non verrà inclusa.
+3.  Selezionare l'origine dati dell'entità di BudgetPlanJustification, quindi fare clic su **Avanti**. **Nota:** l'entità è necessaria per qualsiasi documento di motivazione. È possibile utilizzare altre entità ma il caricamento di nuovo su Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition avrà esito negativo se questa entità non verrà inclusa.
 4.  Aggiungere i valori e le etichette BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter e DocumentNumber nel documento Word. **Nota:** è possibile utilizzare le proprie etichette personalizzate anziché le etichette standard, se necessario.
 5.  Fare clic su **Fine** per completare la sezione dell'intestazione.
 6.  Per il dettaglio del livello di riga degli importi del piano di budget, fare clic su **Aggiungi tabella**.
@@ -57,7 +57,7 @@ Un modello di piano di budget viene creato dal responsabile budget in Microsoft 
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Configurare il processo di pianificazione del budget per utilizzare per il modello Motivazione
 
-1.  In Microsoft Dynamics 365 for Operations, passare a **Impostazione budget** &gt; **Impostazioni** &gt; **Pianificazione del budget** &gt; **Modelli documento di motivazione**.
+1.  In Finance and Operations, passare a **Impostazione budget** &gt; **Impostazioni** &gt; **Pianificazione del budget** &gt; **Modelli documento di motivazione**.
 2.  Fare clic su **Nuovo** e individuare il documento di Microsoft Word appena creato.
 3.  Immettere un nome di visualizzazione e una descrizione del modello. Fare clic su **OK**.
 4.  Accedere a **Impostazione budget** &gt; **Impostazioni** &gt; **Pianificazione** del **budget** &gt; **Processo di pianificazione del budget**.
@@ -66,7 +66,7 @@ Un modello di piano di budget viene creato dal responsabile budget in Microsoft 
 
 ##### <a name="edit-and-save-personalized-justification-documents"></a>Modificare e salvare documenti di motivazione personalizzati
 
-1.  In Dynamics 365 for Operations, creare un nuovo piano di budget o aprire un piano di budget esistente.
+1.  In Finance and Operations, creare un nuovo piano di budget o aprire un piano di budget esistente.
 2.  Dal menu a discesa **Motivazione**, selezionare **Crea nuova motivazione**.
 3.  Dopo aver inserito i dettagli, selezionare per caricare il documento personalizzato dal menu a discesa **Motivazione**.
 

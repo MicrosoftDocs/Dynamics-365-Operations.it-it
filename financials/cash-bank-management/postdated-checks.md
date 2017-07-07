@@ -1,16 +1,16 @@
 ---
 title: Assegni postdatati
-description: "Questo articolo fornisce informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 for Operations. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l&quot;assegno non può più essere incassato fino alla data specificata."
+description: "Questo articolo fornisce informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l'assegno non può più essere incassato fino alla data specificata."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c3e59ae5126cd21e668459686133ba8bcf728df3
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 for Operations. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l'assegno non può più essere incassato fino alla data specificata.
+Questo articolo fornisce informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l'assegno non può più essere incassato fino alla data specificata.
 
-Microsoft Dynamics 365 for Operations supporta il ciclo di gestione completo per assegni postdatati sia in Contabilità clienti che in Contabilità fornitori, come illustrato nella seguente tabella.
+Microsoft Dynamics 365 for Finance and Operations supporta il ciclo di gestione completo per assegni postdatati sia in Contabilità clienti che in Contabilità fornitori, come illustrato nella seguente tabella.
 <table>
 <colgroup>
 <col width="50%" />

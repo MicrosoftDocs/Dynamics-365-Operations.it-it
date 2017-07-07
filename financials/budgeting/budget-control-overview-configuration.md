@@ -1,15 +1,15 @@
 ---
 title: Panoramica del controllo del budget
-description: Questo articolo introduce il concetto di controllo del budget e fornisce informazioni per semplificare la configurazione del controllo del budget in Microsoft Dynamics 365 for Operations in modo che sia possibile gestire le risorse finanziarie.
+description: Questo articolo introduce il concetto di controllo del budget e fornisce informazioni per semplificare la configurazione del controllo del budget in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition in modo che sia possibile gestire le risorse finanziarie.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48649b891be72529e6045e48f9738fe68be6cffe
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="budget-control-overview"></a>Panoramica del controllo del budget
+# <a name="budget-control-overview"></a>Panoramica del controllo del budget 
 
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo introduce il concetto di controllo del budget e fornisce informazioni per semplificare la configurazione del controllo del budget in Microsoft Dynamics 365 for Operations in modo che sia possibile gestire le risorse finanziarie.
+Questo articolo introduce il concetto di controllo del budget e fornisce informazioni per semplificare la configurazione del controllo del budget in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition in modo che sia possibile gestire le risorse finanziarie.
 
 <a name="overview"></a>Panoramica
 --------
 
-Il controllo del budget in Microsoft Dynamics 365 for Operations supporta la gestione delle risorse finanziarie di un'organizzazione tramite il piano dei conti, i flussi di lavoro, i gruppi di utenti, i documenti di origine e i giornali di registrazione, il calcolo configurabile dei fondi disponibili, i cicli di budget e le soglie. Se i controlli sono sul posto, un'organizzazione può programmare, misurare, gestire e programmare le risorse finanziarie nel corso dell'anno fiscale. 
+Il controllo del budget in Microsoft Dynamics 365 for Finance and Operations supporta la gestione delle risorse finanziarie di un'organizzazione tramite il piano dei conti, i flussi di lavoro, i gruppi di utenti, i documenti di origine e i giornali di registrazione, il calcolo configurabile dei fondi disponibili, i cicli di budget e le soglie. Se i controlli sono sul posto, un'organizzazione può programmare, misurare, gestire e programmare le risorse finanziarie nel corso dell'anno fiscale. 
 
-Dopo che i budget sono stati approvati in Dynamics 365 for Operations, utilizzando i piani di budget è possibile generare le voci del registro di budget per registrare il budget di spesa per un'organizzazione. In alternativa è possibile creare o importare le voci del registro di budget da un'applicazione di terze parti senza utilizzare la funzionalità di pianificazione del budget. 
+Dopo che i budget sono stati approvati in Finance and Operations, utilizzando i piani di budget è possibile generare le voci del registro di budget per registrare il budget di spesa per un'organizzazione. In alternativa è possibile creare o importare le voci del registro di budget da un'applicazione di terze parti senza utilizzare la funzionalità di pianificazione del budget. 
 
 Le spese possono essere registrate utilizzando i conti principali e le dimensioni finanziarie. Il controllo del budget complessivo di spesa può essere configurato in base ai criteri e ai requisiti dell'organizzazione, raggruppando combinazioni di dimensioni finanziarie e conti principali. 
 
@@ -53,7 +53,7 @@ Nel seguente diagramma viene illustrata la posizione del controllo del budget ne
 -   **Calcolo dei fondi disponibili** - I documenti quali richieste di acquisto (impegno preliminare di spesa) e ordini fornitore (impegni di spesa) devono essere considerati nel calcolo dei fondi disponibili? I documenti in stato di bozza devono essere considerati nel calcolo?
 -   **Autorizzazione di sostituzione** - Chi ha l'autorizzazione a superare il budget disponibile?
 
-Il controllo del budget è completamente integrato in Dynamics 365 for Operations. Di conseguenza, è possibile valutare la disponibilità di budget sia per acquisti pianificati che per acquisti effettivi. Sono disponibili sia richieste di informazioni che report sul budget. Di conseguenza, gli utenti possono valutare il budget nel ciclo di budget e apportare le rettifiche richieste sotto forma di revisioni o trasferimenti di budget. Un responsabile budget può esportare il budget e i valori effettivi in Microsoft Excel per analizzare e prevedere meglio i dati, in base alle esigenze.
+Il controllo del budget è completamente integrato in Finance and Operations. Di conseguenza, è possibile valutare la disponibilità di budget sia per acquisti pianificati che per acquisti effettivi. Sono disponibili sia richieste di informazioni che report sul budget. Di conseguenza, gli utenti possono valutare il budget nel ciclo di budget e apportare le rettifiche richieste sotto forma di revisioni o trasferimenti di budget. Un responsabile budget può esportare il budget e i valori effettivi in Microsoft Excel per analizzare e prevedere meglio i dati, in base alle esigenze.
 
 ## <a name="configuring-budget-control"></a>Configurazione del controllo del budget
 ### <a name="budget-cycle-time-span"></a>Durata ciclo di budget
@@ -100,7 +100,7 @@ Successivamente, nella scheda **Assegna modelli di budget** assegnare i modelli 
 Successivamente nella scheda **Definisci regole di controllo del budget**, è necessario creare le regole specifiche in base alle dimensioni finanziarie abilitate dal controllo del budget. Ad esempio, se l'attenzione è relativa alla spesa o all'intervallo di spese per un reparto, è possibile utilizzare le impostazioni presenti in questa scheda per definire e valutare tali spese. Soglie diverse possono essere definite per ogni regola di controllo del budget. 
 
 > [!Important]
-> Il controllo del budget verrà attivato per qualsiasi conto principale del tipo **Profitti e perdite**, **Spese**, **Ricavi, Stato patrimoniale, Passività, Capitale netto** o **Cespite**. Se questa scheda contiene una regola con criteri vuoti, il controllo del budget verrà abilitato per **tutte**le combinazioni di dimensioni finanziarie contenenti i conti principali per tali tipi. Pertanto è importante creare regole di controllo del budget che definiscono solo gli intervalli delle combinazioni di dimensioni finanziarie per cui è importante attivare il controllo del budget.  
+> Il controllo del budget verrà attivato per qualsiasi conto principale del tipo **Profitti e perdite**, **Spese**, **Ricavi, Stato patrimoniale, Passività, Capitale netto** o **Cespite**. Se questa scheda contiene una regola con criteri vuoti, il controllo del budget verrà abilitato per **tutte** le combinazioni di dimensioni finanziarie contenenti i conti principali per tali tipi. Pertanto è importante creare regole di controllo del budget che definiscono solo gli intervalli delle combinazioni di dimensioni finanziarie per cui è importante attivare il controllo del budget.  
 
 ### <a name="select-main-accounts"></a>Seleziona conti principali
 
@@ -125,10 +125,6 @@ Inoltre, si noti che le transazioni, ad esempio le voci del registro di budget, 
 ## <a name="using-budget-control"></a>Utilizzo del controllo del budget
 Una volta che il controllo del budget è abilitato, gli utenti riceveranno i messaggi di avviso e di errore del controllo del budget nei documenti e nei giornali di registrazioni configurati per il controllo del budget. Si tenga presente che è possibile configurare il controllo del budget in modo che gli utenti vengano avvisati quando superano i fondi di budget, ma che possano sempre continuare a confermare o registrare la transazione. Gli utenti possono visualizzare i dettagli delle verifiche del budget nella pagina **Errori e avvisi di controllo del budget**.   
 
-Da questa pagina l'utente può espandere la pagina **Statistiche di controllo del budget per periodo** per visualizzare i dettagli di disponibilità e le prenotazioni di budget per la combinazione selezionata di dimensioni di controllo del budget. Gli utenti possono inoltre accedere alla pagina **Statistiche di controllo del budget**in cui la disponibilità del budget viene visualizzata per tutte le combinazioni di dimensioni finanziarie utilizzate nel controllo del budget. 
+Da questa pagina l'utente può espandere la pagina **Statistiche di controllo del budget per periodo** per visualizzare i dettagli di disponibilità e le prenotazioni di budget per la combinazione selezionata di dimensioni di controllo del budget. Gli utenti possono inoltre accedere alla pagina **Statistiche di controllo del budget** in cui la disponibilità del budget viene visualizzata per tutte le combinazioni di dimensioni finanziarie utilizzate nel controllo del budget. 
 
 Se il controllo del budget è attivato per gli ordini fornitore, il responsabile budget può utilizzare l'area di lavoro **Budget contabili e previsioni** per verificare la coda di tutti gli ordini fornitore non confermati con errori e avvisi di verifica budget. Se il responsabile budget dispone delle autorizzazioni per superare il budget, può confermare l'ordine fornitore direttamente nell'area di lavoro.    
-
-
-
-

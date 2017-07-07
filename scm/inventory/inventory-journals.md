@@ -1,16 +1,16 @@
 ---
 title: Giornali di registrazione magazzino
-description: In questo articolo viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell&quot;inventario fisico.
+description: In questo articolo viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d947b184fd61af3b997182f0a39a8c13c58d6a5a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,10 +30,12 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
+
 
 In questo articolo viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico. 
 
-I giornali di registrazione magazzino in Microsoft Dynamics 365 for Operations vengono utilizzati per registrare le transazioni di inventario fisico di diversi tipi, ad esempio la registrazione delle uscite e delle entrate, i movimenti inventario, la creazione delle distinte base (DBA) e la riconciliazione dell'inventario fisico. Tutti i giornali di registrazione magazzino vengono utilizzati in una modalità simile, ma vengono suddivisi in diversi tipi.
+I giornali di registrazione magazzino in Microsoft Dynamics 365 for Finance and Operations vengono utilizzati per registrare le transazioni di inventario fisico di diversi tipi, ad esempio la registrazione delle uscite e delle entrate, i movimenti inventario, la creazione delle distinte base (DBA) e la riconciliazione dell'inventario fisico. Tutti i giornali di registrazione magazzino vengono utilizzati in una modalità simile, ma vengono suddivisi in diversi tipi.
 
 ## <a name="types-of-inventory-journals"></a>Tipi di giornali di registrazione magazzino
 Sono disponibili i seguenti tipi di giornali di registrazione magazzino:
@@ -68,7 +70,7 @@ Quando si dichiara una DBA come finita, è possibile creare un giornale di regis
 
 ### <a name="item-arrival"></a>Arrivo articoli
 
-È possibile utilizzare il giornale di registrazione arrivi articoli per registrare l'entrata di articoli (ad esempio, ordini fornitore). Un giornale di registrazione arrivi articoli può essere creato come parte della gestione degli arrivi dalla pagina **Panoramica arrivi** oppure è possibile creare manualmente un inserimento nel giornale di registrazione dalla pagina **Arrivo articoli**. Se si consente al nome del giornale di registrazione arrivi articoli di controllare le ubicazioni di prelievo, Dynamics 365 for Operations cerca una ubicazione per gli articoli ricevuti e, se c'è spazio disponibile, genera le destinazioni di ubicazione per gli articoli in arrivo.
+È possibile utilizzare il giornale di registrazione arrivi articoli per registrare l'entrata di articoli (ad esempio, ordini fornitore). Un giornale di registrazione arrivi articoli può essere creato come parte della gestione degli arrivi dalla pagina **Panoramica arrivi** oppure è possibile creare manualmente un inserimento nel giornale di registrazione dalla pagina **Arrivo articoli**. Se si consente al nome del giornale di registrazione arrivi articoli di controllare le ubicazioni di prelievo, Finance and Operations cerca una ubicazione per gli articoli ricevuti e, se c'è spazio disponibile, genera le destinazioni di ubicazione per gli articoli in arrivo.
 
 ### <a name="production-input"></a>Entrata produzione
 

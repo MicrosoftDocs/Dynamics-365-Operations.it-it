@@ -1,9 +1,9 @@
 ---
 title: Utilizzare il componente aggiuntivo di Excel
-description: "In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Per aprire i dati di entità, è possibile iniziare da Excel o da Microsoft Dynamics 365 for Operations."
+description: "In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c391fb70d837db9c0f167b392291fc1c5cc2bb53
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Per aprire i dati di entità, è possibile iniziare da Excel o da Microsoft Dynamics 365 for Operations.
+In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Per aprire i dati entità, è possibile iniziare da Excel o da Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 Aprendo i dati entità in Microsoft Excel, è possibile visualizzare in modo rapido e facile i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Questo componente aggiuntivo richiede Microsoft Excel 2016. **Nota:** se il tenant Microsoft Azure Active Directory (Azure AD) viene configurato per l'utilizzo di Active Directory Federation Services (AD FS), è necessario verificare che l'aggiornamento del mese di maggio 2016 sia stato applicato, in modo che il componente aggiuntivo di Excel possa consentire correttamente l'accesso.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Aprire i dati entità in Excel quando si inizia da Dynamics 365 for Operations
-1.  In una pagina in Microsoft Dynamics 365 for Operations fare clic su **Apri in Microsoft Office**. Se l'origine dati principale (tabella) della pagina è analoga a quella dell'origine dati principale di tutte le entità, le opzioni predefinite **Apri in Excel** vengono generate per la pagina. Le opzioni **Apri in Excel** possono essere individuate su pagine utilizzate di frequente, ad esempio **Tutti i fornitori** e **Tutti i clienti**.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Aprire i dati entità in Excel quando si inizia da Dynamics 365 for Finance and Operations
+1.  In una pagina in Microsoft Dynamics 365 for Finance and Operations fare clic su **Apri in Microsoft Office**. Se l'origine dati principale (tabella) della pagina è analoga a quella dell'origine dati principale di tutte le entità, le opzioni predefinite **Apri in Excel** vengono generate per la pagina. Le opzioni **Apri in Excel** possono essere individuate su pagine utilizzate di frequente, ad esempio **Tutti i fornitori** e **Tutti i clienti**.
 2.  Fare clic sull'opzione **Apri in Excel** e aprire la cartella di lavoro generata. Questa cartella di lavoro contiene dati vincolanti per l'entità, un puntatore all'ambiente in uso e un puntatore al componente aggiuntivo di Excel.
 3.  In Excel fare clic su **Abilita modifica** per attivare il componente aggiuntivo di Excel da eseguire. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
 4.  Se si esegue per la prima volta il componente aggiuntivo di Excel, fare clic su **Considera attendibile questo componente aggiuntivo**.
-5.  Se viene richiesto di accedere, fare clic su **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso a Dynamics 365 for Operations. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente rispetto a Internet Explorer e consentirà l'acceso automatico, se possibile. Di conseguenza, verificare il nome utente nell'angolo superiore destro del componente aggiuntivo di Excel.
+5.  Se viene richiesto di accedere, fare clic su **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso a Dynamics 365 for Finance and Operations. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente rispetto a Internet Explorer e consentirà l'acceso automatico, se possibile. Di conseguenza, verificare il nome utente nell'angolo superiore destro del componente aggiuntivo di Excel.
 
 Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità selezionata. Tenere presente che non saranno disponibili dati nella cartella di lavoro finché il componente aggiuntivo di Excel la leggerà.
 
@@ -48,7 +48,7 @@ Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità sele
 2.  Nell'Office Store cercare la parola chiave "Dynamics" e fare clic su **Aggiungi** accanto a **Microsoft Dynamics Office Add-in** (il componente aggiuntivo di Excel).
 3.  Se si esegue per la prima volta il componente aggiuntivo di Excel, abilitarlo facendo clic su **Considera attendibile questo componente aggiuntivo**. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
 4.  Fare clic su **Aggiungi informazioni sul server** per aprire il riquadro **Opzioni**.
-5.  Copiare l'URL del browser dall'istanza Dynamics 365 for Operations di destinazione, incollarlo nel campo **URL server**, quindi eliminare tutto ciò che segue il nome host. L'URL risultante deve includere soltanto il nome host.
+5.  Copiare l'URL del browser dall'istanza Dynamics 365 for Finance and Operations di destinazione, incollarlo nel campo **URL server**, quindi eliminare tutto ciò che segue il nome host. L'URL risultante deve includere soltanto il nome host.
 Ad esempio, se l'URL è https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, eliminare tutto ad eccezione di **https://xxx.dynamics.com**.
 6.  Fare clic su **OK**, quindi su **Sì** per confermare la modifica. Il componente aggiuntivo di Excel si riavvia e carica i metadati. Il pulsante **Progettazione** è ora disponibile. Se il componente aggiuntivo di Excel è un pulsante **Carica applet**, è probabile che la modalità di accesso non sia corretta. Per ulteriori informazioni, vedere "Viene visualizzato il pulsante Carica applet" nella sezione "Risoluzione dei problemi" di questo argomento.
 7.  Fare clic su **Progettazione**. Il componente aggiuntivo di Excel recupera i metadati dell'entità.

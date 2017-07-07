@@ -1,16 +1,16 @@
 ---
 title: Visualizzare e progettare report finanziari
-description: L&quot;articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Operations.
+description: L'articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Finance and Operations.
 author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1c0787327830d2cdff9e8a48798165dc83493393
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-L'articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Operations. I report finanziari sono costituiti da una esperienza di visualizzazione in Dynamics 365 for Operations e una funzionalità di progettazione report con un solo clic che consente di creare e modificare report finanziari.  
+L'articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Finance and Operations. I report finanziari sono costituiti da una esperienza di visualizzazione in Finance and Operations e una funzionalità di progettazione report con un solo clic che consente di creare e modificare report finanziari.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Esercizio 1: generare ed esplorare un report finanziario predefinito
 -----------------------------------------------------------
@@ -59,7 +59,7 @@ Per questo esercizio verrà generato ed esplorato un report predefinito esistent
 13. Selezionare **Opzioni report**.
 14. Selezionare **Aggiungere un filtro dimensioni** e scegliere **Business Unit**.
 15. Digitare 001 nel campo e selezionare **OK**. Il report mostra ora solo i dati per la Business Unit 001. Si tratta di una visualizzazione personalizzata del report e non è disponibile per altri utenti.
-16. Chiudere il report filtrato. I report finanziari possono essere visualizzati in qualsiasi valuta aggiunta a Dynamics 365 for Operations.
+16. Chiudere il report filtrato. I report finanziari possono essere visualizzati in qualsiasi valuta aggiunta a Finance and Operations.
 17. Selezionare **Valuta**, quindi **EUR**. Il report viene ora visualizzato in euro. Tutti i codici valuta o simboli di valuta inclusi nella progettazione del report vengono ora visualizzati nella valuta applicata. Se per una valuta non viene definito un simbolo di valuta, questo non viene visualizzato.
 18. Chiudere il report **Dettagli CoGe**.
 19. Chiudere **Progettazione report**.
@@ -70,7 +70,7 @@ In questo esercizio verrà modificato un report predefinito esistente. Verrà ag
 1.  Passare a **Report finanziari** in Richieste di informazioni e report nella contabilità generale.
 2.  Selezionare la riga per il report denominato **Bilancio di verifica riepilogativo - Predefinito**.
 3.  Selezionare **Modifica**. **Bilancio di verifica riepilogativo - Predefinito** si aprirà nella funzionalità di progettazione report.
-4.  Selezionare **File**, quindi **Salva con nome** e denominare il report Bilancio di verifica dettagliato con attributi. Nota: quando un nuovo report viene creato nella funzionalità di progettazione report, l'elenco dei report finanziari viene aggiornato in Dynamics 365 for Operations.
+4.  Selezionare **File**, quindi **Salva con nome** e denominare il report Bilancio di verifica dettagliato con attributi. Nota: quando un nuovo report viene creato nella funzionalità di progettazione report, l'elenco dei report finanziari viene aggiornato in Finance and Operations.
 5.  Dalla definizione di report, selezionare l'icona di definizione di riga per aprire la **definizione di riga Bilancio di verifica - Predefinito**.
 6.  Salvare la definizione di riga come **Bilancio di verifica dettagliato con attributi**
 7.  Con il cursore sulla riga 50, selezionare **Modifica**, quindi **Inserire le righe delle dimensioni**. L'inserimento di righe dalle dimensioni consente di scegliere le dimensioni che si desidera inserire nella definizione di riga. Per questo esercizio verrà creata la definizione di riga utilizzando il conto principale.
@@ -183,8 +183,8 @@ In questo esercizio verrà creato un nuovo report. Il report del conto economico
 18. **Salvare** le modifiche e **generare**. Una volta generato e aperto il report, è possibile esplorarlo.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-[Report finanziari](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
-[Visualizza report finanziari](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
+[Report finanziari](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
+[Visualizza report finanziari](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
 [Blog per i report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

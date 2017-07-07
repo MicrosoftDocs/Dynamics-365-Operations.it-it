@@ -3,7 +3,7 @@ title: Panoramica IVA
 description: Questo articolo fornisce una panoramica del sistema IVA. Descrive gli elementi di configurazione IVA e il modo in cui interagiscono.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>Panoramica IVA
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Questo articolo fornisce una panoramica del sistema IVA. Descrive gli elementi di configurazione IVA e il modo in cui interagiscono.
@@ -73,7 +75,7 @@ In ogni transazione (righe documento di acquisto/vendita, giornali di registrazi
 In ciascuna transazione, è possibile individuare l'IVA calcolata aprendo la pagina **Transazione IVA**. È possibile individuare l'IVA per una riga di documento o per l'intero documento. Per alcuni documenti (ad esempio, fatture fornitore e giornali di registrazione generale), è possibile rettificare l'IVA calcolata se nel documento originale vengono mostrati gli importi devianti.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Liquidazione e reporting IVA
-L'IVA deve essere dichiarata e pagata agli uffici tributari a intervalli regolari (mensile, trimestrale e così via). In Microsoft Dynamics 365 for Operations sono disponibili funzionalità che consentono di liquidare i conti IVA per l'intervallo e utilizzare in contropartita i saldi nel conto di liquidazione IVA, come specificato nei gruppi di registrazione contabile. È possibile accedere a questa funzionalità nella pagina **Liquida e registra IVA**. È necessario specificare il periodo di liquidazione IVA per cui l'IVA dovrà essere liquidata. 
+L'IVA deve essere dichiarata e pagata agli uffici tributari a intervalli regolari (mensile, trimestrale e così via). In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition sono disponibili funzionalità che consentono di liquidare i conti IVA per l'intervallo e utilizzare in contropartita i saldi nel conto di liquidazione IVA, come specificato nei gruppi di registrazione contabile. È possibile accedere a questa funzionalità nella pagina **Liquida e registra IVA**. È necessario specificare il periodo di liquidazione IVA per cui l'IVA dovrà essere liquidata. 
 
 Dopo aver pagato l'IVA, il saldo del conto di liquidazione IVA deve essere bilanciato a fronte del conto bancario. Se l'ufficio IVA specificato nel periodo di liquidazione IVA è correlato a un conto fornitore, il saldo IVA viene registrato come fattura fornitore aperta e può essere incluso nella proposta di pagamento normale.
 

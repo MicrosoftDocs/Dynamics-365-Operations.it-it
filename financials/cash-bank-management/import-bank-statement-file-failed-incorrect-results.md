@@ -1,15 +1,15 @@
 ---
 title: Risoluzione dei problemi di importazione di file di rendiconto bancario
-description: "È importante che il file di rendiconto bancario della banca corrisponda al layout supportato da Microsoft Dynamics 365 for Operations. A causa dei rigorosi standard per i rendiconti bancari, la maggior parte delle integrazioni funzionerà correttamente. Tuttavia, talvolta il file di rendiconto non può essere importato o contiene risultati non corretti. In genere, questi ultimi problemi sono provocati da piccole differenze nel file di rendiconto bancario. In questo articolo viene descritto come risolvere tali differenze e risolvere i problemi."
+description: "È importante che il file di rendiconto bancario della banca corrisponda al layout supportato da Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. A causa dei rigorosi standard per i rendiconti bancari, la maggior parte delle integrazioni funzionerà correttamente. Tuttavia, talvolta il file di rendiconto non può essere importato o contiene risultati non corretti. In genere, questi ultimi problemi sono provocati da piccole differenze nel file di rendiconto bancario. In questo articolo viene descritto come risolvere tali differenze e risolvere i problemi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e2029a03cf6b46ee206417076c64a269080119ed
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-È importante che il file di rendiconto bancario della banca corrisponda al layout supportato da Microsoft Dynamics 365 for Operations. A causa dei rigorosi standard per i rendiconti bancari, la maggior parte delle integrazioni funzionerà correttamente. Tuttavia, talvolta il file di rendiconto non può essere importato o contiene risultati non corretti. In genere, questi ultimi problemi sono provocati da piccole differenze nel file di rendiconto bancario. In questo articolo viene descritto come risolvere tali differenze e risolvere i problemi.
+È importante che il file di rendiconto bancario della banca corrisponda al layout supportato da Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. A causa dei rigorosi standard per i rendiconti bancari, la maggior parte delle integrazioni funzionerà correttamente. Tuttavia, talvolta il file di rendiconto non può essere importato o contiene risultati non corretti. In genere, questi ultimi problemi sono provocati da piccole differenze nel file di rendiconto bancario. In questo articolo viene descritto come risolvere tali differenze e risolvere i problemi.
 
 <a name="what-is-the-error"></a>Qual è l'errore?
 ------------------
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 Dopo aver tentato di importare un file di rendiconto bancario, passare allo storici processi della gestione dati e ai dettagli di esecuzione per individuare l'errore. L'errore potrà aiutare a indicare il rendiconto, il saldo o la riga del rendiconto. Tuttavia, è improbabile che tali informazioni siano sufficienti per identificare il campo o l'elemento che causa il problema.
 
 ## <a name="what-are-the-differences"></a>Quali sono le differenze?
-Confrontare la definizione del layout del file bancario con la definizione di importazione di Microsoft Dynamics 365 for Operations e osservare tutte le differenze nei campi e gli elementi. Confrontare il file di rendiconto bancario al file di esempio di Dynamics 365 for Operations correlato. Nei file ISO20022, tutte le differenze dovrebbero essere semplici da visualizzare.
+Confrontare la definizione del layout del file bancario con la definizione di importazione di Finance and Operations e osservare tutte le differenze nei campi e le voci. Confrontare il file di rendiconto bancario al file di esempio di Finance and Operations correlato. Nei file ISO20022, tutte le differenze dovrebbero essere semplici da visualizzare.
 
 ## <a name="transformations"></a>Trasformazioni
 In genere, la modifica deve essere eseguita in una delle tre trasformazioni. Ogni trasformazione viene scritta per uno specifico standard.
@@ -80,7 +80,7 @@ Quando la trasformazione viene eseguita, creare un file di output da visualizzar
 
 ### <a name="adjust-the-transformation"></a>Modificare la trasformazione
 
-Modificare la trasformazione per ottenere il campo o l'elemento appropriato nel file di rendiconto bancario. Quindi mappare il campo o l'elemento all'elemento appropriato di Dynamics 365 for Operations.
+Modificare la trasformazione per ottenere il campo o l'elemento appropriato nel file di rendiconto bancario. Quindi mappare il campo o l'elemento all'elemento appropriato di Finance and Operations.
 
 ### <a name="debitcredit-indicator"></a>Indicatore Dare/Avere
 

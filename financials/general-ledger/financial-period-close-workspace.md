@@ -1,9 +1,9 @@
 ---
 title: Area di lavoro chiusura periodo finanziario
-description: Questo articolo fornisce una panoramica dell&quot;area di lavoro Chiusura periodo finanziario e della configurazione collegata.
+description: Questo articolo fornisce una panoramica dell'area di lavoro Chiusura periodo finanziario e della configurazione collegata.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 788b0af30eb750cad8f958ecc4c33cf989b2a417
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -65,7 +65,7 @@ L'opzione **Attività completata** deve essere selezionata manualmente dopo che 
 È possibile visualizzare tutte le attività correnti e precedenti di chiusura periodo nella pagina **Tutte le attività di chiusura periodo finanziario**. Questa pagina elenco viene utilizzata per l'analisi dello storico del processo di chiusura, poiché include informazioni sulla scadenza programmata, la data di completamento effettivo e sulla persona che ha completato l'attività. È possibile esportare facilmente le informazioni su questa pagina elenco in Microsoft Excel a scopo di report e controllo.
 
 ## <a name="financial-period-close-configuration-page"></a>Pagina Configurazione chiusura periodo finanziario
-Prima di poter utilizzare l'area di lavoro **Chiusura periodo finanziario**, è necessario configurare il processo in Microsoft Dynamics 365 for Operations utilizzando la pagina **Configurazione chiusura periodo finanziario**. Fare clic su **Contabilità generale** &gt; **Periodo chiuso** &gt; **Configurazione chiusura periodo finanziario**.
+Prima di poter utilizzare l'area di lavoro **Chiusura periodo finanziario**, è necessario configurare il processo in Microsoft Dynamics 365 for Finance and Operations utilizzando la pagina **Configurazione chiusura periodo finanziario**. Fare clic su **Contabilità generale** &gt; **Periodo chiuso** &gt; **Configurazione chiusura periodo finanziario**.
 
 ### <a name="resources"></a>Risorse
 
@@ -90,7 +90,7 @@ Consente di creare e modificare i calendari finanziari di chiusura utilizzando l
 
 È possibile assegnare un'attività nel modello a una o più società in cui tale attività è applicabile. Se una persona diversa viene assegnata per completare tale impegno lavorativo in ciascuna società, potrebbe essere utile creare più attività per lo stesso impegno lavorativo. Creare un'attività per ciascuna società. 
 
-La voce di menu ****Collegamento attività**** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di chiusura per eseguire il processo di rivalutazione valuta per Contabilità fornitori può essere collegata alla pagina ****Rivalutazione valuta estera**** associata in Microsoft Dynamics 365 for Operations. È inoltre possibile effettuare il collegamento a un URL esterno. 
+La voce di menu ****Collegamento attività**** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di chiusura per eseguire il processo di rivalutazione valuta per Contabilità fornitori può essere collegata alla pagina ****Rivalutazione valuta estera**** associata in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. È inoltre possibile effettuare il collegamento a un URL esterno. 
 
 > [Suggerimento]: se si desidera collegare un report di Management Reporter specifico a un'attività di chiusura periodo finanziario, è possibile utilizzare l'URL del report. Per accedere all'URL del report, aprire il report nella funzionalità di progettazione dei report, quindi fare clic su **File** &gt; **Visualizza report** per aprire il report in un Web browser. È quindi possibile copiare l'URL nella barra degli indirizzi del browser e incollarlo nel campo **Collegamento attività** **URL**. 
 

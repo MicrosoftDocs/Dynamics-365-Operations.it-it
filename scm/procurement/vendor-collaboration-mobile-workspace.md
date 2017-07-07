@@ -1,16 +1,16 @@
 ---
-title: Area di lavoro mobile per la collaborazione fornitore per l&quot;app Microsoft Dynamics 365 for Operations
-description: Nell&quot;area di lavoro mobile per la collaborazione fornitore i fornitori possono restare aggiornati sugli ordini fornitore che sono stati inviati loro per l&quot;approvazione e visualizzare le informazioni sugli ordini fornitore e i contatti nuovi e aggiornati.
-author: YuyuScheller
+title: Area di lavoro mobile di collaborazione fornitore
+description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Collaborazione fornitore. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
+author: mkirknel
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
@@ -18,143 +18,158 @@ ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e19fee87dae6e5d425f36dac0db4ea89534a8510
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 20e4c77bc47bffc3474559e3b9933b87e947e178
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Area di lavoro mobile per la collaborazione fornitore per l'app Microsoft Dynamics 365 for Operations
+# <a name="vendor-collaboration-mobile-workspace"></a>Area di lavoro mobile di collaborazione fornitore
 
 [!include[banner](../includes/banner.md)]
 
+In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Collaborazione fornitore**. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
 
-Nell'area di lavoro mobile per la collaborazione fornitore i fornitori possono restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione e visualizzare le informazioni sugli ordini fornitore e i contatti nuovi e aggiornati.
+Questa area di lavoro mobile può essere utilizzata con l'app mobile Microsoft Dynamics 365 for Unified Operations.
 
-<a name="prerequisites"></a>Prerequisiti
--------------
+## <a name="overview"></a>Panoramica 
+L'area di lavoro mobile **Collaborazione fornitore** mantiene i fornitori aggiornati sui nuovi ordini fornitore e consente loro di visualizzare gli ordini e quindi di rispondere tramite il client Web di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
+
+>[!NOTE]
+> L'area di lavoro mobile dovrebbe essere utilizzata come supplemento all'interfaccia Web per la collaborazione fornitore, non come una sostituzione. 
+
+I fornitori possono utilizzare l'area di lavoro mobile **Collaborazione fornitore** per visualizzare i nuovi ordini fornitore che ricevono per l'approvazione. Vengono visualizzate le informazioni relative agli ordini fornitore, ad esempio prodotti, quantità e date di consegna richieste. Anche le informazioni sul prezzo sono disponibili, a seconda della configurazione di ciascun fornitore. 
+
+Quando un utente accede come fornitore, vede a quali ordini fornitore è stato risposto e quali sono ancora in attesa dell'azione del cliente. Ad esempio, un ordine fornitore potrebbe essere in attesa di un'azione del cliente perché il fornitore ha suggerito un'altra data di consegna ma il cliente non ha ancora confermato la data. Il fornitore visualizza anche un elenco di ordini fornitore confermati, ma non ancora spediti. 
+
+Per rispondere a un ordine fornitore, il fornitore deve utilizzare l'interfaccia Web per la collaborazione fornitore disponibile nel client Web. Inoltre qui il fornitore ottiene ulteriori informazioni sull'ordine, ad esempio gli allegati del documento, l'indirizzo di consegna per riga e le spese associate al fornitore. 
+
+I fornitori che hanno un ruolo di sicurezza speciale possono vedere quali contatti sono registrati per un conto fornitore. Con lo stesso ruolo di sicurezza, il fornitore può vedere lo stato di qualsiasi richiesta utente inviata. 
+
+L'interfaccia Web per la collaborazione fornitore nel client Web deve essere utilizzata per creare nuovi contatti e inviare nuove richieste utente. 
+
+L'area di lavoro mobile **Collaborazione fornitore** consente a un fornitore di eseguire queste attività:
+
+-   Visualizzare nuovi ordini fornitore inviati al fornitore.
+-   Visualizzare gli ordini fornitore ai quali il fornitore ha risposto e che sono in attesa dell'azione del cliente.
+-   Visualizzare gli ordini fornitore che sono stati confermati, ma non ancora completamente ricevuti.
+-   Visualizzare le informazioni sui contatti registrati per il conto fornitore. Questa attività richiede un ruolo di sicurezza aggiuntivo.
+-   Visualizzare le informazioni su una richiesta di utente che è stata inoltrata dal fornitore e seguire lo stato della richiesta. Questa attività richiede un ruolo di sicurezza aggiuntivo.
+
+## <a name="prerequisites"></a>Prerequisiti
+I prerequisiti variano a seconda della versione di Microsoft Dynamics 365 che è stata installata nell'organizzazione.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Prerequisiti se si usa l'Aggiornamento di luglio 2017 di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
+Se nell'organizzazione è stato distribuito l'aggiornamento di luglio 2017 di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Collaborazione fornitore**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se si usa Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva
+Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva, l'amministratore di sistema deve soddisfare i prerequisiti seguenti. 
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Prerequisito</th>
+<th>Ruolo</th>
 <th>descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Informazioni sulla piattaforma mobile Microsoft Dynamics 365 for Operations</td>
-<td><a href="https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/">Piattaforma mobile di Dynamics 365 for Operations</a></td>
+<td>Se si utilizza l'aggiornamento 3 della piattaforma è necessario implementare KB 3216943.</td>
+<td>Amministratore di sistema</td>
+<td>KB 3216943 è un aggiornamento binario necessario se si utilizza l'aggiornamento 3 della piattaforma. Per implementare questo KB, l'amministratore di sistema deve completare i passaggi seguenti.
+<ol>
+<li>Eseguire il download di KB 3216943 da Microsoft Dynamics Lifecycle Services (LCS).</li>
+<li>Installare l'aggiornamento binario, che viene fornito come pacchetto distribuibile. Per informazioni su come applicare un pacchetto distribuibile, vedere <a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Applicare un pacchetto distribuibile</a>.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>Dynamics 365 for Operations</td>
-<td>Assicurarsi di utilizzare un ambiente con Microsoft Dynamics 365 for Operations versione 1611 e l'aggiornamento 3 della piattaforma di Microsoft Dynamics for Operations (novembre 2016).</td>
+<td>Deve essere stato implementato l'articolo KB 4013633.</td>
+<td>Amministratore di sistema</td>
+<td>l'articoloo KB 4013633 è un aggiornamento X++ o aggiornamento rapido dei metadati contenente l'area di lavoro mobile <strong>Scorte disponibili</strong>. Per implementare l'articolo KB 4013633, l'amministratore di sistema deve completare i passaggi seguenti:
+<ol>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Scaricare l'hotfix metadati da LCS</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installare l'aggiornamento rapido dei metadati</a>.</li><li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Creare un pacchetto distribuibile</a> contenente il modello <strong>SCMMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Applicare il pacchetto distribuibile</a>.</li>
+</ol></td>
 </tr>
 <tr class="odd">
-<td><span style="color: #000000">Dispositivo mobile con l'app Dynamics 365 for Operations installata</span></td>
-<td><span style="color: #000000">Scaricare l'app Dynamics 365 for Operations dall'App Store mobile.</span></td>
+<td>L'area di lavoro mobile <strong>Collaborazione fornitore</strong> deve essere pubblicata.</td><td>Amministratore di sistema</td>
+<td>Vedere <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Pubblicare un'area di lavoro mobile</a>.</td>
 </tr>
 <tr class="even">
-<td>Aggiornamento rapido KB 4013633</td>
-<td>Impostare l'hotfix per abilitare le aree di lavoro che vengono fornite in Dynamics 365 for Operations.</td>
-</tr>
-<tr class="odd">
-<td><span style="color: #ff0000"><span style="color: #000000">Aggiornamento rapido KB 3216943</span> </span></td>
-<td>Installare l'hotfix per abilitare l'area di lavoro mobile per la collaborazione fornitore.</td>
-</tr>
-<tr class="even">
-<td>L'utente fornitore deve avere accesso all'interfaccia Web per la collaborazione fornitore in Dynamics 365 for Operations e impostare un utente di collaborazione fornitore.</td>
+<td>L'utente fornitore deve avere accesso all'interfaccia Web per la collaborazione fornitore nel client Web e deve impostare un utente di collaborazione fornitore.</td><td>Professionisti degli acquisti e amministratore di sistema</td>
 <td>Completare i passaggi descritti negli argomenti seguenti per impostare e utilizzare l'interfaccia Web per la collaborazione fornitore.
 <ul>
 <li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-external-vendors/">Utilizzare la collaborazione fornitore per gestire i fornitori esterni</a></li>
 <li><a href="https://ax.help.dynamics.com/en/wiki/manage-vendor-collaboration-users/">Gestire gli utenti della collaborazione fornitore</a></li>
 <li><a href="https://ax.help.dynamics.com/en/wiki/set-up-and-maintain-vendor-collaboration/">Impostare e gestire la collaborazione fornitore</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Utilizzare la collaborazione fornitore per gestire i clienti in Dynamics 365 for Operations</a></li>
+<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Utilizzare la collaborazione fornitore per gestire i clienti in Finance and Operation</a></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="overview"></a>Panoramica
-L'area di lavoro mobile per la collaborazione fornitore tiene i fornitori informati sui nuovi ordini fornitore in modo che possano visualizzare e rispondere agli ordini fornitore nel client Web Dynamics 365 for Operations. 
+## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app mobile
 
-**Nota:** l'area di lavoro mobile dovrebbe essere utilizzata come supplemento all'interfaccia Web per la collaborazione fornitore, non come una sostituzione. 
+Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
-Nell'area di lavoro mobile per la collaborazione fornitore i fornitori possono visualizzare i nuovi ordini fornitore che vengono inviati per l'approvazione. Vengono visualizzate le informazioni relative agli ordini fornitore, ad esempio prodotti, quantità e date di consegna richieste. Le informazioni sul prezzo sono disponibili, a seconda della configurazione per ciascun fornitore. 
+-   [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Per iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
-Quando un utente è connesso come fornitore, i fornitori vedranno a quali ordini fornitore è stato risposto o quali sono ancora in attesa dell'azione del cliente. Il fornitore potrebbe avere suggerito un'altra data di consegna non ancora accettata dal cliente, di conseguenza l'ordine fornitore è in attesa dell'azione del cliente. Il fornitore visualizzerà anche un elenco di ordini fornitore confermati, ma non ancora consegnati. 
+## <a name="sign-in-to-the-mobile-app"></a>Accedere all'app mobile
+1.  Avviare l'app sul dispositivo mobile.
+2.  Immettere il proprio URL Microsoft Dynamics 365.
+4.  La prima volta che si accede viene richiesto di inserire il proprio nome utente e la password. Immettere le proprie credenziali.
+5.  Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società. Nota: se l'amministratore di sistema pubblica una nuova area di lavoro in seguito, è necessario aggiornare l'elenco delle aree di lavoro mobili.
 
-Per rispondere a un ordine fornitore, il fornitore deve utilizzare l'interfaccia Web per la collaborazione fornitore disponibile nel client Web Dynamics 365 for Operations. Inoltre qui il fornitore otterrà ulteriori informazioni sull'ordine, ad esempio gli allegati del documento, l'indirizzo di consegna per riga e le spese associate al fornitore. 
+    [![Effettuare il pull per l'aggiornamento](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-Con un ruolo di sicurezza speciale il fornitore può visualizzare i contatti che vengono registrati per un conto fornitore. Con lo stesso ruolo di sicurezza, il fornitore può visualizzare lo stato di qualsiasi richiesta utente inviata. 
+## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Utilizzare l'area di lavoro mobile Collaborazione fornitore
+Quando si seleziona l'area di lavoro **Collaborazione fornitore** sono disponibili le seguenti opzioni.
 
-La creazione di nuovi contatti e l'invio di nuove richieste utente devono essere effettuati nell'interfaccia di collaborazione fornitore disponibile nel client Web Dynamics 365 for Operations. 
+![Area di lavoro mobile di collaborazione fornitore](./media/vendor-collaboration-mobile-app.png)
 
-Nell'area di lavoro mobile il fornitore può:
+L'area di lavoro **Collaborazione fornitore** include le seguenti pagine.
 
--   Visualizzare nuovi ordini fornitore inviati al fornitore.
--   Visualizzare gli ordini fornitore ai quali il fornitore ha risposto e che sono in attesa dell'azione del cliente.
--   Visualizzare gli ordini fornitore che sono confermati, ma non ancora completamente ricevuti.
--   Visualizzare le informazioni del contatto registrate per il conto fornitore (richiede un ruolo di sicurezza aggiuntivo).
--   Visualizzare le informazioni e tenere traccia dello stato di una richiesta utente inviata dal fornitore (richiede un ruolo di sicurezza aggiuntivo).
+### <a name="contacts"></a>Contatti
+La pagina **Contatti** consente di visualizzare tutti i contatti impostati per il conto fornitore. Visualizza il nome del contatto, l'indirizzo di posta elettronica principale e l'alias dell'utente, se il contatto ha un alias. Questa pagina mostra inoltre se l'account utente del contatto è attivo. Quando si seleziona un contatto, diventano visibili i dettagli del contatto, ad esempio le persone giuridiche per le quali la persona funge da contatto. Se vengono inoltre visualizzate le informazioni sul contatto, ad esempio un numero di telefono o un indirizzo di posta elettronica alternativo.
 
-## <a name="get-started"></a>Per iniziare
-Per iniziare sul dispositivo mobile:
+### <a name="user-requests"></a>Richieste utente
+La pagina **Richieste utente** consente di visualizzare tutte le richieste utente inviate tramite l'interfaccia Web per la collaborazione fornitore. È inoltre possibile monitorare lo stato di tali richieste. Quando si seleziona una richiesta utente, è possibile verificare quanto è stato ordinato, aggiungere o disattivare un utente, cambiare la sicurezza e visualizzare i ruoli di sicurezza che sono stati ordinati per l'utente.
 
-1.  Nell'App Store mobile, scaricare e installare l'app Microsoft Dynamics 365 for Operations.
-2.  Avviare l'app sul dispositivo.
-3.  Immettere il proprio URL Dynamics 365.
-4.  Immettere la società a cui accedere. Ad esempio, immettere **USMF**.
-5.  La prima volta che si accede, verrà richiesto di specificare il nome utente e la password per l'account Microsoft Dynamics 365 for Operations.
+### <a name="purchase-orders-ready-for-review"></a>Ordini fornitore pronti per la revisione
+La pagina **Ordini fornitore pronti per la revisione** consente di visualizzare tutti gli ordini fornitore che sono stati inviati dal cliente, ma a cui non è stata ancora data risposta. È possibile visualizzare alcune informazioni relative all'ordine, ad esempio quali prodotti sono stati ordinati e quando dovrebbero essere consegnati. Anche le informazioni sul prezzo sono disponibili, a seconda della configurazione del fornitore.
 
-Dopo aver eseguito l'accesso nell'app, non sono presenti aree di lavoro disponibili. Per visualizzare le aree di lavoro nell'app mobile, è necessario innanzitutto pubblicare le aree di lavoro desiderate nell'app Dynamics 365 for Operations. È necessario disporre dell'autorizzazione per l'amministrazione del sistema per pubblicare l'area di lavoro.
+È inoltre possibile verificare se l'ordine fornitore include note o allegati. Tuttavia, per aprire le note e gli allegati, è necessario utilizzare l'interfaccia Web per la collaborazione fornitore nel client Web. Selezionare **Riga ordine fornitore** per visualizzare tutte le righe insieme ai relativi dettagli. Per ogni riga verrà visualizzato un indicatore che mostrerà se sono presenti note o allegati o se è presente un indirizzo di consegna diverso rispetto a quello riportato nell'intestazione.
 
-1.  Avviare Dynamics 365 for Operations.
-2.  Passare ad **Amministrazione sistema** &gt; **Impostazioni** &gt; **Parametri di sistema**.
-3.  Selezionare **Gestisci app per dispositivi mobili**.
-4.  Selezionare l'area di lavoro **Collaborazione fornitore** per pubblicare nella piattaforma mobile.
-5.  Selezionare **Pubblica area di lavoro**.
-6.  Aggiornare il dispositivo per visualizzare le aree di lavoro pubblicate.
-7.  Selezionare l'area di lavoro **Collaborazione fornitore**. Verrà visualizzata la pagina successiva.
+Per rispondere all'ordine fornitore, è necessario utilizzare l'interfaccia Web per la collaborazione fornitore nel client Web.
 
-    [![vendor-collaboration-mobile-app](./media/vendor-collaboration-mobile-app.png)](./media/vendor-collaboration-mobile-app.png)
+### <a name="awaiting-customer-action"></a>In attesa dell'azione del cliente
+La pagina **In attesa dell'azione del cliente** consente di individuare gli ordini fornitore a cui qualcuno della società che ha anche accesso alla collaborazione fornitore ha risposto. Gli ordini fornitore sono visibili solo in questo elenco se il cliente deve eseguire una delle seguenti azioni nell'ordine fornitore.
 
-## <a name="contacts"></a>Contatti
-La pagina **Contatti** consente di visualizzare tutti i contatti impostati per il conto fornitore. Visualizza il nome del contatto, la posta elettronica principale e l'alias degli utenti, se disponibile. Mostra inoltre se il conto utente del contatto è attivo. Quando si seleziona un contatto, vengono visualizzati i dettagli di contatto, ad esempio le persone giuridiche di cui la persona è un contatto, e le informazioni di contatto, ad esempio il numero di telefono o un altro indirizzo di posta elettronica.
+-   Se l'ordine fornitore è stato rifiutato, il cliente deve aggiornare l'ordine originale o annullarlo e rinviarlo. Quando l'ordine fornitore viene inviato di nuovo, non viene più visualizzato nella pagina **In attesa dell'azione del cliente**.
+-   Se l'ordine fornitore è stato accettato con le modifiche, il cliente deve aggiornare l'ordine originale e rinviarlo per la revisione oppure aggiornarlo in base alle modifiche richieste e confermarlo immediatamente. In entrambi i casi l'ordine fornitore non viene più visualizzato nella pagina **In attesa dell'azione del cliente**.
+-   Se l'ordine fornitore è stato accettato e appare ancora nella pagina **In attesa dell'azione del cliente**, significa che l'ordine fornitore non è stato confermato automaticamente quando è stato accettato. L'ordine è quindi in attesa che l'agente di acquisto ne imposto lo stato su **Confermato**. In genere, un ordine fornitore viene considerato come un contratto stipulato tra il cliente e il fornitore non appena il fornitore accetta l'ordine. L'aggiornamento allo stato a **Confermato** è in genere una pura formalità.
 
-## <a name="user-requests"></a>Richieste utente
-La pagina **Richieste utente** consente di visualizzare tutte le richieste utente inviate tramite l'interfaccia Web per la collaborazione fornitore e di tenere traccia dello stato. Quando si seleziona una richiesta utente, è possibile verificare quanto è stato ordinato, aggiungere o disattivare un utente, cambiare la sicurezza e visualizzare i ruoli di sicurezza che sono stati ordinati per l'utente.
-
-## <a name="purchase-orders-ready-for-review"></a>Ordini fornitore pronti per la revisione
-La pagina **Ordini fornitore pronti per la revisione** consente di visualizzare tutti gli ordini fornitore che sono stati inviati dal cliente e ai quali non è stato risposto. È possibile visualizzare alcune informazioni relative all'ordine, ad esempio quali prodotti sono stati ordinati e quando consegnarli. Le informazioni sul prezzo sono disponibili solo se è configurata per il fornitore. È possibile verificare se l'ordine fornitore ha note o allegati. Per aprire gli allegati, è necessario utilizzare la collaborazione fornitore nel client Web. Selezionare **Riga ordine fornitore** per visualizzare tutte le righe con i dettagli. Tenere presente che per ogni riga verrà visualizzato un indicatore che mostrerà se sono presenti note o allegati o se è presente un indirizzo di consegna che è diverso rispetto a quanto riportato nell'intestazione. Per rispondere all'ordine fornitore, è necessario utilizzare il client Web per la collaborazione fornitore.
-
-## <a name="awaiting-customer-action"></a>In attesa dell'azione del cliente
-La pagina **In attesa dell'azione del cliente** consente di individuare gli ordini fornitore ai quali l'utente, o qualcuno della società che ha anche accesso alla collaborazione fornitore, ha risposto. Gli ordini fornitore sono visibili solo in questo elenco se il cliente deve eseguire una delle seguenti azioni nell'ordine fornitore.
-
--   Se l'ordine fornitore è stato rifiutato, il cliente deve aggiornare l'ordine inviato e inviarlo di nuovo o annullare l'ordine e rinviarlo. Quando l'ordine fornitore viene inviato di nuovo, scomparirà dalla pagina **In attesa dell'azione del cliente**.
--   Se l'ordine fornitore è stato accettato con le modifiche, il cliente dovrà aggiornare l'ordine originale e rinviarlo per la revisione o aggiornarlo in base alle modifiche e confermarlo immediatamente. In entrambi i casi l'ordine fornitore scomparirà dalla pagina **In attesa dell'azione del cliente**.
--   Se l'ordine fornitore è stato accettato e appare nella pagina **In attesa dell'azione del cliente**, significa che l'ordine fornitore non è stato confermato automaticamente quando l'accettazione è stata eseguita. È in attesa di essere modificato in Confermato da un addetto agli acquisti. In genere, l'ordine fornitore viene considerato come un contratto stipulato tra il cliente e il fornitore non appena il fornitore accetta l'ordine. Assegnare all'ordine fornitore lo stato Confermato sarebbe una formalità.
-
-Selezionando l'ordine fornitore, vengono visualizzati dettagli aggiuntivi sulla risposta. È possibile visualizzare i dettagli riga e la risposta per ogni riga. Lo stato della riga indica quale delle seguenti risposte sono state date.
+Quando si seleziona un ordine fornitore, vengono visualizzati dettagli aggiuntivi sulla risposta. È possibile visualizzare i dettagli riga e la risposta per ogni riga. Lo stato della riga indica quale delle seguenti risposte sono state date.
 
 -   Accettato
--   Rifiutati
+-   Rifiutato
 -   Accettata con modifiche
 -   Sostituita/Sostituire
 -   Suddivisa in programmazione/Riga programmazione
 
-Tenere presente che viene visualizzato un indicatore **Consegna**=sì/no, utilizzato per indicare che le righe non verranno consegnate. Questa situazione potrebbe verificarsi se la riga è stata rifiutata o sostituita nei casi in cui non è prevista la consegna delle righe originali oppure nei casi in cui non è previsto che una riga che è stata suddivisa in più righe di programmazione e la riga originale vengano consegnate come richiesto nell'ordine ricevuto. Tutte le modifiche apportate alla risposta della riga ordine sono visualizzate, ad eccezione delle note e degli allegati caricati che sono visibili tramite l'interfaccia Web per la collaborazione fornitore.
+Si noti che il campo **Consegna** è impostato su **Sì** o su **No** per indicare se le righe verranno consegnate. Una riga non può essere consegnata per i seguenti motivi:
 
-## <a name="open-confirmed-orders"></a>Ordini confermati aperti
-Quando l'ordine fornitore viene confermato dal cliente, ovvero all'ordine fornitore viene applicato lo stato confermato, verrà visualizzato nell'ordine confermato aperto. Resterà nell'elenco fino alla registrazione come ricevuto dal cliente.
+- La riga è stata rifiutata.
+- È stata effettuata una sostituzione e la riga originale non può essere consegnata come richiesto nell'ordine ricevuto.
+- La riga è stata suddivisa in più righe di programmazione e la riga originale non può essere consegnata come richiesto nell'ordine ricevuto.
 
+Tutte le modifiche apportate alla risposta della riga ordine sono visualizzate. Tuttavia, le note e gli allegati caricati non vengono visualizzati. Per visualizzare le note e gli allegati, è necessario utilizzare l'interfaccia Web per la collaborazione fornitore nel client Web.
 
-
-
+### <a name="open-confirmed-orders"></a>Ordini confermati aperti
+Quando l'ordine fornitore viene confermato dall'utente (vale a dire, quando lo stato dell'ordine fornitore viene impostato su **Confermato**), l'ordine appare nell'ordine confermato aperto. Resterà nell'elenco fino a quando non verrà registrato come ricevuto dal cliente.
 

@@ -3,14 +3,14 @@ title: Pubblicare documenti e righe di giornale di registrazione da Excel
 description: "In questo argomento viene descritto come immettere e pubblicare righe dei giornali di registrazione generale da Microsoft Excel. Sono riportate informazioni sui diversi modelli che è possibile utilizzare, a seconda del tipo di transazioni che si sta immettendo."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62213
 ms.assetid: 211874a7-4bf0-4a0c-96c2-fa05042777d3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a43bf66de7602aa9fb47925996ec5b979e1f8dac
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1fed8d162a37736883365fa765a059e5beff06be
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -48,9 +48,9 @@ Gli utenti possono immettere e pubblicare righe per i giornali di registrazione 
 | Giornale di registrazione pagamenti cliente | Conto: Conto di contropartita cliente: contabilità generale, il sistema di gestione interaziendale bancario è supportato.                                               | Giornale di registrazione pagamenti cliente                                                                |
 | Giornale di registrazione spese di progetto  | Conto: progetto, contabilità generale, cliente, conto di contropartita fornitore: progetto, contabilità generale, cliente, il sistema di gestione interaziendale fornitori è supportato. | Spese di giornale di registrazione generale (in Gestione progetti e contabilità)                       |
 
-Quando le righe vengono pubblicate, vengono convalidate per assicurare che siano conformi alle regole impostate nei giornali di registrazione finanziari. Dopo che le righe sono state pubblicate, gli utenti possono modificare o registrare i giustificativi da Microsoft Dynamics 365 for Operations. 
+Quando le righe vengono pubblicate, vengono convalidate per assicurare che siano conformi alle regole impostate nei giornali di registrazione finanziari. Dopo che le righe sono state pubblicate, gli utenti possono modificare o registrare i giustificativi da Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
-Per aggiungere le dimensioni finanziarie a un modello, sono richieste modifiche aggiuntive. Per ulteriori informazioni, vedere [Aggiungere dimensioni al modello di Microsoft Excel](/dynamics365/operations/dev-itpro/financial/add-dimensions-excel-templates). Dopo che le dimensioni vengono aggiunte all'entità, diventano disponibili nella finestra di progettazione per Excel e possono essere aggiunte al modello.
+Per aggiungere le dimensioni finanziarie a un modello, sono richieste modifiche aggiuntive. Per ulteriori informazioni, vedere [Aggiungere dimensioni al modello di Microsoft Excel](/dynamics365/unified-operations/dev-itpro/financial/add-dimensions-excel-templates). Dopo che le dimensioni vengono aggiunte all'entità, diventano disponibili nella finestra di progettazione per Excel e possono essere aggiunte al modello.
 
 
 

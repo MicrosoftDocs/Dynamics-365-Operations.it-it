@@ -1,16 +1,16 @@
 ---
 title: Impostare il processo di importazione di riconciliazione bancaria avanzata
-description: "La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Operations. In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari."
+description: "La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fda4dca4339c09757477b04166b17d5f92f46a7c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Operations. In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari. 
+La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari. 
 
-L'impostazione dell'importazione dei rendiconti bancari varia a seconda del formato del rendiconto bancario elettronico. Microsoft Dynamics 365 for Operations supporta in modo predefinito tre formati di rendiconto bancario: ISO20022, MT940 e BAI2.
+L'impostazione dell'importazione dei rendiconti bancari varia a seconda del formato del rendiconto bancario elettronico. Finance and Operations supporta tre formati di rendiconto bancario predefiniti: ISO20022, MT940 e BAI2.
 
 ## <a name="sample-files"></a>File di esempio
-Per tutti e tre i formati, è necessario disporre di file che convertono il rendiconto bancario elettronico dal formato originale in un formato che è possibile utilizzare in Dynamics 365 for Operations. È possibile trovare i file di risorse necessari nel nodo **Risorse** in Application Explorer in Microsoft Visual Studio. Dopo avere individuato i file, copiarli in un'unica posizione nota in modo che sia possibile caricarli più facilmente durante il processo di impostazione.
+Per tutti e tre i formati, è necessario disporre di file che convertono il rendiconto bancario elettronico dal formato originale in un formato che è possibile utilizzare in Finance and Operations. È possibile trovare i file di risorse necessari nel nodo **Risorse** in Application Explorer in Microsoft Visual Studio. Dopo avere individuato i file, copiarli in un'unica posizione nota in modo che sia possibile caricarli più facilmente durante il processo di impostazione.
 
 | Nome risorsa                                           | Nome file                            |
 |---------------------------------------------------------|--------------------------------------|
@@ -65,13 +65,13 @@ Innanzitutto, è necessario definire il gruppo di elaborazione formati rendicont
 1.  Passare a **Aree di lavoro** &gt; **Gestione dati**.
 2.  Fare clic su **Importa**.
 3.  Immettere un nome per il formato, ad esempio **ISO20022**.
-4.  Impostare il campo **Formato dati di origine**su **XML-Element**.
+4.  Impostare il campo **Formato dati di origine** su **XML-Element**.
 5.  Impostare il campo **Nome entità** su **Rendiconti bancari**.
-6.  Per caricare i file di importazione, fare clic su **Carica**e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
+6.  Per caricare i file di importazione, fare clic su **Carica** e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
 7.  Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.
 8.  L'entità Rendiconti bancari è un'entità composita costituita da quattro entità separate. Nell'elenco, selezionare **BankStatementDocumentEntity**, quindi scegliere l'azione **Visualizza mapping**.
 9.  Nella scheda **Trasformazioni** , fare clic su **Nuovo**.
-10. Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **ISO20022XML-to-Reconciliation.xslt** salvato in precedenza. **Nota:** I file di trasformazione di Dynamics 365 for Operations vengono generati per il formato standard. Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **ISO20022XML-to-Reconciliation.xslt** salvato in precedenza. **Nota:** i file di trasformazione di Finance and Operations vengono generati per il formato standard. Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Fare clic su **Nuovo**.
 12. Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **BankReconciliation-to-Composite.xslt** salvato in precedenza.
 13. Fare clic su **Applica trasformazioni**.
@@ -89,7 +89,7 @@ L'ultimo passaggio consiste nell'attivare la riconciliazione bancaria avanzata e
 
 1.  Andare a **Gestione cassa e banche** &gt; **Conti bancari**.
 2.  Selezionare il conto bancario e aprirlo per visualizzare i dettagli.
-3.  Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata**su **Sì**.
+3.  Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata** su **Sì**.
 4.  Impostare il campo **Formato rendiconto** sul formato creato in precedenza, ad esempio **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Impostare l'importazione di rendiconti bancari MT940
@@ -98,15 +98,15 @@ Innanzitutto, è necessario definire il gruppo di elaborazione formati rendicont
 1.  Passare a **Aree di lavoro** &gt; **Gestione dati**.
 2.  Fare clic su **Importa**.
 3.  Immettere un nome per il formato, ad esempio **MT940**.
-4.  Impostare il campo **Formato dati di origine**su **XML-Element**.
+4.  Impostare il campo **Formato dati di origine** su **XML-Element**.
 5.  Impostare il campo **Nome entità** su **Rendiconti bancari**.
-6.  Per caricare i file di importazione, fare clic su **Carica**e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
+6.  Per caricare i file di importazione, fare clic su **Carica** e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
 7.  Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.
 8.  L'entità Rendiconti bancari è un'entità composita costituita da quattro entità separate. Nell'elenco, selezionare **BankStatementDocumentEntity**, quindi scegliere l'azione **Visualizza mapping**.
 9.  Nella scheda **Trasformazioni** , fare clic su **Nuovo**.
 10. Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **MT940TXT-to-MT940XML.xslt** salvato in precedenza.
 11. Fare clic su **Nuovo**.
-12. Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **MT940XML-to-Reconciliation.xslt** salvato in precedenza. **Nota:** I file di trasformazione di Dynamics 365 for Operations vengono generati per il formato standard. Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **MT940XML-to-Reconciliation.xslt** salvato in precedenza. **Nota:** i file di trasformazione di Finance and Operations vengono generati per il formato standard. Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Fare clic su **Nuovo**.
 14. Per il numero di sequenza 3, fare clic su **Carica file** e selezionare il file **BankReconciliation-to-Composite.xslt** salvato in precedenza.
 15. Fare clic su **Applica trasformazioni**.
@@ -124,7 +124,7 @@ L'ultimo passaggio consiste nell'attivare la riconciliazione bancaria avanzata e
 
 1.  Andare a **Gestione cassa e banche** &gt; **Conti bancari**.
 2.  Selezionare il conto bancario e aprirlo per visualizzare i dettagli.
-3.  Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata**su **Sì**.
+3.  Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata** su **Sì**.
 4.  Quando viene chiesto di confermare la selezione e attivare Riconciliazione bancaria avanzata, fare clic su **OK**.
 5.  Impostare il campo **Formato rendiconto** sul formato creato in precedenza, ad esempio **MT940**.
 
@@ -134,15 +134,15 @@ Innanzitutto, è necessario definire il gruppo di elaborazione formati rendicont
 1.  Passare a **Aree di lavoro** &gt; **Gestione dati**.
 2.  Fare clic su **Importa**.
 3.  Immettere un nome per il formato, ad esempio **BAI2**.
-4.  Impostare il campo **Formato dati di origine**su **XML-Element**.
+4.  Impostare il campo **Formato dati di origine** su **XML-Element**.
 5.  Impostare il campo **Nome entità** su **Rendiconti bancari**.
-6.  Per caricare i file di importazione, fare clic su **Carica**e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
+6.  Per caricare i file di importazione, fare clic su **Carica** e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
 7.  Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.
 8.  L'entità Rendiconti bancari è un'entità composita costituita da quattro entità separate. Nell'elenco, selezionare **BankStatementDocumentEntity**, quindi scegliere l'azione **Visualizza mapping**.
 9.  Nella scheda **Trasformazioni** , fare clic su **Nuovo**.
 10. Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **BAI2CSV-to-BAI2XML.xslt** salvato in precedenza.
 11. Fare clic su **Nuovo**.
-12. Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **BAI2XML-to-Reconciliation.xslt** salvato in precedenza. **Nota:** I file di trasformazione di Dynamics 365 for Operations vengono generati per il formato standard. Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **BAI2XML-to-Reconciliation.xslt** salvato in precedenza. **Nota:** i file di trasformazione di Finance and Operations vengono generati per il formato standard. Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Fare clic su **Nuovo**.
 14. Per il numero di sequenza 3, fare clic su **Carica file** e selezionare il file **BankReconciliation-to-Composite.xslt** salvato in precedenza.
 15. Fare clic su **Applica trasformazioni**.
@@ -160,7 +160,7 @@ L'ultimo passaggio consiste nell'attivare la riconciliazione bancaria avanzata e
 
 1.  Andare a **Gestione cassa e banche** &gt; **Conti bancari**.
 2.  Selezionare il conto bancario e aprirlo per visualizzare i dettagli.
-3.  Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata**su **Sì**.
+3.  Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata** su **Sì**.
 4.  Quando viene chiesto di confermare la selezione e attivare Riconciliazione bancaria avanzata, fare clic su **OK**.
 5.  Impostare il campo **Formato rendiconto** sul formato creato in precedenza, ad esempio **BAI2**.
 
@@ -172,7 +172,7 @@ Il passaggio finale consiste nel verificare che è possibile importare il rendic
 3.  Nella scheda **Riconcilia** , fare clic su **Rendiconti bancari**.
 4.  Nella pagina **Rendiconto bancario** fare clic su **Importa rendiconto**.
 5.  Impostare il campo **Conto bancario** sul conto bancario selezionato. Il campo **Formato rendiconto** verrà impostato automaticamente, in base all'impostazione del conto bancario.
-6.  Fare clic su **Sfoglia**e selezionare il file di rendiconto bancario elettronico.
+6.  Fare clic su **Sfoglia** e selezionare il file di rendiconto bancario elettronico.
 7.  Fare clic su **Carica**.
 8.  Scegliere **OK**.
 

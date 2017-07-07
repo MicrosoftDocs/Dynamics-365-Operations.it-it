@@ -3,14 +3,14 @@ title: "Conto lavoro basato su attività"
 description: "In questo argomento viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 43c95c8ab8599a048b1c8c732d6dcac1c3e8b9e9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 In questo argomento viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing.
 
-In Microsoft Dynamics 365 for Operations sono presenti due approcci per il conto lavoro: ordini di produzione e lean manufacturing. Nell'approccio lean manufacturing, il lavoro in conto lavoro è modellizzato come servizio correlato a un'attività del flusso di produzione. Un tipo speciale di tipo di gruppo di costi denominato **Esternalizzazione diretta** è stato introdotto e i servizi in conto lavoro non fanno più parte di una distinta base (DBA). La contabilità industriale di lavoro in conto lavoro è completamente integrata nella soluzione di determinazione costi per il lean manufacturing.
+In Microsoft Dynamics 365 for Finance and Operations sono presenti due approcci per il conto lavoro: ordini di produzione e lean manufacturing. Nell'approccio lean manufacturing, il lavoro in conto lavoro è modellizzato come servizio correlato a un'attività del flusso di produzione. Un tipo speciale di tipo di gruppo di costi denominato **Esternalizzazione diretta** è stato introdotto e i servizi in conto lavoro non fanno più parte di una distinta base (DBA). La contabilità industriale di lavoro in conto lavoro è completamente integrata nella soluzione di determinazione costi per il lean manufacturing.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Flussi di produzione che includono terzisti
 Il principio di base di un flusso di produzione non cambia quando le attività sono in conto lavoro. Il materiale ancora si sposta tra ubicazioni, le attività di processo convertono il materiale in prodotti e le attività di trasferimento spostano il materiale o i prodotti da un'ubicazione a un'altra. È possibile modellare le ubicazioni e le celle di lavoro come gestire dal fornitore assegnando il conto fornitore a un magazzino o a una risorsa di un gruppo di risorse.  
@@ -104,7 +104,7 @@ Le persone spesso considerano il trasporto non produttivo e pensano che aggiunga
 
 Il conto lavoro basato su attività nel lean manufacturing consente di integrare i vettori e i fornitori di trasporto che spostano materiale e prodotti tra ubicazioni di un flusso di produzione. Modellando un'attività di trasferimento, è possibile assegnare un vettore o un fornitore. Le attività o il processo di trasferimento è basato su un contratto di servizio e di acquisto e sarà possibile creare ordini fornitore e avvisi di ricevimenti, in base ai processi di trasferimento effettivi. Questa funzionalità è la stessa della funzionalità per le attività di processo in conto lavoro.  
 
-Di conseguenza, Dynamics 365 for Operations ora supporta il calcolo DBA che comprende servizi di trasporto, la creazione di ordini fornitore correlati, la registrazione integrata dell'entrata e l'integrazione dei costi del servizio di trasporto nella determinazione costi del flusso di produzione.
+Di conseguenza, Finance and Operations ora supporta il calcolo DBA che comprende servizi di trasporto, la creazione di ordini fornitore correlati, la registrazione integrata dell'entrata e l'integrazione dei costi del servizio di trasporto nella determinazione costi del flusso di produzione.
 
 
 

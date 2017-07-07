@@ -1,40 +1,41 @@
 ---
 title: "Funzionalità per call center"
-description: "Questo articolo fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Operations."
+description: "Questo articolo fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 40d7c1a95f33c189639c12279a8e3a286f0c6761
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: befbf43a0af8016895e570f5d8cf3a51983692f2
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="call-center-functionality"></a>Funzionalità per call center
+# <a name="call-center-functionality"></a>Funzionalità del servizio clienti
 
 [!include[banner](includes/banner.md)]
 
 
-Questo articolo fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Operations.
+Questo articolo fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Retail.
 
-Vendita al dettaglio e commercio in Microsoft Dynamics AX supporta i call center come tipo di canale di vendita al dettaglio. In un servizio clienti, i lavoratori prendono gli ordini dai clienti a telefono e creano gli ordini cliente. Nella funzionalità del servizio clienti sono incluse le funzioni progettate per semplificare gli ordini per telefono e la gestione dell'assistenza clienti tramite il processo di esecuzione dell'ordine. Ad esempio, i lavoratori del servizio clienti possono immettere le informazioni relative ai pagamenti direttamente nell'ordine cliente e possono visualizzare un riepilogo dettagliato delle spese e dei pagamenti prima di inviare l'ordine. I dipendenti hanno inoltre a disposizione opzioni per controllare la determinazione del prezzo e possono accedere a vari dati sui clienti, i prodotti e i prezzi dalla pagina **Ordine cliente**. Inoltre i call center dispongono di funzionalità avanzate per il monitoraggio dello storico clienti e dello stato degli ordini. Ogni servizio clienti può avere propri utenti, metodi di pagamento, gruppi di prezzi, dimensioni finanziarie e modalità di consegna. È possibile configurare queste opzioni quando si crea il servizio clienti. È inoltre possibile utilizzare la pagina **Call center** per attivare o disattivare i seguenti gruppi di funzionalità che sono esclusive dei call center:
+Dynamics 365 for Retail supporta anche i servizi clienti come un tipo di canale di vendita al dettaglio. In un servizio clienti, i lavoratori prendono gli ordini dai clienti per telefono e creano gli ordini cliente. Nella funzionalità del servizio clienti sono incluse le funzioni progettate per semplificare gli ordini per telefono e la gestione dell'assistenza clienti tramite il processo di esecuzione dell'ordine. Ad esempio, i lavoratori del servizio clienti possono immettere le informazioni relative ai pagamenti direttamente nell'ordine cliente e possono visualizzare un riepilogo dettagliato delle spese e dei pagamenti prima di inviare l'ordine. I dipendenti hanno inoltre a disposizione opzioni per controllare la determinazione del prezzo e possono accedere a vari dati sui clienti, i prodotti e i prezzi dalla pagina **Ordine cliente**. Inoltre i call center dispongono di funzionalità avanzate per il monitoraggio dello storico clienti e dello stato degli ordini. Ogni servizio clienti può avere propri utenti, metodi di pagamento, gruppi di prezzi, dimensioni finanziarie e modalità di consegna. È possibile configurare queste opzioni quando si crea il servizio clienti. È inoltre possibile utilizzare la pagina **Call center** per attivare o disattivare i seguenti gruppi di funzionalità che sono esclusive dei call center:
 
 -   **Completamento ordine** - Questo gruppo include funzionalità correlate ai pagamenti e al completamento degli ordini nella pagina **Ordine cliente**.
 -   **Vendita diretta** - Questo gruppo include funzionalità che sono correlate ai codici di origine, agli script e alla richieste di catalogo.

@@ -3,25 +3,27 @@ title: Gestione turni e cassetto della cassa
 description: "In questo articolo viene spiegato come impostare e utilizzare i due tipi di turni POS al dettaglio: condiviso e autonomo. I turni condivisi possono essere utilizzati da più utenti in più posizioni, mentre i turni autonomi possono essere utilizzati da un solo lavoratore alla volta."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -42,15 +44,15 @@ I turni autonomi vengono utilizzati in uno scenario POS fisso tradizionale, in c
 
 Un turno autonomo viene definito a livello di cassetto della cassa. Questa procedura illustra come impostare un turno autonomo su un registratore di cassa POS.
 
-1.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili hardware**.
+1.  Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili hardware**.
 2.  Selezionare il profilo dhardware a utilizzare per il turno autonomo.
 3.  Nella scheda dettaglio **Cassetto**, verificare che l'opzione **Cassetto turno condiviso** sia impostata su **No**.
 4.  Fare clic su **Salva**.
-5.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**.
+5.  Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**.
 6.  Selezionare il registratore di cassa che richiede un turno autonomo e quindi fare clic su **Modifica**.
 7.  Nel campoa **Profilo hardware** selezionare il profilo hardware selezionato nel passaggio 2.
 8.  Fare clic su **Salva**.
-9.  Fare clic su **Vendita al dettaglio e commercio** &gt; **IT vendita al dettaglio** &gt; **Programmazione della distribuzione**.
+9.  Fare clic su **Vendita al dettaglio** &gt; **IT vendita al dettaglio** &gt; **Programmazione della distribuzione**.
 10. Selezionare la programmazione di distribuzione **1090** e quindi fare clic su **Esegui adesso** per sincronizzare le modifiche nel POS.
 
 ### <a name="use-a-stand-alone-shift"></a>Utilizzare turno autonomo
@@ -70,15 +72,15 @@ Un turno condiviso viene utilizzato in un ambiente in cui più cassieri condivid
 
 ### <a name="set-up-a-shared-shift"></a>Impostare un turno condiviso
 
-1.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili hardware**.
+1.  Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili hardware**.
 2.  Selezionare il profilo dhardware da utilizzare per il turno condiviso.
 3.  Nella scheda dettaglio **Cassetto**, impostare l'opzione **Cassetto turno condiviso** su **Sì**.
 4.  Fare clic su **Salva**.
-5.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**.
+5.  Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**.
 6.  Selezionare il registratore di cassa che richiede un turno condiviso e quindi fare clic su **Modifica**.
 7.  Nel campoa **Profilo hardware** selezionare il profilo hardware selezionato nel passaggio 2.
 8.  Fare clic su **Salva**.
-9.  Fare clic su **Vendita al dettaglio e commercio** &gt; **IT vendita al dettaglio** &gt; **Programmazione della distribuzione**.
+9.  Fare clic su **Vendita al dettaglio** &gt; **IT vendita al dettaglio** &gt; **Programmazione della distribuzione**.
 10. Selezionare la programmazione di distribuzione **1090** e quindi fare clic su **Esegui adesso** per sincronizzare le modifiche nel POS.
 
 ### <a name="use-a-shared-shift"></a>Utilizzare un turno condiviso
@@ -89,7 +91,7 @@ Un turno condiviso viene utilizzato in un ambiente in cui più cassieri condivid
 4.  Selezionare **Crea un nuovo turno**.
 5.  Selezionare **Dichiara importo iniziale**.
 6.  Immettere l'importo iniziale di tutti i registratori di cassa nel punto vendita che fanno parte del turno condiviso e quindi fare clic su **Salva**.
-    -   Per aggiungere una parte dell'importo iniziale a ogni successivo cassetto della cassa, utilizzare l'operazione **Seleziona stazione hardware**per rendere attiva la stazione hardware.
+    -   Per aggiungere una parte dell'importo iniziale a ogni successivo cassetto della cassa, utilizzare l'operazione **Seleziona stazione hardware** per rendere attiva la stazione hardware.
     -   Per aggiungere un cassetto a un cassetto della cassa specifico, utilizzare l'operazione **Apri cassetto**.
     -   Continuare fino a quando tutti i cassetti della cassa nel turno condiviso hanno la propria parte dell'importo iniziale.
 

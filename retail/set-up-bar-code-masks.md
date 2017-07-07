@@ -3,25 +3,27 @@ title: Impostare le maschere codice a barre
 description: In questo argomento viene descritto come impostare i caratteri di maschera codice a barre e come assegnare le maschere codice a barre ai codici a barre.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ In questo argomento viene descritto come impostare i caratteri di maschera codic
 <a name="set-up-bar-code-mask-characters"></a>Impostare caratteri di maschera codice a barre
 -------------------------------
 
-Le maschere codice a barre sono utilizzate per creare i codici a barre e identificare rapidamente i codici a barre sottoposti a scansione nel POS. Le maschere sono costituite da caratteri con la funzione di segnaposto che indicano il formato per i codici a barre che verranno creati. Per configurare una maschera codice a barre, è necessario impostare i caratteri di maschera codice a barre. Andare a **Vendita al dettaglio e commercio** &gt; **Gestione inventario** &gt; **Codici a barre ed etichette** &gt; **Caratteri maschera**. Fare clic su **Nuovo** per creare nuovi caratteri di maschera codice a barre. I caratteri di maschera possono essere creati per indicare i seguenti dati di codice a barre.
+Le maschere codice a barre sono utilizzate per creare i codici a barre e identificare rapidamente i codici a barre sottoposti a scansione nel POS. Le maschere sono costituite da caratteri con la funzione di segnaposto che indicano il formato per i codici a barre che verranno creati. Per configurare una maschera codice a barre, è necessario impostare i caratteri di maschera codice a barre. Andare a **Vendita al dettaglio** &gt; **Gestione inventario** &gt; **Codici a barre ed etichette** &gt; **Caratteri maschera**. Fare clic su **Nuovo** per creare nuovi caratteri di maschera codice a barre. I caratteri di maschera possono essere creati per indicare i seguenti dati di codice a barre.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,12 +55,13 @@ Le maschere codice a barre sono utilizzate per creare i codici a barre e identif
 | **Dipendente**         | Indica il segmento del codice a barre per il numero ID dipendente utilizzato per l'accesso al POS del codice a barre.                                  |
 | **Cliente**         | Indica il segmento di ID cliente.                                                                                  |
 | **Immissione dati**       | *Non ancora implementato.*                                                                                          |
-| **Codice sconto**    | Indica il codice sconto per un codice a barre utilizzato per aggiungere uno sconto a una transazione del POS             |
+| **Codice sconto**    | *Ammortizzato* come da Dynamics 365 for Retail versione della primavera 2017. Precedentemente: indica il codice sconto per un codice a barre utilizzato per aggiungere uno sconto a una transazione del POS.                                                                   |
+| **Codice buono sconto**      | Indica il codice buono sconto per un codice a barre utilizzato per aggiungere uno sconto a un ordine al dettaglio. Sostituisce il codice sconto.     |
 | **Gift card**        | Indica il numero della gift card quando si emette o si effettua il pagamento tramite gift card.                                               |
 | **Carta fedeltà**     | Aggiunge un cliente del programma fedeltà alla transazione e può essere utilizzato quando si paga mediante il programma fedeltà.                             |
 
 ## <a name="define-bar-code-masks"></a>Definire le maschere codice a barre
-Una volta specificati i caratteri di maschera codice a barre per le maschere codice a barre necessarie, passare a **Vendita al dettaglio e commercio** &gt; **Gestione inventario** &gt; **Codici a barre ed etichette** &gt; **Impostazione maschera codice a barre**. In questa pagina è possibile definire le maschere codice a barre che utilizzano i caratteri specificati in precedenza. Queste maschere codice a barre verranno utilizzate quando vengono generati i codici a barre e consentono inoltre di identificare i codici a barre sottoposti a scansione presso il POS.
+Una volta specificati i caratteri di maschera codice a barre per le maschere codice a barre necessarie, passare a **Vendita al dettaglio** &gt; **Gestione inventario** &gt; **Codici a barre ed etichette** &gt; **Impostazione maschera codice a barre**. In questa pagina è possibile definire le maschere codice a barre che utilizzano i caratteri specificati in precedenza. Queste maschere codice a barre verranno utilizzate quando vengono generati i codici a barre e consentono inoltre di identificare i codici a barre sottoposti a scansione presso il POS.
 
 1.  Fare clic su **Nuovo** per creare una nuova maschera codice a barre.
 2.  Immettere i valori nei campi **ID maschera** e **Descrizione**, quindi selezionare una maschera codice a barre nel campo **Tipo**.

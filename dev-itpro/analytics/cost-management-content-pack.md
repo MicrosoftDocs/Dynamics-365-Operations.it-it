@@ -3,13 +3,13 @@ title: Contenuto Power BI per la gestione dei costi
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per la gestione dei costi. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9449e42224d5dfb1bc1f0368a041c45afc334a2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -52,7 +52,7 @@ I contenuto Microsoft Power BI per la **gestione dei costi** è destinato ai con
 L'origine dati principale per CostAggregatedCostStatementEntryEntity è la tabella CostStatementCache. Questa tabella viene gestita dal framework della cache del set di dati. Per impostazione predefinita, la tabella viene aggiornata ogni 24 ore, ma è possibile abilitare gli aggiornamenti manuali nella configurazione della cache di dati. È possibile poi eseguire un aggiornamento manuale nell'area di lavoro **Gestione costi** o **Analisi costo**. Dopo l'aggiornamento di CostStatementCache, è necessario aggiornare la connessione OData su Power BI.com per visualizzare i dati aggiornati nel sito. Le misure di scostamento (acquisto, produzione) nel contenuto di Power BI coprono solo gli articoli che vengono valutati con il metodo di inventario costo standard. Lo scostamento di produzione viene calcolato come la differenza tra i costi attivi e costo realizzato. Lo scostamento di produzione viene calcolato quando l'ordine di produzione ha lo stato **Finito**. Per ulteriori informazioni sui tipi di scostamento produzione e come ciascun tipo viene calcolato, vedere  [Informazioni sull'analisi degli scostamenti per un ordine di produzione completato](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Il contenuto Power BI per la **gestione dei costi** è disponibile da PowerBI.com. Per ulteriori informazioni su come connettere e collegare i dati di Microsoft Dynamics 365 for Operations, vedere [Accedere al contenuto Power BI da PowerBI.com](power-bi-home-page.md).
+Il contenuto Power BI per la **gestione dei costi** è disponibile da PowerBI.com. Per ulteriori informazioni su come connettere e collegare i dati di Microsoft Dynamics 365 for Finance and Operations, vedere [Accedere al contenuto Power BI da PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto include un set di pagine di report. Ciascuna pagina è costituita da un set di metriche visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto Power BI per la **gestione dei costi**.
@@ -84,9 +84,9 @@ Il contenuto include un set di pagine di report. Ciascuna pagina è costituita d
 | |Scostamenti produzione per nome sito e nome categoria livello 3 | |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-I dati di Dynamics 365 for Operations vengono utilizzati per compilare le pagine di report nel contenuto Power BI per la **gestione dei costi**. Questi dati sono rappresentati come misure aggregate che vengono collocate nell'archivio entità, ovvero un database di Microsoft SQL ottimizzato per l'analisi. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
+I dati di Finance and Operations vengono utilizzati per compilare le pagine di report nel contenuto Power BI per la **gestione dei costi**. Questi dati sono rappresentati come misure aggregate che vengono collocate nell'archivio entità, ovvero un database di Microsoft SQL ottimizzato per l'analisi. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
 
-| Entità            | Misura di aggregazione chiave | Origine dati per Dynamics 365 for Operations | Campo             | descrizione                       |
+| Entità            | Misura di aggregazione chiave | Origine dati per Finance and Operations | Campo             | descrizione                       |
 |-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
 | Voci di rendiconto | Modifica netto                | CostAggregatedCostStatementEntryEntity      | sum(\[Importo\])   | Importo nella valuta di contabilizzazione |
 | Voci di rendiconto | Quantità modifica netto       | CostAggregatedCostStatementEntryEntity      | sum(\[Quantità\]) |                                   |

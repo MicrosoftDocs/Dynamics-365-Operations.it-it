@@ -1,9 +1,9 @@
 ---
 title: Panoramica sul lean manufacturing
-description: "In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Microsoft Dynamics AX."
+description: "In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -20,30 +20,30 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dd29e601cb78b6903e09e63182196427183f6dbe
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 376b521a7527b4f60bc01c080f8eabb5cb231b30
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Panoramica sul lean manufacturing
+# <a name="lean-manufacturing-overview"></a>Panoramica del lean manufacturing
 
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Microsoft Dynamics AX.
+In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 La funzionalità lean manufacturing mette a disposizione strumenti per la gestione di operazioni snelle. Questi strumenti supportano e promuovono i concetti e le attività commerciali seguenti:
 -   Creare una base di lean manufacturing modellando i processi di logistica e di produzione come flussi di produzione.
 -   Implementare un sistema pull snello utilizzando i kanban per segnalare i requisiti della domanda.
 -   Monitorare e gestire i processi kanban.
 
-L'architettura di lean manufacturing in Microsoft Dynamics AX 7 è costituita da flussi di produzione, attività e regole kanban. Queste strutture vengono interamente integrate con i processi di Microsoft Dynamics AX 7. La funzionalità lean manufacturing si adatta a un ambiente di produzione misto in cui si combinano varie strategie di fornitura, produzione e approvvigionamento. Queste strategie includono gli ordini di produzione, gli ordini batch per i settori della trasformazione, gli ordini fornitore e di trasferimento.
+L'architettura di lean manufacturing in Finance and Operations è costituita da flussi di produzione, attività e regole kanban. Queste strutture sono interamente integrate con i processi di Finance and Operations. La funzionalità lean manufacturing si adatta a un ambiente di produzione misto in cui si combinano varie strategie di fornitura, produzione e approvvigionamento. Queste strategie includono gli ordini di produzione, gli ordini batch per i settori della trasformazione, gli ordini fornitore e di trasferimento.
 | **Importante**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| È possibile utilizzare Microsoft Dynamics AX 7 per supportare l'implementazione di lean manufacturing con kanban. Tuttavia, il successo di un'implementazione dei principi di lean manufacturing dipende dai processi aziendali interni in uso e dall'ambiente e dalle condizioni di produzione effettivi. |
+| È possibile utilizzare Finance and Operations per supportare l'implementazione di lean manufacturing con kanban. Tuttavia, il successo di un'implementazione dei principi di lean manufacturing dipende dai processi aziendali interni in uso e dall'ambiente e dalle condizioni di produzione effettivi. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Modellizzazione dei processi di logistica e di produzione come flussi di produzione
 Per creare una base di lean manufacturing, modellare i processi di logistica e di produzione come flussi di produzione. Questa attività consiste nelle seguenti mansioni:
@@ -71,8 +71,8 @@ Nel seguente elenco vengono descritte le bacheche kanban specifiche:
 -   Bacheca kanban per i processi di trasferimento: in questa bacheca viene fornita una panoramica dei processi di trasferimento correnti. È possibile aggiornare e registrare le distinte di prelievo, avviare e completare i processi di trasferimento ed eseguire altre attività.
 -   Bacheca kanban per i processi di lavorazione - Questa bacheca è progettata per supportare il flusso di produzione normale e per effettuare una panoramica della situazione corrente in una o più celle di lavoro. Da questa bacheca ai kanban può essere assegnata la priorità, possono prelevati o prodotti. La bacheca è inoltre progettata per supportare lo scansione del codice a barre per la registrazione di kanban.
 
-## <a name="kanban-jobs-and-integration-with-microsoft-dynamics-ax-processes"></a>Processi kanban e integrazione con i processi di Microsoft Dynamics AX
-I processi kanban sono pienamente integrati con i processi correnti per le operazioni di magazzino in Microsoft Dynamics AX.
+## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Processi kanban e integrazione con i processi di Finance and Operations
+I processi kanban sono pienamente integrati con i processi correnti per le operazioni di magazzino in Finance and Operations.
 -   È possibile eseguire attività di prelievo per rifornire il materiale utilizzato per i processi kanban.
 -   È possibile stampare le schede kanban, le schede kanban circolanti e le distinte di prelievo a supporto dell'utilizzo dei kanban. Questi documenti vengono utilizzati per rappresentare, tenere traccia e registrare i processi kanban nel magazzino e nel reparto di produzione.
 -   È possibile registrare le attività di prelievo e di trasferimento delle scorte eseguendo la scansione dei codici a barre.

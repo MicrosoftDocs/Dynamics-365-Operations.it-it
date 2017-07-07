@@ -3,14 +3,14 @@ title: Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le d
 description: Questo articolo descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove effettuare il lavoro nel magazzino.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d0ad4f64ee84da4e90dfa1525ebb5ff9fec4063
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f8bcdcf70089aaed06ba0f88cdbec8dfdf9121d1
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Questo articolo descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove effettuare il lavoro nel magazzino.
 
-Le istruzioni che gli addetti al magazzino ricevono su un dispositivo mobile sono determinate dai modelli di lavoro impostati in Microsoft Dynamics 365 for Operations per definire i diversi processi e le diverse attività di magazzino. I modelli di lavoro determinano la modalità secondo cui il lavoro viene eseguito per ogni processo di magazzino. Collegando una direttiva di ubicazione ai modelli di lavoro, è possibile garantire che il lavoro venga effettuato nelle aree fisiche specifiche del magazzino.
+Le istruzioni che gli addetti al magazzino ricevono su un dispositivo mobile sono determinate dai modelli di lavoro impostati in Microsoft Dynamics 365 for Finance and Operations per definire i diversi processi e le diverse attività di magazzino. I modelli di lavoro determinano la modalità secondo cui il lavoro viene eseguito per ogni processo di magazzino. Collegando una direttiva di ubicazione ai modelli di lavoro, è possibile garantire che il lavoro venga effettuato nelle aree fisiche specifiche del magazzino.
 
 ## <a name="work-templates"></a>Modelli di lavoro
 La pagina **Modelli di lavoro** consente di definire le operazioni di lavoro che devono essere eseguite nel magazzino. In genere, le operazioni di lavoro sono costituite da una coppia di azioni: un lavoratore di magazzino preleva le scorte disponibili da un'ubicazione quindi colloca le scorte prelevate in un'altra ubicazione. 
@@ -57,7 +57,7 @@ Per quanto riguarda i modelli di lavoro, è possibile impostare una query per de
 
 Le righe delle direttive ubicazione impostano restrizioni aggiuntive sull'applicazione delle regole di individuazione dell'ubicazione. È possibile specificare una quantità minima e una quantità massima a cui la direttiva deve essere applicata e specificare che la direttiva deve essere destinata a un'unità di magazzino specifica. Ad esempio, se l'unità di misura sono i pallet, gli articoli in pallet potranno essere stoccati in un'ubicazione specifica. È inoltre possibile specificare se la quantità può essere suddivisa tra più ubicazioni. Come l'intestazione della direttiva ubicazione, ciascuna riga direttiva ubicazione ha un numero progressivo che determina l'ordine in cui vengono valutate le righe. 
 
-Le direttive ubicazione hanno un livello di dettagli aggiuntivo: *le azioni di direttiva ubicazione*. È possibile definire più azioni direttive ubicazione per ciascuna riga. Ancora una volta, viene utilizzato un numero progressivo per determinare l'ordine in cui le azioni vengono valutate. A questo livello, è possibile impostare una query per definire come individuare la migliore ubicazione nel magazzino. È inoltre possibile utilizzare le impostazioni **Strategia**predefinite per trovare un'ubicazione ottimale.
+Le direttive ubicazione hanno un livello di dettagli aggiuntivo: *le azioni di direttiva ubicazione*. È possibile definire più azioni direttive ubicazione per ciascuna riga. Ancora una volta, viene utilizzato un numero progressivo per determinare l'ordine in cui le azioni vengono valutate. A questo livello, è possibile impostare una query per definire come individuare la migliore ubicazione nel magazzino. È inoltre possibile utilizzare le impostazioni **Strategia** predefinite per trovare un'ubicazione ottimale.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Esempio di utilizzo delle direttive ubicazione
 

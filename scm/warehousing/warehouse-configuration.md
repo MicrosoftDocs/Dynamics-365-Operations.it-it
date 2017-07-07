@@ -3,14 +3,14 @@ title: Configurazione del magazzino
 description: Questo articolo illustra come configurare un magazzino. Sono riportate le informazioni su come abilitare un layout e i processi di magazzino.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08c086767303f6f52e085f8f56b5d09f1e46878f
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,10 +33,10 @@ ms.lasthandoff: 05/25/2017
 
 Questo articolo illustra come configurare un magazzino. Sono riportate le informazioni su come abilitare un layout e i processi di magazzino.
 
-**Nota:** Questo articolo viene applicato alle funzionalità del modulo**Gestione magazzino** (operazioni di magazzino avanzate). Non viene applicato alle funzionalità di magazzino nel modulo**Gestione inventario**.
+**Nota:** Questo articolo viene applicato alle funzionalità del modulo **Gestione magazzino** (operazioni di magazzino avanzate). Non viene applicato alle funzionalità di magazzino nel modulo **Gestione inventario**.
 
 ## <a name="warehouse-layout"></a>Layout magazzino
-Il sistema di gestione magazzino in Microsoft Dynamics 365 for Operations offre modalità flessibili per definire il layout di magazzino per soddisfare il mutamento delle esigenze, in modo da poter raggiungere un efficienza di magazzino ottimale.
+Il sistema di gestione magazzino in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition offre modalità flessibili per definire il layout di magazzino al fine di soddisfare le esigenze in continuo mutamento, in modo da poter raggiungere un'efficienza di magazzino ottimale.
 
 -   È possibile impostare aree di immagazzinamento ad alta priorità e a priorità bassa per un posizionamento ottimale delle merci.
 -   È possibile suddividere il magazzino in aree per soddisfare varie esigenze di immagazzinamento, ad esempio requisiti della temperatura, o vari tassi di fatturato per gli articoli.
@@ -44,7 +44,7 @@ Il sistema di gestione magazzino in Microsoft Dynamics 365 for Operations offre 
 -   È possibile raggruppare le ubicazioni utilizzando le impostazioni del vincolo di capacità fisica.
 -   È possibile controllare come vengono immagazzinati e prelevati gli articoli, in base a regole definite su query.
 
-Per utilizzare la gestione magazzino in Microsoft Dynamics 365 for Operations, è necessario creare un magazzino e abilitarlo per l'uso di attività di gestione magazzino più avanzate o specializzate. Nella pagina **Magazzini** selezionare l'opzione **Usa processi di gestione magazzino**.
+Per utilizzare la gestione magazzino in Finance and Operations, è necessario creare un magazzino e abilitarlo per l'uso di attività di gestione magazzino più avanzate o specializzate. Nella pagina **Magazzini** selezionare l'opzione **Usa processi di gestione magazzino**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Gruppi di zone, zone, tipi di ubicazione e ubicazioni
 
@@ -56,7 +56,7 @@ Durante il processo per abilitare un layout di magazzino, è necessario definire
 -   **Tipi di ubicazione**: Un raggruppamento logico o fisico di ubicazioni del magazzino. Ad esempio, è possibile creare un tipo di ubicazione per tutte le ubicazioni di gestione temporanea. Le impostazioni obbligatorie nella pagina **Parametri di gestione magazzino** determinano il processo di definizione dei tipi di ubicazione di gestione temporanea e del tipo di ubicazione di spedizione finale.
 -   **Ubicazioni** – Il livello più basso di informazioni sull'ubicazione. Le ubicazioni vengono utilizzate per tenere traccia di dove vengono immagazzinate e prelevate le scorte disponibili in un magazzino.
 
-Le entità create per definire il layout di magazzino vengono utilizzate nelle query impostate nei modelli di lavoro per determinare gli ordini di lavoro nel magazzino. Di conseguenza, quando si definiscono le zone, i tipi di ubicazione e così via, considerare come vengono utilizzate le diverse zone nel magazzino per i diversi processi. Inoltre, considerare fattori quali le caratteristiche fisiche di un'area specifica. Vi possono ad esempio essere aree in cui è possibile utilizzare solo un determinato tipo di carrello elevatore. Se invece l'azienda esegue la produzione nella stessa struttura in cui conserva i prodotti finiti, è possibile che si desideri creare un unico magazzino in Dynamics 365 for Operations ma separare le due funzioni creando due gruppi di area. Assegnare alle entità nomi descrittivi, in modo che sia facile identificarle quando le si utilizza nelle query del modello.
+Le entità create per definire il layout di magazzino vengono utilizzate nelle query impostate nei modelli di lavoro per determinare gli ordini di lavoro nel magazzino. Di conseguenza, quando si definiscono le zone, i tipi di ubicazione e così via, considerare come vengono utilizzate le diverse zone nel magazzino per i diversi processi. Inoltre, considerare fattori quali le caratteristiche fisiche di un'area specifica. Vi possono ad esempio essere aree in cui è possibile utilizzare solo un determinato tipo di carrello elevatore. Se invece l'azienda esegue la produzione nella stessa struttura in cui conserva i prodotti finiti, è possibile che si desideri creare un unico magazzino in Finance and Operations, per poi separare le due funzioni creando due gruppi di area. Assegnare alle entità nomi descrittivi, in modo che sia facile identificarle quando le si utilizza nelle query del modello.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Limiti stoccaggio ubicazione, profili dell'ubicazione e ubicazione di prelievo fisse
 

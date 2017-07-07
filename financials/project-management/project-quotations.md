@@ -1,9 +1,9 @@
 ---
 title: Offerte di progetto
-description: "Viene introdotto il concetto delle offerte di progetto da utilizzare per fare un&quot;offerta attraente a un cliente come primo passaggio della fase di progetto. Un&quot;offerta di progetto può comprendere articoli e servizi inclusi, informazioni di base sul contatto, accordi commerciali e sconti speciali e possibili imposte e supplementi."
+description: "Viene introdotto il concetto delle offerte di progetto da utilizzare per fare un'offerta attraente a un cliente come primo passaggio della fase di progetto. Un'offerta di progetto può comprendere articoli e servizi inclusi, informazioni di base sul contatto, accordi commerciali e sconti speciali e possibili imposte e supplementi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23621
 ms.assetid: 1ba67109-8c5b-4ada-b730-a72cd46203fd
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2328d4b7fd7715f0ce086e04e56a6ddff409d50d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0906a1600d4bf097a27cabff4d3b51e50f986631
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Viene introdotto il concetto delle offerte di progetto da utilizzare per fare un'offerta attraente a un cliente come primo passaggio della fase di progetto. Un'offerta di progetto può comprendere articoli e servizi inclusi, informazioni di base sul contatto, accordi commerciali e sconti speciali e possibili imposte e supplementi. 
 
-La possibilità di monitore, analizzare e controllare la pipeline delle offerte di progetto e degli ordini rappresenta una parte importante della gestione del progetto. I vari strumenti in Microsoft Dynamics 365 for Operations possono fornire assistenza alle attività. Ad esempio, le definizioni dei corretti dati di riferimento (tipi di offerta, origine dell'offerta, previsione e probabilità) consentono di analizzare la pipeline. È possibile utilizzare questi strumenti per classificare i motivi per cui un'offerta di progetto è stata acquisita o persa e determinare il potenziale valore di un'offerta. 
+La possibilità di monitore, analizzare e controllare la pipeline delle offerte di progetto e degli ordini rappresenta una parte importante della gestione del progetto. I vari strumenti in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition possono fornire assistenza alle attività. Ad esempio, le definizioni dei corretti dati di riferimento (tipi di offerta, origine dell'offerta, previsione e probabilità) consentono di analizzare la pipeline. È possibile utilizzare questi strumenti per classificare i motivi per cui un'offerta di progetto è stata acquisita o persa e determinare il potenziale valore di un'offerta. 
 
 In un'offerta di progetto, immettere i servizi, le informazioni di base sul contatto, accordi commerciali e sconti speciali nonché imposte e supplementi stimati per un progetto. È anche possibile selezionare le attività o le operazioni per un progetto e creare una gerarchia di attività e attività secondarie. Per ogni attività, è possibile immettere dettagli sui tempi e la durata relativi e sulle competenze e l'esperienza richieste ai lavoratori per questa attività. 
 

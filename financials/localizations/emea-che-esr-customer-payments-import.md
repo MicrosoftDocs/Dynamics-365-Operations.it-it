@@ -1,9 +1,9 @@
 ---
 title: Importazione pagamenti cliente PVR
-description: In questo argomento vengono fornite informazioni sull&quot;importazione dei pagamenti cliente in formato PVR.
+description: In questo argomento vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: CustPaymMode, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 264584
 ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f573885a71fdf449197ecea438e83d747c20a391
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ef6fcc07f645c4ff8c3a049120915ff411cb221a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 In questo argomento vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.
 
-PVR è un servizio di addebito elettronico che utilizza distinte di pagamento per raccogliere denaro. Si tratta del sistema di pagamento elettronico standard creato dalla Posta svizzera. È possibile ricevere i file di pagamento clienti in formato PVR, il quale può includere le transazioni e le commissioni bancarie. Questa funzionalità è progettata per le transazioni clienti importate in base ai riferimenti di pagamento originariamente generati in Microsoft Dynamics 365 for Operations e stampati nella distinta di pagamento.
+PVR è un servizio di addebito elettronico che utilizza distinte di pagamento per raccogliere denaro. Si tratta del sistema di pagamento elettronico standard creato dalla Posta svizzera. È possibile ricevere i file di pagamento clienti in formato PVR, il quale può includere le transazioni e le commissioni bancarie. Questa funzionalità è progettata per le transazioni clienti importate in base ai riferimenti di pagamento originariamente generati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e stampati nella distinta di pagamento.
 
 ## <a name="generate-payment-references"></a>Generare i riferimenti di pagamento
 I riferimenti di pagamento devono essere stampati nella distinta di pagamento dopo la registrazione. È inoltre possibile verificare i riferimenti di pagamento nella pagina **Giornale di registrazione fatture** per ordine cliente selezionato. Per generare i riferimenti di pagamento, è necessario specificare le impostazioni seguenti.

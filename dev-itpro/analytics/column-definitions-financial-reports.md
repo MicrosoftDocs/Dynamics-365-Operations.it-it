@@ -3,7 +3,7 @@ title: Definizioni di colonna nei report finanziari
 description: "In questo articolo vengono fornite informazioni sulle definizioni di colonna. Una definizione di colonna è un componente di report, o blocco predefinito, che specifica il contenuto delle colonne in un report. Al pari delle definizioni di riga, le definizioni delle colonne di base possono essere utilizzate nei report."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -154,7 +154,7 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 1.  In Progettazione report, aprire la definizione di colonna da modificare.
 2.  Selezionare una cella nella riga di intestazione.
-3.  Nel menu **Modifica** fare clic su **Inserisci riga**. La nuova riga viene inserita sopra la riga selezionata nel passaggio 2. **Nota:**se sono presenti quattro o più righe di intestazioni in un report, le intestazioni risulteranno sovrapposte quando il report verrà esportato in un foglio di calcolo Excel. Per visualizzare tutte le intestazioni nel report, aumentare il margine superiore nella definizione di report.
+3.  Nel menu **Modifica** fare clic su **Inserisci riga**. La nuova riga viene inserita sopra la riga selezionata nel passaggio 2. **Nota:** se sono presenti quattro o più righe di intestazioni in un report, le intestazioni risulteranno sovrapposte quando il report verrà esportato in un foglio di calcolo Excel. Per visualizzare tutte le intestazioni nel report, aumentare il margine superiore nella definizione di report.
 
 ### <a name="delete-a-column-header-row"></a>Eliminare una riga dell'intestazione di colonna
 
@@ -164,7 +164,7 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 ### <a name="create-an-automatically-generated-header"></a>Creare un'intestazione generata automaticamente
 
-Progettazione report può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC**, **FD** e **WKS**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Ad esempio, in un anno di calendario standard, **@CalMonthLong** risolve il mese **7** in **luglio**. Se il nome del mese è in maiuscolo (ad esempio **LUGLIO**)), immettere il codice testo automatico in caratteri maiuscoli nel campo **Testo intestazione colonna**. Ad esempio, immettere **@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, si immette il testo di intestazione seguente: **Periodo @FiscalPeriod-@FiscalYear da @StartDate a @EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**. **Nota:** Il formato di alcune parti del testo, ad esempio la data in formato esteso, dipende dalle impostazioni internazionali del server di Dynamics 365 for Operations. Per modificare queste impostazioni, fare clic sul pulsante **Start**, fare clic su **Pannello di controllo**, quindi su **Paese e lingua**. Nella seguente tabella sono elencate le opzioni di testo automatico disponibili per le intestazioni di colonna.
+Progettazione report può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC**, **FD** e **WKS**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Ad esempio, in un anno di calendario standard, **@CalMonthLong** risolve il mese **7** in **luglio**. Se il nome del mese è in maiuscolo (ad esempio **LUGLIO**)), immettere il codice testo automatico in caratteri maiuscoli nel campo **Testo intestazione colonna**. Ad esempio, immettere **@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, si immette il testo di intestazione seguente: **Periodo @FiscalPeriod-@FiscalYear da @StartDate a @EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**. **Nota:** Il formato di alcune parti del testo, ad esempio la data in formato esteso, dipende dalle impostazioni internazionali del server di Finance and Operations. Per modificare queste impostazioni, fare clic sul pulsante **Start**, fare clic su **Pannello di controllo**, quindi su **Paese e lingua**. Nella seguente tabella sono elencate le opzioni di testo automatico disponibili per le intestazioni di colonna.
 
 | Opzione e codice testo automatico                | descrizione                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ Le intestazioni con spanning condizionale possono comprendere più colonne basat
 2.  Fare doppio clic su una cella di intestazione.
 3.  Nella finestra di dialogo **Intestazione colonna**, digitare il testo dell'intestazione di colonna. In alternativa, fare clic su **Inserisci testo automatico** e selezionare un'opzione.
 4.   Nel campo **Opzioni di formattazione**, selezionare uno stile di formattazione dell'intestazione.
-5.  Specificare un periodo in relazione al periodo base specificato quando il report viene generato. Nei campi **Estendi da** ed **Estendi a**, immettere uno dei seguenti valori: **BASE**, **BASE-X** o **BASE+X**, in cui la X è il numero di periodi dal periodo base. Ad esempio, se si immette **BASE** nel campo**Estendi da**, il testo dell'intestazione di colonna con spanning condizionale inizia nell'intestazione di colonna in cui il valore **Periodo base** della definizione di report è uguale al valore **Periodo** della definizione di colonna. Termina nella colonna indicata nel campo **Estendi a**. Pertanto, se l'estensione è BASE a M e il valore **Periodo base** della definizione di report è **4**, l'intestazione inizia nella colonna in cui il periodo è impostato su **4** e termina alla colonna M. Le intestazioni si interrompono e iniziano solo alle colonne di stampa.
+5.  Specificare un periodo in relazione al periodo base specificato quando il report viene generato. Nei campi **Estendi da** ed **Estendi a**, immettere uno dei seguenti valori: **BASE**, **BASE-X** o **BASE+X**, in cui la X è il numero di periodi dal periodo base. Ad esempio, se si immette **BASE** nel campo **Estendi da**, il testo dell'intestazione di colonna con spanning condizionale inizia nell'intestazione di colonna in cui il valore **Periodo base** della definizione di report è uguale al valore **Periodo** della definizione di colonna. Termina nella colonna indicata nel campo **Estendi a**. Pertanto, se l'estensione è BASE a M e il valore **Periodo base** della definizione di report è **4**, l'intestazione inizia nella colonna in cui il periodo è impostato su **4** e termina alla colonna M. Le intestazioni si interrompono e iniziano solo alle colonne di stampa.
 6.  In **Giustificazione**, selezionare se il testo dell'intestazione di colonna deve essere allineato a sinistra, al centro o a destra.
 7.  Scegliere **OK**.
 
@@ -488,7 +488,7 @@ Il seguente esempio mostra la parte di una descrizione della colonna con un attr
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Filtro dimensioni in una definizione di colonna
 
-Un filtro dimensioni viene utilizzato per limitare la colonna **FD** a valori di dimensione specifici. Il filtro può includere una sola dimensione, un intervallo di dimensioni, un gruppo di dimensioni. Il filtro può includere anche set di valori di dimensione. Poiché i valori di dimensione possono variare, un sistema basato sulle dimensioni ..\financial-dimensions\ non deve corrispondere a una lunghezza esatta. Il filtro viene applicato, indipendentemente dal fatto che il report include un albero gerarchico. È possibile utilizzare un carattere jolly (\* o?) in qualsiasi posizione. Se si specificano più conti, inserire una virgola tra i conti, come nell'esempio seguente: +Conto=\[1200\], +Conto=\[1100\], Reparto=\[01?\] Per ricevere tutti i reparti per un conto specifico, è possibile escludere la dimensione Reparto dal filtro dimensioni. Ad esempio, entrambi i seguenti filtri dimensioni vengono gestiti nello stesso modo:
+Un filtro dimensioni viene utilizzato per limitare la colonna **FD** a valori di dimensione specifici. Il filtro può includere una sola dimensione, un intervallo di dimensioni, un gruppo di dimensioni. Il filtro può includere anche set di valori di dimensione. Poiché i valori di dimensione possono variare, un sistema basato sulle dimensioni ..\financial-dimensions\ non deve corrispondere a una lunghezza esatta. Il filtro viene applicato, indipendentemente dal fatto che il report include un albero gerarchico. È possibile utilizzare un carattere jolly (\* o?) in qualsiasi posizione. Se si specifica più conti, inserire una virgola tra i conti, come nell'esempio seguente: +conto=\[1200\], +conto=\[1100\], reparto=\[01?\] Per ricevere tutti i reparti per un conto specifico, è possibile escludere la dimensione Reparto dal filtro dimensioni. Ad esempio, entrambi i seguenti filtri dimensioni vengono gestiti nello stesso modo:
 
 -   +Conto=\[1100\],Reparto
 -   +Conto=\[1100\]

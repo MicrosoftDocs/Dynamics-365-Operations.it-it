@@ -3,14 +3,14 @@ title: Implementare correzioni manuali nella previsione di base
 description: Questo articolo illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 00e3d39d93a971dd6d4e88e322a1311eb58d7230
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0b3b56aa838888461a6d27c6612e405a3cf59414
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -59,7 +59,7 @@ Quando la correzione della quantità programmata viene effettuata a livello aggr
 È inoltre possibile apportare correzioni manuali nella pagina **Righe di previsione della domanda** modificando il valore della **Quantità totale** o le celle della **Quantità** nella griglia di annullamento della aggregazione.
 
 ## <a name="viewing-details-of-the-forecast"></a>Visualizzazione dei dettagli della previsione
-È possibile aprire la pagina**Dettagli di previsione della domanda** per visualizzare ulteriori informazioni sulla previsione. 
+È possibile aprire la pagina **Dettagli di previsione della domanda** per visualizzare ulteriori informazioni sulla previsione. 
 
 La pagina **Dettagli di previsione della domanda** visualizza le informazioni seguenti in formati grafici e tabulari:
 
@@ -73,7 +73,7 @@ La pagina **Dettagli di previsione della domanda** visualizza le informazioni se
 **Note:**
 
 -   L'intervallo di fiducia visualizzato nella sezione **Previsione** della pagina rappresenta la differenza tra il limite superiore dell'intervallo di fiducia e il limite minimo dell'intervallo di fiducia. Per visualizzare i valori dei limiti superiori e inferiori, passare il mouse sul grafico nella sezione **Domanda e previsioni storiche in formato grafico**.
--   Se si utilizza il servizio di Microsoft Azure Machine Learning della previsione della domanda di Dynamics 365 for Operations, è possibile specificare la percentuale del livello di fiducia che la previsione generata deve avere. Un intervallo di fiducia è costituito da un intervallo di valori che fungono da stime affidabili per la previsione della domanda. Un livello di fiducia del 95% indica ad esempio che è presente una possibilità del 5% che il risultato di previsione della domanda previsto non sia compreso nell'intervallo stabilito.
+-   Se si utilizza il servizio di Microsoft Azure Machine Learning della previsione della domanda di Finance and Operations, è possibile specificare la percentuale del livello di fiducia che la previsione generata deve avere. Un intervallo di fiducia è costituito da un intervallo di valori che fungono da stime affidabili per la previsione della domanda. Un livello di fiducia del 95% indica ad esempio che è presente una possibilità del 5% che il risultato di previsione della domanda previsto non sia compreso nell'intervallo stabilito.
 
 È inoltre possibile apportare correzioni manuali alla previsione nella pagina **Dettagli previsione della domanda** modificando i valori della riga **Previsione** nella sezione **Previsione**.
 

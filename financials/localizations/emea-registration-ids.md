@@ -1,9 +1,9 @@
 ---
 title: ID registrazione
-description: Questo argomento fornisce informazioni sull&quot;impostazione e l&quot;uso degli ID registrazione.
+description: Questo argomento fornisce informazioni sull'impostazione e l'uso degli ID registrazione.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 264824
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fc4a56eceb75673b7a044bd8392f8d0cc675e869
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -57,10 +57,12 @@ La categoria di registrazione è l'identificatore di registrazione del paese/reg
 |-----------------------|----------------|
 | Tipo di registrazione     | IL tipo di registrazione in un particolare paese/regione.|
 | Limitato a         | Tipo di restrizione applicabile al tipo di registrazione fiscale: Nessuno, Persona, Organizzazione.|
-| Categoria di registrazione | Identificatore univoco di registrazione approvato per l'uso nel paese. Elenco completo delle categorie AX7.1 supportate è qui di seguito. |
+| Categoria di registrazione | Identificatore univoco di registrazione approvato per l'uso nel paese. Di seguito l'elenco completo delle categorie supportate in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Immettere gli ID di registrazione per i record della Rubrica globale
-La Rubrica globale in Microsoft Dynamics 365 for Operations contiene informazioni consolidate sugli indirizzi di clienti, fornitori, contatti, relazioni commerciali e le persone giuridiche. Per ulteriori informazioni, vedere  [Panoramica della rubrica globale](/dynamics365/operations/organization-administration/overview-global-address-book). I record delle parti che vengono archiviati nella rubrica globale possono contenere uno o più record di indirizzo. Gli indirizzi vengono utilizzati per scopi diversi, ad esempio la fatturazione o la consegna. È possibile impostare gli ID di registrazione per informazioni sull'indirizzo per clienti, fornitori, lavoratori e persone giuridiche. Individuare la parte (persona giuridica, fornitore, cliente, lavoratore) per cui si desidera immettere l'ID di registro e fare clic su **D registrazione** nei moduli correlati per la parte, la persona giuridica, il fornitore, il cliente, il lavoratore per aprire la pagina **Gestisci indirizzi** . Nella scheda **Registrazione fiscale** fare clic su  **Aggiungi** quindi immettere le seguenti informazioni sull'ID registrazione.
+
+La Rubrica globale in Microsoft Finance and Operations contiene informazioni consolidate sugli indirizzi di clienti, fornitori, contatti, relazioni commerciali e le persone giuridiche. Per ulteriori informazioni, vedere  [Panoramica della rubrica globale](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). I record delle parti che vengono archiviati nella rubrica globale possono contenere uno o più record di indirizzo. Gli indirizzi vengono utilizzati per scopi diversi, ad esempio la fatturazione o la consegna. È possibile impostare gli ID di registrazione per informazioni sull'indirizzo per clienti, fornitori, lavoratori e persone giuridiche. Individuare la parte (persona giuridica, fornitore, cliente, lavoratore) per cui si desidera immettere l'ID di registro e fare clic su **D registrazione** nei moduli correlati per la parte, la persona giuridica, il fornitore, il cliente, il lavoratore per aprire la pagina **Gestisci indirizzi** . Nella scheda **Registrazione fiscale** fare clic su  **Aggiungi** quindi immettere le seguenti informazioni sull'ID registrazione.
+
 
 |Campo                |descrizione                                                |
 |---------------------|-----------------------------------------------------------|
@@ -80,23 +82,23 @@ La Rubrica globale in Microsoft Dynamics 365 for Operations contiene informazion
 La ricerca di record di parti in base a un ID registrazione è disponibile nei moduli correlati alla parte, persona giuridica, il fornitore, cliente e lavoratore. Fare clic su **Ricerca ID registrazione**  per aprire la pagina **Criteri di ricerca ID registrazione**. Specificare i criteri di ricerca e fare clic su **Trova**. Nel sistema vengono visualizzati i record selezionati dalla rubrica globale e i tipi associati del record della parte.
 
 ## <a name="supported-registration-categories"></a>Categorie di registrazione supportate
-Nella seguente tabella sono elencati i tipi di registrazione supportati in Dynamics 365 for Operations. Se si ha dimestichezza con i campi di Microsoft Dynamics AX 2012 per gli ID registrazione, questa tabella mappa anche quei campi alle categorie di registrazione di Dynamics 365 for Operations.
+Nella seguente tabella sono elencati i tipi di registrazione supportati in Finance and Operations. Se si ha dimestichezza con i campi di Microsoft Dynamics AX 2012 per gli ID registrazione, questa tabella mappa anche quei campi alle categorie di registrazione di Finance and Operations.
 
-| Categoria di registrazione di Dynamics 365 for Operations         |Paese  | Termine/campo di Dynamics AX 2012|
+| Categoria di registrazione di Finance and Operations         |Paese  | Termine/campo di Dynamics AX 2012|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| ID IVA                                                        | Tutti i paesi dell'Unione Europea (EU)|  Partita IVA (Tipo legislativo ID imposta in AX2012 R3)|
-| ID azienda (COID)                                          | Belgio, Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Polonia, Svizzera | Numero impresa (EnterpriseNumber) Numero di registrazione (RegNum\_W) Numero di registrazione (RegNum\_W) Numero di registrazione (RegNum\_W) Numero di registrazione (RegNum\_W) Codice impresa (EnterpriseCode) Numero di registrazione(RegNum\_W) UID (Tipo legislativo UID in AX2012 R3) |
+| ID IVA                                                        | Tutti i paesi dell'Unione Europea (EU)|  Partita IVA (Tipo legislativo ID imposta in AX 2012 R3)|
+| ID azienda (COID)                                          | Belgio, Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Polonia, Svizzera | Numero impresa (EnterpriseNumber) Numero di registrazione (RegNum\_W) Numero di registrazione (RegNum\_W) Numero di registrazione (RegNum\_W) Numero di registrazione (RegNum\_W) Codice impresa (EnterpriseCode) Numero di registrazione(RegNum\_W) UID (Tipo legislativo UID in AX 2012 R3) |
 | ID filiale                                                     | Belgio            | Codice della filiale (BranchNumber)|
 | Spisová značka (Numero di registrazione, Agenzia emittente, Sezione) | Repubblica Ceca     | Numero paragrafo (CommercialRegisterInsetNumber) Mantenuto nel registro commerciale (CommercialRegister) Sezione del registro commerciale (CommercialRegisterSection)|
 | ID cliente per dogana                                           | Finlandia | Numero cliente per dogana (CustomsCustomerNumber\_FI)|
-| INN                                                           | Federazione russa| INN (Tipo legislativo INN in AX2012 R3)|
-| RRC                                                           | Federazione russa| RRC (Tipo legislativo RRC in AX2012 R3)|
-| OKDP                                                          | Federazione russa| OKDP (Tipo legislativo OKDP in AX2012 R3)|
-| OKPO                                                          | Federazione russa| OKPO (Tipo legislativo OKPO in AX2012 R3)|
-| RCOAD                                                         | Federazione russa| RCOAD (Tipo legislativo RCOAD in AX2012 R3)|
-| OGRN                                                          | Federazione russa| OGRN (Tipo legislativo OGRN in AX2012 R3) |
-| SNILS                                                         | Federazione russa| SNILS (tipo legislativo SNILS in AX2012 R3)|
-| CIFTS                                                         | Federazione russa| CIFTS (tipo legislativo CIFTS in AX2012 R3)|
+| INN                                                           | Federazione russa| INN (Tipo legislativo INN in AX 2012 R3)|
+| RRC                                                           | Federazione russa| RRC (Tipo legislativo RRC in AX 2012 R3)|
+| OKDP                                                          | Federazione russa| OKDP (Tipo legislativo OKDP in AX 2012 R3)|
+| OKPO                                                          | Federazione russa| OKPO (Tipo legislativo OKPO in AX 2012 R3)|
+| RCOAD                                                         | Federazione russa| RCOAD (Tipo legislativo RCOAD in AX 2012 R3)|
+| OGRN                                                          | Federazione russa| OGRN (Tipo legislativo OGRN in AX 2012 R3) |
+| SNILS                                                         | Federazione russa| SNILS (tipo legislativo SNILS in AX 2012 R3)|
+| CIFTS                                                         | Federazione russa| CIFTS (tipo legislativo CIFTS in AX 2012 R3)|
 
 Per ulteriori informazioni sull'elaborazione degli ID registrazione, inclusi i prerequisiti necessari, vedere le seguenti registrazioni attività per l'ID IVA in Lifecycle Services (LCS):
 

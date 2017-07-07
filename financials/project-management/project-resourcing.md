@@ -1,16 +1,16 @@
 ---
 title: Risorse progetti
-description: Questo argomento fornisce informazioni sull&quot;assegnazione delle risorse a un progetto.
+description: Questo argomento fornisce informazioni sull'assegnazione delle risorse a un progetto.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Questo argomento fornisce informazioni sull'assegnazione delle risorse a un progetto.
 
-Una delle problematiche dei manager di progetto e di risorse durante la fase di progettazione del progetto è l'allocazione delle risorse, fase in cui devono determinare e prenotare la risorsa corretta a un progetto. In Microsoft Dynamics 365 for Operations, le funzionalità di assegnazione risorse per i progetti consentono di definire i ruoli considerati risorse temporanee prenotabili a un impegno specifico o a una parte dell'impegno. L'assegnazione delle risorse consente ai manager di progetto e di risorse di completare le seguenti attività:
+Una delle problematiche dei manager di progetto e di risorse durante la fase di progettazione del progetto è l'allocazione delle risorse, fase in cui devono determinare e prenotare la risorsa corretta a un progetto. In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, le funzionalità di assegnazione risorse per i progetti consentono di definire i ruoli considerati risorse temporanee prenotabili a un impegno specifico o a una parte dell'impegno. L'assegnazione delle risorse consente ai manager di progetto e di risorse di completare le seguenti attività:
 
 -   Definire un ruolo con le competenze necessarie per semplificare l'abbinamento delle risorse.
 -   Utilizzare i ruoli per definire una programmazione di impegno iniziale basata sulle prenotazioni delle risorse.
@@ -65,10 +65,10 @@ Quando si imposta un lavoratore come risorsa interaziendale, è necessario compl
 
 **Nella società che concede in prestito la risorsa:**
 
-1.  In Dynamics 365 for Operations, verificare che la società di concessione sia selezionata e quindi completare la procedura sopra descritta, "Impostare un lavoratore come risorsa del progetto".
+1.  In Finance and Operations, verificare che la società di concessione sia selezionata e quindi completare la procedura sopra descritta, "Impostare un lavoratore come risorsa del progetto".
 2.  Passare a *Contabilità generale**&gt; **Impostazione di registrazione**&gt; **Contabilità interaziendale**. Fare clic su **Nuovo**.
 3.  Nel campo **ID persona giuridica** selezionare la società di concessione. Completare i campi rimanenti come appropriati e fare clic su **Salva**.
-4.  Andare a **Gestione progetti e contabilità**&gt; **Impostazioni **&gt; **Prezzi ** &gt; **Prezzo di trasferimento**.** **
+4.  Andare a **Gestione progetti e contabilità **&gt; **Impostazioni **&gt; **Prezzi ** &gt; **Prezzo di trasferimento**.** **
 5.  Nel modulo **Prezzo di trasferimento** fare clic su **Nuovo** e in **Persona giuridica richiedente** selezionare la società pertinente.
 6.  Se si desidera prestare alla società richiedente solo la risorsa creata all'inizio di questa sezione nel campo **Risorsa**, selezionare il nome della risorsa creata. Se si desidera prestare alla società richiedente tutte le risorse disponibili nella società, lasciare vuoto il campo **Risorsa**.
 7.  Andare a **Gestione progetti e contabilità**&gt; **Impostazioni **&gt; **Parametri Gestione progetti e contabilità** e nella scheda **Interaziendale ** impostare il campo **Abilita programmazione risorse interaziendale e fogli presenze** su **Sì**.
@@ -123,7 +123,7 @@ Per impostare le competenze di un lavoratore, è possibile utilizzare la pagina 
 6.  Nel riquadro **Progetti rimanenti** selezionare un progetto e fare clic sulla freccia per aggiungerlo al riquadro **Progetti selezionati**.
 7.  Chiudere la pagina.
 
-Se necessario, è anche possibile assegnare categorie per una risorsa. Il tipo di categoria è Costo o Ricavi. Questo dipende dall'organizzazione. Se per la risorsa non vi sono categorie assegnate, Dynamics 365 for Operations cercherà la categoria predefinita nei prezzi orari per costi e ricavi.
+Se necessario, è anche possibile assegnare categorie per una risorsa. Il tipo di categoria è Costo o Ricavi. Questo dipende dall'organizzazione. Se per la risorsa non vi sono categorie assegnate, Finance and Operations cercherà la categoria predefinita nei prezzi orari per costi e ricavi.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Impostare le caratteristiche dei ruoli e delle risorse del progetto
 
@@ -190,7 +190,7 @@ Tutti i costi e i prezzi di vendita e trasferimento possono essere impostati per
 5.  Nella colonna **Determinazione prezzo** immettere un prezzo per il ruolo risorsa selezionato.
 
 ## <a name="form-a-project-team"></a>Formare un team di progetto
-Per utilizzare i ruoli impostati in precedenza in un progetto, un manager di progetto deve associare i ruoli al progetto. È possibile assegnare più ruoli a un progetto e Dynamics 365 for Operations etichetta automaticamente questi ruoli durante la prenotazione per evitare confusione. Ad esempio, se il manager di progetto richiede tre programmatori, vengono generati automaticamente tre ruoli programmatore con le etichette programmatore 1, programmatore 2 e programmatore 3. Se per il ruolo sono già state impostate caratteristiche, vengono applicate come filtro durante le ricerche di una risorsa. È possibile aggiungere caratteristiche aggiuntive per ridefinire ulteriormente la ricerca. 
+Per utilizzare i ruoli impostati in precedenza in un progetto, un manager di progetto deve associare i ruoli al progetto. È possibile assegnare più ruoli a un progetto e Finance and Operations etichetta automaticamente questi ruoli durante la prenotazione per evitare confusione. Ad esempio, se il manager di progetto richiede tre programmatori, vengono generati automaticamente tre ruoli programmatore con le etichette programmatore 1, programmatore 2 e programmatore 3. Se per il ruolo sono già state impostate caratteristiche, vengono applicate come filtro durante le ricerche di una risorsa. È possibile aggiungere caratteristiche aggiuntive per ridefinire ulteriormente la ricerca. 
 
 Le impostazioni di visualizzazione possono anche essere personalizzate per dare una visione migliore della disponibilità delle risorse. Sono disponibili opzioni per visualizzare la disponibilità oraria, giornaliera, settimanale, mensile, trimestrale e annuale. È anche disponibile un'opzione per mostrare la capacità disponibile e rimanente sulle risorse. Questa opzione è utile per la gestione del tempo quando si stima il tempo disponibile per le attività o la disponibilità delle risorse. 
 
@@ -277,7 +277,7 @@ Le opzioni aggiuntive sono state aggiunte nella struttura di suddivisione del la
 </tr>
 <tr class="even">
 <td>Genera automaticamente team</td>
-<td>Aggiungere automaticamente le risorse programmate usando i ruoli associati a un'attività. Dynamics 365 for Operations suggerisce automaticamente le risorse programmate usando le analisi decisionali basate su più criteri basate su ruoli. Dopo l'impostazione dei ruoli e del lavoro (ore) per le attività in una struttura di suddivisione del lavoro e dopo che la struttura è stata rilasciata, fare clic su <strong>Genera automaticamente team</strong>. Il numero obbligatorio risorse pianificate viene aggiunto alla struttura di suddivisione del lavoro e alla scheda <strong>Team progetto e programmazione</strong>.</td>
+<td>Aggiungere automaticamente le risorse programmate usando i ruoli associati a un'attività. Finance and Operations suggerisce automaticamente le risorse programmate usando le analisi decisionali basate su più criteri basate su ruoli. Dopo l'impostazione dei ruoli e del lavoro (ore) per le attività in una struttura di suddivisione del lavoro e dopo che la struttura è stata rilasciata, fare clic su <strong>Genera automaticamente team</strong>. Il numero obbligatorio risorse pianificate viene aggiunto alla struttura di suddivisione del lavoro e alla scheda <strong>Team progetto e programmazione</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Risorsa (elenco a discesa)</td>

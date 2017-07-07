@@ -1,15 +1,15 @@
 ---
 title: Panoramica delle sequenze numeriche
-description: In Microsoft Dynamics 365 for Operations le sequenze numeriche vengono utilizzate per generare identificatori univoci leggibili per record transazioni e dati master che richiedono identificatori. Un record transazioni o dati master che richiede un identificatore viene definito <em>riferimento</em>.
+description: In Microsoft Dynamics 365 for Finance and Operations le sequenze numeriche vengono utilizzate per generare identificatori univoci leggibili per record transazioni e dati master che richiedono identificatori. Un record transazioni o dati master che richiede un identificatore viene definito <em>riferimento</em>.
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In Microsoft Dynamics 365 for Operations le sequenze numeriche vengono utilizzate per generare identificatori univoci leggibili per record transazioni e dati master che richiedono identificatori. Un record transazioni o dati master che richiede un identificatore viene definito <em>riferimento</em>.
+In Microsoft Dynamics 365 for Finance and Operations le sequenze numeriche vengono utilizzate per generare identificatori univoci leggibili per record transazioni e dati master che richiedono identificatori. Un record transazioni o dati master che richiede un identificatore viene definito <em>riferimento</em>.
 
-Prima di poter creare nuovi record per un riferimento in Microsoft Dynamics 365 for Operations, è necessario impostare una sequenza numerica e associarla al riferimento. Per impostare sequenze numeriche, è consigliabile utilizzare le pagine in **Amministrazione organizzazione**. Se sono necessarie impostazioni specifiche del modulo, è possibile utilizzare la pagina parametri in un modulo per specificare sequenze numeriche per i riferimenti in quel modulo. In **Contabilità clienti** e **Contabilità fornitori**, ad esempio, è possibile impostare gruppi di sequenze numeriche per allocare sequenze numeriche specifiche a fornitori o clienti specifici. Quando si imposta una sequenza numerica, è necessario specificare un ambito per definire in quale organizzazione verrà utilizzata la sequenza numerica. L'ambito può essere **Condiviso**, **Società**, **Persona giuridica** o **Unità operativa**. Gli ambiti **persona giuridica** e **società** possono anche essere combinati con **Periodo di calendario fiscale** per creare sequenze numeriche ancora più specifiche. I formati delle sequenze numeriche sono dati da segmenti. Le sequenze numeriche con un ambito diverso da **Condiviso** possono contenere segmenti corrispondenti all'ambito. Una sequenza numerica con un ambito **Persona giuridica**, ad esempio, può contenere un segmento persona giuridica. Includendo un segmento ambito nel formato della sequenza numerica, è possibile identificare l'ambito di un record facendo riferimento al relativo numero. Oltre ai segmenti che corrispondono agli ambiti, i formati delle sequenze numeriche possono contenere i segmenti **Costante** e **Segmenti alfanumerici**. Un segmento **costante** può contenere un set di lettere, numeri o simboli che non cambia. Un segmento **alfanumerico** contiene un set di lettere o numeri che aumentano ogni volta che viene utilizzato un numero. Utilizzare un simbolo di numero (\#) per rappresentare i numeri che aumentano e la e commerciale (&) per rappresentare le lettere che aumentano. Il formato t \#\#\#\#\#\_2017, ad esempio, consente di ottenere la sequenza 00001\_2017, 00002\_2017 e così via.
+Prima di poter creare nuovi record per un riferimento in Microsoft Dynamics 365 for Finance and Operations, è necessario impostare una sequenza numerica e associarla al riferimento. Per impostare sequenze numeriche, è consigliabile utilizzare le pagine in **Amministrazione organizzazione**. Se sono necessarie impostazioni specifiche del modulo, è possibile utilizzare la pagina parametri in un modulo per specificare sequenze numeriche per i riferimenti in quel modulo. In **Contabilità clienti** e **Contabilità fornitori**, ad esempio, è possibile impostare gruppi di sequenze numeriche per allocare sequenze numeriche specifiche a fornitori o clienti specifici. Quando si imposta una sequenza numerica, è necessario specificare un ambito per definire in quale organizzazione verrà utilizzata la sequenza numerica. L'ambito può essere **Condiviso**, **Società**, **Persona giuridica** o **Unità operativa**. Gli ambiti **persona giuridica** e **società** possono anche essere combinati con **Periodo di calendario fiscale** per creare sequenze numeriche ancora più specifiche. I formati delle sequenze numeriche sono dati da segmenti. Le sequenze numeriche con un ambito diverso da **Condiviso** possono contenere segmenti corrispondenti all'ambito. Una sequenza numerica con un ambito **Persona giuridica**, ad esempio, può contenere un segmento persona giuridica. Includendo un segmento ambito nel formato della sequenza numerica, è possibile identificare l'ambito di un record facendo riferimento al relativo numero. Oltre ai segmenti che corrispondono agli ambiti, i formati delle sequenze numeriche possono contenere i segmenti **Costante** e **Segmenti alfanumerici**. Un segmento **costante** può contenere un set di lettere, numeri o simboli che non cambia. Un segmento **alfanumerico** contiene un set di lettere o numeri che aumentano ogni volta che viene utilizzato un numero. Utilizzare un simbolo di numero (\#) per rappresentare i numeri che aumentano e la e commerciale (&) per rappresentare le lettere che aumentano. Il formato t \#\#\#\#\#\_2017, ad esempio, consente di ottenere la sequenza 00001\_2017, 00002\_2017 e così via.
 Esempi di sequenze numeriche
 ------------------------
 

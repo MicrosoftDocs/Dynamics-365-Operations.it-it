@@ -1,9 +1,9 @@
 ---
 title: "Funzionalità deprecate"
-description: "In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione, da Dynamics 365 for Operations. Sono elencate anche le funzionalità che sono state deprecate nelle versioni di Dynamics AX 7.0."
+description: "In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione."
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione.
 
-In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione, da Dynamics 365 for Operations. Sono elencate anche le funzionalità che sono state deprecate nelle versioni di Dynamics AX 7.0.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Funzionalità che sono deprecate nell'Aggiornamento di luglio 2017 di Dynamics 365 for Finance and Operations, Enterprise Edition
+
+### <a name="warehouse-mobile-devices-portal"></a>Portale dei dispositivi mobili del magazzino
+
+Il Portale dei dispositivi mobili del magazzino è un componente autonomo progettato per la distribuzione automatica locale. Questo componente non è più supportato in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Un app nativa che migliora l'esperienza utente ha sostituito la funzionalità Portale dei dispositivi mobili del magazzino. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Motivo del deprecamento**       | Funzionalità duplicata.                        |
+| **Sostituita da un'altra funzionalità?** | Sì. Questa funzionalità è stata sostituita da Finance and Operations - Magazzino. Per ulteriori informazioni sull'impostazione e sui prerequisiti, vedere [Installare e configurare Microsoft Dynamics 365 for Finance and Operations - Magazzino](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Moduli interessati**             | Gestione magazzino, Gestione trasporto |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Regola avanzata di abbinamento di riconciliazione estratti conto per la corrispondenza manuale
+
+Una regola di abbinamento è stata utilizzata per selezionare e contrassegnare un documento bancario durante la corrispondenza manuale dei documenti nel foglio di lavoro di riconciliazione.
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Motivo del deprecamento**       | Utilizzo limitato.                                                                         |
+| **Sostituita da un'altra funzionalità?** | N. Le capacità di filtro della colonna devono essere utilizzate per individuare i documenti per la riconciliazione. |
+| **Moduli interessati**             | Gestione cassa e banche                                                               |
+
+### <a name="windows-8-tablet-app"></a>App tablet di Windows 8
+
+L'app tablet di Windows 8 ha fornito la funzionalità per la voce e l'approvazione di spesa.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Motivo del deprecamento**       | Finance and Operations è compatibile con i tablet. L'app tablet non è più richiesta. |
+| **Sostituita da un'altra funzionalità?** | N.                                                                                      |
+| **Moduli interessati**             | Gestione spese                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Le funzionalità che sono state deprecate in Dynamics 365 per le operazioni 1611 con l'aggiornamento piattaforma 3
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Un flusso di lavoro per la gestione della creazione degli obiettivi dei dipenden
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La gestione delle prestazioni è stata completamente riprogettata in Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                        |
+| Motivo del deprecamento       | La gestione delle prestazioni è stata completamente riprogettata in Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                        |
 | Sostituita da un'altra funzionalità? | La funzionalità di gestione delle prestazioni riprogettata dà maggiore controllo al contenuto degli obiettivi, alle misurazioni utilizzate per tenere traccia dello stato di avanzamento e all'allegato della documentazione di supporto. I destinatari possono essere archiviati come modelli e quindi riutilizzati. Questa funzionalità consente di impostare più rapidamente gli obiettivi supplementari per i dipendenti. |
 | Moduli interessati             | Gestione risorse umane                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ In Dynamics AX 2012 R3, Retail Modern POS poteva connettersi direttamente al dat
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La connettività diretta del database richiedeva i protocolli di protezione minimi ed era principalmente utilizzata per ottenere i massimi livelli delle prestazioni. A causa dei miglioramenti di protezione e delle prestazioni di Dynamics 365 for Operations, questa funzionalità ora comporta più problemi che vantaggi. |
+| Motivo del deprecamento       | La connettività diretta del database richiedeva i protocolli di protezione minimi ed era principalmente utilizzata per ottenere i massimi livelli delle prestazioni. A causa dei miglioramenti di protezione e delle prestazioni di Finance and Operations, questa funzionalità ora comporta più problemi che vantaggi. |
 | Sostituita da un'altra funzionalità? | N. È ora supportata solo la comunicazione standard del server Retail.    |
 | Moduli interessati             | Database canale/Retail Modern POS                                    |
 
@@ -808,9 +840,5 @@ Informazioni sulle retribuzioni in Risorse umane
 | Motivo del deprecamento       | Questa funzionalità è stata sostituita da un'altra funzionalità.                                    |
 | Sostituita da un'altra funzionalità? | Management Reporter (contrassegnato **Report finanziario** nella versione corrente di Dynamics AX) |
 | Moduli interessati             | Contabilità generale                                                                              |
-
-
-
-
 
 

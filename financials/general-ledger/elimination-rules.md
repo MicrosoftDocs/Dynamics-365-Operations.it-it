@@ -3,7 +3,7 @@ title: Regole di eliminazione
 description: Questo argomento fornisce informazioni sulle regole di eliminazione e sulle varie opzioni per i report sulle eliminazioni.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ab1d8fb5bfc9413652d222e701c44b3b91a4c842
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -133,7 +133,7 @@ La persona giuridica A vende congegni a un'altra persona giuridica nell'organizz
 Tutte queste transazioni daranno origine a transazioni interaziendali registrate in conti per importi da versare e da ricevere. In queste transazioni inoltre possono essere inclusi importi di ricarico e ribasso qualora l'importo delle vendite interaziendali non sia uguale al costo delle merci vendute.
 
 ## <a name="set-up-elimination-rules"></a>Impostare regole di eliminazione
-Per impostare l'eliminazione di regole in Dynamics 365 for Operations, si consiglia di creare una dimensione finanziaria specificatamente per operazioni di eliminazione. La maggior parte dei clienti la definiscono Partner commerciale o simili. Se si decide di non utilizzare una dimensione finanziaria, assicurarsi di avere conti principali specifici solo per transazioni interaziendali. 
+Per impostare l'eliminazione di regole in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, si consiglia di creare una dimensione finanziaria specificatamente per operazioni di eliminazione. La maggior parte dei clienti la definiscono Partner commerciale o simili. Se si decide di non utilizzare una dimensione finanziaria, assicurarsi di avere conti principali specifici solo per transazioni interaziendali. 
 
 L'impostazione per le eliminazioni è disponibile nell'area Impostazioni del modulo Consolidamenti. Dopo aver immesso una descrizione per la regola, è necessario selezionare la società per cui il giornale di registrazione eliminazioni effettuerà la registrazione. Questa deve essere una società con l'opzione **Utilizza per processo di eliminazione finanziario** selezionata nell'impostazione Persona giuridica. 
 

@@ -3,14 +3,14 @@ title: Ordini di quarantena
 description: In questo articolo viene descritto come gli ordini di quarantena vengono utilizzati per bloccare il magazzino.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 63d8c5827a95693a903428322367a4eec61f17d8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec3d54e8e08850cd81891e7058b2b787e08b0fb9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ In questo articolo viene descritto come gli ordini di quarantena vengono utilizz
 Gli ordini di quarantena possono essere utilizzati per bloccare il magazzino. Ad esempio, è possibile che si desideri mettere in quarantena gli articoli per motivi di controllo qualità. L'inventario messo in quarantena viene trasferito a un magazzino di quarantena. **Nota:** se si utilizzano processi di gestione avanzata del magazzino (in Gestione magazzino), l'elaborazione degli ordini di quarantena viene utilizzata solo per gli ordini cliente resi.
 
 ## <a name="quarantine-onhand-inventory-items"></a>Quarantena degli articoli di magazzino disponibili
-Quando si mettono articoli in quarantena, è possibile creare ordini di quarantena manualmente o impostare il sistema in modo da creare ordini di quarantena automaticamente durante l'elaborazione in entrata. Per creare automaticamente ordini di quarantena, selezionare l'opzione **Gestione quarantena** nella scheda **Criteri di inventario** nella pagina **Gruppi di modelli di articoli**. È anche necessario specificare un magazzino di quarantena predefinito nel campo **Magazzino di quarantena** per i magazzini riceventi. Quando gli articoli di magazzino fisicamente disponibili vengono registrati in un ordine fornitore o di produzione, gli articoli in quarantena vengono spostati automaticamente in un magazzino di quarantena in Microsoft Dynamics 365 for Operations. Il movimento si verifica perché lo stato dell'ordine di quarantena viene modificato su **Iniziato**. Quando si creano manualmente ordini di quarantena, non è necessario che l'articolo venga impostato per la gestione della quarantena nel gruppo di modelli dell'articolo associato. Per questo processo, è necessario specificare il magazzino disponibile che deve essere messo in quarantena e il magazzino di quarantena che deve essere utilizzato. È possibile utilizzare gli stati dell'ordine di quarantena per pianificare il processo.
+Quando si mettono articoli in quarantena, è possibile creare ordini di quarantena manualmente o impostare il sistema in modo da creare ordini di quarantena automaticamente durante l'elaborazione in entrata. Per creare automaticamente ordini di quarantena, selezionare l'opzione **Gestione quarantena** nella scheda **Criteri di inventario** nella pagina **Gruppi di modelli di articoli**. È anche necessario specificare un magazzino di quarantena predefinito nel campo **Magazzino di quarantena** per i magazzini riceventi. Quando gli articoli di magazzino fisicamente disponibili vengono registrati in un ordine fornitore o di produzione, gli articoli in quarantena vengono spostati automaticamente in un magazzino di quarantena in Microsoft Dynamics 365 for Finance and Operations. Il movimento si verifica perché lo stato dell'ordine di quarantena viene modificato su **Iniziato**. Quando si creano manualmente ordini di quarantena, non è necessario che l'articolo venga impostato per la gestione della quarantena nel gruppo di modelli dell'articolo associato. Per questo processo, è necessario specificare il magazzino disponibile che deve essere messo in quarantena e il magazzino di quarantena che deve essere utilizzato. È possibile utilizzare gli stati dell'ordine di quarantena per pianificare il processo.
 
 ## <a name="quarantine-order-statuses"></a>Stati dell'ordine di quarantena
 Agli ordini di quarantena possono essere assegnati i seguenti stati:
@@ -48,7 +48,7 @@ Agli ordini di quarantena possono essere assegnati i seguenti stati:
 
 ### <a name="created"></a>Creata
 
-Quando un ordine di quarantena viene creato manualmente ma l'articolo non è ancora nel magazzino di quarantena, l'ordine di quarantena presenta lo stato **Creato**. Vengono generate due transazioni di magazzino. Una transazione è una transazione di uscita con lo stato **In ordinazione**, **Fisico prenotato** o**Prelevata**. L'altra transazione è una transazione di entrata con lo stato **Ordinato** o**Registrato** presso il magazzino in quarantena. È possibile prenotare, prelevare e registrare aggiornamenti al magazzino utilizzando i soliti processi.
+Quando un ordine di quarantena viene creato manualmente ma l'articolo non è ancora nel magazzino di quarantena, l'ordine di quarantena presenta lo stato **Creato**. Vengono generate due transazioni di magazzino. Una transazione è una transazione di uscita con lo stato **In ordinazione**, **Fisico prenotato** o **Prelevata**. L'altra transazione è una transazione di entrata con lo stato **Ordinato** o **Registrato** presso il magazzino in quarantena. È possibile prenotare, prelevare e registrare aggiornamenti al magazzino utilizzando i soliti processi.
 
 ### <a name="started"></a>Avviato
 

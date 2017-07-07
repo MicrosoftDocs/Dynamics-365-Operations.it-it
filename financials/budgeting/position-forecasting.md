@@ -1,16 +1,16 @@
 ---
-title: Previsione della posizione
-description: 
+title: Previsione delle posizioni
+description: Le spese relative ai lavoratori costituiscono spesso una grande proporzione dei costi di un'organizzazione. Le previsioni di posizione consentono di pianificare le spese e includerle nella pianificazione di budget.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,18 +18,17 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="position-forecasting"></a>Previsione della posizione
+# <a name="position-forecasting"></a>Previsione delle posizioni
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,9 +96,9 @@ L'elemento di costo selezionato nel gruppo di retribuzione viene utilizzato quan
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Creazione di posizioni previste per le posizioni esistenti
 
-Per una pianificazione più precisa del budget, è possibile creare posizioni previste utilizzando i dettagli delle posizioni esistenti in Microsoft Dynamics 365 for Operations, indipendentemente dalla posizione attualmente compilata o non compilata. 
+Per una pianificazione più precisa del budget, è possibile creare posizioni previste utilizzando i dettagli delle posizioni esistenti in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, indipendentemente dalla posizione attualmente compilata o non compilata. 
 
-La funzione **Aggiungi posizioni esistenti** visualizza tutte le posizioni di un'organizzazione. Impostando la data**A partire dal**, è possibile modificare l'elenco di posizioni in modo che contenga le posizioni lavorative esistenti in una data nel passato o, più comunemente, in futuro, ad esempio, all'inizio del ciclo di budget successivo. Selezionare un processo di pianificazione del budget e uno scenario del piano di budget, selezionare le posizioni dall'elenco e quindi fare clic su **OK** per creare posizioni previste per le posizioni selezionate. Si noti che è possibile creare solo una posizione prevista per ogni posizione esistente in un processo di pianificazione del budget e in uno scenario. Tuttavia, è possibile creare versioni aggiuntive assegnando gli diversi scenari del piano di budget. 
+La funzione **Aggiungi posizioni esistenti** visualizza tutte le posizioni di un'organizzazione. Impostando la data **A partire dal**, è possibile modificare l'elenco di posizioni in modo che contenga le posizioni lavorative esistenti in una data nel passato o, più comunemente, in futuro, ad esempio, all'inizio del ciclo di budget successivo. Selezionare un processo di pianificazione del budget e uno scenario del piano di budget, selezionare le posizioni dall'elenco e quindi fare clic su **OK** per creare posizioni previste per le posizioni selezionate. Si noti che è possibile creare solo una posizione prevista per ogni posizione esistente in un processo di pianificazione del budget e in uno scenario. Tuttavia, è possibile creare versioni aggiuntive assegnando gli diversi scenari del piano di budget. 
 
 Se gli elementi di costo del budget sono stati assegnati alla posizione in Risorse umane, tali elementi di costo del budget vengono assegnati anche alla posizione prevista e utilizzano gli importi predefiniti. Il campo **Lavoratore assegnato** nella posizione prevista viene impostato sul nome del lavoratore assegnato alla posizione, se un lavoratore è assegnato. Questo campo è un campo di testo semplice. Non viene creato alcun collegamento diretto. 
 

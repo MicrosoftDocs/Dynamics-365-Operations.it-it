@@ -3,14 +3,14 @@ title: Gestire gli utenti di collaborazione fornitore
 description: "In questo argomento viene descritto come è possibile richiedere il provisioning di nuovi utenti di collaborazione fornitore e come aggiungere nuovi contatti per la collaborazione fornitore."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7e747547ed5cf4654a99382ecc8f9f6103ec5cfa
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec7ed3a81d296e9bef4d26f1756b73883d560cb5
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 In questo argomento viene descritto come è possibile richiedere il provisioning di nuovi utenti di collaborazione fornitore e come aggiungere nuovi contatti per la collaborazione fornitore. 
 
-L'interfaccia di collaborazione fornitore in Microsoft Dynamics 365 for Operations mostra informazioni sugli ordini fornitore, fatture e scorte di spedizione ai fornitori esterni. È possibile creare nuovi contatti per la collaborazione fornitore e richiedere il provisioning di nuovi  utenti se si lavora come fornitore esterno con il ruolo di sicurezza **Amministratore fornitore (esterno)** o simili autorizzazioni. È inoltre possibile eseguire queste attività se si lavora come responsabile di approvvigionamento. In questo argomento, questo ruolo si riferisce a un responsabile di approvvigionamento che lavora all'interno della società a cui appartiene l'istanza di Dynamics 365 for Operations. Per ulteriori informazioni sull'utilizzo della collaborazione fornitore se si è un fornitore esterno, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+L'interfaccia di collaborazione fornitore in Microsoft Dynamics 365 for Finance and Operations mostra informazioni sugli ordini fornitore, fatture e scorte di spedizione ai fornitori esterni. È possibile creare nuovi contatti per la collaborazione fornitore e richiedere il provisioning di nuovi  utenti se si lavora come fornitore esterno con il ruolo di sicurezza **Amministratore fornitore (esterno)** o simili autorizzazioni. È inoltre possibile eseguire queste attività se si lavora come responsabile di approvvigionamento. In questo argomento, questo ruolo si riferisce a un responsabile di approvvigionamento che lavora all'interno della società a cui appartiene l'istanza di Finance and Operations. Per ulteriori informazioni sull'utilizzo della collaborazione fornitore se si è un fornitore esterno, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Per ulteriori informazioni sull'utilizzo della collaborazione fornitore se si è un responsabile approvvigioanmento, vedere [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
 
@@ -50,24 +50,24 @@ Se si desidera eliminare un contatto, è solo possibile eliminare quelli che son
 ## <a name="vendor-collaboration-user-requests"></a>Richieste utente collaborazione fornitore
 Le richieste di utente di collaborazione fornitore possono essere generate da un responsabile di approvvigionamento o da un amministratore del fornitore esterno.
 
--   Se si è un fornitore esterno, le richieste si inviano dalla pagina **Tutti i contatt**i  nel modulo **Collaborazione fornitore**.
+-   Se si è un fornitore esterno, le richieste si inviano dalla pagina **Tutti i contatt** i  nel modulo **Collaborazione fornitore**.
 -   Se si è un responsabile di approvvigionamento, le richieste si inviano dalla pagina **Visualizza contatto**. A tale scopo, nel record fornitore, nella sezione **Impostazione** del riquadro azioni, selezionare **Contatt** i&gt;  **Visualizza contatti**.
 
 È possibile effettuare una richiesta di provisioning di un utente, di disattivazione di un utente o di modifica di ruoli di sicurezza. Se si è un amministratore di un fornitore esterno, è necessario essere registrati come contatto per i conti fornitore per cui si desidera effettuare richieste utente e si deve poter accedere all'interfaccia di collaborazione fornitore per tali conti fornitore.  
 
-Quando una richiesta viene inviata viene aggiunta all'elenco **Richieste utente collaborazione fornitore**nel modulo **Collaborazione fornitore** e all'elenco **Richieste utente collaborazione fornitore** nel modulo **Approvvigionamento** (il modulo Approvvigionamento non è accessibile agli utenti esterni).
+Quando una richiesta viene inviata viene aggiunta all'elenco **Richieste utente collaborazione fornitore** nel modulo **Collaborazione fornitore** e all'elenco **Richieste utente collaborazione fornitore** nel modulo **Approvvigionamento** (il modulo Approvvigionamento non è accessibile agli utenti esterni).
 
 ### <a name="provision-a-user"></a>Eseguire il provisioning di un utente
 
 Prima di poter richiedere il provisoning di un nuovo utente, tale persona deve essere impostata come contatto per uno o più conti fornitore. Per creare una richiesta per un nuovo utente di collaborazione fornitore:
 
 1.  Nella pagina **Tutti i contatti**, fare clic su **Provisioning utente fornitore**.
-2.  Immettere un indirizzo di posta elettronica per l'utente. Questo indirizzo verrà utilizzato dall'utente per accedere a Dynamics 365 for Operations. Se l'indirizzo di posta elettronica appartiene a un dominio registrato come tenant con Microsoft Azure, l'indirizzo di posta elettronica deve essere un account Azure Active Directory (ADD) esistente perché il processo di provisioning venga completato correttamente. Se l'indirizzo di posta elettronica non appartiene a un dominio registrato con Microsoft Azure, un account ADD verrà creato durante il processo di provisioning e il nuovo utente riceverà un invito per posta. Indirizzi di posta elettronica consumer con domini quali @hotmail.com, @gmail.com o @comcast.net non possono essere utilizzati per registrare un utente Dynamics 365 for Operations.
-3.  Impostare l'opzione **Accesso a collaborazione fornitore consentito**su **Sì** per tutte le persone giuridiche a cui l'utente deve accedere.
+2.  Immettere un indirizzo di posta elettronica per l'utente. Questo indirizzo verrà utilizzato dall'utente per accedere a Finance and Operations. Se l'indirizzo di posta elettronica appartiene a un dominio registrato come tenant con Microsoft Azure, l'indirizzo di posta elettronica deve essere un account Azure Active Directory (ADD) esistente perché il processo di provisioning venga completato correttamente. Se l'indirizzo di posta elettronica non appartiene a un dominio registrato con Microsoft Azure, un account ADD verrà creato durante il processo di provisioning e il nuovo utente riceverà un invito per posta. Indirizzi di posta elettronica consumer con domini quali @hotmail.com, @gmail.com o @comcast.net non possono essere utilizzati per registrare un utente Finance and Operations.
+3.  Impostare l'opzione **Accesso a collaborazione fornitore consentito** su **Sì** per tutte le persone giuridiche a cui l'utente deve accedere.
 4.  Nella sezione **Assegna ruoli utente**, selezionare la casella di controllo **Assegna** per i ruoli di sicurezza che il nuovo utente deve avere.
 5.  Fare clic su **Invia**.
 
-Quando la richiesta di utente fornitore viene inviata, il campo **Accesso a collaborazione fornitore consentito** viene impostato su **Sì** per il conto fornitore selezionato e un flusso di lavoro di richiesta utente è avviato. Durante il flusso di lavoro, un nuovo utente viene creato in Dynamics 365 for Operations e i ruoli di sicurezza vengono assegnati. Inoltre, un servizio Azure B2B viene attivato che avvia l'interazione con il portale di Azure e associa un account AAD nuovo o esistente con l'account utente Dynamics 365 for Operations.
+Quando la richiesta di utente fornitore viene inviata, il campo **Accesso a collaborazione fornitore consentito** viene impostato su **Sì** per il conto fornitore selezionato e un flusso di lavoro di richiesta utente è avviato. Durante il flusso di lavoro, un nuovo utente viene creato in Finance and Operations e i ruoli di sicurezza vengono assegnati. Inoltre, un servizio Azure B2B viene attivato che avvia l'interazione con il portale di Azure e associa un account AAD nuovo o esistente con l'account utente Finance and Operations.
 
 ### <a name="inactivate-a-user"></a>Disattivare un utente
 

@@ -1,6 +1,6 @@
 ---
 title: Calcolo generale
-description: In questo argomento vengono descritti i processi tipici per il calcolo e l&quot;assegnazione dei costi generali.
+description: In questo argomento vengono descritti i processi tipici per il calcolo e l'assegnazione dei costi generali.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/20/2017
@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -623,7 +623,7 @@ Per informazioni dettagliate sui criteri di tasso generali, vedere Criterio di t
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Passaggio 4: Elaborare il calcolo allocazione costo
 
-L'allocazione è utilizzata per assegnare il saldo di un oggetto costo ad altri oggetti costo applicando una base di allocazione. Microsoft Dynamics 365 for Operations supporta il metodo di allocazione reciproco. Nel metodo di allocazione reciproco, i servizi reciproci che gli oggetti costo ausiliario si scambiano sono completamente riconosciuti. Il sistema determina automaticamente l'ordine corretto per eseguire le allocazioni. Il saldo di un oggetto costo viene assegnato da una singola base di allocazione. Le allocazioni in più dimensioni di oggetti costo e i rispettivi membri sono supportate. L'ordine di allocazione è controllato dall'unità di controllo dei costi. [![Metodo reciproco](./media/reciprocal-method.png)]
+L'allocazione è utilizzata per assegnare il saldo di un oggetto costo ad altri oggetti costo applicando una base di allocazione. Finance and Operations supporta il metodo di allocazione reciproco. Nel metodo di allocazione reciproco, i servizi reciproci che gli oggetti costo ausiliario si scambiano sono completamente riconosciuti. Il sistema determina automaticamente l'ordine corretto per eseguire le allocazioni. Il saldo di un oggetto costo viene assegnato da una singola base di allocazione. Le allocazioni in più dimensioni di oggetti costo e i rispettivi membri sono supportate. L'ordine di allocazione è controllato dall'unità di controllo dei costi. [![Metodo reciproco](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Definizione dell'allocazione costi
 
@@ -724,7 +724,7 @@ L'oggetto di costo CC004 imballaggio contribuisce a più oggetti di costo. Viene
 </tbody>
 </table>
 
-**Nota**: in Dynamics 365 for Operations, le misure statistiche, ad esempio le ore di produzione che un prodotto consuma, possono essere derivate dai dati di origine. Per informazioni più dettagliate sui provider misure statistiche, vedere il modello provider misure statistiche. (Nota: questo argomento non è ancora completo ma sarà presto disponibile). Nella tabella seguente viene illustrato il risultato ottenuto quando i servizi HR vengono applicati come base di allocazione per il costo totale (costo fisso e costo variabile).
+**Nota**: in Finance and Operations, le misure statistiche, ad esempio le ore di produzione che un prodotto consuma, possono essere derivate dai dati di origine. Per informazioni più dettagliate sui provider misure statistiche, vedere il modello provider misure statistiche. (Nota: questo argomento non è ancora completo ma sarà presto disponibile). Nella tabella seguente viene illustrato il risultato ottenuto quando i servizi HR vengono applicati come base di allocazione per il costo totale (costo fisso e costo variabile).
 
 <table>
 <thead>

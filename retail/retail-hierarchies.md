@@ -1,28 +1,29 @@
 ---
 title: Gerarchie punti vendita al dettaglio
-description: Questo articolo descrive le gerarchia dei punti vendita al dettaglio in Microsoft Dynamics AX.
+description: Questo articolo descrive le gerarchia dei punti vendita al dettaglio in Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2544b299267ec6e21adf5c657c23f545fc66a0b3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: a425680fb4d2e2da8d96acd843694ea9a07e29f0
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Questo articolo descrive le gerarchia dei punti vendita al dettaglio in Microsoft Dynamics AX.
+Questo articolo descrive le gerarchia dei punti vendita al dettaglio in Microsoft Dynamics 365 for Retail.
 
 È possibile creare una gerarchia di categorie di vendite al dettaglio per organizzare i prodotti venduti tramite i canali di vendita al dettaglio. È possibile utilizzare le gerarchie di prodotti al dettaglio per classificare o raggruppare i prodotti. Tali prodotti possono essere utilizzati per creare gli assortimenti prodotti e i programmi fedeltà dei clienti. È inoltre possibile assegnare al prodotto attributi e proprietà, assegnare una struttura del prezzo, includere i prodotti nelle promozioni prodotto e utilizzare i prodotti per la dichiarazione. È possibile creare una gerarchia di categorie di vendite al dettaglio per rappresentare tutti i prodotti e le categorie nell'organizzazione, quindi utilizzare tale gerarchia di categorie per più scopi. In alternativa, è possibile creare più gerarchie di categorie di vendite al dettaglio per scopi specifici, quali promozioni prodotto. Quando si crea una gerarchia di prodotti al dettaglio, è necessario assegnare un tipo di gerarchia di categorie per identificare lo scopo della gerarchia di categorie. Ad esempio, quando si esplorano i prodotti per categoria online o punto di vendita (POS), viene fatto riferimento solo alle gerarchie di prodotti alle quali è stato assegnato il tipo **Gerarchia di navigazione punti vendita al dettaglio**.
 

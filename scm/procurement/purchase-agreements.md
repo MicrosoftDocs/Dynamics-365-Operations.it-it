@@ -1,16 +1,16 @@
 ---
 title: Contratti di acquisto
-description: "Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un&quot;organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell&quot;impegno, l&quot;acquirente riceve prezzi e sconti speciali."
+description: "Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un'organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell'impegno, l'acquirente riceve prezzi e sconti speciali."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ Quando si conferma un contratto di acquisto, la versione corrente del contratto 
 Quando si crea un ORDINE FORNITORE, è possibile applicarvi un contratto di acquisto. Le informazioni dei termini del contratto, ad esempio termini di pagamento, termini di consegna e indirizzo di consegna, vengono copiate nell'intestazione del PO. Se il PO contiene una o più righe che si riferiscono a prodotti e categorie specificati nel contratto, per tali righe vengono utilizzati i prezzi e gli sconti del contratto di acquisto. L'importo o la quantità nella riga ordine contribuiscono all'evasione dell'impegno nel contratto di acquisto. Lo stesso PO può includere sia le righe che non sono correlate a un contratto di acquisto sia le righe con un impegno per un contratto di acquisto.  
 
 È possibile selezionare un contratto di acquisto solo quando si crea un ORDINE FORNITORE. Non è possibile selezionare un contratto di acquisto dopo che il PO è stato creato.  
-In alcune situazioni in cui gli ordini fornitore vengono creati indirettamente, è possibile stabilire se in Microsoft Dynamics 365 for Operations deve essere eseguita la ricerca automatica dei contratti di acquisto applicabili, ad esempio è possibile effettuare questa operazione quando si esegue la stabilizzazione automatica degli ordini fornitore pianificati o si creano ordini fornitore basati su ordini cliente.
+In alcune situazioni in cui gli ordini acquisto vengono creati indirettamente, è possibile stabilire se in Finance and Operations deve essere eseguita la ricerca automatica dei contratti di acquisto applicabili, ad esempio è possibile effettuare questa operazione quando si esegue la stabilizzazione automatica degli ordini fornitore pianificati o si creano ordini fornitore basati su ordini cliente.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contratti di acquisto e commercio interaziendale
 Le relazioni commerciali interaziendali possono essere create tra conti fornitore e conti cliente in persone giuridiche diverse. Quando un ordine cliente o un ordine fornitore viene creato per una delle parti, viene creata una catena di ordini interaziendali. Nella catena di ordini, l'ordine cliente e l'ordine fornitore vengono creati nelle persone giuridiche competenti.  

@@ -1,6 +1,6 @@
 ---
 title: Gestione Store Inventory
-description: Questo articolo descrive i tipi di documenti utilizzabili per la gestione dell&quot;inventario.
+description: Questo articolo descrive i tipi di documenti utilizzabili per la gestione dell'inventario.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5e5043d5951015fc14d29989ef4cab20a8b24f3b
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 1a5f2cd60e09b67cee4bab211bba4e07e9ef181f
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -36,14 +36,16 @@ Questo articolo descrive i tipi di documenti utilizzabili per la gestione dell'i
 È possibile utilizzare i seguenti tipi di documenti per la gestione dell'inventario dell'organizzazione.
 
 ## <a name="purchase-orders"></a>Ordine fornitore
-Gli ordini fornitore vengono creati nella sede centrale. Se un magazzino al dettaglio viene incluso nell'intestazione dell'ordine fornitore, l'ordine può essere ricevuto presso il punto vendita utilizzando Modern POS (MPOS) o il POS cloud in Microsoft Dynamics 365 for Operations - Retail. Una volta immesse, è possibile salvare in locale le quantità ricevute all'interno del punto vendita per ulteriori modifiche. In alternativa, i quantitativi possono essere impegnati e inviati alla sede principale. Presso la sede principale, i quantitativi che sono stati ricevuti nel punto vendita vengono visualizzati in Dynamics 365 for Operations, nel campo **Ricevi ora** dell'ordine fornitore.
+Gli ordini fornitore vengono creati nella sede centrale. Se un magazzino al dettaglio viene incluso nell'intestazione dell'ordine fornitore, l'ordine può essere ricevuto presso il punto vendita utilizzando Modern POS (MPOS) o il POS cloud in Microsoft Dynamics 365 for Retail. Una volta immesse, è possibile salvare in locale le quantità ricevute all'interno del punto vendita per ulteriori modifiche. In alternativa, i quantitativi possono essere impegnati e inviati alla sede principale. Presso la sede principale i quantitativi che sono stati ricevuti nel punto vendita vengono visualizzati in Dynamics 365 for Retail, nel campo **Ricevi ora** dell'ordine fornitore.
 
 ## <a name="transfer-orders"></a>Ordini di trasferimento
-Un ordine di trasferimento può specificare che un particolare punto vendita è un percorso da cui possono essere spediti gli articoli. In questo caso, l'ordine di trasferimento viene visualizzato presso il punto vendita come una richiesta di prelievo in MPSO o POS cloud. Una volta che i quantitativi richiesti sono stati prelevati, vengono impegnati e inviati alla sede principale. Presso la sede principale, i quantitativi che sono stati prelevati nel punto vendita vengono visualizzati in Dynamics 365 for Operations, nel campo **Spedisci ora** dell'ordine di trasferimento. Un ordine di trasferimento può specificare che un particolare punto vendita è un percorso da cui possono essere spediti gli articoli. In questo caso, l'ordine di trasferimento viene visualizzato presso il punto vendita come una richiesta di ricezione in MPSO o POS cloud. Una volta immesse, è possibile salvare in locale le quantità ricevute all'interno del punto vendita per ulteriori modifiche. In alternativa, i quantitativi possono essere impegnati e inviati alla sede principale. Presso la sede principale, i quantitativi che sono stati ricevuti nel punto vendita vengono visualizzati in Dynamics 365 for Operations, nel campo **Ricevi ora** dell'ordine di trasferimento.
+Un ordine di trasferimento può specificare che un particolare punto vendita è un percorso da cui possono essere spediti gli articoli. In questo caso, l'ordine di trasferimento viene visualizzato presso il punto vendita come una richiesta di prelievo in MPSO o POS cloud. Una volta che i quantitativi richiesti sono stati prelevati, vengono impegnati e inviati alla sede principale. Presso la sede principale i quantitativi che sono stati prelevati nel punto vendita vengono visualizzati in Dynamics 365 for Retail, nel campo **Spedisci ora** dell'ordine di trasferimento. Un ordine di trasferimento può specificare che un particolare punto vendita è un percorso da cui possono essere spediti gli articoli. In questo caso, l'ordine di trasferimento viene visualizzato presso il punto vendita come una richiesta di ricezione in MPSO o POS cloud. Una volta immesse, è possibile salvare in locale le quantità ricevute all'interno del punto vendita per ulteriori modifiche. In alternativa, i quantitativi possono essere impegnati e inviati alla sede principale. Presso la sede principale i quantitativi che sono stati ricevuti nel punto vendita vengono visualizzati in Dynamics 365 for Retail, nel campo **Ricevi ora** dell'ordine di trasferimento.
 
 ## <a name="stock-counts"></a>Conteggi scorte
 I conteggi scorte possono essere pianificati o non pianificati. I conteggi di scorte programmate sono avviati presso la sede principale, la quale specifica gli articoli da conteggiare. La sede principale crea un documento relativo ai conteggi che si può ricevere in punto vendita, dove le quantità delle scorte disponibili effettive vengono inserite in MPOS oppure in POS cloud. I conteggi scorte non pianificati vengono avviati in un punto vendita e le quantità delle scorte disponibili effettive vengono aggiornate in MPOS o POS cloud. A differenza dei conteggi scorte pianificati, i conteggi scorte non pianificati non dispongono di un elenco predefinito di elementi. Al termine di un conteggio scorte di entrambi i tipi, questo viene impegnato e inviato alla sede principale. Presso la sede centrale, il conteggio viene convalidato e registrato.
 
+## <a name="inventory-lookup"></a>Ricerca in magazzino
+La quantità corrente di prodotto disponibile per più catene e magazzini può essere visualizzata nella pagina Ricerca in magazzino. Oltre alla quantità corrente di scorte disponibili, le quantità available-to-promise (ATP) future possono essere visualizzate per ogni singolo punto vendita. A questo scopo, selezionare il punto vendita di cui si desidera visualizzare il valore ATP, quindi fare clic su **Mostra disponibilità punto vendita**.
 
 
 

@@ -3,7 +3,7 @@ title: Rubriche
 description: 
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23601
 ms.assetid: b177fa0f-ac9a-415e-9498-15438e132f60
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 568000b37fa067dfd34b4ee0642e4ba6cbe3aa54
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7b3bed2bec4b109c6e3b557b8c3651f15f25169c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,7 +42,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>È possibile aggiungere o eliminare i record di parti dalla Rubrica?
 Sì, è possibile aggiungere più record di parti a una Rubrica e rimuovere più record di parti.
 
--   Per aggiungere più record di parti a una Rubrica, **Rubrica globale**nella pagina elenco, selezionare le parti nell'elenco. Nella scheda **Parti** del riquadro azioni, nel gruppo **Gestisci** fare clic su **Assegna parti**. Selezionare le rubriche a cui aggiungere i record di parti selezionati, quindi fare clic su **OK**. Tutti i record di parti selezionati vengono aggiunti alle rubriche selezionate.
+-   Per aggiungere più record di parti a una Rubrica, **Rubrica globale** nella pagina elenco, selezionare le parti nell'elenco. Nella scheda **Parti** del riquadro azioni, nel gruppo **Gestisci** fare clic su **Assegna parti**. Selezionare le rubriche a cui aggiungere i record di parti selezionati, quindi fare clic su **OK**. Tutti i record di parti selezionati vengono aggiunti alle rubriche selezionate.
 -   Per rimuovere più record di parti da una Rubrica, nella pagina elenco **Rubrica globale**, selezionare le parti nell'elenco. Nella scheda **Parti** del riquadro azioni, nel gruppo **Gestisci** fare clic su **Rimuovi parti**. Selezionare le rubriche da cui rimuovere le parti e fare clic su **OK**. Tutti i record di parti selezionati vengono rimossi dalle rubriche selezionate.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Posso modificare il tipo di parte di un record o devo eliminare il record precedente e crearne uno nuovo?
@@ -67,7 +67,7 @@ Talvolta può essere opportuno unire due o più record di parti in un singolo re
 -   **Creazione di un record parte quando si conosce il tipo di entità**: se si conosce il tipo di entità della parte, è possibile creare un record nel modulo pertinente per tale tipo. Ad esempio, per un cliente, creare un record per un cliente nella pagina **Cliente**. Quando si crea e si salva un record mediante la pagina entità appropriata, il record verrà creato automaticamente nella rubrica globale.
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>È possibile tradurre le informazioni relative all'indirizzo per record di parti?
-È possibile impostare le traduzioni delle informazioni relative all'indirizzo in modo che vengano visualizzate nella lingua dell'utente (lingua del sistema) in Microsoft Dynamics 365 for Operations, ma in un'altra lingua nei documenti, ad esempio ordini cliente. È possibile immettere traduzioni per i nomi dei paesi, gli scopi di indirizzo e le sequenze nome. Ad esempio, la lingua del sistema è danese e viene creato un ordine cliente per un cliente in Francia. In questo caso, è possibile visualizzare il record cliente in Danese nel programma ma visualizzare le informazioni relative all'indirizzo nell'ordine cliente stampato. Quando vengono impostate le traduzioni, è necessario immetterne una per ogni elemento nell'elenco. Tutti gli articoli per cui non si immette una traduzione appariranno nella lingua del sistema. Ad esempio, la lingua del sistema è danese e viene inviato un documento a un cliente in Spagna. Se non sono state immesse le traduzioni spagnole per le informazioni sull'indirizzo, queste verranno visualizzate in Danese sia nel programma sia nel documento stampato.
+È possibile impostare le traduzioni delle informazioni relative all'indirizzo in modo che vengano visualizzate nella lingua dell'utente (lingua del sistema) in Microsoft Dynamics 365 for Finance and Operations, ma in un'altra lingua nei documenti, ad esempio ordini cliente. È possibile immettere traduzioni per i nomi dei paesi, gli scopi di indirizzo e le sequenze nome. Ad esempio, la lingua del sistema è danese e viene creato un ordine cliente per un cliente in Francia. In questo caso, è possibile visualizzare il record cliente in Danese nel programma ma visualizzare le informazioni relative all'indirizzo nell'ordine cliente stampato. Quando vengono impostate le traduzioni, è necessario immetterne una per ogni elemento nell'elenco. Tutti gli articoli per cui non si immette una traduzione appariranno nella lingua del sistema. Ad esempio, la lingua del sistema è danese e viene inviato un documento a un cliente in Spagna. Se non sono state immesse le traduzioni spagnole per le informazioni sull'indirizzo, queste verranno visualizzate in Danese sia nel programma sia nel documento stampato.
 
 
 

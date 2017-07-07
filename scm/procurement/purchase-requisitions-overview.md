@@ -3,14 +3,14 @@ title: Panoramica della richiesta di acquisto
 description: "Questo articolo descrive il flusso di lavoro delle richieste di acquisto e i diversi stati che può avere una richiesta di acquisto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 38e7fba3fbd12de3a1cd9ac7b1c627834978ba30
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8c60d870d0ca178af84919e5ebaaa13769b46f8a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Una volta approvata una richiesta di acquisto, questa può essere utilizzata per
 ## <a name="creating-purchase-requisitions"></a>Creazione di richieste di acquisto
 È possibile creare una richiesta di acquisto nella pagina **Richieste di acquisto personali** e selezionare gli articoli e i servizi desiderati. È possibile selezionare articoli da un catalogo di approvvigionamento che l'organizzazione ha creato oppure richiedere articoli che non si trovano in un catalogo, selezionando una categoria di approvvigionamento e immettendo i dati del prodotto nel modulo.  
 
-Prima di inviare una richiesta di acquisto per la revisione, è necessario configurare i flussi di lavoro in Microsoft Dynamics 365 for Operations. Il processo del flusso di lavoro è necessario per far avanzare la richiesta di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di **Bozza** fino allo stato finale di **Approvata**.
+Prima di inviare una richiesta di acquisto per la revisione, è necessario configurare i flussi di lavoro in Microsoft Dynamics 365 for Finance and Operations. Il processo del flusso di lavoro è necessario per far avanzare la richiesta di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di **Bozza** fino allo stato finale di **Approvata**.
 
 ### <a name="purchase-requisition-statuses"></a>Stati della richiesta di acquisto
 
@@ -143,7 +143,7 @@ Nei criteri di approvvigionamento è possibile determinare gli scopi disponibili
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Richieste di acquisto con scopo di consumo
 
-Una richiesta di acquisto con scopo di consumo rappresenta una domanda di articoli o servizi che verranno utilizzati internamente dall'organizzazione. La domanda creata da questo tipo di richiesta di acquisto è sempre soddisfatta da un ordine fornitore. Se Microsoft Dynamics 365 for Operations è impostato in modo da generare automaticamente gli ordini fornitore, gli ordini fornitore vengono generati dopo che viene approvata la richiesta di acquisto.
+Una richiesta di acquisto con scopo di consumo rappresenta una domanda di articoli o servizi che verranno utilizzati internamente dall'organizzazione. La domanda creata da questo tipo di richiesta di acquisto è sempre soddisfatta da un ordine fornitore. Se Microsoft Dynamics 365 for Finance and Operations è impostato in modo da generare automaticamente gli ordini fornitore, gli ordini fornitore vengono generati dopo che viene approvata la richiesta di acquisto.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Richieste di acquisto con scopo di rifornimento
 

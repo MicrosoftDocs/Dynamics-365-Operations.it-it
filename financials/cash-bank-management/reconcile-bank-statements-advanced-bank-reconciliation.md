@@ -1,15 +1,15 @@
 ---
 title: Riconciliare rendiconti bancari utilizzando la riconciliazione bancaria avanzata
-description: "La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Operations. In questo argomento viene descritto il processo di riconciliazione."
+description: "La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In questo argomento viene descritto il processo di riconciliazione."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,20 +17,20 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Riconciliare rendiconti bancari utilizzando la riconciliazione bancaria avanzata
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Riconciliare rendiconti bancari utilizzando la riconciliazione estratti conto avanzata
 
 [!include[banner](../includes/banner.md)]
 
 
-La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Operations. In questo argomento viene descritto il processo di riconciliazione.  
+La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In questo argomento viene descritto il processo di riconciliazione.  
 
 <a name="import-an-electronic-bank-statement"></a>Importare un rendiconto bancario elettronico
 -----------------------------------
@@ -39,12 +39,12 @@ Si importano i rendiconti bancari utilizzando l'azione **Importa rendiconto** ne
 
 È possibile caricare un rendiconto bancario che contiene informazioni per un singolo conto o più conti. Se sono presenti più conti, i conti possono essere in persone giuridiche diverse.
 
--   Per importare un singolo file di rendiconto bancario per un singolo conto, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **No**e selezionare il conto bancario associato con il rendiconto. Fare clic su **Sfoglia** per selezionare il file di rendiconto bancario associato, quindi fare clic su **Carica**.
+-   Per importare un singolo file di rendiconto bancario per un singolo conto, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **No** e selezionare il conto bancario associato con il rendiconto. Fare clic su **Sfoglia** per selezionare il file di rendiconto bancario associato, quindi fare clic su **Carica**.
 -   Per importare un singolo file di rendiconto bancario per più conti, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **Sì**. Fare clic su **Sfoglia** per selezionare il file di rendiconto bancario associato, quindi fare clic su **Carica**.
 
 Se alcuni rendiconti nel file elettronico non possono essere associati a un conto bancario tramite i campi di identificazione, non verranno importati. Tuttavia, altri rendiconti nel file possono comunque essere importati. L'utente riceve un messaggio indicante che l'importazione dei rendiconti bancari non è riuscita per specifici conti bancari. Tenere presente che l'utente che importa il file di rendiconto bancario deve avere accesso a una persona giuridica per importare i rendiconti per i conti bancari di tale persona giuridica. 
 
-È possibile usare un file ZIP per caricare più file di rendiconto in Microsoft Dynamics 365 for Operations in un unico processo. Per importare più file di rendiconto bancario per più conti, combinare tutti i file di rendiconto bancario in un unico file zip. Nella finestra di dialogo **Importa rendiconti bancari**, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **Sì**. Fare clic su **Sfoglia** per selezionare il file zip che contiene i file di rendiconto bancario, quindi fare clic su **Carica**. Il processo di importazione riconoscerà il file ZIP e caricherà ciascun rendiconto incluso in esso, indipendentemente dalla persona giuridica del conto bancario. 
+È possibile usare un file ZIP per caricare più file di rendiconto in Finance and Operations in un unico processo. Per importare più file di rendiconto bancario per più conti, combinare tutti i file di rendiconto bancario in un unico file zip. Nella finestra di dialogo **Importa rendiconti bancari**, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **Sì**. Fare clic su **Sfoglia** per selezionare il file zip che contiene i file di rendiconto bancario, quindi fare clic su **Carica**. Il processo di importazione riconoscerà il file ZIP e caricherà ciascun rendiconto incluso in esso, indipendentemente dalla persona giuridica del conto bancario. 
 
 Un'opzione **Riconcilia dopo l'importazione** è disponibile. Quando questa opzione è impostata su **Sì**, il sistema automaticamente convalida il rendiconto bancario, crea una nuova riconciliazione e un foglio di lavoro estratti conto ed esegue il set di regole di abbinamento predefinite quando viene caricato il rendiconto bancario. Questa funzionalità consente di automatizzare il processo fino al punto in cui le transazioni devono essere abbinate manualmente.
 
@@ -76,7 +76,7 @@ Esistono tre modi per abbinare o riconciliare transazioni del rendiconto bancari
 
 -   Abbinare le transazioni con le transazioni bancarie di Operations.
 -   Abbinare le transazioni con una transazione del rendiconto bancario di storno.
--   Contrassegnare le transazioni come **Nuove**, in modo che possono essere registrate in un secondo momento come una transazione bancaria in Dynamics 365 for Operations.
+-   Contrassegnare le transazioni come **Nuove**, in modo che possono essere registrate in un secondo momento come una transazione bancaria in Finance and Operations.
 
 Per abbinare le transazioni manualmente, selezionare le transazioni nella griglia **Transazioni rendiconto bancario**, selezionare le transazioni corrispondenti nella griglia **Transazioni bancarie Operations** e quindi fare clic su **Associa**. Le transazioni selezionate vengono spostate dalle griglie superiori delle transazioni non abbinate a quelle inferiori delle transazioni abbinate. Inoltre, gli importi totali abbinati e non abbinati vengono aggiornati. È possibile avere abbinamenti di transazioni uno a uno, molti-a-uno e molti-a-molti. Gli abbinamenti devono seguire le regole per le differenze di date consentite e il mapping dei tipi di transazione. Queste regole vengono impostate nella pagina **Parametri di gestione cassa e banche**.
 
@@ -86,7 +86,7 @@ Gli storni di transazioni di rendiconto bancario vengono abbinati utilizzando il
 
 Le transazioni bancarie stornate di Operations devono essere riconciliate utilizzando la pagina **Transazioni bancarie Operations**. Se i documenti hanno stesso conto corrente bancario, tipo di documento e riferimento del pagamento, e se hanno importi opposti, è possibile riconciliare tra loro due transazioni bancarie di Operations. È inoltre possibile riconciliare un singolo assegno annullato per impedire che le transazioni vengano visualizzati nel foglio di lavoro di riconciliazione. 
 
-Se esistono nuove transazioni avviate da banca, ad esempio interessi, commissioni e spese, che non sono ancora in Dynamics 365 for Operations, è possibile aggiungerle a un giornale di registrazione associato alla riconciliazione del rendiconto bancario selezionato. Selezionare una transazione del rendiconto bancario nella griglia **Transazioni rendiconto bancario** per le transazioni non abbinate, quindi scegliere **Contrassegna come nuovo**. Lo stato della transazione viene impostato su **Nuovo**, e la transazione viene spostata nella griglia **Transazioni rendiconto bancario** griglia per le transazioni abbinate. Si registreranno le transazioni contrassegnate come **Nuovo** in un momento successivo, dalla pagina **Rendiconto bancario**. 
+Se esistono nuove transazioni avviate da banca, ad esempio interessi, commissioni e spese, che non sono ancora in Finance and Operations, è possibile aggiungerle a un giornale di registrazione associato alla riconciliazione del rendiconto bancario selezionato. Selezionare una transazione del rendiconto bancario nella griglia **Transazioni rendiconto bancario** per le transazioni non abbinate, quindi scegliere **Contrassegna come nuovo**. Lo stato della transazione viene impostato su **Nuovo**, e la transazione viene spostata nella griglia **Transazioni rendiconto bancario** griglia per le transazioni abbinate. Si registreranno le transazioni contrassegnate come **Nuovo** in un momento successivo, dalla pagina **Rendiconto bancario**. 
 
 È possibile annullare l'abbinamento delle transazioni che erano state abbinate in modo non corretto. Selezionare la transazione del rendiconto bancario abbinata e quindi fare clic su **Annulla associazione**. Tutte le transazioni associate vengono nuovamente spostate alle griglie superiori per le transazioni non abbinate e gli importi totali abbinati e non abbinati vengono aggiornati. 
 

@@ -1,27 +1,29 @@
 ---
 title: "Impostare la funzionalità di accesso esteso per POS cloud e MPOS"
-description: Questo argomento illustra le opzioni per l&quot;impostazione dell&quot;accesso esteso per POS cloud e Retail Modern POS (MPOS).
+description: Questo argomento illustra le opzioni per l'impostazione dell'accesso esteso per POS cloud e Retail Modern POS (MPOS).
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 285758c0705a5313fcfbbca413fa2c88a722203a
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0b7e5ed451497aea1c2ce798af2b717705538d47
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ Questo argomento illustra le opzioni per l'impostazione dell'accesso esteso per 
 <a name="setting-up-extended-logon"></a>Impostazione dell'accesso esteso
 =========================
 
-Le impostazioni per le maschere dei codici a barre sono disponibili in **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili funzionalità**. La scheda Dettaglio **Funzioni** include le seguenti opzioni correlate all'accesso esteso.
+Le impostazioni per le maschere dei codici a barre sono disponibili in **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili funzionalità**. La scheda Dettaglio **Funzioni** include le seguenti opzioni correlate all'accesso esteso.
 
 ### <a name="staff-bar-code-logon"></a>Accesso personale con codice a barre
 
@@ -57,7 +59,7 @@ Se l'opzione **L'accesso personale con badge richiede la password** è attivata,
 <a name="assigning-an-extended-logon"></a>Assegnazione di un accesso esteso
 ===========================
 
-Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per assegnare l'accesso esteso, passare a ** **Accesso esteso** ** nel POS. Quindi cercare un lavoratore immettendo il relativo ID operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK**diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
+Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per assegnare l'accesso esteso, passare a ** **Accesso esteso** ** nel POS. Quindi cercare un lavoratore immettendo il relativo ID operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK** diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
 
 <a name="deleting-an-extended-logon"></a>Eliminazione di un accesso esteso
 ==========================

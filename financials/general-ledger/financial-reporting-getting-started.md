@@ -1,16 +1,16 @@
 ---
 title: Creazione di report finanziari
-description: "In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 for Operations e come utilizzare le funzionalità dei report finanziari. Include una descrizione dei report finanziari predefiniti forniti."
+description: "In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e come utilizzare le funzionalità dei report finanziari. Include una descrizione dei report finanziari predefiniti forniti."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 39db754df7edeca414752ce1844d7f9e85df0b36
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedde78a563939fd7080e748c412c89c71586823
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 for Operations e come utilizzare le funzionalità dei report finanziari. Include una descrizione dei report finanziari predefiniti forniti.
+In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e come utilizzare le funzionalità dei report finanziari. Include una descrizione dei report finanziari predefiniti forniti.
 
 <a name="accessing-financial-reporting"></a>Accesso ai report finanziari
 -----------------------------
 
-È possibile trovare il menu **Report finanziari** nei seguenti percorsi in Dynamics 365 for Operations:
+È possibile trovare il menu **Report finanziari** nei seguenti percorsi in Finance and Operations:
 
 -   **Contabilità generale** &gt; **Richieste di informazioni e report**
 -   **Impostazione budget** &gt; **Richieste di informazioni e report** &gt; **Impostazione budget di base**
@@ -83,7 +83,7 @@ Le funzioni di report finanziari disponibili per gli utenti con i privilegi e i 
 Dopo che un utente viene aggiunto o un ruolo viene modificato, l'utente deve poter accedere ai report finanziari in alcuni minuti. **Nota:** il ruolo sysadmin viene aggiunto a tutti i ruoli nella creazione di report finanziari.
 
 ## <a name="default-reports"></a>Report predefiniti
-Report finanziari fornisce 22 report finanziari predefiniti. Ogni report utilizza le categorie di conti principali predefinite in Dynamics 365 for Operations. È possibile utilizzare questi report come sono o come punto di partenza per i report finanziari necessari. Oltre ai rendiconti finanziari tradizionali, ad esempio il conto economico e lo stato patrimoniale, questi report predefiniti includono report che illustrano i diversi tipi di report finanziari che è possibile creare. Ogni report nella tabella seguente è collegato a una presentazione Office Mix sul report.
+Report finanziari fornisce 22 report finanziari predefiniti. Ogni report utilizza le categorie di conti principali predefinite in Finance and Operations. È possibile utilizzare questi report come sono o come punto di partenza per i report finanziari necessari. Oltre ai rendiconti finanziari tradizionali, ad esempio il conto economico e lo stato patrimoniale, questi report predefiniti includono report che illustrano i diversi tipi di report finanziari che è possibile creare. Ogni report nella tabella seguente è collegato a una presentazione Office Mix sul report.
 
 | Report predefinito                                                                                         | descrizione                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Report finanziari fornisce 22 report finanziari predefiniti. Ogni report utilizz
 Quando si fa clic sul menu **Report finanziari**, l'elenco dei report finanziari predefiniti per la società viene visualizzato. È quindi possibile aprire o modificare un report. Per aprire uno dei report predefiniti, selezionare il nome del report. La prima volta che un report viene aperto, viene generato automaticamente per il mese precedente. Ad esempio, se si apre un report per la prima volta nell'agosto 2016, il report viene generato per il 31 luglio 2016. Dopo l'apertura di un report, puoi iniziare a esplorarlo eseguendo il drill-down su parti specifiche di dati e modificando le opzioni di report.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Creazione e modifica di report finanziari
-Nell'elenco dei report finanziari, è possibile creare un nuovo report o modificare un report esistente. Se si dispone delle autorizzazioni appropriate, è possibile creare un nuovo report finanziario facendo clic su **Nuovo** nel riquadro azioni. Viene scaricato un programma di progettazione nel dispositivo. Dopo aver avviato la progettazione report, è possibile creare il nuovo report. Dopo aver salvato il nuovo report, verrà visualizzato nell'elenco dei report finanziari. Nell'elenco vengono visualizzati solo i report creati per la società che vengono utilizzati in Dynamics 365 for Operations. Per ulteriori informazioni sul processo di creazione e di modifica dei report finanziari in Dynamics 365 for Operations, fare riferimento a questi [post di blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) nel blog della funzionalità di report finanziari di Dynamics. **Nota:** nel computer su cui si scarica il client per la progettazione di report è necessario che sia installata la versione 4.6.2 di Microsoft .NET Framework. È possibile scaricare e installare questa versione di Microsoft .NET Framework da [qui](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Se si utilizza Chrome, è necessario installare l'estensione ClickOnce per scaricare il client per la progettazione di report. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. È anche possibile modificare un report che viene visualizzato nell'elenco dei report finanziari. Quando l'area attorno al nome del report è selezionata, fare clic si **Modifica** nel Riquadro azioni. Il programma di progettazione report viene avviato.
+Nell'elenco dei report finanziari, è possibile creare un nuovo report o modificare un report esistente. Se si dispone delle autorizzazioni appropriate, è possibile creare un nuovo report finanziario facendo clic su **Nuovo** nel riquadro azioni. Viene scaricato un programma di progettazione nel dispositivo. Dopo aver avviato la progettazione report, è possibile creare il nuovo report. Dopo aver salvato il nuovo report, verrà visualizzato nell'elenco dei report finanziari. Nell'elenco vengono visualizzati solo i report creati per la società utilizzata in Finance and Operations. Per ulteriori informazioni sul processo di creazione e di modifica dei report finanziari in Finance and Operations, fare riferimento a questi [post di blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) nel blog della funzionalità di report finanziari di Dynamics. **Nota:** nel computer su cui si scarica il client per la progettazione di report è necessario che sia installata la versione 4.6.2 di Microsoft .NET Framework. È possibile scaricare e installare questa versione di Microsoft .NET Framework da [qui](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Se si utilizza Chrome, è necessario installare l'estensione ClickOnce per scaricare il client per la progettazione di report. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. È anche possibile modificare un report che viene visualizzato nell'elenco dei report finanziari. Quando l'area attorno al nome del report è selezionata, fare clic si **Modifica** nel Riquadro azioni. Il programma di progettazione report viene avviato.
 
 <a name="see-also"></a>Vedere anche
 --------

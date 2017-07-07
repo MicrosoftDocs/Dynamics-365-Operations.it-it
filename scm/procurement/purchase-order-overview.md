@@ -1,16 +1,16 @@
 ---
-title: Panoramica dell&quot;ordine fornitore
+title: Panoramica dell'ordine fornitore
 description: In questo articolo vengono fornite informazioni generali sugli ordini fornitore (PO) e collegamenti a ulteriori articoli correlati alle varie fasi che attraversa un PO.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 88fa3fb97621e0f4a226a45b36809e824c807420
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="purchase-order-overview"></a>Panoramica dell'ordine fornitore
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 In questo articolo vengono fornite informazioni generali sugli ordini fornitore (PO) e collegamenti a ulteriori articoli correlati alle varie fasi che attraversa un PO.
@@ -46,7 +48,7 @@ I seguenti articoli forniscono una panoramica delle varie fasi che attraversa un
 -   [Creazione ordine fornitore](purchase-order-creation.md)
 -   [Approvazione e conferma di un ordine fornitore](purchase-order-approval-confirmation.md)
 -   [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
--   [Panoramica delle fatture fornitore](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+-   [Panoramica delle fatture fornitore](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Tipi di ordini fornitore
 Sono disponibili tre tipi di ordini fornitore. Quando si crea un ordine fornitore, è necessario specificare il tipo. È possibile impostare un tipo di ordine predefinito per i nuovi ordini nella pagina **Parametri di approvvigionamento**.
@@ -90,7 +92,7 @@ IL campo **Stato approvazione** viene utilizzato quando un ordine fornitore pass
 
 [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
 
-[Panoramica delle fatture fornitore](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Panoramica delle fatture fornitore](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

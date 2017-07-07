@@ -1,27 +1,29 @@
 ---
-title: Impostare le opzioni di elaborazione dell&quot;ordine
-description: In questo argomento sono riportate informazioni su come elaborare gli ordini per i call center utilizzando Microsoft Dynamics 365 for Operations - Retail.
+title: Impostare le opzioni di elaborazione dell'ordine
+description: In questo argomento sono riportate informazioni su come elaborare gli ordini per i call center utilizzando Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-In questo argomento sono riportate informazioni su come elaborare gli ordini per i call center utilizzando Microsoft Dynamics 365 for Operations - Retail. 
+In questo argomento sono riportate informazioni su come elaborare gli ordini per i call center utilizzando Microsoft Dynamics 365 for Retail. 
 
-Vendita al dettaglio e commercio in Microsoft Dynamics 365 for Operations supporta più canali di vendita al dettaglio, ad esempio negozi online, punti vendita fisici e call center. Nei servizi clienti, i lavoratori prendono gli ordini dei clienti per telefono e creano gli ordini cliente. In questo argomento viene descritto come creare un servizio clienti e configurare le opzioni del servizio clienti. Ogni servizio clienti può avere propri utenti, metodi di pagamento, gruppi di prezzi, dimensioni finanziarie e modalità di consegna. È possibile configurare queste opzioni quando si crea il servizio clienti. **Importante:** prima di poter utilizzare i flussi di lavoro per call center quando l'utente corrente di Dynamics AX crea ordini cliente, è necessario assegnare l'utente al call center come utente di call center. È possibile utilizzare la pagina **Call center** per attivare o disattivare i gruppi di funzionalità che sono esclusive dei call center. È possibile abilitare i seguenti gruppi di funzionalità:
+Retail supporta più canali di vendita al dettaglio, ad esempio negozi online, mercati online, punti vendita fisici e servizi clienti. Nei servizi clienti, i lavoratori prendono gli ordini dei clienti per telefono e creano gli ordini cliente. In questo argomento viene descritto come creare un servizio clienti e configurare le opzioni del servizio clienti. Ogni servizio clienti può avere propri utenti, metodi di pagamento, gruppi di prezzi, dimensioni finanziarie e modalità di consegna. È possibile configurare queste opzioni quando si crea il servizio clienti. **Importante:** prima di poter utilizzare i flussi di lavoro del servizio clienti quando un utente corrente crea ordini cliente, è necessario assegnare l'utente al servizio clienti come utente di servizio clienti. È possibile utilizzare la pagina **Call center** per attivare o disattivare i gruppi di funzionalità che sono esclusive dei call center. È possibile abilitare i seguenti gruppi di funzionalità:
 
 -   **Completamento ordine** - Questo gruppo include funzionalità correlate ai pagamenti e al completamento degli ordini nella pagina **Ordine cliente**.
 -   **Vendita diretta** - Questo gruppo include funzionalità che sono correlate ai codici di origine, agli script e alla richieste di catalogo.

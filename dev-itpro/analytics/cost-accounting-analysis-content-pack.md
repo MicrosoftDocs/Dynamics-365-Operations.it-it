@@ -1,26 +1,26 @@
 ---
-title: "Contenuto Power BI per l&quot;analisi della contabilità industriale"
-description: "In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l&quot;analisi della contabilità industriale. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
+title: "Contenuto Power BI per l'analisi della contabilità industriale"
+description: "In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi della contabilità industriale. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.search.region: Global
-ms.author: yuyus
+ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ce75a6145bde4a8c33ed785c7d2a60a52416676
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,18 +29,27 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+In questo argomento viene descritto cosa è incluso nel contenuto **Analisi della contabilità industriale** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
-In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi della contabilità industriale. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+## <a name="overview"></a>Panoramica
 
-<a name="overview"></a>Panoramica
---------
+Il contenuto di Power BI **Analisi della contabilità industriale** è destinato ai controller di costo o qualsiasi utente responsabile di eseguire il controllo dei costi di un'organizzazione. Include metriche chiave, ad esempio costi, grandezza e il tasso di costo per costo effettivo, costo a budget e costo a budget flessibile. Utilizza i dati delle transazioni del modulo **Contabilità industriale** e offre una visualizzazione aggregata dei costi per l'intera organizzazione in un'unica valuta di dichiarazione. I responsabili possono filtrare i dati in base agli oggetti di costo per eseguire il controllo dei costi delle unità organizzative, anche se l'organizzazione può avere più persone giuridiche. 
 
-Il contenuto Microsoft Power BI per l'**Analisi della contabilità industriale** è destinato ai controller di costo o qualsiasi utente responsabile di eseguire il controllo dei costi di un'organizzazione. Include metriche chiave, ad esempio costi, grandezza e il tasso di costo per costo effettivo, costo a budget e costo a budget flessibile. Utilizza i dati delle transazioni da Contabilità industriale in Microsoft Dynamics 365 for Operations e offre una visualizzazione aggregata dei costi per l'intera organizzazione in un'unica valuta di dichiarazione. I responsabili possono filtrare i dati in base agli oggetti di costo per eseguire il controllo dei costi delle unità organizzative, anche se l'organizzazione può avere più persone giuridiche. Poiché il contenuto Power BI per l'**analisi della contabilità industriale** evidenzia gli scostamenti tra i costi effettivi e i costi a budget, i responsabili possono ricevere una notifica delle tendenze positive e negative per le relative unità operative. I responsabili possono eseguire il drill-down nelle gerarchie degli elementi di costo o nei singoli elementi di costo per ottenere informazioni dettagliate su come si sono verificati gli scostamenti e intraprendere un'azione efficace. Il contenuto Power BI per l'**analisi della contabilità industriale** consente ai contabili di analizzare come i costi fluiscono attraverso gli oggetti di costo dell'intera organizzazione. Per ulteriori informazioni sulla contabilità industriale, vedere [Home page di contabilità industriale](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Definendo la sicurezza a livello di accesso nella contabilità industriale e combinandola alla sicurezza a livello di riga in Power BI, è possibile concedere a tutti i proprietari degli oggetti di costo l'accesso al contenuto Power BI per l'**analisi della contabilità industriale**. Tutti i dati delle visualizzazioni verranno filtrati in base al livello di accesso che viene controllato nella contabilità industriale. Per ulteriori informazioni sulla sicurezza a livello di accesso e a livello di riga, vedere [Impostare la sicurezza del contenuto della contabilità industriale per Power BI](setup-security-cost-accounting-content-pack.md).
+Poiché il contenuto **Analisi della contabilità industriale** evidenzia gli scostamenti tra i costi effettivi e i costi a budget, i responsabili possono ricevere una notifica delle tendenze positive e negative per le relative unità operative. I responsabili possono eseguire il drill-down delle gerarchie degli elementi di costo o dei singoli elementi di costo. In questo modo, i responsabili possono ottenere informazioni dettagliate sugli scostamenti di costo e intraprendere l'azione opportuna. 
+
+Il contenuto **Analisi della contabilità industriale** consente ai contabili di analizzare come i costi fluiscono attraverso gli oggetti di costo dell'intera organizzazione. 
+
+Per ulteriori informazioni sulla contabilità industriale, vedere [Home page di contabilità industriale](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+
+Definendo la sicurezza a livello di accesso nella contabilità industriale e combinandola alla sicurezza a livello di riga in Power BI, è possibile concedere a tutti i proprietari degli oggetti di costo l'accesso al contenuto Power BI per l'**analisi della contabilità industriale**. Tutti i dati delle visualizzazioni verranno filtrati in base al livello di accesso che viene controllato nella contabilità industriale. Per ulteriori informazioni sulla sicurezza a livello di accesso e a livello di riga, vedere [Impostare la sicurezza del contenuto della contabilità industriale per Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-È possibile trovare il contenuto Power BI per l'**analisi della contabilità industriale** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il contenuto e collegarlo ai dati Dynamics 365 for Operations, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). 
+È possibile trovare il contenuto Power BI per l'**analisi della contabilità industriale** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
-> NOTA: l'articolo **KB 4011327** è un prerequisito per questo contenuto Power BI. Dopo avere eseguito l'accesso a Lifecycle Services, è possibile accedere alla KB qui: : <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+Assicurarsi di scaricare il contenuto **Analisi della contabilità industriale** applicabile alla versione di Microsoft Dynamics 365 in uso.
+
+> [!NOTE]
+> KB 4011327 è un prerequisito per questo contenuto di Power BI. Dopo avere eseguito l'accesso a LCS, è possibile accedere alla KB all'indirizzo <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto include un set di pagine di report. Ciascuna pagina è costituita da un set di metriche visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto Power BI per l'**analisi della contabilità industriale**.
@@ -64,12 +73,14 @@ Il contenuto include un set di pagine di report. Ciascuna pagina è costituita d
 |                                  | Costo effettivo per nome membro dimensione oggetto di costo e nome membro dimensione elemento di costo                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-I dati di Dynamics 365 for Operations vengono utilizzati per compilare le pagine di report nel contenuto Power BI per l'**analisi della contabilità industriale**. Questi dati sono rappresentati come misure aggregate che vengono collocate nell'archivio entità, ovvero un database di Microsoft SQL ottimizzato per l'analisi. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
+I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi della contabilità industriale**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). 
 
-| Entità                  | Misura di aggregazione chiave | Origine dati per Dynamics 365 for Operations | Campo     | descrizione                                   |
-|-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Voci contabilità industriale | SUM(Importo)               | CAMDATAAggregatedCostEntry                  | Importo    | Importo nella valuta di contabilità industriale |
-| Voci statistiche     | SUM(Grandezza)            | CAMDATAAggregatedStatisctialEntry           | Grandezza |                                               |
+Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
+
+| Entità                  | Misura di aggregazione chiave | Origine dati per Dynamics 365      | Campo     | descrizione                                        |
+|-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
+| Voci contabilità industriale | SUM(Importo)               | CAMDATAAggregatedCostEntry        | Importo    | Importo nella valuta di contabilità industriale. |
+| Voci statistiche     | SUM(Grandezza)            | CAMDATAAggregatedStatisctialEntry | Grandezza |                                                    |
 
 Nella tabella seguente vengono illustrate le misure di aggregazione chiave utilizzate per creare diverse misure calcolate nel set di dati del contenuto.
 
@@ -114,16 +125,4 @@ Le dimensioni chiave seguenti vengono utilizzate come filtri per dividere le mis
 | Calendari fiscali                   | Calendario, Descrizione del calendario                                                                                       |
 | Anni fiscali                       | Anno di calendario                                                                                                        |
 | Periodi fiscali                     | Periodo anno di calendario                                                                                                 |
-
-## <a name="additional-resources"></a>Risorse aggiuntive
-Di seguito sono riportati alcuni collegamenti utili correlati alle entità e alla creazione di contenuto per Power BI:
-
--   [Entità di dati](..\data-entities\data-entities.md)
--   [Creazione di pacchetti di contenuti per l'organizzazione](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modellazione di dati tramite Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Aggiunta di riquadri Power BI ad aree di lavoro](configure-power-bi-integration.md)
--   [Impostazione della sicurezza del contenuto della contabilità industriale per Power BI](setup-security-cost-accounting-content-pack.md)
-
-
-
 
