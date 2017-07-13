@@ -3,14 +3,14 @@ title: Motori di gestione del trasporto
 description: I motori di gestione del trasporto definiscono la logica utilizzata per generare ed elaborare le tariffe di trasporto in Gestione trasporto.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5db69ed204b9503fb710426f449f38e76591641
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: c4aac72d9f7e975d4a270deb340f96ddcc9ca1fb
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,15 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 I motori di gestione del trasporto definiscono la logica utilizzata per generare ed elaborare le tariffe di trasporto in Gestione trasporto. 
 
-Il motore di gestione del trasporto calcola le attività, ad esempio la tariffa di trasporto del vettore. Il sistema di motore consente di modificare le strategie di calcolo in fase di esecuzione, in base ai dati presenti in Microsoft Dynamics 365 for Operations. Il motore di gestione del trasporto è simile a un plug-in correlato a un contratto di vettore specifico.
+Il motore di gestione del trasporto calcola le attività, ad esempio la tariffa di trasporto del vettore. Il sistema di motore consente di modificare le strategie di calcolo in fase di esecuzione, in base ai dati presenti in Finance and Operations. Il motore di gestione del trasporto è simile a un plug-in correlato a un contratto di vettore specifico.
 
 ## <a name="what-engines-are-available"></a>Quali motori sono disponibili?
-Nella seguente tabella vengono illustrati i motori di gestione del trasporto disponibili in Microsoft Dynamics 365 for Operations.
+Nella seguente tabella vengono illustrati i motori di gestione del trasporto disponibili in Microsoft Dynamics 365 for Finance and Operations.
 
 | Motore di gestione del trasporto | descrizione                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Motore tariffe**                  | Calcola le tariffe.                                                                                                                                                                                                                                                                                                           |
-| **Motore generico**               | Semplici motori ausiliari utilizzati da altri motori che non richiedono dati da Microsoft Dynamics 365 for Operations, ad esempio, un motore di ripartizione. I motori di ripartizione vengono utilizzati per ridurre i costi di trasporto finali a ordini e righe specifici, in base alle dimensioni, ad esempio volume e peso. |
+| **Motore generico**               | Semplici motori ausiliari utilizzati da altri motori che non richiedono dati da Microsoft Dynamics 365 for Finance and Operations, ad esempio, un motore di ripartizione. I motori di ripartizione vengono utilizzati per ridurre i costi di trasporto finali a ordini e righe specifici, in base alle dimensioni, ad esempio volume e peso. |
 | **Motore chilometraggio**               | Calcola la distanza di trasporto.                                                                                                                                                                                                                                                                                     |
 | **Motore tempo di transito**          | Calcola il tempo necessario per andare dalla destinazione iniziale a quella finale.                                                                                                                                                                                                                                       |
 | **Motore zona**                  | Calcola la zona in base all'indirizzo corrente e calcola il numero di zone da attraversare per andare dall'indirizzo A all'indirizzo B.                                                                                                                                                                    |
@@ -63,23 +63,23 @@ Nella maggior parte dei casi, per configurare i dati di inizializzazione è poss
 | Parametro             | Descrizione                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *RateBaseAssigner*    | Tipo .NET che interpreta i dati di assegnazione di base della tariffa per uno schema specifico. La sintassi del valore del parametro è costituita da due segmenti delimitati da una barra verticale (|). Il primo segmento contiene il nome dell'assembly che definisce il tipo di assigner. Il secondo segmento definisce il nome completo del tipo di assigner. Questo include lo spazio dei nomi del tipo. |
-| *MileageEngineCode*   | Codice del motore chilometraggio che identifica il record motore chilometraggio nel database di Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Codice del motore generico che identifica il motore di ripartizione nel database di Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                              |
+| *MileageEngineCode*   | Codice del motore chilometraggio che identifica il record motore chilometraggio nel database di Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                             |
+| *ApportionmentEngine* | Codice del motore generico che identifica il motore di ripartizione nel database di Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                              |
 
  
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Come vengono utilizzati i metadati nei motori di gestione del trasporto?
 ----------------------------------------------------------
 
-I motori di gestione del trasporto che si basano sui dati definiti in Dynamics 365 for Operations possono utilizzare diversi schemi di dati. Il sistema di gestione del trasporto consente l'utilizzo delle stesse tabelle di database fisiche generiche da parte dei diversi motori di gestione del trasporto. Per assicurarsi che l'interpretazione dei dati del motore in fase di esecuzione sia corretta, è possibile definire i metadati per le tabelle di database. Questo consente di ridurre il costo della compilazione di nuovi motori di gestione del trasporto poiché in Operations non sono necessarie strutture di tabelle e moduli aggiuntive.
+I motori di gestione del trasporto che si basano sui dati definiti in Dynamics 365 for Finance and Operations possono utilizzare diversi schemi di dati. Il sistema di gestione del trasporto consente l'utilizzo delle stesse tabelle di database fisiche generiche da parte dei diversi motori di gestione del trasporto. Per assicurarsi che l'interpretazione dei dati del motore in fase di esecuzione sia corretta, è possibile definire i metadati per le tabelle di database. Questo consente di ridurre il costo della compilazione di nuovi motori di gestione del trasporto poiché in Operations non sono necessarie strutture di tabelle e moduli aggiuntive.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>Cosa può essere utilizzato come dati di ricerca nei calcoli delle tariffe?
-I dati utilizzati quando si calcolano le tariffe in Microsoft Dynamics 365 for Operations sono controllati dalla configurazione dei metadati. Ad esempio, se si desidera cercare le tariffe in base ai codici postali è necessario impostare i metadati in base al tipo di ricerca di un codice postale.
+I dati utilizzati quando si calcolano le tariffe in Microsoft Dynamics 365 for Finance and Operations sono controllati dalla configurazione dei metadati. Ad esempio, se si desidera cercare le tariffe in base ai codici postali è necessario impostare i metadati in base al tipo di ricerca di un codice postale.
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>I metadati sono necessari per le configurazioni di tutti i motori?
 No, i motori di gestione del trasporto utilizzati per recuperare i dati richiesti per il calcolo delle tariffe da sistemi esterni non richiedono i metadati. I dati relativi alle tariffe di questi motori possono essere recuperati dai sistemi di vettori di trasporto esterni, in genere tramite un servizio Web. Ad esempio, in è possibile utilizzare un motore chilometraggio che recupera i dati direttamente da Bing Maps in modo che per questo motore non siano necessari i metadati.
 | **Nota**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| I motori di gestione del trasporto forniti con Microsoft Dynamics 365 for Operations si basano sui dati recuperati dall'applicazione. I motori che si connettono ai sistemi esterni non sono inclusi in Operations. Tuttavia, il modello di estendibilità basato sul motore consente di creare estensioni utilizzando Visual Studio Tools per Microsoft Dynamics 365 for Operations. |
+| I motori di gestione del trasporto forniti con Finance and Operations si basano sui dati recuperati dall'applicazione. I motori che si connettono ai sistemi esterni non sono inclusi in Operations. Tuttavia, il modello di estendibilità basato sul motore consente di creare estensioni utilizzando Visual Studio Tools per Microsoft Dynamics 365 for Finance and Operations. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>Come si configurano i metadati per il motore di gestione del trasporto?
 I metadati per i motori di gestione del trasporto vengono configurati in modo diverso per diversi tipi di motori.

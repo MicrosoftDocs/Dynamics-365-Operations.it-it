@@ -3,7 +3,7 @@ title: Panoramica sulla riconciliazione bancaria avanzata
 description: "Questo articolo descrive il flusso del processo di riconciliazione estratti conto avanzato. La funzionalità avanzata di riconciliazione estratti conto consente di importare rendiconti bancari che possono essere riconciliati automaticamente nelle transazioni bancarie."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 22104
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: deba55d5e1e376f3f4063f372bfe853fcaf20498
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 67cd622d7766e5b177ccc58398431b007e8bda4e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,12 +42,12 @@ La funzionalità di riconciliazione bancaria avanzata consente di includere i re
     -   La funzionalità può essere estesa a qualsiasi formato.
 
 2.  Impostare una sequenza numerica da utilizzare per la riconciliazione bancaria avanzata e definire le regole di abbinamento della riconciliazione estratti conto.
-    -   Una regola di abbinamento della riconciliazione è un set di criteri utilizzati per filtrare le righe del rendiconto bancario e le righe di transazione bancaria di Microsoft Dynamics 365 for Operations durante il processo di riconciliazione. A seconda della procedura aziendale, è possibile impostare più regole di abbinamento per automatizzare e ottimizzare il processo di riconciliazione.
+    -   Una regola di abbinamento della riconciliazione è un set di criteri utilizzati per filtrare le righe del rendiconto bancario e le righe di transazione bancaria di Microsoft Dynamics 365 for Finance and Operations Enterprise Edition durante il processo di riconciliazione. A seconda della procedura aziendale, è possibile impostare più regole di abbinamento per automatizzare e ottimizzare il processo di riconciliazione.
 
-3.  Riconciliare i rendiconti bancari con le transazioni bancarie di Microsoft Dynamics 365 for Operations.
+3.  Riconciliare i rendiconti bancari con le transazioni bancarie di Finance and Operations.
     -   Eseguire la corrispondenza automatica e la creazione dei giornali di registrazione riconciliazione.
-    -   Visualizzare i rendiconti bancari e le transazioni bancarie di Microsoft Dynamics 365 for Operations in modalità affiancata.
-    -   Registrare automaticamente le transazioni bancarie di Microsoft Dynamics 365 for Operations se vengono visualizzate in un rendiconto bancario ma non in Microsoft Dynamics 365 for Operations.
+    -   Visualizzare i rendiconti bancari e le transazioni bancarie di Finance and Operations in modalità affiancata.
+    -   Registrare automaticamente le transazioni bancarie di Finance and Operations se vengono visualizzate in un rendiconto bancario ma non in Finance and Operations.
     -   Generare un rendiconto riconciliazione.
 
 

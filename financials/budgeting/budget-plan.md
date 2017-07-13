@@ -1,9 +1,9 @@
 ---
 title: Pianificazione del budget
-description: "L&quot;obiettivo dell&quot;esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Operations nell&quot;area di pianificazione del budget. Lo scopo dell&quot;esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questa esercitazione si concentrerà in modo specifico sui processi o sulle attività seguenti -    - Creazione della gerarchia organizzativa per la pianificazione del budget e configurazione della sicurezza utente   - Definizione di scenari di piano di budget, colonne di piano del budget, layout e modelli di Excel   - Creazione e attivazione del processo di pianificazione del budget   - Creazione dei documenti di piano di budget inserendo i valori effettivi dalla contabilità generale   - Utilizzo delle allocazioni per rettificare i dati dei documenti del piano di budget   - Modifica dei dati dei documenti del piano di budget in Excel"
+description: "L'obiettivo dell'esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questa esercitazione si concentrerà in modo specifico sui processi o sulle attività seguenti -    - Creazione della gerarchia organizzativa per la pianificazione del budget e configurazione della sicurezza utente   - Definizione di scenari di piano di budget, colonne di piano del budget, layout e modelli di Excel   - Creazione e attivazione del processo di pianificazione del budget   - Creazione dei documenti di piano di budget inserendo i valori effettivi dalla contabilità generale   - Utilizzo delle allocazioni per rettificare i dati dei documenti del piano di budget   - Modifica dei dati dei documenti del piano di budget in Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-L'obiettivo dell'esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Operations nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questa esercitazione si concentrerà in modo specifico sui processi o sulle attività seguenti -    - Creazione della gerarchia organizzativa per la pianificazione del budget e configurazione della sicurezza utente   - Definizione di scenari di piano di budget, colonne di piano del budget, layout e modelli di Excel   - Creazione e attivazione del processo di pianificazione del budget   - Creazione dei documenti di piano di budget inserendo i valori effettivi dalla contabilità generale   - Utilizzo delle allocazioni per rettificare i dati dei documenti del piano di budget   - Modifica dei dati dei documenti del piano di budget in Excel 
+L'obiettivo dell'esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questa esercitazione si concentrerà in modo specifico sui processi o sulle attività seguenti -    - Creazione della gerarchia organizzativa per la pianificazione del budget e configurazione della sicurezza utente   - Definizione di scenari di piano di budget, colonne di piano del budget, layout e modelli di Excel   - Creazione e attivazione del processo di pianificazione del budget   - Creazione dei documenti di piano di budget inserendo i valori effettivi dalla contabilità generale   - Utilizzo delle allocazioni per rettificare i dati dei documenti del piano di budget   - Modifica dei dati dei documenti del piano di budget in Excel 
 
 <a name="prerequisites"></a>Prerequisiti 
 ------------------
 
-Per questa esercitazione sarà necessario accedere all'ambiente Dynamics 365 for Operations con dati dimostrativi Contoso ed eseguire il provisioning come amministratore sull'istanza. Non utilizzare la modalità privata del browser per questo lab. Se necessario, uscire da qualsiasi altro account nel browser e accedere con le credenziali amministratore di Dynamics 365 for Operations. Quando si accede a Dynamics 365 for Operations, è **NECESSARIO** controllare la casella di controllo "Mantieni l'accesso". In questo modo viene creato un cookie permanente attualmente necessario per l'applicazione Excel. Se si accede a Dynamics 365 for Operations utilizzando un browser diverso da Internet Explorer, verrà richiesto di accedere all'applicazione Excel. Quando si fa clic su "Accedi" nell'applicazione Excel, verrà visualizzata una finestra popup di Internet Explorer e, una volta effettuato l'accesso, è **NECESSARIO** selezionare la casella di controllo "Mantieni l'accesso". Se, quando si fa clic su "Accedi" nell'applicazione Excel, non appare alcuna informazione, è necessario cancellare la memoria cache dei cookie di Internet Explorer.
+Per questa esercitazione sarà necessario accedere all'ambiente Finance and Operations con dati dimostrativi Contoso ed eseguire il provisioning come amministratore sull'istanza. Non utilizzare la modalità privata del browser per questo lab. Se necessario, uscire da qualsiasi altro account nel browser e accedere con le credenziali amministratore di Finance and Operations. Quando si accede a Finance and Operations, è **NECESSARIO** selezionare la casella di controllo "Mantieni l'accesso". In questo modo viene creato un cookie permanente attualmente necessario per l'applicazione Excel. Se si accede a Finance and Operations utilizzando un browser diverso da Internet Explorer, verrà richiesto di accedere all'applicazione Excel. Quando si fa clic su "Accedi" nell'applicazione Excel, verrà visualizzata una finestra popup di Internet Explorer e, una volta effettuato l'accesso, è **NECESSARIO** selezionare la casella di controllo "Mantieni l'accesso". Se, quando si fa clic su "Accedi" nell'applicazione Excel, non appare alcuna informazione, è necessario cancellare la memoria cache dei cookie di Internet Explorer.
 
 ## <a name="scenario-overview"></a>**Panoramica dello scenario**
 Julia lavora come responsabile finanziario presso la società Contoso Entertainment Systems in Germania (DEMF). All'avvicinarsi dell'anno fiscale 2016, Julia deve lavorare all'impostazione del budget della società per l'anno successivo. La preparazione del budget viene effettuata come segue:
@@ -148,7 +148,7 @@ Le colonne del piano di budget sono colonne basate sulla liquidità o sulla quan
 
 [![Compilazione automatica](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7. Tornare a Dynamics 365 for Operations e aggiornare la pagina. I valori pubblicati verranno visualizzati in Dynamics 365 for Operations. 
+4.7. Tornare a Finance and Operations e aggiornare la pagina. I valori pubblicati verranno visualizzati in Finance and Operations. 
 
 [![Aggiornamento](./media/screenshot23.png)](./media/screenshot23.png)
 
@@ -233,7 +233,7 @@ Gli importi effettivi dell'anno precedente verranno copiati sul budget per l'ann
 
 [![Pubblicazione](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. Tornare al documento del piano di budget in Dynamics 365 for Operations. Fare clic sul pulsante Flusso di lavoro &gt; Invia per l'approvazione automatica del documento
+9.3. Tornare al documento del piano di budget in Finance and Operations. Fare clic sul pulsante Flusso di lavoro &gt; Invia per l'approvazione automatica del documento
 
 [![Approvazione automatica](./media/screenshot37.png)](./media/screenshot37.png) 
 

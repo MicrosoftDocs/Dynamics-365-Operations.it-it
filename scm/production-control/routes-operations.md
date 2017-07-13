@@ -1,9 +1,9 @@
 ---
 title: Cicli di lavorazione e operazioni
-description: In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni. Un ciclo di lavorazione definisce il processo per la produzione di un prodotto o della variante prodotto. Viene descritto ogni passaggio (operazione) del processo di produzione insieme all&quot;ordine in cui queste operazioni devono essere eseguite. Per ciascun passaggio, il ciclo di lavorazione definisce inoltre le risorse operative richieste, il tempo di attrezzaggio necessario e il tempo di esecuzione e il modo in cui il costo deve essere calcolato.
+description: In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni. Un ciclo di lavorazione definisce il processo per la produzione di un prodotto o della variante prodotto. Viene descritto ogni passaggio (operazione) del processo di produzione insieme all'ordine in cui queste operazioni devono essere eseguite. Per ciascun passaggio, il ciclo di lavorazione definisce inoltre le risorse operative richieste, il tempo di attrezzaggio necessario e il tempo di esecuzione e il modo in cui il costo deve essere calcolato.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3abc4e6f648ecc10105346ce181d8bc752d95f17
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -37,7 +37,7 @@ In questo argomento sono riportate informazioni su cicli di lavorazione e operaz
 <a name="overview"></a>Panoramica
 --------
 
-Un ciclo di lavorazione descrive l'ordine delle operazioni necessarie per la produzione di un prodotto o una variante prodotto. Per ciascuna operazione, il ciclo di lavorazione inoltre definisce le risorse operative richieste, il tempo di attrezzaggio ed esecuzione necessario per l'operazione e il modo in cui il costo deve essere calcolato. È possibile utilizzare lo stesso ciclo di lavorazione per produrre i più prodotti oppure definire un ciclo di lavorazione univoco per ogni variante prodotto o prodotto. È inoltre possibile avere più cicli di lavorazione per lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato varia, in base ai fattori quali la quantità che deve essere prodotta. La definizione di un ciclo di lavorazione in Microsoft Dynamics 365 for Operations è costituito da quattro diversi elementi che, insieme, descrivono il processo di produzione:
+Un ciclo di lavorazione descrive l'ordine delle operazioni necessarie per la produzione di un prodotto o una variante prodotto. Per ciascuna operazione, il ciclo di lavorazione inoltre definisce le risorse operative richieste, il tempo di attrezzaggio ed esecuzione necessario per l'operazione e il modo in cui il costo deve essere calcolato. È possibile utilizzare lo stesso ciclo di lavorazione per produrre i più prodotti oppure definire un ciclo di lavorazione univoco per ogni variante prodotto o prodotto. È inoltre possibile avere più cicli di lavorazione per lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato varia, in base ai fattori quali la quantità che deve essere prodotta. La definizione di un ciclo di lavorazione in Microsoft Dynamics 365 for Finance and Operations è costituito da quattro diversi elementi che, insieme, descrivono il processo di produzione:
 
 -   **Ciclo di lavorazione** - un ciclo definisce la struttura del processo di produzione. In altre parole, definisce l'ordine delle operazioni.
 -   **Operazione** - un'operazione identifica un passaggio denominato in un ciclo di lavorazione, ad esempio **Assemblaggio**. La stessa operazione può verificarsi in più cicli di lavorazione e può contenere un numero di operazioni diverso.
@@ -45,7 +45,7 @@ Un ciclo di lavorazione descrive l'ordine delle operazioni necessarie per la pro
 -   **Versione del ciclo di lavorazione** - una versione del ciclo di lavorazione definisce il ciclo di lavorazione specifico utilizzato per creare un prodotto o una variante prodotto. Le versioni dei cicli di lavorazione consentono ai cicli di lavorazione di essere riutilizzati nei prodotti o di essere modificati nel tempo. Inoltre consentono l'utilizzo dei diversi cicli di lavorazione per produrre lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato dipende da fattori quali l'ubicazione o la quantità che deve essere prodotta.
 
 ## <a name="routes"></a>Cicli di lavorazione
-Un ciclo di lavorazione descrive l'ordine delle operazioni utilizzate per la produzione di un prodotto o una variante prodotto. A ciascuna operazione viene assegnato un numero di operazione e un'operazione successiva. L'ordine delle operazioni forma una rete di cicli di lavorazione che può essere rappresentata da un grafico diretto con uno o più punti di origine e un unico punto finale. In Dynamics 365 for Operations, i cicli di lavorazione vengono distinti in base al tipo di struttura. I due tipi di cicli di lavorazione sono cicli di lavorazione semplici e reti di cicli di lavorazione. Nei parametri di controllo produzione, è possibile specificare se è possibile utilizzare solo i cicli di lavorazione semplici o reti più complesse di cicli di lavorazione.
+Un ciclo di lavorazione descrive l'ordine delle operazioni utilizzate per la produzione di un prodotto o una variante prodotto. A ciascuna operazione viene assegnato un numero di operazione e un'operazione successiva. L'ordine delle operazioni forma una rete di cicli di lavorazione che può essere rappresentata da un grafico diretto con uno o più punti di origine e un unico punto finale. In Dynamics 365 for Finance and Operations, i cicli di lavorazione vengono distinti in base al tipo di struttura. I due tipi di cicli di lavorazione sono cicli di lavorazione semplici e reti di cicli di lavorazione. Nei parametri di controllo produzione, è possibile specificare se è possibile utilizzare solo i cicli di lavorazione semplici o reti più complesse di cicli di lavorazione.
 
 ### <a name="simple-routes"></a>Cicli di lavorazione semplici
 
@@ -53,7 +53,7 @@ Un ciclo di lavorazione semplice è sequenziale ed è disponibile un solo punto 
 
 [![Ciclo di lavorazione semplice](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Se si attiva solo i cicli di lavorazione semplici nei parametri di controllo produzione, Dynamics 365 for Operations genera automaticamente i numeri delle operazioni (10, 20, 30 e così via) quando si definisce il ciclo di lavorazione.
+Se si attiva solo i cicli di lavorazione semplici nei parametri di controllo produzione, Finance and Operations genera automaticamente i numeri delle operazioni (10, 20, 30 e così via) quando si definisce il ciclo di lavorazione.
 
 ### <a name="route-networks"></a>Reti di cicli di lavorazione
 
@@ -85,10 +85,10 @@ Prima che un ciclo di lavorazione possa essere utilizzato nella pianificazione o
 
 Ogni ciclo di lavorazione può essere approvato o non approvato separatamente. Tuttavia, se un ciclo di lavorazione non è approvato, anche tutte le versioni del ciclo di lavorazione correlate non sono approvate. Nei parametri di controllo produzione, è possibile specificare se i cicli di lavorazione possono essere non approvati e se i cicli di lavorazione approvati possono essere modificati.  
 
-Se è necessario tenere un registro per registrare chi approva ciascun ciclo di lavorazione è possibile richiedere firme elettroniche per l'approvazione di un ciclo di lavorazione. Gli utenti dovranno quindi confermare la propria identità utilizzando una [firma elettronica](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Se è necessario tenere un registro per registrare chi approva ciascun ciclo di lavorazione è possibile richiedere firme elettroniche per l'approvazione di un ciclo di lavorazione. Gli utenti dovranno quindi confermare la propria identità utilizzando una [firma elettronica](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Operazioni
-Un'operazione costituisce un passaggio del processo di produzione. In Dynamics 365 for Operations, ciascuna operazione ha un ID e una descrizione semplice. Nelle tabelle seguenti sono indicati gli esempi comuni delle operazioni di un'officina meccanica.
+Un'operazione costituisce un passaggio del processo di produzione. In Dynamics 365 for Finance and Operations, ciascuna operazione ha un ID e una descrizione semplice. Nelle tabelle seguenti sono indicati gli esempi comuni delle operazioni di un'officina meccanica.
 
 | Operazione  | descrizione        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Le relazioni operative offrono molta flessibilità quando si definiscono i cicli
 
 ### <a name="modifying-product-specific-routes"></a>Modifica di cicli di lavorazione specifici di prodotto
 
-Quando si apre la pagina **Ciclo di lavorazione** dalla pagina **Dettagli prodotto rilasciato**, vengono mostrate le versioni del ciclo di lavorazione associate al prodotto rilasciato selezionato. In questo contesto, per ciascuna operazione, Dynamics 365 for Operations visualizza le proprietà operative per la relazione operativa con migliore corrispondenza rispetto alla versione del ciclo di lavorazione. Si può notare che l'elenco delle operazioni include le proprietà **Codice articolo** e **Codice ciclo di lavorazione** della relazione operativa. Di conseguenza, è possibile determinare quale relazione operativa viene visualizzata.  
+Quando si apre la pagina **Ciclo di lavorazione** dalla pagina **Dettagli prodotto rilasciato**, vengono mostrate le versioni del ciclo di lavorazione associate al prodotto rilasciato selezionato. In questo contesto, per ciascuna operazione, Dynamics 365 for Finance and Operations visualizza le proprietà operative per la relazione operativa con migliore corrispondenza rispetto alla versione del ciclo di lavorazione. Si può notare che l'elenco delle operazioni include le proprietà **Codice articolo** e **Codice ciclo di lavorazione** della relazione operativa. Di conseguenza, è possibile determinare quale relazione operativa viene visualizzata.  
 
 Nella pagina **Ciclo di lavorazione**, è possibile modificare le proprietà operative dell'operazione, ad esempio il tempo di esecuzione o le categorie di costi. Le modifiche verranno salvate nella relazione operativa specifica del ciclo di lavorazione e del prodotto rilasciato a cui viene fatto riferimento nella versione del ciclo di lavorazione corrente. Se la relazione operativa mostrata non è specifica del ciclo di lavorazione e del prodotto rilasciato, prima che le modifiche siano archiviate, viene creata una copia della relazione operativa. Questa copia *è* specifica del ciclo di lavorazione e del prodotto rilasciato. Di conseguenza, le modifiche non influiranno su altri cicli di lavorazione o prodotti rilasciati. Per verificare quale relazione operativa viene modificata nella pagina **Ciclo di lavorazione**, esaminare i campi **Codice articolo** e **Codice ciclo di lavorazione**.  
 
@@ -150,9 +150,9 @@ Se le operazioni standard vengono utilizzate in azienda e se i parametri operati
 
 ### <a name="applying-operation-relations"></a>Applicare le relazioni operative
 
-In alcuni casi, Dynamics 365 for Operations deve trovare le proprietà operative per un'operazione. Ad esempio, quando viene creato un ordine fornitore, le proprietà operative di ciascuna operazione devono essere copiate dalle relazioni operative al ciclo di produzione. In queste situazioni, Dynamics 365 for Operations cerca le relazioni operative rilevanti dalla combinazione più specifica alla combinazione meno specifica.  
+In alcuni casi, Dynamics 365 for Finance and Operations deve trovare le proprietà operative per un'operazione. Ad esempio, quando viene creato un ordine fornitore, le proprietà operative di ciascuna operazione devono essere copiate dalle relazioni operative al ciclo di produzione. In queste situazioni, Finance and Operations cerca le relazioni operative rilevanti dalla combinazione più specifica alla combinazione meno specifica.  
 
-Quando Dynamics 365 for Operations cerca la relazione operativa più rilevante per un prodotto rilasciato, una relazione operativa che corrisponde all'ID articolo del prodotto rilasciato ha priorità rispetto a una relazione operativa che corrisponde all'ID del gruppo di articoli. A sua volta, una relazione operativa che corrisponde all'ID del gruppo di articoli ha priorità rispetto alla relazione operativa predefinita. L'ordine di ricerca è il seguente:
+Quando Dynamics 365 for Finance and Operations cerca la relazione operativa più rilevante per un prodotto rilasciato, una relazione operativa che corrisponde all'ID articolo del prodotto rilasciato ha priorità rispetto a una relazione operativa che corrisponde all'ID del gruppo di articoli. A sua volta, una relazione operativa che corrisponde all'ID del gruppo di articoli ha priorità rispetto alla relazione operativa predefinita. L'ordine di ricerca è il seguente:
 
 1.  **Codice articolo**=**Tabella** e **Relazione articolo**=&lt;ID articolo&gt;
 2.  **Codice articolo**=**Gruppo** e **Relazione articolo**=&lt;ID gruppo di articoli&gt;
@@ -188,7 +188,7 @@ Se si attiva una versione del ciclo di lavorazione, si designa tale versione com
 
 ### <a name="electronic-signatures"></a>Firme elettroniche
 
-Se è necessario tenere un registro per registrare chi approva e attiva ciascuna versione del ciclo di lavorazione è possibile richiedere firme elettroniche per queste attività. Gli utenti che approvano e attivano le versioni del ciclo di lavorazione dovranno quindi confermare la propria identità utilizzando una [firma elettronica](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Se è necessario tenere un registro per registrare chi approva e attiva ciascuna versione del ciclo di lavorazione è possibile richiedere firme elettroniche per queste attività. Gli utenti che approvano e attivano le versioni del ciclo di lavorazione dovranno quindi confermare la propria identità utilizzando una [firma elettronica](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ### <a name="product-change-that-uses-case-management"></a>Modifica dei prodotti con gestione dei casi
 
@@ -199,7 +199,7 @@ In base ai requisiti aziendali, è possibile ridurre le risorse necessarie per g
 
 ### <a name="making-routes-independent-of-resources"></a>Impostazione di cicli di lavorazione indipendenti dalle risorse
 
-In molti sistemi, la risorsa operativa o il gruppo di risorse che devono eseguire un'operazione devono essere specificati nel ciclo di lavorazione. Tuttavia, in Dynamics 365 for Operations,, è possibile definire un insieme di requisiti che una risorsa operativa deve soddisfare per essere applicabile per l'operazione. Di conseguenza, il gruppo di risorse o la risorsa operativa specifici che devono essere utilizzati non devono essere determinati fino a che l'operazione viene effettivamente programmata. Questa funzionalità è particolarmente utile se si dispone di numerosi lavoratori o macchine che possono eseguire la stessa operazione.  
+In molti sistemi, la risorsa operativa o il gruppo di risorse che devono eseguire un'operazione devono essere specificati nel ciclo di lavorazione. Tuttavia, in Dynamics 365 for Finance and Operations, è possibile definire un insieme di requisiti che una risorsa operativa deve soddisfare per essere applicabile per l'operazione. Di conseguenza, il gruppo di risorse o la risorsa operativa specifici che devono essere utilizzati non devono essere determinati fino a che l'operazione viene effettivamente programmata. Questa funzionalità è particolarmente utile se si dispone di numerosi lavoratori o macchine che possono eseguire la stessa operazione.  
 
 Ad esempio, si specifica che un'operazione richiede una risorsa operativa del tipo **Macchina** con capacità di **punzonatura** di 20 tonnellate. Il motore di programmazione risolverà quindi tali requisiti per una risorsa operativa o un gruppo di risorse specifico quando l'operazione verrà programmata. È possibile specificare solo tali requisiti anziché associare l'operazione a una macchina specifica e questo garantisce maggiore flessibilità. Inoltre, la gestione è più semplice quando le risorse vengono spostate o quando nuove risorse vengono aggiunte.  
 
@@ -240,7 +240,7 @@ Se non si specifica una risorsa operativa o un gruppo di risorse come parte dei 
 
 [Capacità risorsa](resource-capabilities.md)
 
-[Panoramica delle firme elettroniche](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Panoramica delle firme elettroniche](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)
 
 
 

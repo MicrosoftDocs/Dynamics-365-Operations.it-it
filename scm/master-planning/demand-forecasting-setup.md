@@ -3,14 +3,14 @@ title: Impostazione della previsione della domanda
 description: "In questo argomento vengono descritte le attività di impostazione che è necessario eseguire per la preparazione delle previsioni della domanda."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72653
 ms.assetid: c5fa4b09-512d-4349-ac51-cc13da69a160
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f9b0930ac8d26f83be077fe0e6edf917e8fb0f58
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 74d520199410711b80b750a12ee726633e09d01c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -44,9 +44,9 @@ Un articolo e le relative dimensioni devono essere parte solo di una chiave di a
 Per aggiungere un'unità di stockkeeping (SKU) predefinita a una chiave di allocazione articolo, passare a **Pianificazione generale** &gt; **Impostazione** &gt; **Previsione della domanda** &gt; **Chiavi di allocazione articoli**. Utilizzare la pagina **Assegna articoli** per assegnare un articolo a una chiave di allocazione.
 
 ## <a name="intercompany-planning-groups"></a>Gruppi di pianificazione interaziendale
-Le previsioni della domanda generano previsioni interaziendali. In Microsoft Dynamics 365 for Operations, le società pianificate insieme vengono raggruppate in un gruppo di pianificazione interaziendale. Per specificare, per ogni società, quale chiave di allocazione articolo utilizzare per la previsione della domanda, associare una chiave di allocazione articolo al membro del gruppo di pianificazione interaziendale tramite **Pianificazione generale** &gt; **Impostazioni** &gt; **Gruppi di pianificazione interaziendale**. 
+Le previsioni della domanda generano previsioni interaziendali. In Microsoft Dynamics 365 for Finance and Operations, le società pianificate insieme vengono raggruppate in un gruppo di pianificazione interaziendale. Per specificare, per ogni società, quale chiave di allocazione articolo utilizzare per la previsione della domanda, associare una chiave di allocazione articolo al membro del gruppo di pianificazione interaziendale tramite **Pianificazione generale** &gt; **Impostazioni** &gt; **Gruppi di pianificazione interaziendale**. 
 
-Per impostazione predefinita, se nessuna chiave di allocazione articolo è assegnata ai membri del gruppo di pianificazione interaziendale, una previsione della domanda viene calcolata per tutti gli articoli assegnati a tutte le chiavi di allocazione articolo da tutte le società di Dynamics 365 for Operations. Le opzioni aggiuntive di filtro per le società e le chiavi di allocazione articolo sono disponibili nella pagina **Genera previsione di base statistica**. 
+Per impostazione predefinita, se nessuna chiave di allocazione articolo è assegnata ai membri del gruppo di pianificazione interaziendale, una previsione della domanda viene calcolata per tutti gli articoli assegnati a tutte le chiavi di allocazione articolo da tutte le società di Finance and Operations. Le opzioni aggiuntive di filtro per le società e le chiavi di allocazione articolo sono disponibili nella pagina **Genera previsione di base statistica**. 
 
 Verificare il numero di articoli che vengono previsti. Gli articoli non necessari possono determinare un aumento nei costi quando si utilizza Microsoft Azure Machine Learning.
 
@@ -57,7 +57,7 @@ La previsione della domanda genera la previsione in quantità. Di conseguenza, l
 
 Le previsioni della domanda possono essere utilizzate per prevedere la domanda dipendente e indipendente. Ad esempio, se è selezionata solo la casella di controllo **Ordine cliente** e se tutti gli articoli che vengono considerati per la previsione della domanda sono articoli venduti, il sistema calcolerà la domanda indipendente. Tuttavia, i sottocomponenti critici possono essere aggiunti alle chiavi di allocazione articolo e inclusi nelle previsioni della domanda. In questo caso, se la casella di controllo **Riga produzione** è selezionata, viene calcolata una previsione dipendente. 
 
-Sono disponibili due metodi per creare una previsione di base in Dynamics 365 for Operations. È possibile utilizzare modelli di previsione con i dati storici oppure copiare semplicemente i dati storici nella previsione. Il campo **Strategia di generazione previsione** consente di selezionare uno dei due metodi. Per utilizzare i modelli previsionali, selezionare **Azure Machine Learning**. 
+Sono disponibili due metodi per creare una previsione di base in Finance and Operations. È possibile utilizzare modelli di previsione con i dati storici oppure copiare semplicemente i dati storici nella previsione. Il campo **Strategia di generazione previsione** consente di selezionare uno dei due metodi. Per utilizzare i modelli previsionali, selezionare **Azure Machine Learning**. 
 
 Facendo clic su **Dimensioni previsione** nel riquadro sinistro della pagina **Parametri di previsione della domanda**, è possibile selezionare il set di dimensioni di previsione da utilizzare quando la previsione della domanda viene generata. Una dimensione di previsione indica il livello di dettaglio per cui la previsione è definita. Società, sito e chiave di allocazione articolo sono dimensioni di previsione obbligatorie, ma è inoltre possibile generare le previsioni a livello di dimensioni di magazzino, stato inventario, gruppo clienti, conto cliente, paese/regione o stato e articolo oltre a tutti i livelli di dimensione articolo. 
 
@@ -65,7 +65,7 @@ In qualsiasi punto, è possibile aggiungere le dimensioni di previsione all'elen
 
 Non tutti gli articoli si comportano nello stesso modo da un punto di vista della previsione della domanda. Gli articoli simili possono essere raggruppati in una chiave di allocazione articolo e i parametri come tipi di transazione e impostazioni del metodo di previsione possono essere impostati per chiave di allocazione articolo. Fare clic su **Chiavi di allocazione articolo** nella pagina **Parametri di previsione della domanda** . 
 
-Per generare la previsione, Dynamics 365 for Operations utilizza un servizio Web di Machine Learning. Per connettersi al servizio, è necessario immettere le informazioni di Dynamics 365 for Operations seguenti, se si accede a Microsoft Azure Machine Learning Studio:
+Per generare la previsione, Finance and Operations utilizza un servizio Web di Machine Learning. Per connettersi al servizio, è necessario immettere le informazioni di Finance and Operations seguenti, se si accede a Microsoft Azure Machine Learning Studio:
 
 -   Chiave dell'API del servizio Web
 -   URL dell'endpoint del servizio Web
@@ -74,10 +74,10 @@ Per generare la previsione, Dynamics 365 for Operations utilizza un servizio Web
 
 **Nota:** il nome account e la chiave di archiviazione Azure sono necessari solo se si utilizza un account di archiviazione personalizzato. Se si distribuisce la versione locale, è necessario disporre di un account di archiviazione personalizzato in Azure, in modo che il servizio Machine Learning possa accedere ai dati storici. 
 
-Per creare le previsioni della domanda, è possibile distribuire un servizio personalizzato tramite Machine Learning Studio o gli esperimenti di previsione della domanda di Dynamics 365 for Operations. Le istruzioni per la distribuzione degli esperimenti di previsione della domanda di Dynamics 365 for Operations come servizio Web sono disponibili in Dynamics 365 for Operations. Nella pagina **Parametri di previsione della domanda** fare clic sulla scheda **Azure Machine Learning**.
+Per creare le previsioni della domanda, è possibile distribuire un servizio personalizzato tramite Machine Learning Studio o gli esperimenti di previsione della domanda di Finance and Operations. Le istruzioni per la distribuzione degli esperimenti di previsione della domanda di Finance and Operations come servizio Web sono disponibili in Finance and Operations. Nella pagina **Parametri di previsione della domanda** fare clic sulla scheda **Azure Machine Learning**.
 
-## <a name="settings-for-the-dynamics-365-for-operations-demand-forecasting-machine-learning-service"></a>Impostazioni per il servizio di Machine Learning della previsione della domanda di Dynamics 365 for Operations
-Per visualizzare i parametri che possono essere configurati per il servizio di previsione della domanda di Dynamics 365 for Operations, andare a **Pianificazione generale** &gt; **Impostazioni** &gt; **Previsione della domanda** &gt; **Previsione parametri di algoritmo**. La pagina **Previsione parametri di algoritmo** mostra i valori predefiniti dei parametri. È possibile sovrascrivere questi parametri nella pagina **Parametri di previsione della domanda**. Utilizzare la scheda **Generale** per sovrascrivere i parametri globalmente oppure utilizzare la scheda **Chiavi di allocazione articoli** per sovrascrivere la chiave di allocazione per chiave di allocazione articolo. I parametri che vengono sovrascritti per una chiave di allocazione articolo hanno effetto solo sulla previsione degli articoli associati alla chiave di allocazione articolo.
+## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Impostazioni per il servizio di Machine Learning della previsione della domanda di Finance and Operations
+Per visualizzare i parametri che possono essere configurati per il servizio di previsione della domanda di Finance and Operations, andare a **Pianificazione generale** &gt; **Impostazioni** &gt; **Previsione della domanda** &gt; **Previsione parametri di algoritmo**. La pagina **Previsione parametri di algoritmo** mostra i valori predefiniti dei parametri. È possibile sovrascrivere questi parametri nella pagina **Parametri di previsione della domanda**. Utilizzare la scheda **Generale** per sovrascrivere i parametri globalmente oppure utilizzare la scheda **Chiavi di allocazione articoli** per sovrascrivere la chiave di allocazione per chiave di allocazione articolo. I parametri che vengono sovrascritti per una chiave di allocazione articolo hanno effetto solo sulla previsione degli articoli associati alla chiave di allocazione articolo.
 
 <a name="see-also"></a>Vedere anche
 --------

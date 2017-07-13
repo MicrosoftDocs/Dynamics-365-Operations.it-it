@@ -1,6 +1,6 @@
 ---
 title: Home page di approvvigionamento
-description: Sono elencati gli argomenti della Guida e altre risorse disponibili per l&quot;approvvigionamento.
+description: Sono elencati gli argomenti della Guida e altre risorse disponibili per l'approvvigionamento.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-02-18 10 - 21 - 53
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 -   [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md)
 -   [Impostare e gestire la collaborazione fornitore](set-up-maintain-vendor-collaboration.md)
--   [Script dimostrativo per inventario di spedizione in entrata per Microsoft Dynamics 365 for Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations) (white paper)
+-   [Script dimostrativo per inventario di spedizione in entrata per Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations) (white paper)
 -   [Verificare l'inventario spedizione utilizzando la collaborazione fornitore](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [Collaborazione con i fornitori mediante il portale fornitori](collaborate-vendors-vendor-portal.md) (solo versioni di febbraio 2016 e maggio 2016 di Dynamics 365 for Operations)
--   [Configurazione della sicurezza per gli utenti del portale fornitori](configure-security-vendor-portal-users.md) (solo versioni 2016 e maggio 2016 di Dynamics 365 for Operations)
--   [Area di lavoro mobile per la collaborazione fornitore per l'app Microsoft Dynamics 365 for Operations](vendor-collaboration-mobile-workspace.md)
+-   [Collaborazione con i fornitori mediante il portale fornitori](collaborate-vendors-vendor-portal.md)  (versioni di febbraio 2016 e maggio 2016 di Dynamics AX solo)
+-   [Configurazione della sicurezza per gli utenti del portale fornitori](configure-security-vendor-portal-users.md) (solo versioni 2016 e maggio 2016 di Finance and Operations)
+-   [Area di lavoro mobile per la collaborazione fornitore per l'app Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Gestione dei prodotti di approvvigionamento
 -   [Cataloghi di approvvigionamento](procurement-catalogs.md)
@@ -92,8 +92,8 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 
 ## <a name="product-receipt-and-invoicing"></a>Entrata prodotti e fatturazione
 -   [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
--   [Panoramica delle fatture fornitore](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [Profili registrazione fornitori](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [Panoramica delle fatture fornitore](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [Profili registrazione fornitori](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Flussi di lavoro di approvvigionamento
 -   [Panoramica dell'approvvigionamento](procurement-sourcing-overview.md)

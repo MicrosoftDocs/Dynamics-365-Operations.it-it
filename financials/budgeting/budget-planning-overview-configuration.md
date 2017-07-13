@@ -1,16 +1,16 @@
 ---
 title: Panoramica sulla pianificazione del budget
-description: In questo articolo viene illustrata la pianificazione del budget e sono contenute informazioni per semplificare la configurazione della pianificazione del budget e l&quot;impostazione dei processi di pianificazione del budget.
+description: In questo articolo viene illustrata la pianificazione del budget e sono contenute informazioni per semplificare la configurazione della pianificazione del budget e l'impostazione dei processi di pianificazione del budget.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5212c8401f26f30cf593c52eb88291463b9b8810
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -38,7 +38,7 @@ In questo articolo viene illustrata la pianificazione del budget e sono contenut
 
 La pianificazione del budget viene eseguita quando si stanno preparando i budget che verranno implementati da un'organizzazione. Un'organizzazione può configurare la pianificazione del budget e quindi impostare i processi di pianificazione del budget per soddisfare i criteri, le procedure e i requisiti della preparazione del budget. 
 
-Quando si capiscono i concetti e la terminologia utilizzati in Microsoft Dynamics 365 for Operations, sarà più facile implementare la pianificazione del budget nell'organizzazione.
+Quando si capiscono i concetti e la terminologia utilizzati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, sarà più facile implementare la pianificazione del budget nell'organizzazione.
 
 ### <a name="key-terms"></a>Termini importanti
 
@@ -59,7 +59,7 @@ Quando si capiscono i concetti e la terminologia utilizzati in Microsoft Dynamic
 -   Instradare automaticamente i piani di budget, insieme a fogli di lavoro, documenti di motivazione e altri allegati, per la revisione e l'approvazione.
 -   Consolidare più piani di budget da un livello più basso dell'organizzazione in un unico piano di budget padre a un livello superiore dell'organizzazione. È inoltre possibile elaborare un piano di budget singolo a un livello superiore dell'organizzazione e allocare il budget ai livelli minimi dell'organizzazione.
 
-La pianificazione del budget è integrata nei moduli di Microsoft Dynamics 365 for Operations. Pertanto, si possono utilizzare le informazioni provenienti da budget precedenti, cespiti e risorse umane. Poiché la pianificazione del budget è integrato anche in Microsoft Excel e Microsoft Word, è possibile utilizzare questi programmi per lavorare con i dati di pianificazione del budget. Ad esempio, un responsabile budget può esportare la richiesta del budget di un reparto in uno scenario di piani di budget in un foglio di lavoro Excel. I dati possono essere analizzati, aggiornati e essere tracciati nel foglio di lavoro e quindi essere pubblicati alle righe di piano di budget.
+La pianificazione del budget è integrata nei moduli di Microsoft Dynamics 365 for Finance and Operations. Pertanto, si possono utilizzare le informazioni provenienti da budget precedenti, cespiti e risorse umane. Poiché la pianificazione del budget è integrato anche in Microsoft Excel e Microsoft Word, è possibile utilizzare questi programmi per lavorare con i dati di pianificazione del budget. Ad esempio, un responsabile budget può esportare la richiesta del budget di un reparto in uno scenario di piani di budget in un foglio di lavoro Excel. I dati possono essere analizzati, aggiornati e essere tracciati nel foglio di lavoro e quindi essere pubblicati alle righe di piano di budget.
 
 ## <a name="configuring-budget-planning"></a>Configurazione della pianificazione del budget
 La pagina **Configurazione pianificazione del budget** contiene la maggior parte delle impostazioni necessarie per impostare la pianificazione del budget. Nelle sezioni seguenti vengono descritti alcuni fattori chiave da considerare per configurare la pianificazione del budget. Dopo aver completato la configurazione, si impostano i processi di pianificazione del budget.
@@ -78,7 +78,7 @@ Nel seguente esempio, la sede centrale aziendale stima gli importi di base inizi
 
 Nella pagina **Gerarchia organizzativa**, è possibile definire una gerarchia organizzativa come gerarchia di pianificazione del budget per ciascun processo di pianificazione del budget. La gerarchia di pianificazione del budget non deve corrispondere alla gerarchia di organizzazione normale utilizzata per altri scopi. Poiché la gerarchia viene utilizzata per aggregare e distribuire i dati, è possibile desiderare che abbia una struttura diversa. Nello schema di esempio, i reparti vendite sono sotto un livello della sede centrale che include i reparti di amministrazione e budget. Questa struttura probabilmente è diversa dalla struttura utilizzata per gestire le operazioni per i reparti vendite. Una sola gerarchia organizzativa può essere assegnata a ogni processo di pianificazione del budget. 
 
-Per ulteriori informazioni sulle gerarchie organizzative, vedere [Organizzazioni e gerarchie organizzative](/dynamics365/operations/organization-administration/organizations-organizational-hierarchies).
+Per ulteriori informazioni sulle gerarchie organizzative, vedere [Organizzazioni e gerarchie organizzative](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
 
 ### <a name="user-security"></a>Sicurezza utente
 
@@ -88,13 +88,13 @@ La pianificazione del budget può seguire uno dei due modelli di sicurezza per d
 
 I flussi di lavoro di pianificazione del budget vengono utilizzati insieme ai flussi di lavoro impostazione budget per gestire la creazione e l'evoluzione del piano di budget.
 
-Un flusso di lavoro di pianificazione del budget è costituito da un insieme ordinato di fasi in cui si sposta il piano di budget. Ogni flusso di lavoro di pianificazione del budget è associato a un flusso di lavoro impostazione budget. I flussi di lavoro impostazione budget sono uno dei tipi di flussi di lavoro utilizzati in Microsoft Dynamics  365 for Operations. Il flusso di lavoro impostazione budget indirizza i piani di budget, insieme ai fogli di lavoro, alle motivazioni e agli allegati mediante l'organizzazione per essere rivisti e approvati. 
+Un flusso di lavoro di pianificazione del budget è costituito da un insieme ordinato di fasi in cui si sposta il piano di budget. Ogni flusso di lavoro di pianificazione del budget è associato a un flusso di lavoro impostazione budget. I flussi di lavoro impostazione budget sono uno dei tipi di flussi di lavoro utilizzati in Finance and Operations. Il flusso di lavoro impostazione budget indirizza i piani di budget, insieme ai fogli di lavoro, alle motivazioni e agli allegati mediante l'organizzazione per essere rivisti e approvati. 
 
 Creare il flusso di lavoro di pianificazione del budget nella sezione **Fasi del flusso di lavoro** della pagina **Configurazione pianificazione del budget**. Sarà possibile selezionare le fasi e il flusso di lavoro impostazione budget che verranno utilizzati e si potranno configurare impostazioni aggiuntive. 
 
 La procedura consigliata consiste nel creare un flusso di lavoro di pianificazione del budget per ciascun livello della gerarchia di impostazione budget. Assegnare un flusso di lavoro impostazione budget che contiene gli elementi che corrispondono alle fasi del flusso di lavoro di pianificazione del budget. Nello schema di esempio visualizzato in precedenza in questo articolo, un flusso di lavoro di pianificazione del budget viene creato per i reparti vendite e un altro viene creato per la sede centrale. Un flusso di lavoro impostazione budget sposta i piani di budget tra le fasi. 
 
-Creare il flusso di lavoro impostazione budget per la pianificazione del budget nella pagina **Flussi di lavoro impostazione budget**. Il processo è analogo a quello per creare altri flussi di lavoro di Microsoft Dynamics 365 for Operations.. Nella figura seguente viene illustrato un esempio di un flusso di lavoro della sede centrale. 
+Creare il flusso di lavoro impostazione budget per la pianificazione del budget nella pagina **Flussi di lavoro impostazione budget**. Il processo è analogo a quello per creare altri flussi di lavoro di Finance and Operations. Nella figura seguente viene illustrato un esempio di un flusso di lavoro della sede centrale. 
 
 [![Flusso di lavoro impostazione budget per la pianificazione del budget](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 

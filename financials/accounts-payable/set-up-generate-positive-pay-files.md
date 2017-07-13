@@ -3,13 +3,13 @@ title: Impostare e generare file pagamenti sicuri
 description: Questo articolo spiega come impostare un pagamento sicuro e generare file pagamenti sicuri.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f82ed69aaaf4d3345ef4e74a338124465dcf2358
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fc4269fc8bf8319a2a2f4e3769f0ffb31d5ef79d
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ Questo articolo spiega come impostare un pagamento sicuro e generare file pagame
 Impostare il pagamento sicuro per generare l'elenco elettronico degli assegni che viene fornito alla banca. Quando si presenta un assegno alla banca, la banca lo confronta con l'elenco degli assegni. Se l'assegno corrisponde a uno presente nell'elenco, la banca lo liquida. Se l'assegno non corrisponde a un assegno nell'elenco, la banca lo trattiene per esaminarlo.
 
 ## <a name="security-for-positive-pay-files"></a>Sicurezza dei file pagamenti sicuri
-I file pagamenti sicuri possono contenere dati riservati sui beneficiari e sugli importi dell'assegno. Di conseguenza, assicurarsi di utilizzare le misure di sicurezza appropriate dalla generazione dei file fino alla loro ricezione da parte della banca. I file pagamenti sicuri vengono scaricati nel percorso specificato dal Web browser. Poiché i file pagamenti sicuri possono contenere informazioni riservate, è importante che solo gli utenti autorizzati abbiano accesso per generare e visualizzare queste informazioni in Microsoft Dynamics 365 for Operations. Utilizzare la seguente tabella per determinare i privilegi necessari.
+I file pagamenti sicuri possono contenere dati riservati sui beneficiari e sugli importi dell'assegno. Di conseguenza, assicurarsi di utilizzare le misure di sicurezza appropriate dalla generazione dei file fino alla loro ricezione da parte della banca. I file pagamenti sicuri vengono scaricati nel percorso specificato dal Web browser. Poiché i file pagamenti sicuri possono contenere informazioni riservate, è importante che solo gli utenti autorizzati abbiano accesso per generare e visualizzare queste informazioni in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Utilizzare la seguente tabella per determinare i privilegi necessari.
 
 <table>
 <colgroup>

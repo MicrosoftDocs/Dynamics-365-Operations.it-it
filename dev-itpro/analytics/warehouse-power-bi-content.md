@@ -1,16 +1,16 @@
 ---
 title: Contenuto Power BI per prestazioni di magazzino
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di magazzino. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
-author: YuyuScheller
+author: Mirzaab
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272953
 ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cba8d990c18f2db414d837118a54edfa09cba486
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 3daa69a1f042c2eb525e7e26eb0fe29253fe9e90
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,24 +30,20 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
+In questo argomento viene descritto cosa è incluso nel contenuto Microsoft Power BI per **Prestazioni di magazzino**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
+## <a name="overview"></a>Panoramica
 
-In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di magazzino. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+Il contenuto Power BI per **Prestazioni di magazzino** è stato creato per consentire ai responsabili di magazzini e operazioni di monitorare le metriche chiave per le operazioni di entrata e uscita e del magazzino. Vengono utilizzati la gestione magazzino, i prodotti e altri dati transazionali del sistema in uso e viene fornita sia una visualizzazione aggregata delle prestazioni del magazzino che una scomposizione per fornitori, gruppi di prodotti e prodotti e siti e magazzini. 
 
-<a name="overview"></a>Panoramica
-========
+I responsabili di magazzino possono utilizzare il contenuto Power BI **Prestazioni di magazzino** per misurare le seguenti tre aree:
 
-Il contenuto Microsoft Power BI **Prestazioni di magazzino** è stato creato per consentire ai responsabili di magazzini e operazioni di monitorare le metriche chiave per le operazioni di entrata e uscita e del magazzino. Vengono utilizzati la gestione magazzino, i prodotti e altri dati transazionali di Microsoft Dynamics 365 for Operations e viene fornita sia una visualizzazione aggregata delle prestazioni del magazzino che una scomposizione per fornitori, gruppi di prodotti e prodotti e siti e magazzini. I responsabili di magazzino possono utilizzare il contenuto Power BI **Prestazioni di magazzino** per misurare le seguenti tre aree:
-
--   **Prestazioni in entrata**: la misurazione delle prestazioni di un fornitore rispetto a un cliente (ovvero la misurazione delle prestazioni di consegna) e la misurazione delle prestazioni di stoccaggio, in modo da poter identificare eventuali problemi che interessano i lavoratori o gli articoli in un periodo. È importante sapere se i fornitori consegnano con puntualità, in anticipo o in ritardo, in modo da poter determinare in che misura le prestazioni del fornitore hanno effetto sulle prestazioni di stoccaggio complessive. Un fornitore che consegna in date diverse dalle date concordate può causare pressione aggiuntiva in magazzino, a causa di lavoro non previsto e può aumentare il tempo medio di stoccaggio.
+-   **Prestazioni in entrata**: la misurazione delle prestazioni di un fornitore rispetto ai requisiti di un cliente (ovvero la misurazione delle prestazioni di consegna) e la misurazione delle prestazioni di stoccaggio, in modo da poter identificare eventuali problemi che interessano i lavoratori o gli articoli in un periodo. È importante sapere se i fornitori consegnano con puntualità, in anticipo o in ritardo, in modo da poter determinare in che misura le prestazioni del fornitore hanno effetto sulle prestazioni di stoccaggio complessive. Un fornitore che consegna in date diverse dalle date concordate può causare pressione aggiuntiva in magazzino, a causa di lavoro non previsto e può aumentare il tempo medio di stoccaggio.
 -   **Prestazioni di spedizione**: misurazione delle prestazioni della spedizione completa e puntuale dal magazzino ai clienti (ovvero misurare le spedizioni in uscita e le prestazioni di consegna), in modo da poter identificare eventuali problemi che interessano prodotti, siti o magazzini o clienti dedicati. Se si rilevano che le spedizioni avvengono in ritardo per aree o città specifiche, potrebbe essere necessario prestare maggiore attenzione alla gestione del trasporto o del conto.
 -   **Precisione inventariale dell'ubicazione**: la precisione inventariale rappresenta importante dato di business intelligence (BI) interna del magazzino. È molto importate determinare il livello di accuratezza generale. Tuttavia, è anche importate determinare il livello di accuratezza nello stoccaggio degli articoli nelle ubicazioni corrette e mettere in evidenza eventuali discrepanze, in modo che sia possibile trovare migliori ubicazioni per gli articoli o avviare il conteggio totale di articoli specifici. (Attualmente, la nuova la funzionalità di conteggio basata sugli articoli viene fornita come aggiornamento rapido). Se si utilizza il contenuto Power BI per verificare la precisione dei dati sulle scorte disponibili per ubicazione, è anche possibile identificare eventuali furti nei negozi. È inoltre possibile verificare se nelle ubicazioni sono presenti quantità disponibili diverse dai dati ERP (Enterprise Resource Planning). Tali ubicazioni possono essere troppo grandi oppure impossibili da conteggiare. In alternativa, alcuni posizionamenti fisici potrebbero essere non validi, per cui risulta difficile mantenere un unico tipo di articolo sincronizzato rispetto ai dati di disponibilità.
 
-## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-È possibile trovare il contenuto Power BI per le **Prestazioni di magazzino** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Gli amministratori di sistema possono scaricare il contenuto e collegarlo ai dati Microsoft Dynamics 365 for Operations seguendo le indicazioni illustrate in [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). 
-
-**Nota**: l'articolo **KB 4011327** è un prerequisito per questo contenuto Power BI. Dopo avere eseguito l'accesso a Lifecycle Services, è possibile accedere alla KB qui: : <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+## <a name="accessing-the-power-bi-content-pack"></a>Accesso al pacchetto di contenuti Power BI
+Se si utilizza l'aggiornamento di luglio 2017 di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, il contenuto Power BI **Prestazioni di magazzino** verrà visualizzato nella pagina **Prestazioni di magazzino** (**Gestione magazzino** > **Richieste di informazioni e report** > **Analisi delle prestazioni di magazzino** > **Prestazioni di magazzino**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto di Power BI **Prestazioni di magazzino** include un report. Il report è costituito da un set di metriche visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto Power BI per **Prestazioni di magazzino**.
@@ -68,9 +64,9 @@ Il contenuto di Power BI **Prestazioni di magazzino** include un report. Il repo
 | Precisione inventariale dell'ubicazione | Tasso di discrepanza                         | Tasso totale di discrepanza espresso come percentuale di tutte le righe conteggiate per un determinato periodo.                                                                                                                                                                                                                                                                                                                    |
 | Precisione inventariale dell'ubicazione | Conteggio senza discrepanza                | Il numero totale di righe lavoro di conteggio elaborate, il numero di righe elaborate senza discrepanze.                                                                                                                                                                                                                                                                                  |
 | Precisione inventariale dell'ubicazione | Articoli conteggiati nel tempo                  | Percentuale di articoli conteggiati nel tempo con o senza discrepanza.                                                                                                                                                                                                                                                                                                                                |
-| Precisione inventariale dell'ubicazione | Discrepanza quantità di articoli maggiore di % | Visualizzazione di tabella del numero di righe di conteggio con discrepanze che superano la percentuale specificata. Nella tabella sono riportate informazioni su ubicazioni, articoli, discrepanza media, numero totale di righe lavoro di conteggio elaborate, numero totale di righe di conteggio con discrepanze relative all'ubicazione, quantità media conteggiata, quantità totale prevista che verrà conteggiata e quantità effettiva degli articoli conteggiata. |
+| Precisione inventariale dell'ubicazione | Discrepanza quantità di articoli maggiore di % | Visualizzazione di tabella del numero di righe di conteggio con discrepanze che superano la percentuale specificata. Nella tabella sono riportate informazioni su ubicazioni, articoli, la discrepanza media, il numero totale di righe lavoro di conteggio elaborate, il numero totale di righe di conteggio con discrepanze relative all'ubicazione, la quantità media conteggiata, la quantità totale prevista che verrà conteggiata e la quantità effettiva degli articoli conteggiata. |
 | Precisione inventariale dell'ubicazione | Conteggio articoli per lavoratore                     | Le prestazioni di conteggio dei lavoratori. Le prestazioni sono espresse come percentuale di righe di lavoro di conteggio con e senza discrepanze.                                                                                                                                                                                                                                                                    |
-| Precisione inventariale dell'ubicazione | Conteggio articoli per sito/magazzino           | Prestazioni di conteggio per numero di righe di lavoro di conteggio elaborare per sito o magazzino che includono o non includono discrepanze.                                                                                                                                                                                                                                                                                |
+| Precisione inventariale dell'ubicazione | Conteggio articoli per sito/magazzino           | Prestazioni di conteggio per numero di righe di lavoro di conteggio elaborate per sito o magazzino che hanno o non hanno discrepanze.                                                                                                                                                                                                                                                                                |
 | Precisione inventariale dell'ubicazione | Tasso di discrepanza per prodotto              | Tasso di discrepanza per le prestazioni di conteggio. Il tasso è espresso come percentuale di righe di lavoro di conteggio elaborate per articolo o gruppo di articoli.                                                                                                                                                                                                                                                                    |
 | Prestazioni di spedizione        | Righe spedite                            | Il numero totale di righe di spedizione spedite per un periodo specificato.                                                                                                                                                                                                                                                                                                                                        |
 | Prestazioni di spedizione        | In anticipo                                    | Percentuale delle righe di spedizione che vengono spedite in anticipo.                                                                                                                                                                                                                                                                                                                                                        |
@@ -81,9 +77,18 @@ Il contenuto di Power BI **Prestazioni di magazzino** include un report. Il repo
 | Prestazioni di spedizione        | Spedizioni per prodotto                       | Percentuale delle righe di spedizione che vengono spedite in anticipo, puntualmente o in ritardo per articolo o gruppo di articoli.                                                                                                                                                                                                                                                                                                                                   |
 | Prestazioni di spedizione        | Spedizioni per cliente                      | Percentuale delle righe di spedizione che vengono spedite in anticipo, puntualmente o in ritardo per cliente o gruppo di clienti.                                                                                                                                                                                                                                                                                                                           |
 | Prestazioni di spedizione        | Spedizioni per sito/magazzino              | Percentuale delle righe di spedizione che vengono spedite in anticipo, puntualmente o in ritardo per sito o magazzino.                                                                                                                                                                                                                                                                                                                                    |
+## <a name="extending-the-power-bi-content"></a>Estensione del contenuto Power BI
+Utilizzando i pacchetti di contenuti disponibili in Microsoft Dynamics Lifecycle Services (LCS), è possibile fornire eccezionali analisi alle persone che non accedono a Microsoft Dynamics 365. È possibile modificare i pacchetti di contenuti affinché siano inclusi altri report o rappresentazioni e quindi pubblicate i pacchetti contenuti nel tenant Power BI.com per l'analisi. 
+
+Puoi trovare il contenuto Power BI **Prestazioni di magazzino** nella raccolta delle risorse condivise in LCS. Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+
+Assicurarsi di scaricare il contenuto **Prestazioni di magazzino** applicabile alla versione di Dynamics 365 in uso.
+
+> [!NOTE]
+> Se si utilizza Microsoft Dynamics 365 for Operations versione 1611, KB 4011327 è un prerequisito per questo contenuto di Power BI. Dopo avere eseguito l'accesso a LCS, è possibile accedere alla KB qui: : https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Informazioni su modelli di dati e calcoli
-I dati di Dynamics 365 for Operations vengono utilizzati per compilare le pagine di report nel contenuto Power BI per **Prestazioni di magazzino**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). 
+I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Prestazioni di magazzino**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). 
 
 Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
 
@@ -117,17 +122,4 @@ Le seguenti misure aggregazione chiave vengono utilizzate come base del contenut
 | Prestazioni di spedizione        | Spedizioni per prodotto                       | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella).                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Prestazioni di spedizione        | Spedizioni per cliente                      | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella).                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Prestazioni di spedizione        | Spedizioni per sito/magazzino              | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella).                                                                                                                                                                                                                                                                                                                                                                                                                        |
-
-## <a name="additional-resources"></a>Risorse aggiuntive
-Di seguito sono riportati alcuni collegamenti utili correlati alle entità e alla creazione di contenuto per Power BI:
-
--   [Entità di dati](../data-entities/data-entities.md)
--   [Creazione di pacchetti di contenuti per l'organizzazione](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modellazione di dati tramite Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Aggiunta di riquadri Power BI ad aree di lavoro](configure-power-bi-integration.md)
-
-
-
-
-
 

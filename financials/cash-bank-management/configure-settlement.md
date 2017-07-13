@@ -3,7 +3,7 @@ title: Configurare una liquidazione
 description: "Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo articolo descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d3015004371aa041a7ee545df9a4c7f0e48ca31
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo articolo descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti. 
 
-I seguenti parametri influiscono su come vengono elaborate le liquidazioni in Microsoft Dynamics 365 for Operations. La liquidazione è il processo di facilitazione di una fattura rispetto a un pagamento o una nota di accredito. Questi parametri sono situati nell'area **Liquidazione** delle pagine **Parametri contabilità clienti** e **Parametri contabilità fornitori**.
+I seguenti parametri influiscono su come vengono elaborate le liquidazioni in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. La liquidazione è il processo di facilitazione di una fattura rispetto a un pagamento o una nota di accredito. Questi parametri sono situati nell'area **Liquidazione** delle pagine **Parametri contabilità clienti** e **Parametri contabilità fornitori**.
 
 -   **Liquidazione automatica**: impostare questa opzione su **Sì** se una transazione deve essere liquidata automaticamente rispetto ad altre transazioni aperte al momento della registrazione. Se l'opzione è impostata su **No**, gli utenti possono liquidare manualmente le transazioni quando immettono i pagamenti o successivamente mediante la pagina **Liquida transazioni**.
 -   **Applicazione sconto di cassa**: specifica come uno [sconto di cassa viene gestito se la fattura viene pagata in eccedenza](cash-discount-handling-overpayments.md). Per un'eccedenza di pagamento, lo sconto di cassa può essere ridotto, può essere gestito come differenza, oppure può rimanere nel conto del fornitore o il cliente.

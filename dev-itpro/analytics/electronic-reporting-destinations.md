@@ -3,14 +3,14 @@ title: Destinazione report elettronici
 description: "È possibile configurare una destinazione per ciascuna configurazione di formato per la creazione di report elettronici (ER) e del relativo componente di output (una cartella o un file). Gli utenti che dispongono di diritti di accesso appropriati anche possono modificare le impostazioni di destinazione in fase di esecuzione. Questo articolo illustra la gestione delle destinazioni ER, i tipi di destinazioni supportati e considerazioni sulla sicurezza."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,9 +36,9 @@ ms.lasthandoff: 05/25/2017
 Le configurazioni del formato di creazione di report elettronici (ER) in genere contengono almeno un componente di output: un file. In genere, le configurazioni contengono più componenti di output di file di tipo diverso (ad esempio, XML, TXT o XLSX) che vengono raggruppati in una cartella singola o più cartelle. La gestione di destinazione ER consente di preconfigurare quello che si verifica durante l'esecuzione di ogni componente. Per impostazione predefinita, quando si esegue una configurazione, verrà visualizzata una finestra di dialogo che consente all'utente di salvare o aprire il file. Lo stesso comportamento viene utilizzato anche quando si importa una configurazione ER e non si configura nessuna destinazione specifica. Dopo aver creata una destinazione per un componente di output principale, tale destinazione ha la precedenza sul comportamento predefinito e la cartella o il file viene inviato in base alle impostazioni della destinazione.
 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilità e prerequisiti generali
-La funzionalità di destinazioni ER non è disponibile nella versione di Microsoft Dynamics 365 for Operations 7.0 (febbraio 2016). Di conseguenza, è necessario installare Microsoft Dynamics 365 for Operations (versione novembre 2016) per utilizzare tutte le funzioni descritte in questo argomento. In alternativa, è possibile installare uno dei seguenti prerequisiti. Tuttavia, tenere presente che queste alternative forniscono un'esperienza di destinazione ER più limitata.
+La funzionalità di destinazioni ER non è disponibile in Microsoft Dynamics AX 7.0 (febbraio 2016). Di conseguenza, è necessario installare Microsoft Dynamics 365 for Operations versione 1611 (novembre 2016) per utilizzare tutte le funzioni descritte in questo argomento. In alternativa, è possibile installare uno dei seguenti prerequisiti. Tuttavia, tenere presente che queste alternative forniscono un'esperienza di destinazione ER più limitata.
 
--   Microsoft Dynamics 365 for Operations versione applicazione 7.0.1 (maggio 2016)
+-   Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016)
 -   [Aggiornamento rapido dell'applicazione](https://fix.lcs.dynamics.com/issue/results/?q=3160213) per la gestione delle destinazioni ER
 
 È possibile impostare le destinazioni solo per le configurazioni ER che sono state importate e per i formati disponibili nella pagina **Configurazioni creazione di report elettronici**.
@@ -61,7 +61,7 @@ Sono supportati vari tipi di destinazioni. È possibile disabilitare o abilitare
 
 ### <a name="email-destination"></a>Destinazione posta elettronica
 
-Impostare **Abilitato**su **Sì** per inviare un file di output tramite posta elettronica. Dopo aver abilitato questa opzione, è possibile specificare i destinatari del messaggio di posta elettronica e modificare l'oggetto e il corpo del messaggio. È possibile impostare testi costanti per l'oggetto e il corpo del messaggio di posta elettronica oppure utilizzare le formule ER per creare in modo dinamico i testi del messaggio di posta elettronica. È possibile configurare gli indirizzi di posta elettronica per ER in due modi. La configurazione può essere completata in modo analogo alla funzionalità Gestione stampa in Dynamics 365 for Operations. In alternativa, è possibile risolvere un indirizzo di posta elettronica utilizzando un riferimento diretto alla configurazione ER mediante una formula.
+Impostare **Abilitato** su **Sì** per inviare un file di output tramite posta elettronica. Dopo aver abilitato questa opzione, è possibile specificare i destinatari del messaggio di posta elettronica e modificare l'oggetto e il corpo del messaggio. È possibile impostare testi costanti per l'oggetto e il corpo del messaggio di posta elettronica oppure utilizzare le formule ER per creare in modo dinamico i testi del messaggio di posta elettronica. È possibile configurare gli indirizzi di posta elettronica per ER in due modi. La configurazione può essere completata in modo analogo alla funzionalità Gestione stampa in Finance and Operations. In alternativa, è possibile risolvere un indirizzo di posta elettronica utilizzando un riferimento diretto alla configurazione ER mediante una formula.
 
 ### <a name="email-address-types"></a>Tipi di indirizzo di posta elettronica
 
@@ -89,15 +89,15 @@ Usano questo tipo di messaggio di posta elettronica se la configurazione da util
 
 [![Assegnazione di un'origine dati di indirizzo di posta elettronica per una destinazione posta elettronica](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Nota:** un server SMTP (Simple Mail Transfer Protocol) deve essere configurato e disponibile. È possibile specificare il server SMTP in Dynamics 365 for Operations in **Amministrazione sistema** &gt; **Impostazioni** &gt; **Posta elettronica** &gt; **Parametri posta elettronica**.
+**Nota:** un server SMTP (Simple Mail Transfer Protocol) deve essere configurato e disponibile. È possibile specificare il server SMTP in Finance and Operations in **Amministrazione sistema** &gt; **Impostazioni** &gt; **Posta elettronica** &gt; **Parametri posta elettronica**.
 
 ### <a name="archive-destination"></a>Destinazione archivio
 
-È possibile utilizzare questa opzione per inviare l'output a una cartella di Microsoft SharePoint o Archiviazione di Microsoft Azure. Impostare **Abilitato** su **Sì**per inviare l'output a una destinazione definita dal tipo di documento selezionato. Solo tipi di documento in cui il gruppo è impostato su **File** sono disponibili per la selezione. I tipi di documento vengono definiti in **Amministrazione organizzazione** &gt; **Gestione documenti** &gt; **Tipi di documento**. La configurazione per le destinazioni ER è lo stessa della configurazione del sistema di gestione documenti.
+È possibile utilizzare questa opzione per inviare l'output a una cartella di Microsoft SharePoint o Archiviazione di Microsoft Azure. Impostare **Abilitato** su **Sì** per inviare l'output a una destinazione definita dal tipo di documento selezionato. Solo tipi di documento in cui il gruppo è impostato su **File** sono disponibili per la selezione. I tipi di documento vengono definiti in **Amministrazione organizzazione** &gt; **Gestione documenti** &gt; **Tipi di documento**. La configurazione per le destinazioni ER è lo stessa della configurazione del sistema di gestione documenti.
 
 [![Pagina Tipi di documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-Il percorso posizione determina dove viene salvato il file. Una volta abilitata la destinazione **Archivio**, i risultati dell'esecuzione della configurazione possono essere salvati nell'archivio processi. È possibile visualizzare i risultati in **Amministrazione organizzazione** &gt; **Creazione di report elettronici** &gt; **Processi archiviati di creazione report elettronici**. **Nota:** è possibile selezionare un tipo di documento per l'archivio processi in Dynamics 365 for Operations in **Amministrazione organizzazione** &gt; **Aree di lavoro** &gt; **Creazione di report elettronici** &gt; **Parametri per la creazione di report elettronici**.
+Il percorso posizione determina dove viene salvato il file. Una volta abilitata la destinazione **Archivio**, i risultati dell'esecuzione della configurazione possono essere salvati nell'archivio processi. È possibile visualizzare i risultati in **Amministrazione organizzazione** &gt; **Creazione di report elettronici** &gt; **Processi archiviati di creazione report elettronici**. **Nota:** è possibile selezionare un tipo di documento per l'archivio processi in Finance and Operations in **Amministrazione organizzazione** &gt; **Aree di lavoro** &gt; **Creazione di report elettronici** &gt; **Parametri per la creazione di report elettronici**.
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -119,7 +119,7 @@ Se si imposta **Abilitato** su **Sì**, viene creata un'anteprima dell'output. �
 
 ### <a name="power-bi-destination"></a>Destinazione Power BI
 
-Impostare **Abilitato** su **Sì** per utilizzare la configurazione ER per definire il trasferimento di dati dall'istanza di Microsoft Dynamics 365 for Operations ai servizi Power BI. I file trasferiti sono archiviati in un'istanza di Microsoft SharePoint Server che deve essere configurata a tale scopo. Per ulteriori informazioni, vedere [Utilizzare una configurazione di creazione di report elettronici per fornire a Power BI dati di Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Suggerimento:** per ignorare il comportamento predefinito (ovvero, la finestra di dialogo per una configurazione), è possibile creare un riferimento di destinazione e una destinazione di file per il componente di output principale e quindi disattivare tutte le destinazioni.
+Impostare **Abilitato** su **Sì** per utilizzare la configurazione ER per definire il trasferimento di dati dall'istanza di Finance and Operations ai servizi Microsoft Power BI. I file trasferiti sono archiviati in un'istanza di Microsoft SharePoint Server che deve essere configurata a tale scopo. Per ulteriori informazioni, vedere [Utilizzare la configurazione di creazione report elettronici per fornire a Power BI i dati da Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Suggerimento:** per ignorare il comportamento predefinito (ovvero, la finestra di dialogo per una configurazione), è possibile creare un riferimento di destinazione e una destinazione di file per il componente di output principale e quindi disattivare tutte le destinazioni.
 
 ## <a name="security-considerations"></a>Considerazioni sulla sicurezza
 Vengono utilizzati due tipi di compiti e privilegi per le destinazioni ER. Un tipo controlla la possibilità di gestire le destinazioni generali che sono configurate per una persona giuridica (ovvero, controlla l'accesso alla pagina **Destinazione report elettronici**). L'altro tipo controlla la possibilità dell'utente di un'applicazione di ignorare, in fase di esecuzione, le impostazioni di destinazione configurate da uno sviluppatore ER o consulente funzionale ER.
@@ -152,7 +152,7 @@ La formula è specifica per la configurazione ER. Ad esempio, se si utilizza la 
 
 ### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Una delle configurazioni formato contiene più file raggruppati in un'unica cartella (ad esempio, Folder1 contiene File1 e File2 e File3). Come impostare le destinazioni in modo che Folder1.zip non viene creata, File1 viene inviato tramite posta elettronica, File2 viene inviato a SharePoint e sia possibile aprire File3 immediatamente dopo aver eseguito la configurazione?
 
-Il prerequisito è che il formato deve essere disponibile nelle configurazioni ER. Se si dispone del formato, aprire la pagina **Destinazione report elettronici** e creare un nuovo riferimento a questa configurazione. È quindi necessario avere quattro destinazioni file, una per ogni componente di output. Creare la prima destinazione file, assegnare un nome quale **Folder**e selezionare un nome di file che rappresenta una cartella nella configurazione. Quindi fare clic su **Impostazioni**e assicurarsi che tutte le destinazioni siano disabilitate. Per questa destinazione del file, non verrà creata la cartella. Per impostazione predefinita, a causa delle dipendenze gerarchiche tra i file e cartelle padre, i file si comporteranno nello stesso modo. In altre parole, non saranno inviati da nessuna parte. Per ignorare il comportamento predefinito, è necessario creare tre ulteriori destinazioni file, una per ogni file. Nelle impostazioni di destinazione per ciascuno, è necessario abilitare la destinazione a cui il file deve essere inviato.
+Il prerequisito è che il formato deve essere disponibile nelle configurazioni ER. Se si dispone del formato, aprire la pagina **Destinazione report elettronici** e creare un nuovo riferimento a questa configurazione. È quindi necessario avere quattro destinazioni file, una per ogni componente di output. Creare la prima destinazione file, assegnare un nome quale **Folder** e selezionare un nome di file che rappresenta una cartella nella configurazione. Quindi fare clic su **Impostazioni** e assicurarsi che tutte le destinazioni siano disabilitate. Per questa destinazione del file, non verrà creata la cartella. Per impostazione predefinita, a causa delle dipendenze gerarchiche tra i file e cartelle padre, i file si comporteranno nello stesso modo. In altre parole, non saranno inviati da nessuna parte. Per ignorare il comportamento predefinito, è necessario creare tre ulteriori destinazioni file, una per ogni file. Nelle impostazioni di destinazione per ciascuno, è necessario abilitare la destinazione a cui il file deve essere inviato.
 
 # <a name="see-also"></a>Vedere anche
 

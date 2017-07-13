@@ -3,24 +3,24 @@ title: "Gestione progetti e contabilità"
 description: "La funzionalità gestione progetti e contabilità può essere utilizzata in più settori per fornire un servizio, realizzare un prodotto oppure ottenere un risultato."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,7 +37,7 @@ Un progetto è un gruppo di attività progettato per fornire un servizio, produr
 ## <a name="projects-across-industries"></a>Progetti tra settori
 La funzionalità gestione progetti e contabilità può essere utilizzata in più settori, come illustrato nella figura seguente. [![Progetti tra settori](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-In un call center un ticket può essere utilizzato per descrivere il set di azioni necessarie per risolvere una chiamata. Le società di consulenza, ad esempio le organizzazioni di consulenza tecnica o di gestione oppure le agenzie di pubblicità, fanno riferimento alle loro attività come progetti. Nel marketing una campagna rappresenta un set di lavoro che deve essere consegnato. Nella produzione basata su progetti, un ordine di produzione si riferisce ai vari lavori che devono essere eseguiti per produrre alcuni prodotti finiti. Qualsiasi nome venga utilizzato per i prodotti, questi progetti coinvolgono risorse, programmazioni e costi e la funzionalità gestione progetti e contabilità di Microsoft Dynamics 365 for Operations può facilitare la pianificazione, l'esecuzione e l'analisi di questi progetti.
+In un call center un ticket può essere utilizzato per descrivere il set di azioni necessarie per risolvere una chiamata. Le società di consulenza, ad esempio le organizzazioni di consulenza tecnica o di gestione oppure le agenzie di pubblicità, fanno riferimento alle loro attività come progetti. Nel marketing una campagna rappresenta un set di lavoro che deve essere consegnato. Nella produzione basata su progetti, un ordine di produzione si riferisce ai vari lavori che devono essere eseguiti per produrre alcuni prodotti finiti. Qualsiasi nome venga utilizzato per i prodotti, questi progetti coinvolgono risorse, programmazioni e costi e la funzionalità gestione progetti e contabilità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition può facilitare la pianificazione, l'esecuzione e l'analisi di questi progetti.
 
 ## <a name="project-phases"></a>Fasi progetto
 Sebbene il seguente flusso del processo sia teso verso progetti esterni o progetti che vengono completati per uno o più clienti, la funzionalità si applica anche ai progetti interni e di soli costi. 
@@ -75,11 +75,11 @@ Per ulteriori informazioni, vedere [Strutture di suddivisione del lavoro](work-b
 
 ### <a name="create-project-forecasts-and-budgets"></a>Creazione di previsioni di progetto e budget
 
-È possibile utilizzare le previsioni se l'organizzazione si basa su una prospettiva operativa ed è incentrata sui ricavi e i costi derivati da transazioni specifiche. Tuttavia, se l'organizzazione è incentrata maggiormente sugli importi finanziari, può essere utilizzata l'impostazione del budget. Ciascun metodo ha i relativi vantaggi. Per ulteriori informazioni, vedere [Previsioni di progetto e budget](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+È possibile utilizzare le previsioni se l'organizzazione si basa su una prospettiva operativa ed è incentrata sui ricavi e i costi derivati da transazioni specifiche. Tuttavia, se l'organizzazione è incentrata maggiormente sugli importi finanziari, può essere utilizzata l'impostazione del budget. Ciascun metodo ha i relativi vantaggi. Per ulteriori informazioni, vedere [Previsioni di progetto e budget](project-forecasts-budgets.md).
 
 ### <a name="create-projects"></a>Crea progetti
 
-È possibile creare sei tipi di progetti in Microsoft Dynamics 365 for Operations. Ogni tipo di progetto è impostato in modo diverso per i costi e il riconoscimento dei ricavi. La scelta del tipo di progetto dipende dallo scopo del progetto. Nella seguente tabella viene descritto l'utilizzo tipico di ciascun tipo di progetto.
+È possibile creare sei tipi di progetti in Microsoft Finance and Operations. Ogni tipo di progetto è impostato in modo diverso per i costi e il riconoscimento dei ricavi. La scelta del tipo di progetto dipende dallo scopo del progetto. Nella seguente tabella viene descritto l'utilizzo tipico di ciascun tipo di progetto.
 
                                                                                                                                                                          |
 | Tipo di progetto      | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Per ulteriori informazioni, vedere [Strutture di suddivisione del lavoro](work-b
 
 Sono disponibili due modi per gestire e controllare i progetti: previsioni di progetto e budget di progetto. È possibile utilizzare le previsioni se l'organizzazione si basa su una prospettiva operativa ed è incentrata sui ricavi e i costi derivati da transazioni specifiche. Tuttavia, se l'organizzazione è incentrata maggiormente sugli importi finanziari, può essere utilizzata l'impostazione del budget.
 
-Per ulteriori informazioni, vedere [Previsioni di progetto e budget](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Per ulteriori informazioni, vedere [Previsioni di progetto e budget](project-forecasts-budgets.md).
 
 ### <a name="create-production-orders"></a>Creazione di ordini di produzione
 
@@ -210,7 +210,7 @@ Per informazioni su come elaborare le fatture dei progetti, vedere [Fatturazione
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcolo del costo di completamento di un progetto
 
-Quando si crea una stima, è possibile scegliere il metodo per il calcolo dei costi di completamento del progetto. Selezionare un metodo nel campo **Metodo costi di completamento**della pagina **Crea stima**. Il metodo scelto si applica separatamente a ogni riga dei costi nella stima dei costi. Quando una riga ha lo stato di **Creato**, è possibile modificare il metodo applicato ad essa nella pagina **Stima dei costi**. 
+Quando si crea una stima, è possibile scegliere il metodo per il calcolo dei costi di completamento del progetto. Selezionare un metodo nel campo **Metodo costi di completamento** della pagina **Crea stima**. Il metodo scelto si applica separatamente a ogni riga dei costi nella stima dei costi. Quando una riga ha lo stato di **Creato**, è possibile modificare il metodo applicato ad essa nella pagina **Stima dei costi**. 
 
 Nella seguente tabella sono descritti i metodi per calcolare il costo per completare un progetto.
 
@@ -228,7 +228,7 @@ Nella seguente tabella sono descritti i metodi per calcolare il costo per comple
 <tbody>
 <tr class="odd">
 <td>Costo totale - Effettivo</td>
-<td>I costi stimati devono essere immessi manualmente. Dopo che è stata completata la colonna <strong>Costo totale</strong> o <strong>Quantità totale</strong> nella pagina <strong>Stima dei costi</strong>, i costi effettivi vengono sottratti dai totali immessi dagli utenti. Il risultato è il costo per completare il progetto. In genere, non viene tenuta traccia dello stato di avanzamento dei costi in base, ad esempio, al numero di soggiorni e di pasti in hotel registrati in ogni periodo. Al contrario. Si basa invece su un confronto con l'importo totale delle ore stimate. Questo metodo non richiede un modello previsionale e il costo totale o la quantità totale può essere modificata manualmente. Quando un valore viene immesso nella colonna <strong>Costo totale</strong> o <strong>Quantità totale</strong>, Microsoft Dynamics 365 for Operations confronta il valore con le transazioni effettive registrate nel periodo e quindi riduce il valore nella colonna <strong>Quantità da completare</strong> o <strong>Costi di completamento</strong>.</td>
+<td>I costi stimati devono essere immessi manualmente. Dopo che è stata completata la colonna <strong>Costo totale</strong> o <strong>Quantità totale</strong> nella pagina <strong>Stima dei costi</strong>, i costi effettivi vengono sottratti dai totali immessi dagli utenti. Il risultato è il costo per completare il progetto. In genere, non viene tenuta traccia dello stato di avanzamento dei costi in base, ad esempio, al numero di soggiorni e di pasti in hotel registrati in ogni periodo. Al contrario. Si basa invece su un confronto con l'importo totale delle ore stimate. Questo metodo non richiede un modello previsionale e il costo totale o la quantità totale può essere modificata manualmente. Quando un valore viene immesso nella colonna <strong>Costo totale</strong> o <strong>Quantità totale</strong>, Finance and Operations confronta il valore con le transazioni effettive registrate nel periodo e quindi riduce il valore nella colonna <strong>Quantità da completare</strong> o <strong>Costi di completamento</strong>.</td>
 </tr>
 <tr class="even">
 <td>Budget totale - Effettivo</td>
@@ -238,7 +238,7 @@ Nella seguente tabella sono descritti i metodi per calcolare il costo per comple
 <li>Confrontare le transazioni previsionali con le transazioni effettive.</li>
 <li>Gestire, diminuire, incrementare le stime per il periodo successivo.</li>
 </ol>
-Microsoft Dynamics 365 for Operations non riduce automaticamente le stime previste. Pertanto, si consiglia di conservare un modello previsionale originale del progetto a prezzo fisso per creare un riferimento di base con cui eseguire il confronto una volta che il progetto è stato completato. 
+Finance and Operations non riduce automaticamente le stime previste. Pertanto, si consiglia di conservare un modello previsionale originale del progetto a prezzo fisso per creare un riferimento di base con cui eseguire il confronto una volta che il progetto è stato completato. 
 > [!NOTE]: quando si seleziona questo metodo, utilizzare almeno due modelli previsionali. Un modello deve contenere la previsione originale. Nell'altro occorre copiare le transazioni previsionali da un altro modello. Questo metodo vale solo per i progetti a prezzo fisso e i progetti di investimento.</td>
 > </tr>
 <tr class="odd">
@@ -316,7 +316,7 @@ In base alle impostazioni, ecco la data di pagamento dei costi per ogni tipo di 
 
 La data di pagamento dei costi non viene calcolata in base ai giorni di tolleranza. Una volta finito il progetto e completate la determinazioni costi e la fatturazione, il costo e le vendite vengono registrati nei conti profitti e perdite. 
 
-Quando tutte le vendite e le fatture fornitore vengono completate, è possibile visualizzare la relazione tra i campi nella pagina **Flusso di cassa**e i campi nella pagina **Rendiconti progetto**.
+Quando tutte le vendite e le fatture fornitore vengono completate, è possibile visualizzare la relazione tra i campi nella pagina **Flusso di cassa** e i campi nella pagina **Rendiconti progetto**.
 
 | Pagina Flusso di cassa | Pagina Rendiconti progetto |
 |----------------|-------------------------|
@@ -333,14 +333,14 @@ La pagina **Controllo costi** consente di monitorare i costi sostenuti dall'orga
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Visualizzazione degli importi a budget residui
 
-Se **Budget residuo**è selezionato come metodo di controllo dei costi nella pagina **Parametri Gestione progetti e contabilità**, nella pagina **Controllo costi** vengono calcolati i costi che non sono stati registrati come effettivi o contrassegnati come impegnati. In particolare, gli importi nelle colonne della scheda **Generale** nel riquadro inferiore della pagina **Controllo costi**vengono calcolati nei modi indicati di seguito:
+Se **Budget residuo** è selezionato come metodo di controllo dei costi nella pagina **Parametri Gestione progetti e contabilità**, nella pagina **Controllo costi** vengono calcolati i costi che non sono stati registrati come effettivi o contrassegnati come impegnati. In particolare, gli importi nelle colonne della scheda **Generale** nel riquadro inferiore della pagina **Controllo costi** vengono calcolati nei modi indicati di seguito:
 
 -   **Costo effettivo**: importo totale speso per il progetto per la riga costi selezionata. L'importo di costo effettivo viene calcolato alla pagina **Aggiornamenti contabili**.
 -   **Costo impegnato**: importo aggiuntivo delle spese che la persona giuridica si è impegnata a pagare. Gli importi specifici dei costi impegnati vengono calcolati nella pagina **Costi impegnati**.
 -   **Budget residuo**: somma dell'importo di budget originale ancora disponibile per la riga costi selezionata. L'importo a budget residuo viene calcolato alla pagina **Anteprima Contabilità generale**.
 -   **Costo totale**: somma del costo effettivo, del costo impegnato e degli importi a budget residui.
 
-Nella scheda **Deviazione**della pagina **Controllo costi**è possibile visualizzare il costo previsto totale a confronto con il budget originale. Il confronto evidenzia tutte le differenze tra gli importi. Di conseguenza, è possibile visualizzare dove i dati non corrispondono. I valori delle deviazioni vengono calcolati nei seguenti modi:
+Nella scheda **Deviazione** della pagina **Controllo costi** è possibile visualizzare il costo previsto totale a confronto con il budget originale. Il confronto evidenzia tutte le differenze tra gli importi. Di conseguenza, è possibile visualizzare dove i dati non corrispondono. I valori delle deviazioni vengono calcolati nei seguenti modi:
 
 -   **Budget originale**: importo originariamente a budget per la riga costi selezionata. L'importo a budget originale viene calcolato alla pagina **Anteprima Contabilità generale**.
 -   **Costo totale**: somma del costo effettivo, del costo impegnato e del budget residuo, riportati nella scheda **Generale**.
@@ -357,7 +357,7 @@ Se **Budget totale** è selezionato come metodo di controllo dei costi nella pag
 -   **Costo impegnato**: importo totale impegnato per la riga costi selezionata.
 -   **Scostamento**: differenza tra la somma dei costi effettivi e impegnati e il costo totale. Lo scostamento indica se è necessario specificare costi aggiuntivi per il budget totale.
 
-Nella scheda **Deviazione** della pagina **Controllo costi**è possibile visualizzare la differenza tra il budget totale e il budget originale facendo riferimento ai campi riportati di seguito:
+Nella scheda **Deviazione** della pagina **Controllo costi** è possibile visualizzare la differenza tra il budget totale e il budget originale facendo riferimento ai campi riportati di seguito:
 
 -   **Budget originale**: importo originariamente a budget per la riga costi. Il budget originale viene calcolato nella pagina **Anteprima Contabilità generale**.
 -   **Costo a budget totale**: costo totale originariamente a budget per la riga costi. Il costo totale a budget viene calcolato nella pagina **Anteprima Contabilità generale**.
@@ -394,7 +394,7 @@ Quando si calcola il tasso di utilizzo per un lavoratore, è possibile utilizzar
 
 ### <a name="review-project-statements"></a>Verifica rendiconti progetto
 
-È possibile creare un rendiconto progetto per visualizzare uno snapshot rapido dello stato di avanzamento di un progetto. Quando si eseguono i rendiconti progetto, è possibile determinare i criteri utilizzati per calcolare il rendiconto selezionando le opzioni nella scheda **Generale**della pagina **Rendiconti progetto**. È possibile scegliere di includere o escludere le seguenti informazioni:
+È possibile creare un rendiconto progetto per visualizzare uno snapshot rapido dello stato di avanzamento di un progetto. Quando si eseguono i rendiconti progetto, è possibile determinare i criteri utilizzati per calcolare il rendiconto selezionando le opzioni nella scheda **Generale** della pagina **Rendiconti progetto**. È possibile scegliere di includere o escludere le seguenti informazioni:
 
 -   Tipi di progetto
 -   Tipi di transazione

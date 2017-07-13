@@ -1,15 +1,15 @@
 ---
 title: Vendite e marketing
-description: "È possibile utilizzare Vendite e marketing per ottenere, archiviare e utilizzare vari tipi di dati nel flusso di vendita. Ciò include l&quot;iniziativa di vendita iniziale, azioni follow-up successive e vendite aggiuntive."
+description: "È possibile utilizzare Vendite e marketing per ottenere, archiviare e utilizzare vari tipi di dati nel flusso di vendita. Ciò include l'iniziativa di vendita iniziale, azioni follow-up successive e vendite aggiuntive."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 25ea6e64453b22d664dd65a1f1bb18e3a1997bc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -43,7 +43,7 @@ In vendite e marketing, le interazioni iniziali con potenziali clienti possono v
 
 ### <a name="campaigns"></a>Campagne
 
-Una campagna è destinata ai contatti per i prospect, i clienti potenziali, le opportunità e i clienti selezionati per partecipare alla campagna. In Microsoft Dynamics  365 for Operations, è possibile creare diversi tipi di campagne, quali telemarketing, mailing e campagne di posta elettronica, per massimizzare il potenziale di clienti. Man mano che avanza la campagna e si ricevono risposte positive, è possibile iniziare il processo di vendita con i destinatari che hanno risposto positivamente alla campagna.
+Una campagna è destinata ai contatti per i prospect, i clienti potenziali, le opportunità e i clienti selezionati per partecipare alla campagna. In Microsoft Dynamics 365 for Finance and Operations, è possibile creare diversi tipi di campagne, quali telemarketing, mailing e campagne di posta elettronica, per massimizzare il potenziale di clienti. Man mano che avanza la campagna e si ricevono risposte positive, è possibile iniziare il processo di vendita con i destinatari che hanno risposto positivamente alla campagna.
 
 ## <a name="sales"></a>Vendite
 Utilizzare la funzionalità di vendita per creare le offerte, effettuare l'upselling e il cross-selling a clienti nuovi ed esistenti, creare ordini cliente e creare fatture di vendita per i clienti. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per le vendite. [![Processo aziendale per le vendite](./media/sales01.jpg)](./media/sales01.jpg)

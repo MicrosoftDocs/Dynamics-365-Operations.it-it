@@ -1,27 +1,29 @@
 ---
 title: "Impostare un programma fedeltà"
-description: "In questo articolo viene descritto come impostare un programma fedeltà. Un programma fedeltà può contribuire ad aumentare la fedeltà dei clienti premiandoli per l&quot;acquisto di prodotti nei propri punti vendita al dettaglio. In Microsoft Dynamics 365 for Operations è possibile impostare programmi fedeltà semplici o complessi applicabili alle persone giuridiche in qualsiasi canale di vendita al dettaglio."
+description: "In questo articolo viene descritto come impostare un programma fedeltà. Un programma fedeltà può contribuire ad aumentare la fedeltà dei clienti premiandoli per l'acquisto di prodotti nei propri punti vendita al dettaglio. In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili in tutte le persone giuridiche per qualsiasi canale di vendita al dettaglio."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 04521c20ddeca1154b134b23c1db69f45c554ed3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-In questo articolo viene descritto come impostare un programma fedeltà. Un programma fedeltà può contribuire ad aumentare la fedeltà dei clienti premiandoli per l'acquisto di prodotti nei propri punti vendita al dettaglio. In Microsoft Dynamics 365 for Operations è possibile impostare programmi fedeltà semplici o complessi applicabili alle persone giuridiche in qualsiasi canale di vendita al dettaglio.
+In questo articolo viene descritto come impostare un programma fedeltà. Un programma fedeltà può contribuire ad aumentare la fedeltà dei clienti premiandoli per l'acquisto di prodotti nei propri punti vendita al dettaglio. In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili in tutte le persone giuridiche per qualsiasi canale di vendita al dettaglio.
 
 <a name="loyalty-features"></a>Funzionalità di fedeltà
 ----------------
@@ -45,7 +47,7 @@ In questo articolo viene descritto come impostare un programma fedeltà. Un prog
 -   Rettificare manualmente le carte fedeltà o trasferire il saldo premi fedeltà da una carta a un'altra per soddisfare o premiare un cliente.
 
 ## <a name="setting-up-loyalty-programs"></a>Impostazione dei programmi fedeltà
-È necessario impostare più componenti per abilitare la funzionalità del programma fedeltà in Dynamics 365 for Operations - Retail. Nel diagramma riportato di seguito vengono illustrati i componenti del programma fedeltà e viene indicato in quale modo fanno riferimento l'uno all'altro. ![Flusso del processo di impostazione del programma fedeltà](./media/loyaltyprocess.gif)
+È necessario impostare più componenti per abilitare la funzionalità del programma fedeltà in Dynamics 365 for Retail. Nel diagramma riportato di seguito vengono illustrati i componenti del programma fedeltà e viene indicato in quale modo fanno riferimento l'uno all'altro. ![Flusso del processo di impostazione del programma fedeltà](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>Componenti del programma fedeltà
 Nella seguente tabella viene descritto ciascun componente e viene indicato dove viene utilizzato nell'impostazione del programma fedeltà.
@@ -68,7 +70,7 @@ Nella seguente tabella sono descritti i processi che devono essere eseguiti per 
 
 | Nome processo                         | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                    | Nome pagina                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (informazioni fedeltà)           | Eseguire questo processo per inviare i dati del programma fedeltà da Dynamics 365 for Operations ai punti vendita al dettaglio. È una buona idea programmare l'esecuzione del processo di frequente, in modo che i dati del programma fedeltà siano trasmessi a tutti gli archivi.                                                                                                                                                                                               | Programmazione della distribuzione                |
+| 1050 (informazioni fedeltà)           | Eseguire questo processo per inviare i dati del programma fedeltà da Dynamics 365 for Retail ai punti vendita al dettaglio. È una buona idea programmare l'esecuzione del processo di frequente, in modo che i dati del programma fedeltà siano trasmessi a tutti gli archivi.                                                                                                                                                                                               | Programmazione della distribuzione                |
 | Elabora programmi fedeltà              | Eseguire questo processo per associare gli schemi del programma fedeltà ai canali di vendita al dettaglio a cui lo schema del programma fedeltà è assegnato. Questo processo può essere programmato per l'esecuzione come processo batch. È necessario eseguire questo processo se si modificano i dati di configurazione del programma fedeltà, ad esempio schemi del programma fedeltà, programmi fedeltà o i punti di ricompensa del programma fedeltà.                                                                                               | Elabora programmi fedeltà              |
 | Elabora transazioni fedeltà offline | Eseguire questo processo per aggiornare le carte fedeltà in modo che includano le transazioni elaborate offline. Questo processo si applica solo se la casella di controllo **Guadagna offline** è selezionata nella pagina **Parametri condivisi di vendita al dettaglio**, in modo che i premi possono essere guadagnati offline.                                                                                                                                               | Elabora transazioni fedeltà offline |
 | Aggiorna livelli carta fedeltà            | Eseguire questo processo per valutare l'attività di acquisizione del cliente rispetto alle regole di livello per un programma fedeltà e aggiornare lo stato del livello del cliente. Questo processo è necessario solo se si modificano le regole di livello nei programmi fedeltà e si desidera applicare le regole aggiornate con effetto retroattivo alle carte fedeltà già emesse. Questo processo può essere eseguito come processo batch o per le carte singole. | Aggiorna livelli carta fedeltà            |

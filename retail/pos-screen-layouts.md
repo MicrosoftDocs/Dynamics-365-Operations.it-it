@@ -1,27 +1,28 @@
 ---
 title: Configurare i layout schermo per POS
-description: Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze si Microsoft Dynamics 365 for Operations - Retail POS.
+description: Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze si Microsoft Dynamics 365 for Retail POS.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7dee20166ea89b56523e3ef38e66de53d6e4a621
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 9f7f46c1bae5bac6eefa0b8c70b079cab76aa8b6
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze si Microsoft Dynamics 365 for Operations - Retail POS.
+Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze si Microsoft Dynamics 365 for Retail POS.
 
-L'interfaccia utente Microsoft Dynamics 365 for Operations - Retail POS può essere configurata utilizzando una combinazione di profili visivi e di layout dello schermo assegnati a punti vendita, registratori di cassa e/o agli utenti.
+L'interfaccia utente Microsoft Dynamics 365 for Retail POS può essere configurata utilizzando una combinazione di profili visivi e di layout dello schermo assegnati a punti vendita, registratori di cassa e/o agli utenti.
 
 ## <a name="visual-profile"></a>Profilo visivo
 I profili visivi vengono assegnati ai registratori di cassa e vengono utilizzati per specificare gli elementi visivi specifici del registratore e condivisi tra gli utenti. Qualsiasi utente che accede al registratore di cassa visualizzerà gli stessi contenuti, colori e immagini. 
@@ -46,7 +47,7 @@ I profili visivi vengono assegnati ai registratori di cassa e vengono utilizzati
 
 **Colore accento**: il colore accento viene utilizzato nel POS per distinguere o evidenziare alcuni elementi visivi ad esempio riquadri, pulsanti di comando o collegamenti ipertestuali. Questi elementi sono in genere elementi su cui è possibile eseguire azioni.
 
-**Colore intestazione**: il colore dell'intestazione consente all'utente di configurare il colore dell'intestazione di pagina per soddisfare le esigenze di marchio del rivenditore. Questa funzionalità è disponibile solo nella versione 1611 di Dynamics 365 for Operations.
+**Colore intestazione**: il colore dell'intestazione consente all'utente di configurare il colore dell'intestazione di pagina per soddisfare le esigenze di marchio del rivenditore. Questa funzionalità è disponibile solo nella versione 1611 di Dynamics 365 for Retail.
 
 **Sfondi di accesso**: gli utenti possono specificare un'immagine di sfondo per la schermata di accesso. Le dimensioni dei file di immagine di sfondo devono essere mantenute il più ridotte possibile in quanto la memorizzazione e il caricamento di file di grandi dimensioni può avere un impatto sul comportamento e sulle prestazioni dell'applicazione.
 
@@ -67,7 +68,7 @@ I layout dello schermo possono essere assegnati a livello di punto vendita, regi
 
 ### <a name="layout-sizes"></a>Dimensioni layout
 
-Questa funzionalità si applica solo alla versione 1611 di Dynamics 365 for Operations. Poiché in molti casi i layout dello schermo possono essere utilizzati con dimensioni e risoluzioni dello schermo diversi, gli utenti possono configurare i propri layout e contenuti per ciascuno di essi. L'applicazione POS sceglierà automaticamente la dimensione del layout più vicina per l'unità al momento dell'avvio. Un layout dello schermo può inoltre contenere le configurazioni per dispositivi compatti e completi. Questa configurazione consente di assegnare un utente a un singolo layout dello schermo supportato per diverse dimensioni e fattori in forma del punto vendita. 
+Questa funzionalità si applica solo alla versione 1611 di Dynamics 365 for Retail. Poiché in molti casi i layout dello schermo possono essere utilizzati con dimensioni e risoluzioni dello schermo diversi, gli utenti possono configurare i propri layout e contenuti per ciascuno di essi. L'applicazione POS sceglierà automaticamente la dimensione del layout più vicina per l'unità al momento dell'avvio. Un layout dello schermo può inoltre contenere le configurazioni per dispositivi compatti e completi. Questa configurazione consente di assegnare un utente a un singolo layout dello schermo supportato per diverse dimensioni e fattori in forma del punto vendita. 
 
 **POS moderno - Completo**: il layout completo in genere è più adatto per schermi di maggiori dimensioni, ad esempio di monitor di PC o tablet. Gli utenti possono selezionare gli elementi dell'interfaccia utente da includere, determinarne la relativa dimensione e posizione e configurare le proprietà dettagliate. Il layout completo supporta entrambe le configurazioni orizzontale e verticale. 
 
@@ -77,11 +78,11 @@ Questa funzionalità si applica solo alla versione 1611 di Dynamics 365 for Oper
 
 Ogni dimensione del layout in un layout dello schermo deve essere configurata mediante Progettazione layout dello schermo. Questa funzione consente agli utenti di specificare e configurare gli elementi dell'interfaccia utente della Schermata transazione. Progettazione layout dello schermo utilizza ClickOnce per scaricare, installare e avviare l'ultima versione dell'applicazione ogni volta che un utente accede. Assicurarsi di verificare i requisiti del browser per l'utilizzo di ClickOnce, alcuni browser, come Chrome, richiedono delle estensioni. 
 
-**Tastierino numerico**: è l'input utente principale nella Schermata transazione del POS. Può essere configurato per visualizzare l'intero tastierino sullo schermo, ideale per touchscreen o solo il campo di input, che può essere utilizzato con una tastiera fisica. Le impostazioni del tastierino numerico sono disponibili solo nel layout completo. Nella versione 1611 di Dynamics 365 for Operations, i layout compatti hanno sempre il tastierino numerico completo disponibile nella Schermata transazione.
+**Tastierino numerico**: è l'input utente principale nella Schermata transazione del POS. Può essere configurato per visualizzare l'intero tastierino sullo schermo, ideale per touchscreen o solo il campo di input, che può essere utilizzato con una tastiera fisica. Le impostazioni del tastierino numerico sono disponibili solo nel layout completo. Nella versione 1611 di Dynamics 365 for Retail, i layout compatti hanno sempre il tastierino numerico completo disponibile nella Schermata transazione.
 
-**Pannello totali**: può essere configurato in una o due colonne per visualizzare i campi come ad esempio conteggio righe, importo di sconto, addebiti, subtotale e imposta. Nella versione 1611 di Dynamics 365 for Operations, i layout compatti supportano solo una singola colonna dei totali. 
+**Pannello totali**: può essere configurato in una o due colonne per visualizzare i campi come ad esempio conteggio righe, importo di sconto, addebiti, subtotale e imposta. Nella versione 1611 di Dynamics 365 for Retail, i layout compatti supportano solo una singola colonna dei totali. 
 
-**Ricevuta**: il riquadro ricevuta contiene righe di vendita, pagamento e le informazioni di consegna per i prodotti e i servizi elaborati nel POS. È possibile specificare colonne, larghezze e posizione. Nei layout compatti in Dynamics 365 for Operations versione 1611, è possibile configurare informazioni aggiuntive che verranno visualizzate nella riga sotto la riga principale. 
+**Ricevuta**: il riquadro ricevuta contiene righe di vendita, pagamento e le informazioni di consegna per i prodotti e i servizi elaborati nel POS. È possibile specificare colonne, larghezze e posizione. Nei layout compatti in Dynamics 365 for Retail versione 1611, è possibile configurare informazioni aggiuntive che verranno visualizzate nella riga sotto la riga principale. 
 
 **Scheda cliente**: vengono visualizzate le informazioni relative al cliente attualmente associato alla transazione. La scheda cliente può essere configurata per nascondere o visualizzare informazioni aggiuntive. 
 
@@ -89,7 +90,7 @@ Ogni dimensione del layout in un layout dello schermo deve essere configurata me
 
 **Immagine**: il controllo immagine può essere utilizzato per visualizzare il logo del punto vendita o un'altra immagine del marchio nello schermo di transazione. Controllo immagine è disponibile solo per i layout completi. 
 
-**Prodotti consigliati**: se configurato per l'ambiente, il controllo prodotti consigliati visualizza suggerimenti sul prodotto basati su Machine Learning. Il controllo prodotti consigliati è disponibile solo per i layout completi Dynamics 365 for Operations versione 1611. **Controllo personalizzato** il controllo personalizzato agisce come segnaposto nel layout dello schermo e consente agli utenti di prenotare lo spazio per contenuto personalizzato. Controllo personalizzato è disponibile solo per i layout completi.
+**Prodotti consigliati**: se configurato per l'ambiente, il controllo prodotti consigliati visualizza suggerimenti sul prodotto basati su Machine Learning. Il controllo prodotti consigliati è disponibile solo per i layout completi Dynamics 365 for Retail versione 1611. **Controllo personalizzato** il controllo personalizzato agisce come segnaposto nel layout dello schermo e consente agli utenti di prenotare lo spazio per contenuto personalizzato. Controllo personalizzato è disponibile solo per i layout completi.
 
 <a name="see-also"></a>Vedere anche
 --------

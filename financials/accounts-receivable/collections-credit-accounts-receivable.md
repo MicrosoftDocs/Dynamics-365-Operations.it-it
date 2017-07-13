@@ -1,9 +1,9 @@
 ---
 title: "Crediti e riscossioni in Contabilità clienti"
-description: "Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti."
+description: "Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti.
+Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Finance and Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti.
 
 Prima di iniziare a impostare o a utilizzare le riscossioni, è necessario comprendere i concetti seguenti:
 -   Gli snapshot di aging dei clienti contengono informazioni sui saldi con aging in un momento specifico del tempo
@@ -59,9 +59,9 @@ Per ogni periodo di aging nella definizione del periodo di aging viene creato un
 I pool di clienti sono query che definiscono un gruppo di record cliente che possono essere visualizzati e gestiti per i processi di riscossione o di aging. Utilizzare i pool di clienti per filtrare le informazioni presenti nelle pagine elenco Saldi con aging, Attività di riscossione e Casi di riscossione. È inoltre possibile utilizzare i pool di clienti per filtrare i conti cliente inclusi quando vengono creati gli snapshot di aging.
 
 ## <a name="collections-agents"></a>Agenti di riscossione
-Per impostazione predefinita, gli utenti di Microsoft Dynamics 365 for Operations possono visualizzare tutte le informazioni sui clienti nelle pagine elenco di riscossione. È possibile utilizzare i record agente di riscossione per determinare i pool di clienti disponibili per filtrare le informazioni presenti nelle pagine elenco di riscossione e nella pagina Riscossioni. 
+Per impostazione predefinita, gli utenti di Microsoft Dynamics 365 for Finance and Operations possono visualizzare tutte le informazioni sui clienti nelle pagine elenco di riscossione. È possibile utilizzare i record agente di riscossione per determinare i pool di clienti disponibili per filtrare le informazioni presenti nelle pagine elenco di riscossione e nella pagina Riscossioni. 
 
-Un agente di riscossione è una persona che lavora con i clienti per accertarsi che i pagamenti vengano riscossi con puntualità. In Microsoft Dynamics 365 for Operations, gli agenti di recupero crediti sono lavoratori assegnati agli utenti nella pagina di configurazione dell'utente.
+Un agente di riscossione è una persona che lavora con i clienti per accertarsi che i pagamenti vengano riscossi con puntualità. In Finance and Operations, gli agenti di riscossione sono lavoratori assegnati agli utenti nella pagina di configurazione dell'utente.
 
 ## <a name="collections-list-pages"></a> Pagine elenco Riscossioni 
 Le pagine elenco seguenti facilitano l'organizzazione delle informazioni sulla riscossione.
@@ -71,7 +71,7 @@ Le pagine elenco seguenti facilitano l'organizzazione delle informazioni sulla r
 
 > [!NOTE]
 > Per poter visualizzare le informazioni in queste pagine elenco, è necessario creare uno snapshot di aging. Le informazioni sono visualizzate solo per i clienti per i quali è stato creato uno snapshot di aging. I record presenti nella pagina elenco possono essere ulteriormente filtrati, ad esempio:
-<li>Per impostazione predefinita, un utente di Microsoft Dynamics 365 for Operations ha accesso a tutti i clienti che dispongono di uno snapshot di aging.</li>
+<li>Per impostazione predefinita, un utente di Finance and Operations ha accesso a tutti i clienti che dispongono di uno snapshot di aging.</li>
 <li>Se sono presenti pool di clienti, è necessario che un utente sia impostato come agente di riscossione per utilizzare i pool per filtrare le informazioni nelle pagine elenco di riscossione. Le informazioni sono limitate ai clienti inclusi nel pool di clienti selezionato.</li>
 <li>Se un utente viene impostato come agente di riscossione, nella pagina elenco saranno disponibili solo i pool selezionati per tale agente di riscossione. Se il pulsante Consenti ad agente di visualizzare tutti i pool di clienti è selezionato nella pagina Agenti di riscossione per un agente di riscossione specifico, tutti i pool sono disponibili per tale agente.</li>
 

@@ -1,33 +1,35 @@
 ---
 title: "Registrazione attività e Guida per il POS"
-description: "In questo argomento viene descritto come usare la registrazione attività in Retail Modern POS e Cloud POS."
+description: "In questo argomento viene descritto come usare Registrazione attività in Retail Modern POS e Cloud POS."
 author: mugunthanm
 manager: AnnBe
-ms.date: 2017-05-15
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+audience: Application User
 ms.reviewer: 41
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
 ms.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3ca86a3353d3f613057dd77754266fc69975229f
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 ---
 
 # <a name="task-recorder-and-help-for-pos"></a>Registrazione attività e Guida per il POS
 
-In questo argomento viene descritto come usare la registrazione attività in Retail Modern POS e Cloud POS.
+In questo argomento viene descritto come usare Registrazione attività in Retail Modern POS e Cloud POS.
 
 <a name="overview"></a>Panoramica
 --------
@@ -38,13 +40,13 @@ Registrazione attività di Retail Modern POS o Cloud POS è una soluzione nuova 
 Registrazione attività può registrare le azioni dell'utente del client con fedeltà esatta. Ogni controllo è strumentato per informare la Registrazione attività sull'esecuzione di un'azione dell'utente. Il controllo notifica alla Registrazione attività che si è verificato un evento e passa tutte le informazioni rilevanti sull'azione dell'utente corrispondente in tempo reale. In queste informazioni, la funzione Registrazione attività può acquisire il tipo di azione dell'utente (ad esempio il clic su un pulsante, l'immissione di un valore o un percorso) e tutti i dati correlati all'azione dell'utente (ad esempio il valore e il tipo di dati di input, il contesto del modulo o del record). Registrazione attività memorizza le informazioni con sufficienti dettagli per garantire che una riproduzione della registrazione può eseguire le azioni registrate esattamente come eseguite dall'utente. La funzionalità di riproduzione non è ancora stata implementata in Retail Modern POS o Cloud POS.
 
 ## <a name="basic-configuration"></a>Configurazione di base
-Per attivare la registrazione attività nel POS, effettuare le operazioni seguenti.
+Per attivare la registrazione attività in POS, effettuare le operazioni seguenti.
 
-1.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**.
+1.  Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**.
 2.  Fare clic sul registro per abilitare la registrazione attività.
 3.  Nella scheda **Registra**, nella scheda dettaglio **Generale**, impostare l'opzione **Abilita registrazione attività** su **Sì**.
 4.  Fare clic su **Salva**.
-5.  Passare a **Vendita al dettaglio e commercio** &gt; **IT vendita al dettaglio** &gt; **Programmazione della distribuzione**.
+5.  Passare a **Vendita al dettaglio** &gt; **IT vendita al dettaglio** &gt; **Programmazione della distribuzione**.
 6.  Selezionare il processo **Registri (1090)**, quindi fare clic su **Esegui ora**.
 
 ## <a name="create-a-recording"></a>Creare una registrazione
@@ -54,7 +56,9 @@ Attenersi alla procedura seguente per creare una nuova registrazione utilizzando
 2.  Nella pagina **Impostazioni**, nella sezione **Registrazione attività**, scegliere **Apri registrazione attività**. Il riquadro **Registrazione attività** viene visualizzato. È possibile fare clic sul pulsante **Chiudi** (**X**) nell'angolo superiore destro per chiudere il riquadro **Registrazione attività** prima di avviare una nuova registrazione. Per riaprire il riquadro, ripetere il passaggio 2.
 [![Riquadro Registrazione attività](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
-3.  Immettere un nome e una descrizione per la registrazione, quindi fare clic su **Avvia**. La sessione di registrazione inizia non appena si fa clic su **Avvia**. **Nota:** se si fa clic sul pulsante **Chiudi** (**X**) nell'angolo superiore destro mentre la registrazione è in corso, il riquadro **Registrazione attività** viene chiuso, ma la sessione di registrazione non viene terminata. Per riaprire il riquadro Registrazione attività, fare clic sul pulsante Guida (punto interrogativo) nella parte superiore dello schermo. 
+3.  Immettere un nome e una descrizione per la registrazione, quindi fare clic su **Avvia**. La sessione di registrazione inizia non appena si fa clic su **Avvia**.
+
+**Nota:** se si fa clic sul pulsante **Chiudi** (**X**) nell'angolo superiore destro mentre la registrazione è in corso, il riquadro **Registrazione attività** viene chiuso, ma la sessione di registrazione non viene terminata. Per riaprire il riquadro Registrazione attività, fare clic sul pulsante **Guida** (punto interrogativo) nella parte superiore dello schermo. 
 
 [![Punto interrogativo](./media/help.jpg)](./media/help.jpg)
 
@@ -95,7 +99,10 @@ Per riprendere la sessione di registrazione una volta sospesa, fare clic su **Co
 
 ### <a name="capture-screenshots"></a>Acquisisci schermate
 
-Registrazione attività può acquisire schermate dell'interfaccia utente di Retail Modern POS durante la registrazione di un processo aziendale. Registrazione attività utilizza le schermate se si scarica la registrazione come documento Word. Per attivare la funzionalità di acquisizione schermata, impostare l'opzione **Acquisisci schermate** su **Sì**. Nota: la funzionalità di acquisizione schermata non è supportata in Cloud POS.
+Registrazione attività può acquisire schermate dell'interfaccia utente di Retail Modern POS durante la registrazione di un processo aziendale. Registrazione attività utilizza le schermate se si scarica la registrazione come documento Word. Per attivare la funzionalità di acquisizione schermata, impostare l'opzione **Acquisisci schermate** su **Sì**. 
+
+#### <a name="note"></a>Nota
+> La funzionalità di acquisizione screenshot non è supportata in Cloud POS.
 
 ### <a name="start-task-and-end-task"></a>Avvia attività e Termina attività
 
@@ -119,11 +126,13 @@ Il testo che viene immesso nel campo **Testo** viene riportato *sopra* il testo 
 
 Il testo che viene immesso nel campo **Note** viene riportato *sotto* il testo del passaggio della guida attività. Per leggere il testo della nota, l'utente deve espandere il testo del passaggio nella finestra popup. Questa posizione è appropriata per il materiale facoltativo o altre informazioni che possono risultare utili all'utente, ma non necessarie per completare l'azione.
 
-## <a name="help-at-retail-modern-pos-and-cloud-pos"></a>Guida per Retail Modern POS e Cloud POS
-Per visualizzare i file di Registrazione attività personalizzati nel riquadro della Guida di Retail Modern POS e Cloud POS in modo che possano essere visualizzati come testo, è necessario salvare i file di Registrazione attività nella libreria BPM, quindi aggiornare i parametri di sistema della Guida in modo che puntino alla libreria BPM. Per ulteriori informazioni vedere [Connessione alla Guida](https://ax.help.dynamics.com/en/wiki/working-with-help/#connecting-the-help-system). La Guida di Retail Modern POS e Cloud POS esegue le ricerche in LCS in tempo reale. Cerca in tutte le raccolte BPM selezionate nei parametri di sistema della Guida di Microsoft Dynamics AX e visualizza i risultati rilevanti. Per accedere al menu **Guida**, fare clic sul pulsante **Guida** nella parte superiore della schermata, quindi digitare nella casella di ricerca il nome del processo e selezionare il pulsante di ricerca. 
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Guida per Retail Modern POS e Cloud POS
+Per visualizzare i file di Registrazione attività personalizzati nel riquadro della Guida di Retail Modern POS e Cloud POS in modo che possano essere visualizzati come testo, è necessario salvare i file di Registrazione attività nella libreria BPM, quindi aggiornare i parametri di sistema della Guida in modo che puntino alla libreria BPM. Per ulteriori informazioni vedere [Connessione alla Guida](/dynamics365/unified-operations/dev-itpro/get-started/help-connect). La Guida di Retail Modern POS e Cloud POS esegue le ricerche in LCS in tempo reale. Cerca in tutte le raccolte BPM selezionate nei parametri di sistema della Guida di Microsoft Dynamics 365 for Retail e visualizza i risultati rilevanti. Per accedere al menu **Guida**, fare clic sul pulsante **Guida** (punto interrogativo) nella parte superiore della schermata, quindi digitare nella casella di ricerca il nome del processo e selezionare il pulsante di ricerca. 
 
 [![Pulsante ?](./media/help.jpg)](./media/help.jpg) 
 
-Quando si fa clic su una Guida attività nei risultati della ricerca, è possibile visualizzare i passaggi come argomento della Guida o esportare i passaggi in un documento Word. Nota: la Guida in Retail Modern POS e Cloud POS non porterà le guide attività automaticamente in base al modulo o alle operazioni, è necessario immettere il nome del processo nella casella di ricerca e selezionare il pulsante di ricerca per ottenere risultati.
+Quando si fa clic su una Guida attività nei risultati della ricerca, è possibile visualizzare i passaggi come argomento della Guida o esportare i passaggi in un documento Word. 
+#### <a name="note"></a>Nota
+> La Guida in Retail Modern POS e Cloud POS non visualizza guide attività a seconda del modulo attivo o dell'operazione che si sta eseguendo. È necessario immettere il nome del processo della casella di ricerca e fare clic su **Cerca**.
 
 

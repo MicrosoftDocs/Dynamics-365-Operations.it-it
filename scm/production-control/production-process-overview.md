@@ -1,9 +1,9 @@
 ---
 title: Panoramica del processo di produzione
-description: Questo articolo fornisce una panoramica dei processi di produzione. Descrive le varie fasi degli ordini di produzione, degli ordini batch e dei kanban, dalla creazione dell&quot;ordine alla chiusura del periodo finanziario.
+description: Questo articolo fornisce una panoramica dei processi di produzione. Descrive le varie fasi degli ordini di produzione, degli ordini batch e dei kanban, dalla creazione dell'ordine alla chiusura del periodo finanziario.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,14 +37,14 @@ Questo articolo fornisce una panoramica dei processi di produzione. Descrive le 
 
 La produzione degli articoli, processo talvolta detto anche ciclo di vita della produzione, segue passaggi specifici necessari per completare la realizzazione di un articolo. Il ciclo di vita inizia alla creazione dell'ordine di produzione, di un ordine batch o di un processo kanban. Termina con un articolo completato che è pronto per un cliente o un'altra fase di produzione. Ogni fase del ciclo di vita richiede diversi tipi di informazioni per il completamento del processo. L'ordine di produzione, l'ordine batch o il processo kanban riflette il completamento di ogni passaggio, mostrando una modifica nello stato della produzione. I diversi tipi di prodotti richiedono processi di produzione diversi.  
 
-Il modulo **Controllo produzione** è collegato ad altri moduli, ad esempio **Gestione informazioni sul prodotto**, **Gestione articoli**, **Contabilità generale**, **Gestione magazzino**, **Contabilità progetti**  e**Amministrazione organizzazione**. Grazie a tale integrazione, viene garantito il supporto del flusso di informazioni necessario per completare la produzione di un articolo finito.  
+Il modulo **Controllo produzione** è collegato ad altri moduli, ad esempio **Gestione informazioni sul prodotto**, **Gestione articoli**, **Contabilità generale**, **Gestione magazzino**, **Contabilità progetti**  e **Amministrazione organizzazione**. Grazie a tale integrazione, viene garantito il supporto del flusso di informazioni necessario per completare la produzione di un articolo finito.  
 
-Il processo di produzione in genere è influenzato dalla contabilità industriale e dai metodi di valutazione del magazzino scelti per un processo di produzione specifico. Dynamics 365 for Operations supporta sia i metodi di costo effettivo (\[FIFO\], \[LIFO\], media mobile e media ponderata periodica) che i metodi di costo standard. La produzione snella è implementata in base al principio di determinazione costi di tipo backflush.  
+Il processo di produzione in genere è influenzato dalla contabilità industriale e dai metodi di valutazione del magazzino scelti per un processo di produzione specifico. Finance and Operations supporta sia i metodi di costo effettivo (\[FIFO\], \[LIFO\], media mobile e media ponderata periodica) che i metodi di costo standard. La produzione snella è implementata in base al principio di determinazione costi di tipo backflush.  
 
 La scelta dei metodi di misurazione dei costi consente inoltre di definire i requisiti per le dichiarazione sul consumo di materiale e risorse durante il processo di produzione. In genere, i metodi di costo effettivo necessitano di dichiarazioni accurate a livello di processo, mentre i metodi di determinazione costi periodici consentono una dichiarazione meno granulare del consumo di materiali e risorse.
 
 ## <a name="mixed-mode-manufacturing"></a>Produzione in modalità mista
-Le topologie di produzione e i prodotti diversi richiedono l'applicazione di tipi di ordine diversi. Dynamics 365 for Operations può applicare i diversi tipi di ordine in modalità mista. In altre parole, tutti i tipi di ordine possono verificarsi durante il processo di produzione end-to-end di un prodotto finito.
+Le topologie di produzione e i prodotti diversi richiedono l'applicazione di tipi di ordine diversi. Finance and Operations può applicare i diversi tipi di ordine in modalità mista. In altre parole, tutti i tipi di ordine possono verificarsi durante il processo di produzione end-to-end di un prodotto finito.
 
 -   **Ordine di produzione**: classico tipo di ordine per realizzare un prodotto o una variante prodotto specifico in una determinata quantità in una data specifica. Gli ordini di produzione si basano sulle distinte base (DBA) e sui cicli di lavorazione.
 -   **Ordine batch**: il tipo di ordine viene utilizzato per settori di trasformazione e processi discreti in cui la conversione di produzione è basata su una formula o in cui co-prodotti e sottoprodotti possono essere prodotti finiti, in aggiunta o in sostituzione del prodotto principale. Gli ordini batch utilizzano DBA e cicli di lavorazione di tipo **Formula**.

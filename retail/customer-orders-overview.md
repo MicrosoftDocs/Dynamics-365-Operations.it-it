@@ -3,25 +3,27 @@ title: Cenni preliminare sugli ordini cliente
 description: In questo argomento vengono fornite informazioni sugli ordini cliente in Retail Modern POS (MPOS). Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e96579437ab59e99268263a51fc589eaacb98cc1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 89e79c7227e05eec539d9bb142b8f41de092f01b
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -46,8 +48,8 @@ Di seguito sono riportati alcuni dei parametri che è possibile impostare nella 
 
 -   **Percentuale di deposito predefinita** - consente di specificare l'importo che il cliente deve pagare come deposito prima che un ordine possa essere confermato. L'importo del deposito predefinito viene calcolato come percentuale del valore dell'ordine. A seconda dei privilegi, un associato del punto vendita può ignorare l'importo utilizzando ***Sostituzione deposito**.
 -   **Percentuale spese di annullamento** - se un addebito verrà applicato quando un ordine cliente viene annullato, specificare l'importo dell'addebito.
--   **Codice spese di annullamento** - se un addebito verrà applicato quando un ordine cliente viene annullato, l'addebito verrà visualizzato con un codice spese nell'ordine cliente in Microsoft Dynamics AX. Utilizzare questo parametro per definire il codice spese di annullamento.
--   **Codice spese di spedizione** - rivenditori possono addebitare una commissione supplementare per la spedizione della merce a un cliente. L'importo delle spese di spedizione verrà visualizzato con un codice spese nell'ordine cliente in Dynamics AX. Utilizzare questo parametro per mappare il codice spese di spedizione alle spese di spedizione nell'ordine cliente.
+-   **Codice spese di annullamento** - se un addebito verrà applicato quando un ordine cliente viene annullato, l'addebito verrà visualizzato con un codice spese nell'ordine cliente. Utilizzare questo parametro per definire il codice spese di annullamento.
+-   **Codice spese di spedizione** - rivenditori possono addebitare una commissione supplementare per la spedizione della merce a un cliente. L'importo delle spese di spedizione verrà visualizzato con un codice spese nell'ordine cliente. Utilizzare questo parametro per mappare il codice spese di spedizione alle spese di spedizione nell'ordine cliente.
 -   **Rimborso spese di spedizione** - consente di specificare se le spese di spedizione associate a un ordine cliente sono rimborsabili.
 -   **Importo massimo senza approvazione** - se le spese di spedizione sono rimborsabili, specificare l'importo massimo di rimborsi di spese di spedizione negli ordini di reso. Se questo importo viene superato, la sostituzione del responsabile è necessaria per proseguire con il rimborso. Per soddisfare i seguenti scenari, un rimborso delle spese di spedizione può superare l'importo originariamente pagato:
     -   Le spese vengono applicate a livello di intestazione ordine cliente e quando una certa quantità di una riga prodotto viene restituita, il rimborso massimo delle spese di spedizione consentito per i prodotti e la quantità non può essere determinato in un modo che funziona per tutti i clienti al dettaglio.
@@ -90,10 +92,10 @@ Gli ordini cliente possono essere creati dal client POS in modalità sincrona o 
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Abilitare la creazione degli ordini cliente in modalità asincrona
 
-1.  In Dynamics AX, fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili funzionalità**.
+1.  Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profilo POS** &gt; **Profili funzionalità**.
 2.  Nella Scheda dettaglio **Generale** , impostare l'opzione **Crea ordine cliente in modalità asincrona** su **Sì**.
 
-Quando l'opzione **Crea ordine cliente in modalità asincrona** è impostata su **Sì**, ordini cliente vengono creati sempre in modalità asincrona, anche se Retail Transaction Service (RTS) è disponibile. Se si imposta questa opzione su **No**, ordini cliente vengono creati sempre in modalità sincrona utilizzando RTS. Quando gli ordini cliente vengono creati in modalità asincrona, vengono estratti e immessi in Dynamics AX tramite i processi Pull (P). Gli ordini cliente corrispondenti vengono creati in Dynamics AX quando **Sincronizza ordini** viene eseguito manualmente o tramite un processo batch.
+Quando l'opzione **Crea ordine cliente in modalità asincrona** è impostata su **Sì**, ordini cliente vengono creati sempre in modalità asincrona, anche se Retail Transaction Service (RTS) è disponibile. Se si imposta questa opzione su **No**, ordini cliente vengono creati sempre in modalità sincrona utilizzando RTS. Quando gli ordini cliente vengono creati in modalità asincrona, vengono estratti e immessi in Retail tramite i processi Pull (P). Gli ordini cliente corrispondenti vengono creati in Retail quando **Sincronizza ordini** viene eseguito manualmente o tramite un processo batch.
 
 <a name="see-also"></a>Vedere anche
 --------

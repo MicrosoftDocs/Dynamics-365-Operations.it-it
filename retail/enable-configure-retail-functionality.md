@@ -1,28 +1,29 @@
 ---
 title: Inizializzare i dati iniziali in un nuovo ambiente di vendita al dettaglio
-description: In questo articolo viene descritto i dati creati durante il processo di inizializzazione di Microsoft Dynamics 365 for Operations - Retail.
+description: In questo articolo viene descritto i dati creati durante il processo di inizializzazione di Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 49621
 ms.assetid: 4dc762eb-190e-4485-8f55-b0cafc81bc37
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 534c9ab0f4d95f42d09f35d3197a2258c8d39526
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0ee002d733882734c9f5a21e0467cacd1b3ff318
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,12 +33,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-In questo articolo viene descritto i dati creati durante il processo di inizializzazione di Microsoft Dynamics 365 for Operations - Retail.
+In questo articolo viene descritto i dati creati durante il processo di inizializzazione di Microsoft Dynamics 365 for Retail.
 
 Dopo la distribuzione della soluzione di vendita al dettaglio tramite Microsoft Dynamics Lifecycle Services (LCS), è necessario inizializzare la configurazione della soluzione per creare i dati di configurazione di base. **Importante:** prima di inizializzare la configurazione di vendita al dettaglio, assicurarsi che sia specificata una lingua e un indirizzo postale per ogni persona giuridica per cui si desidera impostare i punti vendita al dettaglio. Questo passaggio deve essere completato per ogni persona giuridica che utilizza la funzionalità di vendita al dettaglio. Per inizializzare la configurazione della funzionalità di vendita al dettaglio, effettuare le operazioni indicate di seguito.
 
-1.  Avviare il client Microsoft Dynamics 365 for Operations.
-2.  Fare clic su **Vendita al dettaglio e commercio** &gt; **Impostazione sedi centrali** &gt; **Parametri** &gt; **Parametri di vendita al dettaglio**.
+1.  Avviare il client Microsoft Dynamics 365 for Retail.
+2.  Fare clic su **Vendita al dettaglio** &gt; **Impostazione sedi centrali** &gt; **Parametri** &gt; **Parametri di vendita al dettaglio**.
 3.  Fare clic su **Inizializza**.
 
 L'inizializzazione crea i seguenti dati di configurazione predefiniti:
@@ -54,7 +55,7 @@ L'inizializzazione crea i seguenti dati di configurazione predefiniti:
 -   Modelli di convalida entità
 -   Processo batch per l'eliminazione dello storico della sessione di scambio dei dati commerciali
 
-Inoltre, la registrazione correlata a PCI (Payment Cad Industry) è abilitata per il database di Dynamics 365 for Operations. **Nota:** è disponibile un'opzione per configurare separatamente Retail scheduler. Questa opzione consente di reimpostare la configurazione il dettaglio dell'utilità di pianificazione con le relative impostazioni predefinite. Dopo il completamento dell'inizializzazione, è necessario configurare i dati aggiuntivi per la dati vendita al dettaglio. Di seguito sono riportati alcuni esempi.
+Inoltre, la registrazione correlata a PCI (Payment Card Industry) è abilitata per il database di Dynamics 365 for Retail. **Nota:** è disponibile un'opzione per configurare separatamente Retail scheduler. Questa opzione consente di reimpostare la configurazione il dettaglio dell'utilità di pianificazione con le relative impostazioni predefinite. Dopo il completamento dell'inizializzazione, è necessario configurare i dati aggiuntivi per la dati vendita al dettaglio. Di seguito sono riportati alcuni esempi.
 
 -   Parametri di vendita al dettaglio
 -   Parametri Retail Scheduler

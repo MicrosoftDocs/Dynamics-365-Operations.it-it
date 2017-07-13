@@ -1,16 +1,16 @@
 ---
 title: Importa tassi di cambio valutari
-description: "Se una persona giuridica ha ricevuto fatture in valuta estera, è necessario convertire la valuta estera in quella locale. Ciò significa che è necessario conoscere i tassi di cambio aggiornati per le diverse valute. In questo argomento viene fornita una panoramica delle impostazioni richieste e dell&quot;elaborazione per importare i tassi di cambio estero pubblicati su Internet dai provider dei tassi di cambio, ad esempio la Banca Centrale Europea e la Banca Centrale di Russia."
+description: "Se una persona giuridica ha ricevuto fatture in valuta estera, è necessario convertire la valuta estera in quella locale. Ciò significa che è necessario conoscere i tassi di cambio aggiornati per le diverse valute. In questo argomento viene fornita una panoramica delle impostazioni richieste e dell'elaborazione per importare i tassi di cambio estero pubblicati su Internet dai provider dei tassi di cambio, ad esempio la Banca Centrale Europea e la Banca Centrale di Russia."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 69a622f54581504989504a06f90d443a98ad2f63
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2d0654d6dbed3b4fe56b8918194132787f66af80
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Se una persona giuridica ha ricevuto fatture in valuta estera, è necessario con
 Nelle sezioni seguenti viene descritto il flusso di informazioni utilizzato per impostare ed elaborare l'importazione dei tassi di cambio estero.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Configurare un provider di tassi di cambio
-Prima di poter importare i tassi di cambio, è necessario impostare le informazioni richieste dai provider di tassi di cambio. Utilizzare la pagina **Configura provider di tassi di cambio** per selezionare i provider di tassi di cambio. Alcuni provider di tassi di cambio sono inclusi nei dati dimostrativi in Microsoft Dynamics 365 for Operations. Nella tabella riportata di seguito sono incluse le descrizioni relative ai controlli presenti nella pagina.
+Prima di poter importare i tassi di cambio, è necessario impostare le informazioni richieste dai provider di tassi di cambio. Utilizzare la pagina **Configura provider di tassi di cambio** per selezionare i provider di tassi di cambio. Alcuni provider di tassi di cambio sono inclusi nei dati dimostrativi in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Nella tabella riportata di seguito sono incluse le descrizioni relative ai controlli presenti nella pagina.
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

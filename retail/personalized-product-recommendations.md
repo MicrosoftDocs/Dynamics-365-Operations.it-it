@@ -1,27 +1,28 @@
 ---
 title: Panoramica dei suggerimenti sul prodotto personalizzati
-description: In Dynamics 365 for Operations, i suggerimenti d prodotti possono essere visualizzati nel dispositivo POS. I suggerimenti sono articoli a cui il cliente potrebbe essere interessato in base al relativo storico acquisti, articoli nell&quot;elenco preferenze e che altri clienti hanno acquistato online e in punti vendita fisici. Per i rivenditori con cataloghi di grandi dimensioni, i suggerimenti aiutano il cliente a individuare i prodotti. Mostrando i prodotti mirati agli interessi e alle abitudini di acquisto di un cliente, i suggerimenti sul prodotto possono aiutare i rivenditori con l&quot;upselling e il cross-selling e possono aumentare la ritenuta cliente. In Dynamics 365 for Operations, i suggerimenti sul prodotto sono generati da servizi cognitivi e da Microsoft Azure Machine Learning.
+description: In Dynamics 365 for Retail, i suggerimenti d prodotti possono essere visualizzati nel dispositivo POS. I suggerimenti sono articoli a cui il cliente potrebbe essere interessato in base al relativo storico acquisti, articoli nell'elenco preferenze e che altri clienti hanno acquistato online e in punti vendita fisici. Per i rivenditori con cataloghi di grandi dimensioni, i suggerimenti aiutano il cliente a individuare i prodotti. Mostrando i prodotti mirati agli interessi e alle abitudini di acquisto di un cliente, i suggerimenti sul prodotto possono aiutare i rivenditori con l'upselling e il cross-selling e possono aumentare la ritenuta cliente. In Dynamics 365 for Retail i suggerimenti sul prodotto sono generati da servizi cognitivi e da Microsoft Azure Machine Learning.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Retail, Operations, Core, UnifiedOperations
 ms.custom: 259664
 ms.assetid: 5dd8db08-cd96-4f7e-9e65-b05ca815d580
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: edacd4cc9f9db59617bc579cb106e8e1017b8957
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 492e498572f875da8ee0387b4d9aa52571211bec
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-In Dynamics 365 for Operations, i suggerimenti d prodotti possono essere visualizzati nel dispositivo POS. I suggerimenti sono articoli a cui il cliente potrebbe essere interessato in base al relativo storico acquisti, articoli nell'elenco preferenze e che altri clienti hanno acquistato online e in punti vendita fisici. Per i rivenditori con cataloghi di grandi dimensioni, i suggerimenti aiutano il cliente a individuare i prodotti. Mostrando i prodotti mirati agli interessi e alle abitudini di acquisto di un cliente, i suggerimenti sul prodotto possono aiutare i rivenditori con l'upselling e il cross-selling e possono aumentare la ritenuta cliente. In Dynamics 365 for Operations, i suggerimenti sul prodotto sono generati da servizi cognitivi e da Microsoft Azure Machine Learning.
+In Dynamics 365 for Retail, i suggerimenti d prodotti possono essere visualizzati nel dispositivo POS. I suggerimenti sono articoli a cui il cliente potrebbe essere interessato in base al relativo storico acquisti, articoli nell'elenco preferenze e che altri clienti hanno acquistato online e in punti vendita fisici. Per i rivenditori con cataloghi di grandi dimensioni, i suggerimenti aiutano il cliente a individuare i prodotti. Mostrando i prodotti mirati agli interessi e alle abitudini di acquisto di un cliente, i suggerimenti sul prodotto possono aiutare i rivenditori con l'upselling e il cross-selling e possono aumentare la ritenuta cliente. In Dynamics 365 for Retail i suggerimenti sul prodotto sono generati da servizi cognitivi e da Microsoft Azure Machine Learning.
 
 <a name="scenarios"></a>Scenari
 ---------
@@ -50,14 +51,14 @@ I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS. Sono d
 -   Il motore dei suggerimenti suggerisce articoli in base all'intero elenco di articoli nel carrello.
 -   Se l'associato del punto vendita aggiunge un cliente alla transazione, il motore dei suggerimenti fornisce suggerimenti personalizzati utilizzando lo storico transazioni del cliente e l'elenco di articoli nel carrello.
 
-**Nota**: per visualizzare i suggerimenti nella pagina **Transazione**, il rivenditore deve aggiornare il layout dello schermo in Dynamics 365 for Operations. Il controllo **Suggerimenti** deve essere rilasciato nella pagina **Transazione**. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+**Nota**: per visualizzare i suggerimenti nella pagina **Transazione**, il rivenditore deve aggiornare il layout dello schermo in Dynamics 365 for Retail. Il controllo **Suggerimenti** deve essere rilasciato nella pagina **Transazione**. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 3.  Nella pagina **Dettagli cliente**:
     -   Il motore dei suggerimenti suggerisce articoli in base all'ID utente e articoli nell'elenco preferenze del cliente.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Configurare Dynamics 365 for Operations per abilitare i suggerimenti POS
+## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Configurare Dynamics 365 for Retail per abilitare i suggerimenti POS
 Per impostare i suggerimenti sul prodotto, è necessario effettuare le seguenti operazioni.
 
 1.  Assicurarsi di aver selezionato la **Persona giuridica** corretta.
@@ -69,13 +70,13 @@ Per impostare i suggerimenti sul prodotto, è necessario effettuare le seguenti 
 ## <a name="how-does-it-work"></a>[]()Come funziona?
 Quando si aggiorna l'entità **Archivio entità**, verranno effettuate le azioni seguenti.
 
--   I dati nel formato richiesto dai servizi cognitivi vengono estratti dal database operativo Dynamics 365 for Operations e vengono inviati all'Archivio entità.
+-   I dati nel formato richiesto dai servizi cognitivi vengono estratti dal database operativo Dynamics 365 for Retail e vengono inviati all'Archivio entità.
 -   I dati vengono utilizzati da Azure Data Factory (ADF) per eseguire la pulitura dei dati tramite gli script Hive come parte delle attività ADF. I dati puliti vengono archiviati nell'archiviazione BLOB.
 -   I dati nell'archiviazione BLOB vengono utilizzati dall'API dei servizi cognitivi per preparare un modello di suggerimento.
 
 Quando si attiva **Abilita suggerimenti** e si eseguono i processi di configurazione, verranno effettuate le azioni seguenti.
 
--   L'ID e le credenziali di modello vengono recuperate dall'API e archiviate nel database operativo di Dynamics 365 for Operations, nel file web.config per AOS e nel server vendita al dettaglio.
+-   L'ID e le credenziali di modello vengono recuperate dall'API e archiviate nel database operativo di Dynamics 365 for Retail, nel file web.config per AOS e nel server vendita al dettaglio.
 -   L'ID e le credenziali del modello vengono rese disponibili a CRT in modo da poter soddisfare le richieste di suggerimenti sul prodotto da Cloud POS e MPOS in modalità online.
 
 

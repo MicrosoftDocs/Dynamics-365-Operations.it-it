@@ -3,13 +3,13 @@ title: Resi su vendite
 description: "In questo argomento vengono fornite informazioni sul processo per gli ordini di reso. Sono riportate informazioni sui resi dei clienti e sul relativo effetto sulle quantità di scorte disponibili e di determinazione costi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 In questo argomento vengono fornite informazioni sul processo per gli ordini di reso. Sono riportate informazioni sui resi dei clienti e sul relativo effetto sulle quantità di scorte disponibili e di determinazione costi.
 
-I clienti possono rendere gli articoli per diversi motivi. Ad esempio, un articolo potrebbe essere difettoso o potrebbe non soddisfare le aspettative del cliente. Il processo di reso inizia quando un cliente genera una richiesta per restituire un articolo. Dopo che la richiesta del cliente viene ricevuta, viene creato un ordine di reso in Microsoft Dynamics 365 for Operations.
+I clienti possono rendere gli articoli per diversi motivi. Ad esempio, un articolo potrebbe essere difettoso o potrebbe non soddisfare le aspettative del cliente. Il processo di reso inizia quando un cliente genera una richiesta per restituire un articolo. Dopo che la richiesta del cliente viene ricevuta, viene creato un ordine di reso in Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="return-order-process"></a>Processo relativo all'ordine di reso
 Nell'illustrazione riportata di seguito viene fornita una panoramica del processo relativo all'ordine di reso.  
@@ -264,7 +264,7 @@ Questo scenario interessa due società della stessa organizzazione, come illustr
 
 [![Reso interaziendale semplice](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-È possibile stabilire la catena di ordini quando viene creato un ordine di reso fornitore nell'azienda acquirente o viene creato un ordine di reso cliente nell'azienda venditrice. Dynamics 365 for Operations crea l'ordine corrispondente nell'altra società e garantisce che l'intestazione e le informazioni sulla riga dell'ordine di reso fornitore riflettano le impostazioni nell'ordine di reso di un cliente. L'ordine di reso che viene stabilito può includere o escludere il riferimento (**Trova ordine cliente**) a una fattura di vendita esistente. I documenti di trasporto e le fatture dei due ordini possono essere elaborati singolarmente. Ad esempio, non sarà necessario generare un documento di trasporto per l'ordine di reso fornitore prima di generare il documento di trasporto per l'ordine di reso di un cliente.
+È possibile stabilire la catena di ordini quando viene creato un ordine di reso fornitore nell'azienda acquirente o viene creato un ordine di reso cliente nell'azienda venditrice. Finance and Operations crea l'ordine corrispondente nell'altra società e garantisce che l'intestazione e le informazioni sulla riga dell'ordine di reso fornitore riflettano le impostazioni nell'ordine di reso di un cliente. L'ordine di reso che viene stabilito può includere o escludere il riferimento (**Trova ordine cliente**) a una fattura di vendita esistente. I documenti di trasporto e le fatture dei due ordini possono essere elaborati singolarmente. Ad esempio, non sarà necessario generare un documento di trasporto per l'ordine di reso fornitore prima di generare il documento di trasporto per l'ordine di reso di un cliente.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Resi di spedizione consegna diretta tra tre parti
 

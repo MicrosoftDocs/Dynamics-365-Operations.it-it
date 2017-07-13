@@ -1,16 +1,16 @@
 ---
 title: Criteri di lavoro magazzino
-description: "Nuovi criteri di lavoro di magazzino sono stati introdotti in Microsoft Dynamics AX 7.0.1 (aggiornamento di maggio 2016). Questi criteri di lavoro controllano se il lavoro del magazzino è stato creato per i processi di magazzino in fase di produzione."
+description: i criteri di lavoro del magazzino controllano se il lavoro del magazzino viene creato da processi di magazzino durante la produzione, in base al tipo di ordine di lavoro, all'ubicazione del magazzino e al prodotto.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Nuovi criteri di lavoro di magazzino sono stati introdotti in Microsoft Dynamics AX 7.0.1 (aggiornamento di maggio 2016). Questi criteri di lavoro controllano se il lavoro del magazzino è stato creato per i processi di magazzino in fase di produzione.
+I criteri di lavoro del magazzino in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition controllano se il lavoro del magazzino viene creato da processi di magazzino durante la produzione, in base al tipo di ordine di lavoro, all'ubicazione del magazzino e al prodotto.
 
 Questi criteri di lavoro controllano se il lavoro del magazzino è stato creato per i processi di magazzino in fase di produzione. È possibile impostare i criteri di lavoro mediante una combinazione di **tipi di ordine di lavoro**, una **ubicazione di magazzino** e un **prodotto**. Ad esempio, il prodotto L0101 viene dichiarato finito nell'ubicazione di uscita 001. Il prodotto finito viene successivamente consumato in un altro ordine di produzione all'ubicazione di uscita 001. In questo caso, è possibile impostare i criteri di lavoro per impedire che lavoro per lo stoccaggio di prodotti finiti venga creato quando si dichiara il prodotto L0101 finito nell'ubicazione di uscita 001. I criteri di lavoro sono una singola entità che può essere descritta con le seguenti informazioni:
 
 -   **Nome dei criteri di lavoro**(identificatore univoco dei criteri di lavoro)
--   **Tipi di ordine di lavoro**e**Metodo di creazione lavoro**
+-   **Tipi di ordine di lavoro** e **Metodo di creazione lavoro**
 -   **Ubicazioni di magazzino**
 -   **Prodotti**
 

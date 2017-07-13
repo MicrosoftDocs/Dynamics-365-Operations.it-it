@@ -1,15 +1,16 @@
 ---
 title: Ricerca di azioni
-description: "In questo articolo viene descritta la funzionalità di ricerca di azioni in Microsoft Dynamics 365 for Operations. La ricerca di azioni consente di individuare ed eseguire azioni in una pagina."
+description: "In questo articolo viene descritta la funzionalità di ricerca di azioni in Microsoft Dynamics 365 for Finance and Operations. La ricerca di azioni consente di individuare ed eseguire azioni in una pagina."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62303
 ms.assetid: 62c70de0-fdde-4417-8e08-0583fb095a40
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef5709889dcabd4c9ed760f57d210956f38c37e9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo viene descritta la funzionalità di ricerca di azioni in Microsoft Dynamics 365 for Operations. La ricerca di azioni consente di individuare ed eseguire azioni in una pagina.
+In questo articolo viene descritta la funzionalità di ricerca di azioni in Microsoft Dynamics 365 for Finance and Operations. La ricerca di azioni consente di individuare ed eseguire azioni in una pagina.
 
 <a name="introduction"></a>Introduzione
 ------------
 
-Le pagine in Microsoft Dynamics 365 for Operations espongono principalmente i controlli presenti nei riquadri azioni, sia il riquadro azioni standard visualizzato nella parte superiore di una pagina sia le barre degli strumenti visualizzate in diverse aree della pagina. Nelle versioni precedenti, una funzionalità Descrizione dei tasti consente di accedere rapidamente a qualsiasi pulsante in un riquadro azioni premendo il tasto ALT e una serie di lettere. 
+Le pagine in Microsoft Dynamics 365 for Finance and Operations espongono principalmente i controlli presenti nei riquadri azioni, sia il riquadro azioni standard visualizzato nella parte superiore di una pagina sia le barre degli strumenti visualizzate in diverse aree della pagina. Nelle versioni precedenti, una funzionalità Descrizione dei tasti consente di accedere rapidamente a qualsiasi pulsante in un riquadro azioni premendo il tasto ALT e una serie di lettere. 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Tuttavia, nella versione corrente di Dynamics 365 for Operations, le descrizioni dei tasti non sono più disponibili ma sono state sostituite dalla funzionalità di ricerca di azioni. La nuova funzionalità consente di trovare rapidamente ed eseguire un pulsante da qualsiasi riquadro azioni visibile.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Tuttavia, nella versione corrente di Finance and Operations, le descrizioni dei tasti non sono più disponibili ma sono state sostituite dalla funzionalità di ricerca di azioni. La nuova funzionalità consente di trovare rapidamente ed eseguire un pulsante da qualsiasi riquadro azioni visibile.
 
 ## <a name="using-action-search"></a>Utilizzo della ricerca azioni
 Per utilizzare la funzionalità di ricerca azioni, effettuare le operazioni indicate di seguito.
@@ -53,7 +54,7 @@ Dopo che il pulsante viene eseguito, lo stato attivo torna all'ultima posizione 
 È inoltre possibile avviare la ricerca azioni premendo i tasti CTRL+/ o ALT+Q. Premere di nuovo i tasti di scelta rapida per riportare lo stato attivo all'ultima posizione nella pagina.
 
 ## <a name="understanding-the-results-list"></a>Interpretazione dell'elenco dei risultati
-Spesso, in Dynamics 365 for Operations, è necessario conoscere l'ubicazione e il contesto di un pulsante per comprendere completamente lo scopo di tale pulsante. Di conseguenza, nell'elenco dei risultati vengono mostrate informazioni aggiuntive per ciascun articolo, al fine di aiutare a comprendere esattamente quali pulsanti vengono visualizzati nell'elenco. In particolare, verrà visualizzato "il percorso" del pulsante. Questo percorso può includere le etichette dei seguenti elementi di interfaccia utente, a seconda dei casi:
+Spesso, in Finance and Operations, è necessario conoscere l'ubicazione e il contesto di un pulsante per comprendere completamente lo scopo di tale pulsante. Di conseguenza, nell'elenco dei risultati vengono mostrate informazioni aggiuntive per ciascun articolo, al fine di aiutare a comprendere esattamente quali pulsanti vengono visualizzati nell'elenco. In particolare, verrà visualizzato "il percorso" del pulsante. Questo percorso può includere le etichette dei seguenti elementi di interfaccia utente, a seconda dei casi:
 
 -   Scheda del riquadro azioni
 -   Gruppo pulsanti
@@ -70,7 +71,7 @@ Nell'esempio precedente, la ricerca azioni ha mostrato i risultati dal riquadro 
 [![scorte-disponibili](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>Confronto tra ricerca di azioni e ricerca di navigazione
-La ricerca di azioni è destinata alla ricerca e all'esecuzione di azioni in una pagina, ma è disponibile un meccanismo di ricerca distinto che consente di cercare e passare alle pagine di Dynamics 365 for Operations. Per ulteriori informazioni su tale funzionalità, vedere l'articolo [Ricerca per navigazione](navigation-search.md).
+La ricerca di azioni è destinata alla ricerca e all'esecuzione di azioni in una pagina, ma è disponibile un meccanismo di ricerca distinto che consente di cercare e passare alle pagine di Finance and Operations. Per ulteriori informazioni su tale funzionalità, vedere l'articolo [Ricerca per navigazione](navigation-search.md).
 
 
 

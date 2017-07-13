@@ -3,7 +3,7 @@ title: Panoramica sui modelli di configurazione prodotto
 description: "Questo articolo definisce termini e concetti importanti relativi ai modelli di configurazione prodotto. I modelli di configurazione prodotto consentono di creare una struttura di prodotto generica utilizzabile per configurare più varianti di un singolo prodotto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 30580b059a4c240ad540a9c347b0551df0ab5c02
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1270c35bc7dbe4c85a1aa991a0387b33e1cb6990
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -121,7 +121,7 @@ Se il tipo di attributo è <strong>Boolean</strong>, <strong>Intero</strong> con
 </tr>
 </tbody>
 </table>
-Un vincolo di tabella definito dal sistema rappresenta un mapping tra un tipo di attributo e un campo in una tabella di Dynamics 365 for Operations. Un vincolo di tabella definito dal sistema collega dinamicamente il tipo di attributo al campo. Il collegamento consente all'attributo in un modello di configurazione prodotto di riflettere i dati del campo nella tabella di Dynamics 365 for Operations.</td>
+Un vincolo di tabella definito dal sistema rappresenta un mapping tra un tipo di attributo e un campo in una tabella Finance and Operations. Un vincolo di tabella definito dal sistema collega dinamicamente il tipo di attributo al campo. Il collegamento consente all'attributo in un modello di configurazione prodotto di riflettere i dati del campo nella tabella di Finance and Operations.</td>
 </tr>
 <tr class="odd">
 <td>Calcoli</td>

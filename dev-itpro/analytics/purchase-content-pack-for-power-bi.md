@@ -1,15 +1,15 @@
 ---
-title: Contenuto Power BI sull&quot;analisi delle spese di acquisto
-description: "In questo argomento viene descritto cosa è incluso nel pacchetto di contenuti sull&quot;analisi delle spese di acquisto per Microsoft Power BI. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il pacchetto di contenuti."
-author: YuyuScheller
+title: Contenuto Power BI sull'analisi delle spese di acquisto
+description: "In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi delle spese di acquisto. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto."
+author: FrankDahl
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 265434
 ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ad0ee95113d05710cccc1a5e9d215b38244c2047
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: daba17aed7e6cc475a16d6100c5c99ee747ca048
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,23 +29,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+In questo argomento viene descritto cosa è incluso nel contenuto di Microsoft Power BI **Analisi delle spese di acquisto**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
-In questo argomento viene descritto cosa è incluso nel pacchetto di contenuti sull'analisi delle spese di acquisto per Microsoft Power BI. Viene descritto come accedere ai report inclusi nel pacchetto di contenuti e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il pacchetto di contenuti.
+## <a name="overview"></a>Panoramica
 
-<a name="overview"></a>Panoramica
---------
-
-Il pacchetto di contenuti sull'analisi delle spese di acquisto per Microsoft Power BI è stato creato per i responsabili degli acquisti e dei budget. È progettato per aiutare tali responsabili a controllare la spesa di acquisto. Usa dati transazionali di acquisto provenienti da Microsoft Dynamics 365 for Operations e offre sia una visualizzazione aggregata delle cifre di acquisto a livello di società che una scomposizione dettagliata della spesa di acquisto per fornitore e prodotto. I report evidenziano le modifiche nella spesa di acquisto nel tempo. Di conseguenza, è possibile utilizzarli per avvisare i responsabili sulle tendenze positive e negative di spesa per singoli fornitori e prodotti. I grafici mostrano la spesa di acquisto per categorie di approvvigionamento e gruppi di fornitori diversi. I responsabili di categoria e regionali possono trovare utile avvalersi di questi grafici per identificare i cambiamenti nel comportamento di spesa. Il pacchetto di contenuti consente ai responsabili degli acquisti e dei budget di analizzare la spesa di acquisto nei seguenti modi:
+Il contenuto di Power BI **Analisi delle spese di acquisto** è stato progettato per consentire ai responsabili acquisti e i dirigenti responsabili di budget di tenere sotto controllo la spesa di acquisto. I responsabili possono analizzare la spesa d'acquisto nei seguenti modi:
 
 -   Acquisto da inizio anno (per gruppo di fornitori e singoli fornitori, per categoria di approvvigionamento e singoli prodotti e per ubicazione del fornitore)
 -   Modifica di acquisto da inizio anno (per gruppo di fornitori e categoria di approvvigionamento)
 
-## <a name="accessing-the-content-pack"></a>Accesso al pacchetto di contenuti
-Il pacchetto di contenuti sull'analisi delle spese di acquisto viene pubblicato come risorsa di implementazione in Microsoft Dynamics Lifecycle Services (LCS) ed è possibile accedervi da Microsoft Dynamics 365 for Operations. Per ulteriori informazioni su come accedere ai report Power BI e aprirli, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md).
-Nota: l'articolo KB 4011327 è un prerequisito per questo contenuto Power BI. Dopo avere eseguito l'accesso a Lifecycle Services, è possibile accedere alla KB qui: : https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+Il contenuto utilizza dati transazionali di acquisto e offre sia una visualizzazione aggregata delle cifre di acquisto a livello di società che una scomposizione dettagliata della spesa di acquisto per fornitore e prodotto. I report evidenziano le modifiche nella spesa di acquisto nel tempo. Di conseguenza, è possibile utilizzarli per avvisare i responsabili sulle tendenze positive e negative di spesa per singoli fornitori e prodotti. Inoltre, i grafici mostrano la spesa di acquisto per categorie di approvvigionamento e gruppi di fornitori diversi. Pertanto, i responsabili di categoria e regionali possono usare questi grafici per identificare i cambiamenti nel comportamento di spesa.
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>Metriche incluse nel pacchetto di contenuti
-Il pacchetto di contenuti sull'analisi delle spese di acquisto include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel pacchetto di contenuti.
+## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
+Se si utilizza l'aggiornamento di luglio 2017 di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, il contenuto di Power BI **Analisi delle spese di acquisto** verrà visualizzato nella pagina **Analisi di spesa e acquisto** (**Approvvigionamento** > **Richieste di informazioni e report** > **Analisi delle prestazioni di acquisto** > **Analisi di spesa e di acquisto**). 
+
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
+Il contenuto di Power BI **Analisi delle spese di acquisto** include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni.
 
 <table>
 <colgroup>
@@ -133,14 +132,26 @@ Il pacchetto di contenuti sull'analisi delle spese di acquisto include un report
 
 \* Acquisti nell'anno corrente e nell'anno passato e crescita per categoria di approvvigionamento
 
+## <a name="extending-the-power-bi-content"></a>Estensione del contenuto Power BI
+Utilizzando i pacchetti di contenuti disponibili in Microsoft Dynamics Lifecycle Services (LCS), è possibile fornire eccezionali analisi alle persone che non accedono a Microsoft Dynamics 365. È possibile modificare i pacchetti di contenuti affinché siano inclusi altri report o rappresentazioni e quindi pubblicate i pacchetti contenuti nel tenant Power BI.com per l'analisi. 
+
+Puoi trovare il contenuto Power BI **Analisi delle spese di acquisto** nella raccolta delle risorse condivise in LCS. Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+
+Assicurarsi di scaricare il contenuto **Analisi delle spese di acquisto** applicabile alla versione di Dynamics 365 in uso.
+
+> [!NOTE]
+> Se si utilizza Microsoft Dynamics 365 for Operations versione 1611, KB 4011327 è un prerequisito per questo contenuto di Power BI. Dopo avere eseguito l'accesso a LCS, è possibile accedere alla KB qui: : https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
 ## <a name="data-model-and-entities"></a>Modello dati ed entità
-I dati di Dynamics 365 for Operations vengono utilizzati per il report nel pacchetto di contenuti sull'analisi delle spese di acquisto. Questi dati sono rappresentati come misure aggregate che vengono collocate nell'archivio entità, ovvero un database di Microsoft SQL ottimizzato per l'analisi. Per ulteriori informazioni sull'Archivio entità, vedere il post di blog [Integrazione di Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le misure di aggregazione in questo pacchetto di contenuti sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Acquisti in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità nel post di blog [Integrazione di Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Le seguenti misure di aggregazione chiave sono disponibili direttamente dall'entità delle righe della fattura e sono utilizzate come base del pacchetto di contenuti.
+I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi delle spese di acquisto**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
-| Entità        | Misure di aggregazione chiave | Origine dati per Dynamics 365 for Operations | Campo              | descrizione                           |
-|---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
-| Righe fattura | Acquisti                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Importo nella valuta di contabilizzazione |
+Le misure di aggregazione in questo contenuto sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Acquisti in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità in [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). Le seguenti misure di aggregazione chiave sono disponibili direttamente dall'entità delle righe della fattura e sono utilizzate come base del contenuto.
 
-Nella seguente tabella vengono illustrate le misurazioni chiave calcolate nel pacchetto di contenuti dall'entità delle righe della fattura.
+| Entità        | Misure di aggregazione chiave | Origine dati                                 | Campo              | descrizione                            |
+|---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
+| Righe fattura | Acquisti                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Importo nella valuta di contabilizzazione. |
+
+Nella seguente tabella vengono illustrate le misurazioni chiave nel contenuto calcolate dall'entità delle righe della fattura.
 
 | Unità di misura               | Calcolo                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
@@ -148,7 +159,7 @@ Nella seguente tabella vengono illustrate le misurazioni chiave calcolate nel pa
 | Acquisti nell'anno passato    | Acquisti nell'anno passato = CALCULATE(SUM('Righe fattura'\[Acquisti\]), SAMEPERIODLASTYEAR(Dates\[Data\])) |
 | Crescita degli acquisti su base annua   | Crescita degli acquisti su base annua = \[Acquisti nell'anno corrente\] - \[Acquisti nell'anno passato\]                            |
 
-Le seguenti dimensioni chiave nel pacchetto di contenuti vengono utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e fornire informazioni analitiche più approfondite.
+Le seguenti dimensioni chiave nel contenuto vengono utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e fornire informazioni analitiche più approfondite.
 
 | Entità                 | Esempi di attributi                                |
 |------------------------|-------------------------------------------------------|
@@ -158,17 +169,5 @@ Le seguenti dimensioni chiave nel pacchetto di contenuti vengono utilizzate come
 | Persone giuridiche         | Nome persona giuridica                                     |
 | Appuntamenti                  | Date, offset anno                                    |
 
-Per impostazione predefinita, il pacchetto di contenuti mostra i dati dell'anno di calendario corrente. Tuttavia, è possibile modificare il filtro della data nella sezione relativa ai filtri di report. È inoltre possibile modificare il filtro della società.
-
-## <a name="additional-resources"></a>Risorse aggiuntive
-Di seguito sono riportati alcuni collegamenti utili correlati alle entità e alla creazione di contenuto per Power BI:
-
--   [Entità di dati](..\data-entities\data-entities.md)
--   [Creazione di pacchetti di contenuti per l'organizzazione](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modellazione di dati tramite Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Aggiunta di riquadri Power BI ad aree di lavoro](configure-power-bi-integration.md)
-
-
-
-
+Per impostazione predefinita, il contenuto mostra i dati dell'anno di calendario corrente. Tuttavia, è possibile modificare il filtro della data nella sezione relativa ai filtri di report. È inoltre possibile modificare il filtro della società.
 

@@ -1,15 +1,15 @@
 ---
 title: "Giustificativo singolo con più record cliente o fornitore"
-description: "In questo argomento viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future di Microsoft Dynamics 365 for Operations e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell&quot;impatto della contabilità sull&quot;elaborazione della liquidazione."
+description: "In questo argomento viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell'impatto della contabilità sull'elaborazione della liquidazione."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future di Microsoft Dynamics 365 for Operations e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell'impatto della contabilità sull'elaborazione della liquidazione. 
+In questo argomento viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell'impatto della contabilità sull'elaborazione della liquidazione. 
 
 Alcuni esempi comuni in cui un giustificativo viene utilizzato per più clienti o fornitori includono i trasferimenti del saldo tra clienti e la compensazione dei saldi tra clienti e fornitori nella stessa organizzazione. 
 
@@ -162,7 +162,7 @@ Ora, quando INV2 viene pagata, la seguente voce verrà creata. Si noti che le di
 | 14000056    | 200110-001- | Saldo fornitore     |                                          | -2,00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Un giustificativo per i trasferimenti di saldo e gli scenari di compensazione
-Due scenari comuni che utilizzano un giustificativo contenente più clienti o fornitori includono i trasferimenti di saldo da un cliente/fornitore a un altro cliente/fornitore e la compensazione di un cliente e un fornitore che appartengono alla stessa organizzazione. Nei due esempi seguenti è illustrato il metodo preferito per gestire questi scenari in Dynamics 365 for Operations in alternativa all'uso di un giustificativo. 
+Due scenari comuni che utilizzano un giustificativo contenente più clienti o fornitori includono i trasferimenti di saldo da un cliente/fornitore a un altro cliente/fornitore e la compensazione di un cliente e un fornitore che appartengono alla stessa organizzazione. Nei due esempi seguenti è illustrato il metodo preferito per gestire questi scenari in Finance and Operations in alternativa all'uso di un giustificativo. 
 
 Un *trasferimento di saldo* è un giustificativo con più clienti, immessi allo scopo di trasferire il saldo da un cliente a un altro cliente (stessa cosa per i fornitori). Questo scenario può verificarsi quando la responsabilità del pagamento della fattura passa a un'altra parte, ad esempio una società figlio che passa la responsabilità a una società padre. 
 
@@ -176,7 +176,7 @@ Per un esempio, si supponga che la seguente vendita venga effettuata al cliente 
 | 401100-002-023-    | Ricavi          |           | 100        |
 | 130100-002-        | Saldo cliente | 100       |            |
 
-A questo punto, l'utente trasferisce il saldo esigibile da ACME alla società di assicurazioni, in un giustificativo nel giornale di registrazione pagamenti della contabilità clienti. In Dynamics 365 for Operations, la società di assicurazioni è impostata come assicurazione del cliente.
+A questo punto, l'utente trasferisce il saldo esigibile da ACME alla società di assicurazioni, in un giustificativo nel giornale di registrazione pagamenti della contabilità clienti. In Finance and Operations la società di assicurazioni è impostata come assicurazione del cliente.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

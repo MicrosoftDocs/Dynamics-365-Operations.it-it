@@ -1,16 +1,16 @@
 ---
-title: Configurare i nomi di campo app nell&quot;app Magazzino
-description: "In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app nell&quot;app Magazzino in Dynamics 365 for Operations."
+title: Configurare i nomi di campo app nell'app Magazzino
+description: "In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app nell'app Magazzino in Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: edcbf8a0921e0eb08d0f970e681c9d098b354c0b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 49db5ad10914897b2157e123c5803ca51e4e66e7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app nell'app Magazzino in Dynamics 365 for Operations. 
+In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app nell'app Magazzino in Finance and Operations. 
 
-**Nota:** questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. Dynamics 365 for Operations - Magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità di campo dell'app Magazzino e viene descritto come utilizzarli in Dynamics 365 for Operations - Magazzino. Per informazioni dettagliate su come configurare la connessione in Dynamics 365 for Operations - Magazzino, fare riferimento all'esercitazione [Installare e configurare Dynamics 365 for Operations - Magazzino](install-configure-warehousing-app.md).
+**Nota:** questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. Finance and Operations - Magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità di campo dell'app Magazzino e viene descritto come utilizzarli in Finance and Operations - Magazzino. Per informazioni dettagliate su come configurare la connessione in Finance and Operations - Magazzino, fare riferimento all'esercitazione [Installare e configurare Finance and Operations - Magazzino](install-configure-warehousing-app.md).
 
 <a name="configure-warehouse-app-field-names"></a>Configurare i nomi di campo dell'app Magazzino
 ===================================
 
-Quando si utilizza Dynamics 365 for Operations - Magazzino sul dispositivo mobile, è possibile configurare la modalità con cui devono essere visualizzati i metadati sul dispositivo nella pagina **Nomi campo per app magazzino**. In una nuova società in Dynamics 365 for Operations, selezionare **Crea impostazione predefinita** per generare tutti i nomi di campo che verranno utilizzati nei flussi di lavoro del dispositivo mobile di magazzino, quindi assegnare loro una modalità e un tipo di input preferiti. Dopo aver generato tutti i nomi di campo, è possibile selezionare le seguenti opzioni di input.
+Quando si utilizza Finance and Operations - Magazzino sul dispositivo mobile, è possibile configurare la modalità con cui devono essere visualizzati i metadati sul dispositivo nella pagina **Nomi campo per app magazzino**. In una nuova società in Finance and Operations, selezionare **Crea impostazione predefinita** per generare tutti i nomi di campo che verranno utilizzati nei flussi di lavoro del dispositivo mobile di magazzino, quindi assegnare loro una modalità e un tipo di input preferiti. Dopo aver generato tutti i nomi di campo, è possibile selezionare le seguenti opzioni di input.
 
 <table>
 <colgroup>
@@ -73,7 +73,7 @@ Quando si utilizza Dynamics 365 for Operations - Magazzino sul dispositivo mobil
 <a name="configure-warehouse-app-field-priority"></a>Configurare la priorità di campo nell'app Magazzino
 ======================================
 
-Nella pagina **Priorità campo per app magazzino**, è possibile inserire i nomi di campo in gruppi di priorità diversi. Ciò consente di scegliere le informazioni da visualizzare nella pagina dell'attività principale quando i lavoratori di magazzino eseguono attività mediante l'app. Se si fa clic su **Crea impostazione predefinita**, verrà generato un set predefinito di gruppi di priorità. È possibile creare un numero illimitato di gruppi di priorità, se necessario, ma solo tre gruppi di priorità verranno visualizzati nella pagina dell'attività. Quando Dynamics 365 for Operations invia i metadati all'app, a ogni campo verrà assegnata una priorità relativa a seconda del rispettivo gruppo di priorità e l'app visualizzerà i primi tre gruppi di priorità contenuti nei metadati nella pagina dell'attività. Il resto dei metadati aggiuntivi verranno visualizzati in una pagina dei dettagli secondaria. Nella tabella seguente viene illustrato un esempio di cinque gruppi di priorità.
+Nella pagina **Priorità campo per app magazzino**, è possibile inserire i nomi di campo in gruppi di priorità diversi. Ciò consente di scegliere le informazioni da visualizzare nella pagina dell'attività principale quando i lavoratori di magazzino eseguono attività mediante l'app. Se si fa clic su **Crea impostazione predefinita**, verrà generato un set predefinito di gruppi di priorità. È possibile creare un numero illimitato di gruppi di priorità, se necessario, ma solo tre gruppi di priorità verranno visualizzati nella pagina dell'attività. Quando Finance and Operations invia i metadati all'app, a ogni campo verrà assegnata una priorità relativa a seconda del rispettivo gruppo di priorità e l'app visualizzerà i primi tre gruppi di priorità contenuti nei metadati nella pagina dell'attività. Il resto dei metadati aggiuntivi verranno visualizzati in una pagina dei dettagli secondaria. Nella tabella seguente viene illustrato un esempio di cinque gruppi di priorità.
 
 <table>
 <colgroup>
@@ -141,12 +141,12 @@ In base alla priorità di campo dell'app Magazzino impostata nella tabella prece
 -   Riga 2: Descrizione dell'articolo
 -   Riga 3: Dimensione
 
-I metadati rimanenti, ad esempio l'ubicazione, non verranno visualizzati nella pagina dell'attività, ma verranno visualizzati in una pagina dei dettagli. Per ulteriori informazioni e per visualizzare esempi dell'interfaccia utente, fare riferimento al post di blog [Presentazione di Dynamics 365 for Operations - Magazzino](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+I metadati rimanenti, ad esempio l'ubicazione, non verranno visualizzati nella pagina dell'attività, ma verranno visualizzati in una pagina dei dettagli. Per ulteriori informazioni e per visualizzare esempi dell'interfaccia utente, fare riferimento al post di blog [Presentazione di Finance and Operations - Magazzino](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Installare e configurare Microsoft Dynamics 365 for Operations - Magazzino](install-configure-warehousing-app.md)
+[Installare e configurare Microsoft Dynamics 365 for Finance and Operations - Magazzino](install-configure-warehousing-app.md)
 
 
 

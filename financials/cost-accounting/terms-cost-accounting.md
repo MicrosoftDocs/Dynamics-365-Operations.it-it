@@ -3,14 +3,14 @@ title: "Terminologia della contabilità industriale"
 description: "In questo argomento vengono definiti i termini principali utilizzati in Contabilità industriale."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ce12337c22542aea2002ffc5abd09e4f4d770c1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ In questo argomento vengono definiti i termini principali utilizzati in Contabil
 
 **Contabilità industriale**
 
-La contabilità industriale consente di raccogliere dati da diverse origini, ad esempio dalla contabilità generale, dalle contabilità ausiliarie, dai budget e dalle informazioni statistiche. È quindi possibile analizzare, riepilogare e valutare i dati sui costi, in modo che la gestione possa prendere le migliori decisioni possibili per gli aggiornamenti dei prezzi, i budget, il controllo dei costi e così via. I dati di origine utilizzati per l'analisi dei costi vengono gestiti in modo indipendente nella contabilità industriale. Di conseguenza, gli aggiornamenti della contabilità industriale non hanno effetto sui dati di origine. Tuttavia, quando si raccolgono i dati sui costi da diverse origini e soprattutto quando si importano i conti principali dalla contabilità generale in Microsoft Dynamics 365 for Operations come elementi dei costi, vi è ridondanza di dati, poiché gli stessi dati esistono sia in contabilità generale che in contabilità industriale. Questa ridondanza è necessaria, poiché si utilizza la gestione finanziaria per la creazione di report esterni e la contabilità industriale per la creazione di report interni.
+La contabilità industriale consente di raccogliere dati da diverse origini, ad esempio dalla contabilità generale, dalle contabilità ausiliarie, dai budget e dalle informazioni statistiche. È quindi possibile analizzare, riepilogare e valutare i dati sui costi, in modo che la gestione possa prendere le migliori decisioni possibili per gli aggiornamenti dei prezzi, i budget, il controllo dei costi e così via. I dati di origine utilizzati per l'analisi dei costi vengono gestiti in modo indipendente nella contabilità industriale. Di conseguenza, gli aggiornamenti della contabilità industriale non hanno effetto sui dati di origine. Tuttavia, quando si raccolgono i dati sui costi da diverse origini e soprattutto quando si importano i conti principali dalla contabilità generale in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition come elementi dei costi, vi è ridondanza di dati, poiché gli stessi dati esistono sia in contabilità generale che in contabilità industriale. Questa ridondanza è necessaria, poiché si utilizza la gestione finanziaria per la creazione di report esterni e la contabilità industriale per la creazione di report interni.
 
 **Movimento CoGe di contabilità industriale**
 

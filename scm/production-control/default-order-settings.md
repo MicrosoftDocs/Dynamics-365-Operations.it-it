@@ -1,16 +1,16 @@
 ---
 title: Impostazioni ordine predefinite per le dimensioni e varianti prodotto
-description: "Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verrà utilizzata per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine. Le impostazioni ordine predefinite vengono utilizzate durante la creazione di ordini fornitore, ordini cliente, ordini di trasferimento, giornali di registrazione magazzino e durante la pianificazione generale per la generazione degli ordini pianificati. Le impostazioni ordine predefinite possono essere specifiche dell&quot;articolo, del sito, della variante prodotto o della dimensioni prodotto."
+description: "Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verrà utilizzata per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemOrderSetup
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
@@ -19,20 +19,22 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: db2398e85d5f49cece4f406b2244cf072cce083d
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: b4e8ff363a98f8dfc90af0133807373566531568
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Impostazioni ordine predefinite per le dimensioni e varianti prodotto
+# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Impostazioni ordine predefinite per dimensioni e varianti prodotto
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
-Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verrà utilizzata per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine. Le impostazioni ordine predefinite vengono utilizzate durante la creazione di ordini fornitore, ordini cliente, ordini di trasferimento, giornali di registrazione magazzino e durante la pianificazione generale per la generazione degli ordini pianificati. Le impostazioni ordine predefinite possono essere specifiche dell'articolo, del sito, della variante prodotto o della dimensioni prodotto.
+
+Le impostazioni ordine predefinite in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verrà utilizzata per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine. Le impostazioni ordine predefinite vengono utilizzate durante la creazione di ordini fornitore, ordini cliente, ordini di trasferimento, giornali di registrazione magazzino e durante la pianificazione generale per la generazione degli ordini pianificati. Le impostazioni ordine predefinite possono essere specifiche dell'articolo, del sito, della variante prodotto o della dimensioni prodotto.
 
 È possibile definire le impostazioni ordine predefinite nella pagina **Impostazioni ordine predefinite**. Per visualizzare questa pagina, andare a **Gestione informazioni sul prodotto** &gt; **Prodotti** &gt; **Prodotti rilasciati** &gt; selezionare un prodotto rilasciato &gt; nel riquadro azioni **Piano** o ****Gestione articoli**** &gt; **Impostazioni ordine** &gt; **Impostazioni ordine predefinite**.
 
@@ -74,7 +76,7 @@ Le impostazioni ordine di magazzino predefinite vengono utilizzate anche durante
 -   Ordini di produzione pianificati
 
 ## <a name="full-definition-of-a-released-product"></a>Definizione completa di un prodotto rilasciato
-Quando si crea una transazione, è necessario specificare la definizione completa di un prodotto rilasciato nella riga prima che Dynamics 365 for Operations tenti di identificare le impostazioni ordine predefinite. La definizione completa del prodotto rilasciato significa che il numero di articolo e tutte le dimensioni prodotto attive, ad esempio configurazione, dimensione, stile e colore, vengono specificati per la transazione. Ad esempio, se si crea manualmente una riga di ordine di acquisto per una variante prodotto rilasciato, è necessario specificare tutte le dimensioni prodotto richieste prima che il sito, il magazzino, le quantità e il lead time vengano visualizzati per impostazione predefinita nella riga ordine. 
+Quando si crea una transazione, è necessario specificare la definizione completa di un prodotto rilasciato nella riga prima che Finance and Operations tenti di identificare le impostazioni ordine predefinite. La definizione completa del prodotto rilasciato significa che il numero di articolo e tutte le dimensioni prodotto attive, ad esempio configurazione, dimensione, stile e colore, vengono specificati per la transazione. Ad esempio, se si crea manualmente una riga di ordine di acquisto per una variante prodotto rilasciato, è necessario specificare tutte le dimensioni prodotto richieste prima che il sito, il magazzino, le quantità e il lead time vengano visualizzati per impostazione predefinita nella riga ordine. 
 
 Non tutti i parametri delle impostazioni ordine predefinite vengono applicati quando si creano le righe giornale di registrazione o ordine. Le quantità e i lead time vengono visualizzati per impostazione predefinita solo al momento opportuno. Ad esempio quando si conteggia una riga giornale di registrazione, solo il sito e il magazzino vengono visualizzati per impostazione predefinita quando la riga viene creata. Ovviamente non viene eseguita nessuna impostazione predefinita di quantità né vengono eseguiti i controlli su multipli e minimi durante la creazione della riga o la registrazione del giornale. 
 
@@ -97,7 +99,7 @@ Per prodotti rilasciati specifici, è possibile definire le impostazioni ordine 
 
 Per creare impostazioni ordine specifiche del sito, fare clic su **Nuovo**. In **Visualizzazione dettagli** specificare il sito nel campo **Impostazioni applicabili per** &gt; **Sito**. In **Visualizzazione griglia**, inserire il sito nella colonna **Sito**. La nuova regola ottiene automaticamente un nuovo valore di classificazione maggiore di zero. È possibile creare tutte le regole specifiche del sito necessarie ed è possibile assegnare tutte le regole specifiche del sito alla stessa classificazione per modellarle su un'uguale importanza. 
 
-Nella **Visualizzazione dettagli** non è possibile ottenere la panoramica delle regole create per l'articolo. Attivare il pulsante **Mostra/nascondi elenco** per visualizzare le informazioni generali. Quando una riga di ordine di qualsiasi tipo viene creata e non viene fornito alcun sito, Dynamics 365 for Operations cerca una regola senza sito specificato. Questa azione potrebbe aiutare a determinare un sito predefinito nella riga ordine. Questo sito verrà utilizzato per cercare una regola specifica del sito in cui un magazzino predefinito potrebbe essere stato impostato. Il magazzino viene applicato alla riga ordine.
+Nella **Visualizzazione dettagli** non è possibile ottenere la panoramica delle regole create per l'articolo. Attivare il pulsante **Mostra/nascondi elenco** per visualizzare le informazioni generali. Quando una riga di ordine di qualsiasi tipo viene creata e non viene fornito alcun sito, Finance and Operations cerca una regola senza sito specificato. Questa azione potrebbe aiutare a determinare un sito predefinito nella riga ordine. Questo sito verrà utilizzato per cercare una regola specifica del sito in cui un magazzino predefinito potrebbe essere stato impostato. Il magazzino viene applicato alla riga ordine.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Impostazioni ordine specifiche per la dimensione prodotto
 
@@ -134,7 +136,7 @@ Quando una riga di ordine fornitore o un ordine fornitore pianificato viene crea
 
 Le due regole per l'interruzione delle revisioni precedenti hanno la stessa classificazione nel senso che sono ugualmente importanti. Entrambe hanno una classificazione più alta della regola della configurazione C1 nel senso che hanno priorità sulla regola della configurazione C1. 
 
-In questo esempio viene illustrata la necessità della classificazione. Se si crea un ordine fornitore per la configurazione C1 e la revisione R2, in assenza di classificazione, le due regole definite per R2 e C1 sarebbero ambigue. Per risolvere l'ambiguità, Dynamics 365 for Operations cerca tra le regole in ordine decrescente di classificazione e applica la regola prima applicabile. Nell'esempio corrente, se una riga di ordine fornitore viene creata per la configurazione C1 e la revisione R2, l'utente otterrà un messaggio di avviso indicante che l'articolo è in attesa a causa del valore di revisione. Se la classificazione della regola della configurazione fosse stata più alta di quella della revisione, la creazione di una riga ordine fornitore per la configurazione C1 e la revisione R2 avrebbe avuto esito positivo e nessun messaggio di "articolo in attesa" sarebbe stato restituito all'utente. 
+In questo esempio viene illustrata la necessità della classificazione. Se si crea un ordine fornitore per la configurazione C1 e la revisione R2, in assenza di classificazione, le due regole definite per R2 e C1 sarebbero ambigue. Per risolvere l'ambiguità, Finance and Operations cerca tra le regole in ordine decrescente di classificazione e applica la regola prima applicabile. Nell'esempio corrente, se una riga di ordine fornitore viene creata per la configurazione C1 e la revisione R2, l'utente otterrà un messaggio di avviso indicante che l'articolo è in attesa a causa del valore di revisione. Se la classificazione della regola della configurazione fosse stata più alta di quella della revisione, la creazione di una riga ordine fornitore per la configurazione C1 e la revisione R2 avrebbe avuto esito positivo e nessun messaggio di "articolo in attesa" sarebbe stato restituito all'utente. 
 
 Si considerino le seguenti regole delle impostazioni ordine predefinite.
 

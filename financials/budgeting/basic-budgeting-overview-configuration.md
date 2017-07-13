@@ -1,15 +1,15 @@
 ---
 title: Panoramica di Impostazione budget
-description: "Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Operations devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Dynamics 365 for Operations o per caricarli da un programma di terze parti."
+description: "Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations, Enterprise Edition o per caricarli da un programma di terze parti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="budgeting-overview"></a>Panoramica di Impostazione budget
+# <a name="budgeting-overview"></a>Panoramica dell'impostazione budget 
 
 [!include[banner](../includes/banner.md)]
 
 
-Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Operations devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Dynamics 365 for Operations o per caricarli da un programma di terze parti.
+Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations o per caricarli da un programma di terze parti.
 
 <a name="overview"></a>Panoramica
 --------
 
 Il budget approvato per una persona giuridica viene gestito in un documento noto come *voce del registro di budget*. Le righe di un documento di voci di registro del budget sono note come voci *contabili del budget* e contengono le informazioni sulle dimensioni finanziarie, le date e gli importi del budget approvato. Il documento delle voci del registro di budget è integrato con i report finanziari di base e le pagine di richiesta di informazioni in cui gli importi effettivi di contabilità generale vengono confrontati gli importi del budget. 
 
-Esistono più metodi per creare voci del registro di budget in Dynamics 365 for Operations:
+Esistono più metodi per creare voci del registro di budget in Finance and Operations:
 
 -   Immettere manualmente le informazioni del documento nella pagina **Voci del registro di budget**.
 -   Utilizzare il modello di Microsoft Excel che è possibile aprire facendo clic sul pulsante **Apri in Excel** nella pagina **Voci del registro di budget**.
@@ -77,7 +77,7 @@ Il responsabile budget può verificare lo stato corrente di un budget nell'area 
 > [!NOTE] 
 > Il campo **Responsabile reparto** nella pagina **Unità organizzative** determina quali responsabili supportano specifiche combinazioni di dimensioni finanziarie. Fare clic su **Ulteriori informazioni** nella parte inferiore della scheda per aprire la pagina di richiesta **Confronto tra budget e valori effettivi** per visualizzare altri dettagli sugli importi di budget rispetto agli importi effettivi. 
 
-La pagina di richiesta **Effettivi rispetto al budget** consente di esaminare a fondo i dettagli del budget rispetto agli importi effettivi. Selezionare una riga nella pagina di richiesta e quindi fare clic su **Saldi del periodo** per visualizzare come il budget e gli importi effettivi si estendono su più periodi fiscali. La pagina **Voci contabili budget** fornisce informazioni dettagliate sull'importo del budget nelle voci del registro di budget. La pagina **Inserimenti nel giornale di registrazione generale**apre le transazioni contabili che sono incluse nell'importo **Effettivi** calcolato. 
+La pagina di richiesta **Effettivi rispetto al budget** consente di esaminare a fondo i dettagli del budget rispetto agli importi effettivi. Selezionare una riga nella pagina di richiesta e quindi fare clic su **Saldi del periodo** per visualizzare come il budget e gli importi effettivi si estendono su più periodi fiscali. La pagina **Voci contabili budget** fornisce informazioni dettagliate sull'importo del budget nelle voci del registro di budget. La pagina **Inserimenti nel giornale di registrazione generale** apre le transazioni contabili che sono incluse nell'importo **Effettivi** calcolato. 
 
 Una società che utilizza la funzionalità di pianificazione del budget può creare e utilizzare le *previsioni di budget* nell'area di lavoro **Budget contabili e previsioni**.
 

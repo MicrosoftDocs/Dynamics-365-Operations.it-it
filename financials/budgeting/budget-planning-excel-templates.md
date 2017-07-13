@@ -3,7 +3,7 @@ title: Modelli di pianificazione del budget per Excel
 description: In questo argomento viene descritto come creare modelli di Microsoft Excel che possono essere utilizzati con i piani di budget.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Il modello di Excel contiene tutti gli elementi dal layout di documento del pian
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Per evitare problemi potenziali di visualizzazione e modifica dei dati del piano di budget utilizzando Excel, lo stesso utente deve essere collegato sia a Dynamics 365 for Operations che al connettore dati del componente aggiuntivo per Office di Microsoft Dynamics.
+> Per evitare problemi potenziali di visualizzazione e modifica dei dati del piano di budget utilizzando Excel, lo stesso utente deve essere collegato sia a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition che al connettore dati del componente aggiuntivo per Office di Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Aggiungere un'intestazione al modello di documento del piano di budget
 Per aggiungere informazioni di intestazione, selezionare la riga superiore nel file di Excel e inserire righe vuote. Fare clic su **Progettazione** in **Connettore dati** per aggiungere i campi di intestazione al file Excel.
@@ -79,11 +79,11 @@ Il gruppo di campi selezionato visualizza le colonne disponibili nel modello. Fa
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Per definire la formula, creare la formula nel foglio di calcolo quindi copiarla nella finestra di **Progettazione**. Una tabella associata a Dynamics 365 for Operations in genere verrà denominata "AXTable1". Ad esempio, per le riepilogare le colonne Request Q1 : Request Q4 del foglio di calcolo, la formula  = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
+> Per definire la formula, creare la formula nel foglio di calcolo quindi copiarla nella finestra di **Progettazione**. Una tabella associata a Finance and Operations in genere verrà denominata "AXTable1". Ad esempio, per le riepilogare le colonne Request Q1 : Request Q4 del foglio di calcolo, la formula  = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
 
 Ripetere questi passaggi per inserire la colonna **Adjustment**. Utilizzare la formula = AxTable1\[Total request\]\*$I$1 per la colonna. Questa accetterà il valore della cella I1 e moltiplicherà i valori nella colonna **Total request** per calcolare gli importi di rettifica.
 
-Salvare e chiudere il file di Excel. Tornare a Dynamics 365 for Operations e in **Layout** ** **, fare clic su **Modello &gt; Carica** per caricare il modello salvato di Excel da utilizzare per il piano di budget. 
+Salvare e chiudere il file di Excel. Tornare a Finance and Operations e in **Layout** ** **, fare clic su **Modello &gt; Carica** per caricare il modello salvato di Excel da utilizzare per il piano di budget. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
@@ -94,7 +94,7 @@ Chiudere il dispositivo di scorrimento **Layout**. Nel documento **Piano di budg
 ## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Suggerimenti per creare modelli del piano di budget
 ### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Posso aggiungere e utilizzare origini dati supplementari a un modello di piano di budget?
 
-Sì, è possibile utilizzare il menu **Progettazione**per aggiungere le entità aggiuntivi allo stesso o altri fogli nel modello Excel. Ad esempio, è possibile aggiungere l'origine dati **BudgetPlanProposedProject** per creare e gestire un elenco di progetti proposti contemporaneamente all'uso dei dati del piano di budget in Excel. Tenere presente che includere origini dati di volume elevato può influire sulle prestazioni della cartella di lavoro di Excel. 
+Sì, è possibile utilizzare il menu **Progettazione** per aggiungere le entità aggiuntivi allo stesso o altri fogli nel modello Excel. Ad esempio, è possibile aggiungere l'origine dati **BudgetPlanProposedProject** per creare e gestire un elenco di progetti proposti contemporaneamente all'uso dei dati del piano di budget in Excel. Tenere presente che includere origini dati di volume elevato può influire sulle prestazioni della cartella di lavoro di Excel. 
 
 È possibile utilizzare l'opzione **Filtro** in **Connettore dati** per aggiungere i filtri desiderati alle origini dati aggiuntive.
 

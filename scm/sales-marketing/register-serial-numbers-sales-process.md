@@ -1,17 +1,17 @@
 ---
 title: Registrare numeri di serie nel processo di vendita
-description: "Questo articolo spiega come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall&quot;entrata all&quot;uscita delle merci in magazzino."
+description: "Questo articolo spiega come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d984a6af2b48f02120ea61b385522a6400d93d4a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ffb567c0ba9c95d059e64e24cbe0ea53ec9f7bc9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,15 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 Questo articolo spiega come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
 
-Molte società desiderano acquisire numeri di serie solo per scopi di garanzia e assistenza per non dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino. In questi scenari, Microsoft Dynamics 365 for Operations consente di registrare i numeri di serie sui documenti di trasporto o sulle fatture quando i prodotti vengono venduti. Se in seguito i prodotti vengono resi, è quindi possibile tenere traccia di ogni prodotto in una fattura per determinare se è stato venduto e se gli obblighi di assistenza e garanzia sono validi.
+Molte società desiderano acquisire numeri di serie solo per scopi di garanzia e assistenza per non dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino. In questi scenari, Microsoft Dynamics 365 for Finance and Operations consente di registrare i numeri di serie sui documenti di trasporto o sulle fatture quando i prodotti vengono venduti. Se in seguito i prodotti vengono resi, è quindi possibile tenere traccia di ogni prodotto in una fattura per determinare se è stato venduto e se gli obblighi di assistenza e garanzia sono validi.
 Esistono altri prerequisiti?
 ----------------------------
 
-È necessario abilitare i numeri di serie per il processo di vendita selezionando l'opzione **Attiva in processo di vendita** nella pagina **Gruppi di dimensioni di tracciabilità**. In Microsoft Dynamics 365 for Operations si verificano quindi gli eventi seguenti:
+È necessario abilitare i numeri di serie per il processo di vendita selezionando l'opzione **Attiva in processo di vendita** nella pagina **Gruppi di dimensioni di tracciabilità**. In Microsoft Dynamics 365 for Finance and Operations si verificano quindi gli eventi seguenti:
 -   Nella scheda dettagli **Numeri di serie**, è selezionata l'opzione **Controllo numero di serie**. Se questa opzione è selezionata, è necessario registrare un numero di serie per ogni articolo sul documento di trasporto o sulla fattura.
 -   Tutte le selezioni nel gruppo di dimensioni di tracciabilità per i numeri di serie vengono deselezionate, tranne la casella di controllo **Uscita non specificata consentita**. È possibile selezionare la casella di controllo **Uscita non specificata consentita** per eseguire l'override del controllo del numero di serie e consentire l'imballaggio e la fatturazione dei prodotti senza registrare i numeri di serie.
 
@@ -56,7 +57,7 @@ L'impostazione del gruppo di dimensioni di tracciabilità assegnato al prodotto 
 È possibile creare fatture e documenti di trasporto parziali per gli ordini cliente e registrare i numeri di serie solo per gli articoli inclusi. Se si desidera creare una fattura parziale e si dispone di più documenti di trasporto per l'ordine cliente, è possibile includere i numeri di serie da più documenti di trasporto. Tuttavia, può esistere un solo documento di trasporto in cui non sono inclusi tutti i numeri di serie. Ad esempio, se si dispone di tre documenti di trasporto e ognuno include due articoli serializzati, non è possibile creare una fattura parziale per un articolo da ciascun documento di trasporto.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Quali operazioni si possono eseguire se un numero di serie non è leggibile?
-Se un numero di serie non può essere letto o digitalizzato, è possibile creare una riga vuota per l'articolo facendo clic su **Non leggibile**nella pagina **Numeri di serie**. Se il numero di serie diventa disponibile in seguito, è possibile aggiornare la fattura o il documento di trasporto. Per ulteriori informazioni, vedere la sezione successiva ""È possibile correggere o modificare i numeri di serie registrati per un ordine cliente?"
+Se un numero di serie non può essere letto o digitalizzato, è possibile creare una riga vuota per l'articolo facendo clic su **Non leggibile** nella pagina **Numeri di serie**. Se il numero di serie diventa disponibile in seguito, è possibile aggiornare la fattura o il documento di trasporto. Per ulteriori informazioni, vedere la sezione successiva ""È possibile correggere o modificare i numeri di serie registrati per un ordine cliente?"
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>È possibile correggere o modificare i numeri di serie registrati per un ordine cliente?
 Sì, e possibile correggere i numeri di serie se vengono soddisfatte le seguenti condizioni:

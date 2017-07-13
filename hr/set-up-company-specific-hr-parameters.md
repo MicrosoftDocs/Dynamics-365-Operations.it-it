@@ -3,25 +3,26 @@ title: "Impostare parametri HR specifici della società"
 description: "Le impostazioni di alcuni parametri delle Risorse umane sono condivise tra società, mentre le impostazioni di altri parametri sono specifiche. In questo articolo viene illustrato come impostare parametri risorse umane specifici della società."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRMParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1a3560013271fc1b83bdb931aef2153b1d07317
+ms.sourcegitcommit: f83bc127f7bf3cdceb39a79c1e69f4f7e96f6462
+ms.openlocfilehash: ef84ad6e90e7c58ea921930e23b67228d393bc7e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -36,7 +37,7 @@ Le impostazioni di alcuni parametri delle Risorse umane sono condivise tra socie
 Per l'impostazione dei parametri HR vengono utilizzate due pagine. Per i parametri che vengono condivisi tra le società, si utilizza la pagina **Parametri condivisi Risorse umane**. Per i parametri che sono specifici della società (vale a dire le impostazioni che si applicano a una singola società), si utilizza la pagina **Parametri Risorse umane**. Nella pagina **Parametri Risorse umane** le impostazioni sono suddivise in sei schede:
 
 -   Generale
--   Selezione del personale
+-   Selezione del personale - Questa funzionalità non è inclusa in Dynamics 365 for Talent
 -   Retribuzione
 -   Sequenze numeriche
 -   Normativa per il congedo per motivi medici e familiari (FMLA)
@@ -48,7 +49,11 @@ Le impostazioni nella scheda **Selezione del personale** definiscono i tipi di d
 
 Le impostazioni della scheda **Retribuzione** definiscono se gli utenti devono confermare che desiderano salvare le informazioni relative a un piano di retribuzione fissa o variabile. Se si seleziona la casella di controllo **Attivare la convalida del salvataggio**, qualsiasi momento che gli utenti chiudono una pagina correlata alla retribuzione, ricevono un messaggio in cui viene chiesto se si desidera salvare il record. Alcune pagine della gestione delle retribuzioni non permettono agli utenti di eliminare le informazioni. Di conseguenza, la richiesta agli utenti per verificare se desiderano salvare le informazioni può limitare la quantità di informazioni che vengono salvate, ma che non possono essere successivamente eliminate. Se la casella di controllo **Attivare la convalida del salvataggio** è deselezionata, i record vengono sempre salvati immediatamente, possibilmente prima che l'utente sia pronto. Se si utilizza la gestione delle prestazioni, nella scheda **Retribuzione** è possibile selezionare un modello di valutazione da utilizzare al posto di quello assegnato ai piani di retribuzione durante la valutazione delle prestazioni. 
 
-Le impostazioni nella scheda **Sequenza numerica** determinano le sequenze che vengono utilizzate per assegnare automaticamente gli ID agli elementi in Risorse umane, ad esempio le domande di lavoro, le registrazioni delle assenze, i risultati del processo retributivo, i numeri dei casi, i corsi e le agende dei corsi. Per gestire i codici e riferimenti delle sequenze numeriche, utilizzare la pagina elenco **Sequenze numerich**e (fare clic su **Amministrazione organizzazione** &gt; **Sequenze numeriche** &gt; **Sequenze numeriche**). 
+### <a name="previously-released-functionality"></a>Funzionalità già rilasciata
+Le impostazioni nella scheda **Sequenza numerica** determinano le sequenze che vengono utilizzate per assegnare automaticamente gli ID agli elementi in Risorse umane, ad esempio le domande di lavoro, le registrazioni delle assenze, i risultati del processo retributivo, i numeri dei casi, i corsi e le agende dei corsi. Per gestire i codici e riferimenti delle sequenze numeriche, utilizzare la pagina elenco **Sequenze numerich** e (fare clic su **Amministrazione organizzazione** &gt; **Sequenze numeriche** &gt; **Sequenze numeriche**).
+
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Se si utilizza Dynamics 365 for Talent
+Le impostazioni nella scheda **Sequenza numerica** determinano le sequenze che vengono utilizzate per assegnare automaticamente gli ID agli elementi in Risorse umane, ad esempio le domande di lavoro, le registrazioni delle assenze, i risultati del processo retributivo, i numeri dei casi, i corsi e le agende dei corsi. Per gestire i codici e riferimenti delle sequenze numeriche, utilizzare la pagina elenco **Sequenze numeriche** (fare clic su **Amministrazione sistema** &gt; **scheda Collegamenti** &gt; **Sequenze numeriche** &gt; **Sequenze numeriche**). 
 
 Le impostazioni nella scheda **FMLA** definiscono la quantità di ore che un dipendente deve svolgere per ottenere l'idoneità ai vantaggi FMLA, la durata dell'impiego che è richiesta per l'idoneità e la data di inizio dell'impiego che viene utilizzata per determinare la durata dell'impiego. Le impostazioni definiscono inoltre il numero di ore FMLA a cui i dipendenti sono autorizzati e il calendario di congedo FMLA che viene utilizzato per calcolare il numero di ore FMLA utilizzato dai dipendenti. La scheda **FMLA** è disponibile solo per le società negli Stati Uniti. 
 

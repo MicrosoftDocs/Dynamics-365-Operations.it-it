@@ -1,16 +1,16 @@
 ---
 title: Collaborazione fornitore con i clienti
-description: In questo argomento viene descritto come utilizzare la collaborazione fornitore in Microsoft Dynamics 365 for Operations per gestire gli ordini fornitore e monitorare l&quot;inventario spedizione.
+description: In questo argomento viene descritto come utilizzare la collaborazione fornitore in Finance and Operations per gestire gli ordini fornitore e monitorare l'inventario spedizione.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto come utilizzare la collaborazione fornitore in Microsoft Dynamics 365 for Operations per gestire gli ordini fornitore e monitorare l'inventario spedizione.
+In questo argomento viene descritto come utilizzare la collaborazione fornitore in Finance and Operations per gestire gli ordini fornitore e monitorare l'inventario spedizione.
 
-In questo argomento viene descritto come utilizzare la collaborazione fornitore per gestire i clienti in Microsoft Dynamics 365 for Operations. Include informazioni su come monitorare e rispondere agli ordini fornitore e come monitorare l'inventario di spedizione. È inoltre possibile utilizzare la collaborazione fornitore per lavorare con le fatture. Per ulteriori informazioni, vedere [Area di lavoro fatturazione di collaborazione fornitore](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+In questo argomento viene descritto come utilizzare la collaborazione fornitore per lavorare con i clienti in Microsoft Finance and Operations. Include informazioni su come monitorare e rispondere agli ordini fornitore e come monitorare l'inventario di spedizione. È inoltre possibile utilizzare la collaborazione fornitore per lavorare con le fatture. Per ulteriori informazioni, vedere [Area di lavoro fatturazione di collaborazione fornitore](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Gestione degli ordini fornitore
 L'area di lavoro **Conferma ordine fornitore** consente di rispondere agli ordini fornitore inviati per la revisione. Consente inoltre di visualizzare le informazioni sugli ordini fornitore in attesa dell'azione dal cliente e su quelli confermati, ma ancora aperti. Sono disponibili tre elenchi  nell'area di lavoro **Conferma ordine fornitore**:
@@ -51,7 +51,7 @@ Nel seguente elenco sono riportate le quattro pagine che è possibile utilizzare
 
 ### <a name="responding-to-purchase-orders"></a>Risposta a ordini fornitore
 
-Gli ordini fornitore che il cliente ha inviato per la revisione sono visibili nell'area di lavoro **Conferma ordine fornitore**e nella pagina **Ordini fornitore per la revisione**. Una volta che si apre un ordine fornitore, è possibile scegliere di accettarlo, rifiutarlo, o accettarlo con modifiche. Potrebbero essere presenti allegati nell'intestazione dell'ordine fornitore o nelle singole righe. È inoltre possibile allegare informazioni alla risposta nell'intestazione o nelle singole righe di ordine fornitore. Ad esempio, è possibile suggerire un articolo sostitutivo per una delle righe. È possibile visualizzare in anteprima e stampare un ordine fornitore come file PDF tramite l'opzione **Anteprima/Stampa**. È possibile visualizzare o nascondere le seguenti colonne di dimensione tramite l'azione **Visualizza dimensioni**: Sito, Magazzino, Colore, Dimensione, Stile, Configurazione. Se si utilizza l'opzione **Accetta con modifiche**, è possibile accettare o rifiutare singole righe. È inoltre possibile apportare le modifiche seguenti alle righe:
+Gli ordini fornitore che il cliente ha inviato per la revisione sono visibili nell'area di lavoro **Conferma ordine fornitore** e nella pagina **Ordini fornitore per la revisione**. Una volta che si apre un ordine fornitore, è possibile scegliere di accettarlo, rifiutarlo, o accettarlo con modifiche. Potrebbero essere presenti allegati nell'intestazione dell'ordine fornitore o nelle singole righe. È inoltre possibile allegare informazioni alla risposta nell'intestazione o nelle singole righe di ordine fornitore. Ad esempio, è possibile suggerire un articolo sostitutivo per una delle righe. È possibile visualizzare in anteprima e stampare un ordine fornitore come file PDF tramite l'opzione **Anteprima/Stampa**. È possibile visualizzare o nascondere le seguenti colonne di dimensione tramite l'azione **Visualizza dimensioni**: Sito, Magazzino, Colore, Dimensione, Stile, Configurazione. Se si utilizza l'opzione **Accetta con modifiche**, è possibile accettare o rifiutare singole righe. È inoltre possibile apportare le modifiche seguenti alle righe:
 
 -   Modificare le date o quantità. Se si desidera aggiornare la data di consegna confermata per tutte le righe, utilizzare l'opzione nell'intestazione di ordine fornitore **Aggiorna date di consegna**.
 -   Suddividere righe per date o quantità di consegna differenti

@@ -1,9 +1,9 @@
 ---
 title: Interfaccia Progettazione report
-description: In questo articolo viene illustrato come spostarsi all&quot;interno di Progettazione report e come utilizzare le varie opzioni per soddisfare specifiche esigenze.
+description: In questo articolo viene illustrato come spostarsi all'interno di Progettazione report e come utilizzare le varie opzioni per soddisfare specifiche esigenze.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 775a836748949a86b64a0ddec15ee4519b1c5127
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,7 +53,7 @@ Il menu **File** è disponibile per tutti gli utenti e comprende i seguenti coma
 | Salva con nome                           | Salvare la definizione di riga, definizione di colonna, definizione di albero gerarchico o definizione di report corrente con un nuovo nome.                                                                            |
 | Proprietà                        | Aprire la finestra di dialogo **Proprietà** in cui è possibile modificare il nome e la descrizione di un report.                                                                                                   |
 | Genera                          | Generare il report corrente. Questo comando è disponibile da una definizione di report.                                                                                                                 |
-| Visualizza report                       | Aprire la versione più recente del report generato in Dynamics 365 for Operations. Questo comando è disponibile da una definizione di report se è stato generato almeno un report.                                 |
+| Visualizza report                       | Aprire la versione più recente del report generato in Finance and Operations. Questo comando è disponibile da una definizione di report se è stato generato almeno un report.                                 |
 | Definizioni di report recenti         | Visualizzare un elenco di report che sono stati creati o modificati di recente. È possibile selezionare un report nell'elenco.                                                                                    |
 | Definizioni di riga recenti            | Visualizzare un elenco di definizioni di riga che sono state create o modificate di recente. È possibile selezionare una definizione di riga nell'elenco.                                                                    |
 | Definizioni di colonna recenti         | Visualizzare un elenco di definizioni di colonna che sono stati create o modificate di recente. È possibile selezionare una definizione di colonna nell'elenco.                                                              |
@@ -163,7 +163,7 @@ Il menu **?** è disponibile per tutti gli utenti e comprende i seguenti comandi
 
 | Comandi | descrizione                                                  |
 |---------|--------------------------------------------------------------|
-| ?    | Aprire la pagina dell'argomento della Guida di Dynamics 365 for Operations per i report finanziari. |
+| ?    | Aprire la pagina dell'argomento della Guida di Finance and Operations per i report finanziari. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Pulsanti della barra degli strumenti di Progettazione report

@@ -3,13 +3,13 @@ title: Configurare una decisione manuale in un flusso di lavoro
 description: "In questo argomento viene descritto come configurare le proprietà per una decisione manuale."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6ea8b060741ea94af16861d5bb52894a577e5521
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -152,10 +152,10 @@ Se un documento viene assegnato a un decisore, a quest'ultimo viene in genere ri
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Utenti di Microsoft Dynamics 365 for Operations specifici</td>
+    <td>Utenti specifici di Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Finance and Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -215,10 +215,10 @@ Per specificare gli utenti a cui assegnare una decisione manuale, effettuare le 
     </tr>
     <tr class="even">
     <td>Utente</td>
-    <td>Utenti di Dynamics 365 for Operations specifici</td>
+    <td>Utenti specifici di Finance and Operations</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui assegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Finance and Operations. Selezionare gli utenti a cui assegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -301,10 +301,10 @@ Se l'utente non prende la decisione nel tempo prestabilito, la decisione scadrà
     </tr>
     <tr class="odd">
     <td>Utente</td>
-    <td>Utenti di Dynamics 365 for Operations specifici</td>
+    <td>Utenti specifici di Finance and Operations</td>
     <td><ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Dynamics 365 for Operations. Selezionare gli utenti a cui riassegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Finance and Operations. Selezionare gli utenti a cui riassegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

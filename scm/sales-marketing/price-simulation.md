@@ -1,9 +1,9 @@
 ---
 title: Simulazione prezzo
-description: In questo articolo vengono fornite informazioni sulla simulazione di prezzo per le offerte. La simulazione di prezzo consente di valutare l&quot;effetto delle detrazioni sul prezzo di vendita futuro durante il processo di offerta, prima di stabilire un prezzo specifico.
+description: In questo articolo vengono fornite informazioni sulla simulazione di prezzo per le offerte. La simulazione di prezzo consente di valutare l'effetto delle detrazioni sul prezzo di vendita futuro durante il processo di offerta, prima di stabilire un prezzo specifico.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 293f09ca8758c0b1a66614eb9c75ca266b044fe7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c5381ab48e394702c2423de7a5b5cb9166993388
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -54,9 +54,9 @@ Per assicurarsi che gli sconti e i prezzi vengano calcolati correttamente, prest
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Tipi di sconti negli accordi commerciali
 
-Per gli accordi commerciali in Microsoft Dynamics 365 for Operations sono previsti quattro tipi di sconti sui prezzi. Tali sconti possono essere impostati per articoli, clienti o gruppi di prezzi diversi e possono avere un'applicazione limitata in base alla data. Per evitare calcoli errati, durante il processo di simulazione del prezzo è necessario considerare gli accordi commerciali. I quattro tipi di sconti previsti negli accordi commerciali sono i seguenti:
+Per gli accordi commerciali in Microsoft Dynamics 365 for Finance and Operations sono previsti quattro tipi di sconti sui prezzi. Tali sconti possono essere impostati per articoli, clienti o gruppi di prezzi diversi e possono avere un'applicazione limitata in base alla data. Per evitare calcoli errati, durante il processo di simulazione del prezzo è necessario considerare gli accordi commerciali. I quattro tipi di sconti previsti negli accordi commerciali sono i seguenti:
 
--   **Prezzo di vendita**è possibile specificare prezzi di vendita distinti per gli articoli. Quando vengono create le righe dell'offerta, il programma cerca il prezzo di vendita corretto per un articolo e lo trasferisce nelle righe dell'offerta. Questo tipo di sconto negli accordi commerciali non influisce pertanto sul processo di simulazione del prezzo. Il prezzo di vendita utilizzato nella riga dell'offerta riflette l'accordo commerciale.
+-   **Prezzo di vendita** è possibile specificare prezzi di vendita distinti per gli articoli. Quando vengono create le righe dell'offerta, il programma cerca il prezzo di vendita corretto per un articolo e lo trasferisce nelle righe dell'offerta. Questo tipo di sconto negli accordi commerciali non influisce pertanto sul processo di simulazione del prezzo. Il prezzo di vendita utilizzato nella riga dell'offerta riflette l'accordo commerciale.
 -   **Sconto riga**: a seconda della quantità ordinata, vengono specificati sconti speciali per gli articoli. Gli importi riga in genere vengono ridotti dello sconto riga prima che venga eseguita una simulazione del prezzo. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.
 -   **Sconto plurimo**: se le quantità combinate superano il limite specificato, combinazioni predefinite di articoli ordinati danno luogo a uno sconto sull'intero ordine. Gli importi riga in genere vengono ridotti dello sconto riga prima che venga eseguita una simulazione del prezzo. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.
 -   **Sconto totale**: se gli importi combinati superano il limite specificato, articoli ordinati predefiniti danno luogo a uno sconto sull'intero ordine. Lo sconto totale viene generato dalle righe dell'offerta. Tuttavia, poiché lo sconto totale viene applicato al totale dell'offerta come sconto, viene ridotto l'importo totale dell'offerta. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.

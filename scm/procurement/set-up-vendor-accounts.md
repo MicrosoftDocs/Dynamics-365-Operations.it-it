@@ -3,7 +3,7 @@ title: Impostare conti fornitore
 description: "In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bee95a2f3d9727e9123aa0abcf41325e6cac1efd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -62,13 +62,13 @@ Per ciascun fornitore, è possibile definire più indirizzi, ciascuno dei quali 
 
 Per aggiungere contatti per un fornitore, nella pagina **Tutti i fornitori**, nella scheda **Fornitore**, nel gruppo **Imposta** fare clic su **Contatti** &gt; **Aggiungi contatti**.  
 
-È possibile creare nuovi contatti fornitore. In alternativa, è possibile copiare i dettagli di un'altra persona già registrate in Microsoft Dynamics 365 for Operations e modificare le informazioni in base alle esigenze.  
+È possibile creare nuovi contatti fornitore. In alternativa, è possibile copiare i dettagli di un'altra persona già registrate in Microsoft Dynamics 365 for Finance and Operations e modificare le informazioni in base alle esigenze.  
 
 **Nota:** l'aggiunta del contatto per un fornitore non corrisponde all'aggiunta di informazioni sul contatto per il fornitore. Anche se è possibile aggiungere informazioni di contatto generali per un fornitore, possono essere presenti più persone specifiche come contatti della società, tutte con le proprie informazioni di contatto.  
 
 Non è possibile eliminare un record di contatto se al contatto viene fatto riferimento in un documento. In alternativa, è possibile disattivare il contatto.  
 
-È possibile aggiungere contatti fornitore ai contatti personali in Microsoft Office 365. Tuttavia, è innanzitutto necessario impostare la sincronizzazione tra Dynamics 365 for Operations e Office 365 sia nella sincronizzazione con Microsoft Exchange Server che nell'Installazione guidata di Microsoft Outlook.
+È possibile aggiungere contatti fornitore ai contatti personali in Microsoft Office 365. Tuttavia, è innanzitutto necessario impostare la sincronizzazione tra Finance and Operations e Office 365 sia nella sincronizzazione con Microsoft Exchange Server che nell'Installazione guidata di Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Fornitori in persone giuridiche diverse
 Se un fornitore viene registrato solo per una persona giuridica nell'organizzazione e altre persone giuridiche devono registrare lo stesso fornitore, è possibile utilizzare la pagina **Aggiungi fornitore a un'altra persona giuridica** per configurare il fornitore in modo che svolga attività commerciali con un'altra persona giuridica. È necessario selezionare un gruppo di fornitori, la valuta e l'eventuale stato di sospensione del fornitore nella persona giuridica selezionata.  

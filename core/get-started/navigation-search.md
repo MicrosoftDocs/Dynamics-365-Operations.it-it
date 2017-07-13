@@ -1,6 +1,6 @@
 ---
 title: Ricerca per navigazione
-description: "Questo argomento illustra come utilizzare la funzionalità di ricerca per esplorare le pagine in Microsoft Dynamics 365 for Operations."
+description: "Questo argomento illustra come utilizzare la funzionalità di ricerca per esplorare le pagine in Microsoft Dynamics 365 for Finance and Operations."
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: df804f79d6639c118e3e0534a21423f207ceb2c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 431165d541c9a3b63100a93108ee770df8e88aa8
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo argomento illustra come utilizzare la funzionalità di ricerca per esplorare le pagine in Microsoft Dynamics 365 for Operations.
+Questo argomento illustra come utilizzare la funzionalità di ricerca per esplorare le pagine in Microsoft Dynamics 365 for Finance and Operations.
 
-In Dynamics 365 for Operations sono disponibili funzionalità per un'ampia gamma di settori e segmenti di mercato verticali. L'applicazione include una serie di aree e pagine utili per eseguire attività diverse. Per trovare rapidamente le pagine necessarie per completare le attività, utilizzare la funzionalità di ricerca per navigazione. 
+In Finance and Operations sono disponibili funzionalità per un'ampia gamma di settori e segmenti di mercato verticali. L'applicazione include una serie di aree e pagine utili per eseguire attività diverse. Per trovare rapidamente le pagine necessarie per completare le attività, utilizzare la funzionalità di ricerca per navigazione. 
 
 Per utilizzare questa funzionalità, fare clic sull'icona **Cerca** per visualizzare la casella **Cerca**. È possibile quindi digitare una o più parole nella casella. Il sistema cerca immediatamente nell'applicazione le pagine che corrispondono alle parole immesse. Ad esempio, è possibile immettere "fattura fornitore" come input, quindi il sistema visualizza i risultati che corrispondono all'input. 
 

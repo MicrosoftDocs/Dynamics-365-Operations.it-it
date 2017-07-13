@@ -1,15 +1,15 @@
 ---
 title: Attribuzione dei costi per progetto nelle entrate acquisti
-description: In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 for Operations.
+description: In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acb14deb9d77927ffc95500e4e97763ba3ad7826
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 for Operations. 
+In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 Le fatture per un progetto spesso arrivano dopo la consegna di merci e servizi, aspetto che potrebbe avere un impatto significativo sugli indicatori di prestazione chiave (KPI) del progetto. È importante poter tenere traccia di queste transazioni sia nei report finanziari che in quelli di progetto.
 
@@ -38,7 +38,7 @@ Nel seguente scenario di esempio viene illustrato questo aspetto.
 
 Contoso Consulting ha avviato un nuovo progetto di distribuzione cloud. Un ordine fornitore viene creato per acquistare un computer per il progetto. Il computer costerà $ 1.500 e i servizi di installazione costeranno $ 150. Il fornitore ha consegnato e installato il computer ma Contoso Consulting non ha ancora ricevuto la fattura. Il manager di progetto desidera esaminare l'attribuzione dei costi per il progetto di $ 1.650 prima che la fattura venga consegnata. Questi costi devono essere riportati anche nei rendiconti finanziari di fine mese della società. 
 
-I ratei e risconti passivi devono essere registrati sia a livello finanziario che a quello di progetto a scopo di reporting. In Dynamics 365 for Operations, l'aggiornamento finanziario dell'entrata prodotti può essere tracciato per l'articolo e le categorie di approvvigionamento. 
+I ratei e risconti passivi devono essere registrati sia a livello finanziario che a quello di progetto a scopo di reporting. In Finance and Operations, l'aggiornamento finanziario dell'entrata prodotti può essere tracciato per l'articoloo e le categorie di approvvigionamento. 
 
 Per gli articoli, nella pagina **Parametri contabilità fornitori**, selezionare l'opzione **Registra entrate prodotti nella contabilità generale**.
 [![ratei1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
@@ -73,7 +73,7 @@ La registrazione di un'entrata prodotti genera e registra un giustificativo nell
 
 **Passaggio 3:** creare una bozza della fattura fornitore. 
 
-In Dynamics 365 for Operations, la registrazione di un'entrata prodotti non influisce sulle informazioni relative al progetto. Come soluzione alternativa, è possibile generare una bozza della fattura fornitore subito aver registrato l'entrata acquisti. Passare alla pagina **Ordine fornitore** &gt; **scheda Fattura** &gt; **Genera** &gt; **Fattura**. Verrà creato un documento di fattura in sospeso che aggiorna le informazioni sul progetto. 
+In Finance and Operations, la registrazione di un'entrata prodotti non influisce sulle informazioni relative al progetto. Come soluzione alternativa, è possibile generare una bozza della fattura fornitore subito aver registrato l'entrata acquisti. Passare alla pagina **Ordine fornitore** &gt; **scheda Fattura** &gt; **Genera** &gt; **Fattura**. Verrà creato un documento di fattura in sospeso che aggiorna le informazioni sul progetto. 
 
 La creazione di una bozza di fattura fornitore genera transazioni di progetto in sospeso. 
 [![ratei8](./media/accruals8-1024x225.png)](./media/accruals8.png) 

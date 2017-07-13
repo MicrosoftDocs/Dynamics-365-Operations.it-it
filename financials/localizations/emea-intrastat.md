@@ -1,9 +1,9 @@
 ---
 title: Intrastat
-description: In questo articolo vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell&quot;Unione Europea. Sono riportate informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
+description: In questo articolo vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5dea47c92c3891ce86b470119ea3bad8252c08d1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6d1141d597e95b0d5cabf77c0248697d256b102a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,11 +40,11 @@ Le seguenti sezioni illustrano il flusso globale di informazioni utilizzato per 
 
 ### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Immettere una transazione che attraversa il confine di un altro paese UE
 
-Una fattura cliente, una fattura a testo libero, una fattura di acquisto, una fattura di progetto, un documento di trasporto cliente, un'entrata prodotti del fornitore, un ordine di trasferimento viene trasferito nel giornale di registrazione Intrastat solo se il tipo di paesi di destinazione (sulle spedizioni) o la spedizione (gli arrivi) è **UE**. Questa funzionalità è stata estesa per Microsoft Dynamics 365 for Operations versione 1611 e consente di specificare gli indirizzi di carico per una transazione intracomunitaria. Se l'indirizzo di carico è diverso all'ufficio del fornitore (o l'indirizzo commerciale del cliente per ordine di reso) la dichiarazione Intrastat opererà con queste informazioni. Quando si crea un ordine cliente, una fattura a testo libero, un ordine fornitore, una fattura fornitore, una fattura di progetto, un ordine di trasferimento, alcuni campi correlati al commercio estero hanno valori predefiniti nell'intestazione del documento o nella riga. Il codice transazione predefinito viene ricavato dal campo corrispondente sulla pagina **Parametri per il commercio estero**. Il codice di voce doganale predefinito, il paese di origine e lo stato/regione o provincia di origine vengono ottenuti dall'articolo. È possibile modificare i valori predefiniti ed è inoltre necessario completare altre informazioni commerciali estere: procedura statistica, metodo di trasporto e porto.
+Una fattura cliente, una fattura a testo libero, una fattura di acquisto, una fattura di progetto, un documento di trasporto cliente, un'entrata prodotti del fornitore, un ordine di trasferimento viene trasferito nel giornale di registrazione Intrastat solo se il tipo di paesi di destinazione (sulle spedizioni) o la spedizione (gli arrivi) è **UE**. Questa funzionalità è stata estesa per Microsoft Dynamics 365 for Operations (1611) e consente di specificare gli indirizzi di carico per una transazione intracomunitaria. Se l'indirizzo di carico è diverso all'ufficio del fornitore (o l'indirizzo commerciale del cliente per ordine di reso) la dichiarazione Intrastat opererà con queste informazioni. Quando si crea un ordine cliente, una fattura a testo libero, un ordine fornitore, una fattura fornitore, una fattura di progetto, un ordine di trasferimento, alcuni campi correlati al commercio estero hanno valori predefiniti nell'intestazione del documento o nella riga. Il codice transazione predefinito viene ricavato dal campo corrispondente sulla pagina **Parametri per il commercio estero**. Il codice di voce doganale predefinito, il paese di origine e lo stato/regione o provincia di origine vengono ottenuti dall'articolo. È possibile modificare i valori predefiniti ed è inoltre necessario completare altre informazioni commerciali estere: procedura statistica, metodo di trasporto e porto.
 
 ### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Utilizzare il giornale di registrazione Intrastat per generare informazioni relative agli scambi commerciali tra i paesi dell'Unione Europea (UE).
 
-A fini statistici, generare ogni mese le informazioni relative al commercio tra i diversi paesi/regioni UE. È possibile trasferire le transazioni da una fattura a testo libero, una fattura cliente, un documento di trasporto cliente, una fattura fornitore, un documento di trasporto fornitore, una fattura progetto, o un ordine di trasferimento, in base ai criteri di trasferimento impostati nella pagina **Parametri per il commercio estero**. In alternativa, è possibile immettere le transazioni manualmente. È possibile aggiornare manualmente le transazioni trasferite nel giornale di registrazione Intrastat, se gli aggiornamenti vengono richiesti. Sotto le condizioni specifiche impostate nella pagina **Compressione di Intrastat**, è possibile comprimere le transazioni nel giornale di registrazione Intrastat. Alcuni paesi consentono di applicare una piccola soglia di transazione. È quindi possibile dichiarare tutte le transazioni in tale soglia nel codice di voce doganale specificato. È possibile aggiornare il codice di voce doganale sulle righe del giornale di registrazione Intrastat corrispondenti, in**Limite minimo** base all'impostazione della pagina **Parametri per il commercio estero**. È inoltre possibile comprimere le transazioni, in base all'impostazione **Compressione di Intrastat**. È possibile convalidare la completezza delle transazioni nel giornale di registrazione Intrastat, in base all'impostazione **Impostazione dell'assegno** della pagina **Parametri per il commercio estero**. I dati nei campi corrispondenti possono essere convalidati per completezza: paese, stato/regione o provincia, peso, codice di voce doganale, codice transazione, unità aggiuntiva, porta, origine, termini di consegna, metodo di trasporto e numero esenzione IVA. Le transazioni che non vengono completate verranno contrassegnate come non valide.
+A fini statistici, generare ogni mese le informazioni relative al commercio tra i diversi paesi/regioni UE. È possibile trasferire le transazioni da una fattura a testo libero, una fattura cliente, un documento di trasporto cliente, una fattura fornitore, un documento di trasporto fornitore, una fattura progetto, o un ordine di trasferimento, in base ai criteri di trasferimento impostati nella pagina **Parametri per il commercio estero**. In alternativa, è possibile immettere le transazioni manualmente. È possibile aggiornare manualmente le transazioni trasferite nel giornale di registrazione Intrastat, se gli aggiornamenti vengono richiesti. Sotto le condizioni specifiche impostate nella pagina **Compressione di Intrastat**, è possibile comprimere le transazioni nel giornale di registrazione Intrastat. Alcuni paesi consentono di applicare una piccola soglia di transazione. È quindi possibile dichiarare tutte le transazioni in tale soglia nel codice di voce doganale specificato. È possibile aggiornare il codice di voce doganale sulle righe del giornale di registrazione Intrastat corrispondenti, in **Limite minimo** base all'impostazione della pagina **Parametri per il commercio estero**. È inoltre possibile comprimere le transazioni, in base all'impostazione **Compressione di Intrastat**. È possibile convalidare la completezza delle transazioni nel giornale di registrazione Intrastat, in base all'impostazione **Impostazione dell'assegno** della pagina **Parametri per il commercio estero**. I dati nei campi corrispondenti possono essere convalidati per completezza: paese, stato/regione o provincia, peso, codice di voce doganale, codice transazione, unità aggiuntiva, porta, origine, termini di consegna, metodo di trasporto e numero esenzione IVA. Le transazioni che non vengono completate verranno contrassegnate come non valide.
 
 ### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Utilizzare il giornale di registrazione Intrastat per registrare e visualizzare informazioni relative agli scambi commerciali tra i paesi dell'Unione Europea (UE).
 

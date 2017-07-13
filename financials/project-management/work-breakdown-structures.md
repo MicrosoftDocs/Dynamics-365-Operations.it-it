@@ -1,27 +1,27 @@
 ---
 title: Strutture di suddivisione del lavoro
-description: 
+description: "Una struttura di suddivisione del lavoro è una descrizione del lavoro che verrà eseguito per un progetto. È una gerarchia di attività che rappresenta la conoscenza da parte del team di progetto della composizione del lavoro e delle dimensione, del costo e della durata di ciascun componente o attività."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a700f61bcc6e6d9c699987999be25649862b0d8
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,10 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
-
-
-Strutture di suddivisione del lavoro Una struttura di suddivisione del lavoro configura è una descrizione del lavoro che verrà eseguito per un progetto. È una gerarchia di attività che rappresenta la conoscenza da parte del team di progetto della composizione del lavoro e delle dimensione, del costo e della durata di ciascun componente o attività. Una struttura di suddivisione del lavoro presenta tre scopi principali:
+Una struttura di suddivisione del lavoro è una descrizione del lavoro che verrà eseguito per un progetto. È una gerarchia di attività che rappresenta la conoscenza da parte del team di progetto della composizione del lavoro e delle dimensione, del costo e della durata di ciascun componente o attività. Una struttura di suddivisione del lavoro presenta tre scopi principali:
 
 -   Descrivere la ripartizione o la composizione del lavoro nelle attività.
 -   Programmare il lavoro del progetto
@@ -43,7 +40,7 @@ Il grado di dettaglio in una struttura di suddivisione del lavoro dipende dal li
 
 Per contro, i progetti in settori quali media e pubblicità, software e infrastruttura IT tendono a una essere di tipo e la produttività è correlata all'esperienza e alla competenza dell'utente che esegue l'attività. Di conseguenza, questi settori utilizzano una struttura di suddivisione del lavoro per ottenere un'approssimazione della dimensione del progetto, non per tenere traccia dello stato di avanzamento del progetto. 
 
-Generare una struttura di suddivisione del lavoro è un processo intensivo in genere eseguito per lungo periodo e che richiede la collaborazione e le informazioni di un'ampia gamma di persone. In questo argomento viene descritto come utilizzare i miglioramenti nella struttura di suddivisione del lavoro in Microsoft Dynamics 365 for Operations per soddisfare i requisiti relativi a stime e tracciabilità.
+Generare una struttura di suddivisione del lavoro è un processo intensivo in genere eseguito per lungo periodo e che richiede la collaborazione e le informazioni di un'ampia gamma di persone. In questo argomento viene descritto come utilizzare i miglioramenti nella struttura di suddivisione del lavoro in Microsoft Dynamics 365 for Finance and Operations per soddisfare i requisiti relativi a stime e tracciabilità.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Prerequisiti per creare una struttura di suddivisione del lavoro
 Per creare una struttura di suddivisione del lavoro, è necessario poter creare un programma lavori e stimare il costo di lavoro.
@@ -106,10 +103,10 @@ Attualmente, non è possibile personalizzare la numerazione delle strutture di s
 
 ### <a name="schedule-estimation"></a>Stima di programmazione
 
-La stima di programmazione è generalmente il secondo passaggio per la creazione di una struttura di suddivisione del lavoro. Come procedura consigliata, è necessario completare la stima della programmazione dopo aver creato le attività. La pagina **Struttura di suddivisione del lavoro** in Microsoft Dynamics 365 for Operations presenta due sezioni. Il riquadro superiore è destinato alla stima della programmazione e il riquadro inferiore include una scheda **Costi e ricavi stimati** da utilizzare per la stima dei costi. 
+La stima di programmazione è generalmente il secondo passaggio per la creazione di una struttura di suddivisione del lavoro. Come procedura consigliata, è necessario completare la stima della programmazione dopo aver creato le attività. La pagina **Struttura di suddivisione del lavoro** in Finance and Operations ha due sezioni. Il riquadro superiore è destinato alla stima della programmazione e il riquadro inferiore include una scheda **Costi e ricavi stimati** da utilizzare per la stima dei costi. 
 **Dipendenze attività** In una struttura di suddivisione del lavoro, è possibile creare una relazione delle attività precedenti tra le attività. Quando si assegnano le attività precedenti a un'attività, tale attività può iniziare solo dopo che tutte le relative attività precedenti sono completate. La data di inizio pianificata dell'attività viene automaticamente impostata sulla data più recente di tutte le relative attività precedenti. 
 
-**Programmazione attività in Microsoft Dynamics 365 for Operations** I fattori seguenti determinano la programmazione delle attività del nodo foglia:
+**Programmazione attività in Microsoft Dynamics 365 for Finance and Operations** I fattori seguenti determinano la programmazione delle attività del nodo foglia:
 
 -   Attività precedenti
 -   Risorsa
@@ -126,7 +123,7 @@ La data di inizio di un'attività del nodo foglia senza attività precedenti vie
 
 Numero di persone × Durata × Numero di ore in un giorno lavorativo standard nel calendario di progetto. 
 
-In alcuni casi, potrebbe essere utile deviare da tali regole. È possibile disattivare la programmazione automatica per evitare che Microsoft Dynamics 365 for Operations imposti o corregga automaticamente tutte le proprietà delle attività del nodo foglia. Quando si immettono informazioni per un'attività che genera una violazione di tutte le regole di programmazione, viene visualizzata un'icona di errore di programmazione per l'attività. Se non si desidera che gli errori di programmazione vengano visualizzati, fare clic su **Gli errori di programmazione sono visualizzati** per disattivare la funzionalità. 
+In alcuni casi, potrebbe essere utile deviare da tali regole. È possibile disattivare la programmazione automatica per evitare che Finance and Operations automaticamente imposti o corregga tutte le proprietà delle attività del nodo foglia. Quando si immettono informazioni per un'attività che genera una violazione di tutte le regole di programmazione, viene visualizzata un'icona di errore di programmazione per l'attività. Se non si desidera che gli errori di programmazione vengano visualizzati, fare clic su **Gli errori di programmazione sono visualizzati** per disattivare la funzionalità. 
 
 > [!NOTE] 
 > I valori per un'attività contenitore o di riepilogo continuano a essere calcolati come somma dei valori delle attività costitutive, indipendentemente dal fatto che l'assistenza per la programmazione automatica sia disattivata o attivata. 
@@ -135,7 +132,7 @@ In alcuni casi, potrebbe essere utile deviare da tali regole. È possibile disat
 
 **Correzione degli errori di programmazione per attività** Quando di fa doppio clic sull'icona di errore di programmazione per un'attività specifica, in una finestra di dialogo vengono visualizzati tutti gli errori di programmazione per tale attività. È possibile decidere quali errori di programmazione correggersi per l'attività. 
 
-**Correzione di tutti gli errori di programmazione** Se si desidera che Microsoft Dynamics 365 for Operations corregga tutti gli errori di programmazione nella struttura di suddivisione del lavoro, nel riquadro azioni fare clic su **Correggi tutte le discrepanze programmazione**. 
+**Correzione di tutti gli errori di programmazione** Se si desidera che Finance and Operations corregga tutti gli errori di programmazione nella struttura di suddivisione del lavoro, nel riquadro azioni fare clic su **Correggi tutte le discrepanze programmazione**. 
 
 > [!NOTE] 
 > Questa funzionalità può causare modifiche significative alla struttura di suddivisione del lavoro. Gli errori vengono corretti nel seguente ordine:
@@ -170,7 +167,7 @@ Il costo e il prezzo di vendita per ogni riga di stima di spesa o manodopera son
 ## <a name="tracking-progress-on-the-wbs"></a>Lo stato di avanzamento nella struttura di suddivisione del lavoro
 Alcuni settori tengono traccia dello stato di avanzamento di un progetto a un livello molto granulare nella struttura di suddivisione del lavoro, mentre altri tengono traccia dello stato di avanzamento a un livello più alto della struttura di suddivisione del lavoro. In questa sezione viene descritto come utilizzare la tracciabilità dello stato di avanzamento nella struttura di suddivisione del lavoro in base ai requisiti del progetto. 
 
-Microsoft Dynamics 365 for Operations offre tre visualizzazioni per la struttura di suddivisione del lavoro in un progetto: la visualizzazione pianificazione, la visualizzazione Tracciabilità risorse e la visualizzazione Tracciabilità costi.
+Finance and Operations ha tre visualizzazioni per la struttura di suddivisione del lavoro in un progetto: la Visualizzazione pianificazione, la Visualizzazione tracciabilità risorse e costo e la Visualizzazione tracciabilità costi.
 
 ### <a name="planning-view"></a>Visualizzazione pianificazione
 
@@ -246,13 +243,13 @@ La scala cronologica nel grafico del valore ottenuto viene visualizzata per sett
 
 **Valore pianificato** In base alla teoria EVM il tracciato del valore pianificato rappresenta la velocità a cui il team del progetto ha pianificato di ottenere il valore del progetto. 
 
-Microsoft Dynamics 365 for Operations utilizza la regola relativa al reddito 0:100 per tracciare il valore pianificato. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
+Finance and Operations utilizza la regola 0:100 per tracciare il valore pianificato. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
 
 In Gestione progetti e contabilità, è possibile immettere la data di fine dei nodi foglia e il relativo costo pianificato. Quando il grafico del valore pianificato viene visualizzato per settimana, il valore pianificato è riepilogato per settimana per tutte le attività del nodo foglia per la durata del progetto. 
 
 **Valore ottenuto** In base alla teoria EVM il tracciato del valore ottenuto rappresenta la velocità a cui il team del progetto ottiene effettivamente il valore del progetto. 
 
-Microsoft Dynamics 365 for Operations utilizza la regola relativa al reddito 0:100 per tracciare il valore ottenuto. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
+Finance and Operations utilizza la regola 0:100 per tracciare il valore ottenuto. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
 
 Quando il valore ottenuto viene calcolato, la percentuale dello stato di avanzamento di ogni attività viene considerata. Nella regola 0:100, solo le attività completate in un periodo specificato vengono considerate per il calcolo del valore ottenuto a partire dalla fine del periodo. Il valore ottenuto del progetto viene calcolato per tutte le attività che sono state completate quando il diagramma viene creato. 
 

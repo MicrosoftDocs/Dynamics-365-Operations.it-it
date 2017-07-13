@@ -1,6 +1,6 @@
 ---
 title: Aggiornamento della pianificazione del budget
-description: "Tra Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 for Operations sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell&quot;aggiornamento."
+description: "Tra Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 for Finance and Operations sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/10/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fafa323c3949c09707c81ec41edae25ad2677eeb
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 83e93df3284760c46cb95b931f32cc9990ef2db1
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Tra Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 for Operations sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.  
+Tra Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 for Finance and Operations sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.  
 
-La pianificazione del budget in Microsoft Dynamics 365 for Operations include molti miglioramenti che non erano disponibili in Microsoft Dynamics AX 2012. In questo argomento vengono illustrate le modifiche che devono eseguire i clienti che effettuano l'aggiornamento. Vengono inoltre illustrate le nuove funzionalità che devono essere considerate nel processo di aggiornamento. A causa delle dimensioni delle modifiche, tutti i piani di budget esistenti non potranno essere aperti fino a che non sono state apportate le modifiche descritte in questo argomento. Tuttavia, i report dovrebbero continuare a funzionare e non richiedono modifiche aggiuntive.
+La pianificazione del budget in Microsoft Dynamics 365 for Finance and Operations include molti miglioramenti che non erano disponibili in Microsoft Dynamics AX 2012. In questo argomento vengono illustrate le modifiche che devono eseguire i clienti che effettuano l'aggiornamento. Vengono inoltre illustrate le nuove funzionalità che devono essere considerate nel processo di aggiornamento. A causa delle dimensioni delle modifiche, tutti i piani di budget esistenti non potranno essere aperti fino a che non sono state apportate le modifiche descritte in questo argomento. Tuttavia, i report dovrebbero continuare a funzionare e non richiedono modifiche aggiuntive.
 
 ## <a name="overview-of-changes"></a>Panoramica delle modifiche
-Nell'Impostazione budget di Dynamics 365 for Operations sono state apportate molte modifiche significative. Le modifiche hanno lo scopo di rendere la struttura del budget più semplice da configurare e più riutilizzabile, per ridurre le operazioni di manutenzione annuali e le impostazioni. Le seguenti aree di AX 2012 non esistono più in Dynamics 365 for Operations:
+Nell'Impostazione budget di Finance and Operations sono state apportate molte modifiche significative. Le modifiche hanno lo scopo di rendere la struttura del budget più semplice da configurare e più riutilizzabile, per ridurre le operazioni di manutenzione annuali e le impostazioni. Le seguenti aree di AX 2012 non esistono più in Finance and Operations:
 
 -   Modelli del piano di budget (configurazione di pianificazione del budget)
 -   Cartelle del piano di budget (configurazione di pianificazione del budget)
@@ -53,21 +53,21 @@ Le colonne costituiscono un nuovo concetto che sostituisce parti del modello di 
 
 ### <a name="layouts"></a>Layout
 
-I layout sono un nuovo concetto che sostituisce il modello Excel. I layout contengono le colonne che definiscono quali dati del budget o effettivi devono essere mostrati. I layout vengono condivisi tra il client e il componente aggiuntivo di Excel. Di conseguenza, l'esperienza utente quando si immettono o si visualizzano i dati nel client di Dynamics 365 for Operations è migliore rispetto all'esperienza utente di AX 2012. Nell'immettere i dati nel client di Dynamics 365 for Operations, non si è più limitati a visualizzazione e immissione di un unico scenario in una visualizzazione transazione. Una visualizzazione di confronto consente invece di visualizzare e immettere facilmente gli importi per più periodi e conti contemporaneamente. I layout possono inoltre venire definiti in modo che sia possibile immettere e visualizzare la valuta, i commenti e altri dati facoltativi. I layout consentono anche di definire le dimensioni di contabilità generale e le descrizioni delle dimensioni da visualizzare. I layout includono inoltre vincoli di scenario per definire quali colonne di un modello possono essere modificate e quali colonne devono essere disponibili in Excel. Dopo aver definito un layout, un modello viene generato. Questo modello, a sua volta, crea il modello corrispondente di Excel. È quindi possibile modificare il modello Excel per includere più formule e formattazione e quindi caricarlo di nuovo. I layout vengono assegnati a ciascuna regola fase nella pagina **Processo di pianificazione del budget**. Di conseguenza, i layout sostituiscono i modelli, che sono stati assegnati e utilizzati in modo simile.
+I layout sono un nuovo concetto che sostituisce il modello Excel. I layout contengono le colonne che definiscono quali dati del budget o effettivi devono essere mostrati. I layout vengono condivisi tra il client e il componente aggiuntivo di Excel. Di conseguenza, l'esperienza utente quando si immettono o si visualizzano i dati nel client di Finance and Operations è migliore rispetto all'esperienza utente di AX 2012. Nell'immettere i dati nel client di Finance and Operations non si è più limitati alla visualizzazione e all'immissione di un unico scenario in una visualizzazione transazione. Una visualizzazione di confronto consente invece di visualizzare e immettere facilmente gli importi per più periodi e conti contemporaneamente. I layout possono inoltre venire definiti in modo che sia possibile immettere e visualizzare la valuta, i commenti e altri dati facoltativi. I layout consentono anche di definire le dimensioni di contabilità generale e le descrizioni delle dimensioni da visualizzare. I layout includono inoltre vincoli di scenario per definire quali colonne di un modello possono essere modificate e quali colonne devono essere disponibili in Excel. Dopo aver definito un layout, un modello viene generato. Questo modello, a sua volta, crea il modello corrispondente di Excel. È quindi possibile modificare il modello Excel per includere più formule e formattazione e quindi caricarlo di nuovo. I layout vengono assegnati a ciascuna regola fase nella pagina **Processo di pianificazione del budget**. Di conseguenza, i layout sostituiscono i modelli, che sono stati assegnati e utilizzati in modo simile.
 
 ### <a name="budget-planning-processes"></a>Processi di pianificazione del budget
 
-I processi di pianificazione del budget sono fondamentalmente gli stessi di AX 2012. La modifica più significativa è la sostituzione dei modelli con i layout. Se alcuni processi sono stati precedentemente completati in AX 2012, i processi vengono aggiornati con stato dello stato "Processo in corso" in modo da poter apportare modifiche. È necessario assegnare i layout necessari per ogni regola fase per determinare quali scenari e periodi di tempo vengono visualizzati quando il piano viene aperto nel client. I layout determinano anche quale modello Excel viene aperto al di fuori di Dynamics 365 for Operations in modo che sia possibile visualizzare il budget. **Struttura dei conti predefinita** è un nuovo campo obbligatorio per il processo di pianificazione del budget. Per ciascun processo di pianificazione del budget, assegnare la struttura dei conti principale che deve essere utilizzata per l'impostazione del budget.
+I processi di pianificazione del budget sono fondamentalmente gli stessi di AX 2012. La modifica più significativa è la sostituzione dei modelli con i layout. Se alcuni processi sono stati precedentemente completati in AX 2012, i processi vengono aggiornati con stato dello stato "Processo in corso" in modo da poter apportare modifiche. È necessario assegnare i layout necessari per ogni regola fase per determinare quali scenari e periodi di tempo vengono visualizzati quando il piano viene aperto nel client. I layout determinano anche quale modello di Excel viene aperto al di fuori di Dynamic 365 for Finance and Operations in modo che sia possibile visualizzare il budget. **Struttura dei conti predefinita** è un nuovo campo obbligatorio per il processo di pianificazione del budget. Per ciascun processo di pianificazione del budget, assegnare la struttura dei conti principale che deve essere utilizzata per l'impostazione del budget.
 
 ### <a name="attachments"></a>Allegati
 
-In AX 2012, i documenti di motivazione venivano salvati in una cartella dell'allegato. Nessun documento di motivazione precedente viene aggiornato. I documenti di questo tipo vengono ora archiviati nel database. Se queste informazioni devono essere salvate nella versione aggiornata, è possibile caricare i documenti di motivazione definitivi per ciascun piano come allegato tramite il pulsante **Motivazione** nel riquadro azioni. In AX 2012, i fogli di lavoro di Excel per ciascun piano di budget venivano creati in base al modello. In Dynamics 365 for Operations, tutti i piani aprono una copia del layout. Tuttavia, nessuna modifica apportata al file di Excel viene salvata. Tutte le formule o informazioni aggiuntive utilizzate in base al singolo piano devono essere aggiunte tramite i commenti, un documento di motivazione o un altro processo aggiuntivo.
+In AX 2012, i documenti di motivazione venivano salvati in una cartella dell'allegato. Nessun documento di motivazione precedente viene aggiornato. I documenti di questo tipo vengono ora archiviati nel database. Se queste informazioni devono essere salvate nella versione aggiornata, è possibile caricare i documenti di motivazione definitivi per ciascun piano come allegato tramite il pulsante **Motivazione** nel riquadro azioni. In AX 2012, i fogli di lavoro di Excel per ciascun piano di budget venivano creati in base al modello. In Finance and Operations tutti i piani aprono una copia del layout. Tuttavia, nessuna modifica apportata al file di Excel viene salvata. Tutte le formule o informazioni aggiuntive utilizzate in base al singolo piano devono essere aggiunte tramite i commenti, un documento di motivazione o un altro processo aggiuntivo.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Configurazione di un ambiente aggiornato da AX 2012
 Per consentire di determinare la modalità di configurazione del sistema aggiornato, nel seguente esempio viene utilizzato un processo di budget aggiornato dei dati dimostrativi di AX 2012. I dati di configurazione predefiniti per le colonne sono stati creati per agevolare l'esecuzione del processo di aggiornamento. È possibile aggiornare o eliminare questi dati predefiniti se non soddisfano i propri requisiti di configurazione. **Nota:** sono presenti nuovi campi obbligatori che non verranno impostati nel sistema. Se si rimane bloccati in una pagina, ad esempio nella pagina **Configurazione di pianificazione del budget** e non è possibile uscire da questa pagina, si può chiudere il browser e quindi riaprirlo in una pagina distinta per immettere i dettagli secondo l'ordine corretto. Alcuni campi obbligatori non sono ancora stati impostati. Di conseguenza, possono verificarsi dei problemi fino a che tutti gli elementi sono stati configurati e tutti i campi obbligatori sono stati impostati. In questo argomento viene descritto come impostare questi campi, secondo le esigenze. Di seguito sono riportati alcuni campi obbligatori:
 
 -   Pagina **Processo di pianificazione del budget**: campo **Struttura dei conti predefinita**
--   Pagina**Processo di pianificazione del budget**: campo **Layout** della scheda dettaglio **Regole e layout fase di pianificazione del budget**
+-   Pagina **Processo di pianificazione del budget**: campo **Layout** della scheda dettaglio **Regole e layout fase di pianificazione del budget**
 
 ### <a name="define-columns-and-layouts"></a>Definire le colonne e i layout
 
@@ -75,7 +75,7 @@ Per consentire di determinare la modalità di configurazione del sistema aggiorn
     -   Scenari del piano di budget: Effettivi, Base, Richiesta budget, Budget approvato
     -   Righe del piano di budget per tutti gli scenari nel 2017 ed effettivi per entrambi 2017 e 2016
 
-    Le colonne seguenti verranno create in Dynamics 365 for Operations:
+    Le colonne seguenti verranno create in Finance and Operations:
     | Nome colonna    | Scenario del piano di budget | Periodo di tempo colonna | Offset anno |
     |----------------|----------------------|--------------------|-------------|
     | Gennaio - Scenario 1 | Effettivi              | 1                  | 0           |
@@ -128,7 +128,7 @@ Le opzioni seguenti sono state aggiunte come processi periodici. Queste opzioni 
 
 ### <a name="more-complete-tracking-of-amounts"></a>Tracciabilità più completa degli importi
 
-In AX 2012, la pianificazione del budget aveva un singolo importo di piano memorizzato per ogni valore. In Dynamics 365 for Operations, il modello dati è stato espanso. Sono ora disponibili importi di valuta di contabilizzazione, valuta di transazione e di valuta di dichiarazione per ogni valore. Durante l'aggiornamento, queste nuove colonne vengono completate automaticamente per i dati esistenti.
+In AX 2012, la pianificazione del budget aveva un singolo importo di piano memorizzato per ogni valore. In Finance and Operations il modello dati è stato espanso. Sono ora disponibili importi di valuta di contabilizzazione, valuta di transazione e di valuta di dichiarazione per ogni valore. Durante l'aggiornamento, queste nuove colonne vengono completate automaticamente per i dati esistenti.
 
 ### <a name="do-not-convert-currency-in-aggregation"></a>Non convertire la valuta in aggregazione
 

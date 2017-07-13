@@ -1,9 +1,9 @@
 ---
 title: Collaborazione fornitore con i fornitori esterni
-description: In questo argomento viene illustrato come gli addetti agli acquisti possono collaborare con i fornitori esterni per scambiare informazioni sugli ordini fornitore e l&quot;inventario spedizione.
-author: YuyuScheller
+description: In questo argomento viene illustrato come gli addetti agli acquisti possono collaborare con i fornitori esterni per scambiare informazioni sugli ordini fornitore e l'inventario spedizione.
+author: BibiSp
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b141ed78306504949eae641377b5c5a2b0599572
+ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
+ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/15/2017
 
 
 ---
@@ -32,12 +32,16 @@ ms.lasthandoff: 05/25/2017
 
 In questo argomento viene illustrato come gli addetti agli acquisti possono collaborare con i fornitori esterni per scambiare informazioni sugli ordini fornitore e l'inventario spedizione.
 
-Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 for Operations. Consente ai fornitori di utilizzare ordini fornitore, fatture e dati dell'inventario spedizione. In questo argomento viene descritto come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare gli ordini fornitore e l'inventario spedizione. Viene inoltre descritto come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore. Per ulteriori informazioni sulle attività che i fornitori esterni possono eseguire nell'interfaccia di collaborazione fornitore, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 for Finance and Operations. Consente ai fornitori di utilizzare ordini fornitore, fatture e dati dell'inventario spedizione. In questo argomento viene descritto come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare gli ordini fornitore e l'inventario spedizione. Viene inoltre descritto come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore. Per ulteriori informazioni sulle attività che i fornitori esterni possono eseguire nell'interfaccia di collaborazione fornitore, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
+Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
 
-## <a name="define-the-information-shown-to-vendors-when-they-respond-to-pos"></a>Definire i dati visualizzati ai fornitori quando rispondono a ordini fornitore
-Quando i fornitori rispondono a un ordine fornitore che hanno ricevuto, vedono una finestra di dialogo in cui devono confermare che desiderano accettarlo, rifiutarlo oppure che desiderano accettare l'ordine fornitore con modifiche. I dati che devono essere visualizzati al fornitore possono a questo punto essere peculiari della società, pertanto è possibile specificare il testo che verrà visualizzato in ciascuno dei tre messaggi di conferma. Ad esempio, il testo potrebbe informare il fornitore sui passaggi successivi della procedura o sui termini e le condizioni.  
+Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+
+Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
+
+## <a name="define-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Definire i dati che vengono visualizzati ai fornitori quando rispondono a ordini fornitore
+Quando i fornitori rispondono a un ordine fornitore che hanno ricevuto, vedono una finestra di messaggio in cui devono confermare che desiderano accettarlo, rifiutarlo oppure che desiderano accettarlo con modifiche. Poiché i dati che devono essere visualizzati al fornitore a questo punto potrebbero essere specifici dell'azienda, è possibile specificare il testo che verrà visualizzato in ciascuno dei tre messaggi di conferma. Ad esempio, il testo può informare il fornitore sui passaggi successivi della procedura o sui termini e le condizioni.  
 
 Per definire il testo visualizzato nella risposta dell'ordine fornitore:
 
@@ -46,11 +50,10 @@ Per definire il testo visualizzato nella risposta dell'ordine fornitore:
 3.  Fare clic su **Modifica**.
 4.  Immettere i dati da visualizzare ai fornitori nella casella **Messaggio informazioni**.
 
-Se è necessario aggiungere messaggi in più lingue, creare messaggi diversi con codici lingua appropriati. Al fornitore verrà visualizzato il messaggio nella lingua che utilizza.
+Se è necessario aggiungere messaggi in più lingue, creare messaggi separati con codici lingua appropriati. Al fornitore verrà visualizzato il messaggio nella lingua che utilizza.
 
 ## <a name="set-the-vendor-collaboration-options-for-a-specific-vendor"></a>Impostare le opzioni di collaborazione fornitore per un fornitore specifico
-Le impostazioni generali per la collaborazione fornitore in Dynamics 365 for Operations vengono configurate da un amministratore. Ad esempio, determineranno quali ruoli di sicurezza sono disponibili per tutti i fornitori con cui si collabora. Sono previste anche alcune impostazioni che possono essere diverse per ciascun conto fornitore ed è consigliabile definire le seguenti:
-
+Le impostazioni generali per la collaborazione fornitore in Finance and Operations vengono configurate da un amministratore. Ad esempio, un amministratore determina quali ruoli di sicurezza sono disponibili per tutti i fornitori con cui si collabora. Sono previste anche alcune impostazioni che possono essere diverse per ciascun conto fornitore ed è consigliabile definire le seguenti:
 -   Abilitare la collaborazione fornitore.
 -   Specificare se si desidera che il fornitore visualizzi le informazioni relative ai prezzi.
 
@@ -68,11 +71,11 @@ Se si desidera condividere le informazioni relative ai prezzi, ad esempio il pre
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Ricorrere agli ordini fornitore quando si utilizza la collaborazione fornitore
 ### <a name="sending-a-po-to-the-vendor"></a>Invio di un ordine fornitore al fornitore
 
-Gli ordini fornitore sono preparati in Dynamics 365 for Operations. Quando l'ordine fornitore ha lo stato **Approvato**, viene inviato al fornitore che utilizza l'azione **Invia per conferma** nella pagina **Ordine fornitore**. Lo stato dell'ordine fornitore diventa **In revisione esterna**. Dopo che l'ordine fornitore è stato inviato, il fornitore può visualizzarlo nella pagina **Ordini fornitore per la revisione** nell'interfaccia di collaborazione fornitore, dove è possibile accettarlo, rifiutarlo o suggerire eventuali modifiche. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore, è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail.
+Gli ordini fornitore sono preparati in Finance and Operations. Quando l'ordine fornitore ha lo stato **Approvato**, viene inviato al fornitore che utilizza l'azione **Invia per conferma** nella pagina **Ordine fornitore**. Lo stato dell'ordine fornitore diventa **In revisione esterna**. Dopo aver inviato l'ordine fornitore, il fornitore lo può vedere nella pagina **Ordini fornitore per la revisione** dell'interfaccia della collaborazione fornitore. Il fornitore può quindi accettare l'ordine, rifiutarlo o suggerire modifiche. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore, è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Conferma e accettazione dell'ordine fornitore da parte del fornitore
 
-Se un fornitore ha accettato un ordine fornitore, l'ordine fornitore può essere confermato automaticamente o è possibile che debba essere confermato manualmente. Ciò dipende dal fatto che il campo **Attivazione fornitore** sia impostato su **Attiva (con conferma automatica OF)** per il fornitore o su **Attiva (senza conferma automatica OF)**.  
+Se un fornitore ha accettato un ordine fornitore, l'ordine fornitore può essere confermato automaticamente o è possibile che debba essere confermato manualmente. Ciò dipende dal fatto che il campo **Attivazione fornitore** è impostato su **Attiva (con conferma automatica OF)** o su **Attiva (senza conferma automatica OF)** per il fornitore.  
 
 La tabella di seguito mostra uno scambio di informazioni tipico, a seconda del modo in cui il fornitore risponde quando si invia un ordine fornitore per la conferma.
 
@@ -87,16 +90,22 @@ La tabella di seguito mostra uno scambio di informazioni tipico, a seconda del m
 <td><strong>Risultato</strong></td>
 </tr>
 <tr class="even">
-<td>Il fornitore <strong>accetta</strong> l'ordine. Dynamics 365 for Operations è configurato per confermare automaticamente gli ordini fornitore quando il fornitore accetta.</td>
-<td>Lo stato dell'ordine viene aggiornato a <strong>Confermato</strong>. Se qualcosa impedisce l'aggiornamento dell'ordine, la risposta del fornitore viene comunque registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>.</td>
+<td>Il fornitore <strong>accetta</strong> l'ordine. Finance and Operations è configurato per confermare automaticamente gli ordini fornitore quando il fornitore li accetta.</td>
+
+<td>Lo stato dell'ordine viene aggiornato a <strong>Confermato</strong>. Se qualcosa impedisce l'aggiornamento dell'ordine, la risposta del fornitore viene comunque registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. 
+
+L'ordine fornitore che è stato inviato al fornitore e che ha lo stato **In revisione esterna** viene aggiornato con le date di consegna confermate nelle righe. L'aggiornamento avvia una nuova versione che viene aggiornata automaticamente allo stato **Confermato**. Quando l'ordine fornitore viene confermato, viene visualizzato nell'interfaccia della collaborazione fornitore.</td>
 </tr>
 <tr class="odd">
-<td>Il fornitore <strong>accetta</strong> l'ordine. Dynamics 365 for Operations non è configurato per confermare automaticamente gli ordini fornitore quando il fornitore accetta.</td>
-<td>La risposta del fornitore viene registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>.</td>
+<td>Il fornitore <strong>accetta</strong> l'ordine. Finance and Operations non è configurato per confermare automaticamente gli ordini fornitore quando il fornitore li accetta.</td>
+<td>La risposta del fornitore viene registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>.
+
+L'ordine fornitore che è stato inviato al fornitore e che ha lo stato **In revisione esterna** viene aggiornato con le date di consegna confermate nelle righe. L'aggiornamento avvia una nuova versione che viene impostata su **In revisione esterna**. In questo modo è possibile confermare l'ordine fornitore manualmente.</td>
+
 </tr>
 <tr class="even">
 <td>Il fornitore <strong>rifiuta</strong> l'ordine.</td>
-<td>La risposta del fornitore viene registrata come <strong>Rifiutata</strong> e lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. Il rifiuto viene ricevuto con la nota dei fornitori.</td>
+<td>La risposta del fornitore viene registrata come <strong>Rifiutata</strong> e lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. Il rifiuto viene ricevuto insieme alla nota del fornitore.</td>
 </tr>
 <tr class="odd">
 <td>Il fornitore <strong>accetta l'ordine con le modifiche</strong>. Le modifiche vengono suggerite a livello di riga. È possibile accettare o rifiutare singole righe. Altre modifiche possibili sono:
@@ -106,7 +115,7 @@ La tabella di seguito mostra uno scambio di informazioni tipico, a seconda del m
 <li>Sostituire un articolo.</li>
 </ul>
 Le informazioni relative ai prezzi e le spese non possono essere modificate dal fornitore. Eventuali modifiche possono essere suggerite utilizzando le note.</td>
-<td>La risposta del fornitore viene registrata come<strong> Accettata con modifiche</strong> <strong></strong> e lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>.</td>
+<td>La risposta del fornitore viene registrata come <strong>Accettata con modifiche</strong> e lo stato dell'ordine fornitore rimane impostato su <strong>In revisione esterna</strong>. Gli stati indicano quali tipi di modifiche ha suggerito il fornitore. Per informazioni sul consumo automatico delle modifiche, vedere la sezione di seguito su come aggiornare un ordine fornitore quando un fornitore suggerisce delle modifiche. </td>
 </tr>
 </tbody>
 </table>
@@ -118,7 +127,7 @@ Le informazioni relative ai prezzi e le spese non possono essere modificate dal 
 
 ### <a name="changing-a-po"></a>Modifica di un ordine fornitore
 
-Se è necessario modificare un ordine fornitore cui si è già risposto, si invierà una nuova versione dell'ordine al fornitore. Il nuovo ordine fornitore presenterà un suffisso versione per indicare che si tratta di una versione modificata di un ordine fornitore comunicato in precedenza. La pagina **Storico conferme fornitore per l'ordine fornitore** consente al cliente e ai suoi fornitori di tenere traccia dello storico di ciascun ordine. La versione confermata in precedenza dell'ordine fornitore rimane nell'elenco di ordini confermati finché non viene confermato il nuovo ordine.
+Per modificare un ordine fornitore a cui si è già risposto, è necessario inviare una nuova versione dell'ordine al fornitore. Il nuovo ordine fornitore presenterà un suffisso versione per indicare che si tratta di una versione modificata di un ordine fornitore comunicato in precedenza. La pagina **Storico conferme fornitore per l'ordine fornitore** consente al cliente e ai suoi fornitori di tenere traccia dello storico di ciascun ordine. La versione confermata in precedenza dell'ordine fornitore rimane nell'elenco di ordini confermati finché non viene confermato il nuovo ordine.
 
 ### <a name="cancelling-a-po"></a>Annullamento di un ordine fornitore
 
@@ -126,10 +135,39 @@ Quando si annulla un ordine fornitore, viene ripristinato lo stato **Approvato**
 
 ### <a name="adding-attachments-to-a-po"></a>Aggiunta degli allegati a un ordine fornitore
 
-È possibile aggiungere allegati quali file, immagini e note all'ordine fornitore utilizzando il sistema di gestione documenti. Gli allegati aggiunti con la restrizione di tipo **Esterno** saranno visibili al fornitore quando si invia un ordine fornitore.
+È possibile aggiungere allegati quali file, immagini e note all'ordine fornitore utilizzando il sistema di gestione documenti. Gli allegati di tipo **Esterno** saranno visibili al fornitore quando si invia un ordine fornitore.
 
-## <a name="purchase-order-statuses-and-versions"></a>Stati e versioni degli ordini fornitore
-In questa sezione vengono descritti gli stati diversi che un ordine fornitore può avere fino al momento in cui viene confermato e a che punto le nuove versioni dell'ordine fornitore vengono rese disponibili al fornitore. Sono presenti differenze, a seconda che si utilizzi la gestione modifiche per gli ordini fornitore.  
+## <a name="update-the-po-when-a-vendor-suggests-changes"></a>Aggiornare l'ordine fornitore quando un fornitore suggerisce modifiche
+Dopo che un fornitore ha risposto all'ordine fornitore e ha suggerito delle modifiche, il passaggio successivo consiste nell'elaborare la risposta.
+Nell'area di lavoro **Preparazione ordini acquisto**, nell'elenco In revisione esterna richiede un'azione, è possibile identificare un ordine fornitore a cui un fornitore ha risposto accettando le modifiche. Nell'elenco In revisione esterna richiede un'azione è inoltre possibile passare alla risposta del fornitore. In una risposta, un fornitore può modificare le informazioni seguenti nell'intestazione.
+ 
+-   Riferimento documento fornitore
+-   Modalità di consegna
+-   Termini di consegna
+-   Data di consegna confermata
+
+Il fornitore può inoltre aggiungere una nota o un allegato
+
+Nelle righe, il fornitore può modificare la quantità e le date di consegna, aggiunge note e allegati, rifiutare una riga, sostituire una riga con un altro prodotto immesso come testo e dividere una riga in più consegne. A seconda delle modifiche suggerite dal fornitore, lo stato delle righe sarà diverso:
+    
+-   **Accettata con modifiche**
+-   **Rifiutata**
+-   **Sostituita**: in questo caso verrà aggiunta un'altra riga con lo stato **Sostituire**.
+-   **Confermata** Suddivisa in programmazione: in questo caso verranno aggiunte altre righe con lo stato **Riga programmazione**.
+
+Se una riga non include modifiche, lo stato della riga è **Accettata**.
+
+Nella risposta, è possibile visualizzare gli stati di riga precedentemente menzionati che indicano i tipi di modifiche apportate dal fornitore. Inoltre, tutti i campi modificati vengono visualizzati in grassetto per aiutare l'individuazione delle modifiche.
+
+È possibile aggiornare un ordine fornitore facendo clic sull'azione **Elabora aggiornamento ordine fornitore** nella risposta o in una riga alla volta. Un indicatore, **L'aggiornamento ordine fornitore è stato elaborato?**, presente nell'intestazione e nelle righe consente di vedere se il sistema ha elaborato l'intestazione o le righe per aggiornare l'ordine fornitore con le potenziali modifiche originate dalla risposta. È possibile eseguire il processo **Elabora aggiornamento ordine fornitore** solo una volta per intestazione o per riga.
+
+Non tutte le modifiche suggerite possono essere aggiornate in un ordine fornitore. Solo gli aggiornamenti nell'intestazione e gli aggiornamenti di date e quantità nelle righe possono essere aggiornati automaticamente nell'ordine fornitore. Per le altre modifiche, è necessario aggiornare l'ordine fornitore manualmente. In questo caso, l'indicatore **L'aggiornamento ordine fornitore è stato elaborato?** mostra **Aggiornamento manuale**. Un esempio di modifica che deve essere gestita manualmente è quando un fornitore suggerisce di dividere una riga in una programmazione.
+
+Una riga con stato **Accettata** ha una data di consegna confermata che sarà aggiornata nell'ordine fornitore quando si esegue l'azione **Elabora aggiornamento ordine fornitore**. Le note e gli allegati non vengono trasferiti automaticamente all'ordine fornitore corrente. Quando si aggiorna l'ordine fornitore corrente mediante l'azione **Elabora aggiornamento ordine fornitore**, gli accordi commerciali non vengono rivalutati nelle righe dell'ordine fornitore.
+
+
+## <a name="po-statuses-and-versions"></a>Stati e versioni dell'ordine fornitore
+In questa sezione vengono descritti i vari stati che un ordine fornitore può avere fino al momento in cui non viene confermato. Viene inoltre descritto quando le nuove versioni dell'ordine fornitore vengono rese disponibili al fornitore. Il comportamento varia a seconda che si utilizzi la gestione delle modifiche per gli ordini fornitore. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versioni e stati se non si utilizza la gestione modifiche
 
@@ -138,16 +176,19 @@ Nella tabella seguente è riportato un esempio delle modifiche dello stato e del
 |                                                                          |                                                                                                                                                              |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Azione**                                                               | **Stato e versione**                                                                                                                                       |
-| La versione iniziale dell'ordine fornitore viene creata in Dynamics 365 for Operations. | Lo stato è **Approvato**.                                                                                                                                  |
+| La versione iniziale dell'ordine fornitore viene creata in Finance and Operations. | Lo stato è **Approvato**.                                                                                                                                  |
 | L'ordine fornitore viene inviato al fornitore.                                            | Una versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**.                                          |
 | Il fornitore invia una risposta **Accettata con modifiche** .                  | Lo stato è ancora **In revisione esterna**.                                                                                                                  |
 | Si apportano alcune modifiche richieste dal fornitore.                  | Lo stato viene impostato su **Approvato**.                                                                                                                        |
 | La nuova versione dell'ordine fornitore viene inviata al fornitore.                        | Una nuova versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**.                                      |
-| Il fornitore accetta la nuova versione dell'ordine.                            | Lo stato è ancora **In revisione esterna**a meno che il conto fornitore sia configurato per impostare automaticamente l'ordine fornitore su uno stato **Confermato** quando viene accettato. |
+| Il fornitore accetta la nuova versione dell'ordine.                            | Lo stato è ancora **In revisione esterna** a meno che il conto fornitore sia configurato per impostare automaticamente l'ordine fornitore su uno stato **Confermato** quando viene accettato. |
 
-I fornitori non devono confermare l'ordine fornitore tramite l'interfaccia di collaborazione fornitore. Possono anche inviare un messaggio di posta elettronica o comunicare l'accettazione di un ordine attraverso altri canali. È quindi possibile confermare l'ordine manualmente in Dynamics 365 for Operations. In questo caso, verrà visualizzato un avviso che l'ordine sta per essere confermato anche in assenza di risposte dal fornitore. L'ordine fornitore viene visualizzato nello storico di conferma come ordine confermato aperto che non dispone di risposte. Il fornitore non ha più la possibilità di rifiutare o confermare l'ordine fornitore.  
 
-**Nota:** la versione dell'ordine fornitore disponibile ad altri processi in Dynamics 365 for Operations è sempre la versione più recente, anche se tale versione non è ancora stata registrata nell'interfaccia di collaborazione fornitori.
+I fornitori non devono confermare l'ordine fornitore tramite l'interfaccia di collaborazione fornitore. Possono anche inviare un messaggio di posta elettronica o comunicare l'accettazione di un ordine attraverso altri canali. È quindi possibile confermare l'ordine manualmente in Finance and Operations. In questo caso, viene visualizzato un avviso che l'ordine sta per essere confermato anche in assenza di risposte dal fornitore. L'ordine fornitore viene visualizzato nello storico di conferma come ordine confermato aperto che non dispone di risposte. Il fornitore non ha più la possibilità di rifiutare o confermare l'ordine fornitore.  
+
+
+>[!NOTE]
+>La versione dell'ordine fornitore disponibile ad altri processi in Dynamics 365 for Finance and Operations è sempre la versione più recente, anche se tale versione non è ancora stata registrata nell'interfaccia di collaborazione fornitore.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versioni e stati se si utilizza la gestione modifiche
 
@@ -158,13 +199,9 @@ Nella tabella riportata di seguito viene mostrato un esempio di modifica allo st
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Azione**                                                                                                    | **Stato e versione**                                                                                                                                                                                                                                                                                                                                                                      |
-| La versione iniziale dell'ordine fornitore viene creata in Dynamics 365 for Operations.                                      | Lo stato è **Bozza**.                                                                                                                                                                                                                                                                                                                                                                    |
-| L'ordine fornitore viene inviato al processo di approvazione. (Si tratta di un processo interno che non coinvolge il fornitore). | Lo stato viene modificato da **Bozza** a **In revisione** ad **Approvazione** se l'ordine fornitore non viene rifiutato durante il processo di approvazione. L'ordine fornitore approvato viene registrato come una versione.                                                                                                                                                                                                                     |
-| L'ordine fornitore viene inviato al fornitore.                                                                                  | La versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**.                                                                                                                                                                                                                                                                       |
-| Si apportano alcune modifiche richieste dal fornitore.                                                       | Lo stato torna a essere **Bozza**.                                                                                                                                                                                                                                                                                                                                                    |
-| L'ordine fornitore viene nuovamente inviato al processo di approvazione.                                                            | Lo stato viene modificato da **Bozza** a **In revisione** ad **Approvazione** se l'ordine fornitore non viene rifiutato durante il processo di approvazione. In alternativa, il sistema può essere configurato in modo che modifiche specifiche ai campi non richiedano una nuova approvazione. In questo caso, lo stato viene inizialmente modificato in **Bozza** e quindi automaticamente aggiornato ad **Approvato**. L'ordine fornitore approvato viene registrato come nuova versione. |
-| La nuova versione dell'ordine fornitore viene inviata al fornitore.                                                             | La nuova versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**.                                                                                                                                                                                                                                                                   |
-| Il fornitore approva la nuova versione dell'ordine.                                                                | Lo stato viene modificato in **Confermato** automaticamente o quando si riceve la risposta dal fornitore e quindi si conferma l'ordine.                                                                                                                                                                                                                                                     |
+| La versione iniziale dell'ordine fornitore viene creata in Finance and Operations.                                      | Lo stato è **Bozza**.                                                                                                                                                                                                                                                                                                                                                                    |
+
+| L'ordine fornitore viene inviato al processo di approvazione. Il processo di approvazione è un processo interno a cui il fornitore non partecipa. | Lo stato viene modificato da **Bozza** a **In revisione** ad **Approvato** se l'ordine fornitore non viene rifiutato durante il processo di approvazione. L'ordine fornitore approvato viene registrato come una versione.                                                                                                                                                                                                                     | | L'ordine fornitore viene inviato al fornitore                                                                                  | La versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene modificato in **In revisione esterna**.                                                                                                                                                                                                                                                                       | | È possibile apportare alcune modifiche richieste dal fornitore manualmente o utilizzando l'azione sulla risposta per aggiornare l'ordine fornitore.                                                       | Lo stato viene reimpostato su **Bozza**.                                                                                                                                                                                                                                                                                                                                                    | | L'ordine fornitore viene nuovamente inviato al processo di approvazione.                                                            | Lo stato viene modificato da **Bozza** a **In revisione** ad **Approvazione** se l'ordine non viene rifiutato durante il processo di approvazione. In alternativa, il sistema può essere configurato in modo che modifiche specifiche ai campi non richiedano una nuova approvazione. In questo caso, lo stato viene inizialmente modificato in **Bozza** e quindi automaticamente aggiornato ad **Approvato**. L'ordine fornitore approvato viene registrato come nuova versione. | | La nuova versione dell'ordine fornitore viene inviata al fornitore.                                                             | La nuova versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**.                                                                                                                                                                                                                                                                   | | Il fornitore approva la nuova versione dell'ordine.                                                                | Lo stato viene modificato in **Confermato** automaticamente o quando si riceve la risposta dal fornitore e quindi si conferma l'ordine.                                                                                                                                                                                                                                                     |
 
 ## <a name="share-information-about-consignment-inventory"></a>Condividere le informazioni sull'inventario spedizione
 Se si utilizza l'inventario spedizione, i fornitori possono usare l'interfaccia di collaborazione fornitore per visualizzare le informazioni nelle pagine seguenti:

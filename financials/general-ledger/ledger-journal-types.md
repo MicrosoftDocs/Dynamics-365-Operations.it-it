@@ -1,16 +1,16 @@
 ---
 title: Tipi di giornali di registrazione contabile
-description: "In questo articolo vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina Nomi giornale di registrazione per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Operations."
+description: "In questo articolo vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina Nomi giornale di registrazione per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
@@ -18,20 +18,20 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 842eee6446b1f942add37b14d3ad161bec96d22c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="ledger-journal-types"></a>Tipi di giornali di registrazione contabile
+# <a name="ledger-journal-types"></a>Tipi di giornale di registrazione contabile
 
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina Nomi giornale di registrazione per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Operations.
+In questo articolo vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina Nomi giornale di registrazione per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 | Tipo giornale di registrazione                      | Scopo                                                                                                                                                                                                                                                                                                                                                     | Immettere le transazioni in questa pagina                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|

@@ -1,16 +1,16 @@
 ---
 title: Gestire il lavoro in conto lavoro in produzione
-description: In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Microsoft Dynamics 365 for Operations. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
+description: In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Microsoft Dynamics 365 for Finance and Operations. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Microsoft Dynamics 365 for Operations. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
+In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Microsoft Dynamics 365 for Finance and Operations. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
 
 Nei [processi di produzione](production-process-overview.md), il lavoro può essere eseguito da risorse di proprietà o amministrate dai fornitori. In genere, le risorse fornitore vengono utilizzate per l'eccesso periodico di domanda che supera la capacità disponibile delle risorse proprie di una società. Il fornitore può inoltre essere in grado di offrire specifiche [capacità risorsa](resource-capabilities.md) o risorse a un prezzo più basso.  
 
@@ -42,7 +42,7 @@ Quando si usano operazioni o attività in conto lavoro, queste influiscono su tu
 
 Per le risorse interne, un tasso di costo fisso in genere è assegnato per un periodo. Di contro, il costo di risorse in conto lavoro è basato sul prezzo di acquisto del servizio correlato. Il servizio viene definito come un altro prodotto e viene utilizzato per determinare i processi di approvvigionamento e di acquisto per un'operazione in conto lavoro specificata.  
 
-Attualmente, non esiste un esplicito concetto di prodotti semilavorati in Microsoft Dynamics 365 for Operations. Per un ordine di produzione che richiede più operazioni per la trasformazione delle materie prime in prodotto finito, il prodotto finito viene registrato nuovamente nel magazzino solo nell'ultima operazione. I prodotti semilavorati prodotti da operazioni precedenti vengono considerati come WIP, ma non vengono registrati o tracciati in magazzino. Sebbene sia possibile dividere i cicli di lavorazione e le distinte base (DBA) in più unità inferiori, tale approccio aumenta il numero di prodotti, distinte base e cicli di lavorazione che devono essere gestiti.  
+Attualmente, non esiste un esplicito concetto di prodotti semilavorati in Microsoft Dynamics 365 for Finance and Operations. Per un ordine di produzione che richiede più operazioni per la trasformazione delle materie prime in prodotto finito, il prodotto finito viene registrato nuovamente nel magazzino solo nell'ultima operazione. I prodotti semilavorati prodotti da operazioni precedenti vengono considerati come WIP, ma non vengono registrati o tracciati in magazzino. Sebbene sia possibile dividere i cicli di lavorazione e le distinte base (DBA) in più unità inferiori, tale approccio aumenta il numero di prodotti, distinte base e cicli di lavorazione che devono essere gestiti.  
 
 Sono disponibili due metodi per la modellazione del lavoro in conto lavoro per le operazioni di produzione. Questi metodi differiscono nel senso che il processo di conto lavoro può essere modellizzato, nel modo in cui i prodotti semilavorati vengono rappresentati nel processo e nel modo in cui il controllo costi viene gestito.
 

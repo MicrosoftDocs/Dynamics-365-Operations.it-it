@@ -1,16 +1,16 @@
 ---
 title: Gestione degli addetti magazzino
-description: In questo articolo viene descritto come utilizzare Microsoft Dynamics AX per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
+description: In questo articolo viene descritto come utilizzare Dynamics 365 for Finance and Operations per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo viene descritto come utilizzare Microsoft Dynamics AX per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
+In questo articolo viene descritto come utilizzare Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
 
 Se si utilizza la funzionalità di gestione magazzino, tutte le operazioni del lavoratore di magazzino sono indicate come *lavoro*. Ad esempio il lavoro di prelievo, spostamento e conteggio delle scorte disponibili viene registrato utilizzando i dispositivi mobili. Prima che un lavoratore di magazzino possa completare il lavoro, deve essere associato a un lavoratore nelle Risorse umane. Ogni account **lavoratore** può avere più utenti di lavoro di magazzino associati. Tali utenti di lavoro possono lavorare in magazzini diversi e possono avere diversi livelli di accesso a vari menu del dispositivo mobile. È possibile pensare agli utenti di lavoro di magazzino come a diversi accessi per il lavoratore selezionato. A ogni utente di lavoro è associato un magazzino predefinito e i flussi di lavoro specifici sono esposti dalle voci di menu disponibili per tale utente di lavoro. 
 

@@ -1,26 +1,26 @@
 ---
 title: Fatturazione interaziendale
-description: Questo articolo fornisce informazioni ed esempi sulla fatturazione interaziendale per i progetti in Microsoft Dynamics 365 for Operations.
+description: Questo articolo fornisce informazioni ed esempi sulla fatturazione interaziendale per i progetti in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65c20479af9d2184bd7f3b92f4c0718553425502
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce informazioni ed esempi sulla fatturazione interaziendale per i progetti in Microsoft Dynamics 365 for Operations.
+Questo articolo fornisce informazioni ed esempi sulla fatturazione interaziendale per i progetti in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 L'organizzazione potrebbe avere più divisioni, affiliate e altre persone giuridiche che si trasferiscono prodotti e servizi a vicenda per i progetti. La persona giuridica che fornisce il servizio o prodotto è denominata *persona giuridica concessionaria* e la persona giuridica che riceve il servizio o prodotto viene denominata *persona giuridica richiedente*. 
 
@@ -53,7 +53,7 @@ L'obiettivo è rendere più flessibili ed efficienti il controllo dei costi, il 
     -   **Rapporto di contribuzione** - Il numero immesso nel campo **Determinazione prezzo** è il rapporto di contribuzione espresso come percentuale del prezzo di vendita.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Esempio 1: Impostare parametri per la fatturazione interaziendale
-In questo esempio, USSI è una persona giuridica concessionaria e le relative risorse registrano il tempo rispetto alla persona giuridica richiedente, FRSI, a cui appartiene il contratto con il cliente finale. Le ore e le spese che i dipendenti USSI registrano possono essere incluse nella fattura progetto FRSI genera. Inoltre, vi è una terza origine delle transazioni che possono provenire dalla persona giuridica concessionaria (in questo esempio, USSI) quando fornisce servizi di fornitori condivisi a filiali (ad esempio FRSI) e quindi passa tali costi sui progetti all'interno di queste filiali. Tutti i documenti fattura corrispondenti e i calcoli dell'IVA vengono completati da Dynamics 365 for Operations. 
+In questo esempio, USSI è una persona giuridica concessionaria e le relative risorse registrano il tempo rispetto alla persona giuridica richiedente, FRSI, a cui appartiene il contratto con il cliente finale. Le ore e le spese che i dipendenti USSI registrano possono essere incluse nella fattura progetto FRSI genera. Inoltre, vi è una terza origine delle transazioni che possono provenire dalla persona giuridica concessionaria (in questo esempio, USSI) quando fornisce servizi di fornitori condivisi a filiali (ad esempio FRSI) e quindi passa tali costi sui progetti all'interno di queste filiali. Tutti i documenti fattura corrispondenti e i calcoli dell'IVA vengono completati da Finance and Operations. 
 
 Per questo esempio, FRSI deve essere un cliente nella persona giuridica USSI e USSI deve essere un fornitore nella persona giuridica FRSI. È quindi possibile impostare una relazione interaziendale tra le due persone giuridiche. La procedura riportata di seguito illustra come impostare i parametri in modo che entrambe le persone giuridiche possono partecipare alla fatturazione interaziendale.
 

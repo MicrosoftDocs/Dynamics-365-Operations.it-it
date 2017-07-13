@@ -1,16 +1,16 @@
 ---
 title: Panoramica dei bonifici SEPA
-description: "Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un&quot;altra società o un altro individuo. Nell&quot;argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico."
+description: "Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8f1a220babc333fe2091e9286afc565ebeecf036
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,15 +53,15 @@ L'EPC, che è costituito dalle banche europee, sviluppa i framework commerciali 
 Un bonifico SEPA è un pagamento effettuato da un individuo o una società a un'altra società o un altro individuo. I pagamenti devono essere in Euro e devono includere il numero IBAN (International Bank Account Number) e il codice BIC (Bank Identifier Code) di entrambe le parti. Il codice BIC è detto anche codice Society for Worldwide Interbank Financial Telecommunication \[SWIFT\]. Inoltre, i costi della transazione devono essere condivisi da entrambe le parti. I bonifici effettuati tra le parti devono utilizzare file XML conformi agli standard di elaborazione di pagamento ISO 20022 e il formato XML, come specificato dalla EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Come viene implementato un bonifico?
-Il formato di pagamento dei bonifici per i paesi europei è implementato utilizzando la creazione di report elettronici (ER, Electronic reporting) e la funzionalità Metodi di pagamento in Dynamics 365 for Operations. Alcuni formati di bonifico utilizzati in altre aree utilizzano ancora il framework di pagamento precedente. Tra i molti altri formati, sono disponibili dodici formati di file di bonifico ISO 20022. Questi formati di esportazione sono conformi allo standard XML ISO 20022 SEPA. Vengono utilizzati per generare bonifici in valuta diversa dall'euro per i paesi in cui vengono utilizzati e pagamenti in euro come specificato nella versione 8.2 del documento SEPA Credit Transfer Scheme Rulebook rilasciato dall'EPC. Prima di poter implementare i bonifici, è necessario contattare la banca per ottenere il software necessario per caricare i file di E-banking. Verrà utilizzato tale software per trasferire i file XML contenenti gli ordini di pagamento alla banca.
+Il formato di pagamento dei bonifici per i paesi europei è implementato utilizzando la creazione di report elettronici (ER, Electronic reporting) e la funzionalità Metodi di pagamento in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Alcuni formati di bonifico utilizzati in altre aree utilizzano ancora il framework di pagamento precedente. Tra i molti altri formati, sono disponibili dodici formati di file di bonifico ISO 20022. Questi formati di esportazione sono conformi allo standard XML ISO 20022 SEPA. Vengono utilizzati per generare bonifici in valuta diversa dall'euro per i paesi in cui vengono utilizzati e pagamenti in euro come specificato nella versione 8.2 del documento SEPA Credit Transfer Scheme Rulebook rilasciato dall'EPC. Prima di poter implementare i bonifici, è necessario contattare la banca per ottenere il software necessario per caricare i file di E-banking. Verrà utilizzato tale software per trasferire i file XML contenenti gli ordini di pagamento alla banca.
 
-## <a name="what-credit-transfer-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Quali formati di bonifico sono attualmente supportati in Dynamics 365 for Operations?
+## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Quali formati di bonifico sono attualmente supportati in Finance and Operations?
 È necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**. La sezione successiva, "Cosa devo impostare?", fornisce un collegamento all'argomento che illustra come creare un archivio LCS per esaminare le configurazioni disponibili e importare quelle selezionate.
 
 ## <a name="what-do-i-have-to-set-up"></a>Cosa devo impostare?
--   Prima di poter creare file di bonifico, almeno una configurazione attiva di bonifico deve essere importata nelle configurazioni ER. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Prima di poter creare file di bonifico, almeno una configurazione attiva di bonifico deve essere importata nelle configurazioni ER. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 -   Quando si configurano i metodi di pagamento per la contabilità fornitori, selezionare la casella di controllo **Report elettronici generici**, quindi selezionare il formato di bonifico appropriato (ad esempio **Bonifico ISO 20022 (AT)**) come configurazione del formato di esportazione.
--   È inoltre necessario impostare la persona giuridica e le informazioni sul conto bancario in Dynamics 365 for Operations.
+-   È inoltre necessario impostare la persona giuridica e le informazioni sul conto bancario in Finance and Operations.
 -   I numeri di conto bancario, IBAN, e talvolta i codici SWIFT (BIC) o altri ID sono necessari per creare pagamenti tramite bonifico validi. Di conseguenza, è necessario impostarli per il conto bancario del fornitore e il conto bancario per l'organizzazione che richiede il trasferimento.
 -   Potrebbero essere necessarie ulteriori informazioni, ad esempio i numeri di partita IVA per le parti a cui si fa riferimento nel messaggio di bonifico. Tali informazioni devono essere impostate per i fornitori e per la persona giuridica quando richieste.
 -   Alcuni metodi di pagamento per la contabilità fornitori, principalmente quelli basati su ISO 20022, potrebbero richiedere impostazioni aggiuntive per **Set di codici del formato di pagamento**, ad esempio il **Tipo di servizio** = **SLEV**. Tali codici sono utilizzati come tag aggiuntivi per le transazioni di pagamento durante l'elaborazione dei pagamenti. I valori predefiniti dei codici di pagamento, ad esempio **Scopo categoria**, **Portatore addebito**, **Titolo locale** e **Livello servizio** possono essere impostati in due posizioni. La prima posizione è **Intestazione giornale di registrazione contabilità fornitori** e il secondo è **Metodi di pagamento contabilità fornitori**. Al momento della creazione delle righe del giornale di registrazione pagamenti, i valori del codice di pagamento impostati nell'intestazione del giornale di registrazione pagamenti vengono trasferiti in una riga del giornale di registrazione; se non impostati, vengono utilizzati i valori dei Metodi di pagamento.

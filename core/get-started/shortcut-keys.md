@@ -1,15 +1,15 @@
 ---
 title: Tasti di scelta rapida
-description: In Microsoft Dynamics 365 for Operations vengono utilizzati i tasti di scelta rapida descritti di seguito.
+description: In Microsoft Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito.
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In Microsoft Dynamics 365 for Operations vengono utilizzati i tasti di scelta rapida descritti di seguito. 
+In Microsoft Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito. 
 
 **Nota:** i tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
 
@@ -44,7 +44,7 @@ In Microsoft Dynamics 365 for Operations vengono utilizzati i tasti di scelta ra
 | Spostarti sull'opzione successiva/precedente in un menu            | Freccia SU/Freccia GIÙ            |
 | Chiudere una scheda nel riquadro azioni o un menu          | ESC                              |
 | Simulare un clic con il pulsante destro del mouse                            | MAIUSC + F10                        |
-| Aprire il menu di scelta rapida di Dynamics 365 for Operations | CTRL + F10                         |
+| Visualizzare il menu di scelta rapida di Finance and Operations | CTRL + F10                         |
 | Eseguire il pulsante predefinito nel modulo/finestra di dialogo       | ALT + INVIO                        |
 | Fare clic sul pulsante o un riquadro                            | INVIO o Barra spaziatrice                   |
 | Aggiornare le informazioni per un riquadro di conteggio         | ALT + Freccia SU                     |

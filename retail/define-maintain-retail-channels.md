@@ -1,28 +1,28 @@
 ---
 title: Definire e gestire canali di vendita al dettaglio
-description: "Questo articolo fornisce una panoramica del processo per l&quot;impostazione di punti vendita fisici, denominati punti vendita al dettaglio in Microsoft Dynamics 365 for Operations. Sono riportate informazioni sulle attività da completare prima e dopo la configurazione di un punto vendita al dettaglio."
+description: "Questo articolo fornisce una panoramica del processo per l'impostazione di punti vendita fisici, denominati punti vendita al dettaglio in Microsoft Dynamics 365 for Retail. Sono riportate informazioni sulle attività da completare prima e dopo la configurazione di un punto vendita al dettaglio."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c3de01350eafcccad8c49ac32eb2509a3d2975b6
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 3f0b566963574569cb40b72550e2337c9ba8a2ce
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Questo articolo fornisce una panoramica del processo per l'impostazione di punti vendita fisici, denominati punti vendita al dettaglio in Microsoft Dynamics 365 for Operations. Sono riportate informazioni sulle attività da completare prima e dopo la configurazione di un punto vendita al dettaglio.
+Questo articolo fornisce una panoramica del processo per l'impostazione di punti vendita fisici, denominati punti vendita al dettaglio in Microsoft Dynamics 365 for Retail. Sono riportate informazioni sulle attività da completare prima e dopo la configurazione di un punto vendita al dettaglio.
 
-Vendita al dettaglio e commercio in Microsoft Dynamics 365 for Operations supporta più canali di vendita al dettaglio, ad esempio negozi online, punti vendita fisici e call center. In Vendita al dettaglio e commercio un punto vendita fisico è anche denominato punto vendita al dettaglio. Ogni punto vendita al dettaglio può disporre dei propri metodi di pagamento, gruppi di prezzi, registratori di cassa POS, conti ricavi/spese e personale. È necessario impostare tutti questi elementi per un punto vendita al dettaglio prima di crearlo. Dopo aver creato il punto vendita al dettaglio, assegnare i prodotti che si desidera siano presenti i esso. Inoltre l'utente assegna dipendenti, registratori di cassa e clienti al punto vendita. Infine, aggiungere il nuovo punto vendita a una gerarchia organizzativa.
+Dynamics 365 for Retail supporta più canali di vendita al dettaglio, ad esempio negozi online, servizi clienti e punti vendita fisici. Un punto vendita fisico è anche denominato punto vendita al dettaglio. Ogni punto vendita al dettaglio può disporre dei propri metodi di pagamento, gruppi di prezzi, registratori di cassa POS, conti ricavi/spese e personale. È necessario impostare tutti questi elementi per un punto vendita al dettaglio prima di crearlo. Dopo aver creato il punto vendita al dettaglio, assegnare i prodotti che si desidera siano presenti i esso. Inoltre l'utente assegna dipendenti, registratori di cassa e clienti al punto vendita. Infine, aggiungere il nuovo punto vendita a una gerarchia organizzativa.
 
 ## <a name="setting-up-retail-stores"></a>Impostazione dei punti vendita al dettaglio
-Prima di impostare un punto vendita al dettaglio in Dynamics 365 for Operations, è necessario completare alcune attività previste come prerequisito. È possibile quindi creare il punto vendita al dettaglio e aggiungere i dettagli.
+Prima di impostare un punto vendita al dettaglio in Dynamics 365 for Retail, è necessario completare alcune attività previste come prerequisito. È possibile quindi creare il punto vendita al dettaglio e aggiungere i dettagli.
 
 ### <a name="prerequisites"></a>Prerequisiti
 
@@ -53,7 +53,7 @@ Prima di impostare un punto vendita al dettaglio, è necessario completare le se
 8.  Impostare i prodotti di vendita al dettaglio. Come parte dell'attività, si impostano anche le gerarchie di prodotti al dettaglio, le varianti prodotto e gli assortimenti prodotto.
 9.  Impostare i gruppi di prezzo dei prodotti.
 10. Impostare i prezzi dei prodotti di vendita al dettaglio. Come parte dell'attività, si impostano anche le rettifiche prezzo, gli sconti e i periodi di sconto.
-11. Impostare i membri del personale. **Nota:** È inoltre necessario assegnare le autorizzazioni appropriate ai lavoratori, in modo che possano accedere ed eseguire le attività utilizzando il sistema Dynamics 365 for Operations for Retail POS.
+11. Impostare i membri del personale. **Nota:** È inoltre necessario assegnare le autorizzazioni appropriate ai lavoratori, in modo che possano accedere ed eseguire le attività utilizzando il sistema Dynamics 365 for Retail for Retail POS.
 12. Configurare i profili di Retail POS da assegnare al punto vendita. Questa attività include molte altre attività, ad esempio, l'impostazione dei registratori, dei profili offline oltre che dei formati delle ricevute e dei profili.
 
 Verificare tutte le attività incluse tra i prerequisito e completare solo le attività applicabili alla propria situazione.
@@ -80,7 +80,7 @@ Dopo aver immesso i dettagli relativi al punto vendita al dettaglio, completare 
 6.  Eseguire i processi per inviare i dati del punto vendita a Retail POS.
 
 ## <a name="organization-hierarchies"></a>Gerarchie organizzative
-Vendita al dettaglio utilizza le gerarchie organizzative in Microsoft Dynamics AX per strutturare canali di vendita al dettaglio. Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda. Quando si impostano gli archivi, è possibile aggiungerli a una gerarchia organizzativa. I punti vendita, quindi, condividono i dati utilizzati per assortimenti, rifornimento e reporting.
+Retail utilizza gerarchie organizzative per strutturare canali di vendita al dettaglio. Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda. Quando si impostano gli archivi, è possibile aggiungerli a una gerarchia organizzativa. I punti vendita, quindi, condividono i dati utilizzati per assortimenti, rifornimento e reporting.
 
 
 
