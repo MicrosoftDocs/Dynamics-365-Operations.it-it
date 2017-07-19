@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: it-it
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
@@ -128,3 +128,4 @@ Una volta che il controllo del budget è abilitato, gli utenti riceveranno i mes
 Da questa pagina l'utente può espandere la pagina **Statistiche di controllo del budget per periodo** per visualizzare i dettagli di disponibilità e le prenotazioni di budget per la combinazione selezionata di dimensioni di controllo del budget. Gli utenti possono inoltre accedere alla pagina **Statistiche di controllo del budget** in cui la disponibilità del budget viene visualizzata per tutte le combinazioni di dimensioni finanziarie utilizzate nel controllo del budget. 
 
 Se il controllo del budget è attivato per gli ordini fornitore, il responsabile budget può utilizzare l'area di lavoro **Budget contabili e previsioni** per verificare la coda di tutti gli ordini fornitore non confermati con errori e avvisi di verifica budget. Se il responsabile budget dispone delle autorizzazioni per superare il budget, può confermare l'ordine fornitore direttamente nell'area di lavoro.    
+
