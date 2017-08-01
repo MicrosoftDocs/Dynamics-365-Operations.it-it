@@ -58,7 +58,7 @@ Definire un *modello di budget* che corrisponda a tutti o ad alcuni dei budget. 
 > [!NOTE] 
 > Se viene utilizzato il controllo del budget, è possibile associare un solo modello di budget a una durata ciclo di budget specifica. 
 
-Creare *codici budget *che identificano il tipo di transazioni budget da registrare e i flussi di lavoro correlati. I codici budget possono supportare i seguenti tipi di budget:
+Creare *codici budget*che identificano il tipo di transazioni budget da registrare e i flussi di lavoro correlati. I codici budget possono supportare i seguenti tipi di budget:
 
 -   Budget originale
 -   Trasferito
