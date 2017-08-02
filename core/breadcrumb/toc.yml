@@ -12,10 +12,10 @@
       tocHref: /dynamics365/unified-operations/fin-and-ops/
       topicHref: /dynamics365/unified-operations/fin-and-ops/index
       items:
-        - name: Sviluppatore e amministratore
+        - name: null
           tocHref: /dynamics365/unified-operations/dev-itpro/
           topicHref: /dynamics365/unified-operations/dev-itpro/index
-        - name: Financials
+        - name: Dati finanziari
           tocHref: /dynamics365/unified-operations/financials/
           topicHref: /dynamics365/unified-operations/financials/index
         - name: Supply chain
