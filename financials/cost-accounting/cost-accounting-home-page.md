@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# Home page Contabilità industriale
+# <a name="cost-accounting-home-page"></a>Home page Contabilità industriale
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ Il modulo Contabilità industriale consente di eseguire le operazioni seguenti:
 -   Creare rendiconti che possono essere visualizzati nell'area di lavoro.
 -   Creare report utilizzando Excel.
 
-<a id="get-started" class="xliff"></a>
-
-## Per iniziare
+## <a name="get-started"></a>Per iniziare
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ Per comprendere come utilizzare Contabilità industriale per le attività quotid
 -   [Dimensioni oggetto di costo](cost-objects.md)
 -   [Creare oggetti di costo](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (guida attività)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## Area di lavoro mobile controllo costi
+## <a name="cost-control-mobile-workspace"></a>Area di lavoro mobile controllo costi
 Nell'area di lavoro mobile controllo costi, i dirigenti dei centri di costo possono esaminare le prestazioni del centro di costo in qualsiasi momento e ovunque si trovino.
 
 -   [Area di lavoro mobile controllo costi](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## Contenuto Power BI per l'analisi della contabilità industriale
+## <a name="cost-accounting-analysis-power-bi-content"></a>Contenuto Power BI per l'analisi della contabilità industriale
 Il contenuto Microsoft Power BI per l'Analisi della contabilità industriale è destinato ai controller di costo o qualsiasi utente responsabile di eseguire il controllo dei costi di un'organizzazione. Include metriche chiave, ad esempio costi, grandezza e il tasso di costo per costo effettivo, costo a budget e costo a budget flessibile. Utilizza i dati delle transazioni del modulo Contabilità industriale in Finance and Operations e offre una visualizzazione aggregata dei costi per l'intera organizzazione in un'unica valuta di dichiarazione. I responsabili possono filtrare i dati in base agli oggetti di costo per eseguire il controllo dei costi delle unità organizzative, anche se l'organizzazione può avere più persone giuridiche.
 
 -   [Contenuto Power BI per l'analisi della contabilità industriale](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)

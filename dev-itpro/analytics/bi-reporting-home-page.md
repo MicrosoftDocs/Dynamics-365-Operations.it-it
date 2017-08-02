@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 745abbfde09bab40f032c13d1b0293e0990a3de3
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 85000ee4507e1d716c6118441d77d94091494f33
 ms.contentlocale: it-it
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -73,32 +73,32 @@ In questo argomento sono elencate le risorse disponibili per BI e servizi di rep
 -   [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 -   [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 -   [Utilizzare la configurazione di creazione report elettronici per fornire a Power BI i dati da Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Creazione di report elettronici: creare e attivare un provider di configurazione](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (guida attività)
--   [Creazione di report elettronici: progettare un modello di dati specifico del dominio](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (guida attività)
--   [Creazione di report elettronici: definire il mapping di modello e selezionare le origini dati](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (guida attività)
--   [Creazione di report elettronici: eseguire il mapping del modello dati alle origini dati selezionate](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (guida attività)
--   [Creazione di report elettronici: progettare il formato specifico del dominio](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-format/) (guida attività)
--   [Creazione di report elettronici: caricare una configurazione in Lifecycle Services](http://ax.help.dynamics.com/en/wiki/upload-a-configuration-into-lifecycle-services/) (guida attività)
--   [Creazione di report elettronici: importare una configurazione da Lifecycle Services](http://ax.help.dynamics.com/en/wiki/import-a-configuration-from-lifecycle-services/) (guida attività)
--   [Creazione di report elettronici: progettare una configurazione per la generazione di report in formato OPENXML](http://ax.help.dynamics.com/en/wiki/design-a-configuration-for-generating-reports-in-openxml-format/) (guida attività)
--   [Creazione di report elettronici: configurare le destinazioni](http://ax.help.dynamics.com/en/wiki/configure-destinations/) (guida attività)
--   [Creazione di report elettronici: utilizzare le dimensioni finanziarie come origine dati (Parte 1: Progettare un modello dati)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (guida attività)
--   [Creazione di report elettronici: utilizzare le dimensioni finanziarie come origine dati (Parte 2: Mapping di modello)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (guida attività)
--   [Creazione di report elettronici: utilizzare le dimensioni finanziarie come origine dati (Parte 3: Progettare il report)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (guida attività)
--   [Creazione di report elettronici: utilizzare le dimensioni finanziarie come origine dati (Parte 4: Eseguire il report)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (guida attività)
--   [Creazione di report elettronici: configurare il formato per eseguire conteggi e somme (Parte 1: Creare il formato)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (guida attività)
--   [Creazione di report elettronici: configurare il formato per eseguire conteggi e somme (Parte 2: Configurare i calcoli)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (guida attività)
--   [Creazione di report elettronici: configurare il formato per eseguire conteggi e somme (Parte 3: Utilizzare i calcoli per creare l'output)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (guida attività)
--   [Creazione di report elettronici: configurare il formato per eseguire conteggi e somme (Parte 4: Eseguire il formato)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (guida attività)
--   [Creazione di report elettronici: utilizzare gli intervalli espandibili orizzontalmente per aggiungere colonne in modo dinamico ai report di Excel (Parte 1: Progettare il formato)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (guida attività)
--   [Creazione di report elettronici: utilizzare gli intervalli espandibili orizzontalmente per aggiungere colonne in modo dinamico ai report di Excel (Parte 2: Eseguire il formato)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/) (guida attività)
--   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 1: Preparare il modello dati)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/) (guida attività)
--   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 2: Estendere il modello dati)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/) (guida attività)
--   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 3: Creare il formato)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/) (guida attività)
--   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 4: Eseguire il formato)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/) (guida attività)
--   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 5: Modificare ed eseguire il formato)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (guida attività)
--   [Creazione di report elettronici: generare documenti elettronici per i pagamenti utilizzando una configurazione di formato](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (guida attività)
--   [Creazione di report elettronici: aggiornare il formato adottando una nuova versione di base del formato](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (guida attività)
+-   [Creazione di report elettronici: creare e attivare un provider di configurazione](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (guida attività)
+-   [Creazione di report elettronici: progettare un modello di dati specifico del dominio](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (guida attività)
+-   [Creazione di report elettronici: definire il mapping di modello e selezionare le origini dati](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (guida attività)
+-   [Creazione di report elettronici: eseguire il mapping del modello dati alle origini dati selezionate](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (guida attività)
+-   [Creazione di report elettronici: progettare il formato specifico del dominio](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (guida attività)
+-   [Creazione di report elettronici: caricare una configurazione in Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (guida attività)
+-   [Creazione di report elettronici: importare una configurazione da Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (guida attività)
+-   [Creazione di report elettronici: progettare una configurazione per la generazione di report in formato OPENXML](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (guida attività)
+-   [Creazione di report elettronici: configurare le destinazioni](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (guida attività)
+-   [Creazione di report elettronici: utilizzare le dimensioni finanziarie come origine dati (Parte 1: Progettare un modello dati)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (guida attività)
+-   [Creazione di report elettronici: utilizzare le dimensioni finanziarie come origine dati (Parte 2: Mapping di modello)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (guida attività)
+-   [Creazione di report elettronici: utilizzare le dimensioni finanziarie come origine dati (Parte 3: Progettare il report)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (guida attività)
+-   [Creazione di report elettronici: utilizzare le dimensioni finanziarie come origine dati (Parte 4: Eseguire il report)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (guida attività)
+-   [Creazione di report elettronici: configurare il formato per eseguire conteggi e somme (Parte 1: Creare il formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (guida attività)
+-   [Creazione di report elettronici: configurare il formato per eseguire conteggi e somme (Parte 2: Configurare i calcoli)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (guida attività)
+-   [Creazione di report elettronici: configurare il formato per eseguire conteggi e somme (Parte 3: Utilizzare i calcoli per creare l'output)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (guida attività)
+-   [Creazione di report elettronici: configurare il formato per eseguire conteggi e somme (Parte 4: Eseguire il formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (guida attività)
+-   [Creazione di report elettronici: utilizzare gli intervalli espandibili orizzontalmente per aggiungere colonne in modo dinamico ai report di Excel (Parte 1: Progettare il formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (guida attività)
+-   [Creazione di report elettronici: utilizzare gli intervalli espandibili orizzontalmente per aggiungere colonne in modo dinamico ai report di Excel (Parte 2: Eseguire il formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (guida attività)
+-   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 1: Preparare il modello dati)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (guida attività)
+-   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 2: Estendere il modello dati)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (guida attività)
+-   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 3: Creare il formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (guida attività)
+-   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 4: Eseguire il formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (guida attività)
+-   [Creazione di report elettronici: utilizzare i file di gestione documenti negli output di formato (Parte 5: Modificare ed eseguire il formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (guida attività)
+-   [Creazione di report elettronici: generare documenti elettronici per i pagamenti utilizzando una configurazione di formato](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (guida attività)
+-   [Creazione di report elettronici: aggiornare il formato adottando una nuova versione di base del formato](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (guida attività)
 
 
 
