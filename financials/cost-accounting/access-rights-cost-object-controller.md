@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 4d26d690e63898bfb463177da6654f1175ff35af
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: c520e14233fb03646aa4a273362e596bd1990a8c
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -99,12 +99,12 @@ Le impostazioni per la gerarchia dell'elenco accessi vengono utilizzate per cont
     - Le visualizzazioni dei dati di Power BI sono incluse in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, client
 
 > [!IMPORTANT]
-> - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
+> - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
 > - In questo argomento vengono illustrati i prerequisiti che devono essere definiti prima di poter utilizzare l'area di lavoro **Controllo costi**.
 
 Vedere anche
 
 - [Area di lavoro controllo costi](cost-control-workspace.md)
 - [Gerarchia dimensioni](dimension-hierarchy.md)
-- [Impostare la sicurezza per il pacchetto di contenuti della contabilità industriale](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+- [Impostare la sicurezza per il pacchetto di contenuti della contabilità industriale](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 

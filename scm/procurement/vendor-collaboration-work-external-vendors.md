@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: it-it
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongon
 
 Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
 
-Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
 
 Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
 
@@ -196,12 +196,16 @@ Se è stata abilitata la gestione delle modifiche degli ordini fornitore, l'ordi
 
 Nella tabella riportata di seguito viene mostrato un esempio di modifica allo stato e alla versione a cui l'ordine potrebbe essere sottoposto quando la gestione delle modifiche è abilitata. La versione viene registrata quando l'ordine fornitore viene approvato, non quando viene inviato al fornitore o confermato.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Azione**                                                                                                    | **Stato e versione**                                                                                                                                                                                                                                                                                                                                                                      |
-| La versione iniziale dell'ordine fornitore viene creata in Finance and Operations.                                      | Lo stato è **Bozza**.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| L'ordine fornitore viene inviato al processo di approvazione. Il processo di approvazione è un processo interno a cui il fornitore non partecipa. | Lo stato viene modificato da **Bozza** a **In revisione** ad **Approvato** se l'ordine fornitore non viene rifiutato durante il processo di approvazione. L'ordine fornitore approvato viene registrato come una versione.                                                                                                                                                                                                                     | | L'ordine fornitore viene inviato al fornitore                                                                                  | La versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene modificato in **In revisione esterna**.                                                                                                                                                                                                                                                                       | | È possibile apportare alcune modifiche richieste dal fornitore manualmente o utilizzando l'azione sulla risposta per aggiornare l'ordine fornitore.                                                       | Lo stato viene reimpostato su **Bozza**.                                                                                                                                                                                                                                                                                                                                                    | | L'ordine fornitore viene nuovamente inviato al processo di approvazione.                                                            | Lo stato viene modificato da **Bozza** a **In revisione** ad **Approvazione** se l'ordine non viene rifiutato durante il processo di approvazione. In alternativa, il sistema può essere configurato in modo che modifiche specifiche ai campi non richiedano una nuova approvazione. In questo caso, lo stato viene inizialmente modificato in **Bozza** e quindi automaticamente aggiornato ad **Approvato**. L'ordine fornitore approvato viene registrato come nuova versione. | | La nuova versione dell'ordine fornitore viene inviata al fornitore.                                                             | La nuova versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**.                                                                                                                                                                                                                                                                   | | Il fornitore approva la nuova versione dell'ordine.                                                                | Lo stato viene modificato in **Confermato** automaticamente o quando si riceve la risposta dal fornitore e quindi si conferma l'ordine.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Azione**                                                               | **Stato e versione**                                                                                                                                       |
+| La versione iniziale dell'ordine fornitore viene creata in Finance and Operations.      | Lo stato è **Bozza**.  |
+| L'ordine fornitore viene inviato al processo di approvazione. Il processo di approvazione è un processo interno che non coinvolge il fornitore.                                                           | Lo stato viene modificato da **Bozza** a **In revisione** ad **Approvazione** se l'ordine fornitore non viene rifiutato durante il processo di approvazione. L'ordine fornitore approvato viene registrato come una versione.           | 
+| L'ordine fornitore viene inviato al fornitore.                                                            | La versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**.      |
+| È possibile apportare alcune modifiche richieste dal fornitore manualmente o utilizzando l'azione sulla risposta per aggiornare l'ordine fornitore.                                                            | Lo stato torna a essere **Bozza**.     |
+|L'ordine fornitore viene nuovamente inviato al processo di approvazione.                                                |  Lo stato viene modificato da **Bozza** a **In revisione** ad **Approvazione** se l'ordine fornitore non viene rifiutato durante il processo di approvazione. In alternativa, il sistema può essere configurato in modo che modifiche specifiche ai campi non richiedano una nuova approvazione. In questo caso, lo stato viene inizialmente modificato in **Bozza** e quindi automaticamente aggiornato ad **Approvato**. L'ordine fornitore approvato viene registrato come nuova versione.                                         |
+|La nuova versione dell'ordine fornitore viene inviata al fornitore.                                                |  La nuova versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**.                                         |
+|Il fornitore approva la nuova versione dell'ordine.                                                |  Lo stato viene modificato in **Confermato** automaticamente o quando si riceve la risposta dal fornitore e quindi si conferma l'ordine. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Condividere le informazioni sull'inventario spedizione
 Se si utilizza l'inventario spedizione, i fornitori possono usare l'interfaccia di collaborazione fornitore per visualizzare le informazioni nelle pagine seguenti:

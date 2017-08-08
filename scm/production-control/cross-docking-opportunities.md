@@ -1,5 +1,5 @@
 ---
-title: Eseguire il cross-docking da ordini di produzione a banchine di uscita | Microsoft Docs
+title: Eseguire il cross-docking da ordini di produzione a banchine di uscita
 description: In questo argomento viene descritto come gestire il processo del materiale di cross-docking che viene dichiarato finito in una riga di produzione per una banchina di trasporto di uscita.
 author: johanhoffmann
 manager: AnnBe
@@ -8,19 +8,20 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+audience: Application User
 ms.reviewer: bis
 ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 0b5541b6752da0c73e4309951ecabc0793f24289
+ms.translationtype: HT
+ms.sourcegitcommit: b424be5396df9434cd799ca7e7e9342a7c476e29
+ms.openlocfilehash: 231808260eeab73120bab43558ab5745f9fdbe46
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -123,7 +124,6 @@ Dopo che un prodotto viene dichiarato finito nella riga di produzione, viene tra
 ### <a name="additional-information"></a>Informazioni aggiuntive
 
 -   Lo scenario di cross-docking è supportato per gli articoli controllati di serie e batch, entrambi con dimensioni di numero di serie e batch definite sopra e sotto l'ubicazione nella gerarchia di prenotazione.
--   La quantità che viene dichiarata finita non può essere suddivisa per una domanda dell'ordine di trasferimento inferiore. Ad esempio, se 20 pezzi vengono dichiarati finiti e l'ordine di trasferimento esistente è per 5 pezzi, l'ordine di trasferimento non viene ritenuto applicabile per il cross-docking.
 
 
 

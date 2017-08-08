@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ Per impostare un conto fornitore, è inoltre essere necessario registrare gli ac
 -   **Mai**: il fornitore non viene mai messo in attesa per inattività.
 
 Quando si mette un fornitore in attesa, è possibile specificare un motivo e una data in cui lo stato di attesa verrà terminato. Se non si immette una data di fine, lo stato di attesa del fornitore avrà durata illimitata.
+
+È possibile eseguire un aggiornamento in blocco dello stato In attesa a **Tutti** per i fornitori in base ai criteri selezionati nella pagina **Disattivazione fornitore** e assegnare un motivo per cui il fornitore è in attesa.
+
+I criteri seguenti vengono utilizzati per includere fornitori che sono stati inattivi in un periodo, includere o escludere fornitori che sono dipendenti ed escludere fornitori che si trovano in un periodo di tolleranza prima della successiva sospensione.
+
+- In base al numero di giorni che si immette nel campo **Nel periodo attività** della pagina **Inattivazione fornitore**, l'applicazione calcola la data più recente in cui il fornitore può avere una qualsiasi attività da considerare inattiva. Ovvero la data corrente meno il numero di giorni che si immette. Se sono presenti una o più fatture del fornitore in cui la data è successiva all'ultima data calcolata, il fornitore verrà escluso dalla disattivazione. Questa impostazione viene convalidata anche se il fornitore ha dei pagamenti dopo tale data, apre richieste di acquisto, apre ordini fornitore, apre richieste di offerta o risposte a offerte.
+- Il numero di giorni nel campo **Periodo di tolleranza prima della sospensione successiva** viene utilizzato per calcolare la data di tolleranza più recente. Ovvero la data corrente meno i giorni che si immette. Questa opzione è valida solo per i fornitori che sono stati precedentemente disattivati. Nel caso di una disattivazione precedente, l'applicazione verifica lo storico di altre occorrenze di disattivazione per il fornitore e controlla se l'ultima disattivazione si è verificata prima della data di tolleranza più recente. In caso affermativo, il fornitore verrà incluso nel processo di disattivazione.
+- Il parametro **Includi dipendenti** si riferisce ai fornitori che sono collegati a un dipendente. È possibile scegliere se si desidera includere tali dipendenti.
+
+Questo processo escluderà sempre i fornitori il cui valore nel campo **Sospensione fornitore** è impostato su **Mai**.
+
+I fornitori che superano le convalide vengono messi in sospensione, pertanto il campo **Sospensione fornitore** viene impostato su **Tutti** e il campo **Motivo** su ciò che è stato selezionato. Viene creato un record nello storico in sospeso per il fornitore.
 
 ## <a name="vendor-invoice-account"></a>Conto fatture fornitore
 Se sono presenti più fornitori con lo stesso indirizzo di fatturazione o se la fatturazione del fornitore avviene tramite terzi, è possibile specificare un conto di fatturazione nel record fornitore. Si tratta del conto a cui viene accreditato l'importo quando si crea una fattura fornitore a partire da un ordine fornitore. Se non si immette un conto fatture sul record fornitore verrà utilizzato in alternativa il conto fornitore.

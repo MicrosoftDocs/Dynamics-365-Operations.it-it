@@ -1,5 +1,5 @@
 ---
-title: IVA intracomunitaria | Microsoft Docs
+title: Reverse charge
 description: In questo argomento viene descritto come configurare l'imposta sul valore aggiunto (IVA) reverse charge per i paesi europei.
 author: epodkolz
 manager: AnnBe
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epodkolz
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6cb473962f40ed9ef2f5f807f089098764f47009
-ms.openlocfilehash: b3c94fa73410d9bdcaaec11dee04a7a239e4d45a
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dba651b4e6f0e661d6743780495c7ee217eefd9d
 ms.contentlocale: it-it
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -44,7 +44,7 @@ Si consiglia di utilizzare i codici IVA separati per le operazioni di acquisto e
 </tr>
 <tr>
 <td><strong>Codice IVA per gli acquisti</strong></td>
-<td><p>Creare i codici IVA positivi per le vendite positivi e negativi per l'IVA reverse charge per gli acquisti (<strong>Imposta</strong> > <strong>Imposte indirette</strong> > <strong>IVA</strong> > <strong>Codici IVA</strong>).</p>
+<td><p>Creare i codici IVA positivi e negativi per l'IVA reverse charge per gli acquisti (<strong>Imposta</strong> > <strong>Imposte indirette</strong> > <strong>IVA</strong> > <strong>Codici IVA</strong>).</p>
 <ol>
 <li>Creare un codice IVA con un valore positivo.</li>
 <li>Creare un codice IVA con un valore negativo. Impostare l'opzione <strong>Consenti aliquota IVA negativa</strong> su <strong>Sì</strong>.

@@ -3,21 +3,23 @@ title: Contenuto di Power BI Panoramica situazione di cassa
 description: "Questo argomento descrive il contenuto Panoramica situazione di cassa di Power BI. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 06/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e969c2033463d565ce782c7dc8cfc4b458349289
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 367fe61492648ee3ee629a8121e664dfaa0c6c99
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,6 +36,10 @@ Il contenuto **Panoramica situazione di cassa** di Power BI è stato creato per 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 
 Se si utilizza l'aggiornamento di luglio 2017 di Dynamics 365 for Finance and Operations, Enterprise Edition, i report del contenuto di Power BI **Panoramica situazione di cassa** vengono visualizzati nelle aree di lavoro **Panoramica situazione di cassa** e **Gestione banche**.
+
+Per visualizzare i report delle previsioni di cassa con dati, è necessario prima eseguire il processo di calcolo delle previsioni utilizzando la funzione **Calcola previsioni di cassa** nell'area Gestione banche e di cassa.  Deve essere completato per ogni società inclusa nella previsione.  Nella pagina **Archivio entità** è necessario quindi aggiornare la misura di aggregazione LedgerCovLiquidityMeasurement.  
+
+A tale scopo, è possibile aggiungere i dati dimostrativi delle previsioni di cassa utilizzando la pagina **Genera dati** dal modulo Dati dimostrativi.  Questo script inserirà i dati nelle tabelle delle previsioni di cassa per popolare rapidamente le informazioni necessarie per i report.  Questo modulo è disponibile solo se si dispone del modello della serie di dati dimostrativi distribuito nell'ambiente. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
 Nella seguente tabella sono descritti i dettagli sulle metriche disponibili in ogni pagina del report nel contenuto di Power BI **Panoramica situazione di cassa**.

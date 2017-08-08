@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 579abd13f75c332bb4619730ed3630ffe6065d74
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -62,7 +62,7 @@ Le entità create per definire il layout di magazzino vengono utilizzate nelle q
 
 È necessario considerare il layout fisico del magazzino, sia per determinare le capacità di stoccaggio (limiti stoccaggio ubicazione e profili ubicazioni) sia come parte dei tentativi di ottenere processi ottimali di magazzino. 
 
-I limiti di stoccaggio dell'ubicazione aiutano a garantire che non venga creato lavoro per richiedere che l'inventario sia inserito in un'ubicazione che non ha la capacità fisica di contenerlo. Se ad esempio alcune posizioni all'interno di un magazzino possono contenere solo un pallet, è possibile abilitare i limiti di stoccaggio ubicazione. Il valore di **Quantità **può essere impostato su **1** e il valore di **Unità **su **PL** all'interno di uno specifico raggruppamento di profili ubicazione. 
+I limiti di stoccaggio dell'ubicazione aiutano a garantire che non venga creato lavoro per richiedere che l'inventario sia inserito in un'ubicazione che non ha la capacità fisica di contenerlo. Se ad esempio alcune posizioni all'interno di un magazzino possono contenere solo un pallet, è possibile abilitare i limiti di stoccaggio ubicazione. Il valore di **Quantità**può essere impostato su **1** e il valore di **Unità** su **PL** all'interno di uno specifico raggruppamento di profili ubicazione. 
 
 Se calcoli più avanzati sono necessari per controllare i vincoli di capacità dell'ubicazione, le impostazioni del profilo dell'ubicazione possono essere utilizzate. In questo caso, peso e volume vengono considerati quando vengono effettuati i calcoli di capacità. 
 
@@ -116,7 +116,7 @@ Per rendere più semplice e più rapido definire le azioni associate a ogni riga
 <a name="see-also"></a>Vedere anche
 --------
 
-[Configurare le ubicazioni in un magazzino abilitato WMS (guida attività)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+[Configurare le ubicazioni in un magazzino abilitato WMS (Guida attività)](/dynamics365/unified-operations/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse)
 
 
 

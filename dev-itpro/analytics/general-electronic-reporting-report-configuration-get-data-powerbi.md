@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Fare clic sul pulsante **Impostazioni** per il nuovo record di destinazione. Qui
 Nella pagina **Configurazioni** (**Amministrazione organizzazione** &gt; **Creazione di report elettronici** &gt; **Configurazioni**), nell'albero delle configurazioni, selezionare la configurazione creata in precedenza **Attività di esportazione/importazione**. Modificare lo stato della versione 1.1 da **Bozza** in **Completato** per rendere questo formato disponibile per l'utilizzo. [![Pagina Configurazioni](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Selezionare la versione completa della configurazione **Attività di esportazione/importazione** e quindi fare clic su **Esegui**. Si noti che la destinazione configurata viene applicata al risultato di output generato in formato di Excel. Impostare l'opzione **Elaborazione batch** su **Sì** per eseguire il report in modalità automatica. Fare clic su **Ricorrenza** per programmare la ricorrenza richiesta per l'esecuzione del batch. La ricorrenza definisce la frequenza di trasferimento dei dati aggiornati da Finance and Operations a Power BI. [![Finestra di dialogo Parametri per la creazione di report elettronici](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Una volta configurato, è possibile trovare il processo di esecuzione del report ER nella pagina **Processi batch** (**Amministrazione di sistema &gt; Informazioni &gt; Processi batch**). [![Pagina Processi batch](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Se il processo viene eseguito per la prima volta, la destinazione crea un nuovo file di Excel con il nome configurato nella cartella selezionata di SharePoint. A ogni esecuzione successiva del processo, la destinazione crea una nuova versione del file di Excel. [![Nuova versione del file di Excel](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Creare un set di dati di Power BI mediante il risultato di output del formato ER
-Accedere a Power BI e aprire un gruppo esistente di Power BI (area di lavoro) o creare un nuovo gruppo. Fare clic su **Aggiunti** in **File** nella sezione **Importa o connetti a dati** oppure fare clic sul segno più (**+**) accanto a **Set di dati** nel riquadro di sinistra. [![Creazione di un set di dati](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Selezionare l'opzione **SharePoint - Siti del team** e quindi immettere il percorso del server SharePoint che si sta usando (nell'esempio **https://ax7partner.spoppe.com**). Andare alla cartella **/Shared Documents/GER data/PowerBI** e selezionare il file di Excel creato come origine dati per il nuovo set di dati di Power BI. [![Selezione del file di Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Fare clic su **Connetti** e quindi fare clic su **Importa**. Un nuovo set di dati viene creato in base al file di Excel selezionato. Il set di dati può anche essere aggiunto automaticamente al dashboard appena creato. [![Set di dati nel dashboard](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configurare la programmazione aggiornamento per il set di dati per forzare un aggiornamento periodico. Gli aggiornamenti periodici abilitano l'utilizzo di nuovi dati aziendali che provengono da Finance and Operations mediante l'esecuzione periodica del report ER tra le nuove versioni del file di Excel create nel SharePoint Server.
+Accedere a Power BI e aprire un gruppo esistente di Power BI (area di lavoro) o creare un nuovo gruppo. Fare clic su **Aggiunti** in **File** nella sezione **Importa o connetti a dati** oppure fare clic sul segno più (**+**) accanto a **Set di dati** nel riquadro di sinistra. [![Creazione di un set di dati](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Selezionare l'opzione **SharePoint - Siti del team** e quindi immettere il percorso del server SharePoint che si sta usando (nell'esempio **https://ax7partner.litware.com**). Andare alla cartella **/Shared Documents/GER data/PowerBI** e selezionare il file di Excel creato come origine dati per il nuovo set di dati di Power BI. [![Selezione del file di Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Fare clic su **Connetti** e quindi fare clic su **Importa**. Un nuovo set di dati viene creato in base al file di Excel selezionato. Il set di dati può anche essere aggiunto automaticamente al dashboard appena creato. [![Set di dati nel dashboard](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configurare la programmazione aggiornamento per il set di dati per forzare un aggiornamento periodico. Gli aggiornamenti periodici abilitano l'utilizzo di nuovi dati aziendali che provengono da Finance and Operations mediante l'esecuzione periodica del report ER tra le nuove versioni del file di Excel create nel SharePoint Server.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Creare un report di Power BI mediante il nuovo set di dati
 Per creare un nuovo report di Power BI, fare clic sul set di dati di Power BI **Dettagli di esportazione e importazione** creato. Quindi, configurare la visualizzazione. Ad esempio, selezionare la visualizzazione **Mappa compilata** e configurarla nel seguente modo:
