@@ -15,14 +15,13 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: ed80e59579c2356cc3c1e0f13b33026284867a2c
 ms.contentlocale: it-it
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -54,12 +53,15 @@ Con l'utilizzo di Talent è necessario decidere come strutturare l'organizzazion
 -   [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](departments-jobs-positions.md)
 -   [Impostare i parametri di Risorse umane specifici della società](set-up-company-specific-hr-parameters.md)
 -   [Impostare i parametri di Risorse umane per le persone giuridiche](set-up-hr-parameters-across-legal-entities.md) 
+-   [Domande frequenti sulle azioni dipendente](personnel-actions-faq.md)
+-   [Panoramica di congedo e assenza](leave-absence-overview.md)
 
 ## <a name="retain-and-motivate-employees"></a>Fidelizzare e motivare i dipendenti
 
 È possibile impostare piani per gestire in modo efficace ed equo le retribuzioni, nonché gestire gli elementi quali computer o cellulari che l'organizzazione affida ai propri dipendenti. È possibile creare piani di retribuzione fissa e variabile, nonché definire regole da applicare al piano di retribuzione per soddisfare i criteri del piano.
 
 -   [Piani di retribuzione](compensation-plans.md)
+-   [Processo retributivo](process-compensation.md)
 -   [Creare i piani di retribuzione fissa](create-fixed-compensation-plans.md)
 -   [Creare i piani di retribuzione variabile](create-variable-compensation-plans.md)
 
