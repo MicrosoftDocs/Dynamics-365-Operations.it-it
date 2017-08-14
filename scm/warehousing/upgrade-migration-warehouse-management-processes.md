@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ Questo argomento fornisce una panoramica delle opzioni di migrazione della gesti
 Durante l'aggiornamento a Finance and Operations, i prodotti vengono bloccati se sono associati a un gruppo di dimensioni di immagazzinamento che ha impostazioni che non corrispondono ai requisiti per le impostazioni di un gruppo di dimensioni di immagazzinamento in Finance and Operations. Tuttavia, dopo l'aggiornamento, è possibile utilizzare un set di opzioni di migrazione nel processo di **Modifica del gruppo di dimensioni di immagazzinamento per articoli** per sbloccare i prodotti bloccati durante l'aggiornamento. È quindi possibile elaborare le transazioni per quei prodotti. Alcuni degli articoli potrebbero essere già associati a gruppi di dimensioni di immagazzinamento laddove le dimensioni di immagazzinamento Sito, Magazzino e Ubicazione sono attive e monitorate fisicamente. In questo caso, è possibile utilizzare il processo di **Modifica del gruppo di dimensioni di immagazzinamento per articoli** per consentire l'utilizzo di quegli articoli nei processi di gestione del magazzino. Questa funzionalità è utile se si desidera utilizzare la funzionalità di gestione magazzino per gli articoli esistenti.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Aggiornamento a Finance and Operations, quando si utilizza il modulo WMSII di AX 2012 R3
-Finance and Operations non supporta più il modulo legacy **WMSII** di Microsoft Dynamics AX 2012. In alternativa, è possibile utilizzare il nuovo modulo **Gestione magazzino**. Per ulteriori informazioni, vedere [Home page di Gestione magazzino](https://ax.help.dynamics.com/en/wiki/warehouse-management/). Nelle versioni precedenti, le dimensioni inventariali ID pallet e Ubicazione possono essere selezionate per le scorte finanziarie. Tuttavia, nell'ambito del processo di aggiornamento, la dimensione inventariale ID pallet non può più essere attivata per l'inventario finanziario. Tutti i prodotti associati a un gruppo di dimensioni di immagazzinamento che utilizza la dimensione inventariale ID pallet verranno bloccati e non verranno elaborati.
+Finance and Operations non supporta più il modulo legacy **WMSII** di Microsoft Dynamics AX 2012. In alternativa, è possibile utilizzare il nuovo modulo **Gestione magazzino**. Nelle versioni precedenti, le dimensioni inventariali ID pallet e Ubicazione possono essere selezionate per le scorte finanziarie. Tuttavia, nell'ambito del processo di aggiornamento, la dimensione inventariale ID pallet non può più essere attivata per l'inventario finanziario. Tutti i prodotti associati a un gruppo di dimensioni di immagazzinamento che utilizza la dimensione inventariale ID pallet verranno bloccati e non verranno elaborati.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Attivazione di articoli in Finance and Operations
 
@@ -70,7 +70,7 @@ Prima di poter utilizzare i prodotti rilasciati nel modulo **Gestione magazzino*
 1.  Creare almeno un nuovo profilo di ubicazione.
 2.  Fare clic su **Gestione magazzino** &gt; **Impostazioni** &gt; **Consenti processi di gestione magazzino** &gt; **Consenti impostazione magazzino**.
 3.  Nella pagina **Consenti impostazione magazzino** aggiungere i magazzini che devono essere attivati. È possibile completare questo passaggio direttamente nella pagina o tramite l'integrazione con Microsoft Office.
-4.  Assegnare un profilo di ubicazione a tutte le ubicazioni. È possibile completare facilmente questo passaggio utilizzando l'integrazione con Microsoft Office o direttamente dalla pagina. È possibile esportare e importare i dati o utilizzare l'elaborazione delle entità di dati in [Gestione dati](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+4.  Assegnare un profilo di ubicazione a tutte le ubicazioni. È possibile completare facilmente questo passaggio utilizzando l'integrazione con Microsoft Office o direttamente dalla pagina. È possibile esportare e importare i dati o utilizzare l'elaborazione delle entità di dati in [Gestione dati](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 5.  Convalidare le modifiche. Durante il processo di convalida si verificano alcune convalide di integrità dei dati. Nell'ambito di un processo di aggiornamento di dimensioni più ampie, è possibile che si debba correggere eventuali problemi nell'implementazione di origine. In questo caso sarà necessario eseguire un ulteriore aggiornamento dei dati.
 6.  Elaborare le modifiche.
 
@@ -81,7 +81,7 @@ Prima di poter utilizzare i prodotti rilasciati nel modulo **Gestione magazzino*
 3.  Nella pagina **Gerarchia prenotazioni** definire una nuova gerarchia di prenotazioni in base ai gruppi di dimensioni di tracciabilità e di immagazzinamento dell'articolo.
 4.  Creare uno o più gruppi di sequenze di unità che include almeno le stesse unità utilizzate per le unità di magazzino degli articoli.
 5.  Fare clic su **Gestione magazzino** &gt; **Impostazioni** &gt; **Consenti processi di gestione magazzino** &gt; **Modifica gruppo di dimensioni di immagazzinamento per articoli**.
-6.  Nella pagina **Modifica gruppo di dimensioni di immagazzinamento per articoli** aggiungere i numeri articolo, i gruppi di dimensioni di immagazzinamento e i gruppi di sequenze di unità. È possibile completare questo passaggio direttamente nella pagina, utilizzando l'integrazione di Microsoft Office oppure il processo delle entità di dati in [Gestione dati](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+6.  Nella pagina **Modifica gruppo di dimensioni di immagazzinamento per articoli** aggiungere i numeri articolo, i gruppi di dimensioni di immagazzinamento e i gruppi di sequenze di unità. È possibile completare questo passaggio direttamente nella pagina, utilizzando l'integrazione di Microsoft Office oppure il processo delle entità di dati in [Gestione dati](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 7.  Convalidare le modifiche. Durante il processo di convalida si verificano alcune convalide di integrità dei dati. Nell'ambito di un processo di aggiornamento di dimensioni più ampie, è possibile che si debba correggere eventuali problemi nell'implementazione di origine. In questo caso sarà necessario eseguire un ulteriore aggiornamento dei dati.
 8.  Elaborare le modifiche. L'aggiornamento di tutte le dimensioni inventariali può richiedere qualche minuto. È possibile monitorare lo stato utilizzando le attività dei processi batch.
 

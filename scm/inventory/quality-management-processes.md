@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d0af259fd6da8a57bada919f44a2902d9a5854d
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 31a9141feea56f1c8c1ba5fde446181c157953ad
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -71,7 +71,7 @@ Nella tabella di seguito sono elencati i sei tipi predefiniti di non conformità
 
 Le non conformità sono associate a un tipo di problema. I tipi di problema vengono definiti nella pagina **Tipi di problema**, in cui si specificano i tipi di problema che possono essere associati a ciascun tipo di non conformità. I tipi di problema relativi alle non conformità di tipo **Richiesta di assistenza** potrebbero ad esempio riflettere una classificazione di reclami dei clienti, mentre i tipi di problema relativi alle non conformità di tipo **Interno** potrebbero rappresentare una classificazione di codici di articoli difettosi. 
 
-Quando si crea una nuova non conformità, selezionare il tipo di non conformità e il tipo di problema. Lo stato di approvazione iniziale, **Nuovo**, che rappresenta una richiesta di azione. Il passaggio successivo è quello di modificare lo stato di approvazione in **Approvato** o**Respinto** per segnalare la decisione di intraprendere o meno le azioni necessarie a fronte della non conformità. È inoltre possibile chiudere una non conformità (selezionando una casella di controllo separata) per segnalare che il processo è completato oppure riaprire una non conformità per segnalare la necessità di ulteriori considerazioni. 
+Quando si crea una nuova non conformità, selezionare il tipo di non conformità e il tipo di problema. Lo stato di approvazione iniziale, **Nuovo**, che rappresenta una richiesta di azione. Il passaggio successivo è quello di modificare lo stato di approvazione in **Approvato** o **Respinto** per segnalare la decisione di intraprendere o meno le azioni necessarie a fronte della non conformità. È inoltre possibile chiudere una non conformità (selezionando una casella di controllo separata) per segnalare che il processo è completato oppure riaprire una non conformità per segnalare la necessità di ulteriori considerazioni. 
 
 È possibile immettere commenti per una non conformità allegando un documento. È buona idea definire un tipo di documento univoco per le non conformità utilizzando la pagina **Tipo di documento**. È quindi possibile utilizzare la pagina **Impostazione report** per definire se i commenti per il tipo di documento devono essere stampati nel tag e nel report di non conformità. Il report di conformità e il tag di non conformità possono essere utili per agevolare lo smaltimento dei materiali. È possibile generare in modo selettivo i report e i tag in base ai criteri di selezione associati a una non conformità. I criteri includono il numero, l'articolo, il cliente, il fornitore e lo stato di non conformità. 
 
@@ -100,9 +100,9 @@ La pagina **Correzioni** consente di creare un elenco di non conformità che dev
 
 [Ordini di quarantena](quarantine-orders.md)
 
-[Impostare ordini di controllo qualità (guida attività)](http://ax.help.dynamics.com/en/wiki/set-up-quality-orders/)
+[Impostare ordini di controllo qualità (Guida attività)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
 
-[Verificare la qualità delle merci (guida attività)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Verificare la qualità delle merci (Guida attività)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
 
 
 

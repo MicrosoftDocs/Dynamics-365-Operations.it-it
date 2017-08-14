@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0bad513590ec0b0d495664d81f2e5f92e162bdd7
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dd6f993e5c5fe343c6484383ff097f87f5dbf894
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -44,7 +44,7 @@ I vincoli di tabella elencano le combinazioni di valori consentiti per gli attri
 
 ### <a name="example-of-a-table-constraint"></a>Esempio di vincolo di tabella
 
-In questo esempio viene illustrato come è possibile limitare la configurazione di un altoparlante a rivestimenti e frontali specifici del cabinet. Nella prima tabella vengono illustrati i rivestimenti e i frontali del cabinet che sono in genere disponibili per la configurazione. I valori sono definiti per i tipi di attributo **Rivestimento del cabinet**e **Griglia anteriore**.
+In questo esempio viene illustrato come è possibile limitare la configurazione di un altoparlante a rivestimenti e frontali specifici del cabinet. Nella prima tabella vengono illustrati i rivestimenti e i frontali del cabinet che sono in genere disponibili per la configurazione. I valori sono definiti per i tipi di attributo **Rivestimento del cabinet** e **Griglia anteriore**.
 
 | Tipo di attributo | Valori                      |
 |----------------|-----------------------------|
@@ -88,7 +88,7 @@ Quando si configura un prodotto tramite le seguenti impostazioni del vincolo, so
 (Color == "Nero" & (size == "30" | size == "50")) | (color == "Rosso" & size = "20")
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>È necessario utilizzare gli operatori o la notazione di infisso quando si scrivono i vincoli di espressione?
-È possibile scrivere un vincolo di espressione utilizzando gli operatori di prefisso disponibili o la notazione di infisso. Per gli operatori **Min**, **Max** e **Abs**non è possibile utilizzare una notazione di infisso. Questi operatori sono inclusi come operatori standard nella maggior parte dei linguaggi di programmazione.
+È possibile scrivere un vincolo di espressione utilizzando gli operatori di prefisso disponibili o la notazione di infisso. Per gli operatori **Min**, **Max** e **Abs** non è possibile utilizzare una notazione di infisso. Questi operatori sono inclusi come operatori standard nella maggior parte dei linguaggi di programmazione.
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Quali operatori e notazione di infisso è possibile utilizzare quando si scrivono i vincoli di espressione?
 Nelle tabelle seguenti sono elencati gli operatori e la notazione di infisso che è possibile utilizzare per scrivere un vincolo di espressione per un componente in un modello di configurazione prodotto. Negli esempi della prima tabella è possibile vedere come scrivere un'espressione utilizzando la notazione di infisso o gli operatori.
@@ -249,9 +249,9 @@ Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare un vincolo di espressione (guida attività)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Creare un vincolo di espressione (Guida attività)(/dynamics365/unified-operations/supply-chain/pim/tasks/add-expression-constraint-product-configuration-model)
 
-[Aggiungere un calcolo a un modello di configurazione prodotto (guida attività)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Aggiungere un calcolo a un modello di configurazione prodotto (guida attività)](/dynamics365/unified-operations/supply-chain/pim/tasks/add-calculation-product-configuration-model)
 
 
 

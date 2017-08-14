@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,12 +35,18 @@ In questo argomento viene descritto come creare modelli di Microsoft Excel che p
 In questo argomento viene illustrato come creare modelli di Excel che verranno utilizzati con i piani di budget con il set di dati dimostrativi standard e l'accesso utente Admin. Per ulteriori informazioni sulla pianificazione del budget, vedere [Panoramica sulla pianificazione del budget.](budget-planning-overview-configuration.md) È inoltre possibile seguire l'esercitazione [Pianificazione del budget 101](budget-plan.md) per apprendere i principi di base sulla configurazione e l'uso del modulo.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Generare un foglio di lavoro usando il layout dei documenti del piano di budget
-I documenti del piano di budget possono essere visualizzati e modificati utilizzando uno o più layout. Ogni layout può avere un modello di documento di piano di budget associato per visualizzare e modificare i dati del piano di budget in un foglio di lavoro di Excel. In questo argomento, un modello di documento del piano di budget verrà generato utilizzando una configurazione di layout esistente. Aprire l'**elenco dei piani di budget** (**Impostazione budget**&gt; **Piani di budget**). Fare clic su **Nuovo** per creare un nuovo documento di piano di budget. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+I documenti del piano di budget possono essere visualizzati e modificati utilizzando uno o più layout. Ogni layout può avere un modello di documento di piano di budget associato per visualizzare e modificare i dati del piano di budget in un foglio di lavoro di Excel. In questo argomento, un modello di documento del piano di budget verrà generato utilizzando una configurazione di layout esistente. 
+
+Aprire l'**elenco dei piani di budget** (**Impostazione budget** &gt; **Piani di budget**). Fare clic su **Nuovo** per creare un nuovo documento di piano di budget. 
+
+[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 Usare l'opzione **Aggiungi** riga per aggiungere righe. Fare clic su **Layout** visualizzare la configurazione di layout del documento di piano di budget. 
+
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-È possibile rivedere la configurazione del layout e modificarla in base alle necessità. Passare a **Modello** &gt; **Genera** per creare un file di Excel per il layout. Dopo che il modello viene generato, passare a **Modello** &gt; **Visualizza**  per aprire e rivedere il modello di documento di piano di budget. È possibile salvare il file di Excel nell'unità locale. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+È possibile rivedere la configurazione del layout e modificarla in base alle necessità. Passare a **Modello** &gt; **Genera** per creare un file di Excel per il layout. Dopo che il modello viene generato, passare a **Modello** &gt; **Visualizza**  per aprire e rivedere il modello di documento di piano di budget. È possibile salvare il file di Excel nell'unità locale. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Il layout di documento del piano di budget non può essere modificato dopo che viene associato a un modello di Excel. Per modificare il layout, eliminare il file del modello di Excel associato e rigenerarlo. Questa operazione è necessaria per mantenere i campi nel layout e nel foglio di lavoro sincronizzati. 

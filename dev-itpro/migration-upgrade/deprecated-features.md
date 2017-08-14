@@ -3,25 +3,25 @@ title: "Funzionalità deprecate"
 description: "In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 07/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, Platform, UnifiedOperations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 6
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
-ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
 ms.contentlocale: it-it
-ms.lasthandoff: 06/16/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -29,9 +29,10 @@ ms.lasthandoff: 06/16/2017
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione.
+In questo argomento vengono descritte le funzionalità che sono state o che verranno rimosse da Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
-## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Funzionalità che sono deprecate nell'Aggiornamento di luglio 2017 di Dynamics 365 for Finance and Operations, Enterprise Edition
+## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>Funzionalità che sono state deprecate per tutti i tipi di distribuzione dell'aggiornamento del mese di luglio 2017 con l'aggiornamento 8 della piattaforma
+Questo elenco include le funzionalità che sono state deprecate sia per le distribuzioni locali che cloud.
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portale dei dispositivi mobili del magazzino
 
@@ -40,7 +41,7 @@ Il Portale dei dispositivi mobili del magazzino è un componente autonomo proget
 |                                  |                                                 |
 |----------------------------------|-------------------------------------------------|
 | **Motivo del deprecamento**       | Funzionalità duplicata.                        |
-| **Sostituita da un'altra funzionalità?** | Sì. Questa funzionalità è stata sostituita da Finance and Operations - Magazzino. Per ulteriori informazioni sull'impostazione e sui prerequisiti, vedere [Installare e configurare Microsoft Dynamics 365 for Finance and Operations - Magazzino](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Sostituita da un'altra funzionalità?** | Sì. Questa funzionalità è stata sostituita da Finance and Operations - Magazzino. Per ulteriori informazioni sull'impostazione e sui prerequisiti, vedere [Installare e configurare Microsoft Dynamics 365 for Finance and Operations - Magazzino](/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Moduli interessati**             | Gestione magazzino, Gestione trasporto |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Regola avanzata di abbinamento di riconciliazione estratti conto per la corrispondenza manuale
@@ -62,6 +63,28 @@ L'app tablet di Windows 8 ha fornito la funzionalità per la voce e l'approvazio
 | **Motivo del deprecamento**       | Finance and Operations è compatibile con i tablet. L'app tablet non è più richiesta. |
 | **Sostituita da un'altra funzionalità?** | N.                                                                                      |
 | **Moduli interessati**             | Gestione spese                                                                       |
+
+## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>Funzionalità che sono state deprecate per tutte le distribuzione locali dell'aggiornamento del mese di luglio 2017 con l'aggiornamento 8 della piattaforma
+
+### <a name="ssrs-report-viewer-control"></a>Controllo Visualizzatore di report SSRS
+
+Questa funzionalità viene utilizzata per interagire con i report in formato HTML nel Web client di Finance and Operations.
+
+|                                  |  |
+|----------------------------------|--|
+| **Motivo del deprecamento**       | SQL Server Reporting Services (SSRS) non supporta un controllo Visualizzatore di report compatibile con il Web client locale.      |
+| **Sostituita da un'altra funzionalità?** | Viene eseguito il rendering dei report come documenti PDF dal servizio locale. Utilizzare le estensioni per attivare i collegamenti drill-through nei report dell'applicazione. |
+| **Moduli interessati**             | Tutti    |
+
+### <a name="document-routing-agent"></a>Agente di distribuzione documenti 
+
+Il client Agente di distribuzione documenti è utilizzato come gateway del servizio per la connessione dal cloud alle stampanti di rete autenticate nel dominio.
+
+|                                  |  |
+|----------------------------------|--|
+| **Motivo del deprecamento**       | Le distribuzioni locali sono ospitate su server autenticati del dominio. Ciò consente l'accesso diretto e sicuro alle stampanti di rete. |
+| **Sostituita da un'altra funzionalità?** | Questo componente non è necessario per le distribuzioni locali.|
+| **Moduli interessati**             | Nessuna priorità               |
 
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Le funzionalità che sono state deprecate in Dynamics 365 per le operazioni 1611 con l'aggiornamento piattaforma 3
@@ -488,11 +511,20 @@ Questo strumento è stato utilizzato per integrare i dati di chiave da Microsoft
 
 Le partizioni di dati forniscono una separazione logica di dati nel database di Microsoft Dynamics AX.
 
-|                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   |   |
+|---|---|
 | Motivo del deprecamento       | Le partizioni di dati sono state introdotte in Microsoft Dynamics AX 2012 R2 per abilitare l'isolamento dei dati. In uno scenario comune, una società ha affiliate e i dati di una filiale non devono essere visibili in un'altra filiale, anche se entrambe le filiali sono gestite dallo stesso reparto IT. Tuttavia, un sovraccarico di gestione e script aggiuntivi nel programma erano necessari per creare nuove partizioni e popolarle con i dati e per eseguire il backup dei dati della partizione. Nel cloud, dove si ha accesso ai servizi di database di piattaforma distribuita come servizio (PaaS) (Database SQL di Microsoft Azure), è molto più efficiente utilizzare un database come contenitore di isolamento rispetto all'isolamento nel programma. Indipendentemente dal fatto che il partizionamento dei dati sia necessario per le filiali, per più tenant o semplicemente per esigenze di scalabilità, crediamo che gli scenari possono essere gestiti meglio tramite più database o più istanze di Dynamics AX. |
-| Sostituita da un'altra funzionalità? | Verranno sostituite le partizioni di dati tramite il supporto per più database o istanze di Dynamics AX in una versione futura.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Moduli interessati             | Tutti                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Sostituita da un'altra funzionalità? | Verranno sostituite le partizioni di dati tramite il supporto per più database o istanze di Dynamics AX in una versione futura.    |
+| Moduli interessati             | Tutti  |
+
+### <a name="database-and-file-share-storage-for-attachments"></a>Archiviazione nel database e nella condivisione file per gli allegati
+Microsoft Dynamics AX 2012 ha consentito l'archiviazione degli allegati nel database e nelle condivisioni file. Entrambe tali opzioni non sono più supportate.
+
+|                              |                                        |
+|------------------------------|----------------------------------------|
+| Motivo del deprecamento       | L'archiviazione nella condivisione dei file non è più supportata in quanto gli ambienti ospitati nel cloud non possono comunicare con le condivisioni file locali. L'archiviazione del database è stata deprecata a favore dell'archivio BLOB di Azure. L'archivio BLOB di Azure equivale all'archiviazione nel database, poiché i documenti sono accessibili solo tramite i moduli del client Dynamics 365 for Finance and Operations. In questo modo si ha il vantaggio aggiuntivo di fornire archiviazione senza influire negativamente sulle prestazioni del database. L'archivio BLOB è il meccanismo di archiviazione predefinito per la gestione di documenti e funziona immediatamente. |
+| Sostituita da un'altra funzionalità? | L'archiviazione del database è stata deprecata a favore dell'archivio BLOB di Azure.       |
+| Moduli interessati             | Tutti                   |
 
 ### <a name="delimitation"></a>Delimitazione
 
@@ -525,7 +557,7 @@ In Dynamics AX 2012 R3, Retail Modern POS poteva connettersi direttamente al dat
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | La funzionalità generica ora viene utilizzata anziché la funzionalità localizzata.                                                                                                                                                                 |
-| Sostituita da un'altra funzionalità? | Sì, questa funzionalità viene sostituita con la funzionalità avanzata di riconciliazione estratti conto. Inoltre, l'implementazione dell'importazione degli estratti conto camt.053 ISO20022 è pianificata per il giornale di registrazione generale nel prossimo aggiornamento di Dynamics AX. |
+| Sostituita da un'altra funzionalità? | Sì, questa funzionalità viene sostituita con la funzionalità avanzata di riconciliazione estratti conto. |
 | Moduli interessati             | Tutti                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (XBRL per la Germania)
@@ -577,7 +609,7 @@ La creazione della notifica anticipata non può essere effettuata operazione uti
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | Il formato non è più applicabile in Germania, poiché è stato sostituito dalla funzionalità SEPA.                                                                                                                                                                 |
-| Sostituita da un'altra funzionalità? | Sì, questa funzionalità è stata sostituita dall'esportazione di pagamento SEPA e dalla funzionalità avanzata di riconciliazione estratti conto per importare gli estratti conto. Inoltre, l'implementazione dell'importazione degli estratti conto camt.053 ISO20022 è pianificata per il giornale di registrazione generale nel prossimo aggiornamento di Dynamics AX. |
+| Sostituita da un'altra funzionalità? | Sì, questa funzionalità è stata sostituita dall'esportazione di pagamento SEPA e dalla funzionalità avanzata di riconciliazione estratti conto per importare gli estratti conto. |
 | Moduli interessati             | Tutti                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Formato di pagamento tedesco di DTAZV
@@ -593,7 +625,7 @@ La creazione della notifica anticipata non può essere effettuata operazione uti
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo del deprecamento       | La funzionalità generica ora viene utilizzata anziché la funzionalità localizzata.                                                                                                                                                                 |
-| Sostituita da un'altra funzionalità? | Sì, questa funzionalità viene sostituita con la funzionalità avanzata di riconciliazione estratti conto. Inoltre, l'implementazione dell'importazione degli estratti conto camt.053 ISO20022 è pianificata per il giornale di registrazione generale nel prossimo aggiornamento di Dynamics AX. |
+| Sostituita da un'altra funzionalità? | Sì, questa funzionalità viene sostituita con la funzionalità avanzata di riconciliazione estratti conto. |
 | Moduli interessati             | Tutti                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>Elenco vendite XML tedesco

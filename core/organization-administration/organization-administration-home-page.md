@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 889a9ce79d4599a60a4503d7876276a1452a5465
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 84243a91d8b76873cd33651bbdff900b14d9c76e
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,8 +36,8 @@ Sono indicate le risorse che consentono di utilizzare Microsoft Dynamics 365 for
 ----------------
 
 -   [Panoramica delle sequenze numeriche](number-sequence-overview.md)
--   [Impostazione guidata sequenze numeriche](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (guida attività)
--   [Impostare sequenze numeriche singole](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (guida attività)
+-   [Impostazione guidata sequenze numeriche](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (guida attività)
+-   [Impostare sequenze numeriche singole](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (guida attività)
 
 ## <a name="address-books"></a>Rubriche
 -   [Rubriche](qa-address-books.md)
@@ -67,17 +67,17 @@ Sono indicate le risorse che consentono di utilizzare Microsoft Dynamics 365 for
 
 ## <a name="electronic-signatures"></a>Firme elettroniche
 -   [Panoramica delle firme elettroniche](electronic-signature-overview.md)
--   [Impostare firme elettroniche](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (guida attività)
+-   [Impostare firme elettroniche](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (guida attività)
 
 ## <a name="organizations"></a>Organizzazioni
 -   [Organizzazioni e gerarchie organizzative](organizations-organizational-hierarchies.md)
 -   [Pianificazione della gerarchia organizzativa](plan-organizational-hierarchy.md)
--   [Creare un'unità operativa](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (guida attività)
--   [Creare una gerarchia organizzativa](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (guida attività)
--   [Creare una persona giuridica](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (guida attività)
+-   [Creare un'unità operativa](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (guida attività)
+-   [Creare una gerarchia organizzativa](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (guida attività)
+-   [Creare una persona giuridica](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (guida attività)
 
 ## <a name="general-administration"></a>Amministrazione generale
--   [Modificare il banner o il logo](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (guida attività)
+-   [Modificare il banner o il logo](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (guida attività)
 -   [Informazioni sui campi data/ora e sui fusi orari](date-time-zones.md)
 -   [Modelli record](record-templates.md)
 

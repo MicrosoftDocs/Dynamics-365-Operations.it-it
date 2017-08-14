@@ -10,25 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2017-07-01
+ms.search.validFrom: 2017-07-01T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 911a51e2498800e7ee7b1562b66c56967eef0505
-ms.openlocfilehash: e6213d2e01445b78c6d8f98fc6a55f7c551231b5
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
 ms.contentlocale: it-it
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Immettere i saldi iniziali delle retribuzioni
 
-[!include[banner](../../includes/banner.md)]]
+[!include[banner](../../includes/banner.md)]
 
 Nell'argomento vengono descritti i passaggi necessari per immettere i saldi iniziali per codici reddito, detrazioni, benefit e imposte. Queste informazioni sono utili ai partner che trasferiscono dati per una nuova implementazione di retribuzione da un altro sistema. Per prepararsi a immettere i saldi iniziali delle retribuzioni, vengono controllate le seguenti informazioni:
 
@@ -47,9 +46,6 @@ Nell'argomento vengono descritti i passaggi necessari per immettere i saldi iniz
 Dal momento che si prevede di immettere i saldi iniziali, valutare il livello di dettaglio dei dati. La maggior parte delle aziende immette un singolo importo consolidato da inizio anno. Tuttavia, se sono necessarie informazioni più dettagliate, i saldi possono essere immessi in incrementi trimestrali. La definizione del livello di dettaglio necessario determina il numero dei rendiconti finanziari di retribuzione da creare per ciascun lavoratore. Per un singolo importo da inizio anno, è necessario un solo rendiconto manuale per ciascun dipendente. Per fare ciò, utilizzare gli importi da inizio anno a partire dal rendiconto di pagamento finale del sistema precedente come importo immesso nel nuovo sistema di gestione delle retribuzioni.
 
 Nel seguente esempio viene illustrato come è possibile immettere i saldi iniziali delle retribuzioni dei dipendenti, inclusi codici reddito, benefit/detrazioni e imposte. In un esempio pratico, ci sarebbe una voce per ogni codice reddito, benefit/detrazione, contributo di benefit, imposta dipendente e imposta datore di lavoro e l'importo immesso è l'importo da inizio anno. Utilizzo tale elenco di codici e importi, effettuare le seguenti operazioni per creare un rendiconto di pagamento e una busta paga manuali la contabilità disattivata per portare i saldi iniziali per scopo di retribuzione.  La contabilità viene disattivata in quanto è preferibile non registrare questo saldo di pagamento iniziale nella contabilità generale. Questo è stato effettuato nel sistema legacy e verrà riportato nel nuovo sistema quando si registrano i saldi iniziali nella contabilità generale.
-
-> [!NOTE] 
-> Se si desidera riprodurre la stessa procedura riportata sopra, è possibile utilizzare i dati dimostrativi. I dati dimostrativi possono essere scaricati su PartnerSource
 
 ### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Istruzioni per impostare i codici i ricavi da utilizzare nei saldi iniziali delle retribuzioni
 Quando si immettono i saldi iniziali delle retribuzioni, verificare che i codici reddito che verranno utilizzati siano configurati con l'opzione "Consenti modifica dei coefficienti buste paga" abilitata. In questo modo sarà possibile digitare manualmente l'importo dal sistema legacy. 
@@ -101,7 +97,7 @@ Riga 3: scheda **Riga buste paga**
 | Manuale          | (contrassegnato)   |
 
 > [!NOTE]
-> L'impostazione della casella di controllo per il contrassegno manuale nella scheda **Dettagli riga** per ogni riga di rendiconto dei ricavi è importante per poter immettere i saldi iniziali di retribuzione per ciascun lavoratore.
+> L'impostazione del dispositivo di scorrimento **Manuale** su **Sì** nella scheda **Dettagli riga** per ogni riga della busta paga è fondamentale per avere l'immissione dei saldi iniziali delle retribuzioni per ogni lavoratore.
 
 3. Nel riquadro **Azione**, fare clic su **Rilascia busta paga** USA-FED-ER-FICA.
 
@@ -111,15 +107,15 @@ Riga 3: scheda **Riga buste paga**
 |--------------------|-----------|
 | Data pagamento       | 6/30/2017 |
 | Tipo di ciclo di pagamenti   | Manuale    |
-| Disabilita contabilità | (contrassegnato)  |
+| Disabilita contabilità |   Sì     |
 
 > [!NOTE] 
 > Questa opzione è disponibile solo quando il tipo di esecuzione di pagamento è manuale e se l'utente desidera disattivare la contabilità sull'esecuzione di retribuzione.
 
 Fare clic su **OK** e chiudere il **Registro informazioni**.
 
-#### <a name="why-disable-accounting-checkbox-needs-to-be-turned-on-when-generating-pay-statements"></a>Perché la casella di controllo Disabilita contabilità deve essere attivata quando si generano i rendiconti di pagamento?
-In questo modo si evita che le righe del rendiconto di pagamento vengano distribuite e registrate nella contabilità generale. Non è consigliabile registrare questo rendiconto di pagamento del saldo iniziale in quanto i relativi valori sono già nella contabilità generale del sistema legacy. Il caricamento di questo saldo viene utilizzato solo per i report e a scopo di limitazione.
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>Perché il dispositivo di scorrimento Disabilita contabilità deve essere impostato su Sì quando si generano i rendiconti di pagamento?
+Quando si imposta il dispositivo di scorrimento su **Sì**, le righe del rendiconto di pagamento non vengono distribuite alla contabilità generale. Nelle versioni precedenti gli importi di contabilità generale vengono aggiornati quando vengono immessi i saldi dei conti dal sistema legacy. L'immissione dei saldi iniziali per le retribuzioni consente di generare report contenenti informazioni di anni precedenti, nonché di identificare i limiti ai fini fiscali e dei benefit.   
 
 ### <a name="c-create-pay-statements-for-employees"></a>C. Creare rendiconti di pagamento per i dipendenti
 Dopo aver generato i rendiconti di pagamento con saldi iniziali, è necessario verificare che i rendiconti di pagamento riflettano con precisione i dati relativi alle retribuzioni. È inoltre necessario aggiornare manualmente le informazioni su benefit e imposte in modo che corrispondano ai valori nel sistema precedente di gestione delle retribuzioni. Dopo aver verificato che gli importi dal sistema precedente delle retribuzioni corrispondano agli importi nei rendiconti correnti retributivo, completare i rendiconti di retribuzione.
@@ -140,17 +136,7 @@ Dopo aver generato i rendiconti di pagamento con saldi iniziali, è necessario v
 | Spese di discreazione di reparto | Partecipazione | 2500.00          |
 | Visione | Sottospecie                  | 500,00           |
 
-5. Nella **Detrazioni per benefit**, immettere i seguenti dati: 
-
-| Campo                           | Valore            |
-|---------------------------------|------------------|
-| Benefit                         | Importo detrazione |
-| 401.000 | Partecipazione              | 3000.00          |
-| Rischi professionali | Sottospecie                  | 495,00           |
-| Spese di discreazione di reparto | Partecipazione | 2500.00          |
-| Visione | Sottospecie                  | 500,00           |
-
-6. Nella scheda **Contributi per benefit** immettere i seguenti dati:
+5. Nella scheda **Contributi per benefit** immettere i seguenti dati:
 
 | Campo              | Valore               |
 |--------------------|---------------------|
@@ -159,7 +145,7 @@ Dopo aver generato i rendiconti di pagamento con saldi iniziali, è necessario v
 | Rischi professionali | Sottospecie     | 495,00              |
 | Visione | Sottospecie     | 500,00              |
 
-7. Nella scheda **Detrazioni imposta**, immettere i seguenti dati:
+6. Nella scheda **Detrazioni imposta**, immettere i seguenti dati:
 
 | Campo           | Valore            |
 |-----------------|------------------|
@@ -167,9 +153,9 @@ Dopo aver generato i rendiconti di pagamento con saldi iniziali, è necessario v
 | USA-FED-ER-FICA | 1600.00          |
 | USA-FED-ER-MEDI | 825.75           |
 
-8. Nella scheda **Contribuzioni imponibili**, immettere i seguenti dati:
+7. Nella scheda **Contribuzioni imponibili**, immettere i seguenti dati:
 
-9. Fare clic su **Calcola**.
+8. Fare clic su **Calcola**.
 > [!IMPORTANT] 
 > Convalidare i totali del rendiconto di pagamento che corrispondono all'importo da inizio anno del sistema legacy per il lavoratore. Può essere necessario attendere a finalizzare il passaggio successivo per eseguire una convalida globale di tutti i rendiconti di pagamento aggregati. Una volta convalidati, finalizzare tutti i rendiconti di pagamento.
 
@@ -182,5 +168,5 @@ Lo stesso processo può essere eseguito negli incrementi trimestrali se necessar
 
 2. Fare clic su **Sì** quando il messaggio "Quando si storna il rendiconto di pagamento, viene creato un rendiconto di pagamento di storno per compensare il rendiconto di pagamento. Il rendiconto di pagamento non può inoltre essere modificato. Stornare il rendiconto di pagamento?" viene visualizzato. 
 
-Dopo aver stornato il rendiconto di pagamento, è possibile generare un nuovo rendiconto di pagamento per il lavoratore dalle buste paga create in precedenza nella procedura “Generare buste paga e rendiconti di pagamento con saldi iniziali” descritta in precedenza in questo argomento. Assicurarsi di ripristinare tutte le righe non corrette nelle buste paga prima di generare il nuovo rendiconto di pagamento, quindi ripetere la procedura "Aggiornare i rendiconti di pagamento con saldi iniziali per benefit e imposte" in questo argomento.
+Dopo aver stornato il rendiconto di pagamento, è possibile generarne uno nuovo per il lavoratore dalla busta paga creata in precedenza. Assicurarsi di correggere tutte le righe errate nella busta paga prima di generare il nuovo rendiconto di pagamento, quindi generare nuovi i rendiconti di pagamento con gli importi corretti. 
 

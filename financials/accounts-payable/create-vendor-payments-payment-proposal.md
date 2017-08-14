@@ -3,26 +3,26 @@ title: Creare pagamenti fornitore utilizzando una proposta di pagamento
 description: "Questo argomento fornisce una panoramica delle opzioni di proposta di pagamento e include alcuni esempi che illustrano come funzionano le proposte di pagamento. Le proposte di pagamento sono spesso utilizzate per creare pagamenti fornitore, poiché la query può essere utilizzata per selezionare rapidamente le fatture fornitore per il pagamento, in base a criteri quali la data di scadenza e lo sconto di cassa."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,8 +39,8 @@ La query della proposta di pagamento contiene le varie schede, ciascuna delle qu
 
 ## <a name="parameters"></a>Parametri
 -   **Selezionare le fatture in base a**: le fatture incluse nell'intervallo di date specificato dai campi **Dal** e **Al** possono essere selezionate in base alla data di scadenza, alla data dello sconto di cassa o entrambe. Se si utilizza la data dello sconto di cassa, il sistema cercherà innanzitutto fatture con data dello sconto di cassa inclusa nell'intervallo di date specificato dai Campi Dal e Al. Il sistema quindi determina se la fattura è ammissibile per lo sconto di cassa utilizzando la data della sessione per assicurarsi che la data dello sconto di cassa non sia già trascorsa.
--   **Dal** e**Al**: le fatture con data dello sconto di cassa o di scadenza comprese in questo intervallo sono selezionate per il pagamento.
--   **Data di pagamento**: se una data viene definita, tutti i pagamenti vengono creati in questa data. Il campo **Data di pagamento minima** viene ignorato.
+-   **Dal** e **Al**: le fatture con data dello sconto di cassa o di scadenza comprese in questo intervallo sono selezionate per il pagamento.
+-   **Data di pagamento** - Questa opzione viene utilizzata solo se il campo **Periodo** del metodo di pagamento è impostato su **Totale**. Se viene definita una data, tutti i pagamenti vengono creati in questa data. Il campo **Data di pagamento minima** viene ignorato.
 -   **Data di pagamento minima**: consente di immettere la data di pagamento minima. Ad esempio, i campi **Dal** e **Al** specificano un intervallo dal 1° settembre al 10 settembre e la data di pagamento minima corrisponde al 5 settembre. In questo caso, tutte le fatture con data di scadenza dal 1° settembre al 5 settembre hanno una data di pagamento del 5 settembre. Tuttavia, tutte le fatture con data di scadenza dal 5 settembre al 10 settembre hanno una data di pagamento che corrisponde alla data di scadenza di ciascuna fattura.
 -   **Limite importo**: consente di immettere l'importo totale massimo per tutti i pagamenti.
 -   **Crea pagamenti senza anteprima fattura**: se questa opzione è impostata su **Sì**, i pagamenti verranno creati immediatamente nella pagina **Pagamenti fornitore**. La pagina **Proposta di pagamento** verrà ignorata. Di conseguenza, i pagamenti verranno creati più rapidamente. I pagamenti possono comunque essere modificati nella pagina. **Pagamenti fornitore**. In alternativa, è possibile tornare alla pagina **Proposta di pagamento** utilizzando il pulsante **Modifica fatture per il pagamento selezionato**.

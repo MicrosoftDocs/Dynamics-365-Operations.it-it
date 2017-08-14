@@ -1,28 +1,28 @@
 ---
 title: Sintassi di filtro e query avanzata
-description: Questo articolo descrive le opzioni di filtro e query disponibili quando si utilizza l&quot;operatore &quot;corrisponde a&quot; nella finestra di dialogo Filtro/ordinamento avanzato.
+description: Questo articolo descrive le opzioni di filtro e query disponibili quando si utilizza l'operatore "corrisponde a" nella finestra di dialogo Filtro/ordinamento avanzato.
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysQueryForm
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48b2049c3f5025d7e8d3fc7e944aa9360786d18a
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ Questo articolo descrive le opzioni di filtro e query disponibili quando si util
 <td><em>da valore</em>..<em>a valore</em> (due punti consecutivi)</td>
 <td>Compreso tra i due valori separati da due punti consecutivi.</td>
 <td>Digitare il valore iniziale, quindi due punti consecutivi e infine il valore finale.</td>
-<td>Digitando <strong>1..10</strong> si troveranno tutti i valori da 1 a 10. In un campo stringa, tuttavia, digitando <strong>A..C</strong> si troveranno tutti i valori che iniziano con &quot;A&quot; e &quot;B&quot; e i valori che corrispondono esattamente a &quot;C&quot; (ad esempio, questa query non troverà &quot;Ca&quot;). Per trovare tutti i valori da &quot;A*&quot; a &quot;C*&quot;, digitare <strong>A..D</strong>.</td>
+<td>Digitando <strong>1..10</strong> si troveranno tutti i valori da 1 a 10. In un campo stringa, tuttavia, digitando <strong>A..C</strong> si troveranno tutti i valori che iniziano con &quot;A&quot; e &quot;B&quot; e i valori che corrispondono esattamente a &quot;C&quot;. Ad esempio, questa query non troverà &quot;Ca&quot;. Per trovare tutti i valori da &quot;A*&quot; a &quot;C*&quot;, digitare <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>valore</em> (due punti consecutivi)</td>

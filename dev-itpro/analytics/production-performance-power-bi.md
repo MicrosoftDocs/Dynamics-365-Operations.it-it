@@ -9,16 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: aevengir
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 915ff93edff0f68f52a536ad169c8f0f917ac9b2
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: d3f5d48683c13d1affa88dd44727639cd6158c73
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -142,8 +143,8 @@ La tabella seguente mostra le dimensioni chiave utilizzate come filtri per divid
 
 Di seguito sono riportati alcuni collegamenti utili correlati alle entità e alla creazione di contenuto per Power BI:
 
-- [Entità di dati](https://ax.help.dynamics.com/en/wiki/data-entities/)
+- [Entità di dati](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities.md)
 - [Creazione di pacchetti di contenuti per l'organizzazione](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 - [Modellazione di dati tramite Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Aggiunta di riquadri Power BI ad aree di lavoro](http://ax.help.dynamics.com/en/wiki/configuring-powerbi-integration/)
+- [Aggiunta di riquadri Power BI ad aree di lavoro](/dynamics365/unified-operations/dev-itpro/analytics/configure-power-bi-integration)
 

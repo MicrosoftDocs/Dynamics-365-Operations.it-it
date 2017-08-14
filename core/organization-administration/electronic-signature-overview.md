@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0cebd30a560ff033efab89c2055827b62cf31576
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,7 +39,7 @@ Questo articolo fornisce una panoramica delle firme elettroniche e descrive come
 Una firma elettronica consente di confermare l'identità di una persona che sta per avviare o approvare un processo di elaborazione. In alcuni settori una firma elettronica è considerata legalmente vincolante come una firma manuale. Le firme elettroniche rappresentano un requisito di legge per diversi settori regolamentati, tra cui quello farmaceutico, quello alimentare e quello aerospaziale e della difesa. Sono inoltre obbligatorie per la conformità alle normative incluse in 21 CFR Part 11 emanate dalla Food and Drug Administration (FDA) negli Stati Uniti. **Nota:** una firma elettronica in sé non equivale a una firma digitale. Una firma elettronica viene utilizzata soltanto in sostituzione di una firma manuale, mentre una firma digitale soddisfa ulteriori requisiti di sicurezza, ad esempio consente di rilevare se i dati sono stati manomessi da un altro utente o processo. Una firma digitale può inoltre essere verificata e tale verifica non può essere rifiutata dal proprietario del certificato utilizzato per la firma dei dati. Come descritto più avanti, nelle firme elettroniche di Microsoft Dynamics 365 for Finance and Operations è incorporata la funzionalità di firma digitale.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Firme elettroniche in Dynamics 365 for Finance and Operations
-In Finance and Operations è possibile utilizzare le firme elettroniche per i processi aziendali critici. In alcuni processi sono disponibili funzionalità di firma elettronica incorporate. È inoltre possibile creare requisiti di firma personalizzati per qualsiasi tabella o campo di database. Nelle firme elettroniche è incorporata la funzionalità di firma digitale. Ogni utente che firma documenti deve ottenere un certificato di crittografia valido. Al momento della firma di un documento, la chiave privata associata al certificato viene convalidata. In Finance and Operations le informazioni relative alle firme elettroniche vengono memorizzate in un registro in modo da costituire un audit trail. Per impostare le firme elettroniche, vedere [Impostare le firme elettroniche (guida attività)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+In Finance and Operations è possibile utilizzare le firme elettroniche per i processi aziendali critici. In alcuni processi sono disponibili funzionalità di firma elettronica incorporate. È inoltre possibile creare requisiti di firma personalizzati per qualsiasi tabella o campo di database. Nelle firme elettroniche è incorporata la funzionalità di firma digitale. Ogni utente che firma documenti deve ottenere un certificato di crittografia valido. Al momento della firma di un documento, la chiave privata associata al certificato viene convalidata. In Finance and Operations le informazioni relative alle firme elettroniche vengono memorizzate in un registro in modo da costituire un audit trail. Per impostare le firme elettroniche, vedere [Impostare le firme elettroniche (guida attività)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Utenti che richiedono l'accesso alle firme elettroniche
 Tre tipi di utenti in genere richiedono l'accesso protetto alle firme elettroniche: amministratori delle firme elettroniche, firmatari e revisori delle firme elettroniche.

@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 017985645e0f77e7f269fce2932c0ec0f6eaaa1c
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -45,7 +45,7 @@ Un ciclo di lavorazione descrive l'ordine delle operazioni necessarie per la pro
 -   **Versione del ciclo di lavorazione** - una versione del ciclo di lavorazione definisce il ciclo di lavorazione specifico utilizzato per creare un prodotto o una variante prodotto. Le versioni dei cicli di lavorazione consentono ai cicli di lavorazione di essere riutilizzati nei prodotti o di essere modificati nel tempo. Inoltre consentono l'utilizzo dei diversi cicli di lavorazione per produrre lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato dipende da fattori quali l'ubicazione o la quantità che deve essere prodotta.
 
 ## <a name="routes"></a>Cicli di lavorazione
-Un ciclo di lavorazione descrive l'ordine delle operazioni utilizzate per la produzione di un prodotto o una variante prodotto. A ciascuna operazione viene assegnato un numero di operazione e un'operazione successiva. L'ordine delle operazioni forma una rete di cicli di lavorazione che può essere rappresentata da un grafico diretto con uno o più punti di origine e un unico punto finale. In Dynamics 365 for Finance and Operations, i cicli di lavorazione vengono distinti in base al tipo di struttura. I due tipi di cicli di lavorazione sono cicli di lavorazione semplici e reti di cicli di lavorazione. Nei parametri di controllo produzione, è possibile specificare se è possibile utilizzare solo i cicli di lavorazione semplici o reti più complesse di cicli di lavorazione.
+Un ciclo di lavorazione descrive l'ordine delle operazioni utilizzate per la produzione di un prodotto o una variante prodotto. A ciascuna operazione viene assegnato un numero di operazione e un'operazione successiva. L'ordine delle operazioni forma una rete di cicli di lavorazione che può essere rappresentata da un grafico diretto con uno o più punti di origine e un unico punto finale. In Finance and Operations i cicli di lavorazione vengono distinti in base al tipo di struttura. I due tipi di cicli di lavorazione sono cicli di lavorazione semplici e reti di cicli di lavorazione. Nei parametri di controllo produzione, è possibile specificare se è possibile utilizzare solo i cicli di lavorazione semplici o reti più complesse di cicli di lavorazione.
 
 ### <a name="simple-routes"></a>Cicli di lavorazione semplici
 
@@ -87,8 +87,8 @@ Ogni ciclo di lavorazione può essere approvato o non approvato separatamente. T
 
 Se è necessario tenere un registro per registrare chi approva ciascun ciclo di lavorazione è possibile richiedere firme elettroniche per l'approvazione di un ciclo di lavorazione. Gli utenti dovranno quindi confermare la propria identità utilizzando una [firma elettronica](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
-## <a name="operations"></a>Operazioni
-Un'operazione costituisce un passaggio del processo di produzione. In Dynamics 365 for Finance and Operations, ciascuna operazione ha un ID e una descrizione semplice. Nelle tabelle seguenti sono indicati gli esempi comuni delle operazioni di un'officina meccanica.
+## <a name="operations"></a>Operations
+Un'operazione costituisce un passaggio del processo di produzione. In Finance and Operations ciascuna operazione ha un ID e una descrizione semplice. Nelle tabelle seguenti sono indicati gli esempi comuni delle operazioni di un'officina meccanica.
 
 | Operazione  | descrizione        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Le relazioni operative offrono molta flessibilità quando si definiscono i cicli
 
 ### <a name="modifying-product-specific-routes"></a>Modifica di cicli di lavorazione specifici di prodotto
 
-Quando si apre la pagina **Ciclo di lavorazione** dalla pagina **Dettagli prodotto rilasciato**, vengono mostrate le versioni del ciclo di lavorazione associate al prodotto rilasciato selezionato. In questo contesto, per ciascuna operazione, Dynamics 365 for Finance and Operations visualizza le proprietà operative per la relazione operativa con migliore corrispondenza rispetto alla versione del ciclo di lavorazione. Si può notare che l'elenco delle operazioni include le proprietà **Codice articolo** e **Codice ciclo di lavorazione** della relazione operativa. Di conseguenza, è possibile determinare quale relazione operativa viene visualizzata.  
+Quando si apre la pagina **Ciclo di lavorazione** dalla pagina **Dettagli prodotto rilasciato**, vengono mostrate le versioni del ciclo di lavorazione associate al prodotto rilasciato selezionato. In questo contesto, per ciascuna operazione, Finance and Operations visualizza le proprietà operative per la relazione operativa con migliore corrispondenza rispetto alla versione del ciclo di lavorazione. Si può notare che l'elenco delle operazioni include le proprietà **Codice articolo** e **Codice ciclo di lavorazione** della relazione operativa. Di conseguenza, è possibile determinare quale relazione operativa viene visualizzata.  
 
 Nella pagina **Ciclo di lavorazione**, è possibile modificare le proprietà operative dell'operazione, ad esempio il tempo di esecuzione o le categorie di costi. Le modifiche verranno salvate nella relazione operativa specifica del ciclo di lavorazione e del prodotto rilasciato a cui viene fatto riferimento nella versione del ciclo di lavorazione corrente. Se la relazione operativa mostrata non è specifica del ciclo di lavorazione e del prodotto rilasciato, prima che le modifiche siano archiviate, viene creata una copia della relazione operativa. Questa copia *è* specifica del ciclo di lavorazione e del prodotto rilasciato. Di conseguenza, le modifiche non influiranno su altri cicli di lavorazione o prodotti rilasciati. Per verificare quale relazione operativa viene modificata nella pagina **Ciclo di lavorazione**, esaminare i campi **Codice articolo** e **Codice ciclo di lavorazione**.  
 
@@ -150,9 +150,9 @@ Se le operazioni standard vengono utilizzate in azienda e se i parametri operati
 
 ### <a name="applying-operation-relations"></a>Applicare le relazioni operative
 
-In alcuni casi, Dynamics 365 for Finance and Operations deve trovare le proprietà operative per un'operazione. Ad esempio, quando viene creato un ordine fornitore, le proprietà operative di ciascuna operazione devono essere copiate dalle relazioni operative al ciclo di produzione. In queste situazioni, Finance and Operations cerca le relazioni operative rilevanti dalla combinazione più specifica alla combinazione meno specifica.  
+In alcuni casi, Finance and Operations deve trovare le proprietà operative per un'operazione. Ad esempio, quando viene creato un ordine fornitore, le proprietà operative di ciascuna operazione devono essere copiate dalle relazioni operative al ciclo di produzione. In queste situazioni, Finance and Operations cerca le relazioni operative rilevanti dalla combinazione più specifica alla combinazione meno specifica.  
 
-Quando Dynamics 365 for Finance and Operations cerca la relazione operativa più rilevante per un prodotto rilasciato, una relazione operativa che corrisponde all'ID articolo del prodotto rilasciato ha priorità rispetto a una relazione operativa che corrisponde all'ID del gruppo di articoli. A sua volta, una relazione operativa che corrisponde all'ID del gruppo di articoli ha priorità rispetto alla relazione operativa predefinita. L'ordine di ricerca è il seguente:
+Quando Finance and Operations cerca la relazione operativa più rilevante per un prodotto rilasciato, una relazione operativa che corrisponde all'ID articolo del prodotto rilasciato ha priorità rispetto a una relazione operativa che corrisponde all'ID del gruppo di articoli. A sua volta, una relazione operativa che corrisponde all'ID del gruppo di articoli ha priorità rispetto alla relazione operativa predefinita. L'ordine di ricerca è il seguente:
 
 1.  **Codice articolo**=**Tabella** e **Relazione articolo**=&lt;ID articolo&gt;
 2.  **Codice articolo**=**Gruppo** e **Relazione articolo**=&lt;ID gruppo di articoli&gt;
@@ -199,7 +199,7 @@ In base ai requisiti aziendali, è possibile ridurre le risorse necessarie per g
 
 ### <a name="making-routes-independent-of-resources"></a>Impostazione di cicli di lavorazione indipendenti dalle risorse
 
-In molti sistemi, la risorsa operativa o il gruppo di risorse che devono eseguire un'operazione devono essere specificati nel ciclo di lavorazione. Tuttavia, in Dynamics 365 for Finance and Operations, è possibile definire un insieme di requisiti che una risorsa operativa deve soddisfare per essere applicabile per l'operazione. Di conseguenza, il gruppo di risorse o la risorsa operativa specifici che devono essere utilizzati non devono essere determinati fino a che l'operazione viene effettivamente programmata. Questa funzionalità è particolarmente utile se si dispone di numerosi lavoratori o macchine che possono eseguire la stessa operazione.  
+In molti sistemi, la risorsa operativa o il gruppo di risorse che devono eseguire un'operazione devono essere specificati nel ciclo di lavorazione. Tuttavia, in Finance and Operations è possibile definire un insieme di requisiti che una risorsa operativa deve soddisfare per essere applicabile all'operazione. Di conseguenza, il gruppo di risorse o la risorsa operativa specifici che devono essere utilizzati non devono essere determinati fino a che l'operazione viene effettivamente programmata. Questa funzionalità è particolarmente utile se si dispone di numerosi lavoratori o macchine che possono eseguire la stessa operazione.  
 
 Ad esempio, si specifica che un'operazione richiede una risorsa operativa del tipo **Macchina** con capacità di **punzonatura** di 20 tonnellate. Il motore di programmazione risolverà quindi tali requisiti per una risorsa operativa o un gruppo di risorse specifico quando l'operazione verrà programmata. È possibile specificare solo tali requisiti anziché associare l'operazione a una macchina specifica e questo garantisce maggiore flessibilità. Inoltre, la gestione è più semplice quando le risorse vengono spostate o quando nuove risorse vengono aggiunte.  
 
