@@ -1,9 +1,9 @@
 ---
 title: Distribuzioni contabili e sugli inserimenti nel giornale di registrazione secondario per le fatture a testo libero
 description: "Le distribuzioni contabili vengono utilizzate per definire il modo in cui importo verrà conteggiato, ad esempio i ricavi, le tasse o le spese vengono conteggiate in una fattura a testo libero. Ogni importo che deve essere conteggiato quando la fattura a testo libero viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: b530b5c8b5e252efb253dcf5b4ad080e2f646e5f
 ms.contentlocale: it-it
 ms.lasthandoff: 05/25/2017
-
 
 ---
 
