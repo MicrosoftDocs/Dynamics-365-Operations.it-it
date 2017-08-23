@@ -3,7 +3,7 @@ title: "Configurare un'attività manuale in un flusso di lavoro"
 description: "In questo argomento viene descritto come configurare le proprietà per un'attività manuale."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Se un utente non completa l'attività manuale nel tempo prestabilito, l'attivit�
 
 1.  Nel riquadro sinistro fare clic su **Riassegnazione**.
 2.  Selezionare la casella di controllo **Utilizza percorso di riassegnazione** per creare un percorso di riassegnazione. L'attività verrà assegnata automaticamente agli utenti elencati nel percorso. La tabella indicata di seguito rappresenta un esempio di percorso di riassegnazione.
+
     | Sequenza | Percorso di riassegnazione      |
     |----------|----------------------|
     | 1        | Assegna a: Maria     |
@@ -318,7 +319,9 @@ Se un utente non completa l'attività manuale nel tempo prestabilito, l'attivit�
 8.  Ripetere i passaggi dal 3 al 7 per ciascun evento selezionato nel passaggio 2.
 
 ## <a name="set-a-time-limit"></a>Impostare un limite di tempo
-Se è necessario completare l'attività manuale in un periodo di tempo specifico, attenersi alla procedura indicata di seguito. **Nota:** le opzioni selezionate in questi passaggi prevalgono su quelle selezionate nelle aree **Assegnazione** e **Riassegnazione** della pagina.
+Se è necessario completare l'attività manuale in un periodo di tempo specifico, attenersi alla procedura indicata di seguito. 
+
+**Nota:** le opzioni selezionate in questi passaggi prevalgono su quelle selezionate nelle aree **Assegnazione** e **Riassegnazione** della pagina.
 
 1.  Nel riquadro sinistro, fare clic sull'icona **Impostazioni avanzate**.
 2.  Selezionare la casella di controllo **Imposta un limite di tempo per l'elemento del flusso di lavoro**.
