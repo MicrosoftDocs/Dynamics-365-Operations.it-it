@@ -1,9 +1,9 @@
 ---
 title: Pagamenti cliente per un importo parziale
 description: Talvolta i clienti effettuano un pagamento inferiore rispetto all'importo della fattura. Questo articolo descrive le varie opzioni per gestire questa situazione. Le opzioni disponibili dipendono dai requisiti aziendali e dalla configurazione.
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 795d13a07065a125a750970beaff85b59307f623
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: ebfa8aaed6f82e9c3142540d0850c59d49328d59
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -61,5 +60,5 @@ Si supponga, ad esempio, di aver applicato dei termini di pagamento in cui viene
 I clienti possono effettuare un pagamento parziale in cui l'importo rimanente non verrà pagato ma è superiore aall'importo di pagamento insufficiente specificato nella pagina **Parametri contabilità fornitori**. Se si desidera contrassegnare la fattura come completamente liquidata, è possibile utilizzare l'opzione **Liquidazione totale** nella pagina **Liquida transazioni**. È possibile attivare la funzionalità di liquidazione completa utilizzando una chiave di configurazione. Ad esempio, una fattura viene registrata per 1.000,00 e il cliente effettua un pagamento di 990,00. Si è concordato che il cliente non deve pagare i 10,00 rimanenti. Dopo aver selezionato la fattura per la liquidazione, è possibile anche contrassegnare **Liquidazione totale**. La fattura verrà considerata interamente liquidata. La differenza di 10,00 verrà registrata in un conto dello sconto di cassa come ulteriore importo di sconto di cassa.
 
 
-
+Per ulteriori informazioni, vedere [Depositare pagamenti clienti](tasks/deposit-customer-payments.md).
 

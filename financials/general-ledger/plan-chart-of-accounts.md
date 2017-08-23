@@ -1,9 +1,9 @@
 ---
 title: Pianificare il piano dei conti
 description: Questo articolo fornisce le informazioni che consentono di pianificare il piano dei conti per l'organizzazione.
-author: RobinARH
+author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4c57c4fe8cc66228062f7b64c88efe255657d016
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 424ea5ce12d51d384c86878b7d2199bcd52c40f8
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -45,17 +45,19 @@ Di seguito vengono indicati alcuni fattori da prendere in considerazione quando 
 -   Gli adempimenti richiesti dalla persona giuridica
 -   Il grado di specifica richiesto, sia per le organizzazioni esterne che per la propria
 
-Creare i piani dei conti nella pagina **Piano dei conti**. I conti principali possono essere creati dalla pagina **Piano dei conti** o **Conti principali**. Nei conti principali non è possibile utilizzare caratteri speciali come delimitatori del piano dei conti. Se si dispone di un carattere speciale uguale al delimitatore del piano dei conti, è possibile che il sistema diventi instabile o che sia necessario utilizzare sempre le ricerche o il riquadro a comparsa quando si immettono combinazioni di conto e dimensione. 
+Creare i piani dei conti nella pagina **Piano dei conti**. I conti principali possono essere creati dalla pagina **Piano dei conti** o **Conti principali**. Nei conti principali non è possibile utilizzare caratteri speciali come delimitatori del piano dei conti. Se si dispone di un carattere speciale uguale al delimitatore del piano dei conti, è possibile che il sistema diventi instabile o che sia necessario utilizzare sempre le ricerche o il riquadro a comparsa quando si immettono combinazioni di conto e dimensione. Per ulteriori informazioni, vedere [Creare un conto principale](tasks/create-account-structures.md).
+
 
 È consigliabile collegare i conti principali alle categorie dei conti principali, in modo da poter sfruttare i report finanziari predefiniti senza dover apportare eventuali modifiche. Di conseguenza, è possibile progettare e gestire i report in modo più rapido e facile. 
 
-Utilizzare la pagina **Configura strutture dei conti** per creare strutture dei conti. Le strutture dei conti consentono di definire combinazioni valide. Le combinazioni, insieme ai conti principali, formano un piano dei conti. 
+Utilizzare la pagina **Configura strutture dei conti** per creare strutture dei conti. Le strutture dei conti consentono di definire combinazioni valide. Le combinazioni, insieme ai conti principali, formano un piano dei conti.  Per ulteriori informazioni, vedere [Creare strutture dei conti](tasks/create-main-account.md).
 
 **Sostituzioni persona giuridica** 
 
 Non tutti i conti principali sono validi per tutte le persone giuridiche e alcuni potrebbero essere pertinenti solo per un periodo di tempo specifico. In questo scenario la sezione Sostituzioni persona giuridica può essere utilizzata per identificare quali sono le società per cui è necessario sospendere il conto principale, l'identità del proprietario e il periodo di tempo durante il quale la dimensione è attiva. Le sostituzioni a livello condiviso non possono essere più restrittive di quelle a livello della persona giuridica.
 
-Per ulteriori informazioni, vedere [Dimensioni finanzarie](financial-dimensions.md).
+Per ulteriori informazioni, vedere i seguenti argomenti: [Dimensioni finanziarie](financial-dimensions.md)
+[Creare e assegnare strutture di regole avanzate](tasks/create-assign-advanced-rule-structures.md)
 
 
 

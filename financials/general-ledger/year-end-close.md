@@ -3,7 +3,7 @@ title: Chiusura di fine anno
 description: "In questo argomento viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 50a6a23febc725eb05d30d5db4f97ca699607461
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 4aad946f51c0c9a0a4c0ea1249e6e876cc628e20
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,8 +47,8 @@ Nella pagina **Conto principale**:
 
 Nella pagina **Parametri di contabilità generale** in **Chiusura anno fiscale**:
 
--   L'opzione **Elimina transazioni di fine anno** specifica se la transazione di apertura generato dal sistema da una precedente chiusura di fine anno deve essere eliminata quando la chiusura di fine anno viene nuovamente eseguita. Se l'opzione è impostata su **Sì** ** **, la transazione di apertura precedente verrà eliminata e una nuova transazione di apertura viene creata in base ai saldi correnti. Se l'opzione è impostata su **No**, la precedente transazione di apertura rimane e una transazione di apertura aggiuntivo viene creata per spostare i saldi in avanti dalle transazioni di rettifica registrate dopo la precedente chiusura di fine anno.
--   L'opzione **Crea transazioni di chiusura durante il trasferimento** viene utilizzata per creare le transazioni di chiusura dell'anno fiscale in chiusura per riportare i saldi dei conti profitti e perdite a zero. Se l'opzione è impostata su **Sì** ** **, la transazione di apertura e di chiusura vengono entrambe create. Se l'opzione è impostata su  **No**, soltanto la transazione di apertura viene creata nell'anno fiscale successivo per trasferire i saldi. I saldi dei conti profitti e perdite rimangono a fine anno fiscale.
+-   L'opzione **Elimina transazioni di fine anno** specifica se la transazione di apertura generato dal sistema da una precedente chiusura di fine anno deve essere eliminata quando la chiusura di fine anno viene nuovamente eseguita. Se l'opzione è impostata su **Sì**, la transazione di apertura precedente verrà eliminata e una nuova transazione di apertura viene creata in base ai saldi correnti. Se l'opzione è impostata su **No**, la precedente transazione di apertura rimane e una transazione di apertura aggiuntivo viene creata per spostare i saldi in avanti dalle transazioni di rettifica registrate dopo la precedente chiusura di fine anno.
+-   L'opzione **Crea transazioni di chiusura durante il trasferimento** viene utilizzata per creare le transazioni di chiusura dell'anno fiscale in chiusura per riportare i saldi dei conti profitti e perdite a zero. Se l'opzione è impostata su **Sì**, la transazione di apertura e di chiusura vengono entrambe create. Se l'opzione è impostata su  **No**, soltanto la transazione di apertura viene creata nell'anno fiscale successivo per trasferire i saldi. I saldi dei conti profitti e perdite rimangono a fine anno fiscale.
 -   L'opzione **Imposta stato anno fiscale su chiuso in modo permanente** viene utilizzata per impostare un anno fiscale definitivamente allo stato chiuso. Utilizzare questa impostazione con attenzione, poiché tutti i periodi con stato definitivamente chiuso non possono essere riaperti, impedendo alle rettifiche di essere registrato nell'anno fiscale. È consigliabile impostare questa impostazione su **No**.
 -   L'opzione **È necessario compilare il numero del giustificativo** viene utilizzata per definire se un numero di giustificativo è obbligatorio quando si esegue il processo di chiusura di fine anno. È consigliabile richiedere un numero di giustificativo per identificare facilmente la transazione di apertura.
 
@@ -86,7 +86,7 @@ Se desidera stornare una chiusura di fine anno precedente per l'anno fiscale sel
 
 La chiusura di fine anno viene eseguita in modalità batch per impostazione predefinita. È consigliabile eseguire il processo in modalità batch, per consentire all'utente di tornare ad altre attività. Il campo **Data dell'ultima chiusura di fine anno** verrà aggiornato con la data della sessione al completamento del processo di chiusura di fine anno.
 
-Per ulteriori informazioni, vedere [Chiudere la contabilità generale a fine periodo](close-general-ledger-at-period-end.md).
+Per ulteriori informazioni, vedere [Chiudere la contabilità generale a fine periodo](close-general-ledger-at-period-end.md) e [Chiudere l'anno fiscale](tasks/close-fiscal-year.md).
 
 
 

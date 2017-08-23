@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -131,11 +131,11 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Immettere rapidamente le spese tramite l'area di lavoro mobile Gestione spese
 1. Sul dispositivo mobile aprire l'area di lavoro **Gestione spese**.
 2. Selezionare **Immissione rapida spese**.
-3. Selezionare la categoria di spesa per la spesa. Viene visualizzato un elenco delle categorie di spesa caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se la categoria non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Ricercare per categoria di spesa o selezionare la ricerca per tipo di spesa.
+3. Selezionare la categoria di spesa per la spesa. Viene visualizzato un elenco delle categorie di spesa caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la categoria non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Ricercare per categoria di spesa o selezionare la ricerca per tipo di spesa.
 4. Immettere la data della transazione per la spesa.
 5. Facoltativo: registrare l'esercente per la spesa.
 6. Consente di immettere l'importo della spesa.
-7. Consente di selezionare la valuta della spesa. Viene visualizzato un elenco dei codici valuta caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricate 400 valute, ma uno sviluppatore può cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se la valuta non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Ricerca in base alla valuta o ricerca per nome.
+7. Consente di selezionare la valuta della spesa. Viene visualizzato un elenco dei codici valuta caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricate 400 valute, ma uno sviluppatore può cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la valuta non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Ricerca in base alla valuta o ricerca per nome.
 8. Selezionare **Scatta foto** o **Scegli immagine**.
 9. Eseguire uno dei passaggi riportati di seguito.
 
@@ -166,11 +166,11 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 7. Selezionare una o più spese nell'elenco.
 8. Selezionare **Fine**.
 9. Per aggiungere una nuova spesa alla nota spese, selezionare **Nuova spesa**.
-10. Selezionare la categoria di spesa per la spesa. Viene visualizzato un elenco delle categorie di spesa caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se la categoria non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Ricercare per categoria di spesa o selezionare la ricerca per tipo di spesa.
+10. Selezionare la categoria di spesa per la spesa. Viene visualizzato un elenco delle categorie di spesa caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la categoria non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Ricercare per categoria di spesa o selezionare la ricerca per tipo di spesa.
 11. Facoltativo: registrare l'esercente per la spesa.
 12. Immettere la data della transazione per la spesa.
 13. Consente di immettere l'importo della spesa.
-14. Consente di selezionare la valuta della spesa. Viene visualizzato un elenco dei codici valuta caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricate 400 valute, ma uno sviluppatore può cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se la valuta non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Ricerca in base alla valuta o ricerca per nome.
+14. Consente di selezionare la valuta della spesa. Viene visualizzato un elenco dei codici valuta caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricate 400 valute, ma uno sviluppatore può cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la valuta non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Ricerca in base alla valuta o ricerca per nome.
 15. Selezionare **Fine**.
 16. Per aggiungere ulteriori dettagli alla spesa, selezionare **Aggiungi ulteriori dettagli**. I campi disponibili dipendono dalla configurazione della gestione spese della società.
 17. Se i criteri aziendali richiedono una ricevuta per la spesa, selezionare **Ricevute**, quindi procedere come segue:
@@ -216,12 +216,12 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
         - Se si seleziona l'opzione **Ospiti precedenti**, effettuare le seguenti operazioni:
 
-            1. Selezionare uno o più ospiti precedenti nell'elenco. Viene visualizzato un elenco degli ospiti precedenti aggiunti ai report preliminari di spesa caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se l'ospite precedente non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Eseguire la ricerca per nome o impostare la ricerca per organizzazione, paese o titolo.
+            1. Selezionare uno o più ospiti precedenti nell'elenco. Viene visualizzato un elenco degli ospiti precedenti aggiunti ai report preliminari di spesa caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se l'ospite precedente non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Eseguire la ricerca per nome o impostare la ricerca per organizzazione, paese o titolo.
             2. Selezionare **Fine**.
 
         - Se è stata selezionata l'opzione **Collaboratori**, effettuare le seguenti operazioni:
 
-            1. Selezionare uno o più collaboratori nell'elenco. Viene visualizzato un elenco dei collaboratori caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se il collaboratore non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Eseguire la ricerca per nome o impostare la ricerca per società o titolo.
+            1. Selezionare uno o più collaboratori nell'elenco. Viene visualizzato un elenco dei collaboratori caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se il collaboratore non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Eseguire la ricerca per nome o impostare la ricerca per società o titolo.
             2. Selezionare **Fine**.
 
     3. Selezionare il pulsante **Indietro** per tornare ai dettagli della spesa.
@@ -230,7 +230,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
     1. Selezionare la prima data da dettagliare.
     2. Selezionare **Aggiungi dettagli**.
-    3. Selezionare la sottocategoria per il dettaglio della spesa. Viene visualizzato un elenco delle sottocategorie di spesa caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se la sottocategoria non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Eseguire la ricerca per il nome della sottocategoria spese.
+    3. Selezionare la sottocategoria per il dettaglio della spesa. Viene visualizzato un elenco delle sottocategorie di spesa caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, gli sviluppatori devono visualizzare [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la sottocategoria non è in elenco, selezionare **Cerca** per eseguire una ricerca online. Eseguire la ricerca per il nome della sottocategoria spese.
     4. Inserire l'importo della transazione per il dettaglio.
     5. Modificare la data della transazione se necessario.
     6. Selezionare **Fine**.

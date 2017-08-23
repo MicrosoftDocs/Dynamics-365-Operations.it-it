@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto come reimpostare il data mart dei report finanziari dopo il ripristino di un database di Microsoft Dynamics 365 for Finance and Operations. 
+In questo argomento viene descritto come reimpostare il data mart dei report finanziari dopo il ripristino di un database di Microsoft Dynamics 365 for Finance and Operations.
 
-Esistono diversi scenari in cui potrebbe essere necessario ripristinare il database di Dynamics 365 for Finance and Operations da un backup o copiare il database da un altro ambiente. In questi casi, è inoltre necessario seguire i passaggi appropriati per assicurarsi che il data mart dei report finanziari stia utilizzando correttamente il database di Finance and Operations ripristinato. Per eventuali domande in merito alla reimpostazione del data mart dei report finanziari per un motivo diverso dal ripristino di un database di Finance and Operations, consultare la sezione [Reimpostazione del data mart di Management Reporter](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) per ulteriori informazioni. Tenere presente che i passaggi di questo processo sono supportati per la versione di maggio 2016 di Dynamics 365 for Operation (build di app 7.0.1265.23014 e build di report finanziari 7.0.10000.4) e versioni successive. Se si dispone di una versione precedente di Finance and Operations, contattare il team del supporto per assistenza.
+Se si ripristina il database di Finance and Operations da un backup o si copia il database da un altro ambiente, è necessario completare i passaggi in questo argomento per assicurarsi che il data mart dei report finanziari stia utilizzando correttamente il database di Finance and Operations ripristinato. 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> I passaggi di questo processo sono supportati per la versione di maggio 2016 di Dynamics 365 for Operation (build di app 7.0.1265.23014 e build di report finanziari 7.0.10000.4) e versioni successive. Se si dispone di una versione precedente di Finance and Operations, contattare il team del supporto per assistenza.
 
 ## <a name="export-report-definitions"></a>Esportare definizioni di report
 Innanzitutto, esportare le progettazioni di report disponibili in Progettazione report, utilizzando i seguenti passaggi:
 
 1.  In Progettazione report, passare a **Società** &gt; **Gruppi di blocchi predefiniti**.
-2.  Selezionare il gruppo di blocchi predefiniti da esportare, quindi fare clic su **Esporta**. **Nota:** per Finance and Operations, è supportato un solo gruppo di blocchi predefiniti, **Predefinito**.
+2.  Selezionare il gruppo di blocchi predefiniti da esportare, quindi fare clic su **Esporta**. 
+    > [!Note] 
+    > Per Finance and Operations, è supportato un solo gruppo di blocchi predefiniti, **Predefinito**.
 3.  Selezionare le definizioni di report da esportare:
     -   Per esportare tutte le definizioni di report e i blocchi predefiniti associati, fare clic su **Seleziona tutto**.
     -   Per esportare specifici report, righe, colonne, alberi o set di dimensioni, fare clic sulla scheda appropriata e selezionare gli elementi da esportare. Per selezionare più elementi in una scheda, tenere premuto CTRL. Quando si selezionano i report da esportare, vengono selezionate le righe, le colonne, le strutture e i set di dimensioni associati.
@@ -63,9 +68,9 @@ Utilizzare Desktop remoto per collegarsi a tutti i computer nell'ambiente e inte
 Questi servizi avranno connessioni aperte al database di Finance and Operations.
 
 ## <a name="reset"></a>Reimpostazione
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Individuare il pacchetto DataUpgrade.zip più recente
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>Individuare e scaricare il pacchetto MinorVersionDataUpgrade.zip più recente
 
-Individuare il pacchetto DataUpgrade.zip più recente utilizzando le istruzioni disponibili in [Scarica lo script DataUpgrade.zip](..\migration-upgrade\upgrade-data-to-latest-update.md). Le istruzioni illustrano come individuare la versione corretta del pacchetto di aggiornamento dei dati per l'ambiente in uso.
+Individuare il pacchetto MinorVersionDataUpgrade.zip più recente utilizzando le istruzioni disponibili in [Scaricare il pacchetto distribuibile di aggiornamento dei dati più recente](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). Le istruzioni illustrano come individuare e scaricare la versione corretta del pacchetto di aggiornamento dei dati. Un aggiornamento non è necessario per scaricare il pacchetto MinorVersionDataUpgrade.zip. È sufficiente completare i passaggi nella sezione "Scaricare il pacchetto distribuibile di aggiornamento dei dati più recente" senza eseguire le altre operazioni dell'articolo per recuperare una copia del pacchetto MinorVersionDataUpgrade.zip.
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>Eseguire gli script sul database di Finance and Operations
 
@@ -105,8 +110,10 @@ Importare le progettazioni di report da Progettazione report, utilizzando il fil
 
 1.  In Progettazione report, passare a **Società** &gt; **Gruppi di blocchi predefiniti**.
 2.  Selezionare il gruppo di blocchi predefiniti da esportare, quindi fare clic su **Esporta**. 
+
     > [!NOTE]
     > Per Finance and Operations, è supportato un solo gruppo di blocchi predefiniti, **Predefinito**.
+    
 3.  Selezionare il blocco predefinito **Predefinito** e fare clic su **Importa**.
 4.  Selezionare il file contenente le definizioni di report esportate e fare clic su **Apri**.
 5.  Nella finestra di dialogo Importa, selezionare le definizioni di report da importare:

@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -105,11 +104,11 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 2.  Selezionare **Immissione ora**. Vengono visualizzate le date di calendario per la settimana corrente.
 3.  Per una data selezionata, selezionare &gt; **Azioni**. **Nuova voce**.
 4.  Immettere il numero di ore da registrare.
-5.  Selezionare il progetto per la voce ora. Viene visualizzato un elenco dei progetti caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, vedere [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Selezionare il progetto per la voce ora. Viene visualizzato un elenco dei progetti caricati nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, vedere [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Se il progetto non è in elenco, selezionare **Cerca altro**. Ricercare per nome o selezionare la ricerca per nome progetto o cliente.
-7.  Consente di selezionare una categoria. Viene visualizzato un elenco delle categorie caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, vedere [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Consente di selezionare una categoria. Viene visualizzato un elenco delle categorie caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, vedere [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Se la categoria non è in elenco, selezionare **Cerca altro**. Ricerca in base alla categoria o ricerca per nome categoria.
-9.  Selezionare un'attività. Viene visualizzato un elenco delle attività caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, vedere [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Selezionare un'attività. Viene visualizzato un elenco delle attività caricate nell'app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 articoli, ma è possibile cambiare questo numero. Per ulteriori informazioni, vedere [Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Se l'attività non è in elenco, selezionare **Cerca altro**. Ricerca in base al numero dell'attività o ricerca per scopo.
 
 11. Selezionare la proprietà riga.

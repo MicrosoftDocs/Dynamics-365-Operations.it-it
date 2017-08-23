@@ -1,9 +1,9 @@
 ---
 title: Creare una fattura cliente
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fd89921a97782c4d09807a730ab077809304159f
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 249b1f331d6889d3b9ed2ace2e5db21d7a5d3e46
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,11 +30,20 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-
-
-Una **fattura cliente per un ordine cliente** è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente. Questo tipo di fattura cliente viene creato in base a un ordine cliente che include righe ordine e numeri articolo. I numeri articolo vengono specificati e registrati nella contabilità generale. Non sono disponibili inserimenti nel giornale di registrazione secondario per una fattura cliente relativa a un ordine cliente. 
+Una **fattura cliente per un ordine cliente** è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente. Questo tipo di fattura cliente viene creato in base a un ordine cliente che include righe ordine e numeri articolo. I numeri articolo vengono specificati e registrati nella contabilità generale. Non sono disponibili inserimenti nel giornale di registrazione secondario per una fattura cliente relativa a un ordine cliente. Per ulteriori informazioni, vedere [Creare fatture ordine cliente](tasks/create-sales-order-invoices.md).
 
 Una **fattura a testo libero** non è correlata a un ordine cliente. Contiene righe ordine che includono conti CoGe, descrizioni a testo libero e un importo di vendita immesso manualmente. Non è possibile immettere un numero articolo in questo tipo di fattura. È necessario immettere le informazioni sull'IVA appropriate. In ogni riga fattura viene indicato il conto principale per la vendita, che può essere distribuito in più conti CoGe facendo clic su **Distribuisci importi** nella **fattura a testo libero**. Il saldo cliente, inoltre, viene registrato nel conto riepilogativo dal profilo di registrazione utilizzato per la fattura a testo libero.
+
+Per ulteriori informazioni, vedere: 
+
+[Creare una fattura a testo libero](tasks/create-free-text-invoice.md)
+
+[Creare un modello a testo libero](tasks/create-free-text-invoice-template.md)
+
+[Assegnare al cliente un modello di fattura a testo libero](tasks/assign-free-text-invoice-template-customer.md)
+
+[Generare e registrare fatture a testo libero ricorrenti](tasks/post-recurring-free-text-invoices.md)
+
 
 Una **fattura proforma** è una fattura preparata come stima degli importi effettivi prima della registrazione della fattura vera e propria. È possibile stampare una fattura proforma sia per una fattura cliente basata su un ordine cliente che per una fattura a testo libero.
 
@@ -59,7 +68,7 @@ Visualizzare lo stato degli ordini cliente nella pagina elenco **Tutti gli ordin
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Consolidare gli ordini cliente o i documenti di trasporto per la registrazione
 Utilizzare questo processo quando uno o più ordini cliente sono pronti per la fatturazione e si desidera consolidarli in una singola fattura. 
 
-È possibile selezionare più fatture nella pagina elenco **Ordine cliente** e quindi utilizzare **Genera fatture** per consolidarle. Nella pagina **Registrazione fattura** è possibile modificare l'impostazione **Ordine riepilogativo** per riepilogare per numero ordine (in cui sono presenti più documenti di trasporto per un singolo ordine cliente) o per conto fatture (in cui sono presenti più ordini cliente per un singolo conto fatture). Utilizzare il pulsante ****Disponi**** per consolidare gli ordini cliente in singole fatture, in base alle impostazioni ****Ordine riepilogativo****.
+È possibile selezionare più fatture nella pagina elenco **Ordine cliente** e quindi utilizzare **Genera fatture** per consolidarle. Nella pagina **Registrazione fattura** è possibile modificare l'impostazione **Ordine riepilogativo** per riepilogare per numero ordine (in cui sono presenti più documenti di trasporto per un singolo ordine cliente) o per conto fatture (in cui sono presenti più ordini cliente per un singolo conto fatture). Utilizzare il pulsante **Disponi** per consolidare gli ordini cliente in singole fatture, in base alle impostazioni **Ordine riepilogativo**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Impostazioni aggiuntive che modificano il comportamento di registrazione
 I seguenti campi modificano il comportamento del processo di registrazione.

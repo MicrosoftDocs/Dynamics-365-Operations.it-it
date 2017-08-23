@@ -1,9 +1,9 @@
 ---
 title: Panoramica delle fatture fornitore
 description: Questo articolo fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici.
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 16ff8ebb0e620f45c4d290ee5076d5505abf3436
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 4c27b5a8ab1a7aeab31b48937dcaf4a86d798689
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -75,11 +74,23 @@ Quando viene registrata la fattura, la quantità **Rimanente fattura** relativa 
 
 In questa opzione si presuppone che per l'ordine fornitore sia stata registrata almeno un'entrata prodotti. La fattura fornitore si basa sulle entrate prodotti e riflette le quantità in esse contenute. Le informazioni finanziarie per la fattura si basano sulle informazioni immesse al momento della registrazione della fattura stessa.
 
+Per ulteriori informazioni, vedere [Registrare la fattura fornitore e associarla alla quantità ricevuta](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+
 ## <a name="working-with-multiple-invoices"></a>Utilizzo con più fatture
 
 È possibile utilizzare più fatture e registrarle tutte contemporaneamente. Se è necessario creare più fatture, utilizzare la pagina **Fatture fornitore in sospeso**. Se è necessario registrare e stampare più fatture fornitore, utilizzare la pagina del giornale di approvazione fatture. Se si utilizza il giornale di approvazione fatture è necessario che sia registrata almeno un'entrata prodotti per l'ordine fornitore e che sia registrata una fattura per l'ordine fornitore in un registro fatture. Le informazioni finanziarie relative alla fattura derivano dalla fattura inserita nel registro.
 
 
+Per ulteriori informazioni, vedere: 
 
+ - [Impostare criteri di fatture fornitore](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+
+ - [Inserire dati fattura nella contabilità fornitori tramite una fattura fornitore](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+ 
+ - [Inserire dati fattura nella contabilità fornitori tramite un giornale di approvazione](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+  
+ - [Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
+ 
+ - [Registrare una fattura fornitore nel giornale di registrazione fatture](tasks/record-vendor-invoice-invoice-journal.md)
 
 

@@ -1,0 +1,56 @@
+--- 
+title: Creare un conto principale
+description: "Questa guida attività descrive come aggiungere un conto principale in un piano dei conti esistente."
+author: aprilolson
+manager: AnnBe
+ms.date: 11/10/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: aolson
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: ef4d5deb6ea812023112251f00fcdd25229e02e7
+ms.contentlocale: it-it
+ms.lasthandoff: 07/27/2017
+
+---
+# <a name="create-a-main-account"></a>Creare un conto principale
+
+[!include[task guide banner](../../includes/task-guide-banner.md)]
+
+Questa guida attività descrive come aggiungere un conto principale in un piano dei conti esistente. Questa registrazione utilizza la società dimostrativa USMF.  
+
+1. Passare a Contabilità generale > Piano dei conti > Conti > Conti principali.
+2. Fare clic su Nuovo.
+3. Digitare un valore nel campo Conto principale.
+4. Digitare un valore nel campo Nome.
+5. Nel campo Tipo di conto principale, selezionare il tipo che meglio rappresenta il saldo e la posizione dei conti nei rendiconti finanziari.
+6. Nell'elenco, selezionare la categoria di conti a cui appartiene il conto principale.
+    * La categoria di conti viene utilizzata per i report finanziari predefiniti e il contenuto del dashboard di Power BI.  
+7. Nell'elenco fare clic sul collegamento nella riga selezionata.
+    * Modificare il saldo in Dare o in Avere predefinito.  
+8. Nel campo Valuta predefinita, selezionare un valore dall'elenco delle valute.
+9. Trovare e selezionare il record desiderato nell'elenco.
+10. Nell'elenco fare clic sul collegamento nella riga selezionata.
+11. Attivare/disattivare l'espansione della sezione Sostituzioni persona giuridica.
+12. Fare clic su Aggiungi per selezionare una persona giuridica.
+13. Nell'elenco selezionare la persona giuridica.
+14. Scegliere Aggiungi.
+15. Nell'elenco contrassegnare la riga selezionata.
+16. Selezionare o deselezionare la casella di controllo Sospesa.
+17. Espandere la Scheda dettaglio Creazione di report finanziari.
+18. Nel campo Tipo di tasso di cambio fare clic sul pulsante a discesa per aprire la ricerca.
+19. Nell'elenco selezionare il tipo di tasso di cambio per il conto.
+20. Nell'elenco fare clic sul collegamento nella riga selezionata.
+21. Nel campo Tipo di conversione valuta selezionare il metodo per calcolare i tassi di cambio per il conto.
+22. Chiudere la pagina.
+
+

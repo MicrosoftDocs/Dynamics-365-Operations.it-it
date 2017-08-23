@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bd61cd2a5fa7705f3f9152323281e6f4ca520dc1
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 64446efd518390ee2a7204e2c977fa4174581808
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -46,6 +45,13 @@ La lettera di credito include una descrizione delle merci, eventuali documenti r
 
 Una lettera di credito può essere revocabile o irrevocabile. La natura di una lettera di credito può essere trasferibile, non trasferibile o rotativa. In genere, una lettera di credito è un contratto irrevocabile e confermato che il pagamento verrà effettuato a un beneficiario specifico al ricevimento di una documentazione di spedizione completa e accurata.
 
+Per ulteriori informazioni, vedere i seguenti argomenti:
+
+[Importare una lettera di credito](tasks/import-letter-credit.md)
+
+[Esportare una lettera di credito](tasks/export-letter-credit.md)
+
+[Creare un contratto per linea di credito bancaria per una lettera di credito](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
 

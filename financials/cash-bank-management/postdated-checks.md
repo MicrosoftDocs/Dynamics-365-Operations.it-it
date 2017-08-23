@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ Microsoft Dynamics 365 for Finance and Operations supporta il ciclo di gestione 
 </tr>
 <tr class="even">
 <td>Registrare un assegno postdatato per un fornitore</td>
-<td>Registrare i dettagli di un assegno postdatato da emettere a favore di un fornitore. Quando il pagamento viene registrato, la passività fornitore viene riconosciuta, ma il conto bancario non è ancora accreditato. A questo scopo viene utilizzato invece un conto di compensazione.</td>
+<td>Registrare i dettagli di un assegno postdatato da emettere a favore di un fornitore. Quando il pagamento viene registrato, la passività fornitore viene riconosciuta, ma il conto bancario non è ancora accreditato. A questo scopo viene utilizzato invece un conto di compensazione. </td>
 </tr>
 <tr class="odd">
 <td>Registrare un assegno postdatato di un cliente</td>
@@ -87,6 +86,17 @@ Se l'assegno originale per un fornitore o da un cliente viene perso o danneggiat
 
 
 
+Per ulteriori informazioni, vedere i seguenti argomenti:
+
+[Impostare gli assegni postdatati](tasks/set-up-postdated-checks.md)
+
+[Registrare un assegno postdatato per un cliente](tasks/register-post-postdated-check-customer.md)
+
+[Liquidare un assegno postdatato di un cliente](tasks/settle-postdated-check-customer.md)
+
+[Registrare un assegno postdatato per un fornitore](tasks/register-post-postdated-check-vendor.md) 
+
+[Liquidare un assegno postdatato per un fornitore](tasks/settle-postdated-check-vendor.md)
 
 
 

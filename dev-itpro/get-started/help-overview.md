@@ -15,13 +15,13 @@ ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
-ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: 171d006e20834ea4ad6d5651ec27fc305eac4bc6
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -32,10 +32,10 @@ ms.lasthandoff: 07/27/2017
 Questo articolo fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations. Viene illustrato come è possibile fornire documentazione personalizzata e formazione all'organizzazione. 
 
 > [!NOTE] 
-> I seguenti prodotti sono strettamente connessi: Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail e Dynamics 365 for Talent. La stessa funzionalità può apparire in tutti e 3 prodotti. Di conseguenza, negli argomenti correlati principalmente a Retail, il nome del prodotto sarà Dynamics 365 for Retail; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 for Talent; e negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 for Finance and Operations. Gli argomenti scritti per un prodotto potrebbero applicarsi alla stessa funzionalità di un prodotto correlato.
+> I seguenti prodotti sono strettamente connessi: Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail e Dynamics 365 for Talent. La stessa funzionalità può apparire in tutti e 3 prodotti. Di conseguenza, negli argomenti correlati principalmente a Retail, il nome del prodotto sarà Dynamics 365 for Retail; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 for Talent; e negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 for Finance and Operations. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
 
-La Guida è condivisa da tutti i prodotti Unified Operations:
-- Dynamics 365 for Finance and Operations, edizione Enterprise
+La Guida è condivisa dai seguenti prodotti:
+- Dynamics 365 for Finance and Operations, Enterprise Edition
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -73,7 +73,7 @@ Diverse sono le domande ricevute sulla modalità di ricerca del contenuto. Nel s
 
 ![Risultati della ricerca nel sito](./media/site-search-results-2.png)
 
-### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>Il sommario di docs.microsoft.com per Unified Operations
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>Il sommario di docs.microsoft.com
 Tutti i prodotti condividono un unico sommario nel sito della documentazione, in modo che i clienti possano visualizzare il contesto di un argomento che stanno visualizzando. Consente inoltre di utilizzare il controllo Filtro per individuare gli argomenti desiderati.
 
 ### <a name="how-can-i-contribute"></a>Come è possibile contribuire? 
@@ -101,7 +101,7 @@ A destra, immettere l'indirizzo di posta elettronica e una nuova password per cr
 ## <a name="task-guides"></a>Guide attività
 Una guida attività è un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di un'attività o di un processo aziendale. È possibile aprire (riprodurre) una guida attività dal riquadro Guida. Quando si fa clic per la prima volta su una guida attività, nel riquadro Guida vengono visualizzate le istruzioni dettagliate per l'attività. Ora sono disponibili guide attività localizzate. 
 
-Microsoft fornirà set diversi di guide attività per ogni prodotto Unified Operations. La sezione Accesso alle guide attività dal riquadro della Guida descrive come trovare le guide attività appropriate per il prodotto. 
+Microsoft fornirà set diversi di guide attività per ogni prodotto come Dynamics 365 for Retail, Dynamics 365 for Finance and Operations o Dynamics 365 for Talent. La sezione Accesso alle guide attività dal riquadro della Guida descrive come trovare le guide attività appropriate per il prodotto. 
 
 ![Visualizzazione lettura delle guide attività](./media/task-guide-ops.png)
 
@@ -169,7 +169,7 @@ Le guide attività tradotte vengono rilasciate nelle librerie con "tutte le ling
 -   Se una guida attività non è stata ancora tradotta, quando la si apre, solo parte del testo (quello dei controlli) appare nella lingua selezionata.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-Nella tabella di seguito sono elencati i siti Web che forniscono il contenuto di Unified Operations. I nostri siti Web di contenuti sono organizzati per supportare il ciclo di vita del cliente. Ogni fase è supportata da una serie di siti diversi. I siti con un asterisco (\*) accanto al nome richiedono che venga eseguito l'accesso mediante un account associato a un piano di servizio.
+Nella tabella riportata di seguito sono elencati i nostri siti Web. Questi siti Web di contenuti sono organizzati per supportare il ciclo di vita del cliente. Ogni fase è supportata da una serie di siti diversi. I siti con un asterisco (\*) accanto al nome richiedono che venga eseguito l'accesso mediante un account associato a un piano di servizio.
 
 | Sito                                                                     | descrizione                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

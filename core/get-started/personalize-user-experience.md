@@ -1,9 +1,9 @@
 ---
 title: Personalizzare l'esperienza utente
-description: In questo articolo viene illustrato come personalizzare Microsoft Dynamics 365 for Finance and Operations.
+description: In questo argomento viene illustrato come personalizzare Microsoft Dynamics 365 for Finance and Operations.
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
+ms.translationtype: HT
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -31,19 +31,19 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo viene illustrato come personalizzare Microsoft Dynamics 365 for Finance and Operations.
+In questo argomento viene illustrato come personalizzare Microsoft Dynamics 365 for Finance and Operations.
 
 Sono disponibili numerosi tipi di personalizzazioni in Microsoft Dynamics 365 for Finance and Operations. Alcune personalizzazioni vengono effettuate tramite la selezione da un elenco di opzioni in una pagina di configurazione. Alcune personalizzazioni sono implicite, ad esempio, Finance and Operations tiene traccia della larghezza delle colonne delle griglie se modificate e dello stato espanso/compresso delle schede dettaglio. Altre personalizzazioni sono esplicite. Per le personalizzazioni esplicite, l'utente utilizza una modalità interattiva di personalizzazione e può modificare l'aspetto di una pagina direttamente gestendo il modo in cui gli elementi vengono visualizzati o si comportano nella pagina. 
 
 Tutte le personalizzazioni, di qualsiasi tipo, che un utente applica in Finance and Operations sono valide solo per tale utente, indipendentemente dalla società con cui l'utente interagisce. Le modifiche che un utente apporta a una pagina non influiscono su altri utenti nel sistema.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Opzioni a livello di sistema per l'utente corrente
-Nella barra di spostamento individuare l'icona dell'ingranaggio che corrisponde al pulsante di menu **Impostazioni**. Aprendo il menu **Impostazioni** si ha a disposizione una serie di opzioni. Selezionare **Opzioni** per visualizzare la pagina **Opzioni** dell'utente. In questa pagina solo disponibili quattro schede di opzione: **Visuale**, **Preferenze**, **Conto** e **Flusso di lavoro**.
+Nella barra di spostamento individuare l'icona dell'ingranaggio che corrisponde al pulsante di menu **Impostazioni**. Aprendo il menu **Impostazioni** si ha a disposizione una serie di opzioni. Selezionare **Opzioni** per visualizzare la pagina **Opzioni** dell'utente. Sono disponibili quattro schede: 
 
--   **Visuale:** utilizzare questa opzione per scegliere un tema colori e le dimensioni predefinite per gli elementi delle pagine.
--   **Preferenze:** questa opzione consente di selezionare le impostazioni predefinite per ogni avvio di Finance and Operations, inclusa la società, la pagina iniziale e la modalità di visualizzazione/modifica predefinita (che determina se una pagina viene bloccata per la visualizzazione o aperta per la modifica ogni volta che la si apre). Sono inoltre disponibili opzioni per lingua, fuso orario e data, ora e opzioni di formattazione per i numeri. Infine la pagina contiene una serie di preferenze che variano in base alla versione del prodotto.
--   **Conto:** utilizzare per immettere il proprio ID utente e altre opzioni correlate.
--   **Flusso di lavoro:** selezionare le opzioni relative al flusso di lavoro.
+-   **Visuale**: è possibile scegliere un tema colori e le dimensioni predefinite per gli elementi delle pagine.
+-   **Preferenze**: consente di selezionare le impostazioni predefinite per ogni avvio di Finance and Operations, inclusa la società, la pagina iniziale e la modalità di visualizzazione/modifica predefinita (che determina se una pagina viene bloccata per la visualizzazione o aperta per la modifica ogni volta che la si apre). Sono inoltre disponibili opzioni per lingua, fuso orario e data, ora e opzioni di formattazione per i numeri. Infine la pagina contiene una serie di preferenze che variano in base alla versione del prodotto.
+-   **Conto**: è possibile immettere il proprio ID utente e altre opzioni correlate.
+-   **Flusso di lavoro**: consente di selezionare le opzioni relative al flusso di lavoro.
 
 ## <a name="implicit-personalizations"></a>Personalizzazioni implicite
 Le personalizzazioni implicite sono personalizzazioni applicate semplicemente interagendo con alcuni controlli che richiamano il relativo stato visibile corrente. 
@@ -107,15 +107,20 @@ Alcune aree di lavoro contengono riquadri di conteggio, che includono numeri, ch
 Il dashboard è spesso la prima pagina che l'utente visualizza quando si apre Finance and Operations. È possibile personalizzare il dashboard per assegnare nuovi nomi i riquadri di navigazione dell'area di lavoro, per mostrare solo le sezioni desiderate, rinominare le sezioni o per organizzare le sezioni nell'ordine preferito. Per personalizzare il dashboard, selezionare qualsiasi riquadro e fare clic con il pulsante destro del mouse su di esso per aprire un menu di scelta rapida. Nel menu di scelta rapida, selezionare **Personalizza**. Se il riquadro selezionato è un riquadro che si desidera nascondere, rinominare o ignorare, è possibile apportare tale modifica direttamente nella finestra della proprietà visualizzata. Se si desidera organizzare i riquadri, selezionare **Personalizza modulo** nella finestra delle proprietà per aprire la barra degli strumenti di personalizzazione. È quindi possibile utilizzare lo strumento Spostamento per organizzare i riquadri.
 
 ## <a name="administration-of-personalization"></a>Amministrazione della personalizzazione
-Dopo aver personalizzato una pagina, è possibile condividere le personalizzazione con altri utenti. Esportare solo la pagina personale. È possibile richiedere agli altri utenti di accedere alla pagina personalizzata e di importare il file di personalizzazione creato.
+Dopo aver personalizzato una pagina, è possibile condividere le personalizzazioni con altri utenti esportando la pagina personalizzata. È possibile richiedere agli altri utenti di accedere alla pagina personalizzata e di importare il file di personalizzazione creato.
 
-Gli utenti con privilegi di amministrazione possono anche gestire le personalizzazioni per altri utenti nella pagina **Personalizzazione**. Questa pagina include quattro schede: **Sistema**, **Utenti**, **Importa** e **Cancella**.
+Gli utenti con privilegi di amministrazione possono anche gestire le personalizzazioni per altri utenti nella pagina **Personalizzazione**. Questa pagina include quattro schede: 
 
 - **Sistema**: è possibile disabilitare temporaneamente o "disattivare" tutte le personalizzazioni nel sistema. In questo caso, non vengono eliminate le personalizzazioni. A questo scopo, è sufficiente reimpostare tutte le pagine sullo stato predefinito. Se si abilitano nuovamente le personalizzazioni in un secondo momento, queste vengono applicate nuovamente alle pagine di ciascun utente. È anche possibile eliminare tutte le personalizzazioni per tutti gli utenti. Si noti che l'eliminazione delle personalizzazioni non consente di riabilitare in seguito automaticamente le personalizzazioni dal sistema. Pertanto, prima di eseguire questo passaggio, assicurarsi di aver esportato tutte le personalizzazioni che si desidera importare successivamente.
 - **Utenti**: è possibile specificare se ogni utente può effettuare la personalizzazione implicita o la personalizzazione esplicita. È inoltre possibile specificare se ogni utente può eseguire la personalizzazione implicita o esplicita in una pagina specifica. Infine, è possibile importare o esportare o eliminare una personalizzazione per ogni utente.
 - **Importa**: è possibile importare una personalizzazione per uno o più utenti. Utilizzare questa scheda dopo aver creato una personalizzazione in una pagina o area di lavoro e averla quindi esportata come file di personalizzazione. Per importare il file di personalizzazione applicarlo a uno o più utenti, selezionare i singoli utenti nell'elenco di tutti gli utenti o filtrare per un ruolo specifico, quindi selezionare gli utenti in tale ruolo. Dopo aver selezionato gli utenti che utilizzeranno la personalizzazione, fare clic su **Importa** e selezionare il file di personalizzazione. La personalizzazione verrà convalidata e applicata a tutti gli utenti selezionati alla successiva apertura della pagina selezionata.
 - **Cancella**: è possibile cancellare le personalizzazioni della pagina o dell'area di lavoro per uno o più utenti. Innanzitutto, selezionare la pagina o l'area di lavoro per cancellare le personalizzazioni. Quindi, selezionare i singoli utenti nell'elenco di tutti gli utenti o filtrare per un ruolo specifico, quindi selezionare gli utenti in tale ruolo. Dopo aver selezionato una pagina o area di lavoro e gli utenti, fare clic su **Cancella**. Tutte le personalizzazione che gli utenti selezionati hanno applicato alla pagina o all'area di lavoro selezionata vengono cancellate. Non è possibile annullare questa azione. Tuttavia, se la pagina o l'area di lavoro ha una personalizzazione salvata, tale personalizzazione può essere reimportata.
 
+## <a name="personalization-of-inventory-dimensions"></a>Personalizzazione delle dimensioni inventariali
 
+Quando si personalizza l'impostazione delle dimensioni inventariali in una pagina, considerare le impostazioni create utilizzando l'opzione **Visualizza dimensioni**. Ad esempio, se si utilizza la personalizzazione per nascondere una colonna per la dimensione inventariale del numero batch e la colonna viene visualizzata alla successiva apertura della pagina, è possibile che ciò avvenga in quanto le impostazioni di visualizzazione delle dimensioni determinano quali colonne delle dimensioni inventariali visualizzare. 
 
+Le impostazioni di visualizzazione delle dimensioni vengono applicate a tutte le pagine e sostituiscono qualsiasi impostazione personalizzata dei campi delle dimensioni inventariali nelle singole pagine. 
+
+Per l'esempio con la dimensione inventariale del numero batch, questa dimensione dovrebbe essere deselezionata nell'opzione **Visualizza dimensioni** per non visualizzare tale colonna nella tabella. Questa modifica verrebbe applicata non a una sola pagina ma a tutte le pagine.
 

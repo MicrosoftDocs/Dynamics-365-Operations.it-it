@@ -3,7 +3,7 @@ title: Panoramica IVA
 description: Questo articolo fornisce una panoramica del sistema IVA. Descrive gli elementi di configurazione IVA e il modo in cui interagiscono.
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ Nel seguente diagramma vengono mostrate le entità di impostazione imposte e vie
 
 Per ogni importo IVA che una società deve contabilizzare, un codice IVA deve essere definito. In un codice VAT sono archiviate le aliquote di imposta e le regole di calcolo dell'IVA. 
 
-Ogni codice VAT deve essere collegato a un periodo di liquidazione IVA. I periodi di liquidazione IVA definiscono gli intervalli con cui deve essere dichiarata e pagate l'IVA all'ufficio IVA. Ogni periodo di liquidazione IVA deve essere assegnato a un ufficio IVA. L'ufficio IVA rappresenta la persona giuridica a cui viene dichiarata e pagata l'IVA. Consente inoltre di definire il layout del report IVA. Gli uffici VAT possono essere correlati ai conti fornitore. 
+Ogni codice VAT deve essere collegato a un periodo di liquidazione IVA. I periodi di liquidazione IVA definiscono gli intervalli con cui deve essere dichiarata e pagate l'IVA all'ufficio IVA. Ogni periodo di liquidazione IVA deve essere assegnato a un ufficio IVA. L'ufficio IVA rappresenta la persona giuridica a cui viene dichiarata e pagata l'IVA. Consente inoltre di definire il layout del report IVA. Gli uffici VAT possono essere correlati ai conti fornitore. Per ulteriori informazioni, vedere [Impostare i periodi di liquidazione IVA](tasks/set-up-sales-tax-settlement-periods.md).
 
 Ogni codice VAT deve inoltre essere collegato a un gruppo di registrazione contabile. Un gruppo di registrazione contabile specifica i conti principali in cui verranno registrati gli importi per i codici IVA. 
 
@@ -60,13 +59,13 @@ Nella seguente tabella sono descritte le entità e la sequenza dell'impostazione
 | Attività di impostazione                                                  | Stato Obbligatorio/Facoltativo e descrizione                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Crea conti principali.                                           | Obbligatorio. Per poter impostare le funzionalità relative all'IVA, è necessario innanzitutto creare i conti principali che la società utilizza per pagare e registrare le imposte.                                                                                                                                                                             |
-| Impostare gruppi di registrazione contabile per l'IVA.                     | Obbligatorio. I gruppi di registrazione contabile definiscono i conti principali per la registrazione e il pagamento IVA.                                                                                                                                                                                                                            |
-| Impostare gli uffici IVA.                                   | Obbligatorio. Gli uffici IVA sono persone giuridiche a cui devono essere dichiarate e pagate le imposte.                                                                                                                                                                                                                                   |
+| Impostare gruppi di registrazione contabile per l'IVA.                     | Obbligatorio. I gruppi di registrazione contabile definiscono i conti principali per la registrazione e il pagamento IVA.   Per ulteriori informazioni, vedere [Impostare gruppi di registrazione contabile per l'IVA](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Impostare gli uffici IVA.                                   | Obbligatorio. Gli uffici IVA sono persone giuridiche a cui devono essere dichiarate e pagate le imposte.    Per ulteriori informazioni, vedere [Impostare gli uffici IVA](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Impostare i periodi di liquidazione IVA.                            | Obbligatorio. I periodi di liquidazione IVA contengono informazioni su quando e come deve essere dichiarata e pagata l'IVA. Sono correlati a un ufficio IVA.                                                                                                                                                       |
-| Impostare i codici reporting IVA.                               | Facoltativo. I codici reporting IVA possono essere assegnati ai codici IVA per il reporting degli importi per più codici IVA in un unico codice reporting IVA.                                                                                                                                                                 |
-| Impostare i codice IVA.                                         | Obbligatorio. I codici IVA contengono le aliquote di imposta e le regole di calcolo dell'IVA. I codici IVA sono correlati al periodo di liquidazione IVA e a un gruppo di registrazione contabile.                                                                                                                                        |
+| Impostare i codici reporting IVA.                               | Facoltativo. I codici reporting IVA possono essere assegnati ai codici IVA per il reporting degli importi per più codici IVA in un unico codice reporting IVA. Per ulteriori informazioni, vedere [Impostare i codici reporting IVA](tasks/set-up-sales-tax-reporting-codes.md).                                         |
+| Impostare i codice IVA.                                         | Obbligatorio. I codici IVA contengono le aliquote di imposta e le regole di calcolo dell'IVA. I codici IVA sono correlati al periodo di liquidazione IVA e a un gruppo di registrazione contabile. Per ulteriori informazioni, vedere [Impostare i codici IVA](tasks/set-up-sales-tax-codes.md).                                |
 | Impostare le fasce IVA.                                        | Obbligatorio. Le fasce IVA contengono un elenco di codici di vendita che si applicano alla parte (cliente o fornitore) di una transazione. Per una determinata transazione, l'intersezione dei codici IVA nelle fasce IVA e nelle fasce IVA articoli determina i codici IVA inclusi applicabili alla transazione.                  |
-| Imposta le fasce IVA articoli.                                   | Obbligatorio. Le fasce IVA articoli contengono un elenco di codici di vendita che si applicano per la risorsa (prodotto, servizio, e così via) di una transazione. Per una determinata transazione, l'intersezione dei codici IVA nelle fasce IVA e nelle fasce IVA articoli determina i codici IVA inclusi applicabili alla transazione. |
+| Imposta le fasce IVA articoli.                                   | Obbligatorio. Le fasce IVA articoli contengono un elenco di codici di vendita che si applicano per la risorsa (prodotto, servizio, e così via) di una transazione. Per una determinata transazione, l'intersezione dei codici IVA nelle fasce IVA e nelle fasce IVA articoli determina i codici IVA inclusi applicabili alla transazione. Per ulteriori informazioni, vedere [Impostare le fasce IVA e le fasce IVA articoli](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md). |
 | Impostare i parametri IVA nelle pagine dei parametri applicazione. | Obbligatorio. In diverse aree, ad esempio contabilità generale, contabilità clienti e contabilità fornitori, è necessario impostare i parametri per il calcolo corretto delle imposte indirette. Sebbene la maggior parte di questi parametri abbia valori predefiniti, devono essere apportate modifiche in base ai requisiti di ogni società.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>IVA su transazioni
@@ -98,5 +97,5 @@ In genere è necessario liquidare e pagare 2.500 all'ufficio tributario quando v
 Tuttavia, se si utilizza un'IVA condizionata, è possibile liquidare quando si riceve il pagamento dal cliente il 30 luglio.
 
 
-
+Per ulteriori informazioni, vedere [Impostare la ritenuta d'acconto](tasks/set-up-withholding-tax.md).
 

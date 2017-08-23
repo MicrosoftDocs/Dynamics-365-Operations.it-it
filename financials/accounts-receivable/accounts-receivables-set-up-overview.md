@@ -1,9 +1,9 @@
 ---
 title: "Configurare Contabilità clienti e Crediti e riscossioni"
 description: "Configurare i moduli Contabilità clienti e Crediti e riscossioni per tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,12 +65,12 @@ Nella tabella seguente sono elencate le pagine che supportano la configurazione 
 |                                                      | Valute                           | Consente di creare e visualizzare le valute utilizzate dall'organizzazione.                                                                                                                                                                                                                       |
 |                                                      | Tassi di cambio valutario              | Consente di creare e gestire i tassi di cambio appropriati tra la valuta di contabilizzazione e le altre valute.                                                                                                                                                                              |
 |                                                      | Contabilità interaziendale              | Consente di creare un elenco di conti in cui la persona giuridica corrente può effettuare la registrazione. È necessario impostare conti in Dare e conti in Avere, nonché il giornale di registrazione che riceve le transazioni nell'altra persona giuridica.                                                                             |
-|                                                      | Metodi di pagamento - Clienti        | Consente di creare e gestire le informazioni sui metodi di pagamento per i clienti.                                                                                                                                                                                                           |
+|                                                      | Metodi di pagamento - Clienti        | Consente di creare e gestire le informazioni sui metodi di pagamento per i clienti. Per ulteriori informazioni, vedere [Definire il metodo di pagamento del cliente](tasks/establish-customer-method-payment.md).                                                                                             |
 |                                                      | Gerarchie organizzative             | Consente di impostare la gerarchia organizzativa per i pagamenti centralizzati.                                                                                                                                                                                                                        |
 |                                                      | Scopi gerarchia organizzativa      | Consente di specificare uno scopo per i pagamenti centralizzati.                                                                                                                                                                                                                                       |
 |                                                      | Giorni di pagamento                         | Consente di definire i giorni di pagamento utilizzati per calcolare le date di scadenza relative ai pagamenti ricevuti dai clienti o inviati ai fornitori.                                                                                                                                                |
-|                                                      | Commissione pagamento                          | Consente di creare e gestire le commissioni di pagamento correlate ai clienti, ad esempio quelle relative agli effetti attivi.                                                                                                                                                                               |
-|                                                      | Impostazione commissione pagamento                    | Consente di impostare le commissioni di pagamento per alcune combinazioni di banche, metodi di pagamento, tipi di rimessa, specifiche di pagamento, valute e intervalli di date.                                                                                                                              |
+|                                                      | Commissione pagamento                          | Consente di creare e gestire le commissioni di pagamento correlate ai clienti, ad esempio quelle relative agli effetti attivi.                                                                                                                                                                         |
+|                                                      | Impostazione commissione pagamento                    | Consente di impostare le commissioni di pagamento per alcune combinazioni di banche, metodi di pagamento, tipi di rimessa, specifiche di pagamento, valute e intervalli di date.  Per ulteriori informazioni, vedere [Definire le commissioni di pagamento cliente](tasks/establish-customer-payment-fees.md).                                                                                   |
 |                                                      | Scadenzari pagamenti                    | Consente di creare scadenzari pagamenti, che è possibile utilizzare per programmare pagamenti rateali dovuti dai clienti e ai fornitori.                                                                                                                                                                       |
 |                                                      | Specifiche pagamento                | Consente di creare e visualizzare codici di specifica pagamento per il metodo di pagamento selezionato nella pagina Metodi di pagamento. I codici di specifica pagamento vengono definiti in base all'accordo con la banca specificata per il metodo di pagamento selezionato.                    |
 |                                                      | Testo transazione                     | Consente di creare il testo delle transazioni per le registrazioni automatiche nella contabilità generale. Il testo delle transazioni può essere specificato in diverse lingue.                                                                                                                                                           |
@@ -83,7 +82,7 @@ Nella tabella seguente sono elencate le pagine che supportano la configurazione 
 |                                                      | Metodi di pagamento - Clienti        | Consente di creare e gestire le informazioni sui metodi di pagamento per i clienti.                                                                                                                                                                                                           |
 |                                                      | Firma                            | Consente di aggiungere, modificare o rimuovere file di immagine specificati come firma, ad esempio file con estensione bmp, jpg o gif. I file di immagine specificati come firma vengono stampati sugli assegni come firme ufficiali delle persone giuridiche.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| Configurazione delle statistiche della contabilità clienti           | Definizioni periodo di aging             | Consente di impostare e gestire le definizioni di periodo di aging definite dall'utente che vengono utilizzate per analizzare le scadenze dei conti cliente e fornitore in base a una data specificata.                                                                                                         |
+| Configurazione delle statistiche della contabilità clienti           | Definizioni periodo di aging             | Consente di impostare e gestire le definizioni di periodo di aging definite dall'utente che vengono utilizzate per analizzare le scadenze dei conti cliente e fornitore in base a una data specificata. Per ulteriori informazioni, vedere [Registrare la fattura fornitore e associarla alla quantità ricevuta](tasks/set-up-accounts-receivable-aging-information.md).                                                           |
 |                                                      | Statistiche aziendali                  | Consente di impostare richieste di informazioni su statistiche aziendali che possono semplificare l'analisi delle prestazioni dell'organizzazione.                                                                                                                                                                              |
 |                                                      | Dati statistiche aziendali             | Consente di visualizzare, in formato griglia, i dati relativi a una statistica aziendale selezionata.                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |

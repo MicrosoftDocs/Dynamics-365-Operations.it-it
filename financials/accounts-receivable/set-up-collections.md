@@ -1,9 +1,9 @@
 ---
 title: Configurare crediti e riscossioni
 description: "In questo articolo viene descritto come impostare le funzionalità di riscossione."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4d3682c486e80afd03ec5805575357f4e87781f2
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -94,5 +94,12 @@ Se si desidera inviare messaggi di posta elettronica ai venditori tramite la pag
 Se non è stato specificato un rappresentante, verrà utilizzato il venditore principale per l'organizzazione del cliente. Se non è stato specificato un venditore principale, i messaggi di posta elettronica verranno inviati al primo venditore elencato nel modulo.
 
 
+Per ulteriori informazioni, vedere i seguenti argomenti:
+
+ - [Creare una sequenza di lettere di sollecito](tasks/create-collection-letter-sequence.md)
+ 
+ - [Elaborare lettere di sollecito](tasks/process-collection-letters.md)
+ 
+ - [Esaminare le informazioni sulla riscossione](tasks/review-collections-information.md)
 
 

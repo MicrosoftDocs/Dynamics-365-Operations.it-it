@@ -1,35 +1,33 @@
 ---
 title: Convertire valute di contabilizzazione o di dichiarazione
 description: 
-author: RobinARH
+author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 78223
 ms.assetid: 31c56f9a-9c64-40a2-90e3-1969a760614b
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 728af2fff6317c17e47d48ea07dbeb57068fbf3f
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: c738207f3088da151ec2317ce2b445f83278ec79
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Convertire valute di contabilizzazione o di dichiarazione
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Una società che deve cambiare la valuta di contabilizzazione o la valuta di dichiarazione ha due opzioni. La prima opzione è creare una nuova società e iniziare da zero. La seconda opzione è eseguire il processo di conversione delle valute di contabilizzazione e di dichiarazione. Si tratta di un processo molto lungo che modifica ogni transazione nel sistema. Prima di eseguire il processo, è necessario effettuare alcune impostazioni.
@@ -77,6 +75,6 @@ Dopo la conversione valutaria è necessario generare di nuovo tutti i report di 
 
 Dopo aver eliminato tutti i giornali di registrazione transazioni contabili, è possibile inserire le transazioni contabili nel giornale di registrazione. Fare clic su **Contabilità generale** &gt; **Periodico** &gt; **Giornali di registrazione** &gt; **Inserimento nel giornale di registrazione**. È possibile rivalutare gli importi in valuta estera dopo la conversione valutaria, se la rivalutazione è obbligatoria. Si rivalutano gli importi in valuta estera selezionando **Standard** nel campo per la rivalutazione **Metodo**.
 
-
+Per ulteriori informazioni, vedere [Inserire voci registrate nel giornale di registrazione](tasks/journalize-posted-journal-entries.md).
 
 

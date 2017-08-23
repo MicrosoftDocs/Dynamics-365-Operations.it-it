@@ -3,7 +3,7 @@ title: Pagamenti IVA e regole di arrotondamento
 description: Questo articolo illustra il funzionamento dell'impostazione della regola di arrotondamento in Uffici IVA e l'arrotondamento del saldo dell'IVA durante il processo Liquida e registra IVA.
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ec117598a6a008e5b274179659b515824029874
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 8de01b77fcbeb65321e60614b6a11d264460208f
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -65,8 +64,11 @@ Le seguente tabella mostra un importo di 98.765,43 arrotondato utilizzando ogni 
 > [!NOTE]                                                                                  
 > Se si seleziona A proprio vantaggio, l'arrotondamento è sempre a vantaggio della persona giuridica. 
 
-Per ulteriori informazioni, vedere [Panoramica IVA](indirect-taxes-overview.md). 
-
+Per ulteriori informazioni, vedere i seguenti argomenti:
+- [Panoramica dell'IVA](indirect-taxes-overview.md)
+- [Creare un pagamento IVA](tasks/create-sales-tax-payment.md)
+- [Creare transazioni IVA su documenti](tasks/create-sales-tax-transactions-documents.md)
+- [Visualizzare transazioni IVA registrate](tasks/view-posted-sales-tax-transactions.md)
 
 
 
