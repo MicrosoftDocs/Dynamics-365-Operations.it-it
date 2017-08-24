@@ -1,9 +1,9 @@
 ---
 title: "Crediti e riscossioni in Contabilità clienti"
 description: "Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ Il riquadro azioni contiene i pulsanti che consentono di visualizzare le informa
 
 Tali rettifiche hanno effetto solo sulle note d'interesse e sugli interessi e le commissioni in esse inclusi. Utilizzare i passaggi descritti nella sezione "Creare transazioni di annullamento in un unico passaggio" per annullare tutte le spese dovute da un cliente.
 
+Per ulteriori informazioni, vedere [Creare un codice interessi con un intervallo](tasks/create-interest-code-range.md) e [Elaborare interessi](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Creare transazioni di annullamento
 È possibile annullare crediti inesigibili facendo clic su Annulla nel modulo Riscossioni e nelle pagine elenco Saldi con aging, Clienti e Fatture cliente aperte. 
 
@@ -100,7 +101,10 @@ Quando si annullano alcune transazioni per un cliente, tutte le transazioni del 
 -   Il terzo tipo di riga di giornale contiene le informazioni sull'annullamento della contabilità generale per l'IVA. Questa riga del giornale di registrazione viene creata solo se nella pagina di parametri di contabilità clienti è selezionato il pulsante IVA separata. Se le transazioni contrassegnate contengono più combinazioni di conto IVA a debito, dimensione e codice IVA, viene creata una riga di giornale separata per ciascuna combinazione.
 
 La transazione di annullamento viene creata nella valuta della transazione.
-Elaborare un pagamento NSF (Non Sufficient Funds, senza copertura)  
+
+Per ulteriori informazioni, vedere [Creare un giornale di registrazione annullamento per un cliente](tasks/create-write-off-journal-customer.md).
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Elaborare un pagamento NSF (Non Sufficient Funds, senza copertura)  
 --------------------------------------------
 
 È possibile elaborare pagamenti NSF facendo clic su Pagamento NSF nella pagina Riscossioni. Quando si fa clic su questo pulsante, il pagamento viene annullato. Se al cliente viene applicata una commissione NSF, viene creata una transazione di spese in un giornale di registrazione pagamenti. L'importo della commissione si basa sulle impostazioni delle spese automatiche. Le spese automatiche che si applicano ai pagamenti NSF vengono specificate in base al gruppo di spese varie selezionato nella pagina Conti bancari per il conto bancario interessato.

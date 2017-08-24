@@ -1,9 +1,9 @@
 ---
 title: Modelli di pianificazione del budget per Excel
 description: In questo argomento viene descritto come creare modelli di Microsoft Excel che possono essere utilizzati con i piani di budget.
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: it-it
 ms.lasthandoff: 07/27/2017
 
@@ -38,22 +38,27 @@ In questo argomento viene illustrato come creare modelli di Excel che verranno u
 
 I documenti del piano di budget possono essere visualizzati e modificati utilizzando uno o più layout. Ogni layout può avere un modello di documento di piano di budget associato per visualizzare e modificare i dati del piano di budget in un foglio di lavoro di Excel. In questo argomento, un modello di documento del piano di budget verrà generato utilizzando una configurazione di layout esistente. 
 
-Aprire l'**elenco dei piani di budget** (**Impostazione budget** &gt; **Piani di budget**). Fare clic su **Nuovo** per creare un nuovo documento di piano di budget. 
+1. Aprire l'**elenco dei piani di budget** (**Impostazione budget** &gt; **Piani di budget**). 
+2. Fare clic su **Nuovo** per creare un nuovo documento di piano di budget. 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![Elenco piani di budget](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-Usare l'opzione **Aggiungi** riga per aggiungere righe. Fare clic su **Layout** visualizzare la configurazione di layout del documento di piano di budget. 
+3. Usare l'opzione **Aggiungi** riga per aggiungere righe. Fare clic su **Layout** visualizzare la configurazione di layout del documento di piano di budget. 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![Aggiunta piani di budget](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-È possibile rivedere la configurazione del layout e modificarla in base alle necessità. Passare a **Modello** &gt; **Genera** per creare un file di Excel per il layout. Dopo che il modello viene generato, passare a **Modello** &gt; **Visualizza**  per aprire e rivedere il modello di documento di piano di budget. È possibile salvare il file di Excel nell'unità locale. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+È possibile rivedere la configurazione del layout e modificarla in base alle necessità. 
+1. Passare a **Modello** &gt; **Genera** per creare un file di Excel per il layout. 
+2. Dopo che il modello viene generato, passare a **Modello** &gt; **Visualizza**  per aprire e rivedere il modello di documento di piano di budget. È possibile salvare il file di Excel nell'unità locale. 
+
+[![Salva con nome](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Il layout di documento del piano di budget non può essere modificato dopo che viene associato a un modello di Excel. Per modificare il layout, eliminare il file del modello di Excel associato e rigenerarlo. Questa operazione è necessaria per mantenere i campi nel layout e nel foglio di lavoro sincronizzati. 
 
 Il modello di Excel contiene tutti gli elementi dal layout di documento del piano di budget, in cui la colonna **Disponibile nel foglio di lavoro** è impostata su True. La sovrapposizione di elementi non è consentita nel modello Excel. Ad esempio, se il layout include le colonne Request Q1, Request Q2, Request Q3, e Request Q4 e una colonna di richiesta totale che rappresenta una somma di tutte le 4 colonne trimestrali, solo le colonne trimestrali o la colonna totale è disponibile da utilizzare nel modello Excel. Il file di Excel non può aggiornare le colonne sovrapposte durante l'aggiornamento perché i dati della tabella possono diventare obsoleti e inesatti.
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![Esempio](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
 > Per evitare problemi potenziali di visualizzazione e modifica dei dati del piano di budget utilizzando Excel, lo stesso utente deve essere collegato sia a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition che al connettore dati del componente aggiuntivo per Office di Microsoft Dynamics.
@@ -63,7 +68,7 @@ Per aggiungere informazioni di intestazione, selezionare la riga superiore nel f
 
 [![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
 
-Nella scheda **Progettazione** fare clic sui campi **Aggiungi** quindi selezionare **BudgetPlanHeader** come origine dati di entità.
+Nella scheda **Progettazione**, fare clic sui campi **Aggiungi** quindi selezionare **BudgetPlanHeader** come origine dati di entità.
 
 [![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
 
@@ -89,7 +94,7 @@ Il gruppo di campi selezionato visualizza le colonne disponibili nel modello. Fa
 
 Ripetere questi passaggi per inserire la colonna **Adjustment**. Utilizzare la formula = AxTable1\[Total request\]\*$I$1 per la colonna. Questa accetterà il valore della cella I1 e moltiplicherà i valori nella colonna **Total request** per calcolare gli importi di rettifica.
 
-Salvare e chiudere il file di Excel. Tornare a Finance and Operations e in **Layout** ** **, fare clic su **Modello &gt; Carica** per caricare il modello salvato di Excel da utilizzare per il piano di budget. 
+Salvare e chiudere il file di Excel. Tornare a Finance and Operations e in **Layout**, fare clic su **Modello &gt; Carica** per caricare il modello salvato di Excel da utilizzare per il piano di budget. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

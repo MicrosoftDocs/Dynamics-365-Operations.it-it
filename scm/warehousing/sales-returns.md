@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ I clienti possono rendere gli articoli per diversi motivi. Ad esempio, un artico
 ## <a name="return-order-process"></a>Processo relativo all'ordine di reso
 Nell'illustrazione riportata di seguito viene fornita una panoramica del processo relativo all'ordine di reso.  
 
-[![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Processo relativo all'ordine di reso](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 Sono disponibili due tipi di processi dell'ordine di reso: reso fisico e solo credito.
 
@@ -213,7 +213,7 @@ Sono disponibili due metodi per la gestione della sostituzione prodotto:
 
 Nella sostituzione preliminare l'articolo sostitutivo può essere consegnato al cliente prima che avvenga il reso. Questo metodo è utile se, ad esempio, l'articolo è un pezzo meccanico che non può essere eliminato se non è disponibile un pezzo di ricambio o se si desidera semplicemente che il cliente abbia il prodotto sostitutivo al più presto. L'ordine sostitutivo preliminare è un ordine cliente indipendente. Le informazioni di intestazione vengono inizializzate dal cliente e le informazioni relative alle righe vengono inizializzate dall'ordine di reso. È possibile modificare, elaborare ed eliminare l'ordine sostitutivo indipendentemente dall'ordine di reso. Quando si elimina un ordine sostitutivo, viene visualizzato un messaggio che l'ordine è stato creato come ordine sostitutivo. Nella figura seguente è illustrato il processo per la sostituzione preliminare.  
 
-[![Processo di sostituzione preliminare](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![Processo per la sostituzione preliminare](./media/SalesReturn04.png)
 
 L'ordine di reso contiene un riferimento all'ordine sostitutivo. Se un ordine sostitutivo preliminare viene creato per un ordine di reso prima della restituzione dell'articolo difettoso, non è possibile selezionare i codici smaltimento da sostituire dopo che l'articolo difettoso è stato reso.
 
@@ -221,7 +221,7 @@ L'ordine di reso contiene un riferimento all'ordine sostitutivo. Se un ordine so
 
 Se si spedisce un articolo sostitutivo al cliente e si utilizza l'azione di smaltimento **Sostituzione e scarto** o **Sostituzione e credito** sull'ordine di reso, utilizzare il processo che viene visualizzato nella figura seguente.  
 
-[![Processo di sostituzione quando viene utilizzato un codice smaltimento](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![Processo di sostituzione quando viene utilizzato un codice smaltimento](./media/SalesReturn05.png)
 
 L'articolo sostitutivo verrà consegnato utilizzando un ordine cliente indipendente, l'ordine cliente sostitutivo. Questo ordine cliente viene creato quando il documento di trasporto per l'ordine di reso viene generato. L'intestazione dell'ordine utilizza le informazioni del cliente cui viene fatto riferimento nell'intestazione dell'ordine di reso. Le informazioni delle righe vengono raccolte in base alle informazioni immesse nella pagina **Articolo sostitutivo**. La pagina **Articolo sostitutivo** deve essere specificata nelle righe con azioni di smaltimento che iniziano con la parola "sostituire". Tuttavia, né la quantità né l'identità dell'articolo sostitutivo vengono convalidate o limitate. Questo comportamento prende in considerazione i casi in cui il cliente desidera lo stesso articolo, ma in una configurazione o dimensione diversa, nonché i casi in cui i clienti desiderano un articolo completamente diverso. Per impostazione predefinita, nella pagina **Articolo sostitutivo** viene immesso un articolo identico. Tuttavia, è possibile selezionare un articolo diverso, a condizione che la funzione sia stata installata. **Nota:** è possibile modificare ed eliminare l'ordine cliente sostitutivo dopo che è stato creato.
 
@@ -254,7 +254,7 @@ Gli ordini di reso possono essere completati tra due società della propria orga
 
 Nella seguente figura è indicata la configurazione minima necessaria per due società per partecipare a una relazione interaziendale e per consentire il commercio interaziendale.  
 
-[![Configurazione minima](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![Impostazione minima](./media/SalesReturn06.png)
 
 Nello scenario seguente CompBuy è l'azienda acquirente, mentre CompSell è l'azienda venditrice. In genere, la società venditrice spedisce le merci alla società acquirente o, in scenari di spedizione di consegna, direttamente al cliente finale. In CompBuy l'IC del fornitore\_CompSell viene definito come endpoint interaziendale associato alla società CompSell. Contemporaneamente, in CompSell, l'IC del cliente\_CompBuy viene definito come endpoint interaziendale associato alla società CompBuy. I dettagli dei criteri di azione e i mapping dei valori appropriati devono essere definiti in entrambe le società. In uno scenario di spedizione di consegna diretta un ordine di reso interaziendale, che corrisponde a un ordine cliente interaziendale, viene creato nella società venditrice. Il codice NAR dell'ordine di reso interaziendale può essere selezionato dalla sequenza di codici NAR in CompSell oppure può essere copiato dal codice NAR assegnato all'ordine di reso originale in CompBuy. Le impostazioni del codice NAR sui criteri azioni **PurchaseRequisition** in CompBuy determinano le azioni. Se il codice NAR viene sincronizzato, è necessario attenuare il rischio del numero di scontri se le due società utilizzano la stessa sequenza numerica.
 
@@ -262,7 +262,7 @@ Nello scenario seguente CompBuy è l'azienda acquirente, mentre CompSell è l'az
 
 Questo scenario interessa due società della stessa organizzazione, come illustrato nella figura seguente.  
 
-[![Reso interaziendale semplice](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![Reso interaziendale semplice](./media/SalesReturn07.png)
 
 È possibile stabilire la catena di ordini quando viene creato un ordine di reso fornitore nell'azienda acquirente o viene creato un ordine di reso cliente nell'azienda venditrice. Finance and Operations crea l'ordine corrispondente nell'altra società e garantisce che l'intestazione e le informazioni sulla riga dell'ordine di reso fornitore riflettano le impostazioni nell'ordine di reso di un cliente. L'ordine di reso che viene stabilito può includere o escludere il riferimento (**Trova ordine cliente**) a una fattura di vendita esistente. I documenti di trasporto e le fatture dei due ordini possono essere elaborati singolarmente. Ad esempio, non sarà necessario generare un documento di trasporto per l'ordine di reso fornitore prima di generare il documento di trasporto per l'ordine di reso di un cliente.
 
@@ -270,7 +270,7 @@ Questo scenario interessa due società della stessa organizzazione, come illustr
 
 Questo scenario può verificarsi se una vendita precedente del tipo **Consegna diretta** è stata completata e se una fattura al cliente è disponibile nella società che interagisce con il cliente. Nella seguente figura la società CompBuy ha precedentemente venduto e fatturato prodotti al cliente Extern. I prodotti sono stati spediti direttamente dalla società CompSell al cliente tramite una catena di ordini interaziendali.  
 
-[![Resi di spedizione consegna diretta tra tre parti](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![Resi di spedizione consegna diretta tra tre parti](./media/SalesReturn08.png)
 
 Se il cliente Extern desidera restituire i prodotti, viene creato un ordine di reso (RMA02) per il cliente nell'azienda CompBuy. Per stabilire la catena interaziendale, l'ordine di reso deve essere contrassegnato per la consegna diretta. Quando si utilizza la funzione **Trova ordine cliente** per selezionare la fattura cliente da restituire, viene stabilita una catena di ordini interaziendali costituita dai seguenti documenti:
 
@@ -292,7 +292,7 @@ Negli esempi successivi il prezzo di costo del reso è rappresentato come **Prez
 
 L'ordine di reso non fa riferimento a una fattura cliente. L'articolo reso viene registrato in Avere. Il parametro **Correzione credito** non è selezionato quando la fattura dell'ordine di reso, o nota di accredito, viene generata.  
 
-[![L'ordine di reso non fa riferimento a una fattura cliente](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![L'ordine di reso non fa riferimento a una fattura cliente](./media/SalesReturn09.png)  
 
 **Nota:** il prezzo nel record generale dell'articolo viene utilizzato come valore predefinito per il parametro **Prezzo di costo reso**. Il prezzo predefinito è diverso dal prezzo di costo al momento dell'uscita da magazzino. Di conseguenza, l'implicazione è che si è verificata una perdita di 3. Inoltre, l'ordine di reso non include lo sconto concesso al cliente nell'ordine cliente. Di conseguenza, si verifica un credito in eccesso.
 
@@ -300,7 +300,7 @@ L'ordine di reso non fa riferimento a una fattura cliente. L'articolo reso viene
 
 L'esempio 2 corrisponde all'esempio 1, ma il parametro **Correzione credito** è selezionato quando viene generata la fattura dell'ordine di reso.  
 
-[![Ordine di reso in presenza della selezione di una correzione di credito ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![Ordine di reso in presenza della selezione di una correzione di credito ](./media/SalesReturn10.png)  
 
 **Nota:** le registrazioni contabili vengono immesse come correzioni negative.
 
@@ -308,7 +308,7 @@ L'esempio 2 corrisponde all'esempio 1, ma il parametro **Correzione credito** è
 
 In questo esempio la riga dell'ordine di reso viene creata utilizzando la funzione **Trova ordine cliente**. Il parametro **Correzione credito** non è selezionato quando viene creata la fattura.  
 
-[![Riga ordine di reso creata usando Trova ordine cliente ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![Riga ordine di reso creata usando Trova ordine cliente ](./media/SalesReturn11.png)  
 
 **Nota:** **Sconto** e **Prezzo di costo reso** vengono impostati correttamente. Di conseguenza, viene eseguito uno storno esatto della fattura cliente.
 

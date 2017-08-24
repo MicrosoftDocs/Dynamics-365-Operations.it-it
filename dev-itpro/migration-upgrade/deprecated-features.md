@@ -15,13 +15,13 @@ ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
+ms.sourcegitcommit: 404a6e767036542b0e6ccd84c2dd841d4a602b87
+ms.openlocfilehash: 671210a8d69282864ca4188abd360eefa819ae72
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 07/27/2017
 
 In questo argomento vengono descritte le funzionalità che sono state o che verranno rimosse da Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
-## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>Funzionalità che sono state deprecate per tutti i tipi di distribuzione dell'aggiornamento del mese di luglio 2017 con l'aggiornamento 8 della piattaforma
-Questo elenco include le funzionalità che sono state deprecate sia per le distribuzioni locali che cloud.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update-with-platform-update-8"></a>Funzionalità che sono state deprecate nell'Aggiornamento di luglio 2017 di Dynamics 365 for Finance and Operations, Enterprise Edition con l'aggiornamento piattaforma 8
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portale dei dispositivi mobili del magazzino
 
@@ -64,31 +63,8 @@ L'app tablet di Windows 8 ha fornito la funzionalità per la voce e l'approvazio
 | **Sostituita da un'altra funzionalità?** | N.                                                                                      |
 | **Moduli interessati**             | Gestione spese                                                                       |
 
-## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>Funzionalità che sono state deprecate per tutte le distribuzione locali dell'aggiornamento del mese di luglio 2017 con l'aggiornamento 8 della piattaforma
 
-### <a name="ssrs-report-viewer-control"></a>Controllo Visualizzatore di report SSRS
-
-Questa funzionalità viene utilizzata per interagire con i report in formato HTML nel Web client di Finance and Operations.
-
-|                                  |  |
-|----------------------------------|--|
-| **Motivo del deprecamento**       | SQL Server Reporting Services (SSRS) non supporta un controllo Visualizzatore di report compatibile con il Web client locale.      |
-| **Sostituita da un'altra funzionalità?** | Viene eseguito il rendering dei report come documenti PDF dal servizio locale. Utilizzare le estensioni per attivare i collegamenti drill-through nei report dell'applicazione. |
-| **Moduli interessati**             | Tutti    |
-
-### <a name="document-routing-agent"></a>Agente di distribuzione documenti 
-
-Il client Agente di distribuzione documenti è utilizzato come gateway del servizio per la connessione dal cloud alle stampanti di rete autenticate nel dominio.
-
-|                                  |  |
-|----------------------------------|--|
-| **Motivo del deprecamento**       | Le distribuzioni locali sono ospitate su server autenticati del dominio. Ciò consente l'accesso diretto e sicuro alle stampanti di rete. |
-| **Sostituita da un'altra funzionalità?** | Questo componente non è necessario per le distribuzioni locali.|
-| **Moduli interessati**             | Nessuna priorità               |
-
-
-<a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Le funzionalità che sono state deprecate in Dynamics 365 per le operazioni 1611 con l'aggiornamento piattaforma 3
----------------------------------------------------------------------------------------------
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Le funzionalità che sono state deprecate in Dynamics 365 per le operazioni 1611 con l'aggiornamento piattaforma 3
 
 ### <a name="aeb-payment-formats-for-spain"></a>Formati di pagamento AEB per la Spagna
 
@@ -96,9 +72,9 @@ I formati di pagamento Consejo Superior Bancario vengono utilizzati per inviare 
 
 |                              |                                                                          |
 |------------------------------|--------------------------------------------------------------------------|
-| Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                                  |
-| Sostituita da un'altra funzionalità? | Sì, i formati per i pagamenti tramite bonifico ISO20022 e in addebito diretto per la Spagna |
-| Moduli interessati             | Contabilità fornitori, contabilità clienti                                    |
+| **Motivo del deprecamento**       | I formati di pagamento non sono più utilizzati.                                  |
+| **Sostituita da un'altra funzionalità?** | Sì, i formati per i pagamenti tramite bonifico ISO20022 e in addebito diretto per la Spagna |
+| **Moduli interessati**             | Contabilità fornitori, contabilità clienti                                    |
 
 ### <a name="bank-payments-transfer-for-lithuania"></a>Trasferimento di pagamenti bancari per la Lituania
 
@@ -106,9 +82,9 @@ I trasferimenti di pagamento bancario vengono generati e stampati utilizzando il
 
 |                              |                                                            |
 |------------------------------|------------------------------------------------------------|
-| Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                    |
-| Sostituita da un'altra funzionalità? | Sì, formato di pagamento tramite bonifico ISO20022 per la Lituania |
-| Moduli interessati             | Contabilità fornitori                                           |
+| **Motivo del deprecamento**       | I formati di pagamento non sono più utilizzati.                    |
+| **Sostituita da un'altra funzionalità?** | Sì, formato di pagamento tramite bonifico ISO20022 per la Lituania |
+| **Moduli interessati**             | Contabilità fornitori                                           |
 
 ### <a name="bbs-direkte-remittering-payment-formats-for-norway"></a>Formati di pagamento BBS Direkte Remittering per la Norvegia
 
@@ -116,9 +92,9 @@ I formati di pagamento BBS Direkte Remittering includono l'esportazione dei paga
 
 |                              |                                                                                                                                                                |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                                                                                                                        |
-| Sostituita da un'altra funzionalità? | Il formato di pagamento cliente AvtaleGiro per la Norvegia può essere utilizzato per generare i messaggi di addebito diretto. L'importazione di un messaggio di reso è implementata nelle versioni future. |
-| Moduli interessati             | Contabilità fornitori, contabilità clienti                                                                                                                          |
+| **Motivo del deprecamento**       | I formati di pagamento non sono più utilizzati.                                                                                                                        |
+| **Sostituita da un'altra funzionalità?** | Il formato di pagamento cliente AvtaleGiro per la Norvegia può essere utilizzato per generare i messaggi di addebito diretto. L'importazione di un messaggio di reso è implementata nelle versioni future. |
+| **Moduli interessati**             | Contabilità fornitori, contabilità clienti                                                                                                                          |
 
 ### <a name="chart-of-accounts-tool-for-spain"></a>Strumento piano dei conti per la Spagna
 
@@ -126,9 +102,9 @@ Lo strumento viene utilizzato quando un piano dei conti in Spagna richiede modif
 
 |                              |                |
 |------------------------------|----------------|
-| Motivo del deprecamento       | Utilizzo limitato  |
-| Sostituita da un'altra funzionalità? | Nessuna             |
-| Moduli interessati             | Contabilità generale |
+| **Motivo del deprecamento**       | Utilizzo limitato  |
+| **Sostituita da un'altra funzionalità?** | Nessuna             |
+| **Moduli interessati**             | Contabilità generale |
 
 ### <a name="dom80-payment-format-for-belgium"></a>Formato di pagamento Dom80 per il Belgio
 
@@ -136,9 +112,9 @@ Formato di pagamento precedente per il Belgio per il recupero dei pagamenti (add
 
 |                              |                                                        |
 |------------------------------|--------------------------------------------------------|
-| Motivo del deprecamento       | Il formato di pagamento non è più utilizzato.                  |
-| Sostituita da un'altra funzionalità? | Sì, formato di pagamento in addebito diretto ISO 20022 per il Belgio |
-| Moduli interessati             | Contabilità clienti                                    |
+| **Motivo del deprecamento**      | Il formato di pagamento non è più utilizzato.                  |
+| **Sostituita da un'altra funzionalità?** | Sì, formato di pagamento in addebito diretto ISO 20022 per il Belgio |
+| **Moduli interessati**            | Contabilità clienti                                    |
 
 ### <a name="dtaezag-payment-formats-for-switzerland"></a>Formati di pagamento DTA/EZAG per la Svizzera
 
@@ -146,9 +122,9 @@ I formati DTA/EZAG sono integrati nel sistema PVR, poiché possono riportare il 
 
 |                              |                                                              |
 |------------------------------|--------------------------------------------------------------|
-| Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                      |
-| Sostituita da un'altra funzionalità? | Sì, formato di pagamento tramite bonifico ISO20022 per la Svizzera |
-| Moduli interessati             | Contabilità fornitori                                             |
+| **Motivo del deprecamento**       | I formati di pagamento non sono più utilizzati.                      |
+| **Sostituita da un'altra funzionalità?** | Sì, formato di pagamento tramite bonifico ISO20022 per la Svizzera |
+| **Moduli interessati**             | Contabilità fornitori                                             |
 
 ### <a name="edifact-dirdeb-payment-format-for-austria"></a>Formato di pagamento EDIFACT-DIRDEB per l'Austria
 
@@ -156,9 +132,9 @@ Formato di pagamento EDIFACT-DIRDEB per il recupero dei pagamenti (addebito dire
 
 |                              |                                                        |
 |------------------------------|--------------------------------------------------------|
-| Motivo del deprecamento       | Il formato di pagamento non è più utilizzato.                  |
-| Sostituita da un'altra funzionalità? | Sì, formato di pagamento in addebito diretto ISO 20022 per l'Austria |
-| Moduli interessati             | Contabilità clienti                                    |
+| **Motivo del deprecamento**       | Il formato di pagamento non è più utilizzato.                  |
+| **Sostituita da un'altra funzionalità?** | Sì, formato di pagamento in addebito diretto ISO 20022 per l'Austria |
+| **Moduli interessati**             | Contabilità clienti                                    |
 
 ### <a name="edivat-for-belgium"></a>EDIVAT per il Belgio
 
@@ -166,9 +142,9 @@ EDIVAT è uno standard belga obsoleto per la dichiarazione tramite posta elettro
 
 |                              |                                      |
 |------------------------------|--------------------------------------|
-| Motivo del deprecamento       | La funzionalità non è più utilizzata. |
-| Sostituita da un'altra funzionalità? | Nessuna                                   |
-| Moduli interessati             | Contabilità generale                       |
+| **Motivo del deprecamento**       | La funzionalità non è più utilizzata. |
+| **Sostituita da un'altra funzionalità?** | Nessuna                                   |
+| **Moduli interessati**             | Contabilità generale                       |
 
 ### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a>Formato di importazione dei pagamenti eGiro EDIFACT CREMUL per la Norvegia
 
@@ -176,9 +152,9 @@ eGiro si basa sullo standard internazionale UN EDIFACT CREMUL, (Multiple Credit 
 
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il formato di pagamento non è più utilizzato.                                                     |
-| Sostituita da un'altra funzionalità? | N. Il formato verrà sostituito dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
-| Moduli interessati             | Contabilità clienti                                                                       |
+| **Motivo del deprecamento**       | Il formato di pagamento non è più utilizzato.                                                     |
+| **Sostituita da un'altra funzionalità?** | N. Il formato verrà sostituito dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
+| **Moduli interessati**             | Contabilità clienti                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Inventario esterno per la Polonia
 
@@ -186,9 +162,9 @@ Prova delle merci prese da un fornitore per le vendite senza acquisto. Le merci 
 
 |                              |                                                 |
 |------------------------------|-------------------------------------------------|
-| Motivo del deprecamento       | Sostituita da un'altra funzionalità                     |
-| Sostituita da un'altra funzionalità? | Sì, la funzionalità core di spedizione in entrata |
-| Moduli interessati             | Contabilità fornitori, Gestione inventario          |
+| **Motivo del deprecamento**       | Sostituita da un'altra funzionalità                     |
+| **Sostituita da un'altra funzionalità?** | Sì, la funzionalità core di spedizione in entrata |
+| **Moduli interessati**             | Contabilità fornitori, Gestione inventario          |
 
 ### <a name="financial-reports-generator-for-eastern-europe"></a>Generatore di report finanziari nell'Europa dell'Est
 
@@ -196,9 +172,9 @@ Strumento per impostare la raccolta dei dati per i report fiscali e contabili ed
 
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Utilizzo limitato                                                                            |
-| Sostituita da un'altra funzionalità? | N. Lo strumento verrà sostituito nelle versioni future dalle configurazioni dei report elettronici. |
-| Moduli interessati             | Contabilità generale                                                                           |
+| **Motivo del deprecamento**       | Utilizzo limitato                                                                            |
+| **Sostituita da un'altra funzionalità?** | N. Lo strumento verrà sostituito nelle versioni future dalle configurazioni dei report elettronici. |
+| **Moduli interessati**             | Contabilità generale                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Importazione delle transazioni di pagamento dei clienti per la Finlandia
 
@@ -206,9 +182,9 @@ Strumento per impostare la raccolta dei dati per i report fiscali e contabili ed
 
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il formato di pagamento non è più utilizzato.                                                     |
-| Sostituita da un'altra funzionalità? | N. Il formato verrà sostituito dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
-| Moduli interessati             | Contabilità clienti                                                                       |
+| **Motivo del deprecamento**       | Il formato di pagamento non è più utilizzato.                                                     |
+| **Sostituita da un'altra funzionalità?** | N. Il formato verrà sostituito dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
+| **Moduli interessati**             | Contabilità clienti                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importazione delle transazioni di pagamento in un giornale di registrazione contabile per la Finlandia
 
@@ -216,9 +192,9 @@ Un formato specifico per la Finlandia viene utilizzato per importare le transazi
 
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il formato di pagamento non è più utilizzato.                                                     |
-| Sostituita da un'altra funzionalità? | N. Il formato verrà sostituito dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
-| Moduli interessati             | Contabilità clienti                                                                       |
+| **Motivo del deprecamento**       | Il formato di pagamento non è più utilizzato.                                                     |
+| **Sostituita da un'altra funzionalità?** | N. Il formato verrà sostituito dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
+| **Moduli interessati**             | Contabilità clienti                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Integrazione con CIS (Client Isabel Synchronizer) per il Belgio
 
@@ -226,9 +202,9 @@ Isabel è il framework di E-banking in Europa e uno standard di fatto in Belgio.
 
 |                              |                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | L'integrazione con Client Isabel è stata interrotta.                                                                |
-| Sostituita da un'altra funzionalità? | N. I formati di pagamento non più utilizzati verranno sostituiti dal formato di pagamento con bonifico ISO20022 per il Belgio. |
-| Moduli interessati             | Contabilità fornitori                                                                                                     |
+| **Motivo del deprecamento**       | L'integrazione con Client Isabel è stata interrotta.                                                                |
+| **Sostituita da un'altra funzionalità?** | N. I formati di pagamento non più utilizzati verranno sostituiti dal formato di pagamento con bonifico ISO20022 per il Belgio. |
+| **Moduli interessati**             | Contabilità fornitori                                                                                                     |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Modifiche al piano dei conti e alle regole contabili per la Spagna
 
@@ -236,9 +212,9 @@ Questa funzionalità consente delle modifiche al piano dei conti e alle regole c
 
 |                              |                |
 |------------------------------|----------------|
-| Motivo del deprecamento       | Utilizzo limitato  |
-| Sostituita da un'altra funzionalità? | Nessuna             |
-| Moduli interessati             | Contabilità generale |
+| **Motivo del deprecamento**       | Utilizzo limitato  |
+| **Sostituita da un'altra funzionalità?** | Nessuna             |
+| **Moduli interessati**             | Contabilità generale |
 
 ### <a name="pagamento-fornittori-vendor-payment-format"></a>Formato di pagamento fornitori Pagamento Fornitori
 
@@ -246,9 +222,9 @@ Precedente formato di pagamento italiano per i trasferimenti di credito.
 
 |                              |                                                        |
 |------------------------------|--------------------------------------------------------|
-| Motivo del deprecamento       | Il formato di pagamento non è più utilizzato.                  |
-| Sostituita da un'altra funzionalità? | Sì, formato di pagamento tramite bonifico ISO20022 per l'Italia |
-| Moduli interessati             | Contabilità fornitori                                       |
+| **Motivo del deprecamento**       | Il formato di pagamento non è più utilizzato.                  |
+| **Sostituita da un'altra funzionalità?** | Sì, formato di pagamento tramite bonifico ISO20022 per l'Italia |
+| **Moduli interessati**             | Contabilità fornitori                                       |
 
 ### <a name="payment-export-formats-for-estonia"></a>Formati di esportazione dei pagamenti per l'Estonia
 
@@ -256,9 +232,9 @@ I formati Telehansa e Teleservice vengono utilizzati per l'esportazione di pagam
 
 |                              |                                                          |
 |------------------------------|----------------------------------------------------------|
-| Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                  |
-| Sostituita da un'altra funzionalità? | Sì, formato di pagamento tramite bonifico ISO20022 per l'Estonia |
-| Moduli interessati             | Contabilità fornitori                                         |
+| **Motivo del deprecamento**      | I formati di pagamento non sono più utilizzati.                  |
+| **Sostituita da un'altra funzionalità?** | Sì, formato di pagamento tramite bonifico ISO20022 per l'Estonia |
+| **Moduli interessati**             | Contabilità fornitori                                         |
 
 ### <a name="payment-file-archive-for-norway"></a>Archivio file di pagamento per la Norvegia
 
@@ -266,9 +242,9 @@ Quando i file di pagamento vengono generati, l'archivio dei file archivia automa
 
 |                              |                                                                    |
 |------------------------------|--------------------------------------------------------------------|
-| Motivo del deprecamento       | Sostituita da un'altra funzionalità                                        |
-| Sostituita da un'altra funzionalità? | Sì, processi archiviati di creazione report elettronici                            |
-| Moduli interessati             | Contabilità fornitori, Contabilità clienti, Amministrazione organizzazione |
+| **Motivo del deprecamento**       | Sostituita da un'altra funzionalità                                        |
+| **Sostituita da un'altra funzionalità?** | Sì, processi archiviati di creazione report elettronici                            |
+| **Moduli interessati**             | Contabilità fornitori, Contabilità clienti, Amministrazione organizzazione |
 
 ### <a name="payment-import-formats-for-estonia"></a>Formati di importazione dei pagamenti per l'Estonia
 
@@ -276,9 +252,9 @@ I formati Telehansa e TeleTeenus vengono utilizzati per l'importazione di pagame
 
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                                                    |
-| Sostituita da un'altra funzionalità? | N. I formati verranno sostituiti dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
-| Moduli interessati             | Contabilità clienti                                                                        |
+| **Motivo del deprecamento**       | I formati di pagamento non sono più utilizzati.                                                    |
+| **Sostituita da un'altra funzionalità?** | N. I formati verranno sostituiti dai formati di importazione dei rendiconti ISO 20022 nelle versioni future. |
+| **Moduli interessati**             | Contabilità clienti                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Flusso di lavoro relativo agli obiettivi di gestione delle prestazioni
 
@@ -286,9 +262,9 @@ La gestione delle prestazioni include la gestione e l'integrazione degli obietti
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La gestione delle prestazioni è stata riprogettata e il numero di pagine degli obiettivi è stato ridotto per semplificare il processo.                 |
-| Sostituita da un'altra funzionalità? | N. Gli obiettivi sono visibili ai responsabili tramite il portale Responsabile self-service e possono essere modificati e visualizzati dal responsabile. |
-| Moduli interessati             | Gestione risorse umane                                                                                                 |
+| **Motivo del deprecamento**       | La gestione delle prestazioni è stata riprogettata e il numero di pagine degli obiettivi è stato ridotto per semplificare il processo.                 |
+| **Sostituita da un'altra funzionalità?** | N. Gli obiettivi sono visibili ai responsabili tramite il portale Responsabile self-service e possono essere modificati e visualizzati dal responsabile. |
+| **Moduli interessati**             | Gestione risorse umane                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Formati di pagamento Postgirot e Postgirot Utland per la Svezia
 
@@ -296,9 +272,9 @@ Formati di pagamento Postgirot e Postgirot Utland per la Svezia.
 
 |                              |                                                         |
 |------------------------------|---------------------------------------------------------|
-| Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                 |
-| Sostituita da un'altra funzionalità? | Sì, formato di pagamento tramite bonifico ISO20022 per la Svezia |
-| Moduli interessati             | Contabilità fornitori                                        |
+| **Motivo del deprecamento**       | I formati di pagamento non sono più utilizzati.                 |
+| **Sostituita da un'altra funzionalità?** | Sì, formato di pagamento tramite bonifico ISO20022 per la Svezia |
+| **Moduli interessati**             | Contabilità fornitori                                        |
 
 ### <a name="radio-frequency-identifier"></a>Identificatore di radiofrequenza
 
@@ -306,9 +282,9 @@ RFID (Radio Frequency Identification) è una tecnologia di raccolta dei dati che
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Motivo del deprecamento       | Basso utilizzo cliente e set di funzionalità limitato. |
-| Sostituita da un'altra funzionalità? | No                                            |
-| Moduli interessati             | Gestione inventario                          |
+| **Motivo del deprecamento**       | Basso utilizzo cliente e set di funzionalità limitato. |
+| **Sostituita da un'altra funzionalità?** | No                                            |
+| **Moduli interessati**             | Gestione inventario                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Report sulla numerazione delle fatture con stato per la Lettonia
 
@@ -316,9 +292,9 @@ La legislazione lettone fornisce regole specifiche sulla numerazione delle fattu
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La numerazione di fatture con stato non deve essere più gestito. Il report sui numeri di fattura utilizzati non è più necessario. |
-| Sostituita da un'altra funzionalità? | Nessuna                                                                                                                       |
-| Moduli interessati             | Contabilità clienti                                                                                                      |
+| **Motivo del deprecamento**       | La numerazione di fatture con stato non deve essere più gestito. Il report sui numeri di fattura utilizzati non è più necessario. |
+| **Sostituita da un'altra funzionalità?** | Nessuna                                                                                                                       |
+| **Moduli interessati**             | Contabilità clienti                                                                                                      |
 
 ### <a name="set-up-the-names-of-the-manager-and-general-accountant-of-a-company-for-lithuania"></a>Impostare i nomi del responsabile e del contabile generale di una società per la Lituania
 
@@ -326,9 +302,9 @@ I nomi del responsabile e del contabile generale di una società possono essere 
 
 |                              |                                                                 |
 |------------------------------|-----------------------------------------------------------------|
-| Motivo del deprecamento       | Sostituita da un'altra funzionalità                                     |
-| Sostituita da un'altra funzionalità? | Sì, l'impostazione dei funzionari può essere utilizzata per lo stesso scopo.   |
-| Moduli interessati             | contabilità fornitori, contabilità clienti, gestione contanti e banca |
+| **Motivo del deprecamento**       | Sostituita da un'altra funzionalità                                     |
+| **Sostituita da un'altra funzionalità?** | Sì, l'impostazione dei funzionari può essere utilizzata per lo stesso scopo.   |
+| **Moduli interessati**             | contabilità fornitori, contabilità clienti, gestione contanti e banca |
 
 ### <a name="telepay-payment-formats-for-norway"></a>Formati di pagamento Telepay per la Norvegia
 
@@ -336,9 +312,9 @@ I formati di pagamento Telepay includono l'esportazione dei pagamenti fornitori 
 
 |                              |                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                                                        |
-| Sostituita da un'altra funzionalità? | Sì, il formato di pagamento con bonifico ISO20022 e il formato di pagamento cliente AvtaleGiro per la Norvegia |
-| Moduli interessati             | Contabilità fornitori, contabilità clienti                                                          |
+| **Motivo del deprecamento**       | I formati di pagamento non sono più utilizzati.                                                        |
+| **Sostituita da un'altra funzionalità?** | Sì, il formato di pagamento con bonifico ISO20022 e il formato di pagamento cliente AvtaleGiro per la Norvegia |
+| **Moduli interessati**            | Contabilità fornitori, contabilità clienti                                                          |
 
 ### <a name="vendor-payment-export-formats-for-finland"></a>Formati di esportazione pagamenti fornitori per la Finlandia
 
@@ -346,9 +322,9 @@ Due formati per l'esportazione dei pagamenti disponibili per la Finlandia. LM02 
 
 |                              |                                                          |
 |------------------------------|----------------------------------------------------------|
-| Motivo del deprecamento       | I formati di pagamento non sono più utilizzati.                  |
-| Sostituita da un'altra funzionalità? | Sì, formato di pagamento tramite bonifico ISO20022 per la Finlandia |
-| Moduli interessati             | Contabilità fornitori                                         |
+| **Motivo del deprecamento**       | I formati di pagamento non sono più utilizzati.                  |
+| **Sostituita da un'altra funzionalità?** | Sì, formato di pagamento tramite bonifico ISO20022 per la Finlandia |
+| **Moduli interessati**            | Contabilità fornitori                                         |
 
 ### <a name="workflow-for-creating-goals"></a>Flusso di lavoro per creare obiettivi
 
@@ -356,18 +332,19 @@ Un flusso di lavoro per la gestione della creazione degli obiettivi dei dipenden
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La gestione delle prestazioni è stata completamente riprogettata in Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                        |
-| Sostituita da un'altra funzionalità? | La funzionalità di gestione delle prestazioni riprogettata dà maggiore controllo al contenuto degli obiettivi, alle misurazioni utilizzate per tenere traccia dello stato di avanzamento e all'allegato della documentazione di supporto. I destinatari possono essere archiviati come modelli e quindi riutilizzati. Questa funzionalità consente di impostare più rapidamente gli obiettivi supplementari per i dipendenti. |
-| Moduli interessati             | Gestione risorse umane                                                                                                                                                                                                                                                                                                               |
+| **Motivo del deprecamento**       | La gestione delle prestazioni è stata completamente riprogettata in Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                        |
+| **Sostituita da un'altra funzionalità?** | La funzionalità di gestione delle prestazioni riprogettata dà maggiore controllo al contenuto degli obiettivi, alle misurazioni utilizzate per tenere traccia dello stato di avanzamento e all'allegato della documentazione di supporto. I destinatari possono essere archiviati come modelli e quindi riutilizzati. Questa funzionalità consente di impostare più rapidamente gli obiettivi supplementari per i dipendenti. |
+| **Moduli interessati**            | Gestione risorse umane                                                                                                                                                                                                                                                                                                               |
 
-## <a name="features-deprecated-in-dynamics-ax-70-releases"></a>Funzionalità deprecate nelle versioni di Dynamics AX 7.0
+## <a name="features-that-have-been-deprecated-in-dynamics-ax-70-releases"></a>Funzionalità che sono state deprecate nelle versioni di Dynamics AX 7.0
+
 ### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a>Capacità di annullare le modifiche apportate a una fattura fornitore
 
 |                              |                         |
 |------------------------------|-------------------------|
-| Motivo del deprecamento       | Miglioramento delle prestazioni |
-| Sostituita da un'altra funzionalità? | No                      |
-| Moduli interessati             | Contabilità fornitori        |
+| **Motivo del deprecamento**       | Miglioramento delle prestazioni |
+| **Sostituita da un'altra funzionalità?** | No                      |
+| **Moduli interessati**            | Contabilità fornitori        |
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integrazioni di AIF, di AxD e di AxBC
 
@@ -375,9 +352,9 @@ In Application Integration Framework (AIF), i dati possono essere scambiati ai s
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | L'architettura AIF e di AxDs non può essere ridimensionata a un servizio cloud. Si sono verificati problemi di prestazioni nell'importazione di stoccaggio.                                                                               |
-| Sostituita da un'altra funzionalità? | Nella versione corrente di Dynamics AX, questa funzionalità è sostituito dal framework di esportazione e importazione dei dati, che supporta l'importazione/esportazione in blocco ricorrente. Per AxBC, si consiglia di utilizzare le tabelle effettive. |
-| Moduli interessati             | AxDs, AxBCs e AIF                                                                                                                                                                                     |
+| **Motivo del deprecamento**       | L'architettura AIF e di AxDs non può essere ridimensionata a un servizio cloud. Si sono verificati problemi di prestazioni nell'importazione di stoccaggio.                                                                               |
+| **Sostituita da un'altra funzionalità?** | Nella versione corrente di Dynamics AX, questa funzionalità è sostituito dal framework di esportazione e importazione dei dati, che supporta l'importazione/esportazione in blocco ricorrente. Per AxBC, si consiglia di utilizzare le tabelle effettive. |
+| **Moduli interessati**             | AxDs, AxBCs e AIF                                                                                                                                                                                     |
 
 ### <a name="boms-without-bom-versions"></a>DBA senza versioni DBA
 
@@ -385,9 +362,9 @@ Se la chiave di configurazione **Versioni DBA** è stata disabilitata, le versio
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Utilizzare una chiave di configurazione per controllare le versioni DBA non ridimensiona in un ambiente cloud. |
-| Sostituita da un'altra funzionalità? | No                                                                                      |
-| Moduli interessati             | Gestione delle informazioni sul prodotto, gestione articoli                                    |
+| **Motivo del deprecamento**      | Utilizzare una chiave di configurazione per controllare le versioni DBA non ridimensiona in un ambiente cloud. |
+| **Sostituita da un'altra funzionalità?** | No                                                                                      |
+| **Moduli interessati**            | Gestione delle informazioni sul prodotto, gestione articoli                                    |
 
 ### <a name="brazilian-bordero"></a>Bordero brasiliano
 
@@ -395,9 +372,9 @@ Metodo di pagamento specifico delle società brasiliane
 
 |                              |                                                                                                       |
 |------------------------------|-------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il supporto del metodo di pagamento Bordero brasiliano è stato interrotto dalla localizzazione brasiliana |
-| Sostituita da un'altra funzionalità? | Nessuna                                                                                                    |
-| Moduli interessati             | Contabilità fornitori                                                                                      |
+| **Motivo del deprecamento**       | Il supporto del metodo di pagamento Bordero brasiliano è stato interrotto dalla localizzazione brasiliana |
+| **Sostituita da un'altra funzionalità?** | Nessuna                                                                                                    |
+| **Moduli interessati**             | Contabilità fornitori                                                                                      |
 
 ### <a name="brazilian-sintegra-statement"></a>Rendiconto brasiliano di Sintegra
 
@@ -405,9 +382,9 @@ Rendiconto delle imposte federali dell'imposta ICMS
 
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Questo rendiconto non è più applicabile in alcuni stati brasiliani.                                                     |
-| Sostituita da un'altra funzionalità? | N. Gli utenti possono utilizzare lo strumento generico di creazione report elettronici per configurare il rendiconto se richiesto in situazioni specifiche. |
-| Moduli interessati             | Libri fiscali                                                                                                          |
+| **Motivo del deprecamento**       | Questo rendiconto non è più applicabile in alcuni stati brasiliani.                                                     |
+| **Sostituita da un'altra funzionalità?** | N. Gli utenti possono utilizzare lo strumento generico di creazione report elettronici per configurare il rendiconto se richiesto in situazioni specifiche. |
+| **Moduli interessati**             | Libri fiscali                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Modalità di contingenza SCAN brasiliana per NF-e
 
@@ -415,9 +392,9 @@ L'ambiente di contingenza (SCAN) viene utilizzato per generare, esportare e impo
 
 |                              |                                                                             |
 |------------------------------|-----------------------------------------------------------------------------|
-| Motivo del deprecamento       | Questo metodo di contingenza non è più applicabile in tutti gli stati brasiliani |
-| Sostituita da un'altra funzionalità? | Nessuna                                                                          |
-| Moduli interessati             | Contabilità clienti                                                         |
+| **Motivo del deprecamento**       | Questo metodo di contingenza non è più applicabile in tutti gli stati brasiliani |
+| **Sostituita da un'altra funzionalità?** | Nessuna                                                                          |
+| **Moduli interessati**             | Contabilità clienti                                                         |
 
 ### <a name="business-analyzer"></a>Business Analyzer
 
@@ -425,9 +402,9 @@ Questa applicazione mobile consente agli utenti di esaminare metriche commercial
 
 |                              |                                                                                                                                                               |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Questa funzionalità è stata sostituita da un'altra funzionalità.                                                                                                      |
-| Sostituita da un'altra funzionalità? | Il pacchetto di contenuto Monitorare le prestazioni finanziarie per Microsoft Power BI includerà metriche finanziarie principali precedentemente disponibili in Business Analyzer. |
-| Moduli interessati             | Contabilità generale                                                                                                                                                |
+| **Motivo del deprecamento**       | Questa funzionalità è stata sostituita da un'altra funzionalità.                                                                                                      |
+| **Sostituita da un'altra funzionalità?** | Il pacchetto di contenuto Monitorare le prestazioni finanziarie per Microsoft Power BI includerà metriche finanziarie principali precedentemente disponibili in Business Analyzer. |
+| **Moduli interessati**             | Contabilità generale                                                                                                                                                |
 
 ### <a name="business-statistics"></a>Statistiche aziendali
 
@@ -435,25 +412,25 @@ Consente di impostare richieste di informazioni su statistiche aziendali che pos
 
 |                              |                                                                                              |
 |------------------------------|----------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Approccio precedente a business intelligence (BI), basso utilizzo del cliente e un set di funzionalità limitato |
-| Sostituita da un'altra funzionalità? | Nuove soluzioni BI per la versione corrente di Dynamics AX                                      |
-| Moduli interessati             | Aapprovvigionamento, contabilità fornitori, vendite e marketing, contabilità clienti         |
+| **Motivo del deprecamento**       | Approccio precedente a business intelligence (BI), basso utilizzo del cliente e un set di funzionalità limitato |
+| **Sostituita da un'altra funzionalità?** | Nuove soluzioni BI per la versione corrente di Dynamics AX                                      |
+| **Moduli interessati**             | Aapprovvigionamento, contabilità fornitori, vendite e marketing, contabilità clienti         |
 
 ### <a name="change-document-date-function-in-invoice-approval-journal"></a>Funzione di modifica della data del documento nel giornale di approvazione fatture
 
 |                              |                                                                         |
 |------------------------------|-------------------------------------------------------------------------|
-| Motivo del deprecamento       | Basso utilizzo                                                               |
-| Sostituita da un'altra funzionalità? | Sì. La data del documento nella transazione fornitore registrazione può essere modificata. |
-| Moduli interessati             | Contabilità fornitori                                                        |
+| **Motivo del deprecamento**       | Basso utilizzo                                                               |
+| **Sostituita da un'altra funzionalità?** | Sì. La data del documento nella transazione fornitore registrazione può essere modificata. |
+| **Moduli interessati**             | Contabilità fornitori                                                        |
 
 ### <a name="clieop03-payment-format-for-the-netherlands"></a>Formato pagamento ClieOp03 per i Paesi Bassi
 
 |                              |                                                                                                            |
 |------------------------------|------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il formato non è più applicabile nei Paesi Bassi, poiché è stato sostituito da euro funzionalità di (SEPA) di l di pagamenti Single. |
-| Sostituita da un'altra funzionalità? | Esportazione pagamenti SEPA                                                                                       |
-| Moduli interessati             | Tutti                                                                                                        |
+| **Motivo del deprecamento**       | Il formato non è più applicabile nei Paesi Bassi, poiché è stato sostituito da euro funzionalità di (SEPA) di l di pagamenti Single. |
+| **Sostituita da un'altra funzionalità?** | Esportazione pagamenti SEPA                                                                                       |
+| **Moduli interessati**             | Tutti                                                                                                        |
 
 ### <a name="compliance-center"></a>Centro conformità
 
@@ -461,9 +438,9 @@ Il centro conformità è un sito Enterprise Portal per gestire i requisiti della
 
 |                              |                                                                                                                        |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Mancanza di utilizzo del cliente. Microsoft SharePoint include la stessa funzione che è disponibile nel centro conformità. |
-| Sostituita da un'altra funzionalità? | No                                                                                                                     |
-| Moduli interessati             | Controlli interni e di conformità                                                                                       |
+| **Motivo del deprecamento**       | Mancanza di utilizzo del cliente. Microsoft SharePoint include la stessa funzione che è disponibile nel centro conformità. |
+| **Sostituita da un'altra funzionalità?** | No                                                                                                                     |
+| **Moduli interessati**             | Controlli interni e di conformità                                                                                       |
 
 ### <a name="connector-for-microsoft-dynamics"></a>Connettore per Microsoft Dynamics
 
@@ -471,41 +448,41 @@ Questo strumento è stato utilizzato per integrare i dati di chiave da Microsoft
 
 |                              |                                                          |
 |------------------------------|----------------------------------------------------------|
-| Motivo del deprecamento       | Questa funzionalità è stata sostituita da un'altra funzionalità. |
-| Sostituita da un'altra funzionalità? | Integratore di Dynamics                                      |
-| Moduli interessati             | Connettore per Microsoft Dynamics                         |
+| **Motivo del deprecamento**       | Questa funzionalità è stata sostituita da un'altra funzionalità. |
+| **Sostituita da un'altra funzionalità?** | Integratore di Dynamics                                      |
+| **Moduli interessati**             | Connettore per Microsoft Dynamics                         |
 
 ### <a name="container-unit-and-multi-dimension-on-hand"></a>Unità contenitore e modello multi-dimensionale disponibili
 
 |                              |                                                                                                                                                                 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Funzionalità duplicata.                                                                                                                                         |
-| Sostituita da un'altra funzionalità? | Sì. Da AX 2012, questa funzionalità è stata sostituita dal set di funzionalità di ordini batch consolidati. Il set di funzionalità include la visualizzazione della disponibilità consolidata. |
-| Moduli interessati             | Gestione delle informazioni sul prodotto, controllo produzione, gestione articoli, vendite e marketing                                                                   |
+| **Motivo del deprecamento**       | Funzionalità duplicata.                                                                                                                                         |
+| **Sostituita da un'altra funzionalità?** | Sì. Da AX 2012, questa funzionalità è stata sostituita dal set di funzionalità di ordini batch consolidati. Il set di funzionalità include la visualizzazione della disponibilità consolidata. |
+| **Moduli interessati**             | Gestione delle informazioni sul prodotto, controllo produzione, gestione articoli, vendite e marketing                                                                   |
 
 ### <a name="cue-group-metadata"></a>Metadati gruppo Cue
 
 |                              |                                                                                                                                                                                                                               |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | I gruppi Cue sono stati utilizzati per visualizzare uno o più Cue nell'area di Dettaglio informazioni. Vi era un assorbimento è limitato e anche problematiche di prestazioni, poiché registrare la modifica in un modulo padre ha causato una query per Cue nel gruppo Cue. |
-| Sostituita da un'altra funzionalità? | No                                                                                                                                                                                                                            |
-| Moduli interessati             | Tutti                                                                                                                                                                                                                           |
+| **Motivo del deprecamento**       | I gruppi Cue sono stati utilizzati per visualizzare uno o più Cue nell'area di Dettaglio informazioni. Vi era un assorbimento è limitato e anche problematiche di prestazioni, poiché registrare la modifica in un modulo padre ha causato una query per Cue nel gruppo Cue. |
+| **Sostituita da un'altra funzionalità?** | No                                                                                                                                                                                                                            |
+| **Moduli interessati**             | Tutti                                                                                                                                                                                                                           |
 
 ### <a name="cue-metadata"></a>Metadati Cue
 
 |                              |                                                                                                                                                                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | I metadati Cue sono stati limitati alle informazioni di conteggio o somma.                                                                                                                                                                                   |
-| Sostituita da un'altra funzionalità? | I metadati della sezione sono stato introdotti per dare più flessibilità per la modellizzazione. Ad esempio, è possibile modellare i conteggi correnti, la navigazione e gli indicatori di prestazioni chiave (KPI). I metadati della sezione di conteggio sono la sostituzione diretta dei metadati Cue. |
-| Moduli interessati             | Tutti                                                                                                                                                                                                                                     |
+| **Motivo del deprecamento**       | I metadati Cue sono stati limitati alle informazioni di conteggio o somma.                                                                                                                                                                                   |
+| **Sostituita da un'altra funzionalità?** | I metadati della sezione sono stato introdotti per dare più flessibilità per la modellizzazione. Ad esempio, è possibile modellare i conteggi correnti, la navigazione e gli indicatori di prestazioni chiave (KPI). I metadati della sezione di conteggio sono la sostituzione diretta dei metadati Cue. |
+| **Moduli interessati**             | Tutti                                                                                                                                                                                                                                     |
 
 ### <a name="danish-check-format"></a>Formato assegno italiano
 
 |                              |                                                                                                                         |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il supporto al layout di formato dell'assegno danese è stato interrotto e il report è stato rimosso da localizzazione DK. |
-| Sostituita da un'altra funzionalità? | No                                                                                                                      |
-| Moduli interessati             | Tutti                                                                                                                     |
+| **Motivo del deprecamento**       | Il supporto al layout di formato dell'assegno danese è stato interrotto e il report è stato rimosso da localizzazione DK. |
+| **Sostituita da un'altra funzionalità?** | No                                                                                                                      |
+| **Moduli interessati**             | Tutti                                                                                                                     |
 
 ### <a name="data-partitions"></a>Partizioni di dati
 
@@ -513,34 +490,34 @@ Le partizioni di dati forniscono una separazione logica di dati nel database di 
 
 |   |   |
 |---|---|
-| Motivo del deprecamento       | Le partizioni di dati sono state introdotte in Microsoft Dynamics AX 2012 R2 per abilitare l'isolamento dei dati. In uno scenario comune, una società ha affiliate e i dati di una filiale non devono essere visibili in un'altra filiale, anche se entrambe le filiali sono gestite dallo stesso reparto IT. Tuttavia, un sovraccarico di gestione e script aggiuntivi nel programma erano necessari per creare nuove partizioni e popolarle con i dati e per eseguire il backup dei dati della partizione. Nel cloud, dove si ha accesso ai servizi di database di piattaforma distribuita come servizio (PaaS) (Database SQL di Microsoft Azure), è molto più efficiente utilizzare un database come contenitore di isolamento rispetto all'isolamento nel programma. Indipendentemente dal fatto che il partizionamento dei dati sia necessario per le filiali, per più tenant o semplicemente per esigenze di scalabilità, crediamo che gli scenari possono essere gestiti meglio tramite più database o più istanze di Dynamics AX. |
-| Sostituita da un'altra funzionalità? | Verranno sostituite le partizioni di dati tramite il supporto per più database o istanze di Dynamics AX in una versione futura.    |
-| Moduli interessati             | Tutti  |
+| **Motivo del deprecamento**       | Le partizioni di dati sono state introdotte in Microsoft Dynamics AX 2012 R2 per abilitare l'isolamento dei dati. In uno scenario comune, una società ha affiliate e i dati di una filiale non devono essere visibili in un'altra filiale, anche se entrambe le filiali sono gestite dallo stesso reparto IT. Tuttavia, un sovraccarico di gestione e script aggiuntivi nel programma erano necessari per creare nuove partizioni e popolarle con i dati e per eseguire il backup dei dati della partizione. Nel cloud, dove si ha accesso ai servizi di database di piattaforma distribuita come servizio (PaaS) (Database SQL di Microsoft Azure), è molto più efficiente utilizzare un database come contenitore di isolamento rispetto all'isolamento nel programma. Indipendentemente dal fatto che il partizionamento dei dati sia necessario per le filiali, per più tenant o semplicemente per esigenze di scalabilità, crediamo che gli scenari possono essere gestiti meglio tramite più database o più istanze di Dynamics AX. |
+| **Sostituita da un'altra funzionalità?** | Verranno sostituite le partizioni di dati tramite il supporto per più database o istanze di Dynamics AX in una versione futura.    |
+| **Moduli interessati**             | Tutti  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Archiviazione nel database e nella condivisione file per gli allegati
 Microsoft Dynamics AX 2012 ha consentito l'archiviazione degli allegati nel database e nelle condivisioni file. Entrambe tali opzioni non sono più supportate.
 
 |                              |                                        |
 |------------------------------|----------------------------------------|
-| Motivo del deprecamento       | L'archiviazione nella condivisione dei file non è più supportata in quanto gli ambienti ospitati nel cloud non possono comunicare con le condivisioni file locali. L'archiviazione del database è stata deprecata a favore dell'archivio BLOB di Azure. L'archivio BLOB di Azure equivale all'archiviazione nel database, poiché i documenti sono accessibili solo tramite i moduli del client Dynamics 365 for Finance and Operations. In questo modo si ha il vantaggio aggiuntivo di fornire archiviazione senza influire negativamente sulle prestazioni del database. L'archivio BLOB è il meccanismo di archiviazione predefinito per la gestione di documenti e funziona immediatamente. |
-| Sostituita da un'altra funzionalità? | L'archiviazione del database è stata deprecata a favore dell'archivio BLOB di Azure.       |
-| Moduli interessati             | Tutti                   |
+| **Motivo del deprecamento**       | L'archiviazione nella condivisione dei file non è più supportata in quanto gli ambienti ospitati nel cloud non possono comunicare con le condivisioni file locali. L'archiviazione del database è stata deprecata a favore dell'archivio BLOB di Azure. L'archivio BLOB di Azure equivale all'archiviazione nel database, poiché i documenti sono accessibili solo tramite i moduli del client Dynamics 365 for Finance and Operations. In questo modo si ha il vantaggio aggiuntivo di fornire archiviazione senza influire negativamente sulle prestazioni del database. L'archivio BLOB è il meccanismo di archiviazione predefinito per la gestione di documenti e funziona immediatamente. |
+| **Sostituita da un'altra funzionalità?** | L'archiviazione del database è stata deprecata a favore dell'archivio BLOB di Azure.       |
+| **Moduli interessati**             | Tutti                   |
 
 ### <a name="delimitation"></a>Delimitazione
 
 |                              |                                        |
 |------------------------------|----------------------------------------|
-| Motivo del deprecamento       | Non utilizzare la funzione è stato cercato. |
-| Sostituita da un'altra funzionalità? | No                                     |
-| Moduli interessati             | Orario e presenze                    |
+| **Motivo del deprecamento**       | Non utilizzare la funzione è stato cercato. |
+| **Sostituita da un'altra funzionalità?** | No                                     |
+| **Moduli interessati**             | Orario e presenze                    |
 
 ### <a name="desktop-client"></a>Client desktop
 
 |                              |                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | L'esperienza client di Dynamics AX è stata riprogettata per migliorare la facilità d'uso tra più piattaforme e dispositivi.                      |
-| Sostituita da un'altra funzionalità? | Il nuovo web client è basato sui metadati e il modello di programmazione desktop del modulo modificati per fornire una ricca piattaforma web. |
-| Moduli interessati             | Tutti                                                                                                                                    |
+| **Motivo del deprecamento**       | L'esperienza client di Dynamics AX è stata riprogettata per migliorare la facilità d'uso tra più piattaforme e dispositivi.                      |
+| **Sostituita da un'altra funzionalità?** | Il nuovo web client è basato sui metadati e il modello di programmazione desktop del modulo modificati per fornire una ricca piattaforma web. |
+| **Moduli interessati**             | Tutti                                                                                                                                    |
 
 ### <a name="direct-database-connection"></a>Connessione diretta al database
 
@@ -548,17 +525,17 @@ In Dynamics AX 2012 R3, Retail Modern POS poteva connettersi direttamente al dat
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La connettività diretta del database richiedeva i protocolli di protezione minimi ed era principalmente utilizzata per ottenere i massimi livelli delle prestazioni. A causa dei miglioramenti di protezione e delle prestazioni di Finance and Operations, questa funzionalità ora comporta più problemi che vantaggi. |
-| Sostituita da un'altra funzionalità? | N. È ora supportata solo la comunicazione standard del server Retail.    |
-| Moduli interessati             | Database canale/Retail Modern POS                                    |
+| **Motivo del deprecamento**       | La connettività diretta del database richiedeva i protocolli di protezione minimi ed era principalmente utilizzata per ottenere i massimi livelli delle prestazioni. A causa dei miglioramenti di protezione e delle prestazioni di Finance and Operations, questa funzionalità ora comporta più problemi che vantaggi. |
+| **Sostituita da un'altra funzionalità?** | N. È ora supportata solo la comunicazione standard del server Retail.    |
+| **Moduli interessati**             | Database canale/Retail Modern POS                                    |
 
 ### <a name="dutch-swift-mt940"></a>SWIFT olandese MT940
 
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La funzionalità generica ora viene utilizzata anziché la funzionalità localizzata.                                                                                                                                                                 |
-| Sostituita da un'altra funzionalità? | Sì, questa funzionalità viene sostituita con la funzionalità avanzata di riconciliazione estratti conto. |
-| Moduli interessati             | Tutti                                                                                                                                                                                                                                   |
+| **Motivo del deprecamento**       | La funzionalità generica ora viene utilizzata anziché la funzionalità localizzata.                                                                                                                                                                 |
+| **Sostituita da un'altra funzionalità?** | Sì, questa funzionalità viene sostituita con la funzionalità avanzata di riconciliazione estratti conto. |
+| **Moduli interessati**             | Tutti                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (XBRL per la Germania)
 
@@ -566,33 +543,33 @@ Questa funzionalità forniva l'output XBRL (eXtensible Business Reporting Langua
 
 |                              |                                                                                                                                                                        |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Mancanza di utilizzo del cliente                                                                                                                                                 |
-| Sostituita da un'altra funzionalità? | Questa funzionalità non è stata sostituita, ma diversi pacchetti XBRL specializzati che forniscono funzionalità XBRL avanzate sono disponibili per il mercato tedesco. |
-| Moduli interessati             | Management Reporter                                                                                                                                                    |
+| **Motivo del deprecamento**       | Mancanza di utilizzo del cliente                                                                                                                                                 |
+| **Sostituita da un'altra funzionalità?** | Questa funzionalità non è stata sostituita, ma diversi pacchetti XBRL specializzati che forniscono funzionalità XBRL avanzate sono disponibili per il mercato tedesco. |
+| **Moduli interessati**             | Management Reporter                                                                                                                                                    |
 
 ### <a name="enterprise-portal-client"></a>Client Enterprise Portal
 
 |                              |                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Una singola piattaforma cliente è stata fornita.                                                                                            |
-| Sostituita da un'altra funzionalità? | Il nuovo web client è basato sui metadati e il modello di programmazione desktop del modulo modificati per fornire una ricca piattaforma web. |
-| Moduli interessati             | Tutti                                                                                                                                    |
+| **Motivo del deprecamento**       | Una singola piattaforma cliente è stata fornita.                                                                                            |
+| **Sostituita da un'altra funzionalità?** | Il nuovo web client è basato sui metadati e il modello di programmazione desktop del modulo modificati per fornire una ricca piattaforma web. |
+| **Moduli interessati**             | Tutti                                                                                                                                    |
 
 ### <a name="environmental-sustainability"></a>Sostenibilità ambientale
 
 |                              |                                                    |
 |------------------------------|----------------------------------------------------|
-| Motivo del deprecamento       | Basso utilizzo cliente e set di funzionalità limitato       |
-| Sostituita da un'altra funzionalità? | No                                                 |
-| Moduli interessati             | Modulo Controlli interni e di conformità, contabilità fornitori |
+| **Motivo del deprecamento**       | Basso utilizzo cliente e set di funzionalità limitato       |
+| **Sostituita da un'altra funzionalità?** | No                                                 |
+| **Moduli interessati**             | Modulo Controlli interni e di conformità, contabilità fornitori |
 
 ### <a name="form-activex-and-managed-host-controls"></a>Modulo ActiveX e controlli host gestiti
 
 |                              |                                                                                                                                                                                               |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | ActiveX e i controlli host vengono gestiti in sul client desktop deprecato.                                                                                                             |
-| Sostituita da un'altra funzionalità? | Il frameword dei controlli estendibili supporta la creazione di nuovi controlli basati su HTML, CSS e JavaScript ed è un controllo di prima classe nell'ambente Microsoft Visual Studio Tooling. |
-| Moduli interessati             | Tutti                                                                                                                                                                                           |
+| **Motivo del deprecamento**       | ActiveX e i controlli host vengono gestiti in sul client desktop deprecato.                                                                                                             |
+| **Sostituita da un'altra funzionalità?** | Il frameword dei controlli estendibili supporta la creazione di nuovi controlli basati su HTML, CSS e JavaScript ed è un controllo di prima classe nell'ambente Microsoft Visual Studio Tooling. |
+| **Moduli interessati**             | Tutti                                                                                                                                                                                           |
 
 ### <a name="generate-prenotes-by-using-a-batch"></a>Generare notifiche anticipate utilizzando un batch
 
@@ -600,41 +577,41 @@ La creazione della notifica anticipata non può essere effettuata operazione uti
 
 |                              |                                                                                                        |
 |------------------------------|--------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Non esiste alcun modulo per salvare in modo permanente e visualizzare il file risultante di notifica anticipata quando viene generato utilizzando un batch. |
-| Sostituita da un'altra funzionalità? | Le notifiche anticipate possono ancora essere generate e l'utente ha controllo sul percorso di salvataggio del file.   |
-| Moduli interessati             | contabilità fornitori, contabilità clienti, gestione contanti e banca                                        |
+| **Motivo del deprecamento**       | Non esiste alcun modulo per salvare in modo permanente e visualizzare il file risultante di notifica anticipata quando viene generato utilizzando un batch. |
+| **Sostituita da un'altra funzionalità?** | Le notifiche anticipate possono ancora essere generate e l'utente ha controllo sul percorso di salvataggio del file.   |
+| **Moduli interessati**             | contabilità fornitori, contabilità clienti, gestione contanti e banca                                        |
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Esportazione di pagamento di DTAUS e importazione di estratto conto tedesco (totali e transazioni)
 
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il formato non è più applicabile in Germania, poiché è stato sostituito dalla funzionalità SEPA.                                                                                                                                                                 |
-| Sostituita da un'altra funzionalità? | Sì, questa funzionalità è stata sostituita dall'esportazione di pagamento SEPA e dalla funzionalità avanzata di riconciliazione estratti conto per importare gli estratti conto. |
-| Moduli interessati             | Tutti                                                                                                                                                                                                                                                                                            |
+| **Motivo del deprecamento**       | Il formato non è più applicabile in Germania, poiché è stato sostituito dalla funzionalità SEPA.                                                                                                                                                                 |
+| **Sostituita da un'altra funzionalità?** | Sì, questa funzionalità è stata sostituita dall'esportazione di pagamento SEPA e dalla funzionalità avanzata di riconciliazione estratti conto per importare gli estratti conto. |
+| **Moduli interessati**             | Tutti                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Formato di pagamento tedesco di DTAZV
 
 |                              |                                                                                                    |
 |------------------------------|----------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il formato non è più applicabile in Germania, poiché è stato sostituito dalla funzionalità SEPA. |
-| Sostituita da un'altra funzionalità? | Esportazione pagamenti SEPA                                                                               |
-| Moduli interessati             | Tutti                                                                                                |
+| **Motivo del deprecamento**       | Il formato non è più applicabile in Germania, poiché è stato sostituito dalla funzionalità SEPA. |
+| **Sostituita da un'altra funzionalità?** | Esportazione pagamenti SEPA                                                                               |
+| **Moduli interessati**             | Tutti                                                                                                |
 
 ### <a name="german-mt940-import"></a>Importazione tedesca MT940
 
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La funzionalità generica ora viene utilizzata anziché la funzionalità localizzata.                                                                                                                                                                 |
-| Sostituita da un'altra funzionalità? | Sì, questa funzionalità viene sostituita con la funzionalità avanzata di riconciliazione estratti conto. |
-| Moduli interessati             | Tutti                                                                                                                                                                                                                                   |
+| **Motivo del deprecamento**       | La funzionalità generica ora viene utilizzata anziché la funzionalità localizzata.                                                                                                                                                                 |
+| **Sostituita da un'altra funzionalità?** | Sì, questa funzionalità viene sostituita con la funzionalità avanzata di riconciliazione estratti conto. |
+| **Moduli interessati**             | Tutti                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>Elenco vendite XML tedesco
 
 |                              |                                                                                                                                                                                    |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il formato XML della dichiarazione Elenco vendite UE per la Germania non è più supportato. Solo il formato del file di testo ELMA5 può essere utilizzato per inviare il report Elenco vendite UE all'ufficio imposte tedesco. |
-| Sostituita da un'altra funzionalità? | No                                                                                                                                                                                 |
-| Moduli interessati             | Imposta                                                                                                                                                                                |
+| **Motivo del deprecamento**       | Il formato XML della dichiarazione Elenco vendite UE per la Germania non è più supportato. Solo il formato del file di testo ELMA5 può essere utilizzato per inviare il report Elenco vendite UE all'ufficio imposte tedesco. |
+| **Sostituita da un'altra funzionalità?** | No                                                                                                                                                                                 |
+| **Moduli interessati**             | Imposta                                                                                                                                                                                |
 
 ### <a name="gl-ssrs-reports"></a>Report GL SSRS
 
@@ -642,17 +619,17 @@ Report che includono le seguenti voci di menu sono stati rimossi: **Bilancio di 
 
 |                              |                                                                                                                                              |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | I report finanziari di Microsoft SQL Server il Reporting Services (SSRS) sono stati sostituiti dalle funzionalità di Management Reporter e i report predefiniti. |
-| Sostituita da un'altra funzionalità? | Management Reporter (contrassegnato **Report finanziario** nella versione corrente di Dynamics AX)                                                  |
-| Moduli interessati             | Contabilità generale                                                                                                                               |
+| **Motivo del deprecamento**       | I report finanziari di Microsoft SQL Server il Reporting Services (SSRS) sono stati sostituiti dalle funzionalità di Management Reporter e i report predefiniti. |
+| **Sostituita da un'altra funzionalità?** | Management Reporter (contrassegnato **Report finanziario** nella versione corrente di Dynamics AX)                                                  |
+| **Moduli interessati**            | Contabilità generale                                                                                                                               |
 
 ### <a name="infopart-and-formpart-metadata"></a>I metadati di FormPart e di InfoPart
 
 |                              |                                                                                                                                                                                                                                |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | I metadati di FormPart e di InfoPart hanno abilitato la creazione dei riquadri dettaglio informazioni per due diversi client.                                                                                                                                    |
-| Sostituita da un'altra funzionalità? | I metadati di InfoPart, che erano una definizione semplificata del modulo, vengono convertiti nel modulo di lavorazione con utensili di aggiornamento. I metadati di FormPart, che facevano riferimento un modulo, sono sostituiti da un riferimento più diretto creato mediante tooling di aggiornamento. |
-| Moduli interessati             | Tutti                                                                                                                                                                                                                            |
+| **Motivo del deprecamento**       | I metadati di FormPart e di InfoPart hanno abilitato la creazione dei riquadri dettaglio informazioni per due diversi client.                                                                                                                                    |
+| **Sostituita da un'altra funzionalità?** | I metadati di InfoPart, che erano una definizione semplificata del modulo, vengono convertiti nel modulo di lavorazione con utensili di aggiornamento. I metadati di FormPart, che facevano riferimento un modulo, sono sostituiti da un riferimento più diretto creato mediante tooling di aggiornamento. |
+| **Moduli interessati**             | Tutti                                                                                                                                                                                                                            |
 
 ### <a name="main-account-list-page"></a>Conti principali (pagina elenco)
 
@@ -660,9 +637,9 @@ Un elenco dei conti per la persona giuridica e le informazioni correlate bilanci
 
 |                              |                                                                                                                                                                                    |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Le informazioni bilanciate sono disponibili **Bilancio di verifica** nella pagina elenco il conto e la dimensione.                                                                                      |
-| Sostituita da un'altra funzionalità? | **Conti principali** contiene lo stesso elenco dei conti dalla **Conto principale** pagina elenco è contenuto. La visualizzazione griglia in **Conti principali** e viene visualizzato un nuovo più piccola, visualizzare il tipo di griglia. |
-| Moduli interessati             | Contabilità generale                                                                                                                                                                     |
+| **Motivo del deprecamento**       | Le informazioni bilanciate sono disponibili **Bilancio di verifica** nella pagina elenco il conto e la dimensione.                                                                                      |
+| **Sostituita da un'altra funzionalità?** | **Conti principali** contiene lo stesso elenco dei conti dalla **Conto principale** pagina elenco è contenuto. La visualizzazione griglia in **Conti principali** e viene visualizzato un nuovo più piccola, visualizzare il tipo di griglia. |
+| **Moduli interessati**             | Contabilità generale                                                                                                                                                                     |
 
 ### <a name="malaysia-and-singapore-bank-cash-flow-report"></a>Report del flusso di cassa bancario di Singapore e Malesia
 
@@ -670,9 +647,9 @@ Questa funzionalità di stampare un report del flusso di cassa bancario contenen
 
 |                              |                                                                         |
 |------------------------------|-------------------------------------------------------------------------|
-| Motivo del deprecamento       | Le stesse informazioni possono essere ottenute dalla transazione bancaria di indagine. |
-| Sostituita da un'altra funzionalità? | Transazione bancaria di indagine                                            |
-| Moduli interessati             | Gestione cassa e banche                                                |
+| **Motivo del deprecamento**       | Le stesse informazioni possono essere ottenute dalla transazione bancaria di indagine. |
+| **Sostituita da un'altra funzionalità?** | Transazione bancaria di indagine                                            |
+| **Moduli interessati**             | Gestione cassa e banche                                                |
 
 ### <a name="mexican-cfd-electronic-invoice"></a>Fattura elettronica CFD messicana
 
@@ -680,9 +657,9 @@ Questa funzionalità consentiva la generazione di fatture elettroniche messicane
 
 |                              |                                                                                                                                                                                                                                                                                                                                                                                                           |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il metodo non viene più applicabile. La generazione di fatture elettroniche utilizzando il metodo di CFD è stata deprecata dagli uffici tributari ed è stata sostituita da Comprobante Digital fiscale un metodo di de Internet (CFDI) di través, in cui la firma è delegata il fornitore di terze parti (PAC). Il report mensile è stato rimosso e un'opzione di richiesta consente agli utenti di richiedere informazioni sulle transazioni dello storico. |
-| Sostituita da un'altra funzionalità? | No                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Moduli interessati             | Effetti attivi di conto, progetto                                                                                                                                                                                                                                                                                                                                                                              |
+| **Motivo del deprecamento**       | Il metodo non viene più applicabile. La generazione di fatture elettroniche utilizzando il metodo di CFD è stata deprecata dagli uffici tributari ed è stata sostituita da Comprobante Digital fiscale un metodo di de Internet (CFDI) di través, in cui la firma è delegata il fornitore di terze parti (PAC). Il report mensile è stato rimosso e un'opzione di richiesta consente agli utenti di richiedere informazioni sulle transazioni dello storico. |
+| **Sostituita da un'altra funzionalità?** | No                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Moduli interessati**             | Effetti attivi di conto, progetto                                                                                                                                                                                                                                                                                                                                                                              |
 
 ### <a name="mexico-realized-and-unrealized-vat"></a>Messico ha eseguito e L'VAT non realizzata
 
@@ -690,17 +667,17 @@ Microsoft Dynamics AX 2012 ha gestito l'imposta sul valore aggiunto non (VAT) la
 
 |                              |                                                                                                                     |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Funzionalità duplicata.                                                                                             |
-| Sostituita da un'altra funzionalità? | Sì, sostituita dalla funzionalità IVA condizionata che viene fornita dalle funzioni di base. |
-| Moduli interessati             | Imposta                                                                                                                 |
+| **Motivo del deprecamento**       | Funzionalità duplicata.                                                                                             |
+| **Sostituita da un'altra funzionalità?** | Sì, sostituita dalla funzionalità IVA condizionata che viene fornita dalle funzioni di base. |
+| **Moduli interessati**             | Imposta                                                                                                                 |
 
 ### <a name="microsoft-outlook-integration"></a>Integrazione con Microsoft Outlook
 
 |                              |                                                                                |
 |------------------------------|--------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Questa funzionalità è stata sostituita dall'integrazione di Microsoft Exchange Server. |
-| Sostituita da un'altra funzionalità? | Sì                                                                            |
-| Moduli interessati             | Vendite e marketing                                                            |
+| **Motivo del deprecamento**       | Questa funzionalità è stata sostituita dall'integrazione di Microsoft Exchange Server. |
+| **Sostituita da un'altra funzionalità?** | Sì                                                                            |
+| **Moduli interessati**             | Vendite e marketing                                                            |
 
 ### <a name="payroll-information-in-human-resources"></a>Informazioni sulle retribuzioni in Risorse umane
 
@@ -708,9 +685,9 @@ Informazioni sulle retribuzioni in Risorse umane
 
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Questa funzionalità è stata sostituita dalle pagine principali sulle risorse umane e sulle retribuzioni.                                                                                                                                                                                                                                              |
-| Sostituita da un'altra funzionalità? | **Benefit**, **Redditi** e altre pagine correlate, incluse in precedenza nelle retribuzioni degli Stati Uniti ora sono state riconfigurate e fanno parte della configurazione principale Risorse umane per supportare l'elaborazione esterna delle retribuzioni. Questa funzionalità è accessibile utilizzando la chiave di configurazione **Risorse umane 1** &gt; **Retribuzione**. |
-| Moduli interessati             | Risorse umane, retribuzioni                                                                                                                                                                                                                                                                                                     |
+| **Motivo del deprecamento**       | Questa funzionalità è stata sostituita dalle pagine principali sulle risorse umane e sulle retribuzioni.                                                                                                                                                                                                                                              |
+| **Sostituita da un'altra funzionalità?** | **Benefit**, **Redditi** e altre pagine correlate, incluse in precedenza nelle retribuzioni degli Stati Uniti ora sono state riconfigurate e fanno parte della configurazione principale Risorse umane per supportare l'elaborazione esterna delle retribuzioni. Questa funzionalità è accessibile utilizzando la chiave di configurazione **Risorse umane 1** &gt; **Retribuzione**. |
+| **Moduli interessati**             | Risorse umane, retribuzioni                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Blocco privato di magazzino e giornali di registrazione di gestione magazzino
 
@@ -718,9 +695,9 @@ Giornali di registrazione magazzino e delle scorte più supporto la capacità di
 
 |                              |                                        |
 |------------------------------|----------------------------------------|
-| Motivo del deprecamento       | Non utilizzare la funzione è stato cercato. |
-| Sostituita da un'altra funzionalità? | No                                     |
-| Moduli interessati             | Gestione inventario                   |
+| **Motivo del deprecamento**       | Non utilizzare la funzione è stato cercato. |
+| **Sostituita da un'altra funzionalità?** | No                                     |
+| **Moduli interessati**             | Gestione inventario                   |
 
 ### <a name="product-builder"></a>Configuratore prodotti
 
@@ -728,9 +705,9 @@ Configuratore prodotti è stato utilizzato per configurare dinamicamente gli art
 
 |                              |                                                                                                                                                                                                         |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Il Configuratore prodotti ha esposto il codice X++ agli utenti finali e non è supportato la versione corrente di Dynamics AX. È stato rimosso per evitare gli sforzi duplicati in codebase sovrapposti e di grandi dimensioni. |
-| Sostituita da un'altra funzionalità? | Configurazione prodotto                                                                                                                                                                                   |
-| Moduli interessati             | Gestione delle informazioni sul prodotto, vendite e marketing                                                                                                                                                     |
+| **Motivo del deprecamento**       | Il Configuratore prodotti ha esposto il codice X++ agli utenti finali e non è supportato la versione corrente di Dynamics AX. È stato rimosso per evitare gli sforzi duplicati in codebase sovrapposti e di grandi dimensioni. |
+| **Sostituita da un'altra funzionalità?** | Configurazione prodotto                                                                                                                                                                                   |
+| **Moduli interessati**             | Gestione delle informazioni sul prodotto, vendite e marketing                                                                                                                                                     |
 
 ### <a name="rename-product-dimension"></a>Rinomina dimensione prodotto
 
@@ -738,9 +715,9 @@ Questa funzionalità consente di modificare il nome di una delle tre dimensioni 
 
 |                              |                                                                               |
 |------------------------------|-------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La versione corrente di Dynamics AX non supporta le modifiche etichette in fase di esecuzione. |
-| Sostituita da un'altra funzionalità? | No                                                                            |
-| Moduli interessati             | Gestione informazioni sul prodotto                                                |
+| **Motivo del deprecamento**       | La versione corrente di Dynamics AX non supporta le modifiche etichette in fase di esecuzione. |
+| **Sostituita da un'altra funzionalità?** | No                                                                            |
+| **Moduli interessati**             | Gestione informazioni sul prodotto                                                |
 
 ### <a name="retail-server-connectivity-using-http"></a>Connettività al server Retail mediante HTTP
 
@@ -748,33 +725,33 @@ In Dynamics AX 2012 R3, il server Retail poteva essere eseguito mediante la comu
 
 |                              |                                                                               |
 |------------------------------|-------------------------------------------------------------------------------|
-| Motivo del deprecamento       | A causa dei nuovi requisiti di sicurezza, è ora supportata solo la comunicazioni tramite TLS 1.2 (o superiore, se disponibile). Il programma di installazione self-service configurerà automaticamente il computer per questo tipo di comunicazione. |
-| Sostituita da un'altra funzionalità? | N. È ora supportata solo la comunicazione HTTPS standard del server Retail.                                                                           |
-| Moduli interessati             | Server Retail                                                |
+| **Motivo del deprecamento**       | A causa dei nuovi requisiti di sicurezza, è ora supportata solo la comunicazioni tramite TLS 1.2 (o superiore, se disponibile). Il programma di installazione self-service configurerà automaticamente il computer per questo tipo di comunicazione. |
+| **Sostituita da un'altra funzionalità?** | N. È ora supportata solo la comunicazione HTTPS standard del server Retail.                                                                           |
+| **Moduli interessati**             | Server Retail                                                |
 
 ### <a name="role-center-pages"></a>Centri gestione ruolo
 
 |                              |                                                                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Le pagine Centro gestione ruolo sono state sviluppate sulla piattaforma deprecata Enterprise Portal, che è stata sostituita da nuova piattaforma web client nella versione corrente di Dynamics AX. |
-| Sostituita da un'altra funzionalità? | Il nuovo modello di modulo dell'area di lavoro fornisce agli utenti la progettazione processo-centrica che consente l'accesso semplice alle attività usate comunemente all'interno di tale processo.                       |
-| Moduli interessati             | Tutti                                                                                                                                                                      |
+| **Motivo del deprecamento**       | Le pagine Centro gestione ruolo sono state sviluppate sulla piattaforma deprecata Enterprise Portal, che è stata sostituita da nuova piattaforma web client nella versione corrente di Dynamics AX. |
+| **Sostituita da un'altra funzionalità?** | Il nuovo modello di modulo dell'area di lavoro fornisce agli utenti la progettazione processo-centrica che consente l'accesso semplice alle attività usate comunemente all'interno di tale processo.                       |
+| **Moduli interessati**             | Tutti                                                                                                                                                                      |
 
 ### <a name="sales-tax-jurisdictions"></a>Uffici IVA competenti
 
 |                              |                                              |
 |------------------------------|----------------------------------------------|
-| Motivo del deprecamento       | Basso utilizzo cliente e set di funzionalità limitato |
-| Sostituita da un'altra funzionalità? | No                                           |
-| Moduli interessati             | IVA per gli Stati Uniti                                 |
+| **Motivo del deprecamento**       | Basso utilizzo cliente e set di funzionalità limitato |
+| **Sostituita da un'altra funzionalità?** | No                                           |
+| **Moduli interessati**             | IVA per gli Stati Uniti                                 |
 
 ### <a name="shipping-carrier-interface"></a>Interfaccia del vettore di spedizione
 
 |                              |                                                                                                                                                 |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Funzionalità duplicata.                                                                                                                         |
-| Sostituita da un'altra funzionalità? | Sì, parzialmente sostituita dalla gestione di trasporto, ma non ancora sostituita dalla Gestione magazzino di base (WMS I). |
-| Moduli interessati             | Vendite e marketing, gestione inventario                                                                                                       |
+| **Motivo del deprecamento**       | Funzionalità duplicata.                                                                                                                         |
+| **Sostituita da un'altra funzionalità?** | Sì, parzialmente sostituita dalla gestione di trasporto, ma non ancora sostituita dalla Gestione magazzino di base (WMS I). |
+| **Moduli interessati**             | Vendite e marketing, gestione inventario                                                                                                       |
 
 ### <a name="sites-services"></a>Sites Services
 
@@ -782,33 +759,33 @@ La funzionalità Sites Services consente di costruire i siti Web che estendono i
 
 |                              |                                                                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | L'infrastruttura di Microsoft Azure utilizzata da Dynamics AX ha nuove funzionalità che è possibile utilizzare in alternativa, ad esempio siti di Azure. |
-| Sostituita da un'altra funzionalità? | No                                                                                                                                       |
-| Moduli interessati             | Selezione del personale, gestione dei casi, richiesta di offerta, registrazione fornitore                                                                  |
+| **Motivo del deprecamento**       | L'infrastruttura di Microsoft Azure utilizzata da Dynamics AX ha nuove funzionalità che è possibile utilizzare in alternativa, ad esempio siti di Azure. |
+| **Sostituita da un'altra funzionalità?** | No                                                                                                                                       |
+| **Moduli interessati**             | Selezione del personale, gestione dei casi, richiesta di offerta, registrazione fornitore                                                                  |
 
 ### <a name="ssas-demand-forecasting-strategy"></a>Strategia di previsione della domanda SSAS
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La struttura della funzionalità non può essere supportata nella nuova architettura cloud. |
-| Sostituita da un'altra funzionalità? | Strategia di previsione della domanda Azure Machine Learning                           |
-| Moduli interessati             | Pianificazione                                                                     |
+| **Motivo del deprecamento**       | La struttura della funzionalità non può essere supportata nella nuova architettura cloud. |
+| **Sostituita da un'altra funzionalità?** | Strategia di previsione della domanda Azure Machine Learning                           |
+| **Moduli interessati**             | Pianificazione                                                                     |
 
 ### <a name="travel-requisitions"></a>Richieste di viaggio
 
 |                              |                                                                 |
 |------------------------------|-----------------------------------------------------------------|
-| Motivo del deprecamento       | L'utilizzo basso e la maggior parte delle funzionalità vengono esistito in Enterprise Portal. |
-| Sostituita da un'altra funzionalità? | No                                                              |
-| Moduli interessati             | Gestione spese                                              |
+| **Motivo del deprecamento**       | L'utilizzo basso e la maggior parte delle funzionalità vengono esistito in Enterprise Portal. |
+| **Sostituita da un'altra funzionalità?** | No                                                              |
+| **Moduli interessati**             | Gestione spese                                              |
 
 ### <a name="vendor-invoice-pool-excluding-posting-details"></a>Pool di fatture fornitore esclusi i dettagli di registrazione
 
 |                              |                                                                                                         |
 |------------------------------|---------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Basso utilizzo Questa funzionalità è stata sostituita dal giornale di registrazione fatture che risponde di funzionalità del flusso di lavoro. |
-| Sostituita da un'altra funzionalità? | Funzionalità del flusso di lavoro del giornale di registrazione fatture.                                                           |
-| Moduli interessati             | Contabilità fornitori                                                                                        |
+| **Motivo del deprecamento**       | Basso utilizzo Questa funzionalità è stata sostituita dal giornale di registrazione fatture che risponde di funzionalità del flusso di lavoro. |
+| **Sostituita da un'altra funzionalità?** | Funzionalità del flusso di lavoro del giornale di registrazione fatture.                                                           |
+| **Moduli interessati**             | Contabilità fornitori                                                                                        |
 
 ### <a name="virtual-company-accounts"></a>Account società virtuali
 
@@ -821,7 +798,7 @@ La funzionalità virtuale di più società non è supportata in Dynamics AX. La 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Motivo del deprecamento</td>
+<td><b>Motivo del deprecamento</b></td>
 <td><ul>
 <li>Le società virtuali è necessario impostare prima che i dati sono archiviati nelle tabelle. La modifica delle società virtuali in un'implementazione esistente è molto difficile.</li>
 <li>Poiché nella versione corrente di Dynamics AX la normalizzazione dei dati è così elevata, è diventato difficile conoscere gli elementi da aggiungere alle raccolte di tabelle. Ad esempio, è difficile conoscere le tabelle da condividere. È necessario inoltre aggiungere tutte le tabelle a cui fanno riferimento le tabelle presenti in una società virtuale. A causa della normalizzazione delle tabelle, anche i semplici dati master distribuiti in più tabelle devono far parte della società virtuale. Tutti gli errori provocheranno problemi funzionali.</li>
@@ -829,11 +806,11 @@ La funzionalità virtuale di più società non è supportata in Dynamics AX. La 
 </ul></td>
 </tr>
 <tr class="even">
-<td>Sostituita da un'altra funzionalità?</td>
+<td><b>Sostituita da un'altra funzionalità?</b></td>
 <td>Le tabelle globali possono essere utilizzate per rendere accessibili le tabelle da tutte le società. Attualmente, non esiste alcuna sostituzione.</td>
 </tr>
 <tr class="odd">
-<td>Moduli interessati</td>
+<td><b>Moduli interessati</b></td>
 <td>Non applicabile</td>
 </tr>
 </tbody>
@@ -843,9 +820,9 @@ La funzionalità virtuale di più società non è supportata in Dynamics AX. La 
 
 |                              |                                                                                                                                                                                                                                                                                                             |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | La soluzione di gestione magazzino II (WMS II) che è disponibile nel modulo **Gestione articoli** duplica la funzionalità nel modulo **Gestione magazzino** che è stato rilasciato in Microsoft Dynamics AX 2012 R3.                                                                         |
-| Sostituita da un'altra funzionalità? | Il modulo **Gestione magazzino** che è stato rilasciato in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 e Microsoft Dynamics AX 2012 R3 CU9 sostituisce le funzionalità di gestione magazzino II. Il nuovo modulo dispone di funzionalità più avanzate e di processi di gestione magazzino più flessibili rispetto a quelli offerti nelle funzionalità Gestione magazzino II. |
-| Moduli interessati             | Gestione articoli, vendite e marketing, approvvigionamento                                                                                                                                                                                                                                         |
+| **Motivo del deprecamento**       | La soluzione di gestione magazzino II (WMS II) che è disponibile nel modulo **Gestione articoli** duplica la funzionalità nel modulo **Gestione magazzino** che è stato rilasciato in Microsoft Dynamics AX 2012 R3.                                                                         |
+| **Sostituita da un'altra funzionalità?** | Il modulo **Gestione magazzino** che è stato rilasciato in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 e Microsoft Dynamics AX 2012 R3 CU9 sostituisce le funzionalità di gestione magazzino II. Il nuovo modulo dispone di funzionalità più avanzate e di processi di gestione magazzino più flessibili rispetto a quelli offerti nelle funzionalità Gestione magazzino II. |
+| **Moduli interessati**             | Gestione articoli, vendite e marketing, approvvigionamento                                                                                                                                                                                                                                         |
 
 ### <a name="worker-reminders-in-human-resources"></a>Promemoria lavoratore in Risorse umane
 
@@ -853,24 +830,24 @@ Informazioni sulle retribuzioni in Risorse umane
 
 |                              |                 |
 |------------------------------|-----------------|
-| Motivo del deprecamento       | Basso utilizzo       |
-| Sostituita da un'altra funzionalità? | No              |
-| Moduli interessati             | Risorse umane |
+| **Motivo del deprecamento**       | Basso utilizzo       |
+| **Sostituita da un'altra funzionalità?** | No              |
+| **Moduli interessati**             | Risorse umane |
 
 ### <a name="workplanner"></a>Pianificazione lavori
 
 |                              |                                                                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Basso utilizzo                                                                                                                                                            |
-| Sostituita da un'altra funzionalità? | No, ma la pagina **Relazione profilo**, aperta dalla pagina **Gruppi di profili**, supporta lo stesso scenario aziendale della pagina **Pianificazione lavori** deprecata. |
-| Moduli interessati             | Orario e presenze                                                                                                                                                  |
+| **Motivo del deprecamento**       | Basso utilizzo                                                                                                                                                            |
+| **Sostituita da un'altra funzionalità?** | No, ma la pagina **Relazione profilo**, aperta dalla pagina **Gruppi di profili**, supporta lo stesso scenario aziendale della pagina **Pianificazione lavori** deprecata. |
+| **Moduli interessati**             | Orario e presenze                                                                                                                                                  |
 
 ### <a name="x-financial-statements"></a>Rendiconti finanziari X++
 
 |                              |                                                                                             |
 |------------------------------|---------------------------------------------------------------------------------------------|
-| Motivo del deprecamento       | Questa funzionalità è stata sostituita da un'altra funzionalità.                                    |
-| Sostituita da un'altra funzionalità? | Management Reporter (contrassegnato **Report finanziario** nella versione corrente di Dynamics AX) |
-| Moduli interessati             | Contabilità generale                                                                              |
+| **Motivo del deprecamento**       | Questa funzionalità è stata sostituita da un'altra funzionalità.                                    |
+| **Sostituita da un'altra funzionalità?** | Management Reporter (contrassegnato **Report finanziario** nella versione corrente di Dynamics AX) |
+| **Moduli interessati**             | Contabilità generale                                                                              |
 
 

@@ -1,7 +1,7 @@
 ---
 title: Creare pagamenti fornitore utilizzando una proposta di pagamento
 description: "Questo argomento fornisce una panoramica delle opzioni di proposta di pagamento e include alcuni esempi che illustrano come funzionano le proposte di pagamento. Le proposte di pagamento sono spesso utilizzate per creare pagamenti fornitore, poiché la query può essere utilizzata per selezionare rapidamente le fatture fornitore per il pagamento, in base a criteri quali la data di scadenza e lo sconto di cassa."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2017
 ms.topic: article
@@ -15,8 +15,8 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
-ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786

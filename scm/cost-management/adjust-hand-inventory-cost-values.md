@@ -10,7 +10,6 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventAdjInventOnHand
 audience: Application User
-ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53231
 ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
@@ -31,7 +30,6 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
 Utilizzare la pagina Rettifica delle scorte disponibili per rettificare il valore di costo delle quantità di scorte disponibili dopo l'esecuzione di un processo di chiusura di inventario.
 
 È possibile utilizzare la pagina **Rettifica delle scorte disponibili** per rettificare il valore di costo delle quantità di scorte disponibili dopo l'esecuzione di un processo di chiusura di inventario. **Nota:** per aprire la pagina **Rettifica delle scorte disponibili**, sulla pagina **Chiusura e rettifica**, selezionare il record di un processo di chiusura di inventario completato, quindi fare clic su **Rettifica** &gt; **Disponibilità**. **Esempio:** nel mese di febbraio sono state registrate le seguenti transazioni:
@@ -46,7 +44,4 @@ L'articolo è stato impostato con il modello inventariale FIFO e la chiusura del
 -   5 febbraio: quantità pari a 1 al costo di 13,00 EUR
 
 Per impostare il costo di questi due articoli a EUR 15,00, utilizzare l'opzione di rettifica delle disponibilità per aprire le quantità disponibili aperte all'ultimo periodo di chiusura dell'inventario. **Nota:** la data di registrazione della transazione di rettifica delle disponibilità sarà la data dell'ultima chiusura dell'inventario. Non è possibile modificare questa data.
-
-
-
 

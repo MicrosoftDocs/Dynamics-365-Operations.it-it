@@ -3,7 +3,7 @@ title: Importazione di file ISO20022
 description: In questo argomento viene descritto come importare file di pagamento dei formati camt.054 e pain.002 ISO 20022 in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: neserovleo
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
 ms.author: v-lenest
-ms.search.validFrom: 2017-06-01T00:00:00.000Z
+ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: Enterprise edition, July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 48e280bf0a6c5db237bd389fe448c9d698d3ae12
-ms.openlocfilehash: acf6ed5f503d77f372d802a51a71cec062c2b24b
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
 ms.contentlocale: it-it
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
@@ -105,4 +105,29 @@ Se si importa il file camt.054, è necessario specificare i parametri aggiuntivi
 - **Liquida transazioni**: impostare questa opzione su **Sì** se i pagamenti fornitore importati devono essere liquidati con fatture presenti nel sistema.
 
 È possibile visualizzare le informazioni importate nella pagina **Trasferimenti di pagamento**. 
+
+## <a name="additional-details"></a>Dettagli aggiuntivi
+
+Quando si importa una configurazione di formato da LCS, si importa l'intera struttura di configurazione, di conseguenza anche il modello e le configurazioni di mapping di modello. Nel modello di pagamento a partire dalla versione 8, i mapping si trovano in configurazioni ER distinte nella struttura della soluzione (mapping di modello di pagamento 1611, mapping di modello di pagamento alla destinazione ISO20022 e così via). In un modello (modello di pagamento) vi sono molti formati di pagamento differenti, pertanto la gestione distinta di mapping è fondamentale per gestire facilmente la soluzione. Ad esempio, in uno scenario in cui si utilizzano pagamenti ISO20022 per generare file di bonifico e quindi si importano i messaggi di reso dalla banca, si utilizzerebbero le configurazioni seguenti:
+
+ - **Modello di pagamento**
+ - **Mapping di modello di pagamento 1611** - il mapping utilizzato per generare il file di esportazione
+ - **Mapping di modello di pagamento alla destinazione ISO20022** - questa configurazione include tutti i mapping utilizzati per l'importazione dei dati (direzione del mapping "alla destinazione")
+ - **Bonifico ISO20022** - questa configurazione include un componente di formato responsabile della generazione del file di esportazione (pain.001) in base al mapping di modello di pagamento 1611; include inoltre un formato per il componente del mapping di modello utilizzato insieme al mapping di modello di pagamento alla destinazione ISO20022 per registrare i pagamenti esportati nel sistema per ulteriori scopi di importazione (importazione nella tabella tecnica CustVendProcessedPayments)
+ - **Bonifico ISO20022 (CE)**, dove CE è il codice del paese - il formato derivato per il bonifico ISO20022 con la stessa struttura e con differenze specifiche del paese
+ - **Pain.002** - il formato utilizzato insieme al mapping di modello di pagamento alla destinazione ISO20022 per importare il file pain.002 nel giornale di registrazione dei trasferimenti relativi ai pagamenti fornitore
+ - **Camt.054** - il formato utilizzato insieme al mapping di modello di pagamento alla destinazione ISO20022 per importare il file camt.054 nel giornale di registrazione dei trasferimenti relativi ai pagamenti fornitore La stessa configurazione di formato è utilizzata nella funzionalità di importazione dei pagamenti cliente, ma nella configurazione del mapping di modello di pagamento alla destinazione ISO20022 viene utilizzato un mapping differente.
+
+Per ulteriori informazioni sui report elettronici, vedere [Panoramica dei report elettronici](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+- [Creare ed esportare i pagamenti fornitore usando il formato di pagamento ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
+- [Importare la configurazione di bonifico ISO20022](./tasks/import-iso20022-credit-transfer-configuration.md)
+- [Importare la configurazione di addebito diretto ISO20022](./tasks/import-iso20022-direct-debit-configuration.md)
+- [Impostare i conti bancari della società per i bonifici ISO20022](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
+- [Impostare i conti bancari della società per gli addebiti diretti ISO20022](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+- [Impostare i clienti e i conti bancari dei clienti per gli addebiti diretti ISO20022](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+- [Impostare un metodo di pagamento per bonifico ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
+- [Impostare un metodo di pagamento per addebito diretto ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [Impostare i fornitori e i conti bancari dei fornitori per i bonifici ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
 

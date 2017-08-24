@@ -3,7 +3,7 @@ title: Elaborazione giornale di registrazione generale
 description: "Questo articolo descrive le funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -82,8 +81,13 @@ L'impostazione del conto principale offre numerose opzioni per l'elaborazione de
 
 Le strutture di contabilità e delle regole avanzate sono estremamente importanti per garantire che i dati necessari per i report finanziari e il monitoraggio delle prestazioni vengano acquisiti durante l'elaborazione del giornale di registrazione generale e in qualsiasi documentazione. Le strutture di contabilità e delle regole avanzate consentono di personalizzare l'esperienza dell'immissione dati. È possibile consentire l'immissione di dati solo per le dimensioni finanziarie pertinenti in ogni situazione e è inoltre possibile applicare la condizione che vengano sempre acquisiti i dati obbligatori e corretti.
 
-Per ulteriori informazioni, vedere [Pianificazione: piano dei conti](plan-chart-of-accounts.md). 
-
+Per ulteriori informazioni, vedere i seguenti argomenti:
+- [Pianificazione: piano dei conti](plan-chart-of-accounts.md). 
+- [Creare regole avanzate per giornali di registrazione](tasks/create-advanced-rules-journals.md)
+- [Creare una scrittura contabile utilizzando un modello](tasks/create-journal-entry-template.md)
+- [Creare e convalidare giornali di registrazione](tasks/create-validate-journals.md)
+- [Registrare giornali periodici](tasks/post-periodic-journals.md)
+- [Elaborare giornale di registrazione allocazioni contabili](tasks/process-ledger-allocation-journal.md)
 
 
 

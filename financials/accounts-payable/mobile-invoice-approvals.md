@@ -1,9 +1,9 @@
 ---
 title: Approvazioni fatture per dispositivi mobili
 description: "Questo argomento è destinato a fornire un approccio pratico alla progettazione di scenari mobili in in Dynamics 365 for Finance and Operations utilizzando l'approvazione delle fatture fornitore come caso d'uso."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
-ms.author: sunilg
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -37,7 +37,7 @@ Le funzionalità mobili in Microsoft Dynamics 365 for Finance and Operations, En
 
 | Prerequisito                                                                                            | descrizione                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lettura preventiva del manuale sulle funzionalità mobili                                                                                |[Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| Lettura preventiva del manuale sulle funzionalità mobili                                                                                |[Piattaforma mobile](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Un ambiente con Microsoft Dynamics 365 for Operations versione 1611 e aggiornamento 3 della piattaforma di Microsoft Dynamics for Operations (novembre 2016)                   |
 | Installare l'aggiornamento rapido KB 3204341.                                                                              | Registrazione attività può registrare per errore due comandi di chiusura per le finestre di dialogo a discesa. Incluso nell'aggiornamento 3 della piattaforma di Dynamics 365 for Operations (aggiornamento di novembre 2016) |
 | Installare l'aggiornamento rapido KB 3207800.                                                                              | Questo aggiornamento rapido consente agli allegati di essere visualizzati sul client mobile. Incluso nell'aggiornamento 3 della piattaforma di Dynamics 365 for Operations (aggiornamento di novembre 2016).           |
@@ -144,7 +144,7 @@ La prima pagina in versione mobile che è consigliabile progettare è l'elenco d
 2.  Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**.
 3.  Selezionare l'area di lavoro e fare clic su **Modifica**
 4.  Fare clic su **Aggiungi pagina** per creare la prima pagina in versione mobile.
-5.  Immettere un nome, ad esempio **My vendor invoices*** e una descrizione, ad esempio **Vendor invoices assigned to me for review**.
+5.  Immettere un nome, ad esempio **My vendor invoices** e una descrizione, ad esempio **Vendor invoices assigned to me for review**.
 6.  Fare clic su **Fine**.
 7.  Nello strumento di progettazione mobile, nella scheda **Campi** fare clic su **Seleziona campi**. Le colonne della pagina elenco devono essere simili alla figura seguente. [![Colonne nella pagina Fatture fornitore in sospeso assegnate all'utente](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
 8.  Aggiungere le colonne necessarie dalla pagina elenco che devono essere visualizzate agli utenti nella pagina in versione mobile. L'ordine di aggiunta è l'ordine in cui i campi verranno visualizzati all'utente finale. Il solo modo per modificare l'ordine dei campi è riselezionarli tutti. In base ai requisiti di questo scenario, sono necessari i seguenti otto campi. Tuttavia, alcuni utenti potrebbero considerare otto campi troppe informazioni da avere su un dispositivo mobile. Di conseguenza, mostreremo solo i campi più importanti nella visualizzazione elenco mobile. I campi rimanenti sembreranno appariranno nella visualizzazione dettagli che progetteremo in un secondo momento. Per ora, aggiungeremo i seguenti campi. Fare clic sul segno (**+**) nelle colonne da aggiungere alla pagina mobile.
@@ -176,7 +176,7 @@ Per progettare la pagina dei dettagli fattura per l'ambiente mobile, utilizzare 
 1.  Nell'URL di Finance and Operations, sostituire il nome della voce di menu con **VendMobileInvoiceHeaderDetails** per aprire il modulo
 2.  Aprire lo strumento di progettazione mobile dal pulsante **Impostazioni** (ingranaggio).
 3.  Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
-4.  Selezionare la pagina **My vendor invoices ** creata in precedenza quindi fare clic su **Modifica**.
+4.  Selezionare la pagina **My vendor invoices** creata in precedenza quindi fare clic su **Modifica**.
 5.  Nella scheda **Campi** fare clic sull'intestazione di colonna **Griglia**.
 6.  Fare clic su **Proprietà** &gt; **Aggiungi pagina**. **Nota:** Quando si fa clic su l'intestazione **Griglia** e si aggiunge una pagina, la relazione con la pagina dei dettagli è impostata automaticamente.
 7.  Immettere un titolo della pagina, ad esempio **Invoice details** e una descrizione, ad esempio **View invoice header and line details**.

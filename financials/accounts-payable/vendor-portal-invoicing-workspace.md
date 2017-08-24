@@ -1,9 +1,9 @@
 ---
 title: Area di lavoro fatturazione di collaborazione fornitore
 description: "In questo argomento viene descritto come è possibile visualizzare le fatture fornitore e inviare le fatture dall'area di lavoro Fatturazione di collaborazione fornitore."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,8 +14,8 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
-ms.author: abruer
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
@@ -33,7 +33,9 @@ ms.lasthandoff: 06/14/2017
 In questo argomento viene descritto come è possibile visualizzare le fatture fornitore e inviare le fatture dall'area di lavoro Fatturazione di collaborazione fornitore.
 
 L'area di lavoro **Fatturazione di collaborazione fornitore** può essere utilizzata per visualizzare informazioni sulle fatture fornitore e inviare fatture a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition usando le funzionalità del flusso di lavoro.
-Area di lavoro fatturazione di collaborazione fornitore
+
+
+<a name="vendor-collaboration-invoicing-workspace"></a>Area di lavoro fatturazione di collaborazione fornitore
 ----------------------------------------
 
 ### <a name="summary-tiles"></a>Sezioni Riepilogo

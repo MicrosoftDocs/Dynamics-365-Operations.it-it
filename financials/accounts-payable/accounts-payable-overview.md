@@ -1,9 +1,9 @@
 ---
 title: "Configurare la contabilità fornitori"
 description: "Questo articolo descrive le pagine utilizzate per impostare le funzionalità di base e facoltative per la contabilità fornitori in Microsoft Dynamics 365 for Finance and Operations Enterprise Edition. Vengono descritti i passaggi di configurazione da completare prima di iniziare a impostare la contabilità fornitori."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2a61cb86a4f2cfc6d701445c139e22df0db44f8c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -47,7 +46,7 @@ Prima di poter impostare la contabilità fornitori, occorre completare la seguen
 ## <a name="setup-pages-for-accounts-payable"></a>Pagine di impostazione per la contabilità fornitori
 
 Utilizzare le pagina descritte di seguito per impostare le funzionalità di base della contabilità fornitori per ogni persona giuridica. Le pagine sono elencate nell'ordine di impostazione consigliato. Per semplificare il processo di impostazione, è possibile creare modelli in base ai primi record creati. In un modello i valori sono in genere immessi in base alle funzionalità che l'organizzazione desidera implementare per un particolare tipo di fornitore.
-1.  Nella pagina Termini di pagamento definire i termini di pagamento che si assegnano a ordini cliente, ordini fornitore, clienti e fornitori e che determinano le date di scadenza delle fatture.
+1.  Nella pagina Termini di pagamento definire i termini di pagamento che si assegnano a ordini cliente, ordini fornitore, clienti e fornitori e che determinano le date di scadenza delle fatture. Per ulteriori informazioni, vedere [Definire le commissioni di pagamento fornitore](tasks/define-vendor-payment-fees.md).
 2.  Nella pagina Metodi di pagamento - Fornitori creare e gestire le informazioni sui metodi utilizzati dall'organizzazione per il pagamento dei fornitori.
 3.  Nella pagina Gruppi di fornitori creare e gestire i gruppi di fornitori che condividono parametri importanti per la registrazione, la liquidazione, il pagamento, il reporting e le previsioni.
 4.  Nella pagina Profili registrazione fornitori definire come registrare le transazioni fornitore nella contabilità generale.

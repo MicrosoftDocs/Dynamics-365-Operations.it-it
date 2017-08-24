@@ -1,7 +1,7 @@
 ---
 title: Area di lavoro pagamenti fornitore
 description: In questo argomento vengono fornite informazioni sull'area di lavoro Pagamenti fornitore. Nell'area di lavoro Pagamenti fornitore vengono visualizzate le informazioni correlate all'elaborazione dei pagamenti fornitore.
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
@@ -13,8 +13,8 @@ ms.reviewer: twheeloc
 ms.search.scope: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.author: Shiva-Pandey
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e

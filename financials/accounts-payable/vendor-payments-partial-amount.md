@@ -1,9 +1,9 @@
 ---
 title: Pagamenti fornitore per un importo parziale
 description: "Talvolta è possibile effettuare a un fornitore un pagamento inferiore rispetto all'importo della fattura. Questo articolo descrive le varie opzioni per gestire questa situazione. Le opzioni disponibili dipendono dai requisiti aziendali e dalla configurazione."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14321
 ms.assetid: 9a17075e-5325-4d55-a1e5-1791b8c460a0
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48812d33be6b84bbe0eac15adc4bd41a3ea8706b
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 191d1ee0b47da4930e10146ba164d601d038e81b
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -56,5 +55,5 @@ Si supponga ad esempio di ricevere uno sconto di cassa del 2% se la fattura vien
 È possibile che venga effettuato un pagamento parziale in cui l'importo che deve essere ancora liquidato è molto piccolo. Ad esempio, la fattura fornitore è di 1.000,00 e il pagamento effettuato è pari a 999,90. Se l'importo rimanente è inferiore all'importo specificato per le eccedenze o insufficienze di pagamento nella pagina **Parametri contabilità clienti**, la differenza verrà registrata automaticamente in un conto CoGe per l'eccedenza/insufficienza di pagamento.
 
 
-
+Per ulteriori informazioni, vedere [Panoramica pagamenti fornitore](../cash-bank-management/tasks/vendor-payment-overview.md).
 
