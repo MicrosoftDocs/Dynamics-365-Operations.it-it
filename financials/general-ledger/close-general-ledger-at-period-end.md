@@ -1,7 +1,7 @@
 ---
 title: "Chiudere la contabilità generale a fine periodo"
 description: "In questo argomento vengono descritte le attività che vengono completate in genere quando si esegue una chiusura periodo per la contabilità generale."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

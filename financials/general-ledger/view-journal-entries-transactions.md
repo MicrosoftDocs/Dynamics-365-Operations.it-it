@@ -1,7 +1,7 @@
 ---
 title: Visualizzare inserimenti nel giornale di registrazione e transazioni
 description: "Questo articolo illustrate le varie modalità in cui è possibile visualizzare gli inserimenti nel giornale di registrazione e le transazioni."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Definire e gestire un programma di benefit
 description: Le risorse umane forniscono un set di strumenti che possono essere utilizzati per impostare e gestire i benefit, le detrazioni e i piani di retribuzione dei lavoratori che un'organizzazione offre o elabora per i propri lavoratori. Questo articolo fornisce le informazioni su come impostare e gestire i benefit.
-author: rschloma
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 09ad9ad22c676c3b117cc39e692c64ef92637dc1
 ms.contentlocale: it-it
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Dimensioni finanziarie
 description: Questo argomento illustra i vari tipi di dimensioni finanziarie e come impostarle.
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

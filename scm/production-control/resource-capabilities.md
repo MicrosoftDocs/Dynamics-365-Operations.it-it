@@ -1,7 +1,7 @@
 ---
 title: "Capacità risorsa"
 description: "Questo articolo fornisce informazioni sulle capacità delle risorse. Si definisce capacità l'idoneità di una risorsa operativa di eseguire un'attività specifica. L'articolo illustra come le capacità e i concetti correlati, ad esempio il livello di competenza e priorità, vengono utilizzati per selezionare le risorse appropriate per un'attività."
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 30e38233-2a64-4070-911f-8ffd78dd8281
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
