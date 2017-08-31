@@ -1,7 +1,7 @@
 ---
 title: Data di competenza per le transazioni
 description: "In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia."
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -21,7 +21,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: fe7cbc68fb2b39544d0dbe6a331550526dcfa451
 ms.contentlocale: it-it
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Impostare i pagamenti centralizzati
 description: Utilizzare questa procedura per preparare l'elaborazione dei pagamenti in una persona giuridica per conto di altre persone giuridiche appartenenti all'organizzazione.
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article

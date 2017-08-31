@@ -1,7 +1,7 @@
 ---
 title: Analisi delle prestazioni del punto vendita
 description: In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dei punti di vendita, in base ai dati di Microsoft Dynamics 365 for Retail.
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 37baac8d3160b95f75dd11197fc60060450c0680
 ms.contentlocale: it-it
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

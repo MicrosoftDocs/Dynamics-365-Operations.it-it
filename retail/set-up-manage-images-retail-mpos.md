@@ -1,7 +1,7 @@
 ---
 title: Impostare e gestire immagini per Retail Modern POS
 description: "In questo articolo vengono descritti i passaggi necessari per impostare e gestire le immagini per le varie entità che vengono visualizzate in Retail Modern POS (MPOS)."
-author: MargoC
+author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 3985d731709eff4085927b277996528e4e448ba9
 ms.contentlocale: it-it
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

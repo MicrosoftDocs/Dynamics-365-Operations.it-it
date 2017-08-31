@@ -1,7 +1,7 @@
 ---
 title: Pianificare il piano dei conti
 description: Questo articolo fornisce le informazioni che consentono di pianificare il piano dei conti per l'organizzazione.
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

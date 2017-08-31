@@ -1,7 +1,7 @@
 ---
 title: Ritenuta d'acconto per l'Italia
 description: In questo argomento viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.
-author: ShylaThompson
+author: Anasyash
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.assetid: a5628f89-2ebb-4df2-a8a5-522649fb66da
 ms.search.region: Italy
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
 ms.openlocfilehash: 6ad61ce79d3ba65bd89e1d9b20a1dc4bbb75a46f

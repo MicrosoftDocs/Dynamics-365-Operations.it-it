@@ -1,7 +1,7 @@
 ---
 title: Configurare una liquidazione
 description: "Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo articolo descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: it-it
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Contenuto Power BI per prestazioni di produttività"
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di produttività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

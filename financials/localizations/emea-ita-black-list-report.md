@@ -1,7 +1,7 @@
 ---
 title: Report block list italiano
 description: Informazioni su come impostare e gestire il report black list italiano.
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -21,7 +21,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: d465f47d532d142c45c4c22fbed6071cf8598d59
 ms.contentlocale: it-it
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Tipi di conto principale
 description: "I tipi di conto principale determinano la modalità di utilizzo di un conto principale nel piano dei conti."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

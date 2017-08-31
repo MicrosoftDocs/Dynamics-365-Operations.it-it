@@ -1,7 +1,7 @@
 ---
 title: Panoramica dei ratei
 description: Questo articolo descrive i ratei e fornisce informazioni su come impostarli e su come creare le transazioni.
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
