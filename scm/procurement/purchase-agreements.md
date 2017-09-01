@@ -1,7 +1,7 @@
 ---
 title: Contratti di acquisto
 description: "Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un'organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell'impegno, l'acquirente riceve prezzi e sconti speciali."
-author: YuyuScheller
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
