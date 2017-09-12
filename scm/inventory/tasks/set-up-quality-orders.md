@@ -1,4 +1,4 @@
---- 
+---
 title: "Impostare ordini di controllo qualità"
 description: "In questa procedura viene illustrato come abilitare il processo di gestione della qualità in in cui le scorte in ingresso devono essere controllate subito dopo la registrazione degli arrivi."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ In questa procedura viene illustrato come abilitare il processo di gestione dell
 15. Trovare e selezionare il record desiderato nell'elenco.
 16. Fare clic su Salva.
 17. Chiudere la pagina.
-
 

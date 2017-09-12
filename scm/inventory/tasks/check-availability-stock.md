@@ -1,4 +1,4 @@
---- 
+---
 title: "Controllare la disponibilità scorte"
 description: Nella procedura viene illustrato come controllare le scorte disponibili e fisiche disponibili per un numero articolo specifico.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Nella procedura viene illustrato come controllare le scorte disponibili e fisich
 4. Fare clic su Visualizza dimensioni.
 5. Fare clic su OK.
 6. Chiudere la pagina.
-
 

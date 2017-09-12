@@ -1,7 +1,7 @@
 ---
 title: Ordini di quarantena
 description: In questo articolo viene descritto come gli ordini di quarantena vengono utilizzati per bloccare il magazzino.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo viene descritto come gli ordini di quarantena vengono utilizzati per bloccare il magazzino. 
+In questo articolo viene descritto come gli ordini di quarantena vengono utilizzati per bloccare il magazzino.
 
 Gli ordini di quarantena possono essere utilizzati per bloccare il magazzino. Ad esempio, è possibile che si desideri mettere in quarantena gli articoli per motivi di controllo qualità. L'inventario messo in quarantena viene trasferito a un magazzino di quarantena. **Nota:** se si utilizzano processi di gestione avanzata del magazzino (in Gestione magazzino), l'elaborazione degli ordini di quarantena viene utilizzata solo per gli ordini cliente resi.
 
@@ -69,7 +69,4 @@ Nell'ambito dell'elaborazione dell'ordine di quarantena è possibile scartare le
 --------
 
 [Blocco scorte](inventory-blocking.md)
-
-
-
 

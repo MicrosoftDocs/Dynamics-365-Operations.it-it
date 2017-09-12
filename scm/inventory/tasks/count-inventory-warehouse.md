@@ -1,4 +1,4 @@
---- 
+---
 title: Contare le scorte magazzino
 description: In questa procedura vengono descritti i passaggi per creare e registrare un giornale di registrazione conteggi scorte in modo da conteggiare un articolo specifico in un'ubicazione del magazzino.
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -68,5 +68,4 @@ In questa procedura vengono descritti i passaggi per creare e registrare un gior
 1. Fare clic su Scorte.
 2. Fare clic su Transazioni.
     * È possibile visualizzare tutte le transazioni correlate che verranno create quando si registra il giornale di registrazione conteggi scorte.   
-
 

@@ -1,7 +1,7 @@
 ---
 title: Ubicazioni di magazzino
 description: Le ubicazioni di magazzino vengono utilizzate con l'immagazzinaggio base (WMS I) per determinare dove vengono immagazzinati e dove vengono prelevati gli articoli in un magazzino WMS.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSLocation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -40,7 +40,6 @@ Il termine ubicazione identifica la posizione da cui vengono stoccati e prelevat
 
 Per ciascuna ubicazione è inoltre possibile specificare la posizione in cui vengono inseriti gli articoli. Per impostazione predefinita, questi due valori sono corrispondenti. Gli articoli in genere vengono inseriti e prelevati dallo stesso lato di un'ubicazione. Esistono tuttavia alcune eccezioni. Gli articoli immagazzinati in scaffali live storage ad esempio vengono inseriti da una sezione e prelevati da un'altra. L'input principale è costituito dal nome dell'ubicazione, in genere determinato in base alle coordinate magazzino, sezione, scaffale, ripiano e contenitore. Il nome o ID può essere immesso manualmente o generato dalle coordinate dell'ubicazione, ad esempio 01-02-03-4 per sezione 1, scaffale 2, ripiano 3, contenitore 4 nella pagina Ubicazioni di magazzino.
 Proprietà dell'ubicazione
--------------------
 
 A un'ubicazione sono associate le seguenti caratteristiche:
 -   Dimensione (altezza, larghezza, profondità e quindi volume)
@@ -54,12 +53,12 @@ I codici di ordinamento consentono di ottimizzare la gestione delle righe di pre
 
 ## <a name="blocked-locations"></a>Ubicazioni bloccate
 Talvolta è necessario bloccare un'ubicazione per un determinato periodo di tempo, ad esempio per consentire l'esecuzione di riparazioni. Altre volte è possibile che l'utente desideri bloccare solo l'entrata o l'uscita
-Struttura ad albero
---------------
+
+## <a name="tree-structure"></a>Struttura ad albero
 
 Nella pagina delle ubicazioni di magazzino è possibile visualizzare il layout di magazzino in una struttura ad albero in base alle coordinate delle ubicazioni di magazzino, in un formato di visualizzazione definito.
-Gestire le ubicazioni di magazzino tramite modulo di magazzino
----------------------------------------------------
+
+## <a name="maintain-inventory-locations-via-the-warehouse-form"></a>Gestire le ubicazioni di magazzino tramite modulo di magazzino
 
 È possibile copiare le ubicazioni da un magazzino a un altro e creare le ubicazioni tramite la procedura guidata. Prima di eseguire la procedura guidata è necessario verificare di aver definito i nomi di posizione predefinita nella pagina di magazzino.
 
@@ -69,7 +68,4 @@ Gestire le ubicazioni di magazzino tramite modulo di magazzino
 --------
 
 [Creare un nuovo layout di magazzino (Guida attività)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
-
-
-
 

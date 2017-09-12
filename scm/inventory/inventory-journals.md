@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-In questo articolo viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico. 
+In questo articolo viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico.
 
 I giornali di registrazione magazzino in Microsoft Dynamics 365 for Finance and Operations vengono utilizzati per registrare le transazioni di inventario fisico di diversi tipi, ad esempio la registrazione delle uscite e delle entrate, i movimenti inventario, la creazione delle distinte base (DBA) e la riconciliazione dell'inventario fisico. Tutti i giornali di registrazione magazzino vengono utilizzati in una modalità simile, ma vengono suddivisi in diversi tipi.
 
@@ -95,7 +95,4 @@ A un giornale di registrazione può accedere solo un utente per volta. Se più u
 
 ## <a name="posting-journal-lines"></a>Registrazione delle righe del giornale di registrazione
 È possibile registrare le righe del giornale di registrazione create in qualsiasi momento fino a bloccare un articolo da ulteriori transazioni. I dati immessi in un giornale di registrazione vengono mantenuti nel giornale anche se questo viene chiuso senza registrare le righe.
-
-
-
 

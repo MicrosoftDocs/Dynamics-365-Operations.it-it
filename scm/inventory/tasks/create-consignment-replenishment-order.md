@@ -1,4 +1,4 @@
---- 
+---
 title: Creare nuovo ordine di rifornimento spedizione
 description: "In questa procedura viene illustrato come creare un ordine di rifornimento spedizione in cui è possibile tracciare la consegna prevista da un fornitore nell'inventario di spedizione."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ In questa procedura viene illustrato come creare un ordine di rifornimento spedi
 ## <a name="receive-items"></a>Ricevi articoli
 1. Fare clic su Entrata prodotti.
 2. Digitare un valore nel campo Entrata prodotti esterna.
-3. Nel campo Quantità, immettere un numero minore del numero riportato lì. 
+3. Nel campo Quantità, immettere un numero minore del numero riportato lì.
 4. Fare clic su OK.
 
 ## <a name="check-the-on-hand-inventory"></a>Controllare le scorte disponibili.
@@ -70,5 +70,4 @@ In questa procedura viene illustrato come creare un ordine di rifornimento spedi
     * Gli articoli ricevuti come inventario di spedizione di proprietà del fornitore sono scorte disponibili. La quantità rimanente nell'ordine di rifornimento spedizione è indicata nel campo Ordinata in totale.  
 4. Chiudere la pagina.
 5. Fare clic su Chiudi.
-
 

@@ -1,7 +1,7 @@
 ---
 title: Panoramica arrivi
 description: "In questo argomento vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ In questo argomento vengono fornite informazioni sulle funzionalità della panor
 La pagina **Panoramica arrivi** offre una panoramica di tutti gli articoli in arrivo previsti. La pagina mostra inoltre gli arrivi che possono essere inizializzati in base alla panoramica. Questo argomento riguarda il processo di ricezione.
 
 ## <a name="business-scenario"></a>Scenario aziendale
-Si prenda in considerazione il seguente scenario nei processi in entrata. 
+Si prenda in considerazione il seguente scenario nei processi in entrata.
 
-[![Scenario aziendale](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![Scenario aziendale](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, un addetto alla ricezione articoli, desidera informazioni sull'arrivo di articoli previsto per il giorno corrente. Nella pagina **Panoramica arrivi**, Sammy può ottenere una panoramica delle attività correnti e visualizzare una stima approssimativa di quantità, volume, peso, tipi di ordine diversi e così via. Successivamente, una consegna arriva a una delle banchine di entrata e Sammy riceve un elenco della consegna. Nella pagina **Panoramica arrivi** Sammy può eseguire le attività seguenti:
 
@@ -69,7 +69,7 @@ Per questo esempio, il campo **Nome profilo panoramica arrivi** della scheda det
 
 Per creare automaticamente i giornali di registrazione arrivi dalla pagina **Panoramica arrivi**, è necessario definire le informazioni appropriate nel gruppo di campi **Giornale di registrazione** nelle opzioni della Scheda dettaglio **Opzioni arrivi**.
 
--   Per creare un giornale di registrazione è necessario specificare un nome per il giornale. 
+-   Per creare un giornale di registrazione è necessario specificare un nome per il giornale.
 
 [![Impostazione di un nome di giornale di registrazione](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Una volta registrate tutte le merci, il responsabile del magazzino o il responsa
 
 ## <a name="summary"></a>Riepilogo
 La pagina **Panoramica arrivi** consente al responsabile del magazzino e agli addetti al magazzino di ottenere una panoramica del lavoro previsto che deve essere svolto come parte di un processo in entrata. Nella pagina può inoltre essere utilizzata per avviare il processo di registrazione arrivi articoli, per garantire che gli articoli vengano aggiornati alla prima immissione nel magazzino.
-
-
-
 

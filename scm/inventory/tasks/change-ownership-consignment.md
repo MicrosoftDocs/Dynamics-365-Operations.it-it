@@ -1,4 +1,4 @@
---- 
+---
 title: "Modificare la proprietà dell'inventario spedizione in base alla domanda di produzione"
 description: "In questa procedura viene illustrato come modificare il proprietario dell'inventario di spedizione dal fornitore alla persona giuridica quando c'è domanda di inventario nella produzione."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -51,5 +51,4 @@ In questa procedura viene illustrato come modificare il proprietario dell'invent
     * Quando il giornale viene registrato, l'inventario di proprietà del fornitore viene rilasciato mediante un riferimento "Modifica proprietà". L'inventario verrà ricevuto come scorte disponibili utilizzando una transazione di inventario che viene aggiornata con un'entrata prodotti ordine fornitore. Tenere presente che solo le transazioni relative al giornale registrato vengono create. Non vengono create transazioni di inventario previste.  
 2. Fare clic su OK.
 3. Chiudere la pagina.
-
 

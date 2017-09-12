@@ -1,4 +1,4 @@
---- 
+---
 title: Tracciare un articolo o la materia prima
 description: "Questa procedura dimostra come utilizzare la tracciabilità articolo per identificare gli articoli o le materie prime che sono stati utilizzati o vengono utilizzati."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ Questa procedura dimostra come utilizzare la tracciabilità articolo per identif
 8. Nel riquadro azioni fare clic su Tracciatura.
 9. Fare clic su Ordini cliente spediti.
 10. Chiudere la pagina.
-
 

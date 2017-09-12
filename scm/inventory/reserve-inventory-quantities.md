@@ -1,7 +1,7 @@
 ---
 title: "Prenotare quantità di scorte"
 description: In questo argomento vengono descritte le diverse opzioni disponibili per prenotare le scorte.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventModelGroup
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -83,7 +83,4 @@ Sono disponibili due opzioni relative alle prenotazioni nella pagina **Parametri
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Criteri di prenotazione scorte nella pagina Parametri di produzione
 
 Il valore del campo **Prenotazione** nella scheda **Generale** della pagina **Parametri di produzione** determina il punto predefinito nel processo di produzione in cui dovranno essere prenotate le scorte. Ad esempio, le scorte possono essere prenotate quando il lavoro viene programmato oppure iniziato.
-
-
-
 

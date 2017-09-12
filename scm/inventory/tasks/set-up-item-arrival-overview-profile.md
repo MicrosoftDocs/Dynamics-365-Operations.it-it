@@ -1,7 +1,7 @@
---- 
+---
 title: Impostare un profilo di panoramica arrivo articoli
 description: "Questa attività riguarda l'impostazione del profilo della panoramica arrivi."
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Questa attività riguarda l'impostazione del profilo della panoramica arrivi. Il
     * Consente di selezionare righe entrata dagli ordini di trasferimento.  
 17. Fare clic su Salva.
 18. Chiudere la pagina.
-
 

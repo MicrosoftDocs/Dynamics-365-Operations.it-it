@@ -1,7 +1,7 @@
 ---
 title: Traccia di articoli e materie prime in magazzino, nella produzione e nelle vendite
 description: "In questo argomento viene descritto come utilizzare la tracciabilità articolo per identificare il punto in cui vengono utilizzati gli articoli o le materie prime o quello in cui verranno utilizzati nei processi di produzione e vendita."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto come utilizzare la tracciabilità articolo per identificare il punto in cui vengono utilizzati gli articoli o le materie prime o quello in cui verranno utilizzati nei processi di produzione e vendita. 
+In questo argomento viene descritto come utilizzare la tracciabilità articolo per identificare il punto in cui vengono utilizzati gli articoli o le materie prime o quello in cui verranno utilizzati nei processi di produzione e vendita.
 
 La funzionalità di tracciabilità articolo è disponibile nella pagina **Tracciabilità articolo**. Nelle sezioni seguenti viene descritto come utilizzare la tracciabilità articolo e quali sono le opzioni e i limiti.
 
@@ -142,7 +142,4 @@ Nei dettagli traccia sono incluse le informazioni sugli ordini di controllo qual
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>È possibile tracciare i co-prodotti e i sottoprodotti?
 È possibile tracciare i co-prodotti, ma non è possibile tracciare i sottoprodotti poiché a questi non vengono in genere assegnate le dimensioni di tracciabilità. Quando viene tracciato un articolo, i dettagli traccia includono eventuali co-prodotti correlati. Un nodo contenente un co-prodotto include la parola "co-prodotto" nei dettagli. È inoltre possibile visualizzare i dettagli relativi a un co-prodotto selezionando il nodo nei dettagli traccia e quindi facendo clic sulla scheda dettaglio **Produzione**.
-
-
-
 

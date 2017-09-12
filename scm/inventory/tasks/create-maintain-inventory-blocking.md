@@ -1,4 +1,4 @@
---- 
+---
 title: Creare e gestire un blocco scorte
 description: Questa procedura illustra come impedire che scorte fisiche disponibili vengano prenotate da altri documenti di origine in uscita tramite il blocco scorte.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ Questa procedura illustra come impedire che scorte fisiche disponibili vengano p
 1. Andare a Gestione articoli > Attività periodiche > Blocco scorte.
 2. Fare clic su Nuovo.
 3. Nel campo Numero articolo fare clic sul pulsante a discesa per aprire la ricerca.
-4. Selezionare dall'elenco l'articolo da scegliere. 
+4. Selezionare dall'elenco l'articolo da scegliere.
     * Selezionare un numero di articolo con scorte fisiche disponibili che si desidera bloccare. Se si utilizza USMF, è possibile selezionare l'articolo M9201.  
 5. Nel campo Quantità immettere un numero.
     * Se si utilizza l'articolo M9201, è necessario selezionare un valore inferiore a 200.  
@@ -55,5 +55,4 @@ Questa procedura illustra come impedire che scorte fisiche disponibili vengano p
 1. Fare clic su Elimina.
 2. Fare clic su Sì.
 3. Chiudere la pagina.
-
 

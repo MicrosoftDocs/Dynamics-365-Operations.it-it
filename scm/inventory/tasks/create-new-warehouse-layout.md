@@ -1,4 +1,4 @@
---- 
+---
 title: Creare un nuovo layout di magazzino
 description: Questa procedura consente di visualizzare come impostare le informazioni sulle ubicazioni in un magazzino.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ Questa procedura consente di visualizzare come impostare le informazioni sulle u
 7. Attiva/disattiva l'espansione della sezione Nomi ubicazioni.
     * Le opzioni di questa sezione definiscono il formato predefinito per i nomi delle ubicazioni. Nel nostro esempio, includeremo il numero di sezione, il numero di scaffale e il numero di ripiano.  
 8. Impostare l'opzione Includi sezione su Sì.
-9. Impostare l'opzione Includi scaffale su Sì. 
+9. Impostare l'opzione Includi scaffale su Sì.
 10. Nel campo Formato digitare un valore per lo scaffale.
     * Ad esempio: -N  
 11. Impostare l'opzione Includi ripiano su Sì.
@@ -74,5 +74,4 @@ Questa procedura consente di visualizzare come impostare le informazioni sulle u
 14. Scegliere Fine.
 15. Chiudere la pagina.
 16. Aggiorna la pagina.
-
 

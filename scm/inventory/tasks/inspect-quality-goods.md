@@ -1,4 +1,4 @@
---- 
+---
 title: "Verificare la qualità delle merci"
 description: "Questa procedura illustra come elaborare un ordine di controllo qualità."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -55,5 +55,4 @@ Questa procedura illustra come elaborare un ordine di controllo qualità. È pos
 4. Fare clic su Seleziona.
 5. Fare clic su OK.
 6. Chiudere la pagina.
-
 

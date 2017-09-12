@@ -1,4 +1,4 @@
---- 
+---
 title: Inizializzare i livelli di scorte in magazzino
 description: Questa procedura mostra come aggiornare manualmente l'inventario disponibile tramite un giornale di registrazione movimenti Inventario.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Questa procedura mostra come aggiornare manualmente l'inventario disponibile tra
 24. Fare clic su OK.
 25. Chiudere la pagina.
 26. Chiudere la pagina.
-
 

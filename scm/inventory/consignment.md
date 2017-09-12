@@ -1,7 +1,7 @@
 ---
 title: Spedizione
 description: In questo argomento viene illustrato come usare i processi di inventario spedizione in entrata.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220834
 ms.assetid: 3c9d6de4-45d4-459a-aef7-0d9ad2c22b3a
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -61,7 +61,7 @@ USMF eseguirà i processi periodici aggiuntivi:
 Il fornitore, US-104, può monitorare gli aggiornamenti utilizzando la pagina **Inventario spedizione disponibile**.
 
 ## <a name="consignment-replenishment-orders"></a>Ordini di rifornimento spedizione
-Un ordine di rifornimento spedizione è un documento utilizzato per richiedere e tenere traccia delle quantità delle scorte di prodotti che un fornitore desidera consegnare all'interno di un determinato intervallo di date creando transazioni di magazzino ordinato. In genere, questo verrà base alla previsione e sulla domanda effettiva dei prodotti specifici. L'inventario che verrà ricevuto rispetto all'ordine di rifornimento spedizione rimane di proprietà del fornitore. Solo il possesso dei prodotti correlati all'aggiornamento dell'entrata fisica viene registrato e quindi non si verifica alcuna transazione di contabilità generale. La dimensione **Proprietario** viene utilizzata per separare le informazioni su quale inventario appartiene al fornitore e quale appartiene alla persona giuridica ricevente. Le righe ordine di rifornimento spedizione hanno uno stato **Ordine aperto** fino a quando l'intera quantità delle righe non è stata ricevuta o annullata. Quando la quantità totale è stata ricevuta o annullata, lo stato viene cambia in **Completato**. L'inventario fisico disponibile correlato a un ordine di rifornimento spedizione può essere registrato mediante un processo di registrazione oltre che un processo di aggiornamento di entrata prodotti. La registrazione può essere effettuata durante il processo di arrivo articoli o manualmente mediante l'aggiornamento delle righe ordine. Quando il processo di aggiornamento dell'entrata prodotti viene utilizzato, viene aggiunta una registrazione nel giornale di registrazione entrata prodotti, che può essere utilizzata per confermare le entrate di merci ai fornitori. 
+Un ordine di rifornimento spedizione è un documento utilizzato per richiedere e tenere traccia delle quantità delle scorte di prodotti che un fornitore desidera consegnare all'interno di un determinato intervallo di date creando transazioni di magazzino ordinato. In genere, questo verrà base alla previsione e sulla domanda effettiva dei prodotti specifici. L'inventario che verrà ricevuto rispetto all'ordine di rifornimento spedizione rimane di proprietà del fornitore. Solo il possesso dei prodotti correlati all'aggiornamento dell'entrata fisica viene registrato e quindi non si verifica alcuna transazione di contabilità generale. La dimensione **Proprietario** viene utilizzata per separare le informazioni su quale inventario appartiene al fornitore e quale appartiene alla persona giuridica ricevente. Le righe ordine di rifornimento spedizione hanno uno stato **Ordine aperto** fino a quando l'intera quantità delle righe non è stata ricevuta o annullata. Quando la quantità totale è stata ricevuta o annullata, lo stato viene cambia in **Completato**. L'inventario fisico disponibile correlato a un ordine di rifornimento spedizione può essere registrato mediante un processo di registrazione oltre che un processo di aggiornamento di entrata prodotti. La registrazione può essere effettuata durante il processo di arrivo articoli o manualmente mediante l'aggiornamento delle righe ordine. Quando il processo di aggiornamento dell'entrata prodotti viene utilizzato, viene aggiunta una registrazione nel giornale di registrazione entrata prodotti, che può essere utilizzata per confermare le entrate di merci ai fornitori.
 
 [![consignment-replenishment-order](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
@@ -71,7 +71,7 @@ Il processo di modifica del proprietario dal fornitore alla persona giuridica ri
 -   L'inventario di proprietà del fornitore viene emesso utilizzando un riferimento **Modifica proprietà** con stato **Venduto**.
 -   L'inventario disponibile verrà ricevuto dalla persone giuridica che lo consuma utilizzando una transazione di magazzino entrata prodotti nell'ordine fornitore. In questo modo viene impostato lo stato dell'ordine su **Ricevuto**.. Gli ordini fornitore utilizzati per la spedizione hanno il campo **Origine** impostato su **Spedizione**.
 
-Non è possibile aggiornare la quantità nelle righe di ordine fornitore spedizione dopo che l'ordine è stato creato. 
+Non è possibile aggiornare la quantità nelle righe di ordine fornitore spedizione dopo che l'ordine è stato creato.
 
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
@@ -81,8 +81,4 @@ L'interfaccia di collaborazione fornitore ha tre pagine correlate al processo di
 -   **Ordini fornitore** **che utilizzano inventario spedizione** - Mostra informazioni dettagliate sugli ordini fornitore relativi alla modifica di proprietà dal processo di spedizione.
 -   **Prodotti entrati da inventario spedizione** - Mostra informazioni su articoli e le quantità con entrate prodotti aggiornate durante il processo di modifica proprietà.
 -   **Inventario spedizione disponibile** - Consente di visualizzare le informazioni sugli articoli di spedizione previsti per la consegna e gli articoli fisicamente disponibili il sito del cliente.
-
-
-
-
 

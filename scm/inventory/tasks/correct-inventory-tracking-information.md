@@ -1,4 +1,4 @@
---- 
+---
 title: "Correggere le informazioni di tracciabilità di magazzino"
 description: "In questa procedura vengono descritti i passaggi per creare e registrare un giornale di registrazione trasferimenti scorte per correggere le informazioni di tracciabilità inventario."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ In questa procedura vengono descritti i passaggi per creare e registrare un gior
 1. Fare clic su Scorte.
 2. Fare clic su Transazioni.
     * È possibile visualizzare le transazioni create quando è stato registrato il giornale di registrazione.   
-
 

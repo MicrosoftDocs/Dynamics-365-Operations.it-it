@@ -1,4 +1,4 @@
---- 
+---
 title: Impostare i parametri per la gestione
 description: "Utilizzare questa procedura per attivare i processi di gestione delle non conformità."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Utilizzare questa procedura per attivare i processi di gestione delle non confor
 3. Digitare un valore nel campo Aree quarantena.
 4. Nel campo Descrizione digitare un valore.
 5. Chiudere la pagina.
-
 

@@ -1,7 +1,7 @@
 ---
 title: Unisci batch di magazzino
 description: "In questo articolo vengono fornite informazioni sul consolidamento di due o più batch di magazzino in un batch unito."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo vengono fornite informazioni sul consolidamento di due o più batch di magazzino in un batch unito. 
+In questo articolo vengono fornite informazioni sul consolidamento di due o più batch di magazzino in un batch unito.
 
 Quando i batch vengono uniti, i calcoli possono consentire di ottimizzare le caratteristiche e gli attributi batch nel batch unito. Dopo la selezione dei batch di origine, quello unito può essere rivisto e modificato prima della registrazione. È inoltre possibile trasferire l'unione batch in un giornale di registrazione magazzino per l'approvazione. Le scorte possono quindi essere prenotate o registrate direttamente dal giornale di registrazione magazzino. Quando si registra un batch unito, il magazzino viene regolato per i batch di origine e il batch unito.
 
@@ -142,7 +142,4 @@ La registrazione funziona in due modi, a seconda che si utilizzi un processo di 
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Perché non riesco a visualizzare le informazioni sul peso variabile nel giornale di registrazione magazzino dopo aver unito un articolo a peso variabile?
 È possibile unire i batch degli articoli a peso variabile come tutti gli altri articoli. Tuttavia, le informazioni sul peso variabile non vengono visualizzate nel giornale di registrazione magazzino. Si consiglia di verificare le informazioni sul peso variabile prima di trasferire l'unione batch nel giornale di registrazione magazzino.
-
-
-
 

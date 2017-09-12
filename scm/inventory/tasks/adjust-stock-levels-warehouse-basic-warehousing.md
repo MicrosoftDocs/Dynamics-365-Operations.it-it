@@ -1,4 +1,4 @@
---- 
+---
 title: Rettificare i livelli di scorte in magazzino (immagazzinaggio base)
 description: In questa procedura viene descritto dettagliatamente il processo per creare e registrare un giornale di registrazione di rettifica magazzino in modo da rettificare i livelli di scorte dei prodotti in magazzino.
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ In questa procedura viene descritto dettagliatamente il processo per creare e re
 4. Fare clic su OK.
 5. Chiudere il modulo.
 6. Chiudere la pagina.
-
 

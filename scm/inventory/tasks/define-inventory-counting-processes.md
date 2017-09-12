@@ -1,4 +1,4 @@
---- 
+---
 title: Definire i processi di conteggio scorte
 description: In questa procedura viene illustrata la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio.
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ In questa procedura viene illustrata la configurazione dei processi di conteggio
 7. Nell'elenco selezionare un gruppo di conteggio.
     * In questo campo è possibile selezionare un gruppo di conteggio specifico da applicare all'articolo nel magazzino specifico selezionato. Quando il conteggio viene eseguito nel magazzino, questi criteri di conteggio sostituiranno i criteri di conteggio generali per l'articolo.  
 8. Fare clic su Salva.
-
 
