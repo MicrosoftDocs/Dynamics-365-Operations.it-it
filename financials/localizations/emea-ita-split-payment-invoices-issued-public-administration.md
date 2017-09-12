@@ -18,95 +18,95 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d193d12832b40055787a9fbfabb9b6bd507cdf03
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3ae1e5a95e0f574f9534761b1ca07900726b64bd
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="split-payment-for-invoices-issued-to-the-public-administration"></a>Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
+# <a name="split-payment-for-invoices-issued-to-the-public-administration"></a><span data-ttu-id="7f690-103">Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione</span><span class="sxs-lookup"><span data-stu-id="7f690-103">Split payment for invoices issued to the Public Administration</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.
+<span data-ttu-id="7f690-104">In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.</span><span class="sxs-lookup"><span data-stu-id="7f690-104">This topic provides information about the split payment accounting schema.</span></span>
 
-Lo schema di contabilità di scissione dei pagamenti è valido per la vendita di merci e servizi resi alla Pubblica amministrazione. Il meccanismo di scissione dei pagamenti trasferisce l'obbligo di pagamento delle imposte alla Pubblica amministrazione che sarà obbligata a pagare solo la base imponibile al fornitore. L'IVA viene accreditata in un conto riservato specifico. Le società con relazioni con la Pubblica amministrazione devono assicurarsi che l'IVA relativa venga registrata nelle vendite del registro, senza contribuire al pagamento IVA periodico.
+<span data-ttu-id="7f690-105">Lo schema di contabilità di scissione dei pagamenti è valido per la vendita di merci e servizi resi alla Pubblica amministrazione.</span><span class="sxs-lookup"><span data-stu-id="7f690-105">The split payment accounting schema is valid for the sale of goods and services rendered to the Public Administration.</span></span> <span data-ttu-id="7f690-106">Il meccanismo di scissione dei pagamenti trasferisce l'obbligo di pagamento delle imposte alla Pubblica amministrazione che sarà obbligata a pagare solo la base imponibile al fornitore.</span><span class="sxs-lookup"><span data-stu-id="7f690-106">The split payment mechanism transfers the tax payment obligation to the Public Administration who are obligated to pay only the taxable base to the supplier.</span></span> <span data-ttu-id="7f690-107">L'IVA viene accreditata in un conto riservato specifico.</span><span class="sxs-lookup"><span data-stu-id="7f690-107">The VAT is credited to a specific reserved account.</span></span> <span data-ttu-id="7f690-108">Le società con relazioni con la Pubblica amministrazione devono assicurarsi che l'IVA relativa venga registrata nelle vendite del registro, senza contribuire al pagamento IVA periodico.</span><span class="sxs-lookup"><span data-stu-id="7f690-108">Companies that have relationships with the Public Administration should ensure that the relevant VAT is recorded in the register sales, without contributing to the periodic VAT payment.</span></span>
 
-## <a name="prerequisites"></a>Prerequisiti
-Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di iniziare.
+## <a name="prerequisites"></a><span data-ttu-id="7f690-109">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="7f690-109">Prerequisites</span></span>
+<span data-ttu-id="7f690-110">Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di iniziare.</span><span class="sxs-lookup"><span data-stu-id="7f690-110">The following table shows the prerequisites that must be in place before you start.</span></span>
 
-**Categoria**
+<span data-ttu-id="7f690-111">**Categoria**</span><span class="sxs-lookup"><span data-stu-id="7f690-111">**Category**</span></span>
 
-**Prerequisito**
+<span data-ttu-id="7f690-112">**Prerequisito**</span><span class="sxs-lookup"><span data-stu-id="7f690-112">**Prerequisite**</span></span>
 
-**Impostazioni**: registrazione IVA
+<span data-ttu-id="7f690-113">**Impostazioni**: registrazione IVA</span><span class="sxs-lookup"><span data-stu-id="7f690-113">**Setup:** Sales tax posting</span></span>
 
-Creare un nuovo conto principale per la scissione dei pagamenti IVA, quindi selezionare **IVA** nel campo **Tipo di registrazione**. Creare un gruppo di registrazione per la scissione dei pagamenti IVA, quindi selezionare il conto CoGe creato nei campi **IVA a debito**, **IVA a credito** e **Conto di liquidazione**.
+<span data-ttu-id="7f690-114">Creare un nuovo conto principale per la scissione dei pagamenti IVA, quindi selezionare **IVA** nel campo **Tipo di registrazione**.</span><span class="sxs-lookup"><span data-stu-id="7f690-114">Create a new main account for VAT split payment, and then select **Sales tax** in the **Posting type** field.</span></span> <span data-ttu-id="7f690-115">Creare un gruppo di registrazione per la scissione dei pagamenti IVA, quindi selezionare il conto CoGe creato nei campi **IVA a debito**, **IVA a credito** e **Conto di liquidazione**.</span><span class="sxs-lookup"><span data-stu-id="7f690-115">Create a posting group for VAT split payment, and then select the created ledger account in the **Sales tax payable**, **Sales tax receivable**, and **Settlement account** fields.</span></span>
 
-**Impostazione:**IVA
+<span data-ttu-id="7f690-116">**Impostazione:**IVA</span><span class="sxs-lookup"><span data-stu-id="7f690-116">**Setup:** Sales tax</span></span>
 
-Creare una **Fascia IVA** per la Pubblica amministrazione, quindi selezionare l'opzione **Scissione dei pagamenti**. Creare un codice IVA per la scissione dei pagamenti IVA. Impostare il valore utilizzabile per il paese, quindi aggiungere il codice IVA in **Fascia IVA** e **Fascia IVA articoli**.
+<span data-ttu-id="7f690-117">Creare una **Fascia IVA** per la Pubblica amministrazione, quindi selezionare l'opzione **Scissione dei pagamenti**.</span><span class="sxs-lookup"><span data-stu-id="7f690-117">Create a **Sales tax group** for the Public Administration, and then select the **Split payment** option.</span></span> <span data-ttu-id="7f690-118">Creare un codice IVA per la scissione dei pagamenti IVA.</span><span class="sxs-lookup"><span data-stu-id="7f690-118">Create a sales tax code for VAT split payment.</span></span> <span data-ttu-id="7f690-119">Impostare il valore utilizzabile per il paese, quindi aggiungere il codice IVA in **Fascia IVA** e **Fascia IVA articoli**.</span><span class="sxs-lookup"><span data-stu-id="7f690-119">Set the value applicable for the country/region, and then add the sales tax code in the **Sales tax group** and **Item Sales tax group**.</span></span>
 
-**Impostazioni:** contabilità clienti
+<span data-ttu-id="7f690-120">**Impostazioni:** contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="7f690-120">**Setup:** Accounts receivable</span></span>
 
-Impostare la **Sequenza numerica** per il riferimento **Giustificativo scissione dei pagamenti** nei parametri di contabilità fornitori. Selezionare il codice di sequenza numerica per registrare l'IVA stornata per le fatture nel meccanismo di scissione dei pagamenti per il riferimento **Giustificativo scissione dei pagamenti**. Creare un gruppo di sequenze numeriche per il cliente - Pubblica amministrazione. Nella scheda **Sequenze numeriche**, selezionare la riga con il riferimento **Giustificativo fattura a testo libero**, quindi fare clic sul pulsante **Gruppo**. Nella pagina **Gruppi di sequenze numeriche**, creare un nuovo gruppo, quindi selezionare una sequenza numerica per i riferimenti seguenti:
+<span data-ttu-id="7f690-121">Impostare la **Sequenza numerica** per il riferimento **Giustificativo scissione dei pagamenti** nei parametri di contabilità fornitori.</span><span class="sxs-lookup"><span data-stu-id="7f690-121">Set up the **Number sequence** for the **Split payment voucher** reference in Accounts payable parameters.</span></span> <span data-ttu-id="7f690-122">Selezionare il codice di sequenza numerica per registrare l'IVA stornata per le fatture nel meccanismo di scissione dei pagamenti per il riferimento **Giustificativo scissione dei pagamenti**.</span><span class="sxs-lookup"><span data-stu-id="7f690-122">Select the number sequence code to post the reversed VAT for invoices under the split payment mechanism for the **Split payment voucher** reference.</span></span> <span data-ttu-id="7f690-123">Creare un gruppo di sequenze numeriche per il cliente - Pubblica amministrazione.</span><span class="sxs-lookup"><span data-stu-id="7f690-123">Create a number sequence group for the Customer – Public Administration.</span></span> <span data-ttu-id="7f690-124">Nella scheda **Sequenze numeriche**, selezionare la riga con il riferimento **Giustificativo fattura a testo libero**, quindi fare clic sul pulsante **Gruppo**.</span><span class="sxs-lookup"><span data-stu-id="7f690-124">On the **Number sequences** tab, select the line with the **Free text invoice voucher** reference, and then click the **Group** button.</span></span> <span data-ttu-id="7f690-125">Nella pagina **Gruppi di sequenze numeriche**, creare un nuovo gruppo, quindi selezionare una sequenza numerica per i riferimenti seguenti:</span><span class="sxs-lookup"><span data-stu-id="7f690-125">In the **Number sequence groups** page, create a new group, and then select a number sequence for the following references:</span></span>
 
--   Giustificativo fattura a testo libero
--   Giustificativo nota di accredito a testo libero
--   Giustificativo fattura cliente
--   Giustificativo nota di accredito vendita
+-   <span data-ttu-id="7f690-126">Giustificativo fattura a testo libero</span><span class="sxs-lookup"><span data-stu-id="7f690-126">Free text invoice voucher</span></span>
+-   <span data-ttu-id="7f690-127">Giustificativo nota di accredito a testo libero</span><span class="sxs-lookup"><span data-stu-id="7f690-127">Free text credit note voucher</span></span>
+-   <span data-ttu-id="7f690-128">Giustificativo fattura cliente</span><span class="sxs-lookup"><span data-stu-id="7f690-128">Customer invoice voucher</span></span>
+-   <span data-ttu-id="7f690-129">Giustificativo nota di accredito vendita</span><span class="sxs-lookup"><span data-stu-id="7f690-129">Sales credit note voucher</span></span>
 
-Impostare **Fascia IVA** e **Gruppo di sequenze numeriche** per i Clienti- Pubblica amministrazione nella pagina **Tutti i clienti**.
+<span data-ttu-id="7f690-130">Impostare **Fascia IVA** e **Gruppo di sequenze numeriche** per i Clienti- Pubblica amministrazione nella pagina **Tutti i clienti**.</span><span class="sxs-lookup"><span data-stu-id="7f690-130">Set up a **Sales tax group** and **Number sequence group** for the Customers-Public Administration on the **All Customers** page.</span></span>
 
-**Impostazioni:** libro IVA e sezione Libro IVA
+<span data-ttu-id="7f690-131">**Impostazioni:** libro IVA e sezione Libro IVA</span><span class="sxs-lookup"><span data-stu-id="7f690-131">**Setup:** VAT book and VAT book section</span></span>
 
-Creare un nuovo libro IVA per registrare fatture alla Pubblica amministrazione. Creare una nuova sezione per il libro IVA.
+<span data-ttu-id="7f690-132">Creare un nuovo libro IVA per registrare fatture alla Pubblica amministrazione.</span><span class="sxs-lookup"><span data-stu-id="7f690-132">Create a new VAT book to register invoices to Public administration.</span></span> <span data-ttu-id="7f690-133">Creare una nuova sezione per il libro IVA.</span><span class="sxs-lookup"><span data-stu-id="7f690-133">Create a new section for the VAT book.</span></span>
 
-**Transazioni correlate**
+<span data-ttu-id="7f690-134">**Transazioni correlate**</span><span class="sxs-lookup"><span data-stu-id="7f690-134">**Related transactions**</span></span>
 
--   Registrare una vendita a un cliente con le impostazioni di scissione dei pagamenti.
--   Registrare una fattura a testo libero per un cliente con impostazioni di scissione dei pagamenti.
+-   <span data-ttu-id="7f690-135">Registrare una vendita a un cliente con le impostazioni di scissione dei pagamenti.</span><span class="sxs-lookup"><span data-stu-id="7f690-135">Register a sale to a customer with split payment settings.</span></span>
+-   <span data-ttu-id="7f690-136">Registrare una fattura a testo libero per un cliente con impostazioni di scissione dei pagamenti.</span><span class="sxs-lookup"><span data-stu-id="7f690-136">Register a free text invoice for a customer with split payment settings.</span></span>
 
-## <a name="working-with-the-split-payment-invoices"></a>Utilizzo delle fatture di scissione dei pagamenti
-Quando si registra la fattura, ad esempio un ordine cliente, una fattura a testo libero o una fattura di progetto. Con la fascia IVA di scissione dei pagamenti, le transazioni IVA di storno con i relativi codici di imposta vengono registrate per eliminare l'imposta accumulata. Per ridurre il saldo cliente, una transazione cliente per l'importo IVA viene creata e automaticamente compensata con la fattura durante la registrazione della fattura. In tal modo, il saldo cliente viene ridotto dell'importo IVA. **Nota:** le transazioni IVA registrate con l'opzione **Scissione dei pagamenti** selezionata sono escluse dal processo di pagamento IVA. Le fatture create utilizzando il processo di scissione dei pagamenti hanno una "S" nel tag &lt;EsigibilitaIVA&gt;.
+## <a name="working-with-the-split-payment-invoices"></a><span data-ttu-id="7f690-137">Utilizzo delle fatture di scissione dei pagamenti</span><span class="sxs-lookup"><span data-stu-id="7f690-137">Working with the split payment invoices</span></span>
+<span data-ttu-id="7f690-138">Quando si registra la fattura, ad esempio un ordine cliente, una fattura a testo libero o una fattura di progetto.</span><span class="sxs-lookup"><span data-stu-id="7f690-138">When posting the invoice, such as sales order, free text invoice, or project invoice.</span></span> <span data-ttu-id="7f690-139">Con la fascia IVA di scissione dei pagamenti, le transazioni IVA di storno con i relativi codici di imposta vengono registrate per eliminare l'imposta accumulata.</span><span class="sxs-lookup"><span data-stu-id="7f690-139">with the Split payment sales tax group, the reversing sales tax transactions with relevant tax codes are posted to eliminate the tax being accrued.</span></span> <span data-ttu-id="7f690-140">Per ridurre il saldo cliente, una transazione cliente per l'importo IVA viene creata e automaticamente compensata con la fattura durante la registrazione della fattura.</span><span class="sxs-lookup"><span data-stu-id="7f690-140">To reduce the customer balance, a customer transaction for the sales tax amount is created and automatically settled with the invoice while invoice posting.</span></span> <span data-ttu-id="7f690-141">In tal modo, il saldo cliente viene ridotto dell'importo IVA.</span><span class="sxs-lookup"><span data-stu-id="7f690-141">This reduces the customer balance by the VAT amount.</span></span> <span data-ttu-id="7f690-142">**Nota:** le transazioni IVA registrate con l'opzione **Scissione dei pagamenti** selezionata sono escluse dal processo di pagamento IVA.</span><span class="sxs-lookup"><span data-stu-id="7f690-142">**Note:** The tax transactions posted with the **Split payment **option selected are excluded from the sales tax payment process.</span></span> <span data-ttu-id="7f690-143">Le fatture create utilizzando il processo di scissione dei pagamenti hanno una "S" nel tag &lt;EsigibilitaIVA&gt;.</span><span class="sxs-lookup"><span data-stu-id="7f690-143">eInvoices created using the Split payment process have an"S" in the tag &lt;EsigibilitaIVA&gt;.</span></span>
 
-### <a name="booking-example-for-sales-invoice"></a>Esempio di prenotazione per la fattura di vendita
+### <a name="booking-example-for-sales-invoice"></a><span data-ttu-id="7f690-144">Esempio di prenotazione per la fattura di vendita</span><span class="sxs-lookup"><span data-stu-id="7f690-144">Booking example for sales invoice</span></span>
 
-Nella seguente tabella è riportato un esempio di transazioni di contabilità generale per due transazioni cliente create per una fattura di scissione dei pagamenti.
+<span data-ttu-id="7f690-145">Nella seguente tabella è riportato un esempio di transazioni di contabilità generale per due transazioni cliente create per una fattura di scissione dei pagamenti.</span><span class="sxs-lookup"><span data-stu-id="7f690-145">The following table shows an example of general ledger transactions for two customer transactions сreated for a split payment invoice.</span></span>
 
 ** **
 
-**Conto**
+<span data-ttu-id="7f690-146">**Conto**</span><span class="sxs-lookup"><span data-stu-id="7f690-146">**Account**</span></span>
 
-**Dare**
+<span data-ttu-id="7f690-147">**Dare**</span><span class="sxs-lookup"><span data-stu-id="7f690-147">**Debit**</span></span>
 
-**Avere**
+<span data-ttu-id="7f690-148">**Avere**</span><span class="sxs-lookup"><span data-stu-id="7f690-148">**Credit**</span></span>
 
-**Contabilizzazione fattura**
+<span data-ttu-id="7f690-149">**Contabilizzazione fattura**</span><span class="sxs-lookup"><span data-stu-id="7f690-149">**Invoice accounting**</span></span>
 
-Cliente\_Società pubblica
+<span data-ttu-id="7f690-150">Cliente\_Società pubblica</span><span class="sxs-lookup"><span data-stu-id="7f690-150">Customer\_Public Company</span></span>
 
-1220
+<span data-ttu-id="7f690-151">1220</span><span class="sxs-lookup"><span data-stu-id="7f690-151">1220</span></span>
 
-Ricavi vendite
+<span data-ttu-id="7f690-152">Ricavi vendite</span><span class="sxs-lookup"><span data-stu-id="7f690-152">Sales revenue</span></span>
 
-1000
+<span data-ttu-id="7f690-153">1000</span><span class="sxs-lookup"><span data-stu-id="7f690-153">1000</span></span>
 
-Scissione dei pagamenti IVA
+<span data-ttu-id="7f690-154">Scissione dei pagamenti IVA</span><span class="sxs-lookup"><span data-stu-id="7f690-154">VAT split payment</span></span>
 
-220
+<span data-ttu-id="7f690-155">220</span><span class="sxs-lookup"><span data-stu-id="7f690-155">220</span></span>
 
-**Eliminazione debito IVA**
+<span data-ttu-id="7f690-156">**Eliminazione debito IVA**</span><span class="sxs-lookup"><span data-stu-id="7f690-156">**VAT debt elimination**</span></span>
 
-Cliente\_Società pubblica
+<span data-ttu-id="7f690-157">Cliente\_Società pubblica</span><span class="sxs-lookup"><span data-stu-id="7f690-157">Customer\_Public Company</span></span>
 
-220
+<span data-ttu-id="7f690-158">220</span><span class="sxs-lookup"><span data-stu-id="7f690-158">220</span></span>
 
-Scissione dei pagamenti IVA
+<span data-ttu-id="7f690-159">Scissione dei pagamenti IVA</span><span class="sxs-lookup"><span data-stu-id="7f690-159">VAT split payment</span></span>
 
-220
+<span data-ttu-id="7f690-160">220</span><span class="sxs-lookup"><span data-stu-id="7f690-160">220</span></span>
 
  
 

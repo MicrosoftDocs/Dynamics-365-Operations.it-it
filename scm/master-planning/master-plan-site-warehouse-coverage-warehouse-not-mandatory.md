@@ -20,31 +20,31 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ec5150abd297a7c00ac180db581adb30bef65b3f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9c7b13a7a018ce584c877fed6212abc3c2913903
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Pianificazione generale per copertura a livello di sito e magazzino, magazzino non obbligatorio
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a><span data-ttu-id="e3308-104">Pianificazione generale per copertura a livello di sito e magazzino, magazzino non obbligatorio</span><span class="sxs-lookup"><span data-stu-id="e3308-104">Master planning for site and warehouse coverage, warehouse not mandatory</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto come viene pianificato un articolo con sito e magazzino come dimensioni di copertura. La dimensione magazzino non è impostata come obbligatoria.
+<span data-ttu-id="e3308-105">In questo argomento viene descritto come viene pianificato un articolo con sito e magazzino come dimensioni di copertura.</span><span class="sxs-lookup"><span data-stu-id="e3308-105">This topic describes how an item that has site and warehouse as coverage dimensions is planned.</span></span> <span data-ttu-id="e3308-106">La dimensione magazzino non è impostata come obbligatoria.</span><span class="sxs-lookup"><span data-stu-id="e3308-106">The warehouse dimension is not mandatory.</span></span>
 
-In questo scenario di pianificazione generale sono previste le seguenti condizioni:
+<span data-ttu-id="e3308-107">In questo scenario di pianificazione generale sono previste le seguenti condizioni:</span><span class="sxs-lookup"><span data-stu-id="e3308-107">This master planning scenario involves the following conditions:</span></span>
 
--   La dimensione sito è impostata come obbligatoria e deve essere immessa nella transazione relativa alla domanda. Questa impostazione non può essere modificata.
--   La dimensione magazzino non è impostata come obbligatoria. Il magazzino può essere noto, ma non è utilizzato nel calcolo della pianificazione generale.
--   Le dimensioni sito e magazzino sono impostate per la pianificazione della copertura. Altre dimensioni possono essere impostate anche per la pianificazione copertura. Tuttavia, non sono interessate dalla funzionalità multisito.
+-   <span data-ttu-id="e3308-108">La dimensione sito è impostata come obbligatoria e deve essere immessa nella transazione relativa alla domanda.</span><span class="sxs-lookup"><span data-stu-id="e3308-108">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span> <span data-ttu-id="e3308-109">Questa impostazione non può essere modificata.</span><span class="sxs-lookup"><span data-stu-id="e3308-109">This setting can't be modified.</span></span>
+-   <span data-ttu-id="e3308-110">La dimensione magazzino non è impostata come obbligatoria.</span><span class="sxs-lookup"><span data-stu-id="e3308-110">The warehouse dimension is not set to mandatory.</span></span> <span data-ttu-id="e3308-111">Il magazzino può essere noto, ma non è utilizzato nel calcolo della pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="e3308-111">The warehouse may be known, but it is not used in the master planning calculation.</span></span>
+-   <span data-ttu-id="e3308-112">Le dimensioni sito e magazzino sono impostate per la pianificazione della copertura.</span><span class="sxs-lookup"><span data-stu-id="e3308-112">The site and warehouse dimensions are set for coverage planning.</span></span> <span data-ttu-id="e3308-113">Altre dimensioni possono essere impostate anche per la pianificazione copertura.</span><span class="sxs-lookup"><span data-stu-id="e3308-113">Other dimensions may be set for coverage planning also.</span></span> <span data-ttu-id="e3308-114">Tuttavia, non sono interessate dalla funzionalità multisito.</span><span class="sxs-lookup"><span data-stu-id="e3308-114">However, they are not affected by the multisite functionality.</span></span>
 
-Nella figura riportata di seguito è illustrato il processo di pianificazione generale. I parametri a cui viene fatto riferimento nella figura comprendono:
--   Il magazzino è impostato su Manuale. Fare clic su **Gestione articoli &gt; Impostazioni &gt; Suddivisione scorte &gt; Magazzini** Nella scheda dettaglio **Pianificazione generale**, vedere il campo **Manuale**.
--   La copertura articoli viene definita per l'articolo. Fare clic su **Gestione informazioni sul prodotto &gt; Prodotti &gt; Prodotti rilasciati**. Selezionare l'articolo, quindi nel riquadro azioni nella scheda **Pianificazione** fare clic su **Copertura articoli**.
--   Relazioni di ricaricamento definite per il magazzino. Fare clic su **Gestione articoli &gt; Impostazioni &gt; Suddivisione scorte &gt; Magazzini** Nella scheda dettaglio **Pianificazione generale** vedere il gruppo di campi **Magazzino principale**.
--   Il tipo di ordine predefinito viene impostato sull'ordine acquisto, di produzione o sul kanban. Fare clic su **Gestione informazioni sul prodotto &gt; Prodotti &gt; Prodotti rilasciati**. Selezionare l'articolo, quindi nel riquadro azioni nella scheda **Pianificazione** fare clic su **Impostazioni ordine predefinite**. Nel modulo **Impostazioni ordine predefinite** vedere **Tipo di ordine predefinito**.
+<span data-ttu-id="e3308-115">Nella figura riportata di seguito è illustrato il processo di pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="e3308-115">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="e3308-116">I parametri a cui viene fatto riferimento nella figura comprendono:</span><span class="sxs-lookup"><span data-stu-id="e3308-116">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
+-   <span data-ttu-id="e3308-117">Il magazzino è impostato su Manuale.</span><span class="sxs-lookup"><span data-stu-id="e3308-117">The warehouse is set to Manual.</span></span> <span data-ttu-id="e3308-118">Fare clic su **Gestione articoli &gt; Impostazioni &gt; Suddivisione scorte &gt; Magazzini**</span><span class="sxs-lookup"><span data-stu-id="e3308-118">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="e3308-119">Nella scheda dettaglio **Pianificazione generale**, vedere il campo **Manuale**.</span><span class="sxs-lookup"><span data-stu-id="e3308-119">On the **Master planning** FastTab, see the **Manual** field.</span></span>
+-   <span data-ttu-id="e3308-120">La copertura articoli viene definita per l'articolo.</span><span class="sxs-lookup"><span data-stu-id="e3308-120">Item coverage is defined for the item.</span></span> <span data-ttu-id="e3308-121">Fare clic su **Gestione informazioni sul prodotto &gt; Prodotti &gt; Prodotti rilasciati**.</span><span class="sxs-lookup"><span data-stu-id="e3308-121">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="e3308-122">Selezionare l'articolo, quindi nel riquadro azioni nella scheda **Pianificazione** fare clic su **Copertura articoli**.</span><span class="sxs-lookup"><span data-stu-id="e3308-122">Select the item, and then, on the Action pane, on the **Plan** tab, click **Item coverage**.</span></span>
+-   <span data-ttu-id="e3308-123">Relazioni di ricaricamento definite per il magazzino.</span><span class="sxs-lookup"><span data-stu-id="e3308-123">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="e3308-124">Fare clic su **Gestione articoli &gt; Impostazioni &gt; Suddivisione scorte &gt; Magazzini**</span><span class="sxs-lookup"><span data-stu-id="e3308-124">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="e3308-125">Nella scheda dettaglio **Pianificazione generale** vedere il gruppo di campi **Magazzino principale**.</span><span class="sxs-lookup"><span data-stu-id="e3308-125">On the **Master planning** FastTab, see the **Main warehouse** field group.</span></span>
+-   <span data-ttu-id="e3308-126">Il tipo di ordine predefinito viene impostato sull'ordine acquisto, di produzione o sul kanban.</span><span class="sxs-lookup"><span data-stu-id="e3308-126">The default order type is set to Production, Purchase order, or Kanban.</span></span> <span data-ttu-id="e3308-127">Fare clic su **Gestione informazioni sul prodotto &gt; Prodotti &gt; Prodotti rilasciati**.</span><span class="sxs-lookup"><span data-stu-id="e3308-127">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="e3308-128">Selezionare l'articolo, quindi nel riquadro azioni nella scheda **Pianificazione** fare clic su **Impostazioni ordine predefinite**.</span><span class="sxs-lookup"><span data-stu-id="e3308-128">Select the item, and then, on the Action pane, on the **Plan** tab, click **Default order settings**.</span></span> <span data-ttu-id="e3308-129">Nel modulo **Impostazioni ordine predefinite** vedere **Tipo di ordine predefinito**.</span><span class="sxs-lookup"><span data-stu-id="e3308-129">In the **Default order settings** form, see the **Default order type**.</span></span>
 
 ![Domanda di sito e magazzino, magazzino non obbligatorio](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
@@ -53,18 +53,18 @@ Nella figura riportata di seguito è illustrato il processo di pianificazione ge
 
 
 
-<a name="see-also"></a>Vedere anche
+<a name="see-also"></a><span data-ttu-id="e3308-131">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="e3308-131">See also</span></span>
 --------
 
-[Pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
+[<span data-ttu-id="e3308-132">Pianificazione generale e funzionalità multisito</span><span class="sxs-lookup"><span data-stu-id="e3308-132">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
-[Pianificazione generale: copertura a livello di sito magazzino, magazzino obbligatorio](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="e3308-133">Pianificazione generale: copertura a livello di sito magazzino, magazzino obbligatorio</span><span class="sxs-lookup"><span data-stu-id="e3308-133">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Pianificazione generale: copertura a livello di sito, magazzino obbligatorio](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="e3308-134">Pianificazione generale: copertura a livello di sito, magazzino obbligatorio</span><span class="sxs-lookup"><span data-stu-id="e3308-134">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Pianificazione generale: copertura a livello di sito, magazzino non obbligatorio](master-plan-site-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="e3308-135">Pianificazione generale: copertura a livello di sito, magazzino non obbligatorio</span><span class="sxs-lookup"><span data-stu-id="e3308-135">Master planning - site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[Pianificazione generale - Come determinare la versione DBA](master-plan-bom-version-determined.md)
+[<span data-ttu-id="e3308-136">Pianificazione generale - Come determinare la versione DBA</span><span class="sxs-lookup"><span data-stu-id="e3308-136">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

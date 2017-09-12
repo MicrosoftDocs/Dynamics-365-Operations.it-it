@@ -13,7 +13,7 @@ ms.reviewer: bis
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -23,20 +23,20 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>Configurare la visualizzazione dei batch meno recenti di un magazzino su un dispositivo mobile
+# <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a><span data-ttu-id="04acf-103">Configurare la visualizzazione dei batch meno recenti di un magazzino su un dispositivo mobile</span><span class="sxs-lookup"><span data-stu-id="04acf-103">Configure Display older batches within warehouse on a mobile device</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-La configurazione **Visualizza batch meno recenti di un magazzino** consente di visualizzare un elenco di ubicazioni con batch meno recenti rispetto a quelli dell'ubicazione corrente della riga di lavoro. L'elenco delle ubicazioni visualizzate include informazioni sui batch meno recenti nell'ubicazione con la data di scadenza e l'inventario fisico di ogni batch. È possibile scegliere di prelevare da una nuova ubicazione o di continuare a prelevare dall'ubicazione corrente. 
-- Preleva da una nuova ubicazione - Se si seleziona il prelievo da una nuova ubicazione, la riga di lavoro corrente verrà aggiornata per utilizzare la nuova ubicazione e il lavoro continuerà normalmente con la nuova ubicazione. Affinché la nuova ubicazione sia valida, deve avere una quantità disponibile sufficiente per l'intera riga di lavoro. Se la quantità richiesta non è disponibile, la riga di lavoro non verrà aggiornata e verrà visualizzato l'elenco. 
-- Continua a prelevare dalla posizione corrente - Se si continua con l'ubicazione della riga di lavoro corrente, le quantità per la riga di lavoro continueranno a essere prelevate dall'ubicazione originale.
+<span data-ttu-id="04acf-104">La configurazione **Visualizza batch meno recenti di un magazzino** consente di visualizzare un elenco di ubicazioni con batch meno recenti rispetto a quelli dell'ubicazione corrente della riga di lavoro.</span><span class="sxs-lookup"><span data-stu-id="04acf-104">The **Display older batches within warehouse** configuration lets you display a list of locations with batches older than the current location of the work line.</span></span> <span data-ttu-id="04acf-105">L'elenco delle ubicazioni visualizzate include informazioni sui batch meno recenti nell'ubicazione con la data di scadenza e l'inventario fisico di ogni batch.</span><span class="sxs-lookup"><span data-stu-id="04acf-105">The list of locations that are displayed includes information about the older batches in the location with the expiration date and the physical inventory of each batch.</span></span> <span data-ttu-id="04acf-106">È possibile scegliere di prelevare da una nuova ubicazione o di continuare a prelevare dall'ubicazione corrente.</span><span class="sxs-lookup"><span data-stu-id="04acf-106">You can choose to pick from a new location or to continue picking from the current location.</span></span> 
+- <span data-ttu-id="04acf-107">Preleva da una nuova ubicazione - Se si seleziona il prelievo da una nuova ubicazione, la riga di lavoro corrente verrà aggiornata per utilizzare la nuova ubicazione e il lavoro continuerà normalmente con la nuova ubicazione.</span><span class="sxs-lookup"><span data-stu-id="04acf-107">Pick from a new location - If you select a new location to pick from, the  current work line will be updated to use the new location and work will continue as usual with the new location.</span></span> <span data-ttu-id="04acf-108">Affinché la nuova ubicazione sia valida, deve avere una quantità disponibile sufficiente per l'intera riga di lavoro.</span><span class="sxs-lookup"><span data-stu-id="04acf-108">For the new location to be valid, it must have enough available quantity for the whole work line.</span></span> <span data-ttu-id="04acf-109">Se la quantità richiesta non è disponibile, la riga di lavoro non verrà aggiornata e verrà visualizzato l'elenco.</span><span class="sxs-lookup"><span data-stu-id="04acf-109">If the required quantity is not available, the work line will not be updated, and the list will display.</span></span> 
+- <span data-ttu-id="04acf-110">Continua a prelevare dalla posizione corrente - Se si continua con l'ubicazione della riga di lavoro corrente, le quantità per la riga di lavoro continueranno a essere prelevate dall'ubicazione originale.</span><span class="sxs-lookup"><span data-stu-id="04acf-110">Continue picking from the current location - If you continue with the current work line location, the quantities for the work line will continue to be picked from the original location.</span></span>
 
-## <a name="where-it-applies"></a>Dove si applica
-La visualizzazione dei batch meno recenti è configurata nelle voci di menu del dispositivo mobile e ha impatto sul prelievo di batch degli articoli seguenti.
+## <a name="where-it-applies"></a><span data-ttu-id="04acf-111">Dove si applica</span><span class="sxs-lookup"><span data-stu-id="04acf-111">Where it applies</span></span>
+<span data-ttu-id="04acf-112">La visualizzazione dei batch meno recenti è configurata nelle voci di menu del dispositivo mobile e ha impatto sul prelievo di batch degli articoli seguenti.</span><span class="sxs-lookup"><span data-stu-id="04acf-112">Display older batches within warehouse is configured on mobile device menu items and affects the pick for batch below items.</span></span>
 
-## <a name="set-up-display-older-batches-within-warehouse"></a>Configurare la visualizzazione di batch meno recenti nel magazzino
-La configurazione **Visualizza batch meno recenti all'interno del magazzino** è disponibile per le voci di menu del dispositivo mobile se l'opzione **Preleva batch meno recente** è impostata su **Avvisa**.
+## <a name="set-up-display-older-batches-within-warehouse"></a><span data-ttu-id="04acf-113">Configurare la visualizzazione di batch meno recenti nel magazzino</span><span class="sxs-lookup"><span data-stu-id="04acf-113">Set up Display older batches within warehouse</span></span>
+<span data-ttu-id="04acf-114">La configurazione **Visualizza batch meno recenti all'interno del magazzino** è disponibile per le voci di menu del dispositivo mobile se l'opzione **Preleva batch meno recente** è impostata su **Avvisa**.</span><span class="sxs-lookup"><span data-stu-id="04acf-114">The **Display older batches within warehouse** configuration is available on mobile device menu items when the **Pick oldest batch** option is set to **Warn**.</span></span>
 
-- In **Gestione magazzino** > **Impostazioni** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile** impostare **Utilizza lavoro esistente** su **Sì** per la voce di menu e selezionare **Avvisa** nel campo **Preleva batch meno recente**. 
+- <span data-ttu-id="04acf-115">In **Gestione magazzino** > **Impostazioni** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile** impostare **Utilizza lavoro esistente** su **Sì** per la voce di menu e selezionare **Avvisa** nel campo **Preleva batch meno recente**.</span><span class="sxs-lookup"><span data-stu-id="04acf-115">Under **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**, set **Use existing work** to **Yes** for the menu item, and select **Warn** in the **Pick oldest batch** field.</span></span> 
 
 

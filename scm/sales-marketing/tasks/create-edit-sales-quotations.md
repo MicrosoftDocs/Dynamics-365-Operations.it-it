@@ -16,64 +16,64 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5dcf7d2b5e5d5397c51c51223abe95f9d4911b4f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f56b495131836689395a2124d5a834579e1646b7
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-edit-sales-quotations"></a>Creare e modificare offerte di vendita
+# <a name="create-and-edit-sales-quotations"></a><span data-ttu-id="8ea56-103">Creare e modificare offerte di vendita</span><span class="sxs-lookup"><span data-stu-id="8ea56-103">Create and edit sales quotations</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Questa procedura dimostra come creare e aggiornare un'offerta di vendita. È possibile eseguire questa procedura sui propri dati o nella società di dati dimostrativi USMF.
+<span data-ttu-id="8ea56-104">Questa procedura dimostra come creare e aggiornare un'offerta di vendita.</span><span class="sxs-lookup"><span data-stu-id="8ea56-104">This procedure demonstrates how to create and update a sales quotation.</span></span> <span data-ttu-id="8ea56-105">È possibile eseguire questa procedura sui propri dati o nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="8ea56-105">You can run this procedure on your own data or in demo data company USMF.</span></span>
 
 
-## <a name="create-a-sales-quotation"></a>Creare un'offerta di vendita
-1. Passare a Vendite e marketing > Offerte di vendita > Tutte le offerte.
-2. Fare clic su Nuovo.
-3. Nel campo Tipo di conto selezionare 'Prospect'.
-4. Nel campo Prospect immettere o selezionare un valore.
-5. Espandere la sezione Generale.
-    * Poiché è stato scelto di creare un'offerta dall'area Vendita e marketing, il tipo viene automaticamente impostato su Offerta di vendita. Per creare un'offerta per un progetto è necessario accedervi dal modulo Gestione progetti e contabilità.   
-6. Fare clic su OK.
-    * I campi e le azioni sulle righe dell'offerta sono simili a quelli delle righe ordine cliente.   Analogamente agli ordini cliente, le offerte possono essere create per un articolo specifico o, se il numero articolo non è definito o non esiste al momento della creazione dell'offerta, le offerte possono essere create per una categoria di vendita.  
-7. Nel campo Articolo immettere o selezionare un valore.
-8. Digitare un valore nel campo Articolo.
-9. Chiudere la pagina.
-10. Nel campo Quantità immettere un numero.
-    * Se sono presenti contratti commerciali validi per l'articolo selezionato nella riga, il prezzo e gli sconti applicabili verranno automaticamente copiati nella riga dell'offerta. Verificare che il campo Prezzo unitario contenga un valore ed è possibile immettere i valori di sconto se desiderato.  
-11. Fare clic su Salva.
-12. Nel riquadro azioni fare clic su Offerta di vendita.
-13. Fare clic su Totali.
-14. Fare clic su OK.
-15. Fare clic su Riga offerta di vendita.
-16. Fare clic su Prezzi.
-    * Nella pagina Esegui simulazione prezzo è possibile sperimentare la rettifica dei ricavi o della redditività previsti per l'offerta in base al prezzo unitario, l'importo di sconto, la percentuale di sconto, l'importo totale, il margine o il rapporto di contribuzione desiderato.   Al termine, applicare il suggerimento alla riga dell'offerta e i campi relativi al prezzo verranno aggiornati di conseguenza.  
-    * È possibile creare qualsiasi numero di simulazioni di prezzo. Quando si fa clic su Nuovo, i termini del prezzo dalla riga offerta corrente vengono copiati nella pagina. È quindi possibile modificare i valori dei campi relativi al prezzo impostando quelli di destinazione. Una modifica in uno dei campi avvierà il ricalcolo in tutti gli altri campi. Affinché il sistema calcoli il margine di vendita e il rapporto di contribuzione, il costo unitario del prodotto deve essere noto. Utilizzare la scheda Prezzi simulati per una visualizzazione dettagliata dei prezzi originali, le modifiche proposte e i relativi effetti nei totali dell'offerta.   In genere, quando una simulazione che imposta un nuovo importo viene applicata alla riga offerta, il sistema ricalcola e immette un nuovo valore nel campo Prezzo unitario. Se la simulazione si basa su un nuovo margine o un nuovo rapporto di contribuzione, solo il campo Importo netto viene aggiornato e il campo Prezzo unitario risulterà vuoto. In entrambi i casi, gli eventuali sconti inclusi nella riga dell'offerta prima della simulazione vengono eliminati.  
-17. Chiudere la pagina.
-18. Nel riquadro azioni fare clic su Offerta.
-19. Fare clic su Invia offerta.
-20. Selezionare Sì nel campo Stampa offerta.
-21. Fare clic su OK.
-    * La generazione del report può richiedere un minuto. Non chiudere la pagina finché non termina l'operazione.  
-22. Chiudere la pagina.
+## <a name="create-a-sales-quotation"></a><span data-ttu-id="8ea56-106">Creare un'offerta di vendita</span><span class="sxs-lookup"><span data-stu-id="8ea56-106">Create a sales quotation</span></span>
+1. <span data-ttu-id="8ea56-107">Passare a Vendite e marketing > Offerte di vendita > Tutte le offerte.</span><span class="sxs-lookup"><span data-stu-id="8ea56-107">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+2. <span data-ttu-id="8ea56-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="8ea56-108">Click New.</span></span>
+3. <span data-ttu-id="8ea56-109">Nel campo Tipo di conto selezionare 'Prospect'.</span><span class="sxs-lookup"><span data-stu-id="8ea56-109">In the Account type field, select 'Prospect'.</span></span>
+4. <span data-ttu-id="8ea56-110">Nel campo Prospect immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="8ea56-110">In the Prospect field, enter or select a value.</span></span>
+5. <span data-ttu-id="8ea56-111">Espandere la sezione Generale.</span><span class="sxs-lookup"><span data-stu-id="8ea56-111">Expand the General section.</span></span>
+    * <span data-ttu-id="8ea56-112">Poiché è stato scelto di creare un'offerta dall'area Vendita e marketing, il tipo viene automaticamente impostato su Offerta di vendita.</span><span class="sxs-lookup"><span data-stu-id="8ea56-112">Because you chose to create a quotation from the Sales and Marketing area, the type is automatically set to Sales quotation.</span></span> <span data-ttu-id="8ea56-113">Per creare un'offerta per un progetto è necessario accedervi dal modulo Gestione progetti e contabilità.</span><span class="sxs-lookup"><span data-stu-id="8ea56-113">To create a quotation for a project you must access it from the Project management and accounting module.</span></span>   
+6. <span data-ttu-id="8ea56-114">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="8ea56-114">Click OK.</span></span>
+    * <span data-ttu-id="8ea56-115">I campi e le azioni sulle righe dell'offerta sono simili a quelli delle righe ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="8ea56-115">The fields and actions on the quotation lines are very similar to the ones on the sales order lines.</span></span>   <span data-ttu-id="8ea56-116">Analogamente agli ordini cliente, le offerte possono essere create per un articolo specifico o, se il numero articolo non è definito o non esiste al momento della creazione dell'offerta, le offerte possono essere create per una categoria di vendita.</span><span class="sxs-lookup"><span data-stu-id="8ea56-116">Like sales orders, quotations can be created for a specific item or, when item number is not known or does not exist at the time of quotation creation, quotations can be created for a sales category.</span></span>  
+7. <span data-ttu-id="8ea56-117">Nel campo Articolo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="8ea56-117">In the Item field, enter or select a value.</span></span>
+8. <span data-ttu-id="8ea56-118">Digitare un valore nel campo Articolo.</span><span class="sxs-lookup"><span data-stu-id="8ea56-118">In the Item field, type a value.</span></span>
+9. <span data-ttu-id="8ea56-119">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="8ea56-119">Close the page.</span></span>
+10. <span data-ttu-id="8ea56-120">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="8ea56-120">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="8ea56-121">Se sono presenti contratti commerciali validi per l'articolo selezionato nella riga, il prezzo e gli sconti applicabili verranno automaticamente copiati nella riga dell'offerta.</span><span class="sxs-lookup"><span data-stu-id="8ea56-121">If there are valid trade agreements for the item selected on the line, the applicable price and discounts will be automatically copied to the quotation line.</span></span> <span data-ttu-id="8ea56-122">Verificare che il campo Prezzo unitario contenga un valore ed è possibile immettere i valori di sconto se desiderato.</span><span class="sxs-lookup"><span data-stu-id="8ea56-122">Make sure that the Unit price field contains a value and you can also enter discount values if you want to.</span></span>  
+11. <span data-ttu-id="8ea56-123">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="8ea56-123">Click Save.</span></span>
+12. <span data-ttu-id="8ea56-124">Nel riquadro azioni fare clic su Offerta di vendita.</span><span class="sxs-lookup"><span data-stu-id="8ea56-124">On the Action Pane, click Sales quotation.</span></span>
+13. <span data-ttu-id="8ea56-125">Fare clic su Totali.</span><span class="sxs-lookup"><span data-stu-id="8ea56-125">Click Totals.</span></span>
+14. <span data-ttu-id="8ea56-126">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="8ea56-126">Click OK.</span></span>
+15. <span data-ttu-id="8ea56-127">Fare clic su Riga offerta di vendita.</span><span class="sxs-lookup"><span data-stu-id="8ea56-127">Click Sales quotation line.</span></span>
+16. <span data-ttu-id="8ea56-128">Fare clic su Prezzi.</span><span class="sxs-lookup"><span data-stu-id="8ea56-128">Click Prices.</span></span>
+    * <span data-ttu-id="8ea56-129">Nella pagina Esegui simulazione prezzo è possibile sperimentare la rettifica dei ricavi o della redditività previsti per l'offerta in base al prezzo unitario, l'importo di sconto, la percentuale di sconto, l'importo totale, il margine o il rapporto di contribuzione desiderato.</span><span class="sxs-lookup"><span data-stu-id="8ea56-129">In the Run price simulation page you can experiment with adjusting the expected revenue or profitability of your quotation based on the desired unit price, discount amount, discount percentage, total amount, margin, or contribution ratio.</span></span>   <span data-ttu-id="8ea56-130">Al termine, applicare il suggerimento alla riga dell'offerta e i campi relativi al prezzo verranno aggiornati di conseguenza.</span><span class="sxs-lookup"><span data-stu-id="8ea56-130">When you are satisfied with the target figures, you apply the suggestion to the quotation line, and its price-related fields will be updated accordingly.</span></span>  
+    * <span data-ttu-id="8ea56-131">È possibile creare qualsiasi numero di simulazioni di prezzo.</span><span class="sxs-lookup"><span data-stu-id="8ea56-131">Y ou can create as many price simulations as you wish.</span></span> <span data-ttu-id="8ea56-132">Quando si fa clic su Nuovo, i termini del prezzo dalla riga offerta corrente vengono copiati nella pagina.</span><span class="sxs-lookup"><span data-stu-id="8ea56-132">When you click New, the price conditions from the current quotation line are copied to the page.</span></span> <span data-ttu-id="8ea56-133">È quindi possibile modificare i valori dei campi relativi al prezzo impostando quelli di destinazione.</span><span class="sxs-lookup"><span data-stu-id="8ea56-133">You can then modify values in any of the price-related fields to the target ones.</span></span> <span data-ttu-id="8ea56-134">Una modifica in uno dei campi avvierà il ricalcolo in tutti gli altri campi.</span><span class="sxs-lookup"><span data-stu-id="8ea56-134">A change in one of the fields will trigger recalculation in all the other fields.</span></span> <span data-ttu-id="8ea56-135">Affinché il sistema calcoli il margine di vendita e il rapporto di contribuzione, il costo unitario del prodotto deve essere noto.</span><span class="sxs-lookup"><span data-stu-id="8ea56-135">In order for the system to calculate the sales margin and contribution ratio, the product's unit cost has to be known.</span></span> <span data-ttu-id="8ea56-136">Utilizzare la scheda Prezzi simulati per una visualizzazione dettagliata dei prezzi originali, le modifiche proposte e i relativi effetti nei totali dell'offerta.</span><span class="sxs-lookup"><span data-stu-id="8ea56-136">Use the Simulated prices tab for a detailed view of the original prices, proposed changes and their effect on the quotation totals.</span></span>   <span data-ttu-id="8ea56-137">In genere, quando una simulazione che imposta un nuovo importo viene applicata alla riga offerta, il sistema ricalcola e immette un nuovo valore nel campo Prezzo unitario.</span><span class="sxs-lookup"><span data-stu-id="8ea56-137">As a general rule, when a simulation that sets a new amount is applied to the quotation line, the system recalculates and enters a new value in the Unit price field.</span></span> <span data-ttu-id="8ea56-138">Se la simulazione si basa su un nuovo margine o un nuovo rapporto di contribuzione, solo il campo Importo netto viene aggiornato e il campo Prezzo unitario risulterà vuoto.</span><span class="sxs-lookup"><span data-stu-id="8ea56-138">If the simulation is based on a new margin or a new contribution ratio, only the Net amount field is updated, and the Unit price is blank.</span></span> <span data-ttu-id="8ea56-139">In entrambi i casi, gli eventuali sconti inclusi nella riga dell'offerta prima della simulazione vengono eliminati.</span><span class="sxs-lookup"><span data-stu-id="8ea56-139">In both cases, any discounts that were on the quotation line before simulation will be deleted.</span></span>  
+17. <span data-ttu-id="8ea56-140">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="8ea56-140">Close the page.</span></span>
+18. <span data-ttu-id="8ea56-141">Nel riquadro azioni fare clic su Offerta.</span><span class="sxs-lookup"><span data-stu-id="8ea56-141">On the Action Pane, click Quotation.</span></span>
+19. <span data-ttu-id="8ea56-142">Fare clic su Invia offerta.</span><span class="sxs-lookup"><span data-stu-id="8ea56-142">Click Send quotation.</span></span>
+20. <span data-ttu-id="8ea56-143">Selezionare Sì nel campo Stampa offerta.</span><span class="sxs-lookup"><span data-stu-id="8ea56-143">Select Yes in the Print quotation field.</span></span>
+21. <span data-ttu-id="8ea56-144">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="8ea56-144">Click OK.</span></span>
+    * <span data-ttu-id="8ea56-145">La generazione del report può richiedere un minuto.</span><span class="sxs-lookup"><span data-stu-id="8ea56-145">The report may take a minute to generate.</span></span> <span data-ttu-id="8ea56-146">Non chiudere la pagina finché non termina l'operazione.</span><span class="sxs-lookup"><span data-stu-id="8ea56-146">Don’t close the page until it does so.</span></span>  
+22. <span data-ttu-id="8ea56-147">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="8ea56-147">Close the page.</span></span>
 
-## <a name="update-a-sales-quotation"></a>Aggiornare un'offerta di vendita
-1. Nel riquadro azioni fare clic su Follow-up.
-2. Fare clic su Converti in cliente.
-3. Digitare un valore nel campo Conto cliente.
-4. Fare clic su Verifica.
-    * Verificare che venga visualizzato un messaggio indicante che il numero di conto immesso può essere utilizzato.  
-5. Fare clic su OK.
-    * Il sistema ora ha creato un nuovo conto cliente per il prospect dell'offerta.  
-6. Chiudere la pagina.
-7. Nel riquadro azioni fare clic su Follow-up.
-8. Fare clic su Conferma.
-9. Nel campo Motivo immettere o selezionare un valore.
-10. Fare clic su OK.
-11. Nel riquadro azioni fare clic su Generale.
-12. Fare clic su Ordini cliente.
-13. Chiudere la pagina.
+## <a name="update-a-sales-quotation"></a><span data-ttu-id="8ea56-148">Aggiornare un'offerta di vendita</span><span class="sxs-lookup"><span data-stu-id="8ea56-148">Update a sales quotation</span></span>
+1. <span data-ttu-id="8ea56-149">Nel riquadro azioni fare clic su Follow-up.</span><span class="sxs-lookup"><span data-stu-id="8ea56-149">On the Action Pane, click Follow up.</span></span>
+2. <span data-ttu-id="8ea56-150">Fare clic su Converti in cliente.</span><span class="sxs-lookup"><span data-stu-id="8ea56-150">Click Convert to customer.</span></span>
+3. <span data-ttu-id="8ea56-151">Digitare un valore nel campo Conto cliente.</span><span class="sxs-lookup"><span data-stu-id="8ea56-151">In the Customer account field, type a value.</span></span>
+4. <span data-ttu-id="8ea56-152">Fare clic su Verifica.</span><span class="sxs-lookup"><span data-stu-id="8ea56-152">Click Check.</span></span>
+    * <span data-ttu-id="8ea56-153">Verificare che venga visualizzato un messaggio indicante che il numero di conto immesso può essere utilizzato.</span><span class="sxs-lookup"><span data-stu-id="8ea56-153">Make sure you see a message that the account number you typed in is free to use.</span></span>  
+5. <span data-ttu-id="8ea56-154">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="8ea56-154">Click OK.</span></span>
+    * <span data-ttu-id="8ea56-155">Il sistema ora ha creato un nuovo conto cliente per il prospect dell'offerta.</span><span class="sxs-lookup"><span data-stu-id="8ea56-155">The system has now created a new customer account for the prospect on the quotation.</span></span>  
+6. <span data-ttu-id="8ea56-156">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="8ea56-156">Close the page.</span></span>
+7. <span data-ttu-id="8ea56-157">Nel riquadro azioni fare clic su Follow-up.</span><span class="sxs-lookup"><span data-stu-id="8ea56-157">On the Action Pane, click Follow up.</span></span>
+8. <span data-ttu-id="8ea56-158">Fare clic su Conferma.</span><span class="sxs-lookup"><span data-stu-id="8ea56-158">Click Confirm.</span></span>
+9. <span data-ttu-id="8ea56-159">Nel campo Motivo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="8ea56-159">In the Reason field, enter or select a value.</span></span>
+10. <span data-ttu-id="8ea56-160">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="8ea56-160">Click OK.</span></span>
+11. <span data-ttu-id="8ea56-161">Nel riquadro azioni fare clic su Generale.</span><span class="sxs-lookup"><span data-stu-id="8ea56-161">On the Action Pane, click General.</span></span>
+12. <span data-ttu-id="8ea56-162">Fare clic su Ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="8ea56-162">Click Sales orders.</span></span>
+13. <span data-ttu-id="8ea56-163">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="8ea56-163">Close the page.</span></span>
 
 

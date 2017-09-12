@@ -18,33 +18,33 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
-ms.openlocfilehash: 8ccc1af0e1bd7909b7810d359a916849ecc1a709
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3f7e1261838866688c97529b0edfa1354034247b
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Risolvere le discrepanze durante l'abbinamento dei totali fatture
+# <a name="resolve-discrepancies-during-invoice-totals-matching"></a><span data-ttu-id="af16d-102">Risolvere le discrepanze durante l'abbinamento dei totali fatture</span><span class="sxs-lookup"><span data-stu-id="af16d-102">Resolve discrepancies during invoice totals matching</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
 
 
-Un tipo di convalida dell'abbinamento fatture è l'abbinamento dei totali fatture. Per fare in modo che il sistema esegua l'abbinamento dei totali fatture, nella pagina **Parametri contabilità fornitori**, nella scheda **Convalida fattura**, impostare l'opzione **Abbina totali fatture** su **Sì**. 
+<span data-ttu-id="af16d-103">Un tipo di convalida dell'abbinamento fatture è l'abbinamento dei totali fatture.</span><span class="sxs-lookup"><span data-stu-id="af16d-103">One type of invoice matching validation is invoice totals matching.</span></span> <span data-ttu-id="af16d-104">Per fare in modo che il sistema esegua l'abbinamento dei totali fatture, nella pagina **Parametri contabilità fornitori**, nella scheda **Convalida fattura**, impostare l'opzione **Abbina totali fatture** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="af16d-104">To specify that the system should perform invoice totals matching, on the **Accounts payable parameters** page, on the **Invoice validation** tab, set the **Match invoice totals** option **Yes**.</span></span> 
 
-È possibile utilizzare l'abbinamento dei totali fatture per garantire che gli importi totali delle fatture non si discostino dagli importi previsti oltre un livello accettabile. Nella pagina **Dettagli abbinamento totali fatture** vengono confrontati sei totali. Se uno qualsiasi dei totali devia dal corrispondente totale ordine acquisto previsto, viene segnalata una discrepanza di abbinamento. 
+<span data-ttu-id="af16d-105">È possibile utilizzare l'abbinamento dei totali fatture per garantire che gli importi totali delle fatture non si discostino dagli importi previsti oltre un livello accettabile.</span><span class="sxs-lookup"><span data-stu-id="af16d-105">You can use invoice totals matching to help guarantee that total invoice amounts don't deviate from expected amounts by more than an acceptable variance.</span></span> <span data-ttu-id="af16d-106">Nella pagina **Dettagli abbinamento totali fatture** vengono confrontati sei totali.</span><span class="sxs-lookup"><span data-stu-id="af16d-106">Six totals are compared on the **Invoice totals matching details** page.</span></span> <span data-ttu-id="af16d-107">Se uno qualsiasi dei totali devia dal corrispondente totale ordine acquisto previsto, viene segnalata una discrepanza di abbinamento.</span><span class="sxs-lookup"><span data-stu-id="af16d-107">If any one of the totals deviates from the expected corresponding purchase order total, a matching discrepancy is flagged.</span></span> 
 
-Per esaminare la fattura che presenta le discrepanze nell'abbinamento dei totali, nell'area di lavoro **Inserimento fatture fornitore** fare clic sul riquadro **Fatture in sospeso**. Successivamente, nel riquadro azioni, nella scheda **Revisione**, fare clic su **Dettagli abbinamento**. Se sono state rilevate discrepanze di abbinamento, accanto all'importo fattura vengono visualizzate delle icone di avviso. È possibile visualizzare ulteriori dettagli sui totali visualizzando i dettagli di abbinamento dei totali fatture. 
+<span data-ttu-id="af16d-108">Per esaminare la fattura che presenta le discrepanze nell'abbinamento dei totali, nell'area di lavoro **Inserimento fatture fornitore** fare clic sul riquadro **Fatture in sospeso**.</span><span class="sxs-lookup"><span data-stu-id="af16d-108">To review the invoice that has the totals matching discrepancies, in the **Vendor invoice entry** workspace, click the **Pending invoices** tile.</span></span> <span data-ttu-id="af16d-109">Successivamente, nel riquadro azioni, nella scheda **Revisione**, fare clic su **Dettagli abbinamento**.</span><span class="sxs-lookup"><span data-stu-id="af16d-109">Then, on the Action Pane, on the **Review** tab, click **Matching details**.</span></span> <span data-ttu-id="af16d-110">Se sono state rilevate discrepanze di abbinamento, accanto all'importo fattura vengono visualizzate delle icone di avviso.</span><span class="sxs-lookup"><span data-stu-id="af16d-110">If matching discrepancies have been detected, warning icons appear next to the invoice amount.</span></span> <span data-ttu-id="af16d-111">È possibile visualizzare ulteriori dettagli sui totali visualizzando i dettagli di abbinamento dei totali fatture.</span><span class="sxs-lookup"><span data-stu-id="af16d-111">You can view more detail about the totals by viewing the invoice totals matching details.</span></span> 
 
-Dopo aver identificato la discrepanza, potrebbe essere necessario contattare il fornitore se si ritiene che le informazioni riportate nella fattura non siano corrette. A seconda dell'accordo risultante con il fornitore, sarà possibile effettuare una delle seguenti operazioni:
+<span data-ttu-id="af16d-112">Dopo aver identificato la discrepanza, potrebbe essere necessario contattare il fornitore se si ritiene che le informazioni riportate nella fattura non siano corrette.</span><span class="sxs-lookup"><span data-stu-id="af16d-112">After you identify a discrepancy, you might have to contact the vendor if you think that the information on the invoice is incorrect.</span></span> <span data-ttu-id="af16d-113">A seconda dell'accordo risultante con il fornitore, sarà possibile effettuare una delle seguenti operazioni:</span><span class="sxs-lookup"><span data-stu-id="af16d-113">Depending on the resulting agreement with the vendor, you can then take one of these actions:</span></span>
 
--   Accettare la differenza di prezzo e registrare la fattura che presenta discrepanze di abbinamento. È possibile che il sistema sia impostato in modo da richiedere l'approvazione prima della registrazione in presenza di discrepanze di abbinamento. In questo caso, è necessario approvare la discrepanza di abbinamento e facoltativamente si può scegliere di immettere un commento di approvazione. Successivamente si può scegliere di registrare la fattura.
--   Modificare l'importo della fattura in modo che corrisponda a quello previsto e registrare la fattura.
--   Richiedere al fornitore un credito totale e una nuova fattura corretta.
+-   <span data-ttu-id="af16d-114">Accettare la differenza di prezzo e registrare la fattura che presenta discrepanze di abbinamento.</span><span class="sxs-lookup"><span data-stu-id="af16d-114">Accept the price difference, and post the invoice that has matching discrepancies.</span></span> <span data-ttu-id="af16d-115">È possibile che il sistema sia impostato in modo da richiedere l'approvazione prima della registrazione in presenza di discrepanze di abbinamento.</span><span class="sxs-lookup"><span data-stu-id="af16d-115">Your system might be set up to require approval before it can post if there are matching discrepancies.</span></span> <span data-ttu-id="af16d-116">In questo caso, è necessario approvare la discrepanza di abbinamento e facoltativamente si può scegliere di immettere un commento di approvazione.</span><span class="sxs-lookup"><span data-stu-id="af16d-116">In this case, you must approve the matching discrepancy and can optionally enter an approval comment.</span></span> <span data-ttu-id="af16d-117">Successivamente si può scegliere di registrare la fattura.</span><span class="sxs-lookup"><span data-stu-id="af16d-117">You can then select to post the invoice.</span></span>
+-   <span data-ttu-id="af16d-118">Modificare l'importo della fattura in modo che corrisponda a quello previsto e registrare la fattura.</span><span class="sxs-lookup"><span data-stu-id="af16d-118">Revise the invoice amount to the expected amount, and post the invoice.</span></span>
+-   <span data-ttu-id="af16d-119">Richiedere al fornitore un credito totale e una nuova fattura corretta.</span><span class="sxs-lookup"><span data-stu-id="af16d-119">Request a full credit and a new, corrected invoice from the vendor.</span></span>
 
-Per ulteriori informazioni, vedere [Cercare o risolvere eccezioni](tasks/research-resolve-exceptions.md).
+<span data-ttu-id="af16d-120">Per ulteriori informazioni, vedere [Cercare o risolvere eccezioni](tasks/research-resolve-exceptions.md).</span><span class="sxs-lookup"><span data-stu-id="af16d-120">For more information, see [Research or resolve exceptions](tasks/research-resolve-exceptions.md).</span></span>
 
 
 

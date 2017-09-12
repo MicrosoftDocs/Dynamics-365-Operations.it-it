@@ -17,50 +17,50 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f51cb4fc093db60f03bbe6d2133f61ef90046155
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4f99b3b71e46aae1e510cc24efe2f99f1a258fa1
 ms.contentlocale: it-it
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-continuity-schedules"></a> Definire programmazioni di continuità
+# <a name="define-continuity-schedules"></a><span data-ttu-id="5dba1-103"> Definire programmazioni di continuità</span><span class="sxs-lookup"><span data-stu-id="5dba1-103">Define continuity schedules</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-In questo argomento si descrive l'impostazione di un programma di continuità (altrimenti detto ordini ricorrenti). Questo argomento utilizza la società USRT nei dati dimostrativi.
+<span data-ttu-id="5dba1-104">In questo argomento si descrive l'impostazione di un programma di continuità (altrimenti detto ordini ricorrenti).</span><span class="sxs-lookup"><span data-stu-id="5dba1-104">This topic walks through setting up a continuity program (otherwise known as reoccurring orders).</span></span> <span data-ttu-id="5dba1-105">Questo argomento utilizza la società USRT nei dati dimostrativi.</span><span class="sxs-lookup"><span data-stu-id="5dba1-105">This topic uses company USRT in the demo data.</span></span>
 
 
-## <a name="create-continuity-program"></a>Creare un programma di continuità
-1. Passare a Vendita al dettaglio e commercio > Continuità > Programmi di continuità.
-2. Fare clic su Nuovo.
-3. Nel campo ID programmazione, digitare l'ID programmazione di continuità.
-4. Nel campo Inizio ordine selezionare 'Primo evento'.
-    * Se un cliente effettua un nuovo ordine per il programma di continuità, sono disponibili due opzioni per cui il prodotto verrà spedito:  1 Primo evento: il primo prodotto nel programma di continuità verrà spedito.  2 Evento esistente: il prodotto corrente verrà spedito. Ad esempio, tre mesi nel programma, il cliente riceverà il terzo nel programma.  
-5. Selezionare 'Sì' per richiedere la data di inizio dell'ordine.
-6. Fare clic su Aggiungi riga.
-7. Nel campo Numero articolo digitare il numero di articolo per il primo prodotto ('0013').
-8. Digitare 'CP'.
-9. Immettere la data in cui il primo prodotto sarà disponibile per l'ordine.
-10. Fare clic su Aggiungi riga.
-11. Nel campo Numero articolo digitare '0014'.
-12. Nel campo Codice intervallo date, cancellare il valore in modo che il campo è vuoto.
-    * Per questa procedura, deselezionare l'intervallo di date. Fisserete la data come incrementale dalla data di inizio del primo articolo.  
-13. Qui immettere l'intervallo a cui i prodotti sono spediti. Digitare '30'.
-    * Per un programma mensile, immettere 30 giorni per l'intervallo.  
-14. Fare clic su Aggiungi riga.
-15. Nel campo Numero articolo digitare '0015'.
-16. Digitare 'Fine'.
-17. Fare clic su Salva.
+## <a name="create-continuity-program"></a><span data-ttu-id="5dba1-106">Creare un programma di continuità</span><span class="sxs-lookup"><span data-stu-id="5dba1-106">Create continuity program</span></span>
+1. <span data-ttu-id="5dba1-107">Passare a Vendita al dettaglio e commercio > Continuità > Programmi di continuità.</span><span class="sxs-lookup"><span data-stu-id="5dba1-107">Go to Retail and commerce > Continuity > Continuity programs.</span></span>
+2. <span data-ttu-id="5dba1-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="5dba1-108">Click New.</span></span>
+3. <span data-ttu-id="5dba1-109">Nel campo ID programmazione, digitare l'ID programmazione di continuità.</span><span class="sxs-lookup"><span data-stu-id="5dba1-109">In the Schedule ID field, type the continuity schedule ID.</span></span>
+4. <span data-ttu-id="5dba1-110">Nel campo Inizio ordine selezionare 'Primo evento'.</span><span class="sxs-lookup"><span data-stu-id="5dba1-110">In the Order start field, select 'First event'.</span></span>
+    * <span data-ttu-id="5dba1-111">Se un cliente effettua un nuovo ordine per il programma di continuità, sono disponibili due opzioni per cui il prodotto verrà spedito:  1</span><span class="sxs-lookup"><span data-stu-id="5dba1-111">If a customer places a new order for the continuity program, there are two options for which product will be shipped:  1.</span></span> <span data-ttu-id="5dba1-112">Primo evento: il primo prodotto nel programma di continuità verrà spedito.</span><span class="sxs-lookup"><span data-stu-id="5dba1-112">First event: the first product in the continuity program will be shipped.</span></span>  <span data-ttu-id="5dba1-113">2</span><span class="sxs-lookup"><span data-stu-id="5dba1-113">2.</span></span> <span data-ttu-id="5dba1-114">Evento esistente: il prodotto corrente verrà spedito.</span><span class="sxs-lookup"><span data-stu-id="5dba1-114">Current event: the current product will be shipped.</span></span> <span data-ttu-id="5dba1-115">Ad esempio,</span><span class="sxs-lookup"><span data-stu-id="5dba1-115">For example.</span></span> <span data-ttu-id="5dba1-116">tre mesi nel programma, il cliente riceverà il terzo nel programma.</span><span class="sxs-lookup"><span data-stu-id="5dba1-116">three months into the program, the customer will receive the third in the program.</span></span>  
+5. <span data-ttu-id="5dba1-117">Selezionare 'Sì' per richiedere la data di inizio dell'ordine.</span><span class="sxs-lookup"><span data-stu-id="5dba1-117">Select 'Yes' to prompt for the order start date.</span></span>
+6. <span data-ttu-id="5dba1-118">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="5dba1-118">Click Add line.</span></span>
+7. <span data-ttu-id="5dba1-119">Nel campo Numero articolo digitare il numero di articolo per il primo prodotto ('0013').</span><span class="sxs-lookup"><span data-stu-id="5dba1-119">In the Item number field, type the item number for the first product ('0013').</span></span>
+8. <span data-ttu-id="5dba1-120">Digitare 'CP'.</span><span class="sxs-lookup"><span data-stu-id="5dba1-120">Type 'CP'.</span></span>
+9. <span data-ttu-id="5dba1-121">Immettere la data in cui il primo prodotto sarà disponibile per l'ordine.</span><span class="sxs-lookup"><span data-stu-id="5dba1-121">Enter the date when the first product will be available for order.</span></span>
+10. <span data-ttu-id="5dba1-122">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="5dba1-122">Click Add line.</span></span>
+11. <span data-ttu-id="5dba1-123">Nel campo Numero articolo digitare '0014'.</span><span class="sxs-lookup"><span data-stu-id="5dba1-123">In the Item number field, type '0014'.</span></span>
+12. <span data-ttu-id="5dba1-124">Nel campo Codice intervallo date, cancellare il valore in modo che il campo è vuoto.</span><span class="sxs-lookup"><span data-stu-id="5dba1-124">In the Date interval code field, clear the value so the field is empty.</span></span>
+    * <span data-ttu-id="5dba1-125">Per questa procedura, deselezionare l'intervallo di date.</span><span class="sxs-lookup"><span data-stu-id="5dba1-125">For this procedure, clear the date interval.</span></span> <span data-ttu-id="5dba1-126">Fisserete la data come incrementale dalla data di inizio del primo articolo.</span><span class="sxs-lookup"><span data-stu-id="5dba1-126">You'll set the date as incremental from the start date of the first item.</span></span>  
+13. <span data-ttu-id="5dba1-127">Qui immettere l'intervallo a cui i prodotti sono spediti.</span><span class="sxs-lookup"><span data-stu-id="5dba1-127">Here you'll enter the interval at which the products are shipped.</span></span> <span data-ttu-id="5dba1-128">Digitare '30'.</span><span class="sxs-lookup"><span data-stu-id="5dba1-128">Type '30'.</span></span>
+    * <span data-ttu-id="5dba1-129">Per un programma mensile, immettere 30 giorni per l'intervallo.</span><span class="sxs-lookup"><span data-stu-id="5dba1-129">For a monthly program, you'll enter 30 days for the interval.</span></span>  
+14. <span data-ttu-id="5dba1-130">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="5dba1-130">Click Add line.</span></span>
+15. <span data-ttu-id="5dba1-131">Nel campo Numero articolo digitare '0015'.</span><span class="sxs-lookup"><span data-stu-id="5dba1-131">In the Item number field, type '0015'.</span></span>
+16. <span data-ttu-id="5dba1-132">Digitare 'Fine'.</span><span class="sxs-lookup"><span data-stu-id="5dba1-132">Type 'End'.</span></span>
+17. <span data-ttu-id="5dba1-133">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="5dba1-133">Click Save.</span></span>
 
-## <a name="assign-to-continuity-item"></a>Assegnare all'articolo di continuità
-1. Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.
-2. Selezionare l'articolo '0016'.
-    * Per questa procedura, selezionerete il numero di articolo 0016. In genere, si sarà creato un prodotto rilasciato a cui è applicata la logica di business di continuità aggiuntiva quando viene inserito in un ordine cliente nel servizio clienti.  
-3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-4. Fare clic su Modifica.
-5. Espandere o comprimere la sezione Vendi.
-6. Qui immettere il programma di continuità che l'articolo rappresenta. Immettere l'ID programmazione creato in precedenza.
-    * Quando l'articolo viene venduto da un servizio clienti, la logica di business aggiuntiva viene applicata dal programma di continuità selezionato.  
-7. Fare clic su Salva.
+## <a name="assign-to-continuity-item"></a><span data-ttu-id="5dba1-134">Assegnare all'articolo di continuità</span><span class="sxs-lookup"><span data-stu-id="5dba1-134">Assign to continuity item</span></span>
+1. <span data-ttu-id="5dba1-135">Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="5dba1-135">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="5dba1-136">Selezionare l'articolo '0016'.</span><span class="sxs-lookup"><span data-stu-id="5dba1-136">Select item '0016'.</span></span>
+    * <span data-ttu-id="5dba1-137">Per questa procedura, selezionerete il numero di articolo 0016.</span><span class="sxs-lookup"><span data-stu-id="5dba1-137">For this procedure, you'll select item number 0016.</span></span> <span data-ttu-id="5dba1-138">In genere, si sarà creato un prodotto rilasciato a cui è applicata la logica di business di continuità aggiuntiva quando viene inserito in un ordine cliente nel servizio clienti.</span><span class="sxs-lookup"><span data-stu-id="5dba1-138">Normally, you'll have created a released product that has additional continuity business logic applied when it's placed on a sales order in call center.</span></span>  
+3. <span data-ttu-id="5dba1-139">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="5dba1-139">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="5dba1-140">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="5dba1-140">Click Edit.</span></span>
+5. <span data-ttu-id="5dba1-141">Espandere o comprimere la sezione Vendi.</span><span class="sxs-lookup"><span data-stu-id="5dba1-141">Expand or collapse the Sell section.</span></span>
+6. <span data-ttu-id="5dba1-142">Qui immettere il programma di continuità che l'articolo rappresenta.</span><span class="sxs-lookup"><span data-stu-id="5dba1-142">Here you'll enter the continuity program that this item represents.</span></span> <span data-ttu-id="5dba1-143">Immettere l'ID programmazione creato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="5dba1-143">Type the Schedule ID you created earlier.</span></span>
+    * <span data-ttu-id="5dba1-144">Quando l'articolo viene venduto da un servizio clienti, la logica di business aggiuntiva viene applicata dal programma di continuità selezionato.</span><span class="sxs-lookup"><span data-stu-id="5dba1-144">When this item is sold in a call center, additional business logic is applied from the selected continuity program.</span></span>  
+7. <span data-ttu-id="5dba1-145">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="5dba1-145">Click Save.</span></span>
 
 

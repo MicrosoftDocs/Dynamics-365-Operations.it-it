@@ -19,124 +19,124 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Gestione degli sconti di cassa per le eccedenze di pagamento
+# <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="662ca-103">Gestione degli sconti di cassa per le eccedenze di pagamento</span><span class="sxs-lookup"><span data-stu-id="662ca-103">Handling cash discounts for overpayments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce gli scenari che mostrano come un pagamento viene gestito quando il cliente ha uno sconto di cassa ma paga anche un importo superiore al dovuto. 
+<span data-ttu-id="662ca-104">Questo articolo fornisce gli scenari che mostrano come un pagamento viene gestito quando il cliente ha uno sconto di cassa ma paga anche un importo superiore al dovuto.</span><span class="sxs-lookup"><span data-stu-id="662ca-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 
-Una fattura viene considerata con eccedenza di pagamento quando l'importo del pagamento è maggiore dell'importo della fattura meno lo sconto di cassa. Per specificare come la differenza di uno sconto di cassa viene gestito in caso di eccedenza del pagamento di una fattura, utilizzare i campi **Applicazione sconto di cassa** e **Massima eccedenza/insufficienza pagamento** nella pagina **Parametri contabilità clienti**. Nel seguente esempio, il cliente ha pagato 0,50 in più sulla fattura.
+<span data-ttu-id="662ca-105">Una fattura viene considerata con eccedenza di pagamento quando l'importo del pagamento è maggiore dell'importo della fattura meno lo sconto di cassa.</span><span class="sxs-lookup"><span data-stu-id="662ca-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="662ca-106">Per specificare come la differenza di uno sconto di cassa viene gestito in caso di eccedenza del pagamento di una fattura, utilizzare i campi **Applicazione sconto di cassa** e **Massima eccedenza/insufficienza pagamento** nella pagina **Parametri contabilità clienti**.</span><span class="sxs-lookup"><span data-stu-id="662ca-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="662ca-107">Nel seguente esempio, il cliente ha pagato 0,50 in più sulla fattura.</span><span class="sxs-lookup"><span data-stu-id="662ca-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
 
-| Totale fattura | Sconto di cassa disponibile | Importo da pagare, incluso lo sconto di cassa | Importo effettivamente pagato dal cliente |
+| <span data-ttu-id="662ca-108">Totale fattura</span><span class="sxs-lookup"><span data-stu-id="662ca-108">Invoice total</span></span> | <span data-ttu-id="662ca-109">Sconto di cassa disponibile</span><span class="sxs-lookup"><span data-stu-id="662ca-109">Cash discount available</span></span> | <span data-ttu-id="662ca-110">Importo da pagare, incluso lo sconto di cassa</span><span class="sxs-lookup"><span data-stu-id="662ca-110">Amount to be paid, which includes the cash discount</span></span> | <span data-ttu-id="662ca-111">Importo effettivamente pagato dal cliente</span><span class="sxs-lookup"><span data-stu-id="662ca-111">Amount the customer actually pays</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|-----------------------------------|
-| 105,00        | 10,50                   | 94,50                                               | 95,00                             |
+| <span data-ttu-id="662ca-112">105,00</span><span class="sxs-lookup"><span data-stu-id="662ca-112">105.00</span></span>        | <span data-ttu-id="662ca-113">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-113">10.50</span></span>                   | <span data-ttu-id="662ca-114">94,50</span><span class="sxs-lookup"><span data-stu-id="662ca-114">94.50</span></span>                                               | <span data-ttu-id="662ca-115">95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-115">95.00</span></span>                             |
 
-## <a name="cash-discount-administration--specific"></a>Amministrazione dello sconto di cassa = Specifico
-Quando si seleziona **Specifico** nel campo **Applicazione sconto di cassa** della pagina **Conti per transazioni automatiche**, l'intero sconto di cassa viene prelevato. L'importo dell'eccedenza di pagamento viene registrato in un conto CoGe relativo alle differenze di sconto di cassa o rimane un saldo del conto cliente. Il comportamento varia a seconda che l'importo dell'eccedenza di pagamento sia compreso tra 0,00 e l'importo immesso nel campo **Massima eccedenza/insufficienza pagamento** o che sia superiore all'importo indicato in **Massima eccedenza/insufficienza pagamento**.
+## <a name="cash-discount-administration--specific"></a><span data-ttu-id="662ca-116">Amministrazione dello sconto di cassa = Specifico</span><span class="sxs-lookup"><span data-stu-id="662ca-116">Cash discount administration = Specific</span></span>
+<span data-ttu-id="662ca-117">Quando si seleziona **Specifico** nel campo **Applicazione sconto di cassa** della pagina **Conti per transazioni automatiche**, l'intero sconto di cassa viene prelevato.</span><span class="sxs-lookup"><span data-stu-id="662ca-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="662ca-118">L'importo dell'eccedenza di pagamento viene registrato in un conto CoGe relativo alle differenze di sconto di cassa o rimane un saldo del conto cliente.</span><span class="sxs-lookup"><span data-stu-id="662ca-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="662ca-119">Il comportamento varia a seconda che l'importo dell'eccedenza di pagamento sia compreso tra 0,00 e l'importo immesso nel campo **Massima eccedenza/insufficienza pagamento** o che sia superiore all'importo indicato in **Massima eccedenza/insufficienza pagamento**.</span><span class="sxs-lookup"><span data-stu-id="662ca-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
 
-### <a name="scenario-1"></a>Scenario 1
+### <a name="scenario-1"></a><span data-ttu-id="662ca-120">Scenario 1</span><span class="sxs-lookup"><span data-stu-id="662ca-120">Scenario 1</span></span>
 
-In questo scenario, l'importo dell'eccedenza di pagamento è compreso tra 0,00 e l'importo massimo per eccedenza o insufficienza di pagamento. Viene immessa una fattura di 105,00 con la possibilità di usufruire di uno sconto di cassa se la fattura viene pagata entro sette giorni.
+<span data-ttu-id="662ca-121">In questo scenario, l'importo dell'eccedenza di pagamento è compreso tra 0,00 e l'importo massimo per eccedenza o insufficienza di pagamento.</span><span class="sxs-lookup"><span data-stu-id="662ca-121">In this scenario, the overpayment amount is between 0.00 and the maximum overpayment or underpayment.</span></span> <span data-ttu-id="662ca-122">Viene immessa una fattura di 105,00 con la possibilità di usufruire di uno sconto di cassa se la fattura viene pagata entro sette giorni.</span><span class="sxs-lookup"><span data-stu-id="662ca-122">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Totale fattura | Sconto di cassa disponibile | Importo da pagare, incluso lo sconto di cassa |
+| <span data-ttu-id="662ca-123">Totale fattura</span><span class="sxs-lookup"><span data-stu-id="662ca-123">Invoice total</span></span> | <span data-ttu-id="662ca-124">Sconto di cassa disponibile</span><span class="sxs-lookup"><span data-stu-id="662ca-124">Cash discount available</span></span> | <span data-ttu-id="662ca-125">Importo da pagare, incluso lo sconto di cassa</span><span class="sxs-lookup"><span data-stu-id="662ca-125">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="662ca-126">105,00</span><span class="sxs-lookup"><span data-stu-id="662ca-126">105.00</span></span>        | <span data-ttu-id="662ca-127">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-127">10.50</span></span>                   | <span data-ttu-id="662ca-128">94,50</span><span class="sxs-lookup"><span data-stu-id="662ca-128">94.50</span></span>                                               |
 
-Il cliente invia un pagamento di 95,00 entro il periodo dello sconto di cassa. Il pagamento viene liquidato rispetto alla fattura di 105,00. Successivamente alla liquidazione della fattura e del pagamento, nella Contabilità clienti vengono create le seguenti transazioni per il cliente.
+<span data-ttu-id="662ca-129">Il cliente invia un pagamento di 95,00 entro il periodo dello sconto di cassa.</span><span class="sxs-lookup"><span data-stu-id="662ca-129">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="662ca-130">Il pagamento viene liquidato rispetto alla fattura di 105,00.</span><span class="sxs-lookup"><span data-stu-id="662ca-130">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="662ca-131">Successivamente alla liquidazione della fattura e del pagamento, nella Contabilità clienti vengono create le seguenti transazioni per il cliente.</span><span class="sxs-lookup"><span data-stu-id="662ca-131">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transazione   | Importo | Saldo |
+| <span data-ttu-id="662ca-132">Transazione</span><span class="sxs-lookup"><span data-stu-id="662ca-132">Transaction</span></span>   | <span data-ttu-id="662ca-133">Importo</span><span class="sxs-lookup"><span data-stu-id="662ca-133">Amount</span></span> | <span data-ttu-id="662ca-134">Saldo</span><span class="sxs-lookup"><span data-stu-id="662ca-134">Balance</span></span> |
 |---------------|--------|---------|
-| Fattura       | 105,00 | 0,00    |
-| Pagamento       | -95,00 | 0,00    |
-| Sconto di cassa | -10,50 | 0,00    |
+| <span data-ttu-id="662ca-135">Fattura</span><span class="sxs-lookup"><span data-stu-id="662ca-135">Invoice</span></span>       | <span data-ttu-id="662ca-136">105,00</span><span class="sxs-lookup"><span data-stu-id="662ca-136">105.00</span></span> | <span data-ttu-id="662ca-137">0,00</span><span class="sxs-lookup"><span data-stu-id="662ca-137">0.00</span></span>    |
+| <span data-ttu-id="662ca-138">Pagamento</span><span class="sxs-lookup"><span data-stu-id="662ca-138">Payment</span></span>       | <span data-ttu-id="662ca-139">-95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-139">-95.00</span></span> | <span data-ttu-id="662ca-140">0,00</span><span class="sxs-lookup"><span data-stu-id="662ca-140">0.00</span></span>    |
+| <span data-ttu-id="662ca-141">Sconto di cassa</span><span class="sxs-lookup"><span data-stu-id="662ca-141">Cash discount</span></span> | <span data-ttu-id="662ca-142">-10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-142">-10.50</span></span> | <span data-ttu-id="662ca-143">0,00</span><span class="sxs-lookup"><span data-stu-id="662ca-143">0.00</span></span>    |
 
-Le seguenti voci contabili vengono generate per il pagamento e la liquidazione. **Pagamento**
+<span data-ttu-id="662ca-144">Le seguenti voci contabili vengono generate per il pagamento e la liquidazione.</span><span class="sxs-lookup"><span data-stu-id="662ca-144">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="662ca-145">**Pagamento**</span><span class="sxs-lookup"><span data-stu-id="662ca-145">**Payment**</span></span>
 
-| Conto             | Importo in Dare | Importo in Avere |
+| <span data-ttu-id="662ca-146">Conto</span><span class="sxs-lookup"><span data-stu-id="662ca-146">Account</span></span>             | <span data-ttu-id="662ca-147">Importo in Dare</span><span class="sxs-lookup"><span data-stu-id="662ca-147">Debit amount</span></span> | <span data-ttu-id="662ca-148">Importo in Avere</span><span class="sxs-lookup"><span data-stu-id="662ca-148">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Contante                | 95,00        |               |
-| Contabilità clienti |              | 95,00         |
+| <span data-ttu-id="662ca-149">Contante</span><span class="sxs-lookup"><span data-stu-id="662ca-149">Cash</span></span>                | <span data-ttu-id="662ca-150">95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-150">95.00</span></span>        |               |
+| <span data-ttu-id="662ca-151">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="662ca-151">Accounts receivable</span></span> |              | <span data-ttu-id="662ca-152">95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-152">95.00</span></span>         |
 
-**Liquidazione**
+<span data-ttu-id="662ca-153">**Liquidazione**</span><span class="sxs-lookup"><span data-stu-id="662ca-153">**Settlement**</span></span>
 
-| Conto                                                                                                          | Importo in Dare | Importo in Avere |
+| <span data-ttu-id="662ca-154">Conto</span><span class="sxs-lookup"><span data-stu-id="662ca-154">Account</span></span>                                                                                                          | <span data-ttu-id="662ca-155">Importo in Dare</span><span class="sxs-lookup"><span data-stu-id="662ca-155">Debit amount</span></span> | <span data-ttu-id="662ca-156">Importo in Avere</span><span class="sxs-lookup"><span data-stu-id="662ca-156">Credit amount</span></span> |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| Sconto di cassa (il campo **Conto principale per sconti cliente** nella pagina **Sconti di cassa**)                 | 10,50        |               |
-| Contabilità clienti                                                                                              |              | 10,50         |
-| Sconto di cassa cliente (il campo **Sconto di cassa cliente** nella pagina **Conti per transazioni automatiche**) |              | 0,50          |
-| Contabilità clienti                                                                                              | 0,50         |               |
+| <span data-ttu-id="662ca-157">Sconto di cassa (il campo **Conto principale per sconti cliente** nella pagina **Sconti di cassa**)</span><span class="sxs-lookup"><span data-stu-id="662ca-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="662ca-158">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-158">10.50</span></span>        |               |
+| <span data-ttu-id="662ca-159">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="662ca-159">Accounts receivable</span></span>                                                                                              |              | <span data-ttu-id="662ca-160">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-160">10.50</span></span>         |
+| <span data-ttu-id="662ca-161">Sconto di cassa cliente (il campo **Sconto di cassa cliente** nella pagina **Conti per transazioni automatiche**)</span><span class="sxs-lookup"><span data-stu-id="662ca-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="662ca-162">0,50</span><span class="sxs-lookup"><span data-stu-id="662ca-162">0.50</span></span>          |
+| <span data-ttu-id="662ca-163">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="662ca-163">Accounts receivable</span></span>                                                                                              | <span data-ttu-id="662ca-164">0,50</span><span class="sxs-lookup"><span data-stu-id="662ca-164">0.50</span></span>         |               |
 
-### <a name="scenario-2"></a>Scenario 2
+### <a name="scenario-2"></a><span data-ttu-id="662ca-165">Scenario 2</span><span class="sxs-lookup"><span data-stu-id="662ca-165">Scenario 2</span></span>
 
-In questo scenario, l'importo di eccedenza di pagamento supera l'importo massimo per eccedenza o insufficienza di pagamento. Viene immessa una fattura di 105,00 con la possibilità di usufruire di uno sconto di cassa se la fattura viene pagata entro sette giorni.
+<span data-ttu-id="662ca-166">In questo scenario, l'importo di eccedenza di pagamento supera l'importo massimo per eccedenza o insufficienza di pagamento.</span><span class="sxs-lookup"><span data-stu-id="662ca-166">In this scenario, the overpayment amount exceeds the maximum overpayment or underpayment amount.</span></span> <span data-ttu-id="662ca-167">Viene immessa una fattura di 105,00 con la possibilità di usufruire di uno sconto di cassa se la fattura viene pagata entro sette giorni.</span><span class="sxs-lookup"><span data-stu-id="662ca-167">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Totale fattura | Sconto di cassa disponibile | Importo da pagare, incluso lo sconto di cassa |
+| <span data-ttu-id="662ca-168">Totale fattura</span><span class="sxs-lookup"><span data-stu-id="662ca-168">Invoice total</span></span> | <span data-ttu-id="662ca-169">Sconto di cassa disponibile</span><span class="sxs-lookup"><span data-stu-id="662ca-169">Cash discount available</span></span> | <span data-ttu-id="662ca-170">Importo da pagare, incluso lo sconto di cassa</span><span class="sxs-lookup"><span data-stu-id="662ca-170">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="662ca-171">105,00</span><span class="sxs-lookup"><span data-stu-id="662ca-171">105.00</span></span>        | <span data-ttu-id="662ca-172">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-172">10.50</span></span>                   | <span data-ttu-id="662ca-173">94,50</span><span class="sxs-lookup"><span data-stu-id="662ca-173">94.50</span></span>                                               |
 
-Il cliente invia un pagamento di 95,00 entro il periodo dello sconto di cassa. Il pagamento viene liquidato rispetto alla fattura di 105,00. Successivamente alla liquidazione della fattura e del pagamento, nella Contabilità clienti vengono create le seguenti transazioni per il cliente.
+<span data-ttu-id="662ca-174">Il cliente invia un pagamento di 95,00 entro il periodo dello sconto di cassa.</span><span class="sxs-lookup"><span data-stu-id="662ca-174">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="662ca-175">Il pagamento viene liquidato rispetto alla fattura di 105,00.</span><span class="sxs-lookup"><span data-stu-id="662ca-175">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="662ca-176">Successivamente alla liquidazione della fattura e del pagamento, nella Contabilità clienti vengono create le seguenti transazioni per il cliente.</span><span class="sxs-lookup"><span data-stu-id="662ca-176">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transazione   | Importo | Saldo |
+| <span data-ttu-id="662ca-177">Transazione</span><span class="sxs-lookup"><span data-stu-id="662ca-177">Transaction</span></span>   | <span data-ttu-id="662ca-178">Importo</span><span class="sxs-lookup"><span data-stu-id="662ca-178">Amount</span></span> | <span data-ttu-id="662ca-179">Saldo</span><span class="sxs-lookup"><span data-stu-id="662ca-179">Balance</span></span> |
 |---------------|--------|---------|
-| Fattura       | 105,00 | 0,00    |
-| Pagamento       | -95,00 | -0,50   |
-| Sconto di cassa | -10,50 | 0,00    |
+| <span data-ttu-id="662ca-180">Fattura</span><span class="sxs-lookup"><span data-stu-id="662ca-180">Invoice</span></span>       | <span data-ttu-id="662ca-181">105,00</span><span class="sxs-lookup"><span data-stu-id="662ca-181">105.00</span></span> | <span data-ttu-id="662ca-182">0,00</span><span class="sxs-lookup"><span data-stu-id="662ca-182">0.00</span></span>    |
+| <span data-ttu-id="662ca-183">Pagamento</span><span class="sxs-lookup"><span data-stu-id="662ca-183">Payment</span></span>       | <span data-ttu-id="662ca-184">-95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-184">-95.00</span></span> | <span data-ttu-id="662ca-185">-0,50</span><span class="sxs-lookup"><span data-stu-id="662ca-185">-0.50</span></span>   |
+| <span data-ttu-id="662ca-186">Sconto di cassa</span><span class="sxs-lookup"><span data-stu-id="662ca-186">Cash discount</span></span> | <span data-ttu-id="662ca-187">-10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-187">-10.50</span></span> | <span data-ttu-id="662ca-188">0,00</span><span class="sxs-lookup"><span data-stu-id="662ca-188">0.00</span></span>    |
 
-L'importo dell'eccedenza di pagamento di 0,50 rimarrà come saldo aperto nel pagamento e può essere liquidato in un'altra fattura. Le seguenti voci contabili vengono generate per il pagamento e la liquidazione. **Pagamento**
+<span data-ttu-id="662ca-189">L'importo dell'eccedenza di pagamento di 0,50 rimarrà come saldo aperto nel pagamento e può essere liquidato in un'altra fattura.</span><span class="sxs-lookup"><span data-stu-id="662ca-189">The overpayment amount of 0.50 will remain as an open balance on the payment and can be settled against another invoice.</span></span> <span data-ttu-id="662ca-190">Le seguenti voci contabili vengono generate per il pagamento e la liquidazione.</span><span class="sxs-lookup"><span data-stu-id="662ca-190">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="662ca-191">**Pagamento**</span><span class="sxs-lookup"><span data-stu-id="662ca-191">**Payment**</span></span>
 
-| Conto             | Importo in Dare | Importo in Avere |
+| <span data-ttu-id="662ca-192">Conto</span><span class="sxs-lookup"><span data-stu-id="662ca-192">Account</span></span>             | <span data-ttu-id="662ca-193">Importo in Dare</span><span class="sxs-lookup"><span data-stu-id="662ca-193">Debit amount</span></span> | <span data-ttu-id="662ca-194">Importo in Avere</span><span class="sxs-lookup"><span data-stu-id="662ca-194">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Contante                | 95,00        |               |
-| Contabilità clienti |              | 95,00         |
+| <span data-ttu-id="662ca-195">Contante</span><span class="sxs-lookup"><span data-stu-id="662ca-195">Cash</span></span>                | <span data-ttu-id="662ca-196">95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-196">95.00</span></span>        |               |
+| <span data-ttu-id="662ca-197">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="662ca-197">Accounts receivable</span></span> |              | <span data-ttu-id="662ca-198">95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-198">95.00</span></span>         |
 
-**Liquidazione**
+<span data-ttu-id="662ca-199">**Liquidazione**</span><span class="sxs-lookup"><span data-stu-id="662ca-199">**Settlement**</span></span>
 
-| Conto                                                                                          | Importo in Dare | Importo in Avere |
+| <span data-ttu-id="662ca-200">Conto</span><span class="sxs-lookup"><span data-stu-id="662ca-200">Account</span></span>                                                                                          | <span data-ttu-id="662ca-201">Importo in Dare</span><span class="sxs-lookup"><span data-stu-id="662ca-201">Debit amount</span></span> | <span data-ttu-id="662ca-202">Importo in Avere</span><span class="sxs-lookup"><span data-stu-id="662ca-202">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Sconto di cassa (il campo **Conto principale per sconti cliente** nella pagina **Sconti di cassa**) | 10,50        |               |
-| Contabilità clienti                                                                              |              | 10,50         |
+| <span data-ttu-id="662ca-203">Sconto di cassa (il campo **Conto principale per sconti cliente** nella pagina **Sconti di cassa**)</span><span class="sxs-lookup"><span data-stu-id="662ca-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="662ca-204">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-204">10.50</span></span>        |               |
+| <span data-ttu-id="662ca-205">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="662ca-205">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="662ca-206">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-206">10.50</span></span>         |
 
-## <a name="cash-discount-administration--unspecific"></a>Amministrazione dello sconto di cassa = Non specifico
-Quando si seleziona **Non specifico** nel campo **Applicazione sconto di cassa** della pagina **Conti per transazioni automatiche**, l'importo dello sconto di cassa viene ridotto dell'importo di eccedenza di pagamento. Questo comportamento viene applicato sempre, indipendentemente dal fatto che l'importo dell'eccedenza di pagamento sia superiore o inferiore all'importo immesso nel campo **Massima eccedenza/insufficienza pagamento**.
+## <a name="cash-discount-administration--unspecific"></a><span data-ttu-id="662ca-207">Amministrazione dello sconto di cassa = Non specifico</span><span class="sxs-lookup"><span data-stu-id="662ca-207">Cash discount administration = Unspecific</span></span>
+<span data-ttu-id="662ca-208">Quando si seleziona **Non specifico** nel campo **Applicazione sconto di cassa** della pagina **Conti per transazioni automatiche**, l'importo dello sconto di cassa viene ridotto dell'importo di eccedenza di pagamento.</span><span class="sxs-lookup"><span data-stu-id="662ca-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="662ca-209">Questo comportamento viene applicato sempre, indipendentemente dal fatto che l'importo dell'eccedenza di pagamento sia superiore o inferiore all'importo immesso nel campo **Massima eccedenza/insufficienza pagamento**.</span><span class="sxs-lookup"><span data-stu-id="662ca-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
 
-### <a name="scenario-3"></a>Scenario 3
+### <a name="scenario-3"></a><span data-ttu-id="662ca-210">Scenario 3</span><span class="sxs-lookup"><span data-stu-id="662ca-210">Scenario 3</span></span>
 
-In questo scenario, viene immessa una fattura di 105,00 con la possibilità di usufruire di uno sconto di cassa se la fattura viene pagata entro sette giorni.
+<span data-ttu-id="662ca-211">In questo scenario, viene immessa una fattura di 105,00 con la possibilità di usufruire di uno sconto di cassa se la fattura viene pagata entro sette giorni.</span><span class="sxs-lookup"><span data-stu-id="662ca-211">In this scenario, an invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Totale fattura | Sconto di cassa disponibile | Importo da pagare, incluso lo sconto di cassa |
+| <span data-ttu-id="662ca-212">Totale fattura</span><span class="sxs-lookup"><span data-stu-id="662ca-212">Invoice total</span></span> | <span data-ttu-id="662ca-213">Sconto di cassa disponibile</span><span class="sxs-lookup"><span data-stu-id="662ca-213">Cash discount available</span></span> | <span data-ttu-id="662ca-214">Importo da pagare, incluso lo sconto di cassa</span><span class="sxs-lookup"><span data-stu-id="662ca-214">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="662ca-215">105,00</span><span class="sxs-lookup"><span data-stu-id="662ca-215">105.00</span></span>        | <span data-ttu-id="662ca-216">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-216">10.50</span></span>                   | <span data-ttu-id="662ca-217">94,50</span><span class="sxs-lookup"><span data-stu-id="662ca-217">94.50</span></span>                                               |
 
-Il cliente invia un pagamento di 95,00 entro la data dello sconto di cassa. Il pagamento viene liquidato rispetto alla fattura di 105,00. Successivamente alla liquidazione della fattura e del pagamento, nella Contabilità clienti vengono create le seguenti transazioni per il cliente.
+<span data-ttu-id="662ca-218">Il cliente invia un pagamento di 95,00 entro la data dello sconto di cassa.</span><span class="sxs-lookup"><span data-stu-id="662ca-218">The customer submits a payment for 95.00 within the cash discount date.</span></span> <span data-ttu-id="662ca-219">Il pagamento viene liquidato rispetto alla fattura di 105,00.</span><span class="sxs-lookup"><span data-stu-id="662ca-219">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="662ca-220">Successivamente alla liquidazione della fattura e del pagamento, nella Contabilità clienti vengono create le seguenti transazioni per il cliente.</span><span class="sxs-lookup"><span data-stu-id="662ca-220">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transazione   | Importo | Saldo |
+| <span data-ttu-id="662ca-221">Transazione</span><span class="sxs-lookup"><span data-stu-id="662ca-221">Transaction</span></span>   | <span data-ttu-id="662ca-222">Importo</span><span class="sxs-lookup"><span data-stu-id="662ca-222">Amount</span></span> | <span data-ttu-id="662ca-223">Saldo</span><span class="sxs-lookup"><span data-stu-id="662ca-223">Balance</span></span> |
 |---------------|--------|---------|
-| Fattura       | 105,00 | 0,00    |
-| Pagamento       | -95,00 | -0,00   |
-| Sconto di cassa | -10.00 | 0,00    |
+| <span data-ttu-id="662ca-224">Fattura</span><span class="sxs-lookup"><span data-stu-id="662ca-224">Invoice</span></span>       | <span data-ttu-id="662ca-225">105,00</span><span class="sxs-lookup"><span data-stu-id="662ca-225">105.00</span></span> | <span data-ttu-id="662ca-226">0,00</span><span class="sxs-lookup"><span data-stu-id="662ca-226">0.00</span></span>    |
+| <span data-ttu-id="662ca-227">Pagamento</span><span class="sxs-lookup"><span data-stu-id="662ca-227">Payment</span></span>       | <span data-ttu-id="662ca-228">-95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-228">-95.00</span></span> | <span data-ttu-id="662ca-229">-0,00</span><span class="sxs-lookup"><span data-stu-id="662ca-229">-0.00</span></span>   |
+| <span data-ttu-id="662ca-230">Sconto di cassa</span><span class="sxs-lookup"><span data-stu-id="662ca-230">Cash discount</span></span> | <span data-ttu-id="662ca-231">-10.00</span><span class="sxs-lookup"><span data-stu-id="662ca-231">-10.00</span></span> | <span data-ttu-id="662ca-232">0,00</span><span class="sxs-lookup"><span data-stu-id="662ca-232">0.00</span></span>    |
 
-L'importo dello sconto di cassa viene ridotto da 10,50 a 10,00. Il pagamento e la fattura vengono considerati liquidati. **Pagamento**
+<span data-ttu-id="662ca-233">L'importo dello sconto di cassa viene ridotto da 10,50 a 10,00.</span><span class="sxs-lookup"><span data-stu-id="662ca-233">The cash discount amount is reduced from 10.50 to 10.00.</span></span> <span data-ttu-id="662ca-234">Il pagamento e la fattura vengono considerati liquidati.</span><span class="sxs-lookup"><span data-stu-id="662ca-234">The payment and invoice are considered settled.</span></span> <span data-ttu-id="662ca-235">**Pagamento**</span><span class="sxs-lookup"><span data-stu-id="662ca-235">**Payment**</span></span>
 
-| Conto             | Importo in Dare | Importo in Avere |
+| <span data-ttu-id="662ca-236">Conto</span><span class="sxs-lookup"><span data-stu-id="662ca-236">Account</span></span>             | <span data-ttu-id="662ca-237">Importo in Dare</span><span class="sxs-lookup"><span data-stu-id="662ca-237">Debit amount</span></span> | <span data-ttu-id="662ca-238">Importo in Avere</span><span class="sxs-lookup"><span data-stu-id="662ca-238">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Contante                | 95,00        |               |
-| Contabilità clienti |              | 95,00         |
+| <span data-ttu-id="662ca-239">Contante</span><span class="sxs-lookup"><span data-stu-id="662ca-239">Cash</span></span>                | <span data-ttu-id="662ca-240">95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-240">95.00</span></span>        |               |
+| <span data-ttu-id="662ca-241">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="662ca-241">Accounts receivable</span></span> |              | <span data-ttu-id="662ca-242">95,00</span><span class="sxs-lookup"><span data-stu-id="662ca-242">95.00</span></span>         |
 
-**Liquidazione**
+<span data-ttu-id="662ca-243">**Liquidazione**</span><span class="sxs-lookup"><span data-stu-id="662ca-243">**Settlement**</span></span>
 
-| Conto                                                                                          | Importo in Dare | Importo in Avere |
+| <span data-ttu-id="662ca-244">Conto</span><span class="sxs-lookup"><span data-stu-id="662ca-244">Account</span></span>                                                                                          | <span data-ttu-id="662ca-245">Importo in Dare</span><span class="sxs-lookup"><span data-stu-id="662ca-245">Debit amount</span></span> | <span data-ttu-id="662ca-246">Importo in Avere</span><span class="sxs-lookup"><span data-stu-id="662ca-246">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Sconto di cassa (il campo **Conto principale per sconti cliente** nella pagina **Sconti di cassa**) | 10,50        |               |
-| Contabilità clienti                                                                              |              | 10,50         |
+| <span data-ttu-id="662ca-247">Sconto di cassa (il campo **Conto principale per sconti cliente** nella pagina **Sconti di cassa**)</span><span class="sxs-lookup"><span data-stu-id="662ca-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="662ca-248">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-248">10.50</span></span>        |               |
+| <span data-ttu-id="662ca-249">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="662ca-249">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="662ca-250">10,50</span><span class="sxs-lookup"><span data-stu-id="662ca-250">10.50</span></span>         |
 
 
 

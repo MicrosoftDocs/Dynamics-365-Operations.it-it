@@ -16,104 +16,104 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d7c76eab2cca4e15c13dd9f79432b9c6d81071a2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5dea9d7bfb1bf7b11f6c49cccaab1b73d4e58d16
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Immettere e confrontare le offerte RdO e assegnare i contratti
+# <a name="enter-and-compare-rfq-bids-and-award-contracts"></a><span data-ttu-id="60df5-103">Immettere e confrontare le offerte RdO e assegnare i contratti</span><span class="sxs-lookup"><span data-stu-id="60df5-103">Enter and compare RFQ bids and award contracts</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Questa procedura mostra come immettere le risposte a una RdO, valutare e confrontare le offerte e infine assegnare l'offerta a uno dei fornitori. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF. Prima di iniziare, è necessario disporre di una RdO con due righe inviata ad almeno due fornitori. È possibile eseguire la procedura "Creare richieste di offerta" come prerequisito per la creazione. È necessario avere impostato criteri di assegnazione del punteggio per poter eseguire questa procedura.
+<span data-ttu-id="60df5-104">Questa procedura mostra come immettere le risposte a una RdO, valutare e confrontare le offerte e infine assegnare l'offerta a uno dei fornitori.</span><span class="sxs-lookup"><span data-stu-id="60df5-104">This procedure shows you how to enter replies to an RFQ, score and compare bids, and then award the bid to one of the vendors.</span></span> <span data-ttu-id="60df5-105">È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="60df5-105">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="60df5-106">Prima di iniziare, è necessario disporre di una RdO con due righe inviata ad almeno due fornitori.</span><span class="sxs-lookup"><span data-stu-id="60df5-106">Before you start, you must have an RFQ with two lines that has been sent to at least two vendors.</span></span> <span data-ttu-id="60df5-107">È possibile eseguire la procedura "Creare richieste di offerta" come prerequisito per la creazione.</span><span class="sxs-lookup"><span data-stu-id="60df5-107">You can run the "Create a request for quotation" procedure as a prerequisite to create this.</span></span> <span data-ttu-id="60df5-108">È necessario avere impostato criteri di assegnazione del punteggio per poter eseguire questa procedura.</span><span class="sxs-lookup"><span data-stu-id="60df5-108">You need to have set up scoring criteria before you can run this procedure.</span></span>
 
 
-## <a name="enter-a-reply-from-a-vendor"></a>Immettere una risposta di un fornitore
-1. Andare ad Approvvigionamento > Richieste di offerta > Tutte le richieste di offerta.
-2. Selezionare una RdO con stato di inviato e fare clic sul collegamento nel numero di caso Richiesta di offerta.
-    * La richiesta di offerta deve essere stata inviata ad almeno 2 fornitori.  
-3. Fare clic sull'intestazione per accedere all'elenco dei fornitori.
-4. Selezionare il fornitore per cui si desidera immettere una risposta alla RdO.
-5. Fare clic su Inserisci risposta.
-6. Nel Riquadro azioni fare clic su Rispondi.
-7. Fare clic su Copia dati per rispondere.
-    * Questa azione copierà i dati selezionati, ad esempio, la quantità del caso RdO nella risposta RdO. In alternativa, è possibile ignorare questa azione e compilare tutti i campi di risposta manualmente quando si modifica la risposta.  
-8. Fare clic su Modifica.
-9. Nel campo Prezzo unitario immettere un numero.
-10. Selezionare l'altra riga dell'offerta.
-11. Nel campo Prezzo unitario immettere un numero.
+## <a name="enter-a-reply-from-a-vendor"></a><span data-ttu-id="60df5-109">Immettere una risposta di un fornitore</span><span class="sxs-lookup"><span data-stu-id="60df5-109">Enter a reply from a vendor</span></span>
+1. <span data-ttu-id="60df5-110">Andare ad Approvvigionamento > Richieste di offerta > Tutte le richieste di offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-110">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="60df5-111">Selezionare una RdO con stato di inviato e fare clic sul collegamento nel numero di caso Richiesta di offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-111">Select an RFQ that has a status of Sent and click the link on the Request for quotation case number.</span></span>
+    * <span data-ttu-id="60df5-112">La richiesta di offerta deve essere stata inviata ad almeno 2 fornitori.</span><span class="sxs-lookup"><span data-stu-id="60df5-112">The RFQ should have been sent to at least 2 vendors.</span></span>  
+3. <span data-ttu-id="60df5-113">Fare clic sull'intestazione per accedere all'elenco dei fornitori.</span><span class="sxs-lookup"><span data-stu-id="60df5-113">Click Header to go to the list of vendors.</span></span>
+4. <span data-ttu-id="60df5-114">Selezionare il fornitore per cui si desidera immettere una risposta alla RdO.</span><span class="sxs-lookup"><span data-stu-id="60df5-114">Select the vendor for whom you want to enter a response on the RFQ.</span></span>
+5. <span data-ttu-id="60df5-115">Fare clic su Inserisci risposta.</span><span class="sxs-lookup"><span data-stu-id="60df5-115">Click Enter reply.</span></span>
+6. <span data-ttu-id="60df5-116">Nel Riquadro azioni fare clic su Rispondi.</span><span class="sxs-lookup"><span data-stu-id="60df5-116">On the Action Pane, click Reply.</span></span>
+7. <span data-ttu-id="60df5-117">Fare clic su Copia dati per rispondere.</span><span class="sxs-lookup"><span data-stu-id="60df5-117">Click Copy data to reply.</span></span>
+    * <span data-ttu-id="60df5-118">Questa azione copierà i dati selezionati, ad esempio, la quantità del caso RdO nella risposta RdO.</span><span class="sxs-lookup"><span data-stu-id="60df5-118">This action will copy selected data, for example, the quantity from the RFQ case to the RFQ reply.</span></span> <span data-ttu-id="60df5-119">In alternativa, è possibile ignorare questa azione e compilare tutti i campi di risposta manualmente quando si modifica la risposta.</span><span class="sxs-lookup"><span data-stu-id="60df5-119">Alternatively you can skip this action and fill in all the response fields manually when you edit the reply.</span></span>  
+8. <span data-ttu-id="60df5-120">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="60df5-120">Click Edit.</span></span>
+9. <span data-ttu-id="60df5-121">Nel campo Prezzo unitario immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="60df5-121">In the Unit price field, enter a number.</span></span>
+10. <span data-ttu-id="60df5-122">Selezionare l'altra riga dell'offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-122">Choose the other quotation line.</span></span>
+11. <span data-ttu-id="60df5-123">Nel campo Prezzo unitario immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="60df5-123">In the Unit price field, enter a number.</span></span>
 
-## <a name="score-the-bid"></a>Assegnare un punteggio all'offerta
-1. Fare clic sull'intestazione per accedere al punteggio dell'offerta.
-2. Espandere la sezione Punteggio offerta.
-3. Nel campo Punteggio immettere un numero per uno dei criteri di assegnazione del punteggio.
-    * Se si passa su uno dei criteri di assegnazione del punteggio, una descrizione comando mostra l'intervallo entro cui scegliere il punteggio da assegnare. In questo demo è possibile aggiungere un numero compreso tra 1 e 5 a uno dei criteri.  
-4. Selezionare un altro criterio di assegnazione del punteggio.
-5. Nel campo Punteggio immettere un numero.
-6. Espandere la sezione Questionari.
-    * Se il caso RdO contiene un questionario inviato ai fornitori, è possibile immettere le relative risposte nella sezione del questionario.  
-7. Chiudere la pagina.
+## <a name="score-the-bid"></a><span data-ttu-id="60df5-124">Assegnare un punteggio all'offerta</span><span class="sxs-lookup"><span data-stu-id="60df5-124">Score the bid</span></span>
+1. <span data-ttu-id="60df5-125">Fare clic sull'intestazione per accedere al punteggio dell'offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-125">Click Header to go to the scoring of the bid.</span></span>
+2. <span data-ttu-id="60df5-126">Espandere la sezione Punteggio offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-126">Expand the Bid scoring section.</span></span>
+3. <span data-ttu-id="60df5-127">Nel campo Punteggio immettere un numero per uno dei criteri di assegnazione del punteggio.</span><span class="sxs-lookup"><span data-stu-id="60df5-127">In the Score field, enter a number for one of the scoring criteria.</span></span>
+    * <span data-ttu-id="60df5-128">Se si passa su uno dei criteri di assegnazione del punteggio, una descrizione comando mostra l'intervallo entro cui scegliere il punteggio da assegnare.</span><span class="sxs-lookup"><span data-stu-id="60df5-128">If you hover over one of the scoring criteria a tooltip shows the range that you have to score within.</span></span> <span data-ttu-id="60df5-129">In questo demo è possibile aggiungere un numero compreso tra 1 e 5 a uno dei criteri.</span><span class="sxs-lookup"><span data-stu-id="60df5-129">In this demo you can add a number between 1 and 5 to any of the criteria.</span></span>  
+4. <span data-ttu-id="60df5-130">Selezionare un altro criterio di assegnazione del punteggio.</span><span class="sxs-lookup"><span data-stu-id="60df5-130">Select another scoring criterion.</span></span>
+5. <span data-ttu-id="60df5-131">Nel campo Punteggio immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="60df5-131">In the Score field, enter a number.</span></span>
+6. <span data-ttu-id="60df5-132">Espandere la sezione Questionari.</span><span class="sxs-lookup"><span data-stu-id="60df5-132">Expand the Questionnaires section.</span></span>
+    * <span data-ttu-id="60df5-133">Se il caso RdO contiene un questionario inviato ai fornitori, è possibile immettere le relative risposte nella sezione del questionario.</span><span class="sxs-lookup"><span data-stu-id="60df5-133">If the RFQ case has a questionnaire that was sent to the vendors, you can enter their responses in the questionnaire section.</span></span>  
+7. <span data-ttu-id="60df5-134">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="60df5-134">Close the page.</span></span>
 
-## <a name="enter-a-reply-for-another-vendor"></a>Immettere una risposta per un altro fornitore
-1. Selezionare il fornitore successivo deselezionando il fornitore per il quale è stata appena immessa la risposta, quindi selezionando la riga per il fornitore successivo.
-2. Nell'elenco trovare e selezionare il record desiderato.
-3. Fare clic su Inserisci risposta.
-4. Fare clic su Copia dati per rispondere.
-5. Fare clic su Modifica.
-6. Nel campo Prezzo unitario immettere un numero.
-7. Selezionare l'altra riga dell'offerta.
-8. Nel campo Prezzo unitario immettere un numero.
+## <a name="enter-a-reply-for-another-vendor"></a><span data-ttu-id="60df5-135">Immettere una risposta per un altro fornitore</span><span class="sxs-lookup"><span data-stu-id="60df5-135">Enter a reply for another vendor</span></span>
+1. <span data-ttu-id="60df5-136">Selezionare il fornitore successivo deselezionando il fornitore per il quale è stata appena immessa la risposta, quindi selezionando la riga per il fornitore successivo.</span><span class="sxs-lookup"><span data-stu-id="60df5-136">Select the next vendor by clearing the vendor you have just entered the reply for and then selecting the row for the next vendor.</span></span>
+2. <span data-ttu-id="60df5-137">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="60df5-137">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="60df5-138">Fare clic su Inserisci risposta.</span><span class="sxs-lookup"><span data-stu-id="60df5-138">Click Enter reply.</span></span>
+4. <span data-ttu-id="60df5-139">Fare clic su Copia dati per rispondere.</span><span class="sxs-lookup"><span data-stu-id="60df5-139">Click Copy data to reply.</span></span>
+5. <span data-ttu-id="60df5-140">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="60df5-140">Click Edit.</span></span>
+6. <span data-ttu-id="60df5-141">Nel campo Prezzo unitario immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="60df5-141">In the Unit price field, enter a number.</span></span>
+7. <span data-ttu-id="60df5-142">Selezionare l'altra riga dell'offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-142">Choose the other quotation line.</span></span>
+8. <span data-ttu-id="60df5-143">Nel campo Prezzo unitario immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="60df5-143">In the Unit price field, enter a number.</span></span>
 
-## <a name="score-the-second-bid"></a>Assegnare un punteggio alla seconda offerta
-1. Fare clic sull'intestazione per accedere al punteggio dell'offerta.
-2. Nel campo Punteggio immettere un numero.
-3. Nell'elenco trovare e selezionare il record desiderato.
-4. Nel campo Punteggio immettere un numero.
+## <a name="score-the-second-bid"></a><span data-ttu-id="60df5-144">Assegnare un punteggio alla seconda offerta</span><span class="sxs-lookup"><span data-stu-id="60df5-144">Score the second bid</span></span>
+1. <span data-ttu-id="60df5-145">Fare clic sull'intestazione per accedere al punteggio dell'offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-145">Click Header to go to scoring of the bid.</span></span>
+2. <span data-ttu-id="60df5-146">Nel campo Punteggio immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="60df5-146">In the Score field, enter a number.</span></span>
+3. <span data-ttu-id="60df5-147">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="60df5-147">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="60df5-148">Nel campo Punteggio immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="60df5-148">In the Score field, enter a number.</span></span>
 
-## <a name="compare-the-replies"></a>Confrontare le risposte
-1. Nel riquadro azioni fare clic su Generale.
-2. Fare clic su Confronta risposte-
-3. Nel campo Classificazione immettere un numero.
-    * In questa pagina vengono visualizzate le offerte con l'intestazione e le righe e il punteggio totale a livello di intestazione. È possibile confrontare le righe ordinandole nella griglia in modo che le righe confrontabili siano l'una accanto all'altra. Sono indicate inoltre le seguenti informazioni. Quantità: la quantità indicata dal fornitore. Questa potrebbe essere diversa dalla quantità nella richiesta di offerta specificata.   Importo netto: il prezzo offerto da un fornitore, dopo la detrazione di eventuali sconti, per gli articoli nella riga.   Deviazione: il numero di giorni di differenza tra la data di consegna specificata nella riga o nell'intestazione dell'offerta e la data di consegna richiesta nella riga o nell'intestazione della RdO.   È possibile inserire una classificazione per ogni offerta.  
-4. Selezionare la riga dell'intestazione dell'altra offerta che si desidera classificare.
-5. Nel campo Classificazione immettere un numero.
-6. Fare clic su Salva.
+## <a name="compare-the-replies"></a><span data-ttu-id="60df5-149">Confrontare le risposte</span><span class="sxs-lookup"><span data-stu-id="60df5-149">Compare the replies</span></span>
+1. <span data-ttu-id="60df5-150">Nel riquadro azioni fare clic su Generale.</span><span class="sxs-lookup"><span data-stu-id="60df5-150">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="60df5-151">Fare clic su Confronta risposte-</span><span class="sxs-lookup"><span data-stu-id="60df5-151">Click Compare replies.</span></span>
+3. <span data-ttu-id="60df5-152">Nel campo Classificazione immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="60df5-152">In the Rank field, enter a number.</span></span>
+    * <span data-ttu-id="60df5-153">In questa pagina vengono visualizzate le offerte con l'intestazione e le righe e il punteggio totale a livello di intestazione.</span><span class="sxs-lookup"><span data-stu-id="60df5-153">This page shows the bids with the header and lines, and the total score on the header level.</span></span> <span data-ttu-id="60df5-154">È possibile confrontare le righe ordinandole nella griglia in modo che le righe confrontabili siano l'una accanto all'altra.</span><span class="sxs-lookup"><span data-stu-id="60df5-154">You can compare the lines by sorting in the grid so that comparable lines are next to each other.</span></span> <span data-ttu-id="60df5-155">Sono indicate inoltre le seguenti informazioni. Quantità: la quantità indicata dal fornitore.</span><span class="sxs-lookup"><span data-stu-id="60df5-155">The information also includes:   Quantity: The quantity quoted by the vendor.</span></span> <span data-ttu-id="60df5-156">Questa potrebbe essere diversa dalla quantità nella richiesta di offerta specificata.</span><span class="sxs-lookup"><span data-stu-id="60df5-156">This might not equal the quantity specified in the RFQ.</span></span>   <span data-ttu-id="60df5-157">Importo netto: il prezzo offerto da un fornitore, dopo la detrazione di eventuali sconti, per gli articoli nella riga.</span><span class="sxs-lookup"><span data-stu-id="60df5-157">Net amount: The price quoted by a vendor, after subtracting any discounts, for the items on the line.</span></span>   <span data-ttu-id="60df5-158">Deviazione: il numero di giorni di differenza tra la data di consegna specificata nella riga o nell'intestazione dell'offerta e la data di consegna richiesta nella riga o nell'intestazione della RdO.</span><span class="sxs-lookup"><span data-stu-id="60df5-158">Deviation: The number of days that the delivery date in the bid header or line deviates from the requested delivery date in the RFQ header or RFQ line.</span></span>   <span data-ttu-id="60df5-159">È possibile inserire una classificazione per ogni offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-159">You can enter a rank for each bid.</span></span>  
+4. <span data-ttu-id="60df5-160">Selezionare la riga dell'intestazione dell'altra offerta che si desidera classificare.</span><span class="sxs-lookup"><span data-stu-id="60df5-160">Select the header line for the other bid that you want to rank.</span></span>
+5. <span data-ttu-id="60df5-161">Nel campo Classificazione immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="60df5-161">In the Rank field, enter a number.</span></span>
+6. <span data-ttu-id="60df5-162">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="60df5-162">Click Save.</span></span>
 
-## <a name="reject-a-bid"></a>Rifiutare un'offerta
-1. Selezionare la riga dell'intestazione dell'offerta che si desidera rifiutare.
-    * È possibile solo accettare, rifiutare o restituire un'offerta o righe di un'offerta alla volta.  
-2. Selezionare la casella di controllo Contrassegna.
-    * Se si seleziona la casella di controllo Contrassegna nell'intestazione dell'offerta, verranno contrassegnate anche tutte le righe. È inoltre possibile scegliere di contrassegnare un sottoinsieme di righe nell'offerta per rifiutare o accettare tale sottoinsieme. È possibile accettare l'offerta di un fornitore per alcune righe di una RdO, quindi assegnare altre righe RdO a un fornitore diverso; tuttavia è necessario effettuare questa operazione in 2 passaggi, un'offerta alla volta. Se sono presenti righe alternative, è possibile accettare solo la riga di offerta originale o la relativa alternativa, ma non entrambe.  
-3. Fare clic su Rifiuta.
-4. Fare clic su Parametri per aprire la finestra di dialogo a discesa.
-5. Nel campo Motivo rifiuto immettere o selezionare un valore.
-    * Il motivo del rifiuto verrà archiviato nella risposta.  
-6. Fare clic su OK.
-7. Fare clic su OK.
-8. Chiudere la pagina.
-9. Chiudere la pagina.
-10. Aggiorna la pagina.
+## <a name="reject-a-bid"></a><span data-ttu-id="60df5-163">Rifiutare un'offerta</span><span class="sxs-lookup"><span data-stu-id="60df5-163">Reject a bid</span></span>
+1. <span data-ttu-id="60df5-164">Selezionare la riga dell'intestazione dell'offerta che si desidera rifiutare.</span><span class="sxs-lookup"><span data-stu-id="60df5-164">Select the header line for the bid that you want to reject.</span></span>
+    * <span data-ttu-id="60df5-165">È possibile solo accettare, rifiutare o restituire un'offerta o righe di un'offerta alla volta.</span><span class="sxs-lookup"><span data-stu-id="60df5-165">You can only accept, reject, or return one bid or lines within one bid at a time.</span></span>  
+2. <span data-ttu-id="60df5-166">Selezionare la casella di controllo Contrassegna.</span><span class="sxs-lookup"><span data-stu-id="60df5-166">Select the Mark check box.</span></span>
+    * <span data-ttu-id="60df5-167">Se si seleziona la casella di controllo Contrassegna nell'intestazione dell'offerta, verranno contrassegnate anche tutte le righe.</span><span class="sxs-lookup"><span data-stu-id="60df5-167">If you select the Mark check box on the Header of the bid then all the lines will be marked as well.</span></span> <span data-ttu-id="60df5-168">È inoltre possibile scegliere di contrassegnare un sottoinsieme di righe nell'offerta per rifiutare o accettare tale sottoinsieme.</span><span class="sxs-lookup"><span data-stu-id="60df5-168">You could also choose to mark a subset of the lines within the bid to reject or accept those.</span></span> <span data-ttu-id="60df5-169">È possibile accettare l'offerta di un fornitore per alcune righe di una RdO, quindi assegnare altre righe RdO a un fornitore diverso; tuttavia è necessario effettuare questa operazione in 2 passaggi, un'offerta alla volta.</span><span class="sxs-lookup"><span data-stu-id="60df5-169">It’s possible to accept one vendor’s bid for some lines of an RFQ, and then award other RFQ lines to a different vendor, however you need to do this in 2 steps, one bid at a time.</span></span> <span data-ttu-id="60df5-170">Se sono presenti righe alternative, è possibile accettare solo la riga di offerta originale o la relativa alternativa, ma non entrambe.</span><span class="sxs-lookup"><span data-stu-id="60df5-170">If alternate lines are present, you can only accept either the original bid line or its alternate, but not both.</span></span>  
+3. <span data-ttu-id="60df5-171">Fare clic su Rifiuta.</span><span class="sxs-lookup"><span data-stu-id="60df5-171">Click Reject.</span></span>
+4. <span data-ttu-id="60df5-172">Fare clic su Parametri per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="60df5-172">Click Parameters to open the drop dialog.</span></span>
+5. <span data-ttu-id="60df5-173">Nel campo Motivo rifiuto immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="60df5-173">In the Reason reject field, enter or select a value.</span></span>
+    * <span data-ttu-id="60df5-174">Il motivo del rifiuto verrà archiviato nella risposta.</span><span class="sxs-lookup"><span data-stu-id="60df5-174">The reason for rejection will be stored on the reply.</span></span>  
+6. <span data-ttu-id="60df5-175">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="60df5-175">Click OK.</span></span>
+7. <span data-ttu-id="60df5-176">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="60df5-176">Click OK.</span></span>
+8. <span data-ttu-id="60df5-177">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="60df5-177">Close the page.</span></span>
+9. <span data-ttu-id="60df5-178">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="60df5-178">Close the page.</span></span>
+10. <span data-ttu-id="60df5-179">Aggiorna la pagina.</span><span class="sxs-lookup"><span data-stu-id="60df5-179">Refresh the page.</span></span>
 
-## <a name="accept-a-bid"></a>Accettare un'offerta
-1. Selezionare l'offerta che si desidera accettare, quindi fare clic sul collegamento nel campo Richiesta di offerta.
-2. Nel Riquadro azioni fare clic su Rispondi.
-3. Fare clic su Accetta.
-    * Se sono state contrassegnate righe specifiche e non altre, l'azione di accettazione comprenderà solo le righe contrassegnate. Non è necessario contrassegnare le righe se si desidera accettare tutte quelle dell'offerta.  
-4. Fare clic su Parametri per aprire la finestra di dialogo a discesa.
-    * Consente di registrare un motivo per l'accettazione dell'offerta. Il motivo verrà archiviato nell'offerta.  
-5. Nel campo Motivo accettazione immettere o selezionare un valore.
-6. Fare clic su OK.
-7. Fare clic su OK.
-    * Quando si fa clic su OK, viene generato un ordine fornitore in base alle righe incluse nell'accettazione della RdO. Se sono presenti altre offerte che non sono state elaborate (accettate, rifiutate o restituite), il sistema chiederà di rifiutare le offerte rimanenti.  
+## <a name="accept-a-bid"></a><span data-ttu-id="60df5-180">Accettare un'offerta</span><span class="sxs-lookup"><span data-stu-id="60df5-180">Accept a bid</span></span>
+1. <span data-ttu-id="60df5-181">Selezionare l'offerta che si desidera accettare, quindi fare clic sul collegamento nel campo Richiesta di offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-181">Select the bid that you want to accept and then click the link in the Request for quotation field.</span></span>
+2. <span data-ttu-id="60df5-182">Nel Riquadro azioni fare clic su Rispondi.</span><span class="sxs-lookup"><span data-stu-id="60df5-182">On the Action Pane, click Reply.</span></span>
+3. <span data-ttu-id="60df5-183">Fare clic su Accetta.</span><span class="sxs-lookup"><span data-stu-id="60df5-183">Click Accept.</span></span>
+    * <span data-ttu-id="60df5-184">Se sono state contrassegnate righe specifiche e non altre, l'azione di accettazione comprenderà solo le righe contrassegnate.</span><span class="sxs-lookup"><span data-stu-id="60df5-184">If you have marked specific lines and not others then the accept action will only include the marked lines.</span></span> <span data-ttu-id="60df5-185">Non è necessario contrassegnare le righe se si desidera accettare tutte quelle dell'offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-185">If you want to accept all lines on the bid then you do not have to mark the lines.</span></span>  
+4. <span data-ttu-id="60df5-186">Fare clic su Parametri per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="60df5-186">Click Parameters to open the drop dialog.</span></span>
+    * <span data-ttu-id="60df5-187">Consente di registrare un motivo per l'accettazione dell'offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-187">This allows you to record a reason for accepting the bid.</span></span> <span data-ttu-id="60df5-188">Il motivo verrà archiviato nell'offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-188">The reason will be stored on the bid.</span></span>  
+5. <span data-ttu-id="60df5-189">Nel campo Motivo accettazione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="60df5-189">In the Reason accept field, enter or select a value.</span></span>
+6. <span data-ttu-id="60df5-190">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="60df5-190">Click OK.</span></span>
+7. <span data-ttu-id="60df5-191">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="60df5-191">Click OK.</span></span>
+    * <span data-ttu-id="60df5-192">Quando si fa clic su OK, viene generato un ordine fornitore in base alle righe incluse nell'accettazione della RdO.</span><span class="sxs-lookup"><span data-stu-id="60df5-192">When you click OK this generates a purchase order based on the lines that are included in the RFQ acceptance.</span></span> <span data-ttu-id="60df5-193">Se sono presenti altre offerte che non sono state elaborate (accettate, rifiutate o restituite), il sistema chiederà di rifiutare le offerte rimanenti.</span><span class="sxs-lookup"><span data-stu-id="60df5-193">If there are other bids that have not been processed (accepted, rejected, or returned) then the system will prompt you to reject the remaining bids.</span></span>  
 
-## <a name="view-the-purchase-order-thats-been-generated"></a>Visualizzare l'ordine fornitore generato
-1. Nel riquadro azioni fare clic su Generale.
-2. Fare clic su Ordine acquisto.
-    * Qui è possibile visualizzare l'ordine fornitore generato quando è stata accettata l'offerta.  
-3. Chiudere la pagina.
-4. Chiudere la pagina.
-5. Chiudere la pagina.
-6. Chiudere la pagina.
+## <a name="view-the-purchase-order-thats-been-generated"></a><span data-ttu-id="60df5-194">Visualizzare l'ordine fornitore generato</span><span class="sxs-lookup"><span data-stu-id="60df5-194">View the purchase order that's been generated</span></span>
+1. <span data-ttu-id="60df5-195">Nel riquadro azioni fare clic su Generale.</span><span class="sxs-lookup"><span data-stu-id="60df5-195">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="60df5-196">Fare clic su Ordine acquisto.</span><span class="sxs-lookup"><span data-stu-id="60df5-196">Click Purchase order.</span></span>
+    * <span data-ttu-id="60df5-197">Qui è possibile visualizzare l'ordine fornitore generato quando è stata accettata l'offerta.</span><span class="sxs-lookup"><span data-stu-id="60df5-197">Here you can see the purchase order that was generated when you accepted the bid.</span></span>  
+3. <span data-ttu-id="60df5-198">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="60df5-198">Close the page.</span></span>
+4. <span data-ttu-id="60df5-199">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="60df5-199">Close the page.</span></span>
+5. <span data-ttu-id="60df5-200">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="60df5-200">Close the page.</span></span>
+6. <span data-ttu-id="60df5-201">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="60df5-201">Close the page.</span></span>
 
 

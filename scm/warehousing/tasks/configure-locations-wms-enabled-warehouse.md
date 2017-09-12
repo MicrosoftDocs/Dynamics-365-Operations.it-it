@@ -17,180 +17,180 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 044da854273345877be92c9eab787f4edf0bba5b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1082c86361180db84bb2b5c0b8158816f76a219e
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurare le ubicazioni in un magazzino abilitato WMS
+# <a name="configure-locations-in-a-wms-enabled-warehouse"></a><span data-ttu-id="812ec-103">Configurare le ubicazioni in un magazzino abilitato WMS</span><span class="sxs-lookup"><span data-stu-id="812ec-103">Configure locations in a WMS-enabled warehouse</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato per WMS (un magazzino che utilizza i processi di gestione avanzata del magazzino). Il processo è in genere eseguito da un amministratore di magazzino. È possibile eseguire questa guida nella società di dati dimostrativi USMF oppure sui propri dati. Una precondizione è che si abbia almeno un sito configurato.
+<span data-ttu-id="812ec-104">La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato per WMS (un magazzino che utilizza i processi di gestione avanzata del magazzino).</span><span class="sxs-lookup"><span data-stu-id="812ec-104">This guide shows you how to configure the location setup for a new WMS-enabled warehouse (a warehouse that uses advanced warehouse management processes).</span></span> <span data-ttu-id="812ec-105">Il processo è in genere eseguito da un amministratore di magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-105">The process is typically done by a warehouse manager.</span></span> <span data-ttu-id="812ec-106">È possibile eseguire questa guida nella società di dati dimostrativi USMF oppure sui propri dati.</span><span class="sxs-lookup"><span data-stu-id="812ec-106">You can run this guide in demo data company USMF or on your own data.</span></span> <span data-ttu-id="812ec-107">Una precondizione è che si abbia almeno un sito configurato.</span><span class="sxs-lookup"><span data-stu-id="812ec-107">A precondition is that you have at least one site configured.</span></span>
 
 
-## <a name="create-a-new-warehouse"></a>Creare un nuovo magazzino
-1. Scegliere Magazzino.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Magazzino.
-4. Digitare un valore nel campo Nome.
-5. Digitare un valore nel campo Sito.
-6. Espandere o comprimere la sezione Magazzino.
-7. Impostare l'opzione Usa processi di gestione magazzino su Sì.
-    * Questa impostazione consente di eseguire i processi di organizzazione immagazzinamento avanzati utilizzando dispositivi di lavoro e mobili del magazzino.  
-8. Chiudere la pagina.
+## <a name="create-a-new-warehouse"></a><span data-ttu-id="812ec-108">Creare un nuovo magazzino</span><span class="sxs-lookup"><span data-stu-id="812ec-108">Create a new warehouse</span></span>
+1. <span data-ttu-id="812ec-109">Scegliere Magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-109">Go to Warehouses.</span></span>
+2. <span data-ttu-id="812ec-110">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-110">Click New.</span></span>
+3. <span data-ttu-id="812ec-111">Digitare un valore nel campo Magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-111">In the Warehouse field, type a value.</span></span>
+4. <span data-ttu-id="812ec-112">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="812ec-112">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="812ec-113">Digitare un valore nel campo Sito.</span><span class="sxs-lookup"><span data-stu-id="812ec-113">In the Site field, type a value.</span></span>
+6. <span data-ttu-id="812ec-114">Espandere o comprimere la sezione Magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-114">Expand or collapse the Warehouse section.</span></span>
+7. <span data-ttu-id="812ec-115">Impostare l'opzione Usa processi di gestione magazzino su Sì.</span><span class="sxs-lookup"><span data-stu-id="812ec-115">Set the Use warehouse management processes option to Yes.</span></span>
+    * <span data-ttu-id="812ec-116">Questa impostazione consente di eseguire i processi di organizzazione immagazzinamento avanzati utilizzando dispositivi di lavoro e mobili del magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-116">This setting allows you to  run advanced warehousing processes using warehouse work and mobile devices.</span></span>  
+8. <span data-ttu-id="812ec-117">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-117">Close the page.</span></span>
 
-## <a name="define-a-location-format"></a>Definire un formato ubicazione
-1. Scegliere Formati ubicazioni.
-    * I formati ubicazione sono un sistema di denominazione utilizzato per creare nomi univoci e coerenti per le diverse posizioni di collocazione usate all'interno di un magazzino. Può essere utile utilizzare separatori come parte del formato di ubicazione per semplificare l'identificazione dei componenti dell'ubicazione, ad esempio il numero di sezione. In questo esempio verrà creato un nome con quattro componenti. Ad esempio, questi possono essere sezione, scaffale, ripiano e contenitore.  
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Formato ubicazione.
-4. Digitare un valore nel campo Nome.
-5. Nel campo Descrizione segmento immettere un valore.
-    * Questo descrive ciò che rappresenta il primo componente del nome dell'ubicazione. Ad esempio, potrebbe essere Sezione.  
-6. Immettere un numero nel campo Lunghezza.
-    * Questo determina il numero di caratteri che deve avere la parte del nome dell'ubicazione. Il totale di tutti i componenti nel nome, inclusi i separatori, non può superare i 10 caratteri.  
-7. Digitare un valore nel campo Separatore.
-    * Questo determina quale carattere o simbolo viene utilizzato tra il primo e il secondo componente del nome.  
-8. Fare clic su Nuovo.
-9. Nel campo Descrizione segmento immettere un valore.
-10. Immettere un numero nel campo Lunghezza.
-11. Digitare un valore nel campo Separatore.
-12. Fare clic su Nuovo.
-13. Nel campo Descrizione segmento immettere un valore.
-14. Immettere un numero nel campo Lunghezza.
-15. Digitare un valore nel campo Separatore.
-16. Fare clic su Nuovo.
-17. Nel campo Descrizione segmento immettere un valore.
-18. Immettere un numero nel campo Lunghezza.
-19. Fare clic su Salva.
-20. Chiudere la pagina.
+## <a name="define-a-location-format"></a><span data-ttu-id="812ec-118">Definire un formato ubicazione</span><span class="sxs-lookup"><span data-stu-id="812ec-118">Define a location format</span></span>
+1. <span data-ttu-id="812ec-119">Scegliere Formati ubicazioni.</span><span class="sxs-lookup"><span data-stu-id="812ec-119">Go to Location formats.</span></span>
+    * <span data-ttu-id="812ec-120">I formati ubicazione sono un sistema di denominazione utilizzato per creare nomi univoci e coerenti per le diverse posizioni di collocazione usate all'interno di un magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-120">Location formats are a naming-system used to create unique and consistent names for the different location bin positions used within a warehouse.</span></span> <span data-ttu-id="812ec-121">Può essere utile utilizzare separatori come parte del formato di ubicazione per semplificare l'identificazione dei componenti dell'ubicazione, ad esempio il numero di sezione.</span><span class="sxs-lookup"><span data-stu-id="812ec-121">It can be useful to use separators as part of the location format to make it easier to identify components of the location such as the aisle number.</span></span> <span data-ttu-id="812ec-122">In questo esempio verrà creato un nome con quattro componenti.</span><span class="sxs-lookup"><span data-stu-id="812ec-122">In this example, we’ll create a name with four components.</span></span> <span data-ttu-id="812ec-123">Ad esempio, questi possono essere sezione, scaffale, ripiano e contenitore.</span><span class="sxs-lookup"><span data-stu-id="812ec-123">For example, these could be aisle, rack, shelf, and bin.</span></span>  
+2. <span data-ttu-id="812ec-124">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-124">Click New.</span></span>
+3. <span data-ttu-id="812ec-125">Digitare un valore nel campo Formato ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-125">In the Location format field, type a value.</span></span>
+4. <span data-ttu-id="812ec-126">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="812ec-126">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="812ec-127">Nel campo Descrizione segmento immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-127">In the Segment description field, type a value.</span></span>
+    * <span data-ttu-id="812ec-128">Questo descrive ciò che rappresenta il primo componente del nome dell'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-128">This describes what the first component of the location name represents.</span></span> <span data-ttu-id="812ec-129">Ad esempio, potrebbe essere Sezione.</span><span class="sxs-lookup"><span data-stu-id="812ec-129">For example, it could be Aisle.</span></span>  
+6. <span data-ttu-id="812ec-130">Immettere un numero nel campo Lunghezza.</span><span class="sxs-lookup"><span data-stu-id="812ec-130">In the Length field, enter a number.</span></span>
+    * <span data-ttu-id="812ec-131">Questo determina il numero di caratteri che deve avere la parte del nome dell'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-131">This determines how many characters this part of the location name must have.</span></span> <span data-ttu-id="812ec-132">Il totale di tutti i componenti nel nome, inclusi i separatori, non può superare i 10 caratteri.</span><span class="sxs-lookup"><span data-stu-id="812ec-132">Note that the total of all components in the name, including the separators, cannot exceed 10 characters.</span></span>  
+7. <span data-ttu-id="812ec-133">Digitare un valore nel campo Separatore.</span><span class="sxs-lookup"><span data-stu-id="812ec-133">In the Separator field, type a value.</span></span>
+    * <span data-ttu-id="812ec-134">Questo determina quale carattere o simbolo viene utilizzato tra il primo e il secondo componente del nome.</span><span class="sxs-lookup"><span data-stu-id="812ec-134">This determines which character or symbol is used between the first and second component of the name.</span></span>  
+8. <span data-ttu-id="812ec-135">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-135">Click New.</span></span>
+9. <span data-ttu-id="812ec-136">Nel campo Descrizione segmento immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-136">In the Segment description field, type a value.</span></span>
+10. <span data-ttu-id="812ec-137">Immettere un numero nel campo Lunghezza.</span><span class="sxs-lookup"><span data-stu-id="812ec-137">In the Length field, enter a number.</span></span>
+11. <span data-ttu-id="812ec-138">Digitare un valore nel campo Separatore.</span><span class="sxs-lookup"><span data-stu-id="812ec-138">In the Separator field, type a value.</span></span>
+12. <span data-ttu-id="812ec-139">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-139">Click New.</span></span>
+13. <span data-ttu-id="812ec-140">Nel campo Descrizione segmento immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-140">In the Segment description field, type a value.</span></span>
+14. <span data-ttu-id="812ec-141">Immettere un numero nel campo Lunghezza.</span><span class="sxs-lookup"><span data-stu-id="812ec-141">In the Length field, enter a number.</span></span>
+15. <span data-ttu-id="812ec-142">Digitare un valore nel campo Separatore.</span><span class="sxs-lookup"><span data-stu-id="812ec-142">In the Separator field, type a value.</span></span>
+16. <span data-ttu-id="812ec-143">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-143">Click New.</span></span>
+17. <span data-ttu-id="812ec-144">Nel campo Descrizione segmento immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-144">In the Segment description field, type a value.</span></span>
+18. <span data-ttu-id="812ec-145">Immettere un numero nel campo Lunghezza.</span><span class="sxs-lookup"><span data-stu-id="812ec-145">In the Length field, enter a number.</span></span>
+19. <span data-ttu-id="812ec-146">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="812ec-146">Click Save.</span></span>
+20. <span data-ttu-id="812ec-147">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-147">Close the page.</span></span>
 
-## <a name="define-location-types"></a>Definire tipi di ubicazione
-1. Scegliere Tipi di ubicazione.
-    * I tipi di ubicazione possono essere utilizzati come opzioni di filtro per verificare i diversi processi di gestione magazzino. Come minimo, è necessario creare tipi di ubicazione di gestione temporanea e spedizione finale per definire il processo in uscita di gestione magazzino.  
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Tipo di ubicazione.
-4. Nel campo Descrizione digitare un valore.
-5. Chiudere la pagina.
+## <a name="define-location-types"></a><span data-ttu-id="812ec-148">Definire tipi di ubicazione</span><span class="sxs-lookup"><span data-stu-id="812ec-148">Define location types</span></span>
+1. <span data-ttu-id="812ec-149">Scegliere Tipi di ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-149">Go to Location types.</span></span>
+    * <span data-ttu-id="812ec-150">I tipi di ubicazione possono essere utilizzati come opzioni di filtro per verificare i diversi processi di gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-150">Location types can be used as filtering options to control the different warehouse management processes.</span></span> <span data-ttu-id="812ec-151">Come minimo, è necessario creare tipi di ubicazione di gestione temporanea e spedizione finale per definire il processo in uscita di gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-151">As a minimum, you need to create staging and final shipping location types in order to define the outbound warehouse management process.</span></span>  
+2. <span data-ttu-id="812ec-152">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-152">Click New.</span></span>
+3. <span data-ttu-id="812ec-153">Digitare un valore nel campo Tipo di ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-153">In the Location type field, type a value.</span></span>
+4. <span data-ttu-id="812ec-154">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-154">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="812ec-155">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-155">Close the page.</span></span>
 
-## <a name="define-location-profile"></a>Definire il profilo di ubicazione
-1. Scegliere Profili ubicazioni.
-    * La definizione dei profili di ubicazione è molto importante. La capacità di ubicazioni raggruppate può essere controllata qui così come i criteri relativi a quale inventario viene immagazzinato e a come viene immagazzinato. I profili di ubicazione possono essere utilizzati come opzioni di filtro per verificare i diversi processi di gestione magazzino. Come minimo, è necessario creare un profilo di ubicazione per attivare i processi di gestione magazzino.  
-2. Fare clic su Nuovo.
-3. Nel campo ID profilo ubicazione digitare un valore.
-4. Digitare un valore nel campo Nome.
-5. Nel campo Formato ubicazione fare clic sul pulsante a discesa per aprire la ricerca.
-6. Trovare e selezionare il record desiderato nell'elenco.
-7. Nell'elenco fare clic sul collegamento nella riga selezionata.
-8. Nel campo Tipo di ubicazione fare clic sul pulsante a discesa per aprire la ricerca.
-9. Nell'elenco trovare e selezionare il record desiderato.
-10. Nell'elenco fare clic sul collegamento nella riga selezionata.
-11. Selezionare o deselezionare la casella di controllo Consenti stati inventario combinati.
-    * Abilitare questa opzione per consentire la combinazione di valori di stato dell'inventario nelle ubicazioni che verranno raggruppate in base a questo profilo di ubicazione.  
-12. Selezionare o deselezionare la casella di controllo Ignora regole per giorni di batch.
-    * Abilitare questa opzione per ignorare la regola di quanti giorni possono differire le date di scadenza del batch di magazzino, per consentire la combinazione dei batch di magazzino che non obbediscono a questa regola.  
-13. Selezionare o deselezionare la casella di controllo Consenti conteggio ciclo.
-    * Abilitare questa opzione per consentire l'esecuzione di cicli di contabilità in tutte le ubicazioni che verranno raggruppate in base a questo profilo di ubicazione.  
-14. Espandere o comprimere la sezione Dimensioni.
-    * La scheda Dimensioni consente di definire i parametri e i metodi per abilitare i calcoli precisi della capacità di carico all'interno di ciascuna ubicazione.  
-15. Chiudere la pagina.
+## <a name="define-location-profile"></a><span data-ttu-id="812ec-156">Definire il profilo di ubicazione</span><span class="sxs-lookup"><span data-stu-id="812ec-156">Define location profile</span></span>
+1. <span data-ttu-id="812ec-157">Scegliere Profili ubicazioni.</span><span class="sxs-lookup"><span data-stu-id="812ec-157">Go to Location profiles.</span></span>
+    * <span data-ttu-id="812ec-158">La definizione dei profili di ubicazione è molto importante.</span><span class="sxs-lookup"><span data-stu-id="812ec-158">The definition of location profiles is very important.</span></span> <span data-ttu-id="812ec-159">La capacità di ubicazioni raggruppate può essere controllata qui così come i criteri relativi a quale inventario viene immagazzinato e a come viene immagazzinato.</span><span class="sxs-lookup"><span data-stu-id="812ec-159">Grouped locations capacity can be controlled here, as well as the policies related to what inventory gets stored, and how it is stored.</span></span> <span data-ttu-id="812ec-160">I profili di ubicazione possono essere utilizzati come opzioni di filtro per verificare i diversi processi di gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-160">Location profiles can be used as filtering options to control the different warehouse management processes.</span></span> <span data-ttu-id="812ec-161">Come minimo, è necessario creare un profilo di ubicazione per attivare i processi di gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-161">As a minimum, you must create a user location profile in order to enable the warehouse management processes.</span></span>  
+2. <span data-ttu-id="812ec-162">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-162">Click New.</span></span>
+3. <span data-ttu-id="812ec-163">Nel campo ID profilo ubicazione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-163">In the Location profile ID field, type a value.</span></span>
+4. <span data-ttu-id="812ec-164">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="812ec-164">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="812ec-165">Nel campo Formato ubicazione fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-165">In the Location format field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="812ec-166">Trovare e selezionare il record desiderato nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="812ec-166">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="812ec-167">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-167">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="812ec-168">Nel campo Tipo di ubicazione fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-168">In the Location type field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="812ec-169">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="812ec-169">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="812ec-170">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-170">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="812ec-171">Selezionare o deselezionare la casella di controllo Consenti stati inventario combinati.</span><span class="sxs-lookup"><span data-stu-id="812ec-171">Select or clear the Allow mixed  inventory statuses check box.</span></span>
+    * <span data-ttu-id="812ec-172">Abilitare questa opzione per consentire la combinazione di valori di stato dell'inventario nelle ubicazioni che verranno raggruppate in base a questo profilo di ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-172">Enable this option if you want to allow mixed inventory status values in the locations that are going to be grouped by this location profile.</span></span>  
+12. <span data-ttu-id="812ec-173">Selezionare o deselezionare la casella di controllo Ignora regole per giorni di batch.</span><span class="sxs-lookup"><span data-stu-id="812ec-173">Select or clear the Override rules for batch days check box.</span></span>
+    * <span data-ttu-id="812ec-174">Abilitare questa opzione per ignorare la regola di quanti giorni possono differire le date di scadenza del batch di magazzino, per consentire la combinazione dei batch di magazzino che non obbediscono a questa regola.</span><span class="sxs-lookup"><span data-stu-id="812ec-174">Enable this option to override the rule for how many days the inventory batch expiration dates can differ, to allow mixing of inventory batches that don’t obeying this rule.</span></span>  
+13. <span data-ttu-id="812ec-175">Selezionare o deselezionare la casella di controllo Consenti conteggio ciclo.</span><span class="sxs-lookup"><span data-stu-id="812ec-175">Select or clear the Allow cycle counting check box.</span></span>
+    * <span data-ttu-id="812ec-176">Abilitare questa opzione per consentire l'esecuzione di cicli di contabilità in tutte le ubicazioni che verranno raggruppate in base a questo profilo di ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-176">Enable this option to allow cycle counting processing in all the locations that are going to be grouped by this location profile.</span></span>  
+14. <span data-ttu-id="812ec-177">Espandere o comprimere la sezione Dimensioni.</span><span class="sxs-lookup"><span data-stu-id="812ec-177">Expand or collapse the Dimensions section.</span></span>
+    * <span data-ttu-id="812ec-178">La scheda Dimensioni consente di definire i parametri e i metodi per abilitare i calcoli precisi della capacità di carico all'interno di ciascuna ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-178">The Dimensions tab allows you to define parameters and methods to enable precise calculations of the load capacity within each of the locations.</span></span>  
+15. <span data-ttu-id="812ec-179">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-179">Close the page.</span></span>
 
-## <a name="enable-warehouse-management-parameters"></a>Attivare i parametri di gestione magazzino
-1. Scegliere Parametri di gestione magazzino.
-    * Per poter elaborare il lavoro del magazzino, è necessario impostare i parametri per il profilo di ubicazione dell'utente, il tipo di ubicazione di gestione temporanea e il tipo di ubicazione della spedizione finale. Non appena il processo in uscita termina in corrispondenza del tipo di ubicazione di spedizione finale definito, le transazioni in uscita correlate verranno aggiornato a "Prelevate".  
-2. Espandere o comprimere la sezione Profili ubicazione.
-3. Nel campo Ubicazione utente fare clic sul pulsante a discesa per aprire la ricerca.
-4. Nell'elenco fare clic sul collegamento nella riga selezionata.
-5. Espandere o comprimere la sezione Tipi di ubicazione.
-6. Nel campo Tipo di ubicazione gestione temporanea fare clic sul pulsante a discesa per aprire la ricerca.
-7. Nell'elenco fare clic sul collegamento nella riga selezionata.
-8. Nel campo Tipo di ubicazione di spedizione finale fare clic sul pulsante a discesa per aprire la ricerca.
-9. Nell'elenco fare clic sul collegamento nella riga selezionata.
-10. Chiudere la pagina.
+## <a name="enable-warehouse-management-parameters"></a><span data-ttu-id="812ec-180">Attivare i parametri di gestione magazzino</span><span class="sxs-lookup"><span data-stu-id="812ec-180">Enable warehouse management parameters</span></span>
+1. <span data-ttu-id="812ec-181">Scegliere Parametri di gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-181">Go to Warehouse management parameters.</span></span>
+    * <span data-ttu-id="812ec-182">Per poter elaborare il lavoro del magazzino, è necessario impostare i parametri per il profilo di ubicazione dell'utente, il tipo di ubicazione di gestione temporanea e il tipo di ubicazione della spedizione finale. Non appena il processo in uscita termina in corrispondenza del tipo di ubicazione di spedizione finale definito, le transazioni in uscita correlate verranno aggiornato a "Prelevate".</span><span class="sxs-lookup"><span data-stu-id="812ec-182">To be able to process warehouse work, you need to set parameters for the user location profile the staging location type, and the final shipping location type  As soon as the outbound process ends at the final shipping location type that you define, the related outbound transactions will be updated to ‘Picked’.</span></span>  
+2. <span data-ttu-id="812ec-183">Espandere o comprimere la sezione Profili ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-183">Expand or collapse the Location profiles section.</span></span>
+3. <span data-ttu-id="812ec-184">Nel campo Ubicazione utente fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-184">In the User location field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="812ec-185">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-185">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="812ec-186">Espandere o comprimere la sezione Tipi di ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-186">Expand or collapse the Location types section.</span></span>
+6. <span data-ttu-id="812ec-187">Nel campo Tipo di ubicazione gestione temporanea fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-187">In the Staging location type field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="812ec-188">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-188">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="812ec-189">Nel campo Tipo di ubicazione di spedizione finale fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-189">In the Final shipping location type field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="812ec-190">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-190">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="812ec-191">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-191">Close the page.</span></span>
 
-## <a name="define-warehouse-zone-groups"></a>Definire i gruppi di zone magazzinaggio
-1. Scegliere Gruppi di zone magazzinaggio.
-    * Le zone magazzinaggio possono essere utilizzate come opzioni di filtro per controllare i diversi processi di gestione magazzino. È necessario creare un gruppo di zone prima di poter definire una zona.  
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo ID gruppo zone.
-4. Digitare un valore nel campo Nome gruppo di zone.
-5. Chiudere la pagina.
+## <a name="define-warehouse-zone-groups"></a><span data-ttu-id="812ec-192">Definire i gruppi di zone magazzinaggio</span><span class="sxs-lookup"><span data-stu-id="812ec-192">Define warehouse zone groups</span></span>
+1. <span data-ttu-id="812ec-193">Scegliere Gruppi di zone magazzinaggio.</span><span class="sxs-lookup"><span data-stu-id="812ec-193">Go to Warehouse zone groups.</span></span>
+    * <span data-ttu-id="812ec-194">Le zone magazzinaggio possono essere utilizzate come opzioni di filtro per controllare i diversi processi di gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-194">Warehouse zones can be used as filters for options to control the different warehouse management processes.</span></span> <span data-ttu-id="812ec-195">È necessario creare un gruppo di zone prima di poter definire una zona.</span><span class="sxs-lookup"><span data-stu-id="812ec-195">You need to create a zone group before you can define a zone.</span></span>  
+2. <span data-ttu-id="812ec-196">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-196">Click New.</span></span>
+3. <span data-ttu-id="812ec-197">Digitare un valore nel campo ID gruppo zone.</span><span class="sxs-lookup"><span data-stu-id="812ec-197">In the Zone group ID field, type a value.</span></span>
+4. <span data-ttu-id="812ec-198">Digitare un valore nel campo Nome gruppo di zone.</span><span class="sxs-lookup"><span data-stu-id="812ec-198">In the Zone group name field, type a value.</span></span>
+5. <span data-ttu-id="812ec-199">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-199">Close the page.</span></span>
 
-## <a name="define-warehouse-zones"></a>Definire le zone magazzinaggio
-1. Scegliere Zone.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo ID zona.
-4. Digitare un valore nel campo Nome zona.
-5. Nel campo ID gruppo zone fare clic sul pulsante a discesa per aprire la ricerca.
-6. Trovare e selezionare il record desiderato nell'elenco.
-7. Nell'elenco fare clic sul collegamento nella riga selezionata.
-8. Chiudere la pagina.
+## <a name="define-warehouse-zones"></a><span data-ttu-id="812ec-200">Definire le zone magazzinaggio</span><span class="sxs-lookup"><span data-stu-id="812ec-200">Define Warehouse zones</span></span>
+1. <span data-ttu-id="812ec-201">Scegliere Zone.</span><span class="sxs-lookup"><span data-stu-id="812ec-201">Go to Zones.</span></span>
+2. <span data-ttu-id="812ec-202">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-202">Click New.</span></span>
+3. <span data-ttu-id="812ec-203">Digitare un valore nel campo ID zona.</span><span class="sxs-lookup"><span data-stu-id="812ec-203">In the Zone ID field, type a value.</span></span>
+4. <span data-ttu-id="812ec-204">Digitare un valore nel campo Nome zona.</span><span class="sxs-lookup"><span data-stu-id="812ec-204">In the Zone name field, type a value.</span></span>
+5. <span data-ttu-id="812ec-205">Nel campo ID gruppo zone fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-205">In the Zone group ID field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="812ec-206">Trovare e selezionare il record desiderato nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="812ec-206">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="812ec-207">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-207">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="812ec-208">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-208">Close the page.</span></span>
 
-## <a name="create-locations-using-the-location-setup-wizard"></a>Creare le ubicazioni utilizzando l'Impostazione guidata ubicazione
-1. Scegliere Impostazione guidata ubicazione.
-2. Nel campo Magazzino fare clic sul pulsante a discesa per aprire la ricerca.
-3. Trovare e selezionare il record desiderato nell'elenco.
-4. Nell'elenco fare clic sul collegamento nella riga selezionata.
-5. Nel campo ID zona fare clic sul pulsante a discesa per aprire la ricerca.
-6. Trovare e selezionare il record desiderato nell'elenco.
-7. Nell'elenco fare clic sul collegamento nella riga selezionata.
-8. Nel campo ID profilo ubicazione fare clic sul pulsante a discesa per aprire la ricerca.
-9. Trovare e selezionare il record desiderato nell'elenco.
-10. Nell'elenco fare clic sul collegamento nella riga selezionata.
-11. Nell'elenco contrassegnare la riga selezionata.
-12. Immettere un numero nel campo Dal numero.
-    * I campi Dal numero e Al numero definiscono quante ubicazioni verranno create. Ad esempio, se si imposta Da numero su 1 e Al numero su 3 per tutte e quattro le righe nel formato di ubicazione, verranno create 81 ubicazioni (3x3x3x3).  
-13. Immettere un numero nel campo Al numero.
-14. Nell'elenco trovare e selezionare il record desiderato.
-15. Immettere un numero nel campo Dal numero.
-16. Immettere un numero nel campo Al numero.
-17. Trovare e selezionare il record desiderato nell'elenco.
-18. Immettere un numero nel campo Dal numero.
-19. Immettere un numero nel campo Al numero.
-20. Trovare e selezionare il record desiderato nell'elenco.
-21. Immettere un numero nel campo Dal numero.
-22. Immettere un numero nel campo Al numero.
-23. Fare clic su Crea.
+## <a name="create-locations-using-the-location-setup-wizard"></a><span data-ttu-id="812ec-209">Creare le ubicazioni utilizzando l'Impostazione guidata ubicazione</span><span class="sxs-lookup"><span data-stu-id="812ec-209">Create locations using the Location setup wizard</span></span>
+1. <span data-ttu-id="812ec-210">Scegliere Impostazione guidata ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-210">Go to Location setup wizard.</span></span>
+2. <span data-ttu-id="812ec-211">Nel campo Magazzino fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-211">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="812ec-212">Trovare e selezionare il record desiderato nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="812ec-212">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="812ec-213">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-213">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="812ec-214">Nel campo ID zona fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-214">In the Zone ID field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="812ec-215">Trovare e selezionare il record desiderato nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="812ec-215">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="812ec-216">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-216">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="812ec-217">Nel campo ID profilo ubicazione fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-217">In the Location profile ID field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="812ec-218">Trovare e selezionare il record desiderato nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="812ec-218">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="812ec-219">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-219">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="812ec-220">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-220">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="812ec-221">Immettere un numero nel campo Dal numero.</span><span class="sxs-lookup"><span data-stu-id="812ec-221">In the From number field, enter a number.</span></span>
+    * <span data-ttu-id="812ec-222">I campi Dal numero e Al numero definiscono quante ubicazioni verranno create.</span><span class="sxs-lookup"><span data-stu-id="812ec-222">The From number and To number fields define how many locations will be created.</span></span> <span data-ttu-id="812ec-223">Ad esempio, se si imposta Da numero su 1 e Al numero su 3 per tutte e quattro le righe nel formato di ubicazione, verranno create 81 ubicazioni (3x3x3x3).</span><span class="sxs-lookup"><span data-stu-id="812ec-223">For example, if you set From number to 1 and To number to 3 for all four lines in the location format, 81 locations will be created (3x3x3x3).</span></span>  
+13. <span data-ttu-id="812ec-224">Immettere un numero nel campo Al numero.</span><span class="sxs-lookup"><span data-stu-id="812ec-224">In the To number field, enter a number.</span></span>
+14. <span data-ttu-id="812ec-225">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="812ec-225">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="812ec-226">Immettere un numero nel campo Dal numero.</span><span class="sxs-lookup"><span data-stu-id="812ec-226">In the From number field, enter a number.</span></span>
+16. <span data-ttu-id="812ec-227">Immettere un numero nel campo Al numero.</span><span class="sxs-lookup"><span data-stu-id="812ec-227">In the To number field, enter a number.</span></span>
+17. <span data-ttu-id="812ec-228">Trovare e selezionare il record desiderato nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="812ec-228">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="812ec-229">Immettere un numero nel campo Dal numero.</span><span class="sxs-lookup"><span data-stu-id="812ec-229">In the From number field, enter a number.</span></span>
+19. <span data-ttu-id="812ec-230">Immettere un numero nel campo Al numero.</span><span class="sxs-lookup"><span data-stu-id="812ec-230">In the To number field, enter a number.</span></span>
+20. <span data-ttu-id="812ec-231">Trovare e selezionare il record desiderato nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="812ec-231">In the list, find and select the desired record.</span></span>
+21. <span data-ttu-id="812ec-232">Immettere un numero nel campo Dal numero.</span><span class="sxs-lookup"><span data-stu-id="812ec-232">In the From number field, enter a number.</span></span>
+22. <span data-ttu-id="812ec-233">Immettere un numero nel campo Al numero.</span><span class="sxs-lookup"><span data-stu-id="812ec-233">In the To number field, enter a number.</span></span>
+23. <span data-ttu-id="812ec-234">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="812ec-234">Click Create.</span></span>
 
-## <a name="create-locations-manually"></a>Creare ubicazioni manualmente
-1. Scegliere Ubicazioni.
-    * Manualmente la creazione delle ubicazioni all'interno di un magazzino può essere effettuata facilmente. Il nome dell'ubicazione e l'id del profilo dell'ubicazione sono valori obbligatori.  
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Magazzino.
-4. Digitare un valore nel campo Ubicazione.
-    * Si sta creando una nuova ubicazione in questo campo, pertanto è necessario immettere un nuovo nome univoco, anziché selezionarne uno esistente.  
-5. Nel campo ID profilo ubicazione digitare un valore.
-6. Chiudere la pagina.
+## <a name="create-locations-manually"></a><span data-ttu-id="812ec-235">Creare ubicazioni manualmente</span><span class="sxs-lookup"><span data-stu-id="812ec-235">Create locations manually</span></span>
+1. <span data-ttu-id="812ec-236">Scegliere Ubicazioni.</span><span class="sxs-lookup"><span data-stu-id="812ec-236">Go to Locations.</span></span>
+    * <span data-ttu-id="812ec-237">Manualmente la creazione delle ubicazioni all'interno di un magazzino può essere effettuata facilmente.</span><span class="sxs-lookup"><span data-stu-id="812ec-237">Manually creation of locations within a warehouse can easily be done.</span></span> <span data-ttu-id="812ec-238">Il nome dell'ubicazione e l'id del profilo dell'ubicazione sono valori obbligatori.</span><span class="sxs-lookup"><span data-stu-id="812ec-238">The location name and the Location profile ID are mandatory values.</span></span>  
+2. <span data-ttu-id="812ec-239">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-239">Click New.</span></span>
+3. <span data-ttu-id="812ec-240">Digitare un valore nel campo Magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-240">In the Warehouse field, type a value.</span></span>
+4. <span data-ttu-id="812ec-241">Digitare un valore nel campo Ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-241">In the Location field, type a value.</span></span>
+    * <span data-ttu-id="812ec-242">Si sta creando una nuova ubicazione in questo campo, pertanto è necessario immettere un nuovo nome univoco, anziché selezionarne uno esistente.</span><span class="sxs-lookup"><span data-stu-id="812ec-242">Note that you're creating a new location here, so you need to type a new unique name, rather than selecting an existing one.</span></span>  
+5. <span data-ttu-id="812ec-243">Nel campo ID profilo ubicazione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-243">In the Location profile ID field, type a value.</span></span>
+6. <span data-ttu-id="812ec-244">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-244">Close the page.</span></span>
 
-## <a name="define-pack-size-categories"></a>Definire le categorie dimensioni collo
-1. Scegliere Categorie dimensioni collo.
-    * Le categorie di dimensione del collo possono essere utilizzate per raggruppare gli articoli del gruppo con dimensioni di imballaggio fisico simili. In questo esempio la categoria di dimensione del collo verrà utilizzata per verificare la capacità all'ubicazione di prelievo in una zona specifica del magazzino. L'ID categoria di dimensione del collo deve essere assegnato all'entità prodotto rilasciata per utilizzarlo nell'elaborazione dei limiti di stoccaggio.  
-2. Fare clic su Nuovo.
-3. Nel campo ID categoria dimensioni collo immettere un valore.
-4. Nel campo Nome categoria dimensioni collo immettere un valore.
-5. Chiudere la pagina.
+## <a name="define-pack-size-categories"></a><span data-ttu-id="812ec-245">Definire le categorie dimensioni collo</span><span class="sxs-lookup"><span data-stu-id="812ec-245">Define Pack size categories</span></span>
+1. <span data-ttu-id="812ec-246">Scegliere Categorie dimensioni collo.</span><span class="sxs-lookup"><span data-stu-id="812ec-246">Go to Pack size categories.</span></span>
+    * <span data-ttu-id="812ec-247">Le categorie di dimensione del collo possono essere utilizzate per raggruppare gli articoli del gruppo con dimensioni di imballaggio fisico simili.</span><span class="sxs-lookup"><span data-stu-id="812ec-247">Pack size categories can be used to group items that have similar physical packing sizes.</span></span> <span data-ttu-id="812ec-248">In questo esempio la categoria di dimensione del collo verrà utilizzata per verificare la capacità all'ubicazione di prelievo in una zona specifica del magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-248">In this example the pack size category will be used to control the capacity at the picking locations within a specific zone of the warehouse.</span></span> <span data-ttu-id="812ec-249">L'ID categoria di dimensione del collo deve essere assegnato all'entità prodotto rilasciata per utilizzarlo nell'elaborazione dei limiti di stoccaggio.</span><span class="sxs-lookup"><span data-stu-id="812ec-249">Please note that the pack size category ID must be assigned to the released product entity in order to be used as part of the stocking limits processing.</span></span>  
+2. <span data-ttu-id="812ec-250">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-250">Click New.</span></span>
+3. <span data-ttu-id="812ec-251">Nel campo ID categoria dimensioni collo immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-251">In the Pack size category ID field, type a value.</span></span>
+4. <span data-ttu-id="812ec-252">Nel campo Nome categoria dimensioni collo immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-252">In the Pack size category name field, type a value.</span></span>
+5. <span data-ttu-id="812ec-253">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-253">Close the page.</span></span>
 
-## <a name="define-location-stocking-limits"></a>Definire i limiti stoccaggio ubicazione
-1. Scegliere Limiti stoccaggio ubicazione.
-    * I limiti di stoccaggio dell'ubicazione consentono di garantire che il lavoro non venga creato per richiedere che l'inventario venga inserito in un'ubicazione che non ha la capacità fisica di contenerlo.  
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Magazzino.
-4. Nel campo ID profilo ubicazione digitare un valore.
-5. Nel campo ID categoria dimensioni collo immettere un valore.
-6. Nel campo Quantità immettere un numero.
-7. Fare clic su Salva.
-8. Chiudere la pagina.
+## <a name="define-location-stocking-limits"></a><span data-ttu-id="812ec-254">Definire i limiti stoccaggio ubicazione</span><span class="sxs-lookup"><span data-stu-id="812ec-254">Define location stocking limits</span></span>
+1. <span data-ttu-id="812ec-255">Scegliere Limiti stoccaggio ubicazione.</span><span class="sxs-lookup"><span data-stu-id="812ec-255">Go to Location stocking limits.</span></span>
+    * <span data-ttu-id="812ec-256">I limiti di stoccaggio dell'ubicazione consentono di garantire che il lavoro non venga creato per richiedere che l'inventario venga inserito in un'ubicazione che non ha la capacità fisica di contenerlo.</span><span class="sxs-lookup"><span data-stu-id="812ec-256">Location stocking limits help to make sure that work isn't created to request that inventory to be put in a location that doesn't have the physical capacity to carry the inventory.</span></span>  
+2. <span data-ttu-id="812ec-257">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-257">Click New.</span></span>
+3. <span data-ttu-id="812ec-258">Digitare un valore nel campo Magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-258">In the Warehouse field, type a value.</span></span>
+4. <span data-ttu-id="812ec-259">Nel campo ID profilo ubicazione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-259">In the Location profile ID field, type a value.</span></span>
+5. <span data-ttu-id="812ec-260">Nel campo ID categoria dimensioni collo immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-260">In the Pack size category ID field, type a value.</span></span>
+6. <span data-ttu-id="812ec-261">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="812ec-261">In the Quantity field, enter a number.</span></span>
+7. <span data-ttu-id="812ec-262">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="812ec-262">Click Save.</span></span>
+8. <span data-ttu-id="812ec-263">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-263">Close the page.</span></span>
 
-## <a name="define-fixed-picking-locations"></a>Definire le ubicazioni di prelievo fisse
-1. Scegliere Ubicazioni fisse.
-    * È possibile definire le ubicazioni da utilizzare per prodotto o per variante prodotto. È possibile creare più ubicazioni fisse per lo stesso prodotto nello stesso magazzino.  
-2. Fare clic su Nuovo.
-3. Nel campo Numero articolo, digitare un valore.
-4. Digitare un valore nel campo Magazzino.
-5. Nel campo Ubicazione fare clic sul pulsante a discesa per aprire la ricerca.
-6. Nell'elenco fare clic sul collegamento nella riga selezionata.
-7. Chiudere la pagina.
+## <a name="define-fixed-picking-locations"></a><span data-ttu-id="812ec-264">Definire le ubicazioni di prelievo fisse</span><span class="sxs-lookup"><span data-stu-id="812ec-264">Define fixed picking locations</span></span>
+1. <span data-ttu-id="812ec-265">Scegliere Ubicazioni fisse.</span><span class="sxs-lookup"><span data-stu-id="812ec-265">Go to Fixed locations.</span></span>
+    * <span data-ttu-id="812ec-266">È possibile definire le ubicazioni da utilizzare per prodotto o per variante prodotto.</span><span class="sxs-lookup"><span data-stu-id="812ec-266">You can define the locations to be used per product or per product variant.</span></span> <span data-ttu-id="812ec-267">È possibile creare più ubicazioni fisse per lo stesso prodotto nello stesso magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-267">It is possible to create multiple fixed locations for the same product within the same warehouse.</span></span>  
+2. <span data-ttu-id="812ec-268">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="812ec-268">Click New.</span></span>
+3. <span data-ttu-id="812ec-269">Nel campo Numero articolo, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="812ec-269">In the Item number field, type a value.</span></span>
+4. <span data-ttu-id="812ec-270">Digitare un valore nel campo Magazzino.</span><span class="sxs-lookup"><span data-stu-id="812ec-270">In the Warehouse field, type a value.</span></span>
+5. <span data-ttu-id="812ec-271">Nel campo Ubicazione fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="812ec-271">In the Location field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="812ec-272">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="812ec-272">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="812ec-273">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="812ec-273">Close the page.</span></span>
 
 

@@ -19,31 +19,31 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: f27e332e5a8028055903054a6175baafd224abe9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 46aa385d14f913a24e1cc3c4cc2fd00243b30e75
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="analyze-sales-trends-and-patterns"></a>Eseguire analisi delle tendenze e dei criteri di vendita
+# <a name="analyze-sales-trends-and-patterns"></a><span data-ttu-id="8c25e-103">Eseguire analisi delle tendenze e dei criteri di vendita</span><span class="sxs-lookup"><span data-stu-id="8c25e-103">Analyze sales trends and patterns</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-È possibile studiare schemi e tendenze di vendita in tempo reale in Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="8c25e-104">È possibile studiare schemi e tendenze di vendita in tempo reale in Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="8c25e-104">You can study sales trends and patterns in real time in Microsoft Dynamics 365 for Retail.</span></span>
 
-Come parte di Dynamics 365 for Retail, gli utenti possono studiare schemi e tendenze di vendita in tempo reale in livelli diversi della gerarchia organizzativa in un periodo di anni utilizzando il **Report vendite canale per anno**. È possibile aprire questo report da qualsiasi delle seguenti posizioni:
+<span data-ttu-id="8c25e-105">Come parte di Dynamics 365 for Retail, gli utenti possono studiare schemi e tendenze di vendita in tempo reale in livelli diversi della gerarchia organizzativa in un periodo di anni utilizzando il **Report vendite canale per anno**.</span><span class="sxs-lookup"><span data-stu-id="8c25e-105">As part of Dynamics 365 for Retail, users can study sales trends and patterns in real time across different levels of the organization hierarchy over a period of years by using the out-of-box **Channel sales by year** report.</span></span> <span data-ttu-id="8c25e-106">È possibile aprire questo report da qualsiasi delle seguenti posizioni:</span><span class="sxs-lookup"><span data-stu-id="8c25e-106">You can open this report from any of the following locations:</span></span>
 
--   Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**
--   Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**
--   Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report vendite canale per anno**
+-   <span data-ttu-id="8c25e-107">Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**</span><span class="sxs-lookup"><span data-stu-id="8c25e-107">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+-   <span data-ttu-id="8c25e-108">Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**</span><span class="sxs-lookup"><span data-stu-id="8c25e-108">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+-   <span data-ttu-id="8c25e-109">Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report vendite canale per anno**</span><span class="sxs-lookup"><span data-stu-id="8c25e-109">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by year report**</span></span>
 
-Gli utenti possono anche studiare schemi e tendenze di vendita su base oraria tra livelli diversi della gerarchia organizzativa in un periodo di tempo selezionato utilizzando il **Report vendite canale per ora**. È possibile aprire questo report da qualsiasi delle seguenti posizioni:
+<span data-ttu-id="8c25e-110">Gli utenti possono anche studiare schemi e tendenze di vendita su base oraria tra livelli diversi della gerarchia organizzativa in un periodo di tempo selezionato utilizzando il **Report vendite canale per ora**.</span><span class="sxs-lookup"><span data-stu-id="8c25e-110">Users can also study sales trends and patterns by hour across different levels of the organization hierarchy over a selected period by using the out-of-box **Channel sales by hour** report.</span></span> <span data-ttu-id="8c25e-111">È possibile aprire questo report da qualsiasi delle seguenti posizioni:</span><span class="sxs-lookup"><span data-stu-id="8c25e-111">You can open this report from any of the following locations:</span></span>
 
--   Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per ora**
--   Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per ora**
--   Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report vendite canale per ora**
+-   <span data-ttu-id="8c25e-112">Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per ora**</span><span class="sxs-lookup"><span data-stu-id="8c25e-112">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+-   <span data-ttu-id="8c25e-113">Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per ora**</span><span class="sxs-lookup"><span data-stu-id="8c25e-113">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+-   <span data-ttu-id="8c25e-114">Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report vendite canale per ora**</span><span class="sxs-lookup"><span data-stu-id="8c25e-114">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by hour report**</span></span>
 
 
 

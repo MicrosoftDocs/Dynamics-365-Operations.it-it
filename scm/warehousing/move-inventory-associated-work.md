@@ -14,49 +14,49 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: d2db0431a3f749cbdaf35cc5108851f1e116bc96
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4b8d320a6faae24fb3d8c6d3952e3263b97f52c1
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Movimento di magazzino e lavoro associato in Gestione magazzino
+# <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a><span data-ttu-id="a201b-103">Movimento di magazzino e lavoro associato in Gestione magazzino</span><span class="sxs-lookup"><span data-stu-id="a201b-103">Movement of inventory with associated work in Warehouse management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Utilizzo il movimento dell'inventario, è possibile decidere quali lavoratori del magazzino sono autorizzati a spostare le scorte prenotate. In questo modo si ottiene una flessibilità nei magazzini regolamentati in cui è possibile scegliere di non consentire a un lavoratore di selezionare una nuova ubicazione di prelievo per il lavoro del prelievo che è già creato. Consente inoltre a un responsabile del magazzino di verificare quali competenze dovrebbero avere alcuni lavoratori con meno esperienza.
+<span data-ttu-id="a201b-104">Utilizzo il movimento dell'inventario, è possibile decidere quali lavoratori del magazzino sono autorizzati a spostare le scorte prenotate.</span><span class="sxs-lookup"><span data-stu-id="a201b-104">Using movement of inventory, you can decide which warehouse workers are allowed to move reserved inventory.</span></span> <span data-ttu-id="a201b-105">In questo modo si ottiene una flessibilità nei magazzini regolamentati in cui è possibile scegliere di non consentire a un lavoratore di selezionare una nuova ubicazione di prelievo per il lavoro del prelievo che è già creato.</span><span class="sxs-lookup"><span data-stu-id="a201b-105">This provides a flexibility in regulated warehouses where you can decide to not allow a worker to choose a new pick location for pick work that is already created.</span></span> <span data-ttu-id="a201b-106">Consente inoltre a un responsabile del magazzino di verificare quali competenze dovrebbero avere alcuni lavoratori con meno esperienza.</span><span class="sxs-lookup"><span data-stu-id="a201b-106">It also allows a warehouse manager to control which capabilities some less experienced workers should have.</span></span>
 
-La flessibilità di gestire le operazioni giornaliere dei lavoratori di magazzino può essere utile in scenari come i seguenti:
+<span data-ttu-id="a201b-107">La flessibilità di gestire le operazioni giornaliere dei lavoratori di magazzino può essere utile in scenari come i seguenti:</span><span class="sxs-lookup"><span data-stu-id="a201b-107">The flexibility to manage the daily operations of warehouse workers can be useful in scenarios such as these:</span></span>
 
-## <a name="scenario-1"></a>Scenario 1
-Una società ha un'area di ricevimenti relativamente piccola, congestionata con pallet e scatole in attesa di stoccaggio. Una spedizione consistente è programmata per il giorno corrente, pertanto l'addetto al ricevimento decide di sistemare l'area di ricevimento spostando alcuni dei pallet in un'area di gestione temporanea.
+## <a name="scenario-1"></a><span data-ttu-id="a201b-108">Scenario 1</span><span class="sxs-lookup"><span data-stu-id="a201b-108">Scenario 1</span></span>
+<span data-ttu-id="a201b-109">Una società ha un'area di ricevimenti relativamente piccola, congestionata con pallet e scatole in attesa di stoccaggio.</span><span class="sxs-lookup"><span data-stu-id="a201b-109">A company has a relatively small receiving area, and it’s congested with pallets and boxes awaiting put away.</span></span> <span data-ttu-id="a201b-110">Una spedizione consistente è programmata per il giorno corrente, pertanto l'addetto al ricevimento decide di sistemare l'area di ricevimento spostando alcuni dei pallet in un'area di gestione temporanea.</span><span class="sxs-lookup"><span data-stu-id="a201b-110">A large shipment is expected on the current day, so the receiving clerk decides to clear up the receiving area by moving some of the pallets to a secondary inbound staging area.</span></span>
 
-## <a name="scenario-2"></a>Scenario 2
-Un lavoratore di magazzino esperto nota che in un magazzino vi è l'opportunità di consolidare gli articoli in un'ubicazione invece di doverli ripartire in 3 ubicazioni vicine con poca quantità ciascuno. Il lavoratore desidera consolidare la quantità spostando gli articoli da ciascuna di queste ubicazioni nella stessa ubicazione con la stessa targa.
+## <a name="scenario-2"></a><span data-ttu-id="a201b-111">Scenario 2</span><span class="sxs-lookup"><span data-stu-id="a201b-111">Scenario 2</span></span>
+<span data-ttu-id="a201b-112">Un lavoratore di magazzino esperto nota che in un magazzino vi è l'opportunità di consolidare gli articoli in un'ubicazione invece di doverli ripartire in 3 ubicazioni vicine con poca quantità ciascuno.</span><span class="sxs-lookup"><span data-stu-id="a201b-112">An experienced warehouse worker notices an opportunity in a warehouse to consolidate items in one location instead of having them divided across 3 nearby locations with little quantity on each.</span></span> <span data-ttu-id="a201b-113">Il lavoratore desidera consolidare la quantità spostando gli articoli da ciascuna di queste ubicazioni nella stessa ubicazione con la stessa targa.</span><span class="sxs-lookup"><span data-stu-id="a201b-113">The worker wants to consolidate the quantity by moving items from each of these locations into the same location and onto the same license plate.</span></span>
 
-## <a name="scenario-3"></a>Scenario 3
-Un pallet è in attesa della spedizione in'ubicazione di gestione temporanea, ad esempio STAGE01, vicina a BAYDOOR01. Tuttavia, a causa di una modifica dei piani il camion dovrebbe arrivare presso l'ubicazione BAYDOOR04. L'addetto alle spedizioni è consapevole di questo e deve fare in modo che il camion non debba attendere per essere caricato da STAGE01. L'addetto alle spedizioni decide di spostare gli articoli della spedizione da STAGE01 a STAGE04, ovvero più vicina alla nuova destinazione.
+## <a name="scenario-3"></a><span data-ttu-id="a201b-114">Scenario 3</span><span class="sxs-lookup"><span data-stu-id="a201b-114">Scenario 3</span></span>
+<span data-ttu-id="a201b-115">Un pallet è in attesa della spedizione in'ubicazione di gestione temporanea, ad esempio STAGE01, vicina a BAYDOOR01.</span><span class="sxs-lookup"><span data-stu-id="a201b-115">A pallet is awaiting shipment in a staging location, such as STAGE01, which is near BAYDOOR01.</span></span> <span data-ttu-id="a201b-116">Tuttavia, a causa di una modifica dei piani il camion dovrebbe arrivare presso l'ubicazione BAYDOOR04.</span><span class="sxs-lookup"><span data-stu-id="a201b-116">However, due to a change of plans the truck is scheduled to arrive at BAYDOOR04.</span></span> <span data-ttu-id="a201b-117">L'addetto alle spedizioni è consapevole di questo e deve fare in modo che il camion non debba attendere per essere caricato da STAGE01.</span><span class="sxs-lookup"><span data-stu-id="a201b-117">The shipping clerk is aware of this and needs to ensure that the truck does not have to wait to be loaded from STAGE01.</span></span> <span data-ttu-id="a201b-118">L'addetto alle spedizioni decide di spostare gli articoli della spedizione da STAGE01 a STAGE04, ovvero più vicina alla nuova destinazione.</span><span class="sxs-lookup"><span data-stu-id="a201b-118">The shipping clerk decides to move the items in that shipment from STAGE01 to STAGE04, which is closer to the new destination.</span></span>
 
-### <a name="current-limitations"></a>Limitazioni correnti
+### <a name="current-limitations"></a><span data-ttu-id="a201b-119">Limitazioni correnti</span><span class="sxs-lookup"><span data-stu-id="a201b-119">Current limitations</span></span>
 
-Le prenotazioni di lavoro che è possibile spostare sono limitate alle attività relative a Ordine cliente, Invio ordine di trasferimento, Ricezione ordine di trasferimento, Ordine fornitore e Rifornimento.
+<span data-ttu-id="a201b-120">Le prenotazioni di lavoro che è possibile spostare sono limitate alle attività relative a Ordine cliente, Invio ordine di trasferimento, Ricezione ordine di trasferimento, Ordine fornitore e Rifornimento.</span><span class="sxs-lookup"><span data-stu-id="a201b-120">The work reservations that you can move are limited to Sales order, Transfer order issue, Transfer order receipt, Purchase order, and Replenishment work.</span></span>
 
-Lo spostamento di articoli è limitato per impedire la divisione delle righe di lavoro. Ciò significa che se si dispone di una riga di lavoro per 100 pezzi dell'articoloo A dall'ubicazione Loc1, non sarà possibile spostare solo 30 pezzi dell'articoloo A da quella a un'altra ubicazione. Questo comporterebbe una divisione della riga esistente di lavoro a 30 e 70, poiché le ubicazioni sono ora differenti.
+<span data-ttu-id="a201b-121">Lo spostamento di articoli è limitato per impedire la divisione delle righe di lavoro.</span><span class="sxs-lookup"><span data-stu-id="a201b-121">Moving items is restricted to prevent splitting of work lines.</span></span> <span data-ttu-id="a201b-122">Ciò significa che se si dispone di una riga di lavoro per 100 pezzi dell'articoloo A dall'ubicazione Loc1, non sarà possibile spostare solo 30 pezzi dell'articoloo A da quella a un'altra ubicazione.</span><span class="sxs-lookup"><span data-stu-id="a201b-122">This means that if you have a work line for 100 pcs of item A from location Loc1, you won’t be able to move only 30 pcs of item A from there to another location.</span></span> <span data-ttu-id="a201b-123">Questo comporterebbe una divisione della riga esistente di lavoro a 30 e 70, poiché le ubicazioni sono ora differenti.</span><span class="sxs-lookup"><span data-stu-id="a201b-123">This would lead to a split of the existing work line to 30 and 70, because the locations are now different.</span></span>
 
-Per gli scenari di gestione temporanea, in cui la targa da cui si spostano le merci o la targa in cui vengono spostate vengono impostate come Targa destinazione per un ordine di lavoro, solo lo spostamento dell'intera targa è consentito, in modo da non dover smembrare la targa di destinazione.
-Attualmente è supportato solo lo spostamento ad hoc. Questo significa che non sarà possibile spostare le scorte prenotate mediante lo spostamento per voci di menu del dispositivo mobile del modello.
+<span data-ttu-id="a201b-124">Per gli scenari di gestione temporanea, in cui la targa da cui si spostano le merci o la targa in cui vengono spostate vengono impostate come Targa destinazione per un ordine di lavoro, solo lo spostamento dell'intera targa è consentito, in modo da non dover smembrare la targa di destinazione.</span><span class="sxs-lookup"><span data-stu-id="a201b-124">For staging scenarios, where the license plate you move the goods from or the license plate you move the goods to, are set as a Target LP for a work order, only movement of the entire LP is allowed, so as not to break up the Target LP.</span></span>
+<span data-ttu-id="a201b-125">Attualmente è supportato solo lo spostamento ad hoc.</span><span class="sxs-lookup"><span data-stu-id="a201b-125">Only the ad hoc movement is currently supported.</span></span> <span data-ttu-id="a201b-126">Questo significa che non sarà possibile spostare le scorte prenotate mediante lo spostamento per voci di menu del dispositivo mobile del modello.</span><span class="sxs-lookup"><span data-stu-id="a201b-126">That means that you will not be able to move reserved inventory through the movement by template mobile device menu items.</span></span>
 
-### <a name="set-up-the-permission-to-move-reserved-inventory-for-individual-workers"></a>Configurare l'autorizzazione per spostare le scorte prenotate per singoli lavoratori
+### <a name="set-up-the-permission-to-move-reserved-inventory-for-individual-workers"></a><span data-ttu-id="a201b-127">Configurare l'autorizzazione per spostare le scorte prenotate per singoli lavoratori</span><span class="sxs-lookup"><span data-stu-id="a201b-127">Set up the permission to move reserved inventory for individual workers</span></span>
 
-Per il lavoratore a cui dovrà essere consentito di spostare le scorte prenotate, selezionare la casella di controllo **Consenti movimento di magazzino e lavoro associato** in **Gestione magazzino** > **Impostazioni** > **Lavoratore**.  
+<span data-ttu-id="a201b-128">Per il lavoratore a cui dovrà essere consentito di spostare le scorte prenotate, selezionare la casella di controllo **Consenti movimento di magazzino e lavoro associato** in **Gestione magazzino** > **Impostazioni** > **Lavoratore**.</span><span class="sxs-lookup"><span data-stu-id="a201b-128">For the worker who should be allowed to move reserved inventory, select the **Allow movement of inventory with work associated** check box under **Warehouse management** > **Setup** > **Worker**.</span></span>  
 
-### <a name="backported"></a>Backporting
+### <a name="backported"></a><span data-ttu-id="a201b-129">Backporting</span><span class="sxs-lookup"><span data-stu-id="a201b-129">Backported</span></span>
 
-Per questa funzionalità è stato effettuato il backporting a Microsoft Dynamics AX 2012 R3 e sarà disponibile come parte di CU12.
-Può inoltre essere scaricata singolarmente con il numero di KB 3192548. 
+<span data-ttu-id="a201b-130">Per questa funzionalità è stato effettuato il backporting a Microsoft Dynamics AX 2012 R3 e sarà disponibile come parte di CU12.</span><span class="sxs-lookup"><span data-stu-id="a201b-130">This feature has also been back-ported to Microsoft Dynamics AX 2012 R3 and will be available as part of CU12.</span></span>
+<span data-ttu-id="a201b-131">Può inoltre essere scaricata singolarmente con il numero di KB 3192548.</span><span class="sxs-lookup"><span data-stu-id="a201b-131">It can also be downloaded individually through KB number 3192548.</span></span> 
 
 

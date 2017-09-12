@@ -14,29 +14,29 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 1caa8b70f1006baae6f377b0ba69ca977d6af0bd
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 17f5761df4294abfea28e7cb8d50c86f1e3e136f
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
 [!include[banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a>Conferma prodotto per prelievo cluster
-Il prelievo cluster consente di selezionare gli articoli per più ordini contemporaneamente. Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenziale per verificare che gli articoli vengano aggiunti ai cluster. È possibile verificare gli articoli nel prelievo cluster durante il processo di prelievo cluster.
+# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="a1654-103">Conferma prodotto per prelievo cluster</span><span class="sxs-lookup"><span data-stu-id="a1654-103">Product confirmation for cluster picking</span></span>
+<span data-ttu-id="a1654-104">Il prelievo cluster consente di selezionare gli articoli per più ordini contemporaneamente.</span><span class="sxs-lookup"><span data-stu-id="a1654-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="a1654-105">Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenziale per verificare che gli articoli vengano aggiunti ai cluster.</span><span class="sxs-lookup"><span data-stu-id="a1654-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="a1654-106">È possibile verificare gli articoli nel prelievo cluster durante il processo di prelievo cluster.</span><span class="sxs-lookup"><span data-stu-id="a1654-106">You can verify items in cluster picking during the cluster picking process.</span></span>
 
-## <a name="where-it-applies"></a>Dove si applica
-La verifica dell'articolo per il prelievo cluster funziona nello stesso modo della verifica degli articoli nei processi di prelievo non cluster. L'impostazione dipende dall'impostazione dei codici a barre del prodotto.
+## <a name="where-it-applies"></a><span data-ttu-id="a1654-107">Dove si applica</span><span class="sxs-lookup"><span data-stu-id="a1654-107">Where it applies</span></span>
+<span data-ttu-id="a1654-108">La verifica dell'articolo per il prelievo cluster funziona nello stesso modo della verifica degli articoli nei processi di prelievo non cluster.</span><span class="sxs-lookup"><span data-stu-id="a1654-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="a1654-109">L'impostazione dipende dall'impostazione dei codici a barre del prodotto.</span><span class="sxs-lookup"><span data-stu-id="a1654-109">The setup is based on the product bar code setup.</span></span>
 
-## <a name="set-up-item-verification-with-cluster-picking"></a>Impostare la verifica dell'articolo con prelievo cluster
-1.  Su una voce di menu del dispositivo mobile, aprire il modulo di impostazione per la conferma di lavoro: **Gestione magazzino** > **Gestione magazzino** > **Impostazione** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile**.
-2.  Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**.
+## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="a1654-110">Impostare la verifica dell'articolo con prelievo cluster</span><span class="sxs-lookup"><span data-stu-id="a1654-110">Set up item verification with cluster picking</span></span>
+1.  <span data-ttu-id="a1654-111">Su una voce di menu del dispositivo mobile, aprire il modulo di impostazione per la conferma di lavoro: **Gestione magazzino** > **Gestione magazzino** > **Impostazione** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile**.</span><span class="sxs-lookup"><span data-stu-id="a1654-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
+2.  <span data-ttu-id="a1654-112">Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**.</span><span class="sxs-lookup"><span data-stu-id="a1654-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-| Opzione        | descrizione   | 
+| <span data-ttu-id="a1654-113">Opzione</span><span class="sxs-lookup"><span data-stu-id="a1654-113">Option</span></span>        | <span data-ttu-id="a1654-114">descrizione</span><span class="sxs-lookup"><span data-stu-id="a1654-114">Description</span></span>   | 
 | ------------- | ------------- |
-|Conferma prodotto | Consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione.|
+|<span data-ttu-id="a1654-115">Conferma prodotto</span><span class="sxs-lookup"><span data-stu-id="a1654-115">Product confirmation</span></span> | <span data-ttu-id="a1654-116">Consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione.</span><span class="sxs-lookup"><span data-stu-id="a1654-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span>|
 

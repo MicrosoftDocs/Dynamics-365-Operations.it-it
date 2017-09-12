@@ -17,72 +17,72 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 7416e0407892281377b69a7a3b19e61f46220709
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a817dbc02890d863f68c5bf2a6cc11b9a5328060
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-kanban-quantity-suggestions"></a>Calcolare suggerimenti su quantità kanban
+# <a name="calculate-kanban-quantity-suggestions"></a><span data-ttu-id="33953-103">Calcolare suggerimenti su quantità kanban</span><span class="sxs-lookup"><span data-stu-id="33953-103">Calculate kanban quantity suggestions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Questa procedura riguarda l'ottimizzazione della dimensione e delle quantità kanban per una regola kanban specifica tramite il calcolo della quantità kanban. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata al responsabile del flusso del valore. Per seguire questa procedura, è necessario aver completato la procedura Aggiungere criteri di calcolo quantità kanban a una regola kanban.
+<span data-ttu-id="33953-104">Questa procedura riguarda l'ottimizzazione della dimensione e delle quantità kanban per una regola kanban specifica tramite il calcolo della quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-104">This procedure focuses on optimizing the kanban size and quantities for a specific kanban rule by using the kanban quantity calculation.</span></span> <span data-ttu-id="33953-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="33953-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="33953-106">Questa procedura è destinata al responsabile del flusso del valore.</span><span class="sxs-lookup"><span data-stu-id="33953-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="33953-107">Per seguire questa procedura, è necessario aver completato la procedura Aggiungere criteri di calcolo quantità kanban a una regola kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-107">It is a prerequisite that you have completed the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span>
 
 
-## <a name="create-a-kanban-quantity-calculation"></a>Creare un calcolo di quantità kanban
-1. Andare a Controllo produzione > Attività periodiche > Calcolo quantità kanban > Calcola quantità kanban.
-2. Fare clic su Nuovo.
-3. Nel campo Nome digitare "Speaker2016".
-4. Nel campo Nome fare clic sul pulsante a discesa per aprire la ricerca.
-    * Selezionare i criteri creati nella procedura Aggiungere criteri di calcolo quantità kanban a una regola kanban. Ad esempio, Speaker2016.  
-5. Nell'elenco fare clic sul collegamento nella riga selezionata.
-6. Nel campo Regola attiva dalla data impostare la data e l'ora su "17-12-2012T08.00.00".
-    * Questa data viene utilizzata come base per determinare quali regole kanban fisse vengono incluse nel calcolo della quantità kanban.  
-7. Nel campo Data di inizio periodo evasione domanda impostare la data e l'ora su "17-11-2012T09.00.00".
-    * Data dalla quale vengono incluse le transazioni della domanda passata per calcolare la quantità kanban.  
-8. Nel campo Data di fine periodo evasione domanda impostare la data e l'ora su "17-12-2012T07.59.59".
-    * Data fino alla quale vengono incluse le transazioni della domanda passata per calcolare la quantità kanban.  
-9. Nel campo Data di inizio periodo domanda impostare la data e l'ora su "17-12-2012T08.00.00".
-    * Data dalla quale vengono incluse le transazioni della domanda corrente per calcolare la quantità kanban.  
-10. Nel campo Data di fine periodo domanda impostare la data e l'ora su "16-01-2013T07.59.59".
-    * Data fino alla quale vengono incluse le transazioni della domanda corrente per calcolare la quantità kanban.  
+## <a name="create-a-kanban-quantity-calculation"></a><span data-ttu-id="33953-108">Creare un calcolo di quantità kanban</span><span class="sxs-lookup"><span data-stu-id="33953-108">Create a kanban quantity calculation</span></span>
+1. <span data-ttu-id="33953-109">Andare a Controllo produzione > Attività periodiche > Calcolo quantità kanban > Calcola quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-109">Go to Production control > Periodic tasks > Kanban quantity calculation > Calculate kanban quantity.</span></span>
+2. <span data-ttu-id="33953-110">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="33953-110">Click New.</span></span>
+3. <span data-ttu-id="33953-111">Nel campo Nome digitare "Speaker2016".</span><span class="sxs-lookup"><span data-stu-id="33953-111">In the Name field, type 'Speaker2016'.</span></span>
+4. <span data-ttu-id="33953-112">Nel campo Nome fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="33953-112">In the Name field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="33953-113">Selezionare i criteri creati nella procedura Aggiungere criteri di calcolo quantità kanban a una regola kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-113">Select the policy that you have created in the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span> <span data-ttu-id="33953-114">Ad esempio, Speaker2016.</span><span class="sxs-lookup"><span data-stu-id="33953-114">For example, Speaker2016.</span></span>  
+5. <span data-ttu-id="33953-115">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="33953-115">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="33953-116">Nel campo Regola attiva dalla data impostare la data e l'ora su "17-12-2012T08.00.00".</span><span class="sxs-lookup"><span data-stu-id="33953-116">In the Rule active as of date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="33953-117">Questa data viene utilizzata come base per determinare quali regole kanban fisse vengono incluse nel calcolo della quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-117">This date serves as the basis for determining which fixed kanban rules are included in the kanban quantity calculation.</span></span>  
+7. <span data-ttu-id="33953-118">Nel campo Data di inizio periodo evasione domanda impostare la data e l'ora su "17-11-2012T09.00.00".</span><span class="sxs-lookup"><span data-stu-id="33953-118">In the Fulfilled demand period start date field, set the date and time to '2012-11-17T09:00:00'.</span></span>
+    * <span data-ttu-id="33953-119">Data dalla quale vengono incluse le transazioni della domanda passata per calcolare la quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-119">The date from when past demand transactions are included to calculate the kanban quantity.</span></span>  
+8. <span data-ttu-id="33953-120">Nel campo Data di fine periodo evasione domanda impostare la data e l'ora su "17-12-2012T07.59.59".</span><span class="sxs-lookup"><span data-stu-id="33953-120">In the Fulfilled demand period end date field, set the date and time to '2012-12-17T07:59:59'.</span></span>
+    * <span data-ttu-id="33953-121">Data fino alla quale vengono incluse le transazioni della domanda passata per calcolare la quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-121">The date until when past demand transactions are included to calculate the kanban quantity.</span></span>  
+9. <span data-ttu-id="33953-122">Nel campo Data di inizio periodo domanda impostare la data e l'ora su "17-12-2012T08.00.00".</span><span class="sxs-lookup"><span data-stu-id="33953-122">In the Demand period start date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="33953-123">Data dalla quale vengono incluse le transazioni della domanda corrente per calcolare la quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-123">The date from when current demand transactions are included to calculate the kanban quantity.</span></span>  
+10. <span data-ttu-id="33953-124">Nel campo Data di fine periodo domanda impostare la data e l'ora su "16-01-2013T07.59.59".</span><span class="sxs-lookup"><span data-stu-id="33953-124">In the Demand period end date field, set the date and time to '2013-01-16T07:59:59'.</span></span>
+    * <span data-ttu-id="33953-125">Data fino alla quale vengono incluse le transazioni della domanda corrente per calcolare la quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-125">The date until when current demand transactions are included to calculate the kanban quantity.</span></span>  
 
-## <a name="generate-kanban-quantity-proposal"></a>Generare una proposta di quantità kanban
-1. Fare clic su Salva.
-2. Fare clic su Genera.
-    * Viene generata una riga di proposta di quantità kanban per la regola kanban 000020.  
+## <a name="generate-kanban-quantity-proposal"></a><span data-ttu-id="33953-126">Generare una proposta di quantità kanban</span><span class="sxs-lookup"><span data-stu-id="33953-126">Generate kanban quantity proposal</span></span>
+1. <span data-ttu-id="33953-127">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="33953-127">Click Save.</span></span>
+2. <span data-ttu-id="33953-128">Fare clic su Genera.</span><span class="sxs-lookup"><span data-stu-id="33953-128">Click Generate.</span></span>
+    * <span data-ttu-id="33953-129">Viene generata una riga di proposta di quantità kanban per la regola kanban 000020.</span><span class="sxs-lookup"><span data-stu-id="33953-129">This generates a kanban quantity proposal line for the kanban rule 000020.</span></span>  
 
-## <a name="run-kanban-quantity-calculation"></a>Eseguire il calcolo della quantità kanban
-1. Fare clic su Calcola.
-    * Viene calcolata la proposta di quantità kanban.  
-2. Fare clic su OK.
-3. Nell'elenco contrassegnare la riga selezionata.
-    * Si noti che la quantità kanban consentita è 2.  
+## <a name="run-kanban-quantity-calculation"></a><span data-ttu-id="33953-130">Eseguire il calcolo della quantità kanban</span><span class="sxs-lookup"><span data-stu-id="33953-130">Run kanban quantity calculation</span></span>
+1. <span data-ttu-id="33953-131">Fare clic su Calcola.</span><span class="sxs-lookup"><span data-stu-id="33953-131">Click Calculate.</span></span>
+    * <span data-ttu-id="33953-132">Viene calcolata la proposta di quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-132">This calculates the kanban quantity proposal.</span></span>  
+2. <span data-ttu-id="33953-133">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="33953-133">Click OK.</span></span>
+3. <span data-ttu-id="33953-134">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="33953-134">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="33953-135">Si noti che la quantità kanban consentita è 2.</span><span class="sxs-lookup"><span data-stu-id="33953-135">Notice the suggested kanban quantity is 2.</span></span>  
 
-## <a name="change-product-quantity-and-calculate-again"></a>Modificare la quantità di prodotto e calcolarla nuovamente
-1. Impostare la quantità prodotto su "5".
-2. Fare clic su Calcola.
-3. Fare clic su OK.
-    * Si noti che con una quantità kanban pari a 5, il suggerimento viene modificato in una quantità kanban pari a 4.  
-    * Questa situazione è causata dal fatto che con una quantità di prodotto inferiore sono necessarie quantità kanban maggiori per soddisfare la richiesta.  
+## <a name="change-product-quantity-and-calculate-again"></a><span data-ttu-id="33953-136">Modificare la quantità di prodotto e calcolarla nuovamente</span><span class="sxs-lookup"><span data-stu-id="33953-136">Change product quantity and calculate again</span></span>
+1. <span data-ttu-id="33953-137">Impostare la quantità prodotto su "5".</span><span class="sxs-lookup"><span data-stu-id="33953-137">Set Product quantity to '5'.</span></span>
+2. <span data-ttu-id="33953-138">Fare clic su Calcola.</span><span class="sxs-lookup"><span data-stu-id="33953-138">Click Calculate.</span></span>
+3. <span data-ttu-id="33953-139">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="33953-139">Click OK.</span></span>
+    * <span data-ttu-id="33953-140">Si noti che con una quantità kanban pari a 5, il suggerimento viene modificato in una quantità kanban pari a 4.</span><span class="sxs-lookup"><span data-stu-id="33953-140">Notice that with a kanban quantity of 5, the suggestion is changed to a kanban quantity of 4.</span></span>  
+    * <span data-ttu-id="33953-141">Questa situazione è causata dal fatto che con una quantità di prodotto inferiore sono necessarie quantità kanban maggiori per soddisfare la richiesta.</span><span class="sxs-lookup"><span data-stu-id="33953-141">This is caused by the fact that with a lower product quantity, we need more kanbans to fulfill the demand.</span></span>  
 
-## <a name="update-kanban-rule"></a>Aggiornare la quantità kanban
-1. Nel campo Data di validità regola immettere una data e un'ora.
-    * Impostare "Regola attiva dalla data" su una data successiva a quella corrente. Ad esempio, oggi + un anno.  
-2. Fare clic su Aggiorna.
-3. Fare clic su OK.
-4. Chiudere la pagina.
+## <a name="update-kanban-rule"></a><span data-ttu-id="33953-142">Aggiornare la quantità kanban</span><span class="sxs-lookup"><span data-stu-id="33953-142">Update kanban rule</span></span>
+1. <span data-ttu-id="33953-143">Nel campo Data di validità regola immettere una data e un'ora.</span><span class="sxs-lookup"><span data-stu-id="33953-143">In the Rule effective date field, enter a date and time.</span></span>
+    * <span data-ttu-id="33953-144">Impostare "Regola attiva dalla data" su una data successiva a quella corrente.</span><span class="sxs-lookup"><span data-stu-id="33953-144">Set the 'Rule active as of date' to a date in the future.</span></span> <span data-ttu-id="33953-145">Ad esempio, oggi + un anno.</span><span class="sxs-lookup"><span data-stu-id="33953-145">For example, today + one year.</span></span>  
+2. <span data-ttu-id="33953-146">Fare clic su Aggiorna.</span><span class="sxs-lookup"><span data-stu-id="33953-146">Click Update.</span></span>
+3. <span data-ttu-id="33953-147">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="33953-147">Click OK.</span></span>
+4. <span data-ttu-id="33953-148">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="33953-148">Close the page.</span></span>
 
-## <a name="validate-change-on-kanban-rule"></a>Convalidare la modifica della regola kanban
-1. Andare a Gestione informazioni sul prodotto > Lean manufacturing > Regole kanban.
-2. Nell'elenco fare clic sul collegamento nella riga selezionata.
-    * Selezionare la regola kanban creata nella sottoattività precedente. Questa deve essere la prima regola kanban nell'elenco ordinato per numero.  
-3. Attivare/disattivare l'espansione della sezione Dettagli.
-    * Si noti la data di validità, che indica che questa regola non è attivata fino a tale data.  
-4. Attivare/disattivare l'espansione della sezione Quantità.
-    * Si noti che si tratta della quantità predefinita immessa nel calcolo della quantità kanban.  
-    * Si noti che si tratta della quantità kanban fissa pari a 4 derivata dal calcolo della quantità kanban.  
-5. Fare clic sulla scheda ListPanel.
+## <a name="validate-change-on-kanban-rule"></a><span data-ttu-id="33953-149">Convalidare la modifica della regola kanban</span><span class="sxs-lookup"><span data-stu-id="33953-149">Validate change on kanban rule</span></span>
+1. <span data-ttu-id="33953-150">Andare a Gestione informazioni sul prodotto > Lean manufacturing > Regole kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-150">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="33953-151">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="33953-151">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="33953-152">Selezionare la regola kanban creata nella sottoattività precedente.</span><span class="sxs-lookup"><span data-stu-id="33953-152">Select the kanban rule that was created in the previous sub-task.</span></span> <span data-ttu-id="33953-153">Questa deve essere la prima regola kanban nell'elenco ordinato per numero.</span><span class="sxs-lookup"><span data-stu-id="33953-153">This should be the first kanban rule in the list sorted by number.</span></span>  
+3. <span data-ttu-id="33953-154">Attivare/disattivare l'espansione della sezione Dettagli.</span><span class="sxs-lookup"><span data-stu-id="33953-154">Toggle the expansion of the Details section.</span></span>
+    * <span data-ttu-id="33953-155">Si noti la data di validità, che indica che questa regola non è attivata fino a tale data.</span><span class="sxs-lookup"><span data-stu-id="33953-155">Notice the effective date, which means that this rule is not activated until this date.</span></span>  
+4. <span data-ttu-id="33953-156">Attivare/disattivare l'espansione della sezione Quantità.</span><span class="sxs-lookup"><span data-stu-id="33953-156">Toggle the expansion of the Quantities section.</span></span>
+    * <span data-ttu-id="33953-157">Si noti che si tratta della quantità predefinita immessa nel calcolo della quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-157">Notice this is the default quantity that you entered on the kanban quantity calculation.</span></span>  
+    * <span data-ttu-id="33953-158">Si noti che si tratta della quantità kanban fissa pari a 4 derivata dal calcolo della quantità kanban.</span><span class="sxs-lookup"><span data-stu-id="33953-158">Notice this is the fixed kanban quantity of 4 from the kanban quantity calculation.</span></span>  
+5. <span data-ttu-id="33953-159">Fare clic sulla scheda ListPanel.</span><span class="sxs-lookup"><span data-stu-id="33953-159">Click the ListPanel tab.</span></span>
 
 

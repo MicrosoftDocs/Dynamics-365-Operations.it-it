@@ -18,165 +18,165 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 785da18a851c4d040843f49ca9f1b9ae12d701d3
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Impostare il processo di importazione di riconciliazione bancaria avanzata
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="dcc5d-104">Impostare il processo di importazione di riconciliazione bancaria avanzata</span><span class="sxs-lookup"><span data-stu-id="dcc5d-104">Set up the advanced bank reconciliation import process</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari. 
+<span data-ttu-id="dcc5d-105">La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="dcc5d-106">In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
-L'impostazione dell'importazione dei rendiconti bancari varia a seconda del formato del rendiconto bancario elettronico. Finance and Operations supporta tre formati di rendiconto bancario predefiniti: ISO20022, MT940 e BAI2.
+<span data-ttu-id="dcc5d-107">L'impostazione dell'importazione dei rendiconti bancari varia a seconda del formato del rendiconto bancario elettronico.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-107">The setup for bank statement import varies, depending on the format of your electronic bank statement.</span></span> <span data-ttu-id="dcc5d-108">Finance and Operations supporta tre formati di rendiconto bancario predefiniti: ISO20022, MT940 e BAI2.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-108">Finance and Operations supports three bank statement formats out of the box: ISO20022, MT940, and BAI2.</span></span>
 
-## <a name="sample-files"></a>File di esempio
-Per tutti e tre i formati, è necessario disporre di file che convertono il rendiconto bancario elettronico dal formato originale in un formato che è possibile utilizzare in Finance and Operations. È possibile trovare i file di risorse necessari nel nodo **Risorse** in Application Explorer in Microsoft Visual Studio. Dopo avere individuato i file, copiarli in un'unica posizione nota in modo che sia possibile caricarli più facilmente durante il processo di impostazione.
+## <a name="sample-files"></a><span data-ttu-id="dcc5d-109">File di esempio</span><span class="sxs-lookup"><span data-stu-id="dcc5d-109">Sample files</span></span>
+<span data-ttu-id="dcc5d-110">Per tutti e tre i formati, è necessario disporre di file che convertono il rendiconto bancario elettronico dal formato originale in un formato che è possibile utilizzare in Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-110">For all three formats, you must have files that translate the electronic bank statement from the original format to a format that Finance and Operations can use.</span></span> <span data-ttu-id="dcc5d-111">È possibile trovare i file di risorse necessari nel nodo **Risorse** in Application Explorer in Microsoft Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-111">You can find the required resource files under the **Resources** node in Application Explorer in Microsoft Visual Studio.</span></span> <span data-ttu-id="dcc5d-112">Dopo avere individuato i file, copiarli in un'unica posizione nota in modo che sia possibile caricarli più facilmente durante il processo di impostazione.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-112">After you find the files, copy them to a single known location, so that you can more easily upload them during the setup process.</span></span>
 
-| Nome risorsa                                           | Nome file                            |
+| <span data-ttu-id="dcc5d-113">Nome risorsa</span><span class="sxs-lookup"><span data-stu-id="dcc5d-113">Resource name</span></span>                                           | <span data-ttu-id="dcc5d-114">Nome file</span><span class="sxs-lookup"><span data-stu-id="dcc5d-114">File name</span></span>                            |
 |---------------------------------------------------------|--------------------------------------|
-| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt              | BAI2CSV-to-BAI2XML.xslt              |
-| BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt       | BAI2XML-to-Reconciliation.xslt       |
-| BankStmtImport\_BankReconciliation\_to\_Composite\_xslt | BankReconciliation-to-Composite.xslt |
-| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt   | ISO20022XML-to-Reconciliation.xslt   |
-| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt            | MT940TXT-to-MT940XML.xslt            |
-| BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt      | MT940XML-to-Reconciliation.xslt      |
-| BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
+| <span data-ttu-id="dcc5d-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>              | <span data-ttu-id="dcc5d-116">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-116">BAI2CSV-to-BAI2XML.xslt</span></span>              |
+| <span data-ttu-id="dcc5d-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span></span>       | <span data-ttu-id="dcc5d-118">BAI2XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-118">BAI2XML-to-Reconciliation.xslt</span></span>       |
+| <span data-ttu-id="dcc5d-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span></span> | <span data-ttu-id="dcc5d-120">BankReconciliation-to-Composite.xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-120">BankReconciliation-to-Composite.xslt</span></span> |
+| <span data-ttu-id="dcc5d-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span>   | <span data-ttu-id="dcc5d-122">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-122">ISO20022XML-to-Reconciliation.xslt</span></span>   |
+| <span data-ttu-id="dcc5d-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>            | <span data-ttu-id="dcc5d-124">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-124">MT940TXT-to-MT940XML.xslt</span></span>            |
+| <span data-ttu-id="dcc5d-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span></span>      | <span data-ttu-id="dcc5d-126">MT940XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="dcc5d-126">MT940XML-to-Reconciliation.xslt</span></span>      |
+| <span data-ttu-id="dcc5d-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span><span class="sxs-lookup"><span data-stu-id="dcc5d-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span></span>          | <span data-ttu-id="dcc5d-128">SampleBankCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="dcc5d-128">SampleBankCompositeEntity.xml</span></span>        |
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Esempi di formati di rendiconto bancario e di layout tecnici
-Di seguito sono inclusi esempi di definizioni avanzate di layout tecnici dei file di importazione di riconciliazione bancaria e tre file di esempio di rendiconto bancario: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="dcc5d-129">Esempi di formati di rendiconto bancario e di layout tecnici</span><span class="sxs-lookup"><span data-stu-id="dcc5d-129">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="dcc5d-130">Di seguito sono inclusi esempi di definizioni avanzate di layout tecnici dei file di importazione di riconciliazione bancaria e tre file di esempio di rendiconto bancario: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="dcc5d-130">Below are examples of the advanced bank reconciliation import file technical layout definitions and three related bank statement example files: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
-| Definizione di layout tecnico                             | File di esempio di rendiconto bancario          |
+| <span data-ttu-id="dcc5d-131">Definizione di layout tecnico</span><span class="sxs-lookup"><span data-stu-id="dcc5d-131">Technical layout definition</span></span>                             | <span data-ttu-id="dcc5d-132">File di esempio di rendiconto bancario</span><span class="sxs-lookup"><span data-stu-id="dcc5d-132">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="dcc5d-133">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="dcc5d-133">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="dcc5d-134">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="dcc5d-134">MT940StatementExample</span></span>                |
+| <span data-ttu-id="dcc5d-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="dcc5d-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="dcc5d-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="dcc5d-136">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="dcc5d-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="dcc5d-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="dcc5d-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="dcc5d-138">BAI2StatementExample</span></span>                 |
 
  
 
-## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Impostare l'importazione di rendiconti bancari ISO20022
-Innanzitutto, è necessario definire il gruppo di elaborazione formati rendiconti bancari per i rendiconti bancari ISO20022 utilizzando il framework di entità di dati.
+## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="dcc5d-139">Impostare l'importazione di rendiconti bancari ISO20022</span><span class="sxs-lookup"><span data-stu-id="dcc5d-139">Set up the import of ISO20022 bank statements</span></span>
+<span data-ttu-id="dcc5d-140">Innanzitutto, è necessario definire il gruppo di elaborazione formati rendiconti bancari per i rendiconti bancari ISO20022 utilizzando il framework di entità di dati.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>
 
-1.  Passare a **Aree di lavoro** &gt; **Gestione dati**.
-2.  Fare clic su **Importa**.
-3.  Immettere un nome per il formato, ad esempio **ISO20022**.
-4.  Impostare il campo **Formato dati di origine** su **XML-Element**.
-5.  Impostare il campo **Nome entità** su **Rendiconti bancari**.
-6.  Per caricare i file di importazione, fare clic su **Carica** e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
-7.  Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.
-8.  L'entità Rendiconti bancari è un'entità composita costituita da quattro entità separate. Nell'elenco, selezionare **BankStatementDocumentEntity**, quindi scegliere l'azione **Visualizza mapping**.
-9.  Nella scheda **Trasformazioni** , fare clic su **Nuovo**.
-10. Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **ISO20022XML-to-Reconciliation.xslt** salvato in precedenza. **Nota:** i file di trasformazione di Finance and Operations vengono generati per il formato standard. Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
-11. Fare clic su **Nuovo**.
-12. Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **BankReconciliation-to-Composite.xslt** salvato in precedenza.
-13. Fare clic su **Applica trasformazioni**.
+1.  <span data-ttu-id="dcc5d-141">Passare a **Aree di lavoro** &gt; **Gestione dati**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-141">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="dcc5d-142">Fare clic su **Importa**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-142">Click **Import**.</span></span>
+3.  <span data-ttu-id="dcc5d-143">Immettere un nome per il formato, ad esempio **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-143">Enter a name for the format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="dcc5d-144">Impostare il campo **Formato dati di origine** su **XML-Element**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-144">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="dcc5d-145">Impostare il campo **Nome entità** su **Rendiconti bancari**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-145">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="dcc5d-146">Per caricare i file di importazione, fare clic su **Carica** e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-146">To upload the import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="dcc5d-147">Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-147">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="dcc5d-148">L'entità Rendiconti bancari è un'entità composita costituita da quattro entità separate.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-148">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="dcc5d-149">Nell'elenco, selezionare **BankStatementDocumentEntity**, quindi scegliere l'azione **Visualizza mapping**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-149">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="dcc5d-150">Nella scheda **Trasformazioni** , fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-150">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="dcc5d-151">Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **ISO20022XML-to-Reconciliation.xslt** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-151">For sequence number 1, click **Upload file**, and select the **ISO20022XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="dcc5d-152">**Nota:** i file di trasformazione di Finance and Operations vengono generati per il formato standard.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-152">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="dcc5d-153">Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-153">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+11. <span data-ttu-id="dcc5d-154">Fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-154">Click **New**.</span></span>
+12. <span data-ttu-id="dcc5d-155">Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **BankReconciliation-to-Composite.xslt** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-155">For sequence number 2, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+13. <span data-ttu-id="dcc5d-156">Fare clic su **Applica trasformazioni**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-156">Click **Apply transforms**.</span></span>
 
-Dopo aver impostato il gruppo di elaborazione formati, il passaggio successivo consiste nel definire le regole di formato rendiconti bancari relative ai rendiconti bancari ISO20022.
+<span data-ttu-id="dcc5d-157">Dopo aver impostato il gruppo di elaborazione formati, il passaggio successivo consiste nel definire le regole di formato rendiconti bancari relative ai rendiconti bancari ISO20022.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-157">After the format processing group is set up, the next step is to define the bank statement format rules for ISO20022 bank statements.</span></span>
 
-1.  Andare a **Gestione cassa e banche** &gt; **Impostazioni** &gt; **Impostazione riconciliazione bancaria avanzata** &gt; **Formato rendiconto bancario**.
-2.  Fare clic su **Nuovo**.
-3.  Specificare un formato di rendiconto, ad esempio **ISO20022**.
-4.  Immettere un nome per il formato.
-5.  Impostare il campo **Gruppo di elaborazione** sul gruppo definito in precedenza, ad esempio **ISO20022**.
-6.  Selezionare la casella di controllo **File XML**.
+1.  <span data-ttu-id="dcc5d-158">Andare a **Gestione cassa e banche** &gt; **Impostazioni** &gt; **Impostazione riconciliazione bancaria avanzata** &gt; **Formato rendiconto bancario**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-158">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="dcc5d-159">Fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-159">Click **New**.</span></span>
+3.  <span data-ttu-id="dcc5d-160">Specificare un formato di rendiconto, ad esempio **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-160">Specify a statement format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="dcc5d-161">Immettere un nome per il formato.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-161">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="dcc5d-162">Impostare il campo **Gruppo di elaborazione** sul gruppo definito in precedenza, ad esempio **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-162">Set the **Processing group** field to the group that you defined earlier, such as **ISO20022**.</span></span>
+6.  <span data-ttu-id="dcc5d-163">Selezionare la casella di controllo **File XML**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-163">Select the **XML file** check box.</span></span>
 
-L'ultimo passaggio consiste nell'attivare la riconciliazione bancaria avanzata e impostare il formato di rendiconto sul conto bancario.
+<span data-ttu-id="dcc5d-164">L'ultimo passaggio consiste nell'attivare la riconciliazione bancaria avanzata e impostare il formato di rendiconto sul conto bancario.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-164">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Andare a **Gestione cassa e banche** &gt; **Conti bancari**.
-2.  Selezionare il conto bancario e aprirlo per visualizzare i dettagli.
-3.  Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata** su **Sì**.
-4.  Impostare il campo **Formato rendiconto** sul formato creato in precedenza, ad esempio **ISO20022**.
+1.  <span data-ttu-id="dcc5d-165">Andare a **Gestione cassa e banche** &gt; **Conti bancari**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-165">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="dcc5d-166">Selezionare il conto bancario e aprirlo per visualizzare i dettagli.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-166">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="dcc5d-167">Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-167">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="dcc5d-168">Impostare il campo **Formato rendiconto** sul formato creato in precedenza, ad esempio **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-168">Set the **Statement format** field to the format that you created earlier, such as **ISO20022**.</span></span>
 
-## <a name="set-up-the-import-of-mt940-bank-statements"></a>Impostare l'importazione di rendiconti bancari MT940
-Innanzitutto, è necessario definire il gruppo di elaborazione formati rendiconti bancari per i rendiconti bancari MT940 utilizzando il framework di entità di dati.
+## <a name="set-up-the-import-of-mt940-bank-statements"></a><span data-ttu-id="dcc5d-169">Impostare l'importazione di rendiconti bancari MT940</span><span class="sxs-lookup"><span data-stu-id="dcc5d-169">Set up the import of MT940 bank statements</span></span>
+<span data-ttu-id="dcc5d-170">Innanzitutto, è necessario definire il gruppo di elaborazione formati rendiconti bancari per i rendiconti bancari MT940 utilizzando il framework di entità di dati.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-170">First, you must define the bank statement format processing group for MT940 bank statements by using the data entity framework.</span></span>
 
-1.  Passare a **Aree di lavoro** &gt; **Gestione dati**.
-2.  Fare clic su **Importa**.
-3.  Immettere un nome per il formato, ad esempio **MT940**.
-4.  Impostare il campo **Formato dati di origine** su **XML-Element**.
-5.  Impostare il campo **Nome entità** su **Rendiconti bancari**.
-6.  Per caricare i file di importazione, fare clic su **Carica** e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
-7.  Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.
-8.  L'entità Rendiconti bancari è un'entità composita costituita da quattro entità separate. Nell'elenco, selezionare **BankStatementDocumentEntity**, quindi scegliere l'azione **Visualizza mapping**.
-9.  Nella scheda **Trasformazioni** , fare clic su **Nuovo**.
-10. Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **MT940TXT-to-MT940XML.xslt** salvato in precedenza.
-11. Fare clic su **Nuovo**.
-12. Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **MT940XML-to-Reconciliation.xslt** salvato in precedenza. **Nota:** i file di trasformazione di Finance and Operations vengono generati per il formato standard. Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
-13. Fare clic su **Nuovo**.
-14. Per il numero di sequenza 3, fare clic su **Carica file** e selezionare il file **BankReconciliation-to-Composite.xslt** salvato in precedenza.
-15. Fare clic su **Applica trasformazioni**.
+1.  <span data-ttu-id="dcc5d-171">Passare a **Aree di lavoro** &gt; **Gestione dati**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-171">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="dcc5d-172">Fare clic su **Importa**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-172">Click **Import**.</span></span>
+3.  <span data-ttu-id="dcc5d-173">Immettere un nome per il formato, ad esempio **MT940**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-173">Enter a name for the format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="dcc5d-174">Impostare il campo **Formato dati di origine** su **XML-Element**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-174">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="dcc5d-175">Impostare il campo **Nome entità** su **Rendiconti bancari**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-175">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="dcc5d-176">Per caricare i file di importazione, fare clic su **Carica** e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-176">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="dcc5d-177">Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-177">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="dcc5d-178">L'entità Rendiconti bancari è un'entità composita costituita da quattro entità separate.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-178">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="dcc5d-179">Nell'elenco, selezionare **BankStatementDocumentEntity**, quindi scegliere l'azione **Visualizza mapping**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-179">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="dcc5d-180">Nella scheda **Trasformazioni** , fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-180">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="dcc5d-181">Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **MT940TXT-to-MT940XML.xslt** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-181">For sequence number 1, click **Upload file**, and select the **MT940TXT-to-MT940XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="dcc5d-182">Fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-182">Click **New**.</span></span>
+12. <span data-ttu-id="dcc5d-183">Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **MT940XML-to-Reconciliation.xslt** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-183">For sequence number 2, click **Upload file**, and select the **MT940XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="dcc5d-184">**Nota:** i file di trasformazione di Finance and Operations vengono generati per il formato standard.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-184">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="dcc5d-185">Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-185">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+13. <span data-ttu-id="dcc5d-186">Fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-186">Click **New**.</span></span>
+14. <span data-ttu-id="dcc5d-187">Per il numero di sequenza 3, fare clic su **Carica file** e selezionare il file **BankReconciliation-to-Composite.xslt** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-187">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="dcc5d-188">Fare clic su **Applica trasformazioni**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-188">Click **Apply transforms**.</span></span>
 
-Dopo aver impostato il gruppo di elaborazione formati, il passaggio successivo consiste nel definire le regole di formato rendiconti bancari relative ai rendiconti bancari MT940.
+<span data-ttu-id="dcc5d-189">Dopo aver impostato il gruppo di elaborazione formati, il passaggio successivo consiste nel definire le regole di formato rendiconti bancari relative ai rendiconti bancari MT940.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-189">After the format processing group is set up, the next step is to define the bank statement format rules for MT940 bank statements.</span></span>
 
-1.  Andare a **Gestione cassa e banche** &gt; **Impostazioni** &gt; **Impostazione riconciliazione bancaria avanzata** &gt; **Formato rendiconto bancario**.
-2.  Fare clic su **Nuovo**.
-3.  Specificare un formato di rendiconto, ad esempio **MT940**.
-4.  Immettere un nome per il formato.
-5.  Impostare il campo **Gruppo di elaborazione** sul gruppo definito in precedenza, ad esempio **MT940**.
-6.  Impostare il campo **Tipo di file** su **txt**.
+1.  <span data-ttu-id="dcc5d-190">Andare a **Gestione cassa e banche** &gt; **Impostazioni** &gt; **Impostazione riconciliazione bancaria avanzata** &gt; **Formato rendiconto bancario**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-190">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="dcc5d-191">Fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-191">Click **New**.</span></span>
+3.  <span data-ttu-id="dcc5d-192">Specificare un formato di rendiconto, ad esempio **MT940**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-192">Specify a statement format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="dcc5d-193">Immettere un nome per il formato.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-193">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="dcc5d-194">Impostare il campo **Gruppo di elaborazione** sul gruppo definito in precedenza, ad esempio **MT940**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-194">Set the **Processing group** field to the group that you defined earlier, such as **MT940**.</span></span>
+6.  <span data-ttu-id="dcc5d-195">Impostare il campo **Tipo di file** su **txt**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-195">Set the **File type** field to **txt**.</span></span>
 
-L'ultimo passaggio consiste nell'attivare la riconciliazione bancaria avanzata e impostare il formato di rendiconto sul conto bancario.
+<span data-ttu-id="dcc5d-196">L'ultimo passaggio consiste nell'attivare la riconciliazione bancaria avanzata e impostare il formato di rendiconto sul conto bancario.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-196">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Andare a **Gestione cassa e banche** &gt; **Conti bancari**.
-2.  Selezionare il conto bancario e aprirlo per visualizzare i dettagli.
-3.  Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata** su **Sì**.
-4.  Quando viene chiesto di confermare la selezione e attivare Riconciliazione bancaria avanzata, fare clic su **OK**.
-5.  Impostare il campo **Formato rendiconto** sul formato creato in precedenza, ad esempio **MT940**.
+1.  <span data-ttu-id="dcc5d-197">Andare a **Gestione cassa e banche** &gt; **Conti bancari**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-197">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="dcc5d-198">Selezionare il conto bancario e aprirlo per visualizzare i dettagli.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-198">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="dcc5d-199">Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-199">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="dcc5d-200">Quando viene chiesto di confermare la selezione e attivare Riconciliazione bancaria avanzata, fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-200">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="dcc5d-201">Impostare il campo **Formato rendiconto** sul formato creato in precedenza, ad esempio **MT940**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-201">Set the **Statement format** field to the format that you created earlier, such as **MT940**.</span></span>
 
-## <a name="set-up-the-import-of-bai2-bank-statements"></a>Impostare l'importazione di rendiconti bancari BAI2
-Innanzitutto, è necessario definire il gruppo di elaborazione formati rendiconti bancari per i rendiconti bancari BAI2 utilizzando il framework di entità di dati.
+## <a name="set-up-the-import-of-bai2-bank-statements"></a><span data-ttu-id="dcc5d-202">Impostare l'importazione di rendiconti bancari BAI2</span><span class="sxs-lookup"><span data-stu-id="dcc5d-202">Set up the import of BAI2 bank statements</span></span>
+<span data-ttu-id="dcc5d-203">Innanzitutto, è necessario definire il gruppo di elaborazione formati rendiconti bancari per i rendiconti bancari BAI2 utilizzando il framework di entità di dati.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-203">First, you must define the bank statement format processing group for BAI2 bank statements by using the data entity framework.</span></span>
 
-1.  Passare a **Aree di lavoro** &gt; **Gestione dati**.
-2.  Fare clic su **Importa**.
-3.  Immettere un nome per il formato, ad esempio **BAI2**.
-4.  Impostare il campo **Formato dati di origine** su **XML-Element**.
-5.  Impostare il campo **Nome entità** su **Rendiconti bancari**.
-6.  Per caricare i file di importazione, fare clic su **Carica** e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.
-7.  Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.
-8.  L'entità Rendiconti bancari è un'entità composita costituita da quattro entità separate. Nell'elenco, selezionare **BankStatementDocumentEntity**, quindi scegliere l'azione **Visualizza mapping**.
-9.  Nella scheda **Trasformazioni** , fare clic su **Nuovo**.
-10. Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **BAI2CSV-to-BAI2XML.xslt** salvato in precedenza.
-11. Fare clic su **Nuovo**.
-12. Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **BAI2XML-to-Reconciliation.xslt** salvato in precedenza. **Nota:** i file di trasformazione di Finance and Operations vengono generati per il formato standard. Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
-13. Fare clic su **Nuovo**.
-14. Per il numero di sequenza 3, fare clic su **Carica file** e selezionare il file **BankReconciliation-to-Composite.xslt** salvato in precedenza.
-15. Fare clic su **Applica trasformazioni**.
+1.  <span data-ttu-id="dcc5d-204">Passare a **Aree di lavoro** &gt; **Gestione dati**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-204">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="dcc5d-205">Fare clic su **Importa**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-205">Click **Import**.</span></span>
+3.  <span data-ttu-id="dcc5d-206">Immettere un nome per il formato, ad esempio **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-206">Enter a name for the format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="dcc5d-207">Impostare il campo **Formato dati di origine** su **XML-Element**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-207">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="dcc5d-208">Impostare il campo **Nome entità** su **Rendiconti bancari**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-208">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="dcc5d-209">Per caricare i file di importazione, fare clic su **Carica** e quindi individuare per selezionare il file **SampleBankCompositeEntity.xml** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-209">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="dcc5d-210">Dopo avere caricato l'entità Rendiconti bancari e il mapping è stato completato, scegliere l'azione **Visualizza mapping** per l'entità.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-210">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="dcc5d-211">L'entità Rendiconti bancari è un'entità composita costituita da quattro entità separate.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-211">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="dcc5d-212">Nell'elenco, selezionare **BankStatementDocumentEntity**, quindi scegliere l'azione **Visualizza mapping**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-212">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="dcc5d-213">Nella scheda **Trasformazioni** , fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-213">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="dcc5d-214">Per il numero di sequenza 1, fare clic su **Carica file** e selezionare il file **BAI2CSV-to-BAI2XML.xslt** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-214">For sequence number 1, click **Upload file**, and select the **BAI2CSV-to-BAI2XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="dcc5d-215">Fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-215">Click **New**.</span></span>
+12. <span data-ttu-id="dcc5d-216">Per il numero di sequenza 2, fare clic su **Carica file** e selezionare il file **BAI2XML-to-Reconciliation.xslt** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-216">For sequence number 2, click **Upload file**, and select the **BAI2XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="dcc5d-217">**Nota:** i file di trasformazione di Finance and Operations vengono generati per il formato standard.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-217">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="dcc5d-218">Poiché le banche spesso divergono da questo formato, potrebbe essere necessario aggiornare il file di trasformazione per eseguire il mapping allo specifico formato del rendiconto bancario.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-218">Because banks often diverge from this format, and you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+13. <span data-ttu-id="dcc5d-219">Fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-219">Click **New**.</span></span>
+14. <span data-ttu-id="dcc5d-220">Per il numero di sequenza 3, fare clic su **Carica file** e selezionare il file **BankReconciliation-to-Composite.xslt** salvato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-220">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="dcc5d-221">Fare clic su **Applica trasformazioni**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-221">Click **Apply transforms**.</span></span>
 
-Dopo aver impostato il gruppo di elaborazione formati, il passaggio successivo consiste nel definire le regole di formato rendiconti bancari relative ai rendiconti bancari BAI2.
+<span data-ttu-id="dcc5d-222">Dopo aver impostato il gruppo di elaborazione formati, il passaggio successivo consiste nel definire le regole di formato rendiconti bancari relative ai rendiconti bancari BAI2.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-222">After the format processing group is set up, the next step is to define the bank statement format rules for BAI2 bank statements.</span></span>
 
-1.  Andare a **Gestione cassa e banche** &gt; **Impostazioni** &gt; **Impostazione riconciliazione bancaria avanzata** &gt; **Formato rendiconto bancario**.
-2.  Fare clic su **Nuovo**.
-3.  Specificare un formato di rendiconto, ad esempio **BAI2**.
-4.  Immettere un nome per il formato.
-5.  Impostare il campo **Gruppo di elaborazione** sul gruppo definito in precedenza, ad esempio **BAI2**.
-6.  Impostare il campo **Tipo di file** su **txt**.
+1.  <span data-ttu-id="dcc5d-223">Andare a **Gestione cassa e banche** &gt; **Impostazioni** &gt; **Impostazione riconciliazione bancaria avanzata** &gt; **Formato rendiconto bancario**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-223">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="dcc5d-224">Fare clic su **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-224">Click **New**.</span></span>
+3.  <span data-ttu-id="dcc5d-225">Specificare un formato di rendiconto, ad esempio **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-225">Specify a statement format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="dcc5d-226">Immettere un nome per il formato.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-226">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="dcc5d-227">Impostare il campo **Gruppo di elaborazione** sul gruppo definito in precedenza, ad esempio **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-227">Set the **Processing group** field to the group that you defined earlier, such as **BAI2**.</span></span>
+6.  <span data-ttu-id="dcc5d-228">Impostare il campo **Tipo di file** su **txt**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-228">Set the **File type** field to **txt**.</span></span>
 
-L'ultimo passaggio consiste nell'attivare la riconciliazione bancaria avanzata e impostare il formato di rendiconto sul conto bancario.
+<span data-ttu-id="dcc5d-229">L'ultimo passaggio consiste nell'attivare la riconciliazione bancaria avanzata e impostare il formato di rendiconto sul conto bancario.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-229">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Andare a **Gestione cassa e banche** &gt; **Conti bancari**.
-2.  Selezionare il conto bancario e aprirlo per visualizzare i dettagli.
-3.  Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata** su **Sì**.
-4.  Quando viene chiesto di confermare la selezione e attivare Riconciliazione bancaria avanzata, fare clic su **OK**.
-5.  Impostare il campo **Formato rendiconto** sul formato creato in precedenza, ad esempio **BAI2**.
+1.  <span data-ttu-id="dcc5d-230">Andare a **Gestione cassa e banche** &gt; **Conti bancari**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-230">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="dcc5d-231">Selezionare il conto bancario e aprirlo per visualizzare i dettagli.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-231">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="dcc5d-232">Nella scheda **Riconciliazione**, impostare l'opzione **Riconciliazione bancaria avanzata** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-232">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="dcc5d-233">Quando viene chiesto di confermare la selezione e attivare Riconciliazione bancaria avanzata, fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-233">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="dcc5d-234">Impostare il campo **Formato rendiconto** sul formato creato in precedenza, ad esempio **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-234">Set the **Statement format** field to the format that you created earlier, such as **BAI2**.</span></span>
 
-## <a name="test-the-bank-statement-import"></a>Testare l'importazione rendiconto bancario
-Il passaggio finale consiste nel verificare che è possibile importare il rendiconto bancario.
+## <a name="test-the-bank-statement-import"></a><span data-ttu-id="dcc5d-235">Testare l'importazione rendiconto bancario</span><span class="sxs-lookup"><span data-stu-id="dcc5d-235">Test the bank statement import</span></span>
+<span data-ttu-id="dcc5d-236">Il passaggio finale consiste nel verificare che è possibile importare il rendiconto bancario.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-236">The final step is to test that you can import your bank statement.</span></span>
 
-1.  Andare a **Gestione cassa e banche** &gt; **Conti bancari**.
-2.  Selezionare il conto bancario per cui è abilitata la funzionalità Riconciliazione bancaria avanzata.
-3.  Nella scheda **Riconcilia** , fare clic su **Rendiconti bancari**.
-4.  Nella pagina **Rendiconto bancario** fare clic su **Importa rendiconto**.
-5.  Impostare il campo **Conto bancario** sul conto bancario selezionato. Il campo **Formato rendiconto** verrà impostato automaticamente, in base all'impostazione del conto bancario.
-6.  Fare clic su **Sfoglia** e selezionare il file di rendiconto bancario elettronico.
-7.  Fare clic su **Carica**.
-8.  Scegliere **OK**.
+1.  <span data-ttu-id="dcc5d-237">Andare a **Gestione cassa e banche** &gt; **Conti bancari**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-237">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="dcc5d-238">Selezionare il conto bancario per cui è abilitata la funzionalità Riconciliazione bancaria avanzata.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-238">Select the bank account that Advanced bank reconciliation functionality is enabled for.</span></span>
+3.  <span data-ttu-id="dcc5d-239">Nella scheda **Riconcilia** , fare clic su **Rendiconti bancari**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-239">On the **Reconcile** tab, click **Bank statements**.</span></span>
+4.  <span data-ttu-id="dcc5d-240">Nella pagina **Rendiconto bancario** fare clic su **Importa rendiconto**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-240">On the **Bank statement** page, click **Import statement**.</span></span>
+5.  <span data-ttu-id="dcc5d-241">Impostare il campo **Conto bancario** sul conto bancario selezionato.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-241">Set the **Bank account** field to the selected bank account.</span></span> <span data-ttu-id="dcc5d-242">Il campo **Formato rendiconto** verrà impostato automaticamente, in base all'impostazione del conto bancario.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-242">The **Statement format** field will be set automatically, based on the setting on the bank account.</span></span>
+6.  <span data-ttu-id="dcc5d-243">Fare clic su **Sfoglia** e selezionare il file di rendiconto bancario elettronico.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-243">Click **Browse**, and select your electronic bank statement file.</span></span>
+7.  <span data-ttu-id="dcc5d-244">Fare clic su **Carica**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-244">Click **Upload**.</span></span>
+8.  <span data-ttu-id="dcc5d-245">Scegliere **OK**.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-245">Click **OK**.</span></span>
 
-Se l'importazione ha esito positivo, riceverai un messaggio che informa che il rendiconto è stato importato. Se l'importazione non è stata completata correttamente, nell'area di lavoro **Gestione dati**, sezione **Storico processi**, trovare il processo. Fare clic su **Dettagli esecuzione** per il processo per aprire la pagina **Riepilogo esecuzione** e quindi fare clic su **Visualizza registro di esecuzione** per visualizzare gli errori di importazione.
+<span data-ttu-id="dcc5d-246">Se l'importazione ha esito positivo, riceverai un messaggio che informa che il rendiconto è stato importato.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-246">If the import is successful, you will receive a message that states that your statement was imported.</span></span> <span data-ttu-id="dcc5d-247">Se l'importazione non è stata completata correttamente, nell'area di lavoro **Gestione dati**, sezione **Storico processi**, trovare il processo.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-247">If the import wasn't successful, in the **Data management** workspace, in the **Job history** section, find the job.</span></span> <span data-ttu-id="dcc5d-248">Fare clic su **Dettagli esecuzione** per il processo per aprire la pagina **Riepilogo esecuzione** e quindi fare clic su **Visualizza registro di esecuzione** per visualizzare gli errori di importazione.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-248">Click **Execution details** for the job to open the **Execution summary** page, and then click **View execution log** to view the import errors.</span></span>
 
 
 

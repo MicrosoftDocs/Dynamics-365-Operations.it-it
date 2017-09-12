@@ -17,33 +17,33 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 3beb1c8eb742a10f825105af7066b291b3c12470
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8f608a38dd28a77e2a33e5c23cf35b5a9e6a8c38
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-an-appointment-for-a-load"></a>Impostare un appuntamento per un carico
+# <a name="set-up-an-appointment-for-a-load"></a><span data-ttu-id="6873e-103">Impostare un appuntamento per un carico</span><span class="sxs-lookup"><span data-stu-id="6873e-103">Set up an appointment for a load</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-In questa procedura viene illustrato come impostare e pianificare un appuntamento banchina per un carico. La procedura viene in genere eseguita dal coordinatore dei trasporti. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.
+<span data-ttu-id="6873e-104">In questa procedura viene illustrato come impostare e pianificare un appuntamento banchina per un carico.</span><span class="sxs-lookup"><span data-stu-id="6873e-104">This procedure shows how to set up and plan a dock appointment for a load.</span></span> <span data-ttu-id="6873e-105">La procedura viene in genere eseguita dal coordinatore dei trasporti.</span><span class="sxs-lookup"><span data-stu-id="6873e-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="6873e-106">È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="6873e-106">You can use this procedure in the USMF demo data company.</span></span>
 
 
-## <a name="select-the-load"></a>Selezionare il carico.
-1. Andare a Gestione trasporto > Pianificazione > Workbench pianificazione carico.
-2. Deselezionare la casella di controllo Nascondi articoli spediti e ricevuti.
-3. Nell'elenco selezionare il carico con lo stato di Spedito.
-4. Fare clic su Trasporto.
-5. Fare clic su Programmazione appuntamento.
+## <a name="select-the-load"></a><span data-ttu-id="6873e-107">Selezionare il carico.</span><span class="sxs-lookup"><span data-stu-id="6873e-107">Select the load</span></span>
+1. <span data-ttu-id="6873e-108">Andare a Gestione trasporto > Pianificazione > Workbench pianificazione carico.</span><span class="sxs-lookup"><span data-stu-id="6873e-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
+2. <span data-ttu-id="6873e-109">Deselezionare la casella di controllo Nascondi articoli spediti e ricevuti.</span><span class="sxs-lookup"><span data-stu-id="6873e-109">Clear the Hide shipped and received check box.</span></span>
+3. <span data-ttu-id="6873e-110">Nell'elenco selezionare il carico con lo stato di Spedito.</span><span class="sxs-lookup"><span data-stu-id="6873e-110">In the list, select the load that has a status of Shipped.</span></span>
+4. <span data-ttu-id="6873e-111">Fare clic su Trasporto.</span><span class="sxs-lookup"><span data-stu-id="6873e-111">Click Transportation.</span></span>
+5. <span data-ttu-id="6873e-112">Fare clic su Programmazione appuntamento.</span><span class="sxs-lookup"><span data-stu-id="6873e-112">Click Appointment scheduling.</span></span>
 
-## <a name="create-an-appointment"></a>Creare un appuntamento
-1. Fare clic su Nuovo.
-2. Nel campo Regola appuntamento immettere o selezionare un valore.
-3. Fare clic su Salva.
-4. Fare clic su Aggiorna stato.
-5. Fare clic su Stabilizza.
-6. Fare clic su Salva.
-7. Chiudere la pagina.
+## <a name="create-an-appointment"></a><span data-ttu-id="6873e-113">Creare un appuntamento</span><span class="sxs-lookup"><span data-stu-id="6873e-113">Create an appointment</span></span>
+1. <span data-ttu-id="6873e-114">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="6873e-114">Click New.</span></span>
+2. <span data-ttu-id="6873e-115">Nel campo Regola appuntamento immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="6873e-115">In the Appointment rule field, enter or select a value.</span></span>
+3. <span data-ttu-id="6873e-116">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="6873e-116">Click Save.</span></span>
+4. <span data-ttu-id="6873e-117">Fare clic su Aggiorna stato.</span><span class="sxs-lookup"><span data-stu-id="6873e-117">Click Update status.</span></span>
+5. <span data-ttu-id="6873e-118">Fare clic su Stabilizza.</span><span class="sxs-lookup"><span data-stu-id="6873e-118">Click Firm.</span></span>
+6. <span data-ttu-id="6873e-119">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="6873e-119">Click Save.</span></span>
+7. <span data-ttu-id="6873e-120">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="6873e-120">Close the page.</span></span>
 
 

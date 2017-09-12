@@ -15,31 +15,31 @@ ms.custom:
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
-ms.openlocfilehash: ab6d22cf2c1610843de42d1e62cd93b17d74d8b8
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fa5b240bc9c9f96ae5483be316eff62df915570
 ms.contentlocale: it-it
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="sell-and-return-products-outside-of-an-assortment"></a>Prodotti resi e di vendita non inclusi in un assortimento
-Uno scenario comune per il rivenditore è la vendita di prodotti ai clienti o l'accettazione di resi dai clienti anche se non hanno i prodotti specifici nel punto vendita (in altre parole i prodotti non sono un assortimento del punto vendita).
-Di seguito sono riportati alcuni scenari comuni:
+# <a name="sell-and-return-products-outside-of-an-assortment"></a><span data-ttu-id="75a8d-103">Prodotti resi e di vendita non inclusi in un assortimento</span><span class="sxs-lookup"><span data-stu-id="75a8d-103">Sell and return products outside of an assortment</span></span>
+<span data-ttu-id="75a8d-104">Uno scenario comune per il rivenditore è la vendita di prodotti ai clienti o l'accettazione di resi dai clienti anche se non hanno i prodotti specifici nel punto vendita (in altre parole i prodotti non sono un assortimento del punto vendita).</span><span class="sxs-lookup"><span data-stu-id="75a8d-104">A common scenario for any retailer is to sell products to their customers or accept returns from their customers even if they don’t carry the specific products in their store (in other words, the products are not assorted to the store).</span></span>
+<span data-ttu-id="75a8d-105">Di seguito sono riportati alcuni scenari comuni:</span><span class="sxs-lookup"><span data-stu-id="75a8d-105">Here are some typical scenarios:</span></span>
 
-+ Un rivenditore conserva tutti i propri prodotti in un punto vendita specifico. I prodotti rimanenti sono conservati in magazzino. L'associato del punto vendita può assistere il cliente nella ricerca dei prodotti nel magazzino, aggiungerli al carrello e completare la transazione selezionando un metodo di consegna, ad esempio la spedizione dal magazzino a un indirizzo, o lasciare che il cliente prelevi il prodotto dal punto vendita corrente o da un altro punto vendita.
-+ Un rivenditore non dispone di prodotti specifici presso il punto vendita o non li ha in scorta presso il punto vendita visitato dal cliente, ma i prodotti sono disponibili in altri punti vendita. L'associato del punto vendita può assistere il cliente nella ricerca dei prodotti nell'altro punto vendita, aggiungerli al carrello e completare la transazione selezionando un metodo di consegna.
-+ Un rivenditore possiede numerosi punti vendita vicino o in una città o area specifica e non vuole costringere i clienti a restituire i prodotti allo stesso punto vendita in cui li hanno acquistati. I clienti possono invece restituire i prodotti in qualsiasi punto vendita.
++ <span data-ttu-id="75a8d-106">Un rivenditore conserva tutti i propri prodotti in un punto vendita specifico.</span><span class="sxs-lookup"><span data-stu-id="75a8d-106">A retailer doesn’t carry all its products in a specific store.</span></span> <span data-ttu-id="75a8d-107">I prodotti rimanenti sono conservati in magazzino.</span><span class="sxs-lookup"><span data-stu-id="75a8d-107">The remaining products are stored in the warehouse.</span></span> <span data-ttu-id="75a8d-108">L'associato del punto vendita può assistere il cliente nella ricerca dei prodotti nel magazzino, aggiungerli al carrello e completare la transazione selezionando un metodo di consegna, ad esempio la spedizione dal magazzino a un indirizzo, o lasciare che il cliente prelevi il prodotto dal punto vendita corrente o da un altro punto vendita.</span><span class="sxs-lookup"><span data-stu-id="75a8d-108">The store associate can assist the customer by searching or browsing for the products in the warehouse, add them to the cart, and complete the checkout by selecting a delivery method, such as shipping to an address from the warehouse or letting the customer pick up the product from the current store or from another store.</span></span>
++ <span data-ttu-id="75a8d-109">Un rivenditore non dispone di prodotti specifici presso il punto vendita o non li ha in scorta presso il punto vendita visitato dal cliente, ma i prodotti sono disponibili in altri punti vendita.</span><span class="sxs-lookup"><span data-stu-id="75a8d-109">A retailer doesn’t carry specific products in the store or doesn’t have them in stock at the store the customer visited, but the products are available in other stores.</span></span> <span data-ttu-id="75a8d-110">L'associato del punto vendita può assistere il cliente nella ricerca dei prodotti nell'altro punto vendita, aggiungerli al carrello e completare la transazione selezionando un metodo di consegna.</span><span class="sxs-lookup"><span data-stu-id="75a8d-110">The store associate can assist the customer by searching or browsing the products in the other store, add them to the cart, and complete the checkout by selecting a delivery method.</span></span>
++ <span data-ttu-id="75a8d-111">Un rivenditore possiede numerosi punti vendita vicino o in una città o area specifica e non vuole costringere i clienti a restituire i prodotti allo stesso punto vendita in cui li hanno acquistati.</span><span class="sxs-lookup"><span data-stu-id="75a8d-111">A retailer has many stores in and around a specific city or zip code and doesn’t want to force the customers to return products to the same store they were purchased in.</span></span> <span data-ttu-id="75a8d-112">I clienti possono invece restituire i prodotti in qualsiasi punto vendita.</span><span class="sxs-lookup"><span data-stu-id="75a8d-112">Instead, customers can return products to any store.</span></span>
 
 
-Questi scenari comuni sono disponibili per i rivenditori che utilizzano Dynamics 365 for Retail. Con Retail è possibile:
-+ Cercare dei prodotti presso altri punti vendita.
-+ Cercare tutti i prodotti rilasciati.
-+ Creare transazioni cash-and-carry o ordini di cliente.
-+ Selezionare le opzioni di consegna per gli ordini cliente.
-+ Prelevare i prodotti presso il punto vendita corrente o presso un altro punto vendita.
-+ Annullare un ordine presso il punto vendita corrente o presso un altro punto vendita.
-+ Restituire un ordine con o senza ricevuta presso il punto vendita corrente o presso un altro punto vendita.
+<span data-ttu-id="75a8d-113">Questi scenari comuni sono disponibili per i rivenditori che utilizzano Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="75a8d-113">Those common scenarios are available for retailers using Dynamics 365 for Retail.</span></span> <span data-ttu-id="75a8d-114">Con Retail è possibile:</span><span class="sxs-lookup"><span data-stu-id="75a8d-114">With Retail, you can:</span></span>
++ <span data-ttu-id="75a8d-115">Cercare dei prodotti presso altri punti vendita.</span><span class="sxs-lookup"><span data-stu-id="75a8d-115">Search or browse products at other stores.</span></span>
++ <span data-ttu-id="75a8d-116">Cercare tutti i prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="75a8d-116">Search or browse all released products.</span></span>
++ <span data-ttu-id="75a8d-117">Creare transazioni cash-and-carry o ordini di cliente.</span><span class="sxs-lookup"><span data-stu-id="75a8d-117">Create cash-and-carry transactions or customer orders.</span></span>
++ <span data-ttu-id="75a8d-118">Selezionare le opzioni di consegna per gli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="75a8d-118">Select delivery options for customer orders.</span></span>
++ <span data-ttu-id="75a8d-119">Prelevare i prodotti presso il punto vendita corrente o presso un altro punto vendita.</span><span class="sxs-lookup"><span data-stu-id="75a8d-119">Pick up products at the current store or another store.</span></span>
++ <span data-ttu-id="75a8d-120">Annullare un ordine presso il punto vendita corrente o presso un altro punto vendita.</span><span class="sxs-lookup"><span data-stu-id="75a8d-120">Cancel an order at the current store or another store.</span></span>
++ <span data-ttu-id="75a8d-121">Restituire un ordine con o senza ricevuta presso il punto vendita corrente o presso un altro punto vendita.</span><span class="sxs-lookup"><span data-stu-id="75a8d-121">Return an order with or without the receipt at the current store or another store.</span></span>
 

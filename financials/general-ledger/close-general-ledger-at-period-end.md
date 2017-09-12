@@ -18,40 +18,40 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: bcf58b0ca995883bc466eec66a3d75c73c0be79e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 16acadf0b814ff5863873280cd8d6e6ddbdcffc8
 ms.contentlocale: it-it
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="close-the-general-ledger-at-period-end"></a>Chiudere la contabilità generale a fine periodo
+# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="21883-103">Chiudere la contabilità generale a fine periodo</span><span class="sxs-lookup"><span data-stu-id="21883-103">Close the general ledger at period end</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento vengono descritte le attività che vengono completate in genere quando si esegue una chiusura periodo per la contabilità generale. 
+<span data-ttu-id="21883-104">In questo argomento vengono descritte le attività che vengono completate in genere quando si esegue una chiusura periodo per la contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="21883-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
 
-In Contabilità generale, è possibile completare le procedure di chiusura per un periodo di tempo o un anno. La chiusura di processi consente di preparare il sistema per nuovo periodo. Per preparare il sistema per un nuovo anno, è necessario eseguire il processo di chiusura di fine anno. Ogni organizzazione ha processi e passaggi diversi che esegue per la fine di un periodo. Di seguito sono riportati alcuni passaggi facoltativi per la fine del periodo:
+<span data-ttu-id="21883-105">In Contabilità generale, è possibile completare le procedure di chiusura per un periodo di tempo o un anno.</span><span class="sxs-lookup"><span data-stu-id="21883-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="21883-106">La chiusura di processi consente di preparare il sistema per nuovo periodo.</span><span class="sxs-lookup"><span data-stu-id="21883-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="21883-107">Per preparare il sistema per un nuovo anno, è necessario eseguire il processo di chiusura di fine anno.</span><span class="sxs-lookup"><span data-stu-id="21883-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="21883-108">Ogni organizzazione ha processi e passaggi diversi che esegue per la fine di un periodo.</span><span class="sxs-lookup"><span data-stu-id="21883-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="21883-109">Di seguito sono riportati alcuni passaggi facoltativi per la fine del periodo:</span><span class="sxs-lookup"><span data-stu-id="21883-109">Here are some optional steps for period ends:</span></span>
 
--   Completare tutte le attività per tutti gli altri moduli, ad esempio Contabilità clienti, Contabilità fornitori e Inventario.
--   Verificare che tutte i giornali di registrazione siano stati registrati.
--   Eseguire la rivalutazione valuta estera per generare tutti gli eventuali importi di perdite o profitti non realizzati.
--   Liquidare le transazioni per ogni conto CoGe.
--   Elaborare le eventuali allocazioni necessarie.
--   Registrare manualmente le rettifiche di fine periodo.
--   Inserire transazioni nel giornale di registrazione e revisionare il report **Giornale di registrazione contabile**.
--   Eseguire un consolidamento utilizzando una società di consolidamento o report finanziari.
--   Generare rendiconti finanziari di fine periodo utilizzando i report finanziari.
--   Impostare i periodi contabili su **In attesa** in modo che non vengano eseguite ulteriori registrazioni. Per un maggiore controllo, è inoltre possibile limitare un periodo a un gruppo di utenti specifico durante l'esecuzione delle attività di fine periodo. Non è consigliabile impostare i periodi su **Chiuso in modo permanente** poiché non è possibile riaprire un periodo che è stato chiuso.
+-   <span data-ttu-id="21883-110">Completare tutte le attività per tutti gli altri moduli, ad esempio Contabilità clienti, Contabilità fornitori e Inventario.</span><span class="sxs-lookup"><span data-stu-id="21883-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
+-   <span data-ttu-id="21883-111">Verificare che tutte i giornali di registrazione siano stati registrati.</span><span class="sxs-lookup"><span data-stu-id="21883-111">Verify that all journals are posted.</span></span>
+-   <span data-ttu-id="21883-112">Eseguire la rivalutazione valuta estera per generare tutti gli eventuali importi di perdite o profitti non realizzati.</span><span class="sxs-lookup"><span data-stu-id="21883-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
+-   <span data-ttu-id="21883-113">Liquidare le transazioni per ogni conto CoGe.</span><span class="sxs-lookup"><span data-stu-id="21883-113">Settle transactions for each ledger account.</span></span>
+-   <span data-ttu-id="21883-114">Elaborare le eventuali allocazioni necessarie.</span><span class="sxs-lookup"><span data-stu-id="21883-114">Process any required allocations.</span></span>
+-   <span data-ttu-id="21883-115">Registrare manualmente le rettifiche di fine periodo.</span><span class="sxs-lookup"><span data-stu-id="21883-115">Manually post period-end adjustments.</span></span>
+-   <span data-ttu-id="21883-116">Inserire transazioni nel giornale di registrazione e revisionare il report **Giornale di registrazione contabile**.</span><span class="sxs-lookup"><span data-stu-id="21883-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
+-   <span data-ttu-id="21883-117">Eseguire un consolidamento utilizzando una società di consolidamento o report finanziari.</span><span class="sxs-lookup"><span data-stu-id="21883-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
+-   <span data-ttu-id="21883-118">Generare rendiconti finanziari di fine periodo utilizzando i report finanziari.</span><span class="sxs-lookup"><span data-stu-id="21883-118">Generate period-end financial statements by using Financial reporting.</span></span>
+-   <span data-ttu-id="21883-119">Impostare i periodi contabili su **In attesa** in modo che non vengano eseguite ulteriori registrazioni.</span><span class="sxs-lookup"><span data-stu-id="21883-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="21883-120">Per un maggiore controllo, è inoltre possibile limitare un periodo a un gruppo di utenti specifico durante l'esecuzione delle attività di fine periodo.</span><span class="sxs-lookup"><span data-stu-id="21883-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="21883-121">Non è consigliabile impostare i periodi su **Chiuso in modo permanente** poiché non è possibile riaprire un periodo che è stato chiuso.</span><span class="sxs-lookup"><span data-stu-id="21883-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
 
-L'area di lavoro Chiusura periodo finanziario può essere utilizzata per organizzare e tenere traccia delle attività richieste per vari processi di fine periodo. 
+<span data-ttu-id="21883-122">L'area di lavoro Chiusura periodo finanziario può essere utilizzata per organizzare e tenere traccia delle attività richieste per vari processi di fine periodo.</span><span class="sxs-lookup"><span data-stu-id="21883-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
 
 
-Per ulteriori informazioni, vedere gli argomenti seguenti:
-- [Area di lavoro chiusura periodo finanziario](financial-period-close-workspace.md) 
-- [Chiusura di fine anno](Year-end-close.md)  
-- [Chiusura in massa del periodo fiscale](tasks/mass-financial-period-close.md)
+<span data-ttu-id="21883-123">Per ulteriori informazioni, vedere gli argomenti seguenti:</span><span class="sxs-lookup"><span data-stu-id="21883-123">For more information, see the following topics for more information:</span></span>
+- [<span data-ttu-id="21883-124">Area di lavoro chiusura periodo finanziario</span><span class="sxs-lookup"><span data-stu-id="21883-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
+- [<span data-ttu-id="21883-125">Chiusura di fine anno</span><span class="sxs-lookup"><span data-stu-id="21883-125">Year end close</span></span>](Year-end-close.md)  
+- [<span data-ttu-id="21883-126">Chiusura in massa del periodo fiscale</span><span class="sxs-lookup"><span data-stu-id="21883-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
 
 
 

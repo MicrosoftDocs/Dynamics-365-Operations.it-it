@@ -15,36 +15,36 @@ ms.custom: 265434
 ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.region: global
 ms.author: fdahl
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: daba17aed7e6cc475a16d6100c5c99ee747ca048
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4e60a6c7d79f59382b3958b849d78aac18550bc3
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>Contenuto Power BI sull'analisi delle spese di acquisto
+# <a name="purchase-spend-analysis-power-bi-content"></a><span data-ttu-id="dc5f8-104">Contenuto Power BI sull'analisi delle spese di acquisto</span><span class="sxs-lookup"><span data-stu-id="dc5f8-104">Purchase spend analysis Power BI content</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto di Microsoft Power BI **Analisi delle spese di acquisto**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+<span data-ttu-id="dc5f8-105">In questo argomento viene descritto cosa è incluso nel contenuto di Microsoft Power BI **Analisi delle spese di acquisto**.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-105">This topic describes what is included in the **Purchase spend analysis** Microsoft Power BI content.</span></span> <span data-ttu-id="dc5f8-106">Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
-## <a name="overview"></a>Panoramica
+## <a name="overview"></a><span data-ttu-id="dc5f8-107">Panoramica</span><span class="sxs-lookup"><span data-stu-id="dc5f8-107">Overview</span></span>
 
-Il contenuto di Power BI **Analisi delle spese di acquisto** è stato progettato per consentire ai responsabili acquisti e i dirigenti responsabili di budget di tenere sotto controllo la spesa di acquisto. I responsabili possono analizzare la spesa d'acquisto nei seguenti modi:
+<span data-ttu-id="dc5f8-108">Il contenuto di Power BI **Analisi delle spese di acquisto** è stato progettato per consentire ai responsabili acquisti e i dirigenti responsabili di budget di tenere sotto controllo la spesa di acquisto.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-108">The **Purchase spend analysis** Power BI content was designed to help purchasing managers and managers who are responsible for budgets keep an eye on purchase spending.</span></span> <span data-ttu-id="dc5f8-109">I responsabili possono analizzare la spesa d'acquisto nei seguenti modi:</span><span class="sxs-lookup"><span data-stu-id="dc5f8-109">Managers can analyze purchase spending in the following ways:</span></span>
 
--   Acquisto da inizio anno (per gruppo di fornitori e singoli fornitori, per categoria di approvvigionamento e singoli prodotti e per ubicazione del fornitore)
--   Modifica di acquisto da inizio anno (per gruppo di fornitori e categoria di approvvigionamento)
+-   <span data-ttu-id="dc5f8-110">Acquisto da inizio anno (per gruppo di fornitori e singoli fornitori, per categoria di approvvigionamento e singoli prodotti e per ubicazione del fornitore)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-110">Year-to-date purchase (by vendor group and individual vendors, procurement category and individual products, and vendor location)</span></span>
+-   <span data-ttu-id="dc5f8-111">Modifica di acquisto da inizio anno (per gruppo di fornitori e categoria di approvvigionamento)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-111">Year-over-year purchase change (by vendor group and procurement category)</span></span>
 
-Il contenuto utilizza dati transazionali di acquisto e offre sia una visualizzazione aggregata delle cifre di acquisto a livello di società che una scomposizione dettagliata della spesa di acquisto per fornitore e prodotto. I report evidenziano le modifiche nella spesa di acquisto nel tempo. Di conseguenza, è possibile utilizzarli per avvisare i responsabili sulle tendenze positive e negative di spesa per singoli fornitori e prodotti. Inoltre, i grafici mostrano la spesa di acquisto per categorie di approvvigionamento e gruppi di fornitori diversi. Pertanto, i responsabili di categoria e regionali possono usare questi grafici per identificare i cambiamenti nel comportamento di spesa.
+<span data-ttu-id="dc5f8-112">Il contenuto utilizza dati transazionali di acquisto e offre sia una visualizzazione aggregata delle cifre di acquisto a livello di società che una scomposizione dettagliata della spesa di acquisto per fornitore e prodotto.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-112">The content uses purchase transactional data, and provides both an aggregate view of the company-wide purchase figures and a breakdown of purchase spending by vendor and product.</span></span> <span data-ttu-id="dc5f8-113">I report evidenziano le modifiche nella spesa di acquisto nel tempo.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-113">Reports highlight changes in purchase spending over time.</span></span> <span data-ttu-id="dc5f8-114">Di conseguenza, è possibile utilizzarli per avvisare i responsabili sulle tendenze positive e negative di spesa per singoli fornitori e prodotti.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-114">Therefore, the reports can be used to alert managers about positive and negative spending trends for individual vendors and products.</span></span> <span data-ttu-id="dc5f8-115">Inoltre, i grafici mostrano la spesa di acquisto per categorie di approvvigionamento e gruppi di fornitori diversi.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-115">Additionally, charts show purchase spending for different procurement categories and vendor groups.</span></span> <span data-ttu-id="dc5f8-116">Pertanto, i responsabili di categoria e regionali possono usare questi grafici per identificare i cambiamenti nel comportamento di spesa.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-116">Therefore, category and regional managers can use the charts to help identify changes in spending behavior.</span></span>
 
-## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Se si utilizza l'aggiornamento di luglio 2017 di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, il contenuto di Power BI **Analisi delle spese di acquisto** verrà visualizzato nella pagina **Analisi di spesa e acquisto** (**Approvvigionamento** > **Richieste di informazioni e report** > **Analisi delle prestazioni di acquisto** > **Analisi di spesa e di acquisto**). 
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="dc5f8-117">Accesso al contenuto Power BI</span><span class="sxs-lookup"><span data-stu-id="dc5f8-117">Accessing the Power BI content</span></span>
+<span data-ttu-id="dc5f8-118">Se si utilizza l'aggiornamento di luglio 2017 di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, il contenuto di Power BI **Analisi delle spese di acquisto** verrà visualizzato nella pagina **Analisi di spesa e acquisto** (**Approvvigionamento** > **Richieste di informazioni e report** > **Analisi delle prestazioni di acquisto** > **Analisi di spesa e di acquisto**).</span><span class="sxs-lookup"><span data-stu-id="dc5f8-118">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, the **Purchase spend analysis** Power BI content is shown on the **Purchase and spend analysis** page (**Procurement and sourcing** > **Inquiries and reports** > **Purchase performance analysis** > **Purchase and spend analysis**).</span></span> 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
-Il contenuto di Power BI **Analisi delle spese di acquisto** include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="dc5f8-119">Metriche incluse nel contenuto Power BI</span><span class="sxs-lookup"><span data-stu-id="dc5f8-119">Metrics that are included in the Power BI content</span></span>
+<span data-ttu-id="dc5f8-120">Il contenuto di Power BI **Analisi delle spese di acquisto** include un report costituito da un set di metriche.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-120">The **Purchase spend analysis** Power BI content includes a report that consists of a set of metrics.</span></span> <span data-ttu-id="dc5f8-121">Queste metriche vengono visualizzate come grafici, riquadri e tabelle.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-121">These metrics are visualized as charts, tiles, and tables.</span></span> <span data-ttu-id="dc5f8-122">Nella seguente tabella viene fornita una panoramica delle visualizzazioni.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-122">The following table provides an overview of the visualizations.</span></span>
 
 <table>
 <colgroup>
@@ -54,120 +54,120 @@ Il contenuto di Power BI **Analisi delle spese di acquisto** include un report c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pagina di report</th>
-<th>Grafici</th>
-<th>Riquadri</th>
+<th><span data-ttu-id="dc5f8-123">Pagina di report</span><span class="sxs-lookup"><span data-stu-id="dc5f8-123">Report page</span></span></th>
+<th><span data-ttu-id="dc5f8-124">Grafici</span><span class="sxs-lookup"><span data-stu-id="dc5f8-124">Charts</span></span></th>
+<th><span data-ttu-id="dc5f8-125">Riquadri</span><span class="sxs-lookup"><span data-stu-id="dc5f8-125">Tiles</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Acquisti per fornitore</td>
+<td><span data-ttu-id="dc5f8-126">Acquisti per fornitore</span><span class="sxs-lookup"><span data-stu-id="dc5f8-126">Purchase by vendor</span></span></td>
 <td><ul>
-<li>Primi 10 fornitori per acquisti (grafico a barre impilate)</li>
-<li>Acquisti totali per gruppo di fornitori/paese/nome (grafico a torta)</li>
-<li>Acquisti per gruppo di fornitori/paese/nome (istogramma)</li>
-<li>Media degli acquisti per gruppo di fornitori/paese/nome (istogramma)</li>
+<li><span data-ttu-id="dc5f8-127">Primi 10 fornitori per acquisti (grafico a barre impilate)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-127">Top 10 vendors by purchase (stacked bar chart)</span></span></li>
+<li><span data-ttu-id="dc5f8-128">Acquisti totali per gruppo di fornitori/paese/nome (grafico a torta)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-128">Total purchase by vendor group / country / name (pie chart)</span></span></li>
+<li><span data-ttu-id="dc5f8-129">Acquisti per gruppo di fornitori/paese/nome (istogramma)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-129">Purchase by vendor group / country / name (column chart)</span></span></li>
+<li><span data-ttu-id="dc5f8-130">Media degli acquisti per gruppo di fornitori/paese/nome (istogramma)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-130">Average purchase by vendor group / country / name (column chart)</span></span></li>
 </ul></td>
 <td><ul>
-<li>Totale acquisto</li>
-<li>Crescita degli acquisti su base annua</li>
-<li>N. totale fornitori</li>
-<li>N. totale dei fornitori attivi</li>
+<li><span data-ttu-id="dc5f8-131">Totale acquisto</span><span class="sxs-lookup"><span data-stu-id="dc5f8-131">Total purchase</span></span></li>
+<li><span data-ttu-id="dc5f8-132">Crescita degli acquisti su base annua</span><span class="sxs-lookup"><span data-stu-id="dc5f8-132">YOY purchase growth</span></span></li>
+<li><span data-ttu-id="dc5f8-133">N. totale fornitori</span><span class="sxs-lookup"><span data-stu-id="dc5f8-133">Total # vendors</span></span></li>
+<li><span data-ttu-id="dc5f8-134">N. totale dei fornitori attivi</span><span class="sxs-lookup"><span data-stu-id="dc5f8-134">Total # of active vendors</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Acquisti per prodotto</td>
+<td><span data-ttu-id="dc5f8-135">Acquisti per prodotto</span><span class="sxs-lookup"><span data-stu-id="dc5f8-135">Purchase by product</span></span></td>
 <td><ul>
-<li>Acquisti per categoria di approvvigionamento/nome prodotto (istogramma)</li>
-<li>Acquisti totali per categoria di approvvigionamento/nome prodotto (grafico a torta)</li>
-<li>Primi 10 prodotti per acquisti (grafico a barre impilate)</li>
+<li><span data-ttu-id="dc5f8-136">Acquisti per categoria di approvvigionamento/nome prodotto (istogramma)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-136">Purchase by procurement category / product name (column chart)</span></span></li>
+<li><span data-ttu-id="dc5f8-137">Acquisti totali per categoria di approvvigionamento/nome prodotto (grafico a torta)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-137">Total purchase by procurement category / product name (pie chart)</span></span></li>
+<li><span data-ttu-id="dc5f8-138">Primi 10 prodotti per acquisti (grafico a barre impilate)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-138">Top 10 products by purchase (stacked bar chart)</span></span></li>
 </ul></td>
 <td><ul>
-<li>N. totale di prodotti</li>
-<li>Percentuale di prodotti attivi totali del numero totale di prodotti</li>
-<li>Numero di prodotti che rappresentano l'80% degli acquisti</li>
+<li><span data-ttu-id="dc5f8-139">N. totale di prodotti</span><span class="sxs-lookup"><span data-stu-id="dc5f8-139">Total # of products</span></span></li>
+<li><span data-ttu-id="dc5f8-140">Percentuale di prodotti attivi totali del numero totale di prodotti</span><span class="sxs-lookup"><span data-stu-id="dc5f8-140">Total active products percentage of total # of products</span></span></li>
+<li><span data-ttu-id="dc5f8-141">Numero di prodotti che rappresentano l'80% degli acquisti</span><span class="sxs-lookup"><span data-stu-id="dc5f8-141">Number of products accounting for 80% purchase</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Acquisti per periodo*</td>
+<td><span data-ttu-id="dc5f8-142">Acquisti per periodo*</span><span class="sxs-lookup"><span data-stu-id="dc5f8-142">Purchase by period*</span></span></td>
 <td><ul>
-<li>Acquisti al mese/giorno (istogramma)</li>
-<li>Scostamento di acquisti cumulativi su base annua (grafico a cascata)</li>
-<li>Crescita degli acquisti totali su base annua (istogramma)</li>
-<li>Rendiconto di approvvigionamento (matrice)</li>
+<li><span data-ttu-id="dc5f8-143">Acquisti al mese/giorno (istogramma)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-143">Purchase by month / day (column chart)</span></span></li>
+<li><span data-ttu-id="dc5f8-144">Scostamento di acquisti cumulativi su base annua (grafico a cascata)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-144">Cumulative purchase YOY variance (waterfall chart)</span></span></li>
+<li><span data-ttu-id="dc5f8-145">Crescita degli acquisti totali su base annua (istogramma)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-145">Total purchase YOY growth (column chart)</span></span></li>
+<li><span data-ttu-id="dc5f8-146">Rendiconto di approvvigionamento (matrice)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-146">Procurement statement (matrix)</span></span></li>
 </ul></td>
 <td><ul>
-<li>Crescita degli acquisti su base annua</li>
-<li>% di crescita degli acquisti su base annua</li>
+<li><span data-ttu-id="dc5f8-147">Crescita degli acquisti su base annua</span><span class="sxs-lookup"><span data-stu-id="dc5f8-147">YOY purchase growth</span></span></li>
+<li><span data-ttu-id="dc5f8-148">% di crescita degli acquisti su base annua</span><span class="sxs-lookup"><span data-stu-id="dc5f8-148">YOY purchase growth %</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Acquisti per ubicazione del fornitore</td>
+<td><span data-ttu-id="dc5f8-149">Acquisti per ubicazione del fornitore</span><span class="sxs-lookup"><span data-stu-id="dc5f8-149">Purchase by vendor location</span></span></td>
 <td><ul>
-<li>Acquisti per città</li>
-<li>% di crescita su base annua degli acquisti</li>
-<li>Acquisti per paese</li>
+<li><span data-ttu-id="dc5f8-150">Acquisti per città</span><span class="sxs-lookup"><span data-stu-id="dc5f8-150">Purchase by city</span></span></li>
+<li><span data-ttu-id="dc5f8-151">% di crescita su base annua degli acquisti</span><span class="sxs-lookup"><span data-stu-id="dc5f8-151">Purchase YOY growth %</span></span></li>
+<li><span data-ttu-id="dc5f8-152">Acquisti per paese</span><span class="sxs-lookup"><span data-stu-id="dc5f8-152">Purchase by country</span></span></li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Analisi delle spese di acquisto in base all'ora</td>
+<td><span data-ttu-id="dc5f8-153">Analisi delle spese di acquisto in base all'ora</span><span class="sxs-lookup"><span data-stu-id="dc5f8-153">Purchase spend analysis by time</span></span></td>
 <td><ul>
-<li>Acquisti nell'anno corrente al mese/giorno (grafico a linee)</li>
-<li>Acquisti nell'anno corrente e nell'anno passato (grafico a linee e colonne)</li>
+<li><span data-ttu-id="dc5f8-154">Acquisti nell'anno corrente al mese/giorno (grafico a linee)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-154">Purchase current year by month / day (line chart)</span></span></li>
+<li><span data-ttu-id="dc5f8-155">Acquisti nell'anno corrente e nell'anno passato (grafico a linee e colonne)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-155">Purchase current and last year (line and column chart)</span></span></li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Analisi delle spese di acquisto per fornitore</td>
+<td><span data-ttu-id="dc5f8-156">Analisi delle spese di acquisto per fornitore</span><span class="sxs-lookup"><span data-stu-id="dc5f8-156">Purchase spend analysis by vendor</span></span></td>
 <td><ul>
-<li>% di acquisti dei primi 10 fornitori (grafico a imbuto)</li>
-<li>Primi 10 fornitori con aumento delle spese su base annua</li>
-<li>Primi 10 fornitori con diminuzione delle spese su base annua</li>
+<li><span data-ttu-id="dc5f8-157">% di acquisti dei primi 10 fornitori (grafico a imbuto)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-157">Top 10 vendor purchase % of purchase (funnel)</span></span></li>
+<li><span data-ttu-id="dc5f8-158">Primi 10 fornitori con aumento delle spese su base annua</span><span class="sxs-lookup"><span data-stu-id="dc5f8-158">Top 10 vendors with increased spending YOY</span></span></li>
+<li><span data-ttu-id="dc5f8-159">Primi 10 fornitori con diminuzione delle spese su base annua</span><span class="sxs-lookup"><span data-stu-id="dc5f8-159">Top 10 vendors with decreased spending YOY</span></span></li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\* Acquisti nell'anno corrente e nell'anno passato e crescita per categoria di approvvigionamento
+<span data-ttu-id="dc5f8-160">\* Acquisti nell'anno corrente e nell'anno passato e crescita per categoria di approvvigionamento</span><span class="sxs-lookup"><span data-stu-id="dc5f8-160">\* Purchase this year and last year, and growth by procurement category</span></span>
 
-## <a name="extending-the-power-bi-content"></a>Estensione del contenuto Power BI
-Utilizzando i pacchetti di contenuti disponibili in Microsoft Dynamics Lifecycle Services (LCS), è possibile fornire eccezionali analisi alle persone che non accedono a Microsoft Dynamics 365. È possibile modificare i pacchetti di contenuti affinché siano inclusi altri report o rappresentazioni e quindi pubblicate i pacchetti contenuti nel tenant Power BI.com per l'analisi. 
+## <a name="extending-the-power-bi-content"></a><span data-ttu-id="dc5f8-161">Estensione del contenuto Power BI</span><span class="sxs-lookup"><span data-stu-id="dc5f8-161">Extending the Power BI content</span></span>
+<span data-ttu-id="dc5f8-162">Utilizzando i pacchetti di contenuti disponibili in Microsoft Dynamics Lifecycle Services (LCS), è possibile fornire eccezionali analisi alle persone che non accedono a Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-162">By using the content packs that are available in Microsoft Dynamics Lifecycle Services (LCS), you can provide great analytics to people who don't sign in to Microsoft Dynamics 365.</span></span> <span data-ttu-id="dc5f8-163">È possibile modificare i pacchetti di contenuti affinché siano inclusi altri report o rappresentazioni e quindi pubblicate i pacchetti contenuti nel tenant Power BI.com per l'analisi.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-163">You can modify these content packs so that they include other reports or visuals, and then publish the content packs to your Power BI.com tenant for analysis.</span></span> 
 
-Puoi trovare il contenuto Power BI **Analisi delle spese di acquisto** nella raccolta delle risorse condivise in LCS. Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+<span data-ttu-id="dc5f8-164">Puoi trovare il contenuto Power BI **Analisi delle spese di acquisto** nella raccolta delle risorse condivise in LCS.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-164">You can find the **Purchase spend analysis** Power BI content in the Shared assets library in LCS.</span></span> <span data-ttu-id="dc5f8-165">Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md).</span><span class="sxs-lookup"><span data-stu-id="dc5f8-165">For more information about how to download the content and implement it in your organization, see [Power BI content in LCS from Microsoft and your partners](power-bi-content-microsoft-partners.md).</span></span> <span data-ttu-id="dc5f8-166">Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).</span><span class="sxs-lookup"><span data-stu-id="dc5f8-166">To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.</span></span>
 
-Assicurarsi di scaricare il contenuto **Analisi delle spese di acquisto** applicabile alla versione di Dynamics 365 in uso.
+<span data-ttu-id="dc5f8-167">Assicurarsi di scaricare il contenuto **Analisi delle spese di acquisto** applicabile alla versione di Dynamics 365 in uso.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-167">Be sure to download the **Purchase spend analysis** content that applies to the version of Dynamics 365 that you're using.</span></span>
 
 > [!NOTE]
-> Se si utilizza Microsoft Dynamics 365 for Operations versione 1611, KB 4011327 è un prerequisito per questo contenuto di Power BI. Dopo avere eseguito l'accesso a LCS, è possibile accedere alla KB qui: : https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+> <span data-ttu-id="dc5f8-168">Se si utilizza Microsoft Dynamics 365 for Operations versione 1611, KB 4011327 è un prerequisito per questo contenuto di Power BI.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-168">If you're using Microsoft Dynamics 365 for Operations version 1611, KB 4011327 is a prerequisite for this Power BI content.</span></span> <span data-ttu-id="dc5f8-169">Dopo avere eseguito l'accesso a LCS, è possibile accedere alla KB qui: : https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-169">After you sign in to LCS, you can access the KB at https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.</span></span>
 
-## <a name="data-model-and-entities"></a>Modello dati ed entità
-I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi delle spese di acquisto**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
+## <a name="data-model-and-entities"></a><span data-ttu-id="dc5f8-170">Modello dati ed entità</span><span class="sxs-lookup"><span data-stu-id="dc5f8-170">Data model and entities</span></span>
+<span data-ttu-id="dc5f8-171">I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi delle spese di acquisto**.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-171">The following data is used to fill the report pages in the **Purchase spend analysis** Power BI content.</span></span> <span data-ttu-id="dc5f8-172">Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-172">This data is represented as aggregate measurements that are staged in the Entity store.</span></span> <span data-ttu-id="dc5f8-173">L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-173">The Entity store is a Microsoft SQL Server database that is optimized for analytics.</span></span> <span data-ttu-id="dc5f8-174">Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).</span><span class="sxs-lookup"><span data-stu-id="dc5f8-174">For more information, see [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span>
 
-Le misure di aggregazione in questo contenuto sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Acquisti in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità in [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). Le seguenti misure di aggregazione chiave sono disponibili direttamente dall'entità delle righe della fattura e sono utilizzate come base del contenuto.
+<span data-ttu-id="dc5f8-175">Le misure di aggregazione in questo contenuto sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Acquisti in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-175">The aggregate measurements in this content are the subset of aggregate measurements that were available in the Purchase Cube in Microsoft Dynamics AX 2012 and Microsoft Dynamics AX 2012 R3.</span></span> <span data-ttu-id="dc5f8-176">Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-176">To stage the cube’s aggregate measurements in the Entity store, you must make them deployable.</span></span> <span data-ttu-id="dc5f8-177">Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità in [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).</span><span class="sxs-lookup"><span data-stu-id="dc5f8-177">For more information, see the procedure for staging aggregate measurements in the Entity store in [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span> <span data-ttu-id="dc5f8-178">Le seguenti misure di aggregazione chiave sono disponibili direttamente dall'entità delle righe della fattura e sono utilizzate come base del contenuto.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-178">The following key aggregate measurements are available directly from the Invoice lines entity and are used as the basis of the content.</span></span>
 
-| Entità        | Misure di aggregazione chiave | Origine dati                                 | Campo              | descrizione                            |
+| <span data-ttu-id="dc5f8-179">Entità</span><span class="sxs-lookup"><span data-stu-id="dc5f8-179">Entity</span></span>        | <span data-ttu-id="dc5f8-180">Misure di aggregazione chiave</span><span class="sxs-lookup"><span data-stu-id="dc5f8-180">Key aggregate measurements</span></span> | <span data-ttu-id="dc5f8-181">Origine dati</span><span class="sxs-lookup"><span data-stu-id="dc5f8-181">Data source</span></span>                                 | <span data-ttu-id="dc5f8-182">Campo</span><span class="sxs-lookup"><span data-stu-id="dc5f8-182">Field</span></span>              | <span data-ttu-id="dc5f8-183">descrizione</span><span class="sxs-lookup"><span data-stu-id="dc5f8-183">Description</span></span>                            |
 |---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
-| Righe fattura | Acquisti                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Importo nella valuta di contabilizzazione. |
+| <span data-ttu-id="dc5f8-184">Righe fattura</span><span class="sxs-lookup"><span data-stu-id="dc5f8-184">Invoice lines</span></span> | <span data-ttu-id="dc5f8-185">Acquisti</span><span class="sxs-lookup"><span data-stu-id="dc5f8-185">Purchase</span></span>                   | <span data-ttu-id="dc5f8-186">VendInvoiceTrans</span><span class="sxs-lookup"><span data-stu-id="dc5f8-186">VendInvoiceTrans</span></span>                            | <span data-ttu-id="dc5f8-187">SUM(LineAmountMST)</span><span class="sxs-lookup"><span data-stu-id="dc5f8-187">SUM(LineAmountMST)</span></span> | <span data-ttu-id="dc5f8-188">Importo nella valuta di contabilizzazione.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-188">The amount in the accounting currency.</span></span> |
 
-Nella seguente tabella vengono illustrate le misurazioni chiave nel contenuto calcolate dall'entità delle righe della fattura.
+<span data-ttu-id="dc5f8-189">Nella seguente tabella vengono illustrate le misurazioni chiave nel contenuto calcolate dall'entità delle righe della fattura.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-189">The following table shows the key measurements in the content that are calculated from the Invoice lines entity.</span></span>
 
-| Unità di misura               | Calcolo                                                                                         |
+| <span data-ttu-id="dc5f8-190">Unità di misura</span><span class="sxs-lookup"><span data-stu-id="dc5f8-190">Measure</span></span>               | <span data-ttu-id="dc5f8-191">Calcolo</span><span class="sxs-lookup"><span data-stu-id="dc5f8-191">Calculation</span></span>                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Acquisti nell'anno corrente | Acquisto nell'anno corrente = SUM('Righe fattura'\[Acquisti\])                                            |
-| Acquisti nell'anno passato    | Acquisti nell'anno passato = CALCULATE(SUM('Righe fattura'\[Acquisti\]), SAMEPERIODLASTYEAR(Dates\[Data\])) |
-| Crescita degli acquisti su base annua   | Crescita degli acquisti su base annua = \[Acquisti nell'anno corrente\] - \[Acquisti nell'anno passato\]                            |
+| <span data-ttu-id="dc5f8-192">Acquisti nell'anno corrente</span><span class="sxs-lookup"><span data-stu-id="dc5f8-192">Purchase current year</span></span> | <span data-ttu-id="dc5f8-193">Acquisto nell'anno corrente = SUM('Righe fattura'\[Acquisti\])</span><span class="sxs-lookup"><span data-stu-id="dc5f8-193">Purchase current year = SUM('Invoice lines'\[Purchase\])</span></span>                                            |
+| <span data-ttu-id="dc5f8-194">Acquisti nell'anno passato</span><span class="sxs-lookup"><span data-stu-id="dc5f8-194">Purchase last year</span></span>    | <span data-ttu-id="dc5f8-195">Acquisti nell'anno passato = CALCULATE(SUM('Righe fattura'\[Acquisti\]), SAMEPERIODLASTYEAR(Dates\[Data\]))</span><span class="sxs-lookup"><span data-stu-id="dc5f8-195">Purchase last year = CALCULATE(SUM('Invoice lines'\[Purchase\]), SAMEPERIODLASTYEAR(Dates\[Date\]))</span></span> |
+| <span data-ttu-id="dc5f8-196">Crescita degli acquisti su base annua</span><span class="sxs-lookup"><span data-stu-id="dc5f8-196">YOY purchase growth</span></span>   | <span data-ttu-id="dc5f8-197">Crescita degli acquisti su base annua = \[Acquisti nell'anno corrente\] - \[Acquisti nell'anno passato\]</span><span class="sxs-lookup"><span data-stu-id="dc5f8-197">YOY purchase growth = \[Purchase current year\] – \[Purchase last year\]</span></span>                            |
 
-Le seguenti dimensioni chiave nel contenuto vengono utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e fornire informazioni analitiche più approfondite.
+<span data-ttu-id="dc5f8-198">Le seguenti dimensioni chiave nel contenuto vengono utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e fornire informazioni analitiche più approfondite.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-198">The following key dimensions in the content are used as filters to slice the aggregate measurements, so that you can achieve more granularity and gain deeper analytical insights.</span></span>
 
-| Entità                 | Esempi di attributi                                |
+| <span data-ttu-id="dc5f8-199">Entità</span><span class="sxs-lookup"><span data-stu-id="dc5f8-199">Entity</span></span>                 | <span data-ttu-id="dc5f8-200">Esempi di attributi</span><span class="sxs-lookup"><span data-stu-id="dc5f8-200">Examples of attributes</span></span>                                |
 |------------------------|-------------------------------------------------------|
-| Fornitori                | Gruppi di fornitori, paese o regioni del fornitore, nome del fornitore |
-| Prodotti               | Numero prodotto, nome prodotto, nome dei gruppi di articoli        |
-| Categorie di approvvigionamento | Categoria di approvvigionamento, nomi delle categorie di approvvigionamento      |
-| Persone giuridiche         | Nome persona giuridica                                     |
-| Appuntamenti                  | Date, offset anno                                    |
+| <span data-ttu-id="dc5f8-201">Fornitori</span><span class="sxs-lookup"><span data-stu-id="dc5f8-201">Vendors</span></span>                | <span data-ttu-id="dc5f8-202">Gruppi di fornitori, paese o regioni del fornitore, nome del fornitore</span><span class="sxs-lookup"><span data-stu-id="dc5f8-202">Vendor groups, Vendor country or regions, Vendor name</span></span> |
+| <span data-ttu-id="dc5f8-203">Prodotti</span><span class="sxs-lookup"><span data-stu-id="dc5f8-203">Products</span></span>               | <span data-ttu-id="dc5f8-204">Numero prodotto, nome prodotto, nome dei gruppi di articoli</span><span class="sxs-lookup"><span data-stu-id="dc5f8-204">Product number, Product name, Item groups name</span></span>        |
+| <span data-ttu-id="dc5f8-205">Categorie di approvvigionamento</span><span class="sxs-lookup"><span data-stu-id="dc5f8-205">Procurement categories</span></span> | <span data-ttu-id="dc5f8-206">Categoria di approvvigionamento, nomi delle categorie di approvvigionamento</span><span class="sxs-lookup"><span data-stu-id="dc5f8-206">Procurement category, Procurement category names</span></span>      |
+| <span data-ttu-id="dc5f8-207">Persone giuridiche</span><span class="sxs-lookup"><span data-stu-id="dc5f8-207">Legal entities</span></span>         | <span data-ttu-id="dc5f8-208">Nome persona giuridica</span><span class="sxs-lookup"><span data-stu-id="dc5f8-208">Legal entity name</span></span>                                     |
+| <span data-ttu-id="dc5f8-209">Appuntamenti</span><span class="sxs-lookup"><span data-stu-id="dc5f8-209">Dates</span></span>                  | <span data-ttu-id="dc5f8-210">Date, offset anno</span><span class="sxs-lookup"><span data-stu-id="dc5f8-210">Dates, Year offset</span></span>                                    |
 
-Per impostazione predefinita, il contenuto mostra i dati dell'anno di calendario corrente. Tuttavia, è possibile modificare il filtro della data nella sezione relativa ai filtri di report. È inoltre possibile modificare il filtro della società.
+<span data-ttu-id="dc5f8-211">Per impostazione predefinita, il contenuto mostra i dati dell'anno di calendario corrente.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-211">By default, the content shows data for the current calendar year.</span></span> <span data-ttu-id="dc5f8-212">Tuttavia, è possibile modificare il filtro della data nella sezione relativa ai filtri di report.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-212">However, you can change the date filter in the report filters section.</span></span> <span data-ttu-id="dc5f8-213">È inoltre possibile modificare il filtro della società.</span><span class="sxs-lookup"><span data-stu-id="dc5f8-213">You can also change the company filter.</span></span>
 

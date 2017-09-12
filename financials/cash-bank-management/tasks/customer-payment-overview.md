@@ -16,50 +16,50 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 748ea62e981a2bcea0cd85ef512030a8cebf6649
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="customer-payment-overview"></a>Panoramica pagamenti cliente
+# <a name="customer-payment-overview"></a><span data-ttu-id="c69e7-103">Panoramica pagamenti cliente</span><span class="sxs-lookup"><span data-stu-id="c69e7-103">Customer payment overview</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Questa guida attività descrive vari metodi utilizzati per immettere i pagamenti cliente. In questa attività viene utilizzata la società dimostrativa USMF.
+<span data-ttu-id="c69e7-104">Questa guida attività descrive vari metodi utilizzati per immettere i pagamenti cliente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-104">This task guide walks through various methods used to enter customer payments.</span></span> <span data-ttu-id="c69e7-105">In questa attività viene utilizzata la società dimostrativa USMF.</span><span class="sxs-lookup"><span data-stu-id="c69e7-105">This task uses the USMF demo company.</span></span>
 
-1. Andare a Contabilità clienti > Pagamenti > Giornale di registrazione pagamenti.
-2. Fare clic su Nuovo.
-3. Selezionare il giornale di registrazione pagamenti in cui salvare i pagamenti cliente.
-4. Selezionare il giornale di registrazione o immetterlo manualmente.
-5. Fare clic su Pagamenti cliente.
-    * L'opzione Pagamenti cliente si utilizza per registrare un pagamento cliente alla volta. Le informazioni di pagamento vengono immesse nella parte superiore, quindi è possibile contrassegnare le fatture pagate nella stessa pagina.  
-6. Immettere il cliente da cui è stato ricevuto il pagamento.
-    * Se non si conosce il cliente, ma si conosce una transazione che è stata pagata, è possibile utilizzare il campo Transazione per immettere il pagamento. Immettere o selezionare la fattura nel campo Transazione. Una volta selezionata la transazione verrà impostato il cliente predefinito.  
-7. Nel campo Riferimento di pagamento immettere un riferimento.
-    * Il riferimento di pagamento può essere il numero di assegno o un riferimento dal pagamento elettronico del cliente. Il riferimento di pagamento è necessario solo se si include il pagamento in una distinta di deposito.  
-8. Selezionare se il pagamento verrà incluso in una distinta di deposito. 
-9. Immettere l'importo del pagamento cliente.
-    * L'importo del pagamento non viene impostato come valore predefinito, ma deve essere immesso manualmente.  
-10. Contrassegnare le fatture pagate dal cliente.
-    * Se il pagamento è un pagamento anticipato, non verrà chiesto di contrassegnare alcuna fattura per la liquidazione. Il pagamento può comunque essere salvato e registrato. La liquidazione di una fattura può essere eseguita in un secondo momento.  
-11. Immettere l'importo del pagamento da liquidare rispetto alla fattura contrassegnata. 
-    * Questo campo può essere utilizzato quando il pagamento è parziale. Se non si immette un importo, l'importo da liquidare verrà determinato automaticamente.  
-12. Fare clic su Salva nel giornale di registrazione.
-    * Prima di salvare il pagamento nel giornale di registrazione, verificare che il conto di contropartita sia definito. L'opzione Salva nel giornale di registrazione consente di salvare il pagamento e di spostarlo nel giornale di registrazione. È quindi possibile continuare con il pagamento successivo.  
-13. Chiudere la pagina.
-14. Fare clic su Righe.
-    * Quando si aprono le righe, verranno visualizzati tutti i pagamenti registrati nella pagina Pagamenti cliente e salvati nel giornale di registrazione. È inoltre possibile utilizzare questa pagina per immettere nuovi pagamenti cliente o modificare un pagamento cliente esistente prima della registrazione.  
-15. Fare clic su Nuovo per creare un altro pagamento. 
-16. Selezionare il cliente da cui è stato ricevuto il pagamento.
-    * Se non si conosce il cliente ma si conosce una fattura pagata tramite il pagamento, utilizzare il campo Fattura per immettere o selezionare manualmente la fattura. Una volta selezionata la fattura verrà impostato il cliente predefinito.  
-17. Fare clic su Liquida transazioni per contrassegnare le fatture che sono state pagate.
-    * Non verrà richiesto di liquidare il pagamento in alcuna fattura. Se il pagamento è anticipato o non si conosce la fattura pagata, è possibile immettere e registrare il pagamento. Il pagamento può essere liquidato in una fattura in un momento successivo.  
-18. Contrassegnare le fatture pagate con il pagamento. 
-19. Immettere l'importo del pagamento che verrà liquidato rispetto alla fattura.
-20. Fare clic su OK.
-21. Nel campo Riferimento di pagamento immettere un riferimento. .
-    * Il riferimento di pagamento è necessario solo se si include il pagamento in una distinta di deposito.  
-22. Registrare i pagamenti cliente. 
+1. <span data-ttu-id="c69e7-106">Andare a Contabilità clienti > Pagamenti > Giornale di registrazione pagamenti.</span><span class="sxs-lookup"><span data-stu-id="c69e7-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="c69e7-107">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="c69e7-107">Click New.</span></span>
+3. <span data-ttu-id="c69e7-108">Selezionare il giornale di registrazione pagamenti in cui salvare i pagamenti cliente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-108">Select the payment journal which the customer payments will be saved.</span></span>
+4. <span data-ttu-id="c69e7-109">Selezionare il giornale di registrazione o immetterlo manualmente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-109">Select or manually enter the journal.</span></span>
+5. <span data-ttu-id="c69e7-110">Fare clic su Pagamenti cliente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-110">Click Enter customer payments.</span></span>
+    * <span data-ttu-id="c69e7-111">L'opzione Pagamenti cliente si utilizza per registrare un pagamento cliente alla volta.</span><span class="sxs-lookup"><span data-stu-id="c69e7-111">Enter customer payments is used to record one customer payment at a time.</span></span> <span data-ttu-id="c69e7-112">Le informazioni di pagamento vengono immesse nella parte superiore, quindi è possibile contrassegnare le fatture pagate nella stessa pagina.</span><span class="sxs-lookup"><span data-stu-id="c69e7-112">You enter the payment information at the top, and then you can mark the invoices that were paid by the payment, all from the same page.</span></span>  
+6. <span data-ttu-id="c69e7-113">Immettere il cliente da cui è stato ricevuto il pagamento.</span><span class="sxs-lookup"><span data-stu-id="c69e7-113">Enter the customer from whom you received the payment.</span></span>
+    * <span data-ttu-id="c69e7-114">Se non si conosce il cliente, ma si conosce una transazione che è stata pagata, è possibile utilizzare il campo Transazione per immettere il pagamento.</span><span class="sxs-lookup"><span data-stu-id="c69e7-114">If you don't know the customer but do know a transaction that was paid, you can use the Transaction field to enter the payment.</span></span> <span data-ttu-id="c69e7-115">Immettere o selezionare la fattura nel campo Transazione.</span><span class="sxs-lookup"><span data-stu-id="c69e7-115">Enter or select the invoice in the Transaction field.</span></span> <span data-ttu-id="c69e7-116">Una volta selezionata la transazione verrà impostato il cliente predefinito.</span><span class="sxs-lookup"><span data-stu-id="c69e7-116">The customer will automatically default after you select the transaction.</span></span>  
+7. <span data-ttu-id="c69e7-117">Nel campo Riferimento di pagamento immettere un riferimento.</span><span class="sxs-lookup"><span data-stu-id="c69e7-117">In the Payment reference field, enter a payment reference.</span></span>
+    * <span data-ttu-id="c69e7-118">Il riferimento di pagamento può essere il numero di assegno o un riferimento dal pagamento elettronico del cliente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-118">The payment reference could be the customer's check number or a reference from the customer's electronic payment.</span></span> <span data-ttu-id="c69e7-119">Il riferimento di pagamento è necessario solo se si include il pagamento in una distinta di deposito.</span><span class="sxs-lookup"><span data-stu-id="c69e7-119">The payment reference is only required if you mark to include the payment on a deposit slip.</span></span>  
+8. <span data-ttu-id="c69e7-120">Selezionare se il pagamento verrà incluso in una distinta di deposito.</span><span class="sxs-lookup"><span data-stu-id="c69e7-120">Select whether the payment will be included on a deposit slip.</span></span> 
+9. <span data-ttu-id="c69e7-121">Immettere l'importo del pagamento cliente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-121">Enter the amount of the customer payment.</span></span>
+    * <span data-ttu-id="c69e7-122">L'importo del pagamento non viene impostato come valore predefinito,</span><span class="sxs-lookup"><span data-stu-id="c69e7-122">The payment amount will not default.</span></span> <span data-ttu-id="c69e7-123">ma deve essere immesso manualmente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-123">It must be manually entered.</span></span>  
+10. <span data-ttu-id="c69e7-124">Contrassegnare le fatture pagate dal cliente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-124">Mark the invoices that were paid by the customer.</span></span>
+    * <span data-ttu-id="c69e7-125">Se il pagamento è un pagamento anticipato, non verrà chiesto di contrassegnare alcuna fattura per la liquidazione.</span><span class="sxs-lookup"><span data-stu-id="c69e7-125">If the payment is a prepayment, you are not required to mark any invoices for settlement.</span></span> <span data-ttu-id="c69e7-126">Il pagamento può comunque essere salvato e registrato.</span><span class="sxs-lookup"><span data-stu-id="c69e7-126">The payment can still be saved and posted.</span></span> <span data-ttu-id="c69e7-127">La liquidazione di una fattura può essere eseguita in un secondo momento.</span><span class="sxs-lookup"><span data-stu-id="c69e7-127">Settlement to an invoice can happen at a later time.</span></span>  
+11. <span data-ttu-id="c69e7-128">Immettere l'importo del pagamento da liquidare rispetto alla fattura contrassegnata.</span><span class="sxs-lookup"><span data-stu-id="c69e7-128">Enter the amount of the payment that should be settled to the marked invoice.</span></span> 
+    * <span data-ttu-id="c69e7-129">Questo campo può essere utilizzato quando il pagamento è parziale.</span><span class="sxs-lookup"><span data-stu-id="c69e7-129">This field can be used when the payment is for a partial payment.</span></span> <span data-ttu-id="c69e7-130">Se non si immette un importo, l'importo da liquidare verrà determinato automaticamente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-130">If you don't enter an amount, the amount to settle will automatically be determined for you.</span></span>  
+12. <span data-ttu-id="c69e7-131">Fare clic su Salva nel giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="c69e7-131">Click Save in journal.</span></span>
+    * <span data-ttu-id="c69e7-132">Prima di salvare il pagamento nel giornale di registrazione, verificare che il conto di contropartita sia definito.</span><span class="sxs-lookup"><span data-stu-id="c69e7-132">Before you save the payment to the journal, make sure that the offset account is defined.</span></span> <span data-ttu-id="c69e7-133">L'opzione Salva nel giornale di registrazione consente di salvare il pagamento e di spostarlo nel giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="c69e7-133">Using Save in journal will save the payment and move it to the journal.</span></span> <span data-ttu-id="c69e7-134">È quindi possibile continuare con il pagamento successivo.</span><span class="sxs-lookup"><span data-stu-id="c69e7-134">You can then continue entering the next payment.</span></span>  
+13. <span data-ttu-id="c69e7-135">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="c69e7-135">Close the page.</span></span>
+14. <span data-ttu-id="c69e7-136">Fare clic su Righe.</span><span class="sxs-lookup"><span data-stu-id="c69e7-136">Click Lines.</span></span>
+    * <span data-ttu-id="c69e7-137">Quando si aprono le righe, verranno visualizzati tutti i pagamenti registrati nella pagina Pagamenti cliente e salvati nel giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="c69e7-137">When opening Lines, you will see any payments you recorded on the Enter customer payments page and saved into the journal.</span></span> <span data-ttu-id="c69e7-138">È inoltre possibile utilizzare questa pagina per immettere nuovi pagamenti cliente o modificare un pagamento cliente esistente prima della registrazione.</span><span class="sxs-lookup"><span data-stu-id="c69e7-138">You can also use this page to enter new customer payments, or edit existing customer payment before they are posted.</span></span>  
+15. <span data-ttu-id="c69e7-139">Fare clic su Nuovo per creare un altro pagamento.</span><span class="sxs-lookup"><span data-stu-id="c69e7-139">Click New to create another payment.</span></span> 
+16. <span data-ttu-id="c69e7-140">Selezionare il cliente da cui è stato ricevuto il pagamento.</span><span class="sxs-lookup"><span data-stu-id="c69e7-140">Select the customer from whom you received the payment.</span></span>
+    * <span data-ttu-id="c69e7-141">Se non si conosce il cliente ma si conosce una fattura pagata tramite il pagamento, utilizzare il campo Fattura per immettere o selezionare manualmente la fattura.</span><span class="sxs-lookup"><span data-stu-id="c69e7-141">If you don't know the customer but know an invoice paid by the payment, use the Invoice field to manually enter or select the invoice.</span></span> <span data-ttu-id="c69e7-142">Una volta selezionata la fattura verrà impostato il cliente predefinito.</span><span class="sxs-lookup"><span data-stu-id="c69e7-142">The customer will default after the invoice is selected.</span></span>  
+17. <span data-ttu-id="c69e7-143">Fare clic su Liquida transazioni per contrassegnare le fatture che sono state pagate.</span><span class="sxs-lookup"><span data-stu-id="c69e7-143">Click Settle transctions to mark invoices that were paid.</span></span>
+    * <span data-ttu-id="c69e7-144">Non verrà richiesto di liquidare il pagamento in alcuna fattura.</span><span class="sxs-lookup"><span data-stu-id="c69e7-144">You are not required to settle the payment to any invoices.</span></span> <span data-ttu-id="c69e7-145">Se il pagamento è anticipato o non si conosce la fattura pagata, è possibile immettere e registrare il pagamento.</span><span class="sxs-lookup"><span data-stu-id="c69e7-145">If this is a prepayment or if you don't know what invoice was paid, you can enter and post the payment.</span></span> <span data-ttu-id="c69e7-146">Il pagamento può essere liquidato in una fattura in un momento successivo.</span><span class="sxs-lookup"><span data-stu-id="c69e7-146">The payment can be settled to an invoice at a later point.</span></span>  
+18. <span data-ttu-id="c69e7-147">Contrassegnare le fatture pagate con il pagamento.</span><span class="sxs-lookup"><span data-stu-id="c69e7-147">Mark the invoices paid by the payment.</span></span> 
+19. <span data-ttu-id="c69e7-148">Immettere l'importo del pagamento che verrà liquidato rispetto alla fattura.</span><span class="sxs-lookup"><span data-stu-id="c69e7-148">Enter the amount of the payment that will be settled to the invoice.</span></span>
+20. <span data-ttu-id="c69e7-149">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="c69e7-149">Click OK.</span></span>
+21. <span data-ttu-id="c69e7-150">Nel campo Riferimento di pagamento immettere un riferimento.</span><span class="sxs-lookup"><span data-stu-id="c69e7-150">In the Payment reference field, Enter a payment reference.</span></span> <span data-ttu-id="c69e7-151">.</span><span class="sxs-lookup"><span data-stu-id="c69e7-151">.</span></span>
+    * <span data-ttu-id="c69e7-152">Il riferimento di pagamento è necessario solo se si include il pagamento in una distinta di deposito.</span><span class="sxs-lookup"><span data-stu-id="c69e7-152">The payment reference is only required if you mark to include the payment on a deposit slip.</span></span>  
+22. <span data-ttu-id="c69e7-153">Registrare i pagamenti cliente.</span><span class="sxs-lookup"><span data-stu-id="c69e7-153">Post the customer payments.</span></span> 
 
 

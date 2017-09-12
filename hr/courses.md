@@ -19,124 +19,124 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 095f41c35641834a1ed8ac2527c7014826921376
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 0ab79e85872c19e30f24e182ea483687ecc0bc09
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="set-up-training-courses"></a>Impostare i corsi di formazione
+# <a name="set-up-training-courses"></a><span data-ttu-id="41294-103">Impostare i corsi di formazione</span><span class="sxs-lookup"><span data-stu-id="41294-103">Set up training courses</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Gli amministratori e gli amministratori delle Risorse umane possono utilizzare le funzionalità dei corsi per gestire le informazioni sulla formazione offerta ai lavoratori.
+<span data-ttu-id="41294-104">Gli amministratori e gli amministratori delle Risorse umane possono utilizzare le funzionalità dei corsi per gestire le informazioni sulla formazione offerta ai lavoratori.</span><span class="sxs-lookup"><span data-stu-id="41294-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
- <a name="set-up-prerequisites"></a> Prerequisiti per l'impostazione
+ <a name="set-up-prerequisites"></a><span data-ttu-id="41294-105"> Prerequisiti per l'impostazione</span><span class="sxs-lookup"><span data-stu-id="41294-105">Set up prerequisites</span></span>
 ---------------------
 
-Le seguenti informazioni sono obbligatorie e devono essere impostate prima di creare i corsi.
--   **Tipi di corso**
+<span data-ttu-id="41294-106">Le seguenti informazioni sono obbligatorie e devono essere impostate prima di creare i corsi.</span><span class="sxs-lookup"><span data-stu-id="41294-106">The following information is required and must be set up before you create courses.</span></span>
+-   <span data-ttu-id="41294-107">**Tipi di corso**</span><span class="sxs-lookup"><span data-stu-id="41294-107">**Course types**</span></span>
 
-Le seguenti informazioni necessarie da specificare per i corsi sono facoltative. Se queste informazioni verranno fornite per i corsi, è necessario impostarle prima di creare i record del corso.
--   **Gruppi di classi**
--   **Gruppi del corso**
--   **Sedi del corso**
--   **Classi**
--   **Istruttori**
+<span data-ttu-id="41294-108">Le seguenti informazioni necessarie da specificare per i corsi sono facoltative.</span><span class="sxs-lookup"><span data-stu-id="41294-108">The following information is optional information that you can specify for courses.</span></span> <span data-ttu-id="41294-109">Se queste informazioni verranno fornite per i corsi, è necessario impostarle prima di creare i record del corso.</span><span class="sxs-lookup"><span data-stu-id="41294-109">If you know that you will be entering this information for courses, you should set up this information before you create course records.</span></span>
+-   <span data-ttu-id="41294-110">**Gruppi di classi**</span><span class="sxs-lookup"><span data-stu-id="41294-110">**Classroom groups**</span></span>
+-   <span data-ttu-id="41294-111">**Gruppi del corso**</span><span class="sxs-lookup"><span data-stu-id="41294-111">**Course groups**</span></span>
+-   <span data-ttu-id="41294-112">**Sedi del corso**</span><span class="sxs-lookup"><span data-stu-id="41294-112">**Course locations**</span></span>
+-   <span data-ttu-id="41294-113">**Classi**</span><span class="sxs-lookup"><span data-stu-id="41294-113">**Classrooms**</span></span>
+-   <span data-ttu-id="41294-114">**Istruttori**</span><span class="sxs-lookup"><span data-stu-id="41294-114">**Instructors**</span></span>
 
-## <a name="course-types"></a>Tipi di corso
-È possibile utilizzare i tipi di corso per classificare i corsi in base alla struttura o al contenuto del corso. È possibile creare i tipi di corso nella pagina **Tipi di corso**. È necessario selezionare un tipo di corso quando si crea un record del corso.
+## <a name="course-types"></a><span data-ttu-id="41294-115">Tipi di corso</span><span class="sxs-lookup"><span data-stu-id="41294-115">Course types</span></span>
+<span data-ttu-id="41294-116">È possibile utilizzare i tipi di corso per classificare i corsi in base alla struttura o al contenuto del corso.</span><span class="sxs-lookup"><span data-stu-id="41294-116">You can use course types to categorize courses according to the structure or content of the course.</span></span> <span data-ttu-id="41294-117">È possibile creare i tipi di corso nella pagina **Tipi di corso**.</span><span class="sxs-lookup"><span data-stu-id="41294-117">You can create course types on the **Course types** page.</span></span> <span data-ttu-id="41294-118">È necessario selezionare un tipo di corso quando si crea un record del corso.</span><span class="sxs-lookup"><span data-stu-id="41294-118">You must select a course type when you create a course record.</span></span>
 
-## <a name="course-setup-type"></a>Tipo di impostazione del corso
-Vengono di seguito elencati i tre tipi di impostazione per i corsi. I tipi di installazione determinano la struttura del corso.
+## <a name="course-setup-type"></a><span data-ttu-id="41294-119">Tipo di impostazione del corso</span><span class="sxs-lookup"><span data-stu-id="41294-119">Course setup type</span></span>
+<span data-ttu-id="41294-120">Vengono di seguito elencati i tre tipi di impostazione per i corsi.</span><span class="sxs-lookup"><span data-stu-id="41294-120">The following table lists the three setup types for courses.</span></span> <span data-ttu-id="41294-121">I tipi di installazione determinano la struttura del corso.</span><span class="sxs-lookup"><span data-stu-id="41294-121">Setup types determine the structure of the course.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Tipo di impostazione</th>
-<th>Descrizione</th>
+<th><span data-ttu-id="41294-122">Tipo di impostazione</span><span class="sxs-lookup"><span data-stu-id="41294-122">Setup type</span></span></th>
+<th><span data-ttu-id="41294-123">Descrizione</span><span class="sxs-lookup"><span data-stu-id="41294-123">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Standard</strong></td>
-<td>Selezionare questo tipo per i corsi che non avranno un ordine del giorno giornaliero. Quando si crea un nuovo corso sarà il tipo di impostazione predefinito.</td>
+<td><span data-ttu-id="41294-124"><strong>Standard</strong></span><span class="sxs-lookup"><span data-stu-id="41294-124"><strong>Standard</strong></span></span></td>
+<td><span data-ttu-id="41294-125">Selezionare questo tipo per i corsi che non avranno un ordine del giorno giornaliero.</span><span class="sxs-lookup"><span data-stu-id="41294-125">Select this type for courses that will not have a daily agenda.</span></span> <span data-ttu-id="41294-126">Quando si crea un nuovo corso sarà il tipo di impostazione predefinito.</span><span class="sxs-lookup"><span data-stu-id="41294-126">This is the default setup type when you create a new course.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Agenda</strong></td>
-<td>Selezionare qesto tipo per pianificare i dettagli di ogni giorno di un corso di più giorni.</td>
+<td><span data-ttu-id="41294-127"><strong>Agenda</strong></span><span class="sxs-lookup"><span data-stu-id="41294-127"><strong>Agenda</strong></span></span></td>
+<td><span data-ttu-id="41294-128">Selezionare qesto tipo per pianificare i dettagli di ogni giorno di un corso di più giorni.</span><span class="sxs-lookup"><span data-stu-id="41294-128">Select this type to plan the details of each day of a course that takes place over multiple days.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>Agenda + sessione</strong></td>
-<td>Selezionare il tipo per i corsi più complessi. Ad esempio, è possibile suddividere l'ordine del giorno per il corso in tracce e sessioni.
+<td><span data-ttu-id="41294-129"><strong>Agenda + sessione</strong></span><span class="sxs-lookup"><span data-stu-id="41294-129"><strong>Agenda + session</strong></span></span></td>
+<td><span data-ttu-id="41294-130">Selezionare il tipo per i corsi più complessi.</span><span class="sxs-lookup"><span data-stu-id="41294-130">Select this type for the more complex courses.</span></span> <span data-ttu-id="41294-131">Ad esempio, è possibile suddividere l'ordine del giorno per il corso in tracce e sessioni.</span><span class="sxs-lookup"><span data-stu-id="41294-131">For example, you can divide the agenda for the course into tracks and sessions.</span></span>
 <ul>
-<li><strong>Traccia</strong>: le tracce sono argomenti specifici per un corso.</li>
-<li><strong>Sessioni</strong>: le sessioni vengono divise in tracce e possono trattare processi o tecniche specifici attinenti a ciascuna traccia.</li>
+<li><span data-ttu-id="41294-132"><strong>Traccia</strong>: le tracce sono argomenti specifici per un corso.</span><span class="sxs-lookup"><span data-stu-id="41294-132"><strong>Track</strong> – Tracks are specific subject areas for a course.</span></span></li>
+<li><span data-ttu-id="41294-133"><strong>Sessioni</strong>: le sessioni vengono divise in tracce e possono trattare processi o tecniche specifici attinenti a ciascuna traccia.</span><span class="sxs-lookup"><span data-stu-id="41294-133"><strong>Sessions</strong> – Sessions divide up tracks and help identify specific processes or techniques that are relevant to the track.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="course-tasks"></a>Attività del corso
-Per ogni corso, è possibile effettuare le seguenti attività.
--   Registrare i partecipanti
--   Specificare una scadenza per la registrazione
--   Definire il numero minimo e massimo di partecipanti
--   Assegnare una sede del corso e una classe
--   Hotel consigliati per i partecipanti al corso
--   Creare una descrizione del corso che potrà essere pubblicizzata su Dipendente self-service
+## <a name="course-tasks"></a><span data-ttu-id="41294-134">Attività del corso</span><span class="sxs-lookup"><span data-stu-id="41294-134">Course tasks</span></span>
+<span data-ttu-id="41294-135">Per ogni corso, è possibile effettuare le seguenti attività.</span><span class="sxs-lookup"><span data-stu-id="41294-135">For each course, you can complete the following tasks.</span></span>
+-   <span data-ttu-id="41294-136">Registrare i partecipanti</span><span class="sxs-lookup"><span data-stu-id="41294-136">Register participants</span></span>
+-   <span data-ttu-id="41294-137">Specificare una scadenza per la registrazione</span><span class="sxs-lookup"><span data-stu-id="41294-137">Specify a registration deadline</span></span>
+-   <span data-ttu-id="41294-138">Definire il numero minimo e massimo di partecipanti</span><span class="sxs-lookup"><span data-stu-id="41294-138">Define the minimum and maximum number of participants</span></span>
+-   <span data-ttu-id="41294-139">Assegnare una sede del corso e una classe</span><span class="sxs-lookup"><span data-stu-id="41294-139">Assign a course location and classroom</span></span>
+-   <span data-ttu-id="41294-140">Hotel consigliati per i partecipanti al corso</span><span class="sxs-lookup"><span data-stu-id="41294-140">Recommend hotels to course participants</span></span>
+-   <span data-ttu-id="41294-141">Creare una descrizione del corso che potrà essere pubblicizzata su Dipendente self-service</span><span class="sxs-lookup"><span data-stu-id="41294-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
-  >**Nota** È possibile eliminare un corso solo se nessuno vi si è registrato. 
+  ><span data-ttu-id="41294-142">**Nota** È possibile eliminare un corso solo se nessuno vi si è registrato.</span><span class="sxs-lookup"><span data-stu-id="41294-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
     
-## <a name="course-statuses"></a>Stati del corso
-Nella seguente tabella sono elencati gli stati possibili del corso e le azioni che è possibile completare quando il corso ha uno stato specifico.
+## <a name="course-statuses"></a><span data-ttu-id="41294-143">Stati del corso</span><span class="sxs-lookup"><span data-stu-id="41294-143">Course statuses</span></span>
+<span data-ttu-id="41294-144">Nella seguente tabella sono elencati gli stati possibili del corso e le azioni che è possibile completare quando il corso ha uno stato specifico.</span><span class="sxs-lookup"><span data-stu-id="41294-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Stato</th>
-<th>Azioni</th>
+<th><span data-ttu-id="41294-145">Stato</span><span class="sxs-lookup"><span data-stu-id="41294-145">Status</span></span></th>
+<th><span data-ttu-id="41294-146">Azioni</span><span class="sxs-lookup"><span data-stu-id="41294-146">Actions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Creato</strong></td>
+<td><span data-ttu-id="41294-147"><strong>Creato</strong></span><span class="sxs-lookup"><span data-stu-id="41294-147"><strong>Created</strong></span></span></td>
 <td><ul>
-<li>Immettere e modificare le informazioni sul corso.</li>
-<li>Modificare lo stato del corso in <strong>Aperto</strong> in modo da poter registrare i lavoratori per il corso.</li>
+<li><span data-ttu-id="41294-148">Immettere e modificare le informazioni sul corso.</span><span class="sxs-lookup"><span data-stu-id="41294-148">Enter and modify course information.</span></span></li>
+<li><span data-ttu-id="41294-149">Modificare lo stato del corso in <strong>Aperto</strong> in modo da poter registrare i lavoratori per il corso.</span><span class="sxs-lookup"><span data-stu-id="41294-149">Change the course status to <strong>Open</strong> so that workers can register for the course.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Aperto</strong></td>
+<td><span data-ttu-id="41294-150"><strong>Aperto</strong></span><span class="sxs-lookup"><span data-stu-id="41294-150"><strong>Open</strong></span></span></td>
 <td><ul>
-<li>Registrare i partecipanti per il corso.</li>
-<li>Rimuovere i partecipanti dal corso.</li>
-<li>Confermare i partecipanti per il corso.</li>
-<li>Modificare lo stato del corso su<strong> Chiuso</strong> o <strong>Annullato</strong>.</li>
-<li>Pianificare i questionari per i partecipanti a cui è assegnato lo stato <strong>Confermato</strong>.</li>
+<li><span data-ttu-id="41294-151">Registrare i partecipanti per il corso.</span><span class="sxs-lookup"><span data-stu-id="41294-151">Register participants for the course.</span></span></li>
+<li><span data-ttu-id="41294-152">Rimuovere i partecipanti dal corso.</span><span class="sxs-lookup"><span data-stu-id="41294-152">Remove participants from the course.</span></span></li>
+<li><span data-ttu-id="41294-153">Confermare i partecipanti per il corso.</span><span class="sxs-lookup"><span data-stu-id="41294-153">Confirm participants for the course.</span></span></li>
+<li><span data-ttu-id="41294-154">Modificare lo stato del corso su<strong> Chiuso</strong> o <strong>Annullato</strong>.</span><span class="sxs-lookup"><span data-stu-id="41294-154">Change the course status to <strong>Closed</strong> or <strong>Canceled</strong>.</span></span></li>
+<li><span data-ttu-id="41294-155">Pianificare i questionari per i partecipanti a cui è assegnato lo stato <strong>Confermato</strong>.</span><span class="sxs-lookup"><span data-stu-id="41294-155">Plan questionnaires for participants whose status is <strong>Confirmed</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Chiuso</strong></td>
-<td>È possibile riaprire il corso.</td>
+<td><span data-ttu-id="41294-156"><strong>Chiuso</strong></span><span class="sxs-lookup"><span data-stu-id="41294-156"><strong>Closed</strong></span></span></td>
+<td><span data-ttu-id="41294-157">È possibile riaprire il corso.</span><span class="sxs-lookup"><span data-stu-id="41294-157">You can reopen the course.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Annullato</strong></td>
-<td>È possibile riaprire il corso.</td>
+<td><span data-ttu-id="41294-158"><strong>Annullato</strong></span><span class="sxs-lookup"><span data-stu-id="41294-158"><strong>Canceled</strong></span></span></td>
+<td><span data-ttu-id="41294-159">È possibile riaprire il corso.</span><span class="sxs-lookup"><span data-stu-id="41294-159">You can reopen the course.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="course-participants"></a>Partecipanti al corso
-I partecipanti a un corso sono i dipendenti, i candidati o i contatti che prendono parte a un evento o a un corso di formazione. È possibile registrare solo i partecipanti ai corsi aperti. Il numero minimo e massimo di partecipanti che è possibile registrare per un corso viene definito nella scheda dettaglio **Generale** sulla pagina **Corsi**.
+## <a name="course-participants"></a><span data-ttu-id="41294-160">Partecipanti al corso</span><span class="sxs-lookup"><span data-stu-id="41294-160">Course participants</span></span>
+<span data-ttu-id="41294-161">I partecipanti a un corso sono i dipendenti, i candidati o i contatti che prendono parte a un evento o a un corso di formazione.</span><span class="sxs-lookup"><span data-stu-id="41294-161">Course participants are workers, applicants, or contact persons who participate in a training course or event.</span></span> <span data-ttu-id="41294-162">È possibile registrare solo i partecipanti ai corsi aperti.</span><span class="sxs-lookup"><span data-stu-id="41294-162">You can only register participants for open courses.</span></span> <span data-ttu-id="41294-163">Il numero minimo e massimo di partecipanti che è possibile registrare per un corso viene definito nella scheda dettaglio **Generale** sulla pagina **Corsi**.</span><span class="sxs-lookup"><span data-stu-id="41294-163">The minimum and maximum number of participants that you can register for a course is defined on the **General** FastTab on the **Courses** page.</span></span>
 
-<a name="workflow"></a>Flusso di lavoro
+<a name="workflow"></a><span data-ttu-id="41294-164">Flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="41294-164">Workflow</span></span>
 --------
 
-I dipendenti registrati per un corso tramite la pagina **Dipendente self-service** possono avere la registrazione instradata tramite il flusso di lavoro per l'approvazione.  Un flusso di lavoro può essere assegnato a un corso nella Scheda dettaglio **Generale** della pagina **Corsi**.
+<span data-ttu-id="41294-165">I dipendenti registrati per un corso tramite la pagina **Dipendente self-service** possono avere la registrazione instradata tramite il flusso di lavoro per l'approvazione.</span><span class="sxs-lookup"><span data-stu-id="41294-165">Employees who register for a course through the **Employee self service** page can have their registration routed through workflow for approval.</span></span>  <span data-ttu-id="41294-166">Un flusso di lavoro può essere assegnato a un corso nella Scheda dettaglio **Generale** della pagina **Corsi**.</span><span class="sxs-lookup"><span data-stu-id="41294-166">A workflow can be assigned to a course on the **General** FastTab on the **Courses** page.</span></span>
 
 
 

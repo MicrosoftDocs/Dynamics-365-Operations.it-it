@@ -19,113 +19,113 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fb4a7c21ecc46d83f35b12ac5552dcecbeb8bf0f
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 004f3f24ec410d9f0e7d1e7264ec2730b9467410
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="posting-definition-examples"></a>Esempi di definizioni di registrazione
+# <a name="posting-definition-examples"></a><span data-ttu-id="b9cec-103">Esempi di definizioni di registrazione</span><span class="sxs-lookup"><span data-stu-id="b9cec-103">Posting definition examples</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-L'articolo offre alcuni esempi che mostrano come utilizzare le definizioni di registrazione per gli impegni di spesa di ordini fornitore e le ripartizioni di budget.
+<span data-ttu-id="b9cec-104">L'articolo offre alcuni esempi che mostrano come utilizzare le definizioni di registrazione per gli impegni di spesa di ordini fornitore e le ripartizioni di budget.</span><span class="sxs-lookup"><span data-stu-id="b9cec-104">This article provides examples that show how posting definitions are used for purchase order encumbrances and budget appropriations.</span></span>
 
-Prima di leggere questo argomento, è consigliabile acquisire familiarità con le definizioni di registrazione e le definizioni di registrazione della transazione. Per ulteriori informazioni, vedere [Definizioni di registrazione](posting-definitions.md). Gli esempi seguenti possono essere impostati nella pagina **Definizioni di registrazione**. Ogni esempio contiene queste sezioni:
+<span data-ttu-id="b9cec-105">Prima di leggere questo argomento, è consigliabile acquisire familiarità con le definizioni di registrazione e le definizioni di registrazione della transazione.</span><span class="sxs-lookup"><span data-stu-id="b9cec-105">Before you read this topic, you should be familiar with posting definitions and transaction posting definitions.</span></span> <span data-ttu-id="b9cec-106">Per ulteriori informazioni, vedere [Definizioni di registrazione](posting-definitions.md).</span><span class="sxs-lookup"><span data-stu-id="b9cec-106">For information, see [Posting definitions](posting-definitions.md).</span></span> <span data-ttu-id="b9cec-107">Gli esempi seguenti possono essere impostati nella pagina **Definizioni di registrazione**.</span><span class="sxs-lookup"><span data-stu-id="b9cec-107">The following examples can be set up on the **Posting definitions** page.</span></span> <span data-ttu-id="b9cec-108">Ogni esempio contiene queste sezioni:</span><span class="sxs-lookup"><span data-stu-id="b9cec-108">Each example contains these sections:</span></span>
 
--   Definizione di registrazione – criteri di corrispondenza
--   Definizione di registrazione – voci generate
--   Transazioni con i conti, i valori di dimensione e gli importi
--   Voci di contabilità generale generate dalla definizione di registrazione
+-   <span data-ttu-id="b9cec-109">Definizione di registrazione – criteri di corrispondenza</span><span class="sxs-lookup"><span data-stu-id="b9cec-109">Posting definition – Match criteria</span></span>
+-   <span data-ttu-id="b9cec-110">Definizione di registrazione – voci generate</span><span class="sxs-lookup"><span data-stu-id="b9cec-110">Posting definition – Generated entries</span></span>
+-   <span data-ttu-id="b9cec-111">Transazioni con i conti, i valori di dimensione e gli importi</span><span class="sxs-lookup"><span data-stu-id="b9cec-111">Transactions with the accounts, dimension values, and amounts</span></span>
+-   <span data-ttu-id="b9cec-112">Voci di contabilità generale generate dalla definizione di registrazione</span><span class="sxs-lookup"><span data-stu-id="b9cec-112">Ledger entries generated from the posting definition</span></span>
 
-In caso di corrispondenza tra i conti e i valori di dimensione nel riquadro **Associa criteri** per la definizione di registrazione e i conti e i valori di dimensione sulla transazione, vengono generate voci di contabilità generale basate sul riquadro **Voci generate** per la definizione di registrazione. 
+<span data-ttu-id="b9cec-113">In caso di corrispondenza tra i conti e i valori di dimensione nel riquadro **Associa criteri** per la definizione di registrazione e i conti e i valori di dimensione sulla transazione, vengono generate voci di contabilità generale basate sul riquadro **Voci generate** per la definizione di registrazione.</span><span class="sxs-lookup"><span data-stu-id="b9cec-113">When a match occurs between the accounts and dimension values in the **Match criteria** pane for the posting definition and the accounts and dimension values on the transaction, ledger entries are generated based on the **Generated entries** pane for the posting definition.</span></span> 
 > [!NOTE]
-> Per associare una definizione di registrazione a uno specifico tipo di transazione, utilizzare la pagina **Definizioni di registrazione transazioni**. Dopo aver associato una definizione di registrazione a un tipo di transazione e selezionato **Usa definizioni di registrazione** nella pagina **Parametri di contabilità generale**, tutte le transazioni del tipo selezionato devono utilizzare definizioni di registrazione.
+> <span data-ttu-id="b9cec-114">Per associare una definizione di registrazione a uno specifico tipo di transazione, utilizzare la pagina **Definizioni di registrazione transazioni**.</span><span class="sxs-lookup"><span data-stu-id="b9cec-114">To associate a posting definition with a specific transaction type, use the **Transaction posting definitions** page.</span></span> <span data-ttu-id="b9cec-115">Dopo aver associato una definizione di registrazione a un tipo di transazione e selezionato **Usa definizioni di registrazione** nella pagina **Parametri di contabilità generale**, tutte le transazioni del tipo selezionato devono utilizzare definizioni di registrazione.</span><span class="sxs-lookup"><span data-stu-id="b9cec-115">After you associate a posting definition with a transaction type and select **Use posting definitions** on the **General ledger parameters** page, all transactions of the selected transaction type must use posting definitions.</span></span>
 
-## <a name="example-purchase-order-encumbrances"></a>Esempio: impegni di spesa ordini fornitore
-Quando si abilita l'elaborazione degli impegni di spesa selezionando **Abilita processo di impegno di spesa** nella pagina **Parametri di contabilità generale**, è necessario utilizzare le definizioni di registrazione per registrare gli impegni di spesa nella contabilità generale per tutti i conti che devono essere prenotati. Nella maggior parte dei casi, tutti i conti spese vengono prenotati sullo stato patrimoniale. 
+## <a name="example-purchase-order-encumbrances"></a><span data-ttu-id="b9cec-116">Esempio: impegni di spesa ordini fornitore</span><span class="sxs-lookup"><span data-stu-id="b9cec-116">Example: Purchase order encumbrances</span></span>
+<span data-ttu-id="b9cec-117">Quando si abilita l'elaborazione degli impegni di spesa selezionando **Abilita processo di impegno di spesa** nella pagina **Parametri di contabilità generale**, è necessario utilizzare le definizioni di registrazione per registrare gli impegni di spesa nella contabilità generale per tutti i conti che devono essere prenotati.</span><span class="sxs-lookup"><span data-stu-id="b9cec-117">When you enable encumbrance processing by selecting **Enable encumbrance process** on the **General ledger parameters** page, posting definitions must be used to record encumbrances to the general ledger for any accounts that should be reserved.</span></span> <span data-ttu-id="b9cec-118">Nella maggior parte dei casi, tutti i conti spese vengono prenotati sullo stato patrimoniale.</span><span class="sxs-lookup"><span data-stu-id="b9cec-118">In most cases, all expense accounts are reserved on the balance sheet.</span></span> 
 
-Le definizioni di registrazione per gli impegni di spesa vengono impostati per il modulo **Acquisto** nella pagina **Definizioni di registrazione**. Quindi, nell'area **Acquisto** della pagina **Definizioni di registrazione transazione**, è possibile selezionare il tipo di transazione **Ordine acquisto** per associare la definizione di registrazione agli ordini fornitore. 
+<span data-ttu-id="b9cec-119">Le definizioni di registrazione per gli impegni di spesa vengono impostati per il modulo **Acquisto** nella pagina **Definizioni di registrazione**.</span><span class="sxs-lookup"><span data-stu-id="b9cec-119">Posting definitions for encumbrances are set up for the **Purchasing** module on the **Posting definitions** page.</span></span> <span data-ttu-id="b9cec-120">Quindi, nell'area **Acquisto** della pagina **Definizioni di registrazione transazione**, è possibile selezionare il tipo di transazione **Ordine acquisto** per associare la definizione di registrazione agli ordini fornitore.</span><span class="sxs-lookup"><span data-stu-id="b9cec-120">Then, in the **Purchasing** area of the **Transaction posting definitions** page, you can select the **Purchase order** transaction type to associate the posting definition with purchase orders.</span></span> 
 
-Tutte le transazioni giustificativo per gli impegni di spesa degli ordini fornitore devono compensarsi (i debiti devono essere pari ai crediti) in ciascuna dimensione univoca su un giustificativo.
+<span data-ttu-id="b9cec-121">Tutte le transazioni giustificativo per gli impegni di spesa degli ordini fornitore devono compensarsi (i debiti devono essere pari ai crediti) in ciascuna dimensione univoca su un giustificativo.</span><span class="sxs-lookup"><span data-stu-id="b9cec-121">All voucher transactions for purchase order encumbrances must balance (that is, debits must equal credits) in each unique dimension on a voucher.</span></span>
 
-### <a name="posting-definition--match-criteria"></a>Definizione di registrazione – criteri di corrispondenza
+### <a name="posting-definition--match-criteria"></a><span data-ttu-id="b9cec-122">Definizione di registrazione – criteri di corrispondenza</span><span class="sxs-lookup"><span data-stu-id="b9cec-122">Posting definition – Match criteria</span></span>
 
-| Struttura dei conti       | Associa numero di conto | Priorità |
+| <span data-ttu-id="b9cec-123">Struttura dei conti</span><span class="sxs-lookup"><span data-stu-id="b9cec-123">Account structure</span></span>       | <span data-ttu-id="b9cec-124">Associa numero di conto</span><span class="sxs-lookup"><span data-stu-id="b9cec-124">Match account number</span></span> | <span data-ttu-id="b9cec-125">Priorità</span><span class="sxs-lookup"><span data-stu-id="b9cec-125">Priority</span></span> |
 |-------------------------|----------------------|----------|
-| Struttura dei conti - profitti e perdite | \*                   | 1        |
+| <span data-ttu-id="b9cec-126">Struttura dei conti - profitti e perdite</span><span class="sxs-lookup"><span data-stu-id="b9cec-126">Account Structure - P&L</span></span> | \*                   | <span data-ttu-id="b9cec-127">1</span><span class="sxs-lookup"><span data-stu-id="b9cec-127">1</span></span>        |
 
-*Un valore vuoto nel campo **Numero di conto** da associare implica che tutti i conti corrispondenti nella struttura dei conti definita faranno parte della regola di corrispondenza.
+<span data-ttu-id="b9cec-128">*Un valore vuoto nel campo **Numero di conto** da associare implica che tutti i conti corrispondenti nella struttura dei conti definita faranno parte della regola di corrispondenza.</span><span class="sxs-lookup"><span data-stu-id="b9cec-128">*A blank value in the **Match account number** field means that all matching accounts in the defined account structure are part of the matching rule.</span></span>
 
-### <a name="posting-definition--generated-entries"></a>Definizione di registrazione – voci generate
+### <a name="posting-definition--generated-entries"></a><span data-ttu-id="b9cec-129">Definizione di registrazione – voci generate</span><span class="sxs-lookup"><span data-stu-id="b9cec-129">Posting definition – Generated entries</span></span>
 
-| Struttura dei conti | Numero di conto generato                    | Dare/Avere generato |
+| <span data-ttu-id="b9cec-130">Struttura dei conti</span><span class="sxs-lookup"><span data-stu-id="b9cec-130">Account structure</span></span> | <span data-ttu-id="b9cec-131">Numero di conto generato</span><span class="sxs-lookup"><span data-stu-id="b9cec-131">Generated account number</span></span>                    | <span data-ttu-id="b9cec-132">Dare/Avere generato</span><span class="sxs-lookup"><span data-stu-id="b9cec-132">Generated debit/credit</span></span> |
 |-------------------|---------------------------------------------|------------------------|
-| Saldo           | 300143 - -(conto impegno di spesa)             | Uguali                   |
-| Saldo           | 300144 - -(prenotazione conto impegno di spesa) | Stare in equilibrio              |
+| <span data-ttu-id="b9cec-133">Saldo</span><span class="sxs-lookup"><span data-stu-id="b9cec-133">Balance</span></span>           | <span data-ttu-id="b9cec-134">300143 - -(conto impegno di spesa)</span><span class="sxs-lookup"><span data-stu-id="b9cec-134">300143 - -(Encumbrance account)</span></span>             | <span data-ttu-id="b9cec-135">Uguali</span><span class="sxs-lookup"><span data-stu-id="b9cec-135">Same</span></span>                   |
+| <span data-ttu-id="b9cec-136">Saldo</span><span class="sxs-lookup"><span data-stu-id="b9cec-136">Balance</span></span>           | <span data-ttu-id="b9cec-137">300144 - -(prenotazione conto impegno di spesa)</span><span class="sxs-lookup"><span data-stu-id="b9cec-137">300144 - -(Reserve for encumbrance account)</span></span> | <span data-ttu-id="b9cec-138">Stare in equilibrio</span><span class="sxs-lookup"><span data-stu-id="b9cec-138">Balancing</span></span>              |
 
-### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a>Transazioni con i conti, i valori di dimensione e gli importi
+### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a><span data-ttu-id="b9cec-139">Transazioni con i conti, i valori di dimensione e gli importi</span><span class="sxs-lookup"><span data-stu-id="b9cec-139">Transactions with the accounts, dimension values, and amounts</span></span>
 
-I conti e i valori di dimensione derivano dalle distribuzioni contabili immesse per una riga dell'ordine fornitore oppure derivano dai conti e dalle dimensioni generati automaticamente in base alle impostazioni predefinite per fornitori, articoli, categorie e modelli di dimensione.
+<span data-ttu-id="b9cec-140">I conti e i valori di dimensione derivano dalle distribuzioni contabili immesse per una riga dell'ordine fornitore oppure derivano dai conti e dalle dimensioni generati automaticamente in base alle impostazioni predefinite per fornitori, articoli, categorie e modelli di dimensione.</span><span class="sxs-lookup"><span data-stu-id="b9cec-140">The accounts and dimension values come either from the accounting distributions that you enter for a purchase order line, or from the accounts and dimensions that are automatically generated based on the default settings for vendors, items, categories, and dimension templates.</span></span>
 
-| Conto + dimensioni           | Dare  | Avere | Commento |
+| <span data-ttu-id="b9cec-141">Conto + dimensioni</span><span class="sxs-lookup"><span data-stu-id="b9cec-141">Account + dimensions</span></span>           | <span data-ttu-id="b9cec-142">Dare</span><span class="sxs-lookup"><span data-stu-id="b9cec-142">Debit</span></span>  | <span data-ttu-id="b9cec-143">Avere</span><span class="sxs-lookup"><span data-stu-id="b9cec-143">Credit</span></span> | <span data-ttu-id="b9cec-144">Commento</span><span class="sxs-lookup"><span data-stu-id="b9cec-144">Comment</span></span> |
 |--------------------------------|--------|--------|---------|
-| 606400-OU\_1-OU\_3566-Training | 250,00 |        |         |
+| <span data-ttu-id="b9cec-145">606400-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="b9cec-145">606400-OU\_1-OU\_3566-Training</span></span> | <span data-ttu-id="b9cec-146">250,00</span><span class="sxs-lookup"><span data-stu-id="b9cec-146">250.00</span></span> |        |         |
 
-### <a name="ledger-entries-generated-from-the-posting-definition"></a>Voci di contabilità generale generate dalla definizione di registrazione
+### <a name="ledger-entries-generated-from-the-posting-definition"></a><span data-ttu-id="b9cec-147">Voci di contabilità generale generate dalla definizione di registrazione</span><span class="sxs-lookup"><span data-stu-id="b9cec-147">Ledger entries generated from the posting definition</span></span>
 
-Le voci di contabilità generale generate vengono create per registrare gli impegni di spesa.
+<span data-ttu-id="b9cec-148">Le voci di contabilità generale generate vengono create per registrare gli impegni di spesa.</span><span class="sxs-lookup"><span data-stu-id="b9cec-148">Generated ledger entries are created to record the encumbrances.</span></span>
 
-| Conto + dimensioni           | Dare  | Avere | Commento |
+| <span data-ttu-id="b9cec-149">Conto + dimensioni</span><span class="sxs-lookup"><span data-stu-id="b9cec-149">Account + dimensions</span></span>           | <span data-ttu-id="b9cec-150">Dare</span><span class="sxs-lookup"><span data-stu-id="b9cec-150">Debit</span></span>  | <span data-ttu-id="b9cec-151">Avere</span><span class="sxs-lookup"><span data-stu-id="b9cec-151">Credit</span></span> | <span data-ttu-id="b9cec-152">Commento</span><span class="sxs-lookup"><span data-stu-id="b9cec-152">Comment</span></span> |
 |--------------------------------|--------|--------|---------|
-| 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
-| 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
+| <span data-ttu-id="b9cec-153">300143-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="b9cec-153">300143-OU\_1-OU\_3566-Training</span></span> | <span data-ttu-id="b9cec-154">250,00</span><span class="sxs-lookup"><span data-stu-id="b9cec-154">250.00</span></span> |        |         |
+| <span data-ttu-id="b9cec-155">300144-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="b9cec-155">300144-OU\_1-OU\_3566-Training</span></span> |        | <span data-ttu-id="b9cec-156">250,00</span><span class="sxs-lookup"><span data-stu-id="b9cec-156">250.00</span></span> |         |
 
-In questo esempio, qualsiasi conto fa parte di Struttura conti - profitti e perdite corrispondono ai criteri delle definizioni di registrazione. Pertanto, quando viene valutato 606500-OU\_1-OU\_3566-Training, le voci generate vengono create per i conti definiti nel riquadro **Voci generate** per la definizione di registrazione.
+<span data-ttu-id="b9cec-157">In questo esempio, qualsiasi conto fa parte di Struttura conti - profitti e perdite corrispondono ai criteri delle definizioni di registrazione.</span><span class="sxs-lookup"><span data-stu-id="b9cec-157">In this example, any account that is part of Account Structure - P&L matches the posting definition criteria.</span></span> <span data-ttu-id="b9cec-158">Pertanto, quando viene valutato 606500-OU\_1-OU\_3566-Training, le voci generate vengono create per i conti definiti nel riquadro **Voci generate** per la definizione di registrazione.</span><span class="sxs-lookup"><span data-stu-id="b9cec-158">Therefore, when 606500-OU\_1-OU\_3566-Training is evaluated, generated entries are created for the accounts that are defined in the **Generated entries** pane for the posting definition.</span></span>
 
-## <a name="example-budget-appropriations"></a>Esempio: Ripartizioni di budget
-Quando si abilita la ripartizione di budget selezionando **Abilita ripartizione budget** nella pagina **Parametri contabilità generale**, le definizioni di registrazione devono essere utilizzate per registrare le voci del registro di budget nella contabilità generale. Quando una configurazione del controllo del budget è attiva e abilitata, le definizioni di registrazione e le definizioni di registrazione delle transazioni possono essere utilizzate per sostenere la registrazione delle voci di ripartizione, revisione, trasferimento, progetto, cespite, e di previsione della domanda e dell'offerta nella contabilità generale. 
+## <a name="example-budget-appropriations"></a><span data-ttu-id="b9cec-159">Esempio: Ripartizioni di budget</span><span class="sxs-lookup"><span data-stu-id="b9cec-159">Example: Budget appropriations</span></span>
+<span data-ttu-id="b9cec-160">Quando si abilita la ripartizione di budget selezionando **Abilita ripartizione budget** nella pagina **Parametri contabilità generale**, le definizioni di registrazione devono essere utilizzate per registrare le voci del registro di budget nella contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="b9cec-160">When you enable budget appropriation by selecting **Enable budget appropriation** on the **General ledger parameters** page, posting definitions must be used to record budget register entries to the general ledger.</span></span> <span data-ttu-id="b9cec-161">Quando una configurazione del controllo del budget è attiva e abilitata, le definizioni di registrazione e le definizioni di registrazione delle transazioni possono essere utilizzate per sostenere la registrazione delle voci di ripartizione, revisione, trasferimento, progetto, cespite, e di previsione della domanda e dell'offerta nella contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="b9cec-161">When a budget control configuration is active and is turned on, posting definitions and transaction posting definitions can be used to support the recording of entries for appropriations, revisions, transfers, projects, fixed assets, and supply and demand forecasts to the general ledger.</span></span> 
 
-Una definizione di registrazione per voci del registro di budget del tipo di budget **Budget originale** e che ha abilitate le ripartizioni, può essere impostata selezionando il modulo **Budget** nella pagina **Definizioni di registrazione**. Quindi, nell'area **Budget** della pagina **Definizioni di registrazione transazioni**, è possibile utilizzare i codici budget per associare la definizione di registrazione a voci del registro di budget del tipo di budget **Budget originale**. 
+<span data-ttu-id="b9cec-162">Una definizione di registrazione per voci del registro di budget del tipo di budget **Budget originale** e che ha abilitate le ripartizioni, può essere impostata selezionando il modulo **Budget** nella pagina **Definizioni di registrazione**.</span><span class="sxs-lookup"><span data-stu-id="b9cec-162">To set up a posting definition for budget register entries that has a budget type of **Original budget**, and that has appropriations enabled, select the **Budget** module on the **Posting definitions** page.</span></span> <span data-ttu-id="b9cec-163">Quindi, nell'area **Budget** della pagina **Definizioni di registrazione transazioni**, è possibile utilizzare i codici budget per associare la definizione di registrazione a voci del registro di budget del tipo di budget **Budget originale**.</span><span class="sxs-lookup"><span data-stu-id="b9cec-163">Then, in the **Budget** area of the **Transaction posting definitions** page, you can use budget codes to associate the posting definition with budget register entries that have a budget type of **Original budget**.</span></span> 
 
-Se sono abilitate le ripartizioni di budget e le definizioni di registrazione, le voci del registro di budget vengono registrate per il controllo del budget e nella contabilità generale.
+<span data-ttu-id="b9cec-164">Se sono abilitate le ripartizioni di budget e le definizioni di registrazione, le voci del registro di budget vengono registrate per il controllo del budget e nella contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="b9cec-164">When budget appropriations and posting definitions are enabled, the budget register entries are recorded for budget control and in the general ledger.</span></span>
 
-### <a name="posting-definition--match-criteria"></a>Definizione di registrazione – criteri di corrispondenza
+### <a name="posting-definition--match-criteria"></a><span data-ttu-id="b9cec-165">Definizione di registrazione – criteri di corrispondenza</span><span class="sxs-lookup"><span data-stu-id="b9cec-165">Posting definition – Match criteria</span></span>
 
-| Struttura dei conti       | Associa numero di conto | Priorità |
+| <span data-ttu-id="b9cec-166">Struttura dei conti</span><span class="sxs-lookup"><span data-stu-id="b9cec-166">Account structure</span></span>       | <span data-ttu-id="b9cec-167">Associa numero di conto</span><span class="sxs-lookup"><span data-stu-id="b9cec-167">Match account number</span></span> | <span data-ttu-id="b9cec-168">Priorità</span><span class="sxs-lookup"><span data-stu-id="b9cec-168">Priority</span></span> |
 |-------------------------|----------------------|----------|
-| Struttura dei conti - profitti e perdite | \*                   | 1        |
+| <span data-ttu-id="b9cec-169">Struttura dei conti - profitti e perdite</span><span class="sxs-lookup"><span data-stu-id="b9cec-169">Account Structure - P&L</span></span> | \*                   | <span data-ttu-id="b9cec-170">1</span><span class="sxs-lookup"><span data-stu-id="b9cec-170">1</span></span>        |
 
-*Un valore vuoto nel campo **Numero di conto** da associare implica che tutti i conti corrispondenti nella struttura dei conti definita faranno parte della regola di corrispondenza.
+<span data-ttu-id="b9cec-171">*Un valore vuoto nel campo **Numero di conto** da associare implica che tutti i conti corrispondenti nella struttura dei conti definita faranno parte della regola di corrispondenza.</span><span class="sxs-lookup"><span data-stu-id="b9cec-171">*A blank value in the **Match account number** field means that all matching accounts in the defined account structure are part of the matching rule.</span></span>
 
-### <a name="posting-definition--generated-entries"></a>Definizione di registrazione – voci generate
+### <a name="posting-definition--generated-entries"></a><span data-ttu-id="b9cec-172">Definizione di registrazione – voci generate</span><span class="sxs-lookup"><span data-stu-id="b9cec-172">Posting definition – Generated entries</span></span>
 
-| Struttura dei conti | Numero di conto generato              | Dare/Avere generato |
+| <span data-ttu-id="b9cec-173">Struttura dei conti</span><span class="sxs-lookup"><span data-stu-id="b9cec-173">Account structure</span></span> | <span data-ttu-id="b9cec-174">Numero di conto generato</span><span class="sxs-lookup"><span data-stu-id="b9cec-174">Generated account number</span></span>              | <span data-ttu-id="b9cec-175">Dare/Avere generato</span><span class="sxs-lookup"><span data-stu-id="b9cec-175">Generated debit/credit</span></span> |
 |-------------------|---------------------------------------|------------------------|
-| Struttura dei conti | 300145 - -(Conto ricavi stimati) | Uguali                   |
-| Struttura dei conti | 300146 - -(Conto ripartizioni)     | Stare in equilibrio              |
+| <span data-ttu-id="b9cec-176">Struttura dei conti</span><span class="sxs-lookup"><span data-stu-id="b9cec-176">Account structure</span></span> | <span data-ttu-id="b9cec-177">300145 - -(Conto ricavi stimati)</span><span class="sxs-lookup"><span data-stu-id="b9cec-177">300145 - -(Estimated revenue account)</span></span> | <span data-ttu-id="b9cec-178">Uguali</span><span class="sxs-lookup"><span data-stu-id="b9cec-178">Same</span></span>                   |
+| <span data-ttu-id="b9cec-179">Struttura dei conti</span><span class="sxs-lookup"><span data-stu-id="b9cec-179">Account structure</span></span> | <span data-ttu-id="b9cec-180">300146 - -(Conto ripartizioni)</span><span class="sxs-lookup"><span data-stu-id="b9cec-180">300146 - -(Appropriation account)</span></span>     | <span data-ttu-id="b9cec-181">Stare in equilibrio</span><span class="sxs-lookup"><span data-stu-id="b9cec-181">Balancing</span></span>              |
 
-### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a>Transazioni con i conti, i valori di dimensione e gli importi
+### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a><span data-ttu-id="b9cec-182">Transazioni con i conti, i valori di dimensione e gli importi</span><span class="sxs-lookup"><span data-stu-id="b9cec-182">Transactions with the accounts, dimension values, and amounts</span></span>
 
-Nella pagina **Voce di registro budget** si immettono i conti, i valori di dimensione e gli importi per la voce contabile del budget.
+<span data-ttu-id="b9cec-183">Nella pagina **Voce di registro budget** si immettono i conti, i valori di dimensione e gli importi per la voce contabile del budget.</span><span class="sxs-lookup"><span data-stu-id="b9cec-183">You enter the accounts, dimension values, and amounts for the budget account entry on the **Budget register entry** page.</span></span>
 
-| Conto + dimensioni           | Dare | Avere | Commento |
+| <span data-ttu-id="b9cec-184">Conto + dimensioni</span><span class="sxs-lookup"><span data-stu-id="b9cec-184">Account + dimensions</span></span>           | <span data-ttu-id="b9cec-185">Dare</span><span class="sxs-lookup"><span data-stu-id="b9cec-185">Debit</span></span> | <span data-ttu-id="b9cec-186">Avere</span><span class="sxs-lookup"><span data-stu-id="b9cec-186">Credit</span></span> | <span data-ttu-id="b9cec-187">Commento</span><span class="sxs-lookup"><span data-stu-id="b9cec-187">Comment</span></span> |
 |--------------------------------|-------|--------|---------|
-| 606400-OU\_1-OU\_3566-Training |       | 250,00 |         |
+| <span data-ttu-id="b9cec-188">606400-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="b9cec-188">606400-OU\_1-OU\_3566-Training</span></span> |       | <span data-ttu-id="b9cec-189">250,00</span><span class="sxs-lookup"><span data-stu-id="b9cec-189">250.00</span></span> |         |
 
-### <a name="ledger-entries-generated-from-the-posting-definition"></a>Voci di contabilità generale generate dalla definizione di registrazione
+### <a name="ledger-entries-generated-from-the-posting-definition"></a><span data-ttu-id="b9cec-190">Voci di contabilità generale generate dalla definizione di registrazione</span><span class="sxs-lookup"><span data-stu-id="b9cec-190">Ledger entries generated from the posting definition</span></span>
 
-Le voci di contabilità generale generate vengono create per registrare il budget originale in ciascuna dimensione.
+<span data-ttu-id="b9cec-191">Le voci di contabilità generale generate vengono create per registrare il budget originale in ciascuna dimensione.</span><span class="sxs-lookup"><span data-stu-id="b9cec-191">Generated ledger entries are created to record the original budget in each dimension.</span></span>
 
-| Conto + dimensioni           | Dare  | Avere | Commento |
+| <span data-ttu-id="b9cec-192">Conto + dimensioni</span><span class="sxs-lookup"><span data-stu-id="b9cec-192">Account + dimensions</span></span>           | <span data-ttu-id="b9cec-193">Dare</span><span class="sxs-lookup"><span data-stu-id="b9cec-193">Debit</span></span>  | <span data-ttu-id="b9cec-194">Avere</span><span class="sxs-lookup"><span data-stu-id="b9cec-194">Credit</span></span> | <span data-ttu-id="b9cec-195">Commento</span><span class="sxs-lookup"><span data-stu-id="b9cec-195">Comment</span></span> |
 |--------------------------------|--------|--------|---------|
-| 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
-| 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
+| <span data-ttu-id="b9cec-196">300145-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="b9cec-196">300145-OU\_1-OU\_3566-Training</span></span> |        | <span data-ttu-id="b9cec-197">250,00</span><span class="sxs-lookup"><span data-stu-id="b9cec-197">250.00</span></span> |         |
+| <span data-ttu-id="b9cec-198">300146-OU\_1-OU\_3566-Training</span><span class="sxs-lookup"><span data-stu-id="b9cec-198">300146-OU\_1-OU\_3566-Training</span></span> | <span data-ttu-id="b9cec-199">250,00</span><span class="sxs-lookup"><span data-stu-id="b9cec-199">250.00</span></span> |        |         |
 
-In questo esempio, qualsiasi conto fa parte di Struttura conti - profitti e perdite corrispondono ai criteri delle definizioni di registrazione. Pertanto, quando viene valutato 606400-OU\_1-OU\_3566-Training, vengono create le voci della contabilità generale generate.
+<span data-ttu-id="b9cec-200">In questo esempio, qualsiasi conto fa parte di Struttura conti - profitti e perdite corrispondono ai criteri delle definizioni di registrazione.</span><span class="sxs-lookup"><span data-stu-id="b9cec-200">In this example, any account that is part of Account Structure - P&L matches the posting definition criteria.</span></span> <span data-ttu-id="b9cec-201">Pertanto, quando viene valutato 606400-OU\_1-OU\_3566-Training, vengono create le voci della contabilità generale generate.</span><span class="sxs-lookup"><span data-stu-id="b9cec-201">Therefore, when 606400-OU\_1-OU\_3566-Training is evaluated, the generated ledger entries are created.</span></span>
 
 
 

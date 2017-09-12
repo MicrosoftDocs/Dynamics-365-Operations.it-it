@@ -19,66 +19,66 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 131045a5702f8c85be44ba1ebae1866c033850b9
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 4b87d96e80b343a2b57db59b5d4c19e70d0a94ea
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="factor-depreciation"></a>Ammortamento basato su coefficiente
+# <a name="factor-depreciation"></a><span data-ttu-id="9d2ff-103">Ammortamento basato su coefficiente</span><span class="sxs-lookup"><span data-stu-id="9d2ff-103">Factor depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce una panoramica del metodo di ammortamento basato su coefficiente.
+<span data-ttu-id="9d2ff-104">Questo articolo fornisce una panoramica del metodo di ammortamento basato su coefficiente.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-104">This article gives an overview of the factor depreciation method.</span></span>
 
-I fattori sono percentuali utilizzate per l'ammortamento dei cespiti. Quando si imposta un profilo di ammortamento cespiti e si seleziona **Fattore** nel campo **Metodo** della pagna **Profili di ammortamento**, è possibile impostare un ammortamento progressivo, digressivo o a quote costanti.
+<span data-ttu-id="9d2ff-105">I fattori sono percentuali utilizzate per l'ammortamento dei cespiti.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-105">Factors are the percentages that are used to depreciate assets.</span></span> <span data-ttu-id="9d2ff-106">Quando si imposta un profilo di ammortamento cespiti e si seleziona **Fattore** nel campo **Metodo** della pagna **Profili di ammortamento**, è possibile impostare un ammortamento progressivo, digressivo o a quote costanti.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-106">When you set up a fixed asset depreciation profile and select **Factor** in the **Method** field on the **Depreciation profiles** page, you can set up progressive, digressive, or straight line depreciation:</span></span>
 
--   Nell'ammortamento progressivo, l'importo di ammortamento aumenta con ogni periodo di ammortamento.
--   Nell'ammortamento digressivo, l'importo di ammortamento per periodo diminuisce nel tempo.
--   Nell'ammortamento a quote costanti, l'ammortamento è lo stesso per ogni periodo.
+-   <span data-ttu-id="9d2ff-107">Nell'ammortamento progressivo, l'importo di ammortamento aumenta con ogni periodo di ammortamento.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-107">In progressive depreciation, the amount of depreciation increases each depreciation period.</span></span>
+-   <span data-ttu-id="9d2ff-108">Nell'ammortamento digressivo, l'importo di ammortamento per periodo diminuisce nel tempo.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-108">In digressive depreciation, the amount of depreciation per period decreases over time.</span></span>
+-   <span data-ttu-id="9d2ff-109">Nell'ammortamento a quote costanti, l'ammortamento è lo stesso per ogni periodo.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-109">In straight line depreciation, the depreciation is the same in each period.</span></span>
 
-Nelle regole e negli esempi illustrati di seguito viene descritto come impostare i fattori per ogni tipo di ammortamento. 
+<span data-ttu-id="9d2ff-110">Nelle regole e negli esempi illustrati di seguito viene descritto come impostare i fattori per ogni tipo di ammortamento.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-110">The rules and examples that follow indicate how you can set up factors for each type of depreciation.</span></span> 
 
 > [!NOTE] 
-> Quando si seleziona **Fattore** nel campo **Metodo**, sono visualizzati il campo **Fattore** e il campo **Intervallo**.
+> <span data-ttu-id="9d2ff-111">Quando si seleziona **Fattore** nel campo **Metodo**, sono visualizzati il campo **Fattore** e il campo **Intervallo**.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-111">When you select **Factor** in the **Method** field, the **Factor** field and the **Interval** field are displayed.</span></span>
 
-## <a name="progressive-depreciation"></a>Ammortamento progressivo
-Il valore del campo **Fattore** è maggiore di **50**
+## <a name="progressive-depreciation"></a><span data-ttu-id="9d2ff-112">Ammortamento progressivo</span><span class="sxs-lookup"><span data-stu-id="9d2ff-112">Progressive depreciation</span></span>
+<span data-ttu-id="9d2ff-113">Il valore del campo **Fattore** è maggiore di **50**</span><span class="sxs-lookup"><span data-stu-id="9d2ff-113">The value in the **Factor** field is more than **50**.</span></span>
 
-### <a name="example"></a>Esempio
+### <a name="example"></a><span data-ttu-id="9d2ff-114">Esempio</span><span class="sxs-lookup"><span data-stu-id="9d2ff-114">Example</span></span>
 
-Si supponga che il prezzo di acquisizione sia 100.000, il fattore sia 70, la vita utile sia 10 anni e l'ammortamento inizi il 1° gennaio. Gli importi di ammortamento e valore contabile netto vengono mostrati solo per i primi sei anni di vita utile.
+<span data-ttu-id="9d2ff-115">Si supponga che il prezzo di acquisizione sia 100.000, il fattore sia 70, la vita utile sia 10 anni e l'ammortamento inizi il 1° gennaio.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-115">The acquisition price is 100,000, the factor is 70, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="9d2ff-116">Gli importi di ammortamento e valore contabile netto vengono mostrati solo per i primi sei anni di vita utile.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-116">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| Anno | Periodo      | Importo di ammortamento | Importo valore contabile netto |
+| <span data-ttu-id="9d2ff-117">Anno</span><span class="sxs-lookup"><span data-stu-id="9d2ff-117">Year</span></span> | <span data-ttu-id="9d2ff-118">Periodo</span><span class="sxs-lookup"><span data-stu-id="9d2ff-118">Period</span></span>      | <span data-ttu-id="9d2ff-119">Importo di ammortamento</span><span class="sxs-lookup"><span data-stu-id="9d2ff-119">Depreciation amount</span></span> | <span data-ttu-id="9d2ff-120">Importo valore contabile netto</span><span class="sxs-lookup"><span data-stu-id="9d2ff-120">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 31 dicembre | 307,69              | 99.692,31             |
-| 2    | 31 dicembre | 1.447,21            | 98.245,10             |
-| 3    | 31 dicembre | 3.104,50            | 95.140,60             |
-| 4    | 31 dicembre | 5.150,21            | 89.990,39             |
-| 5    | 31 dicembre | 7.522,95            | 82.467,44             |
-| 6    | 31 dicembre | 10.184,06           | 72.283,38             |
+| <span data-ttu-id="9d2ff-121">1</span><span class="sxs-lookup"><span data-stu-id="9d2ff-121">1</span></span>    | <span data-ttu-id="9d2ff-122">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-122">December 31</span></span> | <span data-ttu-id="9d2ff-123">307,69</span><span class="sxs-lookup"><span data-stu-id="9d2ff-123">307.69</span></span>              | <span data-ttu-id="9d2ff-124">99.692,31</span><span class="sxs-lookup"><span data-stu-id="9d2ff-124">99,692.31</span></span>             |
+| <span data-ttu-id="9d2ff-125">2</span><span class="sxs-lookup"><span data-stu-id="9d2ff-125">2</span></span>    | <span data-ttu-id="9d2ff-126">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-126">December 31</span></span> | <span data-ttu-id="9d2ff-127">1.447,21</span><span class="sxs-lookup"><span data-stu-id="9d2ff-127">1,447.21</span></span>            | <span data-ttu-id="9d2ff-128">98.245,10</span><span class="sxs-lookup"><span data-stu-id="9d2ff-128">98,245.10</span></span>             |
+| <span data-ttu-id="9d2ff-129">3</span><span class="sxs-lookup"><span data-stu-id="9d2ff-129">3</span></span>    | <span data-ttu-id="9d2ff-130">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-130">December 31</span></span> | <span data-ttu-id="9d2ff-131">3.104,50</span><span class="sxs-lookup"><span data-stu-id="9d2ff-131">3,104.50</span></span>            | <span data-ttu-id="9d2ff-132">95.140,60</span><span class="sxs-lookup"><span data-stu-id="9d2ff-132">95,140.60</span></span>             |
+| <span data-ttu-id="9d2ff-133">4</span><span class="sxs-lookup"><span data-stu-id="9d2ff-133">4</span></span>    | <span data-ttu-id="9d2ff-134">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-134">December 31</span></span> | <span data-ttu-id="9d2ff-135">5.150,21</span><span class="sxs-lookup"><span data-stu-id="9d2ff-135">5,150.21</span></span>            | <span data-ttu-id="9d2ff-136">89.990,39</span><span class="sxs-lookup"><span data-stu-id="9d2ff-136">89,990.39</span></span>             |
+| <span data-ttu-id="9d2ff-137">5</span><span class="sxs-lookup"><span data-stu-id="9d2ff-137">5</span></span>    | <span data-ttu-id="9d2ff-138">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-138">December 31</span></span> | <span data-ttu-id="9d2ff-139">7.522,95</span><span class="sxs-lookup"><span data-stu-id="9d2ff-139">7,522.95</span></span>            | <span data-ttu-id="9d2ff-140">82.467,44</span><span class="sxs-lookup"><span data-stu-id="9d2ff-140">82,467.44</span></span>             |
+| <span data-ttu-id="9d2ff-141">6</span><span class="sxs-lookup"><span data-stu-id="9d2ff-141">6</span></span>    | <span data-ttu-id="9d2ff-142">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-142">December 31</span></span> | <span data-ttu-id="9d2ff-143">10.184,06</span><span class="sxs-lookup"><span data-stu-id="9d2ff-143">10,184.06</span></span>           | <span data-ttu-id="9d2ff-144">72.283,38</span><span class="sxs-lookup"><span data-stu-id="9d2ff-144">72,283.38</span></span>             |
 
-## <a name="digressive-depreciation"></a>Ammortamento digressivo
-Il valore del campo **Fattore** è minore di **50**.
+## <a name="digressive-depreciation"></a><span data-ttu-id="9d2ff-145">Ammortamento digressivo</span><span class="sxs-lookup"><span data-stu-id="9d2ff-145">Digressive depreciation</span></span>
+<span data-ttu-id="9d2ff-146">Il valore del campo **Fattore** è minore di **50**.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-146">The value in the **Factor** field is less than **50**.</span></span>
 
-### <a name="example"></a>Esempio
+### <a name="example"></a><span data-ttu-id="9d2ff-147">Esempio</span><span class="sxs-lookup"><span data-stu-id="9d2ff-147">Example</span></span>
 
-Si supponga che il prezzo di acquisizione sia 100.000, il fattore sia 20, la vita utile sia 10 anni e l'ammortamento inizi il 1° gennaio. Gli importi di ammortamento e valore contabile netto vengono mostrati solo per i primi sei anni di vita utile.
+<span data-ttu-id="9d2ff-148">Si supponga che il prezzo di acquisizione sia 100.000, il fattore sia 20, la vita utile sia 10 anni e l'ammortamento inizi il 1° gennaio.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-148">The acquisition price is 100,000, the factor is 20, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="9d2ff-149">Gli importi di ammortamento e valore contabile netto vengono mostrati solo per i primi sei anni di vita utile.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-149">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| Anno | Periodo      | Importo di ammortamento | Importo valore contabile netto |
+| <span data-ttu-id="9d2ff-150">Anno</span><span class="sxs-lookup"><span data-stu-id="9d2ff-150">Year</span></span> | <span data-ttu-id="9d2ff-151">Periodo</span><span class="sxs-lookup"><span data-stu-id="9d2ff-151">Period</span></span>      | <span data-ttu-id="9d2ff-152">Importo di ammortamento</span><span class="sxs-lookup"><span data-stu-id="9d2ff-152">Depreciation amount</span></span> | <span data-ttu-id="9d2ff-153">Importo valore contabile netto</span><span class="sxs-lookup"><span data-stu-id="9d2ff-153">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 31 dicembre | 56.080,43           | 43.919,57             |
-| 2    | 31 dicembre | 10.665,70           | 33.253,87             |
-| 3    | 31 dicembre | 7.156,22            | 26.097,65             |
-| 4    | 31 dicembre | 5.538,06            | 20.559,59             |
-| 5    | 31 dicembre | 4.579,89            | 15.979,70             |
-| 6    | 31 dicembre | 3.937,36            | 12.042,34             |
+| <span data-ttu-id="9d2ff-154">1</span><span class="sxs-lookup"><span data-stu-id="9d2ff-154">1</span></span>    | <span data-ttu-id="9d2ff-155">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-155">December 31</span></span> | <span data-ttu-id="9d2ff-156">56.080,43</span><span class="sxs-lookup"><span data-stu-id="9d2ff-156">56,080.43</span></span>           | <span data-ttu-id="9d2ff-157">43.919,57</span><span class="sxs-lookup"><span data-stu-id="9d2ff-157">43,919.57</span></span>             |
+| <span data-ttu-id="9d2ff-158">2</span><span class="sxs-lookup"><span data-stu-id="9d2ff-158">2</span></span>    | <span data-ttu-id="9d2ff-159">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-159">December 31</span></span> | <span data-ttu-id="9d2ff-160">10.665,70</span><span class="sxs-lookup"><span data-stu-id="9d2ff-160">10,665.70</span></span>           | <span data-ttu-id="9d2ff-161">33.253,87</span><span class="sxs-lookup"><span data-stu-id="9d2ff-161">33,253.87</span></span>             |
+| <span data-ttu-id="9d2ff-162">3</span><span class="sxs-lookup"><span data-stu-id="9d2ff-162">3</span></span>    | <span data-ttu-id="9d2ff-163">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-163">December 31</span></span> | <span data-ttu-id="9d2ff-164">7.156,22</span><span class="sxs-lookup"><span data-stu-id="9d2ff-164">7,156.22</span></span>            | <span data-ttu-id="9d2ff-165">26.097,65</span><span class="sxs-lookup"><span data-stu-id="9d2ff-165">26,097.65</span></span>             |
+| <span data-ttu-id="9d2ff-166">4</span><span class="sxs-lookup"><span data-stu-id="9d2ff-166">4</span></span>    | <span data-ttu-id="9d2ff-167">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-167">December 31</span></span> | <span data-ttu-id="9d2ff-168">5.538,06</span><span class="sxs-lookup"><span data-stu-id="9d2ff-168">5,538.06</span></span>            | <span data-ttu-id="9d2ff-169">20.559,59</span><span class="sxs-lookup"><span data-stu-id="9d2ff-169">20,559.59</span></span>             |
+| <span data-ttu-id="9d2ff-170">5</span><span class="sxs-lookup"><span data-stu-id="9d2ff-170">5</span></span>    | <span data-ttu-id="9d2ff-171">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-171">December 31</span></span> | <span data-ttu-id="9d2ff-172">4.579,89</span><span class="sxs-lookup"><span data-stu-id="9d2ff-172">4,579.89</span></span>            | <span data-ttu-id="9d2ff-173">15.979,70</span><span class="sxs-lookup"><span data-stu-id="9d2ff-173">15,979.70</span></span>             |
+| <span data-ttu-id="9d2ff-174">6</span><span class="sxs-lookup"><span data-stu-id="9d2ff-174">6</span></span>    | <span data-ttu-id="9d2ff-175">31 dicembre</span><span class="sxs-lookup"><span data-stu-id="9d2ff-175">December 31</span></span> | <span data-ttu-id="9d2ff-176">3.937,36</span><span class="sxs-lookup"><span data-stu-id="9d2ff-176">3,937.36</span></span>            | <span data-ttu-id="9d2ff-177">12.042,34</span><span class="sxs-lookup"><span data-stu-id="9d2ff-177">12,042.34</span></span>             |
 
-## <a name="straight-line-depreciation"></a>Ammortamento a quote costanti
-Il valore del campo **Fattore** è uguale a **50**. In questo caso, l'ammortamento è lo stesso in ogni periodo ed è consigliabile prendere in considerazione le implicazioni delle scelte effettuate in altri campi, come descritto in [Ammortamento a quote costanti basato sulla vita utile](straight-line-service-life-depreciation.md).
+## <a name="straight-line-depreciation"></a><span data-ttu-id="9d2ff-178">Ammortamento a quote costanti</span><span class="sxs-lookup"><span data-stu-id="9d2ff-178">Straight line depreciation</span></span>
+<span data-ttu-id="9d2ff-179">Il valore del campo **Fattore** è uguale a **50**.</span><span class="sxs-lookup"><span data-stu-id="9d2ff-179">The value in the **Factor** field is equal to **50**.</span></span> <span data-ttu-id="9d2ff-180">In questo caso, l'ammortamento è lo stesso in ogni periodo ed è consigliabile prendere in considerazione le implicazioni delle scelte effettuate in altri campi, come descritto in [Ammortamento a quote costanti basato sulla vita utile](straight-line-service-life-depreciation.md).</span><span class="sxs-lookup"><span data-stu-id="9d2ff-180">In this case, the depreciation is the same in each period, and you should consider the implications of the values that you have specified in other fields, as described in [Straight line service life depreciation](straight-line-service-life-depreciation.md).</span></span>
 
 
 

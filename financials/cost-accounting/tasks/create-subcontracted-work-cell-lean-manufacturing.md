@@ -16,59 +16,59 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 41cf47bb0578d9c854bd0dfc078b5b6fb559abca
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: fc8dc0bc29c6bdb662c46808491abf5395f0be5d
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Creare una cella di lavoro in conto lavoro per la lean manufacturing
+# <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a><span data-ttu-id="64082-103">Creare una cella di lavoro in conto lavoro per la lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="64082-103">Create a subcontracted work cell for lean manufacturing</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Per modellare un'attività in conto lavoro per la lean manufacturing, è necessario creare una cella di lavoro associata al fornitore che esegue il lavoro. Una cella di lavoro in conto lavoro è collegata al fornitore tramite l'associazione di una risorsa di tipo fornitore. Se si esegue questa registrazione nella società dimostrativa USMF, è possibile selezionare il conto fornitore con ID 1002 e il sito 1.
+<span data-ttu-id="64082-104">Per modellare un'attività in conto lavoro per la lean manufacturing, è necessario creare una cella di lavoro associata al fornitore che esegue il lavoro.</span><span class="sxs-lookup"><span data-stu-id="64082-104">To model subcontracted work for lean manufacturing, you must create a work cell that is associated with the vendor that provides the work.</span></span> <span data-ttu-id="64082-105">Una cella di lavoro in conto lavoro è collegata al fornitore tramite l'associazione di una risorsa di tipo fornitore.</span><span class="sxs-lookup"><span data-stu-id="64082-105">A subcontracted work cell is linked to the vendor through the association of a resource of the Vendor type.</span></span> <span data-ttu-id="64082-106">Se si esegue questa registrazione nella società dimostrativa USMF, è possibile selezionare il conto fornitore con ID 1002 e il sito 1.</span><span class="sxs-lookup"><span data-stu-id="64082-106">If you play this recording in the USMF demo company, you can select vendor account ID 1002 and site 1.</span></span>
 
 
-## <a name="create-a-vendor-resource"></a>Creare una risorsa fornitore
-1. Fare clic su Risorse.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Risorsa.
-4. Nel campo Descrizione digitare un valore.
-5. Nel campo Tipo selezionare "Fornitore".
-6. Nel campo Fornitore fare clic sul pulsante a discesa per aprire la ricerca.
+## <a name="create-a-vendor-resource"></a><span data-ttu-id="64082-107">Creare una risorsa fornitore</span><span class="sxs-lookup"><span data-stu-id="64082-107">Create a vendor resource</span></span>
+1. <span data-ttu-id="64082-108">Fare clic su Risorse.</span><span class="sxs-lookup"><span data-stu-id="64082-108">Go to Resources.</span></span>
+2. <span data-ttu-id="64082-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="64082-109">Click New.</span></span>
+3. <span data-ttu-id="64082-110">Digitare un valore nel campo Risorsa.</span><span class="sxs-lookup"><span data-stu-id="64082-110">In the Resource field, type a value.</span></span>
+4. <span data-ttu-id="64082-111">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="64082-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="64082-112">Nel campo Tipo selezionare "Fornitore".</span><span class="sxs-lookup"><span data-stu-id="64082-112">In the Type field, select 'Vendor'.</span></span>
+6. <span data-ttu-id="64082-113">Nel campo Fornitore fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-113">In the Vendor field, click the drop-down button to open the lookup.</span></span>
 
-## <a name="create-the-resource-group"></a>Creare il gruppo di risorse
-1. Fare clic su Gruppo di risorse.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Gruppo di risorse.
-4. Nel campo Descrizione digitare un valore.
-5. Nel campo Sito fare clic sul pulsante a discesa per aprire la ricerca.
-    * Selezionare il sito a cui la cella di lavoro deve essere allocata. In teoria, un sito può rappresentare un singolo sito in cui opera un fornitore. Tuttavia, nella maggior parte dei casi, le risorse in conto lavoro vengono inserite solo nel sito che ordina il conto lavoro. Si noti che i magazzini in ingresso e in uscita delle celle di lavoro in conto lavoro devono essere nello stesso sito.  
-6. Digitare un valore nel campo Sito.
+## <a name="create-the-resource-group"></a><span data-ttu-id="64082-114">Creare il gruppo di risorse</span><span class="sxs-lookup"><span data-stu-id="64082-114">Create the resource group</span></span>
+1. <span data-ttu-id="64082-115">Fare clic su Gruppo di risorse.</span><span class="sxs-lookup"><span data-stu-id="64082-115">Go to Resource groups.</span></span>
+2. <span data-ttu-id="64082-116">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="64082-116">Click New.</span></span>
+3. <span data-ttu-id="64082-117">Digitare un valore nel campo Gruppo di risorse.</span><span class="sxs-lookup"><span data-stu-id="64082-117">In the Resource group field, type a value.</span></span>
+4. <span data-ttu-id="64082-118">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="64082-118">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="64082-119">Nel campo Sito fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-119">In the Site field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="64082-120">Selezionare il sito a cui la cella di lavoro deve essere allocata.</span><span class="sxs-lookup"><span data-stu-id="64082-120">Select the site that the work cell should be allocated to.</span></span> <span data-ttu-id="64082-121">In teoria, un sito può rappresentare un singolo sito in cui opera un fornitore.</span><span class="sxs-lookup"><span data-stu-id="64082-121">In theory, a site can represent a single site that is operated by a vendor.</span></span> <span data-ttu-id="64082-122">Tuttavia, nella maggior parte dei casi, le risorse in conto lavoro vengono inserite solo nel sito che ordina il conto lavoro.</span><span class="sxs-lookup"><span data-stu-id="64082-122">However, in most cases, subcontracted resources are just allocated to the site that orders the subcontracted work.</span></span> <span data-ttu-id="64082-123">Si noti che i magazzini in ingresso e in uscita delle celle di lavoro in conto lavoro devono essere nello stesso sito.</span><span class="sxs-lookup"><span data-stu-id="64082-123">Note that the input and output warehouses of subcontracted work cells must be on the same site.</span></span>  
+6. <span data-ttu-id="64082-124">Digitare un valore nel campo Sito.</span><span class="sxs-lookup"><span data-stu-id="64082-124">In the Site field, type a value.</span></span>
 7. @SysTaskRecorder:_RequestClose
-8. Selezionare o deselezionare la casella di controllo Cella di lavoro.
-9. Nel campo Magazzino di input fare clic sul pulsante a discesa per aprire la ricerca.
-    * Selezionare il magazzino e l'ubicazione utilizzati per conservare il materiale per la cella di lavoro gestita dal fornitore. In molti casi, il magazzino e l'ubicazione sono modellati utilizzando un magazzino separato per il fornitore e un'ubicazione per la cella di lavoro.  
-10. Nel campo Ubicazione di input fare clic sul pulsante a discesa per aprire la ricerca.
-11. Nel campo Magazzino di output fare clic sul pulsante a discesa per aprire la ricerca.
-    * Definire il magazzino e l'ubicazione in cui il materiale viene registrato quando le attività in conto lavoro della cella di lavoro vengono registrate. Il magazzino e l'ubicazione possono trovarsi nel sito del fornitore se quest'ultimo dichiara il processo kanban. In alternativa, il magazzino e l'ubicazione possono essere l'ubicazione di ricevimento associata al passaggio successivo del flusso di produzione.  
-12. Nel campo Ubicazione di output fare clic sul pulsante a discesa per aprire la ricerca.
-13. Espandere o comprimere la sezione Calendari.
-14. Scegliere Aggiungi.
-15. Nel campo Calendario fare clic sul pulsante a discesa per aprire la ricerca.
-    * Associare il calendario lavorativo della cella di lavoro al gruppo di risorse. Per le risorse importanti, si consiglia di definire calendari specifici che rappresentano gli orari di lavoro esatti e le funzioni correlate del sito del fornitore o della cella di lavoro.  
-16. Espandere o comprimere la sezione Risorse.
-17. Scegliere Aggiungi.
-    * Un gruppo di risorse in conto lavoro deve disporre di una risorsa associata di tipo fornitore che collega il gruppo di risorse al conto fornitore.  
-18. Nel campo Risorsa fare clic sul pulsante a discesa per aprire la ricerca.
-    * Selezionare o immettere la risorsa fornitore creata nella sottoattività precedente.  
-19. Espandere o comprimere la sezione Capacità cella di lavoro.
-20. Scegliere Aggiungi.
-    * Una cella di lavoro deve avere una capacità definita. In questo esempio verrà creata una capacità di produttività di 100 pezzi per giorno lavorativo standard.  
-21. Nel campo Modello di flusso di produzione fare clic sul pulsante a discesa per aprire la ricerca.
-22. Selezionare un'opzione nel campo Periodo di capacità.
-23. Nel campo Quantità di produttività media, immettere un numero.
-24. Nel campo Unità fare clic sul pulsante a discesa per aprire la ricerca.
-25. ResolveChanges per l'unità.
+8. <span data-ttu-id="64082-125">Selezionare o deselezionare la casella di controllo Cella di lavoro.</span><span class="sxs-lookup"><span data-stu-id="64082-125">Select or clear the Work cell check box.</span></span>
+9. <span data-ttu-id="64082-126">Nel campo Magazzino di input fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-126">In the Input warehouse field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="64082-127">Selezionare il magazzino e l'ubicazione utilizzati per conservare il materiale per la cella di lavoro gestita dal fornitore.</span><span class="sxs-lookup"><span data-stu-id="64082-127">Select the warehouse and location that are used to stage the material for the vendor-managed work cell.</span></span> <span data-ttu-id="64082-128">In molti casi, il magazzino e l'ubicazione sono modellati utilizzando un magazzino separato per il fornitore e un'ubicazione per la cella di lavoro.</span><span class="sxs-lookup"><span data-stu-id="64082-128">In many cases, the warehouse and location are modeled by using a separate warehouse per vendor and one location per work cell.</span></span>  
+10. <span data-ttu-id="64082-129">Nel campo Ubicazione di input fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-129">In the Input location field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="64082-130">Nel campo Magazzino di output fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-130">In the Output warehouse field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="64082-131">Definire il magazzino e l'ubicazione in cui il materiale viene registrato quando le attività in conto lavoro della cella di lavoro vengono registrate.</span><span class="sxs-lookup"><span data-stu-id="64082-131">Define the warehouse and location where the material is posted when the subcontracted activities of the work cell are posted.</span></span> <span data-ttu-id="64082-132">Il magazzino e l'ubicazione possono trovarsi nel sito del fornitore se quest'ultimo dichiara il processo kanban.</span><span class="sxs-lookup"><span data-stu-id="64082-132">The warehouse and location can be at the vendor site if the vendor reports the kanban jobs.</span></span> <span data-ttu-id="64082-133">In alternativa, il magazzino e l'ubicazione possono essere l'ubicazione di ricevimento associata al passaggio successivo del flusso di produzione.</span><span class="sxs-lookup"><span data-stu-id="64082-133">Alternatively, the warehouse and location can be the receiving location that is associated with the next step of the production flow.</span></span>  
+12. <span data-ttu-id="64082-134">Nel campo Ubicazione di output fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-134">In the Output location field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="64082-135">Espandere o comprimere la sezione Calendari.</span><span class="sxs-lookup"><span data-stu-id="64082-135">Expand or collapse the Calendars section.</span></span>
+14. <span data-ttu-id="64082-136">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="64082-136">Click Add.</span></span>
+15. <span data-ttu-id="64082-137">Nel campo Calendario fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-137">In the Calendar field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="64082-138">Associare il calendario lavorativo della cella di lavoro al gruppo di risorse.</span><span class="sxs-lookup"><span data-stu-id="64082-138">Associate the working time calendar of the work cell with the resource group.</span></span> <span data-ttu-id="64082-139">Per le risorse importanti, si consiglia di definire calendari specifici che rappresentano gli orari di lavoro esatti e le funzioni correlate del sito del fornitore o della cella di lavoro.</span><span class="sxs-lookup"><span data-stu-id="64082-139">For critical resources, we recommend that you define specific calendars that represent the exact working times and related capacities of the work cell or vendor site.</span></span>  
+16. <span data-ttu-id="64082-140">Espandere o comprimere la sezione Risorse.</span><span class="sxs-lookup"><span data-stu-id="64082-140">Expand or collapse the Resources section.</span></span>
+17. <span data-ttu-id="64082-141">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="64082-141">Click Add.</span></span>
+    * <span data-ttu-id="64082-142">Un gruppo di risorse in conto lavoro deve disporre di una risorsa associata di tipo fornitore che collega il gruppo di risorse al conto fornitore.</span><span class="sxs-lookup"><span data-stu-id="64082-142">A subcontracted resource group must have an associated resource of the Vendor type that links the resource group to the vendor account.</span></span>  
+18. <span data-ttu-id="64082-143">Nel campo Risorsa fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-143">In the Resource field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="64082-144">Selezionare o immettere la risorsa fornitore creata nella sottoattività precedente.</span><span class="sxs-lookup"><span data-stu-id="64082-144">Select or enter the vendor resource that you created in the previous sub-task.</span></span>  
+19. <span data-ttu-id="64082-145">Espandere o comprimere la sezione Capacità cella di lavoro.</span><span class="sxs-lookup"><span data-stu-id="64082-145">Expand or collapse the Work cell capacity section.</span></span>
+20. <span data-ttu-id="64082-146">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="64082-146">Click Add.</span></span>
+    * <span data-ttu-id="64082-147">Una cella di lavoro deve avere una capacità definita.</span><span class="sxs-lookup"><span data-stu-id="64082-147">A work cell must have a defined capacity.</span></span> <span data-ttu-id="64082-148">In questo esempio verrà creata una capacità di produttività di 100 pezzi per giorno lavorativo standard.</span><span class="sxs-lookup"><span data-stu-id="64082-148">In this example, we create a throughput capacity of 100 pieces per standard workday.</span></span>  
+21. <span data-ttu-id="64082-149">Nel campo Modello di flusso di produzione fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-149">In the Production flow model field, click the drop-down button to open the lookup.</span></span>
+22. <span data-ttu-id="64082-150">Selezionare un'opzione nel campo Periodo di capacità.</span><span class="sxs-lookup"><span data-stu-id="64082-150">In the Capacity period field, select an option.</span></span>
+23. <span data-ttu-id="64082-151">Nel campo Quantità di produttività media, immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="64082-151">In the Average throughput quantity field, enter a number.</span></span>
+24. <span data-ttu-id="64082-152">Nel campo Unità fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="64082-152">In the Unit field, click the drop-down button to open the lookup.</span></span>
+25. <span data-ttu-id="64082-153">ResolveChanges per l'unità.</span><span class="sxs-lookup"><span data-stu-id="64082-153">ResolveChanges the Unit.</span></span>
 
 

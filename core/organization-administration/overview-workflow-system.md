@@ -15,61 +15,61 @@ ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: tjvass
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1dc7935bf92567d529d393abf3069935a387e388
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 9a236c6505812e468eea1149a74671ec7bb63793
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="workflow-system-overview"></a>Panoramica del sistema flusso di lavoro
+# <a name="workflow-system-overview"></a><span data-ttu-id="7d60b-103">Panoramica del sistema flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-103">Workflow system overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Viene descritto il sistema flusso di lavoro in Microsoft Dynamics 365 for Finance and Operations.
+<span data-ttu-id="7d60b-104">Viene descritto il sistema flusso di lavoro in Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="7d60b-104">This topic describes the workflow system in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-<a name="what-is-workflow"></a>Flusso di lavoro e Workflow
+<a name="what-is-workflow"></a><span data-ttu-id="7d60b-105">Flusso di lavoro e Workflow</span><span class="sxs-lookup"><span data-stu-id="7d60b-105">What is workflow?</span></span>
 -----------------
 
-Il termine *flusso di lavoro* può essere definito in due modi: come un sistema e come un processo aziendale.
-### <a name="workflow-is-a-system"></a>Flusso di lavoro: il sistema
+<span data-ttu-id="7d60b-106">Il termine *flusso di lavoro* può essere definito in due modi: come un sistema e come un processo aziendale.</span><span class="sxs-lookup"><span data-stu-id="7d60b-106">The term *workflow* can be defined in two ways: as a system and as a business process.</span></span>
+### <a name="workflow-is-a-system"></a><span data-ttu-id="7d60b-107">Flusso di lavoro: il sistema</span><span class="sxs-lookup"><span data-stu-id="7d60b-107">Workflow is a system</span></span>
 
-Il sistema del flusso di lavoro viene installato con Finance and Operations e viene eseguito nel server oggetti applicativi (AOS). Nel sistema sono disponibili funzionalità che consentono di creare singoli flussi di lavoro o processi aziendali.
+<span data-ttu-id="7d60b-108">Il sistema del flusso di lavoro viene installato con Finance and Operations e viene eseguito nel server oggetti applicativi (AOS).</span><span class="sxs-lookup"><span data-stu-id="7d60b-108">Workflow is a system that is installed with Finance and Operations and runs on the Application Object Server (AOS).</span></span> <span data-ttu-id="7d60b-109">Nel sistema sono disponibili funzionalità che consentono di creare singoli flussi di lavoro o processi aziendali.</span><span class="sxs-lookup"><span data-stu-id="7d60b-109">The workflow system provides functionality that you can use to create individual workflows, or business processes.</span></span>
 
-### <a name="workflow-is-a-business-process"></a>Flusso di lavoro: il processo aziendale
+### <a name="workflow-is-a-business-process"></a><span data-ttu-id="7d60b-110">Flusso di lavoro: il processo aziendale</span><span class="sxs-lookup"><span data-stu-id="7d60b-110">Workflow is a business process</span></span>
 
-Un flusso di lavoro rappresenta un processo aziendale. Definisce il modo in cui un documento attraversa il sistema, o si sposta al suo interno, identificando chi deve completare un'attività, prendere una decisione o approvare un documento. Nella figura indicata di seguito viene illustrato un esempio di un flusso di lavoro per note spese. 
+<span data-ttu-id="7d60b-111">Un flusso di lavoro rappresenta un processo aziendale.</span><span class="sxs-lookup"><span data-stu-id="7d60b-111">A workflow represents a business process.</span></span> <span data-ttu-id="7d60b-112">Definisce il modo in cui un documento attraversa il sistema, o si sposta al suo interno, identificando chi deve completare un'attività, prendere una decisione o approvare un documento.</span><span class="sxs-lookup"><span data-stu-id="7d60b-112">It defines how a document flows, or moves, through the system by showing who must complete a task, make a decision, or approve a document.</span></span> <span data-ttu-id="7d60b-113">Nella figura indicata di seguito viene illustrato un esempio di un flusso di lavoro per note spese.</span><span class="sxs-lookup"><span data-stu-id="7d60b-113">For example, the following illustration shows a workflow for expense reports.</span></span> 
 
 ![Flusso di lavoro con elementi assegnati a utenti](./media/workflow_user.gif) 
 
-Per meglio comprendere questo flusso di lavoro, si supponga ora che Giorgio invii una nota spese per un importo pari a USD 7.000. In questo scenario Indro deve verificare le ricevute inoltrate da Giorgio, quindi Ezio e Luisa devono approvare la nota spese. Si supponga ora che Giorgio presenti una nota spese per un importo pari a USD 11.000. In questo scenario Indro deve verificare le ricevute e Ezio, Luisa e Elena devono approvare la nota spese.
+<span data-ttu-id="7d60b-115">Per meglio comprendere questo flusso di lavoro, si supponga ora che Giorgio invii una nota spese per un importo pari a USD 7.000.</span><span class="sxs-lookup"><span data-stu-id="7d60b-115">To better understand this workflow, suppose that Sam submits an expense report for USD 7,000.</span></span> <span data-ttu-id="7d60b-116">In questo scenario Indro deve verificare le ricevute inoltrate da Giorgio,</span><span class="sxs-lookup"><span data-stu-id="7d60b-116">In this scenario, Ivan must review the receipts that Sam routes to him.</span></span> <span data-ttu-id="7d60b-117">quindi Ezio e Luisa devono approvare la nota spese.</span><span class="sxs-lookup"><span data-stu-id="7d60b-117">Then Frank and Sue must approve the expense report.</span></span> <span data-ttu-id="7d60b-118">Si supponga ora che Giorgio presenti una nota spese per un importo pari a USD 11.000.</span><span class="sxs-lookup"><span data-stu-id="7d60b-118">Now suppose that Sam submits an expense report for USD 11,000.</span></span> <span data-ttu-id="7d60b-119">In questo scenario Indro deve verificare le ricevute e Ezio, Luisa e Elena devono approvare la nota spese.</span><span class="sxs-lookup"><span data-stu-id="7d60b-119">In this scenario, Ivan must review the receipts, and Frank, Sue, and Ann must approve the expense report.</span></span>
 
-## <a name="benefits-of-using-the-workflow-system"></a>Vantaggi del sistema del flusso di lavoro
+## <a name="benefits-of-using-the-workflow-system"></a><span data-ttu-id="7d60b-120">Vantaggi del sistema del flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-120">Benefits of using the workflow system</span></span>
 
-Di seguito sono descritti i vantaggi derivanti dall'utilizzo di un sistema basato su flusso di lavoro all'interno dell'organizzazione:
--   **Processi coerenti**: è possibile definire il processo di elaborazione di documenti specifici, ad esempio richieste di acquisto e note spese. L'utilizzo del sistema di flusso di lavoro consente di garantire che i documenti vengano elaborati e approvati in modo efficiente e coerente.
--   **Visibilità dei processi**: è possibile tenere traccia delle metriche relative a stato, storico e prestazioni di istanze di flussi di lavoro. In questo modo è possibile stabilire se il flusso di lavoro necessita di modifiche allo scopo di migliorarne l'efficienza.
--   **Elenco di lavoro centralizzato**: gli utenti possono visualizzare un elenco di lavoro centralizzato contenente le attività del flusso di lavoro e le approvazioni assegnati.
+<span data-ttu-id="7d60b-121">Di seguito sono descritti i vantaggi derivanti dall'utilizzo di un sistema basato su flusso di lavoro all'interno dell'organizzazione:</span><span class="sxs-lookup"><span data-stu-id="7d60b-121">There are several benefits of using the workflow system in your organization:</span></span>
+-   <span data-ttu-id="7d60b-122">**Processi coerenti**: è possibile definire il processo di elaborazione di documenti specifici, ad esempio richieste di acquisto e note spese.</span><span class="sxs-lookup"><span data-stu-id="7d60b-122">**Consistent processes** – You can define how specific documents, such as purchase requisitions and expense reports, are processed.</span></span> <span data-ttu-id="7d60b-123">L'utilizzo del sistema di flusso di lavoro consente di garantire che i documenti vengano elaborati e approvati in modo efficiente e coerente.</span><span class="sxs-lookup"><span data-stu-id="7d60b-123">By using the workflow system, you ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
+-   <span data-ttu-id="7d60b-124">**Visibilità dei processi**: è possibile tenere traccia delle metriche relative a stato, storico e prestazioni di istanze di flussi di lavoro.</span><span class="sxs-lookup"><span data-stu-id="7d60b-124">**Process visibility** – You can track the status, history, and performance metrics of workflow instances.</span></span> <span data-ttu-id="7d60b-125">In questo modo è possibile stabilire se il flusso di lavoro necessita di modifiche allo scopo di migliorarne l'efficienza.</span><span class="sxs-lookup"><span data-stu-id="7d60b-125">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
+-   <span data-ttu-id="7d60b-126">**Elenco di lavoro centralizzato**: gli utenti possono visualizzare un elenco di lavoro centralizzato contenente le attività del flusso di lavoro e le approvazioni assegnati.</span><span class="sxs-lookup"><span data-stu-id="7d60b-126">**Centralized work list** – Users can view a centralized work list that displays the workflow tasks and approvals that are assigned to them.</span></span>
 
 
-## <a name="workflow-content"></a>Contenuto del flusso di lavoro
+## <a name="workflow-content"></a><span data-ttu-id="7d60b-127">Contenuto del flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-127">Workflow content</span></span>
 
-+ [Architettura del flusso di lavoro](workflow-system-architecture.md)
-+ [Elementi flusso di lavoro](workflow-elements.md)
-+ [Azioni flusso di lavoro](workflow-actions.md)
-+ [Creare un flusso di lavoro](create-workflow.md)
-+ [Configurare le proprietà del flusso di lavoro](configure-workflow-properties.md)
-+ [Configurare un'attività manuale in un flusso di lavoro](configure-manual-task-workflow.md)
-+ [Configurare un'attività automatica in un flusso di lavoro](configure-automated-task-workflow.md)
-+ [Configurare un processo di approvazione in un flusso di lavoro](configure-approval-process-workflow.md)
-+ [Configurare un passaggio di approvazione in un flusso di lavoro](configure-approval-step-workflow.md)
-+ [Configurare una decisione manuale in un flusso di lavoro](configure-manual-decision-workflow.md)
-+ [Configurare una decisione condizionale in un flusso di lavoro](configure-conditional-decision-workflow.md)
-+ [Configurare un'attività parallela in un flusso di lavoro](configure-parallel-activity-workflow.md)
-+ [Configurare un ramo parallelo in un flusso di lavoro](configure-parallel-branch-workflow.md)
-+ [Configurare un flusso di lavoro voci](configure-line-item-workflow.md)
++ [<span data-ttu-id="7d60b-128">Architettura del flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-128">Workflow architecture</span></span>](workflow-system-architecture.md)
++ [<span data-ttu-id="7d60b-129">Elementi flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-129">Workflow elements</span></span>](workflow-elements.md)
++ [<span data-ttu-id="7d60b-130">Azioni flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-130">Workflow actions</span></span>](workflow-actions.md)
++ [<span data-ttu-id="7d60b-131">Creare un flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-131">Create a workflow</span></span>](create-workflow.md)
++ [<span data-ttu-id="7d60b-132">Configurare le proprietà del flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-132">Configure workflow properties</span></span>](configure-workflow-properties.md)
++ [<span data-ttu-id="7d60b-133">Configurare un'attività manuale in un flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-133">Configure a manual task in a workflow</span></span>](configure-manual-task-workflow.md)
++ [<span data-ttu-id="7d60b-134">Configurare un'attività automatica in un flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-134">Configure an automated task in a workflow</span></span>](configure-automated-task-workflow.md)
++ [<span data-ttu-id="7d60b-135">Configurare un processo di approvazione in un flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-135">Configure an approval process in a workflow</span></span>](configure-approval-process-workflow.md)
++ [<span data-ttu-id="7d60b-136">Configurare un passaggio di approvazione in un flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-136">Configure an approval step in a workflow</span></span>](configure-approval-step-workflow.md)
++ [<span data-ttu-id="7d60b-137">Configurare una decisione manuale in un flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-137">Configure a manual decision in a workflow</span></span>](configure-manual-decision-workflow.md)
++ [<span data-ttu-id="7d60b-138">Configurare una decisione condizionale in un flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-138">Configure a conditional decision in a workflow</span></span>](configure-conditional-decision-workflow.md)
++ [<span data-ttu-id="7d60b-139">Configurare un'attività parallela in un flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-139">Configure a parallel activity in a workflow</span></span>](configure-parallel-activity-workflow.md)
++ [<span data-ttu-id="7d60b-140">Configurare un ramo parallelo in un flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="7d60b-140">Configure a parallel branch in a workflow</span></span>](configure-parallel-branch-workflow.md)
++ [<span data-ttu-id="7d60b-141">Configurare un flusso di lavoro voci</span><span class="sxs-lookup"><span data-stu-id="7d60b-141">Configure a line-item workflow</span></span>](configure-line-item-workflow.md)
 

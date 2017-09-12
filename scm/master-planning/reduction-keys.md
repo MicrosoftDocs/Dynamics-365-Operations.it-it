@@ -20,119 +20,119 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ce3ff2ac0a5bd9bd342baa05425d7d0957ab8a09
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 30634b0af343ad171c385a95c4ba0934180f70cf
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="reduction-keys"></a>Chiavi di riduzione
+# <a name="reduction-keys"></a><span data-ttu-id="0a63d-105">Chiavi di riduzione</span><span class="sxs-lookup"><span data-stu-id="0a63d-105">Reduction keys</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce esempi che illustrano come impostare una chiave di riduzione. Include informazioni sulle diverse impostazioni della chiave di riduzione e sui risultati di ciascuna. È possibile utilizzare una chiave di riduzione per definire il modo in cui ridurre i requisiti di previsione.
+<span data-ttu-id="0a63d-106">Questo articolo fornisce esempi che illustrano come impostare una chiave di riduzione.</span><span class="sxs-lookup"><span data-stu-id="0a63d-106">This articles provides examples that show how to set up a reduction key.</span></span> <span data-ttu-id="0a63d-107">Include informazioni sulle diverse impostazioni della chiave di riduzione e sui risultati di ciascuna.</span><span class="sxs-lookup"><span data-stu-id="0a63d-107">It includes information about the various reduction key settings and the results of each.</span></span> <span data-ttu-id="0a63d-108">È possibile utilizzare una chiave di riduzione per definire il modo in cui ridurre i requisiti di previsione.</span><span class="sxs-lookup"><span data-stu-id="0a63d-108">You can use a reduction key to define how to reduce forecast requirements.</span></span>
 
-<a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>Esempio 1: Principio di riduzione previsioni di Percentuale - chiave di riduzione
+<a name="example-1-percent---reduction-key-forecast-reduction-principle"></a><span data-ttu-id="0a63d-109">Esempio 1: Principio di riduzione previsioni di Percentuale - chiave di riduzione</span><span class="sxs-lookup"><span data-stu-id="0a63d-109">Example 1: Percent - reduction key forecast reduction principle</span></span>
 ---------------------------------------------------------------
 
-In questo esempio viene illustrato come una chiave di riduzione riduce i requisiti di previsione della domanda in base alle percentuali e ai periodi definiti dalla chiave di riduzione.
+<span data-ttu-id="0a63d-110">In questo esempio viene illustrato come una chiave di riduzione riduce i requisiti di previsione della domanda in base alle percentuali e ai periodi definiti dalla chiave di riduzione.</span><span class="sxs-lookup"><span data-stu-id="0a63d-110">This example shows how a reduction key reduces demand forecast requirements according to the percentages and periods that are defined by the reduction key.</span></span>
 
-1.  Nella pagina **Chiavi di riduzione** impostare le seguenti righe.
-    | Cambia | Unità  | Percentuale |
+1.  <span data-ttu-id="0a63d-111">Nella pagina **Chiavi di riduzione** impostare le seguenti righe.</span><span class="sxs-lookup"><span data-stu-id="0a63d-111">On the **Reduction keys** page, set up the following lines.</span></span>
+    | <span data-ttu-id="0a63d-112">Cambia</span><span class="sxs-lookup"><span data-stu-id="0a63d-112">Change</span></span> | <span data-ttu-id="0a63d-113">Unità</span><span class="sxs-lookup"><span data-stu-id="0a63d-113">Unit</span></span>  | <span data-ttu-id="0a63d-114">Percentuale</span><span class="sxs-lookup"><span data-stu-id="0a63d-114">Percent</span></span> |
     |--------|-------|---------|
-    | 1      | Mese | 100     |
-    | 2      | Mese | 75      |
-    | 3      | Mese | 50      |
-    | 4      | Mese | 25      |
+    | <span data-ttu-id="0a63d-115">1</span><span class="sxs-lookup"><span data-stu-id="0a63d-115">1</span></span>      | <span data-ttu-id="0a63d-116">Mese</span><span class="sxs-lookup"><span data-stu-id="0a63d-116">Month</span></span> | <span data-ttu-id="0a63d-117">100</span><span class="sxs-lookup"><span data-stu-id="0a63d-117">100</span></span>     |
+    | <span data-ttu-id="0a63d-118">2</span><span class="sxs-lookup"><span data-stu-id="0a63d-118">2</span></span>      | <span data-ttu-id="0a63d-119">Mese</span><span class="sxs-lookup"><span data-stu-id="0a63d-119">Month</span></span> | <span data-ttu-id="0a63d-120">75</span><span class="sxs-lookup"><span data-stu-id="0a63d-120">75</span></span>      |
+    | <span data-ttu-id="0a63d-121">3</span><span class="sxs-lookup"><span data-stu-id="0a63d-121">3</span></span>      | <span data-ttu-id="0a63d-122">Mese</span><span class="sxs-lookup"><span data-stu-id="0a63d-122">Month</span></span> | <span data-ttu-id="0a63d-123">50</span><span class="sxs-lookup"><span data-stu-id="0a63d-123">50</span></span>      |
+    | <span data-ttu-id="0a63d-124">4</span><span class="sxs-lookup"><span data-stu-id="0a63d-124">4</span></span>      | <span data-ttu-id="0a63d-125">Mese</span><span class="sxs-lookup"><span data-stu-id="0a63d-125">Month</span></span> | <span data-ttu-id="0a63d-126">25</span><span class="sxs-lookup"><span data-stu-id="0a63d-126">25</span></span>      |
 
-2.  Collegare la chiave di riduzione al gruppo di copertura dell'articolo.
-3.  Nel campo **Principio di riduzione** della pagina **Piani generali** selezionare **Percentuale - chiave di riduzione**.
-4.  Creare una previsione della domanda di 1.000 pezzi al mese.
+2.  <span data-ttu-id="0a63d-127">Collegare la chiave di riduzione al gruppo di copertura dell'articolo.</span><span class="sxs-lookup"><span data-stu-id="0a63d-127">Link the reduction key to the item's coverage group.</span></span>
+3.  <span data-ttu-id="0a63d-128">Nel campo **Principio di riduzione** della pagina **Piani generali** selezionare **Percentuale - chiave di riduzione**.</span><span class="sxs-lookup"><span data-stu-id="0a63d-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
+4.  <span data-ttu-id="0a63d-129">Creare una previsione della domanda di 1.000 pezzi al mese.</span><span class="sxs-lookup"><span data-stu-id="0a63d-129">Create a demand forecast of 1,000 pieces per month.</span></span>
 
-Se si esegue una programmazione previsionale il 1° gennaio, i requisiti di previsione della domanda vengono consumati in base alle percentuali definite alla pagina **Chiavi di riduzione**. Vengono trasferite al piano generale le quantità di requisiti che seguono.
+<span data-ttu-id="0a63d-130">Se si esegue una programmazione previsionale il 1° gennaio, i requisiti di previsione della domanda vengono consumati in base alle percentuali definite alla pagina **Chiavi di riduzione**.</span><span class="sxs-lookup"><span data-stu-id="0a63d-130">If you run forecast scheduling on January 1, the demand forecast requirements are consumed according to the percentages that you set up on the **Reduction keys** page.</span></span> <span data-ttu-id="0a63d-131">Vengono trasferite al piano generale le quantità di requisiti che seguono.</span><span class="sxs-lookup"><span data-stu-id="0a63d-131">The following requirement quantities are transferred to the master plan.</span></span>
 
-| Mese                | Numero di pezzi richiesti |
+| <span data-ttu-id="0a63d-132">Mese</span><span class="sxs-lookup"><span data-stu-id="0a63d-132">Month</span></span>                | <span data-ttu-id="0a63d-133">Numero di pezzi richiesti</span><span class="sxs-lookup"><span data-stu-id="0a63d-133">Number of pieces required</span></span> |
 |----------------------|---------------------------|
-| gennaio              | 0                         |
-| febbraio             | 250                       |
-| marzo                | 500                       |
-| aprile                | 750                       |
-| Da maggio a dicembre | 1.000                     |
+| <span data-ttu-id="0a63d-134">gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-134">January</span></span>              | <span data-ttu-id="0a63d-135">0</span><span class="sxs-lookup"><span data-stu-id="0a63d-135">0</span></span>                         |
+| <span data-ttu-id="0a63d-136">febbraio</span><span class="sxs-lookup"><span data-stu-id="0a63d-136">February</span></span>             | <span data-ttu-id="0a63d-137">250</span><span class="sxs-lookup"><span data-stu-id="0a63d-137">250</span></span>                       |
+| <span data-ttu-id="0a63d-138">marzo</span><span class="sxs-lookup"><span data-stu-id="0a63d-138">March</span></span>                | <span data-ttu-id="0a63d-139">500</span><span class="sxs-lookup"><span data-stu-id="0a63d-139">500</span></span>                       |
+| <span data-ttu-id="0a63d-140">aprile</span><span class="sxs-lookup"><span data-stu-id="0a63d-140">April</span></span>                | <span data-ttu-id="0a63d-141">750</span><span class="sxs-lookup"><span data-stu-id="0a63d-141">750</span></span>                       |
+| <span data-ttu-id="0a63d-142">Da maggio a dicembre</span><span class="sxs-lookup"><span data-stu-id="0a63d-142">May through December</span></span> | <span data-ttu-id="0a63d-143">1.000</span><span class="sxs-lookup"><span data-stu-id="0a63d-143">1,000</span></span>                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Esempio 2: Principio di riduzione previsioni di Transazioni - chiave di riduzione
-In questo esempio viene illustrato come gli ordini effettivi, che si verificano durante i periodi definiti dalla chiave di riduzione, riducono i requisiti di previsione della domanda.
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a><span data-ttu-id="0a63d-144">Esempio 2: Principio di riduzione previsioni di Transazioni - chiave di riduzione</span><span class="sxs-lookup"><span data-stu-id="0a63d-144">Example 2: Transactions  reduction key forecast reduction principle</span></span>
+<span data-ttu-id="0a63d-145">In questo esempio viene illustrato come gli ordini effettivi, che si verificano durante i periodi definiti dalla chiave di riduzione, riducono i requisiti di previsione della domanda.</span><span class="sxs-lookup"><span data-stu-id="0a63d-145">This example shows how actual orders that occur during the periods that are defined by the reduction key reduce demand forecast requirements.</span></span>
 
--   Nel campo **Principio di riduzione** della pagina **Piani generali** selezionare **Transazioni - chiave di riduzione**.
+-   <span data-ttu-id="0a63d-146">Nel campo **Principio di riduzione** della pagina **Piani generali** selezionare **Transazioni - chiave di riduzione**.</span><span class="sxs-lookup"><span data-stu-id="0a63d-146">On the **Master plans** page, in the **Reduction principle** field, select **Transactions - reduction key**.</span></span>
 
-Al 1° gennaio sono presenti gli ordini cliente che seguono.
+<span data-ttu-id="0a63d-147">Al 1° gennaio sono presenti gli ordini cliente che seguono.</span><span class="sxs-lookup"><span data-stu-id="0a63d-147">The following sales orders exist on January 1.</span></span>
 
-| Mese    | Numero di pezzi ordinati |
+| <span data-ttu-id="0a63d-148">Mese</span><span class="sxs-lookup"><span data-stu-id="0a63d-148">Month</span></span>    | <span data-ttu-id="0a63d-149">Numero di pezzi ordinati</span><span class="sxs-lookup"><span data-stu-id="0a63d-149">Number of pieces ordered</span></span> |
 |----------|--------------------------|
-| gennaio  | 956                      |
-| febbraio | 1.176                    |
-| marzo    | 451                      |
-| aprile    | 119                      |
+| <span data-ttu-id="0a63d-150">gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-150">January</span></span>  | <span data-ttu-id="0a63d-151">956</span><span class="sxs-lookup"><span data-stu-id="0a63d-151">956</span></span>                      |
+| <span data-ttu-id="0a63d-152">febbraio</span><span class="sxs-lookup"><span data-stu-id="0a63d-152">February</span></span> | <span data-ttu-id="0a63d-153">1.176</span><span class="sxs-lookup"><span data-stu-id="0a63d-153">1,176</span></span>                    |
+| <span data-ttu-id="0a63d-154">marzo</span><span class="sxs-lookup"><span data-stu-id="0a63d-154">March</span></span>    | <span data-ttu-id="0a63d-155">451</span><span class="sxs-lookup"><span data-stu-id="0a63d-155">451</span></span>                      |
+| <span data-ttu-id="0a63d-156">aprile</span><span class="sxs-lookup"><span data-stu-id="0a63d-156">April</span></span>    | <span data-ttu-id="0a63d-157">119</span><span class="sxs-lookup"><span data-stu-id="0a63d-157">119</span></span>                      |
 
-Utilizzando la stessa previsione della domanda di 1.000 pezzi al mese, vengono trasferite al piano generale le quantità indicate di seguito.
+<span data-ttu-id="0a63d-158">Utilizzando la stessa previsione della domanda di 1.000 pezzi al mese, vengono trasferite al piano generale le quantità indicate di seguito.</span><span class="sxs-lookup"><span data-stu-id="0a63d-158">If you use the same demand forecast of 1,000 pieces per month, the following requirement quantities are transferred to the master plan.</span></span>
 
-| Mese                | Numero di pezzi richiesti |
+| <span data-ttu-id="0a63d-159">Mese</span><span class="sxs-lookup"><span data-stu-id="0a63d-159">Month</span></span>                | <span data-ttu-id="0a63d-160">Numero di pezzi richiesti</span><span class="sxs-lookup"><span data-stu-id="0a63d-160">Number of pieces required</span></span> |
 |----------------------|---------------------------|
-| gennaio              | 44                        |
-| febbraio             | 0                         |
-| marzo                | 549                       |
-| aprile                | 881                       |
-| Da maggio a dicembre | 1.000                     |
+| <span data-ttu-id="0a63d-161">gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-161">January</span></span>              | <span data-ttu-id="0a63d-162">44</span><span class="sxs-lookup"><span data-stu-id="0a63d-162">44</span></span>                        |
+| <span data-ttu-id="0a63d-163">febbraio</span><span class="sxs-lookup"><span data-stu-id="0a63d-163">February</span></span>             | <span data-ttu-id="0a63d-164">0</span><span class="sxs-lookup"><span data-stu-id="0a63d-164">0</span></span>                         |
+| <span data-ttu-id="0a63d-165">marzo</span><span class="sxs-lookup"><span data-stu-id="0a63d-165">March</span></span>                | <span data-ttu-id="0a63d-166">549</span><span class="sxs-lookup"><span data-stu-id="0a63d-166">549</span></span>                       |
+| <span data-ttu-id="0a63d-167">aprile</span><span class="sxs-lookup"><span data-stu-id="0a63d-167">April</span></span>                | <span data-ttu-id="0a63d-168">881</span><span class="sxs-lookup"><span data-stu-id="0a63d-168">881</span></span>                       |
+| <span data-ttu-id="0a63d-169">Da maggio a dicembre</span><span class="sxs-lookup"><span data-stu-id="0a63d-169">May through December</span></span> | <span data-ttu-id="0a63d-170">1.000</span><span class="sxs-lookup"><span data-stu-id="0a63d-170">1,000</span></span>                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Esempio 3: Principio di riduzione previsioni di Transazioni - periodo dinamico
-Nella maggior parte dei casi i sistemi vengono impostati in modo che le transazioni riducano la previsione della domanda entro periodi specifici di previsione: settimane, mesi, ecc. I periodi vengono sono definiti nella chiave di riduzione. Tuttavia, il tempo trascorso tra due righe di previsione della domanda può anche *implicare* un periodo.
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a><span data-ttu-id="0a63d-171">Esempio 3: Principio di riduzione previsioni di Transazioni - periodo dinamico</span><span class="sxs-lookup"><span data-stu-id="0a63d-171">Example 3: Transactions  dynamic period forecast reduction principle</span></span>
+<span data-ttu-id="0a63d-172">Nella maggior parte dei casi i sistemi vengono impostati in modo che le transazioni riducano la previsione della domanda entro periodi specifici di previsione: settimane, mesi, ecc.</span><span class="sxs-lookup"><span data-stu-id="0a63d-172">In most cases, systems are set up so that transactions reduce demand forecast within specific forecast periods: weeks, months, and so on.</span></span> <span data-ttu-id="0a63d-173">I periodi vengono sono definiti nella chiave di riduzione.</span><span class="sxs-lookup"><span data-stu-id="0a63d-173">These periods are defined in the reduction key.</span></span> <span data-ttu-id="0a63d-174">Tuttavia, il tempo trascorso tra due righe di previsione della domanda può anche *implicare* un periodo.</span><span class="sxs-lookup"><span data-stu-id="0a63d-174">However, the time between two demand forecast lines can also *imply* a period.</span></span>
 
-1.  Creare una previsione della domanda per le seguenti date e quantità.
-    | Data       | Previsione della domanda |
+1.  <span data-ttu-id="0a63d-175">Creare una previsione della domanda per le seguenti date e quantità.</span><span class="sxs-lookup"><span data-stu-id="0a63d-175">Create a demand forecast for the following dates and quantities.</span></span>
+    | <span data-ttu-id="0a63d-176">Data</span><span class="sxs-lookup"><span data-stu-id="0a63d-176">Date</span></span>       | <span data-ttu-id="0a63d-177">Previsione della domanda</span><span class="sxs-lookup"><span data-stu-id="0a63d-177">Demand forecast</span></span> |
     |------------|-----------------|
-    | 1 gennaio  | 1.000           |
-    | 5 gennaio  | 500             |
-    | 12 gennaio | 1.000           |
+    | <span data-ttu-id="0a63d-178">1 gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-178">January 1</span></span>  | <span data-ttu-id="0a63d-179">1.000</span><span class="sxs-lookup"><span data-stu-id="0a63d-179">1,000</span></span>           |
+    | <span data-ttu-id="0a63d-180">5 gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-180">January 5</span></span>  | <span data-ttu-id="0a63d-181">500</span><span class="sxs-lookup"><span data-stu-id="0a63d-181">500</span></span>             |
+    | <span data-ttu-id="0a63d-182">12 gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-182">January 12</span></span> | <span data-ttu-id="0a63d-183">1.000</span><span class="sxs-lookup"><span data-stu-id="0a63d-183">1,000</span></span>           |
 
-    Nella previsione non è presente un periodo chiaro tra le date di previsione: tra le prime e le seconde date vi è un intervallo di quattro giorni e tra la seconde e terze date vi è un intervallo di sette giorni. I vari intervalli sono i periodi dinamici.
-2.  Creare righe dell'ordine cliente come segue
-    | Data                             | Quantità ordine cliente |
+    <span data-ttu-id="0a63d-184">Nella previsione non è presente un periodo chiaro tra le date di previsione: tra le prime e le seconde date vi è un intervallo di quattro giorni e tra la seconde e terze date vi è un intervallo di sette giorni.</span><span class="sxs-lookup"><span data-stu-id="0a63d-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="0a63d-185">I vari intervalli sono i periodi dinamici.</span><span class="sxs-lookup"><span data-stu-id="0a63d-185">These various spans are the dynamic periods.</span></span>
+2.  <span data-ttu-id="0a63d-186">Creare righe dell'ordine cliente come segue</span><span class="sxs-lookup"><span data-stu-id="0a63d-186">Create sales order lines as follows.</span></span>
+    | <span data-ttu-id="0a63d-187">Data</span><span class="sxs-lookup"><span data-stu-id="0a63d-187">Date</span></span>                             | <span data-ttu-id="0a63d-188">Quantità ordine cliente</span><span class="sxs-lookup"><span data-stu-id="0a63d-188">Sales order quantity</span></span> |
     |----------------------------------|----------------------|
-    | 15 dicembre dell'anno precedente | 500                  |
-    | 3 gennaio                        | 100                  |
-    | 10 gennaio                       | 200                  |
+    | <span data-ttu-id="0a63d-189">15 dicembre dell'anno precedente</span><span class="sxs-lookup"><span data-stu-id="0a63d-189">December 15 in the previous year</span></span> | <span data-ttu-id="0a63d-190">500</span><span class="sxs-lookup"><span data-stu-id="0a63d-190">500</span></span>                  |
+    | <span data-ttu-id="0a63d-191">3 gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-191">January 3</span></span>                        | <span data-ttu-id="0a63d-192">100</span><span class="sxs-lookup"><span data-stu-id="0a63d-192">100</span></span>                  |
+    | <span data-ttu-id="0a63d-193">10 gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-193">January 10</span></span>                       | <span data-ttu-id="0a63d-194">200</span><span class="sxs-lookup"><span data-stu-id="0a63d-194">200</span></span>                  |
 
-La previsione verrà ridotta come segue:
+<span data-ttu-id="0a63d-195">La previsione verrà ridotta come segue:</span><span class="sxs-lookup"><span data-stu-id="0a63d-195">The forecast will be reduced as follows:</span></span>
 
--   Il primo ordine cliente non rientra in alcun periodo, pertanto non ridurrà alcuna previsione.
--   Il secondo ordine cliente è compreso tra il 1° gennaio e il 5 gennaio, pertanto ridurrà la previsione per il 1° gennaio di 100.
--   Il terzo ordine cliente è compreso tra il 5 gennaio e il 12 gennaio, pertanto ridurrà la previsione per il 5 gennaio di 200.
+-   <span data-ttu-id="0a63d-196">Il primo ordine cliente non rientra in alcun periodo, pertanto non ridurrà alcuna previsione.</span><span class="sxs-lookup"><span data-stu-id="0a63d-196">The first sales order isn't within any period, so it won't reduce any forecast.</span></span>
+-   <span data-ttu-id="0a63d-197">Il secondo ordine cliente è compreso tra il 1° gennaio e il 5 gennaio, pertanto ridurrà la previsione per il 1° gennaio di 100.</span><span class="sxs-lookup"><span data-stu-id="0a63d-197">The second sales order is between January 1 and January 5, so it will reduce the forecast for January 1 by 100.</span></span>
+-   <span data-ttu-id="0a63d-198">Il terzo ordine cliente è compreso tra il 5 gennaio e il 12 gennaio, pertanto ridurrà la previsione per il 5 gennaio di 200.</span><span class="sxs-lookup"><span data-stu-id="0a63d-198">The third sales order is between January 5 and January 12, so it will reduce the forecast for January 5 by 200.</span></span>
 
-Il seguente ordine pianificato verrà creato per soddisfare la previsione.
+<span data-ttu-id="0a63d-199">Il seguente ordine pianificato verrà creato per soddisfare la previsione.</span><span class="sxs-lookup"><span data-stu-id="0a63d-199">The following planned order will be created to fulfill the forecast.</span></span>
 
-| Data di previsione della domanda | Quantità ridotta |
+| <span data-ttu-id="0a63d-200">Data di previsione della domanda</span><span class="sxs-lookup"><span data-stu-id="0a63d-200">Demand forecast date</span></span> | <span data-ttu-id="0a63d-201">Quantità ridotta</span><span class="sxs-lookup"><span data-stu-id="0a63d-201">Reduced quantity</span></span> |
 |----------------------|------------------|
-| 1 gennaio            | 900              |
-| 5 gennaio            | 300              |
-| 12 gennaio           | 1.000            |
+| <span data-ttu-id="0a63d-202">1 gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-202">January 1</span></span>            | <span data-ttu-id="0a63d-203">900</span><span class="sxs-lookup"><span data-stu-id="0a63d-203">900</span></span>              |
+| <span data-ttu-id="0a63d-204">5 gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-204">January 5</span></span>            | <span data-ttu-id="0a63d-205">300</span><span class="sxs-lookup"><span data-stu-id="0a63d-205">300</span></span>              |
+| <span data-ttu-id="0a63d-206">12 gennaio</span><span class="sxs-lookup"><span data-stu-id="0a63d-206">January 12</span></span>           | <span data-ttu-id="0a63d-207">1.000</span><span class="sxs-lookup"><span data-stu-id="0a63d-207">1,000</span></span>            |
 
-Questo campo è un riepilogo della riduzione **Transazioni - periodo dinamico**:
+<span data-ttu-id="0a63d-208">Questo campo è un riepilogo della riduzione **Transazioni - periodo dinamico**:</span><span class="sxs-lookup"><span data-stu-id="0a63d-208">Here is a summary of **Transactions - dynamic period** reduction:</span></span>
 
--   I requisiti di previsione vengono ridotti in base alle transazioni di ordini effettive effettuate durante il periodo dinamico. Il periodo dinamico copre le date di previsione correnti e termina all'inizio della previsione successiva.
--   Per questo metodo non viene utilizzata o richiesta alcuna chiave di riduzione.
--   Quando questa opzione viene utilizzata, si verifica il seguente comportamento :
-    -   Se la previsione viene ridotta completamente, i requisiti per la previsione corrente diventano 0 (zero).
-    -   Se non vi è alcuna previsione futura, vengono ridotti i requisiti di previsione dall'ultima previsione immessa.
-    -   Gli intervalli temporali vengono inclusi nel calcolo della riduzione previsionale.
-    -   I giorni di positività vengono inclusi nel calcolo della riduzione previsionale.
-    -   Se le transazioni di ordini effettivi superano i fabbisogni previsti, le transazioni rimanenti non vengono inoltrate al periodo previsionale successivo.
+-   <span data-ttu-id="0a63d-209">I requisiti di previsione vengono ridotti in base alle transazioni di ordini effettive effettuate durante il periodo dinamico.</span><span class="sxs-lookup"><span data-stu-id="0a63d-209">Forecast requirements are reduced by the actual order transactions that occur during the dynamic period.</span></span> <span data-ttu-id="0a63d-210">Il periodo dinamico copre le date di previsione correnti e termina all'inizio della previsione successiva.</span><span class="sxs-lookup"><span data-stu-id="0a63d-210">The dynamic period covers the current forecast dates and ends at the start of the next forecast.</span></span>
+-   <span data-ttu-id="0a63d-211">Per questo metodo non viene utilizzata o richiesta alcuna chiave di riduzione.</span><span class="sxs-lookup"><span data-stu-id="0a63d-211">This method doesn't use or require a reduction key.</span></span>
+-   <span data-ttu-id="0a63d-212">Quando questa opzione viene utilizzata, si verifica il seguente comportamento :</span><span class="sxs-lookup"><span data-stu-id="0a63d-212">When this option is used, the following behavior occurs:</span></span>
+    -   <span data-ttu-id="0a63d-213">Se la previsione viene ridotta completamente, i requisiti per la previsione corrente diventano 0 (zero).</span><span class="sxs-lookup"><span data-stu-id="0a63d-213">If the forecast is reduced completely, the forecast requirements for the current forecast become 0 (zero).</span></span>
+    -   <span data-ttu-id="0a63d-214">Se non vi è alcuna previsione futura, vengono ridotti i requisiti di previsione dall'ultima previsione immessa.</span><span class="sxs-lookup"><span data-stu-id="0a63d-214">If there is no future forecast, forecast requirements from the last forecast that was entered are reduced.</span></span>
+    -   <span data-ttu-id="0a63d-215">Gli intervalli temporali vengono inclusi nel calcolo della riduzione previsionale.</span><span class="sxs-lookup"><span data-stu-id="0a63d-215">Time fences are included in the forecast reduction calculation.</span></span>
+    -   <span data-ttu-id="0a63d-216">I giorni di positività vengono inclusi nel calcolo della riduzione previsionale.</span><span class="sxs-lookup"><span data-stu-id="0a63d-216">Positive days are included in the forecast reduction calculation.</span></span>
+    -   <span data-ttu-id="0a63d-217">Se le transazioni di ordini effettivi superano i fabbisogni previsti, le transazioni rimanenti non vengono inoltrate al periodo previsionale successivo.</span><span class="sxs-lookup"><span data-stu-id="0a63d-217">If actual order transactions exceed the forecasted requirements, the remaining transactions aren't forwarded to the next forecast period.</span></span>
 
 
-<a name="see-also"></a>Vedere anche
+<a name="see-also"></a><span data-ttu-id="0a63d-218">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="0a63d-218">See also</span></span>
 --------
 
-[Piani generali](master-plans.md)
+[<span data-ttu-id="0a63d-219">Piani generali</span><span class="sxs-lookup"><span data-stu-id="0a63d-219">Master plans</span></span>](master-plans.md)
 
 
 

@@ -17,102 +17,102 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 38b60098daa0389af596920682c30dcd9b17a7fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-containerization"></a>Impostare la containerizzazione
+# <a name="set-up-containerization"></a><span data-ttu-id="1b9e8-103">Impostare la containerizzazione</span><span class="sxs-lookup"><span data-stu-id="1b9e8-103">Set up containerization</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Questa procedura descrive come automatizzare la containerizzazione dei carichi in Gestione magazzino. La containerizzazione automatica crea contenitori e il lavoro di prelievo per le spedizioni quando un'ondata viene elaborata e le righe di lavoro possono essere divise in quantità adatte ai contenitori. In questo modo i magazzinieri possono prelevare gli articoli direttamente dal contenitore specificato. Rispetto al processo manuale di imballaggio, attività quali la creazione di contenitori, l'assegnazione di articoli e la chiusura di contenitori vengono automatizzate dal sistema. Questa procedura utilizza per la società dimostrativa USMF e viene eseguita da un responsabile magazzino.
+<span data-ttu-id="1b9e8-104">Questa procedura descrive come automatizzare la containerizzazione dei carichi in Gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-104">This procedure describes how to automate the containerization of loads in Warehouse management.</span></span> <span data-ttu-id="1b9e8-105">La containerizzazione automatica crea contenitori e il lavoro di prelievo per le spedizioni quando un'ondata viene elaborata e le righe di lavoro possono essere divise in quantità adatte ai contenitori.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-105">Automated containerization creates containers and the picking work for shipments when a wave is processed and work lines can be split into quantities that fit the containers.</span></span> <span data-ttu-id="1b9e8-106">In questo modo i magazzinieri possono prelevare gli articoli direttamente dal contenitore specificato.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-106">This helps warehouse workers to pick the items directly into the chosen container.</span></span> <span data-ttu-id="1b9e8-107">Rispetto al processo manuale di imballaggio, attività quali la creazione di contenitori, l'assegnazione di articoli e la chiusura di contenitori vengono automatizzate dal sistema.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-107">Compared to the manual packing process, tasks such as creating containers, assigning items, and closing containers are automated by the system.</span></span> <span data-ttu-id="1b9e8-108">Questa procedura utilizza per la società dimostrativa USMF e viene eseguita da un responsabile magazzino.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-108">This procedure uses the USMF demo company and is performed by a Warehouse manager.</span></span>
 
 
-## <a name="set-up-a-wave-template"></a>Impostare un modello di ondata
-1. Andare a Gestione magazzino > Impostazioni > Ondate > Modelli ondata.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Nome modello ondata.
-4. Nel campo Descrizione modello ondata immettere un valore.
-5. Nel campo Sito immettere o selezionare un valore.
-6. Nel campo Magazzino immettere o selezionare un valore.
-7. Espandere la sezione Metodi.
-    * Nel riquadro Metodi selezionati sono elencati i metodi per il tipo di modello di ondata selezionato. Il modello di ondata deve includere il metodo di containerizzazione.  
-8. Nell'elenco trovare e selezionare il record desiderato.
-9. Digitare un valore nel campo Codice passaggio ondata.
-    * Immettere un codice passaggio ondata per il metodo aggiunto, che può essere qualsiasi codice. È possibile aggiungere più volte il metodo e assegnare codici passaggio ondata diversi. A questo scopo, selezionare Ripetibile per questo metodo nella pagina Metodi di elaborazione ondata.  
-10. Fare clic su Salva.
-11. Chiudere la pagina.
+## <a name="set-up-a-wave-template"></a><span data-ttu-id="1b9e8-109">Impostare un modello di ondata</span><span class="sxs-lookup"><span data-stu-id="1b9e8-109">Set up a wave template</span></span>
+1. <span data-ttu-id="1b9e8-110">Andare a Gestione magazzino > Impostazioni > Ondate > Modelli ondata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-110">Go to Warehouse management > Setup > Waves > Wave templates.</span></span>
+2. <span data-ttu-id="1b9e8-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-111">Click New.</span></span>
+3. <span data-ttu-id="1b9e8-112">Digitare un valore nel campo Nome modello ondata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-112">In the Wave template name field, type a value.</span></span>
+4. <span data-ttu-id="1b9e8-113">Nel campo Descrizione modello ondata immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-113">In the Wave template description field, type a value.</span></span>
+5. <span data-ttu-id="1b9e8-114">Nel campo Sito immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-114">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="1b9e8-115">Nel campo Magazzino immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-115">In the Warehouse field, enter or select a value.</span></span>
+7. <span data-ttu-id="1b9e8-116">Espandere la sezione Metodi.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-116">Expand the Methods section.</span></span>
+    * <span data-ttu-id="1b9e8-117">Nel riquadro Metodi selezionati sono elencati i metodi per il tipo di modello di ondata selezionato.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-117">The Selected methods pane lists the methods for the selected wave template type.</span></span> <span data-ttu-id="1b9e8-118">Il modello di ondata deve includere il metodo di containerizzazione.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-118">The wave template must include the containerize method.</span></span>  
+8. <span data-ttu-id="1b9e8-119">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-119">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="1b9e8-120">Digitare un valore nel campo Codice passaggio ondata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-120">In the Wave step code field, type a value.</span></span>
+    * <span data-ttu-id="1b9e8-121">Immettere un codice passaggio ondata per il metodo aggiunto, che può essere qualsiasi codice.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-121">Enter a Wave step code for the added method, which can be any code.</span></span> <span data-ttu-id="1b9e8-122">È possibile aggiungere più volte il metodo e assegnare codici passaggio ondata diversi.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-122">It’s possible to add the method more than once and assign different wave step codes.</span></span> <span data-ttu-id="1b9e8-123">A questo scopo, selezionare Ripetibile per questo metodo nella pagina Metodi di elaborazione ondata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-123">To do this, select Repeatable for this method in the Wave process methods page.</span></span>  
+10. <span data-ttu-id="1b9e8-124">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-124">Click Save.</span></span>
+11. <span data-ttu-id="1b9e8-125">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-125">Close the page.</span></span>
 
-## <a name="set-up-a-container-type"></a>Impostare un tipo di contenitore
-1. Andare a Gestione magazzino > Impostazioni > Contenitori > Tipi di contenitore.
-    * È possibile definire i contenitori nella pagina Tipi di contenitore. È possibile configurare le dimensioni fisiche dei contenitori, inclusi tara, peso massimo, volume massimo, lunghezza, larghezza, peso e altezza. In questo esempio sono presenti tre dimensioni diverse di caselle.  
-2. Fare clic su Nuovo.
-3. Nel campo Codice tipo di contenitore immettere un valore.
-4. Immettere un numero nel campo Tara.
-5. Nel campo Peso massimo immettere un numero.
-6. Nel campo Volume immettere un numero.
-7. Immettere un numero nel campo Lunghezza.
-8. Nel campo Larghezza immettere un numero.
-9. Nel campo Altezza immettere un numero.
-10. Nel campo Descrizione digitare un valore.
-11. Fare clic su Salva.
-12. Fare clic su Nuovo.
-13. Nel campo Codice tipo di contenitore immettere un valore.
-14. Nel campo Descrizione digitare un valore.
-15. Immettere un numero nel campo Tara.
-16. Nel campo Peso massimo immettere un numero.
-17. Nel campo Volume immettere un numero.
-18. Immettere un numero nel campo Lunghezza.
-19. Nel campo Larghezza immettere un numero.
-20. Nel campo Altezza immettere un numero.
-21. Fare clic su Salva.
-22. Fare clic su Nuovo.
-23. Nel campo Codice tipo di contenitore immettere un valore.
-24. Nel campo Descrizione digitare un valore.
-25. Immettere un numero nel campo Tara.
-26. Nel campo Peso massimo immettere un numero.
-27. Nel campo Volume immettere un numero.
-28. Immettere un numero nel campo Lunghezza.
-29. Nel campo Larghezza immettere un numero.
-30. Nel campo Altezza immettere un numero.
-31. Fare clic su Salva.
-32. Chiudere la pagina.
+## <a name="set-up-a-container-type"></a><span data-ttu-id="1b9e8-126">Impostare un tipo di contenitore</span><span class="sxs-lookup"><span data-stu-id="1b9e8-126">Set up a container type</span></span>
+1. <span data-ttu-id="1b9e8-127">Andare a Gestione magazzino > Impostazioni > Contenitori > Tipi di contenitore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-127">Go to Warehouse management > Setup > Containers > Container types.</span></span>
+    * <span data-ttu-id="1b9e8-128">È possibile definire i contenitori nella pagina Tipi di contenitore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-128">You can define your containers in the Container types page.</span></span> <span data-ttu-id="1b9e8-129">È possibile configurare le dimensioni fisiche dei contenitori, inclusi tara, peso massimo, volume massimo, lunghezza, larghezza, peso e altezza.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-129">You can configure the physical dimensions of containers including tare weight, maximum weight, maximum volume, length, width, and height.</span></span> <span data-ttu-id="1b9e8-130">In questo esempio sono presenti tre dimensioni diverse di caselle.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-130">In this example, we have three different sizes of boxes.</span></span>  
+2. <span data-ttu-id="1b9e8-131">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-131">Click New.</span></span>
+3. <span data-ttu-id="1b9e8-132">Nel campo Codice tipo di contenitore immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-132">In the Container type code field, type a value.</span></span>
+4. <span data-ttu-id="1b9e8-133">Immettere un numero nel campo Tara.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-133">In the Tare weight field, enter a number.</span></span>
+5. <span data-ttu-id="1b9e8-134">Nel campo Peso massimo immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-134">In the Maximum weight field, enter a number.</span></span>
+6. <span data-ttu-id="1b9e8-135">Nel campo Volume immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-135">In the Volume field, enter a number.</span></span>
+7. <span data-ttu-id="1b9e8-136">Immettere un numero nel campo Lunghezza.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-136">In the Length field, enter a number.</span></span>
+8. <span data-ttu-id="1b9e8-137">Nel campo Larghezza immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-137">In the Width field, enter a number.</span></span>
+9. <span data-ttu-id="1b9e8-138">Nel campo Altezza immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-138">In the Height field, enter a number.</span></span>
+10. <span data-ttu-id="1b9e8-139">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-139">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="1b9e8-140">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-140">Click Save.</span></span>
+12. <span data-ttu-id="1b9e8-141">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-141">Click New.</span></span>
+13. <span data-ttu-id="1b9e8-142">Nel campo Codice tipo di contenitore immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-142">In the Container type code field, type a value.</span></span>
+14. <span data-ttu-id="1b9e8-143">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-143">In the Description field, type a value.</span></span>
+15. <span data-ttu-id="1b9e8-144">Immettere un numero nel campo Tara.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-144">In the Tare weight field, enter a number.</span></span>
+16. <span data-ttu-id="1b9e8-145">Nel campo Peso massimo immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-145">In the Maximum weight field, enter a number.</span></span>
+17. <span data-ttu-id="1b9e8-146">Nel campo Volume immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-146">In the Volume field, enter a number.</span></span>
+18. <span data-ttu-id="1b9e8-147">Immettere un numero nel campo Lunghezza.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-147">In the Length field, enter a number.</span></span>
+19. <span data-ttu-id="1b9e8-148">Nel campo Larghezza immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-148">In the Width field, enter a number.</span></span>
+20. <span data-ttu-id="1b9e8-149">Nel campo Altezza immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-149">In the Height field, enter a number.</span></span>
+21. <span data-ttu-id="1b9e8-150">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-150">Click Save.</span></span>
+22. <span data-ttu-id="1b9e8-151">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-151">Click New.</span></span>
+23. <span data-ttu-id="1b9e8-152">Nel campo Codice tipo di contenitore immettere un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-152">In the Container type code field, type a value.</span></span>
+24. <span data-ttu-id="1b9e8-153">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-153">In the Description field, type a value.</span></span>
+25. <span data-ttu-id="1b9e8-154">Immettere un numero nel campo Tara.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-154">In the Tare weight field, enter a number.</span></span>
+26. <span data-ttu-id="1b9e8-155">Nel campo Peso massimo immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-155">In the Maximum weight field, enter a number.</span></span>
+27. <span data-ttu-id="1b9e8-156">Nel campo Volume immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-156">In the Volume field, enter a number.</span></span>
+28. <span data-ttu-id="1b9e8-157">Immettere un numero nel campo Lunghezza.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-157">In the Length field, enter a number.</span></span>
+29. <span data-ttu-id="1b9e8-158">Nel campo Larghezza immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-158">In the Width field, enter a number.</span></span>
+30. <span data-ttu-id="1b9e8-159">Nel campo Altezza immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-159">In the Height field, enter a number.</span></span>
+31. <span data-ttu-id="1b9e8-160">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-160">Click Save.</span></span>
+32. <span data-ttu-id="1b9e8-161">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-161">Close the page.</span></span>
 
-## <a name="set-up-a-container-group"></a>Impostare un gruppo di contenitori
-1. Andare a Gestione magazzino > Impostazioni > Contenitori > Gruppi di contenitori.
-2. Fare clic su Nuovo.
-    * È possibile impostare i gruppi logici dei tipi di contenitore. Per ogni gruppo è possibile specificare la sequenza in cui imballare i contenitori e la percentuale di riempimento dei contenitori. Vengono utilizzate le dimensioni di tipo Dimensione dell'articolo per determinare se potrà essere inserito in un contenitore. Viene utilizzato il contenitore più vicino alle dimensioni di tipo Dimensione dell'articolo. Se in un gruppo sono presenti più tipi di contenitore, è consigliabile disporre la sequenza in base alla dimensione, in modo che il contenitore più grande sia il primo, il numero 1 della sequenza, e il contenitore più piccolo sia l'ultimo.    
-3. Digitare un valore nel campo ID gruppo contenitori.
-4. Nel campo Descrizione digitare un valore.
-5. Fare clic su Nuovo.
-6. Nell'elenco contrassegnare la riga selezionata.
-7. Nel campo Tipo di contenitore immettere o selezionare un valore.
-8. Fare clic su Nuovo.
-9. Nell'elenco contrassegnare la riga selezionata.
-10. Nel campo Tipo di contenitore immettere o selezionare un valore.
-11. Fare clic su Nuovo.
-12. Nell'elenco contrassegnare la riga selezionata.
-13. Nel campo Tipo di contenitore immettere o selezionare un valore.
-14. Fare clic su Salva.
-15. Chiudere la pagina.
+## <a name="set-up-a-container-group"></a><span data-ttu-id="1b9e8-162">Impostare un gruppo di contenitori</span><span class="sxs-lookup"><span data-stu-id="1b9e8-162">Set up a container group</span></span>
+1. <span data-ttu-id="1b9e8-163">Andare a Gestione magazzino > Impostazioni > Contenitori > Gruppi di contenitori.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-163">Go to Warehouse management > Setup > Containers > Container groups.</span></span>
+2. <span data-ttu-id="1b9e8-164">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-164">Click New.</span></span>
+    * <span data-ttu-id="1b9e8-165">È possibile impostare i gruppi logici dei tipi di contenitore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-165">You can set up logical groups of container types.</span></span> <span data-ttu-id="1b9e8-166">Per ogni gruppo è possibile specificare la sequenza in cui imballare i contenitori e la percentuale di riempimento dei contenitori. Vengono utilizzate le dimensioni di tipo Dimensione dell'articolo per determinare se potrà essere inserito in un contenitore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-166">For each group, you can specify the sequence in which to pack the containers and the percentage of the containers to fill.The size dimensions of the item is used to determine whether it will fit in a container.</span></span> <span data-ttu-id="1b9e8-167">Viene utilizzato il contenitore più vicino alle dimensioni di tipo Dimensione dell'articolo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-167">The container that is closest to the size dimensions of the item is used.</span></span> <span data-ttu-id="1b9e8-168">Se in un gruppo sono presenti più tipi di contenitore, è consigliabile disporre la sequenza in base alla dimensione, in modo che il contenitore più grande sia il primo, il numero 1 della sequenza, e il contenitore più piccolo sia l'ultimo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-168">If you have multiple container types in a group, we recommend that you arrange the sequence by size, so that the largest container is first, number 1 in the sequence, and the smallest container is last.</span></span>    
+3. <span data-ttu-id="1b9e8-169">Digitare un valore nel campo ID gruppo contenitori.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-169">In the Container group ID field, type a value.</span></span>
+4. <span data-ttu-id="1b9e8-170">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-170">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="1b9e8-171">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-171">Click New.</span></span>
+6. <span data-ttu-id="1b9e8-172">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-172">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="1b9e8-173">Nel campo Tipo di contenitore immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-173">In the Container type field, enter or select a value.</span></span>
+8. <span data-ttu-id="1b9e8-174">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-174">Click New.</span></span>
+9. <span data-ttu-id="1b9e8-175">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-175">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="1b9e8-176">Nel campo Tipo di contenitore immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-176">In the Container type field, enter or select a value.</span></span>
+11. <span data-ttu-id="1b9e8-177">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-177">Click New.</span></span>
+12. <span data-ttu-id="1b9e8-178">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-178">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="1b9e8-179">Nel campo Tipo di contenitore immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-179">In the Container type field, enter or select a value.</span></span>
+14. <span data-ttu-id="1b9e8-180">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-180">Click Save.</span></span>
+15. <span data-ttu-id="1b9e8-181">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-181">Close the page.</span></span>
 
-## <a name="set-up-a-container-build-template"></a>Impostare un modello di versione del contenitore
-1. Andare a Gestione magazzino > Impostazioni > Contenitori > Modelli di build contenitore.
-2. Fare clic su Nuovo.
-    * Il modello di compilazione contenitore dipende da quale processo di containerizzazione viene eseguito. Ogni modello di compilazione contenitore definisce un processo di containerizzazione che verrà utilizzato da un modello di ondata. L'opzione Modifica query consente di definire le condizioni in cui il modello selezionato verrà elaborato. Ad esempio, potrebbe essere necessario eseguire solo la containerizzazione per clienti, prodotti o magazzini specifici oppure è possibile aggiungere gli intervalli corrispondenti di query al modello. Il campo Codice passaggio ondata è come un modello di compilazione contenitore è collegato ai passaggi nel modello di ondata. Quando un'ondata viene eseguita, determina quali modelli di compilazione contenitore vengono utilizzati per avviare la containerizzazione. Il campo Tipo di query di base determina che cosa imballare e su cosa basare la query del filtro.  
-3. Nell'elenco contrassegnare la riga selezionata.
-4. Digitare un valore nel campo ID modello contenitore.
-5. Nel campo ID gruppo contenitori immettere o selezionare un valore.
-6. Digitare un valore nel campo Codice passaggio ondata.
-7. Selezionare la casella di controllo Consenti prelievi condivisi.
-8. Fare clic su Salva.
-9. Fare clic su Vincoli combinazione contenitore.
-    * L'opzione Suddivisioni logica combinazione consente di impostare le regole di imballaggio delle righe di allocazione in contenitori. Ad esempio, se si aggiunge il campo Numero articolo, quando gli articoli vengono assegnati ai contenitori, un nuovo contenitore verrà creato quando è presente un nuovo numero di articolo. Ciò impedirà ai lavoratori di imballare righe di allocazioni per due diversi clienti nello stesso contenitore.  
-10. Fare clic su Nuovo.
-11. Selezionare un'opzione nel campo Tabella.
-12. Nel campo Selezione campi immettere o selezionare un valore.
-13. Fare clic su OK.
+## <a name="set-up-a-container-build-template"></a><span data-ttu-id="1b9e8-182">Impostare un modello di versione del contenitore</span><span class="sxs-lookup"><span data-stu-id="1b9e8-182">Set up a container build template</span></span>
+1. <span data-ttu-id="1b9e8-183">Andare a Gestione magazzino > Impostazioni > Contenitori > Modelli di build contenitore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-183">Go to Warehouse management > Setup > Containers > Container build templates.</span></span>
+2. <span data-ttu-id="1b9e8-184">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-184">Click New.</span></span>
+    * <span data-ttu-id="1b9e8-185">Il modello di compilazione contenitore dipende da quale processo di containerizzazione viene eseguito.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-185">The container build template is based on which of the containerization processes are performed.</span></span> <span data-ttu-id="1b9e8-186">Ogni modello di compilazione contenitore definisce un processo di containerizzazione che verrà utilizzato da un modello di ondata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-186">Each container build template defines one containerization process that will be used by a wave template.</span></span> <span data-ttu-id="1b9e8-187">L'opzione Modifica query consente di definire le condizioni in cui il modello selezionato verrà elaborato.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-187">The Edit query option allows you to define the conditions on which the selected template will be processed.</span></span> <span data-ttu-id="1b9e8-188">Ad esempio, potrebbe essere necessario eseguire solo la containerizzazione per clienti, prodotti o magazzini specifici oppure è possibile aggiungere gli intervalli corrispondenti di query al modello.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-188">For example, you may want to only run containerization for specific customers, products, or warehouses or you can add the corresponding query ranges to the template.</span></span> <span data-ttu-id="1b9e8-189">Il campo Codice passaggio ondata è come un modello di compilazione contenitore è collegato ai passaggi nel modello di ondata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-189">The Wave step code field is how a container build template is linked to steps in a wave template.</span></span> <span data-ttu-id="1b9e8-190">Quando un'ondata viene eseguita, determina quali modelli di compilazione contenitore vengono utilizzati per avviare la containerizzazione.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-190">When a wave is executed, it determines which container build template(s) are used to initiate containerization.</span></span> <span data-ttu-id="1b9e8-191">Il campo Tipo di query di base determina che cosa imballare e su cosa basare la query del filtro.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-191">The Base query type field determines what to pack and what to base the filter query on.</span></span>  
+3. <span data-ttu-id="1b9e8-192">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-192">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="1b9e8-193">Digitare un valore nel campo ID modello contenitore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-193">In the Container template ID field, type a value.</span></span>
+5. <span data-ttu-id="1b9e8-194">Nel campo ID gruppo contenitori immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-194">In the Container group ID field, enter or select a value.</span></span>
+6. <span data-ttu-id="1b9e8-195">Digitare un valore nel campo Codice passaggio ondata.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-195">In the Wave step code field, type a value.</span></span>
+7. <span data-ttu-id="1b9e8-196">Selezionare la casella di controllo Consenti prelievi condivisi.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-196">Select the Allow split picks check box.</span></span>
+8. <span data-ttu-id="1b9e8-197">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-197">Click Save.</span></span>
+9. <span data-ttu-id="1b9e8-198">Fare clic su Vincoli combinazione contenitore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-198">Click Containier mixing constraints.</span></span>
+    * <span data-ttu-id="1b9e8-199">L'opzione Suddivisioni logica combinazione consente di impostare le regole di imballaggio delle righe di allocazione in contenitori.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-199">Mixing logic breaks allows you to set up rules for packing allocation lines in containers.</span></span> <span data-ttu-id="1b9e8-200">Ad esempio, se si aggiunge il campo Numero articolo, quando gli articoli vengono assegnati ai contenitori, un nuovo contenitore verrà creato quando è presente un nuovo numero di articolo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-200">For example, if you add the Item number field, when items are assigned to containers, a new container will be created when there is a new item number.</span></span> <span data-ttu-id="1b9e8-201">Ciò impedirà ai lavoratori di imballare righe di allocazioni per due diversi clienti nello stesso contenitore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-201">This is will prevent workers from packing allocations lines for two different customers in the same container.</span></span>  
+10. <span data-ttu-id="1b9e8-202">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-202">Click New.</span></span>
+11. <span data-ttu-id="1b9e8-203">Selezionare un'opzione nel campo Tabella.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-203">In the Table field, select an option.</span></span>
+12. <span data-ttu-id="1b9e8-204">Nel campo Selezione campi immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-204">In the Field Select field, enter or select a value.</span></span>
+13. <span data-ttu-id="1b9e8-205">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="1b9e8-205">Click OK.</span></span>
 
 

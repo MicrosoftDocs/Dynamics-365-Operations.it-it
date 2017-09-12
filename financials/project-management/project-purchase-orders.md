@@ -25,18 +25,18 @@ ms.lasthandoff: 08/09/2017
 
 ---
 
-# <a name="purchase-orders-for-a-project"></a>Ordini fornitore per un progetto
+# <a name="purchase-orders-for-a-project"></a><span data-ttu-id="59bf7-104">Ordini fornitore per un progetto</span><span class="sxs-lookup"><span data-stu-id="59bf7-104">Purchase orders for a project</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo descrive i vari metodi da utilizzare per creare ordini fornitore per un progetto. Il metodo utilizzato dipende dallo scopo dell'ordine fornitore, da quando gli articoli acquistati vengono consumati e da quando vengono addebitati a un progetto.
+<span data-ttu-id="59bf7-105">Questo articolo descrive i vari metodi da utilizzare per creare ordini fornitore per un progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-105">This article describes the various methods that you can use to create purchase orders for a project.</span></span> <span data-ttu-id="59bf7-106">Il metodo utilizzato dipende dallo scopo dell'ordine fornitore, da quando gli articoli acquistati vengono consumati e da quando vengono addebitati a un progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-106">The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.</span></span>
 
-In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, è possibile utilizzare più metodi per creare ordini fornitore per un progetto. Il metodo utilizzato dipende dallo scopo dell'ordine fornitore, da quando gli articoli acquistati vengono consumati e da quando vengono addebitati a un progetto.
+<span data-ttu-id="59bf7-107">In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, è possibile utilizzare più metodi per creare ordini fornitore per un progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-107">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, you can use multiple methods to create purchase orders for a project.</span></span> <span data-ttu-id="59bf7-108">Il metodo utilizzato dipende dallo scopo dell'ordine fornitore, da quando gli articoli acquistati vengono consumati e da quando vengono addebitati a un progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-108">The method that you use depends on the purpose of the purchase order, when the purchased items are consumed, and when the purchased items are charged to a project.</span></span>
 
-### <a name="methods-for-creating-a-purchase-order"></a>Metodi per la creazione di un ordine fornitore
+### <a name="methods-for-creating-a-purchase-order"></a><span data-ttu-id="59bf7-109">Metodi per la creazione di un ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="59bf7-109">Methods for creating a purchase order</span></span>
 
-Per creare un ordine fornitore nel modulo Gestione progetti e contabilità, è possibile utilizzare uno dei seguenti metodi. Lo scopo dell'ordine fornitore determina quando verrà consumato l'ordine e, di conseguenza, quando gli articoli verranno addebitati a un progetto.
+<span data-ttu-id="59bf7-110">Per creare un ordine fornitore nel modulo Gestione progetti e contabilità, è possibile utilizzare uno dei seguenti metodi.</span><span class="sxs-lookup"><span data-stu-id="59bf7-110">You can use one of the following methods to create a purchase order in Project management and accounting.</span></span> <span data-ttu-id="59bf7-111">Lo scopo dell'ordine fornitore determina quando verrà consumato l'ordine e, di conseguenza, quando gli articoli verranno addebitati a un progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-111">The purpose of the purchase order determines when the purchase order is consumed and, therefore, when items are charged to a project.</span></span>
 
 <table>
 <colgroup>
@@ -46,37 +46,37 @@ Per creare un ordine fornitore nel modulo Gestione progetti e contabilità, è p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Metodo</th>
-<th>Scopo</th>
-<th>Consumo articoli</th>
+<th><span data-ttu-id="59bf7-112">Metodo</span><span class="sxs-lookup"><span data-stu-id="59bf7-112">Method</span></span></th>
+<th><span data-ttu-id="59bf7-113">Scopo</span><span class="sxs-lookup"><span data-stu-id="59bf7-113">Purpose</span></span></th>
+<th><span data-ttu-id="59bf7-114">Consumo articoli</span><span class="sxs-lookup"><span data-stu-id="59bf7-114">Consumption of items</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Creare un ordine fornitore direttamente da un progetto.</td>
-<td>Utilizzare questo metodo per acquistare articoli da un fornitore esterno per il consumo nell'ambito di un progetto. È possibile creare l'ordine fornitore in due modi:
+<td><span data-ttu-id="59bf7-115">Creare un ordine fornitore direttamente da un progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-115">Create a purchase order directly from a project.</span></span></td>
+<td><span data-ttu-id="59bf7-116">Utilizzare questo metodo per acquistare articoli da un fornitore esterno per il consumo nell'ambito di un progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-116">Use this method to purchase items from an external vendor for consumption on a project.</span></span> <span data-ttu-id="59bf7-117">È possibile creare l'ordine fornitore in due modi:</span><span class="sxs-lookup"><span data-stu-id="59bf7-117">You can create the purchase order in two ways:</span></span>
 <ul>
-<li>Dal progetto stesso. In questo caso il progetto è già definito per l'ordine fornitore.</li>
-<li>Accedendo all'ordine fornitore del progetto. È necessario selezionare sia il fornitore sia il progetto per cui viene creato l'ordine fornitore.</li>
+<li><span data-ttu-id="59bf7-118">Dal progetto stesso.</span><span class="sxs-lookup"><span data-stu-id="59bf7-118">From the project itself.</span></span> <span data-ttu-id="59bf7-119">In questo caso il progetto è già definito per l'ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="59bf7-119">In this case, the project is already defined for the purchase order.</span></span></li>
+<li><span data-ttu-id="59bf7-120">Accedendo all'ordine fornitore del progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-120">By navigating to the project purchase order.</span></span> <span data-ttu-id="59bf7-121">È necessario selezionare sia il fornitore sia il progetto per cui viene creato l'ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="59bf7-121">You must select both the vendor and the project to create the purchase order for.</span></span></li>
 </ul></td>
-<td>Gli articoli vengono consumati quando viene aggiornata la fattura fornitore.</td>
+<td><span data-ttu-id="59bf7-122">Gli articoli vengono consumati quando viene aggiornata la fattura fornitore.</span><span class="sxs-lookup"><span data-stu-id="59bf7-122">Items are consumed when the vendor invoice is updated.</span></span></td>
 </tr>
 <tr class="even">
-<td>Creare un ordine fornitore da un ordine cliente.</td>
-<td>Utilizzare questo metodo per acquistare articoli quando si crea un ordine cliente da un progetto.</td>
-<td>Gli articoli vengono consumati quando l'ordine cliente viene fatturato al cliente.</td>
+<td><span data-ttu-id="59bf7-123">Creare un ordine fornitore da un ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="59bf7-123">Create a purchase order from a sales order.</span></span></td>
+<td><span data-ttu-id="59bf7-124">Utilizzare questo metodo per acquistare articoli quando si crea un ordine cliente da un progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-124">Use this method to purchase items when you create a sales order from a project.</span></span></td>
+<td><span data-ttu-id="59bf7-125">Gli articoli vengono consumati quando l'ordine cliente viene fatturato al cliente.</span><span class="sxs-lookup"><span data-stu-id="59bf7-125">Items are consumed when the sales order is invoiced to the customer.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Creare un ordine fornitore da una richiesta articolo.</td>
-<td>Utilizzare questo metodo per acquistare articoli quando si crea una richiesta articolo da un progetto.</td>
-<td>Gli articoli vengono consumati quando viene aggiornato il documento di trasporto relativo alla richiesta articolo.</td>
+<td><span data-ttu-id="59bf7-126">Creare un ordine fornitore da una richiesta articolo.</span><span class="sxs-lookup"><span data-stu-id="59bf7-126">Create a purchase order from an item requirement.</span></span></td>
+<td><span data-ttu-id="59bf7-127">Utilizzare questo metodo per acquistare articoli quando si crea una richiesta articolo da un progetto.</span><span class="sxs-lookup"><span data-stu-id="59bf7-127">Use this method to purchase items when you create an item requirement from a project.</span></span></td>
+<td><span data-ttu-id="59bf7-128">Gli articoli vengono consumati quando viene aggiornato il documento di trasporto relativo alla richiesta articolo.</span><span class="sxs-lookup"><span data-stu-id="59bf7-128">Items are consumed when the item requirement packing slip is updated.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE] 
-> Quando si aggiorna la fattura fornitore o il documento di trasporto, verrà chiesto di aggiornare il documento di trasporto per la richiesta articolo.
+> <span data-ttu-id="59bf7-129">Quando si aggiorna la fattura fornitore o il documento di trasporto, verrà chiesto di aggiornare il documento di trasporto per la richiesta articolo.</span><span class="sxs-lookup"><span data-stu-id="59bf7-129">When you update the vendor invoice or packing slip, you're prompted to update the packing slip on the item requirement.</span></span>
 
-Per ulteriori informazioni, vedere [Ricevere articoli in un ordine fornitore da una richiesta articolo](tasks/receive-items-purchase-order-item-requirement.md).
+<span data-ttu-id="59bf7-130">Per ulteriori informazioni, vedere [Ricevere articoli in un ordine fornitore da una richiesta articolo](tasks/receive-items-purchase-order-item-requirement.md).</span><span class="sxs-lookup"><span data-stu-id="59bf7-130">For more information, see [Receive items on purchase order from item requirement](tasks/receive-items-purchase-order-item-requirement.md).</span></span>
 
 

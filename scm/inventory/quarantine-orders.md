@@ -1,7 +1,7 @@
 ---
 title: Ordini di quarantena
 description: In questo articolo viene descritto come gli ordini di quarantena vengono utilizzati per bloccare il magazzino.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,66 +10,63 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ec3d54e8e08850cd81891e7058b2b787e08b0fb9
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 17dde4a4e3380beb98eeb71c719fb898b40a94f7
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="quarantine-orders"></a>Ordini di quarantena
+# <a name="quarantine-orders"></a><span data-ttu-id="4af58-103">Ordini di quarantena</span><span class="sxs-lookup"><span data-stu-id="4af58-103">Quarantine orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo viene descritto come gli ordini di quarantena vengono utilizzati per bloccare il magazzino. 
+<span data-ttu-id="4af58-104">In questo articolo viene descritto come gli ordini di quarantena vengono utilizzati per bloccare il magazzino.</span><span class="sxs-lookup"><span data-stu-id="4af58-104">This article describes how quarantine orders are used to block inventory.</span></span>
 
-Gli ordini di quarantena possono essere utilizzati per bloccare il magazzino. Ad esempio, è possibile che si desideri mettere in quarantena gli articoli per motivi di controllo qualità. L'inventario messo in quarantena viene trasferito a un magazzino di quarantena. **Nota:** se si utilizzano processi di gestione avanzata del magazzino (in Gestione magazzino), l'elaborazione degli ordini di quarantena viene utilizzata solo per gli ordini cliente resi.
+<span data-ttu-id="4af58-105">Gli ordini di quarantena possono essere utilizzati per bloccare il magazzino.</span><span class="sxs-lookup"><span data-stu-id="4af58-105">Quarantine orders can be used to block inventory.</span></span> <span data-ttu-id="4af58-106">Ad esempio, è possibile che si desideri mettere in quarantena gli articoli per motivi di controllo qualità.</span><span class="sxs-lookup"><span data-stu-id="4af58-106">For example, you might want to quarantine items for quality control reasons.</span></span> <span data-ttu-id="4af58-107">L'inventario messo in quarantena viene trasferito a un magazzino di quarantena.</span><span class="sxs-lookup"><span data-stu-id="4af58-107">Inventory that has been quarantined is transferred to a quarantine warehouse.</span></span> <span data-ttu-id="4af58-108">**Nota:** se si utilizzano processi di gestione avanzata del magazzino (in Gestione magazzino), l'elaborazione degli ordini di quarantena viene utilizzata solo per gli ordini cliente resi.</span><span class="sxs-lookup"><span data-stu-id="4af58-108">**Note:** If you're using advanced warehouse management processes (in Warehouse management), quarantine order processing is used only for return sales orders.</span></span>
 
-## <a name="quarantine-onhand-inventory-items"></a>Quarantena degli articoli di magazzino disponibili
-Quando si mettono articoli in quarantena, è possibile creare ordini di quarantena manualmente o impostare il sistema in modo da creare ordini di quarantena automaticamente durante l'elaborazione in entrata. Per creare automaticamente ordini di quarantena, selezionare l'opzione **Gestione quarantena** nella scheda **Criteri di inventario** nella pagina **Gruppi di modelli di articoli**. È anche necessario specificare un magazzino di quarantena predefinito nel campo **Magazzino di quarantena** per i magazzini riceventi. Quando gli articoli di magazzino fisicamente disponibili vengono registrati in un ordine fornitore o di produzione, gli articoli in quarantena vengono spostati automaticamente in un magazzino di quarantena in Microsoft Dynamics 365 for Finance and Operations. Il movimento si verifica perché lo stato dell'ordine di quarantena viene modificato su **Iniziato**. Quando si creano manualmente ordini di quarantena, non è necessario che l'articolo venga impostato per la gestione della quarantena nel gruppo di modelli dell'articolo associato. Per questo processo, è necessario specificare il magazzino disponibile che deve essere messo in quarantena e il magazzino di quarantena che deve essere utilizzato. È possibile utilizzare gli stati dell'ordine di quarantena per pianificare il processo.
+## <a name="quarantine-onhand-inventory-items"></a><span data-ttu-id="4af58-109">Quarantena degli articoli di magazzino disponibili</span><span class="sxs-lookup"><span data-stu-id="4af58-109">Quarantine onhand inventory items</span></span>
+<span data-ttu-id="4af58-110">Quando si mettono articoli in quarantena, è possibile creare ordini di quarantena manualmente o impostare il sistema in modo da creare ordini di quarantena automaticamente durante l'elaborazione in entrata.</span><span class="sxs-lookup"><span data-stu-id="4af58-110">When you quarantine items, you can either create the quarantine orders manually or set up the system to create the quarantine orders automatically during inbound processing.</span></span> <span data-ttu-id="4af58-111">Per creare automaticamente ordini di quarantena, selezionare l'opzione **Gestione quarantena** nella scheda **Criteri di inventario** nella pagina **Gruppi di modelli di articoli**.</span><span class="sxs-lookup"><span data-stu-id="4af58-111">To create quarantine orders automatically, select the **Quarantine management** option on the **Inventory policies** tab on the **Item model groups** page.</span></span> <span data-ttu-id="4af58-112">È anche necessario specificare un magazzino di quarantena predefinito nel campo **Magazzino di quarantena** per i magazzini riceventi.</span><span class="sxs-lookup"><span data-stu-id="4af58-112">You must also specify a default quarantine warehouse in the **Quarantine warehouse** field for the receiving warehouses.</span></span> <span data-ttu-id="4af58-113">Quando gli articoli di magazzino fisicamente disponibili vengono registrati in un ordine fornitore o di produzione, gli articoli in quarantena vengono spostati automaticamente in un magazzino di quarantena in Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4af58-113">When the physically on-hand inventory is recorded in a purchase order or production order, quarantined items are automatically moved to a quarantine warehouse in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="4af58-114">Il movimento si verifica perché lo stato dell'ordine di quarantena viene modificato su **Iniziato**.</span><span class="sxs-lookup"><span data-stu-id="4af58-114">This movement occurs because the status of the quarantine order is changed to **Started**.</span></span> <span data-ttu-id="4af58-115">Quando si creano manualmente ordini di quarantena, non è necessario che l'articolo venga impostato per la gestione della quarantena nel gruppo di modelli dell'articolo associato.</span><span class="sxs-lookup"><span data-stu-id="4af58-115">When you create quarantine orders manually, the item doesn't have to be set up for quarantine management in the associated item model group.</span></span> <span data-ttu-id="4af58-116">Per questo processo, è necessario specificare il magazzino disponibile che deve essere messo in quarantena e il magazzino di quarantena che deve essere utilizzato.</span><span class="sxs-lookup"><span data-stu-id="4af58-116">For this process, you must specify the on-hand inventory that should be quarantined and the quarantine warehouse that should be used.</span></span> <span data-ttu-id="4af58-117">È possibile utilizzare gli stati dell'ordine di quarantena per pianificare il processo.</span><span class="sxs-lookup"><span data-stu-id="4af58-117">You can use the quarantine order statuses to help plan the process.</span></span>
 
-## <a name="quarantine-order-statuses"></a>Stati dell'ordine di quarantena
-Agli ordini di quarantena possono essere assegnati i seguenti stati:
+## <a name="quarantine-order-statuses"></a><span data-ttu-id="4af58-118">Stati dell'ordine di quarantena</span><span class="sxs-lookup"><span data-stu-id="4af58-118">Quarantine order statuses</span></span>
+<span data-ttu-id="4af58-119">Agli ordini di quarantena possono essere assegnati i seguenti stati:</span><span class="sxs-lookup"><span data-stu-id="4af58-119">Quarantine orders can have the following statuses:</span></span>
 
--   Creata
--   Avviato
--   Dichiarato finito
--   Operazione terminata
+-   <span data-ttu-id="4af58-120">Creata</span><span class="sxs-lookup"><span data-stu-id="4af58-120">Created</span></span>
+-   <span data-ttu-id="4af58-121">Avviato</span><span class="sxs-lookup"><span data-stu-id="4af58-121">Started</span></span>
+-   <span data-ttu-id="4af58-122">Dichiarato finito</span><span class="sxs-lookup"><span data-stu-id="4af58-122">Reported as finished</span></span>
+-   <span data-ttu-id="4af58-123">Operazione terminata</span><span class="sxs-lookup"><span data-stu-id="4af58-123">Ended</span></span>
 
-### <a name="created"></a>Creata
+### <a name="created"></a><span data-ttu-id="4af58-124">Creata</span><span class="sxs-lookup"><span data-stu-id="4af58-124">Created</span></span>
 
-Quando un ordine di quarantena viene creato manualmente ma l'articolo non è ancora nel magazzino di quarantena, l'ordine di quarantena presenta lo stato **Creato**. Vengono generate due transazioni di magazzino. Una transazione è una transazione di uscita con lo stato **In ordinazione**, **Fisico prenotato** o **Prelevata**. L'altra transazione è una transazione di entrata con lo stato **Ordinato** o **Registrato** presso il magazzino in quarantena. È possibile prenotare, prelevare e registrare aggiornamenti al magazzino utilizzando i soliti processi.
+<span data-ttu-id="4af58-125">Quando un ordine di quarantena viene creato manualmente ma l'articolo non è ancora nel magazzino di quarantena, l'ordine di quarantena presenta lo stato **Creato**.</span><span class="sxs-lookup"><span data-stu-id="4af58-125">When a quarantine order has been created manually, but the item isn't yet in the quarantine warehouse, the quarantine order has a status of **Created**.</span></span> <span data-ttu-id="4af58-126">Vengono generate due transazioni di magazzino.</span><span class="sxs-lookup"><span data-stu-id="4af58-126">Two inventory transactions are generated.</span></span> <span data-ttu-id="4af58-127">Una transazione è una transazione di uscita con lo stato **In ordinazione**, **Fisico prenotato** o **Prelevata**.</span><span class="sxs-lookup"><span data-stu-id="4af58-127">One transaction is an issue transaction that can have a status of **On order**, **Reserved physical**, or **Picked**.</span></span> <span data-ttu-id="4af58-128">L'altra transazione è una transazione di entrata con lo stato **Ordinato** o **Registrato** presso il magazzino in quarantena.</span><span class="sxs-lookup"><span data-stu-id="4af58-128">The other transaction is a receipt transaction that can have a status of **Ordered** or **Registered** at the quarantine warehouse.</span></span> <span data-ttu-id="4af58-129">È possibile prenotare, prelevare e registrare aggiornamenti al magazzino utilizzando i soliti processi.</span><span class="sxs-lookup"><span data-stu-id="4af58-129">You can reserve, pick, and register updates to the inventory by using the usual processes.</span></span>
 
-### <a name="started"></a>Avviato
+### <a name="started"></a><span data-ttu-id="4af58-130">Avviato</span><span class="sxs-lookup"><span data-stu-id="4af58-130">Started</span></span>
 
-Quando un ordine di quarantena presenta lo stato **Avviato**, gli articoli di magazzino vengono trasferiti dal normale magazzino al magazzino di quarantena e vengono generate due transazioni di magazzino. Una transazione ha lo stato di **Detratto** e l'altra ha lo stato di **Ricevuto**. Contemporaneamente vengono generate due operazioni di magazzino per la gestione del trasferimento del reso. Queste transazioni non sono datate. Una transazione ha lo stato di **Fisico prenotato** e l'altra ha lo stato di **Ordinato**.
+<span data-ttu-id="4af58-131">Quando un ordine di quarantena presenta lo stato **Avviato**, gli articoli di magazzino vengono trasferiti dal normale magazzino al magazzino di quarantena e vengono generate due transazioni di magazzino.</span><span class="sxs-lookup"><span data-stu-id="4af58-131">When a quarantine order has a status of **Started**, the inventory is transferred from the regular warehouse to the quarantine warehouse, and two inventory transactions are generated.</span></span> <span data-ttu-id="4af58-132">Una transazione ha lo stato di **Detratto** e l'altra ha lo stato di **Ricevuto**.</span><span class="sxs-lookup"><span data-stu-id="4af58-132">One transaction has a status of **Deducted**, and the other transaction has a status of **Received**.</span></span> <span data-ttu-id="4af58-133">Contemporaneamente vengono generate due operazioni di magazzino per la gestione del trasferimento del reso.</span><span class="sxs-lookup"><span data-stu-id="4af58-133">At the same time, two inventory transactions are created to handle the return transfer.</span></span> <span data-ttu-id="4af58-134">Queste transazioni non sono datate.</span><span class="sxs-lookup"><span data-stu-id="4af58-134">These transactions aren't dated.</span></span> <span data-ttu-id="4af58-135">Una transazione ha lo stato di **Fisico prenotato** e l'altra ha lo stato di **Ordinato**.</span><span class="sxs-lookup"><span data-stu-id="4af58-135">One transaction has a status of **Reserved physical**, and the other transaction has a status of **Ordered**.</span></span>
 
-### <a name="reported-as-finished"></a>Dichiarato finito
+### <a name="reported-as-finished"></a><span data-ttu-id="4af58-136">Dichiarato finito</span><span class="sxs-lookup"><span data-stu-id="4af58-136">Reported as finished</span></span>
 
-Se si fa clic su **Dichiarazione di finito**, è possibile dichiarare che un ordine di quarantena avviato è finito. L'articolo viene rilasciato dalla quarantena, ma non viene ancora ritrasferito al magazzino normale. Il movimento al magazzino normale può essere elaborato tramite un giornale di registrazione arrivi articoli che può essere inizializzato durante il processo di dichiarazione finito.
+<span data-ttu-id="4af58-137">Se si fa clic su **Dichiarazione di finito**, è possibile dichiarare che un ordine di quarantena avviato è finito.</span><span class="sxs-lookup"><span data-stu-id="4af58-137">By clicking **Report as finished**, you can report a started quarantine order as finished.</span></span> <span data-ttu-id="4af58-138">L'articolo viene rilasciato dalla quarantena, ma non viene ancora ritrasferito al magazzino normale.</span><span class="sxs-lookup"><span data-stu-id="4af58-138">The item is released from quarantine but isn't yet moved back to the regular warehouse.</span></span> <span data-ttu-id="4af58-139">Il movimento al magazzino normale può essere elaborato tramite un giornale di registrazione arrivi articoli che può essere inizializzato durante il processo di dichiarazione finito.</span><span class="sxs-lookup"><span data-stu-id="4af58-139">The movement back to the regular warehouse can be procesed via an Item arrival journal that can be initialized during the Report as finished process.</span></span>
 
-### <a name="ended"></a>Operazione terminata
+### <a name="ended"></a><span data-ttu-id="4af58-140">Operazione terminata</span><span class="sxs-lookup"><span data-stu-id="4af58-140">Ended</span></span>
 
-Quando un ordine di quarantena viene terminato, l'articolo viene spostato dal magazzino di quarantena al magazzino normale. Lo stato della transazione dell'articolo viene impostato su **Venduto** nel magazzino di quarantena e su **Acquistato** nel magazzino normale.
+<span data-ttu-id="4af58-141">Quando un ordine di quarantena viene terminato, l'articolo viene spostato dal magazzino di quarantena al magazzino normale.</span><span class="sxs-lookup"><span data-stu-id="4af58-141">When a quarantine order is ended, the item is moved from the quarantine warehouse back to the regular warehouse.</span></span> <span data-ttu-id="4af58-142">Lo stato della transazione dell'articolo viene impostato su **Venduto** nel magazzino di quarantena e su **Acquistato** nel magazzino normale.</span><span class="sxs-lookup"><span data-stu-id="4af58-142">The status of the item transaction is set to **Sold** at the quarantine warehouse and **Purchased** at the regular warehouse.</span></span>
 
-## <a name="quarantine-order-scrap"></a>Scarti ordine di quarantena
-Nell'ambito dell'elaborazione dell'ordine di quarantena è possibile scartare le scorte. In questa fase, lo stato degli articoli di magazzino sono impostati su **Venduto** tramite una transazione di uscita dal magazzino di quarantena.
+## <a name="quarantine-order-scrap"></a><span data-ttu-id="4af58-143">Scarti ordine di quarantena</span><span class="sxs-lookup"><span data-stu-id="4af58-143">Quarantine order scrap</span></span>
+<span data-ttu-id="4af58-144">Nell'ambito dell'elaborazione dell'ordine di quarantena è possibile scartare le scorte.</span><span class="sxs-lookup"><span data-stu-id="4af58-144">As part of the quarantine order process, you can scrap inventory.</span></span> <span data-ttu-id="4af58-145">In questa fase, lo stato degli articoli di magazzino sono impostati su **Venduto** tramite una transazione di uscita dal magazzino di quarantena.</span><span class="sxs-lookup"><span data-stu-id="4af58-145">When you process scrap, the status of the inventory will be set to **Sold** by an issue transaction from the quarantine warehouse.</span></span>
 
-<a name="see-also"></a>Vedere anche
+<a name="see-also"></a><span data-ttu-id="4af58-146">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="4af58-146">See also</span></span>
 --------
 
-[Blocco scorte](inventory-blocking.md)
-
-
-
+[<span data-ttu-id="4af58-147">Blocco scorte</span><span class="sxs-lookup"><span data-stu-id="4af58-147">Inventory blocking</span></span>](inventory-blocking.md)
 

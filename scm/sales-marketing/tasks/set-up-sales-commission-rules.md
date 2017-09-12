@@ -22,79 +22,79 @@ ms.contentlocale: it-it
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="set-up-sales-commission-rules"></a>Impostare regole per la provvigione vendite
+# <a name="set-up-sales-commission-rules"></a><span data-ttu-id="61a7c-103">Impostare regole per la provvigione vendite</span><span class="sxs-lookup"><span data-stu-id="61a7c-103">Set up sales commission rules</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Questa procedura mostra come impostare e abilitare il calcolo e la verifica della provvigione di vendita. Le procedura mostra come creare i gruppi di provvigioni per clienti e per articoli e quindi come collegare un cliente e un prodotto selezionati ai rispettivi gruppi. Tali gruppi vengono utilizzati nell'impostazione di calcolo della provvigione per creare una combinazione di cliente, articolo e rappresentante che deve corrispondere all'ordine cliente per autorizzare i venditori a una provvigione. Creare i gruppi di provvigioni per clienti e articoli è facoltativo, poiché il calcolo della provvigione può anche essere eseguito per un cliente e/o articolo individuale. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.
+<span data-ttu-id="61a7c-104">Questa procedura mostra come impostare e abilitare il calcolo e la verifica della provvigione di vendita.</span><span class="sxs-lookup"><span data-stu-id="61a7c-104">This procedure shows you how to set up and enable sales commission calculation and tracking.</span></span> <span data-ttu-id="61a7c-105">Le procedura mostra come creare i gruppi di provvigioni per clienti e per articoli e quindi come collegare un cliente e un prodotto selezionati ai rispettivi gruppi.</span><span class="sxs-lookup"><span data-stu-id="61a7c-105">The procedure shows how to create both customer and item commission groups, and then how to link a selected customer and product to the respective groups.</span></span> <span data-ttu-id="61a7c-106">Tali gruppi vengono utilizzati nell'impostazione di calcolo della provvigione per creare una combinazione di cliente, articolo e rappresentante che deve corrispondere all'ordine cliente per autorizzare i venditori a una provvigione.</span><span class="sxs-lookup"><span data-stu-id="61a7c-106">Those groups are then used in the commission calculation setup to create a customer, item, and sales representatives combination that must be matched by the sales order to entitle the sales people to a commission.</span></span> <span data-ttu-id="61a7c-107">Creare i gruppi di provvigioni per clienti e articoli è facoltativo, poiché il calcolo della provvigione può anche essere eseguito per un cliente e/o articolo individuale.</span><span class="sxs-lookup"><span data-stu-id="61a7c-107">Creating customer and item commission groups are optional, as the calculation of commission can also be done for an individual customer and/or item.</span></span> <span data-ttu-id="61a7c-108">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.</span><span class="sxs-lookup"><span data-stu-id="61a7c-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="set-up-commission-groups-and-commission-rates"></a>Impostare i gruppi di provvigioni e le percentuali di provvigione
-1. Andare a Vendite e marketing > Provvigioni > Gruppi di clienti per la provvigione.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Gruppo.
-4. Digitare un valore nel campo Nome.
-5. Fare clic su Salva.
-6. Chiudere la pagina.
-7. Andare a Vendite e marketing > Provvigioni > Gruppi di articoli.
-8. Fare clic su Nuovo.
-9. Digitare un valore nel campo Gruppo.
-10. Digitare un valore nel campo Nome.
-11. Chiudere la pagina.
-12. Andare a Vendite e marketing > Provvigioni > Gruppi vendite.
-    * Un gruppo vendite con provvigione specifica i dipendenti con ruoli di rappresentante idonei a ricevere una provvigione quando un cliente associato al gruppo vendite competente compra determinati articoli.  
-    * Nella società di dati dimostrativi USMF, è presente un gruppo vendite denominato "Sales reps US".  
-13. Nel riquadro azioni fare clic su Generale.
-14. Fare clic su Rappres.
-    * La pagina Rappres. mostra un elenco dei venditori della società associati a un gruppo di provvigioni specifico. È possibile assegnare più rappresentanti allo stesso gruppo e definire la rispettiva quota delle commissioni di provvigione totali come valore percentuale. La somma delle quote di provvigione di tutti i dipendenti non deve superare 100.  
-15. Nell'elenco contrassegnare la riga selezionata.
-16. Fare clic su Modifica.
-17. Impostare Quota provvigione su '50'.
-18. Fare clic su Nuovo.
-19. Nel campo Nome fare clic sul pulsante a discesa per aprire la ricerca.
-20. Utilizzare il filtro rapido per trovare i record. Ad esempio, filtrare il campo Nome con il valore 'Susan Burk'.
-21. Fare clic su Seleziona.
-22. Impostare Quota provvigione su '50'.
-23. Fare clic su Salva.
-24. Andare a Vendite e marketing > Provvigioni > Calcolo della provvigione.
-    * Nella pagina Calcolo della provvigione viene definita la percentuale di provvigione che il dipendente deve ricevere per una transazione di vendita quando contiene la combinazione prestabilita di cliente e di prodotto. Nella impostazione della percentuale della provvigione, è necessario specificare la base di calcolo della provvigione e se deve includere oppure escludere gli sconti. È inoltre possibile immettere un periodo di validità nel quale la percentuale di provvigione è attiva.  
-25. Fare clic su Nuovo.
-26. Selezionare "Gruppo" nel campo Codice articolo.
-27. Nel campo Relazione articolo fare clic sul pulsante a discesa per aprire la ricerca.
-28. Nell'elenco, trovare e selezionare il gruppo creato in precedenza.
-29. Nell'elenco fare clic sul collegamento nella riga selezionata.
-30. Selezionare 'Gruppo' nel campo Codice cliente.
-31. Nel campo Relazione cliente fare clic sul pulsante a discesa per aprire la ricerca.
-32. Nell'elenco, selezionare il gruppo impostato in precedenza.
-33. Nel campo Relazione rappr. fare clic sul pulsante a discesa per aprire la ricerca.
-34. Nell'elenco trovare e selezionare il record desiderato.
-    * Mantenere l'opzione "Prima dello sconto riga".  
-    * Mantenere l'opzione "Ricavi" come base per il calcolo del valore della provvigione.    
-35. Immettere un numero nel campo Percentuale provvigione.
-36. Fare clic su Salva.
+## <a name="set-up-commission-groups-and-commission-rates"></a><span data-ttu-id="61a7c-109">Impostare i gruppi di provvigioni e le percentuali di provvigione</span><span class="sxs-lookup"><span data-stu-id="61a7c-109">Set up commission groups and commission rates</span></span>
+1. <span data-ttu-id="61a7c-110">Andare a Vendite e marketing > Provvigioni > Gruppi di clienti per la provvigione.</span><span class="sxs-lookup"><span data-stu-id="61a7c-110">Go to Sales and marketing > Commissions > Customer groups for commission.</span></span>
+2. <span data-ttu-id="61a7c-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="61a7c-111">Click New.</span></span>
+3. <span data-ttu-id="61a7c-112">Digitare un valore nel campo Gruppo.</span><span class="sxs-lookup"><span data-stu-id="61a7c-112">In the Group field, type a value.</span></span>
+4. <span data-ttu-id="61a7c-113">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="61a7c-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="61a7c-114">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="61a7c-114">Click Save.</span></span>
+6. <span data-ttu-id="61a7c-115">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="61a7c-115">Close the page.</span></span>
+7. <span data-ttu-id="61a7c-116">Andare a Vendite e marketing > Provvigioni > Gruppi di articoli.</span><span class="sxs-lookup"><span data-stu-id="61a7c-116">Go to Sales and marketing > Commissions > Item groups.</span></span>
+8. <span data-ttu-id="61a7c-117">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="61a7c-117">Click New.</span></span>
+9. <span data-ttu-id="61a7c-118">Digitare un valore nel campo Gruppo.</span><span class="sxs-lookup"><span data-stu-id="61a7c-118">In the Group field, type a value.</span></span>
+10. <span data-ttu-id="61a7c-119">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="61a7c-119">In the Name field, type a value.</span></span>
+11. <span data-ttu-id="61a7c-120">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="61a7c-120">Close the page.</span></span>
+12. <span data-ttu-id="61a7c-121">Andare a Vendite e marketing > Provvigioni > Gruppi vendite.</span><span class="sxs-lookup"><span data-stu-id="61a7c-121">Go to Sales and marketing > Commissions > Sales groups.</span></span>
+    * <span data-ttu-id="61a7c-122">Un gruppo vendite con provvigione specifica i dipendenti con ruoli di rappresentante idonei a ricevere una provvigione quando un cliente associato al gruppo vendite competente compra determinati articoli.</span><span class="sxs-lookup"><span data-stu-id="61a7c-122">A Commission sales group specifies the employees in sales representative roles who are eligible to receive a commission when a customer associated with the relevant sales group buys certain items.</span></span>  
+    * <span data-ttu-id="61a7c-123">Nella società di dati dimostrativi USMF, è presente un gruppo vendite denominato "Sales reps US".</span><span class="sxs-lookup"><span data-stu-id="61a7c-123">In the USMF demo data company, there is a sales group called "Sales reps US."</span></span>  
+13. <span data-ttu-id="61a7c-124">Nel riquadro azioni fare clic su Generale.</span><span class="sxs-lookup"><span data-stu-id="61a7c-124">On the Action Pane, click General.</span></span>
+14. <span data-ttu-id="61a7c-125">Fare clic su Rappres.</span><span class="sxs-lookup"><span data-stu-id="61a7c-125">Click Sales rep..</span></span>
+    * <span data-ttu-id="61a7c-126">La pagina Rappres.</span><span class="sxs-lookup"><span data-stu-id="61a7c-126">The Sales rep.</span></span> <span data-ttu-id="61a7c-127">mostra un elenco dei venditori della società associati a un gruppo di provvigioni specifico.</span><span class="sxs-lookup"><span data-stu-id="61a7c-127">page displays a list of the company's sales people who are associated with a specific commission group.</span></span> <span data-ttu-id="61a7c-128">È possibile assegnare più rappresentanti allo stesso gruppo e definire la rispettiva quota delle commissioni di provvigione totali come valore percentuale.</span><span class="sxs-lookup"><span data-stu-id="61a7c-128">You can assign multiple sales representatives to the same group and define their respective share of the total commission fee as a percentage value.</span></span> <span data-ttu-id="61a7c-129">La somma delle quote di provvigione di tutti i dipendenti non deve superare 100.</span><span class="sxs-lookup"><span data-stu-id="61a7c-129">The total commission share across all employees must not exceed 100.</span></span>  
+15. <span data-ttu-id="61a7c-130">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="61a7c-130">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="61a7c-131">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="61a7c-131">Click Edit.</span></span>
+17. <span data-ttu-id="61a7c-132">Impostare Quota provvigione su '50'.</span><span class="sxs-lookup"><span data-stu-id="61a7c-132">Set Commission share to '50'.</span></span>
+18. <span data-ttu-id="61a7c-133">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="61a7c-133">Click New.</span></span>
+19. <span data-ttu-id="61a7c-134">Nel campo Nome fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="61a7c-134">In the Name field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="61a7c-135">Utilizzare il filtro rapido per trovare i record.</span><span class="sxs-lookup"><span data-stu-id="61a7c-135">Use the Quick Filter to find records.</span></span> <span data-ttu-id="61a7c-136">Ad esempio, filtrare il campo Nome con il valore 'Susan Burk'.</span><span class="sxs-lookup"><span data-stu-id="61a7c-136">For example, filter on the Name field with a value of 'Susan Burk'.</span></span>
+21. <span data-ttu-id="61a7c-137">Fare clic su Seleziona.</span><span class="sxs-lookup"><span data-stu-id="61a7c-137">Click Select.</span></span>
+22. <span data-ttu-id="61a7c-138">Impostare Quota provvigione su '50'.</span><span class="sxs-lookup"><span data-stu-id="61a7c-138">Set Commission share to '50'.</span></span>
+23. <span data-ttu-id="61a7c-139">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="61a7c-139">Click Save.</span></span>
+24. <span data-ttu-id="61a7c-140">Andare a Vendite e marketing > Provvigioni > Calcolo della provvigione.</span><span class="sxs-lookup"><span data-stu-id="61a7c-140">Go to Sales and marketing > Commissions > Commission calculation.</span></span>
+    * <span data-ttu-id="61a7c-141">Nella pagina Calcolo della provvigione viene definita la percentuale di provvigione che il dipendente deve ricevere per una transazione di vendita quando contiene la combinazione prestabilita di cliente e di prodotto.</span><span class="sxs-lookup"><span data-stu-id="61a7c-141">In the Commission calculation page you define the commission rate that the employee is to receive for a sales transaction when it contains the pre-set combination of customer and product.</span></span> <span data-ttu-id="61a7c-142">Nella impostazione della percentuale della provvigione, è necessario specificare la base di calcolo della provvigione e se deve includere oppure escludere gli sconti.</span><span class="sxs-lookup"><span data-stu-id="61a7c-142">As part of the commission rate setup, you must specify the commission calculation basis and whether it should include or exclude discounts.</span></span> <span data-ttu-id="61a7c-143">È inoltre possibile immettere un periodo di validità nel quale la percentuale di provvigione è attiva.</span><span class="sxs-lookup"><span data-stu-id="61a7c-143">You can also enter a validity period for when the commission rate is active.</span></span>  
+25. <span data-ttu-id="61a7c-144">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="61a7c-144">Click New.</span></span>
+26. <span data-ttu-id="61a7c-145">Selezionare "Gruppo" nel campo Codice articolo.</span><span class="sxs-lookup"><span data-stu-id="61a7c-145">In the Item code field, select 'Group'.</span></span>
+27. <span data-ttu-id="61a7c-146">Nel campo Relazione articolo fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="61a7c-146">In the Item relation field, click the drop-down button to open the lookup.</span></span>
+28. <span data-ttu-id="61a7c-147">Nell'elenco, trovare e selezionare il gruppo creato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="61a7c-147">In the list, find and select the group that you created earlier.</span></span>
+29. <span data-ttu-id="61a7c-148">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="61a7c-148">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="61a7c-149">Selezionare 'Gruppo' nel campo Codice cliente.</span><span class="sxs-lookup"><span data-stu-id="61a7c-149">In the Customer code field, select 'Group'.</span></span>
+31. <span data-ttu-id="61a7c-150">Nel campo Relazione cliente fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="61a7c-150">In the Customer relation field, click the drop-down button to open the lookup.</span></span>
+32. <span data-ttu-id="61a7c-151">Nell'elenco, selezionare il gruppo impostato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="61a7c-151">In the list, select the group that you set up earlier.</span></span>
+33. <span data-ttu-id="61a7c-152">Nel campo Relazione rappr.</span><span class="sxs-lookup"><span data-stu-id="61a7c-152">In the Sales rep.</span></span> <span data-ttu-id="61a7c-153">fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="61a7c-153">relation field, click the drop-down button to open the lookup.</span></span>
+34. <span data-ttu-id="61a7c-154">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="61a7c-154">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="61a7c-155">Mantenere l'opzione "Prima dello sconto riga".</span><span class="sxs-lookup"><span data-stu-id="61a7c-155">Keep the "Before line discount" option.</span></span>  
+    * <span data-ttu-id="61a7c-156">Mantenere l'opzione "Ricavi" come base per il calcolo del valore della provvigione.</span><span class="sxs-lookup"><span data-stu-id="61a7c-156">Keep the "Revenue" option as the basis for commission value calculation.</span></span>    
+35. <span data-ttu-id="61a7c-157">Immettere un numero nel campo Percentuale provvigione.</span><span class="sxs-lookup"><span data-stu-id="61a7c-157">In the Commission percentage field, enter a number.</span></span>
+36. <span data-ttu-id="61a7c-158">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="61a7c-158">Click Save.</span></span>
 
-## <a name="setting-up-commission-posting"></a>Impostazione della registrazione della provvigione
-1. Passare a Vendite e marketing > Provvigioni > Registrazione provvigione.
-    * Le commissioni di provvigione sono un debito a dipendenti e devono pertanto essere impostate in modo da garantire la registrazione finanziaria corretta nei conti appropriati nella contabilità generale. Ciò viene effettuato nella pagina Registrazione provvigione. Esaminare l'impostazione disponibile per la società corrente. In genere, gli importi della provvigione vengono registrati in un conto spese dedicato e vengono compensati in contropartita in un conto a debito dedicato. Se non sono impostate regole di registrazione delle provvigioni, il sistema non riuscirà a completare la fatturazione di un ordine cliente con provvigioni idonee.  
-2. Chiudere la pagina.
+## <a name="setting-up-commission-posting"></a><span data-ttu-id="61a7c-159">Impostazione della registrazione della provvigione</span><span class="sxs-lookup"><span data-stu-id="61a7c-159">Setting up commission posting</span></span>
+1. <span data-ttu-id="61a7c-160">Passare a Vendite e marketing > Provvigioni > Registrazione provvigione.</span><span class="sxs-lookup"><span data-stu-id="61a7c-160">Go to Sales and marketing > Commissions > Commission posting.</span></span>
+    * <span data-ttu-id="61a7c-161">Le commissioni di provvigione sono un debito a dipendenti e devono pertanto essere impostate in modo da garantire la registrazione finanziaria corretta nei conti appropriati nella contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="61a7c-161">Commission fees are payable to the employees and must therefore be set up to ensure correct financial posting to the appropriate accounts in the General ledger.</span></span> <span data-ttu-id="61a7c-162">Ciò viene effettuato nella pagina Registrazione provvigione.</span><span class="sxs-lookup"><span data-stu-id="61a7c-162">This is done in the Commission posting page.</span></span> <span data-ttu-id="61a7c-163">Esaminare l'impostazione disponibile per la società corrente.</span><span class="sxs-lookup"><span data-stu-id="61a7c-163">Review the setup that is available for the current company.</span></span> <span data-ttu-id="61a7c-164">In genere, gli importi della provvigione vengono registrati in un conto spese dedicato e vengono compensati in contropartita in un conto a debito dedicato.</span><span class="sxs-lookup"><span data-stu-id="61a7c-164">Typically, the commission amounts are posted to a dedicated expense account and are offset to a dedicated payable account.</span></span> <span data-ttu-id="61a7c-165">Se non sono impostate regole di registrazione delle provvigioni, il sistema non riuscirà a completare la fatturazione di un ordine cliente con provvigioni idonee.</span><span class="sxs-lookup"><span data-stu-id="61a7c-165">If you don't have the commission posting rules set up, the system will fail to complete invoicing of a sales order which has eligible commissions.</span></span>  
+2. <span data-ttu-id="61a7c-166">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="61a7c-166">Close the page.</span></span>
 
-## <a name="assign-a-commission-group-to-a-customer-and-a-product"></a>Assegnare un gruppo di provvigioni a un cliente e un prodotto
-1. Andare a Vendite e marketing > Clienti > Tutti i clienti.
-2. Nell'elenco trovare e selezionare il record desiderato.
-3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-4. Fare clic su Modifica.
-5. Espandere la sezione Impostazioni predefinite ordine cliente.
-6. Nel campo Gruppo provvigioni fare clic sul pulsante a discesa per aprire la ricerca.
-7. Nell'elenco, selezionare il gruppo creato in precedenza.
-8. Nel campo Gruppo vendite fare clic sul pulsante a discesa per aprire la ricerca.
-9. Nell'elenco trovare e selezionare il record desiderato.
-10. Fare clic su Salva.
-11. Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.
-12. Utilizzare il filtro rapido per trovare i record. Ad esempio, filtrare il campo Numero articolo con un valore 'T0020'.
-13. Nell'elenco fare clic sul collegamento nella riga selezionata.
-14. Fare clic su Modifica.
-15. Espandere la sezione Vendi.
-16. Nel campo Gruppo provvigioni fare clic sul pulsante a discesa per aprire la ricerca.
-17. Nell'elenco, selezionare il gruppo di provvigioni creato in precedenza.
+## <a name="assign-a-commission-group-to-a-customer-and-a-product"></a><span data-ttu-id="61a7c-167">Assegnare un gruppo di provvigioni a un cliente e un prodotto</span><span class="sxs-lookup"><span data-stu-id="61a7c-167">Assign a commission group to a customer and a product</span></span>
+1. <span data-ttu-id="61a7c-168">Andare a Vendite e marketing > Clienti > Tutti i clienti.</span><span class="sxs-lookup"><span data-stu-id="61a7c-168">Go to Sales and marketing > Customers > All customers.</span></span>
+2. <span data-ttu-id="61a7c-169">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="61a7c-169">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="61a7c-170">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="61a7c-170">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="61a7c-171">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="61a7c-171">Click Edit.</span></span>
+5. <span data-ttu-id="61a7c-172">Espandere la sezione Impostazioni predefinite ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="61a7c-172">Expand the Sales order defaults section.</span></span>
+6. <span data-ttu-id="61a7c-173">Nel campo Gruppo provvigioni fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="61a7c-173">In the Commission group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="61a7c-174">Nell'elenco, selezionare il gruppo creato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="61a7c-174">In the list, select the group that you created earlier.</span></span>
+8. <span data-ttu-id="61a7c-175">Nel campo Gruppo vendite fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="61a7c-175">In the Sales group field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="61a7c-176">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="61a7c-176">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="61a7c-177">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="61a7c-177">Click Save.</span></span>
+11. <span data-ttu-id="61a7c-178">Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="61a7c-178">Go to Product information management > Products > Released products.</span></span>
+12. <span data-ttu-id="61a7c-179">Utilizzare il filtro rapido per trovare i record.</span><span class="sxs-lookup"><span data-stu-id="61a7c-179">Use the Quick Filter to find records.</span></span> <span data-ttu-id="61a7c-180">Ad esempio, filtrare il campo Numero articolo con un valore 'T0020'.</span><span class="sxs-lookup"><span data-stu-id="61a7c-180">For example, filter on the Item number field with a value of 'T0020 '.</span></span>
+13. <span data-ttu-id="61a7c-181">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="61a7c-181">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="61a7c-182">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="61a7c-182">Click Edit.</span></span>
+15. <span data-ttu-id="61a7c-183">Espandere la sezione Vendi.</span><span class="sxs-lookup"><span data-stu-id="61a7c-183">Expand the Sell section.</span></span>
+16. <span data-ttu-id="61a7c-184">Nel campo Gruppo provvigioni fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="61a7c-184">In the Commission group field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="61a7c-185">Nell'elenco, selezionare il gruppo di provvigioni creato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="61a7c-185">In the list, select the commission group that you created earlier.</span></span>
 
 

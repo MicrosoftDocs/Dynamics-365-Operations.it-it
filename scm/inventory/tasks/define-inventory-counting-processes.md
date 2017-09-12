@@ -1,4 +1,4 @@
---- 
+---
 title: Definire i processi di conteggio scorte
 description: In questa procedura viene illustrata la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio.
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,72 +17,71 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 62c60faafd9ad96ce636a08102bc8652f9fff870
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="define-inventory-counting-processes"></a>Definire i processi di conteggio scorte
+# <a name="define-inventory-counting-processes"></a><span data-ttu-id="93a2f-103">Definire i processi di conteggio scorte</span><span class="sxs-lookup"><span data-stu-id="93a2f-103">Define inventory counting processes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-In questa procedura viene illustrata la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio. Viene inoltre illustrato come abilitare i criteri di conteggio a livello di articolo e di magazzino. Queste attività verranno in genere eseguite da un supervisore del magazzino. È un prerequisito per avere alcuni prodotti rilasciati e magazzini esistenti. Se si utilizza una società di dati dimostrativi, è possibile eseguire questa procedura nella società USMF con un articolo stoccato.
+<span data-ttu-id="93a2f-104">In questa procedura viene illustrata la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="93a2f-105">Viene inoltre illustrato come abilitare i criteri di conteggio a livello di articolo e di magazzino.</span><span class="sxs-lookup"><span data-stu-id="93a2f-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="93a2f-106">Queste attività verranno in genere eseguite da un supervisore del magazzino.</span><span class="sxs-lookup"><span data-stu-id="93a2f-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="93a2f-107">È un prerequisito per avere alcuni prodotti rilasciati e magazzini esistenti.</span><span class="sxs-lookup"><span data-stu-id="93a2f-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="93a2f-108">Se si utilizza una società di dati dimostrativi, è possibile eseguire questa procedura nella società USMF con un articolo stoccato.</span><span class="sxs-lookup"><span data-stu-id="93a2f-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 
 
-## <a name="create-a-counting-group"></a>Creare un gruppo di conteggio.
-1. Andare a Gestione articoli > Impostazioni > Inventario > Gruppi di conteggio.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Gruppo di conteggio.
-4. Digitare un valore nel campo Nome.
-5. Nel campo Codice di conteggio selezionare un'opzione.
-    * Manuale: vengono incluse righe ogni volta che si esegue il processo. In altri termini, consente di stabilire l'intervallo di conteggio per il gruppo di conteggio.  Periodo: vengono incluse righe per il periodo nel giornale di registrazione di conteggio alla scadenza dell'intervallo periodico.   Zero in magazzino: se le scorte disponibili raggiungono 0 (zero) vengono generate righe nel giornale di registrazione di conteggio all'avvio del processo. Se le scorte disponibili raggiungono 0 dopo un conteggio, vengono generate righe al successivo avvio del conteggio.   Minimo: vengono inserite righe nel giornale di registrazione di conteggio se le scorte disponibili sono uguali o inferiori al valore minimo specificato.  
-    * Facoltativo: se nel campo Codice di conteggio è stata specificata l'opzione Periodo, è necessario digitare la durata del periodo nel campo Periodo di conteggio. Unità di misura dell'intervallo in giorni.  
-    * Quando si esegue il processo per creare nuove righe nel giornale di registrazione di conteggio, le nuove righe vengono create nell'intervallo specificato in questo campo, indipendentemente dalla frequenza di esecuzione dello stesso processo. Ad esempio, se Periodo di conteggio è impostato su 7 e le righe del giornale di registrazione sono state per l'ultima volta generate per un conteggio il 1° gennaio, se a un altro processo viene avviato il 5 gennaio, sette giorni non sono trascorsi e quindi non viene generata alcuna riga nel giornale di registrazione per tale intervallo periodico. Se il processo viene avviato nuovamente l'8 gennaio, vengono generate righe per il periodo nel giornale di registrazione di conteggio, poiché sono trascorsi 7 giorni.  
-6. Fare clic su Salva.
+## <a name="create-a-counting-group"></a><span data-ttu-id="93a2f-109">Creare un gruppo di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-109">Create a counting group</span></span>
+1. <span data-ttu-id="93a2f-110">Andare a Gestione articoli > Impostazioni > Inventario > Gruppi di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-110">Go to Inventory management > Setup > Inventory > Counting groups.</span></span>
+2. <span data-ttu-id="93a2f-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-111">Click New.</span></span>
+3. <span data-ttu-id="93a2f-112">Digitare un valore nel campo Gruppo di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-112">In the Counting group field, type a value.</span></span>
+4. <span data-ttu-id="93a2f-113">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="93a2f-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="93a2f-114">Nel campo Codice di conteggio selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="93a2f-114">In the Counting code field, select an option.</span></span>
+    * <span data-ttu-id="93a2f-115">Manuale: vengono incluse righe ogni volta che si esegue il processo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-115">Manual – Includes lines every time you run the job.</span></span> <span data-ttu-id="93a2f-116">In altri termini, consente di stabilire l'intervallo di conteggio per il gruppo di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-116">In other words, you decide the counting interval for the counting group.</span></span>  <span data-ttu-id="93a2f-117">Periodo: vengono incluse righe per il periodo nel giornale di registrazione di conteggio alla scadenza dell'intervallo periodico.</span><span class="sxs-lookup"><span data-stu-id="93a2f-117">Period – Includes lines for the period in the counting journal when the period interval has expired.</span></span>   <span data-ttu-id="93a2f-118">Zero in magazzino: se le scorte disponibili raggiungono 0 (zero) vengono generate righe nel giornale di registrazione di conteggio all'avvio del processo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-118">Zero in stock – If on-hand inventory reaches zero (0), lines are generated in the counting journal when the job is run.</span></span> <span data-ttu-id="93a2f-119">Se le scorte disponibili raggiungono 0 dopo un conteggio, vengono generate righe al successivo avvio del conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-119">If the on-hand inventory reaches 0 after a count, lines are generated the next time that you start the count.</span></span>   <span data-ttu-id="93a2f-120">Minimo: vengono inserite righe nel giornale di registrazione di conteggio se le scorte disponibili sono uguali o inferiori al valore minimo specificato.</span><span class="sxs-lookup"><span data-stu-id="93a2f-120">Minimum – Inserts lines in the counting journal if the on-hand inventory is equal to or less than the minimum that is specified.</span></span>  
+    * <span data-ttu-id="93a2f-121">Facoltativo: se nel campo Codice di conteggio è stata specificata l'opzione Periodo, è necessario digitare la durata del periodo nel campo Periodo di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-121">Optional: If you have specified Period in the Counting code field, you must type the interval for the period in the Counting period field.</span></span> <span data-ttu-id="93a2f-122">Unità di misura dell'intervallo in giorni.</span><span class="sxs-lookup"><span data-stu-id="93a2f-122">The unit for intervals is days.</span></span>  
+    * <span data-ttu-id="93a2f-123">Quando si esegue il processo per creare nuove righe nel giornale di registrazione di conteggio, le nuove righe vengono create nell'intervallo specificato in questo campo, indipendentemente dalla frequenza di esecuzione dello stesso processo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-123">When you run the job for creating new lines in the counting journal, new lines are created at the interval specified in this field, regardless of how often you run the same job.</span></span> <span data-ttu-id="93a2f-124">Ad esempio, se Periodo di conteggio è impostato su 7 e le righe del giornale di registrazione sono state per l'ultima volta generate per un conteggio il 1° gennaio, se a un altro processo viene avviato il 5 gennaio, sette giorni non sono trascorsi e quindi non viene generata alcuna riga nel giornale di registrazione per tale intervallo periodico.</span><span class="sxs-lookup"><span data-stu-id="93a2f-124">For example, if Counting period is set to 7, and journal lines were last generated for a count on January 1, if another job is started on January 5, seven days have not passed and so no lines are generated in the journal for that period interval.</span></span> <span data-ttu-id="93a2f-125">Se il processo viene avviato nuovamente l'8 gennaio, vengono generate righe per il periodo nel giornale di registrazione di conteggio, poiché sono trascorsi 7 giorni.</span><span class="sxs-lookup"><span data-stu-id="93a2f-125">If you start the job again on January 8, lines are generated for the period in the counting journal, because 7 days have passed.</span></span>  
+6. <span data-ttu-id="93a2f-126">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="93a2f-126">Click Save.</span></span>
 
-## <a name="create-a-counting-journal-name"></a>Creare nome giornale di registrazione di conteggio
-1. Andare a Gestione articoli > Impostazioni > Nomi giornale di registrazione > Inventario.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Nome.
-4. Nel campo Descrizione digitare un valore.
-5. Selezionare "Conteggio" nel campo Tipo di giornale di registrazione.
-    * Facoltativo: è possibile selezionare un ID serie giustificativi diverso se si desidera una sequenza numerica specifica per gli ID giustificativi generati durante la creazione dei giornali di registrazione di conteggio. Le serie giustificativi vengono creati nella pagina Sequenze numeriche.  
-6. Selezionare un'opzione nel campo Livello dettagli.
-    * Si tratta del livello di dettaglio applicato quando viene registrato il giornale di registrazione.  
-    * Facoltativo: è possibile modificare il valore nel campo Prenotazione. Si tratta del metodo utilizzato per prenotare gli articoli durante il conteggio.   
-    * Manuale: gli articoli vengono prenotati manualmente nel modulo Prenotazione.   Automatico: la quantità nell'ordine viene prenotata dalle scorte disponibili di un articolo.   Esplosione: la prenotazione fa parte della pianificazione generale della transazione.  
-7. Fare clic su Salva.
+## <a name="create-a-counting-journal-name"></a><span data-ttu-id="93a2f-127">Creare nome giornale di registrazione di conteggio</span><span class="sxs-lookup"><span data-stu-id="93a2f-127">Create a counting journal name</span></span>
+1. <span data-ttu-id="93a2f-128">Andare a Gestione articoli > Impostazioni > Nomi giornale di registrazione > Inventario.</span><span class="sxs-lookup"><span data-stu-id="93a2f-128">Go to Inventory management > Setup > Journal names > Inventory.</span></span>
+2. <span data-ttu-id="93a2f-129">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-129">Click New.</span></span>
+3. <span data-ttu-id="93a2f-130">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="93a2f-130">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="93a2f-131">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="93a2f-131">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="93a2f-132">Selezionare "Conteggio" nel campo Tipo di giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="93a2f-132">In the Journal type field, select 'Counting'.</span></span>
+    * <span data-ttu-id="93a2f-133">Facoltativo: è possibile selezionare un ID serie giustificativi diverso se si desidera una sequenza numerica specifica per gli ID giustificativi generati durante la creazione dei giornali di registrazione di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-133">Optional: you can select a different voucher series ID if you want a specific number sequence for the voucher IDs generated when creating counting journals.</span></span> <span data-ttu-id="93a2f-134">Le serie giustificativi vengono creati nella pagina Sequenze numeriche.</span><span class="sxs-lookup"><span data-stu-id="93a2f-134">Voucher series are created in the Number sequences page.</span></span>  
+6. <span data-ttu-id="93a2f-135">Selezionare un'opzione nel campo Livello dettagli.</span><span class="sxs-lookup"><span data-stu-id="93a2f-135">In the Detail level field, select an option.</span></span>
+    * <span data-ttu-id="93a2f-136">Si tratta del livello di dettaglio applicato quando viene registrato il giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="93a2f-136">This is the level of detail that is applied when the journal is posted.</span></span>  
+    * <span data-ttu-id="93a2f-137">Facoltativo: è possibile modificare il valore nel campo Prenotazione.</span><span class="sxs-lookup"><span data-stu-id="93a2f-137">Optional: you can change the value in the Reservation field.</span></span> <span data-ttu-id="93a2f-138">Si tratta del metodo utilizzato per prenotare gli articoli durante il conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-138">This is the method used to reserve items during counting.</span></span>   
+    * <span data-ttu-id="93a2f-139">Manuale: gli articoli vengono prenotati manualmente nel modulo Prenotazione.</span><span class="sxs-lookup"><span data-stu-id="93a2f-139">Manual – The items are reserved manually in the Reservation form.</span></span>   <span data-ttu-id="93a2f-140">Automatico: la quantità nell'ordine viene prenotata dalle scorte disponibili di un articolo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-140">Automatic – The order quantity is reserved from the available, on-hand inventory for the item.</span></span>   <span data-ttu-id="93a2f-141">Esplosione: la prenotazione fa parte della pianificazione generale della transazione.</span><span class="sxs-lookup"><span data-stu-id="93a2f-141">Explosion – The reservation is part of the master planning of the transaction.</span></span>  
+7. <span data-ttu-id="93a2f-142">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="93a2f-142">Click Save.</span></span>
 
-## <a name="set-standard-counting-journal-name"></a>Impostare il nome del giornale di registrazione di conteggio standard
-1. Fare clic su Gestione magazzino > Impostazioni > Parametri di gestione articoli e magazzino.
-2. Fare clic sulla scheda Giornali di registrazione.
-3. Nel campo Conteggio fare clic sul pulsante a discesa per aprire la ricerca.
-4. Selezionare il tipo di giornale di registrazione creato in precedenza.
-    * Il giornale di registrazione sarà quindi il nome del giornale di registrazione predefinito per i giornali di registrazione magazzino di tipo Conteggio.  
-5. Fare clic sulla scheda Generale.
-    * Facoltativo: selezionare questa opzione per bloccare un articolo durante il processo di conteggio per evitare aggiornamenti per i documenti di trasporto, le distinte di prelievo o le registrazioni della distinta di prelievo.  
+## <a name="set-standard-counting-journal-name"></a><span data-ttu-id="93a2f-143">Impostare il nome del giornale di registrazione di conteggio standard</span><span class="sxs-lookup"><span data-stu-id="93a2f-143">Set standard counting journal name</span></span>
+1. <span data-ttu-id="93a2f-144">Fare clic su Gestione magazzino > Impostazioni > Parametri di gestione articoli e magazzino.</span><span class="sxs-lookup"><span data-stu-id="93a2f-144">Go to Inventory management > Setup > Inventory and warehouse management parameters.</span></span>
+2. <span data-ttu-id="93a2f-145">Fare clic sulla scheda Giornali di registrazione.</span><span class="sxs-lookup"><span data-stu-id="93a2f-145">Click the Journals tab.</span></span>
+3. <span data-ttu-id="93a2f-146">Nel campo Conteggio fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="93a2f-146">In the Counting field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="93a2f-147">Selezionare il tipo di giornale di registrazione creato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="93a2f-147">Select the journal you previously created.</span></span>
+    * <span data-ttu-id="93a2f-148">Il giornale di registrazione sarà quindi il nome del giornale di registrazione predefinito per i giornali di registrazione magazzino di tipo Conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-148">This journal will then be the default journal name for inventory journals of the Counting type.</span></span>  
+5. <span data-ttu-id="93a2f-149">Fare clic sulla scheda Generale.</span><span class="sxs-lookup"><span data-stu-id="93a2f-149">Click the General tab.</span></span>
+    * <span data-ttu-id="93a2f-150">Facoltativo: selezionare questa opzione per bloccare un articolo durante il processo di conteggio per evitare aggiornamenti per i documenti di trasporto, le distinte di prelievo o le registrazioni della distinta di prelievo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-150">Optional: Select this option to lock an item during the counting process to prevent updates for packing slips, picking lists, or picking list registrations.</span></span>  
 
-## <a name="set-the-counting-policy-for-an-item"></a>Impostare i criteri di conteggio per un articolo.
-1. Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.
-2. Nell'elenco, fare clic sul collegamento per il numero articolo del prodotto per cui si desidera impostare i criteri di conteggio.
-    * Si noti che è necessario selezionare un articolo di cui viene tenuta traccia come magazzino. Un prodotto non stoccato non può essere conteggiato. Se si utilizzano i dati dimostrativi USMF, è possibile selezionare l'articolo A0001.  
-3. Fare clic su Modifica.
-4. Attivare/disattivare l'espansione della sezione Gestione articoli.
-5. Nel campo Gruppo di conteggio fare clic sul pulsante a discesa per aprire la ricerca.
-6. Nell'elenco, fare clic su nel gruppo di conteggio creato in precedenza.
-    * Questo prodotto verrà ora incluso quando le righe del giornale di registrazione conteggi scorte viene creato tramite il gruppo di conteggio.  
-7. Fare clic su Salva.
+## <a name="set-the-counting-policy-for-an-item"></a><span data-ttu-id="93a2f-151">Impostare i criteri di conteggio per un articolo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-151">Set the counting policy for an item</span></span>
+1. <span data-ttu-id="93a2f-152">Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="93a2f-152">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="93a2f-153">Nell'elenco, fare clic sul collegamento per il numero articolo del prodotto per cui si desidera impostare i criteri di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-153">In the list, click on the link for the Item number of the product that you want to set counting policies on.</span></span>
+    * <span data-ttu-id="93a2f-154">Si noti che è necessario selezionare un articolo di cui viene tenuta traccia come magazzino.</span><span class="sxs-lookup"><span data-stu-id="93a2f-154">Note that you need to select an item that is inventory tracked.</span></span> <span data-ttu-id="93a2f-155">Un prodotto non stoccato non può essere conteggiato.</span><span class="sxs-lookup"><span data-stu-id="93a2f-155">A non-stocked product can't be counted.</span></span> <span data-ttu-id="93a2f-156">Se si utilizzano i dati dimostrativi USMF, è possibile selezionare l'articolo A0001.</span><span class="sxs-lookup"><span data-stu-id="93a2f-156">If you are using USMF demo data you can select item A0001.</span></span>  
+3. <span data-ttu-id="93a2f-157">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="93a2f-157">Click Edit.</span></span>
+4. <span data-ttu-id="93a2f-158">Attivare/disattivare l'espansione della sezione Gestione articoli.</span><span class="sxs-lookup"><span data-stu-id="93a2f-158">Toggle the expansion of the Manage inventory section.</span></span>
+5. <span data-ttu-id="93a2f-159">Nel campo Gruppo di conteggio fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="93a2f-159">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="93a2f-160">Nell'elenco, fare clic su nel gruppo di conteggio creato in precedenza.</span><span class="sxs-lookup"><span data-stu-id="93a2f-160">In the list, click on the counting group you previously created.</span></span>
+    * <span data-ttu-id="93a2f-161">Questo prodotto verrà ora incluso quando le righe del giornale di registrazione conteggi scorte viene creato tramite il gruppo di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-161">This product will now be included when inventory counting journal lines are created using this counting group.</span></span>  
+7. <span data-ttu-id="93a2f-162">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="93a2f-162">Click Save.</span></span>
 
-## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a>Impostare i criteri di conteggio per un articolo in un magazzino specifico
-1. Nel riquadro azioni, fare clic su Gestione articoli.
-2. Fare clic su Articoli di magazzino.
-3. Fare clic su Nuovo.
-4. Nel campo Magazzino fare clic sul pulsante a discesa per aprire la ricerca.
-5. Nell'elenco, selezionare il magazzino per cui si desidera impostare criteri di conteggio specifici.
-6. Nel campo Gruppo di conteggio fare clic sul pulsante a discesa per aprire la ricerca.
-7. Nell'elenco selezionare un gruppo di conteggio.
-    * In questo campo è possibile selezionare un gruppo di conteggio specifico da applicare all'articolo nel magazzino specifico selezionato. Quando il conteggio viene eseguito nel magazzino, questi criteri di conteggio sostituiranno i criteri di conteggio generali per l'articolo.  
-8. Fare clic su Salva.
-
+## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a><span data-ttu-id="93a2f-163">Impostare i criteri di conteggio per un articolo in un magazzino specifico</span><span class="sxs-lookup"><span data-stu-id="93a2f-163">Set the counting policy for an item in a specific warehouse</span></span>
+1. <span data-ttu-id="93a2f-164">Nel riquadro azioni, fare clic su Gestione articoli.</span><span class="sxs-lookup"><span data-stu-id="93a2f-164">On the Action Pane, click Manage inventory.</span></span>
+2. <span data-ttu-id="93a2f-165">Fare clic su Articoli di magazzino.</span><span class="sxs-lookup"><span data-stu-id="93a2f-165">Click Warehouse items.</span></span>
+3. <span data-ttu-id="93a2f-166">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-166">Click New.</span></span>
+4. <span data-ttu-id="93a2f-167">Nel campo Magazzino fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="93a2f-167">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="93a2f-168">Nell'elenco, selezionare il magazzino per cui si desidera impostare criteri di conteggio specifici.</span><span class="sxs-lookup"><span data-stu-id="93a2f-168">In the list, select the warehouse you want set up specific counting policies for.</span></span>
+6. <span data-ttu-id="93a2f-169">Nel campo Gruppo di conteggio fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="93a2f-169">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="93a2f-170">Nell'elenco selezionare un gruppo di conteggio.</span><span class="sxs-lookup"><span data-stu-id="93a2f-170">In the list, select a counting group</span></span>
+    * <span data-ttu-id="93a2f-171">In questo campo è possibile selezionare un gruppo di conteggio specifico da applicare all'articolo nel magazzino specifico selezionato.</span><span class="sxs-lookup"><span data-stu-id="93a2f-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="93a2f-172">Quando il conteggio viene eseguito nel magazzino, questi criteri di conteggio sostituiranno i criteri di conteggio generali per l'articolo.</span><span class="sxs-lookup"><span data-stu-id="93a2f-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
+8. <span data-ttu-id="93a2f-173">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="93a2f-173">Click Save.</span></span>
 

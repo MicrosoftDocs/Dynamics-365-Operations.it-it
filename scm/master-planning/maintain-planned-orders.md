@@ -20,38 +20,38 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 94f6f28ec4b255930f84a27eb5394503ff59e4c0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3ec45e7426f65827f161245870f9114e52e035ab
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="maintain-planned-orders"></a>Gestisci ordini pianificati
+# <a name="maintain-planned-orders"></a><span data-ttu-id="4bd8c-104">Gestisci ordini pianificati</span><span class="sxs-lookup"><span data-stu-id="4bd8c-104">Maintain planned orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce informazioni sulla modalità di gestione degli ordini pianificati. Viene descritto come aggiornare lo stato degli ordini pianificati, stabilizzarli e filtrare gli ordini pianificati con lo stesso stato dell'ordine pianificato selezionato.
+<span data-ttu-id="4bd8c-105">Questo articolo fornisce informazioni sulla modalità di gestione degli ordini pianificati.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-105">This article provides information about how to manage planned orders.</span></span> <span data-ttu-id="4bd8c-106">Viene descritto come aggiornare lo stato degli ordini pianificati, stabilizzarli e filtrare gli ordini pianificati con lo stesso stato dell'ordine pianificato selezionato.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-È possibile gestire gli ordini pianificati nell'area di lavoro **Pianificazione generale**, nell'elenco **Ordine pianificato** o negli elenchi **Ordini di produzione pianificati**, **Ordini fornitore pianificati** e **Trasferimento pianificato**. È possibile utilizzare il campo **Stato** per tenere facilmente traccia dell'avanzamento. Vengono utilizzati i valori seguenti:
+<span data-ttu-id="4bd8c-107">È possibile gestire gli ordini pianificati nell'area di lavoro **Pianificazione generale**, nell'elenco **Ordine pianificato** o negli elenchi **Ordini di produzione pianificati**, **Ordini fornitore pianificati** e **Trasferimento pianificato**.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="4bd8c-108">È possibile utilizzare il campo **Stato** per tenere facilmente traccia dell'avanzamento.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="4bd8c-109">Vengono utilizzati i valori seguenti:</span><span class="sxs-lookup"><span data-stu-id="4bd8c-109">The following values are used:</span></span>
 
--   Agli ordini pianificati generati mediante la pianificazione generale viene assegnato uno stato di **Inevaso**.
--   A un ordine pianificato che si sceglie di non stabilizzare è possibile assegnare uno stato di **Completato**.
--   A un ordine pianificato che si sceglie di non stabilizzare è possibile assegnare uno stato di **Approvato**. Questo stato indica che si approva la stabilizzazione dell'ordine pianificato, ma che questa operazione non è ancora stata effettuata.
+-   <span data-ttu-id="4bd8c-110">Agli ordini pianificati generati mediante la pianificazione generale viene assegnato uno stato di **Inevaso**.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="4bd8c-111">A un ordine pianificato che si sceglie di non stabilizzare è possibile assegnare uno stato di **Completato**.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="4bd8c-112">A un ordine pianificato che si sceglie di non stabilizzare è possibile assegnare uno stato di **Approvato**.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="4bd8c-113">Questo stato indica che si approva la stabilizzazione dell'ordine pianificato, ma che questa operazione non è ancora stata effettuata.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
 
-**Nota:** un ordine pianificato approvato viene trasferito con lo stato corrente al calcolo successivo della pianificazione generale. È possibile stabilizzare gli ordini pianificati facendo clic su **Stabilizza**. Di seguito sono riportati gli ordini pianificati che è possibile stabilizzare:
+<span data-ttu-id="4bd8c-114">**Nota:** un ordine pianificato approvato viene trasferito con lo stato corrente al calcolo successivo della pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="4bd8c-115">È possibile stabilizzare gli ordini pianificati facendo clic su **Stabilizza**.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="4bd8c-116">Di seguito sono riportati gli ordini pianificati che è possibile stabilizzare:</span><span class="sxs-lookup"><span data-stu-id="4bd8c-116">You can firm the following planned orders:</span></span>
 
--   L'ordine pianificato selezionato.
--   Più ordini pianificati.
--   Ordini pianificati generati da un'esplosione nella pagina **Esplosione**. Fare clic su **Ordini pianificati**, selezionare l'ordine pianificato, quindi fare clic su **Stabilizza**.
+-   <span data-ttu-id="4bd8c-117">L'ordine pianificato selezionato.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-117">The planned order that is selected.</span></span>
+-   <span data-ttu-id="4bd8c-118">Più ordini pianificati.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-118">Multiple planned orders.</span></span>
+-   <span data-ttu-id="4bd8c-119">Ordini pianificati generati da un'esplosione nella pagina **Esplosione**.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="4bd8c-120">Fare clic su **Ordini pianificati**, selezionare l'ordine pianificato, quindi fare clic su **Stabilizza**.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
 
-Quando un ordine pianificato viene stabilizzato, viene spostato nella sezione relativa agli ordini del modulo rilevante. **Nota:** è possibile fare clic con il pulsante destro del mouse su un ordine pianificato che ha uno stato particolare e filtrare altri ordini pianificati con lo stesso stato. Questa funzionalità è utile se, ad esempio, si desidera filtrare tutti gli ordini pianificati che hanno uno stato di **Approvato**, in modo da poterli stabilizzare.
+<span data-ttu-id="4bd8c-121">Quando un ordine pianificato viene stabilizzato, viene spostato nella sezione relativa agli ordini del modulo rilevante.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> <span data-ttu-id="4bd8c-122">**Nota:** è possibile fare clic con il pulsante destro del mouse su un ordine pianificato che ha uno stato particolare e filtrare altri ordini pianificati con lo stesso stato.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-122">**Note:** You can right-click a planned order that has a particular status and filter for other planned orders that have the same status.</span></span> <span data-ttu-id="4bd8c-123">Questa funzionalità è utile se, ad esempio, si desidera filtrare tutti gli ordini pianificati che hanno uno stato di **Approvato**, in modo da poterli stabilizzare.</span><span class="sxs-lookup"><span data-stu-id="4bd8c-123">This functionality is useful if, for example, you want to filter for all planned orders that have a status of **Approved**, so that you can then firm them.</span></span>
 
-<a name="see-also"></a>Vedere anche
+<a name="see-also"></a><span data-ttu-id="4bd8c-124">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="4bd8c-124">See also</span></span>
 --------
 
-[Piani generali](master-plans.md)
+[<span data-ttu-id="4bd8c-125">Piani generali</span><span class="sxs-lookup"><span data-stu-id="4bd8c-125">Master plans</span></span>](master-plans.md)
 
 
 

@@ -16,89 +16,89 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 34a6485c6f4c11d794fbdb5f4d33f22c0e577221
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
 ms.contentlocale: it-it
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-compensation-process-and-calculate-results"></a>Definire il processo retributivo e calcolare i risultati
+# <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="96dd4-103">Definire il processo retributivo e calcolare i risultati</span><span class="sxs-lookup"><span data-stu-id="96dd4-103">Define compensation process and calculate results</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-I processi di retribuzione vengono utilizzati per determinare nuovi importi e premi di retribuzione per i dipendenti iscritti ai piani di retribuzione variabile e fissa. I processi di retribuzione possono essere eseguiti più volte per eseguire l'analisi di simulazione, verificare che le modifiche e le impostazioni siano corrette. Questa procedura consente di creare un processo di retribuzione, eseguire il processo e visualizzare i risultati. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
+<span data-ttu-id="96dd4-104">I processi di retribuzione vengono utilizzati per determinare nuovi importi e premi di retribuzione per i dipendenti iscritti ai piani di retribuzione variabile e fissa.</span><span class="sxs-lookup"><span data-stu-id="96dd4-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="96dd4-105">I processi di retribuzione possono essere eseguiti più volte per eseguire l'analisi di simulazione, verificare che le modifiche e le impostazioni siano corrette.</span><span class="sxs-lookup"><span data-stu-id="96dd4-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="96dd4-106">Questa procedura consente di creare un processo di retribuzione, eseguire il processo e visualizzare i risultati.</span><span class="sxs-lookup"><span data-stu-id="96dd4-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="96dd4-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="96dd4-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-compensation-process"></a>Creare un processo retributivo
-1. Passare a Risorse umane > Compensation > Processo > Processi retributivi.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Processo.
-4. Nel campo Descrizione digitare un valore.
-5. Nel campo Tipo di processo selezionare un'opzione.
-    * Un ciclo specifica il periodo di tempo valutato per determinare la retribuzione. La valutazione considera le posizioni dei dipendenti, le valutazioni delle prestazioni da includere, il calcolo della percentuale di tempo di assunzione del dipendente durante il ciclo e altre informazioni. Un esempio di data di inizio ciclo potrebbe essere il primo giorno dell'anno fiscale precedente.  
-6. Nel campo Inizio ciclo immettere una data e un'ora.
-    * La data di fine ciclo è importante perché è la data utilizzata per determinare i dipendenti attivamente occupati e iscritti a uno o più piani di retribuzione.  
-7. Nel campo Fine ciclo immettere una data.
-    * La data di attivazione transazione è la data in cui le nuove tariffe di retribuzione devono essere rese effettive. Molte società includono dei mesi tra la fine di un ciclo e la data in cui le nuove tariffe di retribuzione vengono rese effettive. Il tempo aggiuntivo viene utilizzato per elaborare e verificare la nuova retribuzione.  
-8. Nel campo Data di attivazione transazione immettere una data.
-    * La data temporizzata viene utilizzata per i piani di retribuzione variabili che determinano l'importo del premio di un dipendente in base alla tariffa retributiva nel determinato momento.  
-    * La data di assunzione ripartizione proporzionale retribuzione fissa viene utilizzata con i piani di retribuzione fissa con la regola di assunzione Percentuale.  I dipendenti assunti tra l'inizio del ciclo e la data di assunzione ripartizione proporzionale retribuzione fissa riceveranno il 100% dell'incremento retributivo calcolato, anziché la percentuale proporzionale.  
-9. Nel campo Data di assunzione ripartizione proporzionale retribuzione fissa immettere una data.
-    * La scadenza della revisione è la data entro cui tutti i risultati del processo devono essere stati esaminati in modo da poter essere caricati in modo un record di retribuzione dipendente prima della data di attivazione della transazione. Questo campo viene visualizzato solo a scopo informativo.  
-10. Immettere una data nel campo Scadenza revisione.
-11. Fare clic su Salva.
+## <a name="create-a-compensation-process"></a><span data-ttu-id="96dd4-108">Creare un processo retributivo</span><span class="sxs-lookup"><span data-stu-id="96dd4-108">Create a compensation process</span></span>
+1. <span data-ttu-id="96dd4-109">Passare a Risorse umane > Compensation > Processo > Processi retributivi.</span><span class="sxs-lookup"><span data-stu-id="96dd4-109">Go to Human resources > Compensation > Process > Compensation processes.</span></span>
+2. <span data-ttu-id="96dd4-110">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="96dd4-110">Click New.</span></span>
+3. <span data-ttu-id="96dd4-111">Digitare un valore nel campo Processo.</span><span class="sxs-lookup"><span data-stu-id="96dd4-111">In the Process field, type a value.</span></span>
+4. <span data-ttu-id="96dd4-112">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="96dd4-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="96dd4-113">Nel campo Tipo di processo selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-113">In the Process type field, select an option.</span></span>
+    * <span data-ttu-id="96dd4-114">Un ciclo specifica il periodo di tempo valutato per determinare la retribuzione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-114">A cycle specifies the time period evaluated to determine compensation.</span></span> <span data-ttu-id="96dd4-115">La valutazione considera le posizioni dei dipendenti, le valutazioni delle prestazioni da includere, il calcolo della percentuale di tempo di assunzione del dipendente durante il ciclo e altre informazioni.</span><span class="sxs-lookup"><span data-stu-id="96dd4-115">The evaluation considers which positions were held by employees, which performance ratings to include, calculation of the percentage of time the employee was employed during the cycle, and more.</span></span> <span data-ttu-id="96dd4-116">Un esempio di data di inizio ciclo potrebbe essere il primo giorno dell'anno fiscale precedente.</span><span class="sxs-lookup"><span data-stu-id="96dd4-116">An example of a cycle start date might be the first day of the past fiscal year.</span></span>  
+6. <span data-ttu-id="96dd4-117">Nel campo Inizio ciclo immettere una data e un'ora.</span><span class="sxs-lookup"><span data-stu-id="96dd4-117">In the Cycle start field, enter a date.</span></span>
+    * <span data-ttu-id="96dd4-118">La data di fine ciclo è importante perché è la data utilizzata per determinare i dipendenti attivamente occupati e iscritti a uno o più piani di retribuzione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-118">The cycle end date is  important because it is the date used to determine which employees were actively employed and enrolled in one or more compensation plans.</span></span>  
+7. <span data-ttu-id="96dd4-119">Nel campo Fine ciclo immettere una data.</span><span class="sxs-lookup"><span data-stu-id="96dd4-119">In the Cycle end field, enter a date.</span></span>
+    * <span data-ttu-id="96dd4-120">La data di attivazione transazione è la data in cui le nuove tariffe di retribuzione devono essere rese effettive.</span><span class="sxs-lookup"><span data-stu-id="96dd4-120">The transaction active date is the date the new compensation rates should take effect.</span></span> <span data-ttu-id="96dd4-121">Molte società includono dei mesi tra la fine di un ciclo e la data in cui le nuove tariffe di retribuzione vengono rese effettive.</span><span class="sxs-lookup"><span data-stu-id="96dd4-121">Many companies include a few months between their end of a cycle and the time the new compensation rates go into effect.</span></span> <span data-ttu-id="96dd4-122">Il tempo aggiuntivo viene utilizzato per elaborare e verificare la nuova retribuzione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-122">The additional time is used for processing and reviewing the new compensation.</span></span>  
+8. <span data-ttu-id="96dd4-123">Nel campo Data di attivazione transazione immettere una data.</span><span class="sxs-lookup"><span data-stu-id="96dd4-123">In the Transaction active date field, enter a date.</span></span>
+    * <span data-ttu-id="96dd4-124">La data temporizzata viene utilizzata per i piani di retribuzione variabili che determinano l'importo del premio di un dipendente in base alla tariffa retributiva nel determinato momento.</span><span class="sxs-lookup"><span data-stu-id="96dd4-124">The point-in-time date is used for variable compensation plans that determine an employee's award amount based on their compensation rate at this point in time.</span></span>  
+    * <span data-ttu-id="96dd4-125">La data di assunzione ripartizione proporzionale retribuzione fissa viene utilizzata con i piani di retribuzione fissa con la regola di assunzione Percentuale.</span><span class="sxs-lookup"><span data-stu-id="96dd4-125">The fixed pay pro rated hire date is used with fixed compensation plans with a hire rule of Percent.</span></span>  <span data-ttu-id="96dd4-126">I dipendenti assunti tra l'inizio del ciclo e la data di assunzione ripartizione proporzionale retribuzione fissa riceveranno il 100% dell'incremento retributivo calcolato, anziché la percentuale proporzionale.</span><span class="sxs-lookup"><span data-stu-id="96dd4-126">Employees who are hired between the cycle start and the fixed pay pro rated hire date will receive 100% of their calculated compensation increase, instead of pro-rated percentage.</span></span>  
+9. <span data-ttu-id="96dd4-127">Nel campo Data di assunzione ripartizione proporzionale retribuzione fissa immettere una data.</span><span class="sxs-lookup"><span data-stu-id="96dd4-127">In the Fixed pay pro rated hire date field, enter a date.</span></span>
+    * <span data-ttu-id="96dd4-128">La scadenza della revisione è la data entro cui tutti i risultati del processo devono essere stati esaminati in modo da poter essere caricati in modo un record di retribuzione dipendente prima della data di attivazione della transazione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-128">The review deadline is the date by which all process results should be reviewed so that they can be loaded into an employee's compensation record before the transaction active date.</span></span> <span data-ttu-id="96dd4-129">Questo campo viene visualizzato solo a scopo informativo.</span><span class="sxs-lookup"><span data-stu-id="96dd4-129">This field is informational only.</span></span>  
+10. <span data-ttu-id="96dd4-130">Immettere una data nel campo Scadenza revisione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-130">In the Review deadline field, enter a date.</span></span>
+11. <span data-ttu-id="96dd4-131">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="96dd4-131">Click Save.</span></span>
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configurare i piani di retribuzione e le azioni per un processo retributivo.
-1. Fare clic su Impostazioni.
-    * La pagina Impostazione viene utilizzata per selezionare le pianificazioni da elaborare come parte del processo di retribuzione nonché le azioni che devono essere eseguite in base a ciascun piano.  
-2. Nel campo Piano immettere o selezionare un valore.
-3. Fare clic su Salva.
-4. Scegliere Aggiungi.
-5. Nel campo Azione, selezionare un tipo di azione Capitale netto.
-6. Scegliere Aggiungi.
-7. Nel campo Azione, selezionare un tipo di azione Merito.
-    * Le azioni di retribuzione possono essere concatenate tra loro utilizzando il campo Usa risultato precedente per indicare se l'azione selezionata deve utilizzare la retribuzione di base dei dipendenti o il risultato dell'azione precedente come punto di partenza per il calcolo dell'azione.  
-8. Selezionare Sì nel campo Usa risultato precedente.
-9. Scegliere Aggiungi.
-10. Nel campo Azione, selezionare un tipo di azione Generale.
-    * I diversi tipi di azione di retribuzione abilitano campi diversi. Per un tipo di azione di retribuzione generale, è possibile specificare una percentuale di incremento o un importo di incremento.  
-11. Selezionare l'opzione Seleziona importo incremento.
-12. Nel campo Importo incremento immettere un numero.
-13. Scegliere Aggiungi.
-14. Nel campo Azione, selezionare un tipo di azione Promozione.
-    * I tipi di azione Promozione e Altra modifica livello consentono agli utenti di effettuare rettifiche manuali alla retribuzione del dipendente. I suggerimenti possono essere abilitati per questi tipi di azione nonché per altri tipi di azione al fine di poter immettere un nuovo valore di retribuzione consigliato per un dipendente.  
-15. Scegliere Aggiungi.
-16. Selezionare un'opzione nel campo Tipo.
-    * I piani di retribuzione variabile e fissa possono essere eseguiti nello stesso processo di retribuzione.  
-17. Nel campo Piano immettere o selezionare un valore.
-    * Utilizzare la casella di controllo Abilita retribuzione basata sulla produttività per determinare se gli importi di retribuzione variabile e fissa devono essere rettificati in base alla valutazione delle prestazioni del dipendente.  
-    * Il fattore può essere ignorato nei piani di retribuzione variabile.  
-18. Fare clic su Salva.
-19. Scegliere Aggiungi.
-20. Chiudere la pagina.
+## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a><span data-ttu-id="96dd4-132">Configurare i piani di retribuzione e le azioni per un processo retributivo.</span><span class="sxs-lookup"><span data-stu-id="96dd4-132">Setup the compensation plans and actions for a compensation process</span></span>
+1. <span data-ttu-id="96dd4-133">Fare clic su Impostazioni.</span><span class="sxs-lookup"><span data-stu-id="96dd4-133">Click Setup.</span></span>
+    * <span data-ttu-id="96dd4-134">La pagina Impostazione viene utilizzata per selezionare le pianificazioni da elaborare come parte del processo di retribuzione nonché le azioni che devono essere eseguite in base a ciascun piano.</span><span class="sxs-lookup"><span data-stu-id="96dd4-134">The Setup page is used to select which plans to process as part of this compensation process, as well as which actions should be taken against each plan.</span></span>  
+2. <span data-ttu-id="96dd4-135">Nel campo Piano immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="96dd4-135">In the Plan field, enter or select a value.</span></span>
+3. <span data-ttu-id="96dd4-136">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="96dd4-136">Click Save.</span></span>
+4. <span data-ttu-id="96dd4-137">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="96dd4-137">Click Add.</span></span>
+5. <span data-ttu-id="96dd4-138">Nel campo Azione, selezionare un tipo di azione Capitale netto.</span><span class="sxs-lookup"><span data-stu-id="96dd4-138">In the Action field, select an Equity type of action.</span></span>
+6. <span data-ttu-id="96dd4-139">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="96dd4-139">Click Add.</span></span>
+7. <span data-ttu-id="96dd4-140">Nel campo Azione, selezionare un tipo di azione Merito.</span><span class="sxs-lookup"><span data-stu-id="96dd4-140">In the Action field, select a Merit type of action.</span></span>
+    * <span data-ttu-id="96dd4-141">Le azioni di retribuzione possono essere concatenate tra loro utilizzando il campo Usa risultato precedente per indicare se l'azione selezionata deve utilizzare la retribuzione di base dei dipendenti o il risultato dell'azione precedente come punto di partenza per il calcolo dell'azione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-141">Compensation actions can be "chained" together using the Use previous result field to indicate whether the selected action should use the employees base pay or the result of the previous action as the starting point for this action's calculation.</span></span>  
+8. <span data-ttu-id="96dd4-142">Selezionare Sì nel campo Usa risultato precedente.</span><span class="sxs-lookup"><span data-stu-id="96dd4-142">Select Yes in the Use previous result field.</span></span>
+9. <span data-ttu-id="96dd4-143">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="96dd4-143">Click Add.</span></span>
+10. <span data-ttu-id="96dd4-144">Nel campo Azione, selezionare un tipo di azione Generale.</span><span class="sxs-lookup"><span data-stu-id="96dd4-144">In the Action field, select a General type of Action.</span></span>
+    * <span data-ttu-id="96dd4-145">I diversi tipi di azione di retribuzione abilitano campi diversi.</span><span class="sxs-lookup"><span data-stu-id="96dd4-145">Different compensation action types enable different fields.</span></span> <span data-ttu-id="96dd4-146">Per un tipo di azione di retribuzione generale, è possibile specificare una percentuale di incremento o un importo di incremento.</span><span class="sxs-lookup"><span data-stu-id="96dd4-146">For a General compensation action type, an increase percent or increase amount can be specified.</span></span>  
+11. <span data-ttu-id="96dd4-147">Selezionare l'opzione Seleziona importo incremento.</span><span class="sxs-lookup"><span data-stu-id="96dd4-147">Select the Select increase amount option.</span></span>
+12. <span data-ttu-id="96dd4-148">Nel campo Importo incremento immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="96dd4-148">In the Increase amount field, enter a number.</span></span>
+13. <span data-ttu-id="96dd4-149">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="96dd4-149">Click Add.</span></span>
+14. <span data-ttu-id="96dd4-150">Nel campo Azione, selezionare un tipo di azione Promozione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-150">In the Action field, select a Promotion type of Action.</span></span>
+    * <span data-ttu-id="96dd4-151">I tipi di azione Promozione e Altra modifica livello consentono agli utenti di effettuare rettifiche manuali alla retribuzione del dipendente.</span><span class="sxs-lookup"><span data-stu-id="96dd4-151">Promotion and Other level change action types enable users to make manual adjustments to employee compensation.</span></span> <span data-ttu-id="96dd4-152">I suggerimenti possono essere abilitati per questi tipi di azione nonché per altri tipi di azione al fine di poter immettere un nuovo valore di retribuzione consigliato per un dipendente.</span><span class="sxs-lookup"><span data-stu-id="96dd4-152">Recommendations can be enabled for these action types, as well as other action types to enable you to enter a new recommended compensation value for an employee.</span></span>  
+15. <span data-ttu-id="96dd4-153">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="96dd4-153">Click Add.</span></span>
+16. <span data-ttu-id="96dd4-154">Selezionare un'opzione nel campo Tipo.</span><span class="sxs-lookup"><span data-stu-id="96dd4-154">In the Type field, select an option.</span></span>
+    * <span data-ttu-id="96dd4-155">I piani di retribuzione variabile e fissa possono essere eseguiti nello stesso processo di retribuzione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-155">Fixed and variable compensation plans can be run in the same compensation process.</span></span>  
+17. <span data-ttu-id="96dd4-156">Nel campo Piano immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="96dd4-156">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="96dd4-157">Utilizzare la casella di controllo Abilita retribuzione basata sulla produttività per determinare se gli importi di retribuzione variabile e fissa devono essere rettificati in base alla valutazione delle prestazioni del dipendente.</span><span class="sxs-lookup"><span data-stu-id="96dd4-157">Use the Enable pay for performance check box to determined whether fixed and variable compensation amounts should be adjusted based on the employee's performance rating.</span></span>  
+    * <span data-ttu-id="96dd4-158">Il fattore può essere ignorato nei piani di retribuzione variabile.</span><span class="sxs-lookup"><span data-stu-id="96dd4-158">Leverage can be overridden on variable compensation plans.</span></span>  
+18. <span data-ttu-id="96dd4-159">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="96dd4-159">Click Save.</span></span>
+19. <span data-ttu-id="96dd4-160">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="96dd4-160">Click Add.</span></span>
+20. <span data-ttu-id="96dd4-161">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="96dd4-161">Close the page.</span></span>
 
-## <a name="run-the-compensation-process"></a>Eseguire il processo retributivo
-1. Fare clic su Esegui processo.
-    * Il controllo Mostra risultati di elaborazione consente di visualizzare i messaggi di elaborazione del processo di retribuzione completo quando l'elaborazione è terminata.  
-2. Selezionare Sì nel campo Mostra risultati di elaborazione.
-3. Fare clic su OK.
+## <a name="run-the-compensation-process"></a><span data-ttu-id="96dd4-162">Eseguire il processo retributivo</span><span class="sxs-lookup"><span data-stu-id="96dd4-162">Run the compensation process</span></span>
+1. <span data-ttu-id="96dd4-163">Fare clic su Esegui processo.</span><span class="sxs-lookup"><span data-stu-id="96dd4-163">Click Run process.</span></span>
+    * <span data-ttu-id="96dd4-164">Il controllo Mostra risultati di elaborazione consente di visualizzare i messaggi di elaborazione del processo di retribuzione completo quando l'elaborazione è terminata.</span><span class="sxs-lookup"><span data-stu-id="96dd4-164">The Show processing results control lets you view processing messages for the complete compensation process when processing has finished.</span></span>  
+2. <span data-ttu-id="96dd4-165">Selezionare Sì nel campo Mostra risultati di elaborazione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-165">Select Yes in the Show processing results field.</span></span>
+3. <span data-ttu-id="96dd4-166">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="96dd4-166">Click OK.</span></span>
 
-## <a name="view-the-results"></a>Visualizzare i risultati
-1. Fare clic su Risultati processo.
-2. Fare clic su Risultati dei dipendenti.
-3. Nell'elenco trovare e selezionare il record desiderato.
-4. Espandere la sezione Retribuzione fissa.
-    * Espandere la scheda dettaglio per visualizzare i risultati del processo. Se l'opzione per abilitare i suggerimenti è stata contrassegnata per un'azione di retribuzione, i campi Suggerimento verranno abilitati per tale azione.  
-5. Nell'elenco trovare e selezionare il record desiderato.
-    * I risultati per un singolo dipendente possono essere visualizzati facendo clic sul pulsante Visualizza risultati.  
-    * È possibile sovrascrivere l'importo di retribuzione calcolato modificando la percentuale o l'importo dell'aumento nei campi Suggerimento.  
-6. Nel campo della percentuale suggerita immettere un numero.
-7. Nell'elenco trovare e selezionare il record desiderato.
-8. Nel campo della percentuale suggerita immettere un numero.
-    * Ricalcola può essere utilizzato per ignorare le modifiche apportate al record esistente e generare un nuovo risultato di retribuzione per il dipendente selezionato.  
-    * Quando tutte le modifiche sono complete per un dipendente, modificare lo stato su Approvato.  
-9. Fare clic su Cambia stato.
-10. Fare clic su Approvato.
-    * Dopo che il record è stato approvato può essere caricato nel record ufficiale di retribuzione del dipendente. La nuova retribuzione sarà valida a partire dalla data di transazione specificata nel processo di retribuzione.  
+## <a name="view-the-results"></a><span data-ttu-id="96dd4-167">Visualizzare i risultati</span><span class="sxs-lookup"><span data-stu-id="96dd4-167">View the results</span></span>
+1. <span data-ttu-id="96dd4-168">Fare clic su Risultati processo.</span><span class="sxs-lookup"><span data-stu-id="96dd4-168">Click Process results.</span></span>
+2. <span data-ttu-id="96dd4-169">Fare clic su Risultati dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="96dd4-169">Click Employee results.</span></span>
+3. <span data-ttu-id="96dd4-170">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="96dd4-170">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="96dd4-171">Espandere la sezione Retribuzione fissa.</span><span class="sxs-lookup"><span data-stu-id="96dd4-171">Expand the Fixed compensation section.</span></span>
+    * <span data-ttu-id="96dd4-172">Espandere la scheda dettaglio per visualizzare i risultati del processo.</span><span class="sxs-lookup"><span data-stu-id="96dd4-172">Expand the FastTabs to view the results of the process.</span></span> <span data-ttu-id="96dd4-173">Se l'opzione per abilitare i suggerimenti è stata contrassegnata per un'azione di retribuzione, i campi Suggerimento verranno abilitati per tale azione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-173">If Enable recommendations was marked for a compensation action, the Recommendation fields will be enabled for that action.</span></span>  
+5. <span data-ttu-id="96dd4-174">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="96dd4-174">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="96dd4-175">I risultati per un singolo dipendente possono essere visualizzati facendo clic sul pulsante Visualizza risultati.</span><span class="sxs-lookup"><span data-stu-id="96dd4-175">The results for a single employee can be viewed by clicking the View results button.</span></span>  
+    * <span data-ttu-id="96dd4-176">È possibile sovrascrivere l'importo di retribuzione calcolato modificando la percentuale o l'importo dell'aumento nei campi Suggerimento.</span><span class="sxs-lookup"><span data-stu-id="96dd4-176">You can overwrite the calculated compensation amount by adjusting the percent or the increase amount in the Recommendation fields.</span></span>  
+6. <span data-ttu-id="96dd4-177">Nel campo della percentuale suggerita immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="96dd4-177">In the percent recommended field, enter a number.</span></span>
+7. <span data-ttu-id="96dd4-178">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="96dd4-178">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="96dd4-179">Nel campo della percentuale suggerita immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="96dd4-179">In the percent recommended field, enter a number.</span></span>
+    * <span data-ttu-id="96dd4-180">Ricalcola può essere utilizzato per ignorare le modifiche apportate al record esistente e generare un nuovo risultato di retribuzione per il dipendente selezionato.</span><span class="sxs-lookup"><span data-stu-id="96dd4-180">Recalculate can be used to ignore any changes made to the existing record and generate a new compensation result for the selected employee.</span></span>  
+    * <span data-ttu-id="96dd4-181">Quando tutte le modifiche sono complete per un dipendente, modificare lo stato su Approvato.</span><span class="sxs-lookup"><span data-stu-id="96dd4-181">When all changes are complete for an employee, change the status to Approved.</span></span>  
+9. <span data-ttu-id="96dd4-182">Fare clic su Cambia stato.</span><span class="sxs-lookup"><span data-stu-id="96dd4-182">Click Change status.</span></span>
+10. <span data-ttu-id="96dd4-183">Fare clic su Approvato.</span><span class="sxs-lookup"><span data-stu-id="96dd4-183">Click Approved.</span></span>
+    * <span data-ttu-id="96dd4-184">Dopo che il record è stato approvato può essere caricato nel record ufficiale di retribuzione del dipendente.</span><span class="sxs-lookup"><span data-stu-id="96dd4-184">After the record has been approved it can be loaded to the employee's official compensation record.</span></span> <span data-ttu-id="96dd4-185">La nuova retribuzione sarà valida a partire dalla data di transazione specificata nel processo di retribuzione.</span><span class="sxs-lookup"><span data-stu-id="96dd4-185">The new compensation will be effective as of the transaction date set on the compensation process.</span></span>  
 
 

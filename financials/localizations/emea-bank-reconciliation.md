@@ -15,7 +15,7 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267994
 ms.search.region: Belgium, Norway, Sweden, Switzerland
 ms.author: v-lenest
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
@@ -25,42 +25,42 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Rendiconto bancario e riconciliazione dei pagamenti dell'UE
+# <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a><span data-ttu-id="6309f-103">Rendiconto bancario e riconciliazione dei pagamenti dell'UE</span><span class="sxs-lookup"><span data-stu-id="6309f-103">Bank statement and payment reconciliation for the EU</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene fornita una panoramica delle funzionalità che è possibile utilizzare per riconciliare le informazioni sul pagamento dalle banche dei formati utilizzati dai paesi europei.
+<span data-ttu-id="6309f-104">In questo argomento viene fornita una panoramica delle funzionalità che è possibile utilizzare per riconciliare le informazioni sul pagamento dalle banche dei formati utilizzati dai paesi europei.</span><span class="sxs-lookup"><span data-stu-id="6309f-104">This topic provides an overview of the functionality that you can use to reconcile payment information from banks in formats that are used by European countries.</span></span>
 
-In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition è possibile importare transazioni da banche e liquidare le transazioni a fronte di transazioni esistenti. In Europa, è possibile effettuare questa operazione per gli scenari seguenti:
+<span data-ttu-id="6309f-105">In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition è possibile importare transazioni da banche e liquidare le transazioni a fronte di transazioni esistenti.</span><span class="sxs-lookup"><span data-stu-id="6309f-105">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, you can import transactions from banks and settle these transactions against existing transactions.</span></span> <span data-ttu-id="6309f-106">In Europa, è possibile effettuare questa operazione per gli scenari seguenti:</span><span class="sxs-lookup"><span data-stu-id="6309f-106">In Europe, you can do this for the following scenarios:</span></span>
 
--   Importazione rendiconti bancari
--   Importazione pagamenti
--   Importazione di file di risposta
+-   <span data-ttu-id="6309f-107">Importazione rendiconti bancari</span><span class="sxs-lookup"><span data-stu-id="6309f-107">Importing bank statements</span></span>
+-   <span data-ttu-id="6309f-108">Importazione pagamenti</span><span class="sxs-lookup"><span data-stu-id="6309f-108">Importing payments</span></span>
+-   <span data-ttu-id="6309f-109">Importazione di file di risposta</span><span class="sxs-lookup"><span data-stu-id="6309f-109">Importing return files</span></span>
 
-## <a name="bank-statements"></a>Rendiconti bancari
-Un *rendiconto bancario* o *estratto conto* è un riepilogo delle transazioni finanziarie effettuate in un dato periodo su un conto bancario gestito da una società presso un istituto finanziario. In Finance and Operations è possibile importare un rendiconto bancario. È importante liquidare le transazioni importate con le transazioni esistenti nonché verificare il saldo iniziale e finale dei conti bancari. Nel seguente elenco sono riportati i formati europei supportati.
+## <a name="bank-statements"></a><span data-ttu-id="6309f-110">Rendiconti bancari</span><span class="sxs-lookup"><span data-stu-id="6309f-110">Bank statements</span></span>
+<span data-ttu-id="6309f-111">Un *rendiconto bancario* o *estratto conto* è un riepilogo delle transazioni finanziarie effettuate in un dato periodo su un conto bancario gestito da una società presso un istituto finanziario.</span><span class="sxs-lookup"><span data-stu-id="6309f-111">A *bank statement* or *account statement* is a summary of financial transactions that have occurred over a given period on a bank account held by a company with a financial institution.</span></span> <span data-ttu-id="6309f-112">In Finance and Operations è possibile importare un rendiconto bancario.</span><span class="sxs-lookup"><span data-stu-id="6309f-112">In Finance and Operations you can import a bank statement.</span></span> <span data-ttu-id="6309f-113">È importante liquidare le transazioni importate con le transazioni esistenti nonché verificare il saldo iniziale e finale dei conti bancari.</span><span class="sxs-lookup"><span data-stu-id="6309f-113">It is important to settle imported transactions with existing transactions as well as verify the opening and ending balance of the bank accounts.</span></span> <span data-ttu-id="6309f-114">Nel seguente elenco sono riportati i formati europei supportati.</span><span class="sxs-lookup"><span data-stu-id="6309f-114">The following list includes the supported European formats.</span></span>
 
--   Formati di file europei per la riconciliazione estratti conto avanzata. Per ulteriori informazioni, vedere [Panoramica sulla riconciliazione degli estratti conto avanzata](../cash-bank-management/advanced-bank-reconciliation-overview.md).
--   Formato di file del messaggio di rendiconto bancario ISO 20022 camt.053.
--   Formato di file di rendiconto bancario CODA. Per ulteriori informazioni, vedere [Rendiconto bancario CODA](emea-bel-coda-bank-statement-import.md).
+-   <span data-ttu-id="6309f-115">Formati di file europei per la riconciliazione estratti conto avanzata.</span><span class="sxs-lookup"><span data-stu-id="6309f-115">Advanced bank reconciliation European file formats.</span></span> <span data-ttu-id="6309f-116">Per ulteriori informazioni, vedere [Panoramica sulla riconciliazione degli estratti conto avanzata](../cash-bank-management/advanced-bank-reconciliation-overview.md).</span><span class="sxs-lookup"><span data-stu-id="6309f-116">For more information, see [Advanced bank reconciliation overview](../cash-bank-management/advanced-bank-reconciliation-overview.md).</span></span>
+-   <span data-ttu-id="6309f-117">Formato di file del messaggio di rendiconto bancario ISO 20022 camt.053.</span><span class="sxs-lookup"><span data-stu-id="6309f-117">ISO 20022 camt.053 bank statement message file format.</span></span>
+-   <span data-ttu-id="6309f-118">Formato di file di rendiconto bancario CODA.</span><span class="sxs-lookup"><span data-stu-id="6309f-118">CODA bank statement file format.</span></span> <span data-ttu-id="6309f-119">Per ulteriori informazioni, vedere [Rendiconto bancario CODA](emea-bel-coda-bank-statement-import.md).</span><span class="sxs-lookup"><span data-stu-id="6309f-119">For more information, see [CODA bank statement](emea-bel-coda-bank-statement-import.md).</span></span>
 
-## <a name="customer-and-vendor-payments-import-and-return-messages"></a>Messaggi di importazione e risposta di pagamenti clienti e fornitori
-Oltre a un rendiconto bancario, le banche possono generare messaggi specifici, contenenti informazioni sui pagamenti clienti/fornitori, che possono essere importati in Finance and Operations ed essere riconciliati con le transazioni dei clienti e dei fornitori. Quando una società necessita di ricevere dalla banca informazioni sulle transazioni dei pagamenti clienti in entrata, è possibile utilizzare i formati di importazione. Le società che utilizzano l'addebito diretto e il bonifico possono ricevere messaggi di risposta per aggiornare lo stato dei pagamenti precedentemente esportati. La differenza tra i formati di importazione e i formati di risposta consiste nel fatto che le risposte servono principalmente ad aggiornare le righe del giornale di registrazione pagamenti già create (possono essere create con l'addebito diretto o il bonifico) anziché crearne di nuove. Alcuni formati di importazione complessi possono includere gli scenari di risposta. Nel seguente esempio viene illustrato come implementare questa divisione.
+## <a name="customer-and-vendor-payments-import-and-return-messages"></a><span data-ttu-id="6309f-120">Messaggi di importazione e risposta di pagamenti clienti e fornitori</span><span class="sxs-lookup"><span data-stu-id="6309f-120">Customer and vendor payments import and return messages</span></span>
+<span data-ttu-id="6309f-121">Oltre a un rendiconto bancario, le banche possono generare messaggi specifici, contenenti informazioni sui pagamenti clienti/fornitori, che possono essere importati in Finance and Operations ed essere riconciliati con le transazioni dei clienti e dei fornitori.</span><span class="sxs-lookup"><span data-stu-id="6309f-121">In addition to a bank statement, banks can provide specific messages, containing information about customer and vendor payments, which can be imported into Finance and Operations and reconciled with customer and vendor transactions.</span></span> <span data-ttu-id="6309f-122">Quando una società necessita di ricevere dalla banca informazioni sulle transazioni dei pagamenti clienti in entrata, è possibile utilizzare i formati di importazione.</span><span class="sxs-lookup"><span data-stu-id="6309f-122">When a company needs to receive information about incoming customer payments transactions from the bank, the import formats can be used.</span></span> <span data-ttu-id="6309f-123">Le società che utilizzano l'addebito diretto e il bonifico possono ricevere messaggi di risposta per aggiornare lo stato dei pagamenti precedentemente esportati.</span><span class="sxs-lookup"><span data-stu-id="6309f-123">For companies that use direct debit and credit transfer, the return messages can be received to update the status of payments that were previously exported.</span></span> <span data-ttu-id="6309f-124">La differenza tra i formati di importazione e i formati di risposta consiste nel fatto che le risposte servono principalmente ad aggiornare le righe del giornale di registrazione pagamenti già create (possono essere create con l'addebito diretto o il bonifico) anziché crearne di nuove.</span><span class="sxs-lookup"><span data-stu-id="6309f-124">The difference between import formats and return formats is that returns are targeted mostly to update already created payment journal lines (they can be created when direct debit or credit transfer were initiated) instead of creating new lines.</span></span> <span data-ttu-id="6309f-125">Alcuni formati di importazione complessi possono includere gli scenari di risposta.</span><span class="sxs-lookup"><span data-stu-id="6309f-125">Some complex import formats can also include return scenarios.</span></span> <span data-ttu-id="6309f-126">Nel seguente esempio viene illustrato come implementare questa divisione.</span><span class="sxs-lookup"><span data-stu-id="6309f-126">The following example shows how this division should be implemented.</span></span>
 
-### <a name="import-formats"></a>Formato di importazione
+### <a name="import-formats"></a><span data-ttu-id="6309f-127">Formato di importazione</span><span class="sxs-lookup"><span data-stu-id="6309f-127">Import formats</span></span>
 
--   Messaggio di notifica della banca ISO 20022 [camt.054](emea-ISO20022-file-formats.md)
--   [Formato di importazione Nets](emea-nor-nets-import-format.md) - Complessa funzionalità per i formati di pagamento norvegesi
--   [Importazione pagamenti clienti ESR](emea-che-esr-customer-payments-import.md)
--   formati di importazione pagamenti per la Svezia - formati BankGirot Max e BankGirot OCR
+-   <span data-ttu-id="6309f-128">Messaggio di notifica della banca ISO 20022 [camt.054](emea-ISO20022-file-formats.md)</span><span class="sxs-lookup"><span data-stu-id="6309f-128">ISO 20022 [camt.054](emea-ISO20022-file-formats.md) bank notification message</span></span>
+-   <span data-ttu-id="6309f-129">[Formato di importazione Nets](emea-nor-nets-import-format.md) - Complessa funzionalità per i formati di pagamento norvegesi</span><span class="sxs-lookup"><span data-stu-id="6309f-129">[Nets import format](emea-nor-nets-import-format.md) - Complex feature for Norwegian payment formats</span></span>
+-   <span data-ttu-id="6309f-130">[Importazione pagamenti clienti ESR](emea-che-esr-customer-payments-import.md)</span><span class="sxs-lookup"><span data-stu-id="6309f-130">[ESR](emea-che-esr-customer-payments-import.md) customer payments import</span></span>
+-   <span data-ttu-id="6309f-131">formati di importazione pagamenti per la Svezia - formati BankGirot Max e BankGirot OCR</span><span class="sxs-lookup"><span data-stu-id="6309f-131">Import payment formats for Sweden - BankGirot Max and BankGirot OCR formats</span></span>
 
-### <a name="return-formats"></a>Formati di risposta
+### <a name="return-formats"></a><span data-ttu-id="6309f-132">Formati di risposta</span><span class="sxs-lookup"><span data-stu-id="6309f-132">Return formats</span></span>
 
--   Report sullo stato dei pagamenti ISO 20022 [pain.002](emea-ISO20022-file-formats.md)
--   (DNK) BetalingsserviceBasis-returformat - Formato di risposta per il formato di esportazione clienti Betalingsservice
--   [Formati di importazione pagamenti per la Svezia](emea-swe-payment-formats-import.md) - Risposte Bankgirot Autogiro
--   Risposta (SWE) BankGirot - Formato di risposta pagamenti fornitori che corrisponde al formato di esportazione Bankgirot
+-   <span data-ttu-id="6309f-133">Report sullo stato dei pagamenti ISO 20022 [pain.002](emea-ISO20022-file-formats.md)</span><span class="sxs-lookup"><span data-stu-id="6309f-133">ISO 20022 [pain.002](emea-ISO20022-file-formats.md) payment status report</span></span>
+-   <span data-ttu-id="6309f-134">(DNK) BetalingsserviceBasis-returformat - Formato di risposta per il formato di esportazione clienti Betalingsservice</span><span class="sxs-lookup"><span data-stu-id="6309f-134">(DNK) BetalingsserviceBasis-returformat – Return format for customer Betalingsservice export format</span></span>
+-   <span data-ttu-id="6309f-135">[Formati di importazione pagamenti per la Svezia](emea-swe-payment-formats-import.md) - Risposte Bankgirot Autogiro</span><span class="sxs-lookup"><span data-stu-id="6309f-135">[Import payment formats for Sweden](emea-swe-payment-formats-import.md) - Bankgirot Autogiro returns</span></span>
+-   <span data-ttu-id="6309f-136">Risposta (SWE) BankGirot - Formato di risposta pagamenti fornitori che corrisponde al formato di esportazione Bankgirot</span><span class="sxs-lookup"><span data-stu-id="6309f-136">(SWE) BankGirot return – Vendor payments return format, which corresponds to Bankgirot export format</span></span>
 
 
 

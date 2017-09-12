@@ -19,33 +19,33 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b530b5c8b5e252efb253dcf5b4ad080e2f646e5f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6485642d27156dfb37f9e30335369e3287f92148
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Distribuzioni contabili e sugli inserimenti nel giornale di registrazione secondario per le fatture a testo libero
+# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a><span data-ttu-id="964eb-104">Distribuzioni contabili e sugli inserimenti nel giornale di registrazione secondario per le fatture a testo libero</span><span class="sxs-lookup"><span data-stu-id="964eb-104">Accounting distributions and subledger journal entries for free text invoices</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Le distribuzioni contabili vengono utilizzate per definire il modo in cui importo verrà conteggiato, ad esempio i ricavi, le tasse o le spese vengono conteggiate in una fattura a testo libero. Ogni importo che deve essere conteggiato quando la fattura a testo libero viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili.
+<span data-ttu-id="964eb-105">Le distribuzioni contabili vengono utilizzate per definire il modo in cui importo verrà conteggiato, ad esempio i ricavi, le tasse o le spese vengono conteggiate in una fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-105">Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span> <span data-ttu-id="964eb-106">Ogni importo che deve essere conteggiato quando la fattura a testo libero viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili.</span><span class="sxs-lookup"><span data-stu-id="964eb-106">Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.</span></span>
 
-<a name="accounting-distributions"></a>Distribuzioni contabili
+<a name="accounting-distributions"></a><span data-ttu-id="964eb-107">Distribuzioni contabili</span><span class="sxs-lookup"><span data-stu-id="964eb-107">Accounting distributions</span></span>
 ------------------------
 
-È possibile utilizzare i pulsanti riportati di seguito nella pagina Fattura testo libero per visualizzare ed eventualmente modificare le distribuzioni contabili per ogni importo nella fattura testo libero.
+<span data-ttu-id="964eb-108">È possibile utilizzare i pulsanti riportati di seguito nella pagina Fattura testo libero per visualizzare ed eventualmente modificare le distribuzioni contabili per ogni importo nella fattura testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-108">You can use the following buttons in the Free text invoice page to view, and possibly change, the accounting distributions for each amount on the free text invoice.</span></span>
 
--   **Distribuisci importi**: consente di visualizzare e modificare le distribuzioni contabili per una singola riga e tutte le righe figlio, ad esempio imposte o spese. È inoltre possibile visualizzare e modificare le distribuzioni contabili per la riga figlio direttamente dalla pagina Transazioni VAT o Transazioni spese.
-    -   Modificare gli importi intestazione della fattura a testo libero, ad esempio le spese o gli importi di arrotondamento valuta.
-    -   Modificare importi riga fattura a testo libero.
--   **Visualizza distribuzioni**: visualizza le distribuzioni contabili per tutte le righe del documento. Non è possibile modificare le distribuzioni contabili da questa visualizzazione.
-    -   Visualizzare importi di riga e intestazione.
+-   <span data-ttu-id="964eb-109">**Distribuisci importi**: consente di visualizzare e modificare le distribuzioni contabili per una singola riga e tutte le righe figlio, ad esempio imposte o spese.</span><span class="sxs-lookup"><span data-stu-id="964eb-109">**Distribute amounts**—View and change the accounting distributions for an individual line and any child lines, such as taxes or charges.</span></span> <span data-ttu-id="964eb-110">È inoltre possibile visualizzare e modificare le distribuzioni contabili per la riga figlio direttamente dalla pagina Transazioni VAT o Transazioni spese.</span><span class="sxs-lookup"><span data-stu-id="964eb-110">You can also view and change the accounting distributions for the child line directly from the Sales tax transactions page or the Charges transactions page.</span></span>
+    -   <span data-ttu-id="964eb-111">Modificare gli importi intestazione della fattura a testo libero, ad esempio le spese o gli importi di arrotondamento valuta.</span><span class="sxs-lookup"><span data-stu-id="964eb-111">Change free text invoice header amounts, such as charges or currency rounding amounts.</span></span>
+    -   <span data-ttu-id="964eb-112">Modificare importi riga fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-112">Change free text invoice line amounts.</span></span>
+-   <span data-ttu-id="964eb-113">**Visualizza distribuzioni**: visualizza le distribuzioni contabili per tutte le righe del documento.</span><span class="sxs-lookup"><span data-stu-id="964eb-113">**View distributions**—View the accounting distributions for all lines on the document.</span></span> <span data-ttu-id="964eb-114">Non è possibile modificare le distribuzioni contabili da questa visualizzazione.</span><span class="sxs-lookup"><span data-stu-id="964eb-114">You can't change the accounting distributions from this view.</span></span>
+    -   <span data-ttu-id="964eb-115">Visualizzare importi di riga e intestazione.</span><span class="sxs-lookup"><span data-stu-id="964eb-115">View header and line amounts.</span></span>
 
-## <a name="distributing-amounts"></a>Distribuzione degli importi
-Quando si immette una fattura a testo libero, ogni importo viene distribuito come indicato di seguito.
+## <a name="distributing-amounts"></a><span data-ttu-id="964eb-116">Distribuzione degli importi</span><span class="sxs-lookup"><span data-stu-id="964eb-116">Distributing amounts</span></span>
+<span data-ttu-id="964eb-117">Quando si immette una fattura a testo libero, ogni importo viene distribuito come indicato di seguito.</span><span class="sxs-lookup"><span data-stu-id="964eb-117">When you enter a free text invoice, each amount will be distributed as follows.</span></span>
 
 <table>
 <colgroup>
@@ -55,86 +55,86 @@ Quando si immette una fattura a testo libero, ogni importo viene distribuito com
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo di importo monetario</th>
-<th>Determina da dove viene visualizzato il conto principale</th>
-<th>Ordine di priorità che determina la dimensione finanziaria predefinita visualizzata</th>
+<th><span data-ttu-id="964eb-118">Tipo di importo monetario</span><span class="sxs-lookup"><span data-stu-id="964eb-118">Type of monetary amount</span></span></th>
+<th><span data-ttu-id="964eb-119">Determina da dove viene visualizzato il conto principale</span><span class="sxs-lookup"><span data-stu-id="964eb-119">Where the main account is displayed from</span></span></th>
+<th><span data-ttu-id="964eb-120">Ordine di priorità che determina la dimensione finanziaria predefinita visualizzata</span><span class="sxs-lookup"><span data-stu-id="964eb-120">Order of priority that determines which default financial dimension is displayed</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Riga fattura a testo libero</td>
-<td>Conto CoGe nella riga della fattura a testo libero.</td>
+<td><span data-ttu-id="964eb-121">Riga fattura a testo libero</span><span class="sxs-lookup"><span data-stu-id="964eb-121">Free text invoice line</span></span></td>
+<td><span data-ttu-id="964eb-122">Conto CoGe nella riga della fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-122">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li>Se il conto principale è un conto di allocazione, utilizzare il valore predefinito dalla definizione del conto di allocazione.</li>
-<li>Se il conto principale non è un conto allocazione, utilizzare il modello predefinito delle dimensioni finanziarie nella riga fattura a testo libero.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</li>
+<li><span data-ttu-id="964eb-123">Se il conto principale è un conto di allocazione, utilizzare il valore predefinito dalla definizione del conto di allocazione.</span><span class="sxs-lookup"><span data-stu-id="964eb-123">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="964eb-124">Se il conto principale non è un conto allocazione, utilizzare il modello predefinito delle dimensioni finanziarie nella riga fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-124">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="964eb-125">Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-125">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="964eb-126">Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</span><span class="sxs-lookup"><span data-stu-id="964eb-126">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Riga fattura a testo libero per una combinazione di modello di valore e numero cespite
+<td><span data-ttu-id="964eb-127">Riga fattura a testo libero per una combinazione di modello di valore e numero cespite</span><span class="sxs-lookup"><span data-stu-id="964eb-127">Free text invoice line for a fixed asset number and value model combination</span></span>
 <div class="alert">
 <table>
 <thead>
 <tr class="header">
-<th><strong>Nota </strong></th>
+<th><span data-ttu-id="964eb-128"><strong>Nota </strong></span><span class="sxs-lookup"><span data-stu-id="964eb-128"><strong>Note</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Il conto principale nella riga fattura a testo libero sarà il conto di dismissione cespiti.</td>
+<td><span data-ttu-id="964eb-129">Il conto principale nella riga fattura a testo libero sarà il conto di dismissione cespiti.</span><span class="sxs-lookup"><span data-stu-id="964eb-129">The main account on the free text invoice line will be the fixed asset disposal account.</span></span></td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td>Conto CoGe nella riga della fattura a testo libero.</td>
+<td><span data-ttu-id="964eb-130">Conto CoGe nella riga della fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-130">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</li>
+<li><span data-ttu-id="964eb-131">Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-131">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="964eb-132">Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</span><span class="sxs-lookup"><span data-stu-id="964eb-132">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Importo dello sconto fattura a testo libero</td>
-<td>Il campo Conto principale per sconti cliente nella pagina Sconti di cassa.</td>
+<td><span data-ttu-id="964eb-133">Importo dello sconto fattura a testo libero</span><span class="sxs-lookup"><span data-stu-id="964eb-133">Free text invoice discount amount</span></span></td>
+<td><span data-ttu-id="964eb-134">Il campo Conto principale per sconti cliente nella pagina Sconti di cassa.</span><span class="sxs-lookup"><span data-stu-id="964eb-134">The Main account for customer discounts field in the Cash discounts page.</span></span></td>
 <td><ol>
-<li>Se il conto principale è un conto di allocazione, utilizzare il valore predefinito dalla definizione del conto di allocazione.</li>
-<li>Se il conto principale non è un conto allocazione, utilizzare il modello predefinito delle dimensioni finanziarie nella riga fattura a testo libero.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</li>
+<li><span data-ttu-id="964eb-135">Se il conto principale è un conto di allocazione, utilizzare il valore predefinito dalla definizione del conto di allocazione.</span><span class="sxs-lookup"><span data-stu-id="964eb-135">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="964eb-136">Se il conto principale non è un conto allocazione, utilizzare il modello predefinito delle dimensioni finanziarie nella riga fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-136">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="964eb-137">Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-137">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="964eb-138">Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</span><span class="sxs-lookup"><span data-stu-id="964eb-138">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Importo IVA della fattura a testo libero</td>
-<td>Il campo IVA a debito nella pagina dei gruppi di registrazione contabile.</td>
+<td><span data-ttu-id="964eb-139">Importo IVA della fattura a testo libero</span><span class="sxs-lookup"><span data-stu-id="964eb-139">Free text invoice sales tax amount</span></span></td>
+<td><span data-ttu-id="964eb-140">Il campo IVA a debito nella pagina dei gruppi di registrazione contabile.</span><span class="sxs-lookup"><span data-stu-id="964eb-140">The Sales tax payable field in the Ledger posting groups page.</span></span></td>
 <td><ol>
-<li>Utilizzare le dimensioni finanziarie definite nell'importo della riga fattura a testo libero o le distribuzioni per l'importo della riga addebito.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</li>
+<li><span data-ttu-id="964eb-141">Utilizzare le dimensioni finanziarie definite nell'importo della riga fattura a testo libero o le distribuzioni per l'importo della riga addebito.</span><span class="sxs-lookup"><span data-stu-id="964eb-141">Use the financial dimensions that are defined on the free text invoice line amount or the distributions for the charge line amount.</span></span></li>
+<li><span data-ttu-id="964eb-142">Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-142">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="964eb-143">Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</span><span class="sxs-lookup"><span data-stu-id="964eb-143">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Importo della riga addebito fattura a testo libero</td>
-<td>Il campo Conto in avere nella pagina Codice spese.</td>
+<td><span data-ttu-id="964eb-144">Importo della riga addebito fattura a testo libero</span><span class="sxs-lookup"><span data-stu-id="964eb-144">Free text invoice charge line amount</span></span></td>
+<td><span data-ttu-id="964eb-145">Il campo Conto in avere nella pagina Codice spese.</span><span class="sxs-lookup"><span data-stu-id="964eb-145">The Credit account field in the Charges code page.</span></span></td>
 <td><ol>
-<li>Se il conto principale è un conto di allocazione, utilizzare il valore predefinito dalla definizione del conto di allocazione.</li>
-<li>Se il conto principale non è un conto allocazione, utilizzare il modello predefinito delle dimensioni finanziarie nella riga fattura a testo libero.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</li>
+<li><span data-ttu-id="964eb-146">Se il conto principale è un conto di allocazione, utilizzare il valore predefinito dalla definizione del conto di allocazione.</span><span class="sxs-lookup"><span data-stu-id="964eb-146">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="964eb-147">Se il conto principale non è un conto allocazione, utilizzare il modello predefinito delle dimensioni finanziarie nella riga fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-147">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="964eb-148">Utilizzare i valori di dimensione finanziaria predefiniti nella riga fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-148">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="964eb-149">Utilizzare i valori di dimensione finanziaria predefiniti del conto CoGe nella pagina Piano dei conti.</span><span class="sxs-lookup"><span data-stu-id="964eb-149">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="distributing-taxes"></a>Distribuzione di imposte
-impossibile creare distribuzioni contabili per imposte fino a quando queste ultime non verranno calcolate. Per calcolare l'IVA, è necessario completare una delle seguenti attività nel modulo Fattura testo libero:
--   Visualizzare l'IVA.
--   Visualizzare il totale fattura.
--   Visualizzare il flusso di cassa.
--   Visualizzare le distribuzioni contabili per l'intera fattura a testo libero.
--   Visualizzare il giornale di registrazione secondario.
+## <a name="distributing-taxes"></a><span data-ttu-id="964eb-150">Distribuzione di imposte</span><span class="sxs-lookup"><span data-stu-id="964eb-150">Distributing taxes</span></span>
+<span data-ttu-id="964eb-151">impossibile creare distribuzioni contabili per imposte fino a quando queste ultime non verranno calcolate.</span><span class="sxs-lookup"><span data-stu-id="964eb-151">Accounting distributions for taxes cannot be created until taxes are calculated.</span></span> <span data-ttu-id="964eb-152">Per calcolare l'IVA, è necessario completare una delle seguenti attività nel modulo Fattura testo libero:</span><span class="sxs-lookup"><span data-stu-id="964eb-152">To calculate sales taxes, you must complete one of the following tasks in the Free text invoice form:</span></span>
+-   <span data-ttu-id="964eb-153">Visualizzare l'IVA.</span><span class="sxs-lookup"><span data-stu-id="964eb-153">View the sales tax.</span></span>
+-   <span data-ttu-id="964eb-154">Visualizzare il totale fattura.</span><span class="sxs-lookup"><span data-stu-id="964eb-154">View the invoice total.</span></span>
+-   <span data-ttu-id="964eb-155">Visualizzare il flusso di cassa.</span><span class="sxs-lookup"><span data-stu-id="964eb-155">View the cash flow.</span></span>
+-   <span data-ttu-id="964eb-156">Visualizzare le distribuzioni contabili per l'intera fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-156">View accounting distributions for the whole free text invoice.</span></span>
+-   <span data-ttu-id="964eb-157">Visualizzare il giornale di registrazione secondario.</span><span class="sxs-lookup"><span data-stu-id="964eb-157">View the subledger journal.</span></span>
 
-## <a name="subledger-journals-for-free-text-invoices"></a>Giornali di registrazione secondari per fatture a testo libero.
-Prima di registrare una fattura a testo libero, è possibile visualizzare l'intera voce contabile della fattura, che include i debiti e gli accrediti, per verificare che la fattura venga registrata nei conti corretti. Questa visualizzazione della voce contabile completa viene chiamata giornale di registrazione secondario. L'inserimento nel giornale di registrazione secondario non può essere modificato se non è corretto quando lo si visualizza in anteprima prima di inserire nel giornale di registrazione la fattura a testo libero. È invece necessario modificare le distribuzioni contabili o il profilo registrazione. Le distribuzioni contabili vengono utilizzate per definire un lato della voce contabile, dare o avere. La voce contabile giornale di registrazione secondario in contropartita viene creata dai profili registrazione, ad esempio il conto client o le imposte.
+## <a name="subledger-journals-for-free-text-invoices"></a><span data-ttu-id="964eb-158">Giornali di registrazione secondari per fatture a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-158">Subledger journals for free text invoices</span></span>
+<span data-ttu-id="964eb-159">Prima di registrare una fattura a testo libero, è possibile visualizzare l'intera voce contabile della fattura, che include i debiti e gli accrediti, per verificare che la fattura venga registrata nei conti corretti.</span><span class="sxs-lookup"><span data-stu-id="964eb-159">Before you post a free text invoice, you can view the full accounting entry of the invoice, which includes debits and credits, to verify that the invoice is being posted to the correct accounts.</span></span> <span data-ttu-id="964eb-160">Questa visualizzazione della voce contabile completa viene chiamata giornale di registrazione secondario.</span><span class="sxs-lookup"><span data-stu-id="964eb-160">This view of the full accounting entry is called a subledger journal.</span></span> <span data-ttu-id="964eb-161">L'inserimento nel giornale di registrazione secondario non può essere modificato se non è corretto quando lo si visualizza in anteprima prima di inserire nel giornale di registrazione la fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="964eb-161">If the subledger journal entry is incorrect when you preview it before you journalize the free text invoice, you can't change the subledger journal entry.</span></span> <span data-ttu-id="964eb-162">È invece necessario modificare le distribuzioni contabili o il profilo registrazione.</span><span class="sxs-lookup"><span data-stu-id="964eb-162">Instead, you must change the accounting distributions or the posting profile.</span></span> <span data-ttu-id="964eb-163">Le distribuzioni contabili vengono utilizzate per definire un lato della voce contabile, dare o avere.</span><span class="sxs-lookup"><span data-stu-id="964eb-163">The accounting distributions are used to define one side of the accounting entry, the debit or the credit.</span></span> <span data-ttu-id="964eb-164">La voce contabile giornale di registrazione secondario in contropartita viene creata dai profili registrazione, ad esempio il conto client o le imposte.</span><span class="sxs-lookup"><span data-stu-id="964eb-164">The offsetting subledger journal account entry is created from the posting profiles, such as from the customer account or the tax.</span></span>
 
 
 
