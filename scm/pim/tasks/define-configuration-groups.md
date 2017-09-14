@@ -1,7 +1,7 @@
 --- 
 title: Definire gruppi di configurazione
 description: "Questa procedura mostra come definire i gruppi di configurazione prodotto creando due gruppi nella società di dati dimostrativi USMF."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis

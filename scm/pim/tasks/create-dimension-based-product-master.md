@@ -1,7 +1,7 @@
 --- 
 title: Creare una rappresentazione generale prodotto basata su dimensioni
 description: Questa procedura mostra come creare una nuova rappresentazione generale prodotto con la tecnologia di configurazione basata su dimensioni.
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
