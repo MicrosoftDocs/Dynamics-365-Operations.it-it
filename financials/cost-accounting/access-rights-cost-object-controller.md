@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a>Diritti di accesso di un controller oggetto di costo
+# <a name="access-rights-of-a-cost-object-controller"></a>Diritti di accesso di un controller oggetto di costo
 
 [!include[banner](../includes/banner.md)]
 
