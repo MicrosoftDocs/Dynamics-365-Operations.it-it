@@ -1,7 +1,7 @@
 ---
 title: Dimensioni oggetto di costo
 description: Quando si analizzano i costi, si usano le dimensioni elemento di costo per determinare la destinazione del flusso dei costi. Le dimensioni oggetto di costo sono utilizzate per determinare dove assegnare i costi. In questo argomento vengono fornite informazioni sulle dimensioni oggetto di costo.
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: ca455665907b7896d580bfcabea87a18c1884445
+ms.sourcegitcommit: 9e13fc9fa7e51a1299ca8698f581de979b680a7b
+ms.openlocfilehash: ed6aa29234f8e9dc8dbb4835ec260adc538989d3
 ms.contentlocale: it-it
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/18/2017
 
 ---
 
