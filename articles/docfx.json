@@ -3,8 +3,10 @@
     "content": [
       {
         "files": [
+
           "**/*.md",
           "**/**.yml"
+
 
         ],
         "exclude": [
@@ -13,15 +15,18 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
+
           "ThirdPartyNotices",
           "**/_themes/**", 
           "**/_themes.pdf/**"
+
 
         ]
       }
     ],
     "resource": [
       {
+
         "files": 
         [
           "**/**.png",
@@ -39,6 +44,7 @@
     ],
     "overwrite": [],
     "externalReference": [],
+
 
     "globalMetadata": {
       "contributors_to_exclude": ["OpenLocalizationService"], 
@@ -80,4 +86,5 @@
     "dest": "d365F-O"
   }
 }
+
 
