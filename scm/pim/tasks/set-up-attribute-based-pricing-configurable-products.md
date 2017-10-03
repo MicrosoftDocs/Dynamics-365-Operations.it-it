@@ -1,0 +1,61 @@
+--- 
+title: Impostare prezzi basati su attributi per prodotti configurabili
+description: Questa procedura mostra come impostare prezzi basati su attributi.
+author: YuyuScheller
+manager: AnnBe
+ms.date: 10/12/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: bis
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 473d01ecddfd58aa72a972ee901673534c9d7c9c
+ms.contentlocale: it-it
+ms.lasthandoff: 07/27/2017
+
+---
+# <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Impostare prezzi basati su attributi per prodotti configurabili
+
+[!include[task guide banner](../../includes/task-guide-banner.md)]
+
+Questa procedura mostra come impostare prezzi basati su attributi. Come prerequisito, è necessario disporre di un modello di configurazione prodotto contenente uno o più componenti e attributi. Nell'esempio viene utilizzato il modello di prodotto High End Speaker della società di dati dimostrativi USMF. In genere, un responsabile di prodotto usa questa procedura.
+
+
+## <a name="create-a-new-price-model"></a>Creare un nuovo modello di prezzo
+1. Fare clic su Definizione modello di variante prodotto.
+2. Fare clic su Modelli di configurazione prodotto.
+3. Nell'elenco, selezionare la riga High End Speaker, ma non fare clic sul collegamento corrispondente al nome.
+4. Nel riquadro azioni, fare clic su Modello.
+5. Fare clic su Modelli di prezzo.
+6. Fare clic su Nuovo.
+7. Digitare un valore nel campo Nome modello di prezzo.
+    * Utilizzare un nome che rende il modello semplice identificare.  
+8. Nel campo Descrizione digitare un valore.
+9. Fare clic su Salva.
+
+## <a name="add-price-elements"></a>Aggiungere elementi di prezzo
+1. Fare clic su Modifica.
+    * Ciascun componente in un modello di prodotto può avere un elemento di prezzo base e un numero qualsiasi di regole di espressione del prezzo. È inoltre possibile aggiungere i prezzi in valute diverse.  
+2. Digitare un valore nel campo Espressione prezzo di base.
+    * Ad esempio, digitare 100.   Un'espressione per il prezzo di base può essere un valore numerico o può essere costituita da un calcolo aritmetico che include uno o più attributi.  
+3. Scegliere Aggiungi.
+4. Nel campo Nome digitare 'Rosewood'.
+    * Il nome dell'espressione per il prezzo aiuta a identificare cosa l'elemento di prezzo rappresenta. In questo esempio, si crea un elemento di prezzo relativo all'opzione di rivestimento in palissandro per il cabinet dell'altoparlante.  
+5. Fare clic su Modifica condizione.
+    * Uan condizione di prezzo consente di garantire che un elemento dell'espressione per il prezzo viene incluso nel prezzo di vendita solo se una combinazione specifica di attributi è presente.  
+6. Nel campo ConstraintBody, immettere 'CabinetFinish=="Rosewood"'.
+7. Fare clic su OK.
+8. Nel campo Espressione digitare un valore.
+    * Ad esempio, digitare 50.  
+9. Chiudere la pagina.
+10. Chiudere la pagina.
+
+
