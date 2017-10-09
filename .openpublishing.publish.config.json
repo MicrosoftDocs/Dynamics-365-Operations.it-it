@@ -6,7 +6,8 @@
       "build_source_folder": "articles",
       "build_output_subfolder": "d365F-O",
       "locale": "it-it",
-      "monikers": [],
+      "monikers": [ ],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -48,6 +49,10 @@
   ],
   "branch_target_mapping": {
     "live": [
+      "Publish",
+      "Pdf"
+   ],
+    "master": [
       "Publish",
       "Pdf"
     ]
