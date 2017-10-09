@@ -9,11 +9,6 @@
       "monikers": [ ],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
@@ -57,7 +52,7 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": false,
+  "need_generate_pdf_url_template": true,
   "need_generate_intellisense": false,
   "Targets": {
     "Pdf": {
