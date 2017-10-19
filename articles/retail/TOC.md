@@ -1,5 +1,8 @@
 # [Dynamics 365 for Retail](index.md)
 
+# Per iniziare
+## [Novità o modifiche](get-started/whats-new.md)
+
 # Pagamenti
 ## [Metodi di pagamento](payment-methods.md)
 ## [Impostazione, autorizzazione e acquisizione della carta di credito](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -32,7 +35,7 @@
 ## [Inizializzare i dati iniziali in un ambiente vendita al dettaglio](enable-configure-retail-functionality.md)
 ## [Definire canali di vendita al dettaglio](define-maintain-retail-channels.md)
 ## [Panoramica dei negozi online](online-stores.md)
-## [Configurare e installare una stazione hardware vendita al dettaglio](retail-hardware-station-configuration-installation.md)
+## [Configurare e installare una stazione hardware Retail](retail-hardware-station-configuration-installation.md)
 ## [Orario e presenze vendita al dettaglio](retail-time-attendance.md)
 
 # MPOS e POS cloud
@@ -173,9 +176,10 @@
 ### [Installazione e configurazione di Retail Modern POS](retail-modern-pos-device-activation.md)
 #### [Gestire i dispositivi e i conti di vendita al dettaglio dalle sedi centrali](set-up-activation-accounts-validate-devices-hq.md)
 #### [Attivazione del dispositivo Retail POS](dev-itpro/retail-device-activation.md)
-#### [Sicurezza di Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
-### [Installazione e configurazione della stazione hardware di vendita al dettaglio](retail-hardware-station-configuration-installation.md)
-### [Eventi dei componenti di vendita al dettaglio per la diagnostica e la risoluzione dei problemi](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
+#### [Sicurezza di Retail POS cloud](dev-itpro/secure-retail-cloud-pos.md)
+### [Installazione e configurazione della stazione hardware Retail](retail-hardware-station-configuration-installation.md)
+### [Distribuzione di massa dei componenti self-service Retail](dev-itpro/retail-mass-deployment.md)
+### [Eventi dei componenti Retail per la diagnostica e la risoluzione dei problemi](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Applicare un pacchetto distribuibile](../dev-itpro/deployment/apply-deployable-package-system.md)
 
 ## Aggiornamento e supporto N-1
