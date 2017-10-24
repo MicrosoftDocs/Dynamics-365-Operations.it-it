@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: it-it
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -90,7 +90,7 @@ Scegliere il pulsante **Chiudi** per chiudere la barra degli strumenti e riprist
 Con la barra degli strumenti di personalizzazione, il salvataggio è implicito. Le personalizzazioni diventano effettive immediatamente non appena apportate e non è necessario di fare clic sul pulsante **Salva**. In alcuni casi, viene visualizzata un'icona a forma di lucchetto accanto a un elemento quando si seleziona uno strumento. Ciò significa che, per il corretto funzionamento della pagina, non è possibile modificare le proprietà correlate allo strumento selezionato. Quando la barra degli strumenti di personalizzazione è aperta, la pagina diventa non-interattiva. Non è possibile immettere i dati o espandere o comprimere le sezioni.
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Personalizzazione esplicita: aggiunta di un riquadro o un elenco a un'area di lavoro
-Alcune pagine con elenchi includono una funzionalità di personalizzazione aggiuntiva disponibile all'interno del riquadro azioni, nel gruppo di personalizzare della scheda Opzioni. Selezionare **Aggiungi ad area di lavoro** per aprire l'elenco a discesa che consente di visualizzare le informazioni nell'elenco corrente (filtrato e ordinato o predefinito) in un'area di lavoro come un elenco o un riquadro riepilogativo (che possono essere utilizzati per visualizzare il numero di elementi nell'elenco). 
+Alcune pagine con elenchi includono una funzionalità di personalizzazione aggiuntiva disponibile all'interno del riquadro azioni, nel gruppo Personalizza della scheda Opzioni. Selezionare **Aggiungi ad area di lavoro** per aprire l'elenco a discesa che consente di visualizzare le informazioni nell'elenco corrente (filtrato e ordinato o predefinito) in un'area di lavoro come un elenco o un riquadro riepilogativo (che possono essere utilizzati per visualizzare il numero di elementi nell'elenco). 
 
 [![Aggiungi ad area di lavoro](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

@@ -16,13 +16,13 @@ ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a8739f426c401aacbab56179bad429a231060f57
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fade9e2acdb94daa6a908d949c578fd7ed439882
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -106,7 +106,7 @@ Nella tabella riportata di seguito viene fornita una descrizione dei controlli p
 <td>Livello dettagli</td>
 <td>Specificare il livello di dettaglio da includere nei report.
 <ul>
-<li><strong>Finanziario</strong>- Un report di riepilogo di alto livello. Non è possibile eseguire il drill-down nei conti e dimensioni, ad eccezione di quelli aggiunti tramite un albero gerarchico.</li>
+<li><strong>Riepilogo finanziario</strong>: report di riepilogo generale. Non è possibile eseguire il drill-down nei conti e dimensioni, ad eccezione di quelli aggiunti tramite un albero gerarchico.</li>
 <li><strong>Finanziario e conto</strong>- Un report contenente un riepilogo di alto livello e i dettagli del conto.</li>
 <li><strong>Finanziario, conto e transazione</strong>- Un report contenente un riepilogo di alto livello e i dettagli delle transazioni.</li>
 </ul></td>
@@ -115,14 +115,14 @@ Nella tabella riportata di seguito viene fornita una descrizione dei controlli p
 <td>Dati provvisori</td>
 <td>Specificare i tipi di attività da includere nei report.
 <ul>
-<li><strong>Solo attività registrata</strong>- include solo le transazioni e i saldi registrati nei dati finanziari.</li>
-<li><strong>Attività registrata e non registrata</strong>- include tutte le transazioni e i saldi immessi e registrati nei dati finanziari.</li>
-<li><strong>Solo attività non registrata</strong>- include solo le transazioni e i saldi immessi ma non ancora registrati nei dati finanziari.</li>
+<li><strong>Solo attività registrata</strong>: includere solo le transazioni e i saldi registrati nei dati finanziari.</li>
+<li><strong>Attività registrata e non registrata</strong>: includere tutte le transazioni e i saldi immessi e registrati nei dati finanziari.</li>
+<li><strong>Solo attività non registrata</strong>: includere solo le transazioni immesse nei dati finanziari ma non ancora registrate.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Includi tutte le valute di dichiarazione</td>
-<td>Le valute di dichiarazione aggiuntive configurate nel sistema Microsoft Dynamics ERP vengono elencate qui. Selezionare questa casella di controllo per generare report aggiuntivi nelle valute indicate. Per visualizzare questi report nel Visualizzatore Web, fare clic sul pulsante <strong>Valuta</strong> e selezionare una valuta.</td>
+<td>Le valute di dichiarazione aggiuntive configurate nel sistema Microsoft Dynamics ERP vengono elencate qui. Selezionare questa casella di controllo per generare report aggiuntivi nelle valute indicate. Per visualizzare questi report, in Visualizzatore Web fare clic sul pulsante <strong>Valuta</strong>, quindi selezionare una valuta.</td>
 </tr>
 <tr class="even">
 <td>Informazioni data non salvate con la definizione di report</td>
@@ -144,8 +144,8 @@ Solo le impostazioni del periodo di base predefinito vengono salvate con la defi
 <td>Report nel gruppo</td>
 <td>Aggiungere, rimuovere e riordinare i report nel gruppo di report.
 <ul>
-<li>Per aggiungere definizioni di report al gruppo di report, fare doppio clic sul gruppo di report per aprirlo quindi fare clic su <strong>Aggiungi</strong>. Selezionare i report da includere nel gruppo di report, quindi fare clic su <strong>OK</strong>.</li>
-<li>Per rimuovere un report dal gruppo di report, selezionarlo quindi fare clic su <strong>Rimuovi</strong>.</li>
+<li>Per aggiungere definizioni di report al gruppo di report, fare doppio clic sul gruppo di report per aprirlo, quindi fare clic su <strong>Aggiungi</strong>. Selezionare i report da includere nel gruppo di report, quindi fare clic su <strong>OK</strong>.</li>
+<li>Per rimuovere un report dal gruppo di report, selezionarlo, quindi fare clic su <strong>Rimuovi</strong>.</li>
 <li>Per modificare l'ordine in cui i report vengono generati, selezionare un report nell'elenco e quindi fare clic su <strong>Sposta su</strong> o <strong>Sposta giù</strong>.</li>
 </ul></td>
 </tr>

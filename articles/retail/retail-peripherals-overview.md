@@ -17,11 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -170,7 +170,7 @@ Modern POS utilizza le stazioni hardware di tipo **Dedicato** per verificare che
 
 Le stazioni hardware condivise sono destinate a essere utilizzate da più dispositivi POS nel corso della giornata. Le stazioni hardware condivise sono ottimizzate per supportare solo i cassetti di cassa, le stampanti di ricevute e i terminali di pagamento. Non è possibile connettere direttamente scanner di codici a barre, MSR, visualizzazioni riga, bilance o altri dispositivi autonomi. In caso contrario, conflitti accadranno quando più dispositivi POS tentano di usare le periferiche contemporaneamente. Ecco come i conflitti vengono gestiti per i dispositivi supportati:
 
--   **Il cassetto della cassa** ** il cassetto della cassa viene aperto tramite un evento che verrà inviato al dispositivo. L'unico problema che può verificarsi quando il cassetto della cassa viene chiamato avviene se il cassetto della cassa è già aperto. Nel caso di stazioni hardware condivise, il cassetto della cassa deve essere impostato su **Condiviso** nel profilo hardware. Questa impostazione impedisce al POS di controllare se il cassetto della cassa è già aperto quando invia i comandi di apertura.
+-   **Il cassetto della cassa** il cassetto della cassa viene aperto tramite un evento che verrà inviato al dispositivo. L'unico problema che può verificarsi quando il cassetto della cassa viene chiamato avviene se il cassetto della cassa è già aperto. Nel caso di stazioni hardware condivise, il cassetto della cassa deve essere impostato su **Condiviso** nel profilo hardware. Questa impostazione impedisce al POS di controllare se il cassetto della cassa è già aperto quando invia i comandi di apertura.
 -   **Stampante di ricevute**  se due controlli di stampa di ricevute vengono inviati alla stazione hardware contemporaneamente, uno dei controlli può essere perso, a seconda del dispositivo. Alcuni dispositivi hanno memoria interna o pooling che può evitare questo problema. Se un comando di stampa non ha esito positivo, il cassiere riceve un messaggio di errore e può riprovare il comando di stampa dal POS.
 -   **Terminale di pagamento** se il cassiere tenta di incassare una transazione su un terminale di pagamento già in uso, un messaggio informa il cassiere con il terminale è in uso e al cassiere viene chiesto di provare nuovamente in un secondo momento. In genere, i cassieri possono visualizzare che un terminale è già utilizzato e aspetterà fino al completamento di un'altra transazione prima di provare ancora.
 

@@ -1,7 +1,7 @@
 ---
 title: Oggetti di costo
 description: "Questo articolo fornisce le informazioni sugli oggetti di costo e illustra come i costi e le quantità sono accumulati. Un oggetto di costo è un'entità per cui costi e quantità sono accumulati. Un'entità oggetto di costo può essere un prodotto o varianti prodotto, ad esempio varianti per stile e colore."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 823d3edd106925339607d01fbf5f1921b85ff244
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 2549ace837fcdfb9f927e6b486b6a94566bcbbd2
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,8 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Questo articolo fornisce le informazioni sugli oggetti di costo e illustra come i costi e le quantità sono accumulati. Un oggetto di costo è un'entità per cui costi e quantità sono accumulati. Un'entità oggetto di costo può essere un prodotto o varianti prodotto, ad esempio varianti per stile e colore.  
 
-<a name="cost-objects"></a>Oggetti di costo
-------------
+## <a name="cost-objects"></a>Oggetti di costo
 
 Nella pagina **Oggetti di costo** sono elencati tutti gli oggetti di costo registrati in un prodotto. Gli oggetti di costo vengono definiti dai dati delle seguenti origini:
 
@@ -79,7 +78,7 @@ Nella seguente tabella vengono illustrate le definizioni di oggetto di costo e d
 
 [Gruppo di dimensioni di tracciabilità](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Novità o modifiche](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
+[Novità o modifiche](../../fin-and-ops/get-started/whats-new-changed.md)
 
 [Voci di costo](cost-entries.md)
 

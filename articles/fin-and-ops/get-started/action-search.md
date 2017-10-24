@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9b9bb0acc6f0dc1722c916f133eed766ffdd4cc8
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -62,7 +61,7 @@ Spesso, in Finance and Operations, è necessario conoscere l'ubicazione e il con
 -   Separatore di menu (se il pulsante è interno un gruppo denominato all'interno di un pulsante di menu)
 -   Gruppo o scheda nella pagina (ad esempio, il nome di una scheda dettaglio)
 
-Ad esempio, l'utente digita **tot** nel campo di **ricerca azioni** ed esamina l'elenco risultati. La prima voce, per un pulsante denominato **Totali**, viene evidenziata. Viene inoltre visualizzato un percorso di pulsante di **Ordine cliente** &gt; **Visualizza**. La parte **Ordine cliente** del percorso corrisponde alla scheda **Ordine cliente** nel riquadro azioni e la parte **Visualizza** del percorso corrisponde al gruppo **Visualizza** nella relativa scheda. Analogamente, il percorso del pulsante **Sconto totale** (**Vendi** &gt; **Calcola**) indica che questo pulsante è situato nel gruppo **Calcola** nella scheda **Vendi** del riquadro azioni. Di conseguenza, queste informazioni aiutano a comprendere esattamente quale pulsante verrà attivato dalla ricerca di azioni (se si seleziona tale pulsante nell'elenco dei risultati). 
+Ad esempio, l'utente digita **tot** nel campo di **ricerca azioni** ed esamina l'elenco risultati. La prima voce, per un pulsante denominato **Totali**, viene evidenziata. Viene inoltre visualizzato un percorso di pulsante di **Ordine cliente** &gt; **Visualizza**. La parte **Ordine cliente** del percorso corrisponde alla scheda **Ordine cliente** nel riquadro azioni e la parte **Visualizza** del percorso corrisponde al gruppo **Visualizza** in quella scheda. Analogamente, il percorso del pulsante **Sconto totale** (**Vendi** &gt; **Calcola**) indica che questo pulsante si trova nel gruppo **Calcola** nella scheda **Vendi** del riquadro azioni. Di conseguenza, queste informazioni aiutano a comprendere esattamente quale pulsante verrà attivato dalla ricerca di azioni (se si seleziona tale pulsante nell'elenco dei risultati). 
 
 [![campo-di-ricerca-azioni-con-dati](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 

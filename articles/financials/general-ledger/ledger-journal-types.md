@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f665f34055e36775c8bb41be4aae9c4577639d7
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -59,7 +58,7 @@ In questo articolo vengono descritti i tipi di giornale di registrazione che è 
 | Rimessa bancaria fornitore            | Creare un file di rimesse di effetti passivi che può essere inviato alla banca dell'organizzazione.                                                                                                                                                                                                                                                                      | Giornale di registrazione rimesse                                             |
 | Esborso fornitore               | Creare transazioni di esborso fornitore.                                                                                                                                                                                                                                                                                                                    | Giornale di registrazione pagamenti                                                |
 | Effetto passivo fornitore emesso       | Emettere effetti passivi fornitore come metodo di pagamento. Per utilizzare questo tipo di giornale di registrazione, deselezionare l'opzione **Crea e registra automaticamente il giornale emissioni durante la registrazione delle fatture** nella pagina **Metodi di pagamento - Fornitori**.                                                                                                                                          | Giornale di registrazione effetti passivi emessi                                   |
-| Pool fatture fornitore, esclusa registrazione | Creare transazioni fatture fornitore che non sono state ancora registrate in un conto arrivi temporaneo.                                                                                                                                                                                                                                                             | Pool di fatture fornitore esclusi i dettagli di registrazione                  |
+| Pool di fatture fornitore, registrazione esclusa | Creare transazioni fatture fornitore che non sono state ancora registrate in un conto arrivi temporaneo.                                                                                                                                                                                                                                                             | Pool di fatture fornitore esclusi i dettagli di registrazione                  |
 | Pool fatture fornitore               | Creare transazioni relative a pool di fatture fornitore.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Registrazione fattura fornitore          | Registrare le fatture fornitore che si trovano in un giornale di registrazione.                                                                                                                                                                                                                                                                                                                 | Giornale di registrazione fatture                                                |
 | Effetto passivo fornitore riemesso     | Riemettere un effetto passivo che è stato precedentemente onorato dalla banca dell'organizzazione.                                                                                                                                                                                                                                                                      | Giornale di registrazione effetti passivi riemessi                                 |

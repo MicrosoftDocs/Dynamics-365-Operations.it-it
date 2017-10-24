@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -133,7 +133,7 @@ Fare clic sulla freccia per un menu aggiuntivo. Selezionare **Blocca**.
 
 Sì, la maggior parte delle funzionalità standard di Excel funzionerà nei modelli del piano di budget. Si consiglia utilizzate la codifica colori per gli utenti per distinguere tra le colonne di sola lettura e modificabili. La formattazione condizionale può essere utilizzata per evidenziare le aree problematiche del budget. I totali di colonna possono essere presentati facilmente mediante formule di Excel standard sopra la tabella.
 
-È inoltre possibile creare e utilizzare tabelle pivot e i grafici per raggruppamenti e visualizzazioni ulteriori dei dati di budget. Nella scheda **Dati**, nel gruppo **Connessioni**, fare clic su **Aggiorna tutti**, quindi su **Proprietà connessione**. Fare clic sulla scheda **Uso**. In **Aggiorna**, selezionare la casella di controllo **Aggiorna dati all'apertura del file**. 
+È inoltre possibile creare e utilizzare tabelle pivot e i grafici per raggruppamenti e visualizzazioni ulteriori dei dati di budget. Nella scheda **Dati**, nel gruppo **Connessioni**, fare clic su **Aggiorna tutti**, quindi su **Proprietà connessione**. Nella scheda **Utilizzo** in **Aggiorna**, selezionare la casella di controllo **Aggiorna dati all'apertura del file**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
 

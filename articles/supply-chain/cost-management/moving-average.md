@@ -1,7 +1,7 @@
 ---
 title: Media mobile
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0018f5df3d0d2882c300b6458bfb8adfba84e2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 Di seguito sono riportati i prerequisiti di quando si utilizza il costo a media mobile come metodo di determinazione dei costi.
 1.  Nella pagina **Gruppi di modelli di articoli** impostare un gruppo di modelli di articoli con la media mobile selezionata nel campo **Modello inventariale**. **Nota**: per impostazione predefinita, quando la media mobile è selezionata, sono selezionati anche i campi **Registra inventario fisico** e **Registra inventario finanziario**. 
 
-2.  Nella pagina **Registrazione** assegnare i conti **Differenza di prezzo per media mobile** e **Rivalutazione costo per media mobile** nella scheda **Inventario**. Il conto **Differenza di prezzo per media mobile** viene utilizzato quando il costo è speso in modo proporzionale. Ciò avviene a causa di una differenza di costo tra il ricevimento dell'ordine di acquisto e l'emissione della fattura di acquisto e a causa di una differenza tra la quantità originale del magazzino e la quantità disponibile al momento. Utilizzare il conto **Rivalutazione costo per media mobile** quando si desidera rettificare il costo a media mobile per un prodotto a un nuovo prezzo unitario.
+2.  Nella pagina **Registrazione**, assegnare i conti **Differenza di prezzo per media mobile** e **Rivalutazione costo per media mobile** nella scheda **Inventario**. Il conto **Differenza di prezzo per media mobile** viene utilizzato quando il costo è speso in modo proporzionale. Ciò avviene a causa di una differenza di costo tra il ricevimento dell'ordine di acquisto e l'emissione della fattura di acquisto e a causa di una differenza tra la quantità originale del magazzino e la quantità disponibile al momento. Utilizzare il conto **Rivalutazione costo per media mobile** quando si desidera rettificare il costo a media mobile per un prodotto a un nuovo prezzo unitario.
 3.  Nel modulo **Prodotti rilasciati** assegnare il gruppo di modelli articolo con media mobile al prodotto. **Nota**: il processo di chiusura dell'inventario chiude solo il periodo di conteggio. Non influisce sui prodotti che hanno una media mobile assegnata loro come gruppo di modelli articolo.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Conversione al metodo di determinazione dei costi a media mobile

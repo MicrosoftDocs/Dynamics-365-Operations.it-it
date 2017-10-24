@@ -16,13 +16,13 @@ ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 75d176623b4fdf2198440becd0345628f873f6da
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e43b9397dd4e362eff9d78f302732e6bcc53d1db
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -74,7 +74,7 @@ Se si seleziona **Semestrale** nel campo **Frequenza periodo**, vengono impostat
 | 30 giugno     | (11.000 – 1.000) × 10% = 1.000 |
 | 31 dicembre | (11.000 – 1.000) × 50% = 5.000 |
 
-Non è necessario che il totale delle percentuali per tutti gli intervalli ammonti a 100. Tuttavia, verrà visualizzato un messaggio se il valore nel campo **Percentuale cumulativa*** della pagina **Programmi profili di ammortamento cespiti** non è **100**.
+Non è necessario che il totale delle percentuali per tutti gli intervalli ammonti a 100. Tuttavia, verrà visualizzato un messaggio se il valore nel campo **Percentuale cumulativa** della pagina **Programmi profili di ammortamento cespiti** non è **100**.
 
 
 

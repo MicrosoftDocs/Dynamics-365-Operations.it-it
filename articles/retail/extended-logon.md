@@ -18,11 +18,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 0b7e5ed451497aea1c2ce798af2b717705538d47
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e29aea4509dd323c295b02f289fbcfa46fab3392
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,7 +57,7 @@ Se l'opzione **L'accesso personale con badge richiede la password** è attivata,
 <a name="assigning-an-extended-logon"></a>Assegnazione di un accesso esteso
 ===========================
 
-Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per assegnare l'accesso esteso, passare a ** **Accesso esteso** ** nel POS. Quindi cercare un lavoratore immettendo il relativo ID operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK** diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
+Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per assegnare l'accesso esteso, passare a **Accesso esteso** nel POS. Quindi cercare un lavoratore immettendo il relativo ID operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK** diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
 
 <a name="deleting-an-extended-logon"></a>Eliminazione di un accesso esteso
 ==========================

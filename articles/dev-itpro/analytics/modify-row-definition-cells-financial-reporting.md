@@ -16,13 +16,13 @@ ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb09c0bb28c2ba8e7b890854c444cec80fe8277c
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,11 +35,11 @@ In questo articolo vengono descritte le informazioni necessarie per ogni cella i
 
 # <a name="specify-a-row-code-in-a-row-definition"></a>Specificare un codice di riga in una definizione riga
 
-Nelle definizioni riga, i numeri o le etichette nella cella **Codice riga** identificano ogni riga nella definizione. È possibile specificare il codice di riga per fare riferimento ai dati nei calcoli e nei totali.
+Nelle definizioni riga, i numeri o le etichette nella cella **Codice riga** identificano ogni riga nella definizione. È possibile specificare il codice di riga per fare riferimento ai dati nei calcoli e nella determinazione dei totali.
 
-### <a name="row-code-requirements"></a>Richieste codici di riga
+### <a name="row-code-requirements"></a>Requisiti dei codici di riga
 
-Un codice di riga è necessario per tutte le righe. È possibile combinare codici di riga numerici, alfanumerici e non impostati (vuoti) in una definizione riga. Il codice di riga può essere qualsiasi numero intero positivo (inferiore a 100.000.000) o un'etichetta descrittiva che identifica la riga. Un'etichetta descrittiva deve seguire queste regole:
+È obbligatorio indicare un codice per tutte le righe. È possibile combinare codici di riga numerici, alfanumerici e non impostati (vuoti) in una definizione riga. Il codice di riga può essere qualsiasi numero intero positivo (inferiore a 100.000.000) o un'etichetta descrittiva che identifica la riga. Un'etichetta descrittiva deve seguire queste regole:
 
 -   L'etichetta deve iniziare con un carattere alfabetico (a-z o A-Z) e può essere una qualsiasi combinazione di numeri e lettere fino a 16 caratteri. 
     > [!NOTE]
@@ -68,7 +68,7 @@ Gli esempi seguenti sono validi codici di riga:
 ## <a name="add-a-description"></a>Aggiungere una descrizione
 La cella di descrizione fornisce una descrizione dei dati finanziari nella riga del report, ad esempio "Ricavi" o "Reddito netto". Il testo nella cella **Descrizione** viene visualizzato nel report esattamente come lo si immette nella definizione di riga. 
 > [!NOTE]
-> La larghezza della colonna di descrizione del report è impostata nella definizione di colonna. Se il testo nella colonna **Descrizione** della definizione di riga è lungo, verificare la larghezza della colonna **DESC**. Quando si utilizza la finestra di dialogo **Inserisci righe da**, i valori nella colonna **Descrizione** sono i valori del segmento o i valori della dimensione dei dati finanziari. È possibile inserire le righe per aggiungere il testo descrittivo, ad esempio un'intestazione di sezione o un totale di sezione e per aggiungere la formattazione, ad esempio una riga prima della riga del totale. Se il report include un albero gerarchico, è possibile includere il testo aggiuntivo definito per le unità gerarchiche nell'albero gerarchico. È inoltre possibile limitare il testo aggiuntivo a un'unità gerarchica specifica.
+> La larghezza della colonna di descrizione del report è impostata nella definizione di colonna. Se il testo nella colonna **Descrizione** della definizione di riga è lungo, verificare la larghezza della colonna **DESC**. Quando si utilizza la finestra di dialogo **Inserisci righe da**, i valori nella colonna **Descrizione** sono i valori del segmento o i valori della dimensione dei dati finanziari. È possibile inserire righe per aggiungere testo descrittivo, ad esempio un'intestazione o un totale di sezione, e per aggiungere la formattazione, ad esempio una riga prima di una riga del totale. Se il report include un albero gerarchico, è possibile includere il testo aggiuntivo definito per le unità gerarchiche nell'albero gerarchico. È inoltre possibile limitare il testo aggiuntivo a un'unità gerarchica specifica.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Aggiungere la descrizione per una riga di un report
 
@@ -112,12 +112,12 @@ La cella **Codice formato** offre una selezione di opzioni preformattate per il 
     | ---                           | Sottolineatura singola                   | Inserisce una singola riga sotto tutte le colonne di importo nel report.                                                                                                                                                     |
     | ===                           | Sottolineatura doppia                   | Inserisce una doppia riga sotto tutte le colonne di importo nel report.                                                                                                                                                     |
     | LINE1                         | Linea sottile                          | Disegna una singola linea sottile sulla pagina.                                                                                                                                                                      |
-    | LINE2                         | Linea spessa                         | Disegna una singola linea spessa sulla pagina.                                                                                                                                                                     |
+    | LINE2                         | Linea spessa                         | Disegna orizzontalmente una linea spessa singola nella pagina.                                                                                                                                                                     |
     | LINE3                         | Linea punteggiata                        | Disegna una singola linea punteggiata sulla pagina.                                                                                                                                                                    |
     | LINE4                         | Linea spessa e linea sottile           | Disegna una doppia linea sottile sulla pagina. La linea superiore è spessa e la linea inferiore è sottile.                                                                                                                       |
     | LINE5                         | Linea sottile e linea spessa           | Disegna una doppia linea sottile sulla pagina. La linea superiore è sottile e la linea inferiore è spessa.                                                                                                                       |
     | BXB BXC                       | Riga con riquadri                          | Disegna una casella intorno alle righe di report che iniziano con la riga **BXB** e terminano con la riga **BXC**.                                                                                                               |
-    | REM                           | Commento                             | Identifica una riga di commento che quindi non deve essere stampata nel report. Ad esempio, una riga di commento potrebbe includere le informazioni tecniche di formattazione.                                                            |
+    | REM                           | Commento                             | Identifica una riga che corrisponde a una riga di commento che non deve essere stampata nel report. In una riga di commento, ad esempio, potrebbero essere spiegate le tecniche di formattazione utilizzate.                                                            |
     | SORT ASORT SORTDESC ASORTDESC | Ordina                               | Ordina le spese o i ricavi, ordina un report di scostamento budget o effettivo per lo scostamento massimo o ordina le descrizioni di riga in ordine alfabetico.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Specificare unità/righe/formule correlate
@@ -133,7 +133,7 @@ La cella **Unità/Righe/Formule correlate** ha più scopi. A seconda del tipo di
 
 Utilizzare una formula di totale di riga per aggiungere o sottrarre importi in altre righe. Una formula per creare un totale di riga può includere gli operatori + e - per combinare singoli codici e intervalli di riga. Gli intervalli sono indicati dai due punti (:). La formula può contenere 1024 caratteri al massimo. Di seguito è riportato un esempio di formula standard di totale: 400+420+430+450+460LIABILITIES+EQUITY520:546520:546-LIABILITIES
 
-### <a name="components-of-a-row-total-formula"></a>Componenti di una formula totale di riga
+### <a name="components-of-a-row-total-formula"></a>Componenti di una formula di totale di riga
 
 Quando si crea una formula di totale di riga, è necessario utilizzare i codici di riga per specificare le righe per aggiungere o sottrarre la definizione di riga corrente e utilizzare gli operatori per specificare come le righe vengono combinate. Le righe di totale e di importo possono essere utilizzate in qualsiasi combinazione. **Nota:** tutte le righe di totale comprese in un intervallo vengono escluse. Per creare un totale complessivo, è possibile specificare l'intervallo di righe. Se la prima riga dell'intervallo è una riga di totale, tale riga viene inclusa nel nuovo totale. Nella seguente tabella viene descritto come gli operatori vengono utilizzati nelle formule di totale di riga.
 
@@ -143,9 +143,9 @@ Quando si crea una formula di totale di riga, è necessario utilizzare i codici 
 | :        | 100:330         | Aggiunge i totali di tutte le righe comprese tra la riga 100 e la riga 330.    |
 | -        | 100-330         | Sottrae l'importo della riga 100 dall'importo della riga 330. |
 
-### <a name="create-a-row-total"></a>Creare una totale di riga
+### <a name="create-a-row-total"></a>Creare un totale di riga
 
-1.  In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+1.  In Progettazione report fare clic su **Definizioni di riga**, quindi aprire la definizione di riga che si intende modificare.
 2.  Fare doppio clic sulla cella **Codice formato** nella definizione di riga e selezionare **TOT**.
 3.  Nella cella **Unità/Righe/Formule correlate**, immettere la formula del totale.
 
@@ -177,7 +177,7 @@ Una o più righe di base sono definite nella definizione di riga e quindi la def
 -   Le righe **CBR** non vengono stampate nel report finale.
 -   Il codice formato **CBR** e il relativo codice di riga sono posizionati sopra la riga o la selezione che visualizza i calcoli correlati.
 
-In una definizione di colonna, il tipo di colonna **CALC** indica una colonna che specifica una formula nella riga **Formula**. La formula viene eseguita sui dati per la colonna del report e utilizza la parola chiave Baserow per i calcoli di base dei codici formato **CBR** nella riga. Nella definizione di riga, il codice formato **CBR** definisce la riga di base per le colonne che calcolano una percentuale o moltiplicano per la riga di base ogni riga del report. È possibile avere più codici formato **CBR** in un formato di riga, ad esempio uno per le vendite nette, uno per le vendite lorde e uno per le spese totali. In genere, il codice formato **CBR** viene utilizzato per creare una percentuale dei conti confrontati con una riga di totale. Una riga di base viene utilizzata per tutti i calcoli finché non viene definita un'altra riga di base. È necessario definire un codice formato **CBR** di inizio e un codice formato **CBR** di fine. Ad esempio, per determinare le spese come percentuale delle vendite nette, è possibile dividere il valore di ciascuna riga di spesa per il valore della riga di vendite nette. In questo caso, la riga di vendite nette è la riga di base. È possibile definire una definizione di colonna che indica i risultati correnti e da inizio anno, insieme a una percentuale di base di ogni risultato, come illustrato nell'esempio di seguito. Iniziare con un conto economico dettagliato.
+In una definizione di colonna il tipo di colonna **CALC** indica una colonna che specifica una formula nella riga **Formula**. La formula viene eseguita sui dati per la colonna del report e utilizza la parola chiave Baserow per i calcoli di base dei codici formato **CBR** nella riga. Nella definizione di riga, il codice formato **CBR** definisce la riga di base per le colonne che calcolano una percentuale o moltiplicano per la riga di base ogni riga del report. È possibile avere più codici formato **CBR** in un formato di riga, ad esempio uno per le vendite nette, uno per le vendite lorde e uno per le spese totali. In genere, il codice formato **CBR** viene utilizzato per creare una percentuale dei conti confrontati con una riga di totale. Una riga di base viene utilizzata per tutti i calcoli finché non viene definita un'altra riga di base. È necessario definire un codice formato **CBR** di inizio e un codice formato **CBR** di fine. Ad esempio, per determinare le spese come percentuale delle vendite nette, è possibile dividere il valore di ciascuna riga di spesa per il valore della riga di vendite nette. In questo caso, la riga di vendite nette è la riga di base. È possibile definire una definizione di colonna che indica i risultati correnti e da inizio anno, insieme a una percentuale di base di ogni risultato, come illustrato nell'esempio di seguito. Iniziare con un conto economico dettagliato.
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Selezionare la riga di base in una definizione di riga per il calcolo di una colonna
 
@@ -197,7 +197,7 @@ In una definizione di colonna, il tipo di colonna **CALC** indica una colonna ch
 Nel seguente esempio di definizione di riga, la riga 100 indica che la riga di base per i calcoli è la riga 280. [![Esempio di calcolo della riga di base.](./media/cbrrowdefinition.png)](./media/cbrrowdefinition.png) Nel seguente esempio di definizione di colonna, i calcoli utilizzano il codice formato **CBR**. Il calcolo della colonna C divide il valore della colonna B del report per il valore della riga 280 della colonna B. La sostituzione del formato nella colonna B stampa il risultato del calcolo come percentuale. In modo analogo, ogni importo nella colonna E è l'importo della colonna D come percentuale di vendite nette. [![Esempio di definizione di colonna.](./media/cbrcolumndefinition2.png)](./media/cbrcolumndefinition2.png) Il seguente esempio mostra un report che può essere generato in base a calcoli precedenti. [![Esempio di report in base a calcoli di esempio precedenti.](./media/cbrreport-1024x272.png)](./media/cbrreport.png)
 
 ## <a name="select-a-sorting-code-for-a-row-definition"></a>Selezionare un codice di ordinamento per una definizione di riga
-I codici di ordinamento ordinano conti o valori, ordinano un report di scostamento budget o effettivo per lo scostamento massimo o ordinano le descrizioni di riga in ordine alfabetico. Sono disponibili i seguenti codici di ordinamento:
+I codici di ordinamento ordinano conti o valori, ordinano un report di scostamento budget o effettivo per lo scostamento massimo o ordinano le descrizioni di riga in ordine alfabetico. Sono disponibili i codici di ordinamento seguenti:
 
 -   **SORT** Ordina il report in ordine crescente, in base ai valori della colonna specificata.
 -   **ASORT** Ordina il report in ordine crescente, in base al valore assoluto dei valori della colonna specificata. In altre parole, il segno di ciascun valore viene ignorato quando i valori vengono ordinati. Il codice di formato ordina sequenzialmente i valori in base alla grandezza dello scostamento, indipendentemente dal fatto che lo scostamento sia positivo o negativo.
@@ -222,9 +222,9 @@ Nel seguente esempio, i valori nella colonna D del report verranno elencati in o
 | 100      | Ordinato per scostamento mensile in ordine crescente       | DES         |                             |                |                    |                              |
 | 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
 | 160      | Vendite                                               |             |                             | C              |                    | 4100                         |
-| 190      | Resi su vendite                                       |             |                             |                |                    | 4110                         |
+| 190      | Resi vendite                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Reddito interessi                                     |             |                             | C              |                    | 7000                         |
+| 490      | Interessi attivi                                     |             |                             | C              |                    | 7000                         |
 | 520      |                                                     | DES         |                             |                |                    |                              |
 | 550      | Ordinato per scostamento assoluto da inizio anno in ordine decrescente | DES         |                             |                |                    |                              |
 | 580      |                                                     | ASORTDESC   | 610:940                     |                | G                  |                              |
@@ -270,9 +270,9 @@ La cella **Sostituzione formato** specifica la formattazione utilizzata per la r
 
 ### <a name="currency-formatting"></a>Formattazione di valuta
 
-La formattazione di valuta si applica a un importo fiscale e include il simbolo della valuta. Sono disponibili le seguenti opzioni:
+La formattazione di valuta si applica a un importo fiscale e include il simbolo della valuta. Sono disponibili le opzioni seguenti:
 
--   **Simbolo della valuta** – Il simbolo della valuta per il report. Questo valore sostituisce l'impostazione **Opzioni internazionali** delle informazioni di società.
+-   **Simbolo di valuta** - Il simbolo di valuta per il report. Questo valore sostituisce l'impostazione **Opzioni internazionali** delle informazioni di società.
 -   **Numeri negativi** I numeri negativi possono avere un segno meno (-), possono essere racchiusi tra parentesi oppure possono avere un triangolo (∆).
 -   **Posizioni decimali** – Il numero di cifre da visualizzare dopo la virgola decimale.
 -   **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
@@ -303,7 +303,7 @@ La formattazione percentuale include il segno di percentuale (%). Sono disponibi
 
 Utilizzare la categoria di formattazione personalizzata per creare una sostituzione di formato personalizzata. Sono disponibili le seguenti opzioni:
 
--   **Tipo** – Il formato personalizzato.
+-   **Tipo** - Formato personalizzato.
 -   **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
     > [!NOTE]
     >  Se la stampa è eliminata per i valori zero o nessuna attività del periodo, il testo viene eliminato.
@@ -365,7 +365,7 @@ Quando si seleziona un conto specifico, Progettazione report in genere combina i
 > [!NOTE]
 > La restrizione del codice registro per una riga sostituisce le restrizioni del codice registro nella definizione di colonna per la riga.
 
-### <a name="account-and-transaction-attributes"></a>Attributi di transazione e conto
+### <a name="account-and-transaction-attributes"></a>Attributi di conto e di transazione
 
 Alcuni sistemi di contabilità supportano gli attributi di conto e gli attributi di transazione nei dati finanziari. Questi attributi vengono eseguiti come segmenti di conti virtuali e possono riportare ulteriori informazioni sul conto o sulla transazione. Queste informazioni aggiuntive possono essere ID conto, ID batch, codici postali o altri attributi. Se il sistema contabile supporta gli attributi, è possibile utilizzare gli attributi di conto o gli attributi di transazione come modificatori riga nella definizione di riga. Per informazioni su come sostituire le informazioni di riga, vedere la sezione "Sostituire una definizione colonna" in precedenza in questo articolo.
 
@@ -384,8 +384,8 @@ La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai da
 ### <a name="specify-a-dimension-or-range"></a>Specificare una dimensione o un intervallo
 
 1.  In Progettazione report, aprire la definizione di riga da modificare.
-2.  Fare doppio clic su una cella della colonna **Collegamento a dimensioni finanziarie**.
-3.  Nella finestra di dialogo **Dimensioni**, fare doppio clic su una cella sotto il nome della dimensione.
+2.  Fare doppio clic su una cella della colonna **Collegamento a Dimensioni finanziarie**.
+3.  Nella finestra di dialogo **Dimensioni** fare doppio clic su una cella in corrispondenza del nome della dimensione.
 4.  Nella finestra di dialogo per la dimensione, selezionare **Singolo o intervallo**.
 5.  Nel campo **Da**, immettere la dimensione iniziale o fare clic su ![Sfoglia](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Sfoglia") per cercare le dimensioni disponibili. Per immettere un intervallo di dimensioni, immettere la dimensione finale nel campo **A**.
 6.  Fare clic su **OK** per chiudere la finestra di dialogo per la dimensione. Nella finestra di dialogo **Dimensioni** è visualizzata la dimensione o l'intervallo aggiornato.
@@ -464,7 +464,7 @@ Nella seguente tabella sono descritti i campi della finestra di dialogo **Dimens
 | Conti di totalizzazione   | Nel campo **Nome**, immettere o selezionare una dimensione dei conti di totalizzazione. Il campo **Formula** viene popolato automaticamente con la formula della cella **Collegamento a dimensioni finanziarie** per il conto di totalizzazione nella definizione di report.                                                                       |
 
 ## <a name="add-dimension-value-sets-in-a-row-definition"></a>Aggiungere set di valori di dimensione in una definizione di riga
-Un set di valori di dimensione è un gruppo denominato di valori di dimensione. Un set di valori di dimensione può contenere i valori in una sola dimensione, ma è possibile utilizzare un set di valori di dimensione in più definizioni di riga, definizioni di colonna, definizioni di albero gerarchico e definizioni di report. È inoltre possibile combinare set di valori di dimensione in una definizione di report. Quando una modifica ai dati finanziari richiede di modificare il set di valori di dimensione, è possibile aggiornare la definizione del set di valori di dimensione e l'aggiornamento si applica a tutte le aree che utilizzano il set di valori di dimensione. Ad esempio, se in genere si indica un intervallo di valori per il collegamento ai dati finanziari, ad esempio i valori compresi tra 5100 e 5600, è possibile assegnare questo intervallo a un set di conti denominato Sales. Dopo aver creato un set di valori di dimensione, è possibile selezionare il set come collegamento ai dati finanziari. Ad esempio, se l'intervallo di valori da 5100 a 5600 viene assegnato alle Sales e 4175 è assegnato a Discounts, è possibile determinare le vendite totali sottraendo gli sconti dalle vendite. Questa operazione è visualizzata come **(5100:5600)-4175**.
+Un set di valori di dimensione è un gruppo denominato di valori di dimensione. Un set di valori di dimensione può contenere i valori in una sola dimensione, ma è possibile utilizzare un set di valori di dimensione in più definizioni di riga, definizioni di colonna, definizioni di albero gerarchico e definizioni di report. È inoltre possibile combinare set di valori di dimensione in una definizione di report. Quando una modifica ai dati finanziari richiede di modificare il set di valori di dimensione, è possibile aggiornare la definizione del set di valori di dimensione e l'aggiornamento si applica a tutte le aree che utilizzano il set di valori di dimensione. Ad esempio, se in genere si indica un intervallo di valori per il collegamento ai dati finanziari, ad esempio i valori compresi tra 5100 e 5600, è possibile assegnare questo intervallo a un set di conti denominato Sales. Dopo la creazione di un set di valori di dimensione è possibile selezionarlo come collegamento ai dati finanziari. In un altro esempio, se si dispone di un intervallo di valori da 5100 a 5600 assegnato a Vendite e 4175 è assegnato a Sconti, è possibile determinare le vendite totali sottraendo Sconti da Vendite. Questa operazione è visualizzata come **(5100:5600)-4175**.
 
 ### <a name="create-a-set-of-dimension-values"></a>Creare un set di valori di dimensione
 
@@ -476,11 +476,11 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 6.  Nella finestra di dialogo **Conto**, selezionare il nome del conto nell'elenco o individuare la voce nel campo **Cerca**. Fare clic su **OK**.
 7.  Ripetere i passaggi da 5 a 6 nella colonna **A** per progettare una formula per tale operatore.
 8.  Quando la formula viene completata, fare clic su **OK**.
-9.  Nella finestra di dialogo **Gestire set di dimensioni**, fare clic su **Chiudi**.
+9.  Nella finestra di dialogo **Gestisci set di dimensioni** fare clic su **Chiudi**.
 
 ### <a name="update-a-set-of-dimension-values"></a>Aggiornare un set di valori di dimensione
 
-1.  In Progettazione report, aprire la definizione di riga, colonna o albero da modificare.
+1.  In Progettazione report aprire la definizione di riga, di colonna o di albero gerarchico da modificare.
 2.  Nel menu **Modifica**, fare clic su **Gestire set di valori di dimensione**.
 3.  Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, selezionare il tipo di dimensione.
 4.  Nell'elenco, selezionare il set di valori di dimensione da aggiornare e quindi fare clic su **Modifica**.
@@ -500,7 +500,7 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 
 ### <a name="delete-a-dimension-set"></a>Eliminare un set di dimensioni
 
-1.  In Progettazione report, aprire la definizione di riga, colonna o albero da modificare.
+1.  In Progettazione report aprire la definizione di riga, di colonna o di albero gerarchico da modificare.
 2.  Nel menu **Modifica**, fare clic su **Gestire set di valori di dimensione**.
 3.  Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, selezionare il tipo di dimensione.
 4.  Selezionare il set da eliminare e fare clic su **Elimina**. Fare clic su **Sì** per eliminare definitivamente il set di valori di dimensione.

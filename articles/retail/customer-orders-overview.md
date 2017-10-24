@@ -18,13 +18,11 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 89e79c7227e05eec539d9bb142b8f41de092f01b
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: f68f9dce544256a2b1a9927f019a676a6845f46d
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
-
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -46,7 +44,7 @@ I rivenditori utilizzano gli ordini cliente anche per ridurre al minimo le vendi
 ## <a name="set-up-customer-orders"></a>Impostare gli ordini cliente
 Di seguito sono riportati alcuni dei parametri che è possibile impostare nella pagina **Parametri di vendita al dettaglio** per definire la modalità di evasione degli ordini cliente:
 
--   **Percentuale di deposito predefinita** - consente di specificare l'importo che il cliente deve pagare come deposito prima che un ordine possa essere confermato. L'importo del deposito predefinito viene calcolato come percentuale del valore dell'ordine. A seconda dei privilegi, un associato del punto vendita può ignorare l'importo utilizzando ***Sostituzione deposito**.
+-   **Percentuale di deposito predefinita** - consente di specificare l'importo che il cliente deve pagare come deposito prima che un ordine possa essere confermato. L'importo del deposito predefinito viene calcolato come percentuale del valore dell'ordine. A seconda dei privilegi, un associato del punto vendita può ignorare l'importo utilizzando **Sostituzione deposito**.
 -   **Percentuale spese di annullamento** - se un addebito verrà applicato quando un ordine cliente viene annullato, specificare l'importo dell'addebito.
 -   **Codice spese di annullamento** - se un addebito verrà applicato quando un ordine cliente viene annullato, l'addebito verrà visualizzato con un codice spese nell'ordine cliente. Utilizzare questo parametro per definire il codice spese di annullamento.
 -   **Codice spese di spedizione** - rivenditori possono addebitare una commissione supplementare per la spedizione della merce a un cliente. L'importo delle spese di spedizione verrà visualizzato con un codice spese nell'ordine cliente. Utilizzare questo parametro per mappare il codice spese di spedizione alle spese di spedizione nell'ordine cliente.

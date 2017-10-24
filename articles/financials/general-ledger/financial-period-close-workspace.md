@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +41,7 @@ L'area di lavoro **Chiusura periodo finanziario** consente di tenere traccia dei
 
 ### <a name="summary-tiles"></a>Sezioni Riepilogo
 
-Le sezioni **Riepilogo** forniscono una panoramica del processo e alcuni indicatori consentono di tenere traccia del processo di chiusura. È possibile visualizzare le attività che sono scadute e le rimanenti per la data odierna, le attività in scadenza oggi ma bloccate a causa delle dipendenze e tutte le attività rimanenti per il processo. Questa informazione viene utilizzata per tutte le società incluse nella programmazione chiusura selezionata.
+Le sezioni **Riepilogo** forniscono una panoramica del processo e alcuni indicatori consentono di tenere traccia del processo di chiusura. È possibile visualizzare le attività scadute, quelle rimanenti per la data odierna, quelle in scadenza in data odierna ma bloccate a causa di dipendenze, nonché tutte le attività rimanenti per il processo. Queste informazioni sono valide per tutte le società incluse nella programmazione di chiusura selezionata. Questa informazione viene utilizzata per tutte le società incluse nella programmazione chiusura selezionata.
 
 ### <a name="tasks-and-status-section"></a>Sezione Attività e stati
 
@@ -82,7 +81,7 @@ Le aree di attività si utilizzano per raggruppare attività di chiusura in aree
 
 ### <a name="calendars"></a>Calendari
 
-Consente di creare e modificare i calendari finanziari di chiusura utilizzando la scheda Calendari.  Questa impostazione consente di definire i giorni lavorativi per i processi di chiusura e verrà utilizzata per la programmazione delle attività di chiusura.  Creare un nuovo calendario e specificare i giorni lavorativi da utilizzare per la programmazione delle attività.  È preferibile creare un calendario del lungo termine, ad esempio un anno o più anni, poiché può essere modificato dopo la creazione.  Dopo avere creato il calendario, fare clic sul pulsante Modifica per aggiornare il calendario per giorni specifici, ad esempio festività.  Le attività di chiusura verranno programmate i giorni in cui il valore Controllo è impostato su Aperto.  Se le attività non devono essere programmate in un giorno specifico, tale giorno deve avere il valore Controllo impostato su Chiuso.
+Creare e modificare i calendari di chiusura finanziaria utilizzando la scheda Calendari. Questa scheda consente di definire i giorni lavorativi per i processi di chiusura e verrà utilizzata per la programmazione delle attività di chiusura.  Creare un nuovo calendario e specificare i giorni lavorativi da utilizzare per la programmazione delle attività.  È preferibile creare un calendario del lungo termine, ad esempio un anno o più anni, poiché può essere modificato dopo la creazione.  Dopo avere creato il calendario, fare clic sul pulsante Modifica per aggiornare il calendario per giorni specifici, ad esempio festività.  Le attività di chiusura verranno programmate i giorni in cui il valore Controllo è impostato su Aperto.  Se le attività non devono essere programmate in un giorno specifico, tale giorno deve avere il valore Controllo impostato su Chiuso.
 
 ### <a name="templates"></a>Modelli
 
@@ -90,7 +89,7 @@ Consente di creare e modificare i calendari finanziari di chiusura utilizzando l
 
 È possibile assegnare un'attività nel modello a una o più società in cui tale attività è applicabile. Se una persona diversa viene assegnata per completare tale impegno lavorativo in ciascuna società, potrebbe essere utile creare più attività per lo stesso impegno lavorativo. Creare un'attività per ciascuna società. 
 
-La voce di menu ****Collegamento attività**** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di chiusura per eseguire il processo di rivalutazione valuta per Contabilità fornitori può essere collegata alla pagina ****Rivalutazione valuta estera**** associata in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. È inoltre possibile effettuare il collegamento a un URL esterno. 
+La voce di menu **Collegamento attività** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di chiusura per eseguire il processo di rivalutazione valuta per Contabilità fornitori può essere collegata alla pagina **Rivalutazione valuta estera** associata in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. È inoltre possibile effettuare il collegamento a un URL esterno. 
 
 > [Suggerimento]: se si desidera collegare un report di Management Reporter specifico a un'attività di chiusura periodo finanziario, è possibile utilizzare l'URL del report. Per accedere all'URL del report, aprire il report nella funzionalità di progettazione dei report, quindi fare clic su **File** &gt; **Visualizza report** per aprire il report in un Web browser. È quindi possibile copiare l'URL nella barra degli indirizzi del browser e incollarlo nel campo **Collegamento attività** **URL**. 
 
@@ -100,7 +99,7 @@ La voce di menu ****Collegamento attività**** è associata all'impegno lavorati
 
 ### <a name="closing-schedules"></a>Programmazioni chiusura
 
-Utilizzare una programmazione chiusura per assegnare un modello di chiusura finanziaria a un periodo finanziario specifico che deve essere chiuso. Le attività dal modello verranno quindi generate automaticamente per il periodo specificato e la nuova programmazione chiusura verrà aggiunta all'area di lavoro. Quando si crea una nuova programmazione chiusura, il campo ***Data di fine periodo** consente di determinare le date di scadenza effettive per le attività di chiusura, in base alla data di scadenza correlata assegnata nel modello di chiusura finanziaria. 
+Utilizzare una programmazione chiusura per assegnare un modello di chiusura finanziaria a un periodo finanziario specifico che deve essere chiuso. Le attività dal modello verranno quindi generate automaticamente per il periodo specificato e la nuova programmazione chiusura verrà aggiunta all'area di lavoro. Quando si crea una nuova programmazione chiusura, il campo **Data di fine periodo** consente di determinare le date di scadenza effettive per le attività di chiusura, in base alla data di scadenza correlata assegnata nel modello di chiusura finanziaria. 
 
 Assegnare il calendario appropriato per la programmazione di chiusura, per indicare i giorni lavorativi da utilizzare nella programmazione delle attività. Se non si definisce un calendario specifico, le date di scadenza attività utilizzeranno tutti i giorni della settimana. 
 

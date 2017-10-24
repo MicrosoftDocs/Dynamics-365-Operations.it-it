@@ -16,13 +16,13 @@ ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 331f3480b8454dac7da12be169ba017f36cefa06
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4708ff4427fe507fee7e1ce1ca226289ddf648cc
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,13 +33,13 @@ ms.lasthandoff: 05/25/2017
 
 In questo articolo vengono fornite informazioni sulle definizioni di albero gerarchico. Una definizione di albero gerarchico è un componente di report, o blocco predefinito, che consente di definire la struttura e la gerarchia dell'organizzazione.
 
-I report finanziari supportano il reporting flessibile in modo da facilitare le modifiche quando la struttura aziendale cambia. I report si basano su vari componenti o blocchi predefiniti. Uno di questi blocchi predefiniti è la definizione di albero gerarchico. Una definizione di albero gerarchico consente di definire la struttura e la gerarchia dell'organizzazione. Si tratta di una struttura gerarchica interdimensionale basata sulle relazioni dimensionali nei dati finanziari. Fornisce informazioni a livello di unità gerarchica e a livello di riepilogo per tutte le unità dell'albero. Le definizioni di albero gerarchico possono combinarsi con le definizioni di colonna e le definizioni di report per creare un gruppo di blocchi predefiniti che può essere utilizzato da più società. Un'unità gerarchica viene utilizzata per ogni riquadro in un organigramma. Un'unità gerarchica può essere un solo reparto dai dati finanziari, oppure può essere un'unità di riepilogo di livello superiore che riunisce le informazioni da altre unità gerarchiche. Per una definizione di report che include un albero gerarchico, viene generato un report per ogni unità gerarchica e per il livello di riepilogo. Tutti questi report utilizzano le definizioni di riga e di colonna specificate nella definizione di report, a meno che la definizione di report specifichi di utilizzare l'albero gerarchico dalla definizione di riga. La definizioni di riga e colonna sono componenti importanti nella progettazione e la funzionalità dei report finanziari. Gli alberi gerarchici aumentano la potenza dei componenti e supportano il reporting flessibile quando la struttura aziendale cambia. I report finanziari che non sono basati su un albero gerarchico usano solo alcune funzionalità dei report finanziari. È possibile utilizzare più definizioni di albero gerarchico insieme nelle stesse definizioni di riga e di colonna per visualizzare i dati dell'organizzazione in vari modi.
+I report finanziari supportano il reporting flessibile in modo da facilitare le modifiche quando la struttura aziendale cambia. I report si basano su vari componenti o blocchi predefiniti. Uno di questi blocchi predefiniti è la definizione di albero gerarchico. Una definizione di albero gerarchico consente di definire la struttura e la gerarchia dell'organizzazione. Si tratta di una struttura gerarchica interdimensionale basata sulle relazioni dimensionali nei dati finanziari. Fornisce informazioni a livello di unità gerarchica e a livello di riepilogo per tutte le unità dell'albero. Le definizioni di albero gerarchico possono combinarsi con le definizioni di colonna e le definizioni di report per creare un gruppo di blocchi predefiniti che può essere utilizzato da più società. Un'unità gerarchica viene utilizzata per ogni riquadro in un organigramma. che può essere un singolo reparto relativo ai dati finanziari oppure un'unità di riepilogo di livello superiore che combina le informazioni di altre unità gerarchiche. Per una definizione di report che include un albero gerarchico, viene generato un report per ogni unità gerarchica e per il livello di riepilogo. Tutti questi report utilizzano le definizioni di riga e di colonna specificate nella definizione di report, a meno che la definizione di report specifichi di utilizzare l'albero gerarchico dalla definizione di riga. La definizioni di riga e colonna sono componenti importanti nella progettazione e la funzionalità dei report finanziari. Gli alberi gerarchici aumentano la potenza dei componenti e supportano il reporting flessibile quando la struttura aziendale cambia. I report finanziari che non sono basati su un albero gerarchico usano solo alcune funzionalità dei report finanziari. È possibile utilizzare più definizioni di albero gerarchico insieme nelle stesse definizioni di riga e di colonna per visualizzare i dati dell'organizzazione in vari modi.
 
 ## <a name="reporting-tree-best-practices"></a>Procedure consigliate per l'albero gerarchico
 Prima di creare un albero gerarchico, considerare le seguenti procedure consigliate:
 
 -   Prima determinare quali dimensioni di reporting sono richieste dalla persona giuridica o la società.
--   Considerare come è stata impostata la struttura e quindi tracciare un organigramma della società. L'organigramma aiuterà a visualizzare come raggruppare le unità gerarchiche in uno o più alberi gerarchici.
+-   Considerare come è stata impostata la struttura e quindi tracciare un organigramma della società. Con l'organigramma sarà più facile immaginare come raggruppare le unità gerarchiche in uno o più alberi gerarchici.
 -   Iniziare con il livello più basso disponibile di dettagli, ad esempio reparti e progetti definiti nei dati finanziari. Aggiungere al livello di dettaglio tutti i riquadri necessari per mostrare divisioni o aree di livello superiore. Ogni riquadro rappresenta un'unità gerarchica potenziale in qualsiasi albero gerarchico creato.
 -   È inoltre necessario considerare la migliore modalità di generare gli alberi. È possibile utilizzare un processo di sviluppo automatizzato per creare un albero gerarchico, oppure crearlo manualmente. È importante comprendere entrambi i metodi prima di progettare gli alberi.
 -   È possibile utilizzare le unità gerarchiche definite nel sistema di dati finanziari per aggiungere unità gerarchiche alla definizione dell'albero gerarchico.
@@ -52,13 +52,13 @@ Una definizione di albero gerarchico contiene le colonne descritte nella seguent
 
 | Colonna dell'albero gerarchico | descrizione|
 |---|---|
-| Società               | Nome della società dell'unità gerarchica. Il valore **@ANY** normalmente assegnato solo al livello di riepilogo, abilita l'uso dell'albero gerarchico per tutte le società. Tutti i rami figlio hanno una società assegnata.|
+| Società               | Nome della società dell'unità gerarchica. Il valore **@ANY** normalmente assegnato solo al livello di riepilogo, abilita l'uso dell'albero gerarchico per tutte le società. A tutti i rami figlio deve essere assegnata una società.|
 | Nome unità             | Il codice che identifica l'unità gerarchica nell'albero gerarchico grafico. Assicurarsi di definire un sistema di codifica univoco che sia coerente e facile da comprendere per gli utenti. |
 | Descrizione unità      | Il titolo dell'unità gerarchica viene visualizzato nell'intestazione o nel piè di pagina del report se si immette **UnitDesc** come codice nella scheda **Intestazioni e piè di pagina** della definizione di report. Il titolo viene visualizzato nella descrizione della riga del report se si immette **UnitDesc** nella cella **Descrizione** della definizione di riga.|
 | Dimensioni            | Un'unità gerarchica che attinge le informazioni direttamente dai dati finanziari. Definisce il posizionamento logico e le lunghezze per il conto e i segmenti correlati. Ogni riga di unità gerarchica deve avere una dimensione in questa colonna. È anche possibile inserire una dimensione in una riga di unità di riepilogo (ad esempio, per le spese che sono direttamente correlate a tale unità). Se si immette una dimensione in una riga di unità di riepilogo, i conti utilizzati nelle unità padre non devono essere utilizzati in unità figlio. In caso contrario, gli importi potrebbero essere duplicati.|
-| Definizioni di riga       | Il nome della definizione di riga per l'unità gerarchica. La stessa definizione di riga viene utilizzata per ogni unità dell'albero gerarchico. Quando si genera un report, viene utilizzata questa definizione di riga per ogni unità gerarchica. La definizione di riga può includere più collegamenti di dimensioni finanziarie. Se viene specificata una definizione di riga nell'albero gerarchico, selezionare la casella di controllo **Usa definizione di riga da albero gerarchico** nella scheda **Report** della definizione del report.|
-| Collegamento riga              | Il collegamento di riga da utilizzare per l'unità gerarchica. I collegamenti riga vengono definiti perché la definizione di riga identifichi le dimensioni finanziarie a cui collegarsi.|
-| Collegamento esterno         | Il collegamento di riga da utilizzare per questa unità gerarchica. Collegamenti riga vengono definiti perché la definizione di riga identifichi il report a cui collegarsi.|
+| Definizioni di riga       | Il nome della definizione di riga per l'unità gerarchica. Per tutte le unità dell'albero gerarchico viene utilizzata la stessa definizione di riga. Quando si genera un report, viene utilizzata questa definizione di riga per ogni unità gerarchica. La definizione di riga può includere più collegamenti di dimensioni finanziarie. Se viene specificata una definizione di riga nell'albero gerarchico, selezionare la casella di controllo **Usa definizione di riga da albero gerarchico** nella scheda **Report** della definizione del report.|
+| Collegamento riga              | Collegamento di riga da utilizzare per l'unità gerarchica. I collegamenti di riga vengono definiti affinché la definizione di riga identifichi le dimensioni finanziarie a cui effettuare il collegamento.|
+| Collegamento esterno         | Collegamento di riga da utilizzare per l'unità gerarchica. Collegamenti riga vengono definiti perché la definizione di riga identifichi il report a cui collegarsi.|
 | File esterno         | Percorso del file del foglio di lavoro del report finanziario da cui estrarre i dati.|
 | Opzioni pagina          | Questa colonna controlla se i dettagli per l'unità gerarchica vengono eliminati quando il report viene visualizzato o stampato.|
 | % rollup              | La percentuale dell'unità gerarchica da allocare alla unità padre. La percentuale immessa nella colonna viene applicata a ogni riga della definizione di riga prima che il valore nella riga venga aggiunto al report padre. Ad esempio, se un'unità figlio deve essere divisa equamente tra due reparti, gli importi in ogni riga verranno moltiplicati per 50 percento prima di aggiungere il valore al report del reparto. Un'unità gerarchica non può avere due unità padre. Per allocare gli importi da un'unità gerarchica a due unità padre, creare un'altra unità gerarchica con la stessa dimensione per eseguire il rollup del 50 percento aggiuntivo. Immettere percentuali intere senza separatore decimale. Ad esempio, **25** rappresenta l'allocazione del 25% al padre. Se si include un separatore decimale (**25**), 0,25% viene allocato all'elemento padre. Per utilizzare una percentuale minore di 1%, utilizzare l'opzione **Consenti rollup &lt;1%** nella definizione di report. Questa opzione è nella scheda **Opzioni aggiuntive** nella finestra di dialogo **Impostazioni del report**. Accedere alla finestra di dialogo dal pulsante **Altro** nella scheda **Impostazioni** della definizione di report. |
@@ -138,8 +138,8 @@ Una voce di testo aggiuntivo è una stringa di testo statica lunga fino a 255 ca
 
 ### <a name="remove-additional-text-from-a-reporting-unit"></a>Rimuovere il testo aggiuntivo da un'unità gerarchica
 
-1.  In Progettazione report, aprire l'albero gerarchico da modificare.
-2.  Fare doppio clic sulla cella **Testo aggiuntivo** della riga dell'unità gerarchica.
+1.  In Progettazione report aprire la definizione dell'albero gerarchico da modificare.
+2.  Fare doppio clic sulla cella **Testo aggiuntivo** della riga relativa all'unità gerarchica.
 3.  Nella finestra di dialogo **Testo aggiuntivo**, selezionare la voce da rimuovere e fare clic su **Cancella**. In alternativa, fare clic con il pulsante destro del mouse sulla voce e quindi selezionare **Taglia**.
 4.  Scegliere **OK**.
 
@@ -148,7 +148,7 @@ Una voce di testo aggiuntivo è una stringa di testo statica lunga fino a 255 ca
 È possibile impedire a determinati utenti e gruppi di accedere a un'unità gerarchica. È inoltre possibile definire restrizioni in modo che si applicano alle unità gerarchiche figlio dell'unità gerarchica.
 
 1.  In Progettazione report, aprire l'albero gerarchico da modificare.
-2.  Fare doppio clic sulla cella **Sicurezza dell'unità** per la riga dell'unità gerarchica per limitare l'accesso.
+2.  Fare doppio clic sulla cella **Sicurezza unità** della riga relativa all'unità gerarchica a cui limitare l'accesso.
 3.  Nella finestra di dialogo **Sicurezza dell'unità**, fare clic su **Utenti e gruppi**.
 4.  Selezionare utenti o gruppi che devono avere accesso all'unità gerarchica quindi fare clic su **OK**.
 5.  Per limitare l'accesso alle unità gerarchiche figlio, selezionare la casella di controllo **Aggiungi sicurezza a unità gerarchiche figlio.**
