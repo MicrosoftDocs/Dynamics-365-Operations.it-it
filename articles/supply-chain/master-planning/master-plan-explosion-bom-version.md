@@ -19,34 +19,34 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f8c633e09103c45aff5614270a94a3bfe4fc5e20
 ms.contentlocale: it-it
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="439fc-103">Esplosione di una versione DBA</span><span class="sxs-lookup"><span data-stu-id="439fc-103">Explosion of a BOM version</span></span>
+# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="6bd41-103">Esplosione di una versione DBA</span><span class="sxs-lookup"><span data-stu-id="6bd41-103">Explosion of a BOM version</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="439fc-104">Questo articolo descrive uno scenario di pianificazione generale che include l'esplosione di una versione di distinta base (DBA).</span><span class="sxs-lookup"><span data-stu-id="439fc-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
+<span data-ttu-id="6bd41-104">Questo articolo descrive uno scenario di pianificazione generale che include l'esplosione di una versione di distinta base (DBA).</span><span class="sxs-lookup"><span data-stu-id="6bd41-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
 
-<span data-ttu-id="439fc-105">Un'esplosione della domanda di una versione DBA (distinta base) crea una domanda per ciascun articolo della riga DBA in un sito specifico e, probabilmente, in un magazzino specifico.</span><span class="sxs-lookup"><span data-stu-id="439fc-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="439fc-106">In una DBA specifica del sito può essere definito un magazzino specifico per ogni riga DBA.</span><span class="sxs-lookup"><span data-stu-id="439fc-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="439fc-107">Inoltre, per ogni riga DBA, le impostazioni delle dimensioni dell'articolo determinano la necessità o meno del magazzino.</span><span class="sxs-lookup"><span data-stu-id="439fc-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="439fc-108">La domanda risultante per ciascun elemento della riga DBA diventa, quindi, il punto di inizio per un'ulteriore esplosione della domanda.</span><span class="sxs-lookup"><span data-stu-id="439fc-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="439fc-109">In questo scenario di pianificazione generale sono previste le seguenti condizioni:</span><span class="sxs-lookup"><span data-stu-id="439fc-109">This master planning scenario involves the following conditions:</span></span>
+<span data-ttu-id="6bd41-105">Un'esplosione della domanda di una versione DBA (distinta base) crea una domanda per ciascun articolo della riga DBA in un sito specifico e, probabilmente, in un magazzino specifico.</span><span class="sxs-lookup"><span data-stu-id="6bd41-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="6bd41-106">In una DBA specifica del sito può essere definito un magazzino specifico per ogni riga DBA.</span><span class="sxs-lookup"><span data-stu-id="6bd41-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="6bd41-107">Inoltre, per ogni riga DBA, le impostazioni delle dimensioni dell'articolo determinano la necessità o meno del magazzino.</span><span class="sxs-lookup"><span data-stu-id="6bd41-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="6bd41-108">La domanda risultante per ciascun elemento della riga DBA diventa, quindi, il punto di inizio per un'ulteriore esplosione della domanda.</span><span class="sxs-lookup"><span data-stu-id="6bd41-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="6bd41-109">In questo scenario di pianificazione generale sono previste le seguenti condizioni:</span><span class="sxs-lookup"><span data-stu-id="6bd41-109">This master planning scenario involves the following conditions:</span></span>
 
--   <span data-ttu-id="439fc-110">La dimensione sito è obbligatoria e deve essere immessa nella transazione relativa alla domanda.</span><span class="sxs-lookup"><span data-stu-id="439fc-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="439fc-111">La dimensione sito è coerente.</span><span class="sxs-lookup"><span data-stu-id="439fc-111">The site dimension is consistent.</span></span> <span data-ttu-id="439fc-112">Di conseguenza, il sito relativo alla domanda di livello inferiore corrisponde a quello riportato nella transazione della domanda iniziale.</span><span class="sxs-lookup"><span data-stu-id="439fc-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
+-   <span data-ttu-id="6bd41-110">La dimensione sito è obbligatoria e deve essere immessa nella transazione relativa alla domanda.</span><span class="sxs-lookup"><span data-stu-id="6bd41-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="6bd41-111">La dimensione sito è coerente.</span><span class="sxs-lookup"><span data-stu-id="6bd41-111">The site dimension is consistent.</span></span> <span data-ttu-id="6bd41-112">Di conseguenza, il sito relativo alla domanda di livello inferiore corrisponde a quello riportato nella transazione della domanda iniziale.</span><span class="sxs-lookup"><span data-stu-id="6bd41-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
 
-<span data-ttu-id="439fc-113">Nella figura riportata di seguito è illustrato il processo di esplosione della domanda nella pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="439fc-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Esplosione della domanda mediante una versione DBA](./media/multisitedemandexplosionscenariousingbomversion.gif)
+<span data-ttu-id="6bd41-113">Nella figura riportata di seguito è illustrato il processo di esplosione della domanda nella pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="6bd41-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Esplosione della domanda mediante una versione DBA](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="see-also"></a><span data-ttu-id="439fc-115">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="439fc-115">See also</span></span>
+<a name="see-also"></a><span data-ttu-id="6bd41-115">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="6bd41-115">See also</span></span>
 --------
 
-[<span data-ttu-id="439fc-116">Pianificazione generale - Come determinare la versione DBA</span><span class="sxs-lookup"><span data-stu-id="439fc-116">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="6bd41-116">Pianificazione generale - Come determinare la versione DBA</span><span class="sxs-lookup"><span data-stu-id="6bd41-116">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
-[<span data-ttu-id="439fc-117">Pianificazione generale e funzionalità multisito</span><span class="sxs-lookup"><span data-stu-id="439fc-117">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
+[<span data-ttu-id="6bd41-117">Pianificazione generale e funzionalità multisito</span><span class="sxs-lookup"><span data-stu-id="6bd41-117">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
 
 

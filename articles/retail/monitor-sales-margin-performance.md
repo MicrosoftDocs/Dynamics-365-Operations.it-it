@@ -18,38 +18,38 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c2442f27221e429761abb8c1b17c50a737c10795
 ms.contentlocale: it-it
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="6d44a-103">Monitorare le prestazioni di vendite e margini</span><span class="sxs-lookup"><span data-stu-id="6d44a-103">Monitor sales and margin performance</span></span>
+# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="72df6-103">Monitorare le prestazioni di vendite e margini</span><span class="sxs-lookup"><span data-stu-id="72df6-103">Monitor sales and margin performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-<span data-ttu-id="6d44a-104">È possibile monitorare le prestazioni di vendite e margine in tempo reale tramite Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="6d44a-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="72df6-104">È possibile monitorare le prestazioni di vendite e margine in tempo reale tramite Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="72df6-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
 
-<span data-ttu-id="6d44a-105">Nell'ambito di Microsoft Dynamics 365 for Retail, gli utenti possono monitorare le prestazioni di vendite e margine in tempo reale tra livelli diversi della gerarchia organizzativa per le seguenti dimensioni:</span><span class="sxs-lookup"><span data-stu-id="6d44a-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
+<span data-ttu-id="72df6-105">Nell'ambito di Microsoft Dynamics 365 for Retail, gli utenti possono monitorare le prestazioni di vendite e margine in tempo reale tra livelli diversi della gerarchia organizzativa per le seguenti dimensioni:</span><span class="sxs-lookup"><span data-stu-id="72df6-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
--   <span data-ttu-id="6d44a-106">Prodotti</span><span class="sxs-lookup"><span data-stu-id="6d44a-106">Products</span></span>
--   <span data-ttu-id="6d44a-107">Categorie</span><span class="sxs-lookup"><span data-stu-id="6d44a-107">Categories</span></span>
--   <span data-ttu-id="6d44a-108">Sconti</span><span class="sxs-lookup"><span data-stu-id="6d44a-108">Discounts</span></span>
--   <span data-ttu-id="6d44a-109">Anni come periodo di tempo</span><span class="sxs-lookup"><span data-stu-id="6d44a-109">Years as time period</span></span>
--   <span data-ttu-id="6d44a-110">Registratori/terminali</span><span class="sxs-lookup"><span data-stu-id="6d44a-110">Registers/terminals</span></span>
--   <span data-ttu-id="6d44a-111">Personale/dipendenti</span><span class="sxs-lookup"><span data-stu-id="6d44a-111">Staff/employees</span></span>
--   <span data-ttu-id="6d44a-112">Clienti</span><span class="sxs-lookup"><span data-stu-id="6d44a-112">Customers</span></span>
--   <span data-ttu-id="6d44a-113">Unità operative</span><span class="sxs-lookup"><span data-stu-id="6d44a-113">Operating units</span></span>
+-   <span data-ttu-id="72df6-106">Prodotti</span><span class="sxs-lookup"><span data-stu-id="72df6-106">Products</span></span>
+-   <span data-ttu-id="72df6-107">Categorie</span><span class="sxs-lookup"><span data-stu-id="72df6-107">Categories</span></span>
+-   <span data-ttu-id="72df6-108">Sconti</span><span class="sxs-lookup"><span data-stu-id="72df6-108">Discounts</span></span>
+-   <span data-ttu-id="72df6-109">Anni come periodo di tempo</span><span class="sxs-lookup"><span data-stu-id="72df6-109">Years as time period</span></span>
+-   <span data-ttu-id="72df6-110">Registratori/terminali</span><span class="sxs-lookup"><span data-stu-id="72df6-110">Registers/terminals</span></span>
+-   <span data-ttu-id="72df6-111">Personale/dipendenti</span><span class="sxs-lookup"><span data-stu-id="72df6-111">Staff/employees</span></span>
+-   <span data-ttu-id="72df6-112">Clienti</span><span class="sxs-lookup"><span data-stu-id="72df6-112">Customers</span></span>
+-   <span data-ttu-id="72df6-113">Unità operative</span><span class="sxs-lookup"><span data-stu-id="72df6-113">Operating units</span></span>
 
-<span data-ttu-id="6d44a-114">Inoltre, due report unici che sfruttano la struttura a griglia gerarchica consentono agli utenti di monitorare le prestazioni di vendite e margine eseguendo il drill down del noto di categoria superiore fino ai singoli nodi foglia della categoria nella gerarchia di categorie di prodotti al dettaglio predefinita.</span><span class="sxs-lookup"><span data-stu-id="6d44a-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="6d44a-115">Gli utenti possono anche eseguire il drill down dall'unità operativa fino al singolo canale nella gerarchia organizzativa definita come gerarchia organizzativa predefinita per scopi di reporting sulla gerarchia di vendita al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="6d44a-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="6d44a-116">È quindi possibile aprire i report da qualsiasi delle seguenti posizioni:</span><span class="sxs-lookup"><span data-stu-id="6d44a-116">You can open the reports from any of the following locations:</span></span>
+<span data-ttu-id="72df6-114">Inoltre, due report unici che sfruttano la struttura a griglia gerarchica consentono agli utenti di monitorare le prestazioni di vendite e margine eseguendo il drill down del noto di categoria superiore fino ai singoli nodi foglia della categoria nella gerarchia di categorie di prodotti al dettaglio predefinita.</span><span class="sxs-lookup"><span data-stu-id="72df6-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="72df6-115">Gli utenti possono anche eseguire il drill down dall'unità operativa fino al singolo canale nella gerarchia organizzativa definita come gerarchia organizzativa predefinita per scopi di reporting sulla gerarchia di vendita al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="72df6-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="72df6-116">È quindi possibile aprire i report da qualsiasi delle seguenti posizioni:</span><span class="sxs-lookup"><span data-stu-id="72df6-116">You can open the reports from any of the following locations:</span></span>
 
--   <span data-ttu-id="6d44a-117">Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**</span><span class="sxs-lookup"><span data-stu-id="6d44a-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
--   <span data-ttu-id="6d44a-118">Area di lavoro **Gestione categorie e prodotti** &gt; **Vendita al dettaglio** &gt; **Prodotto e categorie** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**</span><span class="sxs-lookup"><span data-stu-id="6d44a-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
--   <span data-ttu-id="6d44a-119">Area di lavoro **Gestione prezzi e sconti** &gt; **Vendita al dettaglio** &gt; **Prezzi e sconti** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**</span><span class="sxs-lookup"><span data-stu-id="6d44a-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
--   <span data-ttu-id="6d44a-120">Sezione **Richieste di informazioni e report**  &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite**</span><span class="sxs-lookup"><span data-stu-id="6d44a-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
+-   <span data-ttu-id="72df6-117">Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**</span><span class="sxs-lookup"><span data-stu-id="72df6-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="72df6-118">Area di lavoro **Gestione categorie e prodotti** &gt; **Vendita al dettaglio** &gt; **Prodotto e categorie** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**</span><span class="sxs-lookup"><span data-stu-id="72df6-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="72df6-119">Area di lavoro **Gestione prezzi e sconti** &gt; **Vendita al dettaglio** &gt; **Prezzi e sconti** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**</span><span class="sxs-lookup"><span data-stu-id="72df6-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="72df6-120">Sezione **Richieste di informazioni e report**  &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite**</span><span class="sxs-lookup"><span data-stu-id="72df6-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
 
 
 

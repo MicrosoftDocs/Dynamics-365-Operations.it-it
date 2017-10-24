@@ -19,31 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 3ca9c920ea333bd21defebc29b40243d3a618a3d
 ms.contentlocale: it-it
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="consolidated-batch-orders"></a><span data-ttu-id="ca5a0-103">Ordini batch consolidati</span><span class="sxs-lookup"><span data-stu-id="ca5a0-103">Consolidated batch orders</span></span>
+# <a name="consolidated-batch-orders"></a><span data-ttu-id="7d46a-103">Ordini batch consolidati</span><span class="sxs-lookup"><span data-stu-id="7d46a-103">Consolidated batch orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="ca5a0-104">Questo articolo descrive il concetto degli ordini batch consolidati.</span><span class="sxs-lookup"><span data-stu-id="ca5a0-104">This article describes the concept of consolidated batch orders.</span></span>
+<span data-ttu-id="7d46a-104">Questo articolo descrive il concetto degli ordini batch consolidati.</span><span class="sxs-lookup"><span data-stu-id="7d46a-104">This article describes the concept of consolidated batch orders.</span></span>
 
-<span data-ttu-id="ca5a0-105">Un articolo in blocco che viene prodotto viene considerato un elemento padre, mentre un articolo imballato viene considerato un articolo figlio.</span><span class="sxs-lookup"><span data-stu-id="ca5a0-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="ca5a0-106">La relazione tra l'articolo in blocco e l'articolo imballato viene espressa in una conversione articolo in blocco.</span><span class="sxs-lookup"><span data-stu-id="ca5a0-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="ca5a0-107">La conversione articolo in blocco è definita nell'articolo in blocco stesso.</span><span class="sxs-lookup"><span data-stu-id="ca5a0-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
+<span data-ttu-id="7d46a-105">Un articolo in blocco che viene prodotto viene considerato un elemento padre, mentre un articolo imballato viene considerato un articolo figlio.</span><span class="sxs-lookup"><span data-stu-id="7d46a-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="7d46a-106">La relazione tra l'articolo in blocco e l'articolo imballato viene espressa in una conversione articolo in blocco.</span><span class="sxs-lookup"><span data-stu-id="7d46a-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="7d46a-107">La conversione articolo in blocco è definita nell'articolo in blocco stesso.</span><span class="sxs-lookup"><span data-stu-id="7d46a-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
 
-<span data-ttu-id="ca5a0-108">Gli articoli imballati possono essere confezionati in contenitori di uno o più formati che vengono considerati come un'unità.</span><span class="sxs-lookup"><span data-stu-id="ca5a0-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="ca5a0-109">Quando vengono consolidati gli ordini per un articolo in blocco, è possibile vedere tutti gli ordini batch correlati in un'unica visualizzazione, agevolando così l'individuazione dell'eventuale lavoro rimanente da completare.</span><span class="sxs-lookup"><span data-stu-id="ca5a0-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
+<span data-ttu-id="7d46a-108">Gli articoli imballati possono essere confezionati in contenitori di uno o più formati che vengono considerati come un'unità.</span><span class="sxs-lookup"><span data-stu-id="7d46a-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="7d46a-109">Quando vengono consolidati gli ordini per un articolo in blocco, è possibile vedere tutti gli ordini batch correlati in un'unica visualizzazione, agevolando così l'individuazione dell'eventuale lavoro rimanente da completare.</span><span class="sxs-lookup"><span data-stu-id="7d46a-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
 
-<span data-ttu-id="ca5a0-110">Un ordine lotto consolidato può contenere qualsiasi combinazione dei seguenti ordini:</span><span class="sxs-lookup"><span data-stu-id="ca5a0-110">A consolidated batch order can contain any combination of the following orders:</span></span>
+<span data-ttu-id="7d46a-110">Un ordine lotto consolidato può contenere qualsiasi combinazione dei seguenti ordini:</span><span class="sxs-lookup"><span data-stu-id="7d46a-110">A consolidated batch order can contain any combination of the following orders:</span></span>
 
--   <span data-ttu-id="ca5a0-111">Un singolo ordine stoccaggio e più ordini articoli imballati</span><span class="sxs-lookup"><span data-stu-id="ca5a0-111">A single bulk order and multiple packed orders</span></span>
--   <span data-ttu-id="ca5a0-112">Più ordini stoccaggio e più ordini articoli imballati</span><span class="sxs-lookup"><span data-stu-id="ca5a0-112">Multiple bulk orders and multiple packed orders</span></span>
--   <span data-ttu-id="ca5a0-113">Più ordini stoccaggio e un singolo ordine articoli imballati</span><span class="sxs-lookup"><span data-stu-id="ca5a0-113">Multiple bulk orders and a single packed order</span></span>
--   <span data-ttu-id="ca5a0-114">Solo ordini articoli imballati</span><span class="sxs-lookup"><span data-stu-id="ca5a0-114">Only packed orders</span></span>
+-   <span data-ttu-id="7d46a-111">Un singolo ordine stoccaggio e più ordini articoli imballati</span><span class="sxs-lookup"><span data-stu-id="7d46a-111">A single bulk order and multiple packed orders</span></span>
+-   <span data-ttu-id="7d46a-112">Più ordini stoccaggio e più ordini articoli imballati</span><span class="sxs-lookup"><span data-stu-id="7d46a-112">Multiple bulk orders and multiple packed orders</span></span>
+-   <span data-ttu-id="7d46a-113">Più ordini stoccaggio e un singolo ordine articoli imballati</span><span class="sxs-lookup"><span data-stu-id="7d46a-113">Multiple bulk orders and a single packed order</span></span>
+-   <span data-ttu-id="7d46a-114">Solo ordini articoli imballati</span><span class="sxs-lookup"><span data-stu-id="7d46a-114">Only packed orders</span></span>
 
 
 

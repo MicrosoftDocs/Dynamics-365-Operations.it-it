@@ -1,0 +1,56 @@
+---
+title: "Home page Contabilità industriale"
+description: "In questo articolo sono elencati gli argomenti della Guida e altre risorse disponibili per la Contabilità industriale."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 08/20/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
+ms.custom: 256254
+ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
+ms.search.region: Global
+ms.author: yuyus
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c4c900d7599b0dc09e97e6a62d5b43971a8c3e33
+ms.contentlocale: it-it
+ms.lasthandoff: 09/29/2017
+
+---
+
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="b5d29-103">Home page della contabilità industriale</span><span class="sxs-lookup"><span data-stu-id="b5d29-103">Cost accounting home page</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+## <a name="learning-map"></a><span data-ttu-id="b5d29-104">Mappa di apprendimento</span><span class="sxs-lookup"><span data-stu-id="b5d29-104">Learning map</span></span> 
+
+<span data-ttu-id="b5d29-105">Nella mappa di apprendimento vengono visualizzati i concetti e le attività principali che costituiscono il framework del modulo Contabilità industriale.</span><span class="sxs-lookup"><span data-stu-id="b5d29-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="b5d29-106">Fare clic sui collegamenti nella sezione [Collegamenti rapidi](#quick-links) per informazioni su come utilizzare il modulo.</span><span class="sxs-lookup"><span data-stu-id="b5d29-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
+
+<span data-ttu-id="b5d29-107">[![Mappa di apprendimento per la contabilità industriale](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="b5d29-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
+
+## <a name="quick-links"></a><span data-ttu-id="b5d29-108">Collegamenti rapidi</span><span class="sxs-lookup"><span data-stu-id="b5d29-108">Quick links</span></span>
+|      |   |
+|------|---|
+|  [<span data-ttu-id="b5d29-109">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="b5d29-109">Get started</span></span>](terms-cost-accounting.md)    | [<span data-ttu-id="b5d29-110">Configurare il sistema di origine</span><span class="sxs-lookup"><span data-stu-id="b5d29-110">Configure source system</span></span>](../general-ledger/financial-dimensions.md)  |
+|  [<span data-ttu-id="b5d29-111">Creare dimensioni e importare i membri di dimensione</span><span class="sxs-lookup"><span data-stu-id="b5d29-111">Create dimensions and import dimension members</span></span>](cost-elements.md)    |[<span data-ttu-id="b5d29-112">Creare una gerarchia di dimensioni</span><span class="sxs-lookup"><span data-stu-id="b5d29-112">Create dimension hierarchy</span></span>](dimension-hierarchy.md)   |
+|  [<span data-ttu-id="b5d29-113">Crea impostazione di base</span><span class="sxs-lookup"><span data-stu-id="b5d29-113">Create basic setup</span></span>](./tasks/define-cost-control-units.md)    |  [<span data-ttu-id="b5d29-114">Definire una base di allocazione</span><span class="sxs-lookup"><span data-stu-id="b5d29-114">Define allocation base</span></span>](allocation-bases.md) |
+|    [<span data-ttu-id="b5d29-115">Definire criteri</span><span class="sxs-lookup"><span data-stu-id="b5d29-115">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md)  | [<span data-ttu-id="b5d29-116">Origine dati e provider di dati</span><span class="sxs-lookup"><span data-stu-id="b5d29-116">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md)  |
+| [<span data-ttu-id="b5d29-117">Elaborazione dell'origine dati</span><span class="sxs-lookup"><span data-stu-id="b5d29-117">Data source processing</span></span>](./tasks/process-trace-source-data.md)     | [<span data-ttu-id="b5d29-118">Calcolo generale</span><span class="sxs-lookup"><span data-stu-id="b5d29-118">Overhead calculation</span></span>](overhead-calculation.md)  |
+|   [<span data-ttu-id="b5d29-119">Analisi e creazione di report</span><span class="sxs-lookup"><span data-stu-id="b5d29-119">Analysis and reporting</span></span>](cost-control-workspace.md)   |   |
+
+## <a name="get-started-videosbr"></a><span data-ttu-id="b5d29-120">Video introduttivi</span><span class="sxs-lookup"><span data-stu-id="b5d29-120">Get started videos</span></span><br/>
+
+|  |  |                             |
+|------------------------|--------------------|-----------------------------|
+| <iframe width="100%"  src="https://www.youtube.com/embed/1pUDtJQZ8FU" frameborder="0" allowfullscreen></iframe>  | <iframe width="100%"  src="https://www.youtube.com/embed/imsuTg8rUVk" frameborder="0" allowfullscreen></iframe>  |   <iframe width="100%" src="https://www.youtube.com/embed/-HKHYdClvx8" frameborder="0" allowfullscreen></iframe>  |
+|  |  |                             |
+
+
+

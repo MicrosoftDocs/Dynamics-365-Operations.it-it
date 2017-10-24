@@ -18,44 +18,44 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 17fb54c07f817b6f4a65c01cd0277c8d677e2e78
 ms.contentlocale: it-it
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="manage-items-lent-to-workers"></a><span data-ttu-id="01431-103">Gestire gli articoli prestati ai lavoratori</span><span class="sxs-lookup"><span data-stu-id="01431-103">Manage items lent to workers</span></span>
+# <a name="manage-items-lent-to-workers"></a><span data-ttu-id="836d9-103">Gestire gli articoli prestati ai lavoratori</span><span class="sxs-lookup"><span data-stu-id="836d9-103">Manage items lent to workers</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-<span data-ttu-id="01431-104">Gli articoli prestito sono record che consentono ai responsabili di tenere traccia degli articoli fisici che la società presta ai lavoratori.</span><span class="sxs-lookup"><span data-stu-id="01431-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
+<span data-ttu-id="836d9-104">Gli articoli prestito sono record che consentono ai responsabili di tenere traccia degli articoli fisici che la società presta ai lavoratori.</span><span class="sxs-lookup"><span data-stu-id="836d9-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
-<span data-ttu-id="01431-105">I punti di seguito sono esempi di articoli che una società potrebbe prestare ai lavoratori:</span><span class="sxs-lookup"><span data-stu-id="01431-105">The following points list examples of items that a company might lend to workers:</span></span>
--   <span data-ttu-id="01431-106">Telefoni cellulari</span><span class="sxs-lookup"><span data-stu-id="01431-106">Mobile telephones</span></span>
--   <span data-ttu-id="01431-107">Automobili</span><span class="sxs-lookup"><span data-stu-id="01431-107">Automobiles</span></span>
--   <span data-ttu-id="01431-108">Attrezzature informatiche</span><span class="sxs-lookup"><span data-stu-id="01431-108">Computer equipment</span></span>
+<span data-ttu-id="836d9-105">I punti di seguito sono esempi di articoli che una società potrebbe prestare ai lavoratori:</span><span class="sxs-lookup"><span data-stu-id="836d9-105">The following points list examples of items that a company might lend to workers:</span></span>
+-   <span data-ttu-id="836d9-106">Telefoni cellulari</span><span class="sxs-lookup"><span data-stu-id="836d9-106">Mobile telephones</span></span>
+-   <span data-ttu-id="836d9-107">Automobili</span><span class="sxs-lookup"><span data-stu-id="836d9-107">Automobiles</span></span>
+-   <span data-ttu-id="836d9-108">Attrezzature informatiche</span><span class="sxs-lookup"><span data-stu-id="836d9-108">Computer equipment</span></span>
 
-<span data-ttu-id="01431-109">Ogni articolo fisico deve avere un articolo prestito corrispondente.</span><span class="sxs-lookup"><span data-stu-id="01431-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="01431-110">Per ciascun record di articolo prestito dovranno essere descritti la tipologia, il responsabile del prestito e la durata in giorni consentita per il prestito.</span><span class="sxs-lookup"><span data-stu-id="01431-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="01431-111">È possibile creare più articoli prestito, ad esempio chiavi, schede di accesso o divise, contemporaneamente.</span><span class="sxs-lookup"><span data-stu-id="01431-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
+<span data-ttu-id="836d9-109">Ogni articolo fisico deve avere un articolo prestito corrispondente.</span><span class="sxs-lookup"><span data-stu-id="836d9-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="836d9-110">Per ciascun record di articolo prestito dovranno essere descritti la tipologia, il responsabile del prestito e la durata in giorni consentita per il prestito.</span><span class="sxs-lookup"><span data-stu-id="836d9-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="836d9-111">È possibile creare più articoli prestito, ad esempio chiavi, schede di accesso o divise, contemporaneamente.</span><span class="sxs-lookup"><span data-stu-id="836d9-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
 
-<span data-ttu-id="01431-112">Quando un articolo viene concesso in prestito, è necessario immettere la data di inizio del prestito e la data di restituzione pianificata.</span><span class="sxs-lookup"><span data-stu-id="01431-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="01431-113">Quando l'articolo viene restituito, immettere la data di restituzione effettiva.</span><span class="sxs-lookup"><span data-stu-id="01431-113">When the item is returned, enter the actual return date.</span></span>
+<span data-ttu-id="836d9-112">Quando un articolo viene concesso in prestito, è necessario immettere la data di inizio del prestito e la data di restituzione pianificata.</span><span class="sxs-lookup"><span data-stu-id="836d9-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="836d9-113">Quando l'articolo viene restituito, immettere la data di restituzione effettiva.</span><span class="sxs-lookup"><span data-stu-id="836d9-113">When the item is returned, enter the actual return date.</span></span>
 
-<span data-ttu-id="01431-114">I dipendenti possono visualizzare i record degli articoli che sono stati prestati utilizzando area di lavoro Dipendente self-service.</span><span class="sxs-lookup"><span data-stu-id="01431-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="01431-115">Possono inoltre modificare i record esistenti o immettere nuovi articoli prestito,se hanno ricevuto articoli fisici aggiuntivi.</span><span class="sxs-lookup"><span data-stu-id="01431-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="01431-116">Il flusso di lavoro può essere configurato in modo da instradare le modifiche ai nuovi o esistenti articoli prestito tramite un processo di approvazione.</span><span class="sxs-lookup"><span data-stu-id="01431-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
+<span data-ttu-id="836d9-114">I dipendenti possono visualizzare i record degli articoli che sono stati prestati utilizzando area di lavoro Dipendente self-service.</span><span class="sxs-lookup"><span data-stu-id="836d9-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="836d9-115">Possono inoltre modificare i record esistenti o immettere nuovi articoli prestito,se hanno ricevuto articoli fisici aggiuntivi.</span><span class="sxs-lookup"><span data-stu-id="836d9-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="836d9-116">Il flusso di lavoro può essere configurato in modo da instradare le modifiche ai nuovi o esistenti articoli prestito tramite un processo di approvazione.</span><span class="sxs-lookup"><span data-stu-id="836d9-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
 
-<span data-ttu-id="01431-117">I responsabili possono visualizzare gli articoli prestati per i propri subordinati diretti.</span><span class="sxs-lookup"><span data-stu-id="01431-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="01431-118">Può anche essere concessa l'autorizzazione per aggiungere nuovi articoli in prestito per conto dei relativi dipendenti.</span><span class="sxs-lookup"><span data-stu-id="01431-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
+<span data-ttu-id="836d9-117">I responsabili possono visualizzare gli articoli prestati per i propri subordinati diretti.</span><span class="sxs-lookup"><span data-stu-id="836d9-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="836d9-118">Può anche essere concessa l'autorizzazione per aggiungere nuovi articoli in prestito per conto dei relativi dipendenti.</span><span class="sxs-lookup"><span data-stu-id="836d9-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
 
- <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="01431-119">Conto per articoli prestito spostati o andati perduti</span><span class="sxs-lookup"><span data-stu-id="01431-119">Account for lost or misplaced loan items</span></span>
+ <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="836d9-119">Conto per articoli prestito spostati o andati perduti</span><span class="sxs-lookup"><span data-stu-id="836d9-119">Account for lost or misplaced loan items</span></span>
 -----------------------------------------
 
-<span data-ttu-id="01431-120">Se un articolo viene non correttamente collocato o danneggiato, immettere una restituzione fittizia.</span><span class="sxs-lookup"><span data-stu-id="01431-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="01431-121">Successivamente sarà possibile eliminare l'articolo oppure mantenerlo della panoramica e modificare la relativa descrizione per segnalare che non è disponibile.</span><span class="sxs-lookup"><span data-stu-id="01431-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
+<span data-ttu-id="836d9-120">Se un articolo viene non correttamente collocato o danneggiato, immettere una restituzione fittizia.</span><span class="sxs-lookup"><span data-stu-id="836d9-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="836d9-121">Successivamente sarà possibile eliminare l'articolo oppure mantenerlo della panoramica e modificare la relativa descrizione per segnalare che non è disponibile.</span><span class="sxs-lookup"><span data-stu-id="836d9-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
  
-<a name="see-also"></a><span data-ttu-id="01431-122">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="01431-122">See also</span></span>
+<a name="see-also"></a><span data-ttu-id="836d9-122">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="836d9-122">See also</span></span>
 --------
 
-[<span data-ttu-id="01431-123">Risorse umane</span><span class="sxs-lookup"><span data-stu-id="01431-123">Human resources</span></span>](index.md)
+[<span data-ttu-id="836d9-123">Risorse umane</span><span class="sxs-lookup"><span data-stu-id="836d9-123">Human resources</span></span>](index.md)
 
 
 
