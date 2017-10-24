@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 Una definizione di riga è un componente di report, o blocco predefinito, che specifica il contenuto di ciascuna riga in un report finanziario. Una definizione di riga può combinarsi con le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report per creare un gruppo di blocchi predefiniti che può essere utilizzato da più società.
 
-<a name="create-a-row-definition"></a>Creazione di una definizione di riga
+<a name="create-a-row-definition"></a>Crea nuova definizione di riga
 -----------------------
 
 1.  In Progettazione report, nel pannello di navigazione, fare clic su **Definizioni di riga**.
@@ -68,7 +68,7 @@ Una dimensione è un'intersezione di dati e valori. È possibile raggruppare dat
 | Opzione                | Descrizione                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dimensione             | Il modello che identifica la dimensione da aggiungere alla definizione di riga. Questo modello contiene una e commerciale (&) o un cancelletto  (\#) per ogni posizione nelle dimensioni. In genere, utilizzare la e commerciale per la dimensione del conto principale e il cancelletto per le altre dimensioni. |
-| Inizio intervallo dimensioni | Il primo valore della dimensione da aggiungere alla definizione di riga.                                                                                                                                                                                                                 |
+| Inizio intervallo dimensioni | Primo valore di questa dimensione da aggiungere alla definizione di riga.                                                                                                                                                                                                                 |
 | Fine intervallo dimensioni   | L'ultimo valore della dimensione da aggiungere alla definizione di riga.                                                                                                                                                                                                                  |
 
 Per aggiungere le dimensioni a una definizione di riga, effettuare i passaggi seguenti.
@@ -93,7 +93,7 @@ In uno stato patrimoniale in cui gli importi sono arrotondati, è possibile che 
 Per rettificare l'arrotondamento nello stato patrimoniale, completare i passaggi seguenti.
 
 1.  In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
-2.  Nel menu **Modifica** fare clic su **Rettifica arrotondamento**.
+2.  Scegliere **Rettifica per arrotondamento** dal menu **Modifica**.
 3.  Nella finestra di dialogo **Rettifiche arrotondamento**, immettere i valori seguenti:
     -   **Riga rettifica arrotondamento**: il codice della riga che deve essere rettificata per bilanciare lo stato patrimoniale.
     -   **Riga totale cespiti**: il codice della riga nello stato patrimoniale contenente i cespiti totali.
@@ -121,23 +121,23 @@ Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando
 <td>Creare uno stile di carattere</td>
 <td><ol>
 <li>In Progettazione report, nel menu <strong>Formato</strong>, fare clic su <strong>Stili e formattazione</strong>.</li>
-<li>Fare clic su <strong>Nuovo</strong> nella finestra di dialogo <strong>Stili e formattazione</strong> quindi immettere un nome univoco per il nuovo stile.</li>
-<li>Selezionare i tipi di carattere desiderati e scegliere <strong>OK</strong>.</li>
+<li>Nella finestra di dialogo <strong>Stili e formattazione</strong> fare clic su <strong>Nuovo</strong>, quindi immettere un nome univoco per il nuovo stile.</li>
+<li>Selezionare le opzioni desiderate per il carattere e quindi fare clic su <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Modificare lo stile di carattere</td>
+<td>Modificare uno stile di carattere</td>
 <td><ol>
 <li>In Progettazione report, nel menu <strong>Formato</strong>, fare clic su <strong>Stili e formattazione</strong>.</li>
-<li>Selezionare lo stile da modificare nella finestra di dialogo <strong>Stili e formattazione</strong> quindi fare clic su <strong>Modifica</strong>.</li>
-<li>Selezionare i tipi di carattere desiderati e scegliere <strong>OK</strong>.</li>
+<li>Nella finestra di dialogo <strong>Stili e formattazione</strong> selezionare lo stile a modificare, quindi fare clic su <strong>Modifica</strong>.</li>
+<li>Selezionare le opzioni desiderate per il carattere e quindi fare clic su <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Applicare lo stile di carattere</td>
 <td><ol>
 <li>In Progettazione report, in una definizione o in una definizione di colonna oppure nelle intestazioni e nei piè di pagina, selezionare una o più celle.</li>
-<li>Nell'elenco <strong>Stile</strong> della barra degli strumenti, selezionare uno stile di carattere.</li>
+<li>Nell'elenco <strong>Stile</strong> sulla barra degli strumenti selezionare uno stile di carattere.</li>
 </ol></td>
 </tr>
 </tbody>
@@ -164,7 +164,7 @@ Per semplificare la visualizzazione delle colonne su cui si lavora nella definiz
 ### <a name="hide-columns-in-the-view-pane"></a>Nascondere le colonne nel riquadro di visualizzazione
 
 1.  In Progettazione report, aprire la definizione di riga da modificare.
-2.  Selezionare la colonna o le colonne da nascondere.
+2.  Selezionare la colonna o le colonne che si intende ridurre a icona.
 3.  Fare clic con il pulsante destro del mouse e scegliere **Nascondi**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Visualizzare tutte le colonne nascoste nel riquadro di visualizzazione

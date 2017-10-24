@@ -16,13 +16,13 @@ ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 01955aefb27bd18809b35fd025c9dd1b8eb70520
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 035c5d15e5508c78dd66a349defd534bfecc96bb
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ In base alle autorizzazioni, modificare il richiedente, la persona giuridica acq
 Per ulteriori informazioni sui criteri, vedere [Criteri di acquisto](../procurement/purchase-policies.md).
 
 - Per individuare cataloghi esterni per categorie di approvvigionamento specifiche, immettere il testo nel campo di ricerca catalogo.
-- Per aggiungere i prodotti di un catalogo esterno disponibile nel sito Web del fornitore, fare clic sul catalogo esterno. Aggiungere quindi i prodotti al carrello ed effettuare il Check out. Le righe del carrello verranno trasferite in Microsoft Dynamics 365.
+- Per aggiungere i prodotti di un catalogo esterno disponibile nel sito Web del fornitore, fare clic sul catalogo esterno. Aggiungere quindi i prodotti al carrello ed effettuare il check out. Le righe del carrello verranno trasferite in Microsoft Dynamics 365.
 
 Se sono disponibili più opzioni per le categorie di approvvigionamento, selezionare la categoria di approvvigionamento corretta prima di aggiungere le righe alla richiesta.
 Dopo che le righe sono state aggiunte a una richiesta, è possibile aggiungere altre righe senza utilizzare i cataloghi esterni. In alternativa, è possibile continuare a utilizzare i cataloghi esterni per aggiungere le righe.

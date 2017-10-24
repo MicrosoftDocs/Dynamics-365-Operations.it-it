@@ -1,7 +1,7 @@
 ---
 title: "Categorie costi utilizzate in Controllo produzione e Gestione progetti e contabilità"
 description: "Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. Questo articolo fornisce informazioni sulle categorie di costi che è necessario definire per questi tipi di lavoro di produzione ai fini della produzione e del progetto."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 712406f1a47d3b0b6b8302cd7337a594a3818f95
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1fcc7914f2bb283a746b5e10993f91f949818473
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,7 +34,9 @@ ms.lasthandoff: 05/25/2017
 
 Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. Questo articolo fornisce informazioni sulle categorie di costi che è necessario definire per questi tipi di lavoro di produzione ai fini della produzione e del progetto.
 
-Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. In questo caso è necessaria una categoria di costi per gli scopi di produzione e progetto. Quando una categoria costi viene utilizzata nella produzione e nei progetti, è necessario definire ulteriori informazioni correlate al progetto. I costi orario associati ai progetti, ad esempio, possono differire dai costi orario associati alla produzione. È possibile utilizzare la pagina **Categorie costi** per definire una categoria di costi utilizzata nella contabilità di controllo produzione e gestione progetti. **Nota:** la contabilità industriale contiene una pagina **Categorie di progetto**, ma questa pagina non ha alcuna relazione con la funzionalità descritta in questo argomento. Quando si utilizza una categoria di costi nei progetti, la pagina **Categorie costi** contiene schede aggiuntive che indicano le informazioni aggiuntive correlate al progetto. Tali informazioni includono il gruppo di categorie, una proprietà riga e i conti CoGe assegnati alla categoria di costi.
+Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. In questo caso è necessaria una categoria di costi per gli scopi di produzione e progetto. Quando una categoria costi viene utilizzata nella produzione e nei progetti, è necessario definire ulteriori informazioni correlate al progetto. I costi orario associati ai progetti, ad esempio, possono differire dai costi orario associati alla produzione. È possibile utilizzare la pagina **Categorie costi** per definire una categoria di costi utilizzata nella contabilità di controllo produzione e gestione progetti. 
+
+**Nota:** la contabilità industriale contiene una pagina **Categorie di progetto**, ma questa pagina non ha alcuna relazione con la funzionalità descritta in questo argomento. Quando si utilizza una categoria di costi nei progetti, la pagina **Categorie costi** contiene schede aggiuntive che indicano le informazioni aggiuntive correlate al progetto. Tali informazioni includono il gruppo di categorie, una proprietà riga e i conti CoGe assegnati alla categoria di costi.
 
 -   La categoria di costi deve essere assegnata a un gruppo di categorie che supporta un tipo di transazione **Ore**.
 -   La proprietà di riga indica informazioni predefinite su come l'ora dichiarata possa essere addebitata a un progetto.

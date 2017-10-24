@@ -17,12 +17,11 @@ ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ef6fcc07f645c4ff8c3a049120915ff411cb221a
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 03a58ff77bb2999e450468039b7d24e9d1c0165e
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +38,7 @@ PVR è un servizio di addebito elettronico che utilizza distinte di pagamento pe
 I riferimenti di pagamento devono essere stampati nella distinta di pagamento dopo la registrazione. È inoltre possibile verificare i riferimenti di pagamento nella pagina **Giornale di registrazione fatture** per ordine cliente selezionato. Per generare i riferimenti di pagamento, è necessario specificare le impostazioni seguenti.
 
 1.  Configurare le impostazioni del conto bancario in **PVR**, **ID PVRB** e **Numero di registrazione**.
-2.  Impostare il campo **Numero di caratteri per il conto ordini di accredito** nella pagina dei **parametri contabilità clienti** nella scheda **Contabilità generale e IVA**. In questo modo viene definito quanti simboli del conto cliente devono essere inclusi nel riferimento di pagamento.
+2.  Impostare il campo **Numero di caratteri per il conto ordini di accredito** nella pagina **Parametri di effetti attivi del conto** della scheda **Contabilità generale e IVA**. In questo modo, si definisce il numero di simboli del conto cliente che devono essere inclusi nel riferimento di pagamento.
 3.  La sequenza numerica della fattura di vendita deve essere nel formato corretto (non deve includere simboli diversi dalle cifre e non deve contenere zeri iniziali).
 4.  È necessario specificare il formato **Orange** per il conto cliente nel campo **Su fattura cliente** nella scheda **Fattura e consegna**.
 

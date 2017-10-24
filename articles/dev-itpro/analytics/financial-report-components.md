@@ -16,13 +16,13 @@ ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -71,7 +71,7 @@ I blocchi predefiniti sono le definizioni di riga, le definizioni di colonna, le
 ### <a name="create-a-building-block-group"></a>Creare un gruppo di blocchi predefiniti
 
 1.  In Progettazione report, nel menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
-2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti**, fare clic su **Nuovo**.
+2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti** fare clic su **Nuovo**.
 3.  Immettere un nome univoco e una descrizione per il gruppo di blocchi predefiniti. Ogni campo può contenere un massimo di 256 caratteri (questo numero include gli spazi).
 4.  Fare clic su **OK** per creare il nuovo gruppo di blocchi predefiniti.
 
@@ -79,7 +79,7 @@ I blocchi predefiniti sono le definizioni di riga, le definizioni di colonna, le
 
 Una volta creato un gruppo di blocchi, è necessario assegnarlo a almeno una società. È possibile quindi creare le definizioni di report, riga, colonna e albero gerarchico e salvarle nel gruppo di blocchi predefiniti. È necessario chiudere tutti i blocchi predefiniti prima di iniziare la procedura riportata di seguito.
 1.  In Progettazione report, menu **Società**, fare clic su **Società**.
-2.  Nella finestra di dialogo **Società** selezionare la società a cui assegnare un gruppo di blocchi predefiniti.
+2.  Nella finestra di dialogo **Società** selezionare la società alla quale assegnare un gruppo di blocchi predefiniti.
 3.  Fare clic su **Modifica**.
 4.  Nella finestra di dialogo **Modifica società**, nel campo **Gruppo di blocchi predefiniti** , selezionare il gruppo di blocchi predefiniti da assegnare alla società o fare clic su **Nuovo** per creare un nuovo gruppo di blocchi predefiniti.
 5.  Fare clic su **OK** per assegnare il gruppo di blocchi predefiniti.
@@ -96,7 +96,7 @@ Dopo che un gruppo di blocchi predefiniti è stato creato e viene utilizzato, è
 ### <a name="save-a-building-block-group-under-a-new-name"></a>Salvare un gruppo di blocchi predefiniti con un nuovo nome
 
 È possibile salvare un gruppo di blocchi predefiniti esistente con un nuovo nome. È quindi possibile modificare il gruppo di blocchi predefiniti senza modificare il gruppo di blocchi predefiniti originale.
-1.  In Progettazione report, menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
+1.  In Progettazione report scegliere **Gruppi di blocchi predefiniti** dal menu **Società**.
 2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti**, selezionare il gruppo di blocchi predefiniti da salvare con un nuovo nome.
 3.  Fare clic su **Salva con nome**.
 4.  Immettere un nuovo nome e una descrizione per il gruppo di blocchi predefiniti.
@@ -104,9 +104,9 @@ Dopo che un gruppo di blocchi predefiniti è stato creato e viene utilizzato, è
 
 ### <a name="export-a-building-block-group"></a> Esportare un gruppo di blocchi predefiniti
 
-È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti del report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il gruppo di blocchi predefiniti esportati come backup. È inoltre possibile copiare i dati esportati tra gruppi di blocchi predefiniti o installazioni di Finance and Operations. La funzionalità di progettazione report include gli stili di carattere e i set di dimensioni di riferimento con il gruppo di blocchi predefiniti.
+È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti di report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il gruppo di blocchi predefiniti esportato come backup. È inoltre possibile copiare i dati esportati tra gruppi di blocchi predefiniti o installazioni di Finance and Operations. La funzionalità di progettazione report include gli stili di carattere e i set di dimensioni di riferimento con il gruppo di blocchi predefiniti.
 1.  In Progettazione report, menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
-2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti**, selezionare il gruppo di blocchi predefiniti da esportare e fare clic su **Esporta**.
+2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti** selezionare il gruppo che si desidera esportare e quindi fare clic su **Esporta**.
 3.  Nella finestra di dialogo **Esporta**, selezionare le definizioni di report da esportare:
     -   Per esportare tutte le definizioni di report e i blocchi predefiniti associati, fare clic su **Seleziona tutto**.
     -   Per esportare specifici report, righe, colonne, alberi o set di dimensioni, fare clic sulla scheda appropriata e selezionare gli elementi da esportare. Per selezionare più elementi in una scheda, tenere premuto CTRL. **Nota**: quando si selezionano i report da esportare, vengono selezionate le righe, le colonne, gli alberi e i set di dimensioni associati.
@@ -120,8 +120,8 @@ Dopo che un gruppo di blocchi predefiniti è stato creato e viene utilizzato, è
 
 È possibile importare un gruppo di blocchi predefiniti in un gruppo di blocchi predefiniti esistente oppure è possibile creare un nuovo gruppo di blocchi predefiniti per i dati. Tutti i gruppi di blocchi predefiniti importati conservano gli stili di carattere e i riferimenti alle società originali e includono i set di dimensioni pertinenti.
 1.  In Progettazione report, menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
-2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti**, selezionare il blocco predefinito in cui importare il gruppo di blocchi predefiniti e fare clic su **Importa**.
-3.  Nella finestra di dialogo **Apri**, selezionare il gruppo di blocchi predefiniti da importare e fare clic su **Apri**.
+2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti** selezionare il blocco predefinito in cui importare un gruppo di blocchi predefiniti, quindi fare clic su **Importa**.
+3.  Nella finestra di dialogo **Apri** selezionare il gruppo di blocchi predefiniti da importare, quindi fare clic su **Apri**.
 4.  Nella finestra di dialogo **Importa**, selezionare le definizioni di report da importare:
     -   Per importare tutte le definizioni di report e i blocchi predefiniti di supporto, fare clic su **Seleziona tutto**.
     -   Per importare specifici report, righe, colonne, alberi o set di dimensioni, selezionare i report, le righe, le colonne, gli alberi o i set di dimensioni da importare.
@@ -130,9 +130,9 @@ Dopo che un gruppo di blocchi predefiniti è stato creato e viene utilizzato, è
 
 ### <a name="undo-a-checkout-of-a-building-block"></a>Annullare l'estrazione di un blocco predefinito
 
-Quando si apre un blocco predefinito, gli utenti possono accedere al blocco predefinito solo in modalità di sola lettura. Talvolta un utente può dimenticare di chiudere un blocco predefinito o arrestare il sistema senza aver chiuso il blocco predefinito. Di conseguenza, il blocco predefinito risulta estratto e non può essere aperto da altri utenti. In queste situazioni, un amministratore dei report finanziari può utilizzare la finestra di dialogo **Elementi estratti** per archiviare i blocchi predefiniti lasciati in stato estratto dagli utenti. **Nota**: è necessario disporre del ruolo di amministratore per archiviare i blocchi predefiniti usando la finestra di dialogo **Elementi estratti**.
+Quando si apre un blocco predefinito, gli utenti possono accedere al blocco predefinito solo in modalità di sola lettura. Talvolta un utente può dimenticare di chiudere un blocco predefinito o arrestare il sistema senza aver chiuso il blocco predefinito. Di conseguenza, il blocco predefinito risulta estratto e non può essere aperto da altri utenti. In queste situazioni, un amministratore dei report finanziari può utilizzare la finestra di dialogo **Elementi estratti** per archiviare i blocchi predefiniti lasciati in stato estratto dagli utenti. **Nota:** è necessario disporre del ruolo di amministratore per archiviare i blocchi predefiniti usando la finestra di dialogo **Elementi estratti**.
 1.  In Progettazione report, nel menu **Strumenti**, fare clic su **Elementi estratti**.
-2.  Nella finestra di dialogo **Elementi estratti**, selezionare **Mostra articoli di tutti gli utenti**. L'elenco viene aggiornato per visualizzare tutti i blocchi predefiniti che sono estratti e gli utenti che li hanno estratti.
+2.  Nella finestra di dialogo **Elementi estratti** selezionare **Mostra elementi di tutti gli utenti**. L'elenco verrà aggiornato per visualizzare tutti i blocchi predefiniti estratti con l'indicazione degli utenti che hanno effettuato l'estrazione.
 3.  Selezionare un blocco predefinito e quindi fare clic su **Annulla estrazione**.
 4.  Fare clic su **Sì** per archiviare il blocco predefinito.
 

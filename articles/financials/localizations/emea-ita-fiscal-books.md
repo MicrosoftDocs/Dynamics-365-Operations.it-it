@@ -17,12 +17,11 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc6172e5f68201bd067d216e22a2742b7c6b88d8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8489efe590bd4de384a15e50060da3add2d9156f
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -169,7 +168,7 @@ I sezionali IVA sono un archivio in cui le transazioni di contabilità generale 
 <td>Selezionare il codice di sequenza numerica per il sezionale IVA. Il codice di sequenza numerica selezionato dipende dal tipo di libro IVA a cui il sezionale IVA è collegato:
 <ul>
 <li>Per un libro IVA di tipo <strong>Acquisti</strong>: selezionare i codici di sequenza numerica definiti per i giustificativi fattura di acquisto o i giustificativi note di accredito di acquisto nella pagina <strong>Parametri contabilità fornitori</strong> o i codici di sequenza numerica usati nella pagina <strong>Nomi giornale di registrazione</strong> per i giustificativi che hanno il campo <strong>Libro VAT italiano</strong> impostato su <strong>Acquisti</strong>.</li>
-<li>Per un libro IVA di tipo <strong>Vendite</strong>: selezionare i codici di sequenza numerica definiti per i giustificativi fattura di vendita o i giustificativi nota di accredito di vendita o i giustificativi fattura a testo libero o i giustificativi nota di accredito a testo libero nella pagina <strong>Parametri contabilità</strong>  <strong>clienti</strong> o i codici di sequenza numerica usati nella pagina <strong>Nomi giornale di registrazione</strong> per i giustificativi che hanno il campo <strong>Libro VAT italiano</strong> impostato su <strong>Vendite</strong>.</li>
+<li>Per un libro IVA di tipo <strong>Vendite</strong>: selezionare i codici di sequenza numerica definiti per i giustificativi fattura di vendita o i giustificativi nota di accredito di vendita o i giustificativi fattura a testo libero o i giustificativi nota di accredito a testo libero nella pagina <strong>Parametri</strong> <strong>contabilità clienti</strong> o i codici di sequenza numerica usati nella pagina <strong>Nomi giornale</strong> di registrazione per i giustificativi che hanno il campo <strong>Libro VAT italiano</strong> impostato su <strong>Vendite</strong>.</li>
 <li>Per un libro IVA di tipo  <strong>Non incluso</strong>: Selezionare il codice di sequenza numerica appropriato.</li>
 </ul></td>
 </tr>

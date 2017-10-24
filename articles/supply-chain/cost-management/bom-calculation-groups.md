@@ -1,7 +1,7 @@
 ---
 title: Gruppi di calcolo DBA
 description: "In questo articolo sono riportate informazioni sui gruppi di calcolo per le distinte base (DBA) e su come impostarli. Per eseguire un calcolo DBA, è necessario impostare i gruppi di calcolo e assegnarli ai singoli articoli oppure impostare un gruppo di calcolo predefinito. Le impostazioni di calcolo dal gruppo di calcolo vengono poi utilizzate come valori predefiniti nella pagina Calcolo DBA al momento del calcolo DBA."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ La casella di controllo **Interrompi esplosione** viene utilizzata per indicare 
 
 ### <a name="warnings"></a>Avvisi
 
-Nella scheda dettaglio **Avvisi**, si selezionano le opzioni per i messaggi di avviso che gli utenti devono ricevere quando effettuano i calcoli DBA. Ad esempio, se si seleziona la casella di controllo **Nessuna DBA**, l'utente riceve un avviso se non viene trovata alcuna versione DBA attiva per uno dei componenti o l'articolo padre per cui viene eseguito il calcolo DBA. Se si seleziona la casella di controllo **Nessun ciclo di lavorazione**, l'utente riceve un avviso se non è presente alcuna versione attiva del ciclo di lavorazione. Se si utilizzano le risorse nei cicli di lavorazione e le operazioni, è possibile indicare al sistema di verificare la presenza di tali risorse. Quindi, se non viene trovata una risorsa su ogni riga del ciclo di lavorazione attivo, l'utente riceve un messaggio di avviso. È inoltre possibile verificare e controllare il consumo. Il consumo è la quantità in un particolare ciclo di lavorazione. In genere, rappresenta la quantità di tempo necessario per eseguire un'operazione specifica per un processo di produzione. È possibile verificare se un articolo non ha alcun prezzo di costo. Se non vi è alcun prezzo di costo attivo per un articolo, nel calcolo DBA non viene aggiunto alcun costo. È inoltre possibile controllare e verificare la validità del prezzo di costo. Ad esempio, immettere **60** per indicare che il prezzo di costo unitario deve essere rivalutato dopo 60 giorni. Se viene raggiunto questo limite, il sistema genera un avviso. Ad esempio, un prezzo di costo immesso per un articolo nel mese di gennaio dell'anno in corso. Se ora è agosto, ovvero più di 60 giorni dopo l'immissione del prezzo di costo, l'utente riceve un avviso quando viene eseguito il calcolo DBA. È possibile immettere una percentuale nel campo **Margine di contribuzione minimo**. Questo valore indica il punto in cui il margine di contribuzione minimo non è soddisfatto. Se il margine di contribuzione per un particolare componente non è soddisfatto, l'utente riceve un messaggio di avviso. Questo campo assicura pertanto che non si riducano eccessivamente i costi e costi di mantenimento aggiuntivi che potrebbero essere necessari per gli articoli.
-Impostazione predefinita in Parametri di gestione articoli e magazzino
---------------------------------------------------------------
+Nella scheda dettaglio **Avvisi**, si selezionano le opzioni per i messaggi di avviso che gli utenti devono ricevere quando effettuano i calcoli DBA. 
 
-Poiché i gruppi di calcolo sono necessari per eseguire calcoli, è necessario impostare un gruppo di calcolo predefinito nei parametri di Gestione articoli. Questa impostazione consente alle aziende di disporre di un gruppo di costi e un'impostazione di profitto standard per tutti gli articoli. Quindi, se un particolare articolo presenta requisiti particolari di calcolo, l'utente può assegnare un altro gruppo di calcolo a quell'articolo. In genere, è possibile impostare gruppi di calcolo per gli articoli di componente DBA invece gli articoli DBA. Tuttavia, quando sono visualizzati messaggi di avviso, i gruppi di calcolo possono essere applicati. Un gruppo di calcolo assegnato agli articoli sostituisce il valore predefinito impostato nei parametri di Gestione articoli. È possibile impostare il parametro predefinito in **Gestione costi** &gt; **Impostazioni criteri contabili inventario** &gt; **Parametri** &gt; **Contabilità inventario** &gt; **Gruppo di calcolo**. Impostando un gruppo di configurazione predefinito, è inoltre possibile configurare le condizioni di avviso per gli utenti durante il processo di calcolo DBA, se i componenti selezionati potrebbero causare errori di calcolo.
-Visualizzazione dei messaggi di avviso nella pagina Operazione completata
-------------------------------------------
+Ad esempio, se si seleziona la casella di controllo **Nessuna DBA**, l'utente riceve un avviso se non viene trovata alcuna versione DBA attiva per uno dei componenti o l'articolo padre per cui viene eseguito il calcolo DBA. Se si seleziona la casella di controllo **Nessun ciclo di lavorazione**, l'utente riceve un avviso se non è presente alcuna versione attiva del ciclo di lavorazione. Se si utilizzano le risorse nei cicli di lavorazione e le operazioni, è possibile indicare al sistema di verificare la presenza di tali risorse. Quindi, se non viene trovata una risorsa su ogni riga del ciclo di lavorazione attivo, l'utente riceve un messaggio di avviso. 
+
+È inoltre possibile verificare e controllare il consumo. Il consumo è la quantità in un particolare ciclo di lavorazione. In genere, rappresenta la quantità di tempo necessario per eseguire un'operazione specifica per un processo di produzione. È possibile verificare se un articolo non ha alcun prezzo di costo. Se non vi è alcun prezzo di costo attivo per un articolo, nel calcolo DBA non viene aggiunto alcun costo. 
+
+È inoltre possibile controllare e verificare la validità del prezzo di costo. Ad esempio, immettere **60** per indicare che il prezzo di costo unitario deve essere rivalutato dopo 60 giorni. Se viene raggiunto questo limite, il sistema genera un avviso. Ad esempio, un prezzo di costo immesso per un articolo nel mese di gennaio dell'anno in corso. Se ora è agosto, ovvero più di 60 giorni dopo l'immissione del prezzo di costo, l'utente riceve un avviso quando viene eseguito il calcolo DBA. È possibile immettere una percentuale nel campo **Margine di contribuzione minimo**. Questo valore indica il punto in cui il margine di contribuzione minimo non è soddisfatto. Se il margine di contribuzione per un particolare componente non è soddisfatto, l'utente riceve un messaggio di avviso. Questo campo assicura pertanto che non si riducano eccessivamente i costi e costi di mantenimento aggiuntivi che potrebbero essere necessari per gli articoli.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Impostazione predefinita in Parametri di gestione articoli e magazzino
+
+Poiché i gruppi di calcolo sono necessari per eseguire calcoli, è necessario impostare un gruppo di calcolo predefinito nei parametri di Gestione articoli. Questa impostazione consente alle aziende di disporre di un gruppo di costi e un'impostazione di profitto standard per tutti gli articoli. Quindi, se un particolare articolo presenta requisiti particolari di calcolo, l'utente può assegnare un altro gruppo di calcolo a quell'articolo. In genere, è possibile impostare gruppi di calcolo per gli articoli di componente DBA invece gli articoli DBA. Tuttavia, quando sono visualizzati messaggi di avviso, i gruppi di calcolo possono essere applicati. Un gruppo di calcolo assegnato agli articoli sostituisce il valore predefinito impostato nei parametri di Gestione articoli. 
+
+È possibile impostare il parametro predefinito in **Gestione costi** &gt; **Impostazioni criteri contabili inventario** &gt; **Parametri** &gt; **Contabilità inventario** &gt; **Gruppo di calcolo**. Impostando un gruppo di configurazione predefinito, è inoltre possibile configurare le condizioni di avviso per gli utenti durante il processo di calcolo DBA, se i componenti selezionati potrebbero causare errori di calcolo.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Visualizzazione dei messaggi di avviso nella pagina Operazione completata
 
 Un calcolo DBA genera messaggi di avviso. È possibile visualizzare avvisi su un articolo selezionato. Ad esempio in Vendite e marketing, creare un nuovo ordine cliente per l'articolo D0001. Quindi, nella riga dell'ordine cliente, nel menu **Aggiorna riga**, fare clic su **Calcola in base a DBA/formula** per visualizzare i dettagli di calcolo e gli avvisi. È inoltre possibile visualizzare i risultati del calcolo DBA nella pagina **Operazione completata**. Per i messaggi di avviso, sono applicabili solo due condizioni di avviso agli articoli prodotti, mentre per tutti gli altri articoli ne sono applicabili quattro.
 -   Identificare quando a un articolo prodotto non è associata una DBA attiva.
