@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6dfb82acb5dafd365d878949b35d4fe6ff58793d
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +78,7 @@ I giornali di registrazione entrata produzione funzionano in modo analogo ai gio
 
 ### <a name="counting"></a>Conteggio
 
-Giornali di registrazione di conteggio consentono di correggere le scorte attualmente disponibili registrate per gli articoli o i gruppi di articoli e registrare l'effettivo conteggio fisico, in modo che è possibile apportare rettifiche necessarie per riconciliare le differenze. È possibile associare i criteri di conteggio ai gruppi di conteggio per agevolare gli articoli del gruppo con varie caratteristiche, in modo che gli articoli possano essere inclusi in un giornale di registrazione di conteggio. Ad esempio, è possibile impostare i gruppi di conteggio per conteggiare gli articoli che hanno una frequenza specifica o per conteggiare gli articoli quando le scorte rientrano in un livello specifico. Per informazioni su come definire i gruppi di conteggio, vedere [Definire i processi di conteggio scorte (guida attività)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
+Giornali di registrazione di conteggio consentono di correggere le scorte attualmente disponibili registrate per gli articoli o i gruppi di articoli e registrare l'effettivo conteggio fisico, in modo che è possibile apportare rettifiche necessarie per riconciliare le differenze. È possibile associare i criteri di conteggio ai gruppi di conteggio per agevolare gli articoli del gruppo con varie caratteristiche, in modo che gli articoli possano essere inclusi in un giornale di registrazione di conteggio. Ad esempio, è possibile impostare i gruppi di conteggio per conteggiare gli articoli che hanno una frequenza specifica o per conteggiare gli articoli quando le scorte rientrano in un livello specifico. Per informazioni su come definire i gruppi di conteggio, vedere [Definire i processi di conteggio scorte (guida attività)](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Conteggio tag
 

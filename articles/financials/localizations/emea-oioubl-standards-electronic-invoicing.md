@@ -15,13 +15,13 @@ ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
 ms.search.industry: 
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c944fd20273623ce3f7d03a24546addbe987084e
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: d41f4d454bc3a763ca6658babde6c3a6a44be73d
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ Sono disponibili i seguenti formati di fatture elettroniche specifici di ciascun
 -   FacturaE v.3.2.1 per la Spagna
 -   FatturaPA v.1.2 per l'Italia
 
-La fatturazione elettronica è basata su [report elettronici](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting). Esistono un modello dati **Modello fattura cliente** e una serie di configurazioni di formati di report elettronici specifici di ciascun paese create per Austria (AT), Danimarca (DK), Italia (IT), Norvegia (NO), Spagna (ES), Francia (FR), Belgio (BE) e Paesi Bassi (NL).
+La fatturazione elettronica è basata su [report elettronici](../../dev-itpro/analytics/general-electronic-reporting.md). Esistono un modello dati **Modello fattura cliente** e una serie di configurazioni di formati di report elettronici specifici di ciascun paese create per Austria (AT), Danimarca (DK), Italia (IT), Norvegia (NO), Spagna (ES), Francia (FR), Belgio (BE) e Paesi Bassi (NL).
 
 -   Fattura vendite OIOUBL - per AT, DK e NO
 -   Nota di accredito OIOUBL - per AT, DK e NO
@@ -71,7 +71,7 @@ La fatturazione elettronica è basata su [report elettronici](/dynamics365/unifi
 Le fatture e le note di accredito elettroniche che vengono generate includono informazioni obbligatorie, ad esempio un numero EAN (European Article Numbering), il contatto, il numero del conto dimensione e l'indirizzo dei cliente. Le regole di convalida vengono applicate quando le fatture vengono generate in modo che sia possibile verificare la correttezza delle informazioni immesse. Il set di dati necessari può essere diverso da paese a paese. Poiché i requisiti, così come i paesi e i formati supporti, sono soggetti a modifica, è necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**.
 
 ## <a name="additional-information"></a>Informazioni aggiuntive
-Per ulteriori informazioni su come impostare le fatture elettroniche, è possibile riprodurre le seguenti [Guide attività](/dynamics365/unified-operations/dev-itpro/get-started/help-overview#task-guides) nel riquadro della Guida:
+Per ulteriori informazioni su come impostare le fatture elettroniche, è possibile riprodurre le seguenti [Guide attività](../../fin-and-ops/get-started/help-overview.md#task-guides) nel riquadro della Guida:
 
  - Impostare la fatturazione elettronica OIOUBL
  - Importare le configurazioni della fatturazione elettronica OIOUBL

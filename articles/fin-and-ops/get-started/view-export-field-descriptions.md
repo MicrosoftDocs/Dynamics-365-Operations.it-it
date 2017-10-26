@@ -16,13 +16,13 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
+ms.translationtype: HT
+ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
+ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 for Finance and Operations offre descrizioni per alcuni c
 
 Non tutte le pagine presentano descrizioni dei campi. Sono riportate solo le descrizioni dei campi più complessi, non di quelli il cui uso è ovvio. Pertanto, le descrizioni dei campi non sono presenti in alcune pagine, alcune pagine hanno alcune descrizioni e alcune delle pagine più complesse, ad esempio molte delle pagine di parametri, includono molte descrizioni. 
 
-Se si ha accesso all'ambiente di sviluppo di Finance and Operations è possibile aggiungere nuove descrizioni dei campi e personalizzare quelle esistenti. Ad esempio, è possibile aggiungere informazioni specifiche della società per la descrizione di un campo. Per ulteriori informazioni, vedere [Personalizzare la Guida relativa ai campi](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
+Se si ha accesso all'ambiente di sviluppo di Finance and Operations è possibile aggiungere nuove descrizioni dei campi e personalizzare quelle esistenti. Ad esempio, è possibile aggiungere informazioni specifiche della società per la descrizione di un campo. Per ulteriori informazioni, vedere [Personalizzare la Guida relativa ai campi](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Vedere le descrizioni dei campi nell'interfaccia utente.
 È possibile visualizzare le descrizioni dei campi passando con il mouse su un campo. Se non è disponibile alcuna descrizione, verrà visualizzato il nome del campo al passaggio del mouse sul campo. (Nota: in Dynamics AX 7.0 (febbraio 2016) le descrizioni dei campi possono essere visualizzate solo nella pagina **Descrizioni campi**). Nella seguente figura è illustrata la descrizione del campo visualizzato quando si passa con il mouse sul campo **Blocca articoli durante il conteggio**. 
@@ -101,7 +101,7 @@ Per informazioni sui vari modi per trovare le pagine, vedere la sezione "Ricerca
 <a name="see-also"></a>Vedere anche
 --------
 
-[Personalizzare la Guida relativa ai campi](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+[Personalizzare la Guida relativa ai campi](../../dev-itpro/user-interface/customize-field-help.md)
 
 
 

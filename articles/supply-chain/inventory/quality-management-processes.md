@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 31a9141feea56f1c8c1ba5fde446181c157953ad
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 8b6fb933ba4866a76baf24dd092fadc9815562e7
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -100,7 +100,7 @@ La pagina **Correzioni** consente di creare un elenco di non conformità che dev
 
 [Ordini di quarantena](quarantine-orders.md)
 
-[Impostare ordini di controllo qualità (Guida attività)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
+[Impostare ordini di controllo qualità (Guida attività)](tasks/set-up-quality-orders.md)
 
-[Verificare la qualità delle merci (Guida attività)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
+[Verificare la qualità delle merci (Guida attività)](tasks/inspect-quality-goods.md)
 

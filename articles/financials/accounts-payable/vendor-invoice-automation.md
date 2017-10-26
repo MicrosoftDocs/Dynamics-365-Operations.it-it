@@ -15,10 +15,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
-ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 75865ece49837e2a8758c4d739d3e29ce9128945
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Automazione fattura fornitore
@@ -57,7 +57,7 @@ Un pacchetto dati è l'unità di lavoro che deve essere inviata a Finance and Op
 
 L'allegato documento della fattura fornitore è una nuova entità dati che è introdotta come parte di questa funzionalità. L'entità intestazione della fattura fornitore è stata modificata in modo che supporti gli allegati. L'entità riga fattura fornitore non è stata modificata per questa funzionalità.
 
-Questo argomento non contiene una definizione dettagliata di un pacchetto dati. Inoltre non spiega come creare i pacchetti dati. Per queste informazioni, vedere [Framework pacchetti ed entità di dati](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+Questo argomento non contiene una definizione dettagliata di un pacchetto dati. Inoltre non spiega come creare i pacchetti dati. Per queste informazioni, vedere [Framework pacchetti ed entità di dati](../../dev-itpro/data-entities/data-entities-data-packages.md).
 
 Per generare rapidamente i dati di test che includono fatture e allegati, effettuare le seguenti operazioni.
 
