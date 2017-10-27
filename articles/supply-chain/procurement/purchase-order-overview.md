@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c36795a071cc72721558bfa8984ecf1f47501c91
 ms.contentlocale: it-it
-ms.lasthandoff: 06/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ I seguenti articoli forniscono una panoramica delle varie fasi che attraversa un
 -   [Creazione ordine fornitore](purchase-order-creation.md)
 -   [Approvazione e conferma di un ordine fornitore](purchase-order-approval-confirmation.md)
 -   [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
--   [Panoramica delle fatture fornitore](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+-   [Panoramica delle fatture fornitore](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Tipi di ordini fornitore
 Sono disponibili tre tipi di ordini fornitore. Quando si crea un ordine fornitore, è necessario specificare il tipo. È possibile impostare un tipo di ordine predefinito per i nuovi ordini nella pagina **Parametri di approvvigionamento**.
@@ -92,7 +92,7 @@ IL campo **Stato approvazione** viene utilizzato quando un ordine fornitore pass
 
 [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
 
-[Panoramica delle fatture fornitore](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[Panoramica delle fatture fornitore](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

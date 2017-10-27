@@ -19,10 +19,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 069af29012f75aa1a15ba9df86fe1fc9e04eaf41
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ Le firme elettroniche rappresentano un requisito di legge per diversi settori re
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Firme elettroniche in Dynamics 365 for Finance and Operations
 In Finance and Operations è possibile utilizzare le firme elettroniche per i processi aziendali critici. In alcuni processi sono disponibili funzionalità di firma elettronica incorporate. È inoltre possibile creare requisiti di firma personalizzati per qualsiasi tabella o campo di database. 
 
-Nelle firme elettroniche è incorporata la funzionalità di firma digitale. Ogni utente che firma documenti deve ottenere un certificato di crittografia valido. Al momento della firma di un documento, la chiave privata associata al certificato viene convalidata. In Finance and Operations le informazioni relative alle firme elettroniche vengono memorizzate in un registro in modo da costituire un audit trail. Per impostare le firme elettroniche, vedere [Impostare le firme elettroniche (guida attività)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
+Nelle firme elettroniche è incorporata la funzionalità di firma digitale. Ogni utente che firma documenti deve ottenere un certificato di crittografia valido. Al momento della firma di un documento, la chiave privata associata al certificato viene convalidata. In Finance and Operations le informazioni relative alle firme elettroniche vengono memorizzate in un registro in modo da costituire un audit trail. Per impostare le firme elettroniche, vedere [Impostare le firme elettroniche (guida attività)](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Utenti che richiedono l'accesso alle firme elettroniche
 Tre tipi di utenti in genere richiedono l'accesso protetto alle firme elettroniche: amministratori delle firme elettroniche, firmatari e revisori delle firme elettroniche.

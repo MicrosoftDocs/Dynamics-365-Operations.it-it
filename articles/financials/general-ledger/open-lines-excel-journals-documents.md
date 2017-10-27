@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1fed8d162a37736883365fa765a059e5beff06be
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: a4f9e2c5203881f3faeebe4d33e72c7b3bcaa591
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +50,7 @@ Gli utenti possono immettere e pubblicare righe per i giornali di registrazione 
 
 Quando le righe vengono pubblicate, vengono convalidate per assicurare che siano conformi alle regole impostate nei giornali di registrazione finanziari. Dopo che le righe sono state pubblicate, gli utenti possono modificare o registrare i giustificativi da Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
-Per aggiungere le dimensioni finanziarie a un modello, sono richieste modifiche aggiuntive. Per ulteriori informazioni, vedere [Aggiungere dimensioni al modello di Microsoft Excel](/dynamics365/unified-operations/dev-itpro/financial/add-dimensions-excel-templates). Dopo che le dimensioni vengono aggiunte all'entità, diventano disponibili nella finestra di progettazione per Excel e possono essere aggiunte al modello.
+Per aggiungere le dimensioni finanziarie a un modello, sono richieste modifiche aggiuntive. Per ulteriori informazioni, vedere [Aggiungere dimensioni al modello di Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). Dopo che le dimensioni vengono aggiunte all'entità, diventano disponibili nella finestra di progettazione per Excel e possono essere aggiunte al modello.
 
 
 

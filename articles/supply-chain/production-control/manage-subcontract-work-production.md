@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,7 +68,7 @@ Se questa configurazione viene utilizzata, viene creato un ordine fornitore per 
 Un ordine di produzione può includere molte operazioni e ciascuna operazione può essere assegnata a un fornitore diverso. Di conseguenza, un ordine di produzione completo potrebbe attivare più ordini fornitore.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Assegnazione in conto lavoro di attività del flusso di produzione
-La [soluzione lean manufacturing](lean-manufacturing-overview.md)modella il lavoro in conto lavoro come servizio correlato a un'attività di un [flusso di produzione](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) (argomento della guida attività). Di conseguenza, questo tipo di conto lavoro è noto anche come [conto lavoro basato sull'attività.](activity-based-subcontracting.md) Un tipo speciale di tipo di gruppo di costi denominato **Esternalizzazione diretta** è stato introdotto e i servizi in conto lavoro non fanno parte della DBA dei prodotti finiti. Quando si utilizza il lean manufacturing, tutte le attività vengono definite da kanban che possono essere correlati a una o più attività del flusso di produzione. Finora, la descrizione suona analoga a una spiegazione degli ordini di produzione. Tuttavia, mentre gli ordini di produzione devono terminare sempre con un prodotto finito, è possibile creare kanban per fornire un prodotto semilavorato. Non è necessario immettere un nuovo prodotto e un livello DBA.  
+La [soluzione lean manufacturing](lean-manufacturing-overview.md)modella il lavoro in conto lavoro come servizio correlato a un'attività di un [flusso di produzione](tasks/create-production-flow-version.md) (argomento della guida attività). Di conseguenza, questo tipo di conto lavoro è noto anche come [conto lavoro basato sull'attività.](activity-based-subcontracting.md) Un tipo speciale di tipo di gruppo di costi denominato **Esternalizzazione diretta** è stato introdotto e i servizi in conto lavoro non fanno parte della DBA dei prodotti finiti. Quando si utilizza il lean manufacturing, tutte le attività vengono definite da kanban che possono essere correlati a una o più attività del flusso di produzione. Finora, la descrizione suona analoga a una spiegazione degli ordini di produzione. Tuttavia, mentre gli ordini di produzione devono terminare sempre con un prodotto finito, è possibile creare kanban per fornire un prodotto semilavorato. Non è necessario immettere un nuovo prodotto e un livello DBA.  
 
 Poiché le regole kanban possono essere molto dinamiche, è possibile definire varianti diverse di rifornimento per lo stesso prodotto in un flusso di produzione. Quando si utilizza il conto lavoro snello, il flusso di materiale e il flusso finanziario sono separati rigorosamente. Tutto il flusso di materiale è rappresentato da attività kanban. Gli ordini fornitore per i prodotti di tipo servizio e le registrazioni di entrata di tali servizi possono essere automatici, in base allo stato dei processi kanban nel flusso di produzione. I processi kanban possono essere avviati e completati anche prima che gli ordini fornitore vengono creati. I documenti di conto lavoro (ordine fornitore e ricevimento degli acquisti del servizio) possono essere aggregati per periodo e servizio. Di conseguenza, il numero di documenti e righe di acquisto può essere tenuto basso, anche in operazioni molto ripetitive in cui i fornitori forniscono i servizi in conto lavoro in un flusso a singolo componente.
 

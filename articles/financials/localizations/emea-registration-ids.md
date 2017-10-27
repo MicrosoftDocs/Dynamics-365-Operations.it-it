@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c2c625e9c4f0df762abd6120201a2623ac756bf9
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -51,7 +50,7 @@ Prima di immettere l'ID registrazione, è necessario impostare i tipi di registr
 | Principale per paese | Se una parte è associata a uno o più indirizzi in un particolare paese e l'ID di registrazione è valido per tutti gli indirizzi, è necessario definire un indirizzo come primario per il paese. È possibile registrare solo un ID come primario. Determina se il numero di registrazione può essere specificato solo per l'indirizzo del paese primario. |
 
 ## <a name="assign-a-registration-type-to-a-registration-category"></a>Assegnare un tipo di registrazione a una categoria di registrazione
-La categoria di registrazione è l'identificatore di registrazione del paese/regione approvato per l'utilizzo in un particolare paese/regione a fini di imposte doganali e di altro tipo. Questa categoria definisce le regole di convalida di un ID di registrazione specifico (incluse cifre di controllo e così via) e l'ID di registrazione di inclusione in diversi report. Utilizzare la pagina ****Amministrazione organizzazione** &gt; **Rubrica globale** &gt; **Tipi di registrazione** &gt; **Categorie di registrazione** per assegnare il tipo di registrazione di un determinato paese alla categoria di registrazione supportata.
+La categoria di registrazione è l'identificatore di registrazione del paese/regione approvato per l'utilizzo in un particolare paese/regione a fini di imposte doganali e di altro tipo. Questa categoria definisce le regole di convalida di un ID di registrazione specifico (incluse cifre di controllo e così via) e l'ID di registrazione di inclusione in diversi report. Utilizzare la pagina **Amministrazione organizzazione** &gt; **Rubrica globale** &gt; **Tipi di registrazione** &gt; **Categorie di registrazione** per assegnare il tipo di registrazione di un determinato paese alla categoria di registrazione supportata.
 
 | Campo            | descrizione|
 |-----------------------|----------------|
@@ -61,7 +60,7 @@ La categoria di registrazione è l'identificatore di registrazione del paese/reg
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Immettere gli ID di registrazione per i record della Rubrica globale
 
-La Rubrica globale in Microsoft Finance and Operations contiene informazioni consolidate sugli indirizzi di clienti, fornitori, contatti, relazioni commerciali e le persone giuridiche. Per ulteriori informazioni, vedere  [Panoramica della rubrica globale](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). I record delle parti che vengono archiviati nella rubrica globale possono contenere uno o più record di indirizzo. Gli indirizzi vengono utilizzati per scopi diversi, ad esempio la fatturazione o la consegna. È possibile impostare gli ID di registrazione per informazioni sull'indirizzo per clienti, fornitori, lavoratori e persone giuridiche. Individuare la parte (persona giuridica, fornitore, cliente, lavoratore) per cui si desidera immettere l'ID di registro e fare clic su **D registrazione** nei moduli correlati per la parte, la persona giuridica, il fornitore, il cliente, il lavoratore per aprire la pagina **Gestisci indirizzi** . Nella scheda **Registrazione fiscale** fare clic su  **Aggiungi** quindi immettere le seguenti informazioni sull'ID registrazione.
+La Rubrica globale in Microsoft Finance and Operations contiene informazioni consolidate sugli indirizzi di clienti, fornitori, contatti, relazioni commerciali e le persone giuridiche. Per ulteriori informazioni, vedere  [Panoramica della rubrica globale](../../fin-and-ops/organization-administration/overview-global-address-book.md). I record delle parti che vengono archiviati nella rubrica globale possono contenere uno o più record di indirizzo. Gli indirizzi vengono utilizzati per scopi diversi, ad esempio la fatturazione o la consegna. È possibile impostare gli ID di registrazione per informazioni sull'indirizzo per clienti, fornitori, lavoratori e persone giuridiche. Individuare la parte (persona giuridica, fornitore, cliente, lavoratore) per cui si desidera immettere l'ID di registro e fare clic su **D registrazione** nei moduli correlati per la parte, la persona giuridica, il fornitore, il cliente, il lavoratore per aprire la pagina **Gestisci indirizzi** . Nella scheda **Registrazione fiscale** fare clic su  **Aggiungi** quindi immettere le seguenti informazioni sull'ID registrazione.
 
 
 |Campo                |descrizione                                                |

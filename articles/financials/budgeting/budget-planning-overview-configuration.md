@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: it-it
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ Nel seguente esempio, la sede centrale aziendale stima gli importi di base inizi
 
 Nella pagina **Gerarchia organizzativa**, è possibile definire una gerarchia organizzativa come gerarchia di pianificazione del budget per ciascun processo di pianificazione del budget. La gerarchia di pianificazione del budget non deve corrispondere alla gerarchia di organizzazione normale utilizzata per altri scopi. Poiché la gerarchia viene utilizzata per aggregare e distribuire i dati, è possibile desiderare che abbia una struttura diversa. Nello schema di esempio, i reparti vendite sono sotto un livello della sede centrale che include i reparti di amministrazione e budget. Questa struttura probabilmente è diversa dalla struttura utilizzata per gestire le operazioni per i reparti vendite. Una sola gerarchia organizzativa può essere assegnata a ogni processo di pianificazione del budget. 
 
-Per ulteriori informazioni sulle gerarchie organizzative, vedere [Organizzazioni e gerarchie organizzative](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
+Per ulteriori informazioni sulle gerarchie organizzative, vedere [Organizzazioni e gerarchie organizzative](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Sicurezza utente
 

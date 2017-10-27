@@ -16,13 +16,13 @@ ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che inclu
 
 ## <a name="what-is-a-credit-transfer-message"></a>Che cos'è un messaggio di bonifico?
 Il messaggio di bonifico è una richiesta inviata dalla parte che inizia la transazione (la società) per spostare fondi dal proprio conto a quello di un creditore. Esistono molte implementazioni specifiche per banca e per paese di messaggi di bonifico. Alcune di tali implementazioni sono utilizzate all'interno di un paese e alcune stanno diventando standard. Uno standard globale affermato è ISO 20022 e i relativi messaggi di inizio della transazione, ad esempio Bonifico. La figura riportata di seguito mostra le relazioni e la copertura per messaggi di bonifico selezionati. 
-![Bonifico](./media/credit-transfer.jpg) Messaggi di bonifico\[/didascalia\] 
+![Bonifico](./media/credit-transfer.jpg) Messaggi di bonifico 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Che cosa sono i pagamenti ISO 20022 e SEPA?
 SEPA (Single Euro Payments Area) viene impostata dalla Commissione Europea e stabilisce che tutti i pagamenti elettronici vengono considerati nazionali, indipendentemente dal paese in cui si trovano i singoli individui, le aziende o l'organizzazione e la banca. Non c'è differenza tra i pagamenti nazionali e quelli transfrontalieri. Il SEPA include i 28 stati membri dell'Unione Europea (UE) oltre all'Islanda, il Liechtenstein, la Norvegia, la Svizzera, Monaco e San Marino. SEPA consente di formare un singolo mercato per le transazioni di pagamento all'interno dell'Area Economica Europea. Infine, SEPA prevede di ridurre il numero dei formati di pagamento con cui lavorano le banche, le aziende e i singoli individui. La Commissione Europea ha stabilito la base legale per i pagamenti SEPA nella direttiva relativa ai servizi di pagamento. L'European Payment Council (EPC) supporta SEPA nelle seguenti attività:
@@ -59,7 +59,7 @@ Il formato di pagamento dei bonifici per i paesi europei è implementato utilizz
 È necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**. La sezione successiva, "Cosa devo impostare?", fornisce un collegamento all'argomento che illustra come creare un archivio LCS per esaminare le configurazioni disponibili e importare quelle selezionate.
 
 ## <a name="what-do-i-have-to-set-up"></a>Cosa devo impostare?
--   Prima di poter creare file di bonifico, almeno una configurazione attiva di bonifico deve essere importata nelle configurazioni ER. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Prima di poter creare file di bonifico, almeno una configurazione attiva di bonifico deve essere importata nelle configurazioni ER. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Quando si configurano i metodi di pagamento per la contabilità fornitori, selezionare la casella di controllo **Report elettronici generici**, quindi selezionare il formato di bonifico appropriato (ad esempio **Bonifico ISO 20022 (AT)**) come configurazione del formato di esportazione.
 -   È inoltre necessario impostare la persona giuridica e le informazioni sul conto bancario in Finance and Operations.
 -   I numeri di conto bancario, IBAN, e talvolta i codici SWIFT (BIC) o altri ID sono necessari per creare pagamenti tramite bonifico validi. Di conseguenza, è necessario impostarli per il conto bancario del fornitore e il conto bancario per l'organizzazione che richiede il trasferimento.

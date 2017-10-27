@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: it-it
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -183,8 +182,8 @@ In questo esercizio verrà creato un nuovo report. Il report del conto economico
 18. **Salvare** le modifiche e **generare**. Una volta generato e aperto il report, è possibile esplorarlo.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-[Report finanziari](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[Visualizza report finanziari](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[Report finanziari](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[Visualizza report finanziari](../../financials/general-ledger/view-financial-reports.md) 
 [Blog per i report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

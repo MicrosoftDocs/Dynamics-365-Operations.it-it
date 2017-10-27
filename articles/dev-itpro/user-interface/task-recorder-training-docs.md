@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ Per i passaggi dettagliati della procedura, vedere [Come creare un file di Regis
 11. Scegliere come salvare la registrazione attività.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Includere i file di Registrazione attività nel riquadro della Guida
-Per visualizzare i file di Registrazione attività personalizzati nel riquadro della Guida in modo che possano essere riprodotti come guide attività o visualizzati come testo, è necessario salvare i file di Registrazione attività nella libreria BPM, quindi aggiornare i parametri di sistema della Guida in modo che puntino alla libreria BPM. Per ulteriori informazioni, vedere [Collegamento alla Guida](../get-started/help-connect.md).
+Per visualizzare i file di Registrazione attività personalizzati nel riquadro della Guida in modo che possano essere riprodotti come guide attività o visualizzati come testo, è necessario salvare i file di Registrazione attività nella libreria BPM, quindi aggiornare i parametri di sistema della Guida in modo che puntino alla libreria BPM. Per ulteriori informazioni, vedere [Collegamento alla Guida](../../fin-and-ops/get-started/help-connect.md).
 
 <a name="see-also"></a>Vedere anche
 --------
 
-[Panoramica della Guida](..\get-started\help-overview.md)
+[Panoramica della Guida](../../fin-and-ops/get-started/help-overview.md)
 
-[Collegarsi alla Guida](..\get-started\help-connect.md)
+[Collegarsi alla Guida](../../fin-and-ops/get-started/help-connect.md)
 
 [Registrazione attività](task-recorder.md)
 

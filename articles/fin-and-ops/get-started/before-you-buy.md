@@ -14,13 +14,13 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 21761
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 831550256176df6fa8542b9985eba1b9b1282fcb
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ Per i nuovi utenti di Dynamics 365 for Finance and Operations, Enterprise Editio
 
 ## <a name="step-two-choose-a-deployment-option"></a>Passaggio due: selezionare un'opzione di distribuzione
 Ora è possibile distribuire Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition nel cloud o in locale. Le distribuzioni sul cloud offrono un servizio ERP interamente gestito da Microsoft, mentre le distribuzioni locali sono effettuate all'interno del data center di un cliente.
-Per ulteriori informazioni, vedere: [Opzioni di distribuzione](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type) 
+Per ulteriori informazioni, vedere: [Opzioni di distribuzione](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Passaggio tre: acquistare e gestire una sottoscrizione
 Per esplorare le opzioni di sottoscrizione, visualizzare la pagina dei prezzi [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). In questa pagina sono disponibili vari piani per soddisfare le esigenze dell'organizzazione.
@@ -60,7 +60,7 @@ Nei Contratti multilicenza Finance and Operations è disponibile tramite:
 Un provider della soluzione cloud Microsoft può offrire la propria collaborazione per comprendere le esigenze dell'azienda o dell'organizzazione. [Utilizzare il portale Centro per i partner Microsoft per individuare un partner che soddisfi le proprie esigenze](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Acquisto tramite un partner Dynamics (locale)
-È necessario collaborare con un partner per acquistare Finance and Operations (locale). Per ulteriori informazioni, vedere [Acquistare Dynamics 365 for Finance and Operations, Enterprise Edition (locale)](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises)
+È necessario collaborare con un partner per acquistare Finance and Operations (locale). Per ulteriori informazioni, vedere [Acquistare Dynamics 365 for Finance and Operations, Enterprise Edition (locale)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Scegliere l'opzione di supporto
 Microsoft offre supporto, servizi e risorse leader del settore e flessibili, che consentono agli utenti di risolvere rapidamente i problemi tecnici e di ottimizzare il ritorno sugli investimenti per Dynamics 365. Scegliere un piano che soddisfi al meglio i requisiti aziendali. 
