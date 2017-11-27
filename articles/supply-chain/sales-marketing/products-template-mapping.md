@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare i prodotti da Finance and Operations ai prodotti In Sales
-description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i prodotti da Microsoft Dynamics 365 for Finance and Operations, Enterprise edition a Microsoft Dynamics 365 for Sales."
+description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i prodotti da Microsoft Dynamics 365 for Finance and Operations, Enterprise edition in Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/28/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: 063a20f133a00620bdf389b0a52a90bc61e2f7d4
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 405a6cf9f3e6cc52925ff7d9f10836196343c36b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,13 +34,13 @@ ms.lasthandoff: 09/29/2017
 > [!NOTE]
 > Prima di utilizzare la soluzione Prospect to cash, acquisisci familiarità con [Integrazione dei dati di Microsoft Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration). 
 
-Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i prodotti da Microsoft Dynamics 365 for Finance and Operations, Enterprise edition a Microsoft Dynamics 365 for Sales.
+Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i prodotti da Microsoft Dynamics 365 for Finance and Operations, Enterprise edition in Microsoft Dynamics 365 for Sales.
 
 ## <a name="template-and-task"></a>Modello e attività
 
-I seguenti modelli e le seguenti attività sottostanti vengono utilizzati per sincronizzare i prodotti da Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Finance and Operations) a Microsoft Dynamics 365 for Sales (Sales).
+I seguenti modelli e le seguenti attività sottostanti vengono utilizzati per sincronizzare i prodotti da Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Finance and Operations) in Microsoft Dynamics 365 for Sales (Sales).
 
--   Nome del modello: Prodotti (Fin and Ops a Sales)
+-   Nome del modello: Prodotti (da Fin and Ops in Sales)
 
 -   Nome dell'attività del progetto: Prodotti
 
@@ -117,7 +117,7 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping nell'
 
 [Sincronizzare intestazioni e righe di offerte di vendita da Sales in Finance and Operations](sales-quotation-template-mapping.md)
 
-[Sincronizzare intestazioni e righe di ordini di vendita da Finance and Operations in Sales](sales-order-template-mapping.md)
+[Sincronizzare intestazioni e righe di ordini cliente da Finance and Operations in Sales](sales-order-template-mapping.md)
 
 [Sincronizzare intestazioni e righe di fatture di vendita da Finance and Operations in Sales](sales-invoice-template-mapping.md)
 

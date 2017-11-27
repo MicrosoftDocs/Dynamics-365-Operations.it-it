@@ -3,7 +3,7 @@ title: " Creare i colli prodotto per gli ordini fornitore"
 description: In questa procedura vengono descritti i passaggi per creare un collo di prodotti e utilizzarlo in un ordine fornitore.
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a3be1e7aca7f0382aea55fa8a371c33c8b53df95
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 9d3ea8702c79d8aa6bb7cf7caa922277697610fa
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> Creare i colli prodotto per gli ordini fornitore
@@ -53,7 +53,7 @@ In questa procedura vengono descritti i passaggi per creare un collo di prodotti
 20. Fare clic su Salva.
 21. Chiudere la pagina.
 
-## <a name="add-package-to-puchase-order"></a>Aggiungere il collo all'ordine fornitore
+## <a name="add-package-to-purchase-order"></a>Aggiungere il collo all'ordine fornitore
 1. Fare clic su Contabilità fornitori > Ordini fornitore > Tutti gli ordini fornitore.
 2. Fare clic su Nuovo.
 3. Nel campo Conto fornitore fare clic sul pulsante a discesa per aprire la ricerca.

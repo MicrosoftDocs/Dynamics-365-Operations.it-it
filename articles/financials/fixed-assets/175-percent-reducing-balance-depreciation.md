@@ -1,9 +1,9 @@
 ---
-title: Riduzione del 175% dell'ammortamento del saldo
-description: Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 175%.
+title: Ammortamento a saldi decrescenti del 175%
+description: Questo argomento offre una panoramica del metodo di ammortamento a saldi decrescenti del 175%.
 author: saraschi2
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 318e111f784157666c2853bcd6d5b3af2c9ffdc5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="175-percent-reducing-balance-depreciation"></a>Riduzione del 175% dell'ammortamento del saldo
+# <a name="175-percent-reducing-balance-depreciation"></a>Ammortamento a saldi decrescenti del 175%
 
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 175%.
+Questo argomento offre una panoramica del metodo di ammortamento a saldi decrescenti del 175%.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Saldo decrescente 175%** nel campo **Metodo** della pagina **Profili di ammortamento**, ai cespiti che sono assegnati al profilo di ammortamento verrà applicata la stessa percentuale di ammortamento in ciascun periodo di ammortamento. 
 
@@ -58,7 +58,7 @@ Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza 
 
 ### <a name="fiscal"></a>Fiscale
 
-Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, l'ammortamento a saldi decrescenti del 175% viene calcolato in base all'anno fiscale del calendario fiscale specificato per il libro oppure del calendario fiscale selezionato nella pagina **Contabilità generale**. I calendari fiscali vengono impostati nella pagina **Calendari fiscali**. Per ulteriori informazioni, vedere [Calendari fiscali, anni fiscali e periodi.](..\budgeting\fiscal-calendars-fiscal-years-periods.md)
+Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, l'ammortamento a saldi decrescenti del 175% viene calcolato in base all'anno fiscale del calendario fiscale specificato per il libro oppure del calendario fiscale selezionato nella pagina **Contabilità generale**. I calendari fiscali vengono impostati nella pagina **Calendari fiscali**. Per ulteriori informazioni, vedere [Calendari fiscali, anni fiscali e periodi](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
 Se ad esempio l'anno fiscale inizia il 1° luglio e termina il 30 giugno, il calcolo dell'ammortamento inizia il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato automaticamente per ciascun periodo e la durata dell'anno fiscale successivo dipende dall'impostazione dei periodi nella pagina **Calendari fiscali**. 
 

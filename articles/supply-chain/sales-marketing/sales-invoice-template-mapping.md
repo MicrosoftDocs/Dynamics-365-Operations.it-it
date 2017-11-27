@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fb5ba099911deda5308daf92d82cd6b3489995bf
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 22ab02555dcac850b18aac9564af41d6c627eade
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -142,6 +142,6 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping nell'
 
 [Sincronizzare intestazioni e righe di offerte di vendita da Sales in Finance and Operations](sales-quotation-template-mapping.md)
 
-[Sincronizzare intestazioni e righe di ordini di vendita da Finance and Operations in Sales](sales-order-template-mapping.md)
+[Sincronizzare intestazioni e righe di ordini cliente da Finance and Operations in Sales](sales-order-template-mapping.md)
 
 

@@ -3,7 +3,7 @@ title: Visualizzare le scritture contabili o le transazioni
 description: In questa procedura viene illustrato l'utilizzo della Richiesta di informazioni su transazioni giustificativo per cercare gli inserimenti nel giornale di registrazione o le transazioni.
 author: aprilolson
 manager: AnnBe
-ms.date: 10/24/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07a89782498fe47879a36cc9379e5af1a6f5ddce
+ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
+ms.openlocfilehash: 2188d09fc074cdd7a8b1ce20e64652a2d6020e1d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="view-journal-entries-or-transactions"></a>Visualizzare le scritture contabili o le transazioni
@@ -30,7 +30,7 @@ In questa procedura viene illustrato l'utilizzo della Richiesta di informazioni 
 
 1. Passare a Contabilità generale > Richieste di informazioni e report > Transazioni giustificativo.
 2. Selezionare il campo per il quale si desidera definire i criteri di filtro.
-3. Immettere i propri critieri di filtro per il campo selezionato.
+3. Immettere i propri criteri di filtro per il campo selezionato.
     * È possibile applicare un filtro a un singolo valore o a un intervallo. Nel definire un intervallo, verificare che la sintassi utilizzata sia corretta. I valori devono essere separati da un doppio punto (..).  
 4. Fare clic sulla scheda Join per aggiungere tabelle aggiuntive dalle quali filtrare.
 5. Nella struttura, selezionare 'Tabelle\Voce giornale di registrazione generale'.

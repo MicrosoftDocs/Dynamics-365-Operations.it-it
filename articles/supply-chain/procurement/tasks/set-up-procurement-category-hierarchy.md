@@ -3,7 +3,7 @@ title: Impostare una gerarchia di categorie di approvvigionamento
 description: Questa procedura illustra come creare nuovi nodi in una gerarchia di categorie di approvvigionamento e come configurare una categoria di approvvigionamento per essere utilizzata in un processo di approvvigionamento.
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Impostare una gerarchia di categorie di approvvigionamento
@@ -30,7 +30,7 @@ Questa procedura illustra come creare nuovi nodi in una gerarchia di categorie d
 
 
 ## <a name="add-a-new-procurement-category"></a>Aggiungere una categoria di approvvigionamento
-1. Andare ad Approvvigionamento > .. > Categorie di approvvigionamento.
+1. Passare a Approvvigionamento > Categorie di approvvigionamento.
 2. Fare clic su Modifica gerarchia di categorie.
     * La gerarchia di categorie di approvvigionamento corrente viene visualizzata nella parte sinistra della pagina. Si sta per modificare la gerarchia.  
 3. Fare clic su nodo Nuova categoria.
@@ -42,7 +42,7 @@ Questa procedura illustra come creare nuovi nodi in una gerarchia di categorie d
 7. Fare clic su Salva.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Aggiungere prodotti alla nuova categoria di approvvigionamento
-1. Andare ad Approvvigionamento > .. > Categorie di approvvigionamento.
+1. Passare a Approvvigionamento > Categorie di approvvigionamento.
     * Selezionare il nodo aggiunto. Se si esegue la procedura come guida attività, potrebbe essere necessario sbloccare quest'ultima per selezionare il nodo.  
 2. Attivare/disattivare l'espansione della sezione Prodotti.
 3. Fare clic su Aggiungi per associare i prodotti alla categoria di approvvigionamento.

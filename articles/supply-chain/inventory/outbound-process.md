@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: it-it
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Andare a **Gestione articoli** \> **Impostazioni** \> **Parametri di gestione ar
 
 [![Opzione Termina ordine di magazzino in uscita](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-Talvolta, alcuni articoli in magazzino non possono essere prelevati durante il processo relativo alle distinte di prelievo. Ad esempio, questa situazione potrebbe verificarsi se un addetto al magazzino riduce le quantità nelle righe di prelievo ed elabora la distinta di prelievo. Se l'opzione **Termina ordine di magazzino in uscita** è impostata su **Sì**, le quantità rimanenti non prelevate sono registrate di nuovo a livello dell'ordine. Se l'opzione è impostata su **No**, le quantità rimanenti non prelevate vengono mantenute come quantità dell'ordine di uscita aperto. In questo caso, le quantità rimangono rilasciate al magazzino e devono essere aggiunte a una nuova distinta di prelievo come parte della funzionalità **Ordini di uscita aperti**.
+Quando il lavoratore di magazzino riduce le quantità della distinta di prelievo, le quantità dell'ordine di magazzino corrispondenti verranno rimosse dalla spedizione. Quando la distinta di prelievo viene aggiornata, le quantità rimanenti vengono registrate di nuovo nell'ordine se l'opzione **Termina ordine di magazzino in uscita** è impostata su **Sì**. Se l'opzione **Termina ordine di magazzino in uscita** è impostata su **No**, le quantità rimanenti vengono mantenute come quantità dell'ordine di uscita aperto e devono essere aggiunte a una nuova distinta di prelievo come parte della funzionalità **Ordini di uscita aperti**. 
 
 [![Comando Ordini di uscita aperti nel menu Funzioni](./media/open-output-order.png)](./media/open-output-order.png)
 

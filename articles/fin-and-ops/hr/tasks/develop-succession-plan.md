@@ -3,7 +3,7 @@ title: Sviluppare un piano di successione
 description: Se l'organizzazione si sviluppa e si prende in considerazione la pianificazione della successione, potrebbe essere necessario cercare qualcuno che abbia competenze simili a un'altra persona.
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b1caaf5f52282a8daae62602dcc5ef86b901e338
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: 2ca5f541abe4f85187aaefdbb03ca84e4f314b3c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="develop-a-succession-plan"></a>Sviluppare un piano di successione
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Se l'organizzazione si sviluppa e si prende in considerazione la pianificazione della successione, potrebbe essere necessario cercare qualcuno che abbia competenze simili a un'altra persona.  Il mapping delle competenze consente di analizzare i dipendenti esistenti e i candidati per verificare se soddisfano il set di competenze di un dipendente stimato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
+Se l'organizzazione si sviluppa e si prende in considerazione la pianificazione della successione, potrebbe essere necessario cercare qualcuno che abbia competenze simili a un'altra persona.  Il mapping delle competenze consente di analizziate i dipendenti esistenti e i candidati per verificare se soddisfano il set di competenze di un dipendente stimato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
 1. Andare a Risorse umane > Competenze > Analisi competenze > Profili mapping competenze.
 2. Fare clic su Nuovo.

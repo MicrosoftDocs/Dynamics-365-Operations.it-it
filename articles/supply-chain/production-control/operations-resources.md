@@ -3,7 +3,7 @@ title: Risorse Operations
 description: "Le risorse operative eseguono le attività di un progetto o di un processo di produzione. Possono essere di diversi tipi e possono avere capacità diverse."
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Le risorse operative sono assegnate alle attività quando viene programmato un p
 
 -   **Capacità**: consente di specificare la capacità della risorsa operativa all'ora in termini di unità di misura della capacità.
 -   **Capacità batch**: consente di specificare il numero massimo di pezzi che la risorsa operativa può lavorare per elaborazione.
--   **Percentuale efficienza**: consente di specificare l'efficienza che ci si attende dalla risorsa operativa. La percentuale di efficienza consente di rettificare la produttività di una risorsa operativa e influisce sul tempo riservato per la risorsa. I lead time per le operazioni che utilizzano la risorsa operativa vengono pertanto rettificati. Viene utilizzata la seguente formula per il calcolo: Tempo di programmazione = Tempo × 100 ÷ Percentuale efficienza. In questa formula *Tempo* indica sia il tempo di esecuzione che il tempo di attrezzaggio.
+-   **Percentuale efficienza**: consente di specificare l'efficienza che ci si attende dalla risorsa operativa. La percentuale di efficienza consente di rettificare la produttività di una risorsa operativa e influisce sul tempo riservato per la risorsa. I lead time per le operazioni che utilizzano la risorsa operativa vengono pertanto rettificati. Viene utilizzata la seguente formula per il calcolo: Tempo di programmazione = Tempo × 100 ÷ Percentuale efficienza. Nella formula, *Tempo indica* sia il tempo di esecuzione che il tempo di attrezzaggio.
 -   **Percentuale programmazione operazioni**: consente di specificare la percentuale massima di capacità della risorsa operativa che si desidera utilizzare nella programmazione delle operazioni. Per consentire un'adeguata flessibilità della capacità durante la programmazione dei processi, questo valore deve essere inferiore al 100%.
 -   **Capacità limitata**: impostare questa opzione su **Sì** se la risorsa operativa deve essere programmata in base all'effettiva capacità disponibile e se devono essere considerate le prenotazioni esistenti della capacità. Se l'opzione è impostata su **No**, si presuppone che la risorsa operativa abbia una capacità illimitata e la risorsa può essere di conseguenza prenotata in eccesso.
 -   **Proprietà limitata**: consente di impostare questa opzione su **Sì** se si desidera programmare la risorsa operativa sulla base della capacità effettiva disponibile relativamente alle proprietà di programmazione dell'orario di lavoro obbligatorio.

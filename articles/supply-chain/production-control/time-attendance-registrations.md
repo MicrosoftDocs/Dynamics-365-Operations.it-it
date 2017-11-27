@@ -1,9 +1,9 @@
 ---
 title: Registrazione Orario e presenze
-description: "I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo articolo vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l'approvazione automatica al processo di approvazione delle schede attività."
+description: "I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo argomento vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l'approvazione automatica al processo di approvazione delle schede attività."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83603b1f8d20c18b7f10cd7224d491b558ee1b8b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo articolo vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l'approvazione automatica al processo di approvazione delle schede attività. 
+I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo argomento vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l'approvazione automatica al processo di approvazione delle schede attività. 
 
 <a name="registrations"></a>Registrazioni
 -------------
@@ -66,7 +66,7 @@ Dopo l'impostazione i lavoratori possono immettere tipi diversi di registrazioni
 -   Attività indirette, ovvero attività non produttive che un lavoratore potrebbe intraprendere nel corso di una giornata lavorativa. Esempi di queste attività comprendono le riunioni o la pulitura dell'area di lavoro.
 -   Straordinario, che può essere registrato come ore aggiuntive, orario flessibile o ore straordinarie.
 
-## <a name="adding-clockout-registrations"></a>Aggiunta di registrazioni dell'uscita
+## <a name="adding-clock-out-registrations"></a>Aggiunta di registrazioni dell'uscita
 Se un lavoratore dimentica di registrare l'uscita al termine della giornata lavorativa, è possibile aggiungere la registrazione dimenticata eseguendo un processo batch. Il sistema confronterà l'ora di entrata e l'ora di uscita in base al profilo associato del lavoratore e inserirà automaticamente la registrazione dell'ora di uscita mancante per farla corrispondere all'ora di fine del profilo. Entrambi le registrazioni di entrata e di uscita sono importanti per il calcolo e l'approvazione successivi delle registrazioni delle ore prima che vengano trasferite alle retribuzioni.
 
 ## <a name="calculating-registrations"></a>Calcolo delle registrazioni

@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare contatti da Sales a contatti o clienti in Finance and Operations
-description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare Contatto (Contatti) e Contatto (Clienti) da Microsoft Dynamics 365 for Sales a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare Contatto (Contatti) e Contatto (Clienti) da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/28/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: 41e27776b94df059ada13efb9a3dbf6a29d67f36
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c838fef502f643c764fade9cd79ae770ffc36974
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 > [!NOTE]
 > Prima di utilizzare la soluzione Prospect to cash, acquisisci familiarità con [Integrazione dei dati di Microsoft Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration). 
 
-Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le entità Contatto (Contatti) e Contatto (Clienti) da Microsoft Dynamics 365 for Sales (Sales) a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (Finance and Operations).
+Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le entità Contatto (Contatti) e Contatto (Clienti) da Microsoft Dynamics 365 for Sales (Sales) in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (Finance and Operations).
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
@@ -42,15 +42,15 @@ I modelli e le attività sottostanti che seguono vengono utilizzati per sincroni
 
 - **Nomi dei modelli:**
 
-    - Contatti (da Sales a Fin and Ops)
-    - Da Contatti a Cliente (da Sales a Fin and Ops)
+    - Contatti (da Sales in Fin and Ops)
+    - Da Contatti a Cliente (da Sales in Fin and Ops)
 
 - **Nomi delle attività del progetto:**
 
     - Contatti
     - ContactToCustomer
 
-La seguente attività di sincronizzazione è richiesta prima della sincronizzazione di Contatto: Conti (da Sales a Fin and Ops)
+La seguente attività di sincronizzazione è richiesta prima della sincronizzazione di Contatto: Conti (da Sales in Fin and Ops)
 
 ## <a name="entity-sets"></a>Insiemi di entità
 

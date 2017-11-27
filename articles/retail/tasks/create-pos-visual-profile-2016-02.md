@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2b70bc95f56839da76612df2be3b35362925b977
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: 151250ed0ad68a0e5827a74918ef6323a4c4279e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="create-a-pos-visual-profile"></a> Creare un profilo visivo POS  
@@ -37,7 +37,7 @@ In questa procedura vengono descritti i passaggi per creare un profilo visivo di
 6. Nell'elenco fare clic sul collegamento nella riga selezionata.
 7. Nel campo Tema fare clic sul pulsante a discesa per aprire la ricerca.
 8. Nell'elenco fare clic sul collegamento nella riga selezionata.
-9. Nel campo Colore accento, fare clic sul pulsante a discesa per aprire la ricerca.
+9. Nel campo Colore accento fare clic sul pulsante a discesa per aprire la ricerca.
 10. Nell'elenco trovare e selezionare il record desiderato.
 11. Nell'elenco fare clic sul collegamento nella riga selezionata.
 12. Attivare l'espansione della sezione Sfondo accesso.

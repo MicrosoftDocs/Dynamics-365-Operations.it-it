@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Progettare una configurazione per la generazione di report in formato Microsoft Word per la creazione di report elettronici (ER)
@@ -30,9 +30,9 @@ I passaggi seguenti descrivono come un utente con il ruolo di amministratore di 
 
 Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi "Creare una configurazione ER per la generazione di report in formato OPENXML" nella guida attività. In anticipo, è inoltre necessario scaricare e salvare i seguenti modelli localmente per il report di esempio:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[Modello di Report di pagamento](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[Modello associato di Report di pagamento](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Questa procedura è per una funzionalità che è stata aggiunta in Microsoft Dynamics 365 for Operations versione 1611.
 
@@ -49,7 +49,7 @@ Questa procedura è per una funzionalità che è stata aggiunta in Microsoft Dyn
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Sostituire il modello di Excel con il modello di Word
     * Attualmente, il documento di Excel viene utilizzato come modello per generare l'output nel formato OPENXML. Il modello di report verrà importato in formato Word.  
 1. Fare clic su Allegati.
-    * Sostituire il modello esistente di Excel con il modello di Word scaricato in precedenza, SampleVendPaymDocReport.docx. Si noti che il modello contiene solo il layout di documento che si desidera generare come output ER.  
+    * Sostituire il modello esistente di Excel con il modello di Word scaricato in precedenza, Modello di Report di pagamento. Si noti che il modello contiene solo il layout di documento che si desidera generare come output ER.  
 2. Fare clic su Elimina.
 3. Fare clic su Sì.
 4. Fare clic su Nuovo.

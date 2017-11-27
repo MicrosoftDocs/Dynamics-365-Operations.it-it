@@ -1,9 +1,9 @@
 ---
 title: Criteri di abbinamento a tre elementi di verifica
-description: Questo articolo fornisce esempi di abbinamento a tre elementi di verifica.
+description: Questo argomento fornisce esempi di abbinamento a tre elementi di verifica.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bc53df6b994c0d2e490e8823a53478f2ad04e163
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce esempi di abbinamento a tre elementi di verifica.
+Questo argomento fornisce esempi di abbinamento a tre elementi di verifica.
 
 <a name="example-three-way-matching-for-items"></a>Esempio: criteri di abbinamento a tre elementi di verifica per gli articoli
 -------------------------------------
@@ -65,7 +65,7 @@ I criteri di abbinamento fatture in questo esempio sono di supporto alle persone
 1.  Sammy, un lavoratore nel reparto addetto al ricevimento in Fabrikam, riceve la quantità totale di computer forniti da Contoso. Immette una quantità di 5 in un'entrata prodotti. Poiché l'ordine fornitore è stato interamente ricevuto, lo stato dell'ordine fornitore cambia in Ricevuto.
 2.  April, che coordina la contabilità fornitori in Fabrikam, immette e verifica la fattura che viene inviata da Contoso. Verifica le informazioni seguenti:
     -   Per gli articoli che richiedono i criteri di abbinamento a tre elementi di verifica, la quantità nella riga fattura corrisponde alla quantità ricevuta. La quantità ricevuta è indicata nell'entrata prodotti abbinata alla fattura.
-    -   Per gli articoli che richiedono abbinamento a due oppure a tre elementi di verifica, i prezzi della riga fattura sono nelle tolleranze definite in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Sono inclusi i seguenti tipi di abbinamento prezzi:
+    -   Per gli articoli che richiedono i criteri di abbinamento a due o a tre elementi di verifica, i prezzi nella riga fattura rientrano nelle tolleranze definite in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Sono inclusi i seguenti tipi di abbinamento prezzi:
         -   Abbinamento dei prezzi unitari netti: il prezzo unitario netto nella riga fattura corrisponde al prezzo unitario netto nella riga ordine fornitore nella percentuale di tolleranza. In questo esempio la tolleranza del prezzo unitario netto è pari a +8%.
         -   Abbinamento totali dei prezzi: l'importo netto della riga fattura corrisponde all'importo netto della riga ordine fornitore in termini di percentuale o importo di tolleranza o entrambi. In questo esempio la tolleranza di abbinamento dei totali dei prezzi è pari a +15%.
 

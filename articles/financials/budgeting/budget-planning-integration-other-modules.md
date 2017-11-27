@@ -3,14 +3,14 @@ title: Integrazione della pianificazione del budget con altri moduli
 description: "I piani di budget possono essere generati tramite molteplici risorse differenti. Gli elementi di base del processo periodico sono uguali per tutte le risorse."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 311a5cbd3768d8ecc7e7430717369193e60c3e57
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -59,7 +59,7 @@ Per ciascun processo di creazione, sono disponibili tre azioni:
 
 Per tutti i processi, la scheda **Origine** consente di filtrare i dati utilizzando il pulsante **Filtro**. Per impostazione predefinita, i campi specifici vengono aggiunti al filtro per ciascun processo. Ad esempio per il processo **Genera piano di budget da contabilità generale**, le categorie **Conto CoGe** e **Conto principale** sono disponibili e compaiano nella pagina della creazione. Tutti i campi aggiunti al filtro vengono aggiunti anche alla pagina, insieme a qualsiasi altro criterio aggiunto.
 
-### <a name="target"></a>Obiettivo
+### <a name="target"></a>Destinatari
 
 L'opzione **Storico** nella scheda **Destinazione** consente di utilizzare le date dei dati di origine come data di validità del piano di budget. In genere, la data di validità deve rientrare nel ciclo di budget del piano. Quando si imposta l'opzione **Storico** su **Sì**, la data (anche l'anno) di origine verrà utilizzata, in modo che sia possibile utilizzare i dati passati come base per il confronto. Non è possibile modificare i dati storici nel piano di budget e il piano è impostato su uno stato del flusso di lavoro approvato. Tuttavia, è possibile reimpostare lo stato se altri scenari nel piano richiedono modifiche.
 

@@ -1,6 +1,6 @@
 ---
-title: Sincronizzare le intestazioni e le righe di offerte di vendita da Sales a Finance and Operations
-description: "L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita da Microsoft Dynamics 365 for Sales a Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+title: Sincronizzare le intestazioni e le righe di offerte di vendita da Sales in Finance and Operations
+description: "L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/28/2017
@@ -20,27 +20,27 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: 9117b5af3beff7290816586f63091b12e357339c
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c8cfc484eed02423dbf0c7caaf8ac2337b6ac38d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="synchronize-sales-quotation-headers-and-lines-from-sales-to-finance-and-operations"></a>Sincronizzare le intestazioni e le righe di offerte di vendita da Sales a Finance and Operations
+# <a name="synchronize-sales-quotation-headers-and-lines-from-sales-to-finance-and-operations"></a>Sincronizzare le intestazioni e le righe di offerte di vendita da Sales in Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE]
 > Prima di utilizzare la soluzione Prospect to cash, acquisisci familiarità con [Integrazione dei dati di Microsoft Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration). 
 
-L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita da Microsoft Dynamics 365 for Sales (Sales) a Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Finance and Operations). 
+L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita da Microsoft Dynamics 365 for Sales (Sales) in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Finance and Operations). 
 
 ## <a name="template-and-tasks"></a>Modello e attività
 
-I seguenti modelli e le attività sottostanti vengono utilizzati per sincronizzare le intestazioni e le righe delle offerte di vendita da Sales a Finance and Operations:
+I seguenti modelli e le attività sottostanti vengono utilizzati per sincronizzare le intestazioni e le righe delle offerte di vendita da Sales in Finance and Operations:
 
-- **Nome del modello:** Offerte di vendita (Sales a Fin and Ops)
+- **Nome del modello:** Offerte di vendita (da Sales in Fin and Ops)
 - **Nomi delle attività del progetto:**
 
     - QuoteHeader
@@ -70,7 +70,7 @@ Le offerte di vendita da Sales vengono sincronizzate solo se vengono soddisfatte
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Soluzione Prospect to cash per Sales
 
-È stato aggiunto il campo **Solo prodotti gestiti esternamente** all'entità Offerta per tenere traccia in modo coerente se l'offerta di vendita consiste interamente di prodotti gestiti esternamente. Se un'offerta di vendita include solo prodotti gestiti esternamente, i prodotti vengono gestiti in Finance and Operations. Questo comportamento offre la garanzia di non provare a sincronizzare righe di offerta di vendita con prodotti che sono sconosciuti a Finance and Operations.
+È stato aggiunto il campo **Solo prodotti gestiti esternamente** all'entità Offerta per rilevare in modo coerente se l'offerta di vendita consiste interamente di prodotti gestiti esternamente. Se un'offerta di vendita include solo prodotti gestiti esternamente, i prodotti vengono gestiti in Finance and Operations. Questo comportamento offre la garanzia di non provare a sincronizzare righe di offerta di vendita con prodotti che sono sconosciuti in Finance and Operations.
 
 Tutti i prodotti e le righe nell'offerta vengono aggiornati con le informazioni **Solo prodotti gestiti esternamente** derivate dall'intestazione dell'offerta. Queste informazioni sono disponibili nel campo **La quota ha solo prodotti gestiti esternamente** nell'entità riga dell'offerta.
 

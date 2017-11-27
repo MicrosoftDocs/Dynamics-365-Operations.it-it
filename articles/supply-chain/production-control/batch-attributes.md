@@ -1,9 +1,9 @@
 ---
 title: Attributi batch
-description: Questo articolo fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'articolo illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
+description: Questo argomento fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'argomento illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19271
 ms.assetid: 41de0250-4a96-412e-a412-aa06615b6b1d
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0c3f5115377178941984e53749c18cc1c9179812
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'articolo illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
+Questo argomento fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'argomento illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
 
 Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. Gli attributi lotto possono variare in base a diversi fattori, ad esempio le condizioni ambientali o la qualità delle materie prime utilizzate per produrre il lotto. Il numero e i tipi degli attributi batch utilizzati possono variare notevolmente da un settore a un altro. Di seguito vengono riportati due esempi di utilizzo degli attributi batch:
 
@@ -51,7 +51,7 @@ Per gestire meglio il numero e i tipi di attributi, è possibile utilizzare i gr
 È possibile accedere a queste pagine per i prodotti selezionati nella pagina elenco **Prodotti rilasciati** in Gestione informazioni sul prodotto. Dopo avere assegnato attributi batch a un prodotto, è possibile aggiungere valori specifici agli attributi nella pagina **Attributi lotto di magazzino**.
 
 ## <a name="reserve-batches"></a>Prenotazione di batch
-È possibile individuare gli attributi batch a ammucchiate le prenotazioni per un ordine cliente a fullfill l'ordine di un cliente, o quando prelevate e si prenotano i batch a un ordine di produzione. La ricerca consente di trovare il lotto di magazzino che contiene il prodotto con gli attributi batch desiderati. Dopo aver trovato il batch, è possibile prenotare l'articolo sulla riga di transazione di magazzino di origine.
+È possibile eseguire ricerche negli attributi batch quando si eseguono prenotazioni batch per un ordine cliente allo scopo di evadere l'ordine di un cliente, o quando si prelevano e si prenotano batch per un ordine di produzione. La ricerca consente di trovare il lotto di magazzino che contiene il prodotto con gli attributi batch desiderati. Dopo aver trovato il batch, è possibile prenotare l'articolo sulla riga di transazione di magazzino di origine.
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Pianificazione in modalità mista: combinazione dell'approvvigionamento, discreto, di processo e snello"
-description: "Questo articolo fornisce informazioni sulla pianificazione in modalità mista. Nella pianificazione in modalità mista, è possibile modellare la supply chain in base al flusso di materiale. Microsoft Dynamics 365 for Finance and Operations garantisce che il flusso di materiale segua i modelli definiti, indipendentemente dai criteri di rifornimento selezionati (kanban, ordini di produzione, ordini fornitore, ordini batch o ordini di trasferimento)."
+description: "Questo argomento fornisce informazioni sulla pianificazione in modalità mista."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce informazioni sulla pianificazione in modalità mista. Nella pianificazione in modalità mista, è possibile modellare la supply chain in base al flusso di materiale. Microsoft Dynamics 365 for Finance and Operations garantisce che il flusso di materiale segua i modelli definiti, indipendentemente dai criteri di rifornimento selezionati (kanban, ordini di produzione, ordini fornitore, ordini batch o ordini di trasferimento). 
+Questo argomento fornisce informazioni sulla pianificazione in modalità mista. Nella pianificazione in modalità mista, è possibile modellare la supply chain in base al flusso di materiale. Microsoft Dynamics 365 for Finance and Operations garantisce che il flusso di materiale segua i modelli definiti, indipendentemente dai criteri di rifornimento selezionati (kanban, ordini di produzione, ordini fornitore, ordini batch o ordini di trasferimento). 
 
 È possibile selezionare una strategia complessiva per la fornitura di un prodotto, indipendentemente dalla struttura di prodotto.  
 
@@ -59,7 +59,7 @@ In genere, i kanban non vengono creati per le date future data la brevità del c
 
 La stessa logica è presente per tutti gli altri tipi di criteri di fornitura. Di conseguenza, la pianificazione a lungo termine dei materiali si basa sulla stessa logica che si prevede di applicare con gli ordini effettivi dopo l'approvazione della produzione e della fornitura.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Criteri di fornitura interaziendale per l'allocazione dei materiali: consumo di risorse nelle DBA
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>Criteri di fornitura interaziendale per l'allocazione dei materiali: consumo di risorse nelle DBA
 Il consumo di risorse è una funzionalità importante. Il consumo di risorse consente a un magazzino di prelevare i materiali da selezionare dinamicamente, in base ai criteri di fornitura (tipo di ordine) e semplifica inoltre la gestione dell'anagrafica.  
 
 Il consumo di risorse richiede che il magazzino da cui vengono prelevati i materiali venga assegnato in base al modo in cui viene fornito il prodotto. In altre parole, in fase di esecuzione, il sistema trova le risorse che devono essere utilizzate per la produzione. In base a tali risorse, il sistema cerca quindi il magazzino di prelievo.  

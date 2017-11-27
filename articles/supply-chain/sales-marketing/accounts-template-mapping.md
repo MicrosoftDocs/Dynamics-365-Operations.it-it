@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare i conti da Sales ai clienti in Finance and Operations
-description: "L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti da Microsoft Dynamics 365 for Sales a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/28/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: f322c5b273c29d863c059092bf1a41c424c19a7d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1fdbeaaba53cd439d9872be78b1cf67cbc5a57b9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,13 +34,13 @@ ms.lasthandoff: 09/29/2017
 > [!NOTE]
 > Prima di utilizzare la soluzione Prospect to cash, acquisisci familiarità con [Integrazione dei dati di Microsoft Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration). 
 
-L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti da Microsoft Dynamics 365 for Sales (Sales) a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (Finance and Operations).
+L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti da Microsoft Dynamics 365 for Sales (Sales) in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (Finance and Operations).
 
 ## <a name="template-and-task"></a>Modello e attività
 
-I modelli e le attività sottostanti che seguono vengono utilizzati per sincronizzare i conti da Sales a Finance and Operations:
+I modelli e le attività sottostanti che seguono vengono utilizzati per sincronizzare i conti da Sales in Finance and Operations:
 
-- **Nome del modello:** account (da Sales a Fin and Ops)
+- **Nome del modello:** account (da Sales in Fin and Ops)
 - **Nome dell'attività del progetto:** - Conti - Conto - Clienti
 
 Attività di sincronizzazione richieste prima di sincronizzare Conto/Cliente: nessuna

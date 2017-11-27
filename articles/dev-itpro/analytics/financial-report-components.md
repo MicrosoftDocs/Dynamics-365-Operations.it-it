@@ -1,17 +1,17 @@
 ---
 title: Componenti del report finanziario
 description: In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari. Tali blocchi predefiniti includono le definizioni di riga, di colonna e di albero gerarchico. L'articolo spiega come organizzare e bloccare i blocchi predefiniti e come utilizzare i gruppi di blocchi predefiniti.
-author: ShylaThompson
+author: aolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7b283b8550bd7e5eff969d45c761d0a54d93a33e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari. Tali blocchi predefiniti includono le definizioni di riga, di colonna e di albero gerarchico. L'articolo spiega come organizzare e bloccare i blocchi predefiniti e come utilizzare i gruppi di blocchi predefiniti. 
+In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari. Tali blocchi predefiniti includono le definizioni di riga, di colonna e di albero gerarchico. L'articolo descrive come organizzare e bloccare i blocchi predefiniti. 
 
-La filosofia di progettazione alla base di Progettazione report finanziari è suddividere le informazioni in componenti o blocchi predefiniti più piccoli possibile e quindi mescolare e abbinare i componenti necessari. La formattazione del report è pertanto separata dai dati finanziari ed è possibile modificare la struttura di un report senza modificare i dati finanziari nel sistema Microsoft Dynamics ERP. Utilizzando questo approccio dei blocchi predefiniti, è possibile combinare testo, importi e calcoli, per generare i report necessari. Inoltre, la flessibilità incoraggia la creatività semplificando la visualizzazione delle operazioni in vari modi. I singoli blocchi predefiniti di definizione di report sono simili a un foglio tridimensionale, ma con maggiore potenza. Una definizione di report specifica la definizione di riga, la definizione di colonna e la definizione facoltativa dell'albero gerarchico da utilizzare per il report. Sono inoltre incluse le informazioni sull'archiviazione del report generato e sul formato. Per la migliore riutilizzabilità e condivisione, è possibile creare un gruppo di blocchi predefiniti, ovvero una raccolta di definizioni di report, definizioni di riga, definizioni di colonna, definizioni di albero gerarchico e set di dimensioni associati a una società.
+La filosofia di progettazione alla base di Progettazione report finanziari è suddividere le informazioni in componenti o blocchi predefiniti più piccoli possibile e quindi mescolare e abbinare i componenti necessari. La formattazione del report è pertanto separata dai dati finanziari ed è possibile modificare la struttura di un report senza modificare i dati finanziari nel sistema Microsoft Dynamics ERP. Utilizzando questo approccio dei blocchi predefiniti, è possibile combinare testo, importi e calcoli, per generare i report necessari. Inoltre, la flessibilità incoraggia la creatività semplificando la visualizzazione delle operazioni in vari modi. I singoli blocchi predefiniti di definizione di report sono simili a un foglio tridimensionale, ma con maggiore potenza. Una definizione di report specifica la definizione di riga, la definizione di colonna e la definizione facoltativa dell'albero gerarchico da utilizzare per il report. Sono inoltre incluse le informazioni sull'archiviazione del report generato e sul formato. 
 
-## <a name="building-blocks-of-a-report"></a> Blocchi predefiniti di un report
-| Blocco predefinito            | Descrizione                                                                                                                                                                                                                                                                              | Ulteriori informazioni                                                                                                 |
-|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+## <a name="building-blocks-of-a-report"></a>Blocchi predefiniti di un report
+| Blocco predefinito            | descrizione                     | Ulteriori informazioni                                    |
+|---------------------------|---------------------------------|---------------------------------------------------------|
 | Definizione riga            | Una definizione di riga definisce le righe descrittive, ad esempio, le retribuzioni o le vendite, in un report. Vengono inoltre elencati i valori o le dimensioni di segmenti che contengono i valori per ogni voce e sono inclusi la formattazione e i calcoli di riga.                                                    | [Definizioni di riga](row-definitions-financial-reporting.md)                       |
 | Definizione colonna         | Una definizione di colonna definisce il periodo da utilizzare quando si estraggono i dati dalle dimensioni finanziarie. Include inoltre la formattazione e i calcoli della colonna.                                                                                                                                 | [Definizioni di colonna](column-definitions-financial-reports.md)         |
 | Definizione di albero gerarchico | La definizione di un albero gerarchico è simile a un organigramma. Contiene le singole unità di report che rappresentano ogni casella nel grafico. Le unità possono essere singoli reparti di dati finanziari o unità di livello superiore che riepilogano i dati da altre unità di report. | [Definizioni di albero gerarchico](financial-reporting-tree-definitions.md) |
@@ -67,44 +67,20 @@ Per sbloccare un blocco predefinito bloccato, aprire il blocco predefinito e qui
 
 ## <a name="building-block-groups"></a>Gruppi di blocchi predefiniti
 
-I blocchi predefiniti sono le definizioni di riga, le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report che vengono create per un report. I gruppi di blocchi predefiniti sono raccolte di definizioni e set di dimensioni associati a una società. I gruppi di blocchi predefiniti possono essere specifici di una società oppure più società possono condividere lo stesso set di blocchi predefiniti. Se le società hanno piani dei conti diversi, è possibile considerare di utilizzare un gruppo di blocchi predefiniti diverso per ogni società. In alternativa, è possibile considerare di denominare tutti i singoli blocchi predefiniti per riflettere le società con cui sono compatibili.
-### <a name="create-a-building-block-group"></a>Creare un gruppo di blocchi predefiniti
+I blocchi predefiniti sono le definizioni di riga, le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report che vengono create per un report. I gruppi di blocchi predefiniti sono raccolte di definizioni e set di dimensioni associati a una società. 
 
-1.  In Progettazione report, nel menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
-2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti** fare clic su **Nuovo**.
-3.  Immettere un nome univoco e una descrizione per il gruppo di blocchi predefiniti. Ogni campo può contenere un massimo di 256 caratteri (questo numero include gli spazi).
-4.  Fare clic su **OK** per creare il nuovo gruppo di blocchi predefiniti.
 
-### <a name="assign-a-building-block-group"></a>Assegnare un gruppo di blocchi predefiniti
+### <a name="view-a-building-block-group"></a>Visualizzare un gruppo di blocchi predefiniti
 
-Una volta creato un gruppo di blocchi, è necessario assegnarlo a almeno una società. È possibile quindi creare le definizioni di report, riga, colonna e albero gerarchico e salvarle nel gruppo di blocchi predefiniti. È necessario chiudere tutti i blocchi predefiniti prima di iniziare la procedura riportata di seguito.
-1.  In Progettazione report, menu **Società**, fare clic su **Società**.
-2.  Nella finestra di dialogo **Società** selezionare la società alla quale assegnare un gruppo di blocchi predefiniti.
-3.  Fare clic su **Modifica**.
-4.  Nella finestra di dialogo **Modifica società**, nel campo **Gruppo di blocchi predefiniti** , selezionare il gruppo di blocchi predefiniti da assegnare alla società o fare clic su **Nuovo** per creare un nuovo gruppo di blocchi predefiniti.
-5.  Fare clic su **OK** per assegnare il gruppo di blocchi predefiniti.
-6.  Scegliere **Chiudi** per chiudere la finestra di dialogo **Società**. Il gruppo di blocchi predefiniti selezionato è ora assegnato alla società. Ora tutte le nuove definizioni di riga, di colonna e così via create fanno parte del gruppo di blocchi predefiniti assegnato alla società. È inoltre possibile importare un report o un file .tdbx da un altro sistema.
-
-### <a name="view-a-building-block-group"></a> Visualizzare un gruppo di blocchi predefiniti
-
-Dopo che un gruppo di blocchi predefiniti è stato creato e viene utilizzato, è possibile visualizzare tutti i blocchi predefiniti assegnati a esso. È inoltre possibile esportare o importare un gruppo di blocchi predefiniti ed eseguire operazioni di manutenzione aggiuntive su gruppi di blocchi predefiniti.
-1.  In Progettazione report, menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
+È possibile visualizzare tutti i blocchi predefiniti assegnati a un gruppo di blocchi predefiniti. È inoltre possibile esportare o importare un gruppo di blocchi predefiniti.
+1.  In Progettazione report scegliere **Gruppi di blocchi predefiniti** dal menu **Società**.
 2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti**, selezionare il blocco predefinito da visualizzare.
 3.  Fare clic su **Visualizza** per aprire la finestra di dialogo **Visualizza gruppo di blocchi predefiniti** e visualizzare il contenuto del gruppo di blocchi predefiniti.
-4.  Scegliere **Chiudi** per chiudere le finestre di dialogo.
+4.  Fare clic su **Chiudi** per chiudere le finestre di dialogo.
 
-### <a name="save-a-building-block-group-under-a-new-name"></a>Salvare un gruppo di blocchi predefiniti con un nuovo nome
+### <a name="export-a-building-block-group"></a>Esportare un gruppo di blocchi predefiniti
 
-È possibile salvare un gruppo di blocchi predefiniti esistente con un nuovo nome. È quindi possibile modificare il gruppo di blocchi predefiniti senza modificare il gruppo di blocchi predefiniti originale.
-1.  In Progettazione report scegliere **Gruppi di blocchi predefiniti** dal menu **Società**.
-2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti**, selezionare il gruppo di blocchi predefiniti da salvare con un nuovo nome.
-3.  Fare clic su **Salva con nome**.
-4.  Immettere un nuovo nome e una descrizione per il gruppo di blocchi predefiniti.
-5.  Scegliere **OK**. Il nuovo gruppo di blocchi predefiniti viene visualizzato nella finestra di dialogo **Gruppi di blocchi predefiniti**.
-
-### <a name="export-a-building-block-group"></a> Esportare un gruppo di blocchi predefiniti
-
-È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti di report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il gruppo di blocchi predefiniti esportato come backup. È inoltre possibile copiare i dati esportati tra gruppi di blocchi predefiniti o installazioni di Finance and Operations. La funzionalità di progettazione report include gli stili di carattere e i set di dimensioni di riferimento con il gruppo di blocchi predefiniti.
+È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti di report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il gruppo di blocchi predefiniti esportato come backup. È inoltre possibile copiare i dati esportati tra installazioni di Finance and Operations. La funzionalità di progettazione report include gli stili di carattere e i set di dimensioni di riferimento con il gruppo di blocchi predefiniti.
 1.  In Progettazione report, menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
 2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti** selezionare il gruppo che si desidera esportare e quindi fare clic su **Esporta**.
 3.  Nella finestra di dialogo **Esporta**, selezionare le definizioni di report da esportare:
@@ -118,7 +94,7 @@ Dopo che un gruppo di blocchi predefiniti è stato creato e viene utilizzato, è
 
 ### <a name="import-a-building-block-group"></a> Importare un gruppo di blocchi predefiniti
 
-È possibile importare un gruppo di blocchi predefiniti in un gruppo di blocchi predefiniti esistente oppure è possibile creare un nuovo gruppo di blocchi predefiniti per i dati. Tutti i gruppi di blocchi predefiniti importati conservano gli stili di carattere e i riferimenti alle società originali e includono i set di dimensioni pertinenti.
+È possibile importare un gruppo di blocchi predefiniti in un gruppo di blocchi predefiniti esistente. Tutti i gruppi di blocchi predefiniti importati conservano gli stili di carattere e i riferimenti alle società originali e includono i set di dimensioni pertinenti.
 1.  In Progettazione report, menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
 2.  Nella finestra di dialogo **Gruppi di blocchi predefiniti** selezionare il blocco predefinito in cui importare un gruppo di blocchi predefiniti, quindi fare clic su **Importa**.
 3.  Nella finestra di dialogo **Apri** selezionare il gruppo di blocchi predefiniti da importare, quindi fare clic su **Apri**.

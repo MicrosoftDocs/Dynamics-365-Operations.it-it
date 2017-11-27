@@ -1,7 +1,7 @@
 ---
 title: Calcoli BOM
 description: "I calcoli relativi al rollup dei costi e ai prezzi di vendita sono chiamati calcoli DBA o calcoli della distinta base (DBA) perché è possibile avviarli dalla pagina Calcoli. Vengono fornite le informazioni sui calcoli BOM."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ Quando si utilizza questo tipo di approccio, il prezzo di vendita calcolato per 
 -   **Calcolo DBA per un articolo e una versione di determinazione costi specificata**: il calcolo DBA genera un record di prezzo di vendita in sospeso nella versione di determinazione costi. Questo record del prezzo di vendita rappresenta il punto di partenza per la visualizzazione dei dettagli relativi al calcolo, ad esempio la visualizzazione della pagina **Calcola costo articolo**. Il record del prezzo di vendita è principalmente un dato di riferimento e non viene utilizzato come base per un prezzo di vendita negli ordini cliente.
 -   **Calcolo DBA specifico dell'ordine**: una variazione della pagina **Calcolo DBA** viene utilizzata nel contesto di un ordine cliente, un'offerta di vendita o una voce di ordine di assistenza. Un calcolo DBA specifico di un ordine non genera un record nella versione di determinazione costi. Genera invece un record di calcolo che viene visualizzato nella pagina **Risultati calcolo DBA**. Questo record di calcolo rappresenta il punto di partenza per la visualizzazione dei dettagli relativi al calcolo, ad esempio la visualizzazione della pagina **Calcola costo articolo**. Le informazioni relative al record di calcolo selezionato possono essere trasferite nella voce di origine. Ad esempio, il prezzo di vendita calcolato può essere trasferito in una voce di ordine cliente.
 
-## <a name="orderspecific-bom-calculations"></a>Calcoli DBA specifici dell'ordine
+## <a name="order-specific-bom-calculations"></a>Calcoli DBA specifici dell'ordine
 Un calcolo della distinta base specifico dell'ordine rappresenta una variazione di un calcolo DBA per un articolo prodotto e viene eseguito nel contesto di una voce di un ordine cliente, un'offerta di vendita o un ordine di assistenza. Un calcolo DBA specifico di un ordine genera un record di calcolo che viene visualizzato nella pagina **Risultati di calcolo DBA**. che include un peso calcolato, un costo calcolato basato sui record dei costi attivi e un prezzo di vendita calcolato. IL record di calcolo generato da ciascun calcolo della formula specifico di un ordine nella pagina **Risultati calcolo DBA** viene identificato in modo univoco da un numero di calcolo. I risultati di un record di calcolo possono eventualmente essere trasferiti alla voce di origine. Un calcolo DBA specifico di un ordine è diverso da un calcolo DBA per un articolo prodotto in due modi:
 
 -   Un calcolo DBA specifico di un ordine non genera un record di costo in una versione di determinazione costi. Di conseguenza, i criteri di calcolo DBA non vengono applicati quando un record di costo articolo viene creato oppure quando un record di costo viene sovrascritto.

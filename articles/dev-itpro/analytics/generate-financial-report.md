@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 09/29/2017
 
 In questo argomento sono riportate informazioni sulla generazione di un report finanziario. 
 
-Per generare un report, aprire la definizione di report e quindi fare clic sul pulsante Genera nella barra degli strumenti. La finestra Stato coda report si aprirà e indicherà l'ubicazione del report nella coda. Per impostazione predefinita, il report generato si aprirà nel Visualizzatore Web.
-| ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**        |
-|------------------------------------------------------------------------------------------------|
-| È possibile generare report solo in cartelle e ubicazioni per cui si dispone delle autorizzazioni di accesso. |
+Per generare un report, aprire la definizione di report e quindi fare clic sul pulsante Genera nella barra degli strumenti. La finestra Stato coda report si aprirà e indicherà l'ubicazione del report nella coda. Per impostazione predefinita, il report generato viene aperto nel Visualizzatore web.
+
+> [!NOTE]
+> È possibile generare report solo in cartelle e ubicazioni per cui si dispone delle autorizzazioni di accesso.
 
 Nella seguente tabella vengono illustrate le opzioni disponibili per la generazione dei report.
 
@@ -50,10 +50,11 @@ Quando si genera un report, vengono usate le opzioni specificate nelle schede di
 ## <a name="schedule-report-generation"></a> Programmare la generazione di report
 Molte società hanno una serie di base di report che vengono eseguiti a intervalli programmati perché siano allineati con i relativi processi aziendali. È possibile programmare un report in modo che sia generato regolarmente, ad esempio a frequenza giornaliera, settimanale, mensile o annuale. Può trattarsi di un singolo report o di un gruppo di report in cui sono incluse molte società. È necessario immettere le credenziali per ognuna della società specificate, ad esempio quelle incluse in una definizione di albero gerarchico. Se le credenziali non sono valide, nel report vengono visualizzate solo le informazioni per cui si dispone delle autorizzazioni di accesso, ad esempio la società a cui si è connessi al momento. Le informazioni di output vengono lette innanzitutto dal gruppo di report e quindi dai singoli report.
 
-Quando le programmazioni report vengono create e salvate, vengono visualizzate nel pannello di navigazione in Programmazioni report. Per organizzare i report è possibile creare cartelle. Se un singolo report in una programmazione non viene eseguito, l'esecuzione continuerà per tutti gli altri report.
-| ![Importante](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Importante")**Importante**                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Per creare, modificare ed eliminare programmazioni report, è necessario disporre del ruolo di designer o amministratore. Quando un report viene eseguito, le credenziali dell'utente che ha creato la programmazione vengono utilizzate per generare il report. |
+Quando le programmazioni report vengono create e salvate, vengono visualizzate nel pannello di navigazione in Programmazioni report. Per organizzare i report è possibile creare cartelle. Se un singolo report in una pianificazione non viene eseguito, tutti gli altri report continueranno ad esserlo.
+
+> [!IMPORTANT]
+> Per creare, modificare ed eliminare pianificazioni di report, è necessario disporre del ruolo di progettista o amministratore. Quando un report viene eseguito, le credenziali dell'utente che ha creato la programmazione vengono utilizzate per generare il report.
+
 
 ### <a name="create-a-report-schedule"></a>Creare una programmazione report
 
@@ -99,15 +100,16 @@ Per continuare, fare clic sul pulsante Autorizzazioni nella finestra di dialogo 
 ## <a name="missing-account-analysis-feature"></a>Funzionalità di analisi dei conti mancanti
 È possibile individuare i conti finanziari e le dimensioni che potrebbero mancare in tutte le definizioni di riga, definizioni di albero gerarchico e definizioni di report in un gruppo di blocchi predefiniti. Questa funzione è utile quando si creano o si aggiornano diversi conti o blocchi predefiniti in un breve periodo e si desidera verificare che tutte le nuove informazioni siano incluse nei report.
 
-I conti mancanti vengono determinati utilizzando i valori minimo e massimo dalla definizione di riga o la definizione di albero gerarchico e quindi viene visualizzato un elenco dei conti che non sono nella definizione di riga o la definizione di albero gerarchico, ma sono nei dati finanziari. Se un conto mancante è maggiore o minore dei valori nella definizione di riga, il conto non è incluso nell'elenco dei conti mancanti.
-| ![Suggerimento](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Suggerimento")**Suggerimento**                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| A fini di convalida, questo processo deve essere eseguito prima di generare i report mensili e quando si creano nuovi blocchi predefiniti. |
+I conti mancanti vengono determinati utilizzando i valori minimo e massimo dalla definizione di riga o la definizione di albero gerarchico e quindi viene visualizzato un elenco dei conti che non sono nella definizione di riga o la definizione di albero gerarchico, ma sono nei dati finanziari. Se il numero di un conto mancante è maggiore o minore di quello dei valori nella definizione di riga, tale conto non viene incluso nell'elenco di conti mancanti.
+
+> [!TIP]
+> Ai fini della convalida, questo processo deve essere eseguito prima di generare i report mensili e quando si creano nuovi blocchi predefiniti.
 
 Report con intervalli di valori hanno minori probabilità di avere conti mancanti. Quando possibile, utilizzare gli intervalli nel blocco predefinito per includere i nuovi conti quando vengono creati. Se una definizione di report viene impostata su @ANY società, è possibile accedere a una società specifica ed eseguire un'analisi di conto mancante per la società.
-| ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se una nuova società è stata aggiunta, è necessario aggiungere la nuova società agli alberi gerarchici in tutti i report esistenti o la società non verrà inclusa nell'analisi dei conti mancanti. |
+
+> [!NOTE]
+> Se una nuova società è stata aggiunta, è necessario aggiungere la nuova società agli alberi gerarchici in tutti i report esistenti o la società non verrà inclusa nell'analisi dei conti mancanti.
+
 
 ### <a name="run-missing-account-analysis"></a>Eseguire l'analisi dei conti mancanti
 
@@ -117,11 +119,11 @@ Report con intervalli di valori hanno minori probabilità di avere conti mancant
 4.  Nel campo Raggruppa per selezionare un'opzione per l'ordinamento dei risultati. È possibile ordinare i risultati in base al blocco predefinito interessato oppure in base ai set di dimensioni o di valori.
 5.  Esaminare i risultati visualizzati. Quando si seleziona un elemento nel riquadro superiore, nel riquadro inferiore vengono visualizzate informazioni aggiuntive sull'eccezione, compresi dimensioni, valori e report.
 6.  Per aprire l'elemento interessato, fare clic sull'icona associata visualizzata nel riquadro dell'elenco, o fare clic con il pulsante destro del mouse sull'elemento e selezionare Apri. Per selezionare più elementi, tenere premuto il tasto Ctrl mentre si selezionano gli elementi nel riquadro inferiore.
-7.  Se vengono restituiti valori, blocchi predefiniti, o report che non devono essere inclusi nell'analisi, fare clic con il pulsante destro del mouse sull'elemento e selezionare Escludi o selezionare la casella di controllo Escludi accanto all'elemento per rimuoverlo dall'elenco. Gli elementi esclusi non vengono inclusi quando l'elenco viene aggiornato. Per selezionare più elementi, tenere premuto il tasto Ctrl mentre si selezionano gli elementi nel riquadro inferiore. Per visualizzare tutti gli elementi, inclusi tutti i risultati selezionati in precedenza per escluderli dall'analisi, selezionare la casella di controllo Mostra blocchi predefiniti e valori esclusi quindi fare clic su Aggiorna.
-8.  Fare clic su Aggiorna per aggiornare le eccezioni risolte. Fare clic su Sì per eseguire un aggiornamento completo di tutti risultati, o fare clic su No per eseguire un aggiornamento parziale degli elementi gestiti.
-    | ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**                    |
-    |------------------------------------------------------------------------------------------------------------|
-    | Il modulo viene automaticamente aggiornato quando si apre, a meno che sia stato aperto negli ultimi 15 minuti. |
+7.  Se vengono restituiti valori, blocchi predefiniti, o report che non devono essere inclusi nell'analisi, fare clic con il pulsante destro del mouse sull'elemento e selezionare Escludi o selezionare la casella di controllo Escludi accanto all'elemento per rimuoverlo dall'elenco. Gli elementi esclusi non vengono inclusi quando l'elenco viene aggiornato. Per selezionare più elementi, tenere premuto CTRL mentre si selezionano gli elementi desiderati nel riquadro inferiore. Per visualizzare tutti gli elementi, inclusi eventuali risultati che in precedenza si è scelto di escludere dall'analisi, selezionare la casella di controllo Mostra blocchi predefiniti e valori esclusi, quindi fare clic su Aggiorna.
+8.  Fare clic su Aggiorna per aggiornare le eccezioni risolte. Fare clic su Sì per eseguire un aggiornamento completo di tutti i risultati oppure su No per eseguire un aggiornamento parziale degli elementi risolti.
+
+    > [!NOTE]
+    > Il modulo viene aggiornato automaticamente quando si apre, a meno che non sia stato aperto negli ultimi 15 minuti.
 
 9.  Quando i problemi sono risolti, fare clic su OK per chiudere la finestra di dialogo.
 

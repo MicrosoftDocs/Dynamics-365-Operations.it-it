@@ -1,9 +1,9 @@
 ---
 title: Contratti di vendita
-description: "Questo articolo fornisce informazioni sui contratti di vendita. Un contratto di vendita è un contratto con cui il cliente si impegna ad acquistare prodotti in una determinata quantità o per uno specifico importo nel tempo in cambio di sconti o prezzi speciali."
+description: "Vengono fornite le informazioni sui contratti di vendita. Un contratto di vendita è un contratto con cui il cliente si impegna ad acquistare prodotti in una determinata quantità o per uno specifico importo nel tempo in cambio di sconti o prezzi speciali."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 15e3f872e4ded027734ee73081ba7af68be5107d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce informazioni sui contratti di vendita. Un contratto di vendita è un contratto con cui il cliente si impegna ad acquistare prodotti in una determinata quantità o per uno specifico importo nel tempo in cambio di sconti o prezzi speciali.
+Vengono fornite le informazioni sui contratti di vendita. Un contratto di vendita è un contratto con cui il cliente si impegna ad acquistare prodotti in una determinata quantità o per uno specifico importo nel tempo in cambio di sconti o prezzi speciali.
 
 Un contratto di vendita è un contratto che impegna il cliente ad acquistare prodotti in una quantità specifica o per un importo specifico nel tempo, in cambio di prezzi speciali, sconti speciali nonché altre condizioni speciali, ad esempio pagamento e termini di consegna. I prezzi e gli sconti del contratto di vendita prevalgono sui prezzi e gli sconti dichiarati in eventuali contratti commerciali esistenti.  
 
@@ -88,7 +88,7 @@ Se non si conferma un contratto di vendita, è comunque possibile utilizzarlo pe
 È possibile visualizzare in anteprima o stampare tutte le revisioni delle conferme. È possibile quindi condividere le revisioni con il cliente per ottenere l'approvazione.
 
 ## <a name="applying-sales-agreements-during-the-ordering-process"></a>Applicazione di contratti di vendita nel processo di ordinazione
-Se gli ordini cliente non vengono rilasciati direttamente per i contratti di vendita, è comunque possibile collegare un contratto di vendita a un ordine durante il processo di registrazione dell'ordine. Quando si crea un nuovo ordine cliente e si seleziona un contratto di vendita, le condizioni del contratto, ad esempio i termini di pagamento, termini di consegna e l'indirizzo di consegna, vengono applicati all'intestazione ordine e il collegamento tra il contratto e l'ordine viene creato. Quindi, nelle righe ordine, quando è possibile selezionare i prodotti e le categorie specificate nel contratto di vendita, i prezzi e gli sconti vengono copiati dal contratto. Lo stesso ordine cliente può includere sia le righe che non sono correlate a un contratto di vendita sia le righe con un impegno per un contratto di vendita.
+Se gli ordini clienti non vengono rilasciati direttamente per un contratto di vendita, è comunque possibile collegare un contratto di vendita a un ordine durante il processo di registrazione dell'ordine. Quando si crea un nuovo ordine cliente e si seleziona un contratto di vendita, le condizioni del contratto, ad esempio i termini di pagamento, termini di consegna e l'indirizzo di consegna, vengono applicati all'intestazione ordine e il collegamento tra il contratto e l'ordine viene creato. Quindi, nelle righe ordine, quando è possibile selezionare i prodotti e le categorie specificate nel contratto di vendita, i prezzi e gli sconti vengono copiati dal contratto. Lo stesso ordine cliente può includere sia le righe che non sono correlate a un contratto di vendita sia le righe con un impegno per un contratto di vendita.
 
 ## <a name="modifying-sales-orders-that-are-linked-to-sales-agreements"></a>Modifica degli ordini cliente collegati ai contratti di vendita
 Se è stato creato (rilasciato) un ordine cliente a fronte di un contratto di vendita, è possibile modificare alcuni campi nelle righe di tale ordine cliente solo se si rimuove il collegamento alle righe del contratto di vendita associato. Nella tabella riportata di seguito sono elencati alcuni di questi campi.

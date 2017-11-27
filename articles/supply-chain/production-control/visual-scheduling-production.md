@@ -3,7 +3,7 @@ title: Diagramma di Gantt per la programmazione dei processi
 description: I pianificatori di produzione possono monitorare e ottimizzare i piani di produzione utilizzando i diagrammi di Gantt.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ Un diagramma di Gantt è la rappresentazione grafica delle attività previste in
 -   Processi derivati da ordini di produzione pianificati.
 -   Attività di progetto programmate come processi del tipo Previsioni ore.
 
-Il diagramma di Gantt può essere aperto in due diverse visualizzazioni, **Visualizzazione ordini** e **Visualizzazione risorse**[.](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true) In **Visualizzazione ordini** le attività vengono raggruppate negli ordini di produzione. Ciò può essere utile, ad esempio, se si desidera mantenere una panoramica di tutti i processi appartenenti agli stessi ordini. In **Visualizzazione risorse** tutti i processi vengono raggruppati in singole risorse. Questa visualizzazione risulta utile quando si ottimizza il piano a livello di risorsa, ad esempio, di computer o di gruppo di computer. I diagrammi di Gantt visualizzati nelle illustrazioni che seguono mostrano **Visualizzazione ordini** e **Visualizzazione risorse** con questi elementi principali:
+Il diagramma di Gantt può essere aperto in due diverse visualizzazioni, **Visualizzazione ordini** e **Visualizzazione risorse**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). In **Visualizzazione ordini**, le attività vengono raggruppate negli ordini di produzione. Ciò può essere utile, ad esempio, se si desidera mantenere una panoramica di tutti i processi appartenenti agli stessi ordini. In **Visualizzazione risorse** tutti i processi vengono raggruppati in singole risorse. Questa visualizzazione risulta utile quando si ottimizza il piano a livello di risorsa, ad esempio, di computer o di gruppo di computer. I diagrammi di Gantt visualizzati nelle illustrazioni che seguono mostrano **Visualizzazione ordini** e **Visualizzazione risorse** con questi elementi principali:
 
 1.  Attività del diagramma di Gantt
 2.  Icona Carenza di materiale
@@ -156,5 +156,7 @@ Il diagramma di Gantt può essere aperto nelle pagine seguenti.
 | **Ordini di produzione da rilasciare** (Aperto dall'area di lavoro **Gestione del piano di produzione** ) | La pagina degli ordini di produzione da rilasciare viene aperta dall'area di lavoro **Gestione del piano di produzione**. In questa pagina viene visualizzata la versione in sospeso degli ordini batch e di produzione programmati. In questa pagina è possibile aprire il diagramma di Gantt per gli ordini di produzione selezionati.                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>Vedere anche  
 [Programmazione visiva con il diagramma di Gantt per ordini batch e di produzione (video)](https://youtu.be/BtbuShkGj4I)
+
+[Programmazione visiva per la produzione (script demo)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 

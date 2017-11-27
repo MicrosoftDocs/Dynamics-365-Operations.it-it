@@ -3,7 +3,7 @@ title: "Gestione progetti e contabilità"
 description: "La funzionalità gestione progetti e contabilità può essere utilizzata in più settori per fornire un servizio, realizzare un prodotto oppure ottenere un risultato."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -228,7 +228,7 @@ Nella seguente tabella sono descritti i metodi per calcolare il costo per comple
 <tbody>
 <tr class="odd">
 <td>Costo totale - Effettivo</td>
-<td>I costi stimati devono essere immessi manualmente. Dopo che è stata completata la colonna <strong>Costo totale</strong> o <strong>Quantità totale</strong> nella pagina <strong>Stima dei costi</strong>, i costi effettivi vengono sottratti dai totali immessi dagli utenti. Il risultato è il costo per completare il progetto. In genere, non viene tenuta traccia dello stato di avanzamento dei costi in base, ad esempio, al numero di soggiorni e di pasti in hotel registrati in ogni periodo. Al contrario. Si basa invece su un confronto con l'importo totale delle ore stimate. Questo metodo non richiede un modello previsionale e il costo totale o la quantità totale può essere modificata manualmente. Quando un valore viene immesso nella colonna <strong>Costo totale</strong> o <strong>Quantità totale</strong>, Finance and Operations confronta il valore con le transazioni effettive registrate nel periodo e quindi riduce il valore nella colonna <strong>Quantità da completare</strong> o <strong>Costi di completamento</strong>.</td>
+<td>I costi stimati devono essere immessi manualmente. Dopo che è stata completata la colonna <strong>Costo totale</strong> o <strong>Quantità totale</strong> nella pagina <strong>Stima dei costi</strong>, i costi effettivi vengono sottratti dai totali immessi dagli utenti. Il risultato è il costo di completamento del progetto. In genere, non viene tenuta traccia dello stato di avanzamento dei costi in base, ad esempio, al numero di soggiorni e di pasti in hotel registrati in ogni periodo. Al contrario. Si basa invece su un confronto con l'importo totale delle ore stimate. Questo metodo non richiede un modello previsionale e il costo totale o la quantità totale può essere modificata manualmente. Quando un valore viene immesso nella colonna <strong>Costo totale</strong> o <strong>Quantità totale</strong>, Finance and Operations confronta il valore con le transazioni effettive registrate nel periodo e quindi riduce il valore nella colonna <strong>Quantità da completare</strong> o <strong>Costi di completamento</strong>.</td>
 </tr>
 <tr class="even">
 <td>Budget totale - Effettivo</td>
@@ -247,7 +247,7 @@ Finance and Operations non riduce automaticamente le stime previste. Pertanto, s
 </tr>
 <tr class="even">
 <td>Come stima precedente</td>
-<td>Lo stesso metodo di stima utilizzato nel periodo precedente è applicabile. Questo metodo richiede un modello previsionale se il periodo precedente aveva richiesto un modello previsionale.</td>
+<td>Lo stesso metodo di stima utilizzato nel periodo precedente è applicabile. Questo metodo richiede l'utilizzo di un modello previsionale se il periodo precedente richiedeva un modello previsionale.</td>
 </tr>
 <tr class="odd">
 <td>Imposta costi di completamento su zero</td>

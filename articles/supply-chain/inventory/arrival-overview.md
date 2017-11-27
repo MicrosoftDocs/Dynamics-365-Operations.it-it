@@ -3,7 +3,7 @@ title: Panoramica arrivi
 description: "In questo argomento vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo."
 author: perlynne
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d9ebc0ea12de0c97718b565b77d99c3a1fcd6f21
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -104,7 +104,7 @@ Sammy può visualizzare le seguenti informazioni:
 
 ### <a name="update-journals"></a>Giornali di registrazione aggiornamenti
 
-Per registrare una o più righe ordine che devono essere elaborate, Sammy può selezionare le righe nella griglia panoramica o nella griglia della riga e fare clic su **Giornali di registrazione** &gt; **Mostra arrivi da ricevimenti** Vengono mostrate le intestazioni arrivi articoli che corrispondono alle righe. All'aggiornamento dell'entrata prodotti ordini fornitore registrati gli articoli, Sammy può accedere alle intestazioni del giornale di registrazione arrivi articoli pronti per l'aggiornamento. Per accedere alle intestazioni del giornale di registrazione arrivi, Sammy può fare clic su **Giornali di registrazione** &gt; **Giornali di registrazione pronti per entrata prodotti**. Tutte le righe di intestazione pronte per l'aggiornamento dell'entrata prodotti nell'intervallo di magazzini vengono visualizzate. Le righe di intestazione visualizzate non sono correlate all'intervallo giorni.
+Per registrare una o più righe ordine che devono essere elaborate, Sammy può selezionare le righe nella griglia panoramica o nella griglia della riga e fare clic su **Giornali di registrazione** &gt; **Mostra arrivi da ricevimenti** Vengono mostrate le intestazioni arrivi articoli che corrispondono alle righe. Per aggiornare l'entrata prodotti ordini fornitore per gli articoli registrati, Sammy può accedere alle intestazioni del giornale di registrazione arrivi articoli pronti per l'aggiornamento. Per accedere alle intestazioni del giornale di registrazione arrivi, Sammy può fare clic su **Giornali di registrazione** &gt; **Giornali di registrazione pronti per entrata prodotti**. Tutte le righe di intestazione pronte per l'aggiornamento dell'entrata prodotti nell'intervallo di magazzini vengono visualizzate. Le righe di intestazione visualizzate non sono correlate all'intervallo giorni.
 
 ### <a name="start-an-arrival-registration"></a>Avviare una registrazione arrivi
 
