@@ -1,10 +1,9 @@
 # [Dynamics 365 for Talent](index.md)
 
-# Introduzione
+# [Introduzione](talent-get-started.md)
 ## [Requisiti di sistema e criteri di aggiornamento](talent-versions-update-policy.md)
 
-# Sviluppare una strategia Risorse umane
-## [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](departments-jobs-positions.md)
+# [Sviluppare una strategia Risorse umane](departments-jobs-positions.md)
 ## [Impostare i componenti di processo](create-job.md)
 ## [Creare un reparto e associarlo alla gerarchia reparti](create-department-add-department-hierarchy.md)
 ## [Impostare i parametri di Risorse umane per le persone giuridiche](set-up-hr-parameters-across-legal-entities.md)
@@ -28,13 +27,11 @@
 ## [Allineare le competenze della forza lavoro alle esigenze aziendali](skills.md)
 ## [Impostare i corsi di formazione](courses.md)
 
-# Creare e gestire benefit
-## [Gestire un programma di benefit](manage-benefit-program.md)
-## [Criteri di idoneità benefit](benefit-eligibility-policies.md)
+# [Creare e gestire benefit](manage-benefit-program.md)
+# [Criteri di idoneità benefit](benefit-eligibility-policies.md)
 ## [Gestire gli articoli affidati ai lavoratori](loan-items.md)
 
-# Raccogliere informazioni tramite questionari
-## [Questionari](questionnaires.md)
+# [Raccogliere informazioni tramite questionari](questionnaires.md)
 ## [Progettare un questionario](design-questionnaires.md)
 ## [Distribuire e completare un questionario](distribute-questionnaires.md)
 ## [Valutare i risultati di un questionario](evaluate-questionnaire-results.md)
