@@ -1,9 +1,9 @@
 ---
 title: Implementare correzioni manuali nella previsione di base
-description: Questo articolo illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione.
+description: Questo argomento illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 218374cdb6b5588648422d97c04fb60f26e47ac7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione. 
+Questo argomento illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione. 
 
 Prima di apportare correzioni manuali, è importante comprendere alcuni concetti relativi alle varie pagine.
 
@@ -43,7 +43,7 @@ La pagina **Previsione della domanda modificata** include una griglia con la seg
 -   Le colonne successive rappresentano gli intervalli di previsione per cui la previsione è stata generata. Ogni intestazione di colonna corrisponde alla data dell'intervallo di previsione che mostra la colonna.
 -   I valori delle celle rappresentano la previsione per un articolo, chiave di allocazione articolo, e altri valori specifici di tale intervallo di previsione.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Aggregazione e annullamento dell'aggregazione di previsione
+## <a name="forecast-aggregation-and-de-aggregation"></a>Aggregazione e annullamento dell'aggregazione di previsione
 Il sottotitolo della pagina mostra il livello di aggregazione della previsione. 
 
 Ad esempio, se il sottotitolo della pagina è **Società/sito/chiave di allocazione/numero articolo/colore/dimensioni/configurazione/stile**, non esiste alcuna aggregazione di previsione e la previsione viene visualizzata a livello di articolo e delle relative dimensioni. Per modificare l'aggregazione, utilizzare la pagina **Modifica dimensioni previsione** che è possibile aprire dal menu dell'applicazione. 

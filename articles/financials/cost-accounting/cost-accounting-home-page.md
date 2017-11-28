@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c4c900d7599b0dc09e97e6a62d5b43971a8c3e33
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6b2346c635fd16fce99c2813856e0fc9b5b03a44
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -38,12 +38,11 @@ Nella mappa di apprendimento vengono visualizzati i concetti e le attività prin
 ## <a name="quick-links"></a>Collegamenti rapidi
 |      |   |
 |------|---|
-|  [Per iniziare](terms-cost-accounting.md)    | [Configurare il sistema di origine](../general-ledger/financial-dimensions.md)  |
-|  [Creare dimensioni e importare i membri di dimensione](cost-elements.md)    |[Creare una gerarchia di dimensioni](dimension-hierarchy.md)   |
-|  [Crea impostazione di base](./tasks/define-cost-control-units.md)    |  [Definire una base di allocazione](allocation-bases.md) |
-|    [Definire criteri](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md)  | [Origine dati e provider di dati](./tasks/manage-data-source-cost-accounting-ledger.md)  |
-| [Elaborazione dell'origine dati](./tasks/process-trace-source-data.md)     | [Calcolo generale](overhead-calculation.md)  |
-|   [Analisi e creazione di report](cost-control-workspace.md)   |   |
+|  [Configurare le entità di base (eLearning)](https://mbspartner.microsoft.com/Home) (richiede l'account CustomerSource)  |[Crea dimensioni](cost-elements.md)  |
+|  [Creare una gerarchia di dimensioni](dimension-hierarchy.md)  |[Crea impostazione di base](./tasks/define-cost-control-units.md)| 
+| [Definire una base di allocazione](allocation-bases.md)|[Definire criteri](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Origine dati e provider di dati](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Origine dati e provider di dati](./tasks/process-trace-source-data.md)     | 
+|[Calcolo generale](overhead-calculation.md)  | [Analisi e creazione di report](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Video introduttivi<br/>
 

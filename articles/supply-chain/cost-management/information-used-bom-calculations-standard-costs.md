@@ -1,9 +1,9 @@
 ---
-title: Calcoli DBA con costi standard
-description: 
+title: Informazioni utilizzate nei calcoli DBA con costi standard
+description: Per i calcoli della distinta base (DBA) vengono utilizzati dati provenienti da diverse origini allo scopo di conteggiare i costi standard di un articolo prodotto. Le possibili origini includono informazioni sugli articoli, i cicli di lavorazione delle distinte base, le formule di calcolo dei costi indiretti e la versione di determinazione costi.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 60a84eaaf1f8aa4dbf4e1de10172a728a855e62b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 187482f29e6982220b844777ef31997f0d5ef0d3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>Calcoli DBA con costi standard
+# <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informazioni utilizzate nei calcoli DBA con costi standard
 
 [!include[banner](../includes/banner.md)]
 
 
-
+Per i calcoli della distinta base (DBA) vengono utilizzati dati provenienti da diverse origini allo scopo di conteggiare i costi standard di un articolo prodotto. Le possibili origini includono informazioni sugli articoli, i cicli di lavorazione delle distinte base, le formule di calcolo dei costi indiretti e la versione di determinazione costi.
 
 Nelle informazioni sull'articolo acquistato utilizzate in un calcolo DBA per i costi standard è incluso quanto segue:
 -   Costo - I costi di un articolo acquistato vengono gestiti come record costi specifici del sito in una versione di determinazione costi per costi standard. Ogni record ha una data di validità e la data del calcolo DBA determina il record di costo che verrà utilizzato. Ad esempio, un calcolo DBA con una data di calcolo futura può utilizzare un record di costo con stato in sospeso e una data di validità futura.

@@ -3,7 +3,7 @@ title: "Crediti e riscossioni in Contabilità clienti"
 description: "Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62f659d6e4529adce10e6eb2699dfc84a7329143
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -69,7 +69,7 @@ Le pagine elenco seguenti facilitano l'organizzazione delle informazioni sulla r
 -   Casi di riscossione: nelle colonne della pagina elenco vengono visualizzate le informazioni relative ai casi che hanno una categoria del caso di tipo Riscossioni.
 
 > [!NOTE]
-> Per poter visualizzare le informazioni in queste pagine elenco, è necessario creare uno snapshot di aging. Le informazioni sono visualizzate solo per i clienti per i quali è stato creato uno snapshot di aging. I record presenti nella pagina elenco possono essere ulteriormente filtrati, ad esempio:
+> Per poter visualizzare le informazioni in queste pagine elenco, è necessario creare uno snapshot di aging. Le informazioni vengono visualizzate solo per i clienti per i quali è stato creato uno snapshot di aging. È possibile filtrare ulteriormente i record presenti nella pagina elenco nel modo seguente:
 <li>Per impostazione predefinita, un utente di Finance and Operations ha accesso a tutti i clienti che dispongono di uno snapshot di aging.</li>
 <li>Se sono presenti pool di clienti, è necessario che un utente sia impostato come agente di riscossione per utilizzare i pool per filtrare le informazioni nelle pagine elenco di riscossione. Le informazioni sono limitate ai clienti inclusi nel pool di clienti selezionato.</li>
 <li>Se un utente viene impostato come agente di riscossione, nella pagina elenco saranno disponibili solo i pool selezionati per tale agente di riscossione. Se il pulsante Consenti ad agente di visualizzare tutti i pool di clienti è selezionato nella pagina Agenti di riscossione per un agente di riscossione specifico, tutti i pool sono disponibili per tale agente.</li>

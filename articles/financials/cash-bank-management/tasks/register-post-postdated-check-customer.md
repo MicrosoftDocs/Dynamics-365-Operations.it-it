@@ -3,7 +3,7 @@ title: Registrare un assegno postdatato per un cliente
 description: "È possibile registrare i dettagli di un assegno postdatato ricevuto da un cliente."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1610036815349f625a67d5dd67260114d42fff97
+ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
+ms.openlocfilehash: f75dea40d0cc77c851569608f18229339ed30af9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrare un assegno postdatato per un cliente
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/29/2017
     * Immettere l'importo specificato nell'assegno postdatato.  
 8. Fare clic sulla scheda Pagamento.
 9. Digitare un valore nel campo Metodo di pagamento.
-    * Selezionare il metodo di pagamento per l'assegno postdatato  
+    * Selezionare il metodo di pagamento per l'assegno postdatato.  
 10. Fare clic sulla scheda Assegni postdatati.
 11. Immettere una data nel campo Data di scadenza.
     * Immettere la data in cui è possibile esigere il pagamento dell'assegno postdatato.  

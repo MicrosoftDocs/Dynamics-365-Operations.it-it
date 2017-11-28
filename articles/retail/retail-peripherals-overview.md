@@ -1,9 +1,8 @@
 ---
 title: Panoramica sulle periferiche di vendita al dettaglio
-description: In questo argomento vengono descritti i concetti correlati alle periferiche di vendita al dettaglio. Sono descritti i vari modi che le periferiche possono essere collegate al POS e i componenti responsabili della gestione della connessione al POS.
-author: rubencdelgado
+description: In questo argomento vengono descritti i concetti correlati alle periferiche di vendita al dettaglio.
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,14 +17,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Panoramica sulle periferiche di vendita al dettaglio
+# <a name="retail-peripherals-overview"></a>Panoramica delle periferiche di vendita al dettaglio
 
 [!include[banner](includes/banner.md)]
 
@@ -575,7 +574,7 @@ A seconda degli standard di sicurezza correnti, le seguenti impostazioni devono 
 ## <a name="peripheral-simulator"></a>Simulatore periferica
 Per ulteriori informazioni, vedere [Simulatore periferica di vendita al dettaglio](dev-itpro/retail-peripheral-simulator.md).
 
-## <a name="microsofttested-peripheral-devices"></a>Periferiche testate da Microsoft
+## <a name="microsoft-tested-peripheral-devices"></a>Periferiche testate da Microsoft
 ### <a name="ipc-built-in-hardware-station"></a>Stazione hardware IPC (integrata)
 
 Le periferiche seguenti sono state testate utilizzando la stazione hardware IPC integrata in Modern POS per Windows.

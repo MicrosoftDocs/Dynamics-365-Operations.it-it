@@ -1,9 +1,9 @@
 ---
 title: Nomenclatura di nomi e numeri di varianti prodotto
-description: "In questo argomento viene descritto come impostare la nomenclatura per il numero prodotto per sostituire il formato fisso [Numero rappresentazione generale prodotto - Configurazione - Dimensione - Colore - Stile]. La nuova nomenclatura ha un formato di destinazione che include il numero della rappresentazione generale prodotto, le dimensioni prodotto attive e i delimitatori di testo scelti. È inoltre possibile creare una nomenclatura per i nomi di prodotto. Infine, è anche possibile creare una nomenclatura per identificare le configurazioni create in base alla configurazione basata su vincoli del prodotto. Queste nomenclature possono includere gli attributi scelti."
+description: In questo argomento viene descritto come impostare la nomenclatura per il numero prodotto per sostituire il formato fisso [Numero rappresentazione generale prodotto - Configurazione - Dimensione - Colore - Stile].
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ Una maglietta (TS1234) viene prodotta in tre dimensioni (S, M, L), quattro color
 
 In questo caso, il numero di variante prodotto per la polo piccola e rossa sarà TS1234-Red-Small-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenclatura delle configurazioni basate su vincoli
+## <a name="nomenclature-of-constraint-based-configurations"></a>Nomenclatura delle configurazioni basate su vincoli
 Per le configurazioni basate su vincoli, è possibile creare una nomenclatura dedicata per la dimensione prodotto della configurazione. È possibile selezionare i segmenti che seguono nella pagina **Nomenclatura di prodotto**:
 
 -   Valore sequenza numerica
@@ -92,7 +92,7 @@ Creare una nomenclatura configurazione contenente i segmenti seguenti:
 
 In questo caso, l'ID configurazione per il materiale legno con una lunghezza di 78 sarà WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclatura di configurazioni basate su dimensioni
+## <a name="nomenclature-of-dimension-based-configurations"></a>Nomenclatura di configurazioni basate su dimensioni
 Per le configurazioni basate su dimensioni, è possibile creare una nomenclatura dedicata per la dimensione prodotto della configurazione. È possibile selezionare i segmenti che seguono nella pagina **Nomenclatura di prodotto**:
 
 -   Valore sequenza numerica

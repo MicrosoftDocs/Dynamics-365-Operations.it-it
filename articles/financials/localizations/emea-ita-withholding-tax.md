@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 272733
 ms.assetid: a5628f89-2ebb-4df2-a8a5-522649fb66da
 ms.search.region: Italy
@@ -18,10 +18,10 @@ ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6ad61ce79d3ba65bd89e1d9b20a1dc4bbb75a46f
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: f82bdda0bcdbab2bb8b4b53b71e51d82a55bedb2
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -62,7 +62,7 @@ Nel Riquadro azioni fare clic su **Limiti** e impostare i limiti per l'importo d
 | Ritenuta minima | Immettere l'importo minimo della ritenuta d'acconto che è possibile registrare per qualsiasi transazione per il codice ritenuta d'acconto selezionato. |
 | Ritenuta massima | Immettere l'importo massimo della ritenuta d'acconto che è possibile registrare per qualsiasi transazione per il codice ritenuta d'acconto selezionato. |
 
-Impostare i gruppi di ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Gruppi ritenute d'acconto**. Immettere il codice e il nome per un gruppo di ritenute d'acconto e assegnare un codice di ritenuta d'acconto al gruppo. Ulteriori informazioni, vedere [Impostare la ritenuta d'acconto (guida attività)](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-withholding-tax). Impostare un conto fornitore per il calcolo della ritenuta d'acconto in **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**. Definire le seguenti impostazioni.
+Impostare i gruppi di ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Gruppi ritenute d'acconto**. Immettere il codice e il nome per un gruppo di ritenute d'acconto e assegnare un codice di ritenuta d'acconto al gruppo. Ulteriori informazioni, vedere [Impostare la ritenuta d'acconto (guida attività)](../general-ledger/tasks/set-up-withholding-tax.md). Impostare un conto fornitore per il calcolo della ritenuta d'acconto in **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**. Definire le seguenti impostazioni.
 
 |Scheda dettaglio|Campo|descrizione|
 |-------|---------|-----------|

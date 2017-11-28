@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbe32e248727912073631f1dfb8ee0a49cbf0a5e
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -36,11 +36,10 @@ Configurare i moduli Contabilità clienti e Crediti e riscossioni per tenere tra
 È possibile impostare gruppi di clienti, clienti, profili registrazione, varie opzioni di pagamento, note d'interesse, lettere di sollecito, provvigioni, parametri relativi a clienti, spese, consegne e destinazioni, effetti attivi e altri tipi di informazioni relative a Contabilità clienti e Crediti e riscossioni.
 Nella tabella seguente sono elencate le pagine che supportano la configurazione e la gestione di Contabilità clienti e Crediti e riscossioni. Le voci della tabella sono suddivise per attività e ordinate alfabeticamente in base al nome della pagina.
 
-| ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**          |
-|--------------------------------------------------------------------------------------------------|
-| Per accedere ad alcune pagina riportate nella tabella è necessario immettere dati o impostazioni dei parametri. |
+> [!NOTE]
+> Non è possibile accedere ad alcune pagine nella tabella seguente a meno che le impostazioni di dati o parametri siano state immesse in altre pagine.
 
-| Attività                                                 | Nome pagina                            | Uso                                                                                                                                                                                                                                                                             |
+| Compito                                                 | Nome pagina                            | Uso                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurazione delle informazioni necessarie per la contabilità clienti | Parametri contabilità clienti       | Consente di impostare i parametri relativi alla contabilità clienti.                                                                                                                                                                                                                             |
 |                                                      | Flussi di lavoro contabilità clienti        | Consente di creare un flusso di lavoro o di modificarne uno esistente.                                                                                                                                                                                                                                      |

@@ -1,9 +1,9 @@
 ---
 title: Panoramica della richiesta di acquisto
-description: "Questo articolo descrive il flusso di lavoro delle richieste di acquisto e i diversi stati che può avere una richiesta di acquisto."
+description: "Vengono descritti il flusso di lavoro delle richieste di acquisto e i diversi stati che può avere una richiesta di acquisto."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo descrive il flusso di lavoro delle richieste di acquisto e i diversi stati che può avere una richiesta di acquisto.
+Vengono descritti il flusso di lavoro delle richieste di acquisto e i diversi stati che può avere una richiesta di acquisto.
 
 A seconda della configurazione dell'organizzazione, è possibile creare richieste di acquisto per i prodotti utilizzati. Una richiesta di acquisto è un documento interno con cui si autorizza il reparto acquisti ad acquistare articoli o servizi.  
 
@@ -70,7 +70,7 @@ Lo stato generale della richiesta di acquisto viene determinato dallo stato dell
 <tr class="odd">
 <td>Bozze</td>
 <td>Bozze</td>
-<td>La richiesta di acquisto e la riga della richiesta di acquisto sono state create, ma non inviate per la revisione. Le richieste di acquisto e le righe della richiesta di acquisto con lo stato <strong>Bozza</strong> possono essere modificate. Una richiesta di acquisto o una riga della richiesta di acquisto è inoltre nello stato <strong>Bozza</strong> se è stata richiamata ma non è stato reinviata per la revisione.<strong>Nota:</strong> è possibile inviare o richiamare una richiesta di acquisto a livello di documento. Tuttavia, non è possibile inviare o richiamare una singola riga della richiesta di acquisto.</td>
+<td>La richiesta di acquisto e la riga della richiesta di acquisto sono state create, ma non inviate per la revisione. Le richieste di acquisto e le righe della richiesta di acquisto con lo stato <strong>Bozza</strong> possono essere modificate. Una richiesta di acquisto o una riga della richiesta di acquisto è inoltre nello stato <strong>Bozza</strong> se è stata richiamata ma non è stato inviata di nuovo per la revisione. <strong>Nota:</strong> è possibile inviare o richiamare una richiesta di acquisto a livello di documento. Tuttavia, non è possibile inviare o richiamare una singola riga della richiesta di acquisto.</td>
 </tr>
 <tr class="even">
 <td>In revisione</td>
@@ -111,7 +111,7 @@ Se si invia nuovamente una riga della richiesta di acquisto che è stata rifiuta
 <tr class="odd">
 <td>Annullato</td>
 <td>Annullato</td>
-<td>La richiesta di acquisto e tutte le righe della richiesta di acquisto sono state annullate.<strong>Nota:</strong> se non si richiede più un articolo presente nella riga della richiesta di acquisto, è necessario annullare la riga della richiesta di acquisto se è già stata approvata. È possibile annullare solo le righe della richiesta di acquisto approvate. Se righe della richiesta di acquisto sono in revisione, anche la richiesta avrà lo stato <strong>In revisione</strong>. In questo caso, è possibile richiamare la richiesta di acquisto ed eliminare la riga della richiesta di acquisto appropriata.</td>
+<td>La richiesta di acquisto e tutte le righe della richiesta di acquisto sono state annullate. <strong>Note:</strong> se non è più richiesto un articolo indicato in una riga della richiesta di acquisto, è necessario annullare la riga della richiesta di acquisto se è già stata approvata. È possibile annullare solo le righe della richiesta di acquisto approvate. Se righe della richiesta di acquisto sono in revisione, anche la richiesta avrà lo stato <strong>In revisione</strong>. In questo caso, è possibile richiamare la richiesta di acquisto ed eliminare la riga della richiesta di acquisto appropriata.</td>
 </tr>
 <tr class="even">
 <td>Chiuso</td>

@@ -1,9 +1,9 @@
 ---
-title: "Funzionalità per call center"
-description: "Questo articolo fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Retail."
+title: "Funzionalità del servizio clienti"
+description: "Questo argomento fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 00d24e9933d087f150ec5270da94ad911423824d
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -40,7 +40,7 @@ Dynamics 365 for Retail supporta anche i servizi clienti come un tipo di canale 
 
 Una volta abilitate nelle impostazioni del call center, queste funzionalità sono disponibili nella pagina **Ordine cliente** agli utenti che sono associati al call center. La maggior parte delle funzionalità richiedono una configurazione aggiuntiva prima di poter essere utilizzate. Prima di poter creare ordini dal call center, è necessario che gli utenti siano aggiunti al call center come utenti del call center. Questo passaggio abilita le funzionalità e la configurazione specifica del canale del call center. Di seguito sono riportati alcuni esempi delle funzionalità che risultano disponibili:
 
--   La vendita guidata fornisce opzioni di configurazione per gli script di televendita e immagini dei prodotti per aiutare e guidare gli addetti alle vendite nell'acquisizione degli ordini.
+-   La vendita guidata fornisce opzioni di configurazione per gli script di televendita e immagini dei prodotti per aiutare e guidare gli addetti alle vendite nell'acquisizione degli ordini.
 -   Gli ordini non possono essere completati finché gli addetti alle vendite non abbiano acquisito almeno un metodo di pagamento.
 -   È possibile configurare le regole di upselling e cross-selling per spingere gli addetti alle vendite a promuovere specifici prodotti presso i clienti.
 -   Gli addetti alle vendite possono acquisire il codice di origine per il catalogo da cui un cliente sta effettuando l'ordine.

@@ -3,7 +3,7 @@ title: Impostare un catalogo esterno per PunchOut eProcurement
 description: Questo argomento descrive l'utilizzo di un catalogo esterno per raccogliere le informazioni dell'offerta da un fornitore e aggiungerle a una richiesta.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4c89f6f168825f7767b836be09fa73b8659b00c6
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
 ms.contentlocale: it-it
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -40,15 +40,15 @@ Il catalogo esterno deve consentire a un dipendente che inserisce una richiesta 
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Per impostare un catalogo fornitore esterno, completare le attività elencate di seguito:
 
-1. Impostare una gerarchia di categorie di approvvigionamento. Per ulteriori informazioni, vedere [Impostare criteri per le gerarchie di categorie di approvvigionamento](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies).
-2. Registrare il fornitore in Finance and Operations. Prima di impostare le configurazioni per accedere al catalogo di un fornitore esterno, è necessario impostare il fornitore e il relativo contatto in Microsoft Dynamics 365. È inoltre necessario aggiungere il fornitore del catalogo esterno alla categoria di approvvigionamento selezionata. Per ulteriori informazioni sulla registrazione di fornitori in Microsoft Dynamics 365, vedere [Gestire gli utenti della collaborazione fornitore](manage-vendor-collaboration-users.md). Per informazioni su come assegnare fornitori a una categoria di approvvigionamento, vedere [Approvare i fornitori per categorie specifiche di approvvigionamento](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories).
-3. Verificare che le unità di misura e la valuta utilizzate dal fornitore siano impostate. Per informazioni su come creare un'unità di misura, vedere [Gestire unità di misura](/dynamics365/unified-operations/supply-chain/pim/tasks/manage-unit-measure).
-4. Configurare il catalogo fornitore esterno utilizzando i requisiti del sito del catalogo del fornitore esterno desiderato. Per ulteriori informazioni su questa attività, vedere la sezione successiva.
+1. Impostare una gerarchia di categorie di approvvigionamento. Per ulteriori informazioni, vedere [Impostare criteri per le gerarchie di categorie di approvvigionamento](tasks/set-up-policies-procurement-category-hierarchies.md).
+2. Registrare il fornitore in Finance and Operations. Prima di impostare le configurazioni per accedere al catalogo di un fornitore esterno, è necessario impostare il fornitore e il relativo contatto in Microsoft Dynamics 365. È inoltre necessario aggiungere il fornitore del catalogo esterno alla categoria di approvvigionamento selezionata. Per ulteriori informazioni sulla registrazione di fornitori in Microsoft Dynamics 365, vedere [Gestire gli utenti della collaborazione fornitore](manage-vendor-collaboration-users.md). Per informazioni su come assegnare fornitori a una categoria di approvvigionamento, vedere [Approvare i fornitori per categorie specifiche di approvvigionamento](tasks/approve-vendors-specific-procurement-categories.md).
+3. Verificare che le unità di misura e la valuta utilizzate dal fornitore siano impostate. Per informazioni su come creare un'unità di misura, vedere [Gestire unità di misura](../pim/tasks/manage-unit-measure.md).
+4. Configurare il catalogo fornitore esterno utilizzando i requisiti del sito del catalogo del fornitore esterno desiderato. Per ulteriori informazioni su questa attività, vedere [Configurare il catalogo fornitore esterno](#configure-the-external-vendor-catalog).
 5. Eseguire il test delle configurazioni del catalogo esterno del fornitore per verificare che le impostazioni siano valide e che sia possibile accedere al catalogo esterno del fornitore. Utilizzare l'azione **Convalida impostazioni** per convalidare il messaggio di richiesta di impostazione definito. Questo messaggio deve far sì che il sito del catalogo esterno dei fornitori venga aperto in una finestra di browser. Durante la convalida non è possibile ordinare articoli e servizi dal fornitore. Per ordinare articoli e servizi, è necessario accedere al catalogo del fornitore tramite una richiesta di acquisto.
 6. Attivare il catalogo esterno utilizzando il pulsante **Attiva catalogo** nella pagina **Cataloghi esterni**. È necessario attivare il catalogo esterno prima che i dipendenti possano utilizzarlo. È possibile disattivare il catalogo esterno in qualsiasi momento.
 
 
-## <a name="4-configure-the-external-vendor-catalog"></a>(4) Configurare il catalogo fornitore esterno
+## <a name="configure-the-external-vendor-catalog"></a>Configurare il catalogo fornitore esterno
 
 In questa sezione vengono forniti ulteriori dettagli sull'attività 4 della sezione precedente.
 

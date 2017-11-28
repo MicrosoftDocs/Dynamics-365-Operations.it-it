@@ -3,7 +3,7 @@ title: Domande frequenti sulle traduzioni relative ai prodotti
 description: In questo argomento viene descritto come gestire le traduzioni per i prodotti, i valori di dimensione prodotto e gli attributi del prodotto.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 2c58e3e2f60c00d8d834c1d80b347e2e7087809d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -47,7 +47,7 @@ In questo argomento viene descritto come gestire le traduzioni per i prodotti, i
 ## <a name="where-can-i-view-the-translated-information"></a>Dove si possono visualizzare le informazioni tradotte?
 È possibile visualizzare le traduzioni delle informazioni relative al prodotto in qualsiasi documento di origine esterno, ad esempio una fattura, che utilizza una lingua in cui le traduzioni sono disponibili.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Come si creano le traduzioni per le informazioni relative al prodotto?
+## <a name="how-do-i-create-translations-for-product-related-information"></a>Come si creano le traduzioni per le informazioni relative al prodotto?
 Per creare le traduzioni per un prodotto, completare i passaggi seguenti:
 1.  Fare clic su **Gestione informazioni sul prodotto** &gt; **Comune** &gt; **Prodotti rilasciati**.
 2.  Selezionare un prodotto e, nel riquadro azioni, gruppo **Lingue**, fare clic su **Traduzioni**.
@@ -124,7 +124,7 @@ Per gestire le traduzioni per i valori in un gruppo di valori di dimensione, eff
 1.  Seguire i passaggi della procedura precedente per creare un gruppo di valori di dimensioni per aprire la pagina **Righe gruppo di dimensioni** **Righe gruppo di colori** o **Righe gruppo di stili**.
 2.  Fare clic su **Traduzione testo**. Nella pagina **Traduzione testo**, gruppo **Testo tradotto** immettere le traduzioni nei campi **Nome** e **Descrizione**.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Quando è possibile gestire le traduzioni delle informazioni relative al prodotto?
+## <a name="when-can-translations-of-product-related-information-be-managed"></a>Quando è possibile gestire le traduzioni delle informazioni relative al prodotto?
 Le traduzioni delle informazioni relative al prodotto possono essere gestite in qualsiasi momento. Quando le traduzioni vengono aggiornate per un valore di dimensione associato a un prodotto, le informazioni del prodotto vengono aggiornate, indipendentemente dalla presenza delle transazioni del prodotto.
 
 

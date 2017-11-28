@@ -3,7 +3,7 @@ title: Conteggio ciclo ubicazioni parziale
 description: "I piani di conteggio ciclo definiscono le operazioni di conteggio effettivo. È possibile fare in modo che solo prodotti specifici e varianti di prodotto vengano conteggiati anziché tutte le scorte disponibili in un'ubicazione."
 author: perlynne
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 626b2f9f35b94124168adb7bb09c75a086d38a97
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -54,7 +54,7 @@ Per questo esempio, solo il numero di articolo A0001 deve essere conteggiato nel
 
 1.  Viene creato un nuovo modello di lavoro per il conteggio ciclo. L'opzione **Interruzioni riga lavoro** viene utilizzata per raggruppare le righe del lavoro di conteggio per numero di articolo. Di conseguenza, il lavoro di conteggio ciclo creato avrà righe per numero di articolo. È inoltre possibile raggruppare le righe per numero di varianti prodotto.
 2.  Viene creato un nuovo piano di conteggio ciclo che fa riferimento al modello di lavoro appena creato. Il piano di conteggio ciclo include tutte le ubicazioni nel magazzino 61 (query **Seleziona ubicazioni** ) che dispongono di scorte per il numero di articolo A0001. La selezione di prodotti specifici viene definita nella sezione **Selezioni del prodotto del piano di conteggio ciclo**.
-3.  È possibile selezionare i prodotti per i piani di conteggio ciclo impostando il campo **Ubicazioni vuote** su  **Escludi ubicazioni vuote**. Quando il piano di conteggio ciclo viene elaborato, viene creato il lavoro di conteggio ciclo parziale per il numero di articolo A0001. Il processo di conteggio effettivo può essere eseguito mediante una voce di menu del dispositivo mobile per il conteggio ciclo guidato.
+3.  È possibile selezionare i prodotti per i piani di conteggio ciclo impostando il campo **Ubicazioni vuote** su **Escludi ubicazioni vuote**. Quando il piano di conteggio ciclo viene elaborato, viene creato il lavoro di conteggio ciclo parziale per il numero di articolo A0001. Il processo di conteggio effettivo può essere eseguito mediante una voce di menu del dispositivo mobile per il conteggio ciclo guidato.
 
 
 

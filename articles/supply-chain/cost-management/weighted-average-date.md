@@ -1,9 +1,9 @@
 ---
 title: Data media ponderata
-description: 
+description: La data media ponderata costituisce un modello inventariale basato sul principio della media ponderata, in base al quale le uscite da magazzino vengono valutate al valore medio degli articoli ricevuti in magazzino per ogni giorno distinto nel periodo di chiusura inventario.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+La data media ponderata è un modello inventariale basato sul principio di media ponderate. Per tale principio, le uscite da magazzino vengono valutate al valore medio degli articoli ricevuti in magazzino per ogni giorno del periodo di chiusura inventario. 
 
-La data media ponderata è un modello inventariale basato sul principio di media ponderate. Per tale principio, le uscite da magazzino vengono valutate al valore medio degli articoli ricevuti in magazzino per ogni giorno del periodo di chiusura inventario. Quando si esegue una chiusura inventario tramite la data media ponderata, tutte le entrate giornaliere vengono liquidate a fronte di un'uscita virtuale. Quest'ultima comprende la quantità totale ricevuta e il valore del giorno. Questa uscita virtuale è associata a un'entrata virtuale corrispondente rispetto a cui verrà liquidata. In questo modo a tutte le uscite viene assegnato lo stesso costo medio. L'uscita e l'entrata virtuali possono essere considerate come un trasferimento virtuale, denominato *trasferimento di chiusura inventario media ponderata*. 
+Quando si esegue una chiusura inventario tramite la data media ponderata, tutte le entrate giornaliere vengono liquidate a fronte di un'uscita virtuale. Quest'ultima comprende la quantità totale ricevuta e il valore del giorno. Questa uscita virtuale è associata a un'entrata virtuale corrispondente rispetto a cui verrà liquidata. In questo modo a tutte le uscite viene assegnato lo stesso costo medio. L'uscita e l'entrata virtuali possono essere considerate come un trasferimento virtuale, denominato *trasferimento di chiusura inventario media ponderata*. 
 
 Se nella data in questione o in una data precedente si è verificata una sola entrata, non è necessario valutare la media. Poiché tutte le uscite vengono liquidate da tale entrata, il trasferimento virtuale non verrà creato. Analogamente, in una data in cui si verificano solo uscite non sono presenti entrate da cui valutare la media e il trasferimento non viene creato. Quando si utilizza la data media ponderata, è possibile contrassegnare le transazioni di magazzino in modo da liquidare un'entrata di articoli specifica a fronte di un'uscita specifica. In questo caso, non si utilizza la regola della data media ponderata. In caso di utilizzo del modello inventariale della data media ponderata, è consigliabile una chiusura inventario mensile. 
 

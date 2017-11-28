@@ -1,9 +1,9 @@
 ---
 title: Fatture di pagamento anticipato e pagamenti anticipati a confronto
-description: Questo articolo descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati. Con un metodo si crea una fattura di pagamento anticipato associata a un ordine fornitore. Con l'altro metodo si creano i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di scritture contabili e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato.
+description: Questo argomento descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati. Con un metodo si crea una fattura di pagamento anticipato associata a un ordine fornitore. Con l'altro metodo si creano i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di scritture contabili e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6bf67fb17363f7b61e782ed6d8e7b6310433ffd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati. Con un metodo si crea una fattura di pagamento anticipato associata a un ordine fornitore. Con l'altro metodo si creano i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di scritture contabili e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato.
+Questo argomento descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati. Con un metodo si crea una fattura di pagamento anticipato associata a un ordine fornitore. Con l'altro metodo si creano i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di scritture contabili e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato.
 
 Le organizzazioni possono emettere pagamenti anticipati in favore dei fornitori di merci o servizi prima che la fornitura di tali merci o servizi sia stata completata. Due metodi possono essere utilizzati per emettere pagamenti anticipati ai fornitori. Per ridurre al minimo i rischi, è possibile tenere traccia dei pagamenti definendo il pagamento anticipato in relazione a un ordine fornitore. Per questo metodo è necessario creare una fattura di pagamento anticipato associata a un ordine fornitore. Questo metodo è denominato fatturazione di pagamento anticipato. Le organizzazioni che non desiderano tenere traccia dei pagamenti anticipati in modo sistematico o che non ricevono una fattura di pagamento anticipato dal proprio fornitore possono utilizzare i giustificativi giornale di registrazione per pagamento anticipato anziché il metodo di fatturazione di pagamento anticipato. È possibile creare i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di inserimenti nel giornale di registrazione e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato. Con questo metodo non è possibile verificare quali pagamenti anticipati vengono effettuati a favore di un fornitore in relazione a un determinato ordine fornitore. Tuttavia, è possibile contrassegnare un pagamento anticipato registrato per la liquidazione in base a un ordine fornitore.
 

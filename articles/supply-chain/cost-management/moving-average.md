@@ -1,9 +1,9 @@
 ---
 title: Media mobile
-description: 
+description: "La media mobile è un metodo di determinazione dei costi soggetti a variazioni basato sul principio della media, in cui i costi delle uscite di magazzino non cambiano quando cambia il costo di acquisto. La differenza viene capitalizzata e basata su un calcolo proporzionale. L'importo che rimane viene calcolato come spesa."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+La media mobile è un metodo di determinazione dei costi soggetti a variazioni basato sul principio della media, in cui i costi delle uscite di magazzino non cambiano quando cambia il costo di acquisto. La differenza viene capitalizzata e basata su un calcolo proporzionale. L'importo che rimane viene calcolato come spesa. 
+
+Quando si utilizza la media mobile, non sono supportati le liquidazioni magazzino e il contrassegno scorte. La chiusura dell'inventario non influisce sui prodotti che dispongono di media mobile come il gruppo di modelli inventariali e non genera alcuni accordi tra le transazioni.
 
 Di seguito sono riportati i prerequisiti di quando si utilizza il costo a media mobile come metodo di determinazione dei costi.
+
 1.  Nella pagina **Gruppi di modelli di articoli** impostare un gruppo di modelli di articoli con la media mobile selezionata nel campo **Modello inventariale**. **Nota**: per impostazione predefinita, quando la media mobile è selezionata, sono selezionati anche i campi **Registra inventario fisico** e **Registra inventario finanziario**. 
 
 2.  Nella pagina **Registrazione**, assegnare i conti **Differenza di prezzo per media mobile** e **Rivalutazione costo per media mobile** nella scheda **Inventario**. Il conto **Differenza di prezzo per media mobile** viene utilizzato quando il costo è speso in modo proporzionale. Ciò avviene a causa di una differenza di costo tra il ricevimento dell'ordine di acquisto e l'emissione della fattura di acquisto e a causa di una differenza tra la quantità originale del magazzino e la quantità disponibile al momento. Utilizzare il conto **Rivalutazione costo per media mobile** quando si desidera rettificare il costo a media mobile per un prodotto a un nuovo prezzo unitario.

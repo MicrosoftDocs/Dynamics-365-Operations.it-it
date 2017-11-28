@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07fe007005fcbbac1beecadb14dbd752376a0bd4
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 55ef4b1757a6f3c28c8575412d66488fda8608a5
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-requisition-for-consumption"></a>Creare una richiesta per il consumo
@@ -46,7 +46,7 @@ In questa procedura viene descritto dettagliatamente il processo per creare una 
 
 ## <a name="add-a-line-to-the-requisition"></a>Aggiungi una riga alla richiesta
 1. Fare clic su Aggiungi riga.
-    * Sono disponibili due metodi di aggiunta delle righe alla richiesta di acquisto. Se si conosce già il numero del prodotto o si sa che il prodotto richiesto non è in catalogo, è possibile aggiungere la riga direttamente con "Aggiungi riga". L'altro modo è utilizzare "Aggiungi prodotti" nei casi in cui è possibile utilizzare la ricerca e il filtro per individuare gli articoli del catalogo prodotti.    
+    * Sono disponibili due metodi di aggiunta delle righe alla richiesta di acquisto. Se si conosce già il numero del prodotto o si sa che il prodotto richiesto non è in catalogo, è possibile aggiungere la riga direttamente con “Aggiungi riga". L'altro modo è utilizzare "Aggiungi prodotti" nei casi in cui è possibile utilizzare la ricerca e il filtro per individuare gli articoli del catalogo prodotti.    
 2. Fare clic sulla riga appena creata.
     * Il richiedente è il lavoratore che ha formulato la richiesta.   
     * Per impostazione predefinita la persona che prepara la richiesta è il lavoratore che l'ha formulata. È necessario ricevere l'autorizzazione per preparare una riga di richiesta per conto di un altro lavoratore. Se si è in possesso di tali autorizzazioni, altri lavoratori verranno messi in luce in questa ricerca.  

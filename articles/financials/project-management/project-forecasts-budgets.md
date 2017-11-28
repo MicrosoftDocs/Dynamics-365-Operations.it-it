@@ -1,9 +1,9 @@
 ---
 title: Previsioni e budget di progetto
-description: 
+description: Microsoft Dynamics 365 for Finance and Operations offre previsioni di progetto e budget di progetto per gestire e controllare i progetti.
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 23501
 ms.assetid: 4e6d1384-19a2-4232-b3f3-d2590c218bd7
 ms.search.region: Global
@@ -19,18 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 32dd89d92a496d6601d1983dbc3c8e7e579ee0b3
+ms.sourcegitcommit: 31abc719a8df7507e74b3bf6823306ba52261bc3
+ms.openlocfilehash: ebb3574b3f5c40b5512c0352c83520558f63879a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
 # <a name="project-forecasts-and-budgets"></a>Previsioni e budget di progetto
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition offre due modi per gestire e controllare i progetti: previsioni di progetto e budget di progetto. 
@@ -41,16 +39,16 @@ Sia le previsioni di progetto che i budget di progetto utilizzano modelli previs
 
 Ciascun metodo ha i relativi vantaggi. È necessario considerare i seguenti punti prima di selezionare un metodo per l'organizzazione.
 
-|                           |                                                                                                                                                                                                                                                         |                                                                                                                                                                         |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                           | **Previsioni per il progetto**                                                                                                                                                                                                                                 | **Budget di progetto**                                                                                                                                                   |
+|                           |                                          |                                                    |
+|---------------------------|------------------------------------------|----------------------------------------------------|
+|                           | **Previsioni per il progetto**                  | **Budget di progetto**                              |
 | **Allocazione periodo**     | Non è possibile allocare in modo esplicito le transazioni in un periodo fiscale. La previsione e il relativo controllo si basano invece sulla durata del progetto. Poiché le previsioni si basano su una data specifica, è necessario derivare il periodo dalla data. | Non è possibile allocare le transazioni nell'intero progetto o in un periodo fiscale. Se si esegue l'allocazione in un periodo, è possibile riportare nel periodo fiscale successivo gli importi inutilizzati. |
 | **Visualizzazione di transazioni**  | Le transazioni possono essere visualizzate nei moduli previsionali, in cui vengono mostrate le previsioni per l'intera società per tutti i progetti, indipendentemente dalla gerarchia. Per focalizzare l'attenzione su un determinato progetto, è necessario filtrare i dati.                                       | È possibile visualizzare le transazioni a budget per una singola gerarchia di progetto. È pertanto possibile visualizzare i dettagli relativi alla transazione per un progetto principale o per i relativi sottoprogetti.                 |
-| **Variabili di transazione** | Quando si immettono le transazioni previsionali, è possibile utilizzare ogni attributo esistente per una transazione effettiva. Ciò garantisce un livello di dettaglio maggiore nella previsione. Ad esempio, è possibile immettere i dettagli relativi a quantità, lavoratori, articoli o proprietà riga.         | Quando si immettono i dettagli relativi al budget, è possibile utilizzare solo importi, categorie e attività.                                                                                    |
-| **Sicurezza**              | Le previsioni si basano sulle transazioni immesse nei moduli previsionali e non prevedono un meccanismo di controllo dei processi. Qualsiasi lavoratore con autorizzazioni per un modulo previsionale può effettuare revisioni delle informazioni senza necessità di approvazione.                                        | L'impostazione del budget utilizza il sistema per la gestione del flusso di lavoro, che consente di gestire le modifiche e di mantenere uno storico delle revisioni.                                                       |
-| **Tipi di voce**           | Le voci delle transazioni previsionali si basano sul numero di unità e sui prezzi di costo e di unità di vendita.                                                                                                                                                       | I dettagli relativi al budget si basano sugli importi, che vengono suddivisi tra costi e ricavi.                                                                                        |
-| **Modelli previsionali**       | Poiché è necessario associare ogni previsione a un modello, è possibile creare più modelli previsionali e impostare dei sottomodelli.                                                                                                                               | L'impostazione del budget di progetto impone dei limiti per i modelli previsionali utilizzati per il budget. Un numero limitato di modelli previsionali consente di aumentare la coerenza delle proiezioni.                           |
-| **Sovraccarichi di costo**         | È possibile consentire o impedire solo l'immissione di transazioni che determinerebbero un sovraccarico di costo.                                                                                                                                                                | L'impostazione del budget di progetto rende disponibili opzioni aggiuntive di controllo per gli utenti. È possibile consentire avvisi e sovraccarichi di costo.                                                                   |
+| **Variabili di transazione** | Quando si immettono le transazioni previsionali, è possibile utilizzare ogni attributo esistente per una transazione effettiva. Ciò garantisce un livello di dettaglio maggiore nella previsione. Ad esempio, è possibile immettere i dettagli relativi a quantità, lavoratori, articoli o proprietà riga.         | Quando si immettono i dettagli relativi al budget, è possibile utilizzare solo importi, categorie e attività.                    |
+| **Sicurezza**              | Le previsioni si basano sulle transazioni immesse nei moduli previsionali e non prevedono un meccanismo di controllo dei processi. Qualsiasi lavoratore con autorizzazioni per un modulo previsionale può effettuare revisioni delle informazioni senza necessità di approvazione.                                        | L'impostazione del budget utilizza il sistema per la gestione del flusso di lavoro, che consente di gestire le modifiche e di mantenere uno storico delle revisioni.         |
+| **Tipi di voce**           | Le voci delle transazioni previsionali si basano sul numero di unità e sui prezzi di costo e di unità di vendita.  | I dettagli relativi al budget si basano sugli importi, che vengono suddivisi tra costi e ricavi.                                          |
+| **Modelli previsionali**       | Poiché è necessario associare ogni previsione a un modello, è possibile creare più modelli previsionali e impostare dei sottomodelli.           | L'impostazione del budget di progetto impone dei limiti per i modelli previsionali utilizzati per il budget. Un numero limitato di modelli previsionali consente di aumentare la coerenza delle proiezioni.                           |
+| **Sovraccarichi di costo**         | È possibile consentire o impedire solo l'immissione di transazioni che determinerebbero un sovraccarico di costo.   | L'impostazione del budget di progetto rende disponibili opzioni aggiuntive di controllo per gli utenti. È possibile consentire avvisi e sovraccarichi di costo.                    |
 | **Controllo**               | Il controllo previsionale viene eseguito tramite la riduzione previsionale. Gli importi effettivi vengono sottratti dai saldi delle transazioni previsionali senza audit trail. Ciò può complicare l'individuazione del punto in cui hanno avuto luogo le transazioni effettive.                   | Nel controllo del budget di progetto, gli importi effettivi vengono sottratti agli importi del budget residuo. Ciò consente un audit trail più chiaro.                                   |
 
 ## <a name="project-forecasts"></a>Previsioni progetto
@@ -66,7 +64,7 @@ I modelli previsionali possono utilizzare la riduzione di previsione come meccan
 
 Le previsioni di progetto possono essere riviste, copiate, eliminate oppure trasferite a un budget di contabilità generale. Non è tuttavia previsto alcun controllo dei processi. Qualsiasi lavoratore con autorizzazione per un modulo di previsione può effettuare revisioni senza ulteriore verifica.
 
--   **Rivedi:** consente di effettuare la revisione di una transazione previsionale negli stessi moduli in cui erano state create le voci originali.
+-   **Rivedi**: consente di effettuare la revisione di una transazione previsionale negli stessi moduli in cui erano state create le voci originali.
 -   **Copia o elimina**: quando si copiano transazioni previsionali, vengono copiate le righe di transazione di un modello previsionale in un altro modello previsionale. Quando si eliminano previsioni, vengono eliminate le transazioni previsionali da un modello previsionale. Per limitare le transazioni previsionali copiate o eliminate, selezionare i tipi di transazione e le date specifici. Ciò consente di copiare o eliminare solo parti specifiche di una previsione.
 -   **Trasferisci**: quando si trasferisce una previsione di progetto a un budget di contabilità generale, vengono trasferite le transazioni previsionali di un modello previsionale a un budget di contabilità generale. È possibile sovrascrivere tutte le transazioni trasferite in precedenza nel budget di contabilità generale nel quale si trasferisce la previsione di progetto in uso.
 

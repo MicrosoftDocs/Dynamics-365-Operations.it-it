@@ -1,9 +1,9 @@
 ---
 title: "Funzionalità Designer DBA"
-description: "In questo articolo viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM). È possibile fare clic su Impostazione per selezionare diverse configurazioni e specificare quali informazioni visualizzare sulle righe della struttura."
+description: In questo argomento viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM).
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM). È possibile fare clic su Impostazione per selezionare diverse configurazioni e specificare quali informazioni visualizzare sulle righe della struttura.
+In questo argomento viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM). È possibile fare clic su Impostazione per selezionare diverse configurazioni e specificare quali informazioni visualizzare sulle righe della struttura.
 
 Quando viene aperta la pagina **Designer DBA** dalla pagina **Prodotti rilasciati**, vengono visualizzati la gerarchia di distinte base che sono attive e approvate per l'articolo selezionato, il sito di default dell'ordine per l'articolo e la data effettiva.  
 
@@ -66,7 +66,7 @@ Il filtro applicabile per la DBA e il ciclo di lavorazione viene visualizzato ne
 <tbody>
 <tr class="odd">
 <td>Dimensioni prodotto</td>
-<td>Se il prodotto finito selezionato è una rappresentazione generale prodotto, è possibile definire le dimensioni prodotto attive per la selezione principale.<strong>Nota:</strong> se si apre Designer DBA per un prodotto non è una rappresentazione generale prodotto, nessuna dimensione prodotto può essere selezionata nella finestra di dialogo <strong>Filtro</strong>.</td>
+<td>Se il prodotto finito selezionato è una rappresentazione generale prodotto, è possibile definire le dimensioni prodotto attive per la selezione principale. <strong>Nota:</strong> se si apre Designer DBA per un prodotto che non è una rappresentazione generale prodotto, nessuna dimensione prodotto può essere selezionata nella finestra di dialogo <strong>Filtro</strong>.</td>
 </tr>
 <tr class="even">
 <td>Sito</td>

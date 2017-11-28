@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 93a40f36e38ef5ea393cf429ad9244b56504bbfc
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Creare i report nei formati Microsoft Office con immagini incorporate per la creazione di report elettronici (ER) (Parte 1) 
@@ -62,7 +62,7 @@ In questo esempio verranno create configurazioni ER per la società di esempio L
 1. Chiudere la pagina.
 2. Chiudere la pagina.
 3. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
-4. Nella struttura selezionare "Model for cheques".
+4. Nella struttura selezionare "Model for checks".
 5. Fare clic su Progettazione.
 6. Fare clic su Mappa modello a origine dati.
 7. Fare clic su Progettazione.

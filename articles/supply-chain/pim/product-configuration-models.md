@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -138,7 +138,7 @@ Un vincolo di tabella definito dal sistema rappresenta un mapping tra un tipo di
 </tr>
 <tr class="odd">
 <td>Requisiti utente</td>
-<td>I requisiti utente rappresentano un'astrazione tra i requisiti utente e i componenti e gli attributi specifici. Non è possibile eseguire il mapping dei requisiti utente su un articolo. Ad esempio, un cliente sta effettuando l'acquisto di un sistema home theatre. Il rappresentante potrebbe chiedere informazioni sulla dimensione della stanza in cui il cliente intende installare il sistema per determinare quanti watt sono necessari. In questo esempio, la dimensione di campo può essere un requisito utente che consente di determinare il valore attributo appropriato per un componente specifico. È possibile nascondere i requisiti utente in modo che non vengano visualizzati all'utente durante la sessione di configurazione. Possono essere altresì nascosti gli attributi, i sottocomponenti e i requisiti utente correlati alle richieste utente. È possibile scrivere una condizione per controllare se una richiesta utente può essere nascosta. È necessario utilizzare la sintassi OML (Optimization Modeling Language) per scrivere la condizione.</td>
+<td>I requisiti utente rappresentano un'astrazione tra i requisiti utente e i componenti e gli attributi specifici. Non è possibile eseguire il mapping dei requisiti utente su un articolo. Ad esempio, un cliente sta effettuando l'acquisto di un sistema home theatre. Il rappresentante potrebbe chiedere informazioni sulla dimensione della stanza in cui il cliente intende installare il sistema per determinare quanti watt sono necessari. In questo esempio, la dimensione della stanza può rappresentare una richiesta utente che consente di determinare il valore attributo appropriato per un componente specifico. È possibile nascondere le richieste utente in modo che non vengano visualizzate dall'utente durante una sessione di configurazione. Possono essere altresì nascosti gli attributi, i sottocomponenti e i requisiti utente correlati alle richieste utente. È possibile scrivere una condizione per controllare se una richiesta utente può essere nascosta. È necessario utilizzare la sintassi OML (Optimization Modeling Language) per scrivere la condizione.</td>
 </tr>
 <tr class="even">
 <td>Righe DBA</td>
