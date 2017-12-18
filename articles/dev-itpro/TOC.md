@@ -124,6 +124,7 @@
 #### [Registrare una classe secondaria per i metodi di fabbrica](extensibility/register-subclass-factory-methods.md)
 #### [Rispondere con EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [Estendere la classe RunBase](extensibility/extend-runbase-class.md)
+#### [Utilizzare i delegati per personalizzare l'avvio dell'applicazione](extensibility/startup-customizations.md)
 #### [Modificare un campo esistente in una tabella](extensibility/modify-existing-field.md)
 #### [Aggiungere un nuovo campo a una tabella esistente](extensibility/add-field-extension.md)
 #### [Aggiungere un indice a una tabella esistente](extensibility/add-index.md)
@@ -418,7 +419,7 @@
 ### [Entità di dati: controllo produzione](data-entities/data-entities-production-control.md)
 ### [Entità di dati: contabilità progetti](data-entities/data-entities-project-accounting.md)
 ### [Entità di dati: settore pubblico](data-entities/data-entities-public-sector.md)
-### [Entità di dati: vendita al dettaglio](data-entities/data-entities-retail.md)
+### [Entità di dati: Retail](data-entities/data-entities-retail.md)
 ### [Entità di dati: esecuzione marketing e vendite](data-entities/data-entities-sales-marketing.md)
 ### [Entità di dati: esecuzione prevendite marketing e vendite](data-entities/data-entities-sales-marketing-pre-sales.md)
 ### [Entità di dati: amministrazione sistema](data-entities/data-entities-system-administration.md)
@@ -505,10 +506,12 @@
 ### [Impostare e distribuire in ambienti locali](deployment/setup-deploy-on-premises-environments.md)
 ### [Sviluppare e distribuire modelli personalizzati in ambienti locali](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Applicare aggiornamenti a una distribuzione locale](deployment/apply-updates-on-premises.md)
+### [Ridistribuire una distribuzione locale](deployment/redeploy-on-prem.md)
+### [Risolvere i problemi di Dynamics 365 for Finance and Operations, Enterprise Edition (locale)](deployment/troubleshoot-on-prem.md)
 
 ## Distribuire codice personalizzato
 ### [Creare un pacchetto distribuibile](deployment/create-apply-deployable-package.md)
-### [Applicare un pacchetto distribuibile](deployment/apply-deployable-package-system.md)
+### [Applicare aggiornamenti a un ambiente cloud](deployment/apply-deployable-package-system.md)
 ### [Installare un pacchetto distribuibile](deployment/install-deployable-package.md)
 ### [Risolvere i problemi relativi alle applicazioni del pacchetto](deployment/deployable-package-troubleshooting.md)
 
@@ -544,11 +547,13 @@
 ## Passare a un aggiornamento recente
 ### [Processo per spostarsi all'ultimo aggiornamento](migration-upgrade/upgrade-latest-update.md)
 ### [Criteri del ciclo di vita](migration-upgrade/versions-update-policy.md)
-### [Passare all'aggiornamento piattaforma più recente](migration-upgrade/upgrade-latest-platform-update.md)
+### [Applicare l'ultimo aggiornamento della piattaforma all'ambiente](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Aggiornare la piattaforma Dynamics alla versione di agosto 2016](migration-upgrade/update-platform-each-release.md)
 ### [Aggiornare un ambiente sandbox](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Aggiornare i dati in ambienti di dimostrazione o sviluppo](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Aggiornare gli strumenti di sviluppo](dev-tools/update-development-tools.md)
+### [Applicare aggiornamenti a una distribuzione locale](deployment/apply-updates-on-premises.md)
+### [Ridistribuire una distribuzione locale](deployment/redeploy-on-prem.md)
 
 ## Aggiornamenti rapidi e manutenzione
 ### [Scaricare aggiornamenti rapidi da Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [Condivisione dati interaziendali](sysadmin/cross-company-data-sharing.md)
 ## [Modalità manutenzione](sysadmin/maintenance-mode.md)
 ## [Preconfigurare gli account di sistema](sysadmin/pre-configured-system-accounts.md)
+## [Esportare utenti B2B in Azure AD](sysadmin/implement-b2b.md)
 ## [Sicurezza basata sui ruoli](sysadmin/role-based-security.md)
 ### [Architettura di sicurezza](sysadmin/security-architecture.md)
 ### [Report di sicurezza](sysadmin/security-reports.md)
@@ -590,7 +596,7 @@
 ## [Configurare la sicurezza](lifecycle-services/configure-lcs-security.md)
 ## [Ricerca argomento](lifecycle-services/issue-search-lcs.md)
 ## [Gestione configurazione](lifecycle-services/configuration-manager-lcs.md)
-### [Impostare Gestione configurazione ](lifecycle-services/set-up-configuration-manager-lcs.md)
+### [Impostare Gestione configurazione](lifecycle-services/set-up-configuration-manager-lcs.md)
 ## [Configurare il servizio di aggiornamento codice](lifecycle-services/configure-execute-code-upgrade.md)
 ## [Creare una metodologia ](lifecycle-services/create-methodology.md)
 ## [Modellatore di processi aziendali](lifecycle-services/bpm-overview.md)

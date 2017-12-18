@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: 9322b970eea9ab5ac01ae8461285b4dbcc1624a3
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -59,7 +59,7 @@ La [roadmap di Dynamics 365](https://roadmap.dynamics.com/) fornisce una snapsho
 Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
 -   [Panoramica dei report elettronici](../analytics/general-electronic-reporting.md)
 -   [Gestire il ciclo di vita della configurazione per la creazione di report elettronici](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [Creare una configurazione per la creazione di report elettronici ](../analytics/electronic-reporting-configuration.md)
+-   [Creare una configurazione per la creazione di report elettronici](../analytics/electronic-reporting-configuration.md)
 -   [Estendere l'elenco delle funzioni di creazione di report elettronici](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Destinazioni dei report elettronici](../analytics/electronic-reporting-destinations.md)
 -   [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
@@ -223,6 +223,7 @@ Nelle seguenti sezioni sono elencate le risorse per ogni paese.
 -   [Dettagli della dichiarazione IVA](../../financials/localizations/emea-ita-vat-statements-details.md)
 -   [Data competenza per le transazioni](../../financials/localizations/emea-ita-competence-date.md)
 -   [Ammortamento manuale dei cespiti](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+-   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
 -   [Verifica della data dei documenti di trasporto nelle fatture per l'Italia](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 -   [Libri IVA italiani](../../financials/localizations/emea-ita-fiscal-books.md)
 -   [Pagamento diviso per le fatture emesse all'amministrazione pubblica](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
