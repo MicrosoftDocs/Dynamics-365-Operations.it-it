@@ -2,8 +2,10 @@
 
 # [Introduzione](talent-get-started.md)
 ## [Requisiti di sistema e criteri di aggiornamento](talent-versions-update-policy.md)
+## [Eseguire il provisioning di Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [Estendere le funzionalità di Talent](extend-talent-functionality.md)
 
-# [Sviluppare una strategia Risorse umane](departments-jobs-positions.md)
+# [Sviluppare una strategia per le Risorse umane](departments-jobs-positions.md)
 ## [Impostare i componenti di processo](create-job.md)
 ## [Creare un reparto e associarlo alla gerarchia reparti](create-department-add-department-hierarchy.md)
 ## [Impostare i parametri di Risorse umane per le persone giuridiche](set-up-hr-parameters-across-legal-entities.md)
