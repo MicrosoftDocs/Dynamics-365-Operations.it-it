@@ -3,7 +3,7 @@ title: Area di lavoro mobile Approvazioni fatture
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Approvazioni fatture. Questa area di lavoro fornisce un elenco di fatture assegnate all'utente mediante il processo del flusso di lavoro di intestazione della fattura fornitore.
 author: abruer
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: af673f076f684500b6ca84d04c01f7f773d65cd6
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 03179fdfd23e26250af92eb70d2ede710bd7007f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017) deve essere distribuito nell'organizzazione.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition deve essere distribuito nell'organizzazione.</td>
 <td>Amministratore di sistema</td>
 <td>Vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>.
 </td>

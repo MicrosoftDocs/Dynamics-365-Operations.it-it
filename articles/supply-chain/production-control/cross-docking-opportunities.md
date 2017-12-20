@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef58898a6822224e44873afdd7c55800215c37a0
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ Nei **criteri di cross-docking** si definiscono i tipi di documento applicabili 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Nome criteri di cross-docking: Ordine di trasferimento
 
 -   Numero progressivo: 10
--   Tipo di ordine di lavoro: Uscita di trasferimento
+ -   Tipo di ordine di lavoro: Uscita di trasferimento
 -   La domanda di cross-docking richiede un'ubicazione: Falso
 -   Strategia di cross-docking: Data e ora
 
@@ -102,10 +102,9 @@ Dopo che un prodotto viene dichiarato finito nella riga di produzione, viene tra
 6.  Creare un ordine di trasferimento. Creare l'ordine di trasferimento per il numero di articolo L0101. Quantità = 20.
 7.  Rilasciare l'ordine di trasferimento dal workbench pianificazione del carico. Nella scheda **Spedizione**, selezionare la voce di menu per il workbench pianificazione del carico e nel menu **Rilascia** della riga di carico selezionare **Rilascia in magazzino**. Una riga di ondata aperta di tipo **Uscita di trasferimento** viene creata per l'ordine di trasferimento.
 8.  Creare un ordine di produzione. Andare alla pagina elenco **Ordine di produzione** e creare un ordine di produzione per il prodotto L0101. Quantità = 20. Stimare e avviare l'ordine di produzione. Il campo **Registra distinta di prelievo ora** resta impostato su **No**.
-9.  Dichiarare finito dal dispositivo mobile. Andare al portale del dispositivo mobile e selezionare la voce **Dichiarato di finito e stoccato**. Dichiarare finito L0101 dal dispositivo portatile. Si noti che l'ubicazione di stoccaggio è **BAYDOOR**. Questa ubicazione viene rilevata dalla direttiva di ubicazione **Uscita di trasferimento** per il tipo di ordine di lavoro **Inserisci**. Si noti anche che il lavoro di tipo **Uscita di trasferimento** è stato creato e completato. Passare ai dettagli dell'ordine di trasferimento per verificare il lavoro.
-10. Provare iniziando con 20 pezzi in più nell'ordine di produzione e quindi provare a definire finite 20 unità utilizzando il dispositivo portatile. Questa volta, l'ubicazione **LP-001** viene suggerita come ubicazione di stoccaggio. Questa ubicazione viene rilevata dalla direttiva di posizione per **Stoccaggio prodotti finiti**. Questa direttiva ubicazione viene utilizzata poiché non esiste alcuna opportunità per il cross-docking. L'ordine di trasferimento per LP-001 è stato completamente completato dalla prima attività di cross-docking.
-
-Il lavoro di tipo **Stoccaggio prodotti finiti** è stato creato ed elaborato.
+9.  Dichiarare finito dal dispositivo mobile. Andare al portale del dispositivo mobile e selezionare la voce **Dichiarato di finito e stoccato**. Dichiarare finito L0101 dal dispositivo portatile. Quantità = 10. Si noti che l'ubicazione di stoccaggio è **BAYDOOR**. Questa ubicazione viene rilevata dalla direttiva di ubicazione **Uscita di trasferimento** per il tipo di ordine di lavoro **Inserisci**. Si noti anche che il lavoro di tipo **Uscita di trasferimento** è stato creato e completato. Passare ai dettagli dell'ordine di trasferimento per verificare il lavoro.
+10. Ora dichiarare altri 10 pezzi dal dispositivo mobile. Si noti che l'ubicazione di stoccaggio è ancora **BAYDOOR**. Si noti anche che è stato creato un nuovo lavoro di tipo **Uscita di trasferimento** per i 10 pezzi.
+11. Provare iniziando con 20 pezzi in più nell'ordine di produzione e quindi provare a definire finite 20 unità utilizzando il dispositivo portatile. Questa volta, l'ubicazione **LP-001** viene suggerita come ubicazione di stoccaggio. Questa ubicazione viene rilevata dalla direttiva di posizione per **Stoccaggio prodotti finiti**. Questa direttiva ubicazione viene utilizzata poiché non esiste alcuna opportunità per il cross-docking. L'ordine di trasferimento per LP-001 è stato completato dalla due attività di cross-docking nei passaggi 9 e 10. Si noti che è stato creato ed elaborato il lavoro di tipo **Stoccaggio prodotti finiti**.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Scenario 2: cross-docking dalla produzione agli ordini di trasferimento con una programmazione appuntamenti
 
@@ -123,7 +122,7 @@ Dopo che un prodotto viene dichiarato finito nella riga di produzione, viene tra
 
 ### <a name="additional-information"></a>Informazioni aggiuntive
 
--   Lo scenario di cross-docking è supportato per gli articoli controllati di serie e batch, entrambi con dimensioni di numero di serie e batch definite sopra e sotto l'ubicazione nella gerarchia di prenotazione.
+-   Lo scenario di cross-docking è supportato per gli articoli controllati di serie e batch, entrambi con dimensioni di numero di serie e batch definite sopra e sotto l'ubicazione nella gerarchia di prenotazione. 
 
 
 

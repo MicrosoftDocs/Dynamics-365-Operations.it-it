@@ -3,7 +3,7 @@ title: Contenuto Power BI per crediti e riscossioni
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per la gestione di crediti e riscossioni. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f08df6cb8549e87e123b10c5a771ae1c60ff39c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 536ebae3ec44954aba314a966c9b0d2dabef45d1
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ Tutti gli importi verranno visualizzati nella valuta di sistema. È possibile im
 Per impostazione predefinita, vengono visualizzati i dati di crediti e riscossioni per la società corrente. Per visualizzare i dati di tutte le società, assegnare il diritto **CustCollectionsBICrossCompany** al ruolo.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017), il contenuto Power BI **Gestione crediti e riscossioni** viene visualizzato nell'area di lavoro **Crediti e riscossioni cliente**.
+Il contenuto di Power BI **Gestione crediti e riscossioni** viene visualizzato nell'area di lavoro **Crediti e riscossioni cliente**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
 

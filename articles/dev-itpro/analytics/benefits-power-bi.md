@@ -3,7 +3,7 @@ title: Contenuto Benefit di Power BI
 description: "Questo argomento descrive il contenuto Benefit di Power BI. Descrive come accedere ai report inclusi e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21f7f77148728a6e7584af76ec053250f52bc73c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 25111ac7ae07e04bc81ac23a348464bcbe1393af
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ Questo argomento descrive il contenuto **Benefit** di Microsoft Power BI. Descri
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 Il contenuto **Benefit** di Power BI viene visualizzato nell'area di lavoro **Gestione benefit** se si utilizza uno dei seguenti prodotti:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI

@@ -3,7 +3,7 @@ title: "Funzionalità deprecate"
 description: "In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione."
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: it-it
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -490,8 +490,8 @@ Le partizioni di dati forniscono una separazione logica di dati nel database di 
 
 |   |   |
 |---|---|
-| **Motivo del deprecamento**       | Le partizioni di dati sono state introdotte in Microsoft Dynamics AX 2012 R2 per abilitare l'isolamento dei dati. In uno scenario comune, una società ha affiliate e i dati di una filiale non devono essere visibili in un'altra filiale, anche se entrambe le filiali sono gestite dallo stesso reparto IT. Tuttavia, un sovraccarico di gestione e script aggiuntivi nel programma erano necessari per creare nuove partizioni e popolarle con i dati e per eseguire il backup dei dati della partizione. Nel cloud, dove si ha accesso ai servizi di database di piattaforma distribuita come servizio (PaaS) (Database SQL di Microsoft Azure), è molto più efficiente utilizzare un database come contenitore di isolamento rispetto all'isolamento nel programma. Indipendentemente dal fatto che il partizionamento dei dati sia necessario per le filiali, per più tenant o semplicemente per esigenze di scalabilità, crediamo che gli scenari possono essere gestiti meglio tramite più database o più istanze di Dynamics AX. |
-| **Sostituita da un'altra funzionalità?** | Verranno sostituite le partizioni di dati tramite il supporto per più database o istanze di Dynamics AX in una versione futura.    |
+| **Motivo del deprecamento**       | Le partizioni di dati sono state introdotte in Microsoft Dynamics AX 2012 R2 per abilitare l'isolamento dei dati. In uno scenario comune, una società ha affiliate e i dati di una filiale non devono essere visibili in un'altra filiale, anche se entrambe le filiali sono gestite dallo stesso reparto IT. Tuttavia, un sovraccarico di gestione e script aggiuntivi nel programma erano necessari per creare nuove partizioni e popolarle con i dati e per eseguire il backup dei dati della partizione. Nel cloud, dove si ha accesso ai servizi di database di piattaforma distribuita come servizio (PaaS) (Database SQL di Microsoft Azure), è molto più efficiente utilizzare un database come contenitore di isolamento rispetto all'isolamento nel programma. Indipendentemente dal fatto che il partizionamento dei dati sia necessario per le filiali, per più tenant o semplicemente per esigenze di scalabilità, crediamo che gli scenari possano essere gestiti meglio tramite più istanze di Finance and Operations. |
+| **Sostituita da un'altra funzionalità?** | I clienti che utilizzano partizioni di dati devono utilizzare più istanze di Finance and Operations se la separazione del livello del database è fondamentale.    |
 | **Moduli interessati**             | Tutti  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Archiviazione nel database e nella condivisione file per gli allegati

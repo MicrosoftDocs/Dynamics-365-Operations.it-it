@@ -3,7 +3,7 @@ title: Contenuto Power BI sulla selezione del personale
 description: "Questo argomento descrive il contenuto Selezione del personale di Power BI. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 42d7b94e655799596f478e7592a17437b336099e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 22138ab34243aa5f8c74f785ce3aaf68b27b9622
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 Questo argomento descrive il contenuto **Selezione del personale** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017), il contenuto Power BI **Selezione del personale** viene visualizzato nell'area di lavoro **Gestione della selezione del personale**. 
+Il contenuto di Power BI **Selezione del personale** viene visualizzato nell'area di lavoro **Gestione della selezione del personale** 
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Report e rappresentazioni nell'area di lavoro di Gestione della selezione del personale
 L'area di lavoro **Gestione della selezione del personale** contiene una scheda **Analisi**. Questa scheda include il contenuto di Power BI incorporato per la selezione del personale. Il contenuto è costituito da una scheda Panoramica e le schede aggiuntive che contengono dettagli. Nella seguente tabella vengono illustrati i report su ciascuna scheda.

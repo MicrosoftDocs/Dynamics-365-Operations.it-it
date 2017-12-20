@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
-ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
+ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
+ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
 ms.contentlocale: it-it
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Pagina di destinazione relativa alla distribuzione locale
@@ -30,14 +30,13 @@ ms.lasthandoff: 10/05/2017
 
 È possibile distribuire Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (locale). Quando si sceglie un tipo di distribuzione locale, i requisiti di sistema, il dimensionamento hardware e il funzionamento differiscono da una distribuzione nel cloud. Questo argomento fornisce i collegamenti a contenuti che includono informazioni specifiche sulle distribuzioni locali.
 
-**Nota:** Dynamics 365 for Operations (locale) è stato rinominato. Nelle guide alle licenze e nelle comunicazioni viene fatto riferimento a Dynamics 365 for Operations (locale). Il nome che verrà visualizzato quando si distribuisce il prodotto è Dynamics 365 for Finance and Operations, Enterprise edition. Entrambi questi nomi fanno riferimento allo stesso prodotto.
-
 ## <a name="get-started"></a>Per iniziare
 - [Panoramica di Dynamics 365 for Finance and Operations, Enterprise Edition (locale)](on-premises-overview.md)
 - [Requisiti di sistema per le distribuzioni locali](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Dimensionamento hardware per ambienti locali](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Criteri del ciclo di vita del software locale e dei servizi online](../migration-upgrade/versions-update-policy.md)
 - [Acquistare Dynamics 365 for Finance and Operations, Enterprise Edition (locale)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Confronto tra funzionalità cloud e locali](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Onboard
 - [Creare un progetto locale in Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -51,9 +50,12 @@ ms.lasthandoff: 10/05/2017
 - [Funzionalità di generazione, pubblicazione e stampa documenti nelle distribuzioni locali](../analytics/printing-capabilities-on-premises.md)
 - [Impostare il supporto tecnico](../lifecycle-services/support-experience.md)
 - [Risoluzione dei problemi relativi alla connessione Internet dei client](../user-interface/client-disconnected.md)
+- [Applicare aggiornamenti a una distribuzione locale](apply-updates-on-premises.md)
+- [Ridistribuire una distribuzione locale](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Altre risorse
 - [Funzionalità non implementate nelle distribuzioni locali](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Funzionalità deprecate](../migration-upgrade/deprecated-features.md)
+- [Criteri del ciclo di vita del software ed elenco delle versioni](../migration-upgrade/versions-update-policy.md)
  
 

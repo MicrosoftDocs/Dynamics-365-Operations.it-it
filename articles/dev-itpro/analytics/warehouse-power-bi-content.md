@@ -3,7 +3,7 @@ title: Contenuto Power BI per prestazioni di magazzino
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di magazzino. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ I responsabili di magazzino possono utilizzare il contenuto Power BI **Prestazio
 -   **Precisione inventariale dell'ubicazione**: la precisione inventariale rappresenta importante dato di business intelligence (BI) interna del magazzino. È molto importate determinare il livello di accuratezza generale. Tuttavia, è anche importate determinare il livello di accuratezza nello stoccaggio degli articoli nelle ubicazioni corrette e mettere in evidenza eventuali discrepanze, in modo che sia possibile trovare migliori ubicazioni per gli articoli o avviare il conteggio totale di articoli specifici. (Attualmente, la nuova la funzionalità di conteggio basata sugli articoli viene fornita come aggiornamento rapido). Se si utilizza il contenuto Power BI per verificare la precisione dei dati sulle scorte disponibili per ubicazione, è anche possibile identificare eventuali furti nei negozi. È inoltre possibile verificare se nelle ubicazioni sono presenti quantità disponibili diverse dai dati ERP (Enterprise Resource Planning). Tali ubicazioni possono essere troppo grandi oppure impossibili da conteggiare. In alternativa, alcuni posizionamenti fisici potrebbero essere non validi, per cui risulta difficile mantenere un unico tipo di articolo sincronizzato rispetto ai dati di disponibilità.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Accesso al pacchetto di contenuti Power BI
-Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017), il contenuto Power BI **Prestazioni di magazzino** verrà visualizzato nella pagina **Prestazioni di magazzino** (**Gestione magazzino** > **Richieste di informazioni e report** > **Analisi delle prestazioni di magazzino** > **Prestazioni di magazzino**). 
+Il contenuto di Power BI **Prestazioni di magazzino** viene visualizzato nella pagina **Prestazioni di magazzino** (**Gestione magazzino** > **Richieste di informazioni e report** > **Analisi delle prestazioni di magazzino** > **Prestazioni di magazzino**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto di Power BI **Prestazioni di magazzino** include un report. Il report è costituito da un set di metriche visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto Power BI per **Prestazioni di magazzino**.

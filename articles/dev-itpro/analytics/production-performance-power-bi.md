@@ -3,7 +3,7 @@ title: "Contenuto Power BI per prestazioni di produttività"
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di produttività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: baa0343713e8f75e1c9637a903b9008db0968fd4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Il contenuto Power BI consente inoltre di analizzare gli scostamenti di produzio
 Il contenuto Power BI **Prestazioni di produttività** include dati provenienti dagli ordini di produzione e dagli ordini lotto. I report non contengono dati che siano correlati alle produzioni kanban.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017), il contenuto Power BI **Prestazioni di produttività** verrà visualizzato nella pagina **Prestazioni di produttività** (**Controllo produzione** > **Richieste di informazioni e report** > **Analisi delle prestazioni di produttività** > **Prestazioni di produttività**). 
+Il contenuto di Power BI **Prestazioni di produttività** viene visualizzato nella pagina **Prestazioni di produttività** (**Controllo produzione** > **Richieste di informazioni e report** > **Analisi delle prestazioni di produttività** > **Prestazioni di produttività**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 

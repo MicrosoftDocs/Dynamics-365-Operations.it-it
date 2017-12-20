@@ -3,7 +3,7 @@ title: Utilizzare il componente aggiuntivo di Excel
 description: "In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/06/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
-ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
+ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
+ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -104,17 +104,6 @@ Se le origini dati sono state aggiunte come origini dati correlate, l'intestazio
 
 4. Per applicare le modifiche all'origine dati selezionare **Aggiorna**. Selezionare quindi **Fine** per chiudere la finestra di progettazione.
 5. Se è stato aggiunto un campo (colonna), selezionare **Aggiorna** per effettuare il pull di una serie aggiornata di dati.
-
-## <a name="copy-environment-data"></a>Copia dati dell'ambiente
-I dati letti nella cartella di lavoro di un ambiente possono essere copiati in un altro ambiente. Tuttavia, non è possibile modificare semplicemente la connessione URL, poiché la cache di dati nella cartella di lavoro continuerà a elaborare i dati come dati esistenti. Utilizzare invece la funzionalità Copia dati dell'ambiente per pubblicare i dati in un nuovo ambiente come nuovi dati.
-
-1. Selezionare il pulsante **Opzioni** (il simbolo dell'ingranaggio), quindi nella scheda Dettaglio **Connettore dati**, selezionare **Copia dati dell'ambiente**.
-2. Immettere l'URL del server per il nuovo ambiente.
-3. Selezionare **OK**, quindi **Sì** per confermare l'azione. Il componente aggiuntivo di Excel viene riavviato e connesso al nuovo ambiente. Tutti i dati esistenti nella cartella di lavoro vengono elaborati come nuovi dati.
-
-    Dopo il riavvio del componente aggiuntivo di Excel, una finestra di messaggio indica che la cartella di lavoro è in modalità di copia dell'ambiente.
-
-4. Per copiare i dati nel nuovo ambiente come nuovi dati, selezionare **Pubblica**. Per annullare l'operazione di copia dell'ambiente ed esaminare i dati esistenti nel nuovo ambiente, selezionare **Aggiorna**.
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 Sono disponibili alcuni problemi che possono essere risolti attraverso alcuni semplici passaggi.

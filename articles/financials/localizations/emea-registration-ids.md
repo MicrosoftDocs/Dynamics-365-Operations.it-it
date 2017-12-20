@@ -3,7 +3,7 @@ title: ID registrazione
 description: Questo argomento fornisce informazioni sull'impostazione e l'uso degli ID registrazione.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e85e1ef9bb27e3644264c898feb3a484c5b3ec3f
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -98,6 +98,12 @@ Nella seguente tabella sono elencati i tipi di registrazione supportati in Finan
 | OGRN                                                          | Federazione russa| OGRN (Tipo legislativo OGRN in AX 2012 R3) |
 | SNILS                                                         | Federazione russa| SNILS (tipo legislativo SNILS in AX 2012 R3)|
 | CIFTS                                                         | Federazione russa| CIFTS (tipo legislativo CIFTS in AX 2012 R3)|
+| Passaporto                                                      | Spagna             | Passaporto|
+| Documento di identità ufficiale                              | Spagna             | Documento di identità ufficiale|
+| Certificato di residenza                                         | Spagna             | Certificato di residenza|
+| Altro documento di identificazione                                 | Spagna             | Altro documento di identificazione|
+| Non censito                                                  | Spagna             | Non disponibile in AX 2012 R3|
+
 
 Per ulteriori informazioni sull'elaborazione degli ID registrazione, inclusi i prerequisiti necessari, vedere le seguenti registrazioni attività per l'ID IVA in Lifecycle Services (LCS):
 
