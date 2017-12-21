@@ -3,7 +3,7 @@ title: Contenuto di Power BI Panoramica responsabile finanziario
 description: Questo argomento descrive il contenuto Panoramica responsabile finanziario di Microsoft Power BI.
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e08277850d36804e3d4508b87547d2c819e2faf3
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ Questo argomento descrive il contenuto **Panoramica responsabile finanziario** d
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 
-Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017), i report del contenuto di Power BI **Panoramica responsabile finanziario** vengono visualizzati nell'area di lavoro **Panoramica responsabile finanziario**.
+I report dal contenuto di Power BI **Panoramica responsabile finanziario** vengono visualizzati nell'area di lavoro **Panoramica responsabile finanziario**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
 Il contenuto di Power BI **Panoramica responsabile finanziario** è una combinazione di report di altri contenuti di Power BI, oltre ad alcuni saldi budget effettivi della contabilità generale. Di conseguenza, il contenuto di Power BI offre al responsabile finanziario una panoramica dell'organizzazione.

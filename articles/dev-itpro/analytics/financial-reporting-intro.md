@@ -1,15 +1,15 @@
 ---
 title: Creazione di report finanziari per Finance and Operations
 description: I report finanziari per Finance and Operations consentono ai professionisti aziendali e finanziari di creare, gestire, distribuire e visualizzare i rendiconti finanziari. Vanno oltre i tradizionali vincoli di reporting e aiutano a progettare in modo efficiente diversi tipi di report.
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d1e1ec9fff9f1a41fd8a219c9fbbf8a26ad3d7b6
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -33,6 +33,17 @@ ms.lasthandoff: 11/03/2017
 I report finanziari per Finance and Operations consentono ai professionisti aziendali e finanziari di creare, gestire, distribuire e visualizzare i rendiconti finanziari. Vanno oltre i tradizionali vincoli di reporting e aiutano a progettare in modo efficiente diversi tipi di report.
 
 I reporting finanziari includono il supporto delle dimensioni. Pertanto, segmenti di conto o dimensioni sono immediatamente disponibili. Strumenti o procedure di configurazione aggiuntivi non sono necessari.
+
+## <a name="financial-reporting-setup"></a>Impostazione report finanziari
+La pagina **Impostazione report finanziari** contiene un elenco di tutte le dimensioni finanziarie nel sistema. **Contabilità generale** > **Impostazione contabilità generale** > **Impostazione report finanziari**. 
+
+Nella pagina **Impostazione report finanziari** sono presenti due sezioni che determinano i dati che si dichiarano nella creazione di report finanziari:
+
+•   **Scheda Dimensioni** - Poiché le diverse società utilizzano dimensioni e strutture dei conti diversi, non è possibile determinare l'ordine in cui gli utenti desiderano visualizzare tutte le dimensioni finanziarie nei report. Questa pagina consente di impostare l'ordine in cui si desidera visualizzare le dimensioni finanziarie quando si crea o si sviluppa un report nei report finanziari.
+
+•   **Scheda Attributi** - In questa scheda è possibile selezionare se si desidera poter utilizzare **Fornitori** e **Clienti** come attributi per la progettazione di report e l'applicazione di filtri. La dichiarazione di Fornitore e Cliente sarà utile solo se non si immettono più fornitori o clienti in un singolo giustificativo quando si registrano le transazioni. La scelta del fornitore e/o del cliente aggiungerà ulteriore tempo all'integrazione.
+
+
 
 ## <a name="financial-reporting-components"></a>Componenti dei report finanziari
 I seguenti componenti dei report finanziari rendono facile creare, visualizzare e programmare i report.

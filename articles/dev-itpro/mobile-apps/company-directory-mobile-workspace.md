@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 73062587a2cfed3af212f618df48a26df574ee87
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 0bbb17cd5053c68d9108ca9771e2f24611ba1995
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -53,7 +53,7 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 <tbody>
 <tr class="odd">
 <td>Uno dei seguenti prodotti deve essere distribuito nell'organizzazione:
-<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017)</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</li>
 <li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>

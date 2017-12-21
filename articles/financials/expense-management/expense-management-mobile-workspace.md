@@ -3,7 +3,7 @@ title: Area di lavoro mobile di gestione spese
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile per la gestione della spesa. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo che possono successivamente collegarla a una nota spese. Gli utenti possono inoltre creare rapidamente una riga di spesa utilizzando una ricevuta collegata e creare e gestire le loro note spese.
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4880c74047f53704f5f4d8efb19b6f8c6b04d479
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -46,7 +46,7 @@ Nello specifico l'area di lavoro mobile **Gestione spese** consente agli utenti 
 - Caricare un file come ricevuta acquisita. È possibile quindi allegare il file a una nota spese in un secondo momento.
 - Creare una nuova riga di spesa utilizzando una ricevuta collegata. È possibile quindi aggiungere la voce a una nota spese successivamente e inviarla per l'approvazione e il rimborso.
 
-Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, (luglio 2017) è anche possibile effettuare quanto segue:
+Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, è anche possibile effettuare quanto segue:
 
 - Creare una nuova nota spese.
 - Collegare le transazioni della carta di credito e altre spese create in precedenza a una nota spese.
@@ -60,8 +60,8 @@ Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edi
 ## <a name="prerequisites"></a>Prerequisiti
 I prerequisiti variano a seconda della versione di Microsoft Dynamics 365 che è stata installata nell'organizzazione.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Prerequisiti se si usa l'Aggiornamento di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017) 
-Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017) l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Gestione spese**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Prerequisiti per l'utilizzo di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 
+Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Gestione spese**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se si usa Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva
 Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva, l'amministratore di sistema deve soddisfare i prerequisiti seguenti. 

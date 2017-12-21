@@ -1,6 +1,6 @@
 ---
 title: Sincronizzazione di ordini cliente direttamente tra Sales e Finance and Operations
-description: "In questo argomento vengono descritti i modelli e le attività sottostanti utilizzati per eseguire la sincronizzazione bidirezionale delle righe e delle intestazioni degli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: it-it
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i modelli e le attività sottostanti utilizzati per eseguire la sincronizzazione bidirezionale delle righe e delle intestazioni degli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
 Per accedere ai modelli disponibili, aprire l'[Interfaccia di amministrazione di PowerApps](https://preview.admin.powerapps.com/dataintegration). Selezionare **Progetti**, quindi nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare i modelli pubblici.
 
-I seguenti modelli e attività sottostanti vengono utilizzati per eseguire la sincronizzazione bidirezionale delle intestazioni e delle righe degli ordini cliente direttamente tra Sales e Finance and Operations:
+I modelli e le attività sottostanti seguenti vengono utilizzati per sincronizzare le gli ordini cliente direttamente tra Sales e Finance and Operations:
 
 - **Nomi dei modelli in Integrazione dati:** 
 

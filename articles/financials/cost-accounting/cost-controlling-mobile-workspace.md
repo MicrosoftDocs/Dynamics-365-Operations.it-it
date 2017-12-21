@@ -3,7 +3,7 @@ title: Area di lavoro mobile di controllo costi
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Controllo costi. Questa area di lavoro consente ai responsabili del centro di costo visualizzare informazioni sulle prestazioni del centro di costo in qualsiasi momento e ovunque.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53fea21edabf33271038f4d332893e9009d3fc8a
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 5b57bf268ac9e91c98a0b8709061e695ebf482c6
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -78,8 +78,8 @@ L'area di lavoro mobile **Controllo costi** fornisce le azioni, le visualizzazio
 ## <a name="prerequisites"></a>Prerequisiti
 I prerequisiti variano a seconda della versione di Microsoft Dynamics 365 che è stata installata nell'organizzazione.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Prerequisiti se si usa l'Aggiornamento di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017)
-Se nell'organizzazione è stato distribuito l'aggiornamento di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017), l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Controllo costi**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Prerequisiti per l'utilizzo di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
+Se Microsoft Dynamics 365 for Finance and Operations, Enterprise edition è stato distribuito nell'organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Controllo costi**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se si usa Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva
 Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva, l'amministratore di sistema deve soddisfare i prerequisiti seguenti.

@@ -3,7 +3,7 @@ title: Contenuto di Power BI Panoramica situazione di cassa
 description: "Questo argomento descrive il contenuto Panoramica situazione di cassa di Power BI. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fdcd3083f475967ec2e5f94dad850a1bf98c864a
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -35,7 +35,7 @@ Il contenuto **Panoramica situazione di cassa** di Power BI è stato creato per 
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 
-Se si utilizza l'aggiornamento di Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017),, i report del contenuto di Power BI **Panoramica situazione di cassa** vengono visualizzati nelle aree di lavoro **Panoramica situazione di cassa** e **Gestione banche**.
+I report dal contenuto Power BI **Panoramica situazione di cassa** vengono visualizzati nelle aree di lavoro **Panoramica situazione di cassa** e **Gestione banche**.
 
 Per visualizzare i report delle previsioni di cassa con dati, è necessario prima eseguire il processo di calcolo delle previsioni utilizzando la funzione **Calcola previsioni di cassa** nell'area Gestione banche e di cassa.  Deve essere completato per ogni società inclusa nella previsione.  Nella pagina **Archivio entità** è necessario quindi aggiornare la misura di aggregazione LedgerCovLiquidityMeasurement.  
 

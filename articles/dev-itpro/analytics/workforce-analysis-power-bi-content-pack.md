@@ -3,7 +3,7 @@ title: Contenuto Power BI sulle metriche della forza lavoro
 description: "In questo argomento viene descritto il contenuto Power BI Metriche forza lavoro. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1a94eb68d017a334ae0246b50813de9add0ea82a
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ade42c932b764b8cf5540bddd099e57901637f35
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -34,7 +34,7 @@ In questo argomento viene descritto il contenuto Microsoft Power BI **Metriche f
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 Il contenuto Power BI **Metriche forza lavoro** viene visualizzato nell'area di lavoro **Gestione dipendente** se si utilizza uno di questi prodotti:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI

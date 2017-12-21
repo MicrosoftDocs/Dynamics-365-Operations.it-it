@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 88e4737bd8abf7f7dbab54fa6fb18afa525177e9
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
 ms.contentlocale: it-it
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -84,7 +84,7 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 <tr class="odd">
 <td>1</td>
 <td>Amministratore di sistema</td>
-<td>Implementare Finance and Operations o Finance and Operations nell'organizzazione.</td>
+<td>Implementare Finance and Operations nell'organizzazione.</td>
 <td><ul><li>Se non è stata distribuita una versione di Microsoft Dynamics 365, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>.</li><li>Per visualizzare un elenco di aree di lavoro mobili da utilizzare, vedere <a href="mobile-workspaces-released.md">Aree di lavoro mobili rilasciate di recente</a>.</li></ul></td>
 </tr>
 <tr class="even">

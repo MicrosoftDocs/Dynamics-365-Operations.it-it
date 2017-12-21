@@ -3,7 +3,7 @@ title: Contenuto Power BI sull'analisi delle spese di acquisto
 description: "In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi delle spese di acquisto. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto."
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6485f36802fc4e327e223f47d65c4bdca11c1609
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f38f82b4275599a6b958c495f32b72778b400024
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ Il contenuto di Power BI **Analisi delle spese di acquisto** è stato progettato
 Il contenuto utilizza dati transazionali di acquisto e offre sia una visualizzazione aggregata delle cifre di acquisto a livello di società che una scomposizione dettagliata della spesa di acquisto per fornitore e prodotto. I report evidenziano le modifiche nella spesa di acquisto nel tempo. Di conseguenza, è possibile utilizzarli per avvisare i responsabili sulle tendenze positive e negative di spesa per singoli fornitori e prodotti. Inoltre, i grafici mostrano la spesa di acquisto per categorie di approvvigionamento e gruppi di fornitori diversi. Pertanto, i responsabili di categoria e regionali possono usare questi grafici per identificare i cambiamenti nel comportamento di spesa.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017), il contenuto di Power BI **Analisi delle spese di acquisto** verrà visualizzato nella pagina **Analisi di spesa e acquisto** (**Approvvigionamento** > **Richieste di informazioni e report** > **Analisi delle prestazioni di acquisto** > **Analisi di spesa e di acquisto**). 
+Il contenuto di Power BI **Analisi delle spese di acquisto** viene visualizzato nella pagina **Analisi delle spese di acquisto** (**Approvvigionamento** > **Richieste di informazioni e report** > **Analisi delle prestazioni di acquisto** > **Analisi di spesa e acquisto**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto di Power BI **Analisi delle spese di acquisto** include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni.

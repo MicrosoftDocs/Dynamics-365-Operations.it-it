@@ -3,7 +3,7 @@ title: Tasti di scelta rapida
 description: In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vengono utilizzati i tasti di scelta rapida descritti di seguito.
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -34,10 +34,14 @@ In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vengono
 
 **Nota:** i tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
 
+## <a name="finding-a-shorcut"></a>Individuazione di un collegamento
+Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamenti attualmente disponibili direttamente dall'interfaccia utente. Fare semplicemente clic con il pulsante destro del mouse su un controllo e selezionare **Visualizza collegamenti**. Verrà visualizzata una finestra di dialogo contenente i collegamenti da utilizzare in base alla posizione in cui ci si trova nella pagina. 
+
+
 ## <a name="action-shortcuts"></a>Tasti di scelta rapida per azioni
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Operazione da eseguire**                                    | **Tasti di premere**                        |
+| **Azione**                                    | **Tasti di premere**                        |
 | Aprire la ricerca di azioni                                | CTRL + ' o ALT + Q                  |
 | Spostarsi nel riquadro azioni standard                  | ALT + M,A o CTRL + F6               |
 | Aprire una scheda nel riquadro azioni o un menu           | INVIO o Barra spaziatrice o ALT + Freccia GIÙ |
@@ -48,13 +52,14 @@ In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vengono
 | Eseguire il pulsante predefinito in un modulo/finestra di dialogo   | ALT + INVIO                        |
 | Fare clic sul pulsante o un riquadro                            | INVIO o Barra spaziatrice                   |
 | Aggiornare le informazioni per un riquadro di conteggio         | ALT + Freccia SU                     |
+| Visualizzare i collegamenti attualmente disponibili                | ALT+MAIUSC+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Tasti di scelta rapida per la selezione della data
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Azione**                        | **Tasti di premere**                                 |
 | Aprire la selezione data                  | ALT + Freccia GIÙ                            |
-| Spostarsi tra le date nella selezione | CTRL + Tasti di direzione                               |
+| Spostarsi tra le date nella selezione | CTRL + Tasti di direzione                           |
 | Spostarsi sul mese successivo/precedente       | Pagina GIÙ/Pagina SU                       |
 | Spostarsi sull'anno successivo/precedente        | CTRL + MAIUSC + Pagina GIÙ/CTRL + MAIUSC + Pagina SU |
 | Spostarsi su oggi                         | CTRL+HOME                                 |
@@ -65,6 +70,7 @@ In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vengono
 ## <a name="factbox-shortcuts"></a>Tasti di scelta rapida per il riquadro Dettagli informazioni
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Azione**                                                                  | **Tasti di premere**                                 |
 | Aprire il riquadro Dettaglio informazioni (o spostare lo stato attivo sul riquadro Dettaglio informazioni se è già aperto) | ALT + M,B o CTRL + F2                        |
 | Chiudere il riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                         | ESC                                       |
 | Spostarsi sul riquadro Dettaglio informazioni successivo/precedente (con lo stato attivo nel riquadro Dettaglio informazioni)              | ALT + MAIUSC + Freccia GIÙ/ALT + MAIUSC + Freccia SU |

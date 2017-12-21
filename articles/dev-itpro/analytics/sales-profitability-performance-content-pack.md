@@ -3,7 +3,7 @@ title: Contenuto Power BI per prestazioni di vendita e profitto
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI Prestazioni di vendita e redditività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ La redditività può essere analizzata nei seguenti modi:
 -   Redditività del cliente (per ricavi rispetto a margine lordo)
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017), il contenuto Power BI **Prestazioni di vendita e redditività** verrà visualizzato nella pagina **Prestazioni di vendita e redditività** (**Vendite e marketing** > **Richieste di informazioni e report** > **Analisi delle prestazioni di vendita** > **Prestazioni di vendita e redditività**). 
+Il contenuto di Power BI **Prestazioni di vendita e redditività** viene visualizzato nella pagina **Prestazioni di vendita e redditività** (**Vendite e marketing** > **Richieste di informazioni e report** > **Analisi delle prestazioni di vendita** > **Prestazioni di vendita e redditività**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto di Power BI **Prestazioni di vendita e redditività** include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto.

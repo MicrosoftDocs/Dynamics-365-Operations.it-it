@@ -3,7 +3,7 @@ title: Contenuto di Power BI per responsabile procedura
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per il responsabile procedura. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3462ef1bbde9a98ac6a7bc9a5c54e58ff98559c8
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 836997f9f5b146ff48252c3f06153791ec1aabed
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -39,7 +39,7 @@ Il contenuto di Power BI per **responsabile procedura** contiene cinque pagine d
 Tutti gli importi del contenuto verranno visualizzati nella valuta di sistema. È possibile impostare la valuta di sistema nella pagina **Paramenti di sistema**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017), il contenuto Power BI **Responsabile procedura** viene visualizzato nell'area di lavoro **Gestione progetti**.
+Il contenuto di Power BI **Responsabile procedura** viene visualizzato nell'area di lavoro **Gestione progetti**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
 
