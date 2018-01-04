@@ -13,11 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
+ms.search.validFrom: 2017-12-31
+ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: a318f3c2cb2345c87fff460fec933cb5fa9dc8ef
+ms.sourcegitcommit: 80137ac5e0ca0a9cde95b914bcabf2f7b3571342
+ms.openlocfilehash: df46e33f073a05b623f26b1af09c8b73bb80e17d
 ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/04/2018
 
 ---
 
