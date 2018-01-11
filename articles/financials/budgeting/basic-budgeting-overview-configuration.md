@@ -3,7 +3,7 @@ title: Panoramica di Impostazione budget
 description: "Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations, Enterprise Edition o per caricarli da un programma di terze parti."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

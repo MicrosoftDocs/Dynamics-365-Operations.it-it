@@ -3,7 +3,7 @@ title: Panoramica sulla pianificazione del budget
 description: In questo articolo viene illustrata la pianificazione del budget e sono contenute informazioni per semplificare la configurazione della pianificazione del budget e l'impostazione dei processi di pianificazione del budget.
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
