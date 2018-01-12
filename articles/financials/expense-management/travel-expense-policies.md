@@ -3,7 +3,7 @@ title: Definire i criteri di spesa
 description: "In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition è possibile definire criteri di spesa che devono essere seguiti dai lavoratori per l'inserimento e l'invio di note spese e richieste di viaggio."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
