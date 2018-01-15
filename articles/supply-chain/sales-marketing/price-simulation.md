@@ -1,7 +1,7 @@
 ---
 title: Simulazione prezzo
 description: In questo articolo vengono fornite informazioni sulla simulazione di prezzo per le offerte. La simulazione di prezzo consente di valutare l'effetto delle detrazioni sul prezzo di vendita futuro durante il processo di offerta, prima di stabilire un prezzo specifico.
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
