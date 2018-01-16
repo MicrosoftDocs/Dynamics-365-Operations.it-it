@@ -1,9 +1,9 @@
 ---
 title: Intelligence
-description: "In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations, edizione Enterprise."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence (BI) e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence (BI) e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations, edizione Enterprise.
 
 ## <a name="get-started"></a>Per iniziare
 - [Accesso alle informazioni e creazione di report](information-access-reporting.md)
@@ -48,7 +48,6 @@ Gli utenti possono interagire con i dati facendo clic su o toccando gli oggetti 
  - [Power BI Embedded nelle aree di lavoro](embed-power-bi-workspaces.md)
  - [Integrazione di Power BI Embedded](power-bi-embedded-integration.md)
  - [Aggiungere l'analisi alle aree di lavoro tramite Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Pubblicare applicazioni analitiche in Power BI](publish-apps-powerbi.md)
  - [Proteggere le aree di lavoro e i report analitici con Power BI Embedded](secure-analytical-workspaces.md)
  - [Contenuto di Power BI per Finance and Operations](power-bi-home-page.md)
 
@@ -59,7 +58,7 @@ Le soluzioni di creazione report vengono spesso utilizzate per acquisire e comun
 
 Per ulteriori informazioni, vedere gli argomenti seguenti:
 
-- [Panoramica di Reporting Services per documenti](document-reporting-services.md)
+- [Panoramica di Document Reporting Services](document-reporting-services.md)
 - [Stampa nelle applicazioni Finance and Operations](print-documents.md)
 - [Installazione dell'agente di distribuzione documenti per abilitare le stampanti di rete](install-document-routing-agent.md)
 
@@ -88,10 +87,7 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 ## <a name="technical-reference-reports"></a>Report tecnici di riferimento
 I report seguenti forniscono informazioni di riferimento sugli oggetti in Finance and Operations:
 
-- [Report di aggregazione di entità di dati](aggregate-data-entities-report.md)
-- [Report di misure di aggregazione](aggregate-measurements-report.md)
 - [Report entità di dati](../data-entities/data-entities-report.md)
-- [Report su indicatori di prestazioni chiave](key-performance-indicators-report.md)
 - [Report su codici di licenza e chiavi di configurazione](../sysadmin/license-codes-configuration-keys-report.md)
 - [Report di SQL Server Reporting Services](SSRS-report.md)
 - [Report per tipi di flussi di lavoro](../../fin-and-ops/organization-administration/workflow-types-report.md)
