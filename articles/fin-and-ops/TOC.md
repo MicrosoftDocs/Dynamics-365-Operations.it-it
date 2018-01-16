@@ -17,25 +17,26 @@
 ##### [Acquistare Finance and Operations (in locale)](get-started/purchase-on-premises.md)
 
 ### [Novità o modifiche](get-started/whats-new-changed.md)
-#### [Funzionalità deprecate](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [Funzionalità rimosse o deprecate](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [Funzionalità di AX 2012 posticipate](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Funzionalità non implementate nelle distribuzioni locali](get-started/features-not-implemented-on-prem.md)
-#### [Criteri del ciclo di vita](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Update 12 della piattaforma (novembre 2017)](get-started/whats-new-platform-update-12.md)
-#### [Update 11 della piattaforma (ottobre 2017)](get-started/whats-new-platform-update-11.md)
-#### [Update 10 della piattaforma (agosto 2017)](get-started/whats-new-platform-update-10.md)
-#### [Finance and Operations, Enterprise Edition (luglio 2017)](get-started/whats-new-application-July-2017-update.md)
-#### [Update 9 della piattaforma (luglio 2017)](get-started/whats-new-platform-update-9.md)
-#### [Update 8 della piattaforma (giugno 2017)](get-started/whats-new-platform-update-8.md)
-#### [Update 7 della piattaforma (maggio 2017)](get-started/whats-new-platform-update-7.md)
-#### [Update 6 della piattaforma (aprile 2017)](get-started/whats-new-platform-update-6.md)
-#### [Update 5 della piattaforma (marzo 2017)](get-started/whats-new-platform-update-5.md)
-#### [Update 4 della piattaforma (febbraio 2017)](get-started/whats-new-platform-update-4.md)
+#### [Versioni e criteri del ciclo di vita](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Finance and Operations, edizione Enterprise 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Aggiornamento Platform 12 (novembre 2017)](get-started/whats-new-platform-update-12.md)
+#### [Aggiornamento Platform 11 (ottobre 2017)](get-started/whats-new-platform-update-11.md)
+#### [Aggiornamento Platform 10 (agosto 2017)](get-started/whats-new-platform-update-10.md)
+#### [Finance and Operations, edizione Enterprise (luglio 2017)](get-started/whats-new-application-July-2017-update.md)
+#### [Aggiornamento Platform 9 (luglio 2017)](get-started/whats-new-platform-update-9.md)
+#### [Aggiornamento Platform 8 (giugno 2017)](get-started/whats-new-platform-update-8.md)
+#### [Aggiornamento Platform 7 (maggio 2017)](get-started/whats-new-platform-update-7.md)
+#### [Aggiornamento Platform 6 (aprile 2017)](get-started/whats-new-platform-update-6.md)
+#### [Aggiornamento Platform 5 (marzo 2017)](get-started/whats-new-platform-update-5.md)
+#### [Aggiornamento Platform 4 (febbraio 2017)](get-started/whats-new-platform-update-4.md)
 #### [Operations versione 1611 (novembre 2016)](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [Update 3 della piattaforma (novembre 2016)](get-started/whats-new-platform-update-3.md)
-#### [Update 2 della piattaforma (agosto 2016)](get-started/whats-new-platform-update-2.md) 
+#### [Aggiornamento Platform 3 (novembre 2016)](get-started/whats-new-platform-update-3.md)
+#### [Aggiornamento Platform 2 (agosto 2016)](get-started/whats-new-platform-update-2.md) 
 #### [Versione dell'applicazione 7.0.1 di Dynamics AX (maggio 2016)](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [Update 1 della piattaforma (maggio 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [Aggiornamento Platform 1 (maggio 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [Dynamics AX 7.0 (febbraio 2016)](get-started/whats-new-changed-7-0-february-2016.md)
 #### Guide attività aggiornate
 ##### [Guide attività novembre 2016](get-started/new-task-guides-november-2016.md)
@@ -141,7 +142,7 @@
 #### [API di pacchetti di gestione dei dati](../dev-itpro/data-entities/data-management-api.md)
 #### [Endpoint servizio](../dev-itpro/data-entities/services-home-page.md)
 ##### [Risoluzione dei problemi di autenticazione del servizio](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [OData](../dev-itpro//data-entities/odata.md)
+#### [OData](../dev-itpro/data-entities/odata.md)
 #### [Servizi clienti](../dev-itpro/data-entities/custom-services.md)
 #### [Integrazioni ricorrenti](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -179,9 +180,10 @@
 ### [Entità di dati](../dev-itpro/data-entities/data-entities.md)
 
 #### [Progetti di dati di configurazione](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [Pacchetti di dati di configurazione](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Copiare dati di configurazione dell'entità tra società](../dev-itpro/data-entities/copy-configuration.md)
+##### [Pacchetti di dati di configurazione (solo versione di luglio 2017)](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Modelli di dati di configurazione](../dev-itpro/data-entities/configuration-data-templates.md)
+
 #### [Monitoraggio delle modifiche a un'entità](../dev-itpro/data-entities/entity-change-track.md)
 
 ### Entità di dati standard
@@ -646,6 +648,11 @@
 ##### [Impostare importi Dare e Avere negativi ](../financials/localizations/apac-chn-negative-debits-credits.md)
 ##### [Registro operazioni dell'utente per regola di lavoro cinese](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [Domande frequenti sulle fatture cliente IVA](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### India
+##### [Panoramica del motore fiscale](../financials/general-ledger/tax-engine.md)
+##### [Integrazione del motore fiscale](../financials/general-ledger/tax-engine-integration.md)
+##### [Estensione del motore fiscale](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### Giappone
 ##### [Acquisire un cespite e richiedere la sovvenzione governativa](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -1214,7 +1221,8 @@
 #### [Metriche forza lavoro](../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md)
 
 ### Reporting e stampa dei documenti
-#### [Panoramica di Reporting Services per documenti](../dev-itpro/analytics/document-reporting-services.md)
+#### [Panoramica di Document Reporting Services](../dev-itpro/analytics/document-reporting-services.md)
+#### [Installare le stampanti di rete in ambienti locali](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [Configurare SSRS per una distribuzione locale](../dev-itpro/analytics/configure-ssrs-on-premises.md)
 #### [Stampa](../dev-itpro/analytics/print-documents.md)
 ##### [Installazione dell'agente di distribuzione documenti per abilitare le stampanti di rete](../dev-itpro/analytics/install-document-routing-agent.md)
@@ -1285,30 +1293,28 @@
 ##### [Selezionare la definizione del modello dati durante la creazione del formato per la creazione di report elettronici](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [Aggiornare il formato adottando una nuova versione di base del formato per la creazione di report elettronici](../dev-itpro/analytics/tasks/er-upgrade-format.md)
 ##### [Caricare una configurazione in Lifecycle Services per la creazione di report elettronici](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Modifiche dell'API framework di report elettronici per l'aggiornamento dell'applicazione 7.3](../dev-itpro/analytics/er-apis-app73.md)
 
-### Strumenti analitici e visualizzazioni
+### Soluzioni analitiche incorporate
+#### [Power BI Embedded nelle aree di lavoro](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [Integrazione di Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### Opzioni di personalizzazione con PowerBI.com
+#### [Integrazione di Power BI](../dev-itpro/analytics/power-bi-integration.md)
+#### [Aggiungere i report Power BI alle aree di lavoro](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Strumenti per creare ed estendere le soluzioni
 #### [Analisi dei dati, misure di aggregazione e modellizzazione di indicatori KPI](../dev-itpro/analytics/analytics.md)
+#### [Creare i report analitici utilizzando Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
 #### [Modellazione e aggregazione dei dati](../dev-itpro/analytics/model-aggregate-data.md)
 #### [Aggiungere dimensioni finanziarie alle misure di aggregazione](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [Aggiungere BI contestuale ai moduli](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [Report di misure di aggregazione](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [Report di aggregazione di entità di dati](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [Report di indicatori di prestazioni chiave (KPI.md)](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [Integrazione di Power BI](../dev-itpro/analytics/power-bi-integration.md)
-#### [Accedere a contenuto Power BI](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [Creare un report e un dashboard Power BI](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [Creare un report Power BI utilizzando i dati di Finance and Operations](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [Configurare l'integrazione di Power BI per aree di lavoro](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [Integrazione di Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
-#### [Power BI Embedded nelle aree di lavoro](../dev-itpro/analytics/embed-power-bi-workspaces.md)
 #### [Aggiungere l'analisi alle aree di lavoro tramite Power BI Embedded](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
 #### [Proteggere le aree di lavoro e i report analitici con Power BI Embedded](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [Aggiungere Power BI alle aree di lavoro](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [Aggiungere i report Power BI alle aree di lavoro](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Strumenti di gestione Power User
 #### [Integrazione di Power BI con l'archivio entità](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [Configurare l'integrazione di Power BI per aree di lavoro](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [Portare il proprio database](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [Creare i report analitici utilizzano il desktop di Power BI](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [Pubblicare applicazioni analitiche in Power BI](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [Gestione inventario](../supply-chain/inventory/inventory-home-page.md)
@@ -1362,6 +1368,7 @@
 #### [Generare un piano con vincoli (guida attività)](../supply-chain/master-planning/tasks/constrained-plan.md)
 #### [Creare un piano materiali per co-prodotti (guida attività)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [Gestire gli ordini pianificati](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Gestire le scorte di sicurezza](../supply-chain/master-planning/safety-stock-replenishment.md)
 #### [Gestire i ritardi](../supply-chain/master-planning/delays.md)
 #### [Tracciare un'esplosione](../supply-chain/master-planning/trace-explosion.md)
 #### [Messaggi d'azione](../supply-chain/master-planning/action-messages.md)
@@ -1438,6 +1445,8 @@
 #### [Impostare e gestire la collaborazione fornitore](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
 #### [Gestire gli utenti della collaborazione fornitore](../supply-chain/procurement/manage-vendor-collaboration-users.md)
 #### [Impostare conti fornitore](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [Configurazioni richiesta fornitore](../supply-chain/procurement/vendor-request-configurations.md)
+#### [Integrazione fornitori](../supply-chain/procurement/vendor-onboarding.md)
 #### [Collaborazione fornitore con i fornitori esterni](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Collaborazione fornitore con i clienti](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [Impostare un catalogo esterno per PunchOut eProcurement](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
@@ -1550,7 +1559,9 @@
 #### Eseguire processi di produzione
 ##### [Creare ordini di produzione](../supply-chain/production-control/create-production-orders.md)
 ##### [Rilasciare gli ordini di produzione](../supply-chain/production-control/release-production-orders.md)
-##### [Invertire lo stato degli ordini di produzione](../supply-chain/production-control/reverse-production-order-status.md)
+##### [Visibilità nelle eccezioni materiali](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [Rilascio delle righe di formula e DBA nel magazzino](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[Invertire lo stato degli ordini di produzione](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [Registrare il consumo dei materiali usando un dispositivo mobile](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [Controllare il consumo delle materie prime tramite i principi di registrazione](../supply-chain/production-control/flushing-principles.md) 
 ##### [Eseguire il cross-docking da ordini di produzione a banchine di uscita](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [Registrazione per l'esecuzione produzione](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Riscontro di produzione](../supply-chain/production-control/production-feedback.md)
 ##### [Registrazione orario e presenze](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Registrazione assenze in Orario e presenze](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Registrazione assenze in Orario e presenze](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### Gestione dati finanziari in produzione
 ##### [Allocare tempo ai processi in un'aggregazione di processi](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Calcolare il consumo di materiali](../supply-chain/production-control/consumption.md)
@@ -1686,6 +1697,7 @@
 #### [Creare una rappresentazione generale prodotto (guida attività)](../supply-chain/pim/tasks/create-product-master.md)
 #### [Creare varianti prodotto predefinite (guida attività)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
 #### [Creare un prodotto rilasciato per una singola società (guida attività)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Stato del ciclo di vita prodotto](../supply-chain/pim/product-lifecycle.md)
 #### [Creare un codice a barre per un prodotto (guida attività)](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [Immettere il codice GTIN per un prodotto (guida attività)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [Creare gli attributi batch per un prodotto (guida attività)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1799,8 +1811,9 @@
 ### [Impostare vettori di spedizione](../supply-chain/transportation/tasks/set-up-shipping-carriers.md)
 ### [Impostare vincoli di trasporto per un articolo](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
-## [Gestione magazzino](../supply-chain/warehousing/warehouse-management-overview.md)
-### [Configurazione del magazzino](../supply-chain/warehousing/warehouse-configuration.md) 
+## [Gestione del magazzino](../supply-chain/warehousing/warehouse-management-overview.md)
+### [Configurazione del magazzino](../supply-chain/warehousing/warehouse-configuration.md)
+#### [Impostare un magazzino utilizzando un modello di configurazione magazzino](../supply-chain/inventory/warehouse-template.md)
 #### [Controllare il lavoro utilizzando i modelli di lavoro e le direttive ubicazione](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [Criteri di immagazzinamento e unità di misura](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Contenuto Power BI per magazzino](../dev-itpro/analytics/warehouse-power-bi-content.md)
