@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 73981313fc662094ee4f8bb15a88271e16d41193
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: fbc99ae02576cb76edecb9ac74b1823305c5936b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="set-up-quality-orders"></a><span data-ttu-id="20103-103">Impostare ordini di controllo qualità</span><span class="sxs-lookup"><span data-stu-id="20103-103">Set up quality orders</span></span>
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/29/2017
 7. <span data-ttu-id="20103-165">Selezionare la riga numero articolo</span><span class="sxs-lookup"><span data-stu-id="20103-165">Select the Item number row</span></span>
     * <span data-ttu-id="20103-166">In questo esempio il filtro verrà eseguito in base al numero di articolo.</span><span class="sxs-lookup"><span data-stu-id="20103-166">In this example the filtering will be run based on  the item number.</span></span>  
 8. <span data-ttu-id="20103-167">Digitare un valore nel campo Criteri.</span><span class="sxs-lookup"><span data-stu-id="20103-167">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="20103-168">Ad esempio, digitare T* per filtrare i numeri di articolo che iniziano con T.</span><span class="sxs-lookup"><span data-stu-id="20103-168">For example, type T* to filter on the item numbers that start with T.</span></span>  
+    * <span data-ttu-id="20103-168">Ad esempio, digitare T\* per filtrare i numeri di articolo che iniziano con T.</span><span class="sxs-lookup"><span data-stu-id="20103-168">For example, type T\* to filter on the item numbers that start with T.</span></span>  
 9. <span data-ttu-id="20103-169">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="20103-169">Click OK.</span></span>
 10. <span data-ttu-id="20103-170">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="20103-170">Click OK.</span></span>
 11. <span data-ttu-id="20103-171">Fare clic su Gruppi di controllo qualità articoli.</span><span class="sxs-lookup"><span data-stu-id="20103-171">Click Item quality groups.</span></span>
