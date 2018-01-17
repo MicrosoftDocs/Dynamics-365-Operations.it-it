@@ -1,6 +1,6 @@
 ---
 title: Intelligence
-description: "In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations, edizione Enterprise."
+description: "In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -29,7 +29,7 @@ ms.lasthandoff: 12/18/2017
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence (BI) e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations, edizione Enterprise.
+In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence (BI) e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 ## <a name="get-started"></a>Per iniziare
 - [Accesso alle informazioni e creazione di report](information-access-reporting.md)
