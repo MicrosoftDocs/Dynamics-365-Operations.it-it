@@ -29,7 +29,7 @@
 ### [Esportare e importare un modello](dev-tools/models-export-import.md)
 ### [Ricerca di metadati in Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Modelli](dev-tools/models.md)
-### [Progetti di Dynamics 365 for Finance and Operations, edizione Enterprise](dev-tools/projects.md)
+### [Progetti di Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
 ### [Componenti aggiuntivi strumenti per Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Disattivare la personalizzazione di modello e la funzionalità deprecata](dev-tools/lock-models.md)
 ### [Aggiornare gli strumenti di sviluppo di Visual Studio](dev-tools/update-development-tools.md)
@@ -161,8 +161,8 @@
 ### [Sviluppare elementi per la navigazione](user-interface/build-navigation.md)
 ### [Sviluppare un'area di lavoro](user-interface/build-workspace.md)
 ## Moduli
-### [Navigazione di Dynamics 365 for Finance and Operations, edizione Enterprise](user-interface/page-navigation.md)
-### [Layout di Dynamics 365 for Finance and Operations, edizione Enterprise](user-interface/page-layout.md)
+### [Navigazione di Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
+### [Layout di Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
 ### [Carattere Symbol](user-interface/symbol-font.md)
 ### [Moduli di test con schemi personalizzati](user-interface/testing-forms-custom-patterns.md)
 ### [Creare e utilizzare i collegamenti diretti](user-interface/create-deep-links.md)
@@ -500,7 +500,7 @@
 
 ## Distribuzione cloud
 ### [Integrazione di Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute e Dynamics 365 for Finance and Operations, edizione Enterprise](deployment/expressroute.md)
+### [Azure ExpressRoute e Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [Distribuzione locale](deployment/on-premises-deployment-landing-page.md)
 ### [Panoramica della distribuzione locale](deployment/on-premises-overview.md)
@@ -513,7 +513,7 @@
 ### [Ridistribuire una distribuzione locale](deployment/redeploy-on-prem.md)
 ### [Aggiornare l'agente locale](lifecycle-services/update-local-agent.md)
 ### [Riconfigurare l'ambiente](lifecycle-services/reconfigure-environment.md)
-### [Risolvere i problemi di Dynamics 365 for Finance and Operations, edizione Enterprise (locale)](deployment/troubleshoot-on-prem.md)
+### [Risolvere i problemi di Dynamics 365 for Finance and Operations, Enterprise edition (locale)](deployment/troubleshoot-on-prem.md)
 
 ## Distribuire codice personalizzato
 ### [Creare un pacchetto distribuibile](deployment/create-apply-deployable-package.md)
@@ -701,10 +701,10 @@
 ## [Richiedere un aggiornamento del database sandbox](database/database-refresh.md)
 
 # Supporto
-## [Ottenere supporto per Dynamics 365 for Finance and Operations, edizione Enterprise e Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Ottenere supporto per Dynamics 365 for Finance and Operations, Enterprise edition e Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Registrare una richiesta di supporto Premier](lifecycle-services/premier-support.md)
 ## [Inviare una richiesta al team di progettazione servizi di assistenza di Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Impostare il supporto tecnico per Dynamics 365 for Finance and Operations, edizione Enterprise](lifecycle-services/support-experience.md) 
+## [Impostare il supporto tecnico per Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
 ## [Domande frequenti sulla finestra della manutenzione pianificata](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Operazioni e assistenza cloud](lifecycle-services/cloud-operations-servicing.md)
 ## [Gestire le esperienze di supporto per Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)
