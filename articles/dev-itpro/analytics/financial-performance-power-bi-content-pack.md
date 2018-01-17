@@ -1,9 +1,9 @@
 ---
 title: Contenuto Power BI per prestazioni finanziarie
-description: "Questo argomento descrive il contenuto Prestazioni finanziarie di Power BI. Descrive il dashboard e i report che vengono inclusi e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
+description: Questo argomento descrive il contenuto Prestazioni finanziarie di Power BI.
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 Questo argomento descrive il contenuto **Prestazioni finanziarie** di Microsoft Power BI. Descrive il dashboard e i report che vengono inclusi e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
-
-## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-
-È possibile accedere al contenuto di Power BI **Prestazioni finanziarie** da Microsoft Dynamics Lifecycle Services (LCS) e PowerBI.com.
-
-### <a name="available-from-lcs"></a>Disponibile da LCS
-Il contenuto di Power BI **Prestazioni finanziarie** disponibile in LCS supporta le seguenti versioni:
-
-- Versioni di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
-- Microsoft Dynamics 365 for Operations versione 1611 
-
-È possibile trovare il contenuto di Power BI nella raccolta delle risorse condivise in LCS. Per ulteriori informazioni su come scaricare il pacchetto di contenuti e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-### <a name="available-from-powerbicom"></a>Disponibile da PowerBI.com
-Il contenuto di Power BI **Prestazioni finanziarie** che è disponibile da PowerBI.com supporta Microsoft Dynamics AX versioni 7.0 e 7.0.1. Per ulteriori informazioni su come connettere e caricare i dati di Dynamics AX, vedere [Accedere al contenuto Power BI da Power BI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Impostazione del conto principale
 Poiché le organizzazioni desiderano che le passività e gli importi dei ricavi appaiano come importi positivi nei report, l'impostazione dei conti principali è importante. Affinché questi conti principali vengano visualizzati come importi positivi, il tipo di conto principale deve essere impostato su **Passività** o **Ricavi**. Quando si utilizzano questi tipi di conto, la dichiarazione nei report tramite Power BI invertirà i segni e gli importi risulteranno positivi.
@@ -101,5 +86,5 @@ Le entità seguenti sono state utilizzate come base del contenuto di Power BI **
 - Contabilità generali
 - ChartofAccounts
 
-Le entità sono state utilizzate per creare le misure calcolate nel modello dati. Le misure calcolate vengono utilizzate per calcolare gli indicatori di prestazione chiave (KPI) e i report utilizzati nel contenuto. Per impostazione predefinita, il contenuto include dati per gli ultimi tre anni e un anno successivo. Per includere i calcoli aggiuntive in report e dashboard, è possibile modificare la [cartella di lavoro di Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Questa cartella di lavoro è il modello dati predefinito utilizzato per creare il contenuto. Al termine delle modifiche, è possibile creare un pacchetto di contenuti per l'organizzazione e un dashboard che contengono le informazioni aggiunte.
+Le entità sono state utilizzate per creare le misure calcolate nel modello dati. Le misure calcolate vengono utilizzate per calcolare gli indicatori di prestazione chiave (KPI) e i report utilizzati nel contenuto. Per impostazione predefinita, il contenuto include dati per gli ultimi tre anni e un anno successivo. Per includere i calcoli aggiuntive in report e dashboard, è possibile modificare la [cartella di lavoro di Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Questa cartella di lavoro è il modello dati predefinito utilizzato per creare il contenuto. 
 

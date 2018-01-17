@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ In base alle impostazioni in Retail Headquarters, i prodotti possono essere clas
     
 - **I numeri di serie non sono necessari per piazzare ordini cliente**: gli ordini cliente possono essere eseguiti in un punto vendita ed evasi in un altro. Un cassiere che piazza un ordine cliente non deve fornire il numero di serie. Il numero di serie verrà indicato durante la fase di prelievo. Tuttavia, un numero di serie deve essere specificato per tutti gli articoli per i quali è stato selezionato il tipo di consegna **Esegui**. In caso contrario, la transazione non può essere completata.    
 - **I prodotti in serie non sono aggregati nella schermata della transazione**: l'impostazione **Aggrega prodotti** nel gruppo di campi **Terminale** della pagina **Profilo funzionalità** consente di aggregare gli stessi prodotti non in serie nella schermata della transazione. Quando gli stessi prodotti vengono aggregati, sono più facili da visualizzare nella griglia della transazione. Tuttavia, poiché i numeri di serie sono in genere univoci e gli assistenti alle vendite non devono immettere numeri di serie fino al checkout, l'impostazione **Aggrega prodotti** non viene applicata ai prodotti in serie. Di conseguenza, i prodotti in serie non verranno aggregati nella schermata della transazione se l'impostazione **Aggrega prodotti** è selezionata.
+- **Possibilità di cercare i giornali di registrazione per numero di serie** - I giornali di registrazione possono ora essere ulteriormente ricercati per numero di serie. A tale scopo, aprire l'operazione "Giornali di registrazione" e premere il pulsante "Ricerca avanzata" nella barra delle applicazioni. Utilizzando il pulsante "Aggiungi filtro", è anche possibile applicare un filtro per cercare i numeri di serie.
 

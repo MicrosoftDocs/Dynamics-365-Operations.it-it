@@ -3,7 +3,7 @@ title: Distribuzione locale
 description: Questo argomento fornisce informazioni sulle distribuzioni locali e collegamenti a contenuti ad esse correlati.
 author: kfend
 manager: AnnBe
-ms.date: 06/24/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
-ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
+ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
+ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
 ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Pagina di destinazione relativa alla distribuzione locale
@@ -32,6 +32,7 @@ ms.lasthandoff: 11/28/2017
 
 ## <a name="get-started"></a>Per iniziare
 - [Panoramica di Dynamics 365 for Finance and Operations, Enterprise Edition (locale)](on-premises-overview.md)
+- [Pianificazione della distribuzione locale](plan-onprem-deployment.md)
 - [Requisiti di sistema per le distribuzioni locali](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Dimensionamento hardware per ambienti locali](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Criteri del ciclo di vita del software locale e dei servizi online](../migration-upgrade/versions-update-policy.md)
@@ -41,6 +42,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="onboard"></a>Onboard
 - [Creare un progetto locale in Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Impostare e distribuire in ambienti locali](setup-deploy-on-premises-environments.md)
+- [Installare le stampanti di rete in ambienti locali](../analytics/install-network-printer-onprem.md)
 - [Configurare SQL Server Reporting Services per una distribuzione locale](../analytics/configure-ssrs-on-premises.md)
 - [Sviluppare e distribuire modelli personalizzati in ambienti locali](develop-deploy-custom-models-on-premises.md)
 
@@ -54,6 +56,7 @@ ms.lasthandoff: 11/28/2017
 - [Ridistribuire una distribuzione locale](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Altre risorse
+- [Risolvere i problemi di Dynamics 365 for Finance and Operations, Enterprise Edition (locale)](troubleshoot-on-prem.md)
 - [Funzionalità non implementate nelle distribuzioni locali](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Funzionalità deprecate](../migration-upgrade/deprecated-features.md)
 - [Criteri del ciclo di vita del software ed elenco delle versioni](../migration-upgrade/versions-update-policy.md)

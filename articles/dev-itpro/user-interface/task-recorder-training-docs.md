@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: robinr
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 In questo argomento vengono illustrate la funzionalità Registrazione attività e le guide attività, viene descritto come creare file di Registrazione attività e come personalizzare le guide attività di Microsoft e includerle nella Guida.
 
 > [!IMPORTANT]
-> Non è possibile creare guide attività personalizzate Dynamics 365 for Talent. La Guida per Talent è automaticamente connessa alle guide attività per il prodotto. 
+> È possibile registrare le proprie guide attività per Dynamics 365 for Talent ma non sarà possibile salvarle in una libreria del Modellatore di processi aziendali o aprirle dal riquadro della Guida in questo momento. È possibile salvarle in locale o in un percorso di rete, quindi aprirle e riprodurle utilizzando Registrazione attività. 
 
 <a name="learn-about-task-recorder"></a>Informazioni su Registrazione attività
 -------------------------
@@ -42,7 +42,7 @@ Registrazione attività è uno strumento che è possibile utilizzare per registr
 
 -   **Le registrazioni di attività possono essere riprodotte come guide attività.** Le guide attività sono un pezzo integrale della Guida. Una guida attività è un'esperienza controllata, guidata e interattiva che guida attraverso i passaggi di un processo aziendale. All'utente vengono fornite istruzioni per completare ciascun passaggio mediante un messaggio popup (o "bolla") che si animerà nell'interfaccia utente e punterà all'elemento dell'interfaccia utente con cui l'utente deve interagire. La "bolla" fornisce inoltre informazioni su come interagire con l'elemento, ad esempio "Fare clic qui" o "In questo campo, immettere un valore". Una guida attività viene eseguita per il set di dati corrente dell'utente e i dati immessi vengono salvati nell'ambiente dell'utente.
 -   **I file di Registrazione attività possono essere visualizzati come passaggi procedurali nel riquadro della Guida.** È possibile utilizzare il riquadro della Guida per cercare e visualizzare i file di Registrazione attività. È possibile accedere al riquadro della Guida facendo clic sull'icona **?** nella barra di navigazione superiore oppure è possibile utilizzare la combinazione di tasti di scelta rapida **CTRL+MAIUSC+?**. È possibile leggere i passaggi di una registrazione attività nel riquadro della Guida oppure scegliere di riprodurre la registrazione come guida attività, per essere guidati nell'interfaccia utente.
--   **Le registrazioni attività possono essere salvate in BPM.** È possibile salvare la propria registrazione attività in una riga di una gerarchia in una libreria BPM (Modellatore di processi aziendali) in Lifecycle Services (LCS). Un elenco dei passaggi e un diagramma di flusso di processi aziendali verranno generati dalla registrazione. Le registrazioni attività che sono state salvate in una libreria BPM possono essere visualizzate come Guida.
+-   **Le registrazioni attività possono essere salvate in BPM.** È possibile salvare la propria registrazione attività in una riga di una gerarchia in una libreria del Modeler di processi aziendali in Lifecycle Services (LCS). Un elenco dei passaggi e un diagramma di flusso di processi aziendali verranno generati dalla registrazione. Le registrazioni attività che sono state salvate in una libreria BPM possono essere visualizzate come Guida.
 -   **Le registrazioni attività possono essere salvate come documenti di Word.** Ciò consente di produrre con facilità guide di formazione stampabili.
 
 È possibile creare i propri file di Registrazione attività, riprodurre i file di Registrazione attività forniti da Microsoft o modificarli in base alla configurazione in uso. Per ulteriori informazioni su Registrazione attività, vedere [Registrazione attività](task-recorder.md).

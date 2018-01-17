@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -44,10 +44,11 @@ Per Approvvigionamento sono disponibili i tipi di flusso di lavoro indicati di s
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **Tipo**                         | **Utilizzare questo tipo per:**                                          |
-| Verifica richiesta di acquisto      | Creare flussi di lavoro di revisione per richieste di acquisto.            |
-| Verifica righe di richiesta di acquisto | Creare flussi di lavoro di revisione per righe richieste di acquisto.       |
+| Verifica richiesta di acquisto      | Creare flussi di lavoro di revisione e approvazione per richieste di acquisto.            |
+| Verifica righe di richiesta di acquisto | Creare flussi di lavoro di revisione e approvazione per righe di richiesta di acquisto.       |
 | Flusso di lavoro ordine fornitore          | Creare flussi di lavoro di revisione e approvazione per ordini fornitore.     |
 | Flusso di lavoro riga ordine fornitore     | Creare flussi di lavoro di revisione e approvazione per righe ordine fornitore. |
+| Flusso di lavoro richieste aggiunta fornitore  | Creare flussi di lavoro di revisione e approvazione per l'aggiunta di nuovi fornitori tramite le richieste fornitore. |
 
 ## <a name="creating-a-workflow"></a>Creazione di un flusso di lavoro
 Per creare un flusso di lavoro, accedere ad Approvvigionamento &gt; Impostazioni &gt; Flussi di lavoro di approvvigionamento e creare un nuovo flusso di lavoro selezionando il tipo di flusso di lavoro che si desidera creare.  
@@ -75,6 +76,6 @@ Tipi di partecipanti
 
 [Flusso di lavoro delle richieste di acquisto](purchase-requisitions-workflow.md)
 
-
+[Integrazione di fornitori](vendor-onboarding.md)
 
 
