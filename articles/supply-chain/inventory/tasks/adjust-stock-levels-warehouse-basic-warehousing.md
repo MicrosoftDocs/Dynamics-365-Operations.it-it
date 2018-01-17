@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: it-it
 ms.lasthandoff: 09/29/2017
 
 ---
-# Rettificare i livelli di scorte in magazzino (immagazzinaggio base)
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Rettificare i livelli di scorte in magazzino (immagazzinaggio base)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene descritto dettagliatamente il processo per creare e registrare un giornale di registrazione di rettifica magazzino in modo da rettificare i livelli di scorte dei prodotti in magazzino. È necessario disporre di un nome del giornale di registrazione magazzino configurato per le rettifiche dell'inventario prima di iniziare la procedura. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati. Queste attività verranno in genere svolte da un dipendente del magazzino.
 
 
-## Creare un giornale di registrazione di rettifica magazzino
+## <a name="create-an-inventory-adjustment-journal"></a>Creare un giornale di registrazione di rettifica magazzino
 1. Passare a Gestione articoli > Inserimenti nel giornale di registrazione > Articoli > Rettifica magazzino.
 2. Fare clic su Nuovo.
 3. Nel campo Nome fare clic sul pulsante a discesa per aprire la ricerca.
@@ -38,7 +38,7 @@ In questa procedura viene descritto dettagliatamente il processo per creare e re
     * Alcuni campi saranno popolati in base all'impostazione del nome del giornale di registrazione di rettifica magazzino selezionato.  
 5. Fare clic su OK.
 
-## Creare righe di giornale di registrazione
+## <a name="create-journal-lines"></a>Creare righe di giornale di registrazione
 1. Fare clic su Nuovo.
 2. Selezionare il campo del numero di articolo nell'elenco.
 3. Nel campo Numero articolo selezionare un articolo. Se si utilizza la società di dati dimostrativi USMF, digitare "D0001".
@@ -50,7 +50,7 @@ In questa procedura viene descritto dettagliatamente il processo per creare e re
 8. Nel campo Quantità immettere un numero.
     * Nel campo del prezzo di costo viene specificato il costo per unità utilizzato per le entrate in magazzino. Se il costo non viene specificato per il numero articolo o se si desidera modificarlo manualmente, effettuarlo qui.  
 
-## Convalidare e registrare il giornale di registrazione di rettifica magazzino
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a>Convalidare e registrare il giornale di registrazione di rettifica magazzino
 1. Fare clic su Convalida.
 2. Fare clic su OK.
 3. Fare clic su Registra.

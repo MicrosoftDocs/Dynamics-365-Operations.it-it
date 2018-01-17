@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: it-it
 ms.lasthandoff: 09/29/2017
 
 ---
-# Controllare la disponibilità scorte
+# <a name="check-the-availability-of-stock"></a>Controllare la disponibilità scorte
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Nella procedura viene illustrato come controllare le scorte disponibili e fisiche disponibili per un numero articolo specifico. Viene inoltre illustrato come ottenere informazioni sulla fornitura correlate a un articolo. Le scorte fisiche disponibili sono le scorte disponibili, ovvero che sono state acquistate, ricevute e registrate. Le scorte disponibili includono le scorte disponibili, ma anche le scorte ordinate e previste, ma non ancora ricevute o registrate. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati. Se si utilizza USMF è possibile utilizzare i valori di esempio visualizzati. Queste attività in genere verranno svolte da un addetto al magazzino.
 
 
-## Selezionare le scorte disponibili di un articolo
+## <a name="check-on-hand-inventory-for-an-item"></a>Selezionare le scorte disponibili di un articolo
 1. Passare a Gestione articoli > Richieste di informazioni e report > Scorte disponibili.
 2. Selezionare la riga numero articolo.
     * Per eseguire query sulle scorte disponibili per numero articolo, selezionare la riga in cui la Tabella è impostata su Scorte disponibili e il campo è impostato su Numero articolo.  
@@ -49,7 +49,7 @@ Nella procedura viene illustrato come controllare le scorte disponibili e fisich
 11. Chiudere la pagina.
 12. Chiudere la pagina.
 
-## Selezionare le scorte fisiche disponibili
+## <a name="check-physical-on-hand-inventory"></a>Selezionare le scorte fisiche disponibili
 1. Andare a Gestione magazzino > Richieste di informazioni e report > Scorte fisiche disponibili.
 2. Nel campo Numero articolo, digitare un valore.
     * È possibile utilizzare i campi Sito e Magazzino per filtrare l'elenco di articoli.  
@@ -59,7 +59,7 @@ Nella procedura viene illustrato come controllare le scorte disponibili e fisich
 5. Fare clic su OK.
 6. Chiudere la pagina.
 
-## Selezionare le scorte disponibili in base all'ubicazione
+## <a name="check-on-hand-inventory-by-location"></a>Selezionare le scorte disponibili in base all'ubicazione
 1. Andare a Gestione magazzino > Richieste di informazioni e report > Disponibili per ubicazione.
 2. Digitare un valore nel campo Magazzino.
     * Se si utilizza la società di dati dimostrativi USMF, è possibile utilizzare "51".  
