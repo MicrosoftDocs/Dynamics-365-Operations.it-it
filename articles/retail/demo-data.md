@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTillLayout
 audience: Application user
 ms.search.scope: Operations, Retail
 ms.custom: 
@@ -18,10 +19,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 563c89c75e2136294f8f841bec094c2aeb85d580
-ms.openlocfilehash: b758b48230e8d9fabdccbe267a6ad6b9e74af0ff
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 61a1eeba0e44a2600157f2e5c3f2de042c786d91
 ms.contentlocale: it-it
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -95,13 +96,13 @@ ms.lasthandoff: 10/17/2017
 
 | <span data-ttu-id="d8599-173">Tipo di layout</span><span class="sxs-lookup"><span data-stu-id="d8599-173">Layout type</span></span> | <span data-ttu-id="d8599-174">Risoluzione</span><span class="sxs-lookup"><span data-stu-id="d8599-174">Resolution</span></span> | <span data-ttu-id="d8599-175">Proporzioni</span><span class="sxs-lookup"><span data-stu-id="d8599-175">Aspect ratio</span></span> | <span data-ttu-id="d8599-176">Display di destinazione</span><span class="sxs-lookup"><span data-stu-id="d8599-176">Target display</span></span>          |
 |-------------|------------|--------------|-------------------------|
-| <span data-ttu-id="d8599-177">Compatta\*</span><span class="sxs-lookup"><span data-stu-id="d8599-177">Compact\*</span></span>   | <span data-ttu-id="d8599-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="d8599-178">480 × 853</span></span>  | <span data-ttu-id="d8599-179">16:9</span><span class="sxs-lookup"><span data-stu-id="d8599-179">16:9</span></span>         | <span data-ttu-id="d8599-180">Telefoni</span><span class="sxs-lookup"><span data-stu-id="d8599-180">Phones</span></span>                  |
+| <span data-ttu-id="d8599-177">Compatta\\*</span><span class="sxs-lookup"><span data-stu-id="d8599-177">Compact\\*</span></span>   | <span data-ttu-id="d8599-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="d8599-178">480 × 853</span></span>  | <span data-ttu-id="d8599-179">16:9</span><span class="sxs-lookup"><span data-stu-id="d8599-179">16:9</span></span>         | <span data-ttu-id="d8599-180">Telefoni</span><span class="sxs-lookup"><span data-stu-id="d8599-180">Phones</span></span>                  |
 | <span data-ttu-id="d8599-181">Completo</span><span class="sxs-lookup"><span data-stu-id="d8599-181">Full</span></span>        | <span data-ttu-id="d8599-182">1024 × 768</span><span class="sxs-lookup"><span data-stu-id="d8599-182">1024 × 768</span></span> | <span data-ttu-id="d8599-183">4:3</span><span class="sxs-lookup"><span data-stu-id="d8599-183">4:3</span></span>          | <span data-ttu-id="d8599-184">Tablet</span><span class="sxs-lookup"><span data-stu-id="d8599-184">Tablets</span></span>                 |
-| <span data-ttu-id="d8599-185">Completo\*</span><span class="sxs-lookup"><span data-stu-id="d8599-185">Full\*</span></span>      | <span data-ttu-id="d8599-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="d8599-186">1280 × 720</span></span> | <span data-ttu-id="d8599-187">16:9</span><span class="sxs-lookup"><span data-stu-id="d8599-187">16:9</span></span>         | <span data-ttu-id="d8599-188">Tablet</span><span class="sxs-lookup"><span data-stu-id="d8599-188">Tablets</span></span>                 |
+| <span data-ttu-id="d8599-185">Completo\\*</span><span class="sxs-lookup"><span data-stu-id="d8599-185">Full\\*</span></span>      | <span data-ttu-id="d8599-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="d8599-186">1280 × 720</span></span> | <span data-ttu-id="d8599-187">16:9</span><span class="sxs-lookup"><span data-stu-id="d8599-187">16:9</span></span>         | <span data-ttu-id="d8599-188">Tablet</span><span class="sxs-lookup"><span data-stu-id="d8599-188">Tablets</span></span>                 |
 | <span data-ttu-id="d8599-189">Completo</span><span class="sxs-lookup"><span data-stu-id="d8599-189">Full</span></span>        | <span data-ttu-id="d8599-190">1366 × 768</span><span class="sxs-lookup"><span data-stu-id="d8599-190">1366 × 768</span></span> | <span data-ttu-id="d8599-191">16:9</span><span class="sxs-lookup"><span data-stu-id="d8599-191">16:9</span></span>         | <span data-ttu-id="d8599-192">Tablet, schermi più grandi</span><span class="sxs-lookup"><span data-stu-id="d8599-192">Tablets, larger screens</span></span> |
 | <span data-ttu-id="d8599-193">Completo</span><span class="sxs-lookup"><span data-stu-id="d8599-193">Full</span></span>        | <span data-ttu-id="d8599-194">1440 × 960</span><span class="sxs-lookup"><span data-stu-id="d8599-194">1440 × 960</span></span> | <span data-ttu-id="d8599-195">3:2</span><span class="sxs-lookup"><span data-stu-id="d8599-195">3:2</span></span>          | <span data-ttu-id="d8599-196">Tablet, schermi più grandi</span><span class="sxs-lookup"><span data-stu-id="d8599-196">Tablets, larger screens</span></span> |
 
-<span data-ttu-id="d8599-197">\* Queste dimensioni di layout aggiuntive sono disponibili solo nei layout di Fabrikam e Adventure Works.</span><span class="sxs-lookup"><span data-stu-id="d8599-197">\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
+<span data-ttu-id="d8599-197">\\* Queste dimensioni di layout aggiuntive sono disponibili solo nei layout di Fabrikam e Adventure Works.</span><span class="sxs-lookup"><span data-stu-id="d8599-197">\\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
 
 
 >[!TIP]

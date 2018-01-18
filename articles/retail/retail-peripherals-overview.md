@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,10 +18,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 7573a81916a60c18ae6ca4a2fdfc60bc2e641319
 ms.contentlocale: it-it
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -545,7 +546,7 @@ ms.lasthandoff: 11/14/2017
 <span data-ttu-id="c3a05-570">Per informazioni sugli scenari di estendibilità per la stazione hardware, vedere [Estendibilità delle stazioni hardware](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="c3a05-570">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
 
 ## <a name="security"></a><span data-ttu-id="c3a05-571">Sicurezza</span><span class="sxs-lookup"><span data-stu-id="c3a05-571">Security</span></span>
-<span data-ttu-id="c3a05-572">A seconda degli standard di sicurezza correnti, le seguenti impostazioni devono essere utilizzati negli ambienti di produzione: **Nota:*** Il programma di installazione della stazione hardware automaticamente farà tali modifiche nel Registro di sistema durante l'installazione tramite Self Service.</span><span class="sxs-lookup"><span data-stu-id="c3a05-572">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
+<span data-ttu-id="c3a05-572">A seconda degli standard di sicurezza correnti, le seguenti impostazioni devono essere utilizzati negli ambienti di produzione: **Nota:**\* Il programma di installazione della stazione hardware automaticamente farà tali modifiche nel Registro di sistema durante l'installazione tramite Self Service.</span><span class="sxs-lookup"><span data-stu-id="c3a05-572">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
 
 -   <span data-ttu-id="c3a05-573">Secure Sockets Layer (SSL) deve essere disabilitato.</span><span class="sxs-lookup"><span data-stu-id="c3a05-573">Secure Sockets Layer (SSL) should be disabled.</span></span>
 -   <span data-ttu-id="c3a05-574">Solo Transport Layer Security (TLS) versione 1.2 (o la versione corrente superiore) deve essere abilitato e usato.</span><span class="sxs-lookup"><span data-stu-id="c3a05-574">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span> <span data-ttu-id="c3a05-575">**Nota:**  Per impostazione predefinita, SSL e tutte le versioni di TLS tranne TLS 1.2 sono disabilitati.</span><span class="sxs-lookup"><span data-stu-id="c3a05-575">**Note:** By default, SSL and all version of TLS except TLS 1.2 are disabled.</span></span> <span data-ttu-id="c3a05-576">Per modificare o abilitare questi valori, effettuare le operazioni seguenti:</span><span class="sxs-lookup"><span data-stu-id="c3a05-576">To edit or enable these values, follow these steps:</span></span>
