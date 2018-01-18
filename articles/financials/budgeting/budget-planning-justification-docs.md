@@ -3,11 +3,12 @@ title: Documenti di motivazione per la pianificazione del budget
 description: "I documenti di motivazione forniscono una descrizione per chi richiede un budget per spiegare perché un budget specifico è necessario."
 author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

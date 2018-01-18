@@ -3,11 +3,12 @@ title: Area di lavoro gestione cespiti
 description: Vengono fornite le informazioni sull'area di lavoro gestione cespiti. Questa area di lavoro visualizza le informazioni relative ai cespiti immessi nel sistema. Include una visualizzazione di riepilogo e una visualizzazione di analisi.
 author: saraschi
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

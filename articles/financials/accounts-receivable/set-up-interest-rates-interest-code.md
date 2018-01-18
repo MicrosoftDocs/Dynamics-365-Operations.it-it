@@ -3,11 +3,12 @@ title: Impostare tassi d'interesse per un codice interessi
 description: I codici interessi contengono le impostazioni che determinano quando gli interessi vengono addebitati e come vengono calcolati nei conti scaduti.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: Interest
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

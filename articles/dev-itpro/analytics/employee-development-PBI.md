@@ -1,9 +1,9 @@
 ---
 title: Contenuto di Power BI Sviluppo del dipendente
-description: "Questo argomento descrive il contenuto Sviluppo del dipendente di Power BI. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
+description: Questo argomento descrive il contenuto Sviluppo del dipendente di Power BI.
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive il contenuto **Sviluppo del dipendente** di Microsoft Power BI. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
-
-## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-
-Il pacchetto di contenuti **Sviluppo del dipendente** è disponibile nella libreria delle risorse condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il pacchetto di contenuti e connetterlo ai propri dati, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md).
+Questo argomento descrive il contenuto **Sviluppo del dipendente** di Microsoft Power BI.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
 I report inclusi nel contenuto **Sviluppo del dipendente** di Power BI dispongono di grafici e tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.
@@ -74,5 +70,4 @@ I report inclusi nel contenuto **Sviluppo del dipendente** di Power BI dispongon
 | Prestazioni              | Valutazione, descrizione e modello di valutazione                                                                      | Dipendente corrente, Posizione corrente, Tendenza del dipendente, Competenza preferita per la mansione, Assegnazione della posizione passata, Tendenza della posizione, Dipendente con rapporto di lavoro chiuso |
 |  Competenza                   | Competenza, tipo di competenza e valutazione                                                                              | Analisi competenze del dipendente, Competenza preferita per la mansione |                                                                                                                        
 
-Le entità sono state utilizzate per creare le misure calcolate nel modello dati. Queste misure calcolate vengono quindi utilizzate per calcolare gli indicatori di prestazione chiave (KPI) e i report utilizzati nel contenuto di Power BI. Se si desidera includere calcoli aggiuntivi nei report e nel dashboard, è possibile scaricare e modificare il file .pbix da LCS. Questo file è il modello dati predefinito utilizzato per creare il contenuto di Power BI. Una volta apportate le modifiche, è possibile creare un pacchetto di contenuti per l'organizzazione e un dashboard che contengono le informazioni aggiunte.
 

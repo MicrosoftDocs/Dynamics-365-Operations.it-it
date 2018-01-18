@@ -2,6 +2,7 @@
 # [Requisiti di sistema per le distribuzioni cloud](../fin-and-ops/get-started/system-requirements.md)
 # [Requisiti di sistema per le distribuzioni locali](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Dati dimostrativi](../fin-and-ops/get-started/demo-data.md)
+## [Generare dati dimostrativi con i pacchetti](data-entities/generate-demo-data-packages.md)
 
 
 # [Sviluppare e personalizzare in Visual Studio](dev-tools/developer-home-page.md)
@@ -28,7 +29,7 @@
 ### [Esportare e importare un modello](dev-tools/models-export-import.md)
 ### [Ricerca di metadati in Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Modelli](dev-tools/models.md)
-### [Progetti di Dynamics 365 for Finance and Operations, Enterprise Edition](dev-tools/projects.md)
+### [Progetti di Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
 ### [Componenti aggiuntivi strumenti per Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Disattivare la personalizzazione di modello e la funzionalità deprecata](dev-tools/lock-models.md)
 ### [Aggiornare gli strumenti di sviluppo di Visual Studio](dev-tools/update-development-tools.md)
@@ -160,8 +161,8 @@
 ### [Sviluppare elementi per la navigazione](user-interface/build-navigation.md)
 ### [Sviluppare un'area di lavoro](user-interface/build-workspace.md)
 ## Moduli
-### [Navigazione di Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-navigation.md)
-### [Layout di Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-layout.md)
+### [Navigazione di Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
+### [Layout di Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
 ### [Carattere Symbol](user-interface/symbol-font.md)
 ### [Moduli di test con schemi personalizzati](user-interface/testing-forms-custom-patterns.md)
 ### [Creare e utilizzare i collegamenti diretti](user-interface/create-deep-links.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [Servizi clienti](data-entities/custom-services.md)
 ### [Integrazioni ricorrenti](data-entities/recurring-integrations.md)
+### [Utilizzare le utilità di test del servizio di terze parti con i servizi](data-entities/third-party-service-test.md)
 
 ## Sviluppo per l'integrazione
 ### [Integrazione di dati tramite entità di dati](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [Pacchetti di dati di configurazione](data-entities/configuration-data-packages.md)
 ### [Copiare dati di configurazione dell'entità tra società](data-entities/copy-configuration.md)
 ### [Modelli di dati di configurazione](data-entities/configuration-data-templates.md)
+### [Modelli di dati con più fogli di lavoro](data-entities/excel-template-multiple.md)
 ### [Monitoraggio delle modifiche a un'entità](data-entities/entity-change-track.md)
 
 ## Entità di dati standard
@@ -497,17 +500,20 @@
 
 ## Distribuzione cloud
 ### [Integrazione di Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute e Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute e Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [Distribuzione locale](deployment/on-premises-deployment-landing-page.md)
 ### [Panoramica della distribuzione locale](deployment/on-premises-overview.md)
+### [Pianificazione della distribuzione locale](deployment/plan-onprem-deployment.md)
 ### [Dimensionamento hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Creare un progetto locale](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Impostare e distribuire in ambienti locali](deployment/setup-deploy-on-premises-environments.md)
 ### [Sviluppare e distribuire modelli personalizzati in ambienti locali](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Applicare aggiornamenti a una distribuzione locale](deployment/apply-updates-on-premises.md)
 ### [Ridistribuire una distribuzione locale](deployment/redeploy-on-prem.md)
-### [Risolvere i problemi di Dynamics 365 for Finance and Operations, Enterprise Edition (locale)](deployment/troubleshoot-on-prem.md)
+### [Aggiornare l'agente locale](lifecycle-services/update-local-agent.md)
+### [Riconfigurare l'ambiente](lifecycle-services/reconfigure-environment.md)
+### [Risolvere i problemi di Dynamics 365 for Finance and Operations, Enterprise edition (locale)](deployment/troubleshoot-on-prem.md)
 
 ## Distribuire codice personalizzato
 ### [Creare un pacchetto distribuibile](deployment/create-apply-deployable-package.md)
@@ -547,7 +553,7 @@
 ## Passare a un aggiornamento recente
 ### [Processo per spostarsi all'ultimo aggiornamento](migration-upgrade/upgrade-latest-update.md)
 ### [Criteri del ciclo di vita](migration-upgrade/versions-update-policy.md)
-### [Applicare l'ultimo aggiornamento della piattaforma all'ambiente](migration-upgrade/upgrade-latest-platform-update.md)
+### [Applicare l'ultimo aggiornamento Platform all'ambiente](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Aggiornare la piattaforma Dynamics alla versione di agosto 2016](migration-upgrade/update-platform-each-release.md)
 ### [Aggiornare un ambiente sandbox](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Aggiornare i dati in ambienti di dimostrazione o sviluppo](migration-upgrade/upgrade-data-to-latest-update.md)
@@ -695,10 +701,10 @@
 ## [Richiedere un aggiornamento del database sandbox](database/database-refresh.md)
 
 # Supporto
-## [Ottenere supporto per Dynamics 365 for Finance and Operations, Enterprise Edition e Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Ottenere supporto per Dynamics 365 for Finance and Operations, Enterprise edition e Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Registrare una richiesta di supporto Premier](lifecycle-services/premier-support.md)
 ## [Inviare una richiesta al team di progettazione servizi di assistenza di Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Impostare il supporto tecnico per Dynamics 365 for Finance and Operations, Enterprise Edition](lifecycle-services/support-experience.md) 
+## [Impostare il supporto tecnico per Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
 ## [Domande frequenti sulla finestra della manutenzione pianificata](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Operazioni e assistenza cloud](lifecycle-services/cloud-operations-servicing.md)
 ## [Gestire le esperienze di supporto per Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

@@ -1,7 +1,7 @@
 ---
 title: Pianificare carichi utilizzando il consolidamento di hub
 description: "Questo articolo descrive la funzionalità di consolidamento delle spedizioni in un hub quando si consegnano merci dai magazzini diversi allo stesso cliente o quando merci vengono consegnate da più fornitori allo stesso magazzino."
-author: YuyuScheller
+author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSLoadPlanningWorkbench
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 92273
 ms.assetid: d27b0926-a534-4caf-a2a3-acbc7c440bca
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yuyus
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

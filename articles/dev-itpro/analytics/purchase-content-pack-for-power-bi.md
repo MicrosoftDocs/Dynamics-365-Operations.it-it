@@ -3,11 +3,12 @@ title: Contenuto Power BI sull'analisi delle spese di acquisto
 description: "In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi delle spese di acquisto. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto."
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f38f82b4275599a6b958c495f32b72778b400024
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -131,16 +132,6 @@ Il contenuto di Power BI **Analisi delle spese di acquisto** include un report c
 </table>
 
 \* Acquisti nell'anno corrente e nell'anno passato e crescita per categoria di approvvigionamento
-
-## <a name="extending-the-power-bi-content"></a>Estensione del contenuto Power BI
-Utilizzando i pacchetti di contenuti disponibili in Microsoft Dynamics Lifecycle Services (LCS), è possibile fornire eccezionali analisi alle persone che non accedono a Microsoft Dynamics 365. È possibile modificare i pacchetti di contenuti affinché siano inclusi altri report o rappresentazioni e quindi pubblicate i pacchetti contenuti nel tenant Power BI.com per l'analisi. 
-
-Puoi trovare il contenuto Power BI **Analisi delle spese di acquisto** nella raccolta delle risorse condivise in LCS. Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Assicurarsi di scaricare il contenuto **Analisi delle spese di acquisto** applicabile alla versione di Dynamics 365 in uso.
-
-> [!NOTE]
-> Se si utilizza Microsoft Dynamics 365 for Operations versione 1611, KB 4011327 è un prerequisito per questo contenuto di Power BI. Dopo avere eseguito l'accesso a LCS, è possibile accedere alla KB qui: : https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="data-model-and-entities"></a>Modello dati ed entità
 I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi delle spese di acquisto**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).

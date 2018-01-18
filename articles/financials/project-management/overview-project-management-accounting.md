@@ -3,11 +3,12 @@ title: "Gestione progetti e contabilità"
 description: "La funzionalità gestione progetti e contabilità può essere utilizzata in più settori per fornire un servizio, realizzare un prodotto oppure ottenere un risultato."
 author: KimANelson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProjTable
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

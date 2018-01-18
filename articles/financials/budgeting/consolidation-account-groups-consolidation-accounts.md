@@ -3,11 +3,12 @@ title: Gruppi di conti di consolidamento e conti di consolidamento aggiuntivi
 description: In questo argomento vengono fornite informazioni sui gruppi di conti di consolidamento e sui conti di consolidamento aggiuntivi e viene illustrato come vengono utilizzati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

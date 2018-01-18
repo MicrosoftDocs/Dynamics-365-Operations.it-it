@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -19,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +99,10 @@ Per riprendere la sessione di registrazione una volta sospesa, fare clic su **Co
 
 ### <a name="capture-screenshots"></a>Acquisisci schermate
 
-Registrazione attività può acquisire schermate dell'interfaccia utente di Retail Modern POS durante la registrazione di un processo aziendale. Registrazione attività utilizza le schermate se si scarica la registrazione come documento Word. Per attivare la funzionalità di acquisizione schermata, impostare l'opzione **Acquisisci schermate** su **Sì**. 
+Registrazione attività può acquisire schermate dell'interfaccia utente di Retail Modern POS durante la registrazione di un processo aziendale. Per attivare la funzionalità di acquisizione schermata, impostare l'opzione **Acquisisci schermate** su **Sì** e quindi effettuare la registrazione. Al termine della registrazione, fare clic su **Arresta** e scaricare il documento Word. Il documento contiene i passaggi con schermate rilevanti.
 
 #### <a name="note"></a>Nota
-> La funzionalità di acquisizione screenshot non è supportata in Cloud POS.
+> La funzionalità di acquisizione screenshot non è supportata in POS moderno.
 
 ### <a name="start-task-and-end-task"></a>Avvia attività e Termina attività
 

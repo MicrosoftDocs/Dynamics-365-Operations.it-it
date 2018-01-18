@@ -3,7 +3,7 @@ title: Tasti di scelta rapida
 description: In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vengono utilizzati i tasti di scelta rapida descritti di seguito.
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: it-it
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vengono
 
 **Nota:** i tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
 
-## <a name="finding-a-shorcut"></a>Individuazione di un collegamento
+## <a name="finding-a-shortcut"></a>Individuazione di un collegamento
 Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamenti attualmente disponibili direttamente dall'interfaccia utente. Fare semplicemente clic con il pulsante destro del mouse su un controllo e selezionare **Visualizza collegamenti**. Verrà visualizzata una finestra di dialogo contenente i collegamenti da utilizzare in base alla posizione in cui ci si trova nella pagina. 
 
 
@@ -143,6 +143,9 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Passa al primo record                                                                                               | CTRL+HOME                       |
 | Passa all'ultimo record                                                                                                | CTRL+FINE                        |
 | Eseguire l'azione predefinita in una griglia<br><br>**Nota:** questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali.                 | INVIO                           |
+| Passare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT+MAIUSC+H                     |
+| Ingrandire o diminuire la colonna corrente (con stato attivo nella riga di intestazione)                                                  | Freccia destra o freccia sinistra        |
+| Aprire il filtro griglia per la colonna corrente (con stato attivo nella riga di intestazione)                                              | INVIO                           |
 
 ## <a name="input-control-shortcuts"></a>Tasti di scelta rapida per il controllo dell'input
 |                                                                              |                               |

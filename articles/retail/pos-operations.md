@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -104,6 +104,7 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 521 | Saldo punti carta fedeltà | Visualizza il saldo dei punti per la carta fedeltà specificata. | Sì | Sì | No | No | No |
 | 914 | Riduci a icona la finestra POS | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 1000 | Apri cassetto | Esegue un'operazione "senza vendita" e apre il cassetto attualmente selezionato. | Sì | Sì | Sì | Sì | No |
+| 928 | Evasione ordine | Questa operazione consente agli utenti di prelevare, imballare, spedire o richiamare gli ordini per il punto vendita scelto. | Sì | Sì | Sì | No | No |
 | 129 | Forza imposta prodotto riga | Sostituisce l'imposta sulla voce selezionata con un'imposta specificata diversa. | Sì | Sì | No | Sì | No |
 | 130 | Forza imposta prodotto riga dall'elenco | Consente di sostituire l'imposta sulla voce selezionata con un'imposta che l'utente seleziona in un elenco. | Sì | Sì | No | Sì | No |
 | 127 | Forza imposta di transazione | Sostituisce l'imposta sulla transazione con un'imposta specificata diversa. | Sì | Sì | No | Sì | No |

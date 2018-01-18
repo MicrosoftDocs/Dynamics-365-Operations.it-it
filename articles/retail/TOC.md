@@ -43,7 +43,8 @@
 ## [Configurare e installare una stazione hardware Retail](retail-hardware-station-configuration-installation.md)
 ## [Orario e presenze Retail](retail-time-attendance.md)
 
-# MPOS e POS cloud
+# Modern Point of Sale (MPOS) e Cloud POS
+## [Scegliere tra Modern POS e Cloud POS](MPOS-or-CPOS.md)
 ## [Operazioni POS](POS-operations.md)
 ## [Layout dello schermo per dati dimostrativi in MPOS/CPOS](demo-data.md)
 ## Periferiche hardware
@@ -70,12 +71,17 @@
 ## [Spedire un ordine da un punto vendita diverso](charge-send.md)
 ## Attivazione dispositivo
 ### [Configurare e installare MPOS](retail-modern-pos-device-activation.md)
-### [Impostare l'accesso esteso per POS cloud e MPOS](extended-logon.md)
+### [Impostare l'accesso esteso per Cloud POS e MPOS](extended-logon.md)
 ### [Gestire i dispositivi e i conti Retail dalle sedi centrali](set-up-activation-accounts-validate-devices-hq.md)
 ## Ricevute
 ### [Impostare i modelli di ricevuta](receipt-templates-printing.md) 
 ### [Inviare le ricevute tramite posta elettronica da MPOS](email-receipts.md)
 ## [Registrazione attività e Guida per il POS](task-recorder-retail-pos.md)
+
+# Evasione ordine
+## [Panoramica dell'adempimento dell'ordine punto vendita](Order-fulfillment-overview.md)
+## [Impostare l'adempimento nel punto vendita](Order-fulfillment-POS-setup.md)
+## [Abilitare le notifiche presso il POS](Notifications-POS.md)
 
 # Monitoraggio e analisi
 ## [Monitorare le prestazioni di vendite e margini](monitor-sales-margin-performance.md)
@@ -171,7 +177,7 @@
 # [Amministrazione e sviluppo Retail](dev-itpro/dev-retail-home-page.md)
 
 ## Architettura
-### [Componenti di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition - Retail](retail-components.md)
+### [Componenti di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition - Retail](retail-components.md)
 ### [Architettura del server Retail](dev-itpro/retail-server-architecture.md)
 ### [Comunicazioni del canale Retail](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [Architettura MPOS](dev-itpro/retail-modern-pos-architecture.md)
@@ -184,7 +190,7 @@
 ### [Installazione e configurazione di Retail Modern POS](retail-modern-pos-device-activation.md)
 ### [Gestire i dispositivi e i conti Retail dalle sedi centrali](set-up-activation-accounts-validate-devices-hq.md)
 ### [Attivazione del dispositivo Retail POS](dev-itpro/retail-device-activation.md)
-### [Sicurezza di Retail POS cloud](dev-itpro/secure-retail-cloud-pos.md)
+### [Sicurezza di Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Installazione e configurazione della stazione hardware Retail](retail-hardware-station-configuration-installation.md)
 ### [Distribuzione di massa dei componenti self-service Retail](dev-itpro/retail-mass-deployment.md)
 ### [Eventi dei componenti Retail per la diagnostica e la risoluzione dei problemi](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -205,7 +211,7 @@
 ### [Layout dello schermo di Retail POS](pos-screen-layouts.md)
 ### [Installare lo strumento di progettazione layout POS](install-pos-layout-designer.md)
 ### [Configurare MPOS per la modalità offline](dev-itpro/retail-modern-pos-offline.md)
-### [Estendibilità dell'attivazione di MPOS e POS cloud](dev-itpro/modern-pos-trigger-extensibility.md)
+### [Estendibilità dell'attivazione di MPOS e Cloud POS](dev-itpro/modern-pos-trigger-extensibility.md)
 ### [Aggiungere un controllo personalizzato a una visualizzazione POS](dev-itpro/pos-custom-control.md)
 ### [Estensione di pagamento POS](dev-itpro/pos-payment-extension.md)
 ### [Supporto esterno gift card](dev-itpro/gift-card.md)
@@ -258,8 +264,10 @@
 ### [Aggiungere controlli personalizzati alle pagine di transazioni di Retail Modern POS](dev-itpro/pos-custom-transaction.md)
 ### [Aggiungere colonne personalizzate alla griglia di transazioni POS](dev-itpro/pos-custom-transaction-column.md)
 ### [Chiamare un'API o un'operazione POS da un'estensione POS](dev-itpro/pos-api-extension.md)
-### [Estendere le viste POS esistenti per aggiungere colonne e pulsanti della barra delle app personalizzati](dev-itpro/pos-view-extension.md)
 ### [Trigger e stampa di Retail Modern POS](dev-itpro/pos-trigger-printing.md)
+### [Aggiungere un controllo personalizzato a una visualizzazione non basata sulla progettazione dello schermo Retail Modern POS](dev-itpro/pos-control-non-screen.md)
+### [Generare il proxy Retail per il POS e il commercio elettronico](dev-itpro/pos-generate-retail-proxy.md)
+### [Passaggi di configurazione per gli sviluppatori Retail che utilizzano le caselle di sviluppo ospitato nel cloud](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime
 ### [Estensione per il programma fedeltà](dev-itpro/retail-sdk/loyalty-extension-sample.md)

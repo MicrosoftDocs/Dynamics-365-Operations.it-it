@@ -1,9 +1,9 @@
 ---
 title: Contenuto Power BI per la gestione dei costi
-description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per la gestione dei costi. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
+description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per la gestione dei costi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto cosa è incluso nel contenuto Power BI per la gestione dei costi. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto Power BI per la gestione dei costi. 
 
 # <a name="overview"></a>Panoramica
 
@@ -51,8 +51,6 @@ I contenuto Microsoft Power BI per la **gestione dei costi** è destinato ai con
 
 L'origine dati principale per CostAggregatedCostStatementEntryEntity è la tabella CostStatementCache. Questa tabella viene gestita dal framework della cache del set di dati. Per impostazione predefinita, la tabella viene aggiornata ogni 24 ore, ma è possibile abilitare gli aggiornamenti manuali nella configurazione della cache di dati. È possibile poi eseguire un aggiornamento manuale nell'area di lavoro **Gestione costi** o **Analisi costo**. Dopo l'aggiornamento di CostStatementCache, è necessario aggiornare la connessione OData su Power BI.com per visualizzare i dati aggiornati nel sito. Le misure di scostamento (acquisto, produzione) nel contenuto di Power BI coprono solo gli articoli che vengono valutati con il metodo di inventario costo standard. Lo scostamento di produzione viene calcolato come la differenza tra i costi attivi e costo realizzato. Lo scostamento di produzione viene calcolato quando l'ordine di produzione ha lo stato **Finito**. Per ulteriori informazioni sui tipi di scostamento produzione e come ciascun tipo viene calcolato, vedere  [Informazioni sull'analisi degli scostamenti per un ordine di produzione completato](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Il contenuto Power BI per la **gestione dei costi** è disponibile da PowerBI.com. Per ulteriori informazioni su come connettere e collegare i dati di Microsoft Dynamics 365 for Finance and Operations, vedere [Accedere al contenuto Power BI da PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto include un set di pagine di report. Ciascuna pagina è costituita da un set di metriche visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto Power BI per la **gestione dei costi**.
@@ -96,7 +94,7 @@ Nella tabella seguente vengono illustrate le misure di aggregazione chiave utili
 | Unità di misura                                 | Come la misura viene calcolata                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Saldo iniziale                       | \[Saldo finale\]-\[Modifica netto\]                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Quantità saldo iniziale              | \]Quantità saldo finale\]-\[Quantità modifica netto\[                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Quantità saldo iniziale              | \[Quantità saldo finale\]-\[Quantità modifica netto\]                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Saldo finale                          | CALCULATE(SUM(\[Importo\]), FILTER(ALLEXCEPT('Calendari fiscali', 'Calendari fiscali'\[LedgerRecId\], 'entità'\[ID\], 'entità'\[Nome\], 'Contabilità generali'\[Valuta\], 'Contabilità generali'\[Descrizione\], 'Contabilità generali'\[Nome\]), 'Calendari fiscali'\[Data\] &lt;= MAX('Calendari fiscali'\[Data\])))                                                                                                                                                                                           |
 | Quantità saldo finale                 | CALCULATE(SUM(\[Quantità\]), FILTER(ALLEXCEPT('Calendari fiscali', 'Calendari fiscali'\[LedgerRecId\], 'entità'\[ID\], 'entità'\[Nome\], 'Contabilità generali'\[Valuta\], 'Contabilità generali'\[Descrizione\], 'Contabilità generali'\[Nome\]), 'Calendari fiscali'\[Data\] &lt;= MAX('Calendari fiscali'\[Data\])))                                                                                                                                                                                         |
 | Saldo iniziale inventario             | CALCULATE(\[Saldo iniziale\], 'Voci rendiconto'\[Tipo rendiconto\] = "Inventario")                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -136,13 +134,6 @@ Le dimensioni chiave seguenti vengono utilizzate come filtri per dividere le mis
 | Contabilità generali          | Valuta, Nome, Descrizione                  |
 | Siti            | ID, Nome, Paese, Città                      |
 
-## <a name="additional-resources"></a>Risorse aggiuntive
-Di seguito sono riportati alcuni collegamenti utili correlati alle entità e alla creazione di contenuto per Power BI:
-
--   [Entità di dati](..\data-entities\data-entities.md)
--   [Creazione di pacchetti di contenuti per l'organizzazione](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modellazione di dati tramite Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Aggiunta di riquadri Power BI ad aree di lavoro](configure-power-bi-integration.md)
 
 
 

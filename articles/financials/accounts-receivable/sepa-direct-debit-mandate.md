@@ -3,11 +3,12 @@ title: Impostazione del mandato di addebito diretto SEPA
 description: "Un addebito diretto SEPA (Single Euro Payment Area) consente al creditore di prelevare denaro dal conto corrente bancario del cliente, purché il cliente abbia concesso un mandato firmato al creditore."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

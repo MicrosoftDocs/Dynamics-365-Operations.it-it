@@ -3,11 +3,12 @@ title: Contenuto Power BI per prestazioni di magazzino
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di magazzino. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: Mirzaab
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,13 +16,13 @@ ms.custom: 272953
 ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.region: Global
 ms.author: mirzaab
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: e5a900000286b5f076c377f7b1a9a260cc40621a
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +77,6 @@ Il contenuto di Power BI **Prestazioni di magazzino** include un report. Il repo
 | Prestazioni di spedizione        | Spedizioni per prodotto                       | Percentuale delle righe di spedizione che vengono spedite in anticipo, puntualmente o in ritardo per articolo o gruppo di articoli.                                                                                                                                                                                                                                                                                                                                   |
 | Prestazioni di spedizione        | Spedizioni per cliente                      | Percentuale delle righe di spedizione che vengono spedite in anticipo, puntualmente o in ritardo per cliente o gruppo di clienti.                                                                                                                                                                                                                                                                                                                           |
 | Prestazioni di spedizione        | Spedizioni per sito/magazzino              | Percentuale delle righe di spedizione che vengono spedite in anticipo, puntualmente o in ritardo per sito o magazzino.                                                                                                                                                                                                                                                                                                                                    |
-## <a name="extending-the-power-bi-content"></a>Estensione del contenuto Power BI
-Utilizzando i pacchetti di contenuti disponibili in Microsoft Dynamics Lifecycle Services (LCS), è possibile fornire eccezionali analisi alle persone che non accedono a Microsoft Dynamics 365. È possibile modificare i pacchetti di contenuti affinché siano inclusi altri report o rappresentazioni e quindi pubblicate i pacchetti contenuti nel tenant Power BI.com per l'analisi. 
-
-Puoi trovare il contenuto Power BI **Prestazioni di magazzino** nella raccolta delle risorse condivise in LCS. Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Assicurarsi di scaricare il contenuto **Prestazioni di magazzino** applicabile alla versione di Dynamics 365 in uso.
-
-> [!NOTE]
-> Se si utilizza Microsoft Dynamics 365 for Operations versione 1611, KB 4011327 è un prerequisito per questo contenuto di Power BI. Dopo avere eseguito l'accesso a LCS, è possibile accedere alla KB qui: : https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Informazioni su modelli di dati e calcoli
 I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Prestazioni di magazzino**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). 

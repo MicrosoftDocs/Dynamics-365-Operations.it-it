@@ -3,11 +3,12 @@ title: Conti di contropartita predefiniti per i giornali di registrazione fattur
 description: Le informazioni contenute in questo argomento consentono di decidere se assegnare i conti predefiniti per i giornali di registrazione fatture.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

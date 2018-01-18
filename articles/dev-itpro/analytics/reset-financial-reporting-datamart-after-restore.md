@@ -3,7 +3,7 @@ title: Reimpostare il data mart dei report finanziari
 description: Questo argomento descrive come reimpostare il data mart dei report finanziari.
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: it-it
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ In questo argomento viene descritto come reimpostare il data mart dei report fin
 - Creazione di report finanziari di Microsoft Dynamics 365 for Finance and Operations versione 7.0.10000.4 e successiva
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (locale)
 
-Per ottenere Creazione di report finanziari di Finance and Operations versione 7.2.6.0, è possibile scaricare KB 4052514 da <https://support.microsoft.com/it-it/help/4052514>.
+Per ottenere Creazione di report finanziari di Finance and Operations versione 7.2.6.0, è possibile scaricare KB 4052514 da <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>Reimpostare il data mart di report finanziari per Creazione report finanziari di Finance and Operations versione 7.2.6.0 e successiva
 
@@ -55,7 +55,7 @@ La reimpostazione del data mart deve essere eseguita solo nei periodi in cui la 
 
 Per reimpostare il data mart, in Progettazione report, nel menu **Strumenti** selezionare **Reimposta data mart**. La finestra di dialogo che viene visualizzata contiene due sezioni: **Statistiche** e **Reimpostazione**.
 
-[![Reimpostare la finestra di dialogo Data mart](./media/Statistics.png)](./media/Statistics.png)
+[![Reimpostare la finestra di dialogo Data mart](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Tentativi di integrazione
 
@@ -83,8 +83,10 @@ Se si determina che è necessario reimpostare il data mart, selezionare la casel
 - **Ripristina database** - Il database di Finance and Operations è stato ripristinato, ma non è stato ripristinato il database data mart.
 - **Altro** - Si reimposta il data mart per un altro motivo. Se si teme che vi sia un problema, contattare il Supporto per identificarlo.
 
+[![Reimposta data mart](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Verificare che tutte le attività esistenti hanno finito l'integrazione prima completare i passaggi. È possibile visualizzare lo stato dell'integrazione selezionando **Strumenti** &gt;. **Stato integrazione**.
+> Verificare che tutte le attività di reimpostazione data mart abbiano completato un caricamento iniziale prima di iniziare una reimpostazione. È possibile verificare questo cercando un valore nella colonna Ultimo runtime selezionando **Strumenti** &gt;. **Stato integrazione**
 
 #### <a name="clear-users-and-companies"></a>Cancella utenti e società
 
@@ -94,7 +96,10 @@ Quando si è pronti per avviare il processo di reimpostazione, selezionare **OK*
 
 Se si desidera esaminare lo stato dell'integrazione, selezionare **Strumenti** &gt; **Stato integrazione** per vedere l'ultima volta che è stata eseguita l'integrazione e lo stato.
 
-[![Visualizzare lo stato dell'integrazione](./media/Integration.png)](./media/Integration.png)
+[![Visualizzare lo stato dell'integrazione](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> La reimpostazione è finita quando tutti i mapping mostrano che lo stato di RanToCompletion e della finestra dello stato di integrazione è "Integrazione completata" nell'angolo in basso a sinistra.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>Reimpostare il data mart di report finanziari per Creazione report finanziari di Finance and Operations versione 7.0.10000.4 e successiva
 
@@ -142,7 +147,9 @@ I seguenti servizi di Microsoft Windows hanno connessioni aperte al database di 
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Scaricare il pacchetto MinorVersionDataUpgrade.zip più recente
 
-Scaricare il pacchetto MinorVersionDataUpgrade.zip più recente. Per istruzioni su come trovare e scaricare la versione corretta del pacchetto di aggiornamento dei dati, vedere [Scaricare il pacchetto distribuibile di aggiornamento dei dati più recente](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Non è necessario eseguire un aggiornamento per scaricare il pacchetto MinorVersionDataUpgrade.zip. Di conseguenza, è sufficiente seguire i passaggi descritti nella sezione "Scaricare il pacchetto distribuibile di aggiornamento dei dati più recente" di questo argomento. È possibile ignorare tutti gli altri passaggi descritti nell'argomento.
+Scaricare il pacchetto MinorVersionDataUpgrade.zip più recente. Per istruzioni su come trovare e scaricare la versione corretta del pacchetto di aggiornamento dei dati, vedere [Scaricare il pacchetto distribuibile di aggiornamento dei dati più recente](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+Non è necessario eseguire un aggiornamento per scaricare il pacchetto MinorVersionDataUpgrade.zip. Di conseguenza, è sufficiente seguire i passaggi descritti nella sezione "Scaricare il pacchetto distribuibile di aggiornamento dei dati più recente" di questo argomento. È possibile ignorare tutti gli altri passaggi descritti nell'argomento.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Eseguire gli script sul database di Finance and Operations
 

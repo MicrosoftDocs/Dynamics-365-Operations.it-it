@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations. Core
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 536ebae3ec44954aba314a966c9b0d2dabef45d1
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 694a8bfd4601b48a80872662fa7a16bf15d6e65c
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -61,13 +62,6 @@ Il contenuto di Power BI **CustCollectionsBICrossCompany** include un report cos
 | Lettere di sollecito         | <ul><li>Importi codice riscossioni</li><li>Dettagli importi codice riscossioni</li><li>Importo lettera di sollecito per società</li><li>Importo lettera di sollecito per gruppo di clienti</li><li>Importo lettera di sollecito per stato/regione</li></ul> |
 
 I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). È inoltre possibile utilizzare la funzionalità di esportazione dati sottostanti per esportare i dati sottostanti riepilogati in una visualizzazione.
-
-## <a name="extending-the-power-bi-content"></a>Estensione del contenuto Power BI
-Utilizzando i pacchetti di contenuti disponibili in Microsoft Dynamics Lifecycle Services (LCS), è possibile fornire eccezionali analisi alle persone che non accedono a Finance and Operations. È possibile modificare i pacchetti di contenuti affinché siano inclusi altri report o rappresentazioni e quindi pubblicate i pacchetti contenuti nel tenant Power BI.com per l'analisi.
-
-Puoi trovare il contenuto Power BI **Gestione crediti e riscossioni** nella raccolta delle risorse condivise in LCS. Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md). Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Assicurarsi di scaricare il contenuto di Power BI **Gestione crediti e riscossioni** applicabile alla versione di Finance and Operations in uso.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 

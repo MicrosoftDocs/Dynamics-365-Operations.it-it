@@ -3,11 +3,12 @@ title: Area di lavoro di convalida dei dati
 description: "L'area di lavoro Elenco di controllo di convalida dati consente di tenere traccia dei processi di convalida dei dati tra società, aree e persone. L'elenco di controllo può essere utilizzato durante una nuova implementazione, dopo un aggiornamento o dopo una migrazione."
 author: bking
 manager: AnnBe
-ms.date: 05/11/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

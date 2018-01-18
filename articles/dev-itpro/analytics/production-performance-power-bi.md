@@ -3,7 +3,7 @@ title: "Contenuto Power BI per prestazioni di produttività"
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di produttività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ Nella seguente tabella viene fornita una panoramica delle visualizzazioni inclus
 | Tendenza difetti per risorsa                  | Percentuale articoli difettosi (ppm) per quantità lavorata | |
 | Scostamenti produzione per determinazione costi per commessa | <ul><li>Scostamento di produzione per data e tipo di gruppo di costo</li><li>Scostamento di produzione per sito e tipo di gruppo di costo</li><li>Primi 10 prodotti con scostamento di produzione sfavorevole</li><li>Primi 10 scostamenti di produzione sfavorevole per risorsa</li></ul> | <ul><li>Costo realizzato</li><li>Scostamento produzione</li><li>% scostamento di produzione</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Estensione del contenuto Power BI
-Utilizzando i pacchetti di contenuti disponibili in Microsoft Dynamics Lifecycle Services (LCS), è possibile fornire eccezionali analisi alle persone che non accedono a Microsoft Dynamics 365. È possibile modificare i pacchetti di contenuti affinché siano inclusi altri report o rappresentazioni e quindi pubblicate i pacchetti contenuti nel tenant Power BI.com per l'analisi.
-
-Puoi trovare il contenuto Power BI **Prestazioni di produttività** nella raccolta delle risorse condivise in LCS. Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](power-bi-content-microsoft-partners.md). Per guardare una demo che mostra come implementare il contenuto di Power BI, vedere [Contenuto di Power BI da Microsoft e partner in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Assicurarsi di scaricare il contenuto **Prestazioni di produttività** applicabile alla versione di Dynamics 365 in uso.
-
-> [!NOTE]
-> Se si utilizza Microsoft Dynamics 365 for Operations versione 1611, KB 4011327 è un prerequisito per questo contenuto di Power BI. Dopo avere eseguito l'accesso a LCS, è possibile accedere alla KB qui: : https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
@@ -139,12 +130,5 @@ La tabella seguente mostra le dimensioni chiave utilizzate come filtri per divid
 | Risorse                 | ID risorsa, nome della risorsa, tipo di risorsa e gruppo di risorse |
 | Prodotti                  | Numero prodotto, nome prodotto, ID articolo e gruppo di articoli         |
 
-## <a name="additional-resources"></a>Risorse aggiuntive
 
-Di seguito sono riportati alcuni collegamenti utili correlati alle entità e alla creazione di contenuto per Power BI:
-
-- [Entità di dati](../data-entities/data-entities.md)
-- [Creazione di pacchetti di contenuti per l'organizzazione](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Modellazione di dati tramite Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Aggiunta di riquadri Power BI ad aree di lavoro](configure-power-bi-integration.md)
 
