@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ Per questo esempio, FRSI deve essere un cliente nella persona giuridica USSI e U
 
 1.  Impostare FRSI come cliente nella persona giuridica USSI e impostare USSI come fornitore nella persona giuridica FRSI. Esistono tre punti di ingresso per i passaggi necessari per questa attività.
     | Graduale | Punto di ingresso                                                                       | descrizione   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A    | in USSI, Fare clic su **Contabilità clienti** &gt; **Clienti** &gt; **Tutti i clienti**. | Creare un nuovo record cliente per FRSI e selezionare il gruppo di clienti.                                                                                                                                                                                                                           |
-    | B    | In FRSI, fare clic su **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**.        | Creare un nuovo record fornitore per USSI e selezionare il gruppo di fornitori.                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | A    | in USSI, Fare clic su **Contabilità clienti** &gt; **Clienti** &gt; **Tutti i clienti**. | Creare un nuovo record cliente per FRSI e selezionare il gruppo di clienti.                                                                                  |
+    | B    | In FRSI, fare clic su **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**.        | Creare un nuovo record fornitore per USSI e selezionare il gruppo di fornitori.                                                                                    |
     | C    | In FRSI, aprire il record fornitore appena creato.                            | Nel riquadro azioni, scheda **Generale**, gruppo **Impostazione**, fare clic su **Interaziendale**. Nella pagina **Interaziendale**, scheda **Relazione commerciale**, impostare il dispositivo di scorrimento **Attivo** su **Sì**. Nel campo **Società cliente** selezionare il record cliente creato nel passaggio A. |
 
 2.  Fare clic su **Gestione progetti e contabilità** &gt; **Impostazioni** &gt; **Parametri Gestione progetti e contabilità** e quindi sulla scheda **Interaziendale**. La modalità di impostazione dei parametri varia a seconda che si è la persona giuridica richiedente o la persona giuridica concessionaria.
