@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 7547ff6dcea546100a11f20e8e8f7f7fcab82cee
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: d369b760047a18c82dd89f3452d94b9c62ba8841
 ms.contentlocale: it-it
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -34,8 +34,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="161c6-104">Questo argomento illustra le opzioni per l'impostazione dell'accesso esteso per POS cloud e Retail Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="161c6-104">This topic covers your options for setting up extended logon for Cloud POS and Retail Modern POS (MPOS).</span></span>
 
-<a name="setting-up-extended-logon"></a><span data-ttu-id="161c6-105">Impostazione dell'accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-105">Setting up extended logon</span></span>
-=========================
+## <a name="setting-up-extended-logon"></a><span data-ttu-id="161c6-105">Impostazione dell'accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-105">Setting up extended logon</span></span>
 
 <span data-ttu-id="161c6-106">Le impostazioni per le maschere dei codici a barre sono disponibili in **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili funzionalità**.</span><span class="sxs-lookup"><span data-stu-id="161c6-106">You can find the setup for bar code masks at **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Functionality profiles**.</span></span> <span data-ttu-id="161c6-107">La scheda Dettaglio **Funzioni** include le seguenti opzioni correlate all'accesso esteso.</span><span class="sxs-lookup"><span data-stu-id="161c6-107">The **Functions** FastTab includes the following options that are related to extended logon.</span></span>
 
@@ -55,23 +54,19 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="161c6-116">Se l'opzione **L'accesso personale con badge richiede la password** è attivata, l'accesso personale con badge seleziona solo il lavoratore assegnato all'accesso esteso che viene presentato.</span><span class="sxs-lookup"><span data-stu-id="161c6-116">When the **Staff card logon requires password** option is enabled, the staff card logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="161c6-117">I lavoratori devono comunque immettere la propria password se questa opzione è abilitata.</span><span class="sxs-lookup"><span data-stu-id="161c6-117">Workers must still enter their password when this option is enabled.</span></span>
 
-<a name="assigning-an-extended-logon"></a><span data-ttu-id="161c6-118">Assegnazione di un accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-118">Assigning an extended logon</span></span>
-===========================
+## <a name="assigning-an-extended-logon"></a><span data-ttu-id="161c6-118">Assegnazione di un accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-118">Assigning an extended logon</span></span>
 
 <span data-ttu-id="161c6-119">Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori.</span><span class="sxs-lookup"><span data-stu-id="161c6-119">By default, only managers can assign extended logon to workers.</span></span> <span data-ttu-id="161c6-120">Per assegnare l'accesso esteso, passare a **Accesso esteso** nel POS.</span><span class="sxs-lookup"><span data-stu-id="161c6-120">To assign extended logon, go to **Extended log on** in POS.</span></span> <span data-ttu-id="161c6-121">Quindi cercare un lavoratore immettendo il relativo ID operatore nel campo di ricerca.</span><span class="sxs-lookup"><span data-stu-id="161c6-121">Then search for a worker by entering his or her operator ID in the search field.</span></span> <span data-ttu-id="161c6-122">Selezionare il lavoratore e quindi fare clic su **Assegna**.</span><span class="sxs-lookup"><span data-stu-id="161c6-122">Select the worker, and then click **Assign**.</span></span> <span data-ttu-id="161c6-123">Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore.</span><span class="sxs-lookup"><span data-stu-id="161c6-123">On the next page, swipe or scan the extended logon to assign to the worker.</span></span> <span data-ttu-id="161c6-124">Se il passaggio o la scansione ha esito positivo, il pulsante **OK** diventa disponibile.</span><span class="sxs-lookup"><span data-stu-id="161c6-124">If the swipe or scan is successfully read, the **OK** button becomes available.</span></span> <span data-ttu-id="161c6-125">Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.</span><span class="sxs-lookup"><span data-stu-id="161c6-125">Click **OK** to save the extended logon for that worker.</span></span>
 
-<a name="deleting-an-extended-logon"></a><span data-ttu-id="161c6-126">Eliminazione di un accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-126">Deleting an extended logon</span></span>
-==========================
+## <a name="deleting-an-extended-logon"></a><span data-ttu-id="161c6-126">Eliminazione di un accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-126">Deleting an extended logon</span></span>
 
 <span data-ttu-id="161c6-127">Per eliminare l'accesso esteso assegnato a un lavoratore, individuare il lavoratore utilizzando l'operazione **Accesso esteso**.</span><span class="sxs-lookup"><span data-stu-id="161c6-127">To delete the extended logon that is assigned to a worker, search for the worker by using the **Extended log on** operation.</span></span> <span data-ttu-id="161c6-128">Selezionare il lavoratore e fare clic sulla scheda **Annulla assegnazione**.</span><span class="sxs-lookup"><span data-stu-id="161c6-128">Select the worker, and then click **Unassign**.</span></span> <span data-ttu-id="161c6-129">Tutte le credenziali di accesso esteso associate al lavoratore verranno rimosse.</span><span class="sxs-lookup"><span data-stu-id="161c6-129">All extended logon credentials that are associated with that worker are removed.</span></span>
 
-<a name="extending-extended-logon"></a><span data-ttu-id="161c6-130">Estensione dell'accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-130">Extending extended logon</span></span>
-========================
+## <a name="extending-extended-logon"></a><span data-ttu-id="161c6-130">Estensione dell'accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-130">Extending extended logon</span></span>
 
 <span data-ttu-id="161c6-131">Il servizio di accesso può essere esteso per supportare dispositivi di accesso estesi aggiuntivi, ad esempio scanner palmari.</span><span class="sxs-lookup"><span data-stu-id="161c6-131">The logon service can be extended to support additional extended logon devices, such as palm scanners.</span></span> <span data-ttu-id="161c6-132">Per ulteriori informazioni, vedere la documentazione di POS sull'estendibilità.</span><span class="sxs-lookup"><span data-stu-id="161c6-132">For more information, see the POS extensibility documentation.</span></span>
 
-<a name="using-extended-logon"></a><span data-ttu-id="161c6-133">Utilizzo dell'accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-133">Using extended logon</span></span>
-====================
+## <a name="using-extended-logon"></a><span data-ttu-id="161c6-133">Utilizzo dell'accesso esteso</span><span class="sxs-lookup"><span data-stu-id="161c6-133">Using extended logon</span></span>
 
 <span data-ttu-id="161c6-134">Se l'accesso esteso è configurato e un lavoratore è stato assegnato a un codice a barre o una banda magnetica, il lavoratore dovrà semplicemente passare o eseguire la scansione della scheda durante la visualizzazione della pagina di accesso del POS.</span><span class="sxs-lookup"><span data-stu-id="161c6-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="161c6-135">Se è necessaria anche una password prima che l'accesso possa continuare, al lavoratore viene richiesto di immettere la relativa password.</span><span class="sxs-lookup"><span data-stu-id="161c6-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
 

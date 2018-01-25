@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
 ms.contentlocale: it-it
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="7928b-105">Questo argomento descrive il contenuto Microsoft Power BI **Effettivi rispetto al budget**.</span><span class="sxs-lookup"><span data-stu-id="7928b-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="7928b-106">Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.</span><span class="sxs-lookup"><span data-stu-id="7928b-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a><span data-ttu-id="7928b-107">Panoramica</span><span class="sxs-lookup"><span data-stu-id="7928b-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="7928b-107">Panoramica</span><span class="sxs-lookup"><span data-stu-id="7928b-107">Overview</span></span>
 
 <span data-ttu-id="7928b-108">Il contenuto di Power BI **Effettivi rispetto al budget** è stato creato per i singoli responsabili per il monitoraggio delle prestazioni degli effettivi rispetto al budget nella loro organizzazione.</span><span class="sxs-lookup"><span data-stu-id="7928b-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="7928b-109">Il contenuto di Power BI **Effettivi rispetto al budget** fornisce visibilità negli scostamenti di budget.</span><span class="sxs-lookup"><span data-stu-id="7928b-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="7928b-110">È possibile analizzare il budget per l'anno corrente in base a categoria di conti, codice budget, conto principale, descrizioni del conto principale o periodo fiscale per ottenere una migliore comprensione della causa di tutti gli scostamenti.</span><span class="sxs-lookup"><span data-stu-id="7928b-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="7928b-111">Accesso al contenuto Power BI</span><span class="sxs-lookup"><span data-stu-id="7928b-111">Accessing the Power BI content</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="7928b-111">Accesso al contenuto Power BI</span><span class="sxs-lookup"><span data-stu-id="7928b-111">Accessing the Power BI content</span></span>
 <span data-ttu-id="7928b-112">I report dal contenuto di Power BI **Effettivo rispetto al budget** vengono visualizzati nelle aree di lavoro **Budget contabili e previsioni** e **Responsabile finanziario**.</span><span class="sxs-lookup"><span data-stu-id="7928b-112">Reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="7928b-113">Report inclusi nel contenuto Power BI</span><span class="sxs-lookup"><span data-stu-id="7928b-113">Reports that are included in the Power BI content</span></span>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="7928b-113">Report inclusi nel contenuto Power BI</span><span class="sxs-lookup"><span data-stu-id="7928b-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="7928b-114">Nella seguente tabella sono descritti i dettagli sulle metriche disponibili in ogni pagina del report nel contenuto di Power BI **Effettivi rispetto al budget**.</span><span class="sxs-lookup"><span data-stu-id="7928b-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
 | <span data-ttu-id="7928b-115">Report</span><span class="sxs-lookup"><span data-stu-id="7928b-115">Report</span></span>                      | <span data-ttu-id="7928b-116">Metriche</span><span class="sxs-lookup"><span data-stu-id="7928b-116">Metrics</span></span> |
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="7928b-129">Reddito netto</span><span class="sxs-lookup"><span data-stu-id="7928b-129">Net income</span></span>                  | <ul><li><span data-ttu-id="7928b-130">Reddito netto anno in corso</span><span class="sxs-lookup"><span data-stu-id="7928b-130">Net income this year</span></span></li><li><span data-ttu-id="7928b-131">Obiettivo per reddito netto in base al budget</span><span class="sxs-lookup"><span data-stu-id="7928b-131">Goal for net income based on budget</span></span> </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="7928b-132">Informazioni su modelli ed entità di dati</span><span class="sxs-lookup"><span data-stu-id="7928b-132">Understanding the data model and entities</span></span>
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="7928b-132">Informazioni su modelli ed entità di dati</span><span class="sxs-lookup"><span data-stu-id="7928b-132">Understanding the data model and entities</span></span>
 
 | <span data-ttu-id="7928b-133">Entità</span><span class="sxs-lookup"><span data-stu-id="7928b-133">Entity</span></span>                    | <span data-ttu-id="7928b-134">Contenuto</span><span class="sxs-lookup"><span data-stu-id="7928b-134">Contents</span></span> |
 |---------------------------|----------|

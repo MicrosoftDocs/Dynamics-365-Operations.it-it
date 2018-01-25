@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 68ae9bad8c15f06689c4660ccad27eff5d01c93c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -137,7 +137,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="7d5de-192">È possibile rettificare le differenze nel valore conteggiato e quindi accettare il valore conteggiato nella pagina **Conteggio ciclo con revisione in sospeso**.</span><span class="sxs-lookup"><span data-stu-id="7d5de-192">You can adjust differences in the counted value and then accept the counted value on the **Cycle count pending review** page.</span></span> <span data-ttu-id="7d5de-193">È possibile verificare il conteggio modificato della quantità dell'articolo nella pagina **Disponibili per ubicazione**.</span><span class="sxs-lookup"><span data-stu-id="7d5de-193">You can verify the modified count of the item quantity on the **On hand by location** page.</span></span> <span data-ttu-id="7d5de-194">Il valore conteggiato viene rifiutato se la differenza non può essere approvata.</span><span class="sxs-lookup"><span data-stu-id="7d5de-194">The counted value is rejected if the difference can't be approved.</span></span>
 
-# <a name="see-also"></a><span data-ttu-id="7d5de-195">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="7d5de-195">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7d5de-195">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="7d5de-195">See also</span></span>
 [<span data-ttu-id="7d5de-196">Configurare i dispositivi mobili per il lavoro di magazzino</span><span class="sxs-lookup"><span data-stu-id="7d5de-196">Configure mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
 
 
