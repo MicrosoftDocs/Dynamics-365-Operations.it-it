@@ -43,7 +43,7 @@ ms.lasthandoff: 11/03/2017
 
 [![Processo aziendale](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>IVA
+## <a name="sales-tax"></a>IVA
 Ogni società riscuote imposte e versa gli importi corrispondenti a vari uffici tributari. Le norme e le aliquote variano a seconda del paese, dello stato/regione, della provincia e della città.
 Le regole devono inoltre essere aggiornate periodicamente ogni volta che vengono modificati i requisiti dagli uffici tributari. I codici IVA includono le informazioni di base sugli importi da riscuotere e da versare. Quando si impostano i codici IVA, vengono definiti gli importi o le percentuali da riscuotere. È inoltre necessario definire i vari metodi tramite cui tali importi o percentuali vengono applicati agli importi delle transazioni. Negli argomenti inclusi in questa sezione sono riportate informazioni sull'impostazione dei codici IVA in base alle aliquote e ai metodi richiesti dagli uffici tributari locali.
 
@@ -52,13 +52,13 @@ Le regole devono inoltre essere aggiornate periodicamente ogni volta che vengono
  - [Pagamenti IVA e regole di arrotondamento](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Risorse aggiuntive
+## <a name="additional-resources"></a>Risorse aggiuntive
 
-#### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
+### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
 Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle che sono in via di sviluppo. 
 
-#### <a name="blogs"></a>Blog
+### <a name="blogs"></a>Blog
 
 Per opinioni, notizie e altre informazioni sulla contabilità fornitori e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
@@ -66,10 +66,10 @@ Sono disponibili numerosi post sulla contabilità generale nel [blog del team di
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 
-#### <a name="task-guides"></a>Guide attività
+### <a name="task-guides"></a>Guide attività
 Informazioni aggiuntive sono disponibili come guide attività in Finance and Operations. Per accedere alle guide attività, fare clic sul pulsante ? in qualsiasi pagina.
 
-#### <a name="videos"></a>Video
+### <a name="videos"></a>Video
 
 Controllare i video illustrativi disponibili nel [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Questa funzionalità è supportata in Dynamics 365 for Finance and Operations (versione 7.2 e successiva).
 
-# <a name="introduction"></a>Introduzione
+## <a name="introduction"></a>Introduzione
 In questo argomento viene illustrato come importare un report di Microsoft Power BI nella scheda **Analisi** di un'area di lavoro. Per l'esempio fornito qui, verrà estesa l'area di lavoro **Gestione prenotazione** nell'applicazione di gestione flotta per includere un'area di lavoro di analisi in una scheda **Analisi**.
 
-# <a name="prerequisites"></a>Prerequisiti
+## <a name="prerequisites"></a>Prerequisiti
 + Accedere a un ambiente di sviluppo in cui è in esecuzione l'aggiornamento 8 della piattaforma o una versione successiva.
 + Un report analitico (file .pbix) creato utilizzando Microsoft Power BI Desktop e con un modello dati che ha origine dal database dell'archivio dell'entità.
 
-# <a name="overview"></a>Panoramica
+## <a name="overview"></a>Panoramica
 Se si estende un'area di lavoro dell'applicazione esistente o si introduce una nuova area di lavoro propria, è possibile utilizzare le visualizzazioni analitiche importate per offrire visualizzazioni perspicaci e interattive dei dati aziendali. Il processo per l'aggiunta di una scheda analitica dell'area di lavoro è costituito da quattro passaggi.
 
 1. Aggiungere un file .pbix come risorsa Dynamics 365.
@@ -48,7 +48,7 @@ Se si estende un'area di lavoro dell'applicazione esistente o si introduce una n
 > [!NOTE]
 > Per ulteriori informazioni su come creare report analitici, vedere [Introduzione a Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Questa pagina offre notevoli approfondimenti che consentono di creare soluzioni efficaci per la creazione di report analitici.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Aggiungere un file .pbix come risorsa
+## <a name="add-a-pbix-file-as-a-resource"></a>Aggiungere un file .pbix come risorsa
 Prima di iniziare è necessario creare o visualizzare il report di Power BI che verrà importato nell'area di lavoro. Per ulteriori informazioni su come creare report analitici, vedere [Introduzione a Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Seguire questi passaggi per aggiungere un file .pbix come elemento del progetto di Visual Studio.
@@ -66,7 +66,7 @@ Seguire questi passaggi per aggiungere un file .pbix come elemento del progetto 
   
 Dopo aver aggiunto un file .pbix come risorsa Dynamics 365, è possibile importare i report nelle aree di lavoro e aggiungere collegamenti diretti utilizzando le voci di menu.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Aggiungere un controllo della scheda a un'area di lavoro dell'applicazione
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Aggiungere un controllo della scheda a un'area di lavoro dell'applicazione
 In questo esempio verrà estesa l'area di lavoro **Gestione prenotazione** del modello di gestione flotta aggiungendo la scheda **Analisi** alla definizione del modulo **FMClerkWorkspace**.
  
 Nella figura che segue viene mostrato l'aspetto del modulo **FMClerkWorkspace** nello strumento di progettazione in Microsoft Visual Studio.
@@ -105,7 +105,7 @@ Dopo aver aggiunto i controlli del modulo che verranno utilizzati per includere 
  
 L'attività di estensione della definizione di modulo dell'applicazione è stata completata. Per ulteriori informazioni sull'utilizzo delle estensioni per apportare le personalizzazioni, vedere [Personalizzazione: overlayering ed estensioni](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Aggiungere la regola business X++ per importare un controllo del visualizzatore
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Aggiungere la regola business X++ per importare un controllo del visualizzatore
 Seguire questi passaggi per aggiungere la regola business che inizializza il controllo del visualizzatore di report incluso nell'area di lavoro **Gestione prenotazione**.
 
 1. Aprire lo strumento di progettazione del modulo **FMClerkWorkspace** per estendere la definizione di progettazione.
@@ -151,12 +151,12 @@ L'attività di aggiunta della regola business per inizializzare il controllo del
 > [!NOTE]
 > È possibile accedere alla visualizzazione operativa esistente utilizzando le schede dell'area di lavoro sotto il titolo della pagina.
 
-# <a name="reference"></a>Riferimento
+## <a name="reference"></a>Riferimento
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>Metodo PBIReportHelper.initializeReportControl
+### <a name="pbireporthelperinitializereportcontrol-method"></a>Metodo PBIReportHelper.initializeReportControl
 In questa sezione vengono fornite informazioni sulla classe degli helper utilizzata per importare un report di Power BI (risorsa .pbix) in un controllo del gruppo di moduli.
 
-### <a name="syntax"></a>Sintassi
+#### <a name="syntax"></a>Sintassi
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Parametri
+#### <a name="parameters"></a>Parametri
 
 | Nome | descrizione |
 |---|---|

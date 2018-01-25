@@ -112,7 +112,7 @@ Quando si apre un blocco predefinito, gli utenti possono accedere al blocco pred
 3.  Selezionare un blocco predefinito e quindi fare clic su **Annulla estrazione**.
 4.  Fare clic su **Sì** per archiviare il blocco predefinito.
 
-# <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Creazione di report finanziari](financial-reporting-intro.md)
 

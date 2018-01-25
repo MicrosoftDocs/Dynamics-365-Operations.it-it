@@ -137,7 +137,7 @@ Una differenza di conteggio ciclo si verifica negli scenari seguenti se l'opzion
 
 È possibile rettificare le differenze nel valore conteggiato e quindi accettare il valore conteggiato nella pagina **Conteggio ciclo con revisione in sospeso**. È possibile verificare il conteggio modificato della quantità dell'articolo nella pagina **Disponibili per ubicazione**. Il valore conteggiato viene rifiutato se la differenza non può essere approvata.
 
-# <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Configurare i dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md)
 
 

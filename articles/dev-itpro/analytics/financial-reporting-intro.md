@@ -98,7 +98,7 @@ I seguenti componenti dei report finanziari rendono facile creare, visualizzare 
 </tbody>
 </table>
 
-#<a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Generare un report finanziario](generate-financial-report.md)
 
 

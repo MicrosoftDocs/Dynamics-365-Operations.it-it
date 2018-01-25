@@ -31,14 +31,14 @@ ms.lasthandoff: 12/18/2017
 
 Questo argomento descrive il contenuto Microsoft Power BI **Effettivi rispetto al budget**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto. 
 
-# <a name="overview"></a>Panoramica
+## <a name="overview"></a>Panoramica
 
 Il contenuto di Power BI **Effettivi rispetto al budget** è stato creato per i singoli responsabili per il monitoraggio delle prestazioni degli effettivi rispetto al budget nella loro organizzazione. Il contenuto di Power BI **Effettivi rispetto al budget** fornisce visibilità negli scostamenti di budget. È possibile analizzare il budget per l'anno corrente in base a categoria di conti, codice budget, conto principale, descrizioni del conto principale o periodo fiscale per ottenere una migliore comprensione della causa di tutti gli scostamenti. 
 
-# <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
+## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 I report dal contenuto di Power BI **Effettivo rispetto al budget** vengono visualizzati nelle aree di lavoro **Budget contabili e previsioni** e **Responsabile finanziario**.
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
 Nella seguente tabella sono descritti i dettagli sulle metriche disponibili in ogni pagina del report nel contenuto di Power BI **Effettivi rispetto al budget**.
 
 | Report                      | Metriche |
@@ -50,7 +50,7 @@ Nella seguente tabella sono descritti i dettagli sulle metriche disponibili in o
 | Reddito netto                  | <ul><li>Reddito netto anno in corso</li><li>Obiettivo per reddito netto in base al budget </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
+## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
 | Entità                    | Contenuto |
 |---------------------------|----------|
