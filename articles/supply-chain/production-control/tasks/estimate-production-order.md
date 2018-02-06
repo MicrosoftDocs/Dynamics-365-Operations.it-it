@@ -1,4 +1,4 @@
---- 
+---
 title: Stimare un ordine di produzione
 description: "È possibile eseguire questa procedura utilizzando la società di dati dimostrativi USMF oppure il proprio set di dati."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 1. Nel riquadro azioni, fare clic su Gestisci costi.
 2. Fare clic su Visualizza dettagli calcolo.
     * Questa pagina visualizza la scomposizione dei costi. Ad esempio, è possibile visualizzare il prezzo di costo totale per unità per il prodotto finito nella prima riga. Le righe successive contengono i costi in base alla distinta base, al ciclo di lavorazione produzione e ai costi indiretti.  
-
 

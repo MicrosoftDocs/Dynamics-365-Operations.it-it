@@ -1,4 +1,4 @@
---- 
+---
 title: Programmare un ordine di produzione
 description: Questa procedura indica come programmare un ordine di produzione.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ Questa procedura indica come programmare un ordine di produzione. La società di
     * Nella pagina Carico di capacità è visualizzata la capacità prenotata tramite la programmazione processi, il numero totale di ore attualmente prenotato per la risorsa e il numero di ore rimanenti e disponibili per la programmazione processi della risorsa.  
 6. Chiudere la pagina.
 7. Chiudere la pagina.
-
 

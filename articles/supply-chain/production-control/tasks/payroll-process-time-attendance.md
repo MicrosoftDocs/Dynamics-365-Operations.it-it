@@ -1,4 +1,4 @@
---- 
+---
 title: Attivare il processo di retribuzione per orario e presenze
 description: In questa procedura viene illustrato come abilitare il processo di retribuzione per orario e presenze.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ In questa procedura viene illustrato come abilitare il processo di retribuzione 
 6. Espandere la sezione Registrazione ore.
 7. Fare clic su Modifica.
 8. Nel campo Accordo salariale immettere o selezionare un valore.
-
 
