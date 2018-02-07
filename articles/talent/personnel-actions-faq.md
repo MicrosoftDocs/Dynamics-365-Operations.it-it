@@ -1,7 +1,7 @@
 ---
 title: Azioni dipendente [Domande frequenti]
 description: "In questo argomento vi sono risposte alle domande che potrebbe essere poste se l'organizzazione utilizza le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale."
-author: shielas
+author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

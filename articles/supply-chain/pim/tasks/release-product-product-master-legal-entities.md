@@ -1,7 +1,7 @@
 --- 
 title: Rilasciare un prodotto o una rappresentazione generale prodotto a persone giuridiche
 description: "In questa procedura vengono descritti i passaggi per rilasciare un prodotto o una rappresentazione generale prodotto in una o più persone giuridiche."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

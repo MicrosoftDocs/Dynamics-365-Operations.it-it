@@ -1,7 +1,7 @@
 ---
 title: Unisci batch di magazzino
 description: "In questo articolo vengono fornite informazioni sul consolidamento di due o più batch di magazzino in un batch unito."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

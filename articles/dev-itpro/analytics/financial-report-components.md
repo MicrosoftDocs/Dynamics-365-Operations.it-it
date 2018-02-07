@@ -1,7 +1,7 @@
 ---
 title: Componenti del report finanziario
 description: In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari. Tali blocchi predefiniti includono le definizioni di riga, di colonna e di albero gerarchico. L'articolo spiega come organizzare e bloccare i blocchi predefiniti e come utilizzare i gruppi di blocchi predefiniti.
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article

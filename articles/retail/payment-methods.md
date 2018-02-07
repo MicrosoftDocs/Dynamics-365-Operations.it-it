@@ -1,7 +1,7 @@
 ---
 title: Metodi di pagamento
 description: Ogni tipo di pagamento accettato dal rivenditore deve essere configurato quando si imposta il sistema. Questo articolo descrive i tipi di pagamento impostati e il processo per impostarli.
-author: MargoC
+author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
