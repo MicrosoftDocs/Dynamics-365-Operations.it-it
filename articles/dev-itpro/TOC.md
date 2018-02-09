@@ -114,6 +114,7 @@
 #### [Personalizzazione: overlayering ed estensioni](extensibility/customization-overlayering-extensions.md)
 ### Novità
 #### [Modifiche all'estendibilità (luglio 2017)](extensibility/changes-july-2017.md)
+#### [Modifiche all'estendibilità di Dynamics 365 for Finance and Operations, Enterprise edition 7.3](extensibility/extensibility-changes-73.md)
 ### Elementi fondamentali
 #### [Personalizzazioni avanzate](extensibility/intrusive-customizations.md)
 #### [Estensioni di classi](extensibility/class-extensions.md)
@@ -138,14 +139,19 @@
 #### [Modificare le proprietà di controllo del modulo](extensibility/modify-control-properties.md)
 #### [Modificare un'etichetta](extensibility/change-label.md)
 #### [Estendere l'ambito della sequenza numerica](extensibility/extend-number-sequence-scope.md)
+#### [Aggiungere una nuova dimensione inventariale](extensibility/inventory-dimensions.md)
+#### [Modifiche all'estendibilità di prezzi e sconti](extensibility/pricing-app73.md)
+#### [Estendibilità della mappa della tabella](extensibility/map-extensions.md)
+#### [Prorogare le mappe della tabella utilizzate come interfacce](extensibility/maps-as-interfaces.md)
+#### [Prorogare le mappe della tabella utilizzate per il controllo delle versioni](extensibility/maps-with-versioning.md)
 
 
 
 
 ## Prestazioni
-### [Effettuare una tracciatura con il parser di traccia](perf-test/trace-trace-tutorial.md)
+### [Effettuare una tracciatura con Trace parser](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK e test ambiente multiutente con Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
-### [Diagnosticare e analizzare i problemi relativi alle prestazioni con il parser di traccia](perf-test/trace-parser.md)
+### [Diagnosticare e analizzare i problemi relativi alle prestazioni con Trace parser](perf-test/trace-parser.md)
 ### [Timer delle prestazioni](perf-test/performance-timer.md)
 ## Supporto per il test in Visual Studio
 ### [Test e convalide](perf-test/testing-validation.md)
@@ -523,16 +529,16 @@
 
 # [Aggiornamento e migrazione](migration-upgrade/upgrade-home-page.md)
 ## [Effettuare l'aggiornamento da AX 2012 a Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [Analisi: utilizzare lo strumento Analisi aggiornamenti per pianificare l'aggiornamento](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analisi: utilizzare il servizio di aggiornamento codice per effettuare una stima dell'impegno di aggiornamento del codice](migration-upgrade/analyze-code-upgrade.md)
-### [Analisi: distribuire un ambiente sandbox](migration-upgrade/analysis-sandbox.md)
-### [Aggiornamento: aggiornare i dati in un ambiente di sviluppo](migration-upgrade/data-upgrade-2012.md)
-### [Aggiornamento: attività di aggiornamento dei dati di AX 2012](migration-upgrade/prepare-data-upgrade.md)
-### [Aggiornamento: aggiornare i dati in un ambiente sandbox](migration-upgrade/upgrade-data-sandbox.md)
-### [Convalida: test di passaggio](migration-upgrade/upgrade-cutover-testing.md)
-### [Convalida: attività da eseguire dopo l'aggiornamento](migration-upgrade/app-validation-process.md)
-### [Convalida: test funzionale](migration-upgrade/upgrade-functional-validation.md)
-### [Convalida: preparazione per il passaggio alla fase operativa](migration-upgrade/upgrade-go-live-prep.md)
+### [Aggiornamento AX 2012: utilizzare lo strumento Analisi aggiornamenti per pianificare](migration-upgrade/upgrade-analyzer-tool.md)
+### [Aggiornamento AX 2012: utilizzare il servizio di aggiornamento codice per effettuare una stima](migration-upgrade/analyze-code-upgrade.md)
+### [Aggiornamento AX 2012: distribuire un ambiente sandbox](migration-upgrade/analysis-sandbox.md)
+### [Aggiornamento AX 2012: aggiornare i dati in un ambiente di sviluppo](migration-upgrade/data-upgrade-2012.md)
+### [Aggiornamento AX 2012: attività di aggiornamento dei dati di AX 2012](migration-upgrade/prepare-data-upgrade.md)
+### [Aggiornamento AX 2012: aggiornare i dati in un ambiente sandbox](migration-upgrade/upgrade-data-sandbox.md)
+### [Aggiornamento AX 2012: test di Cutover](migration-upgrade/upgrade-cutover-testing.md)
+### [Aggiornamento AX 2012: completare attività dopo l'aggiornamento](migration-upgrade/app-validation-process.md)
+### [Aggiornamento AX 2012: passaggio di test funzionale](migration-upgrade/upgrade-functional-validation.md)
+### [Aggiornamento AX 2012: preparare per trasmettere in diretta](migration-upgrade/upgrade-go-live-prep.md)
 
 
 ### Modifiche che influiscono sull'aggiornamento da AX 2012
@@ -590,6 +596,8 @@
 ## [Elaborazione batch](sysadmin/batch-processing-overview.md)
 ### [Panoramica server batch](sysadmin/batch-server-overview.md)
 ### [Creare un processo batch](sysadmin/tasks/create-batch-job.md)
+
+## [Creare regole per il consulente dell'ottimizzazione](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Panoramica di Lifecycle Services](lifecycle-services/lcs.md)
