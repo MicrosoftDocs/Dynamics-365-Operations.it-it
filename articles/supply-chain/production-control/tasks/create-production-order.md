@@ -1,4 +1,4 @@
---- 
+---
 title: Creare un ordine di produzione
 description: Questa procedura indica come creare un ordine di produzione.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ Questa procedura indica come creare un ordine di produzione. La società di dati
     * La modifica del tempo di elaborazione influisce sul consumo del ciclo di lavorazione stimato e sul costo dell'ordine di produzione.  
 6. Fare clic su Salva.
 7. Chiudere la pagina.
-
 

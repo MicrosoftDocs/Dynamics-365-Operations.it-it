@@ -1,4 +1,4 @@
---- 
+---
 title: Preparare un processo kanban quando sono disponibili materiali per la cella di lavoro
 description: "Questa attività riguarda la preparazione di un processo kanban di lavorazione quando tutti i materiali sono disponibili per la cella di lavoro."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ Questa attività riguarda la preparazione di un processo kanban di lavorazione q
     * Se più processi vengono selezionati, la distinta di prelievo indicherà somma di tutti gli articoli necessari per i processi selezionati.  
 6. Fare clic su Prepara.
     * Il processo di preparazione è ora completato. La casella di controllo selezionata per tutte le righe della distinta di prelievo indica che lo stato della fornitura è Prelevato.  
-
 

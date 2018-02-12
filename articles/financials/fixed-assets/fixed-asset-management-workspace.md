@@ -1,7 +1,7 @@
 ---
 title: Area di lavoro gestione cespiti
 description: Vengono fornite le informazioni sull'area di lavoro gestione cespiti. Questa area di lavoro visualizza le informazioni relative ai cespiti immessi nel sistema. Include una visualizzazione di riepilogo e una visualizzazione di analisi.
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,7 +14,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT

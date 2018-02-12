@@ -1,4 +1,4 @@
---- 
+---
 title: Rilasciare un ordine di produzione
 description: Questa procedura indica come rilasciare un ordine di produzione.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ Questa procedura indica come rilasciare un ordine di produzione. La società di 
 5. Fare clic sulla casella di controllo Stampa scheda ciclo di lav.
 6. Fare clic su OK.
 7. Chiudere la pagina.
-
 

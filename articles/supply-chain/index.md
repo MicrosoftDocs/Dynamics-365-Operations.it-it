@@ -3,7 +3,7 @@ title: Home page di Gestione della supply chain
 description: "In questo argomento viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,9 +52,12 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 
 ## <a name="videos"></a>Video
 
-### <a name="get-started"></a>Per iniziare  
+Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dicembre 2017).
 
-Questi brevi video consentono di iniziare a utilizzare le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (aggiornamento di luglio 2017).
+-  [Prosepct di liquidazione integrazione](https://youtu.be/AVV9x5x-XCg) 
+-  [Consulente dell'ottimizzazione](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (luglio 2017).
 
 -  [Introduzione alla contabilità industriale](https://youtu.be/1pUDtJQZ8FU)
 -  [Area di lavoro mobile di controllo costi](https://youtu.be/imsuTg8rUVk)
@@ -62,8 +65,7 @@ Questi brevi video consentono di iniziare a utilizzare le nuove funzionalità di
 -  [Approvare gli ordini fornitore su un dispositivo mobile](https://youtu.be/gZ-gOlJe7H8)
 -  [Programmazione visiva con il diagramma di Gantt per ordini batch e di produzione](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>Registrazioni di conferenze sulla tecnologia
-La maggior parte delle registrazioni si riferisce alla funzionalità del prodotto della versione precedente di Finance and Operations, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente. 
+Le registrazioni tecniche si riferisce alla funzionalità del prodotto della versione precedente di Finance and Operations, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">Configurazione prodotto in Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Pianificazione generale - Suggerimenti e trucchi per risolvere problemi in modo efficiente</a>

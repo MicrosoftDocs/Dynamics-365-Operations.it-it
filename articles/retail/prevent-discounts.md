@@ -1,7 +1,7 @@
 ---
 title: Impedire sconti per prodotti al dettaglio
 description: Esistono vari motivi per cui i rivenditori intendono non applicare sconti ad alcuni prodotti durante una promozione o la vendita al POS.
-author: jeffbl
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

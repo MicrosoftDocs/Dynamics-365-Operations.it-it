@@ -1,4 +1,4 @@
---- 
+---
 title: Avviare un ordine di produzione
 description: Questa procedura mostra come avviare un ordine di produzione in Controllo shop floor.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ Questa procedura mostra come avviare un ordine di produzione in Controllo shop f
 7. Fare clic su Registra.
 8. Fare clic su OK.
     * Nel giornale di registrazione schede cicli di lavorazione, il tempo trascorso sulle singole operazioni viene registrato. È possibile dichiarare anche la quantità idonea e quella difettosa.  
-
 

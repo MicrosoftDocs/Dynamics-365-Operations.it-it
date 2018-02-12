@@ -69,4 +69,3 @@ Questa procedura consente di assegnare i ruoli corretti all'account utente di un
 6. Nel campo Unità di produzione, è possibile impostare il filtro predefinito per il lavoratore. In tal modo si assicura che solo i processi di produzione per l'unità di produzione selezionata vengano visualizzati quando il lavoratore accede al dispositivo.
 7. Chiudere la pagina.
 
-

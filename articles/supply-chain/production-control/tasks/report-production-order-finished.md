@@ -1,4 +1,4 @@
---- 
+---
 title: Dichiarazione di un ordine di produzione come finito
 description: Questa procedura indica come dichiarare un ordine di produzione come finito.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ Questa procedura indica come dichiarare un ordine di produzione come finito. La 
 3. Nell'elenco contrassegnare la riga selezionata.
 4. Nell'elenco fare clic sul collegamento nella riga selezionata.
     * Il giornale di registrazione dichiarazioni di finito è stato registrato. Se si desidera apportare rettifiche al giornale di registrazione, è possibile creare manualmente un nuovo giornale di registrazione in cui è possibile apportare modifiche.  
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: Chiudere un ordine di produzione
 description: Questa procedura indica come terminare un ordine di produzione.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ Questa procedura indica come terminare un ordine di produzione. La società di d
 1. Nel riquadro azioni, fare clic su Gestisci costi.
 2. Fare clic su Visualizza confronto costi.
     * Dopo aver terminato l'ordine di produzione, è possibile comparare il prezzo di costo stimato al prezzo di costo realizzato per ottenere una panoramica degli scostamenti di produzione.  
-
 

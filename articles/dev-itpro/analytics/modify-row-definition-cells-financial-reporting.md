@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 In questo articolo vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Specificare un codice di riga in una definizione riga
+## <a name="specify-a-row-code-in-a-row-definition"></a>Specificare un codice di riga in una definizione riga
 
 Nelle definizioni riga, i numeri o le etichette nella cella **Codice riga** identificano ogni riga nella definizione. È possibile specificare il codice di riga per fare riferimento ai dati nei calcoli e nella determinazione dei totali.
 
@@ -506,8 +506,7 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 4.  Selezionare il set da eliminare e fare clic su **Elimina**. Fare clic su **Sì** per eliminare definitivamente il set di valori di dimensione.
 
 
-<a name="see-also"></a>Vedere anche
---------
+## <a name="see-also"></a>Vedere anche
 
 [Creazione di report finanziari](financial-reporting-intro.md)
 

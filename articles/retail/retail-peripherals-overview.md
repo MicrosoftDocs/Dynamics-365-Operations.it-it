@@ -1,6 +1,7 @@
 ---
 title: Panoramica sulle periferiche di vendita al dettaglio
 description: In questo argomento vengono descritti i concetti correlati alle periferiche di vendita al dettaglio.
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article

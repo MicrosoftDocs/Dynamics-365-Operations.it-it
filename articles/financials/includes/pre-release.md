@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Questa funzionalità fa parte di una versione di destinazione ed è disponibile soltanto per gli utenti che hanno scelto nel programma continuo vantaggi l'opzione di aggiornamento (PCVA). Questa funzionalità verrà inclusa in un'altra versione generale imminente di disponibilità. Per ulteriori informazioni sullo standard e versioni destinate, vedere [Versioni standard e destinate alla piattaforma](../../fin-and-ops/get-started/public-preview-releases.md).

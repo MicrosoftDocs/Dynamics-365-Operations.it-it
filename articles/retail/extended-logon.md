@@ -34,8 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Questo argomento illustra le opzioni per l'impostazione dell'accesso esteso per POS cloud e Retail Modern POS (MPOS).
 
-<a name="setting-up-extended-logon"></a>Impostazione dell'accesso esteso
-=========================
+## <a name="setting-up-extended-logon"></a>Impostazione dell'accesso esteso
 
 Le impostazioni per le maschere dei codici a barre sono disponibili in **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili funzionalità**. La scheda Dettaglio **Funzioni** include le seguenti opzioni correlate all'accesso esteso.
 
@@ -55,23 +54,19 @@ Se l'opzione **Accesso personale con badge** è attivata, i lavoratori con acces
 
 Se l'opzione **L'accesso personale con badge richiede la password** è attivata, l'accesso personale con badge seleziona solo il lavoratore assegnato all'accesso esteso che viene presentato. I lavoratori devono comunque immettere la propria password se questa opzione è abilitata.
 
-<a name="assigning-an-extended-logon"></a>Assegnazione di un accesso esteso
-===========================
+## <a name="assigning-an-extended-logon"></a>Assegnazione di un accesso esteso
 
 Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per assegnare l'accesso esteso, passare a **Accesso esteso** nel POS. Quindi cercare un lavoratore immettendo il relativo ID operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK** diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
 
-<a name="deleting-an-extended-logon"></a>Eliminazione di un accesso esteso
-==========================
+## <a name="deleting-an-extended-logon"></a>Eliminazione di un accesso esteso
 
 Per eliminare l'accesso esteso assegnato a un lavoratore, individuare il lavoratore utilizzando l'operazione **Accesso esteso**. Selezionare il lavoratore e fare clic sulla scheda **Annulla assegnazione**. Tutte le credenziali di accesso esteso associate al lavoratore verranno rimosse.
 
-<a name="extending-extended-logon"></a>Estensione dell'accesso esteso
-========================
+## <a name="extending-extended-logon"></a>Estensione dell'accesso esteso
 
 Il servizio di accesso può essere esteso per supportare dispositivi di accesso estesi aggiuntivi, ad esempio scanner palmari. Per ulteriori informazioni, vedere la documentazione di POS sull'estendibilità.
 
-<a name="using-extended-logon"></a>Utilizzo dell'accesso esteso
-====================
+## <a name="using-extended-logon"></a>Utilizzo dell'accesso esteso
 
 Se l'accesso esteso è configurato e un lavoratore è stato assegnato a un codice a barre o una banda magnetica, il lavoratore dovrà semplicemente passare o eseguire la scansione della scheda durante la visualizzazione della pagina di accesso del POS. Se è necessaria anche una password prima che l'accesso possa continuare, al lavoratore viene richiesto di immettere la relativa password.
 

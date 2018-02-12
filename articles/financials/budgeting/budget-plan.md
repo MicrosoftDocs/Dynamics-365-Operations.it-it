@@ -53,10 +53,9 @@ Julia utilizza il seguente modello Excel per preparare il budget:
 
 [![Modello di Excel](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-<a name="exercise-1-configuration"></a>Esercizio 1: configurazione
-=========================
+## <a name="exercise-1-configuration"></a>Esercizio 1: configurazione
 
-## <a name="task-1-create-organizational-hierarchy"></a>**Attività 1: creare una gerarchia organizzativa**
+### <a name="task-1-create-organizational-hierarchy"></a>**Attività 1: creare una gerarchia organizzativa**
 Poiché tutto il processo di creazione del budget si verifica nel reparto finanziario, Julia deve creare una gerarchia organizzativa molto semplice costituita esclusivamente dal reparto finanziario. 1.1. Accedere alle gerarchie organizzative (Amministrazione organizzazione &gt; Organizzazioni &gt; Gerarchie organizzative) e fare clic sul pulsante Nuovo
 
 ![Gerarchia organizzativa](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ Poiché tutto il processo di creazione del budget si verifica nel reparto finanz
 
 [![Data di validità](./media/screenshot9.png)](./media/screenshot9.png)
 
-## <a name="task-2-configure-user-security"></a>Attività 2: configurare la sicurezza degli utenti
+### <a name="task-2-configure-user-security"></a>Attività 2: configurare la sicurezza degli utenti
 La pianificazione del budget utilizza criteri di sicurezza per configurare l'accesso ai dati dei piani di budget. Julia deve assegnare l'accesso ai piani di budget finanziari a se stessa. 
 
 2.1. Passare al contesto relativo alla persona giuridica DEMF. 
@@ -109,7 +108,7 @@ La pianificazione del budget utilizza criteri di sicurezza per configurare l'acc
 
 [![Concedi accesso](./media/screenshot14.png)](./media/screenshot14.png)
 
-## <a name="task-3-create-scenarios"></a>Attività 3: creare scenari
+### <a name="task-3-create-scenarios"></a>Attività 3: creare scenari
 3.1. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Configurazione di pianificazione del budget. Nella pagina Scenari, prendere nota degli scenari che verranno utilizzati in seguito in questo lab: Valori effettivi dell'anno precedente e In budget. 
 
 *Nota: se si desidera, è possibile creare nuovi scenari per questo esercizio e utilizzare quelli.* 
@@ -118,7 +117,7 @@ La pianificazione del budget utilizza criteri di sicurezza per configurare l'acc
 
 *Nota: poiché Julia non utilizza il processo di approvazione formale per la preparazione del budget, in questo lab ignoreremo l'impostazione dei flussi di lavoro, delle fasi e delle fasi del flusso di lavoro e utilizzeremo l'impostazione esistente per l'approvazione automatica del flusso di lavoro. Vedere l'appendice per questa configurazione del flusso di lavoro.*
 
-## <a name="task-4-create-budget-plan-columns"></a>Attività 4: creare le colonne del piano di budget
+### <a name="task-4-create-budget-plan-columns"></a>Attività 4: creare le colonne del piano di budget
 Le colonne del piano di budget sono colonne basate sulla liquidità o sulla quantità che possono essere utilizzate nel layout del documento del piano di budget. Nel nostro esempio dobbiamo creare una colonna per Valori effettivi dell'anno precedente e 12 colonne per rappresentare ogni mese dell'anno di riferimento del budget. Le colonne possono essere create semplicemente facendo clic sul pulsante Aggiungi e inserendo i valori o con una guida relativa all'Entità di dati. In questo lab utilizzeremo Entità di dati per inserire i valori. 
 
 4.1. Aprire la pagina Colonne in Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Configurazione di pianificazione del budget. Fare clic sul pulsante Office nell'angolo superiore destro del modulo e selezionare Colonne (filtro non applicato) 
@@ -151,7 +150,7 @@ Le colonne del piano di budget sono colonne basate sulla liquidità o sulla quan
 
 [![Aggiornamento](./media/screenshot23.png)](./media/screenshot23.png)
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Attività 5: creare modelli e layout del documento del piano di budget
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Attività 5: creare modelli e layout del documento del piano di budget
 Il layout determina l'aspetto della griglia delle righe del documento del piano di budget quando l'utente apre il suddetto documento. È inoltre possibile passare al layout per il documento del piano di budget per visualizzare gli stessi dati in angolazioni diverse. Quindi, dopo aver creato le colonne definite da utilizzare con il documento del piano di budget, Julia deve creare un layout del documento del piano di budget, il cui aspetto sarà simile alla tabella Excel che utilizza per creare i dati di budget (vedere la sezione Panoramica dello scenario di questo lab) 
 
 5.1. Aprire la pagina Layout in Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Configurazione di pianificazione del budget. Creare un nuovo layout per la voce Budget mensile:
@@ -171,7 +170,7 @@ In base alla definizione del layout del piano di budget, è possibile creare un 
 
 5.3. &lt; Passaggio facoltativo&gt; Modificare il modello Excel per renderlo più facile e intuitivo: aggiungere formule totali, campi di intestazione, formattazione e così via. Salvare le modifiche e caricare il file nel piano di budget facendo clic su Layout &gt; Carica [![Carica](./media/screenshot26.png)](./media/screenshot26.png)
 
-## <a name="task-6-create-a-budget-planning-process"></a>Attività 6: creare un processo di pianificazione del budget
+### <a name="task-6-create-a-budget-planning-process"></a>Attività 6: creare un processo di pianificazione del budget
 Julia deve creare e attivare un nuovo processo di pianificazione del budget che combina tutte le impostazioni illustrate in precedenza per iniziare a immettere i piani di budget. Il processo di pianificazione del budget definisce quali organizzazioni di impostazione del budget, flussi di lavoro, layout e modelli verranno utilizzati per la creazione dei piani di budget. 
 
 6.1. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Processo di pianificazione del budget e creare un nuovo record.
@@ -192,10 +191,9 @@ Julia deve creare e attivare un nuovo processo di pianificazione del budget che 
 
 [![Attiva](./media/screenshot28.png)](./media/screenshot28.png)
 
-<a name="exercise-2-process-simulation"></a>Esercizio 2: simulazione del processo
-==============================
+## <a name="exercise-2-process-simulation"></a>Esercizio 2: simulazione del processo
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Attività 7: generare i dati iniziali per il piano di budget da Contabilità generale
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Attività 7: generare i dati iniziali per il piano di budget da Contabilità generale
 7.1. Accedere a Budget &gt; Periodico &gt; Genera piano di budget da contabilità generale. Inserire i parametri del processo periodico e fare clic sul pulsante Genera. 
 
 [![Genera](./media/screenshot29.png)](./media/screenshot29.png) 
@@ -208,7 +206,7 @@ Julia deve creare e attivare un nuovo processo di pianificazione del budget che 
 
 [![Visualizzazione del piano di budget](./media/screenshot31.png)](./media/screenshot31.png)
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Attività 8: creare il budget dell'anno corrente in base ai valori effettivi dell'anno precedente
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Attività 8: creare il budget dell'anno corrente in base ai valori effettivi dell'anno precedente
 I metodi di allocazione possono essere utilizzati nel piano di budget per copiare facilmente le informazioni per i piani di budget da uno scenario all'altro, distribuirle su periodi, allocarle in dimensioni. Utilizzeremo le allocazioni per creare il budget dell'anno corrente dai valori effettivi dell'anno precedente. 
 
 8.1. Selezionare tutte le righe nella griglia del documento del piano di budget e fare clic sul pulsante Allocare budget 
@@ -223,7 +221,7 @@ Gli importi effettivi dell'anno precedente verranno copiati sul budget per l'ann
 
 [![Curva di vendita](./media/screenshot34.png)](./media/screenshot34.png)
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Attività 9: rettificare il documento del piano di budget utilizzando Excel e finalizzare il documento
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Attività 9: rettificare il documento del piano di budget utilizzando Excel e finalizzare il documento
 9.1. Fare clic sul pulsante della cartella di lavoro per aprire i contenuti del documento in Excel
 
 [![Excel](./media/screenshot35.png)](./media/screenshot35.png)
@@ -238,8 +236,7 @@ Gli importi effettivi dell'anno precedente verranno copiati sul budget per l'ann
 
 Una volta completato il flusso di lavoro, la fase del documento del piano di budget viene modificata in Approvata. [![Approvato](./media/screenshot38.png)](./media/screenshot38.png)
 
-<a name="appendix"></a>Appendice
-========
+## <a name="appendix"></a>Appendice
 
 ### <a name="auto-approve-workflow-configuration"></a>Configurazione dell'approvazione automatica del flusso di lavoro
 

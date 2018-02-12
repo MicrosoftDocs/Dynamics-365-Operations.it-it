@@ -36,8 +36,7 @@ In questo argomento viene descritto come definire e configurare i nomi e le prio
 
 **Nota:** questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. Finance and Operations - Magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità di campo dell'app Magazzino e viene descritto come utilizzarli in Finance and Operations - Magazzino. Per informazioni dettagliate su come configurare la connessione in Finance and Operations - Magazzino, fare riferimento all'esercitazione [Installare e configurare Finance and Operations - Magazzino](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Configurare i nomi di campo dell'app Magazzino
-===================================
+## <a name="configure-warehouse-app-field-names"></a>Configurare i nomi di campo dell'app Magazzino
 
 Quando si utilizza Finance and Operations - Magazzino sul dispositivo mobile, è possibile configurare la modalità con cui devono essere visualizzati i metadati sul dispositivo nella pagina **Nomi campo per app magazzino**. In una nuova società in Finance and Operations, selezionare **Crea impostazione predefinita** per generare tutti i nomi di campo che verranno utilizzati nei flussi di lavoro del dispositivo mobile di magazzino, quindi assegnare loro una modalità e un tipo di input preferiti. Dopo aver generato tutti i nomi di campo, è possibile selezionare le seguenti opzioni di input.
 
@@ -70,8 +69,7 @@ Quando si utilizza Finance and Operations - Magazzino sul dispositivo mobile, è
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Configurare la priorità di campo nell'app Magazzino
-======================================
+## <a name="configure-warehouse-app-field-priority"></a>Configurare la priorità di campo nell'app Magazzino
 
 Nella pagina **Priorità campo per app magazzino**, è possibile inserire i nomi di campo in gruppi di priorità diversi. Ciò consente di scegliere le informazioni da visualizzare nella pagina dell'attività principale quando i lavoratori di magazzino eseguono attività mediante l'app. Se si fa clic su **Crea impostazione predefinita**, verrà generato un set predefinito di gruppi di priorità. È possibile creare un numero illimitato di gruppi di priorità, se necessario, ma solo tre gruppi di priorità verranno visualizzati nella pagina dell'attività. Quando Finance and Operations invia i metadati all'app, a ogni campo verrà assegnata una priorità relativa a seconda del rispettivo gruppo di priorità e l'app visualizzerà i primi tre gruppi di priorità contenuti nei metadati nella pagina dell'attività. Il resto dei metadati aggiuntivi verranno visualizzati in una pagina dei dettagli secondaria. Nella tabella seguente viene illustrato un esempio di cinque gruppi di priorità.
 
