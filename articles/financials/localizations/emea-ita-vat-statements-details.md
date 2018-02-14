@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TaxYearlyCom_IT, TaxAuthority, TaxPeriod
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -32,12 +33,11 @@ ms.lasthandoff: 11/03/2017
 
 In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia. 
 
-<a name="set-up-customervendor-tax-information-for-tax-reports"></a>Impostare le informazioni fiscali di clienti/fornitori per report fiscali
-------------------------------------------------------
+## <a name="set-up-customervendor-tax-information-for-tax-reports"></a>Impostare le informazioni fiscali di clienti/fornitori per report fiscali
 
 Per generare il report IVA, il cliente e il fornitore devono essere configurati con le informazioni fiscali per l'Italia. Nella pagina **Clienti**, selezionare i campi nella seguente tabella.
 
-#### <a name="invoice-and-delivery"></a>Fattura e consegna
+### <a name="invoice-and-delivery"></a>Fattura e consegna
 
 | **Campo**             | **Descrizione**                                        |
 |-----------------------|--------------------------------------------------------|
@@ -47,7 +47,7 @@ Per generare il report IVA, il cliente e il fornitore devono essere configurati 
 
 Nella pagina **Fornitori**, selezionare i campi nella seguente tabella.
 
-#### <a name="invoice-and-delivery"></a>Fattura e consegna
+### <a name="invoice-and-delivery"></a>Fattura e consegna
 
 | **Campo**             | **Descrizione**                                      |
 |-----------------------|------------------------------------------------------|
@@ -58,7 +58,7 @@ Nella pagina **Fornitori**, selezionare i campi nella seguente tabella.
 ## <a name="set-up-a-company-fiscal-code-and-tax-registration-number"></a>Impostare codice fiscale e partita IVA della società
 Per generare report, il codice fiscale e la partita IVA della società devono essere impostati nella pagina **Persona giuridica**. Nella pagina **Persona giuridica**, selezionare i campi nella seguente tabella.
 
-#### <a name="registration-numbers"></a>Numeri di registrazione
+### <a name="registration-numbers"></a>Numeri di registrazione
 
 | **Campo**        | **Descrizione**                                                    |
 |------------------|--------------------------------------------------------------------|
@@ -66,13 +66,13 @@ Per generare report, il codice fiscale e la partita IVA della società devono es
 | **Natura giuridica** | Immettere la struttura legale della società.                          |
 | **CUC**          | Immettere il codice CUC.                                                |
 
-#### <a name="tax-registration"></a>Registrazione fiscale
+### <a name="tax-registration"></a>Registrazione fiscale
 
 | **Campo**               | **Descrizione**                                                 |
 |-------------------------|-----------------------------------------------------------------|
 | Partita IVA | Immettere la partita IVA per la persona giuridica in Italia |
 
-#### <a name="set-up-parameters-for-italian-sales-tax-book"></a>Impostare i parametri per il libro IVA italiano
+### <a name="set-up-parameters-for-italian-sales-tax-book"></a>Impostare i parametri per il libro IVA italiano
 
 Nella pagina **IVA**, creare i libri IVA da dichiarare al governo italiano dopo il periodo di liquidazione.
 
@@ -91,7 +91,7 @@ Nella pagina **IVA**, creare i libri IVA da dichiarare al governo italiano dopo 
 ## <a name="yearly-tax-communication-report"></a>Report di comunicazione annuale delle imposte
 Dopo la fine dell'anno, generare il report per ogni periodo di liquidazione. La trasmissione è obbligatoria in base a quanto richiesto dall'autorità fiscale italiana tramite un sito Web. Nella pagina **Comunicazione annuale imposte**, è possibile creare o visualizzare un report.
 
-#### <a name="overview"></a>Panoramica
+### <a name="overview"></a>Panoramica
 
 | **Campo**                | **Descrizione**                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Dopo la fine dell'anno, generare il report per ogni periodo di liquidazione. La 
 | **Codice ATECOFIN**        | Immettere il codice imposta associato alla classificazione di possibili attività della società. |
 | **Esportato**             | Indica che il file con estensione .ivc è esportato.                                                     |
 
-#### <a name="general"></a>Generale
+### <a name="general"></a>Generale
 
 | **Campo**                | **Descrizione**                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------|
@@ -129,9 +129,4 @@ Per la legislazione italiana, le regole si applicano ai periodi di liquidazione.
 |-----------------|---------------------------------------------------------------------------------------------------|
 | **Chiuso**      | Indica se il libro IVA italiano relativo al periodo è stato aggiornato e chiuso automaticamente. |
 | **Ultimo periodo** | Selezionare questa opzione se si tratta dell'ultimo periodo di un anno IVA.                          |
-
-
-
-
-
 
