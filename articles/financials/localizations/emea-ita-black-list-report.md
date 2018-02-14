@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BlackListTable_IT, IntrastatParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3c68b70f56e3cf59aa9d064a428849d8c2ff3c6f
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 1c6b63b807a6066166422a959905f84d00e5b6f0
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
 # <a name="italian-black-list-report"></a><span data-ttu-id="d5299-103">Report block list italiano</span><span class="sxs-lookup"><span data-stu-id="d5299-103">Italian black list report</span></span>
 
 [!include[banner](../includes/banner.md)]
-
 
 <span data-ttu-id="d5299-104">Informazioni su come impostare e gestire il report black list italiano.</span><span class="sxs-lookup"><span data-stu-id="d5299-104">Learn how to set up and maintain the Italian black list report.</span></span>
 
@@ -64,8 +64,4 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="d5299-136">Utilizzare **Trasferimento** per trasferire le transazioni delle fatture cliente e fornitore alla sezione **Transazioni** in base ai criteri che sono specificati nella sezione **Generale**.</span><span class="sxs-lookup"><span data-stu-id="d5299-136">Use **Transfer** to transfer the customer and vendor invoice transactions to the **Transactions** section based on the criteria that are specified in the **General** section.</span></span> <span data-ttu-id="d5299-137">Nel report vengono visualizzate solo le transazioni associate a un codice IVA.</span><span class="sxs-lookup"><span data-stu-id="d5299-137">Only transactions that are associated with a sales tax code are displayed on the report.</span></span> <span data-ttu-id="d5299-138">Verificare le transazioni e apportare eventuali modifiche, se necessario.</span><span class="sxs-lookup"><span data-stu-id="d5299-138">Verify the transactions and make changes, if required.</span></span>
 -   <span data-ttu-id="d5299-139">Utilizzare **Applica soglia** per escludere le fatture dal report **black list italiano** inferiori all'importo di soglia specificato nel campo **Importo soglia** nella sezione **Generale**.</span><span class="sxs-lookup"><span data-stu-id="d5299-139">Use **Apply threshold** to exclude invoices from the **Italian black list** report that are below the threshold amount that is specified in the **Threshold amount** field in the **General** section.</span></span>
 -   <span data-ttu-id="d5299-140">Utilizzare **Report** per generare ed esportare il report come file.</span><span class="sxs-lookup"><span data-stu-id="d5299-140">Use **Report** to generate and export the report as a file.</span></span>
-
-
-
-
 

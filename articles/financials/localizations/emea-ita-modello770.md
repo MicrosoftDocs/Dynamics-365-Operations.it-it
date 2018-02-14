@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: Taxreport770Table_IT
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 80137ac5e0ca0a9cde95b914bcabf2f7b3571342
-ms.openlocfilehash: df46e33f073a05b623f26b1af09c8b73bb80e17d
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 257dd7f989eb16c5d7380af8df3887bf0f4650f6
 ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 02/14/2018
 
 ---
 

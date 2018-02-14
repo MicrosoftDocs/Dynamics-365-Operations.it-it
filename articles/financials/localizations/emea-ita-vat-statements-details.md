@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TaxYearlyCom_IT, TaxAuthority, TaxPeriod
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 36a0127656d249cef1706448d6775d57429129c3
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 992986c02c78651b0b9965842770b5c73d901a41
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
@@ -32,12 +33,11 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="1a865-104">In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia.</span><span class="sxs-lookup"><span data-stu-id="1a865-104">This topic explains how to set up a VAT statement for legal entities in Italy.</span></span> 
 
-<a name="set-up-customervendor-tax-information-for-tax-reports"></a><span data-ttu-id="1a865-105">Impostare le informazioni fiscali di clienti/fornitori per report fiscali</span><span class="sxs-lookup"><span data-stu-id="1a865-105">Set up customer/vendor tax information for tax reports</span></span>
-------------------------------------------------------
+## <a name="set-up-customervendor-tax-information-for-tax-reports"></a><span data-ttu-id="1a865-105">Impostare le informazioni fiscali di clienti/fornitori per report fiscali</span><span class="sxs-lookup"><span data-stu-id="1a865-105">Set up customer/vendor tax information for tax reports</span></span>
 
 <span data-ttu-id="1a865-106">Per generare il report IVA, il cliente e il fornitore devono essere configurati con le informazioni fiscali per l'Italia.</span><span class="sxs-lookup"><span data-stu-id="1a865-106">To generate the sales tax report, the customer and vendor must be configured with the fiscal information for Italy.</span></span> <span data-ttu-id="1a865-107">Nella pagina **Clienti**, selezionare i campi nella seguente tabella.</span><span class="sxs-lookup"><span data-stu-id="1a865-107">On the **Customers** page, select the fields in the following table.</span></span>
 
-#### <a name="invoice-and-delivery"></a><span data-ttu-id="1a865-108">Fattura e consegna</span><span class="sxs-lookup"><span data-stu-id="1a865-108">Invoice and delivery</span></span>
+### <a name="invoice-and-delivery"></a><span data-ttu-id="1a865-108">Fattura e consegna</span><span class="sxs-lookup"><span data-stu-id="1a865-108">Invoice and delivery</span></span>
 
 | <span data-ttu-id="1a865-109">**Campo**</span><span class="sxs-lookup"><span data-stu-id="1a865-109">**Field**</span></span>             | <span data-ttu-id="1a865-110">**Descrizione**</span><span class="sxs-lookup"><span data-stu-id="1a865-110">**Description**</span></span>                                        |
 |-----------------------|--------------------------------------------------------|
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="1a865-117">Nella pagina **Fornitori**, selezionare i campi nella seguente tabella.</span><span class="sxs-lookup"><span data-stu-id="1a865-117">On the **Vendors** page, select the fields in the following table.</span></span>
 
-#### <a name="invoice-and-delivery"></a><span data-ttu-id="1a865-118">Fattura e consegna</span><span class="sxs-lookup"><span data-stu-id="1a865-118">Invoice and delivery</span></span>
+### <a name="invoice-and-delivery"></a><span data-ttu-id="1a865-118">Fattura e consegna</span><span class="sxs-lookup"><span data-stu-id="1a865-118">Invoice and delivery</span></span>
 
 | <span data-ttu-id="1a865-119">**Campo**</span><span class="sxs-lookup"><span data-stu-id="1a865-119">**Field**</span></span>             | <span data-ttu-id="1a865-120">**Descrizione**</span><span class="sxs-lookup"><span data-stu-id="1a865-120">**Description**</span></span>                                      |
 |-----------------------|------------------------------------------------------|
@@ -58,7 +58,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="set-up-a-company-fiscal-code-and-tax-registration-number"></a><span data-ttu-id="1a865-127">Impostare codice fiscale e partita IVA della società</span><span class="sxs-lookup"><span data-stu-id="1a865-127">Set up a company fiscal code and tax registration number</span></span>
 <span data-ttu-id="1a865-128">Per generare report, il codice fiscale e la partita IVA della società devono essere impostati nella pagina **Persona giuridica**.</span><span class="sxs-lookup"><span data-stu-id="1a865-128">To generate reports, the company fiscal code and registration number should be set up on the **Legal entity** page.</span></span> <span data-ttu-id="1a865-129">Nella pagina **Persona giuridica**, selezionare i campi nella seguente tabella.</span><span class="sxs-lookup"><span data-stu-id="1a865-129">On the **Legal entity** page, select the fields in the following table.</span></span>
 
-#### <a name="registration-numbers"></a><span data-ttu-id="1a865-130">Numeri di registrazione</span><span class="sxs-lookup"><span data-stu-id="1a865-130">Registration numbers</span></span>
+### <a name="registration-numbers"></a><span data-ttu-id="1a865-130">Numeri di registrazione</span><span class="sxs-lookup"><span data-stu-id="1a865-130">Registration numbers</span></span>
 
 | <span data-ttu-id="1a865-131">**Campo**</span><span class="sxs-lookup"><span data-stu-id="1a865-131">**Field**</span></span>        | <span data-ttu-id="1a865-132">**Descrizione**</span><span class="sxs-lookup"><span data-stu-id="1a865-132">**Description**</span></span>                                                    |
 |------------------|--------------------------------------------------------------------|
@@ -66,13 +66,13 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="1a865-135">**Natura giuridica**</span><span class="sxs-lookup"><span data-stu-id="1a865-135">**Legal Nature**</span></span> | <span data-ttu-id="1a865-136">Immettere la struttura legale della società.</span><span class="sxs-lookup"><span data-stu-id="1a865-136">Enter the legal structure of the company.</span></span>                          |
 | <span data-ttu-id="1a865-137">**CUC**</span><span class="sxs-lookup"><span data-stu-id="1a865-137">**CUC**</span></span>          | <span data-ttu-id="1a865-138">Immettere il codice CUC.</span><span class="sxs-lookup"><span data-stu-id="1a865-138">Enter the CUC code.</span></span>                                                |
 
-#### <a name="tax-registration"></a><span data-ttu-id="1a865-139">Registrazione fiscale</span><span class="sxs-lookup"><span data-stu-id="1a865-139">Tax registration</span></span>
+### <a name="tax-registration"></a><span data-ttu-id="1a865-139">Registrazione fiscale</span><span class="sxs-lookup"><span data-stu-id="1a865-139">Tax registration</span></span>
 
 | <span data-ttu-id="1a865-140">**Campo**</span><span class="sxs-lookup"><span data-stu-id="1a865-140">**Field**</span></span>               | <span data-ttu-id="1a865-141">**Descrizione**</span><span class="sxs-lookup"><span data-stu-id="1a865-141">**Description**</span></span>                                                 |
 |-------------------------|-----------------------------------------------------------------|
 | <span data-ttu-id="1a865-142">Partita IVA</span><span class="sxs-lookup"><span data-stu-id="1a865-142">Tax registration number</span></span> | <span data-ttu-id="1a865-143">Immettere la partita IVA per la persona giuridica in Italia</span><span class="sxs-lookup"><span data-stu-id="1a865-143">Enter the tax registration number for the legal entity in Italy</span></span> |
 
-#### <a name="set-up-parameters-for-italian-sales-tax-book"></a><span data-ttu-id="1a865-144">Impostare i parametri per il libro IVA italiano</span><span class="sxs-lookup"><span data-stu-id="1a865-144">Set up parameters for Italian sales tax book</span></span>
+### <a name="set-up-parameters-for-italian-sales-tax-book"></a><span data-ttu-id="1a865-144">Impostare i parametri per il libro IVA italiano</span><span class="sxs-lookup"><span data-stu-id="1a865-144">Set up parameters for Italian sales tax book</span></span>
 
 <span data-ttu-id="1a865-145">Nella pagina **IVA**, creare i libri IVA da dichiarare al governo italiano dopo il periodo di liquidazione.</span><span class="sxs-lookup"><span data-stu-id="1a865-145">On the **Sales tax** page, create sales tax books to be reported to the Italian government after the settlement period is past.</span></span>
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="yearly-tax-communication-report"></a><span data-ttu-id="1a865-168">Report di comunicazione annuale delle imposte</span><span class="sxs-lookup"><span data-stu-id="1a865-168">Yearly tax communication report</span></span>
 <span data-ttu-id="1a865-169">Dopo la fine dell'anno, generare il report per ogni periodo di liquidazione.</span><span class="sxs-lookup"><span data-stu-id="1a865-169">After the year end, generate the report for each settlement period.</span></span> <span data-ttu-id="1a865-170">La trasmissione è obbligatoria in base a quanto richiesto dall'autorità fiscale italiana tramite un sito Web.</span><span class="sxs-lookup"><span data-stu-id="1a865-170">The transmission is mandatory as required by the Italian fiscal authority via a website.</span></span> <span data-ttu-id="1a865-171">Nella pagina **Comunicazione annuale imposte**, è possibile creare o visualizzare un report.</span><span class="sxs-lookup"><span data-stu-id="1a865-171">On the **Yearly tax communication** page, it is possible to create or view a report.</span></span>
 
-#### <a name="overview"></a><span data-ttu-id="1a865-172">Panoramica</span><span class="sxs-lookup"><span data-stu-id="1a865-172">Overview</span></span>
+### <a name="overview"></a><span data-ttu-id="1a865-172">Panoramica</span><span class="sxs-lookup"><span data-stu-id="1a865-172">Overview</span></span>
 
 | <span data-ttu-id="1a865-173">**Campo**</span><span class="sxs-lookup"><span data-stu-id="1a865-173">**Field**</span></span>                | <span data-ttu-id="1a865-174">**Descrizione**</span><span class="sxs-lookup"><span data-stu-id="1a865-174">**Description**</span></span>                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="1a865-179">**Codice ATECOFIN**</span><span class="sxs-lookup"><span data-stu-id="1a865-179">**ATECOFIN Code**</span></span>        | <span data-ttu-id="1a865-180">Immettere il codice imposta associato alla classificazione di possibili attività della società.</span><span class="sxs-lookup"><span data-stu-id="1a865-180">Enter the tax code that is associated with the classification of possible company activities.</span></span> |
 | <span data-ttu-id="1a865-181">**Esportato**</span><span class="sxs-lookup"><span data-stu-id="1a865-181">**Exported**</span></span>             | <span data-ttu-id="1a865-182">Indica che il file con estensione .ivc è esportato.</span><span class="sxs-lookup"><span data-stu-id="1a865-182">Indicates that the .ivc file is exported.</span></span>                                                     |
 
-#### <a name="general"></a><span data-ttu-id="1a865-183">Generale</span><span class="sxs-lookup"><span data-stu-id="1a865-183">General</span></span>
+### <a name="general"></a><span data-ttu-id="1a865-183">Generale</span><span class="sxs-lookup"><span data-stu-id="1a865-183">General</span></span>
 
 | <span data-ttu-id="1a865-184">**Campo**</span><span class="sxs-lookup"><span data-stu-id="1a865-184">**Field**</span></span>                | <span data-ttu-id="1a865-185">**Descrizione**</span><span class="sxs-lookup"><span data-stu-id="1a865-185">**Description**</span></span>                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------|
@@ -129,9 +129,4 @@ ms.lasthandoff: 11/03/2017
 |-----------------|---------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="1a865-221">**Chiuso**</span><span class="sxs-lookup"><span data-stu-id="1a865-221">**Closed**</span></span>      | <span data-ttu-id="1a865-222">Indica se il libro IVA italiano relativo al periodo è stato aggiornato e chiuso automaticamente.</span><span class="sxs-lookup"><span data-stu-id="1a865-222">Indicates if the Italian sales tax book for the period has been updated and automatically closed.</span></span> |
 | <span data-ttu-id="1a865-223">**Ultimo periodo**</span><span class="sxs-lookup"><span data-stu-id="1a865-223">**Last period**</span></span> | <span data-ttu-id="1a865-224">Selezionare questa opzione se si tratta dell'ultimo periodo di un anno IVA.</span><span class="sxs-lookup"><span data-stu-id="1a865-224">Select this option if the period is the last period in a sales tax year.</span></span>                          |
-
-
-
-
-
 
