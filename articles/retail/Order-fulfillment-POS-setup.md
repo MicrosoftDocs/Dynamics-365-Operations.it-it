@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: it-it
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ A livello di punto vendita, un'impostazione di configurazione è disponibile per
 
 Per impostazione predefinita, righe di ordine assegnate a un punto vendita vengono come **Accettato**. Ciò significa che si presume che verranno evase dal POS assegnato e non saranno soggette a ulteriore assegnazione. In alcuni casi, i rivenditori potrebbero voler accettare manualmente gli ordini prima che possano essere soddisfatti. Ad esempio, se un punto vendita è a corto di personale e non è in grado di evadere gli ordini, un responsabile del punto vendita accetterà solo gli ordini per l'elaborazione che possono essere adeguatamente elaborati in un dato giorno. Fino a quando un ordine non viene accettato, può essere riassegnato dal back office a un altro negozio. In questo modo, l'accettazione dell'ordine fornisce anche un modo per indicare che un ordine è stato riconosciuto da un punto vendita e sarà soddisfatto. 
 
-Le righe ordine per il prelievo dai punti vendita vengono sempre contrassegnate come **In sospeso** e non sono soggette all'accettazione.
+Le righe ordine per il prelievo dai punti vendita vengono contrassegnate come **In sospeso** e non sono soggette all'accettazione.
 
-Per attivare l'accettazione manuale o le righe dell'ordine, passare **Retail** > **Canali** > **Punti vendita al dettaglio** > **Tutti i punti vendita al dettaglio**. Selezionare il punto vendita e scegliere l'ID del punto vendita per visualizzare i dettagli del punto vendita. Fare clic su **Modifica**. Nella scheda dettaglio **Generale**, individuare l'intestazione secondaria **Evasione ordine** e modificare **Accettazione manuale** da **No** a **Sì**. 
+Per attivare l'accettazione manuale per le righe dell'ordine, passare a **Retail** > **Canali** > **Punti vendita al dettaglio** > **Tutti i punti vendita al dettaglio**. Selezionare il punto vendita e scegliere l'ID del punto vendita per visualizzare i dettagli del punto vendita. Fare clic su **Modifica**. Nella scheda dettaglio **Generale**, individuare l'intestazione secondaria **Evasione ordine** e modificare **Accettazione manuale** da **No** a **Sì**. 
 
 ### <a name="enable-reject-order-line-capability"></a>Attivare la funzionalità di rifiuto della riga ordine
 
@@ -114,7 +117,7 @@ Per impostazione predefinita, gli ordini avranno stato **Accettato**. Lo stato d
 
 **Imballa** - L'opzione di imballaggio supporta due azioni: **Stampa documento di trasporto** consente di stampare un documento di trasporto per le righe selezionate e **Contrassegna come imballato** contrassegna le righe come imballate e contrassegna le righe come consegnate nel back office. Solo le righe ordine che appartengono allo stesso ordine e che hanno la stessa modalità di consegna possono essere imballate contemporaneamente. I formati della documento di trasporto vengono controllati come parte dei formati di entrata. Per ulteriori informazioni sulle modalità di configurazione dei formati di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing)
 
-**Spedisci** - L'azione di spedizione contrassegna le righe selezionate come **Consegnato** nel back office. Dopo che una la riga è stata spedita completamente, non verrà più visualizzata nell'evasione del punto vendita.
+**Spedisci** - L'azione di spedizione contrassegna le righe selezionate come **Consegnato** nel back office. Dopo che una la riga è stata spedita completamente, non verrà più visualizzata nell'evasione ordine.
 
 **Preleva** - L'azione di prelievo aggiungere le righe alla visualizzazione transazione per il prelievo. Se sono presenti altre righe dell'ordine che attualmente non vengono prelevate, verranno aggiunte alla visualizzazione transazione con quantità pari a zero. Dopo che una la riga è stata prelevata completamente, non verrà più visualizzata nell'evasione ordine. 
 

@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 211442c7bd0d3079a5eb4f6d01944c0eddf533af
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ Dopo aver creato un riferimento, è possibile creare una destinazione di file pe
 
 [![Creazione di una destinazione di file](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Nota:** È possibile creare una destinazione del file per ciascun componente di output dello stesso formato, ad esempio una cartella o un file selezionato nel campo **Nome campo**. È quindi possibile abilitare e disabilitare singole destinazioni per la destinazione di file nella finestra di dialogo **Impostazioni destinazione**. Il pulsante **Impostazioni** consente di controllare tutte le destinazioni per una destinazione di file selezionata. Nella finestra di dialogo **Impostazioni destinazione** è possibile controllare separatamente ogni destinazione impostando la relativa opzione **Abilitato**.
+> ![NOTA] È possibile creare una destinazione del file per ciascun componente di output dello stesso formato, ad esempio una cartella o un file selezionato nel campo **Nome campo**. È quindi possibile abilitare e disabilitare singole destinazioni per la destinazione di file nella finestra di dialogo **Impostazioni destinazione**. Il pulsante **Impostazioni** consente di controllare tutte le destinazioni per una destinazione di file selezionata. Nella finestra di dialogo **Impostazioni destinazione** è possibile controllare separatamente ogni destinazione impostando la relativa opzione **Abilitato**.
 
 [![Finestra di dialogo Impostazioni di destinazione](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -131,7 +131,7 @@ Vengono utilizzati due tipi di compiti e privilegi per le destinazioni ER. Un ti
 | PaymAccountsPayablePaymentsClerk    | Addetto pagamenti contabilità fornitori            | ERFormatDestinationRuntimeConfigure | Configura destinazione formato di report elettronici in fase di esecuzione |
 | PaymAccountsReceivablePaymentsClerk | Addetto pagamenti contabilità clienti         | ERFormatDestinationRuntimeConfigure | Configura destinazione formato di report elettronici in fase di esecuzione |
 
-**Nota:** vengono utilizzati due privilegi nei compiti precedenti. Questi privilegi hanno gli stessi nomi dei compiti corrispondenti: **ERFormatDestinationConfigure** e **ERFormatDestinationRuntimeConfigure**.
+> ![NOTA] Vengono utilizzati due privilegi nei compiti precedenti. Questi privilegi hanno gli stessi nomi dei compiti corrispondenti: **ERFormatDestinationConfigure** e **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Ho importato configurazioni elettroniche e le vedo nella pagina Configurazioni creazione di report elettronici. Perché non vengono visualizzate nella pagina Destinazione report elettronici?
@@ -154,7 +154,7 @@ La formula è specifica per la configurazione ER. Ad esempio, se si utilizza la 
 
 Il prerequisito è che il formato deve essere disponibile nelle configurazioni ER. Se si dispone del formato, aprire la pagina **Destinazione report elettronici** e creare un nuovo riferimento a questa configurazione. È quindi necessario avere quattro destinazioni file, una per ogni componente di output. Creare la prima destinazione file, assegnare un nome quale **Folder** e selezionare un nome di file che rappresenta una cartella nella configurazione. Quindi fare clic su **Impostazioni** e assicurarsi che tutte le destinazioni siano disabilitate. Per questa destinazione del file, non verrà creata la cartella. Per impostazione predefinita, a causa delle dipendenze gerarchiche tra i file e cartelle padre, i file si comporteranno nello stesso modo. In altre parole, non saranno inviati da nessuna parte. Per ignorare il comportamento predefinito, è necessario creare tre ulteriori destinazioni file, una per ogni file. Nelle impostazioni di destinazione per ciascuno, è necessario abilitare la destinazione a cui il file deve essere inviato.
 
-# <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica sui report elettronici](general-electronic-reporting.md)
 

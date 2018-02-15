@@ -1,9 +1,9 @@
 ---
 title: "Funzionalità di accessibilità"
-description: "In questo argomento vengono descritte le funzionalità che sono progettate per aiutare gli utenti con varie disabilità. Ad esempio, sono disponibili funzionalità per le persone che utilizzano assistive technology per la vista come Windows Narrator."
+description: "In questo argomento vengono descritte le funzionalità progettate a supporto degli utenti con disabilità nell'utilizzo di Dynamics 365 for Finance and Operations Enterprise Edition, Dynamics 365 for Retail e Dynamics 365 for Talent."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 11/16/2017
+ms.date: 01/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,16 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 158caf6c05515069b58121a72df1b7fe16bae236
-ms.openlocfilehash: bd71d2dee7ff7984f2088a64e9943b2541c88451
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 42b4f670dee95c073ce8dcca16afef83bbf78ff8
 ms.contentlocale: it-it
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
 # <a name="accessibility-features"></a>Funzionalità di accessibilità
 
-In questo argomento vengono descritte le funzionalità che sono progettate per aiutare gli utenti con varie disabilità. Ad esempio, sono disponibili funzionalità per le persone che utilizzano assistive technology per la vista come Microsoft Windows Narrator.
+In questo argomento vengono descritte le funzionalità progettate a supporto degli utenti con disabilità nell'utilizzo di Dynamics 365 for Finance and Operations Enterprise Edition, Dynamics 365 for Retail e Dynamics 365 for Talent. Ad esempio, sono disponibili funzionalità per le persone che utilizzano assistive technology per la vista come Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator e accesso solo tramite tastiera
 

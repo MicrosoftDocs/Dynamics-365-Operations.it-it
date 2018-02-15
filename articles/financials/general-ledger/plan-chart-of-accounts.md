@@ -3,14 +3,14 @@ title: Pianificare il piano dei conti
 description: Questo articolo fornisce le informazioni che consentono di pianificare il piano dei conti per l'organizzazione.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 038886f0a6e1c133a33ee34725eb20352e64341a
+ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
+ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
@@ -45,12 +45,12 @@ Di seguito vengono indicati alcuni fattori da prendere in considerazione quando 
 -   Gli adempimenti richiesti dalla persona giuridica
 -   Il grado di specifica richiesto, sia per le organizzazioni esterne che per la propria
 
-Creare i piani dei conti nella pagina **Piano dei conti**. I conti principali possono essere creati dalla pagina **Piano dei conti** o **Conti principali**. Nei conti principali non è possibile utilizzare caratteri speciali come delimitatori del piano dei conti. Se si dispone di un carattere speciale uguale al delimitatore del piano dei conti, è possibile che il sistema diventi instabile o che sia necessario utilizzare sempre le ricerche o il riquadro a comparsa quando si immettono combinazioni di conto e dimensione. Per ulteriori informazioni, vedere [Creare un conto principale](tasks/create-account-structures.md).
+Creare i piani dei conti nella pagina **Piano dei conti**. I conti principali possono essere creati dalla pagina **Piano dei conti** o **Conti principali**. Nei conti principali non è possibile utilizzare caratteri speciali come delimitatori del piano dei conti. Se si dispone di un carattere speciale uguale al delimitatore del piano dei conti, è possibile che il sistema diventi instabile o che sia necessario utilizzare sempre le ricerche o il riquadro a comparsa quando si immettono combinazioni di conto e dimensione. Per ulteriori informazioni, vedere [Creare un conto principale](tasks/create-main-account.md).
 
 
 È consigliabile collegare i conti principali alle categorie dei conti principali, in modo da poter sfruttare i report finanziari predefiniti senza dover apportare eventuali modifiche. Di conseguenza, è possibile progettare e gestire i report in modo più rapido e facile. 
 
-Utilizzare la pagina **Configura strutture dei conti** per creare strutture dei conti. Le strutture dei conti consentono di definire combinazioni valide. Le combinazioni, insieme ai conti principali, formano un piano dei conti.  Per ulteriori informazioni, vedere [Creare strutture dei conti](tasks/create-main-account.md).
+Utilizzare la pagina **Configura strutture dei conti** per creare strutture dei conti. Le strutture dei conti consentono di definire combinazioni valide. Le combinazioni, insieme ai conti principali, formano un piano dei conti.  Per ulteriori informazioni, vedere [Creare strutture dei conti](tasks/create-account-structures.md).
 
 **Sostituzioni persona giuridica** 
 

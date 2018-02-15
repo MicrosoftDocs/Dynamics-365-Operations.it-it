@@ -3,11 +3,12 @@ title: Integrazione della pianificazione del budget con altri moduli
 description: "I piani di budget possono essere generati tramite molteplici risorse differenti. Gli elementi di base del processo periodico sono uguali per tutte le risorse."
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -51,7 +52,7 @@ Gli elementi di base del processo periodico sono uguali per tutti i processi. Le
 
 Per ciascun processo di creazione, sono disponibili tre azioni:
 
--   **Crea un nuovo piano di budget** consente di creare un nuovo piano con gli attributi selezionati nella sezione **Destinazione**. Questi attributi non devono essere univoci. Di conseguenza, due piani possono avere lo stesso nome e altri valori uguali.
+-   **Crea un nuovo piano di budget**: consente di creare un nuovo piano con gli attributi selezionati nella sezione **Destinazione**. Questi attributi non devono essere univoci. Di conseguenza, due piani possono avere lo stesso nome e altri valori uguali.
 -   **Sostituisci lo scenario del piano di budget esistente**: consente di eliminare tutti i dati del piano di budget di destinazione nello scenario del piano di budget selezionato e creare nuove righe che utilizzano i dati di origine selezionati.
 -   **Aggiornare lo scenario del piano di budget esistente e aggiungere nuovi dati**: consente di aggiornare le righe esistenti del piano di destinazione che corrispondono alle righe di origine e aggiungere nuove righe per i nuovi dati. La corrispondenza si basa su conto CoGe, data, classe del budget e diversi altri campi. Ad esempio, quando si genera di piano di budget dalle posizioni previste, il numero di posizione è un campo importante. Tutte le righe con un numero di posizione che corrisponde al numero di posizione di origine vengono sostituite dalle nuove righe dall'origine.
 

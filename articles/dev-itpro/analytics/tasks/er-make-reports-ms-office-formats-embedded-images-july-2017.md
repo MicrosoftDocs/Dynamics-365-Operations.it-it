@@ -1,9 +1,9 @@
 --- 
-title: Creare i report nei formati Microsoft Office con immagini incorporate per la creazione di report elettronici (ER) (Parte 1)
-description: "I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore di report elettronici può progettare configurazioni ER per generare documenti elettronici in formato MS Office (Excel e Word) contenenti immagini incorporate."
+title: Progettare le configurazioni per generare i report nei formati Microsoft Office con immagini incorporate per la creazione di report elettronici (ER) (Parte 1)
+description: La procedura in questo argomento fornisce informazioni su come progettare le configurazioni ER per generare i documenti elettronici in formati Microsoft Office (Excel e Word) contenenti le immagini incorporate.
 author: NickSelin
 manager: AnnBe
-ms.date: 06/13/2017
+ms.date: 01/23/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,108 +16,79 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
+ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
+ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/23/2018
 
 ---
-# <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Creare i report nei formati Microsoft Office con immagini incorporate per la creazione di report elettronici (ER) (Parte 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Progettare le configurazioni per generare i report nei formati Microsoft Office con immagini incorporate per la creazione di report elettronici (ER) (Parte 1) 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore di report elettronici può progettare configurazioni ER per generare documenti elettronici in formato MS Office (Excel e Word) contenenti immagini incorporate.
+Per completare i passaggi in questa procedura, prima completare i passaggi della procedura "ER Creare un provider di configurazione e contrassegnarlo come attivo". In questa procedura viene illustrato come progettare le configurazioni ER per generare un documento di Microsoft Excel o Word contenente le immagini incorporate. In questa procedura, verranno create le configurazioni ER necessarie per la società di esempio, Litware, Inc. Questi passaggi possono essere completati mediante il set di dati USMF. Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. Prima di iniziare, scaricare e salvare i file elencati nell'argomento della Guida: [Incorporare immagini e forme nei documenti aziendali generati mediante lo strumento di creazione di report elettronici](../electronic-reporting-embed-images-shapes.md). I file sono: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png e Cheque template Word.docx.
 
-In questo esempio verranno create configurazioni ER per la società di esempio Litware, Inc.  Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività "ER Creare report in formati di Microsoft Office con immagini incluse (Parte 2: Esaminare le configurazioni)". Queste operazioni possono essere eseguite nella società "USMF".
+## <a name="verify-prerequisites"></a>Verificare i prerequisiti  
+ 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.  
+ 2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come attivo. Se il provider di configurazione non è visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creazione di report elettronici: creare e attivare un provider di configurazione".   
+ 3. Fare clic su Configurazioni report.  
+ 
+## <a name="add-a-new-er-model-configuration"></a>Aggiungere una nuova configurazione del modello ER  
+ 1. Anziché creare un nuovo modello, è possibile caricare il file di configurazione del modello ER (Model for cheques.xml) salvato in precedenza. Questo file contiene il modello dati di esempio per gli assegni di pagamento e il mapping del modello dati ai dati componenti dell'applicazione Dynamics 365 for Operations.   
+ 2. Nella scheda dettaglio Versioni fare clic su Scambia.   
+ 3. Fare clic su Carica da file XML.  
+ 4. Fare clic su Sfoglia quindi selezionare Model for cheques.xml.   
+ 5. Fare clic su OK.  
+ 6. Il modello caricato verrà utilizzato come origine dati delle informazioni per generare i documenti contenenti le immagini in Excel e Word.  
 
+## <a name="add-a-new-er-format-configuration"></a>Aggiungere una nuova configurazione di formato ER  
+ 1. Anziché creare un nuovo formato, è possibile caricare il file di configurazione del formato ER (Cheques printing format.xml) salvato in precedenza. Questo file contiene il layout di esempio del formato per stampare gli assegni utilizzando il modulo prestampato e il mapping di questo formato al modello di dati per assegni.   
+ 2. Fare clic su Scambia.  
+ 3. Fare clic su Carica da file XML.  
+ 4. Fare clic su Sfoglia e selezionare il file Cheques printing format.xml.   
+ 5. Fare clic su OK.  
+ 6. Nella struttura espandere "Model for cheques".  
+ 7. Nella struttura selezionare "Model for cheques\Cheques printing format".  
+ 8. Il formato caricato verrà utilizzato per generare i documenti contenenti le immagini in Excel e Word.   
 
-## <a name="run-format-with-initial-model-mapping"></a>Eseguire il formato con il mapping di modello iniziale
-1. Andare a Gestione cassa e banche > Conti bancari > Conti bancari.
-2. Utilizzare il filtro rapido per applicare un filtro al campo Conto bancario in base al valore "USMF OPER".
-3. Nel riquadro azioni, fare clic su Imposta.
-4. Fare clic su Verifica.
-5. Fare clic su Stampa di prova.
-    * Eseguire il formato a scopo di verifica.  
-6. Selezionare Sì nel campo Formato assegno negoziabile.
-7. Fare clic su OK.
-    * Esaminare l'output creato. Si noti che il logo della società viene visualizzato nel report così come la firma della persona autorizzata. L'immagine della firma viene ricavata dal tipo di dati "Container" del record del layout dell'assegno associato al conto bancario selezionato.  
-8. Espandere la sezione Copie.
-9. Fare clic su Modifica.
-10. Nel campo Filigrana, immettere "Stampa filigrana come Annulla".
-    * Modificare l'impostazione del layout della filigrana per visualizzare il testo della filigrana nella generazione di documenti in un elemento forma di Excel.  
-11. Fare clic su Stampa di prova.
-12. Fare clic su OK.
-    * Esaminare l'output creato. Si noti che la filigrana viene visualizzata nel report creato in base all'opzione selezionata.  
-13. Chiudere la pagina.
-14. Nel riquadro azioni, fare clic su Gestisci pagamenti.
-15. Fare clic su Assegni.
-16. Fare clic su Mostra filtri.
-17. Applicare i filtri seguenti, immettendo un valore di filtro pari a "381","385","389" nel campo del numero di assegno utilizzando l'operatore "è uno di".
-18. Nell'elenco selezionare tutte le righe.
-19. Fare clic su Stampa copia assegno.
-    * Eseguire il formato per ristampare gli assegni selezionati.  
-    * Esaminare l'output creato. Si noti che gli assegni selezionati sono stati ristampati. Il logo e le etichette delle società non verranno stampati perché sono visualizzati nel modulo prestampato.  
+## <a name="configure-er-user-parameters"></a>Configurare i parametri utente ER  
+ 1. Nel riquadro azioni, fare clic su Configurazioni.  
+ 2. Fare clic su Parametri utente.  
+ 3. Selezionare Sì nel campo Esegui impostazioni.  
+  Attivare il flag 'Esegui bozza' per avviare la versione bozza del formato selezionato anziché di quello completato.  
+ 4. Fare clic su OK.  
 
-## <a name="modify-the-mapping-of-the-imported-data-model"></a>Modificare il mapping del modello dati importato
-1. Chiudere la pagina.
-2. Chiudere la pagina.
-3. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
-4. Nella struttura selezionare "Model for checks".
-5. Fare clic su Progettazione.
-6. Fare clic su Mappa modello a origine dati.
-7. Fare clic su Progettazione.
-    * Cambieremo l'associazione dell'elemento di firma del modello dati per ottenere l'immagine della firma del file che è stato collegato al record del layout di assegno associato al conto bancario selezionato.  
-8. Disattivare la visualizzazione dei dettagli.
-9. Nella struttura espandere "layout".
-10. Nella struttura espandere "layout\signature".
-11. Nella struttura selezionare "layout\signature\image = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp".
-12. Nella struttura espandere "chequesaccount".
-13. Nella struttura espandere "chequesaccount\<Relations".
-14. Nella struttura espandere "chequesaccount\<Relations\BankChequeLayout".
-15. Nella struttura espandere "chequesaccount\<Relations\BankChequeLayout\<Relations".
-16. Nella struttura espandere "chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents".
-17. Nella struttura selezionare "chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents\getFileContentAsContainer()".
-18. Fare clic su Associa.
-19. Fare clic su Salva.
-20. Chiudere la pagina.
-21. Chiudere la pagina.
-22. Chiudere la pagina.
-23. Chiudere la pagina.
-
-## <a name="run-format-using-the-adjusted-model-mapping"></a>Eseguire il formato utilizzando il mapping del modello modificato
-1. Andare a Gestione cassa e banche > Conti bancari > Conti bancari.
-2. Utilizzare il filtro rapido per trovare i record. Ad esempio, filtrare nel campo Conto bancario in base a un valore "USMF OPER".
-3. Nel riquadro azioni, fare clic su Imposta.
-4. Fare clic su Verifica.
-5. Fare clic su Stampa di prova.
-6. Fare clic su OK.
-    * Esaminare l'output creato. Si noti che l'immagine dall'allegato di gestione documenti viene inviata come firma di una persona autorizzata.  
-
-## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Utilizzare il documento di Microsoft Word come modello nel formato importato
-1. Chiudere la pagina.
-2. Chiudere la pagina.
-3. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
-4. Nella struttura espandere "Model for cheques".
-5. Nella struttura selezionare "Model for cheques\Cheques printing format".
-6. Fare clic su Progettazione.
-7. Fare clic su Allegati.
-8. Fare clic su Elimina.
-9. Fare clic su Sì.
-10. Fare clic su Nuovo.
-11. Fare clic su File.
-    * Fare clic su Sfoglia e selezionare il file modello di assegno in formato Word scaricato in precedenza.  
-12. Chiudere la pagina.
-13. Nel campo Modello immettere o selezionare un valore.
-14. Fare clic su Salva.
-15. Chiudere la pagina.
-16. Fare clic su Modifica.
-17. Selezionare Sì nel campo Esegui bozza.
-18. Chiudere la pagina.
-19. Andare a Gestione cassa e banche > Conti bancari > Conti bancari.
-20. Utilizzare il filtro rapido per applicare un filtro al campo Conto bancario in base al valore "USMF OPER".
-21. Fare clic su Verifica.
-22. Fare clic su Stampa di prova.
-23. Fare clic su OK.
-    * Esaminare l'output creato. Si noti che l'output è stato generato come documento di Microsoft Word con immagini incorporate che presentano il logo della società, la firma di una persona autorizzata e il testo selezionato della filigrana.  
-
+## <a name="configure-cash--bank-management-parameters"></a>Configurare i Parametri di gestione cassa e banche  
+ 1. Andare a Gestione cassa e banche > Conti bancari > Conti bancari.  
+ 2. Utilizzare il filtro rapido per applicare un filtro al campo Conto bancario in base al valore "USMF OPER".  
+ 3. Nel riquadro azioni, fare clic su Imposta.  
+ 4. Fare clic su Verifica.  
+ 5. Espandere la sezione Impostazione.  
+ 6. Fare clic su Modifica.  
+ 7. Selezionare Sì nel campo Logo società.  
+ 8. Fare clic su il logo della società.  
+ 9. Fare clic su Modifica.  
+ 10. Fare clic su Sfoglia e selezionare il file scaricato in precedenza, Company logo.png.   
+ 11. Fare clic su Salva.  
+ 12. Chiudere la pagina.  
+ 13. Espandere la sezione Firma.  
+ 14. Selezionare Sì nel campo Stampa prima firma.  
+ 15. Fare clic su Modifica.  
+ 16. Fare clic su Sfoglia e selezionare il file scaricato in precedenza, Signature image.png.   
+ 17. Espandere la sezione Copie.  
+ 18. Nel campo Filigrana selezionare un'opzione.  
+ 19. Selezionare Sì nel campo Formato esportazione elettronica generica.  
+ 20. Selezionare la configurazione 'Cheques printing format'.  
+ 21. Ora il formato ER selezionato verrà utilizzato per la stampa degli assegni.  
+ 22. Fare clic su Allega.  
+ 23. Fare clic su Nuovo.  
+ 24. Fare clic su File.  
+ 25. Fare clic su Sfoglia e selezionare il file scaricato in precedenza, Signature image 2.png.   
+ 26. Chiudere la pagina.  
+ 27. Chiudere la pagina.  
+ 28. Chiudere la pagina.  
+ 29. Andare a Gestione cassa e banche > Impostazioni > Parametri di gestione cassa e banche.  
+ 30. Selezionare Sì nel campo Consenti creazione notifica anticipata su conti bancari inattivi.  
+ 31. Fare clic su Salva.  
+ 32. Chiudere la pagina.  
 
