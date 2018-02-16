@@ -3,11 +3,12 @@ title: Pagamenti cliente per un importo parziale
 description: Talvolta i clienti effettuano un pagamento inferiore rispetto all'importo della fattura. Questo articolo descrive le varie opzioni per gestire questa situazione. Le opzioni disponibili dipendono dai requisiti aziendali e dalla configurazione.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c2ba17b97bf7a00ff111e72314e98f5af7aaed80
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -41,7 +42,7 @@ I clienti possono effettuare un pagamento parziale perché non dispongono dei co
 È possibile offrire a clienti uno sconto di cassa se il pagamento di una fattura avviene prima della data di scadenza. Si supponga, ad esempio, di immettere una fattura per un valore 100,00 in cui si specifica uno sconto di cassa del 2% se la fattura viene pagata entro 10 giorni. I termini della data di scadenza sono a 30 giorni. Se si riceve un pagamento di 98,00 entro 10 giorni, si immette un pagamento di 98,00. Quindi, quando la fattura viene contrassegnata per la liquidazione, lo sconto di cassa viene applicato automaticamente.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Pagamenti parziali con sconti di cassa
-Quando i clienti effettuano un pagamento parziale, possono pianificare di effettuare un pagamento parziale aggiuntivo per liquidare interamente la fattura. Per applicare uno sconto di cassa per un pagamento parziale, è necessario impostare l'opzione **Calcola sconti di cassa per pagamenti parziali** su **Sì** nella pagina **Parametri contabilità clienti**. 
+Quando i clienti effettuano un pagamento parziale, possono pianificare di effettuare un pagamento parziale aggiuntivo per liquidare interamente la fattura. Per applicare uno sconto di cassa per un pagamento parziale, è necessario impostare l'opzione **Calcola sconti di cassa per pagamenti parziali** su **Sì** nella pagina **Parametri contabilità clienti**. 
 
 Si supponga, ad esempio, di offrire uno sconto di cassa del 2% se la fattura viene pagata entro 10 giorni dalla data di emissione. Si supponga che l'importo della fattura registrata sia 100,00. Se si riceve un pagamento di 49,00 entro 10 giorni, nel giornale di registrazione pagamenti verrà immesso un importo in Avere di 49,00. Quando viene liquidato il pagamento parziale nella pagina **Liquida transazioni**, viene visualizzato **1,00** nel campo **Importo sconto di cassa da applicare**. L'importo dello sconto viene registrato in un conto dello sconto di cassa. 
 

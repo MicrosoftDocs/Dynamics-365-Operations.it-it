@@ -3,7 +3,7 @@ title: Contenuto Power BI per la gestione dei costi
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per la gestione dei costi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
 ms.contentlocale: it-it
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 12/19/2017
 
 [!include[banner](../includes/banner.md)]
 
+> [Nota] Questo pacchetto di contenuti è stato deprecato come documentato in [Power BI Content Packs pubblicati in PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+
 
 In questo argomento viene descritto cosa è incluso nel contenuto Power BI per la gestione dei costi. 
-
-# <a name="overview"></a>Panoramica
 
 I contenuto Microsoft Power BI per la **gestione dei costi** è destinato ai contabili di inventario o agli utenti dell'organizzazione responsabili per l'inventario. Il contenuto Power BI per la **gestione dei costi** fornisce analisi manageriali dell'inventario e delle scorte WIP e di come il costo procede attraverso questi per categoria nel tempo. Le informazioni possono essere utilizzate anche come supplemento dettagliato al rendiconto finanziario.
 

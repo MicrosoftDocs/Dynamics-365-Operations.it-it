@@ -1,7 +1,7 @@
 ---
 title: Prima di acquistare
 description: Indicazioni dettagliate da utilizzare quando si intende acquistare Dynamics 365 for Finance and Operations, Enterprise Edition.
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ Per i nuovi utenti di Dynamics 365 for Finance and Operations, Enterprise Editio
 
 ## <a name="step-two-choose-a-deployment-option"></a>Passaggio due: selezionare un'opzione di distribuzione
 Ora è possibile distribuire Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition nel cloud o in locale. Le distribuzioni sul cloud offrono un servizio ERP interamente gestito da Microsoft, mentre le distribuzioni locali sono effettuate all'interno del data center di un cliente.
-Per ulteriori informazioni, vedere: [Opzioni di distribuzione](../../dev-itpro/deployment/choose-deployment-type.md) 
+
+Quando si sceglie un'opzione di distribuzione locale, è opportuno effettuare le seguenti considerazioni:
+- Requisiti di conformità alle normative che non sono disponibili nelle [certificazioni cloud](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- Per l'accesso a Microsoft Dynamics Lifecycle Services (LCS) al fine della gestione del ciclo di vita dell'applicazione, è richiesto un processo aziendale senza connessione con connettività Internet intermittente
+- [Funzionalità attualmente non implementate nelle distribuzioni locali](features-not-implemented-on-prem.md)
+- [Requisiti minimi dell'infrastruttura](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> Le distribuzioni locali di Microsoft Dynamics 365 for Finance and Operations Enterprise Edition non sono supportate in nessuna infrastruttura di cloud pubblico, incluso Azure. 
+
+Per ulteriori informazioni, vedere [Opzioni di distribuzione](../../dev-itpro/deployment/choose-deployment-type.md)
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Passaggio tre: acquistare e gestire una sottoscrizione
 Per esplorare le opzioni di sottoscrizione, visualizzare la pagina dei prezzi [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). In questa pagina sono disponibili vari piani per soddisfare le esigenze dell'organizzazione.

@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6ffb97b53f522cfe8ccd8e89df854cbc557e4f1f
-ms.openlocfilehash: fadc373b2c1c06987f22d4d9c20a9ab07b0c85d5
+ms.sourcegitcommit: a53c1997f74ebe572b17cc3090d2e236b6fe78f6
+ms.openlocfilehash: 8a84cfe9b73f0c72f3cb0c3843749754c6b3d538
 ms.contentlocale: it-it
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Eseguire il provisioning di Microsoft Dynamics 365 for Talent
@@ -60,6 +60,9 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Tale
 > Se non sono ancora stati completati i requisiti finali, è possibile distribuire un'istanza di prova di Talent nel progetto. È quindi possibile utilizzare l'istanza per testare la soluzione finché non si esegue la conferma. Se si utilizza il nuovo ambiente per i test, è necessario ripetere questa procedura per creare un ambiente di produzione.
 
 ## <a name="create-a-new-powerapps-environment-if-required"></a>Creare un nuovo ambiente PowerApps (se necessario)
+
+La visione alla base dell'integrazione di Talent con gli ambienti di PowerApps è di consentire l'integrazione dei dati e flussi di estensioni attraverso l'uso di strumenti PowerApps con i dati di Talent. Di conseguenza, è importante comprendere lo scopo degli ambienti PowerApps quando si sceglie l'ambiente da utilizzare per Talent. Per ulteriori informazioni sugli ambienti di PowerApps, incluso l'ambito dell'ambiente, l'accesso all'ambiente e la creazione e la scelta di un ambiente, vedere [Annuncio degli ambienti PowerApps](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/)  Mentre ciascun tenant viene automaticamente fornito in un ambiente PowerApps predefinito, questo potrebbe non essere l'ambiente migliore da utilizzare per la distribuzione Talent. Durante questo passaggio è necessario prendere in considerazione l'integrazione dei dati e le strategie di test, pertanto si consiglia di considerare le varie implicazioni per l'implementazione, poiché non è facile modificarle in seguito.
+
 1. Selezionare **Gestione ambienti** in LCS. Viene visualizzata l'[interfaccia di amministrazione di PowerApps](https://preview.admin.powerapps.com/environments), dove è possibile visualizzare ambienti esistenti e creare nuovi ambienti.
 2. Selezionare il nuovo pulsante (**+**) **Nuovo ambiente**.
 3. Immettere un nome univoco per l'ambiente e selezionare la posizione in cui eseguire la distribuzione.
@@ -74,9 +77,20 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Tale
     > [!IMPORTANT]
     > Se in precedenza è stato creato un database CDS e vi sono stati immessi dati di produzione della società, tenere presente che questi passaggi rimuovono **tutti** i dati nel database selezionato, anche i dati di produzione della società.
 
-    1. Accedere a [PowerApps](https://preview.web.powerapps.com/home) e passare all'ambiente che è stato creato nel passaggio 2.
-    2. Selezionare **Entità**. Sul lato destro della pagina, fare clic sul pulsante di ellisse (**…**) e quindi selezionare **Cancella tutti i dati**.
-    3. Selezionare **Elimina dati** per confermare che si desidera rimuovere i dati. Questa azione rimuove tutti i dati dimostrativi che sono inclusi nel CDS per impostazione predefinita. Rimuove inoltre eventuali altri dati che sono stati immessi nel database selezionato.
-
+    1. Accedere a [PowerApps](https://preview.web.powerapps.com/home) e selezionare l'ambiente creato nel passaggio 2 dal menu a discesa nella parte destra della pagina.
+    2. Espandere **Common Data Service** nel pannello di navigazione sinistro e quindi **Entità**.
+    3. Sul lato destro della pagina, fare clic sul pulsante di ellisse (**…**) e quindi selezionare **Cancella tutti i dati**.
+    4. Selezionare **Elimina dati** per confermare che si desidera rimuovere i dati. Questa azione rimuove tutti i dati dimostrativi che sono inclusi nel CDS per impostazione predefinita. Rimuove inoltre eventuali altri dati che sono stati immessi nel database selezionato.
+    
 È ora possibile utilizzare il nuovo ambiente.
+
+## <a name="granting-access-to-the-environment"></a>Concedere l'accesso all'ambiente
+L'amministratore globale che ha creato l'ambiente avrà accesso per impostazione predefinita, ma è necessario concedere l'access.o esplicitamente ad altri utenti dell'applicazione. Questa operazione può essere effettuata [aggiungendo gli utenti](../dev-itpro/sysadmin/tasks/create-new-users.md) e [assegnando loro i ruoli appropriati](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) nell'ambiente Core HR. Oltre a ciò, è anche necessario aggiungere tali utenti all'ambiente PowerApps in modo che possano accedere alle applicazioni Attract e Onboard.  Il post del blog di [presentazione dell'interfaccia di amministrazione di PowerApps](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/) potrebbe essere utile per completare tali passaggi, che sono delineati qui:
+
+> 1.    L'amministratore globale che ha implementato l'ambiente Talent dovrebbe accedere all'[interfaccia di amministrazione di PowerApps](https://preview.admin.powerapps.com/environments).   
+> 2.    Selezionare gli ambienti in questione.
+> 3.    Nella scheda Sicurezza, aggiungere gli utenti necessari al ruolo "Creatore dell'ambiente".
+
+Tenere presente che questo passaggio finale dell'aggiunta di utenti all'ambiente PowerApps è temporaneo. In seguito verranno aggiungente funzionalità per abilitare questo passaggio automaticamente quando l'utente viene aggiunto in Core HR.
+
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BlackListTable_IT, IntrastatParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -27,7 +28,6 @@ ms.lasthandoff: 11/03/2017
 # <a name="italian-black-list-report"></a>Report block list italiano
 
 [!include[banner](../includes/banner.md)]
-
 
 Informazioni su come impostare e gestire il report black list italiano.
 
@@ -64,8 +64,4 @@ Utilizzare la pagina **Report black list italiano** per creare un nuovo report e
 -   Utilizzare **Trasferimento** per trasferire le transazioni delle fatture cliente e fornitore alla sezione **Transazioni** in base ai criteri che sono specificati nella sezione **Generale**. Nel report vengono visualizzate solo le transazioni associate a un codice IVA. Verificare le transazioni e apportare eventuali modifiche, se necessario.
 -   Utilizzare **Applica soglia** per escludere le fatture dal report **black list italiano** inferiori all'importo di soglia specificato nel campo **Importo soglia** nella sezione **Generale**.
 -   Utilizzare **Report** per generare ed esportare il report come file.
-
-
-
-
 
