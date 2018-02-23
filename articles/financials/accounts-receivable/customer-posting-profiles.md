@@ -54,10 +54,6 @@ Specificare i conti CoGe utilizzati nella registrazione delle transazioni che ut
 Se si desidera assegnare lo stesso profilo registrazione a tutte le transazioni cliente, impostare un solo profilo registrazione con il valore Tutti nel campo Codice conto. Specificare i valori seguenti per impostare il profilo registrazione:
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Campo</th>
