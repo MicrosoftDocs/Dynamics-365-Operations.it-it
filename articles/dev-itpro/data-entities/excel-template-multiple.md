@@ -27,6 +27,8 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="excel-templates-with-multiple-worksheets"></a>Modelli di Excel con più fogli di lavoro
 
+[!include[banner](../includes/banner.md)]
+
 La gestione dei dati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition supporta modelli basati su Microsoft Excel per le entità di dati. Questi modelli possono contenere uno o più fogli di lavoro. I modelli con più fogli di lavoro vengono spesso utilizzati quando è conveniente gestire i dati in un singolo file e importarli in più entità di dati. Un esempio potrebbe essere il caso di siti e magazzini.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Caricare una volta un file e mapparlo a tutte le entità

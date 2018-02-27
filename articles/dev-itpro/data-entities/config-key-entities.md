@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>Chiavi di configurazione ed entità di dati
+
+[!include[banner](../includes/banner.md)]
+
 Prima di utilizzare le entità di dati per importare o esportare dati, si consiglia di determinare innanzitutto l'impatto delle chiavi di configurazione sulle entità di dati che si prevede di utilizzare. 
 
 Per ulteriori informazioni sulle chiavi di configurazione in Finance and Operations, vedere [Report su codici di licenza e chiavi di configurazione](../sysadmin/license-codes-configuration-keys-report.md).
