@@ -19,13 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2bc175ceec7ee8771e09f1dac4ede7b3fa619322
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: fca7fb75b965886c2ebc06b12940434f2ffc2543
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/27/2018
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a><span data-ttu-id="5af5d-103">Modificare un formato per la creazione di report elettronici riapplicando un modello di Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="5af5d-103">Modify an Electronic reporting format by reapplying a Microsoft Excel template</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="5af5d-104">Lo strumento di creazione di report elettronici viene utilizzato per generare documenti aziendali in formato elettronico.</span><span class="sxs-lookup"><span data-stu-id="5af5d-104">The Electronic reporting (ER) tool is used to generate business documents in an electronic format.</span></span> <span data-ttu-id="5af5d-105">Per generare un documento aziendale, è necessario creare un formato ER e quindi utilizzare la finestra di progettazione ER per definire il layout del documento aziendale e specificare i dati da includere nello stesso.</span><span class="sxs-lookup"><span data-stu-id="5af5d-105">To generate a business document, you must create an ER format, and then use the ER designer to define the layout of the business document and specify the data that should be included in it.</span></span> <span data-ttu-id="5af5d-106">È quindi possibile eseguire il formato ER per generare il documento aziendale.</span><span class="sxs-lookup"><span data-stu-id="5af5d-106">You can then run the ER format to generate the business document.</span></span>
 
 <span data-ttu-id="5af5d-107">Lo strumento di creazione di report elettronici può essere utilizzato per generare documenti aziendali come file di Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="5af5d-107">The ER tool can be used to generate business documents as Microsoft Excel files.</span></span> <span data-ttu-id="5af5d-108">È possibile utilizzare un documento di Excel come modello per tali documenti.</span><span class="sxs-lookup"><span data-stu-id="5af5d-108">You can use an Excel document as a template for these documents.</span></span> <span data-ttu-id="5af5d-109">Per definire il layout di documento nella finestra di progettazione ER, è possibile importare il contenuto del documento di Excel che si desidera utilizzare come modello nel formato ER definito.</span><span class="sxs-lookup"><span data-stu-id="5af5d-109">To define the document layout in the ER designer, you can import the contents of the Excel document that you want to use as a template into the defined ER format.</span></span> <span data-ttu-id="5af5d-110">Per ulteriori dettagli e per acquisire familiarità con questo scenario, riprodurre la guida attività **Creazione di report elettronici: progettare una configurazione per la generazione di report in formato OPENXML** (parte del processo aziendale 7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)).</span><span class="sxs-lookup"><span data-stu-id="5af5d-110">For more details, and to practice this scenario, play the task guide **ER Design a configuration for generating reports in OPENXML format** (part of the 7.5.4.3 Acquire/Develop IT service/solution components (10677) business process).</span></span>
