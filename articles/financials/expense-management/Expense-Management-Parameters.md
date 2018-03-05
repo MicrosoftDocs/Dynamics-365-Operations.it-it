@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Parametri di gestione spese
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 I parametri seguenti controllano il comportamento generale in Gestione spese.
