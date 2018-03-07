@@ -24,6 +24,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="reverse-charge-vat"></a>Reverse charge
+
+[!include[banner](../includes/banner.md)]
+
 In questo argomento viene descritto un approccio generico per l'impostazione dell'imposta sul valore aggiunto (IVA) reverse charge per i paesi europei.
 
 Reverse charge è uno schema di imposta che sposta la responsabilità per la contabilità e la dichiarazione dell'IVA dal venditore all'acquirente delle merci e/o dei servizi. Di conseguenza, i destinatari delle merci e/o dei servizi dichiarano sia l'IVA in uscita (nel ruolo del venditore) che l'IVA in entrata (nel ruolo dell'acquirente) per la dichiarazione IVA.
