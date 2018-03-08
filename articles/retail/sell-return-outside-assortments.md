@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>Prodotti resi e di vendita non inclusi in un assortimento
+
+[!include[banner](includes/banner.md)]
+
 Uno scenario comune per il rivenditore è la vendita di prodotti ai clienti o l'accettazione di resi dai clienti anche se non hanno i prodotti specifici nel punto vendita (in altre parole i prodotti non sono un assortimento del punto vendita).
 Di seguito sono riportati alcuni scenari comuni:
 

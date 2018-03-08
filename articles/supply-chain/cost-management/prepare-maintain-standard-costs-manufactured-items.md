@@ -30,6 +30,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Eseguire le operazioni preliminari alla gestione dei costi standard per gli articoli prodotti
 
+[!include[banner](../includes/banner.md)]
+
 In questo argomento vengono descritti i passaggi per la gestione dei costi per gli articoli prodotti. I passaggi per gli articoli prodotti sono leggermente diversi dai passaggi per gli articoli acquistati.
 
 I criteri che vengono assegnati agli articoli prodotti possono incidere sui calcoli dei costi degli articoli prodotti principali. Per la preparazione alla gestione dei costi degli articoli prodotti effettuare le seguenti operazioni.

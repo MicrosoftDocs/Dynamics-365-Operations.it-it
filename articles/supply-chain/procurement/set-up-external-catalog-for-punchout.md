@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Impostare un catalogo esterno per PunchOut eProcurement
 
+[!include[banner](../includes/banner.md)]
+
 Utilizzando il catalogo esterno, è possibile garantire che le informazioni sul prezzo e sul prodotto che vengono elaborate successivamente in Dynamics 365 for Finance and Operations, Enterprise edition di luglio 2017 siano aggiornate e accurate. La richiesta può quindi essere approvata e convertita in ordine fornitore e l'ordine può essere piazzato al fornitore.
 
 Quando il catalogo esterno viene configurato e un dipendente prepara una richiesta, è disponibile un'opzione per reindirizzare un sito esterno, il catalogo esterno, e restituire il carrello creato nel sito esterno. La comunicazione si basa sul protocollo cXML e deve essere impostata tra i sistemi dell'organizzazione venditrice e acquirente.

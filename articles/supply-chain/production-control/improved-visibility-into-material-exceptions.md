@@ -26,6 +26,8 @@ ms.lasthandoff: 12/14/2017
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilità nelle eccezioni materiali
 
+[!include[banner](../includes/banner.md)]
+
 Nell'area di lavoro **Gestione area di produzione** tre riquadri consentono una migliore visibilità delle eccezioni per le materie prime per gli ordini di produzione e gli ordini lotto:
 
 - Righe materiale non rilasciate che richiedono attenzione

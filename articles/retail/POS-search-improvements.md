@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Panoramica sulla funzionalità di ricerca prodotti e clienti in POS
 
+[!include[banner](includes/banner.md)]
+
 Modern POS (MPOS) e POS cloud (CPOS) forniscono una funzionalità di ricerca di facile utilizzo che consente ai dipendenti dei punti vendita di cercare rapidamente prodotti e clienti. La barra di ricerca è sempre presente nella parte superiore di MPOS e CPOS, di modo che i dipendenti possano trovare rapidamente prodotti e clienti.
 
 I dipendenti possono cercare i prodotti negli assortimenti e nei cataloghi associati al punto vendita corrente e negli assortimenti e nei cataloghi associati a qualsiasi altro punto vendita della società. Di conseguenza, i cassieri possono vendere e restituire prodotti al di fuori dell'assortimento del punto vendita. Analogamente, i dipendenti possono cercare i clienti associati al punto vendita corrente o a qualsiasi altro punto vendita della società. Inoltre, i dipendenti possono cercare i clienti associati a un'altra società nell'organizzazione padre.

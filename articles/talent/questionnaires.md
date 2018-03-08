@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="questionnaires"></a>Questionari
 
+[!include[banner](includes/banner.md)]
+
 In questo argomento vengono fornite informazioni generali sui questionari e collegamenti a informazioni più dettagliate. Un questionario è un insieme di domande utilizzate per raccogliere informazioni per vari di scopi. È possibile progettare, creare, distribuire e completare i questionari e quindi analizzarne i risultati. 
 
 È possibile personalizzare un questionario per soddisfare esigenze specifiche utilizzando diverse funzioni disponibili in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Di seguito sono riportati alcuni esempi di utilizzo dei questionari:

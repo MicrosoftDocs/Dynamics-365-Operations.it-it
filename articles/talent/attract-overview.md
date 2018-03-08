@@ -25,6 +25,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="attract-overview"></a>Panoramica di Attract
+
+[!include[banner](includes/banner.md)]
+
 Attract include funzionalità per la gestione del processo di assunzione di nuovi talenti. I candidati possono essere aggiunti a posizioni aperte e ammessi alle fasi successive del processo di selezione fino a che non viene proposta un'offerta o la domanda di lavoro non viene rifiutata. Ogni fase include attività come chiamate di screening, valutazioni o programmazione di colloqui. Dopo l'invio della domanda di lavoro, i candidati ricevono un messaggio di posta elettronica che li invita ad accedere a Attract dove possono esaminare lo stato della posizione, la domanda di lavoro nonché rispondere a eventuali attività loro assegnate.
 
 Attract include le funzionalità descritte di seguito.
