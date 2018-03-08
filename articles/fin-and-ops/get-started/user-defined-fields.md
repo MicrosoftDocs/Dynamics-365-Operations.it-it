@@ -62,7 +62,7 @@ Nei passaggi seguenti viene descritto il processo per creare un campo personaliz
 10.   Fare clic su **Inserisci** per inserire i campi contrassegnati nell'area selezionata del modulo. 
 11.   **Facoltativo**: abilitare la modalità **Sposta** dalla barra degli strumenti di personalizzazione per spostare i nuovi campi nella posizione desiderata nell'area selezionata. Per ulteriori informazioni su come utilizzare le varie funzionalità di personalizzazione per ottimizzare un modulo per l'utilizzo personale, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).  
 
-### <a name="sharing-custom-fields-with-other-users"></a>Condividere campi personalizzati con altri utenti
+## <a name="sharing-custom-fields-with-other-users"></a>Condividere campi personalizzati con altri utenti
 Dopo aver creato un campo personalizzato e averlo esposto in un modulo, è possibile fornire la visualizzazione di questa pagina aggiornata che include il nuovo campo agli altri utenti nel sistema. Questo può essere realizzato in due modi diversi utilizzando le capacità di personalizzazione del prodotto:
 
 -   La modalità consigliata è attraverso l'amministratore di sistema, che può inviare una personalizzazione a tutti gli utenti o a un sottoinsieme di utenti. Per ulteriori informazioni sulla, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md). 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Usare cataloghi esterni per PunchOut eProcurement
+
+[!include[banner](../includes/banner.md)]
+
 Se si utilizzano i cataloghi esterni per PunchOut eProcurement, non è necessario gestire le informazioni sui prodotti dei fornitori nei propri dati master. Il carrello nel sito Web del fornitore viene invece convertito in righe di richiesta con le informazioni sul prodotto corrette. 
 
 È consigliabile evitare di conservare le descrizioni e i prezzi dei prodotti dei fornitori nei propri dati master. Utilizzare invece i cataloghi esterni per PunchOut e-procurement. Quando i dipendenti creano le richieste, possono accedere al sito esterno del fornitore (in altre parole lasciano il sistema per accedere al sito del fornitore). I prodotti aggiunti al carrello nel sito Web del fornitore possono quindi essere convertiti in righe di richiesta. Si ottengono così le informazioni corrette sul prodotto: ID prodotto, nome, prezzo e così via.

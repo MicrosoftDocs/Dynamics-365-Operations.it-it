@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Confronto tra funzionalità cloud e locali
 
+[!include[banner](../includes/banner.md)]
+
 Questo argomento fornisce informazioni sulla disponibilità di ogni funzionalità nei seguenti prodotti:
 
 + Dynamics 365 for Finance and Operations, Enterprise edition (cloud)

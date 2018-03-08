@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Visualizzare e valutare i risultati di un questionario
 
+[!include[banner](includes/banner.md)]
+
 In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano. 
 
 Dopo che gli intervistati avranno compilato un questionario, sarà possibile vedere e valutare i risultati del questionario nei modi seguenti:

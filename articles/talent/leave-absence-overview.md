@@ -27,6 +27,8 @@ ms.lasthandoff: 01/31/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>Panoramica del modulo di gestione di congedi e assenze
 
+[!include[banner](includes/banner.md)]
+
 Il modulo di **gestione di congedi e assenze** offre un framework flessibile per la definizione del processo di gestione delle assenze. È possibile creare piani di congedo e assenza per determinare come i dipendenti accumulano o usano i permessi. Dopo l'iscrizione a un piano, i dipendenti possono presentare le richieste di permesso ai responsabili per l'approvazione. Il rilevamento di congedi consente ai responsabili di primo livello e ai responsabili di Risorse umane di vedere il dipendente in permesso e le ore di assenza residue.  
 
 Il modulo di gestione di congedi e assenze fornisce le seguenti funzionalità: 

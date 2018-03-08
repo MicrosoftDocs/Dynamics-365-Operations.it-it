@@ -27,6 +27,8 @@ ms.lasthandoff: 12/20/2017
 
 # <a name="display-notifications-in-point-of-sale"></a>Notifiche di visualizzazione in POS
 
+[!include[banner](includes/banner.md)]
+
 Nell'odierno ambiente di vendita al dettaglio, ai collaboratori del POS vengono assegnate varie attività, come aiutare i clienti, inserire transazioni, eseguire conteggi di inventario e ricevere ordini nel POS. Il client POS consente ai collaboratori di eseguire queste attività e molto altro, tutto in un'unica applicazione. Con diversi compiti da svolgere durante un giorno, potrebbe essere necessario che i collaboratori vengano avvisati quando qualcosa richiede la loro attenzione. Il framework di notifica nel POS risolve questo problema consentendo ai rivenditori di configurare notifiche basate su ruoli. Nell'Aggiornamento applicazione 5 di Dynamics 365 for Retail, le notifiche possono essere configurate solo per le operazioni di POS.
 
 Attualmente, il sistema offre la possibilità di visualizzare le notifiche per l'evasione degli ordini, tuttavia, il framework è progettato per essere estensibile, in modo che in futuro gli sviluppatori possano scrivere un gestore di notifiche per qualsiasi operazione e visualizzare le notifiche nel POS.  

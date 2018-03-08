@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Modificare un formato per la creazione di report elettronici riapplicando un modello di Microsoft Excel
+
+[!include[banner](../includes/banner.md)]
+
 Lo strumento di creazione di report elettronici viene utilizzato per generare documenti aziendali in formato elettronico. Per generare un documento aziendale, è necessario creare un formato ER e quindi utilizzare la finestra di progettazione ER per definire il layout del documento aziendale e specificare i dati da includere nello stesso. È quindi possibile eseguire il formato ER per generare il documento aziendale.
 
 Lo strumento di creazione di report elettronici può essere utilizzato per generare documenti aziendali come file di Microsoft Excel. È possibile utilizzare un documento di Excel come modello per tali documenti. Per definire il layout di documento nella finestra di progettazione ER, è possibile importare il contenuto del documento di Excel che si desidera utilizzare come modello nel formato ER definito. Per ulteriori dettagli e per acquisire familiarità con questo scenario, riprodurre la guida attività **Creazione di report elettronici: progettare una configurazione per la generazione di report in formato OPENXML** (parte del processo aziendale 7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)).

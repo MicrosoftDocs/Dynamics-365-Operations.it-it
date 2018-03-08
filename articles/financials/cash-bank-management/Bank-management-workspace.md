@@ -25,6 +25,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="bank-management-workspace"></a>Area di lavoro gestione banche
 
+[!include[banner](../includes/banner.md)]
+
 Nell'area di lavoro **Gestione banche** vengono visualizzate le informazioni relative ai conti bancari della società. Questa area di lavoro include una visualizzazione **Riepilogo** e una pagina **Analisi**. Nella visualizzazione **Riepilogo** vengono visualizzati i riquadri di riepilogo, le informazioni sul conto bancario, un grafico del saldo e informazioni correlate. La pagina **Analisi** dei dati utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate ai saldi del conto bancario.
 
 ## <a name="summary-view"></a>Visualizzazione di riepilogo
