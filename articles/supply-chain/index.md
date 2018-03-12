@@ -1,9 +1,9 @@
 ---
 title: Home page di Gestione della supply chain
-description: "In questo argomento viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "In questa pagina viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: it-it
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ Passare alla <a href="https://roadmap.dynamics.com/">roadmap di Dynamics 365</a>
 Selezionare l'area di una funzionalità per ulteriori informazioni.
 
 - [Contabilità industriale](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Gestione costi](cost-management/costing-sheets.md)  
+- [Gestione costi](cost-management/cost-management-home-page.md)  
 - [Gestione inventario](inventory/inventory-home-page.md)
 - [Pianificazione generale](master-planning/master-planning-home-page.md)
 - [Approvvigionamento](procurement/procurement-sourcing-overview.md)
@@ -54,8 +54,9 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 
 Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dicembre 2017).
 
--  [Prosepct di liquidazione integrazione](https://youtu.be/AVV9x5x-XCg) 
+-  [Prospect di liquidazione integrazione](https://youtu.be/AVV9x5x-XCg) 
 -  [Consulente dell'ottimizzazione](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Utilizzare il modello di magazzino per copiare la configurazione](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (luglio 2017).
 
@@ -67,17 +68,36 @@ Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft 
 
 Le registrazioni tecniche si riferisce alla funzionalità del prodotto della versione precedente di Finance and Operations, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente. 
 
--  <a href="https://youtu.be/zotrj3SbCl4">Configurazione prodotto in Microsoft Dynamics AX</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">Pianificazione generale - Suggerimenti e trucchi per risolvere problemi in modo efficiente</a>
--  <a href="https://youtu.be/RLXybx20B5o">MRP è lento</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Elaborare ASN in entrata in Gestione magazzino</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Sfruttare al meglio il sistema di gestione del magazzino</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Gestione magazzino avanzata versione R3 - Elaborazione in entrata e rifornimento minimo/massimo</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">Gestione magazzino avanzata versione R3 - Esempio di elaborazione in uscita e rifornimento per domanda</a>
--  <a href="https://youtu.be/5w1MngVchBA">Etichette nella nuova funzionalità di gestione del magazzino in Microsoft Dynamics AX 2012 R3</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3 - Gestione del magazzino avanzata - Esempio di processo di produzione</a>
--  <a href="https://youtu.be/y1jrd3A_k70">Operazioni in conto lavoro e attività di produzione</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">Gestione trasporto nella nuova versione di Microsoft Dynamics AX</a>
+**Gestione costi**
+
+-  [Panoramica della gestione dei costi](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**Pianificazione generale**
+
+-  [Prorogare una funzionalità di previsione della domanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [Pianificazione generale - Suggerimenti e trucchi per risolvere problemi in modo efficiente](https://youtu.be/7v8BPmEs9Dg)
+-  [MRP è lento](https://youtu.be/RLXybx20B5o)
+
+**Gestione informazioni sul prodotto**
+
+-  [Configurazione prodotto in Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**Gestione magazzino** 
+
+-  [Elaborare ASN in entrata in Gestione magazzino](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [Sfruttare al meglio il sistema di gestione del magazzino](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [Gestione magazzino avanzata versione R3 - Elaborazione in entrata e rifornimento minimo/massimo](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [Gestione magazzino avanzata versione R3 - Esempio di elaborazione in uscita e rifornimento per domanda](https://youtu.be/Og0gLlVp7jA)
+-  [Etichette nella nuova funzionalità di gestione del magazzino in Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3 - Gestione del magazzino avanzata - Esempio di processo di produzione](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**Controllo produzione**
+
+-  [Operazioni in conto lavoro e attività di produzione](https://youtu.be/y1jrd3A_k70)
+
+**Gestione trasporto**
+
+-  [Gestione trasporto nella nuova versione di Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blog
 Numerosi argomenti sulla produzione e sulla gestione della supply chain sono disponibili nel <a href="https://blogs.msdn.microsoft.com/axmfg/">blog del team di ricerca e sviluppo per Dynamics AX - Produzione</a> e nel <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog del team di ricerca e sviluppo per Dynamics AX - Gestione della supply chain</a>. La maggior parte dei post si riferisce alla versione precedente di Finance and Operations, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente. 

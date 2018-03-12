@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: it-it
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -216,7 +216,22 @@ Nelle seguenti sezioni sono elencate le risorse per ogni paese.
 
 -   [Metodi di ammortamento dei cespiti](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [Spostare un cespite nel magazzino](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
--   [Cespiti fissi a basso costo](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+-   [Cespiti a basso costo](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>India
+
+- [Cespiti](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Trasferire elementi capitali nel cespite](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Collegare un calendario basato sul giorno a un libro cespiti](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Impostare i parametri per calcolare l'ammortamento](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Impostare l'ammortamento del gruppo cespiti per i registri beni ammortizzabili](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Creare un gruppo di modelli inventariali per articoli di capitali](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Calcolo ammortamento turno per i cespiti in India](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Definire il tipo di turno e di settore dei registri e collegarlo al cespite](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Panoramica del motore fiscale](../../financials/general-ledger/tax-engine.md)
+    - [Integrazione del motore fiscale](../../financials/general-ledger/tax-engine-integration.md)
+    - [Domande frequenti sulle soglie fiscali](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Estensione del motore fiscale](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Italia
 
