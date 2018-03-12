@@ -1,7 +1,7 @@
 ---
 title: Cicli di lavorazione e operazioni
 description: In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni.
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
