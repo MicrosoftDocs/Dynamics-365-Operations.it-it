@@ -181,12 +181,13 @@
 ### [Architettura del server Retail](dev-itpro/retail-server-architecture.md)
 ### [Comunicazioni del canale Retail](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [Architettura MPOS](dev-itpro/retail-modern-pos-architecture.md)
-### [Architettura di pubblicazione del punto vendita Retail online](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Contenuto Power BI per prestazioni del canale Retail](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Architettura di pubblicazione del punto vendita al dettaglio online](dev-itpro/retail-online-store-publishing-architecture.md)
+### [Contenuto Power BI per prestazioni del canale di vendita al dettaglio](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Certificazione PA-DSS (Payment Application Data Security Standards)](dev-itpro/PA-DSS-Certification.md)
 
 ## Distribuzione e aggiornamenti rapidi
 ### [Panoramica dell'unità di scala punto vendita Retail](dev-itpro/retail-store-system-begin.md)
-### [Installazione e configurazione dell'unità di scala punto vendita Retail](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Installazione e configurazione dell'unità di scala punto vendita al dettaglio](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Installazione e configurazione di Retail Modern POS](retail-modern-pos-device-activation.md)
 ### [Gestire i dispositivi e i conti Retail dalle sedi centrali](set-up-activation-accounts-validate-devices-hq.md)
 ### [Attivazione del dispositivo Retail POS](dev-itpro/retail-device-activation.md)
