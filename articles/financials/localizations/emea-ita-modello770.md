@@ -17,10 +17,10 @@ ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: a318f3c2cb2345c87fff460fec933cb5fa9dc8ef
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 257dd7f989eb16c5d7380af8df3887bf0f4650f6
 ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 

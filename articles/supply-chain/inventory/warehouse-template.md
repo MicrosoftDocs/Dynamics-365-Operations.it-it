@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 87ade03ec2ba78c4d7f5832bfa6dc1b7eabd8d94
+ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
+ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -93,6 +93,11 @@ Per questo scenario, le impostazioni di configurazione per un magazzino e alcuni
 5. Selezionare **Importa**. Nella visualizzazione **Migliorata** è possibile utilizzare l'opzione **Filtro** per visualizzare rapidamente una panoramica dei problemi che possono verificarsi durante l'importazione.
 
 In **Visualizza registro di esecuzione** vengono fornite informazioni dettagliate su ciascuna entità di dati da importare. È possibile utilizzare la visualizzazione dei dati di gestione temporanea per visualizzare rapidamente i dati di destinazione. In questo modo, è possibile visualizzare come appaiono i dati importati nelle pagine correlate nell'applicazione. Quando si utilizzano i modelli di dati predefiniti, la sequenza di importazione per ogni entità di dati funziona in modo predefinito per garantire che tutti i dati dipendenti vengano importati per primi. Se le entità di dati personalizzate fanno parte del progetto, verificare che la sequenza corretta sia definita. Per ulteriori informazioni, vedere [Modelli di dati di configurazione](../../dev-itpro/data-entities/configuration-data-templates.md).
+
+Per ulteriori informazioni su come utilizzare il modello di magazzino per copiare la configurazione di un magazzino da una società a una nuova società all'interno della stessa istanza, guardare questo video di 3 minuti su YouTube.
+
+> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
+
 
 ## <a name="related-topic"></a>Argomento correlato
 

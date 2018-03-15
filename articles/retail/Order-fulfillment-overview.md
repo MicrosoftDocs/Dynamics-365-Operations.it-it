@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: it-it
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Evasione ordine del punto vendita
+
+[!include[banner](includes/banner.md)]
 
 Molti rivenditori vorrebbero ottimizzare l'evasione dell'ordine consentendo ai punti vendita di eseguire gli ordini. L'evasione degli ordini a livello di punto vendita può semplificare gli scenari di scorte in eccesso per un punto vendita specifico o potrebbe essere necessaria da un punto di vista logistico nei casi in cui un punto vendita disponga di capacità aggiuntiva o si trovi a una distanza di spedizione più vicina al cliente. Per rispondere a questa esigenza, un'operazione di evasione degli ordini unificata è disponibile presso il POS.
 
@@ -56,7 +58,7 @@ Le righe possono essere selezionate mediante la funzione **Seleziona** nel riqua
 
 ## <a name="line-details"></a>Dettagli riga
 
-I dettagli riga possono essere visualizzati mediante il menu a comparsa dei dettagli riga. Quando questo menu viene utilizzato, vengono fornite due schede per mostrare informazioni aggiuntive per la riga selezionata. La prima scheda **Dettagli riga** mostra i dettagli per la riga stessa, ad esempio quantità ordinata e rimanente. Vengono forniti dettagli aggiuntivi inclusi la quantità prelevata, imballata e fatturata nonché le modalità di consegna e all'indirizzo di consegna. La scheda **Dettagli ordini** fornisce informazioni di intestazione ordine inclusi il cliente, l'ID del cliente, il numero di ordine, il totale dell'ordine e il saldo.
+I dettagli riga possono essere visualizzati mediante il menu a comparsa dei dettagli riga. Quando questo menu viene utilizzato, vengono fornite tre schede per mostrare informazioni aggiuntive per la riga selezionata. La prima scheda **Dettagli riga** mostra i dettagli per la riga stessa, ad esempio quantità ordinata e rimanente. Vengono forniti dettagli aggiuntivi inclusi la quantità prelevata, imballata e fatturata nonché le modalità di consegna e all'indirizzo di consegna. La scheda **Dettagli ordini** fornisce informazioni di intestazione ordine inclusi il cliente, l'ID del cliente, il numero di ordine, il totale dell'ordine e il saldo. Nella scheda **Inventario** vengono visualizzate le informazioni per la riga selezionata in termini di inventario fisico disponibile, scorte prenotate e scorte ordinate.
 
 Se più righe sono selezionate, il menu a comparsa dettagli riga di ordine indicherà solo che sono selezionate più righe. Per visualizzare i dettagli di una singola riga, rimuovere le righe finché rimane una sola riga. 
 

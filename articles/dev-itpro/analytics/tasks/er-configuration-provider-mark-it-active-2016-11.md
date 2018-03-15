@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 2dfa04f280249884af2a237807fb283059444a6c
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
 ms.contentlocale: it-it
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Creare e attivare un provider di configurazione per la creazione di report elettronici (ER)
@@ -33,11 +33,10 @@ I passaggi seguenti illustrano come un utente assegnato al ruolo di amministrato
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
 2. Fare clic su Provider di configurazione.
 3. Fare clic su Nuovo.
-    * Un record del provider ha un nome e un URL univoci. Esaminare il contenuto della pagina e ignorare questa procedura se un record per Litware, Inc. (http://www.litware.com) esiste già.  
+    * Un record del provider ha un nome e un URL univoci. Rivedere il contenuto di questa pagina e ignorare questa procedura se un record per (`http://www.litware.com`) è già esistente.  
 4. Nel campo Nome digitare Litware, Inc.
     * Litware, Inc.  
-5. Nel campo dell'indirizzo Internet immettere http://www.litware.com.
-    * http://www.litware.com  
+5. Nel campo Indirizzo Internet digitare `http://www.litware.com`.
 6. Fare clic su Salva.
 7. Chiudere la pagina.
 

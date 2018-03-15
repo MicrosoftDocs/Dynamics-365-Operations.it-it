@@ -3,7 +3,7 @@ title: "Funzionalità deprecate"
 description: "In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione."
 author: sericks007
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: addd8c62ba034b47d8abbec29fa8682deb9698b1
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -40,6 +40,17 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 > A partire da Dynamics 365 for Finance and Operations, versione Enterprise Edition di luglio 2017 con aggiornamento piattaforma 8, il tipo di distribuzione viene annotato per ciascuna funzionalità rimossa o deprecata. Tutte le versioni precedenti menzionate in questo argomento supportavano solo le distribuzioni cloud.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 con aggiornamento della piattaforma 12
+
+### <a name="personalized-product-recommendations"></a>Suggerimenti sul prodotto personalizzati 
+A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare consigli personalizzati sui prodotti su dispositivi POS. Per ulteriori informazioni, vedere [Panoramica dei suggerimenti sul prodotto personalizzati](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Durante la nuova progettazione della funzionalità del servizio di suggerimenti prodotto con un algoritmo migliore e nuove funzionalità orientate alla vendita al dettaglio, verrà rimossa la versione corrente di tale servizio.  |
+| **Sostituita da un'altra funzionalità?**   | N. Tuttavia, dopo la primavera del 2018, è in programma il ripristino di questa funzionalità per un nuovo servizio di suggerimenti   |
+| **Aree del prodotto interessate**         | Suggerimenti sul prodotto personalizzati nel POS.                                                    |
+| **Opzione di distribuzione**              | Tutti                                                                                      |
+| **Stato**                         |Rimosso a partire da 15 febbraio 2018. Questa modifica riguarda i clienti che eseguono Dynamics 365 for Operations, versione 1611 e versioni successive.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Estensione dell'elenco di funzioni di creazione di report elettronici (ER)
 La possibilità di introdurre funzioni personalizzate da utilizzare nel generatore di espressioni ER (per ulteriori informazioni, vedere [Estendere l'elenco delle funzioni di creazione di report elettronici](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) non è più supportata. A causa delle modifiche apportate alle API ER, l'API per richiamare funzioni integrate dal generatore di espressioni ER è diventata interna e non può essere più estesa.
@@ -132,6 +143,19 @@ Queste imposte sono state importate nella GST indiana.
 | **Opzione di distribuzione**                       | Tutti i moduli                                                                    |
 | **Stato**                                  | Deprecato: la data di eliminazione non è stata impostata per questa funzionalità.  |    
 
+
+## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
+
+### <a name="personalized-product-recommendations"></a>Suggerimenti sul prodotto personalizzati 
+A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare consigli personalizzati sui prodotti su dispositivi POS. Per ulteriori informazioni, vedere [Panoramica dei suggerimenti sul prodotto personalizzati](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Durante la nuova progettazione della funzionalità del servizio di suggerimenti prodotto con un algoritmo migliore e nuove funzionalità orientate alla vendita al dettaglio, verrà rimossa la versione corrente di tale servizio.  |
+| **Sostituita da un'altra funzionalità?**   | N. Tuttavia, dopo la primavera del 2018, è in programma il ripristino di questa funzionalità per un nuovo servizio di suggerimenti   |
+| **Aree del prodotto interessate**         | Suggerimenti sul prodotto personalizzati nel POS.                                                    |
+| **Opzione di distribuzione**              | Tutti                                                                                      |
+| **Stato**                         |Rimosso a partire da 15 febbraio 2018. Questa modifica riguarda i clienti che eseguono Dynamics 365 for Retail, versione 7.2 e versioni successive. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition di luglio 2017 con aggiornamento della piattaforma 8
@@ -812,7 +836,7 @@ La creazione della notifica anticipata non può essere effettuata operazione uti
 
 ### <a name="gl-ssrs-reports"></a>Report GL SSRS
 
-Report che includono le seguenti voci di menu sono stati rimossi: **Bilancio di verifica riepilogativo****Bilancio di verifica dettagliato****Piano dei conti****Audit trail**, **Saldi** e **Elenco saldi**.
+Report che includono le seguenti voci di menu sono stati rimossi: **Bilancio di verifica riepilogativo** **Bilancio di verifica dettagliato** **Piano dei conti** **Audit trail**, **Saldi** e **Elenco saldi**.
 
 |   |  |
 |------------|--------------------|
