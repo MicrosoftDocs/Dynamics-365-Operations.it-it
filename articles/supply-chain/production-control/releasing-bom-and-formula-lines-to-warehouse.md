@@ -18,14 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 6aec3532a36a2c1e67ee0c189e45a352ad7670f6
+ms.sourcegitcommit: a1e539c283800035327196520f6438904c94126d
+ms.openlocfilehash: 0affc07293c886c4c65f99259eb19f1998f277f6
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Rilascio delle righe di formula e DBA nel magazzino
+
+[!include[banner](../includes/banner.md)]
 
 In questo argomento viene descritto il processo per il rilascio di materie prime per righe distinta base (DBA) e righe formula nel magazzino. Quando si rilascia una DBA o una riga formula nel magazzino, il sistema determina innanzitutto se il materiale è già disponibile nell'ubicazione di input di produzione nello shop floor in cui il materiale verrà consumato per il processo di produzione.
 
@@ -40,6 +42,9 @@ Il metodo utilizzato per rilasciare DBA e righe formula è controllato dal param
 
 - **Rilascio DBA e righe formula come parte del rilascio di un ordine di produzione o di un ordine batch** - In questo metodo, DBA e righe per un ordine di produzione o un ordine batch vengono rilasciate durante il processo di rilascio di un ordine. Di solito, durante il rilascio di un ordine di produzione o batch, i processi di produzione vengono rilasciati per per i lavoratori del reparto produzione e vengono stampati i documenti di produzione. Durante questo processo, lo stato dell'ordine viene modificato come **Rilasciato**.
 - **Rilascio di DBA e righe formula mediante un processo batch o come interazione manuale** - In questo metodo, DBA e righe formula possono essere rilasciate solo tramite il processo batch **Rilascio automatico di righe di DBA e di formula** o come interazione manuale. Per rilasciare manualmente DBA e righe formula, nella pagina elenco dell'ordine di produzione o nella pagina dettagli dell'ordine di produzione, nel riquadro azioni **Rilascia in magazzino**.
+
+Per una rapida dimostrazione di come rilasciare BOM e righe formula in produzione utilizzando un processo batch, guardare questo breve video di YouTube:
+[!Video https://www.youtube.com/embed/8urAJn50dQ8]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Rilascio di DBA e righe formula utilizzando un processo batch
 
@@ -79,6 +84,9 @@ Per controllare le operazioni per cui il materiale deve essere rilasciato, utili
 Nella figura seguente viene illustrato un ordine di produzione con due operazioni, 10 e 20. In questo esempio, se si limita il rilascio all'operazione 10, solo il materiale M9203 verrà rilasciato.
 
 ![Esempio di rilascio di materiali per numero di operazione](media/two-operations.PNG)
+
+Per una rapida dimostrazione di come distribuire materiale in proporzione alla quantità di prodotti finiti, guardare questo breve video di YouTube:
+[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Rilasciare materiale proporzionalmente alla quantità di prodotti finiti
 

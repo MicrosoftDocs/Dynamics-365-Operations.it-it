@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,16 +17,17 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 599440449f1e8c8dcc3762ce9f6da7a37beb358f
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 1492e4d8220a3d515145d97ef8dad048727d97c8
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
 # <a name="import-iso20022-files"></a>Importare file ISO20022
 
-## <a name="overview"></a>Panoramica
+[!include[banner](../includes/banner.md)]
+
 È possibile importare file di pagamento con i seguenti formati:
 
  - **Avviso di accredito ISO20022 camt.054**: importare pagamenti ricevuti da un file in questo formato nel giornale di registrazione pagamenti del cliente.
@@ -40,7 +42,7 @@ ms.lasthandoff: 11/03/2017
 4. Nella pagina **Conti bancari** impostare i conti bancari della persona giuridica immettendo le seguenti informazioni: IBAN o numero di conto bancario, codice SWIFT o numero di registrazione, valuta e indirizzo.
 
     > [!NOTE]
-    > Se si prevede di utilizzare la riconciliazione degli estratti conto avanzata, nella scheda dettaglio **Riconciliazione** impostare l'opzione **Riconciliazione estratti conto avanzata** su **Sì**. Se si prevede di riconciliare i pagamenti importati non registrati, impostare l'opzione **Utilizza rendiconti bancari come conferma di pagamenti elettronici** su **Sì**.
+        > Se si prevede di utilizzare la riconciliazione degli estratti conto avanzata, nella scheda dettaglio **Riconciliazione** impostare l'opzione **Riconciliazione estratti conto avanzata** su **Sì**. Se si prevede di riconciliare i pagamenti importati non registrati, impostare l'opzione **Utilizza rendiconti bancari come conferma di pagamenti elettronici** su **Sì**.
 
 5. Facoltativo: nella pagina **Mapping dei codici transazione** impostare il mapping tra codici di transazione bancaria nel file e tipi di transazioni bancarie.
 6. Se il file contiene spese di transazione che si desidera registrare insieme al pagamento ricevuto, creare una commissione di pagamento nella pagina **Commissione pagamento cliente**. Quindi, nella pagina **Metodi di pagamento** associare la commissione di pagamento al conto bancario nell'impostazione della commissione di pagamento.
@@ -53,9 +55,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>Importare il file di avviso di accredito camt.054 nel giornale di registrazione pagamenti cliente
 1. Nella pagina **Righe giornale di registrazione pagamenti cliente** fare clic su **Funzioni** > **Importa pagamenti**.
 2. Selezionare il metodo di pagamento con le impostazioni richieste per il formato ISO20022 camt.054.
-3. Specificare i parametri necessari e il percorso del file, quindi fare clic su **OK**.
-
-Il file viene importato.
+3. Specificare i parametri necessari e il percorso del file, quindi fare clic su **OK**. Il file viene importato.
 
 ## <a name="prerequisites-for-importing-files-in-the-pain002-status-return-and-camt054-debit-advice-formats-into-the-ap-payment-transfer-journal"></a>Prerequisiti per l'importazione di file nel reso con stato pain.002 e di formati di avviso di addebito camt.054 nel giornale di registrazione trasferimenti pagamenti di contabilità fornitori.
 È necessario completare i seguenti prerequisiti per importare messaggi bancari nei seguenti formati ISO20022 nella pagina **Trasferimento pagamenti fornitore** : messaggi di reso con stato pain.002.001.003 e avviso di addebito camt.054.001.002.

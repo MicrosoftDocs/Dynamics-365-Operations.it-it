@@ -1,5 +1,5 @@
 ---
-title: Operazioni POS
+title: Operazioni POS, online e offline
 description: "In questo argomento vengono forniti i dettagli relativi alle operazioni POS in Microsoft Dynamics 365 for Retail. Specifica dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili in modalità offline."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
-# <a name="pos-operations"></a>Operazioni POS
+# <a name="pos-operations-online-and-offline"></a>Operazioni POS, online e offline
+
+[!include[banner](includes/banner.md)]
+
 La maggior parte delle azioni che l'utente esegue nel POS sono considerate operazioni. Le operazioni vengono configurate e gestite nel back office di Microsoft Dynamics 365 for Retail. Molte operazioni possono essere aggiunte ai pulsanti nella griglia dei pulsanti POS. Gli utenti possono quindi selezionare i pulsanti per richiamare le operazioni ed eseguirne la funzione. Altre operazioni fanno parte dell'applicazione POS principale e vengono richiamate mediante pulsanti sullo schermo o come parte di altri flussi di lavoro o processi.
 
 Nella seguente tabella vengono forniti i dettagli relativi alle operazioni disponibili in Retail Modern POS e POS cloud per Dynamics 365 for Retail. La tabella specifica anche dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili quando il POS è in modalità offline.

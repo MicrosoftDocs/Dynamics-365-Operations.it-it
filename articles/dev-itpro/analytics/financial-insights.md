@@ -3,7 +3,7 @@ title: Informazioni finanziarie dettagliate
 description: Informazioni finanziarie dettagliate utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari.
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: it-it
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ Attualmente, i dati sui report Power BI incorporati non possono essere limitati 
 | Visualizza informazioni finanziarie dettagliate della società   | • In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, questi diritti non sono assegnati a un ruolo. • Nella versione successiva, questi diritti verranno assegnati al ruolo Responsabile finanziario. | • Questi diritti consentono di accedere alla voce di menu per l'area di lavoro Panoramica responsabile finanziario. • Per impostazione predefinita, la società attiva viene utilizzata come filtro. Tuttavia, è possibile aggiungere tutte le persone giuridiche, indipendentemente dal fatto che l'utente abbia accesso ad altre persone giuridiche.             |
 
 
-## <a name="how-financial-statements-work"></a>Funzionamento dei rendiconti finanziari
-Sebbene **Informazioni finanziarie dettagliate** contenga rendiconti finanziari, non sostituisce i report finanziari di Finance and Operations. I rendiconti finanziari predefiniti **Informazioni finanziarie dettagliate** sono di portata limitata e non includono tutti i tipi di rendiconti finanziari. Il reporting finanziario è ancora lo strumento principale per progettare, creare e generare rendiconti finanziari statutari di legge.
+## <a name="financial-reporting-vs-finanical-insights"></a>Confronto tra Creazione di report finanziari e Informazioni finanziarie dettagliate
+Sebbene **Informazioni finanziarie dettagliate** contenga rendiconti finanziari, non sostituisce la creazione di report finanziari di Finance and Operations. I rendiconti finanziari predefiniti di **Informazioni finanziarie dettagliate** sono di portata limitata e non includono tutti i tipi di rendiconti finanziari. Il reporting finanziario è ancora lo strumento principale per progettare, creare e generare rendiconti finanziari statutari di legge.
 
-Oltre agli oggetti grafici dell'area di lavoro originale **Panoramica responsabile finanziario**, sono ora disponibili nuovi KPI, grafici e rendiconti finanziari. Sono disponibili i seguenti rendiconti finanziari:
+La seguente tabella di confronto aiuterà a differenziare le due opzioni:
+
+|                                         | **Report finanziari**                            | **Informazioni finanziarie dettagliate**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Modifica report personalizzati**                | Sì                                                | No                                 | | **Creazione nuovi report**                  | Sì                                                | No                                 | | **Stampa report**                       | Sì                                                | No                                 | | **Esportazione in Excel**                     | Sì          | Limitato a esportaz. dati non elaborati in Excel, report senza formattazione       | | **Supporto per gerarchia organizzativa/di reporting**   | Sì                               | No                                 | | **Report per dati di giorn. reg. secondari**       | Sì, limitato solo a fornitore, cliente    | Sì, fornitore, cliente, gruppi fornitore/cliente, indirizzi fornitore/cliente, ecc.  | | **Valuta di dichiarazione**      | Sì, valuta di contabilizzazione e conversione in valuta di dichiarazione       | No, solo valuta di contabilizzazione      | | **Sicurezza**                | Sì, con aderenza a Finance and Operations e alla sicurezza dell'albero gerarchico di reporting  | Visualizzazione limitata a report di tutte le società (indipendentemente dalla sicurezza di Finance and Operations) o solo per la società attiva | | **Supporto per diversi piani dei conti e anni fiscali** | Sì                   | No                   | | **Report per dati esterni**                              | No                   | No                                   | | **Supporto per consolidamenti**                               | Sì                          | Limitato, report per più società ma solo con valuta di contabilizzazione                                     |
+
+
+Oltre all'interfaccia utente dell'area di lavoro originale **Panoramica responsabile finanziario**, sono ora disponibili nuovi KPI, grafici e rendiconti finanziari. Sono disponibili i seguenti rendiconti finanziari:
 
 •   Bilancio di verifica
 
@@ -117,7 +122,7 @@ Oltre agli oggetti grafici dell'area di lavoro originale **Panoramica responsabi
 
 •   Conto economico con scostamenti
 
-•   Conto economico tendenza 12 mesi – Predefinito
+•   Conto economico tendenza 12 mesi - Predefinito
 
 •   Tendenza spese triennale
 

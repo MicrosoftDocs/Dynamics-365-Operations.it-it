@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 33130a4061f22335aeeffa69c478b693604393a9
-ms.openlocfilehash: a57f306ba02c5758c39c4bd29d9a4fa0d7efbcd3
+ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
+ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
 ms.contentlocale: it-it
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -109,10 +109,10 @@ Usare i seguenti criteri per selezionare e aggiornare i prodotti o le varianti d
 
 ## <a name="related-topics"></a>Argomenti correlati
 
--  Creare un nuovo stato del ciclo di vita prodotto
--  Creare uno stato predefinito del ciclo di vita prodotto
--  Assegnare uno stato del ciclo di vita prodotto a una rappresentazione generale prodotto rilasciato
--  Assegnare uno stato del ciclo di vita prodotto a un prodotto rilasciato
--  Trovare i prodotti o le varianti prodotto obsoleti e associare uno stato del ciclo di vita
--  Creare uno stato del ciclo di vita del prodotto per escludere i prodotti dalla pianificazione principale
+-  [Creare uno stato del ciclo di vita di prodotto (guida attività)](tasks/new-product-lifecycle-state.md)
+-  [Creare uno stato del ciclo di vita di prodotto predfinito (guida attività)](tasks/default-product-lifecycle-state.md)
+-  [Assegnare uno stato del ciclo di vita di prodotto a una rappresentazione generale prodotto rilasciato (guida attività)](tasks/product-lifecycle-state-released-product-master.md)
+-  [Assegnare uno stato del ciclo di vita di prodotto a un prodotto rilasciato (guida attività)](tasks/product-lifecycle-state-released-product.md)
+-  [Trovare i prodotti o le varianti prodotto obsoleti e associare uno stato del ciclo di vita (guida attività)](tasks/obsolete-product-variants.md)
+-  [Creare uno stato del ciclo di vita del prodotto per escludere i prodotti dalla pianificazione principale (guida attività)](tasks/exclude-products-master-planning.md)
 

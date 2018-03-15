@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0692518afc5c8b385773dad3c44dc4e3c978362b
+ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
+ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -87,7 +87,7 @@ Quando le *fatture fornitore* arrivano dal fornitore è necessario prima registr
 
 Le *distribuzioni contabili* possono essere specificate nell'ordine fornitore per descrivere come deve essere effettuata la registrazione in contabilità generale ed è inoltre possibile definire la modalità di allocazione dei fondi di budget se questa è inclusa nella configurazione.  
 
-Per gli ordini fornitore fatturati verrà registrata la passività nel conto fornitore all'interno della contabilità fornitori da cui sarà possibile elaborare il ***pagamento fornitore*.
+Per gli ordini fornitore fatturati verrà registrata la passività nel conto fornitore all'interno della contabilità fornitori da cui sarà possibile elaborare il *pagamento fornitore*.
 
 ## <a name="vendor-performance"></a>Prestazioni fornitore
 Le prestazioni e la verifica dell'acquisto sono supportati tramite i *report di contabilità fornitori o approvvigionamento* che includono l'analisi della spesa e delle prestazioni del fornitore.

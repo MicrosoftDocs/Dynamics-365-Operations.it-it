@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
+ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
+ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
 ms.contentlocale: it-it
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -50,6 +50,9 @@ Di seguito vengono riportati i passaggi per l'importazione o l'esportazione di d
 6. Pulire le tabelle di gestione temporanea.
 
 Le altre sezioni di questo argomento forniscono ulteriori dettagli su ogni fase del processo.
+
+> [!NOTE]
+> Per aggiornare il modulo di importazione/esportazione dei dati per visualizzare i progressi più recenti, utilizzare l'icona di aggiornamento dei moduli. L'aggiornamento a livello del browser non è consigliato perché interromperebbe qualsiasi lavoro di importazione/esportazione che non viene eseguito in batch.
 
 ## <a name="create-an-import-or-export-job"></a>Creare un processo di importazione o di esportazione
 Un processo di importazione o esportazione di dati può essere eseguito una sola volta oppure più volte.

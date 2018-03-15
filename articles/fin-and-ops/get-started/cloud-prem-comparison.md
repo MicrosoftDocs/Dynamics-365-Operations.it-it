@@ -3,7 +3,7 @@ title: "Confronto tra funzionalità cloud e locali"
 description: "Questo argomento fornisce informazioni sulla disponibilità delle funzionalità cloud e locali supportate."
 author: robinarh
 manager: AnnBe
-ms.date: 11/29/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
-ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
+ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
+ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -49,8 +49,9 @@ Nelle tabelle seguenti sono elencate le aree del prodotto. Il supporto cloud e l
 | | Pacchetto di contenuti per la gestione dei costi in Power BI | Sì | No |
 | Gestione dati e integrazione| | Sì | Sì |
 | | Estensione basata sulla configurazione| Sì | No |
-| | Esportazione di dati nel proprio magazzino dati| Sì | No |
+| | Esportazione di dati nel proprio magazzino dati| Sì | Sì |
 | | Attivazione dell'esportazione di aggiornamenti incrementali in un'entità di dati | Sì | No |
+| | Integrazioni ricorrenti                 |Sì | No|
 | Gestione documenti| | Sì| Sì |
 | Gestione finanziaria|  | Sì | Sì |
 | ?| | Sì | No |
