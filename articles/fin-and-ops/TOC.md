@@ -21,6 +21,7 @@
 #### [Funzionalità di AX 2012 posticipate](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Funzionalità non implementate nelle distribuzioni locali](get-started/features-not-implemented-on-prem.md)
 #### [Versioni e criteri del ciclo di vita](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Distribuzioni locali (marzo 2018)](get-started/whats-new-LBD-PU12-App72.md)
 #### [Platform update 13 (gennaio 2018)](get-started/whats-new-platform-update-13.md)
 #### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12 (novembre 2017)](get-started/whats-new-platform-update-12.md)
@@ -134,7 +135,7 @@
 ### [​Pacchetto di contenuti per la gestione dei costi in Power BI](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Integrazione dati
-### [Modelli di integrazione](../dev-itpro/data-entities/integration-overview.md)
+### [Scegliere una strategia di integrazione dei dati (importazione o esportazione)](../dev-itpro/data-entities/integration-overview.md)
 
 ### API di integrazione dati
 #### [API di pacchetti di gestione dei dati](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [Gestire i conti in Sales e sincronizzarli direttamente da Sales in Finance and Operations.](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [Gestire i prodotti in Finance and Operations e sincronizzarli direttamente in Sales.](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [Gestire i contatti in Sales e sincronizzarli direttamente con contatti o clienti in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Sincronizzare direttamente le offerte di vendita da Sales in Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [Sincronizzare direttamente gli ordini cliente da Finance and Operations in Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Sincronizzare direttamente gli ordini cliente tra Sales e Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [Sincronizzare direttamente le fatture cliente da Finance and Operations in Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Gestire l'offerta di vendita in Sales e sincronizzarla direttamente in Finance and Operations.](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Gestire gli ordini cliente in Finance and Operations e sincronizzarli direttamente in Sales.](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Gestire le fatture di vendita in Finance and Operations e sincronizzarli direttamente in Sales.](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [Utilizzo dei servizi Web esterni](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,7 +473,13 @@
 #### [Distribuzioni su una nota spese](../financials/expense-management/expense-report-distributions.md)
 #### [Spese interaziendali](../financials/expense-management/intercompany-expense.md)
 #### [Criteri di spesa](../financials/expense-management/travel-expense-policies.md)
-
+#### [Visualizzare una nota spese](../financials/expense-management/view-expense-report.md)
+#### [Registrare una nota spese](../financials/expense-management/post-expense.md)
+#### [Note spese e più approvatori](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [Recupero IVA in Gestione spese](../financials/expense-management/VAT-expense-report.md)
+#### [Regole relative alla trasferta giornaliera](../financials/expense-management/per-diem.md)
+#### [Richieste di viaggio](../financials/expense-management/travel-req.md)
+#### [Spese personali in una nota spese](../financials/expense-management/personal-expenses.md)
 
 ### [Impostazione budget](../financials/budgeting/budgeting-overview.md)
 #### [Panoramica della pianificazione del budget ](../financials/budgeting/budget-planning-overview-configuration.md)
@@ -631,6 +637,8 @@
 ##### [Integrazione del motore fiscale](../financials/general-ledger/tax-engine-integration.md)
 ##### [Domande frequenti sulle soglie fiscali](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [Estensione del motore fiscale](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [Integrazione GST per i registratori di cassa](../retail/localizations/apac-ind-cash-registers.md)
+##### [Linee guida per la distribuzione dei registratori di cassa](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### Giappone
 ##### [Acquisire un cespite e richiedere la sovvenzione governativa](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [Formati di pagamento cliente e fornitore](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [Pagamento diretto basato su ID pagamento](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [Formato di importazione Nets](../financials/localizations/emea-nor-nets-import-format.md)
-##### [Dichiarazione IVA](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [Dichiarazione IVA](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [Registratori di cassa](../retail/localizations/emea-nor-cash-registers.md)
+##### [Linee guida per la distribuzione dei registratori di cassa](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### Polonia
 ##### [Calcolare gli sconti riga dal prezzo unitario](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [Note di correzione](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [Movimenti speciali e bilanci di apertura](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Svezia
 ##### [Importare i formati di pagamento](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Registratori di cassa](../retail/localizations/emea-swe-cash-registers.md)
 #### Svizzera
 ##### [Importare i pagamenti cliente in ESR](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### Regno Unito
@@ -1644,6 +1656,7 @@
 ##### [Risorse operative](../supply-chain/production-control/operations-resources.md)
 ##### [Capacità risorsa](../supply-chain/production-control/resource-capabilities.md)
 ##### [Attributi batch](../supply-chain/production-control/batch-attributes.md).
+##### [Bilanciamento del batch](../supply-chain/production-control/batch-balancing.md)
 ##### [Copiare una formula (guide attività)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [Creare una formula effettuando la copia da una formula esistente (guida attività)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Copiare co-prodotti da una versione di formula esistente (guida attività)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,6 +1821,7 @@
 #### [Criteri di immagazzinamento e unità di misura](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Contenuto Power BI per magazzino](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Raggruppamento di sistema in un elenco lavori aperti](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### [Eseguire la scansione dei codici a barre utilizzando una fotocamera in Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Supporto codici a barre per dispositivi mobili](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Criteri di lavoro magazzino](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Movimento di magazzino con lavoro associato nella gestione magazzino](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1818,6 +1832,7 @@
 #### [Ricevimento targa mista](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Configurare la visualizzazione dei batch meno recenti di un magazzino su un dispositivo mobile](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Prelevare il batch meno recente su un dispositivo mobile](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [Eseguire la scansione dei codici a barre utilizzando una fotocamera in Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Conferma di prelievo pezzi](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [Conferma prodotto per prelievo cluster](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [Rilascio batch degli ordini di trasferimento parzialmente prenotati](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
