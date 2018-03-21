@@ -38,9 +38,10 @@
 
 # Impostazione e gestione del canale
 ## [Inizializzare i dati iniziali in un ambiente Retail](enable-configure-retail-functionality.md)
-## [Definire canali Retail](define-maintain-retail-channels.md)
+## [Definire i canali di vendita al dettaglio](define-maintain-retail-channels.md)
+## [Gestione dell'assortimento](assortments.md)
 ## [Panoramica dei negozi online](online-stores.md)
-## [Configurare e installare una stazione hardware Retail](retail-hardware-station-configuration-installation.md)
+## [Configurare e installare Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [Orario e presenze Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) e Cloud POS
@@ -55,6 +56,7 @@
 ## Layout schermo
 ### [Configurare i layout schermo per POS](pos-screen-layouts.md)
 ### [Installare lo strumento di progettazione layout Retail POS](install-pos-layout-designer.md)
+### [Scegliere le impostazioni di notifica](Notifications-POS.md)
 ### [Applicazione POS e impostazioni della lingua dell'utente](pos-application-user-language-settings.md)
 ### [Impostare le immagini per MPOS](set-up-manage-images-retail-mpos.md)
 ## [Panoramica dei codici informativi](info-codes-retail.md) 
@@ -99,7 +101,8 @@
 
 # Prodotti e merchandising
 ## [Panoramica delle informazioni sul prodotto](../supply-chain/pim/product-information.md)
-## [Gerarchie Retail](retail-hierarchies.md)
+## [Gerarchie vendita al dettaglio](retail-hierarchies.md)
+## [Panoramica degli attributi e dei gruppi di attributo](attribute-attributegroups-lifecycle.md)
 ## [Creare e gestire gli attributi](create-manage-attributes.md)
 ## [Impostare prodotti Retail](set-up-retail-products.md)
 ## [Dimensioni prodotto](../supply-chain/pim/product-dimensions.md)
@@ -130,6 +133,16 @@
 # Risorse umane
 ## [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](../talent/departments-jobs-positions.md)
 ## [Impostazione dei componenti di una mansione](../talent/create-job.md)
+
+# Funzionalità per la normativa e la localizzazione
+## India
+### [Integrazione GST per i registratori di cassa in India](localizations/apac-ind-cash-registers.md)
+### [Linee guida per la distribuzione dei registratori di cassa per l'India](localizations/apac-ind-loc-deployment-guidelines.md)
+## Norvegia
+### [Registratori di cassa per la Norvegia](localizations/emea-nor-cash-registers.md)
+### [Linee guida per la distribuzione dei registratori di cassa per la Norvegia](localizations/emea-nor-loc-deployment-guidelines.md)
+## Svezia
+### [Registratori di cassa per la Svezia](localizations/emea-swe-cash-registers.md)
 
 # Attività Retail
 ## [Creare un prodotto](../supply-chain/pim/tasks/create-product.md)
@@ -249,10 +262,6 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Integrare Retail SDK con il sistema di compilazione continua](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Esempi di estendibilità di Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Registratori di cassa per la Svezia](localizations/emea-swe-cash-registers.md)
-### [Esempio di integrazione Retail POS con unità di controllo per la Svezia](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Registratori di cassa per la Norvegia](localizations/emea-nor-cash-registers.md)
-### [Linee guida per la distribuzione dei registratori di cassa per la Norvegia](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Confezione di Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Esempi di Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Estensioni del database del canale](dev-itpro/channel-db-extensions.md)
