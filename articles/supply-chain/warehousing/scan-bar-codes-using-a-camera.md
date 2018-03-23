@@ -18,14 +18,16 @@ ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ffbd853c15e479fc4350a19121f2aebcedda9854
-ms.openlocfilehash: 31b9d421f3fd5378f26faeee3a83b66861ef5008
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
 ms.contentlocale: it-it
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Eseguire la scansione dei codici a barre utilizzando una fotocamera in Dynamics 365 for Finance and Operations - Magazzino
+
+[!include[banner](../includes/banner.md)]
 
 In questo argomento viene descritto come installare Dynamics 365 for Finance and Operations - Magazzino per eseguire la scansione dei codici a barre utilizzando una fotocamera su un dispositivo mobile. 
 
@@ -47,8 +49,8 @@ La pagina della fotocamera verrà avviata in ogni pagina in cui il campo di inpu
 - Fare clic sulla fotocamera alla pagina dei dettagli e delle attività per tornare alla pagina della fotocamera. 
 
 | Pagina dei dettagli e delle attività | Pagina della fotocamera | 
-| --------------------- | -------------------- |
-| ![pagina dettagli attività di esempio scansione fotocamera](media/camera-scanning-example-task-detail-page.png)          | ![pagina fotocamera di esempio scansione](media/camera-scanning-example-camera-page.png)          |
+| :---------------------: | :--------------------: |
+| ![pagina dettagli attività di esempio scansione fotocamera](./media/camera-scanning-example-task-detail-page50.png)          | ![pagina fotocamera di esempio scansione fotocamera minori dimensioni](./media/camera-scanning-example-camera-page50.png)          |
 
 Nella pagina della fotocamera, facendo clic sul pulsante Fotocamera, questo appare inattivo durante il tentativo di identificare un codice a barre. Se un codice a barre non viene identificato entro 5 secondi, il processo si interrompe e il pulsante Fotocamera diventa nuovamente disponibile. Sarà quindi possibile provare ad eseguire di nuovo la scansione di un codice a barre.
 

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e9d7e756c56932372ed931620016973c794fb3fc
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: 347509a9556f15e7d880508e36516f04bc6964b7
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -138,7 +138,7 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 
 [Sincronizzare contatti direttamente da Sales con contatti o clienti in Finance and Operations](contacts-template-mapping-direct.md)
 
-[Sincronizzare intestazioni e righe di ordini cliente direttamente da Finance and Operations in Sales](sales-order-template-mapping-direct.md)
+[Sincronizzare intestazioni e righe di ordini cliente direttamente da Finance and Operations in Sales](sales-order-template-mapping-direct-two-ways.md)
 
 
 

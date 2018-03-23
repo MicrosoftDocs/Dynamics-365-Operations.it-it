@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
 ms.contentlocale: it-it
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
@@ -52,7 +52,7 @@ Finance and Operations include una Guida basata su due componenti principali:
 Questo argomento descrive la Guida e spiega come creare documentazione e risorse di formazione personalizzate per l'organizzazione.
 
 > [!IMPORTANT]
-> La scheda **Guide attività** non è attualmente disponibile in Microsoft Dynamics 365 for Talent e Microsoft Dynamics 365 for Retail. Attualmente si lavora per abilitare questa funzionalità in una versione successiva. Le Guide attività nell'esperienza Attività iniziali in Talent rimangono disponibili per coprire le funzionalità di base. La Guida sulle procedure è inoltre disponibile nel sito docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md) per Retail e Talent.
+> La scheda **Guide attività** non è attualmente disponibile in Microsoft Dynamics 365 for Talent e Microsoft Dynamics 365 for Retail. Attualmente si lavora per abilitare questa funzionalità in una versione successiva. Le Guide attività nell'esperienza Attività iniziali in Talent rimangono disponibili per coprire le funzionalità di base. La Guida sulle procedure è inoltre disponibile nel sito docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) per Retail e Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Guida sul sito docs.microsoft.com
 
@@ -115,7 +115,7 @@ Per ulteriori informazioni, consultare la guida del collaboratore: https://githu
 
 > [!NOTE]
 > Solo i contributi ai repository in inglese sono attualmente accettati.  
-> Non vengono accettati problemi segnalati mediante GitHub; assicurarsi di utilizzare una richiesta pull per suggerimenti relativi al contenuto. La gestione di commenti e suggerimenti relativi a prodotti e funzionalità risulta più rapida e semplice mediante il portale delle idee di Dynamics 365: https://ideas.dynamics.com/ideas/. 
+> Non vengono accettati problemi segnalati mediante GitHub; assicurarsi di utilizzare una richiesta pull per suggerimenti relativi al contenuto. La gestione di commenti e suggerimenti relativi a prodotti e funzionalità risulta più rapida e semplice mediante il portale delle idee di Dynamics 365: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Guide attività
