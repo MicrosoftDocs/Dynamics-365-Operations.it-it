@@ -3,7 +3,7 @@ title: Sincronizzazione di ordini cliente direttamente tra Sales e Finance and O
 description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
+ms.sourcegitcommit: 0928f9c0af52c2e19f0669841e433423ae9db467
+ms.openlocfilehash: 09c5cd14c5948818878d3f830639abc166d7072e
 ms.contentlocale: it-it
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -132,6 +132,7 @@ Prima di sincronizzare gli ordini cliente, è importante aggiornare le impostazi
 
     Andare a **Impostazioni** &gt; **Sicurezza** &gt; **Team**, selezionare il team pertinente, selezionare **Gestisci ruoli** e selezionare un ruolo con le autorizzazioni desiderate, ad esempio **Amministratore di sistema**.
 
+- Per garantire il calcolo corretto degli sconti in Sales e in Finance and Operations, il campo **Metodo di calcolo sconto** deve essere impostato su **Voce**.
 - Andare a **Impostazioni** &gt; **Amministrazione** &gt; **Impostazioni di sistema** &gt; **Vendite** e assicurarsi che:
 
     - L'opzione **Usa sistema di calcolo prezzi sistema** sia impostata su **Sì**.

@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
+ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
+ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
 ms.contentlocale: it-it
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/06/2018
 
 ---
 
@@ -99,6 +99,8 @@ Per abilitare Finance and Operations a utilizzare l'applicazione Azure AD, è ne
     <br>**Nota**: non terminare questo campo con un carattere di barra (/). 
     + **Società** - Immettere la persona giuridica in Finance and Operations a cui si desidera connettere l'applicazione. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Selezionare il pulsante **Indietro** nell'angolo superiore sinistro dell'applicazione. L'applicazione si connetterà al server Finance and Operations e apparirà la schermata di accesso per il lavoratore di magazzino. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+
+Per informazioni su come impostare Dynamics 365 for Finance and Operations - Magazzino per eseguire la scansione dei codici a barre utilizzando una fotocamera su un dispositivo mobile, vedere [Eseguire la scansione dei codici a barre utilizzando una fotocamera in Dynamics 365 for Finance and Operations - Magazzino](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>Rimuovere l'accesso per un dispositivo
 In caso di un dispositivo perso o compromesso, è necessario rimuovere l'accesso a Finance and Operations del dispositivo. Nei passaggi seguenti viene descritto il processo consigliato per rimuovere l'accesso.

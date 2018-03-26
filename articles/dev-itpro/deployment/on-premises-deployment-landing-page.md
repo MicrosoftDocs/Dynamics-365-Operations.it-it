@@ -3,7 +3,7 @@ title: Distribuzione locale
 description: Questo argomento fornisce informazioni sulle distribuzioni locali e collegamenti a contenuti ad esse correlati.
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Pagina di destinazione relativa alla distribuzione locale
+# <a name="on-premises-deployment-home-page"></a>Home page relativa alla distribuzione locale
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,13 +36,13 @@ ms.lasthandoff: 03/06/2018
 - [Pianificazione della distribuzione locale](plan-onprem-deployment.md)
 - [Requisiti di sistema per le distribuzioni locali](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Dimensionamento hardware per ambienti locali](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Criteri del ciclo di vita del software locale e dei servizi online](../migration-upgrade/versions-update-policy.md)
 - [Acquistare Dynamics 365 for Finance and Operations, Enterprise Edition (locale)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Confronto tra funzionalità cloud e locali](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Onboard
 - [Creare un progetto locale in Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Impostare e distribuire in ambienti locali](setup-deploy-on-premises-environments.md)
+- [Impostare e distribuire in ambienti locali (aggiornamento piattaforma 12)](setup-deploy-on-premises-pu12.md)
+- [Impostare e distribuire in ambienti locali (aggiornamento piattaforma 8 e 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Installare le stampanti di rete in ambienti locali](../analytics/install-network-printer-onprem.md)
 - [Configurare SQL Server Reporting Services per una distribuzione locale](../analytics/configure-ssrs-on-premises.md)
 - [Sviluppare e distribuire modelli personalizzati in ambienti locali](develop-deploy-custom-models-on-premises.md)
