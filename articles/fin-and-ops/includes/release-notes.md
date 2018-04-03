@@ -1,0 +1,6 @@
+> [!IMPORTANT]
+> <span data-ttu-id="cb7de-101">**Annuncio delle note sulla versione di Dynamics 365 Spring '18**</span><span class="sxs-lookup"><span data-stu-id="cb7de-101">**Announcing the Dynamics 365 Spring '18 release notes**</span></span>
+>
+> <span data-ttu-id="cb7de-102">Vuoi sapere quali sono le funzionalità imminenti e rilasciate di recente in una delle nostre app o piattaforme aziendali?</span><span class="sxs-lookup"><span data-stu-id="cb7de-102">Wondering about upcoming and recently released capabilities in any of our business apps or platform?</span></span> 
+> 
+> <span data-ttu-id="cb7de-103">[Scarica le note sulla versione Spring '18](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).</span><span class="sxs-lookup"><span data-stu-id="cb7de-103">[Download the Spring '18 release notes](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).</span></span> <span data-ttu-id="cb7de-104">Tutti i dettagli, dall'inizio alla fine e da un lato all'altro, sono stati raccolti in un unico PDF che è possibile utilizzare per la pianificazione.</span><span class="sxs-lookup"><span data-stu-id="cb7de-104">We've captured all the details, end to end, top to bottom, in a single PDF that you can use for planning.</span></span> 
