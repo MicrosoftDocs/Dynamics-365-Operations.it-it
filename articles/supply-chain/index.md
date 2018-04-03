@@ -1,6 +1,6 @@
 ---
 title: Home page di Gestione della supply chain
-description: "In questa pagina viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "In questa pagina viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: it-it
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-In questo argomento viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+In questa pagina viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 Passare alla <a href="https://roadmap.dynamics.com/">roadmap di Dynamics 365</a> per esaminare le nuove funzionalità rilasciate e quelle in via di sviluppo. 
@@ -106,7 +106,7 @@ Numerosi argomenti sulla produzione e sulla gestione della supply chain sono dis
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Laboratori pratici per le funzionalità di contabilità industriale</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: metodo capable-to-promise e programmazione dei processi kanban</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Calcolo DBA tramite uno schema di determinazione dei costi</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilità nel magazzino facilitata da Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilità nel magazzino facilitata da Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Corsi eLearning
 Per informazioni sulla formazione per Microsoft Dynamics 365 for Finance and Operations, vedere il <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">portale della formazione di Microsoft Dynamics</a>. È richiesto l'account CustomerSource. 
