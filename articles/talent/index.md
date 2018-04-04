@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: it-it
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Microsoft Dynamics 365 for Talent consente di semplificare molte attività di ro
 + Impostare, fornire e analizzare corsi di formazione che comprendano agende, sessioni e tracce.
 
 > [!NOTE] 
-> Dynamics 365 for Talent è strettamente correlato alla funzionalità Risorse umane di Dynamics 365 for Finance and Operations, Enterprise Edition. La stessa funzionalità può essere presente in entrambi i prodotti. Di conseguenza, negli argomenti principalmente correlati a Risorse umane il nome del prodotto sarà Dynamics 365 for Finance and Operations, Enterprise Edition, mentre negli argomenti principalmente correlati a Talent il nome del prodotto sarà Dynamics 365 for Talent. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
+> Dynamics 365 for Talent è strettamente correlato alla funzionalità Risorse umane di Dynamics 365 for Finance and Operations. La stessa funzionalità può essere presente in entrambi i prodotti. Di conseguenza, negli argomenti principalmente correlati a Risorse umane il nome del prodotto sarà Dynamics 365 for Finance and Operations, mentre negli argomenti principalmente correlati a Talent il nome del prodotto sarà Dynamics 365 for Talent. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Sviluppare una strategia per la gestione delle risorse umane
 ---------------------------------------------------------

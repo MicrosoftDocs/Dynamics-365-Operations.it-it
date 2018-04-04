@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: it-it
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/08/2018
 Microsoft Dynamics 365 for Retail è una soluzione completa per la vendita al dettaglio che consente di svolgere attività commerciali unificate su tutti i canali. Comprende funzionalità per le vendite, la mobilità, l'intelligence e la produttività, consentendo a rivenditori e lavoratori di essere più efficienti e orientati all'ambiente cloud e mobile. Retail offre supporto completo alle operazioni in una vasta gamma di processi aziendali, quali il merchandising, l'inventario e le funzionalità di gestione di canale. Assicura inoltre esperienze coinvolgenti in tutti i punti di contatto con i clienti.
 
 > [!NOTE] 
-> Dynamics 365 for Retail è strettamente correlato a Dynamics 365 for Finance and Operations, Enterprise Edition e Dynamics 365 for Talent. La stessa funzionalità può essere presente in tutti i tre prodotti. Di conseguenza, negli argomenti principalmente correlati a Retail, il nome prodotto sarà Microsoft Dynamics 365 for Retail, negli argomenti principalmente correlati al prodotto principale (Finance and Operations), il nome prodotto sarà Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e negli argomenti principalmente correlati alle risorse umane, il nome prodotto sarà Dynamics 365 for Talent. 
+> Dynamics 365 for Retail è strettamente correlato a Dynamics 365 for Finance and Operations e Dynamics 365 for Talent. La stessa funzionalità può essere presente in tutti i tre prodotti. Di conseguenza, negli argomenti principalmente correlati a Retail, il nome prodotto sarà Microsoft Dynamics 365 for Retail, negli argomenti principalmente correlati al prodotto principale (Finance and Operations), il nome prodotto sarà Microsoft Dynamics 365 for Finance and Operations e negli argomenti principalmente correlati alle risorse umane, il nome prodotto sarà Dynamics 365 for Talent. 
 
 Nel riquadro a sinistra, selezionare l'area di una funzionalità per ulteriori informazioni.
 
@@ -64,7 +64,7 @@ Prima di poter offrire i prodotti in vendita nei canali di vendita al dettaglio,
 È possibile effettuare rettifiche di prezzo ai prodotti nonché impostare gli sconti applicabili a una voce o una transazione nel POS, in un ordine cliente del servizio clienti o un ordine online.
 
 ## <a name="store-operations-and-pos"></a>Operazioni del punto vendita e POS
-MPOS è un'app POS per PC, tablet e telefoni. Il personale di vendita può elaborare le transazioni di vendita e gli ordini cliente, eseguire attività di fidelizzazione clienti ed effettuare operazioni giornaliere e di gestione dell'inventario su dispositivi mobili ovunque nel punto vendita, nonché nei registratori di cassa basati su PC. POS cloud è un POS basato su browser che può essere avviato in qualsiasi browser standard.
+MPOS è un'app POS per PC, tablet e telefoni. Il personale di vendita può elaborare le transazioni di vendita e gli ordini cliente, eseguire attività di fidelizzazione clienti ed effettuare operazioni giornaliere e di gestione dell'inventario su dispositivi mobili ovunque nel punto vendita, nonché nei registratori di cassa basati su PC. Cloud POS è un POS basato su browser che può essere avviato in qualsiasi browser standard.
 
 Sono diversi i componenti che si impostano per definire le relazioni tra un punto vendita, i registratori di cassa POS del punto vendita e le periferiche di vendita al dettaglio che vengono utilizzate dai registratori per elaborare le transazioni. Vanno inoltre definite le caratteristiche di un'istanza specifica del POS. Queste caratteristiche includono il profilo hardware o l'impostazione delle periferiche di vendita al dettaglio che verranno utilizzate nel registratore di cassa, il punto vendita a cui il registratore è mappato, l'esperienza visiva dell'utente che accede al registratore e le funzionalità abilitate nel registratore. Va anche definito se il registratore può funzionare nello stato offline o disconnesso.
 
