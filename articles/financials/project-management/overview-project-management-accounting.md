@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Un progetto è un gruppo di attività progettato per fornire un servizio, produr
 ## <a name="projects-across-industries"></a>Progetti tra settori
 La funzionalità gestione progetti e contabilità può essere utilizzata in più settori, come illustrato nella figura seguente. [![Progetti tra settori](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-In un call center un ticket può essere utilizzato per descrivere il set di azioni necessarie per risolvere una chiamata. Le società di consulenza, ad esempio le organizzazioni di consulenza tecnica o di gestione oppure le agenzie di pubblicità, fanno riferimento alle loro attività come progetti. Nel marketing una campagna rappresenta un set di lavoro che deve essere consegnato. Nella produzione basata su progetti, un ordine di produzione si riferisce ai vari lavori che devono essere eseguiti per produrre alcuni prodotti finiti. Qualsiasi nome venga utilizzato per i prodotti, questi progetti coinvolgono risorse, programmazioni e costi e la funzionalità gestione progetti e contabilità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition può facilitare la pianificazione, l'esecuzione e l'analisi di questi progetti.
+In un call center un ticket può essere utilizzato per descrivere il set di azioni necessarie per risolvere una chiamata. Le società di consulenza, ad esempio le organizzazioni di consulenza tecnica o di gestione oppure le agenzie di pubblicità, fanno riferimento alle loro attività come progetti. Nel marketing una campagna rappresenta un set di lavoro che deve essere consegnato. Nella produzione basata su progetti, un ordine di produzione si riferisce ai vari lavori che devono essere eseguiti per produrre alcuni prodotti finiti. Qualsiasi nome venga utilizzato per i prodotti, questi progetti coinvolgono risorse, programmazioni e costi e la funzionalità gestione progetti e contabilità di Microsoft Dynamics 365 Finance and Operations può facilitare la pianificazione, l'esecuzione e l'analisi di questi progetti.
 
 ## <a name="project-phases"></a>Fasi progetto
 Sebbene il seguente flusso del processo sia teso verso progetti esterni o progetti che vengono completati per uno o più clienti, la funzionalità si applica anche ai progetti interni e di soli costi. 

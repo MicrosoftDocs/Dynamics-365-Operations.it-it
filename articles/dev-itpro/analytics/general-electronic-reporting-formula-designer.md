@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: it-it
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ In questo argomento viene illustrato come utilizzare designer formula nei report
 
 ER supporta il Designer formula. Di conseguenza, in fase di progettazione, è possibile configurare le espressioni che possono essere utilizzate per le seguenti attività in fase di esecuzione:
 
-- Trasformazione dei dati ricevuti da un database Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e che devono essere inseriti in un modello dati ER progettato per fungere da origine dati per i formati ER. Se ad esempio, le trasformazioni possono includere il filtro, raggruppamento e conversione del tipo di dati.
+- Trasformazione dei dati ricevuti da un database Microsoft Dynamics 365 for Finance and Operations e che devono essere inseriti in un modello dati ER progettato per fungere da origine dati per i formati ER. Se ad esempio, le trasformazioni possono includere il filtro, raggruppamento e conversione del tipo di dati.
 - Formattare i dati che devono essere inviati a un documento elettronico di generazione in conformità al layout e agli stati di un formato specifico di ER. Se ad esempio, la formattazione deve essere eseguita in conformità alla lingua o cultura richiesta o alla codifica.
 - Controllare il processo di creazione di documenti elettronici. Se ad esempio, le eventuali espressioni possono abilitare o disabilitare l'output di elementi specifici del formato, in base all'elaborazione dei dati. Possono inoltre interrompere il processo di creazione del documento o inviare messaggi agli utenti.
 
@@ -216,7 +216,7 @@ Le seguenti tabelle descrivono le funzioni di manipolazione dei dati che è poss
 | TODAY () | Restituisce la data e l'ora del server applicazioni corrente di Finance and Operations come valore di data. | |
 | NULLDATE () | Restituisce un valore di data **null**. | |
 | NULLDATETIME () | Restituisce un valore di data/ora **null**. | |
-| DATETIMEFORMAT (data/ora, formato) | Converte il valore specificato di data/ora in una stringa nel formato specificato. (Per informazioni sui formati supportati, vedere [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizzato](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** restituisce la data del server di applicazioni Finance and Operations, 24 dicembre 2015, come **"24-12-2015"**, basato sul formato specificato personalizzato. |
+| DATETIMEFORMAT (data/ora, formato) | Converte il valore specificato di data/ora in una stringa nel formato specificato. (Per informazioni sui formati supportati, vedere [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizzato](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** restituisce la data del server di applicazioni Finance and Operations, 24 dicembre 2015, come **"24-12-2015"**, basato sul formato specificato personalizzato. |
 | DATETIMEFORMAT (data/ora, impostazioni cultura) | Converte il valore di data/ora specificato in una stringa nel formato e nelle [impostazioni cultura](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) specificati. (Per informazioni sui formati supportati, vedere [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizzato](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW(), "d", "de")** restituisce la data del server applicazioni corrente di Finance and Operations, 24 dicembre 2015, come **"24.12.2015"**, in base alle impostazioni cultura tedesche selezionate. |
 | SESSIONTODAY () | Restituisce la data e l'ora della sessione corrente di Finance and Operations come valore di data. | |
 | SESSIONNOW () | Restituisce la data e l'ora della sessione corrente di Finance and Operations come valore di data/ora. | |
@@ -540,7 +540,7 @@ Anche l'espressione <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> resti
 </tr>
 <tr class="even">
 <td>FORMAT (stringa 1, stringa 2[, stringa 3, …])</td>
-<td>Restituisce la stringa specificata dopo che è stata formattata sostituendo tutte le occorrenze di <strong>%N</strong> con l'argomento <em>n</em>esimo. Gli argomenti sono stringhe. Se un argomento non viene fornito per un parametro, il parametro viene restituito come <strong>&quot;%N&quot;</strong> nella stringa. Per i valori di tipo <strong>real</strong>, la conversione di stringhe è limitata a due posizioni decimali.</td>
+<td>Restituisce la stringa specificata dopo che è stata formattata sostituendo tutte le occorrenze di <strong>%N</strong> con l'argomento <em>n-esimo</em>. Gli argomenti sono stringhe. Se un argomento non viene fornito per un parametro, il parametro viene restituito come <strong>&quot;%N&quot;</strong> nella stringa. Per i valori di tipo <strong>real</strong>, la conversione di stringhe è limitata a due posizioni decimali.</td>
 <td>In questa illustrazione, l'origine dati <strong>PaymentModel</strong> restituisce l'elenco dei record cliente tramite il componente <strong>Customer</strong> il valore della data di elaborazione tramite il campo <strong>ProcessingDate</strong>.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>Nel formato ER che è progettato per generare un file elettronico per i clienti selezionati, <strong>PaymentModel</strong> è selezionato come origine dati e controlla il flusso di processo. Un'eccezione viene generata per informare l'utente quando un cliente selezionato viene interrotto per la data in cui il report viene elaborato. La formula che è stata progettata per questo tipo di controllo di processo può utilizzare le risorse indicate di seguito:</p>

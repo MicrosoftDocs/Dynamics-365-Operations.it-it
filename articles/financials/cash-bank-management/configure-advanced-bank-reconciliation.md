@@ -1,6 +1,6 @@
 ---
 title: Processo di impostazione per la riconciliazione bancaria avanzata
-description: "La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.  In questo articolo verrà spiegata l'impostazione dei processi per la riconciliazione."
+description: "La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations.  In questo articolo verrà spiegata l'impostazione dei processi per la riconciliazione."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aec219f545e880407b9a7d62b2dda4a607ac6bdd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.  In questo articolo verrà spiegata l'impostazione dei processi per la riconciliazione.  
+La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations.  In questo articolo verrà spiegata l'impostazione dei processi per la riconciliazione.  
 
 È necessario impostare una serie di componenti prima di utilizzare la funzionalità di riconciliazione bancaria avanzata. Per ulteriori informazioni sull'impostazione dell'importazione dei rendiconti bancari, vedere [Impostare il processo di importazione dei rendiconti bancari](set-up-advanced-bank-reconciliation-import-process.md).  Di seguito sono descritti i requisiti per l'impostazione del processo di riconciliazione.
 

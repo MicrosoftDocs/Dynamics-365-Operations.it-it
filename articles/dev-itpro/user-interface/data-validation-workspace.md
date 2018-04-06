@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Nella sezione **Attività e stato**, lo stato del progetto di convalida dati in 
 L'Ultima scheda è per l'elenco dettagliato attività. Questo elenco include l'elenco completo delle attività.
 È possibile filtrare l'elenco attività in vari modi. Fare clic su **Modifica attività** per cambiare lo stato di un'attività o assegnare un'attività. Fare clic su **Allegati** per visualizzare gli allegati per un'attività.
 
-Nome dell'attività è un collegamento ipertestuale nella pagina di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition a cui l'utente deve accedere per completare il lavoro. È possibile impostare il collegamento ipertestuale usando il campo **Nome voce di menu** quando si modifica o si crea un'attività dal modulo **Configura progetto di convalida dati**.
+Il nome dell'attività è un collegamento ipertestuale alla pagina di Microsoft Dynamics 365 for Finance and Operations a cui l'utente deve accedere per completare il lavoro. È possibile impostare il collegamento ipertestuale usando il campo **Nome voce di menu** quando si modifica o si crea un'attività dal modulo **Configura progetto di convalida dati**.
 
 È possibile collegare file, note, immagini e URL a un'attività utilizzando l'azione **Allegati**. Ad esempio, è possibile allegare il file di report stampato per un'attività. Un'icona viene visualizzata nella colonna **Allegato** per l'attività se un allegato è presente.
 

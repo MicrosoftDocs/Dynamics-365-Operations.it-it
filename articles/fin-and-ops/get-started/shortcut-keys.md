@@ -1,6 +1,6 @@
 ---
 title: Tasti di scelta rapida
-description: In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vengono utilizzati i tasti di scelta rapida descritti di seguito.
+description: In Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito.
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vengono utilizzati i tasti di scelta rapida descritti di seguito. 
+In Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito. 
 
 **Nota:** i tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
 
@@ -74,7 +74,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Aprire il riquadro Dettaglio informazioni (o spostare lo stato attivo sul riquadro Dettaglio informazioni se è già aperto) | ALT + M,B o CTRL + F2                        |
 | Chiudere il riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                         | ESC                                       |
 | Spostarsi sul riquadro Dettaglio informazioni successivo/precedente (con lo stato attivo nel riquadro Dettaglio informazioni)              | ALT + MAIUSC + Freccia GIÙ/ALT + MAIUSC + Freccia SU |
-| Spostarsi sul riquadro Dettaglio informazioni &lt;n&gt; (con lo stato attivo nel riquadro Dettaglio informazioni)                | ALT+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Spostarsi sull'&lt;n&gt;simo riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Espandere un riquadro Dettaglio informazioni (con lo stato attivo nell'intestazione di Dettaglio informazioni)                             | INVIO o Barra spaziatrice                            |
 | Comprimere il riquadro Dettaglio informazioni corrente                                                    | ALT + 0                                     |
 
@@ -115,9 +115,9 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | **Azione**                                      | **Tasti di premere**                                    |
 | Spostarsi sul campo successivo/precedente                     | TAB/MAIUSC + TAB                              |
 | Spostarsi sulla scheda successiva/precedente                       | ALT + MAIUSC+ Freccia DESTRA/ALT + MAIUSC + Freccia SINISTRA |
-| Spostarsi sulla scheda &lt;n&gt;                         | ALT+MAIUSC+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Spostarsi sull'&lt;n&gt;sima scheda                         | ALT+MAIUSC+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Spostarsi sulla scheda dettaglio successiva/precedente                   | ALT + MAIUSC + Freccia GIÙ/ALT + MAIUSC + Freccia SU    |
-| Spostarsi sulla scheda dettaglio &lt;n&gt;                     | ALT+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Spostarsi sull'&lt;n&gt;sima Scheda dettaglio                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Spostarsi sul pannello successivo/precedente (scheda verticale)      | ALT + MAIUSC+ Freccia DESTRA/ALT + MAIUSC + Freccia SINISTRA |
 | Spostarsi sul pannello &lt;n&gt; (scheda verticale)        | ALT+MAIUSC+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Espandere una scheda dettagli informazioni (con lo stato attivo nell'intestazione della scheda) | INVIO o Barra spaziatrice                               |

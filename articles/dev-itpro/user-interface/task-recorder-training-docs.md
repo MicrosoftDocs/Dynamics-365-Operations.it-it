@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -85,7 +85,7 @@ Così apparirà l'annotazione per le note nella "bolla" della guida attività.
 
 [![schermata4](./media/screen4.png)](./media/screen4.png)
 
--   **Passaggio informativo**: queste annotazioni vengono create facendo clic con il pulsante destro del mouse su un controllo o in un punto qualsiasi su un modulo &lt; **Registrazione attività** &lt; **Aggiungi passaggio informativo. **I passaggi informativi verranno visualizzati come un passaggio numerato in qualsiasi punto vengano immessi, anche se non è stata registrata alcuna azione nell'interfaccia utente. È possibile aggiungere un passaggio informativo a livello di modulo o un passaggio informativo associato a un controllo. Quando un passaggio informativo è associato a un modulo, quando la guida attività viene riprodotta la relativa “bolla" verrà visualizzata in qualche parte del modulo, senza puntatore. Quando un passaggio informativo è associato a un controllo, la "bolla" della guida attività punterà al controllo quando la guida attività viene riprodotta. Nel riquadro della Guida, un'annotazione del passaggio informativo verrà visualizzata come passaggio numerato con il testo immesso. Utilizzare i passaggi informativi per preparare l'utente per i passaggi successivi, per descrivere i passaggi che devono essere effettuati al di fuori di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition o per fare riferimento ad altre registrazioni (sebbene non sia possibile creare collegamenti ipertestuali nelle annotazioni).
+-   **Passaggio informativo**: queste annotazioni vengono create facendo clic con il pulsante destro del mouse su un controllo o in un punto qualsiasi su un modulo &lt; **Registrazione attività** &lt; **Aggiungi passaggio informativo. **I passaggi informativi verranno visualizzati come un passaggio numerato in qualsiasi punto vengano immessi, anche se non è stata registrata alcuna azione nell'interfaccia utente. È possibile aggiungere un passaggio informativo a livello di modulo o un passaggio informativo associato a un controllo. Quando un passaggio informativo è associato a un modulo, quando la guida attività viene riprodotta la relativa “bolla" verrà visualizzata in qualche parte del modulo, senza puntatore. Quando un passaggio informativo è associato a un controllo, la "bolla" della guida attività punterà al controllo quando la guida attività viene riprodotta. Nel riquadro della Guida, un'annotazione del passaggio informativo verrà visualizzata come passaggio numerato con il testo immesso. Utilizzare i passaggi informativi per preparare l'utente per i passaggi successivi, per descrivere i passaggi che devono essere effettuati al di fuori di Microsoft Dynamics 365 for Finance and Operations o per fare riferimento ad altre registrazioni (sebbene non sia possibile creare collegamenti ipertestuali nelle annotazioni).
 
 **Determinare la lunghezza della registrazione**
 

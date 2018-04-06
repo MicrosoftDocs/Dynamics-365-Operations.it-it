@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad76f286d16b149affa110aef75874a52b66798f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -54,7 +54,7 @@ Utilizzare la pagina **Imposta il calcolo per la data di scadenza emissione fatt
 È possibile impostare i parametri di controllo data per assicurarsi che le fatture cliente e le note di accredito per le transazioni cliente vengano generate entro il periodo specificato successivo alla consegna. È possibile individuare i parametri nell'area **Controllo date fatture** della pagina **Parametri contabilità clienti**.
 
 ## <a name="example"></a>Esempio
-Per impostare Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition in modo da calcolare le date di scadenza emissione fattura per le spedizioni intracomunitarie il quindicesimo giorno del mese successivo alla consegna, creare un codice intervallo date e una regola di calcolo con le seguenti impostazioni.
+Per impostare Microsoft Dynamics 365 for Finance and Operations in modo da calcolare le date di scadenza emissione fattura per le spedizioni intracomunitarie il quindicesimo giorno del mese successivo alla consegna, creare un codice intervallo date e una regola di calcolo con le seguenti impostazioni.
 
 ### <a name="date-interval-code"></a>Codice intervallo date
 

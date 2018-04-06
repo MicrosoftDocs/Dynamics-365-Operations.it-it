@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e6e159f84e188bad49db7b99a43c99f2e4d744be
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -48,7 +48,7 @@ Gli utenti possono immettere e pubblicare righe per i giornali di registrazione 
 | Giornale di registrazione pagamenti cliente | Conto: Conto di contropartita cliente: contabilità generale, il sistema di gestione interaziendale bancario è supportato.                                               | Giornale di registrazione pagamenti cliente                                                                |
 | Giornale di registrazione spese di progetto  | Conto: progetto, contabilità generale, cliente, conto di contropartita fornitore: progetto, contabilità generale, cliente, il sistema di gestione interaziendale fornitori è supportato. | Spese di giornale di registrazione generale (in Gestione progetti e contabilità)                       |
 
-Quando le righe vengono pubblicate, vengono convalidate per assicurare che siano conformi alle regole impostate nei giornali di registrazione finanziari. Dopo che le righe sono state pubblicate, gli utenti possono modificare o registrare i giustificativi da Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Quando le righe vengono pubblicate, vengono convalidate per assicurare che siano conformi alle regole impostate nei giornali di registrazione finanziari. Dopo che le righe sono state pubblicate, gli utenti possono modificare o registrare i giustificativi da Microsoft Dynamics 365 for Finance and Operations. 
 
 Per aggiungere le dimensioni finanziarie a un modello, sono richieste modifiche aggiuntive. Per ulteriori informazioni, vedere [Aggiungere dimensioni al modello di Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). Dopo che le dimensioni vengono aggiunte all'entità, diventano disponibili nella finestra di progettazione per Excel e possono essere aggiunte al modello.
 

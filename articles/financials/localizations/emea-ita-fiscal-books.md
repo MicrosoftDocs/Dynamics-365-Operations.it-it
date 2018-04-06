@@ -18,10 +18,10 @@ ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2030558b157088407782caf7698bf9e69654e88a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e43c48654b401a281e8c610c547912213f57fd8a
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
 
-In base alla legislazione tributaria italiana, ciascuna transazione IVA (imposta sul valore aggiunto) deve appartenere a un *Libro IVA* che verrà utilizzato per il reporting fiscale. Per soddisfare questi requisiti legislativi, Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition implementa i libri IVA italiani. I libri IVA possono essere di diversi tipi. È necessario specificare il tipo di libro IVA per assicurarsi che tutte le transazioni di vendita e acquisti siano incluse nel report **Liquidazione IVA italiana**. È possibile mantenere tutti i libri IVA di tipo **Vendite** e **Acquisti** necessari. Ciascun libro IVA può essere diviso in più *Sezionali IVA*. Tutte le transazioni IVA devono essere numerate in sequenza (senza interruzioni) e ordinate in base alla data di registrazione. Un sezionale IVA equivale a una sequenza numerica per il numero di giustificativo IVA italiano (*Protocollo IVA*) che deve essere applicato sempre durante la registrazione per assicurare l'ordine cronologico in base alla data di registrazione.
+In base alla legislazione tributaria italiana, ciascuna transazione IVA (imposta sul valore aggiunto) deve appartenere a un *Libro IVA* che verrà utilizzato per il reporting fiscale. Per soddisfare questi requisiti legislativi, Microsoft Dynamics 365 for Finance and Operations implementa i libri IVA italiani. I libri IVA possono essere di diversi tipi. È necessario specificare il tipo di libro IVA per assicurarsi che tutte le transazioni di vendita e acquisti siano incluse nel report **Liquidazione IVA italiana**. È possibile mantenere tutti i libri IVA di tipo **Vendite** e **Acquisti** necessari. Ciascun libro IVA può essere diviso in più *Sezionali IVA*. Tutte le transazioni IVA devono essere numerate in sequenza (senza interruzioni) e ordinate in base alla data di registrazione. Un sezionale IVA equivale a una sequenza numerica per il numero di giustificativo IVA italiano (*Protocollo IVA*) che deve essere applicato sempre durante la registrazione per assicurare l'ordine cronologico in base alla data di registrazione.
 
 ## <a name="prerequisites"></a>Prerequisiti
 Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di iniziare.

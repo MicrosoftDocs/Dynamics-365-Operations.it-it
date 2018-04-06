@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0069246a60f1db6297df45fa57cd52d90cdb4ab5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 89a13ad5a1d3cb7f93a469d33530ec99b39160da
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo articolo descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti. 
 
-I seguenti parametri influiscono su come vengono elaborate le liquidazioni in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. La liquidazione è il processo di facilitazione di una fattura rispetto a un pagamento o una nota di accredito. Questi parametri sono situati nell'area **Liquidazione** delle pagine **Parametri contabilità clienti** e **Parametri contabilità fornitori**.
+I seguenti parametri influiscono su come vengono elaborate le liquidazioni in Microsoft Dynamics 365 for Finance and Operations. La liquidazione è il processo di facilitazione di una fattura rispetto a un pagamento o una nota di accredito. Questi parametri sono situati nell'area **Liquidazione** delle pagine **Parametri contabilità clienti** e **Parametri contabilità fornitori**.
 
 -   **Liquidazione automatica**: impostare questa opzione su **Sì** se una transazione deve essere liquidata automaticamente rispetto ad altre transazioni aperte al momento della registrazione. Se l'opzione è impostata su **No**, gli utenti possono liquidare manualmente le transazioni quando immettono i pagamenti o successivamente mediante la pagina **Liquida transazioni**.
 -   **Applicazione sconto di cassa**: specifica come uno [sconto di cassa viene gestito se la fattura viene pagata in eccedenza](cash-discount-handling-overpayments.md). Per un'eccedenza di pagamento, lo sconto di cassa può essere ridotto, può essere gestito come differenza, oppure può rimanere nel conto del fornitore o il cliente.
@@ -48,7 +48,7 @@ I seguenti parametri influiscono su come vengono elaborate le liquidazioni in Mi
     -   Se questa opzione è impostata su **Sì** e un utente cambia il valore nel campo **Importo da liquidare** nella pagina **Liquida transazioni**, lo sconto viene calcolato automaticamente e visualizzato come voce predefinita nel campo **Importo sconto di cassa da applicare**.
     -   Se questa opzione è impostata su **No** e un utente cambia il valore nel campo **Importo da liquidare** nella pagina **Liquida transazioni**, la voce predefinita nel campo **Importo sconto di cassa da applicare** è **0** (zero).
 -   **Calcola sconti di cassa per note di accredito**: impostare questa opzione su **Sì** per calcolare automaticamente uno sconto di cassa per le note di accredito. In Contabilità clienti, una transazione di nota di accredito è una transazione negativa con un valore nel campo **Fattura** nella pagina **Fattura a testo libero** o un reso nella pagina **Ordine cliente**.
-    -   L'effetto di questa opzione dipende dal valore del campo **Utilizzare lo sconto di cassa** nella pagina **Liquida transazioni**. Se l'opzione è impostata su **Sì**, lo sconto viene applicato quando il campo ****Utilizzare lo sconto di cassa**** è impostato su **Normale**. Quando il campo  ****Utilizzare lo sconto di cassa **** è impostato su **Sempre**, lo sconto di cassa viene applicato sempre, indipendentemente dall'impostazione del campo. Quando il campo  ****Utilizzare lo sconto di cassa**** è impostato su **Mai**, lo sconto di cassa non viene mai applicato, indipendentemente dall'impostazione del campo.
+    -   L'effetto di questa opzione dipende dal valore del campo **Utilizzare lo sconto di cassa** nella pagina **Liquida transazioni**. Se l'opzione è impostata su **Sì**, lo sconto viene applicato quando il campo ****Utilizzare lo sconto di cassa**** è impostato su **Normale**. Quando il campo  ****Utilizzare lo sconto di cassa**** è impostato su **Sempre**, lo sconto di cassa viene applicato sempre, indipendentemente dall'impostazione del campo. Quando il campo  ****Utilizzare lo sconto di cassa**** è impostato su **Mai**, lo sconto di cassa non viene mai applicato, indipendentemente dall'impostazione del campo.
     -   Se questa opzione è impostata su **Sì** e viene contrassegnata una nota di accredito nella pagina **Liquida transazioni**, lo sconto viene calcolato automaticamente e visualizzato come voce predefinita nel campo **Importo sconto di cassa da applicare**.
     -   Se questa opzione è impostata su **No** e viene contrassegnata una nota di accredito nella pagina **Liquida transazioni**, la voce predefinita del campo **Importo sconto di cassa da applicare** è **0** (zero).
 -   **Conti di contropartita sconti (solo Contabilità fornitori)**: definire il conto CoGe per sconti di cassa predefinito da utilizzare per la voce contabile per sconti di cassa.

@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -62,7 +62,7 @@ Il modello di Excel contiene tutti gli elementi dal layout di documento del pian
 [![Esempio](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Per evitare problemi potenziali di visualizzazione e modifica dei dati del piano di budget utilizzando Excel, lo stesso utente deve essere collegato sia a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition che al connettore dati del componente aggiuntivo per Office di Microsoft Dynamics.
+> Per evitare problemi potenziali di visualizzazione e modifica dei dati del piano di budget utilizzando Excel, lo stesso utente deve essere collegato sia a Microsoft Dynamics 365 for Finance and Operations che al connettore dati del componente aggiuntivo per Office di Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Aggiungere un'intestazione al modello di documento del piano di budget
 Per aggiungere informazioni di intestazione, selezionare la riga superiore nel file di Excel e inserire righe vuote. Fare clic su **Progettazione** in **Connettore dati** per aggiungere i campi di intestazione al file Excel.

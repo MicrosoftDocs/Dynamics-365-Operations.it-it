@@ -20,10 +20,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d933910faa726ea279a3371f6c8a3eca9bc9dfee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Il rifornimento della domanda è supportato per ordini cliente, ordini di trasfe
 ## <a name="minmax-replenishment"></a>Rifornimento basato su quantità minima e massima
 Nel rifornimento basato su quantità minima e massima, le scorte vengono rifornite in modo da rientrare nei limiti minimo e massimo impostati. In genere, questo processo si verifica una volta al giorno per aiutare a garantire che tutte le ubicazioni di prelievo vengono rifornite al livello massimo prima dell'avvio di prelievo. 
 
-Le quantità minima e massima vengono impostate in un modello di rifornimento. Molte delle altre impostazioni nel modello sono simili alle impostazioni nei modelli utilizzati nel rifornimento basato sulla domanda ondata. Il modello deve contenere una riga per ogni articolo e ubicazione. Quando si effettua il rifornimento mediante il processo batch, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition valuta se il rifornimento è necessario utilizzando la sequenza in cui sono organizzate le righe. 
+Le quantità minima e massima vengono impostate in un modello di rifornimento. Molte delle altre impostazioni nel modello sono simili alle impostazioni nei modelli utilizzati nel rifornimento basato sulla domanda ondata. Il modello deve contenere una riga per ogni articolo e ubicazione. Quando si effettua il rifornimento mediante il processo batch, Microsoft Dynamics 365 for Finance and Operations, valuta se il rifornimento è necessario utilizzando la sequenza in cui sono organizzate le righe. 
 
 Si noti che la strategia di rifornimento basato su quantità minima e massima non può rifornire un'ubicazione vuota, a meno che l'ubicazione è impostata come ubicazione fissa per l'articolo. Se l'ubicazione da rifornire non è un'ubicazione fissa, il sistema non può determinare quale articolo deve essere rifornito. Pertanto, almeno una certa quantità di scorte è necessaria prima del rifornimento.
 

@@ -1,6 +1,6 @@
 ---
 title: Blocco scorte
-description: "Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli."
+description: "Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli."
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eb8040531ec0c2b9c13fc927e5330772ad11ee1d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
+Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
 
 È possibile bloccare gli articoli di magazzino in uno dei modi seguenti.
 -   Manualmente
@@ -64,9 +64,9 @@ Nell'esempio seguente viene generato un ordine di controllo qualità quando vien
 <a name="see-also"></a>Vedere anche
 --------
 
-[Creare e gestire un blocco scorte (Guida attività)](tasks/create-maintain-inventory-blocking.md
+[Creare e gestire un blocco scorte](tasks/create-maintain-inventory-blocking.md)
 
 [Processi di gestione qualità](quality-management-processes.md)
 
-[Verificare la qualità delle merci (Guida attività)](tasks/inspect-quality-goods.md)
+[Verificare la qualità delle merci (guida attività)](tasks/inspect-quality-goods.md)
 

@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b033f6197e61a6030e12081a9e4f1d820bac458f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Un modello di piano di budget viene creato dal responsabile budget in Microsoft 
 
 1.  Fare clic su **Progetto** nel componente aggiuntivo di Office di Microsoft Dynamics Office dopo aver effettuato l'accesso.
 2.  Per informazioni sull'intestazione, utilizzare il pulsante **Aggiungi campi**.
-3.  Selezionare l'origine dati dell'entità di BudgetPlanJustification, quindi fare clic su **Avanti**. **Nota:** l'entità è necessaria per qualsiasi documento di motivazione. È possibile utilizzare altre entità ma il caricamento di nuovo su Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition avrà esito negativo se questa entità non verrà inclusa.
+3.  Selezionare l'origine dati dell'entità di BudgetPlanJustification, quindi fare clic su **Avanti**. **Nota:** l'entità è necessaria per qualsiasi documento di motivazione. È possibile utilizzare altre entità ma il caricamento di nuovo su Microsoft Dynamics 365 for Finance and Operations avrà esito negativo se questa entità non viene inclusa.
 4.  Aggiungere i valori e le etichette BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter e DocumentNumber nel documento Word. **Nota:** è possibile utilizzare le proprie etichette personalizzate anziché le etichette standard, se necessario.
 5.  Fare clic su **Fine** per completare la sezione dell'intestazione.
 6.  Per il dettaglio del livello di riga degli importi del piano di budget, fare clic su **Aggiungi tabella**.

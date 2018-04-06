@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -41,6 +41,8 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 - **Griglia dei pulsanti** - L'operazione può essere assegnata ai pulsanti nelle griglie di pulsanti POS, che sono parte di un layout schermo POS.
 - **Schermata delle transazioni** - L'operazione può essere richiamata dalle griglie dei pulsanti POS configurate nella schermata delle transazioni POS.
 - **Schermata di benvenuto** - L'operazione può essere richiamata dalle griglie dei pulsanti POS configurate nella schermata di benvenuto POS.
+
+Nota: le operazioni elencate di seguito vengono applicate all'ultima versione di Dynamics 365 for Retail. È possibile che alcune operazioni siano state modificate o che non siano disponibili nelle versioni precedenti.
 
 | ID | Operazione | descrizione | Griglia dei pulsanti | Schermata transazione | Schermata di benvenuto | Disponibile offline | Specifica dell'applicazione |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -105,6 +107,7 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 703 | Blocca registratore di cassa | Blocca il registratore corrente di modo che non possa essere utilizzato, ma non disconnette l'utente corrente. | No | No | No | Sì | No |
 | 701 | Disconnessione | Disconnette l'utente corrente dal registratore di cassa. | Sì | Sì | Sì | Sì | No |
 | 521 | Saldo punti carta fedeltà | Visualizza il saldo dei punti per la carta fedeltà specificata. | Sì | Sì | No | No | No |
+| 918 | Gestisci turni | Visualizza un elenco di turni attivi, sospesi e con chiusura forzata. | Sì | Sì | Sì | No | No |
 | 914 | Riduci a icona la finestra POS | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 1000 | Apri cassetto | Esegue un'operazione "senza vendita" e apre il cassetto attualmente selezionato. | Sì | Sì | Sì | Sì | No |
 | 928 | Evasione ordine | Questa operazione consente agli utenti di prelevare, imballare, spedire o richiamare gli ordini per il punto vendita scelto. | Sì | Sì | Sì | No | No |
@@ -162,7 +165,6 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 638 | Imposta rappresentante su riga | Questa operazione consente all'utente di selezionare uno dei gruppi vendite con provvigione (rappresentanti) per la riga correntemente selezionata. | Sì | Sì | No | Sì | No |
 | 630 | Spedisci tutti i prodotti | Imposta la modalità di evasione su **Spedizione** per tutte le voci. | Sì | Sì | No | Sì\* | No |
 | 629 | Spedisci prodotti selezionati | Imposta la modalità di evasione su **Spedizione** per tutte le righe selezionate. | Sì | Sì | No | Sì\* | No |
-| 918 | Mostra turni con chiusura forzata | Visualizza un elenco di turni con chiusura forzata. | Sì | Sì | Sì | No | No |
 | 115 | Mostra giornale di registrazione | Visualizza il giornale di registrazione del punto vendita. È possibile visualizzare le transazioni, ristampare le ricevute, incluse quelle di gift card, e richiamare i resi. | Sì | Sì | Sì | Sì\*\* | No |
 | 802 | Conteggio scorte | Questa operazione consente all'utente di creare o modificare i giornale di registrazione del conteggio scorte per l'inventario fisico o i conteggi di ciclo. | Sì | Sì | Sì | No | No |
 | 401 | Sottomenu | Questa operazione consente di accedere a un'altra griglia di pulsanti collegati. | Sì | Sì | Sì | Sì | No |

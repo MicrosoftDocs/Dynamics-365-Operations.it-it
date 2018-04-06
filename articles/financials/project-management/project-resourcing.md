@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4dbcfd31030db8e40f89f86a76cdc666ac433749
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 Questo argomento fornisce informazioni sull'assegnazione delle risorse a un progetto.
 
-Una delle problematiche dei manager di progetto e di risorse durante la fase di progettazione del progetto è l'allocazione delle risorse, fase in cui devono determinare e prenotare la risorsa corretta a un progetto. In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, le funzionalità di assegnazione risorse per i progetti consentono di definire i ruoli considerati risorse temporanee prenotabili a un impegno specifico o a una parte dell'impegno. L'assegnazione delle risorse consente ai manager di progetto e di risorse di completare le seguenti attività:
+Una delle problematiche dei manager di progetto e di risorse durante la fase di progettazione del progetto è l'allocazione delle risorse, fase in cui devono determinare e prenotare la risorsa corretta a un progetto. In Microsoft Dynamics 365 for Finance and Operations, le funzionalità di assegnazione risorse per i progetti consentono di definire i ruoli che vengono trattati come risorse temporanee prenotabili per un impegno specifico o per una parte dell'impegno. L'assegnazione delle risorse consente ai manager di progetto e di risorse di completare le seguenti attività:
 
 - Definire un ruolo con le competenze necessarie in modo da semplificare l'abbinamento delle risorse.
 - Utilizzare i ruoli per definire una programmazione di impegno iniziale basata sulle prenotazioni delle risorse.

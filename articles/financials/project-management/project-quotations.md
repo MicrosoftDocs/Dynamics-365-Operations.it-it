@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Viene introdotto il concetto delle offerte di progetto da utilizzare per fare un'offerta attraente a un cliente come primo passaggio della fase di progetto. Un'offerta di progetto può comprendere articoli e servizi inclusi, informazioni di base sul contatto, accordi commerciali e sconti speciali e possibili imposte e supplementi. 
 
-La possibilità di monitore, analizzare e controllare la pipeline delle offerte di progetto e degli ordini rappresenta una parte importante della gestione del progetto. I vari strumenti in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition possono fornire assistenza alle attività. Ad esempio, le definizioni dei corretti dati di riferimento (tipi di offerta, origine dell'offerta, previsione e probabilità) consentono di analizzare la pipeline. È possibile utilizzare questi strumenti per classificare i motivi per cui un'offerta di progetto è stata acquisita o persa e determinare il potenziale valore di un'offerta. 
+La possibilità di monitore, analizzare e controllare la pipeline delle offerte di progetto e degli ordini rappresenta una parte importante della gestione del progetto. Vari strumenti in Microsoft Dynamics 365 for Finance and Operations possono rivelarsi utili con queste attività. Ad esempio, le definizioni dei corretti dati di riferimento (tipi di offerta, origine dell'offerta, previsione e probabilità) consentono di analizzare la pipeline. È possibile utilizzare questi strumenti per classificare i motivi per cui un'offerta di progetto è stata acquisita o persa e determinare il potenziale valore di un'offerta. 
 
 In un'offerta di progetto, immettere i servizi, le informazioni di base sul contatto, accordi commerciali e sconti speciali nonché imposte e supplementi stimati per un progetto. È anche possibile selezionare le attività o le operazioni per un progetto e creare una gerarchia di attività e attività secondarie. Per ogni attività, è possibile immettere dettagli sui tempi e la durata relativi e sulle competenze e l'esperienza richieste ai lavoratori per questa attività. 
 

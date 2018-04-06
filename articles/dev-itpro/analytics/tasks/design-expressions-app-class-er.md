@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Progettare espressioni per chiamare i metodi delle classi dell'applicazione (ER)
@@ -28,13 +28,13 @@ ms.lasthandoff: 02/07/2018
 
 In questo manuale sono disponibili informazioni su come riutilizzare la logica dell'applicazione esistente nelle configurazioni dei report elettronici (ER) chiamando i metodi richiesti delle classi dell'applicazione nelle espressioni ER. I valori degli argomenti per la chiamata delle classi possono essere definiti in modo dinamico in fase di esecuzione: ad esempio, in base alle informazioni nel documento di analisi per garantirne la correttezza. In questa guida verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. 
 
-Tali passaggi possono essere completati mediante un set di dati. È inoltre necessario scaricare e salvare localmente il seguente file: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
+Tali passaggi possono essere completati mediante un set di dati. È inoltre necessario scaricare e salvare il file seguente localmente: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
 Per completare questi passaggi, è necessario completare i passaggi della procedura "ER Creare un provider di configurazione e contrassegnarlo come attivo".
 
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
     * Verificare che il provider di configurazione per la società di esempio Litware Inc. sia disponibile e contrassegnato come attivo. Se il provider di configurazione non viene visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo".   
-    * Supponiamo che si sta creando un processo per l'analisi dei rendiconti bancari in entrata per un aggiornamento dei dati dell'applicazione. I rendiconti bancari verranno ricevuti come file TXT contenenti codici IBAN. Durante il processo di importazione dei rendiconti bancari, è necessario convalidare la correttezza dei codici IBAN utilizzando la logica già disponibile in Dynamics 365 for Finance and Operations, Enterprise Edition.   
+    * Supponiamo che si sta creando un processo per l'analisi dei rendiconti bancari in entrata per un aggiornamento dei dati dell'applicazione. I rendiconti bancari verranno ricevuti come file TXT contenenti codici IBAN. Durante il processo di importazione dei rendiconti bancari, è necessario convalidare la correttezza dei codici IBAN utilizzando la logica già disponibile in Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importare una nuova configurazione del modello ER
 1. Nell'elenco trovare e selezionare il record desiderato.

@@ -1,6 +1,6 @@
 ---
 title: Panoramica del controllo del budget
-description: Questo articolo introduce il concetto di controllo del budget e fornisce informazioni per semplificare la configurazione del controllo del budget in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition in modo che sia possibile gestire le risorse finanziarie.
+description: Questo articolo introduce il concetto di controllo del budget e fornisce informazioni per semplificare la configurazione del controllo del budget in Microsoft Dynamics 365 for Finance and Operations in modo che sia possibile gestire le risorse finanziarie.
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 98b5620b343a87426aab13997d1f2e5f7dc30d50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo introduce il concetto di controllo del budget e fornisce informazioni per semplificare la configurazione del controllo del budget in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition in modo che sia possibile gestire le risorse finanziarie.
+Questo articolo introduce il concetto di controllo del budget e fornisce informazioni per semplificare la configurazione del controllo del budget in Microsoft Dynamics 365 for Finance and Operations in modo che sia possibile gestire le risorse finanziarie.
 
 <a name="overview"></a>Panoramica
 --------

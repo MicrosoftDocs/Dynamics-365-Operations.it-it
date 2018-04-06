@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
-ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
 ms.contentlocale: it-it
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/banner.md)]
 
-**Informazioni finanziarie dettagliate** utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari. Power BI è incorporato in Microsoft Dynamics 365 Finance and Operations, Enterprise Edition.
+**Informazioni finanziarie dettagliate** utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari. Power BI è incorporato in Microsoft Dynamics 365 Finance and Operations.
 **Informazioni finanziarie dettagliate** è incentrato sulla creazione di report analitici. Le persone di un'organizzazione possono visualizzare, ricercare, analizzare ed eseguire azioni. 
 
 **Informazioni finanziarie dettagliate** combina i dati di contabilità generale e di giornali di registrazione secondari per fornire un quadro più completo sull'integrità finanziaria dell'organizzazione.
@@ -287,7 +287,7 @@ Le nuove aree di lavoro e i rendiconti finanziari che utilizzano Power BI contin
  - Possibilità di definire gerarchie di report, in modo che sia possibile definire le gerarchie di conto principale o una gerarchia organizzativa che può essere utilizzata nei rendiconti finanziari per la progettazione, il filtro e la sicurezza.                                                                    
  - Supporto per la stampa
 
-Le nuove funzionalità verranno comunicate tramite il sito Web con la roadmap all'avvio del lavoro https://roadmap.dynamics.com/.
+Le nuove funzionalità verranno comunicate tramite il sito Web con la roadmap all'avvio del lavoro: https://roadmap.dynamics.com/
 
 ## <a name="additional-resources-for-power-bi"></a>Risorse aggiuntive per Power BI
 

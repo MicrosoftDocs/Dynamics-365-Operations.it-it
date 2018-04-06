@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c858cc24cbba961024a67a2477d7271f64f9a0d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8e24234cfa54dcbbf3638c31ced7fb83881bb9f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -41,7 +41,7 @@ Negli scenari di produzione basati su ordini di produzione, il materiale viene r
 
 Per ridurre i lead time di consegna e l'eccesso di magazzino tra centri di lavoro causati dalla produzione in batch, la lean manufacturing introduce il rifornimento kanban e le aree di deposito nella produzione e nel rifornimento magazzino. In genere, ciò interrompe la produzione di cicli di lavorazione kanban parzialmente indipendenti. Il rifornimento di un kanban per un prodotto semilavorato non viene più attivato da un ordine per un prodotto finito. 
 
-Per ristabilire un contesto di costi e di produzione per i diversi scenari kanban proposti in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, i flussi di produzione basati su attività sono stati introdotti come spina dorsale della lean manufacturing. Tutte le regole kanban fanno riferimento a questa struttura predefinita. Il modello basato su attività supporta l'impostazione di una più vasta gamma di scenari supportati dalle versioni precedenti di lean manufacturing per Dynamics AX. Tuttavia, il modello non aggiunge complessità per i lavoratori del reparto produzione, in quanto tutti gli scenari utilizzano la stessa interfaccia utente basata sulle attività.
+Per ristabilire un contesto di costi e di produzione per i diversi scenari kanban proposti in Microsoft Dynamics 365 for Finance and Operations, i flussi di produzione basati su attività sono stati introdotti come spina dorsale della lean manufacturing. Tutte le regole kanban fanno riferimento a questa struttura predefinita. Il modello basato su attività supporta l'impostazione di una più vasta gamma di scenari supportati dalle versioni precedenti di lean manufacturing per Dynamics AX. Tuttavia, il modello non aggiunge complessità per i lavoratori del reparto produzione, in quanto tutti gli scenari utilizzano la stessa interfaccia utente basata sulle attività.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Prodotti semilavorati (livelli non DBA)
 La lean manufacturing per Dynamics AX integra i kanban per i prodotti inventariati e i prodotti semilavorati in un unico framework, offrendo in tal modo un'interfaccia utente unificata per tutte le situazioni. A causa dell'architettura, i livelli aggiuntivi DBA non devono più essere introdotti per attivare i kanban da utilizzare per i prodotti semilavorati. Questa architettura contribuisce anche a ridurre al minimo le operazioni di magazzino.

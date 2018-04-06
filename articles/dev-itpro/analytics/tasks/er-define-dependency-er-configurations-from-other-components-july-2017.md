@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: it-it
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Definire la dipendenza delle configurazioni da altri componenti per la creazione di report elettronici (ER)
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/25/2017
 
 Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività ER Gestire configurazioni di mapping di modelli ed è necessario disporre dell'accesso a Microsoft Dynamics Lifecycle Services (LCS).
 
-Questa procedura descrive come progettare una configurazione ER e come specificarne la dipendenza da altri componenti software, in modo da garantire che la configurazione venga scaricata correttamente in una versione specifica di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. In questo esempio verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. 
+Questa procedura descrive come progettare una configurazione ER e come specificarne la dipendenza da altri componenti software, in modo da garantire che la configurazione venga scaricata correttamente in una versione specifica di Microsoft Dynamics 365 for Finance and Operations. In questo esempio verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. 
 
 Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. Queste operazioni possono essere eseguite in qualsiasi società perché le configurazioni ER sono condivise tra tutte le società. 
 

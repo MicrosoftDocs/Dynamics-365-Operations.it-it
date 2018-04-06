@@ -1,6 +1,6 @@
 --- 
 title: Mappare un modello dati alle origini dati selezionate per la creazione di report elettronici (ER)
-description: "I passaggi seguenti descrivono come un utente con ruolo amministratore di sistema o sviluppatore per la creazione di report elettronici può mappare un modello dati per la creazione di report elettronici a origini dati di Dynamics 365 for Finance and Operations, Enterprise edition selezionate."
+description: "I passaggi seguenti descrivono come un utente con ruolo amministratore di sistema o sviluppatore per la creazione di report elettronici può mappare un modello dati per la creazione di report elettronici a origini dati di Dynamics 365 for Finance and Operations, Enterprise edition (novembre 2016) selezionate."
 author: NickSelin
 manager: AnnBe
 ms.date: 01/16/2017
@@ -16,17 +16,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96974d7c1597db4ac31168be40cecbc7e12d6edd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>Mappare un modello dati alle origini dati selezionate per la creazione di report elettronici (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-I passaggi seguenti descrivono come un utente con ruolo amministratore di sistema o sviluppatore per la creazione di report elettronici può mappare un modello dati per la creazione di report elettronici a origini dati di Dynamics 365 for Finance and Operations, Enterprise edition selezionate. Il mapping di modello verrà utilizzato in seguito come origine dati in un formato di configurazione da utilizzare per gestire i documenti di pagamento elettronico. In questo esempio si esegue il mapping di modello dati per la società di esempio, Litware, Inc. alle origini dati. Per completare questi passaggi, è necessario aver completato prima i passaggi della procedura "Selezionare le origini dati per il mapping di modello".
+I passaggi seguenti descrivono come un utente con ruolo amministratore di sistema o sviluppatore per la creazione di report elettronici può mappare un modello dati per la creazione di report elettronici a origini dati di Dynamics 365 for Finance and Operations selezionate. Il mapping di modello verrà utilizzato in seguito come origine dati in un formato di configurazione da utilizzare per gestire i documenti di pagamento elettronico. In questo esempio si esegue il mapping di modello dati per la società di esempio, Litware, Inc. alle origini dati. Per completare questi passaggi, è necessario aver completato prima i passaggi della procedura "Selezionare le origini dati per il mapping di modello".
 
 
 ## <a name="open-er-configurations-tree"></a>Consente di aprire la struttura di configurazioni per la creazione di report elettronici

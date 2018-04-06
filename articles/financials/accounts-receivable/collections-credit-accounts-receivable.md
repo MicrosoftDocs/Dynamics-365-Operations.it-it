@@ -1,6 +1,6 @@
 ---
 title: "Crediti e riscossioni in Contabilità clienti"
-description: "Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti."
+description: "Le informazioni sulla riscossione della contabilità clienti vengono gestite in un'unica vista centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Finance and Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

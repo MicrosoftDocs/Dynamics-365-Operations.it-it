@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ La persona giuridica A vende congegni a un'altra persona giuridica nell'organizz
 Tutte queste transazioni daranno origine a transazioni interaziendali registrate in conti per importi da versare e da ricevere. In queste transazioni inoltre possono essere inclusi importi di ricarico e ribasso qualora l'importo delle vendite interaziendali non sia uguale al costo delle merci vendute.
 
 ## <a name="set-up-elimination-rules"></a>Impostare regole di eliminazione
-Per impostare l'eliminazione di regole in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, si consiglia di creare una dimensione finanziaria specificatamente per operazioni di eliminazione. La maggior parte dei clienti la definiscono Partner commerciale o simili. Se si decide di non utilizzare una dimensione finanziaria, assicurarsi di avere conti principali specifici solo per transazioni interaziendali. 
+Per impostare l'eliminazione di regole in Microsoft Dynamics 365 for Finance and Operations, si consiglia di creare una dimensione finanziaria specificatamente per operazioni di eliminazione. La maggior parte dei clienti la definiscono Partner commerciale o simili. Se si decide di non utilizzare una dimensione finanziaria, assicurarsi di avere conti principali specifici solo per transazioni interaziendali. 
 
 L'impostazione per le eliminazioni è disponibile nell'area Impostazioni del modulo Consolidamenti. Dopo aver immesso una descrizione per la regola, è necessario selezionare la società per cui il giornale di registrazione eliminazioni effettuerà la registrazione. Questa deve essere una società con l'opzione **Utilizza per processo di eliminazione finanziario** selezionata nell'impostazione Persona giuridica. 
 

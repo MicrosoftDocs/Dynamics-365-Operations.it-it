@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ef108fb7be65b91c531db750018f00f7fdd67da1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -58,7 +58,7 @@ Un prodotto viene principalmente definito da un numero prodotto, un nome e una d
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Distribuzione, esportazione e importazione di dati di prodotto
 
-La definizione del prodotto può essere creata in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Può inoltre essere importata dai sistemi PLM (Product Lifecycle Management), PDM (Product Data Management) o PIM (Product Information Management). Quando si utilizzano più istanze di Finance and Operations, un'istanza viene in genere utilizzata come rappresentazione dei dati di prodotto per tutte le altre istanze. Questo approccio è supportato da un ampio insieme di entità di dati che consentono l'esportazione e l'importazione di dati di definizione di prodotto da un'istanza all'altra.
+La definizione del prodotto può essere creata in Microsoft Dynamics 365 for Finance and Operations. Può inoltre essere importata dai sistemi PLM (Product Lifecycle Management), PDM (Product Data Management) o PIM (Product Information Management). Quando si utilizzano più istanze di Finance and Operations, un'istanza viene in genere utilizzata come rappresentazione dei dati di prodotto per tutte le altre istanze. Questo approccio è supportato da un ampio insieme di entità di dati che consentono l'esportazione e l'importazione di dati di definizione di prodotto da un'istanza all'altra.
 
 Per supportare la distribuzione dei dati di prodotto su più istanze, Finance and Operations consente di utilizzare Common Data Service. Le definizioni di prodotto possono essere esportate da un'istanza di Finance and Operations a Common Data Service. Le definizioni di prodotto possono quindi essere utilizzate per il provisioning di altre applicazioni aziendali, ad esempio Microsoft Dynamics 365 for Sales, con i dati di prodotto.
 

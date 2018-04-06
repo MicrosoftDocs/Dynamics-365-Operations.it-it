@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 274a5e696bfde4f5e27bc186fadbab69f5fc655d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -35,7 +35,7 @@ Utilizzare la pagina **Dimensioni finanziarie** per creare le dimensioni finanzi
 
 Dopo avere creato le dimensioni finanziarie, utilizzare la pagina **Valori di dimensione finanziaria** per assegnare proprietà aggiuntive a ciascuna dimensione finanziaria. 
 
-È possibile utilizzare le dimensioni finanziarie per rappresentare le persone giuridiche. Non è necessario creare le persone giuridiche in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Tuttavia, le dimensioni finanziarie non sono progettate per soddisfare i requisiti aziendali o operativi delle persone giuridiche. La funzionalità di contabilizzazione interunità in Finance and Operations è stata progettata per gestire solo le voci contabili create da ciascuna transazione. 
+È possibile utilizzare le dimensioni finanziarie per rappresentare le persone giuridiche. Non è necessario creare le persone giuridiche in Microsoft Dynamics 365 for Finance and Operations. Tuttavia, le dimensioni finanziarie non sono progettate per soddisfare i requisiti aziendali o operativi delle persone giuridiche. La funzionalità di contabilizzazione interunità in Finance and Operations è stata progettata per gestire solo le voci contabili create da ciascuna transazione. 
 
 Prima di impostare le dimensioni finanziarie come persone giuridiche, valutare i processi aziendali nelle seguenti aree per determinare se questa impostazione verrà eseguita per l'organizzazione:
 

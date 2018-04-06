@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -156,7 +156,7 @@ La gerarchia di dimensioni per i criteri può essere impostata come indicato di 
 |&nbsp;&nbsp;Costo variabile | 40001                     | 40010                   |
 
 > [!NOTE]
-> In **Intervalli membro di dimensione**, un nodo può contenere 1:_n_ intervalli di membri di dimensione. È possibile inserire ID membro di dimensione non ancora esistenti come membri di dimensione. Questo comportamento rende la gerarchia resiliente per il futuro.  
+> Sotto **Intervalli membro di dimensione**, un nodo può contenere 1:_n_ intervalli membro di dimensione. È possibile inserire ID membro di dimensione non ancora esistenti come membri di dimensione. Questo comportamento rende la gerarchia resiliente per il futuro.  
 
 ### <a name="copy-a-hierarchy"></a>Copiare una gerarchia
 
@@ -329,7 +329,7 @@ Le impostazioni per la gerarchia dell'elenco accessi vengono utilizzate per cont
 - Power BI:
 
     - Data visualizzati nelle visualizzazioni di Power BI
-    - Le visualizzazioni dei dati di Power BI sono incluse nel client Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
+    - Le visualizzazioni dei dati di Power BI sono incorporate nel client Microsoft Dynamics 365 for Finance and Operations
 
 > [!NOTE] 
 > - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

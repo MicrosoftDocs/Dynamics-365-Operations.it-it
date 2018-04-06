@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa11f1775017dd9bada61340b4bed70ea66a4137
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ L'elemento di costo selezionato nel gruppo di retribuzione viene utilizzato quan
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Creazione di posizioni previste per le posizioni esistenti
 
-Per una pianificazione più precisa del budget, è possibile creare posizioni previste utilizzando i dettagli delle posizioni esistenti in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, indipendentemente dalla posizione attualmente compilata o non compilata. 
+Per una pianificazione più precisa del budget, è possibile creare posizioni previste utilizzando i dettagli delle posizioni esistenti in Microsoft Dynamics 365 for Finance and Operations, indipendentemente dalla posizione attualmente compilata o non compilata. 
 
 La funzione **Aggiungi posizioni esistenti** visualizza tutte le posizioni di un'organizzazione. Impostando la data **A partire dal**, è possibile modificare l'elenco di posizioni in modo che contenga le posizioni lavorative esistenti in una data nel passato o, più comunemente, in futuro, ad esempio, all'inizio del ciclo di budget successivo. Selezionare un processo di pianificazione del budget e uno scenario del piano di budget, selezionare le posizioni dall'elenco e quindi fare clic su **OK** per creare posizioni previste per le posizioni selezionate. Si noti che è possibile creare solo una posizione prevista per ogni posizione esistente in un processo di pianificazione del budget e in uno scenario. Tuttavia, è possibile creare versioni aggiuntive assegnando gli diversi scenari del piano di budget. 
 

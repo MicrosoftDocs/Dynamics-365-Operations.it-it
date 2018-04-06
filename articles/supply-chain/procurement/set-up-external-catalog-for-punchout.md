@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: it-it
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 [!include[banner](../includes/banner.md)]
 
-Utilizzando il catalogo esterno, è possibile garantire che le informazioni sul prezzo e sul prodotto che vengono elaborate successivamente in Dynamics 365 for Finance and Operations, Enterprise edition di luglio 2017 siano aggiornate e accurate. La richiesta può quindi essere approvata e convertita in ordine fornitore e l'ordine può essere piazzato al fornitore.
+Utilizzando il catalogo esterno, è possibile garantire che le informazioni sul prezzo e sul prodotto che vengono elaborate successivamente in Dynamics 365 for Finance and Operations di luglio 2017 siano aggiornate e accurate. La richiesta può quindi essere approvata e convertita in ordine fornitore e l'ordine può essere piazzato al fornitore.
 
 Quando il catalogo esterno viene configurato e un dipendente prepara una richiesta, è disponibile un'opzione per reindirizzare un sito esterno, il catalogo esterno, e restituire il carrello creato nel sito esterno. La comunicazione si basa sul protocollo cXML e deve essere impostata tra i sistemi dell'organizzazione venditrice e acquirente.
 
@@ -85,7 +85,7 @@ Di seguito è possibile trovare una descrizione dei tag inclusi nel modello:
 
 Un elemento estrinseco è un'informazione aggiuntiva, ad esempio un nome utente basato su un utente che esegue l'ordine esterno. L'elemento estrinseco viene impostato quando il si verifica l'operazione esterna e può essere inviato nel messaggio di impostazione della richiesta.
 Il fornitore potrebbe avere un'esigenza per la ricezione di un elemento estrinseco nella richiesta di impostazione. In tal caso, è necessario aggiungere l'elemento estrinseco all'elenco di elementi estrinseci nella sezione **Formato di messaggio** della pagina **Catalogo esterno**. Specificare un nome per l'elemento estrinseco che il fornitore può riconoscere e mappare a un valore. Le opzioni per i valori sono: nome utente, posta elettronica dell'utente o valore casuale.
-Per ulteriori informazioni sul protocollo cXML, visitare il sito http://cxml.org/
+Per ulteriori informazioni sul protocollo cXML, vedere: http://cxml.org/
 
 ## <a name="post-back-message"></a>Messaggio postback
 Il messaggio postback è il messaggio che viene ricevuto dal fornitore quando l'utente esegue il check-out dal sito esterno e torna in Finance and Operations. Non è possibile configurare i messaggi postback. I messaggi sono basati sulla definizione del protocollo cXML. Di seguito sono riportate le informazioni incluse nel messaggio postback che viene ricevuto in una riga di richiesta:
