@@ -1,6 +1,6 @@
 ---
 title: Panoramica di Impostazione budget
-description: "Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations, Enterprise Edition o per caricarli da un programma di terze parti."
+description: "Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Finance and Operations devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations o per caricarli da un programma di terze parti."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8e8b3a7e801e98929c4ba1b9fefe341abd91dbd4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations o per caricarli da un programma di terze parti.
+Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Finance and Operations devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations o per caricarli da un programma di terze parti.
 
 <a name="overview"></a>Panoramica
 --------

@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare contatti direttamente da Sales con contatti o clienti in Finance and Operations
-description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare entità Contatto (Contatti) e Contatto (Clienti) da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le entità Contatto (Contatti) e Contatto (Clienti) direttamente da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 6269b73dfca46d455784046199463d3f86e653ae
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 021a43c78cec83b23aff5dcc40db1a4be81aefc3
 ms.contentlocale: it-it
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/13/2018
 > [!NOTE]
 > Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrazione dati di Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration).
 
-Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare entità Contatto (Contatti) e Contatto (Clienti) direttamente da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le entità Contatto (Contatti) e Contatto (Clienti) direttamente da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flusso di dati in Prospect to cash
 

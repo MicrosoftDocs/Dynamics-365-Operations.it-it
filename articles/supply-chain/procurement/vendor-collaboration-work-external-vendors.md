@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: 2d879ee5a23e3263c9dce52f4732a2be74e60f8e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
 ms.contentlocale: it-it
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Consente ai fornitori di utilizzare ordini di acquisto, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo argomento viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
+Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 for Finance and Operations. Consente ai fornitori di utilizzare ordini di acquisto, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo argomento viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
 
 Per ulteriori informazioni sulle attività che i fornitori esterni possono eseguire nell'interfaccia di collaborazione fornitore, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).
 

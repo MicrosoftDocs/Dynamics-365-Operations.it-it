@@ -18,10 +18,10 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: db48eec38185692f5d3f67503feba64bcdd71035
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3dc0b968fdf217554b350a152195a4b3d235fdf0
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 In questo argomento viene fornita una panoramica delle funzionalità che è possibile utilizzare per riconciliare le informazioni sul pagamento dalle banche dei formati utilizzati dai paesi europei.
 
-In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition è possibile importare transazioni da banche e liquidare le transazioni a fronte di transazioni esistenti. In Europa, è possibile effettuare questa operazione per gli scenari seguenti:
+In Microsoft Dynamics 365 for Finance and Operations, è possibile importare transazioni da banche e liquidare queste transazioni a fronte di transazioni esistenti. In Europa, è possibile effettuare questa operazione per gli scenari seguenti:
 
 -   Importazione rendiconti bancari
 -   Importazione pagamenti

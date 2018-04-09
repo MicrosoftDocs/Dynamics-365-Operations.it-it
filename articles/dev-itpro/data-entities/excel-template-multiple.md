@@ -1,6 +1,6 @@
 ---
 title: "Importare i dati dai modelli di entità di dati di Excel con più fogli di lavoro"
-description: "In questo argomento viene descritto come importare i dati mediante modelli di entità di dati Excel in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "In questo argomento viene descritto come importare i dati mediante modelli di entità di dati Excel in Microsoft Dynamics 365 for Finance and Operations."
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: it-it
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-La gestione dei dati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition supporta modelli basati su Microsoft Excel per le entità di dati. Questi modelli possono contenere uno o più fogli di lavoro. I modelli con più fogli di lavoro vengono spesso utilizzati quando è conveniente gestire i dati in un singolo file e importarli in più entità di dati. Un esempio potrebbe essere il caso di siti e magazzini.
+La gestione dei dati in Microsoft Dynamics 365 for Finance and Operations supporta modelli basati su Microsoft Excel per le entità di dati. Questi modelli possono contenere uno o più fogli di lavoro. I modelli con più fogli di lavoro vengono spesso utilizzati quando è conveniente gestire i dati in un singolo file e importarli in più entità di dati. Un esempio potrebbe essere il caso di siti e magazzini.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Caricare una volta un file e mapparlo a tutte le entità
 Si veda un esempio in cui esiste un file Excel con i fogli di lavoro chiamati **Siti** e **Magazzini**. Per impostare il progetto di importazione di dati, aggiungere la prima entità di dati **Siti**, quindi caricare il file. Sarà possibile selezionare **Siti** come foglio di lavoro da utilizzare per questa entità.

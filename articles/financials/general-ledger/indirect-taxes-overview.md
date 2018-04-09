@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ In ogni transazione (righe documento di acquisto/vendita, giornali di registrazi
 In ciascuna transazione, è possibile individuare l'IVA calcolata aprendo la pagina **Transazione IVA**. È possibile individuare l'IVA per una riga di documento o per l'intero documento. Per alcuni documenti (ad esempio, fatture fornitore e giornali di registrazione generale), è possibile rettificare l'IVA calcolata se nel documento originale vengono mostrati gli importi devianti.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Liquidazione e reporting IVA
-L'IVA deve essere dichiarata e pagata agli uffici tributari a intervalli regolari (mensile, trimestrale e così via). In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition sono disponibili funzionalità che consentono di liquidare i conti IVA per l'intervallo e utilizzare in contropartita i saldi nel conto di liquidazione IVA, come specificato nei gruppi di registrazione contabile. È possibile accedere a questa funzionalità nella pagina **Liquida e registra IVA**. È necessario specificare il periodo di liquidazione IVA per cui l'IVA dovrà essere liquidata. 
+L'IVA deve essere dichiarata e pagata agli uffici tributari a intervalli regolari (mensile, trimestrale e così via). In Microsoft Dynamics 365 for Finance and Operations sono disponibili funzionalità che consentono di liquidare i conti IVA per l'intervallo e utilizzare in contropartita i saldi nel conto di liquidazione IVA, come specificato nei gruppi di registrazione contabile. È possibile accedere a questa funzionalità nella pagina **Liquida e registra IVA**. È necessario specificare il periodo di liquidazione IVA per cui l'IVA dovrà essere liquidata. 
 
 Dopo aver pagato l'IVA, il saldo del conto di liquidazione IVA deve essere bilanciato a fronte del conto bancario. Se l'ufficio IVA specificato nel periodo di liquidazione IVA è correlato a un conto fornitore, il saldo IVA viene registrato come fattura fornitore aperta e può essere incluso nella proposta di pagamento normale.
 

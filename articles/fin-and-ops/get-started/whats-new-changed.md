@@ -3,7 +3,7 @@ title: "Novità o modifiche"
 description: "Questa pagina indica gli argomenti sulle nuove funzionalità nelle ultime versioni di Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: it-it
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ Per informazioni su come eseguire l'aggiornamento all'ultima versione, vedere [P
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Update 13 della piattaforma</td>
-<td>7.0.4764</td>
-<td>Gennaio 2018: questa funzionalità fa parte di una versione di destinazione disponibile soltanto per gli utenti che hanno scelto nel programma continuo vantaggi l'opzione di aggiornamento (PCVA).</td>
-<td><a href="whats-new-platform-update-13.md">Novità o modifiche in Dynamics 365 for Finance and Operations, Enterprise Edition, aggiornamento della piattaforma 13 (gennaio 2018)</a></td><tbody>
+<td>Update 15 della piattaforma</td>
+<td>7.0.4839</td>
+<td>Marzo 2018: questa funzionalità fa parte di una versione di destinazione disponibile soltanto per gli utenti che hanno scelto il programma Continuous Auto-update Advantage Program (CAAP).</td>
+<td><a href="whats-new-platform-update-15.md">Novità o modifiche in Dynamics 365 for Finance and Operations, Enterprise edition, aggiornamento 15 della piattaforma (marzo 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 12 della piattaforma</td>

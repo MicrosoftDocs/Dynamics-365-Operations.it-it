@@ -1,6 +1,6 @@
 ---
 title: Pianificazione del budget
-description: "L'obiettivo dell'esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questa esercitazione si concentrerà in modo specifico sui processi o sulle attività seguenti -    - Creazione della gerarchia organizzativa per la pianificazione del budget e configurazione della sicurezza utente   - Definizione di scenari di piano di budget, colonne di piano del budget, layout e modelli di Excel   - Creazione e attivazione del processo di pianificazione del budget   - Creazione dei documenti di piano di budget inserendo i valori effettivi dalla contabilità generale   - Utilizzo delle allocazioni per rettificare i dati dei documenti del piano di budget   - Modifica dei dati dei documenti del piano di budget in Excel"
+description: "L'obiettivo dell'esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questa esercitazione si concentrerà in modo specifico sui processi o sulle attività seguenti -    - Creazione della gerarchia organizzativa per la pianificazione del budget e configurazione della sicurezza utente   - Definizione di scenari di piano di budget, colonne di piano del budget, layout e modelli di Excel   - Creazione e attivazione del processo di pianificazione del budget   - Creazione dei documenti di piano di budget inserendo i valori effettivi dalla contabilità generale   - Utilizzo delle allocazioni per rettificare i dati dei documenti del piano di budget   - Modifica dei dati dei documenti del piano di budget in Excel"
 author: twheeloc
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-L'obiettivo dell'esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questa esercitazione si concentrerà in modo specifico sui processi o sulle attività seguenti -    - Creazione della gerarchia organizzativa per la pianificazione del budget e configurazione della sicurezza utente   - Definizione di scenari di piano di budget, colonne di piano del budget, layout e modelli di Excel   - Creazione e attivazione del processo di pianificazione del budget   - Creazione dei documenti di piano di budget inserendo i valori effettivi dalla contabilità generale   - Utilizzo delle allocazioni per rettificare i dati dei documenti del piano di budget   - Modifica dei dati dei documenti del piano di budget in Excel 
+L'obiettivo dell'esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questa esercitazione si concentrerà in modo specifico sui processi o sulle attività seguenti -    - Creazione della gerarchia organizzativa per la pianificazione del budget e configurazione della sicurezza utente   - Definizione di scenari di piano di budget, colonne di piano del budget, layout e modelli di Excel   - Creazione e attivazione del processo di pianificazione del budget   - Creazione dei documenti di piano di budget inserendo i valori effettivi dalla contabilità generale   - Utilizzo delle allocazioni per rettificare i dati dei documenti del piano di budget   - Modifica dei dati dei documenti del piano di budget in Excel 
 
 <a name="prerequisites"></a>Prerequisiti 
 ------------------

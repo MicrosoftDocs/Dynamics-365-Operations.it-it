@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: it-it
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ Creare e modificare i calendari di chiusura finanziaria utilizzando la scheda Ca
 
 È possibile assegnare un'attività nel modello a una o più società in cui tale attività è applicabile. Se una persona diversa viene assegnata per completare tale impegno lavorativo in ciascuna società, potrebbe essere utile creare più attività per lo stesso impegno lavorativo. Creare un'attività per ciascuna società. 
 
-La voce di menu **Collegamento attività** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di chiusura per eseguire il processo di rivalutazione valuta per Contabilità fornitori può essere collegata alla pagina **Rivalutazione valuta estera** associata in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. È inoltre possibile effettuare il collegamento a un URL esterno. 
+La voce di menu **Collegamento attività** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di chiusura per eseguire il processo di rivalutazione valuta per la Contabilità fornitori può essere collegata alla pagina **Rivalutazione valuta estera** associata in Microsoft Dynamics 365 for Finance and Operations. È inoltre possibile effettuare il collegamento a un URL esterno. 
 
 > [!TIP]
 > Se si desidera collegare un report di Management Reporter specifico a un'attività di chiusura periodo finanziario, è possibile utilizzare l'URL del report. Per accedere all'URL del report, aprire il report nella funzionalità di progettazione dei report, quindi fare clic su **File** &gt; **Visualizza report** per aprire il report in un Web browser. È quindi possibile copiare l'URL nella barra degli indirizzi del browser e incollarlo nel campo **Collegamento attività** **URL**. 

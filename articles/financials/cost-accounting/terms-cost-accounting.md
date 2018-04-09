@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 957acdbbc6bba83b8b2e2b83fdf266524385141d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -40,7 +40,7 @@ La base di allocazione viene utilizzata per misurare e quantificare le attività
 
 **Contabilità industriale**
 
-La contabilità industriale consente di raccogliere dati da diverse origini, ad esempio dalla contabilità generale, dalle contabilità ausiliarie, dai budget e dalle informazioni statistiche. È quindi possibile analizzare, riepilogare e valutare i dati sui costi, in modo che la gestione possa prendere le migliori decisioni possibili per gli aggiornamenti dei prezzi, i budget, il controllo dei costi e così via. I dati di origine utilizzati per l'analisi dei costi vengono gestiti in modo indipendente nella contabilità industriale. Di conseguenza, gli aggiornamenti della contabilità industriale non hanno effetto sui dati di origine. Tuttavia, quando si raccolgono i dati sui costi da diverse origini e soprattutto quando si importano i conti principali dalla contabilità generale in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition come elementi dei costi, vi è ridondanza di dati, poiché gli stessi dati esistono sia in contabilità generale che in contabilità industriale. Questa ridondanza è necessaria, poiché si utilizza la gestione finanziaria per la creazione di report esterni e la contabilità industriale per la creazione di report interni.
+La contabilità industriale consente di raccogliere dati da diverse origini, ad esempio dalla contabilità generale, dalle contabilità ausiliarie, dai budget e dalle informazioni statistiche. È quindi possibile analizzare, riepilogare e valutare i dati sui costi, in modo che la gestione possa prendere le migliori decisioni possibili per gli aggiornamenti dei prezzi, i budget, il controllo dei costi e così via. I dati di origine utilizzati per l'analisi dei costi vengono gestiti in modo indipendente nella contabilità industriale. Di conseguenza, gli aggiornamenti della contabilità industriale non hanno effetto sui dati di origine. Tuttavia, quando si raccolgono i dati sui costi da diverse origini e soprattutto quando si importano i conti principali dalla contabilità generale in Microsoft Dynamics 365 for Finance and Operations come elementi dei costi, vi è ridondanza di dati, poiché gli stessi dati esistono sia in contabilità generale che in contabilità industriale. Questa ridondanza è necessaria, poiché si utilizza la gestione finanziaria per la creazione di report esterni e la contabilità industriale per la creazione di report interni.
 
 **Movimento CoGe di contabilità industriale**
 
@@ -120,7 +120,7 @@ Sono disponibili due gerarchie di dimensioni: gerarchia di categorie e gerarchia
 La contabilità industriale supporta l'integrazione dei dati da sistemi di origine tramite un insieme di connettori dati. Sono disponibili i seguenti connettori dati:
 
 -  Transazioni importate (preconfigurate)
--  Dynamics 365 for Finance and Operations, Enterprise edition (preconfigurato)
+-  Dynamics 365 for Finance and Operations (pre-configurato)
 -  Dynamics AX (configurazione obbligatoria)
 
 **Nota:** il connettore dati Transazioni importate è basato sulle entità di dati.
@@ -129,7 +129,7 @@ La contabilità industriale supporta l'integrazione dei dati da sistemi di origi
 
 La maggior parte dei sistemi di origine possono fornire dati che corrispondono a una o più origini dati nella contabilità industriale. Per allineare i dati dei sistemi di origine all'origine dati nella contabilità industriale, è necessario configurare un provider dati. Nella seguente tabella è elencata la disponibilità dei provider dati per connettore dati e origine dati.
 
-|  **Origini dati** |  **Connettore dati Transazioni importate** | **Connettore dati Dynamics 365 for Finance and Operations, Enterprise edition**  | **Connettore dati Dynamics AX**  |
+|  **Origini dati** |  **Connettore dati Transazioni importate** | **Connettore dati Dynamics 365 for Finance and Operations**  | **Connettore dati Dynamics AX**  |
 |---|---|---|---|
 | Membri di dimensione elemento di costo  |  Sì | Sì  | Sì  |
 |  Membri di dimensione oggetto di costo |  Sì | Sì  | Sì  |

@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 9a36b3e7a8e496632ca7041018abe8176a2e4f25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
 ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Questo articolo spiega come impostare un pagamento sicuro e generare file pagame
 Impostare il pagamento sicuro per generare l'elenco elettronico degli assegni che viene fornito alla banca. Quando si presenta un assegno alla banca, la banca lo confronta con l'elenco degli assegni. Se l'assegno corrisponde a uno presente nell'elenco, la banca lo liquida. Se l'assegno non corrisponde a un assegno nell'elenco, la banca lo trattiene per esaminarlo.
 
 ## <a name="security-for-positive-pay-files"></a>Sicurezza dei file pagamenti sicuri
-I file pagamenti sicuri possono contenere dati riservati sui beneficiari e sugli importi dell'assegno. Di conseguenza, assicurarsi di utilizzare le misure di sicurezza appropriate dalla generazione dei file fino alla loro ricezione da parte della banca. I file pagamenti sicuri vengono scaricati nel percorso specificato dal Web browser. Poiché i file pagamenti sicuri possono contenere informazioni riservate, è importante che solo gli utenti autorizzati abbiano accesso per generare e visualizzare queste informazioni in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Utilizzare la seguente tabella per determinare i privilegi necessari.
+I file pagamenti sicuri possono contenere dati riservati sui beneficiari e sugli importi dell'assegno. Di conseguenza, assicurarsi di utilizzare le misure di sicurezza appropriate dalla generazione dei file fino alla loro ricezione da parte della banca. I file pagamenti sicuri vengono scaricati nel percorso specificato dal Web browser. Poiché i file pagamenti sicuri possono contenere informazioni riservate, è importante che solo gli utenti autorizzati abbiano accesso per generare e visualizzare queste informazioni in Microsoft Dynamics 365 for Finance and Operations. Utilizzare la seguente tabella per determinare i privilegi necessari.
 
 <table>
 <colgroup>

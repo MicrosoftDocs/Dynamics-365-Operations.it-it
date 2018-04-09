@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1335d95c8bf02d5c571d37d78eca0ee7eae32bad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -53,7 +53,7 @@ L'EPC, che è costituito dalle banche europee, sviluppa i framework commerciali 
 Un bonifico SEPA è un pagamento effettuato da un individuo o una società a un'altra società o un altro individuo. I pagamenti devono essere in Euro e devono includere il numero IBAN (International Bank Account Number) e il codice BIC (Bank Identifier Code) di entrambe le parti. Il codice BIC è detto anche codice Society for Worldwide Interbank Financial Telecommunication \[SWIFT\]. Inoltre, i costi della transazione devono essere condivisi da entrambe le parti. I bonifici effettuati tra le parti devono utilizzare file XML conformi agli standard di elaborazione di pagamento ISO 20022 e il formato XML, come specificato dalla EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Come viene implementato un bonifico?
-Il formato di pagamento dei bonifici per i paesi europei è implementato utilizzando la creazione di report elettronici (ER, Electronic reporting) e la funzionalità Metodi di pagamento in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Alcuni formati di bonifico utilizzati in altre aree utilizzano ancora il framework di pagamento precedente. Tra i molti altri formati, sono disponibili dodici formati di file di bonifico ISO 20022. Questi formati di esportazione sono conformi allo standard XML ISO 20022 SEPA. Vengono utilizzati per generare bonifici in valuta diversa dall'euro per i paesi in cui vengono utilizzati e pagamenti in euro come specificato nella versione 8.2 del documento SEPA Credit Transfer Scheme Rulebook rilasciato dall'EPC. Prima di poter implementare i bonifici, è necessario contattare la banca per ottenere il software necessario per caricare i file di E-banking. Verrà utilizzato tale software per trasferire i file XML contenenti gli ordini di pagamento alla banca.
+Il formato di pagamento dei bonifici per i paesi europei è implementato utilizzando la creazione di report elettronici (ER, Electronic reporting) e la funzionalità Metodi di pagamento in Microsoft Dynamics 365 for Finance and Operations. Alcuni formati di bonifico utilizzati in altre aree utilizzano ancora il framework di pagamento precedente. Tra i molti altri formati, sono disponibili dodici formati di file di bonifico ISO 20022. Questi formati di esportazione sono conformi allo standard XML ISO 20022 SEPA. Vengono utilizzati per generare bonifici in valuta diversa dall'euro per i paesi in cui vengono utilizzati e pagamenti in euro come specificato nella versione 8.2 del documento SEPA Credit Transfer Scheme Rulebook rilasciato dall'EPC. Prima di poter implementare i bonifici, è necessario contattare la banca per ottenere il software necessario per caricare i file di E-banking. Verrà utilizzato tale software per trasferire i file XML contenenti gli ordini di pagamento alla banca.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Quali formati di bonifico sono attualmente supportati in Finance and Operations?
 È necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**. La sezione successiva, "Cosa devo impostare?", fornisce un collegamento all'argomento che illustra come creare un archivio LCS per esaminare le configurazioni disponibili e importare quelle selezionate.

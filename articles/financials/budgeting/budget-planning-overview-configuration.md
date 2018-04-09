@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d904a2fe9411da1fd1a4e5810f7dcea782f1c2f7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ In questo articolo viene illustrata la pianificazione del budget e sono contenut
 
 La pianificazione del budget viene eseguita quando si stanno preparando i budget che verranno implementati da un'organizzazione. Un'organizzazione può configurare la pianificazione del budget e quindi impostare i processi di pianificazione del budget per soddisfare i criteri, le procedure e i requisiti della preparazione del budget. 
 
-Quando si capiscono i concetti e la terminologia utilizzati in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, sarà più facile implementare la pianificazione del budget nell'organizzazione.
+Quando si comprendono i concetti e la terminologia utilizzati in Microsoft Dynamics 365 for Finance and Operations, sarà più facile implementare la pianificazione del budget nell'organizzazione.
 
 ### <a name="key-terms"></a>Termini importanti
 
@@ -48,7 +48,7 @@ Quando si capiscono i concetti e la terminologia utilizzati in Microsoft Dynamic
 -   **Fasi di pianificazione del budget** Le fasi di pianificazione del budget definiscono i passaggi che un piano di budget deve seguire dall'approvazione iniziale a quella finale. Le fasi di pianificazione del budget sono disposte in flussi di lavoro di pianificazione del budget.
 -   **Flussi di lavoro di pianificazione del budget** I flussi di lavoro di pianificazione del budget sono costituiti e definiscono le fasi della pianificazione del budget. I flussi di lavoro di pianificazione del budget sono associati ai flussi di lavoro impostazione budget. I flussi di lavoro impostazione budget sono i processi automatizzati e manuali che spostano i piani di budget tra le fasi di pianificazione del budget.
 
-[Terminologia relativa alla pianificazione del budget![](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Terminologia relativa alla pianificazione del budget](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="common-tasks"></a>Attività comuni
 

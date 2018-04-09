@@ -1,6 +1,6 @@
 ---
 title: Configurare la gestione delle spese
-description: "Questo articolo descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di configurare la gestione delle spese in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Questo articolo descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di configurare la gestione delle spese in Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fad62c5da11e88e07f4e9d4343c4ac1a487bdd8
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo argomento descrive ciò che si deve considerare e le decisioni che è necessario prendere durante il processo di pianificazione prima di configurare la gestione delle spese in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. In Gestione spese, è possibile archiviare informazioni su metodi di pagamento, richieste di viaggio, note spese, criteri e altro ancora.
+Questo argomento descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di configurare la gestione delle spese in Microsoft Dynamics 365 for Finance and Operations. In Gestione spese, è possibile archiviare informazioni su metodi di pagamento, richieste di viaggio, note spese, criteri e altro ancora.
 
 Poiché molte decisioni che prese quando si pianifica la configurazione per la gestione delle spese si basano sulla struttura finanziaria e gerarchica dell'organizzazione, è necessario fare riferimento ai documenti di pianificazione per le aree.
 

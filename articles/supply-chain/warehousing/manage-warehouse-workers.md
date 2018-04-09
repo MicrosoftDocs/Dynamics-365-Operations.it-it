@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 97f70bf2f122ee06900a1a9b930d29aab5ce4b25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-In questo articolo viene descritto come utilizzare Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
+In questo articolo viene descritto come utilizzare Microsoft Dynamics 365 for Finance and Operations per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
 
 Se si utilizza la funzionalità di gestione magazzino, tutte le operazioni del lavoratore di magazzino sono indicate come *lavoro*. Ad esempio il lavoro di prelievo, spostamento e conteggio delle scorte disponibili viene registrato utilizzando i dispositivi mobili. Prima che un lavoratore di magazzino possa completare il lavoro, deve essere associato a un lavoratore nelle Risorse umane. Ogni account **lavoratore** può avere più utenti di lavoro di magazzino associati. Tali utenti di lavoro possono lavorare in magazzini diversi e possono avere diversi livelli di accesso a vari menu del dispositivo mobile. È possibile pensare agli utenti di lavoro di magazzino come a diversi accessi per il lavoratore selezionato. A ogni utente di lavoro è associato un magazzino predefinito e i flussi di lavoro specifici sono esposti dalle voci di menu disponibili per tale utente di lavoro. 
 

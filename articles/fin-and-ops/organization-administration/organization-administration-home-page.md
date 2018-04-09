@@ -1,6 +1,6 @@
 ---
 title: Home page di amministrazione organizzazione
-description: Questo argomento descrive le risorse che consentono di utilizzare Microsoft Dynamics 365 for Finance and Operations, Enterprise edition nell'organizzazione.
+description: Sono indicate le risorse che consentono di utilizzare Microsoft Dynamics 365 for Finance and Operations nell'organizzazione.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo argomento descrive le risorse che power user e amministratori possono utilizzare per configurare Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Tali risorse consentono di configurare efficacemente il sistema per l'organizzazione e l'attività commerciale.
+Questo argomento descrive le risorse che power user e amministratori possono utilizzare per configurare Microsoft Dynamics 365 for Finance and Operations. Tali risorse consentono di configurare efficacemente il sistema per l'organizzazione e l'attività commerciale.
 
 La maggior parte del contenuto qui elencato si applica alle funzionalità del modulo **Amministrazione organizzazione**. Un paio di attività, ad esempio la creazione e l'uso di un modello di record, sono tuttavia eseguibili in qualsiasi modulo per consentire una gestione ancor più efficace dell'organizzazione. 
 

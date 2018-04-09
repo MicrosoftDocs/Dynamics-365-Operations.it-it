@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: it-it
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 Questo argomento fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations. Viene illustrato come è possibile fornire documentazione personalizzata e formazione all'organizzazione. 
 
 > [!NOTE] 
-> I seguenti prodotti sono strettamente connessi: Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail e Dynamics 365 for Talent. La stessa funzionalità può apparire in tutti e 3 prodotti. Di conseguenza, negli argomenti correlati principalmente a Retail, il nome del prodotto sarà Dynamics 365 for Retail; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 for Talent; e negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 for Finance and Operations. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
+> I seguenti prodotti sono strettamente connessi: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent. La stessa funzionalità può apparire in tutti e 3 prodotti. Di conseguenza, negli argomenti correlati principalmente a Retail, il nome del prodotto sarà Dynamics 365 for Retail; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 for Talent; e negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 for Finance and Operations. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
 
 La Guida è condivisa dai seguenti prodotti:
-- Dynamics 365 for Finance and Operations, Enterprise Edition
+- Dynamics 365 for Finance and Operations
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -110,7 +110,7 @@ Per suggerire una modifica, sarà necessario disporre di un account GitHub e fir
 
 Per iniziare, fare clic sul pulsante **Modifica** (matita) in un argomento o accedere al repository all'indirizzo https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
 
-Per ulteriori informazioni, consultare la guida del collaboratore: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+Per ulteriori informazioni, fare riferimento alla guida del collaboratore: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
 
 
 > [!NOTE]

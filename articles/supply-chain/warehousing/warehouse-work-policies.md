@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 83e8dc76350e0d40a392e9a04ddca5b4b45d0da0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-I criteri di lavoro del magazzino in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition controllano se il lavoro del magazzino viene creato da processi di magazzino durante la produzione, in base al tipo di ordine di lavoro, all'ubicazione del magazzino e al prodotto.
+I criteri di lavoro del magazzino in Microsoft Dynamics 365 for Finance and Operations controllano se il lavoro del magazzino viene creato da processi di magazzino durante la produzione, in base al tipo di ordine di lavoro, all'ubicazione del magazzino e al prodotto.
 
 Questi criteri di lavoro controllano se il lavoro del magazzino è stato creato per i processi di magazzino in fase di produzione. È possibile impostare i criteri di lavoro mediante una combinazione di **tipi di ordine di lavoro**, una **ubicazione di magazzino** e un **prodotto**. Ad esempio, il prodotto L0101 viene dichiarato finito nell'ubicazione di uscita 001. Il prodotto finito viene successivamente consumato in un altro ordine di produzione all'ubicazione di uscita 001. In questo caso, è possibile impostare i criteri di lavoro per impedire che lavoro per lo stoccaggio di prodotti finiti venga creato quando si dichiara il prodotto L0101 finito nell'ubicazione di uscita 001. I criteri di lavoro sono una singola entità che può essere descritta con le seguenti informazioni:
 

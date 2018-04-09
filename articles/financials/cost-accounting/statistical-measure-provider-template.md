@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2c0a00b6a1956f1f22a50951308c434c3f0eefc4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -73,7 +73,7 @@ Di seguito sono riportati alcuni esempi di membri di dimensione statistica tipic
 
 ## <a name="statistical-measure-provider-template"></a>Modello provider misure statistiche
 
-Le misure statistiche possono derivare da numerosi tipi di origini. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition è un'ottima origine da cui estrarre le misure statistiche. È possibile utilizzare un modello provider misure statistiche per configurare facilmente le misure statistiche che si desidera estrarre.
+Le misure statistiche possono derivare da numerosi tipi di origini. Microsoft Dynamics 365 for Finance and Operations è un'ottima origine da cui estrarre le misure statistiche. È possibile utilizzare un modello provider misure statistiche per configurare facilmente le misure statistiche che si desidera estrarre.
 
 La definizione di un modello provider misure statistiche è generica e può essere riutilizzata in più di dimensione statistica.
 
@@ -132,13 +132,13 @@ Prima di immettere le misure statistiche nella contabilità industriale, è nece
 > [!NOTE]
 > In questo esempio verrà creata una relazione solo per **Versione effettiva**.
 
-Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva** \> **Gestione** \> **Misure statistiche** per stabilire la relazione. Per questo scenario selezionare il connettore di dati **Dynamics 365 for Finance and Operations, Enterprise edition - Misure statistiche** per estrarre i dati da Finance and Operations.
+Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva** \> **Gestione** \> **Misure statistiche** per stabilire la relazione. Per questo scenario, selezionare il connettore di dati **Dynamics 365 for Finance and Operations - Misure statistiche** per estrarre i dati da Finance and Operations.
 
 **Origine dati**
 
 | Nome        | Connettore dati                                                                     | Membro di dimensione statistica |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTEs D365FO | Dynamics 365 for Finance and Operations, Enterprise edition - Misure statistiche | FTE                         |
+| FTEs D365FO | Dynamics 365 for Finance and Operations - Misure statistiche | FTE                         |
 
 **Configurazione del provider di dati**
 
@@ -220,13 +220,13 @@ Prima di immettere le misure statistiche nella contabilità industriale, è nece
 > [!NOTE]
 > In questo esempio verrà creata una relazione solo per **Versione effettiva**.
 
-Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva** \> **Gestione** \> **Misure statistiche** per stabilire la relazione. Per questo scenario selezionare il connettore di dati **Dynamics 365 for Finance and Operations, Enterprise edition - Misure statistiche** per estrarre i dati da Finance and Operations.
+Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva** \> **Gestione** \> **Misure statistiche** per stabilire la relazione. Per questo scenario, selezionare il connettore di dati **Dynamics 365 for Finance and Operations - Misure statistiche** per estrarre i dati da Finance and Operations.
 
 **Origine dati**
 
 | Nome           | Connettore dati                                                                     | Membro di dimensione statistica |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| CC di imballaggio D365FO | Dynamics 365 for Finance and Operations, Enterprise edition - Misure statistiche | CC di imballaggio                      |
+| CC di imballaggio D365FO | Dynamics 365 for Finance and Operations - Misure statistiche | CC di imballaggio                      |
 
 Il sistema rileva che ProdRouteTrans è una tabella in cui ogni record appartiene a una persona giuridica distinta. Di conseguenza, verrà chiesto di selezionare la persona giuridica da cui devono essere importate le transazioni.
 

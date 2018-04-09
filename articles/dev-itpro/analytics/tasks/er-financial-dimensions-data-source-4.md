@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: c5aefc44adc24f9d216f9470e4307a3723690173
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ee951d7f3f04e641f7bed767a2eebd1c180eb9f3
 ms.contentlocale: it-it
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Eseguire un report che utilizza le dimensioni finanziarie come origine dati per la creazione di report elettronici (ER)
@@ -44,6 +44,6 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 9. Nel campo Criteri digitare '00057'.
 10. Fare clic su OK.
 11. Fare clic su OK.
-    * Esaminare l'output generato. Tenere presente che per ciascuna transazione del batch selezionato, le dimensioni finanziarie del set di dimensioni corrispondente vengono presentate. Eseguire questo report e selezionare dimensioni diverse per vedere che il report non dipende dal numero di dimensioni selezionate o dal numero di dimensioni configurate per l'istanza di Dynamics 365 for Finance and Operations, Enterprise edition.  
+    * Esaminare l'output generato. Tenere presente che per ciascuna transazione del batch selezionato, le dimensioni finanziarie del set di dimensioni corrispondente vengono presentate. Eseguire questo report e selezionare dimensioni diverse per vedere che il report non dipende dal numero di dimensioni selezionate o dal numero di dimensioni configurate per l'istanza di Dynamics 365 for Finance and Operations.  
 
 

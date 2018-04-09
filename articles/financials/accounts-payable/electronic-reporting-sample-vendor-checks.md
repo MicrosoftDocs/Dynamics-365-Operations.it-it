@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9abea228cdaae84ca2b9aada9f36bbe79c1dc6b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 È necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco corrente di file disponibili con tipo di risorsa **Configurazione GER**. La sezione successiva, "Cosa devo impostare?", fornisce un collegamento all'argomento che illustra come creare un archivio LCS per esaminare le configurazioni disponibili e importare quelle selezionate.
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition include un formato di esempio in cui l'assegno è in alto, seguito da due sezioni di rimessa. Include anche un formato di esempio in cui l'assegno è in mezzo, tra due sezioni di rimessa. Questi formati di esempio corrispondono ai formati di assegni aziendali di tipo deluxe.
+Microsoft Dynamics 365 for Finance and Operations include un formato di esempio in cui l'assegno è in alto, seguito da due sezioni di rimessa. Include anche un formato di esempio in cui l'assegno è in mezzo, tra due sezioni di rimessa. Questi formati di esempio corrispondono ai formati di assegni aziendali di tipo deluxe.
 
 ## <a name="what-do-i-have-to-set-up"></a>Cosa devo impostare?
 

@@ -1,6 +1,6 @@
 ---
 title: Allocazione di dati di pianificazione del budget
-description: Questo articolo descrive i vari metodi di allocazione disponibili in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e come possono essere utilizzati.
+description: Questo articolo descrive i vari metodi di allocazione disponibili in Microsoft Dynamics 365 for Finance and Operations e come possono essere utilizzati.
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c12b46ea68edd3d58c5b9abbc20a6ee6948b44f2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Questo articolo descrive i vari metodi di allocazione disponibili in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e come possono essere utilizzati.  
+Questo articolo descrive i vari metodi di allocazione disponibili in Microsoft Dynamics 365 for Finance and Operations e come possono essere utilizzati.  
 
 È possibile distribuire i dati in un piano di budget in vari modi per illustrare in modo preciso gli importi previsti.
 
 ## <a name="allocation-methods"></a>Metodi di allocazione
 Tre metodi di allocazione (Alloca nei periodi, Alloca a dimensioni e Utilizza regole di allocazione contabilità generale) possono creare le righe del piano di budget in base alle righe dello stesso piano di budget. Altri metodi tre (Aggrega, Distribuisci e Copia da piano di budget) possono creare le righe del piano di budget in altri piani di budget. Per tutti e sei i metodi di allocazione, specificare lo scenario di destinazione. Lo scenario di destinazione può essere uguale o diverso dallo scenario di origine. Inoltre, è possibile specificare se le nuove righe vengono aggiunte al piano di budget o sostituiscono le righe correnti del piano di budget.
 
-[AllocateAcrossPeriods![](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Alloca nei periodi**: una categoria di allocazione per periodo viene utilizzata per allocare le righe del piano di budget dallo scenario del piano di budget di origine tra i periodi dello scenario di destinazione. L'importo di origine viene assegnato a più righe nello scenario di destinazione, in base alla percentuale e alla data definite nella categoria di allocazione per periodo.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)

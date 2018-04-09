@@ -3,7 +3,7 @@ title: Gestione turni e cassetto della cassa
 description: "In questo articolo viene spiegato come impostare e utilizzare i due tipi di turni POS al dettaglio: condiviso e autonomo. I turni condivisi possono essere utilizzati da più utenti in più posizioni, mentre i turni autonomi possono essere utilizzati da un solo lavoratore alla volta."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e12f3f4c2f8f5a596c8994f2a4571d8a907062
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -99,7 +99,60 @@ Un turno condiviso viene utilizzato in un ambiente in cui più cassieri condivid
 9.  Utilizzare l'operazione **Dichiara metodo di pagamento** per dichiarare l'importo totale di contanti di tutti i cassetti inclusi nel turno condiviso.
 10. Utilizzare l'operazione **Chiudi turno** per chiudere il turno condiviso.
 
+## <a name="shift-operations"></a>Operazioni per turni
+È possibile eseguire vari azioni per cambiare lo stato di un turno o per aumentare o ridurre la somma di denaro in cassa. La sezione seguente descrive queste operazioni per turni per Dynamics 365 for Retail Modern POS e Cloud POS.
 
+**Turno aperto**
 
+POS richiede che un utente abbia un turno aperto attivo per eseguire qualsiasi operazione che provocherebbe una transazione finanziaria ad esempio una vendita, un reso o un ordine cliente.  
 
+Durante la registrazione nel POS, il sistema dapprima verifica se l'utente ha un turno attivo disponibile nel registro corrente. In caso contrario, l'utente può scegliere di aprire un nuovo turno, riattivarne uno esistente o continuare ad accedere in modalità "non relativa al cassetto", a seconda della configurazione del sistema e delle autorizzazioni.
+
+**Dichiara importo iniziale**
+
+Questa operazione è spesso la prima azione eseguita con un turno appena aperto. Gli utenti specificano l'importo di cassa iniziale nella cassa per il turno. Ciò è importante in quanto il calcolo in eccesso/in difetto che si verifica alla chiusura di un turno tiene conto di questo importo.
+
+**Immissione fondo di cassa**
+
+Le voci fondo di cassa sono transazioni non di vendita che vengono eseguite in un turno attivo e aumentano l'importo della liquidità in cassa. Un esempio comune di immissione fondo di cassa consiste nell'immettere importi aggiuntivi nella cassa quando il livello è basso.
+
+**Rimozione metodo di pagamento**
+
+Le rimozioni metodo di pagamento sono transazioni non di vendita che vengono eseguite in un turno attivo per ridurre l'importo della liquidità in cassa. Ciò è più utilizzato insieme a un'immissione fondo di cassa per un turno differente. Ad esempio, il Registro 1 è scarso di liquidità, pertanto l'utente del Registro 2 esegue una rimozione del metodo di pagamento per ridurre l'importo in cassa. L'utente nel Registro 1 eseguirebbe quindi un'immissione fondo di cassa per aumentare il relativo importo.
+
+**Sospendi turno**
+
+Gli utenti possono sospendere il relativo turno attivo per mantenere disponibile il registro corrente per un altro utente o per spostare il turno in un registro differente (questo scenario è spesso denominato "cassetto con postazione variabile"). 
+
+La sospensione del turno impedisce qualsiasi nuova transazione o modifica al turno finché a che non viene ripreso.
+
+**Riprendi il turno**
+
+Questa operazione consente a un utente di riprendere un turno sospeso in precedenza in un registro che non ha un turno attivo.
+
+**Riepilogo incassi**
+
+Il riepilogo incassi è un'azione che l'utente intraprende per specificare l'importo totale di denaro attualmente in cassa, spesso prima della chiusura del turno di lavoro. Si tratta del valore che viene confrontato al turno previsto per calcolare l'importo in eccesso/in difetto.
+
+**Deposito in cassaforte**
+
+I depositi in cassaforte possono essere eseguiti in qualsiasi momento per un turno attivo. Questa operazione rimuove denaro dalla cassa, in modo da poter essere trasferito in un luogo più sicuro ad esempio una cassaforte nella stanza sul retro. L'importo totale registrato per depositi in cassaforte è ancora incluso nei totali relativi ai turni, ma non deve essere conteggiato nel riepilogo incassi.
+
+**Deposito bancario**
+
+Come i depositi in cassaforte, anche i depositi bancari vengono eseguiti su turni attivi. Questa operazione rimuove denaro dal turno per preparare il deposito bancario.
+
+**Chiusura forzata turno**
+
+Un turno con chiusura forzata è un turno che non è più attivo ma non è stato chiuso completamente. I turni con chiusura forzata non possono essere riattivati come i turni sospesi. Tuttavia è possibile eseguire procedure come la dichiarazione di importi iniziali e i riepiloghi incassi in un momento successivo o da un registro diverso.
+
+I turni con chiusura forzata vengono spesso utilizzati per liberare un registro per un nuovo utente o un nuovo turno, senza dover prima effettuare il conteggio, riconciliare e chiudere il turno. 
+
+**Chiusura turno**
+
+Questa operazione calcola i totali relativi ai turni, gli importi in eccesso/in difetto e quindi finalizza un turno attivo o con chiusura forzata. I turni chiusi non possono essere riattivati o modificati.  
+
+**Gestisci turni**
+
+Questa operazione consente agli utenti di visualizzare qualsiasi turno attivo, sospeso e con chiusura forzata per il punto vendita. A seconda delle autorizzazioni, gli utenti possono eseguire procedure di chiusura finali quali il riepilogo incassi e la chiusura dei turni per i turni con chiusura forzata. Questa operazione consentirà inoltre agli utenti di visualizzare ed eliminare i turni non validi nel raro evento che un turno sia in un cattivo stato dopo il passaggio tra la modalità offline e online. Questi turni non validi non contengono informazioni finanziarie o dati transazionali necessari per la riconciliazione. 
 

@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ In questo argomento viene descritta l'app mobile Microsoft Dynamics 365 for Unif
 
 L'app mobile consente all'organizzazione di rendere disponibili i propri processi aziendali nei dispositivi mobili. Dopo che l'amministratore IT attiva le aree di lavoro mobile per l'organizzazione, gli utenti potranno accedere all'app e immediatamente iniziare a eseguire i processi aziendali dai dispositivi mobili. L'app mobile include le seguenti funzionalità che consentono di aumentare la produttività:
 
-- Gli utenti possono visualizzare, modificare ed eseguire azioni sui dati business, anche se invece dispongono di connettività di rete intermittente o se i dispositivi mobili sono completamente offline. Quando un'unità ristabilisce una connessione di rete, le operazioni dati offline vengono sincronizzate automaticamente con Dynamics 365 for Finance and Operations, Enterprise edition o Microsoft Dynamics 365 for Finance and Operations.
+- Gli utenti possono visualizzare, modificare ed eseguire azioni sui dati business, anche se invece dispongono di connettività di rete intermittente o se i dispositivi mobili sono completamente offline. Quando un dispositivo ristabilisce una connessione di rete, le operazioni dati offline vengono sincronizzate automaticamente con Dynamics 365 for Finance and Operations.
 - Gli amministratori IT o gli sviluppatori possono creare e pubblicare aree di lavoro mobili che sono state personalizzate per l'organizzazione. L'app utilizza le risorse di codice esistenti. Di conseguenza, non è necessario implementare di nuovo le procedure di convalida, la regola business o la configurazione di protezione.
 - Gli amministratori IT o gli sviluppatori possono progettare facilmente le aree di lavoro mediante la progettazione rapida per area di lavoro inclusa in nel client Web.
 - Gli amministratori IT o gli sviluppatori possono facoltativamente ottimizzare le capacità offline delle aree di lavoro utilizzando il framework dell'estensibilità della regola business. Poiché i dati continuano a essere elaborati offline anche mentre il dispositivo è offline, gli scenari mobili rimangono ricchi e fluidi anche se i dispositivi non hanno connettività di rete costante.
@@ -90,7 +90,7 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 <tr class="even">
 <td>2</td>
 <td>Amministratore di sistema</td>
-<td><strong>Se si utilizza Microsoft Dynamics 365 for Finance and Operations versione 1611:</strong> Scaricare e installare gli articoli KB che abilitano le aree di lavoro mobili fornite da Microsoft.</td>
+<td><strong>Se si utilizza Microsoft Dynamics 365 for Operations versione 1611:</strong> scaricare e installare gli hotfix KB che abilitano le aree di lavoro mobili fornite da Microsoft.</td>
 <td>Per ulteriori informazioni, vedere i seguenti argomenti:
 <ul>
 

@@ -19,10 +19,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 270e0de2d58550e517417076b49a5a8bdc62bc64
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Se una persona giuridica ha ricevuto fatture in valuta estera, è necessario con
 Nelle sezioni seguenti viene descritto il flusso di informazioni utilizzato per impostare ed elaborare l'importazione dei tassi di cambio estero.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Configurare un provider di tassi di cambio
-Prima di poter importare i tassi di cambio, è necessario impostare le informazioni richieste dai provider di tassi di cambio. Utilizzare la pagina **Configura provider di tassi di cambio** per selezionare i provider di tassi di cambio. Alcuni provider di tassi di cambio sono inclusi nei dati dimostrativi in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Nella tabella riportata di seguito sono incluse le descrizioni relative ai controlli presenti nella pagina.
+Prima di poter importare i tassi di cambio, è necessario impostare le informazioni richieste dai provider di tassi di cambio. Utilizzare la pagina **Configura provider di tassi di cambio** per selezionare i provider di tassi di cambio. Alcuni provider di tassi di cambio sono inclusi nei dati dimostrativi in Microsoft Dynamics 365 for Finance and Operations. Nella tabella riportata di seguito sono incluse le descrizioni relative ai controlli presenti nella pagina.
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

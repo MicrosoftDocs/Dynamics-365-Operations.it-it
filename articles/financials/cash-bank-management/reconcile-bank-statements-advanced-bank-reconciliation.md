@@ -1,6 +1,6 @@
 ---
 title: Riconciliare rendiconti bancari utilizzando la riconciliazione bancaria avanzata
-description: "La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In questo argomento viene descritto il processo di riconciliazione."
+description: "La funzionalità di riconciliazione estratti conto avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations. In questo argomento viene descritto il processo di riconciliazione."
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b6c1b89256ab4b258f2901e47009a0eed573bd53
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Riconciliare rendiconti bancari utilizzando la riconciliazione estratti conto avanzata
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Riconciliare rendiconti bancari utilizzando la riconciliazione bancaria avanzata
 
 [!include[banner](../includes/banner.md)]
 
 
-La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In questo argomento viene descritto il processo di riconciliazione.  
+La funzionalità di riconciliazione estratti conto avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations. In questo argomento viene descritto il processo di riconciliazione.  
 
 <a name="import-an-electronic-bank-statement"></a>Importare un rendiconto bancario elettronico
 -----------------------------------

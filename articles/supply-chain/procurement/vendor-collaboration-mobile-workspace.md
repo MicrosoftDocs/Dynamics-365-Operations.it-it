@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 6028f6007cf2fd3f21c2e6cf3f5fac85c6e0da0a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bfbc0fdfcff809a7d22362961b9778355ed7317b
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Co
 Questa area di lavoro mobile può essere utilizzata con l'app mobile Microsoft Dynamics 365 for Unified Operations.
 
 ## <a name="overview"></a>Panoramica 
-L'area di lavoro mobile **Collaborazione fornitore** mantiene i fornitori aggiornati sui nuovi ordini fornitore e consente loro di visualizzare gli ordini e quindi di rispondere tramite il client Web di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
+L'area di lavoro mobile **Collaborazione fornitore** mantiene i fornitori aggiornati sui nuovi ordini fornitore e consente loro di visualizzare gli ordini e quindi di rispondere tramite il client Web di Microsoft Dynamics 365 for Finance and Operations. 
 
 >[!NOTE]
 > L'area di lavoro mobile dovrebbe essere utilizzata come supplemento all'interfaccia Web per la collaborazione fornitore, non come una sostituzione. 
@@ -60,8 +60,8 @@ L'area di lavoro mobile **Collaborazione fornitore** consente a un fornitore di 
 ## <a name="prerequisites"></a>Prerequisiti
 I prerequisiti variano a seconda della versione di Microsoft Dynamics 365 che è stata installata nell'organizzazione.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Prerequisiti per l'utilizzo di Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 
-Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Collaborazione fornitore**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Prerequisiti per l'utilizzo di Microsoft Dynamics 365 for Finance and Operations 
+Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Finance and Operations, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Collaborazione fornitore**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se si usa Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva
 Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva, l'amministratore di sistema deve soddisfare i prerequisiti seguenti. 
