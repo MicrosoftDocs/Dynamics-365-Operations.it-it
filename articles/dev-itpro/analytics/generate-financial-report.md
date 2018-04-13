@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Genera un report finanziario
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento sono riportate informazioni sulla generazione di un report finanziario. 
 
@@ -50,13 +49,13 @@ Quando si genera un report, vengono usate le opzioni specificate nelle schede di
 ## <a name="generate-a-financial-report"></a>Genera un report finanziario
 
 Per generare un report finanziario con Microsoft Dynamics 365 for Finance and Operations, passare a **Contabilità generale** > **Richieste di informazioni e report** > **Report finanziari**. 
- - Selezionare un report da generare e fate clic su **Genera**. 
- - Compilare il campo **Data report** e fare clic su **OK**.
- 
- Dopo avere generato il report, questo sarà disponibile nella sezione **Report**.
- È possibile selezionare **Visualizza** o **Elimina** per visualizzare o eliminare il report.
- 
- 
+- Selezionare un report da generare e fate clic su **Genera**. 
+- Compilare il campo **Data report** e fare clic su **OK**.
+
+  Dopo avere generato il report, questo sarà disponibile nella sezione **Report**.
+  È possibile selezionare **Visualizza** o **Elimina** per visualizzare o eliminare il report.
+
+
 Per generare un report utilizzando **Progettazione report**, aprire la definizione del report e quindi fare clic sul pulsante Genera nella barra degli strumenti. La finestra Stato coda report si aprirà e indicherà l'ubicazione del report nella coda. Per impostazione predefinita, il report generato viene aperto nel Visualizzatore web.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Quando si esegue un'analisi dei conti mancanti, sono disponibili i seguenti tast
 | Aprire la definizione di report selezionata  | Ctrl+R                     |
 | Aprire la definizione di riga selezionata     | Ctrl+O                     |
 
- 
+
 <a name="see-also"></a>Vedere anche
 --------
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="schedule-kanban-jobs"></a>Programmazione processi kanban
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura riguarda la programmazione dei processi kanban di lavorazione per una cella di lavoro specifica. La procedura "Preparare un processo kanban quando non sono disponibili materiali per la cella di lavoro" è un prerequisito per creare questa procedura. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa attività è destinata al supervisore dello shop floor e al responsabile di pianificazione della produzione che utilizzano i processi kanban.
 

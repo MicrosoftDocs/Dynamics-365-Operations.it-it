@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-a-formula"></a>Copiare una formula
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura riguarda la creazione di una formula che include gli stessi ingredienti di una formula esistente, ma con differenze secondarie. Per creare le righe della formula, è possibile utilizzare la funzione di copia per copiare una formula esistente con la maggior parte degli ingredienti necessari. È quindi possibile apportare le modifiche necessarie alle singole righe nella nuova versione. Tramite la funzione di copia, non è necessario creare più formule quasi identiche. La società di dati dimostrativi utilizzata per creare questa attività è USP2.
 

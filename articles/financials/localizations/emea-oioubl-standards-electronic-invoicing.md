@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Standard supportati per la fatturazione elettronica in Europa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto il livello di copertura della fatturazione elettronica per l'Europa. 
 

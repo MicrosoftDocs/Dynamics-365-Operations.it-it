@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="start-a-production-order"></a>Avviare un ordine di produzione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come avviare un ordine di produzione in Controllo shop floor. Il consumo di tempo e materiali è dichiarato in questo processo. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Si tratta della quinta procedura su sette che spiega il ciclo di vita dell'ordine di produzione.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>Tipi di giornale di registrazione contabile
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina **Nomi giornale di registrazione** per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Finance and Operations.
 

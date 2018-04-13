@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Impostare una voce di menu del dispositivo mobile per completare il lavoro in un ordine fornitore
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come impostare una voce di menu Dispositivo mobile. In questo esempio, la voce di menu è utilizzata per eseguire lavori di tipo ordine fornitore. Il lavoro valido è determinato dalla classe di lavoro associata alla voce di menu. È possibile utilizzare questa guida nella società di dati dimostrativi USMF. In genere, questa procedura viene eseguita da un responsabile del magazzino.
 

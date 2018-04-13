@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="nonconformance-management"></a>Gestione della non conformità
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo descrive l'impostazione di base necessaria per l'utilizzo della non conformità. Un'impostazione aggiuntiva è richiesta se si desidera utilizzare la non conformità negli ordini di controllo qualità.
 

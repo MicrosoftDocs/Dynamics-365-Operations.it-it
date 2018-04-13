@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-iso20022-files"></a>Importare file ISO20022
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile importare file di pagamento con i seguenti formati:
 
@@ -41,8 +41,8 @@ ms.lasthandoff: 03/26/2018
 3. Nella pagina **Conto bancario cliente** impostare un record di conto bancario del cliente immettendo le seguenti informazioni: IBAN o numero di conto bancario e codice SWIFT o numero di registrazione.
 4. Nella pagina **Conti bancari** impostare i conti bancari della persona giuridica immettendo le seguenti informazioni: IBAN o numero di conto bancario, codice SWIFT o numero di registrazione, valuta e indirizzo.
 
-    > [!NOTE]
-        > Se si prevede di utilizzare la riconciliazione degli estratti conto avanzata, nella scheda dettaglio **Riconciliazione** impostare l'opzione **Riconciliazione estratti conto avanzata** su **Sì**. Se si prevede di riconciliare i pagamenti importati non registrati, impostare l'opzione **Utilizza rendiconti bancari come conferma di pagamenti elettronici** su **Sì**.
+   > [!NOTE]
+   > Se si prevede di utilizzare la riconciliazione degli estratti conto avanzata, nella scheda dettaglio **Riconciliazione** impostare l'opzione **Riconciliazione estratti conto avanzata** su **Sì**. Se si prevede di riconciliare i pagamenti importati non registrati, impostare l'opzione **Utilizza rendiconti bancari come conferma di pagamenti elettronici** su **Sì**.
 
 5. Facoltativo: nella pagina **Mapping dei codici transazione** impostare il mapping tra codici di transazione bancaria nel file e tipi di transazioni bancarie.
 6. Se il file contiene spese di transazione che si desidera registrare insieme al pagamento ricevuto, creare una commissione di pagamento nella pagina **Commissione pagamento cliente**. Quindi, nella pagina **Metodi di pagamento** associare la commissione di pagamento al conto bancario nell'impostazione della commissione di pagamento.

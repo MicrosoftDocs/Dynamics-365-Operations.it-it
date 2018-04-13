@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="analyze-questionnaire-results"></a>Analizzare i risultati del questionario
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Le statistiche del questionario possono essere utilizzate per calcolare medie, totali e percentuali in base a un set di dati demografici. Per iniziare questa procedura, andare a Questionario > Visualizza e analizza risultati > Statistiche questionario. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

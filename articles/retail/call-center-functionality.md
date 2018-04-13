@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>Funzionalità del servizio clienti
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Questo articolo fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Retail.
 

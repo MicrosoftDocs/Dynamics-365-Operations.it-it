@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-management-home-page"></a>Home page di gestione finanziaria
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In questo argomento viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 for Finance and Operations. 
 

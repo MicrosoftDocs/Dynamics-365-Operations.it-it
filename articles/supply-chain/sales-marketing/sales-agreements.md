@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-agreements"></a>Contratti di vendita
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vengono fornite le informazioni sui contratti di vendita. Un contratto di vendita è un contratto con cui il cliente si impegna ad acquistare prodotti in una determinata quantità o per uno specifico importo nel tempo in cambio di sconti o prezzi speciali.
 

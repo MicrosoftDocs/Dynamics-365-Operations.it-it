@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-entry-deadlines"></a>Termini per registrazione ordine
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sulle scadenze di registrazione ordine. Una scadenza di registrazione ordine è un tempo limite che determina se un ordine cliente è considerato (ed evaso) come ricevuto il giorno corrente o il giorno successivo.
 

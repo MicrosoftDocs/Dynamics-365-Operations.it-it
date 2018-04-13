@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="custom-fields"></a>Campi personalizzati
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 Sebbene Microsoft Dynamics 365 for Finance and Operations fornisca un ampio set di campi pronti all'uso per la gestione di un'ampia gamma di processi aziendali, a volte è necessario che un'azienda tenga traccia di ulteriori informazioni nel sistema. Per soddisfare questa esigenza, Finance and Operations consente di creare campi personalizzati per personalizzare l'applicazione in base alle esigenze aziendali, a condizione di disporre delle autorizzazioni per la funzionalità. 
 

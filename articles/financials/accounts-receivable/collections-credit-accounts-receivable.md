@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crediti e riscossioni in Contabilità clienti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Finance and Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti.
 
@@ -70,9 +69,9 @@ Le pagine elenco seguenti facilitano l'organizzazione delle informazioni sulla r
 
 > [!NOTE]
 > Per poter visualizzare le informazioni in queste pagine elenco, è necessario creare uno snapshot di aging. Le informazioni vengono visualizzate solo per i clienti per i quali è stato creato uno snapshot di aging. È possibile filtrare ulteriormente i record presenti nella pagina elenco nel modo seguente:
-<li>Per impostazione predefinita, un utente di Finance and Operations ha accesso a tutti i clienti che dispongono di uno snapshot di aging.</li>
-<li>Se sono presenti pool di clienti, è necessario che un utente sia impostato come agente di riscossione per utilizzare i pool per filtrare le informazioni nelle pagine elenco di riscossione. Le informazioni sono limitate ai clienti inclusi nel pool di clienti selezionato.</li>
-<li>Se un utente viene impostato come agente di riscossione, nella pagina elenco saranno disponibili solo i pool selezionati per tale agente di riscossione. Se il pulsante Consenti ad agente di visualizzare tutti i pool di clienti è selezionato nella pagina Agenti di riscossione per un agente di riscossione specifico, tutti i pool sono disponibili per tale agente.</li>
+> <li>Per impostazione predefinita, un utente di Finance and Operations ha accesso a tutti i clienti che dispongono di uno snapshot di aging.</li>
+> <li>Se sono presenti pool di clienti, è necessario che un utente sia impostato come agente di riscossione per utilizzare i pool per filtrare le informazioni nelle pagine elenco di riscossione. Le informazioni sono limitate ai clienti inclusi nel pool di clienti selezionato.</li>
+> <li>Se un utente viene impostato come agente di riscossione, nella pagina elenco saranno disponibili solo i pool selezionati per tale agente di riscossione. Se il pulsante Consenti ad agente di visualizzare tutti i pool di clienti è selezionato nella pagina Agenti di riscossione per un agente di riscossione specifico, tutti i pool sono disponibili per tale agente.</li>
 
 
 ## <a name="collections-page"></a> Pagina Riscossioni

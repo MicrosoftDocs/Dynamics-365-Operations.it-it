@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Configurare un ramo parallelo in un flusso di lavoro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Per configurare un ramo parallelo, attenersi alle procedure indicate di seguito nell'editor flusso di lavoro.
 

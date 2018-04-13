@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="supply-chain-management-home-page"></a>Home page di Gestione della supply chain
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In questa pagina viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations. 
 

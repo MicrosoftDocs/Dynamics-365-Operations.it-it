@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduction-keys"></a>Chiavi di riduzione
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce esempi che illustrano come impostare una chiave di riduzione. Include informazioni sulle diverse impostazioni della chiave di riduzione e sui risultati di ciascuna. È possibile utilizzare una chiave di riduzione per definire il modo in cui ridurre i requisiti di previsione.
 
@@ -39,17 +38,19 @@ Questo articolo fornisce esempi che illustrano come impostare una chiave di ridu
 
 In questo esempio viene illustrato come una chiave di riduzione riduce i requisiti di previsione della domanda in base alle percentuali e ai periodi definiti dalla chiave di riduzione.
 
-1.  Nella pagina **Chiavi di riduzione** impostare le seguenti righe.
-    | Cambia | Unità  | Percentuale |
-    |--------|-------|---------|
-    | 1      | Mese | 100     |
-    | 2      | Mese | 75      |
-    | 3      | Mese | 50      |
-    | 4      | Mese | 25      |
+1. Nella pagina **Chiavi di riduzione** impostare le seguenti righe.
 
-2.  Collegare la chiave di riduzione al gruppo di copertura dell'articolo.
-3.  Nel campo **Principio di riduzione** della pagina **Piani generali** selezionare **Percentuale - chiave di riduzione**.
-4.  Creare una previsione della domanda di 1.000 pezzi al mese.
+   | Cambia | Unità  | Percentuale |
+   |--------|-------|---------|
+   |   1    | Mese |   100   |
+   |   2    | Mese |   75    |
+   |   3    | Mese |   50    |
+   |   4    | Mese |   25    |
+
+
+2. Collegare la chiave di riduzione al gruppo di copertura dell'articolo.
+3. Nel campo **Principio di riduzione** della pagina **Piani generali** selezionare **Percentuale - chiave di riduzione**.
+4. Creare una previsione della domanda di 1.000 pezzi al mese.
 
 Se si esegue una programmazione previsionale il 1° gennaio, i requisiti di previsione della domanda vengono consumati in base alle percentuali definite alla pagina **Chiavi di riduzione**. Vengono trasferite al piano generale le quantità di requisiti che seguono.
 
@@ -88,20 +89,21 @@ Utilizzando la stessa previsione della domanda di 1.000 pezzi al mese, vengono t
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Esempio 3: Principio di riduzione previsioni di Transazioni - periodo dinamico
 Nella maggior parte dei casi i sistemi vengono impostati in modo che le transazioni riducano la previsione della domanda entro periodi specifici di previsione: settimane, mesi, ecc. I periodi vengono sono definiti nella chiave di riduzione. Tuttavia, il tempo trascorso tra due righe di previsione della domanda può anche *implicare* un periodo.
 
-1.  Creare una previsione della domanda per le seguenti date e quantità.
-    | Data       | Previsione della domanda |
-    |------------|-----------------|
-    | 1 gennaio  | 1.000           |
-    | 5 gennaio  | 500             |
-    | 12 gennaio | 1.000           |
+1. Creare una previsione della domanda per le seguenti date e quantità.
 
-    Nella previsione non è presente un periodo chiaro tra le date di previsione: tra le prime e le seconde date vi è un intervallo di quattro giorni e tra la seconde e terze date vi è un intervallo di sette giorni. I vari intervalli sono i periodi dinamici.
-2.  Creare righe dell'ordine cliente come segue
-    | Data                             | Quantità ordine cliente |
-    |----------------------------------|----------------------|
-    | 15 dicembre dell'anno precedente | 500                  |
-    | 3 gennaio                        | 100                  |
-    | 10 gennaio                       | 200                  |
+   | Data       | Previsione della domanda |
+   |------------|-----------------|
+   | 1 gennaio  | 1.000           |
+   | 5 gennaio  | 500             |
+   | 12 gennaio | 1.000           |
+
+   Nella previsione non è presente un periodo chiaro tra le date di previsione: tra le prime e le seconde date vi è un intervallo di quattro giorni e tra la seconde e terze date vi è un intervallo di sette giorni. I vari intervalli sono i periodi dinamici.
+2. Creare righe dell'ordine cliente come segue
+   | Data                             | Quantità ordine cliente |
+   |----------------------------------|----------------------|
+   | 15 dicembre dell'anno precedente | 500                  |
+   | 3 gennaio                        | 100                  |
+   | 10 gennaio                       | 200                  |
 
 La previsione verrà ridotta come segue:
 

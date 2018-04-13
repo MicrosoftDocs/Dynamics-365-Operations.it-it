@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="inspect-the-quality-of-goods"></a>Verificare la qualità delle merci
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra come elaborare un ordine di controllo qualità. È possibile eseguire questa guida nella società di dati dimostrativi USMF. Prima di iniziare questa procedura di esempio, è necessario confermare l'ordine fornitore "000016" e registrare un'entrata prodotti. In questo modo verrà automaticamente creato un ordine di controllo qualità. Le ispezioni di controllo qualità sono in genere effettuati da un addetto al controllo qualità.
 

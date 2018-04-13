@@ -23,21 +23,21 @@ ms.contentlocale: it-it
 ms.lasthandoff: 09/29/2017
 
 ---
-# Utilizzare il giornale di registrazione delle scorte di sicurezza per aggiornare la copertura minima
+# <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Utilizzare il giornale di registrazione delle scorte di sicurezza per aggiornare la copertura minima
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come calcolare le proposte di copertura minima basate sulle transazioni storiche e poi aggiornare la copertura articoli con le proposte. Ciò viene effettuato facendo uso del giornale di registrazione delle scorte di sicurezza. La società di dati dimostrativi utilizzata per creare questa attività è USMF. Questa attività è destinata al responsabile pianificazione della produzione, per facilitare il mantenimento della copertura minima.
 
 
-## Creare un nuovo nome per il giornale di registrazione delle scorte di sicurezza
+## <a name="create-a-new-safety-stock-journal-name"></a>Creare un nuovo nome per il giornale di registrazione delle scorte di sicurezza
 1. Andare a Nomi giornali di registrazione scorte di sicurezza.
 2. Fare clic su Nuovo.
 3. Nel campo Nome digitare 'Materiale'.
 4. Digitare 'Materiale' nel campo Descrizione.
 5. Chiudere la pagina.
 
-## Creare un giornale di registrazione delle scorte di sicurezza
+## <a name="create-a-safety-stock-journal"></a>Creare un giornale di registrazione delle scorte di sicurezza
 1. Andare a Calcolo scorte di sicurezza.
 2. Fare clic su Nuovo.
 3. Nel campo Nome immettere o selezionare un valore.
@@ -50,7 +50,7 @@ Questa procedura mostra come calcolare le proposte di copertura minima basate su
 7. Fare clic su OK.
     * Ciò creerà le righe per le dimensioni che hanno operazioni di magazzino.  
 
-## Calcola proposta
+## <a name="calculate-proposal"></a>Calcola proposta
 1. Fare clic su Calcola proposta.
 2. Selezionare l'opzione Utilizza uscita media durante il lead time.
 3. Impostare Fattore di moltiplicazione su '10'.
@@ -58,7 +58,7 @@ Questa procedura mostra come calcolare le proposte di copertura minima basate su
 4. Fare clic su OK.
     * Scorrere in basso fino a trovare M0002 e M0003. Visualizzare la colonna Quantità minima calcolata.   
 
-## Aggiornare la quantità minima
+## <a name="update-minimum-quantity"></a>Aggiornare la quantità minima
 1. Nel campo Nuova quantità minima immettere un numero.
     * Aggiornare la Nuova quantità minima in modo che corrisponda al valore della Quantità minima calcolata. Se il minimo calcolato è zero, potete immettere il valore futuro desiderato. Ad esempio, potete immettere la quantità minima calcolata in questo campo per M0002 che ha magazzino 12.  
 2. Nell'elenco trovare e selezionare il record desiderato.
@@ -66,7 +66,7 @@ Questa procedura mostra come calcolare le proposte di copertura minima basate su
 3. Nel campo Nuova quantità minima immettere un numero.
     * Aggiornare la Nuova quantità minima in modo che corrisponda al valore della Quantità minima calcolata. Se il minimo calcolato è zero, potete immettere il valore futuro desiderato.  
 
-## Inviare la nuova quantità minima e convalidare il risultato
+## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Inviare la nuova quantità minima e convalidare il risultato
 1. Fare clic su Registra.
 2. Fare clic su OK.
 3. Fare clic per seguire il collegamento nel campo Numero articolo.

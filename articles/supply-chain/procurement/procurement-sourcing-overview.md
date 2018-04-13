@@ -28,8 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Panoramica dell'approvvigionamento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene fornita una panoramica della funzionalità disponibile nel modulo Approvvigionamento.
 
@@ -39,7 +38,7 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 La necessità di prodotti o servizi può sorgere da *richieste di approvvigionamento*, ad esempio quando un dipendente richiede un prodotto. I *cataloghi prodotti* possono essere impostati per guidare la selezione dei prodotti disponibili. In alternativa le richieste possono essere effettuate per prodotti non ancora disponibili in un catalogo e permettere al reparto acquisti di verificare il modo in cui il prodotto può essere fornito.  
 
 Il parametro *Limiti spesa* consente di impostare vincoli relativi alla spesa della richiesta di acquisto. Il *flusso di lavoro di acquisto* aggiunge l'opzione di richiesta di approvazione prima che venga effettuato l'ordine. È inoltre possibile specificare delle allocazioni dei fondi di budget, se necessario.  
-  
+
 Il reparto di approvvigionamento identifica i fornitori per i prodotti e i servizi richiesti e questo può determinare l'invio di una *richiesta di offerta* a più fornitori potenziali. È possibile condividere le specifiche del prodotto richiesto e i fornitori potenziali possono visualizzare e controllare se possono consegnare un prodotto conforme a tali specifiche. I fornitori restituiscono le offerte che vengono verificate dal reparto di approvvigionamento prima di selezionare il fornitore desiderato.  
 
 Gli ordini fornitore includono un'opzione per inviare la *richiesta di acquisto* al fornitore come alternativa a un processo più completo della richiesta di offerta. La richiesta di acquisto può essere utilizzata per contribuire a stabilire termini quali prezzi, sconti e data di consegna dell'ordine. Se i fornitori sono impostati per l'uso del portale **Fornitore**, la funzionalità di richiesta di acquisto è disabilitata. L'ordine viene condiviso nel portale**fornitori** e quando viene inviata una *richiesta di conferma* il fornitore può direttamente confermare l'ordine.  

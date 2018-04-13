@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="italian-black-list-report"></a>Report block list italiano
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Informazioni su come impostare e gestire il report black list italiano.
 

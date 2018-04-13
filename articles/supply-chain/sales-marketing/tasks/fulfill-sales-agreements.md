@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="fulfill-sales-agreements"></a>Adempiere ai contratti di vendita
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura indica come soddisfare un contratto di vendita associando gli ordini cliente. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. Prima di iniziare questa guida, assicurarsi di disporre di un contratto di vendita valido di tipo "Impegno valore prodotto". In alternativa, è possibile eseguire la guida attività denominata "Creare contratti di vendita".  
 

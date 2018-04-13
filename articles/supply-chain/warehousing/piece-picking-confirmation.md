@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>Conferma di prelievo pezzi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Il prelievo dei pezzi consente di confermare ogni pezzo di magazzino tramite lavoro di prelievo o conteggio su un dispositivo mobile. Per i prelievi, è possibile confermare la quantità di lavoro da elaborare fino a quella specificata sul lavoro da prelevare. Per il lavoro di conteggio, è possibile analizzare le scorte in fase di conteggio e registrare l'importo totale.
 
@@ -46,8 +46,10 @@ Il prelievo di pezzi funziona per tutto il lavoro di conteggio per il prelievo i
 
 Le opzioni seguenti diventano disponibili per la selezione quando il tipo di lavoro è prelievo o conteggio.
 
-| Opzione        | descrizione   | 
-| ------------- | ------------- |
-| Conferma di prelievo pezzi   | Disponibile per i tipi di lavoro prelievo e conteggio. La conferma del prodotto viene selezionata automaticamente. Consente di confermare ogni pezzo di magazzino dal dispositivo mobile. | 
-| Numero massimo di pezzi     | Disponibile per il lavoro di prelievo se la conferma di prelievo del pezzo è abilitata. Consente di impostare un limite al numero di pezzi che è necessario confermare. |  
+
+|           Opzione           |                                                                            descrizione                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Conferma di prelievo pezzi | Disponibile per i tipi di lavoro prelievo e conteggio. La conferma del prodotto viene selezionata automaticamente. Consente di confermare ogni pezzo di magazzino dal dispositivo mobile. |
+|  Numero massimo di pezzi  |                   Disponibile per il lavoro di prelievo se la conferma di prelievo del pezzo è abilitata. Consente di impostare un limite al numero di pezzi che è necessario confermare.                   |
+
 

@@ -28,9 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>Previsione delle posizioni
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le spese relative ai lavoratori costituiscono spesso una grande proporzione dei costi di un'organizzazione. Le previsioni di posizione consentono di pianificare le spese e includerle nella pianificazione di budget.
 

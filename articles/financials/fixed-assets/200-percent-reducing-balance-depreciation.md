@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>Riduzione del 200% dell'ammortamento del saldo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 200%.
 
@@ -70,6 +69,7 @@ Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza per
 -   **Periodo fiscale** registra l'importo totale dell'ammortamento calcolato per l'anno fiscale. Questo importo viene attribuito ai periodi fiscali definiti nella pagina **Calendari fiscali**.
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>Esempio di ammortamento a saldi decrescenti del 200%
+
 |                                |        |
 |--------------------------------|--------|
 | Costo di acquisizione               | 11.000 |

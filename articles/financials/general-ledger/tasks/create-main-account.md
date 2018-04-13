@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-main-account"></a>Creare un conto principale
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida attività descrive come aggiungere un conto principale in un piano dei conti esistente. Questa registrazione utilizza la società dimostrativa USMF.  
 

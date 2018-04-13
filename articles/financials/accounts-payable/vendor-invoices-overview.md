@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici. 
 
@@ -87,11 +86,11 @@ Per ulteriori informazioni, vedere:
  - [Impostare criteri di fatture fornitore](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Inserire dati fattura nella contabilità fornitori tramite una fattura fornitore](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [Inserire dati fattura nella contabilità fornitori tramite un giornale di approvazione](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [Registrare una fattura fornitore nel giornale di registrazione fatture](tasks/record-vendor-invoice-invoice-journal.md)
 
 

@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>Area di lavoro di convalida dei dati
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento fornisce una panoramica dell'area di lavoro **Elenco di controllo di convalida dati** e della configurazione collegata.
 

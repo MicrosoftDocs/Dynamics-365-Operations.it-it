@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Creare un ordine fornitore da un ordine cliente
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura indica come creare un ordine fornitore in base a un ordine cliente. Le quantità del prodotto nell'ordine fornitore sono definite per soddisfare la richiesta dell'ordine cliente di origine. La richiesta di vendita soddisfatta in questo modo è un'alternativa all'approccio più completo e ottimizzato della pianificazione dei fabbisogni di distribuzione. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.
 

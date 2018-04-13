@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Dimensionamento hardware per ambienti locali
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Prima di avviare il processo di dimensionamento dell'infrastruttura e dell'hardware per un ambiente locale, è utile conoscere i [Requisiti di sistema](system-requirements.md) e le [Istruzioni di distribuzione e di configurazione](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) per acquisire una conoscenza approfondita dell'infrastruttura sottostante. 
 

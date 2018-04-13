@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="split-payment-for-invoices-issued-to-the-public-administration"></a>Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.
 
@@ -108,7 +107,7 @@ Scissione dei pagamenti IVA
 
 220
 
- 
+
 
 
 

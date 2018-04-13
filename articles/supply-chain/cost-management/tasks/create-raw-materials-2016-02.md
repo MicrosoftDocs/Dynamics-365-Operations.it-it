@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-raw-materials-february-2016-only"></a>Creare materie prime (solo febbraio 2016)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività consente di creare i componenti dei prodotti finiti e semilavorati. Corrisponde alla terza attività della serie di calcoli DBA. La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 

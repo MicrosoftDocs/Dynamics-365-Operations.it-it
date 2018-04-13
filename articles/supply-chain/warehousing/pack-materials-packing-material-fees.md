@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Materiali di imballaggio e addebiti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli. Per ciascun materiale di cui si compone un'unità di imballaggio viene pagato un importo per unità di peso. Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario.
 
@@ -63,7 +62,7 @@ Se gli addebiti per il materiale di imballaggio sono a carico della società, no
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Stampare i pesi del materiale di imballaggio sulle fatture
 È possibile stampare i pesi del materiale di imballaggio sulla fattura e indicare a chi sono imputabili gli addebiti per tale materiale. I pesi vengono riepilogati per codice di imballaggio.
- 
+
 
 
 

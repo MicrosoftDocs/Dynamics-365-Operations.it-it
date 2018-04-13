@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-project-purchase-order"></a>Creare un ordine fornitore progetto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura indica come creare un ordine fornitore del progetto. Questa attività utilizza il set di dati dimostrativi USSI.
 

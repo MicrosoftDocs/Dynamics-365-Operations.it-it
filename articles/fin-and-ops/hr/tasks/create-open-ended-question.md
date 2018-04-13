@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-open-ended-question"></a>Creare una domanda aperta
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Le domande aperte consentono agli intervistati di fornire una risposta propria. È possibile verificare se la risposta è un numero, un valore decimale, una data, un commento e così via. Questa procedura descrive il processo di creare un tipo di domanda specifico, ovvero una domanda aperta. Per iniziare questa procedura, andare a Questionario > Progettazione > Domande. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

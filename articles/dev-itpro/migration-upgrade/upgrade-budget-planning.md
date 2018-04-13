@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Aggiornamento della pianificazione del budget
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Tra Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 for Finance and Operations sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.  
 
@@ -70,26 +69,27 @@ Per consentire di determinare la modalità di configurazione del sistema aggiorn
 
 ### <a name="define-columns-and-layouts"></a>Definire le colonne e i layout
 
-1.  Nella pagina **Configurazione di pianificazione del budget**, fare clic sulla scheda **Colonne**. Come parte del processo di aggiornamento, nuove colonne vengono create automaticamente in base alle righe del piano di budget. Nelle colonne ora vengono utilizzate date dinamiche, in cui il tempo e l'anno sono compensati dall'anno fiscale definito nel processo di pianificazione del budget. **Nota:** per motivi di prestazioni durante l'aggiornamento, si presuppone che tutti i cicli di budget rappresentino gli anni di calendario, non gli anni fiscali. Se si utilizzano gli anni fiscali, è necessario apportare modifiche per mappare correttamente le colonne all'anno fiscale. Ad esempio, i seguenti elementi erano disponibili in AX 2012:
-    -   Scenari del piano di budget: Effettivi, Base, Richiesta budget, Budget approvato
-    -   Righe del piano di budget per tutti gli scenari nel 2017 ed effettivi per entrambi 2017 e 2016
+1. Nella pagina **Configurazione di pianificazione del budget**, fare clic sulla scheda **Colonne**. Come parte del processo di aggiornamento, nuove colonne vengono create automaticamente in base alle righe del piano di budget. Nelle colonne ora vengono utilizzate date dinamiche, in cui il tempo e l'anno sono compensati dall'anno fiscale definito nel processo di pianificazione del budget. **Nota:** per motivi di prestazioni durante l'aggiornamento, si presuppone che tutti i cicli di budget rappresentino gli anni di calendario, non gli anni fiscali. Se si utilizzano gli anni fiscali, è necessario apportare modifiche per mappare correttamente le colonne all'anno fiscale. Ad esempio, i seguenti elementi erano disponibili in AX 2012:
+   -   Scenari del piano di budget: Effettivi, Base, Richiesta budget, Budget approvato
+   -   Righe del piano di budget per tutti gli scenari nel 2017 ed effettivi per entrambi 2017 e 2016
 
-    Le colonne seguenti verranno create in Finance and Operations:
-    | Nome colonna    | Scenario del piano di budget | Periodo di tempo colonna | Offset anno |
-    |----------------|----------------------|--------------------|-------------|
-    | Gennaio - Scenario 1 | Effettivi              | 1                  | 0           |
-    | Gennaio - Scenario 2 | Base             | 1                  | 0           |
-    | Gennaio - Scenario 3 | Richiesta budget       | 1                  | 0           |
-    | Gennaio - Scenario 4 | Budget approvato      | 1                  | 0           |
-    | Gennaio - Scenario 5 | Effettivi              | 1                  | -1          |
-    | Febbraio - Scenario 1 | Effettivi              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   Le colonne seguenti verranno create in Finance and Operations:
 
-    In questo esempio, una colonna **Gennaio - Scenario 1** viene creata per i dati transazione del piano di budget più recenti trovati dove sono presenti transazioni per gennaio. Una colonna simile viene creata per ogni scenario con dati. Quando sono presenti colonne per tutti i periodi dell'anno, le colonne vengono create per gli anni precedenti.
-2.  Modificare i nomi e le descrizioni di colonna e gli altri dettagli, manualmente nel client o tramite aggiornamenti in blocco mediante il componente aggiuntivo di Excel che punta all'entità dati delle colonne del piano di budget. Tutti i filtri che sono stati precedentemente configurati per i campi della matrice sono ora impostati nelle colonne.
-3.  Creare un nuovo layout di budget. Un layout punta a più colonne per definire la visualizzazione mostrata in Excel e nel client. Il layout innanzitutto richiede che venga specificato un set di dimensioni di contabilità generale per determinare quali dimensioni finanziarie possono essere immesse. Dopo avere specificato il set di dimensioni, fare clic su **Descrizioni** per selezionare le descrizioni delle dimensioni da includere nel layout.
-4.  Nella scheda dettaglio **Elementi layout**, fare clic su **Aggiungi** per aggiungere i metadati per ogni riga, ad esempio una valuta, un commento o una classe di budget che determina i ricavi rispetto alle righe di spesa. A questo punto, aggiungere le colonne per il periodo e gli scenari applicabili a questo ciclo e fase di budget. È possibile apportare manualmente tali modifiche nel client o tramite il componente aggiuntivo di Excel che punta all'entità di dati di elementi del layout del piano di budget.
-5.  Per ciascun elemento del layout, selezionare se la colonna deve essere modificabile e se la colonna deve essere mostrata anche nella cartella di lavoro di Excel per il layout. **Nota:** per i piani storici, può essere opportuno considerare un layout contenente 12 colonne mensili per tutti gli scenari del piano di budget per tale processo.
+   | Nome colonna    | Scenario del piano di budget | Periodo di tempo colonna | Offset anno |
+   |----------------|----------------------|--------------------|-------------|
+   | Gennaio - Scenario 1 | Effettivi              | 1                  | 0           |
+   | Gennaio - Scenario 2 | Base             | 1                  | 0           |
+   | Gennaio - Scenario 3 | Richiesta budget       | 1                  | 0           |
+   | Gennaio - Scenario 4 | Budget approvato      | 1                  | 0           |
+   | Gennaio - Scenario 5 | Effettivi              | 1                  | -1          |
+   | Febbraio - Scenario 1 | Effettivi              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   In questo esempio, una colonna **Gennaio - Scenario 1** viene creata per i dati transazione del piano di budget più recenti trovati dove sono presenti transazioni per gennaio. Una colonna simile viene creata per ogni scenario con dati. Quando sono presenti colonne per tutti i periodi dell'anno, le colonne vengono create per gli anni precedenti.
+2. Modificare i nomi e le descrizioni di colonna e gli altri dettagli, manualmente nel client o tramite aggiornamenti in blocco mediante il componente aggiuntivo di Excel che punta all'entità dati delle colonne del piano di budget. Tutti i filtri che sono stati precedentemente configurati per i campi della matrice sono ora impostati nelle colonne.
+3. Creare un nuovo layout di budget. Un layout punta a più colonne per definire la visualizzazione mostrata in Excel e nel client. Il layout innanzitutto richiede che venga specificato un set di dimensioni di contabilità generale per determinare quali dimensioni finanziarie possono essere immesse. Dopo avere specificato il set di dimensioni, fare clic su **Descrizioni** per selezionare le descrizioni delle dimensioni da includere nel layout.
+4. Nella scheda dettaglio **Elementi layout**, fare clic su **Aggiungi** per aggiungere i metadati per ogni riga, ad esempio una valuta, un commento o una classe di budget che determina i ricavi rispetto alle righe di spesa. A questo punto, aggiungere le colonne per il periodo e gli scenari applicabili a questo ciclo e fase di budget. È possibile apportare manualmente tali modifiche nel client o tramite il componente aggiuntivo di Excel che punta all'entità di dati di elementi del layout del piano di budget.
+5. Per ciascun elemento del layout, selezionare se la colonna deve essere modificabile e se la colonna deve essere mostrata anche nella cartella di lavoro di Excel per il layout. **Nota:** per i piani storici, può essere opportuno considerare un layout contenente 12 colonne mensili per tutti gli scenari del piano di budget per tale processo.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Aggiornare i processi di pianificazione del budget per l'utilizzo del layout appropriato per ogni fase del budget
 

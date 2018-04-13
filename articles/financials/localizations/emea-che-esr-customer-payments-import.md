@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="esr-customer-payments-import"></a>Importazione pagamenti cliente PVR
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.
 
@@ -45,12 +44,12 @@ I riferimenti di pagamento devono essere stampati nella distinta di pagamento do
 Per ulteriori informazioni, vedere [Report distinta di pagamento (Giro)](emea-eur-payment-slip-report-giro.md).
 
 ## <a name="import-a-payment-file"></a>Importare un file di pagamento
-1.  Passare alla pagina **Giornale di registrazione pagamenti**
-2.  Fare clic su **Righe**.
-3.  Fare clic su **Funzioni** &gt; **Importa pagamenti**.
-4.  Nella finestra di dialogo selezionare il metodo di pagamento e quindi selezionare il percorso del file da importare. 
-  > [!NOTE]
-  >  Prima di completare questo passaggio, è necessario aver già importato le configurazioni **PVR (CH)** da Lifecycle Services (LCS) e aver impostato il metodo di pagamento PVR. Per ulteriori informazioni, vedere [Formati di file per metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md).
+1. Passare alla pagina **Giornale di registrazione pagamenti**
+2. Fare clic su **Righe**.
+3. Fare clic su **Funzioni** &gt; **Importa pagamenti**.
+4. Nella finestra di dialogo selezionare il metodo di pagamento e quindi selezionare il percorso del file da importare. 
+   > [!NOTE]
+   >  Prima di completare questo passaggio, è necessario aver già importato le configurazioni **PVR (CH)** da Lifecycle Services (LCS) e aver impostato il metodo di pagamento PVR. Per ulteriori informazioni, vedere [Formati di file per metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md).
 
 Dopo aver importato il file di pagamento, le righe del giornale di registrazione pagamenti vengono create e contrassegnate per la liquidazione con le fatture cliente in base al riferimento di pagamento. Se nel file sono presenti delle spese specificate per il conto bancario, ad esempio le transazioni tra il conto principale e il conto di addebito commissioni, queste spese verranno aggiunte al giornale di registrazione.
 

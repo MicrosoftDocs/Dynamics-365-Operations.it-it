@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Gestione magazzino
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Il modulo Gestione magazzino per Dynamics 365 for Finance and Operations consente di gestire i processi di magazzino nelle società di produzione, distribuzione e di vendita al dettaglio. Questo modulo include una vasta gamma di funzionalità per supportare il magazzino a livello ottimale in qualsiasi momento. Il modulo Gestione magazzino è completamente integrato con altri processi aziendali di Finance and Operations, come ad esempio trasporto, produzione, controllo qualità, acquisti, trasferimento, vendite e resi.
 

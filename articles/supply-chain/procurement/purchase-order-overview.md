@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>Panoramica dell'ordine fornitore
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 In questo articolo vengono fornite informazioni generali sugli ordini fornitore (PO) e collegamenti a ulteriori articoli correlati alle varie fasi che attraversa un PO.
 

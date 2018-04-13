@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Assegnare al cliente un modello di fattura a testo libero
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività descrive come assegnare un modello di fattura a testo libero a un cliente. In questa attività viene utilizzata la società dimostrativa USMF ed è destinata all'utente responsabile della gestione e dell'elaborazione delle fatture di CoCli.
 

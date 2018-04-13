@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Conferma prodotto per prelievo cluster
 Il prelievo cluster consente di selezionare gli articoli per più ordini contemporaneamente. Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenziale per verificare che gli articoli vengano aggiunti ai cluster. È possibile verificare gli articoli nel prelievo cluster durante il processo di prelievo cluster.
@@ -37,7 +37,8 @@ La verifica dell'articolo per il prelievo cluster funziona nello stesso modo del
 1.  Su una voce di menu del dispositivo mobile, aprire il modulo di impostazione per la conferma di lavoro: **Gestione magazzino** > **Gestione magazzino** > **Impostazione** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile**.
 2.  Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**.
 
-| Opzione        | descrizione   | 
-| ------------- | ------------- |
-|Conferma prodotto | Consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione.|
+|        Opzione        |                                    descrizione                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Conferma prodotto | Consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione. |
+
 

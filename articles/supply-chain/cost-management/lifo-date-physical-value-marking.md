@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>Data LIFO con valore fisico e contrassegno
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Data LIFO (Last In, First Out) è un modello inventariale basato sul principio LIFO. Le uscite da magazzino vengono liquidate a fronte delle ultime entrate in magazzino in base alla data della transazione di magazzino. Mediante questo modello inventariale, in assenza di entrate antecedenti all'uscita, quest'ultima viene liquidata a fronte delle entrate successive alla data dell'uscita. In caso di più uscite con la stessa data, la liquidazione può essere effettuata in base all'ordine ultima uscita, ultima entrata. 
 
@@ -66,16 +65,16 @@ La seguente illustrazione mostra gli effetti del modello inventariale Data LIFO 
 
 **Informazioni sul diagramma**
 
--   Le operazioni di magazzino sono rappresentate da frecce verticali.
--   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
--   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
--   Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
--   Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
--   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
--   Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
--   Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
+- Le operazioni di magazzino sono rappresentate da frecce verticali.
+- Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
+- Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
+- Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
+- Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
+- Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
+- Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
+- Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>Data LIFO con opzione Includi valore fisico
 È possibile selezionare la casella di controllo **Includi valore fisico** per un articolo nella pagina **Gruppi di modelli di articoli**. In questo caso verranno utilizzate le transazioni in entrata sia fisiche che finanziarie per calcolare il prezzo di costo medio corrente. Dove applicabile, alla transazione in uscita aggiornata fisicamente verranno anche apportate dal sistema le rettifiche necessarie. Se la casella di controllo **Includi valore fisico** è deselezionata, la chiusura dell'inventario con il modello inventariale Data LIFO consentirà di effettuare le liquidazioni solo per le transazioni aggiornate finanziariamente. 
@@ -101,16 +100,16 @@ La seguente illustrazione mostra gli effetti del modello inventariale LIFO quand
 
 **Informazioni sul diagramma**
 
--   Le operazioni di magazzino sono rappresentate da frecce verticali.
--   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
--   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
--   Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
--   Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
--   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
--   Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
--   Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
+- Le operazioni di magazzino sono rappresentate da frecce verticali.
+- Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
+- Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
+- Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
+- Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
+- Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
+- Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
+- Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
 
 ## <a name="lifo-date-with-marking"></a>Data LIFO con contrassegno
 Il contrassegno è un processo che consente di collegare, o contrassegnare, una transazione in uscita a una transazione in entrata. Questo processo può essere eseguito prima o dopo la registrazione di una transazione. È possibile utilizzare il contrassegno per essere certi del costo esatto di magazzino quando viene registrata la transazione o viene eseguita la chiusura dell'inventario. 
@@ -147,16 +146,16 @@ Nella seguente illustrazione vengono illustrati gli effetti legati alla scelta d
 
 **Informazioni sul diagramma**
 
--   Le operazioni di magazzino sono rappresentate da frecce verticali.
--   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
--   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
--   Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
--   Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
--   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
--   Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
--   Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
+- Le operazioni di magazzino sono rappresentate da frecce verticali.
+- Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
+- Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
+- Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
+- Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
+- Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
+- Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
+- Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
 
 
 

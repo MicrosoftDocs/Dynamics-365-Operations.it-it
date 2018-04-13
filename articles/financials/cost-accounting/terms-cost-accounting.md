@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Terminologia della contabilità industriale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono definiti i termini principali utilizzati in Contabilità industriale.
 
@@ -150,14 +149,14 @@ Le base di allocazione della formula consente di definire le formule avanzate pe
 |  + |  Addizione |
 |  – |  Sottrazione |
 | *  | Moltiplicazione  |
-    
+
 Le istruzioni tradizionali IF non sono supportate. Tuttavia, è possibile creare istruzioni e convalidare se sono true.
 
 |  **Convalida rendiconto** | **Risultato**  |
 |---|---|
 |  a > b| True  |
 |  a > b |  False |
-    
+
 **Costi generali**
 
 I costi generali si riferiscono alle spese in corso per la gestione di un'azienda. Sono i costi che non possono essere collegati direttamente ad attività economiche specifiche. Di seguito sono riportati alcuni esempi di costi generali:

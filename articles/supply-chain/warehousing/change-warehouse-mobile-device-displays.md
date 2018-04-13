@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Impostazioni di visualizzazione per il dispositivo mobile del magazzino
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene descritto come impostare l'aspetto di visualizzazione del dispositivo mobile e come mappare i tasti di scelta rapida ai controlli, ad esempio i pulsanti. 
 

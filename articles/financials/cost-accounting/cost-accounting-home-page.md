@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Home page della contabilità industriale
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Mappa di apprendimento 
 
@@ -37,6 +37,7 @@ Nella mappa di apprendimento vengono visualizzati i concetti e le attività prin
 [![Mappa di apprendimento per la contabilità industriale](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Collegamenti rapidi
+
 |      |   |
 |------|---|
 |  [Configurare le entità di base (eLearning)](https://mbspartner.microsoft.com/Home) (richiede l'account CustomerSource)  |[Crea dimensioni](cost-elements.md)  |

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personnel-actions-faq"></a>Azioni dipendente [Domande frequenti]
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In questo argomento vi sono risposte alle domande che potrebbe essere poste se l'organizzazione utilizza le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale. Esempi di attività che potrebbero richiedere azioni dipendente quando si creano nuove posizioni, si modificano valori di posizione esistenti, si assumono nuovi lavoratori, si trasferiscono lavoratori, si modifica la retribuzione lavoratore, si modificano assegnazioni di posizione o si termina un rapporto con i lavoratori.
 
@@ -64,9 +64,9 @@ Aprire qualsiasi pagina elenco di azioni dipendente e selezionare un'azione dipe
 Se una richiesta di azione dipendente ha esito negativo, eseguire i passaggi indicati di seguito per risolvere l'errore e per inviare di nuovo la richiesta:
 
 > 1. Nel **Riquadro azioni** fare clic sul pulsante **Testo errore** per visualizzare il testo del messaggio che descrive il problema.
-
+> 
 > 2. Nel **Riquadro azioni** fare clic su **Riattiva** per caricare le informazioni più recenti e per impostare lo stato dell'azione dipendente di nuovo su **Bozza**.
-
+> 
 > 3. Risolvere l'errore e quindi fare clic su **Completo** o **Invia**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Cosa succede a un'azione dipendente che utilizza il flusso di lavoro quando l'approvazione finale è completata?

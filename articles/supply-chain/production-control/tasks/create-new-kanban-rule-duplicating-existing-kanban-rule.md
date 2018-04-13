@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Crea una nuova regola kanban duplicando una regola esistente
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura è incentrata sulla creazione di un duplicato di una regola kanban esistente. Questa funzionalità è utile se si desidera creare nuove regole kanban in base alle regole kanban esistenti. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata all'addetto procedure tecniche o al responsabile flusso del valore che prepara la produzione di un flusso di produzione modificato o una nuova regola di rifornimento.
 

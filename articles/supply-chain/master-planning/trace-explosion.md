@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-tracing-for-explosion"></a>Utilizzare la tracciatura per l'esplosione
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene illustrato come utilizzare l'analisi per esplorare le cause associate al risultato dell'esplosione di un ordine.
 

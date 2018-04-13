@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Impostare un indice carburante vettore
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida illustra come creare un paese di indice carburante, un indice carburante e un indice carburante del vettore. Il paese di indice carburante specifica il paese in cui l'indice carburante deve essere applicato e l'indice carburante specifica un prezzo del carburante per un periodo specifico. Per riflettere la modifica dei prezzi carburante nel tempo, è possibile associare più indici carburante a un vettore.  Queste attività in genere vengono effettuate da un coordinatore dei trasporti. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.
 

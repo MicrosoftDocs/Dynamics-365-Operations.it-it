@@ -27,7 +27,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Rilascio batch degli ordini di trasferimento parzialmente prenotati
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La funzionalità per il rilascio batch degli ordini di trasferimento parzialmente prenotati consente di rilasciare parzialmente gli ordini di trasferimento a un magazzino utilizzando un processo batch.
 Poiché si ha la possibilità di rilasciare una quantità parziale, non è necessario attendere che l'intera quantità dell'ordine sia disponibile nel magazzino prima di rilasciare un ordine.

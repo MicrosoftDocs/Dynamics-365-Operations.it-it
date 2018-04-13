@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-departments"></a>Definire nuovi reparti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I reparti sono unità operative che rappresentano un'area funzionale di un'azienda, ad esempio vendite o contabilità. Molte società hanno gerarchie organizzative che includono diversi reparti all'interno di un'azienda. In questa procedura vengono descritti i passaggi per creare i reparti e aggiungere tali reparti a una gerarchia di reparti delle organizzazioni. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

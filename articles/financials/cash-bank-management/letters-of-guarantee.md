@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-guarantee"></a>Lettere di garanzia
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sulle lettere di garanzia. In una lettera di garanzia, una banca accetta di pagare una somma di denaro specifica a una persona se uno dei clienti della banca non adempie a un pagamento o a un obbligo nei confronti di tale persona. 
 

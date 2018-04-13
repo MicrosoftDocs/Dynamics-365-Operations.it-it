@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Progettare configurazioni per analizzare documenti in entrata per aggiornamenti dei dati dell'applicazione (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura indica come progettare le configurazioni ER per analizzare un documento elettronico in entrata. In questa procedura, le configurazioni ER necessarie create per la società di esempio Litware, Inc. saranno importate e utilizzate per analizzare documenti elettronici in entrata. Per completare i passaggi in questa procedura, è necessario prima completare i passaggi della procedura "Creazione di report elettronici: creare e attivare un provider di configurazione".
 

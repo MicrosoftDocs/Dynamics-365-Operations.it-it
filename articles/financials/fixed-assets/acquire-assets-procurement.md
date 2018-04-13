@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="acquire-assets-through-procurement"></a>Acquisire cespiti tramite approvvigionamento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento descrive come impostare l'integrazione di Cespiti con la contabilità fornitori in modo da consentire la creazione automatica di cespiti a partire da ordini o fatture fornitore oppure la registrazione automatica di transazioni di acquisizione e di rettifica acquisizione per i cespiti.
 

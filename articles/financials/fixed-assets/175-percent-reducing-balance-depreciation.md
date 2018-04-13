@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="175-percent-reducing-balance-depreciation"></a>Ammortamento a saldi decrescenti del 175%
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento offre una panoramica del metodo di ammortamento a saldi decrescenti del 175%.
 
@@ -68,6 +67,7 @@ Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza per
 -   **Periodo fiscale**: calcola l'importo totale dell'ammortamento per l'anno fiscale. Questo importo viene attribuito ai periodi fiscali definiti nella pagina **Calendari fiscali**.
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Esempio di ammortamento a saldi decrescenti del 175%
+
 |                                |        |
 |--------------------------------|--------|
 | Costo di acquisizione               | 11.000 |

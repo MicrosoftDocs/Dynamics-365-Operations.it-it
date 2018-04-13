@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Creare un prodotto rilasciato per una singola società
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura descrive come creare un unico prodotto rilasciato nel contesto di un'unica unità legale. Dopo la creazione, il prodotto rilasciato viene immediatamente reso disponibile solo in questa unità. È possibile eseguire questa procedura nella società di dati dimostrativi USMF. Questa attività viene in genere eseguita da un responsabile di design prodotto.
 

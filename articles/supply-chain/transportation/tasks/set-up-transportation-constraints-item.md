@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Impostare vincoli di trasporto per un articolo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura imposterà un vincolo di trasporto per impedire a un articolo selezionato di essere trasportato tramite un hub selezionato. In genere questa attività sarà svolta da un coordinatore trasporti. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure sui propri dati.
 

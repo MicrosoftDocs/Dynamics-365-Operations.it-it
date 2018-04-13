@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deliver-an-employee-benefits-program"></a>Realizzare un programma di benefit per i dipendenti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività indicherà come creare elementi di benefit che verranno utilizzati durante la creazione di un nuovo benefit. La società di dati dimostrativi utilizzata per creare questa attività è USMF. Questa attività è destinata al responsabile retribuzione e benefit.
 

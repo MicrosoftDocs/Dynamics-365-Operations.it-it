@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="time-windows"></a>Intervalli di tempo  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile utilizzare gli intervalli di tempo per ottimizzare la programmazione delle righe di ordine di assistenza. È possibile impostare il sistema in modo da creare automaticamente gli ordini di assistenza. In base ai criteri specificati da un intervallo di tempo, è possibile collegare qualsiasi numero possibile di righe di ordine di assistenza al minor numero possibile di pochi ordini di assistenza.
 

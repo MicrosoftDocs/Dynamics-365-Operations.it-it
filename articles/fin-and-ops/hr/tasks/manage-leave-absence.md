@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-leave-of-absence"></a>Gestire i congedi
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene descritta la creazione dei record congedo dipendente. È possibile tenere traccia del tempo di congedo per i motivi che includono le attività mediche, educative o parentali. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

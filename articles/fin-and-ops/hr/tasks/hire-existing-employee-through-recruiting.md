@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Assumere un dipendente esistente tramite selezione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Talvolta le posizioni aperte possono essere ricoperte da candidati che sono già dipendenti dell'organizzazione. Questa procedura descrive i passaggi per l'assunzione di un dipendente esistente tramite il processo di selezione. In questa procedura, un progetto di selezione è già stato impostato e un dipendente esistente ha già inviato una domanda di lavoro per il progetto di selezione. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

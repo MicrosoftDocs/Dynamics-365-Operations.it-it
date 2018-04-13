@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a> Definire attributi di canale
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Arricchire il canale aggiungendo gli attributi del prodotto e del canale. È necessario aggiungere il canale alla gerarchia predefinita dell'organizzazione prima di poter definire gli attributi.
 

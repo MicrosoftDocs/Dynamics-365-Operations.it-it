@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a> Definire schemi di programma fedeltà
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per definire uno schema del programma fedeltà. Gli schemi del programma fedeltà sono regole di acquisizione e riscatto premi di un programma di fedeltà. Questa procedura utilizza la società di dati dimostrativi USRT.
 

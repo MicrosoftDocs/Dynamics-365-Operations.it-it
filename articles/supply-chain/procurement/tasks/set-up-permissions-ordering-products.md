@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Impostare le autorizzazioni per ordinare prodotti per conto di altri
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come concedere ai lavoratori l'autorizzazione a preparare richieste di acquisto per conto di altri lavoratori. In altre parole, un "preparatore" di richieste di acquisto può creare una richiesta per un altro "richiedente". La procedura inoltre mostra come concedere a un lavoratore l'autorizzazione a ordinare articoli e servizi in persone giuridiche o unità operative differenti. Queste attività vengono in genere svolte da un responsabile degli acquisti. È possibile utilizzare questa procedura sui dati della società di dati dimostrativi USMF oppure sui propri dati.
 

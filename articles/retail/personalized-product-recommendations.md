@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>Panoramica dei suggerimenti sul prodotto personalizzati
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Durante la nuova progettazione della funzionalità del servizio di suggerimenti prodotto con un algoritmo migliore e nuove funzionalità orientate alla vendita al dettaglio, verrà rimossa la versione corrente di tale servizio. Per ulteriori informazioni vedere [Funzionalità rimosse o deprecate](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). Passare alla parte inferiore della pagina se si riscontrano problemi con suggerimenti sul prodotto già abilitati per l'ambiente in uso. 
@@ -86,9 +85,9 @@ Quando si attiva **Abilita suggerimenti** e si eseguono i processi di configuraz
 -   L'ID e le credenziali del modello vengono rese disponibili a CRT in modo da poter soddisfare le richieste di suggerimenti sul prodotto da Cloud POS e MPOS in modalità online.
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Risolvere i problemi in caso di suggerimenti sul prodotto già abilitati 
->- Passare a **Parametri di vendita al dettaglio** > **Machine Learning** > **Disabilita suggerimenti sul prodotto** ed eseguire il **Processo di configurazione globale [1110]**. Se non è possibile individuare la scheda **Machine Learning**, contattare il supporto Dynamics. 
-
->- Se si è aggiunto il **Controllo per suggerimenti** alla schermata di transazione mediante la **Progettazione layout schermo**, rimuovere anche tale elemento. 
+> - Passare a **Parametri di vendita al dettaglio** > **Machine Learning** > **Disabilita suggerimenti sul prodotto** ed eseguire il **Processo di configurazione globale [1110]**. Se non è possibile individuare la scheda **Machine Learning**, contattare il supporto Dynamics. 
+> 
+> - Se si è aggiunto il **Controllo per suggerimenti** alla schermata di transazione mediante la **Progettazione layout schermo**, rimuovere anche tale elemento. 
 
 
 

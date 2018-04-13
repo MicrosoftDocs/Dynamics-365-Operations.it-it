@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Impostare i parametri per la gestione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilizzare questa procedura per attivare i processi di gestione delle non conformità. Con non conformità si intende una procedura o un elemento con un problema di qualità, il cui tipo e la cui origine vengono specificati nelle informazioni descrittive. Questa procedura utilizza la società di dati dimostrativi USMF. In genere, questa procedura viene eseguita da un responsabile della qualità.
 

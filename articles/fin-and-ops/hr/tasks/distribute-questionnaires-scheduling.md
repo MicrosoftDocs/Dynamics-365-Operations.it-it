@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Distribuire questionari mediante programmazione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La programmazione dei questionari consente di pianificare e distribuire i questionari a più intervistati. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

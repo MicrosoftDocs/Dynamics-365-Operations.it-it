@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-rate-masters"></a>Impostare i dati master tariffe
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come impostare dati master tariffe. Il responsabile della logistica in genere imposta i dati master tariffe, a seconda dei contratti firmati con i vettori. In questo scenario verranno impostati dati master per una compagnia aerea. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

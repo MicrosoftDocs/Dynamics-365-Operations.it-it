@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Configurazioni richiesta fornitore
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Per completare una richiesta fornitore, un contatto del fornitore deve completare la procedura guidata di registrazione del fornitore potenziale.
 
@@ -39,12 +39,12 @@ Per impostazione predefinita, è disponibile una configurazione fornitore nel mo
 
 Non è possibile selezionare paesi per la configurazione predefinita, quindi la sezione **Paesi** non può essere modificata.
 
-1.  Fare clic su **Approvvigionamento** > **Impostazione** > **Fornitori** e **Configurazioni richiesta fornitore**.
-2.  Fare clic sulla scheda **Campi** per impostare lo stato dei campi elencati.
--   Nascosto (non visibile)
--   Visualizzato (visibile ma non obbligatorio)
--   Obbligatorio (visibile e obbligatorio)
-3.  Fare clic sulla scheda **Contenuto** per specificare se il testo verrà visualizzato nella procedura guidata e se è necessario confermare che l'utente del fornitore potenziale deve accettarlo prima di continuare al passaggio successivo della procedura guidata. L'accettazione verrà richiesta per tutti i termini e le condizioni che l'utente deve accettare per continuare.
+1. Fare clic su **Approvvigionamento** > **Impostazione** > **Fornitori** e **Configurazioni richiesta fornitore**.
+2. Fare clic sulla scheda **Campi** per impostare lo stato dei campi elencati.
+3. Nascosto (non visibile)
+4. Visualizzato (visibile ma non obbligatorio)
+5. Obbligatorio (visibile e obbligatorio)
+6. Fare clic sulla scheda **Contenuto** per specificare se il testo verrà visualizzato nella procedura guidata e se è necessario confermare che l'utente del fornitore potenziale deve accettarlo prima di continuare al passaggio successivo della procedura guidata. L'accettazione verrà richiesta per tutti i termini e le condizioni che l'utente deve accettare per continuare.
 
 È inoltre possibile immettere un messaggio di conferma che viene visualizzato quando la procedura guidata è finalizzata e aggiungere uno o più questionari.
 

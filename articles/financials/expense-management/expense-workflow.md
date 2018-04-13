@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>Flusso di lavoro delle spese
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile utilizzare il sistema del flusso di lavoro in Microsoft Dynamics 365 for Finance and Operations per impostare un processo di verifica delle note spese in Gestione spese. È possibile impostare un flusso di lavoro che utilizza i seguenti criteri per determinare il responsabile dell'approvazione delle note spese:
 

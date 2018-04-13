@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="employee-development-power-bi-content"></a>Contenuto di Power BI Sviluppo del dipendente
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento descrive il contenuto **Sviluppo del dipendente** di Microsoft Power BI.
 
@@ -45,6 +45,7 @@ I report inclusi nel contenuto **Sviluppo del dipendente** di Power BI dispongon
 È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
+
 | Entità                   | Contenuto                                                                                                   | Relazioni con altre entità |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Offset di calendario          | Offset di calendario su report suddivisi                                                                          | Assegnazione della posizione passata, Tendenza della posizione, Tendenza del dipendente, Dipendente con rapporto di lavoro chiuso 

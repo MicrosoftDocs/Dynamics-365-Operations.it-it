@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="expense-reports-and-multiple-approvers"></a>Note spese e più approvatori
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In base ai criteri di approvazione di spesa dell'organizzazione, potrebbe essere necessario che più di una persona approvi una nota spese che viene inviata da un dipendente. Quando si imposta il processo del flusso di lavoro per l'approvazione della nota spese, è possibile aggiungere elementi del flusso di lavoro che includono le attività o le operazioni per uno o più approvatori della nota spese. Ad esempio, è possibile richiedere che tutte le note spese vengano approvate prima dall'amministratore del dipendente che ha inviato il report e quindi dal coordinatore della contabilità fornitori.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Sviluppare una struttura e piani di stipendi/retribuzioni
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa guida attività viene illustrato il processo di creazione di un piano di retribuzione fissa e di abilitazione dei dipendenti a iscriversi al piano in base alle regole di idoneità. La società di dati dimostrativi utilizzata per creare questa attività è USMF e l'attività è destinata ai responsabili retribuzione e benefit.
 

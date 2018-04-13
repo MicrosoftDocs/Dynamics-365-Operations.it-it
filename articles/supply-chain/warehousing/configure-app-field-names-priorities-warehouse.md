@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configurare i nomi di campo app nell'app Magazzino
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app nell'app Magazzino in Finance and Operations. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membri di dimensione statistica e modelli provider misure statistiche
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Una dimensione statistica e i relativi membri vengono utilizzati per registrare e monitorare le voci non monetarie nella contabilità industriale. I membri di dimensione statistica possono essere utilizzati per due scopi:
 

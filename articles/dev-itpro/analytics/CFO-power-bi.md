@@ -25,8 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>Contenuto di Power BI Panoramica responsabile finanziario
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)] 
 
 Questo argomento descrive il contenuto **Panoramica responsabile finanziario** di Microsoft Power BI. Il contenuto Power BI si applica agli utenti di Microsoft Dynamics 365 for Finance and Operations versione 7.2. Se si utilizza la versione 7.3 o versioni successivi, vedere [Informazioni finanziarie dettagliate](financial-insights.md).
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>Creare componenti del modello prodotto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I modelli di configurazione prodotti basata su vincoli utilizzano i componenti come blocchi predefiniti per stabilire la struttura del modello prodotto. I componenti devono essere creati prima che un modello prodotto possa essere creato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

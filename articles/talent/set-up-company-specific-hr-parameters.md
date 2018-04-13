@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-company-specific-hr-parameters"></a>Impostare parametri HR specifici della società
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Le impostazioni di alcuni parametri delle Risorse umane sono condivise tra società, mentre le impostazioni di altri parametri sono specifiche. In questo articolo viene illustrato come impostare parametri risorse umane specifici della società.
 

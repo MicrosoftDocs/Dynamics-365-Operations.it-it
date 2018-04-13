@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito. 
 
@@ -39,6 +38,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 
 ## <a name="action-shortcuts"></a>Tasti di scelta rapida per azioni
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Azione**                                    | **Tasti di premere**                        |
@@ -55,6 +55,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Visualizzare i collegamenti attualmente disponibili                | ALT+MAIUSC+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Tasti di scelta rapida per la selezione della data
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Azione**                        | **Tasti di premere**                                 |
@@ -68,6 +69,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Selezionare Mai (o la data massima)          | N                                         |
 
 ## <a name="factbox-shortcuts"></a>Tasti di scelta rapida per il riquadro Dettagli informazioni
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Azione**                                                                  | **Tasti di premere**                                 |
@@ -79,6 +81,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Comprimere il riquadro Dettaglio informazioni corrente                                                    | ALT + 0                                     |
 
 ## <a name="filtering-shortcuts"></a>Tasti di scelta rapida per il filtro
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Operazione da eseguire**                     | **Premere**                |
@@ -89,6 +92,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Aprire le opzioni di filtro/ordinamento avanzate                                      | CTRL + MAIUSC + F3            | 
 
 ## <a name="form-shortcuts"></a>Tasti di scelta rapida del modulo
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Operazione da eseguire**                                      | **Premere**         |
@@ -110,6 +114,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Chiudere il modulo e annullare le modifiche non salvate       | ALT + MAIUSC + Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Tasti di scelta rapida per spostarsi nei moduli
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Azione**                                      | **Tasti di premere**                                    |
@@ -128,6 +133,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Passa alla visualizzazione righe                                | CTRL + MAIUSC + L                                 |
 
 ## <a name="grid-shortcuts"></a>Tasti di scelta rapida della griglia
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Azione**                                                                                                         | **Tasti di premere**                       |
@@ -148,6 +154,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Aprire il filtro griglia per la colonna corrente (con stato attivo nella riga di intestazione)                                              | INVIO                           |
 
 ## <a name="input-control-shortcuts"></a>Tasti di scelta rapida per il controllo dell'input
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Azione**                                                               | **Tasti di premere**                     |
@@ -163,6 +170,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Spostare lo stato attivo tra l'area di testo e la barra degli strumenti in un controllo dell'editor HTML | F6                            |
 
 ## <a name="messaging-shortcuts"></a>Tasti di scelta rapida per i messaggi
+
 |                          |               |
 |--------------------------|---------------|
 | **Azione**           | **Tasti di premere**     |
@@ -170,6 +178,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Andare alla barra dei messaggi    | CTRL + F7       |
 
 ## <a name="navigation-shortcuts"></a>Tasti di scelta rapida di spostamento
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Azione**                                                                | **Tasti di premere**                  |
@@ -191,6 +200,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Spostarsi sul riquadro Dettaglio informazioni (può includerne l'apertura)                       | ALT + M,B o CTRL + F2         |
 
 ## <a name="personalization-shortcuts"></a>Tasti di scelta rapida di personalizzazione
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Azione**                                                                                                         | **Tasti di premere**                           |
@@ -219,6 +229,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Uscire dalla modalità di personalizzazione (quando in modalità di personalizzazione)                                                               | ESC                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Tasti di scelta rapida per il controllo di voci segmentato
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Azione**                                                                                                          | **Tasti di premere**                        |

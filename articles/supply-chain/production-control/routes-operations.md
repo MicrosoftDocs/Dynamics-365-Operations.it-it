@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>Cicli di lavorazione e operazioni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni. Un ciclo di lavorazione definisce il processo per la produzione di un prodotto o della variante prodotto. Viene descritto ogni passaggio (operazione) del processo di produzione insieme all'ordine in cui queste operazioni devono essere eseguite. Per ciascun passaggio, il ciclo di lavorazione definisce inoltre le risorse operative richieste, il tempo di attrezzaggio necessario e il tempo di esecuzione e il modo in cui il costo deve essere calcolato.
 

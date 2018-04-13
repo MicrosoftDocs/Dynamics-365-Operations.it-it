@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-books"></a>Impostare libri
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come creare un nuovo libro cespiti e associarlo a un gruppo cespite. Utilizza il ruolo Ragioniere e i dati dimostrativi della persona giuridica USMF.
 

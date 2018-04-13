@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Regole per prezzi di categoria per creare accordi commerciali
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Questa procedura dimostra la creazione degli accordi commerciali sui prezzi di vendita mediante una regola per prezzi di categoria. La società di dati dimostrativi utilizzata per creare questa attività è USRT. Questa attività è destinata al ruolo Responsabile merchandising vendita al dettaglio.
 

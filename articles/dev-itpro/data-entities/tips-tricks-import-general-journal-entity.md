@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Procedure consigliate per l'importazione di giustificativi utilizzando l'entità giornale di registrazione generale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono forniti suggerimenti per l'importazione dei dati nel giornale di registrazione generale tramite l'entità giornale di registrazione generale.  
 

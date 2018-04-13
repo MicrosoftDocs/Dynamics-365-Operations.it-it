@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-benefit-expiration-dates"></a>Gestire date di scadenza benefit
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra come è possibile applicare una scadenza o estendere un benefit e come gestire le date di iscrizione lavoratori iscritti al benefit. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

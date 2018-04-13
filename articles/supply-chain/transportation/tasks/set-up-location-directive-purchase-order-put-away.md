@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come impostare una direttiva ubicazione semplice. L'esempio visualizzato crea una direttiva ubicazione da utilizzare per determinare dove inserire gli articoli ricevuti per un ordine fornitore. È possibile riprodurre questa guida attività con i dati indicati usando la società di dati dimostrativi USMF. Precondizioni: è necessario creare un codice smaltimento. In questa procedura viene utilizzato un codice smaltimento denominato Nuova etichetta. Se si crea una direttiva ubicazione i propri dati, è necessario impostare gestione avanzata di magazzino per il magazzino e gli articoli.  Questa procedura è destinata al responsabile del magazzino.
 

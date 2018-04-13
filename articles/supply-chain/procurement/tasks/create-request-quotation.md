@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-request-for-quotation"></a>Creare una richiesta di offerta
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come creare una richiesta di offerta. Questa operazione viene in genere eseguita da un addetto agli acquisti. È necessario impostare le classificazioni del contratto di acquisto prima di iniziare. Per iniziare, cccorre avere impostato i tipi di sollecito. Dopo aver completato l'attività e creato e inviato una RdO, è possibile immettere le risposte per fornitore, confrontarle e assegnare il contratto.
 

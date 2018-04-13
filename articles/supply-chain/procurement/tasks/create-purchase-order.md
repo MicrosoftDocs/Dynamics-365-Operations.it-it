@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>Creare un ordine fornitore
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura indica come creare un ordine fornitore manualmente. È più normale che gli ordini fornitori vengano creati automaticamente come risultato di una pianificazione generale, della consegna diretta e di altri processi. Gli ordini acquisti sono in genere creati da un addetto agli acquisti. L'esempio riportato in questo campo può essere utilizzato nella società di dati dimostrativi USMF usando i valori che verranno suggeriti nelle note per i vari passaggi.
 

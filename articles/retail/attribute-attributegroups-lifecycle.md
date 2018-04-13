@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Attributi, gruppi di attributi e le relative associazioni a diverse entità Retail in Finance and Operations
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Gli *attributi* forniscono un modo per descrivere ulteriormente un prodotto e le sue caratteristiche tramite campi definiti dall'utente (ad esempio **Dimensione di memoria**, **Capacità del disco rigido**, **Conformità allo standard Energy Star** e così via). In Microsoft Dynamics 365 for Finance and Operations, gli attributi possono essere associati a diverse entità Retail, ad esempio a categorie di prodotti e canali di vendita al dettaglio, ed è possibile impostare per tali attributi valori predefiniti. I prodotti ereditano quindi gli attributi e i valori predefiniti quando vengono associati alle categorie di prodotti o ai canali di vendita al dettaglio. I valori predefiniti possono essere sovrascritti a livello di singolo prodotto, a livello di canale di vendita al dettaglio o in un catalogo al dettaglio.
  
@@ -227,13 +227,13 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
 5. Nella scheda dettaglio **Prodotti**, selezionare il prodotto richiesto, quindi selezionare **Attributi** sopra la griglia del prodotto.
 6. Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:
 
-    - Supporti prodotto condivisi
-    - Attributi del prodotto condivisi
-    - Supporti canale
-    - Attributi del prodotto del canale
+   - Supporti prodotto condivisi
+   - Attributi del prodotto condivisi
+   - Supporti canale
+   - Attributi del prodotto del canale
 
-    > [!NOTE]
-    > Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.
+     > [!NOTE]
+     > Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.
 
 ![Gruppi di attributi del prodotto del catalogo](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
 
 5. Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:
 
-    - Supporti prodotto condivisi
-    - Attributi del prodotto condivisi
-    - Supporti canale
-    - Attributi del prodotto del canale
+   - Supporti prodotto condivisi
+   - Attributi del prodotto condivisi
+   - Supporti canale
+   - Attributi del prodotto del canale
 
-    > [!NOTE]
-    > Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.
+     > [!NOTE]
+     > Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.
 

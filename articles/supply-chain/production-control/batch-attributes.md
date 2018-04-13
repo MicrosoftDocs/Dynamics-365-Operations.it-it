@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="batch-attributes"></a>Attributi batch
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'argomento illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
 

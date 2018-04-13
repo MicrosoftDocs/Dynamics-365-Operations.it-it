@@ -29,11 +29,10 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Installare e configurare Microsoft Dynamics 365 for Finance and Operations &#8211; Magazzino
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
-
+> 
 > In questo argomento viene descritto come configurare il magazzino per le distribuzioni cloud. Se si stanno cercando informazioni su come configurare il magazzino per distribuzioni locali, vedere [Magazzino per distribuzioni locali](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-ledger-accrual-transactions"></a>Creare transazioni di attribuzione per competenza in contabilità generale
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida di attività descrive la generazione di transazioni di attribuzione per competenza in contabilità generale basate su schemi di attribuzione per competenza.
 

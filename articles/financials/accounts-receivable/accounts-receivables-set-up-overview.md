@@ -28,8 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurare Contabilità clienti e Crediti e riscossioni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Configurare i moduli Contabilità clienti e Crediti e riscossioni per tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti.
 
@@ -107,7 +106,7 @@ Nella tabella seguente sono elencate le pagine che supportano la configurazione 
 |                                                      | Informazioni NSF                     | Impostare le informazioni NSF (Non Sufficient Funds, senza copertura) sul conto bancario da utilizzare quando un pagamento viene contrassegnato come transazione NSF nella pagina di riscossione.                                                                                                                                              |
 |                                                      | Informazioni Venditore              | Impostare l'indirizzo di posta elettronica per i venditori. Gli indirizzi verranno visualizzati nella pagina Riscossioni ed è possibile utilizzarli per inviare posta elettronica al venditore dalla pagina.                                                                                                                |
 
- 
+
 Per ulteriori informazioni, vedere [Crediti e riscossioni in Contabilità clienti](collections-credit-accounts-receivable.md).
 
 

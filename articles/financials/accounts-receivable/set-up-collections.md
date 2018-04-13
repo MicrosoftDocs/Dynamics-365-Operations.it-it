@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Configurare crediti e riscossioni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene descritto come impostare le funzionalità di riscossione.
 
@@ -97,9 +96,9 @@ Se non è stato specificato un rappresentante, verrà utilizzato il venditore pr
 Per ulteriori informazioni, vedere i seguenti argomenti:
 
  - [Creare una sequenza di lettere di sollecito](tasks/create-collection-letter-sequence.md)
- 
+
  - [Elaborare lettere di sollecito](tasks/process-collection-letters.md)
- 
+
  - [Esaminare le informazioni sulla riscossione](tasks/review-collections-information.md)
 
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Configurare una decisione manuale in un flusso di lavoro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come configurare le proprietà per una decisione manuale.
 
@@ -252,73 +251,74 @@ Per specificare gli utenti a cui assegnare una decisione manuale, effettuare le 
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Specificare l'azione da eseguire se una decisione è scaduta
 Se l'utente non prende la decisione nel tempo prestabilito, la decisione scadrà. Una decisione scaduta può essere riassegnata o assegnata automaticamente a un altro utente. Per riassegnare la decisione scaduta, effettuare le operazioni seguenti:
 
-1.  Nel riquadro sinistro fare clic su **Riassegnazione**.
-2.  Selezionare la casella di controllo **Utilizza percorso di riassegnazione** per creare un percorso di riassegnazione. La decisione viene assegnata automaticamente agli utenti elencati nel percorso. La tabella indicata di seguito rappresenta un esempio di percorso di riassegnazione.
-    | Sequenza | Percorso riassegnazione            |
-    |----------|----------------------------|
-    | 1        | Assegna a: Maria           |
-    | 2        | Assegna a: Francesca            |
-    | 3        | Azione finale: \[Prima scelta\] |
+1. Nel riquadro sinistro fare clic su **Riassegnazione**.
+2. Selezionare la casella di controllo **Utilizza percorso di riassegnazione** per creare un percorso di riassegnazione. La decisione viene assegnata automaticamente agli utenti elencati nel percorso. La tabella indicata di seguito rappresenta un esempio di percorso di riassegnazione.
 
-    In questo esempio la decisione scaduta viene assegnata a Maria. Se Maria non prende la decisione nel tempo prestabilito, la decisione verrà assegnata a Francesca. Se Francesca non prende la decisione nel tempo prestabilito, verrà selezionato  **\[Prima scelta\]** come decisione.
-3.  Per aggiungere un utente al percorso di riassegnazione, fare clic su **Aggiungi riassegnazione**. Selezionare una delle opzioni nella tabella indicata di seguito, quindi seguire le altre indicazioni per l'opzione prima di procedere al passaggio 4.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Opzione</th>
-    <th>Utenti a cui viene riassegnata la decisione</th>
-    <th>Passaggi aggiuntivi</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Gerarchia</td>
-    <td>Utenti in una specifica gerarchia organizzativa</td>
-    <td><ol>
-    <li>Dopo aver selezionato <strong>Gerarchia</strong>, nella scheda <strong>Selezione gerarchia</strong> selezionare il tipo di gerarchia cui riassegnare la decisione nell'elenco <strong>Tipo di gerarchia</strong>.</li>
-    <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere riassegnata la decisione. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema: <ol>
-    <li>Per specificare il punto di inizio, selezionare una persona dall'elenco <strong>Inizia da</strong>.</li>
-    <li>Per specificare il punto finale, fare clic su <strong>Aggiungi condizione</strong>. Immettere quindi una condizione per determinare il punto della gerarchia in cui verrà arrestato il recupero dei nomi da parte del sistema.</li>
-    </ol></li>
-    <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo la decisione deve essere riassegnata: <ul>
-    <li><strong>Assegna a tutti gli utenti recuperati</strong> - La decisione viene riassegnata a tutti gli utenti nell'intervallo.</li>
-    <li><strong>Assegna solo all'ultimo utente recuperato</strong> - La decisione viene riassegnata solo all'ultimo utente dell'intervallo.</li>
-    <li><strong>Escludi utenti con la seguente condizione:</strong> - La decisione non viene riassegnata ad alcun utente nell'intervallo che soddisfa una specifica condizione. Fare clic su <strong>Aggiungi condizione</strong> per specificare la condizione.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>Utente del flusso di lavoro</td>
-    <td>Utenti nel flusso di lavoro corrente</td>
-    <td><ul>
-    <li>Dopo aver selezionato <strong>Utente del flusso di lavoro</strong>, nella scheda <strong>Utente del flusso di lavoro</strong>, nell'elenco <strong>Utente del flusso di lavoro</strong> selezionare un utente che partecipa al flusso di lavoro.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Utente</td>
-    <td>Utenti specifici di Finance and Operations</td>
-    <td><ol>
-    <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Finance and Operations. Selezionare gli utenti a cui riassegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Sequenza | Percorso riassegnazione            |
+   |----------|----------------------------|
+   | 1        | Assegna a: Maria           |
+   | 2        | Assegna a: Francesca            |
+   | 3        | Azione finale: \[Prima scelta\] |
 
-4.  Nella scheda **Limite di tempo**, nel campo **Durata** specificare il tempo a disposizione di un utente per prendere la decisione. Consente di selezionare una delle opzioni indicate di seguito.
-    -   **Ore**: immettere il numero di ore a disposizione dell'utente per prendere la decisione. Selezionare quindi il calendario utilizzato dall'organizzazione e immettere informazioni sulla settimana lavorativa dell'organizzazione.
-    -   **Giorni**: immettere il numero di giorni a disposizione dell'utente per prendere la decisione. Selezionare quindi il calendario utilizzato dall'organizzazione e immettere informazioni sulla settimana lavorativa dell'organizzazione.
-    -   **Settimane**: immettere il numero di settimane a disposizione dell'utente per prendere la decisione.
-    -   **Mesi**: selezionare il giorno e la settimana entro i quali l'utente deve prendere la decisione. È ad esempio possibile scegliere di far prendere la decisione all'utente entro il venerdì della terza settimana del mese.
-    -   **Anni**: selezionare il giorno, la settimana e il mese entro i quali l'utente deve prendere la decisione. È ad esempio possibile scegliere di far prendere la decisione all'utente entro il venerdì della terza settimana di dicembre.
+   In questo esempio la decisione scaduta viene assegnata a Maria. Se Maria non prende la decisione nel tempo prestabilito, la decisione verrà assegnata a Francesca. Se Francesca non prende la decisione nel tempo prestabilito, verrà selezionato  **\[Prima scelta\]** come decisione.
+3. Per aggiungere un utente al percorso di riassegnazione, fare clic su **Aggiungi riassegnazione**. Selezionare una delle opzioni nella tabella indicata di seguito, quindi seguire le altre indicazioni per l'opzione prima di procedere al passaggio 4.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Opzione</th>
+   <th>Utenti a cui viene riassegnata la decisione</th>
+   <th>Passaggi aggiuntivi</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Gerarchia</td>
+   <td>Utenti in una specifica gerarchia organizzativa</td>
+   <td><ol>
+   <li>Dopo aver selezionato <strong>Gerarchia</strong>, nella scheda <strong>Selezione gerarchia</strong> selezionare il tipo di gerarchia cui riassegnare la decisione nell'elenco <strong>Tipo di gerarchia</strong>.</li>
+   <li>Il sistema dovrà recuperare un intervallo di nomi utente dalla gerarchia. Questi nomi rappresentano gli utenti a cui può essere riassegnata la decisione. Attenersi alla procedura indicata di seguito per specificare il punto di inizio e il punto finale dell'intervallo di nomi utente recuperati dal sistema: <ol>
+   <li>Per specificare il punto di inizio, selezionare una persona dall'elenco <strong>Inizia da</strong>.</li>
+   <li>Per specificare il punto finale, fare clic su <strong>Aggiungi condizione</strong>. Immettere quindi una condizione per determinare il punto della gerarchia in cui verrà arrestato il recupero dei nomi da parte del sistema.</li>
+   </ol></li>
+   <li>Nella scheda <strong>Opzioni gerarchia</strong> specificare a quali utenti nell'intervallo la decisione deve essere riassegnata: <ul>
+   <li><strong>Assegna a tutti gli utenti recuperati</strong> - La decisione viene riassegnata a tutti gli utenti nell'intervallo.</li>
+   <li><strong>Assegna solo all'ultimo utente recuperato</strong> - La decisione viene riassegnata solo all'ultimo utente dell'intervallo.</li>
+   <li><strong>Escludi utenti con la seguente condizione:</strong> - La decisione non viene riassegnata ad alcun utente nell'intervallo che soddisfa una specifica condizione. Fare clic su <strong>Aggiungi condizione</strong> per specificare la condizione.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>Utente del flusso di lavoro</td>
+   <td>Utenti nel flusso di lavoro corrente</td>
+   <td><ul>
+   <li>Dopo aver selezionato <strong>Utente del flusso di lavoro</strong>, nella scheda <strong>Utente del flusso di lavoro</strong>, nell'elenco <strong>Utente del flusso di lavoro</strong> selezionare un utente che partecipa al flusso di lavoro.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Utente</td>
+   <td>Utenti specifici di Finance and Operations</td>
+   <td><ol>
+   <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
+   <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Finance and Operations. Selezionare gli utenti a cui riassegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  Ripetere i passaggi da 3 a 4 per ogni utente che si desidera aggiungere al percorso di riassegnazione. È possibile modificare l'ordine degli utenti.
-6.  Se gli utenti nel percorso di riassegnazione non prendono la decisione nel tempo prestabilito, la decisione verrà presa dal sistema. Per specificare l'opzione selezionata dal sistema, selezionare la riga **Azione**, quindi nella scheda **Termina azione** selezionare un'opzione.
+4. Nella scheda **Limite di tempo**, nel campo **Durata** specificare il tempo a disposizione di un utente per prendere la decisione. Consente di selezionare una delle opzioni indicate di seguito.
+   -   **Ore**: immettere il numero di ore a disposizione dell'utente per prendere la decisione. Selezionare quindi il calendario utilizzato dall'organizzazione e immettere informazioni sulla settimana lavorativa dell'organizzazione.
+   -   **Giorni**: immettere il numero di giorni a disposizione dell'utente per prendere la decisione. Selezionare quindi il calendario utilizzato dall'organizzazione e immettere informazioni sulla settimana lavorativa dell'organizzazione.
+   -   **Settimane**: immettere il numero di settimane a disposizione dell'utente per prendere la decisione.
+   -   **Mesi**: selezionare il giorno e la settimana entro i quali l'utente deve prendere la decisione. È ad esempio possibile scegliere di far prendere la decisione all'utente entro il venerdì della terza settimana del mese.
+   -   **Anni**: selezionare il giorno, la settimana e il mese entro i quali l'utente deve prendere la decisione. È ad esempio possibile scegliere di far prendere la decisione all'utente entro il venerdì della terza settimana di dicembre.
+
+5. Ripetere i passaggi da 3 a 4 per ogni utente che si desidera aggiungere al percorso di riassegnazione. È possibile modificare l'ordine degli utenti.
+6. Se gli utenti nel percorso di riassegnazione non prendono la decisione nel tempo prestabilito, la decisione verrà presa dal sistema. Per specificare l'opzione selezionata dal sistema, selezionare la riga **Azione**, quindi nella scheda **Termina azione** selezionare un'opzione.
 
 ## <a name="set-a-time-limit"></a>Impostare un limite di tempo
 Per prendere la decisione in un periodo di tempo specifico, effettuare le operazioni seguenti: **Nota:** le opzioni selezionate in questi passaggi prevalgono su quelle selezionate nelle aree **Assegnazione** e **Riassegnazione** della pagina.

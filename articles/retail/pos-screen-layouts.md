@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>Configurare i layout schermo per POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze si Microsoft Dynamics 365 for Retail POS.
 

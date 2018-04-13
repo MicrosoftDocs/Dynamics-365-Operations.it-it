@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura di nomi e numeri di varianti prodotto
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come impostare la nomenclatura per il numero prodotto per sostituire il formato fisso [Numero rappresentazione generale prodotto - Configurazione - Dimensione - Colore - Stile]. La nuova nomenclatura ha un formato di destinazione che include il numero della rappresentazione generale prodotto, le dimensioni prodotto attive e i delimitatori di testo scelti. È inoltre possibile creare una nomenclatura per i nomi di prodotto. Infine, è anche possibile creare una nomenclatura per identificare le configurazioni create in base alla configurazione basata su vincoli del prodotto. Queste nomenclature possono includere gli attributi scelti.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-procurement-catalog"></a>Creare un catalogo di approvvigionamento
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida indica come creare un catalogo di approvvigionamento. Questa attività in genere viene svolta da un responsabile degli approvvigionamenti. Inoltre imparerete come i dipendenti possono usare il catalogo quando creano una richiesta. Prima che possiate creare un catalogo, ci deve essere una gerarchia di categorie di approvvigionamento nel vostro sistema. La gerarchia è ereditata dal nuovo catalogo, con tutti i prodotti che sono nella gerarchia. Potete utilizzare questa guida nella società di dati dimostrativi USMF in cui la gerarchia di categorie di approvvigionamento è disponibile, come pure gli esempi utilizzati nei passaggi della procedura.
 

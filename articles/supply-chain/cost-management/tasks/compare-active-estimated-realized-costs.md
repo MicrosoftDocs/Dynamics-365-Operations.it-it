@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>Confrontare costi attivi, stimati e realizzati su un ordine di produzione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come visualizzare i motivi di scostamenti di produzione elevati per un ordine di produzione. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata al controllore costi.
 

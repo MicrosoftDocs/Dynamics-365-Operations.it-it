@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>Area di lavoro gestione cespiti
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'area di lavoro **Gestione cespiti** visualizza le informazioni relative ai cespiti immessi nel sistema. Questa area di lavoro include una visualizzazione di riepilogo e una visualizzazione di analisi. Nella scheda **Lavoro personale** vengono visualizzati i riquadri di riepilogo, i dettagli dei cespiti e le informazioni correlate sui cespiti della società corrente. È inoltre possibile aggiungere l'analisi alla sezione dell'analisi di Power BI direttamente nell'area di lavoro. La scheda **Analisi - tutte le società** utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni relative ai cespiti di tutte le società.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-versions"></a>Versioni determinazione costi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sulle versioni di determinazione costi, sul modo di gestirle e sui tipi di dati che è possibile includervi. Lo scopo principale è quello di includere i record dei costi per gli articoli, le categorie di costi e le formule di calcolo per i costi indiretti.
 

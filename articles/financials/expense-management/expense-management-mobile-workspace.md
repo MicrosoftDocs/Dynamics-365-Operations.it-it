@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>Area di lavoro mobile di gestione spese
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile per **Gestione spese**. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo che possono successivamente collegarla a una nota spese. Gli utenti possono inoltre creare rapidamente una riga di spesa utilizzando una ricevuta collegata e creare e gestire le loro note spese. Inoltre, gli approvatori possono utilizzare l'area di lavoro mobile **Gestione spese** per visualizzare le note spese loro assegnate e per approvare o rifiutare tali note spese.
 

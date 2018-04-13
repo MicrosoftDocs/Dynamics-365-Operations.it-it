@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> Configurare il profilo funzionalità per un rappresentante
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Questa procedura dimostra come configurare le impostazioni del profilo funzionalità di un punto vendita applicabili ai rappresentanti. Questa procedura utilizza la società di dati dimostrativi USRT.
 

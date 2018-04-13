@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a> Creare i canali online e definire gli attributi del canale
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare un nuovo canale online e aggiungerlo alla gerarchia organizzativa. Prima di creare un nuovo canale online è necessario creare la gerarchia organizzativa. Questa procedura utilizza la società di dati dimostrativi USRT.
 

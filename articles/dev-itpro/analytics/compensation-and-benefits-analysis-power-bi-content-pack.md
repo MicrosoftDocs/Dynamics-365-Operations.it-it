@@ -27,8 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>Contenuto Power BI di retribuzioni e benefit
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite le informazioni sul contenuto Power BI di retribuzioni e benefit di Finance and Operations. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-hierarchies"></a>Gerarchie punti vendita al dettaglio
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Questo articolo descrive le gerarchia dei punti vendita al dettaglio in Microsoft Dynamics 365 for Retail.
 

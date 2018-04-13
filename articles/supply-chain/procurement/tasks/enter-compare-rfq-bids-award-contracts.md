@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Immettere e confrontare le offerte RdO e assegnare i contratti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come immettere le risposte a una RdO, valutare e confrontare le offerte e infine assegnare l'offerta a uno dei fornitori. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF. Prima di iniziare, è necessario disporre di una RdO con due righe inviata ad almeno due fornitori. È possibile eseguire la procedura "Creare richieste di offerta" come prerequisito per la creazione. È necessario avere impostato criteri di assegnazione del punteggio per poter eseguire questa procedura.
 

@@ -28,14 +28,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Fatture di pagamento anticipato e pagamenti anticipati a confronto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati. Con un metodo si crea una fattura di pagamento anticipato associata a un ordine fornitore. Con l'altro metodo si creano i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di scritture contabili e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato.
 
 Le organizzazioni possono emettere pagamenti anticipati in favore dei fornitori di merci o servizi prima che la fornitura di tali merci o servizi sia stata completata. Due metodi possono essere utilizzati per emettere pagamenti anticipati ai fornitori. Per ridurre al minimo i rischi, è possibile tenere traccia dei pagamenti definendo il pagamento anticipato in relazione a un ordine fornitore. Per questo metodo è necessario creare una fattura di pagamento anticipato associata a un ordine fornitore. Questo metodo è denominato fatturazione di pagamento anticipato. Le organizzazioni che non desiderano tenere traccia dei pagamenti anticipati in modo sistematico o che non ricevono una fattura di pagamento anticipato dal proprio fornitore possono utilizzare i giustificativi giornale di registrazione per pagamento anticipato anziché il metodo di fatturazione di pagamento anticipato. È possibile creare i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di inserimenti nel giornale di registrazione e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato. Con questo metodo non è possibile verificare quali pagamenti anticipati vengono effettuati a favore di un fornitore in relazione a un determinato ordine fornitore. Tuttavia, è possibile contrassegnare un pagamento anticipato registrato per la liquidazione in base a un ordine fornitore.
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a>Quando utilizzare una fatturazione di pagamento anticipato rispetto ai pagamenti anticipati
+
 | Fatturazione di pagamento anticipato                                                                | Pagamenti anticipati                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Definire un valore di pagamento anticipato per un ordine fornitore.                                    | Nessun valore di pagamento anticipato è stato definito per un ordine fornitore.                    |

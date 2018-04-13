@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Distinte base e formule
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo offre informazioni sulle distinte base (DBA) e sulle formule, che sono una parte centrale della definizione dei prodotti e varianti prodotto. Le distinte base e le formule specificano i materiali o gli ingredienti necessari per un prodotto specifico. Le formule inoltre specificano i co-prodotti e sottoprodotti ricevuti nel contesto di produzione specifico. 
 

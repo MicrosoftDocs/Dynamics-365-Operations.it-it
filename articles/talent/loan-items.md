@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>Gestire gli articoli prestati ai lavoratori
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Gli articoli prestito sono record che consentono ai responsabili di tenere traccia degli articoli fisici che la società presta ai lavoratori. 
 
@@ -51,7 +50,7 @@ I responsabili possono visualizzare gli articoli prestati per i propri subordina
 
 Se un articolo viene non correttamente collocato o danneggiato, immettere una restituzione fittizia. Successivamente sarà possibile eliminare l'articolo oppure mantenerlo della panoramica e modificare la relativa descrizione per segnalare che non è disponibile.
 
- 
+
 <a name="see-also"></a>Vedere anche
 --------
 

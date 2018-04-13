@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>Contabilità generale 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile utilizzare la contabilità generale per definire e gestire i record finanziari della persona giuridica. La contabilità generale è un registro di voci in Dare e Avere. Tali voci vengono classificate utilizzando i conti elencati in un piano dei conti. 
 

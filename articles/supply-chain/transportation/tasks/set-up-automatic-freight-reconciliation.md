@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Impostare la riconciliazione trasporto automatica
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come impostare i dati per la riconciliazione automatica di trasporto. Il processo è in genere eseguito da un amministratore di magazzino. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>Impostare l'analisi RFM
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In questo argomento viene illustrato come impostare un'analisi Recency, Frequency and Monetary (RFM) dei clienti.
 
@@ -60,25 +59,25 @@ Se l'organizzazione utilizza un numero di aggregazione per il punteggio, le sing
     - Se ogni sezione del punteggio RFM deve contenere un conteggio uguale di clienti, selezionare la casella di controllo **Distribuzione uniforme**. 
     - Selezionare la casella di controllo **Aggiungi punteggi** per aggregare i tre punteggi. Ad esempio, questo fornirebbe a un cliente un punteggio RFM di 13 anziché di 535. 
     - Selezionare la casella di controllo **Salva storico** per richiedere al sistema di salvare i dati statistici per i clienti in modo da poter utilizzare i dati per calcolare il punteggio RFM.
-  
+
 5.  Nella scheda dettaglio **Recency** eseguire le operazioni seguenti: 
     - Nel campo **Divisioni** immettere il numero di divisioni o gruppi, che verranno utilizzati per calcolare il punteggio di recency per i clienti. Ad esempio, se si dispone di 100 clienti, una divisione di 5 indica che ci sono 20 clienti per ogni punteggio. I 20 clienti che hanno effettuato acquisti più di recente hanno un punteggio di recency di 5. I successivi 20 clienti hanno un punteggio di recency di 4, e così via. Se ci sono 50 clienti, 10 hanno un punteggio di recency di 5, 10 hanno punteggio di recency di 4 e così via. 
     - Nel campo **Priorità** selezionare il peso da assegnare al parametro di recency rispetto agli altri parametri quando viene calcolato il punteggio RFM per un cliente. Ad esempio, è possibile dare più valore al punteggio di recency rispetto al punteggio monetario. 
     - Nel campo **Moltiplicatore** immettere il valore per cui moltiplicare il punteggio di recency. Se non si immette alcun valore, il punteggio non viene moltiplicato. 
     - Nel campo **Periodo** selezionare il periodo di tempo per cui viene calcolato il punteggio di recency. Ad esempio, per settimana o per mese.
-   
+
 6.  Nella scheda dettaglio **Frequenza** eseguire le operazioni seguenti: 
     - Nel campo **Divisioni** immettere il numero di divisioni o gruppi, che verranno utilizzati per calcolare il punteggio di frequenza per i clienti. 
     - Nel campo **Priorità** selezionare il peso da assegnare al parametro di frequenza rispetto agli altri quando viene calcolato il punteggio RFM per un cliente. 
     - Nel campo **Moltiplicatore** immettere il valore per cui moltiplicare il punteggio di frequenza. Se non si immette alcun valore, il punteggio non viene moltiplicato.
-   
+
 7.  Nella scheda dettaglio **Monetario** eseguire le operazioni seguenti: 
     - Nel campo **Divisioni** immettere il numero di divisioni o gruppi, che verranno utilizzati per calcolare il punteggio di monetario per i clienti. 
     - Nel campo **Priorità** selezionare il peso da assegnare al parametro monetario rispetto agli altri quando viene calcolato il punteggio RFM per un cliente. 
     - Nel campo **Moltiplicatore** immettere il valore per cui moltiplicare il punteggio monetario. Se non si immette alcun valore, il punteggio non viene moltiplicato. 
     - Nel campo **Lordo/netto** selezionare se il punteggio monetario del cliente deve essere calcolato utilizzando l'importo fattura lordo o netto. 
     - Se gli importi dei resi di un cliente devono essere sottratti dal calcolo totale della fattura cliente, selezionare la casella di controllo **Sottrai resti**. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>Visualizzare il punteggio RFM di un cliente
 Utilizzare questa procedura per visualizzare il punteggio RFM di un cliente. 
 

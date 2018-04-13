@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurare i parametri dell'area di lavoro controllo costi
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilizzare questa procedura per configurare l'area di lavoro di controllo costi in modo che i responsabili a diversi livelli di un'organizzazione possano ottenere dati approfonditi per gli oggetti di costo, ad esempio centri di costo e gruppi di prodotti. La società dimostrativa USP2 è stata utilizzata per creare questa registrazione.
 

@@ -28,14 +28,14 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="financial-report-components"></a>Componenti del report finanziario
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari. Tali blocchi predefiniti includono le definizioni di riga, di colonna e di albero gerarchico. L'articolo descrive come organizzare e bloccare i blocchi predefiniti. 
 
 La filosofia di progettazione alla base di Progettazione report finanziari è suddividere le informazioni in componenti o blocchi predefiniti più piccoli possibile e quindi mescolare e abbinare i componenti necessari. La formattazione del report è pertanto separata dai dati finanziari ed è possibile modificare la struttura di un report senza modificare i dati finanziari nel sistema Microsoft Dynamics ERP. Utilizzando questo approccio dei blocchi predefiniti, è possibile combinare testo, importi e calcoli, per generare i report necessari. Inoltre, la flessibilità incoraggia la creatività semplificando la visualizzazione delle operazioni in vari modi. I singoli blocchi predefiniti di definizione di report sono simili a un foglio tridimensionale, ma con maggiore potenza. Una definizione di report specifica la definizione di riga, la definizione di colonna e la definizione facoltativa dell'albero gerarchico da utilizzare per il report. Sono inoltre incluse le informazioni sull'archiviazione del report generato e sul formato. 
 
 ## <a name="building-blocks-of-a-report"></a>Blocchi predefiniti di un report
+
 | Blocco predefinito            | descrizione                     | Ulteriori informazioni                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | Definizione riga            | Una definizione di riga definisce le righe descrittive, ad esempio, le retribuzioni o le vendite, in un report. Vengono inoltre elencati i valori o le dimensioni di segmenti che contengono i valori per ogni voce e sono inclusi la formattazione e i calcoli di riga.                                                    | [Definizioni di riga](row-definitions-financial-reporting.md)                       |

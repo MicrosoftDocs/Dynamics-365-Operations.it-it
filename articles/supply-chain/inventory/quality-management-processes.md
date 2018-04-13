@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quality-management-processes"></a>Processi di gestione qualità
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sul processo di gestione della qualità per i prodotti non conformi. e viene descritto come utilizzare la funzionalità di controllo qualità e come definire e gestire le non conformità e le correzioni.
 

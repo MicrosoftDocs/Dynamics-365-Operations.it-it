@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a> Creare e associare un dispositivo
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare un nuovo dispositivo e associarlo a un registratore di cassa. Si presume che il registratore di cassa sia stato già creato.  Questa attività utilizza la società di dati dimostrativi USRT. Questa attività è destinata ai ruoli per amministratori, professionisti IT o vendita al dettaglio IT e responsabile punto vendita.
 
