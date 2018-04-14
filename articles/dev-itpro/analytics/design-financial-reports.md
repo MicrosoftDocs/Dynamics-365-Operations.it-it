@@ -19,17 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: f283ccd6facc6bbda64fe4ef6b7621634884c09c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eefac05ed2bb10b38a941063168a01b7c20335f9
 ms.contentlocale: it-it
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-design-financial-reports"></a><span data-ttu-id="cf031-103">Visualizzare e progettare report finanziari</span><span class="sxs-lookup"><span data-stu-id="cf031-103">View and design financial reports</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cf031-104">L'articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="cf031-104">This article provides exercises that walk you through viewing and creating financial reports for Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="cf031-105">I report finanziari sono costituiti da una esperienza di visualizzazione in Finance and Operations e una funzionalità di progettazione report con un solo clic che consente di creare e modificare report finanziari.</span><span class="sxs-lookup"><span data-stu-id="cf031-105">Financial reporting consists of a viewing experience within Finance and Operations and a click-once report designer that lets you create and edit financial reports.</span></span>  
 

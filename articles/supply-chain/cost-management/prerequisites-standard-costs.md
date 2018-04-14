@@ -20,17 +20,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f7f1cef3198462eab15c1c7d2de4c5d4a5576919
 ms.contentlocale: it-it
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="prerequisites-for-standard-costs"></a><span data-ttu-id="443e2-103">Prerequisiti per i costi standard</span><span class="sxs-lookup"><span data-stu-id="443e2-103">Prerequisites for standard costs</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="443e2-104">In questo argomento vengono descritti i passaggi di base per l'utilizzo dei costi standard.</span><span class="sxs-lookup"><span data-stu-id="443e2-104">This topic describes the basic steps for using standard costs.</span></span> <span data-ttu-id="443e2-105">I passaggi successivi dipendono dalle operazioni svolte dalla società.</span><span class="sxs-lookup"><span data-stu-id="443e2-105">Subsequent steps depend on the company's operations.</span></span> <span data-ttu-id="443e2-106">Ad esempio, i passaggi variano a seconda che si operi in un ambiente non di produzione, in un ambiente di produzione che non utilizza cicli di lavorazione o in un ambiente di produzione che utilizza cicli di lavorazione.</span><span class="sxs-lookup"><span data-stu-id="443e2-106">For example, the steps differ for a nonmanufacturing environment, a manufacturing environment that doesn't use routings, and a manufacturing environment that uses routings.</span></span> 
 

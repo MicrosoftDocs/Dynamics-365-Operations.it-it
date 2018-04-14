@@ -18,16 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 1c6b63b807a6066166422a959905f84d00e5b6f0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bf58ca1dd817291bcd918c22934009e22c135f69
 ms.contentlocale: it-it
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="italian-black-list-report"></a><span data-ttu-id="a64d6-103">Report block list italiano</span><span class="sxs-lookup"><span data-stu-id="a64d6-103">Italian black list report</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a64d6-104">Informazioni su come impostare e gestire il report black list italiano.</span><span class="sxs-lookup"><span data-stu-id="a64d6-104">Learn how to set up and maintain the Italian black list report.</span></span>
 

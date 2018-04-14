@@ -18,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: defbd7e5e04f3291595dea63f69f0a590a367fde
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6cac473fe47d9d7458d75d3cb678d73e3366c7f3
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="split-payment-for-invoices-issued-to-the-public-administration"></a><span data-ttu-id="b2ced-103">Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione</span><span class="sxs-lookup"><span data-stu-id="b2ced-103">Split payment for invoices issued to the Public Administration</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b2ced-104">In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.</span><span class="sxs-lookup"><span data-stu-id="b2ced-104">This topic provides information about the split payment accounting schema.</span></span>
 
@@ -108,7 +107,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="b2ced-160">220</span><span class="sxs-lookup"><span data-stu-id="b2ced-160">220</span></span>
 
- 
+
 
 
 

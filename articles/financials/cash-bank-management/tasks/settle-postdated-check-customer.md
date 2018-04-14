@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a905166dcfbf8cee5b0e5831b47c95d443a74f8d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 92076bf8e57aae31f40411f82d04731d0f3b5477
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a><span data-ttu-id="41141-103">Liquidare un assegno postdatato di un cliente</span><span class="sxs-lookup"><span data-stu-id="41141-103">Settle a postdated check from a customer</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="41141-104">Un assegno postdatato può essere liquidato solo dopo essere stato liquidato dalla banca.</span><span class="sxs-lookup"><span data-stu-id="41141-104">You can settle a postdated check after the check has been cleared by the bank.</span></span> <span data-ttu-id="41141-105">Questa transazione finanziaria liquida inoltre la transazione del conto provvisorio per l'assegno postdatato.</span><span class="sxs-lookup"><span data-stu-id="41141-105">This financial transaction also clears the bridge account transaction for the postdated check.</span></span> 
 

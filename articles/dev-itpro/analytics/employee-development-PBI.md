@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cf60021b96ab492c5d0b2535a117cb33ab13524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: it-it
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="60353-103">Contenuto di Power BI Sviluppo del dipendente</span><span class="sxs-lookup"><span data-stu-id="60353-103">Employee development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="60353-104">Questo argomento descrive il contenuto **Sviluppo del dipendente** di Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="60353-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 01/31/2018
 <span data-ttu-id="60353-124">È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard.</span><span class="sxs-lookup"><span data-stu-id="60353-124">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="60353-125">Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span><span class="sxs-lookup"><span data-stu-id="60353-125">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="60353-126">Informazioni su modelli ed entità di dati</span><span class="sxs-lookup"><span data-stu-id="60353-126">Understanding the data model and entities</span></span>
+
 | <span data-ttu-id="60353-127">Entità</span><span class="sxs-lookup"><span data-stu-id="60353-127">Entity</span></span>                   | <span data-ttu-id="60353-128">Contenuto</span><span class="sxs-lookup"><span data-stu-id="60353-128">Contents</span></span>                                                                                                   | <span data-ttu-id="60353-129">Relazioni con altre entità</span><span class="sxs-lookup"><span data-stu-id="60353-129">Relationships with other entities</span></span> |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="60353-130">Offset di calendario</span><span class="sxs-lookup"><span data-stu-id="60353-130">Calendar Offset</span></span>          | <span data-ttu-id="60353-131">Offset di calendario su report suddivisi</span><span class="sxs-lookup"><span data-stu-id="60353-131">Calendar offsets to slice reports</span></span>                                                                          | <span data-ttu-id="60353-132">Assegnazione della posizione passata, Tendenza della posizione, Tendenza del dipendente, Dipendente con rapporto di lavoro chiuso</span><span class="sxs-lookup"><span data-stu-id="60353-132">Past Position Assignment, Position Trend, Employee Trend, Terminated Employee</span></span> 

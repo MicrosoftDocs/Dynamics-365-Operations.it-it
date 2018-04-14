@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 683fb598a62cf993d0db26ffd492b8c3354a92d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5436aaeadbf2d59324fe6b74a837d4ca85e4baff
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a><span data-ttu-id="49fa0-103">Liquidare un pagamento fornitore parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto</span><span class="sxs-lookup"><span data-stu-id="49fa0-103">Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="49fa0-104">In questo articolo viene descritto uno scenario in cui vengono eseguiti più pagamenti parziali, alcuni nel periodo dello sconto di cassa e altri fuori dello stesso periodo.</span><span class="sxs-lookup"><span data-stu-id="49fa0-104">This article walks you through a scenario where multiple partial payments are made, some within the cash discount period and others outside the cash discount period.</span></span>
 

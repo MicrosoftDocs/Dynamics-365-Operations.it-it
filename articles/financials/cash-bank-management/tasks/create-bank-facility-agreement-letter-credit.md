@@ -16,15 +16,15 @@ ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ac3394a40bff3aaee6a76448633e4f36c4049612
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 36ad4d552297020a92206674f4fbf12203ecf84c
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="8e643-103">Creare un contratto per linea di credito bancaria per una lettera di credito</span><span class="sxs-lookup"><span data-stu-id="8e643-103">Create a bank facility agreement for a letter of credit</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8e643-104">In questa attività viene illustrato come creare un contratto per linea di credito bancaria per elaborare una lettera di credito.</span><span class="sxs-lookup"><span data-stu-id="8e643-104">This task walks through the creating a Bank facility agreement to process a Letter of credit.</span></span> <span data-ttu-id="8e643-105">Si consiglia di impostare le linee di credito bancarie e i profili di registrazione prima di tale attività.</span><span class="sxs-lookup"><span data-stu-id="8e643-105">You will want to set up bank facilities and posting profiles before this task.</span></span>  <span data-ttu-id="8e643-106">In questa attività viene utilizzata la società dimostrativa "USMF".</span><span class="sxs-lookup"><span data-stu-id="8e643-106">This task uses the demo company 'USMF'.</span></span>  
 

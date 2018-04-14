@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad4212584b0f9062edbd5c13f4c75eaa03c853f7
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="postdated-checks"></a><span data-ttu-id="eb76e-105">Assegni postdatati</span><span class="sxs-lookup"><span data-stu-id="eb76e-105">Postdated checks</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="eb76e-106">Questo articolo fornisce informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="eb76e-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="eb76e-107">Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura.</span><span class="sxs-lookup"><span data-stu-id="eb76e-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="eb76e-108">Di conseguenza, l'assegno non può più essere incassato fino alla data specificata.</span><span class="sxs-lookup"><span data-stu-id="eb76e-108">Therefore, the check can't be cashed until the specified date.</span></span>
 
@@ -76,14 +75,14 @@ ms.lasthandoff: 03/26/2018
 <td><span data-ttu-id="eb76e-132">È possibile annullare gli assegni postdatati registrati nelle seguenti situazioni: - L'assegno viene restituito dalla banca.</span><span class="sxs-lookup"><span data-stu-id="eb76e-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
 <span data-ttu-id="eb76e-133">- L'assegno è applicato a una fattura non corretta.</span><span class="sxs-lookup"><span data-stu-id="eb76e-133">- The check is applied to an incorrect invoice.</span></span>
 <span data-ttu-id="eb76e-134">- Un pagamento in contanti viene effettuato a fronte dell'assegno.</span><span class="sxs-lookup"><span data-stu-id="eb76e-134">- A cash payment is made against the check.</span></span>
-</td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="eb76e-135">Bloccare il pagamento di un assegno postdatato</span><span class="sxs-lookup"><span data-stu-id="eb76e-135">Stop payment for a postdated check</span></span></td>
-<td><span data-ttu-id="eb76e-136">È possibile bloccare il pagamento di un assegno postdatato emesso a un fornitore per diversi motivi quali, ad esempio, copertura insufficiente, modifica delle condizioni del contratto con il fornitore, fornitura di merci difettose da parte del fornitore o merce resa al fornitore.</span><span class="sxs-lookup"><span data-stu-id="eb76e-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="eb76e-137">È possibile bloccare il pagamento solo degli assegni che non sono stati annullati.</span><span class="sxs-lookup"><span data-stu-id="eb76e-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td><span data-ttu-id="eb76e-135">Bloccare il pagamento di un assegno postdatato</span><span class="sxs-lookup"><span data-stu-id="eb76e-135">Stop payment for a postdated check</span></span></td>
+  <td><span data-ttu-id="eb76e-136">È possibile bloccare il pagamento di un assegno postdatato emesso a un fornitore per diversi motivi quali, ad esempio, copertura insufficiente, modifica delle condizioni del contratto con il fornitore, fornitura di merci difettose da parte del fornitore o merce resa al fornitore.</span><span class="sxs-lookup"><span data-stu-id="eb76e-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="eb76e-137">È possibile bloccare il pagamento solo degli assegni che non sono stati annullati.</span><span class="sxs-lookup"><span data-stu-id="eb76e-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

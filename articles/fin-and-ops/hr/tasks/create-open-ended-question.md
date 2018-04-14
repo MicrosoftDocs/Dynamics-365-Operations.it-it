@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: f1a631a6db20d86551e58a624217de433c47904a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 317f361cbd7d63a1017cfa085afee80a5c67e0eb
 ms.contentlocale: it-it
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-an-open-ended-question"></a><span data-ttu-id="1ed31-103">Creare una domanda aperta</span><span class="sxs-lookup"><span data-stu-id="1ed31-103">Create an open-ended question</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1ed31-104">Le domande aperte consentono agli intervistati di fornire una risposta propria.</span><span class="sxs-lookup"><span data-stu-id="1ed31-104">Open-ended questions enable respondents to provide their own response.</span></span> <span data-ttu-id="1ed31-105">È possibile verificare se la risposta è un numero, un valore decimale, una data, un commento e così via.</span><span class="sxs-lookup"><span data-stu-id="1ed31-105">You can control whether that response is a number, decimal, date, comment and so on.</span></span> <span data-ttu-id="1ed31-106">Questa procedura descrive il processo di creare un tipo di domanda specifico, ovvero una domanda aperta.</span><span class="sxs-lookup"><span data-stu-id="1ed31-106">This procedure walks through the process of creating a specific type of question, an open-ended question.</span></span> <span data-ttu-id="1ed31-107">Per iniziare questa procedura, andare a Questionario > Progettazione > Domande.</span><span class="sxs-lookup"><span data-stu-id="1ed31-107">To begin this procedure, go to Questionnaire > Design > Questions.</span></span> <span data-ttu-id="1ed31-108">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="1ed31-108">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="c7580-104">Nuove guide attività (febbraio 2016)</span><span class="sxs-lookup"><span data-stu-id="c7580-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c7580-105">In questo argomento sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.</span><span class="sxs-lookup"><span data-stu-id="c7580-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="c7580-106">Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics AX e la libreria di introduzione (febbraio 2016).</span><span class="sxs-lookup"><span data-stu-id="c7580-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-124">Impostare la convalida dell'abbinamento fatture della contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="c7580-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="c7580-125">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-125">Global</span></span>             |
 | <span data-ttu-id="c7580-126">Imposta criteri fatture fornitore</span><span class="sxs-lookup"><span data-stu-id="c7580-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="c7580-127">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="c7580-128">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="c7580-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-153">Esaminare le informazioni sulla riscossione</span><span class="sxs-lookup"><span data-stu-id="c7580-153">Review collections information</span></span>                              | <span data-ttu-id="c7580-154">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-154">Global</span></span>             |
 | <span data-ttu-id="c7580-155">Impostare e generare le informazioni di aging della contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="c7580-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="c7580-156">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="c7580-157">Gestione cassa e banche</span><span class="sxs-lookup"><span data-stu-id="c7580-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-196">Liquidare un assegno postdatato di un cliente</span><span class="sxs-lookup"><span data-stu-id="c7580-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="c7580-197">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-197">Global</span></span>             |
 | <span data-ttu-id="c7580-198">Panoramica pagamento fornitore</span><span class="sxs-lookup"><span data-stu-id="c7580-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="c7580-199">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="c7580-200">Conformità</span><span class="sxs-lookup"><span data-stu-id="c7580-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-201">**Riga BPM**</span><span class="sxs-lookup"><span data-stu-id="c7580-201">**BPM Line**</span></span>                               | <span data-ttu-id="c7580-202">**Paese**</span><span class="sxs-lookup"><span data-stu-id="c7580-202">**Country/Region**</span></span> |
 | <span data-ttu-id="c7580-203">Definire i criteri di controllo per i documenti di origine</span><span class="sxs-lookup"><span data-stu-id="c7580-203">Define audit policies for source documents</span></span> | <span data-ttu-id="c7580-204">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="c7580-205">Gestione costi</span><span class="sxs-lookup"><span data-stu-id="c7580-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-214">Visualizzare lo stato WIP corrente su un ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="c7580-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="c7580-215">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-215">Global</span></span>             |
 | <span data-ttu-id="c7580-216">Visualizzare il rendiconto magazzino e gli indicatori KPI per oggetto di costo</span><span class="sxs-lookup"><span data-stu-id="c7580-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="c7580-217">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="c7580-218">Funzionalità paese</span><span class="sxs-lookup"><span data-stu-id="c7580-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-485">GB-00009 - Crea una nota di accredito nello sconto per la liquidazione</span><span class="sxs-lookup"><span data-stu-id="c7580-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="c7580-486">Regno Unito</span><span class="sxs-lookup"><span data-stu-id="c7580-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="c7580-487">GB-00009 - Impostare i parametri per la nota di accredito su sconto per pagamento tempestivo</span><span class="sxs-lookup"><span data-stu-id="c7580-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="c7580-488">Regno Unito</span><span class="sxs-lookup"><span data-stu-id="c7580-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="c7580-489">Sviluppare la visione e la strategia</span><span class="sxs-lookup"><span data-stu-id="c7580-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-498">Fare una domanda in base alla risposta della domanda precedente (domande condizionali)</span><span class="sxs-lookup"><span data-stu-id="c7580-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="c7580-499">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-499">Global</span></span>             |
 | <span data-ttu-id="c7580-500">Valutare un questionario in base alle percentuali</span><span class="sxs-lookup"><span data-stu-id="c7580-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="c7580-501">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="c7580-502">Creazione di report elettronici</span><span class="sxs-lookup"><span data-stu-id="c7580-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-511">RE Mappar ei modello dati alle origini dati selezionate</span><span class="sxs-lookup"><span data-stu-id="c7580-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="c7580-512">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-512">Global</span></span>             |
 | <span data-ttu-id="c7580-513">RE Selezionare il provider di servizi</span><span class="sxs-lookup"><span data-stu-id="c7580-513">ER Select service provider</span></span>                      | <span data-ttu-id="c7580-514">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="c7580-515">Gestione spese</span><span class="sxs-lookup"><span data-stu-id="c7580-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-516">**Riga BPM**</span><span class="sxs-lookup"><span data-stu-id="c7580-516">**BPM Line**</span></span>                 | <span data-ttu-id="c7580-517">**Paese**</span><span class="sxs-lookup"><span data-stu-id="c7580-517">**Country/Region**</span></span> |
 | <span data-ttu-id="c7580-518">Configurare la gestione delle spese</span><span class="sxs-lookup"><span data-stu-id="c7580-518">Configure expense management</span></span> | <span data-ttu-id="c7580-519">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="c7580-520">Cespiti</span><span class="sxs-lookup"><span data-stu-id="c7580-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-549">Dividere un cespite</span><span class="sxs-lookup"><span data-stu-id="c7580-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="c7580-550">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-550">Global</span></span>             |
 | <span data-ttu-id="c7580-551">Trasferire un cespite</span><span class="sxs-lookup"><span data-stu-id="c7580-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="c7580-552">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="c7580-553">Contabilità generale</span><span class="sxs-lookup"><span data-stu-id="c7580-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-602">Visualizza gli inserimenti nel giornale di registrazione o le transazioni</span><span class="sxs-lookup"><span data-stu-id="c7580-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="c7580-603">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-603">Global</span></span>             |
 | <span data-ttu-id="c7580-604">Visualizza il giustificativo interaziendale correlato del giornale di registrazione</span><span class="sxs-lookup"><span data-stu-id="c7580-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="c7580-605">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="c7580-606">Gestione risorse umane</span><span class="sxs-lookup"><span data-stu-id="c7580-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-677">Impostazione criteri di idoneità al benefit</span><span class="sxs-lookup"><span data-stu-id="c7580-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="c7580-678">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-678">Global</span></span>             |
 | <span data-ttu-id="c7580-679">Impostazione dei tipi di documenti i9</span><span class="sxs-lookup"><span data-stu-id="c7580-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="c7580-680">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="c7580-681">Gestione inventario</span><span class="sxs-lookup"><span data-stu-id="c7580-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-712">Tracciare un articolo o la materia prima</span><span class="sxs-lookup"><span data-stu-id="c7580-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="c7580-713">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-713">Global</span></span>             |
 | <span data-ttu-id="c7580-714">Trasferire l'inventario fisico all'interno del magazzino</span><span class="sxs-lookup"><span data-stu-id="c7580-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="c7580-715">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="c7580-716">Produzione</span><span class="sxs-lookup"><span data-stu-id="c7580-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-803">Trasferire il materiale con processi kanban</span><span class="sxs-lookup"><span data-stu-id="c7580-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="c7580-804">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-804">Global</span></span>             |
 | <span data-ttu-id="c7580-805">Convalida flusso di produzione e versione</span><span class="sxs-lookup"><span data-stu-id="c7580-805">Validate production flow and version</span></span>                          | <span data-ttu-id="c7580-806">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="c7580-807">Pianificazione generale</span><span class="sxs-lookup"><span data-stu-id="c7580-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-816">Identificare materiali critici e capacità dei fornitori</span><span class="sxs-lookup"><span data-stu-id="c7580-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="c7580-817">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-817">Global</span></span>             |
 | <span data-ttu-id="c7580-818">Modificare una previsione della domanda manualmente</span><span class="sxs-lookup"><span data-stu-id="c7580-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="c7580-819">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="c7580-820">Amministrazione organizzazione</span><span class="sxs-lookup"><span data-stu-id="c7580-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-831">Impostare le firme elettroniche</span><span class="sxs-lookup"><span data-stu-id="c7580-831">Set up electronic signatures</span></span>              | <span data-ttu-id="c7580-832">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-832">Global</span></span>             |
 | <span data-ttu-id="c7580-833">Impostazione guidata sequenze numeriche</span><span class="sxs-lookup"><span data-stu-id="c7580-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="c7580-834">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="c7580-835">Pianificazione</span><span class="sxs-lookup"><span data-stu-id="c7580-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-836">**Riga BPM**</span><span class="sxs-lookup"><span data-stu-id="c7580-836">**BPM Line**</span></span>           | <span data-ttu-id="c7580-837">**Paese**</span><span class="sxs-lookup"><span data-stu-id="c7580-837">**Country/Region**</span></span> |
 | <span data-ttu-id="c7580-838">Determinare la disponibilità</span><span class="sxs-lookup"><span data-stu-id="c7580-838">Determine availability</span></span> | <span data-ttu-id="c7580-839">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="c7580-840">Approvvigionamento</span><span class="sxs-lookup"><span data-stu-id="c7580-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-853">Ricerca di fornitori</span><span class="sxs-lookup"><span data-stu-id="c7580-853">Search for vendors</span></span>                                               | <span data-ttu-id="c7580-854">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-854">Global</span></span>             |
 | <span data-ttu-id="c7580-855">Impostare una gerarchia di categorie di approvvigionamento</span><span class="sxs-lookup"><span data-stu-id="c7580-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="c7580-856">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="c7580-857">Informazioni e configurazione prodotti</span><span class="sxs-lookup"><span data-stu-id="c7580-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-892">Rilasciare una ..\financial-dimensions\rappresentazione generale prodotto basata su dimensioni</span><span class="sxs-lookup"><span data-stu-id="c7580-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="c7580-893">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-893">Global</span></span>             |
 | <span data-ttu-id="c7580-894">Trasferire i dati per i modelli prodotto</span><span class="sxs-lookup"><span data-stu-id="c7580-894">Transfer data for product models</span></span>                      | <span data-ttu-id="c7580-895">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="c7580-896">Settore pubblico</span><span class="sxs-lookup"><span data-stu-id="c7580-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-931">Impostare un fondo per il settore pubblico</span><span class="sxs-lookup"><span data-stu-id="c7580-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="c7580-932">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-932">Global</span></span>             |
 | <span data-ttu-id="c7580-933">Imposta le classificazioni dei contratti di acquisto per il settore pubblico</span><span class="sxs-lookup"><span data-stu-id="c7580-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="c7580-934">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="c7580-935">Vendita al dettaglio e commercio</span><span class="sxs-lookup"><span data-stu-id="c7580-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-1002">Rettifiche prezzi per vendita al dettaglio</span><span class="sxs-lookup"><span data-stu-id="c7580-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="c7580-1003">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1003">Global</span></span>             |
 | <span data-ttu-id="c7580-1004">Configurazioni dei punti vendita per rendiconti di vendita al dettaglio</span><span class="sxs-lookup"><span data-stu-id="c7580-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="c7580-1005">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="c7580-1006">Vendite</span><span class="sxs-lookup"><span data-stu-id="c7580-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-1035">Spedire ordini come consegne dirette</span><span class="sxs-lookup"><span data-stu-id="c7580-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="c7580-1036">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1036">Global</span></span>             |
 | <span data-ttu-id="c7580-1037">Spedire gli ordini cliente senza immagazzinaggio</span><span class="sxs-lookup"><span data-stu-id="c7580-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="c7580-1038">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="c7580-1039">IVA</span><span class="sxs-lookup"><span data-stu-id="c7580-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-1060">Impostare le ritenuta</span><span class="sxs-lookup"><span data-stu-id="c7580-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="c7580-1061">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1061">Global</span></span>             |
 | <span data-ttu-id="c7580-1062">Visualizza transazioni IVA registrate</span><span class="sxs-lookup"><span data-stu-id="c7580-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="c7580-1063">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="c7580-1064">Sicurezza</span><span class="sxs-lookup"><span data-stu-id="c7580-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-1069">Identificare e risolvere conflitti di separazione dei compiti</span><span class="sxs-lookup"><span data-stu-id="c7580-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="c7580-1070">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1070">Global</span></span>             |
 | <span data-ttu-id="c7580-1071">Impostare la separazione dei compiti</span><span class="sxs-lookup"><span data-stu-id="c7580-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="c7580-1072">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="c7580-1073">Magazzino e trasporto</span><span class="sxs-lookup"><span data-stu-id="c7580-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c7580-1106">Impostare vettori di spedizione</span><span class="sxs-lookup"><span data-stu-id="c7580-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="c7580-1107">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1107">Global</span></span>             |
 | <span data-ttu-id="c7580-1108">Utilizzare la workstation di pianificazione del carico per pianificare i carichi e le spedizioni</span><span class="sxs-lookup"><span data-stu-id="c7580-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="c7580-1109">Globali</span><span class="sxs-lookup"><span data-stu-id="c7580-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="c7580-1110">Guide attività nella libreria di introduzione (febbraio 2016)</span><span class="sxs-lookup"><span data-stu-id="c7580-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="c7580-1111">**Riga BPM**</span><span class="sxs-lookup"><span data-stu-id="c7580-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="c7580-1112">**Paese**</span><span class="sxs-lookup"><span data-stu-id="c7580-1112">**Country/Region**</span></span> |

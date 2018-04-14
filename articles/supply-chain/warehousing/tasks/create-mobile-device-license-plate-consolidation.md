@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7b8d20561ff092bd64c17c5d9335e9f54a1d191b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4d7e1115d8a53a6667768dd5da1dc0cffded61cd
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a><span data-ttu-id="d8d58-103">Creare una voce di menu del dispositivo mobile per il consolidamento delle targhe</span><span class="sxs-lookup"><span data-stu-id="d8d58-103">Create a mobile device menu item for license plate consolidation</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d8d58-104">In questa procedura viene illustrato come creare una voce di menu del dispositivo mobile per il lavoro di consolidamento targhe.</span><span class="sxs-lookup"><span data-stu-id="d8d58-104">This procedure shows you how to create a mobile device menu item for license plate consolidation work.</span></span> <span data-ttu-id="d8d58-105">Questo consente agli addetti del magazzino di consolidare articoli in una targa con articoli in un'altra targa nella stessa ubicazione.</span><span class="sxs-lookup"><span data-stu-id="d8d58-105">This enables warehouse workers to consolidate items on one license plate with items on another license place within the same location.</span></span> <span data-ttu-id="d8d58-106">Ad esempio, potrebbero utilizzare questa funzione se i passaggi di gestione temporanea successivi fossero gli stessi su entrambi gli ordini di lavoro, in modo che il lavoro deve essere eseguito una sola volta per gli articoli uniti.</span><span class="sxs-lookup"><span data-stu-id="d8d58-106">For example, they might use this if subsequent staging steps were the same on both work orders, so that the work only needs to be performed once for the merged items.</span></span> <span data-ttu-id="d8d58-107">È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="d8d58-107">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="d8d58-108">Questa attività viene in genere svolta da un responsabile del magazzino.</span><span class="sxs-lookup"><span data-stu-id="d8d58-108">The task would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="d8d58-109">Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations, versione 1611.</span><span class="sxs-lookup"><span data-stu-id="d8d58-109">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

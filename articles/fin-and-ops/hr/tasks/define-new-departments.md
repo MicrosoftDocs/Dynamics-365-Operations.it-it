@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: b867d787e38ebc4dd543e2615e3c121bdc13269a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ccd1714d5ac594e04eea65d997fe198bdae32a86
 ms.contentlocale: it-it
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-new-departments"></a><span data-ttu-id="a7287-103">Definire nuovi reparti</span><span class="sxs-lookup"><span data-stu-id="a7287-103">Define new departments</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a7287-104">I reparti sono unità operative che rappresentano un'area funzionale di un'azienda, ad esempio vendite o contabilità.</span><span class="sxs-lookup"><span data-stu-id="a7287-104">Departments are operating units that represent a functional area of a business, such as sales or accounting.</span></span> <span data-ttu-id="a7287-105">Molte società hanno gerarchie organizzative che includono diversi reparti all'interno di un'azienda.</span><span class="sxs-lookup"><span data-stu-id="a7287-105">Many companies have organizational hierarchies that display the various departments within a business.</span></span> <span data-ttu-id="a7287-106">In questa procedura vengono descritti i passaggi per creare i reparti e aggiungere tali reparti a una gerarchia di reparti delle organizzazioni.</span><span class="sxs-lookup"><span data-stu-id="a7287-106">This procedure walks through the process of creating departments, and adding those departments to an organizations departmental hierarchy.</span></span> <span data-ttu-id="a7287-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="a7287-107">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="71f1d-104">Pubblicare documenti e righe di giornale di registrazione da Excel</span><span class="sxs-lookup"><span data-stu-id="71f1d-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="71f1d-105">In questo argomento viene descritto come immettere e pubblicare righe dei giornali di registrazione generale da Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="71f1d-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="71f1d-106">Sono riportate informazioni sui diversi modelli che è possibile utilizzare, a seconda del tipo di transazioni che si sta immettendo.</span><span class="sxs-lookup"><span data-stu-id="71f1d-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="71f1d-107">Gli utenti possono immettere e pubblicare righe per i giornali di registrazione finanziari da Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="71f1d-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="71f1d-108">Dopo che un utente ha creato un giornale di registrazione, il pulsante **Apri righe in Excel** visualizza i modelli disponibili.</span><span class="sxs-lookup"><span data-stu-id="71f1d-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="71f1d-109">I modelli sono progettati per supportare scenari specifici, tuttavia non tutte le combinazioni di tipo di conto sono supportate nel giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="71f1d-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="71f1d-110">La tabella seguente mostra i modelli disponibili e i tipi di conto supportati.</span><span class="sxs-lookup"><span data-stu-id="71f1d-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="71f1d-111">**Modello**</span><span class="sxs-lookup"><span data-stu-id="71f1d-111">**Template**</span></span>             | <span data-ttu-id="71f1d-112">**Tipi di conto supportati**</span><span class="sxs-lookup"><span data-stu-id="71f1d-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="71f1d-113">**Come accedere al modello**</span><span class="sxs-lookup"><span data-stu-id="71f1d-113">**How to access the template**</span></span>                                                          |

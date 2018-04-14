@@ -16,15 +16,15 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 87e293008fd748aa0dcc6b3caa94a4889bed35de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ca7c0f46f0cab298580e37c236bd10e4325e011b
 ms.contentlocale: it-it
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-free-text-invoice"></a><span data-ttu-id="8342f-103">Crea una fattura a testo libero</span><span class="sxs-lookup"><span data-stu-id="8342f-103">Create a free text invoice</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8342f-104">Questa guida attività dimostra la generazione di una fattura a testo libero.</span><span class="sxs-lookup"><span data-stu-id="8342f-104">This task guide demonstrates creating a free text invoice.</span></span> <span data-ttu-id="8342f-105">In questa attività viene utilizzata la società dimostrativa USMF.</span><span class="sxs-lookup"><span data-stu-id="8342f-105">This task uses the USMF demo company.</span></span>
 

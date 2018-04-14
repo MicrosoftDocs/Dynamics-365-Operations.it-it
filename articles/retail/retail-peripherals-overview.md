@@ -19,17 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3e9835af4b931ee07dd0df48c11bb916eb70f4f3
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="retail-peripherals-overview"></a><span data-ttu-id="924f7-103">Panoramica delle periferiche di vendita al dettaglio</span><span class="sxs-lookup"><span data-stu-id="924f7-103">Retail peripherals overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="924f7-104">In questo argomento vengono descritti i concetti correlati alle periferiche di vendita al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="924f7-104">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="924f7-105">Sono descritti i vari modi che le periferiche possono essere collegate al POS e i componenti responsabili della gestione della connessione al POS.</span><span class="sxs-lookup"><span data-stu-id="924f7-105">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 

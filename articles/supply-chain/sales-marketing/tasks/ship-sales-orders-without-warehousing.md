@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: a98e58b26432ee01e62d60f81a768f14568e34e4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0ad0869907b23ce5e0b44e3e9ecee3f2cd34ede
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="ship-sales-orders-without-warehousing"></a><span data-ttu-id="7b0c1-103">Spedire gli ordini cliente senza immagazzinaggio</span><span class="sxs-lookup"><span data-stu-id="7b0c1-103">Ship sales orders without warehousing</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7b0c1-104">La guida dimostra come aggiornare un ordine cliente quando i prodotti vengono spediti al cliente.</span><span class="sxs-lookup"><span data-stu-id="7b0c1-104">This guide demonstrates how to update a sales order when products are shipped to the customer.</span></span> <span data-ttu-id="7b0c1-105">La guida è applicabile al flusso di evasione non impostato per gestione magazzino (né immagazzinaggio di base né avanzato) e pertanto non richiede la registrazione del prelievo prodotto prima della spedizione.</span><span class="sxs-lookup"><span data-stu-id="7b0c1-105">The guide is applicable to the fulfillment flow that is not set up for warehouse management (neither basic or advanced warehousing), and therefore does not require product picking to be registered before shipment.</span></span> <span data-ttu-id="7b0c1-106">È possibile eseguire questa procedura sui propri dati o nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="7b0c1-106">You can run this procedure on your own data or in demo data company USMF.</span></span> <span data-ttu-id="7b0c1-107">In entrambi i casi, prima di iniziare questa attività, creare un ordine cliente per un prodotto inventariato con una quantità maggiore di 1.</span><span class="sxs-lookup"><span data-stu-id="7b0c1-107">In both cases, before you start this task, create a sales order for an inventoried product with a quantity of greater than 1.</span></span> <span data-ttu-id="7b0c1-108">Per evitare un errore di registrazione, è necessario verificare che la quantità disponibile del prodotto nel sito e nel magazzino selezionato nell'ordine copra la quantità dell'ordine.</span><span class="sxs-lookup"><span data-stu-id="7b0c1-108">To avoid a posting error, you need to check that the product's on-hand quantity in the site and warehouse that you’ve selected on the order covers the order quantity.</span></span>
 

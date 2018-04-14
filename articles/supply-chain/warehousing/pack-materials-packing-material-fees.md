@@ -20,17 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 46178d9da5464d8cb74b1d52142d6ad08a293349
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="packing-materials-and-fees"></a><span data-ttu-id="b9794-105">Materiali di imballaggio e addebiti</span><span class="sxs-lookup"><span data-stu-id="b9794-105">Packing materials and fees</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b9794-106">Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli.</span><span class="sxs-lookup"><span data-stu-id="b9794-106">Packing material fees are paid to a recycling company at certain intervals.</span></span> <span data-ttu-id="b9794-107">Per ciascun materiale di cui si compone un'unità di imballaggio viene pagato un importo per unità di peso.</span><span class="sxs-lookup"><span data-stu-id="b9794-107">An amount is paid, per unit of weight, for each material that a packing unit consists of.</span></span> <span data-ttu-id="b9794-108">Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario.</span><span class="sxs-lookup"><span data-stu-id="b9794-108">Packing material fees are calculated and reported, but no ledger transactions are posted because the fees are not regarded as taxes to be paid to an authority.</span></span>
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="print-packaging-material-weights-on-invoices"></a><span data-ttu-id="b9794-147">Stampare i pesi del materiale di imballaggio sulle fatture</span><span class="sxs-lookup"><span data-stu-id="b9794-147">Print packaging material weights on invoices</span></span>
 <span data-ttu-id="b9794-148">È possibile stampare i pesi del materiale di imballaggio sulla fattura e indicare a chi sono imputabili gli addebiti per tale materiale.</span><span class="sxs-lookup"><span data-stu-id="b9794-148">You can print the packaging material weights on the invoice, and indicate who pays the packaging material fees.</span></span> <span data-ttu-id="b9794-149">I pesi vengono riepilogati per codice di imballaggio.</span><span class="sxs-lookup"><span data-stu-id="b9794-149">The weights are summarized by packaging code.</span></span>
- 
+
 
 
 

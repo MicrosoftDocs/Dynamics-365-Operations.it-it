@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2376a1d6e86eba9f5021cc08dcfaea52f131a3d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c44beba51538184c062b53d643bda98de3d752b4
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="audit-policy-violations-and-cases"></a><span data-ttu-id="2a5f1-104">Casi e violazioni dei criteri di controllo</span><span class="sxs-lookup"><span data-stu-id="2a5f1-104">Audit policy violations and cases</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2a5f1-105">L'articolo illustra come i casi di controllo vengono generati dalle violazioni delle regole dei criteri di controllo.</span><span class="sxs-lookup"><span data-stu-id="2a5f1-105">The article explains how audit cases are generated from violations of audit policy rules.</span></span> <span data-ttu-id="2a5f1-106">Include inoltre le informazioni sulle varie modalità in cui i criteri di controllo utilizzano l'intervallo di date per la selezione dei documenti.</span><span class="sxs-lookup"><span data-stu-id="2a5f1-106">It also includes information about the various ways that audit policies use the document selection date range.</span></span>
 

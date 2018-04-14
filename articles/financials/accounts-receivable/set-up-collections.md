@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f35981396c782b530737adac8ad62d0ff4b0f77e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e5c96f16a2c6a4bc5213293e0dbaac3918a6e9c5
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-credit-and-collections"></a><span data-ttu-id="e16e6-103">Configurare crediti e riscossioni</span><span class="sxs-lookup"><span data-stu-id="e16e6-103">Set up Credit and collections</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e16e6-104">In questo articolo viene descritto come impostare le funzionalità di riscossione.</span><span class="sxs-lookup"><span data-stu-id="e16e6-104">This article explains how to set up the collections functionality.</span></span>
 
@@ -97,9 +96,9 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="e16e6-173">Per ulteriori informazioni, vedere i seguenti argomenti:</span><span class="sxs-lookup"><span data-stu-id="e16e6-173">For more information, see the following topics:</span></span>
 
  - [<span data-ttu-id="e16e6-174">Creare una sequenza di lettere di sollecito</span><span class="sxs-lookup"><span data-stu-id="e16e6-174">Create a collection letter sequence</span></span>](tasks/create-collection-letter-sequence.md)
- 
+
  - [<span data-ttu-id="e16e6-175">Elaborare lettere di sollecito</span><span class="sxs-lookup"><span data-stu-id="e16e6-175">Process collection letters</span></span>](tasks/process-collection-letters.md)
- 
+
  - [<span data-ttu-id="e16e6-176">Esaminare le informazioni sulla riscossione</span><span class="sxs-lookup"><span data-stu-id="e16e6-176">Review collections information</span></span>](tasks/review-collections-information.md)
 
 

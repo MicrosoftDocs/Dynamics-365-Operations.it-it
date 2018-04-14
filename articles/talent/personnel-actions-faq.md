@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
 ms.contentlocale: it-it
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="a2162-104">Azioni dipendente [Domande frequenti]</span><span class="sxs-lookup"><span data-stu-id="a2162-104">Personnel actions [FAQ]</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="a2162-105">In questo argomento vi sono risposte alle domande che potrebbe essere poste se l'organizzazione utilizza le azioni dipendente.</span><span class="sxs-lookup"><span data-stu-id="a2162-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="a2162-106">Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale.</span><span class="sxs-lookup"><span data-stu-id="a2162-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="a2162-107">Esempi di attività che potrebbero richiedere azioni dipendente quando si creano nuove posizioni, si modificano valori di posizione esistenti, si assumono nuovi lavoratori, si trasferiscono lavoratori, si modifica la retribuzione lavoratore, si modificano assegnazioni di posizione o si termina un rapporto con i lavoratori.</span><span class="sxs-lookup"><span data-stu-id="a2162-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/08/2018
 <span data-ttu-id="a2162-140">Se una richiesta di azione dipendente ha esito negativo, eseguire i passaggi indicati di seguito per risolvere l'errore e per inviare di nuovo la richiesta:</span><span class="sxs-lookup"><span data-stu-id="a2162-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
 > 1. <span data-ttu-id="a2162-141">Nel **Riquadro azioni** fare clic sul pulsante **Testo errore** per visualizzare il testo del messaggio che descrive il problema.</span><span class="sxs-lookup"><span data-stu-id="a2162-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
-
+> 
 > 2. <span data-ttu-id="a2162-142">Nel **Riquadro azioni** fare clic su **Riattiva** per caricare le informazioni più recenti e per impostare lo stato dell'azione dipendente di nuovo su **Bozza**.</span><span class="sxs-lookup"><span data-stu-id="a2162-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
-
+> 
 > 3. <span data-ttu-id="a2162-143">Risolvere l'errore e quindi fare clic su **Completo** o **Invia**.</span><span class="sxs-lookup"><span data-stu-id="a2162-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="a2162-144">Cosa succede a un'azione dipendente che utilizza il flusso di lavoro quando l'approvazione finale è completata?</span><span class="sxs-lookup"><span data-stu-id="a2162-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>

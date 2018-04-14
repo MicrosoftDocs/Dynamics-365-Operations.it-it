@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
-ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d2177ddaff8ff6dcef106a008842149c381c00db
 ms.contentlocale: it-it
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a><span data-ttu-id="ea6fa-103">Impostare un magazzino utilizzando un modello di configurazione magazzino</span><span class="sxs-lookup"><span data-stu-id="ea6fa-103">Set up a warehouse by using a warehouse configuration template</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ea6fa-104">In questo argomento viene illustrato come impostare un magazzino utilizzando un modello di configurazione magazzino.</span><span class="sxs-lookup"><span data-stu-id="ea6fa-104">This topic explains how to set up a warehouse by using a warehouse configuration template.</span></span> <span data-ttu-id="ea6fa-105">Esistono vari modelli di configurazione predefiniti da utilizzare.</span><span class="sxs-lookup"><span data-stu-id="ea6fa-105">There are several predefined configuration templates that you can use.</span></span> <span data-ttu-id="ea6fa-106">Per informazioni su come utilizzare tali modelli, vedere [Modelli di dati di configurazione](../../dev-itpro/data-entities/configuration-data-templates.md).</span><span class="sxs-lookup"><span data-stu-id="ea6fa-106">For information about how to use these templates, see [Configuration data templates](../../dev-itpro/data-entities/configuration-data-templates.md).</span></span>
 

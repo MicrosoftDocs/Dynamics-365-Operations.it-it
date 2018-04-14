@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf9d0a6ab0fcf7d6f5a31813d68f0bd452ce1019
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3ec6928265dca5f80d6e278a05975ec9c16a7cca
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="year-end-close"></a><span data-ttu-id="75c25-103">Chiusura di fine anno</span><span class="sxs-lookup"><span data-stu-id="75c25-103">Year-end close</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="75c25-104">In questo argomento viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="75c25-104">This topic describes the required setup and steps for running the general ledger year-end close process.</span></span> 
 
@@ -82,7 +81,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="75c25-182">Immettere un numero di giustificativo, che può essere o meno obbligatorio, in base all'impostazione dei parametri di contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="75c25-182">Enter a voucher number, which or may not be required, depending on the setup in General ledger parameters.</span></span> <span data-ttu-id="75c25-183">Lo stesso numero di giustificativo verrà utilizzato per tutte le persone giuridiche selezionate per la chiusura di fine anno.</span><span class="sxs-lookup"><span data-stu-id="75c25-183">The same voucher number will be used for all the legal entities selected for the year end close process.</span></span> <span data-ttu-id="75c25-184">Il numero di giustificativo non viene generato usando una sequenza numerica.</span><span class="sxs-lookup"><span data-stu-id="75c25-184">The voucher number is not generated using a number sequence.</span></span> <span data-ttu-id="75c25-185">È consigliabile immettere un numero di giustificativo, anche se non è obbligatorio.</span><span class="sxs-lookup"><span data-stu-id="75c25-185">It’s a best practice to enter a voucher number, even if it’s not required.</span></span> <span data-ttu-id="75c25-186">Se si inserisce un numero di giustificativo si facilita la ricerca della transazione di apertura del nuovo anno fiscale.</span><span class="sxs-lookup"><span data-stu-id="75c25-186">Entering a voucher number makes it easier to find the Opening transaction in the new fiscal year.</span></span> <span data-ttu-id="75c25-187">Se un numero di giustificativo non viene immesso, il giustificativo è vuoto per la transazione di apertura.</span><span class="sxs-lookup"><span data-stu-id="75c25-187">If a voucher number isn’t entered, the voucher will be blank for the Opening transaction.</span></span> 
 
-<span data-ttu-id="75c25-188">Se desidera stornare una chiusura di fine anno precedente per l'anno fiscale selezionato, impostare **Annulla chiusura precedente** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="75c25-188">If you would like to reverse a previous year end close for the selected fiscal year, set **Undo previous close** to **Yes**.</span></span> <span data-ttu-id="75c25-189">La chiusura di fine anno verrà stornata, ma il processo può essere rieseguito in qualsiasi momento.</span><span class="sxs-lookup"><span data-stu-id="75c25-189">The year-end close will be reversed, but the process can be rerun at any time.</span></span> <span data-ttu-id="75c25-190">Se si storna una chiusura di fine anno, la **Data dell'ultima chiusura di fine anno*** non sarà disponibile.</span><span class="sxs-lookup"><span data-stu-id="75c25-190">If you reverse a year-end close, the **Date of last year end close** will be unavailable.</span></span> 
+<span data-ttu-id="75c25-188">Se desidera stornare una chiusura di fine anno precedente per l'anno fiscale selezionato, impostare **Annulla chiusura precedente** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="75c25-188">If you would like to reverse a previous year end close for the selected fiscal year, set **Undo previous close** to **Yes**.</span></span> <span data-ttu-id="75c25-189">La chiusura di fine anno verrà stornata, ma il processo può essere rieseguito in qualsiasi momento.</span><span class="sxs-lookup"><span data-stu-id="75c25-189">The year-end close will be reversed, but the process can be rerun at any time.</span></span> <span data-ttu-id="75c25-190">Se si storna una chiusura di fine anno, la **Data dell'ultima chiusura di fine anno**\* non sarà disponibile.</span><span class="sxs-lookup"><span data-stu-id="75c25-190">If you reverse a year-end close, the **Date of last year end close** will be unavailable.</span></span> 
 
 <span data-ttu-id="75c25-191">La chiusura di fine anno viene eseguita in modalità batch per impostazione predefinita.</span><span class="sxs-lookup"><span data-stu-id="75c25-191">The year-end close process defaults to run in batch mode.</span></span> <span data-ttu-id="75c25-192">È consigliabile eseguire il processo in modalità batch, per consentire all'utente di tornare ad altre attività.</span><span class="sxs-lookup"><span data-stu-id="75c25-192">It’s a best practice to run the process in batch mode, to allow the user to return to other activities.</span></span> <span data-ttu-id="75c25-193">Il campo **Data dell'ultima chiusura di fine anno** verrà aggiornato con la data della sessione al completamento del processo di chiusura di fine anno.</span><span class="sxs-lookup"><span data-stu-id="75c25-193">After the year end close process is complete, the **Date of last year end close** will be updated with the session date.</span></span>
 

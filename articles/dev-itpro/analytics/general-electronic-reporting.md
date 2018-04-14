@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeea5f6f9860bf109bb3063c5a2cc0517192e95d
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a><span data-ttu-id="d2fb5-104">Panoramica dei report elettronici</span><span class="sxs-lookup"><span data-stu-id="d2fb5-104">Electronic reporting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d2fb5-105">Viene fornita una panoramica dello strumento di creazione di report elettronici.</span><span class="sxs-lookup"><span data-stu-id="d2fb5-105">This topic provides an overview of the Electronic reporting (ER) tool.</span></span> <span data-ttu-id="d2fb5-106">Sono incluse le informazioni sui concetti chiave e sugli scenari supportati da ER, oltre a un elenco di formati progettati e rilasciati come parte della soluzione.</span><span class="sxs-lookup"><span data-stu-id="d2fb5-106">It includes information about key concepts, the scenarios that ER supports, and a list of formats that have been designed and released as part of the solution.</span></span>
 
@@ -287,6 +286,7 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="d2fb5-344">ER consente di adottare automaticamente le modifiche alla versione più recente del componente di base nella versione bozza corrente del componente derivato.</span><span class="sxs-lookup"><span data-stu-id="d2fb5-344">ER lets you automatically adopt changes of the latest version of the base component in the current draft version of the derived component.</span></span> <span data-ttu-id="d2fb5-345">Questo processo è noto come *riassegnazione*.</span><span class="sxs-lookup"><span data-stu-id="d2fb5-345">This process is known as *rebasing*.</span></span> <span data-ttu-id="d2fb5-346">Ad esempio, le modifiche richieste da nuove normative introdotte nella versione più recente del componente di formato importato da LCS possono essere automaticamente unite nella versione personalizzata del formato del documento elettronico.</span><span class="sxs-lookup"><span data-stu-id="d2fb5-346">For example, a new regulatory change that has been introduced in the latest version of the format that was imported from LCS can be automatically merged into the customized version of this format of the electronic document.</span></span> <span data-ttu-id="d2fb5-347">Le modifiche che non possono essere unite automaticamente vengono considerate conflitti.</span><span class="sxs-lookup"><span data-stu-id="d2fb5-347">Any changes that can’t be merged automatically are considered conflicts.</span></span> <span data-ttu-id="d2fb5-348">Questi conflitti sono presentati per la risoluzione manuale nello strumento di progettazione per il componente appropriato.</span><span class="sxs-lookup"><span data-stu-id="d2fb5-348">These conflicts are presented for manual resolution in the designer tool for the appropriate component.</span></span> <span data-ttu-id="d2fb5-349">Per familiarizzare con i dettagli di questo scenario, eseguire la guida attività **Aggiornare con ER il formato tramite l'adozione di una nuova versione di base dello stesso formato** (parte del processo aziendale **7.5.5.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10683)**).</span><span class="sxs-lookup"><span data-stu-id="d2fb5-349">To become familiar with the details of this scenario, play the **ER Upgrade format by adoption of new base version of that format** task guide (part of the **7.5.5.3 Acquire/Develop changed IT service/solution component (10683)** business process).</span></span>
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a><span data-ttu-id="d2fb5-350">Elenco delle configurazioni ER fornite nella soluzione Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="d2fb5-350">List of ER configurations that are delivered in the Finance and Operations solution</span></span>
+
 | <span data-ttu-id="d2fb5-351">Configurazioni modello dati specifiche di dominio: titolo</span><span class="sxs-lookup"><span data-stu-id="d2fb5-351">Domain-specific data model configurations: Title</span></span> | <span data-ttu-id="d2fb5-352">Dominio</span><span class="sxs-lookup"><span data-stu-id="d2fb5-352">Domain</span></span>                | <span data-ttu-id="d2fb5-353">Configurazioni formato dipendenti da modello dati: titolo</span><span class="sxs-lookup"><span data-stu-id="d2fb5-353">Data model–dependent format configurations: Title</span></span> | <span data-ttu-id="d2fb5-354">Descrizione</span><span class="sxs-lookup"><span data-stu-id="d2fb5-354">Description</span></span>                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | <span data-ttu-id="d2fb5-355">Modello file di controllo</span><span class="sxs-lookup"><span data-stu-id="d2fb5-355">Audit file model</span></span>                                 | <span data-ttu-id="d2fb5-356">Revisione contabile</span><span class="sxs-lookup"><span data-stu-id="d2fb5-356">Financial audit</span></span>       |                                                   |                                                                    |

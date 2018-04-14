@@ -20,17 +20,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f68400bf10b6235decc7ac5cb82e58b369c7c0c7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 34039b298e8994e50a7c06ef034698e8c1264389
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="define-channel-specific-discounts"></a><span data-ttu-id="c3bd3-104">Definire gli sconti specifici del canale</span><span class="sxs-lookup"><span data-stu-id="c3bd3-104">Define channel-specific discounts</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="c3bd3-105">I rivenditori fissano spesso sconti diversi in canali diversi.</span><span class="sxs-lookup"><span data-stu-id="c3bd3-105">Retailers often set different discounts in different channels.</span></span> <span data-ttu-id="c3bd3-106">In questo argomento vengono esaminati i concetti che è necessario conoscere per creare uno sconto per un canale specifico.</span><span class="sxs-lookup"><span data-stu-id="c3bd3-106">This topic reviews the concepts you need to know to create a discount for a specific channel.</span></span> 
 
@@ -61,7 +60,7 @@ ms.lasthandoff: 11/03/2017
 4.  <span data-ttu-id="c3bd3-133">Dopo aver creato il nuovo sconto **Di nuovo a scuola**, è necessario fare clic su **Gruppi prezzi** nella parte superiore della pagina **Sconto**.</span><span class="sxs-lookup"><span data-stu-id="c3bd3-133">After you create the new **Back-to-School** discount, you need to click **Price groups** on the top of the **Discount** page.</span></span> <span data-ttu-id="c3bd3-134">Si apre la pagina **Gruppi di prezzo scontati**.</span><span class="sxs-lookup"><span data-stu-id="c3bd3-134">The **Discount price groups** page will open.</span></span> <span data-ttu-id="c3bd3-135">Dopodiché, fare clic su **Nuovo** e selezionare il gruppo di prezzi **Houston-PG**.</span><span class="sxs-lookup"><span data-stu-id="c3bd3-135">Next, click **New** and select the **Houston-PG** price group.</span></span>
 5.  <span data-ttu-id="c3bd3-136">Ora è possibile attivare lo sconto e spingerlo nel canale.</span><span class="sxs-lookup"><span data-stu-id="c3bd3-136">Now you can enable the discount and push it to the channel.</span></span>
 
- 
+
 
 <a name="see-also"></a><span data-ttu-id="c3bd3-137">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="c3bd3-137">See also</span></span>
 --------

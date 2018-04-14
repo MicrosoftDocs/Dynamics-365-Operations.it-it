@@ -18,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: feb88b88ad9cb65b8404ad68a25993bea9f41cdf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4cf02c5362be209d792ecd0d75321fdf724840e
 ms.contentlocale: it-it
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="competence-date-for-transactions"></a><span data-ttu-id="db7bb-103">Data di competenza per le transazioni</span><span class="sxs-lookup"><span data-stu-id="db7bb-103">Competence date for transactions</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="db7bb-104">In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia.</span><span class="sxs-lookup"><span data-stu-id="db7bb-104">This topic provides information about the competence date and explains how to enable the functionality for transactions in Italy.</span></span>
 

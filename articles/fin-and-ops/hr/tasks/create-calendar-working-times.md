@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 97751310cee3441d80d57860bc90490cf5708de2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a8dcef8d8ba6f6d41a997b5b0623cb9577ce00d3
 ms.contentlocale: it-it
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a><span data-ttu-id="0a47c-103">Creare un calendario e generare orari di lavoro</span><span class="sxs-lookup"><span data-stu-id="0a47c-103">Create a calendar and generate working times</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0a47c-104">I calendari descrivono la capacità e gli orari di lavoro delle risorse operative.</span><span class="sxs-lookup"><span data-stu-id="0a47c-104">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="0a47c-105">Questa procedura consente di definire un calendario di lavoro in base a un modello di orario di lavoro.</span><span class="sxs-lookup"><span data-stu-id="0a47c-105">This procedure will help you define a work calendar based on a working time template.</span></span> <span data-ttu-id="0a47c-106">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.</span><span class="sxs-lookup"><span data-stu-id="0a47c-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 

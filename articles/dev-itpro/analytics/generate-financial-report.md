@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: it-it
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="d5efc-103">Genera un report finanziario</span><span class="sxs-lookup"><span data-stu-id="d5efc-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d5efc-104">In questo argomento sono riportate informazioni sulla generazione di un report finanziario.</span><span class="sxs-lookup"><span data-stu-id="d5efc-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="d5efc-115">Genera un report finanziario</span><span class="sxs-lookup"><span data-stu-id="d5efc-115">Generate a financial report</span></span>
 
 <span data-ttu-id="d5efc-116">Per generare un report finanziario con Microsoft Dynamics 365 for Finance and Operations, passare a **Contabilità generale** > **Richieste di informazioni e report** > **Report finanziari**.</span><span class="sxs-lookup"><span data-stu-id="d5efc-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="d5efc-117">Selezionare un report da generare e fate clic su **Genera**.</span><span class="sxs-lookup"><span data-stu-id="d5efc-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="d5efc-118">Compilare il campo **Data report** e fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="d5efc-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="d5efc-119">Dopo avere generato il report, questo sarà disponibile nella sezione **Report**.</span><span class="sxs-lookup"><span data-stu-id="d5efc-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="d5efc-120">È possibile selezionare **Visualizza** o **Elimina** per visualizzare o eliminare il report.</span><span class="sxs-lookup"><span data-stu-id="d5efc-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="d5efc-117">Selezionare un report da generare e fate clic su **Genera**.</span><span class="sxs-lookup"><span data-stu-id="d5efc-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="d5efc-118">Compilare il campo **Data report** e fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="d5efc-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="d5efc-119">Dopo avere generato il report, questo sarà disponibile nella sezione **Report**.</span><span class="sxs-lookup"><span data-stu-id="d5efc-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="d5efc-120">È possibile selezionare **Visualizza** o **Elimina** per visualizzare o eliminare il report.</span><span class="sxs-lookup"><span data-stu-id="d5efc-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="d5efc-121">Per generare un report utilizzando **Progettazione report**, aprire la definizione del report e quindi fare clic sul pulsante Genera nella barra degli strumenti.</span><span class="sxs-lookup"><span data-stu-id="d5efc-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="d5efc-122">La finestra Stato coda report si aprirà e indicherà l'ubicazione del report nella coda.</span><span class="sxs-lookup"><span data-stu-id="d5efc-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="d5efc-123">Per impostazione predefinita, il report generato viene aperto nel Visualizzatore web.</span><span class="sxs-lookup"><span data-stu-id="d5efc-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="d5efc-237">Aprire la definizione di report selezionata</span><span class="sxs-lookup"><span data-stu-id="d5efc-237">Open the selected report definition</span></span>  | <span data-ttu-id="d5efc-238">Ctrl+R</span><span class="sxs-lookup"><span data-stu-id="d5efc-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="d5efc-239">Aprire la definizione di riga selezionata</span><span class="sxs-lookup"><span data-stu-id="d5efc-239">Open the selected row definition</span></span>     | <span data-ttu-id="d5efc-240">Ctrl+O</span><span class="sxs-lookup"><span data-stu-id="d5efc-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="d5efc-241">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="d5efc-241">See also</span></span>
 --------
 

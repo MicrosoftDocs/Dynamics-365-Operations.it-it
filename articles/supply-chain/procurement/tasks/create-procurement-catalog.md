@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: df844ba3834972441daa61899294b3e95cac96c1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 66c0f41e1c98cf84b6a0afff5ee55e7c15fecd2d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-procurement-catalog"></a><span data-ttu-id="e10a3-103">Creare un catalogo di approvvigionamento</span><span class="sxs-lookup"><span data-stu-id="e10a3-103">Create a procurement catalog</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e10a3-104">Questa guida indica come creare un catalogo di approvvigionamento.</span><span class="sxs-lookup"><span data-stu-id="e10a3-104">This guide shows you how to create a procurement catalog.</span></span> <span data-ttu-id="e10a3-105">Questa attività in genere viene svolta da un responsabile degli approvvigionamenti.</span><span class="sxs-lookup"><span data-stu-id="e10a3-105">This task would typically be carried out by a procurement professional.</span></span> <span data-ttu-id="e10a3-106">Inoltre imparerete come i dipendenti possono usare il catalogo quando creano una richiesta.</span><span class="sxs-lookup"><span data-stu-id="e10a3-106">You will also learn how employees can use the catalog when they create a requisition.</span></span> <span data-ttu-id="e10a3-107">Prima che possiate creare un catalogo, ci deve essere una gerarchia di categorie di approvvigionamento nel vostro sistema.</span><span class="sxs-lookup"><span data-stu-id="e10a3-107">Before you can create a catalog, there must be a procurement category hierarchy in your system.</span></span> <span data-ttu-id="e10a3-108">La gerarchia è ereditata dal nuovo catalogo, con tutti i prodotti che sono nella gerarchia.</span><span class="sxs-lookup"><span data-stu-id="e10a3-108">The hierarchy is inherited by the new catalog, along with all the products that are in the hierarchy.</span></span> <span data-ttu-id="e10a3-109">Potete utilizzare questa guida nella società di dati dimostrativi USMF in cui la gerarchia di categorie di approvvigionamento è disponibile, come pure gli esempi utilizzati nei passaggi della procedura.</span><span class="sxs-lookup"><span data-stu-id="e10a3-109">You can use this guide in demo data company USMF where the procurement category hierarchy is available, as well as the examples used in the procedure steps.</span></span>
 

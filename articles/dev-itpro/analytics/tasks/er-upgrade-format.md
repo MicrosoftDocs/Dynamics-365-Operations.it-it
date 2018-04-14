@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cfc68c1d0810cbc296b35c09176dde2c948a50d0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a2c593b53b9cac9024f565458c6b7d0e19ecdde5
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a><span data-ttu-id="f4c75-103">Aggiornare il formato adottando una nuova versione di base del formato per la creazione di report elettronici (ER)</span><span class="sxs-lookup"><span data-stu-id="f4c75-103">Upgrade your format by adopting of new base version of that format for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f4c75-104">I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può gestire una configurazione di formato per la creazione di report elettronici (ER).</span><span class="sxs-lookup"><span data-stu-id="f4c75-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="f4c75-105">Questa procedura illustra come sia possibile creare una versione personalizzata di un formato in base al formato ricevuto da un provider di configurazione (CP).</span><span class="sxs-lookup"><span data-stu-id="f4c75-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="f4c75-106">Illustra anche come adottare una nuova versione di base di quel formato.</span><span class="sxs-lookup"><span data-stu-id="f4c75-106">It also explains how to adopt a new, base version of that format.</span></span>
 

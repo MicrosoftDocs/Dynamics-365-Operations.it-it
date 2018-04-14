@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 46cdc37181a1d4da0b14b428cc3231f740cc54aa
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a><span data-ttu-id="687cb-103">Importare la configurazione di bonifico ISO20022</span><span class="sxs-lookup"><span data-stu-id="687cb-103">Import ISO20022 credit transfer configuration</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="687cb-104">In questa procedura viene descritto come importare una configurazione di creazione di report elettronici dei pagamenti fornitore.</span><span class="sxs-lookup"><span data-stu-id="687cb-104">This procedure shows how to import a vendor payment electronic reporting configuration.</span></span> <span data-ttu-id="687cb-105">Viene usato il formato di bonifico tedesco ISO 20022 come esempio.</span><span class="sxs-lookup"><span data-stu-id="687cb-105">The German ISO 20022 credit transfer format is used as an example.</span></span> <span data-ttu-id="687cb-106">Questa procedura può essere utilizzata per un altro formato di creazione di report elettronici disponibile.</span><span class="sxs-lookup"><span data-stu-id="687cb-106">This procedure can be used for other available electronic reporting format.</span></span> 
 

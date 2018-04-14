@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b8f3961e17ba381a75de448c85335abb026c0c53
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-legal-entity"></a><span data-ttu-id="7d4bb-103">Creare una nuova persona giuridica</span><span class="sxs-lookup"><span data-stu-id="7d4bb-103">Create a legal entity</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7d4bb-104">Una persona giuridica è un'organizzazione identificata mediante registrazione presso un'autorità giuridica.</span><span class="sxs-lookup"><span data-stu-id="7d4bb-104">A legal entity is an organization that is identified through registration with a legal authority.</span></span> <span data-ttu-id="7d4bb-105">Le persone giuridiche possono stipulare contratti e hanno l'obbligo di preparare rendiconti sul loro rendimento.</span><span class="sxs-lookup"><span data-stu-id="7d4bb-105">Legal entities can enter into contracts and are required to prepare statements that report on their performance.</span></span> <span data-ttu-id="7d4bb-106">La seguente procedura spiega come creare una persona giuridica.</span><span class="sxs-lookup"><span data-stu-id="7d4bb-106">The following procedure explains how to create a legal entity.</span></span> <span data-ttu-id="7d4bb-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="7d4bb-107">The demo data company used to create this procedure is USMF.</span></span>
 

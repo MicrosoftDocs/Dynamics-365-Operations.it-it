@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 036bd9f592ca584afad9d4b9b7a49a9787076056
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f1b04e48c4f17260255ba371c9b14cf5d67a28c2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="copy-a-formula"></a><span data-ttu-id="70794-103">Copiare una formula</span><span class="sxs-lookup"><span data-stu-id="70794-103">Copy a formula</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="70794-104">Questa procedura riguarda la creazione di una formula che include gli stessi ingredienti di una formula esistente, ma con differenze secondarie.</span><span class="sxs-lookup"><span data-stu-id="70794-104">This procedure focuses on creating a formula that includes the same ingredients as an existing formula, but with minor differences.</span></span> <span data-ttu-id="70794-105">Per creare le righe della formula, è possibile utilizzare la funzione di copia per copiare una formula esistente con la maggior parte degli ingredienti necessari.</span><span class="sxs-lookup"><span data-stu-id="70794-105">To create the formula lines, you can use the Copy function to copy an existing formula that has most of the ingredients that you need.</span></span> <span data-ttu-id="70794-106">È quindi possibile apportare le modifiche necessarie alle singole righe nella nuova versione.</span><span class="sxs-lookup"><span data-stu-id="70794-106">You can then make any necessary changes to the individual lines in the new version.</span></span> <span data-ttu-id="70794-107">Tramite la funzione di copia, non è necessario creare più formule quasi identiche.</span><span class="sxs-lookup"><span data-stu-id="70794-107">By using the Copy function, you do not have to create multiple formulas that are almost identical.</span></span> <span data-ttu-id="70794-108">La società di dati dimostrativi utilizzata per creare questa attività è USP2.</span><span class="sxs-lookup"><span data-stu-id="70794-108">The demo data company used to create this task is USP2.</span></span>
 

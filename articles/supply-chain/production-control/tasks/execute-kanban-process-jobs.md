@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c10fa829e5b696c951d041f11e3475d200b7751b
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="execute-kanban-process-jobs"></a><span data-ttu-id="bc508-103">Eseguire processi di lavorazione kanban</span><span class="sxs-lookup"><span data-stu-id="bc508-103">Execute kanban process jobs</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bc508-104">Questa procedura illustra come eseguire i processi di lavorazione kanban.</span><span class="sxs-lookup"><span data-stu-id="bc508-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="bc508-105">Il primo processo è stato completato con la quantità prevista e non presenta errori.</span><span class="sxs-lookup"><span data-stu-id="bc508-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="bc508-106">Il secondo lavoro è stato completato con errori.</span><span class="sxs-lookup"><span data-stu-id="bc508-106">The second job is completed with errors.</span></span> <span data-ttu-id="bc508-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="bc508-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="bc508-108">Questa procedura è destinata all'operatore.</span><span class="sxs-lookup"><span data-stu-id="bc508-108">This procedure is intended for the machine operator.</span></span>
 

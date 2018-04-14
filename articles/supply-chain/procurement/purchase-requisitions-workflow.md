@@ -19,17 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: db1d517c305644b2157a2cc54b6ccc315fed5969
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 17f18b3cc74867f268101a4e5a1f9053b0f244b3
 ms.contentlocale: it-it
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a><span data-ttu-id="5cc9e-105">flusso di lavoro delle richieste di acquisto</span><span class="sxs-lookup"><span data-stu-id="5cc9e-105">Purchase requisition workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5cc9e-106">Il processo del flusso di lavoro fa avanzare le richieste di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di Bozza fino allo stato finale di Approvata.</span><span class="sxs-lookup"><span data-stu-id="5cc9e-106">The workflow process moves purchase requisitions through the review process, from an initial status of Draft to a final status of Approved.</span></span> <span data-ttu-id="5cc9e-107">Nel momento in cui si crea e si invia una richiesta di acquisto per la revisione, ha inizio il processo del flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="5cc9e-107">When a purchase requisition is submitted for review, the workflow process is started.</span></span> <span data-ttu-id="5cc9e-108">In seguito all'approvazione della richiesta di acquisto, è possibile generare un ordine fornitore per le righe della richiesta di acquisto e inviarlo al fornitore per evasione dell'ordine.</span><span class="sxs-lookup"><span data-stu-id="5cc9e-108">After a purchase requisition is approved, a purchase order can be generated for the purchase requisition lines and submitted to the vendor for order fulfillment.</span></span>
 

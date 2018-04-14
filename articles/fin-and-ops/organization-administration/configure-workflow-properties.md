@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 7ea35d851613a19889392400e31cf8492d5dc799
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0b8f17285fb845101e9fbec23de7dd7866811bbd
 ms.contentlocale: it-it
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-workflow-properties"></a><span data-ttu-id="cf344-103">Configurare le proprietà del flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="cf344-103">Configure workflow properties</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cf344-104">In questo argomento viene descritto come configurare le proprietà per un flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="cf344-104">This topic explains how to configure the various properties of a workflow.</span></span>
 

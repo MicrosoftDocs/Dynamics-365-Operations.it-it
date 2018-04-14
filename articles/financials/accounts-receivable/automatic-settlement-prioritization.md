@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 17c9da7abaf72ddca8500acf50808a333e76446a
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="automatic-settlement-and-prioritization"></a><span data-ttu-id="c9e10-104">Liquidazione automatica e priorità</span><span class="sxs-lookup"><span data-stu-id="c9e10-104">Automatic settlement and prioritization</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c9e10-105">Questo argomento descrive la modalità di liquidazione delle transazioni se si seleziona la liquidazione automatica nella pagina Parametri contabilità clienti.</span><span class="sxs-lookup"><span data-stu-id="c9e10-105">This topic describes how transactions are settled if you select Automatic settlement on the Accounts receivable parameters page.</span></span> <span data-ttu-id="c9e10-106">Viene anche illustrato come è possibile utilizzare la liquidazione automatica insieme alla priorità di pagamento.</span><span class="sxs-lookup"><span data-stu-id="c9e10-106">It also explains how automatic settlement can be used in combination with the payment priority.</span></span>
 

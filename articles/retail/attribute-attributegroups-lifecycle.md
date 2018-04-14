@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="6e283-102">Attributi, gruppi di attributi e le relative associazioni a diverse entità Retail in Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="6e283-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="6e283-103">Gli *attributi* forniscono un modo per descrivere ulteriormente un prodotto e le sue caratteristiche tramite campi definiti dall'utente (ad esempio **Dimensione di memoria**, **Capacità del disco rigido**, **Conformità allo standard Energy Star** e così via).</span><span class="sxs-lookup"><span data-stu-id="6e283-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="6e283-104">In Microsoft Dynamics 365 for Finance and Operations, gli attributi possono essere associati a diverse entità Retail, ad esempio a categorie di prodotti e canali di vendita al dettaglio, ed è possibile impostare per tali attributi valori predefiniti.</span><span class="sxs-lookup"><span data-stu-id="6e283-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="6e283-105">I prodotti ereditano quindi gli attributi e i valori predefiniti quando vengono associati alle categorie di prodotti o ai canali di vendita al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="6e283-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="6e283-106">I valori predefiniti possono essere sovrascritti a livello di singolo prodotto, a livello di canale di vendita al dettaglio o in un catalogo al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="6e283-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="6e283-307">Nella scheda dettaglio **Prodotti**, selezionare il prodotto richiesto, quindi selezionare **Attributi** sopra la griglia del prodotto.</span><span class="sxs-lookup"><span data-stu-id="6e283-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="6e283-308">Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:</span><span class="sxs-lookup"><span data-stu-id="6e283-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="6e283-309">Supporti prodotto condivisi</span><span class="sxs-lookup"><span data-stu-id="6e283-309">Shared product media</span></span>
-    - <span data-ttu-id="6e283-310">Attributi del prodotto condivisi</span><span class="sxs-lookup"><span data-stu-id="6e283-310">Shared product attributes</span></span>
-    - <span data-ttu-id="6e283-311">Supporti canale</span><span class="sxs-lookup"><span data-stu-id="6e283-311">Channel media</span></span>
-    - <span data-ttu-id="6e283-312">Attributi del prodotto del canale</span><span class="sxs-lookup"><span data-stu-id="6e283-312">Channel product attributes</span></span>
+   - <span data-ttu-id="6e283-309">Supporti prodotto condivisi</span><span class="sxs-lookup"><span data-stu-id="6e283-309">Shared product media</span></span>
+   - <span data-ttu-id="6e283-310">Attributi del prodotto condivisi</span><span class="sxs-lookup"><span data-stu-id="6e283-310">Shared product attributes</span></span>
+   - <span data-ttu-id="6e283-311">Supporti canale</span><span class="sxs-lookup"><span data-stu-id="6e283-311">Channel media</span></span>
+   - <span data-ttu-id="6e283-312">Attributi del prodotto del canale</span><span class="sxs-lookup"><span data-stu-id="6e283-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="6e283-313">Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="6e283-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="6e283-313">Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="6e283-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![Gruppi di attributi del prodotto del catalogo](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="6e283-321">Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:</span><span class="sxs-lookup"><span data-stu-id="6e283-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="6e283-322">Supporti prodotto condivisi</span><span class="sxs-lookup"><span data-stu-id="6e283-322">Shared product media</span></span>
-    - <span data-ttu-id="6e283-323">Attributi del prodotto condivisi</span><span class="sxs-lookup"><span data-stu-id="6e283-323">Shared product attributes</span></span>
-    - <span data-ttu-id="6e283-324">Supporti canale</span><span class="sxs-lookup"><span data-stu-id="6e283-324">Channel media</span></span>
-    - <span data-ttu-id="6e283-325">Attributi del prodotto del canale</span><span class="sxs-lookup"><span data-stu-id="6e283-325">Channel product attributes</span></span>
+   - <span data-ttu-id="6e283-322">Supporti prodotto condivisi</span><span class="sxs-lookup"><span data-stu-id="6e283-322">Shared product media</span></span>
+   - <span data-ttu-id="6e283-323">Attributi del prodotto condivisi</span><span class="sxs-lookup"><span data-stu-id="6e283-323">Shared product attributes</span></span>
+   - <span data-ttu-id="6e283-324">Supporti canale</span><span class="sxs-lookup"><span data-stu-id="6e283-324">Channel media</span></span>
+   - <span data-ttu-id="6e283-325">Attributi del prodotto del canale</span><span class="sxs-lookup"><span data-stu-id="6e283-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="6e283-326">Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="6e283-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="6e283-326">Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="6e283-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

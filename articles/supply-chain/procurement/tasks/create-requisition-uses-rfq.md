@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d97ccd15031b2f7398486eee4a716ecef5e9dafd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2c2daad961ec5c47ca49b2e53a2118570caf6a58
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="037d3-103">Creare una richiesta che usa una RdO</span><span class="sxs-lookup"><span data-stu-id="037d3-103">Create a requisition that uses an RFQ</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="037d3-104">Questa guida mostra come aggiungere le informazioni su prezzo e fornitore ad una richiesta di acquisto da un processo di RdO.</span><span class="sxs-lookup"><span data-stu-id="037d3-104">This guide shows how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="037d3-105">L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF e dovete essere collegati come Amministratore per completare tutti i passaggi.</span><span class="sxs-lookup"><span data-stu-id="037d3-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="037d3-106">Le attività in questa guida sarebbero svolte tipicamente da professionisti dell'approvvigionamento.</span><span class="sxs-lookup"><span data-stu-id="037d3-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
 

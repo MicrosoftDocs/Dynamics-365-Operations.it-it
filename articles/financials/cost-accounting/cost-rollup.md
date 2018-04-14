@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: bce608594e2eb0e7769e7dfa2e254e29385000b6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90a947d4564c8ad97b415b556986c3f815674aa4
 ms.contentlocale: it-it
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a><span data-ttu-id="0b209-103">Criteri rollup costi e calcolo dei costi generali</span><span class="sxs-lookup"><span data-stu-id="0b209-103">Cost rollup policy and overhead calculation</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0b209-104">La contabilità industriale consente di ottenere i dettagli di come il flusso dei costi riguarda i prodotti e i servizi offerti a un'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="0b209-104">Cost accounting lets you gain insight into how the cost flow relates to the products and services that are delivered within an organization.</span></span> <span data-ttu-id="0b209-105">Per vedere la trasparenza dei costi, è essenziale ottenere l'allocazione dei costi tra gli oggetti di costo secondo una base di allocazione appropriata.</span><span class="sxs-lookup"><span data-stu-id="0b209-105">To see the cost transparency, it's crucial to achieve cost allocation between cost objects based on an appropriate allocation basis.</span></span> <span data-ttu-id="0b209-106">Per impostazione predefinita, l'allocazione dei costi viene raggiunta per l'elemento di costo principale, utile in alcune situazioni, ma con alcune implicazioni che devono essere considerate.</span><span class="sxs-lookup"><span data-stu-id="0b209-106">By default, the cost allocation is achieved for the primary cost element, which is desired in some situations, but it has a few implications that should be considered.</span></span>
 

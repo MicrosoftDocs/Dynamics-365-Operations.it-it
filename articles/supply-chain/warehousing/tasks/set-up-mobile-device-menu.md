@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b80c258d6a779a8fc5bb6c846abd3af7e69d5e06
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 37010003ad638e068ed7650532da29c6dbc033cb
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="cff6f-103">Impostare una voce di menu del dispositivo mobile per completare il lavoro in un ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="cff6f-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cff6f-104">Questa procedura mostra come impostare una voce di menu Dispositivo mobile.</span><span class="sxs-lookup"><span data-stu-id="cff6f-104">This procedure shows how to set up a Mobile device menu item.</span></span> <span data-ttu-id="cff6f-105">In questo esempio, la voce di menu è utilizzata per eseguire lavori di tipo ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="cff6f-105">In this example, the menu item is used for performing work of type Purchase order.</span></span> <span data-ttu-id="cff6f-106">Il lavoro valido è determinato dalla classe di lavoro associata alla voce di menu.</span><span class="sxs-lookup"><span data-stu-id="cff6f-106">The work class that’s associated with the menu item determines which work is valid.</span></span> <span data-ttu-id="cff6f-107">È possibile utilizzare questa guida nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="cff6f-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="cff6f-108">In genere, questa procedura viene eseguita da un responsabile del magazzino.</span><span class="sxs-lookup"><span data-stu-id="cff6f-108">This procedure is typically carried out by a warehouse manager.</span></span>
 

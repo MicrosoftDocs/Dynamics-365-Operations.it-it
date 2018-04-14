@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c1e1a588e07b9f60880dcf1c34139c5c1ceba35
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a><span data-ttu-id="99c1b-103">Metodi di calcolo IVA nel campo Origine</span><span class="sxs-lookup"><span data-stu-id="99c1b-103">Sales tax calculation methods in the Origin field</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="99c1b-104">Questo articolo illustra le opzioni nel campo Origine nella pagina Codici IVA e spiega come viene calcolata l'IVA in base all'opzione selezionata per un codice IVA.</span><span class="sxs-lookup"><span data-stu-id="99c1b-104">This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.</span></span>
 
@@ -53,11 +52,12 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="99c1b-122">IVA = 25%, con il metodo di calcolo Percentuale dell'importo lordo</span><span class="sxs-lookup"><span data-stu-id="99c1b-122">SALESTAX = 25%, using the Percentage of gross amount calculation method</span></span>
 
 <span data-ttu-id="99c1b-123">Se l'importo netto è 10,00, IMPOSTA 1 sarà 1,00 (10,00 x 10%) e IMPOSTA 2 sarà 2,00 (10,00 x 20%).</span><span class="sxs-lookup"><span data-stu-id="99c1b-123">If the net amount is 10.00, then DUTY 1 is 1.00 (10.00 x 10%) and DUTY 2 = 2.00 (10.00 x 20%).</span></span> <span data-ttu-id="99c1b-124">Gli importi sarebbero i seguenti: Importo lordo: Importo netto + importo IMPOSTA 1 + importo IMPOSTA 2 (10,00 + 1,00 + 2,00) = 13,00 IVA = 13,00 x 25% = 3,25 Totale IMPOSTE e IVA: 1,00 + 2,00 + 3,25 = 6,25 Importo totale: 10,00 + 6,25 = 16,25</span><span class="sxs-lookup"><span data-stu-id="99c1b-124">The amounts would be as follows: Gross amount: Net amount + DUTY 1 amount + DUTY 2 amount (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 Total DUTIES and SALESTAX: 1.00 + 2.00 + 3.25 = 6.25 Total amount: 10.00 + 6.25 = 16.25</span></span>
+
 | <span data-ttu-id="99c1b-125">**Nota**</span><span class="sxs-lookup"><span data-stu-id="99c1b-125">**Note**</span></span>                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="99c1b-126">Un solo codice IVA con Origine = Percentuale dell'importo lordo può essere utilizzato per una transazione.</span><span class="sxs-lookup"><span data-stu-id="99c1b-126">Only one tax code with Origin = Percentage of gross amount can be used for a transaction.</span></span> <span data-ttu-id="99c1b-127">Se più di un codice di questo tipo viene determinato per una transazione, verrà visualizzato l'errore che l'IVA non può essere calcolata.</span><span class="sxs-lookup"><span data-stu-id="99c1b-127">If more than one such tax code is determined for a transaction an error will be displayed that sales tax cannot be calculated.</span></span> |
 
- 
+
 <a name="percentage-of-sales-tax"></a><span data-ttu-id="99c1b-128">Percentuale IVA</span><span class="sxs-lookup"><span data-stu-id="99c1b-128">Percentage of sales tax</span></span>
 -----------------------
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="99c1b-136">IVA = 25%, con il metodo Percentuale dell'importo lordo</span><span class="sxs-lookup"><span data-stu-id="99c1b-136">SALESTAX = 25%, using the Percentage of gross amount method</span></span>
 
 <span data-ttu-id="99c1b-137">Importo netto: 10,00 IMPOSTA 1: 10,00 x 10% = 1,00 IMPOSTA 2: 1,00 x 20% = 0,20 Importo lordo: 10,00 + 1,00 + 0,20 = 11.20 IVA: 11,20 x 25% = 2,80 Totale IMPOSTE e IVA: 1,00 + 0,20 + 2,80 = 4,00 Importo totale: 10,00 + 4,00 = 14,00</span><span class="sxs-lookup"><span data-stu-id="99c1b-137">Net amount: 10.00 DUTY 1: 10.00 x 10% = 1.00 DUTY 2: 1.00 x 20% = 0.20 Gross amount: 10.00 + 1.00 + 0.20 = 11.20 SALESTAX: 11.20 x 25% = 2.80 Total DUTIES and SALESTAX: 1.00 + 0.20 + 2.80 = 4.00 Total amount: 10.00 + 4.00 = 14.00</span></span>
+
 | <span data-ttu-id="99c1b-138">**Nota**</span><span class="sxs-lookup"><span data-stu-id="99c1b-138">**Note**</span></span>                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="99c1b-139">I calcoli di imposta su imposta multilivello non sono possibili.</span><span class="sxs-lookup"><span data-stu-id="99c1b-139">Multilevel tax on tax calculations are not possible.</span></span> <span data-ttu-id="99c1b-140">Un'imposta non può essere calcolata in base a un'imposta che viene già calcolata in base a un'altra imposta.</span><span class="sxs-lookup"><span data-stu-id="99c1b-140">A tax cannot be calculated based on a tax which already is calculated based on another tax.</span></span> <span data-ttu-id="99c1b-141">Più codici imposta su imposta a livello singolo possono essere calcolati per una transazione.</span><span class="sxs-lookup"><span data-stu-id="99c1b-141">Multiple single level tax on tax codes can be calculated on a transaction.</span></span> |
@@ -79,6 +80,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="example"></a><span data-ttu-id="99c1b-146">Esempio</span><span class="sxs-lookup"><span data-stu-id="99c1b-146">Example</span></span>
 
 <span data-ttu-id="99c1b-147">Il codice IVA è impostato come: 1,20 USD per unità = scatola In una riga di fattura di vendita 25 scatole di un articolo sono vendute L'IVA è calcolata come 25 x 1,20 = 30,00</span><span class="sxs-lookup"><span data-stu-id="99c1b-147">Sales tax code is set up as: USD 1.20 per unit = box On a sales invoice line 25 boxes of an item are sold Sales tax is calculated as 25 x 1.20 = 30.00</span></span>
+
 | <span data-ttu-id="99c1b-148">**Nota**</span><span class="sxs-lookup"><span data-stu-id="99c1b-148">**Note**</span></span>                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="99c1b-149">Se la transazione è stata immessa in un'unità diversa dall'unità specificata nel codice IVA, viene convertita automaticamente in base alle conversioni unità impostate nella pagina Conversioni unità.</span><span class="sxs-lookup"><span data-stu-id="99c1b-149">If the transaction is entered in different unit than the unit specified on the sales tax code, it is converted automatically based on the unit conversions that are set up in the Unit conversions page.</span></span> |

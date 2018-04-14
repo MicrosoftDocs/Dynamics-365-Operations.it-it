@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7093338fd306e90df79a787f9de9861b3fe49dd5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 57884660fb9459c8cd918e5d1ba4df14efcf6db3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="process-and-trace-source-data"></a><span data-ttu-id="8dd80-103">Elaborare e tenere traccia dei dati di origine</span><span class="sxs-lookup"><span data-stu-id="8dd80-103">Process and trace source data</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8dd80-104">Tutte le elaborazione dei dati vengono eseguite da processi.</span><span class="sxs-lookup"><span data-stu-id="8dd80-104">All data processing is run by jobs.</span></span> <span data-ttu-id="8dd80-105">Per ogni processo e provider di dati, viene creato un giornale di registrazione per documentare che il processo è stato eseguito e che le voci sono state elaborate nel processo corrente.</span><span class="sxs-lookup"><span data-stu-id="8dd80-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="8dd80-106">Utilizzare questa procedura per impostare un'origine dati e per tenere traccia di una voce di costo specifica.</span><span class="sxs-lookup"><span data-stu-id="8dd80-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="8dd80-107">Questa registrazione utilizza i dati dimostrativi della società USP2.</span><span class="sxs-lookup"><span data-stu-id="8dd80-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="8dd80-108">Prima di completare questa attività, verificare di aver eseguito le guide attività "Creare un movimento CoGe di contabilità industriale", "Definire unità di controllo costi" e "Gestire l'origine dati per il movimento CoGe di contabilità industriale".</span><span class="sxs-lookup"><span data-stu-id="8dd80-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 

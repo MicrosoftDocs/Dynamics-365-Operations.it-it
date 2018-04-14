@@ -18,17 +18,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f6b63f212bbd868cef5a2fef41825de0d789ca0a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 08b5fb750cc6de96b3a0af428a97c6a6dc13e30f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="esr-customer-payments-import"></a><span data-ttu-id="2bb03-103">Importazione pagamenti cliente PVR</span><span class="sxs-lookup"><span data-stu-id="2bb03-103">ESR customer payments import</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2bb03-104">In questo argomento vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.</span><span class="sxs-lookup"><span data-stu-id="2bb03-104">This topic provides information about importing customer payments in the ESR format.</span></span>
 
@@ -45,12 +44,12 @@ ms.lasthandoff: 03/26/2018
 <span data-ttu-id="2bb03-117">Per ulteriori informazioni, vedere [Report distinta di pagamento (Giro)](emea-eur-payment-slip-report-giro.md).</span><span class="sxs-lookup"><span data-stu-id="2bb03-117">For more information, see [Payment slip report (Giro)](emea-eur-payment-slip-report-giro.md).</span></span>
 
 ## <a name="import-a-payment-file"></a><span data-ttu-id="2bb03-118">Importare un file di pagamento</span><span class="sxs-lookup"><span data-stu-id="2bb03-118">Import a payment file</span></span>
-1.  <span data-ttu-id="2bb03-119">Passare alla pagina **Giornale di registrazione pagamenti**</span><span class="sxs-lookup"><span data-stu-id="2bb03-119">Go to the **Payment journal** page</span></span>
-2.  <span data-ttu-id="2bb03-120">Fare clic su **Righe**.</span><span class="sxs-lookup"><span data-stu-id="2bb03-120">Click **Lines**.</span></span>
-3.  <span data-ttu-id="2bb03-121">Fare clic su **Funzioni** &gt; **Importa pagamenti**.</span><span class="sxs-lookup"><span data-stu-id="2bb03-121">Click **Functions** &gt; **Import payments**.</span></span>
-4.  <span data-ttu-id="2bb03-122">Nella finestra di dialogo selezionare il metodo di pagamento e quindi selezionare il percorso del file da importare.</span><span class="sxs-lookup"><span data-stu-id="2bb03-122">In the dialog box, select the method of payment, and then browse to the location of the file to import.</span></span> 
-  > [!NOTE]
-  >  <span data-ttu-id="2bb03-123">Prima di completare questo passaggio, è necessario aver già importato le configurazioni **PVR (CH)** da Lifecycle Services (LCS) e aver impostato il metodo di pagamento PVR.</span><span class="sxs-lookup"><span data-stu-id="2bb03-123">Before you can complete this step, you must have already imported the **ESR (CH)** configurations from Lifecycle Services (LCS) and set up the ESR method of payment.</span></span> <span data-ttu-id="2bb03-124">Per ulteriori informazioni, vedere [Formati di file per metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md).</span><span class="sxs-lookup"><span data-stu-id="2bb03-124">For more information, see [File formats for method of payments](emea-select-file-formats-for-the-method-of-payments.md).</span></span>
+1. <span data-ttu-id="2bb03-119">Passare alla pagina **Giornale di registrazione pagamenti**</span><span class="sxs-lookup"><span data-stu-id="2bb03-119">Go to the **Payment journal** page</span></span>
+2. <span data-ttu-id="2bb03-120">Fare clic su **Righe**.</span><span class="sxs-lookup"><span data-stu-id="2bb03-120">Click **Lines**.</span></span>
+3. <span data-ttu-id="2bb03-121">Fare clic su **Funzioni** &gt; **Importa pagamenti**.</span><span class="sxs-lookup"><span data-stu-id="2bb03-121">Click **Functions** &gt; **Import payments**.</span></span>
+4. <span data-ttu-id="2bb03-122">Nella finestra di dialogo selezionare il metodo di pagamento e quindi selezionare il percorso del file da importare.</span><span class="sxs-lookup"><span data-stu-id="2bb03-122">In the dialog box, select the method of payment, and then browse to the location of the file to import.</span></span> 
+   > [!NOTE]
+   >  <span data-ttu-id="2bb03-123">Prima di completare questo passaggio, è necessario aver già importato le configurazioni **PVR (CH)** da Lifecycle Services (LCS) e aver impostato il metodo di pagamento PVR.</span><span class="sxs-lookup"><span data-stu-id="2bb03-123">Before you can complete this step, you must have already imported the **ESR (CH)** configurations from Lifecycle Services (LCS) and set up the ESR method of payment.</span></span> <span data-ttu-id="2bb03-124">Per ulteriori informazioni, vedere [Formati di file per metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md).</span><span class="sxs-lookup"><span data-stu-id="2bb03-124">For more information, see [File formats for method of payments](emea-select-file-formats-for-the-method-of-payments.md).</span></span>
 
 <span data-ttu-id="2bb03-125">Dopo aver importato il file di pagamento, le righe del giornale di registrazione pagamenti vengono create e contrassegnate per la liquidazione con le fatture cliente in base al riferimento di pagamento.</span><span class="sxs-lookup"><span data-stu-id="2bb03-125">After you import the payment file, payment journal lines are created and marked for settlement with customer invoices based on the payment reference.</span></span> <span data-ttu-id="2bb03-126">Se nel file sono presenti delle spese specificate per il conto bancario, ad esempio le transazioni tra il conto principale e il conto di addebito commissioni, queste spese verranno aggiunte al giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="2bb03-126">If there are any fees specified for the bank account that are represented in the file, such as transactions between the main account and fee account, these fees will be added to the journal.</span></span>
 

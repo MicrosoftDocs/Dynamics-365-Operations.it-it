@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 862281adac67757e1ce0e9ddd1e96483363abb9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 454ecd9bfa19a2486610d9a412057f42ae2d68a2
 ms.contentlocale: it-it
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="estimate-a-production-order"></a><span data-ttu-id="64d6d-103">Stimare un ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="64d6d-103">Estimate a production order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="64d6d-104">È possibile eseguire questa procedura utilizzando la società di dati dimostrativi USMF oppure il proprio set di dati.</span><span class="sxs-lookup"><span data-stu-id="64d6d-104">You can run this procedure by using the USMF demo data company or your own data set.</span></span> <span data-ttu-id="64d6d-105">In entrambi i casi, è necessario disporre di un ordine di produzione aperto con lo stato Creato.</span><span class="sxs-lookup"><span data-stu-id="64d6d-105">In both cases, you need to have an open production order that has the Created status.</span></span> <span data-ttu-id="64d6d-106">Si tratta della seconda procedura su sette che spiega il ciclo di vita dell'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="64d6d-106">This is the second procedure out of seven which explains the production order lifecycle.</span></span>
 

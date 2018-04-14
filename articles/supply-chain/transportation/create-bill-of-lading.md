@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: b1d7591994d5e0d59923f422c6a47849223ea27c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1c6f953465879ea9ba31827a352351daf72a2971
 ms.contentlocale: it-it
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-bill-of-lading"></a><span data-ttu-id="7eef1-103">Creare una polizza di carico</span><span class="sxs-lookup"><span data-stu-id="7eef1-103">Create a bill of lading</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7eef1-104">In questo argomento viene descritto come creare una polizza di carico quando si utilizzano i processi di gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="7eef1-104">This topic describes how to create a bill of lading when using warehouse management processes.</span></span>  
 

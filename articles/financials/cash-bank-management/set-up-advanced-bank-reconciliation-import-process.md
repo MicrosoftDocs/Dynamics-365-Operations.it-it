@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3806dafa6ca6ea8355db3d6a8c2432ad67cd69c2
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="30110-104">Impostare il processo di importazione di riconciliazione bancaria avanzata</span><span class="sxs-lookup"><span data-stu-id="30110-104">Set up the advanced bank reconciliation import process</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="30110-105">La funzionalità di riconciliazione estratti conto avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="30110-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="30110-106">In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari.</span><span class="sxs-lookup"><span data-stu-id="30110-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
@@ -57,7 +56,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="30110-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="30110-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="30110-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="30110-136">ISO20022StatementExample</span></span>             |
 | <span data-ttu-id="30110-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="30110-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="30110-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="30110-138">BAI2StatementExample</span></span>                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="30110-139">Impostare l'importazione di rendiconti bancari ISO20022</span><span class="sxs-lookup"><span data-stu-id="30110-139">Set up the import of ISO20022 bank statements</span></span>
 <span data-ttu-id="30110-140">Innanzitutto, è necessario definire il gruppo di elaborazione formati rendiconti bancari per i rendiconti bancari ISO20022 utilizzando il framework di entità di dati.</span><span class="sxs-lookup"><span data-stu-id="30110-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>

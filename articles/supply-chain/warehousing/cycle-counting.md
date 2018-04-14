@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 68ae9bad8c15f06689c4660ccad27eff5d01c93c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 75aac23ae8b751b3507e068272fc3764ebc365de
 ms.contentlocale: it-it
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cycle-counting"></a><span data-ttu-id="7d5de-104">Conteggio ciclo</span><span class="sxs-lookup"><span data-stu-id="7d5de-104">Cycle counting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7d5de-105">Questo articolo descrive come utilizzare il conteggio ciclo con la soluzione di immagazzinaggio disponibile in Gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="7d5de-105">This article describes how you can use cycle counting with the warehousing solution that is available in Warehouse management.</span></span> <span data-ttu-id="7d5de-106">Questo articolo non è applicabile alla soluzione di immagazzinaggio disponibile in Gestione inventario.</span><span class="sxs-lookup"><span data-stu-id="7d5de-106">This article doesn't apply to the warehousing solution that's available in Inventory management.</span></span>
 

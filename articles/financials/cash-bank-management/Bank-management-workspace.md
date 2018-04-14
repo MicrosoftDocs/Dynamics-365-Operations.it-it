@@ -17,15 +17,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 68fe68ba92495eb089e9b38cfbd42eba05b7dc47
 ms.contentlocale: it-it
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="b0f15-106">Area di lavoro gestione banche</span><span class="sxs-lookup"><span data-stu-id="b0f15-106">Bank management workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b0f15-107">Nell'area di lavoro **Gestione banche** vengono visualizzate le informazioni relative ai conti bancari della società.</span><span class="sxs-lookup"><span data-stu-id="b0f15-107">The **Bank management** workspace shows information that is related to company bank accounts.</span></span> <span data-ttu-id="b0f15-108">Questa area di lavoro include una visualizzazione **Riepilogo** e una pagina **Analisi**.</span><span class="sxs-lookup"><span data-stu-id="b0f15-108">This workspace includes a **Summary** view and an **Analytics** page.</span></span> <span data-ttu-id="b0f15-109">Nella visualizzazione **Riepilogo** vengono visualizzati i riquadri di riepilogo, le informazioni sul conto bancario, un grafico del saldo e informazioni correlate.</span><span class="sxs-lookup"><span data-stu-id="b0f15-109">The **Summary** view shows summary tiles, bank account information, a balance chart, and related information.</span></span> <span data-ttu-id="b0f15-110">La pagina **Analisi** dei dati utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate ai saldi del conto bancario.</span><span class="sxs-lookup"><span data-stu-id="b0f15-110">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to bank account balances.</span></span>
 

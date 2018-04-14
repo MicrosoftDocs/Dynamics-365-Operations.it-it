@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 07940b4eb0d6c0e455e79f437c8f3bbf5921612d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
 ms.contentlocale: it-it
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-project-timesheets"></a><span data-ttu-id="8a364-103">Immettere fogli presenze di progetto</span><span class="sxs-lookup"><span data-stu-id="8a364-103">Enter project timesheets</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8a364-104">Questa procedura consente di creare un foglio presenze utilizzando un modulo vuoto.</span><span class="sxs-lookup"><span data-stu-id="8a364-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="8a364-105">Il nuovo foglio presenze può essere basato sulle informazioni da un foglio precedente o dalle assegnazioni di progetti e attività della pagina Preferiti.</span><span class="sxs-lookup"><span data-stu-id="8a364-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favorites page.</span></span> <span data-ttu-id="8a364-106">Per impostazione predefinita, la pagina elenco Tutti i fogli presenze visualizza tutti i fogli presenze per il periodo corrente.</span><span class="sxs-lookup"><span data-stu-id="8a364-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="8a364-107">È possibile utilizzare l'elenco a discesa del campo Mostra nella pagina Fogli presenze personali per filtrare l'elenco dei fogli presenze in base al periodo o al progetto o per visualizzare i fogli presenze creati per conto di altri lavoratori.</span><span class="sxs-lookup"><span data-stu-id="8a364-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="8a364-108">La società di dati dimostrativi utilizzata per creare questa procedura è USSI.</span><span class="sxs-lookup"><span data-stu-id="8a364-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="8a364-109">Per iniziare questa procedura, passare a Gestione progetti e contabilità >progetto Fogli presenze > Fogli presenze personali</span><span class="sxs-lookup"><span data-stu-id="8a364-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 

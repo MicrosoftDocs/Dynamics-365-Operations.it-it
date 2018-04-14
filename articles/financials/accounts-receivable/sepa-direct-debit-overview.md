@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fb55f4b0b06019891c2e490eda837cfad882e6db
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c41194f5d032b3ec59c079c91c83fcbe90f8b47d
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sepa-direct-debit-overview"></a><span data-ttu-id="bb730-107">Panoramica di addebito diretto SEPA</span><span class="sxs-lookup"><span data-stu-id="bb730-107">SEPA direct debit overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bb730-108">SEPA (Single Euro Payments Area) viene impostata dalla Commissione Europea e determina che tutti i pagamenti elettronici vengono considerati nazionali, indipendentemente dal paese in cui si trovano i singoli individui, le aziende o l'organizzazione e la banca.</span><span class="sxs-lookup"><span data-stu-id="bb730-108">The Single Euro Payments Area (SEPA) is set up by the European Commission, and dictates that all electronic payments are considered domestic, regardless of the country/region where the individual, business, or organization, and the bank are located.</span></span> <span data-ttu-id="bb730-109">Non c'è differenza tra i pagamenti nazionali e quelli transfrontalieri.</span><span class="sxs-lookup"><span data-stu-id="bb730-109">There is no difference between national and cross-border payments.</span></span> <span data-ttu-id="bb730-110">SEPA include i 28 stati membri dell'Unione Europea (UE) oltre all'Islanda, il Liechtenstein, la Norvegia, la Svizzera, Monaco e San Marino.</span><span class="sxs-lookup"><span data-stu-id="bb730-110">The SEPA includes the 28 European Union (EU) member states, as well as Iceland, Liechtenstein, Norway, Switzerland, Monaco and San Marino.</span></span> <span data-ttu-id="bb730-111">SEPA consente di formare un singolo mercato per le transazioni di pagamento all'interno dell'Area Economica Europea.</span><span class="sxs-lookup"><span data-stu-id="bb730-111">The SEPA helps form a single market for payment transactions within the European Economic Area (EEA).</span></span> <span data-ttu-id="bb730-112">Infine, SEPA prevede di ridurre il numero dei formati di pagamento con cui lavorano le banche, le aziende e i singoli individui.</span><span class="sxs-lookup"><span data-stu-id="bb730-112">Ultimately, the SEPA is expected to reduce the number of payment formats that banks, businesses, and individuals must work with.</span></span>   
 

@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: f7206126bfa6150078f1bfb4f7e07c1cf2819ce0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a6bfea86ee0d299c634783d869e4828bcf3a9d38
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-model-mapping-configuration-er"></a><span data-ttu-id="8b66e-103">Crea una nuova configurazione del mapping di modello (ER)</span><span class="sxs-lookup"><span data-stu-id="8b66e-103">Create a model mapping configuration (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8b66e-104">Utilizzare questa procedura per progettare una nuova configurazione di mapping di modello (ER) per la creazione di report elettronici e usare le funzioni ER incorporate per i calcoli aggregati efficienti.</span><span class="sxs-lookup"><span data-stu-id="8b66e-104">Use this procedure to design a new Electronic reporting (ER) model mapping configuration and use built-in ER functions for efficient aggregate calculations.</span></span> <span data-ttu-id="8b66e-105">In questa procedura verrà creata una configurazione per la società di esempio Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="8b66e-105">In this procedure, you will create a configuration for sample company, Litware, Inc.</span></span> 
 

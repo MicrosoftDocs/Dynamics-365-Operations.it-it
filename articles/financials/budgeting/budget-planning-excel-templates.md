@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8b597f417fc144b90aa6469ebe1b9961dc968c15
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-templates-for-excel"></a><span data-ttu-id="b85a1-103">Modelli di pianificazione del budget per Excel</span><span class="sxs-lookup"><span data-stu-id="b85a1-103">Budget planning templates for Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b85a1-104">In questo argomento viene descritto come creare modelli di Microsoft Excel che possono essere utilizzati con i piani di budget.</span><span class="sxs-lookup"><span data-stu-id="b85a1-104">This topic describes how to create Microsoft Excel templates that can be used with budget plans.</span></span>
 
@@ -42,11 +41,11 @@ ms.lasthandoff: 03/26/2018
 1. <span data-ttu-id="b85a1-112">Aprire l'**elenco dei piani di budget** (**Impostazione budget** &gt; **Piani di budget**).</span><span class="sxs-lookup"><span data-stu-id="b85a1-112">Open the **Budget plans list** (**Budgeting** &gt; **Budget plans**).</span></span> 
 2. <span data-ttu-id="b85a1-113">Fare clic su **Nuovo** per creare un nuovo documento di piano di budget.</span><span class="sxs-lookup"><span data-stu-id="b85a1-113">Click **New** to create a new budget plan document.</span></span> 
 
-  <span data-ttu-id="b85a1-114">[![Elenco piani di budget](./media/bpt11-1024x552.png)](./media/bpt11.png)</span><span class="sxs-lookup"><span data-stu-id="b85a1-114">[![Budget plans list](./media/bpt11-1024x552.png)](./media/bpt11.png)</span></span> 
+   <span data-ttu-id="b85a1-114">[![Elenco piani di budget](./media/bpt11-1024x552.png)](./media/bpt11.png)</span><span class="sxs-lookup"><span data-stu-id="b85a1-114">[![Budget plans list](./media/bpt11-1024x552.png)](./media/bpt11.png)</span></span> 
 
 3. <span data-ttu-id="b85a1-115">Usare l'opzione **Aggiungi** riga per aggiungere righe.</span><span class="sxs-lookup"><span data-stu-id="b85a1-115">Use the **Add** line option to add lines.</span></span> <span data-ttu-id="b85a1-116">Fare clic su **Layout** visualizzare la configurazione di layout del documento di piano di budget.</span><span class="sxs-lookup"><span data-stu-id="b85a1-116">Click **Layouts** to view the budget plan document layout configuration.</span></span> 
 
-  <span data-ttu-id="b85a1-117">[![Aggiunta piani di budget](./media/bpt2-1024x274.png)](./media/bpt2.png)</span><span class="sxs-lookup"><span data-stu-id="b85a1-117">[![Budget plans add](./media/bpt2-1024x274.png)](./media/bpt2.png)</span></span> 
+   <span data-ttu-id="b85a1-117">[![Aggiunta piani di budget](./media/bpt2-1024x274.png)](./media/bpt2.png)</span><span class="sxs-lookup"><span data-stu-id="b85a1-117">[![Budget plans add](./media/bpt2-1024x274.png)](./media/bpt2.png)</span></span> 
 
 <span data-ttu-id="b85a1-118">È possibile rivedere la configurazione del layout e modificarla in base alle necessità.</span><span class="sxs-lookup"><span data-stu-id="b85a1-118">You can review the layout configuration and adjust it as needed.</span></span> 
 1. <span data-ttu-id="b85a1-119">Passare a **Modello** &gt; **Genera** per creare un file di Excel per il layout.</span><span class="sxs-lookup"><span data-stu-id="b85a1-119">Go to **Template** &gt; **Generate** to create an Excel file for this layout.</span></span> 

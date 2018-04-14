@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2a46173a3566a56a21add9d42c111d456b1ae7c1
-ms.openlocfilehash: 7a1e2b6fd4ff86a7cd0bd62a1c434073fd9c473d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6440bae664e4eac6643e480dbf60191fb0050375
 ms.contentlocale: it-it
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-agreement-groups"></a><span data-ttu-id="d2691-103">Gruppi contratti di assistenza</span><span class="sxs-lookup"><span data-stu-id="d2691-103">Service agreement groups</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d2691-104">I gruppi di contratti di assistenza sono utili per ordinare e filtrare i contratti di assistenza.</span><span class="sxs-lookup"><span data-stu-id="d2691-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span> <span data-ttu-id="d2691-105">Grazie a tali gruppi è possibile, ad esempio, raggruppare i contratti in base alle dimensioni della società, alla posizione geografica o al settore.</span><span class="sxs-lookup"><span data-stu-id="d2691-105">Use service agreement groups to group service agreements by, for example, company size, geographical location, or industry type.</span></span> <span data-ttu-id="d2691-106">In alternativa, il raggruppamento può essere eseguito in base al livello di servizio offerto a un cliente.</span><span class="sxs-lookup"><span data-stu-id="d2691-106">Alternatively, you can use agreement groups to group service agreements by the level of service offered to a customer.</span></span>
 

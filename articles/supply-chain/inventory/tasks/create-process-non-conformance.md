@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 3293e918c6c1e2b1a71d6ff24761a26b83a0616b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adecf9b2ea29abaee378f1c02c64551c3aeede6d
 ms.contentlocale: it-it
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-process-a-conformance"></a><span data-ttu-id="1a2bd-103">Creare ed elaborare una conformità</span><span class="sxs-lookup"><span data-stu-id="1a2bd-103">Create and process a conformance</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1a2bd-104">Utilizzare questa procedura per eseguire la gestione di non conformità, in base a un ordine di controllo qualità esistente.</span><span class="sxs-lookup"><span data-stu-id="1a2bd-104">Use this procedure to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="1a2bd-105">È possibile eseguire questa registrazione nella società dimostrativa USMF e utilizzare i valori suggeriti.</span><span class="sxs-lookup"><span data-stu-id="1a2bd-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="1a2bd-106">In genere, questa procedura viene eseguita da un addetto al controllo qualità.</span><span class="sxs-lookup"><span data-stu-id="1a2bd-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="1a2bd-107">Come prerequisito, eseguire la registrazione attività "Verificare la qualità delle merci".</span><span class="sxs-lookup"><span data-stu-id="1a2bd-107">As a prerequisite, run the “Inspect the quality of goods” task recording.</span></span> <span data-ttu-id="1a2bd-108">Per elaborare l'approvazione di una non conformità, l'utente che esegue la registrazione attività deve avere un valore "Nome" assegnato alla pagina Utenti.</span><span class="sxs-lookup"><span data-stu-id="1a2bd-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="1a2bd-109">Per utilizzare le note del documento, l'utente deve inoltre avere Gestione documenti attivata nelle opzioni utente.</span><span class="sxs-lookup"><span data-stu-id="1a2bd-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
 

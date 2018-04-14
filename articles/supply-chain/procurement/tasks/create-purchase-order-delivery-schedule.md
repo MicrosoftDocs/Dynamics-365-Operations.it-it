@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0e86c33580cbcafb16f508c2f6330d81422f12d
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="a0798-103">Creare un ordine fornitore con una programmazione consegna</span><span class="sxs-lookup"><span data-stu-id="a0798-103">Create a purchase order with a delivery schedule</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a0798-104">Questa procedura dimostra come creare una programmazione consegna per un ordine foritore.</span><span class="sxs-lookup"><span data-stu-id="a0798-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="a0798-105">Una programmazione consegna viene utilizzata quando si richiede che una quantità di un ordine o su un giornale di registrazione venga consegnata in più spedizioni.</span><span class="sxs-lookup"><span data-stu-id="a0798-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="a0798-106">L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="a0798-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="a0798-107">Questa procedura viene in genere eseguita da un addetto agli acquisti.</span><span class="sxs-lookup"><span data-stu-id="a0798-107">This procedure would typically be done by a purchasing agent.</span></span>
 

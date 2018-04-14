@@ -19,17 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
 ms.contentlocale: it-it
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="25571-103">Panoramica dell'approvvigionamento</span><span class="sxs-lookup"><span data-stu-id="25571-103">Procurement and sourcing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="25571-104">In questo articolo viene fornita una panoramica della funzionalità disponibile nel modulo Approvvigionamento.</span><span class="sxs-lookup"><span data-stu-id="25571-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 <span data-ttu-id="25571-108">La necessità di prodotti o servizi può sorgere da *richieste di approvvigionamento*, ad esempio quando un dipendente richiede un prodotto.</span><span class="sxs-lookup"><span data-stu-id="25571-108">The need for products or services may arise from *requisitions*, for example, when an employee requires a product.</span></span> <span data-ttu-id="25571-109">I *cataloghi prodotti* possono essere impostati per guidare la selezione dei prodotti disponibili. In alternativa le richieste possono essere effettuate per prodotti non ancora disponibili in un catalogo e permettere al reparto acquisti di verificare il modo in cui il prodotto può essere fornito.</span><span class="sxs-lookup"><span data-stu-id="25571-109">*Product catalogs* can be set up to guide the selection of available products to select from, or requests can be made for products that are not yet made available in a catalog, allowing the purchasing department to consider how the product can be supplied.</span></span>  
 
 <span data-ttu-id="25571-110">Il parametro *Limiti spesa* consente di impostare vincoli relativi alla spesa della richiesta di acquisto. Il *flusso di lavoro di acquisto* aggiunge l'opzione di richiesta di approvazione prima che venga effettuato l'ordine.</span><span class="sxs-lookup"><span data-stu-id="25571-110">*Spending limits* can be used to constrain requisition spending, and the *purchasing workflow* adds the option of requiring approval before ordering happen.</span></span> <span data-ttu-id="25571-111">È inoltre possibile specificare delle allocazioni dei fondi di budget, se necessario.</span><span class="sxs-lookup"><span data-stu-id="25571-111">It's also possible to specify budget fund allocation, if required.</span></span>  
-  
+
 <span data-ttu-id="25571-112">Il reparto di approvvigionamento identifica i fornitori per i prodotti e i servizi richiesti e questo può determinare l'invio di una *richiesta di offerta* a più fornitori potenziali.</span><span class="sxs-lookup"><span data-stu-id="25571-112">The procurement department identifies suppliers for required products and services, and this can involve a *request for quotation* being sent out to multiple potential suppliers.</span></span> <span data-ttu-id="25571-113">È possibile condividere le specifiche del prodotto richiesto e i fornitori potenziali possono visualizzare e controllare se possono consegnare un prodotto conforme a tali specifiche.</span><span class="sxs-lookup"><span data-stu-id="25571-113">It's possible to share the specifications of the product that's being requested and potential vendors can view these to see if they can deliver a product that conforms with them.</span></span> <span data-ttu-id="25571-114">I fornitori restituiscono le offerte che vengono verificate dal reparto di approvvigionamento prima di selezionare il fornitore desiderato.</span><span class="sxs-lookup"><span data-stu-id="25571-114">Vendors return their bids which are then reviewed by the procurement department before they select the supplier that they want to procure from.</span></span>  
 
 <span data-ttu-id="25571-115">Gli ordini fornitore includono un'opzione per inviare la *richiesta di acquisto* al fornitore come alternativa a un processo più completo della richiesta di offerta.</span><span class="sxs-lookup"><span data-stu-id="25571-115">Purchase orders include an option to send out a *purchase inquiry* to the vendor as an alternative to a more comprehensive request for quotation process.</span></span> <span data-ttu-id="25571-116">La richiesta di acquisto può essere utilizzata per contribuire a stabilire termini quali prezzi, sconti e data di consegna dell'ordine.</span><span class="sxs-lookup"><span data-stu-id="25571-116">The purchase inquiry can be used to help establish terms like prices, discounts, and delivery date for the order.</span></span> <span data-ttu-id="25571-117">Se i fornitori sono impostati per l'uso del portale **Fornitore**, la funzionalità di richiesta di acquisto è disabilitata.</span><span class="sxs-lookup"><span data-stu-id="25571-117">If vendors are set up to use the **Vendor** portal, purchase inquiry functionality is disabled.</span></span> <span data-ttu-id="25571-118">L'ordine viene condiviso nel portale**fornitori** e quando viene inviata una *richiesta di conferma* il fornitore può direttamente confermare l'ordine.</span><span class="sxs-lookup"><span data-stu-id="25571-118">Instead the order is shared on the **Vendor** portal, and when a *confirmation request* is sent the vendor can directly confirm the order.</span></span>  
