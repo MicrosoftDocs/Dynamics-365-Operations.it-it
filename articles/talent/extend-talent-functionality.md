@@ -3,7 +3,7 @@ title: "Estendere la funzionalità di Microsoft Dynamics 365 for Talent"
 description: "Se sono state create Microsoft PowerApps, è possibile avviare tali applicazioni dai collegamenti in Microsoft Dynamics 365 for Talent."
 author: rschloma
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -35,15 +35,16 @@ Utilizzare la pagina **Imposta Microsoft PowerApps incorporate** per configurare
 
 In questa pagina vengono inserite o impostate le informazioni seguenti: 
 
-> - Un nome descrittivo o un identificatore per ciascuna applicazione PowerApps.
-> - Un identificatore univoco (GUID) per ciascuna applicazione che si aggiunge a una pagina di Talent. L'ID app è disponibile nel sito di PowerApps, [powerapps.com](http://powerapps.com/). 
-> - La pagina da cui gli utenti possono aprire un'applicazione o un report. Non tutte le pagine di Talent supportano PowerApps e i report Power BI. 
-> 
-> [!NOTE]
->  Immettere il nome interno della pagina, anziché il nome visualizzato che appare in cima alla pagina. Per trovare il nome interno, aprire la pagina di cui si necessita il nome interno e fare clic con il pulsante destro del mouse in un punto qualsiasi della pagina. Quando si apre il menu, posizionare il puntatore del mouse sulla voce **Informazioni modulo**. Il nome interno del modulo viene visualizzato accanto alla voce **Modulo informazioni** nel menu.
-> 
-> - Specificare il controllo del modulo da cui l'applicazione può recuperare i dati del contesto. Ad esempio, un'applicazione potrebbe utilizzare i dati di un lavoratore. Se si accede alla pagina **Lavoratore** nel campo **Contesto**, la pagina **Lavoratore** si aprirà quando si avvia l'applicazione. Qualsiasi immissione nel campo **Contesto** è facoltativa. 
-> - Impostare le dimensioni della finestra di dialogo in cui sarà eseguita l'applicazione PowerApps. Le finestre di dialogo sono indicate come "piccole" o "grandi" al fine di ottimizzare l'interfaccia utente quando l'applicazione viene eseguita rispettivamente su un telefono o un dispositivo più grande. 
+ -  Un nome descrittivo o un identificatore per ciascuna applicazione PowerApps.
+ -  Un identificatore univoco (GUID) per ciascuna applicazione che si aggiunge a una pagina di Talent. L'ID app è disponibile nel sito di PowerApps, [powerapps.com](http://powerapps.com/). 
+ -  La pagina da cui gli utenti possono aprire un'applicazione o un report. Non tutte le pagine di Talent supportano PowerApps e i report Power BI. 
+
+ > [!NOTE]
+ >  Immettere il nome interno della pagina, anziché il nome visualizzato che appare in cima alla pagina. Per trovare il nome interno, aprire la pagina di cui si necessita il nome interno e fare clic con il pulsante destro del mouse in un punto qualsiasi della pagina. Quando si apre il menu, posizionare il puntatore del mouse sulla voce **Informazioni modulo**. Il nome interno del modulo viene visualizzato accanto alla voce **Modulo informazioni** nel menu.
+ 
+-   Specificare il controllo del modulo da cui l'applicazione può recuperare i dati del contesto. Ad esempio, un'applicazione potrebbe utilizzare i dati di un lavoratore. Se si accede alla pagina **Lavoratore** nel campo **Contesto**, la pagina **Lavoratore** si aprirà quando si avvia l'applicazione. Qualsiasi immissione nel campo **Contesto** è facoltativa. 
+-   Impostare le dimensioni della finestra di dialogo in cui sarà eseguita l'applicazione PowerApps. Le finestre di dialogo sono indicate come "piccole" o "grandi" al fine di ottimizzare l'interfaccia utente quando l'applicazione viene eseguita rispettivamente su un telefono o un dispositivo più grande. 
+
 
 È anche possibile specificare le persone giuridiche per le quali un'applicazione sarà disponibile oppure renderla disponibile per tutte le persone giuridiche. Per impostazione predefinita, le applicazioni PowerApps sono disponibili per tutte le persone giuridiche.
 
