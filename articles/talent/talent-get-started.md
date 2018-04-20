@@ -33,7 +33,7 @@ In Microsoft Dynamics 365 for Talent è facile modificare l'interfaccia utente e
 > [!NOTE] 
 > I seguenti prodotti sono strettamente connessi: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent. La stessa funzionalità può apparire in tutti e 3 prodotti. Di conseguenza, negli argomenti correlati principalmente a Retail, il nome del prodotto sarà Dynamics 365 for Retail; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 for Talent; e negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 for Finance and Operations. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
 
-### <a name="personalizing-talent"></a>Personalizzazione di Talent 
+## <a name="personalizing-talent"></a>Personalizzazione di Talent 
 Nei seguenti argomenti viene illustrato come impostare molte funzionalità di Dynamics 365 for Talent che rendono l'esecuzione delle attività più semplice ed efficace. 
 
 -   [Personalizzare l'esperienza utente](../fin-and-ops/get-started/personalize-user-experience.md) - In questo argomento vengono descritti i vari modi in cui è possibile personalizzare Talent e adattare parti del prodotto in base alle proprie preferenze.
@@ -44,7 +44,7 @@ Nei seguenti argomenti viene illustrato come impostare molte funzionalità di Dy
 
 -   [Tasti di scelta rapida](../fin-and-ops/get-started/shortcut-keys.md) - In questo argomento sono elencati i tasti di scelta rapida per il layout di tastiera degli Stati Uniti. 
 
-### <a name="accessing-information"></a>Accesso alle informazioni
+## <a name="accessing-information"></a>Accesso alle informazioni
 Negli argomenti riportati di seguito viene descritto come utilizzare le ricerche e le funzionalità di filtro e di ricerca per trovare rapidamente le informazioni. 
 
 -   [Utilizzare le ricerche per trovare informazioni](../fin-and-ops/get-started/use-lookups-to-find-information.md) - In questo argomento viene illustrato come le ricerche consentono di trovare rapidamente il valore corretto o desiderato. L'argomento descrive come vengono eseguite le ricerche e include suggerimenti per ottimizzarne l'uso.
