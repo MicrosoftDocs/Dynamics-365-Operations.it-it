@@ -31,7 +31,7 @@
 ## [Cataloghi del servizio clienti](call-center-catalogs.md)
 ## [Creare un catalogo del servizio clienti](create-call-center-catalogs.md)
 ## [Impostare avvisi antifrode](set-up-fraud-alerts.md)
-## [Impostare le opzioni di elaborazione dell'ordine](set-up-order-processing-options.md)
+## [Impostare un servizio clienti](set-up-order-processing-options.md)
 ## [Impostare un programma di continuità per un servizio clienti](set-up-continuity-program.md)
 ## [Sospensioni ordine](work-with-order-holds.md)
 ## [Opzioni di pagamento](work-with-payments.md)
@@ -47,8 +47,9 @@
 # Modern Point of Sale (MPOS) e Cloud POS
 ## [Scegliere tra Modern POS e Cloud POS](MPOS-or-CPOS.md)
 ## [Operazioni POS, online e offline](pos-operations.md)
-## [Layout dello schermo per dati dimostrativi in MPOS/CPOS](demo-data.md)
+## [Layout schermo con dati dimostrativi in MPOS/CPOS](demo-data.md)
 ## [Panoramica sulla funzionalità di ricerca prodotti e clienti in POS](POS-search-improvements.md)
+## [Ricerca di scorte nel POS](product-variants-POS.md)
 ## Periferiche hardware
 ### [Panoramica delle periferiche di vendita al dettaglio](retail-peripherals-overview.md)
 ### [Periferiche hardware POS testate da Microsoft](microsoft-tested-pos-hardware-peripherals.md)
@@ -95,7 +96,8 @@
 ## [Analizzare le prestazioni del punto vendita](store-performance-information.md)
 ## [Impostare l'analisi RFM](set-up-rfm-analysis.md)
 
-# Rettifiche prezzi e sconti
+# Sconti e rettifiche prezzi
+## [Gestione dei prezzi di vendita al dettaglio](price-management.md)
 ## [Rettifiche prezzi e sconti](price-adjustments-discounts.md)
 ## [Determinare la combinazione ottimale di sconti sovrapposti](optimal-combination-overlapping-discounts.md)
 ## [Definire gli sconti specifici del canale](define-channel-specific-discounts.md)
@@ -138,15 +140,19 @@
 ## [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](../talent/departments-jobs-positions.md)
 ## [Impostazione dei componenti di una mansione](../talent/create-job.md)
 
-# Funzionalità per la normativa e la localizzazione
+# Funzionalità per la normativa e la localizzazione​
+## Francia
+### [Registratori di cassa per la Francia](localizations/emea-fra-cash-registers.md)
+### [Linee guida per la distribuzione dei registratori di cassa per la Francia](localizations/emea-fra-deployment.md)
 ## India
-### [Integrazione GST per i registratori di cassa in India](localizations/apac-ind-cash-registers.md)
-### [Linee guida per la distribuzione dei registratori di cassa per l'India](localizations/apac-ind-loc-deployment-guidelines.md)
+### [Integrazione GST per i registratori di cassa](localizations/apac-ind-cash-registers.md)
+### [Linee guida per la distribuzione dei registratori di cassa in India](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Norvegia
 ### [Registratori di cassa per la Norvegia](localizations/emea-nor-cash-registers.md)
-### [Linee guida per la distribuzione dei registratori di cassa per la Norvegia](localizations/emea-nor-loc-deployment-guidelines.md)
+### [Linee guida per la distribuzione dei registratori di cassa in Norvegia](localizations/emea-nor-loc-deployment-guidelines.md)
 ## Svezia
 ### [Registratori di cassa per la Svezia](localizations/emea-swe-cash-registers.md)
+### [Esempio di integrazione Retail POS con unità di controllo](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
 # Attività Retail
 ## [Creare un prodotto](../supply-chain/pim/tasks/create-product.md)
@@ -260,6 +266,7 @@
 ### [SDK della piattaforma e-commerce](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Estendibilità connettore pagamenti
+### [Integrazione di pagamento con un terminale di pagamento](dev-itpro/end-to-end-payment-extension.md)
 ### [Implementare un connettore pagamenti e un dispositivo di pagamento (white paper)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Distribuire un connettore pagamenti](dev-itpro/deploy-payment-connector.md)
 ### [Creare un'istanza di Windows Installer per un connettore pagamenti](dev-itpro/create-windows-installer-payment-connector.md)
@@ -269,7 +276,8 @@
 ### [Esempi di estendibilità di Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Confezione di Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Esempi di Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
-### [Estensioni del database del canale](dev-itpro/channel-db-extensions.md)
+#### [Punti di estensione per i documenti di trasporto](dev-itpro/extensions-shipping-carrier-integration.md)
+### [Estensioni del database del canale (DB)](dev-itpro/channel-db-extensions.md)
 ### [Estendibilità CDX](dev-itpro/cdx-extensibility.md)
 ### [Attributi ordine](dev-itpro/order-attributes.md)
 ### [Attributi cliente](dev-itpro/customer-attributes.md)

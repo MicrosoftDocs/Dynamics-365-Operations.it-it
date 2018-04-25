@@ -3,7 +3,7 @@
 # [Introduzione](talent-get-started.md)
 ## [Requisiti di sistema e criteri di aggiornamento](talent-versions-update-policy.md)
 ## [Eseguire il provisioning di Microsoft Dynamics 365 for Talent](provisioning-talent.md)
-## [Rimuovere un ambiente Talent](remove-test-environment.md)
+## [Rimuovere un ambiente Talent](remove-talent-environment.md)
 ## [Eseguire il provisioning delle app modulari di Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [Estendere le funzionalità di Talent](extend-talent-functionality.md)
 
@@ -13,6 +13,7 @@
 ## [Impostare i parametri di Risorse umane per le persone giuridiche](set-up-hr-parameters-across-legal-entities.md)
 ## [Impostare i parametri di Risorse umane specifici della società](set-up-company-specific-hr-parameters.md)
 ## [Domande frequenti sulle azioni dipendente](personnel-actions-faq.md)
+## [Formalizzare i processi aziendali](formalize-business-processes.md)
 ## [Utilizzare il flusso di lavoro per gestire le informazioni del dipendente](workflow-manage-employee-information.md)
 ## [Panoramica di congedo e assenza](leave-absence-overview.md)
 
