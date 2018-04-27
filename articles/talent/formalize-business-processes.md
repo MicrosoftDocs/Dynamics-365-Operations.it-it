@@ -19,10 +19,10 @@ ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: 48f80eac5009e1a241d501b0c4a3a70b78f5d709
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1b50a97f5e2fc94255ff71702faf91ab36e68eb4
 ms.contentlocale: it-it
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="formalize-business-processes"></a>Formalizzare i processi aziendali
@@ -33,10 +33,10 @@ Dopo la creazione di un modello, è possibile avviare e monitorare un processo n
 ## <a name="business-process-template"></a>Modello di processo aziendale
 Un modello del processo aziendale elenca un gruppo di attività che costituiscono un processo aziendale. I responsabili e gli assistenti delle Risorse umane possono creare processi aziendali per impostazione predefinita.  Tuttavia, è possibile modificare questa impostazione nella configurazione di sicurezza modificando il diritto Gestire i processi aziendali generici.
 
-È possibile definire un Proprietario processo per ogni processo.  Il proprietario del processo avrà visibilità su tutte le attività per il processo e può riassegnarle o modificare le date di scadenza.  Ad esempio, il responsabile delle Risorse umane può creare un modello di processo aziendale per una revisione dei benefit.  Il responsabile delle retribuzioni e dei benefit può essere impostato come proprietario del processo, in modo da ottenere informazioni sulle attività che devono essere completate nell'ambito della revisione.  Un Proprietario processo non può creare o eliminare modelli di processo aziendale o processi aziendali attivi.
+È possibile definire un Proprietario processo per ogni processo. Il proprietario del processo avrà visibilità su tutte le attività per il processo e può riassegnarle o modificare le date di scadenza.  Ad esempio, il responsabile delle Risorse umane può creare un modello di processo aziendale per una revisione dei benefit.  Il responsabile delle retribuzioni e dei benefit può essere impostato come proprietario del processo, in modo da ottenere informazioni sulle attività che devono essere completate nell'ambito della revisione.  Un Proprietario processo non può creare o eliminare modelli di processo aziendale o processi aziendali attivi.
 
 ## <a name="task"></a>Compito
-Un processo aziendale spesso comprende molteplici attività. Alcune attività possono essere completate in Dynamics 365 per Talent[?], ad esempio la revisione di offerte di corsi interni. In questa istanza, una voce di menu verrebbe selezionata nel campo Collegamento attività. Altre attività potrebbero includere la verifica o il completamento di moduli su un sito Web. La selezione dell'URL nel campo Collegamento attività consente l'accesso all'indirizzo Web. È possibile immettere URL per siti interni ed esterni in questo campo. È inoltre possibile creare attività da completare manualmente, ad esempio la revisione dell'accessibilità di tutte le strutture. In questa istanza, un collegamento di attività non è obbligatorio. Questa flessibilità consente di monitorare più tipi di attività in un processo completo.
+Un processo aziendale spesso comprende molteplici attività. Alcune attività possono essere completate in Dynamics 365 per Talent, ad esempio la revisione di offerte di corsi interni. In questa istanza, una voce di menu viene selezionata nel campo Collegamento attività. Altre attività potrebbero includere la verifica o il completamento di moduli su un sito Web. La selezione dell'URL nel campo Collegamento attività consente l'accesso all'indirizzo Web. È possibile immettere URL per siti interni ed esterni in questo campo. È inoltre possibile creare attività da completare manualmente, ad esempio la revisione dell'accessibilità di tutte le strutture. In questa istanza, un collegamento di attività non è obbligatorio. Questa flessibilità consente di monitorare più tipi di attività in un processo completo.
 
 Le attività possono essere assegnate a un lavoratore specifico o a una posizione. Ad esempio, il responsabile delle retribuzioni e dei benefit sarà sempre la persona che conduce una revisione dei premi assicurativi.   Quando si crea questa attività, selezionare la posizione per il tipo di assegnazione, quindi selezionare Responsabile retribuzione e benefit dall'elenco Posizione. Quando il processo ha inizio, l'attività viene assegnata al lavoratore che occupa la posizione di responsabile retribuzione e benefit. È inoltre possibile assegnare un'attività a un lavoratore specifico selezionando Lavoratore nel campo Tipo di assegnazione e selezionando la persona appropriata.
 
@@ -44,7 +44,8 @@ Le date di scadenza dell'attività dipendono dalla data stabilita immessa all'in
 
 Le attività complesse possono richiedere più passaggi o che l'utente esegua le attività per fornire informazioni aggiuntive. È anche possibile aggiungere istruzioni all'attività e includere la formattazione RTF per le istruzioni. Le istruzioni possono fornire ulteriori informazioni su come completare l'attività per la persona che deve completarla.
 
-Avvio di un processo Un processo può essere avviato in un modello di processo aziendale selezionando Avvia processo.  Quando viene avviato un processo, le attività verranno create per i lavoratori selezionati e/o le ubicazioni definite nelle attività incluse nel modello di processo aziendale. Verrà assegnata una scadenza a ogni attività aggiungendo o sottraendo i giorni di offset dalla data di destinazione (vedere le informazioni relative ai giorni di offset nell'area delle attività). I processi aziendali possono essere visualizzati nell'area di lavoro Processi aziendali. 
+## <a name="starting-a-process"></a>Avvio di un processo
+Un processo può essere avviato in un modello di processo aziendale selezionando Avvia processo.  Quando viene avviato un processo, le attività verranno create per i lavoratori selezionati e/o le ubicazioni definite nelle attività incluse nel modello di processo aziendale. Verrà assegnata una scadenza a ogni attività aggiungendo o sottraendo i giorni di offset dalla data di destinazione (vedere le informazioni relative ai giorni di offset nell'area delle attività). I processi aziendali possono essere visualizzati nell'area di lavoro Processi aziendali. 
 
 ## <a name="employee-self-service"></a>Dipendente self-service
 Quando un'attività è assegnata a un dipendente, le relative attività assegnate possono essere visualizzate nella pagina Dipendente self-service. I dipendenti con un'attività di processo aziendale assegnata possono visualizzare l'attività, la relativa descrizione, le istruzioni per il completamento e il nome di un contatto e possono aprire la pagina Dynamics 365 o una pagina Web associata dalla propria pagina Dipendente self-service. Le attività possono essere contrassegnate come in corso, annullate o completate.
@@ -56,9 +57,9 @@ I professionisti delle Risorse umane possono visualizzare i processi aziendali a
 I proprietari processo possono visualizzare i processi aziendali attivi a essi assegnati dall'area di lavoro Processi aziendali personali. L'area di lavoro elenca tutti i processi attivi e le attività associate di proprietà dell'utente.  L'elenco di attività completo può essere filtrato in base alla data di scadenza. La pagina elenca inoltre le attività assegnate specificatamente al proprietario del processo. Il proprietario del processo può inoltre aggiornare lo stato di tutte le attività nonché riassegnare qualsiasi attività.
 
 ## <a name="navigating-business-processes"></a>Esplorazione dei processi aziendali
-1.   Per aggiungere un modello di processo, accedere a Processi aziendali – Collegamenti – Amministrazione di processi aziendali.
- - a.   Nuovo creerà un nuovo modello.
- - b.   Copia da modello copierà il modello selezionato in uno nuovo.
- - c.   Avvia processo avvierà il processo aziendale selezionato, assegnerà le attività e calcolerà le date di scadenza.  
-2.  Per visualizzare i processi attivi e le attività associate spostarsi sull'area di lavoro Processi aziendali.
+1. Per aggiungere un modello di processo, accedere a Processi aziendali – Collegamenti – Amministrazione di processi aziendali.
+   - a.   Nuovo creerà un nuovo modello.
+   - b.   Copia da modello copierà il modello selezionato in uno nuovo.
+   - c.   Avvia processo avvierà il processo aziendale selezionato, assegnerà le attività e calcolerà le date di scadenza.  
+2. Per visualizzare i processi attivi e le attività associate spostarsi sull'area di lavoro Processi aziendali.
 

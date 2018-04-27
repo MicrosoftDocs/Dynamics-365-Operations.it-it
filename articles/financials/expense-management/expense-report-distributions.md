@@ -18,24 +18,28 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 13d7478197c05211eda30f28b483ec68858ad464
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="distributions-on-an-expense-report"></a>Distribuzioni su una nota spese
 
-[!include[banner](../includes/banner.md)] Quando si immettono le spese in una nota spese, è possibile distribuire la spesa tra più progetti, dimensioni finanziarie o conti nell'organizzazione.
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Quando si immettono le spese in una nota spese, è possibile distribuire la spesa tra più progetti, dimensioni finanziarie o conti nell'organizzazione.
 
 Ad esempio, Nancy, rappresentante di Fabrikam, ha viaggiato da Copenaghen a Francoforte. A Francoforte, ha incontrato due organizzazioni per discutere progetti separati per ogni organizzazione. Nancy ha lavorato per sette giorni con l'organizzazione A sul progetto A e per tre giorni con l'organizzazione B sul progetto B.
 
 Poiché Nancy ha lavorato a due progetti separati durante la trasferta a Francoforte, quando immette le spese nella nota spese, le distribuisce in base al singolo progetto. Nella seguente tabella viene mostrato come Nancy ha distribuito le spese.
 
-| **Tipo di spesa** | **Importo spese totale** | **Importo distribuito per Il progetto A** | **Importo distribuito per Il progetto B** |
-|------------------|--------------------------|-------------------------------------|-------------------------------------|
-| Prezzo del treno       | 578 corone danesi                  | 405 corone danesi                             | 173 corone danesi                             |
-| Hotel            | 725 corone danesi                  | 557 corone danesi                             | 168 Euro                             |
-| Vitto            | 346 Euro                  | 284 Euro                             | 62 Euro                              |
+
+| <strong>Tipo di spesa</strong> | <strong>Importo spese totale</strong> | <strong>Importo distribuito per Il progetto A</strong> | <strong>Importo distribuito per Il progetto B</strong> |
+|-------------------------------|---------------------------------------|--------------------------------------------------|--------------------------------------------------|
+|          Prezzo del treno           |                578 corone danesi                |                     405 corone danesi                      |                     173 corone danesi                      |
+|             Hotel             |                725 corone danesi                |                     557 corone danesi                      |                     168 Euro                      |
+|             Vitto             |                346 Euro                |                     284 Euro                      |                      62 Euro                      |
+
 

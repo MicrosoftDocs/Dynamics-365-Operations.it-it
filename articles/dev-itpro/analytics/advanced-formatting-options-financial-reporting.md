@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09a182b50917bff449f76598d61c38ae18160dd1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8652766766a557d8399e6a94088a6f9bc82ff018
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opzioni di formattazione avanzate nei report finanziari
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Quando si crea un report nei report finanziari, sono disponibili funzioni di formattazione aggiuntive, inclusi i filtri per dimensioni, restrizioni per le colonne e le unità di report, righe non stampabili e istruzioni IF/THEN/ELSE nei calcoli. 
 
@@ -66,12 +65,13 @@ Gli esempi seguenti mostrano come formattare la definizione di riga e la definiz
 
 La tabella indicata di seguito mostra un esempio di una definizione di riga che utilizza il posizionamento forzato di base.
 
-| Codice di riga | descrizione                      | Codice formato | Formule/Righe/Unità correlate | Modificatore di riga | Collegamento a dimensioni finanziarie |
-|----------|----------------------------------|-------------|-----------------------------|----------------|----|
-| 100      | Liquidità a inizio periodo (NP) |             |                             | Modificatore di conto = \[/BB\] | +Segment2 = \[1100\]         |
-| 130      | Importo di cassa all'inizio del periodo      | CAL         | C=C.100,F=D.100             |               |     |   |
-| 160      |                                  |             |                             |              |     |   |
-| 190      |                                  |             |                             |                 |     |   |
+
+| Codice di riga |           descrizione            | Codice formato | Formule/Righe/Unità correlate |        Modificatore di riga        | Collegamento a dimensioni finanziarie |
+|----------|----------------------------------|-------------|-----------------------------|----------------------------|------------------------------|
+|   100    | Liquidità a inizio periodo (NP) |             |                             | Modificatore di conto = \[/BB\] |     +Segment2 = \[1100\]     |
+|   130    |   Importo di cassa all'inizio del periodo    |     CAL     |       C=C.100,F=D.100       |                            |                              |
+|   160    |                                  |             |                             |                            |                              |
+|   190    |                                  |             |                             |                            |                              |
 
 > [!NOTE] 
 > Le colonne vuote sono state rimosse dalla tabella precedente ai fini della presentazione: le colonne Sostituzione di formato, Saldo normale, Controllo stampa, Restrizione di colonna non sono visualizzate.
@@ -180,11 +180,11 @@ La cella **Restrizione di colonna** in una definizione di riga ha più scopi. A 
 -   La cella può specificare la colonna degli importi da ordinare.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Uso di una formula di calcolo in una definizione di riga
-Una formula di calcolo in una definizione di riga può includere gli operatori **+**, **-**, **\*** e **/** e anche le istruzioni **IF/THEN/ELSE**. Inoltre, un calcolo può includere singole celle e importi assoluti (i numeri effettivi inclusi nella formula). La formula può contenere 1024 caratteri al massimo. I calcoli non possono essere applicati alle righe contenenti le celle del tipo **Collegamento a dimensioni finanziarie** (FD). Tuttavia, è possibile includere i calcoli di righe consecutive, eliminare la stampa di quelle righe e quindi calcolare il totale delle righe di calcolo.
+Una formula di calcolo in una definizione di riga può includere gli operatori <strong>+</strong>, <strong>-</strong>, <strong>\\</strong> e **/** e anche le istruzioni <strong>IF/THEN/ELSE</strong>. Inoltre, un calcolo può includere singole celle e importi assoluti (i numeri effettivi inclusi nella formula). La formula può contenere 1024 caratteri al massimo. I calcoli non possono essere applicati alle righe contenenti le celle del tipo <strong>Collegamento a dimensioni finanziarie</strong> (FD). Tuttavia, è possibile includere i calcoli di righe consecutive, eliminare la stampa di quelle righe e quindi calcolare il totale delle righe di calcolo.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operatori in una formula di calcolo
 
-Una formula di calcolo utilizza operatori più complessi di una formula di totale delle righe. Tuttavia, è possibile utilizzare gli operatori **\*** e **/** con gli operatori aggiuntivi per moltiplicare (\*) e per dividere (/) gli importi. Per utilizzare un intervallo o una somma in una formula di calcolo, è necessario utilizzare la chiocciola (@) davanti a qualsiasi codice di riga, a meno che stiate utilizzando una colonna nella definizione di riga. Ad esempio, per sommare l'importo nella riga 100 all'importo nella riga 330, è possibile utilizzare la formula del totale delle righe **100+330** o la formula di calcolo **@100+@330**. **Nota:** Utilizzare la chiocciola (@) prima di ciascun codice di riga utilizzato in una formula di calcolo. In caso contrario, il numero viene letto come importo assoluto. Ad esempio, la formula **@100+330** aggiunge 330 USD all'importo nella riga 100. Quando si fa riferimento a una colonna in una formula di calcolo, la chiocciola (@) non è necessaria.
+Una formula di calcolo utilizza operatori più complessi di una formula di totale delle righe. Tuttavia, è possibile utilizzare gli operatori <strong>\\</strong>* e <strong>/</strong> con gli operatori aggiuntivi per moltiplicare (\*) e dividere (/) gli importi. Per utilizzare un intervallo o una somma in una formula di calcolo, è necessario utilizzare la chiocciola (@) davanti a qualsiasi codice di riga, a meno che stiate utilizzando una colonna nella definizione di riga. Ad esempio, per sommare l'importo nella riga 100 all'importo nella riga 330, è possibile utilizzare la formula del totale delle righe <strong>100+330</strong> o la formula di calcolo <strong>@100+@330</strong>. <strong>Nota:</strong> Utilizzare la chiocciola (@) prima di ciascun codice di riga utilizzato in una formula di calcolo. In caso contrario, il numero viene letto come importo assoluto. Ad esempio, la formula <strong>@100+330</strong> aggiunge 330 USD all'importo nella riga 100. Quando si fa riferimento a una colonna in una formula di calcolo, la chiocciola (@) non è necessaria.
 
 ### <a name="create-a-calculation-formula"></a>Creare una formula di calcolo
 
@@ -202,7 +202,7 @@ In questo esempio, la formula di calcolo **@100+@330** indica che l'importo nell
 | 370      | Liquidità a inizio anno   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Liquidità a inizio periodo | TOT         | 340+370                    |               |              |                              |
 
-Quando la riga in una definizione di riga ha un codice formato **CAL** e si immette un calcolo matematico nella cella **Unità/righe/formule correlate**, è inoltre necessario immettere la lettera della colonna e della riga associate nel report. Ad esempio, immettere **A.120** per indicare la colonna A, riga 120. In alternativa, è possibile utilizzare la chiocciola (@) per indicare tutte le colonne. Ad esempio, immettere **@120** per indicare tutte le colonne, riga 120. Tutti i calcoli matematici per cui non è presente una lettera di colonna o una chiocciola (@) vengono considerati come un numero reale. **Nota:** se si utilizza un codice di riga etichetta per fare riferimento a una riga, è necessario utilizzare un punto (.) come separatore tra la lettera di colonna e l'etichetta (ad esempio, **A.GROSS\_MARGIN/A.SALES**). Se si utilizza la chiocciola (@), il separatore non è necessario (ad esempio, **@GROSS\_MARGIN/@SALES**).
+Quando la riga in una definizione di riga ha un codice formato <strong>CAL</strong> e si immette un calcolo matematico nella cella <strong>Unità/righe/formule correlate</strong>, è inoltre necessario immettere la lettera della colonna e della riga associate nel report. Ad esempio, immettere <strong>A.120</strong> per indicare la colonna A, riga 120. In alternativa, è possibile utilizzare la chiocciola (@) per indicare tutte le colonne. Ad esempio, immettere <strong>@120</strong> per indicare tutte le colonne, riga 120. Tutti i calcoli matematici per cui non è presente una lettera di colonna o una chiocciola (@) vengono considerati come un numero reale. <strong>Nota:</strong> se si utilizza un codice di riga etichetta per fare riferimento a una riga, è necessario utilizzare un punto (.) come separatore tra la lettera di colonna e l'etichetta (ad esempio, <strong>A.GROSS\_MARGIN/A.SALES</strong>). Se si utilizza la chiocciola (@), il separatore non è necessario (ad esempio, <strong>@GROSS\_MARGIN/@SALES</strong>).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Esempio di una formula di calcolo per una colonna specifica
 
@@ -255,17 +255,17 @@ Le formule **THEN** ed **ELSE** possono essere qualsiasi calcolo valido, da asse
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Limitazione di un calcolo a un'unità gerarchica in una definizione di riga
 
-Per limitare un calcolo a un'unica unità gerarchica in un albero gerarchico, in modo che l'importo risultante non sia sottoposto a rollup in un'unità di livello superiore, è possibile utilizzare il codice **@Unit** nella cella **Unità/righe/formule correlate** nella definizione di riga. Il codice **@Unit** è presente nella colonna B dell'albero gerarchico, **Nome unità**. Quando si utilizza il codice **@Unit**, non viene eseguito il rollup dei valori, ma il calcolo viene valutato a ogni livello dell'albero gerarchico. **Nota:** Per utilizzare questa funzione, un albero gerarchico deve essere associato alla definizione di riga. La riga di calcolo può fare riferimento a una riga di calcolo o una riga di dati finanziari. Il calcolo viene registrato nella cella **Unità/righe/formule correlate** della definizione di riga e nella restrizione di tipo di dati finanziari. Il calcolo deve utilizzare un calcolo condizionale che inizia con una costruzione **IF @Unit**. Ecco un esempio: IF @Unit(SALES) THEN @100 ELSE 0 Questo calcolo include l'importo della riga 100 in ogni colonna del report, ma solo per l'unità SALES. Se più unità sono denominate SALES, l'importo viene visualizzato in ciascuna di queste unità. Inoltre, la riga 100 può essere una riga di dati finanziari e può essere definita come da non stampare. In questo caso, si impedisce all'importo di apparire in tutte le unità dell'albero. È inoltre possibile limitare l'importo a una singola colonna del report, ad esempio la colonna H, utilizzando una restrizione di colonna per stampare il valore solo in quella colonna del report. È possibile includere combinazioni **OR** in un'istruzione **IF**. Ecco un esempio: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 È possibile specificare un'unità in una restrizione di tipo calcolo in uno dei seguenti modi:
+Per limitare un calcolo a un'unica unità gerarchica in un albero gerarchico, in modo che l'importo risultante non sia sottoposto a rollup in un'unità di livello superiore, è possibile utilizzare il codice <strong>@Unit</strong> nella cella <strong>Unità/righe/formule correlate</strong> nella definizione di riga. Il codice <strong>@Unit</strong> è presente nella colonna B dell'albero gerarchico, <strong>Nome unità</strong>. Quando si utilizza il codice <strong>@Unit</strong>, non viene eseguito il rollup dei valori, ma il calcolo viene valutato a ogni livello dell'albero gerarchico. <strong>Nota:</strong> Per utilizzare questa funzione, un albero gerarchico deve essere associato alla definizione di riga. La riga di calcolo può fare riferimento a una riga di calcolo o una riga di dati finanziari. Il calcolo viene registrato nella cella <strong>Unità/righe/formule correlate</strong> della definizione di riga e nella restrizione di tipo di dati finanziari. Il calcolo deve utilizzare un calcolo condizionale che inizia con una costruzione <strong>IF @Unit</strong>. Ecco un esempio: IF @Unit(SALES) THEN @100 ELSE 0 Questo calcolo include l'importo della riga 100 in ogni colonna del report, ma solo per l'unità SALES. Se più unità sono denominate SALES, l'importo viene visualizzato in ciascuna di queste unità. Inoltre, la riga 100 può essere una riga di dati finanziari e può essere definita come da non stampare. In questo caso, si impedisce all'importo di apparire in tutte le unità dell'albero. È inoltre possibile limitare l'importo a una singola colonna del report, ad esempio la colonna H, utilizzando una restrizione di colonna per stampare il valore solo in quella colonna del report. È possibile includere combinazioni <strong>OR</strong> in un'istruzione <strong>IF</strong>. Ecco un esempio: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 È possibile specificare un'unità in una restrizione di tipo calcolo in uno dei seguenti modi:
 
--   Immettere un nome di unità per includere le unità che corrispondono. Ad esempio, **IF @Unit(SALES)** abilita il calcolo per qualsiasi unità denominata SALES, anche se sono presenti più unità SALES nell'albero gerarchico.
--   Immettere il nome della società e dell'unità per limitare il calcolo a unità specifiche di una società specifica. Ad esempio, immettere **IF @Unit(ACME:SALES**) per limitare il calcolo alle unità SALES della società ACME.
--   Immettere il codice gerarchia completo dell'albero gerarchico per limitare il calcolo a un'unità specifica. Ad esempio, immettere **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Nota:** Per trovare il codice gerarchia completo, fare clic con il pulsante destro del mouse sulla definizione di albero gerarchico e selezionare **Copia identificatore unità gerarchica (codice H)**.
+- Immettere un nome di unità per includere le unità che corrispondono. Ad esempio, <strong>IF @Unit(SALES)</strong> abilita il calcolo per qualsiasi unità denominata SALES, anche se sono presenti più unità SALES nell'albero gerarchico.
+- Immettere il nome della società e dell'unità per limitare il calcolo a unità specifiche di una società specifica. Ad esempio, immettere <strong>IF @Unit(ACME:SALES</strong>) per limitare il calcolo alle unità SALES della società ACME.
+- Immettere il codice gerarchia completo dell'albero gerarchico per limitare il calcolo a un'unità specifica. Ad esempio, immettere <strong>IF @Unit(SUMMARY^ACME^WEST COAST^SALES)</strong>. <strong>Nota:</strong> Per trovare il codice gerarchia completo, fare clic con il pulsante destro del mouse sulla definizione di albero gerarchico e selezionare <strong>Copia identificatore unità gerarchica (codice H)</strong>.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Restringere un calcolo a un'unità gerarchica
 
-1.  In Progettazione report fare clic su **Definizioni di riga**, quindi aprire la definizione di riga che si intende modificare.
-2.  Fare doppio clic sulla cella **Codice formato** quindi selezionare **CAL**.
-3.  Fare clic sulla cella **Unità/righe/formule correlate** quindi immettere un calcolo condizionale che inizia con una costruzione **IF @Unit**.
+1. In Progettazione report fare clic su **Definizioni di riga**, quindi aprire la definizione di riga che si intende modificare.
+2. Fare doppio clic sulla cella **Codice formato** quindi selezionare **CAL**.
+3. Fare clic sulla cella <strong>Unità/righe/formule correlate</strong> quindi immettere un calcolo condizionale che inizia con una costruzione <strong>IF @Unit</strong>.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Istruzioni IF/THEN/ELSE in una definizione di colonna
 

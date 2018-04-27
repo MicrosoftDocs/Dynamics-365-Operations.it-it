@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc2fa16a44b6421d56e9cb662cfaa26da5b1c5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a>Strutture di suddivisione del lavoro
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Una struttura di suddivisione del lavoro è una descrizione del lavoro che verrà eseguito per un progetto. È una gerarchia di attività che rappresenta la conoscenza da parte del team di progetto della composizione del lavoro e delle dimensione, del costo e della durata di ciascun componente o attività. Una struttura di suddivisione del lavoro presenta tre scopi principali:
 
@@ -115,7 +115,7 @@ La stima di programmazione è generalmente il secondo passaggio per la creazione
 
 La data di inizio di un'attività del nodo foglia senza attività precedenti viene automaticamente impostata sulla data di inizio della programmazione del progetto. La durata di un'attività del nodo foglia viene sempre calcolata come il numero di giorni lavorativi tra le relative date di inizio e di fine. 
 
-****Regole di programmazione**** Se è attivata l'assistenza per la programmazione automatica, le seguenti regole vengono applicate alla programmazione delle attività del nodo foglia:
+*<strong><em>Regole di programmazione</em></strong>*: se è attivata l'assistenza per la programmazione automatica, le seguenti regole vengono applicate alla programmazione delle attività del nodo foglia:
 
 -   La data di inizio e di fine di un'attività devono essere giorni lavorativi, in base al calendario di programmazione del progetto.
 -   La data di inizio di un'attività con attività precedenti viene automaticamente impostata sulla data di fine più recente delle relative attività precedenti.

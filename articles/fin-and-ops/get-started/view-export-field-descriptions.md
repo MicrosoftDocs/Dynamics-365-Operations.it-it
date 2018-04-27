@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Visualizzare ed esportare le descrizioni campi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene descritto come visualizzare le descrizioni dei campi e come utilizzare la pagina Descrizioni campi per esportare le descrizioni.
 
@@ -77,7 +76,7 @@ Vi sono diversi modi per cercare una pagina nel campo **Seleziona pagina**. In m
     -   Se esiste più di una corrispondenza esatta, nessuna descrizione viene visualizzata. È necessario aprire l'elenco a discesa e selezionare la pagina desiderata.
     -   Se il nome digitato è parte del nome di un'altra pagina, sarà possibile visualizzare le descrizioni della pagina. Tuttavia, se si apre l'elenco a discesa, vengono visualizzate altre pagine che contengono il nome.
 
-Ad esempio, nessuna descrizione viene visualizzata quando si digita **Conteggio** nel campo ****Seleziona pagina****. Si apre l'elenco a discesa e si nota che ci sono due pagine con il nome **Conteggio**, nonché varie pagine il cui nome contiene la parola "Conteggio". Se si seleziona la pagina che presenta il nome AOT **InventJournalCount**, vengono visualizzate le descrizioni dei campi per tale pagina. Tuttavia, se si apre nuovamente l'elenco a discesa, si noterà che l'elenco ora contiene tutte le pagine che presentano come parte del loro nome AOT "InventJournalCount".
+Ad esempio, nessuna descrizione viene visualizzata quando si digita <strong>Conteggio</strong> nel campo *<strong><em>Seleziona pagina</em></strong>*. Si apre l'elenco a discesa e si nota che ci sono due pagine con il nome <strong>Conteggio</strong>, nonché varie pagine il cui nome contiene la parola "Conteggio". Se si seleziona la pagina che presenta il nome AOT <strong>InventJournalCount</strong>, vengono visualizzate le descrizioni dei campi per tale pagina. Tuttavia, se si apre nuovamente l'elenco a discesa, si noterà che l'elenco ora contiene tutte le pagine che presentano come parte del loro nome AOT "InventJournalCount".
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 In questa sezione vengono fornite informazioni per consentire la risoluzione dei problemi che si possono riscontrare utilizzando le descrizioni campi.

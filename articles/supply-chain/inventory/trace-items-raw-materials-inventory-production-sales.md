@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: it-it
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Traccia di articoli e materie prime in magazzino, nella produzione e nelle vendite
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare la tracciabilità articolo per identificare il punto in cui vengono utilizzati gli articoli o le materie prime o quello in cui verranno utilizzati nei processi di produzione e vendita.
 
@@ -129,7 +128,7 @@ Dopo aver eseguito la traccia, è possibile utilizzare le opzioni seguenti del p
 Se si desidera utilizzare l'opzione **Nuovo indietro** o **Nuovo avanti**, è necessario utilizzare la funzionalità **Apri in nuova finestra** per visualizzare una nuova traccia in una nuova finestra.
 
 ## <a name="can-i-save-the-trace-details"></a>È possibile salvare i dettagli traccia?
-È possibile salvare le informazioni nella scheda **Dettagli** come file XML facendo clic su **Esporta** sotto l'azione ****Tracciatura**** nel Riquadro azioni. Oltre ai dettagli traccia, il file XML include i criteri di traccia, il nodo padre e la quantità disponibile. La funzionalità per salvare i dettagli di una traccia è utile se, ad esempio, si desidera collegare le informazioni a un ordine di controllo qualità o ad altra documentazione di conformità. È possibile specificare dove il file viene salvato. Per visualizzare il file immediatamente, selezionare l'opzione **Mostra documento**. **Nota:** il file viene sempre salvato, anche se si desidera solo visualizzarlo. Per impostazione predefinita, il file XML verrà visualizzato in una finestra del browser. Tuttavia, è possibile fare clic con il pulsante destro del mouse sul file, selezionare **Apri con** e quindi il programma da utilizzare per visualizzare i contenuti.
+È possibile salvare le informazioni nella scheda <strong>Dettagli</strong> come file XML facendo clic su <strong>Esporta</strong> sotto l'azione *<strong><em>Tracciatura</em></strong>* nel Riquadro azioni. Oltre ai dettagli traccia, il file XML include i criteri di traccia, il nodo padre e la quantità disponibile. La funzionalità per salvare i dettagli di una traccia è utile se, ad esempio, si desidera collegare le informazioni a un ordine di controllo qualità o ad altra documentazione di conformità. È possibile specificare dove il file viene salvato. Per visualizzare il file immediatamente, selezionare l'opzione <strong>Mostra documento</strong>. <strong>Nota:</strong> il file viene sempre salvato, anche se si desidera solo visualizzarlo. Per impostazione predefinita, il file XML verrà visualizzato in una finestra del browser. Tuttavia, è possibile fare clic con il pulsante destro del mouse sul file, selezionare <strong>Apri con</strong> e quindi il programma da utilizzare per visualizzare i contenuti.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>È possibile calcolare un saldo per un articolo o un ingrediente specifico?
 È possibile esportare le informazioni contenute nelle pagine di riepilogo in Microsoft Excel. Aprire la pagina rilevante, fare clic sull'icona **Apri in Microsoft Office** quindi selezionare **Esporta in Microsoft Excel**. Questa funzionalità risulta particolarmente utile se si desidera calcolare un saldo collettivo per un articolo o un ingrediente dalla pagina **Riepilogo delle transazioni**. Nella pagina **Riepilogo delle transazioni** è possibile filtrare l'articolo o l'ingrediente e, facoltativamente, il batch, quindi esportare le informazioni in Excel. In Excel, è ad esempio possibile isolare la quantità disponibile, la quantità venduta e quella utilizzata nella produzione.

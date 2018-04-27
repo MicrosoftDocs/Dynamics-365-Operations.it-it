@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: it-it
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Retribuzione basata sulle registrazioni
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto in dettaglio come la retribuzione viene calcolata in base alle registrazioni lavoratore. Include gli esempi che mostrano come le diverse combinazioni di opzioni di impostazione disponibili per il calcolo influenzano il risultato. Di seguito vengono riportate alcune delle aree coperte:
 
@@ -446,7 +446,7 @@ Un codice assenza viene utilizzato per registrare il periodo di assenza di un la
 Il processo è basato su una query. Di conseguenza, è possibile creare un'assenza pianificata per più lavoratori, ad esempio lavoratori appartenenti allo stesso gruppo di calcolo. Se l'assenza pianificata riguarda un singolo lavoratore, la registrazione può essere immessa dalla pagina **Presenze** o dalla pagina **Lavoratori per registrazione ore**.
 
 - Per immettere una registrazione assenze dalla pagina **Presenze**, selezionare &gt; **Orario e presenze** **Richieste di informazioni e report** &gt; **Presenze** &gt; **Presenze** quindi **Registrazione assenze**.
-- Per immettere una registrazione assenze dalla pagina ****Lavoratori per registrazione ore****, selezionare **Orario e presenze** &gt; **Impostazione** &gt; **Lavoratori per registrazione ore**, quindi nella scheda **Ora**, sotto **Assegnazione ora**, selezionare **Registrazioni assenze**.
+- Per immettere una registrazione assenze dalla pagina *<strong><em>Lavoratori per registrazione ore</em></strong>*, selezionare <strong>Orario e presenze</strong> &gt; <strong>Impostazioni</strong> &gt; <strong>Lavoratori per registrazione ore</strong>, quindi nella scheda <strong>Ora</strong>, in <strong>Assegnazione ora</strong>, selezionare <strong>Registrazioni assenze</strong>.
 
 È possibile utilizzare il report **Assenze pianificate** per visualizzare una panoramica delle assenze pianificate per i lavoratori. Per aprire questo report, selezionare **Orario e presenze** &gt; **Richieste di informazioni e report** &gt; **Report assenze** &gt; **Assenze pianificate**.
 

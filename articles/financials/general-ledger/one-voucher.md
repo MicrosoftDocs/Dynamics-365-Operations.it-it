@@ -3,7 +3,7 @@ title: Un giustificativo
 description: "Un giustificativo per giornali di registrazione finanziari (giornale di registrazione generale, giornale di registrazione cespiti, giornali di registrazione pagamenti fornitore e così via) consente di immettere più transazioni di giornali di registrazione secondari nel contesto di un singolo giustificativo."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: it-it
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>Un giustificativo
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Questa funzionalità sarà inclusa in Dynamics 365 for Finance and Operations versione 8.0 che sarà disponibile nella versione Spring '18.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 La funzionalità esistente per giornali di registrazione finanziari (giornale di registrazione generale, giornale di registrazione cespiti, giornali di registrazione pagamenti fornitore e così via) consente di immettere più transazioni di giornali di registrazione secondari nel contesto di un singolo giustificativo. Questa funzionalità è denominata "Un giustificativo". È possibile creare Un giustificativo utilizzando uno dei metodi seguenti:
 
--   Impostare il nome del giornale di registrazione (**Contabilità generale** \> **Impostazione giornale di registrazione** \>**Nomi giornale di registrazione**) in modo da impostare il campo **Nuovo giustificativo** su **Un solo numero di giustificativo**. Ogni riga che si aggiunge al giornale di registrazione viene ora inclusa nello stesso giustificativo. Poiché ogni riga viene aggiunta nello stesso giustificativo, il giustificativo può essere inserito come giustificativo plurimo, ad esempio un conto/conto di contropartita nella stessa riga, o come combinazione.
+-   Impostare il nome del giornale di registrazione (**Contabilità generale** \> **Impostazione giornale di registrazione** \>**Nomi giornale di registrazione**) in modo da impostare il campo **Nuovo giustificativo** su **Un solo numero di giustificativo**. * Ogni riga che si aggiunge al giornale di registrazione viene ora inclusa nello stesso giustificativo. Poiché ogni riga viene aggiunta nello stesso giustificativo, il giustificativo può essere inserito come giustificativo plurimo, ad esempio un conto/conto di contropartita nella stessa riga, o come combinazione.
 
 [![Riga singola](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  Notare che la definizione di "Un giustificativo" NON include nomi di giornali di registrazione che sono impostati come **Un solo numero di giustificativo** e il l'utente immette quindi un giustificativo che include solo tipi di conto CoGe.  In questo documento, "Un giustificativo" significa che c'è un unico giustificativo che contiene più di un fornitore, cliente, banca, cespite o progetto. 
 
 -   Immettere un giustificativo plurimo in cui non sono presenti conti di contropartita.
 
@@ -68,13 +71,16 @@ Si genera quindi il report **Spese per fornitore** nell'area di lavoro **Informa
 
 A causa dei problemi descritti in precedenza, la funzionalità Un giustificativo diventerà obsoleta. Tuttavia, poiché si presentano discontinuità funzionali che dipendono da questa funzionalità, la funzionalità non diventerà obsoleta tutto d'un tratto. Si utilizzerà invece la seguente programmazione: 
 
--   **Versione di primavera 2018** - La funzionalità verrà disattivata per impostazione predefinita tramite un parametro della contabilità generale. È tuttavia possibile attivare la funzionalità se l'organizzazione ha uno scenario che rientra nelle discontinuità di scenario aziendale indicate più avanti in questo argomento.
+- **Versione di primavera 2018** - La funzionalità verrà disattivata per impostazione predefinita tramite un parametro della contabilità generale. È tuttavia possibile attivare la funzionalità se l'organizzazione ha uno scenario che rientra nelle discontinuità di scenario aziendale indicate più avanti in questo argomento.
 
-    -   Se un cliente dispone di uno scenario aziendale che non richiede la funzionalità Un giustificativo, non attivare la funzionalità. Questi "bug" non verranno corretti nelle aree identificate oltre in questo argomento se questa funzionalità viene utilizzata anche se un'altra soluzione esiste.
+  -   Se un cliente dispone di uno scenario aziendale che non richiede la funzionalità Un giustificativo, non attivare la funzionalità. Questi "bug" non verranno corretti nelle aree identificate oltre in questo argomento se questa funzionalità viene utilizzata anche se un'altra soluzione esiste.
 
-    -   Smettere di utilizzare Un giustificativo per le integrazioni in Microsoft Dynamics 365 Finance and Operations, a meno che la funzionalità sia necessaria per uno dei gap funzionali.
+  -   Smettere di utilizzare Un giustificativo per le integrazioni in Microsoft Dynamics 365 Finance and Operations, a meno che la funzionalità sia necessaria per uno dei gap funzionali.
 
--   **Fall 2018 e versioni successive** - Verranno corretti gap funzionali. Dopo il completamento dei gap funzionali, la funzionalità Un giustificativo viene disattivata in modo permanente.
+- **Fall 2018 e versioni successive** - Verranno corretti gap funzionali. Dopo il completamento dei gap funzionali, la funzionalità Un giustificativo viene disattivata in modo permanente.
+
+- > [!IMPORTANT]
+  > Notare che l'opzione **Un solo numero di giustificativo** NON è stata rimossa dall'impostazione dei nomi di giornale di registrazione.  Questa opzione è ancora supportata quando il giustificativo contiene solo tipi di conto CoGe.  I clienti devono fare attenzione quando utilizzano questa impostazione perché il giustificativo non viene registrato se utilizzano **Un solo numero di giustificativo** ma poi immettono più di un cliente, fornitore, banca, cespite o progetto.  Inoltre, i clienti possono ancora immettere una combinazione di tipi di conto CoGe secondario, ad esempio un pagamento all'interno di un singolo giustificativo contenente tipi di conto Fornitore/Banca.  
 
 <a name="why-use-one-voucher"></a>Perché utilizzare la funzionalità Un giustificativo?
 ====================
@@ -102,13 +108,13 @@ I seguenti scenari possono essere soddisfatti solo utilizzando la funzionalità 
 
 >   Se un'organizzazione deve visualizzare insieme le voci contabili di un evento aziendale, deve utilizzare la funzionalità Un giustificativo. 
 
--   **Funzionalità specifiche del paese**
+- **Funzionalità specifiche del paese**
 
- -   La funzionalità Documento amministrativo unico (SAD) per la Polonia richiede attualmente l'utilizzo di un singolo giustificativo. Finché un'opzione di raggruppamento è disponibile per questa funzionalità, è necessario continuare a utilizzare la funzionalità Un giustificativo. Possono esserci ulteriori funzionalità specifiche del paese che richiedono la funzionalità Un giustificativo.
+  -   La funzionalità Documento amministrativo unico (SAD) per la Polonia richiede attualmente l'utilizzo di un singolo giustificativo. Finché un'opzione di raggruppamento è disponibile per questa funzionalità, è necessario continuare a utilizzare la funzionalità Un giustificativo. Possono esserci ulteriori funzionalità specifiche del paese che richiedono la funzionalità Un giustificativo.
 
--   **Giornale di registrazione pagamenti anticipati clienti con imposte su più "righe"**
+- **Giornale di registrazione pagamenti anticipati clienti con imposte su più "righe"**
 
- -   Un cliente effettua un pagamento anticipato per un ordine e le righe dell'ordine hanno imposte differenti che devono essere registrate per il pagamento anticipato. Il pagamento anticipato cliente è una transazione che simula le righe dell'ordine, di modo che l'imposta appropriata possa essere registrata per l'importo in ogni riga.
+  -   Un cliente effettua un pagamento anticipato per un ordine e le righe dell'ordine hanno imposte differenti che devono essere registrate per il pagamento anticipato. Il pagamento anticipato cliente è una transazione che simula le righe dell'ordine, di modo che l'imposta appropriata possa essere registrata per l'importo in ogni riga.
 
 In questo scenario, i clienti nel singolo giustificativo sono lo stesso cliente, poiché la transazione simula le righe di un ordine cliente. Il pagamento anticipato deve essere immesso in un singolo giustificativo, poiché il calcolo dell'imposta deve essere eseguito sulle "righe" del singolo pagamento effettuato dal cliente.
 

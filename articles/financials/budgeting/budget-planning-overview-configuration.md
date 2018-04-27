@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-overview"></a>Panoramica sulla pianificazione del budget
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene illustrata la pianificazione del budget e sono contenute informazioni per semplificare la configurazione della pianificazione del budget e l'impostazione dei processi di pianificazione del budget.
 
@@ -116,18 +115,18 @@ Nella pianificazione del budget, è possibile allocare gli importi o le quantit�
 
 Le programmazioni di allocazione allocano automaticamente le righe del piano di budget durante l'elaborazione del flusso di lavoro. È possibile eseguire le allocazioni utilizzando uno dei seguenti metodi dell'elenco **Metodo di allocazione**:
 
--   **Alloca nei periodi**: utilizzare una chiave di allocazione per periodo per allocare le righe del piano di budget dallo scenario del piano di budget di origine tra i periodi dello scenario di destinazione. **Nota:**  prima di allocare tra più periodi, è necessario impostare le chiavi di allocazione per periodo nella pagina ****Categorie di allocazione**** per periodo.
--   **Alloca a dimensioni**: le righe del piano di budget vengono allocate dallo scenario del piano di budget di origine tra le dimensioni finanziarie nello scenario di destinazione. **Nota:** prima di allocare le dimensioni, è necessario impostare i termini di allocazione budget nella pagina ****Termini di allocazione budget****.
--   **Aggrega**: le righe del piano di budget sono aggregate dallo scenario del piano di budget di origine nei piani di budget associati allo scenario di destinazione nel piano di budget padre.
--   **Distribuisci**: le righe del piano di budget sono distribuite dallo scenario del piano di budget di origine nel piano di budget padre allo scenario di destinazione nei piani di budget associati.
--   **Utilizza regole di allocazione contabilità generale**: le righe di piano di budget vengono distribuite dallo scenario di origine del piano di budget allo scenario di destinazione del piano del budget in base alla regola di allocazione di contabilità generale selezionata.
--   **Copia da piano di budget**: consente di selezionare un piano di budget di utilizzare come origine dell'allocazione.
+- <strong>Alloca nei periodi</strong>: utilizzare una chiave di allocazione per periodo per allocare le righe del piano di budget dallo scenario del piano di budget di origine tra i periodi dello scenario di destinazione. <strong>Nota:</strong> prima di allocare in più periodi, è necessario impostare le chiavi di allocazione nella pagina *<strong><em>Categorie di allocazione per periodo</em></strong>*.
+- <strong>Alloca a dimensioni</strong>: le righe del piano di budget vengono allocate dallo scenario del piano di budget di origine tra le dimensioni finanziarie nello scenario di destinazione. <strong>Nota:</strong> prima di allocare le dimensioni, è necessario impostare i termini di allocazione budget nella pagina *<strong><em>Termini di allocazione budget</em></strong>*.
+- **Aggrega**: le righe del piano di budget sono aggregate dallo scenario del piano di budget di origine nei piani di budget associati allo scenario di destinazione nel piano di budget padre.
+- **Distribuisci**: le righe del piano di budget sono distribuite dallo scenario del piano di budget di origine nel piano di budget padre allo scenario di destinazione nei piani di budget associati.
+- **Utilizza regole di allocazione contabilità generale**: le righe di piano di budget vengono distribuite dallo scenario di origine del piano di budget allo scenario di destinazione del piano del budget in base alla regola di allocazione di contabilità generale selezionata.
+- **Copia da piano di budget**: consente di selezionare un piano di budget di utilizzare come origine dell'allocazione.
 
 ### <a name="stage-allocations"></a>Allocazioni di fasi
 
 Le allocazioni di fase vengono utilizzate per allocare automaticamente le righe del piano di budget durante l'elaborazione del flusso di lavoro. Quando si utilizzano le allocazioni di fase, le righe del piano di budget nello scenario di destinazione possono essere create e modificate senza l'intervento del preparatore o del revisione del piano di budget.
 
-Quando si imposta un'allocazione di fase, associare il flusso di lavoro e la fase di pianificazione del budget alla pianificazione di allocazione. Il flusso di lavoro di pianificazione del budget deve essere associato a un flusso di lavoro di impostazione del budget che utilizza l'attività del flusso di lavoro ****Allocazione di fasi di pianificazione del budget**** automatizzata. Quando il flusso di lavoro raggiunge la fase specificata, l'allocazione avviene automaticamente. Questa attività automatica può essere utilizzata per creare le righe del piano di budget in un nuovo scenario. 
+Quando si imposta un'allocazione di fase, associare il flusso di lavoro e la fase di pianificazione del budget alla pianificazione di allocazione. Il flusso di lavoro di pianificazione del budget deve essere associato a un flusso di lavoro di impostazione del budget che utilizza l'attività del flusso di lavoro automatizzata *<strong><em>Allocazione di fasi di pianificazione del budget</em></strong>*. Quando il flusso di lavoro raggiunge la fase specificata, l'allocazione avviene automaticamente. Questa attività automatica può essere utilizzata per creare le righe del piano di budget in un nuovo scenario. 
 
 Nello schema di esempio mostrato in precedenza in questo articolo, un'allocazione viene eseguita per trasferire gli importi da un piano di budget e dagli scenari della fase di base della sede centrale a un altro piano di budget e agli scenari della fase di stima del reparto vendite. La figura seguente mostra la sezione dello schema di esempio.
 

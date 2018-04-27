@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Rifornimento
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono descritte le strategie di rifornimento disponibili per i magazzini che utilizzano la funzionalità disponibile in Gestione magazzino. Le informazioni in questo argomento non sono applicabili alla soluzione di immagazzinaggio disponibile in Gestione articoli.
 
@@ -67,13 +67,15 @@ Il rifornimento basato sulla domanda di carico somma la domanda di diversi caric
 Anziché sommare la domanda alla fine di un processo di allocazione ed effettuare il rifornimento in base alla quantità sommata, è possibile applicare la strategia di rifornimento immediato. Quando si utilizza questa strategia, il magazzino può essere rifornito immediatamente dopo l'allocazione per una riga della direttiva di ubicazione non riuscita. Di conseguenza, è possibile impostare il rifornimento in modo che sia limitato da specifiche unità e che utilizzi le quantità impostate per specifiche ubicazioni.
 
 ## <a name="replenishment-prerequisites"></a>Prerequisiti di rifornimento
-| Prerequisito            | descrizione |
-|-------------------------|-------------|
-| Articolo                    | Gli articoli devono essere abilitati per i processi di gestione magazzino. |
-| Magazzino               | Il magazzino deve essere abilitato per i processi di gestione magazzino. Per abilitare un magazzino per i processi di gestione magazzino, nella pagina **Magazzino** selezionare il magazzino, quindi selezionare l'opzione **Usa processi di gestione magazzino**. |
-| Modelli rifornimento | Almeno un modello di rifornimento deve essere impostato per il rifornimento basato su quantità minima e massima, rifornimento basato sulla domanda ondata o rifornimento basato sulla domanda di carico. |
-| Percorsi               | Le ubicazioni devono essere create e connesse a un profilo ubicazione. |
-| Profili ubicazione       | I profili ubicazione sono necessari per creare le ubicazioni. |
-| Direttive ubicazione     | Le direttive di ubicazione sono necessarie per guidare il lavoro nelle ubicazioni in cui è richiesto il rifornimento e nelle ubicazioni da cui provengono le scorte. |
-| Modelli di lavoro          | Modelli di lavoro di tipo **Rifornimento** sono necessari per creare il lavoro di rifornimento in modo che le scorte possano essere spostate nell'ubicazione desiderata. |
+
+|      Prerequisito       |                                                                                                                                descrizione                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Articolo           |                                                                                                        Gli articoli devono essere abilitati per i processi di gestione magazzino.                                                                                                        |
+|        Magazzino        | Il magazzino deve essere abilitato per i processi di gestione magazzino. Per abilitare un magazzino per i processi di gestione magazzino, nella pagina <strong>Magazzino</strong> selezionare il magazzino, quindi selezionare l'opzione <strong>Usa processi di gestione magazzino</strong>. |
+| Modelli rifornimento |                                                                   Almeno un modello di rifornimento deve essere impostato per il rifornimento basato su quantità minima e massima, rifornimento basato sulla domanda ondata o rifornimento basato sulla domanda di carico.                                                                   |
+|        Percorsi        |                                                                                                       Le ubicazioni devono essere create e connesse a un profilo ubicazione.                                                                                                       |
+|    Profili ubicazione    |                                                                                                        I profili ubicazione sono necessari per creare le ubicazioni.                                                                                                        |
+|   Direttive ubicazione   |                                                       Le direttive di ubicazione sono necessarie per guidare il lavoro nelle ubicazioni in cui è richiesto il rifornimento e nelle ubicazioni da cui provengono le scorte.                                                        |
+|     Modelli di lavoro      |                                                   Modelli di lavoro di tipo <strong>Rifornimento</strong> sono necessari per creare il lavoro di rifornimento in modo che le scorte possano essere spostate nell'ubicazione desiderata.                                                    |
+
 

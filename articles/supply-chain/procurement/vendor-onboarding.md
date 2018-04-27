@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Inserimento di fornitori
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 I nuovi fornitori possono essere inseriti e registrati come fornitori in Microsoft Dynamics 365 for Finance and Operations, in base alle informazioni raccolte da una persona che rappresenta il fornitore.
@@ -164,13 +165,15 @@ Lo stato di una richiesta di registrazione del fornitore potenziale offre una pa
 
 Se si utilizza l'azione **Elimina** nella richiesta di registrazione del fornitore potenziale, è possibile eliminare e rimuovere la catena di record che è stata creata ed è possibile disattivare l'account utente. Il risultato dell'azione **Elimina** varia a seconda dello stato della richiesta di registrazione del fornitore potenziale, come illustrato nella seguente tabella.
 
-| Stato                   | Descrizione stato | Risultato dell'azione di eliminazione |
-|--------------------------|--------------------|-----------------------------------|
-| Nuovo                      | Nessuna azione è stata applicata alla richiesta. | La richiesta di registrazione di fornitori potenziali viene eliminata. |
-| Utente richiesto           | Quando si seleziona **Invita utente**, lo stato viene modificato in **Utente richiesto** e una richiesta utente potenziale viene creata e inviata a un flusso di lavoro di richiesta utente. | Non è possibile eliminare una richiesta di registrazione fornitore potenziale con questo stato, in quanto il flusso di lavoro di richiesta utente non è stato completato. |
-| Utente invitato             | Il flusso di lavoro di richiesta utente viene approvato e l'utente viene creato. | Viene creata una richiesta di disattivazione dell'utente e la richiesta di registrazione del fornitore potenziale viene eliminata. |
-| Registrazione in corso | Il nuovo utente ha effettuato l'accesso e ha avviato la procedura guidata di registrazione fornitore. | Viene creata una richiesta di disattivazione dell'utente e la richiesta di registrazione del fornitore potenziale e i dati inseriti nella procedura guidata di registrazione del fornitore vengono eliminati. |
-| Richiesta fornitore creata   | La procedura guidata di registrazione fornitore è stata completata. | Viene creata una richiesta di disattivazione dell'utente e la richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta del fornitore vengono eliminati.<blockquote>[!NOTE]<br>Non è possibile utilizzare l'azione **Elimina** quando la richiesta fornitore si trova in un processo di revisione del flusso di lavoro.</blockquote> |
-| Approvate                 | La richiesta del fornitore viene approvata. | La richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta fornitore vengono eliminati. |
-| Rifiutato                 | La richiesta del fornitore viene rifiutata. | La richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta fornitore vengono eliminati. |
+
+|          Stato          |                                                                                     Descrizione stato                                                                                      |                                                                                                                                                            Risultato dell'azione di eliminazione                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Nuovo            |                                                                         Nessuna azione è stata applicata alla richiesta.                                                                          |                                                                                                                                              La richiesta di registrazione di fornitori potenziali viene eliminata.                                                                                                                                               |
+|      Utente richiesto      | Quando si seleziona <strong>Invita utente</strong>, lo stato viene modificato in <strong>Utente richiesto</strong> e una richiesta utente potenziale viene creata e inviata a un flusso di lavoro di richiesta utente. |                                                                                                          Non è possibile eliminare una richiesta di registrazione fornitore potenziale con questo stato, in quanto il flusso di lavoro di richiesta utente non è stato completato.                                                                                                          |
+|       Utente invitato       |                                                               Il flusso di lavoro di richiesta utente viene approvato e l'utente viene creato.                                                               |                                                                                                                      Viene creata una richiesta di disattivazione dell'utente e la richiesta di registrazione del fornitore potenziale viene eliminata.                                                                                                                      |
+| Registrazione in corso |                                                         Il nuovo utente ha effettuato l'accesso e ha avviato la procedura guidata di registrazione fornitore.                                                          |                                                                                     Viene creata una richiesta di disattivazione dell'utente e la richiesta di registrazione del fornitore potenziale e i dati inseriti nella procedura guidata di registrazione del fornitore vengono eliminati.                                                                                      |
+|  Richiesta fornitore creata  |                                                                     La procedura guidata di registrazione fornitore è stata completata.                                                                      | Viene creata una richiesta di disattivazione dell'utente e la richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta del fornitore vengono eliminati.<blockquote>[!NOTE]<br>Non è possibile utilizzare l'azione <strong>Elimina</strong> quando la richiesta fornitore si trova in un processo di revisione del flusso di lavoro.</blockquote> |
+|         Approvate         |                                                                               La richiesta del fornitore viene approvata.                                                                               |                                                                                                   La richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta fornitore vengono eliminati.                                                                                                    |
+|         Rifiutato         |                                                                               La richiesta del fornitore viene rifiutata.                                                                               |                                                                                                   La richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta fornitore vengono eliminati.                                                                                                    |
+
 

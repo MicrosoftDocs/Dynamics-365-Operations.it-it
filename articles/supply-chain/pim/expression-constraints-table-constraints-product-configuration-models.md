@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto l'utilizzo dei vincoli di espressione e dei vincoli di tabella. I vincoli consentono di controllare i valori di attributo da selezionare quando si configurano i prodotti per un ordine cliente, un'offerta di vendita, un ordine fornitore o un ordine di produzione. È possibile utilizzare i vincoli di espressione o i vincoli di tabella, a seconda di come si preferisce creare i vincoli. 
 
@@ -204,23 +203,24 @@ Nelle tabelle seguenti sono elencati gli operatori e la notazione di infisso che
 
 Gli esempi nella seguente tabella illustrano come scrivere una notazione di infisso.
 
-| Notazione di infisso    | descrizione                                                                                   |
+
+|  Notazione di infisso   |                                          descrizione                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Addizione                                                                                      |
-| x \* y \* z       | Moltiplicazione                                                                                |
-| x - y             | La sottrazione binaria è tradotta come l'addizione binaria nei casi in cui esiste un secondo valore negato. |
-| x ^ y ^ z         | Elevamento a potenza con associatività a destra                                                   |
-| !x                | Booleano not                                                                                   |
-| x -: y            | Implicazione booleana                                                                           |
-|  interno  | y | z         | Booleano or                                                                                    |
-| x & y & z         | Booleano and                                                                                   |
-| x == y == z       | Uguaglianza                                                                                      |
-| x != y != z       | Distinto                                                                                      |
-| x &lt; y &lt; z   | Minore di                                                                                     |
-| x &gt; y &gt; z   | Maggiore di                                                                                  |
-| x &lt;= y &lt;= z | Uguale o minore di                                                                         |
-| x &gt;= y &gt;= z | Uguale o maggiore di                                                                      |
-| (x)               | Le parentesi hanno precedenza sulla priorità predefinita.                                                      |
+|     x + y + z     |                                           Addizione                                            |
+|    x \* y \* z    |                                        Moltiplicazione                                         |
+|       x - y       | La sottrazione binaria è tradotta come l'addizione binaria nei casi in cui esiste un secondo valore negato. |
+|     x ^ y ^ z     |                          Elevamento a potenza con associatività a destra                          |
+|        !x         |                                          Booleano not                                          |
+|      x -: y       |                                      Implicazione booleana                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          Booleano and                                          |
+|    x == y == z    |                                           Uguaglianza                                            |
+|    x != y != z    |                                           Distinto                                            |
+|  x &lt; y &lt; z  |                                           Minore di                                           |
+|  x &gt; y &gt; z  |                                         Maggiore di                                          |
+| x &lt;= y &lt;= z |                                     Uguale o minore di                                     |
+| x &gt;= y &gt;= z |                                   Uguale o maggiore di                                    |
+|        (x)        |                           Le parentesi hanno precedenza sulla priorità predefinita.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Perché i vincoli di espressione non vengono convalidati correttamente?
 Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione per gli attributi, i componenti o i sottocomponenti nel modello di configurazione prodotto. Ecco un elenco delle parole chiave riservate che non possono essere utilizzate.

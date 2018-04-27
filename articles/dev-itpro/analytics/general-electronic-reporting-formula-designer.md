@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Designer formula nella creazione di report elettronici
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene illustrato come utilizzare designer formula nei report elettronici (ER). Quando si progetta un formato di un documento elettronico specifico in ER, è possibile utilizzare le formule per la trasformazione dei dati in modo da soddisfare i requisiti per la compilazione e la formattazione del documento. Le formule somigliano alle formule in Microsoft Excel. Nelle formule, sono supportate funzioni di diverso tipo: testo, data e ora, logica matematica, informazioni, conversione del tipo di dati e altre (funzioni specifiche del dominio aziendale).
 
@@ -313,7 +313,7 @@ Le seguenti tabelle descrivono le funzioni di manipolazione dei dati che è poss
 <tr class="odd">
 <td>ORDERBY (elenco [, espressione 1, espressione 2, …])</td>
 <td>Restituisce l'elenco specificato dopo che è stato ordinato in base agli argomenti specifici. Questi argomenti possono essere definiti come espressioni.</td>
-<td>Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> restituisce un elenco dei fornitori ordinato per nome in ordine crescente.</td>
+<td>Se <strong>Fornitore</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> restituisce un elenco dei fornitori ordinato per nome in ordine crescente.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (elenco)</td>
@@ -358,7 +358,7 @@ Le seguenti tabelle descrivono le funzioni di manipolazione dei dati che è poss
 <li>Etichetta</li>
 <li>descrizione</li>
 </ul>
-I campi <strong>Descrizione</strong> ed <strong>Etichetta</strong> restituiscono valori in fase esecuzione in base alle impostazioni di lingua del formato.</td>
+In fase di esecuzione, i campi <strong>Etichetta</strong> e <strong>Descrizione</strong> restituiscono valori in base alle impostazioni di lingua del formato.</td>
 <td>Nella seguente figura viene illustrata l'enumerazione introdotta in un modello dati.
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>La figura di seguito mostra questi dettagli:</p>
@@ -384,7 +384,7 @@ Il testo tradotto per le etichette e le descrizioni viene immesso nell'output de
 <li>descrizione</li>
 <li>È tradotto</li>
 </ul>
-<p>I campi <strong>Descrizione</strong> ed <strong>Etichetta</strong> restituiscono valori in fase esecuzione in base alle impostazioni di lingua del formato e alla lingua specificata. Il campo <strong>È tradotto</strong> indica che il campo <strong>Etichetta</strong> è stato tradotto nella lingua specificata.</td>
+<p>In fase di esecuzione, i campi <strong>Etichetta</strong> e <strong>Descrizione</strong> restituiscono valori in base alle impostazioni di lingua del formato e alla lingua specificata. Il campo <strong>È tradotto</strong> indica che il campo <strong>Etichetta</strong> è stato tradotto nella lingua specificata.</td>
 <td>Ad esempio, usare il tipo di origine dati <strong>Campo calcolato</strong> per configurare le origini dati <strong>enumType_de</strong> e <strong>enumType_deCH</strong> per l''enumerazione del modello dati <strong>enumType</strong>:
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
@@ -395,11 +395,13 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 <tr class="even">
 <td>STRINGJOIN (elenco, nome del campo, delimitatore)</td>
 <td>Restituisce una stringa costituita da valori concatenati del campo specificato dell'elenco specificato. I valori sono separati dal delimitatore specificato.</td>
-<td>Se è stato immesso <strong>SPLIT(&quot;abc&quot; , 1)</strong> come origine dati (DS), l'espressione <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> restituisce <strong>&quot;a:b:c&quot;</strong>.</td>
+
+<td>Se si immette <strong>SPLIT(&quot;abc&quot; , 1)</strong> come origine dati, l'espressione <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> restituisce <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (elenco, valore limite, origine limite)</td>
-<td>Divide l'elenco specificato in nuovo elenco di sottoelenchi e restituisce il risultato nel contenuto dell'elenco di record. Il parametro di valore limite definisce il valore del limite per la divisione dell'elenco originale. Il parametro di origine limite definisce il passaggio secondo cui viene incrementata la somma totale. Il limite non è applicato a un singolo articolo dell'elenco originale se l'origine limite supera il limite definito.</td>
+<td>Divide l'elenco specificato in nuovo elenco di sottoelenchi e restituisce il risultato nel contenuto dell'elenco di record. Il parametro di valore limite definisce il valore del limite per la divisione dell'elenco originale. Il parametro di origine limite definisce il passaggio secondo cui viene incrementata la somma totale. Il limite non viene applicato a un singolo articolo dell'elenco originale se l'origine limite supera il limite definito.</td>
 <td>Nelle figure seguenti viene illustrato un formato e le origini dati per esso utilizzate. 
 <p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
@@ -553,7 +555,7 @@ Anche l'espressione <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> resti
 <li>Etichetta SYS18389 di Finance and Operations, con il testo seguente:
 <ul>
 <li><strong>Per la lingua EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Per la lingua DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>Per la lingua tedesca:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Questa è la formula che può essere progettata:</p>
@@ -561,7 +563,7 @@ Anche l'espressione <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> resti
 <p>Se un report viene elaborato per il cliente <strong>Litware Retail</strong> il 17 dicembre 2015, nelle impostazioni cultura <strong>EN-US</strong> e la lingua <strong>EN-US</strong>, questa formula restituisce il seguente testo, che può essere presentato come un messaggio di eccezione all'utente:</p>
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Se lo stesso viene elaborato per il cliente <strong>Litware Retail</strong> il 17 dicembre 2015, nelle impostazioni culture <strong>DE</strong> e la lingua <strong>DE</strong>, la formula restituisce il seguente testo, che utilizza un formato della data diverso:</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 La seguente sintassi si applica nelle formule ER per le etichette:
 <ul>

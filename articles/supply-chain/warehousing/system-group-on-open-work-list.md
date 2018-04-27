@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6403fea54be4036f7a15c05b46f70d258d97c3e2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9ca6b0d4a9909d419d6241a044336d7a02aea02
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="system-grouping-on-an-open-work-list"></a>Raggruppamento di sistema in un elenco lavori aperti
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Utilizzando un campo di raggruppamento di sistema, è possibile filtrare un elenco lavori aperti senza dover modificare la voce di menu del dispositivo mobile.
 Dove applicabile, il raggruppamento di sistema filtra un elenco lavori in un singolo campo intestazione lavoro. Non è possibile utilizzare il raggruppamento di sistema per filtrare i campi a livello di riga.
@@ -37,9 +37,10 @@ Utilizzare questa procedura per impostare un raggruppamento di sistema su un ele
 
 -   In una voce di menu del dispositivo mobile, selezionare **Modalità: Indiretta** e **Codice attività: Visualizza elenco lavori aperti**. Diventano disponibili le opzioni seguenti. Queste opzioni sono necessarie per il raggruppamento di sistema in un elenco lavori aperti. 
 
-| Opzione        | descrizione   | 
-| ------------- | ------------- |
-| Consentire il raggruppamento di sistema   | Consente il raggruppamento di sistema per una voce di menu dell'elenco lavoro selezionata.| 
-| Campo di raggruppamento sistema   | Disponibile solo se **Consenti lavoro di sistema** è impostato su **Sì**. Selezionare il campo che determina la modalità di raggruppamento del lavoro di prelievo per i lavoratori. Ad esempio, se si seleziona il campo **ID spedizione**, il lavoratore esegue la scansione dell'ID spedizione per raggruppare il lavoro di prelievo. Tutto il lavoro di spedizione verrà quindi assegnato al lavoratore. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. Utilizzare il campo **Etichetta di raggruppamento sistema** per indicare al lavoratore gli elementi da scansionare. |
-| Etichetta di raggruppamento sistema   | Disponibile solo se **Consenti lavoro di sistema** è impostato su **Sì**. Immettere le informazioni per il lavoratore relative agli elementi da sottoporre a scansione quando viene raggruppato il lavoro di prelievo. Se ad esempio si utilizza il campo **ID spedizione** per raggruppare il lavoro di prelievo in base alla spedizione, è possibile immettere l'ID spedizione nel campo. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È inoltre necessario selezionare il campo in base a cui raggruppare nel campo **Raggruppamento sistema**.|
+|        Opzione         |                                                                                                                                                                                                                                                                         descrizione                                                                                                                                                                                                                                                                         |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Consentire il raggruppamento di sistema |                                                                                                                                                                                                                                                 Consente il raggruppamento di sistema per una voce di menu dell'elenco lavoro selezionata.                                                                                                                                                                                                                                                  |
+| Campo di raggruppamento sistema | Disponibile solo se <strong>Consenti lavoro di sistema</strong> è impostato su <strong>Sì</strong>. Selezionare il campo che determina la modalità di raggruppamento del lavoro di prelievo per i lavoratori. Ad esempio, se si seleziona il campo <strong>ID spedizione</strong>, il lavoratore esegue la scansione dell'ID spedizione per raggruppare il lavoro di prelievo. Tutto il lavoro di spedizione verrà quindi assegnato al lavoratore. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. Utilizzare il campo <strong>Etichetta di raggruppamento sistema</strong> per indicare al lavoratore gli elementi da scansionare. |
+| Etichetta di raggruppamento sistema |                       Disponibile solo se <strong>Consenti lavoro di sistema</strong> è impostato su <strong>Sì</strong>. Immettere le informazioni per il lavoratore relative agli elementi da sottoporre a scansione quando viene raggruppato il lavoro di prelievo. Se ad esempio si utilizza il campo <strong>ID spedizione</strong> per raggruppare il lavoro di prelievo in base alla spedizione, è possibile immettere l'ID spedizione nel campo. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È inoltre necessario selezionare il campo in base a cui raggruppare nel campo <strong>Raggruppamento sistema</strong>.                       |
+
 

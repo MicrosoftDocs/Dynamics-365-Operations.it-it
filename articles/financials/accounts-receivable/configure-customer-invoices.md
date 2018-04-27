@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0e5605b65b6203a50ef2fef81d032a887da32bf9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a>Creare una fattura cliente
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Una **fattura cliente per un ordine cliente** è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente. Questo tipo di fattura cliente viene creato in base a un ordine cliente che include righe ordine e numeri articolo. I numeri articolo vengono specificati e registrati nella contabilità generale. Non sono disponibili inserimenti nel giornale di registrazione secondario per una fattura cliente relativa a un ordine cliente. Per ulteriori informazioni, vedere [Creare fatture ordine cliente](tasks/create-sales-order-invoices.md).
 
@@ -101,7 +100,7 @@ I seguenti campi modificano il comportamento del processo di registrazione.
 <td>Registrazione</td>
 <td><ul>
 <li>Selezionare questa opzione per inserire nel giornale di registrazione l'ordine cliente.</li>
-<li>Deselezionare questa opzione per stampare un ordine cliente proforma. <strong>Nota:</strong> Se è stato stipulato un accordo per uno scadenzario pagamenti, quest'ultimo non verrà visualizzato nell'ordine cliente proforma, Gli scadenziari pagamenti sono mostrati soltanto negli ordini cliente effettivi.</li>
+<li>Deselezionare questa opzione per stampare un ordine cliente proforma. <strong>Nota:</strong> Se è stato stipulato un accordo per uno scadenzario pagamenti, quest'ultimo non verrà visualizzato nell'ordine cliente proforma. Gli scadenziari pagamenti sono mostrati soltanto negli ordini cliente effettivi.</li>
 </ul></td>
 </tr>
 <tr class="odd">

@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Informazioni finanziarie dettagliate
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Informazioni finanziarie dettagliate** utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari. Power BI è incorporato in Microsoft Dynamics 365 Finance and Operations.
 **Informazioni finanziarie dettagliate** è incentrato sulla creazione di report analitici. Le persone di un'organizzazione possono visualizzare, ricercare, analizzare ed eseguire azioni. 
@@ -107,8 +107,20 @@ Sebbene **Informazioni finanziarie dettagliate** contenga rendiconti finanziari,
 
 La seguente tabella di confronto aiuterà a differenziare le due opzioni:
 
-|                                         | **Report finanziari**                            | **Informazioni finanziarie dettagliate**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Modifica report personalizzati**                | Sì                                                | No                                 | | **Creazione nuovi report**                  | Sì                                                | No                                 | | **Stampa report**                       | Sì                                                | No                                 | | **Esportazione in Excel**                     | Sì          | Limitato a esportaz. dati non elaborati in Excel, report senza formattazione       | | **Supporto per gerarchia organizzativa/di reporting**   | Sì                               | No                                 | | **Report per dati di giorn. reg. secondari**       | Sì, limitato solo a fornitore, cliente    | Sì, fornitore, cliente, gruppi fornitore/cliente, indirizzi fornitore/cliente, ecc.  | | **Valuta di dichiarazione**      | Sì, valuta di contabilizzazione e conversione in valuta di dichiarazione       | No, solo valuta di contabilizzazione      | | **Sicurezza**                | Sì, con aderenza a Finance and Operations e alla sicurezza dell'albero gerarchico di reporting  | Visualizzazione limitata a report di tutte le società (indipendentemente dalla sicurezza di Finance and Operations) o solo per la società attiva | | **Supporto per diversi piani dei conti e anni fiscali** | Sì                   | No                   | | **Report per dati esterni**                              | No                   | No                                   | | **Supporto per consolidamenti**                               | Sì                          | Limitato, report per più società ma solo con valuta di contabilizzazione                                     |
 
+|                                                                       |               <strong>Creazione di report finanziari</strong>                |                                      <strong>Informazioni finanziarie dettagliate</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Modifica report predefiniti</strong>                 |                                Sì                                |                                                      No                                                       |
+|                  <strong>Creazione nuovi report</strong>                  |                                Sì                                |                                                      No                                                       |
+|                    <strong>Stampa report</strong>                     |                                Sì                                |                                                      No                                                       |
+|                   <strong>Esporta in Excel</strong>                    |                                Sì                                |                           Esportazione limitata di dati non elaborati in Excel, non in un report formattato                           |
+|  <strong>Supporto creazione di report con gerarchia/gerarchia organizzativa</strong>  |                                Sì                                |                                                      No                                                       |
+|               <strong>Report i dati del giornale d registrazione secondario</strong>               |               Sì limitato solo al fornitore, cliente                |                 Sì fornitore, cliente, gruppi di clienti/fornitori, indirizzi clienti/fornitori, e così via.                 |
+|                  <strong>Valuta di dichiarazione</strong>                  |    Sì valuta di contabilizzazione e convertire in valuta di dichiarazione    |                                          No solo valuta di contabilizzazione                                          |
+|                       <strong>Sicurezza</strong>                       | Sì conforme a Finance and Operations e sicurezza dell'albero gerarchico di creazione report | Report con visualizzazione limitata per tutte le società (indipendentemente dalla sicurezza di Finance and Operations) o solo per la società attiva |
+| <strong>Supporto di diversi piani dei conti e anni fiscali</strong> |                                Sì                                |                                                      No                                                       |
+|               <strong>Report di dati esterni</strong>                |                                No                                 |                                                      No                                                       |
+|                <strong>Supporto di consolidamenti</strong>                |                                Sì                                |                   Limitato Può creare report per più società ma utilizzare solo la valuta di contabilizzazione                   |
 
 Oltre all'interfaccia utente dell'area di lavoro originale **Panoramica responsabile finanziario**, sono ora disponibili nuovi KPI, grafici e rendiconti finanziari. Sono disponibili i seguenti rendiconti finanziari:
 

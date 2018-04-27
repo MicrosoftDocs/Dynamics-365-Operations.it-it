@@ -19,17 +19,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 6772c1d7906db27333206ea2ecd5a0585c3eb939
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Panoramica sui modelli di configurazione prodotto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo definisce termini e concetti importanti relativi ai modelli di configurazione prodotto. I modelli di configurazione prodotto consentono di creare una struttura di prodotto generica utilizzabile per configurare più varianti di un singolo prodotto.
 
@@ -58,8 +57,8 @@ I modelli di configurazione prodotto vengono creati per rappresentare una strutt
 <td>Gli attributi descrivono tutte le funzionalità del modello di configurazione prodotto. È possibile utilizzare gli attributi per specificare le funzionalità che è possibile selezionare quando viene configurato un prodotto specifico. Gli attributi vengono utilizzati nei vincoli e nelle condizioni. Quando gli attributi vengono creati e aggiunti a un modello di configurazione prodotto, si fa riferimento ai tipi di attributo correlati. Può essere impostato un valore predefinito per un attributo. Il valore predefinito viene utilizzato nell'interfaccia utente (UI) di configurazione quando viene configurato il modello di configurazione prodotto. È possibile specificare che un attributo sia obbligatorio, di sola lettura o nascosto.
 <ul>
 <li><strong>Obbligatorio</strong>: quando il prodotto viene configurato, deve essere impostato un valore per l'attributo.</li>
-<li><strong>Di sola lettura</strong>: il valore dell'attributo viene visualizzato durante una sessione di configurazione, ma non può essere modificato.</li>
-<li><strong>Nascosto</strong>: il valore dell'attributo è incluso nei vincoli e condizioni, ma non viene visualizzato durante una sessione di configurazione.</li>
+<li><strong>Di sola lettura</strong>: il valore dell&#39;attributo viene visualizzato durante una sessione di configurazione, ma non può essere modificato.</li>
+<li><strong>Nascosto</strong>: il valore dell&#39;attributo è incluso nei vincoli e condizioni, ma non viene visualizzato durante una sessione di configurazione.</li>
 </ul>
 È inoltre possibile specificare una condizione per gli attributi. Se la condizione viene soddisfatta, per l'attributo obbligatorio deve essere immesso un valore. Le condizioni sono espressioni che devono essere soddisfatte dagli attributi, dalle righe DBA e dalle operazioni del ciclo di lavorazione da includere nel modello di configurazione prodotto. Qualsiasi attributo a cui si fa riferimento in una condizione diventa obbligatorio. È consigliabile selezionare l'attributo come obbligatorio nella scheda <strong>Attributi</strong>. In questo modo sarà più semplice identificare gli attributi obbligatori. I valori dell'attributo rappresentano un elemento importante del riutilizzo delle configurazioni. Il sistema utilizza i valori attributo per determinare l'esistenza di una configurazione che corrisponda alle selezioni eseguite da un utente durante una sessione di configurazione.</td>
 </tr>
@@ -134,15 +133,15 @@ Un vincolo di tabella definito dal sistema rappresenta un mapping tra un tipo di
 <li>Nel campo <strong>Sottotipo di prodotto</strong> selezionare <strong>Rappresentazione generale prodotto</strong>.</li>
 <li>Nel campo <strong>Tecnologia di configurazione</strong> selezionare <strong>Configurazione basata su vincoli</strong>.</li>
 </ul>
-È possibile visualizzare se un prodotto rilasciato può essere utilizzato come un componente o sottocomponente nella scheda <strong>Generale</strong> della pagina <strong>Dettagli prodotto rilasciato</strong>. Se <strong>Configurazione basata su vincoli</strong> è selezionato nel campo <strong>Tecnologia di configurazione</strong>, il prodotto può essere utilizzato come componente o sottocomponente. È possibile nascondere i sottocomponenti affinché non vengano visualizzati all'utente durante una sessione di configurazione. Vengono altresì nascosti gli attributi, i sottocomponenti e i requisiti utente correlati al sottocomponente.</td>
+È possibile visualizzare se un prodotto rilasciato può essere utilizzato come un componente o sottocomponente nella scheda <strong>Generale</strong> della pagina <strong>Dettagli prodotto rilasciato</strong>. Se <strong>Configurazione basata su vincoli</strong> è selezionato nel campo <strong>Tecnologia di configurazione</strong>, il prodotto può essere utilizzato come componente o sottocomponente. È possibile nascondere i sottocomponenti affinché non vengano visualizzati all&#39;utente durante una sessione di configurazione. Vengono altresì nascosti gli attributi, i sottocomponenti e i requisiti utente correlati al sottocomponente.</td>
 </tr>
 <tr class="odd">
 <td>Requisiti utente</td>
-<td>I requisiti utente rappresentano un'astrazione tra i requisiti utente e i componenti e gli attributi specifici. Non è possibile eseguire il mapping dei requisiti utente su un articolo. Ad esempio, un cliente sta effettuando l'acquisto di un sistema home theatre. Il rappresentante potrebbe chiedere informazioni sulla dimensione della stanza in cui il cliente intende installare il sistema per determinare quanti watt sono necessari. In questo esempio, la dimensione della stanza può rappresentare una richiesta utente che consente di determinare il valore attributo appropriato per un componente specifico. È possibile nascondere le richieste utente in modo che non vengano visualizzate dall'utente durante una sessione di configurazione. Possono essere altresì nascosti gli attributi, i sottocomponenti e i requisiti utente correlati alle richieste utente. È possibile scrivere una condizione per controllare se una richiesta utente può essere nascosta. È necessario utilizzare la sintassi OML (Optimization Modeling Language) per scrivere la condizione.</td>
+<td>I requisiti utente rappresentano un'astrazione tra i requisiti utente e i componenti e gli attributi specifici. Non è possibile eseguire il mapping dei requisiti utente su un articolo. Ad esempio, un cliente sta effettuando l'acquisto di un sistema home theatre. Il rappresentante potrebbe chiedere informazioni sulla dimensione della stanza in cui il cliente intende installare il sistema per determinare quanti watt sono necessari. In questo esempio, la dimensione della stanza può rappresentare una richiesta utente che consente di determinare il valore attributo appropriato per un componente specifico. È possibile nascondere le richieste utente in modo che non vengano visualizzate dall&#39;utente durante una sessione di configurazione. Possono essere altresì nascosti gli attributi, i sottocomponenti e i requisiti utente correlati alle richieste utente. È possibile scrivere una condizione per controllare se una richiesta utente può essere nascosta. È necessario utilizzare la sintassi OML (Optimization Modeling Language) per scrivere la condizione.</td>
 </tr>
 <tr class="even">
 <td>Righe DBA</td>
-<td>Le righe DBA rappresentano i singoli materiali dei componenti nel modello di configurazione prodotto. Nella pagina <strong>Dettagli riga DBA</strong> tutti gli articoli sono disponibili per la selezione. Una condizione può essere aggiunta alla riga DBA per poter variare le righe DBA selezionate per una variante prodotto specifico, in base alla selezione dell'utente quando il modello di configurazione prodotto è installato. Le condizioni sono espressioni che devono essere soddisfatte dagli attributi, dalle righe DBA e dalle operazioni del ciclo di lavorazione da includere nel modello di configurazione prodotto. Nella pagina <strong>Dettagli riga DBA</strong> è possibile selezionare un valore distinto. In alternativa, è possibile effettuare il mapping di un attributo per cui il valore è selezionato quando il modello di configurazione prodotto viene impostato.</td>
+<td>Le righe DBA rappresentano i singoli materiali dei componenti nel modello di configurazione prodotto. Nella pagina <strong>Dettagli riga DBA</strong> tutti gli articoli sono disponibili per la selezione. Una condizione può essere aggiunta alla riga DBA per poter variare le righe DBA selezionate per una variante prodotto specifico, in base alla selezione dell&#39;utente quando il modello di configurazione prodotto è installato. Le condizioni sono espressioni che devono essere soddisfatte dagli attributi, dalle righe DBA e dalle operazioni del ciclo di lavorazione da includere nel modello di configurazione prodotto. Nella pagina <strong>Dettagli riga DBA</strong> è possibile selezionare un valore distinto. In alternativa, è possibile effettuare il mapping di un attributo per cui il valore è selezionato quando il modello di configurazione prodotto viene impostato.</td>
 </tr>
 <tr class="odd">
 <td>Operazioni ciclo di lavorazione</td>

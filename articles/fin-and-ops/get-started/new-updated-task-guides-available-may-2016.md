@@ -18,24 +18,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: c42a7e50d6efb6408e480b50b3e520f5812aeb56
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Guide attività nuove o aggiornate (maggio 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (maggio 2016 -- tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata. 
 
 <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guide attività nella libreria unificata APQC (maggio 2016 - tutte le lingue) per Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
-La libreria unificata APQC (maggio 2016) contiene le guide attività da utilizzare per ottenere assistenza per l'aggiornamento di maggio 2016 di Microsoft Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Le versioni localizzate delle guide attività che sono state rilasciate nella libreria unificata APQC (febbraio 2016) sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md). **Nota:** un asterisco (**\***) accanto al titolo di una riga Modellatore di processi aziendali (BPM) indica che la guida attività per il processo aziendale è stata creata per l'aggiornamento di Dynamics AX di maggio 2016 e non è supportata nelle versioni precedenti di Microsoft Dynamics AX.
+La libreria unificata APQC (maggio 2016) contiene le guide attività da utilizzare per ottenere assistenza per l'aggiornamento di maggio 2016 di Microsoft Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Le versioni localizzate delle guide attività che sono state rilasciate nella libreria unificata APQC (febbraio 2016) sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md). <strong>Nota:</strong> un asterisco (<strong>\</strong>*) accanto al titolo di una riga Modellatore di processi aziendali (BPM) indica che la guida attività per il processo aziendale è stata creata per l'aggiornamento di Dynamics AX di maggio 2016 e non è supportata nelle versioni precedenti di Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Funzionalità paese
 
@@ -63,15 +62,15 @@ La libreria unificata APQC (maggio 2016) contiene le guide attività da utilizza
 
 ### <a name="electronic-reporting"></a>Creazione di report elettronici
 
-| Riga per BPM                                                                   | Paese |
+|                                  Riga per BPM                                  | Paese |
 |----------------------------------------------------------------------------|----------------|
-| ER configura le destinazioni                                                  | Globali         |
-| ER progetta una configurazione per la creazione di report nel formato OPENXML         | Globali         |
-| ER genera documenti elettronici per i pagamenti utilizzando una configurazione di formato | Globali         |
-| ER importa una configurazione da Lifecycle Services                          | Globali         |
-| **\***RE Selezionare il provider di servizi                                           | Globali         |
-| ER migliora il formato adottandone una nuova versione di base      | Globali         |
-| ER carica una configurazione in Lifecycle Services                          | Globali         |
+|                         ER configura le destinazioni                          |     Globali     |
+|     ER progetta una configurazione per la creazione di report nel formato OPENXML     |     Globali     |
+| ER genera documenti elettronici per i pagamenti utilizzando una configurazione di formato |     Globali     |
+|             ER importa una configurazione da Lifecycle Services              |     Globali     |
+|               <strong>\</strong>*RE Selezionare il provider di servizi                |     Globali     |
+|   ER migliora il formato adottandone una nuova versione di base    |     Globali     |
+|             ER carica una configurazione in Lifecycle Services              |     Globali     |
 
 ### <a name="human-capital-management"></a>Gestione risorse umane
 
@@ -177,17 +176,15 @@ La libreria unificata APQC (maggio 2016) contiene le guide attività da utilizza
 
 ### <a name="warehouse-and-transportation"></a>Magazzino e trasporto
 
-| Riga per BPM                                                            | Paese |
-|---------------------------------------------------------------------|----------------|
-| Configurare l'elaborazione di ondate                                           | Globali         |
-| **\***Dichiarare finito a un'ubicazione non controllata da targa | Globali         |
-| Impostare un processo di rifornimento min-max                              | Globali         |
-| Impostare la containerizzazione                                             | Globali         |
-| Impostare l'imballaggio manuale                                               | Globali         |
-| Impostare vincoli di trasporto per un articolo                       | Globali         |
-| **\***Definire criteri di lavoro magazzino                                | Globali         |
-
-
+|                                     Riga per BPM                                     | Paese |
+|----------------------------------------------------------------------------------|----------------|
+|                            Configurare l'elaborazione di ondate                             |     Globali     |
+| <strong>\</strong>*Dichiarare finito a un'ubicazione non controllata da targa |     Globali     |
+|                      Impostare un processo di rifornimento min-max                      |     Globali     |
+|                             Impostare la containerizzazione                              |     Globali     |
+|                              Impostare l'imballaggio manuale                               |     Globali     |
+|                  Impostare vincoli di trasporto per un articolo                   |     Globali     |
+|                <strong>\</strong>*Impostare i criteri di lavoro magazzino                 |     Globali     |
 
 <a name="see-also"></a>Vedere anche
 --------

@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d575e2b0215b0e8c4b6cb1b17c0f1d908b862e9d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 850a40cc29f51521636c01f6ac1cfa54d3bd7798
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="organize-report-components-in-report-designer"></a>Organizzare i componenti del report in Progettazione report
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dopo aver progettato i blocchi predefiniti e generato i report, è utile organizzare questi oggetti in modo che gli utenti possano individuarli più facilmente. In questo articolo viene spiegato come organizzare i report, i blocchi predefiniti e gli oggetti esistenti in Progettazione report.
 
@@ -106,7 +105,7 @@ Nella tabella riportata di seguito viene fornita una descrizione dei controlli p
 <td>Livello dettagli</td>
 <td>Specificare il livello di dettaglio da includere nei report.
 <ul>
-<li><strong>Riepilogo finanziario</strong>: report di riepilogo generale. Non è possibile eseguire il drill-down nei conti e dimensioni, ad eccezione di quelli aggiunti tramite un albero gerarchico.</li>
+<li><strong>Riepilogo finanziario</strong>: report di riepilogo generale. Non è possibile eseguire il drill-down nei conti e nelle dimensioni, ad eccezione dei conti e delle dimensioni aggiunti tramite un albero gerarchico.</li>
 <li><strong>Finanziario e conto</strong>- Un report contenente un riepilogo di alto livello e i dettagli del conto.</li>
 <li><strong>Finanziario, conto e transazione</strong>- Un report contenente un riepilogo di alto livello e i dettagli delle transazioni.</li>
 </ul></td>

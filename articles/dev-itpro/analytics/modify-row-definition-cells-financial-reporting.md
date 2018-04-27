@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: dd34fb71f7a5d31a075c6475c2fe6627193d891f
-ms.openlocfilehash: 6bb405937288b46f49420a1735c32b5b7c16248e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
 ms.contentlocale: it-it
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Modificare le celle di definizione riga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni. 
 
@@ -104,26 +103,26 @@ La cella **Codice formato** offre una selezione di opzioni preformattate per il 
 2.  Fare doppio clic sulla cella **Codice formato**.
 3.  Selezionare un codice formato nell'elenco. Nella seguente tabella sono descritti i codici formato e le relative azioni.
 
-| **Codice formato**               | **Interpretazione del codice di formato** | **Azione**                                                                                                                                                                                                     |
-|-------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (Nessuno)                        |                                       | Cancella il contenuto della cella **Codice formato**.                                                                                                                                                                               |
-| TOT                           | Totale                                 |  Identifica una riga che utilizza gli operatori matematici nella colonna **Unità/Righe/Formule correlate**. I totali contengono gli operatori semplici, ad esempio **+** o **-**.                                                     |
-| CAL                           | Calcolo                           | Identifica una riga che utilizza gli operatori matematici nella colonna **Unità/Righe/Formule correlate**. I calcoli contengono gli operatori complessi, ad esempio **+**, **-**, **\***, **/** e **IF/THEN/ELSE**. |
-| DES                           | descrizione                           | Identifica una riga di intestazione o una riga vuota in un report.                                                                                                                                                        |
-| LFT RGT CEN                   | Centro da sinistra a destra                     |  Allinea il testo di descrizione della riga nella pagina del report, indipendentemente dalla posizione del testo nella definizione di colonna.                                                                                              |
-| CBR                           | Riga di base di modifica                       | Identifica una riga che imposta la riga di base per i calcoli della colonna.                                                                                                                                               |
-| COLUMN                        | Interruzione di colonna                          | Inizia una nuova colonna nel report.                                                                                                                                                                             |
-| PAGE                          | Interruzione di pagina                            | Inizia una nuova pagina nel report.                                                                                                                                                                               |
-| \---                          | Sottolineatura singola                      | Inserisce una singola riga sotto tutte le colonne di importo nel report.                                                                                                                                                     |
-|  ===                          | Sottolineatura doppia                      | Inserisce una doppia riga sotto tutte le colonne di importo nel report.                                                                                                                                                     |
-| LINE1                         | Linea sottile                             | Disegna una singola linea sottile sulla pagina.                                                                                                                                                                      |
-| LINE2                         | Linea spessa                            | Disegna orizzontalmente una linea spessa singola nella pagina.                                                                                                                                                                     |
-| LINE3                         | Linea punteggiata                           | Disegna una singola linea punteggiata sulla pagina.                                                                                                                                                                    |
-| LINE4                         | Linea spessa e linea sottile              | Disegna una doppia linea sottile sulla pagina. La linea superiore è spessa e la linea inferiore è sottile.                                                                                                                       |
-| LINE5                         | Linea sottile e linea spessa              | Disegna una doppia linea sottile sulla pagina. La linea superiore è sottile e la linea inferiore è spessa.                                                                                                                       |
-| BXB BXC                       | Riga con riquadri                             | Disegna una casella intorno alle righe di report che iniziano con la riga **BXB** e terminano con la riga **BXC**.                                                                                                               |
-| REM                           | Commento                                | Identifica una riga che corrisponde a una riga di commento che non deve essere stampata nel report. In una riga di commento, ad esempio, potrebbero essere spiegate le tecniche di formattazione utilizzate.                                                            |
-| SORT ASORT SORTDESC ASORTDESC | Ordina                                  | Ordina le spese o i ricavi, ordina un report di scostamento budget o effettivo per lo scostamento massimo o ordina le descrizioni di riga in ordine alfabetico.                                                                   |
+| <strong>Codice formato</strong>  | <strong>Interpretazione del codice di formato</strong> |                                                                                                                             <strong>Azione</strong>                                                                                                                              |
+|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            (Nessuno)             |                                                    |                                                                                                                  Cancella il contenuto della cella <strong>Codice formato</strong>.                                                                                                                   |
+|              TOT              |                       Totale                        |                                         Identifica una riga che utilizza gli operatori matematici nella colonna <strong>Unità/Righe/Formule correlate</strong>. I totali contengono gli operatori semplici, ad esempio <strong>+</strong> o <strong>-</strong>.                                         |
+|              CAL              |                    Calcolo                     | Identifica una riga nella cui colonna <strong>Formule/Righe/Unità correlate</strong> vengono utilizzati operatori matematici. I calcoli contengono gli operatori complessi, ad esempio <strong>+</strong>, <strong>-</strong>, <strong>\</strong><em>, **/</em><em> e le istruzioni **IF/THEN/ELSE</em>*. |
+|              DES              |                    descrizione                     |                                                                                                             Identifica una riga di intestazione o una riga vuota in un report.                                                                                                              |
+|          LFT RGT CEN          |                 Centro da sinistra a destra                  |                                                                                 Allinea il testo di descrizione della riga nella pagina del report, indipendentemente dalla posizione del testo nella definizione di colonna.                                                                                 |
+|              CBR              |                  Riga di base di modifica                   |                                                                                                         Identifica una riga che imposta la riga di base per i calcoli della colonna.                                                                                                         |
+|            COLUMN             |                    Interruzione di colonna                    |                                                                                                                        Inizia una nuova colonna nel report.                                                                                                                        |
+|             PAGE              |                     Interruzione di pagina                     |                                                                                                                         Inizia una nuova pagina nel report.                                                                                                                         |
+|             \---              |                  Sottolineatura singola                  |                                                                                                            Inserisce una singola riga sotto tutte le colonne di importo nel report.                                                                                                            |
+|              ===              |                  Sottolineatura doppia                  |                                                                                                            Inserisce una doppia riga sotto tutte le colonne di importo nel report.                                                                                                            |
+|             LINE1             |                     Linea sottile                      |                                                                                                                    Disegna una singola linea sottile sulla pagina.                                                                                                                     |
+|             LINE2             |                     Linea spessa                     |                                                                                                                    Disegna orizzontalmente una linea spessa singola nella pagina.                                                                                                                    |
+|             LINE3             |                    Linea punteggiata                     |                                                                                                                   Disegna una singola linea punteggiata sulla pagina.                                                                                                                    |
+|             LINE4             |              Linea spessa e linea sottile              |                                                                                             Disegna una doppia linea sottile sulla pagina. La linea superiore è spessa e la linea inferiore è sottile.                                                                                             |
+|             LINE5             |              Linea sottile e linea spessa              |                                                                                             Disegna una doppia linea sottile sulla pagina. La linea superiore è sottile e la linea inferiore è spessa.                                                                                             |
+|            BXB BXC            |                     Riga con riquadri                      |                                                                            Disegna una casella intorno alle righe del report che iniziano con la riga di tipo <strong>BXB</strong> e terminano con la riga di tipo <strong>BXC</strong>.                                                                            |
+|              REM              |                       Commento                       |                                                               Identifica una riga che corrisponde a una riga di commento che non deve essere stampata nel report. In una riga di commento, ad esempio, potrebbero essere spiegate le tecniche di formattazione utilizzate.                                                                |
+| SORT ASORT SORTDESC ASORTDESC |                        Ordina                        |                                                                   Ordina le spese o i ricavi, ordina un report di scostamento budget o effettivo per lo scostamento massimo o ordina le descrizioni di riga in ordine alfabetico.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Specificare unità/righe/formule correlate
 La cella **Unità/Righe/Formule correlate** ha più scopi. A seconda del tipo di riga, una cella **Unità/Righe/Formule correlate** può eseguire una delle seguenti funzioni:
@@ -211,12 +210,12 @@ I codici di ordinamento ordinano conti o valori, ordinano un report di scostamen
 
 ### <a name="select-a-sorting-code"></a>Selezionare un codice di ordinamento
 
-1.  In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
-2.  Fare doppio clic sulla cella **Codice formato** quindi selezionare un codice di ordinamento.
-3.  Nella cella **Unità/Righe/Formule correlate**, specificare l'intervallo dei codici di riga da ordinare. Per specificare un intervallo, immettere il primo codice di riga, due punti (:) e l'ultimo codice di riga. Ad esempio, immettere **160:490** per specificare che l'intervallo è compreso tra la riga 160 e la riga 490.
-4.  Nella cella **Restrizione colonna**, immettere la lettera della colonna del report da utilizzare per l'ordinamento. 
-> [!Note] 
-> Includere solo le righe di importo nel calcolo di ordinamento.
+1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+2. Fare doppio clic sulla cella **Codice formato** quindi selezionare un codice di ordinamento.
+3. Nella cella **Unità/Righe/Formule correlate**, specificare l'intervallo dei codici di riga da ordinare. Per specificare un intervallo, immettere il primo codice di riga, due punti (:) e l'ultimo codice di riga. Ad esempio, immettere **160:490** per specificare che l'intervallo è compreso tra la riga 160 e la riga 490.
+4. Nella cella **Restrizione colonna**, immettere la lettera della colonna del report da utilizzare per l'ordinamento. 
+   > [!Note] 
+   > Includere solo le righe di importo nel calcolo di ordinamento.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Esempi di valori di colonna crescenti e decrescenti
 
@@ -258,41 +257,41 @@ La cella **Sostituzione formato** specifica la formattazione utilizzata per la r
 
 La formattazione di valuta si applica a un importo fiscale e include il simbolo della valuta. Sono disponibili le opzioni seguenti:
 
--   **Simbolo di valuta** - Il simbolo di valuta per il report. Questo valore sostituisce l'impostazione **Opzioni internazionali** delle informazioni di società.
--   **Numeri negativi** I numeri negativi possono avere un segno meno (-), possono essere racchiusi tra parentesi oppure possono avere un triangolo (∆).
--   **Posizioni decimali** – Il numero di cifre da visualizzare dopo la virgola decimale.
--   **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
-> [!Note] 
-> Se la stampa è eliminata per i valori zero o nessuna attività del periodo, il testo viene eliminato.
+- **Simbolo di valuta** - Il simbolo di valuta per il report. Questo valore sostituisce l'impostazione **Opzioni internazionali** delle informazioni di società.
+- **Numeri negativi** I numeri negativi possono avere un segno meno (-), possono essere racchiusi tra parentesi oppure possono avere un triangolo (∆).
+- **Posizioni decimali** – Il numero di cifre da visualizzare dopo la virgola decimale.
+- **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
+  > [!Note] 
+  > Se la stampa è eliminata per i valori zero o nessuna attività del periodo, il testo viene eliminato.
 
 ### <a name="numeric-formatting"></a>Formattazione numerica
 
 La formattazione numerica si applica a qualsiasi importo e non include un simbolo della valuta. Sono disponibili le seguenti opzioni:
 
--   **Numeri negativi** I numeri negativi possono avere un segno meno (-), possono essere racchiusi tra parentesi oppure possono avere un triangolo (∆).
--   **Posizioni decimali** – Il numero di cifre da visualizzare dopo la virgola decimale.
--   **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
-> [!Note] 
-> Se la stampa è eliminata per i valori zero o nessuna attività del periodo, il testo viene eliminato.
+- **Numeri negativi** I numeri negativi possono avere un segno meno (-), possono essere racchiusi tra parentesi oppure possono avere un triangolo (∆).
+- **Posizioni decimali** – Il numero di cifre da visualizzare dopo la virgola decimale.
+- **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
+  > [!Note] 
+  > Se la stampa è eliminata per i valori zero o nessuna attività del periodo, il testo viene eliminato.
 
 ### <a name="percentage-formatting"></a>Formattazione percentuale
 
 La formattazione percentuale include il segno di percentuale (%). Sono disponibili le seguenti opzioni:
 
--   **Numeri negativi** I numeri negativi possono avere un segno meno (-), possono essere racchiusi tra parentesi oppure possono avere un triangolo (∆).
--   **Posizioni decimali** – Il numero di cifre da visualizzare dopo la virgola decimale.
--   **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
-> [!Note] 
-> Se la stampa è eliminata per i valori zero o nessuna attività del periodo, il testo viene eliminato.
+- **Numeri negativi** I numeri negativi possono avere un segno meno (-), possono essere racchiusi tra parentesi oppure possono avere un triangolo (∆).
+- **Posizioni decimali** – Il numero di cifre da visualizzare dopo la virgola decimale.
+- **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
+  > [!Note] 
+  > Se la stampa è eliminata per i valori zero o nessuna attività del periodo, il testo viene eliminato.
 
 ### <a name="custom-formatting"></a>Formattazione personalizzata
 
 Utilizzare la categoria di formattazione personalizzata per creare una sostituzione di formato personalizzata. Sono disponibili le seguenti opzioni:
 
--   **Tipo** - Formato personalizzato.
--   **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
-> [!Note] 
-> Se la stampa è eliminata per i valori zero o nessuna attività del periodo, il testo viene eliminato.
+- **Tipo** - Formato personalizzato.
+- **Testo di sostituzione valore zero** – Il testo da includere nel report quando un importo è 0 (zero). Questo testo verrà visualizzato come ultima riga nell'area **Esempio**. 
+  > [!Note] 
+  > Se la stampa è eliminata per i valori zero o nessuna attività del periodo, il testo viene eliminato.
 
 Il tipo deve rappresentare il valore positivo e quindi il valore negativo. In genere, si immette un formato simile che differenzia i valori positivi e i valori negativi. Ad esempio, per specificare che i valori positivi e negativi hanno entrambi due posizioni decimali, ma i valori negativi vengono visualizzati tra parentesi, immettere **0.00;(0.00)**. Nella seguente tabella vengono indici i formati personalizzati da utilizzare per controllare il formato dei valori. Tutti gli esempi cominciano dal valore 1234,56.
 
@@ -387,7 +386,7 @@ Per impostazione predefinita, Progettazione report non stampa una riga se non ha
 3.  Scegliere **Salva** dal menu **File** per salvare le modifiche.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Utilizzare i caratteri jolly e gli intervalli in una definizione di riga
-Quando si immette un valore di segmento naturale nella finestra di dialogo **Dimensioni**, è possibile inserire un carattere jolly (? o \*) in qualsiasi posizione di un segmento. Progettazione report estrae tutti i valori per le posizioni definite senza considerare i caratteri jolly. Ad esempio, la definizione di riga contiene solo i valori di segmenti naturali e i segmenti naturali hanno quattro caratteri. Se si immette **6???** in una riga, Progettazione report include tutti i conti con un valore di segmento naturale che inizia con 6. Se si immette **6\***, vengono restituiti gli stessi risultati, ma i risultati includono anche i valori di larghezza variabile, ad esempio **60** e **600000**. Progettazione report sostituisce ogni carattere jolly (?) con l'intervallo completo di valori possibili che includono lettere e caratteri speciali. Ad esempio, nell'intervallo compreso tra **12?0** e **12?4**, il carattere jolly in **12?0** viene sostituito con il valore minimo del set di caratteri e il carattere jolly in **12?4** viene sostituito con il valore massimo del set di caratteri. 
+Quando si immette un valore di segmento naturale nella finestra di dialogo <strong>Dimensioni</strong>, è possibile inserire un carattere jolly (? o \*) in qualsiasi posizione di un segmento. Progettazione report estrae tutti i valori per le posizioni definite senza considerare i caratteri jolly. Ad esempio, la definizione di riga contiene solo i valori di segmenti naturali e i segmenti naturali hanno quattro caratteri. Se si immette <strong>6???</strong> in una riga, Progettazione report include tutti i conti con un valore di segmento naturale che inizia con 6. Se si immette <strong>6\</strong><em>, vengono restituiti gli stessi risultati, ma i risultati includono anche i valori di larghezza variabile, ad esempio **60</em>* e <strong>600000</strong>. Progettazione report sostituisce ogni carattere jolly (?) con l'intervallo completo di valori possibili che includono lettere e caratteri speciali. Ad esempio, nell'intervallo compreso tra <strong>12?0</strong> e <strong>12?4</strong>, il carattere jolly in <strong>12?0</strong> viene sostituito con il valore minimo del set di caratteri e il carattere jolly in <strong>12?4</strong> viene sostituito con il valore massimo del set di caratteri. 
 > [!Note] 
 > È consigliabile evitare di utilizzare i caratteri jolly per i conti iniziali e finali negli intervalli. Se si utilizzano i caratteri jolly nel conto iniziale o finale, è possibile che i risultati siano imprevisti.
 
@@ -466,15 +465,15 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 
 ### <a name="update-a-set-of-dimension-values"></a>Aggiornare un set di valori di dimensione
 
-1.  In Progettazione report aprire la definizione di riga, di colonna o di albero gerarchico da modificare.
-2.  Nel menu **Modifica**, fare clic su **Gestire set di valori di dimensione**.
-3.  Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, selezionare il tipo di dimensione.
-4.  Nell'elenco, selezionare il set di valori di dimensione da aggiornare e quindi fare clic su **Modifica**.
-5.  Nella finestra di dialogo **Modifica**, modificare i valori di formula da includere nel set. 
-> [!Note] 
-> Se si aggiungono nuovi conti o dimensioni, assicurarsi di modificare i set esistenti di valori di dimensione per includere le modifiche.
-6.  Fare doppio clic sulla cella e selezionare l'operatore, il conto **Da** e il conto **A** appropriati.
-7.  Fare clic su **OK** nella finestra di dialogo **Modifica** e salvare le modifiche.
+1. In Progettazione report aprire la definizione di riga, di colonna o di albero gerarchico da modificare.
+2. Nel menu **Modifica**, fare clic su **Gestire set di valori di dimensione**.
+3. Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, selezionare il tipo di dimensione.
+4. Nell'elenco, selezionare il set di valori di dimensione da aggiornare e quindi fare clic su **Modifica**.
+5. Nella finestra di dialogo **Modifica**, modificare i valori di formula da includere nel set. 
+   > [!Note] 
+   > Se si aggiungono nuovi conti o dimensioni, assicurarsi di modificare i set esistenti di valori di dimensione per includere le modifiche.
+6. Fare doppio clic sulla cella e selezionare l'operatore, il conto **Da** e il conto **A** appropriati.
+7. Fare clic su **OK** nella finestra di dialogo **Modifica** e salvare le modifiche.
 
 ### <a name="copy-a-dimension-set"></a>Copiare un set di dimensioni
 

@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: it-it
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Aggiungere l'analisi alle aree di lavoro tramite Power BI Embedded
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Questa funzionalità è supportata in Dynamics 365 for Finance and Operations (versione 7.2 e successiva).
@@ -50,7 +50,7 @@ Se si estende un'area di lavoro dell'applicazione esistente o si introduce una n
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Aggiungere un file .pbix come risorsa
 Prima di iniziare è necessario creare o visualizzare il report di Power BI che verrà importato nell'area di lavoro. Per ulteriori informazioni su come creare report analitici, vedere [Introduzione a Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 Seguire questi passaggi per aggiungere un file .pbix come elemento del progetto di Visual Studio.
 
 1. Creare un nuovo progetto nel modello appropriato.
@@ -63,12 +63,12 @@ Seguire questi passaggi per aggiungere un file .pbix come elemento del progetto 
 5. Individuare il file .pbix contenente la definizione di report analitico, quindi fare clic su **Apri**.
 
     ![Selezionare una finestra di dialogo del file di risorse](media/analytical-workspace-select-resource.png)
-  
+
 Dopo aver aggiunto un file .pbix come risorsa Dynamics 365, è possibile importare i report nelle aree di lavoro e aggiungere collegamenti diretti utilizzando le voci di menu.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Aggiungere un controllo della scheda a un'area di lavoro dell'applicazione
 In questo esempio verrà estesa l'area di lavoro **Gestione prenotazione** del modello di gestione flotta aggiungendo la scheda **Analisi** alla definizione del modulo **FMClerkWorkspace**.
- 
+
 Nella figura che segue viene mostrato l'aspetto del modulo **FMClerkWorkspace** nello strumento di progettazione in Microsoft Visual Studio.
 
 ![Il modulo FMClerkWorkspace prima delle modifiche](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ Seguire questi passaggi per estendere la definizione di modulo per l'area di lav
 16. Fare clic con il pulsante destro del mouse e scegliere **Rimuovi criterio**.
 17. Fare di nuovo clic con il pulsante destro del mouse, quindi scegliere **Aggiungi criterio** > **Area di lavoro catalogata**.
 18. Eseguire una build per verificare le modifiche.
- 
+
 Nell'illustrazione riportata di seguito viene mostrato l'aspetto della progettazione dopo l'applicazione di tali modifiche.
 
 ![FMClerkWorkspace dopo le modifiche](media/analytical-workspace-definition-after.png)
 
 Dopo aver aggiunto i controlli del modulo che verranno utilizzati per includere il report dell'area di lavoro, è necessario definire la dimensione del controllo padre in modo che si adatti al layout. Per impostazione predefinita, sia la pagina **Riquadro filtri** che la pagina **Scheda** saranno visibili nel report. Tuttavia, è possibile modificare la visibilità di questi controlli a seconda del cliente di destinazione del report.
- 
+
 > [!NOTE]
 > Per le aree di lavoro incluse, si consiglia di utilizzare le estensioni per nascondere sia la pagina **Scheda** che la pagina **Riquadro filtri**, per coerenza.
- 
+
 L'attività di estensione della definizione di modulo dell'applicazione è stata completata. Per ulteriori informazioni sull'utilizzo delle estensioni per apportare le personalizzazioni, vedere [Personalizzazione: overlayering ed estensioni](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Aggiungere la regola business X++ per importare un controllo del visualizzatore
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Parametri
 
-| Nome | descrizione |
-|---|---|
-| resourceName | Nome della risorsa .pbix. |
-| formGroupControl | Controllo del gruppo di moduli al quale applicare il controllo del report Power BI. |
-| defaultPageName | Nome della pagina predefinita. |
-| showFilterPane | Valore booleano che indica se il riquadro filtri deve essere visualizzato (**True**) o nascosto (**False**). |
-| showNavPane | Valore booleano che indica se il riquadro di spostamento deve essere visualizzato (**True**) o nascosto (**False**). |
-| defaultFilters | Filtri di base per il report Power BI. |
+|       Nome       |                                                              descrizione                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    Nome della risorsa .pbix.                                                     |
+| formGroupControl |                                    Controllo del gruppo di moduli al quale applicare il controllo del report Power BI.                                     |
+| defaultPageName  |                                                         Nome della pagina predefinita.                                                         |
+|  showFilterPane  |   Valore booleano che indica se il riquadro filtri deve essere visualizzato (<strong>True</strong>) o nascosto (<strong>False</strong>).   |
+|   showNavPane    | Valore booleano che indica se il riquadro di spostamento deve essere visualizzato (<strong>True</strong>) o nascosto (<strong>False</strong>). |
+|  defaultFilters  |                                              Filtri di base per il report Power BI.                                              |
+
 

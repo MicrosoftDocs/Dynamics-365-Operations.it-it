@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Gestione progetti e contabilità
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La funzionalità gestione progetti e contabilità può essere utilizzata in più settori per fornire un servizio, realizzare un prodotto oppure ottenere un risultato.  
 
@@ -83,6 +82,7 @@ Per ulteriori informazioni, vedere [Strutture di suddivisione del lavoro](work-b
 È possibile creare sei tipi di progetti in Microsoft Finance and Operations. Ogni tipo di progetto è impostato in modo diverso per i costi e il riconoscimento dei ricavi. La scelta del tipo di progetto dipende dallo scopo del progetto. Nella seguente tabella viene descritto l'utilizzo tipico di ciascun tipo di progetto.
 
                                                                                                                                                                          |
+
 | Tipo di progetto      | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Tempistica e materiali | Per i progetti di tempistica e materiali, al cliente vengono fatturati per tutti i costi che vengono sostenuti in un progetto, tra cui i costi per ore, spese, articoli e commissioni.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Un ordine di produzione correlato a un progetto può essere collegato a un ordin
 
 In base alle combinazioni di questi fattori, utilizzare uno dei metodi seguenti:
 
--   **Articolo finito/collegamento all'ordine**: consente di collegare il progetto a un ordine cliente o a una richiesta articolo. Utilizzando questo metodo, i costi effettivi del progetto vengono registrati quando viene fatturato l'ordine cliente o quando viene aggiornato il documento di trasporto della richiesta articolo. Il costo viene registrato come articolo finito.
--   **Articolo finito/nessun collegamento all'ordine**: i costi effettivi non possono essere registrati fino a quando lo stato del ciclo di produzione di un articolo non è **Finito**. Il costo dell'articolo finito viene registrato come singola transazione.
--   **Articolo consumato/collegamento all'ordine**: consente di collegare il progetto a una richiesta articolo. Utilizzando questo metodo, è possibile visualizzare i costi effettivi del progetto quando lo stato della produzione è **Avviato** o finito. I costi vengono registrati in più transazioni articolo di progetto per le materie prime e le ore consumate nella produzione. Quando viene aggiornato il documento di trasporto per la richiesta articolo, non viene registrato alcun costo di progetto. È inoltre possibile definire il livello della gerarchia della distinta base (DBA) in cui viene tenuta traccia dei progetti nella produzione.
--   ****Articolo consumato/nessun collegamento all'ordine****: consente di collegare il progetto a una richiesta articolo. Utilizzando questo metodo, è possibile visualizzare i costi effettivi del progetto quando lo stato della produzione è **Avviato** o finito. I costi vengono registrati in più transazioni articolo di progetto per le materie prime e le ore consumate nella produzione. È inoltre possibile definire il livello della gerarchia DBA in cui viene tenuta traccia dei progetti nella produzione.
+- **Articolo finito/collegamento all'ordine**: consente di collegare il progetto a un ordine cliente o a una richiesta articolo. Utilizzando questo metodo, i costi effettivi del progetto vengono registrati quando viene fatturato l'ordine cliente o quando viene aggiornato il documento di trasporto della richiesta articolo. Il costo viene registrato come articolo finito.
+- **Articolo finito/nessun collegamento all'ordine**: i costi effettivi non possono essere registrati fino a quando lo stato del ciclo di produzione di un articolo non è **Finito**. Il costo dell'articolo finito viene registrato come singola transazione.
+- **Articolo consumato/collegamento all'ordine**: consente di collegare il progetto a una richiesta articolo. Utilizzando questo metodo, è possibile visualizzare i costi effettivi del progetto quando lo stato della produzione è **Avviato** o finito. I costi vengono registrati in più transazioni articolo di progetto per le materie prime e le ore consumate nella produzione. Quando viene aggiornato il documento di trasporto per la richiesta articolo, non viene registrato alcun costo di progetto. È inoltre possibile definire il livello della gerarchia della distinta base (DBA) in cui viene tenuta traccia dei progetti nella produzione.
+- *<strong><em>Articolo consumato/nessun collegamento all'ordine</em></strong>*: consente di collegare il progetto a una richiesta articolo. Utilizzando questo metodo, è possibile visualizzare i costi effettivi del progetto quando lo stato della produzione è <strong>Avviato</strong> o finito. I costi vengono registrati in più transazioni articolo di progetto per le materie prime e le ore consumate nella produzione. È inoltre possibile definire il livello della gerarchia DBA in cui viene tenuta traccia dei progetti nella produzione.
 
 ### <a name="procure-products-and-services"></a>Approvvigionamento di prodotti e servizi
 
@@ -239,9 +239,8 @@ Nella seguente tabella sono descritti i metodi per calcolare il costo per comple
 <li>Confrontare le transazioni previsionali con le transazioni effettive.</li>
 <li>Gestire, diminuire, incrementare le stime per il periodo successivo.</li>
 </ol>
-Finance and Operations non riduce automaticamente le stime previste. Pertanto, si consiglia di conservare un modello previsionale originale del progetto a prezzo fisso per creare un riferimento di base con cui eseguire il confronto una volta che il progetto è stato completato. 
-> [!NOTE]: quando si seleziona questo metodo, utilizzare almeno due modelli previsionali. Un modello deve contenere la previsione originale. Nell'altro occorre copiare le transazioni previsionali da un altro modello. Questo metodo vale solo per i progetti a prezzo fisso e i progetti di investimento.</td>
-> </tr>
+Finance and Operations non riduce automaticamente le stime previste. Pertanto, si consiglia di conservare un modello previsionale originale del progetto a prezzo fisso per creare un riferimento di base con cui eseguire il confronto una volta che il progetto è stato completato. &gt; [!NOTE] &gt; quando si seleziona questo metodo, utilizzare almeno due modelli previsionali. Un modello deve contenere la previsione originale. Nell'altro occorre copiare le transazioni previsionali da un altro modello. Questo metodo vale solo per i progetti a prezzo fisso e i progetti di investimento.</td>
+</tr>
 <tr class="odd">
 <td>Budget residuo</td>
 <td>Questo metodo utilizza un modello di budget residuo per calcolare il costo di completamento del progetto. Quando si utilizza questo metodo, i costi effettivi e gli importi previsti nel modello di budget residuo vengono sommati. Il risultato è il costo totale. Prima di utilizzare questo metodo, il modello di budget residuo deve essere configurato per detrarre le transazioni basate sulle transazioni effettive registrate nel sistema. Nella pagina <strong>Modelli previsionali</strong> assicurarsi che i campi siano contrassegnati nel gruppo <strong>Riduzione previsioni automatica</strong>. In genere, un budget residuo viene copiato da un budget originale. Man mano che vengono immesse le transazioni, le transazioni nel budget residuo diminuiscono. Se durante il progetto si determina che il budget residuo debba essere rettificato, si addebitano le transazioni previsionali al budget residuo. <strong>Nota:</strong> questo metodo può essere applicato solo se alla stima è collegato un modello previsionale.</td>

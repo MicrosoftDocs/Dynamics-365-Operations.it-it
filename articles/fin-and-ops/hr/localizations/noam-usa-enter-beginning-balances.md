@@ -18,29 +18,29 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 27c03f7bd61ee7d4cb1d01f04af2f1821e9988e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
 ms.contentlocale: it-it
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Immettere i saldi iniziali delle retribuzioni
 
-[!include[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 Nell'argomento vengono descritti i passaggi necessari per immettere i saldi iniziali per codici reddito, detrazioni, benefit e imposte. Queste informazioni sono utili ai partner che trasferiscono dati per una nuova implementazione di retribuzione da un altro sistema. Per prepararsi a immettere i saldi iniziali delle retribuzioni, vengono controllate le seguenti informazioni:
 
 > * I record dipendente vengono immessi e sono disponibili nel sistema
 > * I seguenti dati vengono impostati e assegnati ai dipendenti:
-
+> 
 > > * Cicli e periodi retributivi
 > > * Codici di reddito
 > > * Imposte
 > > * Benefit e detrazioni
-
+> 
 > * La società dovrebbe aver selezionato la data in cui i saldi iniziali delle retribuzioni possono essere impostati.
-
+> 
 > * Sono state raccolte informazioni su tutti i ricavi, benefit/detrazioni, Contributi per benefit, imposte del dipendente e imposte del datore di lavoro e i relativi importi da inizio anno dal sistema legacy.
 
 Dal momento che si prevede di immettere i saldi iniziali, valutare il livello di dettaglio dei dati. La maggior parte delle aziende immette un singolo importo consolidato da inizio anno. Tuttavia, se sono necessarie informazioni più dettagliate, i saldi possono essere immessi in incrementi trimestrali. La definizione del livello di dettaglio necessario determina il numero dei rendiconti finanziari di retribuzione da creare per ciascun lavoratore. Per un singolo importo da inizio anno, è necessario un solo rendiconto manuale per ciascun dipendente. Per fare ciò, utilizzare gli importi da inizio anno a partire dal rendiconto di pagamento finale del sistema precedente come importo immesso nel nuovo sistema di gestione delle retribuzioni.
@@ -128,22 +128,22 @@ Dopo aver generato i rendiconti di pagamento con saldi iniziali, è necessario v
 
 4. Aprire la scheda **Detrazioni per benefit** e immettere i seguenti dati:
 
-| Campo                           | Valore            |
-|---------------------------------|------------------|
-| Benefit                         | Importo detrazione |
-| 401.000 | Partecipazione              | 3000.00          |
-| Rischi professionali | Sottospecie                  | 495,00           |
-| Spese di discreazione di reparto | Partecipazione | 2500.00          |
-| Visione | Sottospecie                  | 500,00           |
+|       Campo       |      Valore       |
+|-------------------|------------------|
+|      Benefit      | Importo detrazione |
+|       401.000        |   Partecipazione    |
+|      Rischi professionali       |      Sottospecie       |
+| Spese di discreazione di reparto |   Partecipazione    |
+|      Visione       |      Sottospecie       |
 
 5. Nella scheda **Contributi per benefit** immettere i seguenti dati:
 
-| Campo              | Valore               |
-|--------------------|---------------------|
-| Benefit            | Importo di contribuzione |
-| 401.000 | Partecipazione | 3000,00             |
-| Rischi professionali | Sottospecie     | 495,00              |
-| Visione | Sottospecie     | 500,00              |
+|  Campo  |        Valore        |
+|---------|---------------------|
+| Benefit | Importo di contribuzione |
+|  401.000   |     Partecipazione     |
+| Rischi professionali  |        Sottospecie        |
+| Visione  |        Sottospecie        |
 
 6. Nella scheda **Detrazioni imposta**, immettere i seguenti dati:
 
@@ -156,8 +156,8 @@ Dopo aver generato i rendiconti di pagamento con saldi iniziali, è necessario v
 7. Nella scheda **Contribuzioni imponibili**, immettere i seguenti dati:
 
 8. Fare clic su **Calcola**.
-> [!IMPORTANT] 
-> Convalidare i totali del rendiconto di pagamento che corrispondono all'importo da inizio anno del sistema legacy per il lavoratore. Può essere necessario attendere a finalizzare il passaggio successivo per eseguire una convalida globale di tutti i rendiconti di pagamento aggregati. Una volta convalidati, finalizzare tutti i rendiconti di pagamento.
+   > [!IMPORTANT] 
+   > Convalidare i totali del rendiconto di pagamento che corrispondono all'importo da inizio anno del sistema legacy per il lavoratore. Può essere necessario attendere a finalizzare il passaggio successivo per eseguire una convalida globale di tutti i rendiconti di pagamento aggregati. Una volta convalidati, finalizzare tutti i rendiconti di pagamento.
 
 Lo stesso processo può essere eseguito negli incrementi trimestrali se necessario per tutti i trimestri precedenti in ogni anno. Questa operazione è necessaria solo se il cliente deve visualizzare i dati per trimestre senza tornare al sistema legacy.
 

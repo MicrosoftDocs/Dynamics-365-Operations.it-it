@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Criteri di lavoro magazzino
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 I criteri di lavoro del magazzino in Microsoft Dynamics 365 for Finance and Operations controllano se il lavoro del magazzino viene creato da processi di magazzino durante la produzione, in base al tipo di ordine di lavoro, all'ubicazione del magazzino e al prodotto.
 
@@ -68,14 +67,15 @@ Quando si pianifica di configurazione dei criteri di lavoro di magazzino per que
 
 Di seguito è riportato un esempio dei criteri di lavoro che è possibile impostare, in base a queste considerazioni.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**Nome criteri di lavoro**<br>                 |**Tipi di ordine di lavoro**<br>                               |
-| Nessuno stoccaggio 01     `                    |- Stoccaggio prodotto finito<br>                           |
-|                                         |**Ubicazioni**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Prodotti** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>Nome criteri di lavoro</strong><br> | <strong>Tipi di ordine di lavoro</strong><br> |
+|         Nessuno stoccaggio 01     `          |     - Stoccaggio prodotto finito<br>      |
+|                                       |    <strong>Ubicazioni</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Prodotti</strong> <br>     |
+|                                       |                 - SC1                 |
 
 Nelle procedure riportate di seguito vengono fornite istruzioni dettagliate sull'impostazione dei criteri di lavoro di magazzino per questo scenario. Una impostazione di esempio che mostra come dichiarare finito un ordine di produzione  in un'ubicazione non controllata da targhe viene anche descritta.
 
@@ -179,7 +179,7 @@ PASSAGGI (25)
 <tr>
 <td></td>
 <td>6.</td>
-<td>Nel riquadro azioni, fare clic su Ordine di produzione.</td>
+<td>Nel riquadro azioni fare clic su Ordine di produzione.</td>
 </tr>
 <tr>
 <td></td>
@@ -214,7 +214,7 @@ PASSAGGI (25)
 <tr>
 <td></td>
 <td>13.</td>
-<td>Fare clic su Dichiarato finito.</td>
+<td>Fare clic su Dichiarazione di finito.</td>
 </tr>
 <tr>
 <td></td>

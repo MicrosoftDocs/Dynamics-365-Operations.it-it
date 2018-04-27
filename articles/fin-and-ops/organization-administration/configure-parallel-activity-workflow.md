@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a913655b584aa23c2614903e6ede4f5826fec1fb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec1c1d8abc49deb8ef16322370c59d40b01d344c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>Configurare un'attività parallela in un flusso di lavoro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Per configurare un'attività parallela, attenersi alle procedure indicate di seguito nell'editor flusso di lavoro.
 
@@ -43,13 +42,15 @@ Per immettere un nome per un'attività parallela, effettuare le operazioni indic
 
 ## <a name="configure-the-branches-of-a-parallel-activity"></a>Configurare i rami di un'attività parallela
 Per aggiungere e configurare i rami di questa attività parallela, effettuare le operazioni indicate di seguito.
-1.  Fare doppio clic sull'attività parallela per visualizzarne i rami.
-2.  Per aggiungere un ramo, trascinare l'elemento **Ramo** dall'area **Elementi flusso di lavoro** in un punto di inserimento nella canvas. Nella figura seguente viene illustrato un punto di inserimento.![Punto di inserimento](./media/workflow_insertionpoint.gif)
-    | **Nota**                                                                                                         |
-    |------------------------------------------------------------------------------------------------------------------|
-    | L'ordine dei rami non è determinante, in quanto tutti i rami di un'attività parallela vengono eseguiti contemporaneamente. |
+1. Fare doppio clic sull'attività parallela per visualizzarne i rami.
+2. Per aggiungere un ramo, trascinare l'elemento **Ramo** dall'area **Elementi flusso di lavoro** in un punto di inserimento nella canvas. Nella figura seguente viene illustrato un punto di inserimento.![Punto di inserimento](./media/workflow_insertionpoint.gif)
 
-3.  Per configurare ogni ramo, vedere [Configurare un ramo parallelo](configure-parallel-branch-workflow.md).
+   |                                              <strong>Nota</strong>                                               |
+   |------------------------------------------------------------------------------------------------------------------|
+   | L'ordine dei rami non è determinante, in quanto tutti i rami di un'attività parallela vengono eseguiti contemporaneamente. |
+
+
+3. Per configurare ogni ramo, vedere [Configurare un ramo parallelo](configure-parallel-branch-workflow.md).
 
 
 

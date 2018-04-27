@@ -1,5 +1,5 @@
 --- 
-title: Eseguire il formato per utilizzare i file di gestione documenti nel formato di output per la creazione di report elettronici (ER)
+title: Eseguire il formato per utilizzare i file per la gestione dei documenti negli output di formato
 description: "I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 419c3e305dfdd7d8612340b4a8e8e54e13c6362b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 554de60fb8d2b6cb03cac5dc8d01df98390ad844
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="run-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Eseguire il formato per utilizzare i file di gestione documenti nel formato di output per la creazione di report elettronici (ER)
+# <a name="run-format-to-use-document-management-files-in-format-outputs"></a>Eseguire il formato per utilizzare i file per la gestione dei documenti negli output di formato 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici. Queste operazioni possono essere eseguite nella società DEMF.
 

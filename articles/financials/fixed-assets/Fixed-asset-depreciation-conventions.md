@@ -1,0 +1,49 @@
+---
+title: Convenzioni per l'ammortamento dei cespiti
+description: In questo argomento viene fornita una panoramica delle convenzioni per l'ammortamento dei cespiti.
+author: saraschi2
+manager: AnnBe
+ms.date: 03/14/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: AssetDepreciationProfile
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
+ms.custom: 13891
+ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
+ms.search.region: Global
+ms.author: saraschi
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
+ms.contentlocale: it-it
+ms.lasthandoff: 04/13/2018
+
+---
+
+# <a name="fixed-asset-depreciation-conventions"></a>Convenzioni per l'ammortamento dei cespiti
+
+[!INCLUDE [banner](../includes/banner.md)]
+
+Le convenzioni di ammortamento vengono utilizzate per determinare se e come l'ammortamento viene calcolato sia per l'anno in cui il cespite viene acquisito che per l'anno in cui il cespite viene scartato.
+
+Le convenzioni di ammortamento possono essere assegnate all'impostazione di un libro gruppo cespiti. In questo caso, le convenzioni di ammortamento assegnate vengono utilizzate come valori predefiniti quando i libri gruppo cespiti vengono creati. Le convenzioni di ammortamento possono inoltre essere impostate in un singolo libro cespiti.
+
+
+|  Convenzione di ammortamento  |                                                                                                                                                                                                                                                                                                                                                                                                     descrizione                                                                                                                                                                                                                                                                                                                                                                                                     |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Nessuna            |                                                                                                                                                                                                                                                                                                                                                                     L'ammortamento dei cespiti inizia nella data di <strong>Messa a servizio</strong>.                                                                                                                                                                                                                                                                                                                                                                      |
+|         Semestre         |                                                                                                                                                                                                                                                                                                     Si deduce mezzo anno di ammortamento sia per il primo anno che per l'ultimo che si ammortizza la proprietà. Si deduce un intero anno di ammortamento per ogni due anni durante il periodo di recupero.                                                                                                                                                                                                                                                                                                      |
+|        Mese intero         |                                                                                                                                                                                                                                                        I cespiti con una data di <strong>Messa a servizio</strong> che si verifica in qualsiasi momento durante il mese iniziano l'ammortamento i primo giorno di quel mese. I cespiti che sono stati ritirati in qualsiasi momento durante il mese vengono considerati ritirati per scopi di ammortamento l'ultimo giorno del mese precedente.                                                                                                                                                                                                                                                         |
+|        Metà trimestre        |                                                                                                           Per calcolare la detrazione dell'ammortamento per l'anno quando si mette la proprietà a servizio, moltiplicare l'ammortamento per un intero anno per la percentuale per il trimestre in cui la proprietà viene messa a servizio, come illustrato nella tabella seguente.<table><thead><tr><th>Trimestre</th><th>Percentuale</th></tr></thead><tbody><tr><td>Nome</td><td>87.5</td></tr><tr><td>Seconda</td><td>62.5</td></tr><tr><td>Terza</td><td>37.5</td></tr><tr><td>Quarta</td><td>12.5</td></tr></tbody></table>Metà trimestre di ammortamento viene preso nel trimestre di dismissione (o il trimestre completamente ammortizzato).                                                                                                            |
+| Metà mese (giorno 1 del mese)  | I cespiti con una data di <strong>Messa a servizio</strong> nella prima metà del mese (giorni da 1 a 15) iniziano l'ammortamento il primo giorno del mese in cui cade la data di <strong>Messa a servizio</strong>. I cespiti con una data di <strong>Messa a servizio</strong> nella seconda metà del mese (giorni da 16 fino alla fine del mese) iniziano l'ammortamento il primo giorno del mese successivo a quello in cui cade la data di <strong>Messa a servizio</strong>. I cespiti che sono stati ritirati nella prima metà del mese (giorni da 1 a 15) vengono considerati ritirati per scopi di ammortamento l'ultimo giorno del mese precedente. I cespiti che sono stati ritirati nella seconda metà del mese (giorni da 16 fino alla fine del mese) vengono considerati ritirati per scopi di ammortamento l'ultimo giorno del mese di ritiro. |
+| Metà mese (giorno 15 del mese) |                                                                                                                                                        Per calcolare la detrazione dell'ammortamento per l'anno quando si mette la proprietà a servizio, moltiplicare l'ammortamento per un intero anno per una frazione. Il numeratore (numero superiore) della frazione è il numero di mesi completi dell'anno in cui la proprietà è a servizio, più 1/2 o (0,5). Il denominatore (numero inferiore) è 12. Se si smaltisce la proprietà prima della fine del periodo di recupero, utilizzare lo stesso metodo per calcolare la detrazione di ammortamento per l'anno di smaltimento.                                                                                                                                                        |
+| Semestre (inizio anno) |                                                                                                                                                                                                                                                          I cespiti con una data di <strong>Messa a servizio</strong> che cade nella prima metà dell'anno iniziano l'ammortamento il primo giorno dell'anno (intero anno). I cespiti con una data di <strong>Messa a servizio</strong> che cade nella seconda metà dell'anno iniziano l'ammortamento a metà anno.                                                                                                                                                                                                                                                          |
+|   Semestre (prossimo anno)   |                                                            I cespiti con una data di <strong>Messa a servizio</strong> che cade nella prima metà dell'anno iniziano l'ammortamento il primo giorno dell'anno (intero anno). I cespiti con una data di <strong>Messa a servizio</strong> che cade nella seconda metà dell'anno iniziano l'ammortamento il primo giorno dell'anno successivo. I cespiti che sono stati ritirati nella prima metà dell'anno vengono considerati ritirati per scopi di ammortamento l'ultimo giorno dell'anno precedente. Qualsiasi ammortamento registrato durante l'anno corrente deve essere invertito o rettificato. I cespiti che sono stati ritirati nella seconda metà dell'anno vengono considerati ritirati per scopi di ammortamento l'ultimo giorno dell'anno di ritiro.                                                            |
+
+
