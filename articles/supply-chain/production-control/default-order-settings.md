@@ -29,10 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Impostazioni ordine predefinite per dimensioni e varianti prodotto
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Le impostazioni ordine predefinite in Microsoft Dynamics 365 for Finance and Operations definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verranno utilizzate per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine. Le impostazioni ordine predefinite vengono utilizzate durante la creazione di ordini fornitore, ordini cliente, ordini di trasferimento, giornali di registrazione magazzino e durante la pianificazione generale per la generazione degli ordini pianificati. Le impostazioni ordine predefinite possono essere specifiche dell'articolo, del sito, della variante prodotto o della dimensioni prodotto.
 

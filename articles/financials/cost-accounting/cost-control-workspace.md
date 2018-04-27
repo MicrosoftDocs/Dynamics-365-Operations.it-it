@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>Panoramica sul controllo costi 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'area di lavoro **Controllo costi** rappresenta un punto centrale in cui i manager responsabili del controllo di un oggetto di costo o di un set di oggetti di costo in una o più dimensioni (ad esempio centri di costo e gruppi di prodotti) possono accedere ai report. I report nell'area di lavoro vengono gestiti dai contabili, in modo che il layout e i dati utilizzati per il reporting possano essere coerenti nell'intera organizzazione.
 

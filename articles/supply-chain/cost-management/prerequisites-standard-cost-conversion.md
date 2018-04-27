@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Prerequisiti per la conversione in costo standard
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono illustrate le attività da completare prima di eseguire una conversione in costo standard. 
 

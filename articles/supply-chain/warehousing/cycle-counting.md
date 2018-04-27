@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cycle-counting"></a>Conteggio ciclo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo descrive come utilizzare il conteggio ciclo con la soluzione di immagazzinaggio disponibile in Gestione magazzino. Questo articolo non è applicabile alla soluzione di immagazzinaggio disponibile in Gestione inventario.
 

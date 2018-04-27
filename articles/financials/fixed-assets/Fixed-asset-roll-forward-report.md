@@ -19,15 +19,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7a81697a8e90fb6b0695a02db0868f5708fdbddf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Report rollforward cespiti
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Il report **rollforward cespiti** fornisce, in un formato Microsoft Excel di facile lettura, i dati dettagliati dei cespiti necessari per la chiusura di periodi, rendiconti finanziari e rendiconti fiscali. Il report include i saldi di inizio e di fine per i cespiti, unitamente ai movimenti di valutazione del periodo e a qualsiasi nuova acquisizione e dismissione di cespiti verificatasi nel periodo. I dati sono riportati per i singoli cespiti e sono inoltre riepilogati per gruppi di cespiti e persona giuridica.
 
@@ -41,28 +41,30 @@ Il report è disponibile in Microsoft Dynamics 365 for Finance and Operations, E
 
 Nella seguente tabella vengono illustrati i campi disponibili nel report.
 
-| Campo                                       | descrizione |
-|---------------------------------------------|-------------|
-| Saldi: apertura                           | Il valore contabile netto del cespite alla data "da" specificata nel report. |
-| Saldi: chiusura                           | Il valore contabile netto del cespite alla data "a" specificata nel report. |
-| Acquisizioni: valore di apertura                 | La somma di tutte le transazioni di tipo **Acquisizione** e **Rettifica acquisizione** fino alla data "da" specificata nel report. |
-| Acquisizioni: acquisizioni periodo           | La somma di tutte le transazioni di tipo **Acquisizione** e **Rettifica acquisizione** registrate durante l'intervallo di date specificato per il report. |
-| Acquisizioni: dismissioni periodo              | La somma di tutte le transazioni di storno acquisizione con una transazione di dismissione registrate durante l'intervallo di date specificato per il report. |
-| Acquisizioni: valore di chiusura                 | La somma di tutte le transazioni di tipo **Acquisizione** e **Rettifica acquisizione** fino alla data "a" specificata nel report. |
-| Ammortamenti: valore di apertura                | La somma di tutte le transazioni tipo **Ammortamento**, **Rettifica ammortamento**, **Fondo di ammortamento speciale** e **Ammortamento straordinario** fino alla data "da" specificata nel report. |
-| Ammortamenti: ammortamenti periodo         | La somma di tutte le transazioni di tipo **Ammortamento**, **Rettifica ammortamento** e **Ammortamento straordinario** registrate durante l'intervallo di date specificato per il report. |
-| Ammortamenti: ammortamenti speciali periodo | La somma di tutte le transazioni di tipo **Fondo di ammortamento speciale** registrate durante l'intervallo di date specificato per il report. |
-| Ammortamenti: dismissioni del periodo             | La somma di tutti gli storni di ammortamento con una transazione di dismissione registrati durante l'intervallo di date specificato per il report. |
-| Ammortamenti: valore di chiusura                | La somma di tutte le transazioni tipo **Ammortamento**, **Rettifica ammortamento**, **Fondo di ammortamento speciale** e **Ammortamento straordinario** fino alla data "a" specificata nel report. |
-| Rettifiche di rivalutazione/svalutazione: valore di apertura        | La somma di tutte le transazioni di tipo **Rettifica di rivalutazione**, **Rettifica di svalutazione** e **Rivalutazione** fino alla data "da" specificata nel report. |
-| Rettifiche di rivalutazione/svalutazione: rettifiche di rivalutazione periodo     | La somma di tutte le transazioni di tipo **Rettifica di rivalutazione** registrate durante l'intervallo di date specificato per il report. |
-| Rettifiche di rivalutazione/svalutazione: rettifiche di svalutazione periodo   | La somma di tutte le transazioni di tipo **Rettifica di svalutazione** registrate durante l'intervallo di date specificato per il report. |
-| Rettifiche di rivalutazione/svalutazione: rivalutazioni periodo  | La somma di tutte le transazioni di tipo **Rivalutazione** registrate durante l'intervallo di date specificato per il report. |
-| Rettifiche di rivalutazione/svalutazione: dismissioni periodo     | La somma di tutte le transazioni di storno di rettifiche di rivalutazione/svalutazione e di rivalutazioni con una transazione di dismissione registrati durante l'intervallo di date specificato per il report. |
-| Rettifiche di rivalutazione/svalutazione: valore di chiusura        | La somma di tutte le transazioni di tipo **Rettifica di rivalutazione**, **Rettifica di svalutazione** e **Rivalutazione** fino alla data "a" specificata nel report. |
-| Dismissioni: data dismissione                    | La data di dismissione per il libro cespiti. |
-| Dismissioni: valore contabile netto alla dismissione       | Il valore contabile netto del libro cespiti al momento della dismissione. |
-| Dismissioni: valore di vendita                       | Il valore di vendita del libro cespiti con una transazione di dismissione di vendita. |
-| Dismissioni: valore di scarto                      | Il valore di scarto del libro cespiti con una transazione di dismissione di scarto. |
-| Dismissioni: profitti/perdite                      | Valore dei profitti o delle perdite calcolato come parte della transazione di dismissione per il libro cespiti. |
+
+|                    Campo                    |                                                                                                                                descrizione                                                                                                                                |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|              Saldi: apertura              |                                                                                           Il valore contabile netto del cespite alla data "da" specificata nel report.                                                                                           |
+|              Saldi: chiusura              |                                                                                            Il valore contabile netto del cespite alla data "a" specificata nel report.                                                                                            |
+|         Acquisizioni: valore di apertura         |                                                 La somma di tutte le transazioni di tipo <strong>Acquisizione</strong> e <strong>Rettifica acquisizione</strong> fino alla data "da" specificata nel report.                                                  |
+|      Acquisizioni: acquisizioni periodo      |                                                 La somma di tutte le transazioni di tipo <strong>Acquisizione</strong> e <strong>Rettifica acquisizione</strong> registrate durante l'intervallo di date specificato per il report.                                                  |
+|       Acquisizioni: dismissioni periodo        |                                                                        La somma di tutte le transazioni di storno acquisizione con una transazione di dismissione registrate durante l'intervallo di date specificato per il report.                                                                        |
+|         Acquisizioni: valore di chiusura         |                                                  La somma di tutte le transazioni di tipo <strong>Acquisizione</strong> e <strong>Rettifica acquisizione</strong> fino alla data "a" specificata nel report.                                                   |
+|        Ammortamenti: valore di apertura         | La somma di tutte le transazioni tipo <strong>Ammortamento</strong>, <strong>Rettifica ammortamento</strong>, <strong>Fondo di ammortamento speciale</strong> e <strong>Ammortamento straordinario</strong> fino alla data "da" specificata nel report. |
+|     Ammortamenti: ammortamenti periodo     |                         La somma di tutte le transazioni di tipo <strong>Ammortamento</strong>, <strong>Rettifica ammortamento</strong> e <strong>Ammortamento straordinario</strong> registrate durante l'intervallo di date specificato per il report.                          |
+| Ammortamenti: ammortamenti speciali periodo |                                                              La somma di tutte le transazioni di tipo <strong>Fondo di ammortamento speciale</strong> registrate durante l'intervallo di date specificato per il report.                                                               |
+|       Ammortamenti: dismissioni del periodo       |                                                                       La somma di tutti gli storni di ammortamento con una transazione di dismissione registrati durante l'intervallo di date specificato per il report.                                                                        |
+|        Ammortamenti: valore di chiusura         |  La somma di tutte le transazioni tipo <strong>Ammortamento</strong>, <strong>Rettifica ammortamento</strong>, <strong>Fondo di ammortamento speciale</strong> e <strong>Ammortamento straordinario</strong> fino alla data "a" specificata nel report.  |
+|    Rettifiche di rivalutazione/svalutazione: valore di apertura     |                              La somma di tutte le transazioni di tipo <strong>Rettifica di rivalutazione</strong>, <strong>Rettifica di svalutazione</strong> e <strong>Rivalutazione</strong> fino alla data "da" specificata nel report.                               |
+|   Rettifiche di rivalutazione/svalutazione: rettifiche di rivalutazione periodo   |                                                                    La somma di tutte le transazioni di tipo <strong>Rettifica di rivalutazione</strong> registrate durante l'intervallo di date specificato per il report.                                                                    |
+|  Rettifiche di rivalutazione/svalutazione: rettifiche di svalutazione periodo  |                                                                   La somma di tutte le transazioni di tipo <strong>Rettifica di svalutazione</strong> registrate durante l'intervallo di date specificato per il report.                                                                   |
+| Rettifiche di rivalutazione/svalutazione: rivalutazioni periodo  |                                                                        La somma di tutte le transazioni di tipo <strong>Rivalutazione</strong> registrate durante l'intervallo di date specificato per il report.                                                                        |
+|   Rettifiche di rivalutazione/svalutazione: dismissioni periodo   |                                                           La somma di tutte le transazioni di storno di rettifiche di rivalutazione/svalutazione e di rivalutazioni con una transazione di dismissione registrati durante l'intervallo di date specificato per il report.                                                           |
+|    Rettifiche di rivalutazione/svalutazione: valore di chiusura     |                               La somma di tutte le transazioni di tipo <strong>Rettifica di rivalutazione</strong>, <strong>Rettifica di svalutazione</strong> e <strong>Rivalutazione</strong> fino alla data "a" specificata nel report.                                |
+|          Dismissioni: data dismissione           |                                                                                                                La data di dismissione per il libro cespiti.                                                                                                                |
+|    Dismissioni: valore contabile netto alla dismissione    |                                                                                                    Il valore contabile netto del libro cespiti al momento della dismissione.                                                                                                    |
+|            Dismissioni: valore di vendita            |                                                                                               Il valore di vendita del libro cespiti con una transazione di dismissione di vendita.                                                                                                |
+|           Dismissioni: valore di scarto            |                                                                                               Il valore di scarto del libro cespiti con una transazione di dismissione di scarto.                                                                                               |
+|           Dismissioni: profitti/perdite            |                                                                                 Valore dei profitti o delle perdite calcolato come parte della transazione di dismissione per il libro cespiti.                                                                                 |
+
 

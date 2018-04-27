@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="retail-statements"></a>Rendiconti di vendita al dettaglio
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In Microsoft Dynamics 365 for Retail il processo di registrazione dei rendiconti viene utilizzato per gestire le transazioni che si verificano nei punti vendita nel cloud (POS) o nei Modern POS (MPOS). Il processo di registrazione dei rendiconti utilizza la programmazione di distribuzione per recuperare un set di transazioni POS nel client della sede centrale (HQ). I parametri che vengono definiti nelle pagine **Parametri di vendita al dettaglio** e **Punti vendita** vengono utilizzati per selezionare le transazioni che vengono inserite nei singoli rendiconti.  
 

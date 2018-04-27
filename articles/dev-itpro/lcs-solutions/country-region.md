@@ -3,7 +3,7 @@ title: "Funzionalità per la normativa e la localizzazione"
 description: "In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità specifiche del paese."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: it-it
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations include le funzionalità per i paesi indicati nella [Guida alla disponibilità del prodotto internazionale](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
 
@@ -53,8 +52,8 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 -   [Comunicazione di aggiornamento normativo e monitoraggio normativo](regulatory-watch-communication.md)
 -   [Informare Microsoft sugli avvisi normativi di un paese e tenere traccia dello stato delle funzionalità per la normativa](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Roadmap di Dynamics 365
-La [roadmap di Dynamics 365](https://roadmap.dynamics.com/) fornisce una snapshot del lavoro che stiamo eseguendo. Utilizzare questa roadmap per scoprire ciò che viene reso generalmente disponibile e ciò che è in fase di sviluppo. Tutte le date e le funzioni in fase di sviluppo sono preliminari, basate su aspettative correnti e soggette a modifica senza preavviso.
+### <a name="dynamics-365-release-notes"></a>Dynamics 365 note sulla versione
+Le note di versione [Dynamics 365 (PDF download)](https://aka.ms/businessappsreleasenotes) forniscono descrizioni delle capacità nuove e migliorate delle applicazioni aziendali e piattaforme di applicazioni in Dynamics 365. 
 
 ## <a name="electronic-reporting"></a>Creazione di report elettronici
 Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
@@ -77,27 +76,11 @@ Per ulteriori informazioni, vedere [Guide attività](../../fin-and-ops/get-start
 
 
 ## <a name="countryregion-specific-help-topics"></a>Argomenti della Guida specifici del paese
-Nelle seguenti sezioni sono elencate le risorse per ogni paese.
+Nelle seguenti sezioni sono elencate le risorse per paese/regione.
 
-### <a name="australia"></a>Australia
-
--   [Formati file bancari](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [Business Activity Statement ](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [Ammortamento basato su pool di cespiti a valore ridotto](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>Austria
-
-- [Ammortamento semestrale](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [Addebiti materiale di imballaggio](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [Imposte acquisti](../../financials/localizations/emea-aut-purchase-duties.md)
-- [Dichiarazione IVA](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>Belgio
-
--   [Rendiconto bancario CODA](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [Dichiarazione IVA Intervat](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [Impostazione report PRODCOM](../../financials/localizations/emea-bel-prodcom-report.md)
--   [Report di riconciliazione](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[Australia](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[Austria](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[Belgio](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>Brasile
 
@@ -134,22 +117,9 @@ Nelle seguenti sezioni sono elencate le risorse per ogni paese.
 -   [Registrare i conti principali di magazzino in base al sito](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [Visualizzare gli importi in Dare e in Avere dei conti CoGe](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>Repubblica Ceca
-
--   [Sconto di cassa nella nota di credito](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [Arrotondamento dell'ammortamento](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [Ammortamento semestrale sulla dismissione dei cespiti per la Repubblica Ceca](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [Sospensione dell'ammortamento (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [Metodi di ammortamento dei cespiti per la Repubblica Ceca](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [Registrare l'acquisizione preventiva di un cespite](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [Dichiarazione IVA per la Repubblica Ceca](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [Reporting IVA ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [Periodi divisi nei giornali di registrazione periodici](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [Impostare i firmatari per la stampa dei moduli](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [Aggiornare la modalità di visualizzazione degli importi nei report e nei documenti](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Repubblica Ceca](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>Estonia
-
 -   [Dettagli della dichiarazione IVA per l'Estonia](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [Dismissione dei cespiti](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -215,7 +185,7 @@ Nelle seguenti sezioni sono elencate le risorse per ogni paese.
 ### <a name="hungary"></a>Ungheria
 
 -   [Metodi di ammortamento dei cespiti](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [Spostare un cespite nel magazzino](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [Spostare un cespite nelle scorte](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Cespiti a basso costo](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 
 ### <a name="india"></a>India
@@ -280,7 +250,7 @@ Nelle seguenti sezioni sono elencate le risorse per ogni paese.
 -   [Report dichiarazione inflazione rettifica](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [Report dichiarazione ISR](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Fatture elettroniche (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>Malaysia
 
 -   [Imposta sui Beni e Servizi (GST)](../../financials/localizations/apac-mys-gst.md)

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="store-configurations-for-retail-statements"></a> Configurazioni dei punti vendita per rendiconti di vendita al dettaglio
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura sono illustrate le configurazioni per il punto vendita al dettaglio che interessa la modalità di creazione e registrazione dei rendiconti di vendita al dettaglio. Le dimensioni finanziarie dei punti vendita al dettaglio sono analizzate in un'altra procedura. Questa procedura utilizza la società dimostrativa USRT.
 

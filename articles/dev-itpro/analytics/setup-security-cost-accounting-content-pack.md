@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Impostare la sicurezza per il contenuto Power BI per l'analisi della contabilità industriale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come propagare la protezione a livello di accesso nella contabilità industriale alla protezione a livello di riga in Microsoft Power BI. Questa funzionalità assicura che gli utenti visualizzino solo i dati Power BI ai quali sono autorizzati ad accedere.
 

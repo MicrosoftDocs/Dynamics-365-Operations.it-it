@@ -28,19 +28,17 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opzioni Importo totale e Intervallo per i codici IVA
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Questo articolo illustra le opzioni del campo Metodo di calcolo sui codici IVA e come si calcola l'IVA per intervalli e interi importi.
 
 È possibile impostare un codice IVA da calcolare in base a un importo totale o a un importo di intervallo. Nella pagina Codici IVA utilizzare il campo Metodo di calcolo nella Scheda dettaglio Calcolo per selezionare la modalità di calcolo di un codice IVA.
--   Importo totale - L'aliquota IVA si applica all'intero importo tassabile.
--   Intervallo - L'importo tassabile è diviso in parti, ognuna delle quali rientra in un intervallo con un'aliquota IVA specifica. La parte dell'importo che rientra in un determinato intervallo viene tassata in base all'aliquota IVA per tale intervallo. L'IVA è la somma degli importi delle imposte calcolati per ciascun intervallo di importi.
-> [!NOTE]                                                                                                                              
-> L'opzione di intervallo è disponibile solo quando si seleziona la riga nel campo del metodo di calcolo nell'area IVA della pagina dei parametri di contabilità generale. 
+- Importo totale - L'aliquota IVA si applica all'intero importo tassabile.
+- Intervallo - L'importo tassabile è diviso in parti, ognuna delle quali rientra in un intervallo con un'aliquota IVA specifica. La parte dell'importo che rientra in un determinato intervallo viene tassata in base all'aliquota IVA per tale intervallo. L'IVA è la somma degli importi delle imposte calcolati per ciascun intervallo di importi.
+  > [!NOTE]                                                                                                                              
+  > L'opzione di intervallo è disponibile solo quando si seleziona la riga nel campo del metodo di calcolo nell'area IVA della pagina dei parametri di contabilità generale. 
 
 Gli intervalli vengono impostati nella pagina di valori di codice IVA immettendo gli importi limiti minimi e massimi per aliquota. Per calcolare le imposte per tutti gli importi tassabili, indipendentemente dal metodo selezionato, è necessario che gli intervalli siano conformi alle seguenti regole:
 -   Il primo intervallo deve avere un limite minimo pari a zero.
@@ -51,6 +49,7 @@ Se un importo corrisponde al limite massimo dell'intervallo precedente e al limi
 
 ## <a name="example-whole-amount-method-of-calculation"></a>Esempio: metodo di calcolo dell'importo totale
 Nella pagina dei valori del codice IVA vengono impostati i seguenti intervalli per le aliquote IVA:
+
 |                   |                   |              |
 |-------------------|-------------------|--------------|
 | **Limite minimo** | **Limite massimo** | **Aliquota IVA** |
@@ -86,7 +85,7 @@ L'IVA è la somma degli importi delle imposte calcolati per ciascun intervallo d
 | 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
 | 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
 
- 
+
 
 Per ulteriori informazioni, vedere [Determinare le aliquote IVA in base ai campi Imponibile marginale e Metodo di calcolo](marginal-base-field.md).
 

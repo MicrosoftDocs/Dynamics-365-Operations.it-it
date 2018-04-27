@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-wave-processing"></a>Configurare l'elaborazione di ondate
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questo guida viene descritto come impostare i criteri che determinano quale lavoro viene generato per un magazzino quando viene elaborata un'ondata e se le ondate vengono elaborate manualmente o automaticamente. I criteri vengono specificati impostando i modelli ondata e le query che corrispondono a un'ondata con le righe rilasciate negli ordini cliente, negli ordini di produzione o negli ordini kanban. L'elaborazione ondata viene utilizzata in magazzini che utilizzano la funzionalità del modulo Gestione magazzino e non in quelli che utilizzano la funzionalità nel modulo Gestione inventario. È possibile eseguire questa procedura nella società di dati dimostrativi USMF.
 

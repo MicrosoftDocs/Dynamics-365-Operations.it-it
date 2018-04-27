@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Generare una previsione di base statistica
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sui parametri e i filtri utilizzati nel calcolo di previsione della domanda. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-channel-specific-discounts"></a>Definire gli sconti specifici del canale
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 I rivenditori fissano spesso sconti diversi in canali diversi. In questo argomento vengono esaminati i concetti che è necessario conoscere per creare uno sconto per un canale specifico. 
 
@@ -61,7 +60,7 @@ Nel seguente esempio sono illustrate le attività in questione nell'impostazione
 4.  Dopo aver creato il nuovo sconto **Di nuovo a scuola**, è necessario fare clic su **Gruppi prezzi** nella parte superiore della pagina **Sconto**. Si apre la pagina **Gruppi di prezzo scontati**. Dopodiché, fare clic su **Nuovo** e selezionare il gruppo di prezzi **Houston-PG**.
 5.  Ora è possibile attivare lo sconto e spingerlo nel canale.
 
- 
+
 
 <a name="see-also"></a>Vedere anche
 --------

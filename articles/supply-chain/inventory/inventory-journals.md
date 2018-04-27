@@ -1,9 +1,9 @@
 ---
 title: Giornali di registrazione magazzino
-description: In questo articolo viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico.
-author: MarkusFogelberg
+description: In questo argomento viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico.
+author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,21 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 968bf9a243d0c0cc9f0dfec474cb207ca32f9eeb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journals"></a>Giornali di registrazione magazzino
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
-
-In questo articolo viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico.
+In questo argomento viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico.
 
 I giornali di registrazione magazzino in Microsoft Dynamics 365 for Finance and Operations vengono utilizzati per registrare le transazioni di inventario fisico di diversi tipi, ad esempio la registrazione delle uscite e delle entrate, i movimenti inventario, la creazione delle distinte base (DBA) e la riconciliazione dell'inventario fisico. Tutti i giornali di registrazione magazzino vengono utilizzati in una modalità simile, ma vengono suddivisi in diversi tipi.
 
@@ -51,7 +50,7 @@ Sono disponibili i seguenti tipi di giornali di registrazione magazzino:
 
 ### <a name="movement"></a>Spostamento
 
-Quando si utilizza un giornale di registrazione movimenti scorte, è possibile aggiungere il costo di un articolo quando si aggiungono scorte, ma è necessario manualmente allocare il costo aggiuntivo in un Conto CoGe specifico specificando un conto di contropartita della contabilità generale quando si crea il giornale di registrazione. Questo tipo di giornale di registrazione magazzino è utile se si desidera registrare la spesa per un articolo in un reparto diverso o per rimuovere articoli dal magazzino per scopi di spesa.
+Quando si utilizza un giornale di registrazione movimenti scorte, è possibile aggiungere il costo di un articolo quando si aggiungono scorte, ma è necessario manualmente allocare il costo aggiuntivo in un Conto CoGe specifico specificando un conto di contropartita della contabilità generale quando si crea il giornale di registrazione. Questo tipo di giornale di registrazione magazzino è utile se si desidera sovrascrivere i conti di registrazione predefiniti.
 
 ### <a name="inventory-adjustment"></a>Rettifica magazzino
 
@@ -61,8 +60,8 @@ Quando si utilizza un giornale di registrazione di rettifica magazzino, è possi
 
 È possibile utilizzare i giornali di registrazione trasferimento per trasferire articoli tra le ubicazioni di stoccaggio, batch o varianti prodotto senza associare implicazioni di costo. Ad esempio, è possibile trasferire gli articoli da un magazzino a un altro magazzino all'interno della stessa società. Quando si utilizza un giornale di registrazione trasferimenti, è necessario specificare dimensioni inventariali "da" e "a" (ad esempio, per Sito e Magazzino). Le scorte disponibili per le dimensioni inventariali definite vengono modificate di conseguenza. I trasferimenti scorte riflettono il movimento immediato di materiale. Le scorte in transito non sono tracciate. Se le scorte in transito devono essere tracciate, utilizzare un ordine di trasferimento. Quando si registra un giornale di registrazione trasferimenti, vengono create due operazioni di magazzino per ogni una riga del giornale di registrazione:
 
--   Un'uscita da magazzino nell'ubicazione "da"
--   Un'entrata in magazzino nell'ubicazione "a"
+-   Un'uscita da magazzino nell'ubicazione "da".
+-   Un'entrata in magazzino nell'ubicazione "a".
 
 ### <a name="bom"></a>DBA
 
@@ -78,11 +77,11 @@ I giornali di registrazione entrata produzione funzionano in modo analogo ai gio
 
 ### <a name="counting"></a>Conteggio
 
-Giornali di registrazione di conteggio consentono di correggere le scorte attualmente disponibili registrate per gli articoli o i gruppi di articoli e registrare l'effettivo conteggio fisico, in modo che è possibile apportare rettifiche necessarie per riconciliare le differenze. È possibile associare i criteri di conteggio ai gruppi di conteggio per agevolare gli articoli del gruppo con varie caratteristiche, in modo che gli articoli possano essere inclusi in un giornale di registrazione di conteggio. Ad esempio, è possibile impostare i gruppi di conteggio per conteggiare gli articoli che hanno una frequenza specifica o per conteggiare gli articoli quando le scorte rientrano in un livello specifico. Per informazioni su come definire i gruppi di conteggio, vedere [Definire i processi di conteggio scorte (guida attività)](tasks/define-inventory-counting-processes.md).
+I giornali di registrazione di conteggio consentono di correggere le scorte attualmente disponibili registrate per gli articoli o i gruppi di articoli e registrare l'effettivo conteggio fisico, in modo che sia possibile apportare rettifiche necessarie per riconciliare le differenze. È possibile associare i criteri di conteggio ai gruppi di conteggio per agevolare gli articoli del gruppo con varie caratteristiche, in modo che gli articoli possano essere inclusi in un giornale di registrazione di conteggio. Ad esempio, è possibile impostare i gruppi di conteggio per conteggiare gli articoli che hanno una frequenza specifica o per conteggiare gli articoli quando le scorte rientrano in un livello specifico. Per informazioni su come definire i gruppi di conteggio, vedere [Definire i processi di conteggio scorte (guida attività)](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Conteggio tag
 
-I giornali di registrazione di conteggio tag vengono usati per assegnare un tag numerato a un lotto di conteggio. Il tag deve contenere un numero di tag, un numero di articolo e una quantità dell'articolo. Per garantire che un tag venga utilizzato solo una volta e che tutti i tag vengano utilizzati, ogni numero di articolo deve essere un set univoco di tag con la sequenza numerica specifica. Tre valori di stato possono essere impostati per ogni tag:
+I giornali di registrazione di conteggio tag vengono usati per assegnare un tag numerato a un lotto di conteggio. Il tag deve contenere un numero di tag, un numero di articolo e una quantità dell'articolo. Per garantire che un tag venga utilizzato solo una volta e che tutti i tag vengano utilizzati, ogni numero di articolo deve avere un set univoco di tag con la sequenza numerica specifica. Tre valori di stato possono essere impostati per ogni tag:
 
 -   **Utilizzato** – Il numero di articolo viene conteggiato per il tag.
 -   **Annullato** – Il numero di articolo viene annullato per il tag.
@@ -95,4 +94,30 @@ A un giornale di registrazione può accedere solo un utente per volta. Se più u
 
 ## <a name="posting-journal-lines"></a>Registrazione delle righe del giornale di registrazione
 È possibile registrare le righe del giornale di registrazione create in qualsiasi momento fino a bloccare un articolo da ulteriori transazioni. I dati immessi in un giornale di registrazione vengono mantenuti nel giornale anche se questo viene chiuso senza registrare le righe.
+
+## <a name="data-entity-support-for-inventory-journals"></a>Supporto di entità dati per i giornali di registrazione magazzino
+
+Le entità di dati supportano i tipi di scenari di integrazione seguenti:
+-    Servizio sincrono (OData)
+-  Integrazione asincrona
+
+Per ulteriori informazioni, vedere [Entità di dati](../../dev-itpro/data-entities/data-entities.md).
+
+> [!NOTE]
+> Non tutti i giornali di registrazione magazzino sono abilitati per OData, di conseguenza non è possibile utilizzare il connettore di dati di Excel per far pubblicare, aggiornare e reimportare i dati in Dynamics 365 for Finance and Operations. 
+
+Un'altra differenza tra le entità di dati del giornale di registrazione è la possibilità di utilizzare entità composite che includono sia l'intestazione che i dati di riga. Al momento è possibile utilizzare le entità composite per:
+-   Giornale di registrazione di rettifica magazzino
+-   Giornale di registrazione movimenti scorte
+
+Questi due giornali di registrazione magazzino supportano solo lo scenario di *Inizializzazione delle scorte* nell'ambito di un progetto di importazione della gestione dei dati:
+-  Quando non viene specificato il numero di intestazione di un giornale di registrazione, ma viene specificata la sequenza numerica per il tipo di giornale, il processo di importazione crea automaticamente le intestazioni di giornale per 1000 righe. Ad esempio, l'importazione di 2020 righe determinerà le seguenti tre intestazioni di giornale di registrazione:
+    -  Intestazione 1: contiene 1000 righe
+    -  Intestazione 2: contiene 1000 righe
+    -  Intestazione 3: contiene 20 righe
+-  Si presume l'esistenza di informazioni sulla riga univoche per la dimensione di inventario, che può essere una dimensione di prodotto, di immagazzinamento e di tracciabilità. Pertanto, non è possibile importare righe di giornale di registrazione in cui solo il campo della data differisce nelle righe nello stesso progetto di importazione.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Entità di dati](../../dev-itpro/data-entities/data-entities.md)
 

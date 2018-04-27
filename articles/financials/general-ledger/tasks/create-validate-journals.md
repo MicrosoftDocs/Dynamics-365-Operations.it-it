@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>Creare e convalidare giornali di registrazione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida attività crea e convalida giornali di registrazione e righe del giornale di registrazione. In questa attività viene utilizzata la società dimostrativa USMF.  
 

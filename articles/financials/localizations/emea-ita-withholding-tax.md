@@ -18,17 +18,16 @@ ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f82bdda0bcdbab2bb8b4b53b71e51d82a55bedb2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 203dd471b85503926974f5c96d1793543bbd202e
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="withholding-tax-for-italy"></a>Ritenuta d'acconto per l'Italia
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.
 
@@ -64,14 +63,15 @@ Nel Riquadro azioni fare clic su **Limiti** e impostare i limiti per l'importo d
 
 Impostare i gruppi di ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Gruppi ritenute d'acconto**. Immettere il codice e il nome per un gruppo di ritenute d'acconto e assegnare un codice di ritenuta d'acconto al gruppo. Ulteriori informazioni, vedere [Impostare la ritenuta d'acconto (guida attività)](../general-ledger/tasks/set-up-withholding-tax.md). Impostare un conto fornitore per il calcolo della ritenuta d'acconto in **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**. Definire le seguenti impostazioni.
 
-|Scheda dettaglio|Campo|descrizione|
-|-------|---------|-----------|
-|Fattura e consegna|Calcola ritenuta d'acconto|Impostare questa opzione su **Sì** per calcolare la ritenuta d'acconto.|
-|Fattura e consegna|Gruppo ritenute d'acconto|Gruppo ritenute d'acconto|Specifica un gruppo di ritenute d'acconto.|
-|Fattura e consegna|Codice fiscale|Immettere il codice fiscale.|
-|Dati demografici acquisti|Paese estero di residenza|Selezionare il paese.|
-|Dati demografici acquisti|Luogo di nascita|Immettere il luogo di nascita.|
-|Generale|Data di nascita - Giorno, mese, anno|Immettere la data di nascita per un fornitore di tipo **Persona**.|
+
+|         Scheda dettaglio         |              Campo               |                                descrizione                                |
+|-------------------------|----------------------------------|---------------------------------------------------------------------------|
+|  Fattura e consegna   |    Calcola ritenuta d'acconto     |   Impostare questa opzione su <strong>Sì</strong> per calcolare la ritenuta d'acconto.   |
+|  Fattura e consegna   |        Gruppo ritenute d'acconto         |                           Gruppo ritenute d'acconto                           |
+|  Fattura e consegna   |           Codice fiscale            |                          Immettere il codice fiscale.                           |
+| Dati demografici acquisti | Paese estero di residenza |                        Selezionare il paese.                         |
+| Dati demografici acquisti |           Luogo di nascita            |                         Immettere il luogo di nascita.                         |
+|         Generale         |   Data di nascita - Giorno, mese, anno    | Immettere la data di nascita per un fornitore di tipo <strong>Persona</strong>. |
 
 Per eseguire i report specifici dell'Italia relativi alla ritenuta d'acconto, passare a **Imposta** &gt; **Richieste di informazioni e report** &gt; **Report ritenuta d'acconto**:
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture fornitore
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le distribuzioni contabili vengono utilizzate per definire il modo in cui un importo verrà conteggiato, ad esempio le spese e le tasse vengono conteggiate in una fattura fornitore. Ogni importo che deve essere conteggiato quando la fattura fornitore viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili. 
 
@@ -231,7 +230,7 @@ Quando si immette una fattura fornitore, ogni importo viene distribuito come ind
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a>Distribuzione di imposte
 ------------------
 

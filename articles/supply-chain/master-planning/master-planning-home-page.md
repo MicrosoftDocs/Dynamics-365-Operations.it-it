@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Home page di pianificazione generale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Fondamentalmente, la pianificazione generale consente alle società di determinare ed equilibrare il fabbisogno futuro di materie prime e la capacità di soddisfare gli obiettivi aziendali. La pianificazione generale valuta quanto segue: 
 
@@ -58,6 +57,7 @@ Nella mappa di apprendimento seguente vengono visualizzati i concetti e le attiv
 [![Mappa di apprendimento per la pianificazione generale](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Collegamenti rapidi
+
 |      |   |
 |------|---|
 |        [Piani generali](master-plans.md)       |     [Generare un piano con vincoli](./tasks/constrained-plan.md)  |

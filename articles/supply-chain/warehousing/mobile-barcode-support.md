@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-bar-code-support"></a>Supporto codici a barre per dispositivi mobili
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Poiché Android è un progetto open source, qualsiasi produttore di hardware per lettori di codici a barre per magazzino può creare un dispositivo compatibile con il sistema operativo Android. Un dispositivo è compatibile con Android se può eseguire app scritte per l'ambiente di esecuzione Android.
 Tuttavia, un fornitore di hardware può modificare e creare overlay per la versione Android in esecuzione nel relativo hardware. Non è responsabilità di Microsoft garantire la compatibilità di un app di scansione di codici a barre per dispositivi mobili Android con l'hardware di scansione di codici a barre del produttore e con la versione Android in esecuzione nello stesso. 

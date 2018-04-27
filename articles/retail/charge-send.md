@@ -28,7 +28,7 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="ship-an-order-from-a-different-store"></a>Spedire un ordine da un punto vendita diverso
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Con la funzionalità Addebita invio di Dynamics 365 for Retail, è possibile piazzare ordini cliente in un punto vendita e spedirli da un altro punto vendita. Gli ordini cliente nel client POS supportano molteplici opzioni di evasione. Alcuni esempi di opzioni di evasione includono:
 -   Prelievo nello stessa punto vendita a una data diversa.

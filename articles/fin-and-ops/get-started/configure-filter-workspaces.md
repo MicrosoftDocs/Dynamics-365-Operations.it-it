@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-and-filter-workspaces"></a>Configurare e filtrare aree di lavoro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce una panoramica sul modo in cui configurare e filtrare le aree di lavoro.
 

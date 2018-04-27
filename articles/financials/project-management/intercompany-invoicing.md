@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Fatturazione interaziendale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni ed esempi sulla fatturazione interaziendale per i progetti in Microsoft Dynamics 365 for Finance and Operations.
 
@@ -58,20 +57,22 @@ In questo esempio, USSI è una persona giuridica concessionaria e le relative ri
 
 Per questo esempio, FRSI deve essere un cliente nella persona giuridica USSI e USSI deve essere un fornitore nella persona giuridica FRSI. È quindi possibile impostare una relazione interaziendale tra le due persone giuridiche. La procedura riportata di seguito illustra come impostare i parametri in modo che entrambe le persone giuridiche possono partecipare alla fatturazione interaziendale.
 
-1.  Impostare FRSI come cliente nella persona giuridica USSI e impostare USSI come fornitore nella persona giuridica FRSI. Esistono tre punti di ingresso per i passaggi necessari per questa attività.
-    | Graduale | Punto di ingresso                                                                       | descrizione   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | A    | in USSI, Fare clic su **Contabilità clienti** &gt; **Clienti** &gt; **Tutti i clienti**. | Creare un nuovo record cliente per FRSI e selezionare il gruppo di clienti.                                                                                  |
-    | B    | In FRSI, fare clic su **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**.        | Creare un nuovo record fornitore per USSI e selezionare il gruppo di fornitori.                                                                                    |
-    | C    | In FRSI, aprire il record fornitore appena creato.                            | Nel riquadro azioni, scheda **Generale**, gruppo **Impostazione**, fare clic su **Interaziendale**. Nella pagina **Interaziendale**, scheda **Relazione commerciale**, impostare il dispositivo di scorrimento **Attivo** su **Sì**. Nel campo **Società cliente** selezionare il record cliente creato nel passaggio A. |
+1. Impostare FRSI come cliente nella persona giuridica USSI e impostare USSI come fornitore nella persona giuridica FRSI. Esistono tre punti di ingresso per i passaggi necessari per questa attività.
 
-2.  Fare clic su **Gestione progetti e contabilità** &gt; **Impostazioni** &gt; **Parametri Gestione progetti e contabilità** e quindi sulla scheda **Interaziendale**. La modalità di impostazione dei parametri varia a seconda che si è la persona giuridica richiedente o la persona giuridica concessionaria.
-    -   Se si è la persona giuridica richiedente, selezionare la categoria di approvvigionamento che deve essere utilizzata per abbinare le fatture fornitore, che vengono generate automaticamente.
-    -   Se siete la persona giuridica concessionaria, per ogni persona giuridica richiedente, selezionare una categoria di progetto predefinito per ogni tipo di transazione. Categorie di progetto vengono utilizzate per configurazione imposte quando la categoria fatturata nelle transazioni interaziendali esiste solo nella persona giuridica richiedente. È possibile scegliere di accumulare i ricavi per le transazioni interaziendali. Questo accumulo viene eseguito quando le transazioni vengono registrate e viene quindi stornato quando viene registrata la fattura interaziendale.
+   | Graduale |                                                       Punto di ingresso                                                        |                                                                                                                                                                                               descrizione                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  A   | in USSI, Fare clic su <strong>Contabilità clienti</strong> &gt; <strong>Clienti</strong> &gt; <strong>Tutti i clienti</strong>. |                                                                                                                                                                  Creare un nuovo record cliente per FRSI e selezionare il gruppo di clienti.                                                                                                                                                                  |
+   |  B   |    In FRSI, fare clic su <strong>Contabilità fornitori</strong> &gt; <strong>Fornitori</strong> &gt; <strong>Tutti i fornitori</strong>.     |                                                                                                                                                                    Creare un nuovo record fornitore per USSI e selezionare il gruppo di fornitori.                                                                                                                                                                    |
+   |  C   |                                  In FRSI, aprire il record fornitore appena creato.                                  | Nel riquadro azioni, scheda <strong>Generale</strong>, gruppo <strong>Impostazione</strong>, fare clic su <strong>Interaziendale</strong>. Nella pagina <strong>Interaziendale</strong>, scheda <strong>Relazione commerciale</strong>, impostare il dispositivo di scorrimento <strong>Attivo</strong> su <strong>Sì</strong>. Nel campo <strong>Società cliente</strong> selezionare il record cliente creato nel passaggio A. |
 
-3.  Fare clic su **Gestione progetti e contabilità** &gt; **Impostazioni** &gt; **Prezzi** &gt; **Prezzo di trasferimento**.
-4.  Selezionare una valuta, il tipo di transazione e il modello del prezzo di trasferimento. La valuta utilizzata nella fattura è la valuta che viene configurata nel record del cliente per la persona giuridica richiedente nella persona giuridica concessionaria. La valuta viene utilizzata per associare le voci nella tabella di prezzi di trasferimento.
-5.  Fare clic su **Contabilità generale** &gt; **Impostazione di registrazione** &gt; **Contabilità interaziendale** e impostare una relazione per USSI e FRSI.
+
+2. Fare clic su **Gestione progetti e contabilità** &gt; **Impostazioni** &gt; **Parametri Gestione progetti e contabilità** e quindi sulla scheda **Interaziendale**. La modalità di impostazione dei parametri varia a seconda che si è la persona giuridica richiedente o la persona giuridica concessionaria.
+   -   Se si è la persona giuridica richiedente, selezionare la categoria di approvvigionamento che deve essere utilizzata per abbinare le fatture fornitore, che vengono generate automaticamente.
+   -   Se siete la persona giuridica concessionaria, per ogni persona giuridica richiedente, selezionare una categoria di progetto predefinito per ogni tipo di transazione. Categorie di progetto vengono utilizzate per configurazione imposte quando la categoria fatturata nelle transazioni interaziendali esiste solo nella persona giuridica richiedente. È possibile scegliere di accumulare i ricavi per le transazioni interaziendali. Questo accumulo viene eseguito quando le transazioni vengono registrate e viene quindi stornato quando viene registrata la fattura interaziendale.
+
+3. Fare clic su **Gestione progetti e contabilità** &gt; **Impostazioni** &gt; **Prezzi** &gt; **Prezzo di trasferimento**.
+4. Selezionare una valuta, il tipo di transazione e il modello del prezzo di trasferimento. La valuta utilizzata nella fattura è la valuta che viene configurata nel record del cliente per la persona giuridica richiedente nella persona giuridica concessionaria. La valuta viene utilizzata per associare le voci nella tabella di prezzi di trasferimento.
+5. Fare clic su **Contabilità generale** &gt; **Impostazione di registrazione** &gt; **Contabilità interaziendale** e impostare una relazione per USSI e FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Esempio 2: Creare e registrare un foglio presenze interaziendale
 USSI, la persona giuridica concessionaria, deve creare e registrare il foglio presenze per un progetto di FRSI, la persona giuridica richiedente. Esistono due punti di ingresso per i passaggi necessari per questa attività.

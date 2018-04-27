@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-the-production-order-status"></a>Invertire lo stato degli ordini di produzione
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come invertire lo stato degli ordini di produzione. 
 

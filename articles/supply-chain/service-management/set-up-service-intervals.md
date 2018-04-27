@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="set-up-service-intervals"></a>Impostare gli intervalli di assistenza  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'intervallo di assistenza indica la frequenza con cui vengono create righe di ordine di assistenza per le righe di contratto di assistenza in caso di creazione degli ordini di assistenza.
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f9b7a3ea23298e5121e161b93faa8f145fdd1860
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bfcebf61a5f613517e05af5c1548b5ceaaed53ee
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-worker-information"></a>Immettere informazioni sui lavoratori
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. I dati dimostrativi contengono un progetto di assunzione collettiva aperto. Per iniziare questa procedura, andare a Risorse umane > Selezione del personale > Progetti di assunzione collettiva.
 

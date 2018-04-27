@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importazione MT940 riconciliazione estratti conto avanzata - Aggiornamento entità di dati compositi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Un numero progressivo deve essere aggiunto all'entità importazione rendiconto bancario per supportare il formato MT940. 
 

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Designer formula
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare Designer formula per analizzare e gestire le formule in una visualizzazione struttura.
 
@@ -88,7 +88,7 @@ Il filtro applicabile per la formula e il ciclo di lavorazione viene visualizzat
 </tr>
 <tr class="odd">
 <td>Da quantità</td>
-<td>Consente di filtrare le versioni selezionando una specifica quantità "iniziale". Se si imposta un valore, è possibile che vengano selezionate versioni differenti di formula e di ciclo di lavorazione.</td>
+<td>Consente di filtrare le versioni selezionando una specifica quantità &quot;iniziale&quot;. Se si imposta un valore, è possibile che vengano selezionate versioni differenti di formula e di ciclo di lavorazione.</td>
 </tr>
 <tr class="even">
 <td>Visualizza solo validi</td>
@@ -116,8 +116,10 @@ Utilizzare le funzioni **Righe DBA** o **Formula** per modificare le righe formu
 ## <a name="configuring-the-tree-view"></a>Configurazione della visualizzazione struttura ad albero
 Fare clic su **Impostazione** per personalizzare le informazioni che vengono mostrate nella visualizzazione struttura ad albero di Designer formula.
 
-| Gruppo campi | descrizione |
-|-------------|-------------|
-| DBA         | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati nella struttura ad albero. I criteri selezionati verranno visualizzati nella parte inferiore di entrambe le schede. |
-| Ciclo       | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati per i cicli di lavorazione. |
+
+| Gruppo campi |                                                                          descrizione                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     DBA     | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati nella struttura ad albero. I criteri selezionati verranno visualizzati nella parte inferiore di entrambe le schede. |
+|    Ciclo    |                                           Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati per i cicli di lavorazione.                                           |
+
 

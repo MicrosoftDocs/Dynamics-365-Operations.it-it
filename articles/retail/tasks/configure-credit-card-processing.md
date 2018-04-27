@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-credit-card-processing"></a> Configurare l'elaborazione delle carte di credito
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per visualizzare l'elenco dei provider dei servizi di pagamento e configurare un conto pagamenti per la contabilità clienti. Questa procedura utilizza i dati dimostrativi della società USRT ed è destinata ad amministratori e professionisti IT.
 

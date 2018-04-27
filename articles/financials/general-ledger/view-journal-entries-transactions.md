@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Visualizzare inserimenti nel giornale di registrazione e transazioni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo illustrate le varie modalità in cui è possibile visualizzare gli inserimenti nel giornale di registrazione e le transazioni. 
 
@@ -55,7 +54,7 @@ Oltre ai report finanziari, è possibile utilizzare i seguenti report di contabi
 -   **Origine della transazione**: questo report di transazione mostra il conto per giornale di registrazione e per valuta di transazione, contabilizzazione e dichiarazione. In questo report viene inoltre visualizzata ogni riga del giornale di registrazione utilizzata come contropartita.
 
 
-##<a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 - [Saldi dei conti della contabilità generale](general-ledger-account-balances.md) 
 - [Esplora origine contabilità](..\accounts-payable\accounting-source-explorer.md)
 - [Creazione di report finanziari](financial-reporting-getting-started.md)

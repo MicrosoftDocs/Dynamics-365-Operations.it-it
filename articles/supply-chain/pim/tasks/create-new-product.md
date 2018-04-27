@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-product"></a>Crea un nuovo prodotto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività mostra come creare un nuovo prodotto condiviso. Viene in genere svolta da un responsabile del design del prodotto. La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 

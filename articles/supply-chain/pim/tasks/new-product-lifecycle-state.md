@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Creare un nuovo stato del ciclo di vita prodotto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come creare un nuovo stato del ciclo di vita del prodotto. Uno stato del ciclo di vita del prodotto documenta lo stato del ciclo di vita di un prodotto rilasciato o di una variante di prodotto. Gli stati del ciclo di vita del prodotto sono definiti dall'utente, in genere da responsabile di prodotto o un responsabile di dati master relativi alla rappresentazione generale prodotto. I processi aziendali specifici, ad esempio la pianificazione generale, possono essere interessati da uno stato specifico del ciclo di vita.
 

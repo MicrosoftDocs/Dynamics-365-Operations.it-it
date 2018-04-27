@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>Registrazione attività e Guida per il POS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In questo argomento viene descritto come usare Registrazione attività in Retail Modern POS e Cloud POS.
 

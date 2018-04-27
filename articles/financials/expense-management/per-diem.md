@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Regole relative alla trasferta giornaliera
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Una *trasferta giornaliera* è un'indennità corrisposta a un lavoratore che viaggia per lavoro. In Gestione spese, è possibile creare regole relative alla trasferta giornaliera per diverse situazioni di viaggio. Le tariffe infatti possono essere impostate in base al periodo dell'anno, alla destinazione di viaggio o a entrambi gli elementi. Quando si crea una regola per le trasferte giornaliere, è possibile specificare che verrà trattenuta una percentuale della tariffa prevista se il lavoratore usufruisce gratuitamente di pasti o servizi. È anche possibile impostare un numero minimo e massimo di ore di tariffa applicabili a una trasferta di un lavoratore.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>Layout schermo con dati dimostrativi in MPOS/CPOS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Di seguito vengono descritti i layout schermo inclusi con il set di dati dimostrativi per le esperienze POS in Microsoft Dynamics 365 for Retail.
 

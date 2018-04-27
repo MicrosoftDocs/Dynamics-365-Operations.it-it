@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>Report finanziari del conto patrimoniale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene descritto i report predefiniti per gli stati patrimoniali. Sono descritti inoltre i blocchi predefiniti associati a questi report. 
 
@@ -71,7 +70,7 @@ Le definizioni di colonna contengono i diversi tipi di colonna per fornire diver
     -   **DESC** - Descrizione della definizione di riga.
     -   **FD** I dati finanziari da inizio anno per l'anno corrente
 
- 
+
 
 <a name="see-also"></a>Vedere anche
 --------

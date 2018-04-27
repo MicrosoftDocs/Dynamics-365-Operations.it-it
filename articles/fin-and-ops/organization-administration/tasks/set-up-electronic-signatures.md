@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-electronic-signatures"></a>Impostare le firme elettroniche
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilizzare questa procedure per configurare le firme elettroniche. Una firma elettronica consente di confermare l'identità di una persona che sta per avviare o approvare un processo di elaborazione. La società di dati dimostrativi utilizzata per creare questa procedura è DAT.
 

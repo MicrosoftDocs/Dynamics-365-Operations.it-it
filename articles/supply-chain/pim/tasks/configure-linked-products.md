@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>Configurare i prodotti collegati
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per configurare i prodotti collegati. Questa procedura per i dati dimostrativi USRT e presuppone che entrambi i prodotti siano già stata creati e rilasciati.
 

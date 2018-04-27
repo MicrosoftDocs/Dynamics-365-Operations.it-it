@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizzare intestazioni e righe di fatture di vendita direttamente da Finance and Operations in Sales
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni di fatture di vendita direttamente da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Sales.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenuto Power BI per l'analisi della contabilità industriale
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto cosa è incluso nel contenuto **Analisi della contabilità industriale** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
@@ -111,18 +111,20 @@ Nella tabella seguente vengono illustrate le misure di aggregazione chiave utili
 
 Le dimensioni chiave seguenti vengono utilizzate come filtri per dividere le misure di aggregazione e ottenere una maggiore granularità e fornire informazioni analitiche più approfondite.
 
-| Entità                             | Esempi di attributi                                                                                               |
+
+|               Entità               |                                                Esempi di attributi                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Movimenti CoGe di contabilità industriale            | Movimento CoGe di contabilità industriale                                                                                               |
-| Unità di controllo costi                 | Nome unità di controllo costi                                                                                               |
-| Dimensioni elemento di costo            | Nome dimensione elementi di costo, Nome membro dimensione elementi di costo, Descrizione membro dimensione elementi di costo          |
-| Dimensioni oggetto di costo             | Nome dimensione oggetti di costo, Nome membro dimensione oggetti di costo, Descrizione membro dimensione oggetti di costo              |
-| Dimensioni statistiche             | Nome dimensione statistica, Nome membro dimensione statistica, Descrizione membro dimensione statistica              |
-| Gerarchie dimensioni di oggetto di costo  | Nome gerarchia di dimensioni oggetti di costo, Livello di gerarchia di dimensioni oggetti di costo, Struttura gerarchica di dimensioni oggetti di costo    |
+|      Movimenti CoGe di contabilità industriale       |                                                Movimento CoGe di contabilità industriale                                                |
+|         Unità di controllo costi         |                                                Nome unità di controllo costi                                                |
+|      Dimensioni elemento di costo       |     Nome dimensione elementi di costo, Nome membro dimensione elementi di costo, Descrizione membro dimensione elementi di costo      |
+|       Dimensioni oggetto di costo       |       Nome dimensione oggetti di costo, Nome membro dimensione oggetti di costo, Descrizione membro dimensione oggetti di costo        |
+|       Dimensioni statistiche       |       Nome dimensione statistica, Nome membro dimensione statistica, Descrizione membro dimensione statistica        |
+| Gerarchie dimensioni di oggetto di costo  |  Nome gerarchia di dimensioni oggetti di costo, Livello di gerarchia di dimensioni oggetti di costo, Struttura gerarchica di dimensioni oggetti di costo   |
 | Gerarchie dimensioni di elementi di costo | Nome gerarchia di dimensioni elementi di costo, Livello di gerarchia di dimensioni elementi di costo, Struttura gerarchica di dimensioni elementi di costo |
-| Gerarchie di dimensioni statistiche  | Nome gerarchia di dimensioni statistiche, Livello di gerarchia di dimensioni statistiche, Struttura gerarchica di dimensioni statistiche    |
-| Versioni transazione               | Nome versione                                                                                                         |
-| Calendari fiscali                   | Calendario, Descrizione del calendario                                                                                       |
-| Anni fiscali                       | Anno di calendario                                                                                                        |
-| Periodi fiscali                     | Periodo anno di calendario                                                                                                 |
+| Gerarchie di dimensioni statistiche  |  Nome gerarchia di dimensioni statistiche, Livello di gerarchia di dimensioni statistiche, Struttura gerarchica di dimensioni statistiche   |
+|        Versioni transazione        |                                                     Nome versione                                                     |
+|          Calendari fiscali          |                                            Calendario, Descrizione del calendario                                            |
+|            Anni fiscali            |                                                    Anno di calendario                                                     |
+|           Periodi fiscali           |                                                 Periodo anno di calendario                                                 |
+
 

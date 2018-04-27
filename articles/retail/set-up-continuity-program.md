@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-continuity-program-for-a-call-center"></a>Impostare un programma di continuità per un servizio clienti
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In questo articolo viene descritto come impostare un programma di continuità per il servizio clienti.
 

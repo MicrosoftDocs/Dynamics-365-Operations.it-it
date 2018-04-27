@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>Gestione dell'assortimento
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Panoramica
 In Microsoft Dynamics 365 for Retail sono disponibili *assortimenti* che consentono di gestire la disponibilità di prodotto tramite i canali. Gli assortimenti determinano quali prodotti sono disponibili in specifici punti vendita e durante un periodo specifico.

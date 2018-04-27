@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>Creare una nuova persona giuridica
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Una persona giuridica è un'organizzazione identificata mediante registrazione presso un'autorità giuridica. Le persone giuridiche possono stipulare contratti e hanno l'obbligo di preparare rendiconti sul loro rendimento. La seguente procedura spiega come creare una persona giuridica. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

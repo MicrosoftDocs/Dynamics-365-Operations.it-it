@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>Rettifica le transazioni progetto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa guida attività viene descritto illustra come rettificare una transazione in un progetto. È tuttavia possibile rettificare una transazione progetto per volta, oppure selezionarle da un elenco contenente tutte le transazioni progetto. Questa attività è in genere completata dal supervisore di progetto. Questa guida attività utilizza il set di dati USSI.
 

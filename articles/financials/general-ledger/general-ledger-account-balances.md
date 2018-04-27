@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>Saldi dei conti della contabilità generale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo illustra due modi per visualizzare i saldi dei conti CoGe: la pagina elenco Bilancio di verifica e i report finanziari. Viene inoltre discusso come aggiornare i saldi del set di dimensioni.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>Sviluppare e aprire una richiesta relativa alla mansione lavorativa
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I progetti di selezione consentono di gestire il processo di selezione. Per ciascun progetto di selezione, è possibile impostare informazioni, ad esempio la mansione per cui si effettua la selezione, il nome del responsabile della selezione, lo stato del progetto e il reparto che in cui la mansione verrà svolta. Dopo avere creato un progetto di selezione, è possibile preparare un annuncio di lavoro per il progetto, pubblicare l'annuncio di lavoro nelle pagine Self Service, associare le domande di lavoro per l'impiego al progetto e tenere traccia delle attività del progetto. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Per avviare la procedura, fare clic su Risorse umane > Selezione del personale > Progetti di selezione > Progetti di selezione
 

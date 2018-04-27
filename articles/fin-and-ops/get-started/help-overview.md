@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="help-system-overview"></a>Panoramica della Guida
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations. Viene illustrato come è possibile fornire documentazione personalizzata e formazione all'organizzazione. 
 

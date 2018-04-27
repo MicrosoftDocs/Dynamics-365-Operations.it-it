@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Registrare il check-in e il check-out del conducente per un appuntamento
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene descritto come registrare il check-in e il check-out di un conducente. La procedura viene in genere eseguita dal coordinatore dei trasporti. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF. Prima di iniziare, deve essere disponibile un appuntamento impostato per un carico. Per creare un appuntamento, è possibile eseguire la procedura "Impostare un appuntamento per un carico" come prerequisito.
 

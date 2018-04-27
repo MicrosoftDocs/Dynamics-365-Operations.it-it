@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Visualizzare lo stato WIP corrente su un ordine di produzione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come visualizzare un rendiconto WIP in un ordine di produzione. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata al controllore costi.
 

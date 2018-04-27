@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Modificare banner o logo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La procedura riportata di seguito elenca i passaggi che gli amministratori di sistema possono utilizzare per aggiornare l'immagine di logo o banner visualizzata per una persona giuridica. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

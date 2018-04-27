@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Creare piani di retribuzione variabile
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 La retribuzione variabile rappresenta una retribuzione non regolare del dipendente, ad esempio premio o premi in azioni. Questo articolo descrive i componenti che devono essere impostati per utilizzare una retribuzione variabile e per iscrivere un dipendente in un piano di compensazione variabile.
 
@@ -78,12 +77,12 @@ Se si desidera iscrivere i dipendenti a un piano di retribuzione variabile, il p
 
 **Nota:** le regole di idoneità determinano l'idoneità per i piani di retribuzione fissa e variabile. Le regole di idoneità utilizzano i seguenti campi nei record relativi a mansione, posizione e dipendente per stabilire se un dipendente è idoneo per un piano di retribuzione:
 
--   Nella pagina **Mansione**:
-    -   Il campo **Mansione**
-    -   I campi **Funzione** e **Tipo di mansione** sulla scheda **Classificazione mansione**
-    -   Il campo **Livello** sulla scheda **Retribuzione**
--   Nella pagina **Posizioni**: i campi **Reparto** e **Paese di retribuzione**
--   Nella pagina **Dipendenti**: le informazioni sui sindacati associati al dipendente in **Informazioni personali** &gt; **Sindacati** sulla scheda ****Lavoratore****
+- Nella pagina **Mansione**:
+  -   Il campo **Mansione**
+  -   I campi **Funzione** e **Tipo di mansione** sulla scheda **Classificazione mansione**
+  -   Il campo **Livello** sulla scheda **Retribuzione**
+- Nella pagina **Posizioni**: i campi **Reparto** e **Paese di retribuzione**
+- Nella pagina <strong>Dipendenti</strong>: le informazioni sui sindacati associati al dipendente in <strong>Informazioni personali</strong> &gt; <strong>Sindacati</strong> nella scheda *<strong><em>Lavoratore</em></strong>*
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Abilitare l'iscrizione al piano di retribuzione variabile
 

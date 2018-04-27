@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>Collegamento alla Guida
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vengono descritti i componenti della Guida di Microsoft Dynamics 365 for Finance and Operations. Viene fornita una panoramica della procedura per connettere questi componenti e un riepilogo della creazione della Guida personalizzata. 
 
@@ -42,7 +41,7 @@ La figura seguente mostra le parti della Guida di Finance and Operations. Nella 
 ## <a name="connecting-the-help-system"></a>Connessione della Guida
 > [!NOTE]
 > La scheda **Guide attività** non è attualmente disponibile in Microsoft Dynamics 365 for Talent e Microsoft Dynamics 365 for Retail. Attualmente si lavora per abilitare questa funzionalità in una versione successiva. Le Guide attività nell'esperienza Attività iniziali in Talent rimangono disponibili per coprire le funzionalità di base. La Guida sulle procedure è inoltre disponibile nel sito docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) per Retail e Talent.
- 
+
 
 Utilizzando la pagina **Parametri di sistema**, gli amministratori di sistema collegano le parti della Guida per un'implementazione. [![Modulo Parametri di sistema con impostazioni della Guida](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Nella pagina **Parametri di sistema** effettuare le operazioni seguenti:
 

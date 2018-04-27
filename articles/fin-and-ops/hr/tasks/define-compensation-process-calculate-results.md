@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
-ms.openlocfilehash: 9705f3fd7076e010ec4d497c4d933364f3cfcc8f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
 ms.contentlocale: it-it
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definire il processo retributivo e calcolare i risultati
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I processi di retribuzione vengono utilizzati per determinare nuovi importi e premi di retribuzione per i dipendenti iscritti ai piani di retribuzione variabile e fissa. I processi di retribuzione possono essere eseguiti più volte per eseguire l'analisi di simulazione, verificare che le modifiche e le impostazioni siano corrette. Questa procedura consente di creare un processo di retribuzione, eseguire il processo e visualizzare i risultati. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

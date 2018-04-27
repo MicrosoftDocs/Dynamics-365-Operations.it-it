@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-and-trace-source-data"></a>Elaborare e tenere traccia dei dati di origine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Tutte le elaborazione dei dati vengono eseguite da processi. Per ogni processo e provider di dati, viene creato un giornale di registrazione per documentare che il processo è stato eseguito e che le voci sono state elaborate nel processo corrente. Utilizzare questa procedura per impostare un'origine dati e per tenere traccia di una voce di costo specifica. Questa registrazione utilizza i dati dimostrativi della società USP2. Prima di completare questa attività, verificare di aver eseguito le guide attività "Creare un movimento CoGe di contabilità industriale", "Definire unità di controllo costi" e "Gestire l'origine dati per il movimento CoGe di contabilità industriale".
 

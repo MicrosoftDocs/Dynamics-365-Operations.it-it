@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Creare un piano materiali per co-prodotti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Il pianificatore della produzione pianifica i fabbisogni di materiali per gli articoli che sono co-prodotti della formula. La società di dati dimostrativi utilizzata per creare questa procedura è USP2.
 

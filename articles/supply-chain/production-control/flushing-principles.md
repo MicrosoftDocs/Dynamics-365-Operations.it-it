@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Controllo del consumo delle materie prime tramite i principi di registrazione
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 I principi di registrazione del consumo di materiali riflettono le diverse strategie di consumo delle materie prime utilizzate nei processi di produzione. Il consumo è il processo che preleva materiale dalle scorte disponibili e imposta il valore del materiale consumato su **Semilavorato** (WIP) per gli ordini di produzione e gli ordini batch. Le materie prime vengono in genere consumate da un'ubicazione che è configurata per il processo che consuma il materiale. Questa ubicazione è conosciuta come l'ubicazione entrata produzione.
 

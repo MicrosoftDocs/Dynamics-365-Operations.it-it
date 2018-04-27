@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="split-a-fixed-asset"></a>Dividere un cespite
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida attività suddividerà una percentuale di un libro cespiti in un nuovo libro cespiti.  Utilizza il ruolo Ragioniere e i dati dimostrativi USMF.
 

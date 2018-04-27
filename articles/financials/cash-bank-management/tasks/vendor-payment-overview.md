@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="vendor-payment-overview"></a>Panoramica pagamenti fornitore
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida attività descrive i vari metodi utilizzati per creare i pagamenti fornitore, ad esempio come utilizzare una proposta di pagamento o immettere manualmente un pagamento occasionale. Questa procedura utilizza la società dimostrativa USMF.
 

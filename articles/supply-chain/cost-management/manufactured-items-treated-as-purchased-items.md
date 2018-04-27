@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Impostare prodotti che possono essere prodotti o ottenuti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 I prodotti possono essere originati in vari modi: possono essere prodotti (fabbricati) o approvvigionati (acquistati). Questo articolo descrive alcuni punti tipici da considerare quando si configurano i prodotti per supportare l'approvvigionamento multiplo. 
 

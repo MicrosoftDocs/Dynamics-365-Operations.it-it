@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="audit-policy-rules"></a>Regole dei criteri di controllo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile utilizzare i criteri di controllo per valutare le note spese, le fatture fornitore e gli ordini fornitore per assicurare che siano conformi alle regole dei criteri create. Tutte le regole associate ai criteri di controllo vengono eseguite in modalità batch in base a una programmazione specificata.  Ciascuna regola dei criteri è un'istanza di un tipo di regola dei criteri. Può essere attiva solo una regola dei criteri per volta per ciascun tipo di regola dei criteri. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Importare la configurazione di addebito diretto ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene descritto come importare una configurazione di creazione di report elettronici dei pagamenti cliente. In questa procedura viene utilizzato il formato di pagamento in addebito diretto ISO 20022 come esempio. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>Copiare le righe di modelli di assistenza 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile copiare le informazioni di un modello in un contratto di assistenza o in un ordine di assistenza.
 

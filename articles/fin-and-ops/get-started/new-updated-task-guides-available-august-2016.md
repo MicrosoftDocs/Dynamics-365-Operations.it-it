@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Guide attività nuove o aggiornate (agosto 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (agosto 2016 -- tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata.
 

@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4016fa4dccd7c58834d56f7af86e05fc0e7f3439
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="merge-inventory-batches"></a>Unisci batch di magazzino
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sul consolidamento di due o più batch di magazzino in un batch unito.
 
@@ -62,7 +61,7 @@ Sì, sono disponibili alcune cose che è necessario impostare prima di utilizzar
 <td>Prodotti rilasciati</td>
 <td>Di seguito sono riportate le impostazioni consigliate per l'articolo:
 <ul>
-<li>Per generare automaticamente i numeri batch per i batch uniti, è necessario assegnare il prodotto rilasciato a un gruppo del numero batch. È inoltre possibile immettere un numero batch manualmente quando si crea un batch unito oppure selezionare un numero batch esistente. Se viene selezionato un numero batch esistente, assicurarsi che il batch selezionato non sia stato incluso in alcuna operazione di magazzino.</li>
+<li>Per generare automaticamente i numeri batch per i batch uniti, è necessario assegnare il prodotto rilasciato a un gruppo del numero batch. È inoltre possibile immettere un numero batch manualmente quando si crea un batch unito oppure selezionare un numero batch esistente. Se si seleziona un numero batch esistente, assicurarsi che il batch selezionato non sia stato incluso in alcuna operazione di magazzino.</li>
 <li>Se si utilizza la durata a scaffale o la data di consumo consigliata per il prodotto rilasciato, le date per un batch unito verranno calcolate in base alla selezione nel campo <strong>Calcolo data unione batch</strong>. Sono disponibili le seguenti opzioni:
 <ul>
 <li><strong>Prima possibile</strong>: il calcolo si basa sulla prima data specificata per un batch di origine selezionato per l'unione batch.</li>

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-and-edit-sales-quotations"></a>Creare e modificare offerte di vendita
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura dimostra come creare e aggiornare un'offerta di vendita. È possibile eseguire questa procedura sui propri dati o nella società di dati dimostrativi USMF.
 

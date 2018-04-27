@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Creare un codice interessi con un intervallo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I codici interessi possono essere impostati per calcolare importi d'interesse diversi in base a un intervallo di valori. Questa procedura consente di aggiungere un codice interessi e un intervallo.
 

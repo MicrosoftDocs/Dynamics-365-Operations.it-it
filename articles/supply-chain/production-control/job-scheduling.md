@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="job-scheduling"></a>Programmazione processo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sulla programmazione processi, ovvero una forma più dettagliata di programmazione della programmazione operazioni. È possibile utilizzare la programmazione processi per pianificare i singoli processi o ordini di lavorazione e controllare l'ambiente di produzione.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Impostare la convalida dell'abbinamento fatture della contabilità fornitori.
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa registrazione utilizza la società dimostrativa USMF. Il ruolo di responsabile della contabilità fornitori o del responsabile della contabilità eseguirebbe le operazioni. Prima di iniziare, assicurarsi che sia selezionata la chiave di configurazione Abbinamento fatture. Se la persona giuridica tiene traccia delle spese, ad esempio di trasporto, tramite le spese varie, verificare che sia selezionata la chiave di configurazione Spese.  Il processo di abbinamento fatture della contabilità fornitori consente di abbinare le informazioni relative a fatture fornitore, ordini fornitore ed entrate prodotti. Le differenze tra questi documenti sono dette discrepanze di abbinamento. Le discrepanze di abbinamento vengono confrontate con le tolleranze specificate. Se una discrepanza di abbinamento supera la percentuale o l'importo di tolleranza, nei moduli Fattura fornitore e Dettagli abbinamento fatture verranno visualizzate icone di scostamento relative all'abbinamento.
 

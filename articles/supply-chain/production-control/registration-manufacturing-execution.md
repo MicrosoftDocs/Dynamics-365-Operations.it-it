@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Registrazione per Esecuzione produzione
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono descritti i concetti e termini importanti con cui sarà necessario acquisire familiarità per configurare e utilizzare la funzionalità di esecuzione produzione. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quarantine-orders"></a>Ordini di quarantena
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto il modo in cui gli ordini di quarantena vengono utilizzati per bloccare il magazzino.
 

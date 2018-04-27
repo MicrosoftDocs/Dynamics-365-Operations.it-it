@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-simulation"></a>Simulazione prezzo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sulla simulazione di prezzo per le offerte. La simulazione di prezzo consente di valutare l'effetto delle detrazioni sul prezzo di vendita futuro durante il processo di offerta, prima di stabilire un prezzo specifico.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>Aree di lavoro mobili
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento sono elencate le aree di lavoro mobili disponibili con l'app mobile Microsoft Dynamics 365 for Unified Operations.
 

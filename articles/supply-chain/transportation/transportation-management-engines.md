@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Motori di gestione del trasporto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 I motori di gestione del trasporto definiscono la logica utilizzata per generare ed elaborare le tariffe di trasporto in Gestione trasporto. 
 
@@ -47,7 +46,7 @@ Nella seguente tabella vengono illustrati i motori di gestione del trasporto dis
 | **Motore zona**                  | Calcola la zona in base all'indirizzo corrente e calcola il numero di zone da attraversare per andare dall'indirizzo A all'indirizzo B.                                                                                                                                                                    |
 | **Tipo di fattura trasporto**            | Standardizza la fattura di trasporto e le relative righe e viene utilizzato per l'abbinamento automatico della fattura di trasporto.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Che motori è necessario configurare per valutare una spedizione?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Un motore di gestione del trasporto per funzionare in un determinato modo richie
 -   Dati di configurazione semplici.
 
 Nella maggior parte dei casi, per configurare i dati di inizializzazione è possibile fare clic sul pulsante **Parametri** nei moduli di impostazione del motore di gestione del trasporto. **Esempio di configurazione di un motore tariffe che fa riferimento a un motore** Nel seguente esempio viene illustrata l'impostazione necessaria per un motore tariffe basato sul tipo di motore .NET Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEnginee e viene fatto riferimento a un motore chilometraggio.
-| Parametro             | Descrizione                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | Tipo .NET che interpreta i dati di assegnazione di base della tariffa per uno schema specifico. La sintassi del valore del parametro è costituita da due segmenti delimitati da una barra verticale (|). Il primo segmento contiene il nome dell'assembly che definisce il tipo di assigner. Il secondo segmento definisce il nome completo del tipo di assigner. Questo include lo spazio dei nomi del tipo. |
-| *MileageEngineCode*   | Codice del motore chilometraggio che identifica il record motore chilometraggio nel database di Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Codice del motore generico che identifica il motore di ripartizione nel database di Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                              |
 
- 
+|          Parametro           |                                                                                  Descrizione                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | Tipo .NET che interpreta i dati di assegnazione di base della tariffa per uno schema specifico. La sintassi del valore del parametro è costituita da due segmenti delimitati da una barra verticale ( |
+|  <em>MileageEngineCode</em>  |                       Codice del motore chilometraggio che identifica il record motore chilometraggio nel database di Microsoft Dynamics 365 for Finance and Operations.                        |
+| <em>ApportionmentEngine</em> |                        Codice del motore generico che identifica il motore di ripartizione nel database di Microsoft Dynamics 365 for Finance and Operations.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Come vengono utilizzati i metadati nei motori di gestione del trasporto?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ I dati utilizzati quando si calcolano le tariffe in Microsoft Dynamics 365 for F
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>I metadati sono necessari per le configurazioni di tutti i motori?
 No, i motori di gestione del trasporto utilizzati per recuperare i dati richiesti per il calcolo delle tariffe da sistemi esterni non richiedono i metadati. I dati relativi alle tariffe di questi motori possono essere recuperati dai sistemi di vettori di trasporto esterni, in genere tramite un servizio Web. Ad esempio, in è possibile utilizzare un motore chilometraggio che recupera i dati direttamente da Bing Maps in modo che per questo motore non siano necessari i metadati.
+
 | **Nota**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | I motori di gestione del trasporto forniti con Finance and Operations si basano sui dati recuperati dall'applicazione. I motori che si connettono ai sistemi esterni non sono inclusi in Operations. Tuttavia, il modello di estendibilità basato sul motore consente di creare estensioni utilizzando Visual Studio Tools per Microsoft Dynamics 365 for Finance and Operations. |

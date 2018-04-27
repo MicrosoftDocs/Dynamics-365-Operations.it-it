@@ -19,17 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 992986c02c78651b0b9965842770b5c73d901a41
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9998366e675892cf0ee9bd6d5f240d5e6ab73193
 ms.contentlocale: it-it
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni IVA per l'Italia
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia. 
 
@@ -125,8 +124,10 @@ Per il reporting IVA, l'Italia richiede la dichiarazione e la formattazione di i
 ## <a name="sales-tax-settlement-periods"></a>Periodi liquidazione IVA
 Per la legislazione italiana, le regole si applicano ai periodi di liquidazione. Ad esempio, una volta chiuso il periodo di liquidazione, non sono consentite modifiche. È necessario dichiarare se la liquidazione si riferisce all'ultimo periodo dell'anno fiscale. Visualizzare lo stato del periodo di liquidazione e dichiarare se si riferisce a una chiusura annuale. Nela pagina **Periodo liquidazione IVA** &gt; scheda **Intervalli periodici**, selezionare i seguenti campi.
 
-| **Campo**       | **Descrizione**                                                                                   |
-|-----------------|---------------------------------------------------------------------------------------------------|
-| **Chiuso**      | Indica se il libro IVA italiano relativo al periodo è stato aggiornato e chiuso automaticamente. |
-| **Ultimo periodo** | Selezionare questa opzione se si tratta dell'ultimo periodo di un anno IVA.                          |
+
+|    <strong>Campo</strong>    |                                   <strong>Descrizione</strong>                                    |
+|------------------------------|---------------------------------------------------------------------------------------------------|
+|   <strong>Chiuso</strong>    | Indica se il libro IVA italiano relativo al periodo è stato aggiornato e chiuso automaticamente. |
+| <strong>Ultimo periodo</strong> |             Selezionare questa opzione se si tratta dell'ultimo periodo di un anno IVA.              |
+
 

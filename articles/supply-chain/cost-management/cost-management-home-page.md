@@ -3,12 +3,12 @@ title: Home page della gestione costi
 description: "La gestione dei costi consente di gestire la valutazione e la contabilità di materie prime, prodotti semilavorati, prodotti finiti e WIP."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Home page della gestione costi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La [gestione dei costi (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) consente di utilizzare la valutazione e la contabilità per materie prime, prodotti semilavorati, prodotti finiti e cespiti semilavorati. Si tratta del processo di definizione, gestione e creazione report di [contabilità inventario](cost-object.md) e [contabilità di produzione](bom-calculations.md).
 

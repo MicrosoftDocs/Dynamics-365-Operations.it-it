@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-groups"></a>Gruppi oggetti assistenza 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 I gruppi di oggetti sono utili per ordinare e filtrare i dati relativi a oggetti per scopi statistici e di report. È possibile, ad esempio, raggruppare oggetti in base alla posizione geografica o in base al tipo.
 

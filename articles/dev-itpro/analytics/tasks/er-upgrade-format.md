@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Aggiornare il formato adottando una nuova versione di base del formato per la creazione di report elettronici (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può gestire una configurazione di formato per la creazione di report elettronici (ER). Questa procedura illustra come sia possibile creare una versione personalizzata di un formato in base al formato ricevuto da un provider di configurazione (CP). Illustra anche come adottare una nuova versione di base di quel formato.
 

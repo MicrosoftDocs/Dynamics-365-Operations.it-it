@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-output-location"></a>Ubicazione uscita produzione
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento descrive la gerarchia utilizzata per identificare l'ubicazione uscita produzione.
 

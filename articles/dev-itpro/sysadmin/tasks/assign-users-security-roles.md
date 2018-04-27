@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>Assegnare gli utenti ai ruoli di sicurezza
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Per accedere a Microsoft Dynamics 365 for Finance and Operations agli utenti devono essere assegnati ruoli di sicurezza. In questa procedura viene illustrato come gli amministratori di sistema possono assegnare utenti ai ruoli automaticamente, in base ai dati aziendali. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

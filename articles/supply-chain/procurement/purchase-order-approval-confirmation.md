@@ -28,9 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>Approvare e confermare ordini fornitore
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 In questo articolo vengono descritti gli stati che attraversa un ordine fornitore (PO) dopo che è stato creato e l'effetto dell'attivazione di gestione delle modifiche sui PO.
 

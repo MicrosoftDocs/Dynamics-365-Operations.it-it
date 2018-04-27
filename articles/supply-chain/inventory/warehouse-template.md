@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Impostare un magazzino utilizzando un modello di configurazione magazzino
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene illustrato come impostare un magazzino utilizzando un modello di configurazione magazzino. Esistono vari modelli di configurazione predefiniti da utilizzare. Per informazioni su come utilizzare tali modelli, vedere [Modelli di dati di configurazione](../../dev-itpro/data-entities/configuration-data-templates.md).
 

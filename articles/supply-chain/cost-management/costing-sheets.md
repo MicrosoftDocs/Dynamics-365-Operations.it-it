@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-sheets"></a>Schede di determinazione costi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'impostazione della scheda di determinazione costi prevede due obiettivi. Come primo obiettivo viene definito il formato di visualizzazione delle informazioni sul costo del venduto per un articolo prodotto o un ordine di produzione. La visualizzazione formattata è denominata scheda di determinazione costi. Come secondo obiettivo viene definita la base per il calcolo dei costi indiretti. L'impostazione della scheda di determinazione costi si basa sulla funzionalità gruppo di costi per visualizzare le informazioni e per le formule di calcolo dei costi indiretti. I due obiettivi dell'impostazione della scheda di determinazione costi sono descritti in questo articolo. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-a-service-template-group"></a>Creare un gruppo di modelli di assistenza  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile utilizzare gruppi di modelli di assistenza per ordinare e filtrare i modelli di assistenza.
 

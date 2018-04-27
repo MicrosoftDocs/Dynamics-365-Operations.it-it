@@ -1,9 +1,9 @@
 ---
 title: Cercare prodotti e clienti in POS
-description: "Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Dynamics 365 for Retail."
+description: "Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Microsoft Dynamics 365 for Retail."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 08/16/2017
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,30 +19,30 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: bd563610616fa72a610e0b134371765cc1edacc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b055ae09e87434f9e43c558e2a43d0467d70aaed
 ms.contentlocale: it-it
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Panoramica sulla funzionalità di ricerca prodotti e clienti in POS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-Modern POS (MPOS) e POS cloud (CPOS) forniscono una funzionalità di ricerca di facile utilizzo che consente ai dipendenti dei punti vendita di cercare rapidamente prodotti e clienti. La barra di ricerca è sempre presente nella parte superiore di MPOS e CPOS, di modo che i dipendenti possano trovare rapidamente prodotti e clienti.
+Modern POS (MPOS) e POS cloud (CPOS) forniscono una funzionalità di ricerca di facile utilizzo che consente di cercare prodotti e clienti. Dal momento che la barra di ricerca è sempre presente nella parte superiore delle finestre MPOS e CPOS, i dipendenti possono trovare rapidamente prodotti e clienti.
 
-I dipendenti possono cercare i prodotti negli assortimenti e nei cataloghi associati al punto vendita corrente e negli assortimenti e nei cataloghi associati a qualsiasi altro punto vendita della società. Di conseguenza, i cassieri possono vendere e restituire prodotti al di fuori dell'assortimento del punto vendita. Analogamente, i dipendenti possono cercare i clienti associati al punto vendita corrente o a qualsiasi altro punto vendita della società. Inoltre, i dipendenti possono cercare i clienti associati a un'altra società nell'organizzazione padre.
+I dipendenti possono cercare i prodotti negli assortimenti e nei cataloghi associati al punto vendita corrente. Possono inoltre cercare negli assortimenti e nei cataloghi associati a qualsiasi altro punto vendita della società. Di conseguenza, i cassieri possono vendere e restituire prodotti al di fuori dell'assortimento del punto vendita. Analogamente, i dipendenti possono cercare i clienti che sono associati al punto vendita corrente o a qualsiasi altro punto vendita della società. Inoltre, i dipendenti possono cercare i clienti che sono associati a un'altra società nell'organizzazione padre.
 
-## <a name="product-search"></a>Ricerca prodotto 
+## <a name="product-search"></a>Ricerca prodotto
 
-Per impostazione predefinita, una ricerca prodotto viene effettuata nell'assortimento del punto vendita. Questo tipo di ricerca è denominata *ricerca prodotto locale*. Tuttavia, i dipendenti possono passare facilmente a qualsiasi catalogo associato al punto vendita corrente, oppure possono effettuare una ricerca in un altro punto vendita. Questo tipo di ricerca è denominata *ricerca prodotto remota*. Per cambiare il catalogo, selezionare il pulsante **Categorie** nella parte sinistra della pagina. Nella parte superiore del riquadro visualizzato, selezionare il pulsante **Cambia catalogo** e selezionare il catalogo in cui effettuare la ricerca. Il sistema cercherà i prodotti nel catalogo selezionato.
+Per impostazione predefinita, le ricerche dei prodotti vengono effettuate nell'assortimento del punto vendita. Questo tipo di ricerca è denominata *ricerca prodotto locale*. Tuttavia, i dipendenti possono passare facilmente a qualsiasi catalogo associato al punto vendita corrente, oppure possono effettuare una ricerca in un altro punto vendita. Questo tipo di ricerca è denominata *ricerca prodotto remota*. Per cambiare il catalogo, selezionare il pulsante **Categorie** nella parte sinistra della pagina. Nella parte superiore del riquadro visualizzato, selezionare il pulsante **Cambia catalogo** e selezionare il catalogo in cui effettuare la ricerca. Il sistema cercherà i prodotti nel catalogo selezionato.
 
 Nella pagina **Cambia catalogo**, i dipendenti possono selezionare facilmente qualsiasi punto vendita, oppure possono cercare prodotti in tutti i punti vendita.
 
 ![Cambiare il catalogo](./media/Changecatalog.png "Cambiare il catalogo")
  
-Una ricerca prodotto locale esegue la ricerca nelle seguenti proprietà di prodotto:
+Una ricerca di prodotto locale esegue la ricerca nelle seguenti proprietà di prodotto:
 
 - Numero prodotto
 - Nome prodotto
@@ -53,17 +53,17 @@ Una ricerca prodotto locale esegue la ricerca nelle seguenti proprietà di prodo
 
 ### <a name="enhancements-to-local-product-searches"></a>Miglioramenti alle ricerche prodotto locali
 
-Le ricerche prodotto locali sono ora più facili e intuitive. Sono state apportati i seguenti miglioramenti:
+Le ricerche di prodotto locali sono ora più facili e intuitive. Sono state apportati i seguenti miglioramenti:
 
 - Menu a discesa per clienti e prodotti sono stati stati aggiunti alla barra di ricerca, di modo che i dipendenti possano selezionare **Prodotto** o **Cliente** prima di eseguire la ricerca. **Prodotto** è l'impostazione predefinita, come illustrato di seguito.
-- Per le ricerche con più parole chiave (ovvero le ricerche che utilizzano termini di ricerca), i rivenditori possono stabilire se i risultati della ricerca includono i risultati corrispondenti a qualsiasi termine di ricerca o solo i risultati che corrispondono a tutti i termini di ricerca. Questa impostazione è disponibile nel profilo della funzionalità POS, in un nuovo gruppo denominato **Ricerca prodotto**. L'impostazione predefinita è **Abbina alcuni termini di ricerca**. Questa impostazione è quella consigliata. Se si utilizza l'impostazione **Abbina alcuni termini di ricerca**, la ricerca restituisce tutti i prodotti che corrispondono completamente o parzialmente a uno o più termini di ricerca e i risultati vengono automaticamente elencati in ordine crescente a partire dai prodotti che hanno il maggior numero di corrispondenze (totali o parziali) con le parole chiave.
+- Per le ricerche con più parole chiave (ovvero le ricerche che utilizzano termini di ricerca), i rivenditori possono stabilire se i risultati della ricerca includono i risultati corrispondenti a *qualsiasi* termine di ricerca o solo i risultati che corrispondono a *tutti* i termini di ricerca. Questa impostazione è disponibile nel profilo della funzionalità POS, in un nuovo gruppo denominato **Ricerca prodotto**. L'impostazione predefinita è **Abbina alcuni termini di ricerca**. Questa impostazione è quella consigliata. Quando si utilizza l'impostazione **Abbina alcuni termini di ricerca**, nei risultati vengono restituiti tutti i prodotti che corrispondono completamente o parzialmente a uno o più termini di ricerca. Tali risultati vengono ordinati automaticamente in ordine crescente in base ai prodotti che hanno il maggior numero di corrispondenze (complete o parziali) con le parole chiave.
 
     L'impostazione **Abbina tutti i termini di ricerca** restituisce solo i prodotti che corrispondono (completamente o parzialmente) a tutti i termini di ricerca. Questa impostazione è utile quando i nomi dei prodotti sono lunghi e i dipendenti desiderano visualizzare solo una parte dei nomi nei risultati della ricerca. Questo tipo di ricerca presenta tuttavia due limiti:
 
     - La ricerca viene effettuata in singole proprietà di prodotto. Ad esempio, vengono restituiti solo i prodotti che hanno tutte le parole chiave cercate in almeno una proprietà di prodotto.
     - La ricerca non viene eseguita nelle dimensioni.
 
-- I rivenditori possono ora configurare la ricerca prodotto in modo da visualizzare suggerimenti di ricerca mentre gli utenti digitano nomi di prodotti. Una nuova impostazione per questa funzionalità è disponibile nel profilo della funzionalità POS, in un nuovo gruppo denominato **Ricerca prodotto**. L'impostazione è denominata **Mostra suggerimenti di ricerca durante la digitazione**. Questa funzionalità può consentire ai dipendenti di trovare rapidamente il prodotto che stanno cercando, in quanto non devono digitarne il nome completo.
+- I rivenditori possono ora configurare la ricerca prodotto in modo da visualizzare suggerimenti di ricerca mentre gli utenti digitano nomi di prodotti. Una nuova impostazione per questa funzionalità è disponibile nel profilo della funzionalità POS, in un gruppo denominato **Ricerca prodotto**. L'impostazione è denominata **Mostra suggerimenti di ricerca durante la digitazione**. Questa funzionalità può consentire ai dipendenti di trovare rapidamente il prodotto che stanno cercando, in quanto non devono digitarne il nome completo.
 - L'algoritmo di ricerca prodotto ora cerca i termini anche nella proprietà **Nome di ricerca** del prodotto.
 
 ![Suggerimenti su prodotti](./media/Productsuggestions.png "Suggerimenti su prodotti")
@@ -83,7 +83,23 @@ In una ricerca cliente remota, l'ID cliente non è visualizzato per i clienti di
 
 ![Ricerca cliente globale](./media/Globalcustomersearch.png "Ricerca cliente globale")
 
-### <a name="enhancements-to-local-customer-searches"></a>Miglioramenti alle ricerche cliente locali
+### <a name="enhancements-to-local-customer-search"></a>Miglioramenti alla ricerca cliente locale
 
-Le ricerche cliente locali consentono ai dipendenti di trovare rapidamente i clienti per numero di telefono. I dipendenti non devono digitare eventuali caratteri speciali aggiunti al numero di telefono del cliente, ad esempio spazi, trattini o parentesi. Sebbene i cassieri siano in grado di archiviare numeri di telefono in qualsiasi formato (ad esempio, con parentesi, trattini, simboli e così via), possono cercare i clienti digitando un numero di telefono parziale. Se un cassiere ha incluso dei caratteri speciali in un numero di telefono, gli altri cassieri possono trovare il cliente digitando le cifre visualizzate dopo i caratteri speciali. Ad esempio, se il numero di telefono di un cliente è stato immesso come **123-456-7890**, un cassiere può cercare il cliente digitando **123**, **456**, **7890** o **1234567890** oppure immettendo le prime cifre del numero telefonico.
+Sono state semplificate le ricerche che si basano sul numero di telefono. Queste ricerche ignorano ora i caratteri speciali, ad esempio spazi, trattini e parentesi, che potrebbero essere stati aggiunti al momento della creazione del cliente. Di conseguenza, i cassieri non devono preoccuparsi del formato del numero di telefono durante la ricerca. Possono inoltre cercare i clienti digitando parte del numero di telefono. Se un numero di telefono include caratteri speciali, può essere trovato anche cercando nei numeri che vengono visualizzati dopo i caratteri speciali. Ad esempio, se il numero di telefono di un cliente è stato immesso come **123-456-7890**, un cassiere può cercare il cliente digitando **123**, **456**, **7890** o **1234567890** oppure digitando le prime cifre del numero di telefono.
+
+La ricerca tradizionale dei clienti può richiedere molto tempo, poiché esegue la ricerca in più campi. I cassieri possono ora effettuare una ricerca in una singola proprietà personalizzata, ad esempio il nome, l'indirizzo di posta elettronica o il numero di telefono. Le proprietà dell'algoritmo di ricerca del cliente sono collettivamente note come *criteri di ricerca del cliente*. L'amministratore di sistema può facilmente configurare uno o più criteri come collegamenti da visualizzare nel POS. Poiché la ricerca è limitata a un unico criterio, vengono visualizzati solo i risultati della ricerca pertinenti, pertanto le prestazioni sono molto superiori rispetto a quelle di una ricerca standard del cliente. La figura riportata di seguito mostra i collegamenti di ricerca del cliente nel POS.
+
+![Collegamenti di ricerca del cliente](./media/SearchShortcutsPOS.png "Collegamenti di ricerca del cliente")
+
+Per impostare i criteri di ricerca come collegamenti, l'amministratore deve aprire la pagina **Parametri di vendita al dettaglio** in Microsoft Dynamics 365 for Finance and Operations, quindi, nella scheda **Criteri di ricerca POS**, selezionare tutti i criteri che devono essere mostrati come collegamenti.
+
+![Configurare i collegamenti di ricerca](./media/ConfigureShortcutsAX.png "Configurare i collegamenti di ricerca")
+
+> [!NOTE]
+> Se si aggiungono troppi collegamenti, il menu a discesa nella barra della ricerca nel POS non riesce a visualizzarli correttamente a scapito della ricerca da parte del dipendente. Si consiglia di aggiungere solo i collegamenti necessari.
+
+Il campo **Ordine di visualizzazione** determina l'ordine in cui i collegamenti vengono visualizzati nel POS. I criteri che vengono visualizzati sono le proprietà predefinite utilizzate dall'algoritmo di ricerca del cliente per cercare i clienti. Tuttavia, i partner possono aggiungere proprietà personalizzate come collegamenti di ricerca. Per aggiungere proprietà personalizzate come collegamenti di ricerca, l'amministratore di sistema deve estendere l'enumerazione (enum) estendibile utilizzata per i criteri di ricerca del cliente e quindi contrassegnare le proprietà personalizzate del partner come collegamenti. I partner sono responsabili della scrittura del codice per trovare i risultati derivanti dall'utilizzo dei collegamenti personalizzati.
+
+> [!NOTE]
+> Una proprietà personalizzata che viene aggiunta all'enumerazione non influisce sull'algoritmo predefinito di ricerca del cliente. In altre parole, l'algoritmo di ricerca del cliente non cerca nella proprietà personalizzata. Gli utenti possono utilizzare una proprietà personalizzata per le ricerche solo se la proprietà personalizzata viene aggiunta come collegamento o se l'algoritmo di ricerca predefinito viene sovrascritto.
 

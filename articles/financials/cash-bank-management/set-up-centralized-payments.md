@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-centralized-payments"></a>Impostare i pagamenti centralizzati
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Utilizzare questa procedura per preparare l'elaborazione dei pagamenti in una persona giuridica per conto di altre persone giuridiche appartenenti all'organizzazione. Prima di iniziare, è necessario completare le seguenti procedure di impostazione:
 

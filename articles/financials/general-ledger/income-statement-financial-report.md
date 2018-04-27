@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>Report finanziario conto economico
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene descritto il report predefinito per i conti economici. Sono descritti inoltre i blocchi predefiniti associati a questo report. 
 
@@ -60,7 +59,7 @@ Le definizioni di colonna contengono i diversi tipi di colonna per fornire diver
     -   **FD** I dati finanziari per il periodo corrente
     -   **FD** I dati finanziari da inizio anno
 
- 
+
 
 <a name="see-also"></a>Vedere anche
 --------

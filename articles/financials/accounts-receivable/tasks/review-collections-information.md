@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>Rivedere le informazioni sulla riscossione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per esaminare le informazioni sulla riscossione nonché le varie opzioni di impostazione e le transazioni di riscossione. Questa procedura utilizza la società dimostrativa USMF.
 

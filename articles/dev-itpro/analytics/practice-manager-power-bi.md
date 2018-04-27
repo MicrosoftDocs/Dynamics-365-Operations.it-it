@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="practice-manager-power-bi-content"></a>Contenuto di Power BI per responsabile procedura
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto cosa è incluso nel contenuto Microsoft Power BI per il **responsabile procedura**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
@@ -118,7 +118,9 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entità: ProjectAccountingCube\_TotalEstimatedCosts 
 **Origine dati:** ProjTable
 
-| Misura di aggregazione chiave       | Campo               | descrizione |
-|---------------------------------|---------------------|-------------|
+
+|    Misura di aggregazione chiave    |        Campo        |                                          descrizione                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | Costo pianificato delle attività completate | Sum(TotalCostPrice) | Prezzo di costo totale nelle stime per tutti i tipi di transazione di progetto con attività completate. |
+
 

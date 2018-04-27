@@ -28,8 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="customer-payments-for-a-partial-amount"></a>Pagamenti cliente per un importo parziale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Talvolta i clienti effettuano un pagamento inferiore rispetto all'importo della fattura. Questo articolo descrive le varie opzioni per gestire questa situazione. Le opzioni disponibili dipendono dai requisiti aziendali e dalla configurazione.
 

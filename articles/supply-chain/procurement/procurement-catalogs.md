@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-catalogs"></a>Cataloghi di approvvigionamento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo descrive, in modo generale, in che modo i professionisti degli acquisti possono impostare e gestire i cataloghi di approvvigionamento. I cataloghi di approvvigionamento definiscono gli articoli e i servizi che i dipendenti della società possono ordinare per uso interno.
 

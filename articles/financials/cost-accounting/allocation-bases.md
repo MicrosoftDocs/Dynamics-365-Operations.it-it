@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Basi di allocazione 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La base di allocazione è la base su cui la contabilità industriale assegna i costi generali. La base di allocazione può essere una quantità, ad esempio le ore-macchina utilizzate, i kilowattora (kWh) consumati o la metratura occupata. Le basi di allocazione vengono utilizzate principalmente per allocare i costi generali alle scorte prodotte. Ad esempio, un reparto IT alloca le spese sostenute in base al numero di computer utilizzati in ciascun reparto.
 
@@ -424,9 +424,11 @@ Di seguito un esame più attento alla formula per CC003 (IT):
 
 Di seguito è riportato un esempio di regola di distribuzione costi se la base di allocazione della formula dell'elettricità fissa è assegnata come base di allocazione.
 
-| Oggetto di costo |  descrizione  | Grandezza | Fattore di allocazione                |
-|-------------|----|-----------|----------------------------------|
-| CC001       | Risorse umane | 1,837.50  | (1,837.50 ÷ 18,162.50) × Importo  |
-| CC002       | FI | 3,075.00  | (3,075.00 ÷ 18,162.50) × Importo  |
-| CC003       | TS | 13,250.00 | (13,250.00 ÷ 18,162.50) × Importo |
+
+| Oggetto di costo | descrizione | Grandezza |        Fattore di allocazione         |
+|-------------|-------------|-----------|----------------------------------|
+|    CC001    |     Risorse umane      | 1,837.50  | (1,837.50 ÷ 18,162.50) × Importo  |
+|    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × Importo  |
+|    CC003    |     TS      | 13,250.00 | (13,250.00 ÷ 18,162.50) × Importo |
+
 

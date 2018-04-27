@@ -29,15 +29,14 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>Stato del ciclo di vita prodotto 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Uno stato del ciclo di vita del prodotto documenta lo stato del ciclo di vita di un prodotto rilasciato o di una variante di prodotto. Gli stati del ciclo di vita del prodotto sono definiti dall'utente, in genere da responsabile di prodotto o un responsabile di dati master relativi alla rappresentazione generale prodotto. I processi aziendali specifici, ad esempio la pianificazione generale, possono essere interessati da uno stato specifico del ciclo di vita.   
- 
+
 Un prodotto rilasciato o una variante prodotto possono essere associati a uno stato del ciclo di vita del prodotto che documenta in quale stato del ciclo di vita si trova attualmente un prodotto o una variante specifici. È possibile definire qualsiasi numero di stati di ciclo di vita del prodotto assegnando un nome e una descrizione allo stato. È possibile selezionare uno stato del ciclo di vita come stato predefinito per i nuovi prodotti rilasciati. Le varianti prodotto rilasciate ereditano il relativo stato del ciclo di vita del prodotto in base alla rappresentazione generale prodotto rilasciato alla creazione. Quando si modifica lo stato del ciclo di vita in una rappresentazione generale prodotto rilasciato, è possibile scegliere di aggiornare tutte le varianti esistenti con lo stesso stato originale.  
 
 ## <a name="create-a-new-product-lifecycle-state"></a>Creare un nuovo stato del ciclo di vita prodotto 
- 
+
 - Per creare un nuovo stato del ciclo di vita del prodotto, riprodurre o leggere la guida attività **Creare un nuovo stato del ciclo di vita prodotto**. 
 
 -  Per creare uno stato predefinito del ciclo di vita del prodotto, riprodurre o leggere la guida attività **Creare uno stato predefinito del ciclo di vita prodotto**.   
@@ -73,7 +72,7 @@ Per informazioni dettagliate su come utilizzare lo stato del ciclo di vita del p
 
 > [!NOTE]
 > Per motivi di prestazioni, si consiglia vivamente di associare tutti i prodotti o le varianti di prodotto rilasciati obsoleti, specialmente quando si lavora con varianti di configurazione del prodotto non riutilizzabili, con uno stato del ciclo di vita del prodotto che è disattivato per la pianificazione generale.  
- 
+
 ## <a name="default-migration-import-and-export"></a>Migrazione, importazione ed esportazione predefinite 
 
 Gli stati del ciclo di vita del prodotto non sono supportati da entità di dati e lo stato del ciclo di vita non può essere impostato su uno stato variabile tramite le entità di dati del prodotto rilasciato.
@@ -81,18 +80,18 @@ Gli stati del ciclo di vita del prodotto non sono supportati da entità di dati 
 -  Nella migrazione dalle versioni precedenti, lo stato del ciclo di vita di tutti i prodotti e le varianti prodotto risulterà vuoto.  
 -  Quando si importano prodotti rilasciati attraverso un'entità di dati, lo stato del ciclo di vita predefinito verrà applicato alla creazione.  
 -  Quando si importano varianti di prodotto rilasciate tramite un'entità di dati, viene importato lo stato del ciclo di vita del prodotto della rappresentazione generale prodotto rilasciato.   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a>Trovare prodotti e varianti prodotto obsoleti 
- 
+
 È possibile eseguire un'analisi di simulazione per individuare i prodotti o le varianti prodotto rilasciati obsoleti quindi aggiornare lo stato del ciclo di vita del prodotto. Per trovare i prodotti obsoleti, riprodurre e leggere la guida attività **Trovare i prodotti o le varianti prodotto obsoleti in base alla richiesta e associare uno stato del ciclo di vita**. Questa guida attività mostra come trovare prodotti o varianti di prodotto obsoleti e come associare uno stato del ciclo di vita del prodotto ai prodotti obsoleti. Inoltre mostra come visualizzare i risultati della simulazione e valutare quanti prodotti e varianti di prodotto saranno associati a un nuovo stato del ciclo di vita del prodotto quando si esegue l'aggiornamento senza simulazione.  
- 
+
 Tramite l'esecuzione dell'analisi in una modalità di simulazione, prodotti e varianti prodotto identificati come obsoleti vengono visualizzati in un modulo specifico, in cui possono essere esaminati facilmente. L'analisi effettua la ricerca di transazioni e dati master specifici per identificare i prodotti privi di richiesta durante un periodo variabile e senza dati master che possono determinare la domanda. I nuovi prodotti rilasciati durante un periodo variabile possono essere esclusi dall'analisi. Quando la simulazione di analisi restituisce il risultato previsto, l'utente può eseguire l'analisi e impostare un nuovo stato del ciclo di vita di prodotti per tutti i prodotti identificati come obsoleti dall'analisi.  
- 
+
 > [!NOTE]
 > Tenere presente che tutte le analisi e tutti gli aggiornamenti devono essere effettuati all'interno della stessa persona giuridica.  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a>Criteri per selezionare e aggiornare prodotti o varianti di prodotto rilasciati 
- 
+
 Usare i seguenti criteri per selezionare e aggiornare i prodotti o le varianti di prodotto rilasciati: 
 
 -    Lo stato del ciclo di vita del prodotto o della variante del prodotto deve essere diverso dal nuovo stato desiderato. 

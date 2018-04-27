@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 for Finance and Operations. Consente ai fornitori di utilizzare ordini di acquisto, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo argomento viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
 
@@ -94,12 +94,12 @@ La tabella di seguito mostra uno scambio di informazioni tipico, a seconda della
 <tbody>
 <tr class="even">
 <td>Il fornitore <strong>accetta</strong> l'ordine di dati finanziari e Finance and Operations è configurato per confermare automaticamente gli ordini di acquisto accettati dal fornitore.</td>
-<td>Lo stato dell'ordine viene aggiornato a <strong>Confermato</strong>. Se qualcosa impedisce l'aggiornamento dell'ordine, la risposta del fornitore viene comunque registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. 
+<td>Lo stato dell'ordine viene aggiornato a <strong>Confermato</strong>. Se qualcosa impedisce l&#39;aggiornamento dell&#39;ordine, la risposta del fornitore viene comunque registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. 
 
 L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revisione esterna</strong> viene aggiornato con le date di consegna confermate nelle righe. Questo aggiornamento avvia una nuova versione che viene impostata automaticamente sullo stato <strong>Confermato</strong>. Quando l'ordine fornitore viene confermato, viene visualizzato nell'interfaccia di collaborazione fornitore.</td>
 </tr>
 <tr class="odd">
-<td>Il fornitore <strong>accetta</strong> l'ordine, ma Finance and Operations non è configurato per confermare automaticamente gli ordini fornitore accettati dal fornitore.</td>
+<td>Il fornitore <strong>accetta</strong> l&#39;ordine, ma Finance and Operations non è configurato per confermare automaticamente gli ordini fornitore accettati dal fornitore.</td>
 <td>La risposta del fornitore viene registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>.
 
 L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revisione esterna</strong> viene aggiornato con le date di consegna confermate nelle righe. Questo aggiornamento avvia una nuova versione che viene impostata automaticamente sullo stato <strong>In revisione esterna</strong>. È quindi possibile confermare manualmente l'ordine fornitore.</td>
@@ -116,7 +116,7 @@ L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revi
 <li>Sostituire un articolo.</li>
 </ul>
 Le informazioni relative ai prezzi e alle spese non possono essere modificate dal fornitore. Tuttavia, il fornitore può suggerire queste modifiche tramite le note.</td>
-<td>La risposta del fornitore viene registrata come <strong>Accettata con modifiche</strong> e lo stato dell'ordine fornitore rimane impostato su <strong>In revisione esterna</strong>. Gli stati indicano i tipi di modifiche che ha suggerito il fornitore. Per informazioni sul consumo automatico delle modifiche, vedere la sezione di seguito Aggiornare l'ordine fornitore quando un fornitore suggerisce modifiche. </td>
+<td>La risposta del fornitore viene registrata come <strong>Accettata con modifiche</strong> e lo stato dell'ordine fornitore rimane impostato su <strong>In revisione esterna</strong>. Gli stati indicano i tipi di modifiche che ha suggerito il fornitore. Per informazioni sul consumo automatico delle modifiche, vedere la sezione di seguito &quot;Aggiornare l'ordine fornitore quando un fornitore suggerisce modifiche&quot;. </td>
 </tr>
 </tbody>
 </table>

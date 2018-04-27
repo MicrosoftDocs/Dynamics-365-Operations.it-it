@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>Installare lo strumento di progettazione layout di Retail POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 È possibile utilizzare lo strumento di progettazione con un clic per progettare layout di Retail Modern POS (MPOS) e POS cloud diversi, con orientamento orizzontale o verticale, per punti vendita, registratori di cassa, cassieri e responsabili.
 

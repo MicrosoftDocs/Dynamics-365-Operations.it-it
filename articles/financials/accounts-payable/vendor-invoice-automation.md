@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="vendor-invoice-automation"></a>Automazione fattura fornitore
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono illustrate le funzionalità disponibili per l'automazione completa delle fatture fornitore, anche delle fatture che includono allegati.
 

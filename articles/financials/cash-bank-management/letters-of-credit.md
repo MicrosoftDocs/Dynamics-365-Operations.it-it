@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Lettere di credito
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le lettere di credito sono documenti bancari utilizzati comunemente per la compravendita di merci tra paesi diversi. 
 

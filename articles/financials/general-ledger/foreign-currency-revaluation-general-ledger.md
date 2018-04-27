@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Rivalutazione valuta estera per contabilità generale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene fornita una panoramica delle seguenti operazioni relative al processo di rivalutazione valuta estera della contabilità generale: impostazione, esecuzione del processo, calcolo per il processo e lo storno di transazioni di rivalutazione, se necessario. 
 

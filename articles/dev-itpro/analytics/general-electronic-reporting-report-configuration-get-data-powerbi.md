@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurare la creazione di report elettronici per eseguire il pull dei dati in Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare nella configurazione Creazione di report elettronici (ER) per definire il trasferimento di dati dall'istanza di Finance and Operations ai servizi Power BI. Come esempio, in questo argomento vengono utilizzate le transazioni Intrastat come dati aziendali che devono essere trasferiti. La visualizzazione della mappa di Power BI utilizza questi dati transazione Intrastat per presentare una visualizzazione per l'analisi delle attività di importazione o esportazione della società nel report di Power BI.
 
@@ -118,9 +117,9 @@ Fare clic sul pulsante **Impostazioni** per il nuovo record di destinazione. Qui
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Creare un report di Power BI mediante il nuovo set di dati
 1. Fare clic sul set di dati di Power BI **Dettagli di esportazione e importazione** creato. 
 2. Configurare la visualizzazione. Ad esempio, selezionare la visualizzazione **Mappa compilata** e configurarla nel seguente modo:
- -   Assegnare il campo del set di dati **CountryOrigin** al campo **Posizione** della visualizzazione della mappa.
- -   Assegnare il campo del set di dati **Importo** al campo **Saturazione colore** della visualizzazione della mappa.
- -   Aggiungere i campi del set di dati **Attività** e **Anno** alla raccolta di campi **Filtri** della visualizzazione della mappa.
+   -   Assegnare il campo del set di dati **CountryOrigin** al campo **Posizione** della visualizzazione della mappa.
+   -   Assegnare il campo del set di dati **Importo** al campo **Saturazione colore** della visualizzazione della mappa.
+   -   Aggiungere i campi del set di dati **Attività** e **Anno** alla raccolta di campi **Filtri** della visualizzazione della mappa.
 
 3. Salvare il report di Power BI come **Report dettagli di esportazione e importazione**. [![Report dettagli di esportazione e importazione](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Si noti che nella mappa sono visualizzati i paesi inclusi nel file di Excel (Austria e Svizzera in questo esempio). Questi paesi sono a colori per mostrare la proporzione di importi fatturati per ciascuno di essi. 
 4. Aggiornare l'elenco delle transazioni Intrastat. La transazione di esportazione che proviene dall'Italia viene aggiunta. [![Elenco di transazioni Intrastat](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

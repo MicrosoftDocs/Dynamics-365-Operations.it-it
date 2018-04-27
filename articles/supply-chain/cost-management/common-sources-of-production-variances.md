@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="common-sources-of-production-variances"></a>Origini comuni degli scostamenti di produzione
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo illustra le varie origini normali di ciascun tipo di scostamento produzione. 
 

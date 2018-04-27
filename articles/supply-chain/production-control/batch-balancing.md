@@ -19,19 +19,20 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84e00ef62a995d37878de6b2786dbc2ee2277070
-ms.openlocfilehash: 8a1ec5a3b19d1022232527f4960617bd985bc2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
 ms.contentlocale: it-it
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-balancing"></a>Bilanciamento del batch
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+In questo argomento viene illustrata la modalità con cui il processo di bilanciamento del batch è supportato. 
 
-In questo argomento viene illustrata la modalità con cui il processo di bilanciamento del batch è supportato.
+Guardare il [video sul bilanciamento dei batch in Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 Nel processo di bilanciamento del batch, la quantità di ingredienti da utilizzare in un batch di produzione viene calcolata dalla concentrazione di principi attivi nei batch dei prodotti selezionati.
 
@@ -179,7 +180,7 @@ Dopo che le quantità di ingredienti sono state calcolate, è possibile conferma
 
 -   Se un prodotto è attivato per i processi di gestione magazzino, la riga della formula viene rilasciata al magazzino in base ai principi per i processi di gestione magazzino. La riga della formula viene rilasciata in quantità corrispondenti alle quantità rilasciate e viene rilasciata per i batch specifici selezionati per i principi attivi.
 
->   [!NOTE]
+> [!NOTE]
 >   Le righe della formula possono essere rilasciate al magazzino solo come parte del processo di bilanciamento del batch. Anche se sono presenti altre opzioni per il rilascio di materiali per la produzione al magazzino, queste opzioni non possono essere utilizzate per le righe della formula.
 
 -   Se un prodotto non è attivato per i processi di gestione magazzino, una distinta di prelievo di produzione viene creata per il prodotto quando si conferma e si rilascia la formula.

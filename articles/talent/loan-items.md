@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e7b29b1cca0b61f295449045a2d4e38abacf05b5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba1b158908ac2328c29f7efe23756248be5be33c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-items-lent-to-workers"></a>Gestire gli articoli prestati ai lavoratori
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Gli articoli prestito sono record che consentono ai responsabili di tenere traccia degli articoli fisici che la società presta ai lavoratori. 
 
@@ -51,7 +50,7 @@ I responsabili possono visualizzare gli articoli prestati per i propri subordina
 
 Se un articolo viene non correttamente collocato o danneggiato, immettere una restituzione fittizia. Successivamente sarà possibile eliminare l'articolo oppure mantenerlo della panoramica e modificare la relativa descrizione per segnalare che non è disponibile.
 
- 
+
 <a name="see-also"></a>Vedere anche
 --------
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page relativa alla distribuzione locale
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile distribuire Microsoft Dynamics 365 for Finance and Operations (locale). Quando si sceglie un tipo di distribuzione locale, i requisiti di sistema, il dimensionamento hardware e il funzionamento differiscono da una distribuzione nel cloud. Questo argomento fornisce i collegamenti a contenuti che includono informazioni specifiche sulle distribuzioni locali.
 

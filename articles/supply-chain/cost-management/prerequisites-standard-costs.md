@@ -29,8 +29,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="prerequisites-for-standard-costs"></a>Prerequisiti per i costi standard
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono descritti i passaggi di base per l'utilizzo dei costi standard. I passaggi successivi dipendono dalle operazioni svolte dalla società. Ad esempio, i passaggi variano a seconda che si operi in un ambiente non di produzione, in un ambiente di produzione che non utilizza cicli di lavorazione o in un ambiente di produzione che utilizza cicli di lavorazione. 
 

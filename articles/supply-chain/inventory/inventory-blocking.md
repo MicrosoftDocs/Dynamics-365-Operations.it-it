@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>Blocco scorte
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
 

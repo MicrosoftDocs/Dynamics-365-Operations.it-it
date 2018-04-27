@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simulare le variazioni di costo mediante una versione di determinazione costi per i costi pianificati
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene illustrato come simulare gli effetti prodotti dalle variazioni di costo sui costi calcolati di un articolo prodotto con una versione di determinazione costi separata per costi pianificati.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>Impostare assegnazioni spese accessorie
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come impostare un'assegnazione delle spese accessorie. La procedura viene in genere eseguita dal coordinatore dei trasporti. Prima di utilizzare questa guida, è necessario eseguire la procedura "Impostare le spese accessorie per l'hub e le spese accessorie principali".
 

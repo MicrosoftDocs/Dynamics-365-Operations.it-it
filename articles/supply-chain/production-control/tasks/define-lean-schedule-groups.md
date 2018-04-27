@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-schedule-groups"></a>Definire gruppi di produzione snella
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I gruppi di programmazione snella sono definiti per raggruppare e distinguere i prodotti nella programmazione kanban. Il raggruppamento può essere eseguito come associazione generica per società o specifica per cella di lavoro. A ciascun gruppo è associato un codice colore per l'indicazione visiva nella pagina elenco di programmazione kanban. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

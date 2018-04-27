@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>Creare una sequenza di lettere di sollecito
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilizzare la guida attività per creare una sequenza delle lettere di sollecito. In questa attività viene utilizzata la società dimostrativa USMF.
 

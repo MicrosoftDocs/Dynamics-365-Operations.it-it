@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Eseguire il cross-docking da ordini di produzione a banchine di uscita
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come gestire il processo del materiale di cross-docking che viene dichiarato finito in una riga di produzione per una banchina di trasporto di uscita.
 
@@ -76,10 +76,10 @@ Nei **criteri di cross-docking** si definiscono i tipi di documento applicabili 
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Nome criteri di cross-docking: Ordine di trasferimento
 
--   Numero progressivo: 10
- -   Tipo di ordine di lavoro: Uscita di trasferimento
--   La domanda di cross-docking richiede un'ubicazione: Falso
--   Strategia di cross-docking: Data e ora
+- Numero progressivo: 10
+  -   Tipo di ordine di lavoro: Uscita di trasferimento
+- La domanda di cross-docking richiede un'ubicazione: Falso
+- Strategia di cross-docking: Data e ora
 
 ### <a name="sequence-number"></a>Numero progressivo
 

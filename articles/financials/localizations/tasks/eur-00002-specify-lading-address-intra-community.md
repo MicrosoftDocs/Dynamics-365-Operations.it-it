@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a>Specificare un indirizzo di carico per una transazione intracomunitaria
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come specificare un indirizzo di carico per una transazione per il commercio intracomunitario. Ad esempio, una società in Germania ordina articoli da un fornitore con un indirizzo commerciale tedesco. Tale fornitore ha un magazzino in Italia e spedisce gli articoli da lì. Questa consegna deve essere dichiarata in Intrastat. Lo stesso comportamento è valido per i resi dei clienti.
 Questa procedura si applica a tutti i paesi europei. L'attività è stata creata utilizzando la società di dati dimostrativi DEMF con un indirizzo principale in Germania. Prima di poter completare questa procedura, è necessario configurare la dichiarazione Intrastat. Questa procedura è destinata ai contabili. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.

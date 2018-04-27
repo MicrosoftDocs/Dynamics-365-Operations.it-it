@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="view-financial-reports"></a>Visualizza report finanziari
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics 365 for Finance and Operations. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
 

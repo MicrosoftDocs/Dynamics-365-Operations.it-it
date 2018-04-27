@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Rinunciare all'addebito di interessi o commissioni, ripristinarli o stornarli
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo illustra come rinunciare ad addebitare, ripristinare e stornare le spese per gli interessi e le commissioni.
 

@@ -20,44 +20,43 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 4b7ef962b777a31e1da238a8ec1be9a42ec5bb5f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2246024d7d70947690173f3d0768292abe43efd7
 ms.contentlocale: it-it
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
+# <a name="manage-retail-product-categories-and-products"></a>Gestire le categorie di prodotti al dettaglio e i prodotti
 
-# <a name="enhanced-product-and-category-management"></a>Gestione avanzata di categorie e prodotti
+[!INCLUDE [banner](./includes/banner.md)]
 
-[!include[banner](./includes/banner.md)]
+In questo argomento viene descritta una modalità avanzata per gestire le categorie di prodotti al dettaglio e i prodotti in Microsoft Dynamics 365 for Retail. I miglioramenti consentono ai responsabili del merchandising di visualizzare una struttura di proprietà dei prodotti condivisa tra la gerarchia di prodotti al dettaglio e i dettagli dei prodotti rilasciati.
 
-In questo argomento viene descritta una modalità avanzata per gestire le categorie di prodotti al dettaglio e i prodotti in Dynamics 365 for Retail. Questi miglioramenti consentono ai responsabili del merchandising di visualizzare una struttura comune di proprietà dei prodotti tra la gerarchia di prodotti al dettaglio e i dettagli dei prodotti rilasciati.
+Per ulteriori informazioni su come gestire le categorie di prodotti al dettaglio, nell'area di lavoro **Gestione categorie e prodotti** selezionare il riquadro **Gerarchia di prodotti al dettaglio**.
 
-Per ulteriori informazioni sulla gestione delle categorie di prodotti al dettaglio, passare a **Gerarchia di prodotti al dettaglio** dall'area di lavoro **Gestione categorie e prodotti** e osservare la struttura avanzata della pagina **Categoria di prodotti al dettaglio**.
-
-![Area di lavoro di gestione di categorie e prodotti](media/LaunchRetailProductHierarchy.png)
-
-Nelle versioni precedenti, le proprietà di prodotto erano suddivise in **proprietà di prodotto di base** e **proprietà di prodotto al dettaglio**, a seconda dell'ambito di applicabilità. Le **proprietà di prodotto al dettaglio** erano *globali* per ambito di applicabilità; ciò significa che per una **proprietà di prodotto al dettaglio** specificata, lo stesso valore viene condiviso da tutte le persone giuridiche. Le **proprietà di prodotto di base** sono *specifiche della persona giuridica*. In altre parole, per una determinata **proprietà di prodotto di base** il valore può differire tra le persone giuridiche, in base ai singoli requisiti aziendali.
+Notare la struttura avanzata della pagina **Gerarchia di prodotti al dettaglio** che viene visualizzata. Nelle versioni precedenti di Retail, le proprietà di prodotto erano suddivise in *proprietà di prodotto di base* e *proprietà di prodotto al dettaglio*, a seconda dell'ambito di applicabilità. Le proprietà di prodotto al dettaglio sono *globali* nell'ambito dell'applicabilità. In altre parole, per una determinata proprietà di prodotto al dettaglio, lo stesso valore viene condiviso tra tutte le persone giuridiche. Le proprietà di prodotto di base sono invece *specifiche della persona giuridica*. In altre parole, per una determinata proprietà di prodotto di base il valore può differire tra le persone giuridiche, in base ai singoli requisiti aziendali di ogni persona giuridica.
 
 Nella struttura avanzata di categorie di prodotti al dettaglio, le proprietà di prodotto sono separate in modo logico in base alla relativa applicabilità in un gruppo, per riflettere la struttura del modulo dei dettagli dei prodotti rilasciati.
 
-![Raggruppamento dei campi in base al loro ambito di applicabilità](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Raggruppamento dei campi in base all'ambito di applicabilità delle proprietà](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
-È possibile passare dalla gestione di proprietà specifiche della persona giuridica in tutte le persone giuridiche alla gestione delle stesse per una specifica persona giuridica e viceversa. Per effettuare tale operazione, selezionare **Visualizza/Modifica per tutte le persone giuridiche** o **Visualizza/Modifica per una specifica persona giuridica**.
+È possibile passare dalla gestione di proprietà specifiche della persona giuridica in tutte le persone giuridiche alla gestione delle stesse per una specifica persona giuridica e viceversa.
 
-![Alternare le modalità di visualizzazione tra una singola persona giuridica e tutte le persone giuridiche](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+Per visualizzare le proprietà in tutte le persone giuridiche, selezionare **Visualizza per tutte le persone giuridiche** (o **Modifica per tutte le persone giuridiche**).
 
-![Alternare le modalità di visualizzazione tra una singola persona giuridica e tutte le persone giuridiche](media/ToggleToEditForAllLegalEntities.PNG)  
+![Visualizza/Modifica per tutte le persone giuridiche](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
-Rispetto alle versioni precedenti, nella nuova struttura di categorie di prodotti al dettaglio un responsabile del merchandising può inoltre definire valori predefiniti per un insieme di proprietà di prodotto aggiuntivo a un livello di singola categoria. Al momento della creazione del prodotto, questi valori di proprietà del prodotto predefiniti vengono ereditati da un prodotto, in base alla relativa associazione a una singola categoria dalla gerarchia di prodotti al dettaglio. Queste proprietà di prodotto ereditate possono essere anche modificate per ciascun prodotto, allo scopo di soddisfare i requisiti aziendali.
+Per gestire le proprietà di una persona giuridica specifica, selezionare **Visualizza per una specifica persona giuridica** (o **Modifica per una persona giuridica specifica**).
 
-## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>Selezionare le proprietà per aggiornare i prodotti nel modulo Categoria di prodotti al dettaglio 
- 
-È possibile utilizzare questa nuova struttura avanzata per le proprietà di prodotto per selezionare quali proprietà di prodotto aggiornate devono essere distribuite ai prodotti associati. 
+![Visualizza/Modifica per una specifica persona giuridica](media/ToggleToEditForAllLegalEntities.PNG)
 
-![Nuova visualizzazione avanzata di Aggiorna prodotti](media/NewUpdateProductsEnhancedView.PNG) 
+Inoltre, nella struttura avanzata di categorie di prodotti al dettaglio un responsabile del merchandising può ora definire valori predefiniti per un insieme di proprietà di prodotto aggiuntivo a livello di singola categoria. Quando i prodotti vengono creati, ereditano i valori predefiniti per le proprietà i prodotto, in base all'associazione di tali proprietà con una categoria individuale nella gerarchia di prodotti al dettaglio. Queste proprietà di prodotto ereditate possono anche essere modificate per ciascun prodotto allo scopo di soddisfare i requisiti aziendali.
 
-I responsabili del merchandising possono modificare queste proprietà di prodotto ereditate per ciascun prodotto, allo scopo di soddisfare i requisiti aziendali.
+## <a name="selecting-properties-to-update-products-on-the-retail-product-hierarchy-page"></a>Selezione delle proprietà per aggiornare i prodotti nella pagina della categoria di prodotti al dettaglio
+
+È possibile utilizzare la nuova struttura avanzata per le proprietà di prodotto per selezionare quali proprietà di prodotto aggiornate devono essere distribuite ai prodotti associati. Nella pagina **Gerarchia di prodotti al dettaglio**, nel Riquadro azioni, selezionare **Categoria**, quindi selezionare **Aggiorna prodotti** per aprire la finestra di dialogo **Aggiorna prodotti**.
+
+![Finestra di dialogo Aggiorna prodotti](media/NewUpdateProductsEnhancedView.PNG)
 
 

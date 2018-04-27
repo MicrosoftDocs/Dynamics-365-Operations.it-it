@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Sintassi di filtro e query avanzata
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo descrive le opzioni di filtro e query disponibili quando si utilizza l'operatore "corrisponde a" nella finestra di dialogo Filtro/ordinamento avanzato.
 
@@ -68,7 +67,7 @@ Questo articolo descrive le opzioni di filtro e query disponibili quando si util
 <td><em>da valore</em>..<em>a valore</em> (due punti consecutivi)</td>
 <td>Compreso tra i due valori separati da due punti consecutivi.</td>
 <td>Digitare il valore iniziale, quindi due punti consecutivi e infine il valore finale.</td>
-<td>Digitando <strong>1..10</strong> si troveranno tutti i valori da 1 a 10. In un campo stringa, tuttavia, digitando <strong>A..C</strong> si troveranno tutti i valori che iniziano con &quot;A&quot; e &quot;B&quot; e i valori che corrispondono esattamente a &quot;C&quot;. Ad esempio, questa query non troverà &quot;Ca&quot;. Per trovare tutti i valori da &quot;A*&quot; a &quot;C*&quot;, digitare <strong>A..D</strong>.</td>
+<td>Digitando <strong>1..10</strong> si troveranno tutti i valori da 1 a 10. In un campo stringa, tuttavia, digitando <strong>A..C</strong> si troveranno tutti i valori che iniziano con &quot;A&quot; e &quot;B&quot; e i valori che corrispondono esattamente a &quot;C&quot;. Ad esempio, questa query non troverà &quot;Ca&quot;. Per trovare tutti i valori da &quot;A<em>&quot; a &quot;C</em>&quot;, digitare <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>valore</em> (due punti consecutivi)</td>
@@ -97,20 +96,20 @@ Questo articolo descrive le opzioni di filtro e query disponibili quando si util
 <tr class="even">
 <td><em>valore</em>* (asterisco)</td>
 <td>Inizia con il valore immesso</td>
-<td>Digitare il valore iniziale, quindi un asterisco (<strong>*</strong>).</td>
-<td>Digitando <strong>S*</strong> si troverà qualsiasi stringa che inizia con &quot;S&quot;, ad esempio &quot;Stoccolma&quot;, &quot;Sydney&quot; e &quot;San Francisco&quot;.</td>
+<td>Digitare il valore iniziale, quindi un asterisco (<strong><em></strong>).</td>
+<td>Digitando <strong>S</em></strong> si troverà qualsiasi stringa che inizia con &quot;S&quot;, ad esempio &quot;Stoccolma&quot;, &quot;Sydney&quot; e &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>valore</em> (asterisco)</td>
+<td><em><em>valore</em> (asterisco)</td>
 <td>Finisce con il valore immesso</td>
 <td>Digitare un asterisco, quindi il valore finale.</td>
-<td>Digitando <strong>*est</strong> si troverà qualsiasi stringa che finisce con &quot;est&quot;, ad esempio &quot;Nordest&quot; e &quot;Sudest&quot;.</td>
+<td>Digitando <strong></em>est</strong> si troverà qualsiasi stringa che finisce con &quot;est&quot;, ad esempio &quot;Nordest&quot; e &quot;Sudest&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>valore</em>* (asterisco)</td>
+<td><em><em>valore</em></em> (asterisco)</td>
 <td>Contiene il valore immesso</td>
 <td>Digitare un asterisco, quindi un valore e infine un altro asterisco.</td>
-<td>Digitando <strong>*de*</strong> si troverà qualsiasi stringa che contiene &quot;de&quot;, ad esempio &quot;Nordest&quot; e &quot;Sudest&quot;.</td>
+<td>Digitando <strong><em>de</em></strong> si troverà qualsiasi stringa che contiene &quot;de&quot;, ad esempio &quot;Nordest&quot; e &quot;Sudest&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (punto interrogativo)</td>
@@ -131,10 +130,10 @@ Questo articolo descrive le opzioni di filtro e query disponibili quando si util
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>M</td>
+<td>T</td>
 <td>Data odierna</td>
 <td>Digitare <strong>M</strong>.</td>
-<td><strong>M</strong> corrisponde alla data odierna.</td>
+<td><strong>T</strong> corrisponde alla data odierna.</td>
 </tr>
 <tr class="odd">
 <td>(nomeMetodo(parametri)) (metodo <strong>SysQueryRangeUtil</strong> tra parentesi)</td>

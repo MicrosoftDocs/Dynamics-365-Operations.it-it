@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> Effettuare il self-service per scaricare la stazione hardware
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per scaricare una stazione hardware predefinita. La società di dati dimostrativi utilizzata per questa procedura è USRT. È necessario creare un nuovo profilo di stazione hardware e una nuova stazione hardware prima di iniziare questa attività.
 

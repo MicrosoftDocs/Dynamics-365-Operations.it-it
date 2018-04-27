@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="revert-kanban-job-status"></a>Ripristina stato del processo kanban
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La procedura riguarda il ripristino di uno stato non di processo kanban non corretto. Questa opzione è utile nel caso dell'operatore che aggiorna il processo sbagliato o imposta lo stato non corretto per errore. In questa procedura, un processo kanban viene registrato come preparato per errore e lo stato viene ripristinato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata al supervisore o all'operatore che opera in una società di produzione snella.
 

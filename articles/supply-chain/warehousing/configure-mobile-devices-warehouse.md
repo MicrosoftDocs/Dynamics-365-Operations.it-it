@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f711ef739e8b885f2f09586f34775e826b619c82
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurare i dispositivi mobili per il lavoro magazzino
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo descrive come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 
@@ -204,13 +203,13 @@ Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile i
 <thead>
 <tr class="header">
 <th>Opzione</th>
-<th>Descrizione</th>
+<th>descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nessuno</td>
-<td>Per impostazione predefinita il lavoro non viene elaborato.</td>
+<td>Nessuna</td>
+<td>Per impostazione predefinita, il lavoro non viene elaborato.</td>
 </tr>
 <tr class="even">
 <td>Diretto dal sistema</td>
@@ -307,7 +306,7 @@ Nella seguente tabella sono descritte queste opzioni.
 </tr>
 <tr class="even">
 <td>Visualizza codice smaltimento batch</td>
-<td>Selezionare questa opzione per visualizzare i codici di smaltimento batch. Ad esempio, è possibile visualizzare i codici di smaltimento batch quando si riceve un batch reso. In tal modo i lavoratori possono valutare lo stato o la qualità di un batch e selezionare il codice appropriato. Le regole del codice di smaltimento batch determinano se il batch sarà disponibile per altri processi di magazzino. Se non si seleziona questa opzione, viene utilizzato uno dei seguenti codici di smaltimento batch:
+<td>Selezionare questa opzione per visualizzare i codici di smaltimento batch. Ad esempio, è possibile visualizzare i codici di smaltimento batch quando si riceve un batch reso. In tal modo i lavoratori possono valutare lo stato o la qualità di un batch e selezionare il codice appropriato. Le regole del codice di smaltimento batch determinano se il batch sarà disponibile per altri processi di magazzino. Se non si seleziona questa opzione, viene utilizzato uno dei seguenti codici di smaltimento batch:
 <ul>
 <li>Se si riceve un nuovo numero batch, viene utilizzato il codice di smaltimento batch predefinito specificato nel gruppo di modelli dell'articolo.</li>
 <li>Viene utilizzato il codice di smaltimento batch già assegnato al batch.</li>
@@ -368,7 +367,7 @@ Nella seguente tabella sono descritte queste opzioni.
 </tr>
 <tr class="odd">
 <td>Etichetta di raggruppamento sistema</td>
-<td>Immettere il testo per indicare al lavoratore gli elementi da sottoporre a scansione quando il lavoro di prelievo viene raggruppato da Microsoft Dynamics 365 for Finance and Operations. Ad esempio, se si utilizza il campo <strong>ID spedizione</strong> per raggruppare il lavoro di prelievo in base alla spedizione, è possibile immettere l'<strong>ID spedizione</strong> nel campo. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È inoltre necessario selezionare il campo in base a cui raggruppare tramite l'opzione <strong>Campo di raggruppamento sistema</strong>.</td>
+<td>Immettere il testo per indicare al lavoratore gli elementi da sottoporre a scansione quando il lavoro di prelievo viene raggruppato da Microsoft Dynamics 365 for Finance and Operations. Ad esempio, se si utilizza il campo <strong>ShipmentId</strong> per raggruppare il lavoro di prelievo in base alla spedizione, è possibile immettere l'<strong>ID spedizione</strong> nel campo. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È inoltre necessario selezionare il campo in base a cui raggruppare tramite l'opzione <strong>Campo di raggruppamento sistema</strong>.</td>
 </tr>
 <tr class="even">
 <td>Utilizza dati predefiniti</td>

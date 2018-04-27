@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Media ponderata con valore fisico e contrassegno
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Media ponderata è un modello inventariale basato sul principio della media ponderata, secondo il quale le uscite dal magazzino vengono valutate in base al valore medio degli articoli ricevuti in magazzino durante il periodo di chiusura inventario, più le eventuali scorte disponibili del periodo precedente.
 
@@ -74,16 +74,16 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 ![Compensazione diretta media ponderata senza l'opzione Includi valore fisico](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
--   Le operazioni di magazzino sono rappresentate da frecce verticali.
--   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
--   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
--   Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
--   Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
--   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
--   Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
--   Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
+- Le operazioni di magazzino sono rappresentate da frecce verticali.
+- Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
+- Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
+- Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
+- Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
+- Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
+- Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
+- Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Compensazione riepilogativa media ponderata senza l'opzione Includi valore fisico
 La media ponderata utilizza il principio di compensazione secondo il quale tutte le entrate comprese in un periodo di chiusura vengono riepilogate in una transazione denominata chiusura inventario media ponderata. Tutte le entrate del periodo verranno compensate a fronte dell'uscita della transazione di trasferimento scorte creata, mentre tutte le uscite del periodo verranno compensate a fronte dell'entrata della nuova transazione di trasferimento scorte. Se dopo la chiusura dell'inventario le scorte disponibili risultano positive, tali scorte e il valore di inventario vengono riepilogati nella nuova transazione di trasferimento scorte (entrata). Se dopo la chiusura dell'inventario le scorte disponibili risultano negative, tali scorte e il valore di inventario corrispondono alla somma delle singole uscite che non sono state completamente compensate. Nello scenario descritto di seguito sono state registrate un'uscita e alcune entrate aggiornate finanziariamente. 
@@ -108,18 +108,18 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 ![Compensazione riepilogativa media ponderata senza l'opzione Includi valore fisico](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
--   Le operazioni di magazzino sono rappresentate da frecce verticali.
--   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
--   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
--   Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
--   Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
--   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
--   Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
--   Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
--   Le frecce rosse indicano le transazioni in entrata compensate a fronte della transazione in uscita creata dal sistema.
--   La freccia verde rappresenta la transazione in entrata di contropartita generata dal sistema a fronte della quale viene compensata la transazione in uscita originariamente registrata.
+- Le operazioni di magazzino sono rappresentate da frecce verticali.
+- Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
+- Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
+- Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
+- Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
+- Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
+- Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
+- Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
+- Le frecce rosse indicano le transazioni in entrata compensate a fronte della transazione in uscita creata dal sistema.
+- La freccia verde rappresenta la transazione in entrata di contropartita generata dal sistema a fronte della quale viene compensata la transazione in uscita originariamente registrata.
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Compensazione diretta media ponderata con l'opzione Includi valore fisico
 Il funzionamento del parametro Includi valore fisico con il modello inventariale media ponderata è diverso rispetto alle versioni precedenti del prodotto. Selezionare la casella di controllo Includi valore fisico per un articolo nella pagina Gruppi di modelli di articoli. Verranno utilizzate le entrate aggiornate fisicamente durante il calcolo del prezzo di costo stimato o della media corrente. Le uscite verranno registrate in base a tale prezzo di costo stimato durante il periodo. Durante la chiusura dell'inventario, le entrate aggiornate finanziariamente verranno considerate solo nel calcolo della media ponderata. Quando si utilizza il modello inventariale media ponderata, si consiglia di eseguire una chiusura inventario ogni mese. In questo esempio di compensazione diretta media ponderata il gruppo di modelli di articoli è contrassegnato in modo da includere il valore fisico. 
@@ -137,16 +137,16 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 ![Compensazione diretta media ponderata con l'opzione Includi valore fisico](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
--   Le operazioni di magazzino sono rappresentate da frecce verticali.
--   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
--   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
--   Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
--   Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
--   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
--   Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
--   Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
+- Le operazioni di magazzino sono rappresentate da frecce verticali.
+- Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
+- Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
+- Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
+- Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
+- Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
+- Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
+- Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Compensazione riepilogativa media ponderata con l'opzione Includi valore fisico
 Il funzionamento del parametro Includi valore fisico con la media ponderata è diverso rispetto alle versioni precedenti del programma. Selezionare la casella di controllo Includi valore fisico per un articolo nella pagina Gruppi di modelli di articoli. Verranno utilizzate le entrate aggiornate fisicamente durante il calcolo del prezzo di costo stimato o della media corrente. Le uscite verranno registrate in base al prezzo di costo stimato durante il periodo. Durante la chiusura dell'inventario, le entrate aggiornate finanziariamente verranno considerate solo nel calcolo della media ponderata. Quando si utilizza il modello inventariale media ponderata, si consiglia di eseguire una chiusura inventario ogni mese. In questo esempio di compensazione riepilogativa media ponderata il modello inventariale è contrassegnato in modo da includere il valore fisico. 
@@ -170,18 +170,18 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 ![Compensazione riepilogativa media ponderata con l'opzione Includi valore fisico](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
--   Le operazioni di magazzino sono rappresentate da frecce verticali.
--   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
--   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
--   Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
--   Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
--   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio 1a. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
--   Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
--   Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
--   Le frecce rosse indicano le transazioni in entrata compensate a fronte della transazione in uscita creata dal sistema.
--   La freccia verde rappresenta la transazione in entrata di contropartita generata dal sistema a fronte della quale viene compensata la transazione in uscita originariamente registrata.
+- Le operazioni di magazzino sono rappresentate da frecce verticali.
+- Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
+- Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
+- Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
+- Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
+- Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio 1a. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
+- Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
+- Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
+- Le frecce rosse indicano le transazioni in entrata compensate a fronte della transazione in uscita creata dal sistema.
+- La freccia verde rappresenta la transazione in entrata di contropartita generata dal sistema a fronte della quale viene compensata la transazione in uscita originariamente registrata.
 
 ## <a name="weighted-average-with-marking"></a>Media ponderata con contrassegno
 Il contrassegno è un processo che consente di collegare, o contrassegnare, una transazione in uscita a una transazione in entrata. Questo processo può essere eseguito prima o dopo la registrazione di una transazione. È possibile utilizzare il contrassegno per essere certi del costo esatto dell'inventario quando viene registrata la transazione o viene eseguita la chiusura dell'inventario. 
@@ -218,16 +218,16 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 ![Media ponderata con contrassegno](./media/weightedaveragewithmarking.gif) 
 
 **Informazioni sul diagramma**
--   Le operazioni di magazzino sono rappresentate da frecce verticali.
--   Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
--   Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
--   Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
--   Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
--   Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
--   Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
--   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
--   Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
--   Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
+- Le operazioni di magazzino sono rappresentate da frecce verticali.
+- Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
+- Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantità@"Unitprice".
+- Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
+- Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
+- Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
+- Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
+- Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
+- Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
 
 
 

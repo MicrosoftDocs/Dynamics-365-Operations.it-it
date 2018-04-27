@@ -28,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="pos-operations-online-and-offline"></a>Operazioni POS, online e offline
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 La maggior parte delle azioni che l'utente esegue nel POS sono considerate operazioni. Le operazioni vengono configurate e gestite nel back office di Microsoft Dynamics 365 for Retail. Molte operazioni possono essere aggiunte ai pulsanti nella griglia dei pulsanti POS. Gli utenti possono quindi selezionare i pulsanti per richiamare le operazioni ed eseguirne la funzione. Altre operazioni fanno parte dell'applicazione POS principale e vengono richiamate mediante pulsanti sullo schermo o come parte di altri flussi di lavoro o processi.
 

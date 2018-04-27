@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-process-overview"></a>Panoramica del processo di produzione
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento fornisce una panoramica dei processi di produzione. Descrive le varie fasi degli ordini di produzione, degli ordini batch e dei kanban, dalla creazione dell'ordine alla chiusura del periodo finanziario. 
 

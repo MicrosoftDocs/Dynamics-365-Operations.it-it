@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8d9a27ecb99265674211a5ec768fe55040b8f5fe
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3571726fd3603371b8e1daec7d6ebe85d72d280d
 ms.contentlocale: it-it
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-posting-profiles"></a>Profili registrazione fornitori
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 I profili di registrazione fornitore controllano la registrazione delle transazioni fornitore nella contabilità generale.
 
@@ -132,7 +131,7 @@ Se si desidera assegnare lo stesso profilo registrazione a tutte le transazioni 
 </tr>
 </tbody>
 </table>
- 
+
 
 ### <a name="table-restrictions"></a>**Restrizioni tabella**
 

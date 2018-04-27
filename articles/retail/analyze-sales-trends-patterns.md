@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Eseguire analisi delle tendenze e dei criteri di vendita
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 È possibile studiare schemi e tendenze di vendita in tempo reale in Microsoft Dynamics 365 for Retail.
 

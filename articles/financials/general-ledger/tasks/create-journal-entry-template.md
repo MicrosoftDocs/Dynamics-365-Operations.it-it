@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>Creare una scrittura contabile utilizzando un modello
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I giustificativi giornale di registrazione registrati possono essere salvati come modelli di giustificativo e applicati a un nuovo giustificativo giornale di registrazione. Questa procedura utilizza la società dimostrativa USMF.
 

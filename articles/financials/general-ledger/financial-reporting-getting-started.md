@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>Creazione di report finanziari
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 for Finance and Operations e come utilizzare le funzionalità dei report finanziari. Include una descrizione dei report finanziari predefiniti forniti.
 

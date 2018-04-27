@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Supporto della bacheca di trasferimento kanban per i lettori di codici a barre
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La scheda di trasferimento kanban supporta l'input da uno scanner di codici a barre widget per selezionare, iniziare, completare e svuotare un processo kanban.
 
@@ -38,6 +37,7 @@ La scheda di trasferimento kanban supporta l'input da uno scanner di codici a ba
 ------------------
 
 Nella scheda dettaglio **Registrazione scanner** è possibile selezionare la modalità di registrazione, che controlla l'azione quando si digitalizza un numero di scheda kanban o si digita manualmente il numero nel campo del numero della scheda kanban.
+
 | Imposta modalità di registrazione | Descrizione                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Inizia                 | Registra un processo di trasferimento kanban come in corso.                                                 |

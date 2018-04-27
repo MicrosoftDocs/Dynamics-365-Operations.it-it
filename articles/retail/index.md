@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>Dynamics 365 for Retail
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Retail è una soluzione completa per la vendita al dettaglio che consente di svolgere attività commerciali unificate su tutti i canali. Comprende funzionalità per le vendite, la mobilità, l'intelligence e la produttività, consentendo a rivenditori e lavoratori di essere più efficienti e orientati all'ambiente cloud e mobile. Retail offre supporto completo alle operazioni in una vasta gamma di processi aziendali, quali il merchandising, l'inventario e le funzionalità di gestione di canale. Assicura inoltre esperienze coinvolgenti in tutti i punti di contatto con i clienti.
 

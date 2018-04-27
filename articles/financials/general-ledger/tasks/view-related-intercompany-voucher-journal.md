@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Visualizzare un giustificativo interaziendale correlato da un giornale di registrazione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La finestra relativa al giustificativo mostra il giustificativo dalla società per contropartita quando registra una transazione interaziendale dal giornale di registrazione generale.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>Home page di Gestione cassa e banche
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile utilizzare Gestione cassa e banche per gestire i conti bancari della persona giuridica e gli strumenti finanziari a essi associati. 
 

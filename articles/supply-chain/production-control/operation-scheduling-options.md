@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-scheduling-options"></a>Opzioni di programmazione delle operazioni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono descritte le opzioni per la programmazione delle operazioni. Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo.
 

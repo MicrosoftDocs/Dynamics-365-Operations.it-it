@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Pagamenti centralizzati per contabilità clienti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una sola persona giuridica che gestisca tutti i pagamenti. Di conseguenza, la stessa transazione non deve essere immessa in più persone giuridiche. Questo articolo fornisce esempi che indicano come gestire la registrazione dei pagamenti centralizzati in diversi scenari.
 

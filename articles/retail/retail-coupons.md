@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Creare buoni sconto per le vendite al dettaglio
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Panoramica dei buoni sconto
 
@@ -46,9 +45,12 @@ Per creare un buono sconto, verranno creati separatamente lo sconto e il buono s
 
 ### <a name="limited-use-coupons"></a>Buoni sconti a utilizzo limitato
 
-I buoni sconto possono essere configurati come a utilizzo limitato. Il limite di utilizzo può essere definito per cliente o canale, o come limite globale. Questo limite viene applicato quando il codice o il codice a barre viene immesso o letto nel POS o durante la registrazione dell'ordine cliente. Un buono sconto viene registrato come utilizzato quando viene completato un ordine con il buono sconto associato.
+I buoni sconto possono essere configurati come a utilizzo limitato. Il limite di utilizzo può essere definito per cliente o canale, o come limite globale. Questo limite viene applicato quando il codice o il codice a barre viene immesso o letto nel POS o durante la registrazione dell'ordine cliente.
 
 Il limite viene applicato per codice buono sconto su un buono sconto. Ad esempio, un singolo buono sconto che contiene due codici buono sconto può essere utilizzato due volte: una volta per ogni codice del buono sconto. Ogni codice su un buono sconto può essere impostato indipendentemente su Attivo.
+
+> [!NOTE]
+> Dopo che un numero di buono sconto ha raggiunto il limite di utilizzo, il sistema *non* modifica automaticamente lo stato del codice del buono sconto utilizzato a "Utilizzato". Il sistema, tuttavia, non consente l'ulteriore utilizzo di un numero di buono sconto che ha raggiunto il limite di utilizzo. Se lo stato di un numero di buono sconto viene impostato manualmente su un valore diverso da "Attivo", il codice di buono sconto non può essere utilizzato in nessun canale.
 
 ## <a name="managing-coupons"></a>Gestione dei buoni sconto
 
@@ -68,8 +70,8 @@ Prima di impostare un buono sconto, è necessario impostare il codice a barre de
     > [!NOTE]
     > Per entrambe le sequenze numeriche, è necessario impostare il campo **Ambito** su **Società**. Nella maggior parte dei casi, è necessario generare automaticamente entrambe i numeri della sequenza.
 
-5.  Nella pagina **Parametri condivisi di vendita al dettaglio**, nella scheda **Codici a barre**, selezionare il codice a barre creato in precedenza.
-6.  Nella pagina **Parametri di vendita al dettaglio**, nella scheda **Sequenze numeriche**, selezionare le sequenze numeriche create per il numero di buono sconto e ID codice buono sconto.
+5.  Nella pagina **Parametri di vendita al dettaglio**, nella scheda **Codici a barre**, selezionare il codice a barre creato in precedenza.
+6.  Nella pagina **Parametri condivisi di vendita al dettaglio**, nella scheda **Sequenze numeriche**, selezionare le sequenze numeriche create per il numero di buono sconto e ID codice buono sconto.
 7.  È ora possibile aprire la pagina **Buoni sconto** e creare nuovi buoni sconto.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Effetto degli aggiornamenti parziali sui buoni sconto

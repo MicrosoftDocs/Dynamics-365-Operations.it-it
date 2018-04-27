@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="retail-peripherals-overview"></a>Panoramica delle periferiche di vendita al dettaglio
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i concetti correlati alle periferiche di vendita al dettaglio. Sono descritti i vari modi che le periferiche possono essere collegate al POS e i componenti responsabili della gestione della connessione al POS.
 

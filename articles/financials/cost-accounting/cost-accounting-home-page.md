@@ -3,12 +3,12 @@ title: "Home page Contabilità industriale"
 description: "In questo articolo sono elencati gli argomenti della Guida e altre risorse disponibili per la Contabilità industriale."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Home page della contabilità industriale
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Mappa di apprendimento 
 
@@ -37,6 +37,7 @@ Nella mappa di apprendimento vengono visualizzati i concetti e le attività prin
 [![Mappa di apprendimento per la contabilità industriale](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Collegamenti rapidi
+
 |      |   |
 |------|---|
 |  [Configurare le entità di base (eLearning)](https://mbspartner.microsoft.com/Home) (richiede l'account CustomerSource)  |[Crea dimensioni](cost-elements.md)  |

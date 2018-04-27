@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Abbinamento fatture e sugli ordini fornitore interaziendali
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La persona giuridica acquirente coinvolta in una transazione di commercio interaziendale può essere impostata per l'utilizzo dell'abbinamento fatture contabilità fornitori. In questo caso, affinché vengano registrate le fatture relative agli ordini fornitore interaziendali, devono essere soddisfatti i requisiti di registrazione sia per il commercio interaziendale sia per l'abbinamento fatture contabilità fornitori.
 

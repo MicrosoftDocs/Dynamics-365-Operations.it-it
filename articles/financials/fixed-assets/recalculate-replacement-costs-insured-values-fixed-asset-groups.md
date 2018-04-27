@@ -27,8 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Ricalcolare i costi di sostituzione e i valori assicurati per i gruppi di cespiti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
 

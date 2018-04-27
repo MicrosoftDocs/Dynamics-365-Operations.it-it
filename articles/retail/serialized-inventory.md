@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>Miglioramenti POS per prodotti in serie
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Panoramica 
 In base alle impostazioni in Retail Headquarters, i prodotti possono essere classificati come in serie o non in serie. Quando i prodotti sono in serie, a ogni articolo può essere assegnato un numero univoco che consente di tenere traccia delle garanzie, identificare gli articoli e confermare la proprietà. Sebbene la capacità di fornire numeri di serie per prodotti in serie fosse già presente in Modern POS (POS) e POS cloud, sono stati aggiunti alcuni miglioramenti per consentire ai cassieri di risparmiare tempo ed essere più produttivi.  

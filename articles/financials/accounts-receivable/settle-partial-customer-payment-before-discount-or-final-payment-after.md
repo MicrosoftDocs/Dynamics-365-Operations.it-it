@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidare un pagamento cliente parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo illustra l'effetto della liquidazione dei pagamenti delle fatture per i clienti. Lo scenario si concentra sugli effetti della contabilità secondaria, non della contabilità generale.
 

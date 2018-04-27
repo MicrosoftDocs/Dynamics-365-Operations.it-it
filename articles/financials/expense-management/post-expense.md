@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Registrare una nota spese
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dopo l'approvazione e il trasferimento nel giornale di registrazione, la nota spese può essere registrata nella contabilità generale. Quando si registra una nota spese, vengono identificate le spese idonee per il recupero dell'imposta sul valore aggiunto (IVA). L'attività di verifica e recupero dei pagamenti IVA è assegnata al dipendente responsabile della verifica della nota spese.
 

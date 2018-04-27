@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Assegni postdatati
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 for Finance and Operations. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l'assegno non può più essere incassato fino alla data specificata.
 
@@ -76,14 +75,14 @@ Se l'assegno originale per un fornitore o da un cliente viene perso o danneggiat
 <td>È possibile annullare gli assegni postdatati registrati nelle seguenti situazioni: - L'assegno viene restituito dalla banca.
 - L'assegno è applicato a una fattura non corretta.
 - Un pagamento in contanti viene effettuato a fronte dell'assegno.
-</td>
-</tr>
-<tr class="even">
-<td>Bloccare il pagamento di un assegno postdatato</td>
-<td>È possibile bloccare il pagamento di un assegno postdatato emesso a un fornitore per diversi motivi quali, ad esempio, copertura insufficiente, modifica delle condizioni del contratto con il fornitore, fornitura di merci difettose da parte del fornitore o merce resa al fornitore. È possibile bloccare il pagamento solo degli assegni che non sono stati annullati.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>Bloccare il pagamento di un assegno postdatato</td>
+  <td>È possibile bloccare il pagamento di un assegno postdatato emesso a un fornitore per diversi motivi quali, ad esempio, copertura insufficiente, modifica delle condizioni del contratto con il fornitore, fornitura di merci difettose da parte del fornitore o merce resa al fornitore. È possibile bloccare il pagamento solo degli assegni che non sono stati annullati.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

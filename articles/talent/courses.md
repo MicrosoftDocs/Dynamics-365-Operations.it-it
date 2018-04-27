@@ -28,8 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Impostare i corsi di formazione
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Gli amministratori e gli amministratori delle Risorse umane possono utilizzare le funzionalità dei corsi per gestire le informazioni sulla formazione offerta ai lavoratori.
 
@@ -81,15 +80,15 @@ Vengono di seguito elencati i tre tipi di impostazione per i corsi. I tipi di in
 
 ## <a name="course-tasks"></a>Attività del corso
 Per ogni corso, è possibile effettuare le seguenti attività.
--   Registrare i partecipanti
--   Specificare una scadenza per la registrazione
--   Definire il numero minimo e massimo di partecipanti
--   Assegnare una sede del corso e una classe
--   Hotel consigliati per i partecipanti al corso
--   Creare una descrizione del corso che potrà essere pubblicizzata su Dipendente self-service
+- Registrare i partecipanti
+- Specificare una scadenza per la registrazione
+- Definire il numero minimo e massimo di partecipanti
+- Assegnare una sede del corso e una classe
+- Hotel consigliati per i partecipanti al corso
+- Creare una descrizione del corso che potrà essere pubblicizzata su Dipendente self-service
 
   >**Nota** È possibile eliminare un corso solo se nessuno vi si è registrato. 
-    
+
 ## <a name="course-statuses"></a>Stati del corso
 Nella seguente tabella sono elencati gli stati possibili del corso e le azioni che è possibile completare quando il corso ha uno stato specifico.
 

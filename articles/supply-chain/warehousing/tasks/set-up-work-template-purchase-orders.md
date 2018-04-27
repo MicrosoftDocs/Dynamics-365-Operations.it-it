@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Impostare un modello di lavoro per gli ordini fornitore
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La procedura si basa sull'impostazione di un modello di lavoro semplice da utilizzare quando si stoccano gli articoli ricevuti. I modelli di lavoro determinano il set di istruzioni presentate all'addetto del magazzino in un dispositivo mobile quando si spostano gli articoli dall'area di ricevimento. È possibile utilizzare questa procedura con i dati indicati nella società di dati dimostrativi USMF. Prima di iniziare questa guida, creare un ID pool di lavoro. In questo esempio, viene utilizzato un ID pool di lavoro denominato Inbound. Questa procedura è destinata al responsabile del magazzino.
 

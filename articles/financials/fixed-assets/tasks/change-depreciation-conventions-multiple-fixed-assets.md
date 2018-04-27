@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Cambiare le convenzioni di ammortamento per più cespiti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Tale attività consente di aggiornare la convenzione di ammortamento per un gruppo di cespiti specificato. Questa guida attività utilizza la società dimostrativa USMF.
 

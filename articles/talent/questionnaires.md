@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="questionnaires"></a>Questionari
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In questo argomento vengono fornite informazioni generali sui questionari e collegamenti a informazioni più dettagliate. Un questionario è un insieme di domande utilizzate per raccogliere informazioni per vari di scopi. È possibile progettare, creare, distribuire e completare i questionari e quindi analizzarne i risultati. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> Creare i colli prodotto per gli ordini fornitore
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare un collo di prodotti e utilizzarlo in un ordine fornitore. L'ordine fornitore verrà utilizzato per creare un ordine per un set predefinito di prodotti. Questa procedura utilizza la società di dati dimostrativi USRT.
 

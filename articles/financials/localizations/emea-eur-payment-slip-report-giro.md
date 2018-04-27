@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="payment-slip-report-for-europe"></a>Report della distinta di pagamento per l'Europa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Di seguito vengono descritti i report della distinta di pagamento per l'Europa.
 

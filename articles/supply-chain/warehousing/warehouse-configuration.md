@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="warehouse-configuration"></a>Configurazione del magazzino
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo illustra come configurare un magazzino. Sono riportate le informazioni su come abilitare un layout e i processi di magazzino.
 

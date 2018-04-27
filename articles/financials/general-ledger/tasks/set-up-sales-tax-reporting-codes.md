@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Imposta i codici reporting IVA
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questi codici reporting IVA fanno riferimento a un numero di campo in un report IVA. Vengono utilizzati nei layout di report specifici del paese e nel report Pagamento IVA per codice per stampare gli importi IVA per un periodo di liquidazione riepilogato per codice reporting. Dopo aver creato i codici reporting IVA, è possibile utilizzarli come riferimenti nelle Schede dettaglio Impostazione report della pagina Codice IVA. 
 

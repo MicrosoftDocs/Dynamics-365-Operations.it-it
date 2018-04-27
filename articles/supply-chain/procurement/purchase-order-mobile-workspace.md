@@ -27,9 +27,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="purchase-order-approval-mobile-workspace"></a>Area di lavoro Approvazione ordine fornitore
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Approvazione ordine fornitore**. Questa area di lavoro consente di visualizzare gli ordini fornitore ed effettuare le relative operazioni. Ad esempio, è possibile approvare o rifiutare un ordine fornitore.
  

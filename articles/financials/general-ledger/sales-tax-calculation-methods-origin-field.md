@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Metodi di calcolo IVA nel campo Origine
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Questo articolo illustra le opzioni nel campo Origine nella pagina Codici IVA e spiega come viene calcolata l'IVA in base all'opzione selezionata per un codice IVA.
 
@@ -53,11 +52,12 @@ L'ufficio tributario richiede il versamento di imposte speciali su un articolo. 
 -   IVA = 25%, con il metodo di calcolo Percentuale dell'importo lordo
 
 Se l'importo netto è 10,00, IMPOSTA 1 sarà 1,00 (10,00 x 10%) e IMPOSTA 2 sarà 2,00 (10,00 x 20%). Gli importi sarebbero i seguenti: Importo lordo: Importo netto + importo IMPOSTA 1 + importo IMPOSTA 2 (10,00 + 1,00 + 2,00) = 13,00 IVA = 13,00 x 25% = 3,25 Totale IMPOSTE e IVA: 1,00 + 2,00 + 3,25 = 6,25 Importo totale: 10,00 + 6,25 = 16,25
+
 | **Nota**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Un solo codice IVA con Origine = Percentuale dell'importo lordo può essere utilizzato per una transazione. Se più di un codice di questo tipo viene determinato per una transazione, verrà visualizzato l'errore che l'IVA non può essere calcolata. |
 
- 
+
 <a name="percentage-of-sales-tax"></a>Percentuale IVA
 -----------------------
 
@@ -70,6 +70,7 @@ Dati i codici IVA seguenti:
 -   IVA = 25%, con il metodo Percentuale dell'importo lordo
 
 Importo netto: 10,00 IMPOSTA 1: 10,00 x 10% = 1,00 IMPOSTA 2: 1,00 x 20% = 0,20 Importo lordo: 10,00 + 1,00 + 0,20 = 11.20 IVA: 11,20 x 25% = 2,80 Totale IMPOSTE e IVA: 1,00 + 0,20 + 2,80 = 4,00 Importo totale: 10,00 + 4,00 = 14,00
+
 | **Nota**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | I calcoli di imposta su imposta multilivello non sono possibili. Un'imposta non può essere calcolata in base a un'imposta che viene già calcolata in base a un'altra imposta. Più codici imposta su imposta a livello singolo possono essere calcolati per una transazione. |
@@ -79,6 +80,7 @@ Quando si seleziona Importo unitario nel campo Origine, l'IVA viene calcolata co
 ### <a name="example"></a>Esempio
 
 Il codice IVA è impostato come: 1,20 USD per unità = scatola In una riga di fattura di vendita 25 scatole di un articolo sono vendute L'IVA è calcolata come 25 x 1,20 = 30,00
+
 | **Nota**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se la transazione è stata immessa in un'unità diversa dall'unità specificata nel codice IVA, viene convertita automaticamente in base alle conversioni unità impostate nella pagina Conversioni unità. |

@@ -28,12 +28,12 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Pubblicare documenti e righe di giornale di registrazione da Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come immettere e pubblicare righe dei giornali di registrazione generale da Microsoft Excel. Sono riportate informazioni sui diversi modelli che è possibile utilizzare, a seconda del tipo di transazioni che si sta immettendo.
 
 Gli utenti possono immettere e pubblicare righe per i giornali di registrazione finanziari da Microsoft Excel. Dopo che un utente ha creato un giornale di registrazione, il pulsante **Apri righe in Excel** visualizza i modelli disponibili. I modelli sono progettati per supportare scenari specifici, tuttavia non tutte le combinazioni di tipo di conto sono supportate nel giornale di registrazione. La tabella seguente mostra i modelli disponibili e i tipi di conto supportati.
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | **Modello**             | **Tipi di conto supportati**                                                                                             | **Come accedere al modello**                                                          |

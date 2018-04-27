@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Creare e assegnare strutture di regole avanzate
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida di attività descrive come creare e assegnare una struttura di regole avanzate a una struttura dei conti. Questa guida utilizza la società dimostrativa USMF.
 

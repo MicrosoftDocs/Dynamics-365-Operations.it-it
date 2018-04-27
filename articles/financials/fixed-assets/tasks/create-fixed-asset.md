@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-asset"></a>Creare un cespite
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida attività utilizza la società dimostrativa USMF.  Consentirà di creare un nuovo cespite utilizzando la pagina elenco Cespite.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="total-cost-allocation-method"></a>Metodo di allocazione costi totali
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento fornisce le indicazioni per l'utilizzo dell'allocazione costi totali (TCA). L'allocazione costi totali (TCA) è un metodo di calcolo del costo tra l'articolo formula principale per un ordine batch e i co-prodotti definiti per la formula.
 

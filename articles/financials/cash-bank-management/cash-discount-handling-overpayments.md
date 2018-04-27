@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>Gestione degli sconti di cassa per le eccedenze di pagamento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce gli scenari che mostrano come un pagamento viene gestito quando il cliente ha uno sconto di cassa ma paga anche un importo superiore al dovuto. 
 

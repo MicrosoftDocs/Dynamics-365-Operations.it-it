@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Rilasciare un prodotto o una rappresentazione generale prodotto a persone giuridiche
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per rilasciare un prodotto o una rappresentazione generale prodotto in una o più persone giuridiche. La società di dati dimostrativi utilizzata per creare questa attività è USRT e l'attività è destinata ai responsabili merchandising e design prodotto.
 

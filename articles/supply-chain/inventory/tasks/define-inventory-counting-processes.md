@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-inventory-counting-processes"></a>Definire i processi di conteggio scorte
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrata la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio. Viene inoltre illustrato come abilitare i criteri di conteggio a livello di articolo e di magazzino. Queste attività verranno in genere eseguite da un supervisore del magazzino. È un prerequisito per avere alcuni prodotti rilasciati e magazzini esistenti. Se si utilizza una società di dati dimostrativi, è possibile eseguire questa procedura nella società USMF con un articolo stoccato.
 

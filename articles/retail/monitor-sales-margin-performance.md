@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Monitorare le prestazioni di vendite e margini
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 È possibile monitorare le prestazioni di vendite e margine in tempo reale tramite Microsoft Dynamics 365 for Retail.
 

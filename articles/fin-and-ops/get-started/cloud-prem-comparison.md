@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Confronto tra funzionalità cloud e locali
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento fornisce informazioni sulla disponibilità di ogni funzionalità nei seguenti prodotti:
 
@@ -51,7 +51,7 @@ Nelle tabelle seguenti sono elencate le aree del prodotto. Il supporto cloud e l
 | | Estensione basata sulla configurazione| Sì | No |
 | | Esportazione di dati nel proprio magazzino dati| Sì | Sì |
 | | Attivazione dell'esportazione di aggiornamenti incrementali in un'entità di dati | Sì | No |
-| | Integrazioni ricorrenti                 |Sì | No|
+| | Integrazioni di dati                 |Sì | Sì|
 | Gestione documenti| | Sì| Sì |
 | Gestione finanziaria|  | Sì | Sì |
 | ?| | Sì | No |

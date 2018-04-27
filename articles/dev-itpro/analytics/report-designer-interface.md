@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>Interfaccia Progettazione report
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene illustrato come spostarsi all'interno di Progettazione report e come utilizzare le varie opzioni per soddisfare specifiche esigenze. 
 

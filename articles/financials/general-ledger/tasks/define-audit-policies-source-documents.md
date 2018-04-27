@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Definire i criteri di controllo per i documenti di origine
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come impostare ed eseguire le regole dei criteri di controllo di esecuzione. Nell'esempio vengono utilizzate le note spese con il tipo di spesa di hotel. Questa procedura utilizza la società dimostrativa USMF. Il ruolo del revisore contiene le autorizzazioni corrette per eseguire queste attività.
 

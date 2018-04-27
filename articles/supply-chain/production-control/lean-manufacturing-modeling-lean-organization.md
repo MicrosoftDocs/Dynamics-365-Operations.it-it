@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="modeling-a-lean-organization"></a>Modellizzazione di un'organizzazione snella
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'articolo fornisce informazioni sui concetti chiave della modellazione di un'organizzazione snella. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un'organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell'impegno, l'acquirente riceve prezzi e sconti speciali. 
 

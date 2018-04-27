@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-a-fixed-asset-group"></a>Cambiare un gruppo di cespiti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I cespiti devono essere assegnati al gruppo di cespiti corretto. Il gruppo di cespiti viene utilizzato quando si completano le attività seguenti:
 

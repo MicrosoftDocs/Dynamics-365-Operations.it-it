@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Programmazione visiva per lean manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sulla bacheca della programmazione kanban, che la pianificazione di produzione può utilizzare per controllare e ottimizzare il piano di produzione per i processi kanban.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Rilascio delle righe di formula e DBA nel magazzino
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto il processo per il rilascio di materie prime per righe distinta base (DBA) e righe formula nel magazzino. Quando si rilascia una DBA o una riga formula nel magazzino, il sistema determina innanzitutto se il materiale è già disponibile nell'ubicazione di input di produzione nello shop floor in cui il materiale verrà consumato per il processo di produzione.
 
@@ -44,7 +44,7 @@ Il metodo utilizzato per rilasciare DBA e righe formula è controllato dal param
 - **Rilascio di DBA e righe formula mediante un processo batch o come interazione manuale** - In questo metodo, DBA e righe formula possono essere rilasciate solo tramite il processo batch **Rilascio automatico di righe di DBA e di formula** o come interazione manuale. Per rilasciare manualmente DBA e righe formula, nella pagina elenco dell'ordine di produzione o nella pagina dettagli dell'ordine di produzione, nel riquadro azioni **Rilascia in magazzino**.
 
 Per una rapida dimostrazione di come rilasciare BOM e righe formula in produzione utilizzando un processo batch, guardare questo breve video di YouTube:
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Rilascio di DBA e righe formula utilizzando un processo batch
 
@@ -86,7 +86,7 @@ Nella figura seguente viene illustrato un ordine di produzione con due operazion
 ![Esempio di rilascio di materiali per numero di operazione](media/two-operations.PNG)
 
 Per una rapida dimostrazione di come distribuire materiale in proporzione alla quantità di prodotti finiti, guardare questo breve video di YouTube:
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Rilasciare materiale proporzionalmente alla quantità di prodotti finiti
 

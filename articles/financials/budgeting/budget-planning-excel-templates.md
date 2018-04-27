@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Modelli di pianificazione del budget per Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come creare modelli di Microsoft Excel che possono essere utilizzati con i piani di budget.
 
@@ -42,11 +41,11 @@ I documenti del piano di budget possono essere visualizzati e modificati utilizz
 1. Aprire l'**elenco dei piani di budget** (**Impostazione budget** &gt; **Piani di budget**). 
 2. Fare clic su **Nuovo** per creare un nuovo documento di piano di budget. 
 
-  [![Elenco piani di budget](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Elenco piani di budget](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Usare l'opzione **Aggiungi** riga per aggiungere righe. Fare clic su **Layout** visualizzare la configurazione di layout del documento di piano di budget. 
 
-  [![Aggiunta piani di budget](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Aggiunta piani di budget](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 È possibile rivedere la configurazione del layout e modificarla in base alle necessità. 
 1. Passare a **Modello** &gt; **Genera** per creare un file di Excel per il layout. 

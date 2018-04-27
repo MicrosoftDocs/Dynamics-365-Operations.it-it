@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>Creare e gestire gli attributi
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Questo articolo descrive gli attributi in Microsoft Dynamics 365 for Retail. Gli attributi consentono di descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente.
 
@@ -58,7 +57,7 @@ Gli attributi consentono di descrivere un prodotto e le relative caratteristiche
 
 ## <a name="attribute-type"></a>Tipo di attributo
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 Gli attributi si basano sui tipi di attributo. I tipi di attributo identificano il tipo di dati che può essere immesso per un attributo specifico. Attualmente, Microsoft Dynamics 365 for Retail supporta i seguenti tipi di attributo:
 
 -   **Valuta** - Questo tipo di attributo supporta i valori di valuta. Può essere associato (ovvero può supportare un intervallo di valori) oppure può essere lasciato aperto.

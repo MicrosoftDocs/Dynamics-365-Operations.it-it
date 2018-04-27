@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Scegliere tra Modern POS e Cloud POS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In questo argomento vengono fornite agli implementatori contesto, suggerimenti e indicazioni supplementari per i fattori da considerare durante la distribuzione di Microsoft Dynamics 365 for Retail. Esaminando e seguendo queste indicazioni durante il processo di distribuzione, gli implementatori possono evitare eventuali problemi che potrebbero influire sulla soddisfazione dell'utente o sulle prestazioni.
 
@@ -92,8 +92,8 @@ Considerare le seguenti informazioni quando si pianifica l'implementazione di PO
 
     A meno che la connettività per uno specifico dispositivo non sia molto credibile e resiliente o a meno che una certa quantità di inattività non sia accettabile per il rivenditore, è consigliabile utilizzare una delle opzioni seguenti:
 
-    - Utilizzare MPOS in Windows e attivare la modalità offline.
-    - Distribuire una RSSU locale.
+  - Utilizzare MPOS in Windows e attivare la modalità offline.
+  - Distribuire una RSSU locale.
 
     Le due opzioni non si escludono a vicenda. Per la topologia più attendibile, i rivenditori possono distribuire una RSSU locale per ridurre la dipendenza dalla connettività Internet o la disponibilità di Azure e possono inoltre distribuire registratori POS dove è attivata la modalità offline se è presente un problema con il server locale o la rete.
 

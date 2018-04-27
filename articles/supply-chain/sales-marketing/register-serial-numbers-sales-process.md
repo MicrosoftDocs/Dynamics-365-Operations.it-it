@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Registrare i numeri di serie nel processo di vendita
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 In questo argomento viene descritto come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
 

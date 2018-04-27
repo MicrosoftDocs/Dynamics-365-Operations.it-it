@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="tax-directives-for-europe"></a>Direttive fiscali per l'Europa
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La direttiva UE fornisce i regolamenti per tutti gli stati membri relativi alle regole di fatturazione e alle informazioni da includere durante la creazione delle fatture. La direttiva UE elenca le informazioni richieste dai fornitori per i propri clienti nell'Unione Europea. Ad esempio, una fattura può includere un riferimento che descrive i motivi legali per una categoria a zero IVA o un'esenzione. Se una fattura modifica una fattura emessa in precedenza, ad esempio una nota di credito, un riferimento univoco deve essere indicato per la fattura originale.
 

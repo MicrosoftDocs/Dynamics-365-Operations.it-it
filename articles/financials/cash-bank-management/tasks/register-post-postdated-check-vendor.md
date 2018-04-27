@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Registrare un assegno postdatato per un fornitore
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilizzare il giustificativo giornale di registrazione per registrare i dettagli di un assegno postdatato prima di emettere l'assegno a favore di un fornitore. È inoltre possibile registrare l'assegno postdatato e generare transazioni finanziarie. Prima di registrare un assegno postdatato ricevuto da un fornitore, completare le seguenti attività: 
 

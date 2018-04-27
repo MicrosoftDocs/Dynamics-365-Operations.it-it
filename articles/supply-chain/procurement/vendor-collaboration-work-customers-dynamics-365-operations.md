@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-with-customers"></a>Collaborazione fornitore con i clienti
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare la collaborazione fornitore per gestire i clienti in Microsoft Dynamics 365 for Finance and Operations. I fornitori possono eseguire una serie di processi aziendali dalle seguenti aree di lavoro:
 

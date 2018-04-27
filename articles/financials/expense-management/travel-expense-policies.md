@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-policies"></a>Criteri di spesa
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 È possibile definire criteri che devono essere seguiti dai lavoratori per l'inserimento e l'invio di note spese e richieste di viaggio.         
 L'implementazione di criteri di spesa consente di gestire le spese in modo efficiente.         
@@ -39,14 +39,14 @@ si definiscono i criteri.
 È possibile definire tre tipi di criteri:         
         
 - Avviso: consente al lavoratore di inviare una nota spese o una richiesta di viaggio ma la spesa verrà contrassegnata per tutti gli approvatori e        
-per la dichiarazione successiva.        
+  per la dichiarazione successiva.        
 
 - Errore: richiede al lavoratore di rivedere la spesa per conformarsi ai criteri prima di inviare la nota spese o la richiesta di viaggio.       
  
- - Motivazione: richiede al lavoratore o a un responsabile di immettere una motivazione per superare l'importo previsto dai criteri prima di inviare la nota spese o la richiesta di viaggio.        
+  - Motivazione: richiede al lavoratore o a un responsabile di immettere una motivazione per superare l'importo previsto dai criteri prima di inviare la nota spese o la richiesta di viaggio.        
  
- È inoltre possibile impostare un intervallo di date per il quale sono validi i criteri di spesa. Ad esempio, le tariffe aeree per i voli tra la Danimarca      
- e New York possono essere costose durante il periodo di picco della stagione turistica. È possibile definire una regola per le spese aeree in modo da specificare un limite      
- di DKK 5.000 per il costo dei voli diretti a New York e indicare che tale regola deve essere applicata nel periodo compreso tra il 15 marzo e      
- il 15 settembre.
+  È inoltre possibile impostare un intervallo di date per il quale sono validi i criteri di spesa. Ad esempio, le tariffe aeree per i voli tra la Danimarca      
+  e New York possono essere costose durante il periodo di picco della stagione turistica. È possibile definire una regola per le spese aeree in modo da specificare un limite      
+  di DKK 5.000 per il costo dei voli diretti a New York e indicare che tale regola deve essere applicata nel periodo compreso tra il 15 marzo e      
+  il 15 settembre.
 

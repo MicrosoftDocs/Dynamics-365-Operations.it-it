@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accruals-overview"></a>Panoramica dei ratei
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo descrive i ratei e fornisce informazioni su come impostarli e su come creare le transazioni.
 

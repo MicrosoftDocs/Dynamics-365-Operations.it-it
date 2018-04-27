@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Metodi e convenzioni di ammortamento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce una panoramica delle convenzioni e dei metodi di ammortamento che sono supportati da Microsoft Dynamics 365 for Finance and Operations.
 
@@ -62,7 +61,7 @@ Ad esempio, se si utilizza la convenzione di ammortamento semestrale su tre anni
 -   Saldo decrescente 150%
 -   Saldo decrescente 125%
 
- 
+
 
 
 

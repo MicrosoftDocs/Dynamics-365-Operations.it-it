@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-users-in-bulk"></a>Importare utenti in blocco
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura può essere utilizzata dagli amministratori di sistema per importare un numero elevato di utenti da Active Directory Azure.
 

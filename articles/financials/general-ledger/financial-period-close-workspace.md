@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-period-close-workspace"></a>Area di lavoro chiusura periodo finanziario
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce una panoramica dell'area di lavoro Chiusura periodo finanziario e della configurazione collegata.
 

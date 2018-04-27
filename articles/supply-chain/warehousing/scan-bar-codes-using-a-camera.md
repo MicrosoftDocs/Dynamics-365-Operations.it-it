@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Eseguire la scansione dei codici a barre utilizzando una fotocamera in Dynamics 365 for Finance and Operations - Magazzino
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come installare Dynamics 365 for Finance and Operations - Magazzino per eseguire la scansione dei codici a barre utilizzando una fotocamera su un dispositivo mobile. 
 

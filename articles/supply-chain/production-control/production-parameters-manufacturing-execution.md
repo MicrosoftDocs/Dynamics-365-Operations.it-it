@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 468227e40165fa37e9ce80d5f52ded8e9094e5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Parametri di produzione di Esecuzione produzione
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento fornisce informazioni sulla configurazione dei parametri di produzione in Esecuzione produzione.
 
@@ -69,17 +69,17 @@ Per ciascuna fase, il campo **Consumo DBA automatico** consente di selezionare u
 
 - **Principio di registrazione del consumo di materiali**: questa opzione viene utilizzata insieme a un'altra opzione definita nella DBA del modulo **Produzione**. Fare clic su **Controllo produzione** &gt; **Comune** &gt; **Ordini di produzione** &gt; **Tutti gli ordini di produzione**. Nella pagina **Tutti gli ordini di produzione**, selezionare un ordine di produzione dall'elenco, quindi fare clic su **DBA** nel riquadro azioni. Nella pagina **DBA** della scheda **Impostazione**, nel campo **Principio di registrazione del consumo di materiali**, selezionare una delle seguenti opzioni:
 
-    - **Inizio**
-    - **Fine**
-    - **Manuale**
-    - Vuoto (nessuna opzione selezionata).
-    - **Disponibile in ubicazione**
+  - **Inizio**
+  - **Fine**
+  - **Manuale**
+  - Vuoto (nessuna opzione selezionata).
+  - **Disponibile in ubicazione**
 
     In Esecuzione produzione, se l'opzione **Principio di registrazione del consumo di materiali** è selezionata nel campo **Consumo DBA automatico** della scheda **Inizio**, tutti i materiali che sono impostati su **Inizio** nella DBA vengono detratti dalle scorte quando l'operazione viene avviata. L'opzione **Disponibile in ubicazione** viene utilizzata per i prodotti abilitati per i processi avanzati di magazzino. Se si seleziona il principio di registrazione del consumo di materiali, il materiale verrà registrato come consumato quando il lavoro di magazzino per il prelievo di materie viene completato. Il materiale viene registrato come consumato anche quando una riga DBA che utilizza il principio di registrazione del consumo di materiali viene rilasciata al magazzino e il materiale è disponibile nell'ubicazione entrata produzione.
-    
+
     > [!NOTE]
     > Se il campo **Principio di registrazione del consumo di materiali** è impostato nella scheda **Inizio** in Esecuzione produzione, è necessario selezionare lo stesso principio nella scheda **Operazioni** o **Dichiarazione di finito**. Questo requisito consente di per garantire che i materiali vengano detratti dalle scorte sulle DBA che utilizzano **Fine** come principio di registrazione del consumo di materiali sull'ordine di produzione. Se lo stesso principio di registrazione del consumo di materiali non è selezionato nella scheda **Operazioni** o **Dichiarazione di finito**, i materiali potrebbero essere detratti dalle scorte due volte.
- 
+
 - **Sempre**: se si seleziona questa opzione in una determinata fase, i materiali verranno sempre dedotti dalle scorte in quella fase. Ad esempio, i materiali per la produzione vengono dedotti quando viene avviato l'ordine di produzione. Questa impostazione richiede la selezione di **Mai** nelle schede **Operazioni** e **Dichiarazione di finito**. Questo requisito consente di evitare che i materiali vengano detratti due volte dalle scorte.
 - **Mai**: se si seleziona questa opzione per una fase, nessun consumo DBA viene eseguito in tale fase. Se, ad esempio, **Mai** è selezionato per tutte e tre le schede (**Inizio**, **Operazioni** e **Dichiarazione di finito**), i materiali devono essere detratti manualmente dalle scorte.
 
@@ -146,11 +146,13 @@ In base alle selezioni descritte in precedenza in questa sezione, è possibile r
 
 Le impostazioni seguenti possono essere utilizzate se i materiali devono essere sempre detratti dalle scorte manualmente. In questo caso, i giornali di registrazione distinte di prelievo non vengono registrati.
 
-| Scheda                | Campo                          | Impostazione    |
-|--------------------|--------------------------------|------------|
-| Avvio              | Aggiorna attivazione           | **Stato** |
-| Avvio              | Consumo DBA automatico      | **Mai**  |
-| Operations         | Consumo DBA automatico      | **Mai**  |
-| Dichiarazione di finito | Consumo DBA automatico      | **Mai**  |
-| Dichiarazione di finito | Aggiorna report dichiarazione di finito in linea | **Stato** |
+
+|        Scheda         |             Campo              |         Impostazione         |
+|--------------------|--------------------------------|-------------------------|
+|       Avvio        |      Aggiorna attivazione      | <strong>Stato</strong> |
+|       Avvio        |   Consumo DBA automatico    | <strong>Mai</strong>  |
+|     Operations     |   Consumo DBA automatico    | <strong>Mai</strong>  |
+| Dichiarazione di finito |   Consumo DBA automatico    | <strong>Mai</strong>  |
+| Dichiarazione di finito | Aggiorna report dichiarazione di finito in linea | <strong>Stato</strong> |
+
 

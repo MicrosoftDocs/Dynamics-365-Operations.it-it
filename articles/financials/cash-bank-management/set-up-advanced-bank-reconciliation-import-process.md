@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Impostare il processo di importazione di riconciliazione bancaria avanzata
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La funzionalità di riconciliazione estratti conto avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations. In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari. 
 
@@ -57,7 +56,7 @@ Di seguito sono inclusi esempi di definizioni avanzate di layout tecnici dei fil
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Impostare l'importazione di rendiconti bancari ISO20022
 Innanzitutto, è necessario definire il gruppo di elaborazione formati rendiconti bancari per i rendiconti bancari ISO20022 utilizzando il framework di entità di dati.

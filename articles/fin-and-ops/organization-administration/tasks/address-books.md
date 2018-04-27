@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>Configurare le rubriche
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilizzare questa procedura e le decisioni prese nell'argomento relativo alla pianificazione della configurazione della rubrica globale e delle rubriche aggiuntive per impostare le rubriche aggiuntive per l'organizzazione.
 

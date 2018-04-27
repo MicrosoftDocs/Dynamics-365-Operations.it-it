@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="invoice-issue-deadline"></a>Scadenza emissione fattura
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene illustrato come impostare i parametri per calcolare le date di scadenza per l'emissione di fatture cliente e fatture fornitore nell'Unione Europea (UE).
 

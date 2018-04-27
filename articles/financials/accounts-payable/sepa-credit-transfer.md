@@ -19,17 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>Panoramica dei bonifici SEPA
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico.
 

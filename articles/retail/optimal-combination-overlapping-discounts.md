@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinare la combinazione ottimale di sconti sovrapposti
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Quando gli sconti si sovrappongono, è necessario determinare la combinazione di sconti sovrapposti che produrranno il totale transazione più basso o lo sconto totale più alto. Quando l'importo dello sconto dipende dal prezzo dei prodotti acquistati, come ad esempio nel comune sconto al dettaglio "Compri 1, prendi 1 con lo sconto dell'X%", questo processo diventa una questione di ottimizzazione combinatoria.
 

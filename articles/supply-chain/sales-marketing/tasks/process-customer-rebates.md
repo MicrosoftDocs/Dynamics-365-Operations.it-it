@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generare ed elaborare sconti cliente
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come elaborare gli sconti dalla creazione della richiesta al punto di passarli come ratei alla Contabilità clienti. Utilizza un esempio specifico per spiegare come le diverse condizioni nelle righe dello sconto influiscono sugli importi finali che verranno accreditati al cliente. È necessario utilizzare la società di dati demo USMF e svolgere le seguenti attività prima di iniziare la guida: (1) andare alla pagina dei parametri Contabilità clienti ed espandere la scheda Prezzi, quindi la scheda Dettagli prezzo e controllare che l'opzione Abilita dettagli prezzo sia impostata su Sì. (2) Andate alla pagina Accordi sugli sconti e selezionare l'accordo sugli sconti del cliente: USMF-000001. Se il campo Stato di approvazione flusso di lavoro non è impostato su Approvato, è necessario fare clic su Convalida nel riquadro Azione per approvarlo.
 

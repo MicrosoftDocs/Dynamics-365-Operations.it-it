@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>Gestione degli addetti magazzino
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene descritto come utilizzare Microsoft Dynamics 365 for Finance and Operations per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
 

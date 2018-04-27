@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Prenotare quantità di scorte
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento vengono descritte le diverse opzioni disponibili per prenotare le scorte.
 
@@ -50,6 +49,7 @@ I criteri di prenotazione scorte sono impostati nella pagina **Gruppi di modelli
 ### <a name="policies-on-the-item-model-groups-page"></a>Criteri nella pagina dei gruppi di modelli di articoli
 
 La sezione **Criteri di inventario** contiene i criteri di prenotazione seguenti.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Criterio di prenotazione**  | **Descrizione**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ La sezione **Criteri di inventario** contiene i criteri di prenotazione seguenti
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>Esempio di Controllo in base a data FIFO e Indietro da data di spedizione
 
 In questo esempio, le scorte disponibili per il numero articolo A esistono per tre numeri batch diversi.
+
 | Numero articolo | Numero batch | Quantità | Data             |
 |-------------|--------------|----------|------------------|
 | A           | 1000         | 5        | 2 febbraio 2016 |

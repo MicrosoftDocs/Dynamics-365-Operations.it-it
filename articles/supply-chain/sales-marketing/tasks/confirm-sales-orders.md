@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="confirm-sales-orders"></a>Confermare ordini cliente
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura descrive come confermare gli ordini cliente. Verrà illustrato come confermare un singolo ordine e come confermare più ordini cliente contemporaneamente. Queste attività verranno in genere eseguite dal gestore degli ordini cliente. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. Prima di iniziare, assicurarsi che siano presenti più ordini cliente aperti per lo stesso cliente. Se si utilizza USMF, è possibile utilizzare il cliente US-027.
 

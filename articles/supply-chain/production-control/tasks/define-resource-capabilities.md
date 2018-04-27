@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-resource-capabilities"></a>Definire le capacità delle risorse
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Capacità risorsa descrive le operazioni che possono effettuare le risorse operative. Durante la programmazione, i requisiti di ogni processo e operazione vengono associati alle capacità delle risorse disponibili. Questa guida attività consentirà di creare una capacità risorsa e di assegnarla a una risorsa. La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 

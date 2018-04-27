@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Configurare un passaggio di approvazione in un flusso di lavoro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come configurare le proprietà per un passaggio del processo di approvazione.
 
@@ -145,9 +144,9 @@ Per specificare gli utenti a cui assegnare il passaggio del processo di approvaz
     Se l'utente non esegue un'azione sul documento nel tempo prestabilito, il documento scadrà. Un documento scaduto viene riassegnato in base alle opzioni selezionate nell'area **Riassegnazione** della pagina.
 4.  Se il passaggio di approvazione è stato assegnato a più utenti o a un gruppo di utenti, fare clic sulla scheda **Criteri completamento**, quindi selezionare una delle opzioni seguenti:
     -   **Approvatore singolo**: l'azione applicata al documento viene determinata dalla persona che risponde per prima. Si supponga ad esempio che Giorgio abbia inviato una nota spese per un importo pari a USD 15.000. La nota spese è attualmente assegnata a Luisa, Raffaella e Davide. Se Luisa risponde per prima, al documento verrà applicata l'azione eseguita da tale utente. Se Luisa rifiuta il documento, la nota spese rifiutata viene reinviata a Giorgio. Dopo che Luisa avrà approvato il documento, verrà inviato a Elena per l'approvazione. 
-    
+
     ![Flusso di lavoro con processo di approvazione](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **Maggioranza degli approvatori**: l'azione applicata al documento viene determinata dalla maggioranza degli approvatori che rispondono. Si supponga ad esempio che Giorgio abbia inviato una nota spese per un importo pari a USD 15.000. La nota spese è attualmente assegnata a Luisa, Raffaella e Davide. Se Luisa e Raffaella sono i primi due approvatori a rispondere, al documento verrà applicata l'azione eseguita da tali utenti.
         -   Se Luisa approva il documento e Raffaella lo rifiuta, il documento rifiutato verrà reinviato a Giorgio.
         -   Se Luisa e Raffaella approvano il documento, quest'ultimo verrà inviato a Elena per l'approvazione.

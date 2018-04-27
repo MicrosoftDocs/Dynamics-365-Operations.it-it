@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>Creare una programmazione consegna
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura dimostra come creare una programmazione consegna per un ordine cliente. Una programmazione consegna viene utilizzata quando si richiede che una quantità di un ordine o di un'offerta venga consegnata in più spedizioni. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.
 

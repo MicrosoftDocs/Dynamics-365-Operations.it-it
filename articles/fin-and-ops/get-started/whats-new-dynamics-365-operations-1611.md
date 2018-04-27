@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09addfd9e4a5c601970b5c8c24a3d39b041e07e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 for Operations versione 1611.
 
@@ -113,6 +112,7 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 fo
 </table>
 
 ## <a name="expense-management"></a>Gestione spese
+
 | Operazioni che è possibile effettuare                                                            | Perché questo è importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Riassegnare transazioni con carta di credito di dipendenti il cui rapporto di lavoro è concluso.                     | Talvolta, quando un dipendente ha concluso il rapporto di lavoro, il relativo account di Active Directory Domain Services (AD DS) viene disabilitato durante l'importazione delle transazioni con carta di credito che devono essere calcolate come spesa. In precedenza, non era possibile assegnare un delegato per l'inserimento spese o collegare transazioni con carta di credito a una nota spese. È ora possibile utilizzare la pagina **Transazioni con carta di credito** per riassegnare al dipendente qualsiasi transazione con carta di credito del dipendente associato che ha concluso il rapporto di lavoro. Dopo aver riassegnato la transazione con carta di credito, la transazione può essere selezionata per una nota spese e essere pagata tramite il normale processo di rimborso della nota spese. |
@@ -211,7 +211,7 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 fo
 </tr>
 <tr class="even">
 <td>Importare rendiconti bancari elettronici per tutte le persone giuridiche in un unico passaggio.</td>
-<td>È ora possibile importare rendiconti bancari elettronici per tutte le persone giuridiche in un unico passaggio. I file di rendiconto bancario possono contenere i rendiconti da molti conti bancari e persone giuridiche e i file ZIP possono contenere più file di rendiconto bancario. Utilizzando un singolo processo di importazione, è possibile avviare la riconciliazione per tutti i conti bancari dichiarati in tutte le persone giuridiche. Questa funzionalità consente di risparmiare tempo, in quanto non è necessario passare da una società all'altra e più importazioni di rendiconti. È inoltre possibile eseguire automaticamente le regole di abbinamento su tutti i rendiconti importati in ciascuna società.</td>
+<td>È ora possibile importare rendiconti bancari elettronici per tutte le persone giuridiche in un unico passaggio. I file di rendiconto bancario possono contenere i rendiconti da molti conti bancari e persone giuridiche e i file ZIP possono contenere più file di rendiconto bancario. Utilizzando un singolo processo di importazione, è possibile avviare la riconciliazione per tutti i conti bancari dichiarati in tutte le persone giuridiche. Questa funzionalità consente di risparmiare tempo, in quanto non è necessario passare da una società all&#39;altra e più importazioni di rendiconti. È inoltre possibile eseguire automaticamente le regole di abbinamento su tutti i rendiconti importati in ciascuna società.</td>
 </tr>
 <tr class="odd">
 <td>Tracciabilità delle valutazioni</td>
@@ -225,6 +225,7 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 fo
 </table>
 
 ## <a name="human-capital-management"></a>Gestione risorse umane
+
 | Operazioni che è possibile effettuare                                                                                | Perché questo è importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Creare un giornale di registrazione prestazioni.                                                                  | Prima di completare la revisione, spesso si raccolgono informazioni sulle attività o sugli eventi che hanno contribuito al proprio successo come dipendente durante il periodo di revisione. È possibile aggiungere una voce al giornale di registrazione prestazioni per documentare tali attività ed eventi. È inoltre possibile collegare tali attività e gli eventi a un obiettivo o una revisione delle prestazioni per fornire ulteriori informazioni al revisore.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -579,6 +580,7 @@ I seguenti paesi richiedono inoltre la localizzazione di Retail. La localizzazio
 </table>
 
 ## <a name="planning-and-scheduling"></a>Pianificazione e programmazione
+
 | Operazioni che è possibile effettuare                                                                                                                                                                                                      | Perché questo è importante                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Impostare le impostazioni di ordine predefinite per le vendite e gli acquisti, in base a qualsiasi dimensione prodotto attiva nella rappresentazione generale prodotto. Di conseguenza, è possibile definire le impostazioni di ordine predefinite per l'unità di stockkeeping (SKU) o una unità SKU parziale. | È possibile specificare impostazioni di ordine predefinite applicabili a una dimensione prodotto o a una combinazione di dimensioni prodotto. **Esempio** Vendere un prodotto denominato Polo T-shirt. Questo prodotto è disponibile in due colori: Verde e blu. È inoltre disponibile in due taglie: Small e Medium. Il colore e la taglia sono dimensioni prodotto attive per Polo T-shirt. È possibile bloccare gli acquisti di tutte le Polo T-shirt di colore verde, indipendentemente dalla taglia. |
@@ -624,6 +626,7 @@ I seguenti paesi richiedono inoltre la localizzazione di Retail. La localizzazio
 </table>
 
 ## <a name="project-management-and-accounting"></a>Gestione progetti e contabilità
+
 | Operazioni che è possibile effettuare                                                                                                           | Perché questo è importante                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Utilizzare la selezione recente quando si registrano le proposte di fatturazione in un batch.                                                            | I contabili di progetto possono impostare un processo batch per selezionare automaticamente le proposte di fatturazione da registrare, se le proposte soddisfano i criteri specificati nel processo batch. Questa funzionalità consente di migliorare l'automazione della registrazione fatture, poiché il processo batch può essere eseguito in modo continuativo e selezionare automaticamente le proposte per la registrazione. |

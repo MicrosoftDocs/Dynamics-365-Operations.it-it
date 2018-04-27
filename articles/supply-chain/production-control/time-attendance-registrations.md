@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Registrazione Orario e presenze
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo argomento vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l'approvazione automatica al processo di approvazione delle schede attività. 
 
@@ -95,7 +94,7 @@ Non appena si assegna un gruppo di calcolo a un lavoratore con registrazione ore
 | Totale giorni Orario e presenze            | Il flusso di lavoro convalida le registrazioni in base, ad esempio, al numero previsto di ore di lavoro per giornata. |                                                                                                                                                                                                                                                       |
 | Registrazione giornale per Orario e presenze | Il flusso di lavoro convalida ogni tipo di registrazione per la data di registrazione.                           | Orario e presenze • Entrata • Uscita • Assenza • Pausa • Codice Switch • Progetto • Attività di progetto • Processi di produzione di attività indiretta • Coda prima • Impostazioni • Processo • Sovrapposizione • Trasporto • Coda dopo • Inizia assistenza • Interrompi assistenza |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Trasferimento delle registrazioni approvate
 Una volta approvate, le registrazioni possono essere trasferite a un processo periodico di gestione delle retribuzioni. Una registrazione trasferita viene registrata per l'attività o processo a cui si riferisce, ad esempio un ordine di produzione o un progetto. Le transazioni relative alla retribuzioni vengono generate per ciascun lavoratore in base alle registrazioni.  

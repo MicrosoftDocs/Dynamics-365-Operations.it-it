@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>Consegne dirette
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vengono fornite le informazioni sulle consegne dirette, ovvero le consegne di articoli direttamente dal fornitore al cliente.
 

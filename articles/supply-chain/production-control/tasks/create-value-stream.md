@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Creare un flusso del valore
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 I flussi del valore sono unità operative che raggruppano uno o più flussi di produzione. Per definire un flusso di produzione, è innanzitutto necessario definire un flusso del valore.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Criteri rollup costi e calcolo dei costi generali 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La contabilità industriale consente di ottenere i dettagli di come il flusso dei costi riguarda i prodotti e i servizi offerti a un'organizzazione. Per vedere la trasparenza dei costi, è essenziale ottenere l'allocazione dei costi tra gli oggetti di costo secondo una base di allocazione appropriata. Per impostazione predefinita, l'allocazione dei costi viene raggiunta per l'elemento di costo principale, utile in alcune situazioni, ma con alcune implicazioni che devono essere considerate.
 

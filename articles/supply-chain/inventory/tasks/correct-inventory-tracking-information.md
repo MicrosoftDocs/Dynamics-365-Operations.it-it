@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="correct-inventory-tracking-information"></a>Correggere le informazioni di tracciabilità di magazzino
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare e registrare un giornale di registrazione trasferimenti scorte per correggere le informazioni di tracciabilità inventario. In questo esempio, si aggiornano le informazioni di un articolo controllato da batch modificando un batch registrato in modo non corretto con un altro batch. È possibile eseguire questa procedura nella società di dati dimostrativi USPI oppure utilizzando i propri dati. Se si utilizzano propri dati, è necessario disporre di un articolo che supporta i batch e che non è controllato da ubicazione. È inoltre necessario disporre di un nome del giornale di registrazione magazzino configurato per i trasferimenti scorte. Queste attività verranno in genere svolte da un dipendente del magazzino.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>Politiche di immagazzinamento e di unità di misura
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo descrive come si utilizzano le unità predefinite, le sequenze unità e le conversioni di unità nei processi di magazzino.
 

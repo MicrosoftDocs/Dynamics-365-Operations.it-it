@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="solver-strategy-for-product-configuration"></a>Strategia risolutore per la configurazione prodotto
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare la strategia risolutore per ottimizzare le prestazioni della configurazione prodotto.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Sincronizzazione di ordini cliente direttamente tra Sales e Finance and Operations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations.
 

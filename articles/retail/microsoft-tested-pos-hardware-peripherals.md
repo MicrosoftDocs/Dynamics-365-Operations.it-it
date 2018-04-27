@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>Periferiche hardware POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Retail Modern POS e POS cloud possono utilizzare una vasta gamma di periferiche hardware POS, con più opzioni di interfacce e distribuzione per soddisfare vari scenari aziendali di un rivenditore. 
 

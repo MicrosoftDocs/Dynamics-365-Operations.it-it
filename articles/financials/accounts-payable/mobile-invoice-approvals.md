@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Approvazioni fatture per dispositivi mobili
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Le funzionalità mobili in Microsoft Dynamics 365 for Finance and Operations consentono agli utenti aziendali di progettare esperienze mobili. Per gli scenari avanzati, la piattaforma anche consente agli sviluppatori di estendere le funzionalità nel modo desiderato. Il modo più efficace di apprendere alcuni dei nuovi concetti sulle funzionalità mobili è di esaminare il processo di progettazione di alcuni scenari. Questo argomento è destinato a fornire un approccio pratico alla progettazione di scenari mobili utilizzando l'approvazione delle fatture fornitore come caso d'uso. Questo argomento dovrebbe aiutare nella progettazione di altre variazioni degli scenari e può essere applicato anche ad altri scenari non correlati alle fatture fornitore.
 
@@ -127,7 +126,7 @@ In generale quando si lavora con lo strumento di progettazione mobile, assicurar
 ### <a name="create-the-workspace"></a>Creare l'area di lavoro
 
 1.  In un browser, aprire Finance and Operations e accedere.
-2.  Effettuato l'accesso. aggiungere **&mode=mobile** all'URL come mostrato nell'esempio seguente e aggiornare la pagina: https://&lt;urlutente&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+2.  Effettuato l'accesso. aggiungere **&mode=mobile** all'URL come mostrato nell'esempio seguente e aggiornare la pagina: https://&lt;urlutente&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**. Lo strumento di progettazione app per dispositivo mobili deve apparire come Registrazione attività.
 4.  Fare clic su **Aggiungi** per creare una nuova area di lavoro. Per questo esempio, chiamare l'area di lavoro **Approvazioni personali**.
 5.  Immettere una descrizione.
@@ -173,23 +172,23 @@ La prima pagina in versione mobile che è consigliabile progettare è l'elenco d
 
 Per progettare la pagina dei dettagli fattura per l'ambiente mobile, utilizzare la pagina **VendMobileInvoiceHeaderDetails** in Finance and Operations. Tenere presente che, a seconda del numero di fatture nel sistema, la pagina mostra la fattura più vecchia (la fattura creata per prima). È possibile usare il filtro a sinistra per trovare una fattura specifica. Tuttavia, non è richiesta una fattura specifica per questo esempio. Sono neecssari solo alcuni dati della fattura per progettare la pagina in versione mobile. [![Pagina Flusso di lavoro](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Nell'URL di Finance and Operations, sostituire il nome della voce di menu con **VendMobileInvoiceHeaderDetails** per aprire il modulo
-2.  Aprire lo strumento di progettazione mobile dal pulsante **Impostazioni** (ingranaggio).
-3.  Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
-4.  Selezionare la pagina **My vendor invoices** creata in precedenza quindi fare clic su **Modifica**.
-5.  Nella scheda **Campi** fare clic sull'intestazione di colonna **Griglia**.
-6.  Fare clic su **Proprietà** &gt; **Aggiungi pagina**. **Nota:** Quando si fa clic su l'intestazione **Griglia** e si aggiunge una pagina, la relazione con la pagina dei dettagli è impostata automaticamente.
-7.  Immettere un titolo della pagina, ad esempio **Invoice details** e una descrizione, ad esempio **View invoice header and line details**.
-8.  Fare clic su **Seleziona campi**. Notare che l'ordine di aggiunta è l'ordine in cui i campi verranno visualizzati all'utente finale. Il solo modo per modificare l'ordine dei campi è riselezionarli tutti. 
-9.  Aggiungere i campi seguenti dall'intestazione in base ai requisiti di questo scenario:
-    - Nome fornitore
-    - Totale fattura
-    - Conto fatture
-    - Numero fattura
-    - Data fattura
-    - Descrizione fattura
-    - Data di scadenza
-    - Valuta della fattura
+1. Nell'URL di Finance and Operations, sostituire il nome della voce di menu con **VendMobileInvoiceHeaderDetails** per aprire il modulo
+2. Aprire lo strumento di progettazione mobile dal pulsante **Impostazioni** (ingranaggio).
+3. Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
+4. Selezionare la pagina <strong>My vendor invoices **creata in precedenza, quindi fare clic su **Modifica</strong>.
+5. Nella scheda **Campi** fare clic sull'intestazione di colonna **Griglia**.
+6. Fare clic su **Proprietà** &gt; **Aggiungi pagina**. **Nota:** Quando si fa clic su l'intestazione **Griglia** e si aggiunge una pagina, la relazione con la pagina dei dettagli è impostata automaticamente.
+7. Immettere un titolo della pagina, ad esempio **Invoice details** e una descrizione, ad esempio **View invoice header and line details**.
+8. Fare clic su **Seleziona campi**. Notare che l'ordine di aggiunta è l'ordine in cui i campi verranno visualizzati all'utente finale. Il solo modo per modificare l'ordine dei campi è riselezionarli tutti. 
+9. Aggiungere i campi seguenti dall'intestazione in base ai requisiti di questo scenario:
+   - Nome fornitore
+   - Totale fattura
+   - Conto fatture
+   - Numero fattura
+   - Data fattura
+   - Descrizione fattura
+   - Data di scadenza
+   - Valuta della fattura
 
 10. Aggiungere i seguenti campi dalla griglia di righe nella pagina:
     - Categoria di approvvigionamento
@@ -199,7 +198,7 @@ Per progettare la pagina dei dettagli fattura per l'ambiente mobile, utilizzare 
     - Importo 1099
 
 11. Dopo che tutti i campi dai due passaggi precedenti sono stati aggiunti, fare clic su **Fine**. La pagina deve essere simili alla figura seguente.
-[![Pagina dopo l'aggiunta dei campi](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Pagina dopo l'aggiunta dei campi](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Fare clic su **Fine** per uscire dalla modalità di modifica.
 13. Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
 14. Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
@@ -296,14 +295,14 @@ Per aggiungere le azioni del flusso di lavoro, utilizzare la pagina **VendMobile
 
 ### <a name="vendor-invoice-attachments"></a>Allegati della fattura fornitore
 
-1.  Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**.
-2.  Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
-3.  Selezionare la pagina  **Invoice details** creata in precedenza quindi fare clic su **Modifica**.
-4.  Impostare l'opzione **Gestione documenti** su **Sì** come indicato di seguito. **Nota:** Se non sono presenti esigenze di visualizzare gli allegati sul dispositivo mobile, è possibile lasciare questa opzione impostata su **No**, che è l'impostazione predefinita.
-![Gestione documenti](./media/docmanagement-216x300.png)
-6.  Fare clic su **Fine** per uscire dalla modalità di modifica.
-7.  Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
-8.  Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
+1. Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**.
+2. Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
+3. Selezionare la pagina <strong>Invoice details** creata in precedenza, quindi fare clic su **Modifica</strong>.
+4. Impostare l'opzione **Gestione documenti** su **Sì** come indicato di seguito. **Nota:** Se non sono presenti esigenze di visualizzare gli allegati sul dispositivo mobile, è possibile lasciare questa opzione impostata su **No**, che è l'impostazione predefinita.
+   ![Gestione documenti](./media/docmanagement-216x300.png)
+5. Fare clic su **Fine** per uscire dalla modalità di modifica.
+6. Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro
+7. Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
 
 ### <a name="vendor-invoice-line-distributions"></a>Distribuzioni a livello di riga fattura fornitore
 

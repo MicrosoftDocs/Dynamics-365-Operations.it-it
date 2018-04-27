@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Impostare tassi d'interesse per un codice interessi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 I codici interessi contengono le impostazioni che determinano quando gli interessi vengono addebitati e come vengono calcolati nei conti scaduti.
 
@@ -47,17 +46,17 @@ Quando si utilizza un codice interessi per calcolare gli interessi, viene creata
 ## <a name="interest-rates-based-on-a-percentage"></a>Tassi d'interesse in base a una percentuale
 È possibile impostare tassi d'interesse che calcolano una percentuale specificata.
 
--   L'importo degli interessi si applica a tutte le valute.
--   È possibile immettere limiti per l'importo interessi facoltativi.
--   **Percentuale** è selezionato  nel campo **Calcola interessi in base a** nella pagina **Imposta codici interessi**.
+- L'importo degli interessi si applica a tutte le valute.
+- È possibile immettere limiti per l'importo interessi facoltativi.
+- <strong>Percentuale</strong> è selezionato nel campo <strong>Calcola interessi in base a</strong> nella pagina <strong>Imposta codici interessi</strong>.
 
 Ad esempio, per impostare un codice interessi che valuta un interesse del 5% per ogni due mesi in cui il pagamento della fattura supera la data di scadenza della transazione, immettere 2 nel campo **Calcola interessi ogni** quindi selezionare **Mese**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Tassi d'interesse in base agli importi
 È possibile impostare tassi d'interesse che calcolano una quantità specificata per valuta.
--   Un importo interessi è specificato per ciascuna valuta relativa al codice interessi.
--   È possibile immettere limiti per l'importo interessi facoltativi.
--   **Importo** è selezionato nel campo **Calcola interessi in base** a nella pagina **Imposta codici interessi**.
+- Un importo interessi è specificato per ciascuna valuta relativa al codice interessi.
+- È possibile immettere limiti per l'importo interessi facoltativi.
+- <strong>Importo</strong> è selezionato nel campo Calcola interessi in base a nella pagina <strong>Imposta codici interessi</strong>.
 
 Ad esempio, per impostare un codice interessi che valuta un interesse pari a 25,00 per ogni 20 giorni in cui il pagamento della fattura supera la data di scadenza della transazione, immettere 20 nel campo **Calcola interessi ogni** e selezionare **Giorno**.
 
@@ -84,7 +83,7 @@ Le informazioni sull'intervallo vengono impostate nel modo indicato di seguito.
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>Esempio 2: Interessi in base a intervallo = Giorni
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ Le informazioni sull'intervallo vengono impostate nel modo indicato di seguito.
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>Esempio 3: Interessi in base a intervallo = Mesi
 ----------------------------------------------------
 

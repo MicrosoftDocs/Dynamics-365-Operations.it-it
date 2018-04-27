@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="vat-reconciliation-report"></a>Report di riconciliazione IVA
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene descritto come generare il report di riconciliazione imposte disponibile per le persone giuridiche islandesi e norvegesi. Questa attività è stata creata utilizzando la società di dati dimostrativi DEMF con il paese dell'indirizzo principale della persona giuridica impostato su Norvegia.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>Report finanziari del bilancio di verifica
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo articolo viene descritto i report predefiniti per i bilanci di verifica. Sono descritti inoltre i blocchi predefiniti associati a questi report e come è possibile modificare i report in modo da soddisfare i requisiti aziendali. 
 
@@ -99,7 +98,7 @@ Ogni report di bilancio di verifica utilizza una definizione di colonna diversa.
     -   **FD** I dati finanziari contenenti solo i debiti per l'anno precedente
     -   **FD** I dati finanziari contenenti solo i crediti per l'anno precedente
 
- 
+
 
 <a name="see-also"></a>Vedere anche
 --------

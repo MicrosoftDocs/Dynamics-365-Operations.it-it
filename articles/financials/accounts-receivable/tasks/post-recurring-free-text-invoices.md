@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Generare e registrare fatture a testo libero ricorrenti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Le fatture ricorrenti vengono utilizzate per fatturare regolarmente i clienti per la stessa quantità. Questa registrazione utilizza la società dimostrativa USMF. La registrazione è destinata alla persona responsabile della gestione e dell'elaborazione delle fatture di CoCli.
 

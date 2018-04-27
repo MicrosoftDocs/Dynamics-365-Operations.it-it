@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="process-compensation"></a>Processo retributivo
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Il processo retributivo consente di calcolare i nuovi importi relativi alla retribuzione di base per i dipendenti in base a rettifiche di capitale netto, obiettivi di incentivo per merito e prestazioni. Questo argomento descrive il flusso di base dell'elaborazione delle retribuzioni per i piani di retribuzione fissa senza factoring delle prestazioni di un dipendente.
 

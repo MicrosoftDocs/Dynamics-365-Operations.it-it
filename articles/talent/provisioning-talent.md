@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
-ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
 ms.contentlocale: it-it
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Eseguire il provisioning di Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Questo argomento descrive il processo di provisioning di un nuovo ambiente di produzione per Microsoft Dynamics 365 for Talent. In questo argomento si presuppone che sia stato acquistato Talent da un Cloud Solution Provider (CSP) o un contratto Enterprise Architecture (EA). Se si dispone di una licenza per Microsoft Dynamics 365 che include già il piano di assistenza per Talent e non è possibile completare i passaggi in questo argomento, contattare il Supporto tecnico.
 
@@ -79,12 +79,12 @@ Utilizzare le seguenti linee guida per la determinazione dell'ambiente PowerApps
  
     **Ambienti CDS 2.0** - CDS 2.0 è disponibile al pubblico dal 21 marzo 2018. Talent non supporta tuttavia ancora CDS 2.0. Sebbene sia possibile visualizzare e creare database CDS 2.0 nell'interfaccia di amministrazione di PowerApps, questi non saranno utilizzabili in Talent. L'opzione per utilizzare gli ambienti CDS 2.0 nelle distribuzioni Talent sarà disponibile in una data successiva.
    
- > [!Note]
- > Per differenziare gli ambienti CDS 1.0 e 2.0 nel portale di amministrazione, selezionare un ambiente e consultare **Dettagli**. Gli ambienti CDS 2.0 fanno tutti riferimento al fatto che "è possibile gestire queste impostazioni nell'interfaccia di amministrazione di Dynamics 365", puntano a una versione di istanza e non hanno la scheda Database. 
+   > [!Note]
+   > Per differenziare gli ambienti CDS 1.0 e 2.0 nel portale di amministrazione, selezionare un ambiente e consultare **Dettagli**. Gli ambienti CDS 2.0 fanno tutti riferimento al fatto che "è possibile gestire queste impostazioni nell'interfaccia di amministrazione di Dynamics 365", puntano a una versione di istanza e non hanno la scheda Database. 
  
    **Ambienti PowerApps predefiniti** Sebbene ogni tenant venga dotato automaticamente di un ambiente PowerApps predefinito, non è consigliabile utilizzarli con Talent poiché tutti gli utenti del tenant hanno accesso all'ambiente PowerApps e possono danneggiare erroneamente i dati di produzione durante i test e l'esplorazione con le integrazioni di PowerApps o Flow.
    
-   **Ambienti Test Drive** - Gli ambienti con un nome simile a "TestDrive – alias@domain" vengono creati con un periodo di validità di 60 giorni trascorsi i quali gli ambienti vengono rimossi automaticamente.
+   <strong>Ambienti Test Drive</strong> - Gli ambienti con un nome simile a "TestDrive – alias@domain" vengono creati con un periodo di validità di 60 giorni trascorsi i quali gli ambienti vengono rimossi automaticamente.
    
    **Regioni non supportate** - Attualmente Talent è supportato solo nelle regioni seguenti: Stati Uniti, Europa e Australia.
   
@@ -115,7 +115,7 @@ Per eseguire lo script, attenersi alle istruzioni seguenti:
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
-   **EnvironmentName** deve essere sostituito con il nome dell'ambiente. Questo nome sarà visualizzato in LCS e sarà visibile quando gli utenti selezionano l'ambiente Talent da utilizzare. 
+   **MyNewEnvironment** deve essere sostituito con il nome dell'ambiente. Questo nome sarà visualizzato in LCS e sarà visibile quando gli utenti selezionano l'ambiente Talent da utilizzare. 
 
    **YourLocation** deve essere sostituito con una delle regioni in cui Talent è supporto: Stati Uniti, Europa, Australia. 
 

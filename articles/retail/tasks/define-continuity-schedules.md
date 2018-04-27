@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-continuity-schedules"></a> Definire programmazioni di continuità
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 In questo argomento si descrive l'impostazione di un programma di continuità (altrimenti detto ordini ricorrenti). Questo argomento utilizza la società USRT nei dati dimostrativi.
 

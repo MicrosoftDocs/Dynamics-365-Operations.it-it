@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-withholding-tax"></a>Impostare i codici di ritenuta d'acconto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La ritenuta d'acconto è un'imposta sui fornitori che non dà origine a transazioni IVA. La ritenuta d'acconto calcolata sui pagamenti fornitore è considerata una passività e può pertanto essere registrata solo nei conti dello stato patrimoniale o nei conti passivi. Questa guida attività dimostra l'impostazione della ritenuta d'acconto.
 

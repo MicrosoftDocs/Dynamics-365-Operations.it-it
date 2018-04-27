@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>Gestire modelli di messaggi di posta elettronica
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 È possibile trasferire le informazioni del database dell'organizzazione ai segnalibri in un nuovo documento e utilizzarlo nei modelli per comunicare efficientemente con i candidati. A tale scopo, è necessario creare un modello contenente testo standard e alcuni segnalibri in cui devono essere inseriti i dati. Ad esempio, è possibile inserire l'indirizzo e le informazioni sul contatto per un candidato in un documento di Microsoft Word da utilizzare quando si comunica con il candidato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

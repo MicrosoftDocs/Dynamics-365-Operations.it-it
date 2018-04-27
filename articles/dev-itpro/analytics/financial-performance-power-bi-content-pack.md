@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: b7cb5f2096f0be5211024fc6ecbfaa61d6c48c9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1fc3ab4f2a4b4604126ff72c570fc9d85e209f3c
 ms.contentlocale: it-it
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Contenuto Power BI per prestazioni finanziarie
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!Note]
 > Questo pacchetto di contenuti è stato deprecato come documentato in [Power BI Content Packs pubblicati in PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
@@ -58,7 +58,7 @@ Ogni riquadro è supportato da un report. Questi report contengono i grafici e l
 
 | Report                      | Informazioni contenute nel report |
 |-----------------------------|--------------------------------------|
-| Analisi di cassa               | Importo di cassa in base alla persona giuridica e al trimestre, importo di cassa totale e per conto<blockquote>[!NOTE]<br>L'importo di cassa per trimestre non include i saldi iniziali nel totale per il primo trimestre. Mostra il totale delle nuove transazioni registrate in ciascun trimestre.</blockquote> |
+| Analisi di cassa               | Importo di cassa in base alla persona giuridica e al trimestre, importo di cassa totale e per conto<br><br>**Nota:** l'importo di cassa per trimestre non include i saldi iniziali nel totale per il primo trimestre. Mostra il totale delle nuove transazioni registrate in ciascun trimestre.|
 | Analisi indice corrente      | Indice corrente in base alla persona giuridica e per trimestre e saldi per cespiti e passività correnti |
 | Analisi indice rapido        | Indice rapido in base alla persona giuridica, indice rapido per trimestre e saldi per importo di cassa, contabilità clienti e passività correnti |
 | Analisi costo del venduto | Costo del venduto (COGS) in base alla persona giuridica, COGS per trimestre dell'anno in corso e dell'anno precedente, COGS rispetto alle vendite per persona giuridica, COGS totale e COGS in base alle percentuali di vendita |
@@ -69,7 +69,7 @@ Ogni riquadro è supportato da un report. Questi report contengono i grafici e l
 | Analisi redditi           | Redditi effettivi e previsti prima di interessi e imposte (EBIT) in base alla persona giuridica, importo EBIT nell'anno in corso e in quello precedente, percentuale di spese rispetto ai ricavi e spese effettive e previste rispetto ai ricavi |
 | Analisi ricavi            | Ricavi totali, ricavi totali effettivi e previsti in base alla persona giuridica, ricavi totali nell'anno in corso e in quello precedente, scostamento dal budget in base alla persona giuridica e ricavi totali nel periodo in corso e in quello precedente |
 | Analisi spese            | Spese totali, spese totali effettive rispetto al budget in base alla persona giuridica, spese totali effettive e previste per trimestre, spese totali per categoria di conto e indice di spese operative |
-| Analisi ricavo fatturato     | Contabilità clienti totale, contabilità clienti totale in base alla persona giuridica, contabilità clienti totale per trimestre e saldi dei conti della contabilità clienti<blockquote>[!NOTE]<br>Le informazioni non includono i saldi iniziali per i conti CoGe della contabilità clienti. Indicano il totale delle nuove transazioni registrate nella contabilità clienti.</blockquote> |
+| Analisi ricavo fatturato     | Contabilità clienti totale, contabilità clienti totale in base alla persona giuridica, contabilità clienti totale per trimestre e saldi dei conti della contabilità clienti<br><br>**Nota:** le informazioni non includono i saldi iniziali per i conti CoGe della contabilità clienti. Indicano il totale delle nuove transazioni registrate nella contabilità clienti. |
 
 I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 

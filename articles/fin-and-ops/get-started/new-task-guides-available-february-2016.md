@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>Nuove guide attività (febbraio 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In questo argomento sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.  Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics AX e la libreria di introduzione (febbraio 2016).
 
@@ -50,8 +49,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Impostare la convalida dell'abbinamento fatture della contabilità fornitori       | Globali             |
 | Imposta criteri fatture fornitore                            | Globali             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Contabilità clienti
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Esaminare le informazioni sulla riscossione                              | Globali             |
 | Impostare e generare le informazioni di aging della contabilità clienti   | Globali             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Gestione cassa e banche
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Liquidare un assegno postdatato di un cliente                             | Globali             |
 | Panoramica pagamento fornitore                                              | Globali             |
 
- 
 
+ 
 ### <a name="compliance"></a>Conformità
 
 |                                            |                    |
@@ -108,8 +107,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | **Riga BPM**                               | **Paese** |
 | Definire i criteri di controllo per i documenti di origine | Globali             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Gestione costi
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Visualizzare lo stato WIP corrente su un ordine di produzione                       | Globali             |
 | Visualizzare il rendiconto magazzino e gli indicatori KPI per oggetto di costo                     | Globali             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Funzionalità paese
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | GB-00009 - Crea una nota di accredito nello sconto per la liquidazione                                               | Regno Unito                  |
 | GB-00009 - Impostare i parametri per la nota di accredito su sconto per pagamento tempestivo                                   | Regno Unito                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Sviluppare la visione e la strategia
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Fare una domanda in base alla risposta della domanda precedente (domande condizionali) | Globali             |
 | Valutare un questionario in base alle percentuali                                                   | Globali             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>Creazione di report elettronici
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | RE Mappar ei modello dati alle origini dati selezionate      | Globali             |
 | RE Selezionare il provider di servizi                      | Globali             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Gestione spese
 
 |                              |                    |
@@ -298,8 +297,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | **Riga BPM**                 | **Paese** |
 | Configurare la gestione delle spese | Globali             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Cespiti
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Dividere un cespite                                       | Globali             |
 | Trasferire un cespite                                    | Globali             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>Contabilità generale
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Visualizza gli inserimenti nel giornale di registrazione o le transazioni                              | Globali             |
 | Visualizza il giustificativo interaziendale correlato del giornale di registrazione                    | Globali             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>Gestione risorse umane
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Impostazione criteri di idoneità al benefit                             | Globali             |
 | Impostazione dei tipi di documenti i9                                     | Globali             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Gestione inventario
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Tracciare un articolo o la materia prima                                                     | Globali             |
 | Trasferire l'inventario fisico all'interno del magazzino                                  | Globali             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>Produzione
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Trasferire il materiale con processi kanban                            | Globali             |
 | Convalida flusso di produzione e versione                          | Globali             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Pianificazione generale
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Identificare materiali critici e capacità dei fornitori | Globali             |
 | Modificare una previsione della domanda manualmente                 | Globali             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Amministrazione organizzazione
 
 |                                           |                    |
@@ -501,8 +500,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Impostare le firme elettroniche              | Globali             |
 | Impostazione guidata sequenze numeriche | Globali             |
 
- 
 
+ 
 ### <a name="planning"></a>Pianificazione
 
 |                        |                    |
@@ -510,8 +509,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | **Riga BPM**           | **Paese** |
 | Determinare la disponibilità | Globali             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Approvvigionamento
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Ricerca di fornitori                                               | Globali             |
 | Impostare una gerarchia di categorie di approvvigionamento                          | Globali             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>Informazioni e configurazione prodotti
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Rilasciare una ..\financial-dimensions\rappresentazione generale prodotto basata su dimensioni              | Globali             |
 | Trasferire i dati per i modelli prodotto                      | Globali             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Settore pubblico
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Impostare un fondo per il settore pubblico                                                         | Globali             |
 | Imposta le classificazioni dei contratti di acquisto per il settore pubblico                             | Globali             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Vendita al dettaglio e commercio
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Rettifiche prezzi per vendita al dettaglio                                                                  | Globali             |
 | Configurazioni dei punti vendita per rendiconti di vendita al dettaglio                                                | Globali             |
 
- 
 
+ 
 ### <a name="sales"></a>Vendite
 
 |                                            |                    |
@@ -642,8 +641,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Spedire ordini come consegne dirette           | Globali             |
 | Spedire gli ordini cliente senza immagazzinaggio      | Globali             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>IVA
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Impostare le ritenuta                             | Globali             |
 | Visualizza transazioni IVA registrate                 | Globali             |
 
- 
 
+ 
 ### <a name="security"></a>Sicurezza
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Identificare e risolvere conflitti di separazione dei compiti | Globali             |
 | Impostare la separazione dei compiti                            | Globali             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Magazzino e trasporto
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ La libreria unificata APQC (febbraio 2016) contiene le guide attività da utiliz
 | Impostare vettori di spedizione                                                          | Globali             |
 | Utilizzare la workstation di pianificazione del carico per pianificare i carichi e le spedizioni                       | Globali             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Guide attività nella libreria di introduzione (febbraio 2016)
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **Riga BPM**                                       | **Paese** |

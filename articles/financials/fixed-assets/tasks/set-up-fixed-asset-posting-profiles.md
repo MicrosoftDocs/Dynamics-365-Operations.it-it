@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Impostare i profili registrazione cespiti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa guida attività verranno impostati i profili registrazione cespiti.  Utilizza il ruolo Ragioniere e i dati dimostrativi per la persona giuridica USMF.  Gli esempi forniti nella guida attività sono relativi a un profilo registrazione di base, anche se i profili registrazione devono essere creati per i requisiti specifici di report finanziari e piano dei conti.
 

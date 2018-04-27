@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>Ammortamento manuale
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce una panoramica del metodo di ammortamento manuale.
 
@@ -67,7 +66,7 @@ Se si seleziona **Mensile**nel campo **Frequenza periodo**, vengono impostati 12
 | gennaio  | (11.000 – 1.000) × 10% = 1.000 |
 | febbraio | (11.000 – 1.000) × 50% = 5.000 |
 
-Se si seleziona **Semestrale** nel campo **Frequenza periodo**, vengono impostati due intervalli di programmi manuali. Le quote di ammortamento per i primi due intervalli sono mostrate nella seguente tabella.
+Se si seleziona <strong>Semestrale</strong> nel campo *<strong><em>Frequenza periodo</em>*</strong>, si configurano due intervalli di programmazione manuale. Le quote di ammortamento per i primi due intervalli sono mostrate nella seguente tabella.
 
 | Intervallo    | Importo di ammortamento            |
 |-------------|--------------------------------|

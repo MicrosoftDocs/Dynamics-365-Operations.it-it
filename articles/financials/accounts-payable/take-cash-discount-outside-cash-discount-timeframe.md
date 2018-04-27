@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Applicare uno sconto di cassa fuori del periodo dello sconto di cassa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Questo articolo fornisce due scenari che illustrano come applicare uno sconto di cassa anche se il pagamento viene effettuato al di fuori del periodo dello sconto di cassa.
 

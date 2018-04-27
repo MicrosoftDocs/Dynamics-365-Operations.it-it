@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>Creare regole avanzate per giornali di registrazione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura descrive come creare regole avanzate per i giornali di registrazione. Sono incluse le impostazioni del controllo del giornale di registrazione e delle restrizioni della registrazione per utente. Questa procedura utilizza la società di dati dimostrativi USMF.
 

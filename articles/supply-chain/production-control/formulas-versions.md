@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="formulas-and-formula-versions"></a>Formule e versioni di formula
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Una formula definisce i materiali, gli ingredienti e i risultati di uno specifico processo nella produzione di processo. Insieme al ciclo di lavorazione corrispondente, la formula definisce l'intero processo nella produzione di processo. Le formule vengono utilizzate per progettare e creare prodotti nella produzione di processo.
 

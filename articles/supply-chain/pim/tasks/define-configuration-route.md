@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-routes"></a>Definire cicli di lavorazione di configurazione
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura riguarda la definizione del ciclo di lavorazione di configurazione che determina la sequenza in cui verranno presentati i gruppi di configurazioni. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa è la sesta procedura di otto che illustra come sviluppare le combinazioni per la configurazione basata su dimensioni.
 
