@@ -16,79 +16,79 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 77dd52848819f11a0a03eb70eebbdacdad2d1852
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0b27c5c0ed2cd380819c5208c57fa2a3de1d5aaa
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="company-directory-mobile-workspace"></a><span data-ttu-id="61b12-103">Area di lavoro mobile della directory aziendale</span><span class="sxs-lookup"><span data-stu-id="61b12-103">Company directory mobile workspace</span></span>
+# <a name="company-directory-mobile-workspace"></a><span data-ttu-id="63302-103">Area di lavoro mobile della directory aziendale</span><span class="sxs-lookup"><span data-stu-id="63302-103">Company directory mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-<span data-ttu-id="61b12-104">In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Directory società**.</span><span class="sxs-lookup"><span data-stu-id="61b12-104">This topic provides information about the **Company directory** mobile workspace.</span></span> <span data-ttu-id="61b12-105">Questa area di lavoro consente agli utenti di visualizzare e contattare altri dipendenti nell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="61b12-105">This workspace lets users view and contact other employees in their organization.</span></span>
+<span data-ttu-id="63302-104">In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Directory società**.</span><span class="sxs-lookup"><span data-stu-id="63302-104">This topic provides information about the **Company directory** mobile workspace.</span></span> <span data-ttu-id="63302-105">Questa area di lavoro consente agli utenti di visualizzare e contattare altri dipendenti nell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="63302-105">This workspace lets users view and contact other employees in their organization.</span></span>
 
-<span data-ttu-id="61b12-106">Questa area di lavoro mobile può essere utilizzata con l'app  mobile Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="61b12-106">This mobile workspace can be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
+<span data-ttu-id="63302-106">Questa area di lavoro mobile può essere utilizzata con l'app  mobile Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="63302-106">This mobile workspace can be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="61b12-107">Panoramica</span><span class="sxs-lookup"><span data-stu-id="61b12-107">Overview</span></span>
-<span data-ttu-id="61b12-108">L'area di lavoro mobile **Directory società** consente agli utenti di eseguire queste attività:</span><span class="sxs-lookup"><span data-stu-id="61b12-108">The **Company directory** mobile workspace lets users perform these tasks:</span></span>
+## <a name="overview"></a><span data-ttu-id="63302-107">Panoramica</span><span class="sxs-lookup"><span data-stu-id="63302-107">Overview</span></span>
+<span data-ttu-id="63302-108">L'area di lavoro mobile **Directory società** consente agli utenti di eseguire queste attività:</span><span class="sxs-lookup"><span data-stu-id="63302-108">The **Company directory** mobile workspace lets users perform these tasks:</span></span>
 
-- <span data-ttu-id="61b12-109">Visualizzare un elenco di dipendenti dell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="61b12-109">View a list of employees in the organization.</span></span>
-- <span data-ttu-id="61b12-110">Cercare i dipendenti nell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="61b12-110">Search for employees in the organization.</span></span>
-- <span data-ttu-id="61b12-111">Visualizzare le informazioni di contatto dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="61b12-111">View contact information for employees.</span></span>
-- <span data-ttu-id="61b12-112">Contattare i dipendenti dalle informazioni del profilo.</span><span class="sxs-lookup"><span data-stu-id="61b12-112">Contact employees from the profile information.</span></span>
+- <span data-ttu-id="63302-109">Visualizzare un elenco di dipendenti dell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="63302-109">View a list of employees in the organization.</span></span>
+- <span data-ttu-id="63302-110">Cercare i dipendenti nell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="63302-110">Search for employees in the organization.</span></span>
+- <span data-ttu-id="63302-111">Visualizzare le informazioni di contatto dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="63302-111">View contact information for employees.</span></span>
+- <span data-ttu-id="63302-112">Contattare i dipendenti dalle informazioni del profilo.</span><span class="sxs-lookup"><span data-stu-id="63302-112">Contact employees from the profile information.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="61b12-113">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="61b12-113">Prerequisites</span></span>
-<span data-ttu-id="61b12-114">Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seguenti requisiti.</span><span class="sxs-lookup"><span data-stu-id="61b12-114">Before you can use this mobile workspace, the following prerequisites must be met.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="63302-113">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="63302-113">Prerequisites</span></span>
+<span data-ttu-id="63302-114">Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seguenti requisiti.</span><span class="sxs-lookup"><span data-stu-id="63302-114">Before you can use this mobile workspace, the following prerequisites must be met.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="61b12-115">Prerequisito</span><span class="sxs-lookup"><span data-stu-id="61b12-115">Prerequisite</span></span></th>
-<th><span data-ttu-id="61b12-116">Ruolo</span><span class="sxs-lookup"><span data-stu-id="61b12-116">Role</span></span></th>
-<th><span data-ttu-id="61b12-117">descrizione</span><span class="sxs-lookup"><span data-stu-id="61b12-117">Description</span></span></th>
+<th><span data-ttu-id="63302-115">Prerequisito</span><span class="sxs-lookup"><span data-stu-id="63302-115">Prerequisite</span></span></th>
+<th><span data-ttu-id="63302-116">Ruolo</span><span class="sxs-lookup"><span data-stu-id="63302-116">Role</span></span></th>
+<th><span data-ttu-id="63302-117">descrizione</span><span class="sxs-lookup"><span data-stu-id="63302-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="61b12-118">Uno dei seguenti prodotti deve essere distribuito nell'organizzazione:</span><span class="sxs-lookup"><span data-stu-id="61b12-118">One of the following products must be deployed in your organization:</span></span>
-<ul><li><span data-ttu-id="61b12-119">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="61b12-119">Microsoft Dynamics 365 for Finance and Operations</span></span></li>
-<li><span data-ttu-id="61b12-120">Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="61b12-120">Microsoft Dynamics 365 for Talent</span></span></li>
+<td><span data-ttu-id="63302-118">Uno dei seguenti prodotti deve essere distribuito nell'organizzazione:</span><span class="sxs-lookup"><span data-stu-id="63302-118">One of the following products must be deployed in your organization:</span></span>
+<ul><li><span data-ttu-id="63302-119">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="63302-119">Microsoft Dynamics 365 for Finance and Operations</span></span></li>
+<li><span data-ttu-id="63302-120">Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="63302-120">Microsoft Dynamics 365 for Talent</span></span></li>
 </ul>
 </td>
-<td><span data-ttu-id="61b12-121">Amministratore di sistema</span><span class="sxs-lookup"><span data-stu-id="61b12-121">System administrator</span></span></td>
-<td><span data-ttu-id="61b12-122">Se Finance and Operations non è stato ancora distribuito nell'organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>.</span><span class="sxs-lookup"><span data-stu-id="61b12-122">If you don't already have Finance and Operations deployed in your organization, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span> <span data-ttu-id="61b12-123">Se Talent non è stato ancora distribuito nell'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione nella <a href="https://www.microsoft.com/en-us/dynamics365/talent">pagina Web di Talent</a>.</span><span class="sxs-lookup"><span data-stu-id="61b12-123">If you don't already have Talent deployed in your organization, the system administrator can access a trial version from the <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent webpage</a>.</span></span>
+<td><span data-ttu-id="63302-121">Amministratore di sistema</span><span class="sxs-lookup"><span data-stu-id="63302-121">System administrator</span></span></td>
+<td><span data-ttu-id="63302-122">Se Finance and Operations non è stato ancora distribuito nell'organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>.</span><span class="sxs-lookup"><span data-stu-id="63302-122">If you don&#39;t already have Finance and Operations deployed in your organization, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span> <span data-ttu-id="63302-123">Se Talent non è stato ancora distribuito nell'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione nella <a href="https://www.microsoft.com/en-us/dynamics365/talent">pagina Web di Talent</a>.</span><span class="sxs-lookup"><span data-stu-id="63302-123">If you don&#39;t already have Talent deployed in your organization, the system administrator can access a trial version from the <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent webpage</a>.</span></span>
 </td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="61b12-124">L'area di lavoro mobile <strong>Directory società</strong> deve essere pubblicata.</span><span class="sxs-lookup"><span data-stu-id="61b12-124">The <strong>Company directory</strong> mobile workspace must be published.</span></span></td>
-<td><span data-ttu-id="61b12-125">Amministratore di sistema</span><span class="sxs-lookup"><span data-stu-id="61b12-125">System administrator</span></span></td>
-<td><span data-ttu-id="61b12-126">Vedere <a href="publish-mobile-workspace.md">Pubblicare un'area di lavoro mobile</a>.</span><span class="sxs-lookup"><span data-stu-id="61b12-126">See <a href="publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
+<td><span data-ttu-id="63302-124">L'area di lavoro mobile <strong>Directory società</strong> deve essere pubblicata.</span><span class="sxs-lookup"><span data-stu-id="63302-124">The <strong>Company directory</strong> mobile workspace must be published.</span></span></td>
+<td><span data-ttu-id="63302-125">Amministratore di sistema</span><span class="sxs-lookup"><span data-stu-id="63302-125">System administrator</span></span></td>
+<td><span data-ttu-id="63302-126">Vedere <a href="publish-mobile-workspace.md">Pubblicare un'area di lavoro mobile</a>.</span><span class="sxs-lookup"><span data-stu-id="63302-126">See <a href="publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="61b12-127">Scaricare e installare l'app mobile</span><span class="sxs-lookup"><span data-stu-id="61b12-127">Download and install the mobile app</span></span>
-<span data-ttu-id="61b12-128">Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:</span><span class="sxs-lookup"><span data-stu-id="61b12-128">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="63302-127">Scaricare e installare l'app mobile</span><span class="sxs-lookup"><span data-stu-id="63302-127">Download and install the mobile app</span></span>
+<span data-ttu-id="63302-128">Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:</span><span class="sxs-lookup"><span data-stu-id="63302-128">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [<span data-ttu-id="61b12-129">Per telefoni Android</span><span class="sxs-lookup"><span data-stu-id="61b12-129">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
--   [<span data-ttu-id="61b12-130">Per iPhone</span><span class="sxs-lookup"><span data-stu-id="61b12-130">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="63302-129">Per telefoni Android</span><span class="sxs-lookup"><span data-stu-id="63302-129">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="63302-130">Per iPhone</span><span class="sxs-lookup"><span data-stu-id="63302-130">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="61b12-131">Accedere all'app mobile</span><span class="sxs-lookup"><span data-stu-id="61b12-131">Sign in to the mobile app</span></span>
-1.  <span data-ttu-id="61b12-132">Avviare l'app sul dispositivo mobile.</span><span class="sxs-lookup"><span data-stu-id="61b12-132">Start the app on your mobile device.</span></span>
-2.  <span data-ttu-id="61b12-133">Immettere il proprio URL Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="61b12-133">Enter your Microsoft Dynamics 365 URL.</span></span>
-3.  <span data-ttu-id="61b12-134">La prima volta che si accede viene richiesto di inserire il proprio nome utente e la password.</span><span class="sxs-lookup"><span data-stu-id="61b12-134">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="61b12-135">Immettere le proprie credenziali.</span><span class="sxs-lookup"><span data-stu-id="61b12-135">Enter your credentials.</span></span>
-4.  <span data-ttu-id="61b12-136">Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società.</span><span class="sxs-lookup"><span data-stu-id="61b12-136">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="61b12-137">Nota: se l'amministratore di sistema pubblica una nuova area di lavoro in seguito, è necessario aggiornare l'elenco delle aree di lavoro mobili.</span><span class="sxs-lookup"><span data-stu-id="61b12-137">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="63302-131">Accedere all'app mobile</span><span class="sxs-lookup"><span data-stu-id="63302-131">Sign in to the mobile app</span></span>
+1.  <span data-ttu-id="63302-132">Avviare l'app sul dispositivo mobile.</span><span class="sxs-lookup"><span data-stu-id="63302-132">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="63302-133">Immettere il proprio URL Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="63302-133">Enter your Microsoft Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="63302-134">La prima volta che si accede viene richiesto di inserire il proprio nome utente e la password.</span><span class="sxs-lookup"><span data-stu-id="63302-134">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="63302-135">Immettere le proprie credenziali.</span><span class="sxs-lookup"><span data-stu-id="63302-135">Enter your credentials.</span></span>
+4.  <span data-ttu-id="63302-136">Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società.</span><span class="sxs-lookup"><span data-stu-id="63302-136">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="63302-137">Nota: se l'amministratore di sistema pubblica una nuova area di lavoro in seguito, è necessario aggiornare l'elenco delle aree di lavoro mobili.</span><span class="sxs-lookup"><span data-stu-id="63302-137">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-<span data-ttu-id="61b12-138">[![Effettuare il pull per l'aggiornamento](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="61b12-138">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
+<span data-ttu-id="63302-138">[![Effettuare il pull per l'aggiornamento](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="63302-138">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="61b12-139">Visualizzare la directory della società utilizzando l'area di lavoro mobile</span><span class="sxs-lookup"><span data-stu-id="61b12-139">View the company directory by using the mobile workspace</span></span>
-1.  <span data-ttu-id="61b12-140">Nell'app mobile, selezionare l'area di lavoro **Directory società**.</span><span class="sxs-lookup"><span data-stu-id="61b12-140">In the mobile app, select the **Company directory** workspace.</span></span> <span data-ttu-id="61b12-141">Viene visualizzato un elenco dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="61b12-141">A list of employees is shown.</span></span>
-3.  <span data-ttu-id="61b12-142">Selezionare un dipendente.</span><span class="sxs-lookup"><span data-stu-id="61b12-142">Select an employee.</span></span> <span data-ttu-id="61b12-143">Viene visualizzata la pagina **Profilo dipendente**.</span><span class="sxs-lookup"><span data-stu-id="61b12-143">The **Employee profile** page appears.</span></span> <span data-ttu-id="61b12-144">Le informazioni contenute in questa pagina includono il nome, il cognome, la titolo e il reparto del dipendente.</span><span class="sxs-lookup"><span data-stu-id="61b12-144">The information on this page includes the employee's first name, last name, title, and department.</span></span>
+## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="63302-139">Visualizzare la directory della società utilizzando l'area di lavoro mobile</span><span class="sxs-lookup"><span data-stu-id="63302-139">View the company directory by using the mobile workspace</span></span>
+1.  <span data-ttu-id="63302-140">Nell'app mobile, selezionare l'area di lavoro **Directory società**.</span><span class="sxs-lookup"><span data-stu-id="63302-140">In the mobile app, select the **Company directory** workspace.</span></span> <span data-ttu-id="63302-141">Viene visualizzato un elenco dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="63302-141">A list of employees is shown.</span></span>
+3.  <span data-ttu-id="63302-142">Selezionare un dipendente.</span><span class="sxs-lookup"><span data-stu-id="63302-142">Select an employee.</span></span> <span data-ttu-id="63302-143">Viene visualizzata la pagina **Profilo dipendente**.</span><span class="sxs-lookup"><span data-stu-id="63302-143">The **Employee profile** page appears.</span></span> <span data-ttu-id="63302-144">Le informazioni contenute in questa pagina includono il nome, il cognome, la titolo e il reparto del dipendente.</span><span class="sxs-lookup"><span data-stu-id="63302-144">The information on this page includes the employee's first name, last name, title, and department.</span></span>
 
-## <a name="search-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="61b12-145">Cercare nella directory della società utilizzando l'area di lavoro mobile</span><span class="sxs-lookup"><span data-stu-id="61b12-145">Search the company directory by using the mobile workspace</span></span>
-1.  <span data-ttu-id="61b12-146">Nell'app mobile, selezionare l'area di lavoro **Directory società**.</span><span class="sxs-lookup"><span data-stu-id="61b12-146">In the mobile app, select the **Company directory** workspace.</span></span>
-2.  <span data-ttu-id="61b12-147">Nel campo **Ricerca**, immettere il nome, il cognome, il titolo o il reparto del dipendente per avviare la ricerca.</span><span class="sxs-lookup"><span data-stu-id="61b12-147">In the **Search** field, enter an employee's first name, last name, title, or department to start the search.</span></span>
-3.  <span data-ttu-id="61b12-148">Selezionare un dipendente.</span><span class="sxs-lookup"><span data-stu-id="61b12-148">Select an employee.</span></span> <span data-ttu-id="61b12-149">Viene visualizzata la pagina **Profilo dipendente**.</span><span class="sxs-lookup"><span data-stu-id="61b12-149">The **Employee profile** page appears.</span></span> <span data-ttu-id="61b12-150">Le informazioni contenute in questa pagina includono il nome, il cognome, la titolo e il reparto del dipendente.</span><span class="sxs-lookup"><span data-stu-id="61b12-150">The information on this page includes the employee's first name, last name, title, and department.</span></span>
+## <a name="search-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="63302-145">Cercare nella directory della società utilizzando l'area di lavoro mobile</span><span class="sxs-lookup"><span data-stu-id="63302-145">Search the company directory by using the mobile workspace</span></span>
+1.  <span data-ttu-id="63302-146">Nell'app mobile, selezionare l'area di lavoro **Directory società**.</span><span class="sxs-lookup"><span data-stu-id="63302-146">In the mobile app, select the **Company directory** workspace.</span></span>
+2.  <span data-ttu-id="63302-147">Nel campo **Ricerca**, immettere il nome, il cognome, il titolo o il reparto del dipendente per avviare la ricerca.</span><span class="sxs-lookup"><span data-stu-id="63302-147">In the **Search** field, enter an employee's first name, last name, title, or department to start the search.</span></span>
+3.  <span data-ttu-id="63302-148">Selezionare un dipendente.</span><span class="sxs-lookup"><span data-stu-id="63302-148">Select an employee.</span></span> <span data-ttu-id="63302-149">Viene visualizzata la pagina **Profilo dipendente**.</span><span class="sxs-lookup"><span data-stu-id="63302-149">The **Employee profile** page appears.</span></span> <span data-ttu-id="63302-150">Le informazioni contenute in questa pagina includono il nome, il cognome, la titolo e il reparto del dipendente.</span><span class="sxs-lookup"><span data-stu-id="63302-150">The information on this page includes the employee's first name, last name, title, and department.</span></span>
 
