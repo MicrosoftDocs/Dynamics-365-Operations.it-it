@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione avanzata di magazzino. Questa operazione viene generalmente effettuata da un addetto al ricevimento. 
 

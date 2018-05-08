@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="customer-payment-overview"></a>Panoramica pagamenti cliente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida attività descrive vari metodi utilizzati per immettere i pagamenti cliente. In questa attività viene utilizzata la società dimostrativa USMF.
 

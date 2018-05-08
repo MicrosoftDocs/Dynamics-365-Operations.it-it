@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Progettare le configurazioni per generare i report nei formati Microsoft Office con immagini incorporate
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Per completare i passaggi in questa procedura, prima completare i passaggi della procedura "ER Creare un provider di configurazione e contrassegnarlo come attivo". In questa procedura viene illustrato come progettare le configurazioni ER per generare un documento di Microsoft Excel o Word contenente le immagini incorporate. In questa procedura, verranno create le configurazioni ER necessarie per la società di esempio, Litware, Inc. Questi passaggi possono essere completati mediante il set di dati USMF. Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. Prima di iniziare, scaricare e salvare i file elencati nell'argomento della Guida: [Incorporare immagini e forme nei documenti aziendali generati mediante lo strumento di creazione di report elettronici](../electronic-reporting-embed-images-shapes.md). I file sono: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png e Cheque template Word.docx.
 

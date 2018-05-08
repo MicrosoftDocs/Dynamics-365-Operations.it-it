@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="running-average-cost-price"></a>Prezzo di costo medio corrente
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Il processo di chiusura dell'inventario  consente di compensare le transazioni in uscita a fronte delle transazioni in entrata in base al metodo di valutazione del magazzino selezionato nel gruppo di modelli di articoli dell'articolo. Prima di eseguire la chiusura dell'inventario, tuttavia, il sistema calcola un prezzo di costo medio corrente che viene in genere utilizzato per la registrazione delle transazioni in uscita.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidare un pagamento fornitore parziale e il pagamento finale completo prima della data dello sconto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo descrive uno scenario in cui vengono effettuati pagamenti parziali per una fattura fornitore e viene preso uno sconto di cassa.
 

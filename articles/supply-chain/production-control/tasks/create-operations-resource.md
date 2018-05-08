@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-an-operations-resource"></a>Creare una risorsa operativa
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Una risorsa operativa esegue le attività di un progetto o di un processo di produzione. In questa procedura viene illustrato come definire una risorsa operativa. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.
 

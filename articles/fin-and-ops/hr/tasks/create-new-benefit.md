@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-new-benefit"></a>Crea un nuovo benefit
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività indicherà come creare elementi di benefit che verranno utilizzati durante la creazione di un nuovo benefit. La società di dati dimostrativi utilizzata per creare questa attività è USMF. Questa attività è destinata al responsabile retribuzione e benefit.
 

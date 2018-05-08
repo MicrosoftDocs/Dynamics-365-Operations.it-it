@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Eliminare un cespite utilizzando una fattura a testo libero
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come acquisire un cespite utilizzando la proposta di acquisizione nel giornale di registrazione cespiti. Utilizza il ruolo Ragioniere e i dati dimostrativi della persona giuridica USMF.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>Configurare la gestione delle spese
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di configurare la gestione delle spese in Microsoft Dynamics 365 for Finance and Operations. In Gestione spese, è possibile archiviare informazioni su metodi di pagamento, richieste di viaggio, note spese, criteri e altro ancora.
 

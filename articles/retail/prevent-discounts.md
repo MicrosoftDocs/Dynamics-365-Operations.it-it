@@ -29,7 +29,7 @@ ms.lasthandoff: 10/24/2017
 
 # <a name="prevent-discounts-for-retail-products"></a>Impedire sconti per prodotti al dettaglio
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Esistono vari motivi per cui i rivenditori intendono non applicare sconti ad alcuni prodotti durante una promozione o la vendita al POS.
 

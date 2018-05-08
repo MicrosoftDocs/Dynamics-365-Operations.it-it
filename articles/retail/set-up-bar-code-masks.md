@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>Impostare le maschere codice a barre
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come impostare i caratteri di maschera codice a barre e come assegnare le maschere codice a barre ai codici a barre.
 

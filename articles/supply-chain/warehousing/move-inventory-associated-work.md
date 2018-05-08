@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Movimento di magazzino e lavoro associato in Gestione magazzino
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilizzo il movimento dell'inventario, è possibile decidere quali lavoratori del magazzino sono autorizzati a spostare le scorte prenotate. In questo modo si ottiene una flessibilità nei magazzini regolamentati in cui è possibile scegliere di non consentire a un lavoratore di selezionare una nuova ubicazione di prelievo per il lavoro del prelievo che è già creato. Consente inoltre a un responsabile del magazzino di verificare quali competenze dovrebbero avere alcuni lavoratori con meno esperienza.
 

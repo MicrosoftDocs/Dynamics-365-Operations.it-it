@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="purchase-orders-for-a-project"></a>Ordini fornitore per un progetto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo descrive i vari metodi da utilizzare per creare ordini fornitore per un progetto. Il metodo utilizzato dipende dallo scopo dell'ordine fornitore, da quando gli articoli acquistati vengono consumati e da quando vengono addebitati a un progetto.
 

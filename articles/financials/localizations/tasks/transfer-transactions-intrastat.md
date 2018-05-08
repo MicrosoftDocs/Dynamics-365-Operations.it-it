@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-transactions-to-the-intrastat"></a>Trasferire transazioni a Intrastat
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra come impostare i parametri Intrastat e trasferire le transazioni a Intrastat. Questa procedura è stata creata utilizzando la società di dati dimostrativi DEMF.
 

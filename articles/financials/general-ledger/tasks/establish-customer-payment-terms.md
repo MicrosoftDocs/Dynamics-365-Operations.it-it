@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-payment-terms"></a>Definire condizioni di pagamento cliente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura consente di definire un'impostazione dello sconto di cassa e della data di scadenza. Questa guida attività utilizza la società dimostrativa USMF.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Prenotare quantità di scorte
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono descritte le diverse opzioni disponibili per prenotare le scorte.
 

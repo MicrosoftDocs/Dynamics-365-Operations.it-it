@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Rinominare o modificare una fase di progetto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Le fasi di progetto possono essere utilizzate come pratici riferimenti per seguire il ciclo di vita del progetto. È possibile definire le fasi del progetto da includere nei progetti nell'area Fase progetto della pagina Parametri Gestione progetti e contabilità. Dynamics 365 for Finance and Operations fornisce cinque fasi di progetto predefinite e tre fasi definite dall'utente. È possibile aggiornare il nome di una fase di progetto utilizzata per tenere traccia dello stato di avanzamento dei progetti. È anche possibile immettere i nomi degli stati definiti dall'utente. In questa attività viene illustrato come rinominare o modificare una fase di progetto e viene utilizzato il set di dati USSI.
 

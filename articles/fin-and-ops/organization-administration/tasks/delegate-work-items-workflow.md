@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Delegare elementi di lavoro in un flusso di lavoro
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Se si prevede di restare assenti dall'ufficio o di non essere disponibili per intervenire su alcuni elementi di lavoro, è possibile delegare o riassegnare i propri elementi di lavoro ad altri utenti. La procedura consente di configurare il sistema in modo da delegare automaticamente gli elementi di lavoro a un altro utente.
 

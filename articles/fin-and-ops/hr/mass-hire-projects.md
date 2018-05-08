@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Progetti di assunzione collettiva
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I progetti di assunzione collettiva consentono ai responsabili delle risorse umane di creare più posizioni e assumere in modo efficiente i lavoratori per tali posizioni.
 

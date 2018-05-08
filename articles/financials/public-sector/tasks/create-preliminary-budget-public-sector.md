@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Creare un budget preliminare per il settore pubblico
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 È possibile creare voci del registro di budget preliminare per un modello di budget e valori di dimensione specifici. Una volta approvato il budget effettivo, è possibile creare le voci del registro di budget originale. Questa procedura è stata creata utilizzando i dati della società di dati dimostrativi PSUS nella partizione del settore pubblico.
 

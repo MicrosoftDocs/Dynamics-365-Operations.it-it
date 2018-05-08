@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-time-and-attendance"></a>Orario e presenze vendita al dettaglio
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti gli scenari supportati per la gestione di orario e presenze in Microsoft Dynamics 365 for Retail. 
 

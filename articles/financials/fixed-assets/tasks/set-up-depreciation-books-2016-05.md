@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-depreciation-books"></a>Impostare i registri dei beni ammortizzabili  
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida attività creerà un nuovo registro beni ammortizzabili e lo assocerà a un gruppo cespite.  Utilizza il ruolo Ragioniere e i dati dimostrativi per la persona giuridica USMF.
 

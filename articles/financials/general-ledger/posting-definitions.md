@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="posting-definitions"></a>Definizioni di registrazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sulle definizioni di registrazione e sul modo in cui definirle e collegarle. Per i tipi di registrazione e i documenti supportati è possibile utilizzare definizioni di registrazione anziché profili di registrazione per classificare i conti principali e le dimensioni finanziarie nelle voci contabili.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="system-grouping-on-an-open-work-list"></a>Raggruppamento di sistema in un elenco lavori aperti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilizzando un campo di raggruppamento di sistema, è possibile filtrare un elenco lavori aperti senza dover modificare la voce di menu del dispositivo mobile.
 Dove applicabile, il raggruppamento di sistema filtra un elenco lavori in un singolo campo intestazione lavoro. Non è possibile utilizzare il raggruppamento di sistema per filtrare i campi a livello di riga.

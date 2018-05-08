@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Report rollforward cespiti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Il report **rollforward cespiti** fornisce, in un formato Microsoft Excel di facile lettura, i dati dettagliati dei cespiti necessari per la chiusura di periodi, rendiconti finanziari e rendiconti fiscali. Il report include i saldi di inizio e di fine per i cespiti, unitamente ai movimenti di valutazione del periodo e a qualsiasi nuova acquisizione e dismissione di cespiti verificatasi nel periodo. I dati sono riportati per i singoli cespiti e sono inoltre riepilogati per gruppi di cespiti e persona giuridica.
 

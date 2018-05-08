@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="work-breakdown-structures"></a>Strutture di suddivisione del lavoro
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una struttura di suddivisione del lavoro è una descrizione del lavoro che verrà eseguito per un progetto. È una gerarchia di attività che rappresenta la conoscenza da parte del team di progetto della composizione del lavoro e delle dimensione, del costo e della durata di ciascun componente o attività. Una struttura di suddivisione del lavoro presenta tre scopi principali:
 

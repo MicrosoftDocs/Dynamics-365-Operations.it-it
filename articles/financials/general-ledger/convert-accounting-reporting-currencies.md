@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Convertire valute di contabilizzazione o di dichiarazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una società che deve cambiare la valuta di contabilizzazione o la valuta di dichiarazione ha due opzioni. La prima opzione è creare una nuova società e iniziare da zero. La seconda opzione è eseguire il processo di conversione delle valute di contabilizzazione e di dichiarazione. Si tratta di un processo molto lungo che modifica ogni transazione nel sistema. Prima di eseguire il processo, è necessario effettuare alcune impostazioni.
 

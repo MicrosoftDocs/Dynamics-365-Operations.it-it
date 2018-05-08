@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>Generare un documento di trasferimento per un trasferimento scorte interno
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come creare documenti di trasferimento per il movimento di merci in una società. Questa procedura è disponibile solo per le persone giuridiche con un indirizzo principale in Lituania. La procedura è stata creata utilizzando la società di dati dimostrativi DEMF con un indirizzo principale in Lituania. Prima di poter eseguire la procedura, è necessario completare la procedura 'Impostare documenti di trasferimento per il movimento di merci in una società'. Questa procedura è destinata ai contabili di inventario. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
 

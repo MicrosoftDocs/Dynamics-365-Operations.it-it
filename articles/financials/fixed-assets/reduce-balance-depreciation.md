@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Ammortamento a saldi decrescenti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti.
 

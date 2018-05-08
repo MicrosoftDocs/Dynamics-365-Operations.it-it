@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-purchasing-policies"></a>Creazione di criteri di acquisto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura vi mostra come creare criteri acquisto da allineare con i vostri processi aziendali per acquistare. Prima di creare criteri di acquisto, è necessario impostare i parametri dei criteri di acquisto. È possibile creare, modificare e ritirare criteri di acquisto, ma non eliminarli. In genere questa procedura sarà svolta da un responsabile acquisti. È necessario impostare le classificazioni del contratto di acquisto prima di iniziare.
 

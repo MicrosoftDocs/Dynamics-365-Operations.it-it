@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Impostare un alias conto CoGe
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come creare un alias di conto che fornisce un collegamento per immettere un numero di conto. Questa procedura utilizza la società di dati dimostrativi USMF.
 

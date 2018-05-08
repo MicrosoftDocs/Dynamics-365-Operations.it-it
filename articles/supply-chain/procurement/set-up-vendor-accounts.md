@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-vendor-accounts"></a>Impostare conti fornitore
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore.
 

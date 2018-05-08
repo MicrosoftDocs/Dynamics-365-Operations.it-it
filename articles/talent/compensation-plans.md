@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="compensation-plans"></a>Piani di retribuzione
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 I responsabili di benefit e retribuzione possono utilizzare la gestione della retribuzione per gestire ed elaborare i piani di retribuzione fissa e variabile per i dipendenti dell'organizzazione.
 

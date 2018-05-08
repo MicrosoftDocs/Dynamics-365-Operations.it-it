@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-subcontracting-work-in-production"></a>Gestire il lavoro in conto lavoro in produzione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Microsoft Dynamics 365 for Finance and Operations. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
 

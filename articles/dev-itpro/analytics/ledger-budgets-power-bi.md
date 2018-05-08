@@ -26,7 +26,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="actual-vs-budget-power-bi-content"></a>Contenuto Power BI Effettivi rispetto al budget
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento descrive il contenuto Microsoft Power BI **Effettivi rispetto al budget**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto. 
 

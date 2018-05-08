@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-organization-hierarchy"></a>Creare una gerarchia organizzativa
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Per creare una gerarchia organizzativa, attenersi alla seguente procedura. È possibile utilizzare le gerarchie organizzative per la visualizzazione e il reporting dell'attività aziendale da varie prospettive. È possibile impostare, ad esempio, una gerarchia per una dichiarazione fiscale, legale o statutaria. È quindi possibile impostare un'altra gerarchia per il reporting di informazioni finanziarie non obbligatorio per legge, ma utilizzato per la creazione di report interni. 
 

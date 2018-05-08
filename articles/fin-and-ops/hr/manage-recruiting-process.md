@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-a-recruiting-process"></a>Gestire un processo di selezione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto un concetto che i reclutatori possono utilizzare per tenere traccia dei passaggi del processo di selezione, incluse le operazioni per annunciare le posizioni aperte e selezionare i candidati, per tenere traccia delle informazioni su candidati e domande di lavoro, per effettuare i colloqui con i candidati e per selezionare uno o più candidati per occupare le posizioni aperte nell'organizzazione.
 

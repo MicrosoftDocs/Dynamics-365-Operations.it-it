@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Rendiconto bancario e riconciliazione dei pagamenti dell'UE
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene fornita una panoramica delle funzionalità che è possibile utilizzare per riconciliare le informazioni sul pagamento dalle banche dei formati utilizzati dai paesi europei.
 

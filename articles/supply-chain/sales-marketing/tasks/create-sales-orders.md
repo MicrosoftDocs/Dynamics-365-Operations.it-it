@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>Crea ordine cliente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura indica come creare un ordine cliente. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF. Gli ordini cliente vengono in genere creati da un sistema di elaborazione degli ordini cliente. 
 

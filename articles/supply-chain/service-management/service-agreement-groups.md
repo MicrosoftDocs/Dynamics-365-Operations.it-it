@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Gruppi contratti di assistenza 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I gruppi di contratti di assistenza sono utili per ordinare e filtrare i contratti di assistenza. Grazie a tali gruppi è possibile, ad esempio, raggruppare i contratti in base alle dimensioni della società, alla posizione geografica o al settore. In alternativa, il raggruppamento può essere eseguito in base al livello di servizio offerto a un cliente.
 

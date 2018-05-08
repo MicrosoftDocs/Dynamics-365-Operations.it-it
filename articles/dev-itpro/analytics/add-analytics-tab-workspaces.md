@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Aggiungere l'analisi alle aree di lavoro tramite Power BI Embedded
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Questa funzionalità è supportata in Dynamics 365 for Finance and Operations (versione 7.2 e successiva).

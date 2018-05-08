@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="split-payment-for-invoices-issued-to-the-public-administration"></a>Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.
 
@@ -44,7 +44,7 @@ Nella seguente tabella vengono visualizzati i prerequisiti che devono essere val
 
 Creare un nuovo conto principale per la scissione dei pagamenti IVA, quindi selezionare **IVA** nel campo **Tipo di registrazione**. Creare un gruppo di registrazione per la scissione dei pagamenti IVA, quindi selezionare il conto CoGe creato nei campi **IVA a debito**, **IVA a credito** e **Conto di liquidazione**.
 
-**Impostazione:**IVA
+**Impostazione:** IVA
 
 Creare una **Fascia IVA** per la Pubblica amministrazione, quindi selezionare l'opzione **Scissione dei pagamenti**. Creare un codice IVA per la scissione dei pagamenti IVA. Impostare il valore utilizzabile per il paese, quindi aggiungere il codice IVA in **Fascia IVA** e **Fascia IVA articoli**.
 

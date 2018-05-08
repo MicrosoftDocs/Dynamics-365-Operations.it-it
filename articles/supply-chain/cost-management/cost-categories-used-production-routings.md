@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Categorie di costi utilizzate nei cicli di lavorazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sulle categorie di costi applicate agli ambienti di produzione che utilizzano i cicli di lavorazione.
 

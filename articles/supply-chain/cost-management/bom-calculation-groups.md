@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations-groups"></a>Gruppi di calcolo DBA
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo sono riportate informazioni sui gruppi di calcolo per le distinte base (DBA) e su come impostarli. Per eseguire un calcolo DBA, è necessario impostare i gruppi di calcolo e assegnarli ai singoli articoli oppure impostare un gruppo di calcolo predefinito. Le impostazioni di calcolo dal gruppo di calcolo vengono poi utilizzate come valori predefiniti nella pagina Calcolo DBA al momento del calcolo DBA. 
 

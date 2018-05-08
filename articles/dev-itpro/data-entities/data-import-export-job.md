@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="data-import-and-export-jobs"></a>Processi di importazione ed esportazione di dati
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Per creare e gestire processi di importazione ed esportazione di dati in Microsoft Dynamics 365 for Finance and Operations si utilizza l'area di lavoro **Gestione dati**. Per impostazione predefinita, il processo di importazione ed esportazione crea una tabella di gestione temporanea per ciascuna entità nel database di destinazione. Le tabelle di gestione temporanea consentono di verificare, pulire o convertire i dati prima di spostarli.
 

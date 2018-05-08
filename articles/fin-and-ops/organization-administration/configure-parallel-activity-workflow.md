@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>Configurare un'attività parallela in un flusso di lavoro
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Per configurare un'attività parallela, attenersi alle procedure indicate di seguito nell'editor flusso di lavoro.
 

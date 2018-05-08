@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-production-orders-as-finished"></a>Dichiarare finiti gli ordini di produzione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dichiara finito è una fase di produzione. In questa fase, un prodotto finito viene dichiarato e spostato dall'ordine di produzione all'inventario.
 

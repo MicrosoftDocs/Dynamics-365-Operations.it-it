@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Terminologia della contabilità industriale
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono definiti i termini principali utilizzati in Contabilità industriale.
 

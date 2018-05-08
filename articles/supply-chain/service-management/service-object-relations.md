@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-relations"></a>Relazioni oggetti assistenza 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 È possibile creare relazioni tra un oggetto assistenza e un contratto di assistenza o un ordine di assistenza. Per creare una relazione, è necessario collegare l'oggetto assistenza al contratto o all'ordine di assistenza.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="design-a-domain-specific-data-model-for-electronic-reporting-er"></a>Progettare un modello di dati specifico del dominio per la creazione di report elettronici (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici che contiene un modello dati per i documenti di pagamento elettronico. Questo modello dati verrà utilizzato successivamente come origine dati quando si crea il formato dei documenti di pagamento.
 

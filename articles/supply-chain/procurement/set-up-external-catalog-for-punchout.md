@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Impostare un catalogo esterno per PunchOut eProcurement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilizzando il catalogo esterno, è possibile garantire che le informazioni sul prezzo e sul prodotto che vengono elaborate successivamente in Dynamics 365 for Finance and Operations di luglio 2017 siano aggiornate e accurate. La richiesta può quindi essere approvata e convertita in ordine fornitore e l'ordine può essere piazzato al fornitore.
 

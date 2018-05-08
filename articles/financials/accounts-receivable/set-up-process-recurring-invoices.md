@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Impostare ed elaborare fatture ricorrenti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo illustra come impostare ed elaborare le fatture ricorrenti. È possibile utilizzare le fatture ricorrenti se è necessario fatturare ai clienti lo stesso importo su base regolare.
 

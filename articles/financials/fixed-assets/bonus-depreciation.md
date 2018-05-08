@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bonus-depreciation"></a>ammortamento straordinario
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce una panoramica delle funzionalità di ammortamento straordinario.
 

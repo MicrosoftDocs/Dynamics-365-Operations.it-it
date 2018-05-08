@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="payment-methods"></a>Metodi di pagamento
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Ogni tipo di pagamento accettato dal rivenditore deve essere configurato quando si imposta il sistema. Questo articolo descrive i tipi di pagamento impostati e il processo per impostarli.
 

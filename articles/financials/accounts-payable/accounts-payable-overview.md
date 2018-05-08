@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>Configurare la contabilità fornitori
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo descrive le pagine utilizzate per impostare le funzionalità di base e facoltative per la contabilità fornitori in Microsoft Dynamics 365 for Finance and Operations. Vengono descritti i passaggi di configurazione da completare prima di iniziare a impostare la contabilità fornitori.
 

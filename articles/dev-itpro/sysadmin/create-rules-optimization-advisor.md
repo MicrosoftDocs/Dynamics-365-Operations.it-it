@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>Creare regole per il consulente dell'ottimizzazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene spiegato come creare nuove regole per il **consulente dell'ottimizzazione**. Ad esempio, è possibile creare una nuova regola che identifica quali casi di richieste di offerta (RdO) hanno un titolo vuoto. L'uso di titoli nei casi li rende facilmente identificabili e ricercabili. Anche se abbastanza semplice, questo esempio mostra i risultatiti che è possibile ottenere con le regole di ottimizzazione. 
 

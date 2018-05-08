@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Utilizzare un pagamento cliente per liquidare più fatture che coprono più periodi di sconto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento mostra come vengono pagate più fatture quando ogni fattura consente di ottenere uno sconto di cassa. Gli scenari dell'articolo evidenziano le variazioni degli sconti di cassa ottenuti, a seconda di quando si effettua il pagamento.
 

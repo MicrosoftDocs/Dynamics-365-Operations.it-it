@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Richieste di offerta (RdO)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento è riportata una panoramica relativa alle richieste di offerta (RdO). Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori. In una richiesta di offerta viene richiesto ai fornitori di fornire i prezzi e i tempi di consegna per le quantità di articoli specificati.
 È inoltre possibile chiedere ai fornitori di specificare se esistono eventuali spese accessorie, ad esempio i costi di spedizione o se il fornitore offre sconti per grandi ordini o per il pagamento anticipato della fattura fornitore.

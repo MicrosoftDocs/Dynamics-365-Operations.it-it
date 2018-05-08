@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>Configura un punto vendita online
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 L'articolo include collegamenti ad argomenti che spiegano come configurare e gestire centralmente un punto vendita online.
 

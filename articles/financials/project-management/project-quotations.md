@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Offerte di progetto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Viene introdotto il concetto delle offerte di progetto da utilizzare per fare un'offerta attraente a un cliente come primo passaggio della fase di progetto. Un'offerta di progetto può comprendere articoli e servizi inclusi, informazioni di base sul contatto, accordi commerciali e sconti speciali e possibili imposte e supplementi. 
 

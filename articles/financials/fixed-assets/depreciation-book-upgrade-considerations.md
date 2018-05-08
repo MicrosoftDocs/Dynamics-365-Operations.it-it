@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Panoramica sull'aggiornamento dei registri beni ammortizzabili
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti: modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 for Operations (1611), le funzionalità dei modelli di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro. In questo argomento vengono fornite alcune considerazioni per l'aggiornamento. 
 
@@ -62,17 +62,17 @@ Opzione 2: **Sequenza numerica definita dall'utente esistente** - Questa opzione
 I parametri sono situati all'inizio della classe ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 
 
 *// Specificare un approccio preferibile di allocazione di giustificativi* 
-*// true, se si desidera utilizzare un codice di sequenza numerica esistente* 
-*// false, se si intende utilizzare la sequenza numerica definita dal sistema (predefinita)* const boolean NumberSequenceUseExistingCode = false;  
+ *// true, se si desidera utilizzare un codice di sequenza numerica esistente* 
+ *// false, se si intende utilizzare la sequenza numerica definita dal sistema (predefinita)* const boolean NumberSequenceUseExistingCode = false;  
 
 *// Se si utilizza l'approccio di sequenza numerica definito dal sistema, specificare i parametri per la sequenza numerica.*
-*// Una nuova sequenza numerica verrà creata con questi parametri.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Una nuova sequenza numerica verrà creata con questi parametri.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Se si utilizza l'approccio di sequenza numerica esistente, specificare il codice di sequenza numerica esistente.* 
-*// L'allocazione dei giustificativi procederà riga per riga per le sequenze numeriche esistenti.* const str NumberSequenceExistingCode = ''; *// Specificare l'ambito del codice della sequenza numerica esistente* 
-*// true, se la sequenza numerica specificata è condivisa* 
-*// false, se la sequenza numerica specificata è per singola società* 
-*// La sequenza numerica definita dal sistema predefinita verrà utilizzata se un codice di sequenza numerica con l'ambito specificato non viene trovato.* const boolean NumberSequenceExistingIsShared = true; 
+ *// L'allocazione dei giustificativi procederà riga per riga per le sequenze numeriche esistenti.* const str NumberSequenceExistingCode = ''; *// Specificare l'ambito del codice della sequenza numerica esistente* 
+ *// true, se la sequenza numerica specificata è condivisa* 
+ *// false, se la sequenza numerica specificata è per singola società* 
+ *// La sequenza numerica definita dal sistema predefinita verrà utilizzata se un codice di sequenza numerica con l'ambito specificato non viene trovato.* const boolean NumberSequenceExistingIsShared = true; 
 
 Ricompilare il progetto contenente la classe dopo che le costanti sono state modificate. 
 

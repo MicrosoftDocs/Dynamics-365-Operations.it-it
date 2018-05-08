@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Creare un contratto per linea di credito bancaria per una lettera di credito
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa attività viene illustrato come creare un contratto per linea di credito bancaria per elaborare una lettera di credito. Si consiglia di impostare le linee di credito bancarie e i profili di registrazione prima di tale attività.  In questa attività viene utilizzata la società dimostrativa "USMF".  
 

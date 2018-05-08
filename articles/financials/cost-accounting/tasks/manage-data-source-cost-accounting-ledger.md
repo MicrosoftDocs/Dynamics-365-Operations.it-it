@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Gestire un'origine dati per un movimento CoGe di contabilità industriale
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilizzare questa procedura per gestire l'origine dati della contabilità generale per un movimento CoGe di contabilità industriale. Prima di completare questa attività, verificare di aver eseguito le guide attività "Creare un movimento CoGe di contabilità industriale" e "Definire unità di controllo costi". Questa registrazione utilizza i dati dimostrativi della società USP2.
 

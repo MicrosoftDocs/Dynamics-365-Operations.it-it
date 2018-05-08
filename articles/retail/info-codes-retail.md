@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="info-codes"></a>Codici informativi
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Questo articolo fornisce una panoramica sui codici informazioni, sui gruppi di codici informazioni e su come utilizzarli.
 

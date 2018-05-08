@@ -26,7 +26,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="production-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di produttività
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto cosa è incluso nel contenuto Microsoft Power BI **Prestazioni di produttività**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 

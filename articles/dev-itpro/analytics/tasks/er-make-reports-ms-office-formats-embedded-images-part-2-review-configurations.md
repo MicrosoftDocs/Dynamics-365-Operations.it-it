@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Verificare le configurazioni per creare i report nei formati Microsoft Office con immagini incorporate
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività "ER Creare report in formati di Microsoft Office con immagini incluse (Parte 1: Generare i report)".
 

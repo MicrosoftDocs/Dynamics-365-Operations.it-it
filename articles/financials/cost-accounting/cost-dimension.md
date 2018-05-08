@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Creare dimensioni e importare i membri di dimensione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La contabilità industriale è un modulo indipendente che necessita dei dati di altri moduli. Questi dati sono suddivisi nelle seguenti categorie:
 

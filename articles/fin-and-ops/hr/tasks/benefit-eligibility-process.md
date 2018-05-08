@@ -24,7 +24,7 @@ ms.lasthandoff: 02/14/2018
 ---
 # <a name="benefit-eligibility-process"></a>Elaborare l'idoneità al benefit
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per utilizzare il processo di idoneità al benefit. Al termine del processo, sarà possibile visualizzare i risultati. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-vendors-for-specific-products"></a>Approvare fornitori per prodotti specifici
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come approvare i fornitori per prodotti specifici. Ciò consente di controllare quali fornitori possono essere utilizzati quando il prodotto viene aggiunto a un ordine fornitore. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. In genere questa attività sarà svolta da un responsabile acquisti.
 

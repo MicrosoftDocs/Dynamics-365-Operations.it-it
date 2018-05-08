@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Utilizzare il giornale di registrazione delle scorte di sicurezza per aggiornare la copertura minima
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come calcolare le proposte di copertura minima basate sulle transazioni storiche e poi aggiornare la copertura articoli con le proposte. Ciò viene effettuato facendo uso del giornale di registrazione delle scorte di sicurezza. La società di dati dimostrativi utilizzata per creare questa attività è USMF. Questa attività è destinata al responsabile pianificazione della produzione, per facilitare il mantenimento della copertura minima.
 

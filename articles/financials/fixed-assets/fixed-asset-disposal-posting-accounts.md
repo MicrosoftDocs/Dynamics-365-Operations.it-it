@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Conti di registrazione di dismissione cespiti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento illustra come impostare i conti di registrazione della contabilità generale per la dismissione dei cespiti.
 

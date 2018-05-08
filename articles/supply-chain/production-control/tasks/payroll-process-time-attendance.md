@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Attivare il processo di retribuzione per orario e presenze
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come abilitare il processo di retribuzione per orario e presenze. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

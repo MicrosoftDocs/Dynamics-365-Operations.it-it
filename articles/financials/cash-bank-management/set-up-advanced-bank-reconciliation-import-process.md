@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Impostare il processo di importazione di riconciliazione bancaria avanzata
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La funzionalità di riconciliazione estratti conto avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations. In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari. 
 

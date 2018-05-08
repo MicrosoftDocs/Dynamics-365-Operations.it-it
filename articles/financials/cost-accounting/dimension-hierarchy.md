@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="dimension-hierarchy"></a>Gerarchia dimensioni
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sulle gerarchie di dimensioni. È possibile utilizzare una gerarchia di dimensioni per definire la struttura di report, i criteri di costo e l'impostazione di sicurezza nella contabilità industriale.  
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Parametri di produzione di Esecuzione produzione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento fornisce informazioni sulla configurazione dei parametri di produzione in Esecuzione produzione.
 

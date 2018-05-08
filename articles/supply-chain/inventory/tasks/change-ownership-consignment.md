@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Modificare la proprietà dell'inventario spedizione in base alla domanda di produzione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come modificare il proprietario dell'inventario di spedizione dal fornitore alla persona giuridica quando c'è domanda di inventario nella produzione. Questo cambio di proprietà viene eseguito creando e registrando un giornale di registrazione modifiche proprietà inventario. Le righe del giornale di registrazione modifiche proprietà possono essere create manualmente oppure, come illustrato nella registrazione corrente, in base alla domanda di produzione esistente. In genere, un supervisore dello shop floor esegue questa attività. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure sui propri dati. Se si utilizzano i propri dati, verificare che siano presenti i seguenti prerequisiti: un nome di giornale di registrazione inventario impostato per la modifica di proprietà di inventario, gli articoli registrati di proprietà del fornitore fisicamente disponibili e una o più righe di ordine di produzione per il materiale. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations, versione 1611.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-injury-and-illness-information"></a>Imposta le informazioni su infortunio e malattia
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 I datori di lavoro devono sapere se i propri dipendenti si feriscono o si ammalano a causa dei rischi nel luogo di lavoro. È possibile utilizzare la pagina di infortunio e malattia per impostare le informazioni che semplificano la dichiarazione di infortuni o malattie sul posto di lavoro. È possibile impostare i tipi di infortuni e di malattie, inclusi i tipi di trattamenti, i costi e gli esiti. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

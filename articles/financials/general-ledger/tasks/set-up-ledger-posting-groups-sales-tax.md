@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Impostare gruppi di registrazione contabile per l'IVA
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 L'IVA viene calcolata e registrato nei conti principali specificati in Gruppi registrazione contabile. I gruppi di registrazione contabile vengono collegati a ciascun codice IVA. È possibile impostare singoli gruppi di registrazione contabile per ciascun codice IVA, utilizzare un solo gruppo per tutti i codici IVA o assegnare più gruppi ai codici IVA. Questa registrazione utilizza la società dimostrativa DEMF. 
 

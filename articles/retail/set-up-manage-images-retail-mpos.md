@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Impostare e gestire immagini per Retail Modern POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questo articolo vengono descritti i passaggi necessari per impostare e gestire le immagini per le varie entità che vengono visualizzate in Retail Modern POS (MPOS).
 

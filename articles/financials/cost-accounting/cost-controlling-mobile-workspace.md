@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-controlling-mobile-workspace"></a>Area di lavoro mobile di controllo costi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Controllo costi**. Questa area di lavoro consente ai responsabili del centro di costo visualizzare informazioni sulle prestazioni del centro di costo in qualsiasi momento e ovunque.
 

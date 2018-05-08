@@ -28,7 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurare Contabilità clienti e Crediti e riscossioni
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Configurare i moduli Contabilità clienti e Crediti e riscossioni per tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti.
 

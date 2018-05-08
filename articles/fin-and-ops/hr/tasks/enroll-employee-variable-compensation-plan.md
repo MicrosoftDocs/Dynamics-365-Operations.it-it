@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Iscrivere un dipendente a un piano di retribuzione variabile
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Il responsabile di retribuzione e benefit può iscrivere i dipendenti a piani di retribuzione variabile per calcolare i premi in contanti e quelli non in contanti per i dipendenti. In questa procedura si presuppone che un piano di retribuzione variabile sia stato creato con il campo Abilita iscrizione impostato su Sì e che le regole di idoneità siano state create per il piano di retribuzione variabile. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Per avviare la procedura, andare a Risorse umane > Lavoratori > Dipendenti > Retribuzione > Iscrizione al piano di retribuzione variabile.
 

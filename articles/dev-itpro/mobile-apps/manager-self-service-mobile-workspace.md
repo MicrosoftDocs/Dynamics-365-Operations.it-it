@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>Area di lavoro mobile Team personale
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Team personale**. Quest'area di lavoro consente ai responsabili di visualizzare i loro subalterni diretti e il personale esteso. Possono inoltre inviare complimenti ai singoli alle persone della loro catena di subalterni.
 

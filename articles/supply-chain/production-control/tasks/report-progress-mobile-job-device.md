@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Dichiarare lo stato di avanzamento di un dispositivo di lavoro mobile
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura consente di iniziare e dichiarare lo stato di avanzamento di un processo di produzione nel modulo di registrazione per il dispositivo di processo.
 

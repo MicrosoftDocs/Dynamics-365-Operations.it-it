@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-currency-exchange-rates"></a>Importa tassi di cambio valutari
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Se una persona giuridica ha ricevuto fatture in valuta estera, è necessario convertire la valuta estera in quella locale. Ciò significa che è necessario conoscere i tassi di cambio aggiornati per le diverse valute. In questo argomento viene fornita una panoramica delle impostazioni richieste e dell'elaborazione per importare i tassi di cambio estero pubblicati su Internet dai provider dei tassi di cambio, ad esempio la Banca Centrale Europea e la Banca Centrale di Russia.
 

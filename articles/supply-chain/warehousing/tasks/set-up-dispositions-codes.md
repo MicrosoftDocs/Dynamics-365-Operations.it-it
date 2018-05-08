@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-dispositions-codes"></a>Impostare codici di smaltimento
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura riguarda l'impostazione di un codice smaltimento che può essere utilizzato in un dispositivo mobile per il processo di ricezione dell'ordine di reso. I codici smaltimento sono una raccolta di regole che possono essere utilizzate quando gli articoli vengono ricevuti. Ad esempio, quando un utente di lavoro utilizza un dispositivo mobile per ricevere articoli danneggiati, l'utente deve digitalizzare un codice smaltimento per gli articoli danneggiati. Lo stato di inventario delle merci ricevute, il modello di lavoro e la direttiva ubicazione possono essere determinate dal codice smaltimento digitalizzato. Per il processo di ricezione dell'ordine fornitore e il processo di dichiarazione di finito degli ordini di produzione, l'utilizzo di un codice smaltimento è facoltativo. Per il processo di ricevimento reso dell'ordine cliente, se gli articoli vengono registrati tramite un dispositivo mobile, l'utilizzo del codice smaltimento è obbligatorio.  Questa guida è stata creata utilizzando la società di dati dimostrativi USMF. Questa procedura è destinata al responsabile del magazzino. 
 

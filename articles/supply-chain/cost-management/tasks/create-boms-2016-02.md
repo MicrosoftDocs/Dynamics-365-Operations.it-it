@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-boms-february-2016-only"></a>Creare DBA (solo febbraio 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività consente di creare la struttura della distinta base per un prodotto finito e un prodotto semilavorato. Corrisponde alla quarta attività della serie di calcoli DBA. La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 

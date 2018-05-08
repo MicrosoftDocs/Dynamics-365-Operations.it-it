@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="derived-books"></a>Libri derivati
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce una panoramica delle funzionalità dei libri derivati.
 

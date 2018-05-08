@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Progettare espressioni per chiamare i metodi delle classi dell'applicazione (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questo manuale sono disponibili informazioni su come riutilizzare la logica dell'applicazione esistente nelle configurazioni dei report elettronici (ER) chiamando i metodi richiesti delle classi dell'applicazione nelle espressioni ER. I valori degli argomenti per la chiamata delle classi possono essere definiti in modo dinamico in fase di esecuzione: ad esempio, in base alle informazioni nel documento di analisi per garantirne la correttezza. In questa guida verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. 
 

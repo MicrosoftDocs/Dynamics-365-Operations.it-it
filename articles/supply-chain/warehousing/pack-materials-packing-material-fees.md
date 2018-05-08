@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Materiali di imballaggio e addebiti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli. Per ciascun materiale di cui si compone un'unità di imballaggio viene pagato un importo per unità di peso. Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario.
 

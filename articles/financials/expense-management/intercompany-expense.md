@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-expenses"></a>Spese interaziendali
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Un lavoratore assunto da una persona giuridica in un'organizzazione può eseguire il lavoro per un'altra persona giuridica nella stessa organizzazione. In questo caso, è possibile utilizzare la funzionalità interaziendale spese per assegnare le spese del lavoratore alla persona giuridica per la quale è stato eseguito il lavoro. La persona giuridica che impiega il lavoratore è definita persona giuridica offerente. La persona giuridica per cui il lavoratore sostiene le spese viene chiamata persona giuridica richiedente. 
 

@@ -26,9 +26,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="alerts-overview"></a>Panoramica sugli avvisi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Informazioni sugli avvisi
 Gli avvisi costituiscono un sistema di notifica per gli eventi critici in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa. È possibile creare facilmente una serie di regole di avviso allo scopo di ricevere avvisi relativi a consegne scadute, ordini eliminati, prezzi modificati o altri eventi per i quali è necessario intraprendere un'azione.

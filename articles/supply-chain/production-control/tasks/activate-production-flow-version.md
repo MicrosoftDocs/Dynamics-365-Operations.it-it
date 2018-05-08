@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="activate-a-production-flow-version"></a>Attivare una versione del flusso di produzione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Prima che i processi kanban possano essere creati e le attività possano essere elaborate per una versione di flusso di produzione, dovreste attivare la versione. Come procedura consigliata, attivare la versione prima della scadenza della data e ora di inizio validità. Per completare questa attività, dovete avere una versione di flusso di produzione che ha lo stato Bozza per attivare la versione. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-agreement"></a>Creare un contratto di acquisto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura descrive la creazione di un contratto di acquisto e viene in genere effettuata da un responsabile acquisti. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. È necessario impostare le classificazioni del contratto di acquisto prima di iniziare. Una volta creato un contratto, è possibile utilizzarlo quando si crea un ordine fornitore. In questo modo le condizioni del contratto di acquisto verranno copiate nell'intestazione e in tutte le righe nell'ordine in cui sono interessate dal contratto.
 

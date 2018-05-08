@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="release-production-orders"></a>Rilasciare gli ordini di produzione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Un ordine di produzione rilasciato è un ordine che è stato autorizzato per la produzione. Il termine Rilasciato viene utilizzato per descrivere uno stato del ciclo di vita dell'ordine di produzione, quando l'ordine di produzione è disponibile per l'esecuzione nello shop floor di produzione e per i processi di magazzino. 
 

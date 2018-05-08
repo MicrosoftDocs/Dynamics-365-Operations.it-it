@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="performance-management-overview"></a>Panoramica della gestione delle prestazioni
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Il processo di gestione delle prestazioni consente ai dipendenti di documentare e discutere le prestazioni con il responsabile. A loro volta, i responsabili possono quindi fornire un riscontro e le indicazioni ai dipendenti.  
 

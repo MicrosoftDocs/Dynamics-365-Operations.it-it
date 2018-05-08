@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="use-workflows-to-manage-employee-information"></a>Utilizzare i flussi di lavoro per gestire le informazioni sui dipendenti
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare la funzionalità del flusso di lavoro per le risorse umane per gestire le informazioni sui dipendenti. Ad esempio, è possibile associare un flusso di lavoro a una posizione e configurare un flusso di lavoro di approvazione che viene avviato quando i dipendenti modificano i propri record.
 

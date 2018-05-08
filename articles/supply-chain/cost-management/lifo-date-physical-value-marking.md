@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>Data LIFO con valore fisico e contrassegno
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Data LIFO (Last In, First Out) è un modello inventariale basato sul principio LIFO. Le uscite da magazzino vengono liquidate a fronte delle ultime entrate in magazzino in base alla data della transazione di magazzino. Mediante questo modello inventariale, in assenza di entrate antecedenti all'uscita, quest'ultima viene liquidata a fronte delle entrate successive alla data dell'uscita. In caso di più uscite con la stessa data, la liquidazione può essere effettuata in base all'ordine ultima uscita, ultima entrata. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="use-the-excel-add-in"></a>Utilizzare il componente aggiuntivo di Excel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Per aprire i dati entità, è possibile iniziare da Excel o da Microsoft Dynamics 365 for Finance and Operations.
 

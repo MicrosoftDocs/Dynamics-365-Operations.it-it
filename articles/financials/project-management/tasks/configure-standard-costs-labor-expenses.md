@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configurare i costi standard di manodopera e spese
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come impostare i costi standard per la manodopera e le spese per un progetto. Questa attività utilizza il set di dati dimostrativi USSI.
 

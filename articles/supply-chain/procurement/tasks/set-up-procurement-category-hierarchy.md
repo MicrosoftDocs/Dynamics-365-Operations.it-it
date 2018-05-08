@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Impostare una gerarchia di categorie di approvvigionamento
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra come creare nuovi nodi in una gerarchia di categorie di approvvigionamento e come configurare una categoria di approvvigionamento per essere utilizzata in un processo di approvvigionamento. Queste attività verranno in genere svolte da un responsabile degli acquisti. Prima di iniziare questa procedura, deve essere presente una gerarchia di categorie di tipo approvvigionamento. Se si utilizza una società di dati dimostrativi, è possibile eseguire questa procedura nella società USMF.
 

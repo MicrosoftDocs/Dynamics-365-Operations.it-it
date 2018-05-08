@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove effettuare il lavoro nel magazzino.
 

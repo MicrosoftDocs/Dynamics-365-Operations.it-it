@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="generate-affordable-care-act-reports"></a>Generare report Affordable Care Act
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 È disponibile una funzionalità che consente ai dipendenti che devono tenere traccia delle informazioni dichiarate sui moduli 1095-B e 1095-C a supporto della parte relativa al **mandato del datore di lavoro** dell'Affordable Care Act. Questa funzionalità è abilitata solo per le persone giuridiche negli Stati Uniti.
 

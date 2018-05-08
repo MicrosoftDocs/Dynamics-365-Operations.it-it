@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Creare un progetto di assunzione collettiva
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura descrive il processo di configurazione del progetto di assunzione collettiva. Un responsabile della selezione può utilizzare i progetti di assunzione collettiva per creare facilmente più posizioni e assumere una serie di lavoratori per tali posizioni. Per iniziare questa procedura, andare a Risorse umane > Selezione del personale > Progetti di assunzione collettiva. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a> Creare un profilo visivo POS  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare un profilo visivo di un nuovo punto vendita (POS). Il profilo visivo contiene informazioni di base che determinano l'aspetto dei registratori POS. È possibile creare diversi profili visivi e assegnare quali profili specifici eseguire su registri specifici. Questa procedura utilizza la società di dati dimostrativi USRT.
 

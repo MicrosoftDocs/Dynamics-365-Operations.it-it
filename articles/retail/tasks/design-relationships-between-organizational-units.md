@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>Definire le relazioni tra le unità organizzative
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come progettare la relazione tra le unità organizzative. È necessario creare un nuovo scopo di organizzazione prima della definizione della relazione oppure è possibile utilizzare lo scopo di organizzazione esistente. La società di dati dimostrativi utilizzata per completare questa procedura è USRT. Questa attività è destinata al ruolo di amministratore.
 

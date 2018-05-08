@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>Collaborare con clienti della supply chain interna
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene descritto come visualizzare tutti gli ordini pianificati che verranno evasi da un fornitore interaziendale. La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.
 

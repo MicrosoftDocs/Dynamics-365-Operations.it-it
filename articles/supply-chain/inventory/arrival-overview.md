@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>Panoramica arrivi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo.
 

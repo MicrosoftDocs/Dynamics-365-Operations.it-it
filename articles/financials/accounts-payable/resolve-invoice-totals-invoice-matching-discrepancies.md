@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Risolvere le discrepanze durante l'abbinamento dei totali fatture
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Un tipo di convalida dell'abbinamento fatture è l'abbinamento dei totali fatture. Per fare in modo che il sistema esegua l'abbinamento dei totali fatture, nella pagina **Parametri contabilità fornitori**, nella scheda **Convalida fattura**, impostare l'opzione **Abbina totali fatture** su **Sì**. 
 

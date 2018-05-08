@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview"></a>Panoramica della compensazione/liquidazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni generali sul processo di liquidazione. Descrive i tipi di transazioni che possono essere liquidate, quando, come e i risultati del processo di liquidazione.
 

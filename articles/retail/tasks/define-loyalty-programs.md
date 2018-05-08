@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a> Definire programmi fedeltà
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per impostare un programma fedeltà con due livelli di fedeltà. Questa procedura utilizza la società di dati dimostrativi USRT.
 

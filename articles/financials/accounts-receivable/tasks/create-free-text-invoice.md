@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-a-free-text-invoice"></a>Crea una fattura a testo libero
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida attività dimostra la generazione di una fattura a testo libero. In questa attività viene utilizzata la società dimostrativa USMF.
 

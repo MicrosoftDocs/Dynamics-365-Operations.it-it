@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="search-for-vendors"></a>Ricerca di fornitori
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Informazioni su come individuare i fornitori in base a criteri specifici. In questo esempio viene illustrato come individuare i fornitori approvati per una categoria di approvvigionamento specifica con relativo indirizzo principale in un paese specifico. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. Questa attività in genere viene svolta da un responsabile degli approvvigionamenti.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Spedire ordini come consegne dirette
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura dimostra come si crea una consegna diretta per un ordine cliente. Si utilizza la consegna diretta se si desidera spedire merci al cliente direttamente dal fornitore, anziché spedirle prima al proprio magazzino. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. Per eseguire correttamente la seconda attività secondaria "Creare consegne dirette dal workbench", assicurarsi che l'articolo che si sceglie nell'ordine cliente abbia un fornitore predefinito specificato nella scheda dettaglio Acquisto della rappresentazione generale del prodotto rilasciato.
 

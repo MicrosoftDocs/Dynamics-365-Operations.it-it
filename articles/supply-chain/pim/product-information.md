@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>Panoramica delle informazioni sul prodotto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Vengono fornite le informazioni sulla gestione delle informazioni sul prodotto. Gestione informazioni sul prodotto utilizza definizione di prodotto, categorizzazione e identificatori condivisi per tutte le persone giuridiche e le configurazioni specifiche di un prodotto, per integrarsi nei processi aziendali. 
 

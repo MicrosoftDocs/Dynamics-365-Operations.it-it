@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Risoluzione dei problemi dell'impostazione budget posizione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce le risposte alle domande che potrebbero sorgere quando si configura il budget per la posizione. Risolve le domande frequenti sulla creazione degli elementi costo budget, i gruppi di retribuzione e le griglie retributive. 
 

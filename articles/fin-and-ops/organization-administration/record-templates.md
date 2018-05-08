@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>Modelli record
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo introduce il concetto di modelli di record e illustra come possono essere utilizzati per creare record che condividono le informazioni.
 

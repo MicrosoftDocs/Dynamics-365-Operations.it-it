@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Pianificazione della gerarchia organizzativa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Prima di impostare le organizzazioni e le gerarchie organizzative in Microsoft Dynamics 365 for Finance and Operations, assicurarsi di pianificare come l'azienda verrà modellata. Il modello di organizzazione ha un effetto significativo sull'implementazione di Finance and Operations e sui processi aziendali. 
 

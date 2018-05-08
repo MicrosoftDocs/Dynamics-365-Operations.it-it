@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="configure-settlement"></a>Configurare una liquidazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo articolo descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti. 
 

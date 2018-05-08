@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-interest"></a>Elaborare interessi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura indica come creare, stampare e registrare le note d'interesse. In questa attività viene utilizzata la società dimostrativa USMF.
 

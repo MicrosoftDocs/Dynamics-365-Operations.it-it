@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="automatic-settlement-and-prioritization"></a>Liquidazione automatica e priorità
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento descrive la modalità di liquidazione delle transazioni se si seleziona la liquidazione automatica nella pagina Parametri contabilità clienti. Viene anche illustrato come è possibile utilizzare la liquidazione automatica insieme alla priorità di pagamento.
 

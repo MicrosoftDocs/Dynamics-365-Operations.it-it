@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-workflow-history"></a>Visualizza storico flusso di lavoro
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Per visualizzare lo stato di un documento inviato al sistema del flusso di lavoro per l'elaborazione e l'approvazione, utilizzare alla procedura indicata di seguito. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

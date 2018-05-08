@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="benefits-power-bi-content"></a>Contenuto Benefit di Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento descrive il contenuto **Benefit** di Microsoft Power BI. Descrive come accedere ai report inclusi e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 

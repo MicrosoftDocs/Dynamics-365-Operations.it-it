@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-rollup-policy"></a>Creare criteri di rollup costi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come creare i criteri di rollup dei costi e le regole per i criteri. La società di dati dimostrativi utilizzata per creare questa procedura è USP2.
 

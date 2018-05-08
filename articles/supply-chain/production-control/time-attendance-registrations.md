@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Registrazione Orario e presenze
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I lavoratori per registrazione ore possono immettere diversi tipi di registrazioni, ad esempio ora di entrata e di uscita, registrazione per attività indirette e registrazione assenze. In questo argomento vengono descritte registrazioni, calcolo, approvazione e utilizzo del flusso di lavoro per aggiungere la struttura e l'approvazione automatica al processo di approvazione delle schede attività. 
 

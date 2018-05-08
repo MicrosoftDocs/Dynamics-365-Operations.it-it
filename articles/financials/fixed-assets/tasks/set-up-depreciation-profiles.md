@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Impostare e creare profili di ammortamento
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 I profili di ammortamento determinano il tipo e la frequenza di ammortamento per un cespite.   In questa registrazione viene utilizzata la società dimostrativa USMF e il ruolo Ragioniere.
 

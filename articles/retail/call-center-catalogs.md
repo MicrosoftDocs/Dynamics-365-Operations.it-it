@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>Cataloghi del servizio clienti
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Questo articolo descrive le funzionalità specifiche del servizio clienti per i cataloghi in Microsoft Dynamics 365 for Retail.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Home page della gestione costi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La [gestione dei costi (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) consente di utilizzare la valutazione e la contabilità per materie prime, prodotti semilavorati, prodotti finiti e cespiti semilavorati. Si tratta del processo di definizione, gestione e creazione report di [contabilità inventario](cost-object.md) e [contabilità di produzione](bom-calculations.md).
 

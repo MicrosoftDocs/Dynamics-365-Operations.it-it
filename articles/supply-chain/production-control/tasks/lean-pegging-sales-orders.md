@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="lean-pegging-from-sales-orders"></a>Pegging di produzione snella da ordini cliente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La procedura riguarda la convalida della struttura di pegging da una riga di vendita in cui l'articolo è prodotto con kanban. Dopo la convalida della struttura di pegging, tutti i processi kanban sono pianificati. Questa opzione è utile per scenari in cui l'incaricato dell'ordine cliente deve verificare che la produzione possa iniziare subito. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata per l'incaricato dell'ordine cliente avanzato che opera una società di produzione snella.
 

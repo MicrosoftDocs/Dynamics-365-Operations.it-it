@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 # <a name="reverse-charge-vat"></a>Reverse charge
 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 
 In questo argomento viene descritto un approccio generico per l'impostazione dell'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei e l'Arabia Saudita.

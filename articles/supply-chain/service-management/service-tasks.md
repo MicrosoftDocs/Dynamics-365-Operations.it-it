@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>Attività di assistenza tecnica  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilizzare le attività di assistenza tecnica per descrivere l'attività da eseguire durante un ordine di assistenza.
 Tali informazioni possono essere visualizzate sia dai tecnici che dai clienti.

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-configuration-rules"></a>Creare regole di configurazione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura crea le regole di configurazione che possono essere utilizzate per la configurazione basata su dimensioni per applicare o impedire determinate combinazioni di righe DBA. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa è la settima procedura di otto che illustra come sviluppare le combinazioni per la configurazione basata su dimensioni.
 

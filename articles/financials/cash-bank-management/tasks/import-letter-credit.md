@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-a-letter-of-credit"></a>Importare una lettera di credito
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per importare una lettera di credito. Prima di completare la procedura è necessario configurare quanto segue: le linee di credito bancarie, i profili registrazione, un contratto per linea di credito bancaria e i dettagli bancari del fornitore.
 

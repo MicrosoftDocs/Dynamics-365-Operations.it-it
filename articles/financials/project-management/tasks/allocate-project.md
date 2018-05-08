@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Allocare una revisione budget o budget di progetto tra più periodi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Dopo avere immesso un budget di progetto o una revisione budget di progetto e prima di inviarlo per l'approvazione, è possibile allocare gli importi tra più periodi. Se il budget o la revisione del budget viene rifiutata, è possibile allocare gli importi prima di inviarla nuovamente. 
 

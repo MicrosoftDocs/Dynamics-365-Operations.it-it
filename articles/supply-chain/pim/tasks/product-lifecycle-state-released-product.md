@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Assegnare uno stato del ciclo di vita prodotto a un prodotto rilasciato
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come assegnare uno stato del ciclo di vita del prodotto a un prodotto rilasciato. Prerequisito: è necessario esegure la guida di attività "Creare un nuovo stato del ciclo di vita prodotto" per verificare di avere creato almeno uno stato del ciclo di vita del prodotto prima di poter eseguire la guida.
 

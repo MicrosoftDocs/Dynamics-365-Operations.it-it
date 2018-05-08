@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Proporre acquisizioni di cespiti
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come acquisire un cespite utilizzando la proposta di acquisizione nel giornale di registrazione cespiti. Utilizza il ruolo Ragioniere e i dati dimostrativi della persona giuridica USMF.
 

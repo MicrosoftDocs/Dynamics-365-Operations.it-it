@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Gestisci modelli predefiniti dimensione finanziaria
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come impostare i modelli predefiniti delle dimensioni finanziarie. I modelli possono essere utilizzati per distribuire rapidamente importi in documenti di origine.
 

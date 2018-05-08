@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="include-physical-value"></a>Includi valore fisico
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Si utilizza la casella di controllo Includi valore fisico nella scheda dettaglio Modello inventariale della pagina Gruppi di modelli di articolo per specificare se nel calcolo del prezzo di costo medio corrente dell'articolo vengono considerate le transazioni aggiornate fisicamente.
 

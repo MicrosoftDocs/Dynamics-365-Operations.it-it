@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-containerization"></a>Impostare la containerizzazione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura descrive come automatizzare la containerizzazione dei carichi in Gestione magazzino. La containerizzazione automatica crea contenitori e il lavoro di prelievo per le spedizioni quando un'ondata viene elaborata e le righe di lavoro possono essere divise in quantità adatte ai contenitori. In questo modo i magazzinieri possono prelevare gli articoli direttamente dal contenitore specificato. Rispetto al processo manuale di imballaggio, attività quali la creazione di contenitori, l'assegnazione di articoli e la chiusura di contenitori vengono automatizzate dal sistema. Questa procedura utilizza per la società dimostrativa USMF e viene eseguita da un responsabile magazzino.
 

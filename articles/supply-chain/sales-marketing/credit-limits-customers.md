@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="credit-limits-for-customers"></a>Limiti di credito per i clienti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Impostare un limite di credito consente di specificare l'importo massimo di credito da estendere ai clienti. Se un limite di credito viene specificato, viene verificato automaticamente quando un utente tenta di aggiornare un documento. Se il limite di credito viene superato, viene visualizzato un messaggio all'utente. In questo articolo viene fornita una panoramica sull'utilizzo dei limiti di credito e le risposte alle domande seguenti:
 

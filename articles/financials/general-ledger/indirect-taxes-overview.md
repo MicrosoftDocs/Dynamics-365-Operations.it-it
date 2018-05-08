@@ -28,9 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-tax-overview"></a>Panoramica dell'IVA
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Questo argomento fornisce una panoramica del sistema IVA. Descrive gli elementi di configurazione IVA e il modo in cui interagiscono.
 

@@ -24,9 +24,9 @@ ms.lasthandoff: 03/23/2018
 ---
 
 # <a name="batch-processing-for-alerts"></a>Elaborazione batch per gli avvisi
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 Gli avvisi vengono elaborati dalla funzionalità di elaborazione batch in Microsoft Dynamics 365 for Finance and Operations. È necessario impostare l'elaborazione batch per consentire il recapito degli avvisi.
 

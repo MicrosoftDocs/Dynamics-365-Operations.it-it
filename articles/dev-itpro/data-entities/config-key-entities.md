@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configuration-keys-and-data-entities"></a>Chiavi di configurazione ed entità di dati
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Prima di utilizzare le entità di dati per importare o esportare dati, si consiglia di determinare innanzitutto l'impatto delle chiavi di configurazione sulle entità di dati che si prevede di utilizzare. 
 

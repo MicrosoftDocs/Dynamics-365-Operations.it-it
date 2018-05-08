@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informazioni utilizzate nei calcoli DBA con costi standard
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Per i calcoli della distinta base (DBA) vengono utilizzati dati provenienti da diverse origini allo scopo di conteggiare i costi standard di un articolo prodotto. Le possibili origini includono informazioni sugli articoli, i cicli di lavorazione delle distinte base, le formule di calcolo dei costi indiretti e la versione di determinazione costi.
 

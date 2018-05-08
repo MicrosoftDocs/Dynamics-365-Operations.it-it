@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="modello-770"></a>Modello 770
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come installare, creare ed esportare il Modello 770 utilizzato per dichiarare le ritenute d'acconto.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-customer-loyalty-program"></a>Impostare un programma fedeltà
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questo articolo viene descritto come impostare un programma fedeltà. Un programma fedeltà può contribuire ad aumentare la fedeltà dei clienti premiandoli per l'acquisto di prodotti nei propri punti vendita al dettaglio. In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili in tutte le persone giuridiche per qualsiasi canale di vendita al dettaglio.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="activity-based-subcontracting"></a>Conto lavoro basato su attività
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing.
 

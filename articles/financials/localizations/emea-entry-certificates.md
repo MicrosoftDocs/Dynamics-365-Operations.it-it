@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="eu-entry-certificates"></a>Certificati di entrata UE
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vengono fornite le informazioni sui certificati di entrata dell'Unione Europea (UE).
 

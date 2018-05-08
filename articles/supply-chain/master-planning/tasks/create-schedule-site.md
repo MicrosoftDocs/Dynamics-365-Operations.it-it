@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-schedule-for-a-site"></a>Creare una programmazione per un sito
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come programmare gli ordini di produzione non ancora iniziati per un sito.  Per completare questa procedura viene utilizzata la società di dati dimostrativi USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Identificare e risolvere conflitti di separazione dei compiti
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 È possibile impostare le regole per separare le attività che devono essere eseguite da utenti diversi. Questo concetto è denominato separazione dei compiti. Quando la definizione di un ruolo di sicurezza o le assegnazioni ruoli di un utente violano le regole, il conflitto viene annotato. Tutti i conflitti devono essere risolti dall'amministratore. Completare la procedura riportata di seguito per identificare e risolvere i conflitti. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

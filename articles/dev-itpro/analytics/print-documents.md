@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="printing-in-finance-and-operations-applications"></a>Stampa nelle applicazioni Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In Microsoft Dynamics 365 for Finance and Operations, è possibile stampare i documenti mediante una stampante locale o un dispositivo connesso alla rete. L'articolo fornisce una panoramica su come i documenti vengono stampati.
 

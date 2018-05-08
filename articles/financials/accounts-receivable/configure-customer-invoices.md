@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-a-customer-invoice"></a>Creare una fattura cliente
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una **fattura cliente per un ordine cliente** è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente. Questo tipo di fattura cliente viene creato in base a un ordine cliente che include righe ordine e numeri articolo. I numeri articolo vengono specificati e registrati nella contabilità generale. Non sono disponibili inserimenti nel giornale di registrazione secondario per una fattura cliente relativa a un ordine cliente. Per ulteriori informazioni, vedere [Creare fatture ordine cliente](tasks/create-sales-order-invoices.md).
 

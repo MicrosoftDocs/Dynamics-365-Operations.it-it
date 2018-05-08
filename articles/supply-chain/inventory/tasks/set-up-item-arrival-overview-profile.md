@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Impostare un profilo di panoramica arrivo articoli
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività riguarda l'impostazione del profilo della panoramica arrivi. Il profilo della panoramica arrivi è una raccolta di regole da applicare alla pagina della panoramica arrivi viene aperta da un utente. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF. In genere questa procedura verrebbe eseguita da un addetto al ricevimento.
 

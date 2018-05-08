@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Eseguire il cross-docking da ordini di produzione a banchine di uscita
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come gestire il processo del materiale di cross-docking che viene dichiarato finito in una riga di produzione per una banchina di trasporto di uscita.
 

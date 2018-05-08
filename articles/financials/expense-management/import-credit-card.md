@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Importare e gestire transazioni con carta di credito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le transazioni con carte di credito correlate alle spese possono essere impostate per essere incluse automaticamente in una programmazione ricorrente. In alternativa, le transazioni possono essere importate manualmente secondo le esigenze. Le transazioni con carta di credito vengono importate mediante l'entità di dati Transazioni con carta di credito.
 

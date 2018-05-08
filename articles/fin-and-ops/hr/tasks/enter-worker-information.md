@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enter-worker-information"></a>Immettere informazioni sui lavoratori
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. I dati dimostrativi contengono un progetto di assunzione collettiva aperto. Per iniziare questa procedura, andare a Risorse umane > Selezione del personale > Progetti di assunzione collettiva.
 

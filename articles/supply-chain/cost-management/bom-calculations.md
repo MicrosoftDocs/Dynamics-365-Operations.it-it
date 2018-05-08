@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>Calcoli BOM
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I calcoli relativi al rollup dei costi e ai prezzi di vendita sono chiamati calcoli DBA o calcoli della distinta base (DBA) perché è possibile avviarli dalla pagina Calcoli. Vengono fornite le informazioni sui calcoli BOM.
 

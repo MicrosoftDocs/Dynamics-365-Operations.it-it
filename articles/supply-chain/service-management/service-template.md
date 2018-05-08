@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>Modelli di assistenza
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 È possibile definire un contratto di assistenza come modello e copiare in seguito le righe del modello in un altro contratto di assistenza o in un ordine di assistenza.
 

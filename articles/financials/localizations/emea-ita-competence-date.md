@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="competence-date-for-transactions"></a>Data di competenza per le transazioni
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia.
 

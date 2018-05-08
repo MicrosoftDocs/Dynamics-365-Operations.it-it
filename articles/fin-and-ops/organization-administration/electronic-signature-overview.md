@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-signature-overview"></a>Panoramica delle firme elettroniche
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce una panoramica delle firme elettroniche e descrive come utilizzarle in Microsoft Dynamics 365 for Finance and Operations.
 

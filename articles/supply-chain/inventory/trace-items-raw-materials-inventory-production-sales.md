@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Traccia di articoli e materie prime in magazzino, nella produzione e nelle vendite
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare la tracciabilità articolo per identificare il punto in cui vengono utilizzati gli articoli o le materie prime o quello in cui verranno utilizzati nei processi di produzione e vendita.
 

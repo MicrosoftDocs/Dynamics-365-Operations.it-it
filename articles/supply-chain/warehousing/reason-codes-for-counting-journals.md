@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="reason-codes-for-inventory-counting"></a>Codici motivo conteggio scorte
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I codici motivo consentono di analizzare i risultati di un processo di conteggio e le eventuali discrepanze che si verificano durante tale processo. È possibile specificare il motivo del conteggio, ad esempio un pallet rotto o una correzione dello scorte basata su campioni di inventario.
 

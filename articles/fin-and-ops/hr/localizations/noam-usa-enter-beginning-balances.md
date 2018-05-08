@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="enter-payroll-beginning-balances"></a>Immettere i saldi iniziali delle retribuzioni
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Nell'argomento vengono descritti i passaggi necessari per immettere i saldi iniziali per codici reddito, detrazioni, benefit e imposte. Queste informazioni sono utili ai partner che trasferiscono dati per una nuova implementazione di retribuzione da un altro sistema. Per prepararsi a immettere i saldi iniziali delle retribuzioni, vengono controllate le seguenti informazioni:
 

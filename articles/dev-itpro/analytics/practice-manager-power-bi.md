@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="practice-manager-power-bi-content"></a>Contenuto di Power BI per responsabile procedura
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto cosa è incluso nel contenuto Microsoft Power BI per il **responsabile procedura**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 

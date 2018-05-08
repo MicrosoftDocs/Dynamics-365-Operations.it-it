@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-posting-profiles"></a>Profili registrazione fornitori
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I profili di registrazione fornitore controllano la registrazione delle transazioni fornitore nella contabilità generale.
 

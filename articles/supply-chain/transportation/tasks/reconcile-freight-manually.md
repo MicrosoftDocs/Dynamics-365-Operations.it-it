@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="reconcile-freight-manually"></a>Riconciliare il trasporto manualmente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come riconciliare manualmente il trasporto. La procedura viene in genere eseguita dal coordinatore dei trasporti. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.
 

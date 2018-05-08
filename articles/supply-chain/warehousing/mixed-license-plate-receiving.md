@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>Ricevimento targa mista
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ricevimento targa mista consente di creare una targa costituita da più articoli prima di registrare e creare lavoro di stoccaggio. 
 

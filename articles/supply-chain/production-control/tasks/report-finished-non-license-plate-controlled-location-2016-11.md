@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a>Dichiarazione di finito per un'ubicazione controllata da targa  
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa guida di attività è riportato un esempio di dichiarazione di finito a un'ubicazione che non controllata da targa. I criteri di lavoro applicabili sono il prerequisito per questa attività. Una guida di attività precedente ha mostrato l'impostazione dei criteri di lavoro. Questa guida attività richiede l'applicazione Dynamics AX 7.0.1 o versione successiva.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Gestione spese
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilizzare Gestione spese per creare un flusso di lavoro integrato in cui è possibile memorizzare informazioni sui metodi di pagamento, importare transazioni con carta di credito e tenere traccia delle spese sostenute dai dipendenti per conto della società. È inoltre possibile definire criteri di spesa e automatizzare il rimborso delle spese di viaggio. 
 

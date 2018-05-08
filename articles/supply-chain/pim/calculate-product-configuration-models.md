@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="calculations-for-product-configuration-models-faq"></a>Domande frequenti sui calcoli per i modelli di configurazione prodotto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono descritti i calcoli per i modelli di configurazione prodotto e viene spiegato come utilizzare i calcoli insieme ai vincoli.
 

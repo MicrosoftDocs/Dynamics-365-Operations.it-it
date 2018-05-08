@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>Eseguire processi di lavorazione kanban
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra come eseguire i processi di lavorazione kanban. Il primo processo è stato completato con la quantità prevista e non presenta errori. Il secondo lavoro è stato completato con errori. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata all'operatore.
 

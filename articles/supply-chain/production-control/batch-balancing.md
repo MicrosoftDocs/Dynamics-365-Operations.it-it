@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="batch-balancing"></a>Bilanciamento del batch
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene illustrata la modalità con cui il processo di bilanciamento del batch è supportato. 
 

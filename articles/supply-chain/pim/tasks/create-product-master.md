@@ -24,7 +24,7 @@ ms.lasthandoff: 10/25/2017
 ---
 # <a name="create-a-product-master"></a>Creare una rappresentazione generale prodotto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Creare una rappresentazione generale prodotto per le varianti predefinite. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata al responsabile del design del prodotto.
 

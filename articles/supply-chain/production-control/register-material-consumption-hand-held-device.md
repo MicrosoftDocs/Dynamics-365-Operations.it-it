@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrare il consumo dei materiali usando un dispositivo mobile
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto un flusso di lavoro che consente la registrazione del consumo di materie prime nella produzione tramite un dispositivo portatile.
 

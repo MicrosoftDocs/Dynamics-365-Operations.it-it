@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Creare un movimento CoGe di contabilità industriale
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Un movimento CoGe di contabilità industriale rappresenta l'unità gerarchica complessiva. È definito da una dimensione dell'elemento di costo, da una dimensione statistica, dal calendario fiscale e dalla valuta ed è indipendente rispetto al concetto di persone giuridiche. Una persona giuridica e i relativi dati possono essere associati a più movimenti CoGe di contabilità industriale. Questa registrazione utilizza i dati dimostrativi della società USP2.
 

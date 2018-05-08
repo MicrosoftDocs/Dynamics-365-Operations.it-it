@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Pianificare percorsi di trasporto di carichi con più fermate
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono descritti i vari elementi utilizzati per pianificare i percorsi di trasporto in Microsoft Dynamics 365 for Finance and Operations.
 

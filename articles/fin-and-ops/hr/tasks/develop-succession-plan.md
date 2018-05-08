@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-a-succession-plan"></a>Sviluppare un piano di successione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Se l'organizzazione si sviluppa e si prende in considerazione la pianificazione della successione, potrebbe essere necessario cercare qualcuno che abbia competenze simili a un'altra persona.  Il mapping delle competenze consente di analizziate i dipendenti esistenti e i candidati per verificare se soddisfano il set di competenze di un dipendente stimato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

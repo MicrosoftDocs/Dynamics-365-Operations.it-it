@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-process-a-conformance"></a>Creare ed elaborare una conformità
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilizzare questa procedura per eseguire la gestione di non conformità, in base a un ordine di controllo qualità esistente. È possibile eseguire questa registrazione nella società dimostrativa USMF e utilizzare i valori suggeriti. In genere, questa procedura viene eseguita da un addetto al controllo qualità.  Come prerequisito, eseguire la registrazione attività "Verificare la qualità delle merci". Per elaborare l'approvazione di una non conformità, l'utente che esegue la registrazione attività deve avere un valore "Nome" assegnato alla pagina Utenti. Per utilizzare le note del documento, l'utente deve inoltre avere Gestione documenti attivata nelle opzioni utente.
 

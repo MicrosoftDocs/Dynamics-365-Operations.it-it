@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-collaboration-mobile-workspace"></a>Area di lavoro mobile di collaborazione fornitore
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Collaborazione fornitore**. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
 

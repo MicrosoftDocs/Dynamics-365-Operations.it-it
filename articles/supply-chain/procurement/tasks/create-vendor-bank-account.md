@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-bank-account"></a>Creare un nuovo conto bancario fornitore
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come creare un conto bancario per un fornitore. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.
 

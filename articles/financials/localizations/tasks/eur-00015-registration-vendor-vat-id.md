@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-a-vendor-vat-id"></a>Registrare un ID IVA fornitore
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene descritto come aggiungere gli ID registrazione IVA e una partita IVA a un conto fornitore. Questo processo è analogo per le persone giuridiche e clienti. 
 

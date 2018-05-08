@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-promising"></a>Promesse ordine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date.
 

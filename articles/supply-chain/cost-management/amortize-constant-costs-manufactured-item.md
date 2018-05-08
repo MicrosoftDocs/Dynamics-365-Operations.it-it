@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Ammortizzare i costi costanti per un articolo prodotto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I costi costanti di un articolo prodotto riflettono i tempi di impostazione delle operazioni e i componenti con una quantità o un importo di scarto costante. 
 

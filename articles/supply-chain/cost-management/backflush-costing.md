@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>Determinazione costi di tipo backflush
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene presentato il concetto di determinazione costi di tipo backflush utilizzato per la produzione snella o lean manufacturing. 
 

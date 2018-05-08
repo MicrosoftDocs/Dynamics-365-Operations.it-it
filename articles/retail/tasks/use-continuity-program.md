@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a> Utilizzare un programma di continuità
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Questa procedura descrive la vendita di un programma di continuità e l'elaborazione degli ordini cliente correlati. Per eseguire questa procedura, l'utente deve essere impostato come utente di servizio clienti. Questa procedura utilizza la società di dati dimostrativi USRT.
 

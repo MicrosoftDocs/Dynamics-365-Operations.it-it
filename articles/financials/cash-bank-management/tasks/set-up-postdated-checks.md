@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-postdated-checks"></a>Impostare gli assegni postdatati
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questo argomento viene illustrato come specificare se registrare gli inserimenti nel giornale per gli assegni postdatati e quali giornali di registrazione utilizzare per cancellare le voci e i pagamenti fornitore. È inoltre possibile specificare i conti di compensazione per gli assegni emessi, gli assegni ricevuti e la ritenuta d'acconto. Gli assegni postdatati che sono emessi per effettuare e ricevere pagamenti in una data futura. È possibile specificare se l'assegno deve essere riportato nei libri contabili prima della relativa data di scadenza.
 

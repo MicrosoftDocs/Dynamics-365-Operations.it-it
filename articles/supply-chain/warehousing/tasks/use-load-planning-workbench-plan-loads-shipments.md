@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Pianificare i carichi e le spedizioni utilizzando il workbench di pianificazione del carico
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra come utilizzare il workbench di pianificazione del carico per creare un carico per un ordine cliente. Come prerequisito, è necessario creare prima l'ordine cliente. Questa procedura è parte delle attività giornaliere per il coordinatore dei trasporti. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

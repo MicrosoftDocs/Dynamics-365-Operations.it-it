@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Domande frequenti sulle traduzioni relative ai prodotti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come gestire le traduzioni per i prodotti, i valori di dimensione prodotto e gli attributi del prodotto. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="formula-designer"></a>Designer formula
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare Designer formula per analizzare e gestire le formule in una visualizzazione struttura.
 

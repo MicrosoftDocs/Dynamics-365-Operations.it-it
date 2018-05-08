@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intrastat"></a>Intrastat
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
 

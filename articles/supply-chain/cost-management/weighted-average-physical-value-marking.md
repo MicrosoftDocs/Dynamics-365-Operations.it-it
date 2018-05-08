@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Media ponderata con valore fisico e contrassegno
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Media ponderata è un modello inventariale basato sul principio della media ponderata, secondo il quale le uscite dal magazzino vengono valutate in base al valore medio degli articoli ricevuti in magazzino durante il periodo di chiusura inventario, più le eventuali scorte disponibili del periodo precedente.
 

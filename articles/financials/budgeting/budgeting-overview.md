@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-home-page"></a>Home page di impostazione del budget
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione del budget e delle funzionalità di creazione di report in Finance and Operations. 
 

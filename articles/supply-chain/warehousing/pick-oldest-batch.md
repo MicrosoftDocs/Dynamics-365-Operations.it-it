@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>Prelevare il batch meno recente su un dispositivo mobile
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 È possibile accedere alla configurazione **Preleva batch meno recente** tramite un menu del dispositivo mobile e forzare o avvertire gli addetti del magazzino a prelevare il batch meno recente per l'ubicazione corrente.  
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Calcolare suggerimenti su quantità kanban
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura riguarda l'ottimizzazione della dimensione e delle quantità kanban per una regola kanban specifica tramite il calcolo della quantità kanban. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata al responsabile del flusso del valore. Per seguire questa procedura, è necessario aver completato la procedura Aggiungere criteri di calcolo quantità kanban a una regola kanban.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Immettere le combinazioni di conto e dimensione (controllo di voci segmentato)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo descrive come immettere le combinazioni di conto e dimensioni o conti CoGe. All'esperienza di inserimento si fa spesso riferimento come controllo di voci segmentato.
 

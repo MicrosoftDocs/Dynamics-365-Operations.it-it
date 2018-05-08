@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="delivery-schedules"></a>Programmazioni consegna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le programmazioni consegna consentono di tenere traccia della quantità della riga ordine quando si utilizzano più consegne per un singolo ordine cliente, una singola offerta di vendita o un singolo ordine fornitore.
 

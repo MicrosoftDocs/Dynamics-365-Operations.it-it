@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>Area di lavoro mobile della directory aziendale
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Directory società**. Questa area di lavoro consente agli utenti di visualizzare e contattare altri dipendenti nell'organizzazione.
 

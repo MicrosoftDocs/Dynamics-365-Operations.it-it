@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Impostare un processo di rifornimento minimo/massimo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come impostare un nuovo processo di rifornimento che utilizza la strategia di rifornimento minima/massima. Quando le scorte scendono sotto il livello minimo, il lavoro verrà creato per rifornire l'ubicazione. La procedura mostra anche come utilizzare le ubicazioni fisse di prelievo per consentire il ristoccaggio anche se le scorte scendono sotto il livello minimo e come consentire l'esecuzione regolare del processo di rifornimento utilizzando un processo batch. Queste attività verranno in genere svolte da un responsabile del magazzino. È possibile eseguire questa procedura nella società di dati dimostrativi USMF utilizzando i valori di esempio nelle note oppure è possibile eseguirla sui propri dati. Se si utilizzano i propri dati, assicurarsi che un magazzino sia abilitato per i processi di gestione magazzino.
 

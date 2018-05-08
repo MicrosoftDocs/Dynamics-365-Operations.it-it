@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Rilascio delle righe di formula e DBA nel magazzino
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto il processo per il rilascio di materie prime per righe distinta base (DBA) e righe formula nel magazzino. Quando si rilascia una DBA o una riga formula nel magazzino, il sistema determina innanzitutto se il materiale è già disponibile nell'ubicazione di input di produzione nello shop floor in cui il materiale verrà consumato per il processo di produzione.
 

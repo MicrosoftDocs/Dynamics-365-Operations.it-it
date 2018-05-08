@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>Data media ponderata
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 La data media ponderata è un modello inventariale basato sul principio di media ponderate. Per tale principio, le uscite da magazzino vengono valutate al valore medio degli articoli ricevuti in magazzino per ogni giorno del periodo di chiusura inventario. 
 

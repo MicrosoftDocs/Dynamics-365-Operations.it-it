@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Fatturazione interaziendale
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni ed esempi sulla fatturazione interaziendale per i progetti in Microsoft Dynamics 365 for Finance and Operations.
 

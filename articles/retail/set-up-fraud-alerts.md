@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-fraud-alerts"></a>Impostare avvisi antifrode
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come impostare criteri e regole per sospendere ordini cliente potenzialmente fraudolenti da verificare ulteriormente. La funzionalità antifrode viene utilizzata per determinare la validità delle informazioni in un ordine cliente. Se le informazioni nell'ordine cliente vengono considerate sospette in base a criteri e regole antifrode di un'organizzazione, l'ordine può essere sospeso per un'ulteriore verifica da parte di un amministratore.
 

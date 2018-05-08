@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="receipt-templates-and-printing"></a>Modelli e stampa di ricevute
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Microsoft Dynamics 365 for Retail include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo.
 

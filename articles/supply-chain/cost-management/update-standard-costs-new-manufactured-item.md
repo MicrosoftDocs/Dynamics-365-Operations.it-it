@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Aggiornare i costi standard per un nuovo articolo prodotto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce indicazioni per aggiornare i costi standard per un nuovo articolo prodotto. 
 

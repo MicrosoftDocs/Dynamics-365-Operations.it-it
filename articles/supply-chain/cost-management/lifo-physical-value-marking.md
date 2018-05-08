@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>Informazioni su LIFO con valore fisico e contrassegno
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 LIFO (Last In, First Out) è un modello inventariale in cui le ultime entrate (le più recenti) sono le prime a uscire. Le uscite da magazzino vengono compensate a fronte delle ultime entrate in magazzino in base alla data dell'operazione di magazzino. 
 

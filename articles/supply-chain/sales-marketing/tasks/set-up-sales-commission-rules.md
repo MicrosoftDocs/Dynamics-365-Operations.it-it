@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="set-up-sales-commission-rules"></a>Impostare regole per la provvigione vendite
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come impostare e abilitare il calcolo e la verifica della provvigione di vendita. Le procedura mostra come creare i gruppi di provvigioni per clienti e per articoli e quindi come collegare un cliente e un prodotto selezionati ai rispettivi gruppi. Tali gruppi vengono utilizzati nell'impostazione di calcolo della provvigione per creare una combinazione di cliente, articolo e rappresentante che deve corrispondere all'ordine cliente per autorizzare i venditori a una provvigione. Creare i gruppi di provvigioni per clienti e articoli è facoltativo, poiché il calcolo della provvigione può anche essere eseguito per un cliente e/o articolo individuale. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.
 
