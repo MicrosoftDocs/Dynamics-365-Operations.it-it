@@ -20,16 +20,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fefd2578d4bc0b350224bc2a55fdcdb3fb461c0d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95db4322ddd1a3cb651813163c75cd12e5d72bff
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-a-customer-loyalty-program"></a><span data-ttu-id="5a613-105">Impostare un programma fedeltà</span><span class="sxs-lookup"><span data-stu-id="5a613-105">Set up a customer loyalty program</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="5a613-106">In questo articolo viene descritto come impostare un programma fedeltà.</span><span class="sxs-lookup"><span data-stu-id="5a613-106">This article describes how to set up a loyalty program.</span></span> <span data-ttu-id="5a613-107">Un programma fedeltà può contribuire ad aumentare la fedeltà dei clienti premiandoli per l'acquisto di prodotti nei propri punti vendita al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="5a613-107">Loyalty programs can help increase customer loyalty by rewarding customers for buying products in your retail stores.</span></span> <span data-ttu-id="5a613-108">In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili in tutte le persone giuridiche per qualsiasi canale di vendita al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="5a613-108">In Microsoft Dynamics 365 for Retail, you can set up simple or complex loyalty programs that apply across your legal entities in any retail channel.</span></span>
 

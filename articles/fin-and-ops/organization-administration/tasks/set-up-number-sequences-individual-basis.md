@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 15253a9c96af67eb405b9ce42c5a328c8aec7ecc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 65a2fe64ebb30071cab4be1c34ba1c62f37d73c6
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a><span data-ttu-id="159ce-103">Impostare sequenze numeriche singole</span><span class="sxs-lookup"><span data-stu-id="159ce-103">Set up number sequences on an individual basis</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="159ce-104">Le sequenze numeriche vengono utilizzate per generare identificatori univoci e leggibili per record anagrafica e record transazioni che li richiedono.</span><span class="sxs-lookup"><span data-stu-id="159ce-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require them.</span></span> <span data-ttu-id="159ce-105">Un record transazioni o dati master che richiede un identificatore viene definito riferimento.</span><span class="sxs-lookup"><span data-stu-id="159ce-105">A master data or transaction record that requires an identifier is referred to as a reference.</span></span> <span data-ttu-id="159ce-106">Prima di poter creare nuovi record per un riferimento, è necessario impostare una sequenza numerica e associarla al riferimento.</span><span class="sxs-lookup"><span data-stu-id="159ce-106">Before you can create new records for a reference, you must set up a number sequence and associate it with the reference.</span></span> <span data-ttu-id="159ce-107">È possibile impostare tutte le sequenze numeriche richieste contemporaneamente utilizzando la procedura guidata Imposta sequenze numeriche oppure creare o modificare singole sequenze numeriche utilizzando la pagina Sequenze numeriche.</span><span class="sxs-lookup"><span data-stu-id="159ce-107">You can set up all required number sequences at the same time by using the Set up number sequences wizard, or you can create or modify individual number sequences by using the Number sequences page.</span></span>
 

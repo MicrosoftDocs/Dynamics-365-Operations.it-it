@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8250b612ca62048a8ab9e0c5f082a6e652e1b5c1
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-insights"></a><span data-ttu-id="1a4f2-103">Informazioni finanziarie dettagliate</span><span class="sxs-lookup"><span data-stu-id="1a4f2-103">Financial Insights</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1a4f2-104">**Informazioni finanziarie dettagliate** utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari.</span><span class="sxs-lookup"><span data-stu-id="1a4f2-104">**Financial Insights** uses Microsoft Power BI to bring together financial key performance indicators (KPIs), charts, and financial statements.</span></span> <span data-ttu-id="1a4f2-105">Power BI è incorporato in Microsoft Dynamics 365 Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1a4f2-105">Power BI is embedded in Microsoft Dynamics 365 Finance and Operations.</span></span>
 <span data-ttu-id="1a4f2-106">**Informazioni finanziarie dettagliate** è incentrato sulla creazione di report analitici.</span><span class="sxs-lookup"><span data-stu-id="1a4f2-106">The focus of **Financial Insights** is analytical reporting.</span></span> <span data-ttu-id="1a4f2-107">Le persone di un'organizzazione possono visualizzare, ricercare, analizzare ed eseguire azioni.</span><span class="sxs-lookup"><span data-stu-id="1a4f2-107">Personas across an organization can view, research, understand, and act.</span></span> 

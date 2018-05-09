@@ -18,16 +18,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6e43be6171b50252000a892172fb8d2a1813ecd7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 942b48170d7c164e16d2b8f5544b8777668adab3
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="invoice-issue-deadline"></a><span data-ttu-id="9d9cb-103">Scadenza emissione fattura</span><span class="sxs-lookup"><span data-stu-id="9d9cb-103">Invoice issue deadline</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9d9cb-104">In questo articolo viene illustrato come impostare i parametri per calcolare le date di scadenza per l'emissione di fatture cliente e fatture fornitore nell'Unione Europea (UE).</span><span class="sxs-lookup"><span data-stu-id="9d9cb-104">This article explains how to set up parameters to calculate the due dates for issuing customer invoices and vendor invoices in the European Union (EU).</span></span>
 

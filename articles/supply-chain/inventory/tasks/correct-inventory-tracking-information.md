@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: df480e7ae7996599f2e69a2d0e13be6db7a43e13
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 55f9ae337aac673ae2f80d7bfa9221b6060f9119
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="correct-inventory-tracking-information"></a><span data-ttu-id="ad636-103">Correggere le informazioni di tracciabilità di magazzino</span><span class="sxs-lookup"><span data-stu-id="ad636-103">Correct inventory tracking information</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ad636-104">In questa procedura vengono descritti i passaggi per creare e registrare un giornale di registrazione trasferimenti scorte per correggere le informazioni di tracciabilità inventario.</span><span class="sxs-lookup"><span data-stu-id="ad636-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to correct inventory tracking information.</span></span> <span data-ttu-id="ad636-105">In questo esempio, si aggiornano le informazioni di un articolo controllato da batch modificando un batch registrato in modo non corretto con un altro batch.</span><span class="sxs-lookup"><span data-stu-id="ad636-105">In this example, we’ll update the information of a batch controlled item by changing an incorrectly registered batch to another batch.</span></span> <span data-ttu-id="ad636-106">È possibile eseguire questa procedura nella società di dati dimostrativi USPI oppure utilizzando i propri dati.</span><span class="sxs-lookup"><span data-stu-id="ad636-106">You can walk through this procedure in demo data company USPI, or using your own data.</span></span> <span data-ttu-id="ad636-107">Se si utilizzano propri dati, è necessario disporre di un articolo che supporta i batch e che non è controllato da ubicazione.</span><span class="sxs-lookup"><span data-stu-id="ad636-107">If you use your own data, you need to have an item that’s batch-enabled, and it must not be location-controlled.</span></span> <span data-ttu-id="ad636-108">È inoltre necessario disporre di un nome del giornale di registrazione magazzino configurato per i trasferimenti scorte.</span><span class="sxs-lookup"><span data-stu-id="ad636-108">You also need to have an inventory journal name set up for inventory transfers.</span></span> <span data-ttu-id="ad636-109">Queste attività verranno in genere svolte da un dipendente del magazzino.</span><span class="sxs-lookup"><span data-stu-id="ad636-109">These tasks would normally be carried out by a warehouse employee.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8ccf810d3ecfeb35e86e7b552f7e59fc7660aa01
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 81b5c5536eff61c0c32151abde3e3c91980b3b56
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a><span data-ttu-id="68587-103">Usare cataloghi esterni per PunchOut eProcurement</span><span class="sxs-lookup"><span data-stu-id="68587-103">Use external catalogs for PunchOut eProcurement</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="68587-104">Se si utilizzano i cataloghi esterni per PunchOut eProcurement, non è necessario gestire le informazioni sui prodotti dei fornitori nei propri dati master.</span><span class="sxs-lookup"><span data-stu-id="68587-104">By using external catalogs for PunchOut e-procurement, you don't have to maintain information about your vendors' products in your own master data.</span></span> <span data-ttu-id="68587-105">Il carrello nel sito Web del fornitore viene invece convertito in righe di richiesta con le informazioni sul prodotto corrette.</span><span class="sxs-lookup"><span data-stu-id="68587-105">Instead, the shopping cart on a vendor's website is converted to requisition lines that have the correct product information.</span></span> 
 

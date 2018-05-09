@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e4b08aa7376bee6526d1993ee38916b60d0e0648
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a0c440250588e38b4bc8ebdb6830b026361f1d96
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="check-the-availability-of-stock"></a><span data-ttu-id="7ccb7-103">Controllare la disponibilità scorte</span><span class="sxs-lookup"><span data-stu-id="7ccb7-103">Check the availability of stock</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7ccb7-104">Nella procedura viene illustrato come controllare le scorte disponibili e fisiche disponibili per un numero articolo specifico.</span><span class="sxs-lookup"><span data-stu-id="7ccb7-104">This procedure shows you how to check on-hand and physical on-hand inventory for a specific item number.</span></span> <span data-ttu-id="7ccb7-105">Viene inoltre illustrato come ottenere informazioni sulla fornitura correlate a un articolo.</span><span class="sxs-lookup"><span data-stu-id="7ccb7-105">It also shows you how to get supply information related to an item.</span></span> <span data-ttu-id="7ccb7-106">Le scorte fisiche disponibili sono le scorte disponibili, ovvero che sono state acquistate, ricevute e registrate.</span><span class="sxs-lookup"><span data-stu-id="7ccb7-106">Physical on-hand inventory is the on-hand inventory that’s available – that is, it’s purchased, received and registered.</span></span> <span data-ttu-id="7ccb7-107">Le scorte disponibili includono le scorte disponibili, ma anche le scorte ordinate e previste, ma non ancora ricevute o registrate.</span><span class="sxs-lookup"><span data-stu-id="7ccb7-107">On-hand inventory includes the available on-hand inventory, but also the inventory that’s been ordered and is expected, but not yet received or registered.</span></span> <span data-ttu-id="7ccb7-108">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.</span><span class="sxs-lookup"><span data-stu-id="7ccb7-108">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="7ccb7-109">Se si utilizza USMF è possibile utilizzare i valori di esempio visualizzati.</span><span class="sxs-lookup"><span data-stu-id="7ccb7-109">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="7ccb7-110">Queste attività in genere verranno svolte da un addetto al magazzino.</span><span class="sxs-lookup"><span data-stu-id="7ccb7-110">These tasks would typically be carried out by a warehouse worker.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9d889b7a64cff763c31b4375fd0e1553a4beeeb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: afdbef901c6deaad42ae89a597180d30bbc4fb28
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="performance-management-overview"></a><span data-ttu-id="d9d9e-104">Panoramica della gestione delle prestazioni</span><span class="sxs-lookup"><span data-stu-id="d9d9e-104">Performance management overview</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="d9d9e-105">Il processo di gestione delle prestazioni consente ai dipendenti di documentare e discutere le prestazioni con il responsabile.</span><span class="sxs-lookup"><span data-stu-id="d9d9e-105">The performance management process lets employees document and discuss their performance with their manager.</span></span> <span data-ttu-id="d9d9e-106">A loro volta, i responsabili possono quindi fornire un riscontro e le indicazioni ai dipendenti.</span><span class="sxs-lookup"><span data-stu-id="d9d9e-106">In turn, managers can then provide feedback and guidance to the employees.</span></span>  
 

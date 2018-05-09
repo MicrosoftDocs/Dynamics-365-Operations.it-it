@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: aff5ca3a6f3de4d90955e803917d352a21877244
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 34259fa522481b23c16c88f76c1d2c077e747bbf
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="loan-items-to-a-worker"></a><span data-ttu-id="16c0a-103">Articoli prestito a un lavoratore</span><span class="sxs-lookup"><span data-stu-id="16c0a-103">Loan items to a worker</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="16c0a-104">Questa procedura illustra come prestare un articolo a un lavoratore e come registrare il lavoratore che restituisce un articolo.</span><span class="sxs-lookup"><span data-stu-id="16c0a-104">This procedure shows how to loan an item to a worker and record the worker returning an item.</span></span> <span data-ttu-id="16c0a-105">I lavoratori possono inoltre richiedere articoli in prestito tramite le pagine del portale Self Service dipendenti.</span><span class="sxs-lookup"><span data-stu-id="16c0a-105">Workers can also request loan items through their Employee self-service pages.</span></span> <span data-ttu-id="16c0a-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="16c0a-106">The demo data company used to create this procedure is USMF.</span></span>
 

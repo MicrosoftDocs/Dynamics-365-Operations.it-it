@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad45fd25a6911ca8f9976ee0040f193da0b3a993
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a1318055f9c740e8d659a15db8311a0ca518f61
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="37c7a-103">Configurare l'elaborazione di ondate</span><span class="sxs-lookup"><span data-stu-id="37c7a-103">Configure wave processing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="37c7a-104">In questo guida viene descritto come impostare i criteri che determinano quale lavoro viene generato per un magazzino quando viene elaborata un'ondata e se le ondate vengono elaborate manualmente o automaticamente.</span><span class="sxs-lookup"><span data-stu-id="37c7a-104">This guide describes how to set up the criteria that determine what work is generated for a warehouse when a wave is processed, and whether waves are processed manually or automatically.</span></span> <span data-ttu-id="37c7a-105">I criteri vengono specificati impostando i modelli ondata e le query che corrispondono a un'ondata con le righe rilasciate negli ordini cliente, negli ordini di produzione o negli ordini kanban.</span><span class="sxs-lookup"><span data-stu-id="37c7a-105">You specify the criteria by setting up wave templates and queries that match a wave with released lines in sales orders, production orders, or kanban orders.</span></span> <span data-ttu-id="37c7a-106">L'elaborazione ondata viene utilizzata in magazzini che utilizzano la funzionalità del modulo Gestione magazzino e non in quelli che utilizzano la funzionalità nel modulo Gestione inventario.</span><span class="sxs-lookup"><span data-stu-id="37c7a-106">Wave processing is used in warehouses that use the functionality in the Warehouse management module, and not those that use the functionality in the Inventory management module.</span></span> <span data-ttu-id="37c7a-107">È possibile eseguire questa procedura nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="37c7a-107">You can run this procedure in demo data company USMF.</span></span>
 

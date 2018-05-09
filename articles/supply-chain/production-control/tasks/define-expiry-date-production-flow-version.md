@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 788b9697cc9a55a35460200baab49eb4b1934f21
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 863e5f7b26a0812ce17942d35ad4d45bf2330ea0
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a><span data-ttu-id="c6b3d-103">Definire una data di scadenza per una versione del flusso di produzione</span><span class="sxs-lookup"><span data-stu-id="c6b3d-103">Define an expiry date for a production flow version</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c6b3d-104">Per terminare la validità e l'elaborazione di una versione del flusso di produzione in una data specifica o per pianificare la sostituzione di una versione attiva con una nuova versione, è necessario impostare una data di scadenza della versione.</span><span class="sxs-lookup"><span data-stu-id="c6b3d-104">To end the validity and the processing of a production flow version on a given date, or to plan replacement of an active version with a new version, you have to set an expiry date on the version.</span></span> <span data-ttu-id="c6b3d-105">Non è necessario disattivare la versione.</span><span class="sxs-lookup"><span data-stu-id="c6b3d-105">It is not necessary to deactivate the version.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d21f9047dcea0af59c24339ebb57e8eabe3950d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0fad3c62f926e508e09a265a600194b7ea595bf0
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="register-sales-commissions"></a><span data-ttu-id="aebfb-103">Registrare le provvigioni di vendita</span><span class="sxs-lookup"><span data-stu-id="aebfb-103">Register sales commissions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aebfb-104">Questa procedura mostra come le provvigioni di vendita vengono calcolate e registrate.</span><span class="sxs-lookup"><span data-stu-id="aebfb-104">This procedure shows you how sales commissions are calculated and registered.</span></span> <span data-ttu-id="aebfb-105">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.</span><span class="sxs-lookup"><span data-stu-id="aebfb-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="aebfb-106">Prima di iniziare questa guida, eseguire la guida chiamata “Impostare regole per la provvigione vendite" per assicurarsi che tutto il necessario per il calcolo della provvigione sia impostato.</span><span class="sxs-lookup"><span data-stu-id="aebfb-106">Before starting this guide, run the guide called "Set up sales commission rules" to make sure that you have all the necessary commission calculation setup.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 46178d9da5464d8cb74b1d52142d6ad08a293349
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 602be91bff1bd90b3888b7861907c23f334b0d02
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="packing-materials-and-fees"></a><span data-ttu-id="b9794-105">Materiali di imballaggio e addebiti</span><span class="sxs-lookup"><span data-stu-id="b9794-105">Packing materials and fees</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b9794-106">Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli.</span><span class="sxs-lookup"><span data-stu-id="b9794-106">Packing material fees are paid to a recycling company at certain intervals.</span></span> <span data-ttu-id="b9794-107">Per ciascun materiale di cui si compone un'unità di imballaggio viene pagato un importo per unità di peso.</span><span class="sxs-lookup"><span data-stu-id="b9794-107">An amount is paid, per unit of weight, for each material that a packing unit consists of.</span></span> <span data-ttu-id="b9794-108">Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario.</span><span class="sxs-lookup"><span data-stu-id="b9794-108">Packing material fees are calculated and reported, but no ledger transactions are posted because the fees are not regarded as taxes to be paid to an authority.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 203dd471b85503926974f5c96d1793543bbd202e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a6f648890fb6f90c4753f3eab917e871a6f043f
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="withholding-tax-for-italy"></a><span data-ttu-id="1f45a-103">Ritenuta d'acconto per l'Italia</span><span class="sxs-lookup"><span data-stu-id="1f45a-103">Withholding tax for Italy</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1f45a-104">In questo argomento viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.</span><span class="sxs-lookup"><span data-stu-id="1f45a-104">This topic explains how to configure up Italy-specific settings for withholding tax and Italian withholding tax reports.</span></span>
 

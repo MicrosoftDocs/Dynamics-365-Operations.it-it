@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b6a85480948d1280ddb7e588d41dcc09692d823c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: abc16205fbe8cd68f8883b215b3412cdd0c9a5f8
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-dimensions-and-posting"></a><span data-ttu-id="e349d-105">Dimensioni finanziarie e registrazione</span><span class="sxs-lookup"><span data-stu-id="e349d-105">Financial dimensions and posting</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e349d-106">Quando si pianifica e si imposta il piano dei conti, è necessario considerare il modo in cui i vari componenti interagiscono durante la registrazione di un documento o un giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="e349d-106">When you plan and set up your chart of accounts, you must consider how the various components will work together when you post a document or journal.</span></span> <span data-ttu-id="e349d-107">Questi componenti includono strutture dei conti, regole avanzate nonché dimensioni fisse e di bilanciamento.</span><span class="sxs-lookup"><span data-stu-id="e349d-107">These components include account structures, advanced rules, and balancing and fixed dimensions.</span></span> <span data-ttu-id="e349d-108">In questo argomento vengono descritti i componenti e il modo in cui interagiscono.</span><span class="sxs-lookup"><span data-stu-id="e349d-108">This topic explains what each component is and how the components work together.</span></span>
 

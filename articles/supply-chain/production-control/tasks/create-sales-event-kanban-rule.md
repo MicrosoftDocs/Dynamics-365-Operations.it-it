@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 67dc36565739b8e902334d9a55af226a0cef5b85
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d07a5a930bec42f388103f10dedf6d8456197a29
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-sales-event-kanban-rule"></a><span data-ttu-id="74661-103">Creare una regola kanban eventi di vendita</span><span class="sxs-lookup"><span data-stu-id="74661-103">Create a sales event kanban rule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="74661-104">Questa procedura è incentrata sull'impostazione necessaria per creare una regola kanban che è attivata durante la creazione di un ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="74661-104">This procedure focuses on the setup needed to create a kanban rule that is triggered during sales order creation.</span></span> <span data-ttu-id="74661-105">La regola kanban eventi soddisfa i requisiti che derivano dalle righe di ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="74661-105">The event kanban rule replenishes requirements that originate from sales order lines.</span></span> <span data-ttu-id="74661-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="74661-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="74661-107">Questa procedura è destinata all'addetto procedure tecniche o al responsabile flusso del valore che prepara la produzione di un prodotto nuovo o modificato.</span><span class="sxs-lookup"><span data-stu-id="74661-107">It is intended for the process engineer or the value stream manager as they prepare production of a new or modified product.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 818d7d21605ada63a29a41d3bf20ed9cbf21a178
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 36707ec37d4756393d0c3c2cf071d87a78ebc6c5
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a><span data-ttu-id="15338-103">Controllo del consumo delle materie prime tramite i principi di registrazione</span><span class="sxs-lookup"><span data-stu-id="15338-103">Controlling raw material consumption by using flushing principles</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="15338-104">I principi di registrazione del consumo di materiali riflettono le diverse strategie di consumo delle materie prime utilizzate nei processi di produzione.</span><span class="sxs-lookup"><span data-stu-id="15338-104">The flushing principles reflect different consumption strategies for raw materials that are used in production processes.</span></span> <span data-ttu-id="15338-105">Il consumo è il processo che preleva materiale dalle scorte disponibili e imposta il valore del materiale consumato su **Semilavorato** (WIP) per gli ordini di produzione e gli ordini batch.</span><span class="sxs-lookup"><span data-stu-id="15338-105">Consumption is the process that deducts material from the on-hand inventory and sets the value of the consumed materials to **Work in progress** (WIP) for production orders and batch orders.</span></span> <span data-ttu-id="15338-106">Le materie prime vengono in genere consumate da un'ubicazione che è configurata per il processo che consuma il materiale.</span><span class="sxs-lookup"><span data-stu-id="15338-106">Raw materials are usually consumed from a location that is configured for the process that consumes the material.</span></span> <span data-ttu-id="15338-107">Questa ubicazione è conosciuta come l'ubicazione entrata produzione.</span><span class="sxs-lookup"><span data-stu-id="15338-107">This location is known as the production input location.</span></span>
 

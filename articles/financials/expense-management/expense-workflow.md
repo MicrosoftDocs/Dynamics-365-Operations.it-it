@@ -19,16 +19,16 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 122231abdc45d7eb8adafe5c5900a6a48ab2511e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 21815fccc91961653189f844718712faf573d2d7
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expense-workflow"></a><span data-ttu-id="d736c-103">Flusso di lavoro delle spese</span><span class="sxs-lookup"><span data-stu-id="d736c-103">Expense workflow</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d736c-104">È possibile utilizzare il sistema del flusso di lavoro in Microsoft Dynamics 365 for Finance and Operations per impostare un processo di verifica delle note spese in Gestione spese.</span><span class="sxs-lookup"><span data-stu-id="d736c-104">You can use the workflow system in Microsoft Dynamics 365 for Finance and Operations, to set up a review process for expense reports in Expense management.</span></span> <span data-ttu-id="d736c-105">È possibile impostare un flusso di lavoro che utilizza i seguenti criteri per determinare il responsabile dell'approvazione delle note spese:</span><span class="sxs-lookup"><span data-stu-id="d736c-105">You can set up a workflow that uses the following criteria to determine who approves expense reports:</span></span>
 

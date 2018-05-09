@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: db06eef916b1298470e51b8674fc0dee15184473
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e9b42a7343dacc1bcd995c10a4b90a87998a31ba
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="72401-103">Creare un ordine cliente per un prodotto configurabile</span><span class="sxs-lookup"><span data-stu-id="72401-103">Create a sales order for a configurable product</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="72401-104">Questa procedura mostra come applicare un modello di configurazione a un prodotto in un ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="72401-104">This procedure shows how to apply a configuration template to a product on a sales order.</span></span> <span data-ttu-id="72401-105">Nell'esempio viene utilizzato il modello di altoparlante D0006 della società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="72401-105">This example uses the D0006 speaker model in the USMF demo data company.</span></span> <span data-ttu-id="72401-106">In genere, un gestore degli ordini cliente usa questa procedura.</span><span class="sxs-lookup"><span data-stu-id="72401-106">Typically, a sales order processor uses this procedure.</span></span>
 

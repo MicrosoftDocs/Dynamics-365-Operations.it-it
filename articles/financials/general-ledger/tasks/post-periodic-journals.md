@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57b73c43be6ef4dda82cb919d4eb83eeae9c3633
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8f7d033dd5a79190a2e579837d458f239bae551a
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="post-periodic-journals"></a><span data-ttu-id="a4a48-103">Registrare giornali periodici</span><span class="sxs-lookup"><span data-stu-id="a4a48-103">Post periodic journals</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a4a48-104">I giornali di registrazione periodici vengono talvolta denominati giornali ricorrenti poiché l'importo, il testo e altre informazioni vengono ripetuti ogni volta che il giornale di registrazione periodico viene recuperato.</span><span class="sxs-lookup"><span data-stu-id="a4a48-104">Periodic journals are sometimes called recurring journals because the amount, text, and other information are repeated each time that the periodic journal is retrieved.</span></span> <span data-ttu-id="a4a48-105">Quando si crea il giornale di registrazione periodico si specifica l'intervallo periodico per la ricorrenza, ad esempio giorni o mesi.</span><span class="sxs-lookup"><span data-stu-id="a4a48-105">When you create the periodic journal, you specify the period interval for the recurrence, such as days or months.</span></span> <span data-ttu-id="a4a48-106">Questa guida attività consentirà di creare un giornale di registrazione periodico con una ricorrenza mensile.</span><span class="sxs-lookup"><span data-stu-id="a4a48-106">This task guide will create a periodic journal with a monthly recurrence.</span></span>
 

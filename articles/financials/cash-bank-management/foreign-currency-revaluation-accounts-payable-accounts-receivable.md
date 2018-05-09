@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 87bafa5817ceef8428cf28c60ec336c127e432d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7270956e8c24cdb4e2efb471ba1e8efa31c7f3dc
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a><span data-ttu-id="cbfa2-104">Rivalutazione valuta estera per la contabilità fornitori e la contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="cbfa2-104">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cbfa2-105">Le fluttuazioni nei tassi di cambio causano la variazione nel tempo del valore teorico (contabile) delle transazioni aperte in valuta estera.</span><span class="sxs-lookup"><span data-stu-id="cbfa2-105">Fluctuations in exchange rates cause the theoretical value (book value) of open transactions in foreign currencies to vary over time.</span></span> <span data-ttu-id="cbfa2-106">Questo articolo fornisce informazioni sul processo di rivalutazione valuta estera eseguito per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti.</span><span class="sxs-lookup"><span data-stu-id="cbfa2-106">This article provides information about the foreign currency revaluation process that you run to update the value of open transactions in Accounts payable and Accounts receivable.</span></span> 
 

@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2b07f9d971dc152e9168b9867e70c59481325284
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 70c7f7a9ca119abbfedf8e09e9994b2a904dc421
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-management-workspace"></a><span data-ttu-id="42dd1-105">Area di lavoro gestione cespiti</span><span class="sxs-lookup"><span data-stu-id="42dd1-105">Fixed asset management workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="42dd1-106">L'area di lavoro **Gestione cespiti** visualizza le informazioni relative ai cespiti immessi nel sistema.</span><span class="sxs-lookup"><span data-stu-id="42dd1-106">The **Fixed asset management** workspace shows information that is related to fixed assets that are entered in the system.</span></span> <span data-ttu-id="42dd1-107">Questa area di lavoro include una visualizzazione di riepilogo e una visualizzazione di analisi.</span><span class="sxs-lookup"><span data-stu-id="42dd1-107">This workspace includes a summary view and an analytics view.</span></span> <span data-ttu-id="42dd1-108">Nella scheda **Lavoro personale** vengono visualizzati i riquadri di riepilogo, i dettagli dei cespiti e le informazioni correlate sui cespiti della società corrente.</span><span class="sxs-lookup"><span data-stu-id="42dd1-108">The **My work** tab shows summary tiles, fixed asset details, and related information about fixed assets in the current company.</span></span> <span data-ttu-id="42dd1-109">È inoltre possibile aggiungere l'analisi alla sezione dell'analisi di Power BI direttamente nell'area di lavoro.</span><span class="sxs-lookup"><span data-stu-id="42dd1-109">You can also add analytics to the Power BI analytics section directly in the workspace.</span></span> <span data-ttu-id="42dd1-110">La scheda **Analisi - tutte le società** utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni relative ai cespiti di tutte le società.</span><span class="sxs-lookup"><span data-stu-id="42dd1-110">The **Analytics – all companies** tab uses capabilities of Microsoft Power BI to show visuals that are related to fixed assets in all companies.</span></span>
 

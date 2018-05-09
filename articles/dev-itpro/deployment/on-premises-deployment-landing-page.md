@@ -18,15 +18,15 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: de36746bce4aa27d23aa45f2d08cb6c2d527ea90
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23c1953b690d8938468c3cdb1deb5da920f16758
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="on-premises-deployment-home-page"></a><span data-ttu-id="1e29f-103">Home page relativa alla distribuzione locale</span><span class="sxs-lookup"><span data-stu-id="1e29f-103">On-premises deployment home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1e29f-104">È possibile distribuire Microsoft Dynamics 365 for Finance and Operations (locale).</span><span class="sxs-lookup"><span data-stu-id="1e29f-104">You can deploy Microsoft Dynamics 365 for Finance and Operations (on-premises).</span></span> <span data-ttu-id="1e29f-105">Quando si sceglie un tipo di distribuzione locale, i requisiti di sistema, il dimensionamento hardware e il funzionamento differiscono da una distribuzione nel cloud.</span><span class="sxs-lookup"><span data-stu-id="1e29f-105">When you choose an on-premises deployment type, the system requirements, hardware sizing, and functionality differ from a cloud deployment.</span></span> <span data-ttu-id="1e29f-106">Questo argomento fornisce i collegamenti a contenuti che includono informazioni specifiche sulle distribuzioni locali.</span><span class="sxs-lookup"><span data-stu-id="1e29f-106">This topic provides links to content that contains information specific to on-premises deployments.</span></span>
 

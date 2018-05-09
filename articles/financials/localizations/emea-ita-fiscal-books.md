@@ -18,16 +18,16 @@ ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 40b17919c8f6801249128d60ab78774cf51bbc01
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 109b6c10d49f735ef4e750a2737304903d0c011a
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="italian-sales-tax-books"></a><span data-ttu-id="b6531-103">Libri IVA italiani</span><span class="sxs-lookup"><span data-stu-id="b6531-103">Italian sales tax books</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b6531-104">Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.</span><span class="sxs-lookup"><span data-stu-id="b6531-104">The topic describes how to set up and use Italian sales tax books and Italian sales tax book sections.</span></span>
 

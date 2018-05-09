@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5c45ad125ce7c718ab278ea05a45cf6613a90900
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b533d1b7b0c92fd6072500f2856036f0dffb7809
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="802e4-103">Creare una regola kanban di prelievo</span><span class="sxs-lookup"><span data-stu-id="802e4-103">Create a withdrawal kanban rule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="802e4-104">Questa procedura illustra l'impostazione necessaria per creare una regola kanban di prelievo per il trasferimento di materiale in un ambiente lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="802e4-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="802e4-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="802e4-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="802e4-106">Questa procedura è destinata all'addetto procedure tecniche o al responsabile flusso del valore che prepara il rifornimento di un materiale nuovo o modificato.</span><span class="sxs-lookup"><span data-stu-id="802e4-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
 

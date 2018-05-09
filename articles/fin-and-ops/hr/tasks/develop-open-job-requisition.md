@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 403e1d3d4c599050f118ab019288784d7782ac2b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b3d685c6f8fbe8ff42eac739d81b8f5863ad8402
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-and-open-a-job-requisition"></a><span data-ttu-id="c05fd-103">Sviluppare e aprire una richiesta relativa alla mansione lavorativa</span><span class="sxs-lookup"><span data-stu-id="c05fd-103">Develop and open a job requisition</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c05fd-104">I progetti di selezione consentono di gestire il processo di selezione.</span><span class="sxs-lookup"><span data-stu-id="c05fd-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="c05fd-105">Per ciascun progetto di selezione, è possibile impostare informazioni, ad esempio la mansione per cui si effettua la selezione, il nome del responsabile della selezione, lo stato del progetto e il reparto che in cui la mansione verrà svolta.</span><span class="sxs-lookup"><span data-stu-id="c05fd-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="c05fd-106">Dopo avere creato un progetto di selezione, è possibile preparare un annuncio di lavoro per il progetto, pubblicare l'annuncio di lavoro nelle pagine Self Service, associare le domande di lavoro per l'impiego al progetto e tenere traccia delle attività del progetto.</span><span class="sxs-lookup"><span data-stu-id="c05fd-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="c05fd-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="c05fd-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c05fd-108">Per avviare la procedura, fare clic su Risorse umane > Selezione del personale > Progetti di selezione > Progetti di selezione</span><span class="sxs-lookup"><span data-stu-id="c05fd-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
 

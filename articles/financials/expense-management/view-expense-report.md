@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc2431a8008ce6518974e240d12dc07f097bdbb0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1047af93727f98fc0f15a82c93b388de5d9860f0
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-an-expense-report"></a><span data-ttu-id="40e0b-103">Visualizza nota spese</span><span class="sxs-lookup"><span data-stu-id="40e0b-103">View an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="40e0b-104">Quando si esegue una query per visualizzare le transazioni in Contabilità generale o Approvvigionamento, la query potrebbe restituire troppe informazioni.</span><span class="sxs-lookup"><span data-stu-id="40e0b-104">When you run a query to view transactions in General ledger or Procurement and sourcing, the query might return too much information.</span></span> <span data-ttu-id="40e0b-105">Di conseguenza, potrebbe essere necessario limitare l'ambito della ricerca.</span><span class="sxs-lookup"><span data-stu-id="40e0b-105">Therefore, you might want to narrow your search.</span></span> <span data-ttu-id="40e0b-106">Per ottenere le informazioni necessarie, è possibile eseguire il drill-down in una transazione per visualizzare la nota spese con le informazioni desiderate.</span><span class="sxs-lookup"><span data-stu-id="40e0b-106">To get the information that you require, you can drill down into a transaction to see the expense report that it appeared on.</span></span>
 

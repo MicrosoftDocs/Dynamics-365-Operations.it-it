@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a9cb8050d5d2f0945be76be7370a2e49dee52819
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c8af002efb12f5b18100d2eb6c41c69a3daef1e
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="45512-103">Creare nuovo ordine di rifornimento spedizione</span><span class="sxs-lookup"><span data-stu-id="45512-103">Create a consignment replenishment order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="45512-104">In questa procedura viene illustrato come creare un ordine di rifornimento spedizione in cui è possibile tracciare la consegna prevista da un fornitore nell'inventario di spedizione.</span><span class="sxs-lookup"><span data-stu-id="45512-104">This procedure shows how to create a consignment replenishment order where you can track the expected delivery from a vendor into your consignment inventory.</span></span> <span data-ttu-id="45512-105">Viene inoltre illustrato come registrare un'entrata prodotti in modo da registrare l'inventario di spedizione come scorte disponibili di proprietà del fornitore.</span><span class="sxs-lookup"><span data-stu-id="45512-105">It also shows how to record a receipt of products so that the consignment inventory is registered as on-hand inventory owned by the vendor.</span></span> <span data-ttu-id="45512-106">Questa procedura viene in genere eseguita da un responsabile approvvigionamenti.</span><span class="sxs-lookup"><span data-stu-id="45512-106">This procedure would typically be done by a procurement professional.</span></span> <span data-ttu-id="45512-107">È possibile utilizzare questa guida nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="45512-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="45512-108">Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations, versione 1611.</span><span class="sxs-lookup"><span data-stu-id="45512-108">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bfcebf61a5f613517e05af5c1548b5ceaaed53ee
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7304d49cdaafb1521b56747e98a39f97183e12f2
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-worker-information"></a><span data-ttu-id="cbfbb-103">Immettere informazioni sui lavoratori</span><span class="sxs-lookup"><span data-stu-id="cbfbb-103">Enter worker information</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cbfbb-104">Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte.</span><span class="sxs-lookup"><span data-stu-id="cbfbb-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="cbfbb-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="cbfbb-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cbfbb-106">I dati dimostrativi contengono un progetto di assunzione collettiva aperto.</span><span class="sxs-lookup"><span data-stu-id="cbfbb-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="cbfbb-107">Per iniziare questa procedura, andare a Risorse umane > Selezione del personale > Progetti di assunzione collettiva.</span><span class="sxs-lookup"><span data-stu-id="cbfbb-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
 

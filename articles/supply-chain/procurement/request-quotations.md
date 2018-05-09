@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69b9c5590e6f9311696bbbed2e63a6eeba2a90bf
-ms.openlocfilehash: 3f527911183a6e9b335f30d472ff57144e6a5aff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c376273f901f0c860aea92db587a1b156ab079b5
 ms.contentlocale: it-it
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="requests-for-quotation-rfqs"></a><span data-ttu-id="50c23-104">Richieste di offerta (RdO)</span><span class="sxs-lookup"><span data-stu-id="50c23-104">Requests for quotation (RFQs)</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="50c23-105">In questo argomento è riportata una panoramica relativa alle richieste di offerta (RdO).</span><span class="sxs-lookup"><span data-stu-id="50c23-105">This topic provides an overview of requests for quotation (RFQs).</span></span> <span data-ttu-id="50c23-106">Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori.</span><span class="sxs-lookup"><span data-stu-id="50c23-106">Organizations issue RFQs when they want to receive competitive offers from several vendors for the items or services that they must purchase.</span></span> <span data-ttu-id="50c23-107">In una richiesta di offerta viene richiesto ai fornitori di fornire i prezzi e i tempi di consegna per le quantità di articoli specificati.</span><span class="sxs-lookup"><span data-stu-id="50c23-107">In an RFQ, you ask vendors to provide the prices and delivery times for the item quantities that you specify.</span></span>
 <span data-ttu-id="50c23-108">È inoltre possibile chiedere ai fornitori di specificare se esistono eventuali spese accessorie, ad esempio i costi di spedizione o se il fornitore offre sconti per grandi ordini o per il pagamento anticipato della fattura fornitore.</span><span class="sxs-lookup"><span data-stu-id="50c23-108">You can also ask vendors to specify whether there are any incidental charges, such as shipping costs, or any discounts for large orders or early payment of the vendor invoice.</span></span>

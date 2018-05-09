@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9da0adc848f334e5044c1629a403b6daac2dc639
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb8477eba19b536c77296f235fc93280b9982518
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a><span data-ttu-id="14672-103">Progettare configurazioni per analizzare documenti in entrata per aggiornamenti dei dati dell'applicazione (ER)</span><span class="sxs-lookup"><span data-stu-id="14672-103">Design configurations to parse incoming documents for application data updates (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="14672-104">Questa procedura indica come progettare le configurazioni ER per analizzare un documento elettronico in entrata.</span><span class="sxs-lookup"><span data-stu-id="14672-104">This procedure shows how to design Electronic reporting (ER) configurations to parse an incoming electronic document.</span></span> <span data-ttu-id="14672-105">In questa procedura, le configurazioni ER necessarie create per la società di esempio Litware, Inc. saranno importate e utilizzate per analizzare documenti elettronici in entrata.</span><span class="sxs-lookup"><span data-stu-id="14672-105">In this procedure, you will import the required ER configurations that have been created for the sample company, Litware, Inc. and use them for parsing incoming electronic documents.</span></span> <span data-ttu-id="14672-106">Per completare i passaggi in questa procedura, è necessario prima completare i passaggi della procedura "Creazione di report elettronici: creare e attivare un provider di configurazione".</span><span class="sxs-lookup"><span data-stu-id="14672-106">To complete the steps in this procedure, you must first complete the procedure, “ER Create a configuration provider and mark it as active.”</span></span>
 

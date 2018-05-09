@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 67817a3db1aa7d90fd64509b707f075b22010dcb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f09d18e39c58385cfdbbbbb0ff398d1a11bbcbe0
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="manage-email-templates"></a><span data-ttu-id="9b86c-103">Gestire modelli di messaggi di posta elettronica</span><span class="sxs-lookup"><span data-stu-id="9b86c-103">Manage email templates</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9b86c-104">È possibile trasferire le informazioni del database dell'organizzazione ai segnalibri in un nuovo documento e utilizzarlo nei modelli per comunicare efficientemente con i candidati.</span><span class="sxs-lookup"><span data-stu-id="9b86c-104">You can transfer information from your organization’s database to the bookmarks in a new document and use it in templates that help you communicate efficiently with applicants and candidates.</span></span> <span data-ttu-id="9b86c-105">A tale scopo, è necessario creare un modello contenente testo standard e alcuni segnalibri in cui devono essere inseriti i dati.</span><span class="sxs-lookup"><span data-stu-id="9b86c-105">To do this, you create a template that contains standard text and some bookmarks where the system data should be inserted.</span></span> <span data-ttu-id="9b86c-106">Ad esempio, è possibile inserire l'indirizzo e le informazioni sul contatto per un candidato in un documento di Microsoft Word da utilizzare quando si comunica con il candidato.</span><span class="sxs-lookup"><span data-stu-id="9b86c-106">For example, you can insert address and contact information for an applicant into a Microsoft Word document that you can use when communicating with that applicant.</span></span> <span data-ttu-id="9b86c-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="9b86c-107">The demo data company used to create this procedure is USMF.</span></span>
 

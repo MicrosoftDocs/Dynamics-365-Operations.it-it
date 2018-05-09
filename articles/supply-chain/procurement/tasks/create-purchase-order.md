@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 165f29ceaabe4d09785e5f1edfe57db525264c15
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 50ca6f46253ca49b90493b4588e0bbf4e9711ecd
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order"></a><span data-ttu-id="b2948-103">Creare un ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="b2948-103">Create a purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b2948-104">Questa procedura indica come creare un ordine fornitore manualmente.</span><span class="sxs-lookup"><span data-stu-id="b2948-104">This procedure shows you how to create a purchase order manually.</span></span> <span data-ttu-id="b2948-105">È più normale che gli ordini fornitori vengano creati automaticamente come risultato di una pianificazione generale, della consegna diretta e di altri processi.</span><span class="sxs-lookup"><span data-stu-id="b2948-105">It’s more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes.</span></span> <span data-ttu-id="b2948-106">Gli ordini acquisti sono in genere creati da un addetto agli acquisti.</span><span class="sxs-lookup"><span data-stu-id="b2948-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="b2948-107">L'esempio riportato in questo campo può essere utilizzato nella società di dati dimostrativi USMF usando i valori che verranno suggeriti nelle note per i vari passaggi.</span><span class="sxs-lookup"><span data-stu-id="b2948-107">The example shown here can be used in the USMF demo data company using the values that are suggested in the notes for various steps.</span></span>
 

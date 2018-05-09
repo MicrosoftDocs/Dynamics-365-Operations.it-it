@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9d2c2fbd223bd2b410e4a5db87ec468eb25dc87f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eef91945d1ed4a93225deea9a39a338601333fd9
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a><span data-ttu-id="b0ac8-103">Creare una regola kanban tramite un evento riga kanban</span><span class="sxs-lookup"><span data-stu-id="b0ac8-103">Create a kanban rule using a kanban line event</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b0ac8-104">Questa procedura crea una regola kanban usando l'impostazione di evento riga kanban che attiva il pull da un'attività di processo.</span><span class="sxs-lookup"><span data-stu-id="b0ac8-104">This procedure creates a kanban rule by using the kanban line event setting to trigger pull from a process activity.</span></span> <span data-ttu-id="b0ac8-105">La regola kanban è attivata da un'attività di processo kanban, con una quantità uguale o maggiore di 25 ciascuna.</span><span class="sxs-lookup"><span data-stu-id="b0ac8-105">The kanban rule is triggered by a kanban process activity, with a quantity equal to or greater than 25 each.</span></span> <span data-ttu-id="b0ac8-106">La società di dati dimostrativi utilizzata per creare questa attività è USMF.</span><span class="sxs-lookup"><span data-stu-id="b0ac8-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="b0ac8-107">Questa attività è destinata all'addetto procedure tecniche o al responsabile flusso del valore che prepara la produzione di un prodotto nuovo o modificato in un ambiente lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="b0ac8-107">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 

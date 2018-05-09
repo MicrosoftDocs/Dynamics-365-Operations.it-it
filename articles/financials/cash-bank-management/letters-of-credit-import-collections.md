@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3bab4b9981f58c133e8c5ed693e6ed345248809d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: effaffe8b5fbfc79713501973ece49db0517e30d
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="57ab7-104">Lettere di credito e pagamenti all'importazione</span><span class="sxs-lookup"><span data-stu-id="57ab7-104">Letters of credit and import collections</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="57ab7-105">Questo articolo fornisce informazioni generali sulle le previsioni informazioni generali sulle lettere di credito e sui pagamenti all'importazione.</span><span class="sxs-lookup"><span data-stu-id="57ab7-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="57ab7-106">Entrambi i tipi di documenti bancari sono spesso utilizzati per la compravendita di merci tra paesi diversi.</span><span class="sxs-lookup"><span data-stu-id="57ab7-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 

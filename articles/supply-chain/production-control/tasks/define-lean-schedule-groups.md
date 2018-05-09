@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 50435f858524013c3b0e67939bd29ab18b4272b0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d306b9f28daf73884d5804720be3dba41e569509
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-lean-schedule-groups"></a><span data-ttu-id="e8e24-103">Definire gruppi di produzione snella</span><span class="sxs-lookup"><span data-stu-id="e8e24-103">Define lean schedule groups</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e8e24-104">I gruppi di programmazione snella sono definiti per raggruppare e distinguere i prodotti nella programmazione kanban.</span><span class="sxs-lookup"><span data-stu-id="e8e24-104">Lean schedule groups are defined to group and distinguish products in kanban scheduling.</span></span> <span data-ttu-id="e8e24-105">Il raggruppamento può essere eseguito come associazione generica per società o specifica per cella di lavoro.</span><span class="sxs-lookup"><span data-stu-id="e8e24-105">The grouping can be done as generic association per company or specific to a work cell.</span></span> <span data-ttu-id="e8e24-106">A ciascun gruppo è associato un codice colore per l'indicazione visiva nella pagina elenco di programmazione kanban.</span><span class="sxs-lookup"><span data-stu-id="e8e24-106">Each group has a color code assigned for visual indication in the kanban scheduling list page.</span></span> <span data-ttu-id="e8e24-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="e8e24-107">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9998366e675892cf0ee9bd6d5f240d5e6ab73193
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9e3ac3d6fd9a92d919743b25f865f5ee13a9fb4f
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vat-statements-details-for-italy"></a><span data-ttu-id="980d6-103">Dettagli delle dichiarazioni IVA per l'Italia</span><span class="sxs-lookup"><span data-stu-id="980d6-103">VAT statements details for Italy</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="980d6-104">In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia.</span><span class="sxs-lookup"><span data-stu-id="980d6-104">This topic explains how to set up a VAT statement for legal entities in Italy.</span></span> 
 

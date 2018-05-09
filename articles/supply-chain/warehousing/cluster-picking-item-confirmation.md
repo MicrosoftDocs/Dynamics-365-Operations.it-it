@@ -18,14 +18,14 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8f9d287f5d2134d26296c1302a9c18505c426db3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 52b5362764d95ee3e82bbb5781aa9bc6e4586b0f
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="76126-103">Conferma prodotto per prelievo cluster</span><span class="sxs-lookup"><span data-stu-id="76126-103">Product confirmation for cluster picking</span></span>
 <span data-ttu-id="76126-104">Il prelievo cluster consente di selezionare gli articoli per più ordini contemporaneamente.</span><span class="sxs-lookup"><span data-stu-id="76126-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="76126-105">Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenziale per verificare che gli articoli vengano aggiunti ai cluster.</span><span class="sxs-lookup"><span data-stu-id="76126-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="76126-106">È possibile verificare gli articoli nel prelievo cluster durante il processo di prelievo cluster.</span><span class="sxs-lookup"><span data-stu-id="76126-106">You can verify items in cluster picking during the cluster picking process.</span></span>

@@ -19,16 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 417f134ca18a0b7c57c2e03cdb457ba151bbd16b
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a><span data-ttu-id="3b856-103">Traccia di articoli e materie prime in magazzino, nella produzione e nelle vendite</span><span class="sxs-lookup"><span data-stu-id="3b856-103">Item and raw material tracing in inventory, production, and sales</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3b856-104">In questo argomento viene descritto come utilizzare la tracciabilità articolo per identificare il punto in cui vengono utilizzati gli articoli o le materie prime o quello in cui verranno utilizzati nei processi di produzione e vendita.</span><span class="sxs-lookup"><span data-stu-id="3b856-104">This topic describes how you can use item tracing to identify where items or raw materials have been used, are being used, or will be used in production and sales processes.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e12a2ac565bb8a8383044bd76a97f01e0434c739
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dc014e499d5705b8ad72bc502969a6102d89ae36
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-dispositions-codes"></a><span data-ttu-id="c41f3-103">Impostare codici di smaltimento</span><span class="sxs-lookup"><span data-stu-id="c41f3-103">Set up dispositions codes</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c41f3-104">Questa procedura riguarda l'impostazione di un codice smaltimento che può essere utilizzato in un dispositivo mobile per il processo di ricezione dell'ordine di reso.</span><span class="sxs-lookup"><span data-stu-id="c41f3-104">This procedure focuses on the setup of a disposition code that can be used on a mobile device for the return order receiving process.</span></span> <span data-ttu-id="c41f3-105">I codici smaltimento sono una raccolta di regole che possono essere utilizzate quando gli articoli vengono ricevuti.</span><span class="sxs-lookup"><span data-stu-id="c41f3-105">Disposition codes are a collection of rules that can be used when items are received.</span></span> <span data-ttu-id="c41f3-106">Ad esempio, quando un utente di lavoro utilizza un dispositivo mobile per ricevere articoli danneggiati, l'utente deve digitalizzare un codice smaltimento per gli articoli danneggiati.</span><span class="sxs-lookup"><span data-stu-id="c41f3-106">For example, when a work user uses a mobile device to receive items that were damaged, the user must scan a disposition code for damaged items.</span></span> <span data-ttu-id="c41f3-107">Lo stato di inventario delle merci ricevute, il modello di lavoro e la direttiva ubicazione possono essere determinate dal codice smaltimento digitalizzato.</span><span class="sxs-lookup"><span data-stu-id="c41f3-107">The inventory status of the goods received, the work template, and the location directive can be determined from the scanned disposition code.</span></span> <span data-ttu-id="c41f3-108">Per il processo di ricezione dell'ordine fornitore e il processo di dichiarazione di finito degli ordini di produzione, l'utilizzo di un codice smaltimento è facoltativo.</span><span class="sxs-lookup"><span data-stu-id="c41f3-108">For the purchase order receiving process and the production order report as finished process, the use of a disposition code is optional.</span></span> <span data-ttu-id="c41f3-109">Per il processo di ricevimento reso dell'ordine cliente, se gli articoli vengono registrati tramite un dispositivo mobile, l'utilizzo del codice smaltimento è obbligatorio.</span><span class="sxs-lookup"><span data-stu-id="c41f3-109">For the sales order return receiving process, if the items are registered using a mobile device, the use of disposition code is mandatory.</span></span>  <span data-ttu-id="c41f3-110">Questa guida è stata creata utilizzando la società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="c41f3-110">This guide was created using the demo data company USMF.</span></span> <span data-ttu-id="c41f3-111">Questa procedura è destinata al responsabile del magazzino.</span><span class="sxs-lookup"><span data-stu-id="c41f3-111">This procedure is intended for the warehouse manager.</span></span> 
 

@@ -16,16 +16,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="my-team-mobile-workspace"></a><span data-ttu-id="5175e-104">Area di lavoro mobile Team personale</span><span class="sxs-lookup"><span data-stu-id="5175e-104">My team mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5175e-105">In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Team personale**.</span><span class="sxs-lookup"><span data-stu-id="5175e-105">This topic provides information about the **My team** mobile workspace.</span></span> <span data-ttu-id="5175e-106">Quest'area di lavoro consente ai responsabili di visualizzare i loro subalterni diretti e il personale esteso.</span><span class="sxs-lookup"><span data-stu-id="5175e-106">This workspace lets managers view their direct reports and extended staff.</span></span> <span data-ttu-id="5175e-107">Possono inoltre inviare complimenti ai singoli alle persone della loro catena di subalterni.</span><span class="sxs-lookup"><span data-stu-id="5175e-107">They can also send praise to individuals in their reporting chain.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 203eddac527bc91b448ca4227ae2b67086069c58
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4fd2c6355611812432ee47241f6d37bc2fb508c6
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bills-of-materials-and-formulas"></a><span data-ttu-id="9334a-103">Distinte base e formule</span><span class="sxs-lookup"><span data-stu-id="9334a-103">Bills of materials and formulas</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9334a-104">Questo articolo offre informazioni sulle distinte base (DBA) e sulle formule, che sono una parte centrale della definizione dei prodotti e varianti prodotto.</span><span class="sxs-lookup"><span data-stu-id="9334a-104">This topic provides information about bills of materials (BOMs) and formulas, which are a central part of the definition of products and product variants.</span></span> <span data-ttu-id="9334a-105">Le distinte base e le formule specificano i materiali o gli ingredienti necessari per un prodotto specifico.</span><span class="sxs-lookup"><span data-stu-id="9334a-105">BOMs and formulas specify the required materials or ingredients for a specific product.</span></span> <span data-ttu-id="9334a-106">Le formule inoltre specificano i co-prodotti e sottoprodotti ricevuti nel contesto di produzione specifico.</span><span class="sxs-lookup"><span data-stu-id="9334a-106">Formulas also specify the co-products and by-products that are received in a specific production context.</span></span> 
 

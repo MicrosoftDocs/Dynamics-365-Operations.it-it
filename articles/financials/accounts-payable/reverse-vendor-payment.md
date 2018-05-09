@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7633b08bcb701863fb59c57eed3d9656ea72998c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5851bbf7310fe8a99034c6ab29188ae25db47c51
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reverse-a-vendor-payment"></a><span data-ttu-id="b35f5-104">Stornare un pagamento fornitore</span><span class="sxs-lookup"><span data-stu-id="b35f5-104">Reverse a vendor payment</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b35f5-105">Questo articolo descrive le differenze tra lo storno, l'eliminazione, l'annullamento e il rifiuto di un pagamento.</span><span class="sxs-lookup"><span data-stu-id="b35f5-105">This article describes the differences between reversing, deleting, voiding, and rejecting a payment.</span></span> <span data-ttu-id="b35f5-106">Inoltre, illustra i due metodi per stornare un assegno fornitore.</span><span class="sxs-lookup"><span data-stu-id="b35f5-106">Additionally, it explains the two methods for reversing a vendor check.</span></span> 
 

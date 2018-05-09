@@ -17,16 +17,16 @@ ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3afa39e2d86255cec74fe69caf82d3997a226808
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3e3c8739f33ca1fa3a267b754a7470fb5be0d3d6
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modello-770"></a><span data-ttu-id="1546e-103">Modello 770</span><span class="sxs-lookup"><span data-stu-id="1546e-103">Modello 770</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1546e-104">In questo argomento viene descritto come installare, creare ed esportare il Modello 770 utilizzato per dichiarare le ritenute d'acconto.</span><span class="sxs-lookup"><span data-stu-id="1546e-104">This topic explains how to set up, create, and export the Model 770 report that is used to report withholding tax.</span></span>
 

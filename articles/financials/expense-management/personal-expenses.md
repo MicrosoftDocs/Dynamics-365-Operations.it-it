@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 11739c8b2979cf7ac9aad04e5be9903d6bc1837a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e21605dbe9d4f8182b868183e33a12e9b7e62422
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="personal-expenses-on-an-expense-report"></a><span data-ttu-id="83dad-103">Spese personali in una nota spese</span><span class="sxs-lookup"><span data-stu-id="83dad-103">Personal expenses on an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="83dad-104">Durante i viaggi di lavoro potrebbe accadere che a volte i lavoratori utilizzino la carta di credito aziendale per le spese personali.</span><span class="sxs-lookup"><span data-stu-id="83dad-104">During business travel, workers might sometimes charge personal expenses to their corporate credit cards.</span></span> <span data-ttu-id="83dad-105">Se non si definisce un processo per la gestione delle spese personali, è possibile che il processo di approvazione delle note spese venga interrotto quando i lavoratori inviano i dettagli delle note spese.</span><span class="sxs-lookup"><span data-stu-id="83dad-105">If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports.</span></span> 
 

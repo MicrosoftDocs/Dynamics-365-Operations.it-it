@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 30bff74da8399ddc15f2bc84e83887c8b5e60570
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 09a5bbe7601248fd2635fda4a0d87973a6e1ceba
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="1d918-103">Impostare un processo di rifornimento minimo/massimo</span><span class="sxs-lookup"><span data-stu-id="1d918-103">Set up a min-max replenishment process</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1d918-104">Questa procedura mostra come impostare un nuovo processo di rifornimento che utilizza la strategia di rifornimento minima/massima.</span><span class="sxs-lookup"><span data-stu-id="1d918-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="1d918-105">Quando le scorte scendono sotto il livello minimo, il lavoro verrà creato per rifornire l'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="1d918-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="1d918-106">La procedura mostra anche come utilizzare le ubicazioni fisse di prelievo per consentire il ristoccaggio anche se le scorte scendono sotto il livello minimo e come consentire l'esecuzione regolare del processo di rifornimento utilizzando un processo batch.</span><span class="sxs-lookup"><span data-stu-id="1d918-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="1d918-107">Queste attività verranno in genere svolte da un responsabile del magazzino.</span><span class="sxs-lookup"><span data-stu-id="1d918-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="1d918-108">È possibile eseguire questa procedura nella società di dati dimostrativi USMF utilizzando i valori di esempio nelle note oppure è possibile eseguirla sui propri dati.</span><span class="sxs-lookup"><span data-stu-id="1d918-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="1d918-109">Se si utilizzano i propri dati, assicurarsi che un magazzino sia abilitato per i processi di gestione magazzino.</span><span class="sxs-lookup"><span data-stu-id="1d918-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 

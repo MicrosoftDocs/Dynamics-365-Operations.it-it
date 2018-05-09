@@ -19,16 +19,16 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 65501866f0c465f40de842c5f612aae9349db7be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: adbae0254b1f5b61c889bfcae3fffdea3b478dad
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="import-and-maintain-credit-card-transactions"></a><span data-ttu-id="e3557-104">Importare e gestire transazioni con carta di credito</span><span class="sxs-lookup"><span data-stu-id="e3557-104">Import and maintain credit card transactions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e3557-105">Le transazioni con carte di credito correlate alle spese possono essere impostate per essere incluse automaticamente in una programmazione ricorrente.</span><span class="sxs-lookup"><span data-stu-id="e3557-105">Expense-related credit card transactions can be set up so that they are automatically imported on a recurring schedule.</span></span> <span data-ttu-id="e3557-106">In alternativa, le transazioni possono essere importate manualmente secondo le esigenze.</span><span class="sxs-lookup"><span data-stu-id="e3557-106">Alternatively, the transactions can be manually imported as they are required.</span></span> <span data-ttu-id="e3557-107">Le transazioni con carta di credito vengono importate mediante l'entità di dati Transazioni con carta di credito.</span><span class="sxs-lookup"><span data-stu-id="e3557-107">The credit card transactions are imported through the Credit card transactions data entity.</span></span>
 

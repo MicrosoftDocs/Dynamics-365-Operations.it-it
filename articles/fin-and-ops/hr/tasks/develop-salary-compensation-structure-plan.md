@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d2a4a0b2bf2d33530dedc7ce3974ee558d063878
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 48ca723cbbc6a13970ba4ab7b890ba333e469514
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a><span data-ttu-id="93787-103">Sviluppare una struttura e piani di stipendi/retribuzioni</span><span class="sxs-lookup"><span data-stu-id="93787-103">Develop salary/compensation structure and plans</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="93787-104">In questa guida attività viene illustrato il processo di creazione di un piano di retribuzione fissa e di abilitazione dei dipendenti a iscriversi al piano in base alle regole di idoneità.</span><span class="sxs-lookup"><span data-stu-id="93787-104">This task guide walks through the process of creating a Fixed compensation plan and enabling employees to be enrolled in the plan through eligibility rules.</span></span> <span data-ttu-id="93787-105">La società di dati dimostrativi utilizzata per creare questa attività è USMF e l'attività è destinata ai responsabili retribuzione e benefit.</span><span class="sxs-lookup"><span data-stu-id="93787-105">The demo data company used to create this task is USMF and the task is intended for Compensation and Benefits Managers.</span></span>
 

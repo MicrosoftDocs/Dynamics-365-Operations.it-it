@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4f2dc9221b72600c928db9fd306038725c7af305
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 27fbf57ba7114ca773f2a80de51b36b4e63c6dd6
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a><span data-ttu-id="c5c39-103">Configurare la visualizzazione dei batch meno recenti di un magazzino su un dispositivo mobile</span><span class="sxs-lookup"><span data-stu-id="c5c39-103">Configure Display older batches within warehouse on a mobile device</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c5c39-104">La configurazione **Visualizza batch meno recenti di un magazzino** consente di visualizzare un elenco di ubicazioni con batch meno recenti rispetto a quelli dell'ubicazione corrente della riga di lavoro.</span><span class="sxs-lookup"><span data-stu-id="c5c39-104">The **Display older batches within warehouse** configuration lets you display a list of locations with batches older than the current location of the work line.</span></span> <span data-ttu-id="c5c39-105">L'elenco delle ubicazioni visualizzate include informazioni sui batch meno recenti nell'ubicazione con la data di scadenza e l'inventario fisico di ogni batch.</span><span class="sxs-lookup"><span data-stu-id="c5c39-105">The list of locations that are displayed includes information about the older batches in the location with the expiration date and the physical inventory of each batch.</span></span> <span data-ttu-id="c5c39-106">È possibile scegliere di prelevare da una nuova ubicazione o di continuare a prelevare dall'ubicazione corrente.</span><span class="sxs-lookup"><span data-stu-id="c5c39-106">You can choose to pick from a new location or to continue picking from the current location.</span></span> 
 - <span data-ttu-id="c5c39-107">Preleva da una nuova ubicazione - Se si seleziona il prelievo da una nuova ubicazione, la riga di lavoro corrente verrà aggiornata per utilizzare la nuova ubicazione e il lavoro continuerà normalmente con la nuova ubicazione.</span><span class="sxs-lookup"><span data-stu-id="c5c39-107">Pick from a new location - If you select a new location to pick from, the  current work line will be updated to use the new location and work will continue as usual with the new location.</span></span> <span data-ttu-id="c5c39-108">Affinché la nuova ubicazione sia valida, deve avere una quantità disponibile sufficiente per l'intera riga di lavoro.</span><span class="sxs-lookup"><span data-stu-id="c5c39-108">For the new location to be valid, it must have enough available quantity for the whole work line.</span></span> <span data-ttu-id="c5c39-109">Se la quantità richiesta non è disponibile, la riga di lavoro non verrà aggiornata e verrà visualizzato l'elenco.</span><span class="sxs-lookup"><span data-stu-id="c5c39-109">If the required quantity is not available, the work line will not be updated, and the list will display.</span></span> 

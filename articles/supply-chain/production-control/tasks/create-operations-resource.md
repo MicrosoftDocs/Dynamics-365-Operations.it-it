@@ -17,15 +17,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 94b1bc306ecbc8bec6beac149001f202c77a9090
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8d87bd2b3f617eab905fa484ee03821a1a44e20b
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-an-operations-resource"></a><span data-ttu-id="b1e1f-103">Creare una risorsa operativa</span><span class="sxs-lookup"><span data-stu-id="b1e1f-103">Create an operations resource</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b1e1f-104">Una risorsa operativa esegue le attività di un progetto o di un processo di produzione.</span><span class="sxs-lookup"><span data-stu-id="b1e1f-104">An operations resource performs the activities of a project or a production process.</span></span> <span data-ttu-id="b1e1f-105">In questa procedura viene illustrato come definire una risorsa operativa.</span><span class="sxs-lookup"><span data-stu-id="b1e1f-105">This procedure shows you how to define an operations resource.</span></span> <span data-ttu-id="b1e1f-106">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.</span><span class="sxs-lookup"><span data-stu-id="b1e1f-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 92c3487e7174497cd77e6685f5ed9ea2bc675d2a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d0f24fd57c98a6323b617a3e8b5d4a5a3710c33d
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="organization-administration-home-page"></a><span data-ttu-id="e8970-103">Home page di amministrazione organizzazione</span><span class="sxs-lookup"><span data-stu-id="e8970-103">Organization administration home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e8970-104">Questo argomento descrive le risorse che power user e amministratori possono utilizzare per configurare Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e8970-104">This topic points to content that will help power users and administrators configure Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="e8970-105">Tali risorse consentono di configurare efficacemente il sistema per l'organizzazione e l'attività commerciale.</span><span class="sxs-lookup"><span data-stu-id="e8970-105">This content will help them configure the system to work smoothly and effectively for your organization and business.</span></span>
 

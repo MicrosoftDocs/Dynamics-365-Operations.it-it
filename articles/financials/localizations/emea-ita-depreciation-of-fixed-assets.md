@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c4f5b0035ac2f757d6172dab6cd7b37d1bf8d3bd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 80b0fdd86785f1c503045afe9e8e03a2e0641f9b
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manual-depreciation-of-fixed-assets-for-italy"></a><span data-ttu-id="97c1b-103">Ammortamento manuale dei cespiti per l'Italia</span><span class="sxs-lookup"><span data-stu-id="97c1b-103">Manual depreciation of fixed assets for Italy</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="97c1b-104">In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia.</span><span class="sxs-lookup"><span data-stu-id="97c1b-104">This topic provides information about fixed assets depreciation for legal entities in Italy.</span></span> 
 

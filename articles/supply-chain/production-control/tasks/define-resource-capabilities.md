@@ -17,15 +17,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6cd8b8e409348b4df1144ad58700882879012766
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 94a1a6bf72a24549b29d24277e5524990b357074
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-resource-capabilities"></a><span data-ttu-id="d23aa-103">Definire le capacità delle risorse</span><span class="sxs-lookup"><span data-stu-id="d23aa-103">Define resource capabilities</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d23aa-104">Capacità risorsa descrive le operazioni che possono effettuare le risorse operative.</span><span class="sxs-lookup"><span data-stu-id="d23aa-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="d23aa-105">Durante la programmazione, i requisiti di ogni processo e operazione vengono associati alle capacità delle risorse disponibili.</span><span class="sxs-lookup"><span data-stu-id="d23aa-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="d23aa-106">Questa guida attività consentirà di creare una capacità risorsa e di assegnarla a una risorsa.</span><span class="sxs-lookup"><span data-stu-id="d23aa-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="d23aa-107">La società di dati dimostrativi utilizzata per creare questa attività è USMF.</span><span class="sxs-lookup"><span data-stu-id="d23aa-107">The demo data company used to create this task is USMF.</span></span>
 

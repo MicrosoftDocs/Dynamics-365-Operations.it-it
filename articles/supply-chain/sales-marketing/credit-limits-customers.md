@@ -17,16 +17,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e57389ac2882b011bf4ae98334db18a8f35846e2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c4309045abdac36376bc7ddb313475710a0fd02
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="credit-limits-for-customers"></a><span data-ttu-id="ff2cc-103">Limiti di credito per i clienti</span><span class="sxs-lookup"><span data-stu-id="ff2cc-103">Credit limits for customers</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ff2cc-104">Impostare un limite di credito consente di specificare l'importo massimo di credito da estendere ai clienti.</span><span class="sxs-lookup"><span data-stu-id="ff2cc-104">Setting a credit limit lets you specify the maximum amount of credit to extend to your customers.</span></span> <span data-ttu-id="ff2cc-105">Se un limite di credito viene specificato, viene verificato automaticamente quando un utente tenta di aggiornare un documento.</span><span class="sxs-lookup"><span data-stu-id="ff2cc-105">If a credit limit is specified, it is checked automatically when a user attempts to update a document.</span></span> <span data-ttu-id="ff2cc-106">Se il limite di credito viene superato, viene visualizzato un messaggio all'utente.</span><span class="sxs-lookup"><span data-stu-id="ff2cc-106">If the credit limit is exceeded, a message is displayed to the user.</span></span> <span data-ttu-id="ff2cc-107">In questo articolo viene fornita una panoramica sull'utilizzo dei limiti di credito e le risposte alle domande seguenti:</span><span class="sxs-lookup"><span data-stu-id="ff2cc-107">This article provides an overview of how credit limits work  and answers the following questions:</span></span>
 

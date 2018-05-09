@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2a6af3cfe452332d545a942361c60023a78e841e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 02d11b9fdb1db7e4c754a81b5e4c1d6e716b92a0
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a><span data-ttu-id="2a62d-103">Preparare un processo kanban quando non sono disponibili materiali per la cella di lavoro</span><span class="sxs-lookup"><span data-stu-id="2a62d-103">Prepare a process kanban job when materials are not available for the work cell</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2a62d-104">Questa procedura riguarda la preparazione del processo kanban di lavorazione quando alcuni materiali non sono disponibili per la cella di lavoro ed è pertanto necessario prelevarvi dal magazzino.</span><span class="sxs-lookup"><span data-stu-id="2a62d-104">This procedure focuses on preparing a process kanban job when some materials are not available for the work cell, therefore it's necessary to pick materials from the warehouse.</span></span> <span data-ttu-id="2a62d-105">La procedura Preparare un processo kanban quando sono disponibili materiali per la cella di lavoro" è un prerequisito per creare questa procedura.</span><span class="sxs-lookup"><span data-stu-id="2a62d-105">The procedure "Prepare a process kanban job when materials are available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="2a62d-106">Questa procedura è destinata all'operatore.</span><span class="sxs-lookup"><span data-stu-id="2a62d-106">This procedure is intended for the machine operator.</span></span> <span data-ttu-id="2a62d-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="2a62d-107">The demo data company used to create this procedure is USMF.</span></span>
 

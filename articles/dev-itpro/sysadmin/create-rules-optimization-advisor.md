@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 943239c7d57b4a438c405f1ad0551db29d7a8145
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e78427dacb0d2adfd0334115581d5a5a9cfd2921
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-rules-for-optimization-advisor"></a><span data-ttu-id="1a715-103">Creare regole per il consulente dell'ottimizzazione</span><span class="sxs-lookup"><span data-stu-id="1a715-103">Create rules for Optimization advisor</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1a715-104">In questo argomento viene spiegato come creare nuove regole per il **consulente dell'ottimizzazione**.</span><span class="sxs-lookup"><span data-stu-id="1a715-104">This topic explains how to create new rules for **Optimization advisor**.</span></span> <span data-ttu-id="1a715-105">Ad esempio, è possibile creare una nuova regola che identifica quali casi di richieste di offerta (RdO) hanno un titolo vuoto.</span><span class="sxs-lookup"><span data-stu-id="1a715-105">For example, you can create a new rule that identifies which Request for Quotations (RFQ) cases have an empty title.</span></span> <span data-ttu-id="1a715-106">L'uso di titoli nei casi li rende facilmente identificabili e ricercabili.</span><span class="sxs-lookup"><span data-stu-id="1a715-106">Using titles on cases makes them easily identifiable and searchable.</span></span> <span data-ttu-id="1a715-107">Anche se abbastanza semplice, questo esempio mostra i risultatiti che è possibile ottenere con le regole di ottimizzazione.</span><span class="sxs-lookup"><span data-stu-id="1a715-107">While quite simple, this example shows what can be achieved with optimization rules.</span></span> 
 

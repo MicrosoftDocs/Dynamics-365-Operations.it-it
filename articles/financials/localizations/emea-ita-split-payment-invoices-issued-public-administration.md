@@ -18,16 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6cac473fe47d9d7458d75d3cb678d73e3366c7f3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5a2f779ece20b3c95f1dc75f955d51e5c43bf50d
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="split-payment-for-invoices-issued-to-the-public-administration"></a><span data-ttu-id="b2ced-103">Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione</span><span class="sxs-lookup"><span data-stu-id="b2ced-103">Split payment for invoices issued to the Public Administration</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b2ced-104">In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.</span><span class="sxs-lookup"><span data-stu-id="b2ced-104">This topic provides information about the split payment accounting schema.</span></span>
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="b2ced-114">Creare un nuovo conto principale per la scissione dei pagamenti IVA, quindi selezionare **IVA** nel campo **Tipo di registrazione**.</span><span class="sxs-lookup"><span data-stu-id="b2ced-114">Create a new main account for VAT split payment, and then select **Sales tax** in the **Posting type** field.</span></span> <span data-ttu-id="b2ced-115">Creare un gruppo di registrazione per la scissione dei pagamenti IVA, quindi selezionare il conto CoGe creato nei campi **IVA a debito**, **IVA a credito** e **Conto di liquidazione**.</span><span class="sxs-lookup"><span data-stu-id="b2ced-115">Create a posting group for VAT split payment, and then select the created ledger account in the **Sales tax payable**, **Sales tax receivable**, and **Settlement account** fields.</span></span>
 
-<span data-ttu-id="b2ced-116">**Impostazione:**IVA</span><span class="sxs-lookup"><span data-stu-id="b2ced-116">**Setup:** Sales tax</span></span>
+<span data-ttu-id="b2ced-116">**Impostazione:** IVA</span><span class="sxs-lookup"><span data-stu-id="b2ced-116">**Setup:** Sales tax</span></span>
 
 <span data-ttu-id="b2ced-117">Creare una **Fascia IVA** per la Pubblica amministrazione, quindi selezionare l'opzione **Scissione dei pagamenti**.</span><span class="sxs-lookup"><span data-stu-id="b2ced-117">Create a **Sales tax group** for the Public Administration, and then select the **Split payment** option.</span></span> <span data-ttu-id="b2ced-118">Creare un codice IVA per la scissione dei pagamenti IVA.</span><span class="sxs-lookup"><span data-stu-id="b2ced-118">Create a sales tax code for VAT split payment.</span></span> <span data-ttu-id="b2ced-119">Impostare il valore utilizzabile per il paese, quindi aggiungere il codice IVA in **Fascia IVA** e **Fascia IVA articoli**.</span><span class="sxs-lookup"><span data-stu-id="b2ced-119">Set the value applicable for the country/region, and then add the sales tax code in the **Sales tax group** and **Item Sales tax group**.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 21d4c303200fad4b7a886aaec4f9a5eb3aaec5fa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f08f3d516648386625f3cab5375fa9f49c8bc409
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="packing-slip-date-verification-on-invoices-for-italy"></a><span data-ttu-id="69225-104">Verifica della data del documento di trasporto nelle fatture per l'Italia</span><span class="sxs-lookup"><span data-stu-id="69225-104">Packing slip date verification on invoices for Italy</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="69225-105">Per l'Italia, la data della fattura è verificata sui documenti di trasporto e sulle proposte di fatturazione.</span><span class="sxs-lookup"><span data-stu-id="69225-105">For Italy, the invoice date is verified on packing slips and invoice proposals.</span></span> <span data-ttu-id="69225-106">In questo argomento vengono fornite informazioni aggiuntive sulla verifica eseguita.</span><span class="sxs-lookup"><span data-stu-id="69225-106">This topic provides additional information about the verification that occurs.</span></span> 
 

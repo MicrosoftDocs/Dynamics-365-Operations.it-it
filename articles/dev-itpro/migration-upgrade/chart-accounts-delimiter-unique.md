@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c9728714944b54f3bff1e2a8b43c7adcf5200f08
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e12c47e4acd6aa8a92a909d490da9e590b5fcd20
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="chart-of-accounts-delimiter-must-be-unique"></a><span data-ttu-id="db17b-104">Univocità del delimitatore del piano dei conti</span><span class="sxs-lookup"><span data-stu-id="db17b-104">Chart of accounts delimiter must be unique</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="db17b-105">In Microsoft Dynamics AX 2012, è possibile utilizzare lo stesso delimitatore per il piano dei conti e i valori delle dimensioni.</span><span class="sxs-lookup"><span data-stu-id="db17b-105">In Microsoft Dynamics AX 2012, you could use the same delimiter for your chart of accounts and dimension values.</span></span> <span data-ttu-id="db17b-106">In Dynamics 365 for Finance and Operations, non è possibile avere lo stesso delimitatore per il piano dei conti e i valori delle dimensioni.</span><span class="sxs-lookup"><span data-stu-id="db17b-106">In Dynamics 365 for Finance and Operations, you cannot have the same delimiter for the chart of accounts and dimension values.</span></span> <span data-ttu-id="db17b-107">L'eventuale delimitatore duplicato può essere sostituito dopo l'aggiornamento.</span><span class="sxs-lookup"><span data-stu-id="db17b-107">If there is a duplicate delimiter, you can change it after upgrade.</span></span> 
 

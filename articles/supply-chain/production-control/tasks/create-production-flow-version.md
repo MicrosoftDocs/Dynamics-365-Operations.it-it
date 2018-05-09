@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0e2e99bc1132f50bca4e6c21abccdc685658a178
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0a241ba056051eccb168b5aa9bfd437b519b2bd9
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-production-flow-version"></a><span data-ttu-id="0b9f7-103">Creare una nuova versione del flusso di produzione</span><span class="sxs-lookup"><span data-stu-id="0b9f7-103">Create a production flow version</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0b9f7-104">Questa procedura è incentrata sulla creazione di una nuova versione del flusso di produzione.</span><span class="sxs-lookup"><span data-stu-id="0b9f7-104">This procedure focuses on creating a new production flow version.</span></span> <span data-ttu-id="0b9f7-105">Per questa procedura, i parametri di produzione di lean manufacturing e le unità di misura della classe Time devono essere definiti.</span><span class="sxs-lookup"><span data-stu-id="0b9f7-105">For this procedure, the production parameters for lean manufacturing and the units of measurement for class time must be defined.</span></span> <span data-ttu-id="0b9f7-106">È inoltre necessario definire un flusso del valore e un gruppo di produzione.</span><span class="sxs-lookup"><span data-stu-id="0b9f7-106">You also need to define a value stream and a production group.</span></span> <span data-ttu-id="0b9f7-107">Per ulteriori informazioni sui flussi e attività di produzione nel lean manufacturing, vedere i white paper sul lean manufacturing per Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="0b9f7-107">To learn more about production flows and activities in lean manufacturing, see the white papers on Lean manufacturing for Microsoft Dynamics AX.</span></span> <span data-ttu-id="0b9f7-108">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="0b9f7-108">The demo data company used to create this procedure is USMF.</span></span>
 

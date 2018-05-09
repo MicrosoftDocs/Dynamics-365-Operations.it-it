@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b60dbe15eca10511f4aaaf472b512eb003fbf6bc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 636b23c8f87d79b0e62e5e92e79aacc33171cdfc
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="confirm-sales-orders"></a><span data-ttu-id="dbc00-103">Confermare ordini cliente</span><span class="sxs-lookup"><span data-stu-id="dbc00-103">Confirm sales orders</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dbc00-104">Questa procedura descrive come confermare gli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="dbc00-104">This procedure demonstrates how to confirm sales orders.</span></span> <span data-ttu-id="dbc00-105">Verrà illustrato come confermare un singolo ordine e come confermare più ordini cliente contemporaneamente.</span><span class="sxs-lookup"><span data-stu-id="dbc00-105">You’ll be shown how to confirm a single order, and how to confirm multiple orders at once.</span></span> <span data-ttu-id="dbc00-106">Queste attività verranno in genere eseguite dal gestore degli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="dbc00-106">These tasks would typically be carried out by a sales order processor.</span></span> <span data-ttu-id="dbc00-107">È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.</span><span class="sxs-lookup"><span data-stu-id="dbc00-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="dbc00-108">Prima di iniziare, assicurarsi che siano presenti più ordini cliente aperti per lo stesso cliente.</span><span class="sxs-lookup"><span data-stu-id="dbc00-108">Before you start, make sure there are several open sales orders for the same customer.</span></span> <span data-ttu-id="dbc00-109">Se si utilizza USMF, è possibile utilizzare il cliente US-027.</span><span class="sxs-lookup"><span data-stu-id="dbc00-109">If you’re using USMF, you can use customer US-027.</span></span>
 

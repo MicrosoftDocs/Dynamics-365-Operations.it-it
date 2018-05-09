@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ad16d00788122eb1ab22dd03561cac488b9fad6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e44b585c6e6e86d244328e73846a5c91f94233eb
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-quality-orders"></a><span data-ttu-id="20103-103">Impostare ordini di controllo qualità</span><span class="sxs-lookup"><span data-stu-id="20103-103">Set up quality orders</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="20103-104">In questa procedura viene illustrato come abilitare il processo di gestione della qualità in in cui le scorte in ingresso devono essere controllate subito dopo la registrazione degli arrivi.</span><span class="sxs-lookup"><span data-stu-id="20103-104">This procedure shows you how to enable a quality management process where incoming inventory must be inspected immediately after arrival registration.</span></span> <span data-ttu-id="20103-105">La procedura in genere verrà eseguita da un responsabile della qualità.</span><span class="sxs-lookup"><span data-stu-id="20103-105">The procedure will typically be carried out by a quality manager.</span></span> <span data-ttu-id="20103-106">Il processo comprende la creazione di un gruppo di controllo qualità per definire gli articoli che verranno campionati e un gruppo di test per raggruppare i test da eseguire sugli articoli nel gruppo di controllo qualità.</span><span class="sxs-lookup"><span data-stu-id="20103-106">The process includes the creation of a quality group, to define the items that are going to be sampled, and a test group to group the tests that are to be performed on items in the quality group.</span></span> <span data-ttu-id="20103-107">È possibile eseguire questa guida nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="20103-107">You can run this guide in the USMF demo data company.</span></span>
 

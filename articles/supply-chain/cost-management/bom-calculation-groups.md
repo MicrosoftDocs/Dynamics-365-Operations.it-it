@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0161ac3d67b57484f05a64ab785bbbcc90816ba2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8285305466a3762d3dab8a7975dfa51b994f1e6f
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bom-calculations-groups"></a><span data-ttu-id="75183-105">Gruppi di calcolo DBA</span><span class="sxs-lookup"><span data-stu-id="75183-105">BOM calculations groups</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="75183-106">In questo articolo sono riportate informazioni sui gruppi di calcolo per le distinte base (DBA) e su come impostarli.</span><span class="sxs-lookup"><span data-stu-id="75183-106">This article provides information about calculation groups for bills of materials (BOMs) and how to set them up.</span></span> <span data-ttu-id="75183-107">Per eseguire un calcolo DBA, è necessario impostare i gruppi di calcolo e assegnarli ai singoli articoli oppure impostare un gruppo di calcolo predefinito.</span><span class="sxs-lookup"><span data-stu-id="75183-107">To run a BOM calculation, you must either set up calculation groups and assign them to individual items, or set a default calculation group.</span></span> <span data-ttu-id="75183-108">Le impostazioni di calcolo dal gruppo di calcolo vengono poi utilizzate come valori predefiniti nella pagina Calcolo DBA al momento del calcolo DBA.</span><span class="sxs-lookup"><span data-stu-id="75183-108">The calculation settings from the calculation group are then used as default values on the BOM calculation page at the time of BOM calculation.</span></span> 
 

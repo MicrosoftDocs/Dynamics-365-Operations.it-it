@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4a69b68fdf9b8a4d6162fe132469d51ff7ff14ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a900ae4c81a4dbb654a4c395cd62f0a19a4acd67
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-orders-for-a-project"></a><span data-ttu-id="66d50-104">Ordini fornitore per un progetto</span><span class="sxs-lookup"><span data-stu-id="66d50-104">Purchase orders for a project</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="66d50-105">Questo articolo descrive i vari metodi da utilizzare per creare ordini fornitore per un progetto.</span><span class="sxs-lookup"><span data-stu-id="66d50-105">This article describes the various methods that you can use to create purchase orders for a project.</span></span> <span data-ttu-id="66d50-106">Il metodo utilizzato dipende dallo scopo dell'ordine fornitore, da quando gli articoli acquistati vengono consumati e da quando vengono addebitati a un progetto.</span><span class="sxs-lookup"><span data-stu-id="66d50-106">The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.</span></span>
 

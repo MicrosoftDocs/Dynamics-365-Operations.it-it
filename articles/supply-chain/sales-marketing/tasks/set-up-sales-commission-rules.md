@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad1bd0babbf81e6296c59440cf679f131f9976c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7b2d44b8ee6751516621cbb11148c9a92bdf427a
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-sales-commission-rules"></a><span data-ttu-id="cef79-103">Impostare regole per la provvigione vendite</span><span class="sxs-lookup"><span data-stu-id="cef79-103">Set up sales commission rules</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cef79-104">Questa procedura mostra come impostare e abilitare il calcolo e la verifica della provvigione di vendita.</span><span class="sxs-lookup"><span data-stu-id="cef79-104">This procedure shows you how to set up and enable sales commission calculation and tracking.</span></span> <span data-ttu-id="cef79-105">Le procedura mostra come creare i gruppi di provvigioni per clienti e per articoli e quindi come collegare un cliente e un prodotto selezionati ai rispettivi gruppi.</span><span class="sxs-lookup"><span data-stu-id="cef79-105">The procedure shows how to create both customer and item commission groups, and then how to link a selected customer and product to the respective groups.</span></span> <span data-ttu-id="cef79-106">Tali gruppi vengono utilizzati nell'impostazione di calcolo della provvigione per creare una combinazione di cliente, articolo e rappresentante che deve corrispondere all'ordine cliente per autorizzare i venditori a una provvigione.</span><span class="sxs-lookup"><span data-stu-id="cef79-106">Those groups are then used in the commission calculation setup to create a customer, item, and sales representatives combination that must be matched by the sales order to entitle the sales people to a commission.</span></span> <span data-ttu-id="cef79-107">Creare i gruppi di provvigioni per clienti e articoli è facoltativo, poiché il calcolo della provvigione può anche essere eseguito per un cliente e/o articolo individuale.</span><span class="sxs-lookup"><span data-stu-id="cef79-107">Creating customer and item commission groups are optional, as the calculation of commission can also be done for an individual customer and/or item.</span></span> <span data-ttu-id="cef79-108">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.</span><span class="sxs-lookup"><span data-stu-id="cef79-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

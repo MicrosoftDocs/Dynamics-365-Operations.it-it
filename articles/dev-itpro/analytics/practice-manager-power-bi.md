@@ -18,16 +18,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1285b62130e0c3b0eb30773b3ccaa7a31d844461
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 27c3f8d5a3e62d3867dcb4435479baf6db208942
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="practice-manager-power-bi-content"></a><span data-ttu-id="b06a9-104">Contenuto di Power BI per responsabile procedura</span><span class="sxs-lookup"><span data-stu-id="b06a9-104">Practice manager Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b06a9-105">In questo argomento viene descritto cosa è incluso nel contenuto Microsoft Power BI per il **responsabile procedura**.</span><span class="sxs-lookup"><span data-stu-id="b06a9-105">This topic describes what is included in the **Practice manager** Microsoft Power BI content.</span></span> <span data-ttu-id="b06a9-106">Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.</span><span class="sxs-lookup"><span data-stu-id="b06a9-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 

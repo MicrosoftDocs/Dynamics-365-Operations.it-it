@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 510e3ac8bbec891436eaf6849dfe00b68ba2eb40
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bc774268bb9b431b033d47f59540db62df2d72a3
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a><span data-ttu-id="9dddf-104">Distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture fornitore</span><span class="sxs-lookup"><span data-stu-id="9dddf-104">Accounting distributions and subledger journal entries for vendor invoices</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9dddf-105">Le distribuzioni contabili vengono utilizzate per definire il modo in cui un importo verrà conteggiato, ad esempio le spese e le tasse vengono conteggiate in una fattura fornitore.</span><span class="sxs-lookup"><span data-stu-id="9dddf-105">Accounting distributions are used to define how an amount will be accounted for, such as how the expense, tax, or charges will be accounted for on a vendor invoice.</span></span> <span data-ttu-id="9dddf-106">Ogni importo che deve essere conteggiato quando la fattura fornitore viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili.</span><span class="sxs-lookup"><span data-stu-id="9dddf-106">Every amount that must be accounted for when the vendor invoice is journalized will have one or more accounting distributions.</span></span> 
 

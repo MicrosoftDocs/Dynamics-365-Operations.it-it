@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5787edc4a041e4b571c7ab6f056f4bd0a17cf2d7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 906f9611370e19ad4f063d15608d3564c5292c96
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="bcd36-103">Creare ed esportare i pagamenti fornitore usando il formato di pagamento ISO20022</span><span class="sxs-lookup"><span data-stu-id="bcd36-103">Create and export vendor payments using ISO20022 payment format</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bcd36-104">Questa procedura descrive come creare righe di pagamento nel giornale di registrazione pagamenti fornitore e come generare un file di pagamento fornitore usando l'esempio di bonifico ISO2022.</span><span class="sxs-lookup"><span data-stu-id="bcd36-104">This procedure shows how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span> 
 

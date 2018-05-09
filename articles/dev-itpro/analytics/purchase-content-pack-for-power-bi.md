@@ -19,16 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 37f3b1b4d362bd8b40977648b4aa4387011eea08
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ab9fe6d0abc996af15ec4ace84e18d3db64f4e08
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a><span data-ttu-id="49dab-104">Contenuto Power BI sull'analisi delle spese di acquisto</span><span class="sxs-lookup"><span data-stu-id="49dab-104">Purchase spend analysis Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="49dab-105">In questo argomento viene descritto cosa è incluso nel contenuto di Microsoft Power BI **Analisi delle spese di acquisto**.</span><span class="sxs-lookup"><span data-stu-id="49dab-105">This topic describes what is included in the **Purchase spend analysis** Microsoft Power BI content.</span></span> <span data-ttu-id="49dab-106">Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.</span><span class="sxs-lookup"><span data-stu-id="49dab-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 

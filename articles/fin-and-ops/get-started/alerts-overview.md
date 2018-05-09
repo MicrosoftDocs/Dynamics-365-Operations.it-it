@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad9373faa19761cccca2b5d581de05f0ac9dd165
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1232e4ec7676403c826787b724b6cca82c1e93f6
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="alerts-overview"></a><span data-ttu-id="efc41-104">Panoramica sugli avvisi</span><span class="sxs-lookup"><span data-stu-id="efc41-104">Alerts overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a><span data-ttu-id="efc41-105">Informazioni sugli avvisi</span><span class="sxs-lookup"><span data-stu-id="efc41-105">About alerts</span></span>
 <span data-ttu-id="efc41-106">Gli avvisi costituiscono un sistema di notifica per gli eventi critici in Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="efc41-106">Alerts form a notification system for critical events in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="efc41-107">È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa.</span><span class="sxs-lookup"><span data-stu-id="efc41-107">You can use alerts to stay informed about events that you want to track during the workday.</span></span> <span data-ttu-id="efc41-108">È possibile creare facilmente una serie di regole di avviso allo scopo di ricevere avvisi relativi a consegne scadute, ordini eliminati, prezzi modificati o altri eventi per i quali è necessario intraprendere un'azione.</span><span class="sxs-lookup"><span data-stu-id="efc41-108">You can easily create your own set of alert rules so that you're alerted about deliveries that are overdue, orders that are deleted, prices that change, or other events that you must respond to.</span></span>

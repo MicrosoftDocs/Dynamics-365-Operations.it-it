@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 115dfc163dce580244c2b2b6975e49ea3b69f1ef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c868265b7a5b5e057b3f1354a81a472f1d6a5d4d
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="ad24a-103">Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="ad24a-103">Set up a location directive for purchase order put-away</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ad24a-104">Questa procedura mostra come impostare una direttiva ubicazione semplice.</span><span class="sxs-lookup"><span data-stu-id="ad24a-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="ad24a-105">L'esempio visualizzato crea una direttiva ubicazione da utilizzare per determinare dove inserire gli articoli ricevuti per un ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="ad24a-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="ad24a-106">È possibile riprodurre questa guida attività con i dati indicati usando la società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="ad24a-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="ad24a-107">Precondizioni: è necessario creare un codice smaltimento.</span><span class="sxs-lookup"><span data-stu-id="ad24a-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="ad24a-108">In questa procedura viene utilizzato un codice smaltimento denominato Nuova etichetta.</span><span class="sxs-lookup"><span data-stu-id="ad24a-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="ad24a-109">Se si crea una direttiva ubicazione i propri dati, è necessario impostare gestione avanzata di magazzino per il magazzino e gli articoli.</span><span class="sxs-lookup"><span data-stu-id="ad24a-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="ad24a-110">Questa procedura è destinata al responsabile del magazzino.</span><span class="sxs-lookup"><span data-stu-id="ad24a-110">This procedure is intended for the warehouse manager.</span></span>
 

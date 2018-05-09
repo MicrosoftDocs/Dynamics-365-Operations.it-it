@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0cf90ff7be59150e20d61a831e57062f9d9996d5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eacf61e432bd9b8c6b90f25e2cf0a2528a2ad932
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="843b3-103">Processi di produzione in sequenza per la produzione di processo</span><span class="sxs-lookup"><span data-stu-id="843b3-103">Sequence production jobs for process manufacturing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="843b3-104">Questa procedura utilizza i prodotti di vernice come esempio per mostrare come ordinare gli ordini pianificati in sequenza in base alla priorità di colore e dimensione del collo.</span><span class="sxs-lookup"><span data-stu-id="843b3-104">This procedure uses paint products as an example to show how to sequence planned orders according to the priority of color and package size.</span></span> <span data-ttu-id="843b3-105">La società di dati dimostrativi utilizzata per creare questa procedura è USPI.</span><span class="sxs-lookup"><span data-stu-id="843b3-105">The demo data company used to create this procedure is USPI.</span></span> <span data-ttu-id="843b3-106">Questa procedura è destinata al responsabile pianificazione produzione.</span><span class="sxs-lookup"><span data-stu-id="843b3-106">This procedure is intended for the production planner.</span></span>
 

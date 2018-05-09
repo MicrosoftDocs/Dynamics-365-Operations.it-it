@@ -18,16 +18,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 08b5fb750cc6de96b3a0af428a97c6a6dc13e30f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a3215142e214ada75bc1978055f055c269a0791a
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="esr-customer-payments-import"></a><span data-ttu-id="2bb03-103">Importazione pagamenti cliente PVR</span><span class="sxs-lookup"><span data-stu-id="2bb03-103">ESR customer payments import</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2bb03-104">In questo argomento vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.</span><span class="sxs-lookup"><span data-stu-id="2bb03-104">This topic provides information about importing customer payments in the ESR format.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4675a78b47ae922a570e4975c2cce68ac0d76d5a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8568dd98635e463f48f3ecfb2cead57b9896b126
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-performance-review"></a><span data-ttu-id="19dd8-103">Creare una revisione delle prestazioni</span><span class="sxs-lookup"><span data-stu-id="19dd8-103">Create a performance review</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="19dd8-104">In questa procedura viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione.</span><span class="sxs-lookup"><span data-stu-id="19dd8-104">This procedure shows how to create a performance review and describes the purpose for each section of the review.</span></span> <span data-ttu-id="19dd8-105">Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="19dd8-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="19dd8-106">Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.</span><span class="sxs-lookup"><span data-stu-id="19dd8-106">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
