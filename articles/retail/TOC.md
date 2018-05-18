@@ -1,4 +1,4 @@
-# [Dynamics 365 for Retail](index.md)
+# [Benvenuto su Dynamics 365 for Retail](index.md)
 
 # Per iniziare
 ## [Novità o modifiche](get-started/whats-new.md)
@@ -22,8 +22,9 @@
 ## [Area di lavoro mobile per approvazione ordine fornitore](../supply-chain/procurement/purchase-order-mobile-workspace.md)
 
 # IVA
-## [Panoramica dell'IVA](../financials/general-ledger/indirect-taxes-overview.md)
+## [Panoramica IVA](../financials/general-ledger/indirect-taxes-overview.md)
 ## [Metodi di calcolo IVA nel campo Origine](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [Assegnazione e sostituzioni IVA](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [Opzioni di importo totale e di calcolo intervallo per i codici IVA](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Servizio clienti
@@ -166,9 +167,10 @@
 ## [Creare e associare un dispositivo](tasks/create-associate-device.md)
 ## [Creare e associare una postazione hardware](tasks/create-associate-hardware-station.md)
 ## [Creare e associare registri di cassa](tasks/create-associate-registers.md)
-## [Creare, calcolare e registrare un rendiconto per un punto vendita Retail](tasks/create-calculate-post-statement-retail-store.md)
-## [Creare ordini del servizio clienti](tasks/create-call-center-orders.md)
-## [Creare le dimensioni finanziarie per i registri POS e configurare i valori di dimensione nei registri](tasks/create-financial-dimensions-pos.md)
+## [Creare, calcolare e registrare un rendiconto per un punto vendita al dettaglio](tasks/create-calculate-post-statement-retail-store.md)
+## [Miglioramenti alla registrazione del rendiconto](statement-posting-EOD.md)
+## [Crea ordini servizio clienti](tasks/create-call-center-orders.md)
+## [Crea le dimensioni finanziarie per i registri POS e configura i valori di dimensione nei registri](tasks/create-financial-dimensions-pos.md)
 ## [Creare le dimensioni finanziarie per i canali Retail e configurare i valori di dimensione nei punti vendita](tasks/create-financial-dimensions-retail-channels.md)
 ## [Creare i canali online e definire gli attributi del canale](tasks/create-online-channel-define-channel-attributes.md)
 ## [Creare gruppi di autorizzazioni POS](tasks/create-pos-permission-groups.md)
@@ -289,7 +291,6 @@
 ### [Chiamare un'API o un'operazione POS da un'estensione POS](dev-itpro/pos-api-extension.md)
 ### [Trigger e stampa di Retail Modern POS](dev-itpro/pos-trigger-printing.md)
 ### [Aggiungere un controllo personalizzato a una visualizzazione non basata sulla progettazione dello schermo Retail Modern POS](dev-itpro/pos-control-non-screen.md)
-### [Generare il proxy Retail per il POS e il commercio elettronico](dev-itpro/pos-generate-retail-proxy.md)
 ### [Passaggi di configurazione per gli sviluppatori Retail che utilizzano le caselle di sviluppo ospitato nel cloud](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime
