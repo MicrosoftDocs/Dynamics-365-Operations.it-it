@@ -3,7 +3,7 @@ title: Home page di Gestione della supply chain
 description: "In questa pagina viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/09/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
+ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
+ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
 # <a name="supply-chain-management-home-page"></a>Home page di Gestione della supply chain
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questa pagina viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations. 
 
@@ -47,10 +47,15 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 - [Gestione informazioni sul prodotto](pim/product-information.md)
 - [Controllo produzione](production-control/production-process-overview.md)
 - [Vendite e marketing](sales-marketing/overview-sales-marketing.md)
+- [Gestione assistenza](service-management/service-management-home-page.md)
 - [Gestione trasporto](transportation/transportation-management-overview.md)
 - [Gestione magazzino](warehousing/warehouse-configuration.md)
 
 ## <a name="videos"></a>Video
+
+Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, versione 8.0 (aprile 2018).
+
+- [Sincronizzare un ordine di lavoro in Field Service con gli ordini cliente in Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
 Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dicembre 2017).
 
@@ -84,7 +89,7 @@ Le registrazioni tecniche si riferisce alla funzionalità del prodotto della ver
 
 **Gestione magazzino** 
 
--  [Elaborare ASN in entrata in Gestione magazzino](https://mix.office.com/watch/wpf78tr7rjuh)  
+<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
 -  [Sfruttare al meglio il sistema di gestione del magazzino](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [Gestione magazzino avanzata versione R3 - Elaborazione in entrata e rifornimento minimo/massimo](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
 -  [Gestione magazzino avanzata versione R3 - Esempio di elaborazione in uscita e rifornimento per domanda](https://youtu.be/Og0gLlVp7jA)
