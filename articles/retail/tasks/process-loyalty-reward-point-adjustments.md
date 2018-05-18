@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> Elaborare correzioni punti fedeltà
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Questa procedura dimostra come individuare le informazioni sulla carta fedeltà e rettificare i punti premio fedeltà. La società di dati dimostrativi utilizzata per creare questa attività è USRT. Questa attività è destinata al ruolo Responsabile operativo vendita al dettaglio o Responsabile assistenza clienti.
 

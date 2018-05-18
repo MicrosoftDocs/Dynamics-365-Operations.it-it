@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>Configurare una decisione condizionale in un flusso di lavoro
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Per configurare le proprietà di una decisione condizionale, attenersi alla procedura indicata di seguito.
 

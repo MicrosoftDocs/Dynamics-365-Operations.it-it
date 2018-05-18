@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a>Configurare le destinazioni per la creazione di report elettronici (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come impostare e utilizzare destinazioni diverse per i componenti di output per la creazione di report elettronici (ER), ad esempio una cartella o un file. La società di dati dimostrativi utilizzata per creare questa procedura è DEMF. La Germania è il paese dell'indirizzo principale della persona giuridica, comunque è possibile utilizzare qualsiasi persona giuridica per questa procedura. 
 

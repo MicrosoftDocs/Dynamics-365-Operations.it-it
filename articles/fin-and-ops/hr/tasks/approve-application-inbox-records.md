@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>Approvare record di Posta in arrivo di domande di lavoro
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra come esaminare le domande di lavoro ricevute tramite le pagine del portale Self Service dipendenti. Oltre a esaminare le domande di lavoro, è possibile approvare la domanda di lavoro in record di Posta in arrivo selezionati. I record di Posta in arrivo rappresentano domande di lavoro inviate alla società per essere valutate. Dopo l'approvazione di un record, verrà creato un record candidato per la persona che ha inviato la domanda. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

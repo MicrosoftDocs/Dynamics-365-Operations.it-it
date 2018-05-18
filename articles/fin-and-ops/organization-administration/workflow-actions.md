@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="workflow-actions"></a>Azioni flusso di lavoro
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono illustrate le azioni che ciascun partecipante a un processo di approvazione del flusso di lavoro può eseguire.
 

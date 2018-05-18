@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personnel-actions-faq"></a>Azioni dipendente [Domande frequenti]
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questo argomento vi sono risposte alle domande che potrebbe essere poste se l'organizzazione utilizza le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale. Esempi di attività che potrebbero richiedere azioni dipendente quando si creano nuove posizioni, si modificano valori di posizione esistenti, si assumono nuovi lavoratori, si trasferiscono lavoratori, si modifica la retribuzione lavoratore, si modificano assegnazioni di posizione o si termina un rapporto con i lavoratori.
 

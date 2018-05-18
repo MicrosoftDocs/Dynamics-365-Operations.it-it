@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>Panoramica dei negozi online
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Questo articolo fornisce informazioni sui negozi al dettaglio online e su come impostarli in Microsoft Dynamics 365 for Retail.
 

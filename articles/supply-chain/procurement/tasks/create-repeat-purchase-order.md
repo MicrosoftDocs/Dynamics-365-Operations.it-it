@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-repeat-purchase-order"></a>Creare un ordine fornitore ripetuto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura vi mostra come creare un ordine fornitore (PO) ripetuto copiando le righe da documento di ordine fornitore precedente in un nuovo PO o un PO esistente. Ci sono due metodi per creare gli ordini ripetuti. Potete usare le azioni disponibili al livello del documento dal riquadro azioni, o potete usare le azioni dei dettagli riga. Le azioni a livello del documento principalmente sono intese per creare un nuovo ordine fornitore aggiungendo le righe e le informazioni di intestazione da un altro ordine, mentre l'azione dei dettagli righe è principalmente per l'aggiunta delle righe ad un ordine esistente. L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF. In genere questa attività viene svolta da un addetto acquisti.
 

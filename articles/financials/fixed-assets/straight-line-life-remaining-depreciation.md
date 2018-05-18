@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Ammortamento basato sulla vita utile rimanente a quote costanti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile rimanente a quote costanti.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Retribuzione basata sulle registrazioni
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto in dettaglio come la retribuzione viene calcolata in base alle registrazioni lavoratore. Include gli esempi che mostrano come le diverse combinazioni di opzioni di impostazione disponibili per il calcolo influenzano il risultato. Di seguito vengono riportate alcune delle aree coperte:
 

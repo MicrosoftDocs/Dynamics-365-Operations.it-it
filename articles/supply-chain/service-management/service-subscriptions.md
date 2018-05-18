@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>Sottoscrizioni assistenza
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le sottoscrizioni si basano su progetti di tempistica e materiali. È possibile creare sottoscrizioni da un progetto utilizzando la pagina **Sottoscrizioni assistenza** oppure utilizzando un gruppo di sottoscrizioni assistenza.
 

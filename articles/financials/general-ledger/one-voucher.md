@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>Un giustificativo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Questa funzionalità sarà inclusa in Dynamics 365 for Finance and Operations versione 8.0 che sarà disponibile nella versione Spring '18.   

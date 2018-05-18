@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Visualizzare il rendiconto magazzino e gli indicatori KPI per oggetto di costo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata al controllore costi.
 

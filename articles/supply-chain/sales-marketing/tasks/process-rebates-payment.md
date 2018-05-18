@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-rebates-for-payment"></a>Elaborare sconti per il pagamento
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come convertire gli sconti del cliente approvati ed elaborati in note di accredito. È possibile utilizzare questa guida nella società dimostrativa USMF. L'assunto per la guida è di avere uno o più richieste di sconto con stato Contrassegna. Se si utilizza USMF, è necessario eseguire la guida "Generare ed elaborare gli sconti cliente" prima di iniziare questa guida.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Visualizzare le pagine affiancate utilizzando l'icona Apri in nuova finestra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo illustra come visualizzare pagine affiancate in Microsoft Dynamics 365 for Finance and Operations.
 

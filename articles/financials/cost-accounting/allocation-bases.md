@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Basi di allocazione 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La base di allocazione è la base su cui la contabilità industriale assegna i costi generali. La base di allocazione può essere una quantità, ad esempio le ore-macchina utilizzate, i kilowattora (kWh) consumati o la metratura occupata. Le basi di allocazione vengono utilizzate principalmente per allocare i costi generali alle scorte prodotte. Ad esempio, un reparto IT alloca le spese sostenute in base al numero di computer utilizzati in ciascun reparto.
 

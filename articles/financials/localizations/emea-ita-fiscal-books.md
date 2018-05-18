@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="replenishment"></a>Rifornimento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono descritte le strategie di rifornimento disponibili per i magazzini che utilizzano la funzionalità disponibile in Gestione magazzino. Le informazioni in questo argomento non sono applicabili alla soluzione di immagazzinaggio disponibile in Gestione articoli.
 

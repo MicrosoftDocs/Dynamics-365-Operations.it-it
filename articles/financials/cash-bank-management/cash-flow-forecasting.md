@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Previsione di cassa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 È possibile utilizzare gli strumenti di previsione di cassa per analizzare il calcolo delle previsioni di cassa e dei fabbisogni valutari per stimare l'esigenza di contanti futura della società. Per ottenere una previsione del flusso di cassa, procedere come segue:
 

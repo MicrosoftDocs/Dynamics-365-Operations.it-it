@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>Creare un prodotto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare un nuovo prodotto nella gerarchia di prodotti al dettaglio. La società di dati dimostrativi utilizzata per creare questa attività è USRT e l'attività è destinata ai responsabili merchandising e design prodotto.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Aggiungere una voce al giornale di registrazione delle prestazioni e inviare complimento a un utente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Il giornale di registrazione delle prestazioni contiene informazioni correlate a come sono stati soddisfatti gli obiettivi o quali sono state le prestazioni durante un periodo. È inoltre possibile fare un complimento per le azioni di un collega dal giornale di registrazione. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
 

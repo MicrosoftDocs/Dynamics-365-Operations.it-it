@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="create-an-engaging-onboarding-experience"></a>Creare un esperienza di integrazione coinvolgente
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Un programma di integrazione efficace consente ai nuovi dipendenti di essere più produttivi e di acquisire un senso di appartenenza nel loro nuovo ruolo. Grazie al programma di integrazione, i nuovi dipendenti comprendendono in modo più rapido e preciso il loro nuovo ruolo e creano più facilmente le relazioni che possono aiutarli a svolgere al meglio il loro lavoro. Un'esperienza di integrazione non soddisfacente può invece far sorgere dubbi nella mente dei dipendenti rispetto alla decisione di entrare a far parte dell'organizzazione. Uno studio condotto da Gartner nel 2014 ha rivelato che quasi un terzo dei 1.005 intervistati che hanno lasciato un lavoro entro i primi sei mesi lo hanno fatto perché le linee guida fornite dalla direzione non erano chiare, la loro formazione non era efficace o perché non avevano stabilito relazioni soddisfacenti nel loro nuovo ambiente di lavoro.
 

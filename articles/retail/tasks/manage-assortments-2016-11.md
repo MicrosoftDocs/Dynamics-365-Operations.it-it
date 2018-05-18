@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a> Gestire assortimenti  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Questa procedura dimostra come creare e pubblicare un nuovo assortimento di prodotti e utilizza la società di dati dimostrativi USRT. Questa procedura richiede l'applicazione Dynamics AX 7.0.1 o versione successiva e la piattaforma Dynamics AX 7.1.  
 

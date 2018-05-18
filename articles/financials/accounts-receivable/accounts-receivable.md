@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>Home page di contabilità clienti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La contabilità clienti consente di tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti. 
 

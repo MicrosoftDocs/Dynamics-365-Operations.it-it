@@ -27,7 +27,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-payments-workspace"></a>Area di lavoro pagamenti fornitore
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nell'area di lavoro **Pagamenti fornitore** vengono visualizzate le informazioni correlate all'elaborazione dei pagamenti fornitore. Questa area di lavoro include una visualizzazione **Lavoro personale** e una pagina **Analisi**. Nella visualizzazione **Lavoro personale** vengono visualizzati i riquadri di riepilogo, le griglie di transazione fornitore e le informazioni correlate al fornitore. La pagina **Analisi** utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate ai pagamenti fornitore.
 

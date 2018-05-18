@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-warehouse-layout"></a>Creare un nuovo layout di magazzino
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura consente di visualizzare come impostare le informazioni sulle ubicazioni in un magazzino. È applicabile solo ai magazzini creati utilizzando "Operazioni di magazzino di base" del modulo Gestione inventario, non ai magazzini creati nel modulo Gestione magazzino. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.
 

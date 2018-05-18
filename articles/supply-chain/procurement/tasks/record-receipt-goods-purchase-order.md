@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Registrare l'entrata di merci sull'ordine fornitore
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come registrare l'entrata delle merci direttamente su un ordine fornitore. È inoltre possibile registrare l'entrata prodotti nel magazzino e poi registrarla successivamente sull'ordine fornitore. Quest'attività viene eseguita tipicamente da un addetto acquisti o un coordinatore contabilità fornitori. L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF. L'esempio comprende i passaggi per creare un ordine fornitore semplice in modo da poter eseguire la procedura come guida attività. Se si seguisse la procedura utilizzando i propri dati, si dovrebbe iniziare con la sottoattività Registrare l'entrata dei prodotti.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="define-and-maintain-retail-channels"></a>Definire e gestire canali di vendita al dettaglio
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Questo argomento fornisce una panoramica del processo per l'impostazione di punti vendita fisici, denominati punti vendita al dettaglio in Microsoft Dynamics 365 for Retail. Sono riportate informazioni sulle attività da completare prima e dopo la configurazione di un punto vendita al dettaglio.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Garantire le scorte di sicurezza per gli articoli
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le scorte di sicurezza indicano una quantità aggiuntiva di un articolo contenuto nel magazzino al fine di ridurre il rischio che l'articolo si esaurisca. Le scorte di sicurezza vengono utilizzate come scorta di margine nel caso in cui gli ordini cliente arrivino e il fornitore non sia in grado di consegnare gli articoli aggiuntivi per soddisfare la data di spedizione richiesta dal cliente. Quando le scorte di sicurezza vengono utilizzate per evadere un ordine cliente, la loro quantità diminuisce. È possibile utilizzare la pianificazione generale per riportare automaticamente le scorte magazzino a livello di sicurezza.    
 

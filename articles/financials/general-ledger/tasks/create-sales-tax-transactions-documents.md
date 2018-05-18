@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Creare transazioni IVA su documenti
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 L'IVA sui documenti viene calcolata immettendo una fascia IVA e una fascia IVA articoli nelle righe del documento. Come fascia IVA e fascia IVA articoli predefinite vengono impostate quelle dei dati master ma possono essere modificate manualmente se necessario. L'IVA calcolata può essere verificata a livello di documento e riga. In questa attività viene utilizzata la società dimostrativa USMF.
 

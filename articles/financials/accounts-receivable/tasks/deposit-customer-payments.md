@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deposit-customer-payments"></a>Depositare pagamenti clienti
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Depositare pagamenti cliente. In questa attività viene utilizzata la società dimostrativa USMF.
 

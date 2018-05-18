@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="correct-a-free-text-invoice"></a>Correzione di una fattura a testo libero
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo viene illustrato come correggere una fattura a testo libero registrata e come riemetterla in modo corretto.
 

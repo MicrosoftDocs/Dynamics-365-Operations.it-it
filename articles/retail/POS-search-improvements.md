@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Panoramica sulla funzionalità di ricerca prodotti e clienti in POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Modern POS (MPOS) e POS cloud (CPOS) forniscono una funzionalità di ricerca di facile utilizzo che consente di cercare prodotti e clienti. Dal momento che la barra di ricerca è sempre presente nella parte superiore delle finestre MPOS e CPOS, i dipendenti possono trovare rapidamente prodotti e clienti.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>Registrazioni delle assenze in Orario e presenze
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono descritti i concetti relativi alle assenze e viene illustrata la modalità di gestione delle assenze in Orario e presenze.
 

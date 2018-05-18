@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-store-inventory"></a>Gestione Store Inventory
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Questo articolo descrive i tipi di documenti utilizzabili per la gestione dell'inventario.
 

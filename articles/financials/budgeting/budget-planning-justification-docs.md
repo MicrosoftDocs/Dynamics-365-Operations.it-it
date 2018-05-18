@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-justification-documents"></a>Documenti di motivazione per la pianificazione del budget
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I documenti di motivazione forniscono una descrizione per chi richiede un budget per spiegare perché un budget specifico è necessario. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-location-profile"></a>Creare un profilo di ubicazione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ogni ubicazione del magazzino deve disporre di un profilo che descrive le proprietà dell'ubicazione, ad esempio, se l'ubicazione consente articoli combinati. In questa procedura creeremo il profilo per una ubicazione non richiede il controllo targa. Permetteremo articoli misti e stati inventario combinati e permettiamo il conteggio ciclo. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.
 

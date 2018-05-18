@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidare un pagamento fornitore parziale con sconti sulle note di accredito fornitore
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo descrive uno scenario in cui una nota di credito viene liquidata a fronte di una fattura.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>Visualizzare e progettare report finanziari
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 L'articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 for Finance and Operations. I report finanziari sono costituiti da una esperienza di visualizzazione in Finance and Operations e una funzionalità di progettazione report con un solo clic che consente di creare e modificare report finanziari.  
 

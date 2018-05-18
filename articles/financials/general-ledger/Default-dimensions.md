@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions-and-posting"></a>Dimensioni finanziarie e registrazione 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Quando si pianifica e si imposta il piano dei conti, è necessario considerare il modo in cui i vari componenti interagiscono durante la registrazione di un documento o un giornale di registrazione. Questi componenti includono strutture dei conti, regole avanzate nonché dimensioni fisse e di bilanciamento. In questo argomento vengono descritti i componenti e il modo in cui interagiscono.
 

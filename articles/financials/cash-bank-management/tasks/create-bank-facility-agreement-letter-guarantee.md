@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Creare un contratto per linea di credito bancaria per una lettera di garanzia
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività crea un contratto per linea di credito bancaria per elaborare una lettera di garanzia. In questa attività viene utilizzata la società dimostrativa USMF. 
 

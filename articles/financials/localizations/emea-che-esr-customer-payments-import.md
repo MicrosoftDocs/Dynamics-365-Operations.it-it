@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="esr-customer-payments-import"></a>Importazione pagamenti cliente PVR
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.
 

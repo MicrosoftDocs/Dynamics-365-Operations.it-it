@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-groups"></a>Definire gruppi di configurazione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come definire i gruppi di configurazione prodotto creando due gruppi nella società di dati dimostrativi USMF. Questa è la quarta procedura di otto che illustra come sviluppare le combinazioni per la configurazione basata su dimensioni.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni IVA per l'Italia
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia. 
 

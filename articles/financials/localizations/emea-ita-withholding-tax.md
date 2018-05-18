@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="withholding-tax-for-italy"></a>Ritenuta d'acconto per l'Italia
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.
 

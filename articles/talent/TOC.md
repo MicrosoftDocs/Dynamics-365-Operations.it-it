@@ -6,8 +6,9 @@
 ## [Rimuovere un ambiente Talent](remove-talent-environment.md)
 ## [Eseguire il provisioning delle app modulari di Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [Estendere le funzionalità di Talent](extend-talent-functionality.md)
+## [Accesso alle funzionalità di previsione in Dynamics 365 for Talent: Attract](access-preview-feature.md)
 
-# [Sviluppare una strategia per le Risorse umane](departments-jobs-positions.md)
+# [Sviluppare una strategia delle risorse umane](departments-jobs-positions.md)
 ## [Impostare i componenti di processo](create-job.md)
 ## [Creare un reparto e associarlo alla gerarchia reparti](create-department-add-department-hierarchy.md)
 ## [Impostare i parametri di Risorse umane per le persone giuridiche](set-up-hr-parameters-across-legal-entities.md)

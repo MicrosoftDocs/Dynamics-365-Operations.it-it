@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Impostazione del fuso orario preferito di un utente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore del sistema può impostare il fuso orario per un utente.
 

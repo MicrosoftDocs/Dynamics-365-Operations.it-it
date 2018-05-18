@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Creare una nota di accredito per le fatture di progetto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Passare a Gestione progetti e contabilità > Progetti > Tutti i progetti. 
 2. Nell'elenco trovare e selezionare il record desiderato. 

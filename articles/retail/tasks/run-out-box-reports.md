@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a> Generare ed eseguire report predefiniti
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Utilizzare la guida attività per eseguire report predefiniti nelle sedi centrali da diverse aree di lavoro e report di richieste di informazioni e vendite presenti in Vendita al dettaglio e commercio.
 

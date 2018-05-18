@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Distribuzioni su una nota spese
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Quando si immettono le spese in una nota spese, è possibile distribuire la spesa tra più progetti, dimensioni finanziarie o conti nell'organizzazione.
 

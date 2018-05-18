@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="customer-posting-profiles"></a>Profili di registrazione cliente
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I profili di registrazione cliente controllano la registrazione delle transazioni cliente nella contabilità generale.
 

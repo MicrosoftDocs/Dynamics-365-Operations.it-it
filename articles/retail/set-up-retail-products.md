@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>Impostare prodotti di vendita al dettaglio
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Questo articolo descrive come impostare prodotti al dettaglio in Microsoft Dynamics 365 for Retail.
 

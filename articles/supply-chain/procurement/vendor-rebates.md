@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="vendor-rebates"></a>Sconti fornitore
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gli sconti fornitore consentono alle società di gestire meglio i relativi programmi sconti fornitore automatizzando le attività necessarie per amministrare, tenere traccia e riscuotere gli sconti ottenuti.
 

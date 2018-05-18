@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accessibility-features"></a>Funzionalità di accessibilità
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono descritte le funzionalità progettate a supporto degli utenti con disabilità nell'utilizzo di Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent. Ad esempio, sono disponibili funzionalità per le persone che utilizzano assistive technology per la vista come Microsoft Windows Narrator.
 

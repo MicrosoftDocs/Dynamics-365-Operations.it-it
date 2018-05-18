@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>Riduzione del 200% dell'ammortamento del saldo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 200%.
 

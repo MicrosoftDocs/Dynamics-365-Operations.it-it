@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>Definire i modelli di flusso di produzione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 I modelli di flusso di produzione descrivono come la capacità delle celle di lavoro di produzione snella viene calcolata e gestita. Pertanto la definizione di un modello di flusso di produzione è un prerequisito della definizione delle celle di lavoro. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

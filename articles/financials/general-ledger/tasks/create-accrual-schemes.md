@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-accrual-schemes"></a>Creare schemi di attribuzione per competenza
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa guida attività descrive la creazione di uno schema di attribuzione. In questa attività viene utilizzata la società dimostrativa USMF.
 

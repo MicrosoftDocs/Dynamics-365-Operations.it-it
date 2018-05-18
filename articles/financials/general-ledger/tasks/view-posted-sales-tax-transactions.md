@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Visualizza transazioni IVA registrate
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 È possibile visualizzare le transazioni IVA registrate da diverse pagine a seconda di cosa è necessario visualizzare. In questa attività viene utilizzata la società dimostrativa USMF.
 

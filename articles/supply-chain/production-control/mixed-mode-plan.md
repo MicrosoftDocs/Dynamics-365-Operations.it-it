@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Pianificazione in modalità mista: combinazione dell'approvvigionamento, discreto, di processo e snello
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento fornisce informazioni sulla pianificazione in modalità mista. Nella pianificazione in modalità mista, è possibile modellare la supply chain in base al flusso di materiale. Microsoft Dynamics 365 for Finance and Operations garantisce che il flusso di materiale segua i modelli definiti, indipendentemente dai criteri di rifornimento selezionati (kanban, ordini di produzione, ordini fornitore, ordini batch o ordini di trasferimento). 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>Aggiornamento di massa dei cespiti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Se si utilizzano libri, è possibile modificare le convenzioni di ammortamento per i gruppi di cespiti appartenenti allo stesso libro.
 

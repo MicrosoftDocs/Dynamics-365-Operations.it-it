@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a> Definire il canale servizio clienti e gli attributi del canale
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare un nuovo canale di vendita al dettaglio e per definirne gli attributi. La società di dati dimostrativi utilizzata per creare questa attività è USRT. Questa procedura è destinata al ruolo IT per la vendita al dettaglio.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-terms"></a>Definire termini di pagamento fornitore
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Impostare i termini di pagamento per le fatture fornitore. In questa attività viene utilizzata la società dimostrativa USMF.
 

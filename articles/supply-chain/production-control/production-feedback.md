@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-feedback"></a>Riscontro di produzione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sul riscontro di produzione, che fornisce a lavoratori il riscontro sui processi di produzione. L'articolo include informazioni sulle varie modalità di aggiornamento del riscontro di produzione.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Home page di pianificazione generale
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Fondamentalmente, la pianificazione generale consente alle società di determinare ed equilibrare il fabbisogno futuro di materie prime e la capacità di soddisfare gli obiettivi aziendali. La pianificazione generale valuta quanto segue: 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-insights"></a>Informazioni finanziarie dettagliate
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Informazioni finanziarie dettagliate** utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari. Power BI è incorporato in Microsoft Dynamics 365 Finance and Operations.
 **Informazioni finanziarie dettagliate** è incentrato sulla creazione di report analitici. Le persone di un'organizzazione possono visualizzare, ricercare, analizzare ed eseguire azioni. 

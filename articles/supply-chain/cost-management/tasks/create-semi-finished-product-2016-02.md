@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-semi-finished-product-february-2016-only"></a>Creare un prodotto semi-lavorato (solo febbraio 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività consente di creare un prodotto semilavorato. Corrisponde alla seconda attività della serie di calcoli DBA. La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 

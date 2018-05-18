@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Spese personali in una nota spese
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Durante i viaggi di lavoro potrebbe accadere che a volte i lavoratori utilizzino la carta di credito aziendale per le spese personali. Se non si definisce un processo per la gestione delle spese personali, è possibile che il processo di approvazione delle note spese venga interrotto quando i lavoratori inviano i dettagli delle note spese. 
 

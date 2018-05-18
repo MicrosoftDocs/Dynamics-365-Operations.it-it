@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-free-text-invoice-template"></a>Creare un modello di fattura a testo libero
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa registrazione utilizza la società dimostrativa USMF. La registrazione è destinata all'utente responsabile della gestione e dell'elaborazione delle fatture di CoCli.
 

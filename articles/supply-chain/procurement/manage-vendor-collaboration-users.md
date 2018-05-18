@@ -28,7 +28,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="manage-vendor-collaboration-users"></a>Gestire gli utenti di collaborazione fornitore
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come è possibile richiedere il provisioning di nuovi utenti di collaborazione fornitore e come aggiungere nuovi contatti per la collaborazione fornitore. 
 

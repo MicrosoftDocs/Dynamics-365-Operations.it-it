@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="employee-competencies-and-development-power-bi-content"></a>Contenuti Power BI sullo sviluppo e le competenze dei dipendenti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene fornito il contenuto Power BI sullo sviluppo e sulle competenze dei dipendenti in Finance and Operations. 
 

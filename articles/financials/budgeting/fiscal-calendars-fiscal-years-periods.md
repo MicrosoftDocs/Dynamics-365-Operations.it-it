@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendari fiscali, anni fiscali e periodi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono illustrati calendari fiscali, anni fiscali e periodi e il modo in cui utilizzarli per le persone giuridiche, i cespiti e l'impostazione del budget.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-groups"></a>Gruppi di costi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I gruppi di costi rappresentano la base per la segmentazione e l'analisi dei contributi costi nel costo calcolato di un articolo prodotto, ad esempio i contributi costi per il materiale, la manodopera e i costi generali. Per la segmentazione per gruppi di costi vengono utilizzati diversi sinonimi negli ambienti di produzione, ad esempio scomposizione dei costi o classificazione dei costi. 
 

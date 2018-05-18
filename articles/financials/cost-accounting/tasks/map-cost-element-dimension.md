@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-a-cost-element-dimension"></a>Mappare una dimensione elemento di costo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Un controllore costi può utilizzare questa procedura per mappare una dimensione dell'elemento di costo in una dimensione dell'elemento di costo nella persona giuridica MXMF. Questa registrazione utilizza i dati dimostrativi della società USP2.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="bom-designer-functionality"></a>Funzionalità Designer DBA
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM). È possibile fare clic su Impostazione per selezionare diverse configurazioni e specificare quali informazioni visualizzare sulle righe della struttura.
 

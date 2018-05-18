@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-accounts-receivable"></a>Chiusura della contabilità clienti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nella tabella riportata di seguito sono elencate le pagine di supporto al processo aziendale relativo alla chiusura della contabilità clienti.
 

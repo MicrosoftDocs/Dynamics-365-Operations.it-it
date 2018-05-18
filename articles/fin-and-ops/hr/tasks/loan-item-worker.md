@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="loan-items-to-a-worker"></a>Articoli prestito a un lavoratore
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra come prestare un articolo a un lavoratore e come registrare il lavoratore che restituisce un articolo. I lavoratori possono inoltre richiedere articoli in prestito tramite le pagine del portale Self Service dipendenti. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

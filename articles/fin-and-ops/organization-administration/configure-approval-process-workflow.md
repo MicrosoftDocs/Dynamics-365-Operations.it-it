@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Configurare un processo di approvazione in un flusso di lavoro
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Per configurare le proprietà del processo di approvazione, attenersi alla procedura indicata di seguito.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>Home page di amministrazione organizzazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento descrive le risorse che power user e amministratori possono utilizzare per configurare Microsoft Dynamics 365 for Finance and Operations. Tali risorse consentono di configurare efficacemente il sistema per l'organizzazione e l'attività commerciale.
 

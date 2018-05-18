@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Creare una formula effettuando la copia da una formula esistente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La procedura consente di creare rapidamente una nuova formula copiando da una formula esistente. È possibile utilizzare le società di dati dimostrativi USMF, USP2 o USPI per creare questa procedura.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Visualizza nota spese
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Quando si esegue una query per visualizzare le transazioni in Contabilità generale o Approvvigionamento, la query potrebbe restituire troppe informazioni. Di conseguenza, potrebbe essere necessario limitare l'ambito della ricerca. Per ottenere le informazioni necessarie, è possibile eseguire il drill-down in una transazione per visualizzare la nota spese con le informazioni desiderate.
 

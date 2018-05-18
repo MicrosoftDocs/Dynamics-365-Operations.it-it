@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Creare una gerarchia di report dell'organizzazione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilizzare questa procedura per creare una gerarchia di report per l'organizzazione. Lo scopo di questa registrazione è quello di guidare l'utente nella gerarchia di dimensioni in modo che sia possibile continuare fino a quando non è creata l'intera struttura di reporting dell'organizzazione. Questa registrazione utilizza i dati dimostrativi della società USP2.
 

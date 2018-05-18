@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="service-intervals"></a>Intervalli assistenza
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 L'intervallo del contratto di assistenza indica la frequenza con cui vengono create righe di ordine di assistenza per le righe di contratto di assistenza nel caso di creazione automatica degli ordini di assistenza.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>Panoramica sulla pianificazione del budget
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo viene illustrata la pianificazione del budget e sono contenute informazioni per semplificare la configurazione della pianificazione del budget e l'impostazione dei processi di pianificazione del budget.
 

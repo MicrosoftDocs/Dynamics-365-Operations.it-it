@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components"></a>Definire la dipendenza delle configurazioni da altri componenti 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività ER Gestire configurazioni di mapping di modelli ed è necessario disporre dell'accesso a Microsoft Dynamics Lifecycle Services (LCS).
 

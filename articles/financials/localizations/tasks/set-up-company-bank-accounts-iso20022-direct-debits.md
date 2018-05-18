@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>Impostare i conti bancari della società per gli addebiti diretti ISO20022
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività descrive l'impostazione delle informazioni sui conti bancari specifici della società necessarie per la creazione dei file di pagamento cliente. In questa procedura viene utilizzato il formato di pagamento in addebito diretto ISO 20022 come esempio. Altri formati possono richiedere informazioni di impostazione aggiuntive come l'ID società o il Codice di ordinamento.
 

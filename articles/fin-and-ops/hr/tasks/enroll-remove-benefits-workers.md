@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Iscrivere e rimuovere benefit da lavoratori
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura dimostra come un singolo lavoratore può essere iscritto a uno o più benefit e come più lavoratori possono essere iscritti a un benefit. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

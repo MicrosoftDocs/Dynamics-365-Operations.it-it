@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>Creare proprietà di programmazione orari di lavoro
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Le proprietà di programmazione orario di lavoro vengono utilizzate per classificare gli intervalli dell'orario di lavoro e definire le impostazioni che gli operatori devono considerare. Questa procedura mostra come definire una proprietà di programmazione orario di lavoro e i valori associati a tale proprietà. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.
 

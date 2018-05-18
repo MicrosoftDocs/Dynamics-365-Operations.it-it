@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-assets-integration"></a>Integrazione dei cespiti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 È possibile integrare Cespiti con Contabilità generale, Gestione articoli, Contabilità clienti e Contabilità fornitori. È inoltre possibile impostare i cespiti per l'integrazione con gli ordini fornitore.
 

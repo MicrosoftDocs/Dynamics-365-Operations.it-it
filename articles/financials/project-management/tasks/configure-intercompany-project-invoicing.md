@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurare la fatturazione del progetto interaziendale
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come impostare la fatturazione del progetto tra due società dell'organizzazione. Questa attività utilizza il set di dati dimostrativi USSI.
 

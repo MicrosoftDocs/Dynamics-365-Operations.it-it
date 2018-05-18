@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>Convenzioni per l'ammortamento dei cespiti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le convenzioni di ammortamento vengono utilizzate per determinare se e come l'ammortamento viene calcolato sia per l'anno in cui il cespite viene acquisito che per l'anno in cui il cespite viene scartato.
 

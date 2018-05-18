@@ -18,18 +18,18 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations include le funzionalità per i paesi indicati nella [Guida alla disponibilità del prodotto internazionale](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
+Microsoft Dynamics 365 for Finance and Operations include le funzionalità per i paesi indicati nella [Guida alla disponibilità del prodotto internazionale](http://download.microsoft.com/documents/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
 
 In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità, sulle soluzioni, sugli aggiornamenti e sugli avvisi specifici del paese. 
 
@@ -124,7 +124,7 @@ Nelle seguenti sezioni sono elencate le risorse per paese/regione.
 -   [Dismissione dei cespiti](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
 ### <a name="europe"></a>Europa
-- [Titolari anticipi](../../financials/localizations/emea-advance-holders.md)
+- [Titolari di anticipi](../../financials/localizations/emea-advance-holders.md)
 - [Transazioni dei titolari di anticipi](../../financials/localizations/emea-advance-holders-transactions.md)
 - [Fatturazione avanzata](../../financials/localizations/emea-advance-invoice.md)
 - [Riconciliazione estratti conto](../../financials/localizations/emea-bank-reconciliation.md)

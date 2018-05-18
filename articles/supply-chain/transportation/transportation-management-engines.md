@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="transportation-management-engines"></a>Motori di gestione del trasporto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I motori di gestione del trasporto definiscono la logica utilizzata per generare ed elaborare le tariffe di trasporto in Gestione trasporto. 
 

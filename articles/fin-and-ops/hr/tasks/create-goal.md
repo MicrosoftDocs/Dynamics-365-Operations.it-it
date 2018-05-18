@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-goal"></a>Creare un obiettivo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 È possibile creare obiettivi, aggiungere attività agli obiettivi, tenere traccia di misure e collegare obiettivi a una revisione. Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations, versione 1611.
 

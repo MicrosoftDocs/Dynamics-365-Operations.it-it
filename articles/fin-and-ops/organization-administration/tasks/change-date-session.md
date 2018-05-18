@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>Modificare la data per la sessione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Per impostazione predefinita, viene utilizzata la data corrente quando si immettono e si registrano inserimenti nel giornale di registrazione o documenti di origine. È possibile cambiare la data utilizzata per le sessioni correnti. Utilizzare questa funzionalità per retrodatare gli inserimenti nel giornale di registrazione o i documenti di origine, se necessario.
 

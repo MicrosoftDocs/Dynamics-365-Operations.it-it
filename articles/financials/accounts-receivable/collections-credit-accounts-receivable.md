@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crediti e riscossioni in Contabilità clienti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Finance and Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti.
 

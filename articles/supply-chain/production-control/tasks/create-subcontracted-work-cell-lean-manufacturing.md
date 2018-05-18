@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Creare una cella di lavoro in conto lavoro per la lean manufacturing
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Per modellare un'attività in conto lavoro per la lean manufacturing, è necessario creare una cella di lavoro associata al fornitore che esegue il lavoro. Una cella di lavoro in conto lavoro è collegata al fornitore tramite l'associazione di una risorsa di tipo fornitore. Se si esegue questa registrazione nella società dimostrativa USMF, è possibile selezionare il conto fornitore con ID 1002 e il sito 1.
 

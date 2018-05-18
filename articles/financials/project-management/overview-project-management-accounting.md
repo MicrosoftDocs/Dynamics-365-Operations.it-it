@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>Gestione progetti e contabilità
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La funzionalità gestione progetti e contabilità può essere utilizzata in più settori per fornire un servizio, realizzare un prodotto oppure ottenere un risultato.  
 

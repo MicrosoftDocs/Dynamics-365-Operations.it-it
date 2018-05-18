@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-activity-relation-successor"></a>Creare relazione attività: attività successiva
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Il flusso di attività in un flusso di produzione snella viene documentato tramite relazioni tra le attività. Questa registrazione mostra come creare una relazione tra attività.
 

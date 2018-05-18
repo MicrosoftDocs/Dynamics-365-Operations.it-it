@@ -29,7 +29,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>Stato del ciclo di vita prodotto 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uno stato del ciclo di vita del prodotto documenta lo stato del ciclo di vita di un prodotto rilasciato o di una variante di prodotto. Gli stati del ciclo di vita del prodotto sono definiti dall'utente, in genere da responsabile di prodotto o un responsabile di dati master relativi alla rappresentazione generale prodotto. I processi aziendali specifici, ad esempio la pianificazione generale, possono essere interessati da uno stato specifico del ciclo di vita.   
 

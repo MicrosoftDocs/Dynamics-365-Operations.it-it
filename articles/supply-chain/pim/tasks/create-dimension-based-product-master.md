@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-dimension-based-product-master"></a>Creare una rappresentazione generale prodotto basata su dimensioni
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura mostra come creare una nuova rappresentazione generale prodotto con la tecnologia di configurazione basata su dimensioni. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa è la prima procedura di otto che illustra come sviluppare le combinazioni per la configurazione basata su dimensioni.
 

@@ -28,9 +28,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="setting-up-the-components-of-a-job"></a>Impostazione dei componenti di una mansione
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-[!INCLUDE [retail name](includes/retail-name.md)]
+[!include [retail name](includes/retail-name.md)]
 
 In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione. 
 

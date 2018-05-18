@@ -24,7 +24,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="create-routes-february-2016-only"></a>Creare cicli di lavorazione (solo febbraio 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività consente di creare i cicli di lavorazione produzione per un prodotto finito e un prodotto semilavorato. Corrisponde alla quinta attività della serie di calcoli DBA. La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 

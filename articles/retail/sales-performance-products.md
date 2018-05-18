@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>Valutare le prestazioni delle vendite per prodotto
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 È possibile studiare la redditività per i primi 10 prodotti tramite Microsoft Dynamics 365 for Retail. 
 

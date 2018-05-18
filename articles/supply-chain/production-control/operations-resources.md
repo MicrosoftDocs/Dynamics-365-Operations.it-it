@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>Risorse Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le risorse operative eseguono le attività di un progetto o di un processo di produzione. Possono essere di diversi tipi e possono avere capacità diverse. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reconcile-freight-in-transportation-management"></a>Riconciliare le spese di trasporto nella gestione del trasporto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo viene descritto il processo di riconciliazione delle spese di trasporto.
 

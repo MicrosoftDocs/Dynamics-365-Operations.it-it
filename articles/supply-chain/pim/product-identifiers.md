@@ -29,7 +29,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="product-identifiers"></a>Identificatori di prodotto 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento fornisce informazioni sui vari tipi di identificatori di prodotto e descrive come è possibile aggiungere identificatori di prodotto nei dati del prodotto.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definire il processo retributivo e calcolare i risultati
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 I processi di retribuzione vengono utilizzati per determinare nuovi importi e premi di retribuzione per i dipendenti iscritti ai piani di retribuzione variabile e fissa. I processi di retribuzione possono essere eseguiti più volte per eseguire l'analisi di simulazione, verificare che le modifiche e le impostazioni siano corrette. Questa procedura consente di creare un processo di retribuzione, eseguire il processo e visualizzare i risultati. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Ricerca scorte nel POS 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La ricerca di scorte nel POS aiuta i rivenditori a raggiungere l'eccellenza operativa in tempo reale e a ottenere informazioni dettagliate collegando punti vendita, POS e back office. Questa funzionalità fornisce una visione accurata in tempo reale dell'inventario dei prodotti nei punti vendita e centri di distribuzione. Consente inoltre ai rivenditori a incrementare l'efficienza e ridurre i costi migliorando la pianificazione delle scorte in tempo reale.
 

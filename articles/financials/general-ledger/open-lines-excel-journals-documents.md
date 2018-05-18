@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Pubblicare documenti e righe di giornale di registrazione da Excel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come immettere e pubblicare righe dei giornali di registrazione generale da Microsoft Excel. Sono riportate informazioni sui diversi modelli che è possibile utilizzare, a seconda del tipo di transazioni che si sta immettendo.
 

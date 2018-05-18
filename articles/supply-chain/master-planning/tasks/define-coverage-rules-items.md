@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="define-coverage-rules-for-items"></a>Definire le regole di copertura per gli articoli
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura mostra come creare le regole di copertura e ignorare le impostazioni di copertura per un articolo specifico. Viene inoltre illustrato come specificare le impostazioni predefinite di magazzino.
 

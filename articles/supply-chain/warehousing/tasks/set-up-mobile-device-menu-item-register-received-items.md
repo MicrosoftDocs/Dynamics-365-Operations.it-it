@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa attività si basa sull'impostazione di una voce di menu per dispositivo mobile. Questa voce di menu viene utilizzata per la registrazione dell'entrata di articoli ordinati tramite gli ordini fornitore. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Richieste di offerta (RdO)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento è riportata una panoramica relativa alle richieste di offerta (RdO). Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori. In una richiesta di offerta viene richiesto ai fornitori di fornire i prezzi e i tempi di consegna per le quantità di articoli specificati.
 È inoltre possibile chiedere ai fornitori di specificare se esistono eventuali spese accessorie, ad esempio i costi di spedizione o se il fornitore offre sconti per grandi ordini o per il pagamento anticipato della fattura fornitore.
@@ -57,8 +57,8 @@ Quando si ricevono le offerte tramite posta elettronica, è possibile gestirle t
 
 Se una seconda iterazione di una risposta è necessaria da un fornitore, selezionare **Reso** nella pagina **Richiesta di offerta**. L'azione di reso genera un nuovo giornale di registrazione e un report che verranno stampati, archiviati e inviati in base alle impostazioni di stampa.
 
-[!NOTE]
-Il nome della pagina **Richiesta di offerta** è stato modificato. Nelle versioni precedenti di Dynamics 365 for Finance and Operations, questa pagina si chiama **Risposta richiesta di offerta**.
+> [!NOTE]
+> Il nome della pagina **Richiesta di offerta** è stato modificato. Nelle versioni precedenti di Dynamics 365 for Finance and Operations, questa pagina si chiama **Risposta richiesta di offerta**.
 
 Se sono stati aggiunti criteri di punteggio al caso RdO, alla richiesta di offerta sarà associato un riquadro in cui è possibile immettere i punteggi. I punteggi totali verranno visualizzati nella RdO quando si confrontano le risposte nella pagina **Confronta risposte**. Nella pagina **Confronta risposte**, è inoltre possibile confrontare altri dati di risposte, ad esempio il prezzo riga, la data di consegna e il prezzo totale.
 
@@ -126,8 +126,8 @@ Se si desidera utilizzare i codici motivo in un'offerta per indicare il motivo p
 
 È possibile configurare l'aspetto dei documenti della RdO stampati o archiviati nella pagina **Impostazione moduli** in Approvvigionamento.
 
-[!NOTE]
-Per la configurazione del settore pubblico, eventuali modifiche a una RdO che è già stata inviata richiedono l'utilizzo del processo di modifica. Quando viene inviata una RdO, i campi risultano bloccati.
+> [!NOTE]
+> Per la configurazione del settore pubblico, eventuali modifiche a una RdO che è già stata inviata richiedono l'utilizzo del processo di modifica. Quando viene inviata una RdO, i campi risultano bloccati.
 Pertanto, per apportare modifiche alla RdO, è necessario selezionare **Creare** per avviare il processo di modifica, come descritto in precedenza. Questo comportamento di blocco è controllato dall'opzione **Blocca RdO quando inviate** in **Parametri di approvvigionamento**. Per impostazione predefinita, questo parametro è impostato su **Sì** e per una configurazione del settore pubblico questa è l'impostazione predefinita che non può essere modificata. Di conseguenza, anche se il processo di modifica può essere gestito manualmente in una configurazione non del settore pubblico, deve essere utilizzato per una configurazione settore pubblico.
 
 Quando si crea un caso RdO del tipo ordine fornitore e si aggiunge un articolo di magazzino alla RdO, viene creata anche una transazione di magazzino con lo stato in entrata impostato su **Ricevimento offerta**. Solo le righe del caso RdO con questo stato sono considerate quando si utilizza un piano generale per calcolare le forniture. Se si desidera che il piano generale includa le righe del caso RdO come entrata prevista, è necessario configurare questo comportamento nella pianificazione generale.

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-groups"></a>Imposta i gruppi cespite
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come creare un nuovo gruppo cespite. Utilizza il ruolo Ragioniere e i dati dimostrativi per la persona giuridica USMF.
 

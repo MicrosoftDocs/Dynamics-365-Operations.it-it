@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificare e distribuire strumenti per la selezione dei candidati
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Individuare un pool qualificato di candidati per coprire le posizioni aperte può essere difficile, in particolare quando una posizione richiede un set univoco di competenze.  Tuttavia, i candidati con le competenze necessarie possono essere già dipendenti dell'organizzazione. È possibile trovare un set di competenze specifico tra i dipendenti esistenti o i nuovi candidati. Ciò consente al selezionatore di riunire e fare velocemente lo screening dei candidati che si sono proposti per la posizione aperta ora o in passato oppure di trovare i potenziali candidati dal pool di dipendenti esistente. Utilizzare questa registrazione dell'attività per scoprire come la funzionalità di mapping delle competenze consenta di individuare la persona giusta per una posizione aperta. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

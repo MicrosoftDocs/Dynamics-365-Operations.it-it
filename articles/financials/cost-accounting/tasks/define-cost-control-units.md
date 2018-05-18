@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>Definire unità di controllo costi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene illustrato come definire le unità di controllo costi nei movimento CoGe di contabilità industriale. Viene selezionata la dimensione oggetto di costo per cui si desidera eseguire il controllo dei costi nella contabilità generale. I membri di dimensione oggetto di costo verranno trasformati in oggetti di costo nelle unità del controllo costi. La società di dati dimostrativi utilizzata per creare questa procedura è USP2.
 

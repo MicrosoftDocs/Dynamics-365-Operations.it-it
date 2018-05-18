@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="base-price-and-trade-agreements"></a>Prezzo di base e accordi commerciali
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare accordi commerciali sui prezzi di vendita specifici del canale. Questa procedura utilizza la società di dati dimostrativi USRT.
 

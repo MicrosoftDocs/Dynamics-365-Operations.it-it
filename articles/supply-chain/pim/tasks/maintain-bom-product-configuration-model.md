@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>Gestire DBA per un modello di configurazione prodotto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 L'esecuzione di questa procedura richiede un modello di configurazione prodotto esistente. Il modello High end speaker della società di dati dimostrativi USMF è utilizzato per creare questa procedura.
 

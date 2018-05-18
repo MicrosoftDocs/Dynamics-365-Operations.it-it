@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Panoramica sulla liquidazione per i pagamenti centralizzati
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una persona giuridica che gestisca tutti i pagamenti. In questo modo si evita di dover immettere la stessa transazione in più persone giuridiche ed è possibile risparmiare tempo grazie alla semplificazione del processo delle proposte di pagamento, del processo di liquidazione, della modifica delle transazioni aperte e della modifica delle transazioni chiuse per i pagamenti centralizzati. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Giustificativo singolo con più record cliente o fornitore
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future di Microsoft Dynamics 365 for Finance and Operations e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell'impatto della contabilità sull'elaborazione della liquidazione. 
 

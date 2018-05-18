@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="moving-average"></a>Media mobile
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La media mobile è un metodo di determinazione dei costi soggetti a variazioni basato sul principio della media, in cui i costi delle uscite di magazzino non cambiano quando cambia il costo di acquisto. La differenza viene capitalizzata e basata su un calcolo proporzionale. L'importo che rimane viene calcolato come spesa. 
 

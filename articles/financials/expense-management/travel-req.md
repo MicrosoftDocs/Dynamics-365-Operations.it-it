@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Richieste di viaggio
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una *richiesta di viaggio* è un documento di origine in cui sono elencate le spese che saranno sostenute allo scopo di viaggio. Una richiesta di viaggio viene inviata per la revisione e potrà essere utilizzata per autorizzare le spese.
 

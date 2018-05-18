@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-close"></a>Chiusura inventario
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Durante il processo per liquidare le transazioni in uscita con le transazioni in entrata, è possibile scegliere di aggiornare la contabilità generale in base alle rettifiche effettuate.
 

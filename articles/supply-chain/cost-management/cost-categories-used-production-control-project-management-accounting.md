@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Categorie costi utilizzate in Controllo produzione e Gestione progetti e contabilità
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. Questo articolo fornisce informazioni sulle categorie di costi che è necessario definire per questi tipi di lavoro di produzione ai fini della produzione e del progetto.
 

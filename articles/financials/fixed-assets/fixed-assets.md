@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>Home page di cespiti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature. 
 

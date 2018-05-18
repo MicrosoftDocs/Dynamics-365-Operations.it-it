@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>Creare una richiesta per il consumo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa procedura viene descritto dettagliatamente il processo per creare una richiesta. Vengono visualizzati i diversi modi di individuare i prodotti nel catalogo di approvvigionamento e come aggiungere un prodotto non in catalogo. Prima di iniziare questa procedura, è necessario disporre di criteri di acquisto configurati con Consumo come tipo predefinito di richiesta. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati. La procedura può essere eseguita solo da un profilo utente impostato come lavoratore.  Questa attività in genere sarà svolta da un dipendente. Il dipendente impiega il ruolo di sicurezza che permetterà di svolgere le attività, o se si utilizza USMF, è possibile aprire la sessione come Alicia.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Creare un ordine fornitore con una programmazione consegna
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura dimostra come creare una programmazione consegna per un ordine foritore. Una programmazione consegna viene utilizzata quando si richiede che una quantità di un ordine o su un giornale di registrazione venga consegnata in più spedizioni. L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF. Questa procedura viene in genere eseguita da un addetto agli acquisti.
 

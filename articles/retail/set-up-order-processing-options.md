@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>Impostare un canale del servizio clienti
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Una società può definire più canali del servizio clienti in Microsoft Dynamics 365 for Retail. I canali del servizio clienti vengono configurati in **Retail** \> **Canali** \> **Servizi clienti** \> **Tutti i servizi clienti** e sono specifici di una persona giuridica.
 

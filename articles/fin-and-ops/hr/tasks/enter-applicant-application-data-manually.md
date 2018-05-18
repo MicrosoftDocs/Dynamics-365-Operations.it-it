@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Immettere manualmente i dati del candidato e della domanda di lavoro
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra come gestire manualmente informazioni sui candidati e sulla relativa domanda di lavoro.   È possibile immettere e gestire informazioni personali, date e ore del colloquio, referenze, competenze e richieste di facilitazione per i candidati. È inoltre possibile aggiornare lo stato delle domande di lavoro dei candidati e creare lettere o messaggi di posta elettronica per comunicare con i candidati. Quando si crea un record candidato, viene creato un record per il candidato nella Rubrica globale.       La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

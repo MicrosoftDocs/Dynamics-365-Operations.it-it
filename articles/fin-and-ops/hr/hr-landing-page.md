@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="welcome-to-human-resources"></a>Risorse umane
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Risorse umane consente di semplificare molte attività di routine di gestione dei record e automatizzare diversi processi relativi al personale dell'organizzazione. Fornisce inoltre una struttura per il personale delle risorse umane per gestire le aree di supervisione. Queste aree prevedono la selezione e l'assunzione di dipendenti, l'amministrazione di benefit, la formazione, la valutazione delle prestazioni e la gestione delle modifiche.
 

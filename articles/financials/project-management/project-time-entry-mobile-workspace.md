@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-time-entry-mobile-workspace"></a>Area di lavoro mobile per immissione ora progetto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Immissione ora progetto**. Questa area di lavoro consente agli utenti di immettere e salvare le ore dedicate a un progetto utilizzando il dispositivo mobile.
 

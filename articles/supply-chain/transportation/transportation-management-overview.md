@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="transportation-management-overview"></a>Panoramica sulla gestione trasporto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Microsoft Dynamics 365 for Finance and Operations.
 

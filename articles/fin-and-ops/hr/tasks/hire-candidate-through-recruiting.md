@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>Assumere il candidato tramite la selezione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura consente a un responsabile della selezione di assumere un candidato che ha inviato una domanda di lavoro per un progetto di selezione specifico. Quando si assume un candidato tramite un progetto di selezione, un nuovo record lavoratore verrà creato e al record del candidato sarà associato lo stato Assunto. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Per completare questa procedura, andare a Risorse umane > Selezione del personale > Domande di lavoro > Domande di lavoro 
 

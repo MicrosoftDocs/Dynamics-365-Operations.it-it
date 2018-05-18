@@ -27,7 +27,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a>Visualizzare le notifiche degli ordini nel POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Nel moderno ambiente di vendita al dettaglio, ai collaboratori del POS vengono assegnate varie attività, come aiutare i clienti, inserire transazioni, eseguire conteggi di inventario e ricevere ordini nel POS. Il client POS fornisce un'applicazione unica in cui i collaboratori possono eseguire tutte queste attività e molto altro. Poiché è necessario svolgere diversi compiti durante il giorno, potrebbe essere necessario che i collaboratori vengano avvisati quando qualcosa richiede la loro attenzione. Il framework di notifica nel POS agevola tale operazione consentendo ai rivenditori di configurare notifiche basate su ruoli. Nell'aggiornamento dell'applicazione 5 di Microsoft Dynamics 365 for Retail, le notifiche possono essere configurate solo per le operazioni di POS.
 

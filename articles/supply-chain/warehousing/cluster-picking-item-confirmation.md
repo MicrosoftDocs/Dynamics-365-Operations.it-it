@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Conferma prodotto per prelievo cluster
 Il prelievo cluster consente di selezionare gli articoli per più ordini contemporaneamente. Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenziale per verificare che gli articoli vengano aggiunti ai cluster. È possibile verificare gli articoli nel prelievo cluster durante il processo di prelievo cluster.

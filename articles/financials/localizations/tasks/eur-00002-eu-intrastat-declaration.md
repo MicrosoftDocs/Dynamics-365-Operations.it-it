@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-an-eu-intrastat-declaration"></a>Generare una dichiarazione Intrastat UE
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura illustra i passaggi necessari per esportare la dichiarazione Intrastat in formato di file elettronico e per visualizzare l'anteprima dei dati della dichiarazione in formato Excel. 
 

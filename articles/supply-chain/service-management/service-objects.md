@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-objects"></a>Oggetti assistenza 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gli oggetti assistenza sono i cespiti cliente e i prodotti per i quali è possibile prestare assistenza. A seconda del tipo di assistenza fornita, gli oggetti si distinguono in materiali e immateriali:
 

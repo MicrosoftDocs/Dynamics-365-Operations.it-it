@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-new-jobs"></a>Definire nuovi processi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 L'attività si basa sulla creazione di una nuova posizione lavorativa. Verrà completato utilizzando l'immissione e la copia manuale dalla funzionalità di modello. La società di dati dimostrativi utilizzata per creare questa attività è USMF. Questa attività è destinata allo specialista delle risorse umane.
 

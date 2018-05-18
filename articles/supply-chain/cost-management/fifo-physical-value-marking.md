@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fifo-with-physical-value-and-marking"></a>Informazioni su FIFO con valore fisico e contrassegno
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 FIFO (First In, First Out) è un modello inventariale secondo il quale gli articoli acquistati per primi sono i primi a uscire dal magazzino. Le uscite da magazzino aggiornate finanziariamente vengono compensate a fronte delle prime entrate in magazzino aggiornate finanziariamente in base alla data finanziaria della transazione di magazzino. 
 

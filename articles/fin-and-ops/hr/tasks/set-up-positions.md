@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-positions"></a>Impostare le posizioni
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Le posizioni sono un elemento importante del livello inferiore di una gerarchia organizzativa. Una posizione è una singola istanza di un processo. Ad esempio, la posizione "Manager vendite (Est") è una delle posizioni associate alla mansione "Manager vendite". Una posizione esiste in un reparto e può avere associato solo un lavoratore. In questa attività eseguiremo i passaggi necessari per creare una posizione. Questa procedura è destinata agli specialisti delle risorse umane.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-accounting-setup"></a>Configurazione della contabilità interaziendale
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo illustra come impostare la contabilità interaziendale in modo da poter utilizzare i giornali di registrazione interaziendali per allocazioni contabili e giornali di registrazione finanziari, ad esempio giornali di registrazione giornalieri, giornali di registrazione fatture fornitore e giornali di registrazione pagamenti.
 

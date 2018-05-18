@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>Stimare un ordine di produzione
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 È possibile eseguire questa procedura utilizzando la società di dati dimostrativi USMF oppure il proprio set di dati. In entrambi i casi, è necessario disporre di un ordine di produzione aperto con lo stato Creato. Si tratta della seconda procedura su sette che spiega il ciclo di vita dell'ordine di produzione.
 

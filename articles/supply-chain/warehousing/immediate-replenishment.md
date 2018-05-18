@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>Rifornimento immediato
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Il rifornimento immediato consente di rifornire il magazzino immediatamente dopo che una riga di direttiva ubicazione non è riuscita ad allocare scorte. Il rifornimento si basa su una singola riga nell'impostazione della direttiva ubicazione. Se non sono disponibili scorte nell'unità di misura specificata dalla riga, il rifornimento di tale unità di misura viene eseguito immediatamente.
 

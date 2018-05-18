@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions"></a>Distribuzioni contabili
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sulle distribuzioni contabili e descrive le opzioni disponibili per elaborarle. Le distribuzioni contabili vengono utilizzate per allocare gli importi monetari per un documento di origine in conti CoGe specifici. 
 

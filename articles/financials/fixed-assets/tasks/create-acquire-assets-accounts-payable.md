@@ -24,7 +24,7 @@ ms.lasthandoff: 10/05/2017
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Creare e acquisire cespiti dalla contabilità fornitori
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In questa guida attività verrà illustrata la creazione e l'acquisizione di un cespite con il processo di acquisto. Vengono utilizzati l'addetto alla contabilità fornitori e il contabile e la società dimostrativa USMF.
 

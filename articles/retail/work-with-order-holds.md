@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>Sospensioni ordine
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritte le sospensioni degli ordini tramite l'utilizzo di Dynamics 365 for Retail.
 
