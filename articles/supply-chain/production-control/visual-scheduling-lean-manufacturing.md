@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92beae76b35da6e18d1d9b2621b48b9a46dfaad0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d2ead061fe39c3dcb54d697f246c2c826339b699
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Programmazione visiva per lean manufacturing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sulla bacheca della programmazione kanban, che la pianificazione di produzione può utilizzare per controllare e ottimizzare il piano di produzione per i processi kanban.
 
@@ -91,7 +91,7 @@ I processi possono essere riassegnati da un periodo a un altro. Questa funzione 
 -   pagina **Visualizzazione flusso di produzione**
 
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Lean manufacturing: programmazione dei processi kanban](lean-manufacturing-kanban-job-scheduling.md)

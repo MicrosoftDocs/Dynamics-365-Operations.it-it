@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-agreements"></a>Contratti di vendita
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vengono fornite le informazioni sui contratti di vendita. Un contratto di vendita è un contratto con cui il cliente si impegna ad acquistare prodotti in una determinata quantità o per uno specifico importo nel tempo in cambio di sconti o prezzi speciali.
 
@@ -38,7 +38,7 @@ Il periodo di validità di un contratto di vendita viene definito dai campi **Da
 
 È possibile creare un ordine cliente direttamente da un contratto di vendita mediante l'azione **Ordine di rilascio**. In alternativa, è possibile selezionare un contratto di vendita valido quando si prendono gli ordini (vedere la sezione “Applicazione di contratti di vendita nel processo di ordinazione" in questo articolo).  
 
-**Nota:** Nelle versioni precedenti, i contratti di vendita erano chiamati ordini cliente di copertura.
+> [Nota!] Nelle versioni precedenti, i contratti di vendita erano chiamati ordini cliente di copertura.
 
 ## <a name="commitment-types"></a>Tipi di impegno
 Ogni riga di un contratto di vendita indica un impegno di vendita di un prodotto. In generale sono disponibili due categorie di impegno:

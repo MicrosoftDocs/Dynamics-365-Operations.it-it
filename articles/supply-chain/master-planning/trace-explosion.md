@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3891688542ac6d4f9afce026808c65992a592d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2642ced283d815ad671512cc5a17e531e9169f91
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="use-tracing-for-explosion"></a>Utilizzare la tracciatura per l'esplosione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo viene illustrato come utilizzare l'analisi per esplorare le cause associate al risultato dell'esplosione di un ordine.
 
@@ -42,7 +42,7 @@ Abilitando la tracciatura, è possibile visualizzare informazioni sui fattori ch
 
 È possibile visualizzare i dettagli sul ritardo e sulle azioni per un ordine selezionato. Nella pagina **Esplosione** le informazioni sulla tracciatura sono disponibili nella scheda **Esplosione** nel riquadro superiore. La tracciatura si verifica quando si esplode un ordine. Per iniziare la tracciatura dell'ordine pianificato, fare clic su **Aggiorna**, quindi selezionare la casella di controllo **Abilita tracciatura**. È possibile utilizzare il campo **Trova testo** per cercare il registro per informazioni specifiche. I risultati della ricerca vengono evidenziati nella struttura.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Piani generali](master-plans.md)

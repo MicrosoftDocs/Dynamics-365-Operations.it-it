@@ -18,16 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
 ms.contentlocale: it-it
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurare la creazione di report elettronici per eseguire il pull dei dati in Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare nella configurazione Creazione di report elettronici (ER) per definire il trasferimento di dati dall'istanza di Finance and Operations ai servizi Power BI. Come esempio, in questo argomento vengono utilizzate le transazioni Intrastat come dati aziendali che devono essere trasferiti. La visualizzazione della mappa di Power BI utilizza questi dati transazione Intrastat per presentare una visualizzazione per l'analisi delle attività di importazione o esportazione della società nel report di Power BI.
 
@@ -132,12 +132,12 @@ Impostare l'integrazione tra Finance and Operations e Power BI. Per ulteriori in
 2. Selezionare il report di Power BI **Dettagli di esportazione e importazione** creato, per visualizzare il report come elemento di azione nella pagina selezionata. 
 3. Fare clic sull'elemento di azione per aprire la pagina Finance and Operations che indica il report progettato in Power BI. [![Report dettagli di esportazione e importazione](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Destinazione report elettronici](electronic-reporting-destinations.md)
+[Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 
-[Panoramica sui report elettronici](general-electronic-reporting.md)
+[Panoramica dei report elettronici](general-electronic-reporting.md)
 
 
 

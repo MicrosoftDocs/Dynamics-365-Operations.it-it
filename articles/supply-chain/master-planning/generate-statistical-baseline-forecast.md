@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Generare una previsione di base statistica
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sui parametri e i filtri utilizzati nel calcolo di previsione della domanda. 
 
@@ -64,7 +64,7 @@ Il gruppo di pianificazione interaziendale, le chiavi di allocazione articolo e 
 
 Se la previsione non viene generata per un grande set di articoli, ma ad esempio, per un articolo o una chiave di allocazione articolo per volta, per ottenere migliori prestazioni, è possibile selezionare la casella di controllo **Utilizza modalità di richiesta-risposta** nella scheda **Pianificazione generale - Impostazioni - Previsione della domanda** -  **Parametri di previsione della domanda - Azure Machine Learning**.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Impostazione della previsione della domanda](demand-forecasting-setup.md)

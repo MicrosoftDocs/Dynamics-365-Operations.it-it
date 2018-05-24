@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Guide attività nuove o aggiornate (maggio 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (maggio 2016 -- tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guide attività nella libreria unificata APQC (maggio 2016 - tutte le lingue) per Microsoft Dynamics AX
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guide attività nella libreria unificata APQC (maggio 2016 - tutte le lingue) per Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
 La libreria unificata APQC (maggio 2016) contiene le guide attività da utilizzare per ottenere assistenza per l'aggiornamento di maggio 2016 di Microsoft Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Le versioni localizzate delle guide attività che sono state rilasciate nella libreria unificata APQC (febbraio 2016) sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md). <strong>Nota:</strong> un asterisco (<strong>\</strong>*) accanto al titolo di una riga Modellatore di processi aziendali (BPM) indica che la guida attività per il processo aziendale è stata creata per l'aggiornamento di Dynamics AX di maggio 2016 e non è supportata nelle versioni precedenti di Microsoft Dynamics AX.
@@ -186,7 +186,7 @@ La libreria unificata APQC (maggio 2016) contiene le guide attività da utilizza
 |                  Impostare vincoli di trasporto per un articolo                   |     Globali     |
 |                <strong>\</strong>*Impostare i criteri di lavoro magazzino                 |     Globali     |
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Nuove Guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)

@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1db68ea5728cc417f0e70675d9074d5b054883da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Simulazione prezzo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sulla simulazione di prezzo per le offerte. La simulazione di prezzo consente di valutare l'effetto delle detrazioni sul prezzo di vendita futuro durante il processo di offerta, prima di stabilire un prezzo specifico.
 
@@ -36,7 +36,7 @@ In una simulazione di prezzo per un'offerta viene mostrato il nuovo importo tota
 
 Una simulazione di prezzo non modifica il prezzo nell'offerta. Se la simulazione di prezzo viene applicata a un'intera offerta, verrà trattata come sconto speciale nell'intestazione dell'offerta. Se la simulazione di prezzo viene applicata ad articoli specifici, verrà trattata come sconto speciale nelle righe offerta. Quando si applica una simulazione di prezzo, il prezzo unitario di vendita nella riga dell'offerta che viene creata non cambia. Viene invece applicata una percentuale di sconto corrispondente alla riduzione di prezzo della riga dell'offerta. Quando si applica una simulazione di prezzo, il prezzo unitario di vendita e la percentuale di sconto vengono trasferiti nella riga o nell'intestazione dell'offerta.  
 
-**Nota:** Quando si esegue una simulazione di prezzo, per creare la simulazione viene utilizzata solo la valuta di vendita corrente. Per la visualizzazione dei totali dell'offerta, tuttavia, viene utilizzata una combinazione di valuta società e di valuta di vendita.  
+>[Nota!] Quando si esegue una simulazione di prezzo, per creare la simulazione viene utilizzata solo la valuta di vendita corrente. Per la visualizzazione dei totali dell'offerta, tuttavia, viene utilizzata una combinazione di valuta società e di valuta di vendita.  
 
 Gli articoli supplementari aggiunti alle righe dell'offerta possono attivare sconti riga o plurimi. È possibile che attivino sconti totali in grado di modificare i margini e i rapporti di contribuzione delle righe dell'offerta e lo sconto complessivo.  
 

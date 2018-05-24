@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Approvazioni fatture per dispositivi mobili
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Le funzionalità mobili in Microsoft Dynamics 365 for Finance and Operations consentono agli utenti aziendali di progettare esperienze mobili. Per gli scenari avanzati, la piattaforma anche consente agli sviluppatori di estendere le funzionalità nel modo desiderato. Il modo più efficace di apprendere alcuni dei nuovi concetti sulle funzionalità mobili è di esaminare il processo di progettazione di alcuni scenari. Questo argomento è destinato a fornire un approccio pratico alla progettazione di scenari mobili utilizzando l'approvazione delle fatture fornitore come caso d'uso. Questo argomento dovrebbe aiutare nella progettazione di altre variazioni degli scenari e può essere applicato anche ad altri scenari non correlati alle fatture fornitore.
 
@@ -175,9 +175,9 @@ Per progettare la pagina dei dettagli fattura per l'ambiente mobile, utilizzare 
 1. Nell'URL di Finance and Operations, sostituire il nome della voce di menu con **VendMobileInvoiceHeaderDetails** per aprire il modulo
 2. Aprire lo strumento di progettazione mobile dal pulsante **Impostazioni** (ingranaggio).
 3. Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
-4. Selezionare la pagina <strong>My vendor invoices **creata in precedenza, quindi fare clic su **Modifica</strong>.
+4. Selezionare la pagina **My vendor invoices** creata in precedenza, quindi fare clic su **Modifica**.
 5. Nella scheda **Campi** fare clic sull'intestazione di colonna **Griglia**.
-6. Fare clic su **Proprietà** &gt; **Aggiungi pagina**. **Nota:** Quando si fa clic su l'intestazione **Griglia** e si aggiunge una pagina, la relazione con la pagina dei dettagli è impostata automaticamente.
+6. Fare clic su **Proprietà &gt; Aggiungi pagina**. **Nota:** Quando si fa clic su l'intestazione **Griglia** e si aggiunge una pagina, la relazione con la pagina dei dettagli è impostata automaticamente.
 7. Immettere un titolo della pagina, ad esempio **Invoice details** e una descrizione, ad esempio **View invoice header and line details**.
 8. Fare clic su **Seleziona campi**. Notare che l'ordine di aggiunta è l'ordine in cui i campi verranno visualizzati all'utente finale. Il solo modo per modificare l'ordine dei campi è riselezionarli tutti. 
 9. Aggiungere i campi seguenti dall'intestazione in base ai requisiti di questo scenario:

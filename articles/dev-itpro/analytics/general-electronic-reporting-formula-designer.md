@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Designer formula nella creazione di report elettronici
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene illustrato come utilizzare designer formula nei report elettronici (ER). Quando si progetta un formato di un documento elettronico specifico in ER, è possibile utilizzare le formule per la trasformazione dei dati in modo da soddisfare i requisiti per la compilazione e la formattazione del documento. Le formule somigliano alle formule in Microsoft Excel. Nelle formule, sono supportate funzioni di diverso tipo: testo, data e ora, logica matematica, informazioni, conversione del tipo di dati e altre (funzioni specifiche del dominio aziendale).
 
@@ -647,7 +647,7 @@ I parametri Flag stampa nome valuta e Decimali vengono analizzati soltanto per i
 
 ER consente di estendere l'elenco di funzioni utilizzate nelle espressioni ER. A tal fine sono richieste alcune operazioni progettuali. Per informazioni dettagliate, vedere [Estensione dell'elenco di funzioni di creazione di report elettronici (ER)](general-electronic-reporting-formulas-list-extension.md).
 
-## <a name="see-also"></a>Vedere anche
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica sui report elettronici](general-electronic-reporting.md)
 

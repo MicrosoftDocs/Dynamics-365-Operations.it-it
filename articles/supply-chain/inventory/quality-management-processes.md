@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>Processi di gestione qualità
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sul processo di gestione della qualità per i prodotti non conformi. e viene descritto come utilizzare la funzionalità di controllo qualità e come definire e gestire le non conformità e le correzioni.
 
@@ -88,7 +88,7 @@ La pagina **Correzioni** consente di creare un elenco di non conformità che dev
 
 È buona idea definire un tipo di documento univoco per correzioni utilizzando la pagina **Tipo di documento**. È quindi possibile utilizzare la pagina **Impostazione report** per definire se i commenti per il tipo di documento devono essere stampati nel report di correzione. Un report di correzione stampato visualizza le informazioni sulla non conformità e le note di non conformità correlate. Il report include inoltre le informazioni di correzione, ad esempio il tipo di diagnostica e le note di correzione correlate.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Abilitare la gestione qualità](enable-quality-management.md)

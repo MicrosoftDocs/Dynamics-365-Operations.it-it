@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborare con i fornitori tramite il portale fornitori
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene illustrato come gli addetti agli acquisti possono utilizzare il portale fornitori per collaborare con i fornitori esterni durante il processo di conferma dell'ordine fornitore. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
 
@@ -96,7 +96,7 @@ Nella tabella riportata di seguito viene mostrato un esempio di modifica allo st
 |                           Si invia la nuova versione dell'ordine fornitore nel portale fornitori.                            |                                                                                                                                                                    La nuova versione viene registrata nel portale e lo stato passa a <strong>In revisione esterna</strong>.                                                                                                                                                                     |
 |                                Il fornitore approva la nuova versione dell'ordine.                                 |                                                                                                                                                     Lo stato viene modificato in <strong>Confermato</strong> automaticamente o quando si riceve la risposta dal fornitore e quindi si conferma l'ordine.                                                                                                                                                     |
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Configurazione della sicurezza per gli utenti di collaborazione fornitore](configure-security-vendor-portal-users.md)

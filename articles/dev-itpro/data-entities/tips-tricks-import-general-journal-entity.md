@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 688fa17072cb340d6d02be31528339fb98601825
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eea226fae902c19d66aff83b7ee2786d1586ef39
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Procedure consigliate per l'importazione di giustificativi utilizzando l'entità giornale di registrazione generale
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono forniti suggerimenti per l'importazione dei dati nel giornale di registrazione generale tramite l'entità giornale di registrazione generale.  
 
@@ -57,7 +57,7 @@ Nelle sezioni seguenti viene descritto l'effetto di queste impostazioni e anche 
 
 ### <a name="voucher-number"></a>Numero del giustificativo
 
--   Quando si utilizza l'impostazione **Elaborazione basata su set** nell'entità giornale di registrazione generale, il numero di giustificativo deve essere fornito nel file importato. A tutte le transazioni nel giornale di registrazione generale viene assegnato il numero di giustificativo che viene fornito nel file importato, anche se il giustificativo non è bilanciato. Se si desidera utilizzare l'elaborazione basata su set, ma si desidera anche utilizzare la sequenza numerica definita per i numeri di giustificativo, è disponibile un aggiornamento rapido per la versione di febbraio 2016. Il numero di aggiornamento rapido è 3170316 ed è disponibile per il download da Lifecycle Services (LCS). Per ulteriori informazioni, vedere [Download degli aggiornamenti rapidi da Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
+-   Quando si utilizza l'impostazione **Elaborazione basata su set** nell'entità giornale di registrazione generale, il numero di giustificativo deve essere fornito nel file importato. A tutte le transazioni nel giornale di registrazione generale viene assegnato il numero di giustificativo che viene fornito nel file importato, anche se il giustificativo non è bilanciato. Se si desidera utilizzare l'elaborazione basata su set, ma si desidera anche utilizzare la sequenza numerica definita per i numeri di giustificativo, è disponibile un aggiornamento rapido per la versione di febbraio 2016. Il numero di aggiornamento rapido è 3170316 ed è disponibile per il download da Lifecycle Services (LCS). Per ulteriori informazioni, vedere [Download degli aggiornamenti rapidi da Lifecycle Services](../migration-upgrade/download-hotfix-lcs.md).
     -   Per abilitare questa funzionalità, nel nome del giornale di registrazione utilizzato per le importazioni impostare **Assegnazione numero in fase di registrazione** su **Sì**.
     -   Un numero di giustificativo deve comunque essere definito nel file importato. Tuttavia, questo numero è temporaneo e viene sovrascritto dal numero di giustificativo quando il giornale di registrazione viene registrato. È necessario assicurarsi che le righe del giornale di registrazione sono raggruppate correttamente per numero di giustificativo temporaneo. Ad esempio, durante la registrazione, vengono trovate tre righe a cui è associato un numero di giustificativo temporaneo pari a 1. Il numero del giustificativo temporaneo di tutte le tre righe viene sovrascritto con il numero successivo della sequenza numerica. Se le tre righe non sono una voce bilanciata, non viene registrato il giustificativo. Successivamente, se vengono trovate righe che hanno un numero di giustificativo temporaneo di 2, questo numero viene sovrascritto dal numero di giustificativo successivo nella sequenza numerica e così via.
 

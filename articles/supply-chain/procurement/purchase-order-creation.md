@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 22264f0d82844e63bc7fc42705184c6ecc27e28d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-purchase-orders"></a>Creazione degli ordini fornitore
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 In questo articolo vengono descritti il processo e le opzioni di creazione manuale di un ordine fornitore.
 
@@ -86,7 +86,7 @@ I PO possono essere configurati per richiedere che i fondi budget siano allocati
 
 Potrebbe essere necessario ritardare il completamento di un ordine fornitore. Ad esempio, si potrebbero richiedere ulteriori informazioni sui prodotti o servizi, o potrebbe essere necessario ottenere l'autorizzazione per la spesa. Esistono diversi modi per sospendere un ordine. Ad esempio, è possibile attendere per confermare l'ordine. In alternativa, se si utilizza un flusso di lavoro di gestione delle modifiche, non inviare l'ordine per l'approvazione. Se è necessario bloccare tutti gli ordini per un determinato fornitore, è anche possibile contrassegnare il fornitore come **In attesa** di elaborazione nei dati master fornitori. Esistono inoltre circostanze che potrebbero impedire l'elaborazione dell'ordine. Ad esempio, l'elaborazione potrebbe essere impedita se sono stati superati i limiti di credito, o se i fondi budget richiesti non sono disponibili.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Panoramica dell'ordine fornitore](purchase-order-overview.md)

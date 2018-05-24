@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Panoramica del processo di produzione
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento fornisce una panoramica dei processi di produzione. Descrive le varie fasi degli ordini di produzione, degli ordini batch e dei kanban, dalla creazione dell'ordine alla chiusura del periodo finanziario. 
 
@@ -78,14 +78,14 @@ Le seguenti operazioni nel ciclo di vita della produzione possono verificarsi pe
 12. **Chiusura periodo**: alcuni principi della contabilità industriale, ad esempio media periodica, determinazione costi di tipo backflush, FIFO o LIFO, richiedono attività periodiche per chiudere l'inventario o il periodo finanziario. Prima della chiusura dei periodi il sistema tenta in genere di dichiarare qualsiasi consumo di materiale e risorse, nonché di correzioni delle scorte e di scarto. La dichiarazione viene in genere eseguita utilizzando i giornali di registrazione movimenti scorte o di rettifica. L'obiettivo è quello di valutare le prestazioni economiche di unità operative per periodo. In alcuni casi, quando vengono utilizzati ordini di produzione di lunga durata che coprono i periodi di report finanziari, i giornali di registrazione produzione vengono utilizzati per dichiarare lo stato di avanzamento di produzione e il consumo di risorse entro la fine del periodo.
 
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Riscontro di produzione](production-feedback.md)
 
 [Modelli di configurazione prodotto](../pim/product-configuration-models.md)
 
-[Lean manufacturing](lean-manufacturing-overview.md)
+[Produzione snella](lean-manufacturing-overview.md)
 
 
 

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6ac4c1afecb72d4007d830a9927bd3171ddd48ec
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5f1044e6731fd757532e34292109b9d81ca38719
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Programmazione dei processi kanban per lean manufacturing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni su controllo visivo sulla programmazione dei processi kanban e le modalità varie per la programmazione dei processi kanban.  
 
@@ -69,7 +69,7 @@ La capacità disponibile al giorno o alla settimana è definita dal calendario a
 
 Nella pagina elenco **Programmazione processo kanban** è incluso un riquadro Dettagli informazioni che mostra la capacità di periodo disponibile e prenotata per la cella di lavoro selezionata. A seconda dei periodi di programmazione selezionati nel modello di flusso di produzione, i periodi mostrano i giorni o le settimane.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 

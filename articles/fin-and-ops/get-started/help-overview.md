@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>Panoramica della Guida
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations. Viene illustrato come è possibile fornire documentazione personalizzata e formazione all'organizzazione. 
 
@@ -60,7 +60,7 @@ Il sito docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](
 
 -   **Accesso a contenuti più aggiornati**: il sito offre modi più veloci e più flessibili per creare, fornire e aggiornare la documentazione del prodotto. Di conseguenza, aiuta a garantire l'accesso alle ultime informazioni tecniche.
 -   **Contenuto scritto da esperti**: il sito fornisce un set più dettagliato di documentazione del prodotto che può essere aggiornato da membri della community interni ed esterni a Microsoft.
--   **Accesso a diversi tipi di contenuto**: il sito consente di accedere rapidamente a diversi tipi di contenuto su Finance and Operations, ad esempio presentazioni di Microsoft Office Mix, guide attività, video e argomenti.
+-   **Accesso a diversi tipi di contenuto**: il sito consente di accedere rapidamente a diversi tipi di contenuto su Finance and Operations, ad esempio guide attività, video e argomenti.
 -   **Contenuto che supporta i processi aziendali**: il sito include contenuto incentrato su processi aziendali che sfrutta i vantaggi offerti dal Modellatore di processi aziendali in Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Ricerca in docs.microsoft.com
@@ -204,7 +204,7 @@ Nella tabella riportata di seguito sono elencati i nostri siti Web. Questi siti 
 
 
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 [Guida in linea di Finance and Operations (scheda informativa scaricabile)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

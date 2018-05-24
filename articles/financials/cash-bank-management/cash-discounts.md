@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Sconti di cassa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gli sconti di cassa vengono impostati e condivisi per la contabilità fornitori e la contabilità clienti.  Lo sconto di cassa disponibile può essere definito sulla fattura cliente o sulla fattura fornitore e verrà applicato se la fattura viene pagata entro la data dello sconto di cassa. 
 
-<a name="cash-discounts"></a>Sconti di cassa
---------------
+## <a name="cash-discounts"></a>Sconti di cassa
 
 Gli sconti di cassa per entrambi i clienti o fornitori possono essere creati nella pagina di sconti di cassa. Utilizzando il campo Codice sconto successivo è inoltre possibile definire una serie di sconti di cassa che si succedono via via che gli sconti di cassa precedenti scadono. Per ulteriori informazioni, vedere "Esempio: Serie di sconti di cassa" più avanti in questo argomento. Se la fattura, la transazione in Avere (un pagamento oppure una nota di accredito) o entrambe sono immesse una valuta diversa da quella di contabilizzazione della persona giuridica, lo sconto di cassa è calcolato usando il tasso di cambio alla data del pagamento o della nota di accredito. Se la fattura e il documento di credito vengono inseriti in persone giuridiche diverse, e se le valute di contabilizzazione per le persone giuridiche differiscono, il tasso di cambio viene preso dalla persona giuridica della fattura, alla data del documento di credito. Per ulteriori informazioni, vedere "Esempio: Tassi di cambio per sconti di cassa" più avanti in questo argomento.
-Ordine predefinito del conto principale dello sconto di cassa
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Ordine predefinito del conto principale dello sconto di cassa
 
 Se una fattura viene liquidata in tempo per ottenere uno sconto di cassa, questo verrà registrato automaticamente in un conto principale per sconti di cassa in base alle seguenti priorità di default:
 1.  Il conto principale specificato nel campo Conto sconto di cassa alternativo sulla pagina Liquida transazioni aperte del cliente o del fornitore.
@@ -65,15 +64,7 @@ La valuta di contabilizzazione della persona giuridica è l'EUR e per gli USD ve
 
 Una fattura del valore di 1000 USD con termini di sconto di cassa di 20G2% viene registrata il 15 febbraio. L'importo della fattura nella valuta di contabilizzazione è di 1100 EUR. Un pagamento di 980 USD viene liquidato con la fattura il 1 marzo. L'importo dello sconto di cassa è 20 USD. L'importo del pagamento nella valuta di contabilizzazione è di 784 EUR. L'importo dello sconto di cassa nella valuta di contabilizzazione viene calcolato usando il tasso di cambio al 1 marzo: 20 \* 80 / 100 = 16 EUR.
 
-| **Nota**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se l'opzione Calcola sconti di cassa per pagamenti parziali è selezionata nei parametri di contabilità clienti o nelle pagine di parametri di contabilità fornitori, viene utilizzato il tasso di cambio in vigore alla data di ciascun pagamento parziale. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Se l'opzione Calcola sconti di cassa per pagamenti parziali è selezionata nei parametri di contabilità clienti o nelle pagine di parametri di contabilità fornitori, viene utilizzato il tasso di cambio in vigore alla data di ciascun pagamento parziale. 
 
 

@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Integrazione della pianificazione del budget con altri moduli
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  I piani di budget possono essere generati tramite molteplici risorse differenti. Gli elementi di base del processo periodico sono uguali per tutte le risorse. 
 
@@ -68,7 +68,7 @@ L'opzione **Storico** nella scheda **Destinazione** consente di utilizzare le da
 
 Anche il campo **Aggrega totale per** nella parte superiore della pagina determina la data utilizzata. Questo campo somma gli importi e facoltativamente applica la data di validità al primo giorno dell'anno fiscale o del periodo fiscale. 
 
-Molti dei campi nella scheda <strong>Destinazione</strong> diventano modificabili o di sola lettura, a seconda dell'azione selezionata. Quando si cambia dalla creazione di un nuovo di piano di budget all'aggiornamento di un piano esistente, il campo <strong>Nome piano di budget</strong> non risulta disponibile e i campi correlati alla selezione di un piano esistente diventano disponibili. Sia nella scheda <strong>Destinazione</strong> che nella scheda <strong>Origine **, il campo **Contabilità generale</strong> è sempre non disponibile, perché il valore è determinato dal processo di pianificazione del budget selezionato. 
+Molti dei campi nella scheda <strong>Destinazione</strong> diventano modificabili o di sola lettura, a seconda dell'azione selezionata. Quando si cambia dalla creazione di un nuovo di piano di budget all'aggiornamento di un piano esistente, il campo **Nome piano di budget** non risulta disponibile e i campi correlati alla selezione di un piano esistente diventano disponibili. Nella scheda **Destinazione** e nella scheda **Origine**, il campo **Contabilità generale** non è mai disponibile, poiché il valore dipende dal processo di pianificazione del budget selezionato. 
 
 Il campo **Classe budget** consente di impostato le righe del piano di budget come transazioni di spesa o transazioni ricavi. In genere, le transazioni ricavi vengono accreditate in un conto CoGe e vengono quindi salvate come importi negativi. In genere, queste transazioni vengono visualizzate anche come importi negativi nel piano di budget. Tuttavia, aggiungendo la classe del budget come un campo del layout del piano, è possibile abilitare la visualizzazione dei ricavi come importi di positivi.
 

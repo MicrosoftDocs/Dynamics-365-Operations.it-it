@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Alternative di consegna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-I dipendenti che gestiscono gli ordini cliente possono utilizzare la pagina Alternative di consegna per trovare opzioni alternative l'evasione dell'ordine.
+I dipendenti che gestiscono gli ordini cliente possono utilizzare la pagina **Alternative di consegna** per trovare opzioni alternative l'evasione dell'ordine.
 
-In Microsoft Dynamics 365 for Operations versione 1611 (novembre 2016), i dipendenti che gestiscono gli ordini cliente possono utilizzare la pagina **Alternative di consegna** per verificare le opzioni alternative l'esecuzione dell'ordine. Il layout della pagina riprogettato offre una migliore panoramica di tutte le opzioni alternative. Consente inoltre ai dipendenti che gestiscono gli ordini di effettuare un'analisi oltre la società corrente per individuare opportunità di evasione. È ora possibile visualizzare sia le opportunità interaziendali che le opportunità di fornitori esterni. Tramite l'ordinamento delle opzioni per data di consegna, dipendenti che gestiscono gli ordini cliente possono visualizzare un elenco di intelligente di alternative di consegna. Inoltre, i parametri consentono di gestire in modo migliore le consegne suggerite. Poiché il tempo di trasporto può influire sulle date di consegna, gli addetti agli ordini cliente possono esaminare le varie opzioni di trasporto che i vettori offrono. Per ogni suggerimento vengono mostrate informazioni dettagliate, gli addetti agli ordini cliente possono quindi prendere decisioni informate direttamente nella pagina **Alternative di consegna**.
+Il layout della pagina **Alternative di consegna** offre una panoramica di tutte le opzioni alternative. Consente inoltre ai dipendenti che gestiscono gli ordini di effettuare un'analisi oltre la società corrente per individuare opportunità di evasione. È ora possibile visualizzare sia le opportunità interaziendali che le opportunità di fornitori esterni. Tramite l'ordinamento delle opzioni per data di consegna, dipendenti che gestiscono gli ordini cliente possono visualizzare un elenco di intelligente di alternative di consegna. Inoltre, i parametri consentono di gestire in modo migliore le consegne suggerite. Poiché il tempo di trasporto può influire sulle date di consegna, gli addetti agli ordini cliente possono esaminare le varie opzioni di trasporto che i vettori offrono. Per ogni suggerimento vengono mostrate informazioni dettagliate, gli addetti agli ordini cliente possono quindi prendere decisioni informate direttamente nella pagina **Alternative di consegna**.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Aprire la pagina di Alternative di consegna
-È possibile aprire la pagina **Alternative di** **consegna** della riga ordine cliente.
+È possibile aprire la pagina **Alternative di consegna** della riga ordine cliente.
 
 1.  Fare clic su **Prodotti e fornitura** &gt; **Alternative di consegna**.
 2.  Fare clic su **Dettagli riga** &gt; **Consegna** &gt; **Alternative di consegna**.
@@ -146,7 +146,7 @@ Le informazioni contenute in questa scheda sono correlate alla riga alternativa 
 
 Questa scheda evidenzia l'impatto dell'alternativa di consegna selezionata. Se si fa clic su **OK**, la riga di vendita viene aggiornata con i valori evidenziati nelle colonne SELEZIONATE. Si noti che, se la quantità dell'alternativa di consegna selezionata è inferiore alla quantità delle righe di vendita, viene creata una programmazione consegna e la riga ordine viene divisa in due righe: una riga per la quantità selezionata e una riga per la quantità rimanente. È inoltre possibile aggiornare la riga commerciale in modo che corrisponda alle righe di programmazione che influiscono sulla valutazione.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Promesse ordine](delivery-dates-available-promise-calculations.md)

@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>Configurare i layout schermo per POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze si Microsoft Dynamics 365 for Retail POS.
 
@@ -91,10 +91,10 @@ Ogni dimensione del layout in un layout dello schermo deve essere configurata me
 
 **Prodotti consigliati**: se configurato per l'ambiente, il controllo prodotti consigliati visualizza suggerimenti sul prodotto basati su Machine Learning. Il controllo prodotti consigliati è disponibile solo per i layout completi Dynamics 365 for Retail versione 1611. **Controllo personalizzato** il controllo personalizzato agisce come segnaposto nel layout dello schermo e consente agli utenti di prenotare lo spazio per contenuto personalizzato. Controllo personalizzato è disponibile solo per i layout completi.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Installare lo strumento di progettazione layout di Retail POS](install-pos-layout-designer.md)
+[Installare lo strumento di progettazione layout Retail POS](install-pos-layout-designer.md)
 
 
 
