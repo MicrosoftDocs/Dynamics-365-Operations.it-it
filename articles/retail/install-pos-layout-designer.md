@@ -20,16 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8fdebf692bd3cd8500274cc73ca5b0591dba4140
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Installare lo strumento di progettazione layout di Retail POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 È possibile utilizzare lo strumento di progettazione con un clic per progettare layout di Retail Modern POS (MPOS) e POS cloud diversi, con orientamento orizzontale o verticale, per punti vendita, registratori di cassa, cassieri e responsabili.
 
@@ -51,7 +51,7 @@ L'interfaccia di progettazione grafica per MPOS o POS cloud viene controllata tr
 
 **Problema noto:** lo strumento di progettazione attualmente non funziona nei browser Google Chrome e Mozilla Firefox Stiamo lavorando per risolvere questo problema.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Configurare, scaricare, installare e attivare Retail Modern POS](retail-modern-pos-device-activation.md)

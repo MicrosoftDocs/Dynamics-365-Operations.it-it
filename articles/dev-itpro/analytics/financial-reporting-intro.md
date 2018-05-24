@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4b70f1aee6b0b55a41dbfd33fcd1216579bb78c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 54a3409e7bd0f1c704cf9f7dd1d860100ec83d7f
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-reporting-for-finance-and-operations"></a>Creazione di report finanziari per Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 I report finanziari per Finance and Operations consentono ai professionisti aziendali e finanziari di creare, gestire, distribuire e visualizzare i rendiconti finanziari. Vanno oltre i tradizionali vincoli di reporting e aiutano a progettare in modo efficiente diversi tipi di report.
 
@@ -97,7 +97,7 @@ I seguenti componenti dei report finanziari rendono facile creare, visualizzare 
 </tbody>
 </table>
 
-## <a name="see-also"></a>Vedere anche
+## <a name="additional-resources"></a>Risorse aggiuntive
 [Generare un report finanziario](generate-financial-report.md)
 
 

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: it-it
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -230,7 +230,47 @@ L'integrazione dell'ordine di lavoro richiede l'impostazione dell'origine vendit
 6. Impostare il campo **Tipo di origine vendite** su **Integrazione ordine di lavoro**.
 7. Selezionare **Salva**.
 
-### <a name="template-mapping-in-data-integration"></a>Mapping dei modelli in Integrazione dati
 
-(Presto disponibile)
+### <a name="setup-in-data-integration"></a>Impostazione in Integrazione dati
+
+Assicurarsi che **Chiave di integrazione** esiste per **msdyn_workorders**
+1. Andare a Integrazione dati
+2. Selezionare la scheda **Insieme di connessioneµµµ**
+3. Selezionare l'insieme di connessione utilizzato per Sincronizzazione ordine di lavoroµµµ
+4. Selezionare la scheda **Chiave di integrazione**
+5. Trovare msdyn_workorders e verificare che la chiave **msdyn_name (Numero ordine di lavoro)** è stata aggiunta. Se non è visualizzata, aggiungerla facendo clic su **Aggiungi chiave**µµµ e su **Salva** nella parte superiore della pagina
+
+## <a name="template-mapping-in-data-integration"></a>Mapping dei modelli in Integrazione dati
+
+Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dati.
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderHeader
+
+Filtro: (msdyn_systemstatus ne 690970005) e (msdyn_systemstatus ne 690970000) e (msdynce_hasexternallymaintainedproductsonly eq true)
+
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderServiceLineEstimate
+
+Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e (msdyn_linestatus eq 690970000) e (msdynce_headersystemstatus ne 690970004)
+
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderServiceLineUsed
+
+Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004))
+
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderProductLineEstimate
+
+Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e (msdyn_linestatus eq 690970000) e (msdynce_headersystemstatus ne 690970004) e (msdyn_allocated eq true)
+
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderProductLineUsed
+
+Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004) o (msdyn_allocated ne true))
+
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 

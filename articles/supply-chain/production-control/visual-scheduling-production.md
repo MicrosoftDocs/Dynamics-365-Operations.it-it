@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>Diagramma di Gantt per la programmazione dei processi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Il diagramma di Gantt è progettato per mettere i pianificatori di produzione nelle condizioni di monitorare e ottimizzare il piano di produzione. Il diagramma di Gantt rende il flusso delle operazioni trasparente e semplifica la rettifica della programmazione della produzione, prendendo nel contempo in considerazione le carenze di risorse o materiale. In questo modo i pianificatori usano in modo ottimale le risorse disponibili, riducono il lavoro in corso e ottimizzano i tempi di elaborazione degli ordini di produzione.
 
@@ -156,7 +156,7 @@ Il diagramma di Gantt può essere aperto nelle pagine seguenti.
 |           <strong>Processi da completare</strong> (Elenco nell'area di lavoro <strong>Gestione area di produzione</strong>)            |                                                                                               Nell'area di lavoro <strong>Elenco dei processi da completare in Gestione area di produzione</strong> vengono visualizzati i processi di produzione e gli ordini batch in corso sulle risorse selezionate per l'area di lavoro. Scegliendo la voce di menu <strong>Diagramma di Gantt</strong> è possibile aprire il diagramma di Gantt, nel quale verranno caricati tutti i processi selezionati nell'elenco.                                                                                               |
 | <strong>Ordini di produzione da rilasciare</strong> (Aperto dall'area di lavoro <strong>Gestione del piano di produzione</strong> ) |                                                                                                                                         La pagina degli ordini di produzione da rilasciare viene aperta dall'area di lavoro <strong>Gestione del piano di produzione</strong>. In questa pagina viene visualizzata la versione in sospeso degli ordini batch e di produzione programmati. In questa pagina è possibile aprire il diagramma di Gantt per gli ordini di produzione selezionati.                                                                                                                                          |
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="additional-resources"></a>Risorse aggiuntive  
 [Programmazione visiva con il diagramma di Gantt per ordini batch e di produzione (video)](https://youtu.be/BtbuShkGj4I)
 
 [Programmazione visiva per la produzione (script demo)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

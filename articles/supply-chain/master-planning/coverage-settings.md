@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coverage-settings"></a>Impostazioni copertura
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nella programmazione generale vengono utilizzate impostazioni di copertura per calcolare le richieste di articoli. 
 
@@ -45,11 +45,11 @@ Nella programmazione generale vengono utilizzate impostazioni di copertura per c
 
 <!-- -->
 
-- Specificare impostazioni di copertura per un gruppo di dimensioni. Fare clic su <strong>Gestione informazioni sul prodotto &gt; Comune &gt; Prodotti rilasciati</strong>. Nella pagina <strong>Dettagli prodotto rilasciato**, nella scheda **Generale</strong>, nel gruppo <strong>Amministrazione</strong> fare clic sul collegamento <strong>Gruppo di dimensioni di immagazzinamento</strong>. Nella pagina <strong>Gruppo di dimensioni di immagazzinamento</strong> selezionare il campo <strong>Piano di copertura della dimensione</strong> per creare le impostazioni di copertura per una dimensione nel gruppo di dimensioni di immagazzinamento. Tutte le dimensioni prodotto, ad esempio configurazione, colore, dimensioni, stile, devono avere il campo <strong>Piano di copertura per dimensione</strong> selezionato.
+- Specificare impostazioni di copertura per un gruppo di dimensioni. Fare clic su **Gestione informazioni sul prodotto &gt; Comune &gt; Prodotti rilasciati**. Nella pagina **Dettagli prodotto rilasciato** , nella scheda **Generale**, nel gruppo **Amministrazione** fare clic sul collegamento **Gruppo di dimensioni di immagazzinamento**. Nella pagina **Gruppo di dimensioni di immagazzinamento** selezionare il campo **Piano di copertura della dimensione** per creare le impostazioni di copertura per una dimensione nel gruppo di dimensioni di immagazzinamento. Tutte le dimensioni prodotto, ad esempio configurazione, colore, dimensioni, stile, devono avere il campo **Piano di copertura per dimensione** selezionato.
 
 
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Piani generali](master-plans.md)

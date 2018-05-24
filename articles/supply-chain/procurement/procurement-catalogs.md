@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f51fb41e19a47a9db02166de91b9e027154d6a7d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d667f2abbc7bd00d46f40178b9f6e9d21c6f79f3
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-catalogs"></a>Cataloghi di approvvigionamento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo descrive, in modo generale, in che modo i professionisti degli acquisti possono impostare e gestire i cataloghi di approvvigionamento. I cataloghi di approvvigionamento definiscono gli articoli e i servizi che i dipendenti della società possono ordinare per uso interno.
 
@@ -70,7 +70,7 @@ Gli aggiornamenti vengono pubblicati automaticamente o manualmente, a seconda de
 -   **Entrambi**: se il catalogo include categorie di prodotti con un tipo di aggiornamento predefinito **Statico**, deve essere aggiornato manualmente quando vengono aggiornate queste categorie. Se il catalogo include categorie di prodotti con un aggiornamento predefinito di tipo **Dinamico**, viene aggiornato automaticamente ogni volta che viene modificato.
 
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Impostare una gerarchia di categorie di approvvigionamento (guida attività)](tasks/set-up-procurement-category-hierarchy.md)

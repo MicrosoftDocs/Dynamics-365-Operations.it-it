@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7cc6ba50b8df54eadc9a23990a58d1d37365cb6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>Panoramica sul controllo costi 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 L'area di lavoro **Controllo costi** rappresenta un punto centrale in cui i manager responsabili del controllo di un oggetto di costo o di un set di oggetti di costo in una o più dimensioni (ad esempio centri di costo e gruppi di prodotti) possono accedere ai report. I report nell'area di lavoro vengono gestiti dai contabili, in modo che il layout e i dati utilizzati per il reporting possano essere coerenti nell'intera organizzazione.
 
@@ -154,7 +154,7 @@ Nel seguente esempio, la base di allocazione è di tipo **Base di allocazione fo
 
 ![Calcoli per oggetto di costo](./media/cost-entries-allocation-base.png)
 
-Vedere anche 
+Risorse aggiuntive 
 
 [Definire i diritti di accesso per i controller oggetto di costo](access-rights-cost-object-controller.md)
 

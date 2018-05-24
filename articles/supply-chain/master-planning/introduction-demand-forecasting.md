@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
 ms.contentlocale: it-it
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-overview"></a>Cenni preliminari sulla previsione della domanda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La previsione della domanda viene utilizzata per prevedere la domanda indipendente da ordini cliente e la domanda dipendente in qualsiasi punto di disaccoppiamento per gli ordini cliente. Le regole avanzate di riduzione della previsione della domanda forniscono una soluzione ideale per la personalizzazione in massa.
 
@@ -53,7 +53,7 @@ Nella previsione della domanda sono implementati tre temi principali:
     -   È possibile scaricare gli esperimenti di previsione della domanda di Finance and Operations, modificarli in base ai requisiti aziendali, pubblicarli come servizio Web in Azure e utilizzarli per generare previsioni della domanda. Gli esperimenti sono disponibili per il download se si dispone di una sottoscrizione di Finance and Operations destinata a un responsabile di pianificazione come utente di livello di aziendale.
     -   È possibile scaricare uno degli esperimenti di previsione della domanda attualmente disponibili dalla [raccolta di analisi dei dati Cortana](https://gallery.cortanaanalytics.com/). Mentre gli esperimenti di previsione della domanda di Finance and Operations vengono automaticamente integrati in Finance and Operations, l'integrazione degli esperimenti scaricati dalla [raccolta di analisi dei dati di Cortana](https://gallery.cortanaanalytics.com/) deve essere gestita dai clienti e dai partner. Di conseguenza, gli esperimenti della [raccolta di analisi dei dati di Cortana](https://gallery.cortanaanalytics.com/) non risultano immediati da utilizzare come gli esperimenti di previsione della domanda di Finance and Operations. È necessario modificare il codice degli esperimenti in modo che utilizzino l'API di Finance and Operations.
     -   È possibile creare esperimenti personalizzati Microsoft Azure Machine Learning Studio, pubblicarli come servizi in Azure e utilizzarli per generare le previsioni della domanda.
-    -   Se non sono richieste prestazioni elevate, o l'elaborazione di una grade quantità di dati, è possibile utilizzare la versione di prova gratuita di Machine Learning. Si consiglia di iniziare sempre da questo livello, in particolare durante le fasi di test e implementazione. Se sono richieste prestazioni elevate e spazio di archiviazione aggiuntivo, è possibile utilizzare il livello standard di Machine Learning. Questo livello richiede una sottoscrizione di Azure e comporta costi aggiuntivi. Per dettagli sui prezzi di Machine Learning, vedere <http://aka.ms/machine-learning-price-info>.
+    -   Se non sono richieste prestazioni elevate, o l'elaborazione di una grade quantità di dati, è possibile utilizzare la versione di prova gratuita di Machine Learning. Si consiglia di iniziare sempre da questo livello, in particolare durante le fasi di test e implementazione. Se sono richieste prestazioni elevate e spazio di archiviazione aggiuntivo, è possibile utilizzare il livello standard di Machine Learning. Questo livello richiede una sottoscrizione di Azure e comporta costi aggiuntivi. Per informazioni dettagliate sui prezzi di Machine Learning, vedere <http://aka.ms/machine-learning-price-info>.
 -   **Riduzione della previsione in qualsiasi punto di disaccoppiamento**: la previsione della domanda in Finance and Operations è basata su questa funzionalità, che consente di prevedere la domanda dipendente e indipendente da qualsiasi punto di disaccoppiamento.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Flusso di base nella previsione della domanda
@@ -72,7 +72,7 @@ Le previsioni, i dati storici e tutte le modifiche effettuate nelle previsioni d
 ## <a name="limitations"></a>Limiti
 La previsione della domanda in Finance and Operations è uno strumento che consente ai clienti del settore manifatturiero di creare processi di previsione. Questo strumento offre le funzionalità di base di una soluzione di previsione della domanda ed è progettato in modo che possa essere facilmente esteso. La previsione della domanda potrebbe non essere la soluzione migliore per i clienti di settori come la vendita al dettaglio, la vendita all'ingrosso, l'immagazzinamento, il trasporto o altri servizi professionali.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Impostazione della previsione della domanda](demand-forecasting-setup.md)

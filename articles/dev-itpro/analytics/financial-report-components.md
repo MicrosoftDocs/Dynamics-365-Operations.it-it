@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599135eebfcffdedaaadec86beb214c5c04cbaf
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-report-components"></a>Componenti del report finanziario
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari. Tali blocchi predefiniti includono le definizioni di riga, di colonna e di albero gerarchico. L'articolo descrive come organizzare e bloccare i blocchi predefiniti. 
 
@@ -109,10 +109,10 @@ I blocchi predefiniti sono le definizioni di riga, le definizioni di colonna, le
 Quando si apre un blocco predefinito, gli utenti possono accedere al blocco predefinito solo in modalità di sola lettura. Talvolta un utente può dimenticare di chiudere un blocco predefinito o arrestare il sistema senza aver chiuso il blocco predefinito. Di conseguenza, il blocco predefinito risulta estratto e non può essere aperto da altri utenti. In queste situazioni, un amministratore dei report finanziari può utilizzare la finestra di dialogo **Elementi estratti** per archiviare i blocchi predefiniti lasciati in stato estratto dagli utenti. **Nota:** è necessario disporre del ruolo di amministratore per archiviare i blocchi predefiniti usando la finestra di dialogo **Elementi estratti**.
 1.  In Progettazione report, nel menu **Strumenti**, fare clic su **Elementi estratti**.
 2.  Nella finestra di dialogo **Elementi estratti** selezionare **Mostra elementi di tutti gli utenti**. L'elenco verrà aggiornato per visualizzare tutti i blocchi predefiniti estratti con l'indicazione degli utenti che hanno effettuato l'estrazione.
-3.  Selezionare un blocco predefinito e quindi fare clic su **Annulla estrazione**.
+3.  Selezionare un blocco predefinito, quindi scegliere **Annulla estrazione**.
 4.  Fare clic su **Sì** per archiviare il blocco predefinito.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
 

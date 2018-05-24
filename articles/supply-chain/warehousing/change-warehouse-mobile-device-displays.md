@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: it-it
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Impostazioni di visualizzazione per il dispositivo mobile del magazzino
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo viene descritto come impostare l'aspetto di visualizzazione del dispositivo mobile e come mappare i tasti di scelta rapida ai controlli, ad esempio i pulsanti. 
 
@@ -97,7 +97,7 @@ Ogni sottoespressione richiede una o due cifre per il giorno e il mese e una o q
 
 È possibile specificare più di un'espressione nello stesso file. Ogni espressione deve essere su una riga separata. La prima espressione che viene abbinata viene utilizzata per analizzare la data.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Configurazione di dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md)

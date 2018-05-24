@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>Visualizzare inserimenti nel giornale di registrazione e transazioni
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo illustrate le varie modalità in cui è possibile visualizzare gli inserimenti nel giornale di registrazione e le transazioni. 
 
@@ -54,9 +54,9 @@ Oltre ai report finanziari, è possibile utilizzare i seguenti report di contabi
 -   **Origine della transazione**: questo report di transazione mostra il conto per giornale di registrazione e per valuta di transazione, contabilizzazione e dichiarazione. In questo report viene inoltre visualizzata ogni riga del giornale di registrazione utilizzata come contropartita.
 
 
-## <a name="see-also"></a>Vedere anche
+## <a name="additional-resources"></a>Risorse aggiuntive
 - [Saldi dei conti della contabilità generale](general-ledger-account-balances.md) 
-- [Esplora origine contabilità](..\accounts-payable\accounting-source-explorer.md)
+- [Esplora origine contabilità](../accounts-payable/accounting-source-explorer.md)
 - [Creazione di report finanziari](financial-reporting-getting-started.md)
 - [Visualizzare le scritture contabili o le transazioni](tasks/view-journal-entries-or-transactions.md)
 

@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>Panoramica sulla conversione in costo standard
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce una panoramica del processo per impostare ed eseguire una conversione in costo standard. I passaggi elencati devono essere completati dopo il completamento dei prerequisiti per una conversione in costo standard. 
 
@@ -96,7 +96,7 @@ Il report **Rendiconto analisi scostamento** consente di analizzare lo scostamen
 -   Analizzare i movimenti di scorte retrodatati. Utilizzare il report **Valore inventario** per visualizzare i movimenti delle scorte retrodatati immessi dopo la conversione. La Data iniziale e la Data finale per il report devono corrispondere alla data di inizio della transizione e alla data di conversione, meno un giorno. I criteri di selezione del report devono dare come risultato gli articoli convertiti. Nel report sono visualizzati i movimenti delle scorte effettuati a costo standard durante il periodo di transizione.
 
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Prerequisiti per la conversione in costo standard](prerequisites-standard-cost-conversion.md)

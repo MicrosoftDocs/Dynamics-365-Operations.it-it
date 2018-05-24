@@ -3,7 +3,7 @@ title: Gestione dei prezzi di vendita al dettaglio in Retail
 description: Questo argomento descrive i concetti di creazione e gestione dei prezzi di vendita in Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita al dettaglio in Retail
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Questo argomento fornisce informazioni sul processo di creazione e gestione dei prezzi di vendita in Microsoft Dynamics 365 for Retail. Si concentra sui concetti coinvolti in questo processo e sugli effetti delle varie opzioni di configurazione per i prezzi di vendita.
 
@@ -198,32 +198,6 @@ Microsoft SQL Server Express viene spesso utilizzato per i database dei canali a
 Quando si impostano i prezzi di vendita in Microsoft Dynamics 365, non si specifica se il valore del prezzo è comprensivo o meno di imposte. Il valore è solo il prezzo. Tuttavia, l'impostazione **Prezzo comprensivo di IVA** nei canali di vendita al dettaglio consente di configurare i canali di vendita al dettaglio in modo che i prezzi siano o meno comprensivi di IVA. Questa impostazione viene configurata nel canale e può essere modificata anche in una singola società.
 
 Se si utilizzano sia tipi di prezzi comprensivi di imposte che non comprensivi di imposte, è molto importante configurare i prezzi correttamente, poiché l'importo totale che il cliente paga cambierà se il campo **Prezzo comprensivo di IVA** del canale è stato modificato.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>Effetto dell'impostazione Prezzo comprensivo di IVA sulle registrazioni finanziarie
-Tutti gli importi che vengono registrati nella contabilità generale per i conti di ricavi e sconti sono influenzati dall'impostazione **Prezzo comprensivo di IVA**. Nel seguente esempio viene illustrato come questa impostazione influenzi le registrazioni finanziarie.
-
-Nell'esempio sono illustrate le registrazioni solo di vendita, poiché l'impostazione **Prezzo comprensivo di IVA** non incide sulle registrazioni dei costi di magazzino.
-
-#### <a name="example"></a>Esempio
-Per questo esempio, gli importi di sconto vengono configurati in modo da essere registrati separatamente dai ricavi.
-
-Si vende un prodotto da $100 con un'aliquota del 10% e uno sconto del 5%. Vengono utilizzati i seguenti conti dei dati demo USRT:
-
-- **Ricavi:** 401100
-- **Sconto:** 403200
-- **Imposte:** 202100
-
-**Caso 1: non comprensivo di imposta (nota anche come IVA)**
-
-- **Ricavi:** $100
-- **Sconto:** $5
-- **Imposta:** $9,5 (= 10% di $95)
-
-**Caso 2: comprensivo di imposta (nota anche come imposta sul valore aggiunto \[IVA\])**
-
-- **Ricavi:** $90
-- **Sconto:** $4,5 (= 5% di $90)
-- **Imposta:** $10
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Differenze tra i prezzi di vendita al dettaglio e i prezzi non al dettaglio
 Un unico motore di determinazione del prezzo viene utilizzato per calcolare i prezzi al dettaglio in tutti i canali: Servizio clienti, Punto vendita al dettaglio e Punto vendita online. In questo modo è possibile consentire scenari commerciali unificati. 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membri di dimensione statistica e modelli provider misure statistiche
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una dimensione statistica e i relativi membri vengono utilizzati per registrare e monitorare le voci non monetarie nella contabilità industriale. I membri di dimensione statistica possono essere utilizzati per due scopi:
 
@@ -344,7 +344,7 @@ Se la base di allocazione del membro di dimensione predefinito di Elettricità �
 | CC002       | FI | 4,100.00  | (4,100 ÷ 21,550) × Importo  |
 | CC003       | TS | 15.000,00 | (15,000 ÷ 21,550) × Importo |
 
-## <a name="see-also"></a>Vedere anche
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Basi di allocazione](allocation-bases.md)
 

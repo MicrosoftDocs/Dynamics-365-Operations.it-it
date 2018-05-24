@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Modificare le celle di definizione riga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni. 
 
@@ -488,10 +488,10 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 1.  In Progettazione report aprire la definizione di riga, di colonna o di albero gerarchico da modificare.
 2.  Nel menu **Modifica**, fare clic su **Gestire set di valori di dimensione**.
 3.  Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, selezionare il tipo di dimensione.
-4.  Selezionare il set da eliminare e fare clic su **Elimina**. Fare clic su **Sì** per eliminare definitivamente il set di valori di dimensione.
+4.  Selezionare il set da eliminare, quindi fare clic su **Elimina**. Fare clic su **Sì** per eliminare definitivamente il set di valori di dimensione.
 
 
-## <a name="see-also"></a>Vedere anche
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
 

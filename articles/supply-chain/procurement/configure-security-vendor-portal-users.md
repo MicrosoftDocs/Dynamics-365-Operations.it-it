@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f79f686720d615da6996f854a9e4cc18f840337f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5819d21a91ac2a7c91f19fd6d80fd7b983411545
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-portal-user-security"></a>Sicurezza degli utenti del portale fornitori
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo viene illustrato come configurare la sicurezza dei fornitori esterni che utilizzano il portale fornitori. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
 
@@ -44,7 +44,7 @@ Prima di creare un account utente per una persona che utilizzerà il portale for
 
 Se la stessa persona richiede l'accesso al portale fornitori per più conti fornitori (magari per persone giuridiche diverse), ogni account utente di tale persona deve essere associato allo stesso contatto registrato. Il ruolo **Fornitore (esterno)** include tutte le funzionalità di base necessarie per utilizzare la funzionalità disponibile nel portale fornitori. Questa impostazione garantisce che l'interfaccia utente che l'utente esterno visualizza sia incentrata solo sullo scenario desiderato.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Collaborazione fornitore](collaborate-vendors-vendor-portal.md)

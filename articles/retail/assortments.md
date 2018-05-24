@@ -3,27 +3,28 @@ title: Gestione dell'assortimento
 description: In questo argomento vengono descritti i concetti di base della gestione dell'assortimento in Microsoft Dynamics 365 for Retail e vengono fornite considerazioni relative all'implementazione per il progetto.
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: it-it
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Gestione dell'assortimento
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Panoramica
 In Microsoft Dynamics 365 for Retail sono disponibili *assortimenti* che consentono di gestire la disponibilità di prodotto tramite i canali. Gli assortimenti determinano quali prodotti sono disponibili in specifici punti vendita e durante un periodo specifico.
@@ -35,25 +36,25 @@ La combinazione generale dei prodotti di un canale è determinata dagli assortim
 ### <a name="basic-assortment-setup"></a>Impostazione degli assortimenti di base
 Nel seguente esempio, un assortimento univoco è configurato per ogni punto vendita. In questo caso, solo il prodotto 1 è disponibile presso il punto vendita 1 e solo il prodotto 2 è disponibile presso il punto vendita 2.
 
-![Ciascun prodotto è disponibile presso un punto vendita](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Ciascun prodotto è disponibile presso un punto vendita")
+![Ciascun prodotto è disponibile in un punto vendita](./media/Managing-assortments-figure1.png)
 
 Per rendere disponibile il prodotto 2 presso il punto vendita 1, è possibile aggiungere il prodotto all'assortimento 1.
 
-![Prodotto 2 aggiunto all'assortimento 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "Prodotto 2 aggiunto all'assortimento 1")
+![Prodotto 2 aggiunto all'assortimento 1](./media/Managing-assortments-figure2.png)
 
 In alternativa, è possibile aggiungere il punto vendita 1 all'assortimento 2.
 
-![Punto vendita 1 aggiunto all'assortimento 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "Punto vendita 1 aggiunto all'assortimento 2")
+![Punto vendita 1 aggiunto all'assortimento 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Gerarchie organizzative
 Nelle situazioni in cui più canali condividono gli stessi assortimenti di prodotto, è possibile configurare gli assortimenti utilizzando la gerarchia organizzativa dell'assortimento di articoli al dettaglio. Quando i nodi di questa gerarchia vengono aggiunti, tutti i canali nel nodo e i relativi nodi figlio verranno inclusi.
 
-![Gerarchia organizzativa](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Gerarchia organizzativa")
+![Gerarchia organizzativa](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Categorie prodotti
 Analogamente, dal lato del prodotto, è possibile includere i gruppi di prodotti utilizzando le gerarchie di categorie di prodotti. È possibile configurare gli assortimenti includendo uno o più nodi di gerarchia di categorie. In questo caso, l'assortimento includerà tutti i prodotti nel nodo di categoria e nei relativi nodi figlio.
 
-![Categorie prodotti](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Categorie prodotti")
+![Categorie prodotti](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Categorie o prodotti esclusi
 Oltre a includere prodotti e categorie negli assortimenti, è possibile utilizzare l'opzione di esclusione per definire categorie o prodotti specifici da escludere dagli assortimenti. Nel seguente esempio, si desidera includere tutti i prodotti in una categoria specifica, ad eccezione del prodotto 2. In questo caso, non è necessario definire il prodotto in assortimento per prodotto o creare nodi di categoria aggiuntivi. È possibile invece solo includere la categoria, ma escludere il prodotto.
@@ -61,7 +62,7 @@ Oltre a includere prodotti e categorie negli assortimenti, è possibile utilizza
 > [!NOTE]
 > Se un prodotto viene incluso ed escluso in uno o più assortimenti per definizione, il prodotto verrà considerato sempre escluso.
 
-![Prodotto escluso](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Prodotto escluso")
+![Prodotti esclusi](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Prodotti rilasciati e globali
 Gli assortimenti vengono definiti a livello globale e possono contenere canali da più persone giuridiche. Anche i prodotti e le categorie inclusi in assortimenti vengono condivisi tra persone giuridiche. Tuttavia, un prodotto deve essere rilasciato per poter essere effettivamente venduto, ordinato, conteggiato o ricevuto nel canale (ad esempio, nel POS \[POS\]). Di conseguenza, anche se due punti vendita in persone giuridiche diverse possono suddividere un assortimento contenente gli stessi prodotti, i prodotti sono disponibili solo se sono stati rilasciati a tali persone giuridiche.

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>Impostazione della previsione della domanda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono descritte le attività di impostazione che è necessario eseguire per la preparazione delle previsioni della domanda.  
 
@@ -78,7 +78,7 @@ Per creare le previsioni della domanda, è possibile distribuire un servizio per
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Impostazioni per il servizio di Machine Learning della previsione della domanda di Finance and Operations
 Per visualizzare i parametri che possono essere configurati per il servizio di previsione della domanda di Finance and Operations, andare a **Pianificazione generale** &gt; **Impostazioni** &gt; **Previsione della domanda** &gt; **Previsione parametri di algoritmo**. La pagina **Previsione parametri di algoritmo** mostra i valori predefiniti dei parametri. È possibile sovrascrivere questi parametri nella pagina **Parametri di previsione della domanda**. Utilizzare la scheda **Generale** per sovrascrivere i parametri globalmente oppure utilizzare la scheda **Chiavi di allocazione articoli** per sovrascrivere la chiave di allocazione per chiave di allocazione articolo. I parametri che vengono sovrascritti per una chiave di allocazione articolo hanno effetto solo sulla previsione degli articoli associati alla chiave di allocazione articolo.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Introduzione alla previsione della domanda](introduction-demand-forecasting.md)

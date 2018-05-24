@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un'organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell'impegno, l'acquirente riceve prezzi e sconti speciali. 
 
@@ -91,7 +91,7 @@ Se si crea un ordine fornitore interaziendale che utilizza il contratto di acqui
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensioni finanziare nei contratti di acquisto
 È possibile copiare le dimensioni finanziarie in intestazioni documento o in singole righe di un contratto di acquisto. Se si modificano le dimensioni nell'intestazione del contratto o nella riga del contratto, la modifica non influisce sugli ordini rilasciati, ma verrà considerata in tutti i nuovi ordini.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Creare un contratto di acquisto (Guida attività)](tasks/create-purchase-agreement.md)

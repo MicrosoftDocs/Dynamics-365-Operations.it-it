@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a56e6ea0a8470f205b1c74379c887c0cac85a6b4
-ms.openlocfilehash: c290bcd4787144fb4dd4232c06d2fb9e1e67ca3e
+ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
+ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 
@@ -59,7 +59,7 @@ I prodotti approvati vengono aggiunti alla rappresentazione generale prodotto e 
 
 ## <a name="generate-a-catalog-import-file-template"></a>Generazione di un modello di file di importazione catalogo
 
-Il modello di file di importazione catalogo è un file XSD standard utilizzabile per creare un file di richiesta di gestione catalogo per i prodotti di un fornitore. È possibile utilizzare il file di richiesta di gestione catalogo per creare un nuovo catalogo oppure sostituire o modificare un catalogo esistente.
+Il modello di file di importazione catalogo è un file XSD utilizzabile per creare un file di richiesta di gestione catalogo per i prodotti di un fornitore. È possibile utilizzare il file di richiesta di gestione catalogo per creare un nuovo catalogo oppure sostituire o modificare un catalogo esistente.
 
 1.  Selezionare **Approvvigionamento** \> **Cataloghi** \> **Cataloghi fornitore** e fare doppio clic sul catalogo che si desidera utilizzare.
 

@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Registrare i numeri di serie nel processo di vendita
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 In questo argomento viene descritto come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
 
 Molte società desiderano acquisire numeri di serie solo per scopi di garanzia e assistenza per non dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino. In questi scenari, Microsoft Dynamics 365 for Finance and Operations consente di registrare i numeri di serie sui documenti di trasporto o sulle fatture quando i prodotti vengono venduti. Se in seguito i prodotti vengono resi, è quindi possibile tenere traccia di ogni prodotto in una fattura per determinare se è stato venduto e se gli obblighi di assistenza e garanzia sono validi.
-Esistono altri prerequisiti?
-----------------------------
 
 È necessario abilitare i numeri di serie per il processo di vendita selezionando l'opzione **Attiva in processo di vendita** nella pagina **Gruppi di dimensioni di tracciabilità**. In Microsoft Dynamics 365 for Finance and Operations si verificano quindi gli eventi seguenti:
 -   Nella scheda dettagli **Numeri di serie**, è selezionata l'opzione **Controllo numero di serie**. Se questa opzione è selezionata, è necessario registrare un numero di serie per ogni articolo sul documento di trasporto o sulla fattura.
@@ -71,8 +69,8 @@ No, non è possibile visualizzare gli articoli serializzati di cui si dispone po
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>È possibile registrare i numeri di serie per gli articoli a peso variabile?
 No, durante il processo di vendita non è possibile registrare i numeri di serie per gli articoli a peso variabile. Inoltre, se il prodotto è impostato come articolo a peso variabile, non è possibile assegnare il prodotto a un gruppo di dimensioni di tracciabilità impostato per l'utilizzo dei numeri di serie solo durante il processo di vendita.
-Posso registrare i numeri di serie presso i terminali Retail POS?
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Posso registrare i numeri di serie presso i terminali Retail POS?
 
 Sì, al terminale Retail POS verrà richiesto all'utente di immettere un numero di serie quando l'utente vende un articolo assegnato a un gruppo di dimensioni di tracciabilità impostato per l'utilizzo dei numeri di serie solo durante il processo di vendita.
 

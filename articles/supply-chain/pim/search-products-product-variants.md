@@ -1,6 +1,6 @@
 ---
 title: Ricerca di prodotti e varianti prodotto durante la registrazione ordine
-description: "Utilizzare il campo <strong>Numero articolo </strong>per cercare i prodotti e le varianti prodotto quando si crea manualmente una riga ordine cliente o una riga ordine fornitore.  In questo modo è possibile trovare rapidamente le varianti prodotto quando si dispone solo della stringa di configurazione o una delle dimensioni prodotto."
+description: "Utilizzare il campo **Numero articolo** per cercare i prodotti e le varianti prodotto quando si crea manualmente una riga ordine cliente o una riga ordine fornitore. In questo modo è possibile trovare rapidamente le varianti prodotto quando si dispone solo della stringa di configurazione o una delle dimensioni prodotto."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,20 +20,20 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6a45d89ba20994c06a77c646fa5099fa34b3b2e
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Ricerca di prodotti e varianti prodotto durante la registrazione ordine
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
-Utilizzare il campo <strong>Numero articolo </strong>per cercare i prodotti e le varianti prodotto quando si crea manualmente una riga ordine cliente o una riga ordine fornitore.  In questo modo è possibile trovare rapidamente le varianti prodotto quando si dispone solo della stringa di configurazione o una delle dimensioni prodotto.
+Utilizzare il campo **Numero articolo** per cercare i prodotti e le varianti prodotto quando si crea manualmente una riga ordine cliente o una riga ordine fornitore.  In questo modo è possibile trovare rapidamente le varianti prodotto quando si dispone solo della stringa di configurazione o una delle dimensioni prodotto.
 
 Talvolta può essere difficile gestire l'elevata di disponibilità di prodotti, in particolare quando si vende una serie di prodotti simili e si tenta di ricordare numeri di articolo o nomi di ricerca prodotto per trovare il prodotto giusto da inserire in un ordine cliente. È possibile usare il campo **Numero articolo** in una riga ordine cliente o una riga ordine fornitore come campo di ricerca. È possibile immettere qualsiasi parte di un nome prodotto, un numero, o di una dimensione e ottenere una ricerca che mostra tutti gli articoli che corrispondono al termine di ricerca.
 
@@ -47,7 +47,7 @@ Durante la ricerca dei prodotti o varianti prodotto, è importante comprendere c
 
 ### <a name="examples"></a>Esempi
 
-Negli esempi seguenti vengono utilizzati prodotti e varianti prodotto per illustrare come la ricerca viene gestita in vari scenari. **Prerequisito**: In **Vendite e marketing &gt; Impostazione &gt; Ricerca &gt; Parametri ricerca** &gt; **Tipo di ricerca**, selezionare l'opzione **Corrispondenza completa**.
+Negli esempi seguenti vengono utilizzati prodotti e varianti prodotto per illustrare come la ricerca viene gestita in vari scenari. **Prerequisito:** In **Vendite e marketing &gt; Impostazione &gt; Ricerca &gt; Parametri ricerca &gt; Tipo di ricerca** selezionare l'opzione **Corrispondenza completa**.
 
 | Tipo di prodotto     | Nome prodotto    | Numero prodotto visualizzato | Numero articolo | Configurazione |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -72,7 +72,7 @@ Esempi di identificatori e dimensioni di prodotti e varianti prodotto in base a 
 
 Andare alla pagina **Vendite e marketing &gt; Impostazioni &gt; Ricerca &gt; Criteri di ricerca**. La pagina **Criteri di ricerca** consente di definire i criteri per il cliente, il prospect e la ricerca di prodotti. Assicurarsi di filtrare la pagina utilizzando i criteri di ricerca del prodotto. Questa operazione può essere eseguita passando a **Prodotto** nel menu della pagina.  
 
-Per aggiungere il numero prodotto visualizzato ai criteri di ricerca, fare clic su <strong>Nuovo</strong> nel menu della pagina Questo consentirà di aggiungere un nuovo record nella griglia <strong>Criteri di ricerca</strong>. Aprire la colonna di ricerca <strong>Nome campo</strong> e scegliere <strong>DisplayProductNumber</strong>. Per aggiungere la configurazione del prodotto ai criteri di ricerca, creare un nuovo record nella griglia <strong>Criteri di ricerca</strong> e scegliere configId nella colonna <strong>Nome campo</strong>. Nello stesso modo, creare un record con <strong>Nome campo</strong> <strong>InventColorId</strong> per la dimensione colore, <strong>InventSizeId</strong> per la dimensione di tipo dimensione e <strong>InventStyleId</strong> per la dimensione stile.
+Per aggiungere il numero prodotto visualizzato ai criteri di ricerca, fare clic su **Nuovo** nel menu della pagina Questo consentirà di aggiungere un nuovo record nella griglia **Criteri di ricerca**. Aprire la colonna di ricerca **Nome campo** e scegliere **DisplayProductNumber**. Per aggiungere la configurazione del prodotto ai criteri di ricerca, creare un nuovo record nella griglia **Criteri di ricerca** e scegliere **configId** nella colonna **Nome campo**. Nello stesso modo, creare un record con **Nome campo** **InventColorId** per la dimensione colore, **InventSizeId** per la dimensione di tipo dimensione e **InventStyleId** per la dimensione stile.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Passaggio 2: Popolare la tabella di database utilizzata per la ricerca di prodotti
 

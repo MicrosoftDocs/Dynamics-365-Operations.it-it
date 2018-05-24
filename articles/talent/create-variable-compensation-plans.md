@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Creare piani di retribuzione variabile
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La retribuzione variabile rappresenta una retribuzione non regolare del dipendente, ad esempio premio o premi in azioni. Questo articolo descrive i componenti che devono essere impostati per utilizzare una retribuzione variabile e per iscrivere un dipendente in un piano di compensazione variabile.
 
@@ -100,7 +100,7 @@ Assicurarsi che il campo **Data di validità** sia impostato correttamente. Se i
 
 **Sostituzioni organizzative** vengono utilizzate per basare il premio del dipendente sulle prestazioni di uno o più reparti. La percentuale allocata tra reparti deve essere pari al 100%. La singola prestazioni di un dipendente viene anche considerata. Queste impostazioni vengono utilizzate solo se **Retribuzione basata sulla produttività** è selezionata quando viene eseguito il processo retributivo.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Piani di retribuzione](compensation-plans.md)

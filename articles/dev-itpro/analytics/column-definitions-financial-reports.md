@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: it-it
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questo articolo vengono fornite informazioni sulle definizioni di colonna. Una definizione di colonna è un componente di report, o blocco predefinito, che specifica il contenuto delle colonne in un report. Al pari delle definizioni di riga, le definizioni delle colonne di base possono essere utilizzate nei report.
 
@@ -583,7 +583,7 @@ Un calcolo complesso può contenere qualsiasi combinazione di riferimenti a cell
 
 È possibile dividere l'importo in una colonna per un numero di periodi specificato. Ad esempio, la formula **B/Periodi** divide il valore in colonna B per il numero di periodi in colonna B. Se il calcolo comprende più colonne, specificare il numero di periodi da utilizzare nel calcolo. Ad esempio, la formula **(B+C)/Periodi** aggiunge gli importi in colonna B e in colonna C quindi divide il risultato per il valore dei periodi.
 
-<a name="see-also"></a>Vedere anche
+<a name="additional-resources"></a>Risorse aggiuntive
 --------
 
 [Definizioni di riga nei report finanziari](row-definitions-financial-reporting.md)

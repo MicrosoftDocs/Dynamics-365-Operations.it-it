@@ -16,30 +16,28 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="data-validation-workspace"></a>Area di lavoro di convalida dei dati
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questo argomento fornisce una panoramica dell'area di lavoro **Elenco di controllo di convalida dati** e della configurazione collegata.
-
-## <a name="data-validation-checklist-workspace"></a>Area di lavoro Elenco di controllo di convalida dati
 
 L'area di lavoro **Elenco di controllo di convalida dati** consente di tenere traccia dei processi di convalida dei dati tra società, aree e persone. L'elenco di controllo può essere utilizzato durante una nuova implementazione, dopo un aggiornamento o dopo una migrazione. A seconda della visualizzazione dell'area di lavoro **Elenco di controllo di convalida dati**, vedrete tutte le attività e stati di un progetto di convalida dati o solo le attività assegnate all'utente.
 
 È innanzitutto necessario selezionare un progetto di convalida dati nella parte superiore dell'area di lavoro. Tutti i dati visualizzati nell'area di lavoro vengono quindi filtrati in base al progetto di convalida dati selezionato.
 
-### <a name="summary-tiles"></a>Sezioni Riepilogo
+## <a name="summary-tiles"></a>Sezioni Riepilogo
 
 Le sezioni **Riepilogo** forniscono una panoramica del processo e includono indicatori che consentono di tenere traccia del processo di convalida dati. È possibile visualizzare tutte le attività restanti, le attività completate, le attività in corso e le attività non iniziate per il processo. Questa informazione viene utilizzata per tutte le società incluse nel progetto di convalida dati selezionato.
 
-### <a name="tasks-and-status-section"></a>Sezione Attività e stati
+## <a name="tasks-and-status-section"></a>Sezione Attività e stati
 
 Nella sezione **Attività e stato**, lo stato del progetto di convalida dati in generale viene visualizzato in diversi modi: stato in base alla persona giuridica, all'area e all'elenco attività. È inoltre possibile selezionare il filtro per visualizzare lo stato per una società specifica. Ciascuna scheda dello stato fornisce una scomposizione sia per percentuale che è stata completata sia per numero di attività rimanenti.
 
@@ -52,11 +50,11 @@ Il nome dell'attività è un collegamento ipertestuale alla pagina di Microsoft 
 
 L'opzione **Completato da** verrà immessa automaticamente dopo che l'attività è stata completata con il nome del lavoratore che ha completato l'attività. Quando un'attività è contrassegnata come completata, il campo **Data di completamento** viene aggiornato automaticamente alla data corrente e all'ora corrente.
 
-### <a name="configure-data-validation-project-page"></a>Pagina Configura progetto di convalida dati
+## <a name="configure-data-validation-project-page"></a>Pagina Configura progetto di convalida dati
 
 Per poter utilizzare l'area di lavoro **Elenco di controllo di convalida dati**, è necessario configurare il processo mediante la pagina **Configura progetto di convalida dati**. (Fare clic su **Aree di lavoro** \> **Elenco di controllo di convalida dati** \> **Configura progetto di convalida dati**).
 
-### <a name="task-areas"></a>Aree attività
+## <a name="task-areas"></a>Aree attività
 
 Le aree di attività si utilizzano per raggruppare attività di convalida dati in aree logiche di proprietà all'interno dell'organizzazione. Ad esempio, i gruppi Contabilità fornitori, Contabilità clienti, o Contabilità generale possono essere utilizzati come aree di attività.
 
