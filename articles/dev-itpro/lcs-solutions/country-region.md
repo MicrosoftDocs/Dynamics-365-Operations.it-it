@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
+ms.sourcegitcommit: 4c61cb81368251540e0015e155b1cc932bf7b948
+ms.openlocfilehash: 6360bbc8e5abd94cfd1c2853bc384598047eec39
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/16/2018
 
 ---
 
@@ -106,22 +106,9 @@ Nelle seguenti sezioni sono elencate le risorse per paese/regione.
 -   [Pagamenti imposte](../../financials/localizations/latam-bra-tax-payments.md)
 -   [Imposte](../../financials/localizations/latam-bra-calculate-taxes.md)
 
-### <a name="china"></a>Cina
--   [Confronto di distinte base](../../financials/localizations/apac-chn-bom-comparison.md)
--   [Giustificativi cinesi](../../financials/localizations/apac-chn-vouchers.md)
--   [Configurare l'integrazione fiscale](../../financials/localizations/apac-chn-tax-integration.md)
-    -   [Domande frequenti sulle fatture cliente IVA](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [Cespiti dei metodi di ammortamento ](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
--   [Importare l'entità di dati fiscali Golden Tax cinese](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
--   [Modello di costo medio mensile](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
--   [Registrare i conti principali di magazzino in base al sito](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [Visualizzare gli importi in Dare e in Avere dei conti CoGe](../../financials/localizations/apac-chn-negative-debits-credits.md)
-
+### <a name="chinafinancialslocalizationschinamd"></a>[Cina](../../financials/localizations/china.md)
 ### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Repubblica Ceca](../../financials/localizations/czech-republic.md)
-
-### <a name="estonia"></a>Estonia
--   [Dettagli della dichiarazione IVA per l'Estonia](../../financials/localizations/emea-est-vat-statement-details.md)
--   [Dismissione dei cespiti](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+### <a name="estoniafinancialslocalizationsestoniamd"></a>[Estonia](../../financials/localizations/estonia.md)
 
 ### <a name="europe"></a>Europa
 - [Titolari di anticipi](../../financials/localizations/emea-advance-holders.md)
