@@ -3,7 +3,7 @@ title: "Novità o modifiche"
 description: "Questa pagina indica gli argomenti sulle nuove funzionalità nelle ultime versioni di Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 03/25/2018
+ms.date: 05/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f49c5157294f615b134c9ea0f00b93f70d59f527
+ms.sourcegitcommit: aa5eab6dbf2cc604239cac199817ead6bef6f3de
+ms.openlocfilehash: 8a6ea271270fd854110a8548ab92cc4ef975ad0a
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
 
 ---
 
@@ -128,13 +128,13 @@ Per informazioni su come eseguire l'aggiornamento all'ultima versione, vedere [P
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 15 della piattaforma</td>
-<td>7.0.4839</td>
-<td>L'update 15 della piattaforma è una versione di destinazione, di conseguenza sarà disponibile per tutti gli utenti nel giugno 2018.</td>
+<td>7.0.4841</td>
+<td>2018 marzo</td>
 <td><a href="whats-new-platform-update-15.md">Novità o modifiche in Dynamics 365 for Finance and Operations, Enterprise edition, aggiornamento 15 della piattaforma (marzo 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 12 della piattaforma</td>
-<td>7.0.4841</td>
+<td>7.0.4709</td>
 <td>novembre 2017</td>
 <td><a href="whats-new-platform-update-12.md">Novità o modifiche in Dynamics 365 for Finance and Operations, Enterprise edition, aggiornamento piattaforma 12 (novembre 2017)</a></td>
 <tbody><tr class="odd">

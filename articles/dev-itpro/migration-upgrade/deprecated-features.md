@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
+ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
+ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
 ms.contentlocale: it-it
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/30/2018
 
 ---
 
@@ -162,6 +162,18 @@ A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare con
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition di luglio 2017 con aggiornamento della piattaforma 8
+
+### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversione di valuta per le valute di contabilizzazione e di dichiarazione
+
+La conversione valutaria per le valute di contabilizzazione e di dichiarazione è stata introdotta quando è stato introdotto l'euro.
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Utilizzo limitato e aggiunta della funzionalità di copia di persona giuridica come sostituzione.      |
+| **Sostituita da un'altra funzionalità?**   | No, ma le funzionalità di copia della persona giuridica e delle configurazioni sono state aggiunte per facilitare lo spostamento di una società i cui requisiti fondamentali cambiano. |
+| **Aree del prodotto interessate**         | Gestione finanziaria     |
+| **Stato**                         | Deprecato: la data di eliminazione non è stata impostata per questa funzionalità.   |
+
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portale dei dispositivi mobili del magazzino
 

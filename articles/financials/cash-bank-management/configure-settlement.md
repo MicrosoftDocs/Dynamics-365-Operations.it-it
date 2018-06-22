@@ -1,16 +1,16 @@
 ---
 title: Configurare una liquidazione
-description: "Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo articolo descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti."
+description: "Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo argomento descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ed520ce3a67fab81da24b36b042152f530d75dd
+ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
+ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo articolo descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti. 
+Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo argomento descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti. 
 
 I seguenti parametri influiscono su come vengono elaborate le liquidazioni in Microsoft Dynamics 365 for Finance and Operations. La liquidazione è il processo di facilitazione di una fattura rispetto a un pagamento o una nota di accredito. Questi parametri sono situati nell'area **Liquidazione** delle pagine **Parametri contabilità clienti** e **Parametri contabilità fornitori**.
 
@@ -58,7 +58,14 @@ I seguenti parametri influiscono su come vengono elaborate le liquidazioni in Mi
 - **Assegna priorità a liquidazione (solo Contabilità clienti)**: impostare questa opzione su **Sì** per abilitare il pulsante **Contrassegna in base a priorità** nelle pagine **Pagamenti cliente** e **Liquida transazioni**. Il pulsante consente agli utenti di assegnare l'ordine di liquidazione predeterminato alle transazioni.  Dopo aver applicato l'ordine di liquidazione a una transazione, è possibile modificare l'allocazione dell'ordine e del pagamento prima della registrazione.
 - **Utilizza priorità per liquidazioni automatiche**: impostare questa opzione su **Sì** per utilizzare l'ordine di priorità definito quando le transazioni vengono liquidate automaticamente. Questo campo è disponibile solo se le opzioni **Assegna priorità a liquidazione** e **Liquidazione automatica**  sono impostate su **Sì**.
 
+## <a name="fixed-dimensions-on-accounts-receivableaccounts-payable-main-accounts"></a>Dimensioni fisse sui conti principali Contabilità fornitori/contabilità clienti
 
+Quando le dimensioni fisse vengono utilizzate nel conto principale Contabilità fornitori o Contabilità clienti, voci contabili aggiuntive e due transazioni di fornitore aggiuntive verranno registrate dal processo di liquidazione. La liquidazione confronta il conto CoGe Contabilità fornitori o Contabilità clienti con la fattura e il pagamento.  Quando il pagamento e la liquidazione vengono completati insieme, che è lo scenario tipico, la voce contabile de pagamento non viene registrata nella contabilità generale fino a quando non viene completato il processo di liquidazione. A causa dell'ordine di eventi di elaborazione, la liquidazione non è in grado di determinare il conto CoGe di contabilità fornitori/contabilità clienti effettivo dalla voce contabile del pagamento. La liquidazione ricostruisce ciò che il conto CoGe sarà per il pagamento. Questa impostazione diventa un problema quando una dimensione fissa viene utilizzata per il conto principale Contabilità fornitori e Contabilità clienti.
 
+Per ricostruire il conto CoGe, il conto principale Contabilità fornitori o Contabilità clienti viene recuperato dal profilo di registrazione e le dimensioni finanziarie vengono recuperate dal record di transazione fornitore per il pagamento, così come definito nel giornale di registrazione pagamenti. Le dimensioni fisse non sono predefinite nei giornali di registrazione pagamenti. Vengono invece applicate al conto principale come ultimo passaggio del processo di registrazione. Di conseguenza, il valore di dimensione fissa probabilmente non è contenuto nella transazione fornitore, a meno che venga predefinito da un'altra origine, ad esempio il fornitore. Il conto ricostruito non includerà la dimensione fissa. L'elaborazione della liquidazione determinerà la necessità di creare un voce di rettifica, a differenza della fattura registrata con il valore di dimensioni fissa e del conto pagamenti ricostruito.  Poiché la liquidazione continua con la registrazione della voce di rettifica, l'ultimo passaggio nella registrazione riguarda l'applicazione della dimensione fissa. Aggiungendo la dimensione alla voce di rettifica, viene registrata con un importo in Dare e in Avere nello stesso conto CoGe. La liquidazione non può eseguire il rollback della voce contabile.
 
+Per evitare le voci contabili aggiuntive, il debito e il credito nello stesso conto CoGe, è possibile considerare le soluzioni alternative seguenti, in base alle proprie esigenze aziendali. 
+
+-   Le organizzazioni utilizzano spesso dimensioni fisse per compilare con zero una dimensione finanziaria che non è richiesta. È il caso in genere dei conti dello stato patrimoniale, ad esempio contabilità clienti/contabilità fornitori. Le strutture dei conti possono essere utilizzate per non tenere traccia delle dimensioni finanziarie che sono in genere completate con zeri.  È possibile rimuovere la dimensione finanziaria per i conti dello stato patrimoniale, eliminando la necessità di utilizzare dimensioni fisse.
+-   Se l'organizzazione richiede dimensioni fisse nel conto principale contabilità fornitori/contabilità clienti, trovare un modo per impostare come valore predefinito la dimensione fissa nel pagamento, in modo che il valore di dimensione fissa sia memorizzato nella transazione fornitore per il pagamento. Ciò permetterà al sistema di ricostruire il conto principale contabilità fornitori/contabilità clienti per includere i valori di dimensione fissa. Il valore di dimensione fissa può essere definito come valore predefinito sui fornitori o il nome del giornale di registrazione pagamenti.
 

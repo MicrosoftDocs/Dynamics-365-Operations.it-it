@@ -3,7 +3,7 @@ title: Designer formula nella creazione di report elettronici
 description: In questo argomento viene illustrato come utilizzare designer formula nei report elettronici (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 04/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
+ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
+ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 
 ---
 
@@ -76,7 +76,7 @@ In fase di esecuzione, la formula progettata, **ROUND (Intrastat.AmountMST, 2)**
 
 Il Designer formula ER può essere utilizzato per definire un'espressione che formatta i dati ricevuti da origini dati, in modo che i dati possono essere inviati come parte del documento elettronico generato. Potrebbe essere presente una formattazione che deve essere applicata come regola standard da riutilizzare per un formato. In questo caso, è possibile introdurla una volta nella configurazione del formato come trasformazione denominata con espressione di formattazione. Successivamente questa trasformazione denominata può essere collegata a molti componenti di formato in cui l'output deve essere formattato in base all'espressione di formattazione creata.
 
-La figura seguente mostra la progettazione di una trasformazione di questo tipo. In questo esempio, la trasformazione **TrimmedString** tronca i dati in ingresso del tipo di dati **String** rimuovendo spazi iniziali e finali. Itd restituisce quindi il valore stringa troncato.
+La figura seguente mostra la progettazione di una trasformazione di questo tipo. In questo esempio, la trasformazione **TrimmedString** tronca i dati in ingresso del tipo di dati **String** rimuovendo spazi iniziali e finali. Restituisce quindi il valore stringa troncato.
 
 [![Trasformazione](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
@@ -217,13 +217,13 @@ Le seguenti tabelle descrivono le funzioni di manipolazione dei dati che è poss
 | NULLDATE () | Restituisce un valore di data **null**. | |
 | NULLDATETIME () | Restituisce un valore di data/ora **null**. | |
 | DATETIMEFORMAT (data/ora, formato) | Converte il valore specificato di data/ora in una stringa nel formato specificato. (Per informazioni sui formati supportati, vedere [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizzato](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** restituisce la data del server di applicazioni Finance and Operations, 24 dicembre 2015, come **"24-12-2015"**, basato sul formato specificato personalizzato. |
-| DATETIMEFORMAT (data/ora, impostazioni cultura) | Converte il valore di data/ora specificato in una stringa nel formato e nelle [impostazioni cultura](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) specificati. (Per informazioni sui formati supportati, vedere [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizzato](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW(), "d", "de")** restituisce la data del server applicazioni corrente di Finance and Operations, 24 dicembre 2015, come **"24.12.2015"**, in base alle impostazioni cultura tedesche selezionate. |
+| DATETIMEFORMAT (data/ora, impostazioni cultura) | Converte il valore di data/ora specificato in una stringa nel formato e nelle [impostazioni cultura](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) specificati. (Per informazioni sui formati supportati, vedere [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizzato](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** restituisce la data del server applicazioni corrente di Finance and Operations, 24 dicembre 2015, come **"24.12.2015"**, in base alle impostazioni cultura tedesche selezionate. |
 | SESSIONTODAY () | Restituisce la data e l'ora della sessione corrente di Finance and Operations come valore di data. | |
 | SESSIONNOW () | Restituisce la data e l'ora della sessione corrente di Finance and Operations come valore di data/ora. | |
 | DATEFORMAT (data, formato) | Restituisce una rappresentazione di stringa della data specificata nel formato specificato. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** restituisce la data della sessione Finance and Operations, 24 dicembre 2015, come **"24-12-2015"**, basato sul formato specificato personalizzato. |
-| DATEFORMAT (data, formato, impostazioni cultura) | Convertire il valore di data specificato in una stringa nel formato e nelle [impostazioni cultura](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) specificati. (Per informazioni sui formati supportati, vedere [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizzato](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** restituisce la data della sessione corrente di Finance and Operations, 24 dicembre 2015, come **"24.12.2015"**, in base alle impostazioni cultura tedesche selezionate. |
+| DATEFORMAT (data, formato, impostazioni cultura) | Convertire il valore di data specificato in una stringa nel formato e nelle [impostazioni cultura](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) specificati. (Per informazioni sui formati supportati, vedere [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizzato](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** restituisce la data della sessione corrente di Finance and Operations, 24 dicembre 2015, come **"24.12.2015"**, in base alle impostazioni cultura tedesche selezionate. |
 | DAYOFYEAR (data) | Restituisce la rappresentazione integer del numero di giorni tra l'1 gennaio e la data specificata. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** restituisce **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** restituisce **1**. |
-| DAYS (data 1, data 2) | Restituisce il numero di giorni compresi tra la prima data specificata e la seconda data specificata. Restituisce un valore positivo quando la prima data è successiva alla seconda data, restituisce **0** (zero) quando la prima data corrisponde alla seconda data o restituisce un valore negativo in caso contrario. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** restituisce **-1**. |
+| DAYS (data 1, data 2) | Restituisce il numero di giorni compresi tra la prima data specificata e la seconda data specificata. Restituisce un valore positivo quando la prima data è successiva alla seconda data, restituisce **0** (zero) quando la prima data corrisponde alla seconda data o restituisce un valore negativo quando la prima data è antecedente alla seconda data. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** restituisce **-1**. |
 
 ### <a name="data-conversion-functions"></a>Funzioni conversione dati
 
@@ -238,113 +238,125 @@ Le seguenti tabelle descrivono le funzioni di manipolazione dei dati che è poss
 ### <a name="list-functions"></a>Funzioni di elenco
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Funzione</th>
 <th>descrizione</th>
 <th>Esempio</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>SPLIT (input, lunghezza)</td>
 <td>Divide la stringa di input specificata in sottostringhe, ciascuna delle quali ha lunghezza specificata. Restituisce il risultato come nuovo elenco.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> restituisce un nuovo elenco costituito da due record con un campo <strong>STRING</strong>. Il campo del primo record contenente il testo <strong>&quot;abc&quot;</strong> e il campo nel secondo record contenente il testo <strong>&quot;d&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>SPLITLIST (elenco, numero)</td>
 <td>Divide l'elenco specificato in batch, ciascuno dei quali contiene il numero specificato di record. Restituisce il risultato come nuovo elenco di batch contenente i seguenti elementi:
 <ul>
 <li>Batch come normali elenchi (componente <strong>Value</strong>)</li>
 <li>Il numero batch corrente (componente <strong>BatchNumber</strong>)</li>
-</ul></td>
+</ul>
+</td>
 <td>Nella seguente figura, un'origine dati <strong>Righe</strong> viene creata come un elenco di record con tre record. Questo elenco viene suddiviso in batch, ciascuno contenente fino a due record.
 <p><a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
 <p>Nella figura seguente è illustrato il layout di formato progettato. In questo layout di formato, le associazioni all'origine dati <strong>Righe</strong> vengono create per generare l'output in formato XML. Questo output presenta nodi individuali per ogni batch e i record contenuti.</p>
 <p><a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a></p>
 <p>Nella figura seguente è illustrato il risultato dell'esecuzione del formato progettato.</p>
-<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LIST (record 1 [, record 2, …])</td>
 <td>Restituisce un nuovo elenco creato dagli argomenti specificati.</td>
 <td><strong>LIST (model.MainData, model.OtherData)</strong> restituisce un record vuoto, dove l'elenco di campi contiene tutti i campi degli elenchi di record <strong>MainData</strong> e <strong>OtherData</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTJOIN (elenco 1, elenco 2, …)</td>
 <td>Restituisce un elenco collegato dagli elenchi di argomenti specificati.</td>
 <td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> restituisce un elenco di sei record, in cui un campo del tipo di dati <strong>STRING</strong> contiene le singole lettere.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>ISEMPTY (elenco)</td>
 <td>Restituisce <strong>TRUE</strong> se l'elenco specificato non contiene elementi. In caso contrario, restituisce <strong>FALSE</strong>.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>EMPTYLIST (elenco)</td>
 <td>Restituisce un elenco vuoto utilizzando l'elenco specificato come origine della struttura elenco.</td>
 <td><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> restituisce un nuovo elenco vuoto con la stessa struttura dell'elenco restituito dalla funzione <strong>SPLIT</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>FIRST (elenco)</td>
 <td>Restituisce il primo record dell'elenco specificato, se il record non è vuoto. In caso contrario, genera un'eccezione.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>FIRSTORNULL (elenco)</td>
 <td>Restituisce il primo record dell'elenco specificato, se il record non è vuoto. In caso contrario, restituisce un record<strong>null</strong>.</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIRSTITEM (elenco)</td>
 <td>Restituisce un elenco che contiene solo il primo elemento di un elenco specifico.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>ALLITEMS (percorso)</td>
-<td>Restituisce un nuovo elenco bidimensionale che rappresenta tutti gli elementi che corrispondono a un percorso specifico. Il percorso deve essere definito come percorso di un'origine dati valido in un elemento di origine dati di un tipo di dati elenco di record. Gli elementi di dati come stringa percorso e data devono generare un errore in fase di progettazione nel generatore di espressioni ER.</td>
+<td>Questa funzione viene eseguite come selezione in memoria. Restituisce un nuovo elenco bidimensionale che rappresenta tutti gli elementi che corrispondono a un percorso specifico. Il percorso deve essere definito come percorso di un'origine dati valido in un elemento di origine dati di un tipo di dati elenco di record. Gli elementi di dati come stringa percorso e data devono generare un errore in fase di progettazione nel generatore di espressioni ER.</td>
 <td>Se si immette <strong>SPLIT(&quot;abcdef&quot; , 2)</strong> come origine dati (DS), <strong>COUNT( ALLITEMS (DS.Value))</strong> restituisce <strong>3</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
+<td>ALLITEMSQUERY (percorso)</td>
+<td>Questa funzione viene eseguita come query SQL con join. Restituisce un nuovo elenco bidimensionale che rappresenta tutti gli elementi che corrispondono a un percorso specifico. Il percorso specificato deve essere definito come percorso di un'origine dati valido in un elemento di origine dati di un tipo di dati elenco di record e deve contenere almeno una relazione. Gli elementi di dati come stringa percorso e data devono generare un errore in fase di progettazione nel generatore di espressioni ER.</td>
+<td>Definire le origini dati seguenti nel mapping di modello:
+<ul>
+<li><strong>CustInv</strong> (tipo <strong>Record di tabella</strong>), che fa riferimento alla tabella CustInvoiceTable</li> 
+<li><strong>FilteredInv</strong> (tipo <strong>Campo calcolato</strong>), che contiene l'espressione <strong>FILTER (CustInv, CustInv.InvoiceAccount = &quot;US-001&quot;)</strong></li>
+<li><strong>JourLines</strong> (tipo <strong>Campo calcolato</strong>), che contiene l'espressione <strong>ALLITEMSQUERY (FilteredInv.'&lt;Relations'.CustInvoiceJour.'&lt;Relations'.CustInvoiceTrans)</strong></li>
+</ul>
+<p>Quando si esegue il mapping di modello per chiamare l'origine dati <strong>JourLines</strong>, viene eseguita la seguente istruzione SQL:</p>
+SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3 WHERE...
+</td>
+</tr>
+<tr>
 <td>ORDERBY (elenco [, espressione 1, espressione 2, …])</td>
 <td>Restituisce l'elenco specificato dopo che è stato ordinato in base agli argomenti specifici. Questi argomenti possono essere definiti come espressioni.</td>
 <td>Se <strong>Fornitore</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> restituisce un elenco dei fornitori ordinato per nome in ordine crescente.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REVERSE (elenco)</td>
 <td>Restituisce l'elenco specificato in ordine inverso.</td>
 <td>Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> restituisce un elenco dei fornitori ordinato per nome in ordine decrescente.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>WHERE (elenco, condizione)</td>
 <td>Restituisce l'elenco specificato dopo che è stato filtrato in base alla condizione specifica. La condizione specificata viene applicata all'elenco nella memoria. In questo modo, la funzione <strong>WHERE</strong> è diversa dalla funzione <strong>FILTER</strong>.</td>
 <td>Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> restituisce un elenco solo dei fornitori che appartengono al gruppo 40.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>ENUMERATE (elenco)</td>
 <td>Restituisce un nuovo elenco corrispondente ai record enumerati dell'elenco specificato e che espone i seguenti elementi:
 <ul>
 <li>Record dell'elenco specificati come normali elenchi (componente <strong>Value</strong>)</li>
 <li>L'indice del record corrente (componente <strong>Number</strong>)</li>
-</ul></td>
+</ul>
+</td>
 <td>Nella seguente illustrazione, un'origine dati <strong>Enumerated</strong> viene creata come elenco enumerato di record fornitori dall'origine dati <strong>Vendors</strong> che fa riferimento alla tabella VendTable.
 <p><a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a></p>
 <p>Nella figura seguente è illustrato il formato. In questo formato, le associazioni dati vengono create per generare l'output in formato XML. Questo output presenta i singoli fornitori come nodi enumerati.</p>
 <p><a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a></p>
 <p>Nella figura seguente è illustrato il risultato dell'esecuzione del formato progettato.</p>
-<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>COUNT (elenco)</td>
 <td>Restituisce il numero di record nell'elenco specificato, se l'elenco non è vuoto. In caso contrario, restituisce <strong>0</strong> (zero).</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> restituisce <strong>2</strong>, perché la funzione <strong>SPLIT</strong> crea un elenco costituito da due record.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTOFFIELDS (percorso)</td>
 <td>Restituisce un elenco di record creato da un argomento di uno dei seguenti tipi:
 <ul>
@@ -358,7 +370,8 @@ Le seguenti tabelle descrivono le funzioni di manipolazione dei dati che è poss
 <li>Etichetta</li>
 <li>descrizione</li>
 </ul>
-In fase di esecuzione, i campi <strong>Etichetta</strong> e <strong>Descrizione</strong> restituiscono valori in base alle impostazioni di lingua del formato.</td>
+I campi <strong>Descrizione</strong> ed <strong>Etichetta</strong> restituiscono valori in fase esecuzione in base alle impostazioni di lingua del formato.
+</td>
 <td>Nella seguente figura viene illustrata l'enumerazione introdotta in un modello dati.
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>La figura di seguito mostra questi dettagli:</p>
@@ -372,10 +385,10 @@ In fase di esecuzione, i campi <strong>Etichetta</strong> e <strong>Descrizione<
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>Nella figura seguente è illustrato il risultato dell'esecuzione del formato progettato.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>
-Il testo tradotto per le etichette e le descrizioni viene immesso nell'output del formato ER in base alle impostazioni di lingua configurate per gli elementi di formato FILE e CARTELLA padre.</blockquote></td>
+<blockquote>[!NOTE]<br>Il testo tradotto per le etichette e le descrizioni viene immesso nell'output del formato ER in base alle impostazioni di lingua configurate per gli elementi di formato FILE e CARTELLA padre.</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIELDS (percorso, lingua)</td>
 <td>Restituisce un elenco di record creato da un argomento, ad esempio enumerazione modello, enumerazione formato o un contenitore. L'elenco creato contiene record con i seguenti campi:
 <ul>
@@ -384,26 +397,27 @@ Il testo tradotto per le etichette e le descrizioni viene immesso nell'output de
 <li>descrizione</li>
 <li>È tradotto</li>
 </ul>
-<p>In fase di esecuzione, i campi <strong>Etichetta</strong> e <strong>Descrizione</strong> restituiscono valori in base alle impostazioni di lingua del formato e alla lingua specificata. Il campo <strong>È tradotto</strong> indica che il campo <strong>Etichetta</strong> è stato tradotto nella lingua specificata.</td>
+I campi <strong>Descrizione</strong> ed <strong>Etichetta</strong> restituiscono valori in fase esecuzione in base alle impostazioni di lingua del formato e alla lingua specificata. Il campo <strong>È tradotto</strong> indica che il campo <strong>Etichetta</strong> è stato tradotto nella lingua specificata.
+</td>
 <td>Ad esempio, usare il tipo di origine dati <strong>Campo calcolato</strong> per configurare le origini dati <strong>enumType_de</strong> e <strong>enumType_deCH</strong> per l''enumerazione del modello dati <strong>enumType</strong>:
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-In questo caso, è possibile utilizzare la seguente espressione per visualizzare l'etichetta del valore enumerato in tedesco svizzero, se la traduzione è disponibile. Se la traduzione tedesca svizzera non è disponibile, l'etichetta appare in tedesco: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
+In questo caso, è possibile utilizzare la seguente espressione per visualizzare l'etichetta del valore enumerato in tedesco svizzero, se la traduzione è disponibile. Se la traduzione tedesca svizzera non è disponibile, l'etichetta appare in tedesco: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>STRINGJOIN (elenco, nome del campo, delimitatore)</td>
 <td>Restituisce una stringa costituita da valori concatenati del campo specificato dell'elenco specificato. I valori sono separati dal delimitatore specificato.</td>
-
-<td>Se si immette <strong>SPLIT(&quot;abc&quot; , 1)</strong> come origine dati, l'espressione <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> restituisce <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
-
+<td>Se si immette <strong>SPLIT(&quot;abc&quot; , 1)</strong> come origine dati (DS), <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> restituisce <strong>&quot;a-b-c&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>SPLITLISTBYLIMIT (elenco, valore limite, origine limite)</td>
-<td>Divide l'elenco specificato in nuovo elenco di sottoelenchi e restituisce il risultato nel contenuto dell'elenco di record. Il parametro di valore limite definisce il valore del limite per la divisione dell'elenco originale. Il parametro di origine limite definisce il passaggio secondo cui viene incrementata la somma totale. Il limite non viene applicato a un singolo articolo dell'elenco originale se l'origine limite supera il limite definito.</td>
-<td>Nelle figure seguenti viene illustrato un formato e le origini dati per esso utilizzate. 
+<td>Divide l'elenco specificato in nuovo elenco di sottoelenchi e restituisce il risultato nel contenuto dell'elenco di record. Il parametro <strong>valore limite</strong> definisce il valore del limite per la divisione dell'elenco originale. Il parametro <strong>origine limite</strong> definisce il passo di cui viene incrementata la somma totale. Il limite non è applicato a un singolo articolo dell'elenco originale se l'origine limite supera il limite definito.</td>
+<td>Nella figura seguente viene illustrato un formato. 
 <p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
+<p>Nella figura seguente vengono mostrate le origini dati che vengono utilizzate per il formato.</p>
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>Nella figura seguente è illustrato il risultato dell'esecuzione del formato. In questo caso, l'output è un elenco di voci doganali.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
@@ -412,13 +426,13 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Nella figura seguente è illustrato il risultato dell'esecuzione del formato rettificato.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>
-Il limite non si applica all'ultima voce dell'elenco di origine poiché il valore (11) dell'origine del limite (peso) supera il limite definito (9). Utilizzare la funzione <strong>WHERE</strong> o l'espressione <strong>Enabled</strong> dell'elemento formato corrispondente per ignorare (saltare) i sottoelenchi durante la generazione dei report come necessario.</blockquote></td>
+<blockquote>[!NOTE]<br>Il limite non si applica all'ultima voce dell'elenco di origine poiché il valore (11) dell'origine del limite (peso) supera il limite definito (9). Utilizzare la funzione <strong>WHERE</strong> o l'espressione <strong>Enabled</strong> dell'elemento formato corrispondente per ignorare (saltare) i sottoelenchi durante la generazione dei report come necessario.</blockquote>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FILTER (elenco, condizione)</td>
 <td>Restituisce l'elenco specificato dopo che è stata modifica la query per il filtro in base alla condizione specifica. Diversamente dalla funzione <strong>WHERE</strong>, la condizione specificata viene applicata a livello di database a qualsiasi origine dati ER del tipo di <strong>Record tabella</strong>. L'elenco e la condizione possono essere definite mediante le tabelle e le relazioni.</td>
-  <td>Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> restituisce un elenco solo dei fornitori che appartengono al gruppo 40. Se <strong>Fornitore</strong> viene configurato come origine dati ER che fa riferimento alla tabella <strong>VendTable</strong> e <strong>parmVendorBankGroup</strong> che è configurato come origine dati ER restituisce il valore in tipo di dati stringa, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> restituisce solo un elenco di conti fornitori che appartengono a un gruppo bancario specifico.</td>
+<td>Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> restituisce un elenco solo dei fornitori che appartengono al gruppo 40. Se <strong>Fornitore</strong> viene configurato come origine dati di ER che fa riferimento alla tabella <strong>VendTable</strong> e se <strong>parmVendorBankGroup</strong> viene configurato come origine dati di ER che restituisce un valore del tipo di dati <strong>Stringa</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> restituisce un elenco costituito solo dai conti fornitori che appartengono a un gruppo bancario specifico.</td>
 </tr>
 </tbody>
 </table>
@@ -441,9 +455,9 @@ Il limite non si applica all'ultima voce dell'elenco di origine poiché il valor
 | POWER (numero, potenza) | Restituisce il risultato dell'elevazione alla potenza specificata del numero positivo specificato. | **POWER (10, 2)** restituisce **100**. |
 | NUMBERVALUE (stringa, separatore decimale, separatore di raggruppamento delle cifre) | Converte la stringa specificata in numero. Il separatore decimale specificato viene utilizzato tra il numero intero e le parti frazionarie di un numero decimale. Il separatore di raggruppamento di cifre specificato viene utilizzato come separatore delle migliaia. | **NUMBERVALUE("1 234,56", ",", " ")** restituisce il valore **1234.56**. |
 | VALUE (stringa) | Converte la stringa specificata in numero. Le virgole e i caratteri punto (). vengono considerati separatori decimali e un trattino iniziale (-) viene utilizzato come negativo. Genera un'eccezione se altri caratteri non numerici vengono incontrati nella stringa specificata. | **VALUE ("1 234,56")** genera un'eccezione. |
-| ROUND (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato al numero di posizioni decimali specificato:<ul><li>Se il valore del parametro dei decimali specificato è maggiore di 0 (zero), il numero specificato viene arrotondato al numero di posizioni decimali specificato.</li><li>Se il valore del parametro dei decimali specificato è **0** (zero), il numero specificato viene arrotondato all'intero più vicino.</li><li>Se il valore del parametro dei decimali specificato è minore di 0 (zero), il numero specificato viene arrotondato a sinistra del separatore decimale.</li></ul> | **ROUND (1200.767, 2)** arrotonda a due posti decimali e restituisce **1200.77**. **ROUND (1200.767, -3)** arrotonda al più vicino multiplo di 1000 e restituisce **1000**. |
-| ROUNDDOWN (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato per difetto al numero di posizioni decimali specificato.<blockquote>[!NOTE]<br>Questa funzione si comporta analogamente a <strong>ROUND</strong> ma sempre per difetto (verso lo zero).</blockquote> | **ROUNDDOWN (1200.767, 2)** arrotonda per difetto a due posti decimali e restituisce **1200.76**. **ROUNDDOWN (1700.767, -3)** arrotonda per difetto al più vicino multiplo di 1000 e restituisce **1000**. |
-| ROUNDUP (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato per eccesso al numero di posizioni decimali specificato.<blockquote>[!NOTE]<br>Questa funzione si comporta analogamente a <strong>ROUND</strong> ma sempre per eccesso (lontano da zero).</blockquote> | **ROUNDUP (1200.763, 2)** arrotonda per eccesso a due posti decimali e restituisce **1200.77**. **ROUNDUP (1200.767, -3)** arrotonda per eccesso al più vicino multiplo di 1000 e restituisce **2000**. |
+| ROUND (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato al numero di posizioni decimali specificato:<ul><li>Se il valore del parametro **decimali** è maggiore di 0 (zero), il numero specificato viene arrotondato al numero di posizioni decimali specificato.</li><li>Se il valore del parametro **decimali** è **0** (zero), il numero specificato viene arrotondato all'intero più vicino.</li><li>Se il valore del parametro **decimali** è minore di 0 (zero), il numero specificato viene arrotondato a sinistra del separatore decimale.</li></ul> | **ROUND (1200.767, 2)** arrotonda a due posti decimali e restituisce **1200.77**. **ROUND (1200.767, -3)** arrotonda al più vicino multiplo di 1000 e restituisce **1000**. |
+| ROUNDDOWN (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato per difetto al numero di posizioni decimali specificato.<blockquote>[!NOTE]<br>Questa funzione si comporta analogamente a **ROUND** ma sempre per difetto (verso lo zero).</blockquote> | **ROUNDDOWN (1200.767, 2)** arrotonda per difetto a due posti decimali e restituisce **1200.76**. **ROUNDDOWN (1700.767, -3)** arrotonda per difetto al più vicino multiplo di 1000 e restituisce **1000**. |
+| ROUNDUP (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato per eccesso al numero di posizioni decimali specificato.<blockquote>[!NOTE]<br>Questa funzione si comporta analogamente a **ROUND** ma sempre per eccesso (lontano da zero).</blockquote> | **ROUNDUP (1200.763, 2)** arrotonda per eccesso a due posti decimali e restituisce **1200.77**. **ROUNDUP (1200.767, -3)** arrotonda per eccesso al più vicino multiplo di 1000 e restituisce **2000**. |
 
 ### <a name="data-conversion-functions"></a>Funzioni conversione dati
 
@@ -460,87 +474,80 @@ Il limite non si applica all'ultima voce dell'elenco di origine poiché il valor
 
 | Funzione | descrizione | Esempio |
 |----------|-------------|---------|
-| NULLCONTAINER (elenco) | Restituisce un record **null** con la stessa struttura dell'elenco di record o il record specificato.<blockquote>[!NOTE]<br>Questa funzione è obsoleta. Utilizzare <strong>EMPTYRECORD</strong> invece.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** restituisce un nuovo record vuoto con la stessa struttura dell'elenco restituito dalla funzione **SPLIT**. |
-| EMPTYRECORD (record) | Restituisce un record **null** con la stessa struttura dell'elenco di record o il record specificato.<blockquote>[!NOTE]<br>Un record <strong>null</strong> è un record in cui il valore di tutti i campi è vuoto. Un valore vuoto è <strong>0</strong> (zero) per i numeri, stringa vuota per le stringhe e così via.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** restituisce un nuovo record vuoto con la stessa struttura dell'elenco restituito dalla funzione **SPLIT**. |
+| NULLCONTAINER (elenco) | Restituisce un record **null** con la stessa struttura dell'elenco di record o il record specificato.<blockquote>[!NOTE]<br>Questa funzione è obsoleta. Utilizzare **EMPTYRECORD** invece.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** restituisce un nuovo record vuoto con la stessa struttura dell'elenco restituito dalla funzione **SPLIT**. |
+| EMPTYRECORD (record) | Restituisce un record **null** con la stessa struttura dell'elenco di record o il record specificato.<blockquote>[!NOTE]<br>Un record **null** è un record in cui il valore di tutti i campi è vuoto. Un valore vuoto è **0** (zero) per i numeri, stringa vuota per le stringhe e così via.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** restituisce un nuovo record vuoto con la stessa struttura dell'elenco restituito dalla funzione **SPLIT**. |
 
 ### <a name="text-functions"></a>Funzioni di testo
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Funzione</th>
 <th>descrizione</th>
 <th>Esempio</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>UPPER (stringa)</td>
 <td>Restituisce la stringa specificata dopo che è stata convertita in lettere maiuscole.</td>
 <td><strong>UPPER(&quot;Esempio&quot;)</strong> restituisce <strong>&quot;ESEMPIO&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LOWER (stringa)</td>
 <td>Restituisce la stringa specificata dopo che è stata convertita in lettere minuscole.</td>
 <td><strong>LOWER (&quot;Esempio&quot;)</strong> restituisce <strong>&quot;esempio&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LEFT (stringa, numero di caratteri)</td>
 <td>Restituisce il numero specificato di caratteri a partire dall'inizio di una stringa specificata.</td>
 <td><strong>LEFT (&quot;Esempio&quot;, 3)</strong> restituisce <strong>&quot;Ese&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>RIGHT (stringa, numero di caratteri)</td>
 <td>Restituisce il numero specificato di caratteri a partire dalla fine di una stringa specificata.</td>
 <td><strong>RIGHT (&quot;Esempio&quot;, 3)</strong> restituisce <strong>&quot;pio&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MID (stringa, posizione iniziale, numero di caratteri)</td>
 <td>Restituisce il numero specificato di caratteri della stringa specificata a partire dalla posizione specificata.</td>
 <td><strong>MID (&quot;Esempio&quot;, 2, 3)</strong> restituisce <strong>&quot;sem&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LEN (stringa)</td>
 <td>Restituisce il numero di caratteri nella stringa specificata.</td>
 <td><strong>LEN (&quot;Esempio&quot;)</strong> restituisce <strong>6</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CHAR (numero)</td>
 <td>Restituisce la stringa di caratteri a cui viene fatto riferimento dal numero Unicode specificato.</td>
 <td><strong>CHAR (255)</strong> restituisce <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>
-La stringa restituita dalla funzione dipende dalla codifica selezionata nell'elemento del formato FILE padre. Per l'elenco di codifiche supportate, vedere <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Classe di codifica</a>.</blockquote>
+<blockquote>[!NOTE]<br>La stringa restituita dalla funzione dipende dalla codifica selezionata nell'elemento del formato FILE padre. Per l'elenco di codifiche supportate, vedere <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Classe di codifica</a>.</blockquote>
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONCATENATE (stringa 1 [, stringa 2, …])</td>
 <td>Restituisce tutte le stringhe di testo specificate dopo che sono state unite in un'unica stringa.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> restituisce <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>
-Anche l'espressione <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> restituisce <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE]<br>Anche l'espressione <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> restituisce <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TRANSLATE (stringa, modello, sostituzione)</td>
 <td>Restituisce la stringa specificata dopo che tutte le occorrenze dei caratteri la stringa modello specificata sono state sostituite dai caratteri alla posizione corrispondente della stringa di sostituzione specificata.</td>
 <td><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> sostituisce il modello <strong>&quot;cd&quot;</strong> con la stringa <strong>&quot;GH&quot;</strong> e restituisce <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REPLACE (stringa, modello, sostituzione, flag espressione regolare)</td>
 <td>Quando il flag espressione regolare specificato è <strong>true</strong>, restituisce la stringa specificata dopo che è stata modificata applicando l'espressione regolare specificata come un argomento di modello per la funzione. Tale espressione viene utilizzata per individuare i caratteri che devono essere sostituiti. I caratteri dell'argomento di sostituzione specificato vengono utilizzati per sostituire i caratteri che si trovano. Quando il flag specificato espressione regolare è <strong>false</strong>, questa funzione si comporta analogamente a <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> applica un'espressione regolare che rimuove tutti i simboli non numerici e restituisce <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> sostituisce il modello <strong>&quot;cd&quot;</strong> con la stringa <strong>&quot;GH&quot;</strong> e restituisce <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TEXT (input)</td>
 <td>Restituisce l'input specificato dopo che è stato convertito in stringa di testo che viene formattata in base alle impostazioni locali server dell'istanza corrente di Finance and Operations. Per i valori di tipo <strong>real</strong>, la conversione di stringhe è limitata a due posizioni decimali.</td>
 <td>Se le impostazioni locali server dell'istanza di Finance and Operations vengono definite come <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> restituisce la data della sessione corrente di Finance and Operations, 17 dicembre 2015, come la stringa di testo <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> restituisce <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FORMAT (stringa 1, stringa 2[, stringa 3, …])</td>
 <td>Restituisce la stringa specificata dopo che è stata formattata sostituendo tutte le occorrenze di <strong>%N</strong> con l'argomento <em>n-esimo</em>. Gli argomenti sono stringhe. Se un argomento non viene fornito per un parametro, il parametro viene restituito come <strong>&quot;%N&quot;</strong> nella stringa. Per i valori di tipo <strong>real</strong>, la conversione di stringhe è limitata a due posizioni decimali.</td>
 <td>In questa illustrazione, l'origine dati <strong>PaymentModel</strong> restituisce l'elenco dei record cliente tramite il componente <strong>Customer</strong> il valore della data di elaborazione tramite il campo <strong>ProcessingDate</strong>.
@@ -563,37 +570,38 @@ Anche l'espressione <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> resti
 <p>Se un report viene elaborato per il cliente <strong>Litware Retail</strong> il 17 dicembre 2015, nelle impostazioni cultura <strong>EN-US</strong> e la lingua <strong>EN-US</strong>, questa formula restituisce il seguente testo, che può essere presentato come un messaggio di eccezione all'utente:</p>
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Se lo stesso viene elaborato per il cliente <strong>Litware Retail</strong> il 17 dicembre 2015, nelle impostazioni culture <strong>DE</strong> e la lingua <strong>DE</strong>, la formula restituisce il seguente testo, che utilizza un formato della data diverso:</p>
-<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>
-La seguente sintassi si applica nelle formule ER per le etichette:
+<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<blockquote>[!NOTE]<br>La seguente sintassi si applica nelle formule ER per le etichette:
 <ul>
 <li><strong>Per le etichette di risorse di Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, dove X è l'ID etichetta nella struttura a oggetti applicativi (AOT, Application Object Tree)</li>
 <li><strong>Per le etichette che si trovano in configurazioni ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, dove X è l'ID di etichetta nella configurazione ER</li>
-</ul></blockquote></td>
+</ul>
+</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>NUMBERFORMAT (numero, formato)</td>
 <td>Restituisce una rappresentazione di stringa del numero specificato nel formato specificato. (Per informazioni sui formati supportati, vedere <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standard</a> e <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">personalizzato</a>). Il contesto in cui questa funzione viene eseguita determina la lingua utilizzata per formattare i numeri.</td>
 <td>Per le impostazioni cultura EN-US, <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> restituisce <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> restituisce <strong>&quot;10&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NUMERALSTOTEXT (numero, lingua, valuta, flag stampa nome valuta, decimali)</td>
-<td>Restituisce il numero specificato dopo che è stato contabilizzato (convertito) in stringhe di testo nella lingua definita. Il codice lingua è facoltativo. Quando definito come stringa vuota, viene utilizzato il codice lingua per il contesto di esecuzione. Il codice lingua per il contesto di esecuzione viene definito per una cartella o un file di generazione. Anche il codice valuta è facoltativo. Quando viene definito come stringa vuota, viene utilizzata la valuta della società.
-<blockquote>[!NOTE]<br>
-I parametri Flag stampa nome valuta e Decimali vengono analizzati soltanto per i seguenti codici lingua: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> e <strong>RU</strong>. Inoltre, il parametro Flag stampa nome valuta viene analizzato solo per le società Finance and Operations in cui il contesto del paese o area supporta la declinazione dei nomi valuta.</blockquote></td>
+<td>Restituisce il numero specificato dopo che è stato convertito in stringhe di testo nella lingua specificata. Il codice lingua è facoltativo. Quando viene definito come stringa vuota, viene utilizzato il codice lingua per il contesto di esecuzione. Il codice lingua per il contesto di esecuzione viene definito per una cartella o un file di generazione. Anche il codice valuta è facoltativo. Quando viene definito come stringa vuota, viene utilizzata la valuta della società.
+<blockquote>[!NOTE]<br>I parametri <strong>flag stampa nome valuta</strong> e <strong>numeri decimali</strong> vengono analizzati solo per i codici lingua seguenti: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> e <strong>RU</strong>. Inoltre, il parametro <strong>flag stampa nome valuta</strong> viene analizzato solo per le società Finance and Operations in cui il contesto del paese o area supporta la declinazione dei nomi valuta.</blockquote>
+</td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> restituisce <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> restituisce <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> restituisce <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PADLEFT (stringa, lunghezza, caratteri di riempimento)</td>
 <td>Restituisce una stringa della lunghezza specificata in cui l'inizio della stringa specificata viene riempita con i caratteri specificati.</td>
 <td><strong>PADLEFT (&quot;1234&quot;, 10, &quot;&nbsp;&quot;)</strong> restituisce la stringa di testo <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>TRIM (stringa)</td>
 <td>Restituisce la stringa di testo specificata dopo il troncamento degli spazi iniziali e finali e la rimozione di più spazi tra le parole in spazi singoli.</td>
 <td><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong> restituisce <strong>&quot;Sample text&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GETENUMVALUEBYNAME (percorso origine dati di enumerazione, testo dell'etichetta del valore dell'enumerazione)</td>
 <td>Restituisce un valore dell'origine dati di enumerazione specificata in base al testo specificato dall'etichetta dell'enumerazione.</td>
 <td>Nella seguente figura viene illustrata l'enumerazione <strong>ReportDirection</strong> introdotta in un modello dati. Tenere presente che le etichette vengono definite per i valori dell'enumerazione.
@@ -603,7 +611,24 @@ I parametri Flag stampa nome valuta e Decimali vengono analizzati soltanto per i
 <li>L'enumerazione modello <strong>ReportDirection</strong> viene inserita in un report come origine dati <strong>$Direction</strong>.</li>
 <li>Un'espressione ER <strong>$IsArrivals</strong> viene progettata per l'utilizzo dell'enumerazione di modello come parametro di questa funzione. Il valore di questa condizione è <strong>TRUE</strong>.</li>
 </ul>
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+</td>
+</tr>
+<tr>
+<td>GUIDVALUE (input)</td>
+<td>Converte l'input specificato del tipo di dati <strong>Stringa</strong> in un elemento dati del tipo di dati <strong>GUID</strong>.</td>
+<td>Definire le origini dati seguenti nel mapping di modello:
+<ul>
+<li><strong>myID</strong> (tipo <strong>Campo calcolato</strong>), che contiene l'espressione <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
+<li><strong>Users</strong> (tipo <strong>Record di tabella</strong>), che fa riferimento alla tabella UserInfo</li>
+</ul>
+Quando vengono definite queste origini dati, è possibile utilizzare un'espressione quale <strong>FILTER (Users, Users.objectId = myID)</strong> per filtrare la tabella UserInfo in base al campo <strong>objectId</strong> del tipo di dati <strong>GUID</strong>.
+</td>
+</tr>
+<tr>
+<td>JSONVALUE (id, percorso)</td>
+<td>Analizza i dati nel formato JSON (JavaScript Object Notation) accessibile dal percorso specificato per estrarre un valore scalare basato sull'ID specifico.</td>
+<td>L'origine dati <strong>$JsonField</strong> contiene i dati seguenti nel formato JSON: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Per questa origine dati, </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> restituisce il valore <strong>7.3.1234.1</strong> del tipo di dati <strong>Stringa</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -613,7 +638,7 @@ I parametri Flag stampa nome valuta e Decimali vengono analizzati soltanto per i
 | Funzione | descrizione | Esempio |
 |----------|-------------|---------|
 | TEXT (input) | Restituisce l'input specificato dopo che è stato convertito in stringa di testo che viene formattata in base alle impostazioni locali server dell'istanza corrente di Finance and Operations. Per i valori di tipo **real**, la conversione di stringhe è limitata a due posizioni decimali. | Se le impostazioni locali server dell'istanza di Finance and Operations vengono definite come **EN-US**, **TEXT (NOW ())** restituisce la data della sessione corrente di Finance and Operations, 17 dicembre 2015, come la stringa di testo **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** restituisce **"0.33"**. |
-| QRCODE (stringa) | Restituisce l'immagine del codice QR in formato binario base64 per la stringa specificata. | **QRCODE ("Testo di esempio")** restituisce **U2FtcGxlIHRleHQ=**. |
+| QRCODE (stringa) | Restituisce l'immagine del codice QR (Quick Response Code) in formato binario base64 per la stringa specificata. | **QRCODE ("Testo di esempio")** restituisce **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Funzioni raccolta dati
 
@@ -623,19 +648,19 @@ I parametri Flag stampa nome valuta e Decimali vengono analizzati soltanto per i
 | SUMIFS (stringa chiave per somma, stringa intervallo di criteri1, stringa valore di criteri1 \[, stringa intervallo di criteri2, stringa valore di criteri2, …\]) | Restituisce la somma dei valori dei nodi XML (in cui il nome viene definito come chiave) che sono stati raccolti durante l'esecuzione del formato e che soddisfano le condizioni specificate (coppie di intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
 | SUMIF (stringa chiave per somma, stringa intervallo di criteri, stringa valore di criteri) | Restituisce la somma dei valori dei nodi XML (in cui il nome viene definito come chiave) che sono stati raccolti durante l'esecuzione del formato e che soddisfano la condizione specificata (intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
 | COUNTIFS (stringa chiave per somma, stringa intervallo di criteri1, stringa valore di criteri1 \[, stringa intervallo di criteri2, stringa valore di criteri2, …\]) | Restituisce il numero dei nodi dell'XML che è stato raccolto durante l'esecuzione del formato e che soddisfa le condizioni specificate (coppie di intervalli e valori). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
-| COUNTIF (stringa intervallo di criteri, stringa valore di criteri) | Restituisce il numero dei nodi dell'XML che è stato raccolto durante l'esecuzione del formato e che soddisfa la condizione immessa (intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
-| COLLECTEDLIST (stringa chiave per somma, stringa intervallo di criteri1, stringa valore di criteri1 \[, stringa intervallo di criteri2, stringa valore di criteri2, …\]) | Restituisce un elenco di valori dei nodi dell'XML raccolto durante l'esecuzione del formato e che soddisfa le condizioni specificate (intervallo e valore). Restituisce un elenco vuoto quando il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
+| COUNTIF (stringa intervallo di criteri, stringa valore di criteri) | Restituisce il numero di nodi XML che è stato raccolto durante l'esecuzione del formato e che soddisfa la condizione specificata (intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
+| COLLECTEDLIST (stringa chiave per somma, stringa intervallo di criteri1, stringa valore di criteri1 \[, stringa intervallo di criteri2, stringa valore di criteri2, …\]) | Restituisce un elenco di valori dei nodi XML dell'XML raccolto durante l'esecuzione del formato e che soddisfa le condizioni specificate (intervallo e valore). Restituisce un elenco vuoto quando il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Altre funzioni (specifiche del dominio aziendale)
 
 | Funzione | descrizione | Esempio |
 |----------|-------------|---------|
 | CONVERTCURRENCY (importo, valuta di origine, valuta di destinazione, data, società) | Converte l'importo monetario specificato da valuta di origine specificata nella valuta di destinazione specificata utilizzando le impostazioni della società specificata di Finance and Operations alla data specificata. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** restituisce un equivalente di un euro in dollari statunitensi nella data della sessione corrente, in base alle impostazioni per la società DEMF. |
-| ROUNDAMOUNT (numero, decimali, regola arrotondamento) | Arrotonda l'importo specificato al numero specificato posizioni decimali in base alla regola di arrotondamento specificata.<blockquote>[!NOTE]<br>La regola di arrotondamento deve essere specificata come valore di enumerazione <strong>RoundOffType</strong> di Finance and Operations.</blockquote> | Se il parametro **model.RoundOff** è impostato su **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** restituisce il valore **1000.78**. Se il parametro **model.RoundOff** è impostato su **Normal** o **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** restituisce il valore **1000.79**. |
+| ROUNDAMOUNT (numero, decimali, regola arrotondamento) | Arrotonda l'importo specificato al numero specificato posizioni decimali in base alla regola di arrotondamento specificata.<blockquote>[!NOTE]<br>La regola di arrotondamento deve essere specificata come valore di enumerazione **RoundOffType** di Finance and Operations.</blockquote> | Se il parametro **model.RoundOff** è impostato su **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** restituisce il valore **1000.78**. Se il parametro **model.RoundOff** è impostato su **Normal** o **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** restituisce il valore **1000.79**. |
 | CURCredRef (cifre) | Restituisce un riferimento creditore, in base alle cifre del numero di fattura specificato. | **CURCredRef ("VEND-200002")** restituisce **"2200002"**. |
 | MOD\_97 (cifre) | Restituisce un riferimento creditore come espressione MOD97, in base alle cifre del numero di fattura specificato. | **MOD\_97 ("VEND-200002")** restituisce **"20000285"**. |
 | ISOCredRef (cifre) | Restituisce un riferimento creditore International Organization for Standardization (ISO), in base alle cifre e ai simboli alfabetici del numero di fattura specificato.<blockquote>[!NOTE]<br>Per eliminare i simboli da alfabeti che non sono conformi ISO, il parametro di input deve essere tradotto prima di passarlo alla funzione.</blockquote> | **ISOCredRef ("VEND-200002")** restituisce **"RF23VEND-200002"**. |
-| CN\_GBT\_AdditionalDimensionID (stringa, numero) | Ottenere l'ID dimensione finanziaria aggiuntiva. Le dimensioni sono rappresentate nella stringa come ID che sono separati da virgole. In questa stringa, i numeri definiscono il codice di sequenza della dimensione richiesta. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** restituisce **"CC"**. |
+| CN\_GBT\_AdditionalDimensionID (stringa, numero) | Ottenere l'ID dimensione finanziaria aggiuntiva specificata. Nel parametro **stringa**, le dimensioni vengono rappresentate come ID che sono separati da virgole. Il parametro **numero** definisce il codice di sequenza della dimensione richiesta nella stringa. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** restituisce **"CC"**. |
 | GetCurrentCompany () | Restituisce la rappresentazione in formato testo del codice della persona giuridica (società) a cui un utente è attualmente connesso. | **GETCURRENTCOMPANY ()** restituisce **USMF** per un utente collegato alla società **Contoso Entertainment System USA** di Finance and Operations. |
 | CH\_BANK\_MOD\_10 (cifre) | Restituisce un riferimento creditore come un'espressione MOD10, in base alle cifre del numero di fattura specificato. | **CH\_BANK\_MOD\_10 ("VEND-200002")** restituisce **3**. |
 | FA\_SUM (codice del cespite, codice del modello di valore, data di inizio, data di fine) | Restituisce il contenitore dati preparati dell'importo cespiti per un periodo specificato. | **FA\_SUM ("COMP-000001", "Current", Date1, Date2)** restituisce il contenitore dati preparati dei cespiti **"COMP-000001"** con il modello di valore **"Current"** per il periodo compreso tra **Date1** e **Date2**. |

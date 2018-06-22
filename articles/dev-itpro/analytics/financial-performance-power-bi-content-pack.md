@@ -1,6 +1,6 @@
 ---
-title: Contenuto Power BI per prestazioni finanziarie
-description: Questo argomento descrive il contenuto Prestazioni finanziarie di Power BI.
+title: Soluzione PowerBI.com per prestazioni finanziarie
+description: Questo argomento descrive la soluzione PowerBI.com per le prestazioni finanziarie.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: it-it
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Contenuto Power BI per prestazioni finanziarie
+# <a name="financial-performance-powerbicom-solution"></a>Soluzione PowerBI.com per prestazioni finanziarie
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Questo pacchetto di contenuti è stato deprecato come documentato in [Pacchetti di contenuti Power BI disponibili in AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> La soluzione PowerBI.com è stata deprecata come documentato in [Pacchetti di contenuti Power BI disponibili in AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Questo argomento descrive il contenuto **Prestazioni finanziarie** di Microsoft Power BI. Descrive il dashboard e i report che vengono inclusi e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+Questo argomento descrive la soluzione PowerBI.com per **Prestazioni finanziarie**. Descrive il dashboard e i report che vengono inclusi e fornisce informazioni sul modello di dati e sulle entità utilizzati per creare la soluzione.
 
 ## <a name="main-account-setup"></a>Impostazione del conto principale
 Poiché le organizzazioni desiderano che le passività e gli importi dei ricavi appaiano come importi positivi nei report, l'impostazione dei conti principali è importante. Affinché questi conti principali vengano visualizzati come importi positivi, il tipo di conto principale deve essere impostato su **Passività** o **Ricavi**. Quando si utilizzano questi tipi di conto, la dichiarazione nei report tramite Power BI invertirà i segni e gli importi risulteranno positivi.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Dashboard e report inclusi nel contenuto di Power BI
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Dashboard e report inclusi nella soluzione PowerBI.com
 Il dashboard contiene riquadri di riepilogo di dati basati sui report sottostanti. Ogni riquadro contiene informazioni riepilogative per l'anno corrente per tutte le società in un'organizzazione. Di seguito sono riportati alcuni riquadri:
 
 - In contanti
@@ -74,7 +74,7 @@ Ogni riquadro è supportato da un report. Questi report contengono i grafici e l
 I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-Le entità seguenti sono state utilizzate come base del contenuto di Power BI **Prestazioni finanziarie**
+Le entità seguenti sono state utilizzate come base della soluzione PowerBI.com per **Prestazioni finanziarie**:
 
 **Entità di dati aggregate**
 

@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -96,6 +96,9 @@ Il menu **Risequenziamento** è disponibile quando si selezionano più entità. 
 
 #### <a name="sorting"></a>Ordinamento
 È possibile utilizzare **Ordina per** per visualizzare l'elenco delle entità nell'ordine sequenziale.
+
+### <a name="truncating"></a>Troncamento
+Per i progetti di importazione, è possibile scegliere di troncare i record nelle entità prima dell'importazione. Questa opzione è utile se i record devono essere importati in un set di tabelle pulito. Per impostazione predefinita questa opzione è disattivata.
 
 ## <a name="validate-that-the-source-data-and-target-data-are-mapped-correctly"></a>Verificare che i dati di origine e i dati di destinazione siano mappati correttamente
 Il mapping è una funzione disponibile per i processi di importazione e quelli di esportazione.

@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
-ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
 ms.contentlocale: it-it
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -94,10 +94,7 @@ Per questo scenario, le impostazioni di configurazione per un magazzino e alcuni
 
 In **Visualizza registro di esecuzione** vengono fornite informazioni dettagliate su ciascuna entità di dati da importare. È possibile utilizzare la visualizzazione dei dati di gestione temporanea per visualizzare rapidamente i dati di destinazione. In questo modo, è possibile visualizzare come appaiono i dati importati nelle pagine correlate nell'applicazione. Quando si utilizzano i modelli di dati predefiniti, la sequenza di importazione per ogni entità di dati funziona in modo predefinito per garantire che tutti i dati dipendenti vengano importati per primi. Se le entità di dati personalizzate fanno parte del progetto, verificare che la sequenza corretta sia definita. Per ulteriori informazioni, vedere [Modelli di dati di configurazione](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Per ulteriori informazioni su come utilizzare il modello di magazzino per copiare la configurazione di un magazzino da una società a una nuova società all'interno della stessa istanza, guardare questo video di 3 minuti su YouTube.
-
-> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
-
+Per ulteriori informazioni su come utilizzare il modello di magazzino per copiare la configurazione di un magazzino da una società in una nuova società nella stessa istanza, vedere il video i 3 minuti su YouTube: [Utilizzare il modello di magazzino per copiare la configurazione di Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Argomento correlato
 
