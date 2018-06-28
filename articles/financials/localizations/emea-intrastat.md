@@ -1,6 +1,6 @@
 ---
 title: Intrastat
-description: In questo articolo vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
+description: In questo argomento vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ee60f3d1155b89d342b94832fbdbe898a5063c6
+ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
+ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
+In questo argomento vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
 
 Intrastat è il sistema per la raccolta e la generazione di statistiche sugli scambi commerciali tra paesi dell'Unione Europea. La dichiarazione Intrastat è richiesta ogni volta che un prodotto attraversa il confine di un altro paese UE. In più paesi, il report Intrastat si applica anche ai servizi. Gli elementi obbligatori e facoltativi possono essere raccolti nella dichiarazione Intrastat. Gli elementi seguenti sono obbligatori: numero di imposta sul valore aggiunto (IVA) della parte responsabile di immettere informazioni, il periodo di riferimento, il flusso (arrivo o spedizione), il codice di voce doganale di otto cifre, lo stato membro del partner (stato membro della spedizione negli arrivi e stato membro di destinazione delle spedizioni), il valore delle merci, la quantità delle merci (massa netto e unità supplementare) e la natura della transazione. Per i paesi/regioni è inoltre possibile raccogliere gli elementi facoltativi nelle varie condizioni. Alcuni elementi facoltativi sono il paese di origine, i termini di consegna, la modalità di trasporto, un codice di voce doganale più dettagliato che CN8, l'area di origine nelle spedizioni e l'area di destinazione degli arrivi, la procedura statistica, il valore statistico, una descrizione delle merci e il porto/aeroporto di carico/di scarico.
 
@@ -223,6 +223,7 @@ Utilizzare la pagina **Parametri per il commercio estero** per impostare i param
 </ul></li>
 <li><strong>Report elettronico</strong> Consente di specificare i riferimenti alle configurazioni del report elettroniche, in modo da poter generare un file elettronico e un report.</li>
 <li><strong>Gerarchia di codici di voce doganale</strong> Consente di specificare la gerarchia <strong>Codice di voce doganale</strong> di categorie di tipo che rappresenta il codice di voce doganale CN8 Intrastat.</li>
+  <li> <strong>Tipo di tasso di cambio</strong> - Facoltativamente, specificare un tasso di cambio da utilizzare per dichiarare le vendite Intrastat e le transazioni di acquisto in valuta estera. Questa opzione viene utilizzata se il tasso è diverso da quello applicato quando si registra la transazione.</li>  
 </ul></td>
 </tr>
 <tr class="even">
@@ -239,9 +240,5 @@ Utilizzare la pagina **Parametri per il commercio estero** per impostare i param
 </tr>
 </tbody>
 </table>
-
-
-
-
 
 

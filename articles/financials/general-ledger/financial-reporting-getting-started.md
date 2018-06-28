@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fecdca72839ef8ce204b62db6e02e8fa809a30d5
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -94,7 +94,7 @@ Report finanziari fornisce 22 report finanziari predefiniti. Ogni report utilizz
 | Dettagli controllo - Predefinito                                  | Consente di visualizzare le informazioni sul saldo per tutti i conti. Questo report mostra i saldi in dare e in avere nella valuta di dichiarazione e nella valuta locale, insieme a ulteriori informazioni sulle transazioni, ad esempio ID utente, utente che ha apportato l'ultima modifica ai dati, la data di ultima modifica e l'ID del giornale di registrazione. |
 | Elenco saldi - Predefinito                                   | Consente di visualizzare le informazioni sul saldo per tutti i conti. Questo report mostra i saldi di chiusura e di apertura e i saldi in dare e in avere per il periodo corrente e l'anno a oggi, insieme a ulteriori informazioni sulle transazioni, ad esempio il giustificativo.                                                                    |
 | Stato patrimoniale - Predefinito                                   | Consente di visualizzare la posizione finanziaria dell'organizzazione per l'anno.                                                                                                                                                                                                                                                             |
-| Stato patrimoniale e conto economico affiancati - Predefinito] | Consente di visualizzare in modalità affiancata la posizione finanziaria e la redditività dell'organizzazione per l'anno.                                                                                                                                                                                                                              |
+| Stato patrimoniale e conto economico affiancati- Predefinito | Consente di visualizzare in modalità affiancata la posizione finanziaria e la redditività dell'organizzazione per l'anno.                                                                                                                                                                                                                              |
 | Flusso di cassa - Predefinito                                       | Consente di visualizzare informazioni dettagliate sui contanti in entrata e in uscita dell'organizzazione.                                                                                                                                                                                                                                   |
 | Revisione dettagliata TB e JE – Predefinito                      | Consente di visualizzare informazioni su bilancio di apertura e attività per tutti i conti.                                                                                                                                                                                                                                                      |
 | Bilancio di verifica dettagliato - Predefinito                         | Consente di visualizzare informazioni sul saldo per tutti i conti con saldi in Avere e in Dare e l'importo netto di questi saldi, insieme alla data della transazione, al giustificativo e alla descrizione del giornale di registrazione.                                                                                                                                  |
@@ -117,12 +117,9 @@ Quando si fa clic sul menu **Report finanziari**, l'elenco dei report finanziari
 ## <a name="creating-and-modifying-financial-reports"></a>Creazione e modifica di report finanziari
 Nell'elenco dei report finanziari, è possibile creare un nuovo report o modificare un report esistente. Se si dispone delle autorizzazioni appropriate, è possibile creare un nuovo report finanziario facendo clic su **Nuovo** nel riquadro azioni. Viene scaricato un programma di progettazione nel dispositivo. Dopo aver avviato la progettazione report, è possibile creare il nuovo report. Dopo aver salvato il nuovo report, verrà visualizzato nell'elenco dei report finanziari. Nell'elenco vengono visualizzati solo i report creati per la società utilizzata in Finance and Operations. Per ulteriori informazioni sul processo di creazione e di modifica dei report finanziari in Finance and Operations, fare riferimento a questi [post di blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) nel blog della funzionalità di report finanziari di Dynamics. **Nota:** nel computer su cui si scarica il client per la progettazione di report è necessario che sia installata la versione 4.6.2 di Microsoft .NET Framework. È possibile scaricare e installare questa versione di Microsoft .NET Framework da [qui](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Se si utilizza Chrome, è necessario installare l'estensione ClickOnce per scaricare il client per la progettazione di report. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. È anche possibile modificare un report che viene visualizzato nell'elenco dei report finanziari. Quando l'area attorno al nome del report è selezionata, fare clic si **Modifica** nel Riquadro azioni. Il programma di progettazione report viene avviato.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
-
-[Visualizzare i report finanziari](view-financial-reports.md)
-
-[Glog sui report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+## <a name="additional-resources"></a>Risorse aggiuntive
+- [Visualizzare i report finanziari](view-financial-reports.md)
+- [Glog sui report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

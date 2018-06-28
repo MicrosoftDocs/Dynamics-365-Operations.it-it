@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: it-it
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ Questo argomento descrive come un amministratore può attivare le funzionalità 
     > Le posizioni lavorative pubblicate sono visibili solo ai clienti che effettuano la sottoscrizione a uno o più prodotti LinkedIn relativi alle posizioni lavorative. In caso contrario, i clienti vedranno una posizione lavorativa solo se la cercano. Le posizioni lavorative pubblicate su LinkedIn non sono visibili immediatamente. È possibile che lo diventino dopo alcune ore dalla pubblicazione eseguita da Attract.
 
 - **Applicazione candidato** – Ora i candidati interni ed esterni possono inviare la loro candidatura direttamente dalla pagina delle posizioni lavorative sul sito delle carriere.
-- **Valutazioni** - Durante il processo di assunzione configurabile, per una specifica posizione lavorativa o quando si utilizza un modello posizioni lavorative, gli utenti hanno ora accesso a un nuovo tipo di attività **Valutazione**. Possono quindi utilizzare l'app Project: "Gauge" in Talent per creare valutazioni di base da inviare ai candidati. Project: "Gauge" è anche disponibile nell'anteprima pubblica. Dei fornitori supplementari verranno aggiunti in futuro.
-- **Project: "Gauge"** – Project: "Gauge" è un app in Talent che consente agli utenti di creare semplici valutazioni o sondaggi.
 - **Gestione offerta** – Gli utenti possono ora creare lettere di offerta a partire da modelli che includono segnaposto. A mano a mano che i candidati avanzano nella fase di offerta, i reclutatori e i responsabili assunzioni possono utilizzare lo strumento Offerta per preparare un'offerta formale di un candidato tramite modelli, inviare l'offerta per l'approvazione interna e inviare l'offerta al candidato per la firma. Molte nuove funzioni saranno aggiunte allo strumento Offerta nel tempo e la funzionalità in anteprima verrà aggiornata con queste funzioni non appena saranno pronte per il rilascio in anteprima.
 
 ### <a name="core-hr"></a>Core HR
@@ -90,7 +88,7 @@ Indipendentemente che il riscontro sia positivo o negativo, vogliamo ricevere co
     - [Idee per Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-Si raccomanda di non includere dati personali (qualsiasi informazione che possa consentire l'identificazione dell'utente) nel riscontro o nei commenti sul prodotto inviati. Le informazioni raccolte potrebbero essere analizzate ulteriormente e non saranno utilizzate per soddisfare richieste in base alle normative sulla privacy applicabili. I dati personali raccolti separatamente in questi programmi sono soggetti all'[Informativa sulla privacy di Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+Si raccomanda di non includere dati personali (qualsiasi informazione che possa consentire l'identificazione dell'utente) nel riscontro o nei commenti sul prodotto inviati. Le informazioni raccolte potrebbero essere analizzate ulteriormente e non saranno utilizzate per soddisfare richieste in base alle normative sulla privacy applicabili. I dati personali raccolti separatamente in questi programmi sono soggetti all'[Informativa sulla privacy di Microsoft](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Si consiglia di aggiungere questo argomento ai Preferiti per mantenersi aggiornati sulle nuove funzionalità in anteprima che vengono rilasciate.

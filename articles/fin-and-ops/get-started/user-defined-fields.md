@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: f2aa55ae4258f5ef81456b92278415297c194d66
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -34,10 +34,7 @@ Sebbene Microsoft Dynamics 365 for Finance and Operations fornisca un ampio set 
 
 La possibilità di aggiungere campi personalizzati è disponibile nell'aggiornamento piattaforma 13 e successivi.
 
-Questo video mostra quanto sia facile aggiungere un campo personalizzato a una pagina.
-
-
-> [!Video https://www.youtube.com/embed/gWSGZI9Vtnc]
+Questo video spiega quanto sia semplice aggiungere un campo personalizzato a una pagina: [Aggiunta di campi personalizzati in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
 ## <a name="creating-custom-fields"></a>Creazione di campi personalizzati
 Dopo aver identificato ulteriori informazioni che desideri monitorare nell'applicazione, è possibile creare il campo personalizzato nella tabella appropriata ed esporre il nuovo campo in una pagina.   
