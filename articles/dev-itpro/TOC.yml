@@ -848,7 +848,7 @@
           href: financial/read-only-entity-financial.md
     - name: Portare il proprio database
       href: analytics/export-entities-to-your-own-database.md
-    - name: Automazione dati attività
+    - name: Automazione attività dati
       href: data-entities/data-task-automation.md
     - name: Risorse per la risposta a una richiesta di GDPR
       href: gdpr/gdpr-home-page.md
@@ -1014,6 +1014,8 @@
           href: deployment/apply-deployable-package-system.md
         - name: Installare un pacchetto distribuibile
           href: deployment/install-deployable-package.md
+        - name: Disinstallare un pacchetto
+          href: deployment/uninstall-deployable-package.md
         - name: Risolvere i problemi relativi alle applicazioni del pacchetto
           href: deployment/deployable-package-troubleshooting.md
 - name: Aggiornamenti e hotfixes
