@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: it-it
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Come parte dei miglioramenti alla funzionalità di registrazione dei rendiconti,
 - **Disabilita conteggio richiesto** – Quando questa opzione è impostata su **Sì**, il processo di registrazione per un rendiconto continua, anche se la differenza tra l'importo conteggiato e l'importo della transazione nel rendiconto non rientra nella soglia definita nella Scheda dettaglio **Rendiconto** per Punti vendita al dettaglio.
 
 Inoltre, il campo **Numero massimo di registrazioni rendiconti paralleli** è stato introdotto nella Scheda dettaglio **Elaborazione batch**. Questo campo definisce il numero di attività batch che è possibile eseguire contemporaneamente. Attualmente, è necessario impostare manualmente il valore di questo campo.
+
+Inoltre, con il nuovo processo di registrazione, è necessario definire un **Prodotto gift card** nella FastTab **Gift card** della scheda **Registrazione** della pagina **Parametri di vendita al dettaglio**. Ciò si verifica anche se nessuna gift card verrà utilizzata dall'organizzazione. 
 
 Tenere presente che tutti i parametri e le impostazioni correlati alle registrazioni dei rendiconti e definiti nella pagina **Punti vendita al dettaglio** sono applicabili alla funzionalità di registrazione dei rendiconti migliorata.
 
