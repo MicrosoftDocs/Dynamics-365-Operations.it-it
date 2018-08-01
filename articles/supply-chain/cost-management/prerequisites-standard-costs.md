@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
+ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
 ms.contentlocale: it-it
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -51,7 +51,7 @@ Prima di definire le regole di registrazione articoli, utilizzare il modulo **Co
 
 **4. Definire parametri di Gestione articoli correlati ai costi standard.** 
 
--  Utilizzare la scheda **Distinte base** nella pagina **Parametri Gestione articoli** per definire due parametri di controllo dei costi correlati ai costi standard. 
+-  Utilizzare la scheda **Contabilità inventario** nella pagina **Impostazione criteri contabili inventario > Parametri** per definire due parametri di controllo dei costi correlati ai costi standard.
 
     -  Nel campo **Scomposizione costi** selezionare **Nessuna** o **Contabilità secondaria**. Se si seleziona **Contabilità secondaria**, la scomposizione dei costi sarà una scomposizione costi *attiva*. La scomposizione dei costi attiva è fondamentale per il calcolo, il mantenimento e la visualizzazione della segmentazione per gruppi di costi in una struttura di prodotti multilivello per voci di costo standard. Quando la scomposizione dei costi è attiva, è possibile eseguire il reporting e l'analisi dell'inventario, di WIP e del costo del venduto (COGS) per gruppo di costi in un formato a livello singolo, multilivello o totale. Quando la scomposizione dei costi è attiva, se si attiva un costo di un articolo prodotto, questo determina l'archiviazione della segmentazione dei gruppi di costi nel record del costo dell'articolo. 
 

@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2177110dc16528de7eddedb0667faae553a36b12
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
 ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -54,9 +54,13 @@ Le regole devono inoltre essere aggiornate periodicamente ogni volta che vengono
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
+### <a name="whats-new"></a>Novità
 
-Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle che sono in via di sviluppo. 
+Andare alle [Note sulla versione](https://docs.microsoft.com/en-us/business-applications-release-notes/) per una visualizzazione delle nuove funzionalità che sono state rilasciate. 
+
+### <a name="videos"></a>Video
+
+Controllare i video illustrativi disponibili nel [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>Blog
 
@@ -66,11 +70,8 @@ Sono disponibili numerosi post sulla contabilità generale nel [blog del team di
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 
-### <a name="task-guides"></a>Guide attività
-Informazioni aggiuntive sono disponibili come guide attività in Finance and Operations. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.
+#### <a name="community-blogs"></a>Blog della Community
 
-### <a name="videos"></a>Video
-
-Controllare i video illustrativi disponibili nel [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+- [Informazioni di cui è necessario disporre sulla contabilità generale in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
 

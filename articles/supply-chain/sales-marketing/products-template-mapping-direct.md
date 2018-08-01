@@ -3,7 +3,7 @@ title: Sincronizzare prodotti direttamente da Finance and Operations con prodott
 description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i prodotti da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ Il campo **Gestito esternamente** garantisce che solo le offerte e gli ordini cl
 I prodotti gestiti esternamente vengono aggiunti automaticamente al primo listino prezzi valido con la stessa valuta. I listini prezzi sono organizzati alfabeticamente per nome. Il prezzo di vendita di un prodotto da Finance and Operations viene utilizzato come prezzo nel listino prezzi. Di conseguenza, un listino prezzi deve esistere in Sales per ogni valuta di vendita prodotti in Finance and Operations. La valuta sui prodotti vendibili rilasciati viene impostata sulla valuta di contabilità nella persona giuridica da cui il prodotto viene esportato.
 
 > [!NOTE]
-> La sincronizzazione del prodotto non riuscirà a meno che non sia presente un listino prezzi con una valuta corrispondente.
+> - La sincronizzazione del prodotto non riuscirà a meno che non sia presente un listino prezzi con una valuta corrispondente.
+> - È possibile controllare il listino prezzi con l'integrazione mappando il pricelevelid.name [listino prezzi predefinito (nome)] nel progetto di integrazione dei dati. L'input deve essere in tutte lettere minuscole. Ad esempio, l'impostazione predefinita per un listino prezzi di vendita con il nome "standard" sarebbe: Campo di destinazione: pricelevelid.name [listino prezzi predefinito (nome)] e Tipo mappa: [ { "transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Prerequisiti e impostazioni di mapping
 
