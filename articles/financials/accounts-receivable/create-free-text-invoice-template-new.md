@@ -3,7 +3,7 @@ title: Creare un modello di fattura a testo libero
 description: Questa procedura illustra come creare un modello di fattura a testo libero.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 05/29/2019
+ms.date: 05/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
