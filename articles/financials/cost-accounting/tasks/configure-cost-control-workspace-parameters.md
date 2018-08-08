@@ -1,7 +1,7 @@
 --- 
 title: Configurare i parametri dell'area di lavoro controllo costi
 description: Utilizzare questa procedura per configurare l'area di lavoro di controllo costi in modo che i responsabili a diversi livelli di un'organizzazione possano ottenere dati approfonditi per gli oggetti di costo, ad esempio centri di costo e gruppi di prodotti.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
@@ -9,10 +9,10 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
