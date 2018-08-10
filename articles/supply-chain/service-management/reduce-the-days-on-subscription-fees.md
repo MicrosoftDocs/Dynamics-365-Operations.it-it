@@ -1,7 +1,7 @@
 ---
 title: Ridurre i giorni delle commissioni di sottoscrizione
 description: "Per ridurre il numero di giorni di commissione di una sottoscrizione presente, è possibile creare una nuova transazione in cui rimuovere il periodo che non deve più far parte dell'intervallo relativo alle commissioni della sottoscrizione."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMASubscriptionTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

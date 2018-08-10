@@ -1,7 +1,7 @@
 ---
 title: "Creare relazioni di attività di assistenza tecnica"
 description: "È possibile associare le attività di assistenza tecnica a contratti di assistenza o ordini di assistenza in modo da descrivere l'attività di assistenza tecnica da completare per il contratto o l'ordine."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

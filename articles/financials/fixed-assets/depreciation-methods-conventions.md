@@ -1,7 +1,7 @@
 ---
 title: Metodi e convenzioni di ammortamento
 description: Questo articolo fornisce una panoramica delle convenzioni e dei metodi di ammortamento che sono supportati da Microsoft Dynamics 365 for Finance and Operations.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetDepreciationProfile, AssetGroupBookSetup, AssetGroupDepBookSetup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae

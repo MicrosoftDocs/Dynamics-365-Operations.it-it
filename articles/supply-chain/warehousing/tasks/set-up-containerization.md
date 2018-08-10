@@ -1,7 +1,7 @@
 --- 
 title: Impostare la containerizzazione
 description: Questa procedura descrive come automatizzare la containerizzazione dei carichi in Gestione magazzino.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution

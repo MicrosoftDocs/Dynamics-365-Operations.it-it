@@ -1,7 +1,7 @@
 ---
 title: Conti di registrazione acquisizione cespiti
 description: "Questo articolo illustra come impostare i conti di registrazione della contabilità generale per l'acquisizione dei cespiti."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetPosting
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959

@@ -1,7 +1,7 @@
 ---
 title: Fasi dell'ordine di assistenza
 description: "Tramite la definizione delle fasi di un ordine di assistenza e la loro assegnazione ai lavoratori, è possibile controllare il flusso di un ordine di assistenza tramite le attività che varie persone eseguono nell'organizzazione che presta tale servizio."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable, SMAStageTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

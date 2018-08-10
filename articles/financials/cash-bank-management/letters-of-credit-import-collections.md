@@ -1,7 +1,7 @@
 ---
 title: Lettere di credito e pagamenti all'importazione
 description: Questo articolo fornisce informazioni generali sulle le previsioni informazioni generali sulle lettere di credito e sui pagamenti all'importazione. Entrambi i tipi di documenti bancari sono spesso utilizzati per la compravendita di merci tra paesi diversi.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankLCImport
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 18321
 ms.assetid: 5c97ab81-632b-4043-a940-674bcb496c80

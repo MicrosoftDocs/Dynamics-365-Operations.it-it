@@ -1,7 +1,7 @@
 ---
 title: Elaborazione giornale di registrazione generale
 description: "Questo articolo descrive le funzionalità di Microsoft Dynamics 365 for Finance and Operations che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef

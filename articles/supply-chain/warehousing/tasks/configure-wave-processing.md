@@ -1,7 +1,7 @@
 --- 
 title: Configurare l'elaborazione di ondate
 description: In questo guida viene descritto come impostare i criteri che determinano quale lavoro viene generato per un magazzino quando viene elaborata un'ondata e se le ondate vengono elaborate manualmente o automaticamente.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/07/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution

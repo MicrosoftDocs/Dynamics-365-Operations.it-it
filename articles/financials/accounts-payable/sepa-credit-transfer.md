@@ -1,7 +1,7 @@
 ---
 title: Panoramica dei bonifici SEPA
 description: "Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

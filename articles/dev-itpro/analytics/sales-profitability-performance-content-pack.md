@@ -1,7 +1,7 @@
 ---
 title: Contenuto Power BI per prestazioni di vendita e profitto
 description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI Prestazioni di vendita e redditività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Panoramica sull'aggiornamento dei registri beni ammortizzabili
 description: "Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti: modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 for Operations (1611), le funzionalità dei modelli di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro. In questo argomento vengono fornite alcune considerazioni per l'aggiornamento."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221624
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39

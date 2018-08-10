@@ -1,7 +1,7 @@
 ---
 title: Integrazione della pianificazione del budget con altri moduli
 description: "I piani di budget possono essere generati tramite molteplici risorse differenti. Gli elementi di base del processo periodico sono uguali per tutte le risorse."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanGenerate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490

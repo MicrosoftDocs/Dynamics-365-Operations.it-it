@@ -1,7 +1,7 @@
 --- 
 title: Creare transazioni IVA su documenti
 description: L'IVA sui documenti viene calcolata immettendo una fascia IVA e una fascia IVA articoli nelle righe del documento.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman
