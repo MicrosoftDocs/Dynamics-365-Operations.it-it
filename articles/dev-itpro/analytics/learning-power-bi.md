@@ -65,5 +65,3 @@ I seguenti dati vengono utilizzati per compilare i report nel contenuto **Learni
 | Nome dipendente    | Nome, cognome e nome completo                             | Partecipanti al corso |
 | Posizione del dipendente   | Titolo e data di anzianità                                         | Partecipanti al corso |
 
-
-
