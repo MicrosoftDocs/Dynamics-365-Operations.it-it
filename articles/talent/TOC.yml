@@ -1,29 +1,33 @@
-- name: Dynamics 365 for Talent
+- name: Benvenuto in Dynamics 365 for Talent
   href: index.md
   items:
-    - name: Introduzione
+    - name: Per iniziare
       href: talent-get-started.md
       items:
+        - name: Novità o modifiche
+          items:
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (luglio 2018)
+              href: whats-new-talent-july2018.md
         - name: Requisiti di sistema e criteri di aggiornamento
           href: talent-versions-update-policy.md
-        - name: Eseguire il provisioning di Microsoft Dynamics 365 for Talent
+        - name: Eseguire il provisioning di Talent
           href: provisioning-talent.md
-        - name: Rimuovere un ambiente Talent
+        - name: Rimuovere ambienti Talent
           href: remove-talent-environment.md
-        - name: Eseguire il provisioning delle app modulari di Microsoft Dynamics 365 for Talent
+        - name: Provisioning delle app modulari Talent
           href: modular-app-tech-faq.md
         - name: Estendere le funzionalità di Talent
           href: extend-talent-functionality.md
-        - name: Accesso alle funzionalità di anteprima in Dynamics 365 for Talent
+        - name: Accedere alle funzionalità di anteprima
           href: access-preview-feature.md
-        - name: Configurare Talent per supportare l'integrazione delle retribuzioni
+        - name: Configurare l'integrazione retribuzioni tra Talent e Dayforce
           href: configure-payroll-integration.md
-    - name: Sviluppare una strategia delle risorse umane
+    - name: 'Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni'
       href: departments-jobs-positions.md
       items:
-        - name: Impostare i componenti di processo
+        - name: Impostare i componenti di una mansione
           href: create-job.md
-        - name: Creare un reparto e associarlo alla gerarchia reparti
+        - name: Creare i reparti e includerli nella gerarchia reparti
           href: create-department-add-department-hierarchy.md
         - name: Impostare i parametri di Risorse umane per le persone giuridiche
           href: set-up-hr-parameters-across-legal-entities.md
@@ -33,15 +37,15 @@
           href: personnel-actions-faq.md
         - name: Formalizzare i processi aziendali
           href: formalize-business-processes.md
-        - name: Utilizzare il flusso di lavoro per gestire le informazioni del dipendente
+        - name: Utilizzare flussi di lavoro per gestire le informazioni del dipendente
           href: workflow-manage-employee-information.md
-        - name: Panoramica di congedo e assenza
+        - name: Gestione di congedo e assenza
           href: leave-absence-overview.md
     - name: Assunzioni personale nell'organizzazione
       items:
-        - name: Panoramica di Attract
+        - name: Attirare funzionalità e capacità
           href: attract-overview.md
-        - name: Panoramica di Onboard
+        - name: Creare un esperienza di integrazione coinvolgente
           href: create-onboarding-experience.md
     - name: Motivare i dipendenti
       items:
@@ -55,13 +59,13 @@
           href: process-compensation.md
     - name: Gestire lo sviluppo e la formazione dei dipendenti
       items:
-        - name: Panoramica della gestione delle prestazioni
+        - name: Gestione delle prestazioni
           href: performance-management-overview.md
         - name: Allineare le competenze della forza lavoro alle esigenze aziendali
           href: skills.md
         - name: Impostare i corsi di formazione
           href: courses.md
-    - name: Creare e gestire benefit
+    - name: Definire e gestire un programma di benefit
       href: manage-benefit-program.md
     - name: Criteri di idoneità benefit
       href: benefit-eligibility-policies.md
@@ -71,17 +75,134 @@
     - name: Raccogliere informazioni tramite questionari
       href: questionnaires.md
       items:
-        - name: Progettare un questionario
+        - name: Progettare questionari
           href: design-questionnaires.md
-        - name: Distribuire e completare un questionario
+        - name: Distribuire e programmare questionari
           href: distribute-questionnaires.md
-        - name: Valutare i risultati di un questionario
+        - name: Visualizzare e valutare i risultati dei questionari
           href: evaluate-questionnaire-results.md
     - name: Conformità e sicurezza sul posto di lavoro (Stati Uniti)
       items:
         - name: Rispondere a una richiesta di dati personali tramite Talent
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Verifica di impiego del modulo I-9
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Conformità ad ADA
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Intelligence
+      items:
+        - name: Power BI Embedded nelle aree di lavoro
+          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: App per dispositivi mobili
+      items:
+        - name: Aree di lavoro mobili
+          items:
+            - name: Directory società
+              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Team personale
+              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Pubblicare un'area di lavoro mobile
+          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Integrazione di Office
+      items:
+        - name: Esercitazione sull'integrazione di Office
+          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Utilizzare il componente aggiuntivo di Excel
+          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Creare esperienze Apri in Excel
+          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Risolvere i problemi relativi all'integrazione di Office
+          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Amministrazione organizzazione
+      items:
+        - name: Sequenze numeriche
+          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Impostare sequenze numeriche singole
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Impostazione guidata sequenze numeriche
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Organizzazioni e gerarchie organizzative
+          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Pianificazione della gerarchia organizzativa
+              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Creare una gerarchia organizzativa
+              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Creare una persona giuridica
+              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Creare una unità operativa
+              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Rubrica globale
+          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Pianificare come configurare la rubrica globale
+              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Configurare la rubrica globale
+              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Domande frequenti sulle rubriche
+              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Flusso di lavoro
+          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Elementi del flusso di lavoro
+              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Azioni flusso di lavoro
+              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Creare un flusso di lavoro
+              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+              items:
+                - name: Configurare le proprietà del flusso di lavoro
+                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Configurare un'attività manuale
+                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Configurare un'attività automatica
+                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Configurare un processo di approvazione
+                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Configurare un passaggio di approvazione
+                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Configurare una decisione manuale
+                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Configurare una decisione condizionale
+                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Configurare un'attività parallela
+                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Configurare un ramo parallelo
+                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Configurare un flusso di lavoro voci
+                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Configurare il processo batch di elaborazione messaggi
+              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Delegare elementi di lavoro in un flusso di lavoro
+              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Visualizzare lo storico flusso di lavoro
+              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Consentire agli utenti di ricevere messaggi di posta elettronica correlati ai flussi di lavoro
+              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Avvisi
+          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Creare avvisi
+              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Elaborazione batch per gli avvisi
+              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Case Management
+          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: 'Configurare la sicurezza, i processi e le categorie dei casi'
+              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Configurare la gestione dei documenti
+          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Configurare e inviare messaggi di posta elettronica
+          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Dati di data/ora e fusi orari
+          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Attività delle Risorse umane
+      items:
+        - name: Aggiungere una voce al giornale di registrazione delle prestazioni e inviare complimento a un utente
+          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Creare un obiettivo
+          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Creare una revisione delle prestazioni
+          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
