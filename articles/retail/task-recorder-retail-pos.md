@@ -1,5 +1,5 @@
 ---
-title: "Registrazione attività e Guida per il POS"
+title: "Registrazione attività e Guida per Retail Modern POS (MPOS) e Cloud POS"
 description: "In questo argomento viene descritto come usare Registrazione attività in Retail Modern POS e Cloud POS."
 author: mugunthanm
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 12aa71843fa8b22eb7ae688ed3600168760d90da
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 0077bac6eef5c4b4925c9464d47a1297aa1177e4
 ms.contentlocale: it-it
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="task-recorder-and-help-for-pos"></a>Registrazione attività e Guida per il POS
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Registrazione attività e Guida per Retail Modern POS (MPOS) e Cloud POS
 
 [!include [banner](includes/banner.md)]
 
@@ -36,7 +36,7 @@ In questo argomento viene descritto come usare Registrazione attività in Retail
 <a name="overview"></a>Panoramica
 --------
 
-Registrazione attività di Retail Modern POS o Cloud POS è una soluzione nuova generata con lo stato attivo sull'alta reattività. Fornisce un'API flessibile per l'estensibilità e l'integrazione semplificata con i consumatori delle registrazioni di processi aziendali. Inoltre, l'integrazione di Registrazione attività con lo strumento Modellatore di processi aziendali in Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) è stata spostata in avanti. Di conseguenza, gli utenti possono continuare a produrre diagrammi complessi di processi aziendali dalle registrazioni per analizzare e progettare le applicazioni.
+Registrazione attività di Retail Modern POS o Cloud POS è una soluzione nuova generata con lo stato attivo sull'alta reattività. Fornisce un'API flessibile per l'estensibilità e l'integrazione semplificata con i consumatori delle registrazioni di processi aziendali. Inoltre, l'integrazione di Registrazione attività con lo strumento Modellatore di processi aziendali in Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) è stata portata avanti. Di conseguenza, gli utenti possono continuare a produrre diagrammi complessi di processi aziendali dalle registrazioni per analizzare e progettare le applicazioni.
 
 ## <a name="architecture"></a>Architettura
 Registrazione attività può registrare le azioni dell'utente del client con fedeltà esatta. Ogni controllo è strumentato per informare la Registrazione attività sull'esecuzione di un'azione dell'utente. Il controllo notifica alla Registrazione attività che si è verificato un evento e passa tutte le informazioni rilevanti sull'azione dell'utente corrispondente in tempo reale. In queste informazioni, la funzione Registrazione attività può acquisire il tipo di azione dell'utente (ad esempio il clic su un pulsante, l'immissione di un valore o un percorso) e tutti i dati correlati all'azione dell'utente (ad esempio il valore e il tipo di dati di input, il contesto del modulo o del record). Registrazione attività memorizza le informazioni con sufficienti dettagli per garantire che una riproduzione della registrazione può eseguire le azioni registrate esattamente come eseguite dall'utente. La funzionalità di riproduzione non è ancora stata implementata in Retail Modern POS o Cloud POS.

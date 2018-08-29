@@ -1,5 +1,5 @@
 --- 
-title: Mappare i modelli per utilizzare le dimensioni finanziarie come origine dati
+title: Mappare i modelli per utilizzare le dimensioni finanziarie come origini dati
 description: "I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un modello per la creazione di report elettronici in modo che utilizzi dimensioni finanziarie come origine dati per i report elettronici."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c26713a8a391f9f10a6e24f6619c24c1615d4560
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 4d9c0f50a724582941ac11e4f01b3cfd3b1cf262
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="map-models--to-use-financial-dimensions-as-a-data-source"></a>Mappare i modelli per utilizzare le dimensioni finanziarie come origine dati 
+# <a name="map-models-to-use-financial-dimensions-as-data-sources"></a>Mappare i modelli per utilizzare le dimensioni finanziarie come origini dati 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Distribuire e completare un questionario
+title: Distribuire e programmare questionari
 description: In questo argomento viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili alla persona o al gruppo di persone che li dovranno completare.
 author: kherr75
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 61aebf9190bd7f76a8d4d3e80c06adae1d27f7a3
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: eafcb047117eab73fddbd93c4c1d0aafb0023ebd
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="distribute-and-complete-a-questionnaire"></a>Distribuire e completare un questionario
+# <a name="distribute-and-schedule-questionnaires"></a>Distribuire e programmare questionari
 
 [!include [banner](includes/banner.md)]
 

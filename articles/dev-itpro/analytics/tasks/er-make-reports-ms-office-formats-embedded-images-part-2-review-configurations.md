@@ -1,5 +1,5 @@
 --- 
-title: Verificare le configurazioni per creare i report nei formati Microsoft Office con immagini incorporate
+title: Esaminare le configurazioni per generare report in formato di Office con immagini incorporate
 description: "Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività \"ER Creare report in formati di Microsoft Office con immagini incluse (Parte 1: Generare i report)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Verificare le configurazioni per creare i report nei formati Microsoft Office con immagini incorporate
+# <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Esaminare le configurazioni per generare report in formato di Office con immagini incorporate
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

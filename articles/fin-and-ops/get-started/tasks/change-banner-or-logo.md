@@ -1,5 +1,5 @@
 --- 
-title: Modificare banner o logo
+title: Modificare i banner o le immagini di logo per le persone giuridiche
 description: La procedura riportata di seguito elenca i passaggi che gli amministratori di sistema possono utilizzare per aggiornare l'immagine di logo o banner visualizzata per una persona giuridica.
 author: aneesmsft
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 33be31a8806b5db265fbb45d180997623d475a87
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="change-the-banner-or-logo"></a>Modificare banner o logo
+# <a name="change-the-banners-or-logo-images-for-legal-entities"></a>Modificare i banner o le immagini di logo per le persone giuridiche
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

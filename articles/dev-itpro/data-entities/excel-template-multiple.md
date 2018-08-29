@@ -1,5 +1,5 @@
 ---
-title: "Importare i dati dai modelli di entità di dati di Excel con più fogli di lavoro"
+title: "Importare i dati dai modelli di entità di dati di Excel che hanno più fogli di lavoro"
 description: "In questo argomento viene descritto come importare i dati mediante modelli di entità di dati Excel in Microsoft Dynamics 365 for Finance and Operations."
 author: Sunil-Garg
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="excel-templates-with-multiple-worksheets"></a>Modelli di Excel con più fogli di lavoro
+# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Importare i dati dai modelli di entità di dati di Excel che hanno più fogli di lavoro
 
 [!include [banner](../includes/banner.md)]
 

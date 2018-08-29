@@ -1,5 +1,5 @@
 --- 
-title: Progettare espressioni per chiamare i metodi delle classi dell'applicazione (ER)
+title: Progettare espressioni di ER per chiamare i metodi delle classi dell'applicazione
 description: In questo manuale sono disponibili informazioni su come riutilizzare la logica dell'applicazione esistente nelle configurazioni dei report elettronici (ER) chiamando i metodi richiesti delle classi dell'applicazione nelle espressioni ER.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-expressions-to-call-application-class-methods-er"></a>Progettare espressioni per chiamare i metodi delle classi dell'applicazione (ER)
+# <a name="design-er-expressions-to-call-application-class-methods"></a>Progettare espressioni di ER per chiamare i metodi delle classi dell'applicazione
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

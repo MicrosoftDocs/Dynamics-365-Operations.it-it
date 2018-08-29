@@ -1,5 +1,5 @@
 --- 
-title: Creare il formato per il conteggio e la somma
+title: Creare formati di creazione di report elettronici per eseguire somme e conteggi
 description: "I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che esegua calcoli e somme in base ai dati dell'output di testo già generato."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7613b78d4a9ab63f5be9773a8699fe3ed94636eb
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 7261a2324b61cacfca8d69ad52762aa545b70220
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-format-for-counting-and-summing"></a>Creare il formato per il conteggio e la somma 
+# <a name="create-electronic-reporting-er-formats-to-do-counting-and-summing"></a>Creare formati di creazione di report elettronici (ER) per eseguire somme e conteggi
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

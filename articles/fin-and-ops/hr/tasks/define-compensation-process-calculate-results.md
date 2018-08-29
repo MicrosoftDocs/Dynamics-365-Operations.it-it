@@ -1,5 +1,5 @@
 --- 
-title: Definire il processo retributivo e calcolare i risultati
+title: Definire i processi retributivi e calcolare i risultati
 description: I processi di retribuzione vengono utilizzati per determinare nuovi importi e premi di retribuzione per i dipendenti iscritti ai piani di retribuzione variabile e fissa.
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 350c18eb63e41da2cc26e2fd235a54ea5de2d990
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="define-compensation-process-and-calculate-results"></a>Definire il processo retributivo e calcolare i risultati
+# <a name="define-compensation-processes-and-calculate-results"></a>Definire i processi retributivi e calcolare i risultati
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

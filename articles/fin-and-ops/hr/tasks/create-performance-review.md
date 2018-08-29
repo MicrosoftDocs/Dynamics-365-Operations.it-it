@@ -1,5 +1,5 @@
 --- 
-title: Creare una revisione delle prestazioni
+title: Creare revisioni delle prestazioni
 description: In questa procedura viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione.
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4675a78b47ae922a570e4975c2cce68ac0d76d5a
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 98244443e5e0b3558d8b95043c78258a57d71a28
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-performance-review"></a>Creare una revisione delle prestazioni
+# <a name="create-performance-reviews"></a>Creare revisioni delle prestazioni
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

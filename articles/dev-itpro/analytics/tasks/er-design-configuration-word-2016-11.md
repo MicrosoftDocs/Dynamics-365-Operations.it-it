@@ -1,5 +1,5 @@
 --- 
-title: Progettare una configurazione per la generazione di report in formato Microsoft Word per la creazione di report elettronici (ER)
+title: Progettare le configurazioni di ER per generare report in formato di Word
 description: "I passaggi seguenti descrivono come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici può configurare formati per la creazione di report elettronici (ER) per generare i report elettronici come file di Microsoft Word."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
-ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
 ms.contentlocale: it-it
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Progettare una configurazione per la generazione di report in formato Microsoft Word per la creazione di report elettronici (ER)
+# <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Progettare le configurazioni di ER per generare report in formato di Word
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -63,7 +63,7 @@ Questa procedura è per una funzionalità che è stata aggiunta in Microsoft Dyn
     * Oltre ad archiviare le modifiche apportate alla configurazione, l'azione Salva aggiorna anche il modello di Word associato. La struttura del formato previsto viene trasferita al documento Word associato come nuova parte XML personalizzata con il nome 'Report'. Si noti che il modello di Word associato non contiene solo il layout di documento da generare come output ER, ma anche la struttura dei dati che ER inserisce nel modello in fase di esecuzione.  
 2. Fare clic su Allegati.
     * Successivamente è necessario associare gli elementi alla parte XML personalizzata 'Report' alle parti del documento di Word.  
-    * Se si ha dimestichezza con i documenti Word che possono essere gestiti come moduli contenenti controlli di contenuto associati agli elementi delle parti XML personalizzate, eseguire tutti i passaggi della sottoattività successiva per creare un tipo di documento. Per ulteriori informazioni, vedere questo collegamento https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. In caso contrario, ignorare tutti i passaggi della sottoattività successiva.  
+    * Se si ha dimestichezza con i documenti Word che possono essere gestiti come moduli contenenti controlli di contenuto associati agli elementi delle parti XML personalizzate, eseguire tutti i passaggi della sottoattività successiva per creare un tipo di documento. Per altri dettagli, seguire questo collegamento: https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US In caso contrario, ignorare tutti i passaggi della sottoattività successiva.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Utilizzare Word con la parte XML personalizzata per effettuare le associazioni di dati
     * Aprire il documento in Word e effettuare le seguenti operazioni: - Aprire la scheda Sviluppatore di Word (personalizzare la barra multifunzione se non è ancora attivata).  - Selezionare il riquadro di mapping XML.  - Selezionare la parte XML personalizzata ‘Report’ nella ricerca.  - Eseguire il mapping degli elementi della parte XML personalizzata selezionata e dei controlli di contenuto del documento Word.  - Salvare il documento Word aggiornato in un'unità locale.  

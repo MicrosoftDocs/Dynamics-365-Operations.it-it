@@ -1,5 +1,5 @@
 ---
-title: Intelligence
+title: Home page di business intelligence (BI) e creazione di report
 description: "In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="intelligence"></a>Intelligence
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Home page di business intelligence (BI) e creazione di report
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,13 +43,13 @@ Gli utenti possono interagire con i dati facendo clic su o toccando gli oggetti 
 
 ![Esempio di Power BI in un'area di lavoro](./media/Power-BI-in-D365-Workspace.png)
 
- Per ulteriori informazioni, vedere gli argomenti seguenti:
+Per ulteriori informazioni, vedere gli argomenti seguenti:
 
- - [Power BI Embedded nelle aree di lavoro](embed-power-bi-workspaces.md)
- - [Integrazione di Power BI Embedded](power-bi-embedded-integration.md)
- - [Aggiungere l'analisi alle aree di lavoro tramite Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Proteggere le aree di lavoro e i report analitici con Power BI Embedded](secure-analytical-workspaces.md)
- - [Contenuto di Power BI per Finance and Operations](power-bi-home-page.md)
+- [Power BI Embedded nelle aree di lavoro](embed-power-bi-workspaces.md)
+- [Integrazione di Power BI Embedded](power-bi-embedded-integration.md)
+- [Aggiungere l'analisi alle aree di lavoro tramite Power BI Embedded](add-analytics-tab-workspaces.md)
+- [Proteggere le aree di lavoro e i report analitici con Power BI Embedded](secure-analytical-workspaces.md)
+- [Contenuto di Power BI per Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Documenti aziendali e stampa
 Le soluzioni di creazione report vengono spesso utilizzate per acquisire e comunicare i dettagli di transazioni aziendali. Di conseguenza, una soluzione di creazione report deve essere in grado di produrre manifestazioni fisiche di dati aziendali utilizzando dispositivi esistenti, ad esempio stampanti di rete. Esempi di documenti aziendali includono fatture di vendita, rendiconti cliente e assegni.

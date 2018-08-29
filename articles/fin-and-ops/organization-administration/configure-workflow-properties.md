@@ -3,7 +3,7 @@ title: "Configurare le proprietà del flusso di lavoro"
 description: "In questo argomento viene descritto come configurare le proprietà per un flusso di lavoro."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 7ea35d851613a19889392400e31cf8492d5dc799
+ms.sourcegitcommit: ba03473dd6fc31d51fd4e890acac1cd1494ef5a3
+ms.openlocfilehash: a327b85f18f03294a237c3795ae2e1f4a97095f0
 ms.contentlocale: it-it
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -107,6 +107,7 @@ Quando si invia un documento per l'elaborazione, viene creata un'istanza del flu
     2.  Fare clic su **Inserisci segnaposto**.
     3.  Nell'elenco visualizzato selezionare il segnaposto da inserire.
     4.  Fare clic su **Inserisci**.
+    5.  Un comune segnaposto **Testo di notifica** da includere è "Note più recenti: %Workflow.Last note%", che visualizza tutti i commenti dal passaggio precedente.
 
 6.  Per aggiungere traduzioni del testo, effettuare le operazioni seguenti:
     1.  Fare clic su **Traduzioni**.

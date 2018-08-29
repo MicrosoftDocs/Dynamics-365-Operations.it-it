@@ -1,16 +1,16 @@
 ---
-title: Panoramica sulla liquidazione per i pagamenti centralizzati
-description: "Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una persona giuridica che gestisca tutti i pagamenti. In questo modo si evita di dover immettere la stessa transazione in più persone giuridiche ed è possibile risparmiare tempo grazie alla semplificazione del processo delle proposte di pagamento, del processo di liquidazione, della modifica delle transazioni aperte e della modifica delle transazioni chiuse per i pagamenti centralizzati."
+title: Panoramica della liquidazione per i pagamenti centralizzati
+description: Questo argomento descrive la liquidazione per i pagamenti centralizzati per Microsoft Dynamics 365 for Finance and Operations.
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -19,14 +19,14 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b76b141531acfc2d1d7553a3e7a13f165373921b
+ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
+ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="settlement-overview-for-centralized-payments"></a>Panoramica sulla liquidazione per i pagamenti centralizzati
+# <a name="settlement-overview-for-centralized-payments"></a>Panoramica della liquidazione per i pagamenti centralizzati
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,8 +35,8 @@ Le organizzazioni che includono più persone giuridiche possono creare e gestire
 Quando un pagamento cliente o fornitore viene immesso in una determinata persona giuridica e liquidato con una fattura precedentemente immessa in un'altra persona giuridica, per ciascuna persona giuridica vengono generate automaticamente le transazioni contabili applicabili relative a importi da versare e da ricevere. Un record di liquidazione viene creato per ciascuna combinazione di fattura e pagamento nella transazione. A ogni record di liquidazione viene assegnato un nuovo numero di giustificativo basato sulla serie di sequenze numeriche dei giustificativi di pagamento specificata nella pagina **Parametri contabilità clienti** per i clienti e nella pagina **Parametri contabilità fornitori** per i fornitori. 
 
 Se per sconti di cassa, rivalutazioni valuta estera, differenze in centesimi, eccessi o insufficienze di pagamento vengono generati record di liquidazione aggiuntivi, a questi ultimi viene assegnata la data della transazione del pagamento o, se successiva, la data della transazione di fatturazione. Se la liquidazione avviene dopo la registrazione del pagamento, i record di liquidazione utilizzeranno la data di registrazione della liquidazione specificata nella pagina **Liquida transazioni aperte**.
-Tipi di registrazione, tipi di transazione e descrizioni standard
-----------------------------------------------------------
+
+## <a name="posting-types-transaction-types-and-default-descriptions"></a>Tipi di registrazione, tipi di transazione e descrizioni standard
 
 Le transazioni giustificativo di liquidazione interaziendale utilizzano il tipo di registrazione compensazione interaziendale e i tipi di transazione compensazione interaziendale cliente e compensazione interaziendale fornitore. Per impostare le informazioni relative al tipo di transazione, è possibile utilizzare la pagina **Descrizioni predefinite**. 
 
@@ -50,8 +50,7 @@ I seguenti tipi di transazione sono disponibili per l'utilizzo nelle liquidazion
 
 È inoltre possibile definire descrizioni predefinite per i giustificativi di compensazione interaziendale.
 
-<a name="currency-exchange-gains-or-losses"></a>Profitti o perdite su cambi valutari
----------------------------------
+## <a name="currency-exchange-gains-or-losses"></a>Profitti o perdite su cambi valutari
 
 Il tasso di cambio utilizzato per le transazioni cliente o fornitore viene archiviato con la transazione. I profitti o le perdite realizzati sui cambi valutari vengono registrati nella persona giuridica della fattura o nella persona giuridica del pagamento, a seconda dell'opzione selezionata nel campo **Registra profitto o perdita su cambio valutario** della pagina **Contabilità interaziendale** per la persona giuridica del pagamento. Nei seguenti esempi vengono utilizzate le valute indicate:
 -   Valuta di contabilizzazione pagamento: EUR
@@ -59,7 +58,7 @@ Il tasso di cambio utilizzato per le transazioni cliente o fornitore viene archi
 -   Valuta transazione pagamento: DKK
 -   Valuta transazione fatturazione: CAD
 
-#### <a name="currency-calculations"></a>Calcoli valutari
+### <a name="currency-calculations"></a>Calcoli valutari
 
 Quando una fattura immessa in una persona giuridica viene liquidata con un pagamento immesso in un'altra persona giuridica, la valuta della transazione di pagamento (DKK) viene convertita in tre passaggi:
 1.  Conversione nella valuta di contabilizzazione del pagamento (EUR), applicando i tassi di cambio della persona giuridica del pagamento.
@@ -75,17 +74,15 @@ Quando la pagina **Liquida transazioni aperte** viene aperta da un giornale di r
 
 L'importo del pagamento risultante viene trasferito nella riga del giornale di registrazione pagamenti alla chiusura della pagina **Liquida transazioni aperte**.
 
-#### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Registrazione di profitti o perdite per valute di contabilizzazione diverse
+### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Registrazione di profitti o perdite per valute di contabilizzazione diverse
 
 In caso di profitti o perdite su cambio valutario, tali profitti o perdite vengono registrati nella persona giuridica specificata nel campo **Registra profitto o perdita su cambio valutario** della pagina **Contabilità interaziendale** per la persona giuridica del pagamento. L'importo dei profitto o delle perdite viene convertito nella valuta di contabilizzazione della persona giuridica in cui viene registrato il profitto o le perdite, applicando il tasso di cambio impostato per tale persona giuridica.
 
-<a name="cash-discounts"></a>Sconti di cassa
---------------
+## <a name="cash-discounts"></a>Sconti di cassa
 
 Gli sconti di cassa generati durante il processo di compensazione interaziendale vengono registrati nella persona giuridica della fattura o nella persona giuridica del pagamento, a seconda dell'opzione selezionata nel campo **Registra sconto di cassa** della pagina **Contabilità interaziendale** per la persona giuridica del pagamento. Nella persona giuridica della fattura viene generata una transazione di liquidazione corrispondente.
 
-<a name="overpayments-and-underpayments"></a>Eccedenze e insufficienze di pagamento
-------------------------------
+## <a name="overpayments-and-underpayments"></a>Eccedenze e insufficienze di pagamento
 
 Le eccedenze e le insufficienze di pagamento e le tolleranze di differenza in centesimi vengono determinate in base alla persona giuridica del pagamento in caso di eccedenze di pagamento e in base alla persona giuridica della fattura in caso di insufficienze di pagamento. Il conto di registrazione utilizzato dipende dall'impostazione nel campo **Applicazione sconto di cassa** della pagina **Parametri contabilità clienti** per i clienti e nel campo **Applicazione sconto di cassa** della pagina **Parametri contabilità fornitori** per i fornitori.
 
@@ -112,9 +109,4 @@ In caso di pagamenti fornitore, le transazioni relative a importi da versare e d
 
 ## <a name="withholding-tax"></a>Ritenuta d'acconto
 Il conto fornitore associato alla fattura viene utilizzato per determinare se la ritenuta d'acconto deve essere calcolata. Se la ritenuta d'acconto viene applicata, l'imposta verrà calcolata nella persona giuridica associata alla fattura. Se le persone giuridiche utilizzano valute diverse, verrà utilizzato il tasso di cambio dalla persona giuridica associata alla fattura.
-
-
-
-
-
 
