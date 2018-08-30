@@ -1,5 +1,5 @@
 --- 
-title: Creare un processo batch
+title: Crea processi batch
 description: "Un processo batch è un gruppo di attività inviate a un'istanza del server oggetti applicativi (AOS) in modo che vengano elaborate automaticamente."
 author: maertenm
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 31c8e2ba87ef8c17a3147e1159104585258d4164
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b32c16a0c0045e22128746f81c6e9fd03370ac1f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-batch-job"></a>Creare un processo batch
+# <a name="create-batch-jobs"></a>Crea processi batch
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

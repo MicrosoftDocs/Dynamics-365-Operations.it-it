@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: it-it
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,16 +33,23 @@ In questo argomento viene fornito un elenco di argomenti della Guida e altre ris
 
 Selezionare l'area di una funzionalità per ulteriori informazioni.
 
-:::row::: :::column::: - [Contabilità fornitori](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Contabilità fornitori](accounts-payable/accounts-payable.md) 
         - [Contabilità clienti](accounts-receivable/accounts-receivable.md)
-        - [Impostazione budget](budgeting/budgeting-overview.md) 
+        - [Impostazione del budget](budgeting/budgeting-overview.md) 
         - [Gestione cassa e banche](cash-bank-management/cash-bank-management.md)
-        - [Contabilità industriale](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Gestione spese](expense-management/expense-management.md)
+        - [Contabilità industriale](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Gestione spese](expense-management/expense-management.md)
         - [Creazione di report finanziari](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Cespiti](fixed-assets/fixed-assets.md)
         - [Contabilità generale](general-ledger/general-ledger.md) 
         - [Gestione progetti](project-management/overview-project-management-accounting.md)
-        - [Settore pubblico](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Settore pubblico](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

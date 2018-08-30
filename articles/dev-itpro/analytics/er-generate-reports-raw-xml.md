@@ -18,20 +18,20 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: af594fb7879918e6b9fc423774ee1ec7f635dec0
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="generate-er-reports-by-adding-content-as-raw-xml"></a>Generare report elettronici aggiungendo contenuto come XML non elaborato
+# <a name="generate-reports-by-adding-content-as-raw-xml"></a>Generare report aggiungendo il contenuto non elaborato come XML
 
 [!include[banner](../includes/banner.md)]
 
 È possibile utilizzare il nuovo elemento di formato **RAW XML** per progettare formati di report elettronici (ER) che generano i documenti in uscita in formato XML. In alcuni casi, è preferibile aggiungere dati XML non elaborati a questi report per uno dei seguenti motivi:
 
-- È più pratico utilizzare il codice XML non elaborato per la progettazione originale e la gestione continua di un report, poiché la struttura XML può essere generata automaticamente eseguendo un'espressione runtime. Di conseguenza, non è necessario determinare più associazioni per più elementi di formato in fase di progettazione. È possibile quando le origini dati in uso contengono informazioni che possono essere utilizzate per creare elementi XML quando viene generato il report. 
+- È più pratico utilizzare il codice XML non elaborato per la progettazione originale e la gestione continua di un report, poiché la struttura XML può essere generata automaticamente eseguendo un'espressione runtime. Di conseguenza, non è necessario determinare più associazioni per più elementi di formato in fase di progettazione. È possibile quando le origini dati in uso contengono informazioni che possono essere utilizzate per creare elementi XML quando viene generato il report.
 - Non esiste alcuna altra modalità per compilare il report con contenuto XML precedentemente ricevuto e archiviato nel sistema. Ad esempio, la risposta XML che viene generata potrebbe dover includere il contenuto di una richiesta XML che è stata inviata in precedenza.
 - Nessun'altra modalità può essere utilizzata per inserire caratteri nel documento generato in base ai codici numerici. Per alcune lingue e alcuni caratteri, i codici di questo tipo non sono disponibili. Alcuni esempi sono rappresentati dalla lettera greca rho (ρ) e dai codici di entità HTML quali \&eacute; per una *e* che ha l'accento acuto (é).
 

@@ -1,5 +1,5 @@
 ---
-title: Configurare i parametri HR nelle persone giuridiche
+title: Impostare i parametri di Risorse umane per le persone giuridiche
 description: "È necessario impostare parametri condivisi per i record condivisi tra società, ad esempio Record posizione. In questo articolo viene spiegato come impostare i parametri delle risorse umane tra persone giuridiche."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1241d8da101af094ac510819376908727f9bcf07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: cc5acf7ba1b350ee2c91923c7de3b4780385f3ef
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-hr-parameters-across-legal-entities"></a>Configurare i parametri HR nelle persone giuridiche
+# <a name="set-up-human-resources-hr-parameters-across-legal-entities"></a>Impostare i parametri di Risorse umane per le persone giuridiche
 
 [!include [banner](includes/banner.md)]
 

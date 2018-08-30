@@ -1,5 +1,5 @@
 --- 
-title: Creare e attivare un provider di configurazione per la creazione di report elettronici (ER)
+title: Creare provider di configurazione e contrassegnarli come attivi
 description: "I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare un provider di configurazione per la creazione di report elettronici."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 37957f224cb57fd9f6c5014740bcea124a99a03a
 ms.contentlocale: it-it
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Creare e attivare un provider di configurazione per la creazione di report elettronici (ER)
+# <a name="create-configuration-providers-and-mark-them-as-active"></a>Creare provider di configurazione e contrassegnarli come attivi
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Orario e presenze nella vendita al dettaglio
+title: Gestione di Orario e presenze in Retail
 description: In questo argomento vengono descritti gli scenari supportati per la gestione di orario e presenze in Microsoft Dynamics 365 for Retail.
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Orario e presenze vendita al dettaglio
+# <a name="time-and-attendance-management-in-retail"></a>Gestione di Orario e presenze in Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -45,7 +45,7 @@ In questo argomento vengono descritti gli scenari supportati per la gestione di 
 
 -   Applicare profili utilizzando Pianificazione lavori. Per ulteriori informazioni, vedere <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
 
-Per informazioni sui passaggi di configurazione, vedere <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+Per informazioni sui passaggi per la configurazione, vedere <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
 
 ### <a name="retail-specific-configuration"></a>Configurazione specifica per la vendita al dettaglio
 
@@ -135,7 +135,7 @@ Un utente di Dynamics 365 for Retail segue il flusso di lavoro per calcolare, ap
 -   Uscita in blocco
 -   Registrare le assenze
 
-Per ulteriori informazioni su come elaborare le registrazioni di orari e presenze, vedere <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+Per informazioni su come elaborare le registrazioni di orario e presenze, vedere <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
 
 
 

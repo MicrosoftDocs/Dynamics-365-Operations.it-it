@@ -1,5 +1,5 @@
 ---
-title: Designer formula nella creazione di report elettronici
+title: Designer formula nella creazione di report elettronici (ER)
 description: In questo argomento viene illustrato come utilizzare designer formula nei report elettronici (ER).
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: it-it
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Designer formula nella creazione di report elettronici
+# <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ I campi <strong>Descrizione</strong> ed <strong>Etichetta</strong> restituiscono
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>Nella figura seguente è illustrato il risultato dell'esecuzione del formato progettato.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>Il testo tradotto per le etichette e le descrizioni viene immesso nell'output del formato ER in base alle impostazioni di lingua configurate per gli elementi di formato FILE e CARTELLA padre.</blockquote>
+<blockquote>[!NOTE] Il testo tradotto per le etichette e le descrizioni viene immesso nell'output del formato ER in base alle impostazioni di lingua configurate per gli elementi di formato FILE e CARTELLA padre.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Nella figura seguente è illustrato il risultato dell'esecuzione del formato rettificato.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>Il limite non si applica all'ultima voce dell'elenco di origine poiché il valore (11) dell'origine del limite (peso) supera il limite definito (9). Utilizzare la funzione <strong>WHERE</strong> o l'espressione <strong>Enabled</strong> dell'elemento formato corrispondente per ignorare (saltare) i sottoelenchi durante la generazione dei report come necessario.</blockquote>
+<blockquote>[!NOTE] Il limite non si applica all'ultima voce dell'elenco di origine poiché il valore (11) dell'origine del limite (peso) supera il limite definito (9). Utilizzare la funzione <strong>WHERE</strong> o l'espressione <strong>Enabled</strong> dell'elemento formato corrispondente per ignorare (saltare) i sottoelenchi durante la generazione dei report come necessario.</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 | NUMBERVALUE (stringa, separatore decimale, separatore di raggruppamento delle cifre) | Converte la stringa specificata in numero. Il separatore decimale specificato viene utilizzato tra il numero intero e le parti frazionarie di un numero decimale. Il separatore di raggruppamento di cifre specificato viene utilizzato come separatore delle migliaia. | **NUMBERVALUE("1 234,56", ",", " ")** restituisce il valore **1234.56**. |
 | VALUE (stringa) | Converte la stringa specificata in numero. Le virgole e i caratteri punto (). vengono considerati separatori decimali e un trattino iniziale (-) viene utilizzato come negativo. Genera un'eccezione se altri caratteri non numerici vengono incontrati nella stringa specificata. | **VALUE ("1 234,56")** genera un'eccezione. |
 | ROUND (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato al numero di posizioni decimali specificato:<ul><li>Se il valore del parametro **decimali** è maggiore di 0 (zero), il numero specificato viene arrotondato al numero di posizioni decimali specificato.</li><li>Se il valore del parametro **decimali** è **0** (zero), il numero specificato viene arrotondato all'intero più vicino.</li><li>Se il valore del parametro **decimali** è minore di 0 (zero), il numero specificato viene arrotondato a sinistra del separatore decimale.</li></ul> | **ROUND (1200.767, 2)** arrotonda a due posti decimali e restituisce **1200.77**. **ROUND (1200.767, -3)** arrotonda al più vicino multiplo di 1000 e restituisce **1000**. |
-| ROUNDDOWN (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato per difetto al numero di posizioni decimali specificato.<blockquote>[!NOTE]<br>Questa funzione si comporta analogamente a **ROUND** ma sempre per difetto (verso lo zero).</blockquote> | **ROUNDDOWN (1200.767, 2)** arrotonda per difetto a due posti decimali e restituisce **1200.76**. **ROUNDDOWN (1700.767, -3)** arrotonda per difetto al più vicino multiplo di 1000 e restituisce **1000**. |
-| ROUNDUP (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato per eccesso al numero di posizioni decimali specificato.<blockquote>[!NOTE]<br>Questa funzione si comporta analogamente a **ROUND** ma sempre per eccesso (lontano da zero).</blockquote> | **ROUNDUP (1200.763, 2)** arrotonda per eccesso a due posti decimali e restituisce **1200.77**. **ROUNDUP (1200.767, -3)** arrotonda per eccesso al più vicino multiplo di 1000 e restituisce **2000**. |
+| ROUNDDOWN (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato per difetto al numero di posizioni decimali specificato.<blockquote>[!NOTE] Questa funzione si comporta analogamente a **ROUND** ma sempre per difetto (verso lo zero).</blockquote> | **ROUNDDOWN (1200.767, 2)** arrotonda per difetto a due posti decimali e restituisce **1200.76**. **ROUNDDOWN (1700.767, -3)** arrotonda per difetto al più vicino multiplo di 1000 e restituisce **1000**. |
+| ROUNDUP (numero, decimali) | Restituisce il numero specificato dopo che è stato arrotondato per eccesso al numero di posizioni decimali specificato.<blockquote>[!NOTE] Questa funzione si comporta analogamente a **ROUND** ma sempre per eccesso (lontano da zero).</blockquote> | **ROUNDUP (1200.763, 2)** arrotonda per eccesso a due posti decimali e restituisce **1200.77**. **ROUNDUP (1200.767, -3)** arrotonda per eccesso al più vicino multiplo di 1000 e restituisce **2000**. |
 
 ### <a name="data-conversion-functions"></a>Funzioni conversione dati
 
@@ -474,8 +474,8 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 
 | Funzione | descrizione | Esempio |
 |----------|-------------|---------|
-| NULLCONTAINER (elenco) | Restituisce un record **null** con la stessa struttura dell'elenco di record o il record specificato.<blockquote>[!NOTE]<br>Questa funzione è obsoleta. Utilizzare **EMPTYRECORD** invece.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** restituisce un nuovo record vuoto con la stessa struttura dell'elenco restituito dalla funzione **SPLIT**. |
-| EMPTYRECORD (record) | Restituisce un record **null** con la stessa struttura dell'elenco di record o il record specificato.<blockquote>[!NOTE]<br>Un record **null** è un record in cui il valore di tutti i campi è vuoto. Un valore vuoto è **0** (zero) per i numeri, stringa vuota per le stringhe e così via.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** restituisce un nuovo record vuoto con la stessa struttura dell'elenco restituito dalla funzione **SPLIT**. |
+| NULLCONTAINER (elenco) | Restituisce un record **null** con la stessa struttura dell'elenco di record o il record specificato.<blockquote>[!NOTE] Questa funzione è obsoleta. Utilizzare **EMPTYRECORD** invece.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** restituisce un nuovo record vuoto con la stessa struttura dell'elenco restituito dalla funzione **SPLIT**. |
+| EMPTYRECORD (record) | Restituisce un record **null** con la stessa struttura dell'elenco di record o il record specificato.<blockquote>[!NOTE] Un record **null** è un record in cui il valore di tutti i campi è vuoto. Un valore vuoto è **0** (zero) per i numeri, stringa vuota per le stringhe e così via.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** restituisce un nuovo record vuoto con la stessa struttura dell'elenco restituito dalla funzione **SPLIT**. |
 
 ### <a name="text-functions"></a>Funzioni di testo
 
@@ -522,14 +522,14 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 <td>CHAR (numero)</td>
 <td>Restituisce la stringa di caratteri a cui viene fatto riferimento dal numero Unicode specificato.</td>
 <td><strong>CHAR (255)</strong> restituisce <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>La stringa restituita dalla funzione dipende dalla codifica selezionata nell'elemento del formato FILE padre. Per l'elenco di codifiche supportate, vedere <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Classe di codifica</a>.</blockquote>
+<blockquote>[!NOTE] La stringa restituita dalla funzione dipende dalla codifica selezionata nell'elemento del formato FILE padre. Per l'elenco di codifiche supportate, vedere <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Classe di codifica</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (stringa 1 [, stringa 2, …])</td>
 <td>Restituisce tutte le stringhe di testo specificate dopo che sono state unite in un'unica stringa.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> restituisce <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>Anche l'espressione <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> restituisce <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE] Anche l'espressione <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> restituisce <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Se lo stesso viene elaborato per il cliente <strong>Litware Retail</strong> il 17 dicembre 2015, nelle impostazioni culture <strong>DE</strong> e la lingua <strong>DE</strong>, la formula restituisce il seguente testo, che utilizza un formato della data diverso:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>La seguente sintassi si applica nelle formule ER per le etichette:
+<blockquote>[!NOTE] La seguente sintassi si applica nelle formule ER per le etichette:
 <ul>
 <li><strong>Per le etichette di risorse di Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, dove X è l'ID etichetta nella struttura a oggetti applicativi (AOT, Application Object Tree)</li>
 <li><strong>Per le etichette che si trovano in configurazioni ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, dove X è l'ID di etichetta nella configurazione ER</li>
@@ -587,7 +587,7 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 <tr>
 <td>NUMERALSTOTEXT (numero, lingua, valuta, flag stampa nome valuta, decimali)</td>
 <td>Restituisce il numero specificato dopo che è stato convertito in stringhe di testo nella lingua specificata. Il codice lingua è facoltativo. Quando viene definito come stringa vuota, viene utilizzato il codice lingua per il contesto di esecuzione. Il codice lingua per il contesto di esecuzione viene definito per una cartella o un file di generazione. Anche il codice valuta è facoltativo. Quando viene definito come stringa vuota, viene utilizzata la valuta della società.
-<blockquote>[!NOTE]<br>I parametri <strong>flag stampa nome valuta</strong> e <strong>numeri decimali</strong> vengono analizzati solo per i codici lingua seguenti: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> e <strong>RU</strong>. Inoltre, il parametro <strong>flag stampa nome valuta</strong> viene analizzato solo per le società Finance and Operations in cui il contesto del paese o area supporta la declinazione dei nomi valuta.</blockquote>
+<blockquote>[!NOTE] I parametri <strong>flag stampa nome valuta</strong> e <strong>numeri decimali</strong> vengono analizzati solo per i codici lingua seguenti: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> e <strong>RU</strong>. Inoltre, il parametro <strong>flag stampa nome valuta</strong> viene analizzato solo per le società Finance and Operations in cui il contesto del paese o area supporta la declinazione dei nomi valuta.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> restituisce <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> restituisce <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> restituisce <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
@@ -656,10 +656,10 @@ Quando vengono definite queste origini dati, è possibile utilizzare un'espressi
 | Funzione | descrizione | Esempio |
 |----------|-------------|---------|
 | CONVERTCURRENCY (importo, valuta di origine, valuta di destinazione, data, società) | Converte l'importo monetario specificato da valuta di origine specificata nella valuta di destinazione specificata utilizzando le impostazioni della società specificata di Finance and Operations alla data specificata. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** restituisce un equivalente di un euro in dollari statunitensi nella data della sessione corrente, in base alle impostazioni per la società DEMF. |
-| ROUNDAMOUNT (numero, decimali, regola arrotondamento) | Arrotonda l'importo specificato al numero specificato posizioni decimali in base alla regola di arrotondamento specificata.<blockquote>[!NOTE]<br>La regola di arrotondamento deve essere specificata come valore di enumerazione **RoundOffType** di Finance and Operations.</blockquote> | Se il parametro **model.RoundOff** è impostato su **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** restituisce il valore **1000.78**. Se il parametro **model.RoundOff** è impostato su **Normal** o **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** restituisce il valore **1000.79**. |
+| ROUNDAMOUNT (numero, decimali, regola arrotondamento) | Arrotonda l'importo specificato al numero specificato posizioni decimali in base alla regola di arrotondamento specificata.<blockquote>[!NOTE] La regola di arrotondamento deve essere specificata come valore di enumerazione **RoundOffType** di Finance and Operations.</blockquote> | Se il parametro **model.RoundOff** è impostato su **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** restituisce il valore **1000.78**. Se il parametro **model.RoundOff** è impostato su **Normal** o **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** restituisce il valore **1000.79**. |
 | CURCredRef (cifre) | Restituisce un riferimento creditore, in base alle cifre del numero di fattura specificato. | **CURCredRef ("VEND-200002")** restituisce **"2200002"**. |
 | MOD\_97 (cifre) | Restituisce un riferimento creditore come espressione MOD97, in base alle cifre del numero di fattura specificato. | **MOD\_97 ("VEND-200002")** restituisce **"20000285"**. |
-| ISOCredRef (cifre) | Restituisce un riferimento creditore International Organization for Standardization (ISO), in base alle cifre e ai simboli alfabetici del numero di fattura specificato.<blockquote>[!NOTE]<br>Per eliminare i simboli da alfabeti che non sono conformi ISO, il parametro di input deve essere tradotto prima di passarlo alla funzione.</blockquote> | **ISOCredRef ("VEND-200002")** restituisce **"RF23VEND-200002"**. |
+| ISOCredRef (cifre) | Restituisce un riferimento creditore International Organization for Standardization (ISO), in base alle cifre e ai simboli alfabetici del numero di fattura specificato.<blockquote>[!NOTE] Per eliminare i simboli da alfabeti che non sono conformi ISO, il parametro di input deve essere tradotto prima di passarlo alla funzione.</blockquote> | **ISOCredRef ("VEND-200002")** restituisce **"RF23VEND-200002"**. |
 | CN\_GBT\_AdditionalDimensionID (stringa, numero) | Ottenere l'ID dimensione finanziaria aggiuntiva specificata. Nel parametro **stringa**, le dimensioni vengono rappresentate come ID che sono separati da virgole. Il parametro **numero** definisce il codice di sequenza della dimensione richiesta nella stringa. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** restituisce **"CC"**. |
 | GetCurrentCompany () | Restituisce la rappresentazione in formato testo del codice della persona giuridica (società) a cui un utente è attualmente connesso. | **GETCURRENTCOMPANY ()** restituisce **USMF** per un utente collegato alla società **Contoso Entertainment System USA** di Finance and Operations. |
 | CH\_BANK\_MOD\_10 (cifre) | Restituisce un riferimento creditore come un'espressione MOD10, in base alle cifre del numero di fattura specificato. | **CH\_BANK\_MOD\_10 ("VEND-200002")** restituisce **3**. |

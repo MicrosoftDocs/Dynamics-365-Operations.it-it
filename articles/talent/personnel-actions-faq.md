@@ -1,5 +1,5 @@
 ---
-title: Azioni dipendente [Domande frequenti]
+title: Domande frequenti sulle azioni dipendente
 description: "In questo argomento vi sono risposte alle domande che potrebbe essere poste se l'organizzazione utilizza le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale."
 author: ShielaSogge
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
 ms.contentlocale: it-it
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="personnel-actions-faq"></a>Azioni dipendente [Domande frequenti]
+# <a name="personnel-actions-faq"></a>Domande frequenti sulle azioni dipendente
 
 [!include [banner](includes/banner.md)]
 

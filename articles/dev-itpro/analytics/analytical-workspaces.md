@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: it-it
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [Contenuto di Power BI della panoramica CFO](CFO-power-bi.md)
 - [Contenuto Power BI per retribuzione](compensation-power-bi.md)
 - [Contenuti Power BI di analisi contabilità industriale](cost-accounting-analysis-content-pack.md) 
-- [Contenuto Power BI per la gestione dei costi](cost-management-content-pack.md)    
+- [Contenuto Power BI per la gestione dei costi](cost-management-content-pack.md)
 - [Contenuto Power BI per crediti e riscossioni](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Contenuto Power BI per sviluppo dipendenti](employee-development-PBI.md) 
 - [Contenuto Power BI per Informazioni finanziarie dettagliate](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [Contenuto Power BI per prestazioni di vendita e profitto](sales-profitability-performance-content-pack.md)
 - [Contenuto Power BI per pagamenti fornitori](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Contenuto Power BI per prestazioni di magazzino](warehouse-power-bi-content.md)
-- [Contenuto Power BI sulle metriche della forza lavoro](workforce-analysis-power-bi-content-pack.md)  
+- [Contenuto Power BI sulle metriche della forza lavoro](workforce-analysis-power-bi-content-pack.md)
 

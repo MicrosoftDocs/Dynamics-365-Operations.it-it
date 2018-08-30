@@ -33,7 +33,7 @@ ms.lasthandoff: 12/19/2017
 Questo argomento descrive il contenuto **Selezione del personale** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Il contenuto di Power BI **Selezione del personale** viene visualizzato nell'area di lavoro **Gestione della selezione del personale** 
+Il contenuto di Power BI **Selezione del personale** viene visualizzato nell'area di lavoro **Gestione della selezione del personale**
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Report e rappresentazioni nell'area di lavoro di Gestione della selezione del personale
 L'area di lavoro **Gestione della selezione del personale** contiene una scheda **Analisi**. Questa scheda include il contenuto di Power BI incorporato per la selezione del personale. Il contenuto è costituito da una scheda Panoramica e le schede aggiuntive che contengono dettagli. Nella seguente tabella vengono illustrati i report su ciascuna scheda.
@@ -66,6 +66,4 @@ Nella tabella seguente vengono illustrate le entità su cui si basa il contenuto
 | Prestazioni          | Valutazione, descrizione e modello di valutazione                            | Candidato, candidato impiegato, candidato congedato |
 | Progetto di selezione  | Descrizione del progetto, stato del progetto e aperture                | Candidato, candidato impiegato, candidato congedato |
 | Candidato congedato | Candidati congedati, motivo, prestazioni e data di fine rapporto | Società, Offset di calendario, Data, Località geografica, Prestazioni, Dati demografici, Impiego, Multimediale, Progetto di selezione, Nome candidato |
-
-
 

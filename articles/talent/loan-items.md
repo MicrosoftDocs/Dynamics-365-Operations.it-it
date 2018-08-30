@@ -1,5 +1,5 @@
 ---
-title: Gestire gli articoli prestati ai lavoratori
+title: Gestire gli articoli affidati ai lavoratori
 description: "Gli articoli prestito sono record che consentono ai responsabili di tenere traccia degli articoli fisici che la società presta ai lavoratori."
 author: kherr75
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fe8d8812aaa78c7b5558615f586940488f2dc1b2
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 6c22e85360c3e6e40e0338960866b96d66a0ba50
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="manage-items-lent-to-workers"></a>Gestire gli articoli prestati ai lavoratori
+# <a name="manage-items-that-are-lent-to-workers"></a>Gestire gli articoli affidati ai lavoratori
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Impostare e gestire immagini per Retail Modern POS
+title: Impostare e gestire immagini per Retail Modern POS (MPOS)
 description: "In questo articolo vengono descritti i passaggi necessari per impostare e gestire le immagini per le varie entità che vengono visualizzate in Retail Modern POS (MPOS)."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed4a7044b577ed6af86f6803f6abd4f9b500b4e7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Impostare e gestire immagini per Retail Modern POS
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Impostare e gestire immagini per Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
@@ -48,11 +48,11 @@ Le immagini visualizzate in Retail Modern POS (MPOS) devono essere ospitate este
 
 1.  Fare clic su **Vendita al dettaglio** &gt; **Gestione cataloghi** &gt; **Immagini di catalogo**.
 2.  Nella pagina **Immagini di catalogo**, nel Riquadro azioni fare clic su **Definisci modello media**. Nella finestra di dialogo **Definisci modello media**, nel campo **Entità** il valore **Catalogo** deve essere selezionato per impostazione predefinita.
-3.  Nella scheda dettaglio **Percorso media** immettere il percorso rimanente della posizione dell'immagine. Il percorso media supporta **LanguageID** come variabile. Ad esempio, per i dati dimostrativi, è possibile creare una cartella **Cataloghi** per tutte le immagini del catalogo nell'URL di base multimediale per il server media (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). È quindi possibile creare una cartella per ciascuna lingua, ad esempio en-US o fr-FR e copiare le immagini appropriate in ogni cartella. Se non si dispone di immagini diverse per le varie lingue, è possibile omettere la variabile **LanguageID** dalla struttura di cartelle e puntare direttamente alla cartella dei cataloghi che contiene le immagini del catalogo. **Nota**: la versione corrente di Dynamics 365 for Retail supporta il token **{LanguageId}** per le entità catalogo, prodotto e categoria. (Il token **{LanguageID}** non è supportato per le entità lavoratore e cliente, in base allo standard esistente che è stato valido a partire dalla versione Microsoft Dynamics AX 6.x).
+3.  Nella scheda dettaglio **Percorso media** immettere il percorso rimanente della posizione dell'immagine. Il percorso media supporta **LanguageID** come variabile. Ad esempio, per i dati dimostrativi, è possibile creare una cartella **Cataloghi** per tutte le immagini del catalogo nell'URL di base multimediale per il server multimediale (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer)). È quindi possibile creare una cartella per ciascuna lingua, ad esempio en-US o fr-FR e copiare le immagini appropriate in ogni cartella. Se non si dispone di immagini diverse per le varie lingue, è possibile omettere la variabile **LanguageID** dalla struttura di cartelle e puntare direttamente alla cartella dei cataloghi che contiene le immagini del catalogo. **Nota**: la versione corrente di Dynamics 365 for Retail supporta il token **{LanguageId}** per le entità catalogo, prodotto e categoria. (Il token **{LanguageID}** non è supportato per le entità lavoratore e cliente, in base allo standard esistente che è stato valido a partire dalla versione Microsoft Dynamics AX 6.x).
 4.  Per le immagini, il formato del nome file è hardcoded al catalogo e non può essere modificato. Di conseguenza, rinominare le immagini in modo che abbiano nomi di catalogo appropriati, per garantire che MPOS possa gestirli in modo corretto.
 5.  Nel campo **Estensione del file** selezionare l'estensione del nome file prevista, a seconda del tipo delle immagini di cui si dispone. Ad esempio, per i dati dimostrativi, le immagini di catalogo sono impostate con estensione .jpg. (I file di immagine sono anche rinominati in modo da avere nomi di catalogo.)
 6.  Fare clic su **OK**.
-7.  Per verificare che il modello media per le immagini sia stato salvato correttamente, nella pagina **Immagini di catalogo** fare di nuovo clic su **Definisci modello media**. Per convalidare il modello senza chiudere la finestra di dialogo **Definisci modello media**, è possibile utilizzare la scheda dettaglio **Genera URL immagine per Excel**. Controllare l'aspetto dell'URL di immagine e verificare che URL sia conforme al modello citato in precedenza. Tramite la finestra di dialogo **Definisci modello media** è stato ora impostato il percorso immagine in modo implicito per tutte le immagini di catalogo che utilizzano il percorso URL comune. Questo percorso URL viene applicato a tutte le immagini di catalogo, a meno che non vengano sovrascritte. La prima parte del percorso immagine viene ricavata dall'URL di base multimediale definito nel profilo del canale. La parte restante del percorso viene ricavata dal percorso definito nel modello di media. Le due parti sono concatenate per fornire l'URL completo del percorso di immagine. Ad esempio, un catalogo dei dati dimostrativi è denominato Fabrikam Base Catalog. Di conseguenza, il nome di immagine dovrà essere Fabrikam Base Catalog.jpg in modo che venga utilizzato il nome di catalogo e l'estensione file .jpg configurata nel modello. In questo caso, dopo la concatenazione, l'URL apparirà come https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
+7.  Per verificare che il modello media per le immagini sia stato salvato correttamente, nella pagina **Immagini di catalogo** fare di nuovo clic su **Definisci modello media**. Per convalidare il modello senza chiudere la finestra di dialogo **Definisci modello media**, è possibile utilizzare la scheda dettaglio **Genera URL immagine per Excel**. Controllare l'aspetto dell'URL di immagine e verificare che URL sia conforme al modello citato in precedenza. Tramite la finestra di dialogo **Definisci modello media** è stato ora impostato il percorso immagine in modo implicito per tutte le immagini di catalogo che utilizzano il percorso URL comune. Questo percorso URL viene applicato a tutte le immagini di catalogo, a meno che non vengano sovrascritte. La prima parte del percorso immagine viene ricavata dall'URL di base multimediale definito nel profilo del canale. La parte restante del percorso viene ricavata dal percorso definito nel modello di media. Le due parti sono concatenate per fornire l'URL completo del percorso di immagine. Ad esempio, un catalogo dei dati dimostrativi è denominato Fabrikam Base Catalog. Di conseguenza, il nome di immagine dovrà essere Fabrikam Base Catalog.jpg in modo che venga utilizzato il nome di catalogo e l'estensione file .jpg configurata nel modello. In questo caso, dopo la concatenazione, l'URL sarà https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Catalog.jpg di base.
 8.  Eseguire i processi di sincronizzazione per eseguire il push del nuovo modello nel database del canale, in modo che MPOS possa utilizzare il modello per accedere alle immagini.
 9.  Per aggiornare il modello media per le immagini di catalogo sul lato del canale, assicurarsi di eseguire il **Processo di catalogo 1150** da **IT vendita al dettaglio** &gt; **Programmazione della distribuzione**.[![catalog1](./media/catalog1.png)](./media/catalog1.png)
 

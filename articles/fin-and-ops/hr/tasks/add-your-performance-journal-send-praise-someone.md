@@ -1,5 +1,5 @@
 --- 
-title: Aggiungere una voce al giornale di registrazione delle prestazioni e inviare complimento a un utente
+title: Aggiungere informazioni al giornale di registrazione delle prestazioni e inviare complimento
 description: Il giornale di registrazione delle prestazioni contiene informazioni correlate a come sono stati soddisfatti gli obiettivi o quali sono state le prestazioni durante un periodo.
 author: ShielaSogge
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Aggiungere una voce al giornale di registrazione delle prestazioni e inviare complimento a un utente
+# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Aggiungere informazioni al giornale di registrazione delle prestazioni e inviare complimento
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

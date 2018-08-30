@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,18 +33,18 @@ In questo argomento viene descritto cosa è incluso nel contenuto **Analisi dell
 
 ## <a name="overview"></a>Panoramica
 
-Il contenuto di Power BI **Analisi della contabilità industriale** è destinato ai controller di costo o qualsiasi utente responsabile di eseguire il controllo dei costi di un'organizzazione. Include metriche chiave, ad esempio costi, grandezza e il tasso di costo per costo effettivo, costo a budget e costo a budget flessibile. Utilizza i dati delle transazioni del modulo **Contabilità industriale** e offre una visualizzazione aggregata dei costi per l'intera organizzazione in un'unica valuta di dichiarazione. I responsabili possono filtrare i dati in base agli oggetti di costo per eseguire il controllo dei costi delle unità organizzative, anche se l'organizzazione può avere più persone giuridiche. 
+Il contenuto di Power BI **Analisi della contabilità industriale** è destinato ai controller di costo o qualsiasi utente responsabile di eseguire il controllo dei costi di un'organizzazione. Include metriche chiave, ad esempio costi, grandezza e il tasso di costo per costo effettivo, costo a budget e costo a budget flessibile. Utilizza i dati delle transazioni del modulo **Contabilità industriale** e offre una visualizzazione aggregata dei costi per l'intera organizzazione in un'unica valuta di dichiarazione. I responsabili possono filtrare i dati in base agli oggetti di costo per eseguire il controllo dei costi delle unità organizzative, anche se l'organizzazione può avere più persone giuridiche.
 
-Poiché il contenuto **Analisi della contabilità industriale** evidenzia gli scostamenti tra i costi effettivi e i costi a budget, i responsabili possono ricevere una notifica delle tendenze positive e negative per le relative unità operative. I responsabili possono eseguire il drill-down delle gerarchie degli elementi di costo o dei singoli elementi di costo. In questo modo, i responsabili possono ottenere informazioni dettagliate sugli scostamenti di costo e intraprendere l'azione opportuna. 
+Poiché il contenuto **Analisi della contabilità industriale** evidenzia gli scostamenti tra i costi effettivi e i costi a budget, i responsabili possono ricevere una notifica delle tendenze positive e negative per le relative unità operative. I responsabili possono eseguire il drill-down delle gerarchie degli elementi di costo o dei singoli elementi di costo. In questo modo, i responsabili possono ottenere informazioni dettagliate sugli scostamenti di costo e intraprendere l'azione opportuna.
 
-Il contenuto **Analisi della contabilità industriale** consente ai contabili di analizzare come i costi fluiscono attraverso gli oggetti di costo dell'intera organizzazione. 
+Il contenuto **Analisi della contabilità industriale** consente ai contabili di analizzare come i costi fluiscono attraverso gli oggetti di costo dell'intera organizzazione.
 
-Per ulteriori informazioni sulla contabilità industriale, vedere [Home page di contabilità industriale](../../financials/cost-accounting/cost-accounting-home-page.md). 
+Per ulteriori informazioni sulla contabilità industriale, vedere [Home page di contabilità industriale](../../financials/cost-accounting/cost-accounting-home-page.md).
 
 Definendo la sicurezza a livello di accesso nella contabilità industriale e combinandola alla sicurezza a livello di riga in Power BI, è possibile concedere a tutti i proprietari degli oggetti di costo l'accesso al contenuto Power BI per l'**analisi della contabilità industriale**. Tutti i dati delle visualizzazioni verranno filtrati in base al livello di accesso che viene controllato nella contabilità industriale. Per ulteriori informazioni sulla sicurezza a livello di accesso e a livello di riga, vedere [Impostare la sicurezza del contenuto della contabilità industriale per Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-È possibile trovare il contenuto Power BI per l'**analisi della contabilità industriale** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). 
+È possibile trovare il contenuto Power BI per l'**analisi della contabilità industriale** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -75,7 +75,7 @@ Il contenuto include un set di pagine di report. Ciascuna pagina è costituita d
 |                                  | Costo effettivo per nome membro dimensione oggetto di costo e nome membro dimensione elemento di costo                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi della contabilità industriale**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). 
+I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi della contabilità industriale**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
 Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
 
@@ -113,20 +113,18 @@ Nella tabella seguente vengono illustrate le misure di aggregazione chiave utili
 
 Le dimensioni chiave seguenti vengono utilizzate come filtri per dividere le misure di aggregazione e ottenere una maggiore granularità e fornire informazioni analitiche più approfondite.
 
-
-|               Entità               |                                                Esempi di attributi                                                |
+| Entità                             | Esempi di attributi                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|      Movimenti CoGe di contabilità industriale       |                                                Movimento CoGe di contabilità industriale                                                |
-|         Unità di controllo costi         |                                                Nome unità di controllo costi                                                |
-|      Dimensioni elemento di costo       |     Nome dimensione elementi di costo, Nome membro dimensione elementi di costo, Descrizione membro dimensione elementi di costo      |
-|       Dimensioni oggetto di costo       |       Nome dimensione oggetti di costo, Nome membro dimensione oggetti di costo, Descrizione membro dimensione oggetti di costo        |
-|       Dimensioni statistiche       |       Nome dimensione statistica, Nome membro dimensione statistica, Descrizione membro dimensione statistica        |
-| Gerarchie dimensioni di oggetto di costo  |  Nome gerarchia di dimensioni oggetti di costo, Livello di gerarchia di dimensioni oggetti di costo, Struttura gerarchica di dimensioni oggetti di costo   |
+| Movimenti CoGe di contabilità industriale            | Movimento CoGe di contabilità industriale                                                                                               |
+| Unità di controllo costi                 | Nome unità di controllo costi                                                                                               |
+| Dimensioni elemento di costo            | Nome dimensione elementi di costo, Nome membro dimensione elementi di costo, Descrizione membro dimensione elementi di costo          |
+| Dimensioni oggetto di costo             | Nome dimensione oggetti di costo, Nome membro dimensione oggetti di costo, Descrizione membro dimensione oggetti di costo              |
+| Dimensioni statistiche             | Nome dimensione statistica, Nome membro dimensione statistica, Descrizione membro dimensione statistica              |
+| Gerarchie dimensioni di oggetto di costo  | Nome gerarchia di dimensioni oggetti di costo, Livello di gerarchia di dimensioni oggetti di costo, Struttura gerarchica di dimensioni oggetti di costo    |
 | Gerarchie dimensioni di elementi di costo | Nome gerarchia di dimensioni elementi di costo, Livello di gerarchia di dimensioni elementi di costo, Struttura gerarchica di dimensioni elementi di costo |
-| Gerarchie di dimensioni statistiche  |  Nome gerarchia di dimensioni statistiche, Livello di gerarchia di dimensioni statistiche, Struttura gerarchica di dimensioni statistiche   |
-|        Versioni transazione        |                                                     Nome versione                                                     |
-|          Calendari fiscali          |                                            Calendario, Descrizione del calendario                                            |
-|            Anni fiscali            |                                                    Anno di calendario                                                     |
-|           Periodi fiscali           |                                                 Periodo anno di calendario                                                 |
-
+| Gerarchie di dimensioni statistiche  | Nome gerarchia di dimensioni statistiche, Livello di gerarchia di dimensioni statistiche, Struttura gerarchica di dimensioni statistiche    |
+| Versioni transazione               | Nome versione                                                                                                         |
+| Calendari fiscali                   | Calendario, Descrizione del calendario                                                                                       |
+| Anni fiscali                       | Anno di calendario                                                                                                        |
+| Periodi fiscali                     | Periodo anno di calendario                                                                                                 |
 

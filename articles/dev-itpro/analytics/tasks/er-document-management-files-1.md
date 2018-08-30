@@ -1,5 +1,5 @@
 --- 
-title: Preparare il modello di dati per utilizzare i file della gestione documenti negli output di formato
+title: Preparare i modelli di dati per utilizzare i file di gestione documenti negli output di ER
 description: "I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9f99259056fab2d56d1ccf7487681c183551c64f
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fcafaf17315f54594116a143f36e924bc705d839
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="prepare-data-model-to-use-document-management-files-in-format-outputs"></a>Preparare il modello di dati per utilizzare i file della gestione documenti negli output di formato
+# <a name="prepare-data-models-to-use-document-management-files-in-er-output"></a>Preparare i modelli di dati per utilizzare i file di gestione documenti negli output di ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

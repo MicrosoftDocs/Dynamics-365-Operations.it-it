@@ -1,5 +1,5 @@
 --- 
-title: Progettare una configurazione per la generazione di report in formato OpenXML per la creazione di report elettronici (ER)
+title: Progettare le configurazioni di ER per generare report in formato OpenXML
 description: "I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici (ER) che contiene un modello per la generazione di documenti elettronici in formato OPENXML."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
 ms.contentlocale: it-it
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Progettare una configurazione per la generazione di report in formato OpenXML per la creazione di report elettronici (ER)
+# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>Progettare le configurazioni di ER per generare report in formato OpenXML
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

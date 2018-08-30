@@ -1,5 +1,5 @@
 --- 
-title: Modificare un formato riapplicando un modello di Microsoft Excel per la creazione di report elettronici (ER)
+title: Modificare i formati riapplicando i modelli di Excel
 description: "Per completare i passaggi in questa procedura, è innanzitutto necessario completare la procedura \"ER - Progettare una configurazione per la creazione di report nel formato OPENXML\"."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 2f35727376812b0de428ce929ebe0d33bc497984
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>Modificare un formato riapplicando un modello di Microsoft Excel per la creazione di report elettronici (ER)
+# <a name="modify-formats-by-reapplying-excel-templates"></a>Modificare i formati riapplicando i modelli di Excel
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
