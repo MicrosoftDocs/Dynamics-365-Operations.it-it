@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 056bc38fc69422b17b1b7720ce37089b27e8aa2e
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
 ms.contentlocale: it-it
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -55,11 +55,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="15fe7-125">Generare le fatture ricorrenti</span><span class="sxs-lookup"><span data-stu-id="15fe7-125">Generate the recurring invoices</span></span>
 <span data-ttu-id="15fe7-126">Nella pagina **Fatture ricorrenti**è presente un'attività che elabora modelli di fattura ricorrente.</span><span class="sxs-lookup"><span data-stu-id="15fe7-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="15fe7-127">Specificare la data della fattura e il modello da cui generare le fatture.</span><span class="sxs-lookup"><span data-stu-id="15fe7-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="15fe7-128">Le fatture verranno generate e verrà assegnato un singolo numero ID ricorrenza per ciascun gruppo di fatture elaborato.</span><span class="sxs-lookup"><span data-stu-id="15fe7-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
-<span data-ttu-id="15fe7-129">Registrare fatture a testo libero ricorrenti</span><span class="sxs-lookup"><span data-stu-id="15fe7-129">Post recurring free text invoices</span></span>
+
+<a name="post-recurring-free-text-invoices"></a><span data-ttu-id="15fe7-129">Registrare fatture a testo libero ricorrenti</span><span class="sxs-lookup"><span data-stu-id="15fe7-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
 <span data-ttu-id="15fe7-130">Dopo la generazione delle fatture ricorrenti, gli ID ricorrenza delle fatture vengono visualizzati in un'attività di registrazione nella pagina **Fatture ricorrenti**.</span><span class="sxs-lookup"><span data-stu-id="15fe7-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="15fe7-131">È possibile visualizzare tutte le fatture per un ID ricorrenza facendo clic sul collegamento.</span><span class="sxs-lookup"><span data-stu-id="15fe7-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="15fe7-132">Durante la revisione delle fatture per ID ricorrenza, è possibile eliminare singole fatture.</span><span class="sxs-lookup"><span data-stu-id="15fe7-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="15fe7-133">Le impostazioni di ricorrenza del cliente saranno reimpostate per il modello, in modo da poterlo rigenerare successivamente.</span><span class="sxs-lookup"><span data-stu-id="15fe7-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="15fe7-134">È possibile registrare una, molte o tutte le fatture per un ID ricorrenza.</span><span class="sxs-lookup"><span data-stu-id="15fe7-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="15fe7-135">Se i flussi di lavoro sono attivati, è necessario fare clic su **Invia** per poter registrare le fatture.</span><span class="sxs-lookup"><span data-stu-id="15fe7-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
-<span data-ttu-id="15fe7-136">Stampare fatture a testo libero ricorrenti</span><span class="sxs-lookup"><span data-stu-id="15fe7-136">Print recurring free text invoices</span></span>
+
+<a name="print-recurring-free-text-invoices"></a><span data-ttu-id="15fe7-136">Stampare fatture a testo libero ricorrenti</span><span class="sxs-lookup"><span data-stu-id="15fe7-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
 <span data-ttu-id="15fe7-137">Dopo la registrazione delle fatture ricorrenti, è possibile stampare le fatture dalla pagina elenco delle fatture a testo libero.</span><span class="sxs-lookup"><span data-stu-id="15fe7-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="15fe7-138">È possibile stampare le fatture selezionate oppure selezionare un intervallo di fatture da stampare.</span><span class="sxs-lookup"><span data-stu-id="15fe7-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
