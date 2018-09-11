@@ -3,24 +3,25 @@ title: Definire una data di scadenza per una versione del flusso di produzione
 description: "Per terminare la validità e l'elaborazione di una versione del flusso di produzione in una data specifica o per pianificare la sostituzione di una versione attiva con una nuova versione, è necessario impostare una data di scadenza della versione."
 author: cvocph
 manager: AnnBe
-ms.date: 10/07/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LeanProductionFlow
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e12452feb5ac91917848abbb710b80f86b4cb6e9
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5e12843f9ab12c039c962a9033e3c0187c46bb15
 ms.contentlocale: it-it
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a><span data-ttu-id="c6b3d-103">Definire una data di scadenza per una versione del flusso di produzione</span><span class="sxs-lookup"><span data-stu-id="c6b3d-103">Define an expiry date for a production flow version</span></span>

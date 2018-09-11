@@ -1,26 +1,27 @@
----
+--- 
 title: "Modificare la proprietà dell'inventario spedizione in base alla domanda di produzione"
 description: "In questa procedura viene illustrato come modificare il proprietario dell'inventario di spedizione dal fornitore alla persona giuridica quando c'è domanda di inventario nella produzione."
 author: perlynne
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: a665387244c571907afab24a54bc88580eca093e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5dd00e6f53d13305949d225e73223ab54947c804
 ms.contentlocale: it-it
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="0f6bf-103">Modificare la proprietà dell'inventario spedizione in base alla domanda di produzione</span><span class="sxs-lookup"><span data-stu-id="0f6bf-103">Change the ownership of consignment inventory based on production demand</span></span>
@@ -51,4 +52,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="0f6bf-131">Quando il giornale viene registrato, l'inventario di proprietà del fornitore viene rilasciato mediante un riferimento "Modifica proprietà".</span><span class="sxs-lookup"><span data-stu-id="0f6bf-131">When the journal is posted, the vendor-owned inventory is released by using an "Ownership change" reference.</span></span> <span data-ttu-id="0f6bf-132">L'inventario verrà ricevuto come scorte disponibili utilizzando una transazione di inventario che viene aggiornata con un'entrata prodotti ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="0f6bf-132">The inventory is then received as on-hand by using an inventory transaction that is updated with a purchase order product receipt.</span></span> <span data-ttu-id="0f6bf-133">Tenere presente che solo le transazioni relative al giornale registrato vengono create.</span><span class="sxs-lookup"><span data-stu-id="0f6bf-133">Note that only transactions that are related to the posted journal are created.</span></span> <span data-ttu-id="0f6bf-134">Non vengono create transazioni di inventario previste.</span><span class="sxs-lookup"><span data-stu-id="0f6bf-134">No expected inventory transactions are created.</span></span>  
 2. <span data-ttu-id="0f6bf-135">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="0f6bf-135">Click OK.</span></span>
 3. <span data-ttu-id="0f6bf-136">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="0f6bf-136">Close the page.</span></span>
+
 

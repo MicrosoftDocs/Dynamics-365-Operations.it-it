@@ -1,26 +1,27 @@
----
+--- 
 title: Definire i processi di conteggio scorte
 description: In questa procedura viene illustrata la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 88d5dddf025c7a0451e9a812f83784499c3437a6
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: a75d39dc030e28529692241ce637b780421d31ad
 ms.contentlocale: it-it
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-inventory-counting-processes"></a><span data-ttu-id="4abc7-103">Definire i processi di conteggio scorte</span><span class="sxs-lookup"><span data-stu-id="4abc7-103">Define inventory counting processes</span></span>
@@ -84,4 +85,5 @@ ms.lasthandoff: 08/07/2018
 7. <span data-ttu-id="4abc7-170">Nell'elenco selezionare un gruppo di conteggio.</span><span class="sxs-lookup"><span data-stu-id="4abc7-170">In the list, select a counting group</span></span>
     * <span data-ttu-id="4abc7-171">In questo campo è possibile selezionare un gruppo di conteggio specifico da applicare all'articolo nel magazzino specifico selezionato.</span><span class="sxs-lookup"><span data-stu-id="4abc7-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="4abc7-172">Quando il conteggio viene eseguito nel magazzino, questi criteri di conteggio sostituiranno i criteri di conteggio generali per l'articolo.</span><span class="sxs-lookup"><span data-stu-id="4abc7-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
 8. <span data-ttu-id="4abc7-173">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="4abc7-173">Click Save.</span></span>
+
 

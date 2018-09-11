@@ -3,23 +3,24 @@ title: Definire gruppi di configurazione
 description: "Questa procedura mostra come definire i gruppi di configurazione prodotto creando due gruppi nella società di dati dimostrativi USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConfigGroup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 2d399b9d858c3ee9a1d643d5d5ab00d029dbc954
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 6be76a53abcb77ec53252968f34cef2d1f3bb64f
 ms.contentlocale: it-it
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-configuration-groups"></a><span data-ttu-id="c3e2b-103">Definire gruppi di configurazione</span><span class="sxs-lookup"><span data-stu-id="c3e2b-103">Define configuration groups</span></span>
