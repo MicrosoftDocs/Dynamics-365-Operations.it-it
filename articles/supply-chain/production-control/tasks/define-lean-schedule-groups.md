@@ -3,24 +3,25 @@ title: Definire gruppi di produzione snella
 description: I gruppi di programmazione snella sono definiti per raggruppare e distinguere i prodotti nella programmazione kanban.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3e07fa270b47be3527c572dc53ca30a7bcde5ba6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a5bc20c0a9e2396365caebeb3751d2090e4575a4
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-lean-schedule-groups"></a>Definire gruppi di produzione snella
@@ -46,7 +47,7 @@ I gruppi di programmazione snella sono definiti per raggruppare e distinguere i 
 2. Nel campo Tipo di relazione articolo selezionare l'articolo
 3. Nel campo Numero articolo, digitare un valore.
 4. Immettere un numero nel campo Rapporto produttività.
-    * La relazione di produttività predefinita è 1, in modo da indicare che i prodotti correlati utilizzano esattamente la capacità specificata nelle attività di processo dei flussi di produzione. Rapporto produttività > 1 definisce un consumo di risorse superiore, Rapporto produttività < 1 definisce un consumo di risorse inferiore. Il rapporto viene utilizzato nel calcolo dei costi e nel calcolo dell'avanzamento processo kanban.  
+    * La relazione di produttività predefinita è 1, in modo da indicare che i prodotti correlati utilizzano esattamente la capacità specificata nelle attività di elaborazione dei flussi di produzione. Rapporto produttività > 1 definisce un consumo di risorse superiore, Rapporto produttività < 1 definisce un consumo di risorse inferiore. Il rapporto viene utilizzato nel calcolo dei costi e nel calcolo dell'avanzamento processo kanban.  
 
 ## <a name="associate-item-allocation-key"></a>Associare una chiave di allocazione articolo
 1. Associare una chiave di allocazione articolo

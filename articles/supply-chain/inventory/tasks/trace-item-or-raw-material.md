@@ -1,21 +1,22 @@
----
+--- 
 title: Tracciare un articolo o la materia prima
 description: "Questa procedura dimostra come utilizzare la tracciabilità articolo per identificare gli articoli o le materie prime che sono stati utilizzati o vengono utilizzati."
 author: pjacobse
 manager: AnnBe
-ms.date: 06/21/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d7eb282ddf9597385d6660a3fc0ef73f403ab898
@@ -54,4 +55,5 @@ Questa procedura dimostra come utilizzare la tracciabilità articolo per identif
 8. Nel riquadro azioni fare clic su Tracciatura.
 9. Fare clic su Ordini cliente spediti.
 10. Chiudere la pagina.
+
 

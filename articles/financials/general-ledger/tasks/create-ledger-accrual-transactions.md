@@ -3,23 +3,24 @@ title: "Creare transazioni di attribuzione per competenza in contabilità genera
 description: "Questa guida di attività descrive la generazione di transazioni di attribuzione per competenza in contabilità generale basate su schemi di attribuzione per competenza."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransAccrual, LedgerJournalTransAccrualTrans
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: a05f0777a14d627dc57ef4f4666abb6f92eee59a
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 368614ff447ae9f5cb6e74274558b92a0873ec7a
 ms.contentlocale: it-it
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-ledger-accrual-transactions"></a>Creare transazioni di attribuzione per competenza in contabilità generale
@@ -33,7 +34,7 @@ Questa guida di attività descrive la generazione di transazioni di attribuzione
 3. Fare clic per seguire il collegamento nel campo Numero batch giornale di registrazione.
 4. Nell'elenco contrassegnare la riga selezionata.
 5. Nel campo Conto, specificare i valori desiderati.
-    * In questo esempio viene definita la spesa dell'assicurazione. Diventerà un importo di spesa periodico.  
+    * In questo esempio viene definita la spesa dell'assicurazione. Verrà impostata come importo di spesa periodico.  
 6. Nel campo Descrizione digitare un valore.
 7. Nel campo Dare immettere un numero.
 8. Nel campo Conto di contropartita, specificare i valori desiderati.
