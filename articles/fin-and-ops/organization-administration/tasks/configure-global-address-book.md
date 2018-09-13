@@ -3,7 +3,7 @@ title: Configurare la rubrica globale
 description: Utilizzare questa procedura per impostare i valori predefiniti e i criteri di sicurezza della rubrica globale.
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

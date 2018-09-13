@@ -3,7 +3,7 @@ title: Creare un obiettivo
 description: "È possibile creare obiettivi, aggiungere attività agli obiettivi, tenere traccia di misure e collegare obiettivi a una revisione."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

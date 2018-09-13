@@ -3,7 +3,7 @@ title: Visualizza storico flusso di lavoro
 description: Per visualizzare lo stato di un documento inviato al sistema del flusso di lavoro per l'elaborazione e l'approvazione, utilizzare alla procedura indicata di seguito.
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

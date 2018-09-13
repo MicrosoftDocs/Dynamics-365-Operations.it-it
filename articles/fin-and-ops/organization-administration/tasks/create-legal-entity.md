@@ -3,7 +3,7 @@ title: Creare una nuova persona giuridica
 description: "Una persona giuridica è un'organizzazione identificata mediante registrazione presso un'autorità giuridica."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

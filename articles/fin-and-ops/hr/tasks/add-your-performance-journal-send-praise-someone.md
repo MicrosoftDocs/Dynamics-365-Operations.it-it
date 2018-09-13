@@ -3,7 +3,7 @@ title: Aggiungere una voce al giornale di registrazione delle prestazioni e invi
 description: Il giornale di registrazione delle prestazioni contiene informazioni correlate a come sono stati soddisfatti gli obiettivi o quali sono state le prestazioni durante un periodo.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
