@@ -3,7 +3,7 @@ title: Immettere informazioni sui lavoratori
 description: "Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 926fb416cf22476edb2bd4a3b1a22f3e43203db2
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0d850f271a3add191fcdc8ff5624bebbc6c6327f
 ms.contentlocale: it-it
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="enter-worker-information"></a><span data-ttu-id="cbfbb-103">Immettere informazioni sui lavoratori</span><span class="sxs-lookup"><span data-stu-id="cbfbb-103">Enter worker information</span></span>

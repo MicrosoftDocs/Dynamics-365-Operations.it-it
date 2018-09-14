@@ -263,7 +263,7 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: Rilassare le restrizioni di modello per il refactoring dell'overlayering in estensioni
               href: extensibility/refactoring-over-layering.md
-        - name: Ricerca per categorie
+        - name: Creazione di estensioni
           items:
             - name: Aggiungere valori a enumerazioni
               href: extensibility/add-enum-value.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: Prorogare le mappe della tabella utilizzate per il controllo delle versioni
               href: extensibility/maps-with-versioning.md
+        - name: Creazione di soluzioni estendibili
+          items:
+            - name: Scrivere codice estendibile
+              href: extensibility/writing-extensible-code.md
+            - name: Classi
+              href: extensibility/extensible-classes.md
+            - name: Metodi
+              href: extensibility/extensible-methods.md
+            - name: Moduli
+              href: extensibility/extensible-forms.md
+            - name: Extended Data Type
+              href: extensibility/extensible-edts.md
+            - name: Enumerazioni estendibili
+              href: extensibility/extensible-enums.md
+            - name: Delegati
+              href: extensibility/extensible-code-delegates.md
+            - name: Tabelle
+              href: extensibility/extensible-tables.md
+            - name: Attributi di estensibilità per i metodi
+              href: extensibility/extensibility-attributes.md
+            - name: Modifiche significative
+              href: extensibility/breaking-changes.md
     - name: Prestazioni
       items:
-        - name: Effettuare una tracciatura con il parser di traccia
+        - name: Effettuare una tracciatura con il parser Trace
           href: perf-test/trace-trace-tutorial.md
-        - name: Test ambiente multiutente e SDK prestazioni tramite Visual Studio Online
+        - name: Visual StudioTest ambiente multiutente e SDK prestazioni tramite Visual Studio Online
           href: perf-test/perfsdk-tutorial.md
         - name: Test ambiente multiutente e SDK prestazioni in ambienti locali
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: Diagnosticare problemi e analizzare le prestazioni con il parser di traccia
+        - name: Diagnosticare problemi e analizzare le prestazioni con il parser Trace
           href: perf-test/trace-parser.md
         - name: Timer delle prestazioni
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: Creare regole per il consulente dell'ottimizzazione
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Segnalare un'interruzione della produzione
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Risorse per Lifecycle Services
@@ -1236,11 +1260,13 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Riavviare i servizi dell'ambiente
       href: lifecycle-services/restart-environment-services.md
+    - name: Segnalare un'interruzione della produzione
+      href: lifecycle-services/report-production-outage.md
     - name: Tracciare gli accessi degli utenti
       href: lifecycle-services/user-logins.md
     - name: Raccolta di risorse
       href: lifecycle-services/asset-library.md
-    - name: Microsoft Dynamics 365 Translation service
+    - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
         - name: Tradurre file dell'interfaccia utente

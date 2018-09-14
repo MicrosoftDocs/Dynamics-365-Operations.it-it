@@ -3,7 +3,7 @@ title: Processi di produzione in sequenza per la produzione di processo
 description: "Questa procedura utilizza i prodotti di vernice come esempio per mostrare come ordinare gli ordini pianificati in sequenza in base alla priorità di colore e dimensione del collo."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: ee2606bcd24aefc2fa5fc9d11e8a9640db366f91
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4e064f55ed451d44f58e60ba0aa722166981c129
 ms.contentlocale: it-it
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="aad4f-103">Processi di produzione in sequenza per la produzione di processo</span><span class="sxs-lookup"><span data-stu-id="aad4f-103">Sequence production jobs for process manufacturing</span></span>

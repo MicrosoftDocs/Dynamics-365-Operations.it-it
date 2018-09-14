@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Cataloghi del servizio clienti
       href: call-center-catalogs.md
-    - name: Creare un catalogo del servizio clienti
-      href: create-call-center-catalogs.md
     - name: Configurare le modalità e le spese di consegna
       href: configure-call-center-delivery.md
     - name: Impostare e utilizzare gli avvisi di frode
@@ -133,6 +131,8 @@
       href: MPOS-or-CPOS.md
     - name: 'Operazioni POS, online e offline'
       href: pos-operations.md
+    - name: Attivazione del dispositivo di un Retail Modern POS personalizzato
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: Layout schermo con dati dimostrativi in MPOS e Cloud POS
       href: demo-data.md
     - name: Ricerca di prodotti e clienti nel POS

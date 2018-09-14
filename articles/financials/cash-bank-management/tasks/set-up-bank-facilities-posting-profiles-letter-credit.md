@@ -3,7 +3,7 @@ title: Impostare le linee di credito bancarie e i profili registrazione per la l
 description: Questa procedura consente di creare una linea di credito bancaria e di registrare un profilo necessari per elaborare le lettere di credito.
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 243071bfa88a6e8fc184dd0cf0ef6877a69d1b02
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3419d975c087350c01c6854dbbae07b6bb20bc03
 ms.contentlocale: it-it
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a><span data-ttu-id="13bdf-103">Impostare le linee di credito bancarie e i profili registrazione per la lettera di credito</span><span class="sxs-lookup"><span data-stu-id="13bdf-103">Set up bank facilities and posting profiles for letter of credit</span></span>
