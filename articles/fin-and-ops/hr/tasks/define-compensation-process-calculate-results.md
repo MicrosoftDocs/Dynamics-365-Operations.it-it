@@ -3,7 +3,7 @@ title: Definire il processo retributivo e calcolare i risultati
 description: I processi di retribuzione vengono utilizzati per determinare nuovi importi e premi di retribuzione per i dipendenti iscritti ai piani di retribuzione variabile e fissa.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

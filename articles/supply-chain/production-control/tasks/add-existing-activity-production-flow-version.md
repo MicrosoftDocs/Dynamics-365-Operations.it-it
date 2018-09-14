@@ -3,7 +3,7 @@ title: "Aggiungere un'attività esistente a una versione del flusso di produzion
 description: "Durante la creazione di nuove versioni dei flussi di produzione, è possibile scegliere di aggiungere attività create per le versioni precedenti, nella nuova versione."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

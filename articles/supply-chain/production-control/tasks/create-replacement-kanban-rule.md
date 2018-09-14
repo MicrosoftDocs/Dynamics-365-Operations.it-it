@@ -3,7 +3,7 @@ title: Creare una regola kanban di sostituzione
 description: Questa procedura mostra come sostituire la regola kanban esistente con una nuova regola kanban in una data specifica.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Visualizzare le scritture contabili o le transazioni
 description: In questa procedura viene illustrato l'utilizzo della Richiesta di informazioni su transazioni giustificativo per cercare gli inserimenti nel giornale di registrazione o le transazioni.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

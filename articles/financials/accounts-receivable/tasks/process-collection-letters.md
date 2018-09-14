@@ -3,7 +3,7 @@ title: Elaborare lettere di sollecito
 description: Questa procedura indica come creare, stampare e registrare le lettere di sollecito.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

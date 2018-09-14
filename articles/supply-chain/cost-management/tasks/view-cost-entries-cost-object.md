@@ -3,7 +3,7 @@ title: Visualizzare voci di costo per un oggetto di costo
 description: La procedura mostra come visualizzare le voci di costo per un oggetto di costo.
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Creare una richiesta che usa una RdO
 description: Questa guida mostra come aggiungere le informazioni su prezzo e fornitore ad una richiesta di acquisto da un processo di RdO.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

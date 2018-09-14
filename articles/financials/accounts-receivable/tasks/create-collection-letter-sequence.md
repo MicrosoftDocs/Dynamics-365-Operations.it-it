@@ -3,7 +3,7 @@ title: Creare una sequenza di lettere di sollecito
 description: "Utilizzare la guida attività per creare una sequenza delle lettere di sollecito."
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

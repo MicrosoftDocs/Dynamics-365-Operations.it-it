@@ -3,7 +3,7 @@ title: Creare una formula effettuando la copia da una formula esistente
 description: La procedura consente di creare rapidamente una nuova formula copiando da una formula esistente.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

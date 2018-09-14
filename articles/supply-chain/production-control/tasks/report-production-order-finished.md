@@ -3,7 +3,7 @@ title: Dichiarazione di un ordine di produzione come finito
 description: Questa procedura indica come dichiarare un ordine di produzione come finito.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

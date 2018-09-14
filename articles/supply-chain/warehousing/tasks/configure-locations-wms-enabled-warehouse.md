@@ -3,7 +3,7 @@ title: Configurare le ubicazioni in un magazzino abilitato WMS
 description: La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato per WMS (un magazzino che utilizza i processi di gestione avanzata del magazzino).
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Creare una voce di menu del dispositivo mobile per il consolidamento dell
 description: In questa procedura viene illustrato come creare una voce di menu del dispositivo mobile per il lavoro di consolidamento targhe.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

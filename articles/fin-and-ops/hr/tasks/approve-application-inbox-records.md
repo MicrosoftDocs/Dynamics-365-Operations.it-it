@@ -3,7 +3,7 @@ title: Approvare record di Posta in arrivo di domande di lavoro
 description: Questa procedura illustra come esaminare le domande di lavoro ricevute tramite le pagine del portale Self Service dipendenti.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

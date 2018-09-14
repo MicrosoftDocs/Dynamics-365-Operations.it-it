@@ -3,7 +3,7 @@ title: Creare un conto principale
 description: "Questa guida attività descrive come aggiungere un conto principale in un piano dei conti esistente."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

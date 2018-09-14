@@ -3,7 +3,7 @@ title: "Definire le relazioni tra le unità organizzative"
 description: "In questa procedura viene illustrato come progettare la relazione tra le unità organizzative."
 author: mugunthanm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

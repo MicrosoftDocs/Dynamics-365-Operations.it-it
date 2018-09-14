@@ -3,7 +3,7 @@ title: Creare regole di configurazione
 description: Questa procedura crea le regole di configurazione che possono essere utilizzate per la configurazione basata su dimensioni per applicare o impedire determinate combinazioni di righe DBA.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Creare transazioni di attribuzione per competenza in contabilità genera
 description: "Questa guida di attività descrive la generazione di transazioni di attribuzione per competenza in contabilità generale basate su schemi di attribuzione per competenza."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Impostare le posizioni
 description: Le posizioni sono un elemento importante del livello inferiore di una gerarchia organizzativa.
 author: DarinKramer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

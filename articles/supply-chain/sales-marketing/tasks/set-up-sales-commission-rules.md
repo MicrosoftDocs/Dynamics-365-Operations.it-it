@@ -3,7 +3,7 @@ title: Impostare regole per la provvigione vendite
 description: Questa procedura mostra come impostare e abilitare il calcolo e la verifica della provvigione di vendita.
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

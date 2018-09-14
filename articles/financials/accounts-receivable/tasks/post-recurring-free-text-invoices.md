@@ -3,7 +3,7 @@ title: Generare e registrare fatture a testo libero ricorrenti
 description: "Le fatture ricorrenti vengono utilizzate per fatturare regolarmente i clienti per la stessa quantità."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

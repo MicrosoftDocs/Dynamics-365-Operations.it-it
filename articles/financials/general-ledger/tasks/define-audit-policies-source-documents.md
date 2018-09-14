@@ -3,7 +3,7 @@ title: Definire i criteri di controllo per i documenti di origine
 description: In questa procedura viene illustrato come impostare ed eseguire le regole dei criteri di controllo di esecuzione.
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

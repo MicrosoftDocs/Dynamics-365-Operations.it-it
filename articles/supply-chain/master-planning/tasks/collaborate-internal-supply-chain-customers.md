@@ -3,7 +3,7 @@ title: Collaborare con clienti della supply chain interna
 description: In questa procedura viene descritto come visualizzare tutti gli ordini pianificati che verranno evasi da un fornitore interaziendale.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

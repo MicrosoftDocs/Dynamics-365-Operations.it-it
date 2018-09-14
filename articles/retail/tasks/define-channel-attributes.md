@@ -3,7 +3,7 @@ title: " Definire attributi di canale"
 description: Arricchire il canale aggiungendo gli attributi del prodotto e del canale.
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

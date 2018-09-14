@@ -3,7 +3,7 @@ title: Monitorare un'esecuzione di pianificazione generale
 description: "Il pianificatore di produzione desidera verificare se è in esecuzione una pianificazione generale."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

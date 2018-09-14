@@ -3,7 +3,7 @@ title: " Creare e associare una postazione hardware"
 description: In questa procedura vengono descritti i passaggi per creare una nuova stazione hardware.
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

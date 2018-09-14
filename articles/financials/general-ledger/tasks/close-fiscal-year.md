@@ -3,7 +3,7 @@ title: Chiudere l'anno fiscale
 description: Questa procedura descrive il processo di chiusura di fine anno per il trasferimento dei saldi in un nuovo anno fiscale.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

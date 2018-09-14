@@ -3,7 +3,7 @@ title: Configurare i costi standard di manodopera e spese
 description: In questa procedura viene illustrato come impostare i costi standard per la manodopera e le spese per un progetto.
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

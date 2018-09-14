@@ -3,7 +3,7 @@ title: Definire i processi di conteggio scorte
 description: In questa procedura viene illustrata la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

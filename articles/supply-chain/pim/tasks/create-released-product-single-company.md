@@ -3,7 +3,7 @@ title: "Creare un prodotto rilasciato per una singola società"
 description: "Questa procedura descrive come creare un unico prodotto rilasciato nel contesto di un'unica unità legale."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

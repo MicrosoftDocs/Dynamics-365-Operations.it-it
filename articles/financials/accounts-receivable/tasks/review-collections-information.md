@@ -3,7 +3,7 @@ title: Rivedere le informazioni sulla riscossione
 description: "In questa procedura vengono descritti i passaggi per esaminare le informazioni sulla riscossione nonché le varie opzioni di impostazione e le transazioni di riscossione."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

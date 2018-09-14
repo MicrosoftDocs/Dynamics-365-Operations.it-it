@@ -3,7 +3,7 @@ title: Creare configurazioni basate su dimensioni
 description: Questa procedura mostra come definire una configurazione per un prodotto basato sulle dimensioni.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

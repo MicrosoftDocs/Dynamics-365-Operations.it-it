@@ -3,7 +3,7 @@ title: " Creare gruppi di autorizzazioni POS"
 description: In questa procedura vengono descritti i passaggi per creare un gruppo di autorizzazioni POS.
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

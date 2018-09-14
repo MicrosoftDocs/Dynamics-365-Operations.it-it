@@ -3,7 +3,7 @@ title: "Definire le capacità delle risorse"
 description: "Capacità risorsa descrive le operazioni che possono effettuare le risorse operative."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

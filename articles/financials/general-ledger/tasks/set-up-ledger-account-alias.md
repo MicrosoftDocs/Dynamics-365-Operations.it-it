@@ -3,7 +3,7 @@ title: Impostare un alias conto CoGe
 description: Questa procedura mostra come creare un alias di conto che fornisce un collegamento per immettere un numero di conto.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

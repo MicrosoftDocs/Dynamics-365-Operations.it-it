@@ -3,7 +3,7 @@ title: Crea un nuovo prodotto
 description: "Questa attività mostra come creare un nuovo prodotto condiviso."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

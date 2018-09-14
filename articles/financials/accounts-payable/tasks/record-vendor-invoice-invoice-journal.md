@@ -3,7 +3,7 @@ title: Registrare una fattura fornitore nel giornale di registrazione fatture
 description: "Questa guida attività indicherà come registrare le fatture fornitore non associate a ordini fornitore."
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

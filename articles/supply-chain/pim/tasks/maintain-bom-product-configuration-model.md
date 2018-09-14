@@ -3,7 +3,7 @@ title: Gestire DBA per un modello di configurazione prodotto
 description: L'esecuzione di questa procedura richiede un modello di configurazione prodotto esistente.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

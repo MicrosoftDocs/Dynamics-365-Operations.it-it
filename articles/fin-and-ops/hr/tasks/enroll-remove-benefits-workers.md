@@ -3,7 +3,7 @@ title: Iscrivere e rimuovere benefit da lavoratori
 description: "Questa procedura dimostra come un singolo lavoratore può essere iscritto a uno o più benefit e come più lavoratori possono essere iscritti a un benefit."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

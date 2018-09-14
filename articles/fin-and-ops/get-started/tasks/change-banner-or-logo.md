@@ -3,7 +3,7 @@ title: Modificare banner o logo
 description: La procedura riportata di seguito elenca i passaggi che gli amministratori di sistema possono utilizzare per aggiornare l'immagine di logo o banner visualizzata per una persona giuridica.
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

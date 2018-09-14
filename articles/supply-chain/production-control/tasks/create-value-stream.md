@@ -3,7 +3,7 @@ title: Creare un flusso del valore
 description: "I flussi del valore sono unità operative che raggruppano uno o più flussi di produzione."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Creare una regola kanban eventi riga DBA
 description: "Questa attività mostra la configurazione necessaria per creare una regola kanban evento per garantire il rifornimento per le righe DBA di produzione in un ambiente di produzione misto lean e classico."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

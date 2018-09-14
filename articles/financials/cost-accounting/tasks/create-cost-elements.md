@@ -3,7 +3,7 @@ title: 'Creare elementi di costo  '
 description: "Esistono vari modi per creare gli elementi di costo nella contabilità industriale."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

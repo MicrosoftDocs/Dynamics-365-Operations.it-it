@@ -3,7 +3,7 @@ title: Modificare le relazioni gerarchiche per una posizione
 description: Questa procedura indica come modificare la relazione gerarchica di un dipendente.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

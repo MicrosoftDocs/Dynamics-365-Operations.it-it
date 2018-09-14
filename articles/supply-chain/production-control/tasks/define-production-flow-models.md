@@ -3,7 +3,7 @@ title: Definire i modelli di flusso di produzione
 description: "I modelli di flusso di produzione descrivono come la capacità delle celle di lavoro di produzione snella viene calcolata e gestita."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

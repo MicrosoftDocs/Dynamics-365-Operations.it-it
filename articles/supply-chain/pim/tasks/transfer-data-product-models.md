@@ -3,7 +3,7 @@ title: Trasferire i dati per i modelli prodotto
 description: L'esportazione dei dati per un modello di configurazione prodotto richiede almeno un modello prodotto disponibile.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Impostare i codici di ritenuta d'acconto
 description: "La ritenuta d'acconto è un'imposta sui fornitori che non dà origine a transazioni IVA."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

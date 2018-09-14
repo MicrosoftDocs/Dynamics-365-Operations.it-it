@@ -3,7 +3,7 @@ title: Importare la configurazione di bonifico ISO20022
 description: In questa procedura viene descritto come importare una configurazione di creazione di report elettronici dei pagamenti fornitore.
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

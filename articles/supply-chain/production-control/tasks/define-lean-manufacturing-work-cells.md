@@ -3,7 +3,7 @@ title: Definire celle di lavoro per lean manufacturing
 description: "Una cella di lavoro è un modulo specifico dei gruppi di risorse che possono essere utilizzati nelle attività del processo di produzione snella."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

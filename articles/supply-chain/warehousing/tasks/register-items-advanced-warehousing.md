@@ -3,7 +3,7 @@ title: Registrare articoli per un articolo abilitato a immagazzinaggio avanzato 
 description: Questa procedura mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione avanzata di magazzino.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

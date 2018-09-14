@@ -3,7 +3,7 @@ title: Creare regole avanzate per giornali di registrazione
 description: Questa procedura descrive come creare regole avanzate per i giornali di registrazione.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

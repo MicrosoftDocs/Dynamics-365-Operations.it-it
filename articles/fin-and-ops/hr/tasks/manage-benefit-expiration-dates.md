@@ -3,7 +3,7 @@ title: Gestire date di scadenza benefit
 description: "Questa procedura illustra come è possibile applicare una scadenza o estendere un benefit e come gestire le date di iscrizione lavoratori iscritti al benefit."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

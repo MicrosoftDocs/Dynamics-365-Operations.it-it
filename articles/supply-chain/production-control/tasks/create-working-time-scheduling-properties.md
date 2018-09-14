@@ -3,7 +3,7 @@ title: "Creare proprietà di programmazione orari di lavoro"
 description: "Le proprietà di programmazione orario di lavoro vengono utilizzate per classificare gli intervalli dell'orario di lavoro e definire le impostazioni che gli operatori devono considerare."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

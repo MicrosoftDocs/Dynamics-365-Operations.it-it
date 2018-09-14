@@ -3,7 +3,7 @@ title: Adempiere ai contratti di vendita
 description: Questa procedura indica come soddisfare un contratto di vendita associando gli ordini cliente.
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

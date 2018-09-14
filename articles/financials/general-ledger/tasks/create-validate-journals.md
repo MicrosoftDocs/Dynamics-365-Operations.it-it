@@ -3,7 +3,7 @@ title: Creare e convalidare giornali di registrazione
 description: "Questa guida attività crea e convalida giornali di registrazione e righe del giornale di registrazione."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

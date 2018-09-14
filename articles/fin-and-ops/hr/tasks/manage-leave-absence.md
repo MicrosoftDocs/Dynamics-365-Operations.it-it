@@ -3,7 +3,7 @@ title: Gestire i congedi
 description: In questa procedura viene descritta la creazione dei record congedo dipendente.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

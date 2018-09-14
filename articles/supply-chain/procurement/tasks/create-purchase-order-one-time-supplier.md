@@ -3,7 +3,7 @@ title: Creare un ordine fornitore per un fornitore occasionale
 description: Questa procedura indica come creare un ordine fornitore per un fornitore occasionale.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

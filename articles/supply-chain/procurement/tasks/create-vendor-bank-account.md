@@ -3,7 +3,7 @@ title: Creare un nuovo conto bancario fornitore
 description: Questa procedura mostra come creare un conto bancario per un fornitore.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

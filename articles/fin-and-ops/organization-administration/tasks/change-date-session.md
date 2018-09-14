@@ -3,7 +3,7 @@ title: Modificare la data per la sessione
 description: Per impostazione predefinita, viene utilizzata la data corrente quando si immettono e si registrano inserimenti nel giornale di registrazione o documenti di origine.
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

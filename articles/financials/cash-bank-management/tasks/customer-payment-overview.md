@@ -3,7 +3,7 @@ title: Panoramica pagamenti cliente
 description: "Questa guida attività descrive vari metodi utilizzati per immettere i pagamenti cliente."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

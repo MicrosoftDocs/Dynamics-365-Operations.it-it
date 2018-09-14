@@ -3,7 +3,7 @@ title: Generare ed elaborare sconti cliente
 description: "Questa procedura mostra come elaborare gli sconti dalla creazione della richiesta al punto di passarli come ratei alla Contabilità clienti."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

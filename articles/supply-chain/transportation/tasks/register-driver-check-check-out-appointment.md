@@ -3,7 +3,7 @@ title: Registrare il check-in e il check-out del conducente per un appuntamento
 description: In questa procedura viene descritto come registrare il check-in e il check-out di un conducente.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

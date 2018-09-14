@@ -3,7 +3,7 @@ title: Creare un metodo di assegnazione punteggi per RdO
 description: Questa procedura indica come creare un metodo di assegnazione del punteggio.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

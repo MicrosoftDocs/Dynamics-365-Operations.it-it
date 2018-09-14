@@ -3,7 +3,7 @@ title: Creare una domanda chiusa
 description: "Le domande chiuse consentono di fornire opzioni tra cui l'intervistato può scegliere."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

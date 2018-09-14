@@ -3,7 +3,7 @@ title: Impostazione del fuso orario preferito di un utente
 description: "Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore del sistema può impostare il fuso orario per un utente."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

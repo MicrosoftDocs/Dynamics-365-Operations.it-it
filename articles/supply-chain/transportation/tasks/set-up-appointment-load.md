@@ -3,7 +3,7 @@ title: Impostare un appuntamento per un carico
 description: In questa procedura viene illustrato come impostare e pianificare un appuntamento banchina per un carico.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

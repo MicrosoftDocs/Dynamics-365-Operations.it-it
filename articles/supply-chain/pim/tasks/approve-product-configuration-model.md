@@ -3,7 +3,7 @@ title: Approvare un modello di configurazione prodotto
 description: L'esecuzione di questa procedura richiede almeno un modello di configurazione prodotto disponibile.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

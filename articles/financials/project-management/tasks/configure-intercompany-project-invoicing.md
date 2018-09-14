@@ -3,7 +3,7 @@ title: Configurare la fatturazione del progetto interaziendale
 description: "In questa procedura viene illustrato come impostare la fatturazione del progetto tra due società dell'organizzazione."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

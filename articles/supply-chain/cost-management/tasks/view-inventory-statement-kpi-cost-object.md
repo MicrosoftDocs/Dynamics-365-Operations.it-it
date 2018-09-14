@@ -3,7 +3,7 @@ title: Visualizzare il rendiconto magazzino e gli indicatori KPI per oggetto di 
 description: "La società di dati dimostrativi utilizzata per creare questa procedura è USMF."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

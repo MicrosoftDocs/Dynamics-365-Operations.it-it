@@ -3,7 +3,7 @@ title: Pegging di produzione snella da ordini cliente
 description: "La procedura riguarda la convalida della struttura di pegging da una riga di vendita in cui l'articolo è prodotto con kanban."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

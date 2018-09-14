@@ -3,7 +3,7 @@ title: Registrare l'entrata di merci sull'ordine fornitore
 description: Questa procedura mostra come registrare l'entrata delle merci direttamente su un ordine fornitore.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

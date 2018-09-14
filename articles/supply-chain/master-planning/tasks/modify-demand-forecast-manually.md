@@ -3,7 +3,7 @@ title: Modificare una previsione della domanda manualmente
 description: Questa procedura illustra come modificare la previsione per un articolo.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

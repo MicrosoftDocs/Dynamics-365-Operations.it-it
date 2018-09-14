@@ -3,7 +3,7 @@ title: Immettere informazioni sui lavoratori
 description: "Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

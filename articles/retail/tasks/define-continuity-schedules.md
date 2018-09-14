@@ -3,7 +3,7 @@ title: " Definire programmazioni di continuità"
 description: "In questo argomento si descrive l'impostazione di un programma di continuità (altrimenti detto ordini ricorrenti)."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

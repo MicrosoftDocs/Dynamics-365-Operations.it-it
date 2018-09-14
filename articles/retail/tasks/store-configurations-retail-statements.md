@@ -3,7 +3,7 @@ title: " Configurazioni dei punti vendita per rendiconti di vendita al dettaglio
 description: "In questa procedura sono illustrate le configurazioni per il punto vendita al dettaglio che interessa la modalità di creazione e registrazione dei rendiconti di vendita al dettaglio."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

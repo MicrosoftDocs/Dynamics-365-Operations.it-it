@@ -3,7 +3,7 @@ title: Impostare le informazioni sulle risorse di progetto
 description: Questa procedura mostra come impostare una risorsa del progetto.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

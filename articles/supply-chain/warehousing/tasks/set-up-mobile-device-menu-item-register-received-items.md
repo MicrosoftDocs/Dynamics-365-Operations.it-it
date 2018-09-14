@@ -3,7 +3,7 @@ title: Impostare una voce di menu del dispositivo mobile per registrare gli arti
 description: "Questa attività si basa sull'impostazione di una voce di menu per dispositivo mobile."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

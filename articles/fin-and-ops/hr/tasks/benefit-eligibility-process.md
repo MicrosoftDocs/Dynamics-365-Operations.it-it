@@ -3,7 +3,7 @@ title: "Elaborare l'idoneità al benefit"
 description: "In questa procedura vengono descritti i passaggi per utilizzare il processo di idoneità al benefit."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Convalidare un flusso e una versione di produzione
 description: Questa procedura mostra come creare un nuovo flusso di produzione e una prima versione per il lean manufacturing.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

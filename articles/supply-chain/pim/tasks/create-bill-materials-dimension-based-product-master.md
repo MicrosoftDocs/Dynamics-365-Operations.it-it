@@ -3,7 +3,7 @@ title: Creare una distinta base per una rappresentazione generale prodotto basat
 description: "Per questa procedura è necessario completare le 4 guide precedenti di questa sequenza di otto registrazioni."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

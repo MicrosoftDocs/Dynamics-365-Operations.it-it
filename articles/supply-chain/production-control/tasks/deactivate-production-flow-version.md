@@ -3,7 +3,7 @@ title: Disattivare una versione del flusso di produzione
 description: "Quando una versione del flusso di produzione attiva non è più necessaria, può essere disattivata."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

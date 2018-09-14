@@ -3,7 +3,7 @@ title: Creare componenti del modello prodotto
 description: I modelli di configurazione prodotti basata su vincoli utilizzano i componenti come blocchi predefiniti per stabilire la struttura del modello prodotto.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

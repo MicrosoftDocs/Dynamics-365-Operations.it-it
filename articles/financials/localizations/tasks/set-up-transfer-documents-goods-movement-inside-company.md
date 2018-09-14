@@ -3,7 +3,7 @@ title: "Impostare i documenti di trasferimento per il movimento di merci all'int
 description: "In questa procedura viene illustrato come creare documenti di trasferimento per il movimento di merci in una società."
 author: v-oloski
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

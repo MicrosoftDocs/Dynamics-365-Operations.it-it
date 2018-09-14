@@ -3,7 +3,7 @@ title: Creare una programmazione per un sito
 description: Questa procedura mostra come programmare gli ordini di produzione non ancora iniziati per un sito.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

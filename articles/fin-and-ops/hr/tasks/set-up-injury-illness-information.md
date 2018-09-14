@@ -3,7 +3,7 @@ title: Imposta le informazioni su infortunio e malattia
 description: I datori di lavoro devono sapere se i propri dipendenti si feriscono o si ammalano a causa dei rischi nel luogo di lavoro.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

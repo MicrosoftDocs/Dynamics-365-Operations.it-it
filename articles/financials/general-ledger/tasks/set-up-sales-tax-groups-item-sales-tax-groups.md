@@ -3,7 +3,7 @@ title: Impostare fasce IVA e fasce IVA articoli
 description: "In questa registrazione attività verrà illustrata l'impostazione dell'IVA e delle fasce IVA articoli."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

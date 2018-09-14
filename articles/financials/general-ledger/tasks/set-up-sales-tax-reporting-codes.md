@@ -3,7 +3,7 @@ title: Imposta i codici reporting IVA
 description: Questi codici reporting IVA fanno riferimento a un numero di campo in un report IVA.
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

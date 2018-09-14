@@ -3,7 +3,7 @@ title: Creare un contratto per linea di credito bancaria per una lettera di cred
 description: "In questa attività viene illustrato come creare un contratto per linea di credito bancaria per elaborare una lettera di credito."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

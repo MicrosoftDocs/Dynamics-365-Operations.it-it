@@ -3,7 +3,7 @@ title: Distribuire questionari mediante programmazione
 description: "La programmazione dei questionari consente di pianificare e distribuire i questionari a più intervistati."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Identificare e distribuire strumenti per la selezione dei candidati
 description: "Individuare un pool qualificato di candidati per coprire le posizioni aperte può essere difficile, in particolare quando una posizione richiede un set univoco di competenze."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

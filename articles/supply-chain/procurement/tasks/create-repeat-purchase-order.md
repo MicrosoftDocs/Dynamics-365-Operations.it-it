@@ -3,7 +3,7 @@ title: Creare un ordine fornitore ripetuto
 description: Questa procedura vi mostra come creare un ordine fornitore (PO) ripetuto copiando le righe da documento di ordine fornitore precedente in un nuovo PO o un PO esistente.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

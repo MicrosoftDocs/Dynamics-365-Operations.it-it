@@ -3,7 +3,7 @@ title: Impostare un formato per la distinta di pagamento per le fatture di proge
 description: "Le aziende generalmente allegano le distinte di pagamento stampate alle fatture per comodità dei clienti e per fornire un riferimento di pagamento per la registrazione e la liquidazione."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

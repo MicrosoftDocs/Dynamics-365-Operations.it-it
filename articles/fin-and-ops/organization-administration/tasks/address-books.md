@@ -3,7 +3,7 @@ title: Configurare le rubriche
 description: Utilizzare questa procedura e le decisioni prese nell'argomento relativo alla pianificazione della configurazione della rubrica globale e delle rubriche aggiuntive per impostare le rubriche aggiuntive per l'organizzazione.
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

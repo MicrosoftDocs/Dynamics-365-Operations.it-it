@@ -3,7 +3,7 @@ title: Visualizza transazioni IVA registrate
 description: "È possibile visualizzare le transazioni IVA registrate da diverse pagine a seconda di cosa è necessario visualizzare."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

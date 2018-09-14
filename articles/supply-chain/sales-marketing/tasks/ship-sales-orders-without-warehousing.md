@@ -3,7 +3,7 @@ title: Spedire gli ordini cliente senza immagazzinaggio
 description: La guida dimostra come aggiornare un ordine cliente quando i prodotti vengono spediti al cliente.
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Creare un modello di record per facilitare l'immissione dei dati
 description: Questa procedura dimostra come creare un modello di record in modo che non sia necessario inserire in modo esplicito i valori dei campi che vengono utilizzati spesso per ogni nuovo record.
 author: margoc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Generare un documento di trasferimento per un trasferimento scorte intern
 description: "In questa procedura viene illustrato come creare documenti di trasferimento per il movimento di merci in una società."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

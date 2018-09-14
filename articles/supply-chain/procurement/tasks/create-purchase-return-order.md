@@ -3,7 +3,7 @@ title: Creare un ordine di reso acquisti
 description: Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azione Nota di accredito per copiare le righe da un documento di fattura fornitore ad un nuovo PO.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

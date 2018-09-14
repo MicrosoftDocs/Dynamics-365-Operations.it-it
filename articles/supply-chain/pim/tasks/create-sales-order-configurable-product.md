@@ -3,7 +3,7 @@ title: Creare un ordine cliente per un prodotto configurabile
 description: Questa procedura mostra come applicare un modello di configurazione a un prodotto in un ordine cliente.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

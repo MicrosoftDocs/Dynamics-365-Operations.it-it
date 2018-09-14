@@ -3,7 +3,7 @@ title: Definire nuovi processi
 description: "L'attività si basa sulla creazione di una nuova posizione lavorativa."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

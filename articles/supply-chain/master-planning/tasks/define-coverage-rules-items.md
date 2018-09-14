@@ -3,7 +3,7 @@ title: Definire le regole di copertura per gli articoli
 description: "La società di dati dimostrativi utilizzata per creare questa procedura è USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

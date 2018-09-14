@@ -3,7 +3,7 @@ title: Creare un prodotto
 description: In questa procedura vengono descritti i passaggi per creare un nuovo prodotto nella gerarchia di prodotti al dettaglio.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

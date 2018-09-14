@@ -3,7 +3,7 @@ title: Programmazione processi kanban
 description: Questa procedura riguarda la programmazione dei processi kanban di lavorazione per una cella di lavoro specifica.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

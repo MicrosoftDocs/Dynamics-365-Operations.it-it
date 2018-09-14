@@ -3,7 +3,7 @@ title: Immettere contratti di vendita
 description: In questa procedura vengono descritti i passaggi per creare un contratto di vendita con cui un cliente si impegna ad acquistare un prodotto per un importo concordato in cambio di sconti speciali.
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Impostare le firme elettroniche
 description: Utilizzare questa procedure per configurare le firme elettroniche.
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

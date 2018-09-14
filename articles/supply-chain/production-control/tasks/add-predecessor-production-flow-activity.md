@@ -3,7 +3,7 @@ title: "Aggiungere un'attività precedente a un'attività del flusso di produzio
 description: "In una versione del flusso di produzione, tutte le attività devono essere in sequenza."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

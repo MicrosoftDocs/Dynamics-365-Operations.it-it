@@ -3,7 +3,7 @@ title: Liquidare un assegno postdatato di un cliente
 description: "Un assegno postdatato può essere liquidato solo dopo essere stato liquidato dalla banca."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

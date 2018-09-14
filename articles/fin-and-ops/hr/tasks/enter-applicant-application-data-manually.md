@@ -3,7 +3,7 @@ title: Immettere manualmente i dati del candidato e della domanda di lavoro
 description: Questa procedura illustra come gestire manualmente informazioni sui candidati e sulla relativa domanda di lavoro.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

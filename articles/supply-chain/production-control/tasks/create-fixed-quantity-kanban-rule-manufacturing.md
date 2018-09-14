@@ -3,7 +3,7 @@ title: "Creare una regola kanban a quantità fissa per la produzione"
 description: "Questa procedura è incentrata sull'impostazione necessaria per creare una regola kanban di produzione fissa per attivare le attività di trasformazione, in una cella di lavoro, in un ambiente lean manufacturing."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

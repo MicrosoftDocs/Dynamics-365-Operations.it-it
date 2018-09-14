@@ -3,7 +3,7 @@ title: Impostazione degli uffici IVA
 description: "Gli uffici IVA sono entità in cui l'IVA deve essere dichiarata e pagata."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

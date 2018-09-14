@@ -3,7 +3,7 @@ title: Confrontare costi attivi, stimati e realizzati su un ordine di produzione
 description: In questa procedura viene illustrato come visualizzare i motivi di scostamenti di produzione elevati per un ordine di produzione.
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

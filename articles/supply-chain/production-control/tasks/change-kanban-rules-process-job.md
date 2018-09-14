@@ -3,7 +3,7 @@ title: Modificare regole kanban di un processo di lavorazione
 description: La procedura consente di modificare la regola kanban utilizzata per un kanban specifico.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

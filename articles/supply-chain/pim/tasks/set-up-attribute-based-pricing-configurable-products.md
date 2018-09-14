@@ -3,7 +3,7 @@ title: Impostare prezzi basati su attributi per prodotti configurabili
 description: Questa procedura mostra come impostare prezzi basati su attributi.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

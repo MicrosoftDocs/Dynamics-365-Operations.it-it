@@ -3,7 +3,7 @@ title: Creare un codice interessi con un intervallo
 description: I codici interessi possono essere impostati per calcolare importi d'interesse diversi in base a un intervallo di valori.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

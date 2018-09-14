@@ -3,7 +3,7 @@ title: " Configurare il profilo funzionalità per un rappresentante"
 description: "Questa procedura dimostra come configurare le impostazioni del profilo funzionalità di un punto vendita applicabili ai rappresentanti."
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: " Creare e associare un dispositivo"
 description: In questa procedura vengono descritti i passaggi per creare un nuovo dispositivo e associarlo a un registratore di cassa.
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

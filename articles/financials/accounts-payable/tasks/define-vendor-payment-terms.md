@@ -3,7 +3,7 @@ title: Definire termini di pagamento fornitore
 description: Impostare i termini di pagamento per le fatture fornitore.
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

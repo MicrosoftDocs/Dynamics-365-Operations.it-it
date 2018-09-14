@@ -3,7 +3,7 @@ title: Gestire le informazioni sull'infortunio e la malattia del dipendente
 description: "Si consiglia di completare prima la guida di attività 'Impostazione infortunio e malattia' perché alcune informazioni di impostazione vengono utilizzate qui."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

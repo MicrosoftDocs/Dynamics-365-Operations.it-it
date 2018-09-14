@@ -3,7 +3,7 @@ title: Creare un progetto di assunzione collettiva
 description: Questa procedura descrive il processo di configurazione del progetto di assunzione collettiva.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

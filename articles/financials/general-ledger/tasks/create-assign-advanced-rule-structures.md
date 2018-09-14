@@ -3,7 +3,7 @@ title: Creare e assegnare strutture di regole avanzate
 description: "Questa guida di attività descrive come creare e assegnare una struttura di regole avanzate a una struttura dei conti."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

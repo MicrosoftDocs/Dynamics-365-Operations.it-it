@@ -3,7 +3,7 @@ title: " Impostare regole e parametri per cross-docking e distribuzione push"
 description: In questa procedura vengono descritti i passaggi per creare le regole di rifornimento.
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

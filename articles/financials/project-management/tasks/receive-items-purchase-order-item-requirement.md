@@ -3,7 +3,7 @@ title: Ricevere articoli in un ordine fornitore da una richiesta articolo
 description: In questa procedura viene illustrato come ricevere gli articoli in un ordine fornitore da una richiesta articolo.
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

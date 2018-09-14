@@ -3,7 +3,7 @@ title: Dichiarare lo stato di avanzamento di un dispositivo di lavoro mobile
 description: Questa procedura consente di iniziare e dichiarare lo stato di avanzamento di un processo di produzione nel modulo di registrazione per il dispositivo di processo.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Generare un piano con vincoli
 description: "In questa procedura viene descritta la creazione di un piano in cui verranno considerati sia i vincoli materiali che di capacità."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

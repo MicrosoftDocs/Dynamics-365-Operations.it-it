@@ -3,7 +3,7 @@ title: Creare un codice a barre per un prodotto
 description: In questa procedura viene illustrato come creare un codice a barre manualmente usando il numero di articolo M0001 come esempio.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

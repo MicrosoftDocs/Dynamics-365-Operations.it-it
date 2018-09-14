@@ -3,7 +3,7 @@ title: Attivare il processo di retribuzione per orario e presenze
 description: In questa procedura viene illustrato come abilitare il processo di retribuzione per orario e presenze.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

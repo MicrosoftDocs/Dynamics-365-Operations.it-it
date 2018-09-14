@@ -3,7 +3,7 @@ title: Definire il metodo di pagamento del cliente
 description: Creare un metodo di pagamento per i pagamenti cliente.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

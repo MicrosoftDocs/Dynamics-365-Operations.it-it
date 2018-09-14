@@ -3,7 +3,7 @@ title: Ripristina stato del processo kanban
 description: La procedura riguarda il ripristino di uno stato non di processo kanban non corretto.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

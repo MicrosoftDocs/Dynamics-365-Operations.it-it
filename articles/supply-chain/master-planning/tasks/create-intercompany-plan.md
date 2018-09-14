@@ -3,7 +3,7 @@ title: Creare un piano interaziendale
 description: In questa procedura viene illustrato come creare un piano interaziendale.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

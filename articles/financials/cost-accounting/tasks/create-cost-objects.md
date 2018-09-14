@@ -3,7 +3,7 @@ title: 'Creare oggetti di costo  '
 description: "In questa procedura viene illustrato come creare oggetti di costo importando la dimensione finanziaria centro di costo di Dynamics 365 for Finance and Operations, Enterprise edition nella contabilità industriale tramite un connettore dati."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

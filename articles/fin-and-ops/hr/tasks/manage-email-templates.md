@@ -3,7 +3,7 @@ title: Gestire modelli di messaggi di posta elettronica
 description: "È possibile trasferire le informazioni del database dell'organizzazione ai segnalibri in un nuovo documento e utilizzarlo nei modelli per comunicare efficientemente con i candidati."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

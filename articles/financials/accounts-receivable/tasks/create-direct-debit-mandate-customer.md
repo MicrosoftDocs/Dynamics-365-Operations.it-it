@@ -3,7 +3,7 @@ title: Creare un nuovo mandato di addebito diretto per un cliente
 description: "In questa guida attività viene illustrata la creazione di un mandato di addebito diretto e il suo utilizzo in una fattura."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
