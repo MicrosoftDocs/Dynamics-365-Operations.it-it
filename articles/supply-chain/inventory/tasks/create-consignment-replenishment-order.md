@@ -1,21 +1,22 @@
----
+--- 
 title: Creare nuovo ordine di rifornimento spedizione
 description: "In questa procedura viene illustrato come creare un ordine di rifornimento spedizione in cui è possibile tracciare la consegna prevista da un fornitore nell'inventario di spedizione."
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
@@ -60,7 +61,7 @@ In questa procedura viene illustrato come creare un ordine di rifornimento spedi
 ## <a name="receive-items"></a>Ricevi articoli
 1. Fare clic su Entrata prodotti.
 2. Digitare un valore nel campo Entrata prodotti esterna.
-3. Nel campo Quantità, immettere un numero minore del numero riportato lì.
+3. Nel campo Quantità, immettere un numero minore del numero riportato lì. 
 4. Fare clic su OK.
 
 ## <a name="check-the-on-hand-inventory"></a>Controllare le scorte disponibili.
@@ -70,4 +71,5 @@ In questa procedura viene illustrato come creare un ordine di rifornimento spedi
     * Gli articoli ricevuti come inventario di spedizione di proprietà del fornitore sono scorte disponibili. La quantità rimanente nell'ordine di rifornimento spedizione è indicata nel campo Ordinata in totale.  
 4. Chiudere la pagina.
 5. Fare clic su Chiudi.
+
 

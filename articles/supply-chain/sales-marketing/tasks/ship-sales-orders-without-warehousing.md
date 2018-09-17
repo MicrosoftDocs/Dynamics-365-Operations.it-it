@@ -3,23 +3,24 @@ title: Spedire gli ordini cliente senza immagazzinaggio
 description: La guida dimostra come aggiornare un ordine cliente quando i prodotti vengono spediti al cliente.
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: a98e58b26432ee01e62d60f81a768f14568e34e4
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3f1b9dd4b99bcbcc6cfbc5cfd8e3271fa80c628c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Spedire gli ordini cliente senza immagazzinaggio
@@ -57,6 +58,6 @@ La guida dimostra come aggiornare un ordine cliente quando i prodotti vengono sp
 19. Chiudere la pagina.
 20. Nel riquadro azioni fare clic su Preleva e imballa.
 21. Fare clic su Documento di trasporto.
-    * La pagina Giornale di registrazione documenti di trasporto contiene tutti i documenti di trasporto generati per l'ordine. È possibile esaminare i dettagli di ogni documento e stamparli, se necessario.  
+    * La pagina Giornale di registrazione documenti di trasporto contiene tutti i documenti di trasporto generati per l'ordine. È possibile esaminare i dettagli di ogni documento e stamparli, se si desidera.  
 
 

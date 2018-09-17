@@ -1,21 +1,22 @@
----
+--- 
 title: Verificare l'inventario spedizione tramite la collaborazione fornitore
 description: "In questa procedura viene illustrato come utilizzare la collaborazione fornitore per visualizzare le informazioni sul livello scorte di un prodotto che è stato inserito in spedizione a un cliente."
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 567be29bd9989b3471b22d5a970ed0e51e4549ec
@@ -41,4 +42,5 @@ In questa procedura viene illustrato come utilizzare la collaborazione fornitore
 ## <a name="view-on-hand-inventory"></a>Visualizzare le scorte disponibili
 1. Andare a Collaborazione fornitore > Inventario spedizione > Inventario spedizione disponibile.
     * La pagina Inventario spedizione disponibile mostra le scorte di proprietà nel magazzino del cliente. È possibile visualizzare ulteriori dimensioni, ad esempio sito e magazzino, facendo clic sulla scheda Visualizza dimensioni.   
+
 

@@ -3,23 +3,24 @@ title: Processi di produzione in sequenza per la produzione di processo
 description: "Questa procedura utilizza i prodotti di vernice come esempio per mostrare come ordinare gli ordini pianificati in sequenza in base alla priorità di colore e dimensione del collo."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 87e35de4744a0728cd41192b4afc750b575a1324
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a25a4575ca1600b07b2dac5949c8775bcd162650
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Processi di produzione in sequenza per la produzione di processo
@@ -68,6 +69,6 @@ Questa procedura utilizza i prodotti di vernice come esempio per mostrare come o
     * Selezionare Piano generale.  
 7. Nell'elenco fare clic sul collegamento nella riga selezionata.
 8. Utilizzare il filtro rapido per filtrare il campo Numero articolo in base al valore "P300".
-    * Gli ordini vengono ora ordinati in sequenza in base alla priorità di colore e dimensioni e gli ordini pianificati cominciano alla prima data dell'ordine e alla prima data di consegna. Convalidare la colonna relativa alla data dell'ordine o alla data di inizio nel riquadro Dettaglio informazioni Dettagli programmazione.  
+    * Gli ordini vengono ora ordinati in sequenza in base alla priorità di colore e dimensioni e gli ordini pianificati cominciano alla prima data dell'ordine e alla prima data di consegna. Convalidare la colonna relativa alla data dell'ordine o alla data di inizio in Dettagli programmazione nel riquadro Dettaglio informazioni.  
 
 

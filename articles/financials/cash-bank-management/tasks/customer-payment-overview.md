@@ -3,23 +3,24 @@ title: Panoramica pagamenti cliente
 description: "Questa guida attività descrive vari metodi utilizzati per immettere i pagamenti cliente."
 author: kweekley
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
-ms.openlocfilehash: de2526d5c674de9505174d3f40f9ae597b8a0a6b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
 ms.contentlocale: it-it
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="customer-payment-overview"></a>Panoramica pagamenti cliente
@@ -54,7 +55,7 @@ Questa guida attività descrive vari metodi utilizzati per immettere i pagamenti
 16. Selezionare il cliente da cui è stato ricevuto il pagamento.
     * Se non si conosce il cliente ma si conosce una fattura pagata tramite il pagamento, utilizzare il campo Fattura per immettere o selezionare manualmente la fattura. Una volta selezionata la fattura verrà impostato il cliente predefinito.  
 17. Fare clic su Liquida transazioni per contrassegnare le fatture che sono state pagate.
-    * Non verrà richiesto di liquidare il pagamento per alcuna fattura. Se il pagamento è anticipato o non si conosce la fattura pagata, è possibile immettere e registrare il pagamento. Il pagamento può essere liquidato in una fattura in un momento successivo.  
+    * Non verrà richiesto di liquidare il pagamento in alcuna fattura. Se il pagamento è anticipato o non si conosce la fattura pagata, è possibile immettere e registrare il pagamento. Il pagamento può essere liquidato in una fattura in un momento successivo.  
 18. Contrassegnare le fatture pagate con il pagamento. 
 19. Immettere l'importo del pagamento che verrà liquidato rispetto alla fattura.
 20. Fare clic su OK.

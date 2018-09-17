@@ -44,11 +44,13 @@ Per utilizzare le carte di credito, è necessario impostare e attivare un serviz
 
 ## <a name="adding-a-new-credit-card"></a>Aggiunta di una nuova carta di credito
 È possibile creare nuovi record della carta di credito nella pagina Clienti tramite le opzioni Cliente, Impostazioni, Carta di credito. È inoltre possibile creare record della carta di credito quando si immettono gli ordini cliente nella pagina Ordine cliente, utilizzando le opzioni Gestisci, Cliente, Carta di credito, Registra.
-Aggiunta di una carta di credito a un ordine cliente
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Aggiunta di una carta di credito a un ordine cliente
 -------------------------------------
 
 È possibile aggiungere una carta di credito per un ordine cliente selezionandola nell'area di ricerca relativa nella scheda dettaglio Prezzo e sconti nella pagina Ordine cliente. Per avviare il processo di autorizzazione, nel riquadro azioni, nella scheda Gestisci selezionare Carta di credito, quindi Autorizza.
-Autorizzazione di una carta di credito
+
+<a name="authorizing-a-credit-card"></a>Autorizzazione di una carta di credito
 -------------------------
 
 Quando una carta di credito viene autorizzata, il numero della carta e il nome del titolare della carta vengono verificati e il saldo in Avere disponibile viene confermato. Facoltativamente, vengono verificati il numero di verifica della carta di credito e l'indirizzo del titolare della carta. Il saldo in Avere disponibile del cliente viene quindi ridotto dell'importo della fattura. Il servizio di pagamento invia le informazioni per segnalare se la carta di credito è stata accettata o rifiutata. L'importo della fattura viene addebitato (acquisito) sulla carta di credito una volta fatturato l'ordine cliente.

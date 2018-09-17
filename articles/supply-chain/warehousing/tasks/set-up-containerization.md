@@ -3,24 +3,25 @@ title: Impostare la containerizzazione
 description: Questa procedura descrive come automatizzare la containerizzazione dei carichi in Gestione magazzino.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: it-it
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-containerization"></a>Impostare la containerizzazione
@@ -83,7 +84,7 @@ Questa procedura descrive come automatizzare la containerizzazione dei carichi i
 ## <a name="set-up-a-container-group"></a>Impostare un gruppo di contenitori
 1. Andare a Gestione magazzino > Impostazioni > Contenitori > Gruppi di contenitori.
 2. Fare clic su Nuovo.
-    * È possibile impostare i gruppi logici dei tipi di contenitore. Per ciascun gruppo è possibile specificare la sequenza in cui i contenitori vengono imballati e la percentuale di riempimento dei contenitori. Le dimensioni di tipo Dimensione dell'articolo vengono utilizzate per determinare se potrà essere inserito in un contenitore. Viene utilizzato il contenitore più vicino alle dimensioni di tipo Dimensione dell'articolo. Se in un gruppo sono presenti più tipi di contenitore, è consigliabile disporre la sequenza in base alla dimensione, in modo che il contenitore più grande sia il primo, il numero 1 della sequenza, e il contenitore più piccolo sia l'ultimo.    
+    * È possibile impostare i gruppi logici dei tipi di contenitore. Per ogni gruppo è possibile specificare la sequenza in cui imballare i contenitori e la percentuale di riempimento dei contenitori. Vengono utilizzate le dimensioni di tipo Dimensione dell'articolo per determinare se potrà essere inserito in un contenitore. Viene utilizzato il contenitore più vicino alle dimensioni di tipo Dimensione dell'articolo. Se in un gruppo sono presenti più tipi di contenitore, è consigliabile disporre la sequenza in base alla dimensione, in modo che il contenitore più grande sia il primo, il numero 1 della sequenza, e il contenitore più piccolo sia l'ultimo.    
 3. Digitare un valore nel campo ID gruppo contenitori.
 4. Nel campo Descrizione digitare un valore.
 5. Fare clic su Nuovo.

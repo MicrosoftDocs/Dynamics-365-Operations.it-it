@@ -3,23 +3,24 @@ title: Modificare una previsione della domanda manualmente
 description: Questa procedura illustra come modificare la previsione per un articolo.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 799dd89433ff561fd8a5cc5c082165ef9bb74923
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 2e269ef7b33b4d7e171d284d68d28c825c2fe86c
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modificare una previsione della domanda manualmente
@@ -44,6 +45,6 @@ Questa procedura illustra come modificare la previsione per un articolo. La soci
 ## <a name="modify-the-forecast-in-excel"></a>Modificare la previsione in Excel
 1. Fare clic su Apri in Microsoft Office.
 2. Fare clic sull'opzione per modificare una previsione della domanda in Excel.
-    * In Excel, è possibile aggiungere, eliminare e modificare le righe di previsione della domanda. Se non è possibile visualizzare i dati in Excel, è necessario accedere a Microsoft Dynamics 365 for Finance and Operations con l'opzione "Mantieni l'accesso" selezionata e consentire l'esecuzione dell'applicazione di connessione ai dati.  
+    * In Excel, è possibile aggiungere, eliminare e modificare le righe di previsione della domanda. Se non è possibile visualizzare i dati in Excel, è necessario accedere a Microsoft Dynamics 365 for Finance and Operations, Enterprise edition con l'opzione "Mantieni l'accesso" selezionata e consentire l'esecuzione dell'applicazione di connessione ai dati.  
 
 

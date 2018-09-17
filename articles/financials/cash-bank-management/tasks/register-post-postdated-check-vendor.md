@@ -3,23 +3,24 @@ title: Registrare un assegno postdatato per un fornitore
 description: Utilizzare il giustificativo giornale di registrazione per registrare i dettagli di un assegno postdatato prima di emettere l'assegno a favore di un fornitore.
 author: kweekley
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 632b04848cdb6d71e7e7dbd6c6bc710d0577950a
-ms.openlocfilehash: 776121532c42fde8b1c3e29b4af0bf833952c0cd
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: dd1c9d29d34e51a479d4df4086e97269f71f7448
 ms.contentlocale: it-it
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Registrare un assegno postdatato per un fornitore
@@ -34,7 +35,7 @@ impostare gli assegni postdatati nella pagina Gestione banche e di cassa.
 
 Il ruolo dell'attività è Tesoriere. In questa attività viene utilizzata la società dimostrativa USMF.
 
-1. Andare a Contabilità fornitori > Pagamenti > Giornale di registrazione pagamenti.
+1. Passare a Contabilità fornitori > Pagamenti > Giornale di registrazione pagamenti
 2. Fare clic su Nuovo.
 3. Digitare 'VendPay' nel campo Nome.
 4. Fare clic su Righe.
