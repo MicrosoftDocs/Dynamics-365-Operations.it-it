@@ -25,6 +25,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="new-or-updated-task-guides-december-2017"></a>Guide attività nuove o aggiornate (dicembre 2017)
 
+[!include [banner](../includes/banner.md)]
+
 In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (dicembre 2016 -- tutte le lingue) per Microsoft Dynamics 365 for Operations.
 
 

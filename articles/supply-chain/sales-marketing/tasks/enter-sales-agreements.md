@@ -18,19 +18,17 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8c11164f7edb8e05b93f3c58b9707c0bf2482228
+ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
+ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 # <a name="enter-sales-agreements"></a>Immettere contratti di vendita
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In questa procedura viene illustrato come creare un contratto di vendita che impegna uno dei clienti ad acquistare un prodotto per un
-
-importo concordato nel tempo in cambio di sconti speciali. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.
+In questa procedura vengono descritti i passaggi per creare un contratto di vendita con cui un cliente si impegna ad acquistare un prodotto per un importo concordato in cambio di sconti speciali. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Impostare l'intestazione del contratto di vendita

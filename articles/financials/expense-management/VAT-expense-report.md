@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>Recupero IVA in Gestione spese
 
+[!include [banner](../includes/banner.md)]
+
 Per ricevere rimborsi su transazioni di imposta sul valore aggiunto (IVA) idonee, una società o un'organizzazione deve identificare, raccogliere, verificare e inviare informazioni accurate. Questo processo comprende più attività e, a seconda delle dimensioni della società, può includere diversi dipendenti o ruoli.
 
 Per recuperare l'IVA utilizzando Gestione spese, è necessario completare i seguenti prerequisiti:
