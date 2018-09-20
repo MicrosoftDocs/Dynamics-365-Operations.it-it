@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: it-it
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 I contenuto Microsoft Power BI per la **Gestione costi** è destinato ai contabili di inventario o agli utenti nell'organizzazione responsabili o interessati allo stato dell'inventario o WIP o ai responsabili o interessati all'analisi degli scostamenti dei costi standard.
 
-> [!Note]
+> [!NOTE]
 > Il contenuto Power BI per la **Gestione costi** descritto in questo argomento si applica a Dynamics 365 for Finance and Operations 8.0.
 > 
 > Il pacchetto di contenuti Power BI per la **Gestione costi**, disponibile sul sito AppSource, è stato deprecato. Per ulteriori informazioni sulle funzionalità deprecate, vedere [Pacchetti di contenuti Power BI disponibili in AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -171,7 +171,7 @@ Nelle seguenti tabelle viene fornita una panoramica delle visualizzazioni nel co
 |                                         | Prime 10 risorse per scostamento di produzione sfavorevole  |
 |                                         | Prime 10 risorse per scostamento di produzione favorevole    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
+## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
 I dati di Microsoft Dynamics 365 for Finance and Operations vengono utilizzati per compilare le pagine del report nel contenuto Power BI per la **Gestione costi**. Questi dati sono rappresentati come misure di aggregazione che vengono collocate nell'archivio entità, ovvero un database di Microsoft SQL Server ottimizzato per l'analisi. Per ulteriori informazioni, vedere [Integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
@@ -188,26 +188,25 @@ Nella tabella seguente vengono illustrate le misure chiave calcolate nel contenu
 
 | Unità di misura                            | Calcolo |
 |------------------------------------|-------------|
-| Saldo iniziale                  | Saldo iniziale = [Saldo finale]-[Modifica netto] |
-| Qtà saldo iniziale             | Qtà saldo iniziale = [Qtà saldo finale]-[Qtà modifica netto] |
-| Saldo finale                     | Saldo finale = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Qtà saldo finale                | Qtà saldo finale = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| Modifica netto                         | Modifica netto = SUM([AMOUNT]) |
-| Qtà modifica netto                    | Qtà modifica netto = SUM([QTY]) |
-| Indice di rotazione scorte per importo | Indice di rotazione scorte per importo = if(OR([Saldo media scorte] \<= 0, [Inventario venduto o uscite consumate] \>= 0), 0, ABS([Inventario venduto o uscite consumate])/[Saldo media scorte]) |
-| Saldo medio inventario          | Saldo media scorte = (([Saldo finale] + [Saldo iniziale]) / 2) |
-| Scorte disponibili giornaliere             | Scorte disponibili giornaliere = 365 / CostObjectStatementEntries[Indice di rotazione scorte per importo] |
-| Precisione inventario                 | Precisione inventario per importo = IF([Saldo finale] \<= 0, IF(OR([Importo conteggiato inventario] \<\> 0, [Saldo finale] \< 0), 0, 1), MAX(0, ([Saldo finale] - ABS([Importo conteggiato inventario]))/[Saldo finale])) |
+| Saldo iniziale                  | Saldo iniziale = \[Saldo finale\]-\[Modifica netto\] |
+| Qtà saldo iniziale             | Qtà saldo iniziale = \[Qtà saldo finale\]-\[Qtà modifica netto\] |
+| Saldo finale                     | Saldo finale = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Qtà saldo finale                | Qtà saldo finale = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Modifica netto                         | Modifica netto = SUM(\[AMOUNT\]) |
+| Qtà modifica netto                    | Qtà modifica netto = SUM(\[QTY\]) |
+| Indice di rotazione scorte per importo | Indice di rotazione scorte per importo = if(OR(\[Saldo medio inventario\] \<= 0, \[Inventario venduto o uscite consumate\] \>= 0), 0, ABS(\[Inventario venduto o uscite consumate\])/\[Saldo medio inventario\]) |
+| Saldo medio inventario          | Saldo medio inventario = ((\[Saldo finale\] + \[Saldo iniziale\]) / 2) |
+| Scorte disponibili giornaliere             | Scorte disponibili giornaliere = 365 / CostObjectStatementEntries\[Indice di rotazione scorte per importo\] |
+| Precisione inventario                 | Precisione inventario per importo = IF(\[Saldo finale\] \<= 0, IF(OR(\[Importo conteggiato inventario\] \<\> 0, \[Saldo finale\] \< 0), 0, 1), MAX(0, (\[Saldo finale\] - ABS(\[Importo conteggiato inventario\]))/\[Saldo finale\])) |
 
 La seguenti dimensioni chiave vengono utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e informazioni analitiche più approfondite.
 
 
-|                         Entità                          |             Esempi di attributi              |
+| Entità                                                  | Esempi di attributi                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Prodotti                         | Numero prodotto, nome prodotto, unità, gruppi di articoli |
-| Gerarchie di categorie (assegnate al ruolo Gestione costi) |       Gerarchia di categorie, livello di categoria        |
-|                     Persone giuridiche                      |               Nomi di persone giuridiche                |
-|                    Calendari fiscali                     |  Calendario fiscale, anno, trimestre, periodo, mese  |
-|                          Sito                           |        ID, nome, indirizzo, Stato/regione, paese        |
-
+| Prodotti                                                | Numero prodotto, nome prodotto, unità, gruppi di articoli |
+| Gerarchie di categorie (assegnate al ruolo Gestione costi) | Gerarchia di categorie, livello di categoria              |
+| Persone giuridiche                                          | Nomi di persone giuridiche                              |
+| Calendari fiscali                                        | Calendario fiscale, anno, trimestre, periodo, mese   |
+| Sito                                                    | ID, nome, indirizzo, Stato/regione, paese               |
 

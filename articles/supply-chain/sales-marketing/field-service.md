@@ -3,7 +3,7 @@ title: Integrazione con Microsoft Dynamics 365 for Field Service
 description: In questo argomento viene fornita una panoramica dell'integrazione con Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/25/2018
+ms.date: 08/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
-ms.openlocfilehash: 0c1268d2fddcf7b28ecfc3197f21e9d30a5a5855
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: cb21667021a32381fd8038e1c9f0182b05622e3d
 ms.contentlocale: it-it
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -44,7 +44,7 @@ La prima fase dell'integrazione tra Field Service e Finance and Operations conse
 - [Ordini di lavoro in Field Service con ordini cliente in Finance and Operations](field-service-work-order.md)
 - [Fatture in Field Service con fatture a testo libero in Finance and Operations](field-service-invoice.md)
 
-Per visualizzare un esempio di come sincronizzare un ordine di lavoro tra Field Service e Finance and Operations, guardare il breve video su YouTube [Sincronizzare un ordine di lavoro tra Dynamics 365 for Field Service e Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU).
+Per visualizzare un esempio di come sincronizzare un ordine di lavoro tra Field Service e Finance and Operations, guardare il breve video su YouTube [Come sincronizzare un ordine di lavoro con l'integrazione di Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo).
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Requisiti di sistema di Finance and Operations
 L'integrazione di Field Service supporta le versioni seguenti:

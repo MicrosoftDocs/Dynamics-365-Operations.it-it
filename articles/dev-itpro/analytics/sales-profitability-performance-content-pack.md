@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
 ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,21 +36,21 @@ In questo argomento viene descritto cosa è incluso nel contenuto Microsoft Powe
 
 Il contenuto di Power BI **Prestazioni di vendita e redditività** è stato creato in modo che i responsabili delle vendite possano controllare le metriche chiave relative alle vendite di ricavi, profitto lordo e margini di profitto. Utilizza i dati transazionali delle vendite e offre sia una visualizzazione aggregata delle cifre delle vendite a livello di società che una scomposizione dettagliata delle prestazioni delle vendite per clienti e prodotti.
 
-I report evidenziano le modifiche nel tempo di ricavi e profitto. Di conseguenza, è possibile utilizzarli per avvisare i responsabili sulle tendenze positive e negative per singoli clienti e prodotti. Inoltre, i grafici mettono a confronto ricavi e redditività delle diverse categorie dei prodotti e gruppi di clienti. Di conseguenza, i responsabili di categoria e area possono identificare prestazioni scadenti e prestazioni ottimali. Infine, un report completo mette a confronto i ricavi di un singolo cliente con il margine di profitto. Di conseguenza, i responsabili del conto hanno una base supportata da dati che possono utilizzare per ottimizzare le vendite e le iniziative di marketing per ogni profilo cliente. 
+I report evidenziano le modifiche nel tempo di ricavi e profitto. Di conseguenza, è possibile utilizzarli per avvisare i responsabili sulle tendenze positive e negative per singoli clienti e prodotti. Inoltre, i grafici mettono a confronto ricavi e redditività delle diverse categorie dei prodotti e gruppi di clienti. Di conseguenza, i responsabili di categoria e area possono identificare prestazioni scadenti e prestazioni ottimali. Infine, un report completo mette a confronto i ricavi di un singolo cliente con il margine di profitto. Di conseguenza, i responsabili del conto hanno una base supportata da dati che possono utilizzare per ottimizzare le vendite e le iniziative di marketing per ogni profilo cliente.
 
 Il contenuto **Prestazioni di vendita e redditività** consente ai responsabili delle vendite di analizzare le prestazioni nei seguenti modi:
 
--   Ricavi, da inizio anno (per gruppo di clienti e singoli clienti, categorie di vendita, nonché singoli prodotti e aree geografiche)
--   Modifica nei ricavi, su base annua (per regioni dei clienti e categorie di vendita)
+- Ricavi, da inizio anno (per gruppo di clienti e singoli clienti, categorie di vendita, nonché singoli prodotti e aree geografiche)
+- Modifica nei ricavi, su base annua (per regioni dei clienti e categorie di vendita)
 
 La redditività può essere analizzata nei seguenti modi:
 
--   Profitto lordo e margine di profitto (per gruppi di clienti e categorie di vendita di prodotti)
--   Modifica nel profitto lordo, su base annua
--   Redditività del cliente (per ricavi rispetto a margine lordo)
+- Profitto lordo e margine di profitto (per gruppi di clienti e categorie di vendita di prodotti)
+- Modifica nel profitto lordo, su base annua
+- Redditività del cliente (per ricavi rispetto a margine lordo)
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Il contenuto di Power BI **Prestazioni di vendita e redditività** viene visualizzato nella pagina **Prestazioni di vendita e redditività** (**Vendite e marketing** > **Richieste di informazioni e report** > **Analisi delle prestazioni di vendita** > **Prestazioni di vendita e redditività**). 
+Il contenuto di Power BI **Prestazioni di vendita e redditività** viene mostrato nella pagina **Prestazioni di vendita e redditività** (**Vendite e marketing** \> **Richieste di informazioni e report** \> **Analisi delle prestazioni di vendita** \> **Prestazioni di vendita e redditività**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto di Power BI **Prestazioni di vendita e redditività** include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto.
@@ -77,19 +77,18 @@ Il contenuto di Power BI **Prestazioni di vendita e redditività** include un re
 
 \* Ricavi nell'anno corrente e nell'anno passato e crescita per categoria di vendita.
 
-
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-I seguenti dati vengono utilizzati per compilare il report nel contenuto Power BI **Prestazioni di vendita e redditività**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). 
+I seguenti dati vengono utilizzati per compilare il report nel contenuto Power BI **Prestazioni di vendita e redditività**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
-Le misure di aggregazione in questo contenuto sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Vendite in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità nel post di blog [Integrazione di Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
+Le misure di aggregazione in questo contenuto sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Vendite in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità nel post di blog [Integrazione di Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
 Le seguenti misure di aggregazione chiave dell'entità delle righe della fattura sono utilizzate come base del contenuto.
 
-| Entità        | Misure di aggregazione chiave                   | Origine dati per Dynamics 365                    | Campo                                        | descrizione                                   |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
-| Righe fattura | Ricavi                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Importo nella valuta di contabilizzazione.            |
-|               | Costo del venduto                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | La somma dell'importo costi e della correzione.    |
-|               | Importo riga commissione - valuta di contabilizzazione | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Importo commissione espresso nella valuta di contabilizzazione. |
+| Entità        | Misure di aggregazione chiave                   | Origine dati per Dynamics 365 | Campo                                        | descrizione                                       |
+|---------------|----------------------------------------------|------------------------------|----------------------------------------------|---------------------------------------------------|
+| Righe fattura | Ricavi                                      | CustInvoiceTrans             | SUM(LineAmountMST)                           | Importo nella valuta di contabilizzazione.            |
+|               | Costo del venduto                           | InventTrans                  | SUM(CostAmountPosted + CostAmountAdjustment) | La somma dell'importo costi e della correzione.    |
+|               | Importo riga commissione - valuta di contabilizzazione | CustInvoiceTrans             | SUM(CommissAmountMST)                        | Importo commissione espresso nella valuta di contabilizzazione. |
 
 Nella tabella seguente vengono illustrate le misure di aggregazione chiave dell'entità delle righe della fattura utilizzate per creare diverse misure calcolate nel set di dati del pacchetto di contenuti.
 

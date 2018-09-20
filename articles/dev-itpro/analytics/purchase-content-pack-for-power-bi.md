@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
 ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,32 +36,27 @@ In questo argomento viene descritto cosa è incluso nel contenuto di Microsoft P
 
 Il contenuto di Power BI **Analisi delle spese di acquisto** è stato progettato per consentire ai responsabili acquisti e i dirigenti responsabili di budget di tenere sotto controllo la spesa di acquisto. I responsabili possono analizzare la spesa d'acquisto nei seguenti modi:
 
--   Acquisto da inizio anno (per gruppo di fornitori e singoli fornitori, per categoria di approvvigionamento e singoli prodotti e per ubicazione del fornitore)
--   Modifica di acquisto da inizio anno (per gruppo di fornitori e categoria di approvvigionamento)
+- Acquisto da inizio anno (per gruppo di fornitori e singoli fornitori, per categoria di approvvigionamento e singoli prodotti e per ubicazione del fornitore)
+- Modifica di acquisto da inizio anno (per gruppo di fornitori e categoria di approvvigionamento)
 
 Il contenuto utilizza dati transazionali di acquisto e offre sia una visualizzazione aggregata delle cifre di acquisto a livello di società che una scomposizione dettagliata della spesa di acquisto per fornitore e prodotto. I report evidenziano le modifiche nella spesa di acquisto nel tempo. Di conseguenza, è possibile utilizzarli per avvisare i responsabili sulle tendenze positive e negative di spesa per singoli fornitori e prodotti. Inoltre, i grafici mostrano la spesa di acquisto per categorie di approvvigionamento e gruppi di fornitori diversi. Pertanto, i responsabili di categoria e regionali possono usare questi grafici per identificare i cambiamenti nel comportamento di spesa.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Il contenuto di Power BI **Analisi delle spese di acquisto** viene visualizzato nella pagina **Analisi delle spese di acquisto** (**Approvvigionamento** > **Richieste di informazioni e report** > **Analisi delle prestazioni di acquisto** > **Analisi di spesa e acquisto**). 
+Il contenuto di Power BI **Analisi delle spese di acquisto** viene mostrato nella pagina **Analisi di spesa e acquisto** (**Approvvigionamento** \> **Richieste di informazioni e report** \> **Analisi delle prestazioni di acquisto** \> **Analisi delle prestazioni di acquisto**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto di Power BI **Analisi delle spese di acquisto** include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Pagina di report</th>
 <th>Grafici</th>
 <th>Riquadri</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Acquisti per fornitore</td>
 <td><ul>
 <li>Primi 10 fornitori per acquisti (grafico a barre impilate)</li>
@@ -76,7 +71,7 @@ Il contenuto di Power BI **Analisi delle spese di acquisto** include un report c
 <li>N. totale dei fornitori attivi</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Acquisti per prodotto</td>
 <td><ul>
 <li>Acquisti per categoria di approvvigionamento/nome prodotto (istogramma)</li>
@@ -89,7 +84,7 @@ Il contenuto di Power BI **Analisi delle spese di acquisto** include un report c
 <li>Numero di prodotti che rappresentano l'80% degli acquisti</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Acquisti per periodo*</td>
 <td><ul>
 <li>Acquisti al mese/giorno (istogramma)</li>
@@ -102,7 +97,7 @@ Il contenuto di Power BI **Analisi delle spese di acquisto** include un report c
 <li>% di crescita degli acquisti su base annua</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Acquisti per ubicazione del fornitore</td>
 <td><ul>
 <li>Acquisti per città</li>
@@ -111,7 +106,7 @@ Il contenuto di Power BI **Analisi delle spese di acquisto** include un report c
 </ul></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Analisi delle spese di acquisto in base all'ora</td>
 <td><ul>
 <li>Acquisti nell'anno corrente al mese/giorno (grafico a linee)</li>
@@ -119,7 +114,7 @@ Il contenuto di Power BI **Analisi delle spese di acquisto** include un report c
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Analisi delle spese di acquisto per fornitore</td>
 <td><ul>
 <li>% di acquisti dei primi 10 fornitori (grafico a imbuto)</li>

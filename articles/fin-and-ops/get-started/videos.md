@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 476b53d7e5a5ee764c23034344f375fff5db47e8
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -38,7 +38,7 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 
 #### <a name="data-integration"></a>Integrazione dati
 - [Prospect to cash integration](https://youtu.be/AVV9x5x-XCg) 
-- [Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU&t=2s)
+- [Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Gestione dati
 - [Use data entities and data packages in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
@@ -61,6 +61,7 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 
 #### <a name="intelligence"></a>Intelligence
 - [Bring your own database (BYOD) to Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [How to use cost management Power BI content in Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 - [Asset library in Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
@@ -92,7 +93,10 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 #### <a name="production-control"></a>Controllo produzione
 - [Batch balancing](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [Enhancements to the production order release process](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
-- [Visual scheduling with Gantt chart for production and batch orders](https://youtu.be/BtbuShkGj4I)
+- [Programmazione visiva con il diagramma di Gantt per ordini batch e di produzione](https://youtu.be/BtbuShkGj4I)
+
+#### <a name="tax-engine"></a>Motore imposte
+- [Panoramica del motore fiscale](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 #### <a name="warehouse-management"></a>Gestione magazzino
 - [Release production picking to the warehouse in batch](https://youtu.be/8urAJn50dQ8)

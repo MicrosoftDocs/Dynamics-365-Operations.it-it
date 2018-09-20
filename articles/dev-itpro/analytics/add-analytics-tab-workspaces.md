@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Prima di iniziare è necessario creare o visualizzare il report di Power BI che 
 Seguire questi passaggi per aggiungere un file .pbix come elemento del progetto di Visual Studio.
 
 1. Creare un nuovo progetto nel modello appropriato.
-2. In Esplora soluzioni selezionare il progetto, fare clic con il pulsante destro del mouse e scegliere **Aggiungi** > **Nuovo articolo**.
+2. In Esplora soluzioni selezionare il progetto, fare clic con il pulsante destro del mouse e quindi selezionare **Aggiungi** \> **Nuovo elemento**.
 3. Nella finestra di dialogo **Aggiungi nuovo articolo**, in **Elementi operazioni**, selezionare il modello **Risorsa**.
 4. Immettere un nome che verrà utilizzato per fare riferimento al report nei metadati X++, quindi fare clic su **Aggiungi**.
 
@@ -77,7 +77,7 @@ Seguire questi passaggi per estendere la definizione di modulo per l'area di lav
 
 1. Aprire lo strumento di progettazione del modulo per estendere la definizione di progettazione.
 2. Nella definizione di progettazione selezionare l'elemento principale che è contrassegnato come **Progettazione | Modello: Area di lavoro operativa**.
-3. Fare clic con il pulsante destro del mouse e scegliere **Nuovo** > **Scheda** per aggiungere un nuovo controllo **FormTabControl1**.
+3. Fare clic con il pulsante destro del mouse e selezionare **Nuovo** \> **Scheda** per aggiungere un controllo nuovo denominato **FormTabControl1**.
 4. Nello strumento di progettazione del modulo selezionare **FormTabControl1**.
 5. Fare clic con il pulsante destro del mouse e scegliere **Nuova scheda** per aggiungere una nuova scheda.
 6. Assegnare alla scheda un nome significativo, ad esempio **Area di lavoro**.
@@ -86,12 +86,12 @@ Seguire questi passaggi per estendere la definizione di modulo per l'area di lav
 9. Assegnare alla scheda un nome significativo, ad esempio **Analisi**.
 10. Nello strumento di progettazione del modulo selezionare **Analisi (scheda)**.
 11. Impostare la proprietà **Titolo** su **Analisi**.
-12. Fare clic con il pulsante destro del mouse sul controllo, quindi scegliere **Nuovo** > **Gruppo** per aggiungere un nuovo controllo per i gruppi di moduli.
+12. Fare clic con il pulsante destro del mouse sul controllo e quindi selezionare **Nuovo** \> **Gruppo** per aggiungere un nuovo controllo gruppo di moduli.
 13. Assegnare al gruppo di moduli un nome significativo, ad esempio **powerBIReportGroup**.
 14. Nello strumento di progettazione del modulo selezionare **PanoramaBody (scheda)**, quindi trascinare il controllo sulla scheda **Area di lavoro**.
 15. Nella definizione di progettazione selezionare l'elemento principale che è contrassegnato come **Progettazione | Modello: Area di lavoro operativa**.
 16. Fare clic con il pulsante destro del mouse e scegliere **Rimuovi criterio**.
-17. Fare di nuovo clic con il pulsante destro del mouse, quindi scegliere **Aggiungi criterio** > **Area di lavoro catalogata**.
+17. Fare di nuovo clic con il pulsante destro del mouse e quindi selezionare **Aggiungi modello** \> **Area di lavoro a schede**.
 18. Eseguire una build per verificare le modifiche.
 
 Nell'illustrazione riportata di seguito viene mostrato l'aspetto della progettazione dopo l'applicazione di tali modifiche.
@@ -103,7 +103,7 @@ Dopo aver aggiunto i controlli del modulo che verranno utilizzati per includere 
 > [!NOTE]
 > Per le aree di lavoro incluse, si consiglia di utilizzare le estensioni per nascondere sia la pagina **Scheda** che la pagina **Riquadro filtri**, per coerenza.
 
-L'attività di estensione della definizione di modulo dell'applicazione è stata completata. Per ulteriori informazioni sull'utilizzo delle estensioni per apportare le personalizzazioni, vedere [Personalizzazione: overlayering ed estensioni](../extensibility/customization-overlayering-extensions.md).
+L'attività di estensione della definizione di modulo dell'applicazione è stata completata. Per ulteriori informazioni su come utilizzare le estensioni per effettuare personalizzazioni, vedere [Personalizzazione: overlayering ed estensioni](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Aggiungere la regola business X++ per importare un controllo del visualizzatore
 Seguire questi passaggi per aggiungere la regola business che inizializza il controllo del visualizzatore di report incluso nell'area di lavoro **Gestione prenotazione**.
@@ -116,7 +116,7 @@ Seguire questi passaggi per aggiungere la regola business che inizializza il con
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Seguire questi passaggi per aggiungere la regola business che inizializza il con
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ In questa sezione vengono fornite informazioni sulla classe degli helper utilizz
 #### <a name="syntax"></a>Sintassi
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Parametri
 
-|       Nome       |                                                              descrizione                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    Nome della risorsa .pbix.                                                     |
-| formGroupControl |                                    Controllo del gruppo di moduli al quale applicare il controllo del report Power BI.                                     |
-| defaultPageName  |                                                         Nome della pagina predefinita.                                                         |
-|  showFilterPane  |   Valore booleano che indica se il riquadro filtri deve essere visualizzato (<strong>True</strong>) o nascosto (<strong>False</strong>).   |
-|   showNavPane    | Valore booleano che indica se il riquadro di spostamento deve essere visualizzato (<strong>True</strong>) o nascosto (<strong>False</strong>). |
-|  defaultFilters  |                                              Filtri di base per il report Power BI.                                              |
-
+| Nome             | descrizione                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | Nome della risorsa .pbix.                                                                              |
+| formGroupControl | Controllo del gruppo di moduli al quale applicare il controllo del report Power BI.                                              |
+| defaultPageName  | Nome della pagina predefinita.                                                                                       |
+| showFilterPane   | Valore booleano che indica se il riquadro filtri deve essere visualizzato (**True**) o nascosto (**False**).     |
+| showNavPane      | Valore booleano che indica se il riquadro di spostamento deve essere visualizzato (**True**) o nascosto (**False**). |
+| defaultFilters   | Filtri di base per il report Power BI.                                                                 |
 

@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,34 @@ In questo argomento viene descritto il contenuto Microsoft Power BI **Metriche f
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 Il contenuto Power BI **Metriche forza lavoro** viene visualizzato nell'area di lavoro **Gestione dipendente** se si utilizza uno di questi prodotti:
 
-- Microsoft Dynamics 365 for Finance and Operations 
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Nella seguente tabella vengono elencate le metriche disponibili in ciascun report.
 
-| Report                                           | Metriche                                                                                                                                                                                                            |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Metriche relative alle persone                                   | Riepilogo di altri report                                                                                                                           |
-| Analisi numero dipendenti Società, Reparto, Ubicazione | Numero dipendenti per società, numero dipendenti per reparto, numero dipendenti per ubicazione e numero dipendenti totale                                                                                                                           |
-| Analisi numero dipendenti Mansione, Grado, Responsabile            | Numero dipendenti per mansione, numero dipendenti per grado, numero dipendenti per responsabile e numero dipendenti totale                                                                                                                                      |
-| Analisi tendenza numero dipendenti                         | Numero dipendenti nell'anno attuale rispetto all'anno precedente per società e rollup del numero dipendenti per gli ultimi 12 mesi                                                                                                                        |
+| Report                                           | Metriche |
+|--------------------------------------------------|---------|
+| Metriche relative alle persone                                   | Riepilogo di altri report |
+| Analisi numero dipendenti Società, Reparto, Ubicazione | Numero dipendenti per società, numero dipendenti per reparto, numero dipendenti per ubicazione e numero dipendenti totale |
+| Analisi numero dipendenti Mansione, Grado, Responsabile            | Numero dipendenti per mansione, numero dipendenti per grado, numero dipendenti per responsabile e numero dipendenti totale |
+| Analisi tendenza numero dipendenti                         | Numero dipendenti nell'anno attuale rispetto all'anno precedente per società e rollup del numero dipendenti per gli ultimi 12 mesi |
 | Analisi FTE                                     | Totale equivalente al tempo pieno (FTE), totale FTE assegnato, FTE per reparto, FTE per gli ultimi 12 mesi e FTE per processo |
 | Forzalavoro DatiDemografici                           | Numero dipendenti per età e sesso, numero dipendenti per origini etniche, numero dipendenti per stato di veterano, numero dipendenti per stato civile, numero di studenti a tempo pieno, rapporto di lavoro medio, età media, rapporto tra dipendenti donne e dipendenti uomini e lingue parlate dai dipendenti |
-| Analisi posizioni                                | Posizioni aperte per reparto, posizioni aperte da completare, posizioni da attive a inattive e posizioni per reparto                                                                                                   |
-| Analisi abbandoni                               | Abbandoni nell'anno attuale rispetto all'anno precedente, abbandoni, dipendenti che si congedano per età e sesso, rapporto di lavoro medio delle persone che si congedano, dipendenti che si congedano nel mese in corso e dipendenti che si congedano per un motivo                                                                   |
-| Persone per reparto                             | Dipendenti con un numero di personale per reparto, posizione e date di inizio e di fine di assegnazione                                                                                                                       |
-| Analisi di anzianità                               | Rapporto di lavoro medio, anni di servizio medi per società ed elenco di anzianità                                                                                                                                                              |
-| Anniversari dipendenti                           | Anniversari del mese in corso, anniversari del mese successivo, dipendenti in base agli anni di servizio e anniversari, anni di servizio per reparto                                                                                                                                                                    |
-| Compleanni dipendenti                               | Compleanni del mese in corso, compleanni del mese successivo, compleanni dei dipendenti e compleanni per mese e reparto                                                                                                                                                                    |
-| Progetti di assunzione collettiva                               | Progetti di assunzione collettiva totali, progetti di assunzione collettiva in base allo stato, progetti di assunzione collettiva per reparto e proprietario, progetti di assunzione collettiva per mansione e progetti di assunzione collettiva                                                                                                                                                                    |
+| Analisi posizioni                                | Posizioni aperte per reparto, posizioni aperte da completare, posizioni da attive a inattive e posizioni per reparto |
+| Analisi abbandoni                               | Abbandoni nell'anno attuale rispetto all'anno precedente, abbandoni, dipendenti che si congedano per età e sesso, rapporto di lavoro medio delle persone che si congedano, dipendenti che si congedano nel mese in corso e dipendenti che si congedano per un motivo |
+| Persone per reparto                             | Dipendenti con un numero di personale per reparto, posizione e date di inizio e di fine di assegnazione |
+| Analisi di anzianità                               | Rapporto di lavoro medio, anni di servizio medi per società ed elenco di anzianità |
+| Anniversari dipendenti                           | Anniversari del mese in corso, anniversari del mese successivo, dipendenti in base agli anni di servizio e anniversari, anni di servizio per reparto |
+| Compleanni dipendenti                               | Compleanni del mese in corso, compleanni del mese successivo, compleanni dei dipendenti e compleanni per mese e reparto |
+| Progetti di assunzione collettiva                               | Progetti di assunzione collettiva totali, progetti di assunzione collettiva in base allo stato, progetti di assunzione collettiva per reparto e proprietario, progetti di assunzione collettiva per mansione e progetti di assunzione collettiva |
 
 È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Assicurarsi di scaricare il contenuto di Power BI **Metriche forza lavoro** applicabile alla versione di Microsoft Dynamics 365 in uso.
 
->[!NOTE]
->I file .pbix disponibili in Lifecycle Services si applicano sono a Finance and Operations.
+> [!NOTE]
+> I file .pbix disponibili in Lifecycle Services si applicano sono a Finance and Operations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 Nella tabella seguente vengono illustrate le entità su cui si è basato il contenuto.
@@ -88,6 +88,4 @@ Nella tabella seguente vengono illustrate le entità su cui si è basato il cont
 | Tendenza del dipendente           | Lavoratori nel tempo, numero di dipendenti, società e posizione                                 | Società, Località geografica, Nome del dipendente, Subordinato a, Offset di calendario, Data, Posizione del dipendente, Dati demografici, Impiego, Mansione |
 | Progetto di assunzione collettiva        | Numero di progetti di assunzione collettiva, proprietario del progetto e stato del progetto                     | Società, Riga assunzione collettiva |
 | Riga assunzione collettiva           | Reparto, tipo di impiego e posizione                                           | Data, mansione, progetto di assunzione collettiva |
-
-
 

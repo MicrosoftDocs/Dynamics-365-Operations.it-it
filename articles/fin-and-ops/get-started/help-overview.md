@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ Diverse sono le domande ricevute sulla modalità di ricerca del contenuto. Nel s
 Finance and Operations, Retail e Talent condividono un unico sommario nel sito della documentazione, in modo che i clienti possano visualizzare il contesto di un argomento che stanno visualizzando. Consente inoltre di utilizzare il controllo Filtro sopra il sommario per trovare gli argomenti desiderati.
 
 ### <a name="follow-a-topic"></a>Seguire un argomento
-Per seguire un argomento, fare clic sul pulsante +Segui sotto la casella dei commenti. Sarà necessario accedere per seguire l'argomento. Per informazioni, vedere [Scrivere un commento.](#leave-us-a-comment).  
+Per seguire un argomento, fare clic sul pulsante +Segui sotto la casella dei commenti. Sarà necessario accedere per seguire l'argomento. Per informazioni, vedere [Inviare commenti e suggerimenti](#leave-us-feedback).  
 
 ### <a name="use-an-rss-feed"></a>Utilizza un feed RSS
 Per sottoscrivere un feed RSS relativo a tutti gli aggiornamenti di contenuto Unified Operations, utilizzare il collegamento seguente tramite un browser che supporta i feed RSS, ad esempio Internet Explorer, oppure un gestore di feed RSS: 

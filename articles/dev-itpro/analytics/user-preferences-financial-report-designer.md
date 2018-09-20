@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo viene spiegato come impostare le preferenze utente per personalizzare le interazioni utente in Progettazione report finanziari e controllare l'esperienza di accesso iniziale. È inoltre possibile controllare come singoli report, la raccolta report e i percorsi predefiniti dei file vengono visualizzati. 
+In questo articolo viene spiegato come impostare le preferenze utente per personalizzare le interazioni utente in Progettazione report finanziari e controllare l'esperienza di accesso iniziale. È inoltre possibile controllare come singoli report, la raccolta report e i percorsi predefiniti dei file vengono visualizzati.
 
-<a name="set-user-preferences"></a>Impostare le preferenze utente
---------------------
+## <a name="set-user-preferences"></a>Impostare le preferenze utente
 
-1.  In Progettazione report, menu **Strumenti**, fare clic su **Opzioni**.
-2.  Nella finestra di dialogo **Opzioni**, selezionare le preferenze.
-3.  Scegliere **OK**.
+1. In Progettazione report, menu **Strumenti**, fare clic su **Opzioni**.
+2. Nella finestra di dialogo **Opzioni**, selezionare le preferenze.
+3. Scegliere **OK**.
 
 ## <a name="options-dialog-box-options"></a>Opzioni della finestra di dialogo Opzioni
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Opzione utente</th>
 <th>descrizione</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>All'avvio</td>
 <td>Selezionare le informazioni disponibili quando si avvia Progettazione report. Consente di selezionare una delle opzioni indicate di seguito.
 <ul>
@@ -57,28 +56,22 @@ In questo articolo viene spiegato come impostare le preferenze utente per person
 <li><strong>Visualizza ambiente vuoto</strong>: apre una finestra di progettazione vuota.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Visualizzare la conferma prima di uscire da Progettazione report</td>
 <td>Scegliere se ricevere un messaggio di avviso quando si esce dall'applicazione. Questo messaggio consente di garantire di non chiudere il programma inavvertitamente.</td>
 </tr>
-<tr class="odd">
-<td>Applica automaticamente sottolineatura celle in intestazioni di colonna</td>
+<tr>
+<td>Applicare automaticamente la sottolineatura di cella nelle intestazioni di colonna</td>
 <td>Scegliere se inserire una sottolineatura nella cella di una nuova intestazione di colonna.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Percorso dei file dello strumento di creazione report di gestione</td>
 <td>Specificare il percorso predefinito dei file. L'applicazione utilizza il percorso predefinito quando si esportano i gruppi di blocchi predefiniti.</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-
-
-
 

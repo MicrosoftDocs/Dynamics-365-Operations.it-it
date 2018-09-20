@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ Tutti gli importi del contenuto verranno visualizzati nella valuta di sistema. �
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 
 Il contenuto di Power BI **Responsabile procedura** viene visualizzato nell'area di lavoro **Gestione progetti**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
 
@@ -85,8 +84,7 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 
 | Misura di aggregazione chiave | Campo                                             | descrizione |
 |---------------------------|---------------------------------------------------|-------------|
-| Numero di progetti        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Numero di progetti disponibili. |
-
+| Numero di progetti        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Numero di progetti disponibili. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Entità: ProjectAccountingCube\_Forecasts
 **Origine dati:** ProjTransBudget
@@ -109,18 +107,16 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 
 | Misura di aggregazione chiave    | Campo | descrizione |
 |------------------------------|-------|-------------|
-| Indice prestazioni costi       | ProjectAccountingCube\_Projects[Valore ottenuto] ÷ ProjectAccountingCube\_Projects[Costo effettivo totale delle attività completate] | Calcolo del valore realizzato totale diviso per il costo effettivo totale. |
-| Indice prestazioni programmazione   | ProjectAccountingCube\_Projects[Valore ottenuto] ÷ ProjectAccountingCube\_Projects[Costo pianificato totale delle attività completate] | Calcolo del valore realizzato totale diviso per il costo pianificato totale. |
-| Percentuale di lavoro completata | Percentuale di lavoro completato = ProjectAccountingCube\_Projects[Costo effettivo totale delle attività completate] ÷ (ProjectAccountingCube\_Projects[Costo effettivo totale delle attività completate] + ProjectAccountingCube\_Projects[Costo pianificato totale del progetto] – ProjectAccountingCube\_Projects[Costo pianificato totale delle attività completate]) | Percentuale totale del lavoro completato ricavato dal costo effettivo totale delle attività completate e dal costo pianificato del progetto. |
-| Rapporto tra ore fatturabili effettive  | ProjectAccountingCube\_Projects[Ore utilizzate fatturabili effettive totali del progetto] ÷ (ProjectAccountingCube\_Projects[Ore utilizzate fatturabili effettive totali del progetto] + ProjectAccountingCube\_Projects[Ore inutilizzate fatturabili effettive totali del progetto]) | Ore fatturabili effettive totali, in base alle ore utilizzate e alle ore improduttive. |
-| Valore ottenuto                 | ProjectAccountingCube\_Projects[Costo pianificato totale del progetto] × ProjectAccountingCube\_Projects[Percentuale del lavoro completato] | Il costo pianificato totale moltiplicato per la percentuale di lavoro completato. |
+| Indice prestazioni costi       | ProjectAccountingCube\_Projects\[Valore ottenuto\] ÷ ProjectAccountingCube\_Projects\[Costo effettivo totale delle attività completate\] | Calcolo del valore realizzato totale diviso per il costo effettivo totale. |
+| Indice prestazioni programmazione   | ProjectAccountingCube\_Projects\[Valore ottenuto\] ÷ ProjectAccountingCube\_Projects\[Costo pianificato totale delle attività completate\] | Calcolo del valore realizzato totale diviso per il costo pianificato totale. |
+| Percentuale di lavoro completata | Percentuale di lavoro completato = ProjectAccountingCube\_Projects\[Costo effettivo totale delle attività completate\] ÷ (ProjectAccountingCube\_Projects\[Costo effettivo totale delle attività completate\] + ProjectAccountingCube\_Projects\[Costo pianificato totale di progetto\] – ProjectAccountingCube\_Projects\[Costo pianificato totale delle attività completate\]) | Percentuale totale del lavoro completato ricavato dal costo effettivo totale delle attività completate e dal costo pianificato del progetto. |
+| Rapporto tra ore fatturabili effettive  | ProjectAccountingCube\_Projects\[Ore utilizzate fatturabili effettive totali del progetto\] ÷ (ProjectAccountingCube\_Projects\[Ore utilizzate fatturabili effettive totali del progetto\] + ProjectAccountingCube\_Projects\[Ore improduttive fatturabili effettive totali del progetto\]) | Ore fatturabili effettive totali, in base alle ore utilizzate e alle ore improduttive. |
+| Valore ottenuto                 | ProjectAccountingCube\_Projects\[Costo pianificato totale del progetto\] × ProjectAccountingCube\_Projects\[Percentuale di lavoro completato\] | Il costo pianificato totale moltiplicato per la percentuale di lavoro completato. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entità: ProjectAccountingCube\_TotalEstimatedCosts 
 **Origine dati:** ProjTable
 
-
-|    Misura di aggregazione chiave    |        Campo        |                                          descrizione                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Misura di aggregazione chiave       | Campo               | descrizione |
+|---------------------------------|---------------------|-------------|
 | Costo pianificato delle attività completate | Sum(TotalCostPrice) | Prezzo di costo totale nelle stime per tutti i tipi di transazione di progetto con attività completate. |
-
 

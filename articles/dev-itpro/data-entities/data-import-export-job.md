@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -66,13 +66,11 @@ Si consiglia di selezionare attentamente una categoria di progetto appropriata p
 ### <a name="set-the-data-format-for-the-job"></a>Impostare il formato dei dati per il processo
 Quando si seleziona un'entità, è necessario selezionare il formato dei dati da esportare o importare. Si definiscono i formati utilizzando il riquadro **Impostazione origini dati**. Un formato di dati di origine è una combinazione **Tipo**, **Formato file**, **Delimitatore di riga** e **Delimitatore di colonna**. Sono inclusi anche altri attributi, ma questi sono quelli fondamentale da ricordare. Nella tabella riportata di seguito vengono elencate le combinazioni valide.
 
-| **Formato file**        | **Delimitatore di riga/colonna**                   | **Stile XML**             |
+| Formato file            | Delimitatore di riga/colonna                       | Stile XML                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-N/D-                     |
 | XML                    | \-N/D-                                      | Elemento XML Attributo XML |
 | Larghezza fissa, delimitata | Virgola, punto e virgola, tabulazione, barra verticale, due punti | \-N/D-                     |
-
-
 
 ### <a name="sequence-the-entities"></a>Sequenziare le entità
 È possibile sequenziare le entità in un modello di dati o nei processi di importazione e esportazione. Quando si esegue un processo contenente più entità di dati, è necessario assicurarsi che le entità di dati siano sequenziate correttamente. Il sequenziamento delle entità deve essere eseguito in modo da poter risolvere qualsiasi dipendenza funzionale tra le entità. Se le entità non hanno dipendenze funzionali, possono essere programmate per l'importazione o l'esportazione parallela.

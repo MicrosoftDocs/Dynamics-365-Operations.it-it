@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 532834b377cfb8eda4902c387a850314302b22d8
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,13 +39,12 @@ Il contenuto **Benefit** di Power BI viene visualizzato nell'area di lavoro **Ge
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
 I report inclusi nel contenuto **Benefit** di Power BI dispongono di grafici e tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.
 
-| Report                       | Contenuto                                                                                       |
-|------------------------------|------------------------------------------------------------------------------------------------|
-| Panoramica dell'iscrizione ai benefit  | Piani con più o meno iscritti, iscrizione per gruppo di dipendenti e opzioni del piano di benefit selezionate |
-| Benefit dei dipendenti            | Iscrizione del dipendente per benefit selezionato                                                        |
-                                                                                             
-È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+| Report                      | Contenuto                                                                                       |
+|-----------------------------|------------------------------------------------------------------------------------------------|
+| Panoramica dell'iscrizione ai benefit | Piani con più o meno iscritti, iscrizione per gruppo di dipendenti e opzioni del piano di benefit selezionate |
+| Benefit dei dipendenti           | Iscrizione del dipendente per benefit selezionato                                                        |
 
+È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 I seguenti dati vengono utilizzati per compilare i report nel contenuto **Benefit** di Power BI. Nella tabella seguente vengono illustrate le entità su cui è stato basato il contenuto.
@@ -72,6 +71,4 @@ I seguenti dati vengono utilizzati per compilare i report nel contenuto **Benefi
 | Nome dipendente            | Nome, cognome e nome completo                                                                       | Dipendente corrente, Dipendente con rapporto di lavoro chiuso, Tendenza del dipendente |
 | Posizione del dipendente           | Titolo e data di anzianità                                                                                   | Dipendente corrente, Dipendente con rapporto di lavoro chiuso, Tendenza del dipendente |
 | Tendenza del dipendente           | Lavoratori nel tempo, numero di dipendenti, società e posizione                                                        | Società, Retribuzione, Località geografica, Nome del dipendente, Subordinato a, Offset di calendario, Data, Posizione del dipendente, Dati demografici, Impiego, Mansione, Benefit |
-
-
 

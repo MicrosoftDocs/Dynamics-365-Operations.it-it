@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,7 +36,7 @@ Si veda un esempio in cui esiste un file Excel con i fogli di lavoro chiamati **
 
 Se si aggiunge la seconda entità **Magazzini** senza chiudere il modulo **Aggiungi file**, la ricerca del foglio di lavoro consente di selezionare il foglio di lavoro **Magazzini** senza dover caricare di nuovo il file. Il solo motivo per caricare un nuovo file sarebbe se i dati di **Magazzini** si trovassero in un altro file.
 
-![Fogli di lavoro multipli](./media/AddFileMultipleWorkSheets.png) 
+![Fogli di lavoro multipli](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Fissare il foglio di lavoro al mapping di entità
 
@@ -51,5 +51,4 @@ Nei casi in cui una nuova versione dello stesso file o un file completamente nuo
 ## <a name="upload-a-file-using-run-project"></a>Caricare un file tramite Esegui progetto
 
 È possibile caricare un file di Excel quando si utilizza l'opzione **Esegui progetto** per eseguire un progetto di importazione. Prestare attenzione a caricare solo i file con gli stessi fogli di lavoro dei mapping esistenti nelle entità di dati nel progetto dati. Se non è possibile trovare un foglio di lavoro nel nuovo file caricato, il sistema visualizza un errore e interrompe l'importazione. Se il mapping al foglio di lavoro deve essere modificato per un'entità, i mapping nel progetto di dati devono essere aggiornati nel progetto dati prima di utilizzare il file nell'esperienza **Esegui progetto**.
-
 

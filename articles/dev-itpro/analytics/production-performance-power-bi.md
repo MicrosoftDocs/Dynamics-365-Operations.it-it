@@ -17,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
 ms.contentlocale: it-it
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -43,7 +43,7 @@ Il contenuto Power BI consente inoltre di analizzare gli scostamenti di produzio
 Il contenuto Power BI **Prestazioni di produttività** include dati provenienti dagli ordini di produzione e dagli ordini lotto. I report non contengono dati che siano correlati alle produzioni kanban.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Il contenuto di Power BI **Prestazioni di produttività** viene visualizzato nella pagina **Prestazioni di produttività** (**Controllo produzione** > **Richieste di informazioni e report** > **Analisi delle prestazioni di produttività** > **Prestazioni di produttività**). 
+Il contenuto di Power BI **Prestazioni di produttività** viene mostrato nella pagina **Prestazioni di produttività** (**Controllo produzione** \> **Richieste di informazioni e report** \> **Analisi delle prestazioni di produttività** \> **Prestazioni di produttività**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 
@@ -51,8 +51,8 @@ Il contenuto di Power BI **Prestazioni di produttività** include un insieme del
 
 Nella seguente tabella viene fornita una panoramica delle visualizzazioni incluse.
 
-| Pagina di report                                | Grafici                                               | Riquadri |
-|--------------------------------------------|------------------------------------------------------|-------|
+| Pagina di report                                | Grafici | Riquadri |
+|--------------------------------------------|--------|-------|
 | Prestazioni di produttività                     | <ul><li>Numero di produzione per data</li><li>Numero di produzioni per prodotto e gruppo di articoli</li><li>Numero di produzioni pianificate per data</li><li>Ultimi 10 prodotti per puntuale e completo</li></ul> | <ul><li>Ordini totali</li><li>% puntuale e completo</li><li>% incompleta</li><li>% in anticipo</li><li>% in ritardo</li></ul> |
 | Difetti per prodotto                         | <ul><li>Percentuale articoli difettosi (ppm) per data</li><li>Percentuale articoli difettosi (ppm) per prodotto e gruppo di articoli</li><li>Quantità prodotta per data</li><li>Primi 10 prodotti per percentuale effettiva</li></ul> | <ul><li>Percentuale articoli difettosi (ppm)</li><li>Quantità difettosa</li><li>Quantità totale</li></ul> |
 | Tendenza difetti per prodotto                   | Percentuale articoli difettosi (ppm) per quantità prodotta | Percentuale articoli difettosi (ppm) |
@@ -88,35 +88,35 @@ Nella tabella seguente vengono illustrate le misure di aggregazione chiave utili
 
 | Unità di misura                  | Come la misura viene calcolata |
 |--------------------------|-------------------------------|
-| Scostamento di produzione, %   | SUM('Production variance'[Production variance]) / SUM('Production variance'[Estimated cost]) |
+| Scostamento di produzione, %   | SUM('Scostamento produzione'\[Scostamento produzione\]) / SUM('Scostamento produzione'\[Costo stimato\]) |
 | Tutti gli ordini pianificati       | COUNTROWS('Planned production order') |
-| In anticipo                    | COUNTROWS(FILTER('Planned production order', 'Planned production order'[Scheduled end date] \< 'Planned production order'[Requirement date])) |
-| In ritardo                     | COUNTROWS(FILTER('Planned production order', 'Planned production order'[Scheduled end date] \> 'Planned production order'[Requirement date])) |
-| Puntuale                  | COUNTROWS(FILTER('Planned production order', 'Planned production order'[Scheduled end date] = 'Planned production order'[Requirement date])) |
-| % puntuale                | IF ( 'Planned production order'[On-time] \<\> 0, 'Planned production order'[On-time], IF ('Planned production order'[All planned orders] \<\> 0, 0, BLANK()) ) / 'Planned production order'[All planned orders] |
-| Completato                | COUNTROWS(FILTER('Production order', 'Production order'[Is RAF'ed] = TRUE)) |
-| Percentuale articoli difettosi (ppm)     | IF( 'Production order'[Total quantity] = 0, BLANK(), (SUM('Production order'[Defective quantity]) / 'Production order'[Total quantity]) \* 1000000) |
-| Percentuale produzione ritardata  | 'Production order'[Late \#] / 'Production order'[Completed] |
-| In anticipo e completo          | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = TRUE && 'Production order'[Is early] = TRUE)) |
-| Early \#                 | COUNTROWS(FILTER('Production order', 'Production order'[Is early] = TRUE)) |
-| % in anticipo                  | IFERROR( IF('Production order'[Early \#] \<\> 0, 'Production order'[Early \#], IF('Production order'[Total orders] = 0, BLANK(), 0)) / 'Production order'[Total orders], BLANK()) |
-| Incompleto               | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = FALSE && 'Production order'[Is RAF'ed] = TRUE)) |
-| % incompleta             | IFERROR( IF('Production order'[Incomplete] \<\> 0, 'Production order'[Incomplete], IF('Production order'[Total orders] = 0, BLANK(), 0)) / 'Production order'[Total orders], BLANK()) |
-| In ritardo               | 'Production order'[Is RAF'ed] = TRUE && 'Production order'[Delayed value] = 1 |
-| In anticipo                 | 'Production order'[Is RAF'ed] = TRUE && 'Production order'[Days delayed] \< 0 |
-| Completo               | 'Production order'[Good quantity] \>= 'Production order'[Scheduled quantity] |
-| Dichiarata finita                | 'Production order'[Production status value] = 5 \|\| 'Production order'[Production status value] = 7 |
-| In ritardo e completo           | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = TRUE && 'Production order'[Is delayed] = TRUE)) |
-| Late \#                  | COUNTROWS(FILTER('Production order', 'Production order'[Is delayed] = TRUE)) |
-| % in ritardo                   | IFERROR( IF('Production order'[Late \#] \<\> 0, 'Production order'[Late \#], IF('Production order'[Total orders] = 0, BLANK(), 0)) / 'Production order'[Total orders], BLANK()) |
-| Puntuale e completo        | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = TRUE && 'Production order'[Is delayed] = FALSE && 'Production order'[Is early] = FALSE)) |
-| % puntuale e completo      | IFERROR( IF('Production order'[On-time & in full] \<\> 0, 'Production order'[On-time & in full], IF('Production order'[Completed] = 0, BLANK(), 0)) / 'Production order'[Completed], BLANK()) |
+| In anticipo                    | COUNTROWS(FILTER('Ordine di produzione pianificato', 'Ordine di produzione pianificato'\[Data di fine programmata\] \< 'Ordine di produzione pianificato'\[Data fabbisogno\])) |
+| In ritardo                     | COUNTROWS(FILTER('Ordine di produzione pianificato', 'Ordine di produzione pianificato'\[Data di fine programmata\] \> 'Ordine di produzione pianificato'\[Data fabbisogno\])) |
+| Puntuale                  | COUNTROWS(FILTER('Ordine di produzione pianificato', 'Ordine di produzione pianificato'\[Data di fine programmata\] = 'Ordine di produzione pianificato'\[Data fabbisogno\])) |
+| % puntuale                | IF ( 'Ordine di produzione pianificato'\[Puntuale\] \<\> 0, 'Ordine di produzione pianificato'\[Puntuale\], IF ('Ordine di produzione pianificato'\[Tutti gli ordini pianificati\] \<\> 0, 0, BLANK()) ) / 'Ordine di produzione pianificato'\[Tutti gli ordini pianificati\] |
+| Operazione completata                | COUNTROWS(FILTER('Ordine di produzione', 'Ordine di produzione'\[Dichiarata finita\] = TRUE)) |
+| Percentuale articoli difettosi (ppm)     | IF( 'Ordine di produzione'\[Quantità totale\] = 0, BLANK(), (SUM('Ordine di produzione'\[Quantità difettosa\]) / 'Ordine di produzione'\[Quantità totale\]) \* 1000000) |
+| Percentuale produzione ritardata  | 'Ordine di produzione'\[In ritardo \#\] / 'Ordine di produzione'\[Completato\] |
+| In anticipo e completo          | COUNTROWS(FILTER('Ordine di produzione', 'Ordine di produzione'\[Completo\] = TRUE && 'Ordine di produzione'\[In anticipo\] = TRUE)) |
+| Early \#                 | COUNTROWS(FILTER('Ordine di produzione', 'Ordine di produzione'\[In anticipo\] = TRUE)) |
+| % in anticipo                  | IFERROR( IF('Ordine di produzione'\[In anticipo \#\] \<\> 0, 'Ordine di produzione'\[In anticipo \#\], IF('Ordine di produzione'\[Ordini totali\] = 0, BLANK(), 0)) / 'Ordine di produzione'\[Ordini totali\], BLANK()) |
+| Operazione incompleta               | COUNTROWS(FILTER('Ordine di produzione', 'Ordine di produzione'\[Completo\] = FALSE && 'Ordine di produzione'\[Dichiarata finita\] = TRUE)) |
+| % incompleta             | IFERROR( IF('Ordine di produzione'\[Incompleto\] \<\> 0, 'Ordine di produzione'\[Incompleto\], IF('Ordine di produzione'\[Ordini totali\] = 0, BLANK(), 0)) / 'Ordine di produzione'\[Ordini totali\], BLANK()) |
+| In ritardo               | 'Ordine di produzione'\[Dichiarata finita\] = TRUE && 'Ordine di produzione'\[Valore ritardato\] = 1 |
+| In anticipo                 | 'Ordine di produzione'\[Dichiarata completa\] = TRUE && 'Ordine di produzione'\[Giorni di ritardo\] \< 0 |
+| Completo               | 'Ordine di produzione'\[Quantità idonea\] \>= 'Ordine di produzione'\[Quantità programmata\] |
+| Dichiarata finita                | 'Ordine di produzione'\[Valore stato di produzione\] = 5 \|\| 'Ordine di produzione'\[Valore stato di produzione\] = 7 |
+| In ritardo e completo           | COUNTROWS(FILTER('Ordine di produzione', 'Ordine di produzione'\[Completo\] = TRUE && 'Ordine di produzione'\[In ritardo\] = TRUE)) |
+| Late \#                  | COUNTROWS(FILTER('Ordine di produzione', 'Ordine di produzione'\[In ritardo\] = TRUE)) |
+| % in ritardo                   | IFERROR( IF('Ordine di produzione'\[In ritardo \#\] \<\> 0, 'Ordine di produzione'\[In ritardo \#\], IF('Ordine di produzione'\[Ordini totali\] = 0, BLANK(), 0)) / 'Ordine di produzione'\[Ordini totali\], BLANK()) |
+| Puntuale e completo        | COUNTROWS(FILTER('Ordine di produzione', 'Ordine di produzione'\[Completo\] = TRUE && 'Ordine di produzione'\[In ritardo\] = FALSE && 'Ordine di produzione'\[In anticipo\] = FALSE)) |
+| % puntuale e completo      | IFERROR( IF('Ordine di produzione'\[Puntuale e completo\] \<\> 0, 'Ordine di produzione'\[Puntuale e completo\], IF('Ordine di produzione'\[Completato\] = 0, BLANK(), 0)) / 'Ordine di produzione'\[Completato\], BLANK()) |
 | Ordini totali             | COUNTROWS('Production order') |
-| Quantità totale           | SUM('Production order'[Good quantity]) + SUM('Production order'[Defective quantity]) |
-| Percentuale articoli difettosi (ppm)        | IF( 'Route transactions'[Processed quantity] = 0, BLANK(), (SUM('Route transactions'[Defective quantity]) / 'Route transactions'[Processed quantity]) \* 1000000) |
-| Percentuale articoli difettosi mista (ppm) | IF( 'Route transactions'[Total mixed quantity] = 0, BLANK(), (SUM('Route transactions'[Defective quantity]) / 'Route transactions'[Total mixed quantity]) \* 1000000) |
-| Quantità lavorata       | SUM('Route transactions'[Good quantity]) + SUM('Route transactions'[Defective quantity]) |
-| Quantità mista totale     | SUM('Production order'[Good quantity]) + SUM('Route transactions'[Defective quantity]) |
+| Quantità totale           | SUM('Ordine di produzione'\[Quantità idonea\]) + SUM('Ordine di produzione'\[Quantità difettosa\]) |
+| Percentuale articoli difettosi (ppm)        | IF( 'Transazioni cicli di lavorazione'\[Quantità lavorata\] = 0, BLANK(), (SUM('Transazioni cicli di lavorazione'\[Quantità difettosa\]) / 'Transazioni cicli di lavorazione'\[Quantità lavorata\]) \* 1000000) |
+| Percentuale articoli difettosi mista (ppm) | IF( 'Transazioni cicli di lavorazione'\[Quantità mista totale\] = 0, BLANK(), (SUM('Transazioni cicli di lavorazione'\[Quantità difettosa\]) / 'Transazioni cicli di lavorazione'\[Quantità mista totale\]) \* 1000000) |
+| Quantità lavorata       | SUM('Transazioni cicli di lavorazione'\[Quantità idonea\]) + SUM('Transazioni cicli di lavorazione'\[Quantità difettosa\]) |
+| Quantità mista totale     | SUM('Ordine di produzione'\[Quantità idonea\]) + SUM('Transazioni cicli di lavorazione'\[Quantità difettosa\]) |
 
 La tabella seguente mostra le dimensioni chiave utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e informazioni analitiche più approfondite.
 
@@ -130,6 +130,4 @@ La tabella seguente mostra le dimensioni chiave utilizzate come filtri per divid
 | Entità                  | ID e nome                                                   |
 | Risorse                 | ID risorsa, nome della risorsa, tipo di risorsa e gruppo di risorse |
 | Prodotti                  | Numero prodotto, nome prodotto, ID articolo e gruppo di articoli         |
-
-
 

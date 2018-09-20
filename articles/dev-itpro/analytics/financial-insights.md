@@ -3,7 +3,7 @@ title: Informazioni finanziarie dettagliate
 description: Informazioni finanziarie dettagliate utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari.
 author: kweekley
 manager: AnnBe
-ms.date: 02/28/2018
+ms.date: 08/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
+ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/14/2018
 
 ---
 
@@ -29,17 +29,16 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-**Informazioni finanziarie dettagliate** utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari. Power BI è incorporato in Microsoft Dynamics 365 Finance and Operations.
-**Informazioni finanziarie dettagliate** è incentrato sulla creazione di report analitici. Le persone di un'organizzazione possono visualizzare, ricercare, analizzare ed eseguire azioni. 
+**Informazioni finanziarie dettagliate** utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari. Power BI è incorporato in Microsoft Dynamics 365 Finance and Operations. **Informazioni finanziarie dettagliate** è incentrato sulla creazione di report analitici. Le persone di un'organizzazione possono visualizzare, ricercare, analizzare ed eseguire azioni. 
 
 **Informazioni finanziarie dettagliate** combina i dati di contabilità generale e di giornali di registrazione secondari per fornire un quadro più completo sull'integrità finanziaria dell'organizzazione.
 
-> [!NOTE] 
-> In questo documento viene utilizzata la seguente terminologia di Power BI:                                                                           
-**Report** - Un singolo file .pbix in cui vengono salvati tutti gli oggetti visivi di tutte le schede.                                                          
-**Pagina** - Una scheda in un singolo file .pbix. Ogni pagina può contenere uno o più oggetti visivi.                                                     
-**Oggetto visivo** - Una singola origine dati, ad esempio scheda, KPI, diagramma, grafico, matrice o rendiconto finanziario. Una pagina con un rendiconto finanziario come oggetto visivo non può contenere altri oggetti visivi, a causa della dimensione dei dati inclusi.
-
+> [!NOTE]
+> In questo documento viene utilizzata la seguente terminologia di Power BI:
+> 
+> - **Report** - Un singolo file .pbix in cui vengono salvati tutti gli oggetti visivi di tutte le schede.
+> - **Pagina** - Una scheda in un singolo file .pbix. Ogni pagina può contenere uno o più oggetti visivi.
+> - **Oggetto visivo** - Una singola origine dati, ad esempio scheda, KPI, diagramma, grafico, matrice o rendiconto finanziario. Una pagina con un rendiconto finanziario come oggetto visivo non può contenere altri oggetti visivi, a causa della dimensione dei dati inclusi.
 
 Attualmente, l'area di lavoro **Informazioni finanziarie dettagliate** viene utilizzata per visualizzare dati relativi alla persona giuridica attiva o a tutte le persone giuridiche. Nelle versioni future, l'area di lavoro verrà trasformata in un punto in cui sarà possibile utilizzare Power BI per modificare e creare oggetti visivi.
 
@@ -52,41 +51,30 @@ Il tipo di conto principale e le categorie di conto principale vengono utilizzat
 
 Nella pagina **Conti principali** è necessario definire il conto principale in modo da assegnare uno dei seguenti tipi:
 
-•   Ricavi
-
-•   Spesa
-
-•   Cespiti
-
-•   Passività
-
-•   Capitale netto
+- Ricavi
+- Expense
+- Cespiti
+- Passività
+- Capitale netto
 
 Non assegnare ai conti principali nessun altro tipo di conto principale, ad esempio **Stato patrimoniale** o **Profitti e perdite**. La creazione di report non può determinare il tipo di account principale quando vengono assegnati altri tipi di conti principali, perché non sono abbastanza granulari. Per mostrare le passività e i ricavi come importi positivi nei report finanziari, deve essere determinato il tipo di conto principale.
 
 Per apparire nei rendiconti finanziari e per essere inclusi in altri oggetti visivi, come i KPI, ciascun conto principale deve essere assegnato a una categoria di conto principale. Le categorie di conti principali sono state migliorare per includere un ordine di visualizzazione. L'ordine di visualizzazione viene utilizzato nei rendiconti finanziari specificatamente in **Informazioni finanziarie dettagliate**. Dopo aver modificato o aggiunto una nuova categoria di conti principali, è possibile modificare il valore dell'**Ordine di visualizzazione** per definire l'ordine in cui le categorie del conto principale devono essere visualizzate in un rendiconto finanziario. Se è necessario modificare l'ordine di visualizzazione per molte categorie di conti principali, è possibile utilizzare la funzionalità Apri in Excel per modificare rapidamente e pubblicare nuovamente le modifiche in Finance and Operations.
 
-
 ## <a name="entity-store"></a>Archivio entità
-I dati di **Informazioni finanziarie dettagliate** vengono estratti dall'Archivio entità (**Amministrazione sistema** > **Impostazione** > **Archivio entità**). Se si apre l'area di lavoro **Panoramica responsabile finanziario** o **Informazioni finanziarie dettagliate** e viene visualizzato il seguente messaggio di avviso negli oggetti visivi, è necessario aggiornare le entità.
- 
+I dati per **Informazioni finanziarie dettagliate** vengono estratti dall'archivio entità (**Amministrazione sistema** \> **Impostazioni** \> **Archivio entità**). Se si apre l'area di lavoro **Panoramica responsabile finanziario** o **Informazioni finanziarie dettagliate** e viene visualizzato il seguente messaggio di avviso negli oggetti visivi, è necessario aggiornare le entità.
+
 ![Avviso](./media/Cantdisplay.png)
 
 Per visualizzare i dati delle aree di lavoro **Informazioni finanziarie dettagliate** e **Panoramica responsabile finanziario**, è necessario aggiornare le seguenti entità:
 
-•   CustCollectionsBIMeasurements
-
-•   FinancialReportingOtherData
-
-•   FinancialReportingReferenceData
-
-•   FinancialReportingTransactionData
-
-•   LedgerCovLiquidityMeasurement
-
-•   Cubo Acquisti
-
-•   Cubo Vendite
+- CustCollectionsBIMeasurements
+- FinancialReportingOtherData
+- FinancialReportingReferenceData
+- FinancialReportingTransactionData
+- LedgerCovLiquidityMeasurement
+- Cubo Acquisti
+- Cubo Vendite
 
 Nella versione precedente, le entità di VendPaymentBIMeasure e LedgerActivityMeasure venivano utilizzate per i dati nell'area di lavoro **Panoramica responsabile finanziario**. Tuttavia, non sono più utilizzate nella versione esistente.
 
@@ -95,11 +83,11 @@ Nella versione precedente, le entità di VendPaymentBIMeasure e LedgerActivityMe
 ## <a name="security"></a>Sicurezza
 Attualmente, i dati sui report Power BI incorporati non possono essere limitati alle persone giuridiche a cui l'utente ha accesso. Pertanto, i report di Power BI incorporati sono controllati attraverso i diritti dell'impostazione di sicurezza. I diritti definiti consentono l'accesso ai dati per tutte le persone giuridiche o solo per la società attiva. Nella seguente tabella vengono illustrati i diritti esistenti e ruoli a cui sono assegnati. I diritti possono essere rimossi o assegnati ai ruoli diversi, in base ai requisiti dell'organizzazione.
 
-| **Imposta**                     | **Ruoli**                                       | Descrizione                     |
-|------------------------------|-------------------------------------------------|-----------------|
-| Visualizza area di lavoro Panoramica responsabile finanziario  | Responsabile finanziario                         | • Questi diritti consentono di accedere all'area di lavoro Panoramica responsabile finanziario. • Per impostazione predefinita, la società attiva viene utilizzata come filtro. Tuttavia, è possibile aggiungere tutte le persone giuridiche, indipendentemente dal fatto che l'utente abbia accesso ad altre persone giuridiche.               |
-| Visualizza informazioni finanziarie dettagliate della società attuale | •   Ragioniere •    Direttore amministrativo •    Supervisore contabile • Revisore •   Responsabile budget •    Amministratore delegato •   Responsabile finanziario •   Supervisore finanziario  |   • Questi diritti consentono di accedere a Informazioni finanziarie dettagliate. • Per impostazione predefinita, la società attiva viene utilizzata come filtro. Non è possibile aggiungere altre persone giuridiche.            |
-| Visualizza informazioni finanziarie dettagliate della società   | • In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, questi diritti non sono assegnati a un ruolo. • Nella versione successiva, questi diritti verranno assegnati al ruolo Responsabile finanziario. | • Questi diritti consentono di accedere alla voce di menu per l'area di lavoro Panoramica responsabile finanziario. • Per impostazione predefinita, la società attiva viene utilizzata come filtro. Tuttavia, è possibile aggiungere tutte le persone giuridiche, indipendentemente dal fatto che l'utente abbia accesso ad altre persone giuridiche.             |
+| Imposta                                    | Ruoli | Descrizione |
+|-----------------------------------------|-------|------------|
+| Visualizza area di lavoro Panoramica responsabile finanziario             | Responsabile finanziario | Questi diritti consentono di accedere all'area di lavoro Panoramica responsabile finanziario. Per impostazione predefinita, la società attiva viene utilizzata come filtro. Tuttavia, è possibile aggiungere tutte le persone giuridiche, indipendentemente dal fatto che l'utente abbia accesso ad altre persone giuridiche. |
+| Visualizza informazioni finanziarie dettagliate della società attuale | <ul><li>Contabile</li><li>Direttore amministrativo</li><li>Supervisore contabile</li><li>Revisore</li><li>Responsabile budget</li><li>Amministratore delegato</li><li>Responsabile finanziario</li><li>Supervisore finanziario</li></ul> | Questi diritti consentono di accedere a Informazioni finanziarie dettagliate. Per impostazione predefinita, la società attiva viene utilizzata come filtro. Non è possibile aggiungere altre persone giuridiche. |
+| Visualizza informazioni finanziarie dettagliate della società   | In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, questi diritti non sono assegnati a un ruolo. Nella versione successiva, questi diritti verranno assegnati al ruolo Responsabile finanziario. | Questi diritti consentono di accedere alla voce di menu per l'area di lavoro Panoramica responsabile finanziario. Per impostazione predefinita, la società attiva viene utilizzata come filtro. Tuttavia, è possibile aggiungere tutte le persone giuridiche, indipendentemente dal fatto che l'utente abbia accesso ad altre persone giuridiche. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Confronto tra Creazione di report finanziari e Informazioni finanziarie dettagliate
@@ -108,58 +96,44 @@ Sebbene **Informazioni finanziarie dettagliate** contenga rendiconti finanziari,
 La seguente tabella di confronto aiuterà a differenziare le due opzioni:
 
 
-|                                                                       |               <strong>Creazione di report finanziari</strong>                |                                      <strong>Informazioni finanziarie dettagliate</strong>                                      |
-|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-|                 <strong>Modifica report predefiniti</strong>                 |                                Sì                                |                                                      No                                                       |
-|                  <strong>Creazione nuovi report</strong>                  |                                Sì                                |                                                      No                                                       |
-|                    <strong>Stampa report</strong>                     |                                Sì                                |                                                      No                                                       |
-|                   <strong>Esporta in Excel</strong>                    |                                Sì                                |                           Esportazione limitata di dati non elaborati in Excel, non in un report formattato                           |
-|  <strong>Supporto creazione di report con gerarchia/gerarchia organizzativa</strong>  |                                Sì                                |                                                      No                                                       |
-|               <strong>Report i dati del giornale d registrazione secondario</strong>               |               Sì limitato solo al fornitore, cliente                |                 Sì fornitore, cliente, gruppi di clienti/fornitori, indirizzi clienti/fornitori, e così via.                 |
-|                  <strong>Valuta di dichiarazione</strong>                  |    Sì valuta di contabilizzazione e convertire in valuta di dichiarazione    |                                          No solo valuta di contabilizzazione                                          |
-|                       <strong>Sicurezza</strong>                       | Sì conforme a Finance and Operations e sicurezza dell'albero gerarchico di creazione report | Report con visualizzazione limitata per tutte le società (indipendentemente dalla sicurezza di Finance and Operations) o solo per la società attiva |
-| <strong>Supporto di diversi piani dei conti e anni fiscali</strong> |                                Sì                                |                                                      No                                                       |
-|               <strong>Report di dati esterni</strong>                |                                No                                 |                                                      No                                                       |
-|                <strong>Supporto di consolidamenti</strong>                |                                Sì                                |                   Limitato Può creare report per più società ma utilizzare solo la valuta di contabilizzazione                   |
+|                                                          | Creazione di report finanziari                                               | Informazioni finanziarie dettagliate |
+|----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
+| **Modifica report predefiniti**                                 | Sì                                                               | No |
+| **Creazione nuovi report**                                   | Sì                                                               | No |
+| **Stampa report**                                        | Sì                                                               | No |
+| **Esporta in Excel**                                      | Sì                                                               | Esportazione limitata di dati non elaborati in Excel, non in un report formattato |
+| **Supporto creazione di report con gerarchia/gerarchia organizzativa**   | Sì                                                               | No |
+| **Report i dati del giornale d registrazione secondario**                             | Sì limitato solo al fornitore, cliente                              | Sì fornitore, cliente, gruppi di clienti/fornitori, indirizzi clienti/fornitori, e così via. |
+| **Valuta di dichiarazione**                                   | Sì valuta di contabilizzazione e convertire in valuta di dichiarazione       | No solo valuta di contabilizzazione |
+| **Sicurezza**                                             | Sì conforme a Finance and Operations e sicurezza dell'albero gerarchico di creazione report | Report con visualizzazione limitata per tutte le società (indipendentemente dalla sicurezza di Finance and Operations) o solo per la società attiva |
+| **Supporto di diversi piani dei conti e anni fiscali** | Sì                                                               | No |
+| **Report di dati esterni**                              | No                                                                | No |
+| **Supporto di consolidamenti**                               | Sì                                                               | Limitato Può creare report per più società ma utilizzare solo la valuta di contabilizzazione |
 
 Oltre all'interfaccia utente dell'area di lavoro originale **Panoramica responsabile finanziario**, sono ora disponibili nuovi KPI, grafici e rendiconti finanziari. Sono disponibili i seguenti rendiconti finanziari:
 
-•   Bilancio di verifica
-
-•   Stato patrimoniale
-
-•   Conto economico per area
-
-•   Conto economico - Confronto effettivo/budget
-
-•   Conto economico con scostamenti
-
-•   Conto economico tendenza 12 mesi - Predefinito
-
-•   Tendenza spese triennale
-
-•   Spese per fornitore
-
-•   Vendite per cliente
+- Bilancio di verifica
+- Stato patrimoniale
+- Conto economico per area
+- Conto economico - Confronto effettivo/budget
+- Conto economico con scostamenti
+- Conto economico tendenza 12 mesi - Predefinito
+- Tendenza spese triennale
+- Spese per fornitore
+- Vendite per cliente
 
 ## <a name="edit-visuals"></a>Modifica degli oggetti visivi
-Nella versione iniziale di **Informazioni finanziarie dettagliate** nessuno degli oggetti visivi può essere modificato. Nelle versioni future, gli utenti che dispongono della autorizzazioni di sicurezza appropriate saranno in grado di creare nuovi oggetti visivi, copiare oggetti esistenti e modificare oggetti visivi. Sebbene i file .pbix che contengono i report siano disponibili come risorse, non è consigliabile modificare i report predefiniti. Verranno apportate ulteriori modifiche al modello dati, ai report predefiniti e all'oggetto visivo del rendiconto finanziario personalizzato che vengono utilizzati per creare i rendiconti finanziari. Pertanto, per sfruttare le nuove funzionalità e le modifiche al modello di dati della prossima versione, sarà necessario ripristinare tutte le modifiche apportate ai report predefiniti tramite Microsoft Power BI Desktop.
-
+Nella versione iniziale di **Informazioni finanziarie dettagliate** nessuno degli oggetti visivi può essere modificato. Nelle versioni future, gli utenti che dispongono della autorizzazioni di sicurezza appropriate saranno in grado di creare nuovi oggetti visivi, copiare oggetti esistenti e modificare oggetti visivi. Sebbene i file con estensione pbix che contengono i report siano disponibili come risorse, non è consigliabile modificare i report predefiniti. Verranno apportate ulteriori modifiche al modello dati, ai report predefiniti e all'oggetto visivo del rendiconto finanziario personalizzato che vengono utilizzati per creare i rendiconti finanziari. Pertanto, per sfruttare le nuove funzionalità e le modifiche al modello di dati della prossima versione, sarà necessario ripristinare tutte le modifiche apportate ai report predefiniti tramite Microsoft Power BI Desktop.
 
 ## <a name="filtering"></a>Filtro
-Gli utenti possono filtrare il report utilizzando il riquadro **Filtro** a sinistra. Questo riquadro è lo stesso riquadro disponibile in Power BI Desktop.
-Esistono vari livelli di filtro, alcuni dei quali potrebbero non essere disponibili, a seconda di cosa si è selezionato in una pagina (scheda) o se si utilizzano le funzionalità drill-through:
+Gli utenti possono filtrare il report utilizzando il riquadro **Filtro** a sinistra. Questo riquadro è lo stesso riquadro disponibile in Power BI Desktop. Esistono vari livelli di filtro, alcuni dei quali potrebbero non essere disponibili, a seconda di cosa si è selezionato in una pagina (scheda) o se si utilizzano le funzionalità drill-through:
 
-•   **Filtri a livello di report**: questi filtri vengono applicati a tutti gli oggetti visivi su tutte le pagine (schede).
-
-•   **Filtri a livello di pagina**: questi filtri vengono applicati a tutti gli oggetti visivi della scheda attiva. Questi filtri vengono applicati sopra i filtri a livello di report.
-
-•   **Filtri a livello di oggetto visivo** : questi filtri vengono applicati solo all'oggetto visivo selezionato. Questi filtri vengono applicati sopra i filtri a livello di pagina.
-
-•   **Filtro drill-through** : questo filtro applica il filtro a partire da un oggetto visivo "sorgente" che viene applicato all'oggetto visivo corrente quando si passa dall'oggetto visivo di origine a quello corrente.
+- **Filtri a livello di report**: questi filtri vengono applicati a tutti gli oggetti visivi su tutte le pagine (schede).
+- **Filtri a livello di pagina**: questi filtri vengono applicati a tutti gli oggetti visivi della scheda attiva. Questi filtri vengono applicati sopra i filtri a livello di report.
+- **Filtri a livello di oggetto visivo** : questi filtri vengono applicati solo all'oggetto visivo selezionato. Questi filtri vengono applicati sopra i filtri a livello di pagina.
+- **Filtro drill-through**: questo filtro applica il filtro a partire da un oggetto visivo "sorgente" che viene applicato all'oggetto visivo corrente quando si passa dall'oggetto visivo di origine a quello corrente.
 
 ![Filtro](./media/filter.png)
-
 
 Per rimuovere un valore specifico di filtro, selezionare il simbolo della gomma accanto ad esso. Non rimuovere un filtro selezionando la X. Se si seleziona la X, il campo su cui stai filtrando viene rimosso come opzione di filtro. Se si deseleziona accidentalmente un campo dal filtro, chiudere l'area di lavoro e quindi riaprila. Le impostazioni di filtro predefinite verranno applicate nuovamente.
 
@@ -187,19 +161,13 @@ Alcuni rendiconti finanziari contengono dimensioni basate su transazioni del gio
 
 Le seguenti dimensioni vengono utilizzate nei report predefiniti. Nessuna di queste dimensioni è una dimensione finanziaria.
 
-•   Fornitore
-
-•   Gruppo di fornitori
-
-•   Cliente
-
-•   Gruppo di clienti
-
-•   Paese
-
-•   Stato/regione o provincia
-
-•   Città
+- Fornitore
+- Gruppo di fornitori
+- Cliente
+- Gruppo di clienti
+- Paese
+- Stato/regione o provincia
+- Città
 
 > [!IMPORTANT] 
 > Se si riepilogano le transazioni per più fornitori o clienti in un singolo giustificativo utilizzando giornali di registrazione finanziari, i dati saranno errati. La creazione di report non è in grado di determinare quale fornitore o cliente è collegato a un conto CoGe specifico in una scrittura contabile, poiché tali informazioni non sono gestite in nessun punto. Pertanto, non si consiglia di inserire più fornitori, clienti, cespiti o progetti in un unico giustificativo.
@@ -212,28 +180,24 @@ Nell'illustrazione seguente, il rendiconto del **Bilancio di verifica** viene co
 
 ![Bilancio di verifica](./media/trial-balance.png)
 
- 
 Per visualizzare il livello successivo della gerarchia, le categorie principali del conto, è possibile impostare il campo **Drill** su **Righe** e quindi fare clic sul pulsante **Espandi** il terzo pulsante dopo il campo Drill. Tutte le categorie del conto principale vengono espanse. Attualmente, Power BI non consente di espandere solo una riga o una colonna, ma visualizza anche tutte le altre righe o colonne.
- 
+
 ![Bilancio di verifica](./media/trial-balance2.png)
- 
-  
+
 Per espandere il conto principale per tutte le righe, è possibile utilizzare di nuovo il pulsante **Espandi**. Tuttavia, per eseguire il drill-down sui conti principali per una sola riga, selezionare innanzitutto il pulsante **Drill-down** (la singola freccia rivolta verso il basso sul lato destro della finestra), quindi selezionare la riga per cui eseguire il drill-down. L'illustrazione seguente mostra il risultato quando viene selezionata la riga **Vendite** dopo aver selezionato il pulsante **Drill-down**.
 
 ![Bilancio di verifica](./media/trial-balance3.png)
 
 Dopo aver eseguito il drill-down su una singola riga, sono necessari più clic per tornare al bilancio di verifica completo. Il pulsante **Drill-up** (il primo pulsante dopo il campo **Drill**) esegue il drill-up solo nel contesto della categoria **Vendite**, come mostrato nella seguente illustrazione.
- 
+
 ![Bilancio di verifica](./media/trial-balance4.png)
- 
- 
+
 È possibile continuare a utilizzare il pulsante **Drill-up** per tornare al più alto livello di riepilogo per le righe.
 
 Power BI dispone anche di un pulsante che consente di passare al livello successivo nella gerarchia (il secondo pulsante dopo il campo **Drill**). L'effetto di questo pulsante differisce dall'effetto del pulsante **Espandi** (il terzo pulsante dopo il campo **Drill**), che viene utilizzato per espandere la gerarchia. Quando si espande la gerarchia, la gerarchia viene mantenuta nel report. Ad esempio, come mostrato in precedenza, se si espande il tipo di conto principale, nel report viene comunque visualizzato il tipo di account principale. Tuttavia, quando si passa al livello successivo nella gerarchia, il report non mostra più il padre nella gerarchia, come mostrato nella figura seguente.
 
 ![Bilancio di verifica](./media/trial-balance5.png)
 
- 
 Per visualizzare i dettagli della transazione alla base dei saldi riepilogati, è possibile selezionare alcuni importi per eseguire il drill-back in Financial and Operations.
 
 Il drill-back dei rendiconti finanziari porta a Esplora origine contabilità, non alle transazioni giustificativo. Esplora origine contabilità non mostra solo le voci contabili nella contabilità generale. Vengono visualizzati invece i dettagli della transazione del giornale di registrazione secondario. Pertanto, si ottengono molti più dettagli sulla transazione di origine che possono essere utilizzati per l'analisi. Ad esempio, è possibile vedere chi era il fornitore o il cliente, ciò che il cliente ha acquistato o il fornitore venduto e anche quale progetto era nella transazione.
@@ -242,70 +206,48 @@ I seguenti filtri dei rendiconti finanziari vengono inviati a Esplora origine co
 
 Campi obbligatori per il filtro:
 
-  - Persona giuridica
- 
-  - Calendario fiscale
- 
-  - Anno
- 
-  - ID conto principale
+- Persona giuridica
+- Calendario fiscale
+- Anno
+- ID conto principale
 
 Campi facoltativi per il filtro:
 
-  - Trimestre
+- Trimestre
+- Mese
+- Periodo
 
-  - Mese
+Se non si espande una riga a sufficienza, il drill-down non funziona. Ad esempio, se si espande solo fino alla categoria di conti principali, non sarà possibile eseguire il drill-down nel saldo Esplora origine contabilità, in quanto il conto principale è un campo obbligatorio per applicare filtri in Esplora origine contabilità.
 
-  - Periodo
-
-Se si espande una riga a sufficienza, il drill-down non funziona. Ad esempio, se si espande solo fino alla categoria di conti principali, non sarà possibile eseguire il drill-down nel saldo Esplora origine contabilità, in quanto il conto principale è un campo obbligatorio per applicare filtri in Esplora origine contabilità.
-
-Se si espande troppo verso il basso una riga, i filtri aggiuntive nei rendiconti finanziari non verranno inviati a Esplora origine contabilità. Di conseguenza, potrebbe venire visualizzata una differenza nelle cifre. Ad esempio, se si espande verso il basso fino al paese o area nelle righe del conto economico per rendiconto finanziario dell'area, il paese o l'area non verrà incluso come filtro in Esplora origine contabilità.
+Se si espande troppo verso il basso una riga, i filtri aggiuntivi nei rendiconti finanziari non verranno inviati a Esplora origine contabilità. Di conseguenza, potrebbe venire visualizzata una differenza nelle cifre. Ad esempio, se si espande verso il basso fino al paese o area nelle righe del conto economico per rendiconto finanziario dell'area, il paese o l'area non verrà inclusa come filtro in Esplora origine contabilità.
 
 > [!NOTE]
 > È possibile eseguire un'analisi più approfondita delle righe o colonne del rendiconto finanziario rispetto a quelle attualmente supportate dal filtro di Esplora origine contabilità. Pertanto, in alcune situazioni, la somma delle transazioni dettagliate in Esplora origine contabilità non corrisponderà al saldo su cui si sta eseguendo il drill-back. Questa funzionalità continuerà ad essere migliorata in futuro.
 
 ## <a name="hierarchies"></a>Gerarchie
 
-I rendiconti finanziari predefiniti utilizzano due gerarchie per il drill e l'espansione nei dati. Una gerarchia è relativa alle righe e l'altra è alle colonne. Entrambe le gerarchie sono predefinite nella progettazione del rendiconto finanziario. Per la maggior parte di bilancio, dei rendiconti finanziari, la gerarchia di riga è **Tipo di conto principale** > **Categorie di conti principali** > **Conto principale**. Tuttavia, alcuni report hanno campi aggiuntivi, come paese e regione. I nodi supplementari della gerarchia sono basati sui dati relativi ai giornali di registrazione secondari per ciascuna transazione.
+I rendiconti finanziari predefiniti utilizzano due gerarchie per il drill e l'espansione nei dati. Una gerarchia è relativa alle righe e l'altra è alle colonne. Entrambe le gerarchie sono predefinite nella progettazione del rendiconto finanziario. Per la maggior parte dei rendiconti finanziari, la gerarchia di riga è **Tipo di conto principale** \> **Categorie di conti principali** \> **Conto principale**. Tuttavia, alcuni report hanno campi aggiuntivi, come paese e regione. I nodi supplementari della gerarchia sono basati sui dati relativi ai giornali di registrazione secondari per ciascuna transazione.
 
-Per le colonne, la gerarchia è focalizzata sulle persone giuridiche e sui periodi fiscali. Per la maggior parte dei rendiconti finanziari, la gerarchia di colonna è **Persona giuridica** > **Calendario fiscale** > **Anno fiscale** > **Trimestre** > **Periodo**.
+Per le colonne, la gerarchia è focalizzata sulle persone giuridiche e sui periodi fiscali. Per la maggior parte dei rendiconti finanziari, la gerarchia di colonna è **Persona giuridica** \> **Calendario fiscale** \> **Anno fiscale** \> **Trimestre** \> **Periodo**.
 
-Attualmente, i rendiconti finanziari non supportano le gerarchie organizzative il progetto, che consentono l'aggregazione dei dati.
+Attualmente, i rendiconti finanziari non supportano le gerarchie organizzative, che consentono l'aggregazione dei dati.
 
 ## <a name="data-limitations"></a>Limitazioni dei dati
 Agli oggetti visivi del rendiconto finanziario viene applicato un limite relativo al numero di righe che può essere visualizzato. Attualmente, il limite è impostato su 30.000. Se si supera questo limite, all'oggetto visivo sarà associato un simbolo di avviso per informare di questa situazione..
- 
-![Limitazioni dei dati](./media/data-limit.png)
 
+![Limitazioni dei dati](./media/data-limit.png)
 
 Se viene superato il valore massimo, i totali visualizzati nel rendiconto finanziario non saranno corretti, poiché non tutte le righe sono state caricate nell'elemento visivo.
 
 ### <a name="empty-rows"></a>Righe vuote
 Power BI non fornisce un'opzione per nascondere e mostrare righe vuote. Se una riga non include dei dati, la riga non apparirà nell'oggetto visivo.
 
-## <a name="what-is-coming-in-future-releases"></a>Quali saranno le novità delle versioni future?
-Le nuove aree di lavoro e i rendiconti finanziari che utilizzano Power BI continueranno a essere migliorati. Ecco alcune delle nuove funzionalità considerate per le versioni future:
-
- - Possibilità di copiare, modificare, eliminare e creare oggetti visivi, anche i rendiconti finanziari                                                  
- - Report predefiniti aggiuntivi                                                                                                            
-    - Supporto per ulteriori dati relativi ai giornali di registrazione secondari                                                                                            
- - Supporto per una valuta di dichiarazione                                                                                                      
- - Aggiunta di calcoli personalizzati per righe e colonne                                                                                          
- - Possibilità di esportare i rendiconti finanziari in Microsoft Excel                                                                     
-   - Conservazione del formato del rendiconto finanziario durante l'esportazione                                                                          
-   - Analisi dei dati in Excel tramite la creazione di una tabella pivot in cui vengono utilizzate le informazioni sull'oggetto visivo                                              
- - Supporto per impostazioni locali                                                                                                                        
- - Possibilità di definire gerarchie di report, in modo che sia possibile definire le gerarchie di conto principale o una gerarchia organizzativa che può essere utilizzata nei rendiconti finanziari per la progettazione, il filtro e la sicurezza.                                                                    
- - Supporto per la stampa
-
-Le nuove funzionalità verranno comunicate tramite il sito Web con la roadmap all'avvio del lavoro: https://roadmap.dynamics.com/
 
 ## <a name="additional-resources-for-power-bi"></a>Risorse aggiuntive per Power BI
 
 Le informazioni contenute nelle seguenti risorse non sono necessarie per abilitare i report incorporati per la **Panoramica responsabile finanziario** o l'area di lavoro **Informazioni finanziarie dettagliate** in un ambiente di produzione. Al contrario, sono utili per le caselle di sviluppo e se si desidera incorporare i propri report di Power BI in Finance and Operations.
 
-https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/
+- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
-https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces
+- <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
 
