@@ -35,7 +35,9 @@ La funzionalità gestione progetti e contabilità può essere utilizzata in più
 Un progetto è un gruppo di attività progettato per fornire un servizio, produrre un prodotto o raggiungere un risultato. I progetti consumano risorse e generano risultati finanziari sotto forma di ricavi o cespiti.
 
 ## <a name="projects-across-industries"></a>Progetti tra settori
-La funzionalità gestione progetti e contabilità può essere utilizzata in più settori, come illustrato nella figura seguente. [![Progetti tra settori](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+La funzionalità gestione progetti e contabilità può essere utilizzata in più settori, come illustrato nella figura seguente.
+
+[![Progetti tra settori](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 In un call center un ticket può essere utilizzato per descrivere il set di azioni necessarie per risolvere una chiamata. Le società di consulenza, ad esempio le organizzazioni di consulenza tecnica o di gestione oppure le agenzie di pubblicità, fanno riferimento alle loro attività come progetti. Nel marketing una campagna rappresenta un set di lavoro che deve essere consegnato. Nella produzione basata su progetti, un ordine di produzione si riferisce ai vari lavori che devono essere eseguiti per produrre alcuni prodotti finiti. Qualsiasi nome venga utilizzato per i prodotti, questi progetti coinvolgono risorse, programmazioni e costi e la funzionalità gestione progetti e contabilità di Microsoft Dynamics 365 Finance and Operations può facilitare la pianificazione, l'esecuzione e l'analisi di questi progetti.
 
