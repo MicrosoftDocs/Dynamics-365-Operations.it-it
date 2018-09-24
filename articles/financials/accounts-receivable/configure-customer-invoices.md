@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
+ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/14/2018
 
 ---
 
@@ -36,9 +36,9 @@ Una **fattura a testo libero** non è correlata a un ordine cliente. Contiene ri
 
 Per ulteriori informazioni, vedere: 
 
-[Creare una fattura a testo libero](tasks/create-free-text-invoice.md)
+[Creare una fattura a testo libero](../accounts-receivable/create-free-text-invoice-new.md)
 
-[Creare un modello a testo libero](tasks/create-free-text-invoice-template.md)
+[Creare un modello a testo libero](../accounts-receivable/create-free-text-invoice-template-new.md)
 
 [Assegnare al cliente un modello di fattura a testo libero](tasks/assign-free-text-invoice-template-customer.md)
 

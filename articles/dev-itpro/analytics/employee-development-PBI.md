@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,7 +39,7 @@ I report inclusi nel contenuto **Sviluppo del dipendente** di Power BI dispongon
 | Analisi del livello di competenza del dipendente | Livelli di competenza del dipendente per reparto, dipendenti per livello di competenza e tipo di competenza e livello più basso e livello più alto per competenza |
 | Profilo competenze                 | Profilo competenze del dipendente selezionato |
 | Analisi competenze                | Competenze per tipo e valutazione |
-| Analisi della valutazione delle prestazioni   | Dipendenti per valutazione dal livello più basso al più alto per mansione, valutazioni del dipendente per reparto, dipendenti per tipo di posizione e valutazione e valutazioni più alta e più bassa per posizione  |
+| Analisi della valutazione delle prestazioni   | Dipendenti per valutazione dal livello più basso al più alto per mansione, valutazioni del dipendente per reparto, dipendenti per tipo di posizione e valutazione e valutazioni più alta e più bassa per posizione |
 | Analisi delle prestazioni del dipendente | Valutazioni del dipendente per valutazione selezionata dal responsabile |
 
 È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
@@ -48,7 +48,7 @@ I report inclusi nel contenuto **Sviluppo del dipendente** di Power BI dispongon
 
 | Entità                   | Contenuto                                                                                                   | Relazioni con altre entità |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Offset di calendario          | Offset di calendario su report suddivisi                                                                          | Assegnazione della posizione passata, Tendenza della posizione, Tendenza del dipendente, Dipendente con rapporto di lavoro chiuso 
+| Offset di calendario          | Offset di calendario su report suddivisi                                                                          | Assegnazione della posizione passata, Tendenza della posizione, Tendenza del dipendente, Dipendente con rapporto di lavoro chiuso |
 | Società                  | Società in base a cui filtrare i report                                                                             | Dipendente corrente, Dipendente con rapporto di lavoro chiuso, Tendenza del dipendente |
 | Posizione corrente         | Posizione a partire dalla data corrente, equivalente a tempo pieno (FTE), posizioni aperte e posizioni da aperte ad assegnate | Lavoro, Posizione |
 | Dipendente corrente         | Lavoratori a partire dalla data corrente, età e numero di dipendenti                                                         | Società, Località geografica, Nome del dipendente, Subordinato a, Posizione del dipendente, Dati demografici, Mansione, Impiego, Posizione |
@@ -65,10 +65,9 @@ I report inclusi nel contenuto **Sviluppo del dipendente** di Power BI dispongon
 | Nome dipendente            | Nome, cognome e nome completo                                                                       | Lavoratore corrente, Dipendente con rapporto di lavoro chiuso, Tendenza del dipendente |
 | Posizione del dipendente           | Titolo e data di anzianità                                                                                   | Dipendente corrente, Dipendente con rapporto di lavoro chiuso, Tendenza del dipendente |
 | Tendenza del dipendente           | Lavoratori nel tempo, numero di dipendenti, società e posizione                                                        | Società, Località geografica, Nome del dipendente, Subordinato a, Offset di calendario, Data, Posizione del dipendente, Dati demografici, Impiego, Mansione |
-| Mansione                      | Funzione, tipo e titolo                                                                                      | Dipendente corrente, Posizione corrente, Tendenza del dipendente, Competenza preferita per la mansione, Assegnazione della posizione passata, Tendenza della posizione, Dipendente con rapporto di lavoro chiuso |
+| Mansione                      | Funzione, tipo e titolo                                                                                  | Dipendente corrente, Posizione corrente, Tendenza del dipendente, Competenza preferita per la mansione, Assegnazione della posizione passata, Tendenza della posizione, Dipendente con rapporto di lavoro chiuso |
 | Competenza preferita per la mansione      | Importanza, valutazione, competenza e il livello di competenza                                                                 | Mansione |
-| Analisi competenze del dipendente  | Certificato, livello, data livello e competenza                                                                    | Nome del dipendente, Competenza |  
+| Analisi competenze del dipendente  | Certificato, livello, data livello e competenza                                                                    | Nome del dipendente, Competenza |
 | Prestazioni              | Valutazione, descrizione e modello di valutazione                                                                      | Dipendente corrente, Posizione corrente, Tendenza del dipendente, Competenza preferita per la mansione, Assegnazione della posizione passata, Tendenza della posizione, Dipendente con rapporto di lavoro chiuso |
-|  Competenza                   | Competenza, tipo di competenza e valutazione                                                                              | Analisi competenze del dipendente, Competenza preferita per la mansione |                                                                                                                        
-
+| Competenza                    | Competenza, tipo di competenza e valutazione                                                                              | Analisi competenze del dipendente, Competenza preferita per la mansione |
 

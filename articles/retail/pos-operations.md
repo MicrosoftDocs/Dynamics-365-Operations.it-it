@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -49,6 +49,8 @@ Nota: le operazioni elencate di seguito vengono applicate all'ultima versione di
 | 707 | Attiva dispositivo | Attiva il dispositivo corrente consentendo a un utente autenticato di fornire informazioni sulla connessione e di assegnare un ID dispositivo e registratore. | No | No | No | No | No |
 | 134 | Aggiungi rapporto | Consente di aggiungere un rapporto preselezionato a una transazione. Selezionare il rapporto nella pagina **Proprietà pulsanti**. | Sì | Sì | No | Sì | No |
 | 135 | Aggiungi rapporto dall'elenco | Consente di aggiungere un rapporto a una transazione selezionandolo in un elenco. | Sì | Sì | Sì | Sì | No |
+| 137 | Aggiungere un rapporto a un cliente | Aggiungere un rapporto a un cliente nella pagina **Dettagli cliente**. | No | No | No | Sì | No |
+| 138 | Rimuovere il rapporto dal cliente | Rimuovere un rapporto da un cliente nella pagina **Dettagli cliente**. | No | No | No | Sì | No |
 | 643 | Aggiungi codice buono sconto | Consente di aggiungere un buono sconto immettendone il codice nel POS. | Sì | Sì | No | Sì | No |
 | 117 | Aggiungi carta fedeltà | Richiede all'utente di immettere un numero di carta fedeltà che verrà aggiunta alla transazione corrente. | Sì | Sì | No | Sì | No |
 | 136 | Aggiungi numero di serie | Questa operazione consente all'utente di specificare un numero di serie per il prodotto attualmente selezionato. | Sì | Sì | No | Sì | No |

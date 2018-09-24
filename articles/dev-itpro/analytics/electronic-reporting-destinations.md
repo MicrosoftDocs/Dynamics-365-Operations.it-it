@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -37,21 +37,21 @@ Le configurazioni del formato di creazione di report elettronici (ER) in genere 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilità e prerequisiti generali
 La funzionalità di destinazioni ER non è disponibile in Microsoft Dynamics AX 7.0 (febbraio 2016). Di conseguenza, è necessario installare Microsoft Dynamics 365 for Operations versione 1611 (novembre 2016) per utilizzare tutte le funzioni descritte in questo argomento. In alternativa, è possibile installare uno dei seguenti prerequisiti. Tuttavia, tenere presente che queste alternative forniscono un'esperienza di destinazione ER più limitata.
 
--   Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016)
--   [Aggiornamento rapido dell'applicazione](https://fix.lcs.dynamics.com/issue/results/?q=3160213) per la gestione delle destinazioni ER
+- Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016)
+- [Aggiornamento rapido dell'applicazione](https://fix.lcs.dynamics.com/issue/results/?q=3160213) per la gestione delle destinazioni ER
 
 È possibile impostare le destinazioni solo per le configurazioni ER che sono state importate e per i formati disponibili nella pagina **Configurazioni creazione di report elettronici**.
 
 ## <a name="overview"></a>Panoramica
 La funzionalità di gestione di destinazione ER è disponibile in **Amministrazione organizzazione** &gt; **Creazione di report elettronici**. In questo caso, è possibile ignorare il comportamento predefinito per una configurazione. Le configurazioni importate non vengono mostrate qui fino a quando non si fa clic su **Nuovo** e, quindi, nel campo **Riferimento** si seleziona una configurazione per cui creare le impostazioni di destinazione.
 
-[![Selezione di una configurazione nel campo Riferimento](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg) 
+[![Selezione di una configurazione nel campo Riferimento](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg)
 
-Dopo aver creato un riferimento, è possibile creare una destinazione di file per ogni cartella o un file. 
+Dopo aver creato un riferimento, è possibile creare una destinazione di file per ogni cartella o un file.
 
 [![Creazione di una destinazione di file](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-> [!NOTE] 
+> [!NOTE]
 > È possibile creare una destinazione del file per ciascun componente di output dello stesso formato, ad esempio una cartella o un file selezionato nel campo **Nome campo**. È quindi possibile abilitare e disabilitare singole destinazioni per la destinazione di file nella finestra di dialogo **Impostazioni destinazione**. Il pulsante **Impostazioni** consente di controllare tutte le destinazioni per una destinazione di file selezionata. Nella finestra di dialogo **Impostazioni destinazione** è possibile controllare separatamente ogni destinazione impostando la relativa opzione **Abilitato**.
 
 [![Finestra di dialogo Impostazioni di destinazione](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
@@ -73,7 +73,7 @@ Quando si fa clic su **Modifica** per il campo **A** o **Cc**, viene visualizzat
 
 Se si seleziona il tipo **Gestione stampa posta elettronica**, è possibile immettere indirizzi di posta elettronica fissi nel campo **A**. Per utilizzare indirizzi di posta elettronica non fissi, è necessario selezionare il tipo di origine di posta elettronica per la destinazione di un file. I valori seguenti sono supportati: **Cliente**, **Fornitore**, **Prospect**, **Contatto**, **Concorrente**, **Lavoratore**, **Candidato**, **Fornitore potenziale** e **Fornitore non autorizzato**. Dopo avere selezionato un tipo di origine della posta elettronica, utilizzare il pulsante accanto al campo **Conto di origine posta elettronica** per aprire il modulo **Designer formula**. È possibile utilizzare questo modulo per collegare una formula che rappresenta l'account parte selezionato alla destinazione di posta elettronica.
 
-[![Configurare il tipo di Gestione stampa posta elettronica](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
+[![Configurare il tipo di Gestione stampa posta elettronica](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg)
 
 Si noti che le formule sono specifiche per la configurazione ER. Nel campo **Formula** immettere un riferimento specifico per il documento a un tipo di parte del cliente o del fornitore. Anziché digitare, è possibile cercare il nodo di origine dati che rappresenti il conto cliente o fornitore e fare clic sul pulsante **Aggiungi origine dati** per aggiornare la formula. Ad esempio, se si utilizza la configurazione bonifico ISO 20022, il nodo che rappresenta un conto fornitore è **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. In caso contrario, immettere qualsiasi valore di stringa, ad esempio **DE-001**, per salvare una formula.
 
@@ -87,23 +87,27 @@ Nella finestra di dialogo **Destinatario messaggio di posta elettronica**, fare 
 
 Usano questo tipo di messaggio di posta elettronica se la configurazione da utilizzare è un nodo nelle origini dati che rappresenta un indirizzo di posta elettronica. È possibile utilizzare le origini dati e le funzioni in Designer formula per ottenere un indirizzo di posta elettronica formattato correttamente.
 
-[![Assegnazione di un'origine dati di indirizzo di posta elettronica per una destinazione posta elettronica](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
+[![Assegnazione di un'origine dati di indirizzo di posta elettronica per una destinazione posta elettronica](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg)
 
-**Nota:** un server SMTP (Simple Mail Transfer Protocol) deve essere configurato e disponibile. È possibile specificare il server SMTP in Finance and Operations in **Amministrazione sistema** &gt; **Impostazioni** &gt; **Posta elettronica** &gt; **Parametri posta elettronica**.
+> [!NOTE]
+> Un server SMTP (Simple Mail Transfer Protocol) deve essere configurato e disponibile. È possibile specificare il server SMTP in Finance and Operations in **Amministrazione sistema** &gt; **Impostazioni** &gt; **Posta elettronica** &gt; **Parametri posta elettronica**.
 
 ### <a name="archive-destination"></a>Destinazione archivio
 
 È possibile utilizzare questa opzione per inviare l'output a una cartella di Microsoft SharePoint o Archiviazione di Microsoft Azure. Impostare **Abilitato** su **Sì** per inviare l'output a una destinazione definita dal tipo di documento selezionato. Solo tipi di documento in cui il gruppo è impostato su **File** sono disponibili per la selezione. I tipi di documento vengono definiti in **Amministrazione organizzazione** &gt; **Gestione documenti** &gt; **Tipi di documento**. La configurazione per le destinazioni ER è lo stessa della configurazione del sistema di gestione documenti.
 
-[![Pagina Tipi di documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
+[![Pagina Tipi di documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
-Il percorso posizione determina dove viene salvato il file. Una volta abilitata la destinazione **Archivio**, i risultati dell'esecuzione della configurazione possono essere salvati nell'archivio processi. È possibile visualizzare i risultati in **Amministrazione organizzazione** &gt; **Creazione di report elettronici** &gt; **Processi archiviati di creazione report elettronici**. **Nota:** è possibile selezionare un tipo di documento per l'archivio processi in Finance and Operations in **Amministrazione organizzazione** &gt; **Aree di lavoro** &gt; **Creazione di report elettronici** &gt; **Parametri per la creazione di report elettronici**.
+Il percorso posizione determina dove viene salvato il file. Una volta abilitata la destinazione **Archivio**, i risultati dell'esecuzione della configurazione possono essere salvati nell'archivio processi. È possibile visualizzare i risultati in **Amministrazione organizzazione** &gt; **Creazione di report elettronici** &gt; **Processi archiviati di creazione report elettronici**.
+
+> [!NOTE]
+> È possibile selezionare un tipo di documento per l'archivio processi in Finance and Operations in **Amministrazione organizzazione** &gt; **Aree di lavoro** &gt; **Creazione di report elettronici** &gt; **Parametri per la creazione di report elettronici**.
 
 #### <a name="sharepoint"></a>SharePoint
 
-È possibile salvare un file in una cartella designata di SharePoint. Il server SharePoint predefinito viene definito in **Amministrazione organizzazione** &gt; **Gestione documenti** &gt; **Parametri di gestione documenti** nella scheda **SharePoint**. Dopo aver configurato la cartella SharePoint, è possibile selezionarla come cartella in cui l'output di ER verrà salvato per il tipo di documento. 
+È possibile salvare un file in una cartella designata di SharePoint. Il server SharePoint predefinito viene definito in **Amministrazione organizzazione** &gt; **Gestione documenti** &gt; **Parametri di gestione documenti** nella scheda **SharePoint**. Dopo aver configurato la cartella SharePoint, è possibile selezionarla come cartella in cui l'output di ER verrà salvato per il tipo di documento.
 
-[![Selezione di una cartella SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
+[![Selezione di una cartella SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
 #### <a name="azure-storage"></a>Archiviazione di Azure
 
@@ -119,7 +123,10 @@ Se si imposta **Abilitato** su **Sì**, viene creata un'anteprima dell'output. �
 
 ### <a name="power-bi-destination"></a>Destinazione Power BI
 
-Impostare **Abilitato** su **Sì** per utilizzare la configurazione ER per definire il trasferimento di dati dall'istanza di Finance and Operations ai servizi Microsoft Power BI. I file trasferiti sono archiviati in un'istanza di Microsoft SharePoint Server che deve essere configurata a tale scopo. Per ulteriori informazioni, vedere [Utilizzare la configurazione di creazione report elettronici per fornire a Power BI i dati da Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Suggerimento:** per ignorare il comportamento predefinito (ovvero, la finestra di dialogo per una configurazione), è possibile creare un riferimento di destinazione e una destinazione di file per il componente di output principale e quindi disattivare tutte le destinazioni.
+Impostare **Abilitato** su **Sì** per utilizzare la configurazione ER per definire il trasferimento di dati dall'istanza di Finance and Operations ai servizi Microsoft Power BI. I file trasferiti sono archiviati in un'istanza di Microsoft SharePoint Server che deve essere configurata a tale scopo. Per ulteriori informazioni, vedere [Utilizzare la configurazione di creazione report elettronici per fornire a Power BI i dati da Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+
+> [!TIP]
+> Per ignorare il comportamento predefinito (ovvero, la finestra di dialogo per una configurazione), è possibile creare un riferimento di destinazione e una destinazione di file per il componente di output principale e quindi disattivare tutte le destinazioni.
 
 ## <a name="security-considerations"></a>Considerazioni sulla sicurezza
 Vengono utilizzati due tipi di compiti e privilegi per le destinazioni ER. Un tipo controlla la possibilità di gestire le destinazioni generali che sono configurate per una persona giuridica (ovvero, controlla l'accesso alla pagina **Destinazione report elettronici**). L'altro tipo controlla la possibilità dell'utente di un'applicazione di ignorare, in fase di esecuzione, le impostazioni di destinazione configurate da uno sviluppatore ER o consulente funzionale ER.
@@ -158,7 +165,4 @@ Il prerequisito è che il formato deve essere disponibile nelle configurazioni E
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei report elettronici](general-electronic-reporting.md)
-
-
-
 

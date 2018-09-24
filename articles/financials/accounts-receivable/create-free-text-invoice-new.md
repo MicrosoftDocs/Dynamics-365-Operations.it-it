@@ -1,9 +1,9 @@
 --- 
-title: Crea una fattura a testo libero
-description: Questo articolo illustra come creare una fattura a testo libero.
+title: Crea fatture a testo libero
+description: In questo argomento viene illustrato come creare le fatture a testo libero.
 author: mikefalkner
 manager: AnnBe
-ms.date: 05/29/2018
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,64 +13,77 @@ ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mfalkner
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-08-30
+ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: f69505f0c6137121cae92d42d052b244326c8436
-ms.openlocfilehash: 2a611bdd4dd97109709ed355eb80471e27413744
+ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
+ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
 ms.contentlocale: it-it
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/05/2018
 
 ---
 
-# <a name="create-a-free-text-invoice"></a>Crea una fattura a testo libero
+# <a name="create-free-text-invoices"></a>Crea fatture a testo libero
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo illustra come creare una fattura a testo libero. Per questa procedura utilizzare la società dimostrativa USMF.
+In questo argomento viene illustrato come creare le fatture a testo libero. Per questa procedura viene utilizzata la società dimostrativa **USMF**.
 
 ## <a name="create-a-free-text-invoice"></a>Crea una fattura a testo libero
 
-1. Andare a Contabilità clienti > Fatture > Tutte le fatture a testo libero.
-2. Fare clic su Nuovo.
-3. Nel campo Conto cliente selezionare un valore.
-    * Il conto fatture verrà impostato sul conto utilizzato per il conto cliente.   
-    * Lo stato iniziale della contabilità è In corso se la fattura non è registrata.   
-    * Il numero fattura viene assegnato al momento della registrazione della fattura.  
-    * Se si utilizzano i mandati SEPA, il mandato di addebito diretto verrà automaticamente popolato con un mandato, quando si seleziona il conto cliente.  
-4. Nel campo Descrizione digitare un valore.
-5. Nel campo Conto principale, specificare un numero di conto senza dimensioni.
-    * È anche possibile immettere uno o più caratteri per il conto principale e utilizzare la ricerca per trovare il conto. Le dimensioni verranno immesse successivamente nella guida.  
-6. Espandere la scheda dettaglio Dettagli riga in modo da poter aggiungere dimensioni al conto principale.
-7. Fare clic sulla scheda Riga dimensioni finanziarie.
-    * Le dimensioni sono relative solo alla riga selezionata.    
-    * La fascia IVA viene popolata dal cliente. Se il cliente non dispone di una fascia IVA, viene utilizzata la fascia IVA del conto principale.  
-    * La fascia IVA articoli viene popolata dal conto principale. Se il conto principale non dispone di una fascia IVA articoli, viene utilizzata quella dei parametri IVA di contabilità generale.    
-8. Nel campo Quantità immettere un numero.
-    * La quantità è facoltativa.  
-9. Nel campo Prezzo unitario immettere un numero.
-    * Il prezzo unitario è facoltativo.  
-    * L'importo è calcolato come quantità per prezzo unitario. Tuttavia è possibile ignorare questo calcolo e immettere un importo.  
-10. Fare clic su IVA per visualizzare l'IVA calcolata per la fattura.
-    * Visualizzare gli importi IVA nella pagina o ignorare gli importi nella scheda Rettifica.  
-11. Fare clic su OK.
-12. Fare clic su Spese per aggiungere una spesa alla fattura. 
-13. Digitare un valore nel campo Codice spese.
-14. Nel campo Valore spese immettere un numero.
+1. Passare a **Contabilità clienti \> Fatture \> Tutte le fatture a testo libero**.
+2. Selezionare **Nuovo**.
+3. Nel campo **Conto cliente** selezionare un valore.
+
+    * Per impostazione predefinita, il conto che viene selezionato come conto cliente viene utilizzare come conto fatture.
+    * Se la fattura non viene registrata, lo stato di contabilità inizia con **In corso**.
+    * Il numero fattura viene assegnato al momento della registrazione della fattura.
+    * Se si utilizzano i mandati SEPA (Single Euro Payments Area), il mandato per addebito diretto verrà automaticamente immesso quando si seleziona il conto cliente.
+
+4. Nel campo **Descrizione** immettere un valore.
+5. Nel campo **Conto principale** specificare il numero di conto che non ha dimensioni. Le dimensioni verranno immesse più avanti in questo argomento.
+
+    È anche possibile immettere uno o più caratteri per il conto principale e utilizzare la ricerca per trovare il conto.
+
+6. Selezionare la Scheda dettaglio **Dettagli riga** per aggiungere dimensioni al conto principale.
+7. Selezionare la scheda **Riga dimensioni finanziarie**.
+
+    * Le dimensioni sono relative solo alla riga selezionata.
+    * La fascia IVA viene compilata dal cliente. Se il cliente non dispone di una fascia IVA, viene utilizzata quella del conto principale.
+    * La fascia IVA articoli viene compilata dal conto principale. Se il conto principale non dispone di una fascia IVA articoli, viene utilizzata quella specificata nei parametri IVA della contabilità generale.
+
+8. Facoltativo: nel campo **Quantità** immettere un numero.
+9. Facoltativo: nel campo **Prezzo unitario** immettere un numero.
+
+    L'importo è calcolato come quantità per prezzo unitario. Tuttavia è possibile ignorare questo calcolo immettendo un importo.
+
+10. Selezionare **IVA** per visualizzare l'IVA che viene calcolata per la fattura.
+
+    È possibile visualizzare gli importi IVA in questa pagina o è possibile ignorare gli importi nella scheda **Rettifica**.
+
+11. Selezionare **OK**.
+12. Selezionare **Spese** per aggiungere una spesa alla fattura.
+13. Nel campo **Codice spese** immettere un valore.
+14. Nel campo **Valore spese** immettere un numero.
 15. Chiudere la pagina.
-16. Fare clic su Totali per visualizzare il riepilogo dei totali e dei dettagli della fattura.
-17. Fare clic su Chiudi.
-18. Scegliere Registra per registrare la fattura. Sarà possibile annullare prima di registrare.
-    * Per modificare il tempo di stampa delle fatture: selezionare Corrente per stampare ciascuna fattura non appena viene aggiornata oppure selezionare Dopo per stampare dopo che tutte le fatture sono state aggiornate.  
-    * Se si desidera modificare la modalità in cui il limite di credito del cliente viene verificato prima della registrazione, modificare il tipo di limite di credito.  
-    * Se si desidera stampare la fattura, selezionare Sì.  
-    * Se si desidera registrare la fattura selezionare Sì. È possibile stampare la fattura senza registrare.  
-19. Fare clic su OK.
+16. Selezionare **Totali** per visualizzare un riepilogo dei dettagli e dei totali della fattura.
+17. Selezionare **Chiudi**.
+18. Selezionare **Registra** per registrare la fattura. Sarà ancora possibile annullare la fattura prima di registrarla.
+
+    * È possibile modificare il tempo di stampa delle fatture. Selezionare **Corrente** per stampare ogni fattura man mano che viene aggiornata. Selezionare **Dopo** per eseguire la stampa dopo che tutte le fatture sono state aggiornate.
+    * Per modificare il modo in cui il limite di credito del cliente viene verificato prima che la fattura venga registrata, modificare il valore nel campo **Tipo di limite di credito**.
+    * Per stampare la fattura, impostare l'opzione su **Sì**.
+    * Per registrare la fattura, impostare l'opzione su **Sì**. È possibile stampare la fattura senza registrarla.
+
+19. Selezionare **OK**.
 
 ## <a name="copy-lines"></a>Copia righe
-Per copiare le righe della fattura a testo libero, selezionare una o più righe e quindi fare clic su Copia righe selezionate. È possibile specificare il numero di copie che si desidera nonché copiare note e gli allegati. È possibile copiare le distribuzioni o permettere che siano ricreate quando si effettua la registrazione. Dopo aver copiato le linee le informazioni potranno quindi essere modificate secondo le esigenze. 
+Per copiare le righe in una fattura a testo libero, selezionare una o più righe e quindi selezionare **Copia righe selezionate**. È possibile specificare il numero di copie da eseguire, nonché copiare le note e gli allegati. È possibile copiare le distribuzioni o permettere che vengano ricreate quando si effettua la registrazione.
+
+Dopo aver copiato le righe, è possibile modificare le informazioni secondo le esigenze.
 
 ## <a name="create-a-free-text-invoice-from-a-template"></a>Creare una fattura a testo libero da un modello
-L'utente può creare una fattura a testo libero da un modello. Quando si seleziona Nuovo dal modello dalla scheda Fattura, è possibile selezionare un nome modello e l'account cliente per la nuova fattura a testo libero. È inoltre possibile scegliere i valori predefiniti ad esempio i termini di pagamento e il metodo di pagamento dal cliente oppure utilizzare i valori che sono stati salvati con il modello. Una nuova fattura a testo libero verrà creata ed è possibile modificare i valori nella fattura. 
+L'utente può creare una fattura a testo libero da un modello. Quando si seleziona **Nuovo da modello** nella scheda **Fattura**, è possibile selezionare un nome di modello e il conto cliente per la nuova fattura a testo libero. Il cliente può compilare automaticamente i valori predefiniti, ad esempio i termini di pagamento e il metodo di pagamento, oppure è possibile utilizzare i valori che erano stati salvati nel modello.
 
+Viene creata una nuova fattura a testo libero ed è possibile modificare i valori secondo le esigenze.
 

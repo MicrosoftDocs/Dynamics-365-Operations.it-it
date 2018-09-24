@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,31 @@ I report finanziari per Finance and Operations consentono ai professionisti azie
 I reporting finanziari includono il supporto delle dimensioni. Pertanto, segmenti di conto o dimensioni sono immediatamente disponibili. Strumenti o procedure di configurazione aggiuntivi non sono necessari.
 
 ## <a name="financial-reporting-setup"></a>Impostazione report finanziari
-La pagina **Impostazione report finanziari** contiene un elenco di tutte le dimensioni finanziarie nel sistema. **Contabilità generale** > **Impostazione contabilità generale** > **Impostazione report finanziari**. 
+La pagina **Impostazione report finanziari** contiene un elenco di tutte le dimensioni finanziarie nel sistema. **Contabilità generale** \> **Impostazione contabilità generale** \> **Impostazione report finanziari**.
 
 Nella pagina **Impostazione report finanziari** sono presenti due sezioni che determinano i dati che si dichiarano nella creazione di report finanziari:
 
-•   **Scheda Dimensioni** - Poiché le diverse società utilizzano dimensioni e strutture dei conti diversi, non è possibile determinare l'ordine in cui gli utenti desiderano visualizzare tutte le dimensioni finanziarie nei report. Questa pagina consente di impostare l'ordine in cui si desidera visualizzare le dimensioni finanziarie quando si crea o si sviluppa un report nei report finanziari.
-
-•   **Scheda Attributi** - In questa scheda è possibile selezionare se si desidera poter utilizzare **Fornitori** e **Clienti** come attributi per la progettazione di report e l'applicazione di filtri. La dichiarazione di Fornitore e Cliente sarà utile solo se non si immettono più fornitori o clienti in un singolo giustificativo quando si registrano le transazioni. La scelta del fornitore e/o del cliente aggiungerà ulteriore tempo all'integrazione.
-
-
+- **Scheda Dimensioni** - Poiché le diverse società utilizzano dimensioni e strutture dei conti diversi, non è possibile determinare l'ordine in cui gli utenti desiderano visualizzare tutte le dimensioni finanziarie nei report. Questa pagina consente di impostare l'ordine in cui si desidera visualizzare le dimensioni finanziarie quando si crea o si sviluppa un report nei report finanziari.
+- **Scheda Attributi** - In questa scheda è possibile selezionare se si desidera poter utilizzare **Fornitori** e **Clienti** come attributi per la progettazione di report e l'applicazione di filtri. La dichiarazione di Fornitore e Cliente sarà utile solo se non si immettono più fornitori o clienti in un singolo giustificativo quando si registrano le transazioni. La scelta del fornitore e/o del cliente aggiungerà ulteriore tempo all'integrazione.
 
 ## <a name="financial-reporting-components"></a>Componenti dei report finanziari
 I seguenti componenti dei report finanziari rendono facile creare, visualizzare e programmare i report.
 
-| Componente        | Funzioni                                                                                                                                                                                                                                                                           | Ulteriori informazioni                                                                          |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Progettazione report  | Creare blocchi predefiniti di report che possono essere combinati per definire e generare un report. La creazione guidata report guida gli utenti con meno esperienza nel processo di pianificazione. Gli utenti esperti possono creare nuovi blocchi predefiniti del report o modificare i blocchi predefiniti esistenti per soddisfare le proprie esigenze. |                                                                                                 |
-| Programmazioni del report | Programmare un unico report o un gruppo di report in modo che viene generato a intervalli regolari.                                                                                                                                                                                          | [Generare un report finanziario](generate-financial-report.md) |
+| Componente        | Funzioni | Ulteriori informazioni |
+|------------------|-----------|------------------------|
+| Progettazione report  | Creare blocchi predefiniti di report che possono essere combinati per definire e generare un report. La creazione guidata report guida gli utenti con meno esperienza nel processo di pianificazione. Gli utenti esperti possono creare nuovi blocchi predefiniti del report o modificare i blocchi predefiniti esistenti per soddisfare le proprie esigenze. | |
+| Programmazioni del report | Programmare un unico report o un gruppo di report in modo che viene generato a intervalli regolari. | [Generare un report finanziario](generate-financial-report.md) |
 
 ## <a name="features"></a>Funzionalità
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Funzionalità</th>
 <th>descrizione</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Flessibilità di progettazione report</td>
 <td>Progettazione report offre le seguenti opzioni per progettare un report:
 <ul>
@@ -70,9 +67,10 @@ I seguenti componenti dei report finanziari rendono facile creare, visualizzare 
 <li>Verificare il formato e la visualizzazione delle descrizioni delle dimensioni.</li>
 <li>Identificare i conti o le dimensioni che sono stati omessi dai blocchi predefiniti del report.</li>
 <li>Formattare le intestazioni delle previsioni ricorrenti.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Collaborazione report finanziario</td>
 <td>Le funzionalità seguenti consentono di gestire la creazione e la distribuzione dei report:
 <ul>
@@ -80,9 +78,10 @@ I seguenti componenti dei report finanziari rendono facile creare, visualizzare 
 <li>Esportare nel formato XPS di sola lettura che fornisce la migliore sicurezza per il documento tramite le firme digitali.</li>
 <li>Esportare in un foglio di lavoro Microsoft Excel.</li>
 <li>Per condividere i report, è possibile creare messaggi di posta elettronica contenenti i collegamenti ai report.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Visualizzazione interattiva dei report</td>
 <td>Le funzionalità interattive consentono di effettuare le attività seguenti:
 <ul>
@@ -99,8 +98,4 @@ I seguenti componenti dei report finanziari rendono facile creare, visualizzare 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 [Generare un report finanziario](generate-financial-report.md)
-
-
-
-
 
