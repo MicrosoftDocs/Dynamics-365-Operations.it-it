@@ -1,5 +1,10 @@
 {
     "redirections": [
+       {
+            "source_path": "talent/extend-talent-functionality.md",
+            "redirect_url": "/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps",
+            "redirect_document_id": true
+        },
         {
             "source_path": "talent/manage-recruiting-process.md",
             "redirect_url": "/dynamics365/unified-operations/fin-and-ops/hr/manage-recruiting-process",
