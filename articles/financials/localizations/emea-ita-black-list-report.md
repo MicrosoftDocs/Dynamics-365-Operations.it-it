@@ -1,5 +1,5 @@
 ---
-title: Report block list italiano
+title: Report black list italiano
 description: Informazioni su come impostare e gestire il report black list italiano.
 author: EvgenyPopovMBS
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 02/14/2018
 
 ---
 
-# <a name="italian-black-list-report"></a>Report block list italiano
+# <a name="italian-black-list-report"></a>Report black list italiano
 
 [!include [banner](../includes/banner.md)]
 
