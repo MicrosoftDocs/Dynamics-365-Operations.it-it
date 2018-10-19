@@ -1,75 +1,76 @@
 --- 
-title: Specificare un indirizzo di carico per una transazione intracomunitaria
+title: EUR-00002 Specifica di un indirizzo di carico per una transazione intracomunitaria
 description: In questa procedura viene illustrato come specificare un indirizzo di carico per una transazione per il commercio intracomunitario.
 author: v-oloski
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, TransportationDocument, LogisticsPostalAddress, SysLookupMultiSelectGrid,  VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0feeba19510d3c2790b1a77bca3c8ec6e7078726
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4db22444bee1590770a47ca5946941b530ae85ce
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="specify-a-lading-address-for-an-intra-community-transaction"></a><span data-ttu-id="15d34-103">Specificare un indirizzo di carico per una transazione intracomunitaria</span><span class="sxs-lookup"><span data-stu-id="15d34-103">Specify a lading address for an intra-community transaction</span></span>
+# <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a><span data-ttu-id="ee502-103">EUR-00002 Specifica di un indirizzo di carico per una transazione intracomunitaria</span><span class="sxs-lookup"><span data-stu-id="ee502-103">EUR-00002 Specifying a lading address for an intra-community transaction</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="15d34-104">In questa procedura viene illustrato come specificare un indirizzo di carico per una transazione per il commercio intracomunitario.</span><span class="sxs-lookup"><span data-stu-id="15d34-104">This procedure shows how to specify a lading address for an intra-community trade transaction.</span></span> <span data-ttu-id="15d34-105">Ad esempio, una società in Germania ordina articoli da un fornitore con un indirizzo commerciale tedesco.</span><span class="sxs-lookup"><span data-stu-id="15d34-105">For example, a Germany company orders items from a vendor with a German business address.</span></span> <span data-ttu-id="15d34-106">Tale fornitore ha un magazzino in Italia e spedisce gli articoli da lì.</span><span class="sxs-lookup"><span data-stu-id="15d34-106">This vendor has a warehouse in Italy and ships the items from there.</span></span> <span data-ttu-id="15d34-107">Questa consegna deve essere dichiarata in Intrastat.</span><span class="sxs-lookup"><span data-stu-id="15d34-107">This delivery must be reported in the Intrastat.</span></span> <span data-ttu-id="15d34-108">Lo stesso comportamento è valido per i resi dei clienti.</span><span class="sxs-lookup"><span data-stu-id="15d34-108">The same behavior is valid for customer returns.</span></span>
-<span data-ttu-id="15d34-109">Questa procedura si applica a tutti i paesi europei.</span><span class="sxs-lookup"><span data-stu-id="15d34-109">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="15d34-110">L'attività è stata creata utilizzando la società di dati dimostrativi DEMF con un indirizzo principale in Germania.</span><span class="sxs-lookup"><span data-stu-id="15d34-110">The task was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="15d34-111">Prima di poter completare questa procedura, è necessario configurare la dichiarazione Intrastat.</span><span class="sxs-lookup"><span data-stu-id="15d34-111">Before you can complete this procedure, you must configure Intrastat reporting.</span></span> <span data-ttu-id="15d34-112">Questa procedura è destinata ai contabili.</span><span class="sxs-lookup"><span data-stu-id="15d34-112">This procedure is intended for accountants.</span></span> <span data-ttu-id="15d34-113">Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.</span><span class="sxs-lookup"><span data-stu-id="15d34-113">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="ee502-104">In questa procedura viene illustrato come specificare un indirizzo di carico per una transazione per il commercio intracomunitario.</span><span class="sxs-lookup"><span data-stu-id="ee502-104">This procedure shows how to specify a lading address for an intra-community trade transaction.</span></span> <span data-ttu-id="ee502-105">Ad esempio, una società in Germania ordina articoli da un fornitore con un indirizzo commerciale tedesco.</span><span class="sxs-lookup"><span data-stu-id="ee502-105">For example, a Germany company orders items from a vendor with a German business address.</span></span> <span data-ttu-id="ee502-106">Tale fornitore ha un magazzino in Italia e spedisce gli articoli da lì.</span><span class="sxs-lookup"><span data-stu-id="ee502-106">This vendor has a warehouse in Italy and ships the items from there.</span></span> <span data-ttu-id="ee502-107">Questa consegna deve essere dichiarata in Intrastat.</span><span class="sxs-lookup"><span data-stu-id="ee502-107">This delivery must be reported in the Intrastat.</span></span> <span data-ttu-id="ee502-108">Lo stesso comportamento è valido per i resi dei clienti.</span><span class="sxs-lookup"><span data-stu-id="ee502-108">The same behavior is valid for customer returns.</span></span>
+<span data-ttu-id="ee502-109">Questa procedura si applica a tutti i paesi europei.</span><span class="sxs-lookup"><span data-stu-id="ee502-109">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="ee502-110">L'attività è stata creata utilizzando la società di dati dimostrativi DEMF con un indirizzo principale in Germania.</span><span class="sxs-lookup"><span data-stu-id="ee502-110">The task was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="ee502-111">Prima di poter completare questa procedura, è necessario configurare la dichiarazione Intrastat.</span><span class="sxs-lookup"><span data-stu-id="ee502-111">Before you can complete this procedure, you must configure Intrastat reporting.</span></span> <span data-ttu-id="ee502-112">Questa procedura è destinata ai contabili.</span><span class="sxs-lookup"><span data-stu-id="ee502-112">This procedure is intended for accountants.</span></span> <span data-ttu-id="ee502-113">Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.</span><span class="sxs-lookup"><span data-stu-id="ee502-113">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. <span data-ttu-id="15d34-114">Fare clic su Contabilità fornitori > Ordini fornitore > Tutti gli ordini fornitore.</span><span class="sxs-lookup"><span data-stu-id="15d34-114">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="15d34-115">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="15d34-115">Click New.</span></span>
-3. <span data-ttu-id="15d34-116">Immettere o selezionare un valore</span><span class="sxs-lookup"><span data-stu-id="15d34-116">Enter or select a value</span></span>
-    * <span data-ttu-id="15d34-117">Selezionare, ad esempio, DE-001.</span><span class="sxs-lookup"><span data-stu-id="15d34-117">For example, select DE-001.</span></span> <span data-ttu-id="15d34-118">Tale fornitore dispone di un indirizzo commerciale tedesco.</span><span class="sxs-lookup"><span data-stu-id="15d34-118">This vendor has a German business address.</span></span>  
-4. <span data-ttu-id="15d34-119">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="15d34-119">Click OK.</span></span>
-5. <span data-ttu-id="15d34-120">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="15d34-120">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="15d34-121">Nel campo Numero articolo immettere o selezionare il valore D0001.</span><span class="sxs-lookup"><span data-stu-id="15d34-121">In the Item number field, enter or select a value D0001.</span></span>
-7. <span data-ttu-id="15d34-122">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="15d34-122">Click Save.</span></span>
-8. <span data-ttu-id="15d34-123">Nel riquadro azioni fare clic su Ricevi.</span><span class="sxs-lookup"><span data-stu-id="15d34-123">On the Action Pane, click Receive.</span></span>
-9. <span data-ttu-id="15d34-124">Fare clic su Dettagli trasporto.</span><span class="sxs-lookup"><span data-stu-id="15d34-124">Click Transportation details.</span></span>
-10. <span data-ttu-id="15d34-125">Nel campo Data/ora carico immettere una data e un'ora.</span><span class="sxs-lookup"><span data-stu-id="15d34-125">In the Loading date and time field, enter a date and time.</span></span>
-11. <span data-ttu-id="15d34-126">Fare clic su Aggiungi indirizzo.</span><span class="sxs-lookup"><span data-stu-id="15d34-126">Click Add address.</span></span>
-12. <span data-ttu-id="15d34-127">Fare clic su Nuovo quindi creare il nuovo indirizzo con scopo Carico.</span><span class="sxs-lookup"><span data-stu-id="15d34-127">Click New and create new address with purpose Lading.</span></span>
-13. <span data-ttu-id="15d34-128">Digitare 'Italiano' nel campo Nome o Descrizione.</span><span class="sxs-lookup"><span data-stu-id="15d34-128">In the Name or description field, type 'Italian'.</span></span>
-14. <span data-ttu-id="15d34-129">Selezionare il valore Carico.</span><span class="sxs-lookup"><span data-stu-id="15d34-129">Select Lading as the value.</span></span>
-    * <span data-ttu-id="15d34-130">Tenere presente che lo scopo dell'indirizzo deve esse Carico.</span><span class="sxs-lookup"><span data-stu-id="15d34-130">Note that that address purpose must be Lading.</span></span>  
-15. <span data-ttu-id="15d34-131">Nel campo Paese immettere o selezionare un valore ITA.</span><span class="sxs-lookup"><span data-stu-id="15d34-131">In the Country/region field, enter or select a value ITA.</span></span>
-16. <span data-ttu-id="15d34-132">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="15d34-132">Click Save.</span></span>
-17. <span data-ttu-id="15d34-133">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="15d34-133">Close the page.</span></span>
-18. <span data-ttu-id="15d34-134">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="15d34-134">Click Save.</span></span>
-    * <span data-ttu-id="15d34-135">Verificare che l'indirizzo di carico sia corretto.</span><span class="sxs-lookup"><span data-stu-id="15d34-135">Verify that the lading address is correct.</span></span>  
-19. <span data-ttu-id="15d34-136">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="15d34-136">Close the page.</span></span>
-20. <span data-ttu-id="15d34-137">Nel riquadro azioni fare clic su Acquisti.</span><span class="sxs-lookup"><span data-stu-id="15d34-137">On the Action Pane, click Purchase.</span></span>
-21. <span data-ttu-id="15d34-138">Fare clic su Conferma.</span><span class="sxs-lookup"><span data-stu-id="15d34-138">Click Confirm.</span></span>
-22. <span data-ttu-id="15d34-139">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="15d34-139">On the Action Pane, click Invoice.</span></span>
-23. <span data-ttu-id="15d34-140">Fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="15d34-140">Click Invoice.</span></span>
-24. <span data-ttu-id="15d34-141">Digitare un valore nel campo Numero.</span><span class="sxs-lookup"><span data-stu-id="15d34-141">In the Number field, type a value.</span></span>
-25. <span data-ttu-id="15d34-142">Immettere una data nel campo Data fattura.</span><span class="sxs-lookup"><span data-stu-id="15d34-142">In the Invoice date field, enter a date.</span></span>
-26. <span data-ttu-id="15d34-143">Fare clic su Predefinito da: Quantità entrata prodotti per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="15d34-143">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
-27. <span data-ttu-id="15d34-144">Nel campo Quantità predefinita per le righe, selezionare 'Quantità ordinata'.</span><span class="sxs-lookup"><span data-stu-id="15d34-144">In the Default quantity for lines field, select 'Ordered quantity'.</span></span>
-28. <span data-ttu-id="15d34-145">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="15d34-145">Click OK.</span></span>
-29. <span data-ttu-id="15d34-146">Fare clic su Dettagli trasporto.</span><span class="sxs-lookup"><span data-stu-id="15d34-146">Click Transportation details.</span></span>
-    * <span data-ttu-id="15d34-147">Verificare che le merci siano state spedite dall'Italia.</span><span class="sxs-lookup"><span data-stu-id="15d34-147">Verify that goods were shipped from Italy.</span></span> <span data-ttu-id="15d34-148">Se necessario, è possibile modificare i dettagli di carico.</span><span class="sxs-lookup"><span data-stu-id="15d34-148">If necessary, you can edit the lading details.</span></span>  
-30. <span data-ttu-id="15d34-149">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="15d34-149">Close the page.</span></span>
-31. <span data-ttu-id="15d34-150">Fare clic su Registra.</span><span class="sxs-lookup"><span data-stu-id="15d34-150">Click Post.</span></span>
-32. <span data-ttu-id="15d34-151">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="15d34-151">Close the page.</span></span>
-33. <span data-ttu-id="15d34-152">Passare a Imposta > Dichiarazioni > Commercio estero > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="15d34-152">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
-34. <span data-ttu-id="15d34-153">Fare clic su Trasferisci.</span><span class="sxs-lookup"><span data-stu-id="15d34-153">Click Transfer.</span></span>
-35. <span data-ttu-id="15d34-154">Selezionare Sì nel campo Fattura fornitore.</span><span class="sxs-lookup"><span data-stu-id="15d34-154">Select Yes in the Vendor invoice field.</span></span>
-36. <span data-ttu-id="15d34-155">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="15d34-155">Click OK.</span></span>
-37. <span data-ttu-id="15d34-156">Fare clic sulla scheda Generale.</span><span class="sxs-lookup"><span data-stu-id="15d34-156">Click the General tab.</span></span>
-    * <span data-ttu-id="15d34-157">Individuare una riga creata di recente e verificare che il mittente abbia spedito le merci dall'Italia.</span><span class="sxs-lookup"><span data-stu-id="15d34-157">Find a newly created line and verify that the sender shipped the goods from Italy.</span></span>  
+1. <span data-ttu-id="ee502-114">Fare clic su Contabilità fornitori > Ordini fornitore > Tutti gli ordini fornitore.</span><span class="sxs-lookup"><span data-stu-id="ee502-114">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="ee502-115">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ee502-115">Click New.</span></span>
+3. <span data-ttu-id="ee502-116">Immettere o selezionare un valore</span><span class="sxs-lookup"><span data-stu-id="ee502-116">Enter or select a value</span></span>
+    * <span data-ttu-id="ee502-117">Selezionare, ad esempio, DE-001.</span><span class="sxs-lookup"><span data-stu-id="ee502-117">For example, select DE-001.</span></span> <span data-ttu-id="ee502-118">Tale fornitore dispone di un indirizzo commerciale tedesco.</span><span class="sxs-lookup"><span data-stu-id="ee502-118">This vendor has a German business address.</span></span>  
+4. <span data-ttu-id="ee502-119">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="ee502-119">Click OK.</span></span>
+5. <span data-ttu-id="ee502-120">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ee502-120">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="ee502-121">Nel campo Numero articolo immettere o selezionare il valore D0001.</span><span class="sxs-lookup"><span data-stu-id="ee502-121">In the Item number field, enter or select a value D0001.</span></span>
+7. <span data-ttu-id="ee502-122">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ee502-122">Click Save.</span></span>
+8. <span data-ttu-id="ee502-123">Nel riquadro azioni fare clic su Ricevi.</span><span class="sxs-lookup"><span data-stu-id="ee502-123">On the Action Pane, click Receive.</span></span>
+9. <span data-ttu-id="ee502-124">Fare clic su Dettagli trasporto.</span><span class="sxs-lookup"><span data-stu-id="ee502-124">Click Transportation details.</span></span>
+10. <span data-ttu-id="ee502-125">Nel campo Data/ora carico immettere una data e un'ora.</span><span class="sxs-lookup"><span data-stu-id="ee502-125">In the Loading date and time field, enter a date and time.</span></span>
+11. <span data-ttu-id="ee502-126">Fare clic su Aggiungi indirizzo.</span><span class="sxs-lookup"><span data-stu-id="ee502-126">Click Add address.</span></span>
+12. <span data-ttu-id="ee502-127">Fare clic su Nuovo quindi creare il nuovo indirizzo con scopo Carico.</span><span class="sxs-lookup"><span data-stu-id="ee502-127">Click New and create new address with purpose Lading.</span></span>
+13. <span data-ttu-id="ee502-128">Digitare 'Italiano' nel campo Nome o Descrizione.</span><span class="sxs-lookup"><span data-stu-id="ee502-128">In the Name or description field, type 'Italian'.</span></span>
+14. <span data-ttu-id="ee502-129">Selezionare il valore Carico.</span><span class="sxs-lookup"><span data-stu-id="ee502-129">Select Lading as the value.</span></span>
+    * <span data-ttu-id="ee502-130">Tenere presente che lo scopo dell'indirizzo deve esse Carico.</span><span class="sxs-lookup"><span data-stu-id="ee502-130">Note that that address purpose must be Lading.</span></span>  
+15. <span data-ttu-id="ee502-131">Nel campo Paese immettere o selezionare un valore ITA.</span><span class="sxs-lookup"><span data-stu-id="ee502-131">In the Country/region field, enter or select a value ITA.</span></span>
+16. <span data-ttu-id="ee502-132">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ee502-132">Click Save.</span></span>
+17. <span data-ttu-id="ee502-133">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ee502-133">Close the page.</span></span>
+18. <span data-ttu-id="ee502-134">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ee502-134">Click Save.</span></span>
+    * <span data-ttu-id="ee502-135">Verificare che l'indirizzo di carico sia corretto.</span><span class="sxs-lookup"><span data-stu-id="ee502-135">Verify that the lading address is correct.</span></span>  
+19. <span data-ttu-id="ee502-136">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ee502-136">Close the page.</span></span>
+20. <span data-ttu-id="ee502-137">Nel riquadro azioni fare clic su Acquisti.</span><span class="sxs-lookup"><span data-stu-id="ee502-137">On the Action Pane, click Purchase.</span></span>
+21. <span data-ttu-id="ee502-138">Fare clic su Conferma.</span><span class="sxs-lookup"><span data-stu-id="ee502-138">Click Confirm.</span></span>
+22. <span data-ttu-id="ee502-139">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="ee502-139">On the Action Pane, click Invoice.</span></span>
+23. <span data-ttu-id="ee502-140">Fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="ee502-140">Click Invoice.</span></span>
+24. <span data-ttu-id="ee502-141">Digitare un valore nel campo Numero.</span><span class="sxs-lookup"><span data-stu-id="ee502-141">In the Number field, type a value.</span></span>
+25. <span data-ttu-id="ee502-142">Immettere una data nel campo Data fattura.</span><span class="sxs-lookup"><span data-stu-id="ee502-142">In the Invoice date field, enter a date.</span></span>
+26. <span data-ttu-id="ee502-143">Fare clic su Predefinito da: Quantità entrata prodotti per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="ee502-143">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
+27. <span data-ttu-id="ee502-144">Nel campo Quantità predefinita per le righe, selezionare 'Quantità ordinata'.</span><span class="sxs-lookup"><span data-stu-id="ee502-144">In the Default quantity for lines field, select 'Ordered quantity'.</span></span>
+28. <span data-ttu-id="ee502-145">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="ee502-145">Click OK.</span></span>
+29. <span data-ttu-id="ee502-146">Fare clic su Dettagli trasporto.</span><span class="sxs-lookup"><span data-stu-id="ee502-146">Click Transportation details.</span></span>
+    * <span data-ttu-id="ee502-147">Verificare che le merci siano state spedite dall'Italia.</span><span class="sxs-lookup"><span data-stu-id="ee502-147">Verify that goods were shipped from Italy.</span></span> <span data-ttu-id="ee502-148">Se necessario, è possibile modificare i dettagli di carico.</span><span class="sxs-lookup"><span data-stu-id="ee502-148">If necessary, you can edit the lading details.</span></span>  
+30. <span data-ttu-id="ee502-149">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ee502-149">Close the page.</span></span>
+31. <span data-ttu-id="ee502-150">Fare clic su Registra.</span><span class="sxs-lookup"><span data-stu-id="ee502-150">Click Post.</span></span>
+32. <span data-ttu-id="ee502-151">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ee502-151">Close the page.</span></span>
+33. <span data-ttu-id="ee502-152">Passare a Imposta > Dichiarazioni > Commercio estero > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="ee502-152">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+34. <span data-ttu-id="ee502-153">Fare clic su Trasferisci.</span><span class="sxs-lookup"><span data-stu-id="ee502-153">Click Transfer.</span></span>
+35. <span data-ttu-id="ee502-154">Selezionare Sì nel campo Fattura fornitore.</span><span class="sxs-lookup"><span data-stu-id="ee502-154">Select Yes in the Vendor invoice field.</span></span>
+36. <span data-ttu-id="ee502-155">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="ee502-155">Click OK.</span></span>
+37. <span data-ttu-id="ee502-156">Fare clic sulla scheda Generale.</span><span class="sxs-lookup"><span data-stu-id="ee502-156">Click the General tab.</span></span>
+    * <span data-ttu-id="ee502-157">Individuare una riga creata di recente e verificare che il mittente abbia spedito le merci dall'Italia.</span><span class="sxs-lookup"><span data-stu-id="ee502-157">Find a newly created line and verify that the sender shipped the goods from Italy.</span></span>  
 
 
