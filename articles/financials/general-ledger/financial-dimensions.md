@@ -3,7 +3,7 @@ title: Dimensioni finanziarie
 description: Questo argomento illustra i vari tipi di dimensioni finanziarie e come impostarle.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 08/24/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.search.scope: Core, Operations
 ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/26/2018
 
 Questo argomento spiega i vari tipi di dimensioni finanziarie e come impostarle.
 
-Utilizzare la pagina **Dimensioni finanziarie** per creare le dimensioni finanziarie che è possibile utilizzare come segmenti di conto per i piani dei conti. Sono disponibili due tipi di dimensioni finanziarie: dimensioni personalizzate e dimensioni supportate da un'entità. Le dimensioni personalizzate sono condivise tra le persone giuridiche e i valori sono immessi e gestiti dagli utenti. Per le dimensioni supportate da un'entità, i valori sono definiti in altre aree del sistema, ad esempio le entità Clienti o Punti vendita. Alcune dimensioni supportate da entità sono condivise tra le persone giuridiche, mentre alcune sono specifiche della società. 
+Utilizzare la pagina **Dimensioni finanziarie** per creare le dimensioni finanziarie che è possibile utilizzare come segmenti di conto per i piani dei conti. Sono disponibili due tipi di dimensioni finanziarie: dimensioni personalizzate e dimensioni supportate da un'entità. Le dimensioni personalizzate sono condivise tra le persone giuridiche e i valori sono immessi e gestiti dagli utenti. Per le dimensioni supportate da un'entità, i valori sono definiti in altre aree del sistema, ad esempio nelle entità Clienti o Punti vendita. Alcune dimensioni supportate da entità sono condivise tra le persone giuridiche, mentre alcune sono specifiche della società.
 
-Dopo avere creato le dimensioni finanziarie, utilizzare la pagina **Valori di dimensione finanziaria** per assegnare proprietà aggiuntive a ciascuna dimensione finanziaria. 
+Dopo avere creato le dimensioni finanziarie, utilizzare la pagina **Valori di dimensione finanziaria** per assegnare proprietà aggiuntive a ciascuna dimensione finanziaria.
 
-È possibile utilizzare le dimensioni finanziarie per rappresentare le persone giuridiche. Non è necessario creare le persone giuridiche in Microsoft Dynamics 365 for Finance and Operations. Tuttavia, le dimensioni finanziarie non sono progettate per soddisfare i requisiti aziendali o operativi delle persone giuridiche. La funzionalità di contabilizzazione interunità in Finance and Operations è stata progettata per gestire solo le voci contabili create da ciascuna transazione. 
+È possibile utilizzare le dimensioni finanziarie per rappresentare le persone giuridiche. Non è necessario creare le persone giuridiche in Microsoft Dynamics 365 for Finance and Operations. Tuttavia, le dimensioni finanziarie non sono progettate per soddisfare i requisiti aziendali o operativi delle persone giuridiche. La funzionalità di contabilizzazione interunità in Finance and Operations è stata progettata per gestire solo le voci contabili create da ciascuna transazione.
 
 Prima di impostare le dimensioni finanziarie come persone giuridiche, valutare i processi aziendali nelle seguenti aree per determinare se questa impostazione verrà eseguita per l'organizzazione:
 
@@ -51,7 +51,9 @@ Di seguito sono riportate alcune limitazioni:
 
 ## <a name="custom-dimensions"></a>Dimensioni personalizzate
 
-Per creare una dimensione finanziaria definita dall'utente, nel campo **Usa valori da** selezionare **&lt; Dimensione personalizzata &gt;**. È anche possibile specificare una maschera conto per limitare la quantità e il tipo di informazioni che è possibile immettere per i valori di dimensione. È possibile immettere caratteri rimanenti uguali per ciascun valore di dimensione, ad esempio le lettere o un trattino (-). È inoltre possibile immettere i segni di numero(\#) ed e commerciale (&) come segnaposto per le lettere e i numeri che cambieranno ogni volta che un valore di dimensione viene creato. Utilizzare un segno di numero (\#) come segnaposto per un numero e la e commerciale  (&) come segnaposto per una lettera. Il campo per la maschera formato è disponibile solo se si seleziona **&lt; Dimensione personalizzata &gt;** nel campo **Usa valori da**.
+Per creare una dimensione finanziaria definita dall'utente, nel campo **Usa valori da** selezionare **&lt;&nbsp;Dimensione personalizzata&nbsp;&gt;**.
+
+È anche possibile specificare una maschera conto per limitare la quantità e il tipo di informazioni che è possibile immettere per i valori di dimensione. È possibile immettere caratteri rimanenti uguali per ciascun valore di dimensione, ad esempio le lettere o un trattino (-). È inoltre possibile immettere i segni di numero (\#) ed e commerciale (&) come segnaposto per i caratteri che cambieranno ogni volta che un valore di dimensione viene creato. Utilizzare un segno di numero (\#) come segnaposto per un numero e la e commerciale  (&) come segnaposto per una lettera. Il campo per la maschera formato è disponibile solo se si seleziona **&lt;&nbsp;Dimensione personalizzata&nbsp;&gt;** nel campo **Usa valori da**.
 
 **Esempio**
 
@@ -63,7 +65,7 @@ Per creare una dimensione finanziaria supportata da un'entità, nel campo **Usa 
 
 ## <a name="activating-dimensions"></a>Attivazione di dimensioni
 
-Se si attiva una dimensione finanziaria, la tabella viene aggiornata in modo da includere il nome della dimensione finanziaria. Le dimensioni eliminate vengono rimosse. È possibile immettere i valori delle dimensioni prima di attivare una dimensione finanziaria. Tuttavia, una dimensione finanziaria non può essere utilizzata finché non viene attivata. Non è possibile ad esempio aggiungere una dimensione finanziaria a una struttura dei conti fino a quando la dimensione non sia stata attivata. Quando si fa clic su **Attiva**, tutte le dimensioni vengono aggiornate e indica le modifiche dello stato. 
+Se si attiva una dimensione finanziaria, la tabella viene aggiornata in modo da includere il nome della dimensione finanziaria. Le dimensioni eliminate vengono rimosse. È possibile immettere i valori delle dimensioni prima di attivare una dimensione finanziaria. Tuttavia, una dimensione finanziaria non può essere utilizzata finché non viene attivata. Non è possibile ad esempio aggiungere una dimensione finanziaria a una struttura dei conti fino a quando la dimensione non sia stata attivata. Quando si seleziona **Attiva**, tutte le dimensioni vengono aggiornate e vengono mostrate le modifiche dello stato.
 
 ## <a name="translations"></a>Traduzioni
 
@@ -84,8 +86,41 @@ Per contribuire a garantire l'integrità referenziale dei dati, le dimensioni fi
 
 Se uno dei criteri viene soddisfatto, non sarà possibile eliminare la dimensione finanziaria.
 
+## <a name="default-dimension-values"></a>Valori di dimensione predefiniti
+
+È possibile utilizzare i valori dei record di dati master, ad esempio cliente e fornitore, come valori predefiniti nelle nuove dimensioni. Quando vengono create le nuove dimensioni, l'ID record master viene immesso nei valori delle dimensioni per i record di dati master. Quando ad esempio si crea un nuovo cliente, l'ID cliente viene immesso nella dimensione del cliente. Quando si creano ordini cliente, fatture o altri documenti che necessitano di un ID cliente, vengono utilizzate le regole delle impostazioni predefinite esistenti e l'ID cliente viene aggiunto al documento.
+
+Questa funzionalità è controllata da un'impostazione nella dimensione. Questa impostazione è denominata **Copiare i valori nella dimensione per ogni nuovo NomeDimensione creato**, dove **NomeDimensione** è il nome della dimensione. Per impostazione predefinita, la funzionalità è disattivata. Tuttavia, è possibile attivarla in qualsiasi momento.
+
+Se esistono già record per la dimensione, i record master vengono aggiornati quando viene attivata la funzionalità. Tuttavia, i documenti e le transazioni esistenti non vengono aggiornati.
+
+## <a name="derived-dimensions"></a>Dimensioni derivate
+
+È possibile configurare una dimensione in modo che le informazioni per altre dimensioni vengano inserite automaticamente quando si immette la dimensione in un documento. Ad esempio, se si immette il centro di costo 10, un valore **20** può essere inserito automaticamente nella dimensione del reparto.
+
+È possibile impostare i valori derivati nella pagina delle dimensioni.
+
+1. Selezionare una dimensione e quindi selezionare **Dimensioni derivate**.
+
+    La pagina **Dimensioni derivate** include una griglia. Il segmento di dimensione selezionato è la prima colonna nella griglia.
+
+2. Aggiungere i segmenti che devono essere derivati. Ogni segmento appare come una colonna.
+
+Immettere le combinazioni di dimensioni che devono essere derivate dalla dimensione nella prima colonna. Ad esempio, per utilizzare il centro di costo come dimensione da cui vengono derivati il reparto e l'ubicazione, immettere centro di costo 10, reparto 20 e ubicazione 30. In seguito, quando si immette il centro di costo 10 in un record master o in una pagina di transazione, il reparto 20 e l'ubicazione 30 vengono immessi per impostazione predefinita.
+
+Il processo delle dimensioni derivate non sostituisce i valori esistenti per le dimensioni derivate. Se ad esempio si immette il centro di costo 10 e non si immettono altre dimensioni, il reparto 20 e l'ubicazione 30 vengono immessi per impostazione predefinita. Tuttavia, se si modifica il centro di costo, i valori che sono già stati stabiliti non vengono modificati. Di conseguenza, è possibile impostare le dimensioni predefinite nei record master e le dimensioni non verranno modificate dalle dimensioni derivate.
+
+### <a name="derived-dimensions-and-entities"></a>Dimensioni derivate ed entità
+
+È possibile impostare i segmenti e i valori di dimensioni derivate tramite le entità.
+
+- L'entità dimensioni derivate imposta le dimensioni moventi e i segmenti utilizzati per tali dimensioni.
+- L'entità DerivedDimensionValue consente di importare i valori che dovrebbero essere derivati per ogni dimensione movente.
+
+Quando si utilizza un'entità per l'importazione dei dati, se tale entità importa dimensioni, vengono applicate le regole delle dimensioni derivate durante l'importazione a meno che l'entità non sostituisca specificamente tali dimensioni.
 
 Per ulteriori informazioni, vedere i seguenti argomenti:
+
 - [Definire dimensioni finanziarie](tasks/define-financial-dimensions.md)
 - [Gestire modelli predefiniti di dimensione finanziaria](tasks/maintain-financial-dimension-default-templates.md)
 

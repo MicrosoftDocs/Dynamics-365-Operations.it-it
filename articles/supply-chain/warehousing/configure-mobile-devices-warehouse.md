@@ -1,9 +1,9 @@
 ---
-title: Configurare i dispositivi mobili per il lavoro magazzino
-description: Questo articolo descrive come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
+title: Impostare i dispositivi mobili per il lavoro di magazzino
+description: Viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurare i dispositivi mobili per il lavoro magazzino
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo descrive come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
+Viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 
-**Nota:** questo articolo si applica alle funzionalità in Gestione magazzino e non viene applicato alle funzionalità in Gestione articoli. Le voci di menu visualizzate nei menu in un dispositivo mobile di magazzino vengono configurate nella pagina **Voci di menu del dispositivo mobile**. Poiché le voci di menu possono essere immesse in menu diversi, è semplice configurare le strutture di menu in modo da esporre solo tipi specifici di lavoro a utenti specifici. Le voci di menu possono essere configurate per eseguire le attività indicate di seguito.
+**Nota:** questo argomento si applica alle funzionalità in Gestione magazzino. e non viene applicato alle funzionalità in Gestione articoli. Le voci di menu visualizzate nei menu in un dispositivo mobile di magazzino vengono configurate nella pagina **Voci di menu del dispositivo mobile**. Poiché le voci di menu possono essere immesse in menu diversi, è semplice configurare le strutture di menu in modo da esporre solo tipi specifici di lavoro a utenti specifici. Le voci di menu possono essere configurate per eseguire le attività indicate di seguito.
 
 -   Elaborare una richiesta di informazioni o eseguire un'attività, ad esempio stampare un'etichetta, generare numeri di identificazione, avviare un ordine di produzione o trovare rapidamente le informazioni sugli articoli in un'ubicazione.
 -   Creare un lavoro che viene eseguito tramite un altro processo. Ad esempio, la ricezione di un articolo per un ordine fornitore può creare il lavoro di stoccaggio per un altro lavoratore.
@@ -193,7 +193,7 @@ Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è poss
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configurare voci di menu per elaborare il lavoro esistente
-Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile impostare le voci di menu per elaborare lavoro che è già stato creato. Impostare il campo **Modalità** su **Lavoro** e selezionare l'opzione **Utilizza lavoro esistente**. Alcune opzioni aggiuntive diventano disponibili nella scheda **Generale**. È possibile controllare l'accesso alla voce di menu assegnando una o più classi di lavoro nella scheda dettaglio **Classe lavoro**. Le classi di lavoro definiscono il lavoro che la voce di menu può elaborare. La classe di lavoro può anche essere utilizzata per concedere l'accesso a ruoli utente specifici o per separare l'elaborazione per diversi tipi di transazioni. Nella seguente tabella vengono illustrate le opzioni disponibili.
+Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile impostare le voci di menu per elaborare lavoro che è già stato creato. Impostare il campo **Modalità** su **Lavoro** e selezionare l'opzione **Utilizza lavoro esistente**. Alcune opzioni aggiuntive diventano disponibili nella scheda **Generale**. È possibile controllare l'accesso alla voce di menu assegnando una o più classi di lavoro nella scheda dettaglio **Classe lavoro**. Le classi di lavoro definiscono il lavoro che la voce di menu può elaborare. La classe di lavoro può anche essere utilizzata per concedere l'accesso a ruoli utente specifici o per separare l'elaborazione per diversi tipi di transazioni. Nella seguente tabella vengono illustrate le opzioni disponibili. L'opzione può essere scelta nel campo **Diretto da** della pagina **Voci di menu del dispositivo mobile**. 
 
 <table>
 
@@ -247,6 +247,10 @@ Questa opzione è utile, ad esempio, quando più pallet sono approntati per un c
 <tr class="even">
 <td>Raggruppamento conteggio ciclo</td>
 <td>Il lavoratore seleziona una zona, un pool di lavoro o un'ubicazione e in Microsoft Dynamics 365 for Finance and Operations il lavoro viene assegnato in base alla selezione. Se si seleziona questa opzione, è inoltre possibile fare clic su <strong>Conteggio ciclo</strong> nel riquadro azioni per specificare informazioni aggiuntive per visualizzare e specificare il numero di volte in cui il lavoratore deve ripetere il conteggio se viene rilevata una differenza.</td>
+</tr>
+ <tr class="odd">
+<td>Caricamento di trasporto</td>
+<td>Questa funzionalità consente a più addetti al magazzino di caricare le scorte dallo stesso carico o da carichi diversi nello stesso camion, con carichi che sono spediti completamente o parzialmente.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ Nella seguente tabella sono descritte queste opzioni.
 <td>Selezionare questa opzione per consentire ai lavoratori di combinare il lavoro di un ordine cliente o di un carico in una singola unità di lavoro. Un lavoratore può eseguire il lavoro solo per l'ordine cliente o il carico. Ad esempio, questa opzione è utile quando è necessario aumentare una quantità per un ordine cliente dopo che il carico, la spedizione e il lavoro sono stati creati per l'ordine cliente. Questa opzione è disponibile se la voce di menu utilizza il lavoro esistente e il lavoro è indirizzato dall'utente o dal sistema.</td>
 </tr>
 <tr class="even">
-<td>Nessuno</td>
+<td>Preleva batch meno recente</td>
 <td>Indicare se il lavoratore deve prelevare per primo il batch meno recente in un'ubicazione. Sono disponibili le seguenti opzioni:
 <ul>
 <li><strong>Nessuno</strong>: il lavoratore può prelevare qualsiasi batch nell'ubicazione. Il lavoratore non riceverà alcun messaggio.</li>

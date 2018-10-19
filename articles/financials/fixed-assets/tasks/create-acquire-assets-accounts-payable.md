@@ -3,30 +3,31 @@ title: "Creare e acquisire cespiti dalla contabilità fornitori"
 description: "In questa guida attività verrà illustrata la creazione e l'acquisizione di un cespite con il processo di acquisto."
 author: saraschi2
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9149378047fc22efbd401b7af86df07c1403e4f5
-ms.openlocfilehash: cfe920b2ef493ab3ae36a9557001086ed99c3e4e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e6c36338cc67855c79ec97d88bb8b633417b85c7
 ms.contentlocale: it-it
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Creare e acquisire cespiti dalla contabilità fornitori
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In questa guida attività verrà illustrata la creazione e l'acquisizione di un cespite con il processo di acquisto. Vengono utilizzati l'addetto alla contabilità fornitori e il contabile e la società dimostrativa USMF.
+In questa guida attività verrà illustrata la creazione e l'acquisizione di un cespite con il processo di acquisto.  Vengono utilizzati l'addetto alla contabilità fornitori e il contabile e la società dimostrativa USMF.
 
 
 ## <a name="set-fixed-assets-parameters"></a>Impostare i parametri per i cespiti

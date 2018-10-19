@@ -3,7 +3,7 @@ title: Genera report finanziari
 description: In questo argomento sono riportate informazioni sulla generazione di un report finanziario.
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -32,19 +32,16 @@ ms.lasthandoff: 08/13/2018
 
 In questo argomento sono riportate informazioni sulla generazione di un report finanziario.
 
-Per generare un report, aprire la definizione di report e quindi fare clic sul pulsante Genera nella barra degli strumenti. La finestra Stato coda report si aprirà e indicherà l'ubicazione del report nella coda. Per impostazione predefinita, il report generato viene aperto nel Visualizzatore web.
-
-> [!NOTE]
-> È possibile generare report solo in cartelle e ubicazioni per cui si dispone delle autorizzazioni di accesso.
+Per generare un report, aprire la definizione di report e quindi fare clic sul pulsante Genera nella barra degli strumenti. La finestra Stato coda report si aprirà e indicherà l'ubicazione del report nella coda. Per impostazione predefinita, il report generato si aprirà nel Visualizzatore Web.
 
 Per la generazione di report sono disponibili le opzioni seguenti:
 
 - Impostare una programmazione per generare un report o un gruppo di report automaticamente
 - Verificare la presenza di conti o dati mancanti in un report e convalidare l'accuratezza di un report
 
-Quando si genera un report, vengono usate le opzioni specificate nelle schede di Definizione di report . La scheda Output e distribuzione consente di specificare un'ubicazione della raccolta report, che fornisce un modo semplice di condividere il report.
+Quando si genera un report, vengono usate le opzioni specificate nelle schede di Definizione di report .
 
-## <a name="generate-a-financial-report"></a>Genera un report finanziario
+## <a name="generate-a-financial-report"></a>Generare un report finanziario
 
 Per generare un report finanziario con Microsoft Dynamics 365 for Finance and Operations, passare a **Contabilità generale** \> **Richieste di informazioni e report** \> **Report finanziari**.
 
@@ -55,10 +52,7 @@ Dopo avere generato il report, questo sarà disponibile nella sezione **Report**
 
 È possibile selezionare **Visualizza** o **Elimina** per visualizzare o eliminare il report.
 
-Per generare un report utilizzando **Progettazione report**, aprire la definizione del report e quindi fare clic sul pulsante Genera nella barra degli strumenti. La finestra Stato coda report si aprirà e indicherà l'ubicazione del report nella coda. Per impostazione predefinita, il report generato viene aperto nel Visualizzatore web.
-
-> [!NOTE]
-> È possibile generare report solo in cartelle e ubicazioni per cui si dispone delle autorizzazioni di accesso.
+Per generare un report utilizzando **Progettazione report**, aprire la definizione del report e quindi fare clic sul pulsante Genera nella barra degli strumenti. La finestra Stato coda report si aprirà e indicherà l'ubicazione del report nella coda. Per impostazione predefinita, il report generato si aprirà nel Visualizzatore Web.
 
 ## <a name="schedule-report-generation"></a>Pianificare la generazione di report
 Molte società dispongono di un set di report di base che vengono eseguiti a intervalli pianificati per l'allineamento con i processi aziendali. È possibile programmare un report in modo che sia generato regolarmente, ad esempio a frequenza giornaliera, settimanale, mensile o annuale. Può trattarsi di un singolo report o di un gruppo di report in cui sono incluse molte società. È necessario immettere le credenziali per ognuna della società specificate, ad esempio quelle incluse in una definizione di albero gerarchico. Se le credenziali non sono valide, nel report vengono visualizzate solo le informazioni per cui si dispone delle autorizzazioni di accesso, ad esempio la società a cui si è connessi al momento. Le informazioni di output vengono lette innanzitutto dal gruppo di report e quindi dai singoli report.

@@ -3,7 +3,7 @@ title: DBA modello
 description: Una distinta base (DBA) modello fornisce un elenco standardizzato di componenti relativi a un oggetto sui quali vengono eseguiti regolarmente interventi di assistenza.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/01/2018
+ms.date: 09/19/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6e3a16b9938f6d4222e0a95078356f457e71a1bb
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: f9c61ecd79f38301f46e3c21a33ec2801f33d19f
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -105,7 +105,7 @@ Per utilizzare le DBA modello, è necessario impostare due sequenze numeriche. I
 
 
 > [!NOTE]
-> <P>Le sequenze numeriche vengono utilizzate in tutte le aree funzionali di Microsoft Dynamics AX per allocare gli identificatori ai record che li richiedono. Prima di poter assegnare una sequenza numerica a una DBA modello o a un numero di riga dello storico DBA, è necessario impostare i codici delle sequenze numeriche.</P>
+> <P>Le sequenze numeriche vengono utilizzate per allocare gli identificatori ai record che li richiedono. Prima di poter assegnare una sequenza numerica a una DBA modello o a un numero di riga dello storico DBA, è necessario impostare i codici delle sequenze numeriche.</P>
 
 
 ## <a name="set-up-number-sequences"></a>Imposta sequenze numeriche

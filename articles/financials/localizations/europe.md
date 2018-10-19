@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite le informazioni e i collegamenti alle risorse necessarie per impostare Dynamics 365 for Finance and Operations per le persone giuridiche con un indirizzo principale in Brasile. 
+In questo argomento vengono fornite le informazioni e i collegamenti alle risorse necessarie per impostare Dynamics 365 for Finance and Operations per le persone giuridiche con un indirizzo principale in Europa. 
 
 - [Titolari anticipi](emea-advance-holders.md)
  - [Transazioni dei titolari di anticipi](emea-advance-holders-transactions.md)
@@ -42,12 +42,10 @@ In questo argomento vengono fornite le informazioni e i collegamenti alle risors
 - [Dichiarazione elenco vendite UE](emea-eu-sales-list.md)
 - [Rettifiche del tasso di cambio](emea-exchange-rate-adjustments.md)
 - [Formati di file per i metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md)
-- [Integrazione servizio fiscale (ESR)](emea-fiscal-service-integration.md)
+- [Integrazione servizio fiscale (PVR)](emea-fiscal-service-integration.md)
 - [Dismissione dei cespiti per Estonia e Lituania](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Rivalutazione valuta estera](emea-foreign-currency-revaluation.md)
 - [Generare un documento di trasferimento per un trasferimento scorte interno](tasks/transfer-document-internal-inventory-transfer.md)
-- [Generare una dichiarazione Intrastat UE](tasks/eur-00002-eu-intrastat-declaration.md)
-- [Genera un report elenco vendite UE](tasks/eur-00011-eu-sales-list-report.md)
+- [Generare un report elenco vendite UE](tasks/eur-00011-eu-sales-list-report.md)
 - File ISO20022
   - [Importare file ISO20022](emea-ISO20022-file-formats.md)
   - [Importare la configurazione di addebito diretto ISO20022](tasks/import-iso20022-direct-debit-configuration.md)
@@ -58,10 +56,12 @@ In questo argomento vengono fornite le informazioni e i collegamenti alle risors
   - [Impostare un metodo di pagamento per addebito diretto ISO20022](tasks/setup-method-payment-iso20022-direct-debit.md)
   - [Impostare i clienti e i conti bancari dei clienti per gli addebiti diretti ISO20022](tasks/set-up-bank-accounts-iso20022-direct-debits.md)
   - [Impostare i fornitori e i conti bancari dei fornitori per i bonifici ISO20022](tasks/set-up-vendor-iso20022-credit-transfers.md)
-  - [Creare ed esportare i pagamenti fornitore usando il formato di pagamento ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
+  - [Creare ed esportare pagamenti fornitore usando il formato di pagamento ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Intrastat](emea-intrastat.md)
   - [Trasferire transazioni a Intrastat](tasks/transfer-transactions-intrastat.md)
-- [Report giornale di registrazione inventario](emea-set-up-report-inventory-journal-names.md)
+  - [Specificare un indirizzo di carico per una transazione intracomunitaria](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [Generare una dichiarazione Intrastat UE](tasks/eur-00002-eu-intrastat-declaration.md)
+- [Report giornale di registrazione magazzino](emea-set-up-report-inventory-journal-names.md)
 - [Scadenze di emissione fattura](emea-invoice-issue-deadline.md)
 - [Elaborazione fattura](emea-invoice-processing.md)
 - [Rilasciare un certificato di entrata UE](tasks/eur-00012-issue-eu-entry-certificate.md)
@@ -82,8 +82,6 @@ In questo argomento vengono fornite le informazioni e i collegamenti alle risors
 - [Impostare le dichiarazioni elenco vendite UE](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Impostare un formato per la distinta di pagamento per le fatture di progetto](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Impostare i firmatari per la stampa dei moduli](emea-set-up-signers-for-printing-forms.md)
-- [Impostare i documenti di trasferimento per il movimento di merci all'interno di una società](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Specificare un indirizzo di carico per una transazione intracomunitaria](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Storno](emea-storno.md)
 - [Direttive fiscali](emea-tax-directives.md)
 - [Aggiornare la modalità di visualizzazione degli importi nei report e nei documenti](emea-amount-printing-forms.md)

@@ -1,28 +1,29 @@
 --- 
-title: Mappare i componenti dei formati agli elementi del modello dati
+title: ER Mapping dei componenti del formato creato agli elementi del modello dati (novembre 2016)
 description: "Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici può eseguire il mapping di elementi del modello dati ai componenti della configurazione creazione di report elettronici (ER), che definisce un formato di documento elettronico per il dominio aziendale dei pagamenti."
 author: NickSelin
 manager: AnnBe
-ms.date: 02/27/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: e065cfbfc645bb7ac48134fe43d87bec013e8c81
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="map-the-components-of-formats-to-data-model-elements"></a>Mappare i componenti dei formati agli elementi del modello dati
+# <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Mapping dei componenti del formato creato agli elementi del modello dati (novembre 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

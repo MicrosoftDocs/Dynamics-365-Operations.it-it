@@ -1,31 +1,32 @@
 --- 
-title: Effettuare il self-service per scaricare le stazioni hardware
+title: Effettuare il self-service per scaricare la stazione hardware
 description: In questa procedura vengono descritti i passaggi per scaricare una stazione hardware predefinita.
 author: jashanno
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 6b44f1360977fd0c224d009cc8ca3c1b54f092a1
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: bd7749adbeab37c5aac7b2ca50a2610d76d98a55
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="download-hardware-stations-by-using-self-service"></a>Effettuare il self-service per scaricare le stazioni hardware
+# <a name="perform-self-service-to-download-hardware-station"></a>Effettuare il self-service per scaricare la stazione hardware
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 In questa procedura vengono descritti i passaggi per scaricare una stazione hardware predefinita. La società di dati dimostrativi utilizzata per questa procedura è USRT. È necessario creare un nuovo profilo di stazione hardware e una nuova stazione hardware prima di iniziare questa attività.
 

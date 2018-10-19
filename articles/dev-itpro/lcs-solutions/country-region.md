@@ -3,7 +3,7 @@ title: "Funzionalità per la normativa e la localizzazione"
 description: "In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità specifiche del paese."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/05/2018
+ms.date: 09/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
-ms.openlocfilehash: db18906739529e04710507ee9ff088540894171d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/05/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -101,18 +101,19 @@ Per ulteriori informazioni, vedere [Guide attività](../../fin-and-ops/get-start
         - [Lettonia](../../financials/localizations/latvia.md)
         - [Lituania](../../financials/localizations/lithuania.md)
         - [Messico](../../financials/localizations/mexico.md)
-        - [Malaysia](../../financials/localizations/malaysia.md)
+        - [Malesia](../../financials/localizations/malaysia.md)
         - [Paesi Bassi](../../financials/localizations/netherlands.md)
         - [Norvegia](../../financials/localizations/norway.md)
     :::column-end:::
     :::column:::
         - [Polonia](../../financials/localizations/poland.md)
+        - [Russia](../../financials/localizations/russia.md)
         - [Arabia Saudita](../../financials/localizations/saudi-arabia.md)
         - [Singapore](../../financials/localizations/singapore.md)
         - [Spagna](../../financials/localizations/spain.md)
         - [Svezia](../../financials/localizations/sweden.md)
         - [Svizzera](../../financials/localizations/switzerland.md)
-        - [Thailandia](../../financials/localizations/thailand.md)
+        - [Tailandia](../../financials/localizations/thailand.md)
         - [Regno Unito](../../financials/localizations/united-kingdom.md)
         - [Stati Uniti](../../financials/localizations/united-states.md)
     :::column-end:::

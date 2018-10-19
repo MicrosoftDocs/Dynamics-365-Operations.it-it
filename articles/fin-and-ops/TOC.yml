@@ -38,12 +38,18 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Criteri del ciclo di vita del software e versioni in locale
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: Fine del supporto standard per Microsoft Dynamics AX 2009 e 2012
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: Funzionalità rimosse o deprecate
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Funzionalità di AX 2012 che sono state posticipate
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Funzionalità non implementate nelle distribuzioni locali
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations versione 8.1 (ottobre 2018)
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20 (settembre 2018)
+              href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations versione 8.0 (aprile 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (marzo 2018)
@@ -456,6 +462,10 @@
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Abbinamento fatture e ordini fornitore interaziendali
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: Impostare criteri di fatture fornitore
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Registrare la fattura fornitore e associarla alla quantità ricevuta
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Panoramica dei pagamenti sicuri
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: Impostare e generare file pagamenti sicuri
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: Elaborare interessi
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: Impostare criteri di fatture fornitore
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: Registrare la fattura fornitore e associarla alla quantità ricevuta
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Creare una fattura cliente
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: Depositare pagamenti cliente
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Impostare e generare le informazioni di aging della contabilità clienti
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Copiare i clienti mediante sequenze numeriche condivise
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: Flusso di lavoro cliente
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: Pagamenti e liquidazioni
@@ -1207,7 +1215,7 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: Reimpostare il data mart dei report finanziari
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
-    - name: Funzionalità relative alle normative e alla localizzazione​
+    - name: Funzionalità per la normativa e la localizzazione​
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
         - name: Australia
@@ -1539,12 +1547,10 @@
               href: ../financials/localizations/emea-exchange-rate-adjustments.md
             - name: Formati di file per i metodi di pagamento
               href: ../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md
-            - name: Integrazione servizio fiscale (ESR)
+            - name: Integrazione servizio fiscale (PVR)
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: Dismissione dei cespiti per Estonia e Lituania
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: Rivalutazione valuta estera
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Generare un documento di trasferimento per un trasferimento scorte interno
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: Generare un report elenco vendite UE
@@ -2005,7 +2011,7 @@
               href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
             - name: Dettagli della dichiarazione IVA
               href: ../financials/localizations/emea-ltu-vat-statement-details.md
-        - name: Malaysia
+        - name: Malesia
           href: ../financials/localizations/malaysia.md
           items:
             - name: Generare il credito cliente per le vendite progetto
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: Estensione della funzionalità di dismissione del cespite
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Rivalutazione valuta estera
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Imballaggio a rendere
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Report IVA
@@ -2114,12 +2122,48 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: Rendiconto saldi fatturato
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: Russia
+          href: ../financials/localizations/russia.md
+          items:
+            - name: Titolari anticipi
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: Crea un titolare di anticipi
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: Operazioni giornaliere per titolari di anticipi
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: Cespiti
+              items:
+                - name: Acquisizione di cespiti e messa in funzione
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Creare e registrare giornali di registrazione budget per le acquisizioni di cespiti
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: Contabilità cespiti
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: Rivalutazione valuta cespiti
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Smontaggio parziale cespiti (liquidazione)
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: Impostazione ed elaborazione ordini di pagamento
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: Impostazione dei tassi di cambio per le transazioni in valuta
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: Anteprima transazioni contabili
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: Impostazione funzionari
+              href: ../financials/localizations/rus-officials.md
+            - name: Impostazione conti bancari
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: Imposta sul valore aggiunto (IVA) per gli agenti fiscali
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: Impostazione controllo delle dimensioni per le liquidazioni
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: Arabia Saudita
           href: ../financials/localizations/saudi-arabia.md
           items:
             - name: IVA
               href: ../financials/localizations/apac-sau-sales-tax.md
-            - name: Dichiarazione Zakat per Arabia Saudita
+            - name: Dichiarazione Zakat per l'Arabia Saudita
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Singapore
           href: ../financials/localizations/singapore.md
@@ -2133,7 +2177,9 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Opzioni effetto attivo
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
-            - name: IVA condizionata
+            - name: Calcolare le date di scadenza e riferire sul periodo medio dei pagamenti
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
+            - name: IVA condizionale
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: Fatturazione note di accredito
               href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
@@ -2169,7 +2215,7 @@
           items:
             - name: Importare i pagamenti cliente in ESR
               href: ../financials/localizations/emea-che-esr-customer-payments-import.md
-        - name: Thailandia
+        - name: Tailandia
           href: ../financials/localizations/thailand.md
           items:
             - name: Report scheda scorte

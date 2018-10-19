@@ -1,28 +1,29 @@
 --- 
-title: Generare documenti elettronici per i pagamenti utilizzando configurazioni di formato
+title: ER genera documenti elettronici per i pagamenti utilizzando una configurazione di formato
 description: "I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può utilizzare una nuova configurazione del formato per la creazione di report elettronici (ER) per generare documenti elettronici per l'elaborazione dei pagamenti."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 805e6f377d452e9c50240c8c9fc2ea6f5cb487e6
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: cf2ae8fb451eba1054bb94edbce009dcfa8c872c
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="generate-electronic-documents-for-payments-by-using-format-configurations"></a>Generare documenti elettronici per i pagamenti utilizzando configurazioni di formato
+# <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER genera documenti elettronici per i pagamenti utilizzando una configurazione di formato
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

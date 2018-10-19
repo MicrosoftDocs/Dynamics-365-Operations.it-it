@@ -3,30 +3,31 @@ title: Sviluppare un piano di successione
 description: Se l'organizzazione si sviluppa e si prende in considerazione la pianificazione della successione, potrebbe essere necessario cercare qualcuno che abbia competenze simili a un'altra persona.
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmSkillMapping
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 006f3d4b30711651e389dd76f871de1214c158d1
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 63999252fa00ba474d1e40f696029973f746ba2c
 ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="develop-a-succession-plan"></a>Sviluppare un piano di successione
+# <a name="develop-succession-plan"></a>Sviluppare un piano di successione
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Se l'organizzazione si sviluppa e si prende in considerazione la pianificazione della successione, potrebbe essere necessario cercare qualcuno che abbia competenze simili a un'altra persona.  Il mapping delle competenze consente di analizziate i dipendenti esistenti e i candidati per verificare se soddisfano il set di competenze di un dipendente stimato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
+Se l'organizzazione si sviluppa e si prende in considerazione la pianificazione della successione, potrebbe essere necessario cercare qualcuno che abbia competenze simili a un'altra persona.  Il mapping delle competenze consente di analizzare i dipendenti esistenti e i candidati per verificare se soddisfano il set di competenze di un dipendente stimato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
 1. Andare a Risorse umane > Competenze > Analisi competenze > Profili mapping competenze.
 2. Fare clic su Nuovo.
