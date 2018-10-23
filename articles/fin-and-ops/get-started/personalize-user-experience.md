@@ -3,7 +3,7 @@ title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 05/24/2018
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
+ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
+ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -64,7 +64,7 @@ Persone e società diverse hanno una diversa prospettiva in merito ai dati che r
 ### <a name="shortcut-menu-options"></a>Opzioni di menu di scelta rapida
 I menu di scelta rapida forniscono alcuni modi per modificare una pagina in modo esplicito in modo che rispecchi meglio i requisiti dell'utente o della società. Un menu di scelta rapida è noto anche con il nome di *menu del pulsante destro del mouse* o *menu contestuale*.
 
-Alcune delle modifiche più tipiche e più importanti che possono essere apportate a una pagina sono disponibili direttamente come opzioni in un menu di scelta rapida. Ad esempio, per aggiungere o nascondere le colonne di una griglia, è sufficiente fare clic con il pulsante destro del mouse sull'intestazione di una colonna della griglia e selezionare **Aggiungi colonne** o **Nascondi questa colonna**.
+Alcune delle modifiche più tipiche e più importanti che possono essere apportate a una pagina sono disponibili direttamente come opzioni in un menu di scelta rapida. Ad esempio, a partire dall'aggiornamento 17 della piattaforma, per aggiungere o nascondere le colonne di una griglia, è sufficiente fare clic con il pulsante destro del mouse sull'intestazione di una colonna della griglia e selezionare **Aggiungi colonne** o **Nascondi questa colonna**.
 
 Inoltre, i tipi più fondamentali di personalizzazione esplicita sono disponibili facendo clic con il pulsante destro del mouse su un elemento e quindi selezionando **Personalizza**. Tenere presente che non tutti gli elementi nella pagina possono essere personalizzati. Quando si utilizza questo metodo di personalizzazione, viene visualizzata la finestra delle proprietà dell'elemento.
 
@@ -81,27 +81,38 @@ Inoltre, i tipi più fondamentali di personalizzazione esplicita sono disponibil
 La finestra delle proprietà potrebbe includere altre funzionalità di personalizzazione, a seconda dell'elemento. Ad esempio, la finestra delle proprietà di un riquadro potrebbe consentire di promuovere il riquadro in un dashboard e la finestra delle proprietà di un dashboard potrebbe consentire di creare una nuova area di lavoro in quel dashboard.
 
 ### <a name="the-personalization-toolbar"></a>Barra degli strumenti di personalizzazione
-Quando si desidera spostare o nascondere elementi o apportare modifiche a una pagina, è possibile utilizzare la barra degli strumenti **Personalizzazione**. Per aprire la barra degli strumenti **Personalizzazione**, selezionare **Personalizza modulo** nella finestra delle proprietà di un elemento. È inoltre possibile selezionare **Personalizza modulo** nel gruppo **Personalizza** della scheda **Opzioni** del riquadro azioni di ogni pagina.
+Se si desidera apportare più modifiche a una pagina o apportare modifiche che non sono disponibili attraverso altri meccanismi (ad esempio un nuovo ordine degli elementi), è possibile utilizzare la barra degli strumenti **Personalizzazione**. Per aprire la barra degli strumenti **Personalizzazione**, selezionare **Personalizza modulo** nella finestra delle proprietà di un elemento. È inoltre possibile selezionare **Personalizza modulo** nel gruppo **Personalizza** della scheda **Opzioni** del riquadro azioni di ogni pagina.
 
 [![Barra degli strumenti di personalizzazione](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Mentre la barra degli strumenti **Personalizzazione** è aperta , la pagina è non interattiva. Non è pertanto possibile immettere dati o espandere o comprimere le sezioni. È possibile solo modificare gli elementi che costituiscono la pagina.
+#### <a name="navigating-the-page"></a>Esplorazione della pagina 
+La possibilità di esplorare la pagina mentre la **barra degli strumenti Personalizzazione** è aperta dipende dalla versione della piattaforma in esecuzione. 
 
+- Prima dell'aggiornamento 19 della piattaforma, mentre la barra degli strumenti **Personalizzazione** è aperta, la pagina è in sola lettura (non è possibile inserire nulla) e non interattiva (non è possibile apportare modifiche agli elementi visibili nella pagina). Se si desidera modificare gli elementi in una sezione compressa o in una scheda diversa, occorre chiudere la barra degli strumenti **Personalizzazione**, espandere una sezione o passare alla scheda desiderata e quindi riaprire la barra degli strumenti **Personalizzazione**.  
+
+- A partire dall'aggiornamento 19 della piattaforma, se la barra degli strumenti **Personalizzazione** è aperta, la pagina è ancora in sola lettura ma è molto più interattiva. In particolare, è possibile espandere o comprimere il riquadro Dettaglio informazioni, passare tra le schede ed espandere o comprimere le sezioni mentre la barra degli strumenti **Personalizzazione** è aperta nello stesso modo in cui si farebbe normalmente nella pagina. Per applicare una modifica di personalizzazione a una sezione comprimibile o a una scheda (ad esempio per nascondere una Scheda dettaglio), si selezionerà il pulsante che appare accanto alla sezione comprimibile o alla scheda quando diventa attivo da tastiera o quando ci si sofferma con il puntatore del mouse.  
+
+#### <a name="personalization-tools"></a>Barre degli strumenti di personalizzazione
 Nella barra degli strumenti **Personalizzazione** sono disponibili gli strumenti seguenti:
 
 - Utilizzare lo strumento **Selezione** per selezionare e modificare le proprietà di un elemento. Selezionare lo strumento **Selezione** e quindi selezionare l'elemento di cui modificare le proprietà. Quando si seleziona un elemento, la finestra delle proprietà dell'elemento si apre ed è possibile modificare qualsiasi proprietà di tale elemento. È possibile ripetere il processo per altri elementi che possono essere personalizzati in tale pagina. Tuttavia, a causa del modo in cui alcuni elementi vengono utilizzati, Finance and Operations non consente di modificare alcune delle proprietà di tali elementi. Pertanto, quando si seleziona un elemento, è possibile che alcune proprietà non possano essere modificate. Ad esempio, non è possibile nascondere un campo obbligatorio.
-- Utilizzare lo strumento **Sposta** se si desidera selezionare e spostare un elemento in un punto diverso all'interno del gruppo corrente di elementi. (Non è possibile spostare un elemento al di fuori del gruppo padre). Selezionare lo strumento **Sposta** e quindi selezionare l'elemento da spostare. Quando si seleziona un elemento, Finance and Operations analizza la pagina per determinare il punto in cui l'elemento può essere spostato. Crea quindi una serie di "aree di rilascio". Man mano che si trascina l'elemento nel gruppo corrente, ogni "zona di rilascio" viene visualizzata come singola riga colorata e in grassetto accanto all'area in cui l'elemento può essere rilasciato.
-- Utilizzare lo strumento **Nascondi** per nascondere un elemento nella pagina. Selezionare lo strumento **Nascondi** e quindi selezionare l'elemento da nascondere. Quando si seleziona lo strumento **Nascondi**, tutti gli elementi correntemente nascosti diventano visibili e vengono visualizzati in un contenitore ombreggiato. È quindi possibile scoprirli. Selezionando lo strumento **Selezione** è possibile vedere come apparirà la pagina con gli elementi selezionati nascosti.
-- Utilizzare lo strumento **Riepilogo** quando si desidera che un elemento venga visualizzati nella sezione di riepilogo della Scheda dettaglio. Lo strumento Riepilogo si applica solo ai campi che sono contenuti in una sezione della Scheda dettaglio. Quando si seleziona lo strumento **Riepilogo**, tutti i campi che sono stati selezionati come campi riepilogativi vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere e rimuovere in modo interattivo i campi dal riepilogo della Scheda dettaglio selezionando i campi interessati.
-- Utilizzare lo strumento **Ignora** per rimuovere un elemento dalla sequenza di tabulazione della tastiera nella pagina. Quando si seleziona lo strumento **Ignora**, tutti gli elementi correntemente ignorati vengono visualizzati in un contenitore ombreggiato. È quindi possibile inserirli nuovamente nella sequenza di tabulazione.
-- Utilizzare lo strumento **Modifica** per contrassegnare un elemento come modificabile o non modificabile. Quando si seleziona lo strumento **Modifica**, tutti gli elementi correntemente non modificabili vengono visualizzati in un contenitore ombreggiato. È quindi possibile renderli nuovamente modificabili. Alcuni campi sono obbligatori e non possono essere resi non modificabili. Accanto a questi campi è presente un simbolo di lucchetto.
-- Utilizzare il pulsante **Inserisci** per vedere un elenco di elemento che possono essere inseriti in una pagina.
 
+- Utilizzare lo strumento **Sposta** se si desidera selezionare e spostare un elemento in un punto diverso all'interno del gruppo corrente di elementi. (Non è possibile spostare un elemento al di fuori del gruppo padre). Selezionare lo strumento **Sposta** e quindi selezionare l'elemento da spostare. Quando si seleziona un elemento, Finance and Operations analizza la pagina per determinare il punto in cui l'elemento può essere spostato. Crea quindi una serie di "aree di rilascio". Man mano che si trascina l'elemento nel gruppo corrente, ogni "zona di rilascio" viene visualizzata come singola riga colorata e in grassetto accanto all'area in cui l'elemento può essere rilasciato.
+
+- Utilizzare lo strumento **Nascondi** per nascondere un elemento nella pagina. Selezionare lo strumento **Nascondi** e quindi selezionare l'elemento da nascondere. Quando si seleziona lo strumento **Nascondi**, tutti gli elementi correntemente nascosti diventano visibili e vengono visualizzati in un contenitore ombreggiato. È quindi possibile scoprirli. Selezionando lo strumento **Selezione** è possibile vedere come apparirà la pagina con gli elementi selezionati nascosti.
+    - A partire dall'aggiornamento 18 della piattaforma, è possibile nascondere i campi obbligatori e le sezioni che contengono campi obbligatori. Ciò consente di creare un'esperienza semplificata in cui i campi obbligatori che sono impostati su valori predefiniti dalla logica di business non vengono mostrati. I campi obbligatori nascosti vengono inoltre resi temporaneamente visibili se sono vuoti quando si prova a eseguire il salvataggio. 
+
+- Utilizzare lo strumento **Riepilogo** quando si desidera che un elemento venga visualizzati nella sezione di riepilogo della Scheda dettaglio. Lo strumento Riepilogo si applica solo ai campi che sono contenuti in una sezione della Scheda dettaglio. Quando si seleziona lo strumento **Riepilogo**, tutti i campi che sono stati selezionati come campi riepilogativi vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere e rimuovere in modo interattivo i campi dal riepilogo della Scheda dettaglio selezionando i campi interessati.
+
+- Utilizzare lo strumento **Ignora** per rimuovere un elemento dalla sequenza di tabulazione della tastiera nella pagina. Quando si seleziona lo strumento **Ignora**, tutti gli elementi correntemente ignorati vengono visualizzati in un contenitore ombreggiato. È quindi possibile inserirli nuovamente nella sequenza di tabulazione.
+
+- Utilizzare lo strumento **Modifica** per contrassegnare un elemento come modificabile o non modificabile. Quando si seleziona lo strumento **Modifica**, tutti gli elementi correntemente non modificabili vengono visualizzati in un contenitore ombreggiato. È quindi possibile renderli nuovamente modificabili. Alcuni campi sono obbligatori e non possono essere resi non modificabili. Accanto a questi campi è presente un simbolo di lucchetto.
+
+- Utilizzare il pulsante **Inserisci** per vedere un elenco di elemento che possono essere inseriti in una pagina.
     - Selezionare lo strumento **Campo** in **Inserisci** per aggiungere un campo nella pagina. Quando si utilizza lo strumento **Campo**, è possibile aggiungere solo i campi che fanno parte della definizione della pagina ma che attualmente non sono visualizzati nella pagina. Per informazioni su come creare nuovi campi che non fanno parte della definizione della pagina corrente, vedere [Campi personalizzati](user-defined-fields.md). Dopo aver selezionato lo strumento **Campo**, è necessario prima di tutto selezionare il gruppo o l'area in cui si desidera aggiungere un campo. Viene visualizzata una finestra di dialogo con l'elenco di campi correlati al gruppo selezionato o all'area selezionata. Nella finestra di dialogo selezionare uno o più campi da aggiungere e quindi selezionare **Inserisci**. Per rimuovere un campo aggiunto in precedenza, ripetere il processo, ma deselezionare il campo nella finestra di dialogo.
     - Selezionare lo strumento **PowerApp** in **Inserisci** per incorporare un'app creata tramite Microsoft PowerApps nella pagina. Per informazioni dettagliate su come incorporare un'app PowerApp in una pagina, vedere [Incorporare PowerApps](embed-power-apps.md).
 
 - Selezionare il pulsante **Gestisci** per visualizzare un elenco di opzioni di gestione correlate a tutte le personalizzazioni per la pagina corrente.
-
     - Selezionare **Cancella** per reimpostare la pagina sullo stato installato predefinito. Tutte le personalizzazioni della pagina corrente vengono cancellate. L'azione di annullamento non è disponibile. Di conseguenza, utilizzare questa opzione solo se si è certi di voler reimpostare la pagina.
     - Selezionare **Importa** per caricare una personalizzazione da un file precedentemente creato per la pagina. Tutte le personalizzazioni correnti per la pagina vengono sostituite con le personalizzazioni del file selezionato.
     - Selezionare **Esporta** per salvare le impostazioni per la pagina in un file. È possibile condividere le personalizzazioni con altri utenti. Tali utenti devono semplicemente importare il file contenente le personalizzazioni per la pagina.

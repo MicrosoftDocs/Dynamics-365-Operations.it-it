@@ -3,7 +3,7 @@ title: Home page relativa alle distribuzioni locali
 description: Questo argomento fornisce informazioni sulle distribuzioni locali e collegamenti a contenuti ad esse correlati.
 author: kfend
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: aba11ae99393eb0d8c3e1df2276faa95ad831d29
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: e65edc9d613c9898776e30ea5ab4104a3ce5b4c8
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="on-premises-deployments-home-page"></a>Home page relativa alle distribuzioni locali
@@ -59,6 +59,7 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="other-resources"></a>Altre risorse
 - [Risolvere i problemi di Dynamics 365 for Finance and Operations locale](troubleshoot-on-prem.md)
+- [Diagnostica locale](on-premises-diagnostics.md)
 - [Funzionalità non implementate nelle distribuzioni locali](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Funzionalità deprecate](../migration-upgrade/deprecated-features.md)
 - [Criteri del ciclo di vita del software e versioni in locale](../migration-upgrade/on-prem-version-update-policy.md)

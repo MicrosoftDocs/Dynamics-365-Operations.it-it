@@ -1,28 +1,29 @@
 --- 
-title: Creare un numero di prodotto per le varianti prodotto predefinite
+title: Creare una nomenclatura del numero di prodotto per le varianti prodotto predefinite
 description: "In questa guida viene illustrato come impostare una nomenclatura di numero prodotto per le varianti prodotto predefinite e come può essere assegnata al gruppo di dimensioni prodotto appropriato."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: c423aab341ddad9383c4c95b9dbb63c9875c99ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4b49e96677b94d5f669ea41861f64e62e118938c
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="create-a-product-number-for-predefined-product-variants"></a>Creare un numero di prodotto per le varianti prodotto predefinite
+# <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Creare una nomenclatura del numero di prodotto per le varianti prodotto predefinite
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -33,7 +34,7 @@ In questa guida viene illustrato come impostare una nomenclatura di numero prodo
 1. Fare clic su Definizione modello di variante prodotto.
 2. Fare clic su Nomenclatura di prodotto.
 3. Fare clic su Nuovo.
-4. Nel campo Nome immettere un nome di nomenclatura che consenta di identificare il gruppo di dimensioni prodotto di destinazione, ad esempio ColorSize.
+4. Nel campo Nome, immettere un nome di nomenclatura che consente di identificare il gruppo di dimensioni prodotto di destinazione, ad esempio ColorSize.
 5. Nel campo Descrizione digitare un valore.
 6. Scegliere Aggiungi.
 7. Fare clic su Numero rappresentazione generale prodotto.

@@ -3,7 +3,7 @@ title: Calcolo generale
 description: In questo argomento vengono descritti i processi tipici per il calcolo e l'assegnazione dei costi generali.
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -191,8 +191,7 @@ In alcuni casi, parte del costo è una commissione fissa e il costo rimanente è
 </tbody>
 </table>
 
-Per informazioni dettagliate sul comportamento costo, vedere Criteri di comportamento costo. (Nota: questo argomento non è ancora completo ma sarà presto disponibile).
-
+Per ulteriori informazioni, vedere [Creare e assegnare i criteri di comportamento costi a un'unità di controllo costi](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>Passaggio 2: Elaborare il calcolo distribuzione costo
 
 La distribuzione costo viene utilizzata per ridistribuire i costi da un oggetto costo a uno o più oggetti costo applicando una base di allocazione rilevante. La distribuzione costo e l'allocazione costo differiscono per il fatto che la distribuzione costo si verifica sempre a livello dell'elemento di costo primario del costo originale.
@@ -430,7 +429,7 @@ Il costo fisso deve essere distribuito equamente ai singoli oggetti costo che ha
 </tbody>
 </table>
 
-Per informazioni dettagliate sulla base di allocazione e distribuzione costo, vedere Criteri di distribuzione costi e Basi di allocazione. (Nota: questo argomento non è ancora completo ma sarà presto disponibile).
+Per ulteriori informazioni, vedere [Creare e assegnare i criteri di distribuzione costi a un'unità di controllo costi](tasks/create-assign-cost-distribution-policy-cost-control-unit.md). 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>Passaggio 3: Elaborare il calcolo tassi generali
 
@@ -612,13 +611,13 @@ Nella tabella seguente viene illustrato il risultato ottenuto quando i progetti 
 <td>10001</td>
 <td>Elettricità</td>
 <td>Costo variabile</td>
-<td>10,00</td>
+<td>10.00</td>
 <td>31 gennaio 2017</td>
 </tr>
 </tbody>
 </table>
 
-Per informazioni dettagliate sui criteri di tasso generali, vedere Criterio di tasso generale e Basi di allocazione. (Nota: questo argomento non è ancora completo ma sarà presto disponibile).
+Per ulteriori informazioni, vedere [Eseguire il calcolo generale](cost-rollup.md#perform-overhead-calculation).
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Passaggio 4: Elaborare il calcolo allocazione costo
 
@@ -725,7 +724,8 @@ L'oggetto di costo CC004 imballaggio contribuisce a più oggetti di costo. Viene
 </tbody>
 </table>
 
-**Nota**: in Finance and Operations, le misure statistiche, ad esempio le ore di produzione che un prodotto consuma, possono essere derivate dai dati di origine. Per informazioni più dettagliate sui provider misure statistiche, vedere il modello provider misure statistiche. (Nota: questo argomento non è ancora completo ma sarà presto disponibile). Nella tabella seguente viene illustrato il risultato ottenuto quando i servizi HR vengono applicati come base di allocazione per il costo totale (costo fisso e costo variabile).
+> [!NOTE]
+> In Finance and Operations, le misure statistiche, ad esempio le ore di produzione che un prodotto consuma, possono essere derivate dai dati di origine. Per altre informazioni vedere [Modello provider misure statistiche](statistical-measure-provider-template.md#statistical-measure-provider-template). Nella tabella seguente viene illustrato il risultato quando i servizi HR vengono applicati come base di allocazione per il costo totale (costo fisso e costo variabile).
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ Nella contabilità finanziaria, il costo di 10.000,00 dell'elettricità viene re
 </table>
 
 > [!NOTE]
-> In questo argomento viene illustrato come una voce di costo principale, 10001 Elettricità, viene trasferita tra gli oggetti di costo. Di conseguenza, questo costo generale viene allocato al livello più basso dell'organizzazione. In altre parole, gli oggetti costo al livello più basso sostengono il costo. Se si richiede un flusso visivo del costo tra gli oggetti costo, è possibile utilizzare le regole dei criteri di rollup del costo per visualizzare il flusso del costo. Per ulteriori informazioni, vedere i Criteri di rollup del costo. (Nota: questo argomento non è ancora completo ma sarà presto disponibile).
+> In questo argomento viene illustrato come una voce di costo principale, 10001 Elettricità, viene trasferita tra gli oggetti di costo. Di conseguenza, questo costo generale viene allocato al livello più basso dell'organizzazione. In altre parole, gli oggetti costo al livello più basso sostengono il costo. Se si richiede un flusso visivo del costo tra gli oggetti costo, è possibile utilizzare le regole dei criteri di rollup del costo per visualizzare il flusso del costo. Per ulteriori informazioni, vedere [Rollup costi](cost-rollup.md).
 
 
 

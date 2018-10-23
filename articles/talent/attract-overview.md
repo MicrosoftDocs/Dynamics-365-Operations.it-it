@@ -32,18 +32,18 @@ Attract include funzionalità per la gestione del processo di assunzione di nuov
 
 Attract include le funzionalità descritte di seguito.
 
-### <a name="attract-dashboard"></a>Dashboard di Attract
+## <a name="attract-dashboard"></a>Dashboard di Attract
 In questo dashboard i membri del team di assunzione possono visualizzare dettagli sulle posizioni a cui sono stati assegnati. Inoltre, un responsabile assunzioni o un selezionatore può creare una nuova posizione oppure importarne alcune contemporaneamente da un foglio di calcolo Excel.
 
-### <a name="jobs"></a>Mansioni
+## <a name="jobs"></a>Mansioni
 Nella pagina **Mansione**, è possibile visualizzare e modificare dettagli come la descrizione e l'ubicazione della posizione. Nella pagina **Mansione** è inoltre possibile definire il team di assunzione nonché aggiungere o modificare i selezionatori e gli addetti ai colloqui del team. Nuovi candidati possono inoltre essere aggiunti nella pagina **Mansione**.
 
-### <a name="candidates"></a>Candidati
+## <a name="candidates"></a>Candidati
 I candidati possono essere aggiunti singolarmente a una posizione oppure importati in gruppo da un foglio di calcolo di Excel. Tutti i candidati vengono aggiunti automaticamente alla prima fase del processo di assunzione, quella della domanda di lavoro, per qualsiasi posizione. Tutte le informazioni relative alla domanda di lavoro di un candidato sono visualizzate e gestite in questa fase. È possibile caricare e visualizzare ulteriori documenti insieme alle informazioni di contatto come indirizzi di posta elettronica, numeri di telefono e collegamenti ad account social media. Se il candidato ha fornito un collegamento al relativo profilo LinkedIn e l'integrazione di LinkedIn (che richiede una licenza di selezionatore LinkedIn) è stata configurata, il profilo del candidato verrà visualizzato.
 
-### <a name="stages"></a>Fasi
+## <a name="stages"></a>Fasi
 Attract fornisce un processo di assunzione predefinito che contiene quattro fasi: domanda di lavoro, screening, colloquio e offerta. I nuovi candidati vengono aggiunti alla prima fase del processo di selezione, ovvero quella della domanda di lavoro, che contiene curriculum, lettera di presentazione, portafoglio e altri documenti dei candidati. Un candidato può quindi essere ammesso alla fase di screening, in cui viene invitato a partecipare a una telefonata di screening o a un colloquio in video con Skype. Il responsabile assunzioni e il selezionatore possono fornire commenti sul candidato e ammetterlo alla fase successiva. Colloqui dal vivo individuali o di gruppo di durata variabile vengono quindi programmati con i membri del team di assunzione disponibili. Dopo i colloqui, vengono esaminati i commenti degli addetti ai colloqui. I candidati selezionati sono quindi ammessi alla fase finale, dove viene preparata un'offerta che gli stessi esamineranno ed eventualmente accetteranno. 
 
-### <a name="candidate-app"></a>App candidato
+## <a name="candidate-app"></a>App candidato
 Nel momento in cui i candidati vengono aggiunti a una posizione aperta, ricevono un messaggio di posta elettronica con un collegamento per acquisire l'app. Questa app Web fornisce ai candidati dettagli relativi alla posizione ed è lo strumento ideale per comunicare con il team di assunzione. I candidati possono inoltre indicare la loro disponibilità per i colloqui.
 

@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -37,12 +37,9 @@ Dopo aver progettato i blocchi predefiniti e generato i report, è utile organiz
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Rinominare una cartella o un blocco predefinito in Progettazione report
 In Progettazione report è possibile rinominare cartelle, definizioni di report, di riga di colonna e di albero gerarchico.
 
-> [!NOTE]
-> Quando si rinomina un blocco predefinito, è necessario aggiornare le definizioni di report che utilizzano il blocco predefinito. In caso contrario, non è possibile generare un nuovo report.
-
 ### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Rinominare una cartella o un blocco predefinito in Progettazione report
 
-1. In Progettazione report, utilizzare il pannello di navigazione per individuare la cartella o l'oggetto da rinominare.
+1. In Progettazione report utilizzare il riquadro di spostamento per individuare la cartella o l'oggetto da rinominare.
 2. Fare clic con il pulsante destro del mouse sulla cartella o sull'oggetto, quindi scegliere **Rinomina**. Il campo **Nome** nel pannello di navigazione diventa disponibile.
 3. Immettere un nuovo nome e premere Invio.
 4. Se il blocco predefinito è una definizione di riga, una definizione di colonna o una definizione di albero gerarchico, è necessario aggiornare altri blocchi predefiniti associati a esso. Fare clic con il pulsante destro del mouse sul blocco prefedinito rinominato al passaggio 3, selezionare **Associazioni** quindi selezionare un elemento nell'elenco per aggiornarlo.

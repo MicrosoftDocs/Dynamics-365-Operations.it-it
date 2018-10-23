@@ -3,7 +3,7 @@ title: "Funzionalità rimosse o deprecate"
 description: "In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -41,6 +41,52 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 > [!Note]
 > Informazioni dettagliate sugli oggetti in Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione di Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Regole trasferimento batch per voci contabili del giornale di registrazione secondario
+La modalità di trasferimento sincrona viene deprecata nei parametri di contabilità generale.  Questa modalità viene sostituita dalle modalità asincrona e solo batch programmato, che sono già presenti come opzioni per il trasferimento. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | L'opzione sincrona viene rimossa a causa dell'impatto sulle prestazioni del sistema. |
+| **Sostituita da un'altra funzionalità?**   | Batch asincrono e programmato sono opzioni da utilizzare al posto della modalità sincrona.   |
+| **Aree del prodotto interessate**         | Contabilità generale, Contabilità fornitori, Contabilità clienti, approvvigionamento, spesa    |
+| **Opzione di distribuzione**              | Tutto  |
+| **Stato**                         | Deprecato - L'intervallo di tempo di destinazione per la funzionalità da rimuovere è la versione 10.0.|
+
+### <a name="electronic-reporting-for-russia"></a>Creazione di report elettronici per la Russia
+Funzionalità per la configurazione di formati di file txt e xml per le dichiarazioni. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Sostituita con la creazione di report elettronici. |
+| **Sostituita da un'altra funzionalità?**   | Sì. |
+| **Aree del prodotto interessate**         | Contabilità generale |
+| **Opzione di distribuzione**              | Tutto |
+| **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |
+
+### <a name="financial-reports-generator-for-russia"></a>Generatore di report finanziari per la Russia
+Uno strumento per impostare la raccolta dei dati per report fiscali e di contabilità e per esportare i dati in modelli di report XLS e DOC. Parti funzionali: l'esportazione di dati in modelli XLS e DOC, query, requisiti fissi sono stati rimossi. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Le parti rimosse sono state sostituite con la creazione di report elettronici. |
+| **Sostituita da un'altra funzionalità?**   | Sì. L'interfaccia utente di impostazione dei report finanziari deve essere utilizzata per impostare la raccolta dei dati dai conti di contabilità generale o dai registri delle imposte. Le regole di esportazione dati in vari tipi di file, dei requisiti fissi e della raccolta di dati tipo query devono essere configurate nella creazione di report elettronici. |
+| **Aree del prodotto interessate**         | Contabilità generale. |
+| **Opzione di distribuzione**              | Tutto |
+| **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integrazione con i fornitore esterni per inviare la dichiarazione elettronica tramite i canali di comunicazione per la Russia
+Funzionalità di esportazione dei file elettronici generati delle dichiarazioni nella cartella per l'inoltro ai provider ufficiali di report elettronici, nonché di reimportazione dello stato.
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Sostituita con la funzionalità configurabile dei messaggi elettronici. |
+| **Sostituita da un'altra funzionalità?**   | Sì.  |
+| **Aree del prodotto interessate**         | Contabilità generale, Imposta |
+| **Opzione di distribuzione**              | Tutto |
+| **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 con aggiornamento 15 della piattaforma
 In questa versione non sono state rimosse o deprecate funzionalità. L'aggiornamento 15 della piattaforma è cumulativo e contiene funzionalità nuove o modificate che derivano dagli aggiornamenti 13, 14 e 15 della piattaforma.

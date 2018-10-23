@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -47,7 +47,7 @@ Per trovare l'ultima versione rilasciata di ogni Web browser, andare al sito Web
 > * L'editor flusso di lavoro viene avviato come un'applicazione ClickOnce. Solo Microsoft Edge e Internet Explorer (su una versione supportata di Microsoft Windows) supportano le applicazioni ClickOnce. L'applicazione ClickOnce dell'editor flusso di lavoro richiede un sistema operativo compatibile a 64 bit.
 > * Per visualizzare l'anteprima dei file PDF, si consiglia di utilizzare browser moderni come Microsoft Edge (versione pubblica più recente) su Windows 10 o Google Chrome (versione pubblica più recente) su Windows 10, Windows 8.1, Windows 8, Windows 7 o tablet Google Nexus 10.
 >   Requisiti di rete
-> * Dynamics 365 for Talent è progettato per reti con latenza a 250-300 millisecondi (ms) o inferiore. Questa è la latenza da un client del browser al data center di Microsoft Azure che ospita Dynamics 365 for Talent. Si consiglia di verificare la latenza di rete all'indirizzo [www.azurespeed.com](http://www.azurespeed.com "Azure Latency Test").
+> * Dynamics 365 for Talent è progettato per reti con latenza a 250-300 millisecondi (ms) o inferiore. Questa è la latenza da un client del browser al data center di Microsoft Azure che ospita Dynamics 365 for Talent. Si consiglia di verificare la latenza di rete all'indirizzo [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
 > * I requisiti di larghezza di banda per Dynamics 365 for Talent dipendono dallo scenario. La maggior parte degli scenari tipici richiede una larghezza di banda superiore a 50 kilobyte al secondo (Kbps).
 > 
 > [!WARNING]

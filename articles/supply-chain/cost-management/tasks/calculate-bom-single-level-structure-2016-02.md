@@ -1,29 +1,30 @@
 --- 
-title: Calcolare una DBA utilizzando una struttura a livello singolo (solo febbraio 2016)
+title: Calcolare una DBA utilizzando una struttura a livello singolo (febbraio 2016)
 description: In questa procedura viene illustrato come calcolare il costo di un prodotto finito utilizzando la esplosione a livello singolo basata sulla scheda di determinazione costi.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/07/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0e6829238b244cc01b070fde6acdf37bdaeb9670
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f74f8e4efc4474693f0a5b543c1300c3b64ecda0
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a>Calcolare una DBA utilizzando una struttura a livello singolo (solo febbraio 2016)
+# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Calcolare una DBA utilizzando una struttura a livello singolo (febbraio 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

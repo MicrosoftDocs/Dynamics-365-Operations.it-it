@@ -1,28 +1,29 @@
 --- 
-title: "Inserire dati fattura nella contabilità fornitori tramite una fattura fornitore"
+title: "Dati principali della fattura in sistema di contabilità fornitori utilizzando la fattura fornitore"
 description: "Questa guida attività consentirà di creare una fattura fornitore da un ordine fornitore e di visualizzare i risultati dell'abbinamento dell'ordine fornitore, dell'entrata e della fattura (corrispondenza a 3 elementi di verifica)."
 author: abruer
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 48535a283cbdfdc7343a20105b139c527cac85f4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e1d2e31a5de7cefd20996c18bf4771296a587997
 ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="key-invoice-data-into-accounts-payable-using-a-vendor-invoice"></a>Inserire dati fattura nella contabilità fornitori tramite una fattura fornitore
+# <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>Dati principali della fattura in sistema di contabilità fornitori utilizzando la fattura fornitore
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

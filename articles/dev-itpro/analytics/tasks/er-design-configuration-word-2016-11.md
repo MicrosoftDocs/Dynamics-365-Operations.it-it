@@ -1,25 +1,26 @@
 --- 
 title: Progettare le configurazioni di ER per generare report in formato di Word
-description: "I passaggi seguenti descrivono come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici può configurare formati per la creazione di report elettronici (ER) per generare i report elettronici come file di Microsoft Word."
+description: "I passaggi seguenti descrivono come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici può configurare formati per la creazione di report elettronici per generare i report elettronici come file di Microsoft Word."
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Progettare le configurazioni di ER per generare report in formato di Word
@@ -30,9 +31,9 @@ I passaggi seguenti descrivono come un utente con il ruolo di amministratore di 
 
 Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi "Creare una configurazione ER per la generazione di report in formato OPENXML" nella guida attività. In anticipo, è inoltre necessario scaricare e salvare i seguenti modelli localmente per il report di esempio:
 
-[Modello di Report di pagamento](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Modello di Report di pagamento](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Modello associato di Report di pagamento](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[Modello associato di Report di pagamento](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Questa procedura è per una funzionalità che è stata aggiunta in Microsoft Dynamics 365 for Operations versione 1611.
 
@@ -49,7 +50,7 @@ Questa procedura è per una funzionalità che è stata aggiunta in Microsoft Dyn
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Sostituire il modello di Excel con il modello di Word
     * Attualmente, il documento di Excel viene utilizzato come modello per generare l'output nel formato OPENXML. Il modello di report verrà importato in formato Word.  
 1. Fare clic su Allegati.
-    * Sostituire il modello esistente di Excel con il modello di Word scaricato in precedenza, Modello di Report di pagamento. Si noti che il modello contiene solo il layout di documento che si desidera generare come output ER.  
+    * Sostituire il modello esistente di Excel con il modello di Word scaricato in precedenza, SampleVendPaymDocReport.docx. Si noti che il modello contiene solo il layout di documento che si desidera generare come output ER.  
 2. Fare clic su Elimina.
 3. Fare clic su Sì.
 4. Fare clic su Nuovo.
