@@ -6,6 +6,14 @@
       items:
         - name: Novità o modifiche
           items:
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (1º ottobre 2018)
+              href: whats-new-talent-october-01.md
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (24 settembre 2018)
+              href: whats-new-talent-september-24.md
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (17 settembre 2018)
+              href: whats-new-talent-september-17-2018.md
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (10 settembre 2018)
+              href: whats-new-talent-september-10.md
             - name: Novità o modifiche in Dynamics 365 for Talent Core HR (agosto 2018)
               href: whats-new-talent-august2018.md
             - name: Novità o modifiche in Dynamics 365 for Talent Core HR (luglio 2018)
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: Incorporare app PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Accedere alle funzionalità di anteprima
+        - name: Core HR e Common Data Service per app
+          href: CoreHREntities.md
+        - name: Funzionalità anteprima accesso
           href: access-preview-feature.md
         - name: Configurare l'integrazione retribuzioni tra Talent e Dayforce
           href: configure-payroll-integration.md
+        - name: Ottenere supporto per Talent
+          href: talent-support.md
     - name: 'Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni'
       href: departments-jobs-positions.md
       items:
@@ -41,11 +53,16 @@
           href: formalize-business-processes.md
         - name: Utilizzare flussi di lavoro per gestire le informazioni del dipendente
           href: workflow-manage-employee-information.md
-        - name: Gestione di congedo e assenza
-          href: leave-absence-overview.md
+    - name: Gestire i congedi e le assenze
+      href: leave-absence-overview.md
+      items:
+        - name: Accumulare tempo libero in base alle ore di lavoro
+          href: leave-accrue-hours-worked.md
+        - name: Calendari orario di lavoro
+          href: working-time-calendars.md
     - name: Assunzioni personale nell'organizzazione
       items:
-        - name: Attirare funzionalità e capacità
+        - name: Funzionalità e capacità di Attract
           href: attract-overview.md
         - name: Creare un esperienza di integrazione coinvolgente
           href: create-onboarding-experience.md
@@ -55,10 +72,12 @@
           href: compensation-plans.md
         - name: Creare i piani di retribuzione fissa
           href: create-fixed-compensation-plans.md
-        - name: Creare i piani di retribuzione variabile
+        - name: Creare piani di retribuzione variabile
           href: create-variable-compensation-plans.md
-        - name: Processo retributivo
+        - name: Elaborare la retribuzione
           href: process-compensation.md
+        - name: Impostare i componenti di una mansione
+          href: create-job.md
     - name: Gestire lo sviluppo e la formazione dei dipendenti
       items:
         - name: Gestione delle prestazioni
