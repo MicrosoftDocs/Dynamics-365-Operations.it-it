@@ -25,6 +25,7 @@ ms.lasthandoff: 10/16/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Eliminare un cespite utilizzando una fattura a testo libero
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Questa procedura descrive come eliminare un cespite utilizzando la fattura a testo libero.
 
