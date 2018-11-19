@@ -3,14 +3,14 @@ title: Designer formula nella creazione di report elettronici (ER)
 description: In questo argomento viene illustrato come utilizzare designer formula nei report elettronici (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 04/04/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
+ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
+ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -252,6 +252,12 @@ Le seguenti tabelle descrivono le funzioni di manipolazione dei dati che è poss
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> restituisce un nuovo elenco costituito da due record con un campo <strong>STRING</strong>. Il campo del primo record contenente il testo <strong>&quot;abc&quot;</strong> e il campo nel secondo record contenente il testo <strong>&quot;d&quot;</strong>.</td>
 </tr>
 <tr>
+<td>SPLIT (input, delimitatore)</td>
+<td>Divide la stringa di input specificata in sottostringhe, in base al delimitatore specificato.</td>
+<td><strong>SPLIT (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong> restituisce un nuovo elenco che consiste di tre record con un campo <strong>STRING</strong>. Il campo del primo record contiene il testo <strong>&quot;X&quot;</strong>, il campo nel secondo record contiene il testo &quot;&nbsp;&quot; e il campo del terzo record contiene il testo <strong>&quot;y&quot;</strong>. Se il delimitatore è vuoto, un nuovo elenco viene restituito costituito da un record che ha un campo <strong>STRING</strong> contenente il testo di input. Se l'input è vuoto, un nuovo elenco vuoto viene restituito.
+Se l'input o il delimitatore non è specificato (nullo), viene generata un'eccezione dell'applicazione.</td>
+</tr>
+<tr>
 <td>SPLITLIST (elenco, numero)</td>
 <td>Divide l'elenco specificato in batch, ciascuno dei quali contiene il numero specificato di record. Restituisce il risultato come nuovo elenco di batch contenente i seguenti elementi:
 <ul>
@@ -323,7 +329,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <tr>
 <td>ORDERBY (elenco [, espressione 1, espressione 2, …])</td>
 <td>Restituisce l'elenco specificato dopo che è stato ordinato in base agli argomenti specifici. Questi argomenti possono essere definiti come espressioni.</td>
-<td>Se <strong>Fornitore</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> restituisce un elenco dei fornitori ordinato per nome in ordine crescente.</td>
+<td>Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> restituisce un elenco dei fornitori ordinato per nome in ordine crescente.</td>
 </tr>
 <tr>
 <td>REVERSE (elenco)</td>
@@ -399,12 +405,13 @@ I campi <strong>Descrizione</strong> ed <strong>Etichetta</strong> restituiscono
 </ul>
 I campi <strong>Descrizione</strong> ed <strong>Etichetta</strong> restituiscono valori in fase esecuzione in base alle impostazioni di lingua del formato e alla lingua specificata. Il campo <strong>È tradotto</strong> indica che il campo <strong>Etichetta</strong> è stato tradotto nella lingua specificata.
 </td>
-<td>Ad esempio, usare il tipo di origine dati <strong>Campo calcolato</strong> per configurare le origini dati <strong>enumType_de</strong> e <strong>enumType_deCH</strong> per l''enumerazione del modello dati <strong>enumType</strong>:
+<td>Ad esempio, usare il tipo di origine dati <strong>Campo calcolato</strong> per configurare le origini dati <strong>enumType_de</strong> e <strong>enumType_deCH</strong> per l'enumerazione del modello dati <strong>enumType</strong>.
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-In questo caso, è possibile utilizzare la seguente espressione per visualizzare l'etichetta del valore enumerato in tedesco svizzero, se la traduzione è disponibile. Se la traduzione tedesca svizzera non è disponibile, l'etichetta appare in tedesco: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+<p>In questo caso, è possibile utilizzare la seguente espressione per visualizzare l'etichetta del valore enumerato in tedesco svizzero, se la traduzione è disponibile. Se la traduzione tedesca svizzera non è disponibile, l'etichetta è in tedesco.</p>
+IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 </td>
 </tr>
 <tr>
@@ -421,7 +428,7 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>Nella figura seguente è illustrato il risultato dell'esecuzione del formato. In questo caso, l'output è un elenco di voci doganali.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
-<p>Nelle illustrazioni seguenti, lo stesso formato è stato rettificato per presentare l'elenco di voci doganali in batch quando un singolo batch deve includere voci doganali e il peso totale che non deve superare il limite di 9.</p>
+<p>Nelle illustrazioni seguenti, lo stesso formato è stato rettificato per presentare l'elenco di voci doganali in batch quando un singolo batch deve includere voci doganali e il peso totale non deve superare il limite di 9.</p>
 <p><a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="Adjusted format" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a></p>
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Nella figura seguente è illustrato il risultato dell'esecuzione del formato rettificato.</p>
@@ -432,7 +439,7 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 <tr>
 <td>FILTER (elenco, condizione)</td>
 <td>Restituisce l'elenco specificato dopo che è stata modifica la query per il filtro in base alla condizione specifica. Diversamente dalla funzione <strong>WHERE</strong>, la condizione specificata viene applicata a livello di database a qualsiasi origine dati ER del tipo di <strong>Record tabella</strong>. L'elenco e la condizione possono essere definite mediante le tabelle e le relazioni.</td>
-<td>Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> restituisce un elenco solo dei fornitori che appartengono al gruppo 40. Se <strong>Fornitore</strong> viene configurato come origine dati di ER che fa riferimento alla tabella <strong>VendTable</strong> e se <strong>parmVendorBankGroup</strong> viene configurato come origine dati di ER che restituisce un valore del tipo di dati <strong>Stringa</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> restituisce un elenco costituito solo dai conti fornitori che appartengono a un gruppo bancario specifico.</td>
+<td>Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> restituisce un elenco solo dei fornitori che appartengono al gruppo 40. Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable e se <strong>parmVendorBankGroup</strong> viene configurato come origine dati ER che restituisce un valore del tipo di dati <strong>Stringa</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> restituisce un elenco costituito solo dai conti fornitori che appartengono a un gruppo bancario specifico.</td>
 </tr>
 </tbody>
 </table>
@@ -446,10 +453,67 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 | NOT (condizione) | Restituisce il valore logico inverso della condizione specificata. | **NOT (TRUE)** restituisce **FALSE**. |
 | AND (condizione 1\[, condizione 2, …\]) | Restituisce **TRUE** se *tutte* le condizioni specificate sono vere. In caso contrario, restituisce **FALSE**. | **AND (1=1, "a"="a")** restituisce **TRUE**. **AND (1=2, "a"="a")** restituisce **FALSE**. |
 | OR (condizione 1\[, condizione 2, …\]) | Restituisce **FALSE** se *tutte* le condizioni specificate sono false. Restituisce **TRUE** se *qualsiasi* condizione specificata è vera. | **OR (1=2, "a"="a")** restituisce **TRUE**. |
+| VALUEIN (input, elenco, espressione voce elenco) | Determina se l'input specificato corrisponde a qualsiasi valore di una voce nell'elenco specificato. Restituisce **TRUE** se l'input specificato corrisponde al risultato dell'esecuzione dell'espressione specificata per almeno un record. In caso contrario, restituisce **FALSE**. Il parametro **input** rappresenta il percorso di un elemento di origine dati. Il valore di questo articolo verrà associato. Il parametro **elenco** rappresenta il percorso di un elemento di origine dati di tipo elenco record come elenco di record contenente un'espressione. Il valore di questo elemento verrà confrontato all'input specificato. L'argomento **espressione voce elenco** rappresenta un'espressione che indica o contenente un singolo campo dell'elenco specificato da utilizzare per la corrispondenza. | Per esempi, vedere la sezione che segue [Esempi: VALUEIN (input, elenco, espressione voce elenco)](#examples-valuein-input-list-list-item-expression). |
+
+#### <a name="examples-valuein-input-list-list-item-expression"></a>Esempi: VALUEIN (input, elenco, espressione voce elenco)
+In generale la funzione **VALUEIN** viene convertita in un set di condizioni **OR** :
+
+(input = list.item1.value) OR (input = list.item2.value) OR...
+
+##### <a name="example-1"></a>Esempio 1
+È possibile definire la seguente origine dati nel mapping di modelli: **Elenco** (tipo**Campo calcolato** ). Questa origine dati contiene l'espressione **SPLIT ("a,b,c", ",")**.
+
+Quando un'origine dati viene chiamata che è configurata come l'espressione **VALUEIN (VALUEIN ("B", List, List.Value)**, restituisce **TRUE**. In questo caso la funzione **VALUEIN** viene convertita nel seguente set di condizioni:
+
+**(("B" = "a") or ("B" = "b") or ("B" = "c"))**, dove **("B" = "b")** è uguale a **TRUE**
+
+Quando un'origine dati viene chiamata che è configurata come l'espressione **VALUEIN ("B", List, LEFT(List.Value, 0))**, restituisce **FALSE**. In questo caso la funzione **VALUEIN** viene convertita nella seguente condizione:
+
+**("B" = "")**, che npn è uguale a **TRUE**
+
+Si noti che il limite massimo per il numero di caratteri nel testo di tale condizione è di 32.768 caratteri. Di conseguenza, evitare di creare origini dati che potrebbero superare il limite in fase di esecuzione. Se il limite viene superato, l'applicazione smetterà di funzionare e un'eccezione verrà generata. Ad esempio, questa situazione può verificarsi se l'origine dati viene configurata come **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)** e gli elenchi **List1** e **List2** contengono un ampio volume di record.
+
+In alcuni casi, la funzione **VALUEIN** viene convertita in un'istruzione di database utilizzando l'operatore **EXISTS JOIN**. Questo comportamento avviene quando la funzione **FILTER** viene utilizzata e vengono soddisfatte le seguenti condizioni:
+
+- L'opzione **Chiedi query** è disattivata per l'origine dati della funzione **VALUEIN** che fa riferimento all'elenco di record. (nessuna condizione aggiuntivo verrà applicata all'origine dati in fase di esecuzione.)
+- Nessuna espressione nidificata è configurata per l'origine dati della funzione **VALUEIN** che fa riferimento all'elenco di record.
+- Una voce dell'elenco della funzione **VALUEIN** si riferisce a un campo (non un'espressione o un metodo) dell'origine dati specificata.
+
+Può essere opportuno di utilizzare questa opzione anziché la funzione **WHERE** come descritta in precedenza in questo esempio.
+
+##### <a name="example-2"></a>Esempio 2
+
+Definire le origini dati seguenti nel mapping di modello:
+
+- **In entrata** (tipo **Record di tabella**), che fa riferimento alla tabella Intrastat
+- **Porta** (tipo **Record di tabella**), che fa riferimento alla tabella IntrastatPort
+
+Quando un'origine dati viene chiamata che è configurata come l'espressione **FILTER (In, VALUEIN(In.Port, Port, Port.PortId)**, la seguente istruzione SQL viene generata per restituire i record filtrati della tabella Intrastat:
+
+```
+select … from Intrastat
+exists join TableId from IntrastatPort
+where IntrastatPort.PortId = Intrastat.Port
+```
+
+Per i campi **dataAreaId**, l'istruzione SQL finale viene generata usando l'operatore **IN**.
+
+##### <a name="example-3"></a>Esempio 3
+
+Definire le origini dati seguenti nel mapping di modello:
+
+- **Le** (tipo**Campo calcolato** ), contenente l'espressione **SPLIT ("DEMF,GBSI,USMF", ",")**
+- **In entrata** (tipo**Record di tabella** ), che fa riferimento alla tabella Intrastat e per cui l'opzione **Interaziendale** è abilitata
+
+Quando un'origine dati viene chiamata che è configurata come l'espressione **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)**, la istruzione SQL finale contiene la condizione seguente:
+
+```
+Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
+```
 
 ### <a name="mathematical-functions"></a>Funzioni matematiche
 
-| Funzione | Descrizione | Esempio |
+| Funzione | descrizione | Esempio |
 |----------|-------------|---------|
 | ABS (number) | Restituisce il valore assoluto del numero specificato. Ovvero restituisce il numero senza il segno. | **ABS (-1)** restituisce **1**. |
 | POWER (numero, potenza) | Restituisce il risultato dell'elevazione alla potenza specificata del numero positivo specificato. | **POWER (10, 2)** restituisce **100**. |
@@ -539,13 +603,13 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 </tr>
 <tr>
 <td>REPLACE (stringa, modello, sostituzione, flag espressione regolare)</td>
-<td>Quando il flag espressione regolare specificato è <strong>true</strong>, restituisce la stringa specificata dopo che è stata modificata applicando l'espressione regolare specificata come un argomento di modello per la funzione. Tale espressione viene utilizzata per individuare i caratteri che devono essere sostituiti. I caratteri dell'argomento di sostituzione specificato vengono utilizzati per sostituire i caratteri che si trovano. Quando il flag specificato espressione regolare è <strong>false</strong>, questa funzione si comporta analogamente a <strong>TRANSLATE</strong>.</td>
+<td>Quando il parametro <strong>flag espressione regolare</strong> specificato è <strong>true</strong>, restituisce la stringa specificata dopo che è stata modificata applicando l'espressione regolare specificata come un argomento di <strong>modello</strong> per la funzione. Tale espressione viene utilizzata per individuare i caratteri che devono essere sostituiti. I caratteri dell'argomento <strong>sostituzione</strong> specificato vengono utilizzati per sostituire i caratteri che si trovano. Quando il parametro <strong>flag espressione regolare</strong> specificato è <strong>false</strong>, questa funzione si comporta analogamente a <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> applica un'espressione regolare che rimuove tutti i simboli non numerici e restituisce <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> sostituisce il modello <strong>&quot;cd&quot;</strong> con la stringa <strong>&quot;GH&quot;</strong> e restituisce <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr>
 <td>TEXT (input)</td>
 <td>Restituisce l'input specificato dopo che è stato convertito in stringa di testo che viene formattata in base alle impostazioni locali server dell'istanza corrente di Finance and Operations. Per i valori di tipo <strong>real</strong>, la conversione di stringhe è limitata a due posizioni decimali.</td>
-<td>Se le impostazioni locali server dell'istanza di Finance and Operations vengono definite come <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> restituisce la data della sessione corrente di Finance and Operations, 17 dicembre 2015, come la stringa di testo <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> restituisce <strong>&quot;0.33&quot;</strong>.</td>
+<td>Se le impostazioni locali server dell'istanza di Finance and Operations vengono definite come <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> restituisce la data della sessione corrente di Finance and Operations, 17 dicembre 2015, come stringa di testo <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> restituisce <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
 <tr>
 <td>FORMAT (stringa 1, stringa 2[, stringa 3, …])</td>
@@ -562,19 +626,19 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 <li>Etichetta SYS18389 di Finance and Operations, con il testo seguente:
 <ul>
 <li><strong>Per la lingua EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Per la lingua tedesca:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
+<li><strong>Per la lingua DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Questa è la formula che può essere progettata:</p>
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
-<p>Se un report viene elaborato per il cliente <strong>Litware Retail</strong> il 17 dicembre 2015, nelle impostazioni cultura <strong>EN-US</strong> e la lingua <strong>EN-US</strong>, questa formula restituisce il seguente testo, che può essere presentato come un messaggio di eccezione all'utente:</p>
+<p>Se un report viene elaborato per il cliente <strong>Litware Retail</strong> il 17 dicembre 2015, nelle impostazioni cultura <strong>EN-US</strong> e la lingua <strong>EN-US</strong>, questa formula restituisce il seguente testo, che può essere presentato all'utente come un messaggio di eccezione:</p>
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Se lo stesso viene elaborato per il cliente <strong>Litware Retail</strong> il 17 dicembre 2015, nelle impostazioni culture <strong>DE</strong> e la lingua <strong>DE</strong>, la formula restituisce il seguente testo, che utilizza un formato della data diverso:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE] La seguente sintassi si applica nelle formule ER per le etichette:
 <ul>
-<li><strong>Per le etichette di risorse di Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, dove X è l'ID etichetta nella struttura a oggetti applicativi (AOT, Application Object Tree)</li>
-<li><strong>Per le etichette che si trovano in configurazioni ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, dove X è l'ID di etichetta nella configurazione ER</li>
+<li><strong>Per le etichette di risorse di Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, dove<strong>X</strong> è l'ID etichetta nell' Application Object Tree.</li>
+<li><strong>Per le etichette che si trovano in configurazioni ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, dove <strong>X</strong> è l'ID etichetta nella configurazione ER</li>
 </ul>
 </blockquote>
 </td>
@@ -616,7 +680,7 @@ In questo caso, è possibile utilizzare la seguente espressione per visualizzare
 </tr>
 <tr>
 <td>GUIDVALUE (input)</td>
-<td>Converte l'input specificato del tipo di dati <strong>Stringa</strong> in un elemento dati del tipo di dati <strong>GUID</strong>.</td>
+<td>Converte l'input specificato del tipo di dati <strong>Stringa</strong> in un elemento dati del tipo di dati <strong>GUID</strong>.<blockquote>[!NOTE] Per impostare una conversione nella direzione opposta ovvero convertire l'input specificato del tipo di dati  <strong>GUID</strong> in un elemento dati di tipo <strong>Stringa</strong>, è possibile usare la funzione <strong>TEXT()</strong>.</blockquote></td>
 <td>Definire le origini dati seguenti nel mapping di modello:
 <ul>
 <li><strong>myID</strong> (tipo <strong>Campo calcolato</strong>), che contiene l'espressione <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
@@ -645,11 +709,11 @@ Quando vengono definite queste origini dati, è possibile utilizzare un'espressi
 | Funzione | descrizione | Esempio |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | Restituisce il nome dell'elemento del formato corrente. Restituisce la stringa vuota se il flag **Raccogli dettagli di output** del file corrente è disattivato. | Per ulteriori informazioni sull'utilizzo di questa funzione, fare riferimento alla guida attività **ER Utilizzare i dati dell'output del formato per il conteggio e la somma** che è parte del processo aziendale **Acquisire/sviluppare componenti di soluzioni/servizi IT**. |
-| SUMIFS (stringa chiave per somma, stringa intervallo di criteri1, stringa valore di criteri1 \[, stringa intervallo di criteri2, stringa valore di criteri2, …\]) | Restituisce la somma dei valori dei nodi XML (in cui il nome viene definito come chiave) che sono stati raccolti durante l'esecuzione del formato e che soddisfano le condizioni specificate (coppie di intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
-| SUMIF (stringa chiave per somma, stringa intervallo di criteri, stringa valore di criteri) | Restituisce la somma dei valori dei nodi XML (in cui il nome viene definito come chiave) che sono stati raccolti durante l'esecuzione del formato e che soddisfano la condizione specificata (intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
+| SUMIFS (stringa chiave per somma, stringa intervallo di criteri1, stringa valore di criteri1 \[, stringa intervallo di criteri2, stringa valore di criteri2, …\]) | Restituisce la somma dei valori raccolti per i nodi XML (in cui il nome viene definito come chiave)quando il formato è stato eseguito e che soddisfa le condizioni specificate (coppie di intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
+| SUMIF (stringa chiave per somma, stringa intervallo di criteri, stringa valore di criteri) | Restituisce la somma dei valori raccolti per i nodi XML (in cui il nome viene definito come chiave)quando il formato è stato eseguito e che soddisfa la condizione specificata (un intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
 | COUNTIFS (stringa chiave per somma, stringa intervallo di criteri1, stringa valore di criteri1 \[, stringa intervallo di criteri2, stringa valore di criteri2, …\]) | Restituisce il numero dei nodi dell'XML che è stato raccolto durante l'esecuzione del formato e che soddisfa le condizioni specificate (coppie di intervalli e valori). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
-| COUNTIF (stringa intervallo di criteri, stringa valore di criteri) | Restituisce il numero di nodi XML che è stato raccolto durante l'esecuzione del formato e che soddisfa la condizione specificata (intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
-| COLLECTEDLIST (stringa chiave per somma, stringa intervallo di criteri1, stringa valore di criteri1 \[, stringa intervallo di criteri2, stringa valore di criteri2, …\]) | Restituisce un elenco di valori dei nodi XML dell'XML raccolto durante l'esecuzione del formato e che soddisfa le condizioni specificate (intervallo e valore). Restituisce un elenco vuoto quando il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
+| COUNTIF (stringa intervallo di criteri, stringa valore di criteri) | Restituisce il numero dei nodi dell'XML che è stato raccolto durante l'esecuzione del formato e che soddisfa la condizione specificata (intervallo e valore). Restituisce il valore **0** (zero) se il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
+| COLLECTEDLIST (stringa chiave per somma, stringa intervallo di criteri1, stringa valore di criteri1 \[, stringa intervallo di criteri2, stringa valore di criteri2, …\]) | Restituisce l'elenco di valori raccolti per i nodi XML durante l'esecuzione del formato e che soddisfa le condizioni specificate (intervallo e valore). Restituisce un elenco vuoto quando il flag **Raccogli dettagli di output** del file corrente è disattivato. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Altre funzioni (specifiche del dominio aziendale)
 
@@ -667,6 +731,9 @@ Quando vengono definite queste origini dati, è possibile utilizzare un'espressi
 | FA\_BALANCE (codice del cespite, codice del modello di valore, anno di dichiarazione, data di dichiarazione) | Restituisce il contenitore dati preparati del saldo cespiti. L'anno di dichiarazione deve essere specificato come valore dell'enumerazione di Finance and Operations **AssetYear**. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** restituisce il contenitore dati preparati dei saldi del cespite **"COMP-000001"** con il modello di valore **"Current"** sulla data della sessione corrente di for Finance and Operations. |
 | TABLENAME2ID (stringa) | Restituisce una rappresentazione in formato intero di un ID tabella per il nome di tabella specificato. | **TABLENAME2ID ("Intrastat")** restituisce **1510**. |
 | ISVALIDCHARACTERISO7064 (stringa) | Restituisce il valore booleano **TRUE** quando la stringa specificata rappresenta un numero di conto bancario internazionale (IBAN) valido. In caso contrario, restituisce il valore booleano **FALSE** | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** restituisce **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** restituisce **FALSE**. |
+| NUMSEQVALUE (codice di sequenza numerica, ambito, l'ID ambito) | Restituisce il nuovo valore generato di una sequenza numerica, in base al codice di sequenza numerica, ambito e ID ambito specificati. L'ambito deve essere specificato come valore dell'enumerazione **ERExpressionNumberSequenceScopeType** (**Condiviso**, **Persona giuridica** o **Società**). Per l'ambito **Condiviso**, specificare una stringa vuota come ID ambito. Per gli ambiti **Persona giuridica** e **Società**, specificare il codice società come ID ambito. Per gli ambiti **Persona giuridica** e **Società**, se si specifica una stringa vuota come ID ambito, il codice corrente della società viene utilizzato. | Definire le origini dati seguenti nel mapping di modello:<ul><li>**enumScope** (tipo**enumerazione Dynamics 365 for Operations** ), che fa riferimento all'enumerazione **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipo**Campo calcolato** ), contenente l'espressione **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Se l'origine dati **NumSeq** viene chiamata, restituisce il nuovo valore generato della sequenza numerica **Gene\_1** che è stata configurata per la società che fornisce il contesto in cui il formato ER viene eseguito. |
+| NUMSEQVALUE (codice di sequenza numerica) | Eseguire il nuovo valore generato da una sequenza numerica, in base alla sequenza numerica specificata, l'ambito **Società** e (come ID ambito) il codice della società che fornisce il contesto in cui formato ER viene eseguito. | È possibile definire la seguente origine dati nel mapping di modelli: **NumSeq** (tipo**Campo calcolato** ). Questa origine dati contiene l'espressione **NUMSEQVALUE ("Gene\_1")**. Se l'origine dati **NumSeq** viene chiamata, restituisce il nuovo valore generato della sequenza numerica **Gene\_1** che è stata configurata per la società che fornisce il contesto in cui il formato ER viene eseguito. |
+| NUMSEQVALUE (ID record sequenza numerica) | Restituisce il nuovo valore generato di una sequenza numerica, in base all'ID record di sequenza numerica specificato. | Definire le origini dati seguenti nel mapping di modello:<ul><li>**LedgerParms** (tipo **Record di tabella**), che fa riferimento alla tabella LedgerParameters</li><li>**NumSeq** (tipo **Campo calcolato** ), contenente l'espressione **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Se l'origine dati **NumSeq** viene chiamata, restituisce il nuovo valore generato della sequenza numerica che è stata configurata nei parametri di contabilità generaòe per la società che fornisce il contesto in cui il formato ER viene eseguito. Questa sequenza numerica identifica univocamente giornali di registrazione e funge da numero batch per collegare insieme le transazioni. |
 
 ### <a name="functions-list-extension"></a>Estensione dell'elenco di funzioni
 
@@ -674,7 +741,6 @@ ER consente di estendere l'elenco di funzioni utilizzate nelle espressioni ER. A
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica sui report elettronici](general-electronic-reporting.md)
-
-[Estensione dell'elenco di funzioni di creazione di report elettronici (ER)](general-electronic-reporting-formulas-list-extension.md)
+- [Panoramica sui report elettronici](general-electronic-reporting.md)
+- [Estensione dell'elenco di funzioni di creazione di report elettronici (ER)](general-electronic-reporting-formulas-list-extension.md)
 

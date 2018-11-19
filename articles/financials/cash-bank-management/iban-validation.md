@@ -16,26 +16,26 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
-ms.openlocfilehash: e091aab70a98e0f4b96c41c1ee48926947539105
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
 ms.contentlocale: it-it
-ms.lasthandoff: 08/31/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
-# <a name="manage-international-bank-account-number-iban-account-validation"></a>Gestire la convalida del conto IBAN (International Bank Account Number)
+# <a name="manage-international-bank-account-number-iban-validation"></a>Gestire la convalida IBAN (International Bank Account Number)
 
 [!include [banner](../includes/banner.md)]
 
-La convalida del conto IBAN (International Bank Account Number) aumenta la convalida che viene effettuata quando si aggiunge un IBAN a un conto bancario.
+La convalida IBAN (International Bank Account Number) aumenta la convalida che viene effettuata quando si aggiunge un IBAN a un conto bancario.
 
-La struttura dell'IBAN viene archiviata in Microsoft Dynamics 365 for Finance and Operations e viene caricata automaticamente la prima volta che si utilizza l'IBAN nei conti bancari. Il numero di conto bancario fa parte della struttura definita per un numero IBAN. In base a tale struttura, se la posizione e la lunghezza del numero di conto nell'IBAN non corrispondono alla posizione definita nella struttura per ciascun paese o area, vengono visualizzati messaggi di avviso.
+Le informazioni sulla struttura dell'IBAN vengono archiviate in Microsoft Dynamics 365 for Finance and Operations. Quelle informazioni vengono caricate automaticamente durante la prima utilizzo dell'IBAN sui conti bancari. Contengono la lunghezza IBAN, le posizioni iniziali del numero di conto bancario e il numero di registrazione e la lunghezza del numero e del numero di registrazione del conto bancario.
 
 ## <a name="set-up-iban-structures"></a>Impostare le strutture IBAN
 
 1. Passare a **Gestione cassa e banche \> Impostazioni \> Strutture IBAN**.
 2. Si noti che le strutture IBAN per ogni paese o area sono state impostate automaticamente.
-3. Se è necessario personalizzare le strutture per un paese o un'area specifica, è possibile modificarle.
+3. Se si desidera personalizzare le strutture per un paese o un'area geografica specifica, è possibile modificarle.
 4. Le definizioni delle strutture saranno parte di ogni nuova versione. È possibile utilizzare il menu **Reimposta strutture** per caricare le definizioni più recenti dopo ogni aggiornamento.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Convalidare la struttura IBAN in un conto bancario
@@ -44,7 +44,9 @@ La struttura dell'IBAN viene archiviata in Microsoft Dynamics 365 for Finance an
 2. Creare un conto bancario.
 3. Nella Scheda dettaglio **Informazioni aggiuntive** immettere un IBAN.
 
-    Se la posizione e la lunghezza del numero di conto nell'IBAN non corrispondono alla posizione definita nella struttura per ciascun paese o area, viene visualizzato un messaggio. Non è possibile procedere se la lunghezza dell'IBAN non corrisponde alla lunghezza nella struttura IBAN.
+    Se la lunghezza IBAN non corrisponde alla lunghezza definita per ciascun paese/area geografica, verrà visualizzato un messaggio di avviso. Non è possibile procedere se la lunghezza dell'IBAN non corrisponde alla lunghezza specificata nella struttura IBAN.
 
     La convalida verifica inoltre che il numero di conto bancario corrisponda alla parte dell'IBAN che rappresenta il numero di conto bancario. Se il numero di conto bancario non corrisponde, viene visualizzato un messaggio di avviso. Questo messaggio è solo un avviso. È possibile continuare nonostante il numero di conto bancario non corrisponda.
+
+    La convalida verifica inoltre che il numero di registrazione banca corrisponda alla parte dell'IBAN che rappresenta il numero di registrazione banca. Il numero di registrazione include un numero banca e spesso una succursale bancaria aggiuntiva. Se il numero di registrazione banca non corrisponde, viene visualizzato un messaggio di avviso. Questo messaggio è solo un avviso. È possibile continuare nonostante il numero di registrazione banca non corrisponda.
 

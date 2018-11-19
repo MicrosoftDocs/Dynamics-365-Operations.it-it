@@ -1,9 +1,9 @@
 ---
-title: Tipi di giornali di registrazione contabile
-description: "In questo articolo vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina **Nomi giornale di registrazione** per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Finance and Operations."
+title: "Tipi di giornale di registrazione contabilità generale"
+description: "In questo argomento vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
-# <a name="ledger-journal-types"></a>Tipi di giornale di registrazione contabile
+# <a name="ledger-journal-types"></a>Tipi di giornale di registrazione contabilità generale
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina **Nomi giornale di registrazione** per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Finance and Operations.
+In questo argomento vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina **Nomi giornale di registrazione** per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Finance and Operations.
 
 | Tipo giornale di registrazione                      | Scopo                       | Immettere le transazioni in questa pagina                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -53,7 +53,8 @@ In questo articolo vengono descritti i tipi di giornale di registrazione che è 
 | Esborso retribuzioni              | Emettere pagamenti che si basano sulle istruzioni di pagamento delle retribuzioni. Non è possibile immettere manualmente le transazioni in questo giornale di registrazione. È necessario generare le istruzioni di pagamento e quindi inviare tali istruzioni per il pagamento.                                                                                                                                                              |                                                                |
 | Periodico                          | Creare transazioni periodiche per il giornale di registrazione periodico.                                                                                                                                                                                                                                                                                                      | Giornali di registrazione periodici                                              |
 | Registra cespiti                 | Registrare transazioni cespiti.                                                                                                                                                                                                                                                                                                                              | Cespiti                                                   |
-| Progetto - Spese                | Creare transazioni di spesa del progetto.                                                                                                                                                                                                                                                                                                                        | Spese                                                        |
+| Progetto - Spese                | Creare transazioni di spesa del progetto.                                                                                                                                                                                                                                                                                                                        | Expense                                                        |
+| Rettifica valuta di dichiarazione     | Creare rettifiche nella valuta di dichiarazione per i saldi dei conti CoGe.               | Giornali di registrazione rettifiche valuta di dichiarazione                         |
 | Transazioni statistiche            | Creare transazioni statistiche.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Rimessa bancaria fornitore            | Creare un file di rimesse di effetti passivi che può essere inviato alla banca dell'organizzazione.                                                                                                                                                                                                                                                                      | Giornale di registrazione rimesse                                             |
 | Esborso fornitore               | Creare transazioni di esborso fornitore.                                                                                                                                                                                                                                                                                                                    | Giornale di registrazione pagamenti                                                |

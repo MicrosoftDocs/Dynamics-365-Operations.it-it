@@ -3,7 +3,7 @@ title: "Confronto tra funzionalità cloud e locali"
 description: "Questo argomento fornisce informazioni sulla disponibilità delle funzionalità cloud e locali supportate."
 author: robinarh
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: b59921820f02e2ac026873ce45fdecd104fef544
-ms.openlocfilehash: 4354b9d55cc84f7c74020d95617c406dc5fb225c
+ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
+ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
 ms.contentlocale: it-it
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 
@@ -116,11 +116,8 @@ Nelle tabelle seguenti sono elencate le aree del prodotto. Il supporto cloud e l
 | Sviluppo di Visual Studio |  | Sì | Sì |
 
 
-## <a name="dynamics-365-for-retail"></a>Dynamics 365 for Retail 
-
-| Area | Funzionalità | Cloud | Locale|
-|---|---|---|---|
-| Tutte le aree di Retail | Tutte le funzionalità di Retail | Sì | No |
+### <a name="retail"></a>Retail 
+Per visualizzare un elenco delle capacità di vendita al dettaglio disponibili nelle distribuzioni locali, vedere [Capacità vendita al dettaglio disponibili in distribuzioni locali](../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 

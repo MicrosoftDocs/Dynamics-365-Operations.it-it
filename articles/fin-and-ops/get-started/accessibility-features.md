@@ -3,7 +3,7 @@ title: "Funzionalità di accessibilità"
 description: "In questo argomento vengono descritte le funzionalità progettate a supporto degli utenti con disabilità nell'utilizzo di Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 11/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 834146c1a57cca0c02598290352c3ab8e1e4b7f5
+ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
+ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -41,7 +41,7 @@ Per la maggior parte degli utenti, l'utilizzo quotidiano del sistema implica l'i
 
 Qualsiasi pagina a cui è possibile accedere utilizzando il menu Pannello di navigazione, nel riquadro a sinistra, è disponibile anche tramite la casella **Cerca**. Premere ALT+G per spostare lo stato attivo nella casella **Cerca** e quindi digitare il nome o la descrizione della pagina.
 
-!["Conto bancario" immesso nella casella Cerca](media/6d08b0be32808221023e2aa92d69fd70.png)
+!["Conti bancari" immessi nella casella Cerca](media/6d08b0be32808221023e2aa92d69fd70.png  "'conti bancari' immessi nella casella Cerca")
 
 Per ulteriori informazioni, vedere [Ricerca per navigazione](navigation-search.md).
 
@@ -56,17 +56,21 @@ Ogni azione che viene fornita in una pagina è disponibile da una tastiera, tram
 
 Si desidera eseguire l'azione **Registro notifiche tramite posta elettronica** che appare nel gruppo **Notifica tramite posta elettronica** della scheda **Ordine cliente** nel riquadro azioni.
 
-![Azione Registro notifiche tramite posta elettronica nel riquadro azioni](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg)
+![Azione Registro notifiche tramite posta elettronica nel riquadro azioni](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "Azione 'Registro notifiche tramite posta elettronica' nel riquadro azioni")
 
 Un'opzione consiste nell'utilizzare la tastiera. Premere CTRL+F6 per spostare lo stato attivo nel riquadro azioni, quindi premere TAB ripetutamente per spostarsi tra tutte le tabulazioni e le azioni fino a raggiungere l'azione **Registro notifiche tramite posta elettronica**.
 
 Tuttavia, è possibile eseguire l'azione più direttamente. Da un punto qualsiasi nella pagina, premere CTRL+Apostrofo (') per visualizzare la casella di ricerca per le azioni.
 
-![Casella di ricerca delle azioni](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg)
+![Casella di ricerca delle azioni](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Casella di ricerca delle azioni")
 
 Nella casella di ricerca, digitare parole che descrivono l'azione. L'azione viene resa disponibile e l'utente può eseguirla direttamente. Ad esempio, digitando **registro**, **notific** (parola parziale) o **posta elettronica**, è possibile passare alla funzionalità Registro notifiche tramite posta elettronica.
 
-!["Registro" immesso nella casella Cerca](media/image4.png) !["notific" immessa nella casella Cerca](media/image5.png) !["posta elettronica" immessa nella casella Cerca](media/image6.png)
+!["Posta elettronica" immessa nella casella Cerca](media/image4.png "'posta elettronica' immessa nella casella Cerca") 
+
+!["Notifica" immessa nella casella Cerca](media/image5.png "'notifica' immessa nella casella Cerca")
+
+!["Registro" immesso nella casella Cerca](media/image6.png "'registro' immessa nella casella Cerca")
 
 Al termine, è possibile premere di nuovo CTRL+Apostrofo per riportare lo stato attivo sul campo che si stava utilizzando prima di eseguire la ricerca dell'azione.
 
@@ -78,7 +82,7 @@ Nell'utilizzo quotidiano del sistema, non tutti i campi sono obbligatori per l'e
 
 Tuttavia, è possibile che alcuni campi che si utilizzano spesso per eseguire attività non siano inclusi nella sequenza di tabulazione predefinita. In questo caso, se si utilizza Windows Narrator, è possibile utilizzare le azioni della tastiera di Windows Narrator per accedere a questi campi e ispezionarne il contenuto. In alternativa, è possibile attivare l'opzione **Sequenza di schede migliorata** nella pagina **Opzioni**. Questa opzione integra nella sequenza di tabulazione tutti i campi modificabili e di sola lettura. È possibile utilizzare la personalizzazione della pagina per creare una sequenza di tabulazione personalizzata e omettere i campi che non devono fare parte della sequenza di tabulazione. Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
 
-![Opzione Sequenza di schede migliorata](media/8c0f12bbb3f26032997ef0ba95d89b6a.png)
+![Opzione "Sequenza di schede migliorata"](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "opzione 'Sequenza di schede migliorata'")
 
 ## <a name="form-patterns"></a>Schemi di modulo
 
