@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>Compensazioni dei saldi contabili
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Le compensazioni dei saldi contabili consentono di abbinare le transazioni in Dare e in Avere nella contabilità generale e di contrassegnarle come liquidati. In questo modo, è possibile garantire che le transazioni correlate siano state liquidate. È inoltre possibile stornare le liquidazioni se sono state effettuate per errore.
 
