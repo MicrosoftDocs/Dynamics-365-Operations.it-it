@@ -1,9 +1,9 @@
 ---
-title: "Impostare programmi fedeltà per clienti"
-description: "In questo articolo viene descritto come impostare un programma fedeltà. Un programma fedeltà può contribuire ad aumentare la fedeltà dei clienti premiandoli per l'acquisto di prodotti nei propri punti vendita al dettaglio. In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili in tutte le persone giuridiche per qualsiasi canale di vendita al dettaglio."
+title: "Panoramica fedeltà"
+description: "In questo argomento vengono descritte le funzionalità del programma fedeltà di Microsoft Dynamics 365 for Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà."
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,23 +20,20 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8aa29282f80870b93d119c095bb95c3bcfbfc682
+ms.sourcegitcommit: 11ad4168c7e5ddc63608d1c86430e4a6936d5e30
+ms.openlocfilehash: 78318849873f396c662c5250f0e86146279cc3a5
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
-# <a name="set-up-customer-loyalty-programs"></a>Impostare programmi fedeltà per clienti
+# <a name="loyalty-overview"></a>Panoramica fedeltà
 
 [!include [banner](includes/banner.md)]
 
-In questo articolo viene descritto come impostare un programma fedeltà. Un programma fedeltà può contribuire ad aumentare la fedeltà dei clienti premiandoli per l'acquisto di prodotti nei propri punti vendita al dettaglio. In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili in tutte le persone giuridiche per qualsiasi canale di vendita al dettaglio.
+I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti premiandoli per le loro interazioni con il brand del rivenditore. In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili in tutte le persone giuridiche per qualsiasi canale di vendita al dettaglio. In questo argomento vengono descritte le funzionalità del programma fedeltà di Microsoft Dynamics 365 for Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
 
-<a name="loyalty-features"></a>Funzionalità di fedeltà
-----------------
-
-È possibile impostare il programma di fedeltà in modo che comprenda le seguenti opzioni:
+È possibile impostare il programma fedeltà in modo che comprenda le seguenti opzioni.
 
 -   Impostare i molteplici tipi di premi offerti nei programmi fedeltà e tenere traccia della partecipazione ai programmi fedeltà.
 -   Impostare i programmi fedeltà che rappresentano i diversi incentivi di premi offerti. È possibile includere i livelli del programma fedeltà per offrire maggiori incentivi e premi ai clienti che acquistano con maggiore frequenza o spendono più denaro nei punti vendita.
@@ -45,7 +42,7 @@ In questo articolo viene descritto come impostare un programma fedeltà. Un prog
 -   Rettificare manualmente le carte fedeltà o trasferire il saldo premi fedeltà da una carta a un'altra per soddisfare o premiare un cliente.
 
 ## <a name="setting-up-loyalty-programs"></a>Impostazione dei programmi fedeltà
-È necessario impostare più componenti per abilitare la funzionalità del programma fedeltà in Dynamics 365 for Retail. Nel diagramma riportato di seguito vengono illustrati i componenti del programma fedeltà e viene indicato in quale modo fanno riferimento l'uno all'altro. ![Flusso del processo di impostazione del programma fedeltà](./media/loyaltyprocess.gif)
+È necessario impostare più componenti per abilitare la funzionalità del programma fedeltà in Dynamics 365 for Retail. Nel diagramma riportato di seguito vengono illustrati i componenti del programma fedeltà e viene indicato in quale modo fanno riferimento l'uno all'altro. ![Flusso del processo di impostazione del programma fedeltà](./media/loyaltyprocess.gif "Componenti del programma fedeltà e come sono correlati tra loro")
 
 ## <a name="loyalty-components"></a>Componenti del programma fedeltà
 Nella seguente tabella viene descritto ciascun componente e viene indicato dove viene utilizzato nell'impostazione del programma fedeltà.
@@ -70,11 +67,63 @@ Nella seguente tabella sono descritti i processi che devono essere eseguiti per 
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | 1050 (informazioni fedeltà)           | Eseguire questo processo per inviare i dati del programma fedeltà da Dynamics 365 for Retail ai punti vendita al dettaglio. È una buona idea programmare l'esecuzione del processo di frequente, in modo che i dati del programma fedeltà siano trasmessi a tutti gli archivi.                                                                                                                                                                                               | Programmazione della distribuzione                |
 | Elabora programmi fedeltà              | Eseguire questo processo per associare gli schemi del programma fedeltà ai canali di vendita al dettaglio a cui lo schema del programma fedeltà è assegnato. Questo processo può essere programmato per l'esecuzione come processo batch. È necessario eseguire questo processo se si modificano i dati di configurazione del programma fedeltà, ad esempio schemi del programma fedeltà, programmi fedeltà o i punti di ricompensa del programma fedeltà.                                                                                               | Elabora programmi fedeltà              |
-| Elabora transazioni fedeltà offline | Eseguire questo processo per aggiornare le carte fedeltà in modo che includano le transazioni elaborate offline. Questo processo si applica solo se la casella di controllo **Guadagna offline** è selezionata nella pagina **Parametri condivisi di vendita al dettaglio**, in modo che i premi possono essere guadagnati offline.                                                                                                                                               | Elabora transazioni fedeltà offline |
+| Elabora transazioni fedeltà offline | Eseguire questo processo per aggiornare le carte fedeltà in modo che includano le transazioni elaborate offline. Questo processo si applica solo se la casella di controllo **Guadagna offline** è selezionata nella pagina **Parametri condivisi di vendita al dettaglio**, in modo che le ricompense possano essere guadagnate offline.                                                                                                                                               | Elabora transazioni fedeltà offline |
 | Aggiorna livelli carta fedeltà            | Eseguire questo processo per valutare l'attività di acquisizione del cliente rispetto alle regole di livello per un programma fedeltà e aggiornare lo stato del livello del cliente. Questo processo è necessario solo se si modificano le regole di livello nei programmi fedeltà e si desidera applicare le regole aggiornate con effetto retroattivo alle carte fedeltà già emesse. Questo processo può essere eseguito come processo batch o per le carte singole. | Aggiorna livelli carta fedeltà            |
 
+## <a name="loyalty-enhancements"></a>Miglioramenti al programma fedeltà
 
+La vendita al dettaglio è una nuova funzionalità del programma fedeltà nell'ambito della versione del mese di ottobre 2018. Ognuno dei nuovi miglioramenti viene descritto di seguito.
 
+- Nell'ambito di uno schema del programma fedeltà nelle versioni precedenti i rivenditori potevano creare regole di ricavo e rimborso differenti per livello per distinguere i premi dei clienti nei diversi livelli. I rivenditori possono ora includere "rapporti" nell'ambito delle regole di ricavo e rimborso in modo che un determinato gruppo di clienti possa essere parte dei livelli esistenti, ma essere tuttavia ricompensato diversamente. In tal modo si evita la necessità di creare livelli aggiuntivi.
+    
+    > [!NOTE]
+    > Le regole dei ricavi nello schema del programma fedeltà sono aggiuntive. Ad esempio, se si crea una regola per ricompensare un membro di livello gold con 10 punti per ogni dollaro statunitense e si crea anche una regola per un cliente con un rapporto "veterano" per ricompensarlo con 5 punti per ogni dollaro statunitense, un veterano che è anche membro del livello gold guadagnerebbe 15 punti per 1 dollaro statunitense, poiché il cliente si qualifica per entrambe le righe. Tuttavia, se il cliente veterano non fosse un membro di livello gold, guadagnerebbe 5 punti per ogni dollaro. Per riflettere le modifiche apportate ai canali, eseguire i processi **Elabora programmi fedeltà** e **1050** (informazioni sui programma fedeltà).
+    
+    ![Ricavi basati sul rapporto](./media/Affiliation%20based%20earning.png "Ricavi basati sul rapporto")
 
+- I rivenditori fanno spesso prezzi speciali per un determinato gruppo di clienti ai quali non desiderano applicare i programmi fedeltà. Ad esempio, grossisti o dipendenti che ottengono prezzi speciali e nessun punto programma fedeltà. Comunemente, "i rapporti" sono utilizzati per applicare i prezzi speciali a questi gruppi di clienti. Per limitare il guadagno di punti programma fedeltà di determinati gruppi di clienti, il rivenditore può specificare uno o più rapporti nella sezione **Report esclusi** dello schema programma fedeltà. In tal modo, quando i clienti che appartengono ai rapporti esclusi sono membri effettivi del programma fedeltà, non potranno ottenere i punti del programma fedeltà per gli acquisti. Per riflettere le modifiche apportate ai canali, eseguire i processi **Elabora programmi fedeltà** e **1050** (informazioni sui programma fedeltà).
 
+    ![Rapporti esclusi](./media/Excluded%20affiliations.png "Rapporti esclusi dai punti del programma fedeltà")
+    
+- I rivenditori possono generare i numeri di carta fedeltà nei canali. Prima dell'aggiornamento del mese di ottobre 2018 i rivenditori potevano utilizzare carte fedeltà fisiche o generare una carta fedeltà utilizzando alcuna informazione univoche sul cliente, ad esempio un numero di telefono. Per abilitare la generazione automatica di carte fedeltà nelle vendite al dettaglio, attivare **Genera numero carta fedeltà** nel profilo della funzionalità associato al punto vendita. Per i canali online, i rivenditori possono utilizzare l'API IssueLoyaltyCard per emettere le carte fedeltà ai clienti. I rivenditori possono fornire un numero di carta fedeltà a questa API, che verrà utilizzato per generare la carta fedeltà, o il sistema utilizzerà la sequenza numerica della carta fedeltà in Dynamics 365 for Retail. Tuttavia, se la sequenza numerica non è presente e il rivenditore non fornisce un numero di carta fedeltà mentre chiama l'API, verrà visualizzato un errore.
+
+![Genera carta fedeltà](./media/Generate%20loyalty%20card.png "Il numero di carta fedeltà verrà generato automaticamente")
+
+- I punti del programma fedeltà guadagnati o rimborsati vengono ora salvati per ciascuna transazione e ordine cliente rispetto alla riga di vendita, in modo che lo stesso importo possa essere rimborsato o prelevato solo nel caso di resi completi o parziali. Inoltre, avere la visibilità dei punti a livello di riga di vendita garantisce agli utenti dei call center la possibilità di rispondere alle domande dei clienti in merito alla quantità di punti guadagnati o riscattati per ciascuna riga. Prima di questa modifica i punti premio venivano sempre ricalcolati durante i resi, il che generava una quantità diversa dall'originale, se le regole di ricavo o rimborso erano state modificate e inoltre gli utenti dei call center non avevano la visibilità sulla suddivisione dei punti. I punti possono essere visualizzati nel modulo **Transazioni carte** per ogni carta fedeltà.
+    
+- I rivenditori possono ora definire il periodo della distribuzione degli incentivi per ogni punto premio. La configurazione di un periodo di distribuzione definirà la durata dalla data in cui vengono guadagnati, dopo la quale i punti premio diventerebbero disponibili ai clienti. I punti non distribuiti possono essere visualizzati nella colonna **Punti non distribuiti** della pagina **Carte fedeltà**. Inoltre, i rivenditori possono definire il limite massimo di punti premio del programma fedeltà per carta fedeltà. Questo campo può essere utilizzato per ridurre l'impatto delle frodi del programma fedeltà. Quando la quantità massima di punti premio è stata raggiunta, l'utente non può ottenere altri punti. Il rivenditore può decidere di bloccare tali schede finché non avrà verificato l'assenza di una potenziale frode. Se il rivenditore determina la frode, il rivenditore non può solo bloccare la carta fedeltà per il cliente, ma anche contrassegnare il cliente come bloccato. A questo scopo, impostare la proprietà **Blocca cliente per iscrizione al programma fedeltà** su **Sì** in **Tutti i clienti** nella scheda dettaglio **Vendita al dettaglio**. I clienti bloccati non potranno ricevere una carta fedeltà su alcuno dei canali.
+
+![Distribuzione incentivi e quantità massima di punti premio](./media/Vesting%20and%20maximum%20reward%20points.png "Definizione della distribuzione incentivi e della quantità massima di punti premio")
+
+- I rapporti vengono utilizzati per immettere prezzi e sconti speciali, ma vi sono alcuni rapporti che i rivenditori non desiderano mostrare ai propri clienti. Ad esempio, un rapporto denominato "Cliente con spesa elevata" potrebbe non essere accolto favorevolmente da alcuni . Inoltre, sono disponibili alcuni rapporti che non dovrebbero essere gestiti nel punto vendita, ad esempio, i dipendenti, in quanto non si desidera che i cassieri decidano chi è un dipendente e quindi offrano sconti in base al dipendente. I rivenditori possono ora selezionare i rapporti che devono essere nascosti nei canali al dettaglio. I rapporti contrassegnati come **Nascondi in canali** non possono essere visualizzati, aggiunti né rimossi nel POS. Tuttavia, i prezzi e gli sconti associati al rapporto verranno tuttavia applicati ai prodotti.
+
+![Nascondi rapporti](./media/Hide%20affiliations.png "Nascondere rapporti nei canali")
+    
+- Gli utenti dei call center possono ora cercare più facilmente un cliente utilizzando le informazioni sulla carta fedeltà e visualizzare le pagine della carta fedeltà e delle transazioni della carta fedeltà del cliente dalla pagina **Servizio clienti**. 
+
+![Servizio clienti](./media/Customer%20service.png "Trovare informazioni sul programma fedeltà per il cliente")
+    
+- Se una carta fedeltà è compromessa, una scheda sostitutiva deve essere generata e i punti esistenti trasferiti nella nuova carta. Il flusso della scheda sostitutiva è stato semplificato in questa versione. Inoltre, i clienti possono donare alcuni o tutti i punti del programma fedeltà ad amici e alla famiglia. Quando i punti vengono trasferiti, voci di rettifica dei punti vengono create per ogni carta fedeltà. La carta sostitutiva e la funzionalità per trasferire il saldo possono essere accessibili dalla pagina **Carte fedeltà**.
+
+![Sostituisci e trasferisci punti](./media/Replace%20and%20transfer%20points.png "Sostituire la carta fedeltà o trasferire il saldo")
+    
+- I rivenditori possono voler acquisire l'efficacia di un canale specifico per registrare i clienti in un programma fedeltà. L'origine di iscrizione per le carte fedeltà viene ora salvata in modo che i rivenditori possano eseguire report su questi dati. L'origine delle iscrizioni è catturata automaticamente per tutte le carte fedeltà emesse da MPOS/CPOS o dai canali di commercio elettronico. Per le carte fedeltà emesse dall'applicazione di back office, l'utente dei call center può selezionare un canale appropriato.
+
+- Nella versioni precedenti i rivenditori potevano utilizzare MPOS/CPOS per riscattare i punti programma fedeltà per i clienti in un punto vendita. Tuttavia, in quelle versioni, dato che il saldo del programma fedeltà appare sotto forma di punti programma fedeltà, il cassiere non poteva visualizzare l'importo del valore della valuta che poteva essere applicato alla transazione in corso. Il cassiere doveva effettuare la conversione da punti a valuta prima di pagare in base ai punti del programma fedeltà. Nella versione esistente, dopo l'aggiunta delle righe alla transazione, il cassiere può visualizzare l'importo che i punti del programma fedeltà possono coprire per la transazione in corso, facilitando l'applicazione di alcuni o tutti punti del programma fedeltà alla transazione. Inoltre, il cassiere può vedere i punti che scadono nei 30 giorni successivi, in modo da potere eseguire l'upselling o il cross-selling per motivare il cliente a spendere i punti in scadenza in quella transazione.
+
+![Punti coperti dal saldo del programma fedeltà](./media/Points%20covered%20by%20loyalty%20balance.png "Mostrare il saldo coperto dai punti del programma fedeltà")
+
+![Punti in scadenza](./media/Expiring%20points.png "Visualizzare i punti in scadenza")
+    
+## <a name="upcoming-enhancements"></a>Prossimi miglioramenti
+
+Le funzionalità seguenti saranno disponibili nei prossimi aggiornamenti mensili di Dynamics 365 for Retail.
+    
+- I clienti vogliono la possibilità di visualizzare i relativi dettagli del saldo del programma fedeltà sui canali per il consumatore. Analogamente, per i cassieri è importante visualizzare lo storico dei clienti dei punti del programma fedeltà in MPOS/CPOS per rispondere rapidamente a tutte le query del cliente. In una prossima versione mensile i clienti e i cassieri potranno visualizzare i dettagli dello storico del programma fedeltà.
+
+- Molti rivenditori possono assegnare i punti programma fedeltà basati esclusivamente sulle transazioni di vendita, ma i rivenditori più attenti ai clienti li desiderano ricompensare per qualsiasi attività di engagement con il loro brand. Ad esempio, desiderano offrire premi per il completamento di un sondaggio online, la visita a un punto vendita, avere messo mi piace ai rivenditori su Facebook, avere twittato sul rivenditore e altro ancora. In futuro aggiungeremo la possibilità di assegnare punti del programma fedeltà per qualsiasi attività dei clienti. A tale scopo, il rivenditore può definire un "altro tipo di attività" e le regole di ricavo per queste attività. Verrà esposta anche un'API del server di vendita al dettaglio che può essere chiamata quando viene identificata un'attività che utilizzerà la regola di ricavo per assegnare i punti del programma fedeltà richiesti.
+
+- Per consentire una vera esperienza di vendita al dettaglio su tutti i canali, ai clienti verrà consentito di guadagnare e riscattare i punti del programma fedeltà in tutti i canali. 
+
+- La spedizione gratuita o scontata è uno dei fattori che motiva particolarmente i clienti ad acquistare online. Per consentire ai rivenditori di impostare le promozioni di spedizione, verrà introdotto un nuovo tipo di promozione in cui il rivenditore può definire le soglie, che una volta raggiunte, qualificheranno i clienti per la spedizione scontata o gratuita.
 

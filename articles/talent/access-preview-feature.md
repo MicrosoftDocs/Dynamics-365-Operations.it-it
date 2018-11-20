@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ Questo argomento descrive come un amministratore può attivare le funzionalità 
 1. Accedere a Microsoft Dynamics 365 for Talent: Attract.
 2. Nel menu **Impostazione** (il simbolo di ingranaggio) nell'angolo superiore destro, selezionare **Impostazioni di amministrazione**.
 3. Nella scheda **Gestione funzionalità**, selezionare l'opzione accanto a **Funzionalità di anteprima** di modo che diventi blu.
-4. Aggiornare il browser per visualizzare le nuove funzionalità. Tutti gli utenti che hanno già eseguito l'accesso, vedranno le funzionalità all'accesso successivo oppure possono aggiornare il browser per visualizzare le funzionalità immediatamente.
+4. Facoltativamente è possibile controllare le singole funzionalità abilitando/disabilitando specifiche funzionalità in questa pagina.
+5. Aggiornare il browser per visualizzare le nuove funzionalità. Tutti gli utenti che hanno già eseguito l'accesso, vedranno le funzionalità all'accesso successivo oppure possono aggiornare il browser per visualizzare le funzionalità immediatamente.
 
 #### <a name="core-hr"></a>Core HR
 
@@ -61,12 +62,11 @@ Questo argomento descrive come un amministratore può attivare le funzionalità 
 
 ## <a name="features-that-are-currently-in-preview"></a>Funzionalità attualmente in anteprima
 
-### <a name="attract"></a>Attract
+### <a name="attract"></a>Attrai
 
-- **Modelli posizioni lavorative** - Ora è possibile creare modelli per il processo di assunzione. Gli utenti possono già personalizzare il processo di assunzione per una specifica posizione lavorativa. Tuttavia, possono ora creare modelli per il processo e quindi selezionare il modello appropriato quando viene creato una specifica posizione lavorativa. Di conseguenza, questa funzionalità consente di semplificare il processo di impostazione delle posizioni lavorative.
-- **Sito Carriere** – La versione corrente del sito Carriere elenca soltanto le posizioni lavorative aperte. Tuttavia, altre funzionalità verranno aggiunte al sito in futuro. Le posizioni lavorative possono essere contrassegnate come interne o esterne. Gli utenti interni che accedono al sito vedranno le posizioni lavorative interne e quelle esterne. Tuttavia, gli utenti non interni e gli utenti non registrati vedranno soltanto le posizioni lavorative esterne.
-- **Annunci lavoro** - Ora è possibile pubblicare annunci di lavoro sul sito Carriere.
-- **Annunci lavoro LinkedIn** - Ora è possibile pubblicare annunci di lavoro su LinkedIn.
+- **Candidati pertinenti in una mansione** - I selezionatori e responsabili di assunzione possono verificare facilmente quali candidati possono essere il più appropriati per la mansione tra tutti i candidati. I 5 candidati principali vengono visualizzati in base alla rilevanza del profilo/curriculum rispetto alla descrizione mansione.
+- **Mansioni pertinenti** - I candidati ora vedono un elenco di altri mansioni rilevanti in base al relativo curriculum/profilo e alle descrizioni di posizione lavorativa.  Attualmente questo viene visualizzato ai candidati una volta che presentano una domanda di lavoro come suggerimento per altre opportunità.
+- **Supporto di EEO/OFCCP** - Nuovi tipi di attività consentono l'utilizzo di un modulo predefinito per la raccolta dei dati per le pari opportunità di impiego e OFCCP (Office of Federal Contract Compliance Program) del candidato.  Questo modulo è predefinito e non può essere modificato.
 
     > [!NOTE]
     > Le posizioni lavorative pubblicate sono visibili solo ai clienti che effettuano la sottoscrizione a uno o più prodotti LinkedIn relativi alle posizioni lavorative. In caso contrario, i clienti vedranno una posizione lavorativa solo se la cercano. Le posizioni lavorative pubblicate su LinkedIn non sono visibili immediatamente. È possibile che lo diventino dopo alcune ore dalla pubblicazione eseguita da Attract.

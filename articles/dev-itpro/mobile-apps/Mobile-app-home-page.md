@@ -3,7 +3,7 @@ title: Home page dell'app Dynamics 365 for Unified Operations Mobile
 description: In questo argomento viene descritta l'app mobile Microsoft Dynamics 365 for Unified Operations e vengono forniti i collegamenti alle risorse necessarie per implementarla dell'organizzazione.
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
+ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
+ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
 ms.contentlocale: it-it
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 10/26/2018
 
 ---
 
@@ -61,7 +61,7 @@ La navigazione dell'app mobile è costituita si basa su quattro concetti di base
 ## <a name="implementation-process"></a>Processo di implementazione
 Nella figura seguente è illustrato il processo per implementare entrambe le aree di lavoro mobili fornite da Microsoft e le aree di lavoro mobili personalizzate. 
 
-![Processo di implementazione app mobili](./media/Mobile-implementation-process-5.png)
+[![Processo di implementazione app mobili](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per implementare entrambe le aree di lavoro mobili fornite da Microsoft e le aree di lavoro mobili personalizzate. I numeri nella prima colonna corrispondono ai passaggi numerati nella precedente figura.
 

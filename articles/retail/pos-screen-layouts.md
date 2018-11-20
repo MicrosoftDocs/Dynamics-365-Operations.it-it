@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e4c1f8c7435a901431286960581754e5b2820dad
-ms.openlocfilehash: 34e744884b4bae890d7990103ecc7157c6883869
+ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
+ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
 ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -71,7 +71,7 @@ La configurazione del layout dello schermo determina le azioni, il contenuto e l
 
 ### <a name="assignment"></a>Assegnazione
 
-I layout dello schermo possono essere assegnati a livello di punto vendita o di utente. L'assegnazione dell'utente ha la priorità sulle assegnazioni dei punti vendita e del registratore di cassa e l'assegnazione del registratore ha la priorità sull'assegnazione del punto vendita. In uno scenario semplice in cui tutti gli utenti utilizzano lo stesso layout indipendentemente dal registratore o dal ruolo, il layout dello schermo può essere impostato solo al livello di punto vendita. Negli scenari in cui specifici registratori di cassa o utenti specifici richiedono i layout specializzati, questi possono essere assegnati.
+I layout dello schermo possono essere assegnati a livello di punto vendita, registratore di cassa o utente. L'assegnazione dell'utente ha la priorità sulle assegnazioni dei punti vendita e del registratore di cassa e l'assegnazione del registratore ha la priorità sull'assegnazione del punto vendita. In uno scenario semplice in cui tutti gli utenti utilizzano lo stesso layout indipendentemente dal registratore o dal ruolo, il layout dello schermo può essere impostato solo al livello di punto vendita. Negli scenari in cui specifici registratori di cassa o utenti specifici richiedono i layout specializzati, questi possono essere assegnati.
 
 ### <a name="layout-sizes"></a>Dimensioni layout
 

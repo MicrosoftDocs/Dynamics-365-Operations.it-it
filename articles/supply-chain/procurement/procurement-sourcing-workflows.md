@@ -50,11 +50,12 @@ Per Approvvigionamento sono disponibili i tipi di flusso di lavoro indicati di s
 | Flusso di lavoro richieste aggiunta fornitore  | Creare flussi di lavoro di revisione e approvazione per l'aggiunta di nuovi fornitori tramite le richieste fornitore. |
 
 ## <a name="creating-a-workflow"></a>Creazione di un flusso di lavoro
+
 Per creare un flusso di lavoro, accedere ad Approvvigionamento &gt; Impostazioni &gt; Flussi di lavoro di approvvigionamento e creare un nuovo flusso di lavoro selezionando il tipo di flusso di lavoro che si desidera creare.  
 
 Nella canvas del flusso di lavoro è possibile trascinare elementi del flusso di lavoro nel designer e collegare gli elementi a un flusso. Gli elementi del flusso di lavoro devono essere configurati. Per gli elementi del flusso di lavoro e l'approvazione è possibile configurare il partecipante che deve eseguire l'operazione.
-Tipi di partecipanti
-----------------------
+
+## <a name="types-of-participants"></a>Tipi di partecipanti
 
 È possibile assegnare un passaggio di approvazione ai gruppi di partecipanti indicati di seguito.
 
@@ -68,13 +69,12 @@ Tipi di partecipanti
 
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Definizione di flussi di lavoro di processi aziendali per le richieste di acquisto](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Definizione di flussi di lavoro di processi aziendali per le richieste di acquisto](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Flusso di lavoro delle richieste di acquisto](purchase-requisitions-workflow.md)
+- [Flusso di lavoro delle richieste di acquisto](purchase-requisitions-workflow.md)
 
-[Integrazione di fornitori](vendor-onboarding.md)
+- [Integrazione di fornitori](vendor-onboarding.md)
 
 

@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
 ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 # <a name="provision-talent"></a>Effettuare il provisioning di Talent
@@ -47,7 +47,7 @@ Per informazioni su come iniziare a utilizzare Talent, vedere la metodologa di *
 Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Talent in un ambiente.
 
 1. Nel progetto LCS selezionare il riquadro **Gestione app Talent**.
-2. Il provisioning di Talent viene sempre eseguito in un ambiente Microsoft PowerApps, per consentire l'integrazione e l'estensibilità di PowerApps. Leggere la sezione relativa alla selezione di un ambiente PowerApps in questo argomento prima di continuare. 
+2. Il provisioning di Talent viene sempre eseguito in un ambiente Microsoft PowerApps per consentire l'integrazione e l'estensibilità di PowerApps. Leggere la sezione relativa alla selezione di un ambiente PowerApps in questo argomento prima di continuare. Se non si dispone già di un ambiente PowerApps, selezionare Gestione ambienti in LCS o accedere all'interfaccia di amministrazione di PowerApps. Attenersi quindi alla procedura indicata di seguito per [Creare un ambiente PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Per visualizzare gli ambienti esistenti o crearne di nuovi, l'amministratore di tenant che esegue il provisioning di Talent deve essere assegnato alla licenza PowerApps Piano 2. Se l'organizzazione non dispone di una licenza PowerApps Piano 2, se ne può ottenere una dal CSP o dalla [pagina dei prezzi di PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
@@ -73,7 +73,7 @@ L'integrazione tra Talent e gli ambienti PowerApps consente di integrare ed este
 Utilizzare le seguenti linee guida per la determinazione dell'ambiente PowerApps in cui distribuire Talent: 
 1. In LCS, selezionare Gestione ambienti o passare direttamente all'interfaccia di amministrazione di PowerApps, nella quale è possibile visualizzare gli ambienti esistenti e crearne di nuovi.
 2. In un singolo ambiente PowerApps viene mappato un singolo ambiente Talent.
-3. Un ambiente PowerApps "contiene" l'applicazione Talent e le corrispondenti applicazioni PowerApps, Flow e CDS. Se l'ambiente PowerApps viene eliminato, vengono eliminate anche le app in esso contenute.
+3. Un ambiente PowerApps "contiene" l'applicazione Talent e le corrispondenti applicazioni PowerApps, Flow e CDS. Se l'ambiente PowerApps viene eliminato, vengono eliminate anche le app in esso contenute. Quando viene eseguito il provisioning di un ambiente Talent, può essere eseguito il provisioning di "Versione di valutazione" o "Produzione". Selezionare il tipo di ambiente in base a come verrà utilizzato l'ambiente. 
 4. È consigliabile considerare l'utilizzo di strategie di integrazione e di test di dati, ad esempio Sandbox, UAT, produzione. Pertanto, si consiglia di valutare le varie implicazioni per la distribuzione, poiché non è facile cambiare l'ambiente Talent mappato a un ambiente PowerApps successivamente.
 5. Gli ambienti PowerApps seguenti non possono essere utilizzati per Talent e saranno filtrati in base all'elenco di selezione in LCS:
  

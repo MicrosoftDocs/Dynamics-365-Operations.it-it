@@ -3,7 +3,7 @@ title: Sincronizzazione di ordini cliente direttamente tra Sales e Finance and O
 description: "L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 10/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e26244ffc380291a40edfbd2c2cb5911b0d8b3cb
+ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/11/2018
 
 ---
 
@@ -32,6 +32,12 @@ ms.lasthandoff: 03/26/2018
 [!include [banner](../includes/banner.md)]
 
 L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations.
+
+## <a name="data-flow-in-prospect-to-cash"></a>Flusso di dati in Prospect to cash
+
+La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Finance and Operations e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Finance and Operations e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Finance and Operations e Sales.
+
+[![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 

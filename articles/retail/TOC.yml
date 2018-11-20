@@ -14,6 +14,8 @@
       href: dev-itpro/choose-deployment.md
     - name: Ottenere supporto per Retail
       href: retail-support.md
+    - name: Domande frequenti aggiornamenti del servizio versione uno
+      href: ../fin-and-ops/get-started/one-version.md
 - name: Comprendere il ciclo di vita dell'implementazione
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -143,10 +145,8 @@
       href: product-variants-POS.md
     - name: Periferiche hardware
       items:
-        - name: Periferiche Retail
+        - name: Periferiche vendita al dettaglio
           href: retail-peripherals-overview.md
-        - name: Periferiche hardware POS testate da Microsoft
-          href: microsoft-tested-pos-hardware-peripherals.md
         - name: Simulatore di periferica Retail
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Connettere periferiche al POS
@@ -229,7 +229,9 @@
       href: set-up-rfm-analysis.md
 - name: Sconti e rettifiche prezzi
   items:
-    - name: Gestione dei prezzi di vendita Retail
+    - name: Sconti vendita al dettaglio
+      href: retail-discounts-overview.md
+    - name: Gestione dei prezzi di vendita al dettaglio
       href: price-management.md
     - name: Rettifiche prezzi e sconti
       href: price-adjustments-discounts.md
@@ -271,9 +273,9 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Fedeltà
   items:
-    - name: Impostare programmi fedeltà per clienti
+    - name: Panoramica fedeltà
       href: set-up-customer-loyalty-program.md
-- name: Scorte
+- name: Magazzino
   items:
     - name: Gestione scorte di magazzino
       href: work-with-store-inventory.md
@@ -307,6 +309,8 @@
       href: ../talent/create-job.md
 - name: Funzionalità per la normativa e la localizzazione​
   items:
+    - name: Integrazione fiscale per il canale di vendita al dettaglio
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: Europa orientale
       items:
         - name: Fatture anticipo per Retail in Europa orientale
@@ -315,6 +319,8 @@
           href: localizations/emea-eeu-petty-cash-for-retail.md
         - name: Fatture cliente e ordini di reso cliente di Retail nei paesi dell'Europa orientale
           href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Linee guida di distribuzione per i registratori di cassa per la Repubblica Ceca, l''Ungheria e la Polonia'
+          href: localizations/emea-eeu-deployment.md
     - name: Francia
       items:
         - name: Funzionalità registratore di cassa
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: Supporto per l'aggiornamento e N-1 per l'India
           href: localizations/apac-ind-n-1-for-india.md
+    - name: Italia
+      items:
+        - name: Integrazione stampante fiscale
+          href: localizations/emea-ita-fpi-sample.md
     - name: Norvegia
       items:
         - name: Funzionalità registratore di cassa
@@ -490,6 +500,8 @@
           href: dev-itpro/pos-custom-control.md
         - name: Aggiungere operazioni POS a layout POS tramite Progetto griglia dei pulsanti
           href: dev-itpro/add-POS-operations.md
+        - name: Api Retail POS
+          href: dev-itpro/POS-APIs.md
         - name: Estensione di pagamento POS
           href: dev-itpro/pos-payment-extension.md
         - name: Supporto per gift card esterne

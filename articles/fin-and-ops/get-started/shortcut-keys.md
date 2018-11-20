@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Aggiungere/rimuovere un modulo come preferito (con lo stato attivo su un modulo nel pannello di navigazione)   | MAIUSC+F                    |
 | Spostarsi nel riquadro azioni standard                                              | ALT + M,A o CTRL + F6         |
 | Spostarsi sul riquadro Filtro (può includerne l'apertura)                        | ALT + M,F o CTRL + F3         |
-| Spostare lo stato attivo sul contenuto della pagina (con lo stato attivo nell'elenco di navigazione)            | ALT + M,M o CTRL + F3         |
+| Spostare lo stato attivo sul contenuto della pagina (con lo stato attivo nel riquadro Filtro)                | ALT + M,M o CTRL + F3         |
 | Spostarsi sull'elenco di navigazione nel modulo Dettagli (può includerne l'apertura)    | ALT + M,S o CTRL + F8         |
 | Spostare lo stato attivo sul contenuto della pagina (con lo stato attivo nell'elenco di navigazione)            | ALT + M,M o CTRL + F8         |
 | Chiudere l'elenco di navigazione nel modulo Dettagli (con lo stato attivo nell'elenco di navigazione) | ESC                        |

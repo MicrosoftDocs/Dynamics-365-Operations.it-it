@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 79479f6949c52830918598583ee91dd85d2d7ac3
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
 ms.contentlocale: it-it
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="view-settlements"></a>Visualizza liquidazioni
 
-Il pulsante **Visualizza liquidazioni** del riquadro azioni offre un accesso rapido allo storico delle liquidazioni e altre informazioni sull'intera transazione delle liquidazioni. È inoltre possibile mostrare altre transazioni che sono correlate alla transazione selezionata, perché fanno parte della stessa liquidazione o perché sono pagamenti creati nello stesso giornale di registrazione pagamenti.
+Il pulsante **Visualizza liquidazioni** del riquadro azioni offre un accesso rapido allo storico delle liquidazioni e informazioni dettagliate sull'intera transazione delle liquidazioni. È inoltre possibile mostrare altre transazioni che sono correlate alla transazione selezionata, perché fanno parte della stessa liquidazione o perché sono pagamenti creati nello stesso giornale di registrazione pagamenti.
 
 1. Selezionare **Contabilità clienti \> Tutti i clienti**.
 2. Selezionare un cliente con transazioni e quindi nel riquadro azioni, nella scheda **Cliente**, selezionare **Transazioni**.
@@ -49,7 +49,7 @@ Il pulsante **Visualizza liquidazioni** del riquadro azioni offre un accesso rap
 
 ## <a name="global-transactions"></a>Transazioni globali
 
-Il pulsante **Transazioni globali** è stato aggiunto alla pagina del cliente. Il pulsante consente di visualizzare tutte le transazioni relative a un cliente per tutte le persone giuridiche. La pagina elenco **Transazioni cliente** mostra le transazioni solo per le persone giuridiche a cui l'utente ha accesso, in base alle relative impostazioni di sicurezza.
+Il pulsante **Transazioni globali** viene visualizzato anche nella pagina elenco **Transazioni cliente**. Il pulsante consente di visualizzare tutte le transazioni relative a un cliente per tutte le persone giuridiche. La pagina elenco **Transazioni cliente** mostra le transazioni solo per le persone giuridiche a cui l'utente ha accesso, in base alle relative impostazioni di sicurezza.
 
 Nella pagina elenco vengono visualizzate tutte le transazioni per i clienti con lo stesso ID terzi del cliente con cui si è iniziato. Se ad esempio il cliente US-001 in una persona giuridica ha lo stesso ID terzi del cliente DE-001 in un'altra persona giuridica, vengono visualizzate tutte le transazioni per entrambi gli ID cliente.
 
@@ -67,13 +67,13 @@ Il filtro per la visualizzazione delle transazioni aperte è stato sostituito co
 - **Tutte** - Mostra tutte le transazioni per i clienti selezionati (aperte e chiuse).
 - **Chiuse** - Mostra solo le transazioni che sono state completamente liquidate e chiuse.
 - **Aperte** - Mostra solo le transazioni che non sono state completamente liquidate.
-- **Apri a partire da data** - Mostra solo le transazioni che non sono state completamente liquidate a una data specificata. Quando si seleziona questa opzione, è possibile modificare la data che viene visualizzata accanto al filtro. Le transazioni con un valore in **Ultima data di liquidazione** posteriore alla data specificata vengono visualizzate nell'elenco, anche se queste transazioni alla data corrente sono completamente liquidate. Il saldo rappresenta tuttavia i saldi alla data corrente, non a quella selezionata.
+- **Aperte incluse quelle chiuse in data o successivamente alla data**  - Mostra solo le transazioni non completamente liquidate alla data o dopo la data specificata. Quando si seleziona questa opzione, è possibile modificare la data che viene visualizzata accanto al filtro. Le transazioni con un valore in **Ultima data di liquidazione** alla data o dopo la data specificata vengono visualizzate nell'elenco, anche se queste transazioni alla data corrente sono completamente liquidate. Il saldo rappresenta tuttavia i saldi alla data corrente, non a quella selezionata.
 
-È stato aggiunto un filtro che consente di nascondere le transazioni di conversione di valuta. Selezionare semplicemente la casella di controllo **Nascondi rivalutazioni valuta**.
+Selezionare la casella di controllo **Nascondi rivalutazioni valuta** per nascondere le transazioni di conversione di valuta.
 
-## <a name="more-easily-modify-due-dates-and-discount-dates"></a>Modificare più facilmente le date di scadenza e le date di sconto
+## <a name="modify-due-dates-and-discount-dates"></a>Modificare le date di scadenza e le date di sconto
 
-È possibile aggiornare le date di scadenza e di sconto per le transazioni cliente aperte. Nella versione 8.1 l'esperienza è stata migliorata. È ora possibile aggiungere le date di scadenza nella pagina elenco **Transazioni cliente**. Facendo clic su nella data di scadenza nella pagina elenco **Transazioni cliente**, è possibile modificare le date di scadenza, le date di sconto, i termini di pagamento e dello sconto di cassa nella finestra di dialogo **Aggiorna data di scadenza e date dello sconto di cassa**.
+È possibile aggiornare le date di scadenza e di sconto per le transazioni cliente aperte. Nella versione 8.1 è ora possibile aggiungere le date di scadenza nella pagina elenco **Transazioni cliente**. Facendo clic su nella data di scadenza nella pagina elenco **Transazioni cliente**, è possibile modificare le date di scadenza, le date di sconto, i termini di pagamento e dello sconto di cassa nella finestra di dialogo **Aggiorna data di scadenza e date dello sconto di cassa**.
 
 ### <a name="activate-the-feature"></a>Attivare la funzionalità
 
@@ -83,7 +83,7 @@ Per aggiungere le date di scadenza nella pagina elenco **Transazioni cliente** e
 2. Nella scheda **Liquidazioni** impostare l'opzione **Mostra data di scadenza e consenti modifica** su **Sì**.
 3. Per abilitare questa funzionalità, sono stati aggiunti nuovi campi alle transazioni cliente. Questi campi verranno completati quando viene completata una nuova transazione. Verranno completati anche quando si apre la finestra di dialogo **Aggiorna data di scadenza e date dello sconto di cassa**. Quando si imposta l'opzione **Mostra data di scadenza e consenti modifica** su **Sì**, verrà visualizzata la finestra di dialogo **Aggiorna informazioni di pagamento**.  Per aggiornare immediatamente le transazioni esistenti, selezionare **Aggiorna tutte le transazioni esistenti**. In alternativa, per completare i campi solo per le nuove transazioni, selezionare **Continua senza aggiornamento**.
 
-La data di scadenza viene ora aggiunta alla pagina elenco **Transazioni cliente** ed è possibile modificare più facilmente la data di scadenza e le date di sconto di cassa per le transazioni.
+La data di scadenza viene ora aggiunta alla pagina elenco **Transazioni cliente**, per cui è possibile modificare più facilmente la data di scadenza e le date di sconto di cassa per le transazioni.
 
 ### <a name="modify-the-payment-settings"></a>Modificare le impostazioni di pagamento
 

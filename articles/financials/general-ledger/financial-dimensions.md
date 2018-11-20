@@ -3,7 +3,7 @@ title: Dimensioni finanziarie
 description: Questo argomento illustra i vari tipi di dimensioni finanziarie e come impostarle.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ Di seguito sono riportate alcune limitazioni:
 
 ## <a name="custom-dimensions"></a>Dimensioni personalizzate
 
-Per creare una dimensione finanziaria definita dall'utente, nel campo **Usa valori da** selezionare **&lt;&nbsp;Dimensione personalizzata&nbsp;&gt;**.
+Per creare una dimensione finanziaria definita dall'utente, nel campo **Usa valori da** selezionare **Dimensione personalizzata**.
 
-È anche possibile specificare una maschera conto per limitare la quantità e il tipo di informazioni che è possibile immettere per i valori di dimensione. È possibile immettere caratteri rimanenti uguali per ciascun valore di dimensione, ad esempio le lettere o un trattino (-). È inoltre possibile immettere i segni di numero (\#) ed e commerciale (&) come segnaposto per i caratteri che cambieranno ogni volta che un valore di dimensione viene creato. Utilizzare un segno di numero (\#) come segnaposto per un numero e la e commerciale  (&) come segnaposto per una lettera. Il campo per la maschera formato è disponibile solo se si seleziona **&lt;&nbsp;Dimensione personalizzata&nbsp;&gt;** nel campo **Usa valori da**.
+È anche possibile specificare una maschera conto per limitare la quantità e il tipo di informazioni che è possibile immettere per i valori di dimensione. È possibile immettere caratteri rimanenti uguali per ciascun valore di dimensione, ad esempio le lettere o un trattino (-). È inoltre possibile immettere i segni di numero (\#) ed e commerciale (&) come segnaposto per i caratteri che cambieranno ogni volta che un valore di dimensione viene creato. Utilizzare un segno di numero (\#) come segnaposto per un numero e la e commerciale  (&) come segnaposto per una lettera. Il campo per la maschera formato è disponibile solo se si seleziona **Dimensione personalizzata** nel campo **Usa valori da**.
 
 **Esempio**
 
@@ -108,14 +108,30 @@ Se esistono già record per la dimensione, i record master vengono aggiornati qu
 
 Immettere le combinazioni di dimensioni che devono essere derivate dalla dimensione nella prima colonna. Ad esempio, per utilizzare il centro di costo come dimensione da cui vengono derivati il reparto e l'ubicazione, immettere centro di costo 10, reparto 20 e ubicazione 30. In seguito, quando si immette il centro di costo 10 in un record master o in una pagina di transazione, il reparto 20 e l'ubicazione 30 vengono immessi per impostazione predefinita.
 
-Il processo delle dimensioni derivate non sostituisce i valori esistenti per le dimensioni derivate. Se ad esempio si immette il centro di costo 10 e non si immettono altre dimensioni, il reparto 20 e l'ubicazione 30 vengono immessi per impostazione predefinita. Tuttavia, se si modifica il centro di costo, i valori che sono già stati stabiliti non vengono modificati. Di conseguenza, è possibile impostare le dimensioni predefinite nei record master e le dimensioni non verranno modificate dalle dimensioni derivate.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Sostituire i valori esistenti con dimensioni derivate
+ 
+Per impostazione predefinita, Il processo delle dimensioni derivate non sostituisce i valori esistenti per le dimensioni derivate. Se ad esempio si immette il centro di costo 10 e non si immettono altre dimensioni, il reparto 20 e l'ubicazione 30 vengono immessi per impostazione predefinita. Tuttavia, se si modifica il centro di costo, i valori che sono già stati stabiliti non vengono modificati. Di conseguenza, è possibile impostare le dimensioni predefinite nei record master e le dimensioni non verranno modificate dalle dimensioni derivate.
+
+È possibile modificare il comportamento delle dimensioni derivate per sostituire i valori esistenti selezionando la casella  controllo **Sostituire i valori di dimensione esistenti con valori derivati** nella pagina **Dimensioni derivate**. Se questo campo è selezionato, è possibile immettere una dimensione con i valori delle dimensioni derivate e tali valori di dimensioni derivate sostituiranno tutti i valori già presenti. Utilizzando l'esempio precedente, se si immette il centro di costo 10 e non si immettono altre dimensioni, il reparto 20 e l'ubicazione 30 vengono immessi per impostazione predefinita. Tuttavia, se i valori erano già reparto 50 e l'ubicazione 60, i valori verranno modificati nel reparto 20 e nell'ubicazione 30.
+ 
+Le dimensioni derivate con questa impostazione non sostituiscono automaticamente i valori di dimensioni predefinite esistenti quando i valori delle dimensioni vengono assunti per impostazione predefinita. I valori delle dimensioni verranno sostituiti solo solo se si immette un nuovo valore di dimensione in una pagina e ci sono valori derivati esistenti per la dimensione nella pagina.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Impedire le modifiche alle dimensioni derivate
+ 
+Quando si utilizza **Aggiungi segmento"** nella pagina **Dimensioni derivate** per aggiungere un segmento come dimensione derivata, un'opzione viene fornita nella parte inferiore della pagina **Aggiungi segmento** che consente di impedire modifiche alla dimensione quando viene derivata in una pagina. L'impostazione predefinita è non selezionata, in modo che non impedisce la modifica dei valori di dimensioni derivate. Cambiare l'Impostazione su **Sì** se si desidera impedire la modifica della dimensione dopo che è stato derivata. Ad esempio, se il valore della dimensione del reparto è derivato dal valore della dimensione centro di costo, il valore del reparto non può essere modificato se il campo **Impedisci modifiche** è **Sì**. 
+ 
+Questa impostazione non impedisce le modifiche se il valore di dimensione è valido ma non è presente nell'elenco di dimensioni derivate. Ad esempio, se il reparto 20 deriva dal centro di costo 10 e si immette il centro di costo 10, allora non si potrà modificare il reparto 20. Tuttavia, se si immette il centro di costo 20 e non è presente nell'elenco delle dimensioni derivate per il centro di costo, è possibile modificare il valore del reparto. 
+ 
+In tutti i casi, il valore del conto e tutti i valori di dimensioni ancora verranno convalidati rispetto alle strutture dei conti dopo l'applicazione dei valori delle dimensioni derivate. Se si utilizza le dimensioni derivate e la convalida ha esito negativo quando utilizzate in una pagina, è necessario modificare i valori delle dimensioni derivae nella pagina relativa prima di utilizzarli nelle transazioni. 
+ 
+Quando si modificano le dimensioni nella scheda dettaglio **Dimensioni  finanziarie**, la dimensione contrassegnata per impedire modifiche non è modificabile. Se si immettono un conto e le dimensioni nel controllo di voci segmentato di una pagina, le dimensioni sono modificabili. Tuttavia, quando si sposta l'evidenziazione dal controllo di voci segmentato su un altro campo o si esegue un'azione, il conto e le dimensioni verranno convalidati rispetto all'elenco di dimensioni derivate e le strutture dei conti per assicurare di avere immesso i valori appropriati. 
 
 ### <a name="derived-dimensions-and-entities"></a>Dimensioni derivate ed entità
 
 È possibile impostare i segmenti e i valori di dimensioni derivate tramite le entità.
 
 - L'entità dimensioni derivate imposta le dimensioni moventi e i segmenti utilizzati per tali dimensioni.
-- L'entità DerivedDimensionValue consente di importare i valori che dovrebbero essere derivati per ogni dimensione movente.
+- L'entità del valore delle dimensioni derivate consente di importare i valori che dovrebbero essere derivati per ogni dimensione movente.
 
 Quando si utilizza un'entità per l'importazione dei dati, se tale entità importa dimensioni, vengono applicate le regole delle dimensioni derivate durante l'importazione a meno che l'entità non sostituisca specificamente tali dimensioni.
 
