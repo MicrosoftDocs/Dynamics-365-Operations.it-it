@@ -7,15 +7,19 @@
         - name: Novità o modifiche
           href: whats-new.md
           items:
-            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (1º ottobre 2018)
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (27 novembre 2018)
+              href: whats-new-talent-november-27.md
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (15 novembre 2018)
+              href: whats-new-talent-november-15.md
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (31 ottobre 2018)
               href: whats-new-talent-october-31.md
-            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (1º ottobre 2018)
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (19 ottobre 2018)
               href: whats-new-talent-october-19.md
-            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (1º ottobre 2018)
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (15 ottobre 2018)
               href: whats-new-talent-october-11.md
-            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (1º ottobre 2018)
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (8 ottobre 2018)
               href: whats-new-talent-october-8.md
-            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (1º ottobre 2018)
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (1 ottobre 2018)
               href: whats-new-talent-october-01.md
             - name: Novità o modifiche in Dynamics 365 for Talent Core HR (24 settembre 2018)
               href: whats-new-talent-september-24.md
@@ -95,8 +99,6 @@
           href: creating-offers.md
         - name: Creazione e gestione di modelli di e-mail
           href: email-templates.md
-        - name: Report e analisi
-          href: Reporting-Analytics-Attract.md
         - name: Sicurezza e gestione dei ruoli in Attract
           href: security-attract.md
         - name: Impostazioni di amministrazione in Attract
@@ -266,3 +268,27 @@
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Creare una revisione delle prestazioni
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Risolvere i problemi di Talent
+      items:
+        - name: I report analitici non sono aggiornati
+          href: analytic-reports-not-updated.md
+        - name: Non è possibile creare un ambiente nell'interfaccia di amministrazione di PowerApps
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Il client Talent si disconnette
+          href: client-disconnects.md
+        - name: Modalità di gestione dei backup del database
+          href: database-backups.md
+        - name: Evitare il troncamento del testo nella gerarchia posizioni ed esportare in Visio
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Eseguire il processo retributivo
+          href: run-compensation-process.md
+        - name: Salvare le guide attività in LCS e riprodurle nuovamente
+          href: save-play-task-guides-LCS.md
+        - name: Accedere a indirizzi privati per ruolo di sicurezza
+          href: security-roles-addresses.md
+        - name: Talent non appare tra le app Microsoft Dynamics 365 (CDS1.0)
+          href: talent-not-in-home-CDS.md
+        - name: L'utente può accedere a Core HR ma non all'app Onboard o Attract
+          href: user-access-core-hr.md
+        - name: Opzioni di creazione dei report in Talent
+          href: talent-reporting-options.md

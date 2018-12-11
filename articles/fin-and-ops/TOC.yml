@@ -48,6 +48,10 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Funzionalità non implementate nelle distribuzioni locali
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations versione 8.1.3 (dicembre 2018)
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 23 (dicembre 2018)
+              href: get-started/whats-new-platform-update-23.md
             - name: Platform update 22 (novembre 2018)
               href: get-started/whats-new-platform-update-22.md
             - name: Finance and Operations versione 8.1.2 (novembre 2018)
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: Connettere la Guida
               href: get-started/help-connect.md
+            - name: Collegare un sito della Guida personalizzato
+              href: get-started/help-custom.md
             - name: Visualizzare ed esportare le descrizioni campi
               href: get-started/view-export-field-descriptions.md
             - name: Guide attività e registrazione attività
@@ -1243,6 +1249,8 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: Reimpostare il data mart dei report finanziari
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Messaggi elettronici
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Funzionalità per la normativa e la localizzazione​
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -2222,6 +2230,10 @@
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: Fatture per pagamento
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: Creazione di report finanziari
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: Creare un libro acquisti
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: Arabia Saudita
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2741,6 +2753,8 @@
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Importare configurazioni da Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Importare le configurazioni di creazione di report elettronici da Servizio di configurazione normativa
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: Scaricare configurazioni da Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: Importare configurazioni
@@ -4149,6 +4163,8 @@
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: Prelevare il batch meno recente su un dispositivo mobile
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: Elaborare il framework della guida
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: Aggiornamento e migrazione
           items:
             - name: Aggiornare i processi di gestione magazzino da Microsoft Dynamics AX 2012 a Finance and Operations
