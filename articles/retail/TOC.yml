@@ -47,6 +47,8 @@
       href: dev-itpro/updating-environments.md
     - name: Test e problemi relativi alle prestazioni
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Gestione ordini distribuiti (DOM - Distributed Order Management)
+  href: dom.md
 - name: Pagamenti
   items:
     - name: Metodi di pagamento
@@ -55,11 +57,13 @@
       href: ../financials/accounts-receivable/credit-card-authorizations.md
     - name: Configurare denominazioni contanti per il POS
       href: cash-denominations.md
+    - name: Configurare scenari di pagamento delle fatture
+      href: payinvoice.md
     - name: Domande frequenti sui pagamenti
       href: dev-itpro/payments-retail.md
 - name: Ordini fornitore
   items:
-    - name: Panoramica sugli ordini fornitore
+    - name: Panoramica dell'ordine fornitore
       href: ../supply-chain/procurement/purchase-order-overview.md
     - name: Creare ordini fornitore
       href: ../supply-chain/procurement/purchase-order-creation.md
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: Mostrare le notifiche degli ordini nel POS
       href: Notifications-POS.md
+- name: Configurare ed elaborare uno scambio in un ordine di reso
+  href: orderexchanges.md
 - name: Monitoraggio e analisi
   items:
     - name: Monitorare le prestazioni di vendite e margini
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: Rettifiche prezzi e sconti
       href: price-adjustments-discounts.md
+    - name: Applicare più sconti di vendita al dettaglio a un prodotto
+      href: Apply-multiple-retail-discounts.md
     - name: Determinare la combinazione ottimale di sconti sovrapposti
       href: optimal-combination-overlapping-discounts.md
     - name: Definire gli sconti specifici del canale
@@ -480,7 +488,7 @@
       items:
         - name: Aggiungere collegamenti alle note legali e all'Informativa sulla privacy dell'organizzazione
           href: ../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json
-        - name: Gestione di Bing Maps
+        - name: Gestione di Bing Mappe
           href: dev-itpro/manage-bing-maps.md
     - name: Localizzare le risorse dell'estensione Retail e file etichette
       href: dev-itpro/extension-resource-localization.md
@@ -488,6 +496,8 @@
       items:
         - name: Layout dello schermo di Retail POS
           href: pos-screen-layouts.md
+        - name: Aprire l'URL nel POS
+          href: Open-URL-in-POS.md
         - name: Installare lo strumento di progettazione layout POS
           href: install-pos-layout-designer.md
         - name: Retail Modern POS in modalità offline
@@ -508,7 +518,11 @@
           href: dev-itpro/gift-card.md
         - name: Creare e applicare un marchio all'app Retail Experience
           href: dev-itpro/create-retail-experience-app.md
-    - name: Stazione hardware ed estendibilità
+        - name: Impostare l'app POS Hybrid su Android e iOS
+          href: dev-itpro/hybridApp.md
+        - name: Sostituire il gestore della richiesta POS
+          href: dev-itpro/pos-handler.md
+    - name: Hardware Station ed estendibilità
       href: dev-itpro/hardware-station-extensibility.md
     - name: Estendibilità Retail Server
       items:
@@ -562,9 +576,13 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: Creare programmi di installazione di Windows per connettori pagamenti
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Uso dei dati di pagamento
+          href: payment-connector-data-fields.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Modifiche future in Retail SDK
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: Unire sistemi di build per Retail e Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Esempi di estendibilità di Retail SDK
