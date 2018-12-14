@@ -3,7 +3,7 @@ title: Collegamento alla Guida
 description: In questo argomento vengono descritti i componenti della Guida per Microsoft Dynamics 365 for Finance and Operations e vengono forniti una panoramica della connessione e un riepilogo della creazione della guida personalizzata.
 author: margoc
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 11/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: a2ca5f5302751ad2c4ddc3c6921a8a9b6c2d57df
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -68,9 +68,19 @@ Le guide attività tradotte sono state fornite per la prima volta nella libreria
 > -   Se una Guida attività non è stata ancora tradotta, quando si apre solo parte del testo (quello dei controlli) apparirà nella lingua selezionata.
 
 ## <a name="creating-custom-help"></a>Creazione di una Guida personalizzata
+È possibile utilizzare guide attività per creare una Guida personalizzata oppure collegare un sito Web al riquadro della Guida. 
+
+### <a name="create-custom-help-with-task-guides"></a>Creare una Guida personalizzata con guide attività
 È possibile creare la Guida personalizzata per Finance and Operations e Retail per creare registrazioni attività che riflettono l'implementazione e salvarle in una libreria di processi aziendali LCS. Non è possibile creare Guide attività personalizzate per Talent. 
 
 Per i partner, se si promuove una libreria a libreria aziendale e si include in una soluzione, sarà disponibile per i clienti. È inoltre possibile effettuare una copia della libreria globale unificata APQC e quindi aprire la copia, aprire le registrazioni attività dalla copia, modificarle e salvare le registrazioni con le modifiche. Per ulteriori informazioni, vedere [Come creare una registrazione attività da utilizzare come documentazione o formazione](../../dev-itpro/user-interface/task-recorder.md).
+
+### <a name="connect-a-custom-site"></a>Collegare un sito personalizzato
+Microsoft ha fornito un white paper e codice di esempio che descrivono come creare e collegare un sito della Guida al riquadro della Guida. Per ulteriori informazioni, vedere: 
+- [Creazione di una Guida personalizzata per Finance and Operations (white paper)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Archivio GitHub per una Guida personalizzata](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+
 
 <a name="additional-resources"></a>Risorse aggiuntive
 --------

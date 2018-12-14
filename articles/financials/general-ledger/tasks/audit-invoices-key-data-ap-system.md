@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
 ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Verificare le fatture e i dati principali nel sistema di contabilità fornitori
@@ -35,34 +35,31 @@ Questa procedura utilizza la società dimostrativa USMF. Il ruolo di responsabil
 
 
 ## <a name="create-a-purchase-order"></a>Creare un ordine fornitore
-1. Fare clic su Tutti gli ordini fornitore.
-2. Fare clic su Nuovo.
-3. Nel campo Conto fornitore fare clic sul pulsante a discesa per aprire la ricerca.
-4. Digitare un valore nel campo Conto fornitore.
-5. Fare clic su OK.
-6. Fare clic su Aggiungi riga.
-7. Nel campo Numero articolo, digitare un valore.
-8. Nel riquadro azioni fare clic su Acquisti.
-9. Fare clic su Conferma.
+1. Accedere a **Tutti gli ordini fornitore**.
+2. Fare clic su **Nuovo**.
+3. Nel campo **Conto fornitore**, digitare un valore.
+4. Fare clic su **OK**.
+5. Fare clic su **Aggiungi riga**.
+6. Nel campo **Numero articolo**, digitare un valore.
+7. Nel riquadro azioni, fare clic su **Acquisti**.
+8. Fare clic su **Conferma**.
 
 ## <a name="post-a-product-receipt"></a>Registra un'entrata prodotti
-1. Nel riquadro azioni fare clic su Ricevimento.
-2. Fare clic su Entrata prodotti.
-3. Nell'elenco contrassegnare la riga selezionata.
-4. Digitare un valore nel campo Entrata prodotti.
-5. Fare clic su OK.
+1. Nel riquadro azioni, fare clic su **Ricevimento**.
+2. Fare clic su **Entrata prodotti**.
+3. Nel campo **Entrata prodotti**, digitare un valore.
+4. Fare clic su **OK**.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Registrare e abbinare una fattura fornitore a un'entrata prodotti
-1. Nel riquadro azioni fare clic su Fattura.
-2. Fare clic su Fattura.
-3. Digitare un valore nel campo Numero.
-4. Fare clic su Predefinito da: Quantità ordinata per aprire la finestra di dialogo a discesa.
-5. Nel campo Quantità predefinita per le righe selezionare un'opzione.
-6. Fare clic su OK.
-7. Fare clic su Sì.
-8. Fare clic su Abbina entrate prodotti.
-9. Fare clic su OK.
-10. Nel riquadro azioni fare clic su Revisione.
-11. Fare clic su Dettagli abbinamento.
+1. Nel riquadro azioni, fare clic su **Fattura > Fattura**.
+2. Nel campo **Numero**, digitare un valore.
+3. Fare clic su **Predefinito da: Quantità ordinata** per aprire la finestra di dialogo a discesa.
+4. Nel campo **Quantità predefinita per le righe**, selezionare un'opzione.
+5. Fare clic su **OK**.
+6. Fare clic su **Sì**.
+7. Fare clic su **Abbina entrate prodotti**.
+8. Fare clic su **OK**.
+9. Nel riquadro azioni fare clic su **Revisione**.
+10. Fare clic su **Dettagli abbinamento**.
 
 

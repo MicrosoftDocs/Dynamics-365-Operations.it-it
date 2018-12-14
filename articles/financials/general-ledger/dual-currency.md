@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: it-it
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>Doppia valuta
+
+[!include [banner](../includes/banner.md)]
 
 La funzionalità che è stata introdotta in Microsoft Dynamics 365 for Finance and Operations versione 8.1 (ottobre 2018) consente di ridestinare e utilizzare la valuta di dichiarazione come seconda valuta di contabilizzazione. Questa funzionalità viene talvolta definita *valuta doppia*. Le modifiche per valuta doppia non possono essere disabilitate tramite una chiave di configurazione o un parametro. Poiché la valuta di dichiarazione viene utilizzata come seconda valuta di contabilizzazione, la modalità in cui la valuta di dichiarazione viene calcolata nella logica di registrazione è cambiata.
 
@@ -67,8 +69,8 @@ Di seguito sono elencati i moduli che utilizzano la valuta di dichiarazione come
 
 - [Contabilità generale](#general-ledger)
 - [Creazione di report finanziari](#financial-reporting)
-- [Contabilità fornitori](#accounts-payable/accounts-receivable)
-- [Contabilità clienti](#accounts-payable/accounts-receivable)
+- [Contabilità fornitori](#accounts-payable-and-accounts-receivable)
+- [Contabilità clienti](#accounts-payable-and-accounts-receivable)
 - [Gestione cassa e banche](#cash-and-bank-management)
 - [Cespiti](#fixed-assets)
 
@@ -90,7 +92,7 @@ Un aggiornamento nel modulo **Creazione di report finanziari** consente di inclu
 
 Questa modifica è disponibile tramite l'impostazione **Valuta visualizzata** nella definizione di colonna. Se si seleziona **Valuta per i report da Contabilità generale**, gli importi della colonna non vengono convertiti. Invece, vengono dichiarati direttamente dalla contabilità generale. Se si desidera che la colonna visualizzare gli importi convertiti, selezionare **Converti in XXXX**, dove *XXXX* è la valuta di dichiarazione che la colonna deve visualizzare. In questo caso, gli importi in valuta di contabilizzazione verranno convertiti nella valuta selezionata utilizzando le funzionalità esistenti di conversione.
 
-### <a name="accounts-payableaccounts-receivable"></a>Contabilità fornitori/Contabilità clienti
+### <a name="accounts-payable-and-accounts-receivable"></a>Contabilità fornitori e Contabilità clienti
 
 I moduli **Contabilità fornitori** e **Contabilità clienti** già tenevano traccia degli importi nella valuta di dichiarazione. Tuttavia, gli importi non venivano visualizzati o utilizzati per diversi processi. Sono state apportate le seguenti modifiche:
 

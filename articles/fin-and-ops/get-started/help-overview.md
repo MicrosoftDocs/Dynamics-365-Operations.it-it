@@ -1,9 +1,9 @@
 ---
 title: Sistema della Guida di Finance and Operations
-description: "Questo argomento fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations. Viene illustrato come è possibile fornire documentazione personalizzata e formazione all'organizzazione."
+description: Questo argomento fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: it-it
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations. Viene illustrato come è possibile fornire documentazione personalizzata e formazione all'organizzazione. 
+Questo argomento fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations. 
 
 > [!NOTE] 
 > I seguenti prodotti sono strettamente connessi: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent. La stessa funzionalità può apparire in tutti e 3 prodotti. Di conseguenza, negli argomenti correlati principalmente a Retail, il nome del prodotto sarà Dynamics 365 for Retail; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 for Talent; e negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 for Finance and Operations. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
@@ -48,8 +48,6 @@ Finance and Operations include una Guida basata su due componenti principali:
 È possibile accedere alla Guida dal riquadro della Guida in qualsiasi prodotto che si sta utilizzando. La schermata seguente mostra Finance and Operations.
 
 ![Riquadro della Guida](./media/help-pane-ops-task-guides.png)
-
-Questo argomento descrive la Guida e spiega come creare documentazione e risorse di formazione personalizzate per l'organizzazione.
 
 > [!IMPORTANT]
 > Le **guide attività** non sono attualmente disponibili per Retail, o nel riquadro della Guida di Talent (alcune guide attività sono disponibili nel riquadro Attività iniziali di Talent). La Guida sulle procedure è disponibile nel sito docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) per Retail e Talent.
@@ -83,7 +81,7 @@ Per sottoscrivere un feed RSS relativo a tutti gli aggiornamenti di contenuto Un
 ### <a name="give-feedback"></a>Fornire commenti e suggerimenti 
 I commenti e suggerimenti dei clienti sono ben accetti. È possibile immettere commenti o suggerire modifiche al contenuto attraverso GitHub. Per ulteriori informazioni sul sistema di feedback, vedere [questo post di blog](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-feedback"></a>Invia commenti e suggerimenti 
+#### <a name="leave-us-feedback"></a>Invia commenti e suggerimenti 
 Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento nella parte inferiore della pagina.  
 
 1. Fare clic su **Feedback** per accedere ai commenti nella parte inferiore della pagina e fare clic **Commenti e suggerimenti sul prodotto** o **Accedi per lasciare commenti e suggerimenti sulla documentazione**.
@@ -93,8 +91,6 @@ Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento n
 2. Iniziare a digitare i commenti quindi fare clic su **Invia commenti e suggerimenti**.
 
 ![Pubblica un commento](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Suggerire una modifica o collaborare alla creazione di contenuto mediante GitHub
 Per suggerire una modifica, sarà necessario disporre di un account GitHub e firmare un contratto di licenza per collaboratori.  Le modifiche proposte verranno esaminate dopo l'invio di una richiesta pull. Se necessario, saranno esaminate internamente e il collaboratore verrà ricontattato.  
@@ -122,22 +118,7 @@ Per avviare l'esperienza guidata e interattiva, fare clic su **Avvia guida attiv
 > [!IMPORTANT] 
 > I dati immessi quando si riproduce una guida attività sono reali. Se si è in un ambiente di produzione, i dati verranno immessi nella società attualmente utilizzata.
 
-### <a name="it-all-begins-with-task-recorder"></a>Tutto ciò ha inizio con Registrazione attività
-
-Le guide attività vengono create mediante Registrazione attività. Quando si utilizza Registrazione attività, tutte le azioni eseguite nell'interfaccia utente di Finance and Operations, ad esempio il clic sui menu, la modifica delle impostazioni e l'immissione dei dati, vengono registrate. I passaggi registrati vengono collettivamente denominati registrazione di attività. Come spiegato nella sezione precedente, le registrazioni attività possono essere visualizzate nel riquadro Guida e riprodotte come guide attività. Tuttavia, è possibile utilizzare le registrazioni di attività in altri modi:
-
--   **Salvare le registrazioni attività in BPM** È possibile salvare una registrazione attività in una riga di gerarchia in una libreria BPM in LCS. Quando si salva una registrazione attività in BPM, un diagramma di flusso viene generato e visualizzato, insieme ai passaggi di registrazione. 
-
-    > [!Note]
-    > Per visualizzare una registrazione attività nel riquadro Guida di Finance and Operations e riprodurla come una guida attività, si dovrà salvare la registrazione in una libreria BPM.
-    
--   **Salvare le registrazioni attività come documenti di Word** Salvando una registrazione attività come documento di Microsoft Word, è possibile produrre con facilità guide di formazione stampabili per l'organizzazione.
-
-Per ulteriori informazioni su Registrazione attività, vedere [Registrazione attività in Finance and Operations](../../dev-itpro/user-interface/task-recorder.md).
-
-### <a name="creating-customized-task-recordings"></a>Creare registrazioni attività personalizzate
-
-È possibile creare registrazioni attività personalizzate oppure scaricare e personalizzare le registrazioni attività fornite da Microsoft. Di conseguenza, è possibile creare la Guida personalizzata per l'organizzazione in base alla specifica implementazione di Finance and Operations. Nota: Per visualizzare una registrazione attività nel riquadro Guida di Finance and Operations e riprodurla come una guida attività, si dovrà salvare la registrazione in una libreria BPM in LCS. Per i partner, se si promuove una libreria a libreria aziendale e si include in una soluzione, sarà disponibile per i clienti. Per le istruzioni complete, vedere [Utilizzo delle registrazioni attività per creare documentazione o formazione](../../dev-itpro/user-interface/task-recorder.md).
+È possibile utilizzare la Registrazione attività per creareguide attività personalizzate. Per ulteriori informazioni, vedere [Creare documentazione o formazione utilizzando le registrazioni attività](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Guida nel prodotto
 Per accedere al contenuto della Guida all'interno di Finance and Operations, fare clic sull'icona **Guida** (**?**) oppure scegliere Guida o premere CTRL+MAIUSC+?. In entrambi i casi, verrà aperto il riquadro della Guida. Dal riquadro Guida è possibile accedere ad articoli o guide attività. 
@@ -184,6 +165,11 @@ Dopo che un amministratore di sistema ha completato questi passaggi, è possibil
 Le guide attività tradotte vengono rilasciate nelle librerie con "tutte le lingue" nel titolo. In Finance and Operations, per visualizzare la Guida attività localizzata, assicurarsi di essere connessi a una libreria appropriata. La lingua in cui viene visualizzata una Guida attività è controllata per ogni utente dalle impostazioni di lingua in **Opzioni** &gt; **Preferenze**. 
 -   Se una guida attività è stata tradotta, quando la si apre tutto il testo appare nella lingua selezionata.
 -   Se una guida attività non è stata ancora tradotta, quando la si apre, solo parte del testo (quello dei controlli) appare nella lingua selezionata.
+
+## <a name="creating-custom-help"></a>Creazione di una Guida personalizzata
+È possibile creare una Guida per gli utenti creando guide attività personalizzate oppure collegare il proprio sito Web al riquadro della Guida. Per informazioni dettagliate, vedere: 
+- [Come creare una registrazione di attività da utilizzare per documentazione o formazione](../../dev-itpro/user-interface/task-recorder.md).
+- [Creazione di una Guida personalizzata per Finance and Operations (white paper)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -3,7 +3,7 @@ title: Home page di pianificazione generale
 description: "La pianificazione generale consente alle società di determinare ed equilibrare il fabbisogno futuro di materie prime e la capacità di soddisfare gli obiettivi aziendali."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: it-it
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ Nella mappa di apprendimento seguente vengono visualizzati i concetti e le attiv
 
 ## <a name="quick-links"></a>Collegamenti rapidi
 
-|      |   |
-|------|---|
-|        [Piani generali](master-plans.md)       |     [Generare un piano con vincoli](./tasks/constrained-plan.md)  |
-| [Creare un piano materiali per co-prodotti](./tasks/create-material-plan-co-products.md)   |  [Pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)  |
-| [Creare un piano interaziendale](./tasks/create-intercompany-plan.md) | [Cenni preliminari sulla previsione della domanda](introduction-demand-forecasting.md)  | 
-|[Chiavi di riduzione](reduction-keys.md)| [Nozioni fondamentali sulla pianificazione generale](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (eLearning) (richiede un account CustomerSource)     |
-|  [Pianificazione generale per la Produzione processo](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (eLearning) (richiede un account CustomerSource) | [Pianificazione generale interaziendale](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (richiede un account CustomerSource)|
+- [Piani generali](master-plans.md)  
+- [Generare un piano con vincoli](./tasks/constrained-plan.md)
+- [Creare un piano materiali per co-prodotti](./tasks/create-material-plan-co-products.md)
+- [Pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
+- [Creare un piano interaziendale](./tasks/create-intercompany-plan.md)
+- [Cenni preliminari sulla previsione della domanda](introduction-demand-forecasting.md)
+- [Chiavi di riduzione](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

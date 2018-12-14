@@ -3,7 +3,7 @@ title: "Funzionalità rimosse o deprecate"
 description: "In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione."
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: it-it
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Funzionalità di esportazione dei file elettronici generati delle dichiarazioni 
 | **Aree del prodotto interessate**         | Contabilità generale, Imposta |
 | **Opzione di distribuzione**              | Tutto |
 | **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |
+
+
+### <a name="profit-tax-register-wizard"></a>Procedura guidata per registri delle imposte sui profitti
+Funzionalità per la creazione di modelli per nuovi registri delle imposte sui profitti. Questa funzionalità consente di creare oggetti X++ per nuovi registri, che vengono quindi generati come modelli con la logica di calcolo appropriata.
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | La funzionalità non è compatibile con il modello di estendibilità di Dynamics 365 for Finance and Operations. |
+| **Sostituita da un'altra funzionalità?**   | No |
+| **Aree del prodotto interessate**         | Imposta sul reddito |
+| **Opzione di distribuzione**              | Tutto |
+| **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 con aggiornamento 15 della piattaforma
 In questa versione non sono state rimosse o deprecate funzionalità. L'aggiornamento 15 della piattaforma è cumulativo e contiene funzionalità nuove o modificate che derivano dagli aggiornamenti 13, 14 e 15 della piattaforma.
@@ -993,6 +1006,17 @@ Configuratore prodotti è stato utilizzato per configurare dinamicamente gli art
 | **Sostituita da un'altra funzionalità?**   | Sì. La configurazione basata su vincoli era stata introdotta in Dynamics AX 2012 in cui il deprecamento del Configuratore prodotti in versioni future era già stata annunciata. La tecnologia basata su vincoli di configurazione è selezionata nelle rappresentazioni generali prodotto per consentire la configurazione. Per ulteriori informazioni, vedere [Creare un modello di configurazione prodotto](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Aree del prodotto interessate**         | Gestione delle informazioni sul prodotto, vendite e marketing  |
 | **Stato**                         | Rimosso a partire da Dynamics AX 7.0.      |
+
+### <a name="production-floor-app"></a>App area di produzione
+Si tratta dell'app per tablet con Windows RT 8.1 e Windows 8.1 Pro.
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Con la modifica di un client basato sul Web, è possibile fornire una funzionalità simile mediante il client nativo di Dynamics AX 7.0. Il dispositivo schede processo fornisce un'interfaccia utente del piano di produzione ottimizzata per i fattori di modulo e tocco. |
+| **Sostituita da un'altra funzionalità?**   | Sì. Il dispositivo schede processo, che è una parte nativa di Dynamics AX 7.0.                                                                           |
+| **Aree del prodotto interessate**         | Controllo produzione                                                |
+| **Stato**                         | Deprecato: una data di rimozione dal Microsoft Store non è ancora stata definita per questa funzionalità.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Rinomina dimensione prodotto
 

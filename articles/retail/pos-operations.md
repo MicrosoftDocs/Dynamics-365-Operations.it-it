@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: it-it
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -152,6 +152,7 @@ Nota: le operazioni elencate di seguito vengono applicate all'ultima versione di
 | 644 | Rimuovi codice buono sconto | Richiede all'utente di rimuovere i buoni sconto selezionandoli in un elenco di buoni sconto attualmente associati alla transazione. | Sì | Sì | No | Sì | No |
 | 1057 | Ristampa Z | Stampa il Z-report per il turno precedente o un turno selezionato. | Sì | Sì | Sì | No | No |
 | 1216 | Immettere una nuova password | Questa operazione consente a un utente che dispone di autorizzazioni per la reimpostazione della password di reimpostare la password di un altro dipendente utilizzando una password temporanea. | Sì | Sì | Sì | No | No |
+| 1219 | Aprire un URL nel POS | Questa operazione consente a un utente di aprire un URL configurato dall'amministratore nel POS. | Sì | Sì | Sì | Sì | No | 
 | 109 | Reso prodotto | Consente di effettuare un reso di singoli prodotti. Il prodotto letto tramite scanner successivo viene visualizzato come prodotto reso con un prezzo e una quantità negativi. | Sì | Sì | No | Sì | No |
 | 114 | Transazione di reso | Richiama una transazione precedente in base al relativo numero di ricevuta per restituire alcuni o tutti i prodotti. | Sì | Sì | Sì | Sì§ | No |
 | 1211 | Deposito in cassaforte | Esegue un deposito in cassaforte per il trasferimento di denaro dal registratore di cassa a una cassaforte. | Sì | Sì | Sì | Sì | No |

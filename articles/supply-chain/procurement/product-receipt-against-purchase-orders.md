@@ -1,9 +1,9 @@
 ---
 title: Entrata prodotti e ordini fornitore
-description: In questo articolo vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
+description: In questo argomento vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/08/2018
 
 [!include [retail name](../includes/retail-name.md)]
 
-In questo articolo vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
+In questo argomento vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
 
 L'entrata prodotti è il processo di registrazione che i prodotti ordinati sono stati ricevuti, in modo che le righe di ordine fornitore possono quindi essere elaborate per la fatturazione. In alcuni casi, i prodotti attraversano la preregistrazione, in cui informazioni aggiuntive da parte del fornitore vengono registrate prima del ricevimento dei prodotti. All'arrivo dei prodotti, sono prima contrassegnati come **Registrato**. I prodotti quindi prima possono attraversare processi aggiuntivi, quali la gestione della qualità, prima di essere contrassegnati come **Ricevuto**.
 
@@ -46,8 +46,6 @@ I prodotti che vengono ricevuti in magazzino possono essere sottoposti a ispezio
 
 ## <a name="product-receipt"></a>Entrata prodotti
 Molto spesso, l'azione **Entrata prodotti** della pagina **Ordini fornitore** viene utilizzata per contrassegnare i prodotti come **Ricevuto** nell'ordine fornitore. La pagina **Registrazione entrata prodotti** include diverse opzioni per la quantità che viene considerata come ricevuta. Ad esempio, è possibile impostare il campo **Quantità** su **Quantità ordinata** o **Quantità in Ricevi ora**. In alternativa, se è stato utilizzato un processo di arrivo in magazzino, spesso il campo viene impostato su **Quantità registrata**. È possibile modificare le quantità in ciascuna riga dell'ordine che verrà contrassegnata come **Ricevuto**, per tenere conto di eventuali discrepanze, come limite minimo e massimo di fornitura. Durante l'entrata prodotti, è necessario specificare un identificatore di entrata prodotti, che è in genere un riferimento al documento di trasporto del fornitore. Questo identificatore è necessario per la contabilità, poiché consente verifiche o controlli di documenti di trasporto rispetto a ciò che è stato ricevuto e le scorte o le spese contabilizzate.  
-
-Se un dipendente ha ordinato merci utilizzando una richiesta di acquisto, tale dipendente potrebbe essere richiesto di confermare personalmente l'entrata prodotti. Per configurare questo comportamento, utilizzare un flusso di lavoro. È possibile configurare le condizioni di flusso di lavoro in modo che corrispondano ai processi aziendali.  
 
 È possibile creare PO per prodotti non destinati come magazzino ma che sono considerati una spesa. Questa categoria include le righe dell'ordine in cui i prodotti sono contrassegnati come **Non stoccati** dal relativo gruppo di modelli inventariali e anche le righe che utilizzano le categorie di approvvigionamento. In questo caso, gli articoli potrebbero non essere sottoposti a registrazione degli arrivi e l'entrata in magazzino. Invece, l'azione **Entrata prodotti** viene utilizzata per registrare l'entrata direttamente nell'ordine fornitore e l'entrata dipende dalla quantità ordinata, non una quantità registrata.  
 
