@@ -34,11 +34,13 @@ Gli avvisi costituiscono un sistema di notifica per gli eventi critici in Micros
 Nella pianificazione delle risorse aziendali (ERP, Enterprise Resource Planning), esistono diversi scenari tipici in cui la funzionalità Avvisi di Finance and Operations può essere utilizzata. Di seguito sono riportati alcuni esempi.
 
 ### <a name="scenario-1-create-an-alert-rule-for-new-sales-orders"></a>Scenario 1: creare una regola di avviso per nuovi ordini cliente
+
 1. Aprire la pagina **Tutti gli ordini cliente**.
 2. Nel riquadro azioni della scheda **Opzioni** del gruppo **Condividi**, selezionare **Crea avviso personalizzato**.
 3. Nella finestra di dialogo **Crea regola di avviso**, nella Scheda dettaglio **Invia avviso quando**, nel campo **Evento**, selezionare **Record creato**.
 
 ### <a name="scenario-2-create-an-alert-rule-for-postponement-of-a-delivery-date"></a>Scenario 2: creare una regola di avviso per il posticipo di una data di consegna
+
 1. Aprire la pagina **Tutti gli ordini fornitore**.
 2. Selezionare un ID di ordine fornitore per accedere ai dettagli dell'ordine fornitore.
 3. Espandere la Scheda dettaglio **Intestazione ordine fornitore**.
@@ -49,6 +51,7 @@ Nella pianificazione delle risorse aziendali (ERP, Enterprise Resource Planning)
 Dopo avere chiuso la finestra di dialogo **Crea regola di avviso**, la regola viene visualizzata nella pagina **Gestisci regole di avviso**. È possibile utilizzare la pagina **Gestisci regole di avviso** per aggiornare le regole di avviso esistenti. Ad esempio, è possibile modificare i trigger di eventi, aggiornare le notifiche di evento e le date di scadenza. Per aprire la pagina **Gestisci regole di avviso**, utilizzare il pulsante **Invia avviso** nella scheda **Opzioni** del riquadro azioni.
 
 ## <a name="what-occurs-when-an-alert-rule-is-created"></a>Risultato della creazione di una regola di avviso
+
 Quando si creano regole di avviso, è possibile associare un evento predefinito a un campo specifico. Ad esempio, l'arrivo della data specificata nel campo o la modifica dei contenuti del campo. In alternativa, è possibile associare un evento ai record in una pagina specifica. Ad esempio, viene creato un record oppure viene eliminato.
 
 Quando si verifica l'evento selezionato per il campo o per un record nella pagina, si riceve un avviso. Ad esempio, si crea una regola dove si associa il campo **Data di consegna** in una specifica riga di ordine fornitore all'evento **scaduto dal periodo di tempo indicato**. Impostare l'intervallo di tempo a cinque giorni. In questo caso, un avviso viene inviato cinque giorni dopo la data di consegna di quella riga ordine fornitore.
@@ -56,9 +59,11 @@ Quando si verifica l'evento selezionato per il campo o per un record nella pagin
 Inoltre, è possibile ottimizzare le regole di avviso impostando le condizioni. Ad esempio, è possibile ricevere un avviso sui nuovi ordini fornitore creati per i conti fornitore specifici.
 
 ## <a name="preparing-for-an-alert"></a>Preparazione per un avviso
+
 Prima di impostare una regola di avviso, è necessario decidere quando o in quali situazioni si desidera ricevere avvisi. Dopo avere individuato l'evento per il quale si desidera ricevere una notifica, in Finance and Operations, trovare la pagina in cui vengono visualizzati i dati che causano l'evento. L'evento può essere una data prossima o una specifica modifica che si verificherà. Di conseguenza, è necessario individuare la pagina in cui è specificata la data o dove viene visualizzato il campo che cambia o il nuovo record creato. Una volta ottenute queste informazioni, sarà possibile creare la regola di avviso.
 
 ## <a name="components-of-an-alert-rule"></a>Componenti di una regola di avviso
+
 Una regola di avviso include cinque componenti:
 
 - **Evento** - L'evento che attiva una regola di avviso può essere l'arrivo di una data o il verificarsi di una modifica specifica. Gli eventi vengono definiti nella Scheda dettaglio **Invia avviso tramite posta elettronica in caso di modifiche allo stato del processo** della finestra di dialogo **Crea regola di avviso**.
@@ -71,5 +76,6 @@ Una regola di avviso include cinque componenti:
     > Questa opzione è limitata agli amministratori dell'organizzazione.
 
 ## <a name="email-notifications-from-alerts"></a>Notifiche e-mail da avvisi
+
 Le notifiche e-mail da avvisi non sono ancora attivate. Questa funzionalità verrà attivata in un aggiornamento futuro.
 

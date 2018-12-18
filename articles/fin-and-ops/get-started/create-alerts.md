@@ -29,16 +29,19 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](../includes/banner.md)]
 
 ## <a name="getting-started"></a>Introduzione
+
 Prima di impostare una regola di avviso, è necessario decidere quando o in quali situazioni si desidera ricevere avvisi. Dopo avere individuato l'evento per il quale si desidera ricevere una notifica, in Microsoft Dynamics 365 for Finance and Operations, trovare la pagina in cui vengono visualizzati i dati che causano l'evento. L'evento può essere una data prossima o una specifica modifica che si verificherà. Di conseguenza, è necessario individuare la pagina in cui è specificata la data o dove viene visualizzato il campo che cambia o il nuovo record creato. Una volta ottenute queste informazioni, sarà possibile creare la regola di avviso.
 
 Quando si crea una regola di avviso, si definiscono i criteri che devono essere soddisfatti prima dell'attivazione di un avviso. È possibile considerare i criteri come una corrispondenza tra il verificarsi di un evento e la soddisfazione di specifiche condizioni. Quando si verifica un evento, il sistema inizia a effettuare una verifica in base alle condizioni impostate in Finance and Operations.
 
 ## <a name="events"></a>Eventi
+
 L'evento che attiva una regola di avviso può essere una data prossima o un cambiamento specifico che si verificherà. I trigger per eventi sono definiti nella Scheda dettaglio **Invia avviso quando** della finestra di dialogo **Crea regola di avviso**. Gli eventi disponibili per un determinato campo dipendono dall'attivazione selezionata.
 
 Ad esempio, se si imposta una regola di avviso per il campo **Data di inizio**, sono appropriati gli eventi generati dalla data di scadenza. Di conseguenza, il tipo di evento **in scadenza il** è disponibile per quel campo. Tuttavia, per un campo come **Centro di costo** un evento basato sulla data di scadenza non è appropriato. Di conseguenza, il tipo di evento **in scadenza il** non è disponibile per quel campo. Il tipo di evento **è stato modificato** è invece disponibile.
 
 ## <a name="event-types"></a>Tipi di evento
+
 Possono verificarsi tre tipi di eventi:
 
 - **Eventi di tipo di creazione e di tipo eliminazione** - Questi eventi attivano un avviso quando viene creato o eliminato un record.
@@ -48,6 +51,7 @@ Possono verificarsi tre tipi di eventi:
 Le modifiche che si verificano possono essere eseguite da un utente. Ad esempio, un utente modifica la data di consegna di un ordine fornitore. In alternativa, le modifiche possono verificarsi come parte di un processo. Ad esempio, il campo **Stato** nella pagina viene modificato per riflettere il ciclo di vita di diversi processi nel sistema.
 
 ## <a name="conditions"></a>Condizioni
+
 Nella Scheda dettaglio **Invia avviso** della finestra di dialogo **Crea regola di avviso**, è possibile utilizzare condizioni per controllare quando si viene avvisati del verificarsi di eventi.
 
 Ad esempio, è possibile impostare il sistema in modo che avvisi quando lo stato degli ordini fornitore viene modificato, ma solo se lo stato corrisponde a un set di condizioni specifico. In particolare, si intende essere avvisati quando lo stato di un ordine fornitore è impostato su **Ricevuto**. Questa modifica nello stato è l'evento che attiva l'avviso.
@@ -58,15 +62,19 @@ Successivamente, è necessario decidere per quali ordini fornitore si desidera r
 - **Tutti i record** - Si riceve un avviso quando lo stato di un ordine fornitore viene modificato per un articolo nella visualizzazione della pagina attiva. È possibile utilizzare il filtro avanzato disponibile nella pagina per creare regole per uno specifico set di record. Ad esempio, è possibile creare un avviso che viene attivato per tutti gli ordini fornitore per i clienti appartenenti a un gruppo di clienti specifico.
     
 ## <a name="expiry-of-rule"></a>Scadenza della regola
+
 Nella Scheda dettaglio **Invia avviso fino a** della finestra di dialogo **Crea regola di avviso**, è possibile specificare per quanto tempo deve essere attiva la regola di avviso.
 
 ## <a name="alert-contents"></a>Contenuti dell'avviso
+
 Nella Scheda dettaglio **Invia avviso con** della finestra di dialogo **Crea regola di avviso**, è possibile specificare l'oggetto e il testo del messaggio utilizzati nei messaggi di avviso.
 
 ## <a name="user-id"></a>ID utente
+
 Nella Scheda dettaglio **Invia avviso con** della finestra di dialogo **Crea regola di avviso**, è possibile specificare l'utente destinatario dei messaggi di avviso. Per impostazione predefinita, è selezionato il proprio ID utente. Questa opzione è limitata agli amministratori dell'organizzazione.
 
 ## <a name="create-an-alert-rule"></a>Crea una regola di avviso
+
 1. Aprire la pagina contenente i dati da monitorare.
 2. Nel riquadro azioni della scheda **Opzioni** del gruppo **Condividi**, selezionare **Crea regola di avviso**.
 3. Nella finestra di dialogo **Crea regola di avviso**, nel campo **Campo**, selezionare il campo da monitorare.

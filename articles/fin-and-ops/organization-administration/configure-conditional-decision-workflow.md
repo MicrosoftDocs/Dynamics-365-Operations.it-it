@@ -34,24 +34,24 @@ Per configurare le proprietà di una decisione condizionale, attenersi alla proc
 Una decisione condizionale rappresenta un punto nel quale un flusso di lavoro si divide in due rami. Per configurare una decisione condizionale, nell'editor flusso di lavoro fare clic con il pulsante destro del mouse sulla decisione e scegliere **Proprietà** per aprire il modulo **Proprietà**.
 
 ## <a name="name-a-decision"></a>Assegnare un nome a una decisione
+
 Per immettere un nome per una decisione condizionale, effettuare le operazioni indicate di seguito.
-1.  Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
-2.  Nel campo **Nome** immettere un nome univoco per la decisione condizionale.
+
+1. Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
+2. Nel campo **Nome** immettere un nome univoco per la decisione condizionale.
 
 ## <a name="set-conditions"></a> Impostare condizioni
+
 Il sistema determina quale ramo utilizzare valutando il documento inviato per determinare se soddisfa le condizioni specifiche.
-1.  Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
-2.  Fare clic su **Aggiungi condizione**.
-3.  Immettere una condizione.
-4.  Immettere altre condizioni, se necessario.
-5.  Per verificare la correttezza della configurazione delle condizioni immesse, eseguire i passaggi seguenti:
-    1.  Fare clic su **Test** per aprire il modulo **Test condizione flusso di lavoro**.
-    2.  Selezionare un record nell'area **Convalida condizione** del modulo.
-    3.  Fare clic su **Test**. Il sistema valuta il record per determinare se soddisfa le condizioni definite.
-    4.  Fare clic su **OK** o **Annulla** per tornare al modulo **Proprietà**.
 
+1. Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
+2. Fare clic su **Aggiungi condizione**.
+3. Immettere una condizione.
+4. Immettere altre condizioni, se necessario.
+5. Per verificare la correttezza della configurazione delle condizioni immesse, eseguire i passaggi seguenti:
 
-
-
-
+    1. Fare clic su **Test** per aprire il modulo **Test condizione flusso di lavoro**.
+    2. Selezionare un record nell'area **Convalida condizione** del modulo.
+    3. Fare clic su **Test**. Il sistema valuta il record per determinare se soddisfa le condizioni definite.
+    4. Fare clic su **OK** o **Annulla** per tornare al modulo **Proprietà**.
 
