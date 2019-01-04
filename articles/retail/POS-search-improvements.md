@@ -66,7 +66,7 @@ Le ricerche di prodotto locali sono ora più facili e intuitive. Sono state appo
 - I rivenditori possono ora configurare la ricerca prodotto in modo da visualizzare suggerimenti di ricerca mentre gli utenti digitano nomi di prodotti. Una nuova impostazione per questa funzionalità è disponibile nel profilo della funzionalità POS, in un gruppo denominato **Ricerca prodotto**. L'impostazione è denominata **Mostra suggerimenti di ricerca durante la digitazione**. Questa funzionalità può consentire ai dipendenti di trovare rapidamente il prodotto che stanno cercando, in quanto non devono digitarne il nome completo.
 - L'algoritmo di ricerca prodotto ora cerca i termini anche nella proprietà **Nome di ricerca** del prodotto.
 
-![Suggerimenti su prodotti](./media/Productsuggestions.png "Suggerimenti su prodotti")
+    ![Suggerimenti su prodotti](./media/Productsuggestions.png "Suggerimenti su prodotti")
 
 ## <a name="customer-search"></a>Ricerca cliente
 

@@ -36,6 +36,7 @@ Quando si crea un ordine cliente, è possibile selezionare una modalità di cons
 Retail include funzionalità che consentono agli utenti di limitare le modalità di consegna in modo che possano essere utilizzate da un canale, le modalità di consegna che possono essere utilizzate per un prodotto e le modalità di consegna che sono valide per destinazioni di spedizione specifiche. È possibile inoltre definire le spese in modo che le commissioni aggiuntive vengano aggiunte all'ordine di un cliente, in base alla modalità di consegna selezionata per l'ordine e al valore totale dell'ordine.
 
 ## <a name="define-delivery-modes"></a>Definire le modalità di consegna
+
 Prima di specificare quali modalità di consegna possono essere utilizzate per gli ordini del servizio clienti e prima di definire le regole e le spese associate, è necessario definire le modalità di consegna. Passare a **Vendite e marketing \> Impostazioni \> Distribuzione \> Modi di consegna**. Selezionare **Nuovo** per creare un nuovo modo di consegna. In alternativa, selezionare un modo di consegna esistente nell'elenco e quindi selezionare **Modifica** per apportare modifiche.
 
 Nel campo **Modo di consegna**, è possibile immettere qualsiasi combinazione di caratteri alfanumerici, in base ai requisiti dell'azienda. È quindi possibile utilizzare il campo **Descrizione** per fornire altro contesto. I campi **Gruppi di spese** e **Urgente** sono facoltativi e verranno descritti più in dettaglio più avanti in questo argomento.
@@ -47,11 +48,13 @@ Nella Scheda dettaglio **Prodotti**, è possibile specificare per quali prodotti
 Nella Scheda dettaglio **Indirizzi**, è possibile specificare quali paesi o regioni o stati è possibile utilizzare o meno il modo di consegna. Ad esempio, gli ordini che vengono spediti alle Hawaii o in Alaska non sono idonei per la consegna per via terrestre. Questi stati devono quindi essere esclusi da qualsiasi modo di consegna che è associato a un servizio di consegna per via terrestre e devono essere inclusi in tutti i modi di consegna che sono associati a un servizio di consegna per via aerea.
 
 ## <a name="validate-delivery-modes-for-a-call-center-order"></a>Convalidare i modi di consegna per un ordine di servizio clienti
+
 Dopo avere definito i modi di consegna, è necessario eseguire il processo batch **Elabora modalità di consegna**. Questo processo rende disponibili i modi di consegna affinché possano essere utilizzati nei processi di ordine cliente per i canali Retail. Per eseguire il processo **Elabora modalità di consegna**, passare a **Retail \> Vendita al dettaglio IT \> Elabora modalità di consegna**. È consigliabile eseguire questo processo ogni volta che si aggiungono nuovi modi di consegna a un canale di vendita al dettaglio o che si apportano modifiche alle relazioni esistenti tra modo di consegna e canale.
 
 Dopo avere eseguito il processo batch **Elabora modalità di consegna**, è possibile passare a **Retail \> Canali \> Servizi clienti \> Tutti i servizi clienti**. Nella pagina **Tutti i servizi clienti**, nel riquadro delle azioni, nella scheda **Imposta**, selezionare **Modi di consegna**. La pagina **Modi di consegna** elenca tutti i modi di consegna validi per il canali di servizio clienti selezionato. Per modificare i modi di consegna esistenti o aggiungerne di nuovi, selezionare **Gestisci modalità di consegna**. Notare che il processo **Elabora modalità di consegna** deve essere eseguito ogni volta che vengono eseguite modifiche.
 
 ## <a name="define-charges-for-delivery-services"></a>Definire le spese per i servizi di consegna
+
 Quando una società crea ordini cliente per i clienti, potrebbe voler aggiungere che spese che vengono calcolate automaticamente in base ai modi di consegna selezionati per gli ordini. Queste spese possono essere configurate in modo che siano uguali per tutti i clienti e tutti i modi di consegna. In alternativa, le spese possono variare, a seconda del cliente e/o del modo di consegna selezionati per l'ordine cliente.
 
 Per definire le spese, passare a **Retail \> Impostazione canale \> Spese \> Spese automatiche**. Selezionare **Nuovo** per aggiungere nuove spese. In alternativa, selezionare una voce esistente e quindi selezionare **Modifica**.
@@ -73,6 +76,7 @@ Le società di vendita al dettaglio spesso configurano le spese a livelli. In qu
 ![Esempio di spese a livelli miste](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Applicare modi di consegna durante la registrazione di ordini in un servizio clienti
+
 Quando si crea un nuovo ordine cliente, è necessario specificare un valore nel campo **Modo di consegna** nella Scheda dettaglio **Consegna** dell'intestazione dell'ordine cliente. Questo campo potrebbe essere compilato automaticamente, in base ai valori predefiniti derivati dal record del cliente.
 
 Il modo di consegna che viene definito nell'intestazione dell'ordine viene copiato automaticamente nelle righe dell'ordine cliente man mano che vengono create. È tuttavia possibile modificare l'impostazione del modo di consegna per una riga specifica nella scheda **Consegna** nella sezione **Dettagli riga** della pagina di registrazione dell'ordine cliente.
@@ -80,11 +84,13 @@ Il modo di consegna che viene definito nell'intestazione dell'ordine viene copia
 Se il modo di consegna selezionato non è valido per il prodotto o per l'indirizzo di consegna definito per l'ordine o la riga dell'ordine, viene visualizzato un messaggio di errore. È quindi necessario selezionare un modo di consegna definito per supportare la configurazione del prodotto o dell'indirizzo.
 
 ## <a name="calculation-of-delivery-charges-during-entry-of-order"></a>Calcolo delle spese di consegna durante la registrazione dell'ordine
+
 Se l'impostazione **Attiva completamento ordine** viene attivata per il canale di servizio clienti, le spese di consegna vengono automaticamente calcolate per gli ordini cliente quando gli utenti selezionano **Completo**. Il messaggio seguente viene visualizzato in cima alla pagina **Riepilogo ordine cliente**: "Spese a livelli calcolate". Le spese calcolate vengono aggiunte al valore del campo **Totale vendite**. Nella Scheda dettaglio **Importo**, il campo **Spese** mostra l'importo totale di tutte le spese che sono state calcolate per l'ordine e le righe. Per vedere una scomposizione dettagliata delle spese, selezionare **Ordine** nella pagina **Riepilogo ordine cliente**, quindi selezionare l'opzione **Spese** per visualizzare, aggiungere o modificare le spese. Notare che il calcolo delle spese di consegna nell'intestazione dell'ordine si basano sul modo di consegna che è collegato all'intestazione. Le spese di consegna a livello di riga vengono calcolate in base al modo di consegna che viene configurato per la riga di vendita. Se per righe differenti vengono utilizzati più modi di consegna, è possibile applicare più spese insieme. L'importo totale viene quindi mostrato nel campo **Spese** nella pagina **Riepilogo ordine cliente**.
 
 Se l'impostazione **Attiva completamento ordine** è disattivato, gli utenti devono attivare manualmente il calcolo delle spese. Nella pagina **Ordine cliente**, nel riquadro delle azioni, nella scheda **Vendi**, nel gruppo **Calcola**, selezionare **Spese a livelli**. Viene visualizzato il messaggio "Spese a livelli calcolate". È quindi possibile selezionare l'opzione **Spese** nella scheda **Vendi** per visualizzare, modificare o eliminare le spese calcolate.
 
 ## <a name="use-expedited-delivery-modes-on-call-center-orders"></a>Utilizzare i modi di consegna urgenti sugli ordini del servizio clienti
+
 È facoltativamente possibile collegare un codice di urgenza a un modo di consegna che si configura. Questo codice viene utilizzato come priorità di ordinamento e strumento di creazione report. Attualmente non determina l'aggiunta di altre commissioni da applicare all'ordine. Per impostare i codici di urgenza, passare a **Vendite e marketing \> Impostazioni \> Distribuzione \> Codici urgenza**.
 
 Ad esempio, per gli ordini che verranno spediti il giorno successivo per via aerea, il prelievo dal magazzino deve avvenire alle 13.00 di ogni giorno. In questo caso, è possibile creare un codice di urgenza e collegarlo a un qualsiasi modo di consegna del giorno successivo che viene configurato nel sistema. Quando il magazzino crea l'ondata di prelievi, è possibile utilizzare il codice di urgenza appropriato nel campo **Urgente** come filtro, in modo che il prelievo venga eseguito solo per gli ordini con modi di consegna collegati a quel codice.

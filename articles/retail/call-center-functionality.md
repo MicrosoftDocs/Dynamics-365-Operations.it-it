@@ -42,25 +42,30 @@ Oltre a supportare la creazione di ordini, il modulo servizio clienti fornisce u
 In questa pagina vengono forniti collegamenti alla documentazione su impostazione, configurazione e utilizzo delle funzionalità di servizio clienti in Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>Configurazione del servizio clienti
+
 [Impostare le opzioni di elaborazione dell'ordine](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Configurazione dell'elaborazione degli ordini
+
 [Impostare avvisi antifrode](set-up-fraud-alerts.md)
 
 [Sospensioni ordine manuali](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Configurazione dell'elaborazione dei pagamenti
+
 [Metodi di pagamento in un servizio clienti](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Configurare le modalità di consegna
+
 [Configurare le modalità e le spese di consegna del servizio clienti](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Configurazione del direct marketing
+
 [Cataloghi del servizio clienti](call-center-catalogs.md)
 
 [Impostare l'analisi RFM](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Configurazione di programmi di continuità
-[Impostare un programma di continuità per un servizio clienti](set-up-continuity-program.md)
 
+[Impostare un programma di continuità per un servizio clienti](set-up-continuity-program.md)
 

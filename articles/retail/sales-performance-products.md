@@ -31,20 +31,18 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-È possibile studiare la redditività per i primi 10 prodotti tramite Microsoft Dynamics 365 for Retail. 
+È possibile studiare la redditività per i primi 10 prodotti tramite Microsoft Dynamics 365 for Retail.
 
 Come parte di Dynamics 365 for Retail, gli utenti possono anche analizzare la redditività relativa ai prodotti principali (da 10 a 100) nei diversi livelli della gerarchia organizzativa, in base a uno dei seguenti criteri:
 
--   Importo vendite
--   Quantità
--   Margine di profitto lordo
--   Percentuale margine
+- Importo vendite
+- Quantità
+- Margine di profitto lordo
+- Percentuale margine
 
 Per la valutazione, è possibile utilizzare direttamente il report **Report prodotti principali** che è possibile aprire tramite uno dei seguenti percorsi:
 
--   Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report prodotti principali**
--   Area di lavoro **Gestione categorie e prodotti** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report prodotti principali**
--   Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report prodotti principali**
-
-
+- Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report prodotti principali**
+- Area di lavoro **Gestione categorie e prodotti** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report prodotti principali**
+- Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report prodotti principali**
 
