@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 393c2eed5a0d0d808926585ddd5df13a066912d9
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
 ms.contentlocale: it-it
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -31,21 +31,19 @@ ms.lasthandoff: 09/11/2018
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="d8cf6-104">In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dei punti di vendita, in base ai dati di Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="d8cf6-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
+<span data-ttu-id="d8cf6-104">In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dei punti di vendita, in base ai dati di Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="d8cf6-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span>
 
 <span data-ttu-id="d8cf6-105">Come parte di Microsoft Dynamics 365 for Retail, gli utenti possono analizzare le prestazioni del punto vendita in tempo reale nei diversi livelli della gerarchia organizzativa per un periodo selezionato aprendo il report predefinito **Riepilogo canale** da uno dei seguenti percorsi:</span><span class="sxs-lookup"><span data-stu-id="d8cf6-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
 
--   <span data-ttu-id="d8cf6-106">Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**</span><span class="sxs-lookup"><span data-stu-id="d8cf6-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
--   <span data-ttu-id="d8cf6-107">Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**</span><span class="sxs-lookup"><span data-stu-id="d8cf6-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
--   <span data-ttu-id="d8cf6-108">Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report di riepilogo canale**</span><span class="sxs-lookup"><span data-stu-id="d8cf6-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
+- <span data-ttu-id="d8cf6-106">Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**</span><span class="sxs-lookup"><span data-stu-id="d8cf6-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
+- <span data-ttu-id="d8cf6-107">Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**</span><span class="sxs-lookup"><span data-stu-id="d8cf6-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
+- <span data-ttu-id="d8cf6-108">Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report di riepilogo canale**</span><span class="sxs-lookup"><span data-stu-id="d8cf6-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
 
 <span data-ttu-id="d8cf6-109">In questo report viene fornito uno snapshot dei riepiloghi seguenti come parte delle prestazioni del punto vendita:</span><span class="sxs-lookup"><span data-stu-id="d8cf6-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
 
--   <span data-ttu-id="d8cf6-110">Riepilogo vendite lorde</span><span class="sxs-lookup"><span data-stu-id="d8cf6-110">Gross sales summary</span></span>
--   <span data-ttu-id="d8cf6-111">Riepilogo tipi di metodo di pagamento</span><span class="sxs-lookup"><span data-stu-id="d8cf6-111">Tender type summary</span></span>
--   <span data-ttu-id="d8cf6-112">Riepilogo IVA</span><span class="sxs-lookup"><span data-stu-id="d8cf6-112">Tax summary</span></span>
--   <span data-ttu-id="d8cf6-113">Riepilogo sostituzione prezzo</span><span class="sxs-lookup"><span data-stu-id="d8cf6-113">Price overrides summary</span></span>
--   <span data-ttu-id="d8cf6-114">Riepilogo sconti</span><span class="sxs-lookup"><span data-stu-id="d8cf6-114">Discounts summary</span></span>
-
-
+- <span data-ttu-id="d8cf6-110">Riepilogo vendite lorde</span><span class="sxs-lookup"><span data-stu-id="d8cf6-110">Gross sales summary</span></span>
+- <span data-ttu-id="d8cf6-111">Riepilogo tipi di metodo di pagamento</span><span class="sxs-lookup"><span data-stu-id="d8cf6-111">Tender type summary</span></span>
+- <span data-ttu-id="d8cf6-112">Riepilogo IVA</span><span class="sxs-lookup"><span data-stu-id="d8cf6-112">Tax summary</span></span>
+- <span data-ttu-id="d8cf6-113">Riepilogo sostituzione prezzo</span><span class="sxs-lookup"><span data-stu-id="d8cf6-113">Price overrides summary</span></span>
+- <span data-ttu-id="d8cf6-114">Riepilogo sconti</span><span class="sxs-lookup"><span data-stu-id="d8cf6-114">Discounts summary</span></span>
 

@@ -19,10 +19,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 08/09/2018
 - <span data-ttu-id="df314-145">I rivenditori possono ora configurare la ricerca prodotto in modo da visualizzare suggerimenti di ricerca mentre gli utenti digitano nomi di prodotti.</span><span class="sxs-lookup"><span data-stu-id="df314-145">Retailers can now configure product search to show search suggestions as users type product names.</span></span> <span data-ttu-id="df314-146">Una nuova impostazione per questa funzionalità è disponibile nel profilo della funzionalità POS, in un gruppo denominato **Ricerca prodotto**.</span><span class="sxs-lookup"><span data-stu-id="df314-146">A new setting for this functionality is available in the POS functionality profile, in a group that is named **Product search**.</span></span> <span data-ttu-id="df314-147">L'impostazione è denominata **Mostra suggerimenti di ricerca durante la digitazione**.</span><span class="sxs-lookup"><span data-stu-id="df314-147">The setting is named **Show search suggestions while typing**.</span></span> <span data-ttu-id="df314-148">Questa funzionalità può consentire ai dipendenti di trovare rapidamente il prodotto che stanno cercando, in quanto non devono digitarne il nome completo.</span><span class="sxs-lookup"><span data-stu-id="df314-148">This functionality can help employees quickly find the product that they are searching for, because they don't have to type the whole name manually.</span></span>
 - <span data-ttu-id="df314-149">L'algoritmo di ricerca prodotto ora cerca i termini anche nella proprietà **Nome di ricerca** del prodotto.</span><span class="sxs-lookup"><span data-stu-id="df314-149">The product search algorithm now also searches for the searched terms in the **Search name** property of the product.</span></span>
 
-<span data-ttu-id="df314-150">![Suggerimenti su prodotti](./media/Productsuggestions.png "Suggerimenti su prodotti")</span><span class="sxs-lookup"><span data-stu-id="df314-150">![Product suggestions](./media/Productsuggestions.png "Product suggestions")</span></span>
+    <span data-ttu-id="df314-150">![Suggerimenti su prodotti](./media/Productsuggestions.png "Suggerimenti su prodotti")</span><span class="sxs-lookup"><span data-stu-id="df314-150">![Product suggestions](./media/Productsuggestions.png "Product suggestions")</span></span>
 
 ## <a name="customer-search"></a><span data-ttu-id="df314-151">Ricerca cliente</span><span class="sxs-lookup"><span data-stu-id="df314-151">Customer search</span></span>
 
