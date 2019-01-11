@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: Modifiche all'estendibilità versione 8.1.2
               href: extensibility/extensibility-changes-812.md
+            - name: Modifiche all'estendibilità versione 8.1.3
+              href: extensibility/extensibility-changes-813.md
         - name: Elementi fondamentali
           items:
             - name: Personalizzazioni intrusive
@@ -883,12 +885,33 @@
       href: deployment/deploy-demo-environment.md
     - name: Distribuzione cloud
       items:
+        - name: Distribuzione self-service
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Distribuire un nuovo ambiente
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: Domande frequenti sulla distribuzione
+              href: deployment/deploymentFAQ.md
+            - name: Problemi noti della distribuzione self service
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: Operazioni di gestione delle distribuzioni
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Aggiornare un ambiente
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: Risolvere i problemi relativi agli ambienti distribuiti tramite la distribuzione self service
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: Completare l'integrazione di Azure Resource Manager
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute e Finance and Operations
           href: deployment/expressroute.md
         - name: Architettura Finance and Operations
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: Applicare aggiornamenti ad ambienti cloud
+          href: deployment/apply-deployable-package-system.md
+        - name: Applicazione degli aggiornamenti e delle estensioni ai componenti del canale Retail ospitato nel cloud
+          href: deployment/Update-retail-channel.md
+        - name: Inizializzare i componenti del canale Retail ospitato nel cloud
+          href: deployment/Initialize-Retail-Channels.md
     - name: Distribuzione locale
       href: deployment/on-premises-deployment-landing-page.md
       items:
@@ -931,8 +954,6 @@
       items:
         - name: Creare pacchetti distribuibili di modelli
           href: deployment/create-apply-deployable-package.md
-        - name: Applicare aggiornamenti ad ambienti cloud
-          href: deployment/apply-deployable-package-system.md
         - name: Installare pacchetti distribuibili dalla riga di comando
           href: deployment/install-deployable-package.md
         - name: Disinstallare un pacchetto
@@ -1021,8 +1042,6 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: Aggiornare la piattaforma Dynamics AX alla versione di agosto 2016
           href: migration-upgrade/update-platform-each-release.md
-        - name: Aggiornare ambienti sandbox
-          href: migration-upgrade/upgrade-sandbox-environment.md
         - name: 'Aggiornare i dati in ambienti di sviluppo, dimostrazione o sandbox'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Aggiornare gli strumenti di sviluppo
