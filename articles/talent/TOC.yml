@@ -7,6 +7,10 @@
         - name: Novità o modifiche
           href: whats-new.md
           items:
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (14 dicembre 2018)
+              href: whats-new-talent-december-14.md
+            - name: Novità o modifiche in Dynamics 365 for Talent Core HR (6 dicembre 2018)
+              href: whats-new-talent-december-6.md
             - name: Novità o modifiche in Dynamics 365 for Talent Core HR (27 novembre 2018)
               href: whats-new-talent-november-27.md
             - name: Novità o modifiche in Dynamics 365 for Talent Core HR (15 novembre 2018)
@@ -71,6 +75,8 @@
     - name: Gestire i congedi e le assenze
       href: leave-absence-overview.md
       items:
+        - name: Concetti di congedo e assenza
+          href: leave-absence-concepts.md
         - name: Accumulare tempo libero in base alle ore di lavoro
           href: leave-accrue-hours-worked.md
         - name: Calendari orario di lavoro
@@ -128,11 +134,14 @@
         - name: Impostare i corsi di formazione
           href: courses.md
     - name: Definire e gestire un programma di benefit
-      href: manage-benefit-program.md
-    - name: Criteri di idoneità benefit
-      href: benefit-eligibility-policies.md
       items:
-        - name: Gestire gli articoli affidati ai lavoratori
+        - name: Gestire un programma di benefit
+          href: manage-benefit-program.md
+        - name: Criteri di idoneità benefit
+          href: benefit-eligibility-policies.md
+        - name: Generare report Affordable Care Act (ACA)
+          href: generate-aca-reports.md
+        - name: Gestire gli articoli prestati ai lavoratori
           href: loan-items.md
     - name: Raccogliere informazioni tramite questionari
       href: questionnaires.md
@@ -276,8 +285,6 @@
           href: create-envi-powerapps-admin-ctr.md
         - name: Il client Talent si disconnette
           href: client-disconnects.md
-        - name: Modalità di gestione dei backup del database
-          href: database-backups.md
         - name: Evitare il troncamento del testo nella gerarchia posizioni ed esportare in Visio
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: Eseguire il processo retributivo
