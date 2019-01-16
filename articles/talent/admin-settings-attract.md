@@ -3,7 +3,7 @@ title: Impostazioni di amministrazione in Attract
 description: "In questo argomento viene descritto come attivare funzionalità specifiche per le organizzazioni e gli utenti in Attract."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 52b48d5daab985c43d59f29ad7b80dda99a7fcef
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
 ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -37,7 +37,7 @@ Immettere un nome visualizzato per la società e aggiungere un logo della societ
 
 ## <a name="linkedin-integration"></a>Integrazione di LinkedIn
 
-Impostare l'integrazione con LinkedIn Recruiter System Connect (RSC). Dopo avere effettuato la connessione a LinkedIn utilizzando le credenziali di LinkedIn, è possibile sincronizzare il profilo LinkedIn, le domande di lavoro, il riscontro sui colloqui e le note del team di assunzione relativi a un candidato. Una licenza completa di LinkedIn Recruiter è obbligatoria. Per ulteriori informazioni su RSC, vedere [Recruiter System Connect (RSC) - Domande frequenti](https://www.linkedin.com/help/recruiter/answer/90483).
+Impostare l'integrazione con LinkedIn Recruiter System Connect (RSC). Dopo avere effettuato la connessione a LinkedIn utilizzando le credenziali di LinkedIn, è possibile sincronizzare il profilo LinkedIn, le domande di lavoro, il riscontro sui colloqui e le note del team di assunzione relativi a un candidato. Una licenza completa di LinkedIn Recruiter è obbligatoria. Per ulteriori informazioni su LinkedIn Recruiter, vedere [Recruiter System Connect (RSC) - Domande frequenti](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Autorizzazioni utente
 

@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Le quantità **Ordinato** e**Prenotato** vengono visualizzate per ogni ubicazion
 
 L'elenco delle ubicazioni include due tipi di entità:
 
-- **Punti vendita al dettaglio**: l'elenco mostra i punti vendita configurati utilizzando il gruppo di ricerca punto vendita per il punto vendita corrente in Retail Headquarters. 
-- **Centri di distribuzione**: diversi tipi di centri di distribuzione (ad esempio magazzini) possono essere configurati in Microsoft Dynamics 365 for Retail. Tuttavia, l'elenco mostra le informazioni sulla disponibilità delle scorte solo per i centri di distribuzione del tipo predefinito **Standard**. 
+- **Punti vendita al dettaglio**: l'elenco mostra i punti vendita configurati utilizzando il gruppo di ricerca punto vendita per il punto vendita corrente in Retail Headquarters.
+- **Centri di distribuzione**: diversi tipi di centri di distribuzione (ad esempio magazzini) possono essere configurati in Microsoft Dynamics 365 for Retail. Tuttavia, l'elenco mostra le informazioni sulla disponibilità delle scorte solo per i centri di distribuzione del tipo predefinito **Standard**.
 
     > [!NOTE]
     > Le informazioni di magazzino non vengono visualizzate per i tipi di magazzino **Transito**, **Quarantena** e **Articoli in lavorazione** per il POS.
@@ -86,7 +86,7 @@ Nella visualizzazione **Matrice basata su dimensione**, le celle per le varianti
 | **0** (zero)                             | Una variante è stata rilasciata nell'ubicazione selezionata, ma l'articolo non è disponibile nell'ubicazione selezionata. Tuttavia, è possibile eseguire operazioni aggiuntive nella cella. Queste azioni verranno descritte in modo più dettagliato nelle sezioni successive dell'argomento. |
 | **n/a** o cella non attiva              | Una variante non è stata rilasciata nell'ubicazione selezionata e non è possibile eseguire ulteriori azioni nella cella. |
 
-È inoltre possibile modificare il pivot per le dimensioni selezionando la nuova dimensione da utilizzare. 
+È inoltre possibile modificare il pivot per le dimensioni selezionando la nuova dimensione da utilizzare.
 
 ![Cambiamento del pivot](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ Inoltre, nella visualizzazione **Matrice basata su dimensione** è possibile ese
 
 Nella tabella seguente vengono fornite ulteriori informazioni sulle azioni aggiuntive disponibili.
 
-
-|        Azione        |                                                                                                                    descrizione                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Vendi adesso       |                               Aggiunge la variante dell'articolo selezionata alla transazione e reindirizza l'utente alla schermata della transazione. Questa azione non è disponibile quando l'ubicazione selezionata è un centro di distribuzione.                               |
-|   Preleva al punto vendita   |      Crea un ordine cliente per la variante prodotto che verrà prelevata dall'ubicazione selezionata e reindirizza l'utente alla schermata della transazione. Questa azione non è disponibile quando l'ubicazione selezionata è un centro di distribuzione.       |
-|     Spedizione prodotto     |                                                 Crea un ordine cliente per la variante prodotto che verrà spedita dall'ubicazione selezionata e reindirizza l'utente alla schermata della transazione.                                                 |
-|     Disponibilità     |                                                                             Visualizza informazioni ATP per la combinazione di varianti selezionata per l'ubicazione selezionata.                                                                              |
-|  Mostra tutte le ubicazioni  | Passa alla visualizzazione della ricerca in magazzino standard ed evidenzia le informazioni sulla disponibilità delle scorte per la variante articolo in tutti i punti vendita nel gruppo di localizzatore punto vendita e anche nei centri di distribuzione di tipo <strong>Standard/Predefinito</strong>. |
-| Visualizza dettagli prodotto |                                                                         Reindirizza l'utente alla pagina <strong>Dettagli prodotto</strong> della rappresentazione generale prodotto associata.                                                                          |
-
+| Azione               | descrizione |
+|----------------------|-------------|
+| Vendi adesso             | Aggiunge la variante dell'articolo selezionata alla transazione e reindirizza l'utente alla schermata della transazione. Questa azione non è disponibile quando l'ubicazione selezionata è un centro di distribuzione. |
+| Preleva al punto vendita     | Crea un ordine cliente per la variante prodotto che verrà prelevata dall'ubicazione selezionata e reindirizza l'utente alla schermata della transazione. Questa azione non è disponibile quando l'ubicazione selezionata è un centro di distribuzione. |
+| Spedizione prodotto         | Crea un ordine cliente per la variante prodotto che verrà spedita dall'ubicazione selezionata e reindirizza l'utente alla schermata della transazione. |
+| Disponibilità         | Visualizza informazioni ATP per la combinazione di varianti selezionata per l'ubicazione selezionata. |
+| Mostra tutte le ubicazioni   | Passa alla visualizzazione della ricerca in magazzino standard ed evidenzia le informazioni sulla disponibilità delle scorte per la variante articolo in tutti i punti vendita nel gruppo di localizzatore punto vendita e anche nei centri di distribuzione di tipo **Standard/Predefinito**. |
+| Visualizza dettagli prodotto | Reindirizza l'utente alla pagina **Dettagli prodotto** della rappresentazione generale prodotto associata. |
 

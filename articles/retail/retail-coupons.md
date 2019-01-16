@@ -19,10 +19,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: c718a71ca270c67118a90456bac0cf182032d3db
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,13 +32,13 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="overview-of-coupons"></a>Panoramica dei buoni sconto
 
-I buoni sconto sono codici e codici a barre utilizzati per aggiungere gli sconti al dettaglio alle transazioni. Ogni buono sconto può avere più codici e ogni codice può avere una propria data di validità. 
+I buoni sconto sono codici e codici a barre utilizzati per aggiungere gli sconti al dettaglio alle transazioni. Ogni buono sconto può avere più codici e ogni codice può avere una propria data di validità.
 
-Ogni buono sconto è relativo a uno sconto al dettaglio. I gruppi di prezzi associati allo sconto definiscono i clienti che possono utilizzare un buono sconto o i canali in cui un buono sconto è valido. 
+Ogni buono sconto è relativo a uno sconto al dettaglio. I gruppi di prezzi associati allo sconto definiscono i clienti che possono utilizzare un buono sconto o i canali in cui un buono sconto è valido.
 
 Essenzialmente, i buoni sconto rappresentano una convalida aggiuntiva sugli sconti al dettaglio. Il buono sconto fornisce i codici e i codici a barre necessari dei buoni sconto, insieme a intervalli di date per tali codici. Il buono sconto fornisce inoltre i limiti facoltativi di utilizzo e le proprietà obbligatorie del cliente. Lo sconto fornisce un set di prodotti per cui il buono sconto è valido. I gruppi di prezzi per lo sconto forniscono il set di clienti, canali o cataloghi per cui il buono sconto è valido.
 
-Per creare un buono sconto, verranno creati separatamente lo sconto e il buono sconto. Quindi vengono collegati selezionando lo sconto nella pagina dei buoni sconto in Microsoft Dynamics 365 for Retail. 
+Per creare un buono sconto, verranno creati separatamente lo sconto e il buono sconto. Quindi vengono collegati selezionando lo sconto nella pagina dei buoni sconto in Microsoft Dynamics 365 for Retail.
 
 > [!NOTE]
 > Dopo che un buono sconto è stato collegato a uno sconto, diversi campi presenti nella pagina dei buoni sconto in Microsoft Dynamics 365 for Retail diventano di sola lettura, poiché vengono gestiti dalle impostazioni del buono sconto. Questi campi includono i campi per lo stato e gli intervalli di date standard.
@@ -54,25 +54,25 @@ Il limite viene applicato per codice buono sconto su un buono sconto. Ad esempio
 
 ## <a name="managing-coupons"></a>Gestione dei buoni sconto
 
-Lo sconto e il buono sconto devono essere creati separatamente. Quindi vengono collegati selezionando lo sconto nella pagina del buono sconto. Dopo che un buono sconto è stato collegato a uno sconto, diversi campi per lo sconto diventano di sola lettura, poiché vengono gestiti dalle impostazioni del buono sconto. Questi campi includono i campi per lo stato e gli intervalli di date standard.  
+Lo sconto e il buono sconto devono essere creati separatamente. Quindi vengono collegati selezionando lo sconto nella pagina del buono sconto. Dopo che un buono sconto è stato collegato a uno sconto, diversi campi per lo sconto diventano di sola lettura, poiché vengono gestiti dalle impostazioni del buono sconto. Questi campi includono i campi per lo stato e gli intervalli di date standard.
 
 Essenzialmente, i buoni sconto rappresentano ora una convalida aggiuntiva sugli sconti al dettaglio. Il buono sconto fornisce i codici e i codici a barre necessari dei buoni sconto, insieme a intervalli di date, limite di utilizzo e la proprietà obbligatoria del cliente. Lo sconto fornisce un set di prodotti per cui il buono sconto è valido. I gruppi di prezzi dello sconto forniscono il set di clienti, canali o cataloghi per cui il buono sconto è valido.
 
-## <a name="system-setup-for-coupons"></a>Configurazione di sistema per i buoni sconto 
+## <a name="system-setup-for-coupons"></a>Configurazione di sistema per i buoni sconto
 
-Prima di impostare un buono sconto, è necessario impostare il codice a barre del buono sconto e due sequenze numeriche di buoni sconto. 
+Prima di impostare un buono sconto, è necessario impostare il codice a barre del buono sconto e due sequenze numeriche di buoni sconto.
 
-1.  Nella pagina **Caratteri maschera**, creare un nuovo carattere maschera per il codice buono sconto. È possibile selezionare qualsiasi carattere non utilizzato.
-2.  Nella pagina **Impostazione maschera codice a barre**, creare una nuova maschera codice a barre. Impostare il campo **Tipo** su **Buono sconto**.
-3.  Nella pagina **Impostazione codice a barre**, creare un nuovo codice a barre che utilizza la maschera codice a barre appena creata.
-4.  Nella pagina **Sequenze numeriche**, creare due nuove sequenze numeriche. Una sequenza è per l'ID del codice di buono sconto e l'altra sequenza è per il numero di buono sconto. L'ID del codice buono sconto è l'identificatore univoco per ciascun codice buono sconto. Il numero del buono sconto è l'identificatore univoco per un buono sconto. Ciascun buono sconto può avere più codici e codici a barre che attivano il buono sconto.
+1. Nella pagina **Caratteri maschera**, creare un nuovo carattere maschera per il codice buono sconto. È possibile selezionare qualsiasi carattere non utilizzato.
+2. Nella pagina **Impostazione maschera codice a barre**, creare una nuova maschera codice a barre. Impostare il campo **Tipo** su **Buono sconto**.
+3. Nella pagina **Impostazione codice a barre**, creare un nuovo codice a barre che utilizza la maschera codice a barre appena creata.
+4. Nella pagina **Sequenze numeriche**, creare due nuove sequenze numeriche. Una sequenza è per l'ID del codice di buono sconto e l'altra sequenza è per il numero di buono sconto. L'ID del codice buono sconto è l'identificatore univoco per ciascun codice buono sconto. Il numero del buono sconto è l'identificatore univoco per un buono sconto. Ciascun buono sconto può avere più codici e codici a barre che attivano il buono sconto.
 
     > [!NOTE]
     > Per entrambe le sequenze numeriche, è necessario impostare il campo **Ambito** su **Società**. Nella maggior parte dei casi, è necessario generare automaticamente entrambe i numeri della sequenza.
 
-5.  Nella pagina **Parametri di vendita al dettaglio**, nella scheda **Codici a barre**, selezionare il codice a barre creato in precedenza.
-6.  Nella pagina **Parametri condivisi di vendita al dettaglio**, nella scheda **Sequenze numeriche**, selezionare le sequenze numeriche create per il numero di buono sconto e ID codice buono sconto.
-7.  È ora possibile aprire la pagina **Buoni sconto** e creare nuovi buoni sconto.
+5. Nella pagina **Parametri di vendita al dettaglio**, nella scheda **Codici a barre**, selezionare il codice a barre creato in precedenza.
+6. Nella pagina **Parametri condivisi di vendita al dettaglio**, nella scheda **Sequenze numeriche**, selezionare le sequenze numeriche create per il numero di buono sconto e ID codice buono sconto.
+7. È ora possibile aprire la pagina **Buoni sconto** e creare nuovi buoni sconto.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Effetto degli aggiornamenti parziali sui buoni sconto
 

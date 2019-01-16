@@ -3,7 +3,7 @@ title: Generare report Affordable Care Act (ACA)
 description: "È disponibile una funzionalità che consente ai dipendenti che devono tenere traccia delle informazioni dichiarate sui moduli 1095-B e 1095-C a supporto della parte relativa al mandato del datore di lavoro dell'Affordable Care Act. Questa funzionalità è abilitata solo per le persone giuridiche negli Stati Uniti."
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 12/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
+ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
+ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/17/2018
 
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Generare report Affordable Care Act (ACA)
@@ -54,7 +54,7 @@ Nella pagina **Gestione date di copertura persone a carico**, è possibile indic
 ## <a name="generate-1095b-and-1095c-forms"></a>Generare i moduli 1095B e 1095C
 È inoltre possibile generare i moduli 109-B e 1095-C dal prodotto e distribuirli a ciascuno dei dipendenti. Anche il modulo 1095-C generato elettronicamente e i corrispondenti file di trasmissione 1094-C utilizzabili per inviarlo all'IRS possono essere generati dal sistema.  
 
-Durante la generazione del modulo 1095-C, immettere l'anno fiscale o solare appropriati come sei si volesse stampare il modulo a due o a tre pagine. Il modulo a tre pagine è necessario solo se il datore di lavoro ha fornito una copertura autoassicurata e un dipendente ha più di sei dipendenti coperti incluso se stesso. Durante la generazione del modulo a due pagine il sistema individuerà automaticamente se un dipendente ha più di 6 dipendenti coperti e non includerà tale dipendente quando viene generato il modulo. Inoltre, durante la generazione del modulo composto da tre pagine il sistema includerà solo i dipendenti con più di sei dipendenti coperti.
+Durante la generazione del modulo 1095-C, immettere l'anno fiscale appropriato e indicare se i numeri di previdenza sociale devono essere mascherati. Quando si stampano moduli 1095-C per più di 500 dipendenti, si riceveranno più di un file PDF. Si consiglia di aumentare il valore **Dimensioni massime di file** nella finestra **Parametri di gestione documenti** a 150 MB.
 
 ## <a name="viewing-information"></a>Visualizzazione delle informazioni
 È possibile utilizzare la pagina **Copertura Affordable Care Act del lavoratore** per visualizzare i dipendenti assegnati a ciascun gruppo di copertura, quelli che non devono essere inclusi in un report e i dipendenti che non sono assegnati.

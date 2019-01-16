@@ -3,7 +3,7 @@ title: Panoramica della compensazione/liquidazione
 description: Questo articolo fornisce informazioni generali sul processo di liquidazione. Descrive i tipi di transazioni che possono essere liquidate, quando, come e i risultati del processo di liquidazione.
 author: kweekley
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
 ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2018
 
 ---
 
@@ -52,5 +52,8 @@ Quando le transazioni vengono liquidate, il saldo scoperto di ciascuna transazio
 
 Se [il pagamento è inferiore all'importo della fattura](../accounts-payable/vendor-payments-partial-amount.md) a causa di uno sconto di cassa, un annullamento o un pagamento insufficiente, la fattura e il pagamento potrebbero comunque venire chiusi, a seconda dell'impostazione della liquidazione nei parametri di contabilità clienti e nei parametri di contabilità fornitori. La compensazione può anche generare transazioni. Ad esempio, la compensazione di una fattura e di un pagamento può produrre uno sconto di cassa, un profitto o una perdita realizzata, rettifiche di VAT, annullamenti o differenze in centesimi.
 
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+- [Residuo liquidazione](settle-remainder.md)
 
 

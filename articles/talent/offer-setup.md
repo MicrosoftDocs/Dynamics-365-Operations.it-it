@@ -3,7 +3,7 @@ title: Impostare la gestione delle offerte
 description: In questo argomento viene descritto come impostare le offerte in Talent.
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Impostare la gestione delle offerte 
@@ -105,7 +105,7 @@ Per caricare il file di regole dei dati di offerta, effettuare la procedura segu
 
 1.  È possibile eliminare un set di regole caricato corrente se il segnaposto definito non è utilizzato in un altro modello di documento.
 
->[!NOTES]
+>[!NOTE]
 > - Ogni segnaposto può essere associato a un solo insieme univoco di colonne da cui dipende. Ad esempio, se **Salario annuale** dipende da **Ubicazione mansione** e **Livello**, non è possibile caricare un altro set di regole in cui **Salario annuale** dipende da un diverso set di colonne.
 
 > - È possibile scaricare set di regole dei dati di offerta di esempio nella scheda **Esempi** della pagina **Regole dati offerta**.
@@ -136,7 +136,7 @@ Per creare un modello di documento di offerta, effettuare la procedura seguente.
 
     - Posizionando direttamente l'hashtag del segnaposto di dati di offerta. Digitando **\#** quindi iniziare a immettere il nome del segnaposto di dati di offerta. Le opzioni appariranno nell'elenco a discesa. Fare clic o premere  **INVIO** per inserire il segnaposto di dati di offerta.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Per associare un segnaposto al modello di documento di offerta senza esporre il relativo valore al candidato, passare il mouse sul segnaposto di dati di offerta e fare clic sull'icona **Blocca**. Questo sposterà il segnaposto nella sezione **Dati dell'offerta aggiunti** del modello di documento di offerta. Per sbloccare, seguire la stessa procedura ma fare clic su **Sblocca** nell'elenco dei segnaposto di dati di offerta.
 
     > - Per visualizzare l'elenco dei segnaposto di dati di offerta attivi, passare alla scheda **Attivo** del riquadro a destra.
@@ -175,7 +175,7 @@ I pacchetti di offerta sono gli elementi di offerta condivisi con il candidato e
 
 1.  Fare clic su **Aggiungi modello**.
 
-    >[!NOTES]
+    >[!NOTE]
     > - È possibile creare un nuovo modello o sceglierne uno esistente.
 
     > - Se si sceglie di aggiungere un modello esistente, verificare che il modello di documento di offerta sia stato salvato, finalizzato e contrassegnato come attivo.
@@ -198,8 +198,10 @@ Diverse parti del processo di creazione dell'offerta possono essere configurate 
 
 - **Esperienza dell'offerta del candidato** - Come amministratore, è possibile scegliere di impostare se tutte le offerte abbiano una data di scadenza e in caso affermativo, quale deve essere l'offset predefinito per la data di scadenza. È inoltre possibile configurare se i candidati possono rifiutare un'offerta.
 
-- **Firme elettroniche** - Al momento l'unica opzione di firma elettronica disponibile è che i candidati digitano il loro nome nel pacchetto di offerta quando accettano l'offerta. Introdurremo integrazioni partner con altri fornitori di firma elettronica in futuro.
+- **Firme elettroniche** - Come amministratore, è inoltre possibile selezionare il metodo che i candidati possono utilizzare per firmare le offerte.
+    - Adobe Sign - Tutti i pacchetti di offerta saranno inviati e firmati via Adobe Sign. Ogni creatore di offerte che pubblica l'offerta deve avere la licenza Adobe Sign collegata a Attract. 
 
+    - ESign – Questa è l'opzione predefinita, dove l'utente può firmare un'offerta digitando il relativo nome e le iniziali.
 
 Per ulteriori informazioni sul processo di creazione dell'offerta, vedere [Creazione, approvazione e firma di offerte](./creating-offers.md).
 

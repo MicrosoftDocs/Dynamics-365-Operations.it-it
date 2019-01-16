@@ -3,7 +3,7 @@ title: Creazione, approvazione e pubblicazione di annunci di mansioni in Attract
 description: In questo argomento sono descritti gli elementi di una mansione in Attract. Viene illustrato anche come creare una mansione.
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: it-it
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Per ulteriori informazioni sulle attività che possono essere aggiunti al proces
 
 ## <a name="postings"></a>Registrazioni
 
-Dopo che una mansione viene attivata, può essere pubblicata. Solo i selezionatori e gli amministratori possono pubblicare annunci di mansioni. La mansione può essere pubblicata in Talent - Avanzamento professionale (un sito di avanzamento professionale di Microsoft Dynamics 365 for Talent) o su LinkedIn. Il team di Attract continuamente lavora per collaborare con aggregatori di bacheche di annunci lavorativi. Di conseguenza, questo elenco si espanderà nel tempo.
+Dopo che una mansione viene attivata, può essere pubblicata. Solo i selezionatori e gli amministratori possono pubblicare annunci di mansioni. La mansione può essere pubblicata in Talent - Avanzamento professionale (un sito di avanzamento professionale di Microsoft Dynamics 365 for Talent) o su LinkedIn. 
+
+> [!NOTE]
+> È necessario considerare tre cose importanti in relazione al processo di pubblicazione di annunci di mansioni in LinkedIn.
+> 1. Le mansioni pubblicate in LinkedIn lo sono come mansioni di "Elenchi restrizioni". Le mansioni di elenchi restrizioni non possono essere promosse nel sito di LinkedIn. Se si desidera promuovere le mansioni di elenchi restrizioni pubblicate in LinkedIn da Attract, è necessario abilitare il wrapping delle mansioni in LinkedIn. Per ulteriori informazioni, fare riferimento ai collegamenti qui sotto e contattare il Supporto tecnico LinkedIn.
+>
+>    [Elenchi restrizioni e slot di mansioni premium per il wrapping di mansioni](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [Domande frequenti sul wrapping di mansioni](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. Quando si pubblicano mansioni in LinkedIn, Attract passa il nome dell'organizzazione Microsoft 365 per la mansione. LinkedIn collega le mansioni a una società sul lato LinkedIn in base al nome dell'organizzazione passato. Se la mansione è elencata per una società errata in LinkedIn, verificare che il nome dell'organizzazione Microsoft 365 corrisponda al nome della società in LinkedIn.  
+>
+>    [Modifica di indirizzo, contatto e altre informazioni](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    In caso di problemi dopo questo passaggio, contattare il Supporto tecnico LinkedIn. 
+> 
+> 1. A causa del processo di registrazione corrente del processo batch di LinkedIn, è possibile che siano necessarie fino a 24 ore perché le mansioni registrate in LinkedIn siano visibili ai candidati in LinkedIn.
+
+Il team di Attract opera continuamente per collaborare con aggregatori di bacheche di annunci lavorativi. Questo elenco si espanderà nel tempo.
 
 Per ulteriori informazioni sulla pubblicazione di annunci di mansioni, vedere [Funzionalità del sito di avanzamento professionale in Attract](./career-site.md).
 

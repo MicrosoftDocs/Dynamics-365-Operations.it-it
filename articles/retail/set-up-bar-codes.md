@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e4ad8c2a984229b96cc5b81c0fd505a264ba58f0
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 15d12abe32d3f5a47348016c67a4fb02d0a5d8e3
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -33,19 +33,19 @@ ms.lasthandoff: 08/09/2018
 
 Questo articolo descrive come usare i codici a barre in Microsoft Dynamics 365 for Retail.
 
-È possibile utilizzare i codici a barre per acquistare o vendere prodotti, tenere traccia delle varianti prodotto e impostare clienti e dipendenti. È inoltre possibile utilizzare i codici a barre per emettere e approvare buoni sconto, gift card e note di credito. È possibile impostare prodotti al dettaglio in modo che abbiano codici a barre standard o interni personalizzati. I prodotti possono avere più di un codice a barre. Ad esempio, un prodotto può avere più codici a barre se il prodotto proviene da diversi produttori o se dispone di varianti in base a dimensioni, stile o colore. I codici a barre possono includere il peso o il prezzo del prodotto. Le maschere codice a barre sono modelli utilizzati per creare codici a barre. **Nota:** l'assegnazione di un codice a barre univoco a ogni combinazione di varianti consente di eseguire la scansione del codice a barre nel registratore di cassa e individuare automaticamente la variante del prodotto venduta. È anche possibile raccogliere e visualizzare statistiche delle vendite a livello di varianti. A ogni gruppo di dimensioni, colori e stili può essere assegnato un numero univoco che lo identifica nel codice a barre. La maschera codice a barre viene utilizzata da Dynamics 365 for Retail per generare automaticamente codici a barre per ogni combinazione di varianti. Tale funzionalità può essere utile in presenza di un gran numero di dimensioni, colori e stili poiché le combinazioni aumentano in modo significativo con ogni codice di variante aggiunto. Se non si utilizza questa funzionalità, è necessario assegnare manualmente i codici a barre a ogni combinazione che rappresenta una variante di prodotto. È possibile creare i codici a barre manualmente o automaticamente. Per creare i codici a barre, completare le seguenti attività nell'ordine in cui sono elencate.
+È possibile utilizzare i codici a barre per acquistare o vendere prodotti, tenere traccia delle varianti prodotto e impostare clienti e dipendenti. È inoltre possibile utilizzare i codici a barre per emettere e approvare buoni sconto, gift card e note di credito. È possibile impostare prodotti al dettaglio in modo che abbiano codici a barre standard o interni personalizzati. I prodotti possono avere più di un codice a barre. Ad esempio, un prodotto può avere più codici a barre se il prodotto proviene da diversi produttori o se dispone di varianti in base a dimensioni, stile o colore. I codici a barre possono includere il peso o il prezzo del prodotto. Le maschere codice a barre sono modelli utilizzati per creare codici a barre.
 
-1.  [Impostare caratteri di maschera codice a barre](set-up-bar-code-masks.md).
-2.  [Impostare le maschere codice a barre](set-up-bar-code-masks.md).
-3.  Configurare le impostazioni dei codici a barre.
-4.  Creare codici a barre per prodotti.
+> [!NOTE]
+> L'assegnazione di un codice a barre univoco a ogni combinazione di varianti consente di eseguire la scansione del codice a barre nel registratore di cassa e individuare automaticamente la variante del prodotto venduta. È anche possibile raccogliere e visualizzare statistiche delle vendite a livello di varianti. A ogni gruppo di dimensioni, colori e stili può essere assegnato un numero univoco che lo identifica nel codice a barre. La maschera codice a barre viene utilizzata da Dynamics 365 for Retail per generare automaticamente codici a barre per ogni combinazione di varianti. Tale funzionalità può essere utile in presenza di un gran numero di dimensioni, colori e stili poiché le combinazioni aumentano in modo significativo con ogni codice di variante aggiunto. Se non si utilizza questa funzionalità, è necessario assegnare manualmente i codici a barre a ogni combinazione che rappresenta una variante di prodotto.
 
+È possibile creare i codici a barre manualmente o automaticamente. Per creare i codici a barre, completare le seguenti attività nell'ordine in cui sono elencate.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+1. [Impostare caratteri di maschera codice a barre](set-up-bar-code-masks.md).
+2. [Impostare le maschere codice a barre](set-up-bar-code-masks.md).
+3. Configurare le impostazioni dei codici a barre.
+4. Creare codici a barre per prodotti.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Impostare le maschere codice a barre](set-up-bar-code-masks.md)
-
-
-
 

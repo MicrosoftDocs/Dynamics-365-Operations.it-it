@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Un archivio **File system** consente di accedere all'elenco delle configurazioni
 - ambienti ospitati nel cloud distribuiti per scopi di sviluppo (contenenti dei modelli di test di suite incluse)
 - ambienti distribuiti localmente (distribuzione di dati aziendali locale (LBD) o su sito)
 
-Per ulteriori informazioni, consultare la pagina [Importare configurazioni per la creazione di report elettronici (ER)](/electronic-reporting-import-ger-configurations.md).
+Per ulteriori informazioni, consultare la pagina [Importare configurazioni per la creazione di report elettronici (ER)](./electronic-reporting-import-ger-configurations.md).
 
 L'archivio **Istanza LCS** consente l'accesso all'elenco delle configurazioni di una determinata istanza RCS selezionata nella fase di registrazione dell'archivio. ER consente di importare configurazioni completate o condivise dall'istanza RCS selezionata nell'istanza Finance and Operations corrente e utilizzate per la creazione di report elettronici.
 
-Per ulteriori informazioni, consultare la pagina [Importare configurazioni per la creazione di report elettronici (ER) da Servizi di configurazione normativa (RCS)](/rcs-download-configurations.md).
+Per ulteriori informazioni, consultare la pagina [Importare configurazioni per la creazione di report elettronici (ER) da Servizi di configurazione normativa (RCS)](./rcs-download-configurations.md).
 
 È possibile registrare individualmente gli archivi **Progetto LCS**, **File system** e **Servizi di configurazione normativa (RCS)** richiesti per ciascun provider di configurazioni dell'istanza corrente di Finance and Operations. Ogni archivio può essere dedicato a un provider di configurazioni specifico.
 

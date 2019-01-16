@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ I layout schermo di esempio inclusi con i dati dimostrativi di Retail forniscono
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomia di un ID layout schermo
 
-Per trovare i layout schermo in Retail, accedere a **Vendita al dettaglio** > **Impostazione canale** > **Impostazione POS** > **POS** > **Layout schermo**.
+Per trovare i layout schermo in Retail, accedere a **Vendita al dettaglio** \> **Impostazione canale** \> **Impostazione POS** \> **POS** \> **Layout schermo**.
 
 ![Pagina Layout schermo in Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ Nella tabella seguente vengono illustrate le dimensioni di layout fornite per ri
 
 \* Queste dimensioni di layout aggiuntive sono disponibili solo nei layout di Fabrikam e Adventure Works.
 
-
->[!TIP]
-> Il POS seleziona automaticamente le dimensioni di layout in base alla dimensione più vicina disponibile per la risoluzione schermo della finestra dell'app corrente. Per trovare l'ID layout schermo e la risoluzione di layout attualmente utilizzata, in Retail Modern POS (MPOS) o Retail Cloud POS (CPOS), aprire la pagina **Impostazioni** ed esaminare la sezione **Informazioni sessione**. È inoltre possibile visualizzare la risoluzione effettiva della finestra per il frame del browser o dell'applicazione corrente. Dopo aver acquisito queste informazioni, è possibile trovare l'origine del contenuto del layout in Retail accedendo a **Impostazione canale** > **Impostazione POS** > **POS** > **Layout schermo**.
-
+> [!TIP]
+> Il POS seleziona automaticamente le dimensioni di layout in base alla dimensione più vicina disponibile per la risoluzione schermo della finestra dell'app corrente. Per trovare l'ID layout schermo e la risoluzione di layout attualmente utilizzata, in Retail Modern POS (MPOS) o Retail Cloud POS (CPOS), aprire la pagina **Impostazioni** ed esaminare la sezione **Informazioni sessione**. È inoltre possibile visualizzare la risoluzione effettiva della finestra per il frame del browser o dell'applicazione corrente. Dopo aver acquisito queste informazioni, è possibile trovare l'origine del contenuto del layout in Retail accedendo a **Impostazione canale** \> **Impostazione POS** \> **POS** \> **Layout schermo**.
 
 ![I layout schermo e le risoluzioni/dimensioni di layout in Retail e nel POS](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ Ogni società fittizia è relativa ad un segmento di vendita al dettaglio differ
 | Fabrikam        | Houston  | Abbigliamento        | Verde  | Leggero |
 | Contoso         | Boston   | Elettronica    | Rosso    | Scuro  |
 
-
->[!NOTE]
+> [!NOTE]
 > Adventure Works e Fabrikam sono i due marchi principali. Contoso è disponibile, ma non tutti i layout sono stati specificati.
-
 
 Nelle figure seguenti vengono illustrati esempi della pagina di benvenuto e della pagina delle transazioni per le tre società fittizie.
 
@@ -153,28 +149,26 @@ Nelle figure seguenti vengono illustrati esempi della pagina di benvenuto e dell
 
 Degli utenti sono stati specificati per i vari layout schermo. Mediante la seguente tabella, dovrebbe essere possibile accedere a una qualsiasi delle schermate. Accedere utilizzando un ID operatore appropriato.
 
-| Società         | ID layout schermo | Persona          | ID operatore           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | Responsabile punto vendita    | 000154, 000137, 000073 |
-| Adventure Works | A3CSH            | Cassiere          | 000150, 000175, 000165 |
-| Adventure Works | A3STK            | Addetto alle scorte      | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Responsabile punto vendita    | 000160, 000168, 000163 |
-| Fabrikam        | F3CSH            | Cassiere          | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Addetto alle scorte      | 000164, 000112, 000123 |
-| Contoso         | C3MGR            | Responsabile punto vendita    | 000100, 000111         |
-| Contoso         | C3CSH            | Cassiere          | 000110, 000120         |
-| Contoso         | Non applicabile   | Addetto alle scorte      | Non applicabile         |
+| Società         | ID layout schermo | Persona       | ID operatore           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | Responsabile punto vendita | 000154, 000137, 000073 |
+| Adventure Works | A3CSH            | Cassiere       | 000150, 000175, 000165 |
+| Adventure Works | A3STK            | Addetto alle scorte   | 000155, 000181, 000152 |
+| Fabrikam        | F3MGR            | Responsabile punto vendita | 000160, 000168, 000163 |
+| Fabrikam        | F3CSH            | Cassiere       | 000161, 000113, 000114 |
+| Fabrikam        | F3STK            | Addetto alle scorte   | 000164, 000112, 000123 |
+| Contoso         | C3MGR            | Responsabile punto vendita | 000100, 000111         |
+| Contoso         | C3CSH            | Cassiere       | 000110, 000120         |
+| Contoso         | Non applicabile   | Addetto alle scorte   | Non applicabile         |
 
-
->[!TIP]
+> [!TIP]
 > Per ottenere i migliori risultati, attivare un registratore di cassa nell'ubicazione punto vendita corrispondente e impostare la società sulla società della persona che si intende utilizzare all'accesso. In questo modo, le immagini del profilo visivo e del marchio sono allineate all'esperienza. Ad esempio, se si desidera visualizzare un layout di Fabrikam per un cassiere, è necessario attivare un registratore di cassa nel punto vendita di Houston.
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

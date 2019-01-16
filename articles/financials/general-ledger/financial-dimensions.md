@@ -3,7 +3,7 @@ title: Dimensioni finanziarie
 description: Questo argomento illustra i vari tipi di dimensioni finanziarie e come impostarle.
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: it-it
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ Se uno dei criteri viene soddisfatto, non sarà possibile eliminare la dimension
 Questa funzionalità è controllata da un'impostazione nella dimensione. Questa impostazione è denominata **Copiare i valori nella dimensione per ogni nuovo NomeDimensione creato**, dove **NomeDimensione** è il nome della dimensione. Per impostazione predefinita, la funzionalità è disattivata. Tuttavia, è possibile attivarla in qualsiasi momento.
 
 Se esistono già record per la dimensione, i record master vengono aggiornati quando viene attivata la funzionalità. Tuttavia, i documenti e le transazioni esistenti non vengono aggiornati.
+
+Se si utilizza un modello per creare un record master, verificare che il valore del modello per la dimensione master sia vuoto. Ad esempio, se si creano clienti da un modello, verificare che la dimensione del cliente nel modello sia vuota. Il valore della dimensione del cliente passerà dal nuovo numero di cliente a quello predefinito quando si crea il nuovo cliente.  
 
 ## <a name="derived-dimensions"></a>Dimensioni derivate
 

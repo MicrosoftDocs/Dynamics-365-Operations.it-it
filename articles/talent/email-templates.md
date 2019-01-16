@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 85581968d9d242460117693174acbf906463997f
+ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
+ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
 ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,6 +30,9 @@ ms.lasthandoff: 10/22/2018
 [!include[banner](../includes/banner.md)]
 
 Utilizzando la raccolta di modelli di messaggio di posta elettronica, gli amministratori possono creare un tema e un marchio uniforme per tutti i messaggi di posta elettronica inviati tramite Microsoft Dynamics 365 for Talent: Attract.. Gli amministratori possono anche curare una raccolta di modelli di contenuto dei messaggi di posta elettronica che altri utenti possono utilizzare. Il team di assunzione può utilizzare questi modelli nel flusso di lavoro per inviare più efficientemente messaggi di posta elettronica. Alcuni messaggi di posta elettronica in Attract sono configurati per essere inviati automaticamente e il amministratore può utilizzare la raccolta di modelli di messaggio di posta elettronica per personalizzare il contenuto per tale posta elettronica.
+
+> [!NOTE]
+> Per utilizzare modelli di messaggio di posta elettronica, l'organizzazione deve avere il componente aggiuntivo per l'assunzione a livello globale.
 
 ## <a name="global-template-configurations"></a>Configurazioni di modello globali
 

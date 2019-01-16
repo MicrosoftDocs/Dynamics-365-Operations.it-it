@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 4fac04d1ea028bae9323b7961e64f3e49b74e482
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/09/2018
 
 In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (agosto 2016 -- tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guide attività nella libreria unificata APQC (agosto 2016 - tutte le lingue) per Microsoft Dynamics AX
----------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guide attività nella libreria unificata APQC (agosto 2016 - tutte le lingue) per Microsoft Dynamics AX
 
 La libreria unificata APQC (agosto 2016 -- tutte le lingue) contiene le guide attività da utilizzare per ottenere assistenza per l'aggiornamento 2 della piattaforma Microsoft Dynamics AX (agosto 2016), l'aggiornamento di maggio 2016 dell'applicazione Microsoft Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Per ulteriori informazioni su queste versioni, vedere [Novità o modifiche](whats-new-changed.md). Le versioni localizzate delle guide attività sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md).
 
@@ -95,17 +94,11 @@ La libreria unificata APQC (agosto 2016 -- tutte le lingue) contiene le guide at
 |-----------------------------------------------------------------------------|----------------|
 | Impostare una voce di menu del dispositivo mobile per ultimare i lavori di tipo ordine acquisto | Globali         |
 
-
-
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Nuove Guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)
 
 [Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guide attività nuove o aggiornate (novembre 2016)](new-task-guides-november-2016.md)
-
-
-
 
