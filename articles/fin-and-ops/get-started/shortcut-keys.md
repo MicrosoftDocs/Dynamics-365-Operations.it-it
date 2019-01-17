@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
-ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
 ms.contentlocale: it-it
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,36 +29,35 @@ ms.lasthandoff: 10/25/2018
 
 [!include [banner](../includes/banner.md)]
 
-In Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito. 
+In Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito.
 
-**Nota:** i tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
+> [!NOTE]
+> I tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
 
 ## <a name="finding-a-shortcut"></a>Individuazione di un collegamento
-Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamenti attualmente disponibili direttamente dall'interfaccia utente. Fare semplicemente clic con il pulsante destro del mouse su un controllo e selezionare **Visualizza collegamenti**. Verrà visualizzata una finestra di dialogo contenente i collegamenti da utilizzare in base alla posizione in cui ci si trova nella pagina. 
 
+Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamenti attualmente disponibili direttamente dall'interfaccia utente. Fare semplicemente clic con il pulsante destro del mouse su un controllo e selezionare **Visualizza collegamenti**. Verrà visualizzata una finestra di dialogo contenente i collegamenti da utilizzare in base alla posizione in cui ci si trova nella pagina.
 
 ## <a name="action-shortcuts"></a>Tasti di scelta rapida per azioni
 
-|                                                   |                                  |
-|---------------------------------------------------|----------------------------------|
-| **Azione**                                    | **Tasti di premere**                        |
-| Aprire la ricerca di azioni                                | CTRL + ' o ALT + Q                  |
-| Spostarsi nel riquadro azioni standard                  | ALT + M,A o CTRL + F6               |
-| Aprire una scheda nel riquadro azioni o un menu           | INVIO o Barra spaziatrice o ALT + Freccia GIÙ |
-| Spostarti sull'opzione successiva/precedente in un menu            | Freccia GIÙ/Freccia SU            |
-| Chiudere una scheda nel riquadro azioni o un menu          | ESC                              |
-| Simulare un clic con il pulsante destro del mouse                            | MAIUSC + F10                        |
-| Visualizzare il menu di scelta rapida di Finance and Operations      | CTRL + F10                         |
-| Eseguire il pulsante predefinito in un modulo/finestra di dialogo   | ALT + INVIO                        |
-| Fare clic sul pulsante o un riquadro                            | INVIO o Barra spaziatrice                   |
-| Aggiornare le informazioni per un riquadro di conteggio         | ALT + Freccia SU                     |
-| Visualizzare i collegamenti attualmente disponibili                | ALT+MAIUSC+K                      |                              
+| Azione                                      | Tasti di premere                            |
+|-------------------------------------------------|----------------------------------|
+| Aprire la ricerca di azioni                              | CTRL + o ALT + Q                  |
+| Spostarsi nel riquadro azioni standard                | ALT + M,A o CTRL + F6               |
+| Aprire una scheda nel riquadro azioni o un menu         | INVIO o Barra spaziatrice o ALT + Freccia GIÙ |
+| Spostarti sull'opzione successiva/precedente in un menu          | Freccia GIÙ/Freccia SU            |
+| Chiudere una scheda nel riquadro azioni o un menu        | ESC                              |
+| Simulare un clic con il pulsante destro del mouse                          | MAIUSC + F10                        |
+| Visualizzare il menu di scelta rapida di Finance and Operations    | CTRL + F10                         |
+| Eseguire il pulsante predefinito in un modulo/finestra di dialogo | ALT + INVIO                        |
+| Fare clic sul pulsante o un riquadro                          | INVIO o Barra spaziatrice                   |
+| Aggiornare le informazioni per un riquadro di conteggio       | ALT + Freccia SU                     |
+| Visualizzare i collegamenti attualmente disponibili              | ALT+MAIUSC+K                      |
 
 ## <a name="date-picker-shortcuts"></a>Tasti di scelta rapida per la selezione della data
 
-|                                       |                                           |
+| Azione                            | Tasti di premere                                     |
 |---------------------------------------|-------------------------------------------|
-| **Azione**                        | **Tasti di premere**                                 |
 | Aprire la selezione data                  | ALT + Freccia GIÙ                            |
 | Spostarsi tra le date nella selezione | CTRL + Tasti di direzione                           |
 | Spostarsi sul mese successivo/precedente       | Pagina GIÙ/Pagina SU                       |
@@ -70,9 +69,8 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 ## <a name="factbox-shortcuts"></a>Tasti di scelta rapida per il riquadro Dettagli informazioni
 
-|                                                                                 |                                           |
+| Azione                                                                      | Tasti di premere                                     |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| **Azione**                                                                  | **Tasti di premere**                                 |
 | Aprire il riquadro Dettaglio informazioni (o spostare lo stato attivo sul riquadro Dettaglio informazioni se è già aperto) | ALT + M,B o CTRL + F2                        |
 | Chiudere il riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                         | ESC                                       |
 | Spostarsi sul riquadro Dettaglio informazioni successivo/precedente (con lo stato attivo nel riquadro Dettaglio informazioni)              | ALT + MAIUSC + Freccia GIÙ/ALT + MAIUSC + Freccia SU |
@@ -82,42 +80,39 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 ## <a name="filtering-shortcuts"></a>Tasti di scelta rapida per il filtro
 
-|                                    |                          |
-|------------------------------------|--------------------------|
-| **Operazione da eseguire**                     | **Premere**                |
-| Aprire la griglia per filtrare la colonna corrente                        | CTRL + G                   |
-| Chiudere la griglia per filtrare la colonna corrente                       | ESC                      |
+| Operazione da eseguire                                                                                                          | Tasti di premere                    |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------|
+| Aprire la griglia per filtrare la colonna corrente                                                                          | CTRL + G                   |
+| Chiudere la griglia per filtrare la colonna corrente                                                                         | ESC                      |
 | Aprire il riquadro filtri (o spostare lo stato attivo tra il riquadro filtri e il modulo principale se il riquadro filtri è già aperto) | ALT + M,F o CTRL + F3       |
-| Chiudere il riquadro filtri (con lo stato attivo nel riquadro filtri)             | ESC                      |
-| Aprire le opzioni di filtro/ordinamento avanzate                                      | CTRL + MAIUSC + F3            | 
+| Chiudere il riquadro filtri (con lo stato attivo nel riquadro filtri)                                                               | ESC                      |
+| Aprire le opzioni di filtro/ordinamento avanzate                                                                                        | CTRL + MAIUSC + F3            |
 
 ## <a name="form-shortcuts"></a>Tasti di scelta rapida del modulo
 
-|                                                     |                   |
-|-----------------------------------------------------|-------------------|
-| **Operazione da eseguire**                                      | **Premere**         |
-| Crea un nuovo record                                 | ALT + N             |
-| Eliminare un record                                     | ALT + CANC o ALT + F9 |
-| Salvare il record                                         | ALT + S o CTRL + S   |
-| Ripristinare                                    | CTRL + MAIUSC + F5     |
-| Aggiornare dati                                        | MAIUSC + F5          |
-| Spostarsi sul primo campo visibile nel modulo         | ALT + MAIUSC + F       |
-| Attivare/disattivare la modalità di modifica                                    | F2                |
-| Allegare un documento                                   | CTRL + MAIUSC + A      |
-| Esporta in Excel                                     | CTRL + MAIUSC + E      |
-| Spostarsi sul record precedente (all'esterno di una griglia)        | CTRL + Freccia SU     |
-| Spostarsi sul record successivo (all'esterno di una griglia)            | CTRL + Freccia GIÙ   |
-| Spostarsi sul primo record (all'esterno di una griglia)           | CTRL+HOME         |
-| Spostarsi sull'ultimo record (all'esterno di una griglia)            | CTRL+FINE          |
-| Chiudere il modulo (fare clic su Indietro)                         | ESC               |
-| Chiudere il modulo con salvataggio esplicito                   | MAIUSC + ESC         |
-| Chiudere il modulo e annullare le modifiche non salvate       | ALT + MAIUSC + Q       |
+| Operazione da eseguire                                    | Tasti di premere             |
+|-----------------------------------------------|-------------------|
+| Crea un nuovo record                           | ALT + N             |
+| Eliminare un record                               | ALT + CANC o ALT + F9 |
+| Salvare il record                                   | ALT + S o CTRL + S   |
+| Ripristinare                              | CTRL + MAIUSC + F5     |
+| Aggiornare dati                                  | MAIUSC + F5          |
+| Spostarsi sul primo campo visibile nel modulo   | ALT + MAIUSC + F       |
+| Attivare/disattivare la modalità di modifica                              | F2                |
+| Allegare un documento                             | CTRL + MAIUSC + A      |
+| Esporta in Excel                               | CTRL + MAIUSC + E      |
+| Spostarsi sul record precedente (all'esterno di una griglia)  | CTRL + Freccia SU     |
+| Spostarsi sul record successivo (all'esterno di una griglia)      | CTRL + Freccia GIÙ   |
+| Spostarsi sul primo record (all'esterno di una griglia)     | CTRL+HOME         |
+| Spostarsi sull'ultimo record (all'esterno di una griglia)      | CTRL+FINE          |
+| Chiudere il modulo (fare clic su Indietro)                   | ESC               |
+| Chiudere il modulo con salvataggio esplicito             | MAIUSC + ESC         |
+| Chiudere il modulo e annullare le modifiche non salvate | ALT + MAIUSC + Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Tasti di scelta rapida per spostarsi nei moduli
 
-|                                                     |                                              |
+| Azione                                          | Tasti di premere                                        |
 |-----------------------------------------------------|----------------------------------------------|
-| **Azione**                                      | **Tasti di premere**                                    |
 | Spostarsi sul campo successivo/precedente                     | TAB/MAIUSC + TAB                              |
 | Spostarsi sulla scheda successiva/precedente                       | ALT + MAIUSC+ Freccia DESTRA/ALT + MAIUSC + Freccia SINISTRA |
 | Spostarsi sull'&lt;n&gt;sima scheda                         | ALT+MAIUSC+&lt;n&gt; (&lt;n&gt; = 1-9)        |
@@ -134,30 +129,28 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 ## <a name="grid-shortcuts"></a>Tasti di scelta rapida della griglia
 
-|                                                                                                                        |                                 |
+| Azione                                                                                                             | Tasti di premere                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Azione**                                                                                                         | **Tasti di premere**                       |
 | Spostarsi sulla colonna successiva/precedente                                                                                       | TAB/MAIUSC + TAB                 |
 | Spostarsi sulla riga successiva/precedente                                                                                          | Freccia GIÙ/Freccia SU           |
-| Spostarsi sulla riga successiva/precedente senza selezionare<br><br>**Nota:** questo collegamento è valido solo per gli scenari di scelta multipla. | CTRL + Freccia SU/CTRL + Freccia GIÙ |
-| Selezionare/deselezionare la riga corrente<br><br>**Nota:** questo collegamento è valido solo per gli scenari di scelta multipla.                    | CTRL + Barra spaziatrice/CTRL + clic         |
-| Aggiungere la riga successiva/precedente al set selezionato<br><br>**Nota:** questo collegamento è valido solo per gli scenari di scelta multipla.   | Shift+Space                     |
-| Aggiungere un intervallo di righe al set selezionato<br><br>**Nota:** questo collegamento è valido solo per gli scenari di scelta multipla.         | MAIUSC + clic                     |
+| Spostarsi sulla riga successiva/precedente senza selezionare<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote> | CTRL + Freccia SU/CTRL + Freccia GIÙ |
+| Selezionare/deselezionare la riga corrente<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>                    | CTRL + Barra spaziatrice/CTRL + clic         |
+| Aggiungere la riga successiva/precedente al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>   | Shift+Space                     |
+| Aggiungere un intervallo di righe al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>         | MAIUSC + clic                     |
 | Passare alla pagina di dati successiva/precedente                                                                                   | Pagina SU/Pagina GIÙ              |
 | Crea una nuova riga in fondo alla griglia                                                                             | Freccia GIÙ (dall'ultima riga)  |
 | Seleziona o deseleziona tutte le righe                                                                                               | CTRL + MAIUSC + O                    |
 | Passa al primo record                                                                                               | CTRL+HOME                       |
 | Passa all'ultimo record                                                                                                | CTRL+FINE                        |
-| Eseguire l'azione predefinita in una griglia<br><br>**Nota:** questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali.                 | INVIO                           |
+| Eseguire l'azione predefinita in una griglia<blockquote>[!NOTE] Questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali.</blockquote> | INVIO                           |
 | Passare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT+MAIUSC+H                     |
 | Ingrandire o diminuire la colonna corrente (con stato attivo nella riga di intestazione)                                                  | Freccia destra o freccia sinistra        |
 | Aprire il filtro griglia per la colonna corrente (con stato attivo nella riga di intestazione)                                              | INVIO                           |
 
 ## <a name="input-control-shortcuts"></a>Tasti di scelta rapida per il controllo dell'input
 
-|                                                                              |                               |
+| Azione                                                                   | Tasti di premere                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Azione**                                                               | **Tasti di premere**                     |
 | Aprire il collegamento ipertestuale                                                           | Ctrl + INVIO                    |
 | Immettere la data della sessione in un campo data                                       | D + TAB                         |
 | Immettere la data corrente in un campo data                                       | T + TAB                         |
@@ -171,17 +164,15 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 ## <a name="messaging-shortcuts"></a>Tasti di scelta rapida per i messaggi
 
-|                          |               |
+| Azione               | Tasti di premere         |
 |--------------------------|---------------|
-| **Azione**           | **Tasti di premere**     |
 | Passare al centro messaggi | CTRL + MAIUSC + F7 |
 | Andare alla barra dei messaggi    | CTRL + F7       |
 
 ## <a name="navigation-shortcuts"></a>Tasti di scelta rapida di spostamento
 
-|                                                                               |                            |
+| Azione                                                                    | Tasti di premere                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| **Azione**                                                                | **Tasti di premere**                  |
 | Vai al dashboard                                                           | ALT + MAIUSC + HOME             |
 | Andare alla barra di navigazione                                                    | ALT + M,N o ALT + MAIUSC + F1    |
 | Passare alla selezione delle società                                                    | CTRL + MAIUSC + O               |
@@ -201,9 +192,8 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 ## <a name="personalization-shortcuts"></a>Tasti di scelta rapida di personalizzazione
 
-|                                                                                                                        |                                     |
+| Azione                                                                                                             | Tasti di premere                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **Azione**                                                                                                         | **Tasti di premere**                           |
 | Transizione della pagina in modalità di personalizzazione                                                                          | CTRL + MAIUSC + P                        |
 | Utilizzare lo strumento Seleziona (quando in modalità di personalizzazione)                                                                     | S                                   |
 | Aprire la finestra di dialogo di personalizzazione rapida del controllo selezionato (quando si utilizza lo strumento Selezione)                              | INVIO o Barra spaziatrice                      |
@@ -230,9 +220,8 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 ## <a name="segmented-entry-shortcuts"></a>Tasti di scelta rapida per il controllo di voci segmentato
 
-|                                                                                                                         |                                  |
+| Azione                                                                                                              | Tasti di premere                            |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Azione**                                                                                                          | **Tasti di premere**                        |
 | Aprire l'elenco a discesa (quando l'elenco a discesa è chiuso)                                                             | ALT + Freccia GIÙ                   |
 | Spostare lo stato attivo nel campo di input per il segmento corrente nell'elenco a discesa (l'elenco a discesa è già aperto) | ALT + Freccia GIÙ                   |
 | Chiudere l'elenco a discesa                                                                                                | ALT + Freccia SU                     |
@@ -244,5 +233,4 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Spostarsi su/giù di una riga nella ricerca                                                                                        | Freccia SU/Freccia GIÙ            |
 | Spostarsi su/giù di una pagina nella ricerca                                                                                       | Pagina SU/Pagina GIÙ               |
 | Passare alla parte superiore/inferiore della ricerca                                                                                    | HOME/FINE                       |
-
 

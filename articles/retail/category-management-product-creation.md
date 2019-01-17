@@ -59,4 +59,3 @@ Inoltre, nella struttura avanzata di categorie di prodotti al dettaglio un respo
 
 ![Finestra di dialogo Aggiorna prodotti](media/NewUpdateProductsEnhancedView.PNG)
 
-

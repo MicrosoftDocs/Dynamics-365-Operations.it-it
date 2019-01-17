@@ -35,21 +35,19 @@ ms.lasthandoff: 11/03/2017
 
 Nell'ambito di Microsoft Dynamics 365 for Retail, gli utenti possono monitorare le prestazioni di vendite e margine in tempo reale tra livelli diversi della gerarchia organizzativa per le seguenti dimensioni:
 
--   Prodotti
--   Categorie
--   Sconti
--   Anni come periodo di tempo
--   Registratori/terminali
--   Personale/dipendenti
--   Clienti
--   Unità operative
+- Prodotti
+- Categorie
+- Sconti
+- Anni come periodo di tempo
+- Registratori/terminali
+- Personale/dipendenti
+- Clienti
+- Unità operative
 
 Inoltre, due report unici che sfruttano la struttura a griglia gerarchica consentono agli utenti di monitorare le prestazioni di vendite e margine eseguendo il drill down del noto di categoria superiore fino ai singoli nodi foglia della categoria nella gerarchia di categorie di prodotti al dettaglio predefinita. Gli utenti possono anche eseguire il drill down dall'unità operativa fino al singolo canale nella gerarchia organizzativa definita come gerarchia organizzativa predefinita per scopi di reporting sulla gerarchia di vendita al dettaglio. È quindi possibile aprire i report da qualsiasi delle seguenti posizioni:
 
--   Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**
--   Area di lavoro **Gestione categorie e prodotti** &gt; **Vendita al dettaglio** &gt; **Prodotto e categorie** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**
--   Area di lavoro **Gestione prezzi e sconti** &gt; **Vendita al dettaglio** &gt; **Prezzi e sconti** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**
--   Sezione **Richieste di informazioni e report**  &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite**
-
-
+- Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**
+- Area di lavoro **Gestione categorie e prodotti** &gt; **Vendita al dettaglio** &gt; **Prodotto e categorie** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**
+- Area di lavoro **Gestione prezzi e sconti** &gt; **Vendita al dettaglio** &gt; **Prezzi e sconti** &gt; **Gestione punto vendita al dettaglio** &gt; **Report**
+- Sezione **Richieste di informazioni e report**  &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite**
 

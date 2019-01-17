@@ -40,6 +40,7 @@ La figura di seguito mostra le relazioni tra le varie entità che costituiscono 
 ![Entità layout schermo POS](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Profilo visivo
+
 I profili visivi vengono assegnati ai registratori di cassa e specificano gli elementi visivi specifici del registratore e condivisi tra gli utenti. Qualsiasi utente che accede al registratore di cassa visualizza gli stessi contenuti, colori e immagini.
 
 ![Schermo di benvenuto di POS con tema chiaro](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ I profili visivi vengono assegnati ai registratori di cassa e specificano gli el
 - **Sfondo dell'applicazione**: è possibile specificare un'immagine di sfondo da utilizzare al posto del colore solido del tema in tutta l'applicazione. Per quanto riguarda gli sfondi dell'accesso, la dimensione del file deve essere tenuta il più piccola possibile.
 
 ## <a name="screen-layouts"></a>Layout schermo
+
 La configurazione del layout dello schermo determina le azioni, il contenuto e la posizione dei controlli dell'interfaccia utente nella schermata di benvenuto del POS e nella schermata della **transazione**.
 
 ![Vista layout schermo POS](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ All'avvio, l'applicazione POS sceglierà automaticamente la dimensione del layou
 ![Dimensioni layout POS](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Griglie dei pulsanti
+
 Per ogni dimensione di layout in un layout di schermata, è possibile configurare e assegnare griglie di pulsanti per la schermata di benvenuto del POS e **Transazione**. Le griglie dei pulsanti per la schermata di benvenuto vengono automaticamente disposte da sinistra a destra, dal numero più basso (schermata di benvenuto 1) al numero più alto.
 
 Nei layout POS completi il posizionamento delle griglie dei pulsanti è specificato nel layout dello schermo.
@@ -104,6 +107,7 @@ Nei layout POS compatti le griglie dei pulsanti sono automaticamente disposte da
 ![Griglie dei pulsanti layout compatti](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Immagini
+
 Per ciascuna dimensione del layout in un layout dello schermo, è possibile specificare le immagini da includere nell'interfaccia utente POS. Per i layout POS completi, è possibile specificare una singola immagine per la schermata di benvenuto. Questa immagine appare come il primo elemento dell'interfaccia utente a sinistra. Nella schermata **Transazione**, le immagini possono essere utilizzate come immagini di schede o come logo. Nei layout compatti di POS non vengono utilizzate queste immagini.
 
 ### <a name="screen-layout-designer"></a>Progettazione layout schermo
@@ -141,11 +145,13 @@ Il Designer completo del layout consente agli utenti di trascinare i controlli d
     - **Controllo personalizzato**: il controllo personalizzato agisce come segnaposto nel layout dello schermo e consente agli utenti di prenotare lo spazio per contenuto personalizzato. Controllo personalizzato è disponibile solo per i layout completi.
 
 ### <a name="compact-layout-designer"></a>Progettazione layout compatto
+
 Come la progettazione di layout completo, la progettazione di layout compatto consente di configurare il layout dello schermo del POS per i telefoni e i tablet di piccole dimensioni. Tuttavia, in questo caso, il layout stesso è fisso. È possibile configurare i controlli nel layout facendo clic con il pulsante destro del mouse e utilizzando il menu di scelta rapida. Tuttavia, non è possibile utilizzare le operazioni di trascinamento per il contenuto aggiuntivo.
 
 ![Progettazione layout compatto](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Progettazione griglia dei pulsanti
+
 La progettazione della griglia dei pulsanti consente di configurare le griglie dei pulsanti che possono essere utilizzate nella schermata di benvenuto del POS e nella schermata **Transazione** sia per layout completi che compatti. La stessa griglia di pulsanti può essere utilizzata per i layout e i tipi di layout. Come la progettazione del layout dello schermo, la griglia di pulsanti utilizza la tecnologia di distribuzione ClickOnce per scaricare, installare e avviare la versione più recente dell'applicazione ogni volta che gli utenti vi accedono. Assicurarsi di verificare i requisiti del browser di ClickOnce. Alcuni browser, ad esempio Google Chrome, richiedono estensioni.
 
 ![Progettazione griglia dei pulsanti](../retail/media/Button-Grid-Designer.png)

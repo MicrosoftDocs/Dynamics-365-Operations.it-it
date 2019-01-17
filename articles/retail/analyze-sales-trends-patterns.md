@@ -35,15 +35,13 @@ ms.lasthandoff: 11/03/2017
 
 Come parte di Dynamics 365 for Retail, gli utenti possono studiare schemi e tendenze di vendita in tempo reale in livelli diversi della gerarchia organizzativa in un periodo di anni utilizzando il **Report vendite canale per anno**. È possibile aprire questo report da qualsiasi delle seguenti posizioni:
 
--   Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**
--   Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**
--   Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report vendite canale per anno**
+- Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**
+- Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**
+- Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report vendite canale per anno**
 
 Gli utenti possono anche studiare schemi e tendenze di vendita su base oraria tra livelli diversi della gerarchia organizzativa in un periodo di tempo selezionato utilizzando il **Report vendite canale per ora**. È possibile aprire questo report da qualsiasi delle seguenti posizioni:
 
--   Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per ora**
--   Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per ora**
--   Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report vendite canale per ora**
-
-
+- Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per ora**
+- Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per ora**
+- Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report vendite canale per ora**
 

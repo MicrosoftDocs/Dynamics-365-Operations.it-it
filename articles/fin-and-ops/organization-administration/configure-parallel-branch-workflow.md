@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: a0359f8312e5e3fe1349dbc89831c98c46cd61ff
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 73626ad21dfe2be7400f321a3eee272c896276f3
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,24 +34,22 @@ Per configurare un ramo parallelo, attenersi alle procedure indicate di seguito 
 Un ramo parallelo è essenzialmente un flusso di lavoro eseguito nel contesto di un flusso di lavoro padre.
 
 ## <a name="name-a-branch"></a>Denominare un ramo
+
 Per immettere un nome per un ramo parallelo, effettuare le operazioni indicate di seguito.
-1.  Fare clic con il pulsante destro del mouse sul ramo parallelo, quindi scegliere **Proprietà**. Verrà visualizzato il modulo **Proprietà**.
-2.  Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
-3.  Nel campo **Nome** immettere un nome univoco per il ramo parallelo.
-4.  Fare clic su **Chiudi**.
+
+1. Fare clic con il pulsante destro del mouse sul ramo parallelo, quindi scegliere **Proprietà**. Verrà visualizzato il modulo **Proprietà**.
+2. Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
+3. Nel campo **Nome** immettere un nome univoco per il ramo parallelo.
+4. Fare clic su **Chiudi**.
 
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>Progettare e configurare gli elementi del ramo
+
 Per progettare e configurare gli elementi del ramo parallelo, effettuare le operazioni indicate di seguito.
-1.  Fare doppio clic ramo parallelo.
-2.  Trascinare gli elementi del flusso di lavoro nella canvas, quindi configurarli come per creare un flusso di lavoro qualsiasi. Per ulteriori informazioni, vedere Creare un flusso di lavoro.
 
+1. Fare doppio clic ramo parallelo.
+2. Trascinare gli elementi del flusso di lavoro nella canvas, quindi configurarli come per creare un flusso di lavoro qualsiasi. Per ulteriori informazioni, vedere [Creare un flusso di lavoro](create-workflow.md).
 
-
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creare un flusso di lavoro](create-workflow.md)
-
-
-
 

@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
-ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
 ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -42,7 +42,8 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 - **Schermata delle transazioni** - L'operazione può essere richiamata dalle griglie dei pulsanti POS configurate nella schermata delle transazioni POS.
 - **Schermata di benvenuto** - L'operazione può essere richiamata dalle griglie dei pulsanti POS configurate nella schermata di benvenuto POS.
 
-Nota: le operazioni elencate di seguito vengono applicate all'ultima versione di Dynamics 365 for Retail. È possibile che alcune operazioni siano state modificate o che non siano disponibili nelle versioni precedenti.
+> [!NOTE]
+> Le operazioni elencate di seguito vengono applicate all'ultima versione di Dynamics 365 for Retail. È possibile che alcune operazioni siano state modificate o che non siano disponibili nelle versioni precedenti.
 
 | ID | Operazione | descrizione | Griglia dei pulsanti | Schermata transazione | Schermata di benvenuto | Disponibile offline | Specifica dell'applicazione |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8dcba52526dd9dad1bd8b9753224f6386923f5a1
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -57,7 +57,7 @@ Dopo l'immissione e il salvataggio delle informazioni di sospensione, l'utente p
 
 Se il flag **Attiva completamento ordine** è attivato nel canale di servizio clienti, non è necessario che venga applicato il pagamento a un ordine messo in attesa. Di contro, per un ordine cliente che non viene messo in attesa, gli utenti non possono uscire dalla pagina di registrazione dell'ordine cliente senza applicare il pagamento. Naturalmente, il pagamento verrà richiesto prima del rilascio della sospensione dell'ordine.
 
-Inoltre, gli utenti del servizio clienti possono inserire una sospensione manuale per frode su ordini che per qualche motivo ritengono sospetti. Gli ordini possono inoltre essere messi in attesa automaticamente quando soddisfano le regole e i criteri di frode attivi. Per ulteriori informazioni su questo tipo di sospensione ordine, vedere [Impostare avvisi antifrode](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Inoltre, gli utenti del servizio clienti possono inserire una sospensione manuale per frode su ordini che per qualche motivo ritengono sospetti. Gli ordini possono inoltre essere messi in attesa automaticamente quando soddisfano le regole e i criteri di frode attivi. Per ulteriori informazioni su questo tipo di sospensione ordine, vedere [Impostare avvisi antifrode](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Visualizzazione e gestione di ordini in attesa
 

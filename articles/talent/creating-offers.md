@@ -3,7 +3,7 @@ title: Creazione, approvazione e firma di offerte
 description: Questo argomento descrive come creare, approvare e firmare un'offerta per un candidato tramite Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
-ms.date: 10/19/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: f6b17dca13431a9d674920833b4a44141fac0bd8
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
 ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -104,6 +104,11 @@ Esistono vari azioni che è possibile eseguire prima dell'invio dell'offerta al 
 -  È possibile specificare una data di scadenza dell'offerta. I candidati devono accettare o rifiutare l'offerta prima della data di scadenza.  Il candidato riceverà un promemoria 48 ore prima della scadenza dell'offerta.
 
 -  Possono esserci documenti aggiuntivi che si desidera includere nel processo di accettazione. Si ha la scelta di elencare il tipo di documento richiesto.
+
+- Opzione di firma elettronica: se Adobe Sign è stato scelto come metodo preferito di firma elettronica, gli autori di offerte devono collegare la licenza Adobe Sign. Sono disponibili due modi per eseguire questa operazione. Andare a **Impostazioni utente** in **Offerta**, sotto **Connessioni** eseguire la connessione a **Adobe Sign**. In alternativa, verrà chiesto di collegare la schermata Invia l'offerta al candidato se la connessione non era ancora stabilita in base alle impostazioni utente. 
+
+> [!NOTE]
+> Gli utenti devono collegare i propri account Adobe Sign una sola volta. La stessa licenza utente viene utilizzata per tutti i pacchetti di offerta che verranno spediti dallo stesso utente. 
 
 -  È possibile visualizzare e modificare il modello di messaggio di posta elettronica se necessario.
 

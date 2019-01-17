@@ -3,7 +3,7 @@ title: "Attività nei processi"
 description: "Di seguito vengono descritti i vari tipi di attività da utilizzare nel processo di assunzione."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ L'attività di colloquio è facoltativa. Questa attività ha tre componenti: Dis
 - Per inviare messaggi di posta elettronica ai candidati per richiedere la disponibilità, impostare l'opzione **Richiedi disponibilità candidato** su **Attivato**. Se si imposta su **Disattivato**, questo passaggio non verrà visualizzato nel processo di assunzione nella mansione.
 - Per streaming in diretta o teleconferenza utilizzando Skype for Business, impostare il campo **Riunione online** su **Skype for Business**. Il collegamento corretto **Partecipa a riunione Skype** verrà aggiunto nella richiesta di riunione di colloquio.
 - Per inviare messaggi di posta elettronica ai candidati per finalizzare la programmazione, impostare l'opzione **Invia messaggio di posta elettronica al candidato** su **Attivato**. Se si imposta su **Disattivato**, candidati riceveranno il programma dei colloqui solo quando accedono al portale del candidato.
+
+>[!NOTE]
+> - Per tutti i colloqui 1:1, i promemoria vengono inviati ai responsabili del colloquio ogni 24 ore se il responsabile del colloquio non ha risposto (accettato o rifiutato) alla richiesta di colloquio.
+> - Per tutte le panel interview, non sono disponibili promemoria automatici per rispondere alla richiesta di colloquio. Per attivare manualmente un promemoria, modificare il colloquio e utilizzare l'opzione **Aggiorna e invia** per inviare la richiesta agli intervistatori.
 
 Nel componente Riscontro le persone forniscono suggerimenti per un candidato. Possono inoltre immettere qualsiasi commento. Se viene attivata l'opzione **Eredita i partecipanti di riscontro dal team di assunzione**, il selezionatore, il responsabile delle assunzioni e quelli del colloquio vengono immessi automaticamente nel componente Riscontro. Le organizzazioni possono consentire ai responsabili del colloquio di visualizzare il riscontro di altre persone prima di inviare la propria riscontro. Le organizzazioni possono inoltre possibile consentire ai responsabili del colloquio di modificare il riscontro dopo averlo inviato.
 

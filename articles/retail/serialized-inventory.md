@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 65e60f3e289bb68ea055548299d58bca42e84c02
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 17cd46ba9ee972c92db8950eea1cd258d67c2e92
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -28,8 +28,9 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-## <a name="overview"></a>Panoramica 
-In base alle impostazioni in Retail Headquarters, i prodotti possono essere classificati come in serie o non in serie. Quando i prodotti sono in serie, a ogni articolo può essere assegnato un numero univoco che consente di tenere traccia delle garanzie, identificare gli articoli e confermare la proprietà. Sebbene la capacità di fornire numeri di serie per prodotti in serie fosse già presente in Modern POS (POS) e POS cloud, sono stati aggiunti alcuni miglioramenti per consentire ai cassieri di risparmiare tempo ed essere più produttivi.  
+## <a name="overview"></a>Panoramica
+
+In base alle impostazioni in Retail Headquarters, i prodotti possono essere classificati come in serie o non in serie. Quando i prodotti sono in serie, a ogni articolo può essere assegnato un numero univoco che consente di tenere traccia delle garanzie, identificare gli articoli e confermare la proprietà. Sebbene la capacità di fornire numeri di serie per prodotti in serie fosse già presente in Modern POS (POS) e POS cloud, sono stati aggiunti alcuni miglioramenti per consentire ai cassieri di risparmiare tempo ed essere più produttivi.
 
 ## <a name="pos-improvements"></a>Miglioramenti POS
 
@@ -37,9 +38,9 @@ In base alle impostazioni in Retail Headquarters, i prodotti possono essere clas
 
     Per ogni articolo in serie il cui numero di serie non è stato specificato, viene visualizzato un commento sotto la riga della transazione. Questo commento indica che il numero di serie non è stato specificato per l'articolo. Di conseguenza, il cassiere può trovare rapidamente gli articoli senza numero di serie.
 
-    Una nuova operazione **Aggiungi numero di serie** fornisce il numero di serie per gli articoli senza numero di serie. Dopo l'immissione, il numero di serie non può essere modificato. Il cassiere deve annullare la riga e aggiungere nuovamente il prodotto. 
+    Una nuova operazione **Aggiungi numero di serie** fornisce il numero di serie per gli articoli senza numero di serie. Dopo l'immissione, il numero di serie non può essere modificato. Il cassiere deve annullare la riga e aggiungere nuovamente il prodotto.
     
-- **I numeri di serie non sono necessari per piazzare ordini cliente**: gli ordini cliente possono essere eseguiti in un punto vendita ed evasi in un altro. Un cassiere che piazza un ordine cliente non deve fornire il numero di serie. Il numero di serie verrà indicato durante la fase di prelievo. Tuttavia, un numero di serie deve essere specificato per tutti gli articoli per i quali è stato selezionato il tipo di consegna **Esegui**. In caso contrario, la transazione non può essere completata.    
+- **I numeri di serie non sono necessari per piazzare ordini cliente**: gli ordini cliente possono essere eseguiti in un punto vendita ed evasi in un altro. Un cassiere che piazza un ordine cliente non deve fornire il numero di serie. Il numero di serie verrà indicato durante la fase di prelievo. Tuttavia, un numero di serie deve essere specificato per tutti gli articoli per i quali è stato selezionato il tipo di consegna **Esegui**. In caso contrario, la transazione non può essere completata.
 - **I prodotti in serie non sono aggregati nella schermata della transazione**: l'impostazione **Aggrega prodotti** nel gruppo di campi **Terminale** della pagina **Profilo funzionalità** consente di aggregare gli stessi prodotti non in serie nella schermata della transazione. Quando gli stessi prodotti vengono aggregati, sono più facili da visualizzare nella griglia della transazione. Tuttavia, poiché i numeri di serie sono in genere univoci e gli assistenti alle vendite non devono immettere numeri di serie fino al checkout, l'impostazione **Aggrega prodotti** non viene applicata ai prodotti in serie. Di conseguenza, i prodotti in serie non verranno aggregati nella schermata della transazione se l'impostazione **Aggrega prodotti** è selezionata.
-- **Possibilità di cercare i giornali di registrazione per numero di serie** - I giornali di registrazione possono ora essere ulteriormente ricercati per numero di serie. A tale scopo, aprire l'operazione "Giornali di registrazione" e premere il pulsante "Ricerca avanzata" nella barra delle applicazioni. Utilizzando il pulsante "Aggiungi filtro", è anche possibile applicare un filtro per cercare i numeri di serie.
+- **Possibilità di cercare i giornali di registrazione per numero di serie** – I giornali di registrazione possono ora essere ulteriormente ricercati per numero di serie. A tale scopo, aprire l'operazione "Giornali di registrazione" e premere il pulsante "Ricerca avanzata" nella barra delle applicazioni. Utilizzando il pulsante "Aggiungi filtro", è anche possibile applicare un filtro per cercare i numeri di serie.
 

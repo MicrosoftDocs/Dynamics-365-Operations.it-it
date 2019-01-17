@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ Quando si copia un cliente, il sistema cerca di salvare le informazioni del nuov
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Copiare un cliente utilizzando la funzionalità di ricerca del numero di partita IVA
 
-È inoltre possibile copiare i fornitori utilizzando la funzionalità di ricerca del numero di partita IVA del gruppo **Registrazione** sulla scheda **Cliente** del riquadro azioni della pagina **Tutti i clienti**. La finestra di dialogo **Ricerca partita IVA** che viene visualizzata mostra i numeri di partita IVA, l'ID cliente, il nome del cliente e la persona giuridica in cui viene utilizzata la partita IVA. È possibile copiare un cliente solo se si trova in una persona giuridica diversa dalla persona giuridica corrente. Dopo avere selezionato un cliente che corrisponde ai criteri, procedere come segue.
+È inoltre possibile copiare i clienti utilizzando la funzionalità di ricerca del numero di partita IVA del gruppo **Registrazione** sulla scheda **Cliente** del riquadro azioni della pagina **Tutti i clienti**. La finestra di dialogo **Ricerca partita IVA** che viene visualizzata mostra i numeri di partita IVA, l'ID cliente, il nome del cliente e la persona giuridica in cui viene utilizzata la partita IVA. È possibile copiare un cliente solo se si trova in una persona giuridica diversa dalla persona giuridica corrente. Dopo avere selezionato un cliente che corrisponde ai criteri, procedere come segue.
 
 1. Viene visualizzata un'opzione **Copia cliente**. Come impostazione predefinita, questa opzione è impostata su **No**. Per copiare il cliente nella persona giuridica corrente, impostare l'opzione su **Sì**. 
 2. Selezionare **Select**. Il nuovo cliente viene creato.

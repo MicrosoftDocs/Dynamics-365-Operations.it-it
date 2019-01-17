@@ -31,21 +31,19 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dei punti di vendita, in base ai dati di Microsoft Dynamics 365 for Retail. 
+In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dei punti di vendita, in base ai dati di Microsoft Dynamics 365 for Retail.
 
 Come parte di Microsoft Dynamics 365 for Retail, gli utenti possono analizzare le prestazioni del punto vendita in tempo reale nei diversi livelli della gerarchia organizzativa per un periodo selezionato aprendo il report predefinito **Riepilogo canale** da uno dei seguenti percorsi:
 
--   Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**
--   Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**
--   Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report di riepilogo canale**
+- Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**
+- Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**
+- Sezione **Richieste di informazioni e report** &gt; **Vendita al dettaglio** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report di riepilogo canale**
 
 In questo report viene fornito uno snapshot dei riepiloghi seguenti come parte delle prestazioni del punto vendita:
 
--   Riepilogo vendite lorde
--   Riepilogo tipi di metodo di pagamento
--   Riepilogo IVA
--   Riepilogo sostituzione prezzo
--   Riepilogo sconti
-
-
+- Riepilogo vendite lorde
+- Riepilogo tipi di metodo di pagamento
+- Riepilogo IVA
+- Riepilogo sostituzione prezzo
+- Riepilogo sconti
 

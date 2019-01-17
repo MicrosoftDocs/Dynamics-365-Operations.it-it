@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 Gli *attributi* forniscono un modo per descrivere ulteriormente un prodotto e le sue caratteristiche tramite campi definiti dall'utente (ad esempio **Dimensione di memoria**, **Capacità del disco rigido**, **Conformità allo standard Energy Star** e così via). In Microsoft Dynamics 365 for Finance and Operations, gli attributi possono essere associati a diverse entità Retail, ad esempio a categorie di prodotti e canali di vendita al dettaglio, ed è possibile impostare per tali attributi valori predefiniti. I prodotti ereditano quindi gli attributi e i valori predefiniti quando vengono associati alle categorie di prodotti o ai canali di vendita al dettaglio. I valori predefiniti possono essere sovrascritti a livello di singolo prodotto, a livello di canale di vendita al dettaglio o in un catalogo al dettaglio.
- 
+
 Ad esempio, un prodotto tipico nell'ambito dei televisori può avere i seguenti attributi.
 
 | Categoria   | Attributo                | Valori permessi          | Valore predefinito |
@@ -50,7 +50,7 @@ Ad esempio, un prodotto tipico nell'ambito dei televisori può avere i seguenti 
 | Plasma     | Temperatura d'esercizio da      | 32-110 gradi              | 32            |
 |            | Temperatura d'esercizio fino a        | 32-110 gradi              | 100           |
 | LCD | Garanzia tubo a proiezione | 6, 12 o 18 mesi         | 12            |
-|            | N. di tubi di proiezione    | 1–5                         | 3             |
+|            | N. di tubi di proiezione   | 1–5                         | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Attributi e tipi di attributo
 
@@ -90,7 +90,7 @@ Gli attributi si basano sui *tipi di attributo*. Il tipo di attributo identifica
 
 Per i prodotti al dettaglio, le impostazioni dei metadati di attributi possono essere sostituite a livello di canale. Questa funzionalità verrà descritta più avanti in questo argomento.
 
-Come è possibile notare, la pagina **Attributi** include opzioni correlate ai metadati di attributi. In **Metadati di attributi per POS**, un'opzione denominata **"Ridefinizione possibile"** influisce sul comportamento dei valori di attributo nel punto vendita (POS) al dettaglio o sul modo in cui il sistema gestisce tali valori di attributo. Solo gli attributi per cui è possibile impostare l'opzione **"Ridefinizione possibile"** su **"Sì"** verranno visualizzati per la ridefinizione o il filtro dei prodotti in Retail POS.
+Come è possibile notare, la pagina **Attributi** include opzioni correlate ai metadati di attributi. In **Metadati di attributi per POS**, un'opzione denominata **Ridefinizione possibile** influisce sul comportamento dei valori di attributo nel punto vendita (POS) al dettaglio o sul modo in cui il sistema gestisce tali valori di attributo. Solo gli attributi per cui è possibile impostare l'opzione **Ridefinizione possibile** su **Sì** verranno visualizzati per la ridefinizione o il filtro dei prodotti in Retail POS.
 
 Di seguito sono riportate le opzioni rimanenti relative ai metadati di attributi nella pagina **Attributi**:
 
@@ -104,7 +104,7 @@ Di seguito sono riportate le opzioni rimanenti relative ai metadati di attributi
 
 Queste opzioni sono state inizialmente progettate per migliorare le funzionalità di ricerca per la vetrina virtuale online. Sebbene Finance and Operations non includa la vetrina virtuale online per impostazione predefinita, include l'eCommerce Publishing Software Development Kit (SDK). I clienti possono utilizzare questo SDK per inserire i prodotti in un indice di ricerca di propria scelta. Sebbene i dati dei prodotti siano importati, i clienti dovrebbero comunque essere in grado di distinguere i dati in cui è possibile eseguire le ricerche, quelli nei quali è possibile eseguire le interrogazioni e così via. In questo modo, gli utenti possono creare un indice ottimale per assicurarsi di indicizzare solo gli attributi che, *a loro parere*, devono essere indicizzati.
 
-Per informazioni sullo scopo di queste opzioni rimanenti, vedere [Panoramica dello schema di ricerca in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219669.aspx).
+Per informazioni sullo scopo di queste opzioni rimanenti, vedere [Panoramica dello schema di ricerca in SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Impostazioni di filtro per attributi
 
@@ -121,7 +121,7 @@ La pagina **Preferenze di visualizzazione filtro** include i seguenti campi:
 - **Controllo di visualizzazione** - Sono disponibili le opzioni seguenti:
 
     - **Elenco** - Questa opzione è disponibile per tutti i tipi di attributo.
-    - **Intervallo** - Questa opzione è disponibile per i seguenti tipi di attributo: **Valuta**, **Decimale** e **Intero**. 
+    - **Intervallo** - Questa opzione è disponibile per i seguenti tipi di attributo: **Valuta**, **Decimale** e **Intero**.
     - **Dispositivo di scorrimento** - Questa opzione è disponibile per i seguenti tipi di attributo: **Valuta**, **Decimale** e **Intero**.
     - **Dispositivo di scorrimento con barre** - Questa opzione è disponibile per i seguenti tipi di attributo: **Valuta**, **Decimale** e **Intero**.
 
@@ -228,13 +228,13 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
 5. Nella scheda dettaglio **Prodotti**, selezionare il prodotto richiesto, quindi selezionare **Attributi** sopra la griglia del prodotto.
 6. Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:
 
-   - Supporti prodotto condivisi
-   - Attributi del prodotto condivisi
-   - Supporti canale
-   - Attributi del prodotto del canale
+    - Supporti prodotto condivisi
+    - Attributi del prodotto condivisi
+    - Supporti canale
+    - Attributi del prodotto del canale
 
-     > [!NOTE]
-     > Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.
+    > [!NOTE]
+    > Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.
 
 ![Gruppi di attributi del prodotto del catalogo](media/CatalogProdAttrValues.png)
 
@@ -250,11 +250,11 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
 
 5. Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:
 
-   - Supporti prodotto condivisi
-   - Attributi del prodotto condivisi
-   - Supporti canale
-   - Attributi del prodotto del canale
+    - Supporti prodotto condivisi
+    - Attributi del prodotto condivisi
+    - Supporti canale
+    - Attributi del prodotto del canale
 
-     > [!NOTE]
-     > Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.
+    > [!NOTE]
+    > Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.
 

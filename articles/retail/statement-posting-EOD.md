@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Come parte dei miglioramenti alla funzionalità di registrazione dei rendiconti,
 
 Inoltre, il campo **Numero massimo di registrazioni rendiconti paralleli** è stato introdotto nella Scheda dettaglio **Elaborazione batch**. Questo campo definisce il numero di attività batch che è possibile eseguire contemporaneamente. Attualmente, è necessario impostare manualmente il valore di questo campo.
 
-Inoltre, con il nuovo processo di registrazione, è necessario definire un **Prodotto gift card** nella FastTab **Gift card** della scheda **Registrazione** della pagina **Parametri di vendita al dettaglio**. Ciò si verifica anche se nessuna gift card verrà utilizzata dall'organizzazione. 
+Inoltre, con il nuovo processo di registrazione, è necessario definire un **Prodotto gift card** nella FastTab **Gift card** della scheda **Registrazione** della pagina **Parametri di vendita al dettaglio**. Ciò si verifica anche se nessuna gift card verrà utilizzata dall'organizzazione.
 
 Tenere presente che tutti i parametri e le impostazioni correlati alle registrazioni dei rendiconti e definiti nella pagina **Punti vendita al dettaglio** sono applicabili alla funzionalità di registrazione dei rendiconti migliorata.
 
 ## <a name="processing"></a>Elaborazione in corso
+
 I rendiconti possono essere calcolati e registrati in batch utilizzando le voci di menu **Calcola rendiconti in batch** e **Registra rendiconti in batch**. In alternativa, i rendiconti possono essere calcolati e registrati manualmente utilizzando la voce di menu **Rendiconti di vendita al dettaglio** fornita dalla funzionalità di registrazione dei rendiconti migliorata.
 
 Il processo e i passaggi per il calcolo e la registrazione dei rendiconti in un batch sono uguali a quelli della funzionalità di registrazione dei rendiconti legacy. Tuttavia, miglioramenti significativi sono stati apportati nell'elaborazione backend core dei rendiconti. Questi miglioramenti rendono il processo più resiliente e forniscono una migliore visibilità sugli stati e sulle informazioni relative agli errori. Di conseguenza, gli utenti possono eliminare la causa principale degli errori e quindi continuare il processo di registrazione senza il rischio di danneggiare i dati e la necessità di dover apportare le correzioni.
@@ -71,6 +72,7 @@ Il processo e i passaggi per il calcolo e la registrazione dei rendiconti in un 
 Nelle sezioni seguenti vengono descritti alcuni dei principali miglioramenti alla funzionalità di registrazione dei rendiconti nell'interfaccia utente per i rendiconti di vendita al dettaglio e i rendiconti registrati.
 
 ### <a name="status-details"></a>Dettagli stato
+
 Un nuovo modello di stato è stato introdotto nella routine di registrazione dei rendiconti attraverso i processi di calcolo e di registrazione.
 
 Nella tabella seguente vengono descritti i vari stati e il relativo ordine durante il processo di calcolo.
@@ -109,9 +111,11 @@ Ogni stato nelle tabelle precedenti è indipendente in natura e una dipendenza g
 Inoltre, l'intestazione della seconda e della terza area mostra lo stato complessivo del processo pertinente.
 
 ### <a name="event-logs"></a>Registri eventi
+
 Per un rendiconto vengono eseguite varie operazioni (ad esempio, Crea, Calcola, Cancella e Registra) e più istanze della stessa operazione possono essere chiamate durante il ciclo di vita del rendiconto. Ad esempio, dopo la creazione e il calcolo di un rendiconto, un utente può cancellare il rendiconto e ricalcolarlo. Il pulsante **Registri eventi** nel gruppo **Dettagli esecuzione** del rendiconto fornisce un audit trail completo delle varie operazioni chiamate su un rendiconto, insieme alle informazioni relative a quando tali operazioni sono state chiamate.
 
 ### <a name="aggregated-transactions"></a>Transazioni aggregate
+
 Durante il processo di registrazione, le transazioni di vendita vengono aggregate in base alla configurazione. Queste transazioni aggregate sono archiviate nel sistema e utilizzate per creare ordini cliente. Ogni transazione aggregata crea un ordine cliente corrispondente nel sistema. È possibile visualizzare le transazioni aggregate utilizzando il pulsante **Transazioni aggregate** nel gruppo **Dettagli esecuzione** del rendiconto.
 
 La scheda **Dettagli ordine cliente** di una transazione aggregata visualizza le seguenti informazioni:
@@ -136,11 +140,13 @@ La visualizzazione della transazione aggregata fornisce i seguenti vantaggi:
 - Il file XML aggregato rende più semplice l'identificazione di eventuali problemi durante la creazione e la fatturazione di ordini cliente.
 
 ### <a name="journal-vouchers"></a>Giustificativi giornale di registrazione
+
 Il pulsante **Giustificativi giornale di registrazione** nel gruppo **Dettagli esecuzione** del rendiconto mostra tutte le varie transazioni giustificativo create per un rendiconto e correlate a sconti, conti ricavi/spese, gift card e così via.
 
 Attualmente, il programma visualizza questi dati solo per rendiconti registrati.
 
 ### <a name="payment-journals"></a>Giornali di registrazione pagamenti
+
 Il pulsante **Giornali di registrazione pagamenti** nel gruppo **Dettagli di esecuzione** del rendiconto mostra tutti i vari giornali di registrazione pagamenti creati per un rendiconto.
 
 Attualmente, il programma visualizza questi dati solo per rendiconti registrati.
