@@ -14,8 +14,8 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
-ms.search.validFrom: 2018-11-30
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
 ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
 ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
@@ -27,8 +27,6 @@ ms.lasthandoff: 12/06/2018
 # <a name="settle-remainder"></a>Residuo liquidazione
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 È possibile liquidare l'importo residuo dall'attività di liquidazione applicando quell'importo a un conto CoGe o a un altro cliente. È possibile liquidare il residuo quando si liquidano importi immessi in un giornale di registrazione o soltanto transazioni aperte.
 

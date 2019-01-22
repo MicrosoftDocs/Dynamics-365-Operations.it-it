@@ -26,7 +26,6 @@ ms.lasthandoff: 12/06/2018
 # <a name="process-collection-letters"></a>Elaborare lettere di sollecito
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Questa procedura indica come creare, stampare e registrare le lettere di sollecito. In questa attività viene utilizzata la società dimostrativa USMF.
 
