@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Reparti, mansioni e posizioni sono elementi organizzativi che vengono gestiti in Risorse umane. Questo argomento descrive le nozioni relative a questi elementi. 
 
