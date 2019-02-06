@@ -35,8 +35,10 @@ I passaggi seguenti illustrano come un utente assegnato al ruolo di amministrato
 2. Fare clic su **Configurazioni report**.
 3. Nella struttura selezionare **Pagamenti (modello semplificato)**.
 4. Fare clic su **Crea configurazione** per aprire la finestra di dialogo a discesa.
+
  > [!NOTE]
  > Se **Crea configurazione** non è visualizzato, necessario abilitare la modalità progettazione nella pagina **Parametri per la creazione di report elettronici**. 
+ 
 5. Nel campo **Nuovo** immettere **Formato in base al modello dati PaymentModel**.
 6. Nel campo **Nome** digitare **BACS (fittizio per il Regno Unito)**.
 7. Nel campo **Descrizione** digitare **Formato di pagamento fornitore BACS (fittizio per il Regno Unito)**.
@@ -44,6 +46,7 @@ I passaggi seguenti illustrano come un utente assegnato al ruolo di amministrato
     * È possibile definire un formato specifico del documento elettronico. Lasciare vuoto il campo se si desidera selezionare un formato in fase di esecuzione.  
 8. Nel campo **Definizione modello dati** immettere o selezionare un valore.
 9. Fare clic su **Crea configurazione**. È stata creata una nuova configurazione. La versione bozza può essere utilizzata per archiviare il formato di progettazione per gestire i documenti elettronici.  
+
  > [!NOTE]
  > Se **Crea configurazione** non è visualizzato, necessario abilitare la modalità progettazione nella pagina **Parametri per la creazione di report elettronici**.
 
