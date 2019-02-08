@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="cb066-104">In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="cb066-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/09/2018
 ## <a name="job-titles"></a><span data-ttu-id="cb066-115">Qualifiche</span><span class="sxs-lookup"><span data-stu-id="cb066-115">Job titles</span></span>
 <span data-ttu-id="cb066-116">Prima di creare posizioni lavorative, è necessario impostare titoli per tali posizioni.</span><span class="sxs-lookup"><span data-stu-id="cb066-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="cb066-117">Le posizioni ereditano i titoli dalle mansioni a cui sono associate.</span><span class="sxs-lookup"><span data-stu-id="cb066-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="cb066-118">Gestire le qualifiche utilizzando la pagina **Titoli**, che può essere aperta tramite la funzione di ricerca.</span><span class="sxs-lookup"><span data-stu-id="cb066-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="cb066-119">Nella pagina **Titoli**, immettere i titoli che si prevede di utilizzare per le mansioni.</span><span class="sxs-lookup"><span data-stu-id="cb066-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="cb066-118">Gestire le qualifiche utilizzando la pagina **Titoli**, che può essere aperta tramite la funzione di ricerca.</span><span class="sxs-lookup"><span data-stu-id="cb066-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="cb066-119">Nella pagina **Titoli**, immettere i titoli che si prevede di utilizzare per le mansioni.</span><span class="sxs-lookup"><span data-stu-id="cb066-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="cb066-120">Tipi di posizione lavorativa</span><span class="sxs-lookup"><span data-stu-id="cb066-120">Job types</span></span>
 <span data-ttu-id="cb066-121">I tipi di mansione vengono utilizzati per raggruppare mansioni simili in categorie.</span><span class="sxs-lookup"><span data-stu-id="cb066-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="cb066-122">I tipi di mansione non sono obbligatori.</span><span class="sxs-lookup"><span data-stu-id="cb066-122">Job types aren't required.</span></span> <span data-ttu-id="cb066-123">Tuttavia, se si prevede di utilizzare i tipi di posizione lavorativa per impostare le regole di idoneità per la gestione della retribuzione, è consigliabile impostare i tipi di posizione lavorativa prima di impostare le posizioni lavorative.</span><span class="sxs-lookup"><span data-stu-id="cb066-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="cb066-124">Alcuni esempi di tipi di mansione a tempo pieno e a tempo parziale o stipendio e retribuzione oraria.</span><span class="sxs-lookup"><span data-stu-id="cb066-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="cb066-125">I tipi di mansione vengono gestiti mediante la pagina **Tipi di mansione**.</span><span class="sxs-lookup"><span data-stu-id="cb066-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="cb066-126">Nella pagina **Tipi di mansione**, immettere un nome per una breve descrizione del tipo di mansione.</span><span class="sxs-lookup"><span data-stu-id="cb066-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="cb066-127">Nel campo **Stato di esenzione**, selezionare una delle opzioni seguenti per indicare lo stato di esenzione FLSA (Fair Labor Standards Act) di mansioni che dispongono di questo tipo di mansione:</span><span class="sxs-lookup"><span data-stu-id="cb066-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
