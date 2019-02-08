@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione. 
 
