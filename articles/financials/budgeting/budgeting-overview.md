@@ -1,13 +1,13 @@
 ---
 title: Home page di impostazione del budget
-description: "In questo argomento viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione budget e delle funzionalità di creazione di report in Microsoft Dynamics 365 for Finance and Operations."
+description: In questo argomento viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione budget e delle funzionalità di creazione di report in Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302493"
 ---
-
 # <a name="budgeting-home-page"></a>Home page di impostazione del budget
 
 [!include [banner](../includes/banner.md)]
 
-Viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione del budget e delle funzionalità di creazione di report in Finance and Operations. 
+In questo argomento viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione del budget e delle funzionalità di creazione di report in Finance and Operations. 
 
 <a name="components-of-budgeting-functionality"></a>Componenti della funzionalità di impostazione del budget
 -------------------------------------
@@ -66,7 +65,6 @@ Per informazioni su come utilizzare i dati di pianificazione di altri moduli nei
 In Finance and Operations, gli utenti possono creare i piani di budget direttamente nel client Finance and Operations (utilizzando una pagina del documento del piano di budget configurabile) o tramite Excel. In Excel sono fornite diverse funzionalità aggiuntive. Ad esempio, è possibile utilizzare dati esterni come origine di un piano di budget, eseguire calcoli personalizzati e utilizzare la tabella pivot e i grafici di Microsoft. È possibile configurare la maggior parte delle variabili del processo di pianificazione del budget. 
 
 Ad esempio, è possibile definire chi si occupa dell'impostazione del budget, cosa è incluso nel budget e l'aspetto del processo. Sebbene sia possibile utilizzare Excel per la pianificazione del budget, Finance and Operations rappresenta una singola soluzione attendibile che consente di evitare problemi di controllo del budget. È possibile utilizzare processi periodici per passare i dati iniziali dell'impostazione del budget nel piano di budget. Per la creazione di report, Finance and Operations offre un set di pagine di richieste informazioni standard che consentono di visualizzare e analizzare i dati dell'impostazione del budget. È possibile accedere ai dati del piano di budget tramite Management Reporter e gli scenari dei piani di budget separati possono essere visualizzati come colonne del report di Management Reporter.
-
 
 
 

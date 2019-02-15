@@ -1,36 +1,35 @@
 ---
-title: Home page di Gestione della supply chain
-description: "In questa pagina viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations."
+title: Home page di Supply Chain Management
+description: In questa pagina viene fornito un elenco di argomenti della Guida e di altre risorse necessarie alle funzionalità di Supply Chain Management in Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
-ms.contentlocale: it-it
-ms.lasthandoff: 05/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302495"
 ---
-
-# <a name="supply-chain-management-home-page"></a>Home page di Gestione della supply chain
+# <a name="supply-chain-management-home-page"></a>Home page di Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-In questa pagina viene fornito un elenco di argomenti della Guida e altre risorse per le funzionalità di gestione della supply chain in Microsoft Dynamics 365 for Finance and Operations. 
+Questo argomento fornisce un elenco di argomenti della Guida e di altre risorse necessarie alle funzionalità di Supply Chain Management in Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 Passare alla <a href="https://roadmap.dynamics.com/">roadmap di Dynamics 365</a> per esaminare le nuove funzionalità rilasciate e quelle in via di sviluppo. 
@@ -53,17 +52,17 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 
 ## <a name="videos"></a>Video
 
-Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, versione 8.0 (aprile 2018).
+Questi brevi video consentono di scoprire le nuove funzionalità presenti in Microsoft Dynamics 365 for Finance and Operations, versione 8.0 (aprile 2018).
 
 - [Sincronizzare un ordine di lavoro in Field Service con gli ordini cliente in Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dicembre 2017).
+Questi brevi video consentono di scoprire le nuove funzionalità presenti in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (dicembre 2017).
 
 -  [Prospect di liquidazione integrazione](https://youtu.be/AVV9x5x-XCg) 
 -  [Consulente dell'ottimizzazione](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [Utilizzare il modello di magazzino per copiare la configurazione](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Questi brevi video consentono di apprendere le nuove funzionalità di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (luglio 2017).
+Questi brevi video consentono di scoprire le nuove funzionalità presenti in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017).
 
 -  [Introduzione alla contabilità industriale](https://youtu.be/1pUDtJQZ8FU)
 -  [Area di lavoro mobile di controllo costi](https://youtu.be/imsuTg8rUVk)
@@ -102,10 +101,10 @@ Le registrazioni tecniche si riferisce alla funzionalità del prodotto della ver
 
 **Gestione trasporto**
 
--  [Gestione trasporto nella nuova versione di Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
+-  [Gestione trasporto (TMS) nel nuovo Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blog
-Numerosi argomenti sulla produzione e sulla gestione della supply chain sono disponibili nel <a href="https://blogs.msdn.microsoft.com/axmfg/">blog del team di ricerca e sviluppo per Dynamics AX - Produzione</a> e nel <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog del team di ricerca e sviluppo per Dynamics AX - Gestione della supply chain</a>. La maggior parte dei post si riferisce alla versione precedente di Finance and Operations, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente. 
+Numerosi argomenti sulla produzione e sulla gestione della supply chain sono disponibili nel <a href="https://blogs.msdn.microsoft.com/axmfg/">blog del team di ricerca e sviluppo per Dynamics AX - Produzione</a> e nel <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management </a>. La maggior parte dei post si riferisce alla versione precedente di Finance and Operations, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente. 
 
 ## <a name="white-papers"></a>White paper
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Laboratori pratici per le funzionalità di contabilità industriale</a> 
@@ -114,7 +113,6 @@ Numerosi argomenti sulla produzione e sulla gestione della supply chain sono dis
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilità nel magazzino facilitata da Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Corsi eLearning
-Per informazioni sulla formazione per Microsoft Dynamics 365 for Finance and Operations, vedere il <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">portale della formazione di Microsoft Dynamics</a>. È richiesto l'account CustomerSource. 
-
+Per informazioni sulla formazione per Microsoft Dynamics 365 for Finance and Operations, vedere il <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> portale della formazione di Microsoft Dynamics</a>. (richiede l'account CustomerSource) 
 
 

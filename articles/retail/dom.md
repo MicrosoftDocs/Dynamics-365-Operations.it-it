@@ -1,29 +1,29 @@
 ---
 title: Gestione ordini distribuiti (DOM - Distributed Order Management)
-description: "In questo argomento viene descritta la funzionalità per la gestione degli ordini distribuiti in Microsoft Dynamics 365 for Retail."
+description: In questo argomento viene descritta la funzionalità per la gestione degli ordini distribuiti in Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302489"
 ---
 # <a name="distributed-order-management-dom"></a>Gestione ordini distribuiti (DOM - Distributed Order Management)
 
@@ -61,10 +61,10 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     - **Raggio regione punto vendita locale**: immettere un valore. Questo campo consente di determinare come le posizioni vengono raggruppate e considerate uguali in termini di distanza. Ad esempio, se si immette **100**, ogni punto vendita o centro di distribuzione entro un raggio di 160 km dall'indirizzo di evasione verrà considerato equivalente in termini di distanza.
     - **Tipo di risolutore**: selezionare un valore. Con Retail sono inclusi due tipi di risolutore: **Risolutore di produzione** e **Risolutore semplificato**. Per tutti i computer che eseguiranno la gestione degli ordini distribuiti (ovvero tutti i server che fanno parte del gruppo DOMBatch), è necessario che **Risolutore di produzione** sia selezionato. Il risolutore di produzione richiede la chiave di licenza speciale che, per impostazione predefinita, viene concessa e distribuita negli ambienti di produzione. Per gli ambienti non di produzione, la chiave di licenza deve essere distribuita manualmente. Per distribuire manualmente la chiave di licenza, effettuare le seguenti operazioni:
 
-        1. In Microsoft Dynamics Lifecycle Services, aprire la raccolta Risorsa condivisa, selezionare **Modello** come tipo di cespite e scaricare il file **Licenza DOM**.
+        1. In Microsoft Dynamics Lifecycle Services, aprire la raccolta Risorse condivise, selezionare **Modello** come tipo di cespite e scaricare il file **Licenza DOM**.
         2. Avviare Gestione Microsoft Internet Information Services (IIS), fare clic con il pulsante destro del mouse su **Sito Web di AOSService**, quindi selezionare **Esplora**. Viene visualizzata una finestra di Esplora risorse aperta su **\<Root di servizio AOS\>\\webroot** Prendere nota del percorso \<Root di servizio AOS\>, perché verrà utilizzato nel passaggio successivo.
         3. Copiare il file di configurazione nella directory del contenitore **\<Root di servizio AOS\>\\PackagesLocalDirectory\\DOM\\**.
-        4. Passare al client delle sedi centrali di Retail, quindi aprire la pagina **Parametri DOM**. Nella scheda **Risolutore**, nel campo **Tipo di risolutore**, selezionare **Risolutore di produzione**, quindi verificare che non venga visualizzato alcun messaggio di errore.
+        4. Passare al client di Retail Headquarters, quindi aprire la pagina **Parametri DOM**. Nella scheda **Risolutore**, nel campo **Tipo di risolutore**, selezionare **Risolutore di produzione**, quindi verificare che non venga visualizzato alcun messaggio di errore.
 
         > [!NOTE]
         > Il risolutore semplificato viene fornito in modo che i rivenditori al dettaglio possano provare la funzionalità DOM senza dover distribuire la licenza speciale. È consigliabile che le organizzazioni non utilizzino il risolutore semplificato negli ambienti di produzione.
@@ -229,4 +229,3 @@ Di seguito vengono illustrati alcuni aspetti da considerare quando si utilizza l
 - Attualmente, la gestione degli ordini distribuiti cerca solo gli ordini creati dai canali di vendita al dettaglio. Gli ordini cliente vengono identificati come ordini cliente della vendita al dettaglio se l'opzione **Vendita al dettaglio** è impostata su **Sì**.
 - Microsoft non ha testato la gestione degli ordini distribuiti con funzionalità avanzate di gestione del magazzino. I clienti e partner devono prestare attenzione a determinare se la gestione degli ordini distribuiti è compatibile con le funzionalità avanzate di gestione del magazzino e i processi ad esse pertinenti.
 - La gestione degli ordini distribuiti sarà disponibile solo nella versione cloud di Retail. Non è supportata nelle distribuzioni locali.
-

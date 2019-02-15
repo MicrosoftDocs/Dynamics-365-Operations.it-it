@@ -1,13 +1,13 @@
 ---
-title: "Home page di contabilità fornitori"
-description: "In questo argomento viene fornita una panoramica della contabilità fornitori."
+title: Home page di contabilità fornitori
+description: In questo argomento viene fornita una panoramica della contabilità fornitori.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7bc09cbd108949b37ea1b2207fc3e0c6961abf4b
-ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302479"
 ---
-
 # <a name="accounts-payable-home-page"></a>Home page di contabilità fornitori
 
 [!include [banner](../includes/banner.md)]
@@ -124,13 +123,13 @@ Negli argomenti riportati di seguito vengono fornite informazioni sulle liquidaz
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle che sono in via di sviluppo. 
+Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo. 
 
 #### <a name="blogs"></a>Blog
 
 Per opinioni, notizie e altre informazioni sulla contabilità fornitori e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Sono disponibili numerosi post sulla contabilità fornitori nel [blog del team di prodotto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Sebbene alcuni di questi post siano stati scritti per la versione precedente della contabilità fornitori, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
+Nel [blog del team di prodotto di Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) sono disponibili numerosi post sulla contabilità fornitori. Sebbene alcuni di questi post siano stati scritti per la versione precedente della contabilità fornitori, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 
@@ -139,8 +138,7 @@ Informazioni aggiuntive sono disponibili come guide attività in Finance and Ope
 
 #### <a name="videos"></a>Video
 
-Controllare i video illustrativi disponibili nel [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

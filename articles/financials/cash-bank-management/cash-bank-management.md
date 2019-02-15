@@ -1,13 +1,13 @@
 ---
 title: Home page di Gestione cassa e banche
-description: "È possibile utilizzare Gestione cassa e banche per gestire i conti bancari della persona giuridica e gli strumenti finanziari a essi associati."
+description: È possibile utilizzare Gestione cassa e banche per gestire i conti bancari della persona giuridica e gli strumenti finanziari a essi associati.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 944030859c26a1aadeb98a070d071e30f8b86dc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 46eeb9cb19eed71256d38db78738c09761060c66
-ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302501"
 ---
-
 # <a name="cash-and-bank-management-home-page"></a>Home page di Gestione cassa e banche
 
 [!include [banner](../includes/banner.md)]
@@ -87,13 +86,13 @@ quali distinte di deposito, assegni, effetti attivi ed effetti passivi. È inolt
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle che sono in via di sviluppo. 
+Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo. 
 
 #### <a name="blogs"></a>Blog
 
-Per opinioni, notizie e altre informazioni sulla gestione di cassa e banche e altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Per opinioni, notizie e altre informazioni su Gestione cassa e banche e altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Sono disponibili numerosi post sulla gestione di cassa e banche nel [blog del team di prodotto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Sebbene alcuni di questi post siano stati scritti per la versione precedente della gestione di cassa e banche, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
+Nel [blog del team di prodotto di Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) sono disponibili numerosi post sulla gestione di cassa e banche. Sebbene alcuni di questi post siano stati scritti per la versione precedente della gestione di cassa e banche, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 
@@ -102,5 +101,4 @@ Informazioni aggiuntive sono disponibili come guide attività in Finance and Ope
 
 #### <a name="videos"></a>Video
 
-Controllare i video illustrativi disponibili nel [canale YouTube di Microsoft Dynamics 365] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).

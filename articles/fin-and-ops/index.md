@@ -1,13 +1,13 @@
 ---
-title: Documentazione per Microsoft Dynamics 365 for Finance and Operations
+title: Documentazione di Microsoft Dynamics 365 for Finance and Operations
 description: Documentazione per Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302469"
 ---
-
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentazione per Microsoft Dynamics 365 for Finance and Operations
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentazione di Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
 Informazioni su come sfruttare Microsoft Dynamics 365 for Finance and Operations nell'azienda, utilizzando le risorse indicate di seguito per individuare contenuto efficace per utenti finali, sviluppatori e professionisti IT. 
 
-Molto contenuto si applica anche ai prodotti correlati, ovvero Microsoft Dynamics 365 for Retail e Microsoft Dynamics 365 for Talent. 
+Molta parte di questo contenuto si applica anche ai prodotti correlati Microsoft Dynamics 365 for Retail e Microsoft Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -72,7 +71,7 @@ Molto contenuto si applica anche ai prodotti correlati, ovvero Microsoft Dynamic
 <p><a href="hr/manage-recruiting-process.md">Selezione del personale</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">Retribuzioni negli Stati Uniti</a></p>
 
-<h3><a href="../supply-chain/index.md">Gestione della supply chain</a></h3>
+<h3><a href="../supply-chain/index.md">Supply Chain Management</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Gestione costi</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">Gestione inventario</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">Pianificazione generale</a></p>
@@ -131,4 +130,3 @@ Molto contenuto si applica anche ai prodotti correlati, ovvero Microsoft Dynamic
 
 </tbody>
 </table>
-
