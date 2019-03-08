@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCostTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,48 +19,46 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 50f8cd7904e1d32175edd321fbd6533e985fb324
-ms.contentlocale: it-it
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308692"
 ---
-
-# <a name="common-sources-of-production-variances"></a><span data-ttu-id="ddb35-103">Origini comuni degli scostamenti di produzione</span><span class="sxs-lookup"><span data-stu-id="ddb35-103">Common sources of production variances</span></span>
+# <a name="common-sources-of-production-variances"></a><span data-ttu-id="c984d-103">Origini comuni degli scostamenti di produzione</span><span class="sxs-lookup"><span data-stu-id="c984d-103">Common sources of production variances</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ddb35-104">Questo articolo illustra le varie origini normali di ciascun tipo di scostamento produzione.</span><span class="sxs-lookup"><span data-stu-id="ddb35-104">This article explains various typical sources of each type of production variance.</span></span> 
+<span data-ttu-id="c984d-104">Questo articolo illustra le varie origini normali di ciascun tipo di scostamento produzione.</span><span class="sxs-lookup"><span data-stu-id="c984d-104">This article explains various typical sources of each type of production variance.</span></span> 
 
-<span data-ttu-id="ddb35-105">Di seguito sono alcune origini tipiche di uno scostamento di **dimensioni lotto**:</span><span class="sxs-lookup"><span data-stu-id="ddb35-105">Here are some typical sources of a **lot size** variance:</span></span>
+<span data-ttu-id="c984d-105">Di seguito sono alcune origini tipiche di uno scostamento di **dimensioni lotto**:</span><span class="sxs-lookup"><span data-stu-id="c984d-105">Here are some typical sources of a **lot size** variance:</span></span>
 
--   <span data-ttu-id="ddb35-106">La quantità idonea per un ordine di produzione è diversa dalla quantità utilizzata nel calcolo dei costi standard.</span><span class="sxs-lookup"><span data-stu-id="ddb35-106">The good quantity for a production order differs from the calculation quantity that is used in the standard cost calculation.</span></span> <span data-ttu-id="ddb35-107">La quantità costituisce la base per l'ammortamento dei costi costanti.</span><span class="sxs-lookup"><span data-stu-id="ddb35-107">The quantity provides the basis for amortizing constant costs.</span></span>
--   <span data-ttu-id="ddb35-108">Il valore dei costi costanti nell'ordine di produzione è diverso da quello dei costi costanti utilizzati nel calcolo dei costi standard.</span><span class="sxs-lookup"><span data-stu-id="ddb35-108">The value of constant costs on the production order differs from the constant costs that are used in the standard cost calculation.</span></span> <span data-ttu-id="ddb35-109">I costi costanti nell'ordine di produzione possono differire per diversi motivi.</span><span class="sxs-lookup"><span data-stu-id="ddb35-109">The constant costs on the production order can differ for several reasons.</span></span> <span data-ttu-id="ddb35-110">Ad esempio, i costi costanti potrebbero riflettere i fattori seguenti:</span><span class="sxs-lookup"><span data-stu-id="ddb35-110">For example, the constant costs might reflect the following factors:</span></span>
-    -   <span data-ttu-id="ddb35-111">Modifiche manuali apportate alla distinta base (DBA) di produzione o al ciclo di produzione</span><span class="sxs-lookup"><span data-stu-id="ddb35-111">Manual changes to the production bill of materials (BOM) or route</span></span>
-    -   <span data-ttu-id="ddb35-112">La selezione di una diversa versione DBA o versione del ciclo di lavorazione durante la creazione dell'ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="ddb35-112">The selection of a different BOM version or route version when you create the production order</span></span>
-    -   <span data-ttu-id="ddb35-113">Modifiche di progettazione pianificate apportate alla versione DBA o alla versione del ciclo di lavorazione assegnata all'articolo.</span><span class="sxs-lookup"><span data-stu-id="ddb35-113">Planned engineering changes to the BOM version or route version that is assigned to the item</span></span>
+-   <span data-ttu-id="c984d-106">La quantità idonea per un ordine di produzione è diversa dalla quantità utilizzata nel calcolo dei costi standard.</span><span class="sxs-lookup"><span data-stu-id="c984d-106">The good quantity for a production order differs from the calculation quantity that is used in the standard cost calculation.</span></span> <span data-ttu-id="c984d-107">La quantità costituisce la base per l'ammortamento dei costi costanti.</span><span class="sxs-lookup"><span data-stu-id="c984d-107">The quantity provides the basis for amortizing constant costs.</span></span>
+-   <span data-ttu-id="c984d-108">Il valore dei costi costanti nell'ordine di produzione è diverso da quello dei costi costanti utilizzati nel calcolo dei costi standard.</span><span class="sxs-lookup"><span data-stu-id="c984d-108">The value of constant costs on the production order differs from the constant costs that are used in the standard cost calculation.</span></span> <span data-ttu-id="c984d-109">I costi costanti nell'ordine di produzione possono differire per diversi motivi.</span><span class="sxs-lookup"><span data-stu-id="c984d-109">The constant costs on the production order can differ for several reasons.</span></span> <span data-ttu-id="c984d-110">Ad esempio, i costi costanti potrebbero riflettere i fattori seguenti:</span><span class="sxs-lookup"><span data-stu-id="c984d-110">For example, the constant costs might reflect the following factors:</span></span>
+    -   <span data-ttu-id="c984d-111">Modifiche manuali apportate alla distinta base (DBA) di produzione o al ciclo di produzione</span><span class="sxs-lookup"><span data-stu-id="c984d-111">Manual changes to the production bill of materials (BOM) or route</span></span>
+    -   <span data-ttu-id="c984d-112">La selezione di una diversa versione DBA o versione del ciclo di lavorazione durante la creazione dell'ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="c984d-112">The selection of a different BOM version or route version when you create the production order</span></span>
+    -   <span data-ttu-id="c984d-113">Modifiche di progettazione pianificate apportate alla versione DBA o alla versione del ciclo di lavorazione assegnata all'articolo.</span><span class="sxs-lookup"><span data-stu-id="c984d-113">Planned engineering changes to the BOM version or route version that is assigned to the item</span></span>
 
-<span data-ttu-id="ddb35-114">Di seguito sono alcune origini tipiche di uno scostamento di **prezzi di produzione**:</span><span class="sxs-lookup"><span data-stu-id="ddb35-114">Here are some typical sources of a **production price** variance:</span></span>
+<span data-ttu-id="c984d-114">Di seguito sono alcune origini tipiche di uno scostamento di **prezzi di produzione**:</span><span class="sxs-lookup"><span data-stu-id="c984d-114">Here are some typical sources of a **production price** variance:</span></span>
 
--   <span data-ttu-id="ddb35-115">La categoria costi (e il prezzo della categoria costi) per il consumo dichiarato di un'operazione relativa ai cicli di lavorazione è diversa dalla categoria costi utilizzata nel calcolo dei costi standard.</span><span class="sxs-lookup"><span data-stu-id="ddb35-115">The cost category (and cost category price) for the reported consumption of a routing operation differs from the cost category that is used in standard cost calculation.</span></span>
--   <span data-ttu-id="ddb35-116">Il costo attivo relativo al prezzo della categoria di costi è diverso dal prezzo della categoria di costi utilizzata nel calcolo di costo standard.</span><span class="sxs-lookup"><span data-stu-id="ddb35-116">The active cost for the cost category price differs from the cost category price that is used in standard cost calculation.</span></span>
+-   <span data-ttu-id="c984d-115">La categoria costi (e il prezzo della categoria costi) per il consumo dichiarato di un'operazione relativa ai cicli di lavorazione è diversa dalla categoria costi utilizzata nel calcolo dei costi standard.</span><span class="sxs-lookup"><span data-stu-id="c984d-115">The cost category (and cost category price) for the reported consumption of a routing operation differs from the cost category that is used in standard cost calculation.</span></span>
+-   <span data-ttu-id="c984d-116">Il costo attivo relativo al prezzo della categoria di costi è diverso dal prezzo della categoria di costi utilizzata nel calcolo di costo standard.</span><span class="sxs-lookup"><span data-stu-id="c984d-116">The active cost for the cost category price differs from the cost category price that is used in standard cost calculation.</span></span>
 
-<span data-ttu-id="ddb35-117">Di seguito sono alcune origini tipiche di uno scostamento di **quantità di produzione**:</span><span class="sxs-lookup"><span data-stu-id="ddb35-117">Here are some typical sources of a **production quantity** variance:</span></span>
+<span data-ttu-id="c984d-117">Di seguito sono alcune origini tipiche di uno scostamento di **quantità di produzione**:</span><span class="sxs-lookup"><span data-stu-id="c984d-117">Here are some typical sources of a **production quantity** variance:</span></span>
 
--   <span data-ttu-id="ddb35-118">Uscita eccessiva o insufficiente di un componente del materiale.</span><span class="sxs-lookup"><span data-stu-id="ddb35-118">You over-issue or under-issue a material component.</span></span>
--   <span data-ttu-id="ddb35-119">Dichiarazione ore eccessiva o insufficiente per una operazione relativa ai percorsi di trasferimento.</span><span class="sxs-lookup"><span data-stu-id="ddb35-119">You over-report or under-report the time for a routing operation.</span></span>
--   <span data-ttu-id="ddb35-120">Ricezione eccessiva o insufficiente di quantità idonea dell'elemento padre, rispetto alla quantità ordine.</span><span class="sxs-lookup"><span data-stu-id="ddb35-120">You over-receive or under-receive the good quantity of the parent item, relative to the order quantity.</span></span> <span data-ttu-id="ddb35-121">Tuttavia, si verifica l'uscita completa di componenti e la dichiarazione completa di operazioni in base alla quantità dell'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="ddb35-121">However, you issue components and report operations completely, based on the order quantity for the production order.</span></span>
+-   <span data-ttu-id="c984d-118">Uscita eccessiva o insufficiente di un componente del materiale.</span><span class="sxs-lookup"><span data-stu-id="c984d-118">You over-issue or under-issue a material component.</span></span>
+-   <span data-ttu-id="c984d-119">Dichiarazione ore eccessiva o insufficiente per una operazione relativa ai percorsi di trasferimento.</span><span class="sxs-lookup"><span data-stu-id="c984d-119">You over-report or under-report the time for a routing operation.</span></span>
+-   <span data-ttu-id="c984d-120">Ricezione eccessiva o insufficiente di quantità idonea dell'elemento padre, rispetto alla quantità ordine.</span><span class="sxs-lookup"><span data-stu-id="c984d-120">You over-receive or under-receive the good quantity of the parent item, relative to the order quantity.</span></span> <span data-ttu-id="c984d-121">Tuttavia, si verifica l'uscita completa di componenti e la dichiarazione completa di operazioni in base alla quantità dell'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="c984d-121">However, you issue components and report operations completely, based on the order quantity for the production order.</span></span>
 
-<span data-ttu-id="ddb35-122">Di seguito sono alcune origini tipiche di uno scostamento **sostitutivo di produzione**:</span><span class="sxs-lookup"><span data-stu-id="ddb35-122">Here are some typical sources of a **production substitution** variance:</span></span>
+<span data-ttu-id="c984d-122">Di seguito sono alcune origini tipiche di uno scostamento **sostitutivo di produzione**:</span><span class="sxs-lookup"><span data-stu-id="c984d-122">Here are some typical sources of a **production substitution** variance:</span></span>
 
--   <span data-ttu-id="ddb35-123">Uscita di un componente del materiale non presente nella DBA di produzione.</span><span class="sxs-lookup"><span data-stu-id="ddb35-123">You issue a material component that isn't on the production BOM.</span></span>
--   <span data-ttu-id="ddb35-124">Aggiunta manuale di un componente alla DBA di produzione e dichiarazione dello stesso come consumato.</span><span class="sxs-lookup"><span data-stu-id="ddb35-124">You manually add a component to the production BOM and report that component as consumed.</span></span>
--   <span data-ttu-id="ddb35-125">Dichiarare un articolo come consumato senza l'aggiunta manuale dello stesso alla DBA di produzione.</span><span class="sxs-lookup"><span data-stu-id="ddb35-125">You report an item as consumed but don't manually add it to the production BOM.</span></span>
--   <span data-ttu-id="ddb35-126">Aggiunta manuale di un'operazione al ciclo di lavorazione di produzione e dichiarazione della stessa come consumata.</span><span class="sxs-lookup"><span data-stu-id="ddb35-126">You manually add an operation to the production route and report that operation as consumed.</span></span>
--   <span data-ttu-id="ddb35-127">Quando si crea l'ordine di produzione, si seleziona una versione DBA diversa dalla versione DBA utilizzata nel calcolo di costo standard.</span><span class="sxs-lookup"><span data-stu-id="ddb35-127">When you create the production order, you select a BOM version that differs from the BOM version that is used in the standard cost calculation.</span></span>
--   <span data-ttu-id="ddb35-128">Quando si crea l'ordine di produzione, si seleziona una versione del ciclo di lavorazione diversa dalla versione del ciclo di lavorazione utilizzata nel calcolo di costo standard.</span><span class="sxs-lookup"><span data-stu-id="ddb35-128">When you create the production order, you select a route version that differs from the route version that is used in the standard cost calculation.</span></span>
-
+-   <span data-ttu-id="c984d-123">Uscita di un componente del materiale non presente nella DBA di produzione.</span><span class="sxs-lookup"><span data-stu-id="c984d-123">You issue a material component that isn't on the production BOM.</span></span>
+-   <span data-ttu-id="c984d-124">Aggiunta manuale di un componente alla DBA di produzione e dichiarazione dello stesso come consumato.</span><span class="sxs-lookup"><span data-stu-id="c984d-124">You manually add a component to the production BOM and report that component as consumed.</span></span>
+-   <span data-ttu-id="c984d-125">Dichiarare un articolo come consumato senza l'aggiunta manuale dello stesso alla DBA di produzione.</span><span class="sxs-lookup"><span data-stu-id="c984d-125">You report an item as consumed but don't manually add it to the production BOM.</span></span>
+-   <span data-ttu-id="c984d-126">Aggiunta manuale di un'operazione al ciclo di lavorazione di produzione e dichiarazione della stessa come consumata.</span><span class="sxs-lookup"><span data-stu-id="c984d-126">You manually add an operation to the production route and report that operation as consumed.</span></span>
+-   <span data-ttu-id="c984d-127">Quando si crea l'ordine di produzione, si seleziona una versione DBA diversa dalla versione DBA utilizzata nel calcolo di costo standard.</span><span class="sxs-lookup"><span data-stu-id="c984d-127">When you create the production order, you select a BOM version that differs from the BOM version that is used in the standard cost calculation.</span></span>
+-   <span data-ttu-id="c984d-128">Quando si crea l'ordine di produzione, si seleziona una versione del ciclo di lavorazione diversa dalla versione del ciclo di lavorazione utilizzata nel calcolo di costo standard.</span><span class="sxs-lookup"><span data-stu-id="c984d-128">When you create the production order, you select a route version that differs from the route version that is used in the standard cost calculation.</span></span>
 
 
 

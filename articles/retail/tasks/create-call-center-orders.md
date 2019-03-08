@@ -1,13 +1,13 @@
---- 
+---
 title: " Creare ordini del servizio clienti"
 description: In questa procedura vengono descritti i passaggi per individuare un cliente, creare un nuovo ordine, cercare un prodotto e raccogliere il pagamento del cliente.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRCustomerService, SalesTable, MCRSourceIdTargetLookup, MCRSalesQuickQuote, MCRSalesOrderRecap, MCRCustPaymDialog, MCRCustPaymLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,43 +17,42 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4867ad67dc570ab42420ba12fc7dc2da6b5ba503
-ms.contentlocale: it-it
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334314"
 ---
-# <a name="create-call-center-orders"></a><span data-ttu-id="37450-103"> Creare ordini del servizio clienti</span><span class="sxs-lookup"><span data-stu-id="37450-103">Create call center orders</span></span>
+# <a name="create-call-center-orders"></a><span data-ttu-id="b2cc4-103"> Creare ordini del servizio clienti</span><span class="sxs-lookup"><span data-stu-id="b2cc4-103">Create call center orders</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="37450-104">In questa procedura vengono descritti i passaggi per individuare un cliente, creare un nuovo ordine, cercare un prodotto e raccogliere il pagamento del cliente.</span><span class="sxs-lookup"><span data-stu-id="37450-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="37450-105">Questa procedura utilizza la società di dati dimostrativi USRT ed è destinata all'addetto degli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="37450-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="37450-106">Prerequisiti: l'utente che completa la procedura viene impostato come utente del servizio clienti e il catalogo semestrale di Fabrikam è pubblicato con almeno un codice sorgente.</span><span class="sxs-lookup"><span data-stu-id="37450-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
+<span data-ttu-id="b2cc4-104">In questa procedura vengono descritti i passaggi per individuare un cliente, creare un nuovo ordine, cercare un prodotto e raccogliere il pagamento del cliente.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="b2cc4-105">Questa procedura utilizza la società di dati dimostrativi USRT ed è destinata all'addetto degli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="b2cc4-106">Prerequisiti: l'utente che completa la procedura viene impostato come utente del servizio clienti e il catalogo semestrale di Fabrikam è pubblicato con almeno un codice sorgente.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
 
-1. <span data-ttu-id="37450-107">Passare a Vendita al dettaglio e commercio > Clienti > Servizio clienti.</span><span class="sxs-lookup"><span data-stu-id="37450-107">Go to Retail and commerce > Customers > Customer service.</span></span>
-2. <span data-ttu-id="37450-108">Nel campo Cerca testo, immettere i criteri di ricerca per cercare il cliente.</span><span class="sxs-lookup"><span data-stu-id="37450-108">In the SearchText field, enter the search criteria to look up the customer.</span></span>
-    * <span data-ttu-id="37450-109">Per questa procedura di esempio, digitare 'karen' e premere TAB.</span><span class="sxs-lookup"><span data-stu-id="37450-109">For this example procedure type in 'karen' and press tab.</span></span>  
-3. <span data-ttu-id="37450-110">Fare clic su Cerca.</span><span class="sxs-lookup"><span data-stu-id="37450-110">Click Search.</span></span>
-    * <span data-ttu-id="37450-111">Poiché è presente un solo cliente di nome Karen, i dati dimostrativi verranno automaticamente selezionati.</span><span class="sxs-lookup"><span data-stu-id="37450-111">Since there is only one customer named Karen in demo data they will be automatically selected.</span></span>  
-4. <span data-ttu-id="37450-112">Fare clic su Nuovo ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="37450-112">Click New sales order.</span></span>
-5. <span data-ttu-id="37450-113">Espandere o comprimere la sezione Intestazione ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="37450-113">Expand or collapse the Sales order header section.</span></span>
-6. <span data-ttu-id="37450-114">Selezionare il codice sorgente per il catalogo.</span><span class="sxs-lookup"><span data-stu-id="37450-114">Select the source code for the catalog.</span></span>
-    * <span data-ttu-id="37450-115">Se non sono presenti codici sorgente attivi è possibile chiudere il campo Origine e ignorare questo passaggio.</span><span class="sxs-lookup"><span data-stu-id="37450-115">If there are no active Source codes you can close the Source field and skip this step.</span></span>  
-7. <span data-ttu-id="37450-116">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="37450-116">Click Add line.</span></span>
-8. <span data-ttu-id="37450-117">Nel campo Numero articolo, immettere il termine di ricerca per l'articolo.</span><span class="sxs-lookup"><span data-stu-id="37450-117">In the Item number field, enter the item search term.</span></span>
-    * <span data-ttu-id="37450-118">Per questa procedura di esempio impostare un numero di articolo parziale "8111"e premere TAB. Verrà visualizzata la finestra pop-up per la ricerca dell'articolo.</span><span class="sxs-lookup"><span data-stu-id="37450-118">For this sample procedure enter a partial item number of '8111' and press tab. This will pop up the item search window.</span></span>  
-9. <span data-ttu-id="37450-119">Selezionare il prodotto da aggiungere all'ordine cliente</span><span class="sxs-lookup"><span data-stu-id="37450-119">Select the product to add to the sales order</span></span>
-10. <span data-ttu-id="37450-120">Immettere la quantità di vendita.</span><span class="sxs-lookup"><span data-stu-id="37450-120">Enter the sales quantity.</span></span>
-11. <span data-ttu-id="37450-121">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="37450-121">Click Create.</span></span>
-12. <span data-ttu-id="37450-122">Fare clic su Completa per acquisire il pagamento del cliente.</span><span class="sxs-lookup"><span data-stu-id="37450-122">Click Complete to capture the customer payment.</span></span>
-13. <span data-ttu-id="37450-123">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="37450-123">Click Add.</span></span>
-    * <span data-ttu-id="37450-124">Il collegamento Aggiungi è presente nella scheda Pagamenti. Espandere la scheda Pagamenti se è compressa.</span><span class="sxs-lookup"><span data-stu-id="37450-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
-14. <span data-ttu-id="37450-125">Selezionare il metodo di pagamento.</span><span class="sxs-lookup"><span data-stu-id="37450-125">Select the payment method.</span></span>
-    * <span data-ttu-id="37450-126">Selezionare il metodo di pagamento in contanti per questa procedura.</span><span class="sxs-lookup"><span data-stu-id="37450-126">For this procedure, select the cash payment method.</span></span>  
-15. <span data-ttu-id="37450-127">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="37450-127">Close the page.</span></span>
-16. <span data-ttu-id="37450-128">Immettere l'importo.</span><span class="sxs-lookup"><span data-stu-id="37450-128">Enter the amount.</span></span>
-    * <span data-ttu-id="37450-129">Per questa procedura immettere un importo uguale al saldo ordine che può essere presente nella pagina di riepilogo Ordine cliente a sinistra del campo dell'importo.</span><span class="sxs-lookup"><span data-stu-id="37450-129">For this procedure enter an amount equal to the order balance which can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="37450-130">In tal modo sarà possibile completare l'ordine come interamente pagato.</span><span class="sxs-lookup"><span data-stu-id="37450-130">This will allow you to complete the order as fully paid.</span></span>  
-17. <span data-ttu-id="37450-131">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="37450-131">Click OK.</span></span>
-18. <span data-ttu-id="37450-132">Fare clic su Invia.</span><span class="sxs-lookup"><span data-stu-id="37450-132">Click Submit.</span></span>
-
+1. <span data-ttu-id="b2cc4-107">Passare a Vendita al dettaglio e commercio > Clienti > Servizio clienti.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-107">Go to Retail and commerce > Customers > Customer service.</span></span>
+2. <span data-ttu-id="b2cc4-108">Nel campo Cerca testo, immettere i criteri di ricerca per cercare il cliente.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-108">In the SearchText field, enter the search criteria to look up the customer.</span></span>
+    * <span data-ttu-id="b2cc4-109">Per questa procedura di esempio, digitare 'karen' e premere TAB.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-109">For this example procedure type in 'karen' and press tab.</span></span>  
+3. <span data-ttu-id="b2cc4-110">Fare clic su Cerca.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-110">Click Search.</span></span>
+    * <span data-ttu-id="b2cc4-111">Poiché è presente un solo cliente di nome Karen, i dati dimostrativi verranno automaticamente selezionati.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-111">Since there is only one customer named Karen in demo data they will be automatically selected.</span></span>  
+4. <span data-ttu-id="b2cc4-112">Fare clic su Nuovo ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-112">Click New sales order.</span></span>
+5. <span data-ttu-id="b2cc4-113">Espandere o comprimere la sezione Intestazione ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-113">Expand or collapse the Sales order header section.</span></span>
+6. <span data-ttu-id="b2cc4-114">Selezionare il codice sorgente per il catalogo.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-114">Select the source code for the catalog.</span></span>
+    * <span data-ttu-id="b2cc4-115">Se non sono presenti codici sorgente attivi è possibile chiudere il campo Origine e ignorare questo passaggio.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-115">If there are no active Source codes you can close the Source field and skip this step.</span></span>  
+7. <span data-ttu-id="b2cc4-116">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-116">Click Add line.</span></span>
+8. <span data-ttu-id="b2cc4-117">Nel campo Numero articolo, immettere il termine di ricerca per l'articolo.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-117">In the Item number field, enter the item search term.</span></span>
+    * <span data-ttu-id="b2cc4-118">Per questa procedura di esempio impostare un numero di articolo parziale "8111"e premere TAB. Verrà visualizzata la finestra pop-up per la ricerca dell'articolo.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-118">For this sample procedure enter a partial item number of '8111' and press tab. This will pop up the item search window.</span></span>  
+9. <span data-ttu-id="b2cc4-119">Selezionare il prodotto da aggiungere all'ordine cliente</span><span class="sxs-lookup"><span data-stu-id="b2cc4-119">Select the product to add to the sales order</span></span>
+10. <span data-ttu-id="b2cc4-120">Immettere la quantità di vendita.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-120">Enter the sales quantity.</span></span>
+11. <span data-ttu-id="b2cc4-121">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-121">Click Create.</span></span>
+12. <span data-ttu-id="b2cc4-122">Fare clic su Completa per acquisire il pagamento del cliente.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-122">Click Complete to capture the customer payment.</span></span>
+13. <span data-ttu-id="b2cc4-123">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-123">Click Add.</span></span>
+    * <span data-ttu-id="b2cc4-124">Il collegamento Aggiungi è presente nella scheda Pagamenti. Espandere la scheda Pagamenti se è compressa.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
+14. <span data-ttu-id="b2cc4-125">Selezionare il metodo di pagamento.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-125">Select the payment method.</span></span>
+    * <span data-ttu-id="b2cc4-126">Selezionare il metodo di pagamento in contanti per questa procedura.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-126">For this procedure, select the cash payment method.</span></span>  
+15. <span data-ttu-id="b2cc4-127">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-127">Close the page.</span></span>
+16. <span data-ttu-id="b2cc4-128">Immettere l'importo.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-128">Enter the amount.</span></span>
+    * <span data-ttu-id="b2cc4-129">Per questa procedura immettere un importo uguale al saldo ordine che può essere presente nella pagina di riepilogo Ordine cliente a sinistra del campo dell'importo.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-129">For this procedure enter an amount equal to the order balance which can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="b2cc4-130">In tal modo sarà possibile completare l'ordine come interamente pagato.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-130">This will allow you to complete the order as fully paid.</span></span>  
+17. <span data-ttu-id="b2cc4-131">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-131">Click OK.</span></span>
+18. <span data-ttu-id="b2cc4-132">Fare clic su Invia.</span><span class="sxs-lookup"><span data-stu-id="b2cc4-132">Click Submit.</span></span>
 

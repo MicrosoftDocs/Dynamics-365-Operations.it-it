@@ -1,13 +1,13 @@
---- 
-title: "Cambiare le convenzioni di ammortamento per più cespiti"
-description: "Tale attività consente di aggiornare la convenzione di ammortamento per un gruppo di cespiti specificato."
+---
+title: Cambiare le convenzioni di ammortamento per più cespiti
+description: Tale attività consente di aggiornare la convenzione di ammortamento per un gruppo di cespiti specificato.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysQueryForm, SrsReportViewerForm
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,37 +16,36 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a7a79b2edf64f0063253d3f2a23b0020eceb87c0
-ms.contentlocale: it-it
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324263"
 ---
-# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a><span data-ttu-id="9b328-103">Cambiare le convenzioni di ammortamento per più cespiti</span><span class="sxs-lookup"><span data-stu-id="9b328-103">Change depreciation conventions for multiple fixed assets</span></span>
+# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a><span data-ttu-id="cfdbb-103">Cambiare le convenzioni di ammortamento per più cespiti</span><span class="sxs-lookup"><span data-stu-id="cfdbb-103">Change depreciation conventions for multiple fixed assets</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="9b328-104">Tale attività consente di aggiornare la convenzione di ammortamento per un gruppo di cespiti specificato.</span><span class="sxs-lookup"><span data-stu-id="9b328-104">This task updates the depreciation convention for a specified fixed asset group.</span></span> <span data-ttu-id="9b328-105">Questa guida attività utilizza la società dimostrativa USMF.</span><span class="sxs-lookup"><span data-stu-id="9b328-105">This task guide uses the USMF demo company.</span></span>
+<span data-ttu-id="cfdbb-104">Tale attività consente di aggiornare la convenzione di ammortamento per un gruppo di cespiti specificato.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-104">This task updates the depreciation convention for a specified fixed asset group.</span></span> <span data-ttu-id="cfdbb-105">Questa guida attività utilizza la società dimostrativa USMF.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-105">This task guide uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="9b328-106">Andare a Cespiti > Attività periodiche > Aggiornamento di massa</span><span class="sxs-lookup"><span data-stu-id="9b328-106">Go to Fixed assets > Periodic tasks > Mass update</span></span>
-2. <span data-ttu-id="9b328-107">Nel campo Registro beni ammortizzabili fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="9b328-107">In the Depreciation book field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="9b328-108">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="9b328-108">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="9b328-109">Nel campo Inizio messa in servizio immettere una data.</span><span class="sxs-lookup"><span data-stu-id="9b328-109">In the Placed in service start field, enter a date.</span></span>
-5. <span data-ttu-id="9b328-110">Nel campo Fine messa in servizio immettere una data.</span><span class="sxs-lookup"><span data-stu-id="9b328-110">In the Placed in service end field, enter a date.</span></span>
-    * <span data-ttu-id="9b328-111">Solo i cespiti appartenenti al registro beni ammortizzabili selezionato e messi in servizio nel periodo compreso tra queste date verranno aggiornati.</span><span class="sxs-lookup"><span data-stu-id="9b328-111">Only assets that are a part of the select depreciation book and that have been placed in service between these dates will be updated.</span></span>  
-6. <span data-ttu-id="9b328-112">Nel campo Convenzione di ammortamento corrente selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="9b328-112">In the Current depreciation convention field, select an option.</span></span>
-    * <span data-ttu-id="9b328-113">Solo i cespiti con la convenzione di ammortamento corrente verranno aggiornati.</span><span class="sxs-lookup"><span data-stu-id="9b328-113">Only assets that have the current depreciation convention will be updated.</span></span>  
-7. <span data-ttu-id="9b328-114">Nel campo Nuova convenzione di ammortamento selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="9b328-114">In the New depreciation convention field, select an option.</span></span>
-    * <span data-ttu-id="9b328-115">Verificare che il report venga stampato nella destinazione selezionata.</span><span class="sxs-lookup"><span data-stu-id="9b328-115">Verify the report will print to the desired destination.</span></span>  
-8. <span data-ttu-id="9b328-116">Espandere la sezione Record da includere.</span><span class="sxs-lookup"><span data-stu-id="9b328-116">Expand the Records to include section.</span></span>
-9. <span data-ttu-id="9b328-117">Fare clic su Filtro.</span><span class="sxs-lookup"><span data-stu-id="9b328-117">Click Filter.</span></span>
-10. <span data-ttu-id="9b328-118">Selezionare il gruppo cespite nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="9b328-118">In the list, select the Fixed asset group.</span></span>
-11. <span data-ttu-id="9b328-119">Nel campo Criteri fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="9b328-119">In the Criteria field, click the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="9b328-120">Selezionare il gruppo cespite desiderato.</span><span class="sxs-lookup"><span data-stu-id="9b328-120">Select the desired Fixed asset group.</span></span>
-13. <span data-ttu-id="9b328-121">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="9b328-121">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="9b328-122">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="9b328-122">Click OK.</span></span>
-15. <span data-ttu-id="9b328-123">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="9b328-123">Click OK.</span></span>
-    *  <span data-ttu-id="9b328-124">I risultati del processo vengono visualizzati nel report Aggiornamento di massa.</span><span class="sxs-lookup"><span data-stu-id="9b328-124">Results of the process are shown on the Mass update report.</span></span>     
-
+1. <span data-ttu-id="cfdbb-106">Andare a Cespiti > Attività periodiche > Aggiornamento di massa</span><span class="sxs-lookup"><span data-stu-id="cfdbb-106">Go to Fixed assets > Periodic tasks > Mass update</span></span>
+2. <span data-ttu-id="cfdbb-107">Nel campo Registro beni ammortizzabili fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-107">In the Depreciation book field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="cfdbb-108">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-108">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="cfdbb-109">Nel campo Inizio messa in servizio immettere una data.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-109">In the Placed in service start field, enter a date.</span></span>
+5. <span data-ttu-id="cfdbb-110">Nel campo Fine messa in servizio immettere una data.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-110">In the Placed in service end field, enter a date.</span></span>
+    * <span data-ttu-id="cfdbb-111">Solo i cespiti appartenenti al registro beni ammortizzabili selezionato e messi in servizio nel periodo compreso tra queste date verranno aggiornati.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-111">Only assets that are a part of the select depreciation book and that have been placed in service between these dates will be updated.</span></span>  
+6. <span data-ttu-id="cfdbb-112">Nel campo Convenzione di ammortamento corrente selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-112">In the Current depreciation convention field, select an option.</span></span>
+    * <span data-ttu-id="cfdbb-113">Solo i cespiti con la convenzione di ammortamento corrente verranno aggiornati.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-113">Only assets that have the current depreciation convention will be updated.</span></span>  
+7. <span data-ttu-id="cfdbb-114">Nel campo Nuova convenzione di ammortamento selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-114">In the New depreciation convention field, select an option.</span></span>
+    * <span data-ttu-id="cfdbb-115">Verificare che il report venga stampato nella destinazione selezionata.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-115">Verify the report will print to the desired destination.</span></span>  
+8. <span data-ttu-id="cfdbb-116">Espandere la sezione Record da includere.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-116">Expand the Records to include section.</span></span>
+9. <span data-ttu-id="cfdbb-117">Fare clic su Filtro.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-117">Click Filter.</span></span>
+10. <span data-ttu-id="cfdbb-118">Selezionare il gruppo cespite nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-118">In the list, select the Fixed asset group.</span></span>
+11. <span data-ttu-id="cfdbb-119">Nel campo Criteri fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-119">In the Criteria field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="cfdbb-120">Selezionare il gruppo cespite desiderato.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-120">Select the desired Fixed asset group.</span></span>
+13. <span data-ttu-id="cfdbb-121">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-121">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="cfdbb-122">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-122">Click OK.</span></span>
+15. <span data-ttu-id="cfdbb-123">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-123">Click OK.</span></span>
+    *  <span data-ttu-id="cfdbb-124">I risultati del processo vengono visualizzati nel report Aggiornamento di massa.</span><span class="sxs-lookup"><span data-stu-id="cfdbb-124">Results of the process are shown on the Mass update report.</span></span>     
 

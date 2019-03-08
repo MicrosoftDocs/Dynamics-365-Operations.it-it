@@ -1,13 +1,13 @@
 ---
 title: Piani generali
-description: "Utilizzare vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione da sottoporre a monitoraggio e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni interne o alla soddisfazione dei clienti."
+description: Utilizzare vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione da sottoporre a monitoraggio e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni interne o alla soddisfazione dei clienti.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqParameters, ReqPlanSched
 audience: Application User
 ms.reviewer: josaw
@@ -19,43 +19,41 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: df9585cfe2bc7ccc60dc69741994785869ba71b1
-ms.contentlocale: it-it
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325045"
 ---
-
-# <a name="master-plans"></a><span data-ttu-id="cf18a-103">Piani generali</span><span class="sxs-lookup"><span data-stu-id="cf18a-103">Master plans</span></span>
+# <a name="master-plans"></a><span data-ttu-id="50124-103">Piani generali</span><span class="sxs-lookup"><span data-stu-id="50124-103">Master plans</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="cf18a-104">Utilizzare vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione da sottoporre a monitoraggio e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni interne o alla soddisfazione dei clienti.</span><span class="sxs-lookup"><span data-stu-id="cf18a-104">Use various master plans to support your company's daily working operations, simulate different planning strategies that you want to monitor, and implement a company policy, such as a policy about internal performance or customer satisfaction.</span></span> 
+<span data-ttu-id="50124-104">Utilizzare vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione da sottoporre a monitoraggio e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni interne o alla soddisfazione dei clienti.</span><span class="sxs-lookup"><span data-stu-id="50124-104">Use various master plans to support your company's daily working operations, simulate different planning strategies that you want to monitor, and implement a company policy, such as a policy about internal performance or customer satisfaction.</span></span> 
 
-<span data-ttu-id="cf18a-105">È possibile configurare i piani generali nella pagina **Piani generali**.</span><span class="sxs-lookup"><span data-stu-id="cf18a-105">You can configure master plans on the **Master plans** page.</span></span>
+<span data-ttu-id="50124-105">È possibile configurare i piani generali nella pagina **Piani generali**.</span><span class="sxs-lookup"><span data-stu-id="50124-105">You can configure master plans on the **Master plans** page.</span></span>
 
-<span data-ttu-id="cf18a-106">Sono disponibili due tipi di piano:</span><span class="sxs-lookup"><span data-stu-id="cf18a-106">There are two types of plans:</span></span>
--   <span data-ttu-id="cf18a-107">**Piano statico**: per il calcolo della pianificazione generale vengono utilizzati i dati correnti per generare un piano del fabbisogno netto.</span><span class="sxs-lookup"><span data-stu-id="cf18a-107">**Static plan** – The master planning calculation uses the current data to generate a net requirements plan.</span></span> <span data-ttu-id="cf18a-108">Questo piano rimane invariato fino alla successiva esecuzione della pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="cf18a-108">This plan remains unchanged until the next time that you run master planning.</span></span> <span data-ttu-id="cf18a-109">Si tratta di un piano operativo che può essere utilizzato dal personale della società a vari livelli, ad esempio un acquirente o un addetto alla pianificazione della produzione, come base per le decisioni e per lo svolgimento dei compiti e delle attività giornalieri.</span><span class="sxs-lookup"><span data-stu-id="cf18a-109">It is an operating plan that various company personnel, such as a purchaser or production planner, can use to base their decisions on and perform their daily tasks and activities.</span></span>
--   <span data-ttu-id="cf18a-110">**Piano dinamico**: questo piano viene avviato con lo stesso piano del fabbisogno netto generato dalla pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="cf18a-110">**Dynamic plan** – This plan starts with the same net requirements plan that was generated by master planning.</span></span> <span data-ttu-id="cf18a-111">È tuttavia possibile aggiornare il piano dinamico ogni volta che i dati master vengono modificati.</span><span class="sxs-lookup"><span data-stu-id="cf18a-111">However, you can update the dynamic plan every time that the master data changes.</span></span> <span data-ttu-id="cf18a-112">È tuttavia possibile aggiornare il piano dinamico ogni volta che vengono modificati i dati generali, ad esempio quando si crea un nuovo ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="cf18a-112">This could be when you create a new sales order, for example.</span></span> <span data-ttu-id="cf18a-113">In questo modo è possibile monitorare la rete di ordini e la disponibilità di articoli senza interferire con il piano statico utilizzato da altri dipendenti per i processi lavorativi.</span><span class="sxs-lookup"><span data-stu-id="cf18a-113">This enables you to monitor the changing order network and item availability without disturbing the static plan that others are using for their work processes.</span></span>
+<span data-ttu-id="50124-106">Sono disponibili due tipi di piano:</span><span class="sxs-lookup"><span data-stu-id="50124-106">There are two types of plans:</span></span>
+-   <span data-ttu-id="50124-107">**Piano statico**: per il calcolo della pianificazione generale vengono utilizzati i dati correnti per generare un piano del fabbisogno netto.</span><span class="sxs-lookup"><span data-stu-id="50124-107">**Static plan** – The master planning calculation uses the current data to generate a net requirements plan.</span></span> <span data-ttu-id="50124-108">Questo piano rimane invariato fino alla successiva esecuzione della pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="50124-108">This plan remains unchanged until the next time that you run master planning.</span></span> <span data-ttu-id="50124-109">Si tratta di un piano operativo che può essere utilizzato dal personale della società a vari livelli, ad esempio un acquirente o un addetto alla pianificazione della produzione, come base per le decisioni e per lo svolgimento dei compiti e delle attività giornalieri.</span><span class="sxs-lookup"><span data-stu-id="50124-109">It is an operating plan that various company personnel, such as a purchaser or production planner, can use to base their decisions on and perform their daily tasks and activities.</span></span>
+-   <span data-ttu-id="50124-110">**Piano dinamico**: questo piano viene avviato con lo stesso piano del fabbisogno netto generato dalla pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="50124-110">**Dynamic plan** – This plan starts with the same net requirements plan that was generated by master planning.</span></span> <span data-ttu-id="50124-111">È tuttavia possibile aggiornare il piano dinamico ogni volta che i dati master vengono modificati.</span><span class="sxs-lookup"><span data-stu-id="50124-111">However, you can update the dynamic plan every time that the master data changes.</span></span> <span data-ttu-id="50124-112">È tuttavia possibile aggiornare il piano dinamico ogni volta che vengono modificati i dati generali, ad esempio quando si crea un nuovo ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="50124-112">This could be when you create a new sales order, for example.</span></span> <span data-ttu-id="50124-113">In questo modo è possibile monitorare la rete di ordini e la disponibilità di articoli senza interferire con il piano statico utilizzato da altri dipendenti per i processi lavorativi.</span><span class="sxs-lookup"><span data-stu-id="50124-113">This enables you to monitor the changing order network and item availability without disturbing the static plan that others are using for their work processes.</span></span>
 
-<span data-ttu-id="cf18a-114">Una società può scegliere di utilizzare semplicemente un piano dinamico o il piano statico e il piano dinamico.</span><span class="sxs-lookup"><span data-stu-id="cf18a-114">A company may choose to work with just a dynamic plan or it may use both static and dynamic plans.</span></span> <span data-ttu-id="cf18a-115">È inoltre possibile configurare qualsiasi piano generale per riflettere una particolare strategia o risolvere un problema.</span><span class="sxs-lookup"><span data-stu-id="cf18a-115">In addition, you can configure any master plan to reflect a particular strategy or address an issue.</span></span> <span data-ttu-id="cf18a-116">Di seguito sono elencati gli esempi disponibili:</span><span class="sxs-lookup"><span data-stu-id="cf18a-116">Examples are as follows:</span></span>
--   <span data-ttu-id="cf18a-117">Impostare livelli di scorte più elevati per evitare esaurimenti di scorte.</span><span class="sxs-lookup"><span data-stu-id="cf18a-117">Set higher inventory levels to guarantee against stockouts.</span></span>
--   <span data-ttu-id="cf18a-118">Impostare margini di sicurezza più ampi per proteggersi da fornitori inaffidabili.</span><span class="sxs-lookup"><span data-stu-id="cf18a-118">Set longer safety margins to protect against unreliable vendors.</span></span>
+<span data-ttu-id="50124-114">Una società può scegliere di utilizzare semplicemente un piano dinamico o il piano statico e il piano dinamico.</span><span class="sxs-lookup"><span data-stu-id="50124-114">A company may choose to work with just a dynamic plan or it may use both static and dynamic plans.</span></span> <span data-ttu-id="50124-115">È inoltre possibile configurare qualsiasi piano generale per riflettere una particolare strategia o risolvere un problema.</span><span class="sxs-lookup"><span data-stu-id="50124-115">In addition, you can configure any master plan to reflect a particular strategy or address an issue.</span></span> <span data-ttu-id="50124-116">Di seguito sono elencati gli esempi disponibili:</span><span class="sxs-lookup"><span data-stu-id="50124-116">Examples are as follows:</span></span>
+-   <span data-ttu-id="50124-117">Impostare livelli di scorte più elevati per evitare esaurimenti di scorte.</span><span class="sxs-lookup"><span data-stu-id="50124-117">Set higher inventory levels to guarantee against stockouts.</span></span>
+-   <span data-ttu-id="50124-118">Impostare margini di sicurezza più ampi per proteggersi da fornitori inaffidabili.</span><span class="sxs-lookup"><span data-stu-id="50124-118">Set longer safety margins to protect against unreliable vendors.</span></span>
 
-<span data-ttu-id="cf18a-119">È inoltre possibile impostare il piano dinamico iniziale in modo che venga aggiornato con il nuovo piano del fabbisogno ogni volta che si esegue la pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="cf18a-119">You can also set up the starting dynamic plan so that it is updated with the new requirements plan every time that you run master planning.</span></span> <span data-ttu-id="cf18a-120">È possibile specificare le impostazioni nella pagina **Parametri di pianificazione generale**.</span><span class="sxs-lookup"><span data-stu-id="cf18a-120">You can specify these settings on the **Master planning parameters** page.</span></span>
+<span data-ttu-id="50124-119">È inoltre possibile impostare il piano dinamico iniziale in modo che venga aggiornato con il nuovo piano del fabbisogno ogni volta che si esegue la pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="50124-119">You can also set up the starting dynamic plan so that it is updated with the new requirements plan every time that you run master planning.</span></span> <span data-ttu-id="50124-120">È possibile specificare le impostazioni nella pagina **Parametri di pianificazione generale**.</span><span class="sxs-lookup"><span data-stu-id="50124-120">You can specify these settings on the **Master planning parameters** page.</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="cf18a-121">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="cf18a-121">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="50124-121">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="50124-121">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="cf18a-122">Impostazioni della copertura</span><span class="sxs-lookup"><span data-stu-id="cf18a-122">Coverage settings</span></span>](coverage-settings.md)
+[<span data-ttu-id="50124-122">Impostazioni della copertura</span><span class="sxs-lookup"><span data-stu-id="50124-122">Coverage settings</span></span>](coverage-settings.md)
 
-[<span data-ttu-id="cf18a-123">Separazione della pianificazione tattica e operativa per la programmazione generale</span><span class="sxs-lookup"><span data-stu-id="cf18a-123">Separating tactical and operative planning for master scheduling</span></span>](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
+[<span data-ttu-id="50124-123">Separazione della pianificazione tattica e operativa per la programmazione generale</span><span class="sxs-lookup"><span data-stu-id="50124-123">Separating tactical and operative planning for master scheduling</span></span>](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[<span data-ttu-id="cf18a-124">Pianificazione generale: utilizzare un piano generale statico e dinamico o utilizzare un piano?</span><span class="sxs-lookup"><span data-stu-id="cf18a-124">Master Planning: Use a static and dynamic Master Plan or use one plan?</span></span>](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
-
+[<span data-ttu-id="50124-124">Pianificazione generale: utilizzare un piano generale statico e dinamico o utilizzare un piano?</span><span class="sxs-lookup"><span data-stu-id="50124-124">Master Planning: Use a static and dynamic Master Plan or use one plan?</span></span>](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare vincoli di trasporto per un articolo
-description: "Questa procedura imposterà un vincolo di trasporto per impedire a un articolo selezionato di essere trasportato tramite un hub selezionato."
+description: Questa procedura imposterà un vincolo di trasporto per impedire a un articolo selezionato di essere trasportato tramite un hub selezionato.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSConstraint, InventLocationIdLookup, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,31 +17,30 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 900ea1476c95d295a151125afe46aebd9642630e
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338132"
 ---
-# <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="216d3-103">Impostare vincoli di trasporto per un articolo</span><span class="sxs-lookup"><span data-stu-id="216d3-103">Set up transportation constraints for an item</span></span>
+# <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="21fca-103">Impostare vincoli di trasporto per un articolo</span><span class="sxs-lookup"><span data-stu-id="21fca-103">Set up transportation constraints for an item</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="216d3-104">Questa procedura imposterà un vincolo di trasporto per impedire a un articolo selezionato di essere trasportato tramite un hub selezionato.</span><span class="sxs-lookup"><span data-stu-id="216d3-104">This procedure will set up a transportation constraint to prevent a selected item from being transported through a selected hub.</span></span> <span data-ttu-id="216d3-105">In genere questa attività sarà svolta da un coordinatore trasporti.</span><span class="sxs-lookup"><span data-stu-id="216d3-105">This task would typically be carried out by a Transportation coordinator.</span></span> <span data-ttu-id="216d3-106">È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure sui propri dati.</span><span class="sxs-lookup"><span data-stu-id="216d3-106">You can use this procedure in the USMF demo data company or on your own data.</span></span>
+<span data-ttu-id="21fca-104">Questa procedura imposterà un vincolo di trasporto per impedire a un articolo selezionato di essere trasportato tramite un hub selezionato.</span><span class="sxs-lookup"><span data-stu-id="21fca-104">This procedure will set up a transportation constraint to prevent a selected item from being transported through a selected hub.</span></span> <span data-ttu-id="21fca-105">In genere questa attività sarà svolta da un coordinatore trasporti.</span><span class="sxs-lookup"><span data-stu-id="21fca-105">This task would typically be carried out by a Transportation coordinator.</span></span> <span data-ttu-id="21fca-106">È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure sui propri dati.</span><span class="sxs-lookup"><span data-stu-id="21fca-106">You can use this procedure in the USMF demo data company or on your own data.</span></span>
 
 
-## <a name="create-an-item-constaint"></a><span data-ttu-id="216d3-107">Creare un vincolo articolo</span><span class="sxs-lookup"><span data-stu-id="216d3-107">Create an item constaint</span></span>
-1. <span data-ttu-id="216d3-108">Passare a Vincoli.</span><span class="sxs-lookup"><span data-stu-id="216d3-108">Go to Constraints.</span></span>
-2. <span data-ttu-id="216d3-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="216d3-109">Click New.</span></span>
-3. <span data-ttu-id="216d3-110">Nel campo Vincolo articolo digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="216d3-110">In the Item constraint field, type a value.</span></span>
-4. <span data-ttu-id="216d3-111">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="216d3-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="216d3-112">Nel campo Sito immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="216d3-112">In the Site field, enter or select a value.</span></span>
-6. <span data-ttu-id="216d3-113">Nel campo Magazzino immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="216d3-113">In the Warehouse field, enter or select a value.</span></span>
-7. <span data-ttu-id="216d3-114">Nel campo Numero di articoli immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="216d3-114">In the Item number field, enter or select a value.</span></span>
-8. <span data-ttu-id="216d3-115">Nel campo Hub immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="216d3-115">In the Hub field, enter or select a value.</span></span>
-9. <span data-ttu-id="216d3-116">Selezionare un'opzione nel campo Azione vincolo.</span><span class="sxs-lookup"><span data-stu-id="216d3-116">In the Constraint action field, select an option.</span></span>
-10. <span data-ttu-id="216d3-117">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="216d3-117">Click Save.</span></span>
-11. <span data-ttu-id="216d3-118">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="216d3-118">Close the page.</span></span>
-
+## <a name="create-an-item-constaint"></a><span data-ttu-id="21fca-107">Creare un vincolo articolo</span><span class="sxs-lookup"><span data-stu-id="21fca-107">Create an item constaint</span></span>
+1. <span data-ttu-id="21fca-108">Passare a Vincoli.</span><span class="sxs-lookup"><span data-stu-id="21fca-108">Go to Constraints.</span></span>
+2. <span data-ttu-id="21fca-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="21fca-109">Click New.</span></span>
+3. <span data-ttu-id="21fca-110">Nel campo Vincolo articolo digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="21fca-110">In the Item constraint field, type a value.</span></span>
+4. <span data-ttu-id="21fca-111">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="21fca-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="21fca-112">Nel campo Sito immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="21fca-112">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="21fca-113">Nel campo Magazzino immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="21fca-113">In the Warehouse field, enter or select a value.</span></span>
+7. <span data-ttu-id="21fca-114">Nel campo Numero di articoli immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="21fca-114">In the Item number field, enter or select a value.</span></span>
+8. <span data-ttu-id="21fca-115">Nel campo Hub immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="21fca-115">In the Hub field, enter or select a value.</span></span>
+9. <span data-ttu-id="21fca-116">Selezionare un'opzione nel campo Azione vincolo.</span><span class="sxs-lookup"><span data-stu-id="21fca-116">In the Constraint action field, select an option.</span></span>
+10. <span data-ttu-id="21fca-117">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="21fca-117">Click Save.</span></span>
+11. <span data-ttu-id="21fca-118">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="21fca-118">Close the page.</span></span>
 

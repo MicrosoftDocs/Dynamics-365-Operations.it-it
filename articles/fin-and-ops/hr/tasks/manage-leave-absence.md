@@ -1,13 +1,13 @@
---- 
+---
 title: Gestire i congedi
 description: In questa procedura viene descritta la creazione dei record congedo dipendente.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmEmploymentLeave
 audience: Application User
 ms.reviewer: rschloma
@@ -16,35 +16,34 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7687d31fbf73a02b1b924d092e77ac28b573e694
-ms.contentlocale: it-it
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337971"
 ---
-# <a name="manage-leave-of-absence"></a><span data-ttu-id="4354c-103">Gestire i congedi</span><span class="sxs-lookup"><span data-stu-id="4354c-103">Manage leave of absence</span></span>
+# <a name="manage-leave-of-absence"></a><span data-ttu-id="f0c41-103">Gestire i congedi</span><span class="sxs-lookup"><span data-stu-id="f0c41-103">Manage leave of absence</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4354c-104">In questa procedura viene descritta la creazione dei record congedo dipendente.</span><span class="sxs-lookup"><span data-stu-id="4354c-104">This procedure walks through the creation of employee leave records.</span></span> <span data-ttu-id="4354c-105">È possibile tenere traccia del tempo di congedo per i motivi che includono le attività mediche, educative o parentali.</span><span class="sxs-lookup"><span data-stu-id="4354c-105">You can track leave time for reasons that include medical, educational, or parental activities.</span></span> <span data-ttu-id="4354c-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="4354c-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="f0c41-104">In questa procedura viene descritta la creazione dei record congedo dipendente.</span><span class="sxs-lookup"><span data-stu-id="f0c41-104">This procedure walks through the creation of employee leave records.</span></span> <span data-ttu-id="f0c41-105">È possibile tenere traccia del tempo di congedo per i motivi che includono le attività mediche, educative o parentali.</span><span class="sxs-lookup"><span data-stu-id="f0c41-105">You can track leave time for reasons that include medical, educational, or parental activities.</span></span> <span data-ttu-id="f0c41-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="f0c41-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="4354c-107">Andare a Risorse umane > Lavoratori > Dipendenti.</span><span class="sxs-lookup"><span data-stu-id="4354c-107">Go to Human resources > Workers > Employees.</span></span>
-2. <span data-ttu-id="4354c-108">Selezionare un dipendente nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="4354c-108">In the list, select an employee.</span></span>
-3. <span data-ttu-id="4354c-109">Visualizzare informazioni dettagliate per il dipendente selezionato selezionando il nome del dipendente.</span><span class="sxs-lookup"><span data-stu-id="4354c-109">Display detailed information for the selected employee by selecting the employee's name.</span></span>
-4. <span data-ttu-id="4354c-110">Fare clic sulla scheda Impiego.</span><span class="sxs-lookup"><span data-stu-id="4354c-110">Click the Employment tab.</span></span>
-5. <span data-ttu-id="4354c-111">Fare clic su Congedo.</span><span class="sxs-lookup"><span data-stu-id="4354c-111">Click Leave.</span></span>
-6. <span data-ttu-id="4354c-112">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="4354c-112">Click New.</span></span>
-7. <span data-ttu-id="4354c-113">Nel campo Tipo di congedo fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="4354c-113">In the Leave type field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="4354c-114">È possibile associare un tipo di congedo a un codice reddito nel modulo Tipi di congedo.</span><span class="sxs-lookup"><span data-stu-id="4354c-114">You can associate a leave type to an earning code in the Leave types form.</span></span> <span data-ttu-id="4354c-115">Se un tipo di congedo è associato un codice reddito, verrà generata una riga reddito con il codice reddito associato durante il periodo di congedo immesso.</span><span class="sxs-lookup"><span data-stu-id="4354c-115">If a leave type is associated with an earning code, an earning line will be generated with the associated earning code during the leave period that you enter.</span></span>  
-8. <span data-ttu-id="4354c-116">Nell'elenco selezionare un tipo di congedo.</span><span class="sxs-lookup"><span data-stu-id="4354c-116">In the list, select a leave type.</span></span> 
-    * <span data-ttu-id="4354c-117">Ad esempio: Adozione</span><span class="sxs-lookup"><span data-stu-id="4354c-117">For example: Adoption</span></span>  
-9. <span data-ttu-id="4354c-118">Immettere la data di inizio del congedo.</span><span class="sxs-lookup"><span data-stu-id="4354c-118">Enter the date that the leave will start.</span></span> <span data-ttu-id="4354c-119">Esempio: "26/10/2015"</span><span class="sxs-lookup"><span data-stu-id="4354c-119">Example: '2015-10-26'</span></span>
-    * <span data-ttu-id="4354c-120">Ad esempio: 26/10/2015</span><span class="sxs-lookup"><span data-stu-id="4354c-120">For example:  2015-10-26</span></span>  
-10. <span data-ttu-id="4354c-121">Immettere la data di inizio del congedo.</span><span class="sxs-lookup"><span data-stu-id="4354c-121">Enter the date that the leave will start.</span></span> 
-    * <span data-ttu-id="4354c-122">Ad esempio: 20/11/2015</span><span class="sxs-lookup"><span data-stu-id="4354c-122">For example:  2015-11-20</span></span>  
-11. <span data-ttu-id="4354c-123">Nel campo Nota immettere una descrizione.</span><span class="sxs-lookup"><span data-stu-id="4354c-123">In the note field, enter a description.</span></span>
-    * <span data-ttu-id="4354c-124">Ad esempio: Congedo per adozione</span><span class="sxs-lookup"><span data-stu-id="4354c-124">For example: Leave for adoption</span></span>  
-12. <span data-ttu-id="4354c-125">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="4354c-125">Click Save.</span></span>
-
+1. <span data-ttu-id="f0c41-107">Andare a Risorse umane > Lavoratori > Dipendenti.</span><span class="sxs-lookup"><span data-stu-id="f0c41-107">Go to Human resources > Workers > Employees.</span></span>
+2. <span data-ttu-id="f0c41-108">Selezionare un dipendente nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="f0c41-108">In the list, select an employee.</span></span>
+3. <span data-ttu-id="f0c41-109">Visualizzare informazioni dettagliate per il dipendente selezionato selezionando il nome del dipendente.</span><span class="sxs-lookup"><span data-stu-id="f0c41-109">Display detailed information for the selected employee by selecting the employee's name.</span></span>
+4. <span data-ttu-id="f0c41-110">Fare clic sulla scheda Impiego.</span><span class="sxs-lookup"><span data-stu-id="f0c41-110">Click the Employment tab.</span></span>
+5. <span data-ttu-id="f0c41-111">Fare clic su Congedo.</span><span class="sxs-lookup"><span data-stu-id="f0c41-111">Click Leave.</span></span>
+6. <span data-ttu-id="f0c41-112">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="f0c41-112">Click New.</span></span>
+7. <span data-ttu-id="f0c41-113">Nel campo Tipo di congedo fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="f0c41-113">In the Leave type field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f0c41-114">È possibile associare un tipo di congedo a un codice reddito nel modulo Tipi di congedo.</span><span class="sxs-lookup"><span data-stu-id="f0c41-114">You can associate a leave type to an earning code in the Leave types form.</span></span> <span data-ttu-id="f0c41-115">Se un tipo di congedo è associato un codice reddito, verrà generata una riga reddito con il codice reddito associato durante il periodo di congedo immesso.</span><span class="sxs-lookup"><span data-stu-id="f0c41-115">If a leave type is associated with an earning code, an earning line will be generated with the associated earning code during the leave period that you enter.</span></span>  
+8. <span data-ttu-id="f0c41-116">Nell'elenco selezionare un tipo di congedo.</span><span class="sxs-lookup"><span data-stu-id="f0c41-116">In the list, select a leave type.</span></span> 
+    * <span data-ttu-id="f0c41-117">Ad esempio: Adozione</span><span class="sxs-lookup"><span data-stu-id="f0c41-117">For example: Adoption</span></span>  
+9. <span data-ttu-id="f0c41-118">Immettere la data di inizio del congedo.</span><span class="sxs-lookup"><span data-stu-id="f0c41-118">Enter the date that the leave will start.</span></span> <span data-ttu-id="f0c41-119">Esempio: "26/10/2015"</span><span class="sxs-lookup"><span data-stu-id="f0c41-119">Example: '2015-10-26'</span></span>
+    * <span data-ttu-id="f0c41-120">Ad esempio: 26/10/2015</span><span class="sxs-lookup"><span data-stu-id="f0c41-120">For example:  2015-10-26</span></span>  
+10. <span data-ttu-id="f0c41-121">Immettere la data di inizio del congedo.</span><span class="sxs-lookup"><span data-stu-id="f0c41-121">Enter the date that the leave will start.</span></span> 
+    * <span data-ttu-id="f0c41-122">Ad esempio: 20/11/2015</span><span class="sxs-lookup"><span data-stu-id="f0c41-122">For example:  2015-11-20</span></span>  
+11. <span data-ttu-id="f0c41-123">Nel campo Nota immettere una descrizione.</span><span class="sxs-lookup"><span data-stu-id="f0c41-123">In the note field, enter a description.</span></span>
+    * <span data-ttu-id="f0c41-124">Ad esempio: Congedo per adozione</span><span class="sxs-lookup"><span data-stu-id="f0c41-124">For example: Leave for adoption</span></span>  
+12. <span data-ttu-id="f0c41-125">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="f0c41-125">Click Save.</span></span>
 

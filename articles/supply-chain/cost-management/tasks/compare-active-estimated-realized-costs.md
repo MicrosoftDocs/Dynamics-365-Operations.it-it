@@ -1,13 +1,13 @@
---- 
+---
 title: Confrontare costi attivi, stimati e realizzati su un ordine di produzione
 description: In questa procedura viene illustrato come visualizzare i motivi di scostamenti di produzione elevati per un ordine di produzione.
 author: AndersGirke
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, CostSelectPeriodDialogForm, CostCalculationPeriodTopVariancesListFormPart, ProdTable, CostCalculationCompareDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,27 +17,26 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: ed9fac210ba19795cd1d7608b582965564decc2e
-ms.contentlocale: it-it
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347010"
 ---
-# <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="c4e18-103">Confrontare costi attivi, stimati e realizzati su un ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="c4e18-103">Compare active, estimated, and realized costs on a production order</span></span>
+# <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="d1497-103">Confrontare costi attivi, stimati e realizzati su un ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="d1497-103">Compare active, estimated, and realized costs on a production order</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c4e18-104">In questa procedura viene illustrato come visualizzare i motivi di scostamenti di produzione elevati per un ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="c4e18-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="c4e18-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="c4e18-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c4e18-106">Questa procedura è destinata al controllore costi.</span><span class="sxs-lookup"><span data-stu-id="c4e18-106">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="d1497-104">In questa procedura viene illustrato come visualizzare i motivi di scostamenti di produzione elevati per un ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="d1497-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="d1497-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="d1497-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d1497-106">Questa procedura è destinata al controllore costi.</span><span class="sxs-lookup"><span data-stu-id="d1497-106">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="c4e18-107">Fare clic su Amministrazione costi.</span><span class="sxs-lookup"><span data-stu-id="c4e18-107">Click Cost administration.</span></span>
-2. <span data-ttu-id="c4e18-108">Nel campo Data immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="c4e18-108">In the Date field, enter or select a value.</span></span>
-    * <span data-ttu-id="c4e18-109">In questa procedura viene utilizzato l'anno fiscale 2012.</span><span class="sxs-lookup"><span data-stu-id="c4e18-109">This procedure uses the fiscal year 2012.</span></span> <span data-ttu-id="c4e18-110">È possibile impostare la data iniziale su 1° gennaio 2012 e la data finale su 31 dicembre 2012.</span><span class="sxs-lookup"><span data-stu-id="c4e18-110">You can set From date to January 1, 2012 and To date to December 31, 2012.</span></span>  
-3. <span data-ttu-id="c4e18-111">Fare clic sulla scheda Scostamenti di produzione elevati.</span><span class="sxs-lookup"><span data-stu-id="c4e18-111">Click the High production variances tab.</span></span>
-4. <span data-ttu-id="c4e18-112">Fare clic sul collegamento nel campo Produzione.</span><span class="sxs-lookup"><span data-stu-id="c4e18-112">Click to follow the link in the Production field.</span></span>
-    * <span data-ttu-id="c4e18-113">Fare clic su P000116 per seguire il collegamento nel campo Produzione.</span><span class="sxs-lookup"><span data-stu-id="c4e18-113">Click P000116 to follow the link in the Production field.</span></span>  
-5. <span data-ttu-id="c4e18-114">Nel riquadro azioni, fare clic su Gestisci costi.</span><span class="sxs-lookup"><span data-stu-id="c4e18-114">On the Action Pane, click Manage costs.</span></span>
-6. <span data-ttu-id="c4e18-115">Fare clic su Visualizza confronto costi.</span><span class="sxs-lookup"><span data-stu-id="c4e18-115">Click View cost comparison.</span></span>
-7. <span data-ttu-id="c4e18-116">Fare clic su Chiudi.</span><span class="sxs-lookup"><span data-stu-id="c4e18-116">Click Close.</span></span>
-
+1. <span data-ttu-id="d1497-107">Fare clic su Amministrazione costi.</span><span class="sxs-lookup"><span data-stu-id="d1497-107">Click Cost administration.</span></span>
+2. <span data-ttu-id="d1497-108">Nel campo Data immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d1497-108">In the Date field, enter or select a value.</span></span>
+    * <span data-ttu-id="d1497-109">In questa procedura viene utilizzato l'anno fiscale 2012.</span><span class="sxs-lookup"><span data-stu-id="d1497-109">This procedure uses the fiscal year 2012.</span></span> <span data-ttu-id="d1497-110">È possibile impostare la data iniziale su 1° gennaio 2012 e la data finale su 31 dicembre 2012.</span><span class="sxs-lookup"><span data-stu-id="d1497-110">You can set From date to January 1, 2012 and To date to December 31, 2012.</span></span>  
+3. <span data-ttu-id="d1497-111">Fare clic sulla scheda Scostamenti di produzione elevati.</span><span class="sxs-lookup"><span data-stu-id="d1497-111">Click the High production variances tab.</span></span>
+4. <span data-ttu-id="d1497-112">Fare clic sul collegamento nel campo Produzione.</span><span class="sxs-lookup"><span data-stu-id="d1497-112">Click to follow the link in the Production field.</span></span>
+    * <span data-ttu-id="d1497-113">Fare clic su P000116 per seguire il collegamento nel campo Produzione.</span><span class="sxs-lookup"><span data-stu-id="d1497-113">Click P000116 to follow the link in the Production field.</span></span>  
+5. <span data-ttu-id="d1497-114">Nel riquadro azioni, fare clic su Gestisci costi.</span><span class="sxs-lookup"><span data-stu-id="d1497-114">On the Action Pane, click Manage costs.</span></span>
+6. <span data-ttu-id="d1497-115">Fare clic su Visualizza confronto costi.</span><span class="sxs-lookup"><span data-stu-id="d1497-115">Click View cost comparison.</span></span>
+7. <span data-ttu-id="d1497-116">Fare clic su Chiudi.</span><span class="sxs-lookup"><span data-stu-id="d1497-116">Click Close.</span></span>
 

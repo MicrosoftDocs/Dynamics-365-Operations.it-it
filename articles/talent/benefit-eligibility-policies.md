@@ -1,13 +1,13 @@
 ---
-title: "Criteri di idoneità benefit"
-description: "Questo articolo fornisce le informazioni sui criteri di idoneità ai benefit, che consentono di definire chi è idoneo per ottenere i benefit specifici."
+title: Criteri di idoneità benefit
+description: Questo articolo fornisce le informazioni sui criteri di idoneità ai benefit, che consentono di definire chi è idoneo per ottenere i benefit specifici.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType
 audience: Application User
 ms.reviewer: rschloma
@@ -18,42 +18,40 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: ae4be70058e61cdbc1d2b063b346b45b023eb9e9
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304952"
 ---
-
-# <a name="benefit-eligibility-policies"></a><span data-ttu-id="88507-103">Criteri di idoneità benefit</span><span class="sxs-lookup"><span data-stu-id="88507-103">Benefit eligibility policies</span></span>
+# <a name="benefit-eligibility-policies"></a><span data-ttu-id="50eb8-103">Criteri di idoneità benefit</span><span class="sxs-lookup"><span data-stu-id="50eb8-103">Benefit eligibility policies</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="88507-104">Questo argomento fornisce le informazioni sui criteri di idoneità ai benefit, che consentono di definire chi è idoneo per ottenere i benefit specifici.</span><span class="sxs-lookup"><span data-stu-id="88507-104">This topic provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
+<span data-ttu-id="50eb8-104">Questo argomento fornisce le informazioni sui criteri di idoneità ai benefit, che consentono di definire chi è idoneo per ottenere i benefit specifici.</span><span class="sxs-lookup"><span data-stu-id="50eb8-104">This topic provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
 
-<span data-ttu-id="88507-105">Quando si creano benefit, si decide quali benefit saranno disponibili per determinati dipendenti.</span><span class="sxs-lookup"><span data-stu-id="88507-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="88507-106">Nella seguente tabella vengono visualizzati gli esempi di benefit che è possibile rendere disponibili per dipendenti specifici.</span><span class="sxs-lookup"><span data-stu-id="88507-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
+<span data-ttu-id="50eb8-105">Quando si creano benefit, si decide quali benefit saranno disponibili per determinati dipendenti.</span><span class="sxs-lookup"><span data-stu-id="50eb8-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="50eb8-106">Nella seguente tabella vengono visualizzati gli esempi di benefit che è possibile rendere disponibili per dipendenti specifici.</span><span class="sxs-lookup"><span data-stu-id="50eb8-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
 
-| <span data-ttu-id="88507-107">Benefit</span><span class="sxs-lookup"><span data-stu-id="88507-107">Benefit</span></span>          | <span data-ttu-id="88507-108">Per chi è disponibile il benefit</span><span class="sxs-lookup"><span data-stu-id="88507-108">Who the benefit is available to</span></span> |
+| <span data-ttu-id="50eb8-107">Benefit</span><span class="sxs-lookup"><span data-stu-id="50eb8-107">Benefit</span></span>          | <span data-ttu-id="50eb8-108">Per chi è disponibile il benefit</span><span class="sxs-lookup"><span data-stu-id="50eb8-108">Who the benefit is available to</span></span> |
 |------------------|---------------------------------|
-| <span data-ttu-id="88507-109">Assicurazione sanitaria</span><span class="sxs-lookup"><span data-stu-id="88507-109">Health insurance</span></span> | <span data-ttu-id="88507-110">Tutti i dipendenti</span><span class="sxs-lookup"><span data-stu-id="88507-110">All employees</span></span>                   |
-| <span data-ttu-id="88507-111">Cellulare</span><span class="sxs-lookup"><span data-stu-id="88507-111">Mobile phone</span></span>     | <span data-ttu-id="88507-112">Venditori, dirigenti</span><span class="sxs-lookup"><span data-stu-id="88507-112">Sales staff, executives</span></span>         |
-| <span data-ttu-id="88507-113">Pass di parcheggio</span><span class="sxs-lookup"><span data-stu-id="88507-113">Parking passes</span></span>   | <span data-ttu-id="88507-114">Dirigenti</span><span class="sxs-lookup"><span data-stu-id="88507-114">Executives</span></span>                      |
+| <span data-ttu-id="50eb8-109">Assicurazione sanitaria</span><span class="sxs-lookup"><span data-stu-id="50eb8-109">Health insurance</span></span> | <span data-ttu-id="50eb8-110">Tutti i dipendenti</span><span class="sxs-lookup"><span data-stu-id="50eb8-110">All employees</span></span>                   |
+| <span data-ttu-id="50eb8-111">Cellulare</span><span class="sxs-lookup"><span data-stu-id="50eb8-111">Mobile phone</span></span>     | <span data-ttu-id="50eb8-112">Venditori, dirigenti</span><span class="sxs-lookup"><span data-stu-id="50eb8-112">Sales staff, executives</span></span>         |
+| <span data-ttu-id="50eb8-113">Pass di parcheggio</span><span class="sxs-lookup"><span data-stu-id="50eb8-113">Parking passes</span></span>   | <span data-ttu-id="50eb8-114">Dirigenti</span><span class="sxs-lookup"><span data-stu-id="50eb8-114">Executives</span></span>                      |
 
-<span data-ttu-id="88507-115">I seguenti componenti vengono utilizzati per creare i criteri di idoneità:</span><span class="sxs-lookup"><span data-stu-id="88507-115">The following components in are used to create eligibility policies:</span></span>
+<span data-ttu-id="50eb8-115">I seguenti componenti vengono utilizzati per creare i criteri di idoneità:</span><span class="sxs-lookup"><span data-stu-id="50eb8-115">The following components in are used to create eligibility policies:</span></span>
 
--   <span data-ttu-id="88507-116">Tipi di regola dei criteri</span><span class="sxs-lookup"><span data-stu-id="88507-116">Policy rule types</span></span>
--   <span data-ttu-id="88507-117">Criteri di idoneità benefit</span><span class="sxs-lookup"><span data-stu-id="88507-117">Benefit eligibility policies</span></span>
+-   <span data-ttu-id="50eb8-116">Tipi di regola dei criteri</span><span class="sxs-lookup"><span data-stu-id="50eb8-116">Policy rule types</span></span>
+-   <span data-ttu-id="50eb8-117">Criteri di idoneità benefit</span><span class="sxs-lookup"><span data-stu-id="50eb8-117">Benefit eligibility policies</span></span>
 
-<span data-ttu-id="88507-118">I tipi di regola dei criteri consentono di definire i parametri relativi a query utilizzati quando si sviluppano regole dei criteri specifiche.</span><span class="sxs-lookup"><span data-stu-id="88507-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="88507-119">Dopo aver creato i tipi di regola dei criteri, è possibile creare i criteri di idoneità al benefit.</span><span class="sxs-lookup"><span data-stu-id="88507-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="88507-120">I criteri consentono di creare una raccolta di regole applicabili a una o più persone giuridiche.</span><span class="sxs-lookup"><span data-stu-id="88507-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="88507-121">All'interno di ciascun criterio, è possibile visualizzare qualsiasi tipo di regola dei criteri di idoneità al benefit creata in precedenza.</span><span class="sxs-lookup"><span data-stu-id="88507-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
+<span data-ttu-id="50eb8-118">I tipi di regola dei criteri consentono di definire i parametri relativi a query utilizzati quando si sviluppano regole dei criteri specifiche.</span><span class="sxs-lookup"><span data-stu-id="50eb8-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="50eb8-119">Dopo aver creato i tipi di regola dei criteri, è possibile creare i criteri di idoneità al benefit.</span><span class="sxs-lookup"><span data-stu-id="50eb8-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="50eb8-120">I criteri consentono di creare una raccolta di regole applicabili a una o più persone giuridiche.</span><span class="sxs-lookup"><span data-stu-id="50eb8-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="50eb8-121">All'interno di ciascun criterio, è possibile visualizzare qualsiasi tipo di regola dei criteri di idoneità al benefit creata in precedenza.</span><span class="sxs-lookup"><span data-stu-id="50eb8-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
 
-<span data-ttu-id="88507-122">Definire l'ambito della regola all'interno del criterio.</span><span class="sxs-lookup"><span data-stu-id="88507-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="88507-123">Ad esempio, se si crea un tipo di regola dei criteri di idoneità al benefit denominata **Dirigente**, è possibile specificare come deve essere considerata la regola all'interno di tale criterio.</span><span class="sxs-lookup"><span data-stu-id="88507-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="88507-124">In questo esempio, la regola può prevedere che qualsiasi posizione contenente la parola "dirigente" venga inclusa nella regola.</span><span class="sxs-lookup"><span data-stu-id="88507-124">In this example, the rule might state that any job title that contains the word “executive” should be included in the rule.</span></span> <span data-ttu-id="88507-125">Dopo aver definito i parametri della regola o delle regole incluse nel criterio, è possibile assegnare una regola specifica al benefit.</span><span class="sxs-lookup"><span data-stu-id="88507-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
+<span data-ttu-id="50eb8-122">Definire l'ambito della regola all'interno del criterio.</span><span class="sxs-lookup"><span data-stu-id="50eb8-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="50eb8-123">Ad esempio, se si crea un tipo di regola dei criteri di idoneità al benefit denominata **Dirigente**, è possibile specificare come deve essere considerata la regola all'interno di tale criterio.</span><span class="sxs-lookup"><span data-stu-id="50eb8-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="50eb8-124">In questo esempio, la regola può prevedere che qualsiasi posizione contenente la parola "dirigente" venga inclusa nella regola.</span><span class="sxs-lookup"><span data-stu-id="50eb8-124">In this example, the rule might state that any job title that contains the word “executive” should be included in the rule.</span></span> <span data-ttu-id="50eb8-125">Dopo aver definito i parametri della regola o delle regole incluse nel criterio, è possibile assegnare una regola specifica al benefit.</span><span class="sxs-lookup"><span data-stu-id="50eb8-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="88507-126">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="88507-126">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="50eb8-126">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="50eb8-126">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="88507-127">Definizione e gestione di un programma di benefit</span><span class="sxs-lookup"><span data-stu-id="88507-127">Defining and managing a benefit program</span></span>](manage-benefit-program.md)
-
+[<span data-ttu-id="50eb8-127">Definizione e gestione di un programma di benefit</span><span class="sxs-lookup"><span data-stu-id="50eb8-127">Defining and managing a benefit program</span></span>](manage-benefit-program.md)
 
 
 

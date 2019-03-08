@@ -1,13 +1,13 @@
---- 
+---
 title: Impostazione del fuso orario preferito di un utente
-description: "Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore del sistema può impostare il fuso orario per un utente."
+description: Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore del sistema può impostare il fuso orario per un utente.
 author: pvillads
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,25 +16,24 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5eac00d5054296921c3f22004f8c8e710727afc
-ms.contentlocale: it-it
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309727"
 ---
-# <a name="set-a-users-preferred-time-zone"></a><span data-ttu-id="4041e-103">Impostazione del fuso orario preferito di un utente</span><span class="sxs-lookup"><span data-stu-id="4041e-103">Set a user's preferred time zone</span></span>
+# <a name="set-a-users-preferred-time-zone"></a><span data-ttu-id="a0255-103">Impostazione del fuso orario preferito di un utente</span><span class="sxs-lookup"><span data-stu-id="a0255-103">Set a user's preferred time zone</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4041e-104">Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore del sistema può impostare il fuso orario per un utente.</span><span class="sxs-lookup"><span data-stu-id="4041e-104">The following procedure explains how a user in the System Administrator role can set the time zone for a user.</span></span>
+<span data-ttu-id="a0255-104">Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore del sistema può impostare il fuso orario per un utente.</span><span class="sxs-lookup"><span data-stu-id="a0255-104">The following procedure explains how a user in the System Administrator role can set the time zone for a user.</span></span>
 
-1. <span data-ttu-id="4041e-105">Andare a Amministrazione sistema > Utenti > Utenti.</span><span class="sxs-lookup"><span data-stu-id="4041e-105">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="4041e-106">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="4041e-106">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="4041e-107">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="4041e-107">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="4041e-108">Fare clic su Opzioni utente.</span><span class="sxs-lookup"><span data-stu-id="4041e-108">Click User options.</span></span>
-5. <span data-ttu-id="4041e-109">Fare clic sulla scheda Preferenze.</span><span class="sxs-lookup"><span data-stu-id="4041e-109">Click the Preferences tab.</span></span>
-6. <span data-ttu-id="4041e-110">Selezionare un'opzione nel campo Fuso orario.</span><span class="sxs-lookup"><span data-stu-id="4041e-110">In the Time zone field, select an option.</span></span>
-7. <span data-ttu-id="4041e-111">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="4041e-111">Click Save.</span></span>
-
+1. <span data-ttu-id="a0255-105">Andare a Amministrazione sistema > Utenti > Utenti.</span><span class="sxs-lookup"><span data-stu-id="a0255-105">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="a0255-106">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="a0255-106">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="a0255-107">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="a0255-107">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="a0255-108">Fare clic su Opzioni utente.</span><span class="sxs-lookup"><span data-stu-id="a0255-108">Click User options.</span></span>
+5. <span data-ttu-id="a0255-109">Fare clic sulla scheda Preferenze.</span><span class="sxs-lookup"><span data-stu-id="a0255-109">Click the Preferences tab.</span></span>
+6. <span data-ttu-id="a0255-110">Selezionare un'opzione nel campo Fuso orario.</span><span class="sxs-lookup"><span data-stu-id="a0255-110">In the Time zone field, select an option.</span></span>
+7. <span data-ttu-id="a0255-111">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="a0255-111">Click Save.</span></span>
 
