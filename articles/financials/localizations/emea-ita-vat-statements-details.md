@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxYearlyCom_IT, TaxAuthority, TaxPeriod
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Italy
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 9e3ac3d6fd9a92d919743b25f865f5ee13a9fb4f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9998366e675892cf0ee9bd6d5f240d5e6ab73193
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370992"
 ---
-
 # <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni IVA per l'Italia
 
 [!include [banner](../includes/banner.md)]
@@ -129,5 +128,4 @@ Per la legislazione italiana, le regole si applicano ai periodi di liquidazione.
 |------------------------------|---------------------------------------------------------------------------------------------------|
 |   <strong>Chiuso</strong>    | Indica se il libro IVA italiano relativo al periodo è stato aggiornato e chiuso automaticamente. |
 | <strong>Ultimo periodo</strong> |             Selezionare questa opzione se si tratta dell'ultimo periodo di un anno IVA.              |
-
 

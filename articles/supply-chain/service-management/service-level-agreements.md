@@ -1,31 +1,30 @@
 ---
 title: Contratti di servizio
-description: "Nel contratto di servizio, il cliente accetta un tempo minimo di risposta basato sulla data in cui la società di servizi registra l'uscita e quando il problema viene risolto."
+description: Nel contratto di servizio, il cliente accetta un tempo minimo di risposta basato sulla data in cui la società di servizi registra l'uscita e quando il problema viene risolto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cffe3a7766502dd5d888a7a99a32150967911301
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63389ed348e9b1bebe00d9aaa9f78b97ac39317b
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364582"
 ---
-
 # <a name="service-level-agreements"></a>Contratti di servizio        
 
 [!include [banner](../includes/banner.md)]
@@ -80,6 +79,5 @@ Quando si crea un nuovo ordine di assistenza per un contratto di assistenza a cu
 [Visualizzare la conformità ai contratti di servizio](view-compliance-with-service-level-agreements.md)
 
   
-
 
 

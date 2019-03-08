@@ -5,9 +5,9 @@ author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2c4fe1c93693cee9164f2c22ad71a29abd6473d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e1eff86902170401e593019ea555d9c2a4c11c04
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370982"
 ---
-
 # <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ Utilizzando la dichiarazione ESL, gli uffici tributari di ogni stato membro dell
 È possibile completare le seguenti attività per la dichiarazione dell'elenco vendite UE:
 
 -   Raccogliere informazioni sulle transazioni commerciali intracomunitarie. Una transazione commerciale intracomunitaria può essere una fattura di vendita, una fattura a testo libero, una fattura di progetto o una fattura fornitore. Una transazione viene identificata in base al paese della controparte. Le transazioni commerciali intracomunitarie di tipi differenti vengono raccolte nella tabella dell'elenco vendite UE, nella quale sono rappresentate nella forma comune. Ogni record della tabella ESL rappresenta una singola transazione ed è costituito dall'identificazione dell'IVA della controparte e il valore totale dei prodotti forniti e dei servizi erogati.
--   (Facoltativo) Visualizzare in anteprima la dichiarazione **Elenco vendite UE**. È possibile visualizzare in anteprima e convalidare la dichiarazione **Elenco vendite UE** per un periodo specificato sotto forma di cartella di lavoro di Microsoft Excel.
+-   (Facoltativo) Visualizzare in anteprima la dichiarazione **Elenco vendite UE**. È possibile visualizzare in anteprima e convalidare la dichiarazione **Elenco vendite UE** per un periodo specificato sotto forma di cartella di lavoro di Microsoft Excel.
 -   Generare la dichiarazione **Elenco vendite UE**. La dichiarazione **Elenco vendite UE** viene generata nella forma di un file elettronico di un determinato formato che è specifico a ogni stato membro dell'UE. In linea generale, una dichiarazione **Elenco vendite UE** contiene le informazioni di base sulla parte dichiarante e sui valori delle forniture di prodotti e servizi. Le informazioni vengono raggruppate in base al paese e all'identificatore IVA di una controparte.
 -   Chiudere il periodo di dichiarazione Elenco vendite UE. Una volta generata la dichiarazione **Elenco vendite UE** e inviata alle autorità, è possibile contrassegnare i record della tabella ESL come **Chiusi**. Tali transazioni non verranno incluse nelle dichiarazioni aggiuntive.
 
@@ -158,7 +157,6 @@ Una transazione viene considerata una transazione commerciale intracomunitaria s
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>Chiusura del periodo di dichiarazione Elenco vendite UE.
 
 Una volta completato il processo di creazione del report per uno specifico periodo (ad esempio, quando gli uffici IVA hanno accettato la dichiarazione **Elenco vendite UE**), è possibile contrassegnare i record dell'ESL che sono inclusi nel report del periodo impostando il valore in **Stato relazione** su **Chiuso**. Per impostare questo stato, utilizzare la funzione **Contrassegna come chiuso** nella pagina **Elenco vendite UE**. Se si annulla la chiusura del periodo, è possibile contrassegnare i record dell'ESL impostando il valore in **Stato relazione** su **Incluso**. Questi record possono quindi essere inclusi nuovamente in una dichiarazione **Elenco vendite UE**. Per impostare questo stato, utilizzare la funzione **Contrassegna come** **incluso** nella pagina **Elenco vendite UE**.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: ER Creare una configurazione formato (novembre 2016)
-description: "I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una configurazione di formato per la creazione di report elettronici."
+description: I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una configurazione di formato per la creazione di report elettronici.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377551"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Creare una configurazione formato (novembre 2016)
 
@@ -35,8 +35,10 @@ I passaggi seguenti illustrano come un utente assegnato al ruolo di amministrato
 2. Fare clic su **Configurazioni report**.
 3. Nella struttura selezionare **Pagamenti (modello semplificato)**.
 4. Fare clic su **Crea configurazione** per aprire la finestra di dialogo a discesa.
+
  > [!NOTE]
  > Se **Crea configurazione** non è visualizzato, necessario abilitare la modalità progettazione nella pagina **Parametri per la creazione di report elettronici**. 
+ 
 5. Nel campo **Nuovo** immettere **Formato in base al modello dati PaymentModel**.
 6. Nel campo **Nome** digitare **BACS (fittizio per il Regno Unito)**.
 7. Nel campo **Descrizione** digitare **Formato di pagamento fornitore BACS (fittizio per il Regno Unito)**.
@@ -44,9 +46,6 @@ I passaggi seguenti illustrano come un utente assegnato al ruolo di amministrato
     * È possibile definire un formato specifico del documento elettronico. Lasciare vuoto il campo se si desidera selezionare un formato in fase di esecuzione.  
 8. Nel campo **Definizione modello dati** immettere o selezionare un valore.
 9. Fare clic su **Crea configurazione**. È stata creata una nuova configurazione. La versione bozza può essere utilizzata per archiviare il formato di progettazione per gestire i documenti elettronici.  
- > [!NOTE]
- > Se **Crea configurazione** non è visualizzato, necessario abilitare la modalità progettazione nella pagina **Parametri per la creazione di report elettronici**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>Progettazione del formato di un documento elettronico
 1. Fare clic su **Progettazione**.
@@ -159,5 +158,4 @@ I passaggi seguenti illustrano come un utente assegnato al ruolo di amministrato
 41. Fare clic su **OK**.
 42. Fare clic su **Salva**.
 43. Chiudere la pagina.
-
 

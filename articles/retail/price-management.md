@@ -5,10 +5,10 @@ author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,15 +17,14 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362144"
 ---
-
-# <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita al dettaglio in Retail
+# <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -149,7 +148,7 @@ Sebbene l'unità di prezzo non sia uno scenario di vendita al dettaglio comune, 
 
 ### <a name="sales-price-trade-agreement"></a>Accordo commerciale sul prezzo di vendita
 
-Utilizzando il giornale di registrazione accordi commerciali, è possibile creare accordi commerciali sui prezzi di vendita per ogni prodotto. In Microsoft Dynamics 365, sono disponibili tre ambiti per i clienti per gli accordi di commerciali sui prezzi: **Tabella** , **Gruppo** e **Tutto**. L'ambito del cliente determina i clienti ai quali si applica un determinato accordo commerciale di vendita.
+Utilizzando il giornale di registrazione accordi commerciali, è possibile creare accordi commerciali sui prezzi di vendita per ogni prodotto. In Microsoft Dynamics 365, sono disponibili tre ambiti per i clienti per gli accordi di commerciali sui prezzi: **Tabella**, **Gruppo** e **Tutto**. L'ambito del cliente determina i clienti ai quali si applica un determinato accordo commerciale di vendita.
 
 Un accordo commerciale sui prezzi di vendita **Tabella** è per un singolo cliente che viene impostato direttamente sull'accordo commerciale. Questo scenario non è uno scenario tipico business-to-consumer (B2C). Tuttavia, se si verifica, il motore dei prezzi Retail utilizza gli accordi commerciali **Tabella** quando determina il prezzo.
 
@@ -232,4 +231,3 @@ Inoltre, **solo** il motore di determinazione del prezzo di vendita al dettaglio
 
 - Il prezzo si basa sulle dimensioni prodotto, in ordine dal prezzo variante più specifico al prezzo variante meno specifico alla rappresentazione generale prodotto. Un prezzo impostato utilizzando due dimensioni prodotto (ad esempio Colore e Dimensione) viene utilizzato prima di un prezzo impostato utilizzando una sola dimensione prodotto (ad esempio, Dimensione).
 - Lo stesso gruppo di prezzi può essere utilizzato per controllare i prezzi e gli sconti.
-

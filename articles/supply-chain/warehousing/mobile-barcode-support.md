@@ -5,9 +5,9 @@ author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BarcodeSetup
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afddb34f29e13e17f2b93bb2633183a78e31f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 05f00bfbe7ef1dfce58b242d4defa925649e1dae
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360235"
 ---
-
 # <a name="mobile-bar-code-support"></a>Supporto codici a barre per dispositivi mobili
 
 [!include [banner](../includes/banner.md)]
@@ -35,5 +34,4 @@ Tuttavia, un fornitore di hardware può modificare e creare overlay per la versi
 L'app Magazzino per Microsoft Dynamics 365 for Finance and Operations è stata testata con una selezione di dispositivi Android per la scansione di codici a barre. Questi test coprono solo una parte dei dispositivi disponibili sul mercato.
 
 Ai clienti si consiglia di testare l'app di scansione per dispositivi mobili Magazzino con l'hardware selezionato prima di decidere quale hardware acquistare.
-
 

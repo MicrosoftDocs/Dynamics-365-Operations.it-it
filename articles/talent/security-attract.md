@@ -5,10 +5,10 @@ author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: it-it
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374782"
 ---
-
-# <a name="security-and-role-management-in-attract"></a>Gestione della sicurezza e dei ruoli in Attract
+# <a name="security-and-role-management-in-attract"></a>Sicurezza e gestione dei ruoli in Attract
 
 [!include[banner](../includes/banner.md)]
 
@@ -108,7 +107,7 @@ I seguenti privilegi sono applicabili ai dati specifici delle posizioni lavorati
 | Avanza fase           | Può rifiutare se l'utente fa parte del team di assunzione | Può proseguire se l'utente fa parte del team di assunzione | Non consentito |
 | Avviare la gestione di offerte | Può avviare la gestione di offerte | È disponibile un'opzione di configurazione sull'attività di offerta. | Non consentito |
 
-\*\* Un'opzione di configurazione nella [configurazione dell'attività di riscontro](./activities-attract.md#feedback-activity) controlla se i responsabili dei colloqui possono visualizzare il riscontro l'uno dall'altro.
+\*\* Un'opzione di configurazione nella [configurazione dell'attività di riscontro](activities-attract.md#feedback-activity) controlla se i responsabili dei colloqui possono visualizzare il riscontro l'uno dall'altro.
 
 ## <a name="process-templates"></a>Modelli di processo
 
@@ -146,4 +145,3 @@ I candidati rappresentano le persone principali aggiunte a un pool di competenze
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profilo: dettagli candidato | Creare, leggere, aggiornare ed eliminare | Creare, leggere, aggiornare ed eliminare | Nessun accesso   |
 | Documenti                   | Creare, leggere, aggiornare ed eliminare | Creare, leggere, aggiornare ed eliminare | Nessun accesso   |
-

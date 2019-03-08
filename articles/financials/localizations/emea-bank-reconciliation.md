@@ -1,13 +1,13 @@
 ---
 title: Rendiconto bancario e riconciliazione dei pagamenti dell'UE
-description: "In questo argomento viene fornita una panoramica delle funzionalità che è possibile utilizzare per riconciliare le informazioni sul pagamento dalle banche dei formati utilizzati dai paesi europei."
+description: In questo argomento viene fornita una panoramica delle funzionalità che è possibile utilizzare per riconciliare le informazioni sul pagamento dalle banche dei formati utilizzati dai paesi europei.
 author: neserovleo
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -17,21 +17,20 @@ ms.search.region: Belgium, Norway, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 40742ff82e916b64e68662f79899baf2549b1f2c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3dc0b968fdf217554b350a152195a4b3d235fdf0
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370932"
 ---
-
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Rendiconto bancario e riconciliazione dei pagamenti dell'UE
 
 [!include [banner](../includes/banner.md)]
 
 In questo argomento viene fornita una panoramica delle funzionalità che è possibile utilizzare per riconciliare le informazioni sul pagamento dalle banche dei formati utilizzati dai paesi europei.
 
-In Microsoft Dynamics 365 for Finance and Operations, è possibile importare transazioni da banche e liquidare queste transazioni a fronte di transazioni esistenti. In Europa, è possibile effettuare questa operazione per gli scenari seguenti:
+In Microsoft Dynamics 365 for Finance and Operations è possibile importare transazioni da banche e liquidare le transazioni a fronte di transazioni esistenti. In Europa, è possibile effettuare questa operazione per gli scenari seguenti:
 
 -   Importazione rendiconti bancari
 -   Importazione pagamenti
@@ -60,6 +59,5 @@ Oltre a un rendiconto bancario, le banche possono generare messaggi specifici, c
 -   (DNK) BetalingsserviceBasis-returformat - Formato di risposta per il formato di esportazione clienti Betalingsservice
 -   [Formati di importazione pagamenti per la Svezia](emea-swe-payment-formats-import.md) - Risposte Bankgirot Autogiro
 -   Risposta (SWE) BankGirot - Formato di risposta pagamenti fornitori che corrisponde al formato di esportazione Bankgirot
-
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00018 report di riconciliazione IVA
 description: In questa procedura viene descritto come generare il report di riconciliazione imposte disponibile per le persone giuridiche islandesi e norvegesi.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccountLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 5822a60456376647f2687fc2d211db3296575d47
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370980"
 ---
 # <a name="eur-00018-vat-reconciliation-report"></a>EUR-00018 report di riconciliazione IVA
 
@@ -40,5 +40,4 @@ In questa procedura viene descritto come generare il report di riconciliazione i
     * Selezionare il valore 01-11-2015.  
 6. Selezionare Sì nel campo Mostra dettagli.
 7. Fare clic su OK.
-
 

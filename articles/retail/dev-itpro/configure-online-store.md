@@ -5,9 +5,9 @@ author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations, Retail
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: d353baf67540b64168f29be3506d73e721e73523
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354370"
 ---
-
 # <a name="configure-online-stores"></a>Configura punti vendita online
 
 [!include [banner](../includes/banner.md)]
@@ -54,12 +53,11 @@ Gli argomenti elencati nella tabella consentono di configurare i componenti Reta
 | Gestire le spese di spedizione.             | Impostare e gestire le spese di spedizione specifiche al negozio online.                                                                     | [Impostare le spese di spedizione per i negozi online](https://technet.microsoft.com/en-us/library/jj728714.aspx) (contenuto TechNet per AX 2012)                                                                                                                           |
 | Gestire le modalità di consegna.            | Gestire i metodi di consegna offerti dal negozio online.                                                                                        | [Impostare la modalità di consegna](https://technet.microsoft.com/en-us/library/jj728719.aspx) (contenuto TechNet per AX 2012)                                                                                                                                            |
 
-## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Impostare lo scambio di dati tra Microsoft Dynamics 365 for Retail e il punto vendita online
+## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Impostare lo scambio di dati tra Microsoft Dynamics 365 for Retail e il negozio online
 
 | Compito                                 | Dettagli                                                                                                                               | Argomenti                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Impostare i profili di integrazione del canale. | I profili permettono la comunicazione reciproca tra i componenti di vendita al dettaglio. Impostare i profili prima di configurare le impostazioni di scambio dei dati. | [Impostare un profilo Real-time Service](https://technet.microsoft.com/en-us/library/hh580631.aspx) (contenuto TechNet per AX 2012) [Impostare un profilo canale](https://technet.microsoft.com/en-us/library/jj677402.aspx) (contenuto TechNet per AX 2012) |
-
 
 
 

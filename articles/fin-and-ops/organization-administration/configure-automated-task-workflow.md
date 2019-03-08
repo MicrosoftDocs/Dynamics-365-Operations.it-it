@@ -1,13 +1,13 @@
 ---
-title: "Configurare le attività automatiche in un flusso di lavoro"
-description: "In questo argomento viene descritto come configurare le proprietà per un'attività automatica."
+title: Configurare le attività automatiche in un flusso di lavoro
+description: In questo argomento viene descritto come configurare le proprietà per un'attività automatica.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5a9f37228beedafa085987668d5c89b06c6c9d61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365111"
 ---
-
 # <a name="configure-automated-tasks-in-a-workflow"></a>Configurare le attività automatiche in un flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
@@ -112,4 +111,3 @@ Per immettere un nome per l'attività automatica, effettuare le operazioni indic
     </table>
 
 8. Ripetere i passaggi dal 3 al 7 per ciascun evento selezionato nel passaggio 2.
-

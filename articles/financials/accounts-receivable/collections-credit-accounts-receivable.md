@@ -1,13 +1,13 @@
 ---
-title: "Crediti e riscossioni in Contabilità clienti"
-description: "Le informazioni sulla riscossione della contabilità clienti vengono gestite in un'unica vista centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Finance and Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti."
+title: Crediti e riscossioni in Contabilità clienti
+description: Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale utilizzando la pagina Riscossioni di Microsoft Dynamics 365 for Finance and Operations. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o dalla pagina Clienti.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c36e7a5d28baf149b982a0afd5fdd79fe8a91850
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351679"
 ---
-
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crediti e riscossioni in Contabilità clienti
 
 [!include [banner](../includes/banner.md)]
@@ -107,7 +106,6 @@ Per ulteriori informazioni, vedere [Creare un giornale di registrazione annullam
 --------------------------------------------
 
 È possibile elaborare pagamenti NSF facendo clic su Pagamento NSF nella pagina Riscossioni. Quando si fa clic su questo pulsante, il pagamento viene annullato. Se al cliente viene applicata una commissione NSF, viene creata una transazione di spese in un giornale di registrazione pagamenti. L'importo della commissione si basa sulle impostazioni delle spese automatiche. Le spese automatiche che si applicano ai pagamenti NSF vengono specificate in base al gruppo di spese varie selezionato nella pagina Conti bancari per il conto bancario interessato.
-
 
 
 

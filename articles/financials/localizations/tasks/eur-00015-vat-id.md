@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00015 Impostare l'ID IVA
 description: In questa procedura si descrivono i prerequisiti di registrazione di ID IVA, ad esempio l'impostazione di un tipo di registrazione e la sua assegnazione a una categoria di registrazione.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxRegistrationType, TaxRegistrationTypeCreate, TaxRegistrationLegislationTypes
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 66ee7215dc21921f9d8e405c3f77d9b5e0b89a9e
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370964"
 ---
 # <a name="eur-00015-set-up-vat-id"></a>EUR-00015 Impostare l'ID IVA
 
@@ -60,5 +60,4 @@ Queste informazioni si applicano a tutti i paesi europei. Questa attività è st
 21. Nel campo Categoria di registrazione selezionare 'ID IVA'
     * Assegnare il tipo di registrazione creato a una categoria predefinita di registrazione.  
 22. Fare clic su Salva.
-
 

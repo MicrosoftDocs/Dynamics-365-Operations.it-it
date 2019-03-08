@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
 ms.reviewer: josaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 176eeb2ddb145d21f7ff9fd94a9a56e173caee59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5819d21a91ac2a7c91f19fd6d80fd7b983411545
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367066"
 ---
-
-# <a name="vendor-portal-user-security"></a>Sicurezza degli utenti del portale fornitori
+# <a name="vendor-portal-user-security"></a>Sicurezza utente del portale fornitori
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +37,7 @@ La funzionalità portale fornitori è stata sostituita da funzionalità estese d
 Prima di creare un account utente per una persona che utilizzerà il portale fornitori, è necessario impostare il fornitore per consentire collaborazione tramite il portale fornitori. Utilizzare il campo **Collaborazione su ordine fornitore** nella scheda **Generale** della pagina **Fornitori**. I fornitori esterni che utilizzano il portale fornitori devono avere la seguente impostazione:
 
 -   Un account utente di Microsoft Azure Active Directory (AAD) deve essere registrato per il fornitore nella pagina **Utenti** in Dynamics AX.
--   Il fornitore deve avere il ruolo di sicurezza **Fornitore (esterno)**, non il ruolo **SystemUser**. **Nota**: il ruolo **SystemUser** viene concesso automaticamente quando si crea un nuovo account utente in Dynamics AX. Di conseguenza, è necessario rimuovere questo ruolo e verificare il messaggio di avviso ricevuto.
+-   Il fornitore deve avere il ruolo di sicurezza **Fornitore (esterno)**, non il ruolo **SystemUser**. **Nota:** il ruolo **SystemUser** viene concesso automaticamente quando si crea un nuovo account utente in Dynamics AX. Di conseguenza, è necessario rimuovere questo ruolo e verificare il messaggio di avviso ricevuto.
 -   All'utente fornitore non deve essere concessa l'autorizzazione ad aggiungere ulteriori campi delle tabelle dell'ordine fornitore nella visualizzazione dell'ordine fornitore. Nella scheda **Personalizzazione** della scheda **Utenti** impostare l'opzione **Personalizzazione esplicita consentita** per l'utente su **No**.
 -   L'account utente deve essere associato a un contatto registrato. Nella pagina **Utenti**, selezionare un contatto nel campo **Nome**. La persona selezionata deve avere il ruolo **Contatto** per il fornitore pertinente.
 
@@ -48,7 +47,6 @@ Se la stessa persona richiede l'accesso al portale fornitori per più conti forn
 --------
 
 [Collaborazione fornitore](collaborate-vendors-vendor-portal.md)
-
 
 
 

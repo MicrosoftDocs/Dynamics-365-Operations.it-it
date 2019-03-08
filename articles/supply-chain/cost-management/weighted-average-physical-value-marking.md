@@ -1,13 +1,13 @@
 ---
 title: Media ponderata con valore fisico e contrassegno
-description: "Media ponderata è un modello inventariale basato sul principio della media ponderata, secondo il quale le uscite dal magazzino vengono valutate in base al valore medio degli articoli ricevuti in magazzino durante il periodo di chiusura inventario, più le eventuali scorte disponibili del periodo precedente."
+description: Media ponderata è un modello inventariale basato sul principio della media ponderata, secondo il quale le uscite dal magazzino vengono valutate in base al valore medio degli articoli ricevuti in magazzino durante il periodo di chiusura inventario, più le eventuali scorte disponibili del periodo precedente.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc70b9cffd8716bc1d90cdb611076b4fc0bf6b30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355681"
 ---
-
 # <a name="weighted-average-with-physical-value-and-marking"></a>Media ponderata con valore fisico e contrassegno
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
 - Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 - Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
-- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantità/Prezzo unitario.
 - Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 - Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 - Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
@@ -111,7 +110,7 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
 - Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 - Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
-- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantità/Prezzo unitario.
 - Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 - Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 - Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
@@ -140,7 +139,7 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
 - Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 - Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
-- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantità/Prezzo unitario.
 - Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 - Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 - Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
@@ -173,7 +172,7 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
 - Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 - Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
-- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unitprice.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantità/Prezzo unitario.
 - Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 - Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 - Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
@@ -221,14 +220,13 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
 - Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 - Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
-- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantità@"Unitprice".
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantità@"Prezzo unitario".
 - Un valore dell'operazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 - Un valore dell'operazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 - Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
 - Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
 - Le chiusure inventario sono rappresentate da una linea verticale tratteggiata di colore rosso e dall'etichetta Chiusura inventario.
 - Le compensazioni eseguite tramite chiusura inventario sono rappresentate da frecce puntate di colore rosso che uniscono in diagonale un'entrata a un'uscita.
-
 
 
 

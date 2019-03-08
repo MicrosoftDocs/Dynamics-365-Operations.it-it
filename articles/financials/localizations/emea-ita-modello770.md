@@ -5,9 +5,9 @@ author: ilkond
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Taxreport770Table_IT
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3e3c8739f33ca1fa3a267b754a7470fb5be0d3d6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 257dd7f989eb16c5d7380af8df3887bf0f4650f6
-ms.contentlocale: it-it
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370986"
 ---
-
 # <a name="modello-770"></a>Modello 770
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli u
 23. Selezionare **Esporta**, quindi nella pagina **Esporta**, nel campo **Nome file**, specificare il nome file compresso per scaricare. Il file compresso contiene il Modello 770 come file ASCII.
 24. Selezionare la casella di controllo **Esportazione finale** per avviare il processo di importazione ignorando la logica di convalida nello strumento di importazione del governo. È inoltre possibile selezionare questa casella di controllo se si utilizza un report inviato in precedenza che è stato rifiutato ma che si considera corretto e completo in termini di informazioni disponibili pubblicate sul sito Web dell'[Agenzia delle Entrate](http://www.agenziaentrate.gov.it).
 25. Selezionare **OK** per esportare il Modello 770.
-

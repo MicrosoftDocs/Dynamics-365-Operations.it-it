@@ -1,13 +1,13 @@
 ---
 title: Contenuti Power BI sullo sviluppo e le competenze dei dipendenti
-description: In questo argomento viene fornito il contenuto Power BI sullo sviluppo e sulle competenze dei dipendenti in Finance and Operations.
+description: In questo argomento vengono fornite i contenuti Power BI sullo sviluppo e le competenze dei dipendenti in Finance and Operations.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352921"
 ---
-
 # <a name="employee-competencies-and-development-power-bi-content"></a>Contenuti Power BI sullo sviluppo e le competenze dei dipendenti
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornito il contenuto Power BI sullo sviluppo e sulle competenze dei dipendenti in Finance and Operations. 
+In questo argomento vengono fornite i contenuti Power BI sullo sviluppo e le competenze dei dipendenti in Finance and Operations. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Report inclusi nel pacchetto di contenuti
-Dopo aver collegato il pacchetto di contenuti ai dati di Finance and Operations, nei report vengono visualizzati i dati dell'organizzazione. Se non è mai stato usato Microsoft Power BI in precedenza, è possibile ottenere informazioni in merito nella [pagina Formazione guidata a Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). I report inclusi nel pacchetto di contenuti dispongono di grafici e tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.
+Dopo aver collegato il pacchetto di contenuti ai dati di Finance and Operations, nei report vengono visualizzati i dati dell'organizzazione. Se non è mai stato usato Microsoft Power BI in precedenza, è possibile ottenere informazioni in merito nella pagina [Formazione guidata a Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). I report inclusi nel pacchetto di contenuti dispongono di grafici e tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.
 
 | Report                            | Contenuto                                               |
 |-----------------------------------|--------------------------------------------------------|
@@ -40,7 +39,7 @@ Dopo aver collegato il pacchetto di contenuti ai dati di Finance and Operations,
 | Profilo competenze                     | Profilo competenze del dipendente selezionato                |
 | Analisi competenze                    | Competenze per tipo e valutazione                              |
 
-È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 I dati di Finance and Operations vengono utilizzati per compilare i report nel pacchetto di contenuti sullo sviluppo e le competenze dei dipendenti. Nella tabella seguente vengono illustrate le entità su cui è stato basato il pacchetto di contenuti.
@@ -71,4 +70,3 @@ I dati di Finance and Operations vengono utilizzati per compilare i report nel p
 | Forzalavoro\_NomeLavoratore             | Nome, cognome e nome completo                                                                       | |
 | Forzalavoro\_TitoloLavoratore            | Titolo e data di anzianità                                                                                   | |
 | Forzalavoro\_TendenzaLavoratore             | Lavoratori nel tempo, numero di dipendenti, società e posizione                                                        | Forzalavoro\_Società, Forzalavoro\_Retribuzione, Forzalavoro\_PosizioneGeografica, Forzalavoro\_Prestazioni, Forzalavoro\_NomeLavoratore, Forzalavoro\_NomeSuperiore, Forzalavoro\_OffsetCalendario, Forzalavoro\_Data, Forzalavoro\_TitoloLavoratore, Forzalavoro\_DatiDemografici, Forzalavoro\_Impiego, Forzalavoro\_Mansione |
-

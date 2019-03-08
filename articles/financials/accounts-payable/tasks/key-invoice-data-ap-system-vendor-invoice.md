@@ -1,13 +1,13 @@
---- 
-title: "Dati principali della fattura in sistema di contabilità fornitori utilizzando la fattura fornitore"
-description: "Questa guida attività consentirà di creare una fattura fornitore da un ordine fornitore e di visualizzare i risultati dell'abbinamento dell'ordine fornitore, dell'entrata e della fattura (corrispondenza a 3 elementi di verifica)."
+---
+title: Dati principali della fattura in sistema di contabilità fornitori utilizzando la fattura fornitore
+description: Questa guida attività consentirà di creare una fattura fornitore da un ordine fornitore e di visualizzare i risultati dell'abbinamento dell'ordine fornitore, dell'entrata e della fattura (corrispondenza a 3 elementi di verifica).
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e1d2e31a5de7cefd20996c18bf4771296a587997
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359108"
 ---
 # <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>Dati principali della fattura in sistema di contabilità fornitori utilizzando la fattura fornitore
 
@@ -79,5 +79,4 @@ Questa guida attività consentirà di creare una fattura fornitore da un ordine 
 19. Fare clic su Registra.
 20. Chiudere il modulo.
     * Si noti che l'ordine fornitore non è più elencato come ricevuto ma come non fatturato.  
-
 

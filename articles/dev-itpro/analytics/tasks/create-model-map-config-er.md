@@ -1,13 +1,13 @@
---- 
+---
 title: Creare configurazioni di mapping modello per la creazione di report elettronici
 description: Utilizzare questa procedura per progettare una nuova configurazione di mapping di modello (ER) per la creazione di report elettronici e usare le funzioni ER incorporate per i calcoli aggregati efficienti.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 614ef06fcf5761f1cf2afb6e7655558d2858d763
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357176"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Creare configurazioni di mapping modello per la creazione di report elettronici
 
@@ -65,5 +65,4 @@ Tali passaggi possono essere completati mediante un set di dati. Per completare 
 4. Nel campo Nome digitare "Mapping di esempio Intrastat".
     * Mapping di esempio Intrastat  
 5. Fare clic su Crea configurazione.
-
 

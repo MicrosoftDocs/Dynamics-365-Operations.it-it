@@ -1,13 +1,13 @@
 ---
-title: "Terminologia della contabilità industriale"
-description: "In questo argomento vengono definiti i termini principali utilizzati in Contabilità industriale."
+title: Terminologia della contabilità industriale
+description: In questo argomento vengono definiti i termini principali utilizzati in Contabilità industriale.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365939"
 ---
-
 # <a name="cost-accounting-terminology"></a>Terminologia della contabilità industriale
 
 [!include [banner](../includes/banner.md)]
@@ -119,7 +118,7 @@ Sono disponibili due gerarchie di dimensioni: gerarchia di categorie e gerarchia
 La contabilità industriale supporta l'integrazione dei dati da sistemi di origine tramite un insieme di connettori dati. Sono disponibili i seguenti connettori dati:
 
 -  Transazioni importate (preconfigurate)
--  Dynamics 365 for Finance and Operations (pre-configurato)
+-  Dynamics 365 for Finance and Operations (preconfigurato)
 -  Dynamics AX (configurazione obbligatoria)
 
 **Nota:** il connettore dati Transazioni importate è basato sulle entità di dati.
@@ -204,6 +203,5 @@ I rendiconti sono visualizzazioni utilizzate dai manager responsabili del contro
 **Versione**
 
 Le versioni vengono utilizzate per simulare, visualizzare e confrontare i diversi risultati. Per impostazione predefinita, tutti i costi effettivi vengono visualizzati in una versione base nota come *effettiva*. Per i budget e i calcoli è possibile utilizzare tutte le versioni necessarie. Ad esempio, è possibile importare i dati del budget in una versione originale e quindi modificare il budget in una versione riveduta. Per i calcoli è possibile creare più versioni. In queste varie versioni è possibile creare calcoli utilizzando diverse regole di calcolo che verranno applicate per l'allocazione dei costi.
-
 
 

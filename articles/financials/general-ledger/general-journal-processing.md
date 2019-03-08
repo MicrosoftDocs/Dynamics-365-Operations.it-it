@@ -1,13 +1,13 @@
 ---
 title: Elaborazione giornale di registrazione generale
-description: "Questo argomento descrive le funzionalità di Microsoft Dynamics 365 for Finance and Operations che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso."
+description: Questo argomento descrive le funzionalità di Microsoft Dynamics 365 for Finance and Operations che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e il controllo interno non sia compromesso.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358441"
 ---
-
 # <a name="general-journal-processing"></a>Elaborazione giornale di registrazione generale
 
 [!include [banner](../includes/banner.md)]
@@ -97,4 +96,3 @@ Per ulteriori informazioni, vedere i seguenti argomenti:
 **Simula registrazione** è disponibile nel menu **Convalida** della maggior parte dei giornali di registrazione. Quando si convalida un giornale di registrazione utilizzando la funzione **Convalida**, il sistema testa il giornale di registrazione alla ricerca di condizioni di errore specifiche. Se si utilizza la funzione **Simula registrazione**, il sistema esegue tutto degli stessi processi che vengono eseguiti durante la registrazione senza registrare effettivamente il giornale di registrazione. È quindi possibile esaminare i messaggi di registrazione visualizzati, correggere gli errori riscontrati e quindi fare clic sul menu **Registra** per registrare il giornale di registrazione. 
 
 **Simula registrazione** non è disponibile per l'elaborazione batch. È tuttavia disponibile codice per simulare la registrazione in batch e gli sviluppatori possono estendere il codice per aggiungere tale funzionalità.  
-

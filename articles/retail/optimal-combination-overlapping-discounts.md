@@ -1,13 +1,13 @@
 ---
 title: Determinare la combinazione ottimale di sconti sovrapposti
-description: "Quando gli sconti si sovrappongono, è necessario determinare la combinazione di sconti sovrapposti che produrranno il totale transazione più basso o lo sconto totale più alto. Quando l'importo dello sconto dipende dal prezzo dei prodotti acquistati, come ad esempio nel comune sconto al dettaglio \"Compri 1, prendi 1 con lo sconto dell'X%\", questo processo diventa una questione di ottimizzazione combinatoria."
+description: Quando gli sconti si sovrappongono, è necessario determinare la combinazione di sconti sovrapposti che produrranno il totale transazione più basso o lo sconto totale più alto. Quando l'importo dello sconto dipende dal prezzo dei prodotti acquistati, come ad esempio nel comune sconto al dettaglio "Compri 1, prendi 1 con lo sconto dell'X%", questo processo diventa una questione di ottimizzazione combinatoria.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360695"
 ---
-
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinare la combinazione ottimale di sconti sovrapposti
 
 [!include [banner](includes/banner.md)]
@@ -85,4 +84,3 @@ Per risolvere il problema di un numero che cresce in modo esponenziale delle com
 ![Combinazione 06 sconti sovrapposti](./media/overlapping-discount-combo-06.jpg)
 
 Dopo che il valore marginale di ciascuno sconto in un set di prodotti condivisi viene calcolato, gli sconti vengono applicati ai prodotti condivisi nell'ordine, esaustivamente, dal valore marginale più elevato al valore marginale più basso. Per questo metodo, tutte le possibilità di sconto rimanenti non vengono confrontate ogni volta dopo che una singola istanza di uno sconto viene applicata. Invece, gli scontisovrapposti vengono confrontati una volta e quindi applicati nell'ordine. Nessun confronto aggiuntivo viene eseguito. È possibile configurare la soglia per passare al metodo del valore marginale nella scheda **Sconto** della pagina **Parametri di vendita al dettaglio**. Il tempo accettabile di calcolo dello sconto totale varia nei settori di vendita al dettaglio. Tuttavia, questo tempo rientra in genere nell'intervallo compreso tra decine di millisecondi e un secondo.
-

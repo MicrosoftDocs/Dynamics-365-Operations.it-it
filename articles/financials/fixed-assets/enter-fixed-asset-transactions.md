@@ -1,13 +1,13 @@
 ---
-title: Opzioni per le transazioni cespiti
+title: Opzioni di transazione cespiti
 description: Questo articolo descrive i metodi diversi disponibili per creare le transazioni cespiti.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377184"
 ---
-
-# <a name="fixed-asset-transaction-options"></a>Opzioni per le transazioni cespiti
+# <a name="fixed-asset-transaction-options"></a>Opzioni di transazione cespiti
 
 [!include [banner](../includes/banner.md)]
 
@@ -66,9 +65,6 @@ Nella pagina Giornale di registrazione generale può essere registrato qualsiasi
 | ** **                               | Contabilità clienti      | Fattura a testo libero                         |
 
 
+Il valore residuo dei periodi di ammortamento del cespite non viene aggiornato quando una riga del giornale dei tipi di transazioni di ammortamento viene creata manualmente o importata mediante un'entità di dati. Questo valore viene aggiornato quando il processo della proposta di ammortamento viene utilizzato per creare la riga del giornale.
 
 Per ulteriori informazioni, vedere [Integrazione dei cespiti](fixed-asset-integration.md).
-
-
-
-

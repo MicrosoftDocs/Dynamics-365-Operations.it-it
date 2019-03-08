@@ -5,9 +5,9 @@ author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
 ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370976"
 ---
-
 # <a name="intrastat"></a>Intrastat
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,7 @@ Nella seguente tabella vengono elencati i prerequisiti per la dichiarazione Int
 </tr>
 <tr class="even">
 <td>Creazione di report elettronici</td>
-<td>Impostare le configurazioni del report elettroniche per esportare i dati Intrastat in un file elettronico con il formato richiesto dagli uffici competenti e visualizzare l'anteprima dei dati Intrastat in formato semplice da usare e leggibile ad esempio, in Microsoft Excel).</td>
+<td>Impostare le configurazioni del report elettroniche per esportare i dati Intrastat in un file elettronico con il formato richiesto dagli uffici competenti e visualizzare l'anteprima dei dati Intrastat in formato semplice da usare e leggibile (ad esempio, in Microsoft Excel).</td>
 </tr>
 <tr class="even">
 <td>Magazzino</td>
@@ -141,7 +140,7 @@ Nelle sezioni seguenti sono descritte le impostazioni necessarie per la dichiara
 </tr>
 <tr class="even">
 <td>Codici transazioni</td>
-<td>Configurare la natura della transazione in base ai requisiti del paese. Per ogni codice transazione impostato, è necessario impostare le regole per calcolare gli importi fattura e gli importi statistici per gli ordini di trasferimento e vendite.
+<td>Impostare la natura della transazione in base ai requisiti per il paese. Per ogni codice transazione impostato, è necessario impostare le regole per calcolare gli importi fattura e gli importi statistici per gli ordini di trasferimento e vendite.
 <ul>
 <li>Per gli ordini di trasferimento, si imposta una delle seguenti regole per calcolare gli importi fattura e gli importi statistici:
 <ul>
@@ -160,7 +159,7 @@ Nelle sezioni seguenti sono descritte le impostazioni necessarie per la dichiara
 </tr>
 <tr class="odd">
 <td>Metodi di trasporto</td>
-<td>Impostare la modalità di trasporto in base ai requisiti del paese. Per ciascuna modalità di consegna, è possibile impostare un metodo predefinito di trasporto nella scheda <strong>Commercio estero</strong>.</td>
+<td>Impostare la modalità di trasporto in base ai requisiti per il paese. Per ciascuna modalità di consegna, è possibile impostare un metodo predefinito di trasporto nella scheda <strong>Commercio estero</strong>.</td>
 </tr>
 <tr class="even">
 <td>Porti</td>
@@ -228,7 +227,7 @@ Utilizzare la pagina **Parametri per il commercio estero** per impostare i param
 </tr>
 <tr class="even">
 <td>Informazioni sul contatto agente</td>
-<td>Specificare nome, indirizzo, partita IVA, numero di telefono e numero di fax dell'agente.</td>
+<td>Specificare il nome, indirizzo, la partita IVA, il numero di telefono e il numero di fax agente.</td>
 </tr>
 <tr class="odd">
 <td>Proprietà paese</td>
@@ -240,5 +239,4 @@ Utilizzare la pagina **Parametri per il commercio estero** per impostare i param
 </tr>
 </tbody>
 </table>
-
 

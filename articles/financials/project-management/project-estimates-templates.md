@@ -1,13 +1,13 @@
 ---
 title: Sincronizzare le stime di progetto direttamente da Project Service Automation a Finance and Operations
-description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le stime orarie di progetto e le stime di spesa del progetto direttamente da Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations."
+description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le stime orarie di progetto e le stime di spesa del progetto direttamente da Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 21338b889e0377dbfd5adfd461ea81b39a75baf8
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353956"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizzare le stime di progetto direttamente da Project Service Automation a Finance and Operations
 
@@ -171,4 +171,3 @@ Nelle figure seguenti vengono mostrati esempi dei mapping delle attività di mod
 [![Mapping del modello](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mapping del modello](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
-

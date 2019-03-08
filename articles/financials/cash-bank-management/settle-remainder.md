@@ -1,13 +1,13 @@
 ---
 title: Residuo liquidazione
-description: "È possibile liquidare l'importo residuo dall'attività di liquidazione applicando quell'importo a un conto CoGe."
+description: È possibile liquidare l'importo residuo dall'attività di liquidazione applicando quell'importo a un conto CoGe.
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: it-it
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367204"
 ---
-
 # <a name="settle-remainder"></a>Residuo liquidazione
 
 [!include [banner](../includes/banner.md)]
@@ -71,4 +70,3 @@ Per liquidare il residuo, procedere come segue:
 7)  È inoltre possibile scegliere di creare un giornale di registrazione pagamenti con il residuo di liquidazione o soltanto registrarlo con un giornale di registrazione. Selezionare **Sì** per **Modifica in giornale di registrazione** per creare un giornale di registrazione pagamenti. Sarà possibile modificare il giornale di registrazione pagamenti creato.
 8)  Fare clic su **Residuo liquidazione**. Se si sceglie di creare un giornale, il pulsante diventerà **Crea giornale di registrazione**. Fare clic su **Crea giornale di registrazione**.
 9)  Se è stato creato un giornale di registrazione pagamenti, la pagina del giornale di registrazione verrà aperta dopo aver fatto clic su **Residuo liquidazione**. Una riga del giornale di registrazione verrà aggiunta con l'importo residuo liquidazione come importo e con il conto residuo liquidazione come conto di contropartita. Se si è aggiunto un cliente o fornitore per spostare l'importo di liquidazione a un altro cliente o fornitore, una riga aggiuntiva verrà aggiunta al giornale di registrazione per spostare l'importo di liquidazione a quel cliente o fornitore.
-

@@ -1,13 +1,13 @@
 ---
 title: Rettifiche prezzi e sconti
-description: Questo articolo fornisce le informazioni sulle rettifiche prezzo e sugli sconti in Vendita al dettaglio e commercio in Microsoft Dynamics 365 for Retail.
+description: Questo articolo fornisce le informazioni sulle rettifiche prezzo e sugli sconti in Microsoft Dynamics 365 for Retail.
 author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 61ac8e5fbdc4d91bb5bc5372a7fb96633043473a
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350966"
 ---
-
 # <a name="price-adjustments-and-discounts"></a>Rettifiche prezzi e sconti
 
 [!include [banner](includes/banner.md)]
 
-Questo articolo fornisce le informazioni sulle rettifiche prezzo e sugli sconti in Vendita al dettaglio e commercio in Microsoft Dynamics 365 for Retail.
+Questo articolo fornisce le informazioni sulle rettifiche prezzo e sugli sconti in Microsoft Dynamics 365 for Retail.
 
 In Dynamics 365 for Retail, è possibile apportare rettifiche prezzo a prodotti e è inoltre possibile impostare gli sconti applicabili a una voce o a una transazione nel POS, in un ordine cliente del call center, o in un ordine online. Sia le rettifiche prezzo che gli sconti sono collegati a gruppi di prezzi. Per entrambe le rettifiche prezzo e sconti, è possibile specificare una singola data di inizio e la data di fine o un periodo di riproduzione, un codice di sconto e alcuni attributi aggiuntivi. Le rettifiche prezzo e gli sconti possono essere applicati ai prodotti, alle varianti o alle categorie. Se più di uno sconto viene applicato a un prodotto, un cliente può ricevere uno degli sconti o uno sconto combinato, a seconda della configurazione dello sconto. In Dynamics 365 for Retail viene automaticamente applicato lo sconto o la combinazione di sconti che forniscono il migliore prezzo al cliente. Quando si imposta una rettifica di prezzo o uno sconto, assicurarsi di confermare che i gruppi di prezzi vengono assegnati ai canali, ai cataloghi, le affiliazioni, o i programmi corretti di fedeltà che si desidera lo sconto da applicare. Inoltre, se si desidera generare automaticamente l'ID dello sconto, è possibile impostare le sequenze numeriche nel modulo **Parametri vendita al dettaglio** prima di definire un nuovo sconto o una rettifica prezzo o sconto.
 
@@ -48,4 +47,3 @@ Sono ora disponibili quattro tipi di sconti vendita al dettaglio:
 - **Sconto della soglia** - Uno sconto applicato quando il totale della transazione è più della quantità specificata.
 
 Sia le rettifiche prezzo che gli sconti sono collegati a gruppi di prezzi. I gruppi di prezzi possono quindi essere associati ai canali, i cataloghi, le affiliazioni e piani di fedeltà.
-

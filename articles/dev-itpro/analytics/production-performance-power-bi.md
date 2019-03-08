@@ -1,13 +1,13 @@
 ---
-title: "Contenuto Power BI per prestazioni di produttività"
-description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di produttività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
+title: Contenuto Power BI per prestazioni di produttività
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di produttività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365962"
 ---
-
 # <a name="production-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di produttività
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto Microsoft Power BI **Prestazioni di produttività**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto Power BI **Prestazioni di produttività**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
@@ -63,7 +62,7 @@ Nella seguente tabella viene fornita una panoramica delle visualizzazioni inclus
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
-I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Prestazioni di produttività**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni sull'archivio entità, vedere [Integrazione di Power BI con l'Archivio entità in Dynamics](power-bi-integration-entity-store.md).
+I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Prestazioni di produttività**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni sull'archivio entità, vedere [Integrazione di Power BI con l'Archivio entità](power-bi-integration-entity-store.md).
 
 La tabella seguente mostra le misure di aggregazione chiave utilizzate come base del contenuto Power BI.
 
@@ -130,4 +129,3 @@ La tabella seguente mostra le dimensioni chiave utilizzate come filtri per divid
 | Entità                  | ID e nome                                                   |
 | Risorse                 | ID risorsa, nome della risorsa, tipo di risorsa e gruppo di risorse |
 | Prodotti                  | Numero prodotto, nome prodotto, ID articolo e gruppo di articoli         |
-

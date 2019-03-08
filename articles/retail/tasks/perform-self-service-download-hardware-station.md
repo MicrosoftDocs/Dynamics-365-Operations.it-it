@@ -1,13 +1,13 @@
---- 
+---
 title: Effettuare il self-service per scaricare la stazione hardware
 description: In questa procedura vengono descritti i passaggi per scaricare una stazione hardware predefinita.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: bd7749adbeab37c5aac7b2ca50a2610d76d98a55
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361523"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>Effettuare il self-service per scaricare la stazione hardware
 
@@ -36,5 +36,4 @@ In questa procedura vengono descritti i passaggi per scaricare una stazione hard
 4. Attivare l'espansione della sezione Stazioni hardware.
 5. Nell'elenco trovare e selezionare il record desiderato.
 6. Fare clic su Scarica.
-
 

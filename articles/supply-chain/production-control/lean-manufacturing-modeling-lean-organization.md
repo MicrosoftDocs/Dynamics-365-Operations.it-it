@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 254616174d3f3c449e2a55dfc5f080d6276105b0
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350989"
 ---
-
 # <a name="modeling-a-lean-organization"></a>Modellizzazione di un'organizzazione snella
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ Per supportare al meglio il miglioramento continuo, i flussi di produzione vengo
 
 ## <a name="simplicity"></a>Semplicità
 Per l'implementazione di Lean Manufacturing, scegliamo l'approccio di un flusso di produzione e di un'attività che consente di modellare scenari di produzione semplici e complessi in un'unica architettura scalabile. Uno sguardo più attento al concetto di attività rivela una nuova semplicità per gli utenti che ne hanno necessità: i lavoratori dei reparti shop floor e logistica. Con la segnalazione rispetto ai processi basati su attività anziché la segnalazione delle transazioni di magazzino, un'interfaccia utente unificata per tutte le varianti di lean manufacturing trasferisce la complessità aziendale dall'interfaccia utente all'area a cui appartiene: il flusso di produzione come spina dorsale della lean manufacturing.
-
 
 
 

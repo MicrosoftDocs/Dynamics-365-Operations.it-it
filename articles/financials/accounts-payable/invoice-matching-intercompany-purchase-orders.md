@@ -1,13 +1,13 @@
 ---
 title: Abbinamento fatture e sugli ordini fornitore interaziendali
-description: "La persona giuridica acquirente coinvolta in una transazione di commercio interaziendale può essere impostata per l'utilizzo dell'abbinamento fatture contabilità fornitori. In questo caso, affinché vengano registrate le fatture relative agli ordini fornitore interaziendali, devono essere soddisfatti i requisiti di registrazione sia per il commercio interaziendale sia per l'abbinamento fatture contabilità fornitori."
+description: La persona giuridica acquirente coinvolta in una transazione di commercio interaziendale può essere impostata per l'utilizzo dell'abbinamento fatture contabilità fornitori. In questo caso, affinché vengano registrate le fatture relative agli ordini fornitore interaziendali, devono essere soddisfatti i requisiti di registrazione sia per il commercio interaziendale sia per l'abbinamento fatture contabilità fornitori.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357567"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Abbinamento fatture e sugli ordini fornitore interaziendali
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Ad esempio, attenersi alla procedura descritta di seguito.
 2.  In Fabrikam Sales eseguire un aggiornamento della fattura per ICSO999. La registrazione ha esito negativo perché l'articolo non è disponibile e non è stato ancora ricevuto, pertanto le informazioni finanziarie non possono essere aggiornate.
 3.  In Fabrikam Sales registrare la ricezione degli articoli e un documento di trasporto per ICSO999. In Fabrikam Purchase viene automaticamente registrata un'entrata prodotti per ICPO333 e la quantità ricevuta per l'articolo B-R14 diventa pari a 100.
 4.  In Fabrikam Sales eseguire un aggiornamento della fattura per ICSO999. La registrazione ha esito positivo in entrambe le persone giuridiche. In Fabrikam Purchase, la quantità acquistata per l'articolo B-R14 diventa pari a 100.
-
 
 
 

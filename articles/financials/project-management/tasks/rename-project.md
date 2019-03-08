@@ -1,13 +1,13 @@
---- 
+---
 title: Rinominare o modificare una fase di progetto
-description: "In questa attività viene illustrato come rinominare o modificare una fase di progetto."
+description: In questa attività viene illustrato come rinominare o modificare una fase di progetto.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 373973726aa5a3cc341d3ee1732b7cf86729f6c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c9b2c03f87bc4d43e6795aa2e1ac378637fe11ce
-ms.openlocfilehash: c3fbaa70ee2ae581e87031e5586b500098793c25
-ms.contentlocale: it-it
-ms.lasthandoff: 11/08/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351771"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Rinominare o modificare una fase di progetto
 
@@ -35,4 +35,3 @@ Le fasi di progetto possono essere utilizzate come pratici riferimenti per segui
 4. Nell'elenco, selezionare la fase predefinita o definita dall'utente che si desidera modificare. 
 5. Nel campo Fase progetto, immettere il nuovo nome.
 6. Fare clic su Salva.
-

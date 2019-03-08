@@ -1,13 +1,13 @@
---- 
+---
 title: Registrazione di vendite e pagamenti online
 description: In questa procedura vengono descritti i passaggi per configurare ed eseguire un processo batch ricorrente al fine di creare ordini cliente e pagamenti per le transazioni punto vendita online.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 13839bbe6ca03f3cfc7036fce87477bf7d5af2a7
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353496"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>Registrazione di vendite e pagamenti online
 
@@ -42,5 +42,4 @@ In questa procedura vengono descritti i passaggi per configurare ed eseguire un 
 8. Nel campo Conteggio immettere un numero.
 9. Fare clic su OK.
 10. Fare clic su OK.
-
 

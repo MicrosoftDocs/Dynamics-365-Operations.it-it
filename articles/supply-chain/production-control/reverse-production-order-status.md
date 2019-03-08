@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367319"
 ---
-
 # <a name="reverse-the-production-order-status"></a>Invertire lo stato degli ordini di produzione
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Quando si inverte lo stato di un ordine di produzione da **Rilasciato** a **Prog
 
 ## <a name="from-started-to-released"></a>Da Iniziato a Rilasciato
 Quando si inverte lo stato di un ordine di produzione da **Iniziato** a **Rilasciato**, viene ripristinato lo stato precedente di tutti gli articoli dichiarati finiti. Se è stato prelevato materiale o sono state effettuate consegne in entrata o in uscita per la produzione, vengono invertite queste impostazioni. Il campo **Stato rimanenze** nelle righe DBA dell'ordine di produzione viene modificato da **Finito** a **Consumo materiali**. Se il tempo è stato registrato o le quantità sono state dichiarate finite per le operazioni del ciclo di lavorazione produzione, queste impostazioni vengono ripristinate allo stato precedente. Il campo **Stato rimanenze** viene modificato da **Finito** a **Consumo ciclo di lavorazione** nel ciclo di lavorazione produzione. Le impostazioni per tutti gli articoli registrati come in corso o semilavorati vengono ripristinate. Nella pagina **Dettagli ordine di produzione** i campi che indicano una quantità che è stata iniziata o stata dichiarata finita vengono reimpostati. Anche le date di queste transazioni vengono reimpostate.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Creare una regola kanban di sostituzione
 description: Questa procedura mostra come sostituire la regola kanban esistente con una nuova regola kanban in una data specifica.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c8a9367d4796999857e473bcbe36a709d534f3b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e5b27200a8d56192d473887f01076eced0f92e4c
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362282"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Creare una regola kanban di sostituzione
 
@@ -55,5 +55,4 @@ Questa procedura mostra come sostituire la regola kanban esistente con una nuova
 ## <a name="modify-maximum-quantity-for-the-replacement-kanban-rule"></a>Modificare la quantità massima per la regola kanban sostitutiva
 1. Impostare Quantità massima su "100".
     * Espandere la scheda dettaglio Quantità per visualizzare il campo Quantità massima. Modificare la quantità massima in 100 permetterà l'elaborazione di un massimo di 100 kanban.    Questo è l'ultimo passaggio di questa attività.  
-
 

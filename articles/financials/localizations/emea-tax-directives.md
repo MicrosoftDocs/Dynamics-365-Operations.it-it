@@ -1,13 +1,13 @@
 ---
 title: Direttive fiscali per l'Europa
-description: "È possibile specificare di includere una descrizione dei codici IVA nelle fatture di vendita e nelle fatture di progetto. È possibile stampare i numeri di riferimento nelle fatture di vendita, le fatture a testo libero e le fatture di progetto."
+description: È possibile specificare di includere una descrizione dei codici IVA nelle fatture di vendita e nelle fatture di progetto. È possibile stampare i numeri di riferimento nelle fatture di vendita, le fatture a testo libero e le fatture di progetto.
 author: epodkolz
 manager: AnnBe
 ms.date: 05/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 42861a66b44d6156341bf2d4d895a4bf35295ee6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 1a2d4531e13d158dd8b93d9b9e94a17a8f94c50a
-ms.contentlocale: it-it
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370934"
 ---
-
 # <a name="tax-directives-for-europe"></a>Direttive fiscali per l'Europa
 
 [!include [banner](../includes/banner.md)]
@@ -31,5 +30,4 @@ La direttiva UE fornisce i regolamenti per tutti gli stati membri relativi alle 
 
 - Per stampare una descrizione dei codici IVA sui report fatture di vendita, fatture a testo libero, fatture di progetto, impostare il testo di riferimento Direttive fiscali sui codici IVA.
 - Per le note di credito, il numero e la data della fattura originale vengono stampati con il motivo della correzione.
-
 

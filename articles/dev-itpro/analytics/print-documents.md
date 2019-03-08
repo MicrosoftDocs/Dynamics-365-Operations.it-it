@@ -1,13 +1,13 @@
 ---
 title: Stampa del documento
-description: "In Microsoft Dynamics 365 for Finance and Operations, è possibile stampare i documenti mediante una stampante locale o un dispositivo connesso alla rete. L'articolo fornisce una panoramica su come i documenti vengono stampati."
+description: In Microsoft Dynamics 365 for Finance and Operations, è possibile stampare i documenti mediante una stampante locale o un dispositivo connesso alla rete. L'articolo fornisce una panoramica su come i documenti vengono stampati.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362052"
 ---
-
 # <a name="document-printing"></a>Stampa del documento
 
 [!include [banner](../includes/banner.md)]
@@ -76,4 +75,3 @@ Il seguente diagramma mostra i componenti di base che consentono di supportare l
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Tenere presente che è possibile registrare una singola stampante con più agenti di distribuzione documenti. Per risolvere le preferenze della stampante, il servizio in hosting utilizza il percorso di rete che identifica in modo univoco ogni stampante di rete. Di conseguenza, anche quando una stampante è registrata da più client, appare come una singola selezione nell'elenco delle stampanti disponibili nelle applicazioni di Finance and Operations.
-

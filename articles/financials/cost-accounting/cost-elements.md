@@ -1,13 +1,13 @@
 ---
 title: Dimensioni elemento di costo
-description: "Uno dei pilastri fondamentali della contabilità industriale, le dimensioni elemento di costo vengono utilizzate per categorizzare e tracciare il flusso dei costi."
+description: Uno dei pilastri fondamentali della contabilità industriale, le dimensioni elemento di costo vengono utilizzate per categorizzare e tracciare il flusso dei costi.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c703d1a9ae36d4342dc652d70dd82379187057c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0f47c75b6f6f4533501070f78698de82cf70f9bd
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366077"
 ---
-
 # <a name="cost-element-dimensions"></a>Dimensioni elemento di costo
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Per semplificare l'impostazione dei membri delle dimensioni elemento di costo ne
 
 ## <a name="implementation-considerations"></a>Considerazioni sull'implementazione
 Poiché gli elementi di costo rappresentano il livello minimo dei dettagli di costo, è necessario assicurarsi che tutti gli elementi di costo richiesti per effettuare il reporting gestionale siano inclusi durante l'implementazione della struttura degli elementi di costo. Può essere una sfida individuare un numero appropriato di elementi di costo per il controllo dei costi. La disponibilità di migliaia di elementi di costo può rendere difficile controllare ogni elemento di costo. In alternativa, è possibile raggruppare gli elementi di costo e gestire il controllo costi a livello aggregato.
-
 
 
 

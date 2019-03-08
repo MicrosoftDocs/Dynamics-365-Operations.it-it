@@ -1,13 +1,13 @@
 ---
 title: Impostare le componenti di una mansione
-description: "In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione."
+description: In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
 ms.author: rschloma
@@ -18,19 +18,17 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377161"
 ---
-
 # <a name="set-up-the-components-of-a-job"></a>Impostare le componenti di una mansione
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione. 
 
@@ -79,7 +77,7 @@ Le mansioni di lavoro descrivono le attività di base che un lavoratore che rico
 </ul></td>
 </tr>
 <tr class="even">
-<td>Ragioniere</td>
+<td>Contabile</td>
 <td><strong>Report-finanziario</strong>: presentare report finanziari settimanali al responsabile finanziario.</td>
 </tr>
 </tbody>
@@ -92,4 +90,3 @@ Le aree di responsabilità vengono utilizzate per indicare i ruoli di lavoro, i 
 
 ## <a name="steps-for-creating-a-job"></a>Passaggi per creare un processo
 Fare riferimento all'argomento [Definire nuovi processi](../fin-and-ops/hr/tasks/define-new-jobs.md) per la procedura dettagliata relativa alla creazione di un nuovo processo. 
-

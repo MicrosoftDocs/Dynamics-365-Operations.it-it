@@ -1,13 +1,13 @@
 ---
 title: Richieste di offerta (RdO)
-description: "In questo argomento è riportata una panoramica relativa alle richieste di offerta (RdO). Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori."
+description: In questo argomento è riportata una panoramica relativa alle richieste di offerta (RdO). Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9b840f5511f6a0df0e9ce3db4be69a0ab4ec3261
-ms.openlocfilehash: 8d7b07027443d1ca3894ccb7ed7f3cf49a4dc3e3
-ms.contentlocale: it-it
-ms.lasthandoff: 06/21/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351288"
 ---
-
 # <a name="requests-for-quotation-rfqs"></a>Richieste di offerta (RdO)
 
 [!include [banner](../includes/banner.md)]
@@ -268,5 +267,4 @@ Nell'esempio seguente è possibile visualizzare lo stato massimo e minimo nel ca
 |------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
 | Accettare una delle offerte. (o almeno una riga) |                          Ricevuti                           |                           Accettate                           |                    Ricevuti                    |                    Accettate                     |                   Ricevuti                   |                   Accettate                    |
 |           Rifiutare tutte le altre offerte.           |                          Rifiutato                           |                           Accettate                           |                    Rifiutato                    |                    Accettate                     |                   Rifiutato                   |                   Accettata                    |
-
 

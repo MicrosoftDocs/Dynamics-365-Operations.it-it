@@ -1,13 +1,13 @@
 ---
 title: Panoramica sul lean manufacturing
-description: "In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Dynamics 365 for Finance and Operations."
+description: In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99030966587a2784f61cecbfc7f9985f75f6d779
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359890"
 ---
-
 # <a name="lean-manufacturing-overview"></a>Panoramica del lean manufacturing
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Per creare una base di lean manufacturing, modellare i processi di logistica e d
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Utilizzo dei kanban per segnalare il fabbisogno della domanda
 Il system pull è un sistema di produzione in base al quale le merci vengono prodotte solo su richiesta. Questa procedura abbrevia il lead time di consegna e riduce l'eccesso di scorte. Per pianificare, tenere traccia ed elaborare il fabbisogno basato sui flussi di produzione, è possibile utilizzare i kanban. Per creare un framework kanban, creare delle regole kanban che definiscano quando creare i kanban e come soddisfare il fabbisogno. È possibile creare due tipi di regole kanban: Le regole produzione creano i processi kanban e le regole kanban di prelievo creano i processi kanban di trasferimento. È possibile impostare le seguenti strategie di rifornimento:
--   Le regole kanban a **Quantità fissa** sono correlate a un numero di unità movimentazione fisso, pertanto i numeri di kanban attivi sono costanti. Ogni volta che tutti i prodotti da un kanban vengono consumati e le unità movimentazione vengono svuotate manualmente, un nuovo kanban dello stesso tipo viene creato. Quando si creano regole kanban a quantità fissa, è possibile calcolare le quantità kanban ottimali e le quantità di prodotto utilizzate. Il calcolo prende in considerazione la previsione, la domanda effettiva degli ordini aperti, il lead time per rifornire articoli e le richieste dello storico.
+-   Le regole kanban a **Quantità fissa** sono correlate a un numero di unità movimentazione fisso, pertanto i numeri di kanban attivi sono costanti. Ogni volta che tutti i prodotti da un kanban vengono consumati e le unità movimentazione vengono svuotate manualmente, un nuovo kanban dello stesso tipo viene creato. Quando si creano regole kanban a quantità fissa, è possibile calcolare le quantità kanban ottimali e le quantità di prodotto utilizzate. Il calcolo prende in considerazione la previsione, la domanda effettiva degli ordini aperti, il lead time per rifornire articoli e le richieste dello storico.
 -   Le regole kanban **programmate** soddisfano il fabbisogno calcolato dalla pianificazione generale. La pianificazione generale genera kanban pianificati che possono essere consolidati a kanban.
 -   Le regole kanban **evento** soddisfano il fabbisogno derivante dalle righe ordini clienti, dalle righe della DBA di produzione, dalle righe kanban e dalle impostazioni dei livelli minimi di scorte. I kanban evento generati vengono sottoposti a pegging in base al fabbisogno all'origine.
 
@@ -66,7 +65,7 @@ La funzionalità lean manufacturing è una finestra aperta sullo stato corrente 
 -   Tenere traccia e registrare lo stato dei processi kanban.
 
 Nel seguente elenco vengono descritte le bacheche kanban specifiche:
--   Programmazione dei processi kanban – Viene fornita una panoramica dei processi kanban. La bacheca visualizza i processi kanban e lo stato per una o più celle di lavoro. I processi sono elencati in base ai periodi di pianificazione (giorni o settimane) che sono definiti nel modello di flusso di produzione. Nella bacheca viene inoltre visualizzato il consumo di capacità per ogni periodo di pianificazione. In questo modo è possibile monitorare il carico programmato. È possibile modificare lo stato dei processi kanban, riprogrammarli in periodi di pianificazione diversi ed eseguire altre attività.
+-   Programmazione dei processi kanban – Viene fornita una panoramica dei processi kanban. La bacheca visualizza i processi kanban e lo stato per una o più celle di lavoro. I processi sono elencati in base ai periodi di pianificazione (giorni o settimane) che sono definiti nel modello di flusso di produzione. Nella bacheca viene inoltre visualizzato il consumo di capacità per ogni periodo di pianificazione. In questo modo è possibile monitorare il carico programmato. È possibile modificare lo stato dei processi kanban, riprogrammarli in periodi di pianificazione diversi ed eseguire altre attività.
 -   Bacheca kanban per i processi di trasferimento: in questa bacheca viene fornita una panoramica dei processi di trasferimento correnti. È possibile aggiornare e registrare le distinte di prelievo, avviare e completare i processi di trasferimento ed eseguire altre attività.
 -   Bacheca kanban per i processi di lavorazione - Questa bacheca è progettata per supportare il flusso di produzione normale e per effettuare una panoramica della situazione corrente in una o più celle di lavoro. Da questa bacheca ai kanban può essere assegnata la priorità, possono prelevati o prodotti. La bacheca è inoltre progettata per supportare lo scansione del codice a barre per la registrazione di kanban.
 
@@ -79,7 +78,6 @@ I processi kanban sono pienamente integrati con i processi correnti per le opera
 Inoltre, la funzionalità lean manufacturing supporta i processi di acquisto e di fatturazione per i servizi ai quali fanno riferimento le attività in conto lavoro.
 -   È possibile assegnare servizi e righe del contratto di acquisto alle attività in conto lavoro.
 -   È possibile creare ordini fornitore e comunicazioni di ricevimento periodici a supporto dell'acquisto e della fatturazione dei servizi.
-
 
 
 

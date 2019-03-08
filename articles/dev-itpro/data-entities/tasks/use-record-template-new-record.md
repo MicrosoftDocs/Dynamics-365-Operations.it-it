@@ -1,13 +1,13 @@
---- 
+---
 title: Utilizzare il modello di record per creare un nuovo record
 description: In questa procedura viene illustrato come utilizzare un modello di record definito in precedenza per creare un nuovo record.
 author: margoc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, SysRecordTemplateSelect
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e32efc72a4f1f60afd9e2c699db1fae0b70d529c
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355129"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Utilizzare il modello di record per creare un nuovo record
 
@@ -38,5 +38,4 @@ Questa procedura utilizza la società USMF.
     * Verrà richiesto di selezionare un modello. Selezionare il modello che corrisponde alle esigenze aziendali.  
 3. Nell'elenco trovare e selezionare il record desiderato.
 4. Fare clic su OK.
-
 

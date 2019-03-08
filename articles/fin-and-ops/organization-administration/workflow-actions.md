@@ -1,13 +1,13 @@
 ---
 title: Azioni nei processi di approvazione in un flusso di lavoro
-description: "In questo articolo vengono illustrate le azioni che ciascun partecipante a un processo di approvazione del flusso di lavoro può eseguire."
+description: In questo articolo vengono illustrate le azioni che ciascun partecipante a un processo di approvazione del flusso di lavoro può eseguire.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 829ee16b8fd72a0808a657419524487d9c1b3123
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361753"
 ---
-
 # <a name="actions-in-workflow-approval-processes"></a>Azioni nei processi di approvazione in un flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Quando un approvatore richiede una modifica di un documento, quest'ultimo viene 
 Si supponga ad esempio che Giorgio abbia presentato un documento pari a USD 12.000 assegnato a Luisa. Se Luisa richiede una modifica, la nota spese viene restituita a Giorgio.
 
 Giorgio può quindi inviare di nuovo la nota spese. È possibile apportare le modifiche richieste prima, oppure può inviare la versione originale della nota spese. Se Giorgio presenta di nuovo la nota spese, questa viene inviata a Ezio per l'approvazione, in quanto Ezio è il primo approvatore nel processo di approvazione.
-

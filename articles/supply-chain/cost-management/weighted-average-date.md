@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355405"
 ---
-
 # <a name="weighted-average-date"></a>Data media ponderata
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Se nella data in questione o in una data precedente si è verificata una sola en
 
 Il metodo di determinazione costi di magazzino con data media ponderata viene calcolato in base alla seguente formula: 
 
-Media ponderata = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Media ponderata = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
 
 Durante la chiusura inventario, il calcolo verrà eseguito ogni giorno per la durata del periodo di chiusura, come mostrato nell'illustrazione riportata di seguito. 
 
@@ -54,7 +53,7 @@ Le transazioni di magazzino che escono dall'inventario, quali gli ordini cliente
 
 Le liquidazioni sono registrazioni di chiusura inventario che rettificano le uscite in base alla media ponderata corretta, calcolata alla data di chiusura. 
 
-**Nota:** per ulteriori informazioni sulle liquidazioni, vedere l'articolo sulla chiusura inventario. Negli esempi riportati di seguito è illustrato l'effetto dell'uso della media ponderata con cinque configurazioni:
+**Nota:** per ulteriori informazioni sulle liquidazioni, vedere l'articolo sulla chiusura inventario. Negli esempi riportati di seguito è illustrato l'effetto dell'uso della media ponderata con cinque configurazioni:
 
 -   Compensazione diretta con data media ponderata quando non è utilizzata l'opzione **Includi valore fisico**
 -   Liquidazione riepilogativa con data media ponderata quando non è utilizzata l'opzione **Includi valore fisico**
@@ -195,7 +194,6 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 -   Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano la successione delle registrazioni relative alle operazioni di magazzino nella sequenza temporale.
 -   Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
 -   Le liquidazioni eseguite tramite chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
-
 
 
 

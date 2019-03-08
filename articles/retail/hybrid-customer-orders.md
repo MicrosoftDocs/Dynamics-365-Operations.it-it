@@ -1,13 +1,13 @@
 ---
 title: Ordini cliente ibridi
-description: "Un ordine cliente ibrido è un ordine singolo che contiene prodotti che possono essere ritirati nel punto vendita dal cliente e prodotti che verranno ritirati o spediti in un secondo momento."
+description: Un ordine cliente ibrido è un ordine singolo che contiene prodotti che possono essere ritirati nel punto vendita dal cliente e prodotti che verranno ritirati o spediti in un secondo momento.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: a00e69a589ffe744f88edb6a8b3709c4029fc1ec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 88d12641fa05953f7082158303237b7ba40c3fe2
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364329"
 ---
-
 # <a name="hybrid-customer-orders"></a>Ordini cliente ibridi
 
 [!include [banner](includes/banner.md)]
@@ -42,4 +41,3 @@ Se è selezionata una riga del carrello ed è selezionata l'opzione **Preleva se
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica degli ordini cliente](customer-orders-overview.md)
-

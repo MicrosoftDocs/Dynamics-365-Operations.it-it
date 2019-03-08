@@ -1,13 +1,13 @@
 ---
 title: Panoramica arrivi
-description: "In questo argomento vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo."
+description: In questo argomento vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 43e49fb6e8deead7c6dfe24a25337aeb35f1fcc0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356003"
 ---
-
 # <a name="arrival-overview"></a>Panoramica arrivi
 
 [!include [banner](../includes/banner.md)]
@@ -122,4 +121,3 @@ Una volta registrate tutte le merci, il responsabile del magazzino o il responsa
 
 ## <a name="summary"></a>Riepilogo
 La pagina **Panoramica arrivi** consente al responsabile del magazzino e agli addetti al magazzino di ottenere una panoramica del lavoro previsto che deve essere svolto come parte di un processo in entrata. Nella pagina può inoltre essere utilizzata per avviare il processo di registrazione arrivi articoli, per garantire che gli articoli vengano aggiornati alla prima immissione nel magazzino.
-

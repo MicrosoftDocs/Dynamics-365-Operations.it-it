@@ -1,13 +1,13 @@
---- 
+---
 title: Completare l'impostazione di base di una rappresentazione generale prodotto rilasciata
 description: Questa procedura mostra come completare la configurazione minima necessaria prima che la rappresentazione generale prodotto possa essere utilizzata nelle versioni DBA.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0d3a91977c38c0ce0f9fe114bec943c7cb32a5d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 35617f5bec877fbe8a89d015eda16a66ee14d335
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354784"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Completare l'impostazione di base di una rappresentazione generale prodotto rilasciata
 
@@ -63,5 +63,4 @@ Questa è la terza procedura di otto che illustra come sviluppare le combinazion
     * Selezionare Produzione per specificare che l'opzione di rifornimento predefinita per la rappresentazione generale prodotto è di produrla.  
 24. Chiudere la pagina.
 25. Chiudere il modulo Dettagli prodotto rilasciato.
-
 

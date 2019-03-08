@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00015 Ricerca della parte utilizzando l'ID IVA
-description: "In questa procedura verrà descritto come eseguire una ricerca di parti tramite un ID registrazione."
+description: In questa procedura verrà descritto come eseguire una ricerca di parti tramite un ID registrazione.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyTable, DirPartTaxRegistrationSearch
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: ec36ead402882c1022811b7b398a03c6325ef7c0
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370960"
 ---
 # <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015 Ricerca della parte utilizzando l'ID IVA
 
@@ -41,5 +41,4 @@ Questa procedura si applica a tutti i paesi europei. La procedura è stata creat
 6. Nel campo Numero di registrazione digitare un valore.
 7. Fare clic su Trova.
     * Tutte le parti con tale ID registrazione verranno visualizzate.  
-
 

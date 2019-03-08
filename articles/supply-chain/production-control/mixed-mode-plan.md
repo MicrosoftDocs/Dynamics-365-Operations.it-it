@@ -1,13 +1,13 @@
 ---
 title: "Pianificazione in modalità mista: combinazione dell'approvvigionamento, discreto, di processo e snello"
-description: "Questo argomento fornisce informazioni sulla pianificazione in modalità mista."
+description: Questo argomento fornisce informazioni sulla pianificazione in modalità mista.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358234"
 ---
-
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Pianificazione in modalità mista: combinazione dell'approvvigionamento, discreto, di processo e snello
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sulla pianificazione in modalità mista. Nella pianificazione in modalità mista, è possibile modellare la supply chain in base al flusso di materiale. Microsoft Dynamics 365 for Finance and Operations garantisce che il flusso di materiale segua i modelli definiti, indipendentemente dai criteri di rifornimento selezionati (kanban, ordini di produzione, ordini fornitore, ordini batch o ordini di trasferimento). 
+Questo argomento fornisce informazioni sulla pianificazione in modalità mista. Nella pianificazione in modalità mista, è possibile modellare la supply chain in base al flusso di materiale. Microsoft Dynamics 365 for Finance and Operations garantisce che il flusso di materiale segua i modelli, indipendentemente dai criteri di rifornimento selezionati (kanban, ordini di produzione, ordini fornitore, ordini batch o ordini di trasferimento). 
 
 È possibile selezionare una strategia complessiva per la fornitura di un prodotto, indipendentemente dalla struttura di prodotto.  
 
@@ -67,7 +66,6 @@ Per il lavoro che non dipende dai criteri di fornitura, non è necessario modifi
 
 ## <a name="process-manufacturing--the-production-type"></a>Process manufacturing: tipo di produzione
 Per una flessibilità completa in modalità mista, si consiglia di utilizzare DBA di tipo produzione per tutti i prodotti. È quindi possibile utilizzare gli ordini di produzione, i kanban, ordini di trasferimento, o ordini fornitore per fornire un prodotto. Per il process manufacturing, è necessario utilizzare un tipo di produzione **Formula**, **Co-prodotto**, **Sottoprodotto** o **Articolo pianificazione**. I kanban e gli ordini di produzione non possono essere utilizzati per questi tipi di produzione.
-
 
 
 

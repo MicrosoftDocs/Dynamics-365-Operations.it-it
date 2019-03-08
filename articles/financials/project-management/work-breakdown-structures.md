@@ -1,13 +1,13 @@
 ---
 title: Strutture di suddivisione del lavoro
-description: "Una struttura di suddivisione del lavoro è una descrizione del lavoro che verrà eseguito per un progetto. È una gerarchia di attività che rappresenta la conoscenza da parte del team di progetto della composizione del lavoro e delle dimensione, del costo e della durata di ciascun componente o attività."
+description: Una struttura di suddivisione del lavoro è una descrizione del lavoro che verrà eseguito per un progetto. È una gerarchia di attività che rappresenta la conoscenza da parte del team di progetto della composizione del lavoro e delle dimensione, del costo e della durata di ciascun componente o attività.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358901"
 ---
-
 # <a name="work-breakdown-structures"></a>Strutture di suddivisione del lavoro
 
 [!include [banner](../includes/banner.md)]
@@ -90,7 +89,7 @@ Creare una scomposizione o suddivisione del lavoro è in genere il primo passagg
 
 **Nuova attività** Qualsiasi nuova attività creata viene automaticamente aggiunta al di sotto del nodo principale e un numero di struttura di suddivisione del lavoro viene automaticamente assegnata all'attività. Il numero di struttura di suddivisione del lavoro rappresenta il livello di attività nella gerarchia. Per le attività nel primo livello sotto l'attività principale del progetto, viene utilizzato uno schema di numerazione 1, 2, 3 e così via. Per le attività sottostanti il primo livello, viene utilizzato uno schema di numerazione 1.1, 1.2, 1.3 e così via. Per ciascun livello aggiunto sotto a un livello precedente, viene aggiunta una nuova serie di numeri preceduti da un punto. 
 
-Attualmente, non è possibile personalizzare la numerazione delle strutture di suddivisione del lavoro. 
+Attualmente, non è possibile personalizzare la numerazione delle strutture di suddivisione del lavoro. 
 
 **Rientro attività** Quando applica un rientro un'attività, questa diventa figlio dell'attività che la precede. Il numero della struttura di suddivisione del lavoro di una nuova attività figlio verrà ricalcolato automaticamente in base al numero della struttura di suddivisione del lavoro della nuova attività padre. L'attività padre ora è un'attività contenitore o di riepilogo e quindi diventa un rollup delle attività costitutive. 
 
@@ -103,10 +102,10 @@ Attualmente, non è possibile personalizzare la numerazione delle strutture di s
 
 ### <a name="schedule-estimation"></a>Stima di programmazione
 
-La stima di programmazione è generalmente il secondo passaggio per la creazione di una struttura di suddivisione del lavoro. Come procedura consigliata, è necessario completare la stima della programmazione dopo aver creato le attività. La pagina **Struttura di suddivisione del lavoro** in Finance and Operations ha due sezioni. Il riquadro superiore è destinato alla stima della programmazione e il riquadro inferiore include una scheda **Costi e ricavi stimati** da utilizzare per la stima dei costi. 
+La stima di programmazione è generalmente il secondo passaggio per la creazione di una struttura di suddivisione del lavoro. Come procedura consigliata, è necessario completare la stima della programmazione dopo aver creato le attività. La pagina **Struttura di suddivisione del lavoro** in Finance and Operations ha due sezioni. Il riquadro superiore è destinato alla stima della programmazione e il riquadro inferiore include una scheda **Costi e ricavi stimati** da utilizzare per la stima dei costi. 
 **Dipendenze attività** In una struttura di suddivisione del lavoro, è possibile creare una relazione delle attività precedenti tra le attività. Quando si assegnano le attività precedenti a un'attività, tale attività può iniziare solo dopo che tutte le relative attività precedenti sono completate. La data di inizio pianificata dell'attività viene automaticamente impostata sulla data più recente di tutte le relative attività precedenti. 
 
-**Programmazione attività in Microsoft Dynamics 365 for Finance and Operations** I fattori seguenti determinano la programmazione delle attività del nodo foglia:
+**Programmazione attività in Microsoft Dynamics 365 for Finance and Operations** I fattori seguenti determinano la programmazione delle attività del nodo foglia:
 
 -   Attività precedenti
 -   Risorsa
@@ -167,7 +166,7 @@ Il costo e il prezzo di vendita per ogni riga di stima di spesa o manodopera son
 ## <a name="tracking-progress-on-the-wbs"></a>Lo stato di avanzamento nella struttura di suddivisione del lavoro
 Alcuni settori tengono traccia dello stato di avanzamento di un progetto a un livello molto granulare nella struttura di suddivisione del lavoro, mentre altri tengono traccia dello stato di avanzamento a un livello più alto della struttura di suddivisione del lavoro. In questa sezione viene descritto come utilizzare la tracciabilità dello stato di avanzamento nella struttura di suddivisione del lavoro in base ai requisiti del progetto. 
 
-Finance and Operations ha tre visualizzazioni per la struttura di suddivisione del lavoro in un progetto: la Visualizzazione pianificazione, la Visualizzazione tracciabilità risorse e costo e la Visualizzazione tracciabilità costi.
+Finance and Operations ha tre visualizzazioni per la struttura di suddivisione del lavoro in un progetto: la Visualizzazione pianificazione, la Visualizzazione tracciabilità risorse e costo e la Visualizzazione tracciabilità costi.
 
 ### <a name="planning-view"></a>Visualizzazione pianificazione
 
@@ -243,18 +242,18 @@ La scala cronologica nel grafico del valore ottenuto viene visualizzata per sett
 
 **Valore pianificato** In base alla teoria EVM il tracciato del valore pianificato rappresenta la velocità a cui il team del progetto ha pianificato di ottenere il valore del progetto. 
 
-Finance and Operations utilizza la regola 0:100 per tracciare il valore pianificato. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
+Finance and Operations utilizza la regola 0:100 per tracciare il valore pianificato. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
 
 In Gestione progetti e contabilità, è possibile immettere la data di fine dei nodi foglia e il relativo costo pianificato. Quando il grafico del valore pianificato viene visualizzato per settimana, il valore pianificato è riepilogato per settimana per tutte le attività del nodo foglia per la durata del progetto. 
 
 **Valore ottenuto** In base alla teoria EVM il tracciato del valore ottenuto rappresenta la velocità a cui il team del progetto ottiene effettivamente il valore del progetto. 
 
-Finance and Operations utilizza la regola 0:100 per tracciare il valore ottenuto. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
+Finance and Operations utilizza la regola 0:100 per tracciare il valore ottenuto. In base alla regola, il valore dell'attività viene registrato nell'attività a partire dalla relativa data di fine. Nessun valore viene registrato finché l'attività non è completata al 100 percento. 
 
 Quando il valore ottenuto viene calcolato, la percentuale dello stato di avanzamento di ogni attività viene considerata. Nella regola 0:100, solo le attività completate in un periodo specificato vengono considerate per il calcolo del valore ottenuto a partire dalla fine del periodo. Il valore ottenuto del progetto viene calcolato per tutte le attività che sono state completate quando il diagramma viene creato. 
 
 > [!NOTE] 
-> Attualmente il sistema per la tracciabilità nella struttura di suddivisione del lavoro non dispone di strutture di dati per archiviare le percentuali di avanzamento storiche in ogni attività. Pertanto, il valore ottenuto può essere dichiarato solo a partire dal momento in cui il cubo viene elaborato. Elaborare regolarmente il cubo per aggiornare i dati del valore ottenuto visualizzati nel Centro gestione ruolo. 
+> Attualmente il sistema per la tracciabilità nella struttura di suddivisione del lavoro non dispone di strutture di dati per archiviare le percentuali di avanzamento storiche in ogni attività. Pertanto, il valore ottenuto può essere dichiarato solo a partire dal momento in cui il cubo viene elaborato. Elaborare regolarmente il cubo per aggiornare i dati del valore ottenuto visualizzati nel Centro gestione ruolo. 
 
 **Costo effettivo** In base alla teoria EVM il tracciato del costo effettivo rappresenta la velocità a cui il denaro viene speso nel progetto. 
 
@@ -314,7 +313,6 @@ Lavoro richiesto = Numero di risorse × Durata × Numero di ore in un giorno lav
 È possibile correggere tutti gli errori di programmazione contemporaneamente facendo clic su **Correggi tutti gli errori di programmazione**. 
 
 In alternativa, è possibile correggere gli errori di programmazione singolarmente facendo clic sull'icona di avviso per ogni attività.
-
 
 
 

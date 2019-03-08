@@ -1,13 +1,13 @@
 ---
 title: Prerequisiti per la conversione in costo standard
-description: "In questo argomento vengono illustrate le attività da completare prima di eseguire una conversione in costo standard."
+description: In questo argomento vengono illustrate le attività da completare prima di eseguire una conversione in costo standard.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351932"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Prerequisiti per la conversione in costo standard
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Prima di eseguire una conversione in costo standard, completare i seguenti passa
 
         Con una scomposizione dei costi attiva, l'attivazione del costo di un articolo prodotto determina l'archiviazione della segmentazione dei gruppi di costi nel record del costo dell'articolo. Se non si immette alcun valore nel campo **Scomposizione costi**, non verrà eseguita la segmentazione per gruppi di costi per le voci di costo standard. Il costo standard di un articolo prodotto verrà pertanto calcolato e gestito come singolo importo, senza segmentazione per gruppi di costi e i contributi costi dei componenti prodotti verranno aggregati nell'importo singolo.
     -   Impostare il campo **Scostamenti rispetto a standard** su Riepilogo o Per gruppo di costo. L'opzione Per gruppo di costo consente di identificare gli scostamenti dei prezzi di acquisto e gli scostamenti produzione per gruppo di costi, nonché di identificare i quattro tipi di scostamenti produzione, ovvero Scostamento dimensioni lotto, Scostamento quantità, Scostamento prezzi e Scostamento sostitutivo. Se si seleziona Riepilogo, non sarà possibile identificare gli scostamenti per gruppo di costi né identificare i quattro tipi di scostamenti produzione. Sarà possibile visualizzare solo uno scostamento produzione riepilogativo. I criteri relativi allo scostamento rispetto al costo standard sono indipendenti dai criteri di scomposizione dei costi. È possibile pertanto impostare il criterio di scomposizione dei costi su nessuno e gli scostamenti su Per gruppo di costo in modo che vengano comunque acquisiti gli scostamenti produzione per gruppo di costi.
-
 
 
 

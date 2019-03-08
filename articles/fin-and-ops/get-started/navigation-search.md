@@ -1,13 +1,13 @@
 ---
 title: Ricerca per navigazione
-description: "Questo argomento illustra come utilizzare la funzionalità di ricerca per esplorare le pagine in Microsoft Dynamics 365 for Finance and Operations."
+description: Questo argomento illustra come utilizzare la funzionalità di ricerca per esplorare le pagine in Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353013"
 ---
-
 # <a name="navigation-search"></a>Ricerca per navigazione
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ L'elenco dei risultati della ricerca è limitato a 10 voci. Se nei risultati non
 ## <a name="development"></a>Sviluppo
 
 Dal punto di vista dello sviluppo, la funzionalità di ricerca di navigazione è semplice da utilizzare poiché di fatto non esiste alcun ritardo tra la distribuzione delle voci di menu e la loro capacità di apparire nei risultati della ricerca. A condizione che il collegamento alle voci di menu sia stabilito sia tramite il pannello di navigazione che il dashboard, tali voci diventeranno automaticamente esplorabili.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: " Configurazioni dei parametri per rendiconti di vendita al dettaglio"
-description: "In questa procedura sono illustrate le configurazioni per i parametri di vendita al dettaglio che interessano la modalità di creazione e registrazione dei rendiconti di vendita al dettaglio."
+description: In questa procedura sono illustrate le configurazioni per i parametri di vendita al dettaglio che interessano la modalità di creazione e registrazione dei rendiconti di vendita al dettaglio.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6dacd2b80ca0d51d81d2bdf5bc2636b47da621ee
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 0c93633e92221264cc6a67c74d62edaa59bdbd2f
-ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352622"
 ---
 # <a name="parameter-configurations-for-retail-statements"></a> Configurazioni dei parametri per rendiconti di vendita al dettaglio
 
@@ -42,5 +42,4 @@ In questa procedura sono illustrate le configurazioni per i parametri di vendita
     * Selezionare "Sì" per creare ed elaborare gli ordini in parallelo quando i rendiconti vengono registrati.  
     * Immettere il numero massimo di ordini da elaborare in ogni attività di processo batch.  
 3. Fare clic su Salva.
-
 

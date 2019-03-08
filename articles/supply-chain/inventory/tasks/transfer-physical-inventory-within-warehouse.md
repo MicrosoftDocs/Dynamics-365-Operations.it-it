@@ -1,13 +1,13 @@
---- 
+---
 title: Trasferire l'inventario fisico all'interno del magazzino
 description: In questa procedura vengono descritti i passaggi per creare e registrare un giornale di registrazione trasferimento scorte in modo da registrare lo spostamento di un articolo da un'ubicazione di un magazzino a un'altra.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 79b3e91be8aeab10188b6d3925d44a9ec1106406
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bfba69731a4897906d08ff9fb9ce69e79121efeb
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367296"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Trasferire l'inventario fisico all'interno del magazzino
 
@@ -68,5 +68,4 @@ In questa procedura vengono descritti i passaggi per creare e registrare un gior
 1. Fare clic su Scorte.
 2. Fare clic su Transazioni.
     * È possibile visualizzare le transazioni create quando è stato registrato il giornale di registrazione.  
-
 

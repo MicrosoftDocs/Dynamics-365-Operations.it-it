@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 675a7a8b0da228e789ee37ca8fe1d0c0ea01c283
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358763"
 ---
-
 # <a name="purchasing-policies"></a>Criteri acquisto
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ La regola di consolidamento domanda e creazione ordini fornitore definisce le re
     -   **Non consentire consolidamento domanda** - Nessuna riga della richiesta di acquisto è idonea per il consolidamento della domanda. Questa opzione è selezionata per impostazione predefinita e si applica solo alle righe di richiesta di acquisto che richiedono l'elaborazione manuale per la creazione dell'ordine fornitore.
     -   **Consenti sempre consolidamento domanda** - Tutte le righe della richiesta di acquisto sono idonee per il consolidamento della domanda. **Nota:** se si seleziona l'opzione **Consenti sempre consolidamento domanda** nella scheda **Consolidamento domanda** ma si seleziona l'opzione **Crea automaticamente ordini fornitore** nella scheda **Creazione manuale ordini fornitore**, tutte le richieste di acquisto vengono conservate per l'elaborazione manuale.
     -   **Consenti consolidamento domanda in queste condizioni** - Definire i criteri che determinano se le righe della richiesta di acquisto approvata sono idonee al consolidamento della domanda. Per ogni tipo di riga di richiesta di acquisto è possibile impostare i criteri in base alla categoria di approvvigionamento e al fornitore. Se si seleziona **Consenti consolidamento domanda in queste condizioni**, è possibile impostare i criteri in base alla categoria di approvvigionamento e al fornitore per ciascun tipo di riga della richiesta di acquisto. Quando si seleziona una categoria di approvvigionamento, vengono selezionate anche tutte le sottocategorie definite per tale categoria di approvvigionamento. Se si seleziona l'opzione **Tutte** per un tipo di riga specifico, tutte le righe della richiesta di acquisto di tale tipo saranno idonee per il consolidamento della domanda.
-
 
 
 

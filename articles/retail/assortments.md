@@ -5,9 +5,9 @@ author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365042"
 ---
-
 # <a name="assortment-management"></a>Gestione dell'assortimento
 
 [!include [banner](../includes/banner.md)]
@@ -108,4 +107,3 @@ Considerare i seguenti requisiti di implementazione quando si pianificano e si g
 - **Vendite e resi esterni agli assortimenti** - Questa funzionalità aiuta i rivenditori a gestire con efficacia gli assortimenti consentendo loro di limitare i prodotti disponibili a quelli appartenenti alla combinazione di prodotti di base per il punto vendita. Questa funzione consente inoltre ai rivenditori di gestire situazioni in cui un prodotto è stato omesso erroneamente da un assortimento o in cui un prodotto viene restituito al di fuori delle date di validità per l'assortimento.
 
 Se i dati del prodotto non sono presenti nel database del canale, il POS effettua le chiamate in tempo reale alla sede centrale per recuperare le informazioni necessarie, in modo che il prodotto possa essere venduto, restituito o aggiunto a un ordine cliente. Le informazioni sul prodotto recuperate in questo modo sono disponibili solo nell'ambito della transazione. Il prodotto non viene aggiunto alla definizione dell'assortimento. Di conseguenza, le chiamate in tempo reale successive verranno eseguite in base alle esigenze.
-

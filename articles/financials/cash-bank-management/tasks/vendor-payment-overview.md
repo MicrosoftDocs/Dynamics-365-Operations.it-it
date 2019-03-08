@@ -1,13 +1,13 @@
---- 
+---
 title: Panoramica pagamenti fornitore
-description: "Questa guida attività descrive i vari metodi utilizzati per creare i pagamenti fornitore, ad esempio come utilizzare una proposta di pagamento o immettere manualmente un pagamento occasionale."
+description: Questa guida attività descrive i vari metodi utilizzati per creare i pagamenti fornitore, ad esempio come utilizzare una proposta di pagamento o immettere manualmente un pagamento occasionale.
 author: kweekley
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d892366a11edcd92f34f37b3e855631820ba816b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
-ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
-ms.contentlocale: it-it
-ms.lasthandoff: 10/30/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359959"
 ---
 # <a name="vendor-payment-overview"></a>Panoramica pagamenti fornitore
 
@@ -76,5 +76,4 @@ Questa guida attività descrive i vari metodi utilizzati per creare i pagamenti 
 32. Fare clic su OK.
 33. Fare clic su OK per generare i pagamenti.
 34. Fare clic su Registra se tutti i pagamenti sono approvati e generati. 
-
 

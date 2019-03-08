@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368147"
 ---
-
 # <a name="financial-report-components"></a>Componenti del report finanziario
 
 [!include [banner](../includes/banner.md)]
@@ -82,7 +81,7 @@ I blocchi predefiniti sono le definizioni di riga, le definizioni di colonna, le
 
 ### <a name="export-a-building-block-group"></a>Esportare un gruppo di blocchi predefiniti
 
-È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti di report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il gruppo di blocchi predefiniti esportato come backup. È inoltre possibile copiare i dati esportati tra installazioni di Finance and Operations. La funzionalità di progettazione report include gli stili di carattere e i set di dimensioni di riferimento con il gruppo di blocchi predefiniti.
+È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti di report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il gruppo di blocchi predefiniti esportato come backup. È inoltre possibile copiare i dati esportati tra installazioni di Finance and Operations. La funzionalità di progettazione report include gli stili di carattere e i set di dimensioni di riferimento con il gruppo di blocchi predefiniti.
 
 1. In Progettazione report, menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
 2. Nella finestra di dialogo **Gruppi di blocchi predefiniti** selezionare il gruppo che si desidera esportare e quindi fare clic su **Esporta**.
@@ -128,4 +127,3 @@ Quando si apre un blocco predefinito, gli utenti possono accedere al blocco pred
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-

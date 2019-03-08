@@ -1,14 +1,14 @@
 ---
-title: "Attività nei processi"
-description: "Di seguito vengono descritti i vari tipi di attività da utilizzare nel processo di assunzione."
-author: 
+title: Attività nei processi
+description: Di seguito vengono descritti i vari tipi di attività da utilizzare nel processo di assunzione.
+author: ''
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
-ms.contentlocale: it-it
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374759"
 ---
-
 # <a name="activities-in-the-hiring-processes"></a>Attività nei processi di assunzione
 
 [!include[banner](../includes/banner.md)]
 
-Le attività è possibile aggiungere come parte del processo di assunzione in  Microsoft Dynamics 365 for Talent - Attract. Le attività possono essere aggiunte a un modello di processo, oppure possono essere aggiunte direttamente al processo di assunzione nella mansione. Quando viene definita una mansione, viene selezionato un modello di processo e le attività incluse nel modello verranno applicati al mansione. Se un modello non è selezionata, il modello predefinito viene utilizzato. Il processo di assunzione può anche essere modificato nella mansione dopo che il modello è applicato.
+Le attività è possibile aggiungere come parte del processo di assunzione in Microsoft Dynamics 365 for Talent: Attract. Le attività possono essere aggiunte a un modello di processo, oppure possono essere aggiunte direttamente al processo di assunzione nella mansione. Quando viene definita una mansione, viene selezionato un modello di processo e le attività incluse nel modello verranno applicati al mansione. Se un modello non è selezionata, il modello predefinito viene utilizzato. Il processo di assunzione può anche essere modificato nella mansione dopo che il modello è applicato.
 
 > [!NOTE] 
 > I modelli di processo sono disponibili con il componente aggiuntivo per l'assunzione a livello globale.
@@ -43,31 +42,9 @@ L'attività di prospect controlla se i prospect possano essere aggiunte a una ma
 
 L'attività per domande di lavoro è necessaria nel modello di processo di assunzione. Per inviare messaggi di posta elettronica ai candidati quando presentano la domanda di lavoro o vengono aggiunti alla fase domanda di lavoro, impostare l'opzione **Invia messaggio di posta elettronica al candidato** su **Attivato**.
 
-## <a name="scheduler-activity"></a>Attività programmazione
+## <a name="interview-schedule-and-feedback-activity"></a>Attività di programmazione e riscontro del colloquio
 
-L'attività programmazione è facoltativa. Questa attività ha due componenti: Disponibilità candidato e Programmazione. Componente Disponibilità candidato consente di utilizzare la posta elettronica per richiedere la disponibilità del candidato. Il componente Programmazione consente di programmare i colloqui con il candidato e il team di assunzione. Nell'attività programmazione, le seguenti opzioni è possibile configurare: **Richiedi disponibilità candidato**, **Riunione online** e **Invia messaggio di posta elettronica al candidato**.
-
-- Per inviare messaggi di posta elettronica ai candidati per richiedere la disponibilità, impostare l'opzione **Richiedi disponibilità candidato** su **Attivato**. Se si imposta su **Disattivato**, questo passaggio non verrà visualizzato nel processo di assunzione nella mansione.
-- Per streaming in diretta o teleconferenza utilizzando Skype for Business, impostare il campo **Riunione online** su **Skype for Business**. Il collegamento corretto **Partecipa a riunione Skype** verrà aggiunto nella richiesta di riunione di colloquio inviata ai responsabili del colloquio.
-- Per inviare messaggi di posta elettronica ai candidati per finalizzare la programmazione, impostare l'opzione **Invia messaggio di posta elettronica al candidato** su **Attivato**. Se si imposta su **Disattivato**, candidati riceveranno il programma dei colloqui solo quando accedono al portale del candidato.
-
-## <a name="feedback-activity"></a>Attività di riscontro
-
-L'attività di riscontro è facoltativa. Questa attività consente ai partecipanti al colloquio di fornire indicazioni per un candidato. Possono inoltre immettere qualsiasi commento. Se viene attivata l'opzione **Eredita i partecipanti di riscontro dal team di assunzione**, il selezionatore, il responsabile delle assunzioni e quelli del colloquio vengono immessi automaticamente nell'attività di riscontro. Le organizzazioni possono consentire ai responsabili del colloquio di visualizzare il riscontro di altre persone prima di inviare la propria riscontro. Le organizzazioni possono inoltre possibile consentire ai responsabili del colloquio di modificare il riscontro dopo averlo inviato.
-
-## <a name="interview-activity"></a>Attività di colloquio
-
-L'attività di colloquio è facoltativa. Questa attività ha tre componenti: Disponibilità candidato, Programmazione e Riscontro. Componente Disponibilità candidato consente di utilizzare la posta elettronica per richiedere la disponibilità del candidato. Il componente Programmazione consente di programmare i colloqui con il candidato e il team di assunzione. Nell'attività programmazione, le seguenti opzioni è possibile configurare: **Richiedi disponibilità candidato**, **Riunione online** e **Invia messaggio di posta elettronica al candidato**.
-
-- Per inviare messaggi di posta elettronica ai candidati per richiedere la disponibilità, impostare l'opzione **Richiedi disponibilità candidato** su **Attivato**. Se si imposta su **Disattivato**, questo passaggio non verrà visualizzato nel processo di assunzione nella mansione.
-- Per streaming in diretta o teleconferenza utilizzando Skype for Business, impostare il campo **Riunione online** su **Skype for Business**. Il collegamento corretto **Partecipa a riunione Skype** verrà aggiunto nella richiesta di riunione di colloquio.
-- Per inviare messaggi di posta elettronica ai candidati per finalizzare la programmazione, impostare l'opzione **Invia messaggio di posta elettronica al candidato** su **Attivato**. Se si imposta su **Disattivato**, candidati riceveranno il programma dei colloqui solo quando accedono al portale del candidato.
-
->[!NOTE]
-> - Per tutti i colloqui 1:1, i promemoria vengono inviati ai responsabili del colloquio ogni 24 ore se il responsabile del colloquio non ha risposto (accettato o rifiutato) alla richiesta di colloquio.
-> - Per tutte le panel interview, non sono disponibili promemoria automatici per rispondere alla richiesta di colloquio. Per attivare manualmente un promemoria, modificare il colloquio e utilizzare l'opzione **Aggiorna e invia** per inviare la richiesta agli intervistatori.
-
-Nel componente Riscontro le persone forniscono suggerimenti per un candidato. Possono inoltre immettere qualsiasi commento. Se viene attivata l'opzione **Eredita i partecipanti di riscontro dal team di assunzione**, il selezionatore, il responsabile delle assunzioni e quelli del colloquio vengono immessi automaticamente nel componente Riscontro. Le organizzazioni possono consentire ai responsabili del colloquio di visualizzare il riscontro di altre persone prima di inviare la propria riscontro. Le organizzazioni possono inoltre possibile consentire ai responsabili del colloquio di modificare il riscontro dopo averlo inviato.
+Questa attività ha tre componenti: Richiedi disponibilità candidato, Programmazione e Riscontro. Utilizzare l'attività di colloquio nel modello posizioni lavorative se si desidera includere la richiesta di disponibilità del candidato, la programmazione e il riscontro durante il processo anziché utilizzarle singolarmente durante il processo di assunzione. Per ulteriori informazioni, vedere [Programmazione e riscontro del colloquio](interview-scheduling-feedback.md).
 
 ## <a name="powerapps-activity"></a>Attività PowerApps
 
@@ -102,4 +79,3 @@ In Microsoft Forms, gli autori possono modificare le relative impostazioni per c
 
 > [!NOTE]
 > L'attività Microsoft Forms è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale.
-

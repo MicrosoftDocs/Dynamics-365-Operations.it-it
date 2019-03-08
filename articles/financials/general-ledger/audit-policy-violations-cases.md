@@ -1,13 +1,13 @@
 ---
 title: Casi e violazioni dei criteri di controllo
-description: "L'articolo illustra come i casi di controllo vengono generati dalle violazioni delle regole dei criteri di controllo. Include inoltre le informazioni sulle varie modalità in cui i criteri di controllo utilizzano l'intervallo di date per la selezione dei documenti."
+description: L'articolo illustra come i casi di controllo vengono generati dalle violazioni delle regole dei criteri di controllo. Include inoltre le informazioni sulle varie modalità in cui i criteri di controllo utilizzano l'intervallo di date per la selezione dei documenti.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c3ed72f829ca4060fe0a4c03b6d4a47a98cdebd6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2376a1d6e86eba9f5021cc08dcfaea52f131a3d7
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352530"
 ---
-
 # <a name="audit-policy-violations-and-cases"></a>Casi e violazioni dei criteri di controllo
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Di seguito sono riportate altre modalità in cui un criterio di controllo utiliz
 
 
 Per ulteriori informazioni, vedere [Regole dei criteri di controllo](audit-policy-rules.md)
-
 
 
 

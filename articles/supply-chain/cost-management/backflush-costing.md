@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9fe717752da4c697cf0d896c0d40832330f0d118
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352714"
 ---
-
 # <a name="backflush-costing"></a>Determinazione costi di tipo backflush
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Per i prodotti forniti al di fuori da un flusso di produzione, il calcolo DBA de
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Calcolo basato sul flusso di lavoro.
 
-La lean manufacturing per Microsoft Dynamics 365 for Finance and Operations è indipendente dai cicli di lavorazione. Il calcolo dei costi per i prodotti forniti da un flusso di produzione può essere basato sul flusso di produzione stesso. Prima che il calcolo possa essere effettuato, è necessario creare una regola kanban che fornisce il prodotto dal flusso di produzione. Se un prodotto può essere fornito da più flussi di produzione allo stesso sito alla data di calcolo, è possibile selezionare il flusso di produzione per il calcolo DBA. Nella pagina **Flusso di produzione predefinito**, è possibile configurare un flusso di produzione predefinito per ciascun articolo. Se esistono più regole kanban per lo stesso prodotto nello stesso flusso di produzione attivo nella data di calcolo, il calcolo seleziona la prima regola kanban attiva per il calcolo.
+Il Lean manufacturing per Microsoft Dynamics 365 for Finance and Operations è indipendente dai cicli di lavorazione. Il calcolo dei costi per i prodotti forniti da un flusso di produzione può essere basato sul flusso di produzione stesso. Prima che il calcolo possa essere effettuato, è necessario creare una regola kanban che fornisce il prodotto dal flusso di produzione. Se un prodotto può essere fornito da più flussi di produzione allo stesso sito alla data di calcolo, è possibile selezionare il flusso di produzione per il calcolo DBA. Nella pagina **Flusso di produzione predefinito**, è possibile configurare un flusso di produzione predefinito per ciascun articolo. Se esistono più regole kanban per lo stesso prodotto nello stesso flusso di produzione attivo nella data di calcolo, il calcolo seleziona la prima regola kanban attiva per il calcolo.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Calcolo basato sul ciclo di lavorazione
 
@@ -122,7 +121,6 @@ In fine, le unità movimentazione kanban possono essere assegnate (= in lavorazi
     -   Tutti i costi indiretti calcolati per il materiale consumato durante il periodo vengono calcolati e sottratti dal WIP. I costi indiretti rimanenti vengono registrati come scostamento.
 
 5.  Calcolare gli scostamenti di produzione a costo standard. Lo scostamento viene calcolato per gruppo di costi.
-
 
 
 

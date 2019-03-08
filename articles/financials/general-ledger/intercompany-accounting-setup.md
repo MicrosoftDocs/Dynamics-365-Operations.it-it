@@ -1,13 +1,13 @@
 ---
-title: "Configurazione della contabilità interaziendale"
-description: "Questo articolo illustra come impostare la contabilità interaziendale in modo da poter utilizzare i giornali di registrazione interaziendali per allocazioni contabili e giornali di registrazione finanziari, ad esempio giornali di registrazione giornalieri, giornali di registrazione fatture fornitore e giornali di registrazione pagamenti."
+title: Configurazione della contabilità interaziendale
+description: Questo articolo illustra come impostare la contabilità interaziendale in modo da poter utilizzare i giornali di registrazione interaziendali per allocazioni contabili e giornali di registrazione finanziari, ad esempio giornali di registrazione giornalieri, giornali di registrazione fatture fornitore e giornali di registrazione pagamenti.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ce07a29d7aa5057d0b61c7fcc6bb87a0a2755fc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48e0b00e2a9bd1a1387780747e1976bd386200eb
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363984"
 ---
-
 # <a name="intercompany-accounting-setup"></a>Configurazione della contabilità interaziendale
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Selezionare **Conto in Dare (dovuto da)** e **Conto in Avere (dovuto a)** per en
 Infine, selezionare la persona giuridica che riceverà la contabilità per gli importi di supporto, ad esempio come sconto di cassa o le perdite/i profitti realizzati per i pagamenti centralizzati. 
 
 Una relazione reciproca può essere configurata in modo semplice nella pagina **Contabilità interaziendale** utilizzando il pulsante **Crea relazione reciproca** dopo la creazione della prima coppia di persone giuridiche. Quando la coppia reciproca viene creata, le informazioni relative alla società di destinazione vengono copiate nella società di origine e viceversa. Il giornale di registrazione definito per la società di destinazione rimarrà. La maggior parte delle organizzazioni utilizza la stessa convenzione di denominazione per i propri nomi di giornale di registrazione, in modo che il nome del giornale di registrazione sia lo stesso. Se il nome del giornale di registrazione è diverso, verrà visualizzato un avviso nel campo per segnalare che il giornale di registrazione non esiste e che è possibile selezionare un giornale di registrazione diverso.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Sincronizzare le attività di progetto direttamente da Project Service Automation a Finance and Operations"
-description: "Questo argomento descrive il modello e l'attività sottostante che vengono utilizzati per sincronizzare le attività del progetto direttamente da Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations."
+title: Sincronizzare le attività di progetto direttamente da Project Service Automation a Finance and Operations
+description: Questo argomento descrive il modello e l'attività sottostante che vengono utilizzati per sincronizzare le attività del progetto direttamente da Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 53e4eab0d455af4ac1e17754f31d46458db742c3
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355175"
 ---
-
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizzare le attività di progetto direttamente da Project Service Automation a Finance and Operations
 
 [!include[banner](../includes/banner.md)]
@@ -84,4 +83,3 @@ Se è necessario utilizzare Power Query, seguire queste indicazioni:
 Nella figura seguente viene mostrato un esempio dei mapping delle attività di modello in Integrazione dati. Il mapping mostra le informazioni di campo che verranno sincronizzate da Project Service Automation a Finance and Operations.
 
 [![Mapping del modello](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-

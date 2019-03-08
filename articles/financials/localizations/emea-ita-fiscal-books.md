@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, LedgerJournalSetup, ProjJournalName, TaxBook, TaxBookSection, TaxBookSectionLookupVoucherSeries, TaxBookStatus, TaxBookTable, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 109b6c10d49f735ef4e750a2737304903d0c011a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 40b17919c8f6801249128d60ab78774cf51bbc01
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370990"
 ---
-
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 
 [!include [banner](../includes/banner.md)]
@@ -232,7 +231,6 @@ Quando l'impostazione viene completata, i sezionali IVA vengono visualizzati nel
 -   Parametri Gestione progetti e contabilità
 
 I numeri di giustificativo assegnati durante la registrazione devono essere ordinati in sequenza in base alla data di registrazione e le transazioni IVA con lo stesso codice di sequenza numerica devono essere registrate in ordine. Se i numeri di giustificativo non vengono ordinati in sequenza, viene visualizzato un messaggio di errore. Inoltre, se una transazione IVA non viene assegnata ad alcun sezionale IVA durante l'aggiornamento di una fattura, la registrazione verrà interrotta. Ogni volta che un giustificativo viene registrato utilizzando un sezionale IVA, gli identificatori del libro IVA e del sezionale IVA correlati vengono salvati nelle transazioni IVA. Fare clic su  **Imposta** &gt; **Richieste di informazioni su IVA** &gt; **IVA registrata**, quindi fare clic sulla scheda **Registrazione**. Questi dati possono quindi essere utilizzati durante il reporting IVA. I libri IVA italiani vengono utilizzati per filtrare, raggruppare e ordinare il report accessibile in **Imposta** &gt; **Dichiarazioni** &gt; **IVA** &gt; **IVA (Italia)**.
-
 
 
 

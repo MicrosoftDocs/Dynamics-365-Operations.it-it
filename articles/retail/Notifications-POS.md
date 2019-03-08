@@ -5,9 +5,9 @@ author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361339"
 ---
-
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Visualizzare le notifiche degli ordini nel POS
 
 [!include [banner](includes/banner.md)]
@@ -72,4 +71,3 @@ La seguente illustrazione mostra le impostazioni del contenuto in diretta nella 
 La seguente illustrazione mostra l'effetto della selezione di **Destra in alto** rispetto a **Centro** nel campo **Allineamento contenuto** per pulsanti di varie dimensioni.
 
 ![Contenuto in diretta su pulsanti POS](./media/ButtonsWithLiveContent.png "Contenuto in diretta su pulsanti POS")
-

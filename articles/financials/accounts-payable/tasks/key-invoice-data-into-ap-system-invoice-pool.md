@@ -1,13 +1,13 @@
---- 
-title: "Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture"
-description: "Questa guida attività indicherà come utilizzare il registro fatture per creare le fatture."
+---
+title: Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture
+description: Questa guida attività indicherà come utilizzare il registro fatture per creare le fatture.
 author: abruer
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4b4e9a52a383d4acc0bf2adc669fd88c0c0f7402
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96040b1c1ba130f773ba0defbf7bf1dcebedfc13
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357452"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture
 
@@ -77,5 +77,4 @@ Questa guida attività indicherà come utilizzare il registro fatture per creare
 14. Fare clic su Transazioni.
 15. Selezionare la fattura creata.
     * Il rateo del registro fatture è stato stornato e registrato nel conto spese appropriato.  
-
 

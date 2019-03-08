@@ -1,13 +1,13 @@
---- 
+---
 title: Eseguire i formati per utilizzare i file di gestione documenti nell'output di ER
-description: "I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici."
+description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364789"
 ---
 # <a name="run-formats-to-use-document-management-files-in-er-output"></a>Eseguire i formati per utilizzare i file di gestione documenti nell'output di ER
 
@@ -69,5 +69,4 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 10. Fare clic su OK.
 11. Fare clic su OK.
     * Esaminare l'output generato. Tenere presente che per ogni collegato un singolo nodo XML è stato creato. Il contenuto dell'allegato viene popolato nell'output XML in formato testo MIME (base64).  
-
 

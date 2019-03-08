@@ -1,13 +1,13 @@
 ---
-title: Contenuto Power BI per prestazioni di vendita e profitto
-description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI Prestazioni di vendita e redditività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
+title: Contenuto Power BI per prestazioni di vendite e redditività
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Prestazioni di vendita e redditività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360419"
 ---
-
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di vendita e profitto
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di vendite e redditività
 
 [!include [banner](../includes/banner.md)]
 
@@ -52,7 +51,7 @@ La redditività può essere analizzata nei seguenti modi:
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 Il contenuto di Power BI **Prestazioni di vendita e redditività** viene mostrato nella pagina **Prestazioni di vendita e redditività** (**Vendite e marketing** \> **Richieste di informazioni e report** \> **Analisi delle prestazioni di vendita** \> **Prestazioni di vendita e redditività**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
+## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto di Power BI **Prestazioni di vendita e redditività** include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto.
 
 | Pagina di report            | Grafici                                     | Riquadri                                                   |
@@ -80,7 +79,7 @@ Il contenuto di Power BI **Prestazioni di vendita e redditività** include un re
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 I seguenti dati vengono utilizzati per compilare il report nel contenuto Power BI **Prestazioni di vendita e redditività**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
-Le misure di aggregazione in questo contenuto sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Vendite in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità nel post di blog [Integrazione di Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
+Le misure di aggregazione in questo pacchetto di contenuti sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Vendite in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità nel post del blog [Integrazione di  Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
 Le seguenti misure di aggregazione chiave dell'entità delle righe della fattura sono utilizzate come base del contenuto.
 
@@ -109,4 +108,3 @@ La seguenti dimensioni chiave nel cubo vendite vengono utilizzate come filtri pe
 | Appuntamenti            | Appuntamenti                                                |
 
 Per impostazione predefinita, il contenuto mostra i dati dell'anno di calendario corrente. Tuttavia, è possibile modificare il filtro della data nella sezione relativa ai filtri di report. È inoltre possibile modificare il filtro della società.
-

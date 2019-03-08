@@ -1,13 +1,13 @@
 ---
 title: Data di competenza per le transazioni
-description: "In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia."
+description: In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 1a4997cf1d1a17087fd29f1405ca15a19f62c044
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: feb88b88ad9cb65b8404ad68a25993bea9f41cdf
-ms.contentlocale: it-it
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370970"
 ---
-
 # <a name="competence-date-for-transactions"></a>Data di competenza per le transazioni
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Per attivare questa funzionalità per le transazioni, nella pagina **Parametri d
 -   Progetto - Volume d'affari accumulato
 -   Progetto - Stima registrata
 -   Progetto - Storna stima
-
 
 
 

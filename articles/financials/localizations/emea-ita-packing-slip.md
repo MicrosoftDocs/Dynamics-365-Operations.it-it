@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 04/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: e5000ba29b935bb574e50acbccc3bcfe96d0601e
 ms.openlocfilehash: 65d19fc7bc4a00542fa1fdf6c5f4cd44a12f39d8
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370946"
 ---
-
 # <a name="post-and-print-a-packing-slip-with-transportation-delivery-details-for-italy"></a>Registrare e stampare un documento di trasporto con dettagli di consegna di trasporto per l'Italia
 
 [!include[banner](../includes/banner.md)]
@@ -68,4 +67,3 @@ Se nella pagina **Registrazione documento di trasporto** non sono impostati i de
 9. Nei campi **Dichiarazioni aggiuntive**, **Note aggiuntive** e **Istruzioni aggiuntive** immettere tutte le informazioni aggiuntive da stampare nel documento di trasporto.
 10. Fare clic su **OK** per registrare e stampare il documento di trasporto con le informazioni correlate.
 11. Chiudere la pagina per salvare le modifiche.
-

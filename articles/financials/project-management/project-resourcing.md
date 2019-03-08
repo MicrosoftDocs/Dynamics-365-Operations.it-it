@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351656"
 ---
-
 # <a name="project-resourcing"></a>Risorse progetti
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento fornisce informazioni sull'assegnazione delle risorse a un progetto.
 
-Una delle problematiche dei manager di progetto e di risorse durante la fase di progettazione del progetto è l'allocazione delle risorse, fase in cui devono determinare e prenotare la risorsa corretta a un progetto. In Microsoft Dynamics 365 for Finance and Operations, le funzionalità di assegnazione risorse per i progetti consentono di definire i ruoli che vengono trattati come risorse temporanee prenotabili per un impegno specifico o per una parte dell'impegno. L'assegnazione delle risorse consente ai manager di progetto e di risorse di completare le seguenti attività:
+Una delle problematiche dei manager di progetto e di risorse durante la fase di progettazione del progetto è l'allocazione delle risorse, fase in cui devono determinare e prenotare la risorsa corretta a un progetto. In Microsoft Dynamics 365 for Finance and Operations, le funzionalità di assegnazione risorse per i progetti consentono di definire i ruoli considerati risorse temporanee prenotabili a un impegno specifico o a una parte dell'impegno. L'assegnazione delle risorse consente ai manager di progetto e di risorse di completare le seguenti attività:
 
 - Definire un ruolo con le competenze necessarie in modo da semplificare l'abbinamento delle risorse.
 - Utilizzare i ruoli per definire una programmazione di impegno iniziale basata sulle prenotazioni delle risorse.
@@ -351,4 +350,3 @@ Una volta completate le attività precedenti, è possibile completare le seguent
 ## <a name="monitor-project-teams"></a>Monitorare i team di progetto
 1. Nella pagina **Tutti i progetti**, selezionare il collegamento **ID progetto** per il progetto **Fase 2 di aggiornamento di XYZ**.
 2. Nella Scheda dettaglio **Team progetto e programmazione** verificare che le risorse del progetto elencate siano corrette.
-

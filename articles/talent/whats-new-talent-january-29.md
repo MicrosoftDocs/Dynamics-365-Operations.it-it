@@ -1,0 +1,45 @@
+---
+title: Novità o modifiche in Dynamics 365 for Talent (31 gennaio 2019)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+author: Darinkramer
+manager: AnnBe
+ms.date: 1/31/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2019-01-29
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: 5c9449e2bdec8c17cc2cf659ed68ac1d713a26ad
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374736"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-january-31-2019"></a>Novità o modifiche in Dynamics 365 for Talent (31 gennaio 2019)
+
+[!include [banner](includes/banner.md)]
+
+Questo argomento descrive le funzionalità nuove o modificate di Dynamics 365 for Talent.
+
+**Build 8.1.2128**
+
+## <a name="core-hr-changes"></a>Modifiche di Core HR
+
+### <a name="time-off-taken-on-leave-people-card-doesnt-consider-leave-plan-dates"></a>Il permesso richiesto nella scheda delle persone in congedo non considera le date del piano di congedo
+Per coloro che hanno piani di congedo non eseguiti in un anno di calendario, la scheda **Richiesto** ora visualizza il permesso richiesto nell'anno di congedo definito nel piano. Ad esempio, se l'anno di congedo dell'organizzazione va dal 1° giugno al 30 maggio e un dipendente ha preso 3 giorni di congedo a dicembre, il 15 gennaio la scheda **Richiesto** visualizzerà 3 giorni. 
+
+### <a name="accrual-amounts-not-matching-tier-date-basis"></a>Importi accumulo non corrispondenti alla base della data livello
+Alcune nuove opzioni sono state aggiunte a congedi e assenze (parametri **Risorse umane** ) per consentire ai clienti di determinare quando la data dei mesi di servizio dei dipendenti è valida. Per alcune organizzazioni, la data è la fine del mese, ma per altre può essere l'inizio del mese successivo. Ad esempio, un'organizzazione può concedere permessi il 31 dicembre, mentre un'altra il 1° gennaio. Questa opzione consentirà di scegliere quando concedere i permessi. 
+
+### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Le azioni di assunzione dei lavoratori sono bloccate allo stato "Flusso di lavoro completato"
+Alcune modifiche sono state apportate per correggere un problema in cui un piccolo numero di flussi di lavoro termina con lo stato "Flusso di lavoro completato". I nuovi flussi di lavoro dovrebbero ora passare allo stato "Completato" quando vengono terminati. Qualsiasi flusso di lavoro in uno stato completato passerà a uno stato di errore per consentire l'aggiornamento o la rimozione se necessario. 

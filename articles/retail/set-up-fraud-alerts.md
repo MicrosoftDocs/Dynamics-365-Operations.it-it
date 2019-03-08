@@ -1,13 +1,13 @@
 ---
 title: Impostazione e utilizzo degli avvisi di frode del servizio clienti
-description: "In questo argomento viene illustrato come impostare le regole per avvisare i rappresentanti dell'assistenza clienti di informazioni potenzialmente fraudolente quando gli ordini vengono elaborati. È possibile definire codici specifici da utilizzare per mettere automaticamente o manualmente gli ordini sospetti in attesa."
+description: In questo argomento viene illustrato come impostare le regole per avvisare i rappresentanti dell'assistenza clienti di informazioni potenzialmente fraudolente quando gli ordini vengono elaborati. È possibile definire codici specifici da utilizzare per mettere automaticamente o manualmente gli ordini sospetti in attesa.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361500"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Impostazione e utilizzo degli avvisi di frode del servizio clienti
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ L'ordine viene salvato, ma viene impostato il flag **Non elaborare**. Il flag as
 Per visualizzare e gestire gli ordini in attesa per la revisione antifrode, passare a **Retail** \> **Clienti** \> **Sospensioni ordine**. Nella pagina **Sospensioni ordine** selezionare una voce nell'elenco e quindi fare clic su **Ordine sospeso** per avere una visualizzazione più dettagliata che include informazioni sul motivo della sospensione. Nella Scheda dettaglio **Dettagli frode**, è possibile visualizzare i criteri di frode sistematici che sono stati trovati corrispondere per l'ordine e i punteggi che sono stati applicati. Se l'ordine è stato messo in attesa manualmente, è possibile rivedere i commenti che sono stati immessi dall'utente che ha messo l'ordine in attesa guardando la sezione **Note frode** nella Scheda dettaglio **Note**.
 
 Per ulteriori informazioni su come utilizzare gli ordini sospesi, vedere [Sospensioni ordine](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-
