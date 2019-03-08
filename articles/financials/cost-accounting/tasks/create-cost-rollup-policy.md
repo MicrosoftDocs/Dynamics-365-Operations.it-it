@@ -1,13 +1,13 @@
---- 
+---
 title: Creare criteri di rollup costi
 description: In questa procedura viene illustrato come creare i criteri di rollup dei costi e le regole per i criteri.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,57 +15,56 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 5f1fa434061832bd306cef13afc46c7f3adab0c0
-ms.contentlocale: it-it
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362604"
 ---
-# <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="f8eee-103">Creare criteri di rollup costi</span><span class="sxs-lookup"><span data-stu-id="f8eee-103">Create a cost rollup policy</span></span>
+# <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="cfb10-103">Creare criteri di rollup costi</span><span class="sxs-lookup"><span data-stu-id="cfb10-103">Create a cost rollup policy</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f8eee-104">In questa procedura viene illustrato come creare i criteri di rollup dei costi e le regole per i criteri.</span><span class="sxs-lookup"><span data-stu-id="f8eee-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="f8eee-105">La società di dati dimostrativi utilizzata per creare questa procedura è USP2.</span><span class="sxs-lookup"><span data-stu-id="f8eee-105">The demo data used to create this procedure is USP2.</span></span>
+<span data-ttu-id="cfb10-104">In questa procedura viene illustrato come creare i criteri di rollup dei costi e le regole per i criteri.</span><span class="sxs-lookup"><span data-stu-id="cfb10-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="cfb10-105">La società di dati dimostrativi utilizzata per creare questa procedura è USP2.</span><span class="sxs-lookup"><span data-stu-id="cfb10-105">The demo data used to create this procedure is USP2.</span></span>
 
 
-## <a name="create-a-policy"></a><span data-ttu-id="f8eee-106">Creare un criterio</span><span class="sxs-lookup"><span data-stu-id="f8eee-106">Create a policy</span></span>
-1. <span data-ttu-id="f8eee-107">Andare a Contabilità industriale > Criteri > Criteri rollup costi.</span><span class="sxs-lookup"><span data-stu-id="f8eee-107">Go to Cost accounting > Policies > Cost rollup policies.</span></span>
-2. <span data-ttu-id="f8eee-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="f8eee-108">Click New.</span></span>
-3. <span data-ttu-id="f8eee-109">Digitare un valore nel campo Nome criteri.</span><span class="sxs-lookup"><span data-stu-id="f8eee-109">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="f8eee-110">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="f8eee-111">Nel campo Gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-111">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-112">Selezionare Rollup costi CC.</span><span class="sxs-lookup"><span data-stu-id="f8eee-112">Select Cost rollup CC.</span></span>  
-6. <span data-ttu-id="f8eee-113">Nel campo Gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-113">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-114">Selezionare Rollup costi CC.</span><span class="sxs-lookup"><span data-stu-id="f8eee-114">Select Cost rollup CC.</span></span>  
-7. <span data-ttu-id="f8eee-115">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="f8eee-115">Click Save.</span></span>
+## <a name="create-a-policy"></a><span data-ttu-id="cfb10-106">Creare un criterio</span><span class="sxs-lookup"><span data-stu-id="cfb10-106">Create a policy</span></span>
+1. <span data-ttu-id="cfb10-107">Andare a Contabilità industriale > Criteri > Criteri rollup costi.</span><span class="sxs-lookup"><span data-stu-id="cfb10-107">Go to Cost accounting > Policies > Cost rollup policies.</span></span>
+2. <span data-ttu-id="cfb10-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="cfb10-108">Click New.</span></span>
+3. <span data-ttu-id="cfb10-109">Digitare un valore nel campo Nome criteri.</span><span class="sxs-lookup"><span data-stu-id="cfb10-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="cfb10-110">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="cfb10-111">Nel campo Gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-111">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-112">Selezionare Rollup costi CC.</span><span class="sxs-lookup"><span data-stu-id="cfb10-112">Select Cost rollup CC.</span></span>  
+6. <span data-ttu-id="cfb10-113">Nel campo Gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-113">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-114">Selezionare Rollup costi CC.</span><span class="sxs-lookup"><span data-stu-id="cfb10-114">Select Cost rollup CC.</span></span>  
+7. <span data-ttu-id="cfb10-115">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="cfb10-115">Click Save.</span></span>
 
-## <a name="create-rules-for-the-cost-rollup-policy"></a><span data-ttu-id="f8eee-116">Creare regole per i criteri di rollup costi</span><span class="sxs-lookup"><span data-stu-id="f8eee-116">Create rules for the cost rollup policy</span></span>
-1. <span data-ttu-id="f8eee-117">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="f8eee-117">Click New.</span></span>
-2. <span data-ttu-id="f8eee-118">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="f8eee-118">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="f8eee-119">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-119">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-120">Selezionare 007.</span><span class="sxs-lookup"><span data-stu-id="f8eee-120">Select 007.</span></span>  
-4. <span data-ttu-id="f8eee-121">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-121">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-122">Selezionare Rollup costi CE.</span><span class="sxs-lookup"><span data-stu-id="f8eee-122">Select Cost rollup CE.</span></span>  
-5. <span data-ttu-id="f8eee-123">Nel campo Elemento di costo secondario immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-123">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-124">Per questo esempio, mappare l'elemento di costo secondario CC-007 al centro di costo.</span><span class="sxs-lookup"><span data-stu-id="f8eee-124">For this example, map the secondary cost element CC-007 to the cost center.</span></span>  
-6. <span data-ttu-id="f8eee-125">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="f8eee-125">Click New.</span></span>
-7. <span data-ttu-id="f8eee-126">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="f8eee-126">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="f8eee-127">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-128">Selezionare 008.</span><span class="sxs-lookup"><span data-stu-id="f8eee-128">Select 008.</span></span>  
-9. <span data-ttu-id="f8eee-129">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-129">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-130">Selezionare Rollup costi CE.</span><span class="sxs-lookup"><span data-stu-id="f8eee-130">Select Cost rollup CE.</span></span>  
-10. <span data-ttu-id="f8eee-131">Nel campo Elemento di costo secondario immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-131">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-132">Per questo esempio, mappare l'elemento di costo secondario CC-008 al centro di costo.</span><span class="sxs-lookup"><span data-stu-id="f8eee-132">For this example, map the secondary cost element CC-008 to the cost center.</span></span>  
-11. <span data-ttu-id="f8eee-133">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="f8eee-133">Click New.</span></span>
-12. <span data-ttu-id="f8eee-134">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="f8eee-134">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="f8eee-135">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-135">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-136">Selezionare 009.</span><span class="sxs-lookup"><span data-stu-id="f8eee-136">Select 009.</span></span>  
-14. <span data-ttu-id="f8eee-137">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-137">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-138">Selezionare Rollup costi CE.</span><span class="sxs-lookup"><span data-stu-id="f8eee-138">Select Cost rollup CE.</span></span>  
-15. <span data-ttu-id="f8eee-139">Nel campo Elemento di costo secondario immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="f8eee-139">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="f8eee-140">Per questo esempio, mappare l'elemento di costo secondario CC-009 al centro di costo.</span><span class="sxs-lookup"><span data-stu-id="f8eee-140">For this example, map the secondary cost element CC-009 to the cost center.</span></span>  
-    * <span data-ttu-id="f8eee-141">Continuare finché tutti i centri di costo sono mappati agli elementi di costo secondari corrispondenti.</span><span class="sxs-lookup"><span data-stu-id="f8eee-141">Continue until all cost centers are mapped to their corresponding secondary cost elements.</span></span>  
-16. <span data-ttu-id="f8eee-142">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="f8eee-142">Click Save.</span></span>
-
+## <a name="create-rules-for-the-cost-rollup-policy"></a><span data-ttu-id="cfb10-116">Creare regole per i criteri di rollup costi</span><span class="sxs-lookup"><span data-stu-id="cfb10-116">Create rules for the cost rollup policy</span></span>
+1. <span data-ttu-id="cfb10-117">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="cfb10-117">Click New.</span></span>
+2. <span data-ttu-id="cfb10-118">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="cfb10-118">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="cfb10-119">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-119">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-120">Selezionare 007.</span><span class="sxs-lookup"><span data-stu-id="cfb10-120">Select 007.</span></span>  
+4. <span data-ttu-id="cfb10-121">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-121">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-122">Selezionare Rollup costi CE.</span><span class="sxs-lookup"><span data-stu-id="cfb10-122">Select Cost rollup CE.</span></span>  
+5. <span data-ttu-id="cfb10-123">Nel campo Elemento di costo secondario immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-123">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-124">Per questo esempio, mappare l'elemento di costo secondario CC-007 al centro di costo.</span><span class="sxs-lookup"><span data-stu-id="cfb10-124">For this example, map the secondary cost element CC-007 to the cost center.</span></span>  
+6. <span data-ttu-id="cfb10-125">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="cfb10-125">Click New.</span></span>
+7. <span data-ttu-id="cfb10-126">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="cfb10-126">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="cfb10-127">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-128">Selezionare 008.</span><span class="sxs-lookup"><span data-stu-id="cfb10-128">Select 008.</span></span>  
+9. <span data-ttu-id="cfb10-129">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-129">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-130">Selezionare Rollup costi CE.</span><span class="sxs-lookup"><span data-stu-id="cfb10-130">Select Cost rollup CE.</span></span>  
+10. <span data-ttu-id="cfb10-131">Nel campo Elemento di costo secondario immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-131">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-132">Per questo esempio, mappare l'elemento di costo secondario CC-008 al centro di costo.</span><span class="sxs-lookup"><span data-stu-id="cfb10-132">For this example, map the secondary cost element CC-008 to the cost center.</span></span>  
+11. <span data-ttu-id="cfb10-133">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="cfb10-133">Click New.</span></span>
+12. <span data-ttu-id="cfb10-134">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="cfb10-134">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="cfb10-135">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-135">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-136">Selezionare 009.</span><span class="sxs-lookup"><span data-stu-id="cfb10-136">Select 009.</span></span>  
+14. <span data-ttu-id="cfb10-137">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-137">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-138">Selezionare Rollup costi CE.</span><span class="sxs-lookup"><span data-stu-id="cfb10-138">Select Cost rollup CE.</span></span>  
+15. <span data-ttu-id="cfb10-139">Nel campo Elemento di costo secondario immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="cfb10-139">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfb10-140">Per questo esempio, mappare l'elemento di costo secondario CC-009 al centro di costo.</span><span class="sxs-lookup"><span data-stu-id="cfb10-140">For this example, map the secondary cost element CC-009 to the cost center.</span></span>  
+    * <span data-ttu-id="cfb10-141">Continuare finché tutti i centri di costo sono mappati agli elementi di costo secondari corrispondenti.</span><span class="sxs-lookup"><span data-stu-id="cfb10-141">Continue until all cost centers are mapped to their corresponding secondary cost elements.</span></span>  
+16. <span data-ttu-id="cfb10-142">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="cfb10-142">Click Save.</span></span>
 

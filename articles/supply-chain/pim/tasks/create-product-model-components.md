@@ -1,13 +1,13 @@
---- 
+---
 title: Creare componenti del modello prodotto
 description: I modelli di configurazione prodotti basata su vincoli utilizzano i componenti come blocchi predefiniti per stabilire la struttura del modello prodotto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCComponentList
 audience: Application User
 ms.reviewer: shylaw
@@ -16,26 +16,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 070f8aa61f6aead46e35a52a180d42fcc08bd3a7
-ms.contentlocale: it-it
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361983"
 ---
-# <a name="create-product-model-components"></a><span data-ttu-id="c21f0-103">Creare componenti del modello prodotto</span><span class="sxs-lookup"><span data-stu-id="c21f0-103">Create product model components</span></span>
+# <a name="create-product-model-components"></a><span data-ttu-id="73cbb-103">Creare componenti del modello prodotto</span><span class="sxs-lookup"><span data-stu-id="73cbb-103">Create product model components</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c21f0-104">I modelli di configurazione prodotti basata su vincoli utilizzano i componenti come blocchi predefiniti per stabilire la struttura del modello prodotto.</span><span class="sxs-lookup"><span data-stu-id="c21f0-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="c21f0-105">I componenti devono essere creati prima che un modello prodotto possa essere creato.</span><span class="sxs-lookup"><span data-stu-id="c21f0-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="c21f0-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="c21f0-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="73cbb-104">I modelli di configurazione prodotti basata su vincoli utilizzano i componenti come blocchi predefiniti per stabilire la struttura del modello prodotto.</span><span class="sxs-lookup"><span data-stu-id="73cbb-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="73cbb-105">I componenti devono essere creati prima che un modello prodotto possa essere creato.</span><span class="sxs-lookup"><span data-stu-id="73cbb-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="73cbb-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="73cbb-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="c21f0-107">Fare clic su Definizione modello di variante prodotto.</span><span class="sxs-lookup"><span data-stu-id="c21f0-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="c21f0-108">Fare clic su Modelli di configurazione prodotto.</span><span class="sxs-lookup"><span data-stu-id="c21f0-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="c21f0-109">Nel riquadro azioni, fare clic su Modello.</span><span class="sxs-lookup"><span data-stu-id="c21f0-109">On the Action Pane, click Model.</span></span>
-4. <span data-ttu-id="c21f0-110">Fare clic su Componenti.</span><span class="sxs-lookup"><span data-stu-id="c21f0-110">Click Components.</span></span>
-5. <span data-ttu-id="c21f0-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="c21f0-111">Click New.</span></span>
-6. <span data-ttu-id="c21f0-112">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="c21f0-112">In the Name field, type a value.</span></span>
-7. <span data-ttu-id="c21f0-113">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="c21f0-113">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="c21f0-114">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="c21f0-114">Close the page.</span></span>
-
+1. <span data-ttu-id="73cbb-107">Fare clic su Definizione modello di variante prodotto.</span><span class="sxs-lookup"><span data-stu-id="73cbb-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="73cbb-108">Fare clic su Modelli di configurazione prodotto.</span><span class="sxs-lookup"><span data-stu-id="73cbb-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="73cbb-109">Nel riquadro azioni, fare clic su Modello.</span><span class="sxs-lookup"><span data-stu-id="73cbb-109">On the Action Pane, click Model.</span></span>
+4. <span data-ttu-id="73cbb-110">Fare clic su Componenti.</span><span class="sxs-lookup"><span data-stu-id="73cbb-110">Click Components.</span></span>
+5. <span data-ttu-id="73cbb-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="73cbb-111">Click New.</span></span>
+6. <span data-ttu-id="73cbb-112">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="73cbb-112">In the Name field, type a value.</span></span>
+7. <span data-ttu-id="73cbb-113">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="73cbb-113">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="73cbb-114">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="73cbb-114">Close the page.</span></span>
 
