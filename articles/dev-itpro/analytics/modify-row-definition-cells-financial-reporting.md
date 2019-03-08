@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323642"
 ---
-
 # <a name="modify-row-definition-cells"></a>Modificare le celle di definizione riga
 
 [!include [banner](../includes/banner.md)]
@@ -387,10 +386,10 @@ Quando si seleziona un conto specifico, Progettazione report in genere combina i
 Alcuni sistemi di contabilità supportano gli attributi di conto e gli attributi di transazione nei dati finanziari. Questi attributi vengono eseguiti come segmenti di conti virtuali e possono riportare ulteriori informazioni sul conto o sulla transazione. Queste informazioni aggiuntive possono essere ID conto, ID batch, codici postali o altri attributi. Se il sistema contabile supporta gli attributi, è possibile utilizzare gli attributi di conto o gli attributi di transazione come modificatori riga nella definizione di riga. Per informazioni su come sostituire le informazioni di riga, vedere la sezione "Sostituire una definizione colonna" in precedenza in questo articolo.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Specificare il collegamento a una cella di dimensioni finanziarie
-La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai dati finanziari che devono essere inclusi in ciascuna riga del report. La cella contiene i valori di dimensione, ma è possibile specificare le celle in un foglio di lavoro di Microsoft Excel in luogo o in aggiunta ai valori di segmento o di dimensione. Per aprire la finestra di dialogo **Dimensioni**, fare doppio clic sulla cella **Collegamento a dimensioni finanziarie**.
+La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai dati finanziari che devono essere inclusi in ciascuna riga del report. In tale cella sono contenuti valori di dimensione. Al posto di tali valori di segmento o di dimensione, o in aggiunta a essi, è tuttavia possibile specificare le celle di un foglio di lavoro di Microsoft Excel. Per aprire la finestra di dialogo **Dimensioni**, fare doppio clic sulla cella **Collegamento a dimensioni finanziarie**.
 
 > [!NOTE]
-> Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. Per specificare le informazioni per una riga già presente nella definizione di riga, aggiungere le informazioni nella cella **Collegamento a dimensioni finanziarie**. Per aggiungere nuove righe di collegamento ai dati finanziari, utilizzare la finestra di dialogo **Inserisci righe da** per creare nuove righe nella definizione di report. Il titolo di colonna cambia a seconda di come la colonna è stata configurata, come illustrato nella seguente tabella.
+> Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. Per specificare le informazioni per una riga già inclusa nella definizione di riga, aggiungere le informazioni nella cella **Collegamento a Dimensioni finanziarie**. Per aggiungere nuove righe di collegamento ai dati finanziari, utilizzare la finestra di dialogo **Inserisci righe da** per creare nuove righe nella definizione di report. Il titolo di colonna cambia a seconda di come la colonna è stata configurata, come illustrato nella seguente tabella.
 
 | Tipo di collegamento selezionato       | Descrizione del collegamento delle modifiche di colonna a |
 |----------------------------------|----------------------------------------------------|
@@ -429,14 +428,14 @@ Quando si immette un valore di segmento naturale nella finestra di dialogo **Dim
 È possibile specificare un intervallo di valori di dimensione o di segmento. Il vantaggio di specificare un intervallo consiste nel fatto che non si deve aggiornare la definizione di riga ogni volta che un nuovo valore di dimensione o di segmento viene aggiunto ai dati finanziari. Ad esempio, l'intervallo **+Account=\[6100:6900\]** effettua il pull dei valori dei conti compresi tra 6100 e 6900 nell'importo di riga. Quando un intervallo include un carattere jolly (?), Progettazione report non valuta l'intervallo sulla base di un carattere alla volta. I limiti minimo e massimo dell'intervallo sono determinati e quindi i valori finali e tutti i valori tra loro sono inclusi.
 
 > [!NOTE]
-> Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. È possibile aggiungere una e commerciale (&) solo quando vengono automaticamente create le definizioni di riga utilizzando la finestra di dialogo **Inserisci righe da dimensioni**.
+> Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. È possibile aggiungere una e commerciale (&) solo quando vengono automaticamente create le definizioni di riga utilizzando la finestra di dialogo **Inserisci righe da dimensioni**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Intervalli di più dimensioni o segmenti
 
 Quando si immette un intervallo utilizzando le combinazioni di più valori di dimensione, il confronto dell'intervallo viene eseguito sulla base di ..\\dimensioni-finanziarie\\una-dimensione-alla-volta. Il confronto dell'intervallo non può essere eseguito in base a carattere alla volta o in base a un segmento parziale. Ad esempio, l'intervallo **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** comprende solo i conti corrispondenti a ogni segmento. In questo esempio, la prima dimensione deve essere compresa nell'intervallo da 5000 a 6000, la seconda dimensione deve essere compresa nell'intervallo da 1000 a 2000 e l'ultima dimensione deve essere 00. Ad esempio, **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** non viene incluso nel report, perché l'ultimo segmento non rientra nell'intervallo specificato. Se il valore del segmento include spazi, racchiudere il valore in parentesi quadre (\[ \]). I seguenti valori sono validi per un segmento a quattro caratteri: **\[ 234\], \[123 \], \[1 34\]**. I valori di dimensione devono essere racchiusi tra parentesi quadre (\[ \]) e Progettazione report aggiunge queste parentesi automaticamente. Quando un intervallo di più segmenti o dimensioni include caratteri jolly (? oppure \*), il limite superiore e inferiore dell'intervallo a più segmenti o dimensioni vengono determinati e vengono inclusi i valori finali e tutti i valori compresi tra loro. Se l'intervallo è ampio, ad esempio l'intervallo di tutti i conti compresi tra 40000 e 99999, è necessario specificare un conto di inizio e un conto di fine validi se possibile.
 
 > [!NOTE] 
-> Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. È possibile aggiungere una e commerciale (&) solo quando vengono automaticamente create le definizioni di riga utilizzando la finestra di dialogo **Inserisci righe da dimensioni**.
+> Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. È possibile aggiungere una e commerciale (&) solo quando vengono automaticamente create le definizioni di riga utilizzando la finestra di dialogo **Inserisci righe da dimensioni**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Aggiungere o sottrarre da altri conti in una definizione riga
 Per aggiungere o sottrarre gli importi monetari di un conto dagli importi monetari di un altro conto, è possibile utilizzare il segno più (+) e il segno meno (-) nella cella **Collegamento a dimensioni finanziarie**. Nella seguente tabella vengono visualizzati i formati accettabili per l'aggiunta e la sottrazione dei collegamenti ai dati finanziari.
@@ -456,10 +455,10 @@ Per aggiungere o sottrarre gli importi monetari di un conto dagli importi moneta
 | Sottrarre un intervallo di valori di segmento.                                                     | -Account=\[1200:1205\]                                                                                       |
 | Sottrarre un intervallo di valori di segmento includendo i caratteri jolly.                    | -Account=\[120?:130?\]                                                                                       |
 
-Sebbene sia possibile modificare direttamente i conti, è possibile anche utilizzare la finestra di dialogo **Dimensioni** per applicare la formattazione corretta ai collegamenti dei dati finanziari. I valori possono includere caratteri jolly (? oppure \*). Tuttavia, nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: &, \*, \[, \], { oppure }.
+Sebbene sia possibile modificare direttamente i conti, è possibile anche utilizzare la finestra di dialogo **Dimensioni** per applicare la formattazione corretta ai collegamenti dei dati finanziari. I valori possono includere caratteri jolly (? oppure \*). Tuttavia, nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }.
 
 > [!NOTE]
-> Per sottrarre i valori, è necessario racchiudere i valori tra parentesi. Ad esempio, se si immette **450?-(4509)**, viene visualizzato come **+Account=\[4509\]-Account=\[450?\]** e si indica a Progettazione report di sottrarre l'importo per il segmento di conto 4509 dall'importo di un segmento di conto che inizia con 450.
+> Per eseguire sottrazioni, i valori devono essere racchiusi tra parentesi. Ad esempio, se si immette **450?-(4509)**, viene visualizzato come **+Account=\[4509\]-Account=\[450?\]** e si indica a Progettazione report di sottrarre l'importo per il segmento di conto 4509 dall'importo di un segmento di conto che inizia con 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Aggiungere o sottrarre i conti da altri conti
 
@@ -533,4 +532,3 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-

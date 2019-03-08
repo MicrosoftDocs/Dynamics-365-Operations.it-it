@@ -5,9 +5,9 @@ author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326425"
 ---
-
 # <a name="generate-a-statistical-baseline-forecast"></a>Generare una previsione di base statistica
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Se la strategia di previsione è impostata su **Copia domanda storica**, la fine
 
 Per evitare confusione nei piani di produzione, è possibile bloccare un certo numero di intervalli di previsione. Questo numero viene impostato nel campo **Intervallo temporale blocco**. Nella pagina **Previsione della domanda modificata** le celle corrispondenti agli intervalli bloccati vengono disabilitate, per fornire un'indicazione visiva che i valori non devono essere modificati. 
 
-La data di inizio per la previsione della domanda di base non deve corrispondere alla data corrente o a una data in futuro. Per impostare una data di inizio diversa, utilizzare il campo **Data di inizio previsione di base - Da**. Ad esempio, a giugno, gli utenti possono generare una previsione per l'anno successivo. Poiché gli intervalli di previsione tra la fine della richiesta storica e l'inizio di base mancano, le previsioni potrebbero non essere precise. Se si utilizza il servizio di previsione della domanda di Microsoft Dynamics 365 for Finance and Operations, sono disponibili quattro modalità in cui è possibile riempire i periodi mancanti. È possibile selezionare il metodo di registrazione desiderato impostando il parametro MISSING\_VALUE\_SUBSTITUTION nella pagina **Parametri di previsione della domanda**. 
+La data di inizio per la previsione della domanda di base non deve corrispondere alla data corrente o a una data in futuro. Per impostare una data di inizio diversa, utilizzare il campo **Data di inizio previsione di base - Da**. Ad esempio, a giugno, gli utenti possono generare una previsione per l'anno successivo. Poiché gli intervalli di previsione tra la fine della richiesta storica e l'inizio di base mancano, le previsioni potrebbero non essere precise. Se si utilizza il servizio di previsione della domanda di Microsoft Dynamics 365 for Finance and Operations, sono disponibili quattro modalità in cui è possibile compilare le interruzioni mancanti. È possibile selezionare il metodo di registrazione desiderato impostando il parametro MISSING\_VALUE\_SUBSTITUTION nella pagina **Parametri di previsione della domanda**. 
 
 Il campo **Data di inizio previsione di base** - **Dal** deve essere impostato all'inizio di un intervallo di previsione, ad esempio negli Stati Uniti questo giorno corrisponderà alla domenica se l'intervallo di previsione è settimanale. Il sistema regola automaticamente il campo **Data di inizio previsione di base**  - **Dal** in modo che corrisponda all'inizio di un intervallo di previsione. 
 
@@ -72,7 +71,6 @@ Se la previsione non viene generata per un grande set di articoli, ma ad esempio
 [Implementazione di correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
 
 [Autorizzazione della previsione rettificata](authorize-adjusted-forecast.md)
-
 
 
 

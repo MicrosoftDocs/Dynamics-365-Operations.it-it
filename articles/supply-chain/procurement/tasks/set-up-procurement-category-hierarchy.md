@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare una gerarchia di categorie di approvvigionamento
 description: Questa procedura illustra come creare nuovi nodi in una gerarchia di categorie di approvvigionamento e come configurare una categoria di approvvigionamento per essere utilizzata in un processo di approvvigionamento.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/06/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01809a8a3256342682d8a9cfb296a355310fe4ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
-ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334521"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Impostare una gerarchia di categorie di approvvigionamento
 
@@ -74,5 +74,4 @@ Questa procedura illustra come creare nuovi nodi in una gerarchia di categorie d
 6. Attivare/disattivare l'espansione della sezione Pagina categoria.
     * Le pagine di categoria vengono create nella pagina Gerarchia di categorie. In tali pagine sono contenute informazioni sulla categoria di approvvigionamento, ad esempio informazioni sul tipo di prodotti in una categoria, le immagini dei prodotti in una categoria e gli annunci quali gli sconti disponibili in una categoria. Le informazioni in una pagina di categoria vengono visualizzare nelle richieste di acquisto.  
 7. Chiudere la pagina.
-
 

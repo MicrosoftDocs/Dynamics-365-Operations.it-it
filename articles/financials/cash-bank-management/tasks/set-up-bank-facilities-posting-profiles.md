@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare le linee di credito bancarie e i profili registrazione per le lettere di garanzia
-description: "Questa attività crea una linea di credito bancaria e un profilo di registrazione necessari per l'elaborazione di una lettera di garanzia."
+description: Questa attività crea una linea di credito bancaria e un profilo di registrazione necessari per l'elaborazione di una lettera di garanzia.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0f696f5aa809692a0cc2c4ff559945a301480d7e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 022b5d411b8240390c543ba726fe0d6838752944
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321664"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Impostare le linee di credito bancarie e i profili registrazione per le lettere di garanzia
 
@@ -77,5 +77,4 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 9. Nel campo Conto di liquidazione selezionare il conto di liquidazione per la transazione della lettera di garanzia. 
 10. Fare clic su Salva.
 11. Chiudere la pagina.
-
 

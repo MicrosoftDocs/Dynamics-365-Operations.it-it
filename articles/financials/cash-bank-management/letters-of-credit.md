@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28c8056557a8680c60cd843634f5c4f3625a8859
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9644d07cc70d127880d5db3713f51c06d3b557bc
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317386"
 ---
-
 # <a name="letters-of-credit"></a>Lettere di credito
 
 [!include [banner](../includes/banner.md)]
@@ -52,6 +51,5 @@ Per ulteriori informazioni, vedere i seguenti argomenti:
 [Esportare una lettera di credito](tasks/export-letter-credit.md)
 
 [Creare un contratto per linea di credito bancaria per una lettera di credito](tasks/create-bank-facility-agreement-letter-credit.md)
-
 
 

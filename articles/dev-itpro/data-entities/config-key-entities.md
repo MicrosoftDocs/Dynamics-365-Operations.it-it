@@ -1,13 +1,13 @@
 ---
-title: "Chiavi di configurazione ed entità di dati"
-description: "In questo argomento viene descritta la relazione tra le chiavi di configurazione e le entità di dati di Microsoft Dynamics 365 for Finance and Operations."
+title: Chiavi di configurazione ed entità di dati
+description: In questo argomento viene descritta la relazione tra le chiavi di configurazione e le entità di dati di Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336476"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>Chiavi di configurazione ed entità di dati
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ Utilizzando i metadati della chiave di configurazione creati durante l'elenco di
 Ogni volta che si aggiornano le chiavi di configurazione a livello di entità, tabella o campo, l'elenco delle entità nel framework di gestione dei dati deve essere aggiornato. Questo processo garantisce che il framework riceva le ultime impostazioni della chiave di configurazione. Fino a quando l'elenco delle entità non viene aggiornato, il seguente avviso verrà visualizzato nella pagina dell'elenco delle entità. Le modifiche della chiave di configurazione aggiornata avranno effetto immediatamente dopo l'aggiornamento dell'elenco delle entità. Si consiglia di convalidare processi e progetti di dati esistenti per assicurarsi che funzionino come previsto dopo che le modifiche alle chiavi di configurazione sono state applicate.
 
 ![Campi di destinazione](./media/Target_fields_3.png)
-

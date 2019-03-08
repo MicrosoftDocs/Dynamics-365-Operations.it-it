@@ -1,13 +1,13 @@
 ---
 title: Autorizzare una previsione modificata
-description: "Non tutti i dati di previsione devono essere autorizzati immediatamente. In questo articolo viene illustrato come è possibile specificare il periodo per cui una previsione viene autorizzata. Viene inoltre illustrato come è possibile autorizzare la previsione per le società e i modelli previsionali specifici."
+description: Non tutti i dati di previsione devono essere autorizzati immediatamente. In questo articolo viene illustrato come è possibile specificare il periodo per cui una previsione viene autorizzata. Viene inoltre illustrato come è possibile autorizzare la previsione per le società e i modelli previsionali specifici.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6c397329993bd3014b608cdc50d5002dcd5ed6a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 64838fd20349c21bf3c0a3b9a3c68d4f19f60745
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313476"
 ---
-
 # <a name="authorize-an-adjusted-forecast"></a>Autorizzare una previsione modificata
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Nella scheda **Dettagli** della pagina **Autorizzazione** è possibile visualizz
 [Implementazione di correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
 
 [Monitoraggio della precisione previsione](monitor-forecast-accuracy.md)
-
 
 
 

@@ -5,27 +5,26 @@ author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 2007e6adec7255b0b3abda7490c2103a8583393f
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305056"
 ---
-
-# <a name="reporting-options-in-talent"></a>Opzioni per report in Talent
+# <a name="reporting-options-in-talent"></a>Opzioni di creazione dei report in Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -50,4 +49,3 @@ L'utente non può personalizzare i report di Microsoft Power BI integrati.
 **Soluzione a lungo termine**
 
 Ulteriori opzioni di Power BI saranno disponibili e ulteriori dati ed entità saranno integrate in Common Data Service per le app.
-

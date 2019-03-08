@@ -1,13 +1,13 @@
 ---
 title: Sconti di cassa
-description: "Gli sconti di cassa vengono impostati e condivisi per la contabilità fornitori e la contabilità clienti.  Lo sconto di cassa disponibile può essere definito sulla fattura cliente o sulla fattura fornitore e verrà applicato se la fattura viene pagata entro la data dello sconto di cassa."
+description: Gli sconti di cassa vengono impostati e condivisi per la contabilità fornitori e la contabilità clienti.  Lo sconto di cassa disponibile può essere definito sulla fattura cliente o sulla fattura fornitore e verrà applicato se la fattura viene pagata entro la data dello sconto di cassa.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dd15a021244e55ea988a95184a758a321ebeafb3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320031"
 ---
-
 # <a name="cash-discounts"></a>Sconti di cassa
 
 [!include [banner](../includes/banner.md)]
@@ -65,6 +64,5 @@ La valuta di contabilizzazione della persona giuridica è l'EUR e per gli USD ve
 Una fattura del valore di 1000 USD con termini di sconto di cassa di 20G2% viene registrata il 15 febbraio. L'importo della fattura nella valuta di contabilizzazione è di 1100 EUR. Un pagamento di 980 USD viene liquidato con la fattura il 1 marzo. L'importo dello sconto di cassa è 20 USD. L'importo del pagamento nella valuta di contabilizzazione è di 784 EUR. L'importo dello sconto di cassa nella valuta di contabilizzazione viene calcolato usando il tasso di cambio al 1 marzo: 20 \* 80 / 100 = 16 EUR.
 
 > [!NOTE]
-> Se l'opzione Calcola sconti di cassa per pagamenti parziali è selezionata nei parametri di contabilità clienti o nelle pagine di parametri di contabilità fornitori, viene utilizzato il tasso di cambio in vigore alla data di ciascun pagamento parziale. 
-
+> Se l'opzione Calcola sconti di cassa per pagamenti parziali è selezionata nei parametri di contabilità clienti o nelle pagine di parametri di contabilità fornitori, viene utilizzato il tasso di cambio in vigore alla data di ciascun pagamento parziale. 
 

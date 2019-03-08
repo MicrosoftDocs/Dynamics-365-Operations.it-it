@@ -1,13 +1,13 @@
---- 
+---
 title: Creare una revisione delle prestazioni
 description: In questa procedura viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: it-it
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338477"
 ---
 # <a name="create-a-performance-review"></a>Creare una revisione delle prestazioni
 
@@ -79,5 +79,4 @@ In questa procedura viene illustrato come creare una revisione delle prestazioni
     * Quando la revisione passa da uno stato all'altro, il dipendente e il responsabile possono aggiungere commenti per ciascun obiettivo o competenza.  
 42. Fare clic sulla scheda Conferme.
     * Il lavoratore e il responsabile possono confermare la revisione. Quando tutte le conferme sono state completate, lo stato verrà modificato in Completato e non è possibile apportare altre modifiche.  
-
 

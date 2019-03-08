@@ -1,14 +1,14 @@
 ---
-title: "Estendibilità in Attract"
-description: In questo argomento viene descritto come possibile estendere l'applicazione Microsoft Dynamics 365 for Talent - Attract utilizzando Microsoft Power Platform.
+title: Estendibilità in Attract
+description: In questo argomento viene descritto come possibile estendere l'applicazione Microsoft Dynamics 365 for Talent - Attract utilizzando la piattaforma Microsoft Power.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 0af60a0aea0f7a5de793631445aaebb37dbb0d74
-ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304977"
 ---
-
 # <a name="extensibility-in-attract"></a>Estendibilità in Attract
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent si basa sulla piattaforma Common Data Service per le app e può essere esteso in vari modi utilizzando Microsoft Power Platform e le funzionalità di Common Data Service per le app. Di conseguenza, è possibile configurare e personalizzare il sistema mediante Microsoft PowerApps e Microsoft Flow. È inoltre possibile ottenere l'analisi aggiuntive sulle persone utilizzando Microsoft Power BI. Inoltre, le nuove attività personalizzate, ad esempio le attività PowerApps e di contenuto Web (iframe), rendono il processo di assunzione più adattabile che Mai. Con queste attività, è possibile personalizzare il processo di assunzione in base alle esigenze e processi aziendali e assicurarsi che sia il team di assunzione che i candidati fruiscano di un'esperienza personalizzata e priva di problemi.
+Microsoft Dynamics 365 for Talent si basa sulla piattaforma Common Data Service per le app e può essere esteso in vari modi utilizzando la piattaforma Microsoft Power e le funzionalità di Common Data Service per le app. Di conseguenza, è possibile configurare e personalizzare il sistema mediante Microsoft PowerApps e Microsoft Flow. È inoltre possibile ottenere l'analisi aggiuntive sulle persone utilizzando Microsoft Power BI. Inoltre, le nuove attività personalizzate, ad esempio le attività PowerApps e di contenuto Web (iframe), rendono il processo di assunzione più adattabile che Mai. Con queste attività, è possibile personalizzare il processo di assunzione in base alle esigenze e processi aziendali e assicurarsi che sia il team di assunzione che i candidati fruiscano di un'esperienza personalizzata e priva di problemi.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Sfruttare Microsoft Power Platform 
 
-Poiché tutti i dati di Attract risiedono in Common Data Service per le app, è possibile utilizzare gli strumenti di Microsoft Power Platform per includere specifiche esigenze aziendali in Attract.
+Poiché tutti i dati di Attract risiedono in Common Data Service per le app, è possibile utilizzare gli strumenti della piattaforma Microsoft Power per includere specifiche esigenze aziendali in Attract.
 
 ### <a name="powerapps"></a>PowerApps
 
@@ -67,4 +66,3 @@ L'attività contenuto Web (iframe) consente di incorporare una soluzione Web per
 
 > [!NOTE]
 > L'attività contenuto Web è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale.
-

@@ -1,13 +1,13 @@
 ---
 title: Creare un modello di configurazione prodotto
-description: "La necessità di configurare i prodotti per soddisfare requisiti speciali sta diventando la regola anziché l'eccezione, sia nelle relazioni tra aziende che nelle relazioni tra azienda e utente."
+description: La necessità di configurare i prodotti per soddisfare requisiti speciali sta diventando la regola anziché l'eccezione, sia nelle relazioni tra aziende che nelle relazioni tra azienda e utente.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327460"
 ---
-
 # <a name="build-a-product-configuration-model"></a>Creare un modello di configurazione prodotto
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,7 @@ I vincoli di tabella possono essere definiti dall'utente o dal sistema.
 
 Un vincolo di tabella definito dall'utente è creato dall'utente. L'utente seleziona una combinazione di tipi di attributo per rappresentare le colonne della tabella e immette i valori dai domini dei tipi di attributo selezionati per creare le righe nel vincolo di tabella.  
 
-Un vincolo di tabella definito dal sistema viene definito selezionando la tabella di Microsoft Dynamics 365 for Finance and Operations da utilizzare come riferimento e quindi selezionando i campi dalla tabella per creare le colonne nel vincolo. Le righe del vincolo di tabella sono le righe della tabella di Finance and Operations che sono presenti al momento della configurazione.  
+Un vincolo di tabella definito dal sistema viene definito selezionando la tabella di Microsoft Dynamics 365 for Finance and Operations da utilizzare come riferimento quindi selezionando i campi dalla tabella per creare le colonne nel vincolo. Le righe del vincolo di tabella sono le righe della tabella di Finance and Operations che sono presenti al momento della configurazione.  
 
 Un vincolo di tabella viene incluso in un modello di configurazione prodotto facendo riferimento alla definizione del vincolo di tabella ed eseguendo il mapping degli attributi appropriati nel modello alle colonne del vincolo di tabella.
 
@@ -158,7 +157,6 @@ Lo scopo di configurazione è di creare una variante distinta del prodotto che s
 ### <a name="multiple-sites-and-intercompany"></a>Più siti e interaziendale
 
 Se la configurazione viene effettuata presso un sito, o una società, diverso dal sito, o dalla società, in cui avviene la produzione, la DBA e il ciclo di lavorazione verranno creati e inseriti presso il sito del fornitore nella società fornitrice. La variante prodotto verrà rilasciata a tutte le società che partecipano alla supply chain.
-
 
 
 

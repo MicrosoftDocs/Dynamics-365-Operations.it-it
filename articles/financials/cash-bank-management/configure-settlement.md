@@ -1,13 +1,13 @@
 ---
 title: Configurare una liquidazione
-description: "Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo argomento descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti."
+description: Il modo e il momento in cui le transazioni vengono liquidate possono essere argomenti complessi, pertanto è essenziale che capire e definire in modo corretto i parametri per soddisfare i requisiti aziendali. Questo argomento descrive i parametri utilizzati per la liquidazione sia per la contabilità fornitori che per la contabilità clienti.
 author: kweekley
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
 ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319272"
 ---
-
 # <a name="configure-settlement"></a>Configurare una liquidazione
 
 [!include [banner](../includes/banner.md)]
@@ -68,4 +67,3 @@ Per evitare le voci contabili aggiuntive, il debito e il credito nello stesso co
 
 -   Le organizzazioni utilizzano spesso dimensioni fisse per compilare con zero una dimensione finanziaria che non è richiesta. È il caso in genere dei conti dello stato patrimoniale, ad esempio contabilità clienti/contabilità fornitori. Le strutture dei conti possono essere utilizzate per non tenere traccia delle dimensioni finanziarie che sono in genere completate con zeri.  È possibile rimuovere la dimensione finanziaria per i conti dello stato patrimoniale, eliminando la necessità di utilizzare dimensioni fisse.
 -   Se l'organizzazione richiede dimensioni fisse nel conto principale contabilità fornitori/contabilità clienti, trovare un modo per impostare come valore predefinito la dimensione fissa nel pagamento, in modo che il valore di dimensione fissa sia memorizzato nella transazione fornitore per il pagamento. Ciò permetterà al sistema di ricostruire il conto principale contabilità fornitori/contabilità clienti per includere i valori di dimensione fissa. Il valore di dimensione fissa può essere definito come valore predefinito sui fornitori o il nome del giornale di registrazione pagamenti.
-

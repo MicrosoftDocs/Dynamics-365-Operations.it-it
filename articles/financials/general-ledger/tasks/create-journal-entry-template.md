@@ -1,13 +1,13 @@
---- 
+---
 title: Creare una scrittura contabile utilizzando un modello
 description: I giustificativi giornale di registrazione registrati possono essere salvati come modelli di giustificativo e applicati a un nuovo giustificativo giornale di registrazione.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4a749740b62e39202d502a112f947679f85ca085
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316811"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Creare una scrittura contabile utilizzando un modello
 
@@ -63,5 +63,4 @@ I giustificativi giornale di registrazione registrati possono essere salvati com
 29. Nel campo Importo immettere l'importo da applicare al giustificativo.
     * L'importo del campo viene visualizzato solo se il modello di giustificativo è di tipo Percentuale.  
 30. Fare clic su OK.
-
 

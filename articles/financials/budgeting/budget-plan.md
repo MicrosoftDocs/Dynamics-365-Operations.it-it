@@ -1,13 +1,13 @@
 ---
 title: Pianificazione del budget
-description: "L'obiettivo dell'esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione."
+description: L'obiettivo dell'esercitazione è quello di fornire ai partner di Dynamics una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311636"
 ---
-
 # <a name="budget-planning"></a>Pianificazione del budget
 
 [!include [banner](../includes/banner.md)]
 
-L'obiettivo dell'esercitazione è quello di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questo lab illustra in modo specifico i seguenti processi o attività aziendali:
+L'obiettivo dell'esercitazione è quello di fornire ai partner di Dynamics una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 for Finance and Operations nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.  Questo lab illustra in modo specifico i seguenti processi o attività aziendali:
 - Creazione di gerarchia organizzativa per pianificazione piano di budget e configurazione sicurezza utente
 - Definire scenari del piano di budget, colonne del piano di budget, layout e modelli Excel
 - Creare e attivare processi di pianificazione del budget
@@ -260,7 +259,6 @@ B. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Confi
 C. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Configurazione di pianificazione del budget. Nella scheda Fasi flusso di lavoro associare il flusso di lavoro di approvazione automatica creato nel passaggio A alle fasi Iniziale e Inviata 
 
 [![Pianificazione del budget e controllo del budget](./media/screenshot42.png)](./media/screenshot42.png)  
-
 
 
 

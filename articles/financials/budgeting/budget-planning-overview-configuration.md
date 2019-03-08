@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329921"
 ---
-
 # <a name="budget-planning-overview"></a>Panoramica sulla pianificazione del budget
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ In questo articolo viene illustrata la pianificazione del budget e sono contenut
 
 La pianificazione del budget viene eseguita quando si stanno preparando i budget che verranno implementati da un'organizzazione. Un'organizzazione può configurare la pianificazione del budget e quindi impostare i processi di pianificazione del budget per soddisfare i criteri, le procedure e i requisiti della preparazione del budget. 
 
-Quando si comprendono i concetti e la terminologia utilizzati in Microsoft Dynamics 365 for Finance and Operations, sarà più facile implementare la pianificazione del budget nell'organizzazione.
+Quando si capiscono i concetti e la terminologia utilizzati in Microsoft Dynamics 365 for Finance and Operations, sarà più facile implementare la pianificazione del budget nell'organizzazione.
 
 ### <a name="key-terms"></a>Termini importanti
 
@@ -188,7 +187,6 @@ Nel menu **Azioni** è possibile anche creare un nuovo processo copiandone uno e
 Un altro comando utile nel menu **Azioni** è **Visualizza stato del processo di budget**. Questo comando consente di visualizzare graficamente i piani di budget all'interno di un processo, insieme ai dati rilevanti, ad esempio lo stato del flusso di lavoro dei piani, i riepiloghi per importo e per unità e la navigazione con un clic ai piani di budget stessi.
 
 [![Stato del processo di pianificazione del budget](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Gestire le informazioni sull'infortunio e la malattia del dipendente
-description: "Si consiglia di completare prima la guida di attività 'Impostazione infortunio e malattia' perché alcune informazioni di impostazione vengono utilizzate qui."
+description: Si consiglia di completare prima la guida di attività 'Impostazione infortunio e malattia' perché alcune informazioni di impostazione vengono utilizzate qui.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: it-it
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332612"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Gestire le informazioni sull'infortunio e la malattia del dipendente
 
@@ -92,5 +92,4 @@ Questa registrazione attività copre i passaggi fondamentali per la creazione di
     * Esempio: i raggi x confermano la frattura, indossare stampella  
 36. Fare clic su Salva.
     * Lo stato del caso può essere aggiornato in qualsiasi momento.  Impostare il caso su In corso se l'elaborazione dell'infortunio o della malattia è ancora in corso.  Una volta chiuso l'incidente, è possibile solo aggiungere o rimuovere solo i costi, i trattamenti o le archiviazioni relative all'incidente.  Per modificare altre informazioni, riaprire il caso.  
-
 

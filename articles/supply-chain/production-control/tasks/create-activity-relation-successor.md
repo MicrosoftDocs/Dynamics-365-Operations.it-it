@@ -1,13 +1,13 @@
---- 
-title: "Creare relazione attività: attività successiva"
-description: "Il flusso di attività in un flusso di produzione snella viene documentato tramite relazioni tra le attività."
+---
+title: 'Creare relazione attività: attività successiva'
+description: Il flusso di attività in un flusso di produzione snella viene documentato tramite relazioni tra le attività.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup, DefaultDashboard
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e5e5844939e1eb40e31530c434c096c5b3be7abe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 75a76252cc3cb6f3e7516309a7d9a6f2d1934ccd
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325459"
 ---
 # <a name="create-activity-relation-successor"></a>Creare relazione attività: attività successiva
 
@@ -65,5 +65,4 @@ Prerequisiti:
 11. Fare clic sulla scheda GridPanel.
 12. Chiudere la pagina.
 13. Aggiorna la pagina.
-
 

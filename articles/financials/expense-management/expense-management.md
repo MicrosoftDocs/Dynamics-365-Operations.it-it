@@ -1,13 +1,13 @@
 ---
 title: Gestione spese
-description: "Utilizzare Gestione spese per creare un flusso di lavoro integrato in cui è possibile memorizzare informazioni sui metodi di pagamento, importare transazioni con carta di credito e tenere traccia delle spese sostenute dai dipendenti per conto della società."
+description: Utilizzare Gestione spese per creare un flusso di lavoro integrato in cui è possibile memorizzare informazioni sui metodi di pagamento, importare transazioni con carta di credito e tenere traccia delle spese sostenute dai dipendenti per conto della società.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1e075a7f114efdea1d9cc62cf302eaaba63c7ba0
-ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313407"
 ---
-
 # <a name="expense-management"></a>Gestione spese
 
 [!include [banner](../includes/banner.md)]
@@ -38,13 +37,13 @@ Utilizzare Gestione spese per creare un flusso di lavoro integrato in cui è pos
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle che sono in via di sviluppo. 
+Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo. 
 
 #### <a name="blogs"></a>Blog
 
 Per opinioni, notizie e altre informazioni sulla contabilità clienti e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Sono disponibili numerosi post sulla contabilità clienti nel [blog del team di prodotto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Alcuni di questi post si riferiscono alla versione precedente della contabilità clienti, ma i concetti sono ancora validi. e le procedure sono simili nella versione corrente.
+Nel [blog del team di prodotto di Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) sono disponibili numerosi post sulla contabilità clienti. Alcuni di questi post si riferiscono alla versione precedente della contabilità clienti, ma i concetti sono ancora validi. e le procedure sono simili nella versione corrente.
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 
@@ -53,8 +52,7 @@ Informazioni aggiuntive sono disponibili come guide attività in Finance and Ope
 
 #### <a name="videos"></a>Video
 
-Controllare i video illustrativi disponibili nel [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

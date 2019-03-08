@@ -1,13 +1,13 @@
 ---
-title: "Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)"
-description: "Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 for Operations versione 1611."
+title: Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
+description: Questo argomento descrive le funzionalità nuove o modificate di Dynamics 365 for Operations versione 1611.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339075"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 for Operations versione 1611.
+Questo argomento descrive le funzionalità nuove o modificate di Dynamics 365 for Operations versione 1611.
 
 ## <a name="cost-accounting"></a>Contabilità industriale
 
@@ -624,7 +623,7 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 fo
 | Configurare i report ER per generare i documenti elettronici in Excel, in Microsoft Word, o in formato PDF. | Una configurazione consente ai report ER di generare i documenti elettronici in tre diversi formati: Foglio di lavoro OpenXML (Excel), Word e formato XFDF (XML Forms Data Format) (PDF). Gli utenti possono selezionare un formato aggiungendo un modello di formato a una report ER come documento di Excel, Word o PDF. |
 | Configurare i report di ER per inserire i dati nelle intestazioni e nei piè di pagina di documenti elettronici generati nel formato del foglio di lavoro OpenXML e per controllare interruzioni di pagina. | I report di ER possono immettere i dati aziendali nelle intestazioni e nei piè di pagina e anche determinare dove inserire interruzioni di pagina. Di conseguenza, i report possono supportare le sezioni inferiori e superiori statiche delle pagine di documenti elettronici generati. Possono inoltre supportare la paginazione specifica dei documenti, in modo che sono conformi ai requisiti legali. |
 | Configurare la destinazione dei report ER in modo da inviare l'output come messaggi di posta elettronica e in modo da poter utilizzare dati aziendali e la logica ER (espressioni) per specificare, in fase di esecuzione, l'indirizzo di posta elettronica da utilizzare. | In precedenza, alla configurazione di una destinazione ER, l'indirizzo di posta elettronica del destinatario dell'output poteva essere definito in fase di progettazione. È ora possibile configurare un'espressione nel formato ER. Questa espressione può quindi essere selezionata in una destinazione come origine dell'indirizzo di posta elettronica per ogni configurazione di formato e ciascun componente di output (cartella o file) separatamente. Pertanto, quando un report ER è in esecuzione, ogni file generato può essere inviato per posta elettronica a un destinatario diverso e l'indirizzo di posta elettronica può essere definito in base alla logica ER e ai dati aziendali. |
-| Configurare la destinazione dei report ER in modo da inviare l'output nella cartella di Microsoft SharePoint come un nuovo file denominato o nuova versione del file esistente e in modo da poter utilizzare i dati aziendali nel framework di Power BI Microsoft come un set di dati o report. | Quando si configurano i report ER, è ora possibile preparare facilmente (senza codifica) i dati aziendali necessari da poter utilizzare nel framework di Power BI. Quando si eseguono i report ER, è possibile fornire al framework di Power BI i dati aziendali e/o i report di Excel appropriati che sono già disponibili. Se si programma l'esecuzione del report in modalità ricorrente, è possibile stabilire il push programmato dei dati aziendali da Dynamics 365 for Operations a Power BI per supportare la programmazione dell'aggiornamento dei report basati su Power BI. |
+| Configurare la destinazione dei report ER in modo da inviare l'output nella cartella di Microsoft SharePoint come un nuovo file denominato o nuova versione del file esistente e in modo da poter utilizzare i dati aziendali nel framework di Power BI Microsoft come un set di dati o report. | Quando si configurano i report ER, è ora possibile preparare facilmente (senza codifica) i dati aziendali necessari da poter utilizzare nel framework di Power BI. Quando si eseguono i report ER, è possibile fornire al framework di Power BI i dati aziendali e/o i report di Excel appropriati che sono già disponibili. Se si programma l'esecuzione del report in modalità ricorrente, è possibile stabilire il push programmato dei dati aziendali da Dynamics 365 for Operations a Power BI per supportare la programmazione dell'aggiornamento dei report basati su Power BI. |
 | Configurare i report ER per utilizzare la parte del documento elettronico che è già stata generata come origine dati per generare il resto del documento. | È possibile configurare i report ER che creano l'output in formato testo per eseguire il conteggio delle righe documento. Queste informazioni possono quindi essere utilizzate in altre parti del documento per creare righe che includono i dettagli di riepilogo. Le informazioni di riepilogo (totali e numeri) possono essere calcolate e stampate nei documenti elettronici generati, senza richiedere trasformazioni aggiuntive dei dati. Di conseguenza, questa funzionalità migliora le prestazioni di esecuzione dei report e aiuta a semplificare la gestione futura del formato di ER configurato. |
 | Configurare i report ER per specificare l'estensione del file per i documenti elettronici generati in formato testo. | È possibile configurare i report ER per creare l'output in formato testo, in modo che può essere salvato come file con una estensione specifica. Oltre all'estensione predefinita .txt, è possibile configurare estensioni quali .csv e .prn, in conformità alla specifica di formato. |
 | Creare nuovi report ER basati su una versione specifica di un modello ER. | In precedenza, quando si creava un nuovo formato ER, solo la più recente versione del modello ER selezionato poteva essere utilizzata come percorso di origine dati di formato. È ora possibile selezionare qualsiasi versione disponibile del modello ER selezionato. Questa funzionalità consente di gestire i report ER per l'anno corrente e progettare una nuova versione del modello ER per l'anno successivo in parallelo. |
@@ -643,7 +642,7 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 fo
 <tbody>
 <tr>
 <td>Configurare i record di pagamenti ed elaborare le retribuzioni utilizzando la funzionalità che equivale a quella del modulo <strong>Retribuzioni</strong> in Microsoft Dynamics AX 2012 R3.</td>
-<td>È ora possibile configurare ed elaborare le retribuzioni negli Stati Uniti utilizzando un set di funzionalità che equivale al set di funzionalità in AX 2012 R3.
+<td>È ora possibile configurare ed elaborare le retribuzioni negli Stati Uniti utilizzando un set di funzionalità che equivale al set di funzionalità in AX 2012 R3.
 <ul>
 <li>È possibile configurare i cicli e periodi retributivi, cicli di lavoro e periodi di lavoro, codici di reddito e gruppi di codici di reddito, programmazioni, i tipi di congedo e i piani di accumulo benefit.</li>
 <li>È inoltre possibile impostare le detrazioni obbligatorie per benefit e imposte e registrare le informazioni sulla retribuzione per le posizioni e i lavoratori per scopi di analisi e di report.</li>
@@ -657,7 +656,7 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 fo
 </tr>
 <tr>
 <td>Generare file di pagamenti sicuri per assegni retribuzioni.</td>
-<td>È presente una nuova estensione alla funzionalità di pagamenti sicuri di Gestione cassa e banche per i pagamenti delle retribuzioni. Voci di menu separate sono state aggiunte nel processo di base per abilitare la configurazione isolata specifica della retribuzione. La funzionalità è identica alla funzionalità di pagamenti sicuri di base rilasciata in Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016). Grazie all'estensione, i dati relativi alle retribuzioni sono completamente isolati dal resto delle transazioni di pagamenti sicuri. Questo isolamento assicura che solo gli utenti delle retribuzioni possono accedere e visualizzare i dati correlati alle retribuzioni.</td>
+<td>È presente una nuova estensione alla funzionalità di pagamenti sicuri di Gestione cassa e banche per i pagamenti delle retribuzioni. Voci di menu separate sono state aggiunte nel processo di base per abilitare la configurazione isolata specifica della retribuzione. La funzionalità è identica alla funzionalità di pagamenti sicuri di base rilasciata in Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016). Grazie all'estensione, i dati relativi alle retribuzioni sono completamente isolati dal resto delle transazioni di pagamenti sicuri. Questo isolamento assicura che solo gli utenti delle retribuzioni possono accedere e visualizzare i dati correlati alle retribuzioni.</td>
 </tr>
 <tr>
 <td>Importare le righe rendiconto redditi da un'origine esterna utilizzando la nuova entità di dati Riga busta paga.</td>
@@ -717,7 +716,7 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 fo
 | Operazioni che è possibile effettuare | Perché questo è importante |
 |-----------------|-----------------------|
 | Utilizzare la selezione recente quando si registrano le proposte di fatturazione in un batch. | I contabili di progetto possono impostare un processo batch per selezionare automaticamente le proposte di fatturazione da registrare, se le proposte soddisfano i criteri specificati nel processo batch. Questa funzionalità consente di migliorare l'automazione della registrazione fatture, poiché il processo batch può essere eseguito in modo continuativo e selezionare automaticamente le proposte per la registrazione. |
-| Creare l'analisi nel desktop di Power BI. | Il contenuto di business intelligence (BI) dei dati correlati al progetto e alle risorse può essere creato facilmente sul desktop di Power BI. |
+| Creare l'analisi nel desktop di Power BI. | Il contenuto di business intelligence (BI) dei dati correlati al progetto e alle risorse può essere creato facilmente sul desktop di Power BI. |
 | Utilizzare i pagamenti anticipati dell'ordine fornitore e includerli correttamente nel processo di stima del progetto. | Per gli ordini fornitore del progetto, i pagamenti anticipati devono essere elaborati prima che un pagamento può essere rilasciato ai fornitori. Queste fatture di pagamento anticipato ora sono visualizzate nel processo di stima/riconoscimento dei progetti di tipo **Prezzo fisso**. |
 | Accedere e gestire le stime dei ricavi e di costi e le richieste articolo, direttamente da un'attività di struttura di suddivisione del lavoro (WBS). | È possibile gestire le stime dei costi, stime dei ricavi e delle richieste articolo per un'attività WBS specifica nella finestra di dialogo relativa ai dettagli per l'attività in questione nella visualizzazione di pianificazione WBS. |
 | Selezionare una fonte di finanziamento sui giornali di registrazione commissioni. | Se il contratto per un progetto contiene più fonti di finanziamento, è possibile selezionare una fonte di finanziamento specifica quando le commissioni vengono registrate. Se non si seleziona una fonte di finanziamento specifica, le regole di finanziamento specificate nel contratto vengono utilizzate per assegnare la commissione. |
@@ -886,7 +885,7 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 |-----------------|-----------------------|
 | Modellare diversi tipi di contenitore. | È possibile utilizzare diversi tipi di contenitore nel magazzino per ottimizzare l'immagazzinamento e per altri motivi. La nuova entità Tipo di contenitore presenta le caratteristiche fisiche dei tipi di contenitore. È ora possibile associare le targhe a un tipo specifico di contenitore e utilizzare i limiti di stoccaggio di ubicazione. Ad esempio, è possibile utilizzare questa funzionalità per controllare il numero di pallet (o altri tipi di contenitore) consentiti in una determinata ubicazione. I tipi di contenitore anche sono stati aggiunti a gruppi di sequenze unità per aggiungere tipi di contenitore predefiniti per il processo di ricevimento. I tipi di contenitore possono essere utilizzati insieme alle direttive ubicazione in entrata e in uscita. Possono inoltre essere utilizzati nella visualizzazione delle scorte disponibili per determinare quanti tipi di contenitore sono attualmente disponibili in magazzino. Per ulteriori informazioni, vedere il post di blog [Utilizzo di targhe associato a un tipo di contenitore per guidare i processi di gestione magazzino](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Sebbene questo post di blog descriva un aggiornamento a Microsoft Dynamics AX 2012, lo stesso supporto è stato ora aggiunto a Dynamics 365 for Operations. |
 | Stornare le spedizioni. | In un magazzino, è necessario poter gestire le modifiche dell'ultimo minuto. Ad esempio, alcune merci potrebbero essere danneggiate, in modo che non sia possibile spedirle. In alternativa, un cliente può effettuare una richiesta tardiva di annullamento o modifica di un ordine. Dynamics 365 for Operations ora consente di stornare una spedizione. Di conseguenza, è possibile annullare un documento di trasporto in modo che sia possibile aggiornarlo successivamente con le quantità corrette. Analogamente, sul flusso di entrata, è possibile annullare le entrate prodotti in modo da poter creare una versione aggiornata. |
-| Utilizzare i pallet con articoli combinati. | È ora possibile ricevere e registrare un pallet "combinato". Un pallet combinato consiste di articoli diversi che sono assemblati in un unico pallet per uno o più ordini fornitore o righe. Tutte le registrazioni possono essere riepilogate in una sola targa di destinazione. Questo processo è abilitato tramite il dispositivo mobile del magazzino. Ad esempio, quando il pallet degli articoli combinati arriva presso il magazzino, l'addetto ricevente identifica gli articoli e le quantità sul pallet prima che il pallet verrà spostato nelle ubicazioni di stoccaggio dedicate. Le ubicazioni di stoccaggio vengono identificate da modelli di lavoro e direttive ubicazione. Se le ubicazioni di stoccaggio sono distribuite su diversi articoli con ubicazioni fisse, questa funzionalità crea il numero di righe di lavoro di stoccaggio corrispondente al numero di articoli differenti sul pallet combinato. Questa funzionalità rende la registrazione e lo stoccaggio dei pallet di articoli combinati ricevuti più rapidi e più flessibili. Per ulteriori informazioni, vedere il post di blog [Ricevere e registrare un pallet con le righe del documento di origine miste utilizzando una targa](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) e le informazioni sul supporto di pallet combinati nell'[annuncio del recente aggiornamento cumulativo Microsoft](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Sebbene questo post di blog descriva un aggiornamento ad AX 2012, lo stesso supporto è stato ora aggiunto a Dynamics 365 for Operations. |
+| Utilizzare i pallet con articoli combinati. | È ora possibile ricevere e registrare un pallet "combinato". Un pallet combinato consiste di articoli diversi che sono assemblati in un unico pallet per uno o più ordini fornitore o righe. Tutte le registrazioni possono essere riepilogate in una sola targa di destinazione. Questo processo è abilitato tramite il dispositivo mobile del magazzino. Ad esempio, quando il pallet degli articoli combinati arriva presso il magazzino, l'addetto ricevente identifica gli articoli e le quantità sul pallet prima che il pallet verrà spostato nelle ubicazioni di stoccaggio dedicate. Le ubicazioni di stoccaggio vengono identificate da modelli di lavoro e direttive ubicazione. Se le ubicazioni di stoccaggio sono distribuite su diversi articoli con ubicazioni fisse, questa funzionalità crea il numero di righe di lavoro di stoccaggio corrispondente al numero di articoli differenti sul pallet combinato. Questa funzionalità rende la registrazione e lo stoccaggio dei pallet di articoli combinati ricevuti più rapidi e più flessibili. Per ulteriori informazioni, vedere il post di blog [Ricevere e registrare un pallet con le righe del documento di origine miste utilizzando una targa](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) e le informazioni sul supporto di pallet combinati nell'[annuncio del recente aggiornamento cumulativo Microsoft](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Sebbene questo post di blog descriva un aggiornamento a AX 2012, lo stesso supporto è stato ora aggiunto a Dynamics 365 for Operations. |
 
 ### <a name="minor-feature-enhancements-in-supply-chain-management"></a>Miglioramenti a funzionalità secondarie nella gestione della supply chain
 
@@ -946,4 +945,3 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Novità o modifiche](whats-new-changed.md)
-

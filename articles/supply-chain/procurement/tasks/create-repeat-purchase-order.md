@@ -1,13 +1,13 @@
---- 
+---
 title: Creare un ordine fornitore ripetuto
 description: Questa procedura vi mostra come creare un ordine fornitore (PO) ripetuto copiando le righe da documento di ordine fornitore precedente in un nuovo PO o un PO esistente.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 74dcee8a614363cf1f1ebc71e3e39a14c59bb774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 257582d889ff55753f9bdbd234f0540503d20f27
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345883"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Creare un ordine fornitore ripetuto
 
@@ -84,5 +84,4 @@ Questa procedura vi mostra come creare un ordine fornitore (PO) ripetuto copiand
     * Notare che la singola riga ordine che è su questo PO è anche selezionata.  
 7. Fare clic su OK.
     * La riga supplementare di ordine è stata aggiunta al vostro ordine fornitore.  
-
 

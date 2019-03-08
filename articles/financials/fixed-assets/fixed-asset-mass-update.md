@@ -1,13 +1,13 @@
 ---
 title: Aggiornamento di massa dei cespiti
-description: "Se si utilizzano libri, è possibile modificare le convenzioni di ammortamento per i gruppi di cespiti appartenenti allo stesso libro."
+description: Se si utilizzano libri, è possibile modificare le convenzioni di ammortamento per i gruppi di cespiti appartenenti allo stesso libro.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b740f1fe710c2278bd5ac5f8d615f0e305cd7df1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3fb55f1a51652299db8a31274b07f239fbaf28f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348804"
 ---
-
 # <a name="fixed-asset-mass-update"></a>Aggiornamento di massa dei cespiti
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ Quando si aggiorna la convenzione di ammortamento per i cespiti, si eliminano tu
 Per aggiornare la convenzione di ammortamento per i cespiti già dismessi, è necessario eliminare prima le transazioni di dismissione esistenti. È inoltre necessario eliminare tutte le transazioni generate a causa del processo di dismissione. 
 
 Dopo aver aggiornato la convenzione di ammortamento per i cespiti, è possibile elaborare l'ammortamento e l'ammortamento straordinario per ciascun cespite. È inoltre possibile apportare rettifiche manuali di ammortamento, se necessarie.
-
 
 
 

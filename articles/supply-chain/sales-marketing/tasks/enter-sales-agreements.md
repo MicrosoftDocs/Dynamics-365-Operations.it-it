@@ -1,13 +1,13 @@
---- 
+---
 title: Immettere contratti di vendita
 description: In questa procedura vengono descritti i passaggi per creare un contratto di vendita con cui un cliente si impegna ad acquistare un prodotto per un importo concordato in cambio di sconti speciali.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 025c9fe2f769f37b63bd79c6c3afedc31a955310
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
-ms.contentlocale: it-it
-ms.lasthandoff: 02/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346872"
 ---
 # <a name="enter-sales-agreements"></a>Immettere contratti di vendita
 
@@ -66,5 +66,4 @@ In questa procedura vengono descritti i passaggi per creare un contratto di vend
 13. Fare clic su OK.
 14. Chiudere la pagina.
     * Il contratto è ora effettivo ed è possibile avviare il collegamento degli ordini cliente al contratto, da compensare a fronte della destinazione impegnata.  
-
 

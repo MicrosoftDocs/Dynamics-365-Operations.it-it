@@ -1,13 +1,13 @@
---- 
+---
 title: Confrontare costi attivi, stimati e realizzati su un ordine di produzione
 description: In questa procedura viene illustrato come visualizzare i motivi di scostamenti di produzione elevati per un ordine di produzione.
 author: AndersGirke
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, CostSelectPeriodDialogForm, CostCalculationPeriodTopVariancesListFormPart, ProdTable, CostCalculationCompareDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ed9fac210ba19795cd1d7608b582965564decc2e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1429229096e8aa06bab982f07d0281bbbd5f7861
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347010"
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>Confrontare costi attivi, stimati e realizzati su un ordine di produzione
 
@@ -39,5 +39,4 @@ In questa procedura viene illustrato come visualizzare i motivi di scostamenti d
 5. Nel riquadro azioni, fare clic su Gestisci costi.
 6. Fare clic su Visualizza confronto costi.
 7. Fare clic su Chiudi.
-
 

@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310394"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>Previsioni e budget di progetto
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations offre due metodi per gestire e controllare i progetti: le previsioni di progetto e i budget di progetto. 
+Microsoft Dynamics 365 for Finance and Operations offre due modi per gestire e controllare i progetti: previsioni di progetto e budget di progetto. 
 
 Utilizzare le previsioni di progetto se l'organizzazione si basa su una prospettiva operativa ed è incentrata su ricavi e costi derivati da transazioni specifiche. Utilizzare l'impostazione del budget se l'organizzazione è incentrata maggiormente sugli importi finanziari. 
 
@@ -80,7 +79,6 @@ I budget di progetto vengono associati automaticamente con due modelli prevision
 I modelli previsionali dispongono di una gerarchia a un solo livello. Pertanto, ogni previsione di progetto deve essere associata a un modello previsionale.
 
 Se si utilizzano le previsioni di progetto, è possibile identificare i modelli come sottomodelli. In questo modo è possibile creare previsioni per reparto, periodo di tempo o area. Ad esempio, è possibile creare un modello previsionale per un anno e quindi creare sottomodelli per le previsioni relative alle aree del Nordest, Sudest, Sudovest e Nordovest inviate su base regionale. Scegliendo opzioni diverse nei report disponibili, è possibile visualizzare le informazioni per previsione totale o per sottomodello.
-
 
 
 

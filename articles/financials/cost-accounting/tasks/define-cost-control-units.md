@@ -1,13 +1,13 @@
---- 
-title: "Definire unità di controllo costi"
-description: "In questa procedura viene illustrato come definire le unità di controllo costi nei movimento CoGe di contabilità industriale."
+---
+title: Definire unità di controllo costi
+description: In questa procedura viene illustrato come definire le unità di controllo costi nei movimento CoGe di contabilità industriale.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 296d74a9ca68758d43be1c46acdba7d13d99e9d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05b7acaa903c7223111db2e879cff2147df34628
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315086"
 ---
 # <a name="define-cost-control-units"></a>Definire unità di controllo costi
 
@@ -39,5 +39,4 @@ In questa procedura viene illustrato come definire le unità di controllo costi 
 9. Digitare un valore nel campo Nome.
 10. Nel campo Dimensione immettere o selezionare un valore.
 11. Fare clic su Salva.
-
 

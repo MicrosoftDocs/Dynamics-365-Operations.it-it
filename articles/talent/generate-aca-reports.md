@@ -1,13 +1,13 @@
 ---
 title: Generare report Affordable Care Act (ACA)
-description: "È disponibile una funzionalità che consente ai dipendenti che devono tenere traccia delle informazioni dichiarate sui moduli 1095-B e 1095-C a supporto della parte relativa al mandato del datore di lavoro dell'Affordable Care Act. Questa funzionalità è abilitata solo per le persone giuridiche negli Stati Uniti."
+description: È disponibile una funzionalità che consente ai dipendenti che devono tenere traccia delle informazioni dichiarate sui moduli 1095-B e 1095-C a supporto della parte relativa al mandato del datore di lavoro dell'Affordable Care Act. Questa funzionalità è abilitata solo per le persone giuridiche negli Stati Uniti.
 author: kherr75
 manager: AnnBe
 ms.date: 12/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
 ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
-ms.contentlocale: it-it
-ms.lasthandoff: 12/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304994"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Generare report Affordable Care Act (ACA)
 
@@ -70,4 +70,3 @@ Oltre a visualizzare un elenco di dipendenti che non sono ACA dichiarabili, è i
 Se è necessario dichiarare i singoli dipendenti coperti in quanto come datore di lavoro si fornisce la copertura autoassicurata, è anche possibile visualizzare tutti i dipendenti coperti dai piani di benefit che sono stati contrassegnati come **ACA dichiarabile** selezionando l'azione Visualizza copertura dipendente della striscia del riquadro azioni.
 
 **Nota:** solo i benefit il piano è stato contrassegnato come **ACA dichiarabile** verranno visualizzati nella finestra di richiesta di informazioni.
-

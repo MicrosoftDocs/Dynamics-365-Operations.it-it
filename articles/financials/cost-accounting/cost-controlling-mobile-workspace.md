@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: b6cdb69f32de2118e685c149605d50b78105c098
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317570"
 ---
-
 # <a name="cost-controlling-mobile-workspace"></a>Area di lavoro mobile di controllo costi
 
 [!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Controllo costi**. Questa area di lavoro consente ai responsabili del centro di costo visualizzare informazioni sulle prestazioni del centro di costo in qualsiasi momento e ovunque.
 
-Questa area di lavoro mobile può essere utilizzata con l'app mobile Microsoft Dynamics 365 for Unified Operations.
+Questa area di lavoro mobile può essere utilizzata con l'app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Panoramica
 L'area di lavoro mobile **Controllo costi** fornisce una visualizzazione immediata delle prestazioni correnti dei centri di costo confrontando i costi effettivi rispetto ai costi a budget. È possibile eseguire il drill-down per visualizzare lo stato dei singoli elementi di costo.
@@ -63,7 +62,7 @@ L'area di lavoro mobile **Controllo costi** fornisce le azioni, le visualizzazio
     -   Effettivo rispetto al budget (da inizio anno a oggi)
     -   Effettivo rispetto al budget rivisto (da inizio anno a oggi)
 
-    Gli importi verranno visualizzati in tutte le schede: Effettivo, Budget, Scostamento e % scostamento.
+    Gli importi verranno visualizzati in tutte le schede: Effettivo, Budget, Scostamento e % scostamento.
 
 -   **Collegamenti**:
 
@@ -71,7 +70,7 @@ L'area di lavoro mobile **Controllo costi** fornisce le azioni, le visualizzazio
     -   Dettagli per periodo precedente
     -   Dettagli per anno fino a oggi
 
-    Quando si seleziona un collegamento, viene visualizzata una scheda per ciascun elemento di costo. In ogni scheda vengono visualizzati i seguenti importi: Effettivo, Budget, Scostamento budget, % scostamento budget, Budget rivisto, Scostamento budget rivisto e % scostamento budget rivisto.
+    Quando si seleziona un collegamento, viene visualizzata una scheda per ciascun elemento di costo. In ogni scheda vengono visualizzati i seguenti importi: Effettivo, Budget, Scostamento budget, % scostamento budget, Budget rivisto, Scostamento budget rivisto e % scostamento budget rivisto.
     
     [![Scheda per un elemento costo ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
@@ -144,5 +143,4 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 10. Selezionare il collegamento **Dettagli per periodo corrente**.
 11. Visualizzare le prestazioni dei singoli elementi di costo.
 12. È inoltre possibile cercare elementi di costo specifici.
-
 

@@ -1,13 +1,13 @@
 ---
 title: Codici motivo conteggio scorte
-description: "In questo argomento viene descritto come impostare e applicare i codici motivo ai fini delle attività di conteggio"
+description: In questo argomento viene descritto come impostare e applicare i codici motivo ai fini delle attività di conteggio
 author: Mirzaab
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCountingReasonCodePolicy
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 2f4332432ad73861cd9b6b6452685d3175ace56b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe01425fa236655731e6e0723f3a1e57c05035cc
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320836"
 ---
-
 # <a name="reason-codes-for-inventory-counting"></a>Codici motivo conteggio scorte
 
 [!include [banner](../includes/banner.md)]
@@ -145,4 +144,3 @@ I seguenti campi verranno aggiunti alla voce di menu del dispositivo mobile quan
 - Codice motivo conteggio predefinito
 - Visualizza codice motivo conteggio
 - Modifica codice motivo conteggio
-

@@ -5,9 +5,9 @@ author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e63a33af63144b78d0c375022b9802e11c255598
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8393efd51032271d3023f1e0569425a16222cc3
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319456"
 ---
-
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Supporto della bacheca di trasferimento kanban per i lettori di codici a barre
 
 [!include [banner](../includes/banner.md)]
@@ -45,11 +44,11 @@ Nella scheda dettaglio **Registrazione scanner** è possibile selezionare la mod
 | Vuoto                 | Registra l'unità movimentazione materiali a cui fa riferimento una scheda kanban come vuota.              |
 | Seleziona                | Registra un numero di scheda kanban e seleziona automaticamente il processo di riferimento nell'elenco di processi kanban. |
 
- 
-<a name="registration-mode-select"></a>Modalità di registrazione Seleziona
+ 
+Modalità di registrazione Seleziona
 ------------------------
 
-Quando si utilizza un lettore di codice a barre per selezionare un processo, la modalità di visualizzazione della bacheca kanban cambia. In questo modo, sono valide le seguenti condizioni:
+Quando si utilizza un lettore di codice a barre per selezionare un processo, la modalità di visualizzazione della bacheca kanban cambia. In questo modo, sono valide le seguenti condizioni:
 
 -   Viene visualizzato solo il processo kanban sottoposto a scansione.
 -   I dettagli del processo selezionato vengono visualizzati nella scheda dettaglio **Dettagli**.
@@ -188,7 +187,6 @@ Lo stato del processo selezionato e lo stato di tutti i processi sottoposti a pe
 </tr>
 </tbody>
 </table>
-
 
 
 

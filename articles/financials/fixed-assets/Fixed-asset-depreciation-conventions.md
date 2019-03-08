@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff8575749a33321450ea61fe1f01105c005e9092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337442"
 ---
-
 # <a name="fixed-asset-depreciation-conventions"></a>Convenzioni per l'ammortamento dei cespiti
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ Le convenzioni di ammortamento possono essere assegnate all'impostazione di un l
 | Metà mese (giorno 15 del mese) |                                                                                                                                                        Per calcolare la detrazione dell'ammortamento per l'anno quando si mette la proprietà a servizio, moltiplicare l'ammortamento per un intero anno per una frazione. Il numeratore (numero superiore) della frazione è il numero di mesi completi dell'anno in cui la proprietà è a servizio, più 1/2 o (0,5). Il denominatore (numero inferiore) è 12. Se si smaltisce la proprietà prima della fine del periodo di recupero, utilizzare lo stesso metodo per calcolare la detrazione di ammortamento per l'anno di smaltimento.                                                                                                                                                        |
 | Semestre (inizio anno) |                                                                                                                                                                                                                                                          I cespiti con una data di <strong>Messa a servizio</strong> che cade nella prima metà dell'anno iniziano l'ammortamento il primo giorno dell'anno (intero anno). I cespiti con una data di <strong>Messa a servizio</strong> che cade nella seconda metà dell'anno iniziano l'ammortamento a metà anno.                                                                                                                                                                                                                                                          |
 |   Semestre (prossimo anno)   |                                                            I cespiti con una data di <strong>Messa a servizio</strong> che cade nella prima metà dell'anno iniziano l'ammortamento il primo giorno dell'anno (intero anno). I cespiti con una data di <strong>Messa a servizio</strong> che cade nella seconda metà dell'anno iniziano l'ammortamento il primo giorno dell'anno successivo. I cespiti che sono stati ritirati nella prima metà dell'anno vengono considerati ritirati per scopi di ammortamento l'ultimo giorno dell'anno precedente. Qualsiasi ammortamento registrato durante l'anno corrente deve essere invertito o rettificato. I cespiti che sono stati ritirati nella seconda metà dell'anno vengono considerati ritirati per scopi di ammortamento l'ultimo giorno dell'anno di ritiro.                                                            |
-
 

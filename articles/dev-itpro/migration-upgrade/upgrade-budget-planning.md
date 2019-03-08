@@ -1,13 +1,13 @@
 ---
 title: Aggiornamento della pianificazione del budget
-description: "Tra Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 for Finance and Operations sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento."
+description: Tra Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 for Finance and Operations sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39f516bb6d023ea18492ba3dfe721bd1127c60e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342962"
 ---
-
 # <a name="upgrade-budget-planning"></a>Aggiornamento della pianificazione del budget
 
 [!include [banner](../includes/banner.md)]
@@ -160,7 +159,6 @@ Sono state aggiunte diverse entità di dati per consentire l'implementazione rap
 -   Priorità piano di budget
 -   Colonne piano di budget
 -   Elementi di layout del piano di budget
-
 
 
 

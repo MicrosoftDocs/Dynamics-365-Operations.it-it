@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare e creare profili di ammortamento
 description: I profili di ammortamento determinano il tipo e la frequenza di ammortamento per un cespite.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8bb33a01232e3556d743e8913a61eb2f6375ba73
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4cf469ad1ae0db6a8764eedbcc0160afa03c2808
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336775"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Impostare e creare profili di ammortamento
 
@@ -40,5 +40,4 @@ I profili di ammortamento determinano il tipo e la frequenza di ammortamento per
 6. Selezionare un'opzione nel campo Anno di ammortamento.
 7. Selezionare un'opzione nel campo Frequenza periodo.
 8. Chiudere il modulo.
-
 

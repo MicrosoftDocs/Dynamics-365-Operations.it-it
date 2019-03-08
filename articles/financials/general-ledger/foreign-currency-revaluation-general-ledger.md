@@ -1,13 +1,13 @@
 ---
-title: "Rivalutazione valuta estera per contabilità generale"
-description: "In questo argomento viene fornita una panoramica delle seguenti operazioni relative al processo di rivalutazione valuta estera della contabilità generale: impostazione, esecuzione del processo, calcolo per il processo e lo storno di transazioni di rivalutazione, se necessario."
+title: Rivalutazione valuta estera per contabilità generale
+description: 'In questo argomento viene fornita una panoramica delle seguenti operazioni relative al processo di rivalutazione valuta estera della contabilità generale: impostazione, esecuzione del processo, calcolo per il processo e lo storno di transazioni di rivalutazione, se necessario.'
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f967854e9a39c7b2d76559744bbc1e16a53d7f6a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315546"
 ---
-
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Rivalutazione valuta estera per contabilità generale
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Verrà creata la voce contabile che segue.
 Per stornare la transazione di rivalutazione, selezionare il pulsante **Transazione di storno** nella pagina **Rivalutazione valuta estera**. Un nuovo record cronologico di rivalutazione valuta estera verrà creato per mantenere un audit trail storico di quando la rivalutazione si è verificata o è stata stornata. 
 
 È possibile stornare i risultati dell'ordine superato di rivalutazione, ma potrebbe essere necessario stornare inoltre una rivalutazione più recente per garantire i saldi corretti per ogni conto principale rivalutato. Gli storni possono verificarsi quando un ordine è superato poiché non è possibile controllare quali conti principali siano rivalutati e con quale frequenza. Ad esempio, un'organizzazione può scegliere di rivalutare i relativi conti principali di cassa su base trimestrale, ma tutti gli altri conti principali su base mensile.
-
 
 
 

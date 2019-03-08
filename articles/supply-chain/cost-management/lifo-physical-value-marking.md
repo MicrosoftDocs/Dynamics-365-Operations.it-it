@@ -1,13 +1,13 @@
 ---
 title: Informazioni su LIFO con valore fisico e contrassegno
-description: "LIFO (Last In, First Out) è un modello inventariale in cui le ultime entrate (le più recenti) sono le prime a uscire. Le uscite da magazzino vengono compensate a fronte delle ultime entrate in magazzino in base alla data dell'operazione di magazzino."
+description: LIFO (Last In, First Out) è un modello inventariale in cui le ultime entrate (le più recenti) sono le prime a uscire. Le uscite da magazzino vengono compensate a fronte delle ultime entrate in magazzino in base alla data dell'operazione di magazzino.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: db6d04a64821b3b02679056f787092dc40ef4423
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344204"
 ---
-
 # <a name="lifo-with-physical-value-and-marking"></a>Informazioni su LIFO con valore fisico e contrassegno
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
 - Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 - Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
-- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unit di prezzo.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore della transazione di magazzino è specificato nel formato Quantità/Prezzo unitario.
 - Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 - Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 - Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
@@ -98,7 +97,7 @@ La seguente illustrazione mostra gli effetti del modello inventariale LIFO in qu
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
 - Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 - Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
-- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unit di prezzo.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore della transazione di magazzino è specificato nel formato Quantità/Prezzo unitario.
 - Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 - Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 - Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
@@ -140,14 +139,13 @@ Nella seguente illustrazione vengono mostrati gli effetti del modello inventaria
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
 - Le entrate in magazzino sono rappresentate da frecce verticali al di sopra della sequenza temporale.
 - Le uscite da magazzino sono rappresentate da frecce verticali al di sotto della sequenza temporale.
-- Al di sopra o al di sotto di ciascuna freccia verticale, il valore dell'operazione di magazzino è specificato nel formato Quantity@Unit di prezzo.
+- Al di sopra o al di sotto di ciascuna freccia verticale, il valore della transazione di magazzino è specificato nel formato Quantità/Prezzo unitario.
 - Un valore di transazione di magazzino racchiuso tra parentesi indica che l'operazione è stata registrata fisicamente in magazzino.
 - Un valore di transazione di magazzino non racchiuso tra parentesi indica che l'operazione è stata registrata finanziariamente in magazzino.
 - Ogni nuova transazione in entrata o in uscita è indicata con una nuova etichetta.
 - Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
 - Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
 - Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
-
 
 
 

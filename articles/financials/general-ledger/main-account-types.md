@@ -1,13 +1,13 @@
 ---
 title: Tipi di conto principale
-description: "I tipi di conto principale determinano la modalità di utilizzo di un conto principale nel piano dei conti."
+description: I tipi di conto principale determinano la modalità di utilizzo di un conto principale nel piano dei conti.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5aadac3defc01be10daf5f3737d428135f4fb544
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31d070972afd76f6069924e2c9a1ca3bcb4ba8d2
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313867"
 ---
-
 # <a name="main-account-types"></a>Tipi di conto principale
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ I tipi di conto principale determinano la modalità di utilizzo di un conto prin
 -   Reporting: questi conti principali vengono utilizzati per i report del rendiconto finanziario (solo per il Brasile).
 
 Per ulteriori informazioni, vedere [Impostare le categorie di conti principali](tasks/set-up-main-account-categories.md).
-
 
 
 

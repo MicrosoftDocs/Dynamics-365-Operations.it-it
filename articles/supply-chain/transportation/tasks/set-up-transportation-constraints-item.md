@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare vincoli di trasporto per un articolo
-description: "Questa procedura imposterà un vincolo di trasporto per impedire a un articolo selezionato di essere trasportato tramite un hub selezionato."
+description: Questa procedura imposterà un vincolo di trasporto per impedire a un articolo selezionato di essere trasportato tramite un hub selezionato.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSConstraint, InventLocationIdLookup, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 900ea1476c95d295a151125afe46aebd9642630e
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338132"
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Impostare vincoli di trasporto per un articolo
 
@@ -43,5 +43,4 @@ Questa procedura imposterà un vincolo di trasporto per impedire a un articolo s
 9. Selezionare un'opzione nel campo Azione vincolo.
 10. Fare clic su Salva.
 11. Chiudere la pagina.
-
 

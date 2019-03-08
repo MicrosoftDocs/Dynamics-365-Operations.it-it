@@ -1,13 +1,13 @@
 ---
-title: "Rivalutazione valuta estera per la contabilità fornitori e la contabilità clienti"
-description: "Le fluttuazioni nei tassi di cambio causano la variazione nel tempo del valore teorico (contabile) delle transazioni aperte in valuta estera. Questo articolo fornisce informazioni sul processo di rivalutazione valuta estera eseguito per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti."
+title: Rivalutazione valuta estera per la contabilità fornitori e la contabilità clienti
+description: Le fluttuazioni nei tassi di cambio causano la variazione nel tempo del valore teorico (contabile) delle transazioni aperte in valuta estera. Questo articolo fornisce informazioni sul processo di rivalutazione valuta estera eseguito per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: da1aee4c678cb4786d52abc81b787edceaa5aa38
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341329"
 ---
-
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Rivalutazione valuta estera per la contabilità fornitori e la contabilità clienti
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Viene generato un record ogni volta che si esegue una rivalutazione valuta ester
     -   **Nessuna**: non viene registrata alcuna dimensione finanziaria. Se nella struttura dei conti è presente una dimensione finanziaria obbligatoria, il processo di rivalutazione viene comunque eseguito e crea le voci contabili prive di dimensioni finanziarie. Verrà visualizzato prima un messaggio di avviso, in modo da poter annullare la rivalutazione.
     -   **Tabella**: nelle transazioni di rivalutazione valuta estera vengono registrate le dimensioni finanziarie del conto cliente o fornitore.
     -   **Registrazioni**: nelle transazioni di rivalutazione valuta estera vengono registrate le dimensioni finanziarie della transazione da rivalutare. Per impostazione predefinita, le dimensioni finanziarie del conto CoGe di contabilità clienti/fornitori della transazione originale verranno utilizzate per il conto principale di contabilità clienti/fornitori della della transazione di rivalutazione e le dimensioni finanziarie del conto CoGe di spesa, ricavi o cespiti verranno utilizzate per il conto principale di profitto non realizzato o perdita della transazione di rivalutazione.
-
 
 
 

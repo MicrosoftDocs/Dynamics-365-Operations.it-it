@@ -1,13 +1,13 @@
 ---
 title: Approvazioni fatture per dispositivi mobili
-description: "Questo argomento è destinato a fornire un approccio pratico alla progettazione di scenari mobili in in Dynamics 365 for Finance and Operations utilizzando l'approvazione delle fatture fornitore come caso d'uso."
+description: Questo argomento è destinato a fornire un approccio pratico alla progettazione di scenari mobili in Dynamics 365 for Finance and Operations utilizzando l'approvazione delle fatture fornitore come caso d'uso.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314396"
 ---
-
 # <a name="mobile-invoice-approvals"></a>Approvazioni fatture per dispositivi mobili
 
 [!include [banner](../includes/banner.md)]
@@ -297,7 +296,7 @@ Per aggiungere le azioni del flusso di lavoro, utilizzare la pagina **VendMobile
 
 1. Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**.
 2. Fare clic sul pulsante **Modifica** per avviare la modalità di modifica nell'area di lavoro.
-3. Selezionare la pagina <strong>Invoice details** creata in precedenza, quindi fare clic su **Modifica</strong>.
+3. Selezionare la pagina <strong>Invoice detailsv **creata in precedenza, quindi fare clic su** Modifica</strong>.
 4. Impostare l'opzione **Gestione documenti** su **Sì** come indicato di seguito. **Nota:** Se non sono presenti esigenze di visualizzare gli allegati sul dispositivo mobile, è possibile lasciare questa opzione impostata su **No**, che è l'impostazione predefinita.
    ![Gestione documenti](./media/docmanagement-216x300.png)
 5. Fare clic su **Fine** per uscire dalla modalità di modifica.
@@ -488,7 +487,6 @@ Le variazioni seguenti possono essere effettuate per lo scenario 1, in base ai r
     3.  A livello ideale, le distribuzioni devono essere visualizzate nel contesto di una riga della fattura in questo scenario. Di conseguenza, assicurarsi che l'utente possa eseguire il drill-down in una riga per visualizzare la pagina delle distribuzioni. Utilizzare la funzionalità di collegamento pagina per stabilire il drill-through, esattamente come fatto per l'intestazione e le pagine dei dettagli nello scenario 1.
 
 2.  Poiché sono previsti più tipi di importo nelle distribuzioni nello scenario 2 (IVA, spese e così via), sarà utile visualizzare la descrizione del tipo di importo. (Abbiamo omesso queste informazioni nello scenario 1).
-
 
 
 

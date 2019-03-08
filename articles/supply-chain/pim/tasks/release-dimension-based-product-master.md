@@ -1,13 +1,13 @@
---- 
+---
 title: Rilasciare una rappresentazione generale prodotto basata su dimensioni
 description: Questa procedura mostra come emettere una rappresentazione generale prodotto da utilizzare per le configurazioni basate su dimensioni.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductRelease
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5cf81b3a0c4d139df14d88f5915bb8514741f828
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2070e9a0b5c2c30185c9fda8ac992935219599ee
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325160"
 ---
 # <a name="release-a-dimension-based-product-master"></a>Rilasciare una rappresentazione generale prodotto basata su dimensioni
 
@@ -40,5 +40,4 @@ Questa procedura mostra come emettere una rappresentazione generale prodotto da 
     * Selezionare l'USMF della società per questa procedura.  
 7. Scegliere Avanti.
 8. Scegliere Fine.
-
 

@@ -1,31 +1,30 @@
 ---
 title: Modelli di assistenza
-description: "È possibile definire un contratto di assistenza come modello e copiare in seguito le righe del modello in un altro contratto di assistenza o in un ordine di assistenza."
+description: È possibile definire un contratto di assistenza come modello e copiare in seguito le righe del modello in un altro contratto di assistenza o in un ordine di assistenza.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6c4bde1869b2be6e4cbbf979dae1b84c2a4974a9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 09f2da382cd7f3e0e3d4bfa389e9cdf74f00b501
-ms.openlocfilehash: ade518095b77141fb31b597a955dd23aaae119d7
-ms.contentlocale: it-it
-ms.lasthandoff: 02/27/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327322"
 ---
-
 # <a name="service-templates"></a>Modelli di assistenza
 
 [!include [banner](../includes/banner.md)]
@@ -59,4 +58,3 @@ Per determinare in modo più semplice le righe del modello da copiare, raggruppa
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Copiare le righe di modelli di assistenza](copy-service-template-lines.md)
-

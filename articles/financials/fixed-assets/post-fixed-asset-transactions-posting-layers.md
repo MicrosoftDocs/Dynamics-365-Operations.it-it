@@ -1,13 +1,13 @@
 ---
 title: Registrare transazioni cespiti nei livelli di registrazione
-description: "Questo articolo fornisce una panoramica delle funzionalità del livello di registrazione per le transazioni cespiti."
+description: Questo articolo fornisce una panoramica delle funzionalità del livello di registrazione per le transazioni cespiti.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 22feb15a1891c57576a5809f4ff3f4d089c6dfa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b210bddf640dff2d65e2aec63a18c27acebdc5a8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323343"
 ---
-
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Registrare transazioni cespiti nei livelli di registrazione
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ I giornali di registrazione cespiti vengono definiti mediante la pagina  Nomi gi
 > L'utilizzo di libri derivati consente di registrare transazioni contemporaneamente in diversi livelli di registrazione. Le transazioni del libro principale vengono create in un giornale di registrazione con il livello di registrazione corrispondente a quello del libro. Durante la registrazione le transazioni del libro derivato vengono registrate nei livelli di registrazione appropriati.
 
 Per ulteriori informazioni, vedere [Libri derivati](derived-books.md) e [Registrazione con i libri derivati](post-derived-value-models.md).
-
 
 
 

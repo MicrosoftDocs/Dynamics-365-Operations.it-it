@@ -1,31 +1,30 @@
 ---
-title: "Salvare guide attività in LCS e riprodurle"
-description: "In questo argomento viene descritto come salvare guide attività in Microsoft Dynamics Lifecycle Services(LCS) e riprodurle."
+title: Salvare le guide attività in LCS e riprodurle nuovamente
+description: In questo argomento viene descritto come salvare guide attività in Microsoft Dynamics Lifecycle Services(LCS) e riprodurle.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 40b4c3154a04a557b8a670e1f1ae3722c71122fe
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305018"
 ---
-
-# <a name="save-task-guides-to-lcs-and-replay-them"></a>Salvare guide attività in LCS e riprodurle
+# <a name="save-task-guides-to-lcs-and-replay-them"></a>Salvare le guide attività in LCS e riprodurle nuovamente
 
 [!include [banner](includes/banner.md)]
 
@@ -66,4 +65,3 @@ Seguire questi passaggi per riprodurre una guida attività da LCS.
 2. Selezionare **Apri da LCS**.
 3. Selezionare la libreria e il nodo BPM con la guida attività salvata.
 4. Aprire la guida attività.
-

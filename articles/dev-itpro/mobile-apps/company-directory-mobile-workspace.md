@@ -1,13 +1,13 @@
 ---
 title: Area di lavoro mobile della directory aziendale
-description: "In questo argomento vengono fornite informazioni sull'area di lavoro mobile directory della società, che consente agli utenti di vedere e contattare altri dipendenti nell'organizzazione."
+description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile directory della società, che consente agli utenti di vedere e contattare altri dipendenti nell'organizzazione.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: it-it
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308623"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>Area di lavoro mobile della directory aziendale
 
 [!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Directory società**. Questa area di lavoro consente agli utenti di visualizzare e contattare altri dipendenti nell'organizzazione.
 
-Questa area di lavoro mobile può essere utilizzata con l'app  mobile Microsoft Dynamics 365 for Unified Operations.
+Questa area di lavoro mobile può essere utilizzata con l'app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Panoramica
 L'area di lavoro mobile **Directory società** consente agli utenti di eseguire queste attività:
@@ -58,7 +57,7 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 </ul>
 </td>
 <td>Amministratore di sistema</td>
-<td>Se Finance and Operations non è stato ancora distribuito nell'organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>. Se Talent non è stato ancora distribuito nell'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione nella <a href="https://www.microsoft.com/en-us/dynamics365/talent">pagina Web di Talent</a>.
+<td>Se Finance and Operations non è stato ancora distribuito nell&#39;organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>. Se Talent non è stato ancora distribuito nell&#39;'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione nella pagina <a href="https://www.microsoft.com/en-us/dynamics365/talent">Web di Talent</a>.
 </td>
 </tr>
 <tr class="even">
@@ -91,4 +90,3 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 1.  Nell'app mobile, selezionare l'area di lavoro **Directory società**.
 2.  Nel campo **Ricerca**, immettere il nome, il cognome, il titolo o il reparto del dipendente per avviare la ricerca.
 3.  Selezionare un dipendente. Viene visualizzata la pagina **Profilo dipendente**. Le informazioni contenute in questa pagina includono il nome, il cognome, la titolo e il reparto del dipendente.
-

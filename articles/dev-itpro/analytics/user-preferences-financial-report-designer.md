@@ -1,13 +1,13 @@
 ---
 title: Preferenze dell'utente in Progettazione report finanziari
-description: "In questo articolo viene spiegato come impostare le preferenze utente per personalizzare le interazioni utente in Progettazione report finanziari e controllare l'esperienza di accesso iniziale. È inoltre possibile controllare come singoli report, la raccolta report e i percorsi predefiniti dei file vengono visualizzati."
+description: In questo articolo viene spiegato come impostare le preferenze utente per personalizzare le interazioni utente in Progettazione report finanziari e controllare l'esperienza di accesso iniziale. È inoltre possibile controllare come singoli report, la raccolta report e i percorsi predefiniti dei file vengono visualizzati.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324217"
 ---
-
 # <a name="user-preferences-in-financial-report-designer"></a>Preferenze dell'utente in Progettazione report finanziari
 
 [!include [banner](../includes/banner.md)]
@@ -74,4 +73,3 @@ In questo articolo viene spiegato come impostare le preferenze utente per person
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-

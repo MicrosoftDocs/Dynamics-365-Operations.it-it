@@ -5,9 +5,9 @@ author: kfend
 manager: AnnBe
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
 ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334774"
 ---
-
 # <a name="get-support-for-finance-and-operations-or-lifecycle-services-lcs"></a>Ottenere supporto per Finance and Operations o Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
 In questo articolo viene descritto come ottenere supporto per Finance and Operations o Microsoft Dynamics Lifecycle Services (LCS). 
 
-## <a name="contact-support"></a>Contattare il supporto
+## <a name="contact-support"></a>Contatta il supporto
 
 Utilizzare le informazioni in questo articolo per contattare Microsoft in caso di quesiti tecnici su Finance and Operations o se si necessita di assistenza per accedere a Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -53,7 +52,7 @@ Per ottenere supporto per Finance and Operations o LCS, utilizzare le risorse ne
 <tbody>
 <tr class="odd">
 <td>Chiedere alla community</td>
-<td>Accedere alla pagina della <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">community di Dynamics 365 for Finance and Operations</span></a> per ottenere informazioni utili dalla community di Dynamics.</td>
+<td>Accedere alla pagina della <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">community di Dynamics 365 for Finance and Operations</span></a> per ottenere risposte alle domande dalla community di Dynamics.</td>
 </tr>
 <tr class="even">
 <td>Utilizzare lo strumento Ricerca argomento</td>
@@ -93,5 +92,4 @@ Per quesiti tecnici relative all'accesso a CustomerSource, e-learning, ricerca, 
 - [Ottenere supporto per Dynamics 365 for Retail](../../retail/retail-support.md)
 - [Ottenere supporto per Dynamics 365 for Talent](../../talent/talent-support.md)
 - Per ulteriori informazioni sui piani di supporto di Microsoft Dynamics, vedere [Supporto Microsoft Dynamics Online](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
-
 

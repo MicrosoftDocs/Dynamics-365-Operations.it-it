@@ -5,9 +5,9 @@ author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340616"
 ---
-
 # <a name="set-up-bar-code-masks"></a>Impostare le maschere codice a barre
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ Le maschere codice a barre sono utilizzate per creare i codici a barre e identif
 | Dipendente         | Indica il segmento del codice a barre per il numero ID dipendente utilizzato per l'accesso al POS del codice a barre. |
 | Cliente         | Indica il segmento di ID cliente. |
 | Immissione dati       | *Non ancora implementato.* |
-| Codice sconto    | *Ammortizzato* come da Dynamics 365 for Retail versione della primavera 2017. Precedentemente: indica il codice sconto per un codice a barre utilizzato per aggiungere uno sconto a una transazione del POS. |
+| Codice sconto    | *Obsoleto* dalla versione Dynamics 365 for Retail della primavera 2017. Precedentemente: indica il codice sconto per un codice a barre utilizzato per aggiungere uno sconto a una transazione del POS. |
 | Codice buono sconto      | Indica il codice buono sconto per un codice a barre utilizzato per aggiungere uno sconto a un ordine al dettaglio. Sostituisce il codice sconto. |
 | Gift card        | Indica il numero della gift card quando si emette o si effettua il pagamento tramite gift card. |
 | Carta fedeltà     | Aggiunge un cliente del programma fedeltà alla transazione e può essere utilizzato quando si paga mediante il programma fedeltà. |
@@ -84,4 +83,3 @@ Le maschere codice a barre devono essere assegnate ai codici a barre prima di po
 5. Fare clic su **Salva**.
 
 La maschera codice a barre può ora essere utilizzata per creare codici a barre per prodotti. I passaggi precedenti sono esempi che illustrano come creare maschere codice a barre per prodotti, ma descrivono anche come creare maschere codice a barre per qualsiasi altro tipo di codice a barre supportato. Le maschere, i tipi e le lunghezze dei codici a barre devono essere modificati in base all'utilizzo nell'ambiente specifico.
-

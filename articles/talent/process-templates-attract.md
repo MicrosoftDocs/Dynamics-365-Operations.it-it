@@ -5,9 +5,9 @@ author: hasrivas
 manager: AnnBe
 ms.date: 10/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: 2b9cac68093be65584192757229c20b1a1546342
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "304997"
 ---
-
 # <a name="create-a-process-template-in-attract"></a>Creare un modello di processo in Attract
 
 [!include [banner](includes/banner.md)]
@@ -72,4 +71,3 @@ Per creare un modello di processo di assunzione, attenersi alla procedura seguen
     - Per rimuovere un'attività, espanderla, quindi fare clic sul pulsante di pattumiera nell'intestazione dell'attività.
 
 8. Selezionare **Salva**.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Esaminare le configurazioni per generare report in formato di Office con immagini incorporate
-description: "Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività \"ER Creare report in formati di Microsoft Office con immagini incluse (Parte 1: Generare i report)\"."
+description: 'Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività "ER Creare report in formati di Microsoft Office con immagini incluse (Parte 1: Generare i report)".'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331416"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Esaminare le configurazioni per generare report in formato di Office con immagini incorporate
 
@@ -91,5 +91,4 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 14. Nella struttura espandere "labels: Container".
     * Alcune etichette presentate nel modulo dell'assegno prestampato verranno incluse nel report quando è creato a scopo di verifica. Tuttavia, le etichette non verranno stampate durante la stampa effettiva in quanto il modulo prestampato le include già.  
 15. Chiudere la pagina.
-
 

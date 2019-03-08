@@ -5,9 +5,9 @@ author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 72bfbb878fa076e204e00c3ccaceb4ba04c00ea9
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305001"
 ---
 # <a name="leave-and-absence-management"></a>Gestione di congedo e assenza
 
@@ -68,4 +68,3 @@ Il modulo di gestione di congedi e assenze fornisce le seguenti funzionalità:
 - **Inoltro delle richieste di permesso**
 
     I dipendenti possono inoltrare le richieste di permesso a fronte delle ore disponibili. Le richieste possono essere semplici richieste di un solo giorno oppure di più giorni che includono più tipi di congedo e assenza. Se un flusso di lavoro non è attivato, le richieste vengono approvate automaticamente. Se un flusso di lavoro è attivato, l'approvazione può essere automatica o richiedere una conferma, a seconda della configurazione del flusso di lavoro.
-

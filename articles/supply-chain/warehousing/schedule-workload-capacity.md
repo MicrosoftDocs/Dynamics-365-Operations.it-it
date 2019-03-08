@@ -1,13 +1,13 @@
 ---
-title: "Programmare capacità carico di lavoro"
-description: "In questo argomento viene descritto come impostare e programmare la capacità di carico di lavoro per i lavoratori di un magazzino o per un intero magazzino."
+title: Programmare capacità carico di lavoro
+description: In questo argomento viene descritto come impostare e programmare la capacità di carico di lavoro per i lavoratori di un magazzino o per un intero magazzino.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.contentlocale: it-it
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317294"
 ---
-
 # <a name="schedule-workload-capacity"></a>Programmare capacità carico di lavoro
 
 [!include[banner](../includes/banner.md)]
@@ -81,4 +80,3 @@ Se queste informazioni non sono state specificate correttamente, alla generazion
 3. Nel campo **Tipo di ordine**, selezionare **Pianificato e confermato**, **Pianificato** o **Confermato** per indicare il tipo di ordini da proiettare nel report.
 4. Nel campo **Tipo di carico** selezionare un tipo di carico per indicare se la capacità del carico di lavoro deve essere proiettata per il volume o il peso.
 5. Nel campo **Capacità di carico di lavoro** selezionare un'impostazione di capacità del carico da lavoro.
-

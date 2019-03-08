@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f83091a9f3e96a9176860bd16fa5969507488a25
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 3b5657e5eb2719702eae3a3c5178b3a04f7545e3
-ms.contentlocale: it-it
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346228"
 ---
 # <a name="start-a-production-order"></a>Avviare un ordine di produzione
 
@@ -70,4 +70,3 @@ Questa procedura mostra come avviare un ordine di produzione in Controllo shop f
 7. Fare clic su Registra.
 8. Fare clic su OK.
     * Nel giornale di registrazione schede cicli di lavorazione, il tempo trascorso sulle singole operazioni viene registrato. È possibile dichiarare anche la quantità idonea e quella difettosa.  
-

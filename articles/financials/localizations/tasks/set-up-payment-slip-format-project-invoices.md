@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare un formato per la distinta di pagamento per le fatture di progetto
-description: "Le aziende generalmente allegano le distinte di pagamento stampate alle fatture per comodità dei clienti e per fornire un riferimento di pagamento per la registrazione e la liquidazione."
+description: Le aziende generalmente allegano le distinte di pagamento stampate alle fatture per comodità dei clienti e per fornire un riferimento di pagamento per la registrazione e la liquidazione.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, CustFormletterParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b365585e884749bb73f8ba9054e446f210e10f37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9700571110a1b488e250dd8ee7b8c5c8f15cbc01
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345607"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Impostare un formato per la distinta di pagamento per le fatture di progetto
 
@@ -65,5 +65,4 @@ Questa funzionalità è disponibile per le persone giuridiche il cui indirizzo p
     * Nessuno: non stampare una distinta di pagamento. Scegliere questa opzione se l'importo del pagamento è in una valuta diversa dalla corona danese (DKK).   FIK 751: stampare una distinta di pagamento FIK 751 se si desidera scrivere manualmente l'importo del pagamento e la data di scadenza nella distinta di pagamento.   FIK 752: stampare una distinta di pagamento FIK 752 se si desidera utilizzare una distinta di pagamento generata dal computer con importo di pagamento e data di scadenza prestampati.  
 16. Fare clic su Salva.
 17. Chiudere la pagina.
-
 

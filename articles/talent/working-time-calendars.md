@@ -1,31 +1,30 @@
 ---
 title: Calendari orario di lavoro
-description: "Questo argomento descrive i calendari orario di lavoro in Dynamics 365 for Talent - Core HR, nonché come impostare i calendari."
+description: Questo argomento descrive i calendari orario di lavoro in Dynamics 365 for Talent - Core HR, nonché come impostare i calendari.
 author: jcart1106
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 2465065d7db18a5468d7c979e0d6cb9c7e76f969
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304957"
 ---
-
 # <a name="working-time-calendars"></a>Calendari orario di lavoro
 
 [!include [banner](includes/banner.md)]
@@ -59,4 +58,3 @@ Per impostare un calendario, seguire questi passaggi:
 10. Per assegnare un calendario ai dipendenti, nel riquadro azioni selezionare **Assegna ai dipendenti**. Selezionare i dipendenti a cui si desidera assegnare il calendario e quindi fare clic su **Assegna**.
 
 Per i dipendenti non è obbligatorio avere calendari assegnati. Se è presente un calendario orario di lavoro definito, i giorni non lavorativi vengono esclusi automaticamente dalla richiesta. La quantità, in ore o giorni, è per impostazione predefinita pari alle ore di lavoro definite nel calendario. Se a un dipendente non è assegnato un calendario, tutti i giorni sono disponibili per il permesso e la quantità di permessi non è il valore predefinito per la richiesta. 
-

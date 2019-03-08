@@ -1,13 +1,13 @@
---- 
+---
 title: Generare ed elaborare sconti cliente
-description: "Questa procedura mostra come elaborare gli sconti dalla creazione della richiesta al punto di passarli come ratei alla Contabilità clienti."
+description: Questa procedura mostra come elaborare gli sconti dalla creazione della richiesta al punto di passarli come ratei alla Contabilità clienti.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336453"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generare ed elaborare sconti cliente
 
@@ -83,5 +83,4 @@ Questa procedura mostra come elaborare gli sconti dalla creazione della richiest
 9. Nel campo Cliente immettere o selezionare un valore.
 10. Fare clic su OK.
     * Un messaggio indica che lo sconto è stato elaborato correttamente e lo stato delle richieste è stato modificato in Contrassegna. Ciò significa che come conseguenza della registrazione di un giornale di registrazione dei ratei dello sconto: a) le richieste sono state trasferite nel saldo temporaneo del cliente come detrazioni, b) sul conto di attribuzione per competenza dello sconto è stato effettuato l'accredito per passività futura verso il cliente e c) è stato effettuato l'addebito sul conto spese dello sconto, nel rispetto del costo sostenuto in relazione alle vendite.   
-
 

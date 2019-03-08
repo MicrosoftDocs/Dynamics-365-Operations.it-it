@@ -1,13 +1,13 @@
 ---
 title: Risorse umane
-description: "Risorse umane consente di semplificare molte attività di routine di gestione dei record e automatizzare diversi processi relativi al personale dell'organizzazione. Fornisce inoltre una struttura per il personale delle risorse umane per gestire le aree di supervisione. Queste aree prevedono la selezione e l'assunzione di dipendenti, l'amministrazione di benefit, la formazione, la valutazione delle prestazioni e la gestione delle modifiche."
+description: Risorse umane consente di semplificare molte attività di routine di gestione dei record e automatizzare diversi processi relativi al personale dell'organizzazione. Fornisce inoltre una struttura per il personale delle risorse umane per gestire le aree di supervisione. Queste aree prevedono la selezione e l'assunzione di dipendenti, l'amministrazione di benefit, la formazione, la valutazione delle prestazioni e la gestione delle modifiche.
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341766"
 ---
-
 # <a name="human-resources"></a>Risorse umane
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,7 @@ Oltre a remunerare il personale con salari, stipendi e premi, è possibile svilu
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Mantenere la conformità e la sicurezza sul posto di lavoro
 
-Microsoft Dynamics AX consente di mantenere un ambiente di lavoro sicuro conforme alle leggi applicabili, comprese le disposizione dell'Americans with Disabilities Act e le leggi sull'immigrazione e sulla naturalizzazione, a titolo esemplificativo. Ad esempio, è possibile gestire i requisiti fisici per mansioni specifiche nonché tenere traccia di richieste di facilitazioni che possono agevolare l'organizzazione nell'ottimizzare le competenze della forza lavoro.
+Microsoft Dynamics AX consente di mantenere un ambiente di lavoro sicuro e conforme alle leggi applicabili, comprese le disposizioni statunitensi dell'Americans with Disabilities Act e le leggi sull'immigrazione e sulla naturalizzazione, a titolo esemplificativo. Ad esempio, è possibile gestire i requisiti fisici per mansioni specifiche nonché tenere traccia di richieste di facilitazioni che possono agevolare l'organizzazione nell'ottimizzare le competenze della forza lavoro.
 
 - [Verifica di impiego del modulo I-9](localizations/noam-usa-form-i-9-verification.md)
 - [Conformità all'Americans with Disabilities Act](localizations/noam-usa-comply-ada.md)
@@ -95,4 +94,3 @@ Microsoft Dynamics AX consente di mantenere un ambiente di lavoro sicuro conform
 - [Progettare un questionario](../../talent/design-questionnaires.md)
 - [Distribuire e completare un questionario](../../talent/distribute-questionnaires.md)
 - [Visualizzare e valutare i risultati di un questionario](../../talent/evaluate-questionnaire-results.md)
-

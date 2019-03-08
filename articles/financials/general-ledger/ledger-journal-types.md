@@ -1,13 +1,13 @@
 ---
-title: "Tipi di giornale di registrazione contabilità generale"
-description: "In questo argomento vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari."
+title: Tipi di giornale di registrazione contabilità generale
+description: In questo argomento vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308669"
 ---
-
 # <a name="ledger-journal-types"></a>Tipi di giornale di registrazione contabilità generale
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina **Nomi giornale di registrazione** per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Finance and Operations.
+In questo argomento vengono descritti i tipi di giornale di registrazione che è possibile impostare per i giornali di registrazione finanziari. Utilizzare la pagina **Nomi giornale** di registrazione per impostare i giornali di registrazione che è possibile utilizzare con Microsoft Dynamics 365 for Finance and Operations.
 
 | Tipo giornale di registrazione                      | Scopo                       | Immettere le transazioni in questa pagina                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -64,7 +63,6 @@ In questo argomento vengono descritti i tipi di giornale di registrazione che è
 | Registrazione fattura fornitore          | Registrare le fatture fornitore che si trovano in un giornale di registrazione.                                                                                                                                                                                                                                                                                                                 | Giornale di registrazione fatture                                                |
 | Effetto passivo fornitore riemesso     | Riemettere un effetto passivo che è stato precedentemente onorato dalla banca dell'organizzazione.                                                                                                                                                                                                                                                                      | Giornale di registrazione effetti passivi riemessi                                 |
 | Effetto passivo fornitore liquidato     | Creare transazioni relative a effetti passivi fornitore liquidati.                                                                                                                                                                                                                                                                                                          | Giornale di registrazione effetti passivi liquidati                                 |
-
 
 
 

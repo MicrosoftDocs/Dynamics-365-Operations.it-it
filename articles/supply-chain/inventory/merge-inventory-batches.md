@@ -1,13 +1,13 @@
 ---
 title: Unisci batch di magazzino
-description: "In questo articolo vengono fornite informazioni sul consolidamento di due o più batch di magazzino in un batch unito."
+description: In questo articolo vengono fornite informazioni sul consolidamento di due o più batch di magazzino in un batch unito.
 author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319824"
 ---
-
 # <a name="merge-inventory-batches"></a>Unisci batch di magazzino
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Sì, sono disponibili alcune cose che è necessario impostare prima di utilizzar
 <td>Prodotti rilasciati</td>
 <td>Di seguito sono riportate le impostazioni consigliate per l'articolo:
 <ul>
-<li>Per generare automaticamente i numeri batch per i batch uniti, è necessario assegnare il prodotto rilasciato a un gruppo del numero batch. È inoltre possibile immettere un numero batch manualmente quando si crea un batch unito oppure selezionare un numero batch esistente. Se si seleziona un numero batch esistente, assicurarsi che il batch selezionato non sia stato incluso in alcuna operazione di magazzino.</li>
+<li>Per generare automaticamente i numeri batch per i batch uniti, è necessario assegnare il prodotto rilasciato a un gruppo del numero batch. È inoltre possibile immettere un numero batch manualmente quando si crea un batch unito oppure selezionare un numero batch esistente. Se viene selezionato un numero batch esistente, assicurarsi che il batch selezionato non sia stato incluso in alcuna operazione di magazzino.</li>
 <li>Se si utilizza la durata a scaffale o la data di consumo consigliata per il prodotto rilasciato, le date per un batch unito verranno calcolate in base alla selezione nel campo <strong>Calcolo data unione batch</strong>. Sono disponibili le seguenti opzioni:
 <ul>
 <li><strong>Prima possibile</strong>: il calcolo si basa sulla prima data specificata per un batch di origine selezionato per l'unione batch.</li>
@@ -141,4 +140,3 @@ La registrazione funziona in due modi, a seconda che si utilizzi un processo di 
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Perché non riesco a visualizzare le informazioni sul peso variabile nel giornale di registrazione magazzino dopo aver unito un articolo a peso variabile?
 È possibile unire i batch degli articoli a peso variabile come tutti gli altri articoli. Tuttavia, le informazioni sul peso variabile non vengono visualizzate nel giornale di registrazione magazzino. Si consiglia di verificare le informazioni sul peso variabile prima di trasferire l'unione batch nel giornale di registrazione magazzino.
-

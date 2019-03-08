@@ -1,13 +1,13 @@
---- 
+---
 title: Configurare i parametri dell'area di lavoro controllo costi
 description: Utilizzare questa procedura per configurare l'area di lavoro di controllo costi in modo che i responsabili a diversi livelli di un'organizzazione possano ottenere dati approfonditi per gli oggetti di costo, ad esempio centri di costo e gruppi di prodotti.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f9c50bb0ab7f1b0afadfabb687932f96ab6e689
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8ede40951d08e159358b713fc3dde46576a1b4e3
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308577"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurare i parametri dell'area di lavoro controllo costi
 
@@ -57,5 +57,4 @@ Utilizzare questa procedura per configurare l'area di lavoro di controllo costi 
 26. Nel campo Periodo di calendario fiscale immettere o selezionare un valore.
 27. Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.
     * Dopo aver selezionato una gerarchia di dimensioni di oggetto di costo, espandere la gerarchia dimensioni di elemento di costo per visualizzare i valori di costo desiderato. Ad esempio, è possibile espandere la gerarchia nei costi generali di produzione per visualizzare il valore.  
-
 

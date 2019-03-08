@@ -1,13 +1,13 @@
---- 
+---
 title: Definire i modelli di flusso di produzione
-description: "I modelli di flusso di produzione descrivono come la capacità delle celle di lavoro di produzione snella viene calcolata e gestita."
+description: I modelli di flusso di produzione descrivono come la capacità delle celle di lavoro di produzione snella viene calcolata e gestita.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336729"
 ---
 # <a name="define-production-flow-models"></a>Definire i modelli di flusso di produzione
 
@@ -45,5 +45,4 @@ I modelli di flusso di produzione descrivono come la capacità delle celle di la
     * L'intervallo temporale di pianificazione descrive il numero di giorni in cui le prenotazioni di capacità possono essere effettuate per le celle di lavoro correlate. Nell'intervallo temporale di pianificazione, immettere il numero di giorni.   I processi di lavorazione kanban che non rientrano in questo periodo non vengono pianificati con la pianificazione automatica. L'intervallo temporale di pianificazione è in genere il doppio del lead time di magazzino medio dei prodotti creati in un flusso di produzione o una cella di lavoro. Il ciclo EPE non deve essere maggiore della metà dell'intervallo temporale di pianificazione.     
 8. Selezionare un'opzione nel campo Reazione alla carenza di capacità.
     * Le opzioni sono: Posticipa, per posticipare la domanda completa dell'evento di programmazione al successivo giorno di produzione disponibile con produttività disponibile. Annulla, per terminare la pianificazione automatica per l'evento di programmazione e lascia i processi correlati non pianificati.   Aggiungi al giorno richiesto, per pianificare i processi necessari per il periodo richiesto. Ciò determina un overload della cella per questo giorno e richiede al responsabile della pianificazione di rivedere e interagire manualmente.   Distribuire i diversi processi di evento di programmazione a tutti i giorni di produzione disponibili, a partire dal primo giorno disponibile. La quantità di distribuzione minima è la quantità del processo kanban. La distribuzione assegna la quantità di pianificazione minima (quantità kanban) per ogni giorno con sufficiente produttività disponibile.  
-
 

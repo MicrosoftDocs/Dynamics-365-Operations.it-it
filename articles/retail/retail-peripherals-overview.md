@@ -3,11 +3,11 @@ title: Periferiche di vendita al dettaglio
 description: In questo argomento vengono descritti i concetti correlati alle periferiche di vendita al dettaglio.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347861"
 ---
-
 # <a name="retail-peripherals"></a>Periferiche di vendita al dettaglio
 
 [!include [banner](includes/banner.md)]
@@ -119,7 +118,7 @@ Il supporto del dispositivo di pagamento è implementato tramite il connettore p
 
 Per contribuire a garantire che il più ampio range di dispositivi possa essere utilizzato con Microsoft Dynamics 365 for Retail, lo standard del settore OLE per POS è la principale piattaforma per le periferiche di vendita al dettaglio supportata in Microsoft Dynamics 365 for Retail. Lo standard OLE per POS è stato realizzato dalla National Retail Federation (NRF), che stabilisce i protocolli di comunicazione standard di settore per le periferiche di vendita al dettaglio. OPOS è un'implementazione largamente adottata dello standard OLE per POS. È stato sviluppato a metà degli anni '90 ed è stato aggiornato più volte da allora. OPOS fornisce un'architettura di driver di dispositivo che consente la facile integrazione dell'hardware POS con sistemi POS basati su Windows. I controlli OPOS gestiscono la comunicazione tra compatibile hardware e software POS. Un controllo OPOS consiste di due parti:
 
-- **Oggetto controllo**  - l'oggetto controllo per una classe di dispositivi (ad esempio le visualizzazioni di riga) costituisce l'interfaccia per il programma software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) offre un set standardizzato di oggetti controllo OPOS che sono noti come oggetti controlli comuni (CCO). I CCO vengono utilizzati per testare il componente POS di Microsoft Dynamics 365 for Retail. Di conseguenza, il test consente di assicurare che, se Microsoft Dynamics 365 for Retail supporta una classe di dispositivi tramite OPOS, molti tipi di dispositivi possono essere supportati, a condizione che il produttore fornisce un oggetto assistenza sviluppato per OPOS. Non è necessario esplicitamente verificare ogni tipo di dispositivo.
+- **Oggetto controllo**  - l'oggetto controllo per una classe di dispositivi (ad esempio le visualizzazioni di riga) costituisce l'interfaccia per il programma software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) offre un set standardizzato di oggetti controllo OPOS che sono noti come oggetti controlli comuni (CCO). I CCO vengono utilizzati per testare il componente POS di Microsoft Dynamics 365 for Retail Di conseguenza, il test consente di assicurare che, se Microsoft Dynamics 365 for Retail supporta una classe di dispositivi tramite OPOS, molti tipi di dispositivi possono essere supportati, a condizione che il produttore fornisce un oggetto assistenza sviluppato per OPOS. Non è necessario esplicitamente verificare ogni tipo di dispositivo.
 - **Oggetto assistenza** –  l'oggetto assistenza fornisce le comunicazioni tra l'oggetto controllo (CCO) e il dispositivo. In genere, l'oggetto assistenza per un dispositivo viene fornito dal produttore del dispositivo. Tuttavia, in alcuni casi, potrebbe essere necessario scaricare l'oggetto assistenza dal sito Web del produttore. Ad esempio, un oggetto assistenza più recente potrebbe essere disponibile. Per trovare l'indirizzo del sito Web del produttore, vedere la documentazione hardware.
 
 [![Oggetto controllo e oggetto assistenza](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -223,9 +222,9 @@ Nella seguente tabella vengono illustrate le topologie e gli scenari di distribu
 | Cliente      | Stazione hardware IPC | Stazione hardware IIS |
 |-------------|----------------------|----------------------|
 | App Windows | Sì                  | Sì                  |
-| POS cloud   | No                   | Sì                  |
-| Android     | No                   | Sì                  |
-| iOS         | No                   | Sì                  |
+| POS cloud   | Nessuna                   | Sì                  |
+| Android     | Nessuna                   | Sì                  |
+| iOS         | Nessuna                   | Sì                  |
 
 ### <a name="network-peripherals"></a>Periferiche di rete
 
@@ -234,9 +233,9 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 | Cliente      | Stazione hardware IPC | Stazione hardware IIS |
 |-------------|----------------------|----------------------|
 | App Windows | Sì                  | Sì                  |
-| POS cloud   | No                   | Sì                  |
-| Android     | No                   | Sì                  |
-| iOS         | No                   | Sì                  |
+| POS cloud   | Nessuna                   | Sì                  |
+| Android     | Nessuna                   | Sì                  |
+| iOS         | Nessuna                   | Sì                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Tipi di dispositivi supportati per tipo di stazione hardware
 
@@ -296,7 +295,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Rete
-<blockquote>[!NOTE] Un solo cassetto può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
+<blockquote>NOTA: Un solo cassetto può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Rete
-<blockquote>[!NOTE] Un solo cassetto può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
+<blockquote>NOTA: Un solo cassetto può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Driver Windows
-<blockquote>[!NOTE] Per le stampanti di Windows in una rete, l'utente della stazione hardware deve disporre delle autorizzazioni di accesso alla stampante.</blockquote>
+<blockquote>NOTA: Per le stampanti di Windows in una rete, l'utente della stazione hardware deve disporre delle autorizzazioni di accesso alla stampante.</blockquote>
 </li>
 <li>Rete</li>
 </ul>
@@ -405,7 +404,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Rete
-<blockquote>[!NOTE] Un solo cassetto per profilo hardware può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
+<blockquote>NOTA: Un solo cassetto per profilo hardware può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Driver Windows
-<blockquote>[!NOTE] Per le stampanti di Windows in una rete, l'utente della stazione hardware deve disporre delle autorizzazioni di accesso alla stampante.</blockquote>
+<blockquote>NOTA: Per le stampanti di Windows in una rete, l'utente della stazione hardware deve disporre delle autorizzazioni di accesso alla stampante.</blockquote>
 </li>
 <li>Rete</li>
 </ul>
@@ -492,7 +491,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Rete
-<blockquote>[!NOTE] Un solo cassetto per profilo hardware può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
+<blockquote>NOTA: Un solo cassetto per profilo hardware può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
 </li>
 </ul>
 </td>
@@ -564,7 +563,7 @@ Questa configurazione può essere utilizzata per tutti i client Modern POS con l
 5. Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
 6. Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
 7. Installare la stazione hardware. Per ulteriori informazioni su come installare la stazione hardware, vedere [Configurazione e installazione di una stazione hardware per la vendita al dettaglio](retail-hardware-station-configuration-installation.md).
-8. Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere  [Configurazione e installazione di Retail Modern POS](retail-modern-pos-device-activation.md).
+8. Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere [Configurazione e installazione di Retail Modern POS](retail-modern-pos-device-activation.md).
 9. Accedere Modern POS e selezionare **Eseguire operazioni non relative al cassetto**.
 10. Avviare l'operazione **Gestisci stazioni hardware**
 11. Fare clic su **Gestisci**.
@@ -593,7 +592,7 @@ Questa configurazione può essere utilizzata per tutti i client Modern POS che c
 6. Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
 7. Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
 8. Installare la stazione hardware in ogni computer host impostato nel passaggio 2 e 3. Per ulteriori informazioni su come installare la stazione hardware, vedere [Configurazione e installazione di una stazione hardware per la vendita al dettaglio](retail-hardware-station-configuration-installation.md).
-9. Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere  [Configurazione e installazione di Retail Modern POS](retail-modern-pos-device-activation.md).
+9. Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere [Configurazione e installazione di Retail Modern POS](retail-modern-pos-device-activation.md).
 10. Accedere Modern POS e selezionare **Eseguire operazioni non relative al cassetto**.
 11. Avviare l'operazione **Gestisci stazioni hardware**
 12. Fare clic su **Gestisci**.
@@ -743,7 +742,6 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Personalizzata    | Collegato tramite la rete     |
-| Star         | TSP100   | OPOS      | Richiede i driver TSP650II |
 | HP           | F7M67AA  | OPOS      | USB alimentato               |
 
 #### <a name="bar-code-scanner"></a>Scanner di codice a barre
@@ -818,7 +816,6 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Personalizzata    | Collegato tramite la rete     |
-| Star         | TSP100   | OPOS      | Richiede i driver TSP650II |
 | HP           | F7M67AA  | OPOS      | USB alimentato               |
 
 #### <a name="payment-terminal"></a>Terminale di pagamento 
@@ -894,4 +891,3 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Simulatore di periferica Retail](dev-itpro/retail-peripheral-simulator.md)
-

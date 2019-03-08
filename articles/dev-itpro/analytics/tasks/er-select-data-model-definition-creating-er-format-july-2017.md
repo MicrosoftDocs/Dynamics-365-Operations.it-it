@@ -1,13 +1,13 @@
---- 
+---
 title: Selezionare le definizioni del modello dati quando si creano i formati
-description: "Per completare i passaggi in questa procedura, è necessario prima completare i passaggi della procedura \"ER Creare un provider di configurazione e contrassegnarlo come attivo\"."
+description: Per completare i passaggi in questa procedura, è necessario prima completare i passaggi della procedura "ER Creare un provider di configurazione e contrassegnarlo come attivo".
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334498"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Selezionare le definizioni del modello dati quando si creano i formati
 
@@ -81,7 +81,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
     * Utilizzare la finestra di progettazione ER per specificare i mapping di modello per gli elementi radice necessari.  
 2. Fare clic su Progettazione.
     * Simulare l'impostazione del mapping di modello selezionato per l'elemento radice del modello selezionato.  
-3. Nella struttura selezionare "Dynamics 365 for Operations\Table records".
+3. Nella struttura selezionare 'Dynamics 365 for Operations\Record di tabella'.
 4. Fare clic su Aggiungi radice.
 5. Nel campo Nome digitare "Contabilità generale".
 6. Nel campo Tabella digitare "LedgerJournalTrans".
@@ -98,5 +98,4 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 4. Nel campo Definizione modello dati immettere o selezionare un valore.
     * Si noti che ora solo un elemento radice è disponibile per eseguire il mapping a origini dati dell'applicazione. Quando viene introdotto almeno un mapping di modello, solo gli elementi radice del modello che sono mappati alle origini dati dell'applicazione possono essere selezionati come modello di definizione mentre il formato ER viene aggiunto.   
 5. Chiudere la pagina.
-
 

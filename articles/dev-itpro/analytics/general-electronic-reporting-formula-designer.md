@@ -5,9 +5,9 @@ author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331278"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -731,7 +730,7 @@ Quando vengono definite queste origini dati, è possibile utilizzare un'espressi
 | FA\_BALANCE (codice del cespite, codice del modello di valore, anno di dichiarazione, data di dichiarazione) | Restituisce il contenitore dati preparati del saldo cespiti. L'anno di dichiarazione deve essere specificato come valore dell'enumerazione di Finance and Operations **AssetYear**. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** restituisce il contenitore dati preparati dei saldi del cespite **"COMP-000001"** con il modello di valore **"Current"** sulla data della sessione corrente di for Finance and Operations. |
 | TABLENAME2ID (stringa) | Restituisce una rappresentazione in formato intero di un ID tabella per il nome di tabella specificato. | **TABLENAME2ID ("Intrastat")** restituisce **1510**. |
 | ISVALIDCHARACTERISO7064 (stringa) | Restituisce il valore booleano **TRUE** quando la stringa specificata rappresenta un numero di conto bancario internazionale (IBAN) valido. In caso contrario, restituisce il valore booleano **FALSE** | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** restituisce **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** restituisce **FALSE**. |
-| NUMSEQVALUE (codice di sequenza numerica, ambito, l'ID ambito) | Restituisce il nuovo valore generato di una sequenza numerica, in base al codice di sequenza numerica, ambito e ID ambito specificati. L'ambito deve essere specificato come valore dell'enumerazione **ERExpressionNumberSequenceScopeType** (**Condiviso**, **Persona giuridica** o **Società**). Per l'ambito **Condiviso**, specificare una stringa vuota come ID ambito. Per gli ambiti **Persona giuridica** e **Società**, specificare il codice società come ID ambito. Per gli ambiti **Persona giuridica** e **Società**, se si specifica una stringa vuota come ID ambito, il codice corrente della società viene utilizzato. | Definire le origini dati seguenti nel mapping di modello:<ul><li>**enumScope** (tipo**enumerazione Dynamics 365 for Operations** ), che fa riferimento all'enumerazione **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipo**Campo calcolato** ), contenente l'espressione **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Se l'origine dati **NumSeq** viene chiamata, restituisce il nuovo valore generato della sequenza numerica **Gene\_1** che è stata configurata per la società che fornisce il contesto in cui il formato ER viene eseguito. |
+| NUMSEQVALUE (codice di sequenza numerica, ambito, l'ID ambito) | Restituisce il nuovo valore generato di una sequenza numerica, in base al codice di sequenza numerica, ambito e ID ambito specificati. L'ambito deve essere specificato come valore dell'enumerazione **ERExpressionNumberSequenceScopeType** (**Condiviso**, **Persona giuridica** o **Società**). Per l'ambito **Condiviso**, specificare una stringa vuota come ID ambito. Per gli ambiti **Persona giuridica** e **Società**, specificare il codice società come ID ambito. Per gli ambiti **Persona giuridica** e **Società**, se si specifica una stringa vuota come ID ambito, il codice corrente della società viene utilizzato. | Definire le origini dati seguenti nel mapping di modello:<ul><li>**enumScope** (tipo **enumerazione Dynamics 365 for Operations**), che fa riferimento all'enumerazione **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipo**Campo calcolato** ), contenente l'espressione **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Se l'origine dati **NumSeq** viene chiamata, restituisce il nuovo valore generato della sequenza numerica **Gene\_1** che è stata configurata per la società che fornisce il contesto in cui il formato ER viene eseguito. |
 | NUMSEQVALUE (codice di sequenza numerica) | Eseguire il nuovo valore generato da una sequenza numerica, in base alla sequenza numerica specificata, l'ambito **Società** e (come ID ambito) il codice della società che fornisce il contesto in cui formato ER viene eseguito. | È possibile definire la seguente origine dati nel mapping di modelli: **NumSeq** (tipo**Campo calcolato** ). Questa origine dati contiene l'espressione **NUMSEQVALUE ("Gene\_1")**. Se l'origine dati **NumSeq** viene chiamata, restituisce il nuovo valore generato della sequenza numerica **Gene\_1** che è stata configurata per la società che fornisce il contesto in cui il formato ER viene eseguito. |
 | NUMSEQVALUE (ID record sequenza numerica) | Restituisce il nuovo valore generato di una sequenza numerica, in base all'ID record di sequenza numerica specificato. | Definire le origini dati seguenti nel mapping di modello:<ul><li>**LedgerParms** (tipo **Record di tabella**), che fa riferimento alla tabella LedgerParameters</li><li>**NumSeq** (tipo **Campo calcolato** ), contenente l'espressione **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Se l'origine dati **NumSeq** viene chiamata, restituisce il nuovo valore generato della sequenza numerica che è stata configurata nei parametri di contabilità generaòe per la società che fornisce il contesto in cui il formato ER viene eseguito. Questa sequenza numerica identifica univocamente giornali di registrazione e funge da numero batch per collegare insieme le transazioni. |
 
@@ -743,4 +742,3 @@ ER consente di estendere l'elenco di funzioni utilizzate nelle espressioni ER. A
 
 - [Panoramica sui report elettronici](general-electronic-reporting.md)
 - [Estensione dell'elenco di funzioni di creazione di report elettronici (ER)](general-electronic-reporting-formulas-list-extension.md)
-

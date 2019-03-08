@@ -5,9 +5,9 @@ author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304944"
 ---
-
 # <a name="performance-management"></a>Gestione delle prestazioni
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Quando si accede tramite l'area di lavoro **ESS**, la pagina **giornale di regis
 
 È inoltre possibile collegare il giornale di registrazione prestazioni a un sito Web esterno archiviando l'URL del sito. Se il giornale di registrazione è correlato agli obiettivi o alle revisioni delle prestazioni, è possibile collegarlo a uno o più correlazioni. Quando al giornale di registrazione prestazioni si accede dalla pagina **MSS**, è possibile immettere le stesse informazioni che è possibile immettere nel giornale di registrazione dei dipendenti. Inoltre, è possibile specificare il dipendente per cui viene creato il giornale di registrazione. È possibile scegliere se condividere il giornale di registrazione del responsabile con il dipendente.
 
-### <a name="praise"></a>Complimento
+### <a name="send-feedback"></a>Commenti e suggerimenti
 
-Il giornale di registrazione prestazioni contiene una funzionalità aggiuntiva denominata Complimento. Quando si fa clic su **Invia complimento**, è possibile selezionare un dipendente e fornire un riscontro al dipendente tramite posta elettronica. Il messaggio viene inviato al dipendente che si sta elogiando, al responsabile di tale dipendente, al dipendente che invia il complimento e al responsabile di tale dipendente. Una voce del giornale di registrazione prestazioni viene creata per ogni persona che riceve il messaggio di complimento.
+Il giornale di registrazione prestazioni contiene una funzionalità aggiuntiva denominata Commenti e suggerimenti. Quando si fa clic su **Invia commenti e suggerimenti**, è possibile selezionare un dipendente e fornire un riscontro al dipendente tramite posta elettronica. Il messaggio viene inviato al dipendente che riceve commenti e suggerimenti, al responsabile di tale dipendente, al dipendente che invia commenti e suggerimenti e al responsabile di tale dipendente. Una voce del giornale di registrazione prestazioni viene creata per ogni persona che riceve commenti e suggerimenti.
 
 ## <a name="goals"></a>Obiettivi
 La pagina **obiettivi prestazioni** consente di tenere traccia degli obiettivi per l'utente dal responsabile o dall'utente stesso. È possibile creare un numero qualsiasi di obiettivi e gli obiettivi possono determinare periodi e revisioni delle prestazioni diversi. È inoltre possibile creare obiettivi semplici o complessi, in base alla quantità di informazioni che si desidera immettere sull'obiettivo. Gli obiettivi non sono richiesti per le revisioni delle prestazioni. 
@@ -151,7 +150,6 @@ I tipi di origine giornale di registrazione prestazioni descrivono la provenienz
 ### <a name="review-types"></a>Tipi di revisione
 
 I tipi di revisione prestazioni consentono di controllare il comportamento di una revisione. È possibile abilitare o disabilitare il flusso di lavoro di una revisione. Se la revisione non utilizza un flusso di lavoro, è possibile definire lo stato predefinito da utilizzare quando la revisione viene creata. È inoltre possibile decidere se al dipendente, al responsabile o a entrambi verrà richiesto di confermare la revisione.
-
 
 
 

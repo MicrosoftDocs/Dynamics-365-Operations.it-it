@@ -1,13 +1,13 @@
---- 
+---
 title: Sviluppare una struttura e un piano di stipendi/retribuzioni
-description: "In questa guida attività viene illustrato il processo di creazione di un piano di retribuzione fissa e di abilitazione dei dipendenti a iscriversi al piano in base alle regole di idoneità."
+description: In questa guida attività viene illustrato il processo di creazione di un piano di retribuzione fissa e di abilitazione dei dipendenti a iscriversi al piano in base alle regole di idoneità.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332773"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Sviluppare una struttura e un piano di stipendi/retribuzioni
 
@@ -74,5 +74,4 @@ In questa guida attività viene illustrato il processo di creazione di un piano 
     * Selezionare i criteri che un dipendente deve soddisfare per essere idoneo per il piano di retribuzione. I criteri possono includere un reparto, un sindacato, una località (paese di retribuzione), una mansione, una funzione, un tipo di mansione o un livello retributivo. Il dipendente deve soddisfare tutti i criteri specificati per essere idoneo per il piano di retribuzione. Se non viene specificato alcun criterio, tutti i dipendenti sono idonei per il piano di retribuzione. Se un dipendente non soddisfa i criteri specificati nella regola di idoneità o non è stata specificata una regola di idoneità per un piano di retribuzione, il piano di retribuzione non verrà visualizzato nella ricerca quando viene creato un record di retribuzione fissa per un dipendente.  
 7. Chiudere la pagina.
 8. Chiudere la pagina.
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare codici di smaltimento
-description: "Questa procedura riguarda l'impostazione di un codice smaltimento che può essere utilizzato in un dispositivo mobile per il processo di ricezione dell'ordine di reso."
+description: Questa procedura riguarda l'impostazione di un codice smaltimento che può essere utilizzato in un dispositivo mobile per il processo di ricezione dell'ordine di reso.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324125"
 ---
 # <a name="set-up-dispositions-codes"></a>Impostare codici di smaltimento
 
@@ -39,5 +39,4 @@ Questa procedura riguarda l'impostazione di un codice smaltimento che può esser
     * Facoltativo: selezionare un codice del modello di lavoro associato a un ordine di reso. Se nessun valore viene specificato, il modello di lavoro verrà risolto utilizzando le regole standard configurate nel sistema. La selezione di un modello di lavoro limiterà i processi con cui il codice smaltimento specifico può essere utilizzato. Ad esempio, se un codice smaltimento ha un modello di lavoro con un ordine di lavoro di tipo ordine fornitore, non può essere utilizzato per registrare gli articoli restituiti dai clienti.  
 6. Nel campo Codice smaltimento reso digitare un valore.
     * Il codice smaltimento di reso determina il resto del processo di ordine di reso per gli articoli registrati. In questo esempio, il cliente deve ricevere una nota di accredito. Aggiungere un codice smaltimento di reso contenente un'azione di tipo Avere.  
-
 

@@ -5,9 +5,9 @@ author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345469"
 ---
-
 # <a name="before-you-buy"></a>Prima di effettuare l'acquisto
 
 [!include [banner](../includes/banner.md)]
@@ -79,7 +78,7 @@ Un provider della soluzione cloud Microsoft può offrire la propria collaborazio
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Acquisto tramite un partner Dynamics (locale)
 
-È necessario collaborare con un partner per acquistare Finance and Operations (locale). Per ulteriori informazioni, vedere [Acquistare Dynamics 365 for Finance and Operations (locale)](purchase-on-premises.md)
+È necessario collaborare con un partner per acquistare Finance and Operations (locale). Per ulteriori informazioni, vedere [Acquistare Dynamics 365 for Finance and Operations (locale)](purchase-on-premises.md).
 
 ### <a name="choose-your-support-option"></a>Scegliere l'opzione di supporto
 
@@ -97,4 +96,3 @@ Microsoft FastTrack for Dynamics 365 è il servizio per il successo dei clienti 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Se si esegue l'aggiornamento da Dynamics AX 2012 o la migrazione da AX 2009
 
 Se si esegue l'aggiornamento da Microsoft Dynamics AX 2012 o la migrazione da Microsoft Dynamics AX 2009, si può essere idonei a un periodo di valutazione più lungo. Per ulteriori informazioni, contattare <daxcf@microsoft.com>.
-

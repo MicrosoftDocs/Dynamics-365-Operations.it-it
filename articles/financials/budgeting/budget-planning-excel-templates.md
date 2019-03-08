@@ -5,9 +5,9 @@ author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337051"
 ---
-
 # <a name="budget-planning-templates-for-excel"></a>Modelli di pianificazione del budget per Excel
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,6 @@ Sì, la maggior parte delle funzionalità standard di Excel funzionerà nei mode
 È inoltre possibile creare e utilizzare tabelle pivot e i grafici per raggruppamenti e visualizzazioni ulteriori dei dati di budget. Nella scheda **Dati**, nel gruppo **Connessioni**, fare clic su **Aggiorna tutti**, quindi su **Proprietà connessione**. Nella scheda **Utilizzo** in **Aggiorna**, selezionare la casella di controllo **Aggiorna dati all'apertura del file**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
-
 
 
 

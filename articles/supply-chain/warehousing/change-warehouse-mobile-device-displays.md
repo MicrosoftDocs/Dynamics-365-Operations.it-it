@@ -5,9 +5,9 @@ author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFColor, WHSRFColorPicker, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16f332da00d2230ecb4cebc526b6456314564e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328035"
 ---
-
 # <a name="warehouse-mobile-device-display-settings"></a>Impostazioni di visualizzazione per il dispositivo mobile del magazzino
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,7 @@ Request.UserHostAddress=.\*|HostName=.\*|Request.UserAgent=MSIE\\s8\\.0
 Per selezionare il colore, nella pagina **Seleziona colore**, fare clic sulla tavolozza o digitare un codice colore esadecimale.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Definire il formato della data da utilizzare sui dispositivi mobili
-È possibile estendere l'elenco dei formati della data accettati per ogni installazione. Questa funzionalità può essere utile se, ad esempio, si desidera impostare un formato che semplifica l'immissione di date in un dispositivo mobile. Il formato predefinito è determinato dalla lingua predefinita dell'utente, la quale viene specificata nel campo **Lingua** della pagina **Opzioni utente**. La stessa pagina viene inoltre utilizzata per associare un dipendente con un utente di lavoro magazzino specifico. **Nota:** il portale dei dispositivi mobili del magazzino non utilizza l'impostazione del campo  **Formato data, ora e numeri** della pagina **Preferenze di lingua e paese**. Per modificare un formato di data, è necessario acquisire familiarità con le espressioni regolari in Microsoft .NET Framework. Per ulteriori informazioni, vedere [Espressioni regolari di .NET Framework](http://go.microsoft.com/fwlink/?LinkId=391260). Per definire i formati di data, modificare il file Dates.ini che si trova in Content\\Settings\\Dates.ini sul server del Portale dei dispositivi mobili del magazzino. Questo file utilizza le espressioni regolari .NET per specificare il formato di data. L'espressione regolare deve contenere sottoespressioni che creano gruppi denominati per giorno, mese e anno (GGMMAA), come mostrato nell'esempio che segue:
+È possibile estendere l'elenco dei formati della data accettati per ogni installazione. Questa funzionalità può essere utile se, ad esempio, si desidera impostare un formato che semplifica l'immissione di date in un dispositivo mobile. Il formato predefinito è determinato dalla lingua predefinita dell'utente, la quale viene specificata nel campo **Lingua** della pagina **Opzioni utente**. La stessa pagina viene inoltre utilizzata per associare un dipendente con un utente di lavoro magazzino specifico. **Nota:** il portale dei dispositivi mobili del magazzino non utilizza l'impostazione del campo  **Formato data, ora e numeri** della pagina **Preferenze di lingua e paese**. Per modificare un formato della data, è necessario acquisire familiarità con le espressioni regolari in Microsoft .NET Framework. Per ulteriori informazioni, vedere [Espressioni regolari di .NET Framework](http://go.microsoft.com/fwlink/?LinkId=391260). Per definire i formati di data, modificare il file Dates.ini che si trova in Content\\Settings\\Dates.ini sul server del Portale dei dispositivi mobili del magazzino. Questo file utilizza le espressioni regolari .NET per specificare il formato di data. L'espressione regolare deve contenere sottoespressioni che creano gruppi denominati per giorno, mese e anno (GGMMAA), come mostrato nell'esempio che segue:
 
 ^(?&lt;giorno&gt;\\d{2})(?&lt;mese&gt;\\d{2})(?&lt;anno&gt;\\d{2})$
 
@@ -101,7 +100,6 @@ Ogni sottoespressione richiede una o due cifre per il giorno e il mese e una o q
 --------
 
 [Configurazione di dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md)
-
 
 
 

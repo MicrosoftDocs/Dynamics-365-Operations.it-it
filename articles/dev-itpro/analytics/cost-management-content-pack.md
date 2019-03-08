@@ -1,13 +1,13 @@
 ---
 title: Contenuto Power BI per la gestione dei costi
-description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per la gestione dei costi."
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Gestione costi.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,26 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327805"
 ---
-
 # <a name="cost-management-power-bi-content"></a>Contenuto Power BI per la gestione dei costi
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Panoramica
 
-I contenuto Microsoft Power BI per la **Gestione costi** è destinato ai contabili di inventario o agli utenti nell'organizzazione responsabili o interessati allo stato dell'inventario o WIP o ai responsabili o interessati all'analisi degli scostamenti dei costi standard.
+Il contenuto Microsoft Power BI **Gestione costi** è destinato ai contabili di inventario o agli utenti nell'organizzazione responsabili o interessati allo stato dell'inventario o WIP o ai responsabili o interessati all'analisi degli scostamenti dei costi standard.
 
 > [!NOTE]
-> Il contenuto Power BI per la **Gestione costi** descritto in questo argomento si applica a Dynamics 365 for Finance and Operations 8.0.
+> Il contenuto Power BI **Gestione costi** descritto in questo argomento si applica a Dynamics 365 for Finance and Operations 8.0.
 > 
-> Il pacchetto di contenuti Power BI per la **Gestione costi**, disponibile sul sito AppSource, è stato deprecato. Per ulteriori informazioni sulle funzionalità deprecate, vedere [Pacchetti di contenuti Power BI disponibili in AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Il pacchetto di contenuti Power BI **Gestione costi**, disponibile sul sito AppSource, è stato deprecato. Per ulteriori informazioni sulle funzionalità deprecate, vedere [Pacchetti di contenuti Power BI disponibili in AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Il contenuto Power BI si presenta in un formato strutturato in categorie che aiuta a monitorare le prestazioni degli inventari e a visualizzare il flusso dei costi. È possibile estrapolare informazioni approfondite manageriali, ad esempio l'indice di rotazione, il numero di giorni in cui l'inventario è a disposizione, la precisione e la "classificazione ABC" al livello di aggregazione preferito (società, articolo, gruppo di articoli o sito). Le informazioni disponibili possono essere utilizzate anche come supplemento dettagliato al rendiconto finanziario.
 
@@ -48,7 +47,7 @@ Dopo ogni aggiornamento della tabella **CostObjectStatementCache**, è necessari
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 
-Il contenuto Power BI per la **Gestione costi** viene mostrato nelle aree di lavoro **Amministrazione costi** e **Analisi costo**.
+Il contenuto Power BI **Gestione costi** viene mostrato nelle aree di lavoro **Amministrazione costi** e **Analisi costo**.
 
 L'area di lavoro **Amministrazione costi** contiene le schede seguenti:
 
@@ -65,9 +64,9 @@ L'area di lavoro **Analisi costo** contiene le schede seguenti:
 
 ## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Pagine di report incluse nel contenuto Power BI
 
-Il contenuto Power BI per la **Gestione costi** include un set di pagine di report che consistono in un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. 
+Il contenuto Power BI **Gestione costi** include un set di pagine di report che consistono in un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. 
 
-Nelle seguenti tabelle viene fornita una panoramica delle visualizzazioni nel contenuto Power BI per la **Gestione costi**.
+Nelle seguenti tabelle viene fornita una panoramica delle visualizzazioni nel contenuto Power BI **Gestione costi**.
 
 ### <a name="inventory-accounting-status"></a>Stato contabilità inventario
 
@@ -173,7 +172,7 @@ Nelle seguenti tabelle viene fornita una panoramica delle visualizzazioni nel co
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
-I dati di Microsoft Dynamics 365 for Finance and Operations vengono utilizzati per compilare le pagine del report nel contenuto Power BI per la **Gestione costi**. Questi dati sono rappresentati come misure di aggregazione che vengono collocate nell'archivio entità, ovvero un database di Microsoft SQL Server ottimizzato per l'analisi. Per ulteriori informazioni, vedere [Integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
+I dati di Microsoft Dynamics 365 for Finance and Operations vengono utilizzati per compilare le pagine del report nel contenuto Power BI **Gestione costi**. Questi dati sono rappresentati come misure aggregate che vengono collocate nell'archivio entità, ovvero un database di Microsoft SQL Server ottimizzato per l'analisi. Per ulteriori informazioni, vedere [Integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
 Le misure di aggregazione chiave degli oggetti seguenti vengono utilizzate come base del contenuto Power BI.
 
@@ -209,4 +208,3 @@ La seguenti dimensioni chiave vengono utilizzate come filtri per dividere le mis
 | Persone giuridiche                                          | Nomi di persone giuridiche                              |
 | Calendari fiscali                                        | Calendario fiscale, anno, trimestre, periodo, mese   |
 | Sito                                                    | ID, nome, indirizzo, Stato/regione, paese               |
-

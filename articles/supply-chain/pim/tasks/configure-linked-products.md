@@ -1,13 +1,13 @@
---- 
+---
 title: Configurare i prodotti collegati
 description: In questa procedura vengono descritti i passaggi per configurare i prodotti collegati.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 306e9ebca811c576b06de3aef697ed64cbe85180
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322469"
 ---
 # <a name="configure-linked-products"></a>Configurare i prodotti collegati
 
@@ -39,5 +39,4 @@ In questa procedura vengono descritti i passaggi per configurare i prodotti coll
 9. Nell'elenco fare clic sul collegamento nella riga selezionata.
 10. Nel campo Quantità immettere un numero.
 11. Fare clic su Salva.
-
 

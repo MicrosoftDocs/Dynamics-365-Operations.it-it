@@ -1,13 +1,13 @@
 ---
 title: Domande frequenti sulle azioni dipendente
-description: "In questo argomento vi sono risposte alle domande che potrebbe essere poste se l'organizzazione utilizza le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale."
+description: In questo argomento vi sono risposte alle domande che potrebbe essere poste se l'organizzazione utilizza le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304998"
 ---
-
 # <a name="personnel-actions-faq"></a>Domande frequenti sulle azioni dipendente
 
 [!include [banner](includes/banner.md)]
@@ -94,5 +93,4 @@ Esempio
 - La data di validità nell'intestazione di un'azione **Termina rapporto con lavoratore** è la data immessa nel campo **Data fine rapporto**.
 - La data di validità di un'azione **Assumi lavoratore** è la data immessa nel campo **Data di inizio impiego**.
 - La data di validità di un'azione **Trasferisci lavoratore** è la data immessa nel campo **Data di inizio assegnazione** per il lavoratore.
-
 

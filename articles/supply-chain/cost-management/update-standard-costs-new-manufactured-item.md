@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc8725bcab61fa20a4c35a83473b00e54cf0bf28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cfb04a98f7d01f7766bea97157ca3c44c51e326
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325505"
 ---
-
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Aggiornare i costi standard per un nuovo articolo prodotto
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Per aggiungere nuovi articoli prodotti durante il periodo bloccato, effettuare l
 5.  Utilizzare la pagina **Impostazione versione di determinazione costi** per modificare il flag di blocco per consentire l'attivazione dei record costi in sospeso nella seconda versione di determinazione costi.
 6.  Utilizzare la pagina **Attiva prezzi** (accessibile dalla pagina **Gestione versione di determinazione costi**) per attivare tutti i record di costo articolo in sospeso nella seconda versione di determinazione costi. È inoltre possibile attivare i record costi in sospeso per i singoli articoli facendo clic sul pulsante **Attiva** nella pagina **Prezzo articolo**.
 7.  Utilizzare la pagina **Impostazione versione di determinazione costi** per modificare i flag di blocco nella seconda versione di determinazione costi per evitare ulteriori operazioni di manutenzione dati. I criteri di bloccaggio impediranno l'immissione di nuovi costi in sospeso e l'attivazione dei costi in sospeso.
-
 
 
 

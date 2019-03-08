@@ -1,13 +1,13 @@
---- 
-title: "Creare un prodotto rilasciato per una singola società"
-description: "Questa procedura descrive come creare un unico prodotto rilasciato nel contesto di un'unica unità legale."
+---
+title: Creare un prodotto rilasciato per una singola società
+description: Questa procedura descrive come creare un unico prodotto rilasciato nel contesto di un'unica unità legale.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9265ee4311ac89ae88ff7dd089519251828b1e3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 042eafc29e377e0ad6fb8dc1499daf8eb105b7ed
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315960"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Creare un prodotto rilasciato per una singola società
 
@@ -102,5 +102,4 @@ Questa procedura descrive come creare un unico prodotto rilasciato nel contesto 
 11. Nel campo Gruppo di articoli fare clic sul pulsante a discesa per aprire la ricerca.
 12. Trovare e selezionare il record desiderato nell'elenco.
 13. Nell'elenco fare clic sul collegamento nella riga selezionata.
-
 

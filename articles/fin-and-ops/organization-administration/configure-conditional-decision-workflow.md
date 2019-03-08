@@ -1,13 +1,13 @@
 ---
 title: Configurare le decisioni condizionali in un flusso di lavoro
-description: "Per configurare le proprietà di una decisione condizionale, attenersi alla procedura indicata di seguito."
+description: Per configurare le proprietà di una decisione condizionale, attenersi alla procedura indicata di seguito.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a01290b3e2810aa1762f2230e8d01d219d6b10bf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 64e8b2ed5c538cb982f9f03c1db24e38472be868
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328196"
 ---
-
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Configurare le decisioni condizionali in un flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
@@ -54,4 +53,3 @@ Il sistema determina quale ramo utilizzare valutando il documento inviato per de
     2. Selezionare un record nell'area **Convalida condizione** del modulo.
     3. Fare clic su **Test**. Il sistema valuta il record per determinare se soddisfa le condizioni definite.
     4. Fare clic su **OK** o **Annulla** per tornare al modulo **Proprietà**.
-

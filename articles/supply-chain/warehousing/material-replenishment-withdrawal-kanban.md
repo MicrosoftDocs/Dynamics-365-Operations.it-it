@@ -1,32 +1,31 @@
 ---
 title: Rifornimento con kanban di prelievo
-description: "Questo argomento descrive come viene utilizzato il kanban di prelievo per il rifornimento di materiale per le attività di produzione."
+description: Questo argomento descrive come viene utilizzato il kanban di prelievo per il rifornimento di materiale per le attività di produzione.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320928"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>Rifornimento con kanban di prelievo
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ Nel seguente scenario, l'attività di trasferimento del kanban di prelievo viene
 6.  Processo di produzione
 
 Dopo che un kanban è stato utilizzato nell'ubicazione entrata produzione, viene segnalato come vuoto e un nuovo kanban viene aggiunto al flusso. Quando il kanban viene creato, una riga di ondata viene aggiunta a un'ondata kanban. Quando l'ondata kanban viene elaborata, il lavoro di magazzino per il prelievo di kanban viene creato. Il lavoratore di magazzino elabora il lavoro per il prelievo di kanban e viene indirizzato dal lavoro per prelevate il materiale per il kanban in un'ubicazione di magazzino. Non appena il lavoratore di magazzino conferma il prelievo, il kanban viene automaticamente completato e il lavoratore del magazzino viene indirizzato a  collocare il materiale nell'ubicazione di entrata produzione.
-
 

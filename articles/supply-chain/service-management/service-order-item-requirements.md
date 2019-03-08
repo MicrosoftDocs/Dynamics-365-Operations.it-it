@@ -1,31 +1,30 @@
 ---
 title: Richieste articoli degli ordini di assistenza
-description: "Se è necessario prenotare articoli specifici per un ordine di assistenza, è possibile creare le richieste articolo di magazzino."
+description: Se è necessario prenotare articoli specifici per un ordine di assistenza, è possibile creare le richieste articolo di magazzino.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjSalesItemReq
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dc7c721af4b25e1586e546392518648110a3fb6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 880d41a5b3d8c9200a0a1f4b13af2d6d24d30766
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327506"
 ---
-
 # <a name="service-order-item-requirements"></a>Richieste articoli degli ordini di assistenza   
 
 [!include [banner](../includes/banner.md)]
@@ -70,5 +69,4 @@ oppure
 ## <a name="see-also"></a>Vedere anche
 
 [Richieste articoli (modulo)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\))
-
 

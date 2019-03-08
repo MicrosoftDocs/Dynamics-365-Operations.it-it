@@ -1,13 +1,13 @@
 ---
 title: Definire e gestire canali di vendita al dettaglio
-description: "Questo argomento fornisce una panoramica del processo per l'impostazione di punti vendita fisici, denominati punti vendita al dettaglio in Microsoft Dynamics 365 for Retail. Sono riportate informazioni sulle attività da completare prima e dopo la configurazione di un punto vendita al dettaglio."
+description: Questo argomento fornisce una panoramica del processo per l'impostazione di punti vendita fisici, denominati punti vendita al dettaglio in Microsoft Dynamics 365 for Retail. Sono riportate informazioni sulle attività da completare prima e dopo la configurazione di un punto vendita al dettaglio.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318628"
 ---
-
 # <a name="define-and-maintain-retail-channels"></a>Definire e gestire canali di vendita al dettaglio
 
 [!include [banner](includes/banner.md)]
@@ -56,7 +55,7 @@ Prima di impostare un punto vendita al dettaglio, è necessario completare le se
 11. Impostare i membri del personale.
 
     > [!NOTE]
-    > È inoltre necessario assegnare le autorizzazioni appropriate ai lavoratori, in modo che possano accedere ed eseguire le attività utilizzando il sistema Dynamics 365 for Retail for Retail POS.
+    > Nota: È inoltre necessario assegnare le autorizzazioni appropriate ai lavoratori, in modo che possano accedere ed eseguire le attività utilizzando il sistema Dynamics 365 for Retail for Retail POS.
 
 12. Configurare i profili di Retail POS da assegnare al punto vendita. Questa attività include molte altre attività, ad esempio, l'impostazione dei registratori, dei profili offline oltre che dei formati delle ricevute e dei profili.
 
@@ -86,4 +85,3 @@ Dopo aver immesso i dettagli relativi al punto vendita al dettaglio, completare 
 ## <a name="organization-hierarchies"></a>Gerarchie organizzative
 
 Retail utilizza gerarchie organizzative per strutturare canali di vendita al dettaglio. Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda. Quando si impostano gli archivi, è possibile aggiungerli a una gerarchia organizzativa. I punti vendita, quindi, condividono i dati utilizzati per assortimenti, rifornimento e reporting.
-

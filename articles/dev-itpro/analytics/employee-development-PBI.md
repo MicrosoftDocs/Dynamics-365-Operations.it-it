@@ -5,9 +5,9 @@ author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347171"
 ---
-
 # <a name="employee-development-power-bi-content"></a>Contenuto di Power BI Sviluppo del dipendente
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,7 @@ I report inclusi nel contenuto **Sviluppo del dipendente** di Power BI dispongon
 | Analisi della valutazione delle prestazioni   | Dipendenti per valutazione dal livello più basso al più alto per mansione, valutazioni del dipendente per reparto, dipendenti per tipo di posizione e valutazione e valutazioni più alta e più bassa per posizione |
 | Analisi delle prestazioni del dipendente | Valutazioni del dipendente per valutazione selezionata dal responsabile |
 
-È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
@@ -70,4 +69,3 @@ I report inclusi nel contenuto **Sviluppo del dipendente** di Power BI dispongon
 | Analisi competenze del dipendente  | Certificato, livello, data livello e competenza                                                                    | Nome del dipendente, Competenza |
 | Prestazioni              | Valutazione, descrizione e modello di valutazione                                                                      | Dipendente corrente, Posizione corrente, Tendenza del dipendente, Competenza preferita per la mansione, Assegnazione della posizione passata, Tendenza della posizione, Dipendente con rapporto di lavoro chiuso |
 | Competenza                    | Competenza, tipo di competenza e valutazione                                                                              | Analisi competenze del dipendente, Competenza preferita per la mansione |
-

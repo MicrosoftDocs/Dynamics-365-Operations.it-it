@@ -1,32 +1,31 @@
 ---
 title: Garantire le scorte di sicurezza per gli articoli
-description: "In questo argomento vengono fornite informazioni su come mantenere un livello di scorte di sicurezza e impostare la quantità di scorte di sicurezza per gli articoli."
+description: In questo argomento vengono fornite informazioni su come mantenere un livello di scorte di sicurezza e impostare la quantità di scorte di sicurezza per gli articoli.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341536"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>Garantire le scorte di sicurezza per gli articoli
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ L'evasione della transazione del fabbisogno di scorte di sicurezza perde priorit
 Durante la fase di copertura della pianificazione generale, il rifornimento delle scorte di sicurezza non perderà più priorità. Le scorte disponibili in magazzino possono essere utilizzate prima di qualsiasi altro tipo di domanda. Durante il calcolo del ritardo, verrà aggiunta nuova logica per superare le righe di vendita con ritardo, il fabbisogno della riga DBA e tutti gli altri tipi di domanda, per determinare se possono essere consegnati in tempo, a condizione che vengano utilizzate le scorte di sicurezza. Se il sistema determina che può ridurre al minimo i ritardi usando le scorte di sicurezza, le righe di vendita o DBA sostituiranno la relativa copertura iniziale con le scorte di sicurezza e il sistema attiverà invece il rifornimento per le scorte di sicurezza.
 
 Se il piano o l'articolo non è impostato per il calcolo con ritardo, il vincolo delle scorte di sicurezza avrà la stessa avrà priorità di eventuali altri tipi di domanda. Ciò significa che è presente una prenotazione delle scorte disponibili e di altre scorte disponibili prima di altri tipi di domanda.
-

@@ -1,33 +1,32 @@
 ---
 title: Sincronizzare magazzini da Finance and Operations a Field Service
-description: "Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare magazzini da Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service."
+description: Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare magazzini da Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 01/14/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
+ms.openlocfilehash: 34cd18a18715d12d4002e6dbeee047467ed2a5ad
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
-ms.openlocfilehash: eb8ba6051777e27bd44504a8160118e8096b1435
-ms.contentlocale: it-it
-ms.lasthandoff: 12/20/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340317"
 ---
-
-# <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Sincronizzare magazzini da Finance and Operations a Field Service
+# <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Sincronizzare i magazzini da Finance and Operations a Field Service
 
 [!include[banner](../includes/banner.md)]
 
@@ -38,10 +37,10 @@ Questo argomento descrive i modelli e le attività sottostanti utilizzati per si
 ## <a name="templates-and-tasks"></a>Modelli e attività
 Il seguente modello e le attività sottostanti sono utilizzati per sincronizzare magazzini da Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
 
-**Nome del modello in Integrazione dati:**
+**Modello in Integrazione dati**
 - Magazzini (da Finance and Operations a Field Service)
 
-**Nomi delle attività nel progetto di Integrazione dati:**
+**Attività nel progetto di Integrazione dati**
 - Magazzino
 
 ## <a name="entity-set"></a>Insieme di entità
@@ -50,32 +49,33 @@ Il seguente modello e le attività sottostanti sono utilizzati per sincronizzare
 | msdyn_warehouses | Magazzini                             |
 
 ## <a name="entity-flow"></a>Flusso di entità
-I magazzini creati e gestiti in Finance and Operations possono essere sincronizzati a Field Service via un progetto di integrazione dei dati CDS (Common Data Service). I magazzini desiderati che vengono sincronizzati a Field Service possono essere controllati con la funzionalità Filtro e query avanzati nel progetto. I magazzini sincronizzati da Finance and Operations vengono creati in Field Service con il campo Gestito esternamente impostato su Sì e il record diventa di sola lettura.
-Soluzione CRM Field Service Per supportare l'integrazione tra Field Service e Finance and Operations, sono necessarie funzionalità aggiuntive della soluzione CRM Field Service. La soluzione include le modifiche seguenti.
-Il campo **Gestito esternamente** è stato aggiunto all'entità **Magazzino (msdyn_warehouses)**. Questo campo consente di identificare se il magazzino è gestito da Operations o se esiste solo in Field Service.
-- Sì - Il magazzino deriva da Finance and Operations e non sarà modificabile in Sales.
-- No – Il magazzino è stato immesso direttamente in Field Service e gestito qui.
+I magazzini creati e gestiti in Finance and Operations possono essere sincronizzati a Field Service via un progetto di integrazione dei dati CDS (Common Data Service). I magazzini che si intende sincronizzare a Field Service possono essere controllati con la funzionalità Filtro e query avanzati nel progetto. I magazzini sincronizzati da Finance and Operations vengono creati in Field Service con il campo **Gestito esternamente** impostato su **Sì** e il record diventa di sola lettura.
 
-Il campo **Gestito esternamente** consente di controllare la sincronizzazione di livelli di scorte, rettifiche, trasferimenti e utilizzo negli ordini di lavoro. Solo i magazzini con **Gestito esternamente** = Sì possono essere utilizzati per la sincronizzazione direttamente allo stesso magazzino nell'altro sistema. 
+## <a name="field-service-crm-solution"></a>Soluzione CRM Field Service
+Per supportare l'integrazione tra Field Service and Finance e Operations, sono richieste delle funzionalità aggiuntive nella soluzione CRM Field Service. Nella soluzione, il campo **Gestito esternamente** è stato aggiunto all'entità **Magazzino (msdyn_warehouses)**. Questo campo consente di identificare se il magazzino è gestito da Finance and Operations o se esiste solo in Field Service. Le impostazioni per questo campo sono:
+- **Sì** - Il magazzino deriva da Finance and Operations e non sarà modificabile in Sales.
+- **No** – Il magazzino è stato immesso direttamente in Field Service e gestito qui.
 
-Nota: è possibile creare più magazzini in Field Service (con **Gestito esternamente** = No) e quindi mapparli a un singolo magazzino in Finance and Operations, con la funzionalità Filtro e query avanzati. Questa soluzione è utilizzata in situazioni in cui Field Service deve gestire il livello delle scorte dettagliato e inviare aggiornamenti a Finance and Operations. In questo caso Field Service non riceverà gli aggiornamenti del livello delle scorte da Finance and Operations. Vedere ulteriori informazioni in Sincronizzare rettifiche di inventario da Field Service a Finance and Operations e Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente collegati a un progetto in Finance and Operations.
+Il campo **Gestito esternamente** consente di controllare la sincronizzazione di livelli di scorte, rettifiche, trasferimenti e utilizzo negli ordini di lavoro. Solo i magazzini con **Gestito esternamente** impostato su **Sì** possono essere utilizzati per la sincronizzazione direttamente allo stesso magazzino nell'altro sistema. 
+
+> [!NOTE]
+> È possibile creare più magazzini in Field Service (con **Gestito esternamente** = No) e quindi mapparli a un singolo magazzino in Finance and Operations, con la funzionalità Filtro e query avanzati. Questa soluzione è utilizzata in situazioni in cui Field Service deve gestire il livello delle scorte dettagliato e inviare aggiornamenti a Finance and Operations. In questo caso Field Service non riceverà gli aggiornamenti del livello delle scorte da Finance and Operations. Per ulteriori informazioni, vedere [Sincronizzare rettifiche di inventario da Field Service a Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) e [Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente collegati a un progetto in Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="prerequisites-and-mapping-setup"></a>Prerequisiti e impostazione del mapping
-### <a name="in-the-data-integration-project"></a>Nel progetto di Integrazione dati
+### <a name="data-integration-project"></a>Progetto di Integrazione dati
 Prima della sincronizzazione dei magazzini, assicurarsi di aggiornare la funzionalità Filtro e query avanzati nel progetto per includere solo i magazzini che si desidera spostare da Finance and Operations in Field Service. Da notare che il magazzino deve essere in Field Service per essere applicato a ordini di lavoro, rettifiche e trasferimenti.  
 
-Assicurarsi che **Chiave di integrazione** esista per **msdyn_workorders**
-1. Andare a Integrazione dati
-2. Selezionare la scheda **Insieme di connessioneµµµ**
-3. Selezionare l'insieme di connessione utilizzato per Sincronizzazione ordine di lavoroµµµ
-4. Selezionare la scheda **Chiave di integrazione**
-5. Trovare msdyn_workorders e verificare che la chiave **msdyn_name (nome)** sia stata aggiunta. Se non è visualizzata, aggiungerla facendo clic su **Aggiungi chiave**µµµ e su **Salva** nella parte superiore della pagina
+Per accertarsi che **Chiave di integrazione** esiste per **msdyn_workorders**:
+1. Andare a Integrazione dati.
+2. Selezionare la scheda **Insieme di connessione**.
+3. Selezionare l'insieme di connessione utilizzato per la sincronizzazione dell'ordine di lavoro.
+4. Selezionare la scheda **Chiave di integrazione**.
+5. Trovare msdyn_workorders e confermare che la chiave **msdyn_name (nome)** è stata aggiunta. Se non è visualizzata, aggiungerla facendo clic su **Aggiungi chiave** e quindi su **Salva** nella parte superiore della pagina.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapping dei modelli in Integrazione dati
 
-Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dati.
+Nella figura seguente viene illustrato il mapping di modelli in Integrazione dati.
 
 ### <a name="warehouses-finance-and-operations-to-field-service-warehouse"></a>Magazzini (da Finance and Operations a Field Service): Magazzino
 
 [![Mapping dei modelli in Integrazione dati](./media/Warehouse1.png)](./media/Warehouse1.png)
-

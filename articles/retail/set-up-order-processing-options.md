@@ -5,9 +5,9 @@ author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334843"
 ---
-
-# <a name="set-up-call-center-channels"></a>Impostare canali di servizio clienti
+# <a name="set-up-call-center-channels"></a>Impostare canali del servizio clienti
 
 [!include [banner](includes/banner.md)]
 
@@ -80,4 +79,3 @@ Per impostazione predefinita, il flag **Vendita al dettaglio** nell'intestazione
 Gli utenti che non sono collegati a un canale del servizio clienti utilizzano le funzionalità di registrazione ordine standard di Microsoft Dynamics 365 for Finance and Operations. Gli ordini che questi utenti registrano attraverso il modulo di registrazione ordine cliente non verranno sistematicamente identificati come ordini Retail. Inoltre, questi ordini registrati da questi utenti non saranno soggetti a nessuna delle regole di elaborazione del completamento dell'ordine, della logica dei prezzi al dettaglio o di altre convalide degli ordini che possono essere definite nella configurazione del canale del servizio clienti o nei parametri del sistema del servizio clienti.
 
 Dopo aver completato la configurazione del canale del servizio clienti e la definizione degli utenti del canale, per garantire il comportamento del sistema desiderato, assicurarsi che tutti i parametri necessari del servizio clienti siano definiti in **Retail** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Parametri servizio clienti**. Assicurarsi che anche le sequenze numeriche correlate vengano definite.
-

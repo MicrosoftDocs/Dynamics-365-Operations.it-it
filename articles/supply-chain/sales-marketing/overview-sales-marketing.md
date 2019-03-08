@@ -1,13 +1,13 @@
 ---
 title: Vendite e marketing
-description: "È possibile utilizzare Vendite e marketing per ottenere, archiviare e utilizzare vari tipi di dati nel flusso di vendita. Ciò include l'iniziativa di vendita iniziale, azioni follow-up successive e vendite aggiuntive."
+description: È possibile utilizzare Vendite e marketing per ottenere, archiviare e utilizzare vari tipi di dati nel flusso di vendita. Ciò include l'iniziativa di vendita iniziale, azioni follow-up successive e vendite aggiuntive.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 4de2ac36ec13f95c7603d097a0800b317014bbd0
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321066"
 ---
-
 # <a name="sales-and-marketing"></a>Vendite e marketing
 
 [!include [banner](../includes/banner.md)]
@@ -126,4 +125,3 @@ Una fattura proforma è una fattura preparata come stima degli importi effettivi
 #### <a name="blogs"></a>Blog
 
 È possibile trovare una panoramica del processo di vendita nel post [Processo di vendita in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
-

@@ -1,13 +1,13 @@
 ---
-title: "Guide attività nuove o aggiornate (novembre 2016)"
-description: "In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (novembre 2016 -- tutte le lingue) per Microsoft Dynamics 365 for Operations. Nessuna nuova libreria introduttiva è stata rilasciata."
+title: Guide attività nuove o aggiornate (novembre 2016)
+description: In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (novembre 2016 - tutte le lingue) per Microsoft Dynamics 365 for Operations. Nessuna nuova libreria introduttiva è stata rilasciata.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,24 +17,23 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348919"
 ---
-
 # <a name="new-or-updated-task-guides-november-2016"></a>Guide attività nuove o aggiornate (novembre 2016)
 
 [!include [banner](../includes/banner.md)]
 
 In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (novembre 2016 – tutte le lingue) per Microsoft Dynamics 365 for Operations. Nessuna nuova libreria introduttiva è stata rilasciata.
 
-La libreria unificata APQC (novembre 2016 – tutte le lingue) contiene contiene le guide attività da utilizzare per ottenere assistenza per Microsoft Dynamics 365 for Operations, la piattaforma Microsoft Dynamics 365 for Operations versione 3, la piattaforma Microsoft Dynamics AX versione 2, l'aggiornamento di maggio 2016 di Microsoft Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Per ulteriori informazioni su queste versioni, vedere [Novità o modifiche](whats-new-changed.md). Le versioni localizzate delle guide attività sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md).
+La libreria unificata APQC (novembre 2016 – tutte le lingue) contiene le guide attività da utilizzare per ottenere assistenza per Microsoft Dynamics 365 for Operations, la piattaforma Microsoft Dynamics 365 for Operations versione 3, la piattaforma Microsoft Dynamics AX versione 2, l'aggiornamento di maggio 2016 di Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Per ulteriori informazioni su queste versioni, vedere [Novità o modifiche](whats-new-changed.md). Le versioni localizzate delle guide attività sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md).
 
 > [!NOTE]
-> Nota: un asterisco (\*) accanto al titolo di una riga Modellatore di processi aziendali (BPM) indica che la guida attività per il processo aziendale è stata creata per l'aggiornamento di Dynamics 365 for Operations di novembre 2016 e non è supportata nelle versioni precedenti di Microsoft Dynamics AX.
+> Un asterisco (\*) accanto al titolo di una riga Modellatore di processi aziendali (BPM) indica che la guida attività per il processo aziendale è stata creata per l'aggiornamento di Dynamics 365 for Operations di novembre 2016 e non è supportata nelle versioni precedenti di Microsoft Dynamics AX.
 
 ### <a name="accounts-payable"></a>Contabilità fornitori
 
@@ -549,4 +548,3 @@ La libreria unificata APQC (novembre 2016 – tutte le lingue) contiene contiene
 [Guide attività nuove o aggiornate disponibili (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guide attività nuove o aggiornate disponibili (agosto 2016)](new-updated-task-guides-available-august-2016.md)
-

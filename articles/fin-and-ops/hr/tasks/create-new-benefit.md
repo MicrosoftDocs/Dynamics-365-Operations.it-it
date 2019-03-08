@@ -1,13 +1,13 @@
---- 
+---
 title: Crea un nuovo benefit
-description: "Questa attività indicherà come creare elementi di benefit che verranno utilizzati durante la creazione di un nuovo benefit."
+description: Questa attività indicherà come creare elementi di benefit che verranno utilizzati durante la creazione di un nuovo benefit.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 5136af93ccd751e6ac710a75914bf5f04750f7a1
-ms.contentlocale: it-it
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313729"
 ---
 # <a name="create-a-new-benefit"></a>Crea un nuovo benefit
 
@@ -54,5 +54,4 @@ Questa attività indicherà come creare elementi di benefit che verranno utilizz
 5. Nel campo Opzione immettere o selezionare un valore.
 6. Nel campo Validità immettere una data e un'ora.
 7. Fare clic su Crea benefit.
-
 

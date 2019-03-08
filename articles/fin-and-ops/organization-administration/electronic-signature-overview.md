@@ -5,9 +5,9 @@ author: maertenm
 manager: AnnBe
 ms.date: 08/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325666"
 ---
-
 # <a name="electronic-signatures"></a>Firme elettroniche
 
 [!include [banner](../includes/banner.md)]
@@ -111,4 +110,3 @@ Per designare gli approvatori, attenersi alla procedura indicata di seguito.
 1. Nella pagina **Opzioni** , nella scheda **Conti** , fare clic su **Approvatore designato**.
 2. Nel campo **ID utente approvatore** selezionare l'ID dell'utente che deve firmare per le modifiche apportate da un altro utente.
 3. Nel campo **ID utente per firma** selezionare l'ID dell'utente che ha apportato le modifiche per le quali è richiesta la firma.
-

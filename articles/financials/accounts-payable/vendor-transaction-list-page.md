@@ -5,9 +5,9 @@ author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 99a169bd51e14f15c085f7547ec240b2787258cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
-ms.contentlocale: it-it
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341743"
 ---
-
 # <a name="vendor-transactions-list-page"></a>Pagina elenco di transazioni fornitore
 
 [!include [banner](../includes/banner.md)]
@@ -40,10 +39,10 @@ Il pulsante **Visualizza liquidazioni** del riquadro azioni offre un accesso rap
 
 4. Nella finestra di dialogo è possibile eseguire varie attività. Selezionare uno o più giustificativi e quindi selezionare uno dei pulsanti seguenti:
 
-    - **Visualizza correlato** - Mostra tutte le transazioni del giornale di registrazione pagamenti che sono state create nel giornale di registrazione pagamenti che è correlato al documento selezionato. Vengono inoltre visualizzate tutte le liquidazioni correlate a tali pagamenti. Durante la visualizzazione dei pagamenti correlati, l'etichetta di questo pulsante cambia in **Visualizza liquidazioni**. Selezionare **Visualizza liquidazioni** per mostrare solo le transazioni che erano visualizzate la prima volta che è stata aperta la finestra di dialogo **Visualizza liquidazioni**.
+    - **Visualizza correlato** - Mostra tutte le transazioni del giornale di registrazione pagamenti e le transazioni giornale di registrazione generale per il fornitore che sono state create nei giornali di registrazione in cui i documenti visualizzati nell'elenco sono stati creati. Ad esempio, se un pagamento viene visualizzato, tutti i pagamenti nel giornale di registrazione in cui è stato creato saranno visualizzati. Se una fattura o un pagamento è visualizzato ed è stato creato in un giornale di registrazione generale, tutti i documenti nel giornale di registrazione generale in cui è stato creato verranno visualizzati. Vengono inoltre visualizzate tutte le liquidazioni correlate all'elenco di documenti. Durante la visualizzazione dei pagamenti correlati, l'etichetta di questo pulsante cambia in **Visualizza liquidazioni**. Selezionare **Visualizza liquidazioni** per mostrare solo le transazioni che erano visualizzate la prima volta che è stata aperta la finestra di dialogo **Visualizza liquidazioni**.
     - **Visualizza storico** - Mostra la cronologia delle liquidazioni per i giustificativi. Selezionare **Chiudi** per chiudere la finestra di dialogo.
     - **Visualizza contabilità** - Mostra tutti i giustificativi che sono correlati ai documenti selezionati. Selezionare **Chiudi** per chiudere la finestra di dialogo.
-    - **Esporta** - Esportare i giustificativi selezionati in Microsoft Excel.
+    - **Esporta** – Esportare i giustificativi selezionati in Microsoft Excel.
     - **Liquida transazioni** - Questo pulsante viene visualizzato solo se il documento originale che era selezionato non è stato completamente liquidato. Quando si seleziona questo pulsante, viene visualizzata la finestra di dialogo **Liquida transazioni**, nella quale è possibile selezionare le transazioni da liquidare.
     - **Annulla liquidazioni** - Questo pulsante viene visualizzato solo se il documento originale che era stato selezionato era stato completamente liquidato. Quando si seleziona questo pulsante, viene visualizzata la finestra di dialogo **Annulla liquidazioni** nella quale è possibile annullare le liquidazioni eseguite per il documento.
 
@@ -98,4 +97,3 @@ Ciascun campo ha un effetto diverso sulla transazione quando lo si modifica:
 - **Modifica termini di sconto di cassa:** vengono modificati gli sconti di cassa in base alla data di base e ai termini di sconto di cassa.
 
 Dopo avere modificato le impostazioni di pagamento, selezionare **Chiudi** per salvare le modifiche.
-

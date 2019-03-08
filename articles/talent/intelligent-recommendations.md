@@ -1,14 +1,14 @@
 ---
 title: Suggerimenti intelligenti
-description: "In questo argomento viene descritto come l'apprendimento automatico può essere utilizzato per fornire suggerimenti per mansioni e candidati a mansioni."
+description: In questo argomento viene descritto come l'apprendimento automatico può essere utilizzato per fornire suggerimenti per mansioni e candidati a mansioni.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305007"
 ---
-
 # <a name="intelligent-recommendations"></a>Suggerimenti intelligenti
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Per qualsiasi candidato suggerito, è possibile selezionare **Visualizza candida
 ## <a name="job-recommendations"></a>Suggerimenti mansione 
 
 Quando un dipendente potenziale usa il sito di avanzamento professionale per fare domanda per una mansione, altre posizioni aperte nell'organizzazione vengono suggerite. Questi suggerimenti sono basati sulle passate domande di lavoro del prospect, sul suo curriculum o profilo. Di conseguenza, i suggerimenti mansione aiutano i prospect a identificare rapidamente le mansioni pià adatte a loro. I suggerimenti mansione vengono forniti ai prospect se più di dieci mansioni vengono pubblicate nel sito di avanzamento professionale. I prospect possono aprire i dettagli di un annuncio di mansione nella scheda di suggerimento. Possono inoltre fornire un riscontro su un suggerimento per aiutare a migliorare i suggerimenti futuri.
-

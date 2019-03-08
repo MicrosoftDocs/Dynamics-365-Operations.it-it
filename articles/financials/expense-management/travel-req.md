@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e69cf1112dcb4fd31c79592bf0d7a2ecd4a21adf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 135d787d03fe6d3ec3ca8d2324ac3055b72f2962
-ms.contentlocale: it-it
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339719"
 ---
-
 # <a name="travel-requisitions"></a>Richieste di viaggio
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ L'organizzazione potrebbe richiedere che una richiesta di viaggio venga inviata 
 Le richieste di viaggio e i criteri possono essere utilizzati per agevolare il controllo del budget. Ad esempio, se l'organizzazione sta lavorando su un progetto a prezzo fisso che richiede un viaggio, le spese di viaggio dei membri del team di progetto devono rientrare nel budget per il progetto. Mediante la richiesta che le spese di viaggio vengano approvate prima di essere sostenute, l'organizzazione può contribuire a garantire che il progetto rientri nel budget.
 
 È possibile impostare i criteri per le richieste di viaggio dalla pagina **Richiesta di viaggio**.
-

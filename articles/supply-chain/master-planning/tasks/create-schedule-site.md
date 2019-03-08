@@ -1,13 +1,13 @@
---- 
+---
 title: Creare una programmazione per un sito
 description: Questa procedura mostra come programmare gli ordini di produzione non ancora iniziati per un sito.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 54bb2532534d5567239dad4fab7fd74fa50d2826
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 775428bf84a752c03c492e764fa9ed576ab64fb8
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330059"
 ---
 # <a name="create-a-schedule-for-a-site"></a>Creare una programmazione per un sito
 
@@ -55,5 +55,4 @@ Questa procedura mostra come programmare gli ordini di produzione non ancora ini
     * In questa pagina è possibile visualizzare l'elenco dei processi. Nella scheda di programmazione è possibile visualizzare la data di inizio e di fine di un processo.  
 4. Fare clic su Materiali.
     * In questa pagina è possibile visualizzare il consumo stimato dei materiali per le operazioni presenti nell'ordine di produzione e le scorte correnti disponibili.  
-
 

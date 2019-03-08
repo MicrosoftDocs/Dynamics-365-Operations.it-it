@@ -5,25 +5,24 @@ author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330312"
 ---
-
 # <a name="dual-currency"></a>Doppia valuta
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Inoltre, le modifiche principali sono stati effettuate al processo di ammortamen
     - Se il tipo di transazione di ammortamento viene immesso nel giornale di registrazione cespiti, gli importi in valuta di dichiarazione appaiono nelle nuove colonne. Quegli importi possono essere modificati.
     - Se la valuta di contabilizzazione e le valute di dichiarazione per la contabilità generale sono uguali, gli importi verranno mantenuti in sincronizzazione. Se si modifica l'importo **Avere**, l'importo **Avere in valuta di dichiarazione** verrà modificato automaticamente in modo da corrispondere.
     - Se qualsiasi altro tipo di transazione viene immesso nel giornale di registrazione cespiti, gli importi **Dare in valuta di dichiarazione** e **Avere in valuta di dichiarazione** non vengono mai visualizzati, prima o dopo la registrazione. Gli importi in valuta di contabilizzazione e in valuta di dichiarazione sono comunque disponibili sul giustificativo registrato nella contabilità generale.
-

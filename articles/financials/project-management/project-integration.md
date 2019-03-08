@@ -1,13 +1,13 @@
 ---
 title: Integrazione client Microsoft Project
-description: "La pianificazione e la gestione della programmazione di un progetto possono essere complesse, per questo i manager di progetto devono utilizzare strumenti che agevolano queste attività. L'integrazione con il client Microsoft Project offre supporto per aprire e gestire una struttura di suddivisione del lavoro del progetto."
+description: La pianificazione e la gestione della programmazione di un progetto possono essere complesse, per questo i manager di progetto devono utilizzare strumenti che agevolano queste attività. L'integrazione con il client Microsoft Project offre supporto per aprire e gestire una struttura di suddivisione del lavoro del progetto.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-04
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317478"
 ---
-
 # <a name="microsoft-project-client-integration"></a>Integrazione client Microsoft Project
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,7 @@ Per creare una nuova struttura di suddivisione del lavoro utilizzando il client 
 
 1.  Aprire il client Microsoft Project.
 
-2.  Nella scheda **Microsoft Dynamics 365** fare clic su **Apri**.
+2.  Nella scheda **Microsoft Dynamics 365**, fare clic su **Apri**.
 
 3.  Selezionare la **persona giuridica** per il progetto
 
@@ -128,4 +127,3 @@ Per creare una nuova struttura di suddivisione del lavoro utilizzando il client 
 8.  Selezionare il **Calendario** da utilizzare per le risorse.
 
 11. Fare clic su **OK**.
-

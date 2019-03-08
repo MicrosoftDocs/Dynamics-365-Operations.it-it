@@ -1,13 +1,13 @@
 ---
 title: Destinazioni dei report elettronici (ER)
-description: "È possibile configurare una destinazione per ciascuna configurazione di formato per la creazione di report elettronici (ER) e del relativo componente di output (una cartella o un file). Gli utenti che dispongono di diritti di accesso appropriati anche possono modificare le impostazioni di destinazione in fase di esecuzione. Questo articolo illustra la gestione delle destinazioni ER, i tipi di destinazioni supportati e considerazioni sulla sicurezza."
+description: È possibile configurare una destinazione per ciascuna configurazione di formato per la creazione di report elettronici (ER) e del relativo componente di output (una cartella o un file). Gli utenti che dispongono di diritti di accesso appropriati anche possono modificare le impostazioni di destinazione in fase di esecuzione. Questo articolo illustra la gestione delle destinazioni ER, i tipi di destinazioni supportati e considerazioni sulla sicurezza.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314925"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -165,4 +164,3 @@ Il prerequisito è che il formato deve essere disponibile nelle configurazioni E
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei report elettronici](general-electronic-reporting.md)
-

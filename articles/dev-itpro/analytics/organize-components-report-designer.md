@@ -1,13 +1,13 @@
 ---
 title: Organizzare i componenti del report in Progettazione report
-description: "Dopo aver progettato i blocchi predefiniti e generato i report, è utile organizzare questi oggetti in modo che gli utenti possano individuarli più facilmente. In questo articolo viene spiegato come organizzare i report, i blocchi predefiniti e gli oggetti esistenti in Progettazione report."
+description: Dopo aver progettato i blocchi predefiniti e generato i report, è utile organizzare questi oggetti in modo che gli utenti possano individuarli più facilmente. In questo articolo viene spiegato come organizzare i report, i blocchi predefiniti e gli oggetti esistenti in Progettazione report.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323941"
 ---
-
 # <a name="organize-report-components-in-report-designer"></a>Organizzare i componenti del report in Progettazione report
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,7 @@ Nella tabella riportata di seguito viene fornita una descrizione dei controlli p
 <td>Livello dettagli</td>
 <td>Specificare il livello di dettaglio da includere nei report.
 <ul>
-<li><strong>Riepilogo finanziario</strong>: report di riepilogo generale. Non è possibile eseguire il drill-down nei conti e nelle dimensioni, ad eccezione dei conti e delle dimensioni aggiunti tramite un albero gerarchico.</li>
+<li><strong>Riepilogo finanziario</strong>: report di riepilogo generale. Non è possibile eseguire il drill-down nei conti e dimensioni, ad eccezione di quelli aggiunti tramite un albero gerarchico.</li>
 <li><strong>Finanziario e conto</strong>- Un report contenente un riepilogo di alto livello e i dettagli del conto.</li>
 <li><strong>Finanziario, conto e transazione</strong>- Un report contenente un riepilogo di alto livello e i dettagli delle transazioni.</li>
 </ul></td>
@@ -150,4 +149,3 @@ Solo le impostazioni del periodo di base predefinito vengono salvate con la defi
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-

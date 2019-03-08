@@ -5,32 +5,31 @@ author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.contentlocale: it-it
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304949"
 ---
-
 # <a name="sourcing-with-linkedin-recruiter"></a>Cercare candidati con LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
-LinkedIn è il più grande database di talenti del mondo e spesso il sistema primario che utilizzano i selezionatori per trovare e comunicare con i candidati per le posizioni che devono coprire. L'integrazione di LinkedIn Recruiter con Dynamics 365 for Talent: Attract  facilita le assunzioni e il mantenimento della sincronizzazione dei dati tra i due sistemi.
+LinkedIn è il più grande database di talenti del mondo e spesso il sistema primario che utilizzano i selezionatori per trovare e comunicare con i candidati per le posizioni che devono coprire. L'integrazione di LinkedIn Recruiter con Dynamics 365 for Talent: Attract facilita le assunzioni e il mantenimento della sincronizzazione dei dati tra i due sistemi.
 
 > [!NOTE]
 > È necessario disporre del componente aggiuntivo per l'assunzione a livello globale e postazioni di LinkedIn Recruiter per poter utilizzare l'integrazione di LinkedIn Recruiter con Attract.
@@ -142,4 +141,3 @@ Per visualizzare lo storico delle note, passare al profilo di un candidato, pass
 Il profilo stub di InMail è disponibile con l'accesso a livello di contratto con LinkedIn Recruiter. Se i candidati accettano di condividere i propri profili di LinkedIn con qualsiasi utente dell'organizzazione, è possibile tenere traccia dei candidati in Attract e un nuovo record candidato verrà creato per ciascun candidato. È possibile visualizzare l'indirizzo di posta elettronica del candidato se il candidato è già presente nel sistema con un indirizzo di posta elettronica o ha scelto di condividere l'indirizzo con il selezionatore.
 
 Per visualizzare l'elenco dei candidati, andare a **Pool di talenti** per visualizzare un pool di talenti LinkedIn creato dal sistema. Questo pool di talenti contiene l'elenco di candidati e i relativi profili stub come ricevuti da LinkedIn, mostrando il nome e cognome del candidato. L'ID di posta elettronica del candidato viene visualizzato nel caso in cui il candidato ha scelto di condividere il proprio indirizzo di posta elettronica.
-

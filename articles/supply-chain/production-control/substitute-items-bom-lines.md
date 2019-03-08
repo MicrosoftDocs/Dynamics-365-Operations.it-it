@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327621"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>Sostituzione di materiale in fase di produzione
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Considerare il seguente scenario: Un macchinario che una società sta fabbricand
 
 ## <a name="substituting-material-during-production"></a>Sostituzione di materiale durante la produzione
 Si prenda in considerazione il seguente scenario: un pezzo di piastra metallica è necessario per un'operazione di saldatura. Durante l'operazione un lavoratore di un magazzino informa l'operatore che il piatto è esaurito. Tuttavia, è stato deciso che il piatto può essere sostituito con un piatto leggermente più spesso. In quel modo l'operazione può essere finalizzata. Il materiale può essere aggiunto alla DBA per un ordine di produzione aperto. Se l'ordine di produzione ha lo stato di **Iniziato**, agli utenti viene chiesto stimare nuovamente l'ordine quando aggiungono un nuovo articolo alla DBA di produzione. Dopo avere aggiunto il materiale, è possibile creare una nuova distinta di prelievo per il nuovo articolo. Non è necessario aggiungere il nuovo materiale alla DBA di produzione. Invece, è possibile aggiungerlo direttamente alla distinta di prelievo produzione. Quindi, quando la distinta di prelievo viene registrata, il sistema aggiunge il materiale alla DBA di produzione.
-
 
 
 

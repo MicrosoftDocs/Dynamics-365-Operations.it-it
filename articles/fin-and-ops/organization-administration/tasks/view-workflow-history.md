@@ -1,13 +1,13 @@
---- 
+---
 title: Visualizza storico flusso di lavoro
 description: Per visualizzare lo stato di un documento inviato al sistema del flusso di lavoro per l'elaborazione e l'approvazione, utilizzare alla procedura indicata di seguito.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 212f9fe8bc7807b9209523564ead716959875241
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309658"
 ---
 # <a name="view-workflow-history"></a>Visualizza storico flusso di lavoro
 
@@ -46,5 +46,4 @@ Per visualizzare lo stato di un documento inviato al sistema del flusso di lavor
     * Assicurarsi che la sezione Elementi di lavoro sia espansa.    In questa sezione è possibile visualizzare gli elementi di lavoro associati al documento selezionato. Può contenere, ad esempio, un'attività da completare o un documento da approvare.  
     * Il pulsante Riassegna apre una finestra di dialogo in cui è possibile riassegnare un elemento di lavoro a un altro utente.  
     * Assicurarsi che la sezione Dettagli tracciabilità sia espansa.    In questa sezione è possibile visualizzare lo storico flusso di lavoro del documento selezionato.  
-
 

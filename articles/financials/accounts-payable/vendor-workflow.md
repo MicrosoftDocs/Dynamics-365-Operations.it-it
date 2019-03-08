@@ -5,9 +5,9 @@ author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: it-it
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329691"
 ---
-
 # <a name="vendor-workflow"></a>Flusso di lavoro fornitori
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Quando si ha almeno una modifica proposta, vengono visualizzate due schede aggiu
 1. Selezionare **Modifiche proposte** per aprire la pagina **Modifiche proposte** ed esaminare le modifiche.
 2. Selezionare **Flusso di lavoro \> Invia per inviare le modifiche al flusso di lavoro**.
 
-    Lo stato nella pagina viene impostato su **Modifiche in attesa di approvazione**.
+    Lo stato sulla pagina è cambiato in **Modifiche in attesa di approvazione**.
 
-Il flusso di lavoro segue il processo standard del flusso di lavoro in Microsoft Dynamics 365 for Finance and Operations. L'approvatore viene indirizzato alla pagina **Fornitore** dove può esaminare le modifiche nella pagina **Modifiche proposte** e quindi selezionare **Flusso di lavoro \> Approva** per approvare il flusso di lavoro. Dopo avere completato tutte le approvazioni, i campi vengono aggiornati con i valori proposti.
-
+Il flusso di lavoro segue il processo standard del flusso di lavoro in Microsoft Dynamics 365 for Finance and Operations. L'approvatore viene indirizzato alla pagina **Fornitore** dove può esaminare le modifiche nella pagina **Modifiche proposte** e quindi selezionare **Flusso di lavoro \> Approva** per approvare il flusso di lavoro. Una volta completate tutte le approvazioni, i campi vengono aggiornati con i valori proposti.

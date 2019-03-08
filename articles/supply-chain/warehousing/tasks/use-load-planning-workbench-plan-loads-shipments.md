@@ -1,13 +1,13 @@
---- 
+---
 title: Pianificare i carichi e le spedizioni utilizzando il workbench di pianificazione del carico
 description: Questa procedura illustra come utilizzare il workbench di pianificazione del carico per creare un carico per un ordine cliente.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f840a4c15305af5f55451ae7f1cec2da25e685a4
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343905"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Pianificare i carichi e le spedizioni utilizzando il workbench di pianificazione del carico
 
@@ -65,5 +65,4 @@ Questa procedura illustra come utilizzare il workbench di pianificazione del car
 5. Fare clic su Assegna.
 6. Chiudere la pagina.
 7. Chiudere la pagina.
-
 

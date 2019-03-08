@@ -1,13 +1,13 @@
 ---
 title: Panoramica della richiesta di acquisto
-description: "Vengono descritti il flusso di lavoro delle richieste di acquisto e i diversi stati che può avere una richiesta di acquisto."
+description: Vengono descritti il flusso di lavoro delle richieste di acquisto e i diversi stati che può avere una richiesta di acquisto.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309842"
 ---
-
 # <a name="purchase-requisition-overview"></a>Panoramica della richiesta di acquisto
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Una volta approvata una richiesta di acquisto, questa può essere utilizzata per
 ## <a name="creating-purchase-requisitions"></a>Creazione di richieste di acquisto
 È possibile creare una richiesta di acquisto nella pagina **Richieste di acquisto personali** e selezionare gli articoli e i servizi desiderati. È possibile selezionare articoli da un catalogo di approvvigionamento che l'organizzazione ha creato oppure richiedere articoli che non si trovano in un catalogo, selezionando una categoria di approvvigionamento e immettendo i dati del prodotto nel modulo.  
 
-Prima di inviare una richiesta di acquisto per la revisione, è necessario configurare i flussi di lavoro in Microsoft Dynamics 365 for Finance and Operations. Il processo del flusso di lavoro è necessario per far avanzare la richiesta di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di **Bozza** fino allo stato finale di **Approvata**.
+Prima di inviare una richiesta di acquisto per la revisione, è necessario configurare il flusso di lavoro nel client in Microsoft Dynamics 365 for Finance and Operations. Il processo del flusso di lavoro è necessario per far avanzare la richiesta di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di **Bozza** fino allo stato finale di **Approvata**.
 
 ### <a name="purchase-requisition-statuses"></a>Stati della richiesta di acquisto
 
@@ -142,7 +141,7 @@ Nei criteri di approvvigionamento è possibile determinare gli scopi disponibili
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Richieste di acquisto con scopo di consumo
 
-Una richiesta di acquisto con scopo di consumo rappresenta una domanda di articoli o servizi che verranno utilizzati internamente dall'organizzazione. La domanda creata da questo tipo di richiesta di acquisto è sempre soddisfatta da un ordine fornitore. Se Microsoft Dynamics 365 for Finance and Operations è impostato in modo da generare automaticamente gli ordini fornitore, gli ordini fornitore vengono generati dopo che viene approvata la richiesta di acquisto.
+Una richiesta di acquisto con scopo di consumo rappresenta una domanda di articoli o servizi che verranno utilizzati internamente dall'organizzazione. La domanda creata da questo tipo di richiesta di acquisto è sempre soddisfatta da un ordine fornitore. Se Microsoft Dynamics 365 for Finance and Operations è impostato in modo da generare automaticamente gli ordini fornitore, gli ordini fornitore vengono generati dopo l'approvazione della richiesta di acquisto.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Richieste di acquisto con scopo di rifornimento
 
@@ -198,7 +197,6 @@ Per consolidare le righe della richiesta di acquisto approvate, attenersi alla s
 [Creare una richiesta per il consumo (Guida attività)](tasks/create-requisition-consumption.md)
 
 [Flusso di lavoro delle richieste di acquisto](purchase-requisitions-workflow.md)
-
 
 
 

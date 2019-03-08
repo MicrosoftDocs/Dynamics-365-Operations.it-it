@@ -1,13 +1,13 @@
 ---
-title: "Visualizzare le pagine affiancate utilizzando la funzionalità Apri in nuova finestra"
+title: Visualizzare le pagine affiancate utilizzando la funzionalità Apri in nuova finestra
 description: Questo articolo illustra come visualizzare pagine affiancate in Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 09/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df9b091735a4971446c5b5d0e054076260040683
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8e3ef29618f11b0f247999e3a24e54bff44bf51a
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330174"
 ---
-
-# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Visualizzare le pagine affiancate utilizzando la funzionalità Apri in nuova finestra
+# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Mostrare le pagine affiancate utilizzando la funzionalità Apri in nuova finestra
 
 [!include [banner](../includes/banner.md)]
 
@@ -50,4 +49,3 @@ Prima di utilizzare la funzionalità **Apri in nuova finestra**, è necessario c
 La funzionalità **Apri in nuova finestra** è disponibile solo quando sono presenti più pagine aperte nella finestra. Inoltre, la finestra popup si chiude automaticamente quando non sono presenti più pagine aperte (ovvero quando viene chiusa l'ultima pagina nella finestra). Finance and Operations chiude anche le pagine aperte quando si esplora un'area diversa dell'applicazione. Di conseguenza, se le finestre popup sono aperte e si esplora un'area diversa dell'applicazione, le finestre popup sono automaticamente chiuse perché le pagine in quelle finestre sono state chiuse dal sistema.
 
 La barra superiore nelle finestre popup visualizza le informazioni sulla società in cui è stata aperta la pagina ed è di sola lettura. Le finestre popup si basano anche sulla finestra principale del browser Finance and Operations. Se la finestra principale è chiusa o aggiornata, tutte le finestre popup aperte diventeranno di sola lettura. Ciò significa che è comunque possibile visualizzare le informazioni in queste finestre, ma non sarà possibile interagire con esse.
-

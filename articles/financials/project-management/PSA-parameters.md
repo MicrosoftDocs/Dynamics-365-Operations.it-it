@@ -1,13 +1,13 @@
 ---
 title: Parametri di integrazione di Project Service Automation
-description: "Questo argomento descrive come configurare la modalità di immissione dei dati predefiniti quando si integra Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 for Finance and Operations."
+description: Questo argomento descrive come configurare la modalità di immissione dei dati predefiniti quando si integra Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347056"
 ---
-
-# <a name="project-service-automation-integration-parameters"></a>Parametri di integrazione di Project Service Automation
+# <a name="project-service-automation-integration-parameters"></a>Parametri dell'integrazione di Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
@@ -46,4 +45,3 @@ Nella pagina **Parametri di integrazione di Project Service Automation** è poss
 | Impostazioni predefinite tipo di fatturazione  | Tipo di fatturazione         | Fare clic su **Nuovo** per aggiungere una riga dove è possibile selezionare il tipo di fatturazione per cui impostare la proprietà di riga predefinita. È possibile selezionare un tipo di fatturazione specifico solo una volta nella configurazione. |
 |                        | Proprietà riga        | Selezionare la proprietà di riga predefinita per il tipo di fatturazione selezionato. Quando le nuove stime orarie, le nuove stime di spesa o i nuovi valori effettivi vengono sincronizzati da Project Service Automation, il campo **Proprietà riga** viene impostato sul valore predefinito per il tipo di fatturazione. |
 | Blocco funzionalità  | Non applicabile       | Selezionare la funzionalità per disattivare in Finance and Operations per i progetti e i contratti che hanno origine da Project Service Automation. Ad esempio, è possibile disattivare la possibilità di modificare i contratti e i progetti, di creare strutture di suddivisione del lavoro e di immettere fogli presenze in Finance and Operations. I campi correlati alla contabilità continueranno a essere attivati, anche se resi non disponibili dall'impostazione dei parametri. Per impostazione predefinita, tutte le funzionalità sono abilitate. |
-

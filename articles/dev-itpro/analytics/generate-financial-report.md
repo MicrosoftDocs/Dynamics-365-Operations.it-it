@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340892"
 ---
-
 # <a name="generate-financial-reports"></a>Genera report finanziari
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Per la generazione di report sono disponibili le opzioni seguenti:
 
 Quando si genera un report, vengono usate le opzioni specificate nelle schede di Definizione di report .
 
-## <a name="generate-a-financial-report"></a>Generare un report finanziario
+## <a name="generate-a-financial-report"></a>Genera un report finanziario
 
 Per generare un report finanziario con Microsoft Dynamics 365 for Finance and Operations, passare a **Contabilità generale** \> **Richieste di informazioni e report** \> **Report finanziari**.
 
@@ -115,7 +114,7 @@ I conti mancanti vengono determinati utilizzando i valori minimo e massimo dalla
 > [!TIP]
 > Ai fini della convalida, questo processo deve essere eseguito prima di generare i report mensili e quando si creano nuovi blocchi predefiniti.
 
-Report con intervalli di valori hanno minori probabilità di avere conti mancanti. Quando possibile, utilizzare gli intervalli nel blocco predefinito per includere i nuovi conti quando vengono creati. Se una definizione di report viene impostata su @ANY società, è possibile accedere a una società specifica ed eseguire un'analisi di conto mancante per la società.
+Report con intervalli di valori hanno minori probabilità di avere conti mancanti. Quando possibile, utilizzare gli intervalli nel blocco predefinito per includere i nuovi conti quando vengono creati. Se una definizione di report è impostata sulla società @ANY, è possibile accedere a una società specifica ed eseguire per quest'ultima un'analisi dei conti mancanti.
 
 > [!NOTE]
 > Se una nuova società è stata aggiunta, è necessario aggiungere la nuova società agli alberi gerarchici in tutti i report esistenti o la società non verrà inclusa nell'analisi dei conti mancanti.
@@ -158,4 +157,3 @@ Quando si esegue un'analisi dei conti mancanti, sono disponibili i seguenti tast
 [Creazione di report finanziari](financial-reporting-intro.md)
 
 [Interfaccia di Progettazione report](report-designer-interface.md)
-

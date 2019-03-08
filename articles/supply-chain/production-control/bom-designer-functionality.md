@@ -1,13 +1,13 @@
 ---
-title: "Funzionalità Designer DBA"
+title: Funzionalità Designer DBA
 description: In questo argomento viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM).
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d3bae68c9daf7aaaee1802e1def64d04ccea01b8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b7d4530ecccf18d9370d84ff2b61be1514b80192
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338155"
 ---
-
 # <a name="bom-designer-functionality"></a>Funzionalità Designer DBA
 
 [!include [banner](../includes/banner.md)]
@@ -117,7 +116,6 @@ Fare clic su **Impostazione** per personalizzare le informazioni che vengono mos
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DBA         | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati nella struttura ad albero. I criteri selezionati vengono visualizzati nella parte inferiore di entrambe le schede di Designer DBA. |
 | Ciclo di lavorazione       | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati per i cicli di lavorazione.                                                                                    |
-
 
 
 

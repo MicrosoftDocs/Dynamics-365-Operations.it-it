@@ -1,13 +1,13 @@
 ---
 title: Metodo di allocazione costi totali
-description: "Questo argomento fornisce le indicazioni per l'utilizzo dell'allocazione costi totali (TCA). L'allocazione costi totali (TCA) è un metodo di calcolo del costo tra l'articolo formula principale per un ordine batch e i co-prodotti definiti per la formula."
+description: Questo argomento fornisce le indicazioni per l'utilizzo dell'allocazione costi totali (TCA). L'allocazione costi totali (TCA) è un metodo di calcolo del costo tra l'articolo formula principale per un ordine batch e i co-prodotti definiti per la formula.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341582"
 ---
-
 # <a name="total-cost-allocation-method"></a>Metodo di allocazione costi totali
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Il campo **Allocazione costi sottoprodotti** nella pagina **Co-prodotti** è un 
 -   **Percentuale** ─ l'importo costi viene calcolato come percentuale del costo totale delle materie prime consumate nella produzione. La percentuale utilizzata per il calcolo viene immessa nel campo.
 -   **Per serie** ─ l'importo costi viene calcolato come importo per dimensioni batch standard dell'ordine di produzione. Questo importo è indipendente dalla quantità dichiarata nella produzione. L'importo utilizzato per il calcolo viene immesso nel campo.
 -   **Per quantità** ─ l'importo costi viene calcolato come importo per quantità dichiarata dell'articolo formula nella produzione. L'importo utilizzato per il calcolo viene immesso nel campo.
-
 
 
 

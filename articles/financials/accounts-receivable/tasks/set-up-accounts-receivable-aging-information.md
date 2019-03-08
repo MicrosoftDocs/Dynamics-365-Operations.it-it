@@ -1,13 +1,13 @@
---- 
-title: "Registrare la fattura fornitore e associarla alla quantità ricevuta"
-description: "Questa guida consentirà di impostare una definizione periodo di aging, i saldi con aging cliente e di visualizzare i saldi nell'elenco Saldo con aging e nella pagina Riscossioni."
+---
+title: Registrare la fattura fornitore e associarla alla quantità ricevuta
+description: Questa guida consentirà di impostare una definizione periodo di aging, i saldi con aging cliente e di visualizzare i saldi nell'elenco Saldo con aging e nella pagina Riscossioni.
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fd8738cfd3466464c9fec1760e9a369ff3a4a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e9f393acaa47d485a583b99ace459474f30be6a
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334636"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Registrare la fattura fornitore e associarla alla quantità ricevuta
 
@@ -61,5 +61,4 @@ Questa guida consentirà di impostare una definizione periodo di aging, i saldi 
 2. Selezionare un cliente con un saldo.
 3. Espandere l'area riquadro Dettaglio informazioni aging per visualizzare i saldi con aging.
     * La definizione del periodo di aging per il riquadro Dettaglio informazioni viene ricavata dalla definizione del periodo di aging specificata nei parametri. È possibile modificarla mediante il menu Pagato a destinazione.  
-
 

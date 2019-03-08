@@ -1,30 +1,29 @@
 ---
-title: "Confronto tra funzionalità cloud e locali"
-description: "Questo argomento fornisce informazioni sulla disponibilità delle funzionalità cloud e locali supportate."
+title: Confronto tra funzionalità cloud e locali
+description: Questo argomento fornisce informazioni sulla disponibilità delle funzionalità cloud e locali supportate.
 author: robinarh
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations
 ms.custom: 89563
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
+ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
-ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313982"
 ---
-
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Confronto tra funzionalità cloud e locali
 
 [!include [banner](../includes/banner.md)]
@@ -41,12 +40,12 @@ Nelle tabelle seguenti sono elencate le aree del prodotto. Il supporto cloud e l
 | Area | Funzionalità | Cloud | Locale |
 |---|---|---|---|
 | Conformità e certificazioni | | Sì | Sì |
-| | Certificazione SOC 1 tipo 1 | Sì | No |
+| | Certificazione SOC 1 tipo 1 | Sì | Nessuna |
 | Contabilità industriale | | Sì | Sì |
-| | Pacchetto di contenuti per la contabilità industriale in Power BI | Sì | No |
-| | Area di lavoro di contabilità industriale per app per dispositivi mobili | Sì | No |
+| | Pacchetto di contenuti per la contabilità industriale in Power BI | Sì | Nessuna |
+| | Area di lavoro di contabilità industriale per app per dispositivi mobili | Sì | Nessuna |
 | Gestione costi | | Sì | Sì |
-| | Pacchetto di contenuti per la gestione dei costi in Power BI | Sì | No |
+| | Pacchetto di contenuti per la gestione dei costi in Power BI | Sì | Nessuna |
 | Gestione dati e integrazione | | Sì | Sì |
 | | Estensione basata sulla configurazione | Sì | No |
 | | Esportazione di dati nel proprio magazzino dati | Sì | Sì |
@@ -57,12 +56,12 @@ Nelle tabelle seguenti sono elencate le aree del prodotto. Il supporto cloud e l
 | ? | | Sì | No |
 | Risorse umane | | Sì | Sì |
 | Intelligence | | Sì | Sì |
-| | Report elettronici - Integrazione con LCS | Sì | No |
-| | Report elettronici - Integrazione con SharePoint | Sì | No |
-| | Integrazione con PowerBI.com | Sì | No |
+| | Report elettronici - Integrazione con LCS | Sì | Nessuna |
+| | Report elettronici - Integrazione con SharePoint | Sì | Nessuna |
+| | Integrazione con PowerBI.com | Sì | Nessuna |
 | | Aree di lavoro analitiche | Sì | No |
-| | Processo aziendale intelligente: suggerimenti | Sì | No |
-| | Creazione di report Power BI con OData utilizzando il desktop Power BI o gli strumenti PowerQuery di Excel | Sì | No |
+| | Processo aziendale intelligente: suggerimenti | Sì | Nessuna |
+| | Creazione di report Power BI con OData utilizzando il desktop Power BI o gli strumenti PowerQuery di Excel | Sì | Nessuna |
 | | SQL Server Reporting Services (SSRS) supporta la scalabilità orizzontale | Sì | No |
 | | La telemetria viene trasferita nel cloud | Sì | No |
 | Gestione inventario | | Sì | Sì |
@@ -77,15 +76,15 @@ Nelle tabelle seguenti sono elencate le aree del prodotto. Il supporto cloud e l
 | Payroll | | Sì | Sì |
 | | Deposito diretto | Sì | No |
 | Approvvigionamento | | Sì | Sì |
-| | Collegamento al catalogo esterno dalla richiesta di acquisto | Sì | No |
-| | Report Power BI sull'analisi delle spese di acquisto | Sì | No |
+| | Collegamento al catalogo esterno dalla richiesta di acquisto | Sì | Nessuna |
+| | Report Power BI sull'analisi delle spese di acquisto | Sì | Nessuna |
 | Gestione informazioni sul prodotto | | Sì | Sì |
 | Dati di rappresentazione generale prodotto | | Sì | Sì |
 | Produzione | | Sì | Sì |
-| | Report Power BI su prestazioni di produttività | Sì | No |
+| | Report Power BI su prestazioni di produttività | Sì | Nessuna |
 | Gestione progetti e contabilità | | Sì | Sì |
 | Vendite | | Sì | Sì |
-| | Report Power BI su prestazioni di vendita e profitto | Sì | No |
+| | Report Power BI su prestazioni di vendita e profitto | Sì | Nessuna |
 | Sicurezza | | Sì | Sì |
 | Gestione assistenza | | Sì | Sì |
 | Gestione della supply chain | | Sì | Sì |
@@ -93,7 +92,7 @@ Nelle tabelle seguenti sono elencate le aree del prodotto. Il supporto cloud e l
 | Collaborazione fornitore | | Sì | No |
 | Gestione magazzino | | Sì | Sì |
 | | App magazzino per dispositivi mobili | Sì | Sì |
-| | Report Power BI su magazzino | Sì | No |
+| | Report Power BI su magazzino | Sì | Nessuna |
 | Client Web | | Sì | Sì |
 | | Registrazione attività - Salvataggio o caricamento di registrazioni attività dalla libreria BPM | Sì | No |
 | Supporto | | Sì | Sì |
@@ -111,8 +110,8 @@ Nelle tabelle seguenti sono elencate le aree del prodotto. Il supporto cloud e l
 | | Ambienti di manutenzione | Sì | No |
 | Parser di traccia e PerfTimer | | Sì | No |
 | Aggiorna | | Sì | Sì |
-| | Aggiorna | Sì | No |
-| | Aggiornamento e supporto per le versioni precedenti | Sì | No |
+| | Aggiorna | Sì | Nessuna |
+| | Aggiornamento e supporto per le versioni precedenti | Sì | Nessuna |
 | Sviluppo di Visual Studio | | Sì | Sì |
 
 ### <a name="retail"></a>Retail 
@@ -127,4 +126,3 @@ Per visualizzare un elenco delle capacità di vendita al dettaglio disponibili n
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Funzionalità non implementate nelle distribuzioni locali](features-not-implemented-on-prem.md)
-

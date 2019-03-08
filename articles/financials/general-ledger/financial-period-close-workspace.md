@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326908"
 ---
-
 # <a name="financial-period-close-workspace"></a>Area di lavoro chiusura periodo finanziario
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Due indicatori vengono utilizzati per le attività:
 -   L'icona del punto esclamativo indica che l'attività è scaduta. Per le attività già scadute, anche la data di scadenza viene evidenziata in rosso.
 -   Un'icona di un lucchetto indica che l'attività dipende da altre attività non ancora completate. Un'attività che viene bloccata dalle dipendenze non può essere contrassegnata come completata. È possibile impostare le dipendenze per un'attività utilizzando l'azione **Imposta dipendenza**.
 
-Nome dell'attività è un collegamento ipertestuale nella pagina di Microsoft Dynamics 365 for Operations o altre pagine Web a cui l'utente deve accedere per completare il lavoro. È possibile impostare il collegamento ipertestuale utilizzando il campo **Collegamento attività** quando si modifica o si crea un'attività. 
+Il nome dell'attività è un collegamento ipertestuale alla pagina di Microsoft Dynamics 365 for Operations o altre pagine Web a cui l'utente deve accedere per completare il lavoro. È possibile impostare il collegamento ipertestuale utilizzando il campo **Collegamento attività** quando si modifica o si crea un'attività. 
 
 È possibile collegare file, note, immagini e URL a un'attività utilizzando l'azione **Allegati**. Ad esempio, è possibile indicare i numeri di giornale di registrazione utilizzati come parte di un'attività, aggiungere commenti su un'attività specifica, o collegare un file di report stampato per un'attività. Un'icona viene visualizzata nella colonna **Allegato** per l'attività se un allegato è presente. 
 
@@ -63,7 +62,7 @@ L'opzione **Attività completata** deve essere selezionata manualmente dopo che 
 È possibile visualizzare tutte le attività correnti e precedenti di chiusura periodo nella pagina **Tutte le attività di chiusura periodo finanziario**. Questa pagina elenco viene utilizzata per l'analisi dello storico del processo di chiusura, poiché include informazioni sulla scadenza programmata, la data di completamento effettivo e sulla persona che ha completato l'attività. È possibile esportare facilmente le informazioni su questa pagina elenco in Microsoft Excel a scopo di report e controllo.
 
 ## <a name="financial-period-close-configuration-page"></a>Pagina Configurazione chiusura periodo finanziario
-Prima di poter utilizzare l'area di lavoro **Chiusura periodo finanziario**, è necessario configurare il processo in Microsoft Dynamics 365 for Finance and Operations utilizzando la pagina **Configurazione chiusura periodo finanziario**. Fare clic su **Contabilità generale** &gt; **Periodo chiuso** &gt; **Configurazione chiusura periodo finanziario**.
+Prima di utilizzare l'area di lavoro **Chiusura periodo finanziario**, è necessario configurare il processo in Microsoft Dynamics 365 for Finance and Operations utilizzando la pagina **Configurazione chiusura periodo finanziario**. Fare clic su **Contabilità generale** &gt; **Periodo chiuso** &gt; **Configurazione chiusura periodo finanziario**.
 
 ### <a name="resources"></a>Risorse
 
@@ -88,7 +87,7 @@ Creare e modificare i calendari di chiusura finanziaria utilizzando la scheda Ca
 
 È possibile assegnare un'attività nel modello a una o più società in cui tale attività è applicabile. Se una persona diversa viene assegnata per completare tale impegno lavorativo in ciascuna società, potrebbe essere utile creare più attività per lo stesso impegno lavorativo. Creare un'attività per ciascuna società. 
 
-La voce di menu **Collegamento attività** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di chiusura per eseguire il processo di rivalutazione valuta per la Contabilità fornitori può essere collegata alla pagina **Rivalutazione valuta estera** associata in Microsoft Dynamics 365 for Finance and Operations. È inoltre possibile effettuare il collegamento a un URL esterno. 
+La voce di menu **Collegamento attività** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di chiusura per eseguire il processo di rivalutazione valuta per Contabilità fornitori può essere collegata alla pagina **Rivalutazione valuta estera** associata in Microsoft Dynamics 365 for Finance and Operations. È inoltre possibile effettuare il collegamento a un URL esterno. 
 
 > [!TIP]
 > Se si desidera collegare un report di Management Reporter specifico a un'attività di chiusura periodo finanziario, è possibile utilizzare l'URL del report. Per accedere all'URL del report, aprire il report nella funzionalità di progettazione dei report, quindi fare clic su **File** &gt; **Visualizza report** per aprire il report in un Web browser. È quindi possibile copiare l'URL nella barra degli indirizzi del browser e incollarlo nel campo **Collegamento attività** **URL**. 
@@ -106,7 +105,6 @@ Assegnare il calendario appropriato per la programmazione di chiusura, per indic
 È inoltre necessario definire le società che verranno associate alla programmazione di chiusura. Se le attività del modello vengono assegnate a più società, verranno create attività separate per ciascuna società presente nella programmazione di chiusura e verranno assegnate all'attività del modello. 
 
 Dopo che una programmazione di chiusura viene completata, selezionare l'opzione **Chiusa**. Lo storico delle attività ancora sarà disponibile nella pagina elenco **Tutte le attività di chiusura periodo finanziario**, ma la programmazione di chiusura verrà rimossa dall'area di lavoro. Dopo che una programmazione di chiusura è stata contrassegnata come **Chiusa**, non sarà possibile aggiungere attività, modificare attività, o rimuovere attività.
-
 
 
 

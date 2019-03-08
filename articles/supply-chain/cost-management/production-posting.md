@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0b44d57fe89ef7ae3def835865e4da80c260f907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 413bf76b40ec1e6d00322605900a71f163c9396c
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332405"
 ---
-
 # <a name="production-posting"></a>Registrazione produzione
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ Nei **Parametri di controllo produzione**, è possibile utilizzare il campo **Re
 -   **Gruppi di produzioni** - Utilizzare i conti CoGe impostati sui gruppi di produzione per il consumo sia dei materiali che del tempo. I gruppi di produzione sono associati ai prodotti rilasciati e vengono copiati negli ordini di produzione quando tali ordini vengono creati. La registrazione sugli ordini di produzione seguirà quindi i gruppi di produzione associati all'ordine di produzione.
 
 **Nota:** se per il calcolo del costo dell'articolo finito è stato utilizzato il metodo standard, nelle transazioni finali verrà riflesso anche questo aspetto. In caso di differenza tra i costi effettivi e i costi calcolati con il metodo standard, tale differenza verrà registrata sul conto che mostra il profitto o la perdita.
-
 
 
 

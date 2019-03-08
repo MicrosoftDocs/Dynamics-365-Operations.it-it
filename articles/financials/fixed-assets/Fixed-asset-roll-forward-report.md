@@ -2,13 +2,13 @@
 title: Report rollforward cespiti
 description: In questo argomento viene descritto come utilizzare il report rollforward cespiti.
 author: saraschi2
-manager: 
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,19 @@ ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313752"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Report rollforward cespiti
 
 [!include [banner](../includes/banner.md)]
 
-Il report **rollforward cespiti** fornisce, in un formato Microsoft Excel di facile lettura, i dati dettagliati dei cespiti necessari per la chiusura di periodi, rendiconti finanziari e rendiconti fiscali. Il report include i saldi di inizio e di fine per i cespiti, unitamente ai movimenti di valutazione del periodo e a qualsiasi nuova acquisizione e dismissione di cespiti verificatasi nel periodo. I dati sono riportati per i singoli cespiti e sono inoltre riepilogati per gruppi di cespiti e persona giuridica.
+Il report **rollforward cespiti fornisce**, in un formato Microsoft Excel di facile lettura, i dati dettagliati dei cespiti necessari per la chiusura di periodi, rendiconti finanziari e rendiconti fiscali. Il report include i saldi di inizio e di fine per i cespiti, unitamente ai movimenti di valutazione del periodo e a qualsiasi nuova acquisizione e dismissione di cespiti verificatasi nel periodo. I dati sono riportati per i singoli cespiti e sono inoltre riepilogati per gruppi di cespiti e persona giuridica.
 
 Nel report **rollforward cespiti** viene utilizzato il framework di report elettronici (ER). Prima di poter eseguire il report, è necessario importare il modello di cespiti e le configurazioni di roll-forward dei cespiti da Microsoft Dynamics Lifecycle Services (LCS). Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
@@ -66,5 +66,4 @@ Nella seguente tabella vengono illustrati i campi disponibili nel report.
 |            Dismissioni: valore di vendita            |                                                                                               Il valore di vendita del libro cespiti con una transazione di dismissione di vendita.                                                                                                |
 |           Dismissioni: valore di scarto            |                                                                                               Il valore di scarto del libro cespiti con una transazione di dismissione di scarto.                                                                                               |
 |           Dismissioni: profitti/perdite            |                                                                                 Valore dei profitti o delle perdite calcolato come parte della transazione di dismissione per il libro cespiti.                                                                                 |
-
 

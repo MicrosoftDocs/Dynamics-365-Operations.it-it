@@ -1,13 +1,13 @@
---- 
-title: "Calcolare l'ammortamento del cespite tra più persone giuridiche"
-description: "L'ammortamento del cespite può essere eseguito tra persone giuridiche in un unico passaggio."
+---
+title: Calcolare l'ammortamento del cespite tra più persone giuridiche
+description: L'ammortamento del cespite può essere eseguito tra persone giuridiche in un unico passaggio.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetParameters, AssetProposalDepreciation, DefaultDashboard, LedgerJournalTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b2575354af322827972ffa650e9c732170c5a6eb
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316995"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>Calcolare l'ammortamento del cespite tra più persone giuridiche
 
@@ -50,5 +50,4 @@ L'ammortamento del cespite può essere eseguito tra persone giuridiche in un uni
     * L'opzione Elaborazione batch è attivata per impostazione predefinita. Quando questa opzione è attivata, la creazione e la registrazione del giornale di registrazione ammortamento vengono eseguite in background.  
 5. Fare clic su Crea giornale di registrazione.
 6. Andare a Cespiti > Inserimenti nel giornale di registrazione > Giornale di registrazione cespiti.
-
 

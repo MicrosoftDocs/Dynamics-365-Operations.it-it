@@ -1,13 +1,13 @@
---- 
+---
 title: Definire gruppi di produzione snella
 description: I gruppi di programmazione snella sono definiti per raggruppare e distinguere i prodotti nella programmazione kanban.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 787694b094f343445cca784d035554a8bfa25f5a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a5bc20c0a9e2396365caebeb3751d2090e4575a4
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350529"
 ---
 # <a name="define-lean-schedule-groups"></a>Definire gruppi di produzione snella
 
@@ -55,5 +55,4 @@ I gruppi di programmazione snella sono definiti per raggruppare e distinguere i 
 2. Nel campo Tipo di relazione articolo selezionare Gruppo
 3. Nel campo Chiave di allocazione articolo fare clic sul pulsante a discesa per aprire la ricerca.
 4. Nell'elenco fare clic sul collegamento nella riga selezionata.
-
 

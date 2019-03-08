@@ -1,13 +1,13 @@
---- 
+---
 title: ER Aggiornare il formato adottandone una nuova versione di base
-description: "I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può gestire una configurazione di formato per la creazione di report elettronici (ER)."
+description: I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può gestire una configurazione di formato per la creazione di report elettronici (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342272"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Aggiornare il formato adottandone una nuova versione di base
 
@@ -108,7 +108,7 @@ Per completare questi passaggi, è necessario completare i passaggi delle proced
     * Si noti che la configurazione creata viene salvata come versione completata 1.1.1. Ciò significa che è la versione 1 del formato BACS personalizzato (personalizzata, fittizia per il Regno Unito), basato sulla versione 1 del formato BACS (fittizia per il Regno Unito), che si basa sulla versione 1 del modello dati Pagamenti (modello semplificato).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Testare il formato personalizzato per generare file di pagamento
-    * Completare i passaggi della procedura "Utilizzare il formato creato per generare documenti elettronici per i pagamenti" in una sessione parallela di Dynamics 365 for Finance and Operations, Enterprise edition. Selezionare il formato BACS (personalizzata, fittizia per il Regno Unito) nei parametri del metodo di pagamento elettronico. Verificare che il file di pagamento creato contenga il nodo XML introdotto di recente che presenta il codice di IBAN in conformità ai requisiti regionali.  
+    * Completare i passaggi della procedura "Utilizzare il formato creato per generare documenti elettronici per i pagamenti" in una sessione parallela di Dynamics 365 for Finance and Operations, edizione Enterprise. Selezionare il formato BACS (personalizzata, fittizia per il Regno Unito) nei parametri del metodo di pagamento elettronico. Verificare che il file di pagamento creato contenga il nodo XML introdotto di recente che presenta il codice di IBAN in conformità ai requisiti regionali.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Aggiornare la configurazione specifica di ciascun paese esistente
     * Litware, Inc. deve aggiornare la configurazione BACS (fittizia per il Regno Unito) e adottare nuovi requisiti per il paese per gestire il formato del documento elettronico. Successivamente, questo verrà accluso in una nuova versione della configurazione che verrà offerta per gli iscritti al servizio, inclusa Proseware, Inc.  
@@ -198,6 +198,5 @@ Per completare questi passaggi, è necessario completare i passaggi delle proced
     * La configurazione creata viene salvata come versione 1.2.2 completata: versione 2 del formato di base BACS (personalizzata, fittizia per il Regno Unito), basata sulla versione 2 del formato di base BACS (fittizia per il Regno Unito), basato sulla versione 1 del modello dati Pagamenti (modello semplificato).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Testare il formato personalizzato per la generazione di file di pagamento
-    * Completare i passaggi della procedura "Utilizzare il formato creato per generare documenti elettronici per i pagamenti" in una sessione parallela di Dynamics 365 for Finance and Operations, Enterprise edition. Selezionare il formato "BACS (personalizzata, fittizia per il Regno Unito)" creato nei parametri del metodo di pagamento elettronico. Verificare che il file di pagamento creato contenga il nodo XML introdotto di recente da Proseware, Inc. che presenta il codice conto IBAN in conformità ai requisiti regionali. Il file deve inoltre contenere il nodo XML introdotto di recente da Litware, Inc. che presenta il codice bancario SWIFT in conformità ai requisiti del paese.  
-
+    * Completare i passaggi della procedura "Utilizzare il formato creato per generare documenti elettronici per i pagamenti" in una sessione parallela di Dynamics 365 for Finance and Operations, edizione Enterprise. Selezionare il formato "BACS (personalizzata, fittizia per il Regno Unito)" creato nei parametri del metodo di pagamento elettronico. Verificare che il file di pagamento creato contenga il nodo XML introdotto di recente da Proseware, Inc. che presenta il codice conto IBAN in conformità ai requisiti regionali. Il file deve inoltre contenere il nodo XML introdotto di recente da Litware, Inc. che presenta il codice bancario SWIFT in conformità ai requisiti del paese.  
 

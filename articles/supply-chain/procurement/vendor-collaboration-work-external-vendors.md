@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350023"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
 [!include [banner](../includes/banner.md)]
@@ -94,19 +93,19 @@ La tabella di seguito mostra uno scambio di informazioni tipico, a seconda della
 <tbody>
 <tr class="even">
 <td>Il fornitore <strong>accetta</strong> l'ordine di dati finanziari e Finance and Operations è configurato per confermare automaticamente gli ordini di acquisto accettati dal fornitore.</td>
-<td>Lo stato dell'ordine viene aggiornato a <strong>Confermato</strong>. Se qualcosa impedisce l&#39;aggiornamento dell&#39;ordine, la risposta del fornitore viene comunque registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. 
+<td>Lo stato dell'ordine viene aggiornato a <strong>Confermato</strong>. Se qualcosa impedisce l'aggiornamento dell'ordine, la risposta del fornitore viene comunque registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. 
 
 L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revisione esterna</strong> viene aggiornato con le date di consegna confermate nelle righe. Questo aggiornamento avvia una nuova versione che viene impostata automaticamente sullo stato <strong>Confermato</strong>. Quando l'ordine fornitore viene confermato, viene visualizzato nell'interfaccia di collaborazione fornitore.</td>
 </tr>
 <tr class="odd">
-<td>Il fornitore <strong>accetta</strong> l&#39;ordine, ma Finance and Operations non è configurato per confermare automaticamente gli ordini fornitore accettati dal fornitore.</td>
+<td>Il fornitore <strong>accetta</strong> l'ordine, ma Finance and Operations non è configurato per confermare automaticamente gli ordini fornitore accettati dal fornitore.</td>
 <td>La risposta del fornitore viene registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>.
 
 L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revisione esterna</strong> viene aggiornato con le date di consegna confermate nelle righe. Questo aggiornamento avvia una nuova versione che viene impostata automaticamente sullo stato <strong>In revisione esterna</strong>. È quindi possibile confermare manualmente l'ordine fornitore.</td>
 </tr>
 <tr class="even">
 <td>Il fornitore <strong>rifiuta</strong> l'ordine.</td>
-<td>La risposta del fornitore viene registrata come <strong>Rifiutata</strong> e lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. Il rifiuto viene ricevuto insieme alla nota del fornitore.</td>
+<td>La risposta del fornitore viene registrata come <strong>Rifiutata</strong> e lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. Il rifiuto viene ricevuto con la nota dei fornitori.</td>
 </tr>
 <tr class="odd">
 <td>Il fornitore <strong>accetta</strong> l'ordine <strong>con modifiche</strong>. Le modifiche vengono suggerite a livello di riga. Il fornitore può accettare o rifiutare singole righe. Di seguito vengono riportati alcune altre modifiche che il fornitore può suggerire:
@@ -260,4 +259,3 @@ L'utente che imposta i parametri per il processo RdO può creare più modelli di
 - %createddate%
 
 Se è richiesta una modifica e viene inviata dopo l'invio della RdO, la RdO verrà inviata nuovamente a tutti i fornitori invitati. Il documento pubblicato verrà aggiornato anche nella pagina **Richieste di offerta pubblicate aperte**.
-

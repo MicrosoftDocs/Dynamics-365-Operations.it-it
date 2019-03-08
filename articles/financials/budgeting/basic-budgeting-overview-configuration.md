@@ -1,13 +1,13 @@
 ---
 title: Panoramica di Impostazione budget
-description: "Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Finance and Operations devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations o per caricarli da un programma di terze parti."
+description: Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 for Finance and Operations devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations o per caricarli da un programma di terze parti.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332313"
 ---
-
 # <a name="budgeting-overview"></a>Panoramica dell'impostazione budget 
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Il budget approvato per una persona giuridica viene gestito in un documento noto
 Esistono più metodi per creare voci del registro di budget in Finance and Operations:
 
 -   Immettere manualmente le informazioni del documento nella pagina **Voci del registro di budget**.
--   Utilizzare il modello di Microsoft Excel che è possibile aprire facendo clic sul pulsante **Apri in Excel** nella pagina **Voci del registro di budget**.
+-   Utilizzare il modello di Microsoft Excel che è possibile aprire facendo clic sul pulsante **Apri in Excel** nella pagina **Voci del registro di budget**.
 -   Utilizzare l'entità di dati **Voci contabili del budget** in Gestione dati per importate le voci del registro di budget. Può essere utile utilizzare questo metodo e attivare il parametro **Elaborazione basata su set** quando occorre importare nel sistema numerose voci contabili del budget.
 -   Se la società utilizza la funzionalità di pianificazione del budget per preparare i dati del budget, è possibile utilizzare il processo periodico **Genera voce del registro di budget**.
 
@@ -80,7 +79,6 @@ Il responsabile budget può verificare lo stato corrente di un budget nell'area 
 La pagina di richiesta **Effettivi rispetto al budget** consente di esaminare a fondo i dettagli del budget rispetto agli importi effettivi. Selezionare una riga nella pagina di richiesta e quindi fare clic su **Saldi del periodo** per visualizzare come il budget e gli importi effettivi si estendono su più periodi fiscali. La pagina **Voci contabili budget** fornisce informazioni dettagliate sull'importo del budget nelle voci del registro di budget. La pagina **Inserimenti nel giornale di registrazione generale** apre le transazioni contabili che sono incluse nell'importo **Effettivi** calcolato. 
 
 Una società che utilizza la funzionalità di pianificazione del budget può creare e utilizzare le *previsioni di budget* nell'area di lavoro **Budget contabili e previsioni**.
-
 
 
 

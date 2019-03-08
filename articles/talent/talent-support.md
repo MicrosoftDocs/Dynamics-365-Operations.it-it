@@ -5,9 +5,9 @@ author: Darinkramer
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 9b2d7159b458b6f3b2cbb3271210c10ab486f496
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305075"
 ---
-
 # <a name="get-support-for-talent"></a>Ottenere supporto per Talent
 
 [!include [banner](includes/banner.md)]
@@ -55,4 +54,3 @@ Per ottenere supporto per Attract e Onboard, usare le risorse indicate nella tab
 | Segnalare un problema                                                        | Selezionare l'icona **?** nel menu e selezionare le opzioni per segnalare un problema. Immettere il problema nella descrizione e includere un indirizzo di posta elettronica per il follow-up del problema segnalato.                                                                                           |
 | Ottenere informazioni sulle licenze per Talent                         | Contattare il rappresentante del partner o Microsoft.                                                                                                                                                                                                                                        |
 | Richiedere nuove caratteristiche e funzionalità In Attract e Onboard | Fare clic sull'icona **?** e selezionare **Idee** o utilizzare i collegamenti seguenti per visualizzare, cercare, votare o aggiungere nuove idee: [Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract) o [Onboard](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard). |
-

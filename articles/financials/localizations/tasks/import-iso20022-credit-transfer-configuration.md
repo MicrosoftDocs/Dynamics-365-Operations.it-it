@@ -1,13 +1,13 @@
---- 
+---
 title: Importare la configurazione di bonifico ISO20022
 description: In questa procedura viene descritto come importare una configurazione di creazione di report elettronici dei pagamenti fornitore.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3fbd2e39f488696ebe8db5579ed88595e246ce97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337350"
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Importare la configurazione di bonifico ISO20022
 
@@ -44,5 +44,4 @@ Si tratta della prima attività di cinque, tale set illustra il processo di paga
 8. Fare clic su Importa.
     * Se il pulsante di importazione non è disponibile, significa che la configurazione è già stata importata.  
 9. Fare clic su Sì.
-
 

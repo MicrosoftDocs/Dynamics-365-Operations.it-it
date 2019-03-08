@@ -1,13 +1,13 @@
 ---
 title: Rilasciare gli ordini di produzione
-description: "Un ordine di produzione rilasciato è un ordine che è stato autorizzato per la produzione. Il termine Rilasciato viene utilizzato per descrivere uno stato del ciclo di vita dell'ordine di produzione, quando l'ordine di produzione è disponibile per l'esecuzione nello shop floor di produzione e per i processi di magazzino."
+description: Un ordine di produzione rilasciato è un ordine che è stato autorizzato per la produzione. Il termine Rilasciato viene utilizzato per descrivere uno stato del ciclo di vita dell'ordine di produzione, quando l'ordine di produzione è disponibile per l'esecuzione nello shop floor di produzione e per i processi di magazzino.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmRelease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 400c2786d80681827829286e6e9667b4d51612c4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9b9009c714445871c15363c26829da812e56c688
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339374"
 ---
-
 # <a name="release-production-orders"></a>Rilasciare gli ordini di produzione
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Il lavoro per il prelievo delle materie prime viene generato durante il rilascio
 -   Una direttiva di ubicazione per il prelievo delle materie prime che determina l'ubicazione di magazzino da cui prelevare i materiali
 -   Un modello di ondata per le materie prime, in cui sono configurati i criteri per l'esecuzione di lavoro di magazzino
 -   Un'ubicazione di entrata produzione che determina l'ubicazione in cui stoccare i materiali
-
 
 
 

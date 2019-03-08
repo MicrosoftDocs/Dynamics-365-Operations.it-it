@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: it-it
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322147"
 ---
-
 # <a name="onboard-vendors"></a>Inserimento di fornitori
 [!include [banner](../includes/banner.md)]
 
@@ -174,5 +173,4 @@ Se si utilizza l'azione **Elimina** nella richiesta di registrazione del fornito
 |  Richiesta fornitore creata  |                                                                     La procedura guidata di registrazione fornitore è stata completata.                                                                      | Viene creata una richiesta di disattivazione dell'utente e la richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta del fornitore vengono eliminati.<blockquote>[!NOTE]<br>Non è possibile utilizzare l'azione <strong>Elimina</strong> quando la richiesta fornitore si trova in un processo di revisione del flusso di lavoro.</blockquote> |
 |         Approvate         |                                                                               La richiesta del fornitore viene approvata.                                                                               |                                                                                                   La richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta fornitore vengono eliminati.                                                                                                    |
 |         Rifiutato         |                                                                               La richiesta del fornitore viene rifiutata.                                                                               |                                                                                                   La richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta fornitore vengono eliminati.                                                                                                    |
-
 

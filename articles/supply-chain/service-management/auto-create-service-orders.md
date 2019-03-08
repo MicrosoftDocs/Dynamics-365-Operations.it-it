@@ -1,31 +1,30 @@
 ---
 title: Creare ordini di assistenza automaticamente
-description: "È possibile generare ordini di assistenza in base a un contratto di assistenza per il periodo di validità del contratto stesso."
+description: È possibile generare ordini di assistenza in base a un contratto di assistenza per il periodo di validità del contratto stesso.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0189a9f99ffbb6ed2387211ba9e3b9f3bcdb3b52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2d942d4448e0f792945603d3f5960fb82095be30
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331186"
 ---
-
 # <a name="automatically-create-service-orders"></a>Creare ordini di assistenza automaticamente 
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,5 @@ La durata del contratto di assistenza è compresa tra il 1 gennaio 2012 e il 31 
 La durata del contratto di assistenza è compresa tra il 1 gennaio 2012 e il 31 dicembre 2012. Al contratto di assistenza sono collegate due righe. Per la prima riga del contratto di assistenza la data di inizio è il 2 gennaio 2010 e la data di fine è il 1 marzo 2012. Per la seconda riga la data di inizio è il 1 aprile 2012 e la data di fine è il 31 dicembre 2012. Nel modulo **Crea ordini di assistenza** si specifica un periodo compreso tra il 1 ottobre 2012 e il 31 dicembre 2012. Gli ordini di assistenza vengono pertanto creati solo per la seconda riga del contratto di assistenza, poiché la data di inizio e di fine della prima riga sono anteriori al periodo specificato per l'ordine di assistenza.
 
   
-
 
 

@@ -1,13 +1,13 @@
 ---
 title: Attribuzione dei costi per progetto nelle entrate acquisti
-description: In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere monitorati in Microsoft Dynamics 365 for Finance and Operations.
+description: In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc822652abbba68f094fe5b8a65f796165a92c4c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9a74b684e955376b9c3036954f4a6e6628c468f0
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340432"
 ---
-
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Attribuzione dei costi per progetto nelle entrate acquisti
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere monitorati in Microsoft Dynamics 365 for Finance and Operations. 
+In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 for Finance and Operations. 
 
 Le fatture per un progetto spesso arrivano dopo la consegna di merci e servizi, aspetto che potrebbe avere un impatto significativo sugli indicatori di prestazione chiave (KPI) del progetto. È importante poter tenere traccia di queste transazioni sia nei report finanziari che in quelli di progetto.
 
@@ -82,7 +81,6 @@ Nella pagina **Costo impegnato**, i record creati nel passaggio 1 verranno chius
 [![ratei9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 La fattura fornitore rimane con stato in sospeso finché non arriva la fattura fornitore effettiva.
-
 
 
 

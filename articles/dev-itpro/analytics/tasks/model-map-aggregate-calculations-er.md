@@ -1,13 +1,13 @@
---- 
+---
 title: Utilizzare configurazioni del mapping di modelli per calcoli aggregati a livello di database
 description: Questa procedura fornisce informazioni per progettare una nuova configurazione di mapping di modello (ER) per la creazione di report elettronici e usare le funzioni ER incorporate per i calcoli aggregati efficienti.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313637"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Utilizzare configurazioni del mapping di modelli per calcoli aggregati a livello di database
 
@@ -37,7 +37,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 3. Nella struttura selezionare 'Modello Intrastat\Mapping di esempio Intrastat'.
 4. Fare clic su Progettazione.
 5. Fare clic su Progettazione.
-6. Nella struttura selezionare "Dynamics 365 for Operations\Table records".
+6. Nella struttura selezionare 'Dynamics 365 for Operations\Record di tabella'.
 7. Fare clic su Aggiungi radice.
     * Aggiungere una nuova origine dati che rappresenta i record da raggruppare.  
 8. Nel campo Nome digitare "Transazioni".
@@ -116,5 +116,4 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 67. Nella struttura espandere 'Record voce doganale(Intrastat)'.
 68. Fare clic su Salva.
     * Tenere presente che il campo "Esecuzione in" indica che il raggruppamento verrà eseguito in fase di esecuzione in memoria anche se non sono presenti aggregazioni definite e l'origine dati selezionata di tipo "Record di tabella" fa riferimento alla stessa tabella "Intrastat". Ciò accade perché l'origine dati contiene alcuni campi calcolati che non possono essere convertiti a livello del database SQL.  
-
 

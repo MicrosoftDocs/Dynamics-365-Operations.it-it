@@ -1,13 +1,13 @@
 ---
-title: "Abbinamento fatture della contabilità fornitori"
-description: "Il processo di abbinamento fatture della contabilità fornitori consente di abbinare le informazioni relative a fatture fornitore, ordini fornitore ed entrate prodotti."
+title: Abbinamento fatture della contabilità fornitori
+description: Il processo di abbinamento fatture della contabilità fornitori consente di abbinare le informazioni relative a fatture fornitore, ordini fornitore ed entrate prodotti.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dc5e072f23cbb0dcc2d3d1d390070bb11a2d2f06
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310279"
 ---
-
 # <a name="accounts-payable-invoice-matching"></a>Abbinamento fatture della contabilità fornitori
 
 [!include [banner](../includes/banner.md)]
@@ -191,7 +190,6 @@ Anziché sugli ordini fornitore, spesso le fatture fornitore si basano sulle ent
 -   Visualizzare e approvare le eventuali discrepanze di abbinamento tra il prezzo unitario netto in fattura e il prezzo unitario netto nell'ordine fornitore. È possibile impostare le percentuali di tolleranza prezzi per persone giuridiche, fornitori e articoli. Se il prezzo delle righe fattura fornitore non rientra nella tolleranza di prezzo accettabile, è possibile salvare la fattura in attesa che venga approvata per la registrazione o che il fornitore faccia pervenire una rettifica.
 
 Per ulteriori informazioni, vedere [Criteri di abbinamento a tre elementi di verifica](three-way-matching-policies.md) e [Impostare la convalida dell'abbinamento fatture della contabilità fornitori](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
-
 
 
 

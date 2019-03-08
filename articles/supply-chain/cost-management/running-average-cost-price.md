@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e14f38baaef32c72761594147feca8d08651a050
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aeb23f78d9bec93cf92214470e9ace3cd88b92c3
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312027"
 ---
-
 # <a name="running-average-cost-price"></a>Prezzo di costo medio corrente
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,6 @@ Se tuttavia il modello aziendale lo consente, attenendosi alle seguenti procedur
 -   Se *non* si seleziona l'opzione **Includi valore fisico** per un articolo, deselezionare l'opzione **Scorte finanziarie negative** nella pagina **Gruppi di modelli di articoli**.
 
 È inoltre importante tenere presente che l'offset massimo nel valore dell'inventario fisico è limitato dal numero di transazioni fisiche e dalla differenza tra i prezzi fisici e i prezzi finanziari. Se tutte le transazioni fisiche vengono regolarmente aggiornate finanziariamente, il valore fisico non può salire a livelli estremi. Si noti infine che l'effetto di amplificazione tende ad attenuarsi significativamente quando l'offset accumulato viene ripartito su diversi pezzi disponibili anziché su un unico pezzo.
-
 
 
 

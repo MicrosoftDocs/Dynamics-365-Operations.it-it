@@ -5,9 +5,9 @@ author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: it-it
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305020"
 ---
-
 # <a name="process-compensation"></a>Processo retributivo
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Dopo che gli importi di retribuzione sono stati controllati per un dipendente e 
 Una volta che uno o più eventi del dipendente presentano lo stato aggiornato in Approvato, possono essere caricati nei record di retribuzione fissa del dipendente. Questa operazione può essere effettuata scegliendo un evento dipendente alla volta e facendo clic sul pulsante **Carica retribuzione dipendente** nella pagina **Risultati dei dipendenti** oppure facendo clic su **Carica retribuzione** nella pagina **Risultati processo** per caricare tutti gli eventi dipendente approvati contemporaneamente.
 
 Facendo clic su **OK** nella finestra di dialogo  **Carica retribuzione** verranno aggiunte le righe d'azione retributiva diverse da zero nella pagina **Retribuzione fissa dipendente**.
-

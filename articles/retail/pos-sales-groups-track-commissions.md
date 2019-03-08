@@ -1,13 +1,13 @@
 ---
 title: Tenere traccia delle provvigioni nel POS utilizzando gruppi di vendite
-description: "È pratica comune nella vendita al dettaglio tenere traccia delle vendite di un assistente che ha lavorato con il cliente fornendo assistenza, eseguendo l'up-selling ed elaborando la transazione."
+description: È pratica comune nella vendita al dettaglio tenere traccia delle vendite di un assistente che ha lavorato con il cliente fornendo assistenza, eseguendo l'up-selling ed elaborando la transazione.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325114"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Tenere traccia delle provvigioni nel POS utilizzando gruppi di vendite
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ Il POS consente agli utenti di configurare griglie dei pulsanti, comprese nei la
 ## <a name="calculating-commissions"></a>Calcolo delle provvigioni
 
 La provvigione viene calcolata per i lavoratori nei gruppi di vendite specificati al momento della registrazione del rendiconto o dell'ordine cliente. Importo della provvigione viene determinato in base alla quota di provvigione del lavoratore, come definito nel gruppo vendite e nelle impostazioni di calcolo della provvigione associate per il cliente e/o i prodotti nella transazione.
-

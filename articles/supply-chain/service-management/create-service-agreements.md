@@ -1,31 +1,30 @@
 ---
 title: Creare contratti di assistenza
-description: "In questo argomento viene descritto come utilizzare le funzionalità dei moduli Gestione assistenza e Gestione progetti e contabilità per creare i contratti di assistenza."
+description: In questo argomento viene descritto come utilizzare le funzionalità dei moduli Gestione assistenza e Gestione progetti e contabilità per creare i contratti di assistenza.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a094ce9f0d9323b089055e74d41cf1f45323a7d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2a46173a3566a56a21add9d42c111d456b1ae7c1
-ms.openlocfilehash: 517bc1b9de9b2512f42e4f32b4a19e517e349e8e
-ms.contentlocale: it-it
-ms.lasthandoff: 02/19/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310946"
 ---
-
 # <a name="create-service-agreements"></a>Creare contratti di assistenza
 
 [!include [banner](../includes/banner.md)]
@@ -61,6 +60,5 @@ In questo argomento viene descritto come utilizzare le funzionalità dei moduli 
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Contratti di assistenza ](service-agreements.md)
-
 
 

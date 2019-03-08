@@ -1,31 +1,30 @@
 ---
 title: Ricerca di prodotti e di clienti nel POS
-description: "Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Microsoft Dynamics 365 for Retail."
+description: Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313591"
 ---
-
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Ricerca di prodotti e di clienti nel POS
 
 [!include [banner](includes/banner.md)]
@@ -91,7 +90,7 @@ La ricerca tradizionale dei clienti può richiedere molto tempo, poiché esegue 
 
 ![Collegamenti di ricerca del cliente](./media/SearchShortcutsPOS.png "Collegamenti di ricerca del cliente")
 
-Per impostare i criteri di ricerca come collegamenti, l'amministratore deve aprire la pagina **Parametri di vendita al dettaglio** in Microsoft Dynamics 365 for Finance and Operations, quindi, nella scheda **Criteri di ricerca POS**, selezionare tutti i criteri che devono essere mostrati come collegamenti.
+Per impostare i criteri di ricerca come collegamenti, l'amministratore deve aprire la pagina **Parametri di vendita** al dettaglio in Microsoft Dynamics 365 for Finance and Operations, quindi, nella scheda **Criteri di ricerca POS**, selezionare tutti i criteri che devono essere mostrati come collegamenti.
 
 ![Configurare i collegamenti di ricerca](./media/ConfigureShortcutsAX.png "Configurare i collegamenti di ricerca")
 
@@ -102,4 +101,3 @@ Il campo **Ordine di visualizzazione** determina l'ordine in cui i collegamenti 
 
 > [!NOTE]
 > Una proprietà personalizzata che viene aggiunta all'enumerazione non influisce sull'algoritmo predefinito di ricerca del cliente. In altre parole, l'algoritmo di ricerca del cliente non cerca nella proprietà personalizzata. Gli utenti possono utilizzare una proprietà personalizzata per le ricerche solo se la proprietà personalizzata viene aggiunta come collegamento o se l'algoritmo di ricerca predefinito viene sovrascritto.
-

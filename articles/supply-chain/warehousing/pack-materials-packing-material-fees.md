@@ -1,13 +1,13 @@
 ---
 title: Materiali di imballaggio e addebiti
-description: "Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli. Per ciascun materiale di cui si compone un'unità di imballaggio viene pagato un importo per unità di peso. Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario."
+description: Gli addebiti relativi al materiale di imballaggio vengono pagati a una società di riciclaggio a determinati intervalli. Per ciascun materiale di cui si compone un'unità di imballaggio viene pagato un importo per unità di peso. Questi addebiti vengono calcolati e inclusi in un report, tuttavia non vengono registrate transazioni contabili, in quanto gli addebiti relativi al materiale di imballaggio non sono considerati come imposte da pagare a un ufficio tributario.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c188651fe8ba3fe3f9678f36ab11ae886ef6f1cf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312303"
 ---
-
 # <a name="packing-materials-and-fees"></a>Materiali di imballaggio e addebiti
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,6 @@ Se gli addebiti per il materiale di imballaggio sono a carico della società, no
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Stampare i pesi del materiale di imballaggio sulle fatture
 È possibile stampare i pesi del materiale di imballaggio sulla fattura e indicare a chi sono imputabili gli addebiti per tale materiale. I pesi vengono riepilogati per codice di imballaggio.
-
 
 
 

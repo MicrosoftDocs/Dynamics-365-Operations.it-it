@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare gruppi di registrazione contabile per l'IVA.
 description: L'IVA viene calcolata e registrato nei conti principali specificati in Gruppi registrazione contabile.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308347"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Impostare gruppi di registrazione contabile per l'IVA.
 
@@ -48,5 +48,4 @@ L'IVA viene calcolata e registrato nei conti principali specificati in Gruppi re
 11. Nel campo Sconto di cassa fornitore, selezionare il conto principale per la registrazione dello sconto di cassa per i codici IVA associati al gruppo di registrazione contabile.
     * È facoltativo e se non viene immesso alcun conto, verrà utilizzato il conto principale in Codici sconto di cassa. Può essere utile utilizzare conti diversi per gruppo di registrazione contabile se si utilizza l'opzione Storna IVA su sconto di cassa in Fasce IVA.  
 12. Fare clic su Salva.
-
 

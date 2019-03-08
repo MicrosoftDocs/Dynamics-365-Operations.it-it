@@ -1,13 +1,13 @@
---- 
+---
 title: Registrare un assegno postdatato per un cliente
-description: "È possibile registrare i dettagli di un assegno postdatato ricevuto da un cliente."
+description: È possibile registrare i dettagli di un assegno postdatato ricevuto da un cliente.
 author: kweekley
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 131e4f364c62d03b95fb4b77f472828b9483d5e1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
-ms.openlocfilehash: f75dea40d0cc77c851569608f18229339ed30af9
-ms.contentlocale: it-it
-ms.lasthandoff: 10/26/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347378"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrare un assegno postdatato per un cliente
 
@@ -49,5 +49,4 @@ ms.lasthandoff: 10/26/2017
     * Immettere i dettagli bancari dell'assegno postdatato.  
 15. Fare clic su Registra.
 16. Chiudere la pagina.
-
 
