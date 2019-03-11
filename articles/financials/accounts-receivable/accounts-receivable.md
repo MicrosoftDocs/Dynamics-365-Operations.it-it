@@ -1,13 +1,13 @@
 ---
-title: "Home page di contabilità clienti"
-description: "La contabilità clienti consente di tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti."
+title: Home page di contabilità clienti
+description: La contabilità clienti consente di tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302497"
 ---
-
 # <a name="accounts-receivable-home-page"></a>Home page di contabilità clienti
 
 [!include [banner](../includes/banner.md)]
@@ -97,13 +96,13 @@ Accettare diversi tipi di pagamenti dai clienti, ad esempio effetti attivi, cont
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle che sono in via di sviluppo. 
+Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo. 
 
 #### <a name="blogs"></a>Blog
 
 Per opinioni, notizie e altre informazioni sulla contabilità clienti e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Sono disponibili numerosi post sulla contabilità clienti nel [blog del team di prodotto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Alcuni di questi post si riferiscono alla versione precedente della contabilità clienti, ma i concetti sono ancora validi. e le procedure sono simili nella versione corrente.
+Nel [blog del team di prodotto di Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) sono disponibili numerosi post sulla contabilità clienti. Alcuni di questi post si riferiscono alla versione precedente della contabilità clienti, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente.
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 
@@ -112,8 +111,7 @@ Informazioni aggiuntive sono disponibili come guide attività in Finance and Ope
 
 #### <a name="videos"></a>Video
 
-Controllare i video illustrativi disponibili nel [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

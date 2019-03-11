@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1ba80e48c8b3b5ed94b9e03302788099a1d31909
-ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328978"
 ---
-
 # <a name="payment-methods"></a>Metodi di pagamento
 
 [!include [banner](includes/banner.md)]
 
 Ogni tipo di pagamento accettato dal rivenditore deve essere configurato quando si imposta il sistema. Questo articolo descrive i tipi di pagamento impostati e il processo per impostarli.
 
-I rivenditori possono accettare diversi tipi di pagamento per i prodotti venduti e i servizi forniti. Sebbene il pagamento in contanti sia in genere la forma più comune, i rivenditori possono ricevere anche pagamenti tramite assegno, carta, buoni e altro ancora. Ogni tipo di pagamento accettato da un rivenditore deve essere configurato in Dynamics 365 for Retail quando si imposta il sistema. Nell'elenco riportato di seguito viene descritto ogni tipo di pagamento che è possibile impostare in Dynamics 365 for Retail:
+I rivenditori possono accettare diversi tipi di pagamento per i prodotti venduti e i servizi forniti. Sebbene il pagamento in contanti sia in genere la forma più comune, i rivenditori possono ricevere anche pagamenti tramite assegno, carta, buoni e altro ancora. Ogni tipo di pagamento accettato dal rivenditore deve essere configurato in Dynamics 365 for Retail quando si imposta il sistema. Nell'elenco riportato di seguito viene descritto ogni tipo di pagamento che è possibile impostare in Dynamics 365 for Retail.
 
 - **Contante**: denaro nella forma fisica della valuta, ad esempio banconote e monete. La valuta può essere quella della società o quella locale del punto vendita.
 - **Assegno**: titolo negoziabile per il pagamento di un importo specifico in una valuta specifica emesso da una banca specifica. In genere, un assegno è valido o per un periodo di tempo illimitato o per sei mesi dalla data di emissione, salvo diversa indicazione relativa al periodo di validità. Tale periodo può variare a seconda della banca di emissione dell'assegno. Esistono vari tipi di assegni, ad esempio all'ordine, di sportello, al portatore e del beneficiario del conto. È possibile impostare l'assegno come metodo di pagamento per ogni punto vendita. Gli assegni possono essere accettati nella valuta definita a livello aziendale o a livello di punto vendita. Prima di poter accettare un assegno per il pagamento in un punto vendita, è necessario impostare come metodo di pagamento questo tipo di titolo.
@@ -50,4 +49,3 @@ Per impostare i metodi di pagamento, è necessario completare le attività indic
 2. Creare tipi e numeri di carta a livello di organizzazione. Se le carte di credito o di debito sono accettate, è necessario creare un metodo di pagamento per carte, quindi creare i tipi e i numeri di carta a livello di organizzazione.
 3. Impostare il metodo di pagamento per punti vendita. Associare i metodi di pagamento a ogni punto vendita, quindi immettere le impostazioni specifiche del punto vendita per ogni metodo di pagamento.
 4. Impostare metodi di pagamento con carta per punti vendita. Per qualsiasi metodo di pagamento con carta accettato dal punto vendita, è necessario completare l'impostazione della carta.
-

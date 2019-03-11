@@ -5,9 +5,9 @@ author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335303"
 ---
-
-# <a name="configure-and-work-with-call-center-order-holds"></a>Configurare e utilizzare le sospensioni ordine servizio clienti
+# <a name="configure-and-work-with-call-center-order-holds"></a>Configurare e utilizzare le sospensioni degli ordini del servizio clienti
 
 [!include [banner](includes/banner.md)]
 
@@ -104,4 +103,3 @@ Se gli utenti desiderano rimuovere una sospensione ma apportare altre modifiche 
 ## <a name="reporting-options"></a>Opzioni di creazione report
 
 Passare a **Retail** \> **Richieste di informazioni e report** \> **Report servizio clienti** \> **Report sospensioni ordine** per eseguire un report sulle sospensioni ordine per intervallo di dati, codice sospensione o altri criteri correlati.
-

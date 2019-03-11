@@ -1,13 +1,13 @@
 ---
 title: Monitorare la precisione previsione
-description: "In questo articolo vengono descritti i tipi di precisione previsione calcolati in Microsoft Dynamics 365 for Finance and Operations e viene illustrato come è possibile visualizzare i valori di previsione."
+description: In questo articolo vengono descritti i tipi di previsione di previsione calcolati in Microsoft Dynamics 365 for Finance and Operations e viene illustrato come è possibile visualizzare i valori di previsione.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d7070c15f9ee23cfdba871af68d1fc5954735651
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f54251b6f6937c59293bd44a0fc27272ffd3d55
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356417"
 ---
-
 # <a name="monitor-forecast-accuracy"></a>Monitorare la precisione previsione
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo vengono descritti i tipi di precisione previsione calcolati in Microsoft Dynamics 365 for Finance and Operations e viene illustrato come è possibile visualizzare i valori di previsione.
+In questo articolo vengono descritti i tipi di previsione di previsione calcolati in Microsoft Dynamics 365 for Finance and Operations e viene illustrato come è possibile visualizzare i valori di previsione.
 
 Finance and Operations calcola i seguenti tipi di precisione della previsione:
 
@@ -47,7 +46,6 @@ Finance and Operations calcola i seguenti tipi di precisione della previsione:
 [Autorizzazione della previsione rettificata](authorize-adjusted-forecast.md)
 
 [Eliminare gli outlier dai dati di transazione storici quando si calcolo una previsione della domanda](remove-historical-outliers-calculating-demand-forecast.md)
-
 
 
 

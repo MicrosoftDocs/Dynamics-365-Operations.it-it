@@ -1,13 +1,13 @@
---- 
+---
 title: Creare strutture dei conti
-description: "Questa guida attività descrive la creazione di una struttura dei conti."
+description: Questa guida attività descrive la creazione di una struttura dei conti.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a7dd71cc072d49f47b1d77d3a688984cd4aaa624
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 210bf36f0e989ce0e6ceda046f02d1091592a3c1
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356394"
 ---
 # <a name="create-account-structures"></a>Creare strutture dei conti
 
@@ -81,5 +81,4 @@ Questa guida attività descrive la creazione di una struttura dei conti. I passa
 36. Fare clic su Convalida.
 37. Fare clic su Attiva.
 38. Fare clic su Attiva.
-
 

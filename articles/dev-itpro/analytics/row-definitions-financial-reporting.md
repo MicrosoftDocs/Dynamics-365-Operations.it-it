@@ -1,13 +1,13 @@
 ---
 title: Definizioni di riga in Progettazione report finanziari
-description: "Una definizione di riga è un componente di report, o blocco predefinito, che specifica il contenuto di ciascuna riga in un report finanziario. Una definizione di riga può combinarsi con le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report per creare un gruppo di blocchi predefiniti che può essere utilizzato da più società."
+description: Una definizione di riga è un componente di report, o blocco predefinito, che specifica il contenuto di ciascuna riga in un report finanziario. Una definizione di riga può combinarsi con le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report per creare un gruppo di blocchi predefiniti che può essere utilizzato da più società.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350437"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Definizioni di riga in Progettazione report finanziari
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Una definizione di riga è un componente di report, o blocco predefinito, che sp
 Una definizione di riga può contenere fino a 20.000 righe di dimensione finanziaria e includere le seguenti informazioni:
 
 - Testo descrittivo che aggiunge significato al report creando intestazioni di sezione, righe e spazi, ad esempio **Contante** o **Totale ricavi**.
-- Collegamenti ai dati finanziari, che possono includere valori di dimensione in Microsoft Dynamics 365 for Finance and Operations
+- Collegamenti ai dati finanziari che possono includere valori di dimensione del sistema Microsoft Dynamics 365 for Finance and Operations
 
     > [!NOTE]
     > È possibile impostare una definizione di riga per il recupero dei dati dal sistema di dimensioni finanziarie ogni volta che viene generato il report.
@@ -158,9 +157,9 @@ Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando
 
 ### <a name="format-row-text"></a>Testo riga formato
 
-La formattazione specificata nella definizione di riga sostituisce la formattazione specificata nella definizione di colonna e nella definizione di report. È possibile modificare il formato di testo utilizzando i controlli sulla barra degli strumenti formattazione. Questi controlli sono i controlli standard di Microsoft Windows.
+La formattazione specificata nella definizione di riga sostituisce la formattazione specificata nella definizione di colonna e nella definizione di report. È possibile modificare il formato di testo utilizzando i controlli sulla barra degli strumenti formattazione. Tali controlli corrispondono ai controlli standard di Microsoft Windows.
 
-1. In Progettazione report, aprire la definizione di riga da modificare.
+1. In Progettazione report aprire la definizione di riga da modificare.
 2. Selezionare le celle da formattare. Per selezionare più celle, tenere premuto CTRL mentre si seleziona la cella.
 3. Fare clic sul pulsante del formato da applicare nella barra degli strumenti. Ad esempio, per impostare il rientro di una riga, selezionare la riga e fare clic su **Aumenta rientro** ![Aumenta rientro](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Aumenta rientro") sulla barra degli strumenti.
 
@@ -189,4 +188,3 @@ Per semplificare la visualizzazione delle colonne su cui si lavora nella definiz
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-

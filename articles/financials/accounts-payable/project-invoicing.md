@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346320"
 ---
-
 # <a name="project-invoicing"></a>Fatturazione progetto
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ Lo stesso documento può includere transazioni selezionate per l'accredito, tran
 Per accreditare un importo fatturato, è necessario prima selezionare l'importo fatturato da accreditate, quindi creare una nota di accredito. Una nota di accredito si crea effettuando la stessa procedura utilizzata per generare una fattura cliente. 
 
 È possibile creare una fattura con un importo negativo; in questo caso la fattura viene classificata come nota di accredito. Per creare e stampare una nota di accredito, è necessario selezionare le transazioni precedentemente registrate per una fattura cliente e, successivamente, modificarle. A meno che l'indirizzo della persona giuridica si trovi in Germania, il titolo della fattura è "Fattura correttiva".
-
 
 
 

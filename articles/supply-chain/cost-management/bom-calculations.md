@@ -1,13 +1,13 @@
 ---
 title: Calcoli BOM
-description: "I calcoli relativi al rollup dei costi e ai prezzi di vendita sono chiamati calcoli DBA o calcoli della distinta base (DBA) perché è possibile avviarli dalla pagina Calcoli. Vengono fornite le informazioni sui calcoli BOM."
+description: I calcoli relativi al rollup dei costi e ai prezzi di vendita sono chiamati calcoli DBA o calcoli della distinta base (DBA) perché è possibile avviarli dalla pagina Calcoli. Vengono fornite le informazioni sui calcoli BOM.
 author: AndersGirke
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 29ea9ddefba3416a33cd0e2f873624cc5c781a55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341559"
 ---
-
 # <a name="bom-calculations"></a>Calcoli BOM
 
 [!include [banner](../includes/banner.md)]
@@ -91,7 +90,6 @@ Un calcolo della distinta base specifico dell'ordine rappresenta una variazione 
 
 -   Un calcolo DBA specifico di un ordine non genera un record di costo in una versione di determinazione costi. Di conseguenza, i criteri di calcolo DBA non vengono applicati quando un record di costo articolo viene creato oppure quando un record di costo viene sovrascritto.
 -   Un calcolo DBA specifico di un ordine utilizza sempre i record dei costi attivi per i componenti, le categorie di costi e le formule di calcolo dei costi indiretti.
-
 
 
 

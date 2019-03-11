@@ -5,9 +5,9 @@ author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ee0cc2e22609d1a87e7d2b6dcd031606191f879
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321457"
 ---
-
 # <a name="learning-power-bi-content"></a>Contenuto Learning di Power BI
 
 [!include [banner](../includes/banner.md)]
@@ -36,14 +35,14 @@ I report inclusi nel contenuto **Learning** di Power BI dispongono di grafici e 
 | Report                | Contenuto |
 |-----------------------|----------|
 | Panoramica di Learning     | Riepilogo di altri report |
-| Analisi del corso       | Registrazione per località, partecipante per stato, corsi per tipo società e partecipazione al corso per processo |
+| Analisi del corso       | Registrazione per località, partecipante per stato, corsi per tipo società e partecipazione al corso per processo |
 | Analisi della registrazione | Elenco registrazione |
 | Tipi di corso          | Tipi di corsi in base alla competenza |
 | Analisi istruttore   | Indice dei corsi per istruttori, numero di istruttori, corsi per istruttore, corsi per istruttore e agenda del corso per istruttore |
 | Corsi offerti       | Elenco di corsi |
 | Progettazione dei corsi        | Agenda del corso |
 
-È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
@@ -64,4 +63,3 @@ I seguenti dati vengono utilizzati per compilare i report nel contenuto **Learni
 | Posizione         | Posizione, titolo ed equivalente a tempo pieno (FTE)                  | Agenda del corso, partecipanti al corso |
 | Nome dipendente    | Nome, cognome e nome completo                             | Partecipanti al corso |
 | Posizione del dipendente   | Titolo e data di anzianità                                         | Partecipanti al corso |
-

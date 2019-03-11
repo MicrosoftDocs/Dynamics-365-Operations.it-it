@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 05/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
 ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351725"
 ---
-
 # <a name="configure-account-structures"></a>Configura strutture dei conti
 
 [!include[banner](../includes/banner.md)]
@@ -100,4 +99,3 @@ Quando si impostano le strutture dei conti esistono alcune procedure consigliate
 Quando si è soddisfatti della nuova impostazione o di una modifica della struttura dei conti, è necessario attivarla. Se una struttura dei conti è assegnata a una contabilità generale, questa attivazione può essere un processo lungo, in quanto tutte le transazioni non registrate nel sistema devono essere sincronizzate con la nuova struttura. Le transazioni registrate non vengono influenzate dalle modifiche della struttura dei conti.
 
 Per ulteriori informazioni, vedere [Definire il piano dei conti](plan-chart-of-accounts.md), [Dimensioni finanziarie](financial-dimensions.md) e [Immettere le combinazioni di conto e dimensione (controllo di voci segmentato)](enter-account-dimension-combinations-segmented-entry-control.md).
-

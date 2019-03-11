@@ -1,13 +1,13 @@
---- 
-title: "Calcolare suggerimenti su quantità kanban"
-description: "Questa procedura riguarda l'ottimizzazione della dimensione e delle quantità kanban per una regola kanban specifica tramite il calcolo della quantità kanban."
+---
+title: Calcolare suggerimenti su quantità kanban
+description: Questa procedura riguarda l'ottimizzazione della dimensione e delle quantità kanban per una regola kanban specifica tramite il calcolo della quantità kanban.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 540dd32c5da5859ef5e69f55d6806eada90bc840
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a817dbc02890d863f68c5bf2a6cc11b9a5328060
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348988"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Calcolare suggerimenti su quantità kanban
 
@@ -84,5 +84,4 @@ Questa procedura riguarda l'ottimizzazione della dimensione e delle quantità ka
     * Si noti che si tratta della quantità predefinita immessa nel calcolo della quantità kanban.  
     * Si noti che si tratta della quantità kanban fissa pari a 4 derivata dal calcolo della quantità kanban.  
 5. Fare clic sulla scheda ListPanel.
-
 

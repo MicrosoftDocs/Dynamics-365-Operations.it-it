@@ -1,31 +1,30 @@
 ---
 title: Eseguire il prezzo di costo e restituire l'ID lotto
-description: "Si può decidere che il costo dei prodotti resi deve essere uguale al costo dei prodotti nel momento in cui sono stati venduti al cliente. È possibile effettuare questa operazione utilizzando **Operazione ID lotto**."
+description: Si può decidere che il costo dei prodotti resi deve essere uguale al costo dei prodotti nel momento in cui sono stati venduti al cliente. È possibile effettuare questa operazione utilizzando **Operazione ID lotto**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335142"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Eseguire il prezzo di costo e restituire l'ID lotto        
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Per impostazione predefinita, quando si aggiungono articoli a un ordine di reso,
 
 3.  Nel modulo **Crea ordine di reso**, selezionare un conto cliente e fare clic su **OK**.
 
-4.  Nel modulo **Ordine di reso - Codice NAR: %1, %2** selezionare un articolo e immettere una quantità negativa nel campo **Quantità**.
+4.  Nel modulo **Ordine di reso - Codice NAR: %1, %2**, selezionare un articolo e immettere una quantità negativa nel campo **Quantità**.
 
 5.  Fare clic sulla Scheda dettaglio **Dettagli riga**.
 
@@ -64,7 +63,7 @@ Questo è il metodo preferito da utilizzare per creare le righe di reso. Per uti
 
 3.  Nel modulo **Crea ordine di reso**, selezionare un conto cliente e fare clic su **OK**.
 
-4.  Nel modulo **Ordine di reso - Codice NAR: %1, %2**, nel , **riquadro azioni**, fare clic su **Trova ordine cliente**.
+4.  Nel modulo **Ordine di reso - Codice NAR: %1, %2** nel **riquadro azioni**, fare clic su **Trova ordine cliente**.
 
 5.  Nel modulo **Trova ordine cliente** selezionare la riga fattura per il reso, quindi fare clic su **OK**.
     
@@ -109,7 +108,6 @@ Quando si utilizza il campo **ID lotto resi** in una riga ordine di reso per spe
 10. In Gestione articoli e magazzino, utilizzare il modulo **Chiusura e rettifica** per eseguire la procedura **3. Chiudere**.
     
     Questa azione consente di rettificare il costo nella riga di vendita originale, che era preventivata a -35,00 (5 pezzi \* 7,00), a -30,00 (5 pezzi \* 6,00). Ciò accade perché il gruppo di modelli inventariali utilizza il metodo FIFO (First In, First Out) e 6,00 per pezzo è il costo FIFO dal primo ordine fornitore. Inoltre, l'azione consente di rettificare il costo della riga di vendita di reso in modo che corrisponda al costo per pezzo nella riga di vendita originale. Pertanto, il costo della riga di reso viene rettificato da 35,00 a 30,00.
-
 
 
 

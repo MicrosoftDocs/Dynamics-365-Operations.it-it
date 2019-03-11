@@ -5,9 +5,9 @@ author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327897"
 ---
-
-# <a name="initialize-seed-data-in-new-retail-environments"></a>Inizializzare i dati iniziali in nuovi ambienti Retail
+# <a name="initialize-seed-data-in-new-retail-environments"></a>Inizializzare i dati iniziali nei nuovi ambienti Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -40,7 +39,7 @@ Dopo la distribuzione della soluzione di vendita al dettaglio tramite Microsoft 
 
 Per inizializzare la configurazione della funzionalità di vendita al dettaglio, effettuare le operazioni indicate di seguito.
 
-1. Avviare il client Microsoft Dynamics 365 for Retail.
+1. Avviare il client Dynamics 365 for Retail.
 2. Fare clic su **Vendita al dettaglio** &gt; **Impostazione sedi centrali** &gt; **Parametri** &gt; **Parametri di vendita al dettaglio**.
 3. Fare clic su **Inizializza**.
 
@@ -56,9 +55,9 @@ L'inizializzazione crea i seguenti dati di configurazione predefiniti:
 - Report canale
 - Metadati di attributi
 - Modelli di convalida entità
-- Processo batch per l'eliminazione dello storico della sessione di scambio dei dati commerciali
+- Processo batch per l'eliminazione dello storico della sessione di Commerce Data Exchange
 
-Inoltre, la registrazione correlata a PCI (Payment Card Industry) è abilitata per il database di Dynamics 365 for Retail.
+Inoltre, la registrazione correlata a PCI (Payment Cad Industry) è abilitata per il database di Dynamics 365 for Retail.
 
 > [!NOTE]
 > È disponibile un'opzione per configurare separatamente Retail scheduler. Questa opzione consente di reimpostare la configurazione il dettaglio dell'utilità di pianificazione con le relative impostazioni predefinite.
@@ -70,4 +69,3 @@ Dopo il completamento dell'inizializzazione, è necessario configurare i dati ag
 - Canali di vendita al dettaglio
 - Registri e dispositivi
 - Assortimenti
-

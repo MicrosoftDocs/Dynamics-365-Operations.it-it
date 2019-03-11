@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9cb4bded4b8d841c6d164e6b8ded2cb3fb4d0978
-ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363294"
 ---
-
 # <a name="product-dimensions"></a>Dimensioni prodotto
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ Una società vende jeans denim. L'articolo, i jeans, utilizza le dimensioni prod
 | Marrone | L    |
 | Marrone | XL   |
 | Marrone | XXL  |
-
 
 
 

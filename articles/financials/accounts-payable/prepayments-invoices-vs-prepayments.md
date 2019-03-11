@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c81045b72d15f4474d82040d7725740cff5eba91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310141"
 ---
-
 # <a name="prepayment-invoices-vs-prepayments"></a>Fatture di pagamento anticipato e pagamenti anticipati a confronto
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Le organizzazioni possono emettere pagamenti anticipati in favore dei fornitori 
 | Fatturazione di pagamento anticipato                                                                | Pagamenti anticipati                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Definire un valore di pagamento anticipato per un ordine fornitore.                                    | Nessun valore di pagamento anticipato è stato definito per un ordine fornitore.                    |
-| Chiave: una fattura di pagamento anticipato e una fattura finale devono essere registrate.                       | Nessuna fattura di pagamento anticipato deve essere registrata.                                    |
+| Chiave: una fattura di pagamento anticipato e una fattura finale devono essere registrate.                       | Nessuna fattura di pagamento anticipato deve essere registrata.                                    |
 | La passività per il pagamento anticipato viene registrata nel conto di pagamento anticipato, non nel conto della contabilità fornitori. | La passività per il pagamento anticipato viene registrata nel conto della contabilità fornitori.                  |
 | Il saldo fornitore non corrisponde al valore di pagamento anticipato in tutto il processo.     | Il saldo fornitore corrisponde al valore di pagamento anticipato in tutto il processo. |
 | La fatturazione di pagamento anticipato è disponibile solo in Contabilità fornitori.                         | I pagamenti anticipati sono disponibili in Contabilità fornitori e Contabilità clienti.    |
@@ -49,21 +48,20 @@ Le procedure contabili in molti paesi richiedono che i pagamenti anticipati da u
 
 1.  Impostare i profili di registrazione per i pagamenti anticipati.
 2.  In Parametri contabilità clienti e Parametri contabilità fornitori di **Contabilità generale e IVA** selezionare il nuovo profilo di registrazione utilizzando il parametro **Profilo registrazione per giornale di registrazione pagamenti con pagamento anticipato**.
-3.  Creare un giornale di registrazione pagamenti, quindi creare il nuovo pagamento.
-4.  È possibile contrassegnare il pagamento come pagamento anticipato. Se un pagamento viene contrassegnato come pagamento anticipato, il pagamento viene registrato nei conti CoGe che vengono definiti nel profilo di registrazione impostato ai passaggi 1 e 2. Inoltre, se il pagamento viene contrassegnato come pagamento anticipato, le imposte vengono calcolate. Alcuni governi richiedono che le imposte siano pagate quando viene registrato un pagamento anticipato, anche in mancanza di fattura.
+3.  Creare un giornale di registrazione pagamenti, quindi creare il nuovo pagamento.
+4.  È possibile contrassegnare il pagamento come pagamento anticipato. Se un pagamento viene contrassegnato come pagamento anticipato, il pagamento viene registrato nei conti CoGe che vengono definiti nel profilo di registrazione impostato ai passaggi 1 e 2. Inoltre, se il pagamento viene contrassegnato come pagamento anticipato, le imposte vengono calcolate. Alcuni governi richiedono che le imposte siano pagate quando viene registrato un pagamento anticipato, anche in mancanza di fattura.
 5.  Registrare il pagamento anticipato.
-6.  Facoltativo: È possibile liquidare il pagamento anticipato a fronte dell'ordine fornitore o l'ordine cliente prima di creare la fattura. In un ordine cliente o un ordine fornitore, nel riquadro azioni, utilizzare **Liquida transazioni**.
-7.  Dopo che il fornitore avrà fornito le merci o i servizi, registrare la fattura. Se il pagamento anticipato è stato liquidato a fronte dell'ordine fornitore o dell'ordine cliente al passaggio 6, il pagamento anticipato viene automaticamente liquidato a fronte della fattura creata. Se il pagamento anticipato non è stato liquidato a fronte dell'ordine fornitore o dell'ordine cliente, è possibile liquidarlo manualmente a fronte della fattura utilizzando **Liquida transazioni** nella pagina cliente o fornitore. L'importo del pagamento anticipato verrà quindi temporaneamente stornato dal conto CoGe di AP/AR. Inoltre, se le imposte sono state calcolate, vengono stornate, poiché la fattura include le imposte effettive.
+6.  Facoltativo: È possibile liquidare il pagamento anticipato a fronte dell'ordine fornitore o l'ordine cliente prima di creare la fattura. In un ordine cliente o un ordine fornitore, nel riquadro azioni, utilizzare **Liquida transazioni**.
+7.  Dopo che il fornitore avrà fornito le merci o i servizi, registrare la fattura. Se il pagamento anticipato è stato liquidato a fronte dell'ordine fornitore o dell'ordine cliente al passaggio 6, il pagamento anticipato viene automaticamente liquidato a fronte della fattura creata. Se il pagamento anticipato non è stato liquidato a fronte dell'ordine fornitore o dell'ordine cliente, è possibile liquidarlo manualmente a fronte della fattura utilizzando **Liquida transazioni** nella pagina cliente o fornitore. L'importo del pagamento anticipato verrà quindi temporaneamente stornato dal conto CoGe di AP/AR. Inoltre, se le imposte sono state calcolate, vengono stornate, poiché la fattura include le imposte effettive.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Panoramica del processo di fatturazione del pagamento anticipato
-Le fatture di pagamento anticipato sono una normale procedura commerciale. Un fornitore emette le fatture di pagamento anticipato per richiedere un deposito sull'acquisto prima che l'ordine fornitore sia stato completato. Ad esempio, alcuni fornitori richiedono un pagamento anticipato di merci o servizi personalizzati. Se un fornitore emette una fattura che richiede il pagamento anticipato, è possibile utilizzare la funzionalità di fatturazione del pagamento anticipato. Un valore di pagamento anticipato può essere definito nell'ordine fornitore, una fattura di pagamento anticipato viene registrata e pagata, quindi la fattura di pagamento anticipato viene applicata alla fattura finale. Per creare un pagamento anticipato, completare i passaggi che seguono.
+Le fatture di pagamento anticipato sono una normale procedura commerciale. Un fornitore emette le fatture di pagamento anticipato per richiedere un deposito sull'acquisto prima che l'ordine fornitore sia stato completato. Ad esempio, alcuni fornitori richiedono un pagamento anticipato di merci o servizi personalizzati. Se un fornitore emette una fattura che richiede il pagamento anticipato, è possibile utilizzare la funzionalità di fatturazione del pagamento anticipato. Un valore di pagamento anticipato può essere definito nell'ordine fornitore, una fattura di pagamento anticipato viene registrata e pagata, quindi la fattura di pagamento anticipato viene applicata alla fattura finale. Per creare un pagamento anticipato, completare i passaggi che seguono.
 
 1.  L'addetto acquisti crea, conferma e invia un ordine fornitore per il quale il fornitore ha richiesto un pagamento anticipato. Il valore di pagamento anticipato viene definito nell'ordine fornitore come parte del contratto.
 2.  Il fornitore invia una fattura di pagamento anticipato.
 3.  Il coordinatore della contabilità fornitori registra la fattura di pagamento anticipato a fronte dell'ordine fornitore, quindi viene pagata la fattura del pagamento anticipato.
 4.  Dopo che il fornitore ha consegnato le merci o fornito i servizi e sono state ricevute le relative fatture fornitore, il coordinatore della contabilità fornitori applica l'importo di pagamento anticipato già pagato a fronte della fattura.
 5.  Il coordinatore della contabilità fornitori effettua il pagamento e liquida l'importo rimanente della fattura.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Rifornimento
-description: "In questo argomento vengono descritte le strategie di rifornimento disponibili per i magazzini che utilizzano la funzionalità disponibile in Gestione magazzino."
+description: In questo argomento vengono descritte le strategie di rifornimento disponibili per i magazzini che utilizzano la funzionalità disponibile in Gestione magazzino.
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344526"
 ---
-
 # <a name="replenishment"></a>Rifornimento
 
 [!include [banner](../includes/banner.md)]
@@ -77,5 +76,4 @@ Anziché sommare la domanda alla fine di un processo di allocazione ed effettuar
 |    Profili ubicazione    |                                                                                                        I profili ubicazione sono necessari per creare le ubicazioni.                                                                                                        |
 |   Direttive ubicazione   |                                                       Le direttive di ubicazione sono necessarie per guidare il lavoro nelle ubicazioni in cui è richiesto il rifornimento e nelle ubicazioni da cui provengono le scorte.                                                        |
 |     Modelli di lavoro      |                                                   Modelli di lavoro di tipo <strong>Rifornimento</strong> sono necessari per creare il lavoro di rifornimento in modo che le scorte possano essere spostate nell'ubicazione desiderata.                                                    |
-
 

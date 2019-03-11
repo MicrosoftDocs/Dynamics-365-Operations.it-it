@@ -5,9 +5,9 @@ author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347953"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
 [!include [banner](../includes/banner.md)]
@@ -208,8 +207,8 @@ Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile i
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nessuna</td>
-<td>Per impostazione predefinita, il lavoro non viene elaborato.</td>
+<td>Nessuna priorità</td>
+<td>Per impostazione predefinita il lavoro non viene elaborato.</td>
 </tr>
 <tr class="even">
 <td>Diretto dal sistema</td>
@@ -246,7 +245,7 @@ Questa opzione è utile, ad esempio, quando più pallet sono approntati per un c
 </tr>
 <tr class="even">
 <td>Raggruppamento conteggio ciclo</td>
-<td>Il lavoratore seleziona una zona, un pool di lavoro o un'ubicazione e in Microsoft Dynamics 365 for Finance and Operations il lavoro viene assegnato in base alla selezione. Se si seleziona questa opzione, è inoltre possibile fare clic su <strong>Conteggio ciclo</strong> nel riquadro azioni per specificare informazioni aggiuntive per visualizzare e specificare il numero di volte in cui il lavoratore deve ripetere il conteggio se viene rilevata una differenza.</td>
+<td>Il lavoratore seleziona una zona, un pool di lavoro o un'ubicazione e Microsoft Dynamics 365 for Finance and Operations assegna il lavoro in base alla selezione. Se si seleziona questa opzione, è inoltre possibile fare clic su <strong>Conteggio ciclo</strong> nel riquadro azioni per specificare informazioni aggiuntive per visualizzare e specificare il numero di volte in cui il lavoratore deve ripetere il conteggio se viene rilevata una differenza.</td>
 </tr>
  <tr class="odd">
 <td>Caricamento di trasporto</td>
@@ -367,11 +366,11 @@ Nella seguente tabella sono descritte queste opzioni.
 </tr>
 <tr class="even">
 <td>Campo di raggruppamento sistema</td>
-<td>Selezionare il campo che determina la modalità di raggruppamento del lavoro di prelievo per il lavoratore utilizzata da Microsoft Dynamics 365 for Finance and Operations. Ad esempio, se si seleziona il campo <strong>ID spedizione</strong>, il lavoratore esegue la scansione dell'ID spedizione per raggruppare il lavoro di prelievo. Tutto il lavoro di spedizione verrà quindi assegnato al lavoratore. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È necessario immettere inoltre testo nel campo <strong>Etichetta di raggruppamento sistema</strong> per indicare al lavoratore gli elementi da sottoporre a scansione.</td>
+<td>Selezionare il campo che determina la modalità di raggruppamento del lavoro di prelievo per i lavoratori utilizzata da Microsoft Dynamics 365 for Finance and Operations. Ad esempio, se si seleziona il campo <strong>ID spedizione</strong>, il lavoratore esegue la scansione dell'ID spedizione per raggruppare il lavoro di prelievo. Tutto il lavoro di spedizione verrà quindi assegnato al lavoratore. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È necessario immettere inoltre testo nel campo <strong>Etichetta di raggruppamento sistema</strong> per indicare al lavoratore gli elementi da sottoporre a scansione.</td>
 </tr>
 <tr class="odd">
 <td>Etichetta di raggruppamento sistema</td>
-<td>Immettere il testo per indicare al lavoratore gli elementi da sottoporre a scansione quando il lavoro di prelievo viene raggruppato da Microsoft Dynamics 365 for Finance and Operations. Ad esempio, se si utilizza il campo <strong>ShipmentId</strong> per raggruppare il lavoro di prelievo in base alla spedizione, è possibile immettere l'<strong>ID spedizione</strong> nel campo. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È inoltre necessario selezionare il campo in base a cui raggruppare tramite l'opzione <strong>Campo di raggruppamento sistema</strong>.</td>
+<td>Immettere il testo per indicare al lavoratore gli elementi da sottoporre a scansione quando il lavoro di prelievo viene raggruppato da Microsoft Dynamics 365 for Finance and Operations. Ad esempio, se si utilizza il campo <strong>ID spedizione</strong> per raggruppare il lavoro di prelievo in base alla spedizione, è possibile immettere l'<strong>ID spedizione</strong> nel campo. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È inoltre necessario selezionare il campo in base a cui raggruppare tramite l'opzione <strong>Campo di raggruppamento sistema</strong>.</td>
 </tr>
 <tr class="even">
 <td>Utilizza dati predefiniti</td>
@@ -420,6 +419,5 @@ Nella tabella seguente sono descritti i diversi tipi di lavoro per cui è possib
 
 [Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti (guida attività)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [Vantaggi dell'utilizzo degli stati inventario](../inventory/inventory-statuses.md)
-
 
 

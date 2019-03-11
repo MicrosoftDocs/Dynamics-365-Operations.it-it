@@ -1,13 +1,13 @@
---- 
+---
 title: Dichiarare finito a un'ubicazione a un'ubicazione non controllata da targa (Applicazione, maggio 2016)
-description: "In questa guida di attività è riportato un esempio di dichiarazione di finito a un'ubicazione che non controllata da targa."
+description: In questa guida di attività è riportato un esempio di dichiarazione di finito a un'ubicazione che non controllata da targa.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdParmCostEstimation, ProdParmStartUp, ProdParmReportFinished, WHSWorkTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4da6868a2184a76c435efe824f4670504e1134e7
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344549"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Dichiarare finito a un'ubicazione a un'ubicazione non controllata da targa (Applicazione, maggio 2016)
 
@@ -61,5 +61,4 @@ In questa guida di attività è riportato un esempio di dichiarazione di finito 
 17. Nel riquadro azioni fare clic su Magazzino.
 18. Fare clic su Dettagli lavoro.
     * Quando l'ordine di produzione è stato dichiarato finito, nessun lavoro è stato generato per lo stoccaggio. Questa situazione si verifica perché vengono definiti criteri di lavoro che impediscono la generazione del lavoro quando il prodotto L0101 viene dichiarato finito all'ubicazione 001.  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Elaborare l'idoneità al benefit"
-description: "In questa procedura vengono descritti i passaggi per utilizzare il processo di idoneità al benefit."
+---
+title: Elaborare l'idoneità al benefit
+description: In questa procedura vengono descritti i passaggi per utilizzare il processo di idoneità al benefit.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 859bf2ef369173ce4b6bc380820ea157ae86e13a
-ms.contentlocale: it-it
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325551"
 ---
 # <a name="benefit-eligibility-process"></a>Elaborare l'idoneità al benefit
 
@@ -55,5 +55,4 @@ In questa procedura vengono descritti i passaggi per utilizzare il processo di i
 24. Fare clic su Mostra risultati.
 25. Apri filtro di colonna Stato.
 26. Ordina da A a Z
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Definire termini di pagamento fornitore
 description: Impostare i termini di pagamento per le fatture fornitore.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 68c69d5be5ccbdfb17fea7c61121cbf26fee48d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a00ca73b1bc301960132a86846749d12c39ed3f7
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358556"
 ---
 # <a name="define-vendor-payment-terms"></a>Definire termini di pagamento fornitore
 
@@ -51,5 +51,4 @@ Impostare i termini di pagamento per le fatture fornitore. In questa attività v
 17. Immettere il conto principale in cui verrà registrato lo sconto di cassa per le fatture fornitore.
     * Se "conti di contropartita di sconto" viene impostato per l'utilizzo del conto principale per lo sconto fornitore, verrà utilizzato il conto principale.  Se l'opzione è impostata su Conti nelle righe fattura, lo sconto di cassa verrà registrato nei conti spese/cespite nelle righe della fattura fornitore.  
 18. Fare clic su Salva.
-
 

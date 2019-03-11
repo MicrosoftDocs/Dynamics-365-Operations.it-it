@@ -1,13 +1,13 @@
---- 
+---
 title: Dividere un cespite
-description: "Questa guida attività suddividerà una percentuale di un libro cespiti in un nuovo libro cespiti."
+description: Questa guida attività suddividerà una percentuale di un libro cespiti in un nuovo libro cespiti.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6be9de64265a4d7b5c91af3ee8acfce80c78e0f1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b4c1b39bcae1fa3830f3a217d1ad89e84cd72134
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333371"
 ---
 # <a name="split-a-fixed-asset"></a>Dividere un cespite
 
@@ -58,5 +58,4 @@ Questa guida attività suddividerà una percentuale di un libro cespiti in un nu
 3. Fare clic su Righe.
     * Verificare le righe del giornale di registrazione create.  Una transazione di rettifica acquisizione viene creata per il cespite originario per diminuire il valore della percentuale specificata durante il processo di divisione.  Una transazione di acquisizione viene creata per il nuovo cespite per lo stesso importo.  
 4. Fare clic su Registra.
-
 

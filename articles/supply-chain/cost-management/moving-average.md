@@ -1,13 +1,13 @@
 ---
 title: Media mobile
-description: "La media mobile è un metodo di determinazione dei costi soggetti a variazioni basato sul principio della media, in cui i costi delle uscite di magazzino non cambiano quando cambia il costo di acquisto. La differenza viene capitalizzata e basata su un calcolo proporzionale. L'importo che rimane viene calcolato come spesa."
+description: La media mobile è un metodo di determinazione dei costi soggetti a variazioni basato sul principio della media, in cui i costi delle uscite di magazzino non cambiano quando cambia il costo di acquisto. La differenza viene capitalizzata e basata su un calcolo proporzionale. L'importo che rimane viene calcolato come spesa.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348068"
 ---
-
 # <a name="moving-average"></a>Media mobile
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,7 @@ Le transazioni retrodatate sono assegnate al costo a media mobile corrente e la 
 Nel modulo **Operazioni di magazzino** è possibile notare che 4,00, convertito in spesa come media mobile corrente per il prodotto, corrisponde a 16,00. È possibile registrare nel passato, ma la differenza di costo viene convertita in spesa, in modo tale da non influenzare il costo a media mobile.
 
 ## <a name="inventory-value-report"></a>Report valori di inventario
-In questo esempio di media mobile, il report del valore di magazzino viene stampato per supportare il calcolo corrente della media mobile per un prodotto. Il report Valore di magazzino può stampare le transazioni in ordine cronologico, insieme al costo per supportare il calcolo del costo a media mobile di un prodotto. Il report visualizza il costo a media mobile per il prodotto. Nella finestra di dialogo **Report valore di magazzino** un intervallo di date consente di selezionare l'ora **della transazione** e **della registrazione** in base a cui ordinare il report. L'opzione **Data di registrazione** consente di definire il modo in cui il report viene in genere stampato. L'opzione **Ora della transazione** è la data effettiva in cui la transazione viene dichiarata e il costo a media mobile per il prodotto viene aggiornato. È possibile stampare il report Valore di magazzino tramite l'opzione **Ora della transazione** se si desidera visualizzare il calcolo dei costi a media mobile nel tempo. Nella seguente tabella vengono visualizzate le transazioni per il prodotto stampato nel report quando si utilizza l'opzione di ordinamento **Ora della transazione**.
+In questo esempio di media mobile, il report del valore di magazzino viene stampato per supportare il calcolo corrente della media mobile per un prodotto. Il report Valore di magazzino può stampare le transazioni in ordine cronologico, insieme al costo per supportare il calcolo del costo a media mobile di un prodotto. Il report visualizza il costo a media mobile per il prodotto. Nella finestra di dialogo **Report valore di magazzino** un intervallo di date consente di selezionare l'ora **della transazione** e **della registrazione** in base a cui ordinare il report. L'opzione **Data di registrazione** consente di definire il modo in cui il report viene in genere stampato. L'opzione **Ora della transazione** è la data effettiva in cui la transazione viene dichiarata e il costo a media mobile per il prodotto viene aggiornato. È possibile stampare il report Valore di magazzino tramite l'opzione **Ora della transazione** se si desidera visualizzare il calcolo dei costi a media mobile nel tempo. Nella seguente tabella vengono visualizzate le transazioni per il prodotto stampato nel report quando si utilizza l'opzione di ordinamento **Ora della transazione**.
 
 | Ora della transazione | Data         | Tipo di transazione           | Quantità | Importo | Costo unitario medio |
 |------------------|--------------|----------------------------|----------|--------|-------------------|
@@ -113,8 +112,7 @@ In questo esempio di media mobile, il report del valore di magazzino viene stamp
 | 8 ottobre        | 8 ottobre    | Rivalutazione media mobile |          | 4,00   | 16,00             |
 |                  | 31 ottobre   | Totale                      | 2        | 32,00  | 16,00             |
 
- **Nota**: non è possibile riconciliare la contabilità generale con il magazzino utilizzando l'opzione di ordinamento **Ora della transazione**. Il report deve essere stampato utilizzando l'opzione **Data di registrazione** .
-
+ **Nota**: non è possibile riconciliare la contabilità generale con il magazzino utilizzando l'opzione di ordinamento **Ora della transazione**. Il report deve essere stampato utilizzando l'opzione **Data di registrazione** .
 
 
 

@@ -5,9 +5,9 @@ author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: be5e512dcb23ce525439f11b7674cc35d7306159
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5caa5620db428f18d451fdfe2aeae9e2a76a24f8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322791"
 ---
-
 # <a name="inventory-statuses"></a>Stati inventario
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ Per il lavoro in uscita, utilizzare articoli con uno stato inventario disponibil
 Dopo aver impostato gli stati inventario, è possibile impostare lo stato inventario predefinito per un sito, un articolo e un magazzino. È inoltre possibile impostare uno stato predefinito per ordini acquisto, di trasferimento e cliente. Lo stato predefinito per gli ordini cliente e l'ordine di trasferimento in uscita non possono disporre del set di opzioni **Blocco scorte** su **Sì**. Lo stato inventario che viene ereditato dalle impostazioni predefinite in un sito, magazzino, articolo, ordine acquisto, di trasferimento o cliente può essere modificato utilizzando il dispositivo mobile oppure nella riga dell'ordine acquisto, cliente o di trasferimento.
 
 Per pianificare la copertura per articoli con uno stato inventario disponibile, selezionare l'opzione **Piano di copertura per dimensione** per una dimensione di immagazzinamento nella pagina **Gruppi di dimensioni di immagazzinamento**. Quando si apre l'**Impostazione guidata copertura articoli**, gli articoli con uno stato disponibile vengono visualizzati nella pagina **Stato**. Per creare le impostazioni di copertura per tali articoli, selezionare l'ID dello stato inventario per gli stati di inventario disponibili. In base alle impostazioni di copertura, è possibile calcolare le richieste articoli e prevedere la domanda e l'offerta di articoli disponibili durante la pianificazione generale. Non è possibile creare un'impostazione copertura articoli con uno stato inventario bloccato. In alternativa, utilizzare la pagina **Copertura articoli** per creare o modificare i parametri di copertura articoli.
-

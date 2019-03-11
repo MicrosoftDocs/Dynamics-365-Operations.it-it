@@ -1,32 +1,31 @@
 ---
 title: Sincronizzare intestazioni e righe di fatture di vendita direttamente da Finance and Operations in Sales
-description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni di fatture di vendita direttamente da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Sales."
+description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni di fatture di vendita direttamente da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: afbf4a24b737cf7221bac4b688b8801b1bcd839c
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319502"
 ---
-
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizzare intestazioni e righe di fatture di vendita direttamente da Finance and Operations in Sales
 
 [!include [banner](../includes/banner.md)]
@@ -139,7 +138,6 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 [Sincronizzare contatti direttamente da Sales con contatti o clienti in Finance and Operations](contacts-template-mapping-direct.md)
 
 [Sincronizzare intestazioni e righe di ordini cliente direttamente da Finance and Operations in Sales](sales-order-template-mapping-direct-two-ways.md)
-
 
 
 

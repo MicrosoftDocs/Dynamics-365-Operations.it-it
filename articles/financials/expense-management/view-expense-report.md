@@ -1,13 +1,13 @@
 ---
-title: "Visualizzare una nota spese da Contabilità generale o Approvvigionamento"
-description: "In questo argomento viene descritto come visualizzare la nota spese originale in cui una transazione è riportata."
+title: Visualizzare una nota spese da Contabilità generale o Approvvigionamento
+description: In questo argomento viene descritto come visualizzare la nota spese originale in cui una transazione è riportata.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e88af5a815803d20cf97f21f6ae50bcf98539b83
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6397ca01ef100b6149c70a335ce854bc0439aff2
-ms.contentlocale: it-it
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316397"
 ---
-
 # <a name="view-an-expense-report"></a>Visualizza nota spese
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ Per le note spese è possibile eseguire il drill-down da una transazione fino al
 Per eseguire il drill-down fino alla nota spese originale in cui una transazione è riportata, selezionare la transazione, quindi l'opzione **Documento originale**.
 
 Quando si visualizzano le singole transazioni, è possibile visualizzare anche tutti i dati aggiuntivi collegati a una transazione. Per i dettagli delle spese di albergo è possibile ad esempio visualizzare l'elenco dettagliato di tutte le spese quali accesso a Internet, chiamate telefoniche e servizio in camera.
-

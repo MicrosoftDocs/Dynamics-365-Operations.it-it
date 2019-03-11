@@ -1,13 +1,13 @@
---- 
+---
 title: Assegnare al cliente un modello di fattura a testo libero
-description: "Questa attività descrive come assegnare un modello di fattura a testo libero a un cliente."
+description: Questa attività descrive come assegnare un modello di fattura a testo libero a un cliente.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318927"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>Assegnare al cliente un modello di fattura a testo libero
 
@@ -48,5 +48,4 @@ Questa attività descrive come assegnare un modello di fattura a testo libero a 
 10. Selezionare il criterio di ricorrenza.
     * Giornaliero: selezionare questa opzione e immettere il numero di giorni nel campo Per. Se si immette, ad esempio, 15, la fattura verrà generata ogni 15 giorni per il cliente specificato.  Settimanale: selezionare questa opzione e immettere il numero di settimane nel campo Per. Se si immette, ad esempio, 2, la fattura verrà generata ogni 2 settimane per il cliente specificato.  Mensile: selezionare questa opzione e immettere il numero di mesi nel campo Per. Se si immette, ad esempio, 6, la fattura verrà generata ogni 6 mesi per il cliente specificato.  Annuale: selezionare questa opzione e immettere il numero di anni nel campo Per. Se si immette, ad esempio, 2, la fattura verrà generata ogni 2 anni per il cliente specificato.  
 11. Nel campo Per immettere un numero.
-
 

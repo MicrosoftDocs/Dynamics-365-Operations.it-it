@@ -1,13 +1,13 @@
---- 
+---
 title: 'Definire il conteggio ciclo '
-description: "Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per controllare gli articoli di magazzino disponibili."
+description: Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per controllare gli articoli di magazzino disponibili.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2832547f81b0153d42ac4664184f18bd66f1acdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f9cdb0a7de0199363279c53e817c98085b31fe6b
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337304"
 ---
 # <a name="define-cycle-counting"></a>Definire il conteggio ciclo  
 
@@ -100,5 +100,4 @@ Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per c
 20. Nel campo Criteri immettere o selezionare un valore.
 21. Fare clic su OK.
 22. Chiudere la pagina.
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Assumere dipendenti esistenti tramite selezione
-description: "Talvolta le posizioni aperte possono essere ricoperte da candidati che sono già dipendenti dell'organizzazione."
+description: Talvolta le posizioni aperte possono essere ricoperte da candidati che sono già dipendenti dell'organizzazione.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365387"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Assumere dipendenti esistenti tramite selezione
 
@@ -40,5 +40,4 @@ Talvolta le posizioni aperte possono essere ricoperte da candidati che sono già
 8. Facoltativamente, è possibile selezionare un codice motivo. Esempio: riorganizzazione
 9. Fare clic su Modifica posizione.
     * È inoltre possibile modificare la retribuzione in questo momento. Se non si assegna la retribuzione in questo momento, è possibile modificarla nel modulo del lavoratore, selezionando la scheda Retribuzione e scegliendo "Piano fisso". Dopo aver selezionato "Modifica posizione", lo stato sulla domanda di lavoro verrà aggiornato ad "Assunto".  
-
 

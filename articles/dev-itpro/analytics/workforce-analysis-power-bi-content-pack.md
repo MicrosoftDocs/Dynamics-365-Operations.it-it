@@ -1,13 +1,13 @@
 ---
 title: Contenuto Power BI sulle metriche della forza lavoro
-description: "In questo argomento viene descritto il contenuto Power BI Metriche forza lavoro. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
+description: In questo argomento viene descritto il contenuto Power BI Metriche forza lavoro. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345791"
 ---
-
 # <a name="workforce-metrics-power-bi-content"></a>Contenuto Power BI sulle metriche della forza lavoro
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Nella seguente tabella vengono elencate le metriche disponibili in ciascun repor
 | Compleanni dipendenti                               | Compleanni del mese in corso, compleanni del mese successivo, compleanni dei dipendenti e compleanni per mese e reparto |
 | Progetti di assunzione collettiva                               | Progetti di assunzione collettiva totali, progetti di assunzione collettiva in base allo stato, progetti di assunzione collettiva per reparto e proprietario, progetti di assunzione collettiva per mansione e progetti di assunzione collettiva |
 
-È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 Assicurarsi di scaricare il contenuto di Power BI **Metriche forza lavoro** applicabile alla versione di Microsoft Dynamics 365 in uso.
 
@@ -88,4 +87,3 @@ Nella tabella seguente vengono illustrate le entità su cui si è basato il cont
 | Tendenza del dipendente           | Lavoratori nel tempo, numero di dipendenti, società e posizione                                 | Società, Località geografica, Nome del dipendente, Subordinato a, Offset di calendario, Data, Posizione del dipendente, Dati demografici, Impiego, Mansione |
 | Progetto di assunzione collettiva        | Numero di progetti di assunzione collettiva, proprietario del progetto e stato del progetto                     | Società, Riga assunzione collettiva |
 | Riga assunzione collettiva           | Reparto, tipo di impiego e posizione                                           | Data, mansione, progetto di assunzione collettiva |
-

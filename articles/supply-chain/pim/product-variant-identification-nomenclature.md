@@ -5,9 +5,9 @@ author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: f84b6982af8b81ff83086d163a77e1c2f58ca478
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336683"
 ---
-
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura di nomi e numeri di varianti prodotto
 
 [!include [banner](../includes/banner.md)]
@@ -122,7 +121,7 @@ Creare una nomenclatura configurazione contenente i segmenti seguenti:
 2.  Costante testo: "&"
 3.  Gruppo di configurazioni: griglia anteriore
 
-In questo caso, l'ID di configurazione per un cabinet standard con panno della griglia anteriore sarà M0007&M0021.
+In questo caso, l'ID di configurazione per un cabinet standard con panno della griglia anteriore sarà M0007&M0021.
 
 ## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Nomenclatura per una combinazione di varianti prodotto e configurazioni
 Quando si utilizza la tecnologia di configurazione basata su vincoli o su dimensioni per configurare le varianti prodotto per una rappresentazione generale prodotto, i numeri delle varianti prodotto possono includere la nomenclatura dalla dimensione di configurazione. Attenersi a questa procedura per configurare le varianti.
@@ -198,5 +197,4 @@ Durante un passaggio del processo di configurazione viene suggerito automaticame
 [Creare una nomenclatura del numero di prodotto per le varianti prodotto predefinite](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Creare una nomenclatura di numero prodotto per le varianti prodotto configurate](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
-
 

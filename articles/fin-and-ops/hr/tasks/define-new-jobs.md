@@ -1,13 +1,13 @@
---- 
+---
 title: Definire nuovi processi
-description: "L'attività si basa sulla creazione di una nuova posizione lavorativa."
+description: L'attività si basa sulla creazione di una nuova posizione lavorativa.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: it-it
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347930"
 ---
 # <a name="define-new-jobs"></a>Definire nuovi processi
 
@@ -57,7 +57,7 @@ L'attività si basa sulla creazione di una nuova posizione lavorativa. Verrà co
 21. Nell'elenco trovare e selezionare il record desiderato.
 22. Nell'elenco fare clic sul collegamento nella riga selezionata.
 23. Attiva/disattiva l'espansione della sezione Competenze.
-    * Si noti che i campi nelle Schede dettaglio Competenze, Istruzione e Certificati sono vuoti. Dopo la copia delle informazioni da un modello di posizioni lavorative, le informazioni in questi campi verranno immesse in un unico passaggio.   
+    * Si noti che i campi nelle Schede dettaglio Competenze, Istruzione e Certificati sono vuoti. Dopo la copia delle informazioni da un modello di posizioni lavorative, le informazioni in questi campi verranno immesse in un unico passaggio.   
 24. Fare clic su Salva.
 25. Fare clic su Copia da.
 26. Fare clic su Copia da modello.
@@ -70,5 +70,4 @@ L'attività si basa sulla creazione di una nuova posizione lavorativa. Verrà co
 32. Attiva/disattiva l'espansione della sezione Certificati.
 33. Attiva/disattiva l'espansione della sezione Istruzione.
 34. Fare clic su Salva.
-
 

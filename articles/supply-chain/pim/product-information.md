@@ -5,28 +5,27 @@ author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363018"
 ---
-
 # <a name="product-information-overview"></a>Panoramica delle informazioni sul prodotto
 
 [!include [banner](../includes/banner.md)]
@@ -97,4 +96,3 @@ L'area di lavoro è costituita da un riepilogo di riquadri e due elenchi. L'elen
 ### <a name="manually-creating-a-new-released-product"></a>Creazione manuale di un nuovo prodotto rilasciato
 
 È possibile creare manualmente un prodotto rilasciato in una singola esecuzione, a seconda dei processi aziendali dell'organizzazione e delle regole relative all'utilizzo di questa funzione. Questa funzione crea un nuovo prodotto e lo rilascia automaticamente alla persona giuridica corrente. Per creare un nuovo prodotto, fare clic su **Prodotti rilasciati** nell'area di lavoro **Gestione prodotti rilasciati** o nella pagina elenco **Prodotto rilasciato**.
-

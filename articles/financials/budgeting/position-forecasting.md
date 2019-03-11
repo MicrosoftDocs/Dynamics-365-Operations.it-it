@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bcd7363ba50f1c3a20d9823333df65eab9868d67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356164"
 ---
-
 # <a name="position-forecasting"></a>Previsione delle posizioni
 
 [!include [banner](../includes/banner.md)]
@@ -216,7 +215,6 @@ Per il processo di generazione e della procedura di selezione, la data di inizio
 Le righe di piano di budget mostrano l'origine degli importi di budget (numero posizione prevista), ma non sono collegate. Di conseguenza, le modifiche alla posizione prevista non vengono visualizzate nella riga del piano di budget e le modifiche alla riga del piano di budget vengono visualizzate nella posizione prevista. Se si modifica una posizione prevista e si desidera che gli aggiornamenti vengano inclusi in un piano del budget, è necessario riportare la posizione prevista nel piano. Tuttavia, si ricordi che il processo rimuove tutte le righe a cui la posizione di previsione è assegnata. Di conseguenza, tutte le modifiche apportate alle righe verranno rimosse. 
 
 Per visualizzare in quali piani di budget una posizione prevista è stata inclusa, è possibile generare il report **Posizioni previste per piano di budget**. In alternativa, nella posizione prevista è possibile aprire il riquadro Dettaglio informazioni **Piani di budget associati** per visualizzare i piani.
-
 
 
 

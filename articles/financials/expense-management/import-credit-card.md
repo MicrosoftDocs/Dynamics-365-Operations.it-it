@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322653"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Importare e gestire transazioni con carta di credito
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Per ulteriori informazioni sulle entità di dati, vedere [Entità di dati](../..
 Dopo che un record dipendente viene terminato, l'account di Servizi di dominio Active Directory del dipendente viene disattivato. È tuttavia possibile che vi siano transazioni con carta di credito attive che devono ancora essere spese e rimborsate. Nella pagina **Transazioni con carta di credito**, è possibile riassegnare a un altro dipendente qualsiasi transazione con carta di credito del dipendente associato che ha concluso il rapporto di lavoro.
 
 Selezionare una o più transazioni con carta di credito e selezionare **Riassegna transazioni**. È quindi possibile selezionare un altro dipendente a cui assegnare le transazioni con carta di credito. Dopo aver riassegnato le transazioni con carta di credito, possono essere selezionate per una nota spese e pagate tramite il normale processo di rimborso della nota spese.
-

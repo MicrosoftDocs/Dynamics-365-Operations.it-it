@@ -1,13 +1,13 @@
 ---
 title: Impostare prodotti che possono essere prodotti o ottenuti
-description: 'I prodotti possono essere originati in vari modi: possono essere prodotti (fabbricati) o approvvigionati (acquistati). Questo articolo descrive alcuni punti tipici da considerare quando si configurano i prodotti per supportare l''approvvigionamento multiplo.'
+description: "I prodotti possono essere originati in vari modi: possono essere prodotti (fabbricati) o approvvigionati (acquistati). Questo articolo descrive alcuni punti tipici da considerare quando si configurano i prodotti per supportare l'approvvigionamento multiplo."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a910b5782c8f15cfdd4cf93ea883bc28a5ce8e1a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5ed8c93c13746249605ad8742549c23bb1e0e10
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "338454"
 ---
-
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Impostare prodotti che possono essere prodotti o ottenuti
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ L'approvvigionamento multiplo è in genere utilizzato per un articolo acquistato
 Quando si utilizza il costo standard, il record relativo al costo dell'articolo può essere calcolato per l'articolo prodotto. Tuttavia, il record relativo al costo dell'articolo potrebbe non corrispondere al costo standard desiderato ai fini degli acquisti. In tal caso, il costo standard deve essere immesso e attivato manualmente per il record relativo al costo dell'articolo. Per il calcolo dei costi, si studi la possibilità di utilizzare una DBA e un ciclo di lavorazione speciali che rappresentino la combinazione di forniture del prodotto nel corso di un periodo fiscale, per ridurre gli scostamenti nel tempo. Un articolo prodotto presso un sito può inoltre essere trasferito a un altro sito, in modo che il relativo costo debba essere immesso e attivato manualmente per il sito a cui l'articolo viene trasferito. Quando si utilizza l'articolo prodotto come componente di prodotti di livello superiore, i costi del componente devono essere considerati come un articolo acquistato e tale linea guida si applica indipendentemente dal fatto che siano stati calcolati oppure immessi manualmente. In altri termini, in un calcolo DBA i costi dell'articolo devono essere trattati come un componente acquistato anziché essere calcolati in base alle informazioni della distinta base e del ciclo di lavorazione. 
 
 Per impedire l'esecuzione del calcolo, selezionare il flag **Interrompi esplosione** incorporato nel gruppo di calcolo DBA assegnato all'articolo. Per impedire che i calcoli della programmazione generale facciano esplodere i fabbisogni in relazione all'articolo, impostare l'intervallo di esplosione su 0 (zero) giorni nella copertura articoli o nel gruppo di copertura. Il calcolo della programmazione generale considererà quindi l'articolo come un articolo acquistato e non verranno eseguiti ulteriori calcoli per le informazioni sulla distinta base e il ciclo di lavorazione dell'articolo.
-
 
 
 

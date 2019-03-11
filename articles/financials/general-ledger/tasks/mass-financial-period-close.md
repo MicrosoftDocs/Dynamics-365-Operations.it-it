@@ -1,13 +1,13 @@
---- 
+---
 title: Chiusura in massa del periodo fiscale
-description: "In questa procedura viene illustrato come mettere in sospeso un periodo o chiudere in modo permanente un periodo o più di una persona giuridica alla volta."
+description: In questa procedura viene illustrato come mettere in sospeso un periodo o chiudere in modo permanente un periodo o più di una persona giuridica alla volta.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a2988b7ab0837cc9a3e4f1c4eaf3fe6e219fa721
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8d7151cbcd02f9312ca6b0de5e27231a0b0dc9d6
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311383"
 ---
 # <a name="mass-financial-period-close"></a>Chiusura in massa del periodo fiscale
 
@@ -46,5 +46,4 @@ In questa procedura viene illustrato come mettere in sospeso un periodo o chiude
 11. Selezionare Aggiorna stato periodo e impostare lo stato su In attesa, Aperto o Chiuso in modo permanente.
     * Aperto indica che nel periodo può essere registrato, se l'utente può accedere. In attesa significa che il periodo non può essere registrato, ma il periodo può essere riaperto. Chiuso in modo permanente significa che il periodo è chiuso e non può mai essere aperto. Non possono essere registrate rettifiche. Non si consiglia di impostare un periodo su Chiuso in modo permanente fino a che tutte le rettifiche e i controlli sono completi.  
 12. Fare clic su Aggiorna.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Funzionalità per la normativa e la localizzazione"
-description: "In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità specifiche del paese."
+title: Funzionalità per la normativa e la localizzazione
+description: In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità specifiche del paese.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302499"
 ---
-
 # <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations include le funzionalità per i paesi indicati nella [Guida alla disponibilità della localizzazione e della traduzione del prodotto](https://aka.ms/ax-availabilityguide). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
+In Microsoft Dynamics 365 for Finance and Operations sono presenti funzionalità per i paesi documentati nella [Guida alla disponibilità della localizzazione e della traduzione del prodotto](https://aka.ms/dynamics_365_international_availability_deck). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
 
 In questo argomento sono inclusi gli elenchi delle risorse utili per effettuare le operazioni seguenti: 
 - ulteriori informazioni su soluzioni specifiche del paese in via di sviluppo/area geografica
@@ -45,10 +44,11 @@ Nelle risorse seguenti sono riportate istruzioni e informazioni che possono esse
 -   [Classificare le funzionalità di localizzazione](classify-localization-features.md)
 -   [Codici paese - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates-and-communication"></a>Aggiornamenti della localizzazione e comunicazione
+## <a name="regulatory-updates-and-communication"></a>Aggiornamenti della normativa e comunicazione
 Nelle risorse seguenti sono riportate informazioni sulle funzionalità di localizzazione nuove e pianificate. 
 
-### <a name="localization-updates"></a>Aggiornamenti della localizzazione
+### <a name="regulatory-updates"></a>Aggiornamenti normativi
+-   [Aggiornamenti normativi](../../financials/localizations/regulatory-updates.md)
 -   [Portale di localizzazione](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (aggiornamenti settimanali)
 -   [Ricerca argomento relativo a LCS](../lifecycle-services/issue-search-lcs.md) (aggiornamenti giornalieri)
 
@@ -118,7 +118,6 @@ Per ulteriori informazioni, vedere [Guide attività](../../fin-and-ops/get-start
         - [Stati Uniti](../../financials/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
-
 
 
 

@@ -5,9 +5,9 @@ author: ashishmsft
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347700"
 ---
-
 # <a name="retail-statements"></a>Rendiconti di vendita al dettaglio
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ Quando si registra un rendiconto, gli ordini cliente e le fatture vengono creati
 - Le vendite al dettaglio per cui un cliente è stato aggiunto alla transazione in Microsoft Dynamics 365 for Retail POS generano ordini cliente e fatture separati, uno per ciascun cliente univoco.
 
 I giornali di registrazione pagamenti vengono creati automaticamente per i pagamenti nel rendiconto e il magazzino viene aggiornato per il punto vendita relativo al POS.
-

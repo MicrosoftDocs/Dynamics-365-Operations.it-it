@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 431d654aaffc27d54fd590dc7d5d2ab6c2313908
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361661"
 ---
-
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendari fiscali, anni fiscali e periodi
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ I cicli di budget sono periodi di tempo durante i quali viene utilizzato un budg
 
 ## <a name="maintain-periods-for-your-organization"></a>Gestire i periodi per l'organizzazione
 È possibile utilizzare la pagina Calendario contabilità generale per visualizzare i dettagli del calendario fiscale, gli anni fiscali e i periodi utilizzati dall'organizzazione. È inoltre possibile modificare lo stato dei periodi e selezionare gli utenti che possono registrare transazioni contabili nei periodi. È possibile ad esempio che all'inizio di un nuovo periodo un gruppo utenti debba concludere la registrazione di transazioni finanziarie nel periodo precedente, mentre altri gruppi debbano gestire solo il nuovo periodo.
-
 
 
 

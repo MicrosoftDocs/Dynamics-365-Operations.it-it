@@ -1,13 +1,13 @@
 ---
-title: "Configurare le modalità e le spese di consegna del servizio clienti"
-description: "In questo argomento viene descritto come impostare le modalità di consegna e le spese per un ordine del servizio clienti in Microsoft Dynamics 365 for Retail."
+title: Configurare le modalità e le spese di consegna del servizio clienti
+description: In questo argomento viene descritto come impostare le modalità di consegna e le spese per un ordine del servizio clienti in Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328426"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurare le modalità e le spese di consegna del servizio clienti
 
 [!INCLUDE [banner](includes/banner.md)]
@@ -96,4 +95,3 @@ Se l'impostazione **Attiva completamento ordine** è disattivato, gli utenti dev
 Ad esempio, per gli ordini che verranno spediti il giorno successivo per via aerea, il prelievo dal magazzino deve avvenire alle 13.00 di ogni giorno. In questo caso, è possibile creare un codice di urgenza e collegarlo a un qualsiasi modo di consegna del giorno successivo che viene configurato nel sistema. Quando il magazzino crea l'ondata di prelievi, è possibile utilizzare il codice di urgenza appropriato nel campo **Urgente** come filtro, in modo che il prelievo venga eseguito solo per gli ordini con modi di consegna collegati a quel codice.
 
 Inoltre, quando viene immesso un ordine di servizio clienti, è possibile applicare manualmente un codice di urgenza all'intestazione dell'ordine cliente o a una singola riga dell'ordine cliente. Anche in questo caso, il codice può essere utilizzato per l'ordinamento e i report. Talvolta un ordine deve essere gestito con attenzione a causa di un problema con il servizio clienti. In questo caso, è possibile applicare un codice di urgenza specifico all'intestazione o alle righe ordine per aiutare a identificare e ad assegnare una priorità all'ordine durante il processo di evasione.
-

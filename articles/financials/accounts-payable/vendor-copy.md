@@ -5,9 +5,9 @@ author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
-ms.contentlocale: it-it
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302503"
 ---
-
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copiare i fornitori mediante sequenze numeriche condivise
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ La funzionalità è attivata quando si utilizza una sequenza numerica condivisa 
 
 ## <a name="copy-a-vendor"></a>Copiare un fornitore
 
-Per copiare un fornitore, selezionare **Nuovo** nella pagina elenco **Tutti i fornitori** per aprire la pagina **Tutti i fornitori, nuovo record**. Notare che il nuovo ID fornitore non viene assegnato immediatamente. Questo comportamento è diverso dal comportamento nelle versioni precedenti di Microsoft Dynamics 365 for Finance and Operations. Poiché non è ancora stato selezionato il gruppo fornitori, il sistema non può determinare la sequenza numerica corretta da utilizzare. Inoltre, non può determinare se si sta cercando di creare un nuovo fornitore o copiare un fornitore. Di conseguenza, l'ID fornitore non è assegnato fino a quando si seleziona **Salva** nella parte inferiore della pagina.
+Per copiare un fornitore, selezionare **Nuovo** nella pagina elenco **Tutti i fornitori** per aprire la pagina **Tutti i fornitori, nuovo record**. Notare che il nuovo ID fornitore non viene assegnato immediatamente. Questo comportamento è diverso da quello delle versioni precedenti di Microsoft Dynamics 365 for Finance and Operations. Poiché non è ancora stato selezionato il gruppo fornitori, il sistema non può determinare la sequenza numerica corretta da utilizzare. Inoltre, non può determinare se si sta cercando di creare un nuovo fornitore o copiare un fornitore. Di conseguenza, l'ID fornitore non è assegnato fino a quando si seleziona **Salva** nella parte inferiore della pagina.
 
 Se si sta creando un nuovo fornitore, è possibile continuare a compilare tutti i campi come di solito. Una volta terminato e si seleziona **Salva**, si nota che l'ID fornitore è stato assegnato automaticamente. In alternativa, per le sequenze numeriche manuali, si nota che l'ID fornitore manuale è stato utilizzato.
 
@@ -66,4 +65,3 @@ Quando si copia un fornitore, il sistema cerca di salvare le informazioni del nu
 
 1. Viene visualizzata un'opzione **Copia fornitore**. Come impostazione predefinita, questa opzione è impostata su **No**. Per copiare il fornitore nella persona giuridica corrente, impostare l'opzione su **Sì**.
 2. Selezionare **Select**. Viene creato il nuovo fornitore.
-

@@ -1,13 +1,13 @@
 ---
 title: Versioni determinazione costi
-description: "In questo articolo vengono fornite informazioni sulle versioni di determinazione costi, sul modo di gestirle e sui tipi di dati che è possibile includervi. Lo scopo principale è quello di includere i record dei costi per gli articoli, le categorie di costi e le formule di calcolo per i costi indiretti."
+description: In questo articolo vengono fornite informazioni sulle versioni di determinazione costi, sul modo di gestirle e sui tipi di dati che è possibile includervi. Lo scopo principale è quello di includere i record dei costi per gli articoli, le categorie di costi e le formule di calcolo per i costi indiretti.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb8e8193b3312a63042a44cb082a33a196cbc1be
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330151"
 ---
-
 # <a name="costing-versions"></a>Versioni determinazione costi
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Lo scopo principale per cui si abilita la visualizzazione dei dati sui prezzi di
 A tale scopo è necessario definire come prima cosa un gruppo di calcolo DBA contenente un modello di prezzo di costo del prezzo di acquisto dell'articolo, quindi assegnare il gruppo di calcolo DBA agli articoli acquistati È quindi necessario utilizzare un modello di prezzo di costo per il gruppo di calcolo DBA quando si eseguono i calcoli DBA che utilizzano costi pianificati per calcolare i prezzi di vendita degli articoli prodotti. 
 
 I record dei prezzi di acquisto per gli articoli, inoltre, vengono utilizzati come informazioni di riferimento. Cambiando lo stato del record di un prezzo di acquisto di un articolo da **sospeso** ad **attivo** è possibile aggiornare il prezzo di acquisto base, il quale non è tuttavia specifico del sito e può essere sostituito manualmente. Il prezzo di acquisto base dell'articolo funge da prezzo di acquisto predefinito negli ordini fornitore.
-
 
 
 

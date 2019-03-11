@@ -1,13 +1,13 @@
 ---
-title: "Prenotare quantità di scorte"
+title: Prenotare quantità di scorte
 description: In questo argomento vengono descritte le diverse opzioni disponibili per prenotare le scorte.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 89441ee4c799e2d1215fbd82e0490d7168e2aa1b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7c351618f4d710062dd8f369c5319cdce79f7339
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365456"
 ---
-
 # <a name="reserve-inventory-quantities"></a>Prenotare quantità di scorte
 
 [!include [banner](../includes/banner.md)]
@@ -84,4 +83,3 @@ Sono disponibili due opzioni relative alle prenotazioni nella pagina **Parametri
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Criteri di prenotazione scorte nella pagina Parametri di produzione
 
 Il valore del campo **Prenotazione** nella scheda **Generale** della pagina **Parametri di produzione** determina il punto predefinito nel processo di produzione in cui dovranno essere prenotate le scorte. Ad esempio, le scorte possono essere prenotate quando il lavoro viene programmato oppure iniziato.
-

@@ -5,26 +5,25 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: fa8ddf52d34c3662e120509156ab0b343bb4cc16
-ms.contentlocale: it-it
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346113"
 ---
-
 # <a name="vendor-payments-workspace"></a>Area di lavoro pagamenti fornitore
 
 [!include [banner](../includes/banner.md)]
@@ -69,5 +68,4 @@ Nella seguente tabella vengono illustrate le visualizzazioni disponibili in cias
 |         Flusso di lavoro pagamenti          |                                                                                <ul><li>Istanze del flusso di lavoro di pagamento dei fornitori</li><li>Istanze del flusso di lavoro di pagamento dei fornitori per approvatore</li><li>Istanze del flusso di lavoro di pagamento dei fornitori per società</li><li>Giorni impiegati in media nel flusso di lavoro per approvatore</li></ul>                                                                                |
 |    Saldo fornitore/cliente     |                                                                                                                   <ul><li>Saldo fornitore/cliente</li><li>Saldo fornitore/cliente per società</li><li>Dettagli saldo fornitore/cliente</li></ul>                                                                                                                    |
 |    Fatture con sospensione pagamento     |                                                                                         <ul><li>Fatture con sospensione pagamento</li><li>Dettagli fatture con sospensione pagamento</li><li>Fatture con sospensione pagamento per società</li><li>Fatture con sospensione pagamento per gruppo fornitori</li></ul>                                                                                          |
-
 

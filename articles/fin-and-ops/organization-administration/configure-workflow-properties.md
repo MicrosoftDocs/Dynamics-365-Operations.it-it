@@ -1,13 +1,13 @@
 ---
-title: "Configurare le proprietà del flusso di lavoro"
-description: "In questo argomento viene descritto come configurare le proprietà per un flusso di lavoro."
+title: Configurare le proprietà del flusso di lavoro
+description: In questo argomento viene descritto come configurare le proprietà per un flusso di lavoro.
 author: sericks007
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 576ce368b2a8672aa39116eb0cc6e3d3f2a06bb3
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328472"
 ---
-
 # <a name="configure-workflow-properties"></a>Configurare le proprietà del flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Per immettere commenti sulle modifiche apportate al flusso di lavoro, effettuare
 2. Nel campo **Immettere commenti sul flusso di lavoro** immettere i commenti.
 3. Rivedere i commenti. Dopo aver aggiunto i commenti, non sarà più possibile modificarli.
 4. Fare clic su **Aggiungi** per aggiungere commenti all'are **Cronologia commenti**.
-

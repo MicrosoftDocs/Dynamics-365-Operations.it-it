@@ -1,13 +1,13 @@
 ---
 title: Formalizzare i processi aziendali
-description: "Questo argomento spiega come usare la funzionalità Processo aziendale per creare un modello di processo aziendale per processi che devono essere completati nell'organizzazione."
+description: Questo argomento spiega come usare la funzionalità Processo aziendale per creare un modello di processo aziendale per processi che devono essere completati nell'organizzazione.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305059"
 ---
 # <a name="formalize-business-processes"></a>Formalizzare i processi aziendali
 
@@ -74,5 +74,4 @@ Per creare o copiare un modello di processo aziendale o per avviare un processo 
 - **Avvia processo** avvierà il processo aziendale selezionato, assegnerà le attività e calcolerà le date di scadenza.
 
 Per visualizzare i processi attivi e le attività associate spostarsi sull'area di lavoro **Processi aziendali**.
-
 

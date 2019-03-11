@@ -1,13 +1,13 @@
---- 
+---
 title: Gestire il mapping dei modelli di ER in configurazioni di ER separate
-description: "I passaggi seguenti illustrano come un utente assegnato con il ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può gestire mapping di modello ER in configurazioni ER separate."
+description: I passaggi seguenti illustrano come un utente assegnato con il ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può gestire mapping di modello ER in configurazioni ER separate.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349149"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gestire il mapping dei modelli di ER in configurazioni di ER separate
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 I passaggi seguenti illustrano come un utente assegnato con il ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può gestire mapping di modello ER in configurazioni ER separate. In questa guida attività verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Per completare questa guida attività, è necessario prima completare i passaggi della guida attività "ER Creare un provider di configurazione e contrassegnarlo come attivo". 
 
-Poiché le configurazioni ER sono condivise tra le società, è possibile completare questa guida attività utilizzando il set di dati della società scelta. La funzionalità della Guida di attività è disponibile se è stato installato uno dei seguenti hotfix: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 per Microsoft Dynamics AX 7.0 o https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 per Dynamics 365 for Operations.
+Poiché le configurazioni ER sono condivise tra le società, è possibile completare questa guida attività utilizzando il set di dati della società scelta. La funzionalità della Guida di attività è disponibile se è stato installato uno dei seguenti hotfix: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 per Dynamics AX 7.0 o https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 per Dynamics 365 for Operations.
 
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
     * Verificare che il provider di configurazione per la società di esempio 'Litware, Inc.' sia disponibile e contrassegnato come attivo. Se il provider di configurazione non viene visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo" nella guida attività.   
@@ -70,7 +70,7 @@ Poiché le configurazioni ER sono condivise tra le società, è possibile comple
 6. Fare clic su Progettazione.
     * Si noti che la configurazione di mapping di modello creata contiene un nuovo mapping vuoto con lo stesso nome della configurazione creata. Tenere presente che quando una configurazione di modelli padre selezionata contiene mapping di modello, questi ultimi verranno copiati in una nuova configurazione di mapping di modello.   
 7. Fare clic su Progettazione.
-8. Nella struttura selezionare "Dynamics 365 for Operations\Table".
+8. Nella struttura selezionare 'Dynamics 365 for Operations\Tabella'.
 9. Fare clic su Aggiungi radice.
 10. Nel campo Nome digitare "Società".
     * Società  
@@ -123,7 +123,7 @@ Poiché le configurazioni ER sono condivise tra le società, è possibile comple
 5. Fare clic su Crea configurazione.
 6. Fare clic su Progettazione.
 7. Fare clic su Progettazione.
-8. Nella struttura selezionare "Dynamics 365 for Operations\Table".
+8. Nella struttura selezionare 'Dynamics 365 for Operations\Tabella'.
 9. Fare clic su Aggiungi radice.
 10. Nel campo Nome digitare "Società".
     * Società  
@@ -161,5 +161,4 @@ Poiché le configurazioni ER sono condivise tra le società, è possibile comple
 6. Fare clic su Esegui.
 7. Fare clic su OK.
     * Si noti che la configurazione del mapping di modello predefinita viene utilizzata da questa configurazione di formato per la generazione di documenti elettronici (l'output creato conterrà il codice della società).  
-
 

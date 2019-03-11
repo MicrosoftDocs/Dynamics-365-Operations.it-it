@@ -1,13 +1,13 @@
 ---
 title: Creare dimensioni e importare i membri di dimensione
-description: "La contabilità industriale è un modulo indipendente che necessita dei dati master di altri moduli."
+description: La contabilità industriale è un modulo indipendente che necessita dei dati master di altri moduli.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d48ba0a0b80d251e107baa0ceeb66d8e328f13dc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0012761b3aa8ce391b956329a9e249e5c9339db7
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342318"
 ---
-
 # <a name="create-dimensions-and-import-dimension-members"></a>Creare dimensioni e importare i membri di dimensione
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Dopo l'importazione dei dati nella contabilità industriale, è possibile utiliz
 -  [Eseguire il mapping dei membri di dimensione elemento di costo a un set comune di membri di dimensione](map-cost-elements-dimension-members.md)
 -  [Eseguire il mapping di una dimensione elemento di costo (guida attività)](./tasks/map-cost-element-dimension.md)
 -  [Membri di dimensione statistica e modelli provider misure statistiche](statistical-measure-provider-template.md)
-
 
 
 

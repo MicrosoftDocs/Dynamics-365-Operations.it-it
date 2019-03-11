@@ -5,9 +5,9 @@ author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2ec0890963b2b01407acac8003453faf370894b4
-ms.openlocfilehash: 1c23421ddfda8c5f6fa27a31831a00ead6094db9
-ms.contentlocale: it-it
-ms.lasthandoff: 04/11/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364099"
 ---
-
 [!include[banner](../includes/banner.md)]
 
 # <a name="set-up-cluster-picking"></a>Imposta prelievo del cluster
@@ -37,7 +36,7 @@ Dopo aver emesso gli ordini di lavoro al magazzino, il lavoratore può utilizzar
 
 Se necessario, un lavoratore può passare un cluster a un altro lavoratore. Tale operazione modifica lo stato in Superato. Quando il lavoratore utilizza un dispositivo mobile per indicare il completamento del prelievo e dello stoccaggio, è necessario confermare la spedizione o il carico nel client di Dynamics 365 for Finance and Operations.
 
-## <a name="set-up-cluster-picking"></a>Imposta prelievo del cluster
+## <a name="set-up-cluster-picking"></a>Impostare prelievo del cluster
 
 Per abilitare il prelievo del cluster, è necessario impostare quanto segue:
 
@@ -81,4 +80,3 @@ Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenzi
 1.  Su una voce di menu del dispositivo mobile, aprire il modulo di impostazione per la conferma di lavoro: **Gestione magazzino** \> **Gestione magazzino** \> **Impostazione** \> **Dispositivo mobile** \> **Voci di menu del dispositivo mobile**.
 
 2.  Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**. L'opzione **Conferma prodotto** consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione.
-

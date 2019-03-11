@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00015 Registrazione dell'ID IVA fornitore
 description: In questa procedura viene descritto come aggiungere gli ID registrazione IVA e una partita IVA a un conto fornitore.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, LogisticsPostalAddress, RegNumTaxIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: d9788a35e768a4a289742e9cd864b3ca185a0407
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370996"
 ---
 # <a name="eur-00015-registration-of-vendor-vat-id"></a>EUR-00015 Registrazione dell'ID IVA fornitore
 
@@ -63,5 +63,4 @@ Prima di completare questa procedura è necessario impostare gli ID IVA. Questa 
 24. Fare clic su Modifica.
 25. Nel campo Partita IVA, immettere o selezionare un valore.
 26. Fare clic su Salva.
-
 

@@ -1,13 +1,13 @@
 ---
 title: Analisi del costo ordine di produzione
-description: "Questo articolo fornisce informazioni sull'analisi dei costi che è possibile effettuare per gli ordini di produzione completati e correnti. È possibile analizzare i costi stimati ed effettivi utilizzando la pagina Calcolo dei prezzi o il report Stima e determinazione dei costi. Vengono visualizzate informazioni sui costi e sulle quantità effettivi e stimati di ogni articolo componente, sull'operazione di ciclo di lavorazione e sul costo indiretto."
+description: Questo articolo fornisce informazioni sull'analisi dei costi che è possibile effettuare per gli ordini di produzione completati e correnti. È possibile analizzare i costi stimati ed effettivi utilizzando la pagina Calcolo dei prezzi o il report Stima e determinazione dei costi. Vengono visualizzate informazioni sui costi e sulle quantità effettivi e stimati di ogni articolo componente, sull'operazione di ciclo di lavorazione e sul costo indiretto.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f027d6521d5f57a7e2d2cac1bed8dc08ae9f20f1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353565"
 ---
-
 # <a name="production-order-cost-analysis"></a>Analisi del costo ordine di produzione
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Le informazioni relative a ciascun tipo di transazione vengono fornite in report
 --------
 
 [Origini comuni degli scostamenti di produzione](common-sources-of-production-variances.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Panoramica fedeltà"
-description: "In questo argomento vengono descritte le funzionalità del programma fedeltà di Microsoft Dynamics 365 for Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà."
+title: Panoramica fedeltà
+description: In questo argomento vengono descritte le funzionalità del programma fedeltà di Microsoft Dynamics 365 for Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
 author: scott-tucker
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 01/08/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 09d4e46694e89b648981352f64da4a43ab1522e1
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320123"
 ---
-
 # <a name="loyalty-overview"></a>Panoramica fedeltà
 
 [!include [banner](includes/banner.md)]
 
-I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti premiandoli per le loro interazioni con il brand del rivenditore. In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili in tutte le persone giuridiche per qualsiasi canale di vendita al dettaglio. In questo argomento vengono descritte le funzionalità del programma fedeltà di Microsoft Dynamics 365 for Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
+I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti premiandoli per le loro interazioni con il brand del rivenditore. In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili tra le persone giuridiche in qualsiasi canale di vendita al dettaglio. In questo argomento vengono descritte le funzionalità del programma fedeltà di Microsoft Dynamics 365 for Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
 
 È possibile impostare il programma fedeltà in modo che comprenda le seguenti opzioni.
 
@@ -43,7 +42,7 @@ I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti pr
 
 ## <a name="setting-up-loyalty-programs"></a>Impostazione dei programmi fedeltà
 
-È necessario impostare più componenti per abilitare la funzionalità del programma fedeltà in Dynamics 365 for Retail. Nel diagramma riportato di seguito vengono illustrati i componenti del programma fedeltà e viene indicato in quale modo fanno riferimento l'uno all'altro.
+È necessario impostare più componenti per abilitare la funzionalità di fedeltà in Dynamics 365 for Retail. Nel diagramma riportato di seguito vengono illustrati i componenti del programma fedeltà e viene indicato in quale modo fanno riferimento l'uno all'altro.
 
 ![Flusso del processo di impostazione del programma fedeltà](./media/loyaltyprocess.gif "Componenti del programma fedeltà e come sono correlati tra loro")
 
@@ -70,7 +69,7 @@ Nella seguente tabella sono descritti i processi che devono essere eseguiti per 
 
 | Nome processo                         | Descrizione | Nome pagina |
 |--------------------------------------|-------------|-----------|
-| 1050 (informazioni fedeltà)           | Eseguire questo processo per inviare i dati del programma fedeltà da Dynamics 365 for Retail ai punti vendita al dettaglio. È una buona idea programmare l'esecuzione del processo di frequente, in modo che i dati del programma fedeltà siano trasmessi a tutti gli archivi. | Programmazione della distribuzione |
+| 1050 (informazioni fedeltà)           | Eseguire questo processo per inviare i dati di configurazione fedeltà da Dynamics 365 for Retail ai punti vendita al dettaglio. È una buona idea programmare l'esecuzione del processo di frequente, in modo che i dati del programma fedeltà siano trasmessi a tutti gli archivi. | Programmazione della distribuzione |
 | Elabora programmi fedeltà              | Eseguire questo processo per associare gli schemi del programma fedeltà ai canali di vendita al dettaglio a cui lo schema del programma fedeltà è assegnato. Questo processo può essere programmato per l'esecuzione come processo batch. È necessario eseguire questo processo se si modificano i dati di configurazione del programma fedeltà, ad esempio schemi del programma fedeltà, programmi fedeltà o i punti di ricompensa del programma fedeltà. | Elabora programmi fedeltà |
 | Elabora transazioni fedeltà offline | Eseguire questo processo per aggiornare le carte fedeltà in modo che includano le transazioni elaborate offline. Questo processo si applica solo se la casella di controllo **Guadagna offline** è selezionata nella pagina **Parametri condivisi di vendita al dettaglio**, in modo che le ricompense possano essere guadagnate offline. | Elabora transazioni fedeltà offline |
 | Aggiorna livelli carta fedeltà            | Eseguire questo processo per valutare l'attività di acquisizione del cliente rispetto alle regole di livello per un programma fedeltà e aggiornare lo stato del livello del cliente. Questo processo è necessario solo se si modificano le regole di livello nei programmi fedeltà e si desidera applicare le regole aggiornate con effetto retroattivo alle carte fedeltà già emesse. Questo processo può essere eseguito come processo batch o per le carte singole. | Aggiorna livelli carta fedeltà |
@@ -118,12 +117,29 @@ La vendita al dettaglio è una nuova funzionalità del programma fedeltà nell'a
 
     ![Punti in scadenza](./media/Expiring%20points.png "Visualizzare i punti in scadenza")
     
-## <a name="upcoming-enhancements"></a>Prossimi miglioramenti
 
-Le funzionalità seguenti saranno disponibili nei prossimi aggiornamenti mensili di Dynamics 365 for Retail.
-    
-- I clienti vogliono la possibilità di visualizzare i relativi dettagli del saldo del programma fedeltà sui canali per il consumatore. Analogamente, per i cassieri è importante visualizzare lo storico dei clienti dei punti del programma fedeltà in MPOS/CPOS per rispondere rapidamente a tutte le query del cliente. In una prossima versione mensile i clienti e i cassieri potranno visualizzare i dettagli dello storico del programma fedeltà.
-- Molti rivenditori possono assegnare i punti programma fedeltà basati esclusivamente sulle transazioni di vendita, ma i rivenditori più attenti ai clienti li desiderano ricompensare per qualsiasi attività di engagement con il loro brand. Ad esempio, desiderano offrire premi per il completamento di un sondaggio online, la visita a un punto vendita, avere messo mi piace ai rivenditori su Facebook, avere twittato sul rivenditore e altro ancora. In futuro aggiungeremo la possibilità di assegnare punti del programma fedeltà per qualsiasi attività dei clienti. A tale scopo, il rivenditore può definire un "altro tipo di attività" e le regole di ricavo per queste attività. Verrà esposta anche un'API del server di vendita al dettaglio che può essere chiamata quando viene identificata un'attività che utilizzerà la regola di ricavo per assegnare i punti del programma fedeltà richiesti.
-- Per consentire una vera esperienza di vendita al dettaglio su tutti i canali, ai clienti verrà consentito di guadagnare e riscattare i punti del programma fedeltà in tutti i canali.
-- La spedizione gratuita o scontata è uno dei fattori che motiva particolarmente i clienti ad acquistare online. Per consentire ai rivenditori di impostare le promozioni di spedizione, verrà introdotto un nuovo tipo di promozione in cui il rivenditore può definire le soglie, che una volta raggiunte, qualificheranno i clienti per la spedizione scontata o gratuita.
+- Nella versione 8.1.3, l'opzione "pagamento con programma di fedeltà" è abilitata nel canale del servizio clienti. Per abilitare questa opzione, creare un tipo di metodo di pagamento della carta fedeltà e associarlo al servizio clienti. 
 
+>[!NOTE]
+> Poiché i pagamenti del programma fedeltà sono impostati come pagamenti con carta, sarà necessario selezionare una carta nella pagina **Impostazione carta**. 
+
+![Impostazione della carta fedeltà](./media/LoyaltyCardSetup.png "Impostazione della carta fedeltà")
+
+Dopo tale impostazione, i clienti possono riscattare i punti fedeltà nel servizio clienti. Inoltre, stiamo ottimizzando l'esperienza utente per visualizzare l'importo coperto dai punti fedeltà affinché gli utenti del servizio clienti non debbano accedere a un'altra schermata per visualizzare il saldo del programma fedeltà.
+
+- Molti rivenditori assegnano punti fedeltà esclusivamente in base alle transazioni di vendita, ma i rivenditori più attenti ai clienti intendono ricompensarli per qualsiasi attività di engagement con il loro brand. Ad esempio, vogliono ricompensarli per la partecipazione a un sondaggio online, la visita a un punto vendita, l'aver messo mi piace ai rivenditori su Facebook o aver twittato sul rivenditore. A tale scopo, il rivenditore può definire un numero qualsiasi di "altri tipi di attività" e le regole di acquisizione corrispondenti per queste attività. Esiste inoltre un'API Retail Server esposta, "PostNonTransactionalActivityLoyaltyPoints", che può essere chiamata quando viene identificata un'attività che deve ricompensare il cliente con punti fedeltà. Questa API comporta l'ID carta fedeltà, l'ID canale e l'ID altro tipo di attività, in modo da poter individuare il cliente che deve essere ricompensato e identificare la regola di acquisizione dell'attività. 
+
+    L'ottenimento di punti fedeltà per attività non relative a transazioni include in genere due fasi principali:
+    - La realizzazione di un'attività che deve essere ricompensata.
+    - L'attribuzione dei punti appropriati.
+
+    La prima fase è esterna a Microsoft Dynamics 365 for Retail, ad esempio l'invio di tweet in relazione al brand o il gradimento del brand su Facebook. Dopo il riconoscimento di tale attività, i rivenditori possono chiamare l'API menzionata precedentemente e attribuire punti fedeltà in tempo reale. In tali scenari, non è necessario un'operazione di verifica in quanto un'attività è stata eseguita e i punti corrispondenti devono essere attribuiti. Tuttavia, vi sono scenari in cui il rivenditore intende esaminare i record prima di attribuire i punti. Ad esempio, il rivenditore ha organizzato un workshop nel punto vendita al quale i clienti si iscrivono sul sito Web e-commerce o tramite un'applicazione di registrazione. Tuttavia, solo i clienti effettivamente presenti otterranno punti fedeltà. Per tali scenari, nella versione 10.0, abbiamo introdotto un'entità di dati denominata **Righe altro tipo di attività fedeltà vendita al dettaglio**. Questa entità consente ai rivenditori di utilizzare il Framework di importazione/esportazione dati o l'API OData per registrare le attività che devono attribuire punti fedeltà ai clienti. L'entità di dati archivia le attività in un giornale denominato **Righe programma fedeltà per altre attività**, che può essere utilizzato per fini di verifica e modifica. Dopo che i dati sono stati esaminati, l'utente IT può registrare manualmente le righe dell'attività o eseguire un processo denominato **Elaborare altro tipo di attività per righe programma fedeltà**, che registrerà tutte le righe delle attività non registrate e attribuirà i punti ai clienti in base alle regole di acquisizione. Nello scenario descritto sopra, l'applicazione di registrazione all'evento chiamerebbe l'API OData per inviare le informazioni relative ai clienti a Dynamics 365 for Retail. Tuttavia, l'utente IT può registrare le righe attività solo per i clienti effettivamente presenti al workshop ed eliminare le righe attività relative agli altri clienti. 
+
+> [!NOTE]
+> Attualmente, il sistema forza gli utenti a impostare una sequenza numerica per "altri tipi di attività", ma ciò non sarà necessario nelle versioni future. Per impostare una sequenza numerica, andare a **Parametri condivisi di vendita al dettaglio > Sequenze numeriche** e selezionare una sequenza numerica per **ID altro tipo di attività fedeltà**.
+
+- Per fornire un servizio clienti ottimale e risolvere efficacemente le query dei clienti, è importante per i cassieri avere accesso al profilo completo di ogni cliente. Nella versione 10.0, i cassieri potranno visualizzare i dettagli dello storico del programma fedeltà insieme al programma fedeltà e ad altre informazioni nel POS.
+- La spedizione gratuita o scontata è uno dei fattori che motiva particolarmente i clienti ad acquistare online. Per consentire ai rivenditori di impostare promozioni di spedizione, nella versione 10.0 è stato introdotto un nuovo tipo di promozione denominata "Sconto di soglia spedizione", in cui il rivenditore può definire le soglie, che una volta raggiunte, qualificheranno i clienti per la spedizione scontata o gratuita. Ad esempio, spendere $35 per una "spedizione in due giorni" gratuita per tutti i clienti del programma di fedeltà. Tali sconti vengono applicati solo alle spese di spedizione applicate agli ordini. Poiché un rivenditore può impostare più tipi di spese, ad esempio gestione o installazione, il rivenditore deve specificare quali spese sono considerate spese di spedizione. Questa configurazione è denominata "Codice spese di spedizione" ed è disponibile nella scheda **Ordini cliente** della pagina **Parametri di vendita al dettaglio**. Questo sconto dispone di tutte le funzionalità di sconto standard esistenti, come consentire al rivenditore di limitare gli sconti con coupon di modo che solo i clienti con coupon possano usufruire di tali sconti. Inoltre, tali sconti utilizzano la funzionalità Gruppi di prezzi per determinarne l'idoneità di tali sconti. Ad esempio, il rivenditore può scegliere di rendere accessibili queste promozioni solo nei canali online e/o attraverso canali per determinati gruppi di clienti ad esempio i clienti del programma fedeltà. Quando le righe di ordine con la modalità di consegna specificata soddisfano la soglia definita, lo sconto di spedizione viene applicato e riduce le spese di spedizione in base allo sconto impostato. 
+
+> [!NOTE]
+> A differenza di altri sconti periodici come sconti quantità, semplici, gamma e di soglia, lo sconto di spedizione non crea righe di sconto; le modifiche alla spese di spedizione devono essere eseguite direttamente.

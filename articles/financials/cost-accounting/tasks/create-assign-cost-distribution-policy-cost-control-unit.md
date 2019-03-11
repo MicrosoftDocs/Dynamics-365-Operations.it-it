@@ -1,13 +1,13 @@
---- 
-title: "Creare e assegnare i criteri di distribuzione costi a un'unità di controllo costi"
+---
+title: Creare e assegnare i criteri di distribuzione costi a un'unità di controllo costi
 description: Le regole di distribuzione costi vengono utilizzate per distribuire i costi conteggiati finanziariamente in un centro di costo collettivo.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 46ba6322f2cea7828033c214502accdf73f073be
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbd44816fc2f2569dd477fc21f59418a575bb835
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308462"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Creare e assegnare i criteri di distribuzione costi a un'unità di controllo costi
 
@@ -71,5 +71,4 @@ Le regole di distribuzione costi vengono utilizzate per distribuire i costi cont
     * Selezionare il 1° settembre nell'anno fiscale valido.  
 5. Nel campo Unità di controllo costi immettere o selezionare un valore.
 6. Fare clic su Salva.
-
 

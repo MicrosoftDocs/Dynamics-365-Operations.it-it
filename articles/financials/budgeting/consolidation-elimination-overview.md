@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c972b1a0b9be61875c17a05ce3ec8fce1ac5a4e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4c966badd87b80e203f475cc632f5388ad1d8e5
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345722"
 ---
-
 # <a name="consolidation-and-elimination-overview"></a>Panoramica su eliminazione e consolidamento
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ Quando si consolidano i dati, i risultati finanziari di più società affiliate 
 -   **Consolida online** Questa opzione consolida i saldi quotidiani in base ai conti e alle dimensioni selezionati e li archivia in una società di consolidamento.
 -   **Report finanziari** Questa opzione abilita il consolidamento delle transazioni e dei saldi e può essere generata in qualsiasi momento. Più livelli di gerarchie possono essere create e più valute di dichiarazione più possono essere visualizzate.
 -   **Consolida con importazione** Questa opzione importa i saldi in una società di consolidamento.
--   **Esporta saldi società** Questa opzione fornisce un file di esportazione dei saldi della società. Il file può quindi essere importato in altre istanze o sistemi. I report finanziari possono essere utilizzati per esportare i saldi in un file di Microsoft Excel.
+-   **Esporta saldi società** Questa opzione fornisce un file di esportazione dei saldi della società. Il file può quindi essere importato in altre istanze o sistemi. I report finanziari possono essere utilizzati per esportare i saldi in un file di Microsoft Excel.
 
 Le eliminazioni possono essere dichiarate in più modi:
 
@@ -89,6 +88,5 @@ Utilizzando l'opzione **Esporta saldi società** per esportare da un'istanza e q
 
 
 Per ulteriori informazioni, vedere [Rivalutazione della valuta in una società di consolidamento](../general-ledger/currency-revaluation-consolidation-company.md).
-
 
 

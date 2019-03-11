@@ -1,13 +1,13 @@
 ---
 title: Allocare tempo ai processi in un'aggregazione di processi
-description: "In Esecuzione produzione, è possibile aggregare i processi. È quindi possibile avviare più processi contemporaneamente nella pagina Elenco processi."
+description: In Esecuzione produzione, è possibile aggregare i processi. È quindi possibile avviare più processi contemporaneamente nella pagina Elenco processi.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33d6bab9beb28d18e2094d7fb5e670e9425aac39
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a5204288ce3eaabb605f136ea788d235f408f349
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329116"
 ---
-
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Allocare tempo ai processi in un'aggregazione di processi
 
 [!include [banner](../includes/banner.md)]
@@ -109,7 +108,6 @@ Si supponga che un lavoratore abbia eseguito tre processi con una retribuzione o
 | Processo 3 | (3,33 ÷ 5) × USD 12,00                 | USD 8,00                | 5 ore        | USD 40,00         |
 
 Il costo orario corretto e il tempo necessario per il processo vengono registrati in un giornale di registrazione produzione. **Nota:** se si seleziona l'opzione **Categoria costi** nella scheda **Generale** della pagina **Impostazioni predefinite ordini di produzione**, l'ora effettiva per ciascun processo viene trasferita in un giornale di registrazione produzione, in cui il costo è applicato alla categoria di costi del processo specifico.
-
 
 
 

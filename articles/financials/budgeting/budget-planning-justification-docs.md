@@ -1,13 +1,13 @@
 ---
 title: Documenti di motivazione per la pianificazione del budget
-description: "I documenti di motivazione forniscono una descrizione per chi richiede un budget per spiegare perché un budget specifico è necessario."
+description: I documenti di motivazione forniscono una descrizione per chi richiede un budget per spiegare perché un budget specifico è necessario.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333578"
 ---
-
 # <a name="budget-planning-justification-documents"></a>Documenti di motivazione per la pianificazione del budget
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Un modello di piano di budget viene creato dal responsabile budget in Microsoft 
 
 1.  Fare clic su **Progetto** nel componente aggiuntivo di Office di Microsoft Dynamics Office dopo aver effettuato l'accesso.
 2.  Per informazioni sull'intestazione, utilizzare il pulsante **Aggiungi campi**.
-3.  Selezionare l'origine dati dell'entità di BudgetPlanJustification, quindi fare clic su **Avanti**. **Nota:** l'entità è necessaria per qualsiasi documento di motivazione. È possibile utilizzare altre entità ma il caricamento di nuovo su Microsoft Dynamics 365 for Finance and Operations avrà esito negativo se questa entità non viene inclusa.
+3.  Selezionare l'origine dati dell'entità di BudgetPlanJustification, quindi fare clic su **Avanti**. **Nota:** l'entità è necessaria per qualsiasi documento di motivazione. È possibile utilizzare altre entità ma il caricamento di nuovo su Microsoft Dynamics 365 for Finance and Operations avrà esito negativo se questa entità non verrà inclusa.
 4.  Aggiungere i valori e le etichette BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter e DocumentNumber nel documento Word. **Nota:** è possibile utilizzare le proprie etichette personalizzate anziché le etichette standard, se necessario.
 5.  Fare clic su **Fine** per completare la sezione dell'intestazione.
 6.  Per il dettaglio del livello di riga degli importi del piano di budget, fare clic su **Aggiungi tabella**.
@@ -69,7 +68,6 @@ Un modello di piano di budget viene creato dal responsabile budget in Microsoft 
 1.  In Finance and Operations, creare un nuovo piano di budget o aprire un piano di budget esistente.
 2.  Dal menu a discesa **Motivazione**, selezionare **Crea nuova motivazione**.
 3.  Dopo aver inserito i dettagli, selezionare per caricare il documento personalizzato dal menu a discesa **Motivazione**.
-
 
 
 

@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338592"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>Home page di approvvigionamento
 
 [!include [banner](../includes/banner.md)]
@@ -56,9 +55,9 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 -   [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md)
 -   [Impostare e gestire la collaborazione fornitore](set-up-maintain-vendor-collaboration.md)
--   [Script dimostrativo per inventario di spedizione in entrata per Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations) (white paper)
+-   [Script dimostrativo per inventario di spedizione in entrata per Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
 -   [Verificare l'inventario spedizione tramite la collaborazione fornitore](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Collaborazione con i fornitori mediante il portale fornitori](collaborate-vendors-vendor-portal.md)  (versioni di febbraio 2016 e maggio 2016 di Dynamics AX solo)
+-   [Collaborazione con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md) (versioni di febbraio 2016 e maggio 2016 di Dynamics AX solo)
 -   [Configurazione della sicurezza per gli utenti del portale fornitori](configure-security-vendor-portal-users.md) (solo versioni 2016 e maggio 2016 di Finance and Operations)
 -   [Area di lavoro mobile per la collaborazione fornitore per l'app Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
@@ -102,7 +101,6 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 -   [Definizione di flussi di lavoro di processi aziendali per le richieste di acquisto](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (white paper)
 -   [Criteri di acquisto](purchase-policies.md)
 -   [Creare criteri di acquisto](tasks/create-purchasing-policies.md)
-
 
 
 

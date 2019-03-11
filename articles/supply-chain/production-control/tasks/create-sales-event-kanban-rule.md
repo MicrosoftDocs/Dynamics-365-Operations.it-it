@@ -1,13 +1,13 @@
---- 
+---
 title: Creare una regola kanban eventi di vendita
-description: "Questa procedura è incentrata sull'impostazione necessaria per creare una regola kanban che è attivata durante la creazione di un ordine cliente."
+description: Questa procedura è incentrata sull'impostazione necessaria per creare una regola kanban che è attivata durante la creazione di un ordine cliente.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d2bee6e81acd029406c95237f0b4ba4ab2565ea1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f1f66157b2e74ad1b490e10112cbc121ac9826fb
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342019"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Creare una regola kanban eventi di vendita
 
@@ -73,5 +73,4 @@ Questa procedura è incentrata sull'impostazione necessaria per creare una regol
 1. Fare clic su Prodotto e fornitura.
 2. Fare clic su Visualizza struttura di pegging.
     * Si noti che viene creato un kanban con la stessa quantità della riga di vendita. È inoltre possibile visualizzare le uscite materiali necessarie per la produzione di L0050. Si tratta dell'ultimo passaggio di questa procedura.  
-
 

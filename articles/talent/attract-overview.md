@@ -1,13 +1,13 @@
 ---
-title: "Funzionalità e capacità di Attract"
-description: "In questo argomento vengono descritte le funzionalità fornite da Attract per gestire il processo di assunzione di nuovi talenti."
+title: Funzionalità e capacità di Attract
+description: In questo argomento vengono descritte le funzionalità fornite da Attract per gestire il processo di assunzione di nuovi talenti.
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305002"
 ---
 # <a name="attract-features-and-capabilities"></a>Funzionalità e capacità di Attract
 
@@ -35,7 +35,7 @@ In questo argomento vengono descritte le funzionalità che Attract fornisce.
 ## <a name="attract-dashboard"></a>Dashboard di Attract
 Nel dashboard, i membri del team di assunzione possono visualizzare i dettagli delle mansioni a cui partecipano. Nel dashboard inoltre un responsabile assunzioni o un selezionatore può creare nuove mansioni in Attract, creandole singolarmente oppure importarne alcune contemporaneamente da un foglio di calcolo di Microsoft Excel.
 
-## <a name="jobs"></a>Mansioni
+## <a name="jobs"></a>Lavori
 Nella pagina **Mansione**, è possibile visualizzare e modificare dettagli come la descrizione e l'ubicazione della posizione. Nella pagina **Mansione** è inoltre possibile definire il team di assunzione nonché aggiungere o modificare i selezionatori e i responsabili dei colloqui del team. Nuovi candidati possono inoltre essere aggiunti nella pagina **Mansione**.
 
 ## <a name="candidates"></a>Candidati
@@ -46,4 +46,3 @@ Attract fornisce un processo di assunzione predefinito che contiene quattro fasi
 
 ## <a name="candidate-app"></a>App candidato
 Nel momento in cui i candidati vengono aggiunti a una posizione aperta, ricevono un messaggio di posta elettronica con un collegamento per acquisire l'app Web. L'app fornisce dettagli relativi alla posizione ed è usata per comunicare con il team di assunzione. I candidati possono usarla anche per indicare la loro disponibilità per i colloqui.
-

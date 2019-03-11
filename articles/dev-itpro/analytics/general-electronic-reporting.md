@@ -5,9 +5,9 @@ author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: it-it
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310808"
 ---
-
 # <a name="electronic-reporting-er"></a>Creazione di report elettronici (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ER attualmente supporta i formati di foglio di lavoro TEXT, XML, documento di Mi
 ## <a name="capabilities"></a>Capacità
 Il motore ER presenta le seguenti funzionalità:
 
-- Rappresenta un unico strumento condiviso per la creazione di report elettronici in domini diversi e sostituisce più di 20 motori diversi preposti alla creazione di report elettronici per Microsoft Dynamics 365 for Finance and Operations.
+- Rappresenta un unico strumento condiviso per la creazione di report elettronici in diversi domini e sostituisce più di 20 differenti motori impiegati in vari tipi di creazione di report elettronici per Microsoft Dynamics 365 for Finance and Operations.
 - Isola il formato di un report dall'attuale implementazione di Finance and Operations. In altre parole, il formato è applicabile a versioni diverse di Finance and Operations.
 - Supporta la creazione di un formato personalizzato basato su un formato originale. Include inoltre funzionalità per aggiornare automaticamente il formato personalizzato quando vengono apportate modifiche al formato originale a causa dei requisiti di localizzazione/personalizzazione.
 - Diventa lo strumento standard principale per il supporto dei requisiti di localizzazione nella creazione di report elettronici, sia per Microsoft che per i partner Microsoft.
@@ -381,4 +380,3 @@ ER consente di adottare automaticamente le modifiche alla versione più recente 
 [Requisiti di localizzazione: creare una configurazione ER](electronic-reporting-configuration.md)
 
 [Gestire il ciclo di vita delle configurazioni dei report elettronici](general-electronic-reporting-manage-configuration-lifecycle.md)
-

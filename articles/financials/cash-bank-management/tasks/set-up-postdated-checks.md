@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare gli assegni postdatati
 description: In questo argomento viene illustrato come specificare se registrare gli inserimenti nel giornale per gli assegni postdatati e quali giornali di registrazione utilizzare per cancellare le voci e i pagamenti fornitore.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e4b18ebe1388998b45e5ef38318b0ade9153f7c8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d83713f9d54b396a10894995024ac1c8dd47a6f1
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342617"
 ---
 # <a name="set-up-postdated-checks"></a>Impostare gli assegni postdatati
 
@@ -64,5 +64,4 @@ Il ruolo di questa procedura è Tesoriere. Questa procedura utilizza la società
 24. Nel campo Conto pagamenti specificare i valori desiderati.
     * Selezionare il conto bancario utilizzato per detrarre l'importo della fattura.  
 25. Chiudere la pagina.
-
 

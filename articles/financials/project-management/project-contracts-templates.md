@@ -1,13 +1,13 @@
 ---
 title: Sincronizzare i contratti di progetto e progetti direttamente da Project Service Automation a Finance and Operations
-description: "Questo argomento descrive il modello e le attività sottostanti che vengono utilizzati per sincronizzare i contratti di progetto e i progetti direttamente da Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 for Finance and Operations."
+description: Questo argomento descrive il modello e le attività sottostanti che vengono utilizzati per sincronizzare i contratti di progetto e i progetti direttamente da Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: it-it
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312119"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizzare i contratti di progetto e progetti direttamente da Project Service Automation a Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive il modello e le attività sottostanti che vengono utilizzati per sincronizzare i contratti di progetto e i progetti direttamente da Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 for Finance and Operations.
+Questo argomento descrive il modello e le attività sottostanti che vengono utilizzati per sincronizzare i contratti di progetto e i progetti direttamente da Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE] 
 > Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, è necessario installare KB 4074835.
@@ -37,7 +36,7 @@ Questo argomento descrive il modello e le attività sottostanti che vengono util
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Flusso di dati per Project Service Automation verso Finance and Operations
 
 > [!NOTE]
-> Prima di poter utilizzare la soluzione di integrazione di Project Service Automation con Finance and Operations, è consigliabile acquisire familiarità con la funzionalità Integrazione dati di Microsoft Dynamics 365.
+> Prima di poter utilizzare la soluzione di integrazione Project Service Automation in Finance and Operations, è consigliabile acquisire familiarità con la funzionalità Integrazione dati di Microsoft Dynamics 365.
 
 La soluzione di integrazione di Project Service Automation in Finance and Operations utilizza la funzionalità di integrazione dei dati per sincronizzare i dati tra istanze di Project Service Automation e Finance and Operations. Il modello di integrazione disponibile con la funzionalità Integrazione dati abilita il flusso di dati su progetti, contratti di progetto, righe di contratto di progetto e punti cardine delle righe di contratto di progetto da Project Service Automation a Finance and Operations.
 
@@ -135,4 +134,3 @@ Nelle figure seguenti vengono mostrati esempi dei mapping delle attività di mod
 [![Mapping del modello](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![Mapping del modello](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

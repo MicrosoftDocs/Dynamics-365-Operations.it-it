@@ -1,13 +1,13 @@
 ---
-title: "Novità o modifiche introdotte in Dynamics AX versione applicazione 7.0.1 (maggio 2016)"
-description: "Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynamics AX versione applicazione 7.0.1. Questa versione è stata rilasciata nel maggio 2016 e ha numero di build 7.0.1265.23014."
+title: Novità o modifiche introdotte in Dynamics AX versione applicazione 7.0.1 (maggio 2016)
+description: Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynamics AX versione applicazione 7.0.1. Questa versione è stata rilasciata nel maggio 2016 e ha numero di build 7.0.1265.23014.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314511"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novità o modifiche introdotte in Dynamics AX versione applicazione 7.0.1 (maggio 2016)
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynami
 |------------------|------------------------|
 | Utilizzare il browser Google Chrome. | I rivenditori possono ora avviare il POS cloud dal browser Chrome e possono utilizzare tutte le funzionalità disponibili nella versione Microsoft Edge e Internet Explorer di POS cloud. |
 
-## <a name="financial-reporting"></a>Report finanziari
+## <a name="financial-reporting"></a>Creazione di report finanziari
 
 | Operazioni che è possibile effettuare | Perché questo è importante? |
 |------------------|------------------------|
@@ -107,4 +106,3 @@ Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynami
 [Novità o modifiche](whats-new-changed.md)
 
 [Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
-

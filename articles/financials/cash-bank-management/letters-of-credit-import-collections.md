@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323044"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>Lettere di credito e pagamenti all'importazione
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Una lettera di credito può essere **revocabile** o **irrevocabile**. La natura 
 Un pagamento all'importazione è un contratto tra la banca e l'esportatore (il venditore) in cui la banca accetta la consegna della documentazione di spedizione all'importatore internazionale (l'acquirente). La banca deve consegnare la documentazione di spedizione al ricevimento del pagamento per le merci esportate in contanti o al ricevimento di una tratta firmata a garanzia del pagamento. 
 
 Un pagamento all'importazione aiuta a garantire che il venditore riceva il pagamento quando l'acquirente riceve i documenti di spedizione per accettare la consegna delle merci importate.
-
 
 
 

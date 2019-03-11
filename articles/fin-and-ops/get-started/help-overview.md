@@ -5,9 +5,9 @@ author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350736"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Sistema della Guida di Finance and Operations
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 12/18/2018
 Questo argomento fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> I seguenti prodotti sono strettamente connessi: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent. La stessa funzionalità può apparire in tutti e 3 prodotti. Di conseguenza, negli argomenti correlati principalmente a Retail, il nome del prodotto sarà Dynamics 365 for Retail; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 for Talent; e negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 for Finance and Operations. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
+> I tre prodotti seguenti sono strettamente correlati: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent La stessa funzionalità può apparire in tutti e 3 prodotti. Di conseguenza, negli argomenti correlati principalmente a Retail, il nome del prodotto sarà Dynamics 365 for Retail; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 for Talent; negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 for Finance and Operations. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
 
 La Guida è condivisa dai seguenti prodotti:
 
@@ -158,7 +157,7 @@ Nella pagina **Parametri di sistema** effettuare i seguenti passaggi:
 2. Selezionare il progetto Lifecycle Services a cui connettersi.
 3. Selezionare le librerie BPM (nel progetto selezionato) da cui recuperare le registrazioni attività.
 
-    - Per Finance and Operations, per il contenuto Microsoft, selezionare la raccolta unificata QPC del febbraio 2017 per Microsoft Dynamics 365 per Finance and Operations.
+    - Per Finance and Operations, per il contenuto Microsoft, selezionare la raccolta unificata QPC del febbraio 2017 per Microsoft Dynamics 365 for Finance and Operations.
     - Per Retail, una raccolta verrà rilasciata a luglio.
     - Non è necessario selezionare una raccolta per Talent, in quanto la connessione alla raccolta corretta viene stabilita per l'utente.
 
@@ -194,10 +193,9 @@ Nella tabella riportata di seguito sono elencati i nostri siti Web. I siti con u
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | Host o collegamenti a tutta la documentazione del prodotto per Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Sito gratuito di eLearning Microsoft. |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Offre un'area di lavoro collaborativa basata sul cloud che i clienti e i partner possono utilizzare per gestire i progetti Dynamics 365 Finance and Operations dalle prevendite all'implementazione e alle operazioni. Questo sito è utile in tutte le fasi dell'implementazione. |
-| [Blog di supporto](http://aka.ms/AXSupportBlog)                                                    | Fornisce suggerimenti pubblicati dal team del supporto di Dynamics 365 for Finance and Operations. |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Offre un'area di lavoro collaborativa basata sul cloud che i clienti e i partner possono utilizzare per gestire i progetti Dynamics 365 for Finance and Operations dalle prevendite all'implementazione e alle operazioni. Questo sito è utile in tutte le fasi dell'implementazione. |
+| [Blog di supporto](http://aka.ms/AXSupportBlog)                                                    | Fornisce suggerimenti e trucchi registrati dal team del supporto di Dynamics 365 for Finance and Operations. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Ospita contenuto delle versioni precedenti. |
 | [Community di Dynamics](https://community.dynamics.com/)                                          | Ospita blog, i forum e video. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Fornisce informazioni su vendite e valutazione. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Ospita alcune risorse di formazione per Finance and Operations, report e white paper scaricabili ed è il sito principale del supporto per i titolari di piani di assistenza. Può richiedere un piano di assistenza per accedere ad alcune risorse sul sito. |
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Definire la dipendenza delle configurazioni ER da altri componenti
-description: "Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività ER Gestire configurazioni di mapping di modelli ed è necessario disporre dell'accesso a Microsoft Dynamics Lifecycle Services (LCS)."
+description: Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività ER Gestire configurazioni di mapping di modelli ed è necessario disporre dell'accesso a Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365088"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definire la dipendenza delle configurazioni ER da altri componenti
 
@@ -46,7 +46,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
     * Le dipendenze desiderate possono essere raggruppate tra loro. Quando si seleziona il tipo di raggruppamento 'Tutti', la condizione di dipendenza del gruppo viene considerato soddisfatta quando ogni condizione di dipendenza dal gruppo o dal gruppo secondario è soddisfatta. Quando si seleziona il tipo di raggruppamento 'Uno di', la condizione di dipendenza del gruppo viene considerato soddisfatta quando almeno una condizione di dipendenza dal gruppo è soddisfatta.   
 5. Fare clic su Nuovo.
 6. Selezionare il componente prerequisito del prodotto.
-7. Selezionare Microsoft Dynamics 365 for Operations (1611)
+7. Selezionare Microsoft Dynamics 365 for Operations (1611).
 8. Nel campo Versione digitare "[7.1.1541.3036,8]".
     * [7.1.1541.3036,8]  
     * Le dipendenze immesse vengono valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione 'Modello dati di esempio' è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Finance and Operations, versione 7.1.1541.3036 o successiva, ma comunque inferiore alla versione principale 8.   
@@ -62,7 +62,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 18. Selezionare Microsoft Dynamics AX 7.0 RTW.
 19. Nel campo Versione digitare "[7.0.1265.3015,7.1]".
     * [7.0.1265.3015,7.1]  
-    * Le dipendenze verranno valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione 'Modello dati di esempio' è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition versione 7.0.1265.3015 o successiva, ma comunque inferiore alla versione secondaria 1.   
+    * Le dipendenze verranno valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione 'Modello dati di esempio' è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Microsoft Dynamics 365 for Finance and Operations, edizione Enterprise, versione 7.0.1265.3015 o successiva, ma comunque inferiore alla versione principale 1.   
 20. Fare clic su Salva.
 21. Chiudere la pagina.
 22. Fare clic su Cambia stato.
@@ -139,6 +139,5 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 25. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
 26. Nella struttura espandere "Sample data model".
     * Si noti che la configurazione di mapping "Mapping di esempio " del modello è stata scaricata con la configurazione del modello dati selezionato. I due file verranno scaricati insieme perché il mapping di esempio è stato definito come implementazione del modello dati selezionato e perché è applicabile per Finance and Operations. La configurazione "Mapping di esempio (alternativo)" non è stata scaricata perché la condizione per versione dell'applicazione non è soddisfatta.   
-    * Se si accede a Dynamics 365 for Finance and Operations, Enterprise edition, si registra lo stesso provider, si accede allo stesso progetto LCS e si scarica la stessa configurazione del modello dati, verrà scaricata la configurazione "Mapping di esempio (alternativo)", mentre la configurazione "Mapping di esempio" verrà ignorata.  
-
+    * Se si accede a Dynamics 365 for Finance and Operations, edizione Enterprise, si registra lo stesso provider, si accede allo stesso progetto LCS e si scarica la stessa configurazione del modello dati, verrà scaricata la configurazione "Mapping di esempio (alternativo)", mentre la configurazione "Mapping di esempio" verrà ignorata.  
 

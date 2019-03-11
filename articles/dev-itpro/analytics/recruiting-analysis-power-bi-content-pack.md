@@ -1,13 +1,13 @@
 ---
 title: Contenuto Power BI sulla selezione del personale
-description: "Questo argomento descrive il contenuto Selezione del personale di Power BI. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
+description: Questo argomento descrive il contenuto Power BI Selezione del personale. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
-ms.contentlocale: it-it
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347999"
 ---
-
-# <a name="recruiting-power-bi-content"></a>Contenuto Power BI sulla selezione del personale
+# <a name="recruiting-power-bi-content"></a>Contenuto Power BI Selezione del personale
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento descrive il contenuto **Selezione del personale** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-Il contenuto di Power BI **Selezione del personale** viene visualizzato nell'area di lavoro **Gestione della selezione del personale**
+Il contenuto Power BI **Selezione del personale** viene visualizzato nell'area di lavoro **Gestione della selezione del personale**.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Report e rappresentazioni nell'area di lavoro di Gestione della selezione del personale
 L'area di lavoro **Gestione della selezione del personale** contiene una scheda **Analisi**. Questa scheda include il contenuto di Power BI incorporato per la selezione del personale. Il contenuto è costituito da una scheda Panoramica e le schede aggiuntive che contengono dettagli. Nella seguente tabella vengono illustrati i report su ciascuna scheda.
@@ -46,7 +45,7 @@ L'area di lavoro **Gestione della selezione del personale** contiene una scheda 
 | Analisi della selezione del personale  | Indice di assunzione netto, giorni medi di assunzione, percentuale di assunzioni errate, costi di selezione, numero di progetti di selezione, percentuale di assunzioni rispetto alle candidature e candidati rispetto alle aperture per progetto di selezione |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+È possibile filtrare i grafici e i riquadri in questi report e aggiungerli al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 Nella tabella seguente vengono illustrate le entità su cui si basa il contenuto di Power BI **Selezione del personale**.
 
@@ -66,4 +65,3 @@ Nella tabella seguente vengono illustrate le entità su cui si basa il contenuto
 | Prestazioni          | Valutazione, descrizione e modello di valutazione                            | Candidato, candidato impiegato, candidato congedato |
 | Progetto di selezione  | Descrizione del progetto, stato del progetto e aperture                | Candidato, candidato impiegato, candidato congedato |
 | Candidato congedato | Candidati congedati, motivo, prestazioni e data di fine rapporto | Società, Offset di calendario, Data, Località geografica, Prestazioni, Dati demografici, Impiego, Multimediale, Progetto di selezione, Nome candidato |
-

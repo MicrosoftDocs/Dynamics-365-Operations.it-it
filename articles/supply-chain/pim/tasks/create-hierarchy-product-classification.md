@@ -1,13 +1,13 @@
---- 
+---
 title: Creare una gerarchia di classificazione del prodotto
 description: Questa procedura mostra come creare una nuova gerarchia di categorie e assegnare un tipo di gerarchia di codici di voce doganale.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fb49f5f3f8a5a788cb4c6d1be69534ba808e3675
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0c107c9d15e0e023de51891f23c2d2360c3b8e7f
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346826"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Creare una gerarchia di classificazione del prodotto
 
@@ -67,5 +67,4 @@ Questa procedura mostra come creare una nuova gerarchia di categorie e assegnare
 7. Trovare e selezionare il record desiderato nell'elenco.
 8. Nell'elenco fare clic sul collegamento nella riga selezionata.
 9. Chiudere la pagina.
-
 

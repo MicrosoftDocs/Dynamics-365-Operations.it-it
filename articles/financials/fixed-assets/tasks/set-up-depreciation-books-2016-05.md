@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare i registri beni ammortizzabili (maggio 2016)
-description: "Questa guida attività creerà un nuovo registro beni ammortizzabili e lo assocerà a un gruppo cespite."
+description: Questa guida attività creerà un nuovo registro beni ammortizzabili e lo assocerà a un gruppo cespite.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1fd53ea1dff9b116d19c525c5d6967ece0993b6f
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355566"
 ---
 # <a name="set-up-depreciation-books-may-2016"></a>Impostare i registri beni ammortizzabili (maggio 2016)
 
@@ -55,5 +55,4 @@ Questa guida attività creerà un nuovo registro beni ammortizzabili e lo assoce
 5. Nel campo Convenzione di ammortamento selezionare un'opzione.
 6. Immettere un numero nel campo Vita utile.
     * Si noti che il valore del campo Periodi di ammortamento viene calcolato dopo aver impostato la Vita utile.  
-
 

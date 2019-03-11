@@ -1,13 +1,13 @@
 ---
 title: Utilizzare i flussi di lavoro per gestire le informazioni sui dipendenti
-description: "In questo argomento viene descritto come utilizzare la funzionalità del flusso di lavoro per le risorse umane per gestire le informazioni sui dipendenti. Ad esempio, è possibile associare un flusso di lavoro a una posizione e configurare un flusso di lavoro di approvazione che viene avviato quando i dipendenti modificano i propri record."
+description: In questo argomento viene descritto come utilizzare la funzionalità del flusso di lavoro per le risorse umane per gestire le informazioni sui dipendenti. Ad esempio, è possibile associare un flusso di lavoro a una posizione e configurare un flusso di lavoro di approvazione che viene avviato quando i dipendenti modificano i propri record.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0ffae206ae1956e5dc41487f04561ed2c48bd20b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: cf2200057053f5a6d4754d37111ebe34849bb99d
-ms.contentlocale: it-it
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304934"
 ---
-
 # <a name="use-workflows-to-manage-employee-information"></a>Utilizzare i flussi di lavoro per gestire le informazioni sui dipendenti
 
 [!include [banner](includes/banner.md)]
@@ -69,7 +68,6 @@ Per configurare un flusso di lavoro di base che viene avviato quando i dipendent
 10. Passare a **Risorse umane** &gt; **Posizioni** &gt; **Tipi di gerarchia posizioni**.
 11. Selezionare **Matrice**.
 12. Aggiungere il flusso di lavoro **Numero di identificazione lavoratore** all'elenco.
-
 
 
 

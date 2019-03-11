@@ -1,13 +1,13 @@
 ---
-title: "Gestione progetti e contabilità"
-description: "La funzionalità gestione progetti e contabilità può essere utilizzata in più settori per fornire un servizio, realizzare un prodotto oppure ottenere un risultato."
+title: Gestione progetti e contabilità
+description: La funzionalità gestione progetti e contabilità può essere utilizzata in più settori per fornire un servizio, realizzare un prodotto oppure ottenere un risultato.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311337"
 ---
-
 # <a name="project-management-and-accounting"></a>Gestione progetti e contabilità
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ La funzionalità gestione progetti e contabilità può essere utilizzata in più
 
 [![Progetti tra settori](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-In un call center un ticket può essere utilizzato per descrivere il set di azioni necessarie per risolvere una chiamata. Le società di consulenza, ad esempio le organizzazioni di consulenza tecnica o di gestione oppure le agenzie di pubblicità, fanno riferimento alle loro attività come progetti. Nel marketing una campagna rappresenta un set di lavoro che deve essere consegnato. Nella produzione basata su progetti, un ordine di produzione si riferisce ai vari lavori che devono essere eseguiti per produrre alcuni prodotti finiti. Qualsiasi nome venga utilizzato per i prodotti, questi progetti coinvolgono risorse, programmazioni e costi e la funzionalità gestione progetti e contabilità di Microsoft Dynamics 365 Finance and Operations può facilitare la pianificazione, l'esecuzione e l'analisi di questi progetti.
+In un call center un ticket può essere utilizzato per descrivere il set di azioni necessarie per risolvere una chiamata. Le società di consulenza, ad esempio le organizzazioni di consulenza tecnica o di gestione oppure le agenzie di pubblicità, fanno riferimento alle loro attività come progetti. Nel marketing una campagna rappresenta un set di lavoro che deve essere consegnato. Nella produzione basata su progetti, un ordine di produzione si riferisce ai vari lavori che devono essere eseguiti per produrre alcuni prodotti finiti. Qualsiasi nome venga utilizzato per i prodotti, questi progetti coinvolgono risorse, programmazioni e costi e la funzionalità gestione progetti e contabilità di Microsoft Dynamics 365 for Finance and Operations può facilitare la pianificazione, l'esecuzione e l'analisi di questi progetti.
 
 ## <a name="project-phases"></a>Fasi progetto
 Sebbene il seguente flusso del processo sia teso verso progetti esterni o progetti che vengono completati per uno o più clienti, la funzionalità si applica anche ai progetti interni e di soli costi. 
@@ -129,7 +128,7 @@ Di seguito sono indicati alcuni dei modi in cui è possibile utilizzare la funzi
 -   Modificare le assegnazioni delle risorse per più unità di tempo, ad esempio giorno, settimana o mese, per ottimizzare l'impiego dei lavoratori.
 
 ## <a name="execute-the-project"></a>Esecuzione del progetto
-Durante l'esecuzione del progetto i membri del team o i manager registrano il lavoro e le spese che vengono sostenuti, utilizzando i fogli presenze, le note spese e altri documenti aziendali. I manager di progetto dispongono di strumenti che permettono loro di monitorare il consumo di importi a budget per il progetto. I manager di progetto possono inoltre ordinare, prelevare o procurarsi i materiali per i progetti utilizzando gli ordini fornitore e altri documenti aziendali. Le fatture vengono redatte e approvate, in modo che i clienti possano ricevere le fatture per il lavoro in corso. Infine, è riconosciuto che durante questo processo i ricavi influiscono sui dati finanziari dell'organizzazione.
+Durante l'esecuzione del progetto i membri del team o i manager registrano il lavoro e le spese che vengono sostenuti, utilizzando i fogli presenze, le note spese e altri documenti aziendali. I manager di progetto dispongono di strumenti che permettono loro di monitorare il consumo di importi a budget per il progetto. I manager di progetto possono inoltre ordinare, prelevare o procurarsi i materiali per i progetti utilizzando gli ordini fornitore e altri documenti aziendali. Le fatture vengono redatte e approvate, in modo che i clienti possano ricevere le fatture per il lavoro in corso. Infine, è riconosciuto che durante questo processo i ricavi influiscono sui dati finanziari dell'organizzazione.
 
 ### <a name="manage-work-breakdown-structures"></a>Gestione delle strutture di suddivisione del lavoro
 
@@ -206,7 +205,7 @@ In Gestione progetti e contabilità è possibile registrare il consumo di artico
 
 Il modo in cui è possibile ordinare gli articoli dipende da dove vengono ordinati:
 
--   Per ordinare gli articoli dall'inventario della società, è necessario immettere l'ordine come richiesta articolo. Se si utilizza la pagina **Richieste articoli**, è possibile impostare la richiesta in modo che gli articoli vengano ricevuti come consegne parziali. Di conseguenza, è possibile posticipare il consumo di una quantità di articoli fino a quando gli articoli non vengono richiesti.
+-   Per ordinare gli articoli dall'inventario della società, è necessario immettere l'ordine come richiesta articolo. Se si utilizza la pagina **Richieste articoli**, è possibile impostare la richiesta in modo che gli articoli vengano ricevuti come consegne parziali. Di conseguenza, è possibile posticipare il consumo di una quantità di articoli fino a quando gli articoli non vengono richiesti.
 -   Per ordinare gli articoli da un fornitore esterno, è necessario creare l'ordine fornitore nella pagina **Ordine fornitore**.
 
 > [!NOTE] 
@@ -301,7 +300,7 @@ In base alla configurazione è possibile prevedere le affluenze di cassa per un 
 -   **Data del progetto:** 5 marzo 2012.
 -   **Data fattura:** 31 marzo 2012. Questa data viene determinata in base alla frequenza di fatturazione. Per questo esempio si imposterà la frequenza di fatturazione sul mese corrente. Di conseguenza, tutte le transazioni registrate in marzo verranno fatturate l'ultimo giorno del mese.
 -   **Data di scadenza:** 14 aprile 2012. Questa data viene determinata in base ai termini di pagamento stabiliti per il progetto. Per questo esempio sono stati selezionati termini di pagamento di 14 giorni. Di conseguenza, alla data della fattura vengono aggiunti 14 giorni per arrivare alla data di scadenza del 14 aprile 2012.
--   **Data prevista pagamento vendita:** 27 aprile 2012. Questa data viene calcolata aggiungendo il numero di giorni contenuti nel campo **Giorni di tolleranza generali** della pagina **Parametri Gestione progetti e contabilità** al numero di giorni presenti nel campo **Giorni di tolleranza particolare** della pagina **Contratti di progetto**, quindi aggiungendo il totale al numero di giorni nel campo **Data di scadenza**. Per questo esempio, verrà immesso **3** nel campo **Giorni di tolleranza generali** e **10** nel campo **Giorni di tolleranza particolare**. Di conseguenza, alla data di scadenza vengono aggiunti 13 giorni per arrivare alla data prevista di pagamento vendita del 27 aprile 2012.
+-   **Data prevista pagamento vendita:** 27 aprile 2012. Questa data viene calcolata aggiungendo il numero di giorni contenuti nel campo **Giorni di tolleranza generali** della pagina **Parametri Gestione progetti e contabilità**  al numero di giorni presenti nel campo **Giorni di tolleranza particolare** della pagina **Contratti di progetto**, quindi aggiungendo il totale al numero di giorni nel campo **Data di scadenza**. Per questo esempio, verrà immesso **3** nel campo **Giorni di tolleranza generali** e **10** nel campo **Giorni di tolleranza particolare**. Di conseguenza, alla data di scadenza vengono aggiunti 13 giorni per arrivare alla data prevista di pagamento vendita del 27 aprile 2012.
 
 I giorni di tolleranza generali possono sostituire i singoli giorni di tolleranza o essere aggiunti ai singoli giorni di tolleranza:
 
@@ -316,7 +315,7 @@ Le entrate di cassa effettive sono simili alla previsione delle entrate di cassa
 
 -   **Data fattura:** 2 marzo 2012.
 -   **Data di scadenza:** 16 marzo 2012. I termini di pagamento sono impostati a 14 giorni.
--   **Data prevista pagamento vendita:** 29 marzo 2012. Il calcolo include i tre giorni di tolleranza generali e i 10 giorni di tolleranza singoli.
+-   **Data prevista pagamento vendita:** 29 marzo 2012. Il calcolo include i tre giorni di tolleranza generali e i 10 giorni di tolleranza singoli.
 
 #### <a name="cost-forecasting"></a>Previsione dei costi
 
@@ -372,7 +371,7 @@ Se **Budget residuo** è selezionato come metodo di controllo dei costi nella pa
 -   **Budget residuo**: somma dell'importo di budget originale ancora disponibile per la riga costi selezionata. L'importo a budget residuo viene calcolato alla pagina **Anteprima Contabilità generale**.
 -   **Costo totale**: somma del costo effettivo, del costo impegnato e degli importi a budget residui.
 
-Nella scheda **Deviazione** della pagina **Controllo costi** è possibile visualizzare il costo previsto totale a confronto con il budget originale. Il confronto evidenzia tutte le differenze tra gli importi. Di conseguenza, è possibile visualizzare dove i dati non corrispondono. I valori delle deviazioni vengono calcolati nei seguenti modi:
+Nella scheda **Deviazione** della pagina **Controllo costi** è possibile visualizzare il costo previsto totale a confronto con il budget originale. Il confronto evidenzia tutte le differenze tra gli importi. Di conseguenza, è possibile visualizzare dove i dati non corrispondono. I valori delle deviazioni vengono calcolati nei seguenti modi:
 
 -   **Budget originale**: importo originariamente a budget per la riga costi selezionata. L'importo a budget originale viene calcolato alla pagina **Anteprima Contabilità generale**.
 -   **Costo totale**: somma del costo effettivo, del costo impegnato e del budget residuo, riportati nella scheda **Generale**.
@@ -419,7 +418,7 @@ Nella pagina **Utilizzo ore**, oltre alla percentuale complessiva del tasso di u
 
 -   **Ore non incluse**: queste ore non sono incluse nel tasso di utilizzo delle ore.
 -   **Ore incluse**: queste ore vengono calcolate aggiungendo le ore effettive e le ore improduttive. Queste ore sono incluse nel tasso di utilizzo.
--   **Ore improduttive**: se si calcola una percentuale fatturabile, queste ore sono identiche alle ore non addebitabili. Se si calcola una percentuale produttiva, queste ore sono identiche alle ore non produttive.
+-   **Ore improduttive**: se si calcola una percentuale fatturabile, queste ore sono identiche alle ore non addebitabili. Se si calcola una percentuale produttiva, queste ore sono identiche alle ore non produttive.
 -   **Ore utilizzo**: se si calcola una percentuale fatturabile, queste ore sono identiche alle ore addebitabili. Se si calcola una percentuale produttiva, queste ore sono identiche alle ore produttive.
 
 Quando si calcola il tasso di utilizzo per un lavoratore, è possibile utilizzare ore regolari o ore incluse. Se si utilizzano le ore incluse, verificare che i lavoratori registrino tutte le ore lavorate per i periodi dei fogli presenze, poiché il calcolo è espresso come percentuale di ore inserite. Quando si calcola il tasso di utilizzo ore per un progetto, un contratto di progetto, un record cliente o una categoria, è necessario utilizzare le ore incluse per eseguire il calcolo.
@@ -441,4 +440,3 @@ Dopo che viene calcolato il rendiconto, è possibile visualizzare le seguenti in
 -   **Consumo**: contiene informazioni sul consumo di ore, articoli, spese e transazioni retributive.
 -   **Fattura**: contiene informazioni sulle fatture e sulla fatturazione in acconto.
 -   **Tariffa oraria**: contiene le tariffe orarie per le ore che sono registrate nei conti costi e ricavi.
-

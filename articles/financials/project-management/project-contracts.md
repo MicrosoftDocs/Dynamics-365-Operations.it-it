@@ -1,13 +1,13 @@
 ---
 title: Contratti di progetto
-description: "Vengono forniti esempi di contratti che è possibile creare per diversi tipi di progetto e fonti di finanziamento e viene illustrato il modo in cui è possibile gestire i contratti e le fatture dei clienti di progetto in Microsoft Dynamics 365 for Finance and Operations."
+description: Vengono forniti esempi di contratti che è possibile creare per diversi tipi di progetto e fonti di finanziamento e viene illustrato il modo in cui è possibile gestire i contratti e le fatture dei clienti di progetto in Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0f0fcec64ce03c6e1d877fb1c8d004bb416bd95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310371"
 ---
-
 # <a name="project-contracts"></a>Contratti di progetto
 
 [!include [banner](../includes/banner.md)]
@@ -342,7 +341,6 @@ Al momento di impostare il contratto di progetto, l'utente accetta di fatturare 
 -   L'utente crea una fattura cliente alla fine di ogni mese di calendario per tutta la durata del progetto.
 
 Durante il primo mese, i consulenti registrano 800 ore di lavoro totali nell'ambito del progetto. Il costo della cancelleria addebitato al progetto è di 2.000. Alla fine del mese, l'utente crea quindi una fattura per un importo di 122.000, calcolato nel modo seguente: 800 ore al costo di 150 all'ora più 2.000 per gli articoli di cancelleria.
-
 
 
 

@@ -5,9 +5,9 @@ author: kweekley
 manager: AnnBe
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 026274e06d27fb1254ffa971bcb0fbdbb5e7eac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 01233890603f6f199b7a815eb91d1d5a7f2ae53e
-ms.contentlocale: it-it
-ms.lasthandoff: 02/23/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331393"
 ---
-
 # <a name="cfo-overview-power-bi-content"></a>Contenuto di Power BI Panoramica responsabile finanziario
 
 [!include [banner](../includes/banner.md)] 
 
-Questo argomento descrive il contenuto **Panoramica responsabile finanziario** di Microsoft Power BI. Il contenuto Power BI si applica agli utenti di Microsoft Dynamics 365 for Finance and Operations versione 7.2. Se si utilizza la versione 7.3 o versioni successivi, vedere [Informazioni finanziarie dettagliate](financial-insights.md).
+Questo argomento descrive il contenuto **Panoramica responsabile finanziario** di Microsoft Power BI. Il contenuto Power BI si applica agli utenti di Microsoft Dynamics 365 for Finance and Operations version 7.2. Se si utilizza la versione 7.3 o versioni successivi, vedere [Informazioni finanziarie dettagliate](financial-insights.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 
@@ -45,4 +44,3 @@ Nella seguente tabella viene visualizzato il contenuto di Power BI da cui vengon
 | [Vendita e redditività](sales-profitability-performance-content-pack.md) | <ul><li>Ricavi per regione</li><li>Primi 10 clienti in base ai ricavi</li><li>Primi 10 prodotti in base ai ricavi</li></ul> |
 | [Gestione crediti e riscossioni](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Attività clienti scadute</li><li>Clienti con limite di credito superato</li><li>Saldi con aging</li></ul> |
 | [Analisi delle spese di acquisto](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Acquisti per mese/giorno</li><li>Primi 10 fornitori per acquisti</li><li>Primi 10 prodotti per acquisti</li></ul> |
-

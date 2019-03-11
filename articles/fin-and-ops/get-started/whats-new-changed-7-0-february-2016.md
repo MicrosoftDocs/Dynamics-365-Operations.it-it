@@ -1,13 +1,13 @@
 ---
-title: "Novità o modifiche introdotte in Dynamics AX 7.0 (febbraio 2016)"
-description: "Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynamics AX 7.0. Questa versione contiene funzionalità di piattaforma e di applicazione ed è stata rilasciata nel febbraio 2016."
+title: Novità o modifiche introdotte in Dynamics AX 7.0 (febbraio 2016)
+description: Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynamics AX 7.0. Questa versione contiene funzionalità di piattaforma e di applicazione ed è stata rilasciata nel febbraio 2016.
 author: sericks007
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334889"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novità o modifiche introdotte in Dynamics AX 7.0 (febbraio 2016)
 
 [!include [banner](../includes/banner.md)]
@@ -141,7 +140,7 @@ Questa funzionalità opera indipendentemente dai metodi di determinazione costi 
 </thead>
 <tbody>
 <tr>
-<td>Esporta strutture dei conti in Microsoft Excel.</td>
+<td>Esportare strutture dei conti in Microsoft Excel.</td>
 <td>Non disponibile</td>
 <td>È ora possibile selezionare una struttura dei conti ed esportarla in Excel.</td>
 <td>Molti clienti hanno richiesto la capacità di esportare le strutture dei conti in Excel per una funzione di filtro più semplice.</td>
@@ -221,7 +220,7 @@ Questa funzionalità opera indipendentemente dai metodi di determinazione costi 
 <td>Analisi dei dati finanziari utilizzando il pacchetto di contenuti Power BI "Monitora prestazioni finanziarie".</td>
 <td>Non disponibile</td>
 <td>Su PowerBI.com, selezionare <strong>Recupera i dati</strong> e quindi il pacchetto di contenuti <strong>Dynamics AX - Prestazioni finanziarie</strong>. Immettere l'url del endpoint di Dynamics AX per vedere i dati riflessi nel dashboard.</td>
-<td>In tre o quattro clic, le organizzazioni possono distribuire un dashboard di Power BI contenente i dati finanziari importanti. Il contenuto può essere personalizzato dall'organizzazione.</td>
+<td>In tre o quattro clic, le organizzazioni possono distribuire il dashboard di Power BI contenente i dati finanziari importanti. Il contenuto può essere personalizzato dall'organizzazione.</td>
 </tr>
 <tr>
 <td>Tracciare i processi di chiusura periodo finanziario.</td>
@@ -282,7 +281,7 @@ Questa funzionalità opera indipendentemente dai metodi di determinazione costi 
 </tr>
 <tr>
 <td>Sii produttivo utilizzando il nuovo registratore attività.</td>
-<td>Il registratore attività di AX 2012 richiede l'accesso diretto a un computer Application Object Server (AOS) e i privilegi massimi e non sono disponibili opzioni di modifica.</td>
+<td>Il registratore attività di AX 2012 richiede l'accesso diretto a un computer Application Object Server (AOS) e i privilegi massimi e non sono disponibili opzioni di modifica.</td>
 <td>Il nuovo registratore attività può essere utilizzato direttamente dal web client. L'accesso al registratore attività non richiede i privilegi di admin. I passaggi di registrazione possono visualizzati dal vivo mentre si registra, nuove opzioni di modifica sono state introdotte e supporta più scenari oltre agli scenari esistenti di Business process modeler (BPM).</td>
 <td>Il nuovo registratore attività fornisce un'esperienza semplficata e dà impulso a nuove funzionalità di Dynamics AX. Alcune delle funzionalità sono ora disponibili e altre seguiranno in futuro.</td>
 </tr>
@@ -571,7 +570,7 @@ Non sono state aggiunte nuove funzionalità.
 
 ### <a name="retail-hq"></a>Retail HQ
 
-Retail HQ ospitato da Microsoft Azure offre la gestione centralizzata e visibilità completa su tutti gli aspetti delle operazioni commerciali in un client Web.
+Retail HQ ospitato da Microsoft Azure offre la gestione centralizzata e visibilità completa in tutti gli aspetti delle operazioni commerciali in un web client.
 
 <table>
 <thead>
@@ -655,7 +654,7 @@ L'area di lavoro <strong>Gestione cataloghi</strong> abilita le seguenti funzion
 <tr>
 <td>Gestisci operazioni IT vendita al dettaglio.</td>
 <td>L'utente deve accedere a più moduli.</td>
-<td>L'area di lavoro <strong>IT di vendita al dettaglio</strong> abilita le richieste di scambio di dati commerciali in un unico posizione per un canale specificato, in modo che è possibile eseguire le attività seguenti:
+<td>L'area di lavoro <strong>IT di vendita al dettaglio</strong> abilita le richieste di informazioni Commerce Data Exchange in un'unica posizione per un canale specificato, in modo che è possibile eseguire le attività seguenti:
 <ul>
 <li>Sessioni di download.</li>
 <li>Sessioni di caricamento.</li>
@@ -677,10 +676,10 @@ L'area di lavoro <strong>Gestione cataloghi</strong> abilita le seguenti funzion
 <td>Questi report danno ai clienti più BI per prevedere le tendenze, scoprire informazioni e operare sempre alle massime prestazioni.</td>
 </tr>
 <tr>
-<td>Analisi dei dati di vendita del canale di vendita al dettaglio utilizzando il pacchetto di contenuti Power BI "Monitora prestazioni canale retail".</td>
+<td>Analisi dei dati di vendita del canale di vendita al dettaglio utilizzando il pacchetto di contenuti Power BI "Monitora Retail Channel Performance".</td>
 <td>Non disponibile</td>
-<td>Su PowerBI.com, selezionare<strong>Recupera i dati</strong> e quindi il pacchetto di contenuti <strong>Dynamics AX - Prestazioni canale retail</strong>. Immettere l'url del endpoint di Dynamics AX per vedere i dati riflessi nel dashboard.</td>
-<td>In tre o quattro clic, le organizzazioni possono distribuire un dashboard di Power BI contenente i dati finanziari importanti. Il contenuto può essere personalizzato dall'organizzazione. Inoltre, gli utenti possono incorporare i riquadri del dashboard di Power BI nelle aree di lavoro personalizzate in Dynamics AX, in modo che è quindi possibile visualizzare le informazioni analitiche a colpo d'occhio.</td>
+<td>Su PowerBI.com, selezionare <strong>Recupera i dati</strong> e quindi il pacchetto di contenuti <strong>Dynamics AX - Retail Channel Performance</strong>. Immettere l'url del endpoint di Dynamics AX per vedere i dati riflessi nel dashboard.</td>
+<td>In tre o quattro clic, le organizzazioni possono distribuire il dashboard di Power BI contenente i dati finanziari importanti. Il contenuto può essere personalizzato dall'organizzazione. Inoltre, gli utenti possono incorporare i riquadri del dashboard di Power BI nelle aree di lavoro personalizzate in Dynamics AX, in modo che è quindi possibile visualizzare le informazioni analitiche a colpo d'occhio.</td>
 </tr>
 <tr>
 <td>Configura autorizzazioni consumatore.</td>
@@ -734,16 +733,16 @@ Il server al dettaglio e la gestione dei dati consente agli utenti e le imprese 
 <td>Fornisce servizi ospitati e evolutivi di commercio elettronico che possono essere utilizzati con i negozi online di terze parti.</td>
 </tr>
 <tr>
-<td>Spostare i dati tra il back office di Microsoft Dynamics AX e canali utilizzando lo scambio di dati commerciale.</td>
-<td>Lo scambio di dati commerciale è un sistema per trasferire i dati tra Microsoft Dynamics AX e canali di vendita al dettaglio, ad esempio i negozi online o i passaggi vendita fisici. Per ulteriori informazioni, vedere <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Spostare i dati tra il back office di Microsoft Dynamics AX e i canali utilizzando Commerce Data Exchange.</td>
+<td>Commerce Data Exchange è un sistema per trasferire i dati tra Microsoft Dynamics AX e canali di vendita al dettaglio, ad esempio i negozi online o i passaggi vendita fisici. Per ulteriori informazioni, vedere <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>È parità funzionale a Microsoft Dynamics AX 2012 CU8. Considerare però i seguenti dettagli:
 <ul>
-<li>Lo scambio di dati commerciale è stato ri-costruito per il cloud.</li>
+<li>Commerce Data Exchange è stato ricostruito per il cloud.</li>
 <li>Il servizio di Async usa l'accesso al database diretto al database del canale.</li>
-<li>Scambio di dati commerciale: Il servizio in tempo reale è ospitato come servizio personalizzato di Microsoft Dynamics AX.</li>
+<li>Commerce Data Exchange: Il servizio in tempo reale è ospitato come servizio personalizzato di Microsoft Dynamics AX.</li>
 <li>MPOS gestisce la sincronizzazione tra i database offline e il server di vendita al dettaglio.</li>
 </ul></td>
-<td>Lo scambio di dati commerciale è stato ri-costruito per il cloud. Continua a gestire il trasferimento i dati tra Microsoft Dynamics AX e canali di vendita al dettaglio, ad esempio i negozi online o i passaggi vendita fisici.</td>
+<td>Commerce Data Exchange è stato ricostruito per il cloud. Continua a gestire il trasferimento i dati tra Microsoft Dynamics AX e canali di vendita al dettaglio, ad esempio i negozi online o i passaggi vendita fisici.</td>
 </tr>
 <tr>
 <td>Supporta l'elaborazione del pagamento multicanale semintegrata plug and play utilizzando l'SDK di pagamento.</td>
@@ -762,7 +761,7 @@ Il server al dettaglio e la gestione dei dati consente agli utenti e le imprese 
 <td>Non disponibile</td>
 <td>Sono fornite le seguenti funzionalità:
 <ul>
-<li>Sicurezza avanzata in base all'attivazione basata su Azure AD per il cloud.</li>
+<li>Sicurezza avanzata in base all'attivazione basata su Azure AD per aggiungere il cloud.</li>
 <li>Sicurezza avanzata per la gestione dei token.</li>
 <li>Affidabilità, risoluzione dei problemi e messaggistica di errore migliori durante l'attivazione</li>
 <li>Attività di amministrazione IT semplificate correlate all'attivazione.</li>
@@ -770,7 +769,7 @@ Il server al dettaglio e la gestione dei dati consente agli utenti e le imprese 
 </ul></td>
 <td>Sono disponibili i seguenti benefit:
 <ul>
-<li>La sicurezza viene migliorata tramite Azure AD e token/ID dispositivo (chiamate RS che utilizzano un token, archiviazione di app specifica per l'utente).</li>
+<li>La sicurezza viene migliorata tramite Azure AD e token/ID dispositivo (chiamate di RS che utilizzano un token, archiviazione di app specifica per l'utente).</li>
 <li>Interrompe l'utilizzo remoto non autorizzato di MPOS (dispositivo di mattone).</li>
 <li>Tiene traccia dei dispositivi MPOS per scopi di conformità PCI.</li>
 <li>Esegue il mapping di dispositivi fisici a un'entità aziendali (registro) utilizzando un token della periferica.</li>
@@ -876,7 +875,7 @@ Una vendita al dettaglio e consente commercio- concentrate di opzione di configu
 
 | Operazioni che è possibile effettuare | Dynamics AX 2012 | Dynamics AX 7.0 | Perché questo è importante? |
 |------------------|------------------|-----------------|------------------------|
-| Utilizzare il dashboard commerciale dei concetti di base. | Una pagina area ai collegamenti alle voci di menu è disponibile. | Il dashboard commerciale dei concetti di base vengono forniti i collegamenti a frequenti attività, inclusi i collegamenti alle aree di lavoro, il controllo web di BI di potenza, i preferiti, pagine recenti e gli elementi di lavoro correnti. | Il dashboard avanzato autorizzare i lavoratori rendendoli più efficienti e immettendo un punto di partenza flessibile per qualsiasi attività di vendita a dettaglio- specifica. |
+| Utilizzare il dashboard commerciale dei concetti di base. | Una pagina area ai collegamenti alle voci di menu è disponibile. | Il dashboard commerciale dei concetti di base fornisce collegamenti a frequenti attività, inclusi i collegamenti alle aree di lavoro, il controllo web di Power BI, i preferiti, pagine recenti ed elementi di lavoro correnti. | Il dashboard avanzato autorizzare i lavoratori rendendoli più efficienti e immettendo un punto di partenza flessibile per qualsiasi attività di vendita a dettaglio- specifica. |
 | Entità di dati utilizzo delle modifiche di account di accesso. | Le modifiche al conto vengono esportate in una cartella del file system. | Le modifiche al conto sono accessibili tramite le entità di dati. | Questa funzionalità offre la maggiore flessibilità quando si sposta i dati tra i sistemi disparati. Questa funzionalità è possibile migliorata mediante applicazioni di OData, anche. |
 | Posizione cloud e MPOS di utilizzo. | Solo la posizione aziendale (EPOS) in uscita de casella di media. | MPOS e la posizione del cloud sostituiscono il client di EPOS. Il canale e-Commerce vengono è stato aggiunto a Elementi fondamentali del commercio per impostazione predefinita. | Questa funzionalità abilita il supporto di del canale di uscita de casella ai client rapidamente schierabili del punto di vendita. |
 | Attuazione e gestire architettura a due livelli. | Il framework di importazione/esportazione dei dati fornisce la capacità di spostare i dati tra AX 2012 e i sistemi di terze parti. | Entità di dati create per aggiornare contribuzione all'architettura a due stadi. | Le domande di lavoro OData e le entità di dati forniscono un livello di astrazione per rendere gli scenari a due stadi più facili implementare e gestire. |
@@ -1027,11 +1026,10 @@ Non sono state aggiunte nuove funzionalità.
 
 | Operazioni che è possibile effettuare | Dynamics AX 2012 | Dynamics AX 7.0 | Perché questo è importante? |
 |------------------|------------------|-----------------|------------------------|
-| Download, installare e configurare il programma di installazione per il portale dei dispositivi mobili del magazzino. | È possibile scaricare, impostare e configurare il portale durante il processo di installazione di Microsoft Dynamics AX, mediante un'impostazione standard. È progettato per i semoventi locali di distribuzione e configurazione. | È possibile scaricare un programma di installazione autonomo tramite una voce di menu in gestione magazzino. È progettato per i semoventi locali di distribuzione e configurazione. | Quando state impostando la funzionalità del dispositivo mobile, è necessario installare e configurare il portale dei dispositivi mobili del magazzino in locale e ottenere una connessione a Dynamics AX nel cloud. |
+| Download, installare e configurare il programma di installazione per il portale dei dispositivi mobili del magazzino. | È possibile scaricare, impostare e configurare il portale durante il processo di installazione di Microsoft Dynamics AX, mediante un'impostazione standard. È progettato per i semoventi locali di distribuzione e configurazione. | È possibile scaricare un programma di installazione autonomo tramite una voce di menu in gestione magazzino. È progettato per i semoventi locali di distribuzione e configurazione. | Quando state impostando la funzionalità del dispositivo mobile, è necessario installare e configurare il portale dei dispositivi mobili del magazzino in locale e ottenere una connessione a Dynamics AX nel cloud. |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Novità o modifiche](whats-new-changed.md)
 
 [Nuove Guide attività disponibili (febbraio 2016)](new-task-guides-available-february-2016.md)
-

@@ -5,9 +5,9 @@ author: t-benebo
 manager: AnnBe
 ms.date: 08/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: c3794535cf9230389d7da3f9dbde010e5c48cf2f
 ms.openlocfilehash: 907d59f850d8d761e2dd4e04bd288a696f00964d
-ms.contentlocale: it-it
-ms.lasthandoff: 08/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318812"
 ---
-
 # <a name="trade-allowance-management"></a>Gestione sconto commerciale
 
 [!include [banner](../includes/banner.md)]
@@ -199,5 +198,4 @@ La scheda **Crediti note di accredito** contiene i dettagli delle note di accred
 Per ottenere una panoramica più analitica delle varie misurazioni delle prestazioni per la promozione, è possibile utilizzare la visualizzazione di analisi. Per passare alla visualizzazione analisi, fare clic su **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**. Nel riquadro azioni, fare clic su **Analisi**.  
 
 Per ottenere una panoramica più analitica delle varie misurazioni delle prestazioni per la promozione, è possibile utilizzare la visualizzazione di analisi. Per passare alla visualizzazione analisi, fare clic su **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**. Nel riquadro azioni, fare clic su **Analisi**. 
-
 

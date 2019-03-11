@@ -1,13 +1,13 @@
 ---
 title: Importa tassi di cambio valutari
-description: "Se una persona giuridica ha ricevuto fatture in valuta estera, è necessario convertire la valuta estera in quella locale. Ciò significa che è necessario conoscere i tassi di cambio aggiornati per le diverse valute. In questo argomento viene fornita una panoramica delle impostazioni richieste e dell'elaborazione per importare i tassi di cambio estero pubblicati su Internet dai provider dei tassi di cambio, ad esempio la Banca Centrale Europea e la Banca Centrale di Russia."
+description: Se una persona giuridica ha ricevuto fatture in valuta estera, è necessario convertire la valuta estera in quella locale. Ciò significa che è necessario conoscere i tassi di cambio aggiornati per le diverse valute. In questo argomento viene fornita una panoramica delle impostazioni richieste e dell'elaborazione per importare i tassi di cambio estero pubblicati su Internet dai provider dei tassi di cambio, ad esempio la Banca Centrale Europea e la Banca Centrale di Russia.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333394"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Importa tassi di cambio valutari
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Prima di poter importare i tassi di cambio, è necessario impostare le informazi
 | **Crea coppie di valute necessarie**    | Questa casella di controllo gestisce la creazione automatica di coppie di valuta, se le coppie di valuta importate non esistono. Questa opzione potrebbe non essere disponibile per alcuni provider.                                                                                                                                                                                               |
 | **Ignora tassi di cambio esistenti**   | Questa casella di controllo gestisce l'aggiornamento del tasso di cambio esistente di una coppia di valute quando il tasso di cambio per una data specifica è già presente. Se non si seleziona questa casella di controllo, il tasso di cambio per le date specifiche non viene importato se esiste già un altro tasso di cambio.                                                                                       |
 | **Impedisci importazione in festa nazionale** | Questa casella di controllo gestisce l'importazione del tasso di cambio per una data che è una festa nazionale. Ad esempio, se si seleziona questa casella di controllo e si utilizza la Banca Centrale Europea come provider di tassi di cambio, il sistema non aggiornerà il tasso di cambio durante la festa nazionale correlata alla persona giuridica corrente. Questa opzione potrebbe non essere disponibile per alcuni provider. |
-
 
 
 

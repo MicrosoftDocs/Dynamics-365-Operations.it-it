@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0736d63c9a582948d197dc267f9941cbbd3e3c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333095"
 ---
-
 # <a name="elimination-rules"></a>Regole di eliminazione
 
 [!include [banner](../includes/banner.md)]
@@ -153,7 +152,6 @@ Sono disponibili due modi per elaborare le transazioni di eliminazione: durante 
 In una società specificata come società di eliminazione, selezionare **Giornale di registrazione eliminazioni** nel modulo Consolidamenti. Dopo aver selezionato il nome del giornale di registrazione, fare clic su **Righe**. È possibile eseguire la proposta selezionando il menu **Proposte**, quindi selezionando **Proposta di eliminazione**.
 
 Selezionare la società che rappresenta l'origine dei dati consolidati, quindi scegliere la regola da elaborare. Immettere una data di inizio per iniziare la ricerca degli importi di eliminazione e una data di fine per terminare la data di ricerca per gli importi di eliminazione. Il campo **Data registrazione CoGe** è la data utilizzata per registrare il giornale di registrazione nella contabilità generale. Dopo aver fatto clic su **OK**, è possibile esaminare gli importi e registrare il giornale di registrazione.
-
 
 
 

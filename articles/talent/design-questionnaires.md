@@ -5,9 +5,9 @@ author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305008"
 ---
-
 # <a name="design-questionnaires"></a>Progettare questionari
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ I codici di sequenza numerica sono utilizzati per organizzare le domande e le ri
 È consigliabile definire tutti i parametri prima di iniziare a creare i dati. È possibile modificare le impostazioni dei parametri di gestione questionari in qualsiasi momento.
 
 ## <a name="questionnaire-components"></a>Componenti di questionario
-Nei questionari sono disponibili tre elementi principali: gruppi di risposte contenenti le risposte alle domande a scelta multipla, le domande e il questionario. È possibile facoltativamente raggruppare le domande di un questionario in gruppi di risultati. I gruppi di risultati consentono di classificare le domande e analizzare ulteriormente il questionario. 
+Nei questionari sono disponibili tre elementi principali: gruppi di risposte contenenti le risposte alle domande a scelta multipla, le domande e il questionario. È possibile facoltativamente raggruppare le domande di un questionario in gruppi di risultati. I gruppi di risultati consentono di classificare le domande e analizzare ulteriormente il questionario. 
 
 [![Componenti di questionario](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -111,7 +110,7 @@ I gruppi di risposte e le risposte sono componenti che costituiscono la parte pr
 
 Un gruppo di risposte può essere utilizzato per più domande dello stesso questionario e in più questionari. 
 
-**Nota:** Se si modifica il testo della risposta in gruppi di risposte già stati utilizzati in questionari completati, i dati possono diventare difficili da valutare e i risultati del questionario possono non essere più validi. Se è necessario modificare un gruppo di risposte, considerare la possibilità di creare un nuovo gruppo di risposte anziché modificarne uno esistente. Non è possibile eliminare i gruppi di risposte collegati a una domanda o una risposta o a cui è già stata fornita una risposta.
+**Nota:** Se si modifica il testo della risposta in gruppi di risposte già stati utilizzati in questionari completati, i dati possono diventare difficili da valutare e i risultati del questionario possono non essere più validi. Se è necessario modificare un gruppo di risposte, considerare la possibilità di creare un nuovo gruppo di risposte anziché modificarne uno esistente. Non è possibile eliminare i gruppi di risposte collegati a una domanda o una risposta o a cui è già stata fornita una risposta.
 
 ### <a name="questions"></a>Domande
 
@@ -202,7 +201,7 @@ Si utilizza un questionario per un test relativo all'attitudine al comando con 1
 -   Capacità di comando
 -   Capacità tecniche
 
-Per utilizzare i messaggi basati su punti, è possibile impostare intervalli di testo per ciascun gruppo di risultati. A ciascuna domanda sono assegnati due punti. Di conseguenza, il totale massimo di punti per ogni gruppo di risultati è 10. 
+Per utilizzare i messaggi basati su punti, è possibile impostare intervalli di testo per ciascun gruppo di risultati. A ciascuna domanda sono assegnati due punti. Di conseguenza, il totale massimo di punti per ogni gruppo di risultati è 10. 
 
 Nella seguente tabella vengono riportati i messaggi in base ai punti definiti per il gruppo di risultati "attitudini al comando".
 
@@ -238,5 +237,4 @@ In alternativa, è possibile impostare un questionario in modo che se un intervi
 [Distribuzione e completamento di questionari](distribute-questionnaires.md)
 
 [Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md)
-
 

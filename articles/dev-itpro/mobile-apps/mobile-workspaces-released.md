@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354968"
 ---
-
 # <a name="available-mobile-workspaces"></a>Aree di lavoro mobili disponibili
 
 [!include [banner](../includes/banner.md)]
@@ -44,5 +43,4 @@ In questo argomento sono elencate le aree di lavoro mobili disponibili con l'app
 | [Scorte disponibili](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Consente di acquisire dati relativi alle scorte prenotate e disponibili.                                                                                                    |   2017 gennaio       |
 | [Ordini cliente](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Aggiorna costantemente gli ordini cliente.                                                                                                                          |  2017 gennaio                  |
 | [Collaborazione fornitore](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati. |2017 gennaio    |
-
 

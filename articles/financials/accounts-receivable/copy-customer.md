@@ -5,9 +5,9 @@ author: mikefalkner
 manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
-ms.contentlocale: it-it
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302459"
 ---
-
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Copiare i clienti mediante sequenze numeriche condivise
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ La funzionalità è attivata quando si utilizza una sequenza numerica condivisa 
 
 ## <a name="copy-a-customer"></a>Copiare un cliente
 
-Per copiare un cliente, selezionare **Nuovo** nella pagina elenco **Tutti i clienti** per aprire la finestra di dialogo **Crea cliente**. Notare che il nuovo ID cliente non viene assegnato immediatamente. Questo comportamento è diverso dal comportamento nelle versioni precedenti di Microsoft Dynamics 365 for Finance and Operations. Poiché non è ancora stato selezionato il gruppo clienti, il sistema non può determinare la sequenza numerica corretta da utilizzare. Inoltre, non può determinare se si sta cercando di creare un nuovo cliente o copiare un cliente. Di conseguenza, l'ID cliente non è assegnato fino a quando si seleziona **Salva** nella parte inferiore della finestra di dialogo.
+Per copiare un cliente, selezionare **Nuovo** nella pagina elenco **Tutti i clienti** per aprire la finestra di dialogo **Crea cliente**. Notare che il nuovo ID cliente non viene assegnato immediatamente. Questo comportamento è diverso da quello delle versioni precedenti di Microsoft Dynamics 365 for Finance and Operations. Poiché non è ancora stato selezionato il gruppo clienti, il sistema non può determinare la sequenza numerica corretta da utilizzare. Inoltre, non può determinare se si sta cercando di creare un nuovo cliente o copiare un cliente. Di conseguenza, l'ID cliente non è assegnato fino a quando si seleziona **Salva** nella parte inferiore della finestra di dialogo.
 
 Se si sta creando un nuovo cliente, è possibile continuare a compilare tutti i campi come di solito. Una volta terminato e si seleziona **Salva**, si nota che l'ID cliente è stato assegnato automaticamente. In alternativa, per le sequenze numeriche manuali, vedrete che l'ID cliente manuale è stato utilizzato.
 
@@ -66,4 +65,3 @@ Quando si copia un cliente, il sistema cerca di salvare le informazioni del nuov
 
 1. Viene visualizzata un'opzione **Copia cliente**. Come impostazione predefinita, questa opzione è impostata su **No**. Per copiare il cliente nella persona giuridica corrente, impostare l'opzione su **Sì**. 
 2. Selezionare **Select**. Il nuovo cliente viene creato.
-

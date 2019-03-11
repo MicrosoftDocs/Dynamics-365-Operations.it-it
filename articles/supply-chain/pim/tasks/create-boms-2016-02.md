@@ -1,13 +1,13 @@
---- 
+---
 title: Creare DBA (febbraio 2016)
-description: "Questa attività consente di creare la struttura della distinta base per un prodotto finito e un prodotto semilavorato."
+description: Questa attività consente di creare la struttura della distinta base per un prodotto finito e un prodotto semilavorato.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, BOMConsistOf, BOMTable, InventLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6c5cfb8aae1a61d14f7a7969f688cb282530840d
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333210"
 ---
 # <a name="create-boms-february-2016"></a>Creare DBA (febbraio 2016)
 
@@ -97,5 +97,4 @@ Questa attività consente di creare la struttura della distinta base per un prod
 25. Chiudere la pagina.
 26. Chiudere la pagina.
 27. Chiudere la pagina.
-
 

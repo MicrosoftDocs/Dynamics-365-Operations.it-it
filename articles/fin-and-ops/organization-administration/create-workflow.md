@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353358"
 ---
-
 # <a name="create-workflows"></a>Creare flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ In questo argomento viene illustrato come creare un flusso di lavoro.
 
 ## <a name="open-the-workflow-editor"></a>Aprire l'editor flusso di lavoro
 
-Il modulo di Microsoft Dynamics 365 for Finance and Operations in uso determina i tipi di flussi di lavoro che è possibile creare. Per selezionare il tipo di flusso di lavoro da creare e aprire l'editor flusso di lavoro, eseguire i passaggi indicati di seguito.
+Il modulo Microsoft Dynamics 365 for Finance and Operations in uso determina i tipi di flusso di lavoro che è possibile creare. Per selezionare il tipo di flusso di lavoro da creare e aprire l'editor flusso di lavoro, eseguire i passaggi indicati di seguito.
 
 1. Aprire il modulo per il quale si desidera creare un nuovo flusso di lavoro. Ad esempio, per creare un flusso di lavoro per le richieste di acquisto, fare clic su **Approvvigionamento**.
 2. Fare clic su **Impostazione** &gt; **\[Nome modulo\] - flussi di lavoro**.
@@ -85,4 +84,3 @@ Per salvare e attivare il flusso di lavoro, attenersi alla procedura indicata di
 
     - Per attivare questa versione del flusso di lavoro, fare clic su **Attiva la nuova versione**. Quando un flusso di lavoro è attivo, l'utente è in grado di inviare documenti per l'elaborazione.
     - Se non si desidera attivare questa versione, fare clic su **Non attivare la nuova versione**. Sarà possibile attivare il flusso di lavoro in un secondo momento.
-

@@ -5,28 +5,27 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360304"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membri di dimensione statistica e modelli provider misure statistiche
 
 [!include [banner](../includes/banner.md)]
@@ -138,7 +137,7 @@ Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva
 
 | Nome        | Connettore dati                                                                     | Membro di dimensione statistica |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTEs D365FO | Dynamics 365 for Finance and Operations - Misure statistiche | FTE                         |
+| FTEs D365FO | Dynamics 365 for Finance and Operations – Misure statistiche | FTE                         |
 
 **Configurazione del provider di dati**
 
@@ -226,7 +225,7 @@ Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva
 
 | Nome           | Connettore dati                                                                     | Membro di dimensione statistica |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| CC di imballaggio D365FO | Dynamics 365 for Finance and Operations - Misure statistiche | CC di imballaggio                      |
+| CC di imballaggio D365FO | Dynamics 365 for Finance and Operations – Misure statistiche | CC di imballaggio                      |
 
 Il sistema rileva che ProdRouteTrans è una tabella in cui ogni record appartiene a una persona giuridica distinta. Di conseguenza, verrà chiesto di selezionare la persona giuridica da cui devono essere importate le transazioni.
 
@@ -347,4 +346,3 @@ Se la base di allocazione del membro di dimensione predefinito di Elettricità �
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Basi di allocazione](allocation-bases.md)
-

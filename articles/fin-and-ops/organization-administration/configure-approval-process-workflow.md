@@ -1,13 +1,13 @@
 ---
 title: Configurare i processi di approvazione in un flusso di lavoro
-description: "Per configurare le proprietà del processo di approvazione, attenersi alla procedura indicata di seguito."
+description: Per configurare le proprietà del processo di approvazione, attenersi alla procedura indicata di seguito.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325643"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurare i processi di approvazione in un flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
@@ -128,7 +127,7 @@ Per immettere un nome per il processo di approvazione, effettuare le operazioni 
     <td>
     <ol>
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
-    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Microsoft Dynamics 365 for Finance and Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
+    <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti di Microsoft Dynamics 365 for Finance and Operations. Selezionare gli utenti a cui inviare notifiche, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ Un processo di approvazione è costituito da passaggi di approvazione. Per aggiu
 1. Nell'editor flusso di lavoro fare doppio clic sul processo di approvazione. Verranno visualizzati i passaggi del processo di approvazione.
 2. Per aggiungere un passaggio di approvazione, trascinarlo dall'area **Elementi flusso di lavoro** nella canvas.
 3. Per configurare un passaggio di approvazione, vedere [Configurare un passaggio di approvazione](configure-approval-step-workflow.md).
-

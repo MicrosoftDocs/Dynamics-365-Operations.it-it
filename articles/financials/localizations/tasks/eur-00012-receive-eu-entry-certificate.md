@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00012 - Ricevere un certificato di entrata UE
 description: Questa procedura mostra come registrare un certificato di entrata UE rilasciato da un terzo e ricevuto dal cliente.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustEntryCertificateJour_W
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cbcf6d8dc71b833b3d90e72e7ef6c9d438241640
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370954"
 ---
 # <a name="eur-00012-receive-an-eu-entry-certificate"></a>EUR-00012 - Ricevere un certificato di entrata UE
 
@@ -41,5 +41,4 @@ La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.
 6. Fare clic su Salva.
     * Allegare informazioni aggiuntive al giornale di registrazione.  
     * Ad esempio, allegare un'immagine digitalizzata del certificato di entrata UE nel giornale di registrazione.  
-
 

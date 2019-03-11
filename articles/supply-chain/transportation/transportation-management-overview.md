@@ -1,13 +1,13 @@
 ---
 title: Panoramica sulla gestione trasporto
-description: "In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Microsoft Dynamics 365 for Finance and Operations."
+description: In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Microsoft Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355612"
 ---
-
 # <a name="transportation-management-overview"></a>Panoramica sulla gestione trasporto
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,7 @@ Gestione trasporto consente di utilizzare il trasporto della società e di ident
 <td>Utilizzare Gestione trasporto per il trasporto in uscita e/o in ingresso.</td>
 </tr>
 <tr class="even">
-<td>La flotta della società è disponibile per la consegna/prelievo e le spese di consegna vengono passate ai clienti.</td>
+<td>La flotta della società è disponibile per la consegna/prelievo e le spese di consegna vengono passate ai clienti.</td>
 <td>Per i processi in uscita, è possibile utilizzare Gestione trasporto per determinare le spese di trasporto e passarle ai clienti. Tuttavia, il processo di riconciliazione fattura vettore non è obbligatorio.</td>
 </tr>
 <tr class="odd">
@@ -85,7 +84,6 @@ Quando si ordinano gli articoli da un fornitore e gli articoli devono essere con
 
 ## <a name="load-building"></a>Allestimento del carico
 Finance and Operations offre una strategia di allestimento del carico denominata strategia di allestimento del carico basata sul volume. Questa strategia consente di utilizzare i valori massimi specificati per l'altezza e il peso nel modello di carico o di sostituire le impostazioni con nuovi valori. Per utilizzare questa strategia, selezionarla nel campo **Strategia di allestimento del carico** nella scheda dettaglio **Impostazioni** della pagina **Workbench di allestimento del carico**. Inoltre, è possibile aggiungere strategie di allestimento del carico personalizzate creando una nuova classe nella struttura a oggetti applicativi (AOT).
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
 description: Questa procedura mostra come impostare una direttiva ubicazione semplice.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ca4b3c2598a268c065011daff31296521faa918
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
-ms.contentlocale: it-it
-ms.lasthandoff: 11/02/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349080"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
 
@@ -93,5 +93,4 @@ Questa procedura mostra come impostare una direttiva ubicazione semplice. L'esem
 4. Digitare un valore nel campo Criteri.
 5. Fare clic su OK.
     * È possibile continuare ad aggiungere righe direttive e azioni direttive finché non sono stati coperti tutti gli scenari possibili nel magazzino.  
-
 

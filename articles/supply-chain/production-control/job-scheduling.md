@@ -1,13 +1,13 @@
 ---
 title: Programmazione processo
-description: "Questo articolo fornisce informazioni sulla programmazione processi, ovvero una forma più dettagliata di programmazione della programmazione operazioni. È possibile utilizzare la programmazione processi per pianificare i singoli processi o ordini di lavorazione e controllare l'ambiente di produzione."
+description: Questo articolo fornisce informazioni sulla programmazione processi, ovvero una forma più dettagliata di programmazione della programmazione operazioni. È possibile utilizzare la programmazione processi per pianificare i singoli processi o ordini di lavorazione e controllare l'ambiente di produzione.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d506a6fbeb7e88dc6b1709203bc0822b1f4dc0f8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8162797256e221192dc3e1a12aa145e28d5bc0f5
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339535"
 ---
-
 # <a name="job-scheduling"></a>Programmazione processo
 
 [!include [banner](../includes/banner.md)]
@@ -75,7 +74,6 @@ Le risorse vengono assegnate ai processi con la programmazione processi. È poss
 
 ## <a name="resource-efficiency"></a>Efficienza delle risorse
 La programmazione processi considera le percentuali di efficienza specificate per le risorse. Le percentuali di efficienza riducono o aumentano il tempo prenotato per la risorsa. Di conseguenza, anche il lead time aumenterà o diminuirà. Per il calcolo viene utilizzata la seguente formula: Tempo di programmazione = Tempo × 100 ÷ Percentuale efficienza. In questa formula, *Tempo* indica sia il tempo di esecuzione che il tempo di attrezzaggio.
-
 
 
 

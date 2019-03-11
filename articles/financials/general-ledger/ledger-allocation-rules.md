@@ -1,13 +1,13 @@
 ---
 title: Regole di allocazione contabile
-description: "Questo articolo fornisce informazioni sulle regole di allocazione della contabilità generale. Descrive i vari componenti delle regole di allocazione e i metodi di allocazione che possono essere utilizzati per tali regole."
+description: Questo articolo fornisce informazioni sulle regole di allocazione della contabilità generale. Descrive i vari componenti delle regole di allocazione e i metodi di allocazione che possono essere utilizzati per tali regole.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: abbeb1bb4481139dff902916362a479f94fb96e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63562cde3f2813fdcfc9df7ccbfc623aa2fbe9b1
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365732"
 ---
-
 # <a name="ledger-allocation-rules"></a>Regole di allocazione contabile
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Le regole di allocazione sono composte da quattro componenti: generale, origine,
 -   **Destinazione**: in questo componente vengono definiti la distribuzione e l'incidenza del risultato del calcolo di allocazione. Ad esempio, vi può essere una riga di destinazione per ciascun reparto.
 -   **Contropartita**: questo componente stabilisce come i conti principali e le dimensioni debbano essere determinati per le voci di contropartita che sono a saldo delle voci di destinazione. Le opzioni definite dall'utente vengono solitamente utilizzate al posto dei conti e delle dimensioni basati sull'origine. Quando l'opzione **Origine dati** è impostata su **Valore fisso**, **Origine** non può essere utilizzata come opzione.
 -   **Regole di base di allocazione contabile**: queste regole utilizzano i propri i criteri di filtro di origine per determinare i saldi contabili che devono essere utilizzati per l'allocazione (ad esempio, i ricavi per reparto). È possibile utilizzare ciascuna regola base di allocazione con più regole di allocazione.
-
 
 
 

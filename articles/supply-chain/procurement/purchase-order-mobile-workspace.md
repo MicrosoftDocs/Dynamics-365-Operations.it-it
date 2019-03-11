@@ -1,13 +1,13 @@
 ---
 title: Area di lavoro Approvazione ordine fornitore
-description: "In questo argomento vengono fornite informazioni sull'area di lavoro mobile Approvazione ordine fornitore, in cui è possibile visualizzare gli ordini fornitore ed effettuare le relative operazioni. Ad esempio, è possibile approvare o rifiutare un ordine fornitore."
+description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Approvazione ordine fornitore, in cui è possibile visualizzare gli ordini fornitore ed effettuare le relative operazioni. Ad esempio, è possibile approvare o rifiutare un ordine fornitore.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348850"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>Area di lavoro Approvazione ordine fornitore
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app mobile
-Scaricare e installare l'app mobile Microsoft Dynamics 365 for Unified Operations:
+Scaricare e installare l'app Microsoft Dynamics 365 for Unified Operations Mobile:
 
 - [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Per iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -116,4 +115,3 @@ Dopo avere visualizzato l'ordine fornitore assegnato all'utente e letto le istru
 5. Selezionare l'azione appropriata.
 6. Nella pagina **Completa attività**, immettere un commento. Se si seleziona l'azione **Delega**, è necessario selezionare un utente a cui delegare l'attività.
 7. Selezionare **Fine**. Dopo aver aggiornato l'area di lavoro, l'ordine fornitore non sarà più in elenco. 
-

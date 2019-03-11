@@ -1,13 +1,13 @@
 ---
 title: Home page dell'app Dynamics 365 for Unified Operations Mobile
-description: In questo argomento viene descritta l'app mobile Microsoft Dynamics 365 for Unified Operations e vengono forniti i collegamenti alle risorse necessarie per implementarla dell'organizzazione.
+description: In questo argomento viene descritta l'app Microsoft Dynamics 365 for Unified Operations Mobile e vengono forniti i collegamenti alle risorse necessarie per implementarla dell'organizzazione.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: it-it
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321388"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Home page dell'app Dynamics 365 for Unified Operations Mobile
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritta l'app mobile Microsoft Dynamics 365 for Unified Operations e vengono forniti i collegamenti alle risorse necessarie per implementarla dell'organizzazione.
+In questo argomento viene descritta l'app Microsoft Dynamics 365 for Unified Operations Mobile e vengono forniti i collegamenti alle risorse necessarie per implementarla dell'organizzazione.
 
 > [!NOTE]
 > L'app mobile era denominata in precedenza *Microsoft Dynamics 365 for Finance and Operations*.
@@ -39,7 +38,7 @@ In questo argomento viene descritta l'app mobile Microsoft Dynamics 365 for Unif
 
 L'app mobile consente all'organizzazione di rendere disponibili i propri processi aziendali nei dispositivi mobili. Dopo che l'amministratore IT attiva le aree di lavoro mobile per l'organizzazione, gli utenti potranno accedere all'app e immediatamente iniziare a eseguire i processi aziendali dai dispositivi mobili. L'app mobile include le seguenti funzionalità che consentono di aumentare la produttività:
 
-- Gli utenti possono visualizzare, modificare ed eseguire azioni sui dati business, anche se invece dispongono di connettività di rete intermittente o se i dispositivi mobili sono completamente offline. Quando un dispositivo ristabilisce una connessione di rete, le operazioni dati offline vengono sincronizzate automaticamente con Dynamics 365 for Finance and Operations.
+- Gli utenti possono visualizzare, modificare ed eseguire azioni sui dati business, anche se invece dispongono di connettività di rete intermittente o se i dispositivi mobili sono completamente offline. Se un dispositivo ristabilisce una connessione di rete, le operazioni dati offline vengono sincronizzate automaticamente con Dynamics 365 for Finance and Operations.
 - Gli amministratori IT o gli sviluppatori possono creare e pubblicare aree di lavoro mobili che sono state personalizzate per l'organizzazione. L'app utilizza le risorse di codice esistenti. Di conseguenza, non è necessario implementare di nuovo le procedure di convalida, la regola business o la configurazione di protezione.
 - Gli amministratori IT o gli sviluppatori possono progettare facilmente le aree di lavoro mediante la progettazione rapida per area di lavoro inclusa in nel client Web.
 - Gli amministratori IT o gli sviluppatori possono facoltativamente ottimizzare le capacità offline delle aree di lavoro utilizzando il framework dell'estensibilità della regola business. Poiché i dati continuano a essere elaborati offline anche mentre il dispositivo è offline, gli scenari mobili rimangono ricchi e fluidi anche se i dispositivi non hanno connettività di rete costante.
@@ -90,7 +89,7 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 <tr class="even">
 <td>2</td>
 <td>Amministratore di sistema</td>
-<td><strong>Se si utilizza Microsoft Dynamics 365 for Operations versione 1611:</strong> scaricare e installare gli hotfix KB che abilitano le aree di lavoro mobili fornite da Microsoft.</td>
+<td><strong>Se si utilizza Microsoft Dynamics 365 for Operations versione 1611:</strong> Scaricare e installare gli articoli KB che abilitano le aree di lavoro mobili fornite da Microsoft.</td>
 <td>Per ulteriori informazioni, vedere i seguenti argomenti:
 <ul>
 
@@ -153,4 +152,3 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 </tr>
 </tbody>
 </table>
-

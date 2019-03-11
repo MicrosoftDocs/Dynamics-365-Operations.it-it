@@ -1,13 +1,13 @@
---- 
-title: "Allocare una revisione budget o budget di progetto tra più periodi"
-description: "In questa procedura viene illustrato come allocare gli importi di un budget di progetto tra più periodi."
+---
+title: Allocare una revisione budget o budget di progetto tra più periodi
+description: In questa procedura viene illustrato come allocare gli importi di un budget di progetto tra più periodi.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d001cd3d922fc4790a1e5288f432df13e90ce03c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a253a37bc83482c5bc971cad585e18ccb230b16f
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344158"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Allocare una revisione budget o budget di progetto tra più periodi
 
@@ -42,6 +42,5 @@ Dopo che un budget o una revisione del budget è stata allocata, è possibile es
 8. Nel modulo Allocazione budget progetto o Allocazione revisione budget di progetto, esaminare o aggiornare gli importi allocati. 
 9. Chiudere la pagina.
 10. Se l'allocazione è quella desiderata, fare clic su Invia nella pagina Budget progetto per inviare il budget o le revisioni budget al flusso di lavoro di approvazione.  
-
 
 

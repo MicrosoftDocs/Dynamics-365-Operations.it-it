@@ -1,13 +1,13 @@
---- 
+---
 title: Creare un ordine fornitore
 description: Questa procedura indica come creare un ordine fornitore manualmente.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 50bf9927626a2a78a5f007b0b73d338585bbf9ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330910"
 ---
 # <a name="create-a-purchase-order"></a>Creare un ordine fornitore
 
@@ -75,5 +75,4 @@ Questa procedura indica come creare un ordine fornitore manualmente. È più nor
     * Questa finestra di dialogo mostra i totali dell'intero ordine.  
     * Il campo Selezione consente di modificare la base di come vengono calcolati i totali. Ad esempio, è possibile scegliere Quantità entrata prodotti per visualizzare i totali correlati all'importo dei prodotti ricevuti o Quantità ordinata per visualizzare l'importo del prodotto ordinato.  
 2. Fare clic su OK.
-
 

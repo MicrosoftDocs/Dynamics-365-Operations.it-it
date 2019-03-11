@@ -1,13 +1,13 @@
 ---
 title: Metodi di pagamento nei servizi clienti
-description: "In questo argomento vengono descritti i diversi metodi di pagamento che è possibile utilizzare in un servizio clienti Microsoft Dynamics 365 for Retail."
+description: In questo argomento vengono descritti i diversi metodi di pagamento che è possibile utilizzare in un servizio clienti Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 0b86388efab113af605d62c6ad76c8169d9c4643
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355382"
 ---
-
 # <a name="payment-methods-in-call-centers"></a>Metodi di pagamento nei servizi clienti
 
 [!include [banner](includes/banner.md)]
@@ -54,4 +53,3 @@ Poiché i metodi di pagamento sono definiti, devono essere collegati a un conto 
 Per gli scenari di elaborazione del rimborso, il servizio clienti utilizza anche alcuni metodi di pagamento definiti in Contabilità clienti. Per configurare questi metodi di pagamento, andare a **Retail** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Metodi di rimborso servizio clienti**. È necessario completare la configurazione per elaborare gli assegni di rimborso ai clienti. Ad esempio, se un cliente ha in origine pagato per un ordine utilizzando contanti o un assegno, l'utente potrebbe voler inviare al cliente un assegno di rimborso tramite la contabilità clienti. In questo caso, i tipi di pagamento in contanti e con assegno nel servizio clienti devono essere associati al metodo di pagamento corretto in Contabilità clienti per garantire che il rimborso venga correttamente elaborato.
 
 Inoltre, se un utente sta elaborando un ordine di reso come utente di un servizio clienti in Retail, ma non è in grado di collegare il reso a una vendita originale, il metodo di pagamento **Reso** deve essere definito nei parametri del servizio clienti. Passare a **Retail** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Parametri servizio clienti** e quindi nella scheda **NAR/Reso** nel campo **Metodo di pagamento** assicurarsi che il metodo di pagamento sia definito. Il metodo di pagamento sarà il metodo di pagamento utilizzato per i rimborsi. In genere, verrà definito come metodo con assegno o metodo tramite conto cliente.
-

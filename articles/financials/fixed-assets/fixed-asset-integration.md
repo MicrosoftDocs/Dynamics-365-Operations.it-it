@@ -1,13 +1,13 @@
 ---
 title: Integrazione dei cespiti
-description: "È possibile integrare Cespiti con Contabilità generale, Gestione articoli, Contabilità clienti e Contabilità fornitori. È inoltre possibile impostare i cespiti per l'integrazione con gli ordini fornitore."
+description: È possibile integrare Cespiti con Contabilità generale, Gestione articoli, Contabilità clienti e Contabilità fornitori. È inoltre possibile impostare i cespiti per l'integrazione con gli ordini fornitore.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a598a562b35a8bb1e0ede6bb8f3dc0515c162a06
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336982"
 ---
-
 # <a name="fixed-assets-integration"></a>Integrazione dei cespiti
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ Per eliminare l'associazione tra un progetto e un cespite, deselezionare il camp
 È inoltre possibile designare un cespite che si sta creando o producendo come parte di un progetto stima. Al termine di tale progetto, sarà possibile registrare automaticamente una transazione di acquisizione cespiti.
 
 Per ulteriori informazioni, vedere [Acquisire cespiti tramite approvvigionamento](acquire-assets-procurement.md).
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Calcolare una DBA utilizzando una struttura a più livelli (febbraio 2016)"
+---
+title: Calcolare una DBA utilizzando una struttura a più livelli (febbraio 2016)
 description: In questa procedura viene illustrato come calcolare il costo di un prodotto finito utilizzando la esplosione multilivello basata sulla scheda di determinazione costi.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: fcc1248d64145c10f1c67bfac49c053e99dc1598
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323366"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>Calcolare una DBA utilizzando una struttura a più livelli (febbraio 2016)
 
@@ -48,5 +48,4 @@ In questa procedura viene illustrato come calcolare il costo di un prodotto fini
     * Quando si seleziona Multiplo, i costi vengono classificati in base alla composizione di BOM_2, dove 10 deriva dal gruppo di costi M1 (ITEM_C) e 15,60 deriva dalla fabbricazione dove il gruppo di costi è L2. Anche i costi indiretti variano.  
 11. Chiudere la pagina.
 12. Chiudere la pagina.
-
 

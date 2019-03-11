@@ -1,32 +1,31 @@
 ---
 title: Home page di pianificazione generale
-description: "La pianificazione generale consente alle società di determinare ed equilibrare il fabbisogno futuro di materie prime e la capacità di soddisfare gli obiettivi aziendali."
+description: La pianificazione generale consente alle società di determinare ed equilibrare il fabbisogno futuro di materie prime e la capacità di soddisfare gli obiettivi aziendali.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314787"
 ---
-
 # <a name="master-planning-home-page"></a>Home page di pianificazione generale
 
 [!include [banner](../includes/banner.md)]
@@ -69,10 +68,10 @@ Nella mappa di apprendimento seguente vengono visualizzati i concetti e le attiv
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 ### <a name="roadmaps"></a>Roadmap
-Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle che sono in via di sviluppo.
+Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo.
 
 ### <a name="blogs"></a>Blog
-Opinioni, notizie e altre informazioni sulla Pianificazione generale e altre soluzioni sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX - Produzione](https://blogs.msdn.microsoft.com/axmfg) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Gestione della supply chain](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Opinioni, notizie e altre informazioni sulla Pianificazione generale e altre soluzioni sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX - Produzione](https://blogs.msdn.microsoft.com/axmfg) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guide attività
 Informazioni aggiuntive sono disponibili come guide attività in Finance and Operations. Per accedere alle guide attività, fare clic sul pulsante **?** in qualsiasi pagina.
@@ -84,7 +83,6 @@ Informazioni aggiuntive sono disponibili come guide attività in Finance and Ope
 -  [Estendere la funzionalità di previsione della domanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Pianificazione generale - Suggerimenti e trucchi per risolvere problemi in modo efficiente](https://youtu.be/7v8BPmEs9Dg)
 -  [MRP è lento](https://youtu.be/RLXybx20B5o)
-
 
 
 

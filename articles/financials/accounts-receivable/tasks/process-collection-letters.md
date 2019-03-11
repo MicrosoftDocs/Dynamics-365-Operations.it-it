@@ -1,13 +1,13 @@
---- 
+---
 title: Elaborare lettere di sollecito
 description: Questa procedura indica come creare, stampare e registrare le lettere di sollecito.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/04/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
 ms.reviewer: shylaw
@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 8a3f74d2891c050294e089eae14ba2386449d7c9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
-ms.contentlocale: it-it
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358855"
 ---
 # <a name="process-collection-letters"></a>Elaborare lettere di sollecito
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Questa procedura indica come creare, stampare e registrare le lettere di sollecito. In questa attività viene utilizzata la società dimostrativa USMF.
 
@@ -81,4 +80,3 @@ Se si includono pagamenti e note di credito nelle transazioni che saranno inclus
 Per ignorare pagamenti e note credito durante il calcolo del codice di lettera di sollecito, procedere come segue.
 1. Andare a **Crediti e le riscossioni > Impostazioni > Parametri contabilità clienti** e fare clic sulla scheda **Riscossioni**. 
 2. Impostare **Ignora pagamenti e note credito durante il calcolo del codice di lettera di sollecito** su **Sì**.
-

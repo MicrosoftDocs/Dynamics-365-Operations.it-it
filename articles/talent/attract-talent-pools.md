@@ -1,31 +1,30 @@
 ---
 title: Esaminare i candidati utilizzando i pool di talenti
 description: In questo argomento viene descritto come creare e configurare pool di talenti in Attract.
-author: 
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304991"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Esaminare i candidati utilizzando i pool di talenti
 
 [!include[banner](../includes/banner.md)]
@@ -139,4 +138,3 @@ Spesso, diversi candidati validi per una mansione non vengono selezionati, ma no
 1. Nella pagina della domanda di lavoro, selezionare **Aggiungi a pool di talenti**. Un elenco dei pool di talenti a cui si ha accesso viene visualizzato.
 
 1. Selezionare o cercare il pool di talenti quindi selezionare **Aggiungi** per aggiungere il candidato a tale pool.
-

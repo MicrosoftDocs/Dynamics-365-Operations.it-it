@@ -5,9 +5,9 @@ author: kherr75
 manager: AnnBe
 ms.date: 07/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1e7bdfca55e1bdaba0b5ebdf55b46744e584ab2c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312993"
 ---
-
 # <a name="enter-payroll-beginning-balances"></a>Immettere i saldi iniziali delle retribuzioni
 
 [!include [banner](../../includes/banner.md)]
@@ -168,4 +167,3 @@ Lo stesso processo può essere eseguito negli incrementi trimestrali se necessar
 2. Fare clic su **Sì** quando il messaggio "Quando si storna il rendiconto di pagamento, viene creato un rendiconto di pagamento di storno per compensare il rendiconto di pagamento. Il rendiconto di pagamento non può inoltre essere modificato. Stornare il rendiconto di pagamento?" viene visualizzato. 
 
 Dopo aver stornato il rendiconto di pagamento, è possibile generarne uno nuovo per il lavoratore dalla busta paga creata in precedenza. Assicurarsi di correggere tutte le righe errate nella busta paga prima di generare il nuovo rendiconto di pagamento, quindi generare nuovi i rendiconti di pagamento con gli importi corretti. 
-

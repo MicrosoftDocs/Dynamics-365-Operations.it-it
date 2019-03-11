@@ -1,31 +1,30 @@
 ---
-title: "Novità o modifiche in Dynamics 365 for Talent Core HR (luglio 2018)"
-description: "Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent Core HR."
+title: Novità o modifiche in Dynamics 365 for Talent Core HR (luglio 2018)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent Core HR.
 author: josaw1
 manager: AnnBe
 ms.date: 07/31/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 330a4e1b820f1898bbbee15f8ec8fa427f30807f
 ms.openlocfilehash: 5cf1c17c3b833805a4797ec0fc7278ce3546ac2e
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305035"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Novità o modifiche in Dynamics 365 for Talent Core HR (luglio 2018)
 
 [!include [banner](includes/banner.md)]
@@ -60,4 +59,3 @@ I titoli sono stati espansi in questo aggiornamento. Il campo contiene ora 65 ca
 ## <a name="benefit-enrollment-status-report"></a>Report dello stato della registrazione del benefit
 
 La funzionalità di creazione di report incorporata sulla registrazione aperta per i benefit consente di esaminare facilmente a che punto si trovano i dipendenti nel processo di registrazione aperto. È possibile conoscere il numero di dipendenti che hanno completato il processo, che lo stanno completandolo e che non lo hanno iniziato. Inoltre, è possibile visualizzare rapidamente eventuali problemi che si verificano durante la registrazione del dipendente e il registro completo di tutti gli invii del dipendente. Di conseguenza, è possibile verificare e analizzare facilmente gli invii del dipendente.
-

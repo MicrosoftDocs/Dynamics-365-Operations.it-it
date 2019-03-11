@@ -1,13 +1,13 @@
---- 
+---
 title: 'ER Usare file di gestione documenti in output di formato (Parte 2: Estendere il modello dati)'
-description: "I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici."
+description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cb4c58dc86a159a70634c05408a8db471ebcae4c
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320951"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>ER Usare file di gestione documenti in output di formato (parte 2: estendere il modello dati)
 
@@ -58,7 +58,7 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 17. Nel campo Tipo di articolo selezionare "Stringa".
 18. Scegliere Aggiungi.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Mappare gli elementi del nuovo modello dati alle origini dati di Dynamics 365 for Finance and Operations, Enterprise edition
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Mappare gli elementi del nuovo modello dati alle origini dati di Dynamics 365 for Finance and Operations, edizione Enterprise
 1. Fare clic su Mappa modello a origine dati.
 2. Utilizzare il filtro rapido per filtrare in base al campo Definizione con un valore di 'InvoiceCustomer'.
     * InvoiceCustomer  
@@ -91,5 +91,4 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 25. Fare clic su Cambia stato.
 26. Fare clic su Completa.
 27. Fare clic su OK.
-
 

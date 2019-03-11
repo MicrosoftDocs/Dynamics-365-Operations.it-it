@@ -1,31 +1,30 @@
 ---
 title: Intervalli di tempo
-description: "È possibile utilizzare gli intervalli di tempo per ottimizzare la programmazione delle righe di ordine di assistenza."
+description: È possibile utilizzare gli intervalli di tempo per ottimizzare la programmazione delle righe di ordine di assistenza.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMATimeAgreement
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6f748268f6cb85ff835919485da2828689eee23c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: b7268870aa9065e4e52d936e819107094bad3663
-ms.contentlocale: it-it
-ms.lasthandoff: 02/20/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347217"
 ---
-
 # <a name="time-windows"></a>Intervalli di tempo  
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ Se per una riga di un contratto di assistenza non è stato specificato un interv
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Creare intervalli di tempo](create-time-windows.md)
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Creare un obiettivo
-description: "È possibile creare obiettivi, aggiungere attività agli obiettivi, tenere traccia di misure e collegare obiettivi a una revisione."
+description: È possibile creare obiettivi, aggiungere attività agli obiettivi, tenere traccia di misure e collegare obiettivi a una revisione.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: it-it
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350713"
 ---
 # <a name="create-a-goal"></a>Creare un obiettivo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-È possibile creare obiettivi, aggiungere attività agli obiettivi, tenere traccia di misure e collegare obiettivi a una revisione. Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations, versione 1611.
+È possibile creare obiettivi, aggiungere attività agli obiettivi, tenere traccia di misure e collegare obiettivi a una revisione. Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
 
 1. Passare a Tutte le aree di lavoro > Dipendente self-service.
 2. Fare clic su Visualizza tutti gli obiettivi
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/13/2018
     * Esistono spesso obiettivi che sono uguali o simili per i membri del team o tutti i dipendenti.     L'amministratore HR o il responsabile può creare modelli per gli obiettivi di questo tipo. È possibile aggiungere un obiettivo da un modello e quindi modificarlo per adattarlo alle proprie tempistiche.  
     * Esistono spesso vari obiettivi che sono uguali o simili per i membri del team o tutti i dipendenti.     L'amministratore HR o il responsabile può creare gruppi di obiettivi che contengono uno o più modelli di obiettivo. È possibile aggiungere obiettivi da un gruppo di obiettivi e quindi modificarli per adattarli alle proprie tempistiche.  
     * Quando si crea una revisione, è possibile aggiungere obiettivi a tale revisione. Fare riferimento alla guida attività per le revisioni per vedere come è possibile aggiungere obiettivi alle revisioni.  
-
 

@@ -5,9 +5,9 @@ author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
-ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316121"
 ---
-
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Installare e configurare Microsoft Dynamics 365 for Finance and Operations &#8211; Magazzino
 
 [!include [banner](../includes/banner.md)]
@@ -47,14 +46,16 @@ L'app è disponibile sui sistemi operativi Android e Windows. Per utilizzare que
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (tutte le versioni)                                                                                                                                                   |
-| Finance and Operations | Microsoft Dynamics 365 for Operations, versione 1611 <br>oppure <br>Microsoft Dynamics AX versione 7.0/7.0.1 e aggiornamento 2 della piattaforma Microsoft Dynamics AX con hotfix KB 3210014 |
+| Finance and Operations | Microsoft Dynamics 365 for Operations versione 1611 <br>oppure <br>Microsoft Dynamics AX versione 7.0/7.0.1 e aggiornamento 2 della piattaforma Microsoft Dynamics AX con hotfix KB 3210014 |
 
 ## <a name="get-the-app"></a>Ottenere l'app
 -   Windows (UWP)
      - [Finance and Operations - Magazzino su Windows Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android
     - Windows (UWP): [Finance and Operations - Magazzino su Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
-    - Windows (UWP): [Finance and Operations - Magazzino su Zebra App Gallery](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
+
+> [!NOTE]
+> Zebra App Gallery è stato ritirato, di conseguenza l'app Finance and Operations - Magazzino non sarà più disponibile per il download da tale posizione.
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a>Creare un'applicazione servizio Web in Azure Active Directory
 Per abilitare l'app a interagire con un server Finance and Operations specifico, è necessario registrare un'applicazione servizio Web in Azure Active Directory per il tenant di Finance and Operations. Per motivi di sicurezza, si consiglia di creare un'applicazione servizio Web per ogni dispositivo utilizzato. Per creare un'applicazione servizio Web in Azure Active Directory (Azure AD), effettuare le seguenti operazioni:
@@ -93,7 +94,7 @@ Per abilitare Finance and Operations a utilizzare l'applicazione Azure AD, è ne
     + -**ID client Azure Active Directory** - L'ID client viene ottenuto nel passaggio 9 in "Creare un'applicazione servizio Web in Active Directory". 
     + **Segreto client Azure Active Directory** - Il segreto client ottenuto nel passaggio 11 in "Creare un'applicazione servizio Web in Active Directory". 
     + **Risorsa Azure Active Directory** - La risorsa Azure AD Directory mostra l'URL radice di Finance and Operations. **Nota**: non terminare questo campo con un carattere di barra (/). 
-    + **Azure Active directory tenant**: i tenant Azure AD usato con il server Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. Ad esempio: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    + **Azure Active directory tenant**: il tenant Azure AD usato con il server Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. Ad esempio: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Nota**: non terminare questo campo con un carattere di barra (/). 
     + **Società** - Immettere la persona giuridica in Finance and Operations a cui si desidera connettere l'applicazione. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Selezionare il pulsante **Indietro** nell'angolo superiore sinistro dell'applicazione. L'applicazione si connetterà al server Finance and Operations e apparirà la schermata di accesso per il lavoratore di magazzino. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
@@ -111,4 +112,3 @@ In caso di un dispositivo perso o compromesso, è necessario rimuovere l'accesso
 6.  Assicurarsi che l'**ID client** dell'applicazione sia lo stesso dell'ID nel passaggio 2 di questa sezione.
 7.  Fare clic sul pulsante **Elimina** nel riquadro superiore.
 8.  Nel messaggio di conferma, fare clic su **Sì**.
-

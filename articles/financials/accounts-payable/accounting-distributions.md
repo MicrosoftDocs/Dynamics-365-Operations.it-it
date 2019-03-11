@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ba6a581efe8353ccb9e02606db58d18550d71af
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 52cb689723584c862d85fa51a643b42096372a29
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320468"
 ---
-
 # <a name="accounting-distributions"></a>Distribuzioni contabili
 
 [!include [banner](../includes/banner.md)]
@@ -53,10 +52,9 @@ Le funzionalità di distribuzione contabile generiche forniscono le seguenti opz
     -   Il pulsante **Corretto** viene visualizzato ed è abilitato per i documenti che supportano le correzioni. **Corretto** crea nuove distribuzioni. Innanzitutto, distribuzioni vengono create per stornare le distribuzioni originali. Queste distribuzioni non possono essere modificate. A questo punto, nuove distribuzioni contabili correte vengono create. Le distribuzioni possono essere modificate se le distribuzioni originali potevano essere modificate.
     -   Il pulsante**Dettagli progetto** è abilitato come estensione quando una riga è correlata a un progetto. Le distribuzioni contabili di progetto consentono di modificare dettagli, quali la fonte di finanziamento e la proprietà riga.
     -   È possibile visualizzare lo stato contabile del documento corrente in **Riferimento**. Lo stato è per l'intero documento e indica se il documento è in corso o completato.
--   ** Visualizza distribuzioni**: consente di visualizzare le distribuzioni contabili per tutte le righe e gli importi monetari del documento. Non è possibile modificare le distribuzioni contabili da questa visualizzazione.
+-   **Visualizza distribuzioni**: consente di visualizzare le distribuzioni contabili per tutte le righe e gli importi monetari del documento. Non è possibile modificare le distribuzioni contabili da questa visualizzazione.
 
 
 Per ulteriori informazioni, vedere [Distribuzioni contabili e sugli inserimenti nel giornale di registrazione secondario per le fatture a testo libero](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: Integrazione fiscale per il canale di vendita al dettaglio
-description: In questo argomento viene fornita una panoramica di integrazione fiscale per Retail POS.
+title: Panoramica dell'integrazione fiscale per i canali di vendita al dettaglio
+description: In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Microsoft Dynamics 365 for Retail.
 author: josaw
 manager: annbe
-ms.date: 11/01/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -15,122 +15,104 @@ ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: v-kikozl
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2019-1-16
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c852d095505abecbd44d29e9e7b53875e9069def
-ms.contentlocale: it-it
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377137"
 ---
-# <a name="fiscal-integration-for-retail-channel"></a>Integrazione fiscale per il canale di vendita al dettaglio
+# <a name="overview-of-fiscal-integration-for-retail-channels"></a>Panoramica dell'integrazione fiscale per i canali di vendita al dettaglio
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Microsoft Dynamics 365 for Retail. La funzionalità di integrazione fiscale è un framework progettato per supportare le leggi fiscali locali che sono destinate per impedire la frode nel settore della vendita al dettaglio. Gli scenari comuni che possono essere coperti utilizzando l'integrazione fiscale sono:
+## <a name="introduction"></a>Introduzione
 
-- Stampare una ricevuta fiscale e darla al cliente.
-- Proteggere l'invio delle informazioni relative alle vendite e ai resi eseguiti sul POS a un servizio esterno fornito dall'autorità competente.
-- Utilizzare la protezione dei dati con una firma digitale autorizzata dall'autorità competente.
+In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Microsoft Dynamics 365 for Retail. L'integrazione fiscale include l'integrazione con vari servizi e dispositivi fiscali che consentono la registrazione fiscale delle vendite al dettaglio in conformità con le leggi fiscali locali intese a impedire la frode fiscale nel settore della vendita al dettaglio. Di seguito sono riportati alcuni scenari comuni che possono essere coperti utilizzando l'integrazione fiscale: 
 
-In questo argomento vengono fornite indicazioni per l'impostazione di integrazione fiscale in modo che gli utenti possano eseguire le attività seguenti. 
+- Registrare una vendita al dettaglio in un dispositivo fiscale collegato al Retail POS, ad esempio una stampante fiscale, e stampare una ricevuta fiscale per il cliente.
+- Inviare in modo sicuro informazioni relative a vendite e resi completati in Retail POS a un servizio Web esterno gestito dall'ufficio tributario competente.
+- Assicurare l'inalterabilità dei dati delle transazioni di vendita mediante firme digitali.
 
-- Configurare i connettori fiscali, ovvero dispositivi o servizi fiscali utilizzati a scopo di registrazione fiscale come il salvataggio, le firme digitali e l'invio protetto dei dati fiscali.
-- Configurare il fornitore di documenti, che definisce un metodo di output e un algoritmo di generazione dei documenti fiscali.
-- Configurare il processo di registrazione fiscale, ovvero definire una sequenza di passaggi e un gruppo di connettori utilizzati in ogni passaggio.
-- Assegnare i processi di registrazione fiscale ai profili funzionalità POS.
-- Assegnare profili tecnici del connettore a profili hardware (per i connettori fiscali locali) o a profili funzionalità POS (per altri tipi di connettori fiscali).
+La funzionalità di integrazione fiscale in Retail è un framework che fornisce una soluzione comune per un ulteriore sviluppo e personalizzazione dell'integrazione tra Retail POS e i servizi e i dispositivi fiscali. La funzionalità include inoltre campioni di integrazione fiscale che supportano scenari di vendita al dettaglio di base per specifici paesi o aree geografiche e utilizzabili con specifici servizi o dispositivi fiscali. Un esempio di integrazione fiscale è costituito da più estensioni di componenti di Retail ed è incluso nel kit SDK di Retail. Per ulteriori informazioni sugli esempi di integrazione fiscale disponibili in Retail SDK, vedere [Esempi di integrazione fiscale in Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Per informazioni su come installare e utilizzare Retail SDK, vedere [Panoramica di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-## <a name="fiscal-integration-execution-flow"></a>Flusso di esecuzione di integrazione fiscale
-Lo scenario seguente illustra il flusso comune di esecuzione di integrazione fiscale.
+Per supportare altri scenari non supportati da un esempio di integrazione fiscale, integrare Retail Retail POS con altri servizi o dispositivi fiscali o soddisfare i requisiti di altri paesi o aree geografiche, è necessario estendere un esempio di integrazione fiscale esistente o creare un nuovo esempio utilizzando un esempio esistente.
 
-1. Inizializzazione del processo di registrazione fiscale.
-  
-   Una volta eseguite alcune azioni in cui la registrazione fiscale è necessaria, ad esempio dopo che una transazione di vendita al dettaglio è stata terminata, il processo di registrazione fiscale viene associato al profilo funzionalità POS corrente.
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Processo di registrazione fiscale ed esempi di integrazione fiscale per dispositivi fiscali
 
-1. Ricerca di un connettore fiscale.
-   
-   Per ciascun passaggio di registrazione fiscale incluso nel processo di registrazione fiscale, il sistema abbina l'elenco dei connettori fiscali. Questi connettori hanno un profilo funzionale incluso nel gruppo specifico di connettori, con un elenco di connettori che hanno un profilo tecnico associato al profilo hardware corrente (per un tipo di connettori che corrisponde a **Locale** solo) o con il profilo funzionalità POS corrente (per altri tipi di connettore).
-   
-1. Eseguire l'integrazione fiscale.
+Un processo di registrazione fiscale in Retail POS può essere costituito da una o più fasi. Ogni fase comporta la registrazione fiscale di specifici eventi o transazioni di vendita al dettaglio in un servizio o dispositivo fiscale. I componenti seguenti contribuiscono alla registrazione fiscale in un dispositivo fiscale collegato a una stazione hardware:
 
-   Il sistema esegue tutte le azioni necessarie definite da un assembly collegato al connettore trovato. Ciò avviene in conformità alle impostazioni del profilo funzionale e del profilo tecnico che sono state rilevati nel passaggio precedente per questo connettore.
+- **Estendibilità di Commerce Runtime (CRT)** - Questo componente serializza i dati di evento/transazione di vendita al dettaglio nel formato utilizzato anche per l'interazione con il dispositivo fiscale, analizza le risposte del dispositivo fiscale e le archivia nel database del canale. L'estensione inoltre definisce le transazioni e gli eventi specifici che è necessario registrare. Questo componente è spesso denominato *fornitore di documenti fiscali*.
+- **Estensione stazione hardware** - Questo componente inizializza la comunicazione con il dispositivo fiscale, invia le richieste e i comandi al dispositivo fiscale in base ai dati di evento/transazione di vendita al dettaglio estratti dal documento fiscale e riceve le risposte dal dispositivo fiscale. Questo componente è spesso denominato *connettore fiscale*.
 
-## <a name="setup-needed-before-using-fiscal-integration"></a>Impostazione necessaria prima di utilizzare l'integrazione fiscale
-Per utilizzare la funzionalità di integrazione fiscale, è necessario definire le seguenti impostazioni:
+Un esempio di integrazione fiscale per un dispositivo fiscale contiene le estensioni CRT e stazione hardware per rispettivamente un fornitore di documenti fiscali e un connettore fiscale. Include inoltre le configurazioni di componente seguenti:
 
-- La sequenza numerica nella pagina **Parametri di vendita al dettaglio** per il numero di profilo funzionale fiscale.
-  
-- Le sequenze numeriche nella pagina **Parametri condivisi di vendita al dettaglio** per i riferimenti seguenti:
-  
-  - Numero del profilo tecnico fiscale
-  - Numero del gruppo di connettori fiscali
-  - Numero del processo di registrazione
+- **Configurazione fornitore di documenti fiscali** - Questa configurazione definisce un metodo di output e un formato per i documenti fiscali. Include inoltre un mapping dei dati per le imposte e i metodi di pagamento, per rendere i dati di Retail POS compatibili con i valori predefiniti nel firmware del dispositivo fiscale.
+- **Configurazione di connettore fiscale** - Questa configurazione definisce la comunicazione fisica con il dispositivo fiscale.
 
-- Creare im **Connector fiscale** in **Vendita al dettaglio > Impostazione canale > Integrazione fiscale > Connettori fiscali** per ogni dispositivo o servizi che si prevede di utilizzare per scopi di integrazione fiscale.
+Un processo di registrazione fiscale per un registro POS specifico viene definito tramite un'impostazione corrispondente nel profilo funzionalità POS. Per ulteriori informazioni su come configurare un processo di registrazione fiscale, caricare le configurazioni di fornitore di documenti fiscali e di connettore fiscale e modificarne i parametri, vedere [Configurazione di un processo di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
--  Creare un **Fornitore di documenti fiscali** **Vendita al dettaglio > Impostazione canale > Integrazione fiscale > Fornitori di documenti fiscali** per tutti i connettori fiscali. Il mapping dei dati viene considerato parte del fornitore di documenti fiscali. Per impostare i mapping dei dati diversi per lo stesso connettore (ad esempio le normative specifiche di stato), è necessario creare diversi fornitori di documenti fiscali.
+Nell'esempio seguente viene illustrato un flusso di esecuzione di registrazione fiscale tipico per un dispositivo fiscale. Il flusso inizia con un evento nel POS (ad esempio, il completamento di una transazione di vendita) e implementa la seguente sequenza di fasi:
 
-- Creare un **Profilo funzionale del connettore** in **Vendita al dettaglio > Impostazione canale > Integrazione fiscale > Profili funzionali del connettore** per ciascun fornitore di documenti fiscali.
-  - Selezionare un nome di connettore.
-  - Selezionare un fornitore di documenti.
-  - Specificare impostazioni di aliquote IVA nella scheda **Impostazione servizio**.
-  - Specificare il mapping di codici IVA e il mapping dei tipi di pagamento nella scheda **Mapping dei dati**.
+1. Il POS richiede un documento fiscale da CRT.
+2. CRT determina se l'evento corrente richiede la registrazione fiscale.
+3. In base alle impostazioni del processo di registrazione fiscale, CRT identifica un connettore fiscale e un fornitore di documenti fiscali corrispondente da utilizzare per la registrazione fiscale.
+4. CRT esegue il fornitore di documenti fiscali che genera un documento fiscale (ad esempio, un documento XML) che rappresenta l'evento o la transazione di vendita al dettaglio.
+5. Il POS invia il documento fiscale preparato da CRT a una stazione hardware.
+6. La stazione hardware esegue il connettore fiscale che elabora il documento fiscale e lo comunica al servizio o al dispositivo fiscale.
+7. Il POS analizza la risposta del servizio o del dispositivo fiscale per determinare se la registrazione fiscale è stata eseguita correttamente.
+8. CRT salva la risposta nel database del canale.
 
-  #### <a name="examples"></a>Esempi 
+![Schema soluzione](media/emea-fiscal-integration-solution.png "Schema soluzione")
 
-  |  | Formatta | Esempio | 
-  |--------|--------|--------|
-  | Impostazioni aliquote IVA | value : VATrate | 1 : 2000, 2 : 1800 |
-  | Mapping codici IVA | VATcode : value | vat20 : 1, vat18 : 2 |
-  | Mapping tipi di metodo di pagamento | TenderTyp : value | Cash : 1, Card : 2 |
+## <a name="error-handling"></a>Gestione errori
 
-- Creare **Gruppi di connettori fiscali** in **Vendita al dettaglio > Impostazione canale > Integrazione fiscale > Gruppo di connettori fiscali**. Un gruppo di connettori è un sottoinsieme dei profili funzionali collegati ai connettori fiscali che eseguono funzioni identiche e sono utilizzati nella stessa fase in un processo di registrazione fiscale.
+Il framework di integrazione fiscale fornisce le seguenti opzioni per gestire gli errori durante la registrazione fiscale:
 
-   - Aggiungere profili funzionali al gruppo di connettori. Fare clic su **Aggiungi** nella pagina **Profili funzionali** e selezionare un numero di profilo.
-   - Se si desidera sospendere l'utilizzo del profilo funzionale, impostare **Disattiva** su **Sì**. 
-   
-     Questa modifica ha effetto solo sul gruppo di connettori corrente. È possibile continuare a utilizzare lo stesso profilo funzionale in altri gruppi di connettori.
+- **Riprova** - Gli operatori possono utilizzare questa opzione quando l'errore può essere risolto rapidamente e la registrazione fiscale può essere eseguita di nuovo. Ad esempio, questa opzione può essere utilizzata quando il dispositivo fiscale non è collegato, la carta è esaurita o inceppata nella stampante fiscale.
+- **Annulla** - Questa opzione consente agli operatori di posticipare la registrazione fiscale della transazione o dell'evento corrente se questo ha esito negativo. Dopo che la registrazione è stata posticipata, l'operatore può continuare a utilizzare il POS e completare le operazioni per le quali la registrazione fiscale non è necessaria. Quando si verifica un evento che richiede la registrazione fiscale nel POS (ad esempio, viene aperta una nuova transazione), la finestra di dialogo di gestione degli errori viene automaticamente visualizzata per informare l'operatore che la transazione precedente non è stata registrata correttamente e per fornire le opzioni di gestione degli errori.
+- **Ignora** - Gli operatori possono utilizzare questa opzione quando la registrazione fiscale può essere omessa in determinate condizioni e le operazioni normali possono essere eseguite nel POS. Ad esempio, questa opzione può essere utilizzata se una transazione di vendita per la quale la registrazione fiscale non è riuscita può essere registrata in un giornale speciale.
+- **Contrassegna come registrato** - Gli operatori possono utilizzare questa opzione quando la transazione è stata effettivamente registrata nel dispositivo fiscale (ad esempio, è stata stampata una ricevuta fiscale), ma si è verificato un errore durante il salvataggio della risposta fiscale nel database del canale.
 
-     >[!NOTE]
-     > In un gruppo di connettori, ogni connettore fiscale può avere un solo profilo funzionale.
+> [!NOTE]
+> Le opzioni **Ignora** e **Contrassegna come registrato** devono essere attivate nel processo di registrazione fiscale prima di essere utilizzate. Inoltre, le autorizzazioni corrispondenti devono essere concesse agli operatori.
 
-- Creare un **Profilo tecnico del connettore** in **Vendita al dettaglio > Impostazione canale > Integrazione fiscale > Profili tecnici del connettore** per ciascun connettore fiscale.
-  - Selezionare un nome di connettore.
-  - Selezionare un tipo di connettore: 
-      - **Locale** - Impostare questo tipo per dispositivi fisici o applicazioni installate in un computer locale.
-      - **Interno** - Impostare questo tipo per i dispositivi e i servizi fiscali connessi al Server Retail.
-      - **Esterno** - Per i servizi fiscali esterni come un portale Web fornito da un ufficio tributario.
-    
-  - Specificare le impostazioni della scheda **Connessione**.
+Le opzioni **Ignora** e **Contrassegna come registrato** attivano codici informativi per acquisire alcune informazioni specifiche sull'errore, ad esempio la causa dell'errore o il motivo per aver ignorato la registrazione fiscale o contrassegnato la transazione come registrata. Per ulteriori informazioni su come impostare i parametri di gestione degli errori, vedere [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-      
- >[!NOTE]
- > Una versione aggiornata di una configurazione che è stata precedentemente caricata verrà caricata per i profili sia funzionali sia tecnici. Se un connettore o un fornitore di documenti appropriato è già in uso, verrà inviata una notifica. Per impostazione predefinita, tutte le modifiche che sono state create manualmente nei profili funzionali e tecnici verranno archiviate. Per sostituire questi profili con il set predefinito di parametri di una configurazione, fare clic su **Aggiorna** nella pagina **Profili funzionali del connettore** e nella pagina **Profili tecnici del connettore**.
- 
-- Creare un **Processo di registrazione fiscale** in **Vendita al dettaglio > Impostazione canale > Integrazione fiscale > Processi di registrazione fiscale** per ogni processo univoco dell'integrazione fiscale. Un processo di registrazione è definito dalla sequenza di passaggi di registrazione e dal gruppo di connettori utilizzato in ogni passaggio. 
-  
-  - Aggiungere i passaggi di registrazione al processo:
-      - Fare clic su **Aggiungi**.
-      - Selezionare un tipo di connettore.
-      
-      >[!NOTE]
-      > Questo campo definisce dove il sistema cerca il connettore in un profilo tecnico, nei profili hardware per il tipo di connettore **Locale** o nei profili funzionalità POS per gli altri tipi di connettore fiscale.
-      
-   - Selezionare un gruppo di connettori.
-   
-     >[!NOTE]
-     > Scegliere **Convalida** per verificare l'integrità della struttura del processo di registrazione. Si consiglia di eseguire convalide nei seguenti casi:
-       >- Per un nuovo processo di registrazione dopo che tutte le impostazioni vengono completate, inclusi l'associazione ai profili funzionalità POS e ai profili hardware.
-       >- Dopo aver apportato aggiornamenti a un processo di registrazione esistente.
+## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Archiviazione della risposta fiscale nella transazione fiscale
 
--  Associare i processi di registrazione fiscale ai profili funzionalità POS in **Vendita al dettaglio > Impostazione canale > Impostazioni POS > Profili POS > Profili funzionalità**.
-   - Fare clic su **Modifica** e selezionare **Numero processo** nella scheda **Processo di registrazione fiscale**.
-- Associare i profili tecnici del connettore ai profili hardware in **Vendita al dettaglio >  Impostazioni canale > Impostazioni POS > Profili POS > Profili hardware**.
-   - Fare clic su **Modifica**, quindi fare clic su **Nuovo** nella scheda **Profilo tecnico fiscale**.
-   - Selezionare un profilo tecnico del connettore nel campo **Numero profilo**.
-   
-     >[!NOTE]
-     > È possibile aggiungere più profili tecnici a un profilo hardware. Tuttavia, ciò non è supportato se un profilo hardware contiene più di un'intersezione con qualsiasi gruppo di connettori. Per evitare le impostazioni non corrette, è consigliabile convalidare il processo di registrazione dopo l'aggiornamento di tutti i profili hardware.
+Quando la registrazione fiscale di una transazione o di un evento ha esito positivo, una transazione fiscale viene creata nel database del canale e collegata alla transazione o all'evento originale. Analogamente, se l'opzione **Ignora** o **Contrassegna come registrato** è selezionata per una registrazione fiscale non riuscita, queste informazioni vengono archiviate in una transazione fiscale. Una transazione fiscale include la risposta fiscale del dispositivo o del servizio fiscale. Se il processo di registrazione fiscale comporta varie fasi, una transazione fiscale viene creata per ogni fase del processo che ha generato una registrazione riuscita o non riuscita.
 
+Le transazioni fiscali vengono trasferite a Retail Headquarters dal *processo P*, insieme alle transazioni di vendita al dettaglio. Nella scheda Dettaglio **Transazioni fiscali** della pagina **Transazioni punto vendita al dettaglio**, è possibile visualizzare le transazioni fiscali collegate alle transazioni di vendita al dettaglio.
+
+Una transazione fiscale archivia i seguenti dettagli:
+
+- Dettagli del processo di registrazione fiscale (processo, gruppo di connettori, connettore e così via). Archivia inoltre il numero di serie del dispositivo fiscale nel campo **Numero registratore di cassa**, se queste informazioni sono incluse nella risposta fiscale.
+- Lo stato della registrazione fiscale: **Completata** per una registrazione fiscale riuscita, **Ignorata** se l'operatore ha selezionato l'opzione **Ignora** per una registrazione non riuscita o **Contrassegnata come registrata** se l'operatore ha selezionato l'opzione **Contrassegna come registrata**.
+- Transazioni codice informativo correlate a una transazione fiscale selezionata. Per visualizzare le transazioni codice informativo, nella scheda Dettaglio **Transazioni fiscali**, selezionare una transazione fiscale con stato **Ignorata** o **Contrassegnata come registrata** e quindi selezionare **Transazioni codice informativo**.
+
+## <a name="fiscal-texts-for-discounts"></a>Testi fiscali per sconti
+
+Alcuni paesi o aree geografiche hanno requisiti speciali su testi aggiuntivi che devono essere stampati sulle ricevute fiscali quando diversi tipi di sconti vengono applicati. La funzionalità di integrazione fiscale consente di impostare un testo speciale per uno sconto che viene stampato dopo una riga di sconto su una ricevuta fiscale. Per gli sconti manuali, è possibile configurare un testo fiscale per il codice informativo specificato come codice informativo **Sconto prodotti** nel profilo funzionalità POS. Per ulteriori informazioni su come impostare testi fiscali per gli sconti, vedere [Impostare testi fiscali per sconti](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
+
+## <a name="printing-fiscal-x-and-fiscal-z-reports"></a>Stampa di report X e Z fiscali
+
+La funzionalità di integrazione fiscale supporta la generazione di rendiconti giornalieri specifici al dispositivo o al servizio fiscale integrato:
+
+- I nuovi pulsanti che eseguono le operazioni corrispondenti devono essere aggiunti al layout dello schermo POS. Per ulteriori informazioni, vedere [Configurare report X/Z fiscali dal POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+- Nell'esempio di integrazione fiscale, queste operazioni devono corrispondere alle relative operazioni del dispositivo fiscale.
+
+## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Esempi di integrazione fiscale in Retail SDK
+
+I seguenti esempi di integrazione fiscale sono attualmente disponibili nel Retail SDK rilasciato con Retail:
+
+- [Esempio di integrazione di stampante fiscale per l'Italia](emea-ita-fpi-sample.md)
+- [Esempio di integrazione di stampante fiscale per la Polonia](emea-pol-fpi-sample.md)
+
+La seguente funzionalità di integrazione fiscale è disponibile anche in Retail SDK ma attualmente non utilizza il framework di integrazione fiscale. La migrazione di questa funzionalità al framework di integrazione fiscale è prevista negli aggiornamenti successivi.
+
+- [Firma digitale per la Francia](emea-fra-cash-registers.md)
+- [Firma digitale per la Norvegia](emea-nor-cash-registers.md)
+- [Esempio di integrazione di un'unità di controllo per la Svezia](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)

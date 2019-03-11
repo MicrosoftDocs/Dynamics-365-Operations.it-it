@@ -1,13 +1,13 @@
 ---
 title: Opzioni di formattazione avanzate nei report finanziari
-description: "Quando si crea un report nei report finanziari, sono disponibili funzioni di formattazione aggiuntive, inclusi i filtri per dimensioni, restrizioni per le colonne e le unità di report, righe non stampabili e istruzioni IF/THEN/ELSE nei calcoli."
+description: Quando si crea un report nei report finanziari, sono disponibili funzioni di formattazione aggiuntive, inclusi i filtri per dimensioni, restrizioni per le colonne e le unità di report, righe non stampabili e istruzioni IF/THEN/ELSE nei calcoli.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335579"
 ---
-
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opzioni di formattazione avanzate nei report finanziari
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Nella seguente tabella vengono illustrate le funzioni avanzate di formattazione 
 ## <a name="advanced-cell-placement"></a>Posizionamento avanzato nelle celle
 Il posizionamento avanzato nelle celle, o *posizionamento forzato*, implica la collocazione di valori specifici in celle specifiche. Ad esempio, il posizionamento forzato viene usato spesso per spostare il saldo corretto in un rendiconto del flusso di cassa. È possibile utilizzare il posizionamento formato per gli scopi seguenti:
 
-- Immettere i valori da Microsoft Excel in celle specifiche.
+- Spostare valori da Microsoft Excel in celle specifiche.
 - Immettere i valori hardcoded specifici in un report.
 - Modificare i segni copiando un valore da una cella precedente e moltiplicando il valore per -1.
 
@@ -192,7 +191,7 @@ Una formula di calcolo in una definizione di riga può includere gli operatori *
 
 ### <a name="operators-in-a-calculation-formula"></a>Operatori in una formula di calcolo
 
-Una formula di calcolo utilizza operatori più complessi di una formula di totale delle righe. Tuttavia, è possibile utilizzare gli operatori **\*** e **/** con gli operatori aggiuntivi per moltiplicare (\*) e per dividere (/) gli importi. Per utilizzare un intervallo o una somma in una formula di calcolo, è necessario utilizzare la chiocciola (@) davanti a qualsiasi codice di riga, a meno che stiate utilizzando una colonna nella definizione di riga. Ad esempio, per sommare l'importo nella riga 100 all'importo nella riga 330, è possibile utilizzare la formula del totale delle righe **100+330** o la formula di calcolo **@100+@330**.
+Una formula di calcolo utilizza operatori più complessi di una formula di totale delle righe. Tuttavia, è possibile utilizzare gli operatori **\*** e **/** con gli operatori aggiuntivi per moltiplicare (\*) e per dividere (/) gli importi. Per utilizzare un intervallo o una somma in una formula di calcolo, è necessario utilizzare la chiocciola (@) davanti a qualsiasi codice di riga, a meno che stiate utilizzando una colonna nella definizione di riga. Ad esempio, per sommare l'importo nella riga 100 all'importo della riga 330, è possibile utilizzare la formula del totale delle righe **100+330** o la formula di calcolo **@100+@330**.
 
 > [!NOTE]
 > Utilizzare il simbolo della chiocciola (@) prima di ciascun codice di riga utilizzato in una formula di calcolo. In caso contrario, il numero viene letto come importo assoluto. Ad esempio, la formula **@100+330** aggiunge 330 USD all'importo nella riga 100. Quando si fa riferimento a una colonna in una formula di calcolo, la chiocciola (@) non è necessaria.
@@ -209,9 +208,9 @@ In questo esempio, la formula di calcolo **@100+@330** indica che l'importo nell
 
 | Codice di riga | Descrizione                 | Codice formato | Unità/righe/formule correlate | Controllo stampa | Modificatore di riga | Collegamento a dimensioni finanziarie |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Liquidità a inizio periodo |             |                            | NP            | BB           | +Account=\[1100:1110\]       |
-| 370      | Liquidità a inizio anno   | CAL         | @100+@330                  | NP            |              |                              |
-| 400      | Liquidità a inizio periodo | TOT         | 340+370                    |               |              |                              |
+| 340      | Importo di cassa all'inizio del periodo |             |                            | NP            | BB           | +Account=\[1100:1110\]       |
+| 370      | Importo di cassa all'inizio dell'anno   | CAL         | @100+@330                  | NP            |              |                              |
+| 400      | Importo di cassa all'inizio del periodo | TOT         | 340+370                    |               |              |                              |
 
 Quando la riga in una definizione di riga ha un codice formato **CAL** e si immette un calcolo matematico nella cella **Unità/righe/formule correlate**, è inoltre necessario immettere la lettera della colonna e della riga associate nel report. Ad esempio, immettere **A.120** per indicare la colonna A, riga 120. In alternativa, è possibile utilizzare la chiocciola (@) per indicare tutte le colonne. Ad esempio, immettere **@120** per indicare tutte le colonne, riga 120. Tutti i calcoli matematici per cui non è presente una lettera di colonna o una chiocciola (@) vengono considerati come un numero reale.
 
@@ -244,9 +243,9 @@ Quando si modifica un numero o un calcolo in una colonna di una riga specifica m
 
 | Calcolo            | Azione creata                                                                                                   |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| @130\*,75              | Per ciascuna colonna, il valore nella riga 130 viene moltiplicato per 0,75. Il risultato viene quindi inserito nella riga corrente di ogni colonna. |
-| B=@130\*,75            | Lo stesso calcolo viene eseguito solo sulla colonna B.                                                                      |
-| A,B,C=(@100/@130)\*,75 | A=(A.100/A.130)\*,75 B=(B.100/B.130)\*,75 C=(C.100/C.130)\*,75                                                           |
+| @130\*0,75              | Per ciascuna colonna, il valore nella riga 130 viene moltiplicato per 0,75. Il risultato viene quindi inserito nella riga corrente di ogni colonna. |
+| B=@130\*0,75            | Lo stesso calcolo viene eseguito solo sulla colonna B.                                                                      |
+| A,B,C=(@100/@130)\*0,75 | A=(A.100/A.130)\*,75 B=(B.100/B.130)\*,75 C=(C.100/C.130)\*,75                                                           |
 
 ### <a name="ifthenelse-statements-in-a-row-definition"></a>Istruzioni IF/THEN/ELSE in una definizione di riga
 
@@ -267,8 +266,8 @@ Il termine **Periodi** in un'istruzione **IF** rappresenta il numero di periodi 
 Le formule **THEN** ed **ELSE** possono essere qualsiasi calcolo valido, da assegnazioni di valori molto semplici a formule complesse. Ad esempio, l'istruzione **IF A.200&gt;0 THEN A=B.200** indica "se il valore nella cella nella colonna A della riga 200 è maggiore di 0 (zero), inserisci il valore della cella nella colonna B della riga 200 nella cella nella colonna A della riga corrente". L'istruzione **IF/THEN** precedente inserisce un valore in una colonna della riga corrente. Tuttavia, è possibile anche utilizzare una chiocciola (@) nelle valutazioni true/false o nella formula per rappresentare tutte le colonne. Di seguito sono riportati alcuni altri esempi descritti nelle sezioni seguenti:
 
 - **IF A.200 &gt;0 THEN B.200**: se il valore nella cella A.200 è positivo, il valore della cella B.200 viene immesso in ogni colonna della riga corrente.
-- **IF A.200 &gt;0 THEN @200**: se il valore nella cella A.200 è positivo, il valore di ciascuna colonna nella riga 200 viene immesso nella colonna corrispondente della riga corrente.
-- **IF @200 &gt;0 THEN @200**: se il valore nella riga 200 della colonna corrente è positivo, il valore della riga 200 viene immesso nella stessa colonna della riga corrente.
+- **IF A.200 &gt;0 THEN @200**: Se il valore nella cella A.200 è positivo, il valore di ciascuna colonna nella riga 200 viene immesso nella colonna corrispondente della riga corrente.
+- **IF @200 &gt;0 THEN @200**: Se il valore nella riga 200 della colonna corrente è positivo, il valore della riga 200 viene immesso nella stessa colonna della riga corrente.
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Limitazione di un calcolo a un'unità gerarchica in una definizione di riga
 
@@ -281,7 +280,7 @@ La riga di calcolo può fare riferimento a una riga di calcolo o una riga di dat
 
 - Immettere un nome di unità per includere le unità che corrispondono. Ad esempio, **IF @Unit(SALES)** abilita il calcolo per qualsiasi unità denominata SALES, anche se sono presenti più unità SALES nell'albero gerarchico.
 - Immettere il nome della società e dell'unità per limitare il calcolo a unità specifiche di una società specifica. Ad esempio, immettere **IF @Unit(ACME:SALES**) per limitare il calcolo alle unità SALES della società ACME.
-- Immettere il codice di gerarchia completo dall'albero gerarchico per limitare il calcolo a un'unità specifica. Ad esempio, immettere **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
+- Immettere il codice gerarchia completo dell'albero gerarchico per limitare il calcolo a un'unità specifica. Ad esempio, immettere **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
 > Per individuare il codice di gerarchia completo, fare clic con il pulsante destro del mouse sulla definizione di albero gerarchico, quindi selezionare **Copia identificatore unità gerarchica (codice H)**.
@@ -298,4 +297,3 @@ Un'istruzione **IF/THEN/ELSE** abilita la dipendenza di un calcolo dai risultati
 
 > [!NOTE]
 > Non è possibile inserire i risultati di un calcolo in alcuna altra colonna. I risultati devono essere nella colonna che contiene la formula.
-

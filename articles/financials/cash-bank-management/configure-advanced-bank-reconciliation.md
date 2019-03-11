@@ -1,13 +1,13 @@
 ---
 title: Processo di impostazione per la riconciliazione bancaria avanzata
-description: "La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations.  In questo articolo verrà spiegata l'impostazione dei processi per la riconciliazione."
+description: La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 for Finance and Operations.  In questo articolo verrà spiegata l'impostazione dei processi per la riconciliazione.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357337"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>Processo di impostazione per la riconciliazione bancaria avanzata
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ La funzionalità **Utilizza rendiconti bancari come conferma di pagamenti elettr
 Il campo **Nome conto bancario nei rendiconti** è il nome utilizzato per il conto bancario nei rendiconti bancari elettronici.  Questo nome viene utilizzato per determinare le transazioni da importare per un conto bancario da un rendiconto che potrebbe contenere informazioni per più conti bancari. 
 
 L'opzione **Riconcilia dopo l'importazione** automaticamente convalida il rendiconto bancario, crea una nuova riconciliazione bancaria e un foglio di lavoro ed esegue il set di regole di abbinamento predefinite.  Questa funzionalità rende automatico il processo fino al punto in cui le transazioni devono essere abbinate manualmente.  L'impostazione del conto bancario verrà automaticamente definita durante l'importazione.
-
 
 
 

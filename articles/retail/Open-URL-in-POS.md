@@ -1,36 +1,35 @@
 ---
 title: Aprire un URL nel POS
-description: "Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Microsoft Dynamics 365 for Retail."
+description: Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Microsoft Dynamics 365 for Retail.
 author: AamirAllaq
 manager: AnnBe
-ms.date: 11/14/2018
+ms.date: 01/28/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b07406b4e218b45bdde87c4a579814fe0edbc286
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327092"
 ---
-
-# <a name="open-url-in-pos"></a>Aprire un URL nel POS
+# <a name="open-url-in-pos"></a>Aprire l'URL nel POS
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come configurare un pulsante nel Retail POS per aprire un URL. Questa funzionalità non richiede una personalizzazione del codice e può essere configurata da qualcuno cha ha un ruolo non sviluppatore.
+In questo argomento viene descritto come configurare un pulsante nel Retail POS per aprire un URL. Questa funzionalità non richiede una personalizzazione del codice e può essere configurata da qualcuno cha ha un ruolo non sviluppatore. Questa funzionalità è disponibile solo nella versione Dynamics 365 for Finance and Operations versione 8.1.3 (build 8.1.227.10014) e successive. 
 
 Questa funzionalità consente la configurazione di un pulsante nel POS, utilizzando la finestra di progettazione della griglia dei pulsanti per aprire un URL. Attualmente, è supportata nelle seguenti configurazioni:
 
@@ -60,9 +59,9 @@ Windows, Android e IOS consentono inoltre un'apertura più agevole delle app, in
 
 - Per Windows, vedere [Abilitare le app per i siti Web usando i gestori degli URI delle app](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
 - Per IOS, vedere [Universal Links for Developers](https://developer.apple.com/ios/universal-links/)..
-- Per Android, vedere [Handling Android App Links](https://developer.android.com/training/app-links/).
+- Per Android, vedere [Handling Android App Links](https://developer.android.com/training/app-links/)
 
-| Client                | Apri in nuova finestra | Apertura di un'app nativa | Apertura nel POS | Dettagli                           |
+| Cliente                | Apri in nuova finestra | Apertura di un'app nativa | Apertura nel POS | Dettagli                           |
 |-----------------------|--------------------|-----------------|-----------------|-----------------------------------|
 | Modern POS per Windows | ✓\*                | ✓               | ✓              | \*Apertura in una nuova finestra di Modern POS |
 | POS cloud             | ✓\*                | ✓               | X              | \*Apertura in una nuova scheda del browser        |
@@ -84,4 +83,3 @@ Per configurare un URL per l'apertura nel POS, effettuare le operazioni seguenti
 5. Selezionare **Apri URL** come azione.
 6. Immettere l'URL che si desidera utilizzare.
 7. Specificare se aprire l'URL in una nuova finestra.
-

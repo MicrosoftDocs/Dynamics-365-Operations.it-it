@@ -1,13 +1,13 @@
 ---
 title: Gruppi di calcolo DBA
-description: "In questo articolo sono riportate informazioni sui gruppi di calcolo per le distinte base (DBA) e su come impostarli. Per eseguire un calcolo DBA, è necessario impostare i gruppi di calcolo e assegnarli ai singoli articoli oppure impostare un gruppo di calcolo predefinito. Le impostazioni di calcolo dal gruppo di calcolo vengono poi utilizzate come valori predefiniti nella pagina Calcolo DBA al momento del calcolo DBA."
+description: In questo articolo sono riportate informazioni sui gruppi di calcolo per le distinte base (DBA) e su come impostarli. Per eseguire un calcolo DBA, è necessario impostare i gruppi di calcolo e assegnarli ai singoli articoli oppure impostare un gruppo di calcolo predefinito. Le impostazioni di calcolo dal gruppo di calcolo vengono poi utilizzate come valori predefiniti nella pagina Calcolo DBA al momento del calcolo DBA.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362880"
 ---
-
 # <a name="bom-calculations-groups"></a>Gruppi di calcolo DBA
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Un calcolo DBA genera messaggi di avviso. È possibile visualizzare avvisi su un
 -   Identificare quando per l'articolo in una riga DBA è indicata una percentuale di redditività inferiore a quella desiderata.
 
 È possibile definire più gruppi di calcolo DBA, a seconda dei requisiti per le variazioni nei messaggi di avviso. Un solo gruppo ad esempio con condizioni di avviso per una DBA attiva, una quantità componente pari a 0 (zero) e un costo componente pari a 0 (zero) potrebbe essere sufficiente. Quando si avvia un calcolo DBA, le condizioni di avviso associate al gruppo di calcolo DBA possono essere sostituite. È anche possibile aggiungere o rimuovere condizioni di avviso. Ad esempio, è possibile rimuovere la condizione di avviso relativa a un ciclo di lavorazione attivo se per la situazione corrente non sono coinvolti dati su tale ciclo. **Nota:** Orario e presenze include una pagina **Gruppi di calcolo**, ma la pagina non ha relazioni con i gruppi di calcolo DBA. In Orario e presenze i lavoratori possono essere assegnati a gruppi di calcolo che riflettono il raggruppamento dei lavoratori associati allo stesso supervisore o responsabile. Il calcolo delle registrazioni dei lavoratori può essere eseguito automaticamente o manualmente da un supervisore o un responsabile.
-
 
 
 

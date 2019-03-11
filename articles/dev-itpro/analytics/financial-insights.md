@@ -5,9 +5,9 @@ author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,15 +16,14 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: it-it
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308853"
 ---
-
 # <a name="financial-insights"></a>Informazioni finanziarie dettagliate
 
 [!include [banner](../includes/banner.md)]
@@ -125,7 +124,7 @@ Oltre all'interfaccia utente dell'area di lavoro originale **Panoramica responsa
 ## <a name="edit-visuals"></a>Modifica degli oggetti visivi
 Nella versione iniziale di **Informazioni finanziarie dettagliate** nessuno degli oggetti visivi può essere modificato. Nelle versioni future, gli utenti che dispongono della autorizzazioni di sicurezza appropriate saranno in grado di creare nuovi oggetti visivi, copiare oggetti esistenti e modificare oggetti visivi. Sebbene i file con estensione pbix che contengono i report siano disponibili come risorse, non è consigliabile modificare i report predefiniti. Verranno apportate ulteriori modifiche al modello dati, ai report predefiniti e all'oggetto visivo del rendiconto finanziario personalizzato che vengono utilizzati per creare i rendiconti finanziari. Pertanto, per sfruttare le nuove funzionalità e le modifiche al modello di dati della prossima versione, sarà necessario ripristinare tutte le modifiche apportate ai report predefiniti tramite Microsoft Power BI Desktop.
 
-## <a name="filtering"></a>Filtro
+## <a name="filtering"></a>Filtri
 Gli utenti possono filtrare il report utilizzando il riquadro **Filtro** a sinistra. Questo riquadro è lo stesso riquadro disponibile in Power BI Desktop. Esistono vari livelli di filtro, alcuni dei quali potrebbero non essere disponibili, a seconda di cosa si è selezionato in una pagina (scheda) o se si utilizzano le funzionalità drill-through:
 
 - **Filtri a livello di report**: questi filtri vengono applicati a tutti gli oggetti visivi su tutte le pagine (schede).
@@ -250,4 +249,3 @@ Le informazioni contenute nelle seguenti risorse non sono necessarie per abilita
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

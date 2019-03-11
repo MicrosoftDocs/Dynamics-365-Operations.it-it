@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326586"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>Gestire il lavoro in conto lavoro in produzione
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,6 @@ I prodotti semilavorati sono l'eccezione a questa regola. Per trasferire prodott
 **Nota:** Un ciclo di lavorazione di produzione per un singolo ordine di produzione non può attraversare più siti. Questa regola vale anche per il lavoro in conto lavoro. Di conseguenza, i magazzini che rappresentano ubicazioni gestite dal fornitore devono essere definiti nello stesso sito delle risorse interne utilizzate nel ciclo di lavorazione. Sebbene i flussi di produzione possano attraversare i siti, non possono trasportare i prodotti semilavorati da un sito a un altro, poiché tale operazione implica una modifica del contesto di costo.  
 
 In genere, il magazzino di uscita e l'ubicazione di un gruppo di risorse in conto lavoro vengono assegnati direttamente al magazzino e l'ubicazione del passaggio successivo dell'operazione nel ciclo di lavorazione o nel flusso di produzione. Questa impostazione consente di ridurre la quantità di segnalazione processi o il numero di operazioni di trasferimento aggiuntive da modellare.
-
 
 
 

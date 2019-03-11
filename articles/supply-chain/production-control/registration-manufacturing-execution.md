@@ -1,13 +1,13 @@
 ---
 title: Registrazione per Esecuzione produzione
-description: "In questo argomento vengono descritti i concetti e termini importanti con cui sarà necessario acquisire familiarità per configurare e utilizzare la funzionalità di esecuzione produzione."
+description: In questo argomento vengono descritti i concetti e termini importanti con cui sarà necessario acquisire familiarità per configurare e utilizzare la funzionalità di esecuzione produzione.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1bbcd7ebea869f921c2eadd05e64509ff9246aa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e5d4ee2fb1cd58107043939c3721fd857909f16b
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318168"
 ---
-
 # <a name="registration-for-manufacturing-execution"></a>Registrazione per Esecuzione produzione
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ I lavoratori possono effettuare diversi tipi di registrazioni in esecuzione prod
 -   **Registrazione delle pause** (disponibile nel modulo Orario e presenze) - Nel corso della giornata lavorativa, un lavoratore può registrare eventuali allontanamenti dalla propria postazione di lavoro per prendere delle pause. È possibile impostare diversi tipi di pausa. Quando il lavoratore torna ed esegue di nuovo l'accesso, nel sistema viene registrato il ritorno del lavoratore e viene interrotta la registrazione della pausa.
 -   **Registrazione di attività indirette** (disponibile nel modulo Orario e presenze) - Con il termine attività indirette si fa riferimento alle attività non produttive in cui potrebbe essere impegnato un lavoratore durante la giornata lavorativa, ad esempio riunioni di reparto o del team oppure attività di manutenzione svolte nello shop floor. I lavoratori possono effettuare registrazioni per le attività indirette preimpostate.
 -   **Registrazione degli straordinari** (disponibile nel modulo Orario e presenze) - Se a un lavoratore è stato chiesto di continuare il lavoro oltre l'orario standard, sarà possibile registrare le ore aggiuntive come orario flessibile o straordinario.
-
 
 
 

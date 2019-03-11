@@ -1,13 +1,13 @@
 ---
 title: Avvisi
-description: "Vengono fornite informazioni generali sugli avvisi in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa."
+description: Vengono fornite informazioni generali sugli avvisi in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367457"
 ---
-
 # <a name="alerts"></a>Avvisi
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>Informazioni sugli avvisi
-Gli avvisi costituiscono un sistema di notifica per gli eventi critici in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa. È possibile creare facilmente una serie di regole di avviso allo scopo di ricevere avvisi relativi a consegne scadute, ordini eliminati, prezzi modificati o altri eventi per i quali è necessario intraprendere un'azione.
+Gli avvisi formano un sistema di notifica per gli eventi critici in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa. È possibile creare facilmente una serie di regole di avviso allo scopo di ricevere avvisi relativi a consegne scadute, ordini eliminati, prezzi modificati o altri eventi per i quali è necessario intraprendere un'azione.
 
 Nella pianificazione delle risorse aziendali (ERP, Enterprise Resource Planning), esistono diversi scenari tipici in cui la funzionalità Avvisi di Finance and Operations può essere utilizzata. Di seguito sono riportati alcuni esempi.
 
@@ -78,4 +77,3 @@ Una regola di avviso include cinque componenti:
 ## <a name="email-notifications-from-alerts"></a>Notifiche e-mail da avvisi
 
 Le notifiche e-mail da avvisi non sono ancora attivate. Questa funzionalità verrà attivata in un aggiornamento futuro.
-

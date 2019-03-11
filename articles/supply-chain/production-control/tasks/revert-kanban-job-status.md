@@ -1,13 +1,13 @@
---- 
+---
 title: Ripristina stato del processo kanban
 description: La procedura riguarda il ripristino di uno stato non di processo kanban non corretto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 27874f89cede151b52b869fa0d58e320d548e6d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d359232da5f3087b1e6baed182a20da09aeff7
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352093"
 ---
 # <a name="revert-kanban-job-status"></a>Ripristina stato del processo kanban
 
@@ -48,11 +48,10 @@ La procedura riguarda il ripristino di uno stato non di processo kanban non corr
     * Selezionare il primo processo che era stato preparato.  
 2. Nel riquadro azioni, fare clic su Produzione.
 3. Fare clic su Ripristina stato.
-    * È possibile utilizzare una regola kanban alternativa se vengono soddisfatte le seguenti condizioni: - La strategia di rifornimento è uguale per entrambe le regole.  - La versione del flusso di produzione è uguale per entrambe le regole.  - Il prodotto che viene fornito è uguale per entrambe le regole.  - Tutte le attività downstream configurate per l'ultima attività delle regole kanban devono essere uguali per entrambe le regole.  - Le stesse dimensioni inventariali fornite devono essere configurate per entrambe le regole.  - Lo stato dell'unità movimentazione deve essere Non assegnato.  - La configurazione per i kanban evento deve essere uguale.  
+    * È possibile utilizzare una regola kanban alternativa se vengono soddisfatte le seguenti condizioni: - La strategia di rifornimento è uguale per entrambe le regole.  - La versione del flusso di produzione è uguale per entrambe le regole.  - Il prodotto che viene fornito è uguale per entrambe le regole.  - Tutte le attività downstream configurate per l'ultima attività delle regole kanban devono essere uguali per entrambe le regole.  - Le stesse dimensioni inventariali fornite devono essere configurate per entrambe le regole.  - Lo stato dell'unità movimentazione deve essere Non assegnato.  - La configurazione per i kanban evento deve essere uguale.  
     * Assicurarsi che il nuovo stato sia Pianificato.  
 4. Fare clic su OK.
 5. Nell'elenco deselezionare la riga selezionata.
     * Selezionare lo stesso processo.  
     * Si noti che lo stato del processo kanban viene reimpostato su Pianificato, indicato da un'icona kanban vuota.  
-
 

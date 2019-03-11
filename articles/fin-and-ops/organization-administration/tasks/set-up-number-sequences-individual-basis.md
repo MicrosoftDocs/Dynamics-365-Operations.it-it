@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare sequenze numeriche singole
 description: Le sequenze numeriche vengono utilizzate per generare identificatori univoci e leggibili per record anagrafica e record transazioni che li richiedono.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6734d66a06f8a8dc90a48bd68b7b4e22177b4672
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362213"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Impostare sequenze numeriche singole
 
@@ -43,5 +43,4 @@ Le sequenze numeriche vengono utilizzate per generare identificatori univoci e l
 8. Espandere la sezione Generale.
     * Nella Scheda dettaglio Generale specificare se la sequenza numerica è manuale e continua o non continua. Immettere, inoltre, il numero minimo e massimo che è possibile utilizzare nella sequenza numerica.     Si consiglia di non modificare una sequenza numerica non continua con una sequenza numerica continua. La sequenza numerica non continua verrà soddisfatta. La modifica può causare anche le violazioni della chiave duplicata nel database. Inoltre, le sequenze numeriche continue hanno un maggiore effetto sulle prestazioni.   
 9. Fare clic su Salva.
-
 

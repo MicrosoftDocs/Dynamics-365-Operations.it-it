@@ -1,13 +1,13 @@
---- 
+---
 title: Creazione di criteri di acquisto
 description: Questa procedura vi mostra come creare criteri acquisto da allineare con i vostri processi aziendali per acquistare.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPurposeRule
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3bd4d6f8625c91f2190e994f04cbec4548272f04
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c2b3a66443394f5bfbe51b6685513281025d68fd
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312901"
 ---
 # <a name="create-purchasing-policies"></a>Creazione di criteri di acquisto
 
@@ -58,5 +58,4 @@ Questa procedura vi mostra come creare criteri acquisto da allineare con i vostr
     * Ora è possibile impostare altre regole dei criteri per i criteri di acquisto.   Si noti che un tipo di regola di criteri non può avere regole sovrapposte attive allo stesso tempo all'interno di un singolo criterio di approvvigionamento.  
 5. Chiudere la pagina.
 6. Chiudere la pagina.
-
 

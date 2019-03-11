@@ -1,13 +1,13 @@
 ---
 title: Sincronizzare i numeri effettivi direttamente da Project Service Automation al giornale di registrazione di integrazione progetto per la registrazione in Finance and Operations
-description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i numeri effettivi del progetto direttamente da Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations."
+description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i numeri effettivi del progetto direttamente da Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343353"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizzare i numeri effettivi direttamente da Project Service Automation al giornale di registrazione di integrazione progetto per la registrazione in Finance and Operations
 
@@ -33,7 +33,7 @@ Questo argomento descrive i modelli e le attività sottostanti che vengono utili
 Il modello sincronizza le transazioni da Project Service Automation in una tabella di gestione temporanea in Finance and Operations. Al termine della sincronizzazione, **è necessario** importare i dati dalla tabella di gestione temporanea nel giornale di registrazione di integrazione.
 
 > [!NOTE]
-> - L'integrazione dei numeri effettivi di progetto è disponibile in Microsoft Dynamics 365 for Finance and Operations versione 8.0.1 o successive.
+> - L'integrazione de numeri effettivi di progetto è disponibile in Microsoft Dynamics 365 for Finance and Operations versione 8.0.1 o successive.
 > - Se si utilizza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, dopo avere installato gli aggiornamenti KB 4132657 e KB 4132660, sarà possibile utilizzare i modelli per integrare le attività di progetto, le categorie di transazione delle spese, le stime orarie, le stime di spesa e i valori effettivi, nonché di configurare il blocco delle funzionalità. Se è necessario reimpostare le distribuzioni contabili, si consiglia di installare anche KB 4131710.
 > - Se si utilizza Finance and Operations 7.3.0 e si eseguono transazioni di tipo commissione da Project Service Automation, è necessario installare KB 4345320 per includere tali commissioni nella fattura di progetto.
 > - Se si immettono importi IVA su transazioni di spesa o temporali in Project Service Automation, è necessario installare Project Service Automation Update 7. Se questo aggiornamento non è installato, i numeri effettivi IVA non verranno collegati ai numeri effettivi temporali o di spesa associati e non verranno sincronizzati con Finance and Operations. Per ulteriori informazioni, contattare il supporto.
@@ -140,4 +140,3 @@ Nelle figure seguenti vengono mostrati esempi dei mapping delle attività di mod
 [![Mapping del modello](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mapping del modello](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

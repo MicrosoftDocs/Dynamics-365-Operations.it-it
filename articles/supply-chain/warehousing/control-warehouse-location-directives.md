@@ -5,9 +5,9 @@ author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325413"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove effettuare il lavoro nel magazzino.
 
-Le istruzioni che gli addetti al magazzino ricevono su un dispositivo mobile sono determinate dai modelli di lavoro impostati in Microsoft Dynamics 365 for Finance and Operations per definire i diversi processi e le diverse attività di magazzino. I modelli di lavoro determinano la modalità secondo cui il lavoro viene eseguito per ogni processo di magazzino. Collegando una direttiva di ubicazione ai modelli di lavoro, è possibile garantire che il lavoro venga effettuato nelle aree fisiche specifiche del magazzino.
+Le istruzioni che i lavoratori di magazzino ricevono su un dispositivo mobile sono determinate dai modelli di lavoro impostate in Microsoft Dynamics 365 for Finance and Operations per definire i diversi processi e le diverse attività di magazzino. I modelli di lavoro determinano la modalità secondo cui il lavoro viene eseguito per ogni processo di magazzino. Collegando una direttiva di ubicazione ai modelli di lavoro, è possibile garantire che il lavoro venga effettuato nelle aree fisiche specifiche del magazzino.
 
 ## <a name="work-templates"></a>Modelli di lavoro
 La pagina **Modelli di lavoro** consente di definire le operazioni di lavoro che devono essere eseguite nel magazzino. In genere, le operazioni di lavoro sono costituite da una coppia di azioni: un lavoratore di magazzino preleva le scorte disponibili da un'ubicazione quindi colloca le scorte prelevate in un'altra ubicazione. 
@@ -163,4 +162,3 @@ Selezionare questa casella di controllo per utilizzare le strategie batch per gl
 Per questo esempio, considerare un processo di ordine fornitore in cui la direttiva ubicazione deve individuare capacità libera all'interno di un magazzino per gli articoli di magazzino registrati immediatamente alla banchina di entrata. Innanzitutto, occorre cercare capacità libera all'interno del magazzino consolidando le scorte disponibili esistenti. Se il consolidamento non è possibile, occorre cercare di individuare un'ubicazione vuota. 
 
 Per questo scenario, è necessario definire due azioni di direttiva ubicazione. La prima azione nella sequenza deve utilizzare la strategia **Consolida** e la seconda deve utilizzare la strategia **Ubicazione vuota senza alcun lavoro in entrata**. A meno che non si definisca una terza azione per gestire uno scenario di overflow, sono possibili due risultati in caso non vi sia più capacità in magazzino: il lavoro può essere creato anche se non è definita un'ubicazione o il processo di creazione di lavoro può interrompersi. Il risultato viene determinato dall'impostazione nella pagina **Errori direttiva ubicazione**, in cui è possibile decidere se selezionare l'opzione **Interrompi lavoro in caso di errore direttiva ubicazione** per ogni tipo di ordine di lavoro.
-

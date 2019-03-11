@@ -1,13 +1,13 @@
 ---
 title: Chiusura inventario
-description: "Durante il processo per liquidare le transazioni in uscita con le transazioni in entrata, è possibile scegliere di aggiornare la contabilità generale in base alle rettifiche effettuate."
+description: Durante il processo per liquidare le transazioni in uscita con le transazioni in entrata, è possibile scegliere di aggiornare la contabilità generale in base alle rettifiche effettuate.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326494"
 ---
-
 # <a name="inventory-close"></a>Chiusura inventario
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ In alcune circostanze, non è possibile risolvere in alcun modo i problemi segna
 Talvolta potrebbe essere necessario stornare una chiusura dell'inventario completata per riportare le liquidazioni allo stato in cui erano prima che venissero effettuate le rettifiche. Quando si storna una chiusura inventario completata, l'inventario viene riaperto per consentire la registrazione nel periodo coperto dalla chiusura inventario. È inoltre possibile apportare modifiche correlate nella contabilità generale. Una volta terminate le rettifiche, è possibile eseguire nuovamente la chiusura inventario per il periodo che si sta utilizzando. 
 
 **Nota:** è possibile riaprire solo l'ultimo periodo di magazzino che è stato chiuso. Per stornare una chiusura dell'inventario precedente, è necessario stornare singolarmente ogni successiva chiusura dell'inventario, a partire dalla chiusura più recente.
-
 
 
 

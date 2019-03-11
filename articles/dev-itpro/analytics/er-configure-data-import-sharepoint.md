@@ -5,9 +5,9 @@ author: NickSelin
 manager: AnnBe
 ms.date: 11/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
 ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.contentlocale: it-it
-ms.lasthandoff: 12/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331094"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurare l'importazione di dati da SharePoint
 
@@ -43,7 +43,7 @@ Per completare gli esempi in questo argomento, è necessario disporre del seguen
 - Configurazioni di formato ER e di modello per 1099 pagamenti.
 
 ### <a name="create-required-er-configurations"></a>Creare le configurazioni di ER richieste
-Riprodurre le guide attività  **ER Importare i data da un file di Microsoft Excel**, che fanno parte del processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)**. Queste guide attività illustrano in dettaglio il processo di progettazione e di utilizzo delle configurazioni ER per importare in modo interattivo transazioni fornitori da file di Microsoft Excel. Per ulteriori informazioni, vedere [Analizzare i documenti ricevuti in Microsoft Excel](parse-incoming-documents-excel.md). Dopo aver completato le guide di attività, si avrà la configurazione seguente.
+Riprodurre le guide attività **ER Importare i data da un file di Microsoft Excel**, che fanno parte del processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)**. Queste guide attività illustrano in dettaglio il processo di progettazione e di utilizzo delle configurazioni ER per importare in modo interattivo transazioni fornitori da file di Microsoft Excel. Per ulteriori informazioni, vedere [Analizzare i documenti ricevuti in Microsoft Excel](parse-incoming-documents-excel.md). Dopo aver completato le guide di attività, si avrà la configurazione seguente.
 
 #### <a name="er-configurations"></a>Configurazioni ER
 
@@ -82,7 +82,7 @@ Per archiviare i file di report elettronici in un percorso di SharePoint, è nec
 4. In Finance and Operations, andare a **Amministrazione organizzazione > Gestione documenti > Tipi di documento**.
 5. Creare i tipi di documento seguenti che verranno utilizzati per accedere alle cartelle di SharePoint appena create. Per istruzioni, vedere [Configurare i tipi di documento](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
 
-|Tipo di documento       | Raggruppa              | Posizione      | Cartella di SharePoint      |
+|Tipo di documento       | Raggruppa              | Posizione      | Cartella SharePoint      |
 |--------------------|--------------------|---------------|------------------------|
 |Principale di SP             |File                |SharePoint     |Origine di importazione dei file (principale)|
 |Alternativa di SP             |File                |SharePoint     |Origine di importazione dei file (alternativa)|
@@ -129,7 +129,7 @@ Per archiviare i file di report elettronici in un percorso di SharePoint, è nec
 
     [![Pagina degli stati dei file di ER per le origini selezionate](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
-## <a name="import-data-from-sharepoint-files"></a>Importare i dati da file di SharePoint
+## <a name="import-data-from-sharepoint-files"></a>Importa dati da file SharePoint
 1. Aprire la struttura delle configurazioni di ER, selezionare **1099 Modello pagamenti** ed espandere l'elenco di componenti del modello di ER.
 2. Selezionare il nome del mapping di modello per aprire l'elenco di mapping di modello della configurazione del modello di ER selezionata.
 
@@ -192,4 +192,3 @@ Per archiviare i file di report elettronici in un percorso di SharePoint, è nec
 11. In Finance and Operations, selezionare **Contabilità fornitori** \> **Attività periodiche** \> **Imposta 1099** \> **Liquidazione fornitore per i moduli 1099**, immettere i valori appropriati nei campi **Dal** e **Al** e quindi selezionare **Transazioni 1099 manuali**.
 
     Solo le transazioni per il giustificativo V-00001 sono disponibili. Non sono presenti transazioni per il giustificativo V-00002 anche se l'errore dell'ultima transazione importata viene trovato nel file di Excel.
-

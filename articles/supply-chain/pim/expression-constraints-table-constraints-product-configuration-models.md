@@ -1,13 +1,13 @@
 ---
 title: Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
-description: "In questo argomento viene descritto l'utilizzo dei vincoli di espressione e dei vincoli di tabella. I vincoli consentono di controllare i valori di attributo da selezionare quando si configurano i prodotti per un ordine cliente, un'offerta di vendita, un ordine fornitore o un ordine di produzione. È possibile utilizzare i vincoli di espressione o i vincoli di tabella, a seconda di come si preferisce creare i vincoli."
+description: In questo argomento viene descritto l'utilizzo dei vincoli di espressione e dei vincoli di tabella. I vincoli consentono di controllare i valori di attributo da selezionare quando si configurano i prodotti per un ordine cliente, un'offerta di vendita, un ordine fornitore o un ordine di produzione. È possibile utilizzare i vincoli di espressione o i vincoli di tabella, a seconda di come si preferisce creare i vincoli.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356647"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
 
 [!include [banner](../includes/banner.md)]
@@ -223,7 +222,7 @@ Gli esempi nella seguente tabella illustrano come scrivere una notazione di infi
 |        (x)        |                           Le parentesi hanno precedenza sulla priorità predefinita.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Perché i vincoli di espressione non vengono convalidati correttamente?
-Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione per gli attributi, i componenti o i sottocomponenti nel modello di configurazione prodotto. Ecco un elenco delle parole chiave riservate che non possono essere utilizzate.
+Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione per gli attributi, i componenti o i sottocomponenti nel modello di configurazione prodotto. Ecco un elenco delle parole chiave riservate che non possono essere utilizzate.
 
 -   Arrotonda eccesso
 -   Elemento
@@ -252,7 +251,6 @@ Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione 
 [Creare un vincolo di espressione (guida attività)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Aggiungere un calcolo a un modello di configurazione dei prodotti (guida attività)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

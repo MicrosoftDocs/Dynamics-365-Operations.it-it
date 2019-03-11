@@ -5,9 +5,9 @@ author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: e80b3ebc9c374073ff5a2dfc8c2acf1d7f6c6287
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 86070204769b866b947405436437eb0eb746de11
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304981"
 ---
-
 # <a name="compensation-plans"></a>Piani di retribuzione
 
 [!include [banner](includes/banner.md)]
@@ -132,7 +131,6 @@ Ogni volta che viene eseguito un evento processo, viene creato un evento retribu
 
 ## <a name="recommendations"></a>Suggerimenti
 Dopo aver eseguito un evento processo, è possibile suggerire correzioni dell'aumento per merito o dell'importo del premio di un dipendente, in base alle linee guida calcolate per l'evento processo. Per proporre suggerimenti relativi ai dipendenti, è necessario abilitare i suggerimenti quando si impostano i piani di retribuzione o l'evento processo.
-
 
 
 

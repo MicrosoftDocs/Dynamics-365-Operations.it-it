@@ -1,13 +1,13 @@
---- 
+---
 title: Creare una nuova versione del flusso di produzione
-description: "Questa procedura è incentrata sulla creazione di una nuova versione del flusso di produzione."
+description: Questa procedura è incentrata sulla creazione di una nuova versione del flusso di produzione.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320675"
 ---
 # <a name="create-a-production-flow-version"></a>Creare una nuova versione del flusso di produzione
 
@@ -63,5 +63,4 @@ Questa procedura è incentrata sulla creazione di una nuova versione del flusso 
 12. Nel campo Periodo per durata ciclo effettiva (giorni) immettere un numero.
     * Immettere il numero di giorni nel periodo per la durata ciclo effettiva. Il periodo di durata ciclo effettiva è il numero di giorni che i processi verranno aggregati dal minuto effettivo a ritroso per calcolare la durata ciclo effettiva. Il valore può essere modificato in qualsiasi momento ed è solo utilizzato per il calcolo delle durate ciclo effettive.  
 13. Fare clic su Salva.
-
 

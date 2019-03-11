@@ -5,9 +5,9 @@ author: abruer
 manager: AnnBe
 ms.date: 08/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
 ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358579"
 ---
-
 # <a name="settlement-overview-for-centralized-payments"></a>Panoramica della liquidazione per i pagamenti centralizzati
 
 [!include [banner](../includes/banner.md)]
@@ -109,4 +108,3 @@ In caso di pagamenti fornitore, le transazioni relative a importi da versare e d
 
 ## <a name="withholding-tax"></a>Ritenuta d'acconto
 Il conto fornitore associato alla fattura viene utilizzato per determinare se la ritenuta d'acconto deve essere calcolata. Se la ritenuta d'acconto viene applicata, l'imposta verrà calcolata nella persona giuridica associata alla fattura. Se le persone giuridiche utilizzano valute diverse, verrà utilizzato il tasso di cambio dalla persona giuridica associata alla fattura.
-

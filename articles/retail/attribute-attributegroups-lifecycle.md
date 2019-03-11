@@ -5,33 +5,32 @@ author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326241"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>Attributi e gruppi di attributi
 
 [!include [banner](includes/banner.md)]
 
-Gli *attributi* forniscono un modo per descrivere ulteriormente un prodotto e le sue caratteristiche tramite campi definiti dall'utente (ad esempio **Dimensione di memoria**, **Capacità del disco rigido**, **Conformità allo standard Energy Star** e così via). In Microsoft Dynamics 365 for Finance and Operations, gli attributi possono essere associati a diverse entità Retail, ad esempio a categorie di prodotti e canali di vendita al dettaglio, ed è possibile impostare per tali attributi valori predefiniti. I prodotti ereditano quindi gli attributi e i valori predefiniti quando vengono associati alle categorie di prodotti o ai canali di vendita al dettaglio. I valori predefiniti possono essere sovrascritti a livello di singolo prodotto, a livello di canale di vendita al dettaglio o in un catalogo al dettaglio.
+Gli *attributi* forniscono un modo per descrivere ulteriormente un prodotto e le sue caratteristiche tramite campi definiti dall'utente (ad esempio **Dimensione di memoria**, **Capacità del disco rigido**, **Conformità allo standard Energy Star** e così via). In Microsoft Dynamics 365 for Finance and Operations, gli attributi possono essere associati a varie entità al dettaglio, come ad esempio le categorie di prodotti e canali di vendita al dettaglio. Inoltre è possibile impostarne dei valori predefiniti. I prodotti ereditano quindi gli attributi e i valori predefiniti quando vengono associati alle categorie di prodotti o ai canali di vendita al dettaglio. I valori predefiniti possono essere sovrascritti a livello di singolo prodotto, a livello di canale di vendita al dettaglio o in un catalogo al dettaglio.
 
 Ad esempio, un prodotto tipico nell'ambito dei televisori può avere i seguenti attributi.
 
@@ -257,4 +256,3 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
 
     > [!NOTE]
     > Se i supporti prodotto condivisi e gli attributi del prodotto condivisi vengono creati in Finance and Operations, vengono applicati a tutti i prodotti al dettaglio.
-

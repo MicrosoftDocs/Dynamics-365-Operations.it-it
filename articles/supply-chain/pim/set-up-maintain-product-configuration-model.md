@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360672"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>Impostare un modello di configurazione prodotto
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Questo articolo descrive i passaggi per l'impostazione e la creazione di un mode
 | Testare un modello di configurazione prodotto.                         | Testare il modello di configurazione del prodotto nella pagina **Dettagli modello di configurazione prodotto basato su vincoli** o nella pagina elenco **Modello di configurazione prodotto**. Il test dei modelli di configurazione prodotto simula il processo di configurazione del modello prodotto che si verifica durante la gestione degli ordini.                                                                                                |
 | Creare un modello di configurazione prodotto.                | Creare un modello di configurazione prodotto nella pagina **Modelli di configurazione**. Un modello di configurazione include i valori degli attributi nel modello di configurazione prodotto. Selezionare i valori di attributo nella pagina **Configura riga**. È possibile scegliere di caricare un modello di configurazione del modello prodotto durante la configurazione del modello prodotto.                                                   |
 | Configurare un articolo.                                          | I modelli di configurazione prodotto possono essere configurati da un ordine cliente, un'offerta di vendita, un ordine fornitore o un ordine di produzione.                                                                                                                                                                                                                                                                           |
-
 
 
 

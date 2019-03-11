@@ -5,26 +5,25 @@ author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317823"
 ---
-
 # <a name="videos-for-finance-and-operations"></a>Video per Finance and Operations
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 
 #### <a name="data-integration"></a>Integrazione dati
 
-- [Prospect to cash integration](https://youtu.be/AVV9x5x-XCg)
+- [Prospect di liquidazione integrazione](https://youtu.be/AVV9x5x-XCg)
 - [Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Gestione dati
@@ -48,7 +47,7 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 
 #### <a name="development"></a>Sviluppo
 
-- [Optimization advisor](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [Consulente dell'ottimizzazione](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Setting up a development branch and build](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Setting up a development machine](https://www.youtube.com/watch?v=cqp9MetfiyM)
 - [Integrazione di Azure DevOps con Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
@@ -63,7 +62,7 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 - [Find the version of Report designer](https://www.youtube.com/embed/icfA5Q3kp4w)
 - [Cost control mobile workspace](https://youtu.be/imsuTg8rUVk)
 - [Get started with Cost accounting](https://youtu.be/1pUDtJQZ8FU)
-- [Use Excel for cost analysis](https://youtu.be/-HKHYdClvx8)
+- [Utilizzare Excel per l'analisi dei costi](https://youtu.be/-HKHYdClvx8)
 
 #### <a name="intelligence"></a>Intelligence
 
@@ -73,7 +72,7 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 
 - [Asset library in Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
-- [Cloud-hosted environments](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
+- [Distribuzione ambienti ospitati nel cloud](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
 - [Creating support tickets from Dynamics 365 for Operations](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
 - [Deploying environments](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
 - [Getting started with Lifecycle Services](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
@@ -88,7 +87,7 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 - [Uptake a new Dynamics 365 for Finance and Operations platform release after Platform update 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Use telemetry to monitor key performance counters in Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
-#### <a name="office-integration"></a>Integrazione di Office
+#### <a name="office-integration"></a>Integrazione Office
 
 - [Create an Excel template for header and line patterns in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
@@ -196,4 +195,3 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 - [Piece by piece picking process (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Visual scheduling for Production orders and kanbans (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Warehouse integration with Production (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Warehousing mobile app (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

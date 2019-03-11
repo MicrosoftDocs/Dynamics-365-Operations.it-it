@@ -1,13 +1,13 @@
 ---
 title: Schede di determinazione costi
-description: "L'impostazione della scheda di determinazione costi prevede due obiettivi. Come primo obiettivo viene definito il formato di visualizzazione delle informazioni sul costo del venduto per un articolo prodotto o un ordine di produzione. La visualizzazione formattata è denominata scheda di determinazione costi. Come secondo obiettivo viene definita la base per il calcolo dei costi indiretti. L'impostazione della scheda di determinazione costi si basa sulla funzionalità gruppo di costi per visualizzare le informazioni e per le formule di calcolo dei costi indiretti. I due obiettivi dell'impostazione della scheda di determinazione costi sono descritti in questo articolo."
+description: L'impostazione della scheda di determinazione costi prevede due obiettivi. Come primo obiettivo viene definito il formato di visualizzazione delle informazioni sul costo del venduto per un articolo prodotto o un ordine di produzione. La visualizzazione formattata è denominata scheda di determinazione costi. Come secondo obiettivo viene definita la base per il calcolo dei costi indiretti. L'impostazione della scheda di determinazione costi si basa sulla funzionalità gruppo di costi per visualizzare le informazioni e per le formule di calcolo dei costi indiretti. I due obiettivi dell'impostazione della scheda di determinazione costi sono descritti in questo articolo.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312763"
 ---
-
 # <a name="costing-sheets"></a>Schede di determinazione costi
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Due criteri di bloccaggio per una versione di determinazione costi determinano s
 Dopo aver definito il formato della scheda di determinazione costi e i calcoli dei costi indiretti, è necessario eseguire un passaggio a parte per la convalida e il salvataggio delle informazioni. La scheda di determinazione costi rappresenta un formato valido a livello aziendale per la visualizzazione uniforme delle informazioni sui costi del venduto. 
 
 La scheda di determinazione costi viene visualizzata nella pagina **Calcola costo articolo**. La scheda di determinazione costi può essere visualizzata per il record del costo calcolato di un articolo prodotto nella pagina **Prezzo articolo** oppure per il record di calcolo specifico di un ordine nella pagina **Risultati calcolo DBA**. Può essere inoltre visualizzata nella pagina **Calcolo dei prezzi** per un ordine di produzione.
-
 
 
 

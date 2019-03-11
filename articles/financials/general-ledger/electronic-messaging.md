@@ -1,33 +1,32 @@
 ---
 title: Messaggistica elettronica
-description: In questo argomento vengono fornite informazioni sulla messaggistica elettronica in Microsoft Dynamics 365 for Finance and Operations e sulla relativa configurazione.
+description: In questo argomento vengono fornite informazioni sulla messaggistica elettronica in Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357935"
 ---
-
-# <a name="electronic-messaging"></a>Messaggistica elettronica
+# <a name="electronic-messaging"></a>Messaggi elettronici
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sulla messaggistica elettronica in Microsoft Dynamics 365 for Finance and Operations e sulla relativa configurazione.
+In questo argomento vengono fornite informazioni sulla messaggistica elettronica in Microsoft Dynamics 365 for Finance and Operations.
 
 Recentemente, governi e autorità legislative di vari paesi hanno implementato requisiti di reporting per le società registrate in tali paesi. Lo scopo dei requisiti è di consentire di ottenere i dati di tali società in formato elettronico, direttamente dai sistemi in cui sono stati valutati, archiviati ed elaborati.
 
@@ -452,4 +451,3 @@ La griglia nella scheda Dettaglio **Registro azioni** viene automaticamente riem
 ![Aggiornare lo stato del messaggio](media/update-status.png)
 
 Lo stato del messaggio viene aggiornato a **Preparato** ed è possibile generare il report selezionando **Genera report**. Il report viene generato e lo stato del messaggio e il registro delle azioni del vengono aggiornati. Per visualizzare il report generato, selezionare il pulsante **Allegato** nel riquadro azioni.
-

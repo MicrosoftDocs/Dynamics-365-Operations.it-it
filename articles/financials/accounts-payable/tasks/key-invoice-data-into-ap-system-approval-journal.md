@@ -1,13 +1,13 @@
---- 
-title: "Dati principali della fattura in sistema di contabilità fornitori utilizzando il giornale di registrazione approvazioni"
-description: "Questa guida attività indicherà come utilizzare il registro fatture per creare fatture e quindi per utilizzare il giornale di approvazione per aggiornare i conti spese."
+---
+title: Dati principali della fattura in sistema di contabilità fornitori utilizzando il giornale di registrazione approvazioni
+description: Questa guida attività indicherà come utilizzare il registro fatture per creare fatture e quindi per utilizzare il giornale di approvazione per aggiornare i conti spese.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransInvoiceRegister, HcmWorkerLookUp, LedgerJournalTransApprove, LedgerJournalTransApproveFetchVouchers, LedgerTransVoucher
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 048eda77064b6aa3f666e998a8e551d2f7adc385
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363524"
 ---
 # <a name="key-invoice-data-into-ap-system-using-approval-journal"></a>Dati principali della fattura in sistema di contabilità fornitori utilizzando il giornale di registrazione approvazioni
 
@@ -62,5 +62,4 @@ Questa guida attività indicherà come utilizzare il registro fatture per creare
 12. Fare clic su Registra.
 13. Fare clic su Giustificativo per visualizzare le voci registrate.
     * Il conto di approvazione fatture in sospeso viene stornato e sostituito con il conto spese effettivo.  
-
 

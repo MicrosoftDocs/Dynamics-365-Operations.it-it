@@ -1,13 +1,13 @@
---- 
+---
 title: Aggiungere una voce al giornale di registrazione delle prestazioni e inviare complimento a un utente
 description: Il giornale di registrazione delle prestazioni contiene informazioni correlate a come sono stati soddisfatti gli obiettivi o quali sono state le prestazioni durante un periodo.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 07f5a16ccb349fbef4c0d2be14c1ef02ed8831dd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364559"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Aggiungere una voce al giornale di registrazione delle prestazioni e inviare complimento a un utente
 
@@ -43,7 +43,7 @@ Il giornale di registrazione delle prestazioni contiene informazioni correlate a
 9. Nel campo Parole chiave digitare un valore.
 10. Fare clic su Aggiungi collegamento esterno.
 11. Digitare 'Envision' nel campo Descrizione.
-12. Nel campo Indirizzo Internet, digitare 'https://www.microsoft.com/en/envision/default'.
+12. Nel campo Indirizzo Internet digitare "https://www.microsoft.com/en/envision/default".
 13. Fare clic sul titolo sottostante il pulsante Salva denominato "Giornale di registrazione prestazioni" per tornare alla griglia.
     * È possibile aggiungere il giornale di registrazione o i giornali di registrazione selezionati a un obiettivo in modo che venga visualizzato quando si apre l'obiettivo. Un collegamento verrà aggiunto nella scheda dettaglio Collegamenti. Se si aggiunge un giornale di registrazione a un obiettivo e quindi si aggiunge l'obiettivo a una revisione, il giornale di registrazione verrà visualizzato automaticamente nella revisione.  
     * È possibile aggiungere il giornale di registrazione o i giornali di registrazione selezionati a una revisione in modo che venga visualizzato quando si apre la revisione.    Un collegamento verrà aggiunto nella scheda dettaglio Collegamenti.  
@@ -55,5 +55,4 @@ Il giornale di registrazione delle prestazioni contiene informazioni correlate a
 19. Selezionare una persona dall'elenco dei dipendenti della società.
 20. Nel campo Descrizione, immettere 'Grazie per tutto l'aiuto alla conferenza!'.
 21. Fare clic su Invia.
-
 

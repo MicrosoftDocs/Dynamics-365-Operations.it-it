@@ -1,31 +1,30 @@
 ---
-title: "Novità o modifiche in Dynamics 365 for Talent Core HR (agosto 2018)"
-description: "Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent Core HR."
+title: Novità o modifiche in Dynamics 365 for Talent Core HR (agosto 2018)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: cdf0893835c1ee9edd89c43b3c5c842d89e6d526
-ms.contentlocale: it-it
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305047"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Novità o modifiche in Dynamics 365 for Talent Core HR (agosto 2018)
 
 [!include [banner](includes/banner.md)]
@@ -78,7 +77,7 @@ Grazie a questa funzionalità è possibile impostare la base del periodo di attr
 
 Dopo avere configurato per l'utilizzo di una delle date specifiche di un dipendente, il processo di registrazione utilizzerà la data specificata per calcolare i periodi di attribuzione per competenza. La base del periodo di attribuzione per competenza viene visualizzata anche nell'iscrizione al piano del dipendente per aiutare a capire gli elementi utilizzati durante il processo di processo di attribuzione per competenza.
 
-## <a name="microsoft-word-integration"></a>Integrazione con Microsoft Word
+## <a name="microsoft-word-integration"></a>Integrazione di Microsoft Word
 
 Sono stati abilitati modelli di documento in tutto Core HR. Questa funzionalità consente di creare lettere e report in base ai modelli di Word che si intende creare.
 
@@ -88,4 +87,3 @@ Ulteriori informazioni su questa funzionalità sono disponibili nell'[Esercitazi
 ## <a name="other-fixes"></a>Altre correzioni
 
 Questa versione include anche una serie di correzioni di bug, aggiunta di nuove entità, correzioni a entità esistenti e modifiche alle etichette localizzate.
-

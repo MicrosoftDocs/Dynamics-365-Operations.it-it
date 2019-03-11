@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344342"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Area di lavoro mobile di gestione spese
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile per **Gestione spese**. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo che possono successivamente collegarla a una nota spese. Gli utenti possono inoltre creare rapidamente una riga di spesa utilizzando una ricevuta collegata e creare e gestire le loro note spese. Inoltre, gli approvatori possono utilizzare l'area di lavoro mobile **Gestione spese** per visualizzare le note spese loro assegnate e per approvare o rifiutare tali note spese.
 
 
-Questa area di lavoro mobile può essere utilizzata con l'app mobile Microsoft Dynamics 365 for Unified Operations.
+Questa area di lavoro mobile può essere utilizzata con l'app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 
 ## <a name="overview"></a>Panoramica
@@ -94,7 +93,7 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Scaricare e installare l'app mobile Microsoft Dynamics 365 for Operations.
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Scaricare e installare l'app mobile Dynamics 365 for Operations
 Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 - [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 22. Selezionare **Invia**.
 23. Immettere i commenti per l'approvatore.
 24. Selezionare **Fine**.
-

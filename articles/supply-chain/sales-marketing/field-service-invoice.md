@@ -1,33 +1,32 @@
 ---
 title: Sincronizzare le fatture di contratto in Field Service con le fatture a testo libero in Finance and Operations
-description: "Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le fatture di contratto in Microsoft Dynamics 365 for Field Service con le fatture a testo libero in Microsoft Dynamics 365 for Finance and Operations."
+description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le fatture di contratto in Microsoft Dynamics 365 for Field Service con le fatture a testo libero in Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333256"
 ---
-
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Sincronizzare le fatture di contratto in Field Service con le fatture a testo libero in Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
@@ -107,4 +106,3 @@ Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dat
 ### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Fatture di contratto (da Field Service a Finance and Operations): Righe fattura
 
 [![Mapping dei modelli in Integrazione dati](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-

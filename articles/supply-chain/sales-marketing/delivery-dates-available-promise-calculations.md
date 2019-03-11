@@ -1,13 +1,13 @@
 ---
 title: Promesse ordine
-description: "Questo articolo fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date."
+description: Questo articolo fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312349"
 ---
-
 # <a name="order-promising"></a>Promesse ordine
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Si crea una riga ordine cliente per il prodotto e si immette **150** per la quan
 Poiché il metodo di controllo della data di consegna è ATP, i dati ATP vengono calcolati per individuare la prima data di spedizione possibile. In base alle impostazioni, vengono considerati l'ordine fornitore e l'ordine cliente in ritardo e la quantità ATP risultante per la data corrente è 0. Il giorno successivo, quando è in programma la ricezione dell'ordine fornitore in ritardo, la quantità ATP viene calcolata come maggiore di 0, in questo caso, viene calcolata come 125. Nei 10 giorni successivi alla data corrente, quando si prevede la ricezione di un altro ordine fornitore da 100 pezzi, la quantità ATP diventa superiore a 150.  
 
 La data di spedizione viene quindi impostata su 10 giorni dalla data corrente, in base al calcolo ATP. SI informa pertanto il cliente che la quantità richiesta può essere consegnata a 10 giorni dalla data odierna.
-
 
 
 

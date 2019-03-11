@@ -1,13 +1,13 @@
 ---
 title: Contenuto Power BI per prestazioni di magazzino
-description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di magazzino. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto."
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di magazzino. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365364"
 ---
-
 # <a name="warehouse-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto Microsoft Power BI per **Prestazioni di magazzino**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto Power BI per **prestazioni di magazzino**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
@@ -113,4 +112,3 @@ Le seguenti misure aggregazione chiave vengono utilizzate come base del contenut
 | Prestazioni di spedizione        | Spedizioni per prodotto                       | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella). |
 | Prestazioni di spedizione        | Spedizioni per cliente                      | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella). |
 | Prestazioni di spedizione        | Spedizioni per sito/magazzino              | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella). |
-

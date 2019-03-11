@@ -1,13 +1,13 @@
---- 
+---
 title: Configurare le rubriche
 description: Utilizzare questa procedura e le decisioni prese nell'argomento relativo alla pianificazione della configurazione della rubrica globale e delle rubriche aggiuntive per impostare le rubriche aggiuntive per l'organizzazione.
 author: kfend
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 325e3974cb38afea46c2f735165ee2fd1a6a22ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: e633b35cdd5441f7f9d1c1465dbc468e047cdee5
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353220"
 ---
 # <a name="configure-address-books"></a>Configurare le rubriche
 
@@ -41,5 +41,4 @@ La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 6. Nell'elenco trovare e selezionare il record desiderato.
 7. Fare clic sulla freccia per aggiungere i team disponibili selezionati alla rubrica.
 8. Fare clic su Salva.
-
 

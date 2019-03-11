@@ -1,28 +1,27 @@
 ---
 title: Analisi dei pagamenti dei clienti (anteprima)
-description: "Questo argomento descrive come le analisi dei pagamenti dei clienti possono aiutare a prevedere quando una fattura verrà pagata e aiutare le organizzazioni a creare strategie di ottimizzazione che migliorano le probabilità di pagamenti tempestivi."
+description: Questo argomento descrive come le analisi dei pagamenti dei clienti possono aiutare a prevedere quando una fattura verrà pagata e aiutare le organizzazioni a creare strategie di ottimizzazione che migliorano le probabilità di pagamenti tempestivi.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-04-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 9e722db6302d7ef51c01601cde245d4f4a333eba
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344664"
 ---
-
 # <a name="customer-payment-insights-preview"></a>Analisi dei pagamenti dei clienti (anteprima)
 
 [!include[banner](../includes/banner.md)]
@@ -78,4 +77,3 @@ Se si desidera provare l'analisi dei pagamenti del cliente (anteprima), inviare 
 ## <a name="privacy-statement"></a>Informativa sulla privacy
 
 Le anteprime archiviano i dati dei clienti negli Stati Uniti. Inoltre, le anteprime (1) possono utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 for Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-

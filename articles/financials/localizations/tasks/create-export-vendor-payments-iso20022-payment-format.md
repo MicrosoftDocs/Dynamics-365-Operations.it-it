@@ -1,13 +1,13 @@
---- 
+---
 title: Creare ed esportare i pagamenti fornitore usando il formato di pagamento ISO20022
 description: Questa procedura descrive come creare righe di pagamento nel giornale di registrazione pagamenti fornitore e come generare un file di pagamento fornitore usando l'esempio di bonifico ISO2022.
 author: mrolecki
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 01/17/2019
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,41 +16,37 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b589d64a4446420164175b41f435cf48daac01a9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cc90bc86cd489b124a806c480632dd53ba47f3f
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340547"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Creare ed esportare i pagamenti fornitore usando il formato di pagamento ISO20022
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Creare ed esportare pagamenti fornitore usando il formato di pagamento ISO20022
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Questa procedura descrive come creare righe di pagamento nel giornale di registrazione pagamenti fornitore e come generare un file di pagamento fornitore usando l'esempio di bonifico ISO2022. 
+Questo argomento descrive come creare righe di pagamento nel giornale di registrazione pagamenti fornitore e come generare un file di pagamento fornitore usando l'esempio di bonifico ISO2022.
 
-La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.
+Si tratta della quinta procedura di cinque, che illustra il processo di pagamento fornitore utilizzando le configurazioni di creazione di report elettronici. Per completare questo esempio utilizzare i dati dimostrativi DEMF.
 
-Si tratta della quinta procedura di cinque, che illustra il processo di pagamento fornitore utilizzando le configurazioni di creazione di report elettronici. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
+## <a name="example"></a>Esempio
 
-
-## <a name="create-payment-lines"></a>Creare righe pagamento
-1. Andare a Contabilità fornitori > Pagamenti > Giornale di registrazione pagamenti.
-2. Fare clic su Nuovo.
-3. Nell'elenco contrassegnare la riga selezionata.
-4. Nel campo Nome immettere o selezionare un valore.
-5. Fare clic su Righe.
-6. Fare clic su Proposta di pagamento.
-7. Fare clic su Crea proposta di pagamento.
-8. Espandere la sezione Record da includere.
-9. Fare clic su Filtro.
-10. Nell'elenco, selezionare la riga per la tabella Fornitori e il campo Conto fornitore.
-11. Nel campo Criteri immettere o selezionare un valore.
-    * È possibile applicare qualsiasi criterio per la selezione delle transazioni fornitore da pagare, per questo esempio utilizzare DE-001 come conto fornitore.  
-12. Fare clic su OK.
-13. Fare clic su OK.
-14. Fare clic su Crea pagamenti.
-
-## <a name="generate-an-iso20022-payment-file"></a>Generare un file di pagamento ISO20022
-
+1.  Passare a **Contabilità fornitori > Pagamenti > Giornale di registrazione pagamenti.**
+2.  Fare clic su **Nuovo**.
+3.  Nel campo **Nome** immettere o selezionare un valore.
+4.  Fare clic su **Righe > Proposta di pagamento > Crea proposta di pagamento**.
+5.  Espandere la sezione **Record da includere**.
+6.  Fare clic su **Filtro**.
+7.  Nell'elenco, selezionare la riga per la **tabella Fornitori** e il **campo Conto fornitore**.
+8.  Nel campo **Criteri** immettere o selezionare un valore. È possibile applicare qualsiasi criterio per la selezione delle transazioni fornitore da pagare, per questo esempio utilizzare DE-001 come conto fornitore.
+12. Fare clic su **OK**.
+13. Fare clic su **OK**.
+14. Fare clic su **Crea pagamenti**.
+15. Generare un file di pagamento ISO20022.
+    1.  Fare clic su **Genera pagamenti**.
+    2.  Nel campo **Metodo di pagamento** immettere o selezionare un valore.
+    3.  Digitare un valore nel campo **Nome file**. Per questo esempio, in seguito al pagamento EUR, il file generato sarà conforme a SEPA. Il bonifico ISO20022 nonché altri formati di pagamento fornitore possono essere utilizzati per generare pagamenti in altre valute.
+    4.  Nel campo **Conto bancario** immettere o selezionare un valore.
 

@@ -1,13 +1,13 @@
 ---
 title: Impostare i parametri di Risorse umane per le persone giuridiche
-description: "È necessario impostare parametri condivisi per i record condivisi tra società, ad esempio Record posizione. In questo articolo viene spiegato come impostare i parametri delle risorse umane tra persone giuridiche."
+description: È necessario impostare parametri condivisi per i record condivisi tra società, ad esempio Record posizione. In questo articolo viene spiegato come impostare i parametri delle risorse umane tra persone giuridiche.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSharedParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cc5acf7ba1b350ee2c91923c7de3b4780385f3ef
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304927"
 ---
-
 # <a name="set-up-human-resources-hr-parameters-across-legal-entities"></a>Impostare i parametri di Risorse umane per le persone giuridiche
 
 [!include [banner](includes/banner.md)]
@@ -54,7 +53,6 @@ Nella scheda **Posizioni** indicare se per impostazione predefinita sono disponi
 --------
 
 [Impostare parametri HR specifici della società](set-up-company-specific-hr-parameters.md)
-
 
 
 

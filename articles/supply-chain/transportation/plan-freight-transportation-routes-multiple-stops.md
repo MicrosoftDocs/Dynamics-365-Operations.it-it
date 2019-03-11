@@ -1,13 +1,13 @@
 ---
-title: "Pianificare percorsi di trasporto di carichi con più fermate"
+title: Pianificare percorsi di trasporto di carichi con più fermate
 description: In questo articolo vengono descritti i vari elementi utilizzati per pianificare i percorsi di trasporto in Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328311"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Pianificare percorsi di trasporto di carichi con più fermate
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Un percorso programmato è un piano di percorso predefinito che dispone di una p
 
 ## <a name="load-building-workbench"></a>Workbench di allestimento del carico
 Il workbench di allestimento del carico utilizza gli indirizzi dei clienti e le date di consegna di ordini cliente e i percorsi programmati disponibili, per proporre un carico. Per impostazione predefinita, i valori dal percorso vengono immessi nel workbench. Tuttavia, è possibile selezionare una data "da" precedente alla data "da" nel percorso. Quando viene proposto un carico, l'indirizzo di consegna e data di consegna di tutti gli ordini cliente aperti vengono controllati. Se il codice postale dell'indirizzo di consegna corrisponde al codice postale di un hub nel piano di percorso e la data di consegna è compresa nell'intervallo selezionato nei criteri, l'ordine cliente viene proposto per il carico. Viene considerata anche la capacità del modello di carico. Viene proposto un solo carico alla volta. Se si dispone di un ordine cliente che non è incluso, può essere necessario utilizzare un modello di carico diverso (ad esempio, un modello di carico per un autocarro o un contenitore più grande) o pianificare un'ulteriore consegna.
-
 
 
 

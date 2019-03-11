@@ -1,13 +1,13 @@
 ---
 title: Impostare flussi di lavoro per le spese
-description: "È possibile impostare un processo del flusso di lavoro utilizzato per rivedere e approvare i documenti viaggi e spese."
+description: È possibile impostare un processo del flusso di lavoro utilizzato per rivedere e approvare i documenti viaggi e spese.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8294aaa344e3cb6b79fa4f33f368258ca19c8205
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cf35406b43c1ec40a7c248b970559b65fcd8a6c6
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355727"
 ---
-
 # <a name="set-up-workflows-for-expense"></a>Impostare flussi di lavoro per le spese
 
 [!include [banner](../includes/banner.md)]
@@ -52,5 +51,4 @@ Nella tabella riportata di seguito sono elencati i tipi di flussi di lavoro che 
 |       <strong>Richiesta di acquisto viaggio</strong>       |          Creare flussi di lavoro di approvazione per le richieste di viaggio.           |
 |      <strong>Richiesta di anticipo contanti</strong>      |         Creare flussi di lavoro di approvazione per richieste di anticipo contanti.          |
 |        <strong>Recupero IVA</strong>        | Creare flussi di lavoro di approvazione per il recupero dell'imposta sul valore aggiunto (IVA).  |
-
 

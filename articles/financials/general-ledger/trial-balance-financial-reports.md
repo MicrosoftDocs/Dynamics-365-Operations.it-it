@@ -1,13 +1,13 @@
 ---
 title: Report finanziari del bilancio di verifica
-description: "In questo articolo viene descritto i report predefiniti per i bilanci di verifica. Sono descritti inoltre i blocchi predefiniti associati a questi report e come è possibile modificare i report in modo da soddisfare i requisiti aziendali."
+description: In questo articolo viene descritto i report predefiniti per i bilanci di verifica. Sono descritti inoltre i blocchi predefiniti associati a questi report e come è possibile modificare i report in modo da soddisfare i requisiti aziendali.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9e8c16724364df4dd62150056299e818470aa63
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a61369033202bdb99fe4b36b24051c64cb9ca4b1
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309106"
 ---
-
 # <a name="trial-balance-financial-reports"></a>Report finanziari del bilancio di verifica
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ In questo articolo viene descritto i report predefiniti per i bilanci di verific
 <a name="default-trial-balance-reports"></a>Report predefiniti del bilancio di verifica
 -----------------------------
 
-Tre report di bilancio di verifica sono disponibili in Creazione di report finanziari in Microsoft Dynamics 365 for Finance and Operations.
+Tre report del bilancio di verifica sono disponibili nei report finanziari in Microsoft Dynamics 365 for Finance and Operations.
 
 | Report predefinito                                 | Funzionamento                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -108,7 +107,6 @@ Ogni report di bilancio di verifica utilizza una definizione di colonna diversa.
 [Visualizzare i report finanziari](view-financial-reports.md)
 
 [Blog sui report finanziari di Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
 
 
 

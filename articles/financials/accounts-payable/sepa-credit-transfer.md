@@ -1,13 +1,13 @@
 ---
 title: Panoramica dei bonifici SEPA
-description: "Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico."
+description: Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363777"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>Panoramica dei bonifici SEPA
 
 [!include [banner](../includes/banner.md)]
@@ -124,7 +123,6 @@ I codici IBAN (International Bank Account Number) e BIC (Bank Identifier Code) s
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Come si trasmette un file di pagamento alla banca?
 Quando si generano pagamenti, viene generato il file di pagamento e viene richiesto di salvarlo dal Web browser in uso in qualsiasi posizione disponibile. Il passaggio successivo è quello di inviare il file XML alla banca. Questo processo varia in base alla banca. Seguire le istruzioni dalla banca per inviare i file alla banca per l'elaborazione.
-
 
 
 

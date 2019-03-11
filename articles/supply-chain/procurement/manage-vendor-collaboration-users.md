@@ -1,13 +1,13 @@
 ---
 title: Gestire gli utenti di collaborazione fornitore
-description: "In questo argomento viene descritto come è possibile richiedere il provisioning di nuovi utenti di collaborazione fornitore e come aggiungere nuovi contatti per la collaborazione fornitore."
+description: In questo argomento viene descritto come è possibile richiedere il provisioning di nuovi utenti di collaborazione fornitore e come aggiungere nuovi contatti per la collaborazione fornitore.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
-ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
-ms.contentlocale: it-it
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356693"
 ---
-
 # <a name="manage-vendor-collaboration-users"></a>Gestire gli utenti di collaborazione fornitore
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Quando una richiesta viene inviata viene aggiunta all'elenco **Richieste utente 
 Prima di poter richiedere il provisoning di un nuovo utente, tale persona deve essere impostata come contatto per uno o più conti fornitore. Per creare una richiesta per un nuovo utente di collaborazione fornitore:
 
 1. Nella pagina **Tutti i contatti**, fare clic su **Provisioning utente fornitore**.
-2. Immettere un indirizzo di posta elettronica per l'utente. Questo indirizzo verrà utilizzato dall'utente per accedere a Finance and Operations. Se l'indirizzo di posta elettronica appartiene a un dominio registrato come tenant con Microsoft Azure, l'indirizzo di posta elettronica deve essere un account Azure Active Directory (AAD) esistente perché il processo di provisioning venga completato correttamente. Se l'indirizzo di posta elettronica non appartiene a un dominio registrato con Microsoft Azure, un account ADD verrà creato durante il processo di provisioning e il nuovo utente riceverà un invito per posta. Indirizzi di posta elettronica consumer con domini quali @hotmail.com, @gmail.com o @comcast.net non possono essere utilizzati per registrare un utente Finance and Operations.
+2. Immettere un indirizzo di posta elettronica per l'utente. Questo indirizzo verrà utilizzato dall'utente per accedere a Finance and Operations. Se l'indirizzo di posta elettronica appartiene a un dominio registrato come tenant con Microsoft Azure, l'indirizzo di posta elettronica deve essere un account Azure Active Directory (AAD) esistente perché il processo di provisioning venga completato correttamente. Se l'indirizzo di posta elettronica non appartiene a un dominio registrato con Microsoft Azure, un account AAD verrà creato durante il processo di provisioning e il nuovo utente riceverà un invito per posta. Indirizzi di posta elettronica consumer con domini quali @hotmail.com @gmail.com o @comcast.net non possono essere utilizzati per registrare un utente Finance and Operations.
 3. Impostare l'opzione **Accesso a collaborazione fornitore consentito** su **Sì** per tutte le persone giuridiche a cui l'utente deve accedere.
 4. Nella sezione **Assegna ruoli utente**, selezionare la casella di controllo **Assegna** per i ruoli di sicurezza che il nuovo utente deve avere.
 5. Fare clic su **Invia**.
@@ -91,7 +90,6 @@ Per richiedere che i ruoli di sicurezza vengano modificati per un utente:
 2.  Scrivere un commento nel campo **Motivazione aziendale**.
 3.  Nella sezione **Gestisci ruoli utente**, selezionare i ruoli di sicurezza che si desidera assegnareo deselezionare quelli che si desidera rimuovere.
 4.  Fare clic su **Invia**.
-
 
 
 

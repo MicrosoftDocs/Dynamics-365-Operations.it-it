@@ -5,27 +5,26 @@ author: scott-tucker
 manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336591"
 ---
-
 # <a name="set-up-coupons-for-retail-sales"></a>Impostare buoni sconto per le vendite al dettaglio
 
 [!include [banner](includes/banner.md)]
@@ -81,4 +80,3 @@ La funzionalità Buono sconto include diverse funzionalità distinte in Dynamics
 - **HQ è parzialmente aggiornato, ma il server Retail e POS non vengono aggiornati.** In un aggiornamento HQ, il buono sconto e le pagine di sconto vengono aggiornati e il motore di prezzo di vendita al dettaglio viene aggiornato. Se uno solo di questi due componenti viene aggiornato, alcune pagine in Retail non corrisponderanno ai dati del calcolo dei prezzi. Di conseguenza, calcoli degli sconti imprevisti o errori possono verificarsi durante i calcoli degli sconti.
 - **HQ è aggiornato, ma il server Retail e POS non vengono aggiornati (N-1).** Poiché non tutti i punti vendita al dettaglio possono essere aggiornati contemporaneamente, si consiglia di aggiornare HQ prima di aggiornare i punti vendita al dettaglio. Nello scenario N-1, le nuove funzionalità correlate ai buoni sconto non saranno disponibili nei punti vendita che non sono stati ancora aggiornati. Ad esempio, la funzionalità dei buoni sconto introduce l'esclusione delle righe. Se si utilizza l'esclusione delle righe in uno sconto, questo non verrà applicato in un punto vendita al dettaglio che esegue una versione precedente.
 - **HQ non è aggiornato, ma il server Retail e POS sono aggiornati (N+1).** Poiché il motore dei prezzi aggiornato nel server Retail è in grado di gestire i codici sconto legacy durante i calcoli dei prezzi, l'aggiornamento non dovrebbe avere alcun impatto funzionale in questo scenario.
-

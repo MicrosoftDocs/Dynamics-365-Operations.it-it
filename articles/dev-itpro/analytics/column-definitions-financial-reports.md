@@ -1,13 +1,13 @@
 ---
 title: Definizioni di colonna nei report finanziari
-description: "In questo articolo vengono fornite informazioni sulle definizioni di colonna. Una definizione di colonna è un componente di report, o blocco predefinito, che specifica il contenuto delle colonne in un report. Al pari delle definizioni di riga, le definizioni delle colonne di base possono essere utilizzate nei report."
+description: In questo articolo vengono fornite informazioni sulle definizioni di colonna. Una definizione di colonna è un componente di report, o blocco predefinito, che specifica il contenuto delle colonne in un report. Al pari delle definizioni di riga, le definizioni delle colonne di base possono essere utilizzate nei report.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356348"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
 
 [!include [banner](../includes/banner.md)]
@@ -121,11 +120,11 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 | ADJ                     | Limita gli importi nella colonna agli importi di rettifica di periodo, se questi importi sono disponibili. |
 | XAD                     | Limita gli importi nella colonna in modo da escludere gli importi di rettifica di periodo. |
 | TP                      | Limita gli importi nella colonna, in modo che solo le transazioni registrate vengono incluse, se le transazioni sono disponibili. |
-| UPT                     | Limita gli importi nella colonna, in modo che solo le transazioni non registrate vengono incluse, se le transazioni sono disponibili.<blockquote>[!NOTE] Non tutti i provider di dati supportano transazioni non registrate. Per ulteriori informazioni, vedere <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guida all'integrazione dei dati</a> per il sistema Microsoft Dynamics ERP.</blockquote> |
+| UPT                     | Limita gli importi nella colonna, in modo che solo le transazioni non registrate vengono incluse, se le transazioni sono disponibili.<blockquote>[!NOTE] Non tutti i provider di dati supportano transazioni non registrate. Per ulteriori informazioni, vedere la <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guida di integrazione dei dati</a> per il sistema Microsoft Dynamics ERP.</blockquote> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Limitare una colonna a un'unità gerarchica
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Progettazione report aprire la definizione di colonna da modificare.
 2. Fare doppio clic sulla cella **Unità gerarchica** per la colonna da limitare.
 3. Nella finestra di dialogo **Selezione unità gerarchica**, elenco **Albero gerarchico**, selezionare un albero.
 4. Espandere o comprimere l'elenco delle unità, selezionare un'unità gerarchica quindi fare clic su **OK**.
@@ -171,22 +170,22 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 ### <a name="create-an-automatically-generated-header"></a>Creare un'intestazione generata automaticamente
 
-Progettazione report può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC**, **FD** e **WKS**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Ad esempio, in un anno di calendario standard, **@CalMonthLong** risolve il mese **7** in **luglio**. Se il nome del mese è in maiuscolo (ad esempio **LUGLIO**), immettere il codice testo automatico in caratteri maiuscoli nel campo **Testo intestazione colonna**. Ad esempio, immettere **@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, si immette il testo di intestazione seguente: **Periodo @FiscalPeriod-@FiscalYear da @StartDate a @EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**.
+Progettazione report può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC**, **FD** e **WKS**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Ad esempio, in un anno di calendario standard, **@CalMonthLong** risolve il mese **7** in **Luglio**. Se il nome del mese deve essere visualizzato solo con lettere maiuscole (ad esempio, **LUGLIO**), immettere il codice della voce di glossario in caratteri maiuscoli nel campo **Testo intestazione di colonna**. Immettere ad esempio **@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, immettere il seguente testo dell'intestazione: **Periodo @FiscalPeriod-@FiscalYear da @StartDate a @EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**.
 
 > [!NOTE]
 > Il formato di alcune parti del testo, ad esempio la data in formato esteso, dipende dalle impostazioni internazionali del server di Finance and Operations. Per modificare queste impostazioni, fare clic sul pulsante **Start**, fare clic su **Pannello di controllo**, quindi su **Paese e lingua**. Nella seguente tabella sono elencate le opzioni di testo automatico disponibili per le intestazioni di colonna.
 
 
-| Opzione e codice testo automatico                | descrizione |
+| Opzione e codice testo automatico                | Descrizione |
 |-----------------------------------------|-------------|
-| Nome del mese (@CalMonthLong)              | Stampa il nome del mese corrente nell'intestazione di colonna. Se si decide di arrotondare gli importi nel report a migliaia, milioni o miliardi, o se si imposta la larghezza di colonna nel report a meno di nove caratteri, il nome del mese è abbreviato i primi tre caratteri. |
+| Nome mese (@CalMonthLong)              | Stampa il nome del mese corrente nell'intestazione di colonna. Se si decide di arrotondare gli importi nel report a migliaia, milioni o miliardi, o se si imposta la larghezza di colonna nel report a meno di nove caratteri, il nome del mese è abbreviato i primi tre caratteri. |
 | Nome mese abbreviato (@CalMonthShort) | Stampa il nome abbreviato del mese per il periodo fiscale selezionato. |
 | Numero periodo (@FiscalPeriod)           | Stampae il formato numerico del periodo fiscale che viene identificato per la colonna. Se la colonna copre più periodi, l'ultimo periodo dell'intervallo viene stampato. |
 | Descrizione periodo (@FiscalPeriodName)  | Stampa la descrizione del periodo fiscale identificato nei dati finanziari. |
 | Anno fiscale (@FiscalYear)               | Stampa anno fiscale per la colonna in formato numerico. |
 | Anno di calendario (@CalYear)                | Stampa anno di calendario per la colonna in formato numerico. |
-| Data di inizio (@StartDate)                 | Stampa la data di inizio per la colonna. |
-| Data di fine (@EndDate)                     | Stampa la data di fine per la colonna. |
+| Data inizio (@StartDate)                 | Stampa la data di inizio per la colonna. |
+| Data fine (@EndDate)                     | Stampa la data di fine per la colonna. |
 | Nome dell'unità dalla struttura (@UnitName)         | Se si limita una colonna a un'unità specifica dell'albero gerarchico, stampa il nome dell'unità nell'intestazione di colonna. |
 | Descrizione unità (@UnitDesc)            | Se si limita una colonna a un'unità specifica dell'albero gerarchico, stampa la descrizione dell'unità nell'intestazione di colonna. |
 | Codice libro (@BookCode)                   | Stampa il codice libro specificato nella colonna. |
@@ -218,10 +217,10 @@ Phyllis sta creando un report per una previsione dinamica di sei mesi. Desidera 
 
 |                     |  A   | B             | C             | D             | E             | V             | G             | H             | I             | J             | K             | L             | L             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Intestazione 1            |      | Effettiva        | Budget        |               |               |               |               |               |               |               |               |               |               |
+| Intestazione 1            |      | Effettivo        | Budget        |               |               |               |               |               |               |               |               |               |               |
 | Intestazione 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Intestazione 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| Tipo di colonna         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
+| Tipo di colonna         | DESC | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | FD            | FD            |
 | Codice libro/Attributo |      | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    |
 | Anno fiscale         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
 | Periodo              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
@@ -612,4 +611,3 @@ Un calcolo complesso può contenere qualsiasi combinazione di riferimenti a cell
 [Definizioni di riga nei report finanziari](row-definitions-financial-reporting.md)
 
 [Opzioni di formattazione avanzate nei report finanziari](advanced-formatting-options-financial-reporting.md)
-

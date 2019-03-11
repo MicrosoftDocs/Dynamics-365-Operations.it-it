@@ -1,13 +1,13 @@
---- 
-title: "Impostare la convalida dell'abbinamento fatture della contabilità fornitori"
-description: "Questa registrazione utilizza la società dimostrativa USMF."
+---
+title: Impostare la convalida dell'abbinamento fatture della contabilità fornitori
+description: Questa registrazione utilizza la società dimostrativa USMF.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7a26a057b524f162e4b288b88e8c30f7c5db7a45
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346849"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Impostare la convalida dell'abbinamento fatture della contabilità fornitori
 
@@ -50,5 +50,4 @@ Questa registrazione utilizza la società dimostrativa USMF. Il ruolo di respons
 11. Attiva/disattiva l'espansione della sezione Abbinamento spese.
 12. Selezionare la casella di controllo Abbina spese per abbinare le spese effettive con le spese previste, in base alle informazioni sull'ordine fornitore.
 13. Chiudere la pagina.
-
 

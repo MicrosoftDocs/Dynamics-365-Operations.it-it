@@ -1,13 +1,13 @@
 ---
-title: "Conto lavoro basato su attività"
-description: "In questo argomento viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing."
+title: Conto lavoro basato su attività
+description: In questo argomento viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350046"
 ---
-
 # <a name="activity-based-subcontracting"></a>Conto lavoro basato su attività
 
 [!include [banner](../includes/banner.md)]
@@ -89,7 +88,7 @@ Per quanto riguarda le attività di processo, è necessario configurare un servi
 ## <a name="service-quantity-calculation"></a>Calcolo della quantità del servizio
 L'intero processo di acquisto è basato su un riferimento articolo per un servizio. Questo riferimento articolo viene misurato in un'unità di misura di un servizio. I servizi vengono misurati in genere o in numero di servizi (unità) o in tempo. Per calcolare la quantità di servizio, in base al completamento registrato dei processi kanban, è possibile utilizzare i seguenti metodi:
 
--   **Calcolo basato sul numero di processi**: un processo kanban è uguale a *n* unità di servizio, indipendentemente dalla quantità di prodotto fornita. In lean manufacturing, un processo corrisponde a un'unità movimentazione. Questo metodo di calcolo viene applicato a tutti i servizi con prezzo fisso per unità di movimentazione. Di conseguenza, questo metodo viene applicato in genere alle attività di trasferimento. Tuttavia, è applicabile anche alle attività di processo che elaborano delle intere unità movimentazione.
+-   **Calcolo basato sul numero di processi**: un  processo kanban è uguale a *n* unità di servizio, indipendentemente dalla quantità di prodotto fornita. In lean manufacturing, un processo corrisponde a un'unità movimentazione. Questo metodo di calcolo viene applicato a tutti i servizi con prezzo fisso per unità di movimentazione. Di conseguenza, questo metodo viene applicato in genere alle attività di trasferimento. Tuttavia, è applicabile anche alle attività di processo che elaborano delle intere unità movimentazione.
 -   **Calcolo basato sulla quantità di prodotto**: la quantità di servizio è relativa alla quantità di prodotto programmato/fornito. Quando la quantità di prodotto fornito viene calcolata, è possibile includere o escludere le quantità difettose . Questo metodo viene applicato a tutti i casi in cui il prezzo del servizio per unità di prodotto elaborato viene concordato.
 -   **Calcolo basato sul tempo di attività**: i tempi teorici di attività vengono calcolati in base al tempo di elaborazione dell'attività, la quantità elaborata totale e il rapporto di produttività del prodotto elaborato. Questo metodo di calcolo viene applicato ai servizi che vengono pagati su base oraria e hanno uno scostamento di tempo per prodotto elaborato.
 
@@ -104,7 +103,6 @@ Le persone spesso considerano il trasporto non produttivo e pensano che aggiunga
 Il conto lavoro basato su attività nel lean manufacturing consente di integrare i vettori e i fornitori di trasporto che spostano materiale e prodotti tra ubicazioni di un flusso di produzione. Modellando un'attività di trasferimento, è possibile assegnare un vettore o un fornitore. Le attività o il processo di trasferimento è basato su un contratto di servizio e di acquisto e sarà possibile creare ordini fornitore e avvisi di ricevimenti, in base ai processi di trasferimento effettivi. Questa funzionalità è la stessa della funzionalità per le attività di processo in conto lavoro.  
 
 Di conseguenza, Finance and Operations ora supporta il calcolo DBA che comprende servizi di trasporto, la creazione di ordini fornitore correlati, la registrazione integrata dell'entrata e l'integrazione dei costi del servizio di trasporto nella determinazione costi del flusso di produzione.
-
 
 
 

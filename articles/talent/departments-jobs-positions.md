@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374399"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Reparti, mansioni e posizioni sono elementi organizzativi che vengono gestiti in Risorse umane. Questo argomento descrive le nozioni relative a questi elementi. 
 
@@ -165,7 +163,6 @@ Per alcuni record, è possibile specificare le modifiche future al record. Le se
 </table>
 
 È possibile modificare le informazioni citate nella tabella precedente per una posizione o una mansione e specificare una data in cui le modifiche alla posizione o alla mansione devono essere rese effettive. Ad esempio, una posizione può essere assegnata solo a un lavoratore, ma Sanjay Patel, assegnato alla posizione Ragioniere-A, lascerà la società tra due settimane. Joe Healy sostituirà Sanjay Patel. Anche se Sanjay è ancora assegnato alla posizione, è possibile assegnare Joe Healy alla stessa posizione in modo che l'assegnazione sia valida solo dopo l'ultimo giorno di Sanjay.
-
 
 
 

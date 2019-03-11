@@ -1,41 +1,40 @@
 ---
 title: Contenuto di Power BI per responsabile procedura
-description: "In questo argomento viene descritto cosa è incluso nel contenuto Power BI per il responsabile procedura. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto."
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Responsabile procedura. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367802"
 ---
-
 # <a name="practice-manager-power-bi-content"></a>Contenuto di Power BI per responsabile procedura
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto Microsoft Power BI per il **responsabile procedura**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto Power BI **Responsabile procedura**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
-Il contenuto di Power BI per **responsabile procedura** è stato creato per i responsabili delle procedure e i responsabili di progetto. Fornisce metriche importanti correlate ai progetti su cui l'organizzazione sta lavorando. Il dashboard fornisce una panoramica dei progetti e dei clienti correlati. Un filtro a livello di report può essere utilizzato per i report su persone giuridiche specifiche. Il contenuto di Power BI preleva i dati dalle misure aggregate di contabilità dei progetti.
+Il contenuto Power BI **Responsabile procedura** è stato creato per i responsabili delle procedure e i responsabili di progetto. Fornisce metriche importanti correlate ai progetti su cui l'organizzazione sta lavorando. Il dashboard fornisce una panoramica dei progetti e dei clienti correlati. Un filtro a livello di report può essere utilizzato per i report su persone giuridiche specifiche. Il contenuto di Power BI preleva i dati dalle misure aggregate di contabilità dei progetti.
 
-Il contenuto di Power BI per **responsabile procedura** contiene cinque pagine di report: una pagina di panoramica e quattro pagine che forniscono informazioni su costi, ricavi, gestione valori ottenuti e metriche di ora del progetto suddivise in varie dimensioni.
+Il contenuto di Power BI **Responsabile procedura** contiene cinque pagine di report: una pagina di panoramica e quattro pagine che forniscono informazioni su costi, ricavi, gestione valori ottenuti e metriche di ora del progetto suddivise in varie dimensioni.
 
 Tutti gli importi del contenuto verranno visualizzati nella valuta di sistema. È possibile impostare la valuta di sistema nella pagina **Paramenti di sistema**.
 
@@ -55,7 +54,7 @@ Nella seguente tabella sono descritti i dettagli sulle metriche disponibili in o
 | EVM               | Indice delle prestazioni di programmazione e costo per progetto |
 | Ore             | <ul><li>Ore utilizzate fatturabili effettive rispetto a ore improduttive fatturabili effettive rispetto a ore di budget</li><li>Ore utilizzate fatturabili effettive rispetto a ore improduttive fatturabili effettive per progetto</li><li>Ore utilizzate fatturabili effettive rispetto a ore improduttive fatturabili effettive per risorsa</li><li>Percentuale ore fatturabili effettive per progetto</li><li>Percentuale ore fatturabili effettive per risorsa</li></ul> |
 
-I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). È inoltre possibile utilizzare la funzionalità di esportazione dati sottostanti per esportare i dati sottostanti riepilogati in una visualizzazione.
+I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) È inoltre possibile utilizzare la funzionalità di esportazione dati sottostanti per esportare i dati sottostanti riepilogati in una visualizzazione.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
@@ -119,4 +118,3 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 | Misura di aggregazione chiave       | Campo               | descrizione |
 |---------------------------------|---------------------|-------------|
 | Costo pianificato delle attività completate | Sum(TotalCostPrice) | Prezzo di costo totale nelle stime per tutti i tipi di transazione di progetto con attività completate. |
-

@@ -1,13 +1,13 @@
---- 
+---
 title: ER configura le destinazioni
 description: Questa procedura mostra come impostare e utilizzare destinazioni diverse per i componenti di output per la creazione di report elettronici (ER), ad esempio una cartella o un file.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309865"
 ---
 # <a name="er-configure-destinations"></a>ER configura le destinazioni
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 10/16/2018
 
 Questa procedura mostra come impostare e utilizzare destinazioni diverse per i componenti di output per la creazione di report elettronici (ER), ad esempio una cartella o un file. La società di dati dimostrativi utilizzata per creare questa procedura è DEMF. La Germania è il paese dell'indirizzo principale della persona giuridica, comunque è possibile utilizzare qualsiasi persona giuridica per questa procedura. 
 
-Il formato utilizzato in questo esempio è Bonifico ISO20022, ma è possibile usare qualsiasi formato che sia già stato importato. Questa procedura è un esempio di un'impostazione di destinazione e file singoli. Ulteriori informazioni sulla gestione delle destinazione per la creazione di report elettronici sono disponibili nella Guida di Dynamics 365 for Finance and Operations.
+Il formato utilizzato in questo esempio è Bonifico ISO20022, ma è possibile usare qualsiasi formato che sia già stato importato. Questa procedura è un esempio di un'impostazione di destinazione e file singoli. Ulteriori informazioni sulla gestione delle destinazioni per la creazione di report elettronici sono disponibili nella Guida di Dynamics 365 for Finance and Operations.
 
 1. Passare a Amministrazione organizzazione > Creazione di report elettronici > Destinazione report elettronici.
 2. Fare clic su Nuovo per creare un nuovo set di destinazioni per un formato.
@@ -60,5 +60,4 @@ Il formato utilizzato in questo esempio è Bonifico ISO20022, ma è possibile us
 20. Fare clic su OK.
 21. Digitare un valore nel campo Oggetto.
 22. Fare clic su OK.
-
 

@@ -5,9 +5,9 @@ author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 73e1da37c354eecf1ef5d44e68d814664fe2be99
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9ca6b0d4a9909d419d6241a044336d7a02aea02
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331968"
 ---
-
 # <a name="system-grouping-on-an-open-work-list"></a>Raggruppamento di sistema in un elenco lavori aperti
 
 [!include [banner](../includes/banner.md)]
@@ -42,5 +41,4 @@ Utilizzare questa procedura per impostare un raggruppamento di sistema su un ele
 | Consentire il raggruppamento di sistema |                                                                                                                                                                                                                                                 Consente il raggruppamento di sistema per una voce di menu dell'elenco lavoro selezionata.                                                                                                                                                                                                                                                  |
 | Campo di raggruppamento sistema | Disponibile solo se <strong>Consenti lavoro di sistema</strong> è impostato su <strong>Sì</strong>. Selezionare il campo che determina la modalità di raggruppamento del lavoro di prelievo per i lavoratori. Ad esempio, se si seleziona il campo <strong>ID spedizione</strong>, il lavoratore esegue la scansione dell'ID spedizione per raggruppare il lavoro di prelievo. Tutto il lavoro di spedizione verrà quindi assegnato al lavoratore. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. Utilizzare il campo <strong>Etichetta di raggruppamento sistema</strong> per indicare al lavoratore gli elementi da scansionare. |
 | Etichetta di raggruppamento sistema |                       Disponibile solo se <strong>Consenti lavoro di sistema</strong> è impostato su <strong>Sì</strong>. Immettere le informazioni per il lavoratore relative agli elementi da sottoporre a scansione quando viene raggruppato il lavoro di prelievo. Se ad esempio si utilizza il campo <strong>ID spedizione</strong> per raggruppare il lavoro di prelievo in base alla spedizione, è possibile immettere l'ID spedizione nel campo. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È inoltre necessario selezionare il campo in base a cui raggruppare nel campo <strong>Raggruppamento sistema</strong>.                       |
-
 

@@ -1,13 +1,13 @@
 ---
 title: Home page di cespiti
-description: "I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature."
+description: I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3c49ff15a6ac5dddd64ded4a6e9c755504393346
-ms.contentlocale: it-it
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302471"
 ---
-
 # <a name="fixed-assets-home-page"></a>Home page di cespiti
 
 [!include [banner](../includes/banner.md)]
@@ -42,13 +41,13 @@ I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazi
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle che sono in via di sviluppo. 
+Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo. 
 
 #### <a name="blogs"></a>Blog
 
 Per opinioni, notizie e altre informazioni sui cespiti e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Sono disponibili numerosi post sui cespiti nel [blog del team di prodotto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Sebbene alcuni di questi post siano stati scritti per la versione precedente della contabilità fornitori, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
+Nel [blog del team di prodotto di Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) sono disponibili numerosi post sui cespiti. Sebbene alcuni di questi post siano stati scritti per la versione precedente della contabilità fornitori, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 
@@ -57,8 +56,7 @@ Informazioni aggiuntive sono disponibili come guide attività in Finance and Ope
 
 #### <a name="videos"></a>Video
 
-Controllare i video illustrativi disponibili nel [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

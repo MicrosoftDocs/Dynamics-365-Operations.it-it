@@ -1,13 +1,13 @@
 ---
 title: Registrare una nota spese
-description: "In questo argomento viene descritto come registrare una nota spese nella contabilità generale."
+description: In questo argomento viene descritto come registrare una nota spese nella contabilità generale.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1252825848aedcdaf633c04edddddca7dd09d774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: cc3aae061038202ec4f314654d9149c31e2575bb
-ms.contentlocale: it-it
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359407"
 ---
-
 # <a name="post-an-expense-report"></a>Registrare una nota spese
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ Se le spese in una nota spese vengono addebitate a una società diversa da quell
 Per registrare una nota spese, nella pagina **Note spese approvate**, selezionare la nota spese, quindi, nel riquadro azioni, selezionare **Registra**.
 
 È inoltre possibile registrare tutte le note spese nell'elenco contemporaneamente. Selezionare tutte le note spese, quindi **Registra**.
-

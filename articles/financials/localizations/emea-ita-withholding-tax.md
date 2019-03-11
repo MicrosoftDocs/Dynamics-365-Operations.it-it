@@ -5,9 +5,9 @@ author: Anasyash
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 4a6f648890fb6f90c4753f3eab917e871a6f043f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 203dd471b85503926974f5c96d1793543bbd202e
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370968"
 ---
-
 # <a name="withholding-tax-for-italy"></a>Ritenuta d'acconto per l'Italia
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Per eseguire i report specifici dell'Italia relativi alla ritenuta d'acconto, pa
 -   **Ritenuta d'acconto - certificazione** - Questo report viene utilizzato per stampare un report di certificazione per l'Italia nella valuta della ritenuta d'acconto. Il report è predisposto per essere inviato al fornitore. Include i dati della ritenuta d'acconto per il periodo specificato. Il report certifica al fornitore che gli importi dell'imposta sono stati trattenuti durante il periodo di reporting.
 -   **Ritenuta d'acconto - mensile** - Questo report viene utilizzato per stampare, per ciascun conto fornitore, i dettagli degli importi di ritenuta d'acconto per tutte le fatture pagate durante il mese: il codice motivo della ritenuta d'acconto, l'importo totale, l'importo non soggetto a ritenuta, l'importo non tassabile per Reg. Conv., l'importo non tassabile, la base tassabile e l'importo della ritenuta d'acconto. Se l'utente seleziona per stampare i dettagli nella finestra di dialogo, il report mostra i dettagli dell'importo in base a data del documento e numero di fattura.
 -   **Ritenuta d'acconto - annuale** - Questo report viene utilizzato per stampare, per ciascun conto fornitore, gli importi risultanti della ritenuta d'acconto. Tali importi vengono raggruppati in base al codice di ritenuta d'acconto e i dettagli vengono inclusi nella fattura. A seconda delle impostazioni di **Origine** e **Facoltà dichiarazione percettore** sul codice ritenuta d'acconto, il report mostra inoltre gli importi totali: importi totali che il percettore può o meno dichiarare e l'importo totale di ritenuta a titolo di imposta e ritenuta a titolo di acconto.
-
 
 
 

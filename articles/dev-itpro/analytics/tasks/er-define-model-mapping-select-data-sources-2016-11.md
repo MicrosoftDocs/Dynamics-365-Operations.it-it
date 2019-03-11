@@ -1,13 +1,13 @@
---- 
+---
 title: Definire i mapping di modello ER e selezionare le relative origini dati
-description: "I passaggi seguenti descrivono come un utente con ruolo amministratore di sistema o sviluppatore per la creazione di report elettronici può selezionare origini dati per un modello dati per la creazione di report elettronici."
+description: I passaggi seguenti descrivono come un utente con ruolo amministratore di sistema o sviluppatore per la creazione di report elettronici può selezionare origini dati per un modello dati per la creazione di report elettronici.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348873"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Definire i mapping di modello ER e selezionare le relative origini dati
 
@@ -51,7 +51,7 @@ I passaggi seguenti descrivono come un utente con ruolo amministratore di sistem
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Definire le origini dati richieste per il mapping di modello corrente
 1. Fare clic su Progettazione.
-2. Nella struttura selezionare "Dynamics 365 for Operations\Table records".
+2. Nella struttura selezionare 'Dynamics 365 for Operations\Record di tabella'.
 3. Fare clic su Aggiungi radice.
     * Immettere questa origine dati per accedere alle transazioni di pagamento.  
 4. Nel campo Nome digitare "Transazioni".
@@ -110,7 +110,7 @@ I passaggi seguenti descrivono come un utente con ruolo amministratore di sistem
 41. Nella struttura espandere "Transazioni".
 42. Nella struttura espandere o comprimere 'Transazioni\$Amount'.
 43. Nella struttura espandere o comprimere 'Transazioni'.
-44. Nella struttura selezionare "Dynamics 365 for Operations\Table records".
+44. Nella struttura selezionare 'Dynamics 365 for Operations\Record di tabella'.
 45. Fare clic su Aggiungi radice.
     * Immettere l'origine dati per accedere ai dettagli del conto bancario della società.  
 46. Nel campo Nome digitare "BankAccount".
@@ -157,5 +157,4 @@ I passaggi seguenti descrivono come un utente con ruolo amministratore di sistem
 70. Chiudere la pagina.
 71. Chiudere la pagina.
 72. Chiudere la pagina.
-
 

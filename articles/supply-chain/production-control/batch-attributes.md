@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 325e647185e3eb4c0eacdfd00c320804e31ddb48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347631"
 ---
-
 # <a name="batch-attributes"></a>Attributi batch
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Per gestire meglio il numero e i tipi di attributi, è possibile utilizzare i gr
 
 ## <a name="reserve-batches"></a>Prenotazione di batch
 È possibile eseguire ricerche negli attributi batch quando si eseguono prenotazioni batch per un ordine cliente allo scopo di evadere l'ordine di un cliente, o quando si prelevano e si prenotano batch per un ordine di produzione. La ricerca consente di trovare il lotto di magazzino che contiene il prodotto con gli attributi batch desiderati. Dopo aver trovato il batch, è possibile prenotare l'articolo sulla riga di transazione di magazzino di origine.
-
 
 
 

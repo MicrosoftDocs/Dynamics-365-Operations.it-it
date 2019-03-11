@@ -1,13 +1,13 @@
 ---
 title: Pianificazione della gerarchia organizzativa
-description: "Prima di impostare le organizzazioni e le gerarchie organizzative, è necessario comprendere qual è il modo migliore di modellare l'azienda."
+description: Prima di impostare le organizzazioni e le gerarchie organizzative, è necessario comprendere qual è il modo migliore di modellare l'azienda.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331991"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Pianificazione della gerarchia organizzativa
 
 [!include [banner](../includes/banner.md)]
@@ -243,4 +242,3 @@ Quando si implementa una gerarchia organizzativa, considerare le procedure ottim
 - Prima di modellare strutture di ristrutturazione consistenti, utilizzare le date di validità della gerarchia per effettuare un'analisi dell'impatto e un test di convalida.
 - Utilizzare la modalità bozza per modificare una gerarchia prima di pubblicare una versione in un ambiente di produzione.
 - Limitare il numero di persone che dispongono delle autorizzazioni per aggiungere o rimuovere organizzazioni da una gerarchia in un ambiente di produzione. Un numero inferiore riduce le possibilità di commettere costosi errori.
-

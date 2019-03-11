@@ -1,14 +1,14 @@
 ---
-title: "Accesso alle funzionalità di anteprima in Talent"
-description: "Questo argomento descrive come un amministratore può attivare le funzionalità in anteprima ed elenca le funzionalità attualmente attivate per l'anteprima."
+title: Accesso alle funzionalità di anteprima in Talent
+description: Questo argomento descrive come un amministratore può attivare le funzionalità in anteprima ed elenca le funzionalità attualmente attivate per l'anteprima.
 author: rschloma
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.contentlocale: it-it
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304983"
 ---
-
 # <a name="access-preview-features-in-talent"></a>Accesso alle funzionalità di anteprima in Talent
 
 [!include[banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ Questo argomento descrive come un amministratore può attivare le funzionalità 
 
 ### <a name="enable-or-disable-preview-features-for-your-organization"></a>Attivare o disattivare le funzionalità in anteprima per l'organizzazione
 
-#### <a name="attract"></a>Attract
+#### <a name="attract"></a>Attrai
 
 1. Accedere a Microsoft Dynamics 365 for Talent: Attract.
 2. Nel menu **Impostazione** (il simbolo di ingranaggio) nell'angolo superiore destro, selezionare **Impostazioni di amministrazione**.
@@ -92,4 +91,3 @@ Si raccomanda di non includere dati personali (qualsiasi informazione che possa 
 
 > [!TIP]
 > Si consiglia di aggiungere questo argomento ai Preferiti per mantenersi aggiornati sulle nuove funzionalità in anteprima che vengono rilasciate.
-

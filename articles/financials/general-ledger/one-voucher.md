@@ -1,14 +1,14 @@
 ---
 title: Un giustificativo
-description: "Un giustificativo per giornali di registrazione finanziari (giornale di registrazione generale, giornale di registrazione cespiti, giornali di registrazione pagamenti fornitore e così via) consente di immettere più transazioni di giornali di registrazione secondari nel contesto di un singolo giustificativo."
+description: Un giustificativo per giornali di registrazione finanziari (giornale di registrazione generale, giornale di registrazione cespiti, giornali di registrazione pagamenti fornitore e così via) consente di immettere più transazioni di giornali di registrazione secondari nel contesto di un singolo giustificativo.
 author: kweekley
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
+ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 26ae31efe55eeaf6d09ef14112811ea8977bfb0a
-ms.openlocfilehash: 62c30ea748c49b0a3cfe544c7ba10eb52389c50a
-ms.contentlocale: it-it
-ms.lasthandoff: 11/05/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308554"
 ---
-
 # <a name="one-voucher"></a>Un giustificativo
 
 [!include [banner](../includes/banner.md)]

@@ -1,13 +1,13 @@
 ---
 title: Impostare assortimenti
-description: "Questo articolo spiega cos'è un assortimento e come impostare gli assortimenti in Microsoft Dynamics 365 for Retail."
+description: Questo articolo spiega cos'è un assortimento e come impostare gli assortimenti in Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: a9578a0784d4f4fbfca27ec4093a3f61d1068a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 91713a4492ad82520f7dde611c17a5ea168ed80d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314971"
 ---
-
 # <a name="set-up-assortments"></a>Impostare gli assortimenti
 
 [!include [banner](includes/banner.md)]
@@ -56,4 +55,3 @@ Dopo aver completato i prerequisiti, è possibile creare un assortimento e asseg
 2. Selezionare i canali di vendita al dettaglio o i gruppi di canali di vendita al dettaglio di alto livello a cui applicare l'assortimento.
 3. Aggiungere categorie di prodotti, singoli prodotti o varianti prodotto all'assortimento. È possibile includere tutti i prodotti di una categoria specifica o escludere determinati prodotti da una categoria inclusa nell'assortimento.
 4. Pubblicare l'assortimento. Quando si pubblica un assortimento, l'utilità di pianificazione di assortimento di vendita al dettaglio viene eseguita automaticamente. Questo processo genera l'elenco dei prodotti. Quando il processo è completo, i prodotti diventano disponibili per i canali di vendita al dettaglio a cui è assegnato l'assortimento. Se vengono apportate modifiche a un assortimento che è stato pubblicato o ai canali di vendita al dettaglio a cui è assegnato l'assortimento, l'assortimento deve essere aggiornato. Per aggiornare l'assortimento quando vengono apportate modifiche, è possibile eseguire l'utilità di pianificazione di assortimento di vendita al dettaglio come processo batch.
-

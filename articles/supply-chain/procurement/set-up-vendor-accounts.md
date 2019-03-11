@@ -1,13 +1,13 @@
 ---
 title: Impostare conti fornitore
-description: "In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore."
+description: In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329139"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Impostare conti fornitore
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Se è necessario effettuare i pagamenti a un conto bancario fornitore, è possib
 È possibile specificare i conti predefiniti visualizzati automaticamente nei giornali di registrazione delle fatture fornitore per il fornitore specificato. Utilizzare questa opzione se in genere si pagano gli stessi tipi di articoli o servizi dagli stessi fornitori nel tempo. Quando si specifica un conto predefinito, è possibile immettere in modo rapido ed efficiente voci nel giornale di registrazione fatture. I conti predefiniti specificati non vengono utilizzati per ordini fornitore o fatture fornitore immesse nella pagina **Fattura fornitore**.  
 
 Selezionare i conti predefiniti nella pagina **Impostazione conto predefinito**, accessibile dalla scheda **Fattura** nel record fornitore. I conti selezionati qui sono visualizzati nell'elenco filtrato dei conti relativi al fornitore quando si effettua un inserimento nel giornale di registrazione. È possibile impostare uno dei conti come conto predefinito.
-
 
 
 

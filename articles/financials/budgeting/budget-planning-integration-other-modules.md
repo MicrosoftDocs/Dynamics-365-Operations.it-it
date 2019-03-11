@@ -1,13 +1,13 @@
 ---
 title: Integrazione della pianificazione del budget con altri moduli
-description: "I piani di budget possono essere generati tramite molteplici risorse differenti. Gli elementi di base del processo periodico sono uguali per tutte le risorse."
+description: I piani di budget possono essere generati tramite molteplici risorse differenti. Gli elementi di base del processo periodico sono uguali per tutte le risorse.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 97c33a222d31e690d2a395f972c0ddc4b89e8fdb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353036"
 ---
-
 # <a name="budget-planning-integration-with-other-modules"></a>Integrazione della pianificazione del budget con altri moduli
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ Selezionare una riga e fare clic sul pulsante **Righe di piano di budget** per e
 Utilizzare i pulsanti **Previsione dell'offerta** e **Previsione della domanda** per eseguire le query. In entrambi i casi, la query eseguono la ricerca delle righe di previsione che possono avere creato le righe di piano di budget. 
 
 Report aggiuntivi disponibili includono il report **Posizioni previste per piano di budget**. Questo report è particolarmente utile se si desidera determinare se una posizione sia stata allocata al piano di budget in modo corretto.
-
 
 
 

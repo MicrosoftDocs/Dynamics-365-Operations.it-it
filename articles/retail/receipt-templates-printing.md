@@ -1,13 +1,13 @@
 ---
 title: Impostare e progettare formati di ricevute
-description: "In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Microsoft Dynamics 365 for Retail include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo."
+description: In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Microsoft Dynamics 365 for Retail include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357820"
 ---
-
 # <a name="set-up-and-design-receipt-formats"></a>Impostare e progettare formati di ricevute
 
 [!include [banner](includes/banner.md)]
@@ -56,7 +55,7 @@ Utilizzare il progetto del layout modulo per creare graficamente il layout del d
 2. Nella pagina **Formato ricevuta** selezionare un layout modulo e quindi fare clic su **Progettazione**.
 3. Fare clic su **Esegui** per avviare l'installazione dell'host della progettazione Retail.
 4. Nella barra di notifica visualizzata nella parte inferiore della finestra di Internet Explorer, fare clic su **Apri** per avviare l'installazione della progettazione con un clic. La barra di notifica potrebbe apparire in una posizione diversa in altri browser. L'indicatore di avanzamento mostra l'avanzamento del processo di installazione.
-5. Dopo che l'installazione è stata completata, immettere nome utente e password di Dynamics 365 for Retail e quindi fare clic su **Accedi** per avviare la finestra di progettazione.
+5. Dopo che l'impostazione è stata completata, immettere nome utente e password di Dynamics 365 for Retail e quindi fare clic **Accedi** per avviare la finestra di progettazione.
 6. Dopo che le credenziali vengono convalidate e si avvia la progettazione, è possibile iniziare a progettare il formato ricevuta o a modificare un formato esistente.
 7. Per creare gli elementi del modulo, selezionare la sezione **Intestazione**, **Righe** o **Piè di pagina** e quindi trascinare un elemento dalla sezione all'area di lavoro. La maggior parte degli elementi contengono variabili che sono automaticamente compilate con dati ricavati dal database. Altre elementi, ad esempio il **Testo**, consentono di stampare testo personalizzato sulla ricevuta.
 
@@ -83,4 +82,3 @@ I profili ricevuta vengono assegnati direttamente alle stampanti nel profilo har
 
 > [!NOTE]
 > Se vengono utilizzate due stampanti, una stampante può essere utilizzata per stampare le ricevute termali a 40 colonne standard. La seconda stampante viene in genere utilizzata per stampare i tipi di ricevuta a pagina intera che richiedono ulteriori informazioni. Questi tipi di ricevuta includono le ricevute per l'ordine cliente e le fatture cliente.
-

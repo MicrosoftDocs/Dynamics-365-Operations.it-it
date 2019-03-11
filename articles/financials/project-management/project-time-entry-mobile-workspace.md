@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333003"
 ---
-
 # <a name="project-time-entry-mobile-workspace"></a>Area di lavoro mobile per immissione ora progetto
 
 [!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Immissione ora progetto**. Questa area di lavoro consente agli utenti di immettere e salvare le ore dedicate a un progetto utilizzando il dispositivo mobile.
 
-Questa area di lavoro mobile può essere utilizzata con l'app mobile Microsoft Dynamics 365 for Unified Operations. 
+Questa area di lavoro mobile può essere utilizzata con l'app Microsoft Dynamics 365 for Unified Operations Mobile. 
 
 ## <a name="overview"></a>Panoramica
 Durante il lavoro giornaliero, le risorse di progetto si trovano spesso sul campo o in viaggio. L'area di lavoro mobile **immissione ora progetto** consente agli utenti di immettere le relative ore fatturabili o non fatturabili a fronte di un progetto nel dispositivo mobile scelto. Di conseguenza, le risorse di progetto possono registrare voci ore in qualsiasi momento e ovunque. È inoltre possibile visualizzare le voci ore già registrate. 
@@ -114,4 +113,3 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 11. Selezionare la proprietà riga.
 12. Facoltativo: immettere qualsiasi commento interno o esterno.
 13. Selezionare **Fine**.
-

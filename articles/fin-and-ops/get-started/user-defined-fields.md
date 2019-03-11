@@ -1,13 +1,13 @@
 ---
-title: Creare e utilizzare i campi personalizzati
+title: Creare e utilizzare campi personalizzati
 description: In questo argomento viene illustrato come Microsoft Dynamics 365 for Finance and Operations consente agli utenti di creare i campi personalizzati per adattare l'applicazione in base alle esigenze aziendali.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: it-it
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348022"
 ---
-
-# <a name="create-and-work-with-custom-fields"></a>Creare e utilizzare i campi personalizzati
+# <a name="create-and-work-with-custom-fields"></a>Creare e utilizzare campi personalizzati
 
 [!include [banner](../includes/banner.md)]
 
@@ -160,4 +159,3 @@ Per motivi tecnici e di prestazioni, solo le tabelle che soddisfano le seguenti 
 - La tabella non può estendere un'altra tabella.
 - La tabella non può essere contrassegnata come tabella di sistema.
 - La tabella non può essere una tabella temporanea.
-

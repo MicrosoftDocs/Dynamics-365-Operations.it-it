@@ -1,13 +1,13 @@
 ---
-title: "Categorie costi utilizzate in Controllo produzione e Gestione progetti e contabilità"
-description: "Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. Questo articolo fornisce informazioni sulle categorie di costi che è necessario definire per questi tipi di lavoro di produzione ai fini della produzione e del progetto."
+title: Categorie costi utilizzate in Controllo produzione e Gestione progetti e contabilità
+description: Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. Questo articolo fornisce informazioni sulle categorie di costi che è necessario definire per questi tipi di lavoro di produzione ai fini della produzione e del progetto.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cab4629740e92f9075b7afc7a5d228b2e01c4664
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d641ce950aed87b0cf6763fc9dae67ef47268b8d
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326034"
 ---
-
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Categorie costi utilizzate in Controllo produzione e Gestione progetti e contabilità
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del t
 -   In genere, i conti CoGe correlati ai costi e alle vendite vengono definiti per il gruppo di categorie assegnato alla categoria costi, tuttavia è possibile definire conti specifici anche per una singola categoria costi. È possibile, tuttavia, definire conti specifici per una singola categoria costi.
 
 I pulsanti aggiuntivi nella pagina **Categorie costi** consentono di accedere alle informazioni correlate al progetto relative a una categoria costi selezionata. Ad esempio, è possibile visualizzare le transazioni correlate al progetto, definire dipendenti o progetti, definire costi orari e prezzi di vendita e visualizzare report.
-
 
 
 

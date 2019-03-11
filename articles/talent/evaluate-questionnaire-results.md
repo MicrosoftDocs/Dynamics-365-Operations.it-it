@@ -1,13 +1,13 @@
 ---
 title: Visualizzare e valutare i risultati dei questionari
-description: "In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano."
+description: In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 9fd4af5589cfab2a92c913639f1192029eb7c592
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305063"
 ---
-
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Visualizzare e valutare i risultati dei questionari
 
 [!include [banner](includes/banner.md)]
@@ -54,7 +53,7 @@ Dopo che gli intervistati hanno compilato un questionario, è possibile visualiz
 
 Dalla pagina **Risposte**, è possibile visualizzare i dettagli sulle risposte, i punti ottenuti, le risposte di un intervistato in ciascun gruppo di risultati e la gerarchia delle domande utilizzata nel questionario selezionato, se un gerarchia di domante è stata usata. È inoltre possibile generare e stampare i report seguenti:
 
--   **Report di risultati**: questo report mostra una rappresentazione grafica di punti che sono stati ottenuti per gruppo di risultati della sessione di risposte selezionata.
+-   **Report di risultati**: questo report mostra una rappresentazione grafica di punti che sono stati ottenuti per gruppo di risultati della sessione di risposte selezionata.
 -   **Report risposte**: il report mostra le risposte che l'intervistato ha selezionato per ciascuna domanda del questionario.
 -   **Risposte errate**: questo report mostra le informazioni correlate alle risposte errate selezionate dall'intervistato.
 
@@ -81,5 +80,4 @@ Le impostazioni definite vengono salvate e possono essere utilizzate per ricalco
 [Utilizzo di questionari](questionnaires.md)
 
 [Distribuzione e completamento di questionari](distribute-questionnaires.md)
-
 

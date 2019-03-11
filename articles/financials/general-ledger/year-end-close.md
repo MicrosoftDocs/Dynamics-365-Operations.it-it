@@ -1,13 +1,13 @@
 ---
 title: Chiusura di fine anno
-description: "In questo argomento viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale."
+description: In questo argomento viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale.
 author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ec2316dd259cd12a5cab187b08dbd17ca100572
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf9d0a6ab0fcf7d6f5a31813d68f0bd452ce1019
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347884"
 ---
-
 # <a name="year-end-close"></a>Chiusura di fine anno
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ Se desidera stornare una chiusura di fine anno precedente per l'anno fiscale sel
 La chiusura di fine anno viene eseguita in modalità batch per impostazione predefinita. È consigliabile eseguire il processo in modalità batch, per consentire all'utente di tornare ad altre attività. Il campo **Data dell'ultima chiusura di fine anno** verrà aggiornato con la data della sessione al completamento del processo di chiusura di fine anno.
 
 Per ulteriori informazioni, vedere [Chiudere la contabilità generale a fine periodo](close-general-ledger-at-period-end.md) e [Chiudere l'anno fiscale](tasks/close-fiscal-year.md).
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Crea ordine cliente
 description: Questa procedura indica come creare un ordine cliente.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352116"
 ---
 # <a name="create-sales-orders"></a>Crea ordine cliente
 
@@ -68,5 +68,4 @@ Questa procedura indica come creare un ordine cliente. È possibile utilizzare q
 2. Fare clic su Totali.
     * Nella pagina Totali vengono visualizzati i dettagli dell'intero ordine. Sono inclusi l'importo subtotale, ovvero una somma di tutti gli importi netti della riga rettificati per gli sconti riga finali, l'importo totale della fattura, ovvero un importo subtotale rettificato per lo sconto a livello di ordine finale, le spese e l'IVA, la situazione limite di credito del cliente e altro.  Importo della fattura è l'importo che verrà visualizzato nel documento fattura del cliente.  
 3. Fare clic su OK.
-
 

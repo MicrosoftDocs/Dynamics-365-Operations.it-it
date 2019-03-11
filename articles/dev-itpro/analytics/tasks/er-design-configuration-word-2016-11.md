@@ -1,13 +1,13 @@
---- 
+---
 title: Progettare le configurazioni di ER per generare report in formato di Word
-description: "I passaggi seguenti descrivono come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici può configurare formati per la creazione di report elettronici per generare i report elettronici come file di Microsoft Word."
+description: I passaggi seguenti descrivono come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici può configurare formati per la creazione di report elettronici per generare i report elettronici come file di Microsoft Word.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.contentlocale: it-it
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362351"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Progettare le configurazioni di ER per generare report in formato di Word
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-I passaggi seguenti descrivono come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici può configurare formati per la creazione di report elettronici (ER) per generare i report elettronici come file di Microsoft Word. Queste operazioni possono essere eseguite nella società GBSI.
+I passaggi seguenti descrivono come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici (ER) può configurare formati per la creazione di report elettronici per generare i report elettronici come file di Microsoft Word. Queste operazioni possono essere eseguite nella società GBSI.
 
 Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi "Creare una configurazione ER per la generazione di report in formato OPENXML" nella guida attività. In anticipo, è inoltre necessario scaricare e salvare i seguenti modelli localmente per il report di esempio:
 
@@ -99,5 +99,4 @@ Questa procedura è per una funzionalità che è stata aggiunta in Microsoft Dyn
 16. Fare clic su OK.
 17. Fare clic su OK.
     * Analizzare l'output generato. Tenere presente che l'output creato viene visualizzato nel formato di Word e contiene i dettagli dei pagamenti elaborati.  
-
 

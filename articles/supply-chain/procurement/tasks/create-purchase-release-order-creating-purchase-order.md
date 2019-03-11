@@ -1,13 +1,13 @@
---- 
+---
 title: Creare un ordine di rilascio acquisto quando si crea l'ordine fornitore
 description: Questa procedura mostra come utilizzare un contratto di acquisto quando si crea un ordine fornitore.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad74f52682627d6164270de54e2dbcaeb57111fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 194d811da09c746167bd9489ce39ae6a6f810ec0
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356440"
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>Creare un ordine di rilascio acquisto quando si crea l'ordine fornitore
 
@@ -63,5 +63,4 @@ Questa procedura mostra come utilizzare un contratto di acquisto quando si crea 
 2. Fare clic su Contratto di acquisto.
 3. Chiudere la pagina.
 4. Chiudere la pagina.
-
 

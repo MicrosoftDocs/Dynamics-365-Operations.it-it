@@ -1,13 +1,13 @@
 ---
-title: "Aprire i dati dell'entità in Excel e aggiornarli tramite il componente aggiuntivo di Excel"
-description: "In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel."
+title: Aprire i dati dell'entità in Excel e aggiornarli tramite il componente aggiuntivo di Excel
+description: In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340639"
 ---
-
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Aprire i dati dell'entità in Excel e aggiornarli tramite il componente aggiuntivo di Excel
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ In questo argomento viene illustrato come aprire i dati entità in Microsoft Exc
 Aprendo i dati entità in Excel, è possibile visualizzare in modo rapido e facile i dati utilizzando il componente aggiuntivo per Excel. Questo componente aggiuntivo richiede Microsoft Excel 2016.
 
 > [!NOTE]
-> Se il tenant Microsoft Azure Active Directory (Azure AD) viene configurato per l'utilizzo di Active Directory Federation Services (AD FS), è necessario verificare che l'aggiornamento del mese di maggio 2016 per Office sia stato applicato, in modo che il componente aggiuntivo di Excel possa consentire correttamente l'accesso.
+> Se il tenant Microsoft Azure Active Directory (Azure AD) viene configurato per l'utilizzo di Active Directory Federation Services (AD FS), è necessario verificare che l'aggiornamento del mese di maggio 2016 per Office sia stato applicato, in modo che il componente aggiuntivo di Excel possa consentire correttamente l'accesso.
 
 Per ulteriori informazioni sull'utilizzo del componente aggiuntivo di Excel, guardare il breve video su come [creare un modello Excel per l'intestazione e allineare i modelli in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
@@ -124,5 +123,4 @@ Sono disponibili alcuni problemi che possono essere risolti attraverso alcuni se
 
 - **Viene visualizzato il pulsante Carica applet** - Se il componente aggiuntivo di Excel mostra un pulsante **Carica applet** dopo l'accesso, è probabile che la modalità di accesso non sia corretta. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, selezionarlo, disconnettersi e accedere di nuovo.
 - **Viene visualizzato un messaggio "Non consentito"** - Se si riceve un messaggio "Non consentito" mentre il componente aggiuntivo di Excel sta caricando i metadati, l'account cui si accede nel componente aggiuntivo di Excel non dispone dell'autorizzazione a utilizzare il servizio, l'istanza o il database di destinazione. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, selezionarlo, disconnettersi e accedere di nuovo.
-- **Una pagina Web vuota viene visualizzata sopra Excel** - Se una pagina Web vuota viene aperta durante il processo di accesso, l'account richiede AD FS, ma la versione di Excel in cui è in esecuzione il componente aggiuntivo di Excel non è abbastanza recente per caricare la finestra di dialogo di accesso. Per risolvere questo problema, aggiornare la versione di Excel in uso. Per aggiornare la versione di Excel quando si è in un'azienda che si trova sul canale differito, utilizzare lo [strumento di distribuzione di Office](https://technet.microsoft.com/library/jj219422.aspx) per [spostare dal canale differito al canale corrente](https://technet.microsoft.com/library/mt455210.aspx).
-
+- **Una pagina Web vuota viene visualizzata sopra Excel** - Se una pagina Web vuota viene aperta durante il processo di accesso, l'account richiede AD FS, ma la versione di Excel in cui è in esecuzione il componente aggiuntivo di Excel non è abbastanza recente per caricare la finestra di dialogo di accesso. Per risolvere questo problema, aggiornare la versione di Excel in uso. Per aggiornare la versione di Excel quando si è in un'azienda che si trova sul canale differito, utilizzare lo [strumento di distribuzione di Office](https://technet.microsoft.com/library/jj219422.aspx) per [spostare dal canale differito al canale corrente](https://technet.microsoft.com/library/mt455210.aspx).

@@ -1,13 +1,13 @@
 ---
-title: "Funzionalità rimosse o deprecate"
-description: "In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione."
+title: Funzionalità rimosse o deprecate
+description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione.
 author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: it-it
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329254"
 ---
-
 # <a name="removed-or-deprecated-features"></a>Funzionalità rimosse o deprecate
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le funzionalità che sono state rimosse o deprecate in Microsoft Dynamics 365 for Finance and Operations.
+In questo argomento vengono descritte le funzionalità che sono state rimosse o deprecate in Dynamics 365 for Finance and Operations.
 
 - Una funzionalità *rimossa* non è più disponibile nel prodotto.
 - Una funzionalità *deprecata* non si trova nella fase attiva di sviluppo e potrebbe essere rimossa in un aggiornamento futuro.
@@ -63,7 +62,7 @@ Funzionalità per la configurazione di formati di file txt e xml per le dichiara
 | **Motivo del deprecamento/rimozione** | Sostituita con la creazione di report elettronici. |
 | **Sostituita da un'altra funzionalità?**   | Sì. |
 | **Aree del prodotto interessate**         | Contabilità generale |
-| **Opzione di distribuzione**              | Tutto |
+| **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Generatore di report finanziari per la Russia
@@ -74,7 +73,7 @@ Uno strumento per impostare la raccolta dei dati per report fiscali e di contabi
 | **Motivo del deprecamento/rimozione** | Le parti rimosse sono state sostituite con la creazione di report elettronici. |
 | **Sostituita da un'altra funzionalità?**   | Sì. L'interfaccia utente di impostazione dei report finanziari deve essere utilizzata per impostare la raccolta dei dati dai conti di contabilità generale o dai registri delle imposte. Le regole di esportazione dati in vari tipi di file, dei requisiti fissi e della raccolta di dati tipo query devono essere configurate nella creazione di report elettronici. |
 | **Aree del prodotto interessate**         | Contabilità generale. |
-| **Opzione di distribuzione**              | Tutto |
+| **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integrazione con i fornitore esterni per inviare la dichiarazione elettronica tramite i canali di comunicazione per la Russia
@@ -85,7 +84,7 @@ Funzionalità di esportazione dei file elettronici generati delle dichiarazioni 
 | **Motivo del deprecamento/rimozione** | Sostituita con la funzionalità configurabile dei messaggi elettronici. |
 | **Sostituita da un'altra funzionalità?**   | Sì.  |
 | **Aree del prodotto interessate**         | Contabilità generale, Imposta |
-| **Opzione di distribuzione**              | Tutto |
+| **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |
 
 
@@ -95,16 +94,16 @@ Funzionalità per la creazione di modelli per nuovi registri delle imposte sui p
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | La funzionalità non è compatibile con il modello di estendibilità di Dynamics 365 for Finance and Operations. |
-| **Sostituita da un'altra funzionalità?**   | No |
+| **Sostituita da un'altra funzionalità?**   | Nessuna |
 | **Aree del prodotto interessate**         | Imposta sul reddito |
-| **Opzione di distribuzione**              | Tutto |
+| **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 con aggiornamento 15 della piattaforma
 In questa versione non sono state rimosse o deprecate funzionalità. L'aggiornamento 15 della piattaforma è cumulativo e contiene funzionalità nuove o modificate che derivano dagli aggiornamenti 13, 14 e 15 della piattaforma.
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 con aggiornamento della piattaforma 12
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 con aggiornamento della piattaforma 12
 
 ### <a name="personalized-product-recommendations"></a>Suggerimenti sul prodotto personalizzati 
 A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare consigli personalizzati sui prodotti su dispositivi POS. Per ulteriori informazioni, vedere [Panoramica dei suggerimenti sul prodotto personalizzati](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
@@ -125,7 +124,7 @@ La possibilità di introdurre funzioni personalizzate da utilizzare nel generato
 | **Motivo del deprecamento/rimozione** | Iniziativa di sigillo del codice  |
 | **Sostituita da un'altra funzionalità?**   | Nessuna. Ogni volta che è necessaria una nuova funzione incorporata, una nuova richiesta di estensione deve essere indirizzata al team del framework ER.<br><br>Come soluzione alternativa temporanea mentre la funzione richiesta è in fase di sviluppo da parte del team ER, la logica richiesta può essere programmata come metodo di una classe di applicazione personalizzata. È possibile accedere a questo metodo in un'espressione ER come proprietà dell'origine dati ER aggiunta del tipo **Applicazione\Classe** che fa riferimento a tale classe di applicazione personalizzata.  |
 | **Aree del prodotto interessate**         | Framework per la creazione di report elettronici                                                      |
-| **Opzione di distribuzione**              | Tutti                                                                                      |
+| **Opzione di distribuzione**              | Tutte                                                                                      |
 | **Stato**                         | Funzionalità rimosse a partire da Dynamics 365 for Finance and Operations, Enterprise Edition 7.3    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Report di aging delle scorte per gruppo di articoli e delle scorte per dimensione inventariale
@@ -141,12 +140,12 @@ I due report più non sono supportati in Finance and Operations. Il report **Agi
 | **Stato**                       | Deprecata: le voci di menu per i due report sono state rimosse nella versione 7.3. Tuttavia, il codice per i report è ancora presente nel prodotto. Il piano è di rimuovere il codice in una versione successiva. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Pacchetti di contenuti Power BI disponibili in AppSource
-I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale Retail**, disponibili sul sito [Microsoft AppSource](https://appsource.microsoft.com), sono deprecati in conseguenza degli aggiornamenti di prodotto in Microsoft Power BI. Anche i moduli di amministrazione del sistema utilizzati per distribuire questi pacchetti di contenuto in PowerBI.com sono deprecati in Finance and Operations.
+I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio**, disponibili sul sito [Microsoft AppSource](https://appsource.microsoft.com), sono deprecati in conseguenza degli aggiornamenti di prodotto in Microsoft Power BI. Anche i moduli di amministrazione del sistema utilizzati per distribuire questi pacchetti di contenuto in PowerBI.com sono deprecati in Finance and Operations.
 
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Aggiornamenti di prodotto in Microsoft Power BI. |
-| **Sostituita da un'altra funzionalità?**   | I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale Retail**, disponibili sul sito [AppSource](https://appsource.microsoft.com), vengono sostituiti da applicazioni analitiche che consentono l'integrazione di soluzioni a livello di database. Per ulteriori informazioni sulle applicazioni analitiche, vedere [Power BI Embedded nelle aree di lavoro](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Sostituita da un'altra funzionalità?**   | I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio**, disponibili sul sito [AppSource](https://appsource.microsoft.com), vengono sostituiti da applicazioni analitiche che consentono l'integrazione di soluzioni a livello di database. Per ulteriori informazioni sulle applicazioni analitiche, vedere [Power BI Embedded nelle aree di lavoro](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Aree del prodotto interessate**         | Cost management, Finance e Retail                                                                                               |
 | **Opzione di distribuzione**              | Solo cloud (l'integrazione con PowerBI.com non è supportata nelle distribuzioni locali).                                                                                                            |
 | **Stato**                         | Deprecato: il calendario di destinazione per la rimozione della funzionalità è il 2° trimestre 2018.    |
@@ -223,7 +222,7 @@ A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare con
 | **Stato**                         |Rimosso a partire da 15 febbraio 2018. Questa modifica riguarda i clienti che eseguono Dynamics 365 for Retail, versione 7.2 e versioni successive. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition di luglio 2017 con aggiornamento della piattaforma 8
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition luglio 2017 con aggiornamento della piattaforma 8
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversione di valuta per le valute di contabilizzazione e di dichiarazione
 
@@ -258,10 +257,10 @@ Una regola di abbinamento è stata utilizzata per selezionare e contrassegnare u
 | **Motivo del deprecamento/rimozione** | Utilizzo limitato.                                                                         |
 | **Sostituita da un'altra funzionalità?**   | N. Le capacità di filtro della colonna devono essere utilizzate per individuare i documenti per la riconciliazione. |
 | **Aree del prodotto interessate**         | Gestione cassa e banche                                                               |
-| **Opzione di distribuzione**              | Tutti                                                                                    |
+| **Opzione di distribuzione**              | Tutte                                                                                    |
 | **Stato**                         | Rimosso a partire da luglio 2017.                                                               |
 
-## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>Dynamics 365 for Operations 1611 con aggiornamento piattaforma 3
+## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>Dynamics 365 for Operations 1611 con aggiornamento 3 della piattaforma
 
 ### <a name="aeb-payment-formats-for-spain"></a>Formati di pagamento AEB per la Spagna
 
@@ -353,7 +352,7 @@ EDIVAT è uno standard belga obsoleto per la dichiarazione tramite posta elettro
 
 ### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a>Formato di importazione dei pagamenti eGiro EDIFACT CREMUL per la Norvegia
 
-eGiro si basa sullo standard internazionale UN EDIFACT CREMUL, (Multiple Credit Advice Message) utilizzato per la registrazione automatica dei pagamenti cliente. In Microsoft Dynamics AX eGiro è implementato come formato di importazione dei pagamenti cliente.
+eGiro si basa sullo standard internazionale UN EDIFACT CREMUL, (Multiple Credit Advice Message) utilizzato per la registrazione automatica dei pagamenti cliente. In Microsoft Dynamics AX, eGiro è implementato come formato di importazione di pagamento del cliente.
 
 |   |  |
 |------------|--------------------|
@@ -573,7 +572,7 @@ Due formati per l'esportazione dei pagamenti disponibili per la Finlandia. LM02 
 
 |   |  |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | La soluzione di gestione magazzino II (WMS II) che è disponibile nel modulo **Gestione articoli** duplica la funzionalità nel modulo **Gestione magazzino** che è stato rilasciato in Microsoft Dynamics AX 2012 R3.                                                                         |
+| **Motivo del deprecamento/rimozione** | La soluzione di gestione magazzino II (WMS II) che è disponibile nel modulo di **gestione articoli** duplica la funzionalità nel modulo **gestione magazzino** che è stato rilasciato in Microsoft Dynamics AX 2012 R3.                                                                         |
 | **Sostituita da un'altra funzionalità?**   | Il modulo **Gestione magazzino** che è stato rilasciato in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 e Microsoft Dynamics AX 2012 R3 CU9 sostituisce le funzionalità di gestione magazzino II. Il nuovo modulo dispone di funzionalità più avanzate e di processi di gestione magazzino più flessibili rispetto a quelli offerti nelle funzionalità Gestione magazzino II. |
 | **Aree del prodotto interessate**         | Gestione articoli, vendite e marketing, approvvigionamento   |
 | **Stato**                         | Rimosso a partire da Dynamics 365 for Operations versione 1611.    |
@@ -873,7 +872,7 @@ La creazione della notifica anticipata non può essere effettuata operazione uti
 | **Motivo del deprecamento/rimozione** | Non esiste alcun modulo per salvare in modo permanente e visualizzare il file risultante di notifica anticipata quando viene generato utilizzando un batch. |
 | **Sostituita da un'altra funzionalità?**   | Le notifiche anticipate possono ancora essere generate e l'utente ha controllo sul percorso di salvataggio del file.   |
 | **Aree del prodotto interessate**         | contabilità fornitori, contabilità clienti, gestione contanti e banca  |
-| **Stato**                         | Rimosso a partire da Dynamics AX 7.0.    |
+| **Stato**                         | Rimosso a partire da AX 7.0.    |
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Esportazione di pagamento di DTAUS e importazione di estratto conto tedesco (totali e transazioni)
 
@@ -975,7 +974,7 @@ Microsoft Dynamics AX 2012 gestiva l'imposta sul valore aggiunto non realizzata 
 | **Aree del prodotto interessate**         | Imposta sul reddito   |
 | **Stato**                         | Deprecato: la data di eliminazione non è stata impostata per questa funzionalità. |
 
-### <a name="microsoft-outlook-integration"></a>Integrazione con Microsoft Outlook
+### <a name="microsoft-outlook-integration"></a>Integrazione di Microsoft Outlook
 
 
 |   |  |
@@ -1037,14 +1036,14 @@ In Dynamics AX 2012 R3, il server Retail poteva essere eseguito mediante la comu
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | A causa dei nuovi requisiti di sicurezza, è ora supportata solo la comunicazioni tramite TLS 1.2 (o superiore, se disponibile). Il programma di installazione self-service configurerà automaticamente il computer per questo tipo di comunicazione. |
 | **Sostituita da un'altra funzionalità?**   | N. È ora supportata solo la comunicazione HTTPS standard del server Retail. |
-| **Aree del prodotto interessate**         | Server Retail  |
+| **Aree del prodotto interessate**         | Server vendita al dettaglio  |
 | **Stato**                         | Rimosso a partire da Dynamics AX 7.0. |
 
 ### <a name="role-center-pages"></a>Centri gestione ruolo
 
 |   |  |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Le pagine Centro gestione ruolo sono state sviluppate sulla piattaforma deprecata Enterprise Portal, che è stata sostituita da nuova piattaforma web client nella versione corrente di Dynamics AX. |
+| **Motivo del deprecamento/rimozione** | Le pagine Centro gestione ruolo sono state sviluppate sulla piattaforma deprecata Enterprise Portal, che è stata sostituita da nuova piattaforma web client nella versione corrente di Dynamics AX. |
 | **Sostituita da un'altra funzionalità?**   | Il nuovo modello di modulo dell'area di lavoro fornisce agli utenti la progettazione processo-centrica che consente l'accesso semplice alle attività usate comunemente all'interno di tale processo.                       |
 | **Aree del prodotto interessate**         | Tutti i moduli    |
 | **Stato**                         | Rimosso a partire da Dynamics AX 7.0   |
@@ -1127,5 +1126,4 @@ L'app tablet di Windows 8 ha fornito la funzionalità per la voce e l'approvazio
 |  <strong>Sostituita da un'altra funzionalità?</strong>  | Management Reporter (contrassegnato <strong>Report finanziario</strong> nella versione corrente di Dynamics AX) |
 |     <strong>Aree del prodotto interessate</strong>     |                                              Contabilità generale                                              |
 |             <strong>Stato</strong>             |                                      Rimosso a partire da Dynamics AX 2012                                      |
-
 

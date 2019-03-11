@@ -1,13 +1,13 @@
 ---
 title: Definizioni di albero gerarchico nei report finanziari
-description: "In questo articolo vengono fornite informazioni sulle definizioni di albero gerarchico. Una definizione di albero gerarchico è un componente di report, o blocco predefinito, che consente di definire la struttura e la gerarchia dell'organizzazione."
+description: In questo articolo vengono fornite informazioni sulle definizioni di albero gerarchico. Una definizione di albero gerarchico è un componente di report, o blocco predefinito, che consente di definire la struttura e la gerarchia dell'organizzazione.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316949"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definizioni di albero gerarchico nei report finanziari
 
 [!include [banner](../includes/banner.md)]
@@ -49,9 +48,9 @@ Prima di creare un albero gerarchico, considerare le seguenti procedure consigli
 ## <a name="create-a-reporting-tree-definition"></a> Creare una definizione di albero gerarchico
 Una definizione di albero gerarchico contiene le colonne descritte nella seguente tabella.
 
-| Colonna dell'albero gerarchico | descrizione |
+| Colonna dell'albero gerarchico | Descrizione |
 |-----------------------|-------------|
-| Società               | Nome della società dell'unità gerarchica. Il valore **@ANY** normalmente assegnato solo al livello di riepilogo, abilita l'uso dell'albero gerarchico per tutte le società. A tutti i rami figlio deve essere assegnata una società. |
+| Società               | Nome della società dell'unità gerarchica. Il valore **@ANY**, in genere assegnato solo al livello di riepilogo, consente l'utilizzo dell'albero gerarchico per tutte le società. A tutti i rami figlio deve essere assegnata una società. |
 | Nome unità             | Il codice che identifica l'unità gerarchica nell'albero gerarchico grafico. Assicurarsi di definire un sistema di codifica univoco che sia coerente e facile da comprendere per gli utenti. |
 | Descrizione unità      | Il titolo dell'unità gerarchica viene visualizzato nell'intestazione o nel piè di pagina del report se si immette **UnitDesc** come codice nella scheda **Intestazioni e piè di pagina** della definizione di report. Il titolo viene visualizzato nella descrizione della riga del report se si immette **UnitDesc** nella cella **Descrizione** della definizione di riga. |
 | Dimensioni            | Un'unità gerarchica che attinge le informazioni direttamente dai dati finanziari. Definisce il posizionamento logico e le lunghezze per il conto e i segmenti correlati. Ogni riga di unità gerarchica deve avere una dimensione in questa colonna. È anche possibile inserire una dimensione in una riga di unità di riepilogo (ad esempio, per le spese che sono direttamente correlate a tale unità). Se si immette una dimensione in una riga di unità di riepilogo, i conti utilizzati nelle unità padre non devono essere utilizzati in unità figlio. In caso contrario, gli importi potrebbero essere duplicati. |
@@ -166,9 +165,9 @@ Una voce di testo aggiuntivo è una stringa di testo statica lunga fino a 255 ca
 3. Nella finestra di dialogo **Sicurezza dell'unità** selezionare un nome, quindi fare clic su **Rimuovi**.
 4. Scegliere **OK**.
 
-### <a name="link-to-reports"></a>Collegamento ai report
+### <a name="link-toreports"></a>Collegamento ai report
 
-Dopo aver creato una colonna di **report** nella definizione di riga e si è specificato il report da includere nel report, è necessario aggiornare l'albero gerarchico con la colonna collegata e le informazioni sul report. Un report può essere importato in qualsiasi unità nell'albero gerarchico.
+Dopo aver creato una colonna di **report** nella definizione di riga e si è specificato il report da includere nel report, è necessario aggiornare l'albero gerarchico con la colonna collegata e le informazioni sul report. Un report può essere importato in qualsiasi unità nell'albero gerarchico.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Identificare il report in un albero gerarchico
 
@@ -222,4 +221,3 @@ Negli esempi seguenti vengonoi mostrate le informazioni possibili utilizzate in 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-

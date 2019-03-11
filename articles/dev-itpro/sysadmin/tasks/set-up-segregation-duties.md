@@ -1,13 +1,13 @@
---- 
+---
 title: Impostare la separazione dei compiti
-description: "È possibile impostare le regole per separare le attività che devono essere eseguite da utenti diversi."
+description: È possibile impostare le regole per separare le attività che devono essere eseguite da utenti diversi.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 68e1a4419eaa11a59e1b634deb8e76a2bb9b6fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 754f28cd2831d8a9a57c408518d240de460b732b
-ms.contentlocale: it-it
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318789"
 ---
 # <a name="set-up-segregation-of-duties"></a>Impostare la separazione dei compiti
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
 12. Digitare un valore nel campo Riduzione dei rischi di sicurezza.
     * Immettere una descrizione delle azioni prese per attenuare il rischio di sicurezza. Ad esempio, è possibile attenuare il rischio effettuando revisioni più dettagliati del processo, svolgendo una revisione manageriale mensile o condividendo le risorse con altri reparti.  
 13. Fare clic su Salva.
-
 

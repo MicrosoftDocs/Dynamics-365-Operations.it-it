@@ -1,14 +1,14 @@
 ---
 title: Generare i rendiconti finanziari consolidati
-description: "In questo argomento vengono descritti vari scenari in cui è possibile generare rendiconti finanziari consolidati."
+description: In questo argomento vengono descritti vari scenari in cui è possibile generare rendiconti finanziari consolidati.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 2a9ceb774a8f205e39abe6a12a0deb69dd4cb69b
 ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.contentlocale: it-it
-ms.lasthandoff: 08/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355198"
 ---
-
 # <a name="generate-consolidated-financial-statements"></a>Generare i rendiconti finanziari consolidati
 
 [!include [banner](../includes/banner.md)]
@@ -225,4 +224,3 @@ Per ottenere la conversione corretta degli importi quando si utilizzano le valut
 Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Consolidamenti finanziari e conversione valuta](./financial-consolidations-currency-translation.md).
 
 Per ulteriori informazioni su come immettere i dettagli dei consolidamenti online, vedere [Consolidare online](./consolidate-online.md).
-

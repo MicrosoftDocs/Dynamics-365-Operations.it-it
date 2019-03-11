@@ -1,32 +1,31 @@
 ---
 title: Gerarchia dimensioni
-description: "In questo argomento vengono fornite informazioni sulle gerarchie di dimensioni. È possibile utilizzare una gerarchia di dimensioni per definire la struttura di report, i criteri di costo e l'impostazione di sicurezza nella contabilità industriale."
+description: In questo argomento vengono fornite informazioni sulle gerarchie di dimensioni. È possibile utilizzare una gerarchia di dimensioni per definire la struttura di report, i criteri di costo e l'impostazione di sicurezza nella contabilità industriale.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: it-it
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320215"
 ---
-
 # <a name="dimension-hierarchy"></a>Gerarchia dimensioni
 
 [!include [banner](../includes/banner.md)]
@@ -334,4 +333,3 @@ Le impostazioni per la gerarchia dell'elenco accessi vengono utilizzate per cont
 > [!NOTE] 
 > - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La gerarchia elenco accessi non rende sicura l'esportazione dei dati in Excel. Di conseguenza, lo strumento di creazione report dovrà essere utilizzato solo dai responsabili e dai contabili che devono avere l'accesso completo per visualizzare i dati.
-

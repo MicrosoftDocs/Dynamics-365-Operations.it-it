@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4fa545aa6903bd6f789dda20ab5755ffe9a12b88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0386ca1e5e7bf6e578ba2abf1b2c9eefe4dd2a02
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323021"
 ---
-
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Aggiornare costi standard in un ambiente non di produzione
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Per correggere, rettificare o aggiornare i costi standard dei nuovi articoli, ef
 4.  Utilizzare la pagina **Gestione versione di determinazione costi** per modificare il flag di blocco per consentire l'attivazione dei record costi in sospeso all'interno della seconda versione di determinazione costi.
 5.  Utilizzare la pagina **Attiva prezzi** (accessibile dalla pagina **Gestione versione di determinazione costi**) per attivare tutti i record di costo articolo in sospeso all'interno della seconda versione di determinazione costi. È inoltre possibile attivare i record costi in sospeso per i singoli articoli facendo clic sul pulsante **Attiva prezzo in sospeso** nella pagina **Prezzo articolo**.
 6.  Per evitare ulteriori operazioni di manutenzione dati, utilizzare la pagina **Impostazione versione di determinazione costi** per modificare i flag di blocco all'interno della seconda versione di determinazione costi. I criteri di blocco impediranno l'immissione di nuovi costi in sospeso e l'attivazione dei costi in sospeso.
-
 
 
 

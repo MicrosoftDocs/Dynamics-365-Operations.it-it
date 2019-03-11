@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c094b0c3c580a47e7ed876e682c83afc6d9d4c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ec2317f12142f726ad37e39fe11837847b0a5b04
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367894"
 ---
-
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidare un pagamento fornitore parziale con sconti sulle note di accredito fornitore
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,6 @@ April può verificare le transazioni del fornitore nella pagina **Transazioni fo
 | Inv-10071  |                  | 2/7/2015  | CR10071 | 200,00                               |                                       | 0,00    | GBP      |
 | DISC-10071 |  Sconto di cassa   | 2/7/2015  |         | 2,00                                 |                                       | 0,00    | GBP      |
 | DISC-10071 |  Sconto di cassa   | 2/7/2015  |         |                                      | 2,00                                  | 0,00    | GBP      |
-
 
 
 

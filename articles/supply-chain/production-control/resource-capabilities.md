@@ -1,13 +1,13 @@
 ---
-title: "Capacità risorsa"
-description: "Questo articolo fornisce informazioni sulle capacità delle risorse. Si definisce capacità l'idoneità di una risorsa operativa di eseguire un'attività specifica. L'articolo illustra come le capacità e i concetti correlati, ad esempio il livello di competenza e priorità, vengono utilizzati per selezionare le risorse appropriate per un'attività."
+title: Capacità risorsa
+description: Questo articolo fornisce informazioni sulle capacità delle risorse. Si definisce capacità l'idoneità di una risorsa operativa di eseguire un'attività specifica. L'articolo illustra come le capacità e i concetti correlati, ad esempio il livello di competenza e priorità, vengono utilizzati per selezionare le risorse appropriate per un'attività.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319295"
 ---
-
 # <a name="resource-capabilities"></a>Capacità risorsa
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ In questo esempio, entrambe le macchine possono essere selezionate dal motore di
 
 ## <a name="competencies-for-human-resources"></a>Competenze per le risorse umane
 Quando si dispone di risorse operative del tipo **Risorse umane** che sono collegate ai lavoratori in Risorse umane, è possibile usufruire anche delle competenze dei lavoratori quando si definiscono i requisiti delle risorse per un ciclo di lavorazione produzione. In altre parole, è possibile specificare i requisiti per specifiche competenze, corsi, certificati o titoli. Il motore di programmazione può quindi selezionare le risorse che sono collegate ai lavoratori e la selezione si basa sulle competenze dei lavoratori. Le competenze vengono impostate in Risorse umane, non nella pagina **Capacità risorsa**. Quando si definiscono competenze, corsi, certificati o titoli come requisiti di risorsa, è necessario utilizzare la funzionalità Risorse umane e collegare ogni risorsa di tipo **Risorse umane** a un lavoratore corrispondente. Se non si utilizza la funzionalità Risorse umane, è possibile definire delle capacità nella pagina **Capacità risorsa** che assomiglino o copino le competenze di Risorse umane. Tuttavia, la pagina **Capacità risorsa** non contiene la funzionalità richiesta per gestire le competenze, i corsi, le certificazioni o i titoli.
-
 
 
 

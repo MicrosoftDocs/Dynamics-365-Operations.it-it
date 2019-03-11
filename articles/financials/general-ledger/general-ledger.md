@@ -1,13 +1,13 @@
 ---
-title: "Home page di report finanziari e contabilità generale"
-description: "È possibile utilizzare la contabilità generale per definire e gestire i record finanziari della persona giuridica."
+title: Home page di report finanziari e contabilità generale
+description: È possibile utilizzare la contabilità generale per definire e gestire i record finanziari della persona giuridica.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: it-it
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363363"
 ---
-
 # <a name="general-ledger"></a>Contabilità generale 
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,7 @@ Andare alle [Note sulla versione](https://docs.microsoft.com/en-us/business-appl
 
 ### <a name="videos"></a>Video
 
-Controllare i video illustrativi disponibili nel [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>Blog
 
@@ -73,5 +72,4 @@ Il [blog della community di partner di Microsoft Dynamics Operations](https://co
 #### <a name="community-blogs"></a>Blog della Community
 
 - [Informazioni di cui è necessario disporre sulla contabilità generale in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
 

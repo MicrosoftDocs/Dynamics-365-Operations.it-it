@@ -1,13 +1,13 @@
 ---
 title: Cataloghi del servizio clienti
-description: "Questo argomento descrive le funzionalità specifiche del servizio clienti per i cataloghi in Microsoft Dynamics 365 for Retail."
+description: Questo argomento descrive le funzionalità specifiche del servizio clienti per i cataloghi in Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: it-it
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322745"
 ---
-
 # <a name="call-center-catalogs"></a>Cataloghi del servizio clienti
 
 [!include [banner](includes/banner.md)]
@@ -102,4 +101,3 @@ Nella scheda **Cataloghi** sono inoltre disponibili le opzioni di configurazione
 ## <a name="additional-notes"></a>Note aggiuntive
 
 Attualmente, quando un ID codice di origine viene applicato a un ordine cliente nel servizio clienti, viene utilizzato per determinare prezzi, promozioni, script up-selling e cross-selling specifici del catalogo. Il sistema non impedirà l'ordine nell'ordine cliente di un prodotto che non è presente nel catalogo. Se un articolo ordinato non è presente nel catalogo, il sistema utilizza prima di tutto il **Gruppo di prezzi** che è definito nel canale del servizio clienti (**Retail** \> **Canali** \> **Servizi clienti** \> **Tutti i servizi clienti**) per il prezzo dell'articolo o le promozioni. Se non viene trovato alcun prezzo di canale, viene utilizzato il prezzo di vendita di base dell'articolo.
-

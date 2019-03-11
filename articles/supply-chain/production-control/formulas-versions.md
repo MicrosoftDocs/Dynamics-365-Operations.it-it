@@ -5,28 +5,27 @@ author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: it-it
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350115"
 ---
-
 # <a name="formulas-and-formula-versions"></a>Formule e versioni di formula
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ La funzionalità Dimensionabile è disponibile solo se tutti i componenti dell'a
 
 ## <a name="use-step-consumption"></a>Utilizzare Consumo fase
 L'opzione Consumo fase elimina la necessità di immettere una quantità nella scheda **Riga formula** per un ingrediente. Questa opzione è invece configurata per avere un valore **Da serie** e un valore **Quantità**. Le informazioni del record Consumo fase per serie che soddisfano la quantità nell'ordine batch vengono selezionate. L'opzione Consumo fase è utile quando il tasso di consumo non è lineare rispetto alle dimensioni dell'ordine batch e aumenta la richiesta solo quando viene raggiunta una specifica soglia di quantità. Per attivare questa funzionalità per una nuova formula, nel gruppo **Calcolo consumo**, cambiare l'impostazione della formula per l'ingrediente applicabile da **Standard** a **Fase**. Si specifica questo metodo di consumo nella scheda **Impostazione** della pagina **Riga formula**.
-

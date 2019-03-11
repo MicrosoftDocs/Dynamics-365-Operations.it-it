@@ -1,13 +1,13 @@
 ---
 title: Fogli presenze di progetto in un dispositivo mobile
-description: "La funzionalità Fogli presenze personali (ottimizzati per dispositivi mobili) consente ai dipendenti di creare e inoltrare fogli presenze di progetto in un dispositivo mobile per registrare le ore dedicate a un progetto specifico."
+description: La funzionalità Fogli presenze personali (ottimizzati per dispositivi mobili) consente ai dipendenti di creare e inoltrare fogli presenze di progetto in un dispositivo mobile per registrare le ore dedicate a un progetto specifico.
 author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: it-it
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360948"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>Fogli presenze di progetto in un dispositivo mobile
 
 [!include [banner](../includes/banner.md)]
@@ -66,4 +65,3 @@ La compatibilità con Android è prevista con il futuro aggiornamento 16 della p
 13. Facoltativo: immettere righe aggiuntive del foglio presenze.
 
 14. Dopo avere completato l'immissione delle righe del foglio presenze, selezionare **Flusso di lavoro** \> **Invia** per inviare il foglio presenze al processo di approvazione del flusso di lavoro.
-

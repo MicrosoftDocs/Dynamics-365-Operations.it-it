@@ -1,13 +1,13 @@
---- 
+---
 title: Modificare i modelli e i mapping per generare documenti che contengono dati dell'applicazione
 description: "Per completare i passaggi di questa procedura, è necessario completare la procedura \"ER Generare documenti con l'aggiornamento dei dati dell'applicazione (Parte 2: Generare documenti)\"."
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 580f00faf6694dc2da476ffa75f995d9a24e0f8b
-ms.contentlocale: it-it
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361937"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modificare i modelli e i mapping per generare documenti che contengono dati dell'applicazione
 
@@ -168,5 +168,4 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 65. Fare clic su Salva.
 66. Chiudere la pagina.
 67. Chiudere la pagina.
-
 

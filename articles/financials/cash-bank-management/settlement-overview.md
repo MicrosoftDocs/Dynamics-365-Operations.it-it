@@ -5,9 +5,9 @@ author: kweekley
 manager: AnnBe
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
-ms.contentlocale: it-it
-ms.lasthandoff: 12/06/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338293"
 ---
-
 # <a name="settlement-overview"></a>Panoramica della compensazione/liquidazione
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ La compensazione nella contabilità fornitori e nella contabilità clienti può 
 Le transazioni possono essere compensate al momento della registrazione della voce di pagamento. Ad esempio, quando si effettua un pagamento a un fornitore, in genere si selezionano le fatture da pagare. Selezionando le fatture, le transazioni vengono contrassegnate per la liquidazione a fronte del pagamento. Quando gli addetti ai pagamenti della contabilità clienti registrano un pagamento cliente, è possibile contrassegnare le fatture appropriate per la liquidazione, in base alle informazioni incluse nel pagamento del cliente. La pagina **Liquida transazioni** verrà utilizzata per contrassegnare le transazioni per la liquidazione. Questa pagina può essere aperta da qualsiasi fattura o pagamento non registrato. Quando la transazione viene registrata, anche la liquidazione viene registrata. Le transazioni possono inoltre essere liquidate dopo la registrazione. È possibile immettere e registrare un pagamento cliente senza compensarlo a fronte di alcuna fattura. Tuttavia, potrebbe essere necessario prima eseguire una ricerca, per assicurarsi che il pagamento venga compensato a fronte della fattura corretta. La pagina **Liquida transazioni** può essere aperta dalla pagina **Tutti i clienti** o **Tutti i fornitori** o dalla pagina **Transazioni** per qualsiasi cliente o fornitore. È inoltre possibile prenotare pagamenti anticipati registrati per una fattura contrassegnando il pagamento per la compensazione a fronte di un ordine fornitore o un ordine cliente. In questo caso, il pagamento ha ancora un saldo aperto, ma non può essere liquidato a fronte di un'altra fattura. Il pagamento verrà automaticamente liquidato a fronte della fattura creata dall'ordine fornitore o dall'ordine cliente.
 
 ## <a name="how-to-settle-transactions"></a>Come compensare transazioni
-Le transazioni possono essere compensate manualmente, automaticamente, o tramite una combinazione dei due metodi. La scelta di un metodo di compensazione dipende dai processi aziendali, che possono quindi essere implementati nell'impostazione della liquidazione nei parametri di contabilità clienti e dei parametri di contabilità fornitori. È possibile creare pagamenti fornitore e i pagamenti in addebito diretto cliente mediante una proposta di pagamento, utilizzata per selezionare le fatture da pagare. La proposta di pagamento viene avviata manualmente, ma Microsoft Dynamics 365 for Finance and Operations contrassegna automaticamente le fatture selezionate per la liquidazione quando vengono creati i pagamenti. Se i pagamenti vengono creati manualmente, è possibile utilizzare la pagina **Liquida transazioni** per selezionare le fatture per la liquidazione. È possibile selezionare manualmente le fatture, oppure utilizzare l'opzione **Contrassegna in base a priorità** per contrassegnare automaticamente le fatture per la liquidazione. L'opzione **Contrassegna in base a priorità** è disponibile solo per la contabilità clienti. Per abilitare questa opzione, utilizzare la pagina **Priorità liquidazione** nei parametri di contabilità clienti. Se un addetto al pagamento immette un pagamento, ma non liquida il pagamento prima di registrarlo, il pagamento può essere liquidato automaticamente. È possibile abilitare la liquidazione automatica nei parametri di contabilità clienti e nei parametri di contabilità fornitori. Quando si utilizza la liquidazione automatica, è possibile utilizzare l'ordine di liquidazione predefinito oppure definire un ordine di priorità di liquidazione nei parametri di contabilità clienti. Questa funzionalità è disponibile solo per la contabilità clienti.
+Le transazioni possono essere compensate manualmente, automaticamente, o tramite una combinazione dei due metodi. La scelta di un metodo di compensazione dipende dai processi aziendali, che possono quindi essere implementati nell'impostazione della liquidazione nei parametri di contabilità clienti e dei parametri di contabilità fornitori. È possibile creare pagamenti fornitore e i pagamenti in addebito diretto cliente mediante una proposta di pagamento, utilizzata per selezionare le fatture da pagare. La proposta di pagamento viene avviata manualmente, ma Microsoft Dynamics 365 for Finance and Operations contrassegna automaticamente le fatture selezionate per la liquidazione quando i pagamenti vengono creati. Se i pagamenti vengono creati manualmente, è possibile utilizzare la pagina **Liquida transazioni** per selezionare le fatture per la liquidazione. È possibile selezionare manualmente le fatture, oppure utilizzare l'opzione **Contrassegna in base a priorità** per contrassegnare automaticamente le fatture per la liquidazione. L'opzione **Contrassegna in base a priorità** è disponibile solo per la contabilità clienti. Per abilitare questa opzione, utilizzare la pagina **Priorità liquidazione** nei parametri di contabilità clienti. Se un addetto al pagamento immette un pagamento, ma non liquida il pagamento prima di registrarlo, il pagamento può essere liquidato automaticamente. È possibile abilitare la liquidazione automatica nei parametri di contabilità clienti e nei parametri di contabilità fornitori. Quando si utilizza la liquidazione automatica, è possibile utilizzare l'ordine di liquidazione predefinito oppure definire un ordine di priorità di liquidazione nei parametri di contabilità clienti. Questa funzionalità è disponibile solo per la contabilità clienti.
 
 ## <a name="results-of-settlement"></a>Risultati della compensazione
 Quando le transazioni vengono liquidate, il saldo scoperto di ciascuna transazione viene conseguentemente aumentato o diminuito. In uno scenario tipico, in cui una fattura e un pagamento vengono compensati, lo stato e il saldo di ciascuna transazione vengono aggiornati in base alle seguenti regole:
@@ -55,5 +54,4 @@ Se [il pagamento è inferiore all'importo della fattura](../accounts-payable/ven
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 - [Residuo liquidazione](settle-remainder.md)
-
 

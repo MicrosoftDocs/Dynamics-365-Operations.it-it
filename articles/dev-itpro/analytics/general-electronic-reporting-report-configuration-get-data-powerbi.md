@@ -5,9 +5,9 @@ author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: it-it
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335786"
 ---
-
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI
 
 [!include [banner](../includes/banner.md)]
@@ -187,7 +186,7 @@ Fare clic sul pulsante **Impostazioni** per il nuovo record di destinazione. Qui
 ## <a name="access-power-bi-report-in-finance-and-operations"></a>Accedere al report di Power BI in Finance and Operations
 Impostare l'integrazione tra Finance and Operations e Power BI. Per ulteriori informazioni, vedere [Configurazione dell'integrazione di Power BI per le aree di lavoro](configure-power-bi-integration.md).
 
-1. Nella pagina dell'area di lavoro **Creazione di report elettronici** che supporta l'integrazione Power BI (**Amministrazione organizzazione** &gt; **Aree di lavoro** &gt; **Area di lavoro Creazione di report elettronici**) fare clic su **Opzioni** &gt; **Apri catalogo di report**.
+1. Nella pagina dell'area di lavoro **Creazione di report elettronici** che supporta l'integrazione di Power BI(**Amministrazione organizzazione** &gt; **Aree di lavoro** &gt; **Area di lavoro creazione di report elettronici**), fare clic su **Opzioni** &gt; **Apri catalogo di report**.
 2. Selezionare il report di Power BI **Dettagli di esportazione e importazione** creato, per visualizzare il report come elemento di azione nella pagina selezionata.
 3. Fare clic sull'elemento di azione per aprire la pagina Finance and Operations che indica il report progettato in Power BI.
 
@@ -198,4 +197,3 @@ Impostare l'integrazione tra Finance and Operations e Power BI. Per ulteriori in
 [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 
 [Panoramica dei report elettronici](general-electronic-reporting.md)
-

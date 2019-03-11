@@ -1,13 +1,13 @@
 ---
 title: Pianificazione generale per copertura a livello di sito e magazzino, magazzino non obbligatorio
-description: "In questo argomento viene descritto come viene pianificato un articolo con sito e magazzino come dimensioni di copertura. La dimensione magazzino non è impostata come obbligatoria."
+description: In questo argomento viene descritto come viene pianificato un articolo con sito e magazzino come dimensioni di copertura. La dimensione magazzino non è impostata come obbligatoria.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 45796049cddef137eb2ca1e4331197e4b4a65071
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1073f4d41b9fd4c37e2a079e2718869056a86252
-ms.contentlocale: it-it
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360166"
 ---
-
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Pianificazione generale per copertura a livello di sito e magazzino, magazzino non obbligatorio
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,6 @@ Nella figura riportata di seguito è illustrato il processo di pianificazione ge
 [Pianificazione generale: copertura a livello di sito, magazzino non obbligatorio](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Pianificazione generale - Come determinare la versione DBA](master-plan-bom-version-determined.md)
-
 
 
 
