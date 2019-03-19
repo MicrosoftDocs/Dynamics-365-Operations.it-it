@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a925d16239ec78b09403a0c0db1346e35b7eee20
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302471"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403264"
 ---
 # <a name="fixed-assets-home-page"></a>Home page di cespiti
 
@@ -41,13 +41,11 @@ I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazi
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo. 
+Passare alle [note sulla versione di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per visualizzare le nuove funzionalità che sono state pianificate. 
 
 #### <a name="blogs"></a>Blog
 
-Per opinioni, notizie e altre informazioni sui cespiti e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Nel [blog del team di prodotto di Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) sono disponibili numerosi post sui cespiti. Sebbene alcuni di questi post siano stati scritti per la versione precedente della contabilità fornitori, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
+Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 

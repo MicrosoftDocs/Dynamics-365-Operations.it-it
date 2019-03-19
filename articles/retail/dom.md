@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302489"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "380018"
 ---
 # <a name="distributed-order-management-dom"></a>Gestione ordini distribuiti (DOM - Distributed Order Management)
 
@@ -63,7 +63,7 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
 
         1. In Microsoft Dynamics Lifecycle Services, aprire la raccolta Risorse condivise, selezionare **Modello** come tipo di cespite e scaricare il file **Licenza DOM**.
         2. Avviare Gestione Microsoft Internet Information Services (IIS), fare clic con il pulsante destro del mouse su **Sito Web di AOSService**, quindi selezionare **Esplora**. Viene visualizzata una finestra di Esplora risorse aperta su **\<Root di servizio AOS\>\\webroot** Prendere nota del percorso \<Root di servizio AOS\>, perché verrà utilizzato nel passaggio successivo.
-        3. Copiare il file di configurazione nella directory del contenitore **\<Root di servizio AOS\>\\PackagesLocalDirectory\\DOM\\**.
+        3. Copiare il file di configurazione nella directory del contenitore **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
         4. Passare al client di Retail Headquarters, quindi aprire la pagina **Parametri DOM**. Nella scheda **Risolutore**, nel campo **Tipo di risolutore**, selezionare **Risolutore di produzione**, quindi verificare che non venga visualizzato alcun messaggio di errore.
 
         > [!NOTE]

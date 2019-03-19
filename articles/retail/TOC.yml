@@ -5,6 +5,10 @@ items:
   items:
   - name: Novità o modifiche
     href: get-started/whats-new.md
+  - name: Funzionalità di anteprima in Dynamics 365 for Retail 10.0.1
+    href: get-started/whats-new-10-0-1.md
+  - name: Novità e modifiche in Dynamics 365 for Retail (aprile 2019)
+    href: get-started/april-whats-new.md
   - name: Prima di acquistare Retail
     href: get-started/before-you-buy.md
   - name: Iscrizione a una sottoscrizione di anteprima
@@ -15,7 +19,7 @@ items:
     href: dev-itpro/choose-deployment.md
   - name: Ottenere supporto per Retail
     href: retail-support.md
-  - name: Domande frequenti aggiornamenti del servizio versione uno
+  - name: Domande frequenti sugli aggiornamenti del servizio versione uno
     href: ../fin-and-ops/get-started/one-version.md
 - name: Comprendere il ciclo di vita dell'implementazione
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
@@ -58,7 +62,7 @@ items:
     href: ../financials/accounts-receivable/credit-card-authorizations.md
   - name: Configurare denominazioni contanti per il POS
     href: cash-denominations.md
-  - name: Connettore pagamenti di Microsoft Dynamics 365 per Adyen
+  - name: Connettore pagamenti di Dynamics 365 per Adyen
     href: dev-itpro/adyen-connector.md
   - name: Configurare scenari di pagamento delle fatture
     href: payinvoice.md
@@ -109,7 +113,11 @@ items:
   - name: Opzioni importo totale e intervallo per i codici IVA
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Addebiti automatici avanzati omnicanale
-  href: omni-auto-charges.md
+  items:
+  - name: Configurare e utilizzare le spese automatiche avanzate
+    href: omni-auto-charges.md
+  - name: Ripartizione e raggruppamento di addebiti automatici per intestazione
+    href: pro-rate-charges-matching-lines.md
 - name: Servizio clienti
   items:
   - name: Funzionalità di vendita del servizio clienti
@@ -387,7 +395,7 @@ items:
     - name: Funzionalità registratore di cassa
       href: localizations/emea-swe-cash-registers.md
     - name: Esempio di integrazione Retail POS con unità di controllo
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: Attività Retail
   items:
   - name: Creare un prodotto
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: Sostituire il gestore della richiesta POS
       href: dev-itpro/pos-handler.md
+    - name: Visualizzare sul informazioni sul pacchetto dell'estensione POS
+      href: view-pos-extension-package-details.md
   - name: Hardware Station ed estendibilità
     href: dev-itpro/hardware-station-extensibility.md
   - name: Estendibilità Retail Server
@@ -659,9 +669,9 @@ items:
     items:
     - name: Estensione per il programma fedeltà
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377253"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791640"
