@@ -3,7 +3,7 @@ title: Elaborazione di prodotti a peso variabile con la gestione magazzino
 description: Questo argomento descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove il lavoro viene effettuato nel magazzino.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5161860e3b1c5b0ae795d109159268be085ec5af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334061"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777274"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
-[!include [preview banner](../../includes/preview-banner.md)]
+
 [!include [banner](../includes/banner.md)]
 
-**Esposizione della funzionalità**
+## <a name="feature-exposure"></a>Esposizione della funzionalità
 
 Per elaborare prodotti a peso variabile con la gestione magazzino, è necessario utilizzare una chiave di configurazione di licenza per attivare la funzionalità. Accedere a **Amministrazione sistema \> Impostazioni \> Configurazione licenza**. Quindi, nella scheda **Chiavi di configurazione**, espandere **Commercio \> Gestione magazzino e trasporto** e selezionare la casella di controllo **Peso variabile per il magazzino**.
 
 > [!NOTE]
-> Anche la chiave di configurazione di licenza **Gestione magazzino e trasporto** e le chiavi di configurazione di licenza **Peso variabile processo di distribuzione** devono essere attivate.
+> Anche la chiave di configurazione di licenza **Gestione magazzino e trasporto** e le chiavi di configurazione di licenza **Distribuzione processo \> Peso variabile** devono essere attivate.
 
 Dopo l'attivazione della chiave di configurazione di licenza, quando si crea un prodotto rilasciato, è possibile selezionare **Peso variabile**. È inoltre possibile associare il prodotto rilasciato a un gruppo di dimensioni di immagazzinamento per il quale il parametro **Usa processi di gestione magazzino** è selezionato.
 

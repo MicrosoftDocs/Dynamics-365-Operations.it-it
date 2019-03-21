@@ -3,7 +3,7 @@ title: Abbinamento fatture della contabilità fornitori
 description: Il processo di abbinamento fatture della contabilità fornitori consente di abbinare le informazioni relative a fatture fornitore, ordini fornitore ed entrate prodotti.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6d1582d268be759cd1f1686c9e80f6cf7eeb2da8
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310279"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389935"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Abbinamento fatture della contabilità fornitori
 
@@ -49,7 +49,7 @@ Sono disponibili i tipi di abbinamento fatture di contabilità fornitori indicat
 
 Tramite l'abbinamento a due e a tre elementi di verifica vengono abbinate sempre le informazioni sul prezzo in base al prezzo unitario. È inoltre possibile configurare questi criteri per abbinare le informazioni sul prezzo in base al totale dei prezzi.
 -   Abbinamento prezzo unitario netto: consente di abbinare le informazioni sul prezzo per l'abbinamento a due o a tre elementi di verifica tramite il confronto tra il prezzo unitario netto per ogni riga fattura e il prezzo unitario netto corrispondente dell'ordine fornitore. Il prezzo unitario netto viene determinato in base alla formula seguente: importo netto riga / quantità riga.
--   Abbinamento totali dei prezzi: consente di abbinare le informazioni sul prezzo per l'abbinamento a due o a tre elementi di verifica tramite il confronto tra l'importo netto (totale dei prezzi) per ogni riga fattura e l'importo netto corrispondente dell'ordine fornitore. L'importo netto viene determinato in base alla formula seguente: (prezzo unitario \* quantità riga) + spese riga - sconti riga
+-   Abbinamento totali dei prezzi: consente di abbinare le informazioni sul prezzo per l'abbinamento a due o a tre elementi di verifica tramite il confronto tra l'importo netto (totale dei prezzi) per ogni riga fattura e l'importo netto corrispondente dell'ordine fornitore. L'importo netto viene determinato in base alla formula seguente:*(prezzo unitario \* quantità riga) + spese riga - sconti riga*. Quando si abbinano i prezzi totali in base alla percentuale, il sistema confronta i valori utilizzando la valuta della transazione. Quando si abbinano i prezzi totali in base all'importo, il sistema confronta i valori utilizzando la valuta di contabilizzazione.
 
 In genere, i calcoli di abbinamento fatture vengono eseguiti automaticamente al momento della modifica delle fatture fornitore nella pagina Fattura fornitore. In alternativa, l'abbinamento fatture può essere eseguito su richiesta, se necessario. L'abbinamento fatture nella richiesta viene controllato per la persona giuridica dallo stato Aggiorna automaticamente intestazione fattura a nella pagina dei parametri di contabilità fornitori nella scheda Convalida fattura. L'abbinamento fatture può essere eseguito come parte di un processo di revisione della fattura. È possibile visualizzare i risultati di abbinamento fatture automatico sulla pagina Fattura fornitore e nelle pagine di abbinamento fatture correlate.
 

@@ -3,7 +3,7 @@ title: Calendari fiscali, anni fiscali e periodi
 description: In questo articolo vengono illustrati calendari fiscali, anni fiscali e periodi e il modo in cui utilizzarli per le persone giuridiche, i cespiti e l'impostazione del budget.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361661"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778203"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendari fiscali, anni fiscali e periodi
 
@@ -43,7 +43,7 @@ Un periodo di chiusura viene utilizzato per separare le transazioni di contabili
 Quando si crea un periodo di chiusura, selezionare un periodo con stato Aperto e con le date che si desidera utilizzare. Il nuovo periodo di chiusura copierà le date di inizio e di fine dal periodo esistente. Il periodo originale continuerà a esistere. Selezionare ad esempio il Periodo 12, ovvero l'ultimo periodo dell'anno fiscale, le cui date vanno dal 1 agosto al 31 agosto. Immettere il nome del periodo di chiusura, ad esempio Chiuso. Dopo aver creato il nuovo periodo di chiusura, si avranno sia il periodo originale che quello di chiusura. In entrambi la data di inizio sarà il 1° agosto e la data di fine il 31 agosto.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Selezionare i calendari fiscali per le contabilità generali, i cespiti e i cicli di budget
-I calendari fiscali vengono utilizzati con l'ammortamento cespiti, le transazioni finanziarie e i cicli di budget. Quando si crea un calendario fiscale è possibile utilizzarlo per più scopi. È possibile selezionare un calendario fiscale per un modello di valore o un registro beni ammortizzabili e utilizzarlo come calendario cespiti. È possibile selezionare un calendario fiscale per la contabilità generale e utilizzarlo come calendario contabilità generale. È inoltre possibile selezionare un calendario fiscale per un ciclo di budget e utilizzarlo come calendario di budget. È possibile utilizzare lo stesso calendario fiscale per tutti questi scopi.
+I calendari fiscali vengono utilizzati con l'ammortamento cespiti, le transazioni finanziarie e i cicli di budget. Quando si crea un calendario fiscale è possibile utilizzarlo per più scopi. È possibile selezionare un calendario fiscale per un libro cespiti e utilizzarlo come calendario cespiti. È possibile selezionare un calendario fiscale per la contabilità generale e utilizzarlo come calendario contabilità generale. È inoltre possibile selezionare un calendario fiscale per un ciclo di budget e utilizzarlo come calendario di budget. È possibile utilizzare lo stesso calendario fiscale per tutti questi scopi.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Selezionare un calendario fiscale per la persona giuridica
 
@@ -51,7 +51,7 @@ Selezionare il calendario fiscale da utilizzare per la contabilità generale del
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Selezionare un calendario fiscale per i cespiti
 
-È possibile selezionare un calendario fiscale per un modello di valore o un registro beni ammortizzabili e tale calendario verrà utilizzato dai cespiti che utilizzano il modello di valore o il registro beni ammortizzabili selezionato. È possibile effettuare la selezione tra tutti i calendari fiscali definiti nella pagina Calendari fiscali.
+È possibile selezionare un calendario fiscale per un libro cespiti e tale calendario verrà utilizzato dai cespiti che utilizzano il modello di valore o il registro beni ammortizzabili selezionato. È possibile effettuare la selezione tra tutti i calendari fiscali definiti nella pagina Calendari fiscali.
 
 ### <a name="define-budget-cycle-time-spans"></a>Definire gli intervalli di durata del ciclo di budget
 

@@ -3,7 +3,7 @@ title: Addebiti automatici avanzati omnicanale
 description: In questo argomento vengono descritte le funzionalità per la gestione delle spese ordine aggiuntive relative agli ordini dei canali di vendita al dettaglio utilizzando funzionalità di addebiti automatici avanzati.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345561"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789773"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Addebiti automatici avanzati omnicanale
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sulla configurazione e la distribuzione delle funzionalità di addebiti automatici avanzati disponibili in Dynamics 365 for Retail versione 10.0.
@@ -49,7 +48,7 @@ Nella pagina **Vendita al dettaglio \> Impostazione sedi centrali \> Parametri \
 
 ![Parametro Addebiti automatici avanzati](media/advancedchargesparameter.png)
 
-Quando gli addebiti automatici avanzati sono abilitati, agli utenti viene richiesto di immettere manualmente le spese di spedizione nel terminale POS quando si crea un ordine cliente con Spedisci tutto o Spedizione selezionata. Le spese ordine POS sono calcolate in modo sistematico e aggiunte alla transazione POS (se viene trovata una tabella di addebiti automatici corrispondente che soddisfa il criterio dell'ordine creato). Gli utenti possono anche aggiungere o gestire le spese a livello di riga o intestazione manualmente mediante operazioni POS aggiunte di recente che possono essere aggiunte ai layout dello schermo POS.  
+Quando gli addebiti automatici avanzati sono abilitati, agli utenti non viene più richiesto di immettere manualmente le spese di spedizione nel terminale POS quando si crea un ordine cliente con Spedisci tutto o Spedizione selezionata. Le spese ordine POS sono calcolate in modo sistematico e aggiunte alla transazione POS (se viene trovata una tabella di addebiti automatici corrispondente che soddisfa il criterio dell'ordine creato). Gli utenti possono anche aggiungere o gestire le spese a livello di riga o intestazione manualmente mediante operazioni POS aggiunte di recente che possono essere aggiunte ai layout dello schermo POS.  
 
 Quando gli addebiti automatici avanzati sono abilitati, i **parametri di vendita al dettaglio** esistenti per **Codice spese di spedizione** e **Rimborso spese di spedizione** non sono più utilizzati. Questi parametri sono applicabili solo se il parametro **Utilizza addebiti automatici avanzati** è impostato su **No**.
 
@@ -67,6 +66,8 @@ Le nuove operazioni sono descritte di seguito.
 - **143 - Ricalcola spese** - Utilizzare questa operazione per eseguire un ricalcolo completo delle spese per la transazione di vendita. Qualsiasi addebito automatico sovrascritto dall'utente in precedenza verrà ricalcolato in base alla configurazione corrente del carrello.  
 
 Come con le operazioni POS, le configurazioni di protezione possono essere effettuate per richiedere l'approvazione del responsabile per l'esecuzione dell'operazione.
+
+È importante notare che le operazioni POS elencate sopra possono anche essere aggiunte al layout POS anche se il parametro **Utilizza spese automatiche avanzate** è disabilitato. In questo scenario, le organizzazioni avranno ancora il vantaggio di poter visualizzare manualmente le spese aggiunte e di modificarle utilizzando l'operazione **Gestisci spese**. Gli utenti possono anche utilizzare le operazioni **Aggiungi spese intestazione** e **Aggiungi spese riga** per le transazioni POS anche se il parametro **Utilizza spese automatiche avanzate** è disabilitato. L'operazione **Ricalcola spese** è meno funzionale se utilizzata quando **Utilizza spese automatiche avanzate** è disabilitato. In questo scenario, non viene ricalcolato nulla e tutte le spese aggiunte manualmente alla transazione vengono reimpostate su $0.00.
 
 ## <a name="use-case-examples"></a>Esempi di casi di utilizzo
 In questa sezione vengono presentati casi di utilizzo di esempio allo scopo di facilitare la comprensione della configurazione e dell'utilizzo degli addebiti automatici e delle spese varie nel contesto degli ordini dei canali di vendita al dettaglio. Questi esempi illustrano il comportamento dell'applicazione quando il parametro **Utilizza addebiti automatici avanzati** è stato abilitato.
@@ -207,3 +208,7 @@ Si consiglia inoltre l'aggiunta di campi di testo libero al piè di pagina della
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Impedire il calcolo delle spese fino a che l'ordine POS sia completato
 
 Alcune organizzazioni possono preferire di attendere che l'utente abbia finito di aggiungere tutte le righe di vendita alla transazione POS prima di calcolare le spese. Per impedire il calcolo delle spese quando degli articoli sono aggiunti alla transazione POS, attivare il parametro **Calcolo addebito manuale** nel **profilo funzionalità** utilizzato dal punto vendita. L'attivazione di questo parametro richiederà all'utente POS di utilizzare l'operazione **Calcola totali** una volta completata l'aggiunta dei prodotti alla transazione POS. L'operazione **Calcola totali** avvierà il calcolo di tutti gli addebiti automatici per l'intestazione o le righe dell'ordine come applicabile.
+
+### <a name="charges-override-reports"></a>Report di sostituzione delle spese
+
+Se gli utenti sostituiscono manualmente le spese calcolate o aggiungono una spesa manuale alla transazione, questi dati saranno disponibili per il controllo nel report **Storico sostituzione spese**. Il report è accessibile da **Vendita al dettaglio \> Richieste di informazioni e report \> Storico sostituzione spese**.  È importante notare che i dati necessari per questo report vengono importati dal database del canale in HQ mediante processi di programmazione della distribuzione "P". Di conseguenza, le informazioni sulle sostituzioni appena eseguite nel POS possono non essere immediatamente disponibili in questo report fino a che il processo non ha caricato i dati della transazione del punto vendita in HQ. 

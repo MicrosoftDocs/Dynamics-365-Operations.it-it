@@ -3,7 +3,7 @@ title: Acquisire cespiti tramite approvvigionamento
 description: Questo argomento descrive come impostare l'integrazione di Cespiti con la contabilità fornitori in modo da consentire la creazione automatica di cespiti a partire da ordini o fatture fornitore oppure la registrazione automatica di transazioni di acquisizione e di rettifica acquisizione per i cespiti.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eef69de1c93de5c19b9f197838f1f2d3eb2e7645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ba3484e62caa790a5b05ae0693f69926514f6425
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355796"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778226"
 ---
 # <a name="acquire-assets-through-procurement"></a>Acquisire cespiti tramite approvvigionamento
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come impostare l'integrazione di Cespiti con la contabilità fornitori in modo da consentire la creazione automatica di cespiti a partire da ordini o fatture fornitore oppure la registrazione automatica di transazioni di acquisizione e di rettifica acquisizione per i cespiti.
+Questo argomento descrive come impostare l'integrazione di Cespiti con la contabilità fornitori in modo da consentire la creazione automatica di cespiti a partire da ordini o fatture fornitore oppure la registrazione automatica di transazioni di acquisizione e di rettifica acquisizione per i cespiti. Una riga di acquisto creerà un cespite, indipendentemente dalla quantità nella riga di acquisto. Se è necessario creare più cespiti, creare molteplici righe di acquisto.
 
  Sono disponibili i seguenti metodi per l'integrazione di Cespiti e Contabilità fornitori. È necessario utilizzare lo stesso metodo per tutti i cespiti.
 -   Viene creato manualmente un cespite prima di aggiungere il numero cespite alla riga della fattura o dell'ordine fornitore. Quando si registra la fattura fornitore, viene registrata automaticamente una transazione di acquisizione per il cespite. Questo è il metodo predefinito.

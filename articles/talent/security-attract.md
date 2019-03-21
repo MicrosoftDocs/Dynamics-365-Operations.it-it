@@ -3,7 +3,7 @@ title: Gestione della sicurezza e dei ruoli in Attract
 description: In questo argomento vengono fornite informazioni sulla sicurezza dei ruoli in Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374782"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789699"
 ---
 # <a name="security-and-role-management-in-attract"></a>Sicurezza e gestione dei ruoli in Attract
 
@@ -100,14 +100,16 @@ I seguenti privilegi sono applicabili ai dati specifici delle posizioni lavorati
 | Dati o azione          | Selezionatore | Responsabile assunzioni | Responsabile del colloquio |
 |-------------------------|-----------|----------------|-------------|
 | Documenti relativi alle domande di lavoro   | Creare, leggere, aggiornare ed eliminare per le posizioni lavorative per le quali l'utente fa parte del team di assunzione | Creare, leggere, aggiornare ed eliminare per le posizioni lavorative per le quali l'utente fa parte del team di assunzione | Sola lettura |
-| Note sulle domande di lavoro       | Creare, leggere, aggiornare ed eliminare per le posizioni lavorative per le quali l'utente fa parte del team di assunzione | Creare, leggere, aggiornare ed eliminare per le posizioni lavorative per le quali l'utente fa parte del team di assunzione | Creazione |
+| Note sulle domande di lavoro       | Creare, leggere, aggiornare ed eliminare per le posizioni lavorative per le quali l'utente fa parte del team di assunzione | Creare, leggere, aggiornare ed eliminare per le posizioni lavorative per le quali l'utente fa parte del team di assunzione | Sola lettura|
 | Attività per domande di lavoro    | Visualizzare, se l'utente fa parte del team di assunzione | Visualizzare, se l'utente fa parte del team di assunzione | Sola lettura |
 | Riscontro sulle domande di lavoro    | Aggiungere e visualizzare tutto il riscontro se l'utente fa parte del team di assunzione | Aggiungere e visualizzare tutto il riscontro se l'utente fa parte del team di assunzione | Puo aggiungere il riscontro\*\* |
 | Rifiutare la domanda di lavoro      | Può rifiutare se l'utente fa parte del team di assunzione | Non consentito | Non consentito |
 | Avanza fase           | Può rifiutare se l'utente fa parte del team di assunzione | Può proseguire se l'utente fa parte del team di assunzione | Non consentito |
 | Avviare la gestione di offerte | Può avviare la gestione di offerte | È disponibile un'opzione di configurazione sull'attività di offerta. | Non consentito |
 
-\*\* Un'opzione di configurazione nella [configurazione dell'attività di riscontro](activities-attract.md#feedback-activity) controlla se i responsabili dei colloqui possono visualizzare il riscontro l'uno dall'altro.
+
+\*\* Un'opzione di configurazione nella [configurazione dell'attività di riscontro](./activities-attract.md) controlla se i responsabili dei colloqui possono visualizzare il riscontro l'uno dall'altro.
+
 
 ## <a name="process-templates"></a>Modelli di processo
 

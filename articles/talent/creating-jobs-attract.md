@@ -3,7 +3,7 @@ title: Creazione, approvazione e pubblicazione di annunci di mansioni in Attract
 description: In questo argomento sono descritti gli elementi di una mansione in Attract. Viene illustrato anche come creare una mansione.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305023"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772813"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Creazione, approvazione e pubblicazione di annunci di mansioni in Attract
 
@@ -76,8 +76,23 @@ Per ulteriori informazioni sulle attività che possono essere aggiunti al proces
 
 Dopo che una mansione viene attivata, può essere pubblicata. Solo i selezionatori e gli amministratori possono pubblicare annunci di mansioni. La mansione può essere pubblicata in Talent - Avanzamento professionale (un sito di avanzamento professionale di Microsoft Dynamics 365 for Talent) o su LinkedIn. 
 
+Il team di Attract opera continuamente per collaborare con aggregatori di bacheche di annunci lavorativi. Questo elenco si espanderà nel tempo.
+
+Per ulteriori informazioni sulla pubblicazione di annunci di mansioni, vedere [Funzionalità del sito di avanzamento professionale in Attract](career-site.md).
+
 > [!NOTE]
-> È necessario considerare tre cose importanti in relazione al processo di pubblicazione di annunci di mansioni in LinkedIn.
+> La funzionalità di pubblicazione di annunci di mansioni è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale di Attract.
+
+### <a name="posting-jobs-to-linkedin"></a>Pubblicare annunci di mansioni in LinkedIn 
+
+Prima di pubblicare un annuncio di mansione da Attract a LinkedIn, l'amministratore deve aggiungere l'ID e il nome società LinkedIn in **Impostazioni di amministrazione**. L'ID società LinkedIn è necessario per garantire che gli annunci pubblicati da Attract siano mappati alla pagina società corretta.
+
+L'ID società LinkedIn è una stringa di numeri che identifica in modo univoco la società in LinkedIn. Per ulteriori informazioni su come trovare l'ID società LinkedIn, visitare il [sito LinkedIn](https://aka.ms/findID).
+
+Per aggiornare la società LinkedIn, selezionare **Interfaccia di amministrazione** nel menu **impostazioni**  (il simbolo di ingranaggio) e quindi selezionare **Integrazione di LinkedIn** . Nella sezione **Connetti a LinkedIn**, immettere il nome e l'ID società LinkedIn, quindi salvare le impostazioni.
+
+> [!NOTE]
+> È necessario considerare quattro cose importanti in relazione al processo di pubblicazione di annunci di mansioni in LinkedIn.
 > 1. Le mansioni pubblicate in LinkedIn lo sono come mansioni di "Elenchi restrizioni". Le mansioni di elenchi restrizioni non possono essere promosse nel sito di LinkedIn. Se si desidera promuovere le mansioni di elenchi restrizioni pubblicate in LinkedIn da Attract, è necessario abilitare il wrapping delle mansioni in LinkedIn. Per ulteriori informazioni, fare riferimento ai collegamenti qui sotto e contattare il Supporto tecnico LinkedIn.
 >
 >    [Elenchi restrizioni e slot di mansioni premium per il wrapping di mansioni](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ Dopo che una mansione viene attivata, può essere pubblicata. Solo i selezionato
 >
 >    In caso di problemi dopo questo passaggio, contattare il Supporto tecnico LinkedIn. 
 > 
+> 1. Gli annunci di mansioni pubblicati in LinkedIn sono visualizzati nel sito LinkedIn. Non esiste un ambiente di prova per la pubblicazione di annunci di mansioni in LinkedIn. 
+>
 > 1. A causa del processo di registrazione corrente del processo batch di LinkedIn, è possibile che siano necessarie fino a 24 ore perché le mansioni registrate in LinkedIn siano visibili ai candidati in LinkedIn.
 
-Il team di Attract opera continuamente per collaborare con aggregatori di bacheche di annunci lavorativi. Questo elenco si espanderà nel tempo.
-
-Per ulteriori informazioni sulla pubblicazione di annunci di mansioni, vedere [Funzionalità del sito di avanzamento professionale in Attract](./career-site.md).
-
-> [!NOTE]
-> La funzionalità di pubblicazione di annunci di mansioni è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale di Attract.
 
 ## <a name="activate"></a>Attiva
 

@@ -3,7 +3,7 @@ title: Estendibilità in Attract
 description: In questo argomento viene descritto come possibile estendere l'applicazione Microsoft Dynamics 365 for Talent - Attract utilizzando la piattaforma Microsoft Power.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,18 +18,41 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c77c64070cb82180441f4b629b6884981b9b81d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304977"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789653"
 ---
 # <a name="extensibility-in-attract"></a>Estendibilità in Attract
 
 [!include[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent si basa sulla piattaforma Common Data Service per le app e può essere esteso in vari modi utilizzando la piattaforma Microsoft Power e le funzionalità di Common Data Service per le app. Di conseguenza, è possibile configurare e personalizzare il sistema mediante Microsoft PowerApps e Microsoft Flow. È inoltre possibile ottenere l'analisi aggiuntive sulle persone utilizzando Microsoft Power BI. Inoltre, le nuove attività personalizzate, ad esempio le attività PowerApps e di contenuto Web (iframe), rendono il processo di assunzione più adattabile che Mai. Con queste attività, è possibile personalizzare il processo di assunzione in base alle esigenze e processi aziendali e assicurarsi che sia il team di assunzione che i candidati fruiscano di un'esperienza personalizzata e priva di problemi.
+
+## <a name="extending-option-sets-in-attract"></a>Estensione di set di opzioni in Attract
+
+Un **set di opzioni** (elenco a discesa) è un tipo di campo che può essere incluso in un'entità e che definisce un set di opzioni. Quando un set di opzioni è visualizzato in un modulo utilizza un controllo di elenco a discesa.  In Attract sono presenti più campi che sono set di opzioni.  Stiamo iniziando a introdurre la funzionalità di estensione di set di opzioni, a partire dai campi Motivo del rifiuto, Tipo di impiego e Tipo di anzianità.   Inoltre, è possibile aggiungere etichette di visualizzazione localizzate per le opzioni aggiunte.  Per ulteriori informazioni, consultare [Personalizzazione delle etichette di set di opzioni](https://docs.microsoft.com/en-us/poweapps/developer/common-data-service/customize-labels-suport-multiple-languages)
+
+> [!NOTE]
+> La funzionalità di pubblicazione di annunci di lavoro in LinkedIn richiede l'utilizzo del campo **Tipo di impiego** e **Tipo di anzianità** nella pagina **Dettagli mansione**. I valori predefiniti in questi campi sono supportati da LinkedIn e visualizzati quando l'annuncio viene pubblicato. Di conseguenza, se si pubblicano annunci di lavoro in LinkedIn e si modificano i valori del set di opzioni esistente per tali campi, l'annuncio verrà ancora pubblicato ma LinkedIn non visualizzerà i valori **Tipo di anzianità** e **Tipo di impiego**.  
+
+Sono elencate di seguito le procedure per aggiornare il campo **Motivo del rifiuto** con i valori specifici dell'azienda.  
+
+1. Per estendere il set di opzioni **Motivo del rifiuto**, accedere al [sito Web di amministrazione di PowerApps](Https://admin.powerapps.microsoft.com).
+2. È possibile che venga richiesto di accedere al proprio account. Immettere la password e l'ID utente utilizzati per accedere a Dynamics365 e/o Office365 quindi fare clic su **Avanti**.
+3. Nella scheda **Ambienti**, selezionare l'ambiente che si desidera gestire e fare doppio clic per visualizzare la scheda **Dettagli**.
+4. Nella scheda **Dettagli**, selezionare **Centro amministrativo di Dynamics 365**.
+5. Selezionare l'istanza che si intende modificare e selezionare **Apri**.
+6. Selezionare **Impostazioni** e **Personalizzazioni**, quindi scegliere **Personalizza il sistema**.
+7. Trovare l'entità per la quale si desidera espandere il set di opzioni selezionando **Entità** ed espandendo il gruppo. In questo esempio sarà l'**entità Domanda di lavoro**.
+8. Accedere al campo per il quale si desidera estendere il set di opzioni selezionando l'opzione **Campi**. In questo esempio sarà **msdyn_rejectionreason**. Fare doppio clic sul campo.
+9. Nel campo **Set di opzioni**, scegliere **Modifica**.
+10. Selezionare l'icona **+**.
+11. Immettere un'**etichetta**  (deve essere un valore univoco e non un duplicato).
+12. Selezionare **Salva**.
+13. Selezionare **Pubblica** nella parte superiore della pagina.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Sfruttare Microsoft Power Platform 
 

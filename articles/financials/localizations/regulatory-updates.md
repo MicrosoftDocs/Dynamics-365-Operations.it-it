@@ -3,7 +3,7 @@ title: Aggiornamenti normativi
 description: In questo argomento viene fornito un elenco degli aggiornamenti normativi pianificati e rilasciati per Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/25/2019
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9dcf958165cffa3e3cd62b88a71295eefae9cf8f
-ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "375992"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832103"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -39,7 +39,15 @@ Quando un mese viene utilizzato nella colonna Data, l'aggiornamento normativo vi
 |--------------------|---------------|-------|-------|
 |      2019 marzo          |   10.0.0      | Austria      |   Modifiche in Kammerumlage 2019 (imposta sugli acquisti)    |
 |      2019 marzo          |   10.0.0      |   Brasile    |     Contributi SPED EFD - Layout 004 e 005  |
-|      2019 marzo          |   10.0.0      |    Malaysia     |La Malesia sostituisce l'imposta GST con l'imposta sui servizi e sulle vendite SST        |
+|      2019 marzo          |   10.0.0      |    Malesia     |La Malesia sostituisce l'imposta GST con l'imposta sui servizi e sulle vendite SST        |
+|      2019 aprile          |   10.0.1      |    Austria     |Retail - Integrazione fiscale         |
+|      2019 aprile          |   10.0.1      |    Europa     |Fatturazione elettronica - Le fatture dei clienti sono esportate in formato PEPPOL BIS 3         |
+|      2019 aprile          |   10.0.1      |    Europa     |Fatturazione elettronica - Le fatture dei fornitori sono importate in formato PEPPOL BIS 3         |
+|      2019 aprile          |   10.0.1      |   Germania     |Fatturazione elettronica - Le fatture dei clienti sono esportate in formato xRechnung 1.1         |
+|      2019 aprile          |   10.0.1      |    Regno Unito     |[Modifiche all'invio della dichiarazione VAT (digitalizzazione delle imposte)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019 aprile          |   10.0.1      |    Brasile     |Nuovo NF-e NT 2018.005         |
+|      2019 aprile          |   10.0.1      |    Russia     |Il formato della dichiarazione IVA cambia a partire dal 2019         |
+|      2019 aprile          |   10.0.1      |    Russia     |Il formato della dichiarazione IVA cambia a partire dal 2019 (formati dei libri acquisti e vendite)  |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 - Trovare tutti gli aggiornamenti normativi pianificati e rilasciati in [Lifecycle Service - Ricerca argomento](https://lcs.dynamics.com/Logon/Index) (accesso obbligatorio).

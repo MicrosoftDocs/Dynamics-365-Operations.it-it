@@ -3,7 +3,7 @@ title: Funzionalità rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329254"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836350"
 ---
 # <a name="removed-or-deprecated-features"></a>Funzionalità rimosse o deprecate
 
@@ -35,11 +35,77 @@ In questo argomento vengono descritte le funzionalità che sono state rimosse o 
 
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
-> [!Note]
+> [!NOTE]
 > A partire da Dynamics 365 for Finance and Operations, versione di luglio 2017 con aggiornamento 8 della piattaforma, il tipo di distribuzione viene annotato per ciascuna funzionalità rimossa o deprecata. Tutte le versioni precedenti menzionate in questo argomento supportavano solo le distribuzioni cloud.
 
-> [!Note]
+> [!NOTE]
 > Informazioni dettagliate sugli oggetti in Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione di Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 con aggiornamento 25 della piattaforma
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.1 con l'aggiornamento 25 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e funzionalità sono soggette a modifica. Per ulteriori informazioni sulle versioni di anteprima, vedere [Aggiornamenti del servizio standard e di primo rilascio](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>Api deprecate e modifiche significative potenziali
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>La derivazione da classi interne è deprecata
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Nelle versioni precedenti all'aggiornamento 25 della piattaforma, è possibile creare una classe o una tabella che deriva da una classe/tabella interna definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un messaggio di avviso se si tenta di eseguirla.|
+| **Sostituita da un'altra funzionalità?**   | L'avviso del compilatore verrà sostituito da un errore in un aggiornamento futuro della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che se si esegue l'aggiornamento 25 o successivo della piattaforma, la distribuzione può essere eseguita in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione. |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio. |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione in un aggiornamento futuro della piattaforma. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>La sostituzione dei metodi interni è deprecata
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Nelle versioni precedenti all'aggiornamento 25 della piattaforma, è possibile sostituire un metodo interno in una classe derivata definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un messaggio di avviso se si tenta di eseguirla.|
+| **Sostituita da un'altra funzionalità?**   | Questo avviso verrà sostituito da un errore di compilazione in un aggiornamento futuro della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che se si esegue l'aggiornamento 25 o successivo della piattaforma, la distribuzione può essere eseguita in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione. |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio. |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione in un aggiornamento futuro della piattaforma. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 con aggiornamento 23 della piattaforma
+
+### <a name="print-to-screen-functionality"></a>Funzionalità di stampa su schermo
+I clienti possono utilizzare l'azione **Importa** del controllo Visualizzatore di report per scaricare documenti prodotti mediante le applicazioni Finance and Operations. Questa presentazione basata su HTML del report offre agli utenti un'anteprima non impaginata del documento.
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | La natura non impaginata dell'esperienza di anteprima basata su HTML **non** fornisce un output fedele dei documenti fisici generati mediante Finance and Operations. Con l'utilizzo del formato PDF come formato standard per le operazioni aziendali, è possibile semplificare drasticamente le opzioni utente per l'interazione con report di applicazione e il processo di rendering dei documenti. |
+| **Sostituita da un'altra funzionalità?**   | In futuro, il formato PDF sarà quello predefinito per i report il cui rendering viene eseguito mediante Finance and Operations.   |
+| **Aree del prodotto interessate**         | Questa modifica **non** interessa gli scenari in cui i report vengono distribuiti elettronicamente o inviati direttamente alle stampanti.    |
+| **Opzione di distribuzione**              | Tutte  |
+| **Stato**                         | Deprecato: la data di eliminazione non è stata impostata per questa funzionalità. La funzionalità per scaricare automaticamente i report di applicazione nel browser come documenti PDF è prevista per l'aggiornamento della piattaforma di maggio 2019. <br><br>**Importante**: ai clienti esistenti che utilizzano la funzionalità di stampa su schermo è consigliato di contattare il [supporto tecnico](../lifecycle-services/lcs-support.md) prima di applicare l'aggiornamento 26 della piattaforma. |
+
+### <a name="client-kpi-controls"></a>Comandi KPI del client
+Gli indicatori di prestazioni chiave (KPI) incorporati potrebbero essere modellati in Visual Studio da uno sviluppatore e essere personalizzati ulteriormente dall'utente finale.
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | I controlli client nativi utilizzati per definire i KPI sono poco utilizzati dai clienti e necessitano di uno sviluppatore per aggiungere metriche monitorabili. |
+| **Sostituita da un'altra funzionalità?**   | Il servizio PowerBI.com fornisce strumenti di prim'ordine per definire e gestire KPI basati sui dati di origini esterne.  In una versione futura, verrà consentita l'integrazione di soluzioni ospitate in PowerBI.com nelle aree di lavoro dell'applicazione.   |
+| **Aree del prodotto interessate**         | Questo aggiornamento impedirà agli sviluppatori di introdurre nuovi controlli KPI nella progettazione di Visual Studio.    |
+| **Opzione di distribuzione**              | Tutte  |
+| **Stato**                         | Deprecato: la data di eliminazione non è stata impostata per questa funzionalità. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>Api deprecate e modifiche significative future
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Gruppi di campi contenenti riferimenti di campo non validi
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Le definizioni di metadati di tabella possono avere gruppi di campi contenenti riferimenti di campo non validi. Questo problema è attualmente categorizzato come *avviso del compilatore* anziché come *errore*, a indicare che è possibile continuare a creare pacchetti distribuibili e a eseguire la distribuzione senza correggere il problema. In caso di distribuzione, è possibile che si verifichino errori di runtime in Financial Reporting e SQL Server Reporting Services (SSRS). Per risolvere il problema:<br><br>1. Rimuovere il riferimento di campo non valido dalla definizione del gruppo di campi di tabella.<br><br>2. Ricompilare.<br><br>3. Verificare che tutti gli errori o avvisi siano stati risolti. |
+| **Sostituita da un'altra funzionalità?**   | Questo avviso verrà sostituito da un errore di compilazione in futuro.  |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio. |
+| **Opzione di distribuzione**              | Tutto. |
+| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione in futuro, probabilmente nell'aggiornamento 30 della piattaforma. |
+
+#### <a name="complete-list"></a>Elenco completo
+Per accedere all'elenco completo delle API che verranno deprecate, vedere [Deprecazione di metodi e di elementi di metadati](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma
 
@@ -51,8 +117,8 @@ La modalità di trasferimento sincrona viene deprecata nei parametri di contabil
 | **Motivo del deprecamento/rimozione** | L'opzione sincrona viene rimossa a causa dell'impatto sulle prestazioni del sistema. |
 | **Sostituita da un'altra funzionalità?**   | Batch asincrono e programmato sono opzioni da utilizzare al posto della modalità sincrona.   |
 | **Aree del prodotto interessate**         | Contabilità generale, Contabilità fornitori, Contabilità clienti, approvvigionamento, spesa    |
-| **Opzione di distribuzione**              | Tutto  |
-| **Stato**                         | Deprecato - L'intervallo di tempo di destinazione per la funzionalità da rimuovere è la versione 10.0.|
+| **Opzione di distribuzione**              | Tutte  |
+| **Stato**                         | Deprecato: la rimozione della funzionalità è prevista nella versione 10.0.|
 
 ### <a name="electronic-reporting-for-russia"></a>Creazione di report elettronici per la Russia
 Funzionalità per la configurazione di formati di file txt e xml per le dichiarazioni. 
@@ -145,7 +211,7 @@ I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Pre
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Aggiornamenti di prodotto in Microsoft Power BI. |
-| **Sostituita da un'altra funzionalità?**   | I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio**, disponibili sul sito [AppSource](https://appsource.microsoft.com), vengono sostituiti da applicazioni analitiche che consentono l'integrazione di soluzioni a livello di database. Per ulteriori informazioni sulle applicazioni analitiche, vedere [Power BI Embedded nelle aree di lavoro](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Sostituita da un'altra funzionalità?**   | I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio**, disponibili sul sito [AppSource](https://appsource.microsoft.com), vengono sostituiti da applicazioni analitiche che consentono l'integrazione di soluzioni a livello di database. Per ulteriori informazioni sulle applicazioni analitiche, vedere [Power BI nelle aree di lavoro](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Aree del prodotto interessate**         | Cost management, Finance e Retail                                                                                               |
 | **Opzione di distribuzione**              | Solo cloud (l'integrazione con PowerBI.com non è supportata nelle distribuzioni locali).                                                                                                            |
 | **Stato**                         | Deprecato: il calendario di destinazione per la rimozione della funzionalità è il 2° trimestre 2018.    |
@@ -573,7 +639,7 @@ Due formati per l'esportazione dei pagamenti disponibili per la Finlandia. LM02 
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | La soluzione di gestione magazzino II (WMS II) che è disponibile nel modulo di **gestione articoli** duplica la funzionalità nel modulo **gestione magazzino** che è stato rilasciato in Microsoft Dynamics AX 2012 R3.                                                                         |
-| **Sostituita da un'altra funzionalità?**   | Il modulo **Gestione magazzino** che è stato rilasciato in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 e Microsoft Dynamics AX 2012 R3 CU9 sostituisce le funzionalità di gestione magazzino II. Il nuovo modulo dispone di funzionalità più avanzate e di processi di gestione magazzino più flessibili rispetto a quelli offerti nelle funzionalità Gestione magazzino II. |
+| **Sostituita da un'altra funzionalità?**   | Il modulo **Gestione magazzino** che è stato rilasciato in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 e Dynamics AX 2012 R3 CU9 sostituisce le funzionalità di gestione magazzino II. Il nuovo modulo dispone di funzionalità più avanzate e di processi di gestione magazzino più flessibili rispetto a quelli offerti nelle funzionalità Gestione magazzino II. |
 | **Aree del prodotto interessate**         | Gestione articoli, vendite e marketing, approvvigionamento   |
 | **Stato**                         | Rimosso a partire da Dynamics 365 for Operations versione 1611.    |
 
@@ -613,7 +679,7 @@ Un flusso di lavoro per la gestione della creazione degli obiettivi dei dipenden
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integrazioni di AIF, di AxD e di AxBC
 
-In Application Integration Framework (AIF), i dati possono essere scambiati ai sistemi esterni in logica di business che è esposta come servizi. Dynamics AX include i servizi basati su documenti e .NET Business Connector (AxBC). Un documento viene creato utilizzando XML. XML contiene le informazioni di intestazione aggiunte per creare un *messaggio* che è possibile trasferire da o a Microsoft Dynamics AX. Esempi dei documenti comprendono gli ordini cliente e ordini fornitore. Tuttavia, quasi qualsiasi entità, ad esempio un cliente, può essere rappresentata da un documento. I servizi basati sui documenti usano le classi **Axd \<Documento\>**.
+In Application Integration Framework (AIF), i dati possono essere scambiati ai sistemi esterni in logica di business che è esposta come servizi. Dynamics AX include i servizi basati su documenti e .NET Business Connector (AxBC). Un documento viene creato utilizzando XML. XML contiene le informazioni di intestazione aggiunte per creare un *messaggio* che è possibile trasferire da o a Dynamics AX. Esempi dei documenti comprendono gli ordini cliente e ordini fornitore. Tuttavia, quasi qualsiasi entità, ad esempio un cliente, può essere rappresentata da un documento. I servizi basati sui documenti usano le classi **Axd \<Documento\>**.
 
 |   |  |
 |------------|--------------------|

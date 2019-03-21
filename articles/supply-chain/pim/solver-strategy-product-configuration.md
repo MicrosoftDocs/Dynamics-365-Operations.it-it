@@ -3,7 +3,7 @@ title: Strategia risolutore per la configurazione prodotto
 description: In questo argomento viene descritto come utilizzare la strategia risolutore per ottimizzare le prestazioni della configurazione prodotto.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351150"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403918"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Strategia risolutore per la configurazione prodotto
 
@@ -62,8 +62,8 @@ Nella tabella seguente vengono fornite indicazioni sulla strategia risolutore da
 | Strategia risolutore      | Utilizzare la strategia in questo scenario |
 |----------------------|-----------------------------------|
 | Predefinita              | La strategia **Predefinita** è stata ottimizzata per risolvere i modelli in cui vengono utilizzati i vincoli di tabella. Gli studi sull'implementazione del cliente hanno dimostrato che questa strategia è la strategia più efficiente in scenari in cui i vincoli di tabella sono ampiamente utilizzati. |
-| Prima domini minimi | Le strategie **Prima domini minimi** e **Dall'alto in basso** sono strettamente correlate. Gli studi sull'implementazione del cliente hanno dimostrato che la strategia **Dall'alto in basso** introdotta nel CU8, supera la strategia **Prima domini minimi**. Tuttavia, la strategia **Prima domini minimi** viene mantenuta nel prodotto per compatibilità con le versioni precedenti. Entrambe le strategie risolutore hanno dimostrato di essere più efficienti nel risolvere modelli che contengono diverse espressioni aritmetiche in cui non vengono utilizzati vincoli di tabella. Tuttavia, in alcuni casi, la strategia **Predefinita** supera queste due strategie. Di conseguenza, ricordare provare ogni strategia. |
-| Dall'alto in basso             | Le strategie **Prima domini minimi** e **Dall'alto in basso** sono strettamente correlate. Gli studi sull'implementazione del cliente hanno dimostrato che la strategia **Dall'alto in basso** introdotta nel CU8, supera la strategia **Prima domini minimi**. Tuttavia, la strategia **Prima domini minimi** viene mantenuta nel prodotto per compatibilità con le versioni precedenti. Entrambe le strategie risolutore hanno dimostrato di essere più efficienti nel risolvere modelli che contengono diverse espressioni aritmetiche in cui non vengono utilizzati vincoli di tabella. Tuttavia, in alcuni casi, la strategia **Predefinita** supera queste due strategie. Di conseguenza, ricordare provare ogni strategia. |
+| Prima domini minimi | Le strategie **Prima domini minimi** e **Dall'alto in basso** sono strettamente correlate. Gli studi sull'implementazione del cliente hanno dimostrato che la strategia **Dall'alto in basso** supera la strategia **Prima domini minimi**. Tuttavia, la strategia **Prima domini minimi** viene mantenuta nel prodotto per compatibilità con le versioni precedenti. Entrambe le strategie risolutore hanno dimostrato di essere più efficienti nel risolvere modelli che contengono diverse espressioni aritmetiche in cui non vengono utilizzati vincoli di tabella. Tuttavia, in alcuni casi, la strategia **Predefinita** supera queste due strategie. Di conseguenza, ricordare provare ogni strategia. |
+| Dall'alto in basso             | Le strategie **Prima domini minimi** e **Dall'alto in basso** sono strettamente correlate. Gli studi sull'implementazione del cliente hanno dimostrato che la strategia **Dall'alto in basso** supera la strategia **Prima domini minimi**. Tuttavia, la strategia **Prima domini minimi** viene mantenuta nel prodotto per compatibilità con le versioni precedenti. Entrambe le strategie risolutore hanno dimostrato di essere più efficienti nel risolvere modelli che contengono diverse espressioni aritmetiche in cui non vengono utilizzati vincoli di tabella. Tuttavia, in alcuni casi, la strategia **Predefinita** supera queste due strategie. Di conseguenza, ricordare provare ogni strategia. |
 | Z3                   | Si consiglia di utilizzare la strategia **Z3** come strategia risolutore predefinita. Se si è preoccupati per le prestazioni e la scalabilità, è possibile valutare le altre strategie. |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

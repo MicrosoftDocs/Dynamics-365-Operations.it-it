@@ -3,7 +3,7 @@ title: Importare la lettera di credito
 description: In questa procedura vengono descritti i passaggi per importare una lettera di credito.
 author: kweekley
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3d5539fbd17c880d8bbadd47444c9cc53fce039c
+ms.sourcegitcommit: 0c1deb100d0bf6dacd14b328968bbc7a9d92583a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313568"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "771233"
 ---
 # <a name="import-letter-of-credit"></a>Importare la lettera di credito
 
@@ -111,8 +111,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 1. Passare a Gestione cassa e banche > Lettere di credito > Lettera di credito di importazione e pagamento all'importazione.
 2. Nell'elenco trovare e selezionare il record desiderato.
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-    * Verificare lo stato dell'importazione della lettera di credito.    
-    *   
+    * Verificare lo stato dell'importazione della lettera di credito.     
 4. Chiudere la pagina.
 5. Chiudere la pagina.
 
