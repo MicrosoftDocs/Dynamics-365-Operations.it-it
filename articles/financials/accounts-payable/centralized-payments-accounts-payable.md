@@ -3,7 +3,7 @@ title: Pagamenti centralizzati per la contabilità fornitori
 description: Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una sola persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Questo articolo fornisce esempi che indicano come gestire la registrazione dei pagamenti centralizzati in diversi scenari.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/12/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b61320617dd85a880414b31ad6c88e611beca161
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327069"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390168"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Pagamenti centralizzati per la contabilità fornitori
 
@@ -33,7 +33,7 @@ Le organizzazioni che includono più persone giuridiche possono creare e gestire
 
 Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Inoltre, l'organizzazione risparmia tempo, poiché il processo di pagamento viene semplificato.
 
-In un'organizzazione di pagamento centralizzata sono presenti numerose persone giuridiche per le operazioni e ciascuna persona giuridica operativa gestisce le proprie fatture fornitore. I pagamenti per tutte le persone giuridiche operative vengono generati da una singola persona giuridica, nota come persona giuridica del pagamento. Durante il processo di liquidazione, vengono generate le transazioni relative a importi da versare e da ricevere. È possibile specificare quale persona giuridica dell'organizzazione riceve le transazioni di profitto realizzato o di perdita realizzata e la modalità di gestione delle transazioni di sconto di cassa correlate a un pagamento interaziendale. 
+In un'organizzazione di pagamento centralizzata sono presenti numerose persone giuridiche per le operazioni e ciascuna persona giuridica operativa gestisce le proprie fatture fornitore. I pagamenti per tutte le persone giuridiche operative vengono generati da una singola persona giuridica, nota come persona giuridica del pagamento. Durante il processo di liquidazione, vengono generate le transazioni relative a importi da versare e da ricevere. È possibile specificare quale persona giuridica dell'organizzazione riceve le transazioni di profitto realizzato o di perdita realizzata e la modalità di gestione delle transazioni di sconto di cassa correlate a un pagamento interaziendale. Nella riga del giornale di registrazione pagamenti centralizzato, **Tipo di conto** deve essere impostato su Fornitore. **Tipo di conto di contropartita** deve essere impostato su Banca o Contabilità generale. Il conto bancario deve essere nella società corrente. 
 
 Negli esempi riportati di seguito viene illustrata la modalità di gestione della registrazione in diversi scenari. Per tutti gli esempi si presuppone la seguente configurazione:
 

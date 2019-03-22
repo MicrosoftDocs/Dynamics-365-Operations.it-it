@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376509"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768884"
 ---
 # <a name="set-up-offer-management"></a>Impostare la gestione delle offerte 
 
@@ -199,11 +199,11 @@ Diverse parti del processo di creazione dell'offerta possono essere configurate 
 - **Esperienza dell'offerta del candidato** - Come amministratore, è possibile scegliere di impostare se tutte le offerte abbiano una data di scadenza e in caso affermativo, quale deve essere l'offset predefinito per la data di scadenza. È inoltre possibile configurare se i candidati possono rifiutare un'offerta.
 
 - **Firme elettroniche** - Come amministratore, è inoltre possibile selezionare il metodo che i candidati possono utilizzare per firmare le offerte.
-    - Adobe Sign - Tutti i pacchetti di offerta saranno inviati e firmati via Adobe Sign. Ogni creatore di offerte che pubblica l'offerta deve avere la licenza Adobe Sign collegata a Attract. 
+    - Adobe Sign - Tutti i pacchetti di offerta saranno inviati e firmati via Adobe Sign. Ogni creatore di offerte che pubblica l'offerta deve avere il relativo account Adobe Sign collegato a Attract. Per le licenze di Adobe Sign e una versione di prova gratuita, visitare la pagina a questo [collegamento](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+    - DocuSign - Tutti i pacchetti di offerta saranno inviati e firmati via DocuSign. Ogni creatore di offerte che pubblica l'offerta deve avere il relativo account DocuSign collegato a Attract. 
+    
     - ESign – Questa è l'opzione predefinita, dove l'utente può firmare un'offerta digitando il relativo nome e le iniziali.
 
->[!NOTE]
-> Per le licenze di Adobe Sign e una versione di prova gratuita, visitare la pagina a questo [collegamento](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
 Per ulteriori informazioni sul processo di creazione dell'offerta, vedere [Creazione, approvazione e firma di offerte](./creating-offers.md).

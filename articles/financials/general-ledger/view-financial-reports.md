@@ -1,9 +1,9 @@
 ---
-title: Visualizza report finanziari
-description: In questo articolo viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics 365 for Finance and Operations. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
+title: Visualizzare report finanziari
+description: In questo argomento viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics 365 for Finance and Operations. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312947"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791443"
 ---
-# <a name="view-financial-reports"></a>Visualizza report finanziari
+# <a name="view-financial-reports"></a>Visualizzare report finanziari
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics 365 for Finance and Operations. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
+In questo argomento viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics 365 for Finance and Operations. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
 
 <a name="financial-reporting-overview"></a>Panoramica sui report finanziari
 ----------------------------
@@ -67,18 +67,15 @@ Un report finanziario può essere visualizzato in qualsiasi valuta in qualsiasi 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Visualizzare una visualizzazione riepilogativa del report finanziario
 Un report finanziario può contenere le righe di dettaglio e le righe riepilogative. Le righe di dettaglio sono righe contenenti i conti principali o le dimensioni. Le righe riepilogative sono descrizione, totale e righe di calcolo. Per visualizzare solo le righe riepilogative di un report, fare clic su **Mostra**, quindi su **Solo righe di riepilogo**. Il report viene compresso e visualizza solo le righe riepilogative. Per visualizzare le righe di dettaglio insieme alle righe di riepilogo, fare clic su **Mostra**, quindi di nuovo su **Solo righe di riepilogo**.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Aprire un report finanziario di un mese precedente
-È possibile visualizzare i report per il mese corrente o i mesi precedenti senza rigenerare il report. Per aprire il report per un mese precedente, fare clic su **Mostra** quindi fare clic su **Report precedenti**. Un elenco dei mese precedenti per cui il report viene generato viene visualizzato. Espandere il mese di cui visualizzare il report, selezionare la data, quindi fare clic su **OK**. Viene visualizzato il report per il mese precedente. Per tornare al report del mese corrente, fare clic su **Annulla**.
-
 ## <a name="print-a-financial-report"></a>Stampare un report finanziario
-Per stampare un report finanziario, nel Riquadro azioni fare clic su **Stampa**, quindi completare uno o più dei passaggi riportati di seguito per impostare le opzioni di stampa:
+La stampa di un report finanziario creerà un file PDF che può quindi essere stampato manualmente. Per creare un report finanziario stampabile, nel Riquadro azioni fare clic su **Stampa**, quindi completare uno o più dei passaggi riportati di seguito per impostare le opzioni di stampa:
 
 -   Per includere diversi livelli di dettaglio nel report stampato, impostare il dispositivo di scorrimento su **Sì** o **No**. Se un report utilizza una struttura gerarchica, è possibile scegliere di includere tutti i punti di rilevazione o solo il punto di rilevazione corrente.
 -   Per impostare le dimensioni della pagina, selezionare le dimensioni della pagina nell'elenco.
 -   Per impostare il layout di pagina, selezionare un layout nell'elenco. Se si desidera che il contenuto del report si adatti alla larghezza selezionata, impostare il dispositivo di scorrimento su **Sì**.
 -   Per impostare i margini di pagina, immettere la dimensione dei margini superiore, inferiore, sinistro e destro in pollici.
 
-Dopo aver completato l'impostazione delle opzioni di stampa, fare clic su **Stampa** per stampare il report. Se si decide che non si desidera stampare il report, fare invece clic su **Annulla**. Viene visualizzata un'anteprima del report stampato. È possibile selezionare la stampante alla quale inviare il report ed è inoltre possibile rettificare le opzioni di stampa.
+Al termine delle opzioni di stampa, fare clic su **Stampa** per continuare e per visualizzare il messaggio in cui viene richiesto se si desidera scaricare il file oppure salvarlo in OneDrive o SharePoint. Se si decide di non continuare, fare invece clic su **Annulla**. Quando si continua, il report inizierà a eseguire il rendering sul server e verrà richiesto di scaricare il report in formato PDF. È ora possibile visualizzare il report nel visualizzatore PDF dove è possibile selezionare la stampante a cui inviare il report e apportare ulteriori modifiche alle opzioni di stampa.
 
 ## <a name="export-a-financial-report"></a>Esportare un report finanziario
 Per esportare un report finanziario, nel Riquadro azioni fare clic su **Esporta**. Il report viene esportato in Microsoft Excel e il browser chiede di aprire o salvare il file esportato. Le impostazioni di esportazione definite nella progettazione del report vengono applicate al report esportato.    
@@ -86,7 +83,7 @@ Per esportare un report finanziario, nel Riquadro azioni fare clic su **Esporta*
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Report finanziari per Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Creazione di report finanziari](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

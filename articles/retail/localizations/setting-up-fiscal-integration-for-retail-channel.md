@@ -3,7 +3,7 @@ title: Impostare l'integrazione fiscale per canali di vendita al dettaglio
 description: In questo argomento vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di vendita al dettaglio.
 author: josaw
 manager: annbe
-ms.date: 2/01/2019
+ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 3c2945c4310dc4c1ae74f215e9b28056e7d1ede9
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377313"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773329"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Impostare l'integrazione fiscale per canali di vendita al dettaglio
 
@@ -175,7 +175,7 @@ In alcuni casi, è necessario stampare un testo speciale su una ricevuta fiscale
     3. Nel campo **Testo per ricevuta fiscale**, specificare un testo fiscale che deve essere stampato su una ricevuta fiscale.
 
     > [!NOTE]
-    > Se più sconti sono applicati alla stessa riga di transazione, la ricevuta fiscale conterrà i testi fiscali di tutti gli sconti collegati a tale riga di transazione. 
+    > Se più sconti sono applicati alla stessa riga di transazione, la ricevuta fiscale conterrà i testi fiscali di tutti gli sconti collegati a tale riga di transazione.
 
 ## <a name="set-error-handling-settings"></a>Configurare le impostazioni di gestione degli errori
 
@@ -210,3 +210,4 @@ Per abilitare report X/Z fiscali per l'esecuzione dal POS, è necessario aggiung
     2. Aggiungere un nuovo pulsante e impostare la proprietà del pulsante **Stampa X fiscale**.
     3. Aggiungere un nuovo pulsante e impostare la proprietà del pulsante **Stampa Z fiscale**.
     4. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1090** per trasferire le modifiche al database del canale.
+

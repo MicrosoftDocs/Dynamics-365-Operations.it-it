@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356348"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832150"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
 
@@ -62,7 +62,7 @@ Una definizione di colonna può contenere da due a 255 colonne.
 Una definizione di colonna contiene le seguenti informazioni:
 
 - Una colonna dekle descrizioni per la definizione di riga
-- Colonne Importo che mostrano i dati dai dati finanziari, un foglio di lavoro di Microsoft Excel, o i calcoli basati su altri dati della definizione di colonna
+- Colonne Importo che mostrano i dati dai dati finanziari o i calcoli basati su altri dati della definizione di colonna
 - Colonne di formattazione
 - Colonne attributo
 
@@ -170,7 +170,7 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 ### <a name="create-an-automatically-generated-header"></a>Creare un'intestazione generata automaticamente
 
-Progettazione report può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC**, **FD** e **WKS**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Ad esempio, in un anno di calendario standard, **@CalMonthLong** risolve il mese **7** in **Luglio**. Se il nome del mese deve essere visualizzato solo con lettere maiuscole (ad esempio, **LUGLIO**), immettere il codice della voce di glossario in caratteri maiuscoli nel campo **Testo intestazione di colonna**. Immettere ad esempio **@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, immettere il seguente testo dell'intestazione: **Periodo @FiscalPeriod-@FiscalYear da @StartDate a @EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**.
+Progettazione report può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC** e **FD**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Ad esempio, in un anno di calendario standard, **@CalMonthLong** risolve il mese **7** in **Luglio**. Se il nome del mese deve essere visualizzato solo con lettere maiuscole (ad esempio, **LUGLIO**), immettere il codice della voce di glossario in caratteri maiuscoli nel campo **Testo intestazione di colonna**. Immettere ad esempio **@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, immettere il seguente testo dell'intestazione: **Periodo @FiscalPeriod-@FiscalYear da @StartDate a @EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**.
 
 > [!NOTE]
 > Il formato di alcune parti del testo, ad esempio la data in formato esteso, dipende dalle impostazioni internazionali del server di Finance and Operations. Per modificare queste impostazioni, fare clic sul pulsante **Start**, fare clic su **Pannello di controllo**, quindi su **Paese e lingua**. Nella seguente tabella sono elencate le opzioni di testo automatico disponibili per le intestazioni di colonna.
@@ -291,7 +291,7 @@ La cella **Spazi aggiuntivi prima di colonna** specifica la larghezza di separat
 1. In Progettazione report, aprire la definizione di colonna da modificare.
 2. Nella cella **Spazi aggiuntivi prima di colonna** immettere il numero di spazi da inserire tra le colonne.
 
-### <a name="specify-a-currency"></a>Specificare la valuta
+### <a name="specify-a-format-currency-override"></a>Specificare una sostituzione di formato/valuta
 
 La cella **Sostituzione formato/valuta** specifica la formattazione dei decimali, la valuta e gli importi percentuali nella colonna. Questa formattazione sostituisce la formattazione specificata nella definizione di report o nelle impostazioni predefinite di sistema.
 
@@ -360,8 +360,8 @@ Il tipo di informazioni che ogni colonna di un report include è specificato dal
     </thead>
     <tbody>
     <tr>
-    <td>FD</td>
-    <td>Visualizza dati finanziari o dati di un foglio di lavoro di Excel quando si utilizza una colonna <strong>Collegamento a Dimensioni finanziarie</strong> o una colonna <strong>Collegamento a Foglio di lavoro</strong> nella definizione di riga. Quando si seleziona il tipo di colonna <strong>FD</strong>, le impostazioni predefinite vengono specificate automaticamente nelle righe seguenti: <ul>
+    <td>DF</td>
+    <td>Visualizza i dati finanziari quando si utilizza la colonna <strong>Collegamento a dimensioni finanziarie</strong> nella definizione di riga. Quando si seleziona il tipo di colonna <strong>FD</strong>, le impostazioni predefinite vengono specificate automaticamente nelle righe seguenti: <ul>
     <li><strong>Codice registro/categoria di attributi:</strong> ACTUAL</li>
     <li><strong>Codice registro/categoria di attributi:</strong> ACTUAL</li>
     <li><strong>Anno fiscale:</strong> BASE</li>
@@ -394,14 +394,6 @@ Le impostazioni predefinite possono essere modificate.</td>
     <tr>
     <td>PAGE</td>
     <td>Inserisce un'interruzione di pagina verticale nel report. Le colonne che si trovano a destra della colonna <strong>PAGE</strong> verranno visualizzate in una pagina distinta.</td>
-    </tr>
-    <tr>
-    <td>WKS</td>
-    <td>Visualizza i dati di cui è effettuato il pull da un foglio di lavoro di Excel. Quando si seleziona il tipo di colonna <strong>WKS</strong>, le impostazioni predefinite vengono specificate automaticamente nelle righe seguenti: <ul>
-    <li><strong>Anno fiscale:</strong> PERIODIC</li>
-    <li><strong>Periodo:</strong> BASE</li>
-    </ul>
-Le impostazioni predefinite possono essere modificate.</td>
     </tr>
     <tr>
     <td>ATTR</td>
@@ -518,13 +510,13 @@ Un filtro dimensioni viene utilizzato per limitare la colonna **FD** a valori di
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Formattare un report con più valute in una definizione di colonna
 
-Un report con più valute può visualizzare gli importi nella valuta naturale (locale), nella valuta funzionale (predefinita) o nella valuta di dichiarazione. La valuta funzionale di una società è definita nel sistema Microsoft Dynamics ERP. Non confondere questa impostazione ERP con le opzioni locali del sistema operativo, in cui è possibile configurare i simboli della valuta predefinita utilizzati nei report. Le seguenti celle correlate alla valuta sono disponibili nella definizione di colonna:
+Un report con più valute può visualizzare gli importi nella valuta di contabilizzazione della contabilità generale, di dichiarazione della contabilità generale, della transazione di origine o di dichiarazione convertita. La valuta di contabilizzazione di una società è definita nella configurazione Contabilità generale. Non confondere questa impostazione con le opzioni locali del sistema operativo, in cui è possibile configurare i simboli della valuta predefinita utilizzati nei report. Le seguenti celle correlate alla valuta sono disponibili nella definizione di colonna:
 
-- **Visualizzazione di valuta** - Consente di specificare il tipo di valuta, ovvero naturale, funzionale o di dichiarazione, in cui sono visualizzate le transazioni. Questa funzionalità viene talvolta definita conversione di valuta. La conversione valuta è la capacità di riportare gli importi di contabilità generale in una valuta che non sia la valuta funzionale della società o la valuta in cui la transazione è stata immessa.
+- **Visualizzazione di valuta** - Consente di specificare il tipo di valuta (contabilizzazione, dichiarazione, transazione o dichiarazione convertita) in cui sono visualizzate le transazioni. Quando convertita in una funzionalità di valuta di dichiarazione viene a volte definita come conversione valuta. La conversione valuta è la capacità di riportare gli importi di contabilità generale in una valuta che non sia la valuta funzionale o di dichiarazione della società o la valuta in cui la transazione è stata immessa.
 - **Filtro valuta** Consente di specificare un filtro valuta. Solo le transazioni immesse nella valuta selezionata vengono visualizzate nel report.
 
-> [!NOTE]
-> Per creare report che utilizzano più valute, è necessario selezionare la casella di controllo **Includi tutte le valute di dichiarazione** nella scheda **Report** della definizione di report. Per determinare la valuta funzionale di una società, effettuare le operazioni indicate di seguito.
+> 
+Per determinare la valuta di contabilizzazione di una società, effettuare le operazioni indicate di seguito.
 
 1. In Progettazione report scegliere **Società** dal menu **Società**.
 2. Nella finestra di dialogo **Società**, selezionare una società e quindi fare clic su **Visualizza**.
@@ -533,20 +525,18 @@ Un report con più valute può visualizzare gli importi nella valuta naturale (l
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Specificare la valuta in un report con più valute
 
 1. In Progettazione report, aprire la definizione di colonna da modificare.
-2. Fare doppio clic sulla cella **Visualizzazione valuta** nella colonna **FD** appropriata e selezionare l'opzione per la visualizzazione di informazioni sulla valuta: **Valuta naturale/di origine**, **Valuta funzionale da informazioni società**, o la valuta di dichiarazione.
+2. Fare doppio clic sulla cella **Visualizzazione valuta** nella colonna **FD** appropriata e selezionare l'opzione per la visualizzazione di informazioni sulla valuta: **Valuta di contabilizzazione per la contabilità generale**, **Conversione valuta di dichiarazione per la contabilità generale**, valuta della transazione oppure eseguire la conversione in una valuta di dichiarazione differente.
 3. Fare doppio clic sulla cella **Filtro valuta** nella colonna **FD** appropriata e selezionare il codice valuta appropriato nell'elenco. Solo le transazioni immesse in questa valuta vengono visualizzate nel report.
 
-> [!NOTE]
-> Le opzioni che vengono descritte in questo modulo possono differire, a seconda del sistema ERP. Per ulteriori informazioni, vedere la [Documentazione relativa al sistema Microsoft ERP](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Esempio delle celle Visualizzazione valuta e Filtro valuta
 
 Phyllis ha eseguito le seguenti selezioni di valuta nella definizione di colonna:
 
 - **Filtro valuta:** Yen
-- **Visualizzazione valuta:** Funzionale (dollari USA)
+- **Visualizzazione valuta:** valuta di contabilizzazione della contabilità generale (dollari statunitensi)
 
-A causa di filtro valuta da Phyllis selezionato, il report include solo le transazioni immesse in Yen giapponesi (JPY). A causa della visualizzazione valuta che ha selezionato, nel report vengono visualizzate le transazioni nella valuta funzionale, dollari USA (USD).
+A causa di filtro valuta da Phyllis selezionato, il report include solo le transazioni immesse in Yen giapponesi (JPY). A causa della visualizzazione valuta che ha selezionato, nel report vengono visualizzate le transazioni nella valuta di contabilizzazione, dollari USA (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Combinazioni di Filtro valuta e Visualizzazione valuta
 
@@ -555,10 +545,10 @@ Nella seguente tabella vengono visualizzati i risultati del report che possono v
 
 | Cella Visualizzazione valuta                        | Cella Filtro valuta | Risultato report |
 |----------------------------------------------|----------------------|---------------|
-| Valuta naturale/di origine                 | **YEN**              | **Y 6.000** – Il risultato mostra solo solo le transazioni immesse in JPY. |
-| Valuta funzionale da informazioni società | **YEN**              |**$ 60** – Il risultato mostra solo le transazioni immesse nel JPY e visualizza quelle transazioni in USD.<blockquote>[!NOTE] Il tasso di conversione è circa 100 JPY per USD.</blockquote> |
-| Valuta funzionale tratta dalle informazioni sulla società | Vuoto                | **$ 2.310** - Il risultato mostra tutti i dati nella valuta funzionale specificata nelle informazioni di società.<blockquote>[!NOTE] Questo importo corrisponde alla somma di tutte le transazioni in valuta funzionale.</blockquote> |
-| Valuta naturale/di origine                 | Vuoto                | **$ 2.250** – Il risultato mostra tutti gli importi nella valuta in cui la transazione è stata eseguita. |
+| Valuta transazione                 | **YEN**              | **Y 6.000** – Il risultato mostra solo solo le transazioni immesse in JPY. |
+| Valuta di contabilizzazione della contabilità generale | **YEN**              |**$ 60** – Il risultato mostra solo le transazioni immesse nel JPY e visualizza quelle transazioni in USD.<blockquote>[!NOTE] Il tasso di conversione è circa 100 JPY per USD.</blockquote> |
+| Valuta di contabilizzazione della contabilità generale | Vuoto                | **$ 2.310** - Il risultato mostra tutti i dati nella valuta di contabilizzazione specificata nella contabilità generale.<blockquote>[!NOTE] Questo importo corrisponde alla somma di tutte le transazioni nella valuta di contabilizzazione.</blockquote> |
+| Valuta transazione                 | Vuoto                | **$ 2.250** – Il risultato mostra tutti gli importi nella valuta in cui la transazione è stata eseguita. Ciò significa che il totale è la somma degli importi in valute diverse. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Colonna di calcolo in una definizione di colonna
 

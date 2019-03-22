@@ -3,7 +3,7 @@ title: Processi di importazione ed esportazione di dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360212"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834662"
 ---
 # <a name="data-import-and-export-jobs"></a>Processi di importazione ed esportazione dati
 
@@ -128,6 +128,9 @@ Un processo può essere protetto in base a ruoli, utenti e persone giuridiche co
 
 ## <a name="run-the-import-or-export-job"></a>Eseguire il processo di importazione o di esportazione
 È possibile eseguire un processo una volta facendo clic sul pulsante **Importa** o **Esporta** dopo aver definito il processo. Per impostare un processo ricorrente, selezionare **Crea processo dati ricorrente**.
+
+[!NOTE]
+Un processo di importazione o esportazione può essere eseguito in modo asincrono selezionando il pulsante **Importa** o **Esporta**. L'esecuzione asincrona utilizza il framework asincrono in Finance and Operations, che è differente dal framework batch. Tuttavia, come il framework batch, il framework asincrono può anche essere soggetto a una limitazione e di conseguenza il processo può non essere eseguito immediatamente. I processi possono anche essere eseguiti in modo sincrono selezionando **Importa adesso** o **Esporta adesso**. Questa selezione avvia immediatamente il processo e risulta utile se l'esecuzione asincrona o batch non viene avviata a causa di una limitazione. I processi possono anche essere eseguiti in un batch scegliendo **Esegui in batch**. Le risorse batch sono soggette a limitazione, quindi il processo batch potrebbe non essere avviato immediatamente. L'opzione asincrona è utile quando gli utenti interagiscono direttamente con l'interfaccia utente e non sono power user per comprendere la pianificazione batch. L'utilizzo di un batch è un'opzione alternativa se è necessario esportare o importare grandi volumi. I processi batch possono essere pianificati per l'esecuzione in un gruppo batch specifico, che consente un maggior controllo da una prospettiva di bilanciamento del carico. Se l'esecuzione asincrona e quella batch sono soggette a limitazione a causa di un utilizzo elevato delle risorse di sistema, come soluzione alternativa immediata è possibile utilizzare la versione sincrona dell'importazione/esportazione. L'opzione sincrona verrà avviata immediatamente e bloccherà l'interfaccia utente poiché viene eseguita in modo sincrono. La finestra del browser deve rimanere aperta quando l'operazione sincrona è in corso.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Verificare che il processo è stato eseguito come previsto
 Lo storico processi è disponibile per la risoluzione dei problemi e l'analisi dei processi di importazione e di esportazione. Le esecuzioni dello storico processi sono organizzate in base a intervalli di tempo.

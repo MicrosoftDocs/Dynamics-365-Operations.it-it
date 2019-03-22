@@ -3,7 +3,7 @@ title: Integrazione dei cespiti
 description: È possibile integrare Cespiti con Contabilità generale, Gestione articoli, Contabilità clienti e Contabilità fornitori. È inoltre possibile impostare i cespiti per l'integrazione con gli ordini fornitore.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336982"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778157"
 ---
 # <a name="fixed-assets-integration"></a>Integrazione dei cespiti
 
@@ -41,7 +41,7 @@ Nella pagina **Profili registrazione cespiti** si definiscono i conti principali
 ## <a name="inventory-management"></a>Gestione inventario
 Nel giornale di registrazione magazzino per i cespiti, è possibile immettere i dati relativi all'acquisizione di cespiti che la persona giuridica ha prodotto o costruito per proprio uso. È possibile quindi trasferire gli articoli di magazzino ai cespiti sotto forma di acquisizione o di parte di un'acquisizione. 
 
-È inoltre possibile acquisire cespiti utilizzando ordini fornitore. Quando in tali ordini sono presenti articoli di magazzino designati come cespiti, l'impostazione di **Consenti acquisizione cespiti da Acquisto** nella pagina **Parametri cespiti** determina se per il cespite viene registrata un'acquisizione al momento della registrazione della fattura. L'effetto dell'acquisizione dei cespiti sulle scorte dipende dall'impostazione della persona giuridica. 
+È inoltre possibile acquisire cespiti utilizzando ordini fornitore. Quando in tali ordini sono presenti articoli di magazzino designati come cespiti, l'impostazione di **Consenti acquisizione cespiti da Acquisto** nella pagina **Parametri cespiti** determina se per il cespite viene registrata un'acquisizione al momento della registrazione della fattura. Una riga di acquisto creerà un cespite, indipendentemente dalla quantità. L'effetto dell'acquisizione dei cespiti sulle scorte dipende dall'impostazione della persona giuridica. 
 
 Quando un articolo di magazzino diventa un'acquisizione cespiti, mediante il giornale di registrazione magazzino, un ordine fornitore o una proposta di acquisizione, viene creata una transazione di acquisizione del libro cespiti. Se l'acquisizione di un libro include un libro derivato, viene creata anche una transazione di acquisizione relativa al libro derivato. 
 

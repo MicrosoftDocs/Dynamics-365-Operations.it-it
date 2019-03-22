@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: Dynamics 365 for Talent
-description: Talent consente di semplificare molte attività di routine di gestione dei record e automatizzare diversi processi relativi al personale dell'organizzazione. Questi processi includono la fidelizzazione dei dipendenti, l'amministrazione dei benefit, la formazione, la valutazione delle prestazioni e la gestione delle modifiche.
+description: 'Talent consente di semplificare molte attività di routine di gestione dei record e automatizzare diversi processi relativi al personale dell''organizzazione. Questi processi includono la fidelizzazione dei dipendenti, l''amministrazione dei benefit, la formazione, la valutazione delle prestazioni e la gestione delle modifiche.'
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: ''
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: 'Core, Operations, Talent'
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302465"
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
+
 # <a name="welcome-to-dynamics-365-for-talent"></a>Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
@@ -79,7 +75,7 @@ Dynamics 365 for Talent include l'app Attract che consente di identificare, esam
 
 ## <a name="develop-and-train-employees"></a>Gestire lo sviluppo e la formazione dei dipendenti
 
-Per consentire ai dipendenti di raggiungere gli obiettivi di avanzamento professionale mentre soddisfano le esigenze aziendali critiche è possibile impostare gli obiettivi, creare le revisioni delle prestazioni e tenere traccia del riscontro. Per permettere ai dipendenti di sviluppare le competenze necessarie, è inoltre possibile impostare gli istruttori, i tipi di corso, i corsi, le descrizioni dei corsi, le agende, le tracce e le sessioni prima di assegnare un istruttore a un corso o registrare qualcuno a un corso. I docenti, come i lavoratori, i candidati o i contatti, devono già essere presenti.
+Per consentire ai dipendenti di raggiungere gli obiettivi di avanzamento professionale mentre soddisfano le esigenze aziendali critiche, è possibile impostare gli obiettivi, creare le revisioni delle prestazioni e tenere traccia del riscontro. Per permettere ai dipendenti di sviluppare le competenze necessarie è inoltre possibile impostare gli istruttori, i tipi di corso, i corsi, le descrizioni dei corsi, le agende, le tracce e le sessioni prima di assegnare un istruttore a un corso o iscrivere qualcuno a un corso. I docenti, come i lavoratori, i candidati o i contatti, devono già essere presenti.
 
 -   [Gestione delle prestazioni](performance-management-overview.md)
 -   [Allineare le competenze della forza lavoro e le esigenze aziendali](skills.md)

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377137"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773279"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Panoramica dell'integrazione fiscale per i canali di vendita al dettaglio
 
@@ -30,7 +30,7 @@ ms.locfileid: "377137"
 
 ## <a name="introduction"></a>Introduzione
 
-In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Microsoft Dynamics 365 for Retail. L'integrazione fiscale include l'integrazione con vari servizi e dispositivi fiscali che consentono la registrazione fiscale delle vendite al dettaglio in conformità con le leggi fiscali locali intese a impedire la frode fiscale nel settore della vendita al dettaglio. Di seguito sono riportati alcuni scenari comuni che possono essere coperti utilizzando l'integrazione fiscale: 
+In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Microsoft Dynamics 365 for Retail. L'integrazione fiscale include l'integrazione con vari servizi e dispositivi fiscali che consentono la registrazione fiscale delle vendite al dettaglio in conformità con le leggi fiscali locali intese a impedire la frode fiscale nel settore della vendita al dettaglio. Di seguito sono riportati alcuni scenari comuni che possono essere coperti utilizzando l'integrazione fiscale:
 
 - Registrare una vendita al dettaglio in un dispositivo fiscale collegato al Retail POS, ad esempio una stampante fiscale, e stampare una ricevuta fiscale per il cliente.
 - Inviare in modo sicuro informazioni relative a vendite e resi completati in Retail POS a un servizio Web esterno gestito dall'ufficio tributario competente.
@@ -87,6 +87,7 @@ Quando la registrazione fiscale di una transazione o di un evento ha esito posit
 
 Le transazioni fiscali vengono trasferite a Retail Headquarters dal *processo P*, insieme alle transazioni di vendita al dettaglio. Nella scheda Dettaglio **Transazioni fiscali** della pagina **Transazioni punto vendita al dettaglio**, è possibile visualizzare le transazioni fiscali collegate alle transazioni di vendita al dettaglio.
 
+
 Una transazione fiscale archivia i seguenti dettagli:
 
 - Dettagli del processo di registrazione fiscale (processo, gruppo di connettori, connettore e così via). Archivia inoltre il numero di serie del dispositivo fiscale nel campo **Numero registratore di cassa**, se queste informazioni sono incluse nella risposta fiscale.
@@ -115,4 +116,5 @@ La seguente funzionalità di integrazione fiscale è disponibile anche in Retail
 
 - [Firma digitale per la Francia](emea-fra-cash-registers.md)
 - [Firma digitale per la Norvegia](emea-nor-cash-registers.md)
-- [Esempio di integrazione di un'unità di controllo per la Svezia](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+- [Esempio di integrazione di un'unità di controllo per la Svezia](./retail-sdk-control-unit-sample.md)
+

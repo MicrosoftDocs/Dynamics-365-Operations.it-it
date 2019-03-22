@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340731"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768416"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisiti di dimensionamento hardware per ambienti locali
 
@@ -65,7 +65,7 @@ Man mano che si comprende il carico che influisce sull'infrastruttura, è necess
 
 ## <a name="sizing-your-finance-and-operations-environment"></a>Dimensionamento dell'ambiente Finance and Operations
 
-Per comprendere i requisiti di dimensionamento, è necessario conoscerne il picco del volume di transazioni che è necessario elaborare. La maggior parte dei sistemi ausiliari, come Strumento di creazione report di gestione oppure SSRS, è meno cruciale. Questo documento riguarda di conseguenza maggiormente Microsoft Dynamics AX Application Object Server (AOS) e SQL Server.
+Per comprendere i requisiti di dimensionamento, è necessario conoscerne il picco del volume di transazioni che è necessario elaborare. La maggior parte dei sistemi ausiliari, come Strumento di creazione report di gestione oppure SSRS, è meno cruciale. Questo documento riguarda di conseguenza maggiormente Application Object Server (AOS) e SQL Server.
 
 > [!NOTE]
 > In generale, i livelli di calcolo scalano orizzontalmente e dovrebbero essere impostati secondo la modalità N+1 secondo la quale se si stimano tre AOS, se ne deve aggiungere un quarto. Il livello del database dovrebbe essere installato secondo l'impostazione di disponibilità elevata always-on.
@@ -86,7 +86,7 @@ Per comprendere i requisiti di dimensionamento, è necessario conoscerne il picc
     - Utilizzo di funzionalità aggiuntive, ad esempio gli avvisi e il registro database. La registrazione estrema del database ridurrà ulteriormente la produttività oraria per core al di sotto di 3.000 righe.
     - Complessità della composizione dei dati - Un piano dei conti semplice rispetto a un piano dei conti molto dettagliato ha implicazioni sulla produttività (ad esempio).
     - Caratterizzazione della transazione.
-    - Da 2 GB a 4 GB di memoria per ogni core.
+    - Da 2 GB a 16 GB di memoria per ogni core.
     - Database ausiliari nel server DB quali i database di strumento di creazione report di gestione e SSRS.
     - DB temporaneo = 15% della dimensione del DB, con tanti file quanti sono i processori fisici.
     - Produttività e dimensione SAN in base al volume/utilizzo delle transazioni simultanee totale.

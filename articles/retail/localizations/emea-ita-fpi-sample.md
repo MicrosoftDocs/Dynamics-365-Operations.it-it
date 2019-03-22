@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 92cfa6ace7a6bef2ce9ff0899ca7a60193738aa6
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 781c160c068bcf4d6b0cc178389b022e2e31ec2d
+ms.sourcegitcommit: 2cf5498098e7a5ade1c16eac6df26bc98e4565cd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377265"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "760771"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 
@@ -33,7 +33,7 @@ ms.locfileid: "377265"
 La funzionalità di Microsoft Dynamics 365 for Retail per l'Italia include un'integrazione di esempio del POS con una stampante fiscale. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) di modo che sia utilizzabile con le stampanti [Epson FP-90III Series](http://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) di Epson e abilita la comunicazione con una stampante fiscale in modalità server Web via il servizio Web EpsonFPMate utilizzando l'API Fiscal ePOS-Print. L'esempio supporta soltanto la modalità Registratore Telematico (RT). L'esempio viene fornito sotto forma di codice sorgente e fa parte del kit SDK.
 
 Microsoft non rilascia hardware, software o documentazione di Epson. Per informazioni su come ottenere la stampante fiscale e utilizzarla, contattare [Epson Italia S.p.A](http://www.epson.it).
- 
+
 ## <a name="scenarios"></a>Scenari
 
 Gli scenari seguenti sono coperti dall'esempio di integrazione di stampante fiscale per l'Italia:
@@ -112,7 +112,7 @@ L'esempio di integrazione della stampante fiscale implementa le seguenti regole 
 
 ### <a name="enable-extensions"></a>Abilitare le estensioni
 
-##### <a name="commerce-runtime-extension-components"></a>Componenti dell'estensione di Commerce Runtime
+#### <a name="commerce-runtime-extension-components"></a>Componenti dell'estensione di Commerce Runtime
 
 I componenti dell'estensione di Commerce Runtime sono inclusi in Retail SDK. Per completare le seguenti procedure, aprire la soluzione CRT, **CommerceRuntimeSamples.sln**, in **RetailSdk\\SampleExtensions\\CommerceRuntime**.
 
@@ -134,7 +134,7 @@ I componenti dell'estensione di Commerce Runtime sono inclusi in Retail SDK. Per
     - **Server Retail**: riavviare il sito del servizio di vendita al dettaglio da Gestione IIS.
     - **Broker client**: terminare il processo **dllhost.exe** in Gestione attività quindi riavviare il POS moderno.
 
-##### <a name="hardware-station-extension-components"></a>Componenti dell'estensione stazione hardware
+#### <a name="hardware-station-extension-components"></a>Componenti dell'estensione stazione hardware
 
 I componenti dell'estensione stazione hardware sono inclusi in Retail SDK. Per completare le seguenti procedure, aprire la soluzione Stazione hardware, **HardwareStationSamples.sln**, in **RetailSdk\\SampleExtensions\\HardwareStation**.
 
@@ -173,7 +173,7 @@ Per abilitare il processo di registrazione, seguire questi passaggi per configur
 6. Accedere a **Vendita al dettaglio \> Impostazione canale \> Integrazione fiscale \> Processo di registrazione**. Creare un nuovo processo e selezionare il gruppo funzionale di connettori del passaggio precedente.
 7. Passare a **Vendita al dettaglio \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili funzionalità**. Aprire il profilo funzionalità collegato al punto vendita in cui il processo di registrazione deve essere attivato. Nella scheda Dettaglio **Processo di registrazione fiscale**, selezionare il processo di registrazione creato nel passaggio precedente.
 8. Passare a **Vendita al dettaglio \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**. Aprire il profilo hardware collegato alla stazione hardware a cui la stampante fiscale sarà collegata. Nella scheda Dettaglio **Periferiche fiscali**, selezionare il profilo tecnico del connettore.
-9. Aprire la programmazione della distribuzione (**Vendita al dettaglio \> Vendita al dettaglio IT > Programmazione della distribuzione**) e selezionare il processo **1070** per trasferire i dati al database del canale.
+9. Aprire la programmazione della distribuzione (**Vendita al dettaglio \> Vendita al dettaglio IT \> Programmazione della distribuzione**) e selezionare il processo **1070** per trasferire i dati al database del canale.
 
 ## <a name="commerce-runtime-extension-design"></a>Progettazione dell'estensione di Commerce Runtime
 
@@ -236,4 +236,4 @@ Il file di configurazione si trova nella cartella **Configuration** del progetto
 - La stampante fiscale supporta solo gli scenari in cui l'IVA è inclusa nel prezzo. Di conseguenza, l'opzione **Prezzi IVA inclusa** deve essere impostata su **Sì** per i punti vendita al dettaglio e i clienti.
 - I report giornalieri (X e Z fiscali) vengono stampati utilizzando il formato incorporato nel firmware della stampante fiscale.
 - Le transazioni miste non sono supportate dalla stampante fiscale. L'opzione **Impedisci di combinare vendite e resi in una ricevuta** deve essere impostata su **Sì** nei profili funzionalità POS.
-- L'esempio supporta l'integrazione solo con una stampante fiscale che funziona in modalità RT (Registrazione Telematico). 
+- L'esempio supporta l'integrazione solo con una stampante fiscale che funziona in modalità RT (Registrazione Telematico).

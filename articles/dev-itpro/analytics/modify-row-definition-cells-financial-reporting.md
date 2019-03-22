@@ -1,9 +1,9 @@
 ---
-title: Modificare le celle di definizione riga
-description: In questo articolo vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni.
+title: Modificare le celle di definizione di riga
+description: In questo argomento vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323642"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379666"
 ---
-# <a name="modify-row-definition-cells"></a>Modificare le celle di definizione riga
+# <a name="modify-row-definition-cells"></a>Modificare le celle di definizione di riga
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni.
+In questo argomento vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Specificare un codice di riga in una definizione riga
 
@@ -386,7 +386,7 @@ Quando si seleziona un conto specifico, Progettazione report in genere combina i
 Alcuni sistemi di contabilità supportano gli attributi di conto e gli attributi di transazione nei dati finanziari. Questi attributi vengono eseguiti come segmenti di conti virtuali e possono riportare ulteriori informazioni sul conto o sulla transazione. Queste informazioni aggiuntive possono essere ID conto, ID batch, codici postali o altri attributi. Se il sistema contabile supporta gli attributi, è possibile utilizzare gli attributi di conto o gli attributi di transazione come modificatori riga nella definizione di riga. Per informazioni su come sostituire le informazioni di riga, vedere la sezione "Sostituire una definizione colonna" in precedenza in questo articolo.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Specificare il collegamento a una cella di dimensioni finanziarie
-La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai dati finanziari che devono essere inclusi in ciascuna riga del report. In tale cella sono contenuti valori di dimensione. Al posto di tali valori di segmento o di dimensione, o in aggiunta a essi, è tuttavia possibile specificare le celle di un foglio di lavoro di Microsoft Excel. Per aprire la finestra di dialogo **Dimensioni**, fare doppio clic sulla cella **Collegamento a dimensioni finanziarie**.
+La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai dati finanziari che devono essere inclusi in ciascuna riga del report. Questa cella contiene valori di dimensione. Per aprire la finestra di dialogo **Dimensioni**, fare doppio clic sulla cella **Collegamento a dimensioni finanziarie**.
 
 > [!NOTE]
 > Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. Per specificare le informazioni per una riga già inclusa nella definizione di riga, aggiungere le informazioni nella cella **Collegamento a Dimensioni finanziarie**. Per aggiungere nuove righe di collegamento ai dati finanziari, utilizzare la finestra di dialogo **Inserisci righe da** per creare nuove righe nella definizione di report. Il titolo di colonna cambia a seconda di come la colonna è stata configurata, come illustrato nella seguente tabella.
@@ -394,13 +394,11 @@ La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai da
 | Tipo di collegamento selezionato       | Descrizione del collegamento delle modifiche di colonna a |
 |----------------------------------|----------------------------------------------------|
 | Dimensioni finanziarie             | Collegamento a dimensioni finanziarie                       |
-| Foglio di lavoro esterno               | Collegamento a foglio di lavoro                                  |
-| Dimensioni finanziarie + foglio di lavoro | Collegamento a dimensioni finanziarie + foglio di lavoro           |
-| Report di strumento di creazione report di gestione       | Report di strumento di creazione report di gestione                         |
+| Foglio di lavoro di report                 | Report Creazione di report finanziari                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Specificare una dimensione o un intervallo
 
-1. In Progettazione report, aprire la definizione di riga da modificare.
+1. In Progettazione report aprire la definizione di riga da modificare.
 2. Fare doppio clic su una cella della colonna **Collegamento a Dimensioni finanziarie**.
 3. Nella finestra di dialogo **Dimensioni** fare doppio clic su una cella in corrispondenza del nome della dimensione.
 4. Nella finestra di dialogo per la dimensione, selezionare **Singolo o intervallo**.

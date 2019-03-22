@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0b6683107f4b2dbe36af78749612ce950ea19582
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363363"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403239"
 ---
 # <a name="general-ledger"></a>Contabilità generale 
 
@@ -53,21 +53,19 @@ Le regole devono inoltre essere aggiornate periodicamente ogni volta che vengono
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-### <a name="whats-new"></a>Novità
+#### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Andare alle [Note sulla versione](https://docs.microsoft.com/en-us/business-applications-release-notes/) per una visualizzazione delle nuove funzionalità che sono state rilasciate. 
+Consultare le [Note sulla versione di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per informazioni sulle nuove funzionalità pianificate. 
+
+#### <a name="blogs"></a>Blog
+
+È possibile trovare pareri, notizie e altre informazioni sul [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e il [blog di Microsoft Dynamics Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+
+Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 
 ### <a name="videos"></a>Video
 
 Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-### <a name="blogs"></a>Blog
-
-Per opinioni, notizie e altre informazioni sulla contabilità fornitori e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Sono disponibili numerosi post sulla contabilità generale nel [blog del team di prodotto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Sebbene alcuni di questi post siano stati scritti per la versione precedente della contabilità generale, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
-
-Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
 
 #### <a name="community-blogs"></a>Blog della Community
 

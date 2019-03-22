@@ -3,7 +3,7 @@ title: Creazione, approvazione e firma di offerte
 description: Questo argomento descrive come creare, approvare e firmare un'offerta per un candidato tramite Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5ad7ce1e089d2a8b5c52e7cd01bb3d89070004b1
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305045"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768907"
 ---
 # <a name="creating-approving-and-signing-offers"></a>Creazione, approvazione e firma di offerte
 
@@ -104,15 +104,20 @@ Esistono vari azioni che è possibile eseguire prima dell'invio dell'offerta al 
 
 -  Possono esserci documenti aggiuntivi che si desidera includere nel processo di accettazione. Si ha la scelta di elencare il tipo di documento richiesto.
 
-- Opzione di firma elettronica: se Adobe Sign è stato scelto come metodo preferito di firma elettronica, gli autori di offerte devono collegare la licenza Adobe Sign. Sono disponibili due modi per eseguire questa operazione. Andare a **Impostazioni utente** in **Offerta**, sotto **Connessioni** eseguire la connessione a **Adobe Sign**. In alternativa, verrà chiesto di collegare la schermata Invia l'offerta al candidato se la connessione non era ancora stabilita in base alle impostazioni utente. 
+- Opzione Firma elettronica: sono disponibili due modi per collegare il provider di firma elettronica scelto. Andare a **Impostazioni utente** in **Offerta**, sotto **Connessioni** eseguire la connessione a **Adobe Sign** o **DocuSign**. In alternativa, verrà chiesto di collegare la pagina **Invia l'offerta al candidato** se la connessione non era ancora stabilita in base alle impostazioni utente. L'account di firma elettronica deve essere connesso una sola volta. La stessa licenza utente viene utilizzata per tutti i pacchetti di offerta che verranno spediti dallo stesso utente. 
 
-> [!NOTE]
-> Gli utenti devono collegare i propri account Adobe Sign una sola volta. La stessa licenza utente viene utilizzata per tutti i pacchetti di offerta che verranno spediti dallo stesso utente. 
+### <a name="adobe-sign"></a>Adobe Sign
+Se Adobe Sign è stato scelto come metodo di firma elettronica preferito, gli autori di offerte devono connettere la licenza Adobe Sign in questa fase. 
+
+### <a name="docusign"></a>DocuSign
+Se DocuSign è stato scelto come metodo di firma elettronica preferito, gli autori di offerte devono connettere la licenza DocuSign. Dopo l'accesso, l'account predefinito e le autorizzazioni associate al profilo DocuSign dell'utente sono connessi a Talent Attract. 
 
 -  È possibile visualizzare e modificare il modello di messaggio di posta elettronica se necessario.
 
 Quando l'offerta è pronta e si sceglie **Invia al candidato**, il candidato riceverà un messaggio di posta elettronica indicante un'offerta è in attesa di revisione.
 
+>[!NOTE]
+> Se si utilizza il segno Adobe Sign o DocuSign e viene visualizzato un errore durante l'invio dell'offerta al candidato, disconnettere e riconnettere l'account dell'utente della firma elettronica da **Impostazioni utenti**. Se il problema persiste, contattare il proprio supporto utilizzando il collegamento **Segnalare un problema**.
 
 ## <a name="candidates-actions-after-receiving-an-offer"></a>Le azioni del candidato dopo aver ricevuto di offerta
 

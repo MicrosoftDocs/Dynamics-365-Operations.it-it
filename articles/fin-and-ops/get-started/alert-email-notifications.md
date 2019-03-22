@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 314f04eec04a75aed058c9c38066738e8758f653
-ms.sourcegitcommit: 440ebe14ad26574ba227d23ee8370f6b6110645b
+ms.openlocfilehash: 9545731af20a96c322b4e92c17f3a46b7077295b
+ms.sourcegitcommit: a13f44549ab402cfd04b600f6097ba179915f233
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373789"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "775066"
 ---
 # <a name="client-alert-notifications-by-email"></a>Notifiche di avviso client tramite posta elettronica
 
@@ -48,7 +48,7 @@ L'immagine seguente illustra la finestra di dialogo **Crea regola di avviso**, c
 
 ## <a name="alert-notification-email-templates"></a>Modelli di messaggio di posta elettronica per notifiche di avviso
 
-Il servizio invia notifiche tramite posta elettronica utilizzando modelli di messaggio di posta elettronica predefiniti che consegnano dettagli di base della notifica di avviso. Queste informazioni includono un collegamento diretto alla pagina in cui la regola di avviso è stata definita.
+Il servizio invia notifiche tramite posta elettronica utilizzando modelli di messaggio di posta elettronica predefiniti che consegnano dettagli di base della notifica di avviso.
 
 Nell'immagine seguente viene illustrata la struttura delle notifiche di avviso ricevute tramite posta elettronica.
 

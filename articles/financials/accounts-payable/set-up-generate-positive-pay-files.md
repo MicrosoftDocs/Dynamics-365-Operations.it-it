@@ -1,9 +1,9 @@
 ---
 title: Impostare e generare file pagamenti sicuri
-description: Questo articolo spiega come impostare un pagamento sicuro e generare file pagamenti sicuri.
+description: In questo argomento viene descritto come impostare un pagamento sicuro e generare file pagamenti sicuri.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dbc512c6d214dc8cf2527ac23103529111896ec5
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346090"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778180"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Impostare e generare file pagamenti sicuri
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo spiega come impostare un pagamento sicuro e generare file pagamenti sicuri. 
+In questo argomento viene descritto come impostare un pagamento sicuro e generare file pagamenti sicuri. 
 
 Impostare il pagamento sicuro per generare l'elenco elettronico degli assegni che viene fornito alla banca. Quando si presenta un assegno alla banca, la banca lo confronta con l'elenco degli assegni. Se l'assegno corrisponde a uno presente nell'elenco, la banca lo liquida. Se l'assegno non corrisponde a un assegno nell'elenco, la banca lo trattiene per esaminarlo.
 
@@ -94,7 +94,7 @@ Questi file vengono creati tramite entità di dati. Prima di generare un file pa
           <xsl:value-of select="'
     '" />
           <!--Header End-->
-          <xsl:for-each select="Document/BankPositivePayExportEntity">
+          <xsl:for-each select="Document/BANKPOSITIVEPAYEXPORTENTITY">
             <!--Cheque Detail begin-->
             <xsl:value-of select='RECIPIENTACCOUNTNUM/text()'/>
             <xsl:value-of select="','" />
