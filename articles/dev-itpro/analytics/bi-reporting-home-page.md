@@ -3,7 +3,7 @@ title: Home page di business intelligence (BI) e creazione di report
 description: In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence e di creazione di report disponibili in Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302467"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902844"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Home page di business intelligence (BI) e creazione di report
 
@@ -32,11 +32,11 @@ In questo argomento vengono descritte le risorse che è possibile utilizzare per
 
 ## <a name="get-started"></a>Per iniziare
 - [Accesso alle informazioni e creazione di report](information-access-reporting.md)
-- [Video tecnologici - Opzioni per la creazione di report](https://www.youtube.com/watch?v=NzZONjKs5xA)
-- [Finance and Operations: business intelligence](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blog)
+- [Tech Talk: Reporting options](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
+- [Finance and Operations: Power BI Analytics & Reporting Services blog](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Aree di lavoro analitiche
-In Finance and Operations sono disponibili report interattivi facilmente integrabili in aree di lavoro dell'applicazione. Le aree di lavoro possono utilizzare contenuti di infografica e oggetti visivi supportati da Microsoft Power BI. Tali contenuti e oggetti visivi includono numerosi controlli forniti da terze parti. Di conseguenza, le aree di lavoro possono offrire un'esperienza utente interattiva estremamente efficace a livello visivo.
+In Finance and Operations sono disponibili report interattivi perfettamente integrati nelle aree di lavoro dell'applicazione. Le aree di lavoro possono utilizzare contenuti di infografica e oggetti visivi supportati da Microsoft Power BI. Tali contenuti e oggetti visivi includono numerosi controlli forniti da terze parti. Di conseguenza, le aree di lavoro possono offrire un'esperienza utente interattiva estremamente efficace a livello visivo.
 
 Gli utenti possono interagire con i dati facendo clic su o toccando gli oggetti visivi nella pagina. In questo modo è possibile visualizzare eventi di causa/effetto ed eseguire semplici operazioni di tipo what-if senza uscire dall'area di lavoro. Grazie a oggetti visivi accattivanti e interattivi, gli utenti possono esplorare i dati e scoprire tendenze nascoste in modo estremamente semplice.
 
@@ -47,7 +47,7 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 - [Power BI Embedded in aree di lavoro](embed-power-bi-workspaces.md)
 - [Integrazione di Power BI Embedded](power-bi-embedded-integration.md)
 - [Aggiungere analisi alle aree di lavoro tramite Power BI Embedded](add-analytics-tab-workspaces.md)
-- [Proteggere le aree di lavoro e i report analitici con Power BI Embedded Power BI Embedded](secure-analytical-workspaces.md)
+- [Proteggere le aree di lavoro e i report analitici con Power BI Embedded](secure-analytical-workspaces.md)
 - [Contenuto di Power BI per Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Documenti aziendali e stampa
