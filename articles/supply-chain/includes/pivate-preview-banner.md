@@ -1,2 +1,2 @@
  [!IMPORTANT]
-> La funzionalità indicata in questo argomento è disponibile a utenti mirati come parte di un rilascio di anteprima privato. Il contenuto e funzionalità sono soggette a modifica. 
+> La funzionalità indicata in questo argomento è disponibile per gli utenti interessati nell'ambito di una versione di anteprima privata. Il contenuto e la funzionalità sono soggetti a modifiche. 
