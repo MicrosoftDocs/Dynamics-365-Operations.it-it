@@ -1,26 +1,26 @@
 ---
 title: Configurare l'integrazione delle retribuzioni tra Talent e Dayforce
 description: In questo argomento viene descritto come configurare l'integrazione tra Microsoft Dynamics 365 for Talent e Ceridian Dayforce in modo da poter elaborare è un ciclo di pagamenti.
-author: jcart1106
+author: andreabichsel
 manager: AnnBe
-ms.date: 07/10/2018
+ms.date: 03/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
+ms.sourcegitcommit: 204e4554e409c39fbbf7b273ad138ce2809931a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304973"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898446"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurare l'integrazione retribuzioni tra Talent e Dayforce
 
@@ -358,7 +358,10 @@ Se si desidera generare la retribuzione per i dipendenti negli Stati Uniti e in 
 - I reparti sono necessari nelle posizioni.
 - I centri di costo devono essere impostati come dimensioni finanziarie ed essere il primo elemento nella stringa della dimensione finanziaria predefinita.
 
-### <a name="job-types"></a>Tipi di posizione lavorativa
+> [!NOTE] 
+> È possibile configurare Talent per far sì che Posizioni specifichi un reparto. A tale scopo, andare a **Posizioni condivise Risorse umane > Posizioni > Richiedi reparti su posizioni**. Si consiglia di applicare questa impostazione per l'integrazione.
+
+### <a name="job-types"></a>Tipi di lavoro
 
 I tipi di mansione vengono utilizzati per raggruppare mansioni simili in categorie. I tipi di mansione sono necessari per elaborare le retribuzioni negli Stati Uniti e in Canada. Alcuni esempi di tipi di mansione includono il tempo pieno e il part-time o stipendio e retribuzione oraria. I tipi di mansioni vengono mappati in Dayforce come tipi di retribuzione che indicano se un dipendente viene pagato a ore o è stipendiato.
 

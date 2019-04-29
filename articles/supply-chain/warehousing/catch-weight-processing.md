@@ -3,7 +3,7 @@ title: Elaborazione di prodotti a peso variabile con la gestione magazzino
 description: Questo argomento descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove il lavoro viene effettuato nel magazzino.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777274"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946435"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
@@ -97,7 +97,9 @@ Ad esempio, **Scatola** è l'unità a peso variabile e si riceve un pallet di ot
 
 Quando la tracciabilità dei tag a peso variabile non viene utilizzata, il peso può essere acquisito per ogni set di dimensioni (ad esempio, per ogni targa e dimensione di tracciabilità). In alternativa, il peso può essere acquisito in base a un livello di aggregazione, ad esempio cinque targhe (pallet).
 
-Per i metodi di acquisizione del peso in uscita, è possibile definire se la pesatura viene eseguita per ogni unità a peso variabile (ovvero per scatola), oppure se il peso viene acquisito in base alla quantità che verrà prelevata (ad esempio, tre scatole). Tenere presente che per il processo di prelievo della riga di produzione, il peso medio verrà utilizzato se l'opzione **Non acquisito** è utilizzata.
+Per i metodi di acquisizione del peso in uscita, è possibile definire se la pesatura viene eseguita per ogni unità a peso variabile (ovvero per scatola), oppure se il peso viene acquisito in base alla quantità che verrà prelevata (ad esempio, tre scatole). Tenere presente che per i processi di prelievo della riga di produzione e di movimenti interni, il peso medio verrà utilizzato se l'opzione **Non acquisito** è utilizzata.
+
+Per impedire ai processi di prelievo di gestione magazzino di acquisire pesi che danno luogo a rettifiche di profitti/perdite prodotti a peso variabile, è possibile utilizzare il metodo di scostamento del peso in uscita.
 
 ## <a name="supported-scenarios"></a>Scenari supportati
 
@@ -121,14 +123,12 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
  
 ### <a name="order-processing"></a>Elaborazione ordine
 
-- L'elaborazione di ordini interaziendali non è supportata.
 - La creazione di Advance Shipping Notice (strutture di imballaggio/ASN) non supporta informazioni relative al peso.
 - La quantità ordine deve essere gestita in base all'unità a peso variabile.
  
 ### <a name="inbound-warehouse-processing"></a>Elaborazione di magazzino in entrata
 
 - Il ricevimento di targhe richiede che i pesi siano assegnati durante la registrazione in quanto le informazioni relative al peso non sono supportate nell'Advance Shipping Notice. Quando si utilizzano i processi dei tag a peso variabile, il numero di tag deve essere assegnato manualmente per unità a peso variabile.
-- Il ricevimento di targhe miste non è supportato per i prodotti a peso variabile.
  
 ### <a name="inventory-and-warehouse-operations"></a>Operazioni relative a scorte e magazzino
 
@@ -169,7 +169,6 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Altri restrizioni e comportamenti per l'elaborazione di prodotti a peso variabile con la gestione magazzino
 
-- Quando si acquisiscono tag a peso variabile nell'ambito dell'elaborazione dell'app magazzino, l'utente non può annullare il flusso di lavoro.
 - Durante i processi di prelievo in cui all'utente non viene richiesto di identificare le dimensioni di tracciabilità, l'assegnazione del peso viene effettuata in base al peso medio. Questo comportamento si verifica quando, ad esempio, una combinazione di dimensioni di tracciabilità viene utilizzata nella stessa ubicazione e, dopo che un utente elabora il prelievo, solo un valore di dimensione di tracciabilità rimane nell'ubicazione.
 - Quando le scorte sono prenotate per un prodotto a peso variabile configurato per processi di gestione magazzino, la prenotazione viene eseguita in base al peso minimo definito, anche se questa quantità è l'ultima quantità movimentazioni disponibile. Questo comportamento differisce da quello degli articoli che non sono configurati per i processi di gestione magazzino.
 - I processi che utilizzano il peso per i calcoli di capacità (soglie ondata, interruzioni lavoro massime, numero massimo di contenitori, capacità del carico ubicazione e così via), non utilizzano il peso effettivo delle scorte. I processi sono invece basati sul peso di gestione fisica definito per il prodotto.
@@ -193,3 +192,5 @@ Attualmente, la funzionalità per i tag a peso variabile è supportata solo nei 
 - Quando i contenitori vengono riaperti.
 - Quando i prodotti della formula vengono registrati come finiti utilizzando l'app magazzino.
 - Quando i carichi di trasporto sono elaborati mediante l'app magazzino.
+
+Un tag di peso variabile può essere creato tramite un processo dell'app del magazzino, manualmente nel modulo o utilizzando un processo di entità di dati. Se un tag di peso variabile viene associato a una riga in entrata di documento di origine, ad esempio una riga ordine fornitore, il tag verrà registrato. Se la riga viene utilizzata per l'elaborazione in uscita. Il tag verrà aggiornato come spedito.

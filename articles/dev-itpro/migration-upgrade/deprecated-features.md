@@ -3,7 +3,7 @@ title: Funzionalità rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione.
 author: sericks007
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836350"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992885"
 ---
 # <a name="removed-or-deprecated-features"></a>Funzionalità rimosse o deprecate
 
@@ -41,45 +41,114 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 > [!NOTE]
 > Informazioni dettagliate sugli oggetti in Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione di Finance and Operations.
 
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 con aggiornamento 26 della piattaforma
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.2 con aggiornamento 26 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-default-action-behavior"></a>Comportamento precedente delle azioni predefinite
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Il comportamento precedente delle azioni predefinite nelle griglie determina una colonna inattesa con il collegamento all'azione predefinita dopo il riordinamento delle colonne della griglia tramite la personalizzazione. La nuova funzionalità di azione predefinita permanente corregge questo problema. Per ulteriori informazioni, vedere [Azioni predefinite permanenti nelle griglie](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Sostituita da un'altra funzionalità?**   | A partire dall'aggiornamento 21 della piattaforma, è stata introdotta una funzionalità per "azioni predefinite permanenti". Questa funzionalità può essere abilitata nella pagina **Opzioni di prestazioni client**. |
+| **Aree del prodotto interessate**         | Griglie nel client Web |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecata: a partire da aprile 2020, le azioni predefinite permanenti saranno il comportamento predefinito, senza un meccanismo per tornare al comportamento precedente. |
+
+### <a name="legacy-is-one-of-filtering-experience"></a>Esperienza di filtro "è uno di" precedente
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | L'esperienza di filtro "è uno di" è stata riprogettata nell'aggiornamento 22 della piattaforma, con l'idea di renderla la sola esperienza di filtro "è uno di". |
+| **Sostituita da un'altra funzionalità?**   | A partire dall'aggiornamento 22 della piattaforma, un'esperienza di filtro "è uno di" migliorata è diventata disponibile nella pagina **Opzioni di prestazioni client**. Per ulteriori informazioni, vedere [Esperienza di filtro "è uno di" ottimizzata](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Aree del prodotto interessate**         | Client Web |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecata: a partire da aprile 2020, l'esperienza "è uno di" migliorata sarà il comportamento predefinito, senza un meccanismo per tornare al comportamento precedente. |
+
+### <a name="deriving-from-internal-classes-is-deprecated"></a>La derivazione da classi interne è deprecata
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Prima dell'aggiornamento 25 della piattaforma era possibile creare una classe o una tabella che deriva da una classe/tabella interna definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un avviso. |
+| **Sostituita da un'altra funzionalità?**   | L'avviso del compilatore verrà sostituito da un errore nell'aggiornamento 26 della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che è possibile eseguire l'aggiornamento 25 della piattaforma o successivo in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione.|
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione nell'aggiornamento 26 della piattaforma. |
+
+### <a name="overriding-internal-methods-is-deprecated"></a>La sostituzione dei metodi interni è deprecata
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Prima dell'aggiornamento 25 della piattaforma, era possibile sostituire un metodo interno in una classe derivata definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un avviso. |
+| **Sostituita da un'altra funzionalità?**   | Questo avviso verrà sostituito da un errore di compilazione nell'aggiornamento 26 della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che è possibile eseguire l'aggiornamento 25 della piattaforma o successivo in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione. |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione nell'aggiornamento 26 della piattaforma. |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Il parametro per abilitare ordini cliente con molteplici fonti di finanziamento di contratti di progetto
+Il supporto per la creazione di ordini cliente basati su progetti in cui il contratto di progetto ha più fonti di finanziamento è abilitato con l'impostazione **Consenti ordini cliente per progetti con più fonti di finanziamento** di **Parametri Gestione progetti e contabilità**. Per impostazione predefinita, questo parametro non è abilitato. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | La funzionalità sarà sempre abilitata dopo la rimozione del parametro. |
+| **Sostituita da un'altra funzionalità?**   | N. La funzionalità per supportare ordini cliente basati su progetti con più fonti di finanziamento sarà sempre attivata.   |
+| **Aree del prodotto interessate**         |Il parametro **Consenti ordini cliente per progetti con più fonti di finanziamento** verrà rimosso. I seguenti metodi verranno modificati alla rimozione del parametro: **ctrlSalesOrderTable** nella classe **ProjStatusType**, **validate** nel campo **ProjId** e **run** nel modulo **SalescreateOrder**. I seguenti metodi verranno deprecati alla rimozione del parametro: **IsSalesOrderAllowedForMultipleFundingSources** nel file di tabella **ProjTable**, **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** nel file di tabella **ProjTable**, il campo dati **AllowSalesOrdersForMultipleFundingSources** nel modulo **ProjParameters** e nei file **ProjParameterEntity**, il metodo privato **IsAssociatedToMultipleFundingSourcesContract** nel file di tabella **ProjTable**. |
+| **Opzione di distribuzione**              | Tutte  |
+| **Stato**                         | Il parametro verrà deprecato durante l'ondata di rilascio nell'aprile 2020. |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>Report di flusso di lavoro precedenti per stato dell'istanza e tracciabilità
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | I report di flusso di lavoro precedenti per lo stato dell'istanza e la tracciabilità vengono deprecati in quanto agli stessi non viene più fatto riferimento dalla navigazione. I report sono WorkflowWorkflowInstanceByStatusReport e WorkflowWorkflowTrackingReport. |
+| **Sostituita da un'altra funzionalità?**   | In alternativa, è possibile utilizzare il modulo dello storico flusso di lavoro. |
+| **Aree del prodotto interessate**         | Client Web |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecato: il calendario di destinazione per la funzionalità verrà rimosso nell'aprile 2020. |
+
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 con aggiornamento 25 della piattaforma
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 con l'aggiornamento 25 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e funzionalità sono soggette a modifica. Per ulteriori informazioni sulle versioni di anteprima, vedere [Aggiornamenti del servizio standard e di primo rilascio](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> Dynamics 365 for Finance and Operations 10.0.1 con aggiornamento 25 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Api deprecate e modifiche significative potenziali
+
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>La derivazione da classi interne è deprecata
 
 |   |  |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Nelle versioni precedenti all'aggiornamento 25 della piattaforma, è possibile creare una classe o una tabella che deriva da una classe/tabella interna definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un messaggio di avviso se si tenta di eseguirla.|
-| **Sostituita da un'altra funzionalità?**   | L'avviso del compilatore verrà sostituito da un errore in un aggiornamento futuro della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che se si esegue l'aggiornamento 25 o successivo della piattaforma, la distribuzione può essere eseguita in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione. |
-| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio. |
+| **Motivo del deprecamento/rimozione** | Prima dell'aggiornamento 25 della piattaforma era possibile creare una classe o una tabella che deriva da una classe/tabella interna definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un avviso. |
+| **Sostituita da un'altra funzionalità?**   | L'avviso del compilatore verrà sostituito da un errore nell'aggiornamento 26 della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che è possibile eseguire l'aggiornamento 25 della piattaforma o successivo in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione.|
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutte |
-| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione in un aggiornamento futuro della piattaforma. |
+| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione nell'aggiornamento 26 della piattaforma. |
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>La sostituzione dei metodi interni è deprecata
 
 |   |  |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Nelle versioni precedenti all'aggiornamento 25 della piattaforma, è possibile sostituire un metodo interno in una classe derivata definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un messaggio di avviso se si tenta di eseguirla.|
-| **Sostituita da un'altra funzionalità?**   | Questo avviso verrà sostituito da un errore di compilazione in un aggiornamento futuro della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che se si esegue l'aggiornamento 25 o successivo della piattaforma, la distribuzione può essere eseguita in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione. |
-| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio. |
+| **Motivo del deprecamento/rimozione** | Prima dell'aggiornamento 25 della piattaforma, era possibile sostituire un metodo interno in una classe derivata definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un avviso. |
+| **Sostituita da un'altra funzionalità?**   | Questo avviso verrà sostituito da un errore di compilazione nell'aggiornamento 26 della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che è possibile eseguire l'aggiornamento 25 della piattaforma o successivo in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione. |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutte |
-| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione in un aggiornamento futuro della piattaforma. |
+| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione nell'aggiornamento 26 della piattaforma. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 con aggiornamento 23 della piattaforma
 
-### <a name="print-to-screen-functionality"></a>Funzionalità di stampa su schermo
-I clienti possono utilizzare l'azione **Importa** del controllo Visualizzatore di report per scaricare documenti prodotti mediante le applicazioni Finance and Operations. Questa presentazione basata su HTML del report offre agli utenti un'anteprima non impaginata del documento.
+### <a name="sql-server-reporting-services-reportviewer-control"></a>Controllo ReportViewer di SQL Server Reporting Services
+I clienti possono utilizzare l'azione **Esporta** del controllo ReportViewer di SQL Server Reporting Services (SSRS) incorporato per scaricare documenti prodotti dalle applicazioni Finance and Operations. Questa presentazione basata su HTML del report offre agli utenti un'anteprima non impaginata del documento.
 
 |   |  |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | La natura non impaginata dell'esperienza di anteprima basata su HTML **non** fornisce un output fedele dei documenti fisici generati mediante Finance and Operations. Con l'utilizzo del formato PDF come formato standard per le operazioni aziendali, è possibile semplificare drasticamente le opzioni utente per l'interazione con report di applicazione e il processo di rendering dei documenti. |
+| **Motivo del deprecamento/rimozione** | La natura non impaginata dell'esperienza di anteprima basata su HTML **non** fornisce un output fedele dei documenti fisici generati mediante Finance and Operations. Utilizzando PDF come formato standard per documenti aziendali, gli utenti possono usufruire di un'esperienza di visualizzazione moderna con prestazioni migliorate nella produzione di report di applicazioni. |
 | **Sostituita da un'altra funzionalità?**   | In futuro, il formato PDF sarà quello predefinito per i report il cui rendering viene eseguito mediante Finance and Operations.   |
 | **Aree del prodotto interessate**         | Questa modifica **non** interessa gli scenari in cui i report vengono distribuiti elettronicamente o inviati direttamente alle stampanti.    |
 | **Opzione di distribuzione**              | Tutte  |
-| **Stato**                         | Deprecato: la data di eliminazione non è stata impostata per questa funzionalità. La funzionalità per scaricare automaticamente i report di applicazione nel browser come documenti PDF è prevista per l'aggiornamento della piattaforma di maggio 2019. <br><br>**Importante**: ai clienti esistenti che utilizzano la funzionalità di stampa su schermo è consigliato di contattare il [supporto tecnico](../lifecycle-services/lcs-support.md) prima di applicare l'aggiornamento 26 della piattaforma. |
+| **Stato**                         | Deprecato: la data di eliminazione non è stata impostata per questa funzionalità. La funzionalità per visualizzare automaticamente in anteprima i report di applicazioni utilizzando un visualizzatore PDF incorporato è prevista per l'aggiornamento della piattaforma di maggio 2019. |
 
 ### <a name="client-kpi-controls"></a>Comandi KPI del client
 Gli indicatori di prestazioni chiave (KPI) incorporati potrebbero essere modellati in Visual Studio da uno sviluppatore e essere personalizzati ulteriormente dall'utente finale.
@@ -110,7 +179,7 @@ Per accedere all'elenco completo delle API che verranno deprecate, vedere [Depre
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 con aggiornamento 20 della piattaforma
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Regole trasferimento batch per voci contabili del giornale di registrazione secondario
-La modalità di trasferimento sincrona viene deprecata nei parametri di contabilità generale.  Questa modalità viene sostituita dalle modalità asincrona e solo batch programmato, che sono già presenti come opzioni per il trasferimento. 
+La modalità di trasferimento sincrona viene deprecata nei parametri di contabilità generale.  Questa modalità viene sostituita dalle modalità asincrona e solo batch programmato, che sono già presenti come opzioni per il trasferimento. Per ulteriori informazioni, vedere il blog [Parametri di contabilità generale – Regole di trasferimento batch](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules) .
 
 |   |  |
 |------------|--------------------|
@@ -172,7 +241,7 @@ In questa versione non sono state rimosse o deprecate funzionalità. L'aggiornam
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 con aggiornamento della piattaforma 12
 
 ### <a name="personalized-product-recommendations"></a>Suggerimenti sul prodotto personalizzati 
-A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare consigli personalizzati sui prodotti su dispositivi POS. Per ulteriori informazioni, vedere [Panoramica dei suggerimenti sul prodotto personalizzati](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare consigli personalizzati sui prodotti su dispositivi POS. Per ulteriori informazioni, vedere [Panoramica dei suggerimenti sul prodotto personalizzati](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -277,7 +346,7 @@ Queste imposte sono state importate nella GST indiana.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Suggerimenti sul prodotto personalizzati 
-A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare consigli personalizzati sui prodotti su dispositivi POS. Per ulteriori informazioni, vedere [Panoramica dei suggerimenti sul prodotto personalizzati](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare consigli personalizzati sui prodotti su dispositivi POS. Per ulteriori informazioni, vedere [Panoramica dei suggerimenti sul prodotto personalizzati](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -288,7 +357,7 @@ A partire dal 15 febbraio 2018, i rivenditori non potranno più visualizzare con
 | **Stato**                         |Rimosso a partire da 15 febbraio 2018. Questa modifica riguarda i clienti che eseguono Dynamics 365 for Retail, versione 7.2 e versioni successive. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition luglio 2017 con aggiornamento della piattaforma 8
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition luglio 2017 con aggiornamento 8 della piattaforma
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversione di valuta per le valute di contabilizzazione e di dichiarazione
 
@@ -309,7 +378,7 @@ Il Portale dei dispositivi mobili del magazzino è un componente autonomo proget
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Funzionalità duplicata.       |
-| **Sostituita da un'altra funzionalità?**   | Sì. Questa funzionalità è stata sostituita da Finance and Operations - Magazzino. Per ulteriori informazioni sull'impostazione e sui prerequisiti, vedere [Installare e configurare Microsoft Dynamics 365 for Finance and Operations - Magazzino](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Sostituita da un'altra funzionalità?**   | Sì. Questa funzionalità è stata sostituita da Finance and Operations - Magazzino. Per ulteriori informazioni sull'impostazione e sui prerequisiti, vedere [Installare e configurare Microsoft Dynamics 365 for Finance and Operations - Magazzino](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Aree del prodotto interessate**         | Gestione magazzino, Gestione trasporto     |
 | **Opzione di distribuzione**              | Il Portale dei dispositivi mobili del magazzino è un componente autonomo progettato per la distribuzione automatica locale.               |
 | **Stato**                         | Deprecato: il calendario di destinazione per la funzionalità verrà rimosso nel quarto trimestre 2019.   |
@@ -688,6 +757,17 @@ In Application Integration Framework (AIF), i dati possono essere scambiati ai s
 | **Aree del prodotto interessate**         | AxDs, AxBCs e AIF   |
 | **Stato**                         | Rimosso a partire da Dynamics AX 7.0.   |
 
+### <a name="billing-code-rate-scripts"></a>Script di valutazione codice di fatturazione
+
+Gli script di fatturazione erano utilizzati per calcolare le tariffe di fatturazione per i codici di fatturazione. Questi script necessitavano di uno sviluppo personalizzato nel linguaggio di programmazione C Sharp o Visual Basic . Nella versione corrente di Dynamics AX, gli **script di valutazione codice di fatturazione** non sono supportati.
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Il supporto per gli script in Visual Basic o C Sharp non è stato aggiunto in Dynamics AX 7.0. |
+| **Sostituita da un'altra funzionalità?**   | Nessuno                                                                                      |
+| **Aree del prodotto interessate**         | Settore pubblico, Contabilità clienti                                    |
+| **Stato**                         | Rimosso a partire da Dynamics AX 7.0.                                                          |
+
 ### <a name="boms-without-bom-versions"></a>DBA senza versioni DBA
 
 Se la chiave di configurazione **Versioni DBA** è stata disabilitata, le versioni delle distinte base (DBA) sono state nascoste in tutti i moduli e il sistema forzerebbe una relazione 1:1 tra i prodotti rilasciati e le DBA. La chiave di configurazione **Versioni DBA** non può essere disabilitata nella versione corrente di Dynamics AX.
@@ -978,7 +1058,7 @@ La creazione della notifica anticipata non può essere effettuata operazione uti
 
 ### <a name="gl-ssrs-reports"></a>Report GL SSRS
 
-Report che includono le seguenti voci di menu sono stati rimossi: **Bilancio di verifica riepilogativo** **Bilancio di verifica dettagliato** **Piano dei conti** **Audit trail**, **Saldi** e **Elenco saldi**.
+Report che includono le seguenti voci di menu sono stati rimossi: **Bilancio di verifica riepilogativo**, **Bilancio di verifica dettagliato**, **Piano dei conti**, **Audit trail**, **Saldi** e **Elenco saldi**.
 
 |   |  |
 |------------|--------------------|
@@ -1068,7 +1148,7 @@ Configuratore prodotti è stato utilizzato per configurare dinamicamente gli art
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Il Configuratore prodotti ha esposto il codice X++ agli utenti finali e non è supportato la versione corrente di Dynamics AX. È stato rimosso per evitare gli sforzi duplicati in codebase sovrapposti e di grandi dimensioni.  |
-| **Sostituita da un'altra funzionalità?**   | Sì. La configurazione basata su vincoli era stata introdotta in Dynamics AX 2012 in cui il deprecamento del Configuratore prodotti in versioni future era già stata annunciata. La tecnologia basata su vincoli di configurazione è selezionata nelle rappresentazioni generali prodotto per consentire la configurazione. Per ulteriori informazioni, vedere [Creare un modello di configurazione prodotto](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Sostituita da un'altra funzionalità?**   | Sì. La configurazione basata su vincoli era stata introdotta in Dynamics AX 2012 in cui il deprecamento del Configuratore prodotti in versioni future era già stata annunciata. La tecnologia basata su vincoli di configurazione è selezionata nelle rappresentazioni generali prodotto per consentire la configurazione. Per ulteriori informazioni, vedere [Creare un modello di configurazione prodotto](../../supply-chain/pim/build-product-configuration-model.md). |
 | **Aree del prodotto interessate**         | Gestione delle informazioni sul prodotto, vendite e marketing  |
 | **Stato**                         | Rimosso a partire da Dynamics AX 7.0.      |
 

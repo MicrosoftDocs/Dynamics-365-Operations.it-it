@@ -3,7 +3,7 @@ title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363478"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975853"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In questo argomento viene illustrato come personalizzare Microsoft Dynamics 365 for Finance and Operations.
 
@@ -47,6 +48,8 @@ La pagina **Opzioni utente** contiene molte impostazioni a livello di sistema pe
 - **Preferenze** - Consente di selezionare valori predefiniti che vengono utilizzati ogni volta che si apre Finance and Operations. Questi valori includono la società, la pagina iniziale e la modalità di visualizzazione predefinita/modifica. La modalità di visualizzazione/modifica determina se una pagina viene bloccata per la visualizzazione o aperta per la modifica ogni volta che la si apre. Questa scheda include anche opzioni per la lingua, il fuso orario, il formato di data e ora e il formato dei numeri. Infine, questa scheda include molte preferenze varie che cambiano da versione a versione.
 - **Account** - Consente di impostare il nome utente e altre opzioni correlate all'account.
 - **Flusso di lavoro** - Consente di selezionare opzioni correlate ai flussi di lavoro.
+
+Oltre a modificare le impostazioni utente, è anche possibile visualizzare ed eliminare i dati utilizzo e le personalizzazioni facendo clic sul pulsante **Dati utilizzo**. Quando si utilizza l'applicazione, molte delle selezioni dell'utente vengono salvate, in modo da facilitare l'utilizzo successivo del sistema. La scheda **Personalizzazione**, in particolare, consente di visualizzare e gestire le modifiche personali effettuate nelle pagine del sistema. I callout di funzionalità, le finestre popup che introducono a nuove funzionalità del prodotto (disponibili nell'aggiornamento 26 della piattaforma), possono essere reimpostati da questa scheda in modo da essere di nuovo avvisati sulle funzionalità incontrate in precedenza.  
 
 ## <a name="implicit-personalizations"></a>Personalizzazioni implicite
 
@@ -160,7 +163,7 @@ Gli utenti con privilegi di amministrazione possono anche gestire le personalizz
 
 - **Applica** - È possibile importare o selezionare una personalizzazione per uno o più utenti. Per applicare una personalizzazione a uno o più utenti, selezionare innanzitutto un ruolo e gli utenti con quel ruolo. Selezionare quindi una personalizzazione esistente da applicare agli utenti selezionati o importare un file di personalizzazione. La personalizzazione viene convalidata e applicata a tutti gli utenti selezionati alla successiva apertura della pagina selezionata.
 - **Cancella** - È possibile cancellare tutte le personalizzazioni di una pagina o un'area di lavoro per uno o più utenti. Selezionare prima di tutto una pagina o un'area di lavoro per vedere l'elenco degli utenti che l'hanno personalizzata. Selezionare quindi gli utenti per i quali occorre cancellare le personalizzazioni della pagina o dell'area di lavoro e selezionare **Cancella**. Tutte le personalizzazione che gli utenti selezionati hanno applicato alla pagina o all'area di lavoro selezionata vengono cancellate. Non è possibile annullare questa azione. Se tuttavia una personalizzazione della pagina o dell'area di lavoro viene salvata, tale personalizzazione può essere reimportata.
-- **Gestione per utente** - Selezionare un utente per visualizzare l'elenco di pagine che questo utente ha personalizzato. È quindi possibile scegliere di attivare o disattivare la capacità dell'utente selezionato di utilizzare la personalizzazione di pagine specifiche o dell'intero sistema. È inoltre possibile importare, esportare o cancellare una personalizzazione per l'utente selezionato.
+- **Gestione per utente** - Selezionare un utente per visualizzare l'elenco di pagine che l'utente ha personalizzato. È quindi possibile scegliere di attivare o disattivare la capacità dell'utente selezionato di utilizzare la personalizzazione di pagine specifiche o dell'intero sistema. È inoltre possibile importare, esportare o cancellare una personalizzazione per l'utente selezionato. Inoltre, è possibile reimpostare i callout di funzionalità per l'utente selezionato di modo che tutte le finestre popup chiuse in precedenza che introducevano nuove funzionalità siano visualizzate di nuovo quando l'utente incontra di nuovo tali funzionalità.   
 - **Sistema** - È possibile disabilitare temporaneamente tutte le personalizzazioni per tutti gli utenti nel sistema. In questo caso, le personalizzazioni vengono eliminate. Tutte le pagine vengono semplicemente reimpostate sullo stato predefinito per tutti gli utenti. Se si abilitano nuovamente le personalizzazioni in un secondo momento, queste vengono applicate nuovamente. È inoltre possibile eliminare in modo permanente tutte le personalizzazioni per tutti gli utenti nel sistema. Non è possibile recuperare le personalizzazioni che sono state eliminate. Pertanto, prima di eseguire questa attività, assicurarsi di esportare tutte le personalizzazioni che si desidera importare successivamente.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Personalizzazione delle dimensioni inventariali

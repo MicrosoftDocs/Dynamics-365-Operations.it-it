@@ -1,7 +1,7 @@
 ---
 title: Liquidare un pagamento fornitore parziale e il pagamento finale completo prima della data dello sconto
 description: Questo articolo descrive uno scenario in cui vengono effettuati pagamenti parziali per una fattura fornitore e viene preso uno sconto di cassa.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ada8331e0ddac9fd0aaf8e2c75b6b64ede1d5cd9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6189d5de80a4b0b157797c1fdd072a8ee86857f3
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361109"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896996"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidare un pagamento fornitore parziale e il pagamento finale completo prima della data dello sconto
 

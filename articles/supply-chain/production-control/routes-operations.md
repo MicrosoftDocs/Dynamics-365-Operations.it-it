@@ -3,7 +3,7 @@ title: Cicli di lavorazione e operazioni
 description: In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333348"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850670"
 ---
 # <a name="routes-and-operations"></a>Cicli di lavorazione e operazioni
 
@@ -59,11 +59,10 @@ Se si consentono reti più complesse del ciclo di lavorazione nei parametri di c
 
 [![Rete di cicli di lavorazione](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Note:**
-
--   Ciascuna operazione può avere una sola operazione successiva e l'intero ciclo di lavorazione deve terminare con una sola operazione.
--   Non esiste alcuna garanzia che più operazioni con la stessa operazione successiva (ad esempio operazioni 30 e 40 nella precedente figura) verranno effettivamente eseguite in parallelo. La disponibilità e la capacità delle risorse possono determinare i vincoli nel modo in cui le operazioni sono programmate.
--   Non è possibile utilizzare 0 (zero) come numero di operazione. Questo numero è prenotato e viene utilizzato per specificare che l'ultima operazione del ciclo di lavorazione non dispone di operazione successiva.
+> [!NOTE]
+> -   Ciascuna operazione può avere una sola operazione successiva e l'intero ciclo di lavorazione deve terminare con una sola operazione.
+> -   Non esiste alcuna certezza che più operazioni con la stessa operazione successiva (ad esempio operazioni 30 e 40 nella precedente figura) verranno effettivamente eseguite in parallelo. La disponibilità e la capacità delle risorse possono determinare i vincoli nel modo in cui le operazioni sono programmate.
+> -   Non è possibile utilizzare 0 (zero) come numero di operazione. Questo numero è prenotato e viene utilizzato per specificare che l'ultima operazione del ciclo di lavorazione non dispone di operazione successiva.
 
 ### <a name="parallel-operations"></a>Operazioni parallele
 
@@ -122,7 +121,8 @@ Le seguenti proprietà operative di un'operazione vengono gestite nella relazion
 
 Le relazioni operative offrono molta flessibilità quando si definiscono i cicli di lavorazione. Inoltre, la capacità di definire delle proprietà predefinite riduce la quantità di dati master da gestire. Tuttavia, questa flessibilità significa anche che è necessario considerare il contesto di modifica di una relazione operativa.  
 
-**Nota**: poiché le proprietà operative vengono archiviate in relazioni operative per operazione per ciclo di lavorazione, tutti le occorrenze della stessa operazione, ad esempio Assemblaggio, presentano lo stesso tempo di attrezzaggio, tempo di esecuzione, gli stessi requisiti risorsa e così via. Di conseguenza, se due occorrenze di un'operazione devono verificarsi nello stesso ciclo di lavorazione ma con tempi di esecuzione diversi, è necessario creare due operazioni distinte, ad esempio Assembly1 e Assembly2.
+> [!NOTE]
+> Poiché le proprietà operative vengono archiviate in relazioni operative per operazione per ogni ciclo di lavorazione, tutti le occorrenze della stessa operazione, ad esempio Assemblaggio, presentano lo stesso tempo di attrezzaggio, tempo di esecuzione e requisiti risorsa. Di conseguenza, se due occorrenze di un'operazione devono verificarsi nello stesso ciclo di lavorazione ma con tempi di esecuzione diversi, è necessario creare due operazioni distinte, ad esempio Assembly1 e Assembly2.
 
 ### <a name="modifying-product-specific-routes"></a>Modifica di cicli di lavorazione specifici di prodotto
 
@@ -132,7 +132,8 @@ Nella pagina **Ciclo di lavorazione**, è possibile modificare le proprietà ope
 
 È inoltre possibile creare manualmente un'operazione specifica di un ciclo di lavorazione e un prodotto rilasciato utilizzando la funzione **Copia e modifica relazione**.  
 
-**Nota:** se si aggiungono nuove operazioni a un ciclo di lavorazione nella pagina **Ciclo di lavorazione**, viene creata una relazione operativa solo per il prodotto rilasciato corrente. Pertanto, se il ciclo di lavorazione viene utilizzato anche per produrre altri prodotti rilasciati, nessuna relazione operativa sarà presente applicabile per questi prodotti rilasciati e il ciclo di lavorazione non potrà più essere utilizzato per tali prodotti rilasciati.
+> [!NOTE]
+> Se si aggiungono nuove operazioni a un ciclo di lavorazione nella pagina **Ciclo di lavorazione**, viene creata una relazione operativa solo per il prodotto rilasciato corrente. Pertanto, se il ciclo di lavorazione viene utilizzato anche per produrre altri prodotti rilasciati, nessuna relazione operativa sarà presente applicabile per questi prodotti rilasciati e il ciclo di lavorazione non potrà più essere utilizzato per tali prodotti rilasciati.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Gestire le relazioni operative per ciclo di lavorazione
 
@@ -228,17 +229,32 @@ Se non si specifica una risorsa operativa o un gruppo di risorse come parte dei 
 -   **Batch** – una capacità batch viene calcolata utilizzando le informazioni relative alla relazione operativa. Numero di batch e, di conseguenza, il tempo di elaborazione possono quindi essere calcolati in base alla quantità dell'ordine.
 -   **Batch risorsa** – questa opzione è fondamentalmente uguale all'opzione **Batch**. Tuttavia, il calcolo include il campo **Capacità batch** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa.
 
+### <a name="set-up-route-groups"></a>Imposta i gruppi di cicli di lavorazione
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+È possibile definire gruppi di cicli di lavorazione e le impostazioni per i relativi tipi di processo e ciclo di lavorazione in **Controllo produzione > Impostazioni > Cicli di lavorazione > Gruppi di cicli di lavorazione**. Per ogni tipo di ciclo di lavorazione/processo nel gruppo di cicli di lavorazione, è possibile selezionare o deselezionare le seguenti opzioni:
 
-[Distinte base e formule](bill-of-material-bom.md)
+- **Attivazione** - Selezionare questa opzione per attivare i calcoli e la programmazione per il tipo di processo selezionato e per ricevere un riscontro processo quando si esegue la programmazione dei processi. È necessario selezionare questa opzione per abilitare il tipo di processo e quindi le altre opzioni per quel tipo di processo. Se l'attivazione non è selezionata, il tipo di processo non verrà abilitato, indipendentemente dalla selezione delle altre opzioni. 
+- **Gestione processo** - Selezionare questa opzione per includere il tipo di processo nella gestione dei processi quando si esegue la programmazione dei processi. 
+- **Orario di lavoro** - Selezionare questa opzione per programmare il tipo di processo in base al calendario dell'orario di lavoro definito per la risorsa operativa, altrimenti viene utilizzato il calendario gregoriano. L'orario di lavoro può essere programmato in base al calendario gregoriano o al calendario di lavoro. Se si seleziona questa opzione, la programmazione viene basata sul calendario dell'orario di lavoro definito. Inoltre, il processo del tipo di processo viene programmato la mezzanotte nella data definita come data di inizio del processo.
+- **Capacità** - Selezionare questa opzione per prenotare la capacità per il tipo di processo durante l'esecuzione della programmazione dei processi. Se si seleziona questa opzione, la capacità viene prenotata durante l'esecuzione della programmazione per il tipo di processo selezionato. In questo modo è possibile avere una panoramica dei tipi di processi in ciascun gruppo di cicli di lavorazione che utilizzano le risorse operative. Ad esempio, in una situazione in cui le risorse di essiccazione sono risorse collo di bottiglia, tali risorse devono essere specificate come colli di bottiglia. Le operazioni di essiccazione assegnate ai tipi di processo con tempo di attesa riserveranno le risorse essiccazione. 
 
-[Categorie di costo utilizzate nel ciclo di lavorazione](../cost-management/cost-categories-used-production-routings.md)
+Per ogni tipo di processo, è innanzitutto necessario attivarlo o disattivarlo. Una volta disattivato, nessuna delle altre impostazioni (Gestione processo, Orario di lavoro e Capacità) verrà considerata, poiché il tipo di processo non sarà attivo. 
 
-[Capacità risorsa](resource-capabilities.md)
+Tra i tipi di processo è possibile trovare Sovrapposizione. Sovrapposizione consente l'esecuzione contemporanea di differenti processi. Quando i processi si sovrappongono, le risorse possono essere utilizzate ma non possono essere prenotate per specifici processi.
+Di conseguenza, quando l'opzione Attivazione è selezionata per Sovrapposizione, il resto delle impostazioni (Gestione processi, Orario di lavoro e Capacità) non ha alcun effetto sul gruppo di cicli di lavorazione. 
 
-[Panoramica delle firme elettroniche](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Quando si aggiornano le versioni, è possibile che venga visualizzato il messaggio di errore seguente: **Errore CLR durante il richiamo del motore di programmazione**. Se viene visualizzato questo errore, passare alla pagina **Gruppi di cicli di lavorazione** e per tutti cicli di lavorazione per i quali è stata attivata l'opzione **Sovrapposizione**, deselezionare **Gestione processo**, **Orario di lavoro** e **Capacità**. 
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Distinte base e formule](bill-of-material-bom.md)
+
+- [Categorie di costo utilizzate nel ciclo di lavorazione](../cost-management/cost-categories-used-production-routings.md)
+
+- [Capacità risorsa](resource-capabilities.md)
+
+- [Panoramica delle firme elettroniche](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

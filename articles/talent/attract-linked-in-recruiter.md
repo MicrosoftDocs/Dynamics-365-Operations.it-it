@@ -1,7 +1,7 @@
 ---
 title: Cercare candidati con LinkedIn Recruiter
 description: In questo argomento vengono fornite informazioni sull'uso dell'apprendimento automatico per ottenere suggerimenti su mansioni e candidati.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,21 +10,21 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304949"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859576"
 ---
 # <a name="sourcing-with-linkedin-recruiter"></a>Cercare candidati con LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ LinkedIn è il più grande database di talenti del mondo e spesso il sistema pri
 > [!NOTE]
 > È necessario disporre del componente aggiuntivo per l'assunzione a livello globale e postazioni di LinkedIn Recruiter per poter utilizzare l'integrazione di LinkedIn Recruiter con Attract.
 
-## <a name="set-up-linkedin-recruiter-with-attract"></a>Impostare LinkedIn Recruiter con Attract 
+## <a name="set-up-linkedin-recruiter-with-attract"></a>Configurare LinkedIn Recruiter con Attract 
 
 Prima di utilizzare le funzioni di LinkedIn Recruiter, è necessario configurare l'accesso a livello di contratto o a livello di società con l'istanza di Attract. Per completare il processo di configurazione, è necessario utilizzare l'utente che è l'amministratore nel contratto LinkedIn Recruiter. Completare i passaggi seguenti per configurare LinkedIn Recruiter con Attract.
 
@@ -66,7 +66,7 @@ Il sistema Attract verrà visualizzato con una coppia di opzioni che è possibil
 
 9. Se si desidera consentire solo l'esportazione con 1 clic per **Indicatore In-ATS** e **Widget profilo In-ATS**, selezionare **Accesso a livello di società**. Se si desidera abilitare tutte le funzionalità di accesso a livello di società più l'accesso allo storico di InMail, allo storico di Note e al profilo stub di InMail, selezionare **Accesso a livello di società**.
 
-10. Attivare il livello di accesso desiderato dalle impostazioni **Admin-ATS** di LinkedIn Rectuiter.
+10. Attivare il livello di accesso desiderato dalle impostazioni **Admin-ATS** di LinkedIn Recruiter.
 
 [![Attivare l'integrazione di Attract dalla visualizzazione amministratore di LinkedIn Recruiter](./media/EnableRSC.png)](./media/EnableRSC.png)
 
@@ -74,9 +74,9 @@ Il sistema Attract verrà visualizzato con una coppia di opzioni che è possibil
 
 [![Integrazione di LinkedIn Recruiter completata](./media/RSCSetupComplete.png)](./media/RSCSetupComplete.png)
 
-## <a name="using-linkedin-recruiter-capabilities"></a>Utilizzo delle funzionalità di LinkedIn Recruiter
+## <a name="using-linkedin-recruiter-capabilities"></a>Utilizzo di funzionalità di LinkedIn Recruiter
 
-Dopo che le funzionalità di LinkedIn Recruiter è stato attivato dall'amministratore di Attract, sono disponibili all'accesso da parte dei selezionatori e i responsabili delle assunzioni. Per utilizzare queste funzionalità, connettere l'account LinkedIn in **Impostazioni utenti**. Diverse funzionalità saranno disponibili anche dopo che le impostazioni amministratore e utente sono state connesse.
+Dopo che le funzionalità di LinkedIn Recruiter sono state attivate dall'amministratore di Attract, sono disponibili all'accesso da parte dei selezionatori e dei responsabili delle assunzioni. Per utilizzare queste funzionalità, connettere l'account LinkedIn in **Impostazioni utenti**. Diverse funzionalità saranno disponibili anche dopo che le impostazioni amministratore e utente sono state connesse.
 
 ### <a name="in-ats-profile-widget"></a>Widget del profilo In-ATS
 
@@ -126,7 +126,7 @@ Utilizzando LinkedIn Recruiter, è possibile tenere traccia se un candidato ha f
 
 ### <a name="inmail-history"></a>Storico InMail
 
-Lo storico InMail LinkedIn è disponibile con l'accesso a livello di contratto con LinkedIn Recruiter. Quando è abilitato, sarà possibile visualizzare l'intero storico InMail con il candidato. È inoltre possibile visualizzare chi altro dell'organizzazione ha scambiato InMail con il candidato, ma non è possibile visualizzare i messaggi scambiati.
+Lo storico LinkedIn InMail è disponibile con l'accesso a livello di contratto con LinkedIn Recruiter. Quando è abilitato, sarà possibile visualizzare l'intero storico InMail con il candidato. È inoltre possibile visualizzare chi altro dell'organizzazione ha scambiato InMail con il candidato, ma non è possibile visualizzare i messaggi scambiati.
 
 Per visualizzare lo storico di InMail, passare al profilo di un candidato, passare alla scheda **LinkedIn** e scorrere fini alla parte inferiore della pagina per visualizzare lo storico. È possibile visualizzare lo storico di InMail se si è tenuta una discussione con il candidato. I messaggi da InMail vengono sincronizzati con Attract ogni due ore.
 

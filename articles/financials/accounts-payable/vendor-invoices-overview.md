@@ -1,9 +1,9 @@
 ---
 title: Panoramica delle fatture fornitore
 description: Questo articolo fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329760"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975804"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Questo articolo fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici. 
 
-<a name="vendor-invoices"></a>Fatture fornitore
----------------
+## <a name="vendor-invoices"></a>Fatture fornitore
 
 Una fattura fornitore da un ordine fornitore è una fattura generata quando i prodotti o servizi vengono ricevuti in base a un ordine fornitore che è stato emesso per un fornitore. La fattura fornitore contiene un'intestazione e una o più righe per articoli o servizi. Una fattura fornitore completa il ciclo dall'ordine fornitore all' entrata prodotti alla fattura fornitore. 
 
@@ -79,8 +79,15 @@ Per ulteriori informazioni, vedere [Registrare la fattura fornitore e associarla
 
 È possibile utilizzare più fatture e registrarle tutte contemporaneamente. Se è necessario creare più fatture, utilizzare la pagina **Fatture fornitore in sospeso**. Se è necessario registrare e stampare più fatture fornitore, utilizzare la pagina del giornale di approvazione fatture. Se si utilizza il giornale di approvazione fatture è necessario che sia registrata almeno un'entrata prodotti per l'ordine fornitore e che sia registrata una fattura per l'ordine fornitore in un registro fatture. Le informazioni finanziarie relative alla fattura derivano dalla fattura inserita nel registro.
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>Ripristinare fatture fornitore utilizzate
 
-Per ulteriori informazioni, vedere: 
+Una fattura fornitore in uso non può essere modificata da un altro utente. Tuttavia, lo stato di una fattura può talvolta indicare che la fattura è in uso, anche se non è attivamente modificata. Ad esempio, l'applicazione potrebbe non rispondere più durante la modifica della fattura o un utente potrebbe aver lasciato inavvertitamente la fattura aperta nell'applicazione.
+
+È possibile utilizzare la pagina **Ripristina fatture fornitore** per ripristinare o emettere fatture fornitore utilizzate per più di quattro ore, in modo che possano essere modificate. È possibile aprire questa pagina da **Attività periodica** o da un riquadro nell'area di lavoro **Inserimento fatture fornitore**. Dopo il ripristino di una fattura, questa sarà disponibile per la modifica nella pagina **Fattura fornitore**.
+
+È possibile accedere alla pagina **Ripristina fatture fornitore** solo se si dispone dei diritti e dei privilegi di sicurezza **Ripristina fatture fornitore utilizzate**. Inoltre, il parametro **Consenti ripristino fatture fornitore** nella pagina **Parametri contabilità fornitori** deve essere abilitato.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
 
  - [Impostare criteri di fatture fornitore](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 

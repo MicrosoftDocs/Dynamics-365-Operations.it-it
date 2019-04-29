@@ -3,14 +3,14 @@ title: Creazione di report elettronici (ER)
 description: Viene fornita una panoramica dello strumento di creazione di report elettronici. Sono incluse le informazioni sui concetti chiave e sugli scenari supportati da ER, oltre a un elenco di formati progettati e rilasciati come parte della soluzione.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310808"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902962"
 ---
 # <a name="electronic-reporting-er"></a>Creazione di report elettronici (ER)
 
@@ -163,21 +163,33 @@ Per informazioni sulla modalità di registrazione di un nuovo provider ER, ripro
 
 #### <a name="repository"></a>Archivio
 
-In un archivio ER sono archiviate le configurazioni di ER. Attualmente sono supportati quattro tipi di archivio ER: **Risorse operative**, **Progetto LCS (LCS)**, **File system** e **Servizi di configurazione normativa (RCS)**.
+In un archivio ER sono archiviate le configurazioni di ER. Attualmente sono supportati i seguenti tipi di archivio di ER: 
 
-Un archivio **Risorse operative** consente di accedere all'elenco di configurazioni che Microsoft rilascia come parte della soluzione Finance and Operations in qualità di provider di configurazioni ER. Tali configurazioni possono essere importate nell'istanza corrente di Finance and Operations e utilizzate per la creazione di report elettronici. Possono inoltre essere utilizzate per altre localizzazioni e personalizzazioni.
+- Libreria condivisa LCS
+- Progetto LCS
+- File system
+- Regulatory Configuration Services (RCS)
+- Risorse operative
+
+
+Un archivio **Libreria condivisa LCS** consente di accedere all'elenco di configurazioni nella libreria di risorse condivise in Lifecycle Services. Questo tipo di archivio ER può essere registrato solo per i fornitori di Microsoft. Nella libreria di risorse condivise LCS è possibile importare le ultime versioni delle configurazioni ER nell'istanza di Finance and Operations.
 
 L'archivio **Progetto LCS** consente l'accesso all'elenco delle configurazioni di un determinato progetto LCS (raccolta risorse di progetto LCS) selezionato alla fase di registrazione archivio. Creazione report elettronici (ER) consente di caricare le configurazioni condivise dall'istanza corrente di Finance and Operations in uno specifico archivio **Progetto LCS**. È possibile importare configurazioni anche da un archivio **Progetto LCS** nell'istanza corrente di Finance and Operations.
 
-Un archivio **File system** consente di accedere all'elenco delle configurazioni presenti come file xml nella cartella specifica del file system locale del computer in cui il servizio AOS è ospitato. La cartella richiesta viene selezionata durante la fase di registrazione dell'archivio. È possibile importare configurazioni da un archivio **File system** nell'istanza corrente di Finance and Operations. Da notare che questo tipo di archivio è accessibile negli ambienti Dynamics 365 for Finance and Operations seguenti:
-- ambienti ospitati nel cloud distribuiti per scopi di sviluppo (contenenti dei modelli di test di suite incluse)
-- ambienti distribuiti localmente (distribuzione di dati aziendali locale (LBD) o su sito)
+Un archivio **File system** consente di accedere all'elenco delle configurazioni presenti come file xml nella cartella specifica del file system locale del computer in cui il servizio AOS è ospitato. La cartella richiesta viene selezionata durante la fase di registrazione dell'archivio. È possibile importare configurazioni da un archivio **File system** nell'istanza corrente di Finance and Operations. 
 
-Per ulteriori informazioni, consultare la pagina [Importare configurazioni per la creazione di report elettronici (ER)](./electronic-reporting-import-ger-configurations.md).
+Da notare che questo tipo di archivio è accessibile negli ambienti Dynamics 365 for Finance and Operations seguenti:
 
-L'archivio **Istanza LCS** consente l'accesso all'elenco delle configurazioni di una determinata istanza RCS selezionata nella fase di registrazione dell'archivio. ER consente di importare configurazioni completate o condivise dall'istanza RCS selezionata nell'istanza Finance and Operations corrente e utilizzate per la creazione di report elettronici.
+- Gli ambienti ospitati nel cloud distribuiti per scopi di sviluppo (contenenti dei modelli di test di suite incluse)
+- Ambienti distribuiti localmente (locali)
 
-Per ulteriori informazioni, consultare la pagina [Importare configurazioni per la creazione di report elettronici (ER) da Servizi di configurazione normativa (RCS)](./rcs-download-configurations.md).
+Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici](./electronic-reporting-import-ger-configurations.md).
+
+L'archivio **Istanza LCS** consente l'accesso all'elenco delle configurazioni di una determinata istanza RCS selezionata nella fase di registrazione dell'archivio. ER consente di importare configurazioni completate o condivise dall'istanza RCS selezionata nell'istanza di Finance and Operations corrente in modo da poterle utilizzare per la creazione di report elettronici.
+
+Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici da Regulatory Configuration Service (RCS)](./rcs-download-configurations.md).
+
+Un archivio **Risorse operative** consente di accedere all'elenco di configurazioni che Microsoft rilascia inizialmente come parte della soluzione Finance and Operations in qualità di provider di configurazioni ER. Queste configurazioni possono essere importate nell'istanza corrente di Finance and Operations e utilizzate per la creazione di report elettronici o la riproduzione di guide di attività di esempio. Possono inoltre essere utilizzate per altre localizzazioni e personalizzazioni. Tenere presente che le ultime versioni fornite dalle configurazioni ER di Microsoft devono essere importate dalla libreria di risorse condivise LCS utilizzando l'archivio ER corrispondente.
 
 È possibile registrare individualmente gli archivi **Progetto LCS**, **File system** e **Servizi di configurazione normativa (RCS)** richiesti per ciascun provider di configurazioni dell'istanza corrente di Finance and Operations. Ogni archivio può essere dedicato a un provider di configurazioni specifico.
 
@@ -377,6 +389,5 @@ ER consente di adottare automaticamente le modifiche alla versione più recente 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Requisiti di localizzazione: creare una configurazione ER](electronic-reporting-configuration.md)
-
-[Gestire il ciclo di vita delle configurazioni dei report elettronici](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Requisiti di localizzazione: creare una configurazione ER](electronic-reporting-configuration.md)
+- [Gestire il ciclo di vita delle configurazioni dei report elettronici](general-electronic-reporting-manage-configuration-lifecycle.md)

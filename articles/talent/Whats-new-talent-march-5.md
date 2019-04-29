@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782917"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949807"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Novità o modifiche in Dynamics 365 for Talent (5 marzo 2019)
 
@@ -35,7 +35,7 @@ Questo argomento descrive le funzionalità nuove o modificate di Talent
 
 ### <a name="extending-option-sets-in-attract"></a>Estensione di set di opzioni in Attract
 
-In Attract, molteplici campi sono set di opzioni in Common Data Service (CDS). Sono state introdotte nuove funzionalità per l'estensione di set di opzioni, a partire dai campi **Rifiuto**, **Tipo di impiego** e **Tipo di anzianità**.
+In Attract, molteplici campi sono set di opzioni in Common Data Service. Sono state introdotte nuove funzionalità per l'estensione di set di opzioni, a partire dai campi **Rifiuto**, **Tipo di impiego** e **Tipo di anzianità**.
 
 > [!IMPORTANT]
 > La funzionalità di pubblicazione di annunci di lavoro in LinkedIn richiede l'utilizzo dei campi **Tipo di impiego** e **Tipo di anzianità** nella pagina **Dettagli mansione**. I valori predefiniti in questi campi sono supportati da LinkedIn e visualizzati quando l'annuncio viene pubblicato. Se si pubblicano annunci di lavoro in LinkedIn e si modificano i valori del set di opzioni esistente per questi campi, l'annuncio di lavoro verrà comunque pubblicato ma LinkedIn non visualizzerà i valori **Tipo di anzianità** e **Tipo di impiego**.
@@ -70,8 +70,8 @@ Con questa modifica, quando si richiedono modifiche alle posizioni esistenti, pe
 ### <a name="other-miscellaneous-bug-fixes"></a>Altre correzioni di bug varie
 Altre correzioni di bug minori incluse in questa versione.
 
-### <a name="upgrade-to-cds-for-apps"></a>Aggiornamento di CDS per le app
-Le scadenze per l'aggiornamento di CDS per le apps sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service per le app](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Eseguire l'aggiornamento a Common Data Service
+Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Presto disponibili
 

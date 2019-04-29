@@ -3,7 +3,7 @@ title: Visualizzare report finanziari
 description: In questo argomento viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics 365 for Finance and Operations. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791443"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894590"
 ---
 # <a name="view-financial-reports"></a>Visualizzare report finanziari
 
@@ -46,12 +46,11 @@ I report finanziari possono includere più livelli di dettaglio. Il livello fina
 Se i dati sono dati del budget, è possibile scegliere di aprire le voci contabili del budget. Per chiudere uno dei livelli del report e tornare al punto di partenza, è possibile premere il tasto Esc o fare clic sul pulsante **Chiudi** (**X**) in alto a destra.
 
 ## <a name="change-report-options"></a>Cambiare le opzioni del report
-È possibile modificare la data del report, applicare filtri di dimensione e di attributo, o modificare lo scenario del budget di un report **Effettivi rispetto al budget**. Nel Riquadro azioni fare clic su **Opzioni report** e seguire uno o più dei seguenti passaggi:
+È possibile applicare filtri di dimensione e di attributo o modificare lo scenario del budget di un report **Effettivi rispetto al budget**. Nel Riquadro azioni fare clic su **Opzioni report** e seguire uno o più dei seguenti passaggi:
 
--   Per modificare il periodo base e l'anno base di un report, selezionare un periodo base e un anno base, quindi fare clic su **OK**.
 -   Per applicare filtri di attributi a un report, selezionare **Aggiungere un filtro attributi**. Selezionare il tipo di attributo, immettere il valore attributo, quindi fare clic su **OK**. Ad esempio, se si seleziona l'attributo **Categoria conti**, immettere **VENDITE** come valore di attributo. Per rimuovere un filtro di attributo, fare clic su **Cancella**.
 -   Per applicare filtri di dimensioni a un report,  selezionare **Aggiungere un filtro dimensioni**. Selezionare la dimensione e quindi digitare l'ID dimensione o selezionare la dimensione nell'elenco. Per rimuovere un filtro dimensione, fare clic su **Cancella**.
--   Per modificare lo scenario su un report **Effettivi rispetto al budget**, selezionare un nuovo scenario, quindi fare clic su **OK**. Se lo scenario selezionato è relativo a un anno diverso, assicurarsi di aggiornare l'anno di base. Ad esempio, se lo scenario corrente è per l'anno fiscale 2015 e si seleziona un nuovo scenario che è per l'anno fiscale 2016, si dovrà modificare l'anno base su **2016**.
+-   Per modificare lo scenario su un report **Effettivi rispetto al budget**, selezionare un nuovo scenario, quindi fare clic su **OK**. Se lo scenario selezionato è per un anno fiscale differente, non verrà restituito alcun risultato. Ad esempio, se viene generato un report per FY2015 e lo scenario corrente è per FY2015 e il nuovo scenario selezionato è per FY2016, non verrà restituito alcun risultato. Se un nuovo scenario per un anno fiscale differente è necessario, generare una nuova versione del report per l'anno fiscale correlato allo scenario.
 
 Quando si fa clic su **OK**, tutte le opzioni selezionate sono applicate al report. Se si decide che non si desidera applicare le opzioni selezionate, fare clic su **Annulla**.
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773279"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950406"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Panoramica dell'integrazione fiscale per i canali di vendita al dettaglio
 
@@ -81,12 +81,37 @@ Il framework di integrazione fiscale fornisce le seguenti opzioni per gestire gl
 
 Le opzioni **Ignora** e **Contrassegna come registrato** attivano codici informativi per acquisire alcune informazioni specifiche sull'errore, ad esempio la causa dell'errore o il motivo per aver ignorato la registrazione fiscale o contrassegnato la transazione come registrata. Per ulteriori informazioni su come impostare i parametri di gestione degli errori, vedere [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
+### <a name="optional-fiscal-registration"></a>Registrazione fiscale facoltativa
+
+La registrazione fiscale può essere obbligatoria per alcune operazioni ma facoltativa per altre. Ad esempio, la registrazione fiscale di vendite e resi normali potrebbe essere obbligatoria, ma la registrazione fiscale delle operazioni correlate ai depositi cliente potrebbe essere facoltativa. In questo caso, il mancato completamento della registrazione fiscale di una vendita deve bloccare ulteriori vendite, ma il mancato completamento della registrazione fiscale di deposito cliente non deve bloccare ulteriori vendite. Per distinguere le operazioni obbligatorie e facoltative, si consiglia di gestirle tramite differenti fornitori di documenti e di configurare passaggi distinti nel processo di registrazione fiscale per quei fornitori. Il parametro **Continua in caso di errore** deve essere abilitato per qualsiasi passaggio correlato alla registrazione fiscale facoltativa. Per ulteriori informazioni su come impostare i parametri di gestione degli errori, vedere [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
+### <a name="manually-running-fiscal-registration"></a>Esecuzione manuale della registrazione fiscale
+
+Se la registrazione fiscale di una transazione o di un evento è stata posticipata dopo un errore (ad esempio se l'operatore ha selezionato **Annulla** nella finestra di dialogo di gestione degli errori), è possibile rieseguire manualmente la registrazione fiscale invocando un'operazione corrispondente. Per ulteriori dettagli, vedere [Abilitare l'esecuzione manuale della registrazione fiscale posticipata](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="fiscal-registration-health-check"></a>Verifica integrità della registrazione fiscale
+
+La procedura di verifica integrità per le registrazioni fiscali verifica la disponibilità del dispositivo o del servizio fiscale quando si verificano specifici eventi. Se la registrazione fiscale non può essere completata sul momento, l'operatore viene avvisato in anticipo.
+
+Il POS esegue la verifica integrità quando si verificano i seguenti eventi:
+
+- Viene aperta una nuova transazione.
+- Viene richiamata una transazione sospesa.
+- Viene finalizzata una transazione di vendita o reso.
+
+Se la verifica integrità non riesce, il POS visualizza la finestra di dialogo della verifica integrità. Questa finestra di dialogo fornisce i pulsanti seguenti:
+
+- **OK** - Questo pulsante consente all'operatore di ignorare l'errore della verifica integrità e di continuare a elaborare l'operazione. Gli operatori possono selezionare questo pulsante solo se l'autorizzazione **Consenti di ignorare l'errore di verifica integrità** è attivata.
+- **Annulla** - Se l'operatore seleziona questo pulsante, il POS annulla l'ultima azione (ad esempio un articolo non viene aggiunto a una nuova transazione).
+
+> [!NOTE]
+> La verifica integrità viene eseguita solo se l'operazione corrente richiede la registrazione fiscale e se il parametro **Continua in caso di errore** è disabilitata per il passaggio corrente del processo di registrazione fiscale. Per ulteriori informazioni, vedere [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Archiviazione della risposta fiscale nella transazione fiscale
 
 Quando la registrazione fiscale di una transazione o di un evento ha esito positivo, una transazione fiscale viene creata nel database del canale e collegata alla transazione o all'evento originale. Analogamente, se l'opzione **Ignora** o **Contrassegna come registrato** è selezionata per una registrazione fiscale non riuscita, queste informazioni vengono archiviate in una transazione fiscale. Una transazione fiscale include la risposta fiscale del dispositivo o del servizio fiscale. Se il processo di registrazione fiscale comporta varie fasi, una transazione fiscale viene creata per ogni fase del processo che ha generato una registrazione riuscita o non riuscita.
 
 Le transazioni fiscali vengono trasferite a Retail Headquarters dal *processo P*, insieme alle transazioni di vendita al dettaglio. Nella scheda Dettaglio **Transazioni fiscali** della pagina **Transazioni punto vendita al dettaglio**, è possibile visualizzare le transazioni fiscali collegate alle transazioni di vendita al dettaglio.
-
 
 Una transazione fiscale archivia i seguenti dettagli:
 
@@ -111,10 +136,11 @@ I seguenti esempi di integrazione fiscale sono attualmente disponibili nel Retai
 
 - [Esempio di integrazione di stampante fiscale per l'Italia](emea-ita-fpi-sample.md)
 - [Esempio di integrazione di stampante fiscale per la Polonia](emea-pol-fpi-sample.md)
+- [Esempio di integrazione del servizio di registrazione fiscale per l'Austria](emea-aut-fi-sample.md)
+- [Esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca](emea-cze-fi-sample.md)
 
 La seguente funzionalità di integrazione fiscale è disponibile anche in Retail SDK ma attualmente non utilizza il framework di integrazione fiscale. La migrazione di questa funzionalità al framework di integrazione fiscale è prevista negli aggiornamenti successivi.
 
 - [Firma digitale per la Francia](emea-fra-cash-registers.md)
 - [Firma digitale per la Norvegia](emea-nor-cash-registers.md)
 - [Esempio di integrazione di un'unità di controllo per la Svezia](./retail-sdk-control-unit-sample.md)
-

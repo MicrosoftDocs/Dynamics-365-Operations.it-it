@@ -3,7 +3,7 @@ title: Delegare elementi di lavoro in un flusso di lavoro
 description: Se si prevede di restare assenti dall'ufficio o di non essere disponibili per intervenire su alcuni elementi di lavoro, è possibile delegare o riassegnare i propri elementi di lavoro ad altri utenti.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346251"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976783"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Delegare elementi di lavoro in un flusso di lavoro
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Se si prevede di restare assenti dall'ufficio o di non essere disponibili per intervenire su alcuni elementi di lavoro, è possibile delegare o riassegnare i propri elementi di lavoro ad altri utenti. La procedura consente di configurare il sistema in modo da delegare automaticamente gli elementi di lavoro a un altro utente.
+## <a name="manually-delegate-a-work-item"></a>Delegare manualmente un elemento di lavoro
 
+Per delegare un singolo elemento di lavoro, selezionare l'opzione **Delega** nel menu **Flusso di lavoro** e immettere il nome dell'utente da delegare con un commento. In questo modo si riassegnerà l'elemento di lavoro a tale utente di modo che possa completarlo.
 
+## <a name="automatically-delegate-work-items"></a>Delegare automaticamente elementi di lavoro
 
-La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
+Se si prevede di restare assenti dall'ufficio o di non essere disponibili per intervenire sugli elementi di lavoro per un periodo di tempo, è possibile delegare automaticamente i nuovi elementi di lavoro ad altri utenti utilizzando la pagina **Opzioni utente**.
 
-
-## <a name="set-up-automatic-delegation"></a>Impostare la delega automatica
+### <a name="set-up-automatic-delegation"></a>Impostare la delega automatica
 1. Passare a Comune > Impostazioni > Opzioni utente.
 2. Fare clic sulla scheda Flusso di lavoro.
     * Assicurarsi che la sezione Delega sia espansa.    Per configurare il sistema in modo da delegare automaticamente gli elementi di lavoro ad altri utenti, è necessario creare regole di delega, che specificano il momento in cui determinati tipi di elementi di lavoro vengono delegati. Per creare una regola di delega, completare i passaggi seguenti:  

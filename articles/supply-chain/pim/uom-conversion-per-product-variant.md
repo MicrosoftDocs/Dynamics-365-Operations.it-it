@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: a47f705976b7a5b34492294e28aa8cd47ea38825
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
+ms.lasthandoff: 03/22/2019
 ms.locfileid: "345929"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversione di unità per varianti prodotto
@@ -92,4 +92,4 @@ Le varianti prodotto rilasciato S, M e L hanno la stessa conversione di unità t
 
 Se un prodotto include molte varianti prodotto con differenti conversioni di unità, è consigliabile esportare le conversioni di unità dalla pagina **Conversione unità** in un foglio di calcolo di Excel, aggiornare le conversioni e quindi pubblicarle di nuovo in Finance and Operations.
 
-L'opzione per esportare in Excel e pubblicare di nuovo le modifiche in Finance and Operations viene abilitata mediante la voce di menu **Apri in Microsoft Office** nel riquadro azioni della pagina **Conversione unità**.
+L'opzione per esportare in Excel e pubblicare di nuovo le modifiche in Finance and Operations viene abilitata mediante la voce di menu **Apri in Microsoft office** nel riquadro azioni della pagina **Conversione unità**.
