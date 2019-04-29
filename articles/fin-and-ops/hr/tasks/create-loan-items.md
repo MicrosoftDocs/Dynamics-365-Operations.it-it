@@ -1,7 +1,7 @@
 ---
 title: Crea articoli prestito
 description: Gli articoli prestito sono record che consentono di tenere traccia degli articoli fisici, ad esempio telefoni o computer, che la società presta ai lavoratori.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,52 +10,52 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e17005bda302c58f5a6560fe9c4eda04e918c92f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75b2f17eb41ead7422276f72429eb6ede2ef4759
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341835"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856233"
 ---
-# <a name="create-loan-items"></a><span data-ttu-id="363ee-103">Crea articoli prestito</span><span class="sxs-lookup"><span data-stu-id="363ee-103">Create loan items</span></span>
+# <a name="create-loan-items"></a><span data-ttu-id="6403c-103">Crea articoli prestito</span><span class="sxs-lookup"><span data-stu-id="6403c-103">Create loan items</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="363ee-104">Gli articoli prestito sono record che consentono di tenere traccia degli articoli fisici, ad esempio telefoni o computer, che la società presta ai lavoratori.</span><span class="sxs-lookup"><span data-stu-id="363ee-104">Loan items are records that help you track physical items, such as phones or computers, that your company lends to workers.</span></span> <span data-ttu-id="363ee-105">Ogni articolo fisico deve avere un articolo prestito corrispondente.</span><span class="sxs-lookup"><span data-stu-id="363ee-105">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="363ee-106">Per ciascun record articolo prestito dovranno essere descritti la tipologia, il responsabile del prestito e la durata in giorni consentita per il prestito.</span><span class="sxs-lookup"><span data-stu-id="363ee-106">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can be on loan.</span></span> <span data-ttu-id="363ee-107">È possibile creare più articoli prestito, ad esempio chiavi, schede di accesso o divise, contemporaneamente.</span><span class="sxs-lookup"><span data-stu-id="363ee-107">You can create multiple loan items, such as keys, access cards, or uniforms, at the same time.</span></span> <span data-ttu-id="363ee-108">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="363ee-108">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="6403c-104">Gli articoli prestito sono record che consentono di tenere traccia degli articoli fisici, ad esempio telefoni o computer, che la società presta ai lavoratori.</span><span class="sxs-lookup"><span data-stu-id="6403c-104">Loan items are records that help you track physical items, such as phones or computers, that your company lends to workers.</span></span> <span data-ttu-id="6403c-105">Ogni articolo fisico deve avere un articolo prestito corrispondente.</span><span class="sxs-lookup"><span data-stu-id="6403c-105">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="6403c-106">Per ciascun record articolo prestito dovranno essere descritti la tipologia, il responsabile del prestito e la durata in giorni consentita per il prestito.</span><span class="sxs-lookup"><span data-stu-id="6403c-106">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can be on loan.</span></span> <span data-ttu-id="6403c-107">È possibile creare più articoli prestito, ad esempio chiavi, schede di accesso o divise, contemporaneamente.</span><span class="sxs-lookup"><span data-stu-id="6403c-107">You can create multiple loan items, such as keys, access cards, or uniforms, at the same time.</span></span> <span data-ttu-id="6403c-108">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="6403c-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-loan-types"></a><span data-ttu-id="363ee-109">Creare Tipi di prestito</span><span class="sxs-lookup"><span data-stu-id="363ee-109">Create Loan types</span></span>
-1. <span data-ttu-id="363ee-110">Andare a Risorse umane > Lavoratori > Articoli prestito > Tipi di prestito.</span><span class="sxs-lookup"><span data-stu-id="363ee-110">Go to Human resources > Workers > Loan items > Loan types.</span></span>
-2. <span data-ttu-id="363ee-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="363ee-111">Click New.</span></span>
-3. <span data-ttu-id="363ee-112">Digitare un valore nel campo Tipo di prestito.</span><span class="sxs-lookup"><span data-stu-id="363ee-112">In the Loan type field, type a value.</span></span>
-4. <span data-ttu-id="363ee-113">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="363ee-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="363ee-114">Immettere il numero di giorni in cui gli articoli assegnati a questo tipo di prestito possono essere scaduti.</span><span class="sxs-lookup"><span data-stu-id="363ee-114">Enter the number of days that items assigned to this loan type can be overdue.</span></span> 
-6. <span data-ttu-id="363ee-115">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="363ee-115">Click Save.</span></span>
-7. <span data-ttu-id="363ee-116">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="363ee-116">Close the page.</span></span>
-8. <span data-ttu-id="363ee-117">Aggiorna la pagina.</span><span class="sxs-lookup"><span data-stu-id="363ee-117">Refresh the page.</span></span>
+## <a name="create-loan-types"></a><span data-ttu-id="6403c-109">Creare Tipi di prestito</span><span class="sxs-lookup"><span data-stu-id="6403c-109">Create Loan types</span></span>
+1. <span data-ttu-id="6403c-110">Andare a Risorse umane > Lavoratori > Articoli prestito > Tipi di prestito.</span><span class="sxs-lookup"><span data-stu-id="6403c-110">Go to Human resources > Workers > Loan items > Loan types.</span></span>
+2. <span data-ttu-id="6403c-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="6403c-111">Click New.</span></span>
+3. <span data-ttu-id="6403c-112">Digitare un valore nel campo Tipo di prestito.</span><span class="sxs-lookup"><span data-stu-id="6403c-112">In the Loan type field, type a value.</span></span>
+4. <span data-ttu-id="6403c-113">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="6403c-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="6403c-114">Immettere il numero di giorni in cui gli articoli assegnati a questo tipo di prestito possono essere scaduti.</span><span class="sxs-lookup"><span data-stu-id="6403c-114">Enter the number of days that items assigned to this loan type can be overdue.</span></span> 
+6. <span data-ttu-id="6403c-115">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="6403c-115">Click Save.</span></span>
+7. <span data-ttu-id="6403c-116">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="6403c-116">Close the page.</span></span>
+8. <span data-ttu-id="6403c-117">Aggiorna la pagina.</span><span class="sxs-lookup"><span data-stu-id="6403c-117">Refresh the page.</span></span>
 
-## <a name="create-loan-items"></a><span data-ttu-id="363ee-118">Creare articoli prestito</span><span class="sxs-lookup"><span data-stu-id="363ee-118">Create Loan items</span></span>
-1. <span data-ttu-id="363ee-119">Andare a Risorse umane > Lavoratori > Articoli prestito > Articoli prestito.</span><span class="sxs-lookup"><span data-stu-id="363ee-119">Go to Human resources > Workers > Loan items > Loan items.</span></span>
-2. <span data-ttu-id="363ee-120">Fare clic su Crea articoli prestito.</span><span class="sxs-lookup"><span data-stu-id="363ee-120">Click Create loan items.</span></span>
-3. <span data-ttu-id="363ee-121">Nel campo Qtà immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="363ee-121">In the Qty. field, enter a number.</span></span>
-4. <span data-ttu-id="363ee-122">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="363ee-122">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="363ee-123">Nel campo Tipo di prestito fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="363ee-123">In the Loan type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="363ee-124">Trovare e selezionare il record desiderato nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="363ee-124">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="363ee-125">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="363ee-125">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="363ee-126">Immettere il numero di giorni per cui l'articolo può rimanere in prestito.</span><span class="sxs-lookup"><span data-stu-id="363ee-126">Enter the number of days the item can be on loan.</span></span>
-    * <span data-ttu-id="363ee-127">Il valore predefinito per il campo Prevista restituzione nella pagina Attrezzature concesse in prestito viene calcolato in base alla data corrente a cui viene aggiunto questo numero.</span><span class="sxs-lookup"><span data-stu-id="363ee-127">The default value for the Planned return field on the Loaned equipment page is calculated as the current date plus this number.</span></span>  
-9. <span data-ttu-id="363ee-128">Nel campo Incaricato fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="363ee-128">In the Person in charge field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="363ee-129">Fare clic su Seleziona.</span><span class="sxs-lookup"><span data-stu-id="363ee-129">Click Select.</span></span>
-11. <span data-ttu-id="363ee-130">Nel campo Valore iniziale immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="363ee-130">In the Starting value field, enter a number.</span></span>
-12. <span data-ttu-id="363ee-131">Nel campo Intervallo immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="363ee-131">In the Interval field, enter a number.</span></span>
-13. <span data-ttu-id="363ee-132">Digitare un valore nel campo Formato.</span><span class="sxs-lookup"><span data-stu-id="363ee-132">In the Format field, type a value.</span></span>
-    * <span data-ttu-id="363ee-133">Se ad esempio il numero iniziale per un articolo in prestito è 10, immettere due simboli di numero nel campo Formato.</span><span class="sxs-lookup"><span data-stu-id="363ee-133">For example, if the starting number for a loan item is 10, enter two number symbols symbols in the Format field.</span></span>  
-14. <span data-ttu-id="363ee-134">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="363ee-134">Click OK.</span></span>
-15. <span data-ttu-id="363ee-135">Aggiorna la pagina.</span><span class="sxs-lookup"><span data-stu-id="363ee-135">Refresh the page.</span></span>
+## <a name="create-loan-items"></a><span data-ttu-id="6403c-118">Creare articoli prestito</span><span class="sxs-lookup"><span data-stu-id="6403c-118">Create Loan items</span></span>
+1. <span data-ttu-id="6403c-119">Andare a Risorse umane > Lavoratori > Articoli prestito > Articoli prestito.</span><span class="sxs-lookup"><span data-stu-id="6403c-119">Go to Human resources > Workers > Loan items > Loan items.</span></span>
+2. <span data-ttu-id="6403c-120">Fare clic su Crea articoli prestito.</span><span class="sxs-lookup"><span data-stu-id="6403c-120">Click Create loan items.</span></span>
+3. <span data-ttu-id="6403c-121">Nel campo Qtà immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="6403c-121">In the Qty. field, enter a number.</span></span>
+4. <span data-ttu-id="6403c-122">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="6403c-122">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="6403c-123">Nel campo Tipo di prestito fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="6403c-123">In the Loan type field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="6403c-124">Trovare e selezionare il record desiderato nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="6403c-124">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="6403c-125">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="6403c-125">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="6403c-126">Immettere il numero di giorni per cui l'articolo può rimanere in prestito.</span><span class="sxs-lookup"><span data-stu-id="6403c-126">Enter the number of days the item can be on loan.</span></span>
+    * <span data-ttu-id="6403c-127">Il valore predefinito per il campo Prevista restituzione nella pagina Attrezzature concesse in prestito viene calcolato in base alla data corrente a cui viene aggiunto questo numero.</span><span class="sxs-lookup"><span data-stu-id="6403c-127">The default value for the Planned return field on the Loaned equipment page is calculated as the current date plus this number.</span></span>  
+9. <span data-ttu-id="6403c-128">Nel campo Incaricato fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="6403c-128">In the Person in charge field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="6403c-129">Fare clic su Seleziona.</span><span class="sxs-lookup"><span data-stu-id="6403c-129">Click Select.</span></span>
+11. <span data-ttu-id="6403c-130">Nel campo Valore iniziale immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="6403c-130">In the Starting value field, enter a number.</span></span>
+12. <span data-ttu-id="6403c-131">Nel campo Intervallo immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="6403c-131">In the Interval field, enter a number.</span></span>
+13. <span data-ttu-id="6403c-132">Digitare un valore nel campo Formato.</span><span class="sxs-lookup"><span data-stu-id="6403c-132">In the Format field, type a value.</span></span>
+    * <span data-ttu-id="6403c-133">Se ad esempio il numero iniziale per un articolo in prestito è 10, immettere due simboli di numero nel campo Formato.</span><span class="sxs-lookup"><span data-stu-id="6403c-133">For example, if the starting number for a loan item is 10, enter two number symbols symbols in the Format field.</span></span>  
+14. <span data-ttu-id="6403c-134">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="6403c-134">Click OK.</span></span>
+15. <span data-ttu-id="6403c-135">Aggiorna la pagina.</span><span class="sxs-lookup"><span data-stu-id="6403c-135">Refresh the page.</span></span>
 
