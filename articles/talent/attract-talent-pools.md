@@ -1,29 +1,29 @@
 ---
 title: Esaminare i candidati utilizzando i pool di talenti
 description: In questo argomento viene descritto come creare e configurare pool di talenti in Attract.
-author: ''
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/22/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304991"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949346"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Esaminare i candidati utilizzando i pool di talenti
 
@@ -34,7 +34,7 @@ I selezionatori e responsabili delle assunzioni possono organizzare i candidati 
 
 ## <a name="create-and-share-a-talent-pool"></a>Creare e condividere un pool di talenti
 
-Qualsiasi utente con il ruolo di selezionatore, responsabile assunzioni o amministratore di Attract possono creare pool di talenti. Il proprietario di un pool di talenti può inoltre condividere il pool con altri utenti in modo che gruppi di utenti, soprattutto selezionatori, possano esaminare un pool comune di candidati.
+Qualsiasi utente con il ruolo di selezionatore, responsabile delle assunzioni o amministratore di Attract possono creare pool di talenti. Il proprietario di un pool di talenti può inoltre condividere il pool con altri utenti in modo che gruppi di utenti, soprattutto selezionatori, possano esaminare un pool comune di candidati.
 
 I contributori in un pool di talenti possono visualizzare l'elenco dei candidati nel pool. Possono inoltre aggiungere candidati al pool o rimuovere i candidati.
 
@@ -44,7 +44,7 @@ Utilizzare la procedura riportata di seguito per creare e condividere un pool di
 
     Scheda **Pool di talenti personali** mostra tutti i pool di talenti a cui si ha accesso, con i dettagli relativi a ciascuno. I dettagli includono il proprietario del pool e il numero dei candidati in esso.
 
-1. In in alto a destra, scegliere **+ Nuovo** per aprire la finestra di dialogo **Crea pool di talenti**.
+1. Nella parte superiore destra della pagina, scegliere **Nuovo** per aprire la finestra di dialogo **Crea pool di talenti**.
 1. Immettere un nome univoco per il pool di talenti.
 1. Per aggiungere persone come contributori nel pool, individuare i relativi nomi utilizzando lo strumento di selezione persone e quindi aggiungerli all'elenco. È possibile condividere un pool di talenti solo con utenti con il ruolo di selezionatore, responsabile assunzioni o amministratore di Attract.
 1. Selezionare **Aggiungi** per creare il pool di talenti.
@@ -78,26 +78,35 @@ Il proprietario e i contributori nel pool di talenti possono aggiungere candidat
 
 ## <a name="search-and-view-candidate-profiles"></a>Cercare e visualizzare profili di candidati
 
-Gli utenti di un pool di talenti possono visualizzare il profilo di un candidato, le relative informazioni di LinkedIn, i documenti correlati, o l'intero storico delle domande di lavoro del candidato. È inoltre possibile cercare nell'intero database dei candidati un candidato che ha fatto domanda per qualsiasi posizione nell'organizzazione o è stato aggiunto a qualsiasi pool di talenti.
+> [!NOTE] 
+> Questa funzionalità è attualmente in anteprima. Se si desidera provarla, è necessario [attivarla nelle impostazioni di amministrazione di Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
 
-1. Utilizzare il campo di ricerca disponibile nella parte superiore della scheda **Pool di talenti personali** per cercare nell'intero database di candidati.
-1. Cercare tra diversi attributi del profilo. Selezionare la categoria di attributi di ricerca, creare una query di ricerca e quindi selezionare il pulsante freccia destra (**-\>**) per eseguire la ricerca.
+I pool di talenti consentono di visualizzare il profilo di un candidato, le informazioni di LinkedIn, i documenti correlati e lo storico dell'applicazione. È possibile cercare nell'intero database tutti i candidati aggiunti a qualsiasi pool di talenti, inclusi i candidati chiusi e attivi.
 
-    È possibile cercare i candidati in base al relativo nome, l'organizzazione per cui lavorano, le competenze per cui sono stati contrassegnati, lo storico del percorso formativo, la posizione corrente, o il titolo raggiunto, se queste informazioni vengono incluse nel profilo.
+>[!NOTE]
+> Quando si aggiungono nuovi candidati, l'indicizzazione degli stessi per la ricerca può richiedere fino a 15 minuti.
 
-    È inoltre possibile creare una query di ricerca che utilizza due o più di questi attributi come criteri. Combinare i criteri tramite un operatore **and**.
+Con l'esperienza di ricerca migliorata, è possibile eseguire la ricerca in tutti i documenti dei candidati e filtrare per medaglie d'argento, origini, competenze, formazione e altro. Nelle versioni precedenti, è necessario specificare l'entità in cui si desidera effettuare la ricerca. Attract può ora effettuare la ricerca nei campi correlati ai candidati e classificare i risultati.
 
-    I candidati che corrispondono alla query di ricerca sono elencati nei risultati della ricerca.
+1. Per avviare una nuova ricerca nel database dei candidati, immettere il testo che si desidera cercare nella casella di ricerca della scheda **Pool di talenti**. 
 
-1. Per limitare i risultati, è possibile aggiornare la query di ricerca utilizzando il campo di ricerca nella parte superiore.
+È possibile digitare il nome del candidato o qualsiasi attributo che si intende cercare. Per separare gli attributi, immettere uno spazio.
 
-    In alternativa, utilizzare l'elenco dei filtri avanzati a destra. Questi filtri avanzati vengono recuperati in modo dinamico, in base ai risultati della ricerca.
+È possibile limitare i risultati modificando la query di ricerca o utilizzando i filtri avanzati nella parte sinistra della pagina.
 
-    I risultati della ricerca mostrano le prime 20 competenze, scuole, organizzazioni, così via, presenti più frequentemente nell'elenco dei candidati. È possibile aggiungere più filtri per uno di questi attributi per limitare i risultati della ricerca anche di più.
+I risultati della ricerca includono evidenziazioni per i vari attributi corrispondenti alla query di ricerca. Selezionare qualsiasi candidato per visualizzarne il profilo.
 
-1. Dopo aver identificato un candidato, selezionare la riga per il candidato per visualizzarne il profilo.
+### <a name="syntax-highlights"></a>Evidenziazioni della sintassi 
 
-Tutti gli utenti dispongono di una visualizzazione condivisa dei profili dei candidati. Selezionare la riga relativa a un candidato in un gruppo di risultati della ricerca o un pool di talenti per visualizzarne il profilo. Nella scheda **Profilo** vengono visualizzate le informazioni sulle competenze, sulle esperienze di lavoro e sulla formazione che il candidato ha aggiornato dal portale di avanzamento professionale.
+| Operatore | Uso                                                      | Esempio              |
+|----------|------------------------------------------------------------|----------------------|
+| \*       | Cerca sottostringhe; può essere utilizzato per restituire tutti i record | Input: Mi\* <br></br> Risultato: tutti i record contenenti campi che iniziano con "Mi" ad esempio Microsoft, microsistemi, Midtown Enterprises o Middleton <br></br>Input: \* <br></br> Risultato: tutti i record nel database |
+| “”       | Cerca una corrispondenza esatta                                | Input: “Microsoft” <br></br> Risultato: tutti i record contenenti “Microsoft”                    |
+
+>[!WARNING]
+> Non disattivare la ricerca per pertinenza per l'istanza di Common Data Service. Questa operazione disabiliterà l'esperienza di ricerca in Attract.
+
+Tutti gli utenti dispongono di una visualizzazione condivisa dei profili dei candidati. Nella scheda **Profilo** vengono visualizzate le informazioni su competenze, esperienze di lavoro e formazione che il candidato ha fornito nelle domande di lavoro utilizzando il portale di avanzamento professionale.
 
 - È possibile visualizzare i dettagli di contatto per il candidato. È inoltre possibile modificare e aggiornare informazioni come necessario tramite il pulsante **Modifica dettagli**.
 
@@ -109,7 +118,7 @@ Tutti gli utenti dispongono di una visualizzazione condivisa dei profili dei can
 
     Per visualizzare un documento, selezionare il nome del documento nell'elenco dei documenti. È possibile visualizzare i documenti di Microsoft Word nella domanda di lavoro utilizzando Microsoft Office 365. È inoltre possibile scaricare i documenti nel computer locale tramite l'opzione **Download** per ogni documento.
 
-- Nella scheda **LinkedIn** vengono visualizzate le informazioni LinkedIn del candidato. Per utilizzare questa scheda, è necessario connettere l'account LinkedIn nelle impostazioni utente e stabilire la connessione a LinkedIn Recruiter nel tuo ambiente. Per ulteriori informazioni, vedere [Cercare candidato con LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- Nella scheda **LinkedIn** vengono visualizzate le informazioni LinkedIn del candidato. Per utilizzare questa scheda, è necessario connettere l'account LinkedIn nelle impostazioni utente e stabilire la connessione a LinkedIn Recruiter nel proprio ambiente. Per ulteriori informazioni, vedere [Cercare candidati con LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Aggiungere candidati da un pool di talenti a una mansione
 
@@ -117,7 +126,7 @@ Dai risultati della ricerca o un pool di talenti, è possibile inserire un candi
 
 1. Individuare il candidato tramite l'opzione di ricerca e aprirne il profilo. In alternativa, aprire il pool di talenti nella scheda **Pool di talenti personali**, cercare il candidato nel pool di talenti e infine aprirne il profilo.
 
-1. Nella pagina del profilo del candidato, selezionare **+ Aggiungi al processo** nell'angolo superiore destro. 
+1. Nella pagina del profilo del candidato, selezionare **Aggiungi al processo** nell'angolo superiore destro. 
      
      Un elenco delle mansioni al cui team di assunzione si appartiene, come selezionatore o responsabile assunzioni, viene visualizzato.
 

@@ -1,29 +1,29 @@
 ---
 title: Suggerimenti intelligenti
 description: In questo argomento viene descritto come l'apprendimento automatico può essere utilizzato per fornire suggerimenti per mansioni e candidati a mansioni.
-author: josaw
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305007"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896559"
 ---
 # <a name="intelligent-recommendations"></a>Suggerimenti intelligenti
 
@@ -32,8 +32,9 @@ ms.locfileid: "305007"
 L'apprendimento automatico può aiutare i selezionatori e i responsabili assunzioni a identificare i candidati migliori per una posizione. Può anche consentire ai prospect di individuare la posizione più appropriata per il proprio profilo e interessi. Man mano che si usano queste funzionalità e viene fornito feedback, i suggerimenti migliorano.
 
 > [!NOTE] 
-> - Le funzionalità di suggerimenti intelligenti sono disponibili solo con il componente aggiuntivo per l'assunzione a livello globale di Attract.
-> - Per attivare le funzionalità di suggerimento per candidati e mansioni, un amministratore deve attivare le relative opzioni di anteprima. Nell'Interfaccia di amministrazione, nella scheda **Gestione funzionalità**, verificare che l'opzione **Funzionalità di anteprima** sia impostata su **Attivata**. Quindi verificare che le singole opzioni **Suggerimento candidato** e **Suggerimento mansione** siano impostate su **Attivata**.
+> - Le funzionalità di suggerimenti intelligenti sono disponibili solo con il [componente aggiuntivo per l'assunzione a livello globale](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - La funzionalità indicata in questo argomento è disponibile come parte di un rilascio di verifica di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per utilizzare questa funzionalità, chiedere a un amministratore di abilitarla utilizzando **Impostazioni di amministrazione** in Attract. Impostare **Suggerimento candidato**, **Suggerimento posizione** e **Suggerimento prospect** su **Attivato**. Per ulteriori informazioni, vedere [Accesso alle funzionalità di anteprima in Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+
 
 ## <a name="candidate-recommendations"></a>Suggerimenti candidato
 
@@ -43,4 +44,15 @@ Per qualsiasi candidato suggerito, è possibile selezionare **Visualizza candida
 
 ## <a name="job-recommendations"></a>Suggerimenti mansione 
 
-Quando un dipendente potenziale usa il sito di avanzamento professionale per fare domanda per una mansione, altre posizioni aperte nell'organizzazione vengono suggerite. Questi suggerimenti sono basati sulle passate domande di lavoro del prospect, sul suo curriculum o profilo. Di conseguenza, i suggerimenti mansione aiutano i prospect a identificare rapidamente le mansioni pià adatte a loro. I suggerimenti mansione vengono forniti ai prospect se più di dieci mansioni vengono pubblicate nel sito di avanzamento professionale. I prospect possono aprire i dettagli di un annuncio di mansione nella scheda di suggerimento. Possono inoltre fornire un riscontro su un suggerimento per aiutare a migliorare i suggerimenti futuri.
+Quando un dipendente potenziale usa il sito di avanzamento professionale per fare domanda per una mansione, Attract consiglia altre posizioni aperte nell'organizzazione. Questi suggerimenti sono basati sulle passate domande di lavoro e sul curriculum o sul profilo del prospect. Di conseguenza, i suggerimenti mansione aiutano i prospect a identificare rapidamente le mansioni pià adatte a loro. I suggerimenti mansione vengono forniti ai prospect se più di dieci mansioni vengono pubblicate nel sito di avanzamento professionale. I prospect possono aprire i dettagli di un annuncio di mansione nella scheda di suggerimento. Possono inoltre fornire un riscontro su un suggerimento per aiutare a migliorare i suggerimenti futuri.
+
+## <a name="prospect-recommendations"></a>Suggerimenti prospect 
+
+Quando una nuova posizione diventa disponibile, esaminare tutti i candidati passati e l'intera rete di competenze può richiedere tempo. Per utilizzare Attract a questo scopo, è possibile utilizzare algoritmi di machine learning intelligenti. Ciò significa che Attract esamina tutti i candidati e suggerisce quelli che sono una buona corrispondenza non appena si crea la mansione. Per visualizzare questi suggerimenti, abilitare la fase **Prospect** per la mansione. Attract può richiedere fino a un minuto per esaminare l'intero database di candidati per proporre suggerimenti.
+
+I suggerimenti sono visualizzati come schede nella scheda **Prospect** di qualsiasi mansione per la quale è stata abilitata la fase **Prospect**. Queste schede elencano le competenze nel profilo del prospect, nonché le informazioni sul titolo di studio. Se si trova un suggerimento appropriato, è possibile aggiungere il candidato come prospect per quella mansione.
+
+> [!NOTE]
+> Se di recente si è iniziato a utilizzare Attract, sarà necessario attendere di avere 10 o più candidati che hanno profili o curriculum completi prima di poter utilizzare questa funzionalità.
+
+Per evitare potenziali problemi nei suggerimenti, Attract esamina solo i profili per competenze, qualifiche e altre parole chiave che corrispondono alla descrizione della mansione. Inoltre, Attract rimuove informazioni di identificazione personale dai profili dei candidati prima della valutazione.

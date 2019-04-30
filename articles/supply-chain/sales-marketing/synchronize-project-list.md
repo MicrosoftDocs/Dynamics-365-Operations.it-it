@@ -3,7 +3,7 @@ title: Sincronizzare l'elenco di progetti da Finance and Operations a Field Serv
 description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare progetti da Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312510"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842606"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Sincronizzare l'elenco dei progetti da Finance and Operations a Field Service
 
@@ -38,13 +38,13 @@ Questo argomento descrive i modelli e le attività sottostanti che vengono utili
 Il seguente modello e le attività sottostanti sono utilizzati per sincronizzare progetti da Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
 
 **Modello in Integrazione dati**
-- Progetti (da Finance and Operations a Field Service)
+- Progetti (da Fin and Ops a Field Service)
 
 **Attività nel progetto di Integrazione dati**
 - Progetti
 
 Le attività di sincronizzazione seguenti sono necessarie prima della sincronizzazione dell'elenco di progetti:
-- Conti (da Sales a Finance and Operations) 
+- Conti (da Sales a Fin and Ops) 
 
 ## <a name="entity-set"></a>Insieme di entità
 | Field Service           | Finance and Operations  |
@@ -64,6 +64,6 @@ Abilitare il rilevamento delle modifiche per progetti entità di dati.
 ## <a name="template-mapping-in-data-integration"></a>Mapping dei modelli in Integrazione dati
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>Progetti (da Finance and Operations a Field Service): Progetti
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>Progetti (da Fin and Ops a Field Service): Progetti
 
 [![Mapping dei modelli in Integrazione dati](./media/FSProject1.png)](./media/FSProject1.png)

@@ -1,30 +1,30 @@
 ---
 title: Creazione, approvazione e pubblicazione di annunci di mansioni in Attract
 description: In questo argomento sono descritti gli elementi di una mansione in Attract. Viene illustrato anche come creare una mansione.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772813"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969351"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Creazione, approvazione e pubblicazione di annunci di mansioni in Attract
 
@@ -44,7 +44,7 @@ La scheda **Dettagli mansione** include i dettagli relativi alle responsabilità
 
 Per impostazione predefinita, il campo **Numero di opportunità di lavoro** è impostato su **1**. È tuttavia possibile modificare tale valore. Se un'offerta è stata preparata per una mansione, il valore del campo **Numero di opportunità di lavoro disponibili** viene ridotto.
 
-Se la gestione della posizione è stata abilitata nell'Interfaccia di amministrazione, la ricerca **Aggiorna posizioni** è disponibile. La ricerca legge l'entità JobPosition nel Common Data Service per le app e restituisce un elenco di posizioni che possono essere selezionate per la mansione. Se il numero di posizioni selezionato supera il numero di posizioni aperte, viene visualizzato un avviso. Si riceve un avviso anche se una posizione viene utilizzata per più mansioni.
+Se la gestione della posizione è stata abilitata nell'Interfaccia di amministrazione, la ricerca **Aggiorna posizioni** è disponibile. La ricerca legge l'entità JobPosition nel Common Data Service e restituisce un elenco di posizioni che possono essere selezionate per la mansione. Se il numero di posizioni selezionato supera il numero di posizioni aperte, viene visualizzato un avviso. Si riceve un avviso anche se una posizione viene utilizzata per più mansioni.
 
 > [!NOTE]
 > La gestione delle posizioni è disponibile con il componente aggiuntivo per l'assunzione a livello globale.
@@ -74,9 +74,7 @@ Per ulteriori informazioni sulle attività che possono essere aggiunti al proces
 
 ## <a name="postings"></a>Registrazioni
 
-Dopo che una mansione viene attivata, può essere pubblicata. Solo i selezionatori e gli amministratori possono pubblicare annunci di mansioni. La mansione può essere pubblicata in Talent - Avanzamento professionale (un sito di avanzamento professionale di Microsoft Dynamics 365 for Talent) o su LinkedIn. 
-
-Il team di Attract opera continuamente per collaborare con aggregatori di bacheche di annunci lavorativi. Questo elenco si espanderà nel tempo.
+Dopo che una mansione viene attivata, può essere pubblicata. Solo i selezionatori e gli amministratori possono pubblicare annunci di mansioni. La mansione può essere pubblicata in Talent - Avanzamento professionale (un sito di avanzamento professionale di Microsoft Dynamics 365 for Talent) o su LinkedIn. Il team di Attract opera continuamente per collaborare con aggregatori di bacheche di annunci lavorativi. Questo elenco si espanderà nel tempo. Quando un processo viene registrato solo come interno, i candidati hanno bisogno di un conto ADD per visualizzare e applicare il processo. Se il processo è elencato come pubblico, i candidati possono visualizzare e applicare i processi utilizzando tutte le opzioni di autenticazione. 
 
 Per ulteriori informazioni sulla pubblicazione di annunci di mansioni, vedere [Funzionalità del sito di avanzamento professionale in Attract](career-site.md).
 
@@ -137,9 +135,14 @@ Dopo che una mansione viene salvata può essere inviata per l'approvazione. Nell
 
 Nell'elenco delle mansioni, è possibile filtrare in base agli stati delle mansioni.
 
-Le approvazioni possono essere inviate a qualsiasi utente Microsoft Azure Active Directory (Azure AD) nella società. Le approvazioni vengono inviate in parallelo a tutte le persone elencate come approvatori. Dopo che una mansione viene approvata, può essere attivata.
+Le approvazioni possono essere inviate a qualsiasi utente Microsoft Azure Active Directory (Azure AD) nella società. Le approvazioni vengono inviate in parallelo a tutte le persone elencate come approvatori. Tutti gli approvatori devono approvare il processo per poter continuare. Se un singolo approvatore rifiuta il processo, il processo avrà lo stato **Rifiutato**. Dopo che una mansione viene approvata, può essere attivata.
 
-Le Persone elencate come approvatori riceveranno una notifica in Attract per informarle che hanno un elemento da approvare. Un elemento di approvazione verrà visualizzato anche nella sezione **Assegnati all'utente** nel dashboard. Dopo che qualcuno accetta o approva una mansione, il team di assunzione riceverà una notifica. Infine, il team di assunzione riceverà una notifica quando la mansione viene approvata.
+Se un utente modifica il processo dopo l'approvazione, ma prima dell'attivazione, lo stato del processo diventerà **Bozza** e il processo deve essere nuovamente sottoposto ad approvazione. Dopo l'attivazione di un processo approvato, non è possibile modificarlo.
+
+Le persone elencate come approvatori riceveranno una notifica in Attract e un messaggio di posta elettronica per informarli che hanno un elemento da approvare.  Nel messaggio di posta elettronica, gli approvatori possono fare clic sul collegamento per aprire il processo, esaminarne i dettagli e approvarlo o rifiutarlo. Dopo che lo stato del processo diventa **Approvato** o **Rifiutato**, l'autore dell'invio verrà informato in Attract e riceverà un messaggio di posta elettronica. Inoltre, gli approvatori riceveranno un messaggio di posta elettronica se non hanno risposto alla richiesta di approvazione entro 24 ore.
+
+> [!NOTE]
+> È possibile creare modelli personalizzati per i messaggi di posta elettronica di approvazione. Per ulteriori informazioni, vedere [Creazione e gestione di modelli di e-mail](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Creare una mansione
 

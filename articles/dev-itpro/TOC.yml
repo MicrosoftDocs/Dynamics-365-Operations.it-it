@@ -278,9 +278,9 @@ items:
         href: extensibility/class-extensions.md
       - name: Estensione di classi tramite wrapping dei metodi e catena di comando
         href: extensibility/method-wrapping-coc.md
-      - name: Linee guida sulla denominazione per estensioni di modelli
+      - name: Linee guida sulla denominazione per estensioni
         href: extensibility/naming-guidelines-extensions.md
-      - name: Rilassare le restrizioni di modello per il refactoring dell'overlayering in estensioni
+      - name: Ridurre le restrizioni dei modelli per il refactoring della sovrapposizione nelle estensioni
         href: extensibility/refactoring-over-layering.md
     - name: Creazione di estensioni
       items:
@@ -354,11 +354,11 @@ items:
         href: extensibility/breaking-changes.md
   - name: Prestazioni
     items:
-    - name: Effettuare una tracciatura con Trace parser
+    - name: Effettuare tracciature con il parser di traccia
       href: perf-test/trace-trace-tutorial.md
-    - name: Test ambiente multiutente e SDK prestazioni tramite Visual Studio Online
+    - name: Performance SDK e test dell'ambiente multiutente tramite Visual Studio Online
       href: perf-test/perfsdk-tutorial.md
-    - name: Test ambiente multiutente e SDK prestazioni in ambienti locali
+    - name: Performance SDK e test dell'ambiente multiutente in ambienti locali
       href: perf-test/perfsdk-tutorial-lbd.md
     - name: Diagnosticare problemi e analizzare le prestazioni con il parser Trace
       href: perf-test/trace-parser.md
@@ -370,10 +370,32 @@ items:
       href: perf-test/testing-validation.md
     - name: Progetti di test in Visual Studio
       href: perf-test/testing-support.md
-    - name: Distribuire topologie che supportino compilazione continua e automazione test
+    - name: Distribuire topologie che supportano la compilazione continua e l'automazione dei test
       href: perf-test/continuous-build-test-automation.md
-    - name: Filtraggio di SysTest tramite attributi di metodi e classi
+    - name: Filtraggio SysTest tramite attributi di classe e metodo
       href: perf-test/systest-filtering.md
+    - name: Libreria ATL
+      href: perf-test/acceptance-test-library.md
+    - name: Concetti di navigazione
+      href: perf-test/concepts-navigation.md
+    - name: Metodi dei dati di test
+      href: perf-test/test-data-methods.md
+    - name: Entità della libreria ATL
+      href: perf-test/concepts-entities.md
+    - name: Comandi della libreria ATL
+      href: perf-test/concepts-commands.md
+    - name: Creatori nella libreria ATL
+      href: perf-test/concepts-creators.md
+    - name: Query nella libreria ATL
+      href: perf-test/concepts-queries.md
+    - name: Classi di specifica
+      href: perf-test/concepts-specifications.md
+    - name: Procedura guidata per la generazione di codice della libreria ATL
+      href: perf-test/code-generation-wizard.md
+    - name: Procedure consigliate per la libreria ATL
+      href: perf-test/atl-best-practices.md
+    - name: Domande frequenti
+      href: perf-test/atl-faq.md
   - name: Validità della data
     href: dev-tools/date-effectivity.md
   - name: Licenze ISV
@@ -445,15 +467,17 @@ items:
       href: user-interface/bidirectional-support.md
     - name: Creare le icone per i riquadri dell'area di lavoro
       href: user-interface/create-icons-workspace-tiles.md
-    - name: API pubbliche JavaScript per controlli estendibili
+    - name: API JavaScript pubbliche per controlli estendibili
       href: user-interface/public-javascript-apis.md
-    - name: Elenco di controllo per i controlli
+    - name: Elenco di verifica dei controlli
       href: user-interface/control-checklist.md
   - name: Messaggi
     items:
-    - name: Dispositivo di scorrimento e finestre di dialogo MessageBox
+    - name: Callout di funzionalità
+      href: user-interface/feature-callouts.md
+    - name: Finestre di dialogo Slider e MessageBox
       href: user-interface/slider-messagebox.md
-    - name: API per dettagli messaggio, barra dei messaggi e centro messaggi
+    - name: API per dettagli di un messaggio, barra dei messaggi e centro messaggi
       href: user-interface/messaging-api-center-bar-details.md
     - name: Domande frequenti su dettagli messaggio, barra dei messaggi e centro messaggi
       href: user-interface/messaging-user.md
@@ -918,16 +942,16 @@ items:
       href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
     - name: Applicare aggiornamenti ad ambienti cloud
       href: deployment/apply-deployable-package-system.md
-    - name: Applicare gli aggiornamenti e le estensioni ai componenti del canale Retail ospitato nel cloud
+    - name: Applicare aggiornamenti ed estensioni a componenti del canale Retail ospitato nel cloud
       href: deployment/Update-retail-channel.md
-    - name: Inizializzare i componenti del canale Retail ospitato nel cloud
+    - name: Inizializzare Retail Cloud Scale Unit
       href: deployment/Initialize-Retail-Channels.md
   - name: Distribuzione locale
     href: deployment/on-premises-deployment-landing-page.md
     items:
     - name: Opzione di distribuzione locale
       href: deployment/on-premises-overview.md
-    - name: Pianificare e prepararsi per le distribuzioni locali
+    - name: Pianificare e preparare le distribuzioni locali
       href: deployment/plan-onprem-deployment.md
     - name: Requisiti di dimensionamento hardware
       href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
@@ -1042,11 +1066,11 @@ items:
       href: migration-upgrade/delegates-migration.md
   - name: Passare a un aggiornamento recente (cloud)
     items:
-    - name: Processo per spostarsi all'ultimo aggiornamento
+    - name: Processo di spostamento all'ultimo aggiornamento
       href: migration-upgrade/upgrade-latest-update.md
-    - name: Aggiornamento di ambiente dalla versione 8.0 a 8.1
+    - name: Aggiornare gli ambienti dalla versione 8.0 alla versione 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
-    - name: Criteri del ciclo di vita del software e versioni sul cloud
+    - name: Criteri del ciclo di vita del software e versioni nel cloud
       href: migration-upgrade/versions-update-policy.md
     - name: Applicare l'ultimo aggiornamento della piattaforma agli ambienti
       href: migration-upgrade/upgrade-latest-platform-update.md
@@ -1129,10 +1153,16 @@ items:
       href: sysadmin/copy-batch-job.md
     - name: Periodi batch attivi
       href: sysadmin/activeperiod.md
-    - name: Ruolo di sicurezza del gestore batch
+    - name: Ruolo di sicurezza Gestore batch
       href: sysadmin/runby.md
     - name: Processo batch per la gestione della deframmentazione dell'indice SQL
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: Configurare avvisi batch
+      href: sysadmin/alerts.md
+    - name: Moduli batch avanzati
+      href: sysadmin/enhanced-forms.md
+    - name: Pulire lo storico batch
+      href: sysadmin/batch-history-cleanup.md
   - name: Consulente dell'ottimizzazione
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1229,9 +1259,11 @@ items:
     items:
     - name: Aggiornamento per scopi di formazione
       href: database/dbmovement-scenario-general-refresh.md
-    - name: Debug e diagnostica
+    - name: Eseguire il debug di una copia del database di produzione
       href: database/dbmovement-scenario-debugdiag.md
-    - name: Promozione configurazione Golden
+    - name: Esportare una copia del database UAT standard
+      href: database/dbmovement-scenario-exportuat.md
+    - name: Promozione della configurazione Golden
       href: database/dbmovement-scenario-goldenconfig.md
     - name: Test distruttivo
       href: database/dbmovement-scenario-destructivetests.md
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Gestire le esperienze di supporto per Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773804"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976014"

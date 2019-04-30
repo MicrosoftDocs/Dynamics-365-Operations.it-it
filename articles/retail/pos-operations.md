@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353818"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842724"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
@@ -93,7 +93,7 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 614 | Modifica ordine cliente | Richiama l'ordine selezionato in modo da poterlo modificare nel POS. | No | No | No | No | No |
 | 615 | Modifica offerta | Richiama l'offerta selezionata in modo da poterla modificare nel POS. | No | No | No | No | No |
 | 518 | Conti spese | Registra il denaro rimosso dal cassetto della cassa per le spese occasionali. | Sì | Sì | Sì | Sì | No |
-| 919 | Accesso esteso | Assegna o rimuove l'autorizzazione all'accesso tramite la scansione di un codice a barre o il passaggio di una carta. | Sì | Sì | Sì | No | No |
+| 919 | Accesso esteso | Assegna o rimuove l'autorizzazione all'accesso tramite la scansione di un codice a barre o il passaggio di una carta. | Sì | Sì | Sì | Sì | Nessuno |
 | 1201 | Transazione fondo di cassa | Questa operazione consente all'utente di aggiungere ulteriore denaro al cassetto o al turno corrente. | Sì | Sì | Sì | Sì | No |
 | 1218 | Sblocca forzatamente periferica | Il sistema utilizza questa operazione internamente per sbloccare le periferiche POS. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 520 | Saldo gift card | Visualizza il saldo di una gift card. | Sì | Sì | No | No | No |

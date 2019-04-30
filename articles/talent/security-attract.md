@@ -1,7 +1,7 @@
 ---
 title: Gestione della sicurezza e dei ruoli in Attract
 description: In questo argomento vengono fornite informazioni sulla sicurezza dei ruoli in Microsoft Dynamics 365 for Talent - Attract.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789699"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993693"
 ---
 # <a name="security-and-role-management-in-attract"></a>Sicurezza e gestione dei ruoli in Attract
 
@@ -70,6 +70,16 @@ Qualsiasi utente che dispone di un account di Microsoft Azure Active Directory (
 
 Gli utenti con il ruolo di sola lettura hanno accesso in sola lettura a tutti i dati dell'ambiente Attract. Tuttavia, non possono creare né modificare i dati.
 
+## <a name="find-out-which-roles-you-have"></a>Scoprire i ruoli di cui si dispone
+
+1.  In Attract, fare clic sul punto interrogativo (**?**) nell'angolo in alto a destra della pagina.
+
+2.  Scegliere **Informazioni su**.
+
+    Vengono visualizzati i ruoli di cui si dispone per Attract nella finestra visualizzata:
+
+    ![Visualizzare il tipo di licenza di Attract](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>Ruoli delegati
 
 Per ciascuna posizione lavorativa per la quale fanno parte del team di assunzione, i selezionatori e responsabili assunzioni possono designare uno o più delegati al proprio posto. Tuttavia, non possono designare i delegati per altre persone del team di assunzione.

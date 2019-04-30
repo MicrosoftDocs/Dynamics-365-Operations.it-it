@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773329"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898979"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Impostare l'integrazione fiscale per canali di vendita al dettaglio
 
@@ -60,7 +60,7 @@ Prima di utilizzare la funzionalità di integrazione fiscale, è necessario conf
 2. Caricare le configurazioni di connettori fiscali e di fornitori di documenti fiscali.
 
     Un fornitore di documenti fiscali è responsabile della generazione di documenti fiscali che rappresentano eventi e transazioni di vendite al dettaglio registrati nel POS in un formato utilizzato anche per l'interazione con un dispositivo o servizio fiscale. Ad esempio, un fornitore di documenti fiscali potrebbe generare una rappresentazione di una ricevuta fiscale in un formato XML.
-    
+
     Un connettore fiscale è responsabile della comunicazione con un dispositivo o servizio fiscale. Ad esempio, un connettore fiscale potrebbe inviare una ricevuta fiscale che un fornitore di documenti fiscali ha creato in un formato XML per una stampante fiscale. Per ulteriori informazioni sui componenti di integrazione fiscale, vedere [Processo di registrazione fiscale ed esempi di integrazione fiscale per dispositivi fiscali](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. Nella pagina **Connettori fiscali** (**Vendita al dettaglio \> Impostazione canale \> Integrazione fiscale \> Connettori fiscali**), caricare una configurazione XML per ogni dispositivo o servizio che si prevede di utilizzare per scopi di integrazione fiscale.
@@ -185,8 +185,12 @@ Le opzioni di gestione degli errori disponibili nell'integrazione fiscale sono i
 
     - **Consenti di ignorare** - Questo parametro abilita l'opzione **Ignora** nella finestra di dialogo per la gestione degli errori.
     - **Consenti di contrassegnare come registrato** - Questo parametro abilita l'opzione **Contrassegna come registrato** nella finestra di dialogo per la gestione degli errori.
+    - **Continua in caso di errore** - Se questo parametro è abilitato, il processo di registrazione fiscale può continuare sul registratore di cassa POS se la registrazione fiscale di una transazione o di un evento non riesce. In caso contrario, per eseguire la registrazione della transazione o dell'evento successivo, l'operatore dovrà riprovare la registrazione fiscale non riuscita, ignorarla o contrassegnare la transazione o l'evento come registrato. Per ulteriori informazioni, vedere [Registrazione fiscale facoltativa](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
-2. Le opzioni **Contrassegna come registrato** e **Ignora** nella finestra di dialogo per la gestione degli errori richiedono l'autorizzazione **Consenti di ignorare o contrassegnare come registrato**. Di conseguenza, nella pagina **Gruppi di autorizzazione** (**Vendita al dettaglio \> Dipendenti \> Gruppi di autorizzazioni**), abilitare l'autorizzazione **Consenti di ignorare o contrassegnare come registrato**.
+    > [!NOTE]
+    > Se il parametro **Continua in caso di errore** è abilitato, i parametri **Consenti di ignorare** e **Consenti di contrassegnare come registrato** vengono disabilitati automaticamente.
+
+2. Le opzioni **Contrassegna come registrato** e **Ignora** nella finestra di dialogo per la gestione degli errori richiedono l'autorizzazione **Consenti di ignorare la registrazione o di contrassegnare come registrato**. Di conseguenza, nella pagina **Gruppi di autorizzazione** (**Vendita al dettaglio \> Dipendenti \> Gruppi di autorizzazioni**), abilitare l'autorizzazione **Consenti di ignorare la registrazione o di contrassegnare come registrato**.
 3. Le opzioni **Contrassegna come registrato** e **Ignora** consentono agli operatori di immettere informazioni aggiuntive quando la registrazione fiscale ha esito negativo. Per rendere questa funzionalità disponibile, è necessario specificare i codici informativi **Contrassegna come registrato** e **Ignora** in un gruppo di connettori fiscali. Le informazioni immesse dagli operatori sono salvate come transazione codice informativo collegata alla transazione fiscale. Per ulteriori informazioni sui codici informativi, vedere [Codici informativi e gruppi di codici informativi](../info-codes-retail.md).
 
     > [!NOTE]
@@ -200,6 +204,8 @@ Le opzioni di gestione degli errori disponibili nell'integrazione fiscale sono i
     > - **Documento fiscale** - Un documento obbligatorio che deve essere registrato correttamente (ad esempio, una ricevuta fiscale).
     > - **Documento non fiscale** - Un documento supplementare per la transazione o l'evento (ad esempio, una distinta di gift card).
 
+4. Se l'operatore deve poter continuare a elaborare l'operazione corrente (ad esempio, la creazione o la finalizzazione di una transazione) dopo un errore di verifica integrità, è necessario abilitare l'autorizzazione **Consenti di ignorare errore di verifica integrità** nella pagina **Gruppi di autorizzazione** (**Vendita al dettaglio \> Dipendenti \> Gruppi di autorizzazione**). Per ulteriori informazioni sulla procedura di verifica integrità, vedere [Verifica integrità della registrazione fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Configurare report X/Z fiscali dal POS
 
 Per abilitare report X/Z fiscali per l'esecuzione dal POS, è necessario aggiungere nuovi pulsanti a un layout POS.
@@ -211,3 +217,12 @@ Per abilitare report X/Z fiscali per l'esecuzione dal POS, è necessario aggiung
     3. Aggiungere un nuovo pulsante e impostare la proprietà del pulsante **Stampa Z fiscale**.
     4. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1090** per trasferire le modifiche al database del canale.
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Abilitare l'esecuzione manuale della registrazione fiscale posticipata
+
+Per abilitare l'esecuzione manuale di una registrazione fiscale posticipata, è necessario aggiungere un nuovo pulsante a un layout POS.
+
+- Nella pagina **Griglie dei pulsanti**, seguire le istruzioni in [Aggiungere un pulsante di operazione al layout POS in Retail Headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) per installare il designer e aggiornare un layout POS.
+
+    1. Selezionare il layout da aggiornare.
+    2. Aggiungere un nuovo pulsante e impostare la proprietà del pulsante **Processo di registrazione fiscale completo**.
+    3. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1090** per trasferire le modifiche al database del canale.

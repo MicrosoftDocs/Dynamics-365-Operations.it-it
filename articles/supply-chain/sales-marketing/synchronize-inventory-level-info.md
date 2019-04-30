@@ -3,7 +3,7 @@ title: Sincronizzare informazioni sul livello delle scorte da Finance and Operat
 description: Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356785"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842558"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Sincronizzare le informazioni sul livello di scorte da Finance and Operations a Field Service 
 
@@ -38,14 +38,14 @@ Questo argomento descrive i modelli e le attività sottostanti utilizzati per si
 Il seguente modello e le attività sottostanti sono utilizzati per sincronizzare i livelli delle scorte disponibili da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Field Service.
 
 **Modello in Integrazione dati**
-- Inventario prodotti (da Finance and Operations a Field Service)
+- Inventario prodotti (da Fin and Ops a Field Service)
   
 **Attività nel progetto di Integrazione dati**
 - Inventario prodotti
 
 Le attività di sincronizzazione seguenti sono necessarie per la sincronizzazione dei livelli delle scorte:
-- Magazzini (da Finance and Operations a Field Service) 
-- Prodotti Field Service con unità di magazzino (da Finance and Operations a Sales) 
+- Magazzini (da Fin and Ops a Field Service) 
+- Prodotti Field Service con unità di magazzino (da Fin and Ops a Sales) 
 
 ## <a name="entity-set"></a>Insieme di entità
 
@@ -80,6 +80,6 @@ L'entità **Inventario prodotti esterno** è utilizzata solo per il backend nell
 
 ## <a name="template-mapping-in-data-integration"></a>Mapping dei modelli in Integrazione dati
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Inventario prodotti (da Field Service a Finance and Operations): Inventario prodotti
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Inventario prodotti (da Fin and Ops a Field Service): Inventario prodotti
 
 [![Mapping dei modelli in Integrazione dati](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
