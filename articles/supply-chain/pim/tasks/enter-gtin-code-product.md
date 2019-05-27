@@ -17,28 +17,28 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: df5a1ee72514cfa19e242cbc3d306027ab8d100b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "328748"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567828"
 ---
-# <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="98bcf-103">Immettere il codice GTIN per un prodotto</span><span class="sxs-lookup"><span data-stu-id="98bcf-103">Enter the GTIN code for a product</span></span>
+# <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="b46bd-103">Immettere il codice GTIN per un prodotto</span><span class="sxs-lookup"><span data-stu-id="b46bd-103">Enter the GTIN code for a product</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="98bcf-104">I codici GTIN sono assegnati dall'organizzazione GS1.</span><span class="sxs-lookup"><span data-stu-id="98bcf-104">GTIN codes are assigned by the GS1 organization.</span></span> <span data-ttu-id="98bcf-105">In questo esempio, immettere un codice per il numero prodotto M0001 nella società USMF di dati dimostrativi.</span><span class="sxs-lookup"><span data-stu-id="98bcf-105">In this example, you will enter a code for product number M0001 in demo data company USMF.</span></span>
+<span data-ttu-id="b46bd-104">I codici GTIN sono assegnati dall'organizzazione GS1.</span><span class="sxs-lookup"><span data-stu-id="b46bd-104">GTIN codes are assigned by the GS1 organization.</span></span> <span data-ttu-id="b46bd-105">In questo esempio, immettere un codice per il numero prodotto M0001 nella società USMF di dati dimostrativi.</span><span class="sxs-lookup"><span data-stu-id="b46bd-105">In this example, you will enter a code for product number M0001 in demo data company USMF.</span></span>
 
-1. <span data-ttu-id="98bcf-106">Fare clic su Gestione prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="98bcf-106">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="98bcf-107">Fare clic su Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="98bcf-107">Click Released products.</span></span>
-3. <span data-ttu-id="98bcf-108">Espandere il Dettaglio informazioni Immagine prodotto.</span><span class="sxs-lookup"><span data-stu-id="98bcf-108">Expand the Product image FactBox.</span></span>
-4. <span data-ttu-id="98bcf-109">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="98bcf-109">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="98bcf-110">Nel riquadro azioni, fare clic su Gestione articoli.</span><span class="sxs-lookup"><span data-stu-id="98bcf-110">On the Action Pane, click Manage inventory.</span></span>
-6. <span data-ttu-id="98bcf-111">Fare clic su Codici GTIN.</span><span class="sxs-lookup"><span data-stu-id="98bcf-111">Click GTIN codes.</span></span>
-7. <span data-ttu-id="98bcf-112">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="98bcf-112">Click New.</span></span>
-8. <span data-ttu-id="98bcf-113">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="98bcf-113">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="98bcf-114">Nel campo Unità immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="98bcf-114">In the Unit field, enter or select a value.</span></span>
-10. <span data-ttu-id="98bcf-115">Selezionare un'opzione nel campo Codice GTIN.</span><span class="sxs-lookup"><span data-stu-id="98bcf-115">In the GTIN code field, select an option.</span></span>
-11. <span data-ttu-id="98bcf-116">Digitare un valore nel campo GTIN.</span><span class="sxs-lookup"><span data-stu-id="98bcf-116">In the GTIN field, type a value.</span></span>
-12. <span data-ttu-id="98bcf-117">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="98bcf-117">Close the page.</span></span>
+1. <span data-ttu-id="b46bd-106">Fare clic su Gestione prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="b46bd-106">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="b46bd-107">Fare clic su Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="b46bd-107">Click Released products.</span></span>
+3. <span data-ttu-id="b46bd-108">Espandere il Dettaglio informazioni Immagine prodotto.</span><span class="sxs-lookup"><span data-stu-id="b46bd-108">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="b46bd-109">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="b46bd-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="b46bd-110">Nel riquadro azioni, fare clic su Gestione articoli.</span><span class="sxs-lookup"><span data-stu-id="b46bd-110">On the Action Pane, click Manage inventory.</span></span>
+6. <span data-ttu-id="b46bd-111">Fare clic su Codici GTIN.</span><span class="sxs-lookup"><span data-stu-id="b46bd-111">Click GTIN codes.</span></span>
+7. <span data-ttu-id="b46bd-112">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="b46bd-112">Click New.</span></span>
+8. <span data-ttu-id="b46bd-113">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="b46bd-113">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="b46bd-114">Nel campo Unità immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="b46bd-114">In the Unit field, enter or select a value.</span></span>
+10. <span data-ttu-id="b46bd-115">Selezionare un'opzione nel campo Codice GTIN.</span><span class="sxs-lookup"><span data-stu-id="b46bd-115">In the GTIN code field, select an option.</span></span>
+11. <span data-ttu-id="b46bd-116">Digitare un valore nel campo GTIN.</span><span class="sxs-lookup"><span data-stu-id="b46bd-116">In the GTIN field, type a value.</span></span>
+12. <span data-ttu-id="b46bd-117">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="b46bd-117">Close the page.</span></span>
 
