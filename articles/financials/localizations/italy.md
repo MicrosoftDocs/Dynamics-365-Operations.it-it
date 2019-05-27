@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31168f4086f9935867cb546cc9c40b36e720e0f1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f108ed60ea3d35c4557e45cafcb1bc0ca7e1aeec
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370942"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513004"
 ---
 # <a name="italy"></a>Italia 
 

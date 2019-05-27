@@ -1,27 +1,27 @@
 ---
 title: Definire i criteri di spesa
 description: In Microsoft Dynamics 365 for Finance and Operations è possibile definire criteri di spesa che devono essere seguiti dai lavoratori per l'inserimento e l'invio di note spese e richieste di viaggio.
-author: saraschi2
+author: ryansandness
 manager: AnnBe
-ms.date: 02/23/2018
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9f0ff56f0ff106bc168b6a27612e08743a539a07
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342433"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1514441"
 ---
 # <a name="expense-policies"></a>Criteri di spesa
 
@@ -42,9 +42,13 @@ si definiscono i criteri.
 
 - Errore: richiede al lavoratore di rivedere la spesa per conformarsi ai criteri prima di inviare la nota spese o la richiesta di viaggio.       
  
-  - Motivazione: richiede al lavoratore o a un responsabile di immettere una motivazione per superare l'importo previsto dai criteri prima di inviare la nota spese o la richiesta di viaggio.        
- 
-  È inoltre possibile impostare un intervallo di date per il quale sono validi i criteri di spesa. Ad esempio, le tariffe aeree per i voli tra la Danimarca      
-  e New York possono essere costose durante il periodo di picco della stagione turistica. È possibile definire una regola per le spese aeree in modo da specificare un limite      
-  di DKK 5.000 per il costo dei voli diretti a New York e indicare che tale regola deve essere applicata nel periodo compreso tra il 15 marzo e      
-  il 15 settembre.
+ - Motivazione: richiede al lavoratore o a un responsabile di immettere una motivazione per superare l'importo previsto dai criteri prima di inviare la nota spese o la richiesta di viaggio.        
+
+# <a name="policy-tips"></a>Suggerimenti per i criteri
+Di seguito sono riportati alcuni suggerimenti per semplificare la creazione di nuovi criteri per la gestione delle spese. 
+* I criteri sono sensibili alla data e non avranno effetto se vengono creati con una data successiva alla data in cui si è verificata la spesa. Ad esempio, se oggi si stanno creando nuovi criteri per applicare una spesa massima per il pasto di 50 EUR, le eventuali spese esistenti inserite ieri non verranno verificate rispetto a questo criterio.
+* Durante la creazione dei criteri per una categoria di spesa che può essere dettagliata, è opportuno considerare l'aggiunta di una condizione per il tipo di riga spese. Alcuni criteri come la richiesta di una ricevuta potrebbero non avere senso per le righe dettagliate e dovrebbero essere applicate solo alla riga dell'intestazione o a una riga non dettagliata. 
+
+# <a name="when-to-evaluate-policies"></a>Quando effettuare la valutazione dei criteri
+
+Nei parametri di Gestione spese, è disponibile un'opzione per effettuare la valutazione basata sui criteri di gestione delle spese quando viene salvata una riga o quando viene inviata una nota spese. Se si sceglie di effettuare la valutazione dei criteri quando viene salvata una riga, ciò garantisce che gli utenti abbiano una visibilità anticipata su ciò che devono fare per completare le note spese contemporaneamente. In alternativa, è possibile ritardare la valutazione basata sui criteri e risparmiare tempo impostando la convalida alla fine, durante l'invio al flusso di lavoro.

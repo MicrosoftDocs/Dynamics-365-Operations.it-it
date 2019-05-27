@@ -3,7 +3,7 @@ title: Rivalutazione valuta estera - Banca
 description: In questo argomento viene fornita una panoramica del processo di rivalutazione valuta estera della banca. Include informazioni su impostazione, esecuzione del processo, calcolo per il processo e storno delle transazioni di rivalutazione.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976673"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538634"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Rivalutazione valuta estera - Banca
 
@@ -52,7 +52,7 @@ Prima di effettuare il processo di rivalutazione, è richiesta l'impostazione ch
 3. Nella scheda **Sequenze numeriche**, aggiungere una sequenza numerica per la rivalutazione valuta estera.
 4. Aggiornare il browser per visualizzare **Rivalutazione valuta estera** nella sezione **Attività periodiche** della pagina.
 
-È necessario attivare la funzionalità per ogni persona giuridica che utilizzerà la rivalutazione valuta estera.
+È necessario attivare la funzionalità per ogni persona giuridica che utilizzerà la rivalutazione valuta estera. Se si è assegnati al ruolo di amministratore di sistema o di responsabile delle funzionalità, è possibile eliminare questo passaggio abilitando la funzionalità denominata **Abilita rivalutazione della banca senza un parametro** nell'area di lavoro **Gestione funzionalità**.
 
 > [!NOTE]
 > Se la propria persona giuridica utilizza un codice paese russo, polacco o ungherese, è già possibile effettuare la rivalutazione valuta estera della banca. Non sarà possibile utilizzare la rivalutazione valuta estera utilizzata da altri paesi.

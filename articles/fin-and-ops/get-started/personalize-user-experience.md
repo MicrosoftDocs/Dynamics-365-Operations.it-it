@@ -3,7 +3,7 @@ title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975853"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528846"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -75,7 +75,7 @@ Alcune delle modifiche più tipiche e più importanti che possono essere apporta
 
 Inoltre, i tipi più fondamentali di personalizzazione esplicita sono disponibili facendo clic con il pulsante destro del mouse su un elemento e quindi selezionando **Personalizza**. Tenere presente che non tutti gli elementi nella pagina possono essere personalizzati. Quando si utilizza questo metodo di personalizzazione, viene visualizzata la finestra delle proprietà dell'elemento.
 
-[![Personalizzazione delle proprietà di un elemento](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![Personalizzazione delle proprietà di un elemento](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 È possibile utilizzare la finestra delle proprietà per personalizzare un elemento nei seguenti modi:
 
@@ -91,7 +91,7 @@ La finestra delle proprietà potrebbe includere altre funzionalità di personali
 
 Se si desidera apportare più modifiche a una pagina o apportare modifiche che non sono disponibili attraverso altri meccanismi (ad esempio un nuovo ordine degli elementi), è possibile utilizzare la barra degli strumenti **Personalizzazione**. Per aprire la barra degli strumenti **Personalizzazione**, selezionare **Personalizza modulo** nella finestra delle proprietà di un elemento. È inoltre possibile selezionare **Personalizza modulo** nel gruppo **Personalizza** della scheda **Opzioni** del riquadro azioni di ogni pagina.
 
-[![Barra degli strumenti di personalizzazione](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![Barra degli strumenti di personalizzazione](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Esplorazione della pagina
 

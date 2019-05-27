@@ -1,9 +1,9 @@
 ---
 title: Visualizzare le notifiche degli ordini nel POS
-description: In questo argomento viene descritto come abilitare le notifiche degli ordini nel POS e nel framework di notifica. Finalmente, gli sviluppatori potranno estendere tali notifiche alle operazioni oltre alle operazioni di evasione dell'ordine.
+description: In questo argomento viene descritto come abilitare le notifiche degli ordini nel POS e nel framework di notifica.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361339"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530272"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Visualizzare le notifiche degli ordini nel POS
 
@@ -67,6 +67,10 @@ I pulsanti POS possono ora riportare un conteggio per consentire ai lavoratori d
 La seguente illustrazione mostra le impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti.
 
 ![Impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti](./media/ButtonGridDesigner.png "Impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti")
+
+Per visualizzare il conteggio di notifica su un pulsante, è necessario assicurarsi che venga aggiornato il layout dello schermo corretto. Per determinare il layout dello schermo utilizzato dal POS, selezionare l'icona **Impostazioni** nell'angolo superiore destro e verificare i campi **ID layout schermo** e **Risoluzione layout**. Ora utilizzando il nuovo browser Edge, passare alla pagina **Layout schermo** di Dynamics 365 for Finance and Operations, cercare **ID layout schermo** e **Risoluzione layout** indicati sopra e selezionare la casella di controllo **Abilita contenuto in tempo reale**. Fare clic su **Retail > IT vendita al dettaglio > Programmazione della distribuzione** ed eseguire i processi 1090 (dei registratori di cassa) per sincronizzare le modifiche del layout. 
+
+![Individuare il layout dello schermo utilizzato dal POS](./media/Choose_screen_layout.png "Individuare il layout dello schermo ")
 
 La seguente illustrazione mostra l'effetto della selezione di **Destra in alto** rispetto a **Centro** nel campo **Allineamento contenuto** per pulsanti di varie dimensioni.
 

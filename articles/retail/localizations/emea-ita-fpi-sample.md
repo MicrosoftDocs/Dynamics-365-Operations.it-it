@@ -18,11 +18,11 @@ ms.author: sepism
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
 ms.openlocfilehash: d3dee47ec6e3054208d3653118c5a75c62b59b0e
-ms.sourcegitcommit: 063a9296e645e0da182241941869d8102954540a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "899037"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1515742"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 

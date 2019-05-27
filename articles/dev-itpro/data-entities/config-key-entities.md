@@ -3,7 +3,7 @@ title: Chiavi di configurazione ed entità di dati
 description: In questo argomento viene descritta la relazione tra le chiavi di configurazione e le entità di dati di Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 01/01/2018
+ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bf2bdd2eaf406750c885a151aa09468df8a5f4b7
+ms.sourcegitcommit: fd3db9f2052c76a5d906b9ec23cb16222452a362
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336476"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "1539946"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Chiavi di configurazione ed entità di dati
 
@@ -86,7 +86,7 @@ Utilizzando i metadati della chiave di configurazione creati durante l'elenco di
 - Quando l'utente carica un modello in un progetto di dati
 - Quando un progetto di dati esistente viene caricato
 - Quando un modello viene caricato in un progetto di dati
-- Prima dell'esecuzione del processo di esportazione/importazione (batch, non batch, ricorrente, Odata)
+- Prima dell'esecuzione del processo di esportazione/importazione (batch, non batch, ricorrente, OData)
 - Quando l'utente genera il mapping
 - Quando l'utente mappa i campi nell'interfaccia utente di mapping
 - Quando l'utente aggiunge solo "campi importabili"

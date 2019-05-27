@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992885"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527673"
 ---
 # <a name="removed-or-deprecated-features"></a>Funzionalità rimosse o deprecate
 
@@ -66,26 +66,6 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Aree del prodotto interessate**         | Client Web |
 | **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Deprecata: a partire da aprile 2020, l'esperienza "è uno di" migliorata sarà il comportamento predefinito, senza un meccanismo per tornare al comportamento precedente. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>La derivazione da classi interne è deprecata
-
-|   |  |
-|------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Prima dell'aggiornamento 25 della piattaforma era possibile creare una classe o una tabella che deriva da una classe/tabella interna definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un avviso. |
-| **Sostituita da un'altra funzionalità?**   | L'avviso del compilatore verrà sostituito da un errore nell'aggiornamento 26 della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che è possibile eseguire l'aggiornamento 25 della piattaforma o successivo in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione.|
-| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
-| **Opzione di distribuzione**              | Tutte |
-| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione nell'aggiornamento 26 della piattaforma. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>La sostituzione dei metodi interni è deprecata
-
-|   |  |
-|------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Prima dell'aggiornamento 25 della piattaforma, era possibile sostituire un metodo interno in una classe derivata definita in un altro pacchetto/modulo. Questa non è una procedura di codifica sicura. A partire dall'aggiornamento 25 della piattaforma, il compilatore visualizzerà un avviso. |
-| **Sostituita da un'altra funzionalità?**   | Questo avviso verrà sostituito da un errore di compilazione nell'aggiornamento 26 della piattaforma. Questa modifica è compatibile con versioni precedenti al runtime, a indicare che è possibile eseguire l'aggiornamento 25 della piattaforma o successivo in qualsiasi ambiente sandbox o di produzione senza la necessità di modificare il codice personalizzato. Questa modifica influisce solo sulla fase di sviluppo e quella di compilazione. |
-| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
-| **Opzione di distribuzione**              | Tutte |
-| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione nell'aggiornamento 26 della piattaforma. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Il parametro per abilitare ordini cliente con molteplici fonti di finanziamento di contratti di progetto
 Il supporto per la creazione di ordini cliente basati su progetti in cui il contratto di progetto ha più fonti di finanziamento è abilitato con l'impostazione **Consenti ordini cliente per progetti con più fonti di finanziamento** di **Parametri Gestione progetti e contabilità**. Per impostazione predefinita, questo parametro non è abilitato. 

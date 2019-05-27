@@ -1,16 +1,16 @@
 ---
 title: Opzioni di formattazione avanzate nei report finanziari
 description: Quando si crea un report nei report finanziari, sono disponibili funzioni di formattazione aggiuntive, inclusi i filtri per dimensioni, restrizioni per le colonne e le unità di report, righe non stampabili e istruzioni IF/THEN/ELSE nei calcoli.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335579"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502567"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opzioni di formattazione avanzate nei report finanziari
 
@@ -41,6 +41,7 @@ Nella seguente tabella vengono illustrate le funzioni avanzate di formattazione 
 | Restrizione di colonna         | La restrizione di colonna nella definizione di riga è utile per nascondere valori pertinenti solo in alcune righe del report. Quando i calcoli percentuali vengono eseguiti in una riga, la restrizione di colonna impedisce la stampa delle colonne totali o di altre colonne quando i numeri non sono applicabili. |
 | Interruzione di colonna               | È possibile aggiungere interruzioni di colonna in una definizione di riga per mostrare le informazioni del report affiancate. È possibile aggiungere più interruzioni di colonna in una singola definizione di riga e le intestazioni di colonna vengono ripetute nella parte superiore di ogni colonna dopo l'interruzione di colonna. I commenti per un report vengono visualizzati tra le interruzioni di colonna. |
 | Istruzione IF/THEN/ELSE     | È possibile modificare i calcoli in una definizione di riga o una definizione di colonna. |
+| Utilizzare le virgolette singole ('') e la e commerciale (&) per i valori di dimensione | È possibile utilizzare i valori di dimensione, inclusi il carattere e commerciale per la progettazione di report. |
 
 ## <a name="advanced-cell-placement"></a>Posizionamento avanzato nelle celle
 Il posizionamento avanzato nelle celle, o *posizionamento forzato*, implica la collocazione di valori specifici in celle specifiche. Ad esempio, il posizionamento forzato viene usato spesso per spostare il saldo corretto in un rendiconto del flusso di cassa. È possibile utilizzare il posizionamento formato per gli scopi seguenti:
@@ -297,3 +298,9 @@ Un'istruzione **IF/THEN/ELSE** abilita la dipendenza di un calcolo dai risultati
 
 > [!NOTE]
 > Non è possibile inserire i risultati di un calcolo in alcuna altra colonna. I risultati devono essere nella colonna che contiene la formula.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Utilizzare le virgolette singole ('') e la e commerciale (&) per i valori di dimensione in una riga, una colonna o una struttura ad albero
+
+È possibile generare report utilizzando i valori di dimensione contenenti una e commerciale (&). 
+
+Nel campo **Collegamento a dimensioni finanziarie**, è possibile immettere un valore, ad esempio **"'profitti e perdite'** Includendo le virgolette singole (' ') su entrambe le estremità del valore di dimensione indica che si sta utilizzando il valore letterale, ad esempio il carattere della e commerciale (&). 

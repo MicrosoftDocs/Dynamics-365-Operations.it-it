@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353795"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530870"
 ---
 # <a name="define-financial-dimensions"></a>Definire dimensioni finanziarie
 
@@ -33,7 +33,7 @@ Questa guida di attività dimostra l'aggiunta una dimensione finanziaria support
 ## <a name="create-an-entity-backed-financial-dimension"></a>Creare una dimensione finanziaria supportata da un'entità
 1. Passare a Contabilità generale > Piano dei conti > Dimensioni > Dimensioni finanziarie.
 2. Fare clic su Nuovo.
-3. Nel campo Usa valori da selezionare un'entità definita dal sistema su cui basare la dimensione finanziaria. 
+3. Nel campo Usa valori da, selezionare un'entità definita dal sistema su cui basare la dimensione finanziaria. 
 4. Nel campo Nome dimensione, immettere un valore per descrivere la dimensione finanziaria.
     * Il nome può essere diverso da quello dell'entità definita dal sistema ma non può contenere spazi o caratteri speciali.  
 5. Fare clic su Attiva.
@@ -47,7 +47,7 @@ Questa guida di attività dimostra l'aggiunta una dimensione finanziaria support
 ## <a name="create-a-custom-financial-dimension"></a>Creare una dimensione finanziaria personalizzata
 1. Chiudere la pagina.
 2. Fare clic su Nuovo.
-3. Selezionare <Custom dimension> nel campo Usa valori da.
+3. Nel campo Usa valori da, selezionare Dimensione personalizzata.
 4. Nel campo Nome dimensione, immettere un valore per descrivere la dimensione finanziaria.
     * Il nome non può contenere spazi o caratteri speciali.  
     * È anche possibile specificare una maschera conto per limitare la quantità e il tipo di informazioni che è possibile immettere per i valori di dimensione.   

@@ -3,7 +3,7 @@ title: Contenuto Power BI sull'analisi delle spese di acquisto
 description: In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi delle spese di acquisto. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313844"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527719"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Contenuto Power BI sull'analisi delle spese di acquisto
 
@@ -33,7 +33,7 @@ In questo argomento viene descritto cosa è incluso nel contenuto di Power BI **
 
 ## <a name="overview"></a>Panoramica
 
-Il contenuto di Power BI **Analisi delle spese di acquisto** è stato progettato per consentire ai responsabili acquisti e i dirigenti responsabili di budget di tenere sotto controllo la spesa di acquisto. I responsabili possono analizzare la spesa d'acquisto nei seguenti modi:
+Il contenuto di Power BI **Analisi delle spese di acquisto** è stato progettato per consentire ai responsabili acquisti e ai dirigenti responsabili di budget di tenere sotto controllo la spesa di acquisto. I responsabili possono analizzare la spesa d'acquisto nei seguenti modi:
 
 - Acquisto da inizio anno (per gruppo di fornitori e singoli fornitori, per categoria di approvvigionamento e singoli prodotti e per ubicazione del fornitore)
 - Modifica di acquisto da inizio anno (per gruppo di fornitori e categoria di approvvigionamento)
@@ -44,88 +44,88 @@ Il contenuto utilizza dati transazionali di acquisto e offre sia una visualizzaz
 Il contenuto di Power BI **Analisi delle spese di acquisto** viene mostrato nella pagina **Analisi di spesa e acquisto** (**Approvvigionamento** \> **Richieste di informazioni e report** \> **Analisi delle prestazioni di acquisto** \> **Analisi delle prestazioni di acquisto**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
-Il contenuto di Power BI **Analisi delle spese di acquisto** include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni.
+Il contenuto di Power BI **Analisi delle spese di acquisto** include un report costituito da un set di metriche. Queste metriche vengono visualizzate come grafici, riquadri e tabelle. 
 
-<table>
-<thead>
-<tr>
-<th>Pagina di report</th>
-<th>Grafici</th>
-<th>Riquadri</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Acquisti per fornitore</td>
-<td><ul>
-<li>Primi 10 fornitori per acquisti (grafico a barre impilate)</li>
-<li>Acquisti totali per gruppo di fornitori/paese/nome (grafico a torta)</li>
-<li>Acquisti per gruppo di fornitori/paese/nome (istogramma)</li>
-<li>Media degli acquisti per gruppo di fornitori/paese/nome (istogramma)</li>
-</ul></td>
-<td><ul>
-<li>Totale acquisto</li>
-<li>Crescita degli acquisti su base annua</li>
-<li>N. totale fornitori</li>
-<li>N. totale dei fornitori attivi</li>
-</ul></td>
-</tr>
-<tr>
-<td>Acquisti per prodotto</td>
-<td><ul>
-<li>Acquisti per categoria di approvvigionamento/nome prodotto (istogramma)</li>
-<li>Acquisti totali per categoria di approvvigionamento/nome prodotto (grafico a torta)</li>
-<li>Primi 10 prodotti per acquisti (grafico a barre impilate)</li>
-</ul></td>
-<td><ul>
-<li>N. totale di prodotti</li>
-<li>Percentuale di prodotti attivi totali del numero totale di prodotti</li>
-<li>Numero di prodotti che rappresentano l'80% degli acquisti</li>
-</ul></td>
-</tr>
-<tr>
-<td>Acquisti per periodo*</td>
-<td><ul>
-<li>Acquisti al mese/giorno (istogramma)</li>
-<li>Scostamento di acquisti cumulativi su base annua (grafico a cascata)</li>
-<li>Crescita degli acquisti totali su base annua (istogramma)</li>
-<li>Rendiconto di approvvigionamento (matrice)</li>
-</ul></td>
-<td><ul>
-<li>Crescita degli acquisti su base annua</li>
-<li>% di crescita degli acquisti su base annua</li>
-</ul></td>
-</tr>
-<tr>
-<td>Acquisti per ubicazione del fornitore</td>
-<td><ul>
-<li>Acquisti per città</li>
-<li>% di crescita su base annua degli acquisti</li>
-<li>Acquisti per paese</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Analisi delle spese di acquisto in base all'ora</td>
-<td><ul>
-<li>Acquisti nell'anno corrente al mese/giorno (grafico a linee)</li>
-<li>Acquisti nell'anno corrente e nell'anno passato (grafico a linee e colonne)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Analisi delle spese di acquisto per fornitore</td>
-<td><ul>
-<li>% di acquisti dei primi 10 fornitori (grafico a imbuto)</li>
-<li>Primi 10 fornitori con aumento delle spese su base annua</li>
-<li>Primi 10 fornitori con diminuzione delle spese su base annua</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+Nelle seguenti sezioni viene fornita una panoramica delle visualizzazioni.
 
-\* Acquisti nell'anno corrente e nell'anno passato e crescita per categoria di approvvigionamento
+### <a name="purchase-by-vendor-report-page"></a>Pagina del report sugli acquisti per fornitore
+**Grafici**
+- Primi 10 fornitori per acquisti (grafico a barre impilate)
+- Acquisti totali per gruppo di fornitori/paese/nome (grafico a torta)
+- Acquisti per gruppo di fornitori/paese/nome (istogramma)
+- Media degli acquisti per gruppo di fornitori/paese/nome (istogramma)
+
+**Riquadri**
+- Totale acquisto
+- Crescita degli acquisti su base annua
+- N. totale fornitori
+- N. totale dei fornitori attivi
+
+**Esempio**
+<img src="media/spend1.PNG" alt="Purchase by vendor">
+
+### <a name="purchase-by-product-report-page"></a>Pagina del report sugli acquisti per prodotto
+
+**Grafici**
+- Acquisti per categoria di approvvigionamento/nome prodotto (istogramma)
+- Acquisti totali per categoria di approvvigionamento/nome prodotto (grafico a torta)
+- Primi 10 prodotti per acquisti (grafico a barre impilate)
+
+**Riquadri**
+- N. totale di prodotti</li>
+- Percentuale di prodotti attivi totali del numero totale di prodotti
+- Numero di prodotti che rappresentano l'80% degli acquisti
+
+**Esempio**
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a>Pagina del report sugli acquisti per periodo
+Questa pagina nostra gli acquisti nell'anno corrente e nell'anno passato e crescita per categoria di approvvigionamento.
+
+**Grafici** 
+- Acquisti al mese/giorno (istogramma)
+- Scostamento di acquisti cumulativi su base annua (grafico a cascata)
+- Crescita degli acquisti totali su base annua (istogramma)
+- Rendiconto di approvvigionamento (matrice)
+
+**Riquadri**
+- Crescita degli acquisti su base annua
+- % di crescita degli acquisti su base annua
+
+**Esempio**
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a>Pagina del report sugli acquisti per ubicazione del fornitore
+
+**Grafici**
+- Acquisti per città
+- % di crescita su base annua degli acquisti
+- Acquisti per paese
+
+**Esempio**
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a>Pagina del report sull'analisi delle spese di acquisto in base all'ora
+
+**Grafici** 
+- Acquisti nell'anno corrente al mese/giorno (grafico a linee)
+- Acquisti nell'anno corrente e nell'anno passato (grafico a linee e colonne)
+
+**Esempio**
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Pagina del report sull'analisi delle spese di acquisto in base fornitore
+
+**Grafici** 
+- % di acquisti dei primi 10 fornitori (grafico a imbuto)
+- Primi 10 fornitori con aumento delle spese su base annua
+- Primi 10 fornitori con diminuzione delle spese su base annua
+
+**Esempio** 
+<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
 
 ## <a name="data-model-and-entities"></a>Modello dati ed entità
 I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi delle spese di acquisto**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).

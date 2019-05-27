@@ -3,7 +3,7 @@ title: Miglioramenti alla funzionalità di registrazione del rendiconto
 description: Questo argomento descrive i miglioramenti apportati alla funzionalità di registrazione dei rendiconti.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321434"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541293"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Miglioramenti alla funzionalità di registrazione del rendiconto
 
@@ -43,9 +43,9 @@ Finance and Operations include le seguenti convalide correlate a queste chiavi d
 - Le stesse chiavi di configurazione devono essere utilizzate per tutte le operazioni eseguite per un determinato rendiconto durante il relativo ciclo di vita (Crea, Calcola, Cancella, Registra e così via). Ad esempio, non è possibile creare e calcolare un rendiconto quando la chiave di configurazione **Rendiconti di vendita al dettaglio (legacy)** è attivata e quindi cercare di registrare lo stesso rendiconto mentre la chiave di configurazione **Rendiconti di vendita al dettaglio** è attivata .
 
 > [!NOTE]
-> Si consiglia di utilizzare la chiave di configurazione **Rendiconti di vendita al dettaglio** per la funzionalità di registrazione di rendiconti migliorata, a meno che non si abbiano ragioni valide di utilizzare la chiave di configurazione **Rendiconti di vendita al dettaglio (legacy)**. Microsoft continuerà a investire nella nuova funzionalità di registrazione di rendiconti migliorata ed è importante passare a questa funzionalità il prima possibile. La funzionalità di registrazione di rendiconti legacy sarà deprecata in una versione futura.
+> Si consiglia di utilizzare la chiave di configurazione **Rendiconti di vendita al dettaglio** per la funzionalità di registrazione di rendiconti migliorata, a meno che non si abbiano ragioni valide di utilizzare la chiave di configurazione **Rendiconti di vendita al dettaglio (legacy)**. Microsoft continuerà a investire nella nuova funzionalità di registrazione di rendiconti migliorata ed è importante passare a questa funzionalità il prima possibile. La funzionalità di registrazione di rendiconti legacy è deprecata a partire dalla versione 8.0.
 
-## <a name="setup"></a>Imposta
+## <a name="setup"></a>Impostazione
 
 Come parte dei miglioramenti alla funzionalità di registrazione dei rendiconti, tre nuovi parametri sono stati introdotti nella Scheda dettaglio **Rendiconto** della scheda **Registrazione** nella pagina **Parametri di vendita al dettaglio**:
 
@@ -56,11 +56,15 @@ Come parte dei miglioramenti alla funzionalità di registrazione dei rendiconti,
 
 - **Disabilita conteggio richiesto** – Quando questa opzione è impostata su **Sì**, il processo di registrazione per un rendiconto continua, anche se la differenza tra l'importo conteggiato e l'importo della transazione nel rendiconto non rientra nella soglia definita nella Scheda dettaglio **Rendiconto** per Punti vendita al dettaglio.
 
-Inoltre, il campo **Numero massimo di registrazioni rendiconti paralleli** è stato introdotto nella Scheda dettaglio **Elaborazione batch**. Questo campo definisce il numero di attività batch che è possibile eseguire contemporaneamente. Attualmente, è necessario impostare manualmente il valore di questo campo.
+Inoltre, i seguenti parametri sono stati introdotti nella scheda dettaglio **Elaborazione batch** della scheda **Registrazione** della pagina **Parametri di vendita al dettaglio** : 
 
-Inoltre, con il nuovo processo di registrazione, è necessario definire un **Prodotto gift card** nella FastTab **Gift card** della scheda **Registrazione** della pagina **Parametri di vendita al dettaglio**. Ciò si verifica anche se nessuna gift card verrà utilizzata dall'organizzazione.
+- **Numero massimo di registrazioni rendiconti paralleli** - Questo campo definisce il numero di attività batch che verranno utilizzate per registrare più rendiconti. 
+- **Numero massimo di thread per l'elaborazione ordini per rendiconto** - Questo campo rappresenta il numero massimo di thread utilizzati dal processo batch di registrazione del rendiconto per creare e fatturare gli ordini di vendita per un singolo rendiconto. Il numero totale di thread che verrà utilizzato dal processo di registrazione del rendiconto verrà calcolato in base al valore in questo parametro moltiplicato per il valore nel parametro **Numero massimo di registrazioni rendiconti paralleli**. L'impostazione del valore di questo parametro troppo alto può influire negativamente sulle prestazioni del processo di registrazione del rendiconto.
+- **Numero massimo di righe transazione incluse nell'aggregazione** - Questo campo definisce il numero di righe transazione che verranno incluse in una singola transazione aggregata prima che ne venga creata una nuova. Le transazioni aggregate vengono create in base a diversi criteri di aggregazione come cliente, data del giorno lavorativo o dimensioni finanziarie. È importante notare che le righe de una singola transazione di vendita al dettaglio non verranno suddivise tra diverse transazioni aggregate. Ciò significa che è necessario prendere in considerazione la possibilità che il numero di righe in una transazione aggregata sia leggermente superiore o inferiore in base a fattori quali il numero di prodotti distinti.
+- **Numero massimo di thread per convalidare le transazioni del punto vendita** - Questo campo definisce il numero di thread che verranno utilizzati per convalidare le transazioni di vendita al dettaglio. La convalida delle transazioni di vendita al dettaglio è un passaggio necessario che deve verificarsi prima che le transazioni vengano inserite nei rendiconti. Inoltre, è necessario definire un **Prodotto gift card** nella Scheda dettaglio **Gift card** della scheda **Registrazione** della pagina **Parametri di vendita al dettaglio**. Ciò deve essere definito anche se nessuna gift card verrà utilizzata dall'organizzazione.
 
-Tenere presente che tutti i parametri e le impostazioni correlati alle registrazioni dei rendiconti e definiti nella pagina **Punti vendita al dettaglio** sono applicabili alla funzionalità di registrazione dei rendiconti migliorata.
+> [!NOTE]
+> Tutti i parametri e le impostazioni correlati alle registrazioni dei rendiconti e definiti nella pagina **Punti vendita al dettaglio** sono applicabili alla funzionalità di registrazione dei rendiconti migliorata.
 
 ## <a name="processing"></a>Elaborazione in corso
 
@@ -160,7 +164,7 @@ Altri miglioramenti back-end visibili agli utenti sono stati apportati alla funz
 - I rendiconti vengono inseriti in una coda in modo efficiente in quanto viene data la priorità ai rendiconti con il numero massimo di transazioni.
 - I processi batch quali **Calcolare rendiconti in batch** e **Registra rendiconti in batch** vengono eseguiti solo in modalità batch. Nella funzionalità di registrazione dei rendiconti legacy, gli utenti potevano scegliere di eseguire questi processi batch in una modalità interattiva, ovvero mediante un'operazione con thread singolo, a differenza dei processi batch che sono a thread multipli.
 - Nella funzionalità di registrazione dei rendiconti legacy, un qualsiasi errore di un'attività batch comportava lo stato di errore per l'intero processo batch. Nella funzionalità migliorata, ciò non avviene se altre attività batch vengono completate senza errori. Si consiglia di determinare lo stato di registrazione di un'esecuzione batch tramite la pagina **Rendiconti vendita al dettaglio**, in cui è possibile visualizzare tutti i rendiconti non registrati a causa di errori.
-- Nella funzionalità di registrazione dei rendiconti legacy, la prima occorrenza di un errore di rendiconto comporta l'errore dell'intero batch e i rendiconti rimanenti non vengono elaborati. Nella funzionalità migliorata, il processo batch continua a elaborare tutti i rendiconti, anche se alcuni presentano degli errori. Un vantaggio è che gli utenti acquisiscono maggiore visibilità sul numero esatto di rendiconti con errori. Di conseguenza, gli utenti non sono obbligati a correggere gli errori e ad eseguire il processo di registrazione dei rendiconti fino a che tutti i rendiconti sono registrati.
+- Nella funzionalità di registrazione dei rendiconti legacy, la prima occorrenza di un errore di rendiconto comporta l'errore dell'intero batch e i rendiconti rimanenti non vengono elaborati. Nella funzionalità migliorata, il processo batch continua a elaborare tutti i rendiconti, anche se alcuni presentano degli errori. Un vantaggio è che gli utenti acquisiscono maggiore visibilità sul numero esatto di rendiconti con errori. Di conseguenza, gli utenti non sono obbligati a correggere gli errori e a eseguire il processo di registrazione dei rendiconti fino a che tutti i rendiconti sono registrati.
 
 ## <a name="general-guidance-about-the-statement-posting-process"></a>Indicazioni generali sul processo di registrazione dei rendiconti
 
