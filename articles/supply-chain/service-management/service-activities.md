@@ -19,24 +19,24 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 84410a0fd112907bf821710c15a8f261c7d9f1ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315063"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546043"
 ---
-# <a name="service-activities"></a><span data-ttu-id="15b63-103">Attività servizio</span><span class="sxs-lookup"><span data-stu-id="15b63-103">Service activities</span></span>        
+# <a name="service-activities"></a><span data-ttu-id="db366-103">Attività servizio</span><span class="sxs-lookup"><span data-stu-id="db366-103">Service activities</span></span>        
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="15b63-104">Creare attività di assistenza per definire e gestire le attività in un ordine di assistenza.</span><span class="sxs-lookup"><span data-stu-id="15b63-104">Create service activities to define and maintain tasks in a service order.</span></span> <span data-ttu-id="15b63-105">Un ordine di assistenza può includere uno o più attività di assistenza che un lavoratore deve eseguire.</span><span class="sxs-lookup"><span data-stu-id="15b63-105">A service order can include one or more service activities to be performed by a worker.</span></span>
+<span data-ttu-id="db366-104">Creare attività di assistenza per definire e gestire le attività in un ordine di assistenza.</span><span class="sxs-lookup"><span data-stu-id="db366-104">Create service activities to define and maintain tasks in a service order.</span></span> <span data-ttu-id="db366-105">Un ordine di assistenza può includere uno o più attività di assistenza che un lavoratore deve eseguire.</span><span class="sxs-lookup"><span data-stu-id="db366-105">A service order can include one or more service activities to be performed by a worker.</span></span>
 
-<span data-ttu-id="15b63-106">Le attività di assistenza vengono definite nel modulo **Tipi di attività**.</span><span class="sxs-lookup"><span data-stu-id="15b63-106">Service activities are defined in the **Activity types** form.</span></span> <span data-ttu-id="15b63-107">Fare clic su **Vendite e marketing** \> **Impostazioni** \> **Attività** \> **Tipi di attività**. Dopo aver impostato le attività, è possibile aggiungerle agli ordini di assistenza automaticamente in base al contratto di assistenza correlato, oppure è possibile aggiungere manualmente le attività quando si aggiungono le righe a un ordine di assistenza.</span><span class="sxs-lookup"><span data-stu-id="15b63-107">(Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.) After you set up activities, you can add them to service orders automatically based on the related service agreement, or you can manually add activities when you add lines to a service order.</span></span>
+<span data-ttu-id="db366-106">Le attività di assistenza vengono definite nel modulo **Tipi di attività**.</span><span class="sxs-lookup"><span data-stu-id="db366-106">Service activities are defined in the **Activity types** form.</span></span> <span data-ttu-id="db366-107">Fare clic su **Vendite e marketing** \> **Impostazioni** \> **Attività** \> **Tipi di attività**. Dopo aver impostato le attività, è possibile aggiungerle agli ordini di assistenza automaticamente in base al contratto di assistenza correlato, oppure è possibile aggiungere manualmente le attività quando si aggiungono le righe a un ordine di assistenza.</span><span class="sxs-lookup"><span data-stu-id="db366-107">(Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.) After you set up activities, you can add them to service orders automatically based on the related service agreement, or you can manually add activities when you add lines to a service order.</span></span>
 
-<span data-ttu-id="15b63-108">È possibile visualizzare lo stato delle attività di assistenza nel modulo **Prospetto interventi**.</span><span class="sxs-lookup"><span data-stu-id="15b63-108">You can view the status of service activities in the **Dispatch board** form.</span></span> <span data-ttu-id="15b63-109">È inoltre possibile riassegnare le attività da un lavoratore a un altro in tale modulo.</span><span class="sxs-lookup"><span data-stu-id="15b63-109">You can also reassign activities from one worker to another worker in that form.</span></span>
+<span data-ttu-id="db366-108">È possibile visualizzare lo stato delle attività di assistenza nel modulo **Prospetto interventi**.</span><span class="sxs-lookup"><span data-stu-id="db366-108">You can view the status of service activities in the **Dispatch board** form.</span></span> <span data-ttu-id="db366-109">È inoltre possibile riassegnare le attività da un lavoratore a un altro in tale modulo.</span><span class="sxs-lookup"><span data-stu-id="db366-109">You can also reassign activities from one worker to another worker in that form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="15b63-110">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="15b63-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="db366-110">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="db366-110">See also</span></span>
 
-<span data-ttu-id="15b63-111">[Prospetto interventi (modulo)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="15b63-111">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="db366-111">[Prospetto interventi (modulo)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="db366-111">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
 

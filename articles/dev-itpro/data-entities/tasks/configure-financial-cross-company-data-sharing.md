@@ -17,50 +17,50 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 784a925fa06148cad780b494c88b9a7af1809c9d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357843"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551032"
 ---
-# <a name="configure-financial-cross-company-data-sharing"></a><span data-ttu-id="39471-103">Configurare condivisione dati interaziendali finanziari</span><span class="sxs-lookup"><span data-stu-id="39471-103">Configure financial cross-company data sharing</span></span>
+# <a name="configure-financial-cross-company-data-sharing"></a><span data-ttu-id="382f2-103">Configurare condivisione dati interaziendali finanziari</span><span class="sxs-lookup"><span data-stu-id="382f2-103">Configure financial cross-company data sharing</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="39471-104">Questa procedura mostra come configurare, abilitare, convalidare e risolvere i conflitti quando vengono condivisi i dati tra due società.</span><span class="sxs-lookup"><span data-stu-id="39471-104">This procedure shows how to configure, enable, validate, and resolve conflicts when sharing data between companies.</span></span> <span data-ttu-id="39471-105">Utilizza la società USMF e il modello di condivisione dei dati finanziari.</span><span class="sxs-lookup"><span data-stu-id="39471-105">It uses the USMF company and the Financial data sharing template.</span></span>
+<span data-ttu-id="382f2-104">Questa procedura mostra come configurare, abilitare, convalidare e risolvere i conflitti quando vengono condivisi i dati tra due società.</span><span class="sxs-lookup"><span data-stu-id="382f2-104">This procedure shows how to configure, enable, validate, and resolve conflicts when sharing data between companies.</span></span> <span data-ttu-id="382f2-105">Utilizza la società USMF e il modello di condivisione dei dati finanziari.</span><span class="sxs-lookup"><span data-stu-id="382f2-105">It uses the USMF company and the Financial data sharing template.</span></span>
 
 
 
-<span data-ttu-id="39471-106">Questa guida attività richiede la piattaforma 7.1 o una versione successiva di Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="39471-106">This task guide requires Dynamics AX platform 7.1 or later.</span></span>
+<span data-ttu-id="382f2-106">Questa guida attività richiede la piattaforma 7.1 o una versione successiva di Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="382f2-106">This task guide requires Dynamics AX platform 7.1 or later.</span></span>
 
-1. <span data-ttu-id="39471-107">Andare a Amministrazione sistema > Aree di lavoro > Gestione dati.</span><span class="sxs-lookup"><span data-stu-id="39471-107">Go to System administration > Workspaces > Data management.</span></span>
-2. <span data-ttu-id="39471-108">Fare clic su Importa.</span><span class="sxs-lookup"><span data-stu-id="39471-108">Click Import.</span></span>
-3. <span data-ttu-id="39471-109">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="39471-109">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="39471-110">Nel campo Formato dati di origine selezionare Tipo di pacchetto.</span><span class="sxs-lookup"><span data-stu-id="39471-110">In the Source data format field, select the Package type.</span></span>
-    * <span data-ttu-id="39471-111">Fare clic su Carica.</span><span class="sxs-lookup"><span data-stu-id="39471-111">Click Upload.</span></span> <span data-ttu-id="39471-112">Spostarsi nell'ubicazione del file pacchetto del modello di condivisione dei dati finanziari e selezionare il file.</span><span class="sxs-lookup"><span data-stu-id="39471-112">Navigate to the location of the Financial data sharing template package file and select that file.</span></span>  
-5. <span data-ttu-id="39471-113">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="39471-113">Click Save.</span></span>
-6. <span data-ttu-id="39471-114">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="39471-114">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="39471-115">Selezionare i criteri appena creati di condivisione dei dati.</span><span class="sxs-lookup"><span data-stu-id="39471-115">Select the data sharing policy that was just created.</span></span>  
-7. <span data-ttu-id="39471-116">Fare clic su Importa.</span><span class="sxs-lookup"><span data-stu-id="39471-116">Click Import.</span></span>
-8. <span data-ttu-id="39471-117">Fare clic su Chiudi.</span><span class="sxs-lookup"><span data-stu-id="39471-117">Click Close.</span></span>
-9. <span data-ttu-id="39471-118">Aggiorna la pagina.</span><span class="sxs-lookup"><span data-stu-id="39471-118">Refresh the page.</span></span>
-10. <span data-ttu-id="39471-119">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="39471-119">Close the page.</span></span>
-11. <span data-ttu-id="39471-120">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="39471-120">Close the page.</span></span>
-12. <span data-ttu-id="39471-121">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="39471-121">Close the page.</span></span>
-13. <span data-ttu-id="39471-122">Andare a Amministrazione sistema > Impostazione > Configura condivisione dati interaziendali.</span><span class="sxs-lookup"><span data-stu-id="39471-122">Go to System administration > Setup > Configure cross-company data sharing.</span></span>
-14. <span data-ttu-id="39471-123">Nell'elenco trovare e selezionare Giorni di pagamento.</span><span class="sxs-lookup"><span data-stu-id="39471-123">In the list, find and select Payment days.</span></span>
-15. <span data-ttu-id="39471-124">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="39471-124">Click Add.</span></span>
-16. <span data-ttu-id="39471-125">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="39471-125">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="39471-126">Digitare "USSI" nel campo Società.</span><span class="sxs-lookup"><span data-stu-id="39471-126">In the Company field, type 'USSI'.</span></span>
-18. <span data-ttu-id="39471-127">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="39471-127">Click Add.</span></span>
-19. <span data-ttu-id="39471-128">Digitare "USMF" nel campo Società.</span><span class="sxs-lookup"><span data-stu-id="39471-128">In the Company field, type 'USMF'.</span></span>
-20. <span data-ttu-id="39471-129">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="39471-129">Click Save.</span></span>
-21. <span data-ttu-id="39471-130">Fare clic su Attiva.</span><span class="sxs-lookup"><span data-stu-id="39471-130">Click Enable.</span></span>
-22. <span data-ttu-id="39471-131">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="39471-131">Click Yes.</span></span>
-23. <span data-ttu-id="39471-132">Fare clic su Cerca problemi di condivisione.</span><span class="sxs-lookup"><span data-stu-id="39471-132">Click Find sharing issues.</span></span>
-24. <span data-ttu-id="39471-133">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="39471-133">Click Yes.</span></span>
-25. <span data-ttu-id="39471-134">Fare clic su Aggiorna valore campo.</span><span class="sxs-lookup"><span data-stu-id="39471-134">Click Update field value.</span></span>
-26. <span data-ttu-id="39471-135">Fare clic su Utilizza valore di società 1.</span><span class="sxs-lookup"><span data-stu-id="39471-135">Click Use value from company 1.</span></span>
-27. <span data-ttu-id="39471-136">Aggiorna la pagina.</span><span class="sxs-lookup"><span data-stu-id="39471-136">Refresh the page.</span></span>
-28. <span data-ttu-id="39471-137">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="39471-137">Close the page.</span></span>
+1. <span data-ttu-id="382f2-107">Andare a Amministrazione sistema > Aree di lavoro > Gestione dati.</span><span class="sxs-lookup"><span data-stu-id="382f2-107">Go to System administration > Workspaces > Data management.</span></span>
+2. <span data-ttu-id="382f2-108">Fare clic su Importa.</span><span class="sxs-lookup"><span data-stu-id="382f2-108">Click Import.</span></span>
+3. <span data-ttu-id="382f2-109">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="382f2-109">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="382f2-110">Nel campo Formato dati di origine selezionare Tipo di pacchetto.</span><span class="sxs-lookup"><span data-stu-id="382f2-110">In the Source data format field, select the Package type.</span></span>
+    * <span data-ttu-id="382f2-111">Fare clic su Carica.</span><span class="sxs-lookup"><span data-stu-id="382f2-111">Click Upload.</span></span> <span data-ttu-id="382f2-112">Spostarsi nell'ubicazione del file pacchetto del modello di condivisione dei dati finanziari e selezionare il file.</span><span class="sxs-lookup"><span data-stu-id="382f2-112">Navigate to the location of the Financial data sharing template package file and select that file.</span></span>  
+5. <span data-ttu-id="382f2-113">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="382f2-113">Click Save.</span></span>
+6. <span data-ttu-id="382f2-114">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="382f2-114">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="382f2-115">Selezionare i criteri appena creati di condivisione dei dati.</span><span class="sxs-lookup"><span data-stu-id="382f2-115">Select the data sharing policy that was just created.</span></span>  
+7. <span data-ttu-id="382f2-116">Fare clic su Importa.</span><span class="sxs-lookup"><span data-stu-id="382f2-116">Click Import.</span></span>
+8. <span data-ttu-id="382f2-117">Fare clic su Chiudi.</span><span class="sxs-lookup"><span data-stu-id="382f2-117">Click Close.</span></span>
+9. <span data-ttu-id="382f2-118">Aggiorna la pagina.</span><span class="sxs-lookup"><span data-stu-id="382f2-118">Refresh the page.</span></span>
+10. <span data-ttu-id="382f2-119">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="382f2-119">Close the page.</span></span>
+11. <span data-ttu-id="382f2-120">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="382f2-120">Close the page.</span></span>
+12. <span data-ttu-id="382f2-121">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="382f2-121">Close the page.</span></span>
+13. <span data-ttu-id="382f2-122">Andare a Amministrazione sistema > Impostazione > Configura condivisione dati interaziendali.</span><span class="sxs-lookup"><span data-stu-id="382f2-122">Go to System administration > Setup > Configure cross-company data sharing.</span></span>
+14. <span data-ttu-id="382f2-123">Nell'elenco trovare e selezionare Giorni di pagamento.</span><span class="sxs-lookup"><span data-stu-id="382f2-123">In the list, find and select Payment days.</span></span>
+15. <span data-ttu-id="382f2-124">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="382f2-124">Click Add.</span></span>
+16. <span data-ttu-id="382f2-125">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="382f2-125">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="382f2-126">Digitare "USSI" nel campo Società.</span><span class="sxs-lookup"><span data-stu-id="382f2-126">In the Company field, type 'USSI'.</span></span>
+18. <span data-ttu-id="382f2-127">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="382f2-127">Click Add.</span></span>
+19. <span data-ttu-id="382f2-128">Digitare "USMF" nel campo Società.</span><span class="sxs-lookup"><span data-stu-id="382f2-128">In the Company field, type 'USMF'.</span></span>
+20. <span data-ttu-id="382f2-129">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="382f2-129">Click Save.</span></span>
+21. <span data-ttu-id="382f2-130">Fare clic su Attiva.</span><span class="sxs-lookup"><span data-stu-id="382f2-130">Click Enable.</span></span>
+22. <span data-ttu-id="382f2-131">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="382f2-131">Click Yes.</span></span>
+23. <span data-ttu-id="382f2-132">Fare clic su Cerca problemi di condivisione.</span><span class="sxs-lookup"><span data-stu-id="382f2-132">Click Find sharing issues.</span></span>
+24. <span data-ttu-id="382f2-133">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="382f2-133">Click Yes.</span></span>
+25. <span data-ttu-id="382f2-134">Fare clic su Aggiorna valore campo.</span><span class="sxs-lookup"><span data-stu-id="382f2-134">Click Update field value.</span></span>
+26. <span data-ttu-id="382f2-135">Fare clic su Utilizza valore di società 1.</span><span class="sxs-lookup"><span data-stu-id="382f2-135">Click Use value from company 1.</span></span>
+27. <span data-ttu-id="382f2-136">Aggiorna la pagina.</span><span class="sxs-lookup"><span data-stu-id="382f2-136">Refresh the page.</span></span>
+28. <span data-ttu-id="382f2-137">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="382f2-137">Close the page.</span></span>
 
