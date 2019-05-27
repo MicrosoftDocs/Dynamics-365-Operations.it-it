@@ -17,23 +17,23 @@ ms.search.region: Italy
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f08f3d516648386625f3cab5375fa9f49c8bc409
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4a359f455ca7d826eba27f26c7327d0d3e06c826
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370940"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538019"
 ---
-# <a name="packing-slip-date-verification-on-invoices-for-italy"></a><span data-ttu-id="d2b74-104">Verifica della data del documento di trasporto nelle fatture per l'Italia</span><span class="sxs-lookup"><span data-stu-id="d2b74-104">Packing slip date verification on invoices for Italy</span></span>
+# <a name="packing-slip-date-verification-on-invoices-for-italy"></a><span data-ttu-id="b51f4-104">Verifica della data del documento di trasporto nelle fatture per l'Italia</span><span class="sxs-lookup"><span data-stu-id="b51f4-104">Packing slip date verification on invoices for Italy</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d2b74-105">Per l'Italia, la data della fattura è verificata sui documenti di trasporto e sulle proposte di fatturazione.</span><span class="sxs-lookup"><span data-stu-id="d2b74-105">For Italy, the invoice date is verified on packing slips and invoice proposals.</span></span> <span data-ttu-id="d2b74-106">In questo argomento vengono fornite informazioni aggiuntive sulla verifica eseguita.</span><span class="sxs-lookup"><span data-stu-id="d2b74-106">This topic provides additional information about the verification that occurs.</span></span> 
+<span data-ttu-id="b51f4-105">Per l'Italia, la data della fattura è verificata sui documenti di trasporto e sulle proposte di fatturazione.</span><span class="sxs-lookup"><span data-stu-id="b51f4-105">For Italy, the invoice date is verified on packing slips and invoice proposals.</span></span> <span data-ttu-id="b51f4-106">In questo argomento vengono fornite informazioni aggiuntive sulla verifica eseguita.</span><span class="sxs-lookup"><span data-stu-id="b51f4-106">This topic provides additional information about the verification that occurs.</span></span> 
 
-<span data-ttu-id="d2b74-107">Per le persone giuridiche il cui indirizzo principale è in Italia è presente un passaggio di verifica della data documento di trasporto per gli utenti che generano fatture di vendita o fatture progetto.</span><span class="sxs-lookup"><span data-stu-id="d2b74-107">For legal entities with primary addresses in Italy there is a packing slip date verification step for users who generate sales invoices or project invoices.</span></span>
+<span data-ttu-id="b51f4-107">Per le persone giuridiche il cui indirizzo principale è in Italia è presente un passaggio di verifica della data documento di trasporto per gli utenti che generano fatture di vendita o fatture progetto.</span><span class="sxs-lookup"><span data-stu-id="b51f4-107">For legal entities with primary addresses in Italy there is a packing slip date verification step for users who generate sales invoices or project invoices.</span></span>
 
--   <span data-ttu-id="d2b74-108">I documenti di trasporto che hanno data successiva alla fattura non devono essere inclusi nella quantità di aggiornamento consigliata.</span><span class="sxs-lookup"><span data-stu-id="d2b74-108">Packing slips that are dated later than the invoice are not be included in the suggested update quantity.</span></span>
--   <span data-ttu-id="d2b74-109">Per Gestione progetti e contabilità, quando si crea una proposta di fatturazione, solo i documenti di trasporto del cliente datati anteriore alla proposta di fatturazione vengono inclusi nella proposta.</span><span class="sxs-lookup"><span data-stu-id="d2b74-109">For project management and accounting, when you create an invoice proposal, only the customer packing slips that are dated earlier than the invoice proposal are included in the proposal.</span></span> <span data-ttu-id="d2b74-110">**Nota**: Se la data di input utente per la proposta di fatturazione è vuota, la data di sistema viene utilizzata.</span><span class="sxs-lookup"><span data-stu-id="d2b74-110">**Note**: If the user input date for the invoice proposal is empty, the system date is used.</span></span>
+-   <span data-ttu-id="b51f4-108">I documenti di trasporto che hanno data successiva alla fattura non devono essere inclusi nella quantità di aggiornamento consigliata.</span><span class="sxs-lookup"><span data-stu-id="b51f4-108">Packing slips that are dated later than the invoice are not be included in the suggested update quantity.</span></span>
+-   <span data-ttu-id="b51f4-109">Per Gestione progetti e contabilità, quando si crea una proposta di fatturazione, solo i documenti di trasporto del cliente datati anteriore alla proposta di fatturazione vengono inclusi nella proposta.</span><span class="sxs-lookup"><span data-stu-id="b51f4-109">For project management and accounting, when you create an invoice proposal, only the customer packing slips that are dated earlier than the invoice proposal are included in the proposal.</span></span> <span data-ttu-id="b51f4-110">**Nota**: Se la data di input utente per la proposta di fatturazione è vuota, la data di sistema viene utilizzata.</span><span class="sxs-lookup"><span data-stu-id="b51f4-110">**Note**: If the user input date for the invoice proposal is empty, the system date is used.</span></span>
 
 
 

@@ -17,43 +17,43 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 203a586b06a13a7c67f246384152d17627e22041
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308807"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545547"
 ---
-# <a name="create-an-organization-hierarchy"></a><span data-ttu-id="82ac9-103">Creare una gerarchia organizzativa</span><span class="sxs-lookup"><span data-stu-id="82ac9-103">Create an organization hierarchy</span></span>
+# <a name="create-an-organization-hierarchy"></a><span data-ttu-id="93950-103">Creare una gerarchia organizzativa</span><span class="sxs-lookup"><span data-stu-id="93950-103">Create an organization hierarchy</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="82ac9-104">Per creare una gerarchia organizzativa, attenersi alla seguente procedura.</span><span class="sxs-lookup"><span data-stu-id="82ac9-104">Use the following procedure to create an organizational hierarchy.</span></span> <span data-ttu-id="82ac9-105">È possibile utilizzare le gerarchie organizzative per la visualizzazione e il reporting dell'attività aziendale da varie prospettive.</span><span class="sxs-lookup"><span data-stu-id="82ac9-105">You can use organizational hierarchies to view and report on your business from various perspectives.</span></span> <span data-ttu-id="82ac9-106">È possibile impostare, ad esempio, una gerarchia per una dichiarazione fiscale, legale o statutaria.</span><span class="sxs-lookup"><span data-stu-id="82ac9-106">For example, you can set up one hierarchy for tax, legal, or statutory reporting.</span></span> <span data-ttu-id="82ac9-107">È quindi possibile impostare un'altra gerarchia per il reporting di informazioni finanziarie non obbligatorio per legge, ma utilizzato per la creazione di report interni.</span><span class="sxs-lookup"><span data-stu-id="82ac9-107">You can then set up another hierarchy to report financial information that is not legally required, but that is used for internal reporting.</span></span> 
+<span data-ttu-id="93950-104">Per creare una gerarchia organizzativa, attenersi alla seguente procedura.</span><span class="sxs-lookup"><span data-stu-id="93950-104">Use the following procedure to create an organizational hierarchy.</span></span> <span data-ttu-id="93950-105">È possibile utilizzare le gerarchie organizzative per la visualizzazione e il reporting dell'attività aziendale da varie prospettive.</span><span class="sxs-lookup"><span data-stu-id="93950-105">You can use organizational hierarchies to view and report on your business from various perspectives.</span></span> <span data-ttu-id="93950-106">È possibile impostare, ad esempio, una gerarchia per una dichiarazione fiscale, legale o statutaria.</span><span class="sxs-lookup"><span data-stu-id="93950-106">For example, you can set up one hierarchy for tax, legal, or statutory reporting.</span></span> <span data-ttu-id="93950-107">È quindi possibile impostare un'altra gerarchia per il reporting di informazioni finanziarie non obbligatorio per legge, ma utilizzato per la creazione di report interni.</span><span class="sxs-lookup"><span data-stu-id="93950-107">You can then set up another hierarchy to report financial information that is not legally required, but that is used for internal reporting.</span></span> 
 
 
 
-<span data-ttu-id="82ac9-108">Prima di creare una gerarchia organizzativa, è necessario creare organizzazioni.</span><span class="sxs-lookup"><span data-stu-id="82ac9-108">Before you create an organizational hierarchy, you must create organizations.</span></span> <span data-ttu-id="82ac9-109">Per ulteriori informazioni, vedere l'attività "Creare una nuova persona giuridica" o "Creare un'unità operativa".</span><span class="sxs-lookup"><span data-stu-id="82ac9-109">For more information, see the “Create a legal entity” or “Create an operating unit” tasks.</span></span> <span data-ttu-id="82ac9-110">È inoltre possibile creare reparti e team,.</span><span class="sxs-lookup"><span data-stu-id="82ac9-110">You can also create departments and teams.</span></span> 
+<span data-ttu-id="93950-108">Prima di creare una gerarchia organizzativa, è necessario creare organizzazioni.</span><span class="sxs-lookup"><span data-stu-id="93950-108">Before you create an organizational hierarchy, you must create organizations.</span></span> <span data-ttu-id="93950-109">Per ulteriori informazioni, vedere l'attività "Creare una nuova persona giuridica" o "Creare un'unità operativa".</span><span class="sxs-lookup"><span data-stu-id="93950-109">For more information, see the “Create a legal entity” or “Create an operating unit” tasks.</span></span> <span data-ttu-id="93950-110">È inoltre possibile creare reparti e team,.</span><span class="sxs-lookup"><span data-stu-id="93950-110">You can also create departments and teams.</span></span> 
 
 
 
-<span data-ttu-id="82ac9-111">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="82ac9-111">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="93950-111">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="93950-111">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-hierarchy"></a><span data-ttu-id="82ac9-112">Crea una gerarchia</span><span class="sxs-lookup"><span data-stu-id="82ac9-112">Create a hierarchy</span></span>
-1. <span data-ttu-id="82ac9-113">Andare ad Amministrazione organizzazione > Organizzazioni > Gerarchie organizzative.</span><span class="sxs-lookup"><span data-stu-id="82ac9-113">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
-2. <span data-ttu-id="82ac9-114">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="82ac9-114">Click New.</span></span>
-3. <span data-ttu-id="82ac9-115">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="82ac9-115">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="82ac9-116">Fare clic su Assegna scopo.</span><span class="sxs-lookup"><span data-stu-id="82ac9-116">Click Assign purpose.</span></span>
-5. <span data-ttu-id="82ac9-117">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="82ac9-117">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="82ac9-118">Selezionare uno scopo da assegnare alla propria gerarchia organizzativa.</span><span class="sxs-lookup"><span data-stu-id="82ac9-118">Select a purpose to assign to your organization hierarchy.</span></span>  
-6. <span data-ttu-id="82ac9-119">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="82ac9-119">Click Add.</span></span>
-7. <span data-ttu-id="82ac9-120">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="82ac9-120">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="82ac9-121">Individuare la gerarchia appena creata.</span><span class="sxs-lookup"><span data-stu-id="82ac9-121">Find the hierarchy you just created.</span></span>  
-8. <span data-ttu-id="82ac9-122">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="82ac9-122">Click OK.</span></span>
+## <a name="create-a-hierarchy"></a><span data-ttu-id="93950-112">Crea una gerarchia</span><span class="sxs-lookup"><span data-stu-id="93950-112">Create a hierarchy</span></span>
+1. <span data-ttu-id="93950-113">Andare ad Amministrazione organizzazione > Organizzazioni > Gerarchie organizzative.</span><span class="sxs-lookup"><span data-stu-id="93950-113">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
+2. <span data-ttu-id="93950-114">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="93950-114">Click New.</span></span>
+3. <span data-ttu-id="93950-115">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="93950-115">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="93950-116">Fare clic su Assegna scopo.</span><span class="sxs-lookup"><span data-stu-id="93950-116">Click Assign purpose.</span></span>
+5. <span data-ttu-id="93950-117">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="93950-117">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="93950-118">Selezionare uno scopo da assegnare alla propria gerarchia organizzativa.</span><span class="sxs-lookup"><span data-stu-id="93950-118">Select a purpose to assign to your organization hierarchy.</span></span>  
+6. <span data-ttu-id="93950-119">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="93950-119">Click Add.</span></span>
+7. <span data-ttu-id="93950-120">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="93950-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="93950-121">Individuare la gerarchia appena creata.</span><span class="sxs-lookup"><span data-stu-id="93950-121">Find the hierarchy you just created.</span></span>  
+8. <span data-ttu-id="93950-122">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="93950-122">Click OK.</span></span>
 
-## <a name="add-organizations-to-the-hierarchy"></a><span data-ttu-id="82ac9-123">Aggiungere organizzazioni alla gerarchia</span><span class="sxs-lookup"><span data-stu-id="82ac9-123">Add organizations to the hierarchy</span></span>
-1. <span data-ttu-id="82ac9-124">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="82ac9-124">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="82ac9-125">Selezionare la propria gerarchia.</span><span class="sxs-lookup"><span data-stu-id="82ac9-125">Select your hierarchy.</span></span>  
-2. <span data-ttu-id="82ac9-126">Fare clic su Visualizza gerarchia.</span><span class="sxs-lookup"><span data-stu-id="82ac9-126">Click View hierarchy.</span></span>
-    * <span data-ttu-id="82ac9-127">Aggiungere organizzazioni in base alle necessità.</span><span class="sxs-lookup"><span data-stu-id="82ac9-127">Add organizations, as necessary.</span></span>  
-    * <span data-ttu-id="82ac9-128">Per aggiungere un'organizzazione, fare clic su Modifica, quindi su Inserisci.</span><span class="sxs-lookup"><span data-stu-id="82ac9-128">To add an organization, click Edit and then Insert to add the organization.</span></span>     <span data-ttu-id="82ac9-129">Dopo avere apportato le modifiche, è possibile salvare una bozza e/o pubblicare le modifiche.</span><span class="sxs-lookup"><span data-stu-id="82ac9-129">When you are done making changes you can save a draft and/or publish the changes.</span></span>  
+## <a name="add-organizations-to-the-hierarchy"></a><span data-ttu-id="93950-123">Aggiungere organizzazioni alla gerarchia</span><span class="sxs-lookup"><span data-stu-id="93950-123">Add organizations to the hierarchy</span></span>
+1. <span data-ttu-id="93950-124">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="93950-124">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="93950-125">Selezionare la propria gerarchia.</span><span class="sxs-lookup"><span data-stu-id="93950-125">Select your hierarchy.</span></span>  
+2. <span data-ttu-id="93950-126">Fare clic su Visualizza gerarchia.</span><span class="sxs-lookup"><span data-stu-id="93950-126">Click View hierarchy.</span></span>
+    * <span data-ttu-id="93950-127">Aggiungere organizzazioni in base alle necessità.</span><span class="sxs-lookup"><span data-stu-id="93950-127">Add organizations, as necessary.</span></span>  
+    * <span data-ttu-id="93950-128">Per aggiungere un'organizzazione, fare clic su Modifica, quindi su Inserisci.</span><span class="sxs-lookup"><span data-stu-id="93950-128">To add an organization, click Edit and then Insert to add the organization.</span></span>     <span data-ttu-id="93950-129">Dopo avere apportato le modifiche, è possibile salvare una bozza e/o pubblicare le modifiche.</span><span class="sxs-lookup"><span data-stu-id="93950-129">When you are done making changes you can save a draft and/or publish the changes.</span></span>  
 

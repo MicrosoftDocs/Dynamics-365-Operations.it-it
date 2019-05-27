@@ -18,30 +18,30 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: d6a6487b50908093f876237ffef840a3144b3fe6
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "857455"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518411"
 ---
-# <a name="analytic-reports-are-not-updated"></a><span data-ttu-id="73966-103">I report analitici non sono aggiornati</span><span class="sxs-lookup"><span data-stu-id="73966-103">Analytic reports are not updated</span></span>
+# <a name="analytic-reports-are-not-updated"></a><span data-ttu-id="68ce4-103">I report analitici non sono aggiornati</span><span class="sxs-lookup"><span data-stu-id="68ce4-103">Analytic reports are not updated</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="73966-104">**Uscita**</span><span class="sxs-lookup"><span data-stu-id="73966-104">**Issue**</span></span>
+<span data-ttu-id="68ce4-104">**Uscita**</span><span class="sxs-lookup"><span data-stu-id="68ce4-104">**Issue**</span></span>
 
-<span data-ttu-id="73966-105">Le modifiche ai dati di un cliente non sono visualizzate nelle schede **Analisi** di alcuna area di lavoro del cliente.</span><span class="sxs-lookup"><span data-stu-id="73966-105">A customer's data changes don't appear on the **Analytics** tabs of any of the customer's workspaces.</span></span>
+<span data-ttu-id="68ce4-105">Le modifiche ai dati di un cliente non sono visualizzate nelle schede **Analisi** di alcuna area di lavoro del cliente.</span><span class="sxs-lookup"><span data-stu-id="68ce4-105">A customer's data changes don't appear on the **Analytics** tabs of any of the customer's workspaces.</span></span>
 
-<span data-ttu-id="73966-106">**Causa**</span><span class="sxs-lookup"><span data-stu-id="73966-106">**Cause**</span></span>
+<span data-ttu-id="68ce4-106">**Causa**</span><span class="sxs-lookup"><span data-stu-id="68ce4-106">**Cause**</span></span>
 
-<span data-ttu-id="73966-107">Per impostazione predefinita, i report di Microsoft Power BI sono aggiornati ogni quattro ore, in base alla programmazione del processo batch Distribuire misura.</span><span class="sxs-lookup"><span data-stu-id="73966-107">By default, Microsoft Power BI reports are refreshed every four hours, according to the schedule of the Deploy measurement batch job.</span></span>
+<span data-ttu-id="68ce4-107">Per impostazione predefinita, i report di Microsoft Power BI sono aggiornati ogni quattro ore, in base alla programmazione del processo batch Distribuire misura.</span><span class="sxs-lookup"><span data-stu-id="68ce4-107">By default, Microsoft Power BI reports are refreshed every four hours, according to the schedule of the Deploy measurement batch job.</span></span>
 
-<span data-ttu-id="73966-108">**Risoluzione**</span><span class="sxs-lookup"><span data-stu-id="73966-108">**Resolution**</span></span>
+<span data-ttu-id="68ce4-108">**Risoluzione**</span><span class="sxs-lookup"><span data-stu-id="68ce4-108">**Resolution**</span></span>
 
-<span data-ttu-id="73966-109">Il problema potrebbe essere semplicemente una questione di tempistiche.</span><span class="sxs-lookup"><span data-stu-id="73966-109">This issue might just be a matter of timing.</span></span> <span data-ttu-id="73966-110">Seguire la procedura seguente per avviare il processo batch e aggiornare le aree di lavoro di analisi.</span><span class="sxs-lookup"><span data-stu-id="73966-110">Follow these steps to start the batch job and update the analytics workspaces.</span></span>
+<span data-ttu-id="68ce4-109">Il problema potrebbe essere semplicemente una questione di tempistiche.</span><span class="sxs-lookup"><span data-stu-id="68ce4-109">This issue might just be a matter of timing.</span></span> <span data-ttu-id="68ce4-110">Seguire la procedura seguente per avviare il processo batch e aggiornare le aree di lavoro di analisi.</span><span class="sxs-lookup"><span data-stu-id="68ce4-110">Follow these steps to start the batch job and update the analytics workspaces.</span></span>
 
-1. <span data-ttu-id="73966-111">Aprire la pagina **Processi batch** in **Amministrazione sistema \> Collegamenti \> Processi batch \> Processi batch**.</span><span class="sxs-lookup"><span data-stu-id="73966-111">Open the **Batch jobs** page at **System administration \> Links \> Batch jobs \> Batch jobs**.</span></span> <span data-ttu-id="73966-112">In alternativa, utilizzare Cerca e immettere **Processi batch**.</span><span class="sxs-lookup"><span data-stu-id="73966-112">Alternatively, use Search, and enter **Batch Jobs**.</span></span>
-1. <span data-ttu-id="73966-113">Individuare il processo **Distribuire misura** nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="73966-113">Find the **Deploy measurement** job in the list.</span></span>
-1. <span data-ttu-id="73966-114">Selezionare **Modifica** nella parte superiore della pagina e impostare la data/ora di avvio pianificata su un valore che aggiorna l'analisi più prossima all'ora corrente.</span><span class="sxs-lookup"><span data-stu-id="73966-114">Select **Edit** at the top of the page, and set the scheduled start date/time to a value that will refresh the analytics closer to the current time.</span></span>
+1. <span data-ttu-id="68ce4-111">Aprire la pagina **Processi batch** in **Amministrazione sistema \> Collegamenti \> Processi batch \> Processi batch**.</span><span class="sxs-lookup"><span data-stu-id="68ce4-111">Open the **Batch jobs** page at **System administration \> Links \> Batch jobs \> Batch jobs**.</span></span> <span data-ttu-id="68ce4-112">In alternativa, utilizzare Cerca e immettere **Processi batch**.</span><span class="sxs-lookup"><span data-stu-id="68ce4-112">Alternatively, use Search, and enter **Batch Jobs**.</span></span>
+1. <span data-ttu-id="68ce4-113">Individuare il processo **Distribuire misura** nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="68ce4-113">Find the **Deploy measurement** job in the list.</span></span>
+1. <span data-ttu-id="68ce4-114">Selezionare **Modifica** nella parte superiore della pagina e impostare la data/ora di avvio pianificata su un valore che aggiorna l'analisi più prossima all'ora corrente.</span><span class="sxs-lookup"><span data-stu-id="68ce4-114">Select **Edit** at the top of the page, and set the scheduled start date/time to a value that will refresh the analytics closer to the current time.</span></span>
 
 ![Processi batch](media/batch-jobs.png)
