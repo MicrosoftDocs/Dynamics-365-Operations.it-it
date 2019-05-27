@@ -1,12 +1,12 @@
 ---
 title: Accesso alle funzionalità di anteprima in Talent
 description: Questo argomento descrive come un amministratore può attivare le funzionalità in anteprima ed elenca le funzionalità attualmente attivate per l'anteprima.
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856326"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518406"
 ---
 # <a name="access-preview-features-in-talent"></a>Accesso alle funzionalità di anteprima in Talent
 
@@ -72,6 +72,7 @@ Questo argomento descrive come un amministratore può attivare le funzionalità 
 
 - **Applicazione candidato** – Ora i candidati interni ed esterni possono inviare la loro candidatura direttamente dalla pagina delle posizioni lavorative sul sito delle carriere.
 - **Gestione offerta** – Gli utenti possono ora creare lettere di offerta a partire da modelli che includono segnaposto. A mano a mano che i candidati avanzano nella fase di offerta, i reclutatori e i responsabili assunzioni possono utilizzare lo strumento Offerta per preparare un'offerta formale di un candidato tramite modelli, inviare l'offerta per l'approvazione interna e inviare l'offerta al candidato per la firma. Molte nuove funzioni saranno aggiunte allo strumento Offerta nel tempo e la funzionalità in anteprima verrà aggiornata con queste funzioni non appena saranno pronte per il rilascio in anteprima.
+- **[Report analitici](analytic-reports.md)**: i team di assunzione possono visualizzare le metriche chiave per una singola posizione con Analisi posizione o le metriche aggregate su tutte le posizioni nell'hub di Analisi.
 
 ### <a name="core-hr"></a>Core HR
 

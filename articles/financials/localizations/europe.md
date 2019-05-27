@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321733"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545464"
 ---
 # <a name="europe"></a>Europa 
 
@@ -90,7 +90,7 @@ In questo argomento vengono fornite le informazioni e i collegamenti alle risors
   - [Tassi di cambio IVA](emea-vat-exchange-rate.md)
   - [Report di riconciliazione IVA](tasks/eur-00018-vat-reconciliation-report.md)
   - [Transazioni libro IVA per Europa orientale](emea-vat-register-transactions.md)
-  - [Dichiarazione IVA](emea-vat-reporting.md)
+  - [Reporting IVA](emea-vat-reporting.md)
   - [Creare e inviare un report IVA](tasks/create-submit-vat-report.md)
   - [Visualizzare le transazioni in liquidazione](emea-transactions-settlement-form.md)
 
