@@ -18,31 +18,31 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a0d7092228f078f528ec1cb9ac56d7034c44bccf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "349701"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567885"
 ---
-# <a name="maintain-barcode-types"></a><span data-ttu-id="381b7-103">Gestisci tipi di codici a barre</span><span class="sxs-lookup"><span data-stu-id="381b7-103">Maintain barcode types</span></span>
+# <a name="maintain-barcode-types"></a><span data-ttu-id="7e60a-103">Gestisci tipi di codici a barre</span><span class="sxs-lookup"><span data-stu-id="7e60a-103">Maintain barcode types</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="381b7-104">Questa procedura mostra come impostare una nuova definizione di codice a barre che potrà quindi essere utilizzata come parte del report distinta di prelievo.</span><span class="sxs-lookup"><span data-stu-id="381b7-104">This procedure shows you how to set up a new barcode definition which can then be used as part of the picking list report.</span></span> <span data-ttu-id="381b7-105">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.</span><span class="sxs-lookup"><span data-stu-id="381b7-105">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="381b7-106">Se si utilizza USMF è possibile utilizzare i valori di esempio visualizzati.</span><span class="sxs-lookup"><span data-stu-id="381b7-106">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="381b7-107">Queste attività verranno in genere svolte da un responsabile del magazzino.</span><span class="sxs-lookup"><span data-stu-id="381b7-107">These tasks would typically be carried out by a warehouse manager.</span></span>
+<span data-ttu-id="7e60a-104">Questa procedura mostra come impostare una nuova definizione di codice a barre che potrà quindi essere utilizzata come parte del report distinta di prelievo.</span><span class="sxs-lookup"><span data-stu-id="7e60a-104">This procedure shows you how to set up a new barcode definition which can then be used as part of the picking list report.</span></span> <span data-ttu-id="7e60a-105">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.</span><span class="sxs-lookup"><span data-stu-id="7e60a-105">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="7e60a-106">Se si utilizza USMF è possibile utilizzare i valori di esempio visualizzati.</span><span class="sxs-lookup"><span data-stu-id="7e60a-106">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="7e60a-107">Queste attività verranno in genere svolte da un responsabile del magazzino.</span><span class="sxs-lookup"><span data-stu-id="7e60a-107">These tasks would typically be carried out by a warehouse manager.</span></span>
 
-1. <span data-ttu-id="381b7-108">Passare ai codici a barre.</span><span class="sxs-lookup"><span data-stu-id="381b7-108">Go to Bar codes.</span></span>
-2. <span data-ttu-id="381b7-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="381b7-109">Click New.</span></span>
-3. <span data-ttu-id="381b7-110">Digitare un valore nel campo Impostazione codice a barre.</span><span class="sxs-lookup"><span data-stu-id="381b7-110">In the Barcode setup field, type a value.</span></span>
-4. <span data-ttu-id="381b7-111">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="381b7-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="381b7-112">Nel campo Tipo di codice a barre selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="381b7-112">In the Bar code type field, select an option.</span></span>
-    * <span data-ttu-id="381b7-113">Se si utilizza USMF, è possibile selezionare 'Code 39'.</span><span class="sxs-lookup"><span data-stu-id="381b7-113">If you're using USMF, you can select 'Code 39'.</span></span>  
-6. <span data-ttu-id="381b7-114">Nel campo Dimensioni immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="381b7-114">In the Size field, enter a number.</span></span>
-7. <span data-ttu-id="381b7-115">Nel campo Lunghezza massima immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="381b7-115">In the Maximum length field, enter a number.</span></span>
-8. <span data-ttu-id="381b7-116">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="381b7-116">Click Save.</span></span>
-9. <span data-ttu-id="381b7-117">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="381b7-117">Close the page.</span></span>
-10. <span data-ttu-id="381b7-118">Passare a Parametri di gestione articoli e magazzino.</span><span class="sxs-lookup"><span data-stu-id="381b7-118">Go to Inventory and warehouse management parameters.</span></span>
-11. <span data-ttu-id="381b7-119">Nel campo Impostazione codice a barre immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="381b7-119">In the Barcode setup field, enter or select a value.</span></span>
-    * <span data-ttu-id="381b7-120">Selezionare l'impostazione codice a barre creata prima, ma tenere presente che il formato di codice a barre deve corrispondere al formato dell'identificatore univoco per il tipo di record utilizzato nel processo.</span><span class="sxs-lookup"><span data-stu-id="381b7-120">Select the barcode setup that you created before, but be aware that the bar code format must match the format of the unique identifier for the record type used in the process.</span></span> <span data-ttu-id="381b7-121">Ad esempio, per i cicli di prelievo, il formato di codice a barre deve corrispondere al formato di riferimento del ciclo di prelievo, che è in genere una sequenza numerica.</span><span class="sxs-lookup"><span data-stu-id="381b7-121">For example, for picking routes, the bar code format should match the format of the picking route reference, which is typically a number sequence.</span></span>  
-12. <span data-ttu-id="381b7-122">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="381b7-122">Click Save.</span></span>
-13. <span data-ttu-id="381b7-123">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="381b7-123">Close the page.</span></span>
+1. <span data-ttu-id="7e60a-108">Passare ai codici a barre.</span><span class="sxs-lookup"><span data-stu-id="7e60a-108">Go to Bar codes.</span></span>
+2. <span data-ttu-id="7e60a-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="7e60a-109">Click New.</span></span>
+3. <span data-ttu-id="7e60a-110">Digitare un valore nel campo Impostazione codice a barre.</span><span class="sxs-lookup"><span data-stu-id="7e60a-110">In the Barcode setup field, type a value.</span></span>
+4. <span data-ttu-id="7e60a-111">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="7e60a-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="7e60a-112">Nel campo Tipo di codice a barre selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="7e60a-112">In the Bar code type field, select an option.</span></span>
+    * <span data-ttu-id="7e60a-113">Se si utilizza USMF, è possibile selezionare 'Code 39'.</span><span class="sxs-lookup"><span data-stu-id="7e60a-113">If you're using USMF, you can select 'Code 39'.</span></span>  
+6. <span data-ttu-id="7e60a-114">Nel campo Dimensioni immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="7e60a-114">In the Size field, enter a number.</span></span>
+7. <span data-ttu-id="7e60a-115">Nel campo Lunghezza massima immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="7e60a-115">In the Maximum length field, enter a number.</span></span>
+8. <span data-ttu-id="7e60a-116">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="7e60a-116">Click Save.</span></span>
+9. <span data-ttu-id="7e60a-117">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="7e60a-117">Close the page.</span></span>
+10. <span data-ttu-id="7e60a-118">Passare a Parametri di gestione articoli e magazzino.</span><span class="sxs-lookup"><span data-stu-id="7e60a-118">Go to Inventory and warehouse management parameters.</span></span>
+11. <span data-ttu-id="7e60a-119">Nel campo Impostazione codice a barre immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="7e60a-119">In the Barcode setup field, enter or select a value.</span></span>
+    * <span data-ttu-id="7e60a-120">Selezionare l'impostazione codice a barre creata prima, ma tenere presente che il formato di codice a barre deve corrispondere al formato dell'identificatore univoco per il tipo di record utilizzato nel processo.</span><span class="sxs-lookup"><span data-stu-id="7e60a-120">Select the barcode setup that you created before, but be aware that the bar code format must match the format of the unique identifier for the record type used in the process.</span></span> <span data-ttu-id="7e60a-121">Ad esempio, per i cicli di prelievo, il formato di codice a barre deve corrispondere al formato di riferimento del ciclo di prelievo, che è in genere una sequenza numerica.</span><span class="sxs-lookup"><span data-stu-id="7e60a-121">For example, for picking routes, the bar code format should match the format of the picking route reference, which is typically a number sequence.</span></span>  
+12. <span data-ttu-id="7e60a-122">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="7e60a-122">Click Save.</span></span>
+13. <span data-ttu-id="7e60a-123">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="7e60a-123">Close the page.</span></span>
 

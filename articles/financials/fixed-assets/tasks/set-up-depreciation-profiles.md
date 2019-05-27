@@ -17,27 +17,27 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8bb33a01232e3556d743e8913a61eb2f6375ba73
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336775"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559749"
 ---
-# <a name="set-up-and-create-depreciation-profiles"></a><span data-ttu-id="f1e40-103">Impostare e creare profili di ammortamento</span><span class="sxs-lookup"><span data-stu-id="f1e40-103">Set up and create depreciation profiles</span></span>
+# <a name="set-up-and-create-depreciation-profiles"></a><span data-ttu-id="f17ac-103">Impostare e creare profili di ammortamento</span><span class="sxs-lookup"><span data-stu-id="f17ac-103">Set up and create depreciation profiles</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f1e40-104">I profili di ammortamento determinano il tipo e la frequenza di ammortamento per un cespite.</span><span class="sxs-lookup"><span data-stu-id="f1e40-104">Depreciation profiles determine the type and the frequency of depreciation for an asset.</span></span>   <span data-ttu-id="f1e40-105">In questa registrazione viene utilizzata la società dimostrativa USMF e il ruolo Ragioniere.</span><span class="sxs-lookup"><span data-stu-id="f1e40-105">This recording uses the USMF demo company and the accountant role.</span></span>
+<span data-ttu-id="f17ac-104">I profili di ammortamento determinano il tipo e la frequenza di ammortamento per un cespite.</span><span class="sxs-lookup"><span data-stu-id="f17ac-104">Depreciation profiles determine the type and the frequency of depreciation for an asset.</span></span>   <span data-ttu-id="f17ac-105">In questa registrazione viene utilizzata la società dimostrativa USMF e il ruolo Ragioniere.</span><span class="sxs-lookup"><span data-stu-id="f17ac-105">This recording uses the USMF demo company and the accountant role.</span></span>
 
 
-## <a name="create-a-depreciation-profile"></a><span data-ttu-id="f1e40-106">Creare un profilo di ammortamento</span><span class="sxs-lookup"><span data-stu-id="f1e40-106">Create a depreciation profile</span></span>
-1. <span data-ttu-id="f1e40-107">Passare a Cespiti > Configurazione > Profili di ammortamento.</span><span class="sxs-lookup"><span data-stu-id="f1e40-107">Go to Fixed assets > Setup > Depreciation profiles.</span></span>
-2. <span data-ttu-id="f1e40-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="f1e40-108">Click New.</span></span>
-3. <span data-ttu-id="f1e40-109">Nel campo Profilo di ammortamento digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="f1e40-109">In the Depreciation profile field, type a value.</span></span>
-4. <span data-ttu-id="f1e40-110">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="f1e40-110">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="f1e40-111">Selezionare un'opzione nel campo Metodo.</span><span class="sxs-lookup"><span data-stu-id="f1e40-111">In the Method field, select an option.</span></span>
-    * <span data-ttu-id="f1e40-112">Se si seleziona Saldo decrescente, sarà necessario immettere una percentuale nel campo Percentuale.</span><span class="sxs-lookup"><span data-stu-id="f1e40-112">If selecting reducing balance, you will need to enter a percentage in the Percentage field.</span></span>  
-6. <span data-ttu-id="f1e40-113">Selezionare un'opzione nel campo Anno di ammortamento.</span><span class="sxs-lookup"><span data-stu-id="f1e40-113">In the Depreciation year field, select an option.</span></span>
-7. <span data-ttu-id="f1e40-114">Selezionare un'opzione nel campo Frequenza periodo.</span><span class="sxs-lookup"><span data-stu-id="f1e40-114">In the Period frequency field, select an option.</span></span>
-8. <span data-ttu-id="f1e40-115">Chiudere il modulo.</span><span class="sxs-lookup"><span data-stu-id="f1e40-115">Close the form.</span></span>
+## <a name="create-a-depreciation-profile"></a><span data-ttu-id="f17ac-106">Creare un profilo di ammortamento</span><span class="sxs-lookup"><span data-stu-id="f17ac-106">Create a depreciation profile</span></span>
+1. <span data-ttu-id="f17ac-107">Passare a Cespiti > Configurazione > Profili di ammortamento.</span><span class="sxs-lookup"><span data-stu-id="f17ac-107">Go to Fixed assets > Setup > Depreciation profiles.</span></span>
+2. <span data-ttu-id="f17ac-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="f17ac-108">Click New.</span></span>
+3. <span data-ttu-id="f17ac-109">Nel campo Profilo di ammortamento digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="f17ac-109">In the Depreciation profile field, type a value.</span></span>
+4. <span data-ttu-id="f17ac-110">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="f17ac-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="f17ac-111">Selezionare un'opzione nel campo Metodo.</span><span class="sxs-lookup"><span data-stu-id="f17ac-111">In the Method field, select an option.</span></span>
+    * <span data-ttu-id="f17ac-112">Se si seleziona Saldo decrescente, sarà necessario immettere una percentuale nel campo Percentuale.</span><span class="sxs-lookup"><span data-stu-id="f17ac-112">If selecting reducing balance, you will need to enter a percentage in the Percentage field.</span></span>  
+6. <span data-ttu-id="f17ac-113">Selezionare un'opzione nel campo Anno di ammortamento.</span><span class="sxs-lookup"><span data-stu-id="f17ac-113">In the Depreciation year field, select an option.</span></span>
+7. <span data-ttu-id="f17ac-114">Selezionare un'opzione nel campo Frequenza periodo.</span><span class="sxs-lookup"><span data-stu-id="f17ac-114">In the Period frequency field, select an option.</span></span>
+8. <span data-ttu-id="f17ac-115">Chiudere il modulo.</span><span class="sxs-lookup"><span data-stu-id="f17ac-115">Close the form.</span></span>
 
