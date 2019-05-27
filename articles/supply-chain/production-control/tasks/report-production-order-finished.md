@@ -18,37 +18,37 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 97e67ff51e4bc4533aeb2485c34cd5ec8a882bb6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320491"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558436"
 ---
-# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="9a5ae-103">Dichiarazione di un ordine di produzione come finito</span><span class="sxs-lookup"><span data-stu-id="9a5ae-103">Report a production order as finished</span></span>
+# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="892d2-103">Dichiarazione di un ordine di produzione come finito</span><span class="sxs-lookup"><span data-stu-id="892d2-103">Report a production order as finished</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="9a5ae-104">Questa procedura indica come dichiarare un ordine di produzione come finito.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="9a5ae-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9a5ae-106">Si tratta della sesta procedura su sette che spiega il ciclo di vita dell'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="892d2-104">Questa procedura indica come dichiarare un ordine di produzione come finito.</span><span class="sxs-lookup"><span data-stu-id="892d2-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="892d2-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="892d2-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="892d2-106">Si tratta della sesta procedura su sette che spiega il ciclo di vita dell'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="892d2-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="9a5ae-107">Dichiarazione di un ordine di produzione come finito</span><span class="sxs-lookup"><span data-stu-id="9a5ae-107">Report a production order as finished</span></span>
-1. <span data-ttu-id="9a5ae-108">Andare a Controllo produzione > Ordini di produzione > Tutti gli ordini di produzione.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="9a5ae-109">Selezionare un ordine di produzione con stato Avviato.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-109">Select a production order that has the Started status.</span></span>  
-2. <span data-ttu-id="9a5ae-110">Nel riquadro azioni fare clic su Ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-110">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="9a5ae-111">Fare clic su Dichiarazione di finito.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-111">Click Report as finished.</span></span>
-    * <span data-ttu-id="9a5ae-112">In questa pagina, è possibile confermare la quantità di prodotto finito da dichiarare come finita.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
-4. <span data-ttu-id="9a5ae-113">Fare clic sulla scheda Generale.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-113">Click the General tab.</span></span>
-5. <span data-ttu-id="9a5ae-114">Impostare Quantità idonea su '18'.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-114">Set Good quantity to '18'.</span></span>
-6. <span data-ttu-id="9a5ae-115">Impostare Quantità difettosa su '2'.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-115">Set Error quantity to '2'.</span></span>
-7. <span data-ttu-id="9a5ae-116">Nel campo Causa dell'errore, selezionare 'Materiale'.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-116">In the Error cause field, select 'Material'.</span></span>
-8. <span data-ttu-id="9a5ae-117">Selezionare o deselezionare la casella di controllo Processo finale.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-117">Select or clear the End job check box.</span></span>
-9. <span data-ttu-id="9a5ae-118">Selezionare o deselezionare la casella di controllo Accetta errore.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-118">Select or clear the Accept error check box.</span></span>
-10. <span data-ttu-id="9a5ae-119">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-119">Click OK.</span></span>
+## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="892d2-107">Dichiarazione di un ordine di produzione come finito</span><span class="sxs-lookup"><span data-stu-id="892d2-107">Report a production order as finished</span></span>
+1. <span data-ttu-id="892d2-108">Andare a Controllo produzione > Ordini di produzione > Tutti gli ordini di produzione.</span><span class="sxs-lookup"><span data-stu-id="892d2-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="892d2-109">Selezionare un ordine di produzione con stato Avviato.</span><span class="sxs-lookup"><span data-stu-id="892d2-109">Select a production order that has the Started status.</span></span>  
+2. <span data-ttu-id="892d2-110">Nel riquadro azioni fare clic su Ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="892d2-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="892d2-111">Fare clic su Dichiarazione di finito.</span><span class="sxs-lookup"><span data-stu-id="892d2-111">Click Report as finished.</span></span>
+    * <span data-ttu-id="892d2-112">In questa pagina, è possibile confermare la quantità di prodotto finito da dichiarare come finita.</span><span class="sxs-lookup"><span data-stu-id="892d2-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
+4. <span data-ttu-id="892d2-113">Fare clic sulla scheda Generale.</span><span class="sxs-lookup"><span data-stu-id="892d2-113">Click the General tab.</span></span>
+5. <span data-ttu-id="892d2-114">Impostare Quantità idonea su '18'.</span><span class="sxs-lookup"><span data-stu-id="892d2-114">Set Good quantity to '18'.</span></span>
+6. <span data-ttu-id="892d2-115">Impostare Quantità difettosa su '2'.</span><span class="sxs-lookup"><span data-stu-id="892d2-115">Set Error quantity to '2'.</span></span>
+7. <span data-ttu-id="892d2-116">Nel campo Causa dell'errore, selezionare 'Materiale'.</span><span class="sxs-lookup"><span data-stu-id="892d2-116">In the Error cause field, select 'Material'.</span></span>
+8. <span data-ttu-id="892d2-117">Selezionare o deselezionare la casella di controllo Processo finale.</span><span class="sxs-lookup"><span data-stu-id="892d2-117">Select or clear the End job check box.</span></span>
+9. <span data-ttu-id="892d2-118">Selezionare o deselezionare la casella di controllo Accetta errore.</span><span class="sxs-lookup"><span data-stu-id="892d2-118">Select or clear the Accept error check box.</span></span>
+10. <span data-ttu-id="892d2-119">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="892d2-119">Click OK.</span></span>
 
-## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="9a5ae-120">Verificare il giornale di registrazione dichiarazioni di finito</span><span class="sxs-lookup"><span data-stu-id="9a5ae-120">Verify the Report as finished journal</span></span>
-1. <span data-ttu-id="9a5ae-121">Nel riquadro azioni fare clic su Visualizza.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-121">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="9a5ae-122">Fare clic su Dichiarato finito.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-122">Click Reported as finished.</span></span>
-3. <span data-ttu-id="9a5ae-123">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-123">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="9a5ae-124">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-124">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="9a5ae-125">Il giornale di registrazione dichiarazioni di finito è stato registrato.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="9a5ae-126">Se si desidera apportare rettifiche al giornale di registrazione, è possibile creare manualmente un nuovo giornale di registrazione in cui è possibile apportare modifiche.</span><span class="sxs-lookup"><span data-stu-id="9a5ae-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
+## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="892d2-120">Verificare il giornale di registrazione dichiarazioni di finito</span><span class="sxs-lookup"><span data-stu-id="892d2-120">Verify the Report as finished journal</span></span>
+1. <span data-ttu-id="892d2-121">Nel riquadro azioni fare clic su Visualizza.</span><span class="sxs-lookup"><span data-stu-id="892d2-121">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="892d2-122">Fare clic su Dichiarato finito.</span><span class="sxs-lookup"><span data-stu-id="892d2-122">Click Reported as finished.</span></span>
+3. <span data-ttu-id="892d2-123">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="892d2-123">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="892d2-124">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="892d2-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="892d2-125">Il giornale di registrazione dichiarazioni di finito è stato registrato.</span><span class="sxs-lookup"><span data-stu-id="892d2-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="892d2-126">Se si desidera apportare rettifiche al giornale di registrazione, è possibile creare manualmente un nuovo giornale di registrazione in cui è possibile apportare modifiche.</span><span class="sxs-lookup"><span data-stu-id="892d2-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
 
