@@ -18,11 +18,11 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.openlocfilehash: 8c3899d5c6602b3afe13b447b40f0b4dcc701448
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347102"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554071"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Dividere file XML generati in base alla dimensione di file e alla quantità di contenuto
 

@@ -3,7 +3,7 @@ title: Doppia valuta
 description: In questo argomento vengono fornite informazioni sulla doppia valuta, dove la valuta di dichiarazione viene utilizzata come seconda valuta di contabilizzazione per Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330312"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532250"
 ---
 # <a name="dual-currency"></a>Doppia valuta
 
@@ -61,6 +61,9 @@ Per alcuni report e richieste di informazioni, è stata anche aggiunta logica pe
 ## <a name="financial-journals"></a>Giornali di registrazione finanziari
 
 I giornali di registrazione finanziari, ad esempio il giornale di registrazione generale e il giornale di registrazione fatture fornitore, sono stati aggiornati in modo da comprendessero informazioni aggiuntive sulla valuta di dichiarazione. I totali relativi al giustificativo e il giornale di registrazione sono ora visualizzati nella valuta di dichiarazione. Inoltre, le informazioni sul tasso di cambio della valuta di dichiarazione sono ora visualizzate nella scheda **Generale** delle righe del giornale di registrazione. Di conseguenza, è possibile ignorare il tasso di cambio della valuta di dichiarazione quando si immettono transazioni.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Fatture fornitore, ordini cliente e contratti di vendita
+Le fatture fornitore, ordini cliente e i contratti di vendita sono stati aggiornati per includere un tasso di cambio fisso per la valuta di dichiarazione. È possibile definire un tasso di cambio fisso sia per la valuta di contabilizzazione che per la valuta di dichiarazione quando la valuta della transazione è diversa. Quando la valuta di contabilizzazione e la valuta di dichiarazione sono uguali, il tasso di cambio fisso verrà mantenuto sincronizzato utilizzando il tasso fisso della valuta di contabilizzazione come tasso fisso della valuta di dichiarazione. Il tasso di cambio fisso della valuta di dichiarazione non può essere modificato per questa configurazione. Quando la valuta di contabilizzazione e la valuta di dichiarazione sono diverse, è possibile definire un tasso di cambio fisso sia per la valuta di contabilizzazione che per la valuta di dichiarazione durante l'immissione della transazione. Se la valuta di dichiarazione non è stata definita nella contabilità generale, il campo **Tasso di cambio fisso della valuta di dichiarazione** non è disponibile e nessun importo nella valuta di dichiarazione viene calcolato.
 
 ## <a name="module-changes"></a>Modifiche nei moduli
 

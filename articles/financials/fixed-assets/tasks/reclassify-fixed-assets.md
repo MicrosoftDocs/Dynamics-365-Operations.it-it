@@ -3,7 +3,7 @@ title: Riclassifica i cespiti
 description: Per riclassificare un cespite, è necessario trasferirlo in un nuovo gruppo cespite o assegnare al cespite un nuovo numero nello stesso gruppo.
 author: saraschi2
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 05/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8e289e2c18fd28829fb4b749933ae1d84e0b631
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: df4a2fa3c1a38519da83391bcf1c4aa38b6504ff
+ms.sourcegitcommit: 6890b5a372a18e11354003098a512685e339ddb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323297"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541199"
 ---
 # <a name="reclassify-fixed-assets"></a>Riclassifica i cespiti
 
@@ -30,18 +30,19 @@ Per riclassificare un cespite, è necessario trasferirlo in un nuovo gruppo cesp
 
 Quando un cespite viene riclassificato:
 
-• Per il nuovo cespite vengono creati tutti i modelli di valore del cespite esistente. Le informazioni impostate per il cespite originario vengono copiate nel nuovo cespite. Lo stato dei modelli di valore del cespite originario è Chiuso. 
+• Per il nuovo cespite vengono creati tutti i libri del cespite esistente. Le informazioni impostate per il cespite originario vengono copiate nel nuovo cespite. Lo stato dei libri del cespite originario è Chiuso. 
 
-• Nei nuovi modelli di valore del nuovo cespite è contenuta la data di riclassificazione presente nel campo Data di acquisizione. La data nel campo Data esecuzione ammortamento viene copiata dalle informazioni relative al cespite originario. Se l'ammortamento è già iniziato, nel campo Data ultimo ammortamento viene visualizzata la data di riclassificazione. 
+• Nei nuovi libri del nuovo cespite è contenuta la data di riclassificazione presente nel campo **Data di acquisizione**. La data nel campo **Data esecuzione ammortamento** viene copiata dalle informazioni relative al cespite originario. Se l'ammortamento è già iniziato, nel campo **Data ultimo ammortamento** viene visualizzata la data di riclassificazione. 
 
 • Le transazioni cespiti esistenti per il cespite originario vengono annullate e rigenerate per il nuovo cespite.
 
-1. Passare a Cespiti > Attività periodiche > Riclassificazione.
-2. Nel campo Gruppo cespite selezionare il gruppo da riclassificare.
-3. Nel campo Numero cespite selezionare il cespite da riclassificare.
-4. Nel campo Nuovo gruppo cespite, selezionare un gruppo in cui trasferire il cespite.
-    * Se il nuovo gruppo cespite è collegato a una sequenza numerica, il campo Nuovo numero cespite verrà aggiornato con il numero della sequenza numerica del nuovo gruppo cespite. In caso contrario, il campo Nuovo numero cespite viene aggiornato con il numero della sequenza numerica impostata nella pagina Parametri cespite. Se una sequenza numerica non è configurata nella pagina Parametri cespite, immettere un numero nel campo Nuovo numero cespite.  
-5. Immettere una data nel campo Riclassificazione.
-6. Nel campo Serie giustificativi immettere o selezionare un valore.
-7. Fare clic su OK.
+Seguire questi passaggi per riclassificare un cespite:
 
+1. Passare a **Cespiti > Attività periodiche > Riclassificazione**.
+2. Nel campo **Gruppo cespite** selezionare il gruppo da riclassificare.
+3. Nel campo **Numero cespite** selezionare il cespite da riclassificare.
+4. Nel campo **Nuovo gruppo cespite**, selezionare un gruppo in cui trasferire il cespite.
+    * Se il nuovo gruppo cespite è collegato a una sequenza numerica, il campo **Nuovo numero cespite** verrà aggiornato con il numero della sequenza numerica del nuovo gruppo cespite. In caso contrario, il campo **Nuovo numero cespite** viene aggiornato con il numero della sequenza numerica impostata nella pagina **Parametri cespite**. Se una sequenza numerica non è configurata nella pagina **Parametri cespite**, immettere un numero nel campo **Nuovo numero cespite**.  
+5. Immettere una data nel campo **Riclassificazione**.
+6. Nel campo **Serie giustificativi** immettere o selezionare un valore.
+7. Fare clic su **OK**.

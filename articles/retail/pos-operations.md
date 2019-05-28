@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842724"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505098"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
@@ -70,7 +70,9 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 106 | Cancella quantità | Reimposta la quantità della riga correntemente selezionata su **1**. | Sì | Sì | No | Sì | No |
 | 640 | Cancella rappresentante su riga | Rimuove il gruppo di vendite con provvigione (rappresentante) dalla riga correntemente selezionata. | Sì | Sì | No | Sì | No |
 | 121 | Cancella venditore | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
-| 1055 | Chiudi turno | Chiude il turno corrente, stampa un Z-report e disconnette l'utente dal sistema. | Sì | Sì | Sì | No | No |
+| 1055 | Chiudi turno | Chiude il turno corrente, stampa un Z-report e disconnette l'utente dal sistema. | Sì | Sì | Sì | Nessuno | Nessuno |
+| 139 | Concludi transazione | Invita l'utente a selezionare il metodo di pagamento | Sì | Sì | Nessuno | Sì | Nessuno |
+| 620 | Crea ordine cliente | Converte la transazione POS in un ordine cliente | Sì | Sì | Nessuno | Sì\* | Nessuno |
 | 925 | Copia assegno bancario | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | Sì |
 | 620 | Crea ordine cliente | Converte la transazione POS in un ordine cliente | Sì | Sì | No | Sì\* | No |
 | 621 | Crea offerta | Converte la transazione POS in un'offerta di vendita. | Sì | Sì | No | Sì\* | No |

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350736"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538958"
 ---
 # <a name="finance-and-operations-help-system"></a>Sistema della Guida di Finance and Operations
 
@@ -90,8 +90,6 @@ I commenti e suggerimenti dei clienti sono ben accetti. È possibile immettere c
 Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento nella parte inferiore della pagina.
 
 1. Fare clic su **Feedback** per accedere ai commenti nella parte inferiore della pagina e fare clic **Commenti e suggerimenti sul prodotto** o **Accedi per lasciare commenti e suggerimenti sulla documentazione**.
-
-    ![Feedback](./media/comments.png)
 
 2. Iniziare a digitare i commenti quindi fare clic su **Invia commenti e suggerimenti**.
 

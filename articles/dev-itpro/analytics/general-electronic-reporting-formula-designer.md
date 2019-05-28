@@ -3,7 +3,7 @@ title: Designer formula nella creazione di report elettronici (ER)
 description: In questo argomento viene illustrato come utilizzare designer formula nei report elettronici (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331278"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541270"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
@@ -440,12 +440,17 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>Restituisce l'elenco specificato dopo che è stata modifica la query per il filtro in base alla condizione specifica. Diversamente dalla funzione <strong>WHERE</strong>, la condizione specificata viene applicata a livello di database a qualsiasi origine dati ER del tipo di <strong>Record tabella</strong>. L'elenco e la condizione possono essere definite mediante le tabelle e le relazioni.</td>
 <td>Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> restituisce un elenco solo dei fornitori che appartengono al gruppo 40. Se <strong>Vendor</strong> viene configurato come origine dati ER che fa riferimento alla tabella VendTable e se <strong>parmVendorBankGroup</strong> viene configurato come origine dati ER che restituisce un valore del tipo di dati <strong>Stringa</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> restituisce un elenco costituito solo dai conti fornitori che appartengono a un gruppo bancario specifico.</td>
 </tr>
+<tr>
+<td>INDEX (elenco, indice)</td>
+<td>Questa funzione restituisce un record selezionato da un indice numerico specifico nell'elenco. Viene generata un'eccezione se l'indice non rientra nell'intervallo dei record nell'elenco.</td>
+<td>Se si immette l'origine dati <strong>DS</strong> per il tipo di <strong>campo calcolato</strong> e questo contiene l'espressione <strong>SPLIT ("A|B|C", “|”), 2)</strong>, l'espressione <strong>DS.Value</strong> restituisce il valore del testo,"B". Anche l'espressione <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> restituisce il valore del testo,"B".</td>
+</tr>
 </tbody>
 </table>
 
 ### <a name="logical-functions"></a>Funzioni logiche
 
-| Funzione | descrizione | Esempio |
+| Funzione | Descrizione | Esempio |
 |----------|-------------|---------|
 | CASE (espressione, opzione 1, risultato 1 \[, opzione 2, risultato 2\] … \[, risultato predefinito\]) | Confronta il valore specificato di espressione rispetto alle opzioni alternative specificate. Restituisce il risultato dell'opzione che è uguale al valore dell'espressione. In caso contrario, restituisce il risultato predefinito facoltativo, se è specificato. Il risultato predefinito è l'ultimo parametro che non è preceduto da un'opzione. | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** restituisce la stringa **"WINTER"** quando la data della sessione corrente di Finance and Operations è compresa tra ottobre e dicembre. In caso contrario, restituisce una stringa vuota. |
 | IF (condizione, valore 1, valore 2) | Restituisce il primo valore specificato quando viene soddisfatta la condizione specificata. In caso contrario, restituisce il secondo valore specificato. Se il valore 1 e il valore 2 sono record o elenchi di record, il risultato ha solo i campi che sono in entrambi gli elenchi. | **IF (1=2, "condizione soddisfatta", "condizione non soddisfatta")** restituisce la stringa **"condizione non soddisfatta"**. |

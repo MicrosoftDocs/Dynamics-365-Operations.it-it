@@ -1,9 +1,9 @@
 ---
-title: Funzionalità per la normativa e la localizzazione
-description: In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità specifiche del paese.
+title: Globalizzazione
+description: In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità e offerte specifiche del paese.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2018
+ms.date: 04/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,26 +17,33 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b9815ee404981719888e4fdf637bd81f1744d7fb
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302499"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517103"
 ---
-# <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
+# <a name="globalization"></a>Globalizzazione
+
+## <a name="local-and-regional-deployments"></a>Distribuzioni locali e locali
+Se le normative governative locali richiedono che i dati vengano memorizzati o gestiti in modo diverso rispetto a quanto richiesto per altri paesi/aree geografiche, per la distribuzione di Finance and Operations potrebbe essere necessario tenere in considerazione dei requisiti locali specifici. Tenere presente le seguenti risorse che potrebbero essere rilevanti per distribuzioni specifiche:
+
+[Microsoft Dynamics 365 for Finance and Operations - Gestito da 21Vianet in Cina](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+
+## <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
 
 [!include [banner](../includes/banner.md)]
 
 In Microsoft Dynamics 365 for Finance and Operations sono presenti funzionalità per i paesi documentati nella [Guida alla disponibilità della localizzazione e della traduzione del prodotto](https://aka.ms/dynamics_365_international_availability_deck). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
 
 In questo argomento sono inclusi gli elenchi delle risorse utili per effettuare le operazioni seguenti: 
-- ulteriori informazioni su soluzioni specifiche del paese in via di sviluppo/area geografica
-- recupero di aggiornamenti specifici del paese/dell'area geografica
-- inviare e rivedere gli avvisi normativi
-- informazioni su come utilizzare funzionalità specifiche del paese/dell'area geografica 
+- Ottenere ulteriori informazioni su come sviluppare soluzioni specifiche per paese/area geografica.
+- Recuperare aggiornamenti specifici del paese/dell'area geografica.
+- Inviare e consultare degli avvisi normativi.
+- Ottenere informazioni su come utilizzare funzionalità specifiche del paese/dell'area geografica.
 
-## <a name="developing-localized-solutions"></a>Sviluppo di soluzioni localizzate
+### <a name="developing-localized-solutions"></a>Sviluppo di soluzioni localizzate
 Nelle risorse seguenti sono riportate istruzioni e informazioni che possono essere utili per gli sviluppatori e i fornitori di software indipendente (ISV, Independent Software Vendor) che creano personalizzazioni specifiche di un paese/un'area geografica o una soluzione per un paese non supportato da Microsoft.
 -   [Modelli di localizzazione separati](separate-localization-models.md)
 -   [Applicare il contesto del paese](apply-country-context.md)
@@ -44,22 +51,25 @@ Nelle risorse seguenti sono riportate istruzioni e informazioni che possono esse
 -   [Classificare le funzionalità di localizzazione](classify-localization-features.md)
 -   [Codici paese - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="regulatory-updates-and-communication"></a>Aggiornamenti della normativa e comunicazione
+### <a name="regulatory-updates-and-communication"></a>Aggiornamenti della normativa e comunicazione
 Nelle risorse seguenti sono riportate informazioni sulle funzionalità di localizzazione nuove e pianificate. 
 
-### <a name="regulatory-updates"></a>Aggiornamenti normativi
+#### <a name="regulatory-updates"></a>Aggiornamenti normativi
 -   [Aggiornamenti normativi](../../financials/localizations/regulatory-updates.md)
 -   [Portale di localizzazione](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (aggiornamenti settimanali)
 -   [Ricerca argomento relativo a LCS](../lifecycle-services/issue-search-lcs.md) (aggiornamenti giornalieri)
 
-### <a name="communication-and-alerts"></a>Comunicazione e avvisi
+#### <a name="communication-and-alerts"></a>Comunicazione e avvisi
 -   [Comunicazione di aggiornamento normativo e monitoraggio normativo](regulatory-watch-communication.md)
 -   [Informare Microsoft sugli avvisi normativi di un paese e tenere traccia dello stato delle funzionalità per la normativa](submit-localization-alerts.md)
 
-### <a name="dynamics-365-release-notes"></a>Dynamics 365 note sulla versione
-Le note di versione [Dynamics 365 (PDF download)](https://aka.ms/businessappsreleasenotes) forniscono descrizioni delle capacità nuove e migliorate delle applicazioni aziendali e piattaforme di applicazioni in Dynamics 365. 
+#### <a name="dynamics-365-release-notes"></a>Dynamics 365 note sulla versione
+Le [note sulla versione di Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
 
-## <a name="electronic-reporting"></a>Creazione di report elettronici
+#### <a name="finance-and-operations-whats-new"></a>Novità di Finance and Operations
+Le [Novità](../../fin-and-ops/get-started/whats-new-changed.md) descrivono le funzionalità incluse in versioni specifiche di Finance and Operations.
+
+### <a name="electronic-reporting"></a>Creazione di report elettronici
 Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
 -   [Panoramica dei report elettronici](../analytics/general-electronic-reporting.md)
 -   [Gestire il ciclo di vita della configurazione per la creazione di report elettronici](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
@@ -71,7 +81,7 @@ Lo strumento di creazione di report elettronici consente di configurare i format
 -   [Configurare la creazione di report elettronici per eseguire il pull dei dati in Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Generare documenti elettronici e aggiornare i dati dell'applicazione mediante lo strumento di creazione di report elettronici](../analytics/generate-electronic-documents-update-application-data.md)
 
-## <a name="task-guides"></a>Guide attività
+### <a name="task-guides"></a>Guide attività
 Le guide attività sono disponibili nel riquadro della Guida del prodotto e forniscono una procedura dettagliata dei processi aziendali principali. È possibile aprire una guida attività per leggere i passaggi di un processo aziendale oppure è possibile riprodurre una guida attività per esaminare un processo aziendale e immettere dati.
 
 Per trovare le guide attività, fare clic su Guida in una pagina di Microsoft Dynamics 365 for Finance and Operations. Le guide attività che utilizzano la pagina sono elencate nel riquadro della Guida. È possibile utilizzare il riquadro della Guida anche per cercare le guide attività in base al titolo.
@@ -79,7 +89,7 @@ Per trovare le guide attività, fare clic su Guida in una pagina di Microsoft Dy
 Per ulteriori informazioni, vedere [Guide attività](../../fin-and-ops/get-started/help-overview.md#task-guides).
 
 
-## <a name="countryregion-specific-help-content"></a>Contenuti della Guida specifici del paese/dell'area geografica
+### <a name="countryregion-specific-help-content"></a>Contenuti della Guida specifici del paese/dell'area geografica
 :::row:::
     :::column:::
         - [Australia](../../financials/localizations/australia.md)

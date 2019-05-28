@@ -3,7 +3,7 @@ title: Impostare i dispositivi mobili per il lavoro di magazzino
 description: Viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347953"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1536551"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
@@ -412,8 +412,6 @@ Nella tabella seguente sono descritti i diversi tipi di lavoro per cui è possib
 
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
-
-[Impostazioni di visualizzazione per il dispositivo mobile del magazzino](change-warehouse-mobile-device-displays.md)
 
 [Impostare una voce di menu del dispositivo mobile per ultimare i lavori di tipo ordine acquisto (guida attività)](tasks/set-up-mobile-device-menu.md)
 

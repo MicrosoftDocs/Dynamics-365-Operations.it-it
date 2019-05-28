@@ -3,7 +3,7 @@ title: Sincronizzazione di ordini cliente direttamente tra Sales e Finance and O
 description: L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339121"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539116"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Sincronizzazione degli ordini cliente direttamente tra Sales e Finance and Operations
 
@@ -146,6 +146,16 @@ Prima di sincronizzare gli ordini cliente, è importante aggiornare le impostazi
 ### <a name="setup-in-finance-and-operations"></a>Impostazione in Finance and Operations
 
 - Andare a **Vendite e marketing** &gt; **Attività periodiche** &gt; **Calcola totali vendite** e impostare il processo da eseguire come processo batch. Impostare l'opzione **Calcola totali per ordini cliente** su **Sì**. Questo passaggio è importante perché solo gli ordini cliente con totali vendite calcolati verranno sincronizzati in Sales. La frequenza del processo batch deve essere in linea con la frequenza della sincronizzazione dell'ordine cliente.
+
+Se si utilizza anche l'integrazione dell'ordine di lavoro, è necessario impostare l'origine delle vendite. L'origine vendite viene utilizzata per distinguere gli ordini cliente in Finance and Operations che sono stati creati da ordini di lavoro in Field Service. Quando un ordine cliente ha un'origine vendite di tipo **Integrazione ordine di lavoro**, il campo **Stato ordine di lavoro esterno** viene visualizzato nell'intestazione dell'ordine cliente. L'origine vendite inoltre garantisce che gli ordini client creati da ordini di lavoro in Field Service vengano filtrati durante la sincronizzazione degli ordini cliente da Finance and Operations verso Field Service.
+
+1. Passare a **Vendite e marketing** \> **Impostazioni** \> **Ordini cliente** \> **Origine vendite**.
+2. Selezionare **Nuovo** per creare una nuova origine vendite.
+3. Nel campo **Origine vendite** immettere un nome per l'origine, ad esempio **SalesOrder**.
+4. Nel campo **Descrizione** immettere una descrizione, ad esempio **Ordine cliente di Sales**.
+5. Selezionare la casella di controllo **Assegnazione tipo di origine**.
+6. Impostare il campo **Tipo di origine vendite** su **Integrazione ordine cliente**.
+7. Selezionare **Salva**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Impostazione nel progetto di Integrazione dati Ordini cliente (da Sales in Fin and Ops) - Diretto
 
