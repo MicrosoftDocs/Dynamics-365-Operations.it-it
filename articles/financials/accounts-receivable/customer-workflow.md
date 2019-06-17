@@ -1,63 +1,132 @@
----
-title: Flusso di lavoro cliente
-description: In questo argomento vengono fornite informazioni sul flusso di lavoro del cliente. È possibile modificare campi specifici per un cliente e inviare tali modifiche per l'approvazione utilizzando il flusso di lavoro prima che vengano aggiunte al cliente.
-author: mikefalkner
-manager: aolson
-ms.date: 08/24/2018
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: Customer
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: mikefalkner
-ms.search.validFrom: 2018-08-30
-ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 71b6380e587c9d8e8c5677bfea6f2e5642fbd0d9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508761"
----
-# <a name="customer-workflow"></a><span data-ttu-id="dcecb-104">Flusso di lavoro cliente</span><span class="sxs-lookup"><span data-stu-id="dcecb-104">Customer workflow</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="dcecb-105">Il flusso di lavoro cliente è stato aggiunto in Microsoft Dynamics 365 for Finance and Operations versione 8.0.4.</span><span class="sxs-lookup"><span data-stu-id="dcecb-105">The customer workflow has been added to Microsoft Dynamics 365 for Finance and Operations version 8.0.4.</span></span> <span data-ttu-id="dcecb-106">È possibile modificare campi specifici per un cliente e inviare tali modifiche per l'approvazione utilizzando il flusso di lavoro prima che vengano aggiunte al cliente.</span><span class="sxs-lookup"><span data-stu-id="dcecb-106">You can change specific fields for a customer and then send those changes for approval by using the workflow before they are added to the customer.</span></span>
-
-## <a name="set-up-the-customer-workflow"></a><span data-ttu-id="dcecb-107">Impostare il flusso di lavoro cliente</span><span class="sxs-lookup"><span data-stu-id="dcecb-107">Set up the customer workflow</span></span>
-
-<span data-ttu-id="dcecb-108">Prima di utilizzare la funzionalità del flusso di lavoro del cliente, è necessario abilitarla.</span><span class="sxs-lookup"><span data-stu-id="dcecb-108">Before you can use the customer workflow feature, you must enable it.</span></span>
-
-1. <span data-ttu-id="dcecb-109">Andare a **Contabilità clienti \> Impostazioni \> Parametri contabilità clienti**.</span><span class="sxs-lookup"><span data-stu-id="dcecb-109">Go to **Accounts receivable \> Setup \> Accounts receivable parameters**.</span></span>
-2. <span data-ttu-id="dcecb-110">Nella scheda **Generale**, nella Scheda dettaglio **Approvazione cliente**, impostare l'opzione **Abilita approvazioni cliente** su **Sì** per abilitare la funzionalità.</span><span class="sxs-lookup"><span data-stu-id="dcecb-110">On the **General** tab, on the **Customer approval** FastTab, set the **Enable customer approvals** option to **Yes** to enable the feature.</span></span>
-3. <span data-ttu-id="dcecb-111">Nel campo **Comportamento entità di dati** selezionare il comportamento che le entità di dati devono utilizzare quando i dati vengono importati:</span><span class="sxs-lookup"><span data-stu-id="dcecb-111">In the **Data entity behavior** field, select the behavior that the data entities should use when data is imported:</span></span>
-
-    - <span data-ttu-id="dcecb-112">**Consentire modifiche senza approvazione** - Un'entità può aggiornare il record cliente senza elaborarlo durante il flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="dcecb-112">**Allow changes without approval** – An entity can update the customer record without processing it through the workflow.</span></span>
-    - <span data-ttu-id="dcecb-113">**Rifiuta modifiche** - Le modifiche non possono essere applicate al record cliente.</span><span class="sxs-lookup"><span data-stu-id="dcecb-113">**Reject changes** – Changes can't be made to the customer record.</span></span> <span data-ttu-id="dcecb-114">L'importazione avrà esito negativo per i campi abilitati per il flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="dcecb-114">The import will fail for the fields that are enabled for the workflow.</span></span>
-    - <span data-ttu-id="dcecb-115">**Crea proposte di modifica** - Tutti i campi verranno modificati ad eccezione dei campi abilitati per il flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="dcecb-115">**Create change proposals** – All fields will be changed except the fields that are enabled for the workflow.</span></span> <span data-ttu-id="dcecb-116">I nuovi valori per questi campi verranno aggiunti al cliente come modifiche proposte e il flusso di lavoro verrà avviato automaticamente.</span><span class="sxs-lookup"><span data-stu-id="dcecb-116">The new values for those fields will be added to the customer as proposed changes, and the workflow will be started automatically.</span></span>
-
-4. <span data-ttu-id="dcecb-117">Nell'elenco dei campi del cliente, selezionare quindi la casella di controllo **Abilita** per ogni campo che deve essere approvato prima che le modifiche possano essere effettuate.</span><span class="sxs-lookup"><span data-stu-id="dcecb-117">In the list of customer fields, select then **Enable** check box for every field that must be approved before the changes can be made.</span></span>
-5. <span data-ttu-id="dcecb-118">Andare a **Contabilità clienti \> Impostazioni \> Flussi di lavoro contabilità clienti**.</span><span class="sxs-lookup"><span data-stu-id="dcecb-118">Go to **Accounts receivable \> Setup \> Accounts receivable workflows**.</span></span>
-6. <span data-ttu-id="dcecb-119">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="dcecb-119">Select **New**.</span></span>
-7. <span data-ttu-id="dcecb-120">Selezionare **Flusso di lavoro della modifica del cliente proposta**.</span><span class="sxs-lookup"><span data-stu-id="dcecb-120">Select **Proposed customer change workflow**.</span></span> 
-8. <span data-ttu-id="dcecb-121">Impostare il flusso di lavoro in modo che corrisponda al processo di approvazione.</span><span class="sxs-lookup"><span data-stu-id="dcecb-121">Set up the workflow so that it matches your approval process.</span></span> <span data-ttu-id="dcecb-122">L'elemento di approvazione del flusso di lavoro **Approvazione del flusso di lavoro per la modifica cliente proposta** applicherà le modifiche al cliente.</span><span class="sxs-lookup"><span data-stu-id="dcecb-122">The **Workflow approval for proposed customer change** workflow approval element will apply the changes to the customer.</span></span>
-
-## <a name="change-customer-information-and-submit-the-changes-to-the-workflow"></a><span data-ttu-id="dcecb-123">Modificare le informazioni sul cliente e inviare le modifiche al flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="dcecb-123">Change customer information and submit the changes to the workflow</span></span>
-
-<span data-ttu-id="dcecb-124">Quando si modifica un campo che viene abilitato per il flusso di lavoro, viene visualizzata la pagina **Modifiche proposte**.</span><span class="sxs-lookup"><span data-stu-id="dcecb-124">When you change a field that is enabled for the workflow, the **Proposed changes** page appears.</span></span> <span data-ttu-id="dcecb-125">In questa pagina vengono visualizzati il valore originale del campo e il nuovo valore immesso.</span><span class="sxs-lookup"><span data-stu-id="dcecb-125">This page shows the original value of the field and the new value that you entered.</span></span> <span data-ttu-id="dcecb-126">Il campo modificato viene reimpostato sul valore originale.</span><span class="sxs-lookup"><span data-stu-id="dcecb-126">The field that you changed is reverted to its original value.</span></span> <span data-ttu-id="dcecb-127">Un messaggio di stato nella pagina comunica all'utente che le modifiche non sono state inviate.</span><span class="sxs-lookup"><span data-stu-id="dcecb-127">A status message on the page informs you that your changes haven't been submitted.</span></span>
-
-<span data-ttu-id="dcecb-128">Ogni volta che si modifica un campo abilitato per il flusso di lavoro, tale campo viene aggiunto all'elenco delle modifiche proposte.</span><span class="sxs-lookup"><span data-stu-id="dcecb-128">Every time that you change a field that is enabled for the workflow, that field is added to the list of proposed changes.</span></span> <span data-ttu-id="dcecb-129">Per eliminare il valore proposto per un campo, utilizzare il pulsante **Elimina** accanto al campo nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="dcecb-129">To discard the proposed value for a field, use the **Discard** button next to the field in the list.</span></span> <span data-ttu-id="dcecb-130">Per eliminare tutte le modifiche, utilizzare il pulsante **Ignora tutte le modifiche** in fondo alla pagina.</span><span class="sxs-lookup"><span data-stu-id="dcecb-130">To discard all changes, use the **Discard all change** button at the bottom of the page.</span></span> <span data-ttu-id="dcecb-131">Selezionare **OK** per chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="dcecb-131">Select **OK** to close the page.</span></span>
-
-<span data-ttu-id="dcecb-132">Dopo avere almeno una modifica proposta, vengono visualizzati due menu aggiuntivi nel riquadro azioni: **Modifiche proposte** e **Flusso di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="dcecb-132">After you have at least one proposed change, two additional menus appear on the Action Pane: **Proposed changes** and **Workflow**.</span></span>
-
-1. <span data-ttu-id="dcecb-133">Selezionare **Modifiche proposte** per aprire la pagina **Modifiche proposte** ed esaminare le modifiche.</span><span class="sxs-lookup"><span data-stu-id="dcecb-133">Select **Proposed changes** to open the **Proposed changes** page and review your changes.</span></span>
-2. <span data-ttu-id="dcecb-134">Selezionare **Flusso di lavoro \> Invia** per inviare le modifiche al flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="dcecb-134">Select **Workflow \> Submit** to submit the changes to the workflow.</span></span>
-
-    <span data-ttu-id="dcecb-135">Lo stato sulla pagina è cambiato in **Modifiche in attesa di approvazione**.</span><span class="sxs-lookup"><span data-stu-id="dcecb-135">The status on the page is changed to **Changes pending approval**.</span></span>
-
-<span data-ttu-id="dcecb-136">Il flusso di lavoro segue il processo standard del flusso di lavoro in Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="dcecb-136">The workflow follows the standard workflow process in Finance and Operations.</span></span> <span data-ttu-id="dcecb-137">L'approvatore viene reindirizzato alla pagina **Cliente**, in cui può rivedere le modifiche nella pagina **Modifiche proposte** e selezionare **Flusso di lavoro \> Approva** per approvare il flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="dcecb-137">The approver is directed to the **Customer** page, where he or she can review the changes on the **Proposed changes** page and then select **Workflow \> Approve** to approve the workflow.</span></span> <span data-ttu-id="dcecb-138">Una volta completate tutte le approvazioni, i campi vengono aggiornati con i valori proposti.</span><span class="sxs-lookup"><span data-stu-id="dcecb-138">After all approvals are completed, the fields are updated with the values that you proposed.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="customer-workflow.md" target-language="it-IT">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>customer-workflow.e24678.1b0e1621b256e6bbb42f97134b87dd65fa146193.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>1b0e1621b256e6bbb42f97134b87dd65fa146193</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\accounts-receivable\customer-workflow.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Customer workflow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Flusso di lavoro cliente</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides information about the customer workflow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In questo argomento vengono fornite informazioni sul flusso di lavoro del cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
+          <source>You change specific fields for a customer and then send those changes for approval by using the workflow before they are added to the customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È possibile modificare campi specifici per un cliente e inviare tali modifiche per l'approvazione utilizzando il flusso di lavoro prima che vengano aggiunte al cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Customer workflow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Flusso di lavoro cliente</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The customer workflow has been added to Microsoft Dynamics 365 for Finance and Operations version 8.0.4.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il flusso di lavoro cliente è stato aggiunto in Microsoft Dynamics 365 for Finance and Operations versione 8.0.4.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>You can change specific fields for a customer and then send those changes for approval by using the workflow before they are added to the customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È possibile modificare campi specifici per un cliente e inviare tali modifiche per l'approvazione utilizzando il flusso di lavoro prima che vengano aggiunte al cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Set up the customer workflow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare il flusso di lavoro cliente</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Before you can use the customer workflow feature, you must enable it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prima di utilizzare la funzionalità del flusso di lavoro del cliente, è necessario abilitarla.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Go to <bpt id="p1">**</bpt>Accounts receivable <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Accounts receivable parameters<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andare a <bpt id="p1">**</bpt>Contabilità clienti <ph id="ph1">\&gt;</ph> Impostazioni <ph id="ph2">\&gt;</ph> Parametri contabilità clienti<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab, on the <bpt id="p2">**</bpt>Customer approval<ept id="p2">**</ept> FastTab, set the <bpt id="p3">**</bpt>Enable customer approvals<ept id="p3">**</ept> option to <bpt id="p4">**</bpt>Yes<ept id="p4">**</ept> to enable the feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella scheda <bpt id="p1">**</bpt>Generale<ept id="p1">**</ept>, nella Scheda dettaglio <bpt id="p2">**</bpt>Approvazione cliente<ept id="p2">**</ept>, impostare l'opzione <bpt id="p3">**</bpt>Abilita approvazioni cliente<ept id="p3">**</ept> su <bpt id="p4">**</bpt>Sì<ept id="p4">**</ept> per abilitare la funzionalità.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In the <bpt id="p1">**</bpt>Data entity behavior<ept id="p1">**</ept> field, select the behavior that the data entities should use when data is imported:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo <bpt id="p1">**</bpt>Comportamento entità di dati<ept id="p1">**</ept> selezionare il comportamento che le entità di dati devono utilizzare quando i dati vengono importati:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source><bpt id="p1">**</bpt>Allow changes without approval<ept id="p1">**</ept> – An entity can update the customer record without processing it through the workflow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Consentire modifiche senza approvazione<ept id="p1">**</ept> - Un'entità può aggiornare il record cliente senza elaborarlo durante il flusso di lavoro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">**</bpt>Reject changes<ept id="p1">**</ept> – Changes can't be made to the customer record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Rifiuta modifiche<ept id="p1">**</ept> - Le modifiche non possono essere applicate al record cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>The import will fail for the fields that are enabled for the workflow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'importazione avrà esito negativo per i campi abilitati per il flusso di lavoro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">**</bpt>Create change proposals<ept id="p1">**</ept> – All fields will be changed except the fields that are enabled for the workflow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Crea proposte di modifica<ept id="p1">**</ept> - Tutti i campi verranno modificati ad eccezione dei campi abilitati per il flusso di lavoro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>The new values for those fields will be added to the customer as proposed changes, and the workflow will be started automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I nuovi valori per questi campi verranno aggiunti al cliente come modifiche proposte e il flusso di lavoro verrà avviato automaticamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the list of customer fields, select then <bpt id="p1">**</bpt>Enable<ept id="p1">**</ept> check box for every field that must be approved before the changes can be made.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nell'elenco dei campi del cliente, selezionare quindi la casella di controllo <bpt id="p1">**</bpt>Abilita<ept id="p1">**</ept> per ogni campo che deve essere approvato prima che le modifiche possano essere effettuate.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Go to <bpt id="p1">**</bpt>Accounts receivable <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Accounts receivable workflows<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andare a <bpt id="p1">**</bpt>Contabilità clienti <ph id="ph1">\&gt;</ph> Impostazioni <ph id="ph2">\&gt;</ph> Flussi di lavoro contabilità clienti<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Select <bpt id="p1">**</bpt>New<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare <bpt id="p1">**</bpt>Nuovo<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Select <bpt id="p1">**</bpt>Proposed customer change workflow<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare <bpt id="p1">**</bpt>Flusso di lavoro della modifica del cliente proposta<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Set up the workflow so that it matches your approval process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare il flusso di lavoro in modo che corrisponda al processo di approvazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>The <bpt id="p1">**</bpt>Workflow approval for proposed customer change<ept id="p1">**</ept> workflow approval element will apply the changes to the customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'elemento di approvazione del flusso di lavoro <bpt id="p1">**</bpt>Approvazione del flusso di lavoro per la modifica cliente proposta<ept id="p1">**</ept> applicherà le modifiche al cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Change customer information and submit the changes to the workflow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modificare le informazioni sul cliente e inviare le modifiche al flusso di lavoro</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>When you change a field that is enabled for the workflow, the <bpt id="p1">**</bpt>Proposed changes<ept id="p1">**</ept> page appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando si modifica un campo che viene abilitato per il flusso di lavoro, viene visualizzata la pagina <bpt id="p1">**</bpt>Modifiche proposte<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>This page shows the original value of the field and the new value that you entered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In questa pagina vengono visualizzati il valore originale del campo e il nuovo valore immesso.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>The field that you changed is reverted to its original value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il campo modificato viene reimpostato sul valore originale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>A status message on the page informs you that your changes haven't been submitted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un messaggio di stato nella pagina comunica all'utente che le modifiche non sono state inviate.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Every time that you change a field that is enabled for the workflow, that field is added to the list of proposed changes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ogni volta che si modifica un campo abilitato per il flusso di lavoro, tale campo viene aggiunto all'elenco delle modifiche proposte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>To discard the proposed value for a field, use the <bpt id="p1">**</bpt>Discard<ept id="p1">**</ept> button next to the field in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per eliminare il valore proposto per un campo, utilizzare il pulsante <bpt id="p1">**</bpt>Elimina<ept id="p1">**</ept> accanto al campo nell'elenco.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>To discard all changes, use the <bpt id="p1">**</bpt>Discard all change<ept id="p1">**</ept> button at the bottom of the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per eliminare tutte le modifiche, utilizzare il pulsante <bpt id="p1">**</bpt>Ignora tutte le modifiche<ept id="p1">**</ept> in fondo alla pagina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> per chiudere la pagina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>After you have at least one proposed change, two additional menus appear on the Action Pane: <bpt id="p1">**</bpt>Proposed changes<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Workflow<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dopo avere almeno una modifica proposta, vengono visualizzati due menu aggiuntivi nel riquadro azioni: <bpt id="p1">**</bpt>Modifiche proposte<ept id="p1">**</ept> e <bpt id="p2">**</bpt>Flusso di lavoro<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Select <bpt id="p1">**</bpt>Proposed changes<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Proposed changes<ept id="p2">**</ept> page and review your changes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare <bpt id="p1">**</bpt>Modifiche proposte<ept id="p1">**</ept> per aprire la pagina <bpt id="p2">**</bpt>Modifiche proposte<ept id="p2">**</ept> ed esaminare le modifiche.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Select <bpt id="p1">**</bpt>Workflow <ph id="ph1">\&gt;</ph> Submit<ept id="p1">**</ept> to submit the changes to the workflow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare <bpt id="p1">**</bpt>Flusso di lavoro <ph id="ph1">\&gt;</ph> Invia<ept id="p1">**</ept> per inviare le modifiche al flusso di lavoro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>The status on the page is changed to <bpt id="p1">**</bpt>Changes pending approval<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lo stato sulla pagina è cambiato in <bpt id="p1">**</bpt>Modifiche in attesa di approvazione<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>The workflow follows the standard workflow process in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il flusso di lavoro segue il processo standard del flusso di lavoro in Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The approver is directed to the <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> page, where he or she can review the changes on the <bpt id="p2">**</bpt>Proposed changes<ept id="p2">**</ept> page and then select <bpt id="p3">**</bpt>Workflow <ph id="ph1">\&gt;</ph> Approve<ept id="p3">**</ept> to approve the workflow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'approvatore viene reindirizzato alla pagina <bpt id="p1">**</bpt>Cliente<ept id="p1">**</ept>, in cui può rivedere le modifiche nella pagina <bpt id="p2">**</bpt>Modifiche proposte<ept id="p2">**</ept> e selezionare <bpt id="p3">**</bpt>Flusso di lavoro <ph id="ph1">\&gt;</ph> Approva<ept id="p3">**</ept> per approvare il flusso di lavoro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>After all approvals are completed, the fields are updated with the values that you proposed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una volta completate tutte le approvazioni, i campi vengono aggiornati con i valori proposti.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

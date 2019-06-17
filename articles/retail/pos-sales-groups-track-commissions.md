@@ -1,90 +1,198 @@
----
-title: Tenere traccia delle provvigioni nel POS utilizzando gruppi di vendite
-description: È pratica comune nella vendita al dettaglio tenere traccia delle vendite di un assistente che ha lavorato con il cliente fornendo assistenza, eseguendo l'up-selling ed elaborando la transazione.
-author: jblucher
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 261234
-ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: jeffbl
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559303"
----
-# <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a><span data-ttu-id="18075-103">Tenere traccia delle provvigioni nel POS utilizzando gruppi di vendite</span><span class="sxs-lookup"><span data-stu-id="18075-103">Track commissions in the point of sale (POS) by using sales groups</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="18075-104">È pratica comune nella vendita al dettaglio tenere traccia delle vendite di un assistente che ha lavorato con il cliente fornendo assistenza, eseguendo l'up-selling ed elaborando la transazione.</span><span class="sxs-lookup"><span data-stu-id="18075-104">It's a common retail practice to track sales by the associate who worked with the customer—providing assistance, up-selling, cross-selling, and processing the transaction.</span></span>
-
-<span data-ttu-id="18075-105">La traccia delle vendite per rappresentante è una misura dell'abilità di vendita dell'assistente alla vendita, mentre le vendite per cassiere è una misura della velocità e di efficienza.</span><span class="sxs-lookup"><span data-stu-id="18075-105">Tracking sales by sales representative is a measure of the associates selling abilities, while sales by cashier is a measure of speed and efficiency.</span></span> <span data-ttu-id="18075-106">La traccoa delle vendite per rappresentante viene spesso utilizzata anche per il calcolo delle provvigioni o altri incentivi.</span><span class="sxs-lookup"><span data-stu-id="18075-106">Sales tracked by sales representative are also often used to calculate commissions or other incentives.</span></span>
-
-## <a name="configuring-a-worker-to-be-a-sales-representative-in-pos"></a><span data-ttu-id="18075-107">Configurazione di un lavoratore come rappresentante di vendita nel POS</span><span class="sxs-lookup"><span data-stu-id="18075-107">Configuring a worker to be a sales representative in POS</span></span>
-
-<span data-ttu-id="18075-108">Quando un lavoratore viene aggiunto a un gruppo di vendite, diventa idoneo per la provvigione e può essere identificato come rappresentante di vendita nel sistema.</span><span class="sxs-lookup"><span data-stu-id="18075-108">When a worker is added to a sales group, they become eligible for commission and can be identified as a sales representative in the system.</span></span> <span data-ttu-id="18075-109">Un lavoratore che non è incluso in un gruppo di vendite non è idoneo per la provvigione e non verrà elencato come rappresentante di vendita dell'applicazione POS.</span><span class="sxs-lookup"><span data-stu-id="18075-109">A worker who isn't in a sales group isn't eligible for commission and won't be listed as a sales representative in the point of sale (POS) application.</span></span> <span data-ttu-id="18075-110">Nel POS, l'elenco dei rappresentanti viene derivato da tutti i gruppi vendite contenenti almeno un lavoratore assegnato al punto vendita.</span><span class="sxs-lookup"><span data-stu-id="18075-110">In POS, the list of sales representatives is derived from all sales groups that contain at least one worker assigned to the store.</span></span> <span data-ttu-id="18075-111">L'elenco viene visualizzato nel POS come combinazione di ID gruppo vendite e Nome (ID : Nome).</span><span class="sxs-lookup"><span data-stu-id="18075-111">The list is shown in POS as a combination of Sales group ID and Name (ID : Name).</span></span> <span data-ttu-id="18075-112">Un gruppo di vendite predefinito può essere assegnato ai lavoratori per supportare scenari in cui il rivenditore sceglie di impostare automaticamente il rappresentante nelle righe POS.</span><span class="sxs-lookup"><span data-stu-id="18075-112">A default sales group can be assigned to workers to support scenarios where the retailer chooses to set the sales representative on POS lines automatically.</span></span> <span data-ttu-id="18075-113">Gli utenti possono effettuare selezioni da qualsiasi gruppo vendite di cui il lavoratore è membro.</span><span class="sxs-lookup"><span data-stu-id="18075-113">Users can select from any sales group that the worker is a member of.</span></span>
-
-## <a name="functionality-profile-settings"></a><span data-ttu-id="18075-114">Impostazioni profili di funzionalità</span><span class="sxs-lookup"><span data-stu-id="18075-114">Functionality profile settings</span></span>
-
-<span data-ttu-id="18075-115">Sono presenti una serie di impostazioni di profili di funzionalità per un punto vendita che determinerà il flusso e il processo in POS che coinvolgono i rappresentanti.</span><span class="sxs-lookup"><span data-stu-id="18075-115">There are a number of functionality profile settings for a store that will determine the flow and process in POS that involve sales representatives.</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="18075-116">Profilo</span><span class="sxs-lookup"><span data-stu-id="18075-116">Profile</span></span></th>
-<th><span data-ttu-id="18075-117">descrizione</span><span class="sxs-lookup"><span data-stu-id="18075-117">Description</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="18075-118">Valore predefinito impostato su cassiere, se disponibile</span><span class="sxs-lookup"><span data-stu-id="18075-118">Default to cashier when available</span></span></td>
-<td><span data-ttu-id="18075-119">Se l'opzione è abilitata, il POS popola automaticamente le righe di transazione con il gruppo vendite predefinito del cassiere corrente.</span><span class="sxs-lookup"><span data-stu-id="18075-119">If this option is enabled, POS will automatically populate transaction lines with the current cashier's default sales group.</span></span> <span data-ttu-id="18075-120">Se un cassiere non ha un gruppo vendite predefinito specificato, il valore non verrà impostato.</span><span class="sxs-lookup"><span data-stu-id="18075-120">If a cashier doesn't have a default sales group specified, the value won't be set.</span></span> <span data-ttu-id="18075-121">Un utente può comunque impostare manualmente il gruppo vendite tramite un pulsante della griglia dei pulsanti POS.</span><span class="sxs-lookup"><span data-stu-id="18075-121">A user could still manually set the sales group by using a POS button grid button.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="18075-122">Richiesta per il rappresentante</span><span class="sxs-lookup"><span data-stu-id="18075-122">Prompt for sales representative</span></span></td>
-<td><span data-ttu-id="18075-123">Questa opzione ha tre valori possibili:</span><span class="sxs-lookup"><span data-stu-id="18075-123">This option has three possible values:</span></span>
-<ul>
-<li><span data-ttu-id="18075-124"><strong>No</strong> – Se è selezionata questa opzione, all'utente non verrà chiesto di selezionare un gruppo vendite.</span><span class="sxs-lookup"><span data-stu-id="18075-124"><strong>No</strong> – If this option is selected, the user won't be prompted to select a sales group.</span></span> <span data-ttu-id="18075-125">Il valore può comunque essere impostato utilizzando il gruppo vendite predefinito di un cassiere o manualmente tramite un pulsante della griglia dei pulsanti POS.</span><span class="sxs-lookup"><span data-stu-id="18075-125">The value could still be set by using a cashier's default Sales group or manually by using a POS button grid button.</span></span></li>
-<li><span data-ttu-id="18075-126"><strong>Inizio della transazione</strong> – Se questa opzione è selezionata e l'opzione <strong>Valore predefinito impostato su cassiere</strong> non è abilitata o il cassiere corrente non è associato a un gruppo di vendite predefinito, all'utente verrà chiesto di selezionare un gruppo vendite all'inizio di ciascuna transazione.</span><span class="sxs-lookup"><span data-stu-id="18075-126"><strong>Start of transaction</strong> – If this option is selected, and either the <strong>Default to cashier</strong> option isn't enabled or the current cashier doesn't have a default sales group, the user will be prompted to select a sales group at the beginning of each transaction.</span></span> <span data-ttu-id="18075-127">Se si seleziona il gruppo di vendite da questo prompt, tutte le righe successive assumerano come valore predefinito il gruppo di vendite selezionato.</span><span class="sxs-lookup"><span data-stu-id="18075-127">Selecting a sales group from this prompt will default all subsequent lines to the selected sales group.</span></span> <span data-ttu-id="18075-128">Un utente può comunque impostare manualmente il gruppo vendite tramite un pulsante della griglia dei pulsanti POS.</span><span class="sxs-lookup"><span data-stu-id="18075-128">A user could still manually set the sales group by using a POS button grid button.</span></span></li>
-<li><span data-ttu-id="18075-129"><strong>Per ogni riga</strong> – Se questa opzione è selezionata e l'opzione <strong>Valore predefinito impostato su cassiere</strong> non è abilitata o il cassiere corrente non è associato a un gruppo di vendite predefinito, all'utente verrà chiesto di selezionare un gruppo vendite dopo l'aggiunta di ogni riga.</span><span class="sxs-lookup"><span data-stu-id="18075-129"><strong>For each line</strong> – If this option is selected, and either the <strong>Default to cashier</strong> option isn't enabled or the current cashier doesn't have a default sales group, the user will be prompted to select a sales group after adding each line.</span></span> <span data-ttu-id="18075-130">Un utente può comunque impostare manualmente il gruppo vendite tramite un pulsante della griglia dei pulsanti POS.</span><span class="sxs-lookup"><span data-stu-id="18075-130">A user could still manually set the Sales group by using a POS button grid button.</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="18075-131">Richiedi</span><span class="sxs-lookup"><span data-stu-id="18075-131">Require</span></span></td>
-<td><span data-ttu-id="18075-132">Questa opzione può essere utilizzata solo quando il POS è configurato per richiedere un rappresentante.</span><span class="sxs-lookup"><span data-stu-id="18075-132">This option is only applicable when POS is configured to prompt for a sales representative.</span></span> <span data-ttu-id="18075-133">Se abilitata, all'utente verrà chiesto di selezionare un gruppo vendite prima di continuare.</span><span class="sxs-lookup"><span data-stu-id="18075-133">If enabled, the user will be required to choose a sales group before continuing.</span></span> <span data-ttu-id="18075-134">In caso contrario, all'utente verrà chiesto, ma può annullare e continuare senza effettuare una selezione.</span><span class="sxs-lookup"><span data-stu-id="18075-134">Otherwise, the user will be prompted, but can cancel and continue without making a selection.</span></span> <span data-ttu-id="18075-135">Dopo che la riga viene aggiunta, un utente con autorizzazioni sufficienti può comunque rimuovere il gruppo vendite dalla riga.</span><span class="sxs-lookup"><span data-stu-id="18075-135">After the line is added, a user with sufficient permissions could still remove the sales group from the line.</span></span> <span data-ttu-id="18075-136">"Richiedi rappresentante" non viene applicato in questo caso.</span><span class="sxs-lookup"><span data-stu-id="18075-136">"Require sales representative" is not enforced in this situation.</span></span></td>
-</tr>
-</tbody>
-</table>
-
-## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a><span data-ttu-id="18075-137">Visualizzazione delle informazioni relative al rappresentante sullo schermo delle transazioni POS</span><span class="sxs-lookup"><span data-stu-id="18075-137">Displaying the Sales representative information on the POS transactions screen</span></span>
-
-<span data-ttu-id="18075-138">Il layout e il contenuto dello schermo della transazione POS sono configurabili mediante la funzionalità di progettazione layout dello schermo e layout dello schermo assegnati a punti vendita, registratori di cassa o lavoratori.</span><span class="sxs-lookup"><span data-stu-id="18075-138">The POS transaction screen layout and contents are configurable using the screen layout designer and assigned screen layouts to stores, registers, or workers.</span></span><span data-ttu-id="18075-139">Il campo **Rappresentante** può essere aggiunto alla scheda Righe del riquadro Entrata.</span><span class="sxs-lookup"><span data-stu-id="18075-139"> The *\*Sales representative** field can be added to the Lines tab of the Receipt pane.</span></span><span data-ttu-id="18075-140">  Ciò visualizzerà l'ID del gruppo di vendite specificato per ogni riga sullo schermo di transazione.</span><span class="sxs-lookup"><span data-stu-id="18075-140">  This will display the ID of the specified Sales group for each line on the transaction screen.</span></span>
-
-## <a name="adding-sales-representative-operations-to-pos-button-grids"></a><span data-ttu-id="18075-141">Aggiunta delle operazioni di un rappresentante alle griglie di pulsanti POS</span><span class="sxs-lookup"><span data-stu-id="18075-141">Adding Sales representative operations to POS button grids</span></span>
-
-<span data-ttu-id="18075-142">Il POS consente agli utenti di configurare griglie dei pulsanti, comprese nei layout dello schermo per fornire l'accesso alle operazioni POS.</span><span class="sxs-lookup"><span data-stu-id="18075-142">POS allows users to configure button grids, which are included in screen layouts to provide access to POS operations.</span></span> <span data-ttu-id="18075-143">Le seguenti operazioni POS possono essere assegnate ai pulsanti della griglia di pulsanti relativi ai rappresentanti.</span><span class="sxs-lookup"><span data-stu-id="18075-143">The following POS operations can be assigned to button grid buttons that pertain to Sales representatives.</span></span>
-
-| <span data-ttu-id="18075-144">Operazione</span><span class="sxs-lookup"><span data-stu-id="18075-144">Operation</span></span>                                 | <span data-ttu-id="18075-145">descrizione</span><span class="sxs-lookup"><span data-stu-id="18075-145">Description</span></span> |
-|-------------------------------------------|-------------|
-| <span data-ttu-id="18075-146">Imposta rappresentante su riga</span><span class="sxs-lookup"><span data-stu-id="18075-146">Set sales representative on line</span></span>          | <span data-ttu-id="18075-147">L'operazione POS visualizza un elenco di gruppi di vendite idonei (UD : Nome) per il punto vendita.</span><span class="sxs-lookup"><span data-stu-id="18075-147">This POS operation displays a list of eligible Sales groups (ID : Name) for the store.</span></span><span data-ttu-id="18075-148"> Se si seleziona un gruppo di vendite dall'elenco, il valore verrà impostato sulla riga di transazione corrente.</span><span class="sxs-lookup"><span data-stu-id="18075-148"> Selecting a Sales group from this list will set the value on the current transaction line.</span></span> |
-| <span data-ttu-id="18075-149">Cancella rappresentante su riga</span><span class="sxs-lookup"><span data-stu-id="18075-149">Clear sales representative on line</span></span>        | <span data-ttu-id="18075-150">L'operazione POS rimuove il valore del gruppo di vendite corrente della riga di transazione corrente.</span><span class="sxs-lookup"><span data-stu-id="18075-150">This POS operation removes the current Sales group value from the current transaction line.</span></span> |
-| <span data-ttu-id="18075-151">Impostare il rappresentante sulla transazione</span><span class="sxs-lookup"><span data-stu-id="18075-151">Set sales representative on transaction</span></span>   | <span data-ttu-id="18075-152">L'operazione POS visualizza un elenco di gruppi di vendite idonei (UD : Nome) per il punto vendita.</span><span class="sxs-lookup"><span data-stu-id="18075-152">This POS operation displays a list of eligible Sales groups (ID : Name) for the store.</span></span><span data-ttu-id="18075-153"> Se si seleziona un gruppo di vendite dall'elenco, il valore predefinito verrà impostato sulla transazione corrente.</span><span class="sxs-lookup"><span data-stu-id="18075-153"> Selecting a Sales group from this list will set the default value on the current transaction.</span></span> <span data-ttu-id="18075-154">Tutte le righe esistenti senza un gruppo vendite assegnato verranno impostate nonché eventuali righe aggiunte successivamente.</span><span class="sxs-lookup"><span data-stu-id="18075-154">Any existing lines without a sales group assigned will be set, as well as any subsequently added lines.</span></span> |
-| <span data-ttu-id="18075-155">Cancellare il rappresentante sulla transazione</span><span class="sxs-lookup"><span data-stu-id="18075-155">Clear sales representative on transaction</span></span> | <span data-ttu-id="18075-156">Questa operazione POS rimuove il valore del gruppo di vendite predefiito corrente dalla transazione corrente.</span><span class="sxs-lookup"><span data-stu-id="18075-156">This POS operation removes the current default Sales group value from the current transaction.</span></span> <span data-ttu-id="18075-157">Non influisce sulle righe già esistenti nella transazione.</span><span class="sxs-lookup"><span data-stu-id="18075-157">It does not impact any lines already existing in the transaction.</span></span> |
-
-## <a name="calculating-commissions"></a><span data-ttu-id="18075-158">Calcolo delle provvigioni</span><span class="sxs-lookup"><span data-stu-id="18075-158">Calculating commissions</span></span>
-
-<span data-ttu-id="18075-159">La provvigione viene calcolata per i lavoratori nei gruppi di vendite specificati al momento della registrazione del rendiconto o dell'ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="18075-159">Commission is calculated for the workers in the specified sales groups at the time of statement posting or sales order posting.</span></span><span data-ttu-id="18075-160"> Importo della provvigione viene determinato in base alla quota di provvigione del lavoratore, come definito nel gruppo vendite e nelle impostazioni di calcolo della provvigione associate per il cliente e/o i prodotti nella transazione.</span><span class="sxs-lookup"><span data-stu-id="18075-160"> The commission amount is determined based on the worker's commission share, as defined in the sales group and the associated commission calculation settings for the customer and/or products on the transaction.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="pos-sales-groups-track-commissions.md" target-language="it-IT">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>pos-sales-groups-track-commissions.723c58.afbf69c072ae205e973203d97a5fbca7504ae04f.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>afbf69c072ae205e973203d97a5fbca7504ae04f</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\pos-sales-groups-track-commissions.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Track commissions in the point of sale (POS) by using sales groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tenere traccia delle provvigioni nel POS utilizzando gruppi di vendite</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>It's a common retail practice to track sales by the associate who worked with the customer—providing assistance, up-selling, cross-selling, and processing the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È pratica comune nella vendita al dettaglio tenere traccia delle vendite di un assistente che ha lavorato con il cliente fornendo assistenza, eseguendo l'up-selling ed elaborando la transazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Track commissions in the point of sale (POS) by using sales groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tenere traccia delle provvigioni nel POS utilizzando gruppi di vendite</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>It's a common retail practice to track sales by the associate who worked with the customer by—providing assistance, up-selling, cross-selling, and processing the transaction.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">È pratica comune nella vendita al dettaglio tenere traccia delle vendite di un assistente che ha lavorato con il cliente fornendo assistenza, eseguendo l'up-selling e il cross-selling ed elaborando la transazione.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Tracking sales by sales representative is a measure of the associates selling abilities, while sales by cashier is a measure of speed and efficiency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La traccia delle vendite per rappresentante è una misura dell'abilità di vendita dell'assistente alla vendita, mentre le vendite per cassiere è una misura della velocità e di efficienza.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Sales tracked by sales representative are also often used to calculate commissions or other incentives.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La traccoa delle vendite per rappresentante viene spesso utilizzata anche per il calcolo delle provvigioni o altri incentivi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Configuring a worker to be a sales representative in POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurazione di un lavoratore come rappresentante di vendita nel POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>When a worker is added to a sales group, they become eligible for commission and can be identified as a sales representative in the system.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando un lavoratore viene aggiunto a un gruppo di vendite, diventa idoneo per la provvigione e può essere identificato come rappresentante di vendita nel sistema.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>A worker who isn't in a sales group isn't eligible for commission and won't be listed as a sales representative in the point of sale (POS) application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un lavoratore che non è incluso in un gruppo di vendite non è idoneo per la provvigione e non verrà elencato come rappresentante di vendita dell'applicazione POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In POS, the list of sales representatives is derived from all sales groups that contain at least one worker assigned to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel POS, l'elenco dei rappresentanti viene derivato da tutti i gruppi vendite contenenti almeno un lavoratore assegnato al punto vendita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The list is shown in POS as a combination of Sales group ID and Name (ID : Name).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'elenco viene visualizzato nel POS come combinazione di ID gruppo vendite e Nome (ID : Nome).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>A default sales group can be assigned to workers to support scenarios where the retailer chooses to set the sales representative on POS lines automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un gruppo di vendite predefinito può essere assegnato ai lavoratori per supportare scenari in cui il rivenditore sceglie di impostare automaticamente il rappresentante nelle righe POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Users can select from any sales group that the worker is a member of.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gli utenti possono effettuare selezioni da qualsiasi gruppo vendite di cui il lavoratore è membro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Functionality profile settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostazioni profili di funzionalità</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>There are a number of functionality profile settings for a store that will determine the flow and process in POS that involve sales representatives.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sono presenti una serie di impostazioni di profili di funzionalità per un punto vendita che determinerà il flusso e il processo in POS che coinvolgono i rappresentanti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Profilo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrizione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Default to cashier when available</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valore predefinito impostato su cassiere, se disponibile</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>If this option is enabled, POS will automatically populate transaction lines with the current cashier's default sales group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se l'opzione è abilitata, il POS popola automaticamente le righe di transazione con il gruppo vendite predefinito del cassiere corrente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>If a cashier doesn't have a default sales group specified, the value won't be set.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se un cassiere non ha un gruppo vendite predefinito specificato, il valore non verrà impostato.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>A user could still manually set the sales group by using a POS button grid button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un utente può comunque impostare manualmente il gruppo vendite tramite un pulsante della griglia dei pulsanti POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Prompt for sales representative</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Richiesta per il rappresentante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>This option has three possible values:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa opzione ha tre valori possibili:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>No<ept id="p1">&lt;/strong&gt;</ept> – If this option is selected, the user won't be prompted to select a sales group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>No<ept id="p1">&lt;/strong&gt;</ept> – Se è selezionata questa opzione, all'utente non verrà chiesto di selezionare un gruppo vendite.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>The value could still be set by using a cashier's default Sales group or manually by using a POS button grid button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il valore può comunque essere impostato utilizzando il gruppo vendite predefinito di un cassiere o manualmente tramite un pulsante della griglia dei pulsanti POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Start of transaction<ept id="p1">&lt;/strong&gt;</ept> – If this option is selected, and either the <bpt id="p2">&lt;strong&gt;</bpt>Default to cashier<ept id="p2">&lt;/strong&gt;</ept> option isn't enabled or the current cashier doesn't have a default sales group, the user will be prompted to select a sales group at the beginning of each transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Inizio della transazione<ept id="p1">&lt;/strong&gt;</ept> – Se questa opzione è selezionata e l'opzione <bpt id="p2">&lt;strong&gt;</bpt>Valore predefinito impostato su cassiere<ept id="p2">&lt;/strong&gt;</ept> non è abilitata o il cassiere corrente non è associato a un gruppo di vendite predefinito, all'utente verrà chiesto di selezionare un gruppo vendite all'inizio di ciascuna transazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Selecting a sales group from this prompt will default all subsequent lines to the selected sales group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se si seleziona il gruppo di vendite da questo prompt, tutte le righe successive assumerano come valore predefinito il gruppo di vendite selezionato.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>A user could still manually set the sales group by using a POS button grid button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un utente può comunque impostare manualmente il gruppo vendite tramite un pulsante della griglia dei pulsanti POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>For each line<ept id="p1">&lt;/strong&gt;</ept> – If this option is selected, and either the <bpt id="p2">&lt;strong&gt;</bpt>Default to cashier<ept id="p2">&lt;/strong&gt;</ept> option isn't enabled or the current cashier doesn't have a default sales group, the user will be prompted to select a sales group after adding each line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Per ogni riga<ept id="p1">&lt;/strong&gt;</ept> – Se questa opzione è selezionata e l'opzione <bpt id="p2">&lt;strong&gt;</bpt>Valore predefinito impostato su cassiere<ept id="p2">&lt;/strong&gt;</ept> non è abilitata o il cassiere corrente non è associato a un gruppo di vendite predefinito, all'utente verrà chiesto di selezionare un gruppo vendite dopo l'aggiunta di ogni riga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>A user could still manually set the Sales group by using a POS button grid button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un utente può comunque impostare manualmente il gruppo vendite tramite un pulsante della griglia dei pulsanti POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Require</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Richiedi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>This option is only applicable when POS is configured to prompt for a sales representative.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa opzione può essere utilizzata solo quando il POS è configurato per richiedere un rappresentante.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>If enabled, the user will be required to choose a sales group before continuing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se abilitata, all'utente verrà chiesto di selezionare un gruppo vendite prima di continuare.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Otherwise, the user will be prompted, but can cancel and continue without making a selection.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In caso contrario, all'utente verrà chiesto, ma può annullare e continuare senza effettuare una selezione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>After the line is added, a user with sufficient permissions could still remove the sales group from the line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dopo che la riga viene aggiunta, un utente con autorizzazioni sufficienti può comunque rimuovere il gruppo vendite dalla riga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>"Require sales representative" is not enforced in this situation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">"Richiedi rappresentante" non viene applicato in questo caso.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Displaying the Sales representative information on the POS transactions screen</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visualizzazione delle informazioni relative al rappresentante sullo schermo delle transazioni POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>The POS transaction screen layout and contents are configurable using the screen layout designer and assigned screen layouts to stores, registers, or workers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il layout e il contenuto dello schermo della transazione POS sono configurabili mediante la funzionalità di progettazione layout dello schermo e layout dello schermo assegnati a punti vendita, registratori di cassa o lavoratori.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source> The <bpt id="p1">**</bpt>Sales representative<ept id="p1">**</ept> field can be added to the Lines tab of the Receipt pane.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il campo <bpt id="p1">**</bpt>Rappresentante<ept id="p1">**</ept> può essere aggiunto alla scheda Righe del riquadro Entrata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>  This will display the ID of the specified Sales group for each line on the transaction screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">  Ciò visualizzerà l'ID del gruppo di vendite specificato per ogni riga sullo schermo di transazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Adding Sales representative operations to POS button grids</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aggiunta delle operazioni di un rappresentante alle griglie di pulsanti POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>POS allows users to configure button grids, which are included in screen layouts to provide access to POS operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il POS consente agli utenti di configurare griglie dei pulsanti, comprese nei layout dello schermo per fornire l'accesso alle operazioni POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>The following POS operations can be assigned to button grid buttons that pertain to Sales representatives.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le seguenti operazioni POS possono essere assegnate ai pulsanti della griglia di pulsanti relativi ai rappresentanti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Operation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Operazione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrizione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Set sales representative on line</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Imposta rappresentante su riga</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>This POS operation displays a list of eligible Sales groups (ID : Name) for the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'operazione POS visualizza un elenco di gruppi di vendite idonei (UD : Nome) per il punto vendita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source> Selecting a Sales group from this list will set the value on the current transaction line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Se si seleziona un gruppo di vendite dall'elenco, il valore verrà impostato sulla riga di transazione corrente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Clear sales representative on line</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cancella rappresentante su riga</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>This POS operation removes the current Sales group value from the current transaction line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'operazione POS rimuove il valore del gruppo di vendite corrente della riga di transazione corrente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Set sales representative on transaction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare il rappresentante sulla transazione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>This POS operation displays a list of eligible Sales groups (ID : Name) for the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'operazione POS visualizza un elenco di gruppi di vendite idonei (UD : Nome) per il punto vendita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source> Selecting a Sales group from this list will set the default value on the current transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Se si seleziona un gruppo di vendite dall'elenco, il valore predefinito verrà impostato sulla transazione corrente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Any existing lines without a sales group assigned will be set, as well as any subsequently added lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tutte le righe esistenti senza un gruppo vendite assegnato verranno impostate nonché eventuali righe aggiunte successivamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Clear sales representative on transaction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cancellare il rappresentante sulla transazione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>This POS operation removes the current default Sales group value from the current transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa operazione POS rimuove il valore del gruppo di vendite predefiito corrente dalla transazione corrente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>It does not impact any lines already existing in the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Non influisce sulle righe già esistenti nella transazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Calculating commissions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Calcolo delle provvigioni</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Commission is calculated for the workers in the specified sales groups at the time of statement posting or sales order posting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La provvigione viene calcolata per i lavoratori nei gruppi di vendite specificati al momento della registrazione del rendiconto o dell'ordine cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source> The commission amount is determined based on the worker's commission share, as defined in the sales group and the associated commission calculation settings for the customer and/or products on the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Importo della provvigione viene determinato in base alla quota di provvigione del lavoratore, come definito nel gruppo vendite e nelle impostazioni di calcolo della provvigione associate per il cliente e/o i prodotti nella transazione.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

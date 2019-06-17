@@ -1,236 +1,510 @@
----
-title: Libri IVA italiani
-description: Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: CustParameters, LedgerJournalSetup, ProjJournalName, TaxBook, TaxBookSection, TaxBookSectionLookupVoucherSeries, TaxBookStatus, TaxBookTable, VendParameters
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 268654
-ms.search.region: Italy
-ms.author: ilyako
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 52610faa10cfbcab33e49e17e46baa5db71a2f05
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538018"
----
-# <a name="italian-sales-tax-books"></a><span data-ttu-id="3b1d4-103">Libri IVA italiani</span><span class="sxs-lookup"><span data-stu-id="3b1d4-103">Italian sales tax books</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="3b1d4-104">Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-104">The topic describes how to set up and use Italian sales tax books and Italian sales tax book sections.</span></span>
-
-<span data-ttu-id="3b1d4-105">In base alla legislazione tributaria italiana, ciascuna transazione IVA (imposta sul valore aggiunto) deve appartenere a un *Libro IVA* che verrà utilizzato per il reporting fiscale.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-105">According to Italian fiscal legislation, every value-added tax (VAT) transaction must belong to a tax book (*Libro IVA*) that will be used for tax reporting.</span></span> <span data-ttu-id="3b1d4-106">Per soddisfare questi requisiti legislativi, Microsoft Dynamics 365 for Finance and Operations implementa i libri IVA italiani.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-106">To fulfill these legislative requirements, Microsoft Dynamics 365 for Finance and Operations implements Italian sales tax books.</span></span> <span data-ttu-id="3b1d4-107">I libri IVA possono essere di diversi tipi.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-107">Sales tax books can be of different types.</span></span> <span data-ttu-id="3b1d4-108">È necessario specificare il tipo di libro IVA per assicurarsi che tutte le transazioni di vendita e acquisti siano incluse nel report **Liquidazione IVA italiana**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-108">You must specify the sales tax book type to help guarantee that all sales and purchase transactions are included on the **Italian sales tax payment** report.</span></span> <span data-ttu-id="3b1d4-109">È possibile mantenere tutti i libri IVA di tipo **Vendite** e **Acquisti** necessari.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-109">You can keep as many sales tax books of the **Sales** and **Purchase** types as you require.</span></span> <span data-ttu-id="3b1d4-110">Ciascun libro IVA può essere diviso in più *Sezionali IVA*.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-110">Every tax book can be divided into multiple tax book sections (*Sezionale IVA*).</span></span> <span data-ttu-id="3b1d4-111">Tutte le transazioni IVA devono essere numerate in sequenza (senza interruzioni) e ordinate in base alla data di registrazione.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-111">All sales tax transactions must be sequentially numbered (without gaps) and ordered by posting date.</span></span> <span data-ttu-id="3b1d4-112">Un sezionale IVA equivale a una sequenza numerica per il numero di giustificativo IVA italiano (*Protocollo IVA*) che deve essere applicato sempre durante la registrazione per assicurare l'ordine cronologico in base alla data di registrazione.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-112">A tax book section is equivalent to a number sequence for the Italian sales tax voucher number (*Protocollo IVA*) that must always be applied during posting to help guarantee chronological order by posting date.</span></span>
-
-## <a name="prerequisites"></a><span data-ttu-id="3b1d4-113">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="3b1d4-113">Prerequisites</span></span>
-<span data-ttu-id="3b1d4-114">Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di iniziare.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-114">The following table shows the prerequisites that must be in place before you start.</span></span>
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="3b1d4-115">Categoria</span><span class="sxs-lookup"><span data-stu-id="3b1d4-115">Category</span></span></th>
-<th><span data-ttu-id="3b1d4-116">Prerequisito</span><span class="sxs-lookup"><span data-stu-id="3b1d4-116">Prerequisite</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span data-ttu-id="3b1d4-117"><strong>Impostazione:</strong> persona giuridica</span><span class="sxs-lookup"><span data-stu-id="3b1d4-117"><strong>Setup:</strong> Legal entity</span></span></td>
-<td><span data-ttu-id="3b1d4-118">L'indirizzo principale della persona giuridica deve essere in Italia.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-118">The primary address of the legal entity must be in Italy.</span></span> <span data-ttu-id="3b1d4-119">(Fare clic su <strong>Amministrazione organizzazione</strong> &gt; <strong>Organizzazioni</strong> &gt; <strong>Persone giuridiche</strong> &gt; <strong>Indirizzi</strong> &gt; <strong>Paese</strong>.)</span><span class="sxs-lookup"><span data-stu-id="3b1d4-119">(Click <strong>Organization administration</strong> &gt; <strong>Organizations</strong> &gt; <strong>Legal entities</strong> &gt; <strong>Addresses</strong> &gt; <strong>Country/region</strong>.)</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="3b1d4-120"><strong>Impostazione:</strong> sequenze numeriche</span><span class="sxs-lookup"><span data-stu-id="3b1d4-120"><strong>Setup:</strong> Number sequences</span></span></td>
-<td><span data-ttu-id="3b1d4-121">Impostare il numero di sequenze necessario per coprire tutti i tipi necessari di transazioni IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-121">Set up as many number sequences as you require to cover all the required types of sales tax transactions.</span></span> <span data-ttu-id="3b1d4-122">Fare clic su <strong>Amministrazione organizzazione</strong> &gt;<strong>Sequenze numeriche</strong> &gt; <strong>Sequenze numeriche</strong>. Tutte le sequenze numeriche devono essere continue e avere ambito <strong>Società</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-122">(Click <strong>Organization administration</strong> &gt; <strong>Number sequences</strong> &gt; <strong>Number sequences</strong>.) All these number sequences must be continuous and must have <strong>Company</strong> scope.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="3b1d4-123"><strong>Impostazione:</strong> nomi di giornali di registrazione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-123"><strong>Setup:</strong> Journal names</span></span></td>
-<td><span data-ttu-id="3b1d4-124">Impostare i nomi di giornale di registrazione necessari.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-124">Set up the required journal names.</span></span> <span data-ttu-id="3b1d4-125">(Fare clic su <strong>Contabilità generale</strong> &gt; <strong>Impostazione giornale di registrazione</strong> &gt; <strong>Nomi giornale di registrazione</strong> o <strong>Gestione progetti e contabilità</strong> &gt; <strong>Imposta</strong> &gt; <strong>Giornali di registrazione </strong> &gt; <strong>Nomi giornale di registrazione</strong>.) Nella Scheda dettaglio <strong>Generale</strong>, nella sezione <strong>IVA</strong>, nel campo <strong>Libro IVA italiano</strong> specificare uno dei valori seguenti:</span><span class="sxs-lookup"><span data-stu-id="3b1d4-125">(Click <strong>General Ledger</strong> &gt; <strong>Journal setup</strong> &gt; <strong>Journal names</strong> or <strong>Project management and accounting</strong> &gt; <strong>Setup</strong> &gt; <strong>Journals</strong> &gt; <strong>Journal names</strong>.) On the <strong>General</strong> FastTab, in the <strong>Sales tax</strong> section, in the <strong>Italian sales tax book</strong> field, specify one of the following values:</span></span>
-<ul>
-<li><span data-ttu-id="3b1d4-126"><strong>Non incluso</strong> Selezionare questo valore per le fatture e le note di accredito che provengono dai paesi esterni alla comunità europea.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-126"><strong>Not included</strong> – Select this value for invoices and credit notes that come from countries/regions that are outside the European community.</span></span></li>
-<li><span data-ttu-id="3b1d4-127"><strong>Acquisti</strong> Selezionare questo valore per le fatture e note di accredito di acquisto.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-127"><strong>Purchase</strong> – Select this value for purchase invoices and credit notes.</span></span></li>
-<li><span data-ttu-id="3b1d4-128"><strong>Vendite</strong> Selezionare questo valore per le fatture e note di accredito di vendita.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-128"><strong>Sales</strong> – Select this value for sales invoices and credit notes.</span></span></li>
-<li><span data-ttu-id="3b1d4-129"><strong>Vuoto</strong> Selezionare questo valore per tutti gli altri tipi di transazioni.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-129"><strong>Empty</strong> – Select this value for all other types of transactions.</span></span></li>
-</ul>
-<span data-ttu-id="3b1d4-130">In alcuni casi, il campo <strong>Libro IVA italiano</strong> viene impostato automaticamente, in base al valore <strong>Tipo di giornale di registrazione</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-130">In some cases, the <strong>Italian sales tax book</strong> field is set automatically, based on the <strong>Journal type</strong> value.</span></span> <span data-ttu-id="3b1d4-131">Ad esempio, se il campo <strong>Tipo di giornale di registrazione</strong> è impostato su <strong>Registro fatture</strong>, il campo <strong>Libro IVA italiano</strong> è  impostato su <strong>Acquisti</strong> per impostazione predefinita.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-131">For example, if the <strong>Journal type</strong> field is set to <strong>Invoice register</strong>, the <strong>Italian sales tax book</strong> field is set to <strong>Purchase</strong> by default.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="3b1d4-132"><strong>Impostazione:</strong> parametri del modulo</span><span class="sxs-lookup"><span data-stu-id="3b1d4-132"><strong>Setup:</strong> Module parameters</span></span></td>
-<td><span data-ttu-id="3b1d4-133">Per consentire ai giustificativi di seguire le sequenze numeriche delle fatture e delle note di accredito correlate, è necessario selezionare la casella di controllo <strong>Riutilizza numeri</strong> quando vengono definite le sequenze numeriche per tali fatture e note di accredito.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-133">For vouchers to follow the number sequences of the related invoices and credit notes, you must select the <strong>Reuse numbers</strong> check box when you define the number sequences for those invoices and credit notes.</span></span> <span data-ttu-id="3b1d4-134">È possibile trovare questa casella di controllo nella scheda <strong>Sequenze numeriche</strong> delle pagine seguenti:</span><span class="sxs-lookup"><span data-stu-id="3b1d4-134">You can find this check box on the <strong>Number sequences</strong> tab of the following pages:</span></span>
-<ul>
-<li><span data-ttu-id="3b1d4-135">Parametri contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="3b1d4-135">Accounts receivable parameters</span></span></li>
-<li><span data-ttu-id="3b1d4-136">Parametri contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="3b1d4-136">Accounts payable parameters</span></span></li>
-<li><span data-ttu-id="3b1d4-137">Parametri Gestione progetti e contabilità</span><span class="sxs-lookup"><span data-stu-id="3b1d4-137">Project management and accounting parameters</span></span></li>
-</ul>
-<span data-ttu-id="3b1d4-138">Ad esempio, nella pagina <strong>Parametri contabilità clienti</strong>, scheda <strong>Sequenze numeriche</strong>, selezionare la casella di controllo <strong>Riutilizza numeri</strong> per <strong>Giustificativo di fattura a testo libero</strong> per sincronizzare l'allocazione dei numeri per i giustificativi fattura a testo libero e fatture a testo libero.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-138">For example, on the <strong>Accounts receivable parameters</strong> page, on the <strong>Number sequences</strong> tab, select the <strong>Reuse numbers</strong> check box for <strong>Free text invoice voucher</strong> to synchronize number allocation for free text invoice vouchers and free text invoices.</span></span></td>
-</tr>
-</tbody>
-</table>
-
-## <a name="set-up-sales-tax-books"></a><span data-ttu-id="3b1d4-139">Impostare i libri IVA</span><span class="sxs-lookup"><span data-stu-id="3b1d4-139">Set up sales tax books</span></span>
-<span data-ttu-id="3b1d4-140">I libri IVA vengono utilizzati per il reporting IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-140">Sales tax books are used for sales tax reporting.</span></span> <span data-ttu-id="3b1d4-141">Per impostare i libri IVA italiani, fare clic su **Imposta** &gt; **Imposta** &gt; **IVA** &gt; **Libri IVA italiani**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-141">To set up Italian sales tax books, click **Tax** &gt; **Setup** &gt; **Sales tax** &gt; **Italian sales tax books**.</span></span> <span data-ttu-id="3b1d4-142">Nella tabella seguente vengono descritti i campi disponibili nella pagina **Libri IVA italiani**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-142">The following table describes the fields that are available on the **Italian sales tax books** page.</span></span>
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="3b1d4-143">Campo</span><span class="sxs-lookup"><span data-stu-id="3b1d4-143">Field</span></span></th>
-<th><span data-ttu-id="3b1d4-144">descrizione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-144">Description</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span data-ttu-id="3b1d4-145">Libro IVA</span><span class="sxs-lookup"><span data-stu-id="3b1d4-145">Sales tax book</span></span></td>
-<td><span data-ttu-id="3b1d4-146">Immettere l'ID del libro IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-146">Enter the ID of the sales tax book.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="3b1d4-147">Nome</span><span class="sxs-lookup"><span data-stu-id="3b1d4-147">Name</span></span></td>
-<td><span data-ttu-id="3b1d4-148">Consente di immettere una descrizione del libro IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-148">Enter a description of the sales tax book.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="3b1d4-149">Tipo di libro IVA</span><span class="sxs-lookup"><span data-stu-id="3b1d4-149">Sales tax book type</span></span></td>
-<td><span data-ttu-id="3b1d4-150">Selezionare la natura delle operazioni che verranno eseguite tramite i sezionali IVA che allegherai al libro IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-150">Select the nature of the operations that will be performed through the sales tax book sections that you will attach to the sales tax book.</span></span> <span data-ttu-id="3b1d4-151">Sono disponibili i valori seguenti:</span><span class="sxs-lookup"><span data-stu-id="3b1d4-151">The following values are available:</span></span>
-<ul>
-<li><span data-ttu-id="3b1d4-152"><strong>Acquisti</strong> Selezionare questo valore per le fatture e note di accredito di acquisto.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-152"><strong>Purchase</strong> – Select this value for purchase invoices and credit notes.</span></span></li>
-<li><span data-ttu-id="3b1d4-153"><strong>Vendite</strong> Selezionare questo valore per le fatture e note di accredito di vendita.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-153"><strong>Sales</strong> – Select this value for sales invoices and credit notes.</span></span></li>
-<li><span data-ttu-id="3b1d4-154"><strong>Non incluso</strong> Selezionare questo valore per le fatture e le note di accredito che provengono dai paesi esterni alla comunità europea.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-154"><strong>Not included</strong> – Select this value for invoices and credit notes that come from countries/regions that are outside the European community.</span></span> <span data-ttu-id="3b1d4-155">Questo tipo viene utilizzato solo a fini statistici e non verrà incluso nei report dei libri fiscali finali.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-155">This type is used only for statistical purposes and won&#39;t be included on the final fiscal tax book reports.</span></span></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="3b1d4-156">Periodo di liquidazione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-156">Settlement period</span></span></td>
-<td><span data-ttu-id="3b1d4-157">Selezionare un periodo di liquidazione IVA esistente.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-157">Select an existing sales tax settlement period.</span></span> <span data-ttu-id="3b1d4-158">Quando viene stampato un libro IVA, se la casella di controllo <strong>Aggiorna</strong> è  selezionata nella pagina <strong>Pagamento IVA</strong>, la data immessa nel campo <strong>Dal</strong> viene confrontata con il periodo di liquidazione selezionato.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-158">When a sales tax book is printed, if the <strong>Update</strong> check box is selected on the <strong>Sales tax payment</strong> page, the date in the <strong>From date</strong> field is compared to the selected settlement period.</span></span> <span data-ttu-id="3b1d4-159">Questo periodo viene utilizzato anche per identificare i libri e i sezionali IVA da chiudere al momento dell'aggiornamento di una liquidazione IVA per un determinato periodo.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-159">The settlement period is also used to identify which sales tax books and sales tax book sections must be closed when a sales tax settlement is updated for a settlement period.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="3b1d4-160">Chiuso al</span><span class="sxs-lookup"><span data-stu-id="3b1d4-160">Closed to</span></span></td>
-<td><span data-ttu-id="3b1d4-161">Data di chiusura più recente dai sezionali IVA correlati che appartengono al libro IVA selezionato.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-161">The latest closing date from the related sales tax book sections that belong to the selected sales tax book.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="3b1d4-162">Vendite UE</span><span class="sxs-lookup"><span data-stu-id="3b1d4-162">EU sales</span></span></td>
-<td><span data-ttu-id="3b1d4-163">Selezionare un libro IVA di tipo <strong>Vendite</strong> e collegarlo al libro IVA corrente di tipo <strong>Acquisti</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-163">Select a sales tax book of the <strong>Sales</strong> type, and attach it to the current sales tax book of the <strong>Purchase</strong> type.</span></span> <span data-ttu-id="3b1d4-164">Questo campo viene utilizzata se il libro IVA selezionato deve includere le transazioni di acquisto avvenute nell'Unione Europea (UE) dal libro corrente nei report IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-164">This field is used if the selected sales tax book must include European Union (EU) purchase transactions from the current book on sales tax reports.</span></span> <span data-ttu-id="3b1d4-165">Il campo non è disponibile per i libri IVA di tipo <strong>Vendite</strong> e <strong>Non incluso</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-165">This field is unavailable for sales tax books of the <strong>Sales</strong> and <strong>Not included</strong> types.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="3b1d4-166">Codice ATECOFIN</span><span class="sxs-lookup"><span data-stu-id="3b1d4-166">ATECOFIN Code</span></span></td>
-<td><span data-ttu-id="3b1d4-167">Selezionare il codice imposta per il reporting.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-167">Select the tax code for reporting.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="3b1d4-168">Stampa riepilogo e pagamenti</span><span class="sxs-lookup"><span data-stu-id="3b1d4-168">Print summary and payment</span></span></td>
-<td><span data-ttu-id="3b1d4-169">Selezionare questa opzione per stampare il riepilogo e il report di pagamento.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-169">Select this option to print the summary and payment report.</span></span> <span data-ttu-id="3b1d4-170">Il campo è disponibile solo per i libri IVA di tipo <strong>Vendite</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-170">This field is available only for sales tax books of the <strong>Sales</strong> type.</span></span></td>
-</tr>
-</tbody>
-</table>
-
-## <a name="set-up-sales-tax-book-sections"></a><span data-ttu-id="3b1d4-171">Impostare i sezionali IVA</span><span class="sxs-lookup"><span data-stu-id="3b1d4-171">Set up sales tax book sections</span></span>
-<span data-ttu-id="3b1d4-172">I sezionali IVA sono un archivio in cui le transazioni di contabilità generale devono essere registrate in base alla natura.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-172">Sales tax book sections are a repository where ledger transactions are posted according to their nature.</span></span> <span data-ttu-id="3b1d4-173">La numerazione dei giustificativi viene determinata dai sezionali IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-173">The voucher numbering is driven by the sales tax book sections.</span></span> <span data-ttu-id="3b1d4-174">Per impostare i sezionali IVA italiani, fare clic su **Imposta** &gt; **Imposta** &gt; **IVA** &gt; **Sezionali IVA italiani**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-174">To set up Italian sales tax book sections, click **Tax** &gt; **Setup** &gt; **Sales tax** &gt; **Italian sales tax book sections**.</span></span> <span data-ttu-id="3b1d4-175">Nella tabella seguente vengono descritti i campi disponibili nella pagina **Sezionali IVA italiani**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-175">The following table describes the fields that are available on the **Italian sales tax book sections** page.</span></span>
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="3b1d4-176">Campo</span><span class="sxs-lookup"><span data-stu-id="3b1d4-176">Field</span></span></th>
-<th><span data-ttu-id="3b1d4-177">descrizione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-177">Description</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span data-ttu-id="3b1d4-178">Libro IVA</span><span class="sxs-lookup"><span data-stu-id="3b1d4-178">Sales tax book</span></span></td>
-<td><span data-ttu-id="3b1d4-179">Selezionare uno dei libri IVA esistenti a cui è collegato il sezionale IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-179">Select one of the existing sales tax books that the sales tax book section is attached to.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="3b1d4-180">Sezionale IVA</span><span class="sxs-lookup"><span data-stu-id="3b1d4-180">Sales tax book section</span></span></td>
-<td><span data-ttu-id="3b1d4-181">Immettere l'ID del sezionale IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-181">Enter the ID of sales tax book section.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="3b1d4-182">Nome</span><span class="sxs-lookup"><span data-stu-id="3b1d4-182">Name</span></span></td>
-<td><span data-ttu-id="3b1d4-183">Consente di immettere una descrizione del sezionale IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-183">Enter a description of the sales tax book section.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="3b1d4-184">Codice sequenza numerica</span><span class="sxs-lookup"><span data-stu-id="3b1d4-184">Number sequence code</span></span></td>
-<td><span data-ttu-id="3b1d4-185">Selezionare il codice di sequenza numerica per il sezionale IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-185">Select the number sequence code for the sales tax book section.</span></span> <span data-ttu-id="3b1d4-186">Il codice di sequenza numerica selezionato dipende dal tipo di libro IVA a cui il sezionale IVA è collegato:</span><span class="sxs-lookup"><span data-stu-id="3b1d4-186">The number sequence code that you select depends on the type of sales tax book that the sales tax book section is attached to:</span></span>
-<ul>
-<li><span data-ttu-id="3b1d4-187">Per un libro IVA di tipo <strong>Acquisti</strong>: selezionare i codici di sequenza numerica definiti per i giustificativi fattura di acquisto o i giustificativi note di accredito di acquisto nella pagina <strong>Parametri contabilità fornitori</strong> o i codici di sequenza numerica usati nella pagina <strong>Nomi giornale di registrazione</strong> per i giustificativi che hanno il campo <strong>Libro VAT italiano</strong> impostato su <strong>Acquisti</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-187">For a sales tax book of the <strong>Purchase</strong> type: Select number sequence codes that are defined for purchase invoice vouchers or purchase credit note vouchers on the <strong>Accounts payable parameters</strong> page, or number sequence codes that are used on the <strong>Journal names</strong> page for vouchers that have the <strong>Italian sales tax book</strong> field set to <strong>Purchase</strong>.</span></span></li>
-<li><span data-ttu-id="3b1d4-188">Per un libro IVA di tipo <strong>Vendite</strong>: selezionare i codici di sequenza numerica definiti per i giustificativi fattura di vendita o i giustificativi nota di accredito di vendita o i giustificativi fattura a testo libero o i giustificativi nota di accredito a testo libero nella pagina <strong>Parametri</strong> <strong>contabilità clienti</strong> o i codici di sequenza numerica usati nella pagina <strong>Nomi giornale</strong> di registrazione per i giustificativi che hanno il campo <strong>Libro VAT italiano</strong> impostato su <strong>Vendite</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-188">For a sales tax book of the <strong>Sales</strong> type: Select number sequence codes that are defined for sales invoice vouchers or sales credit note vouchers or free text invoice vouchers or free text credit note vouchers on the <strong>Accounts receivable</strong> <strong>parameters</strong> page, or number sequence codes that are used on the <strong>Journal names</strong> page for vouchers that have the <strong>Italian sales tax book</strong> field set to <strong>Sales</strong>.</span></span></li>
-<li><span data-ttu-id="3b1d4-189">Per un libro IVA di tipo  <strong>Non incluso</strong>: Selezionare il codice di sequenza numerica appropriato.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-189">For a sales tax book of the <strong>Not included</strong> type: Select any suitable number sequence code.</span></span></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="3b1d4-190">Chiuso al</span><span class="sxs-lookup"><span data-stu-id="3b1d4-190">Closed to</span></span></td>
-<td><span data-ttu-id="3b1d4-191">Immettere la data di fine dell'ultimo periodo di liquidazione IVA chiuso.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-191">Enter the end date of the last closed sales tax settlement period.</span></span> <span data-ttu-id="3b1d4-192">Questo campo è utilizzato per filtrare i dati nel report IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-192">This field is used to filter data on the sales tax report.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="3b1d4-193">Chiudi sezionale IVA italiani</span><span class="sxs-lookup"><span data-stu-id="3b1d4-193">Close Italian sales tax book section</span></span></td>
-<td><span data-ttu-id="3b1d4-194">Data di chiusura del libro IVA italiano per un periodo fiscale.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-194">The closing date of the Italian sales tax book for a tax period.</span></span> <span data-ttu-id="3b1d4-195">Non è possibile registrare o stornare una fattura se la relativa data è precedente alla data di chiusura del periodo fiscale.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-195">You can&#39;t post or reverse an invoice that has a date that is earlier than the closing date of the tax period.</span></span> <span data-ttu-id="3b1d4-196">Questo campo viene aggiornato con la data di chiusura del periodo fiscale.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-196">This field is updated with the closing date of the tax period.</span></span> <span data-ttu-id="3b1d4-197">La casella di controllo <strong>Aggiorna</strong> deve anche essere selezionata nella pagina <strong>Pagamento IVA</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-197">The <strong>Update</strong> check box must also be selected on the <strong>Sales tax payment</strong> page.</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="3b1d4-198">Sono disponibili inoltre il seguente pulsante.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-198">The following button is also available.</span></span>
-
-| <span data-ttu-id="3b1d4-199">Pulsante</span><span class="sxs-lookup"><span data-stu-id="3b1d4-199">Button</span></span> | <span data-ttu-id="3b1d4-200">descrizione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-200">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="3b1d4-201">Creazione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-201">Create</span></span> | <span data-ttu-id="3b1d4-202">Crea automaticamente tutti i sezionali IVA richiesti per i libri IVA esistenti del tipo **Vendite** e **Acquisti**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-202">Automatically create all the required sales tax book sections for existing sales tax books of the **Sales** and **Purchase** types.</span></span> <span data-ttu-id="3b1d4-203">I sezionali IVA vengono creati per ciascuna sequenza numerica definita per i giustificativi fattura di acquisto o giustificativi nota di accredito di acquisto o giustificativi fattura di vendita o giustificativi nota di accredito di vendita o giustificativi fattura a testo libero o giustificativi note di accredito a testo libero nella pagina **Parametri contabilità fornitori**, **Parametri contabilità clienti** o **Parametri Gestione progetti e contabilità** e per ciascuna sequenza numerica utilizzata nella pagina **Nomi giornale di registrazione** per i giustificativi che hanno il campo **Libro IVA italiano** impostato su **Acquisti** o **Vendite**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-203">Sales tax book sections are created for every number sequence that is defined for purchase invoice vouchers or purchase credit note vouchers or sales invoice vouchers or sales credit note vouchers or free text invoice vouchers or free text credit note vouchers on the **Accounts payable parameters**, **Accounts receivable parameters**, or **Project management and accounting parameters** page, and for every number sequence that is used on the **Journal names** page for vouchers that have the **Italian sales tax book** field set to **Purchase** or **Sales**.</span></span> <span data-ttu-id="3b1d4-204">Ogni sezionale IVA creato è collegato automaticamente al libro IVA predefinito.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-204">Every sales tax book section that is created is automatically attached to the default sales tax book.</span></span> <span data-ttu-id="3b1d4-205">Il libro IVA deve essere creato prima dei sezionali IVA. Se più libri IVA dello stesso tipo di libro IVA  (**Vendite** o **Acquisti**) esistono, il primo libro IVA viene utilizzato per impostazione predefinita.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-205">(The sales tax book must be created before the sales tax book sections.) If several sales tax books of the same sales tax book type (**Sales** or **Purchase**) exist, the first sales tax book is used by default.</span></span> <span data-ttu-id="3b1d4-206">Tuttavia, è possibile modificare manualmente il collegamento.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-206">However, you can manually change this attachment.</span></span> <span data-ttu-id="3b1d4-207">Se nessun libro IVA è disponibile, nessun sezionale IVA viene creato automaticamente.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-207">If no sales tax book exists, no sales tax book sections are automatically created.</span></span> |
-
-## <a name="sales-tax-book-status"></a><span data-ttu-id="3b1d4-208">Stato libro IVA</span><span class="sxs-lookup"><span data-stu-id="3b1d4-208">Sales tax book status</span></span>
-<span data-ttu-id="3b1d4-209">Quando si crea un nuovo periodo IVA, per ciascun libro IVA esistente vengono impostate automaticamente le righe corrispondenti.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-209">When a new sales tax period is created, sales tax book lines are automatically set up for every sales tax book that exists.</span></span> <span data-ttu-id="3b1d4-210">Se si crea un libro IVA aggiuntivo, è possibile creare manualmente anche le righe per i periodi esistenti non ancora chiusi.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-210">If an additional sales tax book is created, lines can be manually created for existing periods that haven't been closed.</span></span> <span data-ttu-id="3b1d4-211">Fare clic su **Imposta** &gt; **Imposte indirette** &gt; **IVA** &gt; **Periodi liquidazione IVA**, quindi fare clic su **Stato libro IVA**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-211">Click **Tax** &gt; **Indirect taxes** &gt; **Sales tax** &gt; **Sales tax settlement periods**, and then click **Sales tax book status**.</span></span> <span data-ttu-id="3b1d4-212">Nella tabella seguente vengono descritte le schede della pagina **Stato libro IVA**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-212">The following table describes the tabs on the **Sales tax book status** page.</span></span>
-
-| <span data-ttu-id="3b1d4-213">Scheda</span><span class="sxs-lookup"><span data-stu-id="3b1d4-213">Tab</span></span>      | <span data-ttu-id="3b1d4-214">descrizione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-214">Description</span></span>                                                                                               |
-|----------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="3b1d4-215">Panoramica</span><span class="sxs-lookup"><span data-stu-id="3b1d4-215">Overview</span></span> | <span data-ttu-id="3b1d4-216">Consente di visualizzare lo stato delle pagine dei libri IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-216">View the page status of the sales tax books.</span></span> <span data-ttu-id="3b1d4-217">Tutti i campi risultano bloccati per gli aggiornamenti manuali.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-217">All the fields are locked for manual updates.</span></span>                |
-| <span data-ttu-id="3b1d4-218">Generale</span><span class="sxs-lookup"><span data-stu-id="3b1d4-218">General</span></span>  | <span data-ttu-id="3b1d4-219">Consente di visualizzare le stesse informazioni disponibili nella scheda **Panoramica** ma solo per il libro IVA selezionato.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-219">View the same information that appears on the **Overview** tab, but only for the selected sales tax book.</span></span> |
-
-<span data-ttu-id="3b1d4-220">Nella seguente tabella vengono illustrati i campi disponibili.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-220">The following table describes the fields that are available.</span></span>
-
-| <span data-ttu-id="3b1d4-221">Campo</span><span class="sxs-lookup"><span data-stu-id="3b1d4-221">Field</span></span>             | <span data-ttu-id="3b1d4-222">descrizione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-222">Description</span></span>                                                                                      |
-|-------------------|--------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="3b1d4-223">Libro IVA</span><span class="sxs-lookup"><span data-stu-id="3b1d4-223">Sales tax book</span></span>    | <span data-ttu-id="3b1d4-224">Selezionare l'ID libro IVA impostato nella pagina **Libri IVA italiani**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-224">Select the sales tax book ID that you set up on the **Italian sales tax books** page.</span></span>            |
-| <span data-ttu-id="3b1d4-225">Nome</span><span class="sxs-lookup"><span data-stu-id="3b1d4-225">Name</span></span>              | <span data-ttu-id="3b1d4-226">Immettere il nome del libro IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-226">Enter the name of the tax book.</span></span>                                                                  |
-| <span data-ttu-id="3b1d4-227">Primo numero di pagina</span><span class="sxs-lookup"><span data-stu-id="3b1d4-227">First page number</span></span> | <span data-ttu-id="3b1d4-228">Il primo numero di pagina che verrà utilizzato nel report IVA finale per questo periodo IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-228">The first page number that will be used on the final sales tax report for this sales tax period.</span></span> |
-| <span data-ttu-id="3b1d4-229">Modificato in</span><span class="sxs-lookup"><span data-stu-id="3b1d4-229">Changed to</span></span>        | <span data-ttu-id="3b1d4-230">Il numero di pagina specificato nella finestra di dialogo **Cambia numero prima pagina**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-230">The page number that is specified in the **Change first page number** dialog box.</span></span>                |
-| <span data-ttu-id="3b1d4-231">Ultimo numero di pagina</span><span class="sxs-lookup"><span data-stu-id="3b1d4-231">Last page number</span></span>  | <span data-ttu-id="3b1d4-232">L'ultimo numero di pagina che verrà utilizzato nel report IVA finale per questo periodo IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-232">The last page number that will be used on the final sales tax report for this sales tax period.</span></span>  |
-| <span data-ttu-id="3b1d4-233">Periodo di liquidazione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-233">Settlement period</span></span> | <span data-ttu-id="3b1d4-234">Il periodo di liquidazione utilizzato nel libro IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-234">The settlement period that is used in the sales tax book.</span></span>                                        |
-| <span data-ttu-id="3b1d4-235">Dal</span><span class="sxs-lookup"><span data-stu-id="3b1d4-235">From date</span></span>         | <span data-ttu-id="3b1d4-236">Data di inizio del periodo di liquidazione.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-236">The start date for the settlement period.</span></span>                                                        |
-| <span data-ttu-id="3b1d4-237">Al</span><span class="sxs-lookup"><span data-stu-id="3b1d4-237">To date</span></span>           | <span data-ttu-id="3b1d4-238">Data di fine del periodo di liquidazione.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-238">The end date for the settlement period.</span></span>                                                          |
-
-<span data-ttu-id="3b1d4-239">Sono disponibili inoltre il seguente pulsante.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-239">The following button is also available.</span></span>
-
-| <span data-ttu-id="3b1d4-240">Pulsante</span><span class="sxs-lookup"><span data-stu-id="3b1d4-240">Button</span></span>                   | <span data-ttu-id="3b1d4-241">descrizione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-241">Description</span></span>                                                                                                                                            |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="3b1d4-242">Cambia numero prima pagina</span><span class="sxs-lookup"><span data-stu-id="3b1d4-242">Change first page number</span></span> | <span data-ttu-id="3b1d4-243">Apre la finestra di dialogo **Cambia numero prima pagina**, in cui è possibile modificare il numero della prima pagina da utilizzare per il periodo di liquidazione aperto corrente.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-243">Open the **Change first page number** dialog box, where you can change the first page number that will be used for the current open settlement period.</span></span> |
-
-### <a name="change-first-page-number-dialog-box"></a><span data-ttu-id="3b1d4-244">Cambia numero prima pagina (finestra di dialogo)</span><span class="sxs-lookup"><span data-stu-id="3b1d4-244">Change first page number dialog box</span></span>
-
-<span data-ttu-id="3b1d4-245">Utilizzare la finestra di dialogo **Cambia numero prima pagina** per modificare il numero della prima pagina del report IVA finale per il periodo di liquidazione IVA in corso.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-245">Use the **Change first page number** dialog box to change the number of the first page on the final sales tax report for this sales tax settlement period.</span></span> <span data-ttu-id="3b1d4-246">Il numero di pagina viene quindi visualizzato nella colonna **Modificato in** della pagina **Stato libro IVA** e utilizzato come numero della prima pagina del report IVA finale che viene stampato per il periodo fiscale corrente.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-246">The page number then appears in the **Changed to** column on the **Sales tax book status** page and is used as the first page number of the final sales tax report that is printed for the current tax period.</span></span> <span data-ttu-id="3b1d4-247">Nella tabella seguente vengono descritti i campi disponibili nella finestra di dialogo **Cambia numero prima pagina**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-247">The following table describes the fields that are available in the **Change first page number** dialog box.</span></span>
-
-| <span data-ttu-id="3b1d4-248">Campo</span><span class="sxs-lookup"><span data-stu-id="3b1d4-248">Field</span></span>             | <span data-ttu-id="3b1d4-249">descrizione</span><span class="sxs-lookup"><span data-stu-id="3b1d4-249">Description</span></span>                                                           |
-|-------------------|-----------------------------------------------------------------------|
-| <span data-ttu-id="3b1d4-250">Primo numero di pagina</span><span class="sxs-lookup"><span data-stu-id="3b1d4-250">First page number</span></span> | <span data-ttu-id="3b1d4-251">Primo numero di pagina corrente per il libro IVA selezionato.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-251">The current first page number for the selected sales tax book.</span></span>        |
-| <span data-ttu-id="3b1d4-252">Modificato in</span><span class="sxs-lookup"><span data-stu-id="3b1d4-252">Changed to</span></span>        | <span data-ttu-id="3b1d4-253">Immettere il nuovo primo numero di pagina da utilizzare nel report IVA finale.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-253">Enter the new first page number to use on the final sales tax report.</span></span> |
-
-## <a name="using-sales-tax-books"></a><span data-ttu-id="3b1d4-254">Uso dei libri IVA</span><span class="sxs-lookup"><span data-stu-id="3b1d4-254">Using sales tax books</span></span>
-<span data-ttu-id="3b1d4-255">Quando l'impostazione viene completata, i sezionali IVA vengono visualizzati nella scheda **Sequenze numeriche** delle pagine seguenti:</span><span class="sxs-lookup"><span data-stu-id="3b1d4-255">When the setup is completed, the sales tax book sections appear on the **Number sequences** tab of the following pages:</span></span>
-
--   <span data-ttu-id="3b1d4-256">Parametri contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="3b1d4-256">Accounts receivable parameters</span></span>
--   <span data-ttu-id="3b1d4-257">Parametri contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="3b1d4-257">Accounts payable parameters</span></span>
--   <span data-ttu-id="3b1d4-258">Parametri Gestione progetti e contabilità</span><span class="sxs-lookup"><span data-stu-id="3b1d4-258">Project management and accounting parameters</span></span>
-
-<span data-ttu-id="3b1d4-259">I numeri di giustificativo assegnati durante la registrazione devono essere ordinati in sequenza in base alla data di registrazione e le transazioni IVA con lo stesso codice di sequenza numerica devono essere registrate in ordine.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-259">Voucher numbers that are assigned during posting must be sequentially ordered by posting date, and the sales tax transactions that use the same number sequence code must be posted in order.</span></span> <span data-ttu-id="3b1d4-260">Se i numeri di giustificativo non vengono ordinati in sequenza, viene visualizzato un messaggio di errore.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-260">If the voucher numbers aren't sequentially ordered, the user receives an error message.</span></span> <span data-ttu-id="3b1d4-261">Inoltre, se una transazione IVA non viene assegnata ad alcun sezionale IVA durante l'aggiornamento di una fattura, la registrazione verrà interrotta.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-261">In addition, posting is interrupted if a sales tax transaction isn't assigned to any sales tax book section when the user updates an invoice.</span></span> <span data-ttu-id="3b1d4-262">Ogni volta che un giustificativo viene registrato utilizzando un sezionale IVA, gli identificatori del libro IVA e del sezionale IVA correlati vengono salvati nelle transazioni IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-262">Whenever a voucher is posted through a sales tax book section, the identifiers of the related sales tax book and sales tax book section are saved in the tax transactions.</span></span> <span data-ttu-id="3b1d4-263">Fare clic su  **Imposta** &gt; **Richieste di informazioni su IVA** &gt; **IVA registrata**, quindi fare clic sulla scheda **Registrazione**. Questi dati possono quindi essere utilizzati durante il reporting IVA.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-263">(Click **Tax** &gt; **Sales tax inquiries** &gt; **Posted sales tax**, and then click the **Posting** tab.) This data can then be used during further sales tax reporting.</span></span> <span data-ttu-id="3b1d4-264">I libri IVA italiani vengono utilizzati per filtrare, raggruppare e ordinare il report accessibile in **Imposta** &gt; **Dichiarazioni** &gt; **IVA** &gt; **IVA (Italia)**.</span><span class="sxs-lookup"><span data-stu-id="3b1d4-264">Italian sales tax books are used for filtering, grouping, and sorting on the report that is accessed at **Tax** &gt; **Declarations** &gt; **Sales tax** &gt; **Sales Tax (Italy)**.</span></span>
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="emea-ita-fiscal-books.md" target-language="it-IT">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>emea-ita-fiscal-books.ad6bf6.109b6c10d49f735ef4e750a2737304903d0c011a.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>109b6c10d49f735ef4e750a2737304903d0c011a</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-ita-fiscal-books.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Italian sales tax books</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Libri IVA italiani</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>The topic describes how to set up and use Italian sales tax books and Italian sales tax book sections.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Italian sales tax books</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Libri IVA italiani</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>The topic describes how to set up and use Italian sales tax books and Italian sales tax book sections.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>According to Italian fiscal legislation, every value-added tax (VAT) transaction must belong to a tax book (<bpt id="p1">*</bpt>Libro IVA<ept id="p1">*</ept>) that will be used for tax reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In base alla legislazione tributaria italiana, ciascuna transazione IVA (imposta sul valore aggiunto) deve appartenere a un <bpt id="p1">*</bpt>Libro IVA<ept id="p1">*</ept> che verrà utilizzato per il reporting fiscale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>To fulfill these legislative requirements, Microsoft Dynamics 365 for Finance and Operations implements Italian sales tax books.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per soddisfare questi requisiti legislativi, Microsoft Dynamics 365 for Finance and Operations implementa i libri IVA italiani.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Sales tax books can be of different types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I libri IVA possono essere di diversi tipi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>You must specify the sales tax book type to help guarantee that all sales and purchase transactions are included on the <bpt id="p1">**</bpt>Italian sales tax payment<ept id="p1">**</ept> report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È necessario specificare il tipo di libro IVA per assicurarsi che tutte le transazioni di vendita e acquisti siano incluse nel report <bpt id="p1">**</bpt>Liquidazione IVA italiana<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>You can keep as many sales tax books of the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Purchase<ept id="p2">**</ept> types as you require.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È possibile mantenere tutti i libri IVA di tipo <bpt id="p1">**</bpt>Vendite<ept id="p1">**</ept> e <bpt id="p2">**</bpt>Acquisti<ept id="p2">**</ept> necessari.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Every tax book can be divided into multiple tax book sections (<bpt id="p1">*</bpt>Sezionale IVA<ept id="p1">*</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ciascun libro IVA può essere diviso in più <bpt id="p1">*</bpt>Sezionali IVA<ept id="p1">*</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>All sales tax transactions must be sequentially numbered (without gaps) and ordered by posting date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tutte le transazioni IVA devono essere numerate in sequenza (senza interruzioni) e ordinate in base alla data di registrazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>A tax book section is equivalent to a number sequence for the Italian sales tax voucher number (<bpt id="p1">*</bpt>Protocollo IVA<ept id="p1">*</ept>) that must always be applied during posting to help guarantee chronological order by posting date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un sezionale IVA equivale a una sequenza numerica per il numero di giustificativo IVA italiano (<bpt id="p1">*</bpt>Protocollo IVA<ept id="p1">*</ept>) che deve essere applicato sempre durante la registrazione per assicurare l'ordine cronologico in base alla data di registrazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Prerequisites</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prerequisiti</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>The following table shows the prerequisites that must be in place before you start.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di iniziare.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Category</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Categoria</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Prerequisite</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prerequisito</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Setup:<ept id="p1">&lt;/strong&gt;</ept> Legal entity</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Impostazione:<ept id="p1">&lt;/strong&gt;</ept> persona giuridica</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>The primary address of the legal entity must be in Italy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'indirizzo principale della persona giuridica deve essere in Italia.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>(Click <bpt id="p1">&lt;strong&gt;</bpt>Organization administration<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>Organizations<ept id="p2">&lt;/strong&gt;</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Legal entities<ept id="p3">&lt;/strong&gt;</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">&lt;strong&gt;</bpt>Addresses<ept id="p4">&lt;/strong&gt;</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">&lt;strong&gt;</bpt>Country/region<ept id="p5">&lt;/strong&gt;</ept>.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Fare clic su <bpt id="p1">&lt;strong&gt;</bpt>Amministrazione organizzazione<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>Organizzazioni<ept id="p2">&lt;/strong&gt;</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Persone giuridiche<ept id="p3">&lt;/strong&gt;</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">&lt;strong&gt;</bpt>Indirizzi<ept id="p4">&lt;/strong&gt;</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">&lt;strong&gt;</bpt>Paese<ept id="p5">&lt;/strong&gt;</ept>.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Setup:<ept id="p1">&lt;/strong&gt;</ept> Number sequences</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Impostazione:<ept id="p1">&lt;/strong&gt;</ept> sequenze numeriche</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Set up as many number sequences as you require to cover all the required types of sales tax transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare il numero di sequenze necessario per coprire tutti i tipi necessari di transazioni IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>(Click <bpt id="p1">&lt;strong&gt;</bpt>Organization administration<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>Number sequences<ept id="p2">&lt;/strong&gt;</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Number sequences<ept id="p3">&lt;/strong&gt;</ept>.) All these number sequences must be continuous and must have <bpt id="p4">&lt;strong&gt;</bpt>Company<ept id="p4">&lt;/strong&gt;</ept> scope.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su <bpt id="p1">&lt;strong&gt;</bpt>Amministrazione organizzazione<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph><bpt id="p2">&lt;strong&gt;</bpt>Sequenze numeriche<ept id="p2">&lt;/strong&gt;</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Sequenze numeriche<ept id="p3">&lt;/strong&gt;</ept>. Tutte le sequenze numeriche devono essere continue e avere ambito <bpt id="p4">&lt;strong&gt;</bpt>Società<ept id="p4">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Setup:<ept id="p1">&lt;/strong&gt;</ept> Journal names</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Impostazione:<ept id="p1">&lt;/strong&gt;</ept> nomi di giornali di registrazione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Set up the required journal names.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare i nomi di giornale di registrazione necessari.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>(Click <bpt id="p1">&lt;strong&gt;</bpt>General Ledger<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>Journal setup<ept id="p2">&lt;/strong&gt;</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Journal names<ept id="p3">&lt;/strong&gt;</ept> or <bpt id="p4">&lt;strong&gt;</bpt>Project management and accounting<ept id="p4">&lt;/strong&gt;</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">&lt;strong&gt;</bpt>Setup<ept id="p5">&lt;/strong&gt;</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p6">&lt;strong&gt;</bpt>Journals<ept id="p6">&lt;/strong&gt;</ept> <ph id="ph5">&amp;gt;</ph> <bpt id="p7">&lt;strong&gt;</bpt>Journal names<ept id="p7">&lt;/strong&gt;</ept>.) On the <bpt id="p8">&lt;strong&gt;</bpt>General<ept id="p8">&lt;/strong&gt;</ept> FastTab, in the <bpt id="p9">&lt;strong&gt;</bpt>Sales tax<ept id="p9">&lt;/strong&gt;</ept> section, in the <bpt id="p10">&lt;strong&gt;</bpt>Italian sales tax book<ept id="p10">&lt;/strong&gt;</ept> field, specify one of the following values:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Fare clic su <bpt id="p1">&lt;strong&gt;</bpt>Contabilità generale<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>Impostazione giornale di registrazione<ept id="p2">&lt;/strong&gt;</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Nomi giornale di registrazione<ept id="p3">&lt;/strong&gt;</ept> o <bpt id="p4">&lt;strong&gt;</bpt>Gestione progetti e contabilità<ept id="p4">&lt;/strong&gt;</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">&lt;strong&gt;</bpt>Imposta<ept id="p5">&lt;/strong&gt;</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p6">&lt;strong&gt;</bpt>Giornali di registrazione <ept id="p6">&lt;/strong&gt;</ept> <ph id="ph5">&amp;gt;</ph> <bpt id="p7">&lt;strong&gt;</bpt>Nomi giornale di registrazione<ept id="p7">&lt;/strong&gt;</ept>.) Nella Scheda dettaglio <bpt id="p8">&lt;strong&gt;</bpt>Generale<ept id="p8">&lt;/strong&gt;</ept>, nella sezione <bpt id="p9">&lt;strong&gt;</bpt>IVA<ept id="p9">&lt;/strong&gt;</ept>, nel campo <bpt id="p10">&lt;strong&gt;</bpt>Libro IVA italiano<ept id="p10">&lt;/strong&gt;</ept> specificare uno dei valori seguenti:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Not included<ept id="p1">&lt;/strong&gt;</ept> – Select this value for invoices and credit notes that come from countries/regions that are outside the European community.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Non incluso<ept id="p1">&lt;/strong&gt;</ept> Selezionare questo valore per le fatture e le note di accredito che provengono dai paesi esterni alla comunità europea.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Purchase<ept id="p1">&lt;/strong&gt;</ept> – Select this value for purchase invoices and credit notes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Acquisti<ept id="p1">&lt;/strong&gt;</ept> Selezionare questo valore per le fatture e note di accredito di acquisto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Sales<ept id="p1">&lt;/strong&gt;</ept> – Select this value for sales invoices and credit notes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Vendite<ept id="p1">&lt;/strong&gt;</ept> Selezionare questo valore per le fatture e note di accredito di vendita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Empty<ept id="p1">&lt;/strong&gt;</ept> – Select this value for all other types of transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Vuoto<ept id="p1">&lt;/strong&gt;</ept> Selezionare questo valore per tutti gli altri tipi di transazioni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>In some cases, the <bpt id="p1">&lt;strong&gt;</bpt>Italian sales tax book<ept id="p1">&lt;/strong&gt;</ept> field is set automatically, based on the <bpt id="p2">&lt;strong&gt;</bpt>Journal type<ept id="p2">&lt;/strong&gt;</ept> value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In alcuni casi, il campo <bpt id="p1">&lt;strong&gt;</bpt>Libro IVA italiano<ept id="p1">&lt;/strong&gt;</ept> viene impostato automaticamente, in base al valore <bpt id="p2">&lt;strong&gt;</bpt>Tipo di giornale di registrazione<ept id="p2">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>For example, if the <bpt id="p1">&lt;strong&gt;</bpt>Journal type<ept id="p1">&lt;/strong&gt;</ept> field is set to <bpt id="p2">&lt;strong&gt;</bpt>Invoice register<ept id="p2">&lt;/strong&gt;</ept>, the <bpt id="p3">&lt;strong&gt;</bpt>Italian sales tax book<ept id="p3">&lt;/strong&gt;</ept> field is set to <bpt id="p4">&lt;strong&gt;</bpt>Purchase<ept id="p4">&lt;/strong&gt;</ept> by default.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ad esempio, se il campo <bpt id="p1">&lt;strong&gt;</bpt>Tipo di giornale di registrazione<ept id="p1">&lt;/strong&gt;</ept> è impostato su <bpt id="p2">&lt;strong&gt;</bpt>Registro fatture<ept id="p2">&lt;/strong&gt;</ept>, il campo <bpt id="p3">&lt;strong&gt;</bpt>Libro IVA italiano<ept id="p3">&lt;/strong&gt;</ept> è  impostato su <bpt id="p4">&lt;strong&gt;</bpt>Acquisti<ept id="p4">&lt;/strong&gt;</ept> per impostazione predefinita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Setup:<ept id="p1">&lt;/strong&gt;</ept> Module parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Impostazione:<ept id="p1">&lt;/strong&gt;</ept> parametri del modulo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>For vouchers to follow the number sequences of the related invoices and credit notes, you must select the <bpt id="p1">&lt;strong&gt;</bpt>Reuse numbers<ept id="p1">&lt;/strong&gt;</ept> check box when you define the number sequences for those invoices and credit notes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per consentire ai giustificativi di seguire le sequenze numeriche delle fatture e delle note di accredito correlate, è necessario selezionare la casella di controllo <bpt id="p1">&lt;strong&gt;</bpt>Riutilizza numeri<ept id="p1">&lt;/strong&gt;</ept> quando vengono definite le sequenze numeriche per tali fatture e note di accredito.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>You can find this check box on the <bpt id="p1">&lt;strong&gt;</bpt>Number sequences<ept id="p1">&lt;/strong&gt;</ept> tab of the following pages:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È possibile trovare questa casella di controllo nella scheda <bpt id="p1">&lt;strong&gt;</bpt>Sequenze numeriche<ept id="p1">&lt;/strong&gt;</ept> delle pagine seguenti:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Accounts receivable parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametri contabilità clienti</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Accounts payable parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametri contabilità fornitori</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Project management and accounting parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametri Gestione progetti e contabilità</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>For example, on the <bpt id="p1">&lt;strong&gt;</bpt>Accounts receivable parameters<ept id="p1">&lt;/strong&gt;</ept> page, on the <bpt id="p2">&lt;strong&gt;</bpt>Number sequences<ept id="p2">&lt;/strong&gt;</ept> tab, select the <bpt id="p3">&lt;strong&gt;</bpt>Reuse numbers<ept id="p3">&lt;/strong&gt;</ept> check box for <bpt id="p4">&lt;strong&gt;</bpt>Free text invoice voucher<ept id="p4">&lt;/strong&gt;</ept> to synchronize number allocation for free text invoice vouchers and free text invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ad esempio, nella pagina <bpt id="p1">&lt;strong&gt;</bpt>Parametri contabilità clienti<ept id="p1">&lt;/strong&gt;</ept>, scheda <bpt id="p2">&lt;strong&gt;</bpt>Sequenze numeriche<ept id="p2">&lt;/strong&gt;</ept>, selezionare la casella di controllo <bpt id="p3">&lt;strong&gt;</bpt>Riutilizza numeri<ept id="p3">&lt;/strong&gt;</ept> per <bpt id="p4">&lt;strong&gt;</bpt>Giustificativo di fattura a testo libero<ept id="p4">&lt;/strong&gt;</ept> per sincronizzare l'allocazione dei numeri per i giustificativi fattura a testo libero e fatture a testo libero.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Set up sales tax books</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare i libri IVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Sales tax books are used for sales tax reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I libri IVA vengono utilizzati per il reporting IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>To set up Italian sales tax books, click <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Sales tax<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Italian sales tax books<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per impostare i libri IVA italiani, fare clic su <bpt id="p1">**</bpt>Imposta<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Imposta<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>IVA<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Libri IVA italiani<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The following table describes the fields that are available on the <bpt id="p1">**</bpt>Italian sales tax books<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella tabella seguente vengono descritti i campi disponibili nella pagina <bpt id="p1">**</bpt>Libri IVA italiani<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Campo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrizione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Sales tax book</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Libro IVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Enter the ID of the sales tax book.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Immettere l'ID del libro IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Name</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nome</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Enter a description of the sales tax book.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Consente di immettere una descrizione del libro IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Sales tax book type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tipo di libro IVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Select the nature of the operations that will be performed through the sales tax book sections that you will attach to the sales tax book.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare la natura delle operazioni che verranno eseguite tramite i sezionali IVA che allegherai al libro IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The following values are available:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sono disponibili i valori seguenti:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Purchase<ept id="p1">&lt;/strong&gt;</ept> – Select this value for purchase invoices and credit notes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Acquisti<ept id="p1">&lt;/strong&gt;</ept> Selezionare questo valore per le fatture e note di accredito di acquisto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Sales<ept id="p1">&lt;/strong&gt;</ept> – Select this value for sales invoices and credit notes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Vendite<ept id="p1">&lt;/strong&gt;</ept> Selezionare questo valore per le fatture e note di accredito di vendita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Not included<ept id="p1">&lt;/strong&gt;</ept> – Select this value for invoices and credit notes that come from countries/regions that are outside the European community.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Non incluso<ept id="p1">&lt;/strong&gt;</ept> Selezionare questo valore per le fatture e le note di accredito che provengono dai paesi esterni alla comunità europea.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>This type is used only for statistical purposes and won&amp;#39;t be included on the final fiscal tax book reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questo tipo viene utilizzato solo a fini statistici e non verrà incluso nei report dei libri fiscali finali.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Settlement period</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periodo di liquidazione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Select an existing sales tax settlement period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare un periodo di liquidazione IVA esistente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>When a sales tax book is printed, if the <bpt id="p1">&lt;strong&gt;</bpt>Update<ept id="p1">&lt;/strong&gt;</ept> check box is selected on the <bpt id="p2">&lt;strong&gt;</bpt>Sales tax payment<ept id="p2">&lt;/strong&gt;</ept> page, the date in the <bpt id="p3">&lt;strong&gt;</bpt>From date<ept id="p3">&lt;/strong&gt;</ept> field is compared to the selected settlement period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando viene stampato un libro IVA, se la casella di controllo <bpt id="p1">&lt;strong&gt;</bpt>Aggiorna<ept id="p1">&lt;/strong&gt;</ept> è  selezionata nella pagina <bpt id="p2">&lt;strong&gt;</bpt>Pagamento IVA<ept id="p2">&lt;/strong&gt;</ept>, la data immessa nel campo <bpt id="p3">&lt;strong&gt;</bpt>Dal<ept id="p3">&lt;/strong&gt;</ept> viene confrontata con il periodo di liquidazione selezionato.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>The settlement period is also used to identify which sales tax books and sales tax book sections must be closed when a sales tax settlement is updated for a settlement period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questo periodo viene utilizzato anche per identificare i libri e i sezionali IVA da chiudere al momento dell'aggiornamento di una liquidazione IVA per un determinato periodo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Closed to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Chiuso al</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>The latest closing date from the related sales tax book sections that belong to the selected sales tax book.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Data di chiusura più recente dai sezionali IVA correlati che appartengono al libro IVA selezionato.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>EU sales</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vendite UE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Select a sales tax book of the <bpt id="p1">&lt;strong&gt;</bpt>Sales<ept id="p1">&lt;/strong&gt;</ept> type, and attach it to the current sales tax book of the <bpt id="p2">&lt;strong&gt;</bpt>Purchase<ept id="p2">&lt;/strong&gt;</ept> type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare un libro IVA di tipo <bpt id="p1">&lt;strong&gt;</bpt>Vendite<ept id="p1">&lt;/strong&gt;</ept> e collegarlo al libro IVA corrente di tipo <bpt id="p2">&lt;strong&gt;</bpt>Acquisti<ept id="p2">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>This field is used if the selected sales tax book must include European Union (EU) purchase transactions from the current book on sales tax reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questo campo viene utilizzata se il libro IVA selezionato deve includere le transazioni di acquisto avvenute nell'Unione Europea (UE) dal libro corrente nei report IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>This field is unavailable for sales tax books of the <bpt id="p1">&lt;strong&gt;</bpt>Sales<ept id="p1">&lt;/strong&gt;</ept> and <bpt id="p2">&lt;strong&gt;</bpt>Not included<ept id="p2">&lt;/strong&gt;</ept> types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il campo non è disponibile per i libri IVA di tipo <bpt id="p1">&lt;strong&gt;</bpt>Vendite<ept id="p1">&lt;/strong&gt;</ept> e <bpt id="p2">&lt;strong&gt;</bpt>Non incluso<ept id="p2">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>ATECOFIN Code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Codice ATECOFIN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Select the tax code for reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare il codice imposta per il reporting.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Print summary and payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stampa riepilogo e pagamenti</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Select this option to print the summary and payment report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare questa opzione per stampare il riepilogo e il report di pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>This field is available only for sales tax books of the <bpt id="p1">&lt;strong&gt;</bpt>Sales<ept id="p1">&lt;/strong&gt;</ept> type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il campo è disponibile solo per i libri IVA di tipo <bpt id="p1">&lt;strong&gt;</bpt>Vendite<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Set up sales tax book sections</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare i sezionali IVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Sales tax book sections are a repository where ledger transactions are posted according to their nature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I sezionali IVA sono un archivio in cui le transazioni di contabilità generale devono essere registrate in base alla natura.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>The voucher numbering is driven by the sales tax book sections.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La numerazione dei giustificativi viene determinata dai sezionali IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>To set up Italian sales tax book sections, click <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Sales tax<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Italian sales tax book sections<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per impostare i sezionali IVA italiani, fare clic su <bpt id="p1">**</bpt>Imposta<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Imposta<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>IVA<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Sezionali IVA italiani<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>The following table describes the fields that are available on the <bpt id="p1">**</bpt>Italian sales tax book sections<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella tabella seguente vengono descritti i campi disponibili nella pagina <bpt id="p1">**</bpt>Sezionali IVA italiani<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Campo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrizione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Sales tax book</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Libro IVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Select one of the existing sales tax books that the sales tax book section is attached to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare uno dei libri IVA esistenti a cui è collegato il sezionale IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Sales tax book section</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sezionale IVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Enter the ID of sales tax book section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Immettere l'ID del sezionale IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Name</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nome</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Enter a description of the sales tax book section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Consente di immettere una descrizione del sezionale IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Number sequence code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Codice sequenza numerica</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Select the number sequence code for the sales tax book section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare il codice di sequenza numerica per il sezionale IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>The number sequence code that you select depends on the type of sales tax book that the sales tax book section is attached to:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il codice di sequenza numerica selezionato dipende dal tipo di libro IVA a cui il sezionale IVA è collegato:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>For a sales tax book of the <bpt id="p1">&lt;strong&gt;</bpt>Purchase<ept id="p1">&lt;/strong&gt;</ept> type: Select number sequence codes that are defined for purchase invoice vouchers or purchase credit note vouchers on the <bpt id="p2">&lt;strong&gt;</bpt>Accounts payable parameters<ept id="p2">&lt;/strong&gt;</ept> page, or number sequence codes that are used on the <bpt id="p3">&lt;strong&gt;</bpt>Journal names<ept id="p3">&lt;/strong&gt;</ept> page for vouchers that have the <bpt id="p4">&lt;strong&gt;</bpt>Italian sales tax book<ept id="p4">&lt;/strong&gt;</ept> field set to <bpt id="p5">&lt;strong&gt;</bpt>Purchase<ept id="p5">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per un libro IVA di tipo <bpt id="p1">&lt;strong&gt;</bpt>Acquisti<ept id="p1">&lt;/strong&gt;</ept>: selezionare i codici di sequenza numerica definiti per i giustificativi fattura di acquisto o i giustificativi note di accredito di acquisto nella pagina <bpt id="p2">&lt;strong&gt;</bpt>Parametri contabilità fornitori<ept id="p2">&lt;/strong&gt;</ept> o i codici di sequenza numerica usati nella pagina <bpt id="p3">&lt;strong&gt;</bpt>Nomi giornale di registrazione<ept id="p3">&lt;/strong&gt;</ept> per i giustificativi che hanno il campo <bpt id="p4">&lt;strong&gt;</bpt>Libro VAT italiano<ept id="p4">&lt;/strong&gt;</ept> impostato su <bpt id="p5">&lt;strong&gt;</bpt>Acquisti<ept id="p5">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>For a sales tax book of the <bpt id="p1">&lt;strong&gt;</bpt>Sales<ept id="p1">&lt;/strong&gt;</ept> type: Select number sequence codes that are defined for sales invoice vouchers or sales credit note vouchers or free text invoice vouchers or free text credit note vouchers on the <bpt id="p2">&lt;strong&gt;</bpt>Accounts receivable<ept id="p2">&lt;/strong&gt;</ept> <bpt id="p3">&lt;strong&gt;</bpt>parameters<ept id="p3">&lt;/strong&gt;</ept> page, or number sequence codes that are used on the <bpt id="p4">&lt;strong&gt;</bpt>Journal names<ept id="p4">&lt;/strong&gt;</ept> page for vouchers that have the <bpt id="p5">&lt;strong&gt;</bpt>Italian sales tax book<ept id="p5">&lt;/strong&gt;</ept> field set to <bpt id="p6">&lt;strong&gt;</bpt>Sales<ept id="p6">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per un libro IVA di tipo <bpt id="p1">&lt;strong&gt;</bpt>Vendite<ept id="p1">&lt;/strong&gt;</ept>: selezionare i codici di sequenza numerica definiti per i giustificativi fattura di vendita o i giustificativi nota di accredito di vendita o i giustificativi fattura a testo libero o i giustificativi nota di accredito a testo libero nella pagina <bpt id="p2">&lt;strong&gt;</bpt>Parametri<ept id="p2">&lt;/strong&gt;</ept> <bpt id="p3">&lt;strong&gt;</bpt>contabilità clienti<ept id="p3">&lt;/strong&gt;</ept> o i codici di sequenza numerica usati nella pagina <bpt id="p4">&lt;strong&gt;</bpt>Nomi giornale<ept id="p4">&lt;/strong&gt;</ept> di registrazione per i giustificativi che hanno il campo <bpt id="p5">&lt;strong&gt;</bpt>Libro VAT italiano<ept id="p5">&lt;/strong&gt;</ept> impostato su <bpt id="p6">&lt;strong&gt;</bpt>Vendite<ept id="p6">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>For a sales tax book of the <bpt id="p1">&lt;strong&gt;</bpt>Not included<ept id="p1">&lt;/strong&gt;</ept> type: Select any suitable number sequence code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per un libro IVA di tipo  <bpt id="p1">&lt;strong&gt;</bpt>Non incluso<ept id="p1">&lt;/strong&gt;</ept>: Selezionare il codice di sequenza numerica appropriato.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Closed to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Chiuso al</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Enter the end date of the last closed sales tax settlement period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Immettere la data di fine dell'ultimo periodo di liquidazione IVA chiuso.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>This field is used to filter data on the sales tax report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questo campo è utilizzato per filtrare i dati nel report IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Close Italian sales tax book section</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Chiudi sezionale IVA italiani</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>The closing date of the Italian sales tax book for a tax period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Data di chiusura del libro IVA italiano per un periodo fiscale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>You can&amp;#39;t post or reverse an invoice that has a date that is earlier than the closing date of the tax period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Non è possibile registrare o stornare una fattura se la relativa data è precedente alla data di chiusura del periodo fiscale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>This field is updated with the closing date of the tax period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questo campo viene aggiornato con la data di chiusura del periodo fiscale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>The <bpt id="p1">&lt;strong&gt;</bpt>Update<ept id="p1">&lt;/strong&gt;</ept> check box must also be selected on the <bpt id="p2">&lt;strong&gt;</bpt>Sales tax payment<ept id="p2">&lt;/strong&gt;</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La casella di controllo <bpt id="p1">&lt;strong&gt;</bpt>Aggiorna<ept id="p1">&lt;/strong&gt;</ept> deve anche essere selezionata nella pagina <bpt id="p2">&lt;strong&gt;</bpt>Pagamento IVA<ept id="p2">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>The following button is also available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sono disponibili inoltre il seguente pulsante.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Button</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pulsante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrizione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Create</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Creazione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Automatically create all the required sales tax book sections for existing sales tax books of the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Purchase<ept id="p2">**</ept> types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crea automaticamente tutti i sezionali IVA richiesti per i libri IVA esistenti del tipo <bpt id="p1">**</bpt>Vendite<ept id="p1">**</ept> e <bpt id="p2">**</bpt>Acquisti<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Sales tax book sections are created for every number sequence that is defined for purchase invoice vouchers or purchase credit note vouchers or sales invoice vouchers or sales credit note vouchers or free text invoice vouchers or free text credit note vouchers on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Accounts receivable parameters<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Project management and accounting parameters<ept id="p3">**</ept> page, and for every number sequence that is used on the <bpt id="p4">**</bpt>Journal names<ept id="p4">**</ept> page for vouchers that have the <bpt id="p5">**</bpt>Italian sales tax book<ept id="p5">**</ept> field set to <bpt id="p6">**</bpt>Purchase<ept id="p6">**</ept> or <bpt id="p7">**</bpt>Sales<ept id="p7">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I sezionali IVA vengono creati per ciascuna sequenza numerica definita per i giustificativi fattura di acquisto o giustificativi nota di accredito di acquisto o giustificativi fattura di vendita o giustificativi nota di accredito di vendita o giustificativi fattura a testo libero o giustificativi note di accredito a testo libero nella pagina <bpt id="p1">**</bpt>Parametri contabilità fornitori<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Parametri contabilità clienti<ept id="p2">**</ept> o <bpt id="p3">**</bpt>Parametri Gestione progetti e contabilità<ept id="p3">**</ept> e per ciascuna sequenza numerica utilizzata nella pagina <bpt id="p4">**</bpt>Nomi giornale di registrazione<ept id="p4">**</ept> per i giustificativi che hanno il campo <bpt id="p5">**</bpt>Libro IVA italiano<ept id="p5">**</ept> impostato su <bpt id="p6">**</bpt>Acquisti<ept id="p6">**</ept> o <bpt id="p7">**</bpt>Vendite<ept id="p7">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Every sales tax book section that is created is automatically attached to the default sales tax book.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ogni sezionale IVA creato è collegato automaticamente al libro IVA predefinito.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>(The sales tax book must be created before the sales tax book sections.) If several sales tax books of the same sales tax book type (<bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Purchase<ept id="p2">**</ept>) exist, the first sales tax book is used by default.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il libro IVA deve essere creato prima dei sezionali IVA. Se più libri IVA dello stesso tipo di libro IVA  (<bpt id="p1">**</bpt>Vendite<ept id="p1">**</ept> o <bpt id="p2">**</bpt>Acquisti<ept id="p2">**</ept>) esistono, il primo libro IVA viene utilizzato per impostazione predefinita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>However, you can manually change this attachment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tuttavia, è possibile modificare manualmente il collegamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>If no sales tax book exists, no sales tax book sections are automatically created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se nessun libro IVA è disponibile, nessun sezionale IVA viene creato automaticamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Sales tax book status</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stato libro IVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>When a new sales tax period is created, sales tax book lines are automatically set up for every sales tax book that exists.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando si crea un nuovo periodo IVA, per ciascun libro IVA esistente vengono impostate automaticamente le righe corrispondenti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>If an additional sales tax book is created, lines can be manually created for existing periods that haven't been closed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se si crea un libro IVA aggiuntivo, è possibile creare manualmente anche le righe per i periodi esistenti non ancora chiusi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Click <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Indirect taxes<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Sales tax<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Sales tax settlement periods<ept id="p4">**</ept>, and then click <bpt id="p5">**</bpt>Sales tax book status<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su <bpt id="p1">**</bpt>Imposta<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Imposte indirette<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>IVA<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Periodi liquidazione IVA<ept id="p4">**</ept>, quindi fare clic su <bpt id="p5">**</bpt>Stato libro IVA<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>The following table describes the tabs on the <bpt id="p1">**</bpt>Sales tax book status<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella tabella seguente vengono descritte le schede della pagina <bpt id="p1">**</bpt>Stato libro IVA<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Tab</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scheda</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrizione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Overview</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Panoramica</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>View the page status of the sales tax books.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Consente di visualizzare lo stato delle pagine dei libri IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>All the fields are locked for manual updates.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tutti i campi risultano bloccati per gli aggiornamenti manuali.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>General</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Generale</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>View the same information that appears on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> tab, but only for the selected sales tax book.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Consente di visualizzare le stesse informazioni disponibili nella scheda <bpt id="p1">**</bpt>Panoramica<ept id="p1">**</ept> ma solo per il libro IVA selezionato.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>The following table describes the fields that are available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella seguente tabella vengono illustrati i campi disponibili.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Campo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrizione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Sales tax book</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Libro IVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Select the sales tax book ID that you set up on the <bpt id="p1">**</bpt>Italian sales tax books<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare l'ID libro IVA impostato nella pagina <bpt id="p1">**</bpt>Libri IVA italiani<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Name</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nome</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Enter the name of the tax book.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Immettere il nome del libro IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>First page number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Primo numero di pagina</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>The first page number that will be used on the final sales tax report for this sales tax period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il primo numero di pagina che verrà utilizzato nel report IVA finale per questo periodo IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Changed to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modificato in</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>The page number that is specified in the <bpt id="p1">**</bpt>Change first page number<ept id="p1">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il numero di pagina specificato nella finestra di dialogo <bpt id="p1">**</bpt>Cambia numero prima pagina<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Last page number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ultimo numero di pagina</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>The last page number that will be used on the final sales tax report for this sales tax period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'ultimo numero di pagina che verrà utilizzato nel report IVA finale per questo periodo IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Settlement period</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periodo di liquidazione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>The settlement period that is used in the sales tax book.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il periodo di liquidazione utilizzato nel libro IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>From date</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dal</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>The start date for the settlement period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Data di inizio del periodo di liquidazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>To date</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Al</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>The end date for the settlement period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Data di fine del periodo di liquidazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>The following button is also available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sono disponibili inoltre il seguente pulsante.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Button</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pulsante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrizione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Change first page number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cambia numero prima pagina</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Open the <bpt id="p1">**</bpt>Change first page number<ept id="p1">**</ept> dialog box, where you can change the first page number that will be used for the current open settlement period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apre la finestra di dialogo <bpt id="p1">**</bpt>Cambia numero prima pagina<ept id="p1">**</ept>, in cui è possibile modificare il numero della prima pagina da utilizzare per il periodo di liquidazione aperto corrente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Change first page number dialog box</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cambia numero prima pagina (finestra di dialogo)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Use the <bpt id="p1">**</bpt>Change first page number<ept id="p1">**</ept> dialog box to change the number of the first page on the final sales tax report for this sales tax settlement period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilizzare la finestra di dialogo <bpt id="p1">**</bpt>Cambia numero prima pagina<ept id="p1">**</ept> per modificare il numero della prima pagina del report IVA finale per il periodo di liquidazione IVA in corso.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>The page number then appears in the <bpt id="p1">**</bpt>Changed to<ept id="p1">**</ept> column on the <bpt id="p2">**</bpt>Sales tax book status<ept id="p2">**</ept> page and is used as the first page number of the final sales tax report that is printed for the current tax period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il numero di pagina viene quindi visualizzato nella colonna <bpt id="p1">**</bpt>Modificato in<ept id="p1">**</ept> della pagina <bpt id="p2">**</bpt>Stato libro IVA<ept id="p2">**</ept> e utilizzato come numero della prima pagina del report IVA finale che viene stampato per il periodo fiscale corrente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>The following table describes the fields that are available in the <bpt id="p1">**</bpt>Change first page number<ept id="p1">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella tabella seguente vengono descritti i campi disponibili nella finestra di dialogo <bpt id="p1">**</bpt>Cambia numero prima pagina<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Campo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrizione</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>First page number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Primo numero di pagina</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>The current first page number for the selected sales tax book.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Primo numero di pagina corrente per il libro IVA selezionato.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Changed to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modificato in</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Enter the new first page number to use on the final sales tax report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Immettere il nuovo primo numero di pagina da utilizzare nel report IVA finale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Using sales tax books</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uso dei libri IVA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>When the setup is completed, the sales tax book sections appear on the <bpt id="p1">**</bpt>Number sequences<ept id="p1">**</ept> tab of the following pages:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando l'impostazione viene completata, i sezionali IVA vengono visualizzati nella scheda <bpt id="p1">**</bpt>Sequenze numeriche<ept id="p1">**</ept> delle pagine seguenti:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Accounts receivable parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametri contabilità clienti</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Accounts payable parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametri contabilità fornitori</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Project management and accounting parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametri Gestione progetti e contabilità</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Voucher numbers that are assigned during posting must be sequentially ordered by posting date, and the sales tax transactions that use the same number sequence code must be posted in order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I numeri di giustificativo assegnati durante la registrazione devono essere ordinati in sequenza in base alla data di registrazione e le transazioni IVA con lo stesso codice di sequenza numerica devono essere registrate in ordine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>If the voucher numbers aren't sequentially ordered, the user receives an error message.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se i numeri di giustificativo non vengono ordinati in sequenza, viene visualizzato un messaggio di errore.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>In addition, posting is interrupted if a sales tax transaction isn't assigned to any sales tax book section when the user updates an invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inoltre, se una transazione IVA non viene assegnata ad alcun sezionale IVA durante l'aggiornamento di una fattura, la registrazione verrà interrotta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Whenever a voucher is posted through a sales tax book section, the identifiers of the related sales tax book and sales tax book section are saved in the tax transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ogni volta che un giustificativo viene registrato utilizzando un sezionale IVA, gli identificatori del libro IVA e del sezionale IVA correlati vengono salvati nelle transazioni IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>(Click <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Sales tax inquiries<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Posted sales tax<ept id="p3">**</ept>, and then click the <bpt id="p4">**</bpt>Posting<ept id="p4">**</ept> tab.) This data can then be used during further sales tax reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su  <bpt id="p1">**</bpt>Imposta<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Richieste di informazioni su IVA<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>IVA registrata<ept id="p3">**</ept>, quindi fare clic sulla scheda <bpt id="p4">**</bpt>Registrazione<ept id="p4">**</ept>. Questi dati possono quindi essere utilizzati durante il reporting IVA.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Italian sales tax books are used for filtering, grouping, and sorting on the report that is accessed at <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Declarations<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Sales tax<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Sales Tax (Italy)<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I libri IVA italiani vengono utilizzati per filtrare, raggruppare e ordinare il report accessibile in <bpt id="p1">**</bpt>Imposta<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Dichiarazioni<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>IVA<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>IVA (Italia)<ept id="p4">**</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

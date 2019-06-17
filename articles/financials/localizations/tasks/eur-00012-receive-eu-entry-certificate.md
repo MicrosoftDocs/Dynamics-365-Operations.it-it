@@ -1,44 +1,57 @@
----
-title: EUR-00012 - Ricevere un certificato di entrata UE
-description: Questa procedura mostra come registrare un certificato di entrata UE rilasciato da un terzo e ricevuto dal cliente.
-author: mrolecki
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: CustEntryCertificateJour_W
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: mrolecki
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f1c0e289a5505bfacb20726a5e74a779afdb9cb
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537999"
----
-# <a name="eur-00012-receive-an-eu-entry-certificate"></a><span data-ttu-id="9c775-103">EUR-00012 - Ricevere un certificato di entrata UE</span><span class="sxs-lookup"><span data-stu-id="9c775-103">EUR-00012 Receive an EU entry certificate</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="9c775-104">Questa procedura mostra come registrare un certificato di entrata UE rilasciato da un terzo e ricevuto dal cliente.</span><span class="sxs-lookup"><span data-stu-id="9c775-104">This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</span></span>
-
-
-
-<span data-ttu-id="9c775-105">La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.</span><span class="sxs-lookup"><span data-stu-id="9c775-105">The demo data company used to create this procedure is DEMF.</span></span>
-
-1. <span data-ttu-id="9c775-106">Fare clic su Contabilità clienti > Richieste di informazioni e report > Giornale di registrazione certificati di entrata.</span><span class="sxs-lookup"><span data-stu-id="9c775-106">Go to Accounts receivable > Inquiries and reports > Entry certificate journal.</span></span>
-2. <span data-ttu-id="9c775-107">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="9c775-107">Click New.</span></span>
-3. <span data-ttu-id="9c775-108">Digitare un valore nel campo Certificato di entrata.</span><span class="sxs-lookup"><span data-stu-id="9c775-108">In the Entry certificate field, type a value.</span></span>
-4. <span data-ttu-id="9c775-109">Nel campo Conto cliente fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="9c775-109">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="9c775-110">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="9c775-110">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="9c775-111">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="9c775-111">Click Save.</span></span>
-    * <span data-ttu-id="9c775-112">Allegare informazioni aggiuntive al giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="9c775-112">Attach additional information to the journal.</span></span>  
-    * <span data-ttu-id="9c775-113">Ad esempio, allegare un'immagine digitalizzata del certificato di entrata UE nel giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="9c775-113">For example, attach a scanned image of the EU Entry certificate to the journal.</span></span>  
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="eur-00012-receive-eu-entry-certificate.md" target-language="it-IT">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>eur-00012-receive-eu-entry-certificate.b0206c.cbcf6d8dc71b833b3d90e72e7ef6c9d438241640.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>cbcf6d8dc71b833b3d90e72e7ef6c9d438241640</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00012-receive-eu-entry-certificate.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>EUR-00012 Receive an EU entry certificate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 - Ricevere un certificato di entrata UE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa procedura mostra come registrare un certificato di entrata UE rilasciato da un terzo e ricevuto dal cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>EUR-00012 Receive an EU entry certificate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 - Ricevere un certificato di entrata UE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa procedura mostra come registrare un certificato di entrata UE rilasciato da un terzo e ricevuto dal cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The demo data company used to create this procedure is DEMF.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Go to Accounts receivable &gt; Inquiries and reports &gt; Entry certificate journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Contabilità clienti &gt; Richieste di informazioni e report &gt; Giornale di registrazione certificati di entrata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Nuovo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>In the Entry certificate field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Digitare un valore nel campo Certificato di entrata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>In the Customer account field, click the drop-down button to open the lookup.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Conto cliente fare clic sul pulsante a discesa per aprire la ricerca.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In the list, click the link in the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nell'elenco fare clic sul collegamento nella riga selezionata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Salva.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Attach additional information to the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allegare informazioni aggiuntive al giornale di registrazione.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>For example, attach a scanned image of the EU Entry certificate to the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ad esempio, allegare un'immagine digitalizzata del certificato di entrata UE nel giornale di registrazione.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,48 +1,72 @@
----
-title: Ammortamento manuale dei cespiti per l'Italia
-description: In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: AssetDepreciationProfile, LedgerJournalTransApprove, LedgerJournalTransAsset, LedgerJournalTransDaily, LedgerJournalTransVendInvoice, PurchTable
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 264294
-ms.search.region: Italy
-ms.author: v-elgolu
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 86cd9eaf4448708c876caec646213ac43019efed
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538012"
----
-# <a name="manual-depreciation-of-fixed-assets-for-italy"></a><span data-ttu-id="ba56a-103">Ammortamento manuale dei cespiti per l'Italia</span><span class="sxs-lookup"><span data-stu-id="ba56a-103">Manual depreciation of fixed assets for Italy</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="ba56a-104">In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia.</span><span class="sxs-lookup"><span data-stu-id="ba56a-104">This topic provides information about fixed assets depreciation for legal entities in Italy.</span></span> 
-
-<span data-ttu-id="ba56a-105">Per le persone giuridiche in Italia, il metodo di ammortamento manuale ha una funzionalità aggiuntiva che include i seguenti campi:</span><span class="sxs-lookup"><span data-stu-id="ba56a-105">For legal entities in Italy, the manual depreciation method has additional functionality that includes the following fields:</span></span>
-
-- <span data-ttu-id="ba56a-106"><strong>Base di calcolo</strong> -\*\* <strong>Questo campo contiene due opzioni: \*\*Giorni</strong> o <strong>Mesi</strong> nella pagina <strong>Profili di ammortamento</strong>.</span><span class="sxs-lookup"><span data-stu-id="ba56a-106"><strong>Calculation basis</strong> -\*\* <strong>This field has two options: \*\*Days</strong> or <strong>Months</strong> on the <strong>Depreciation profiles</strong> page.</span></span> <span data-ttu-id="ba56a-107">L'ammortamento di cespiti viene calcolato per l'anno nel seguente modo:</span><span class="sxs-lookup"><span data-stu-id="ba56a-107">Fixed assets depreciation is calculated for the year as follows:</span></span>
-  -   <span data-ttu-id="ba56a-108">Ammortamento in giorni = intero ammortamento \* (numero di giorni rimanenti/giorni totali nell'anno)</span><span class="sxs-lookup"><span data-stu-id="ba56a-108">Days depreciation = Full years depreciation \* (number of days remaining/total days in the year)</span></span>
-  -   <span data-ttu-id="ba56a-109">Ammortamento in mesi = intero ammortamento \* (numero di mesi rimanenti/12)</span><span class="sxs-lookup"><span data-stu-id="ba56a-109">Months depreciation = Full years depreciation \* (number of months remaining/12)</span></span>
-- <span data-ttu-id="ba56a-110">**Data d'esecuzione ammortamento**: questo campo è stato aggiunto alle pagine seguenti:</span><span class="sxs-lookup"><span data-stu-id="ba56a-110">**Depreciation run date** - This field was added to the following pages:</span></span>
-  -   <span data-ttu-id="ba56a-111">Giornale di registrazione generale</span><span class="sxs-lookup"><span data-stu-id="ba56a-111">General journal</span></span>
-  -   <span data-ttu-id="ba56a-112">Giornale di registrazione cespiti</span><span class="sxs-lookup"><span data-stu-id="ba56a-112">Fixed asset journal</span></span>
-  -   <span data-ttu-id="ba56a-113">Giornale di approvazione fatture</span><span class="sxs-lookup"><span data-stu-id="ba56a-113">Invoice approval journal</span></span>
-  -   <span data-ttu-id="ba56a-114">Giornale di registrazione fatture</span><span class="sxs-lookup"><span data-stu-id="ba56a-114">Invoice journal</span></span>
-  -   <span data-ttu-id="ba56a-115">Ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="ba56a-115">Purchase order</span></span>
-
-<span data-ttu-id="ba56a-116">La **Data d'esecuzione ammortamento** deve essere configurata al momento dell'acquisto ed essere impostata sulla data del sistema durante l'acquisto.</span><span class="sxs-lookup"><span data-stu-id="ba56a-116">The **Depreciation run date** should be set up at the time of acquisition and is set to the system date during the acquisition.</span></span> <span data-ttu-id="ba56a-117">La **Data d'esecuzione ammortamento** viene utilizzata per calcolare l'ammortamento per **Numero di giorni rimanenti** o **Numero di mesi rimanenti**, a seconda del valore di **Base di calcolo**.</span><span class="sxs-lookup"><span data-stu-id="ba56a-117">The **Depreciation run date** is used to calculate depreciation for the **Number of days remaining** or **Number of Months remaining**, depending on the **Calculation basis** value.</span></span> <span data-ttu-id="ba56a-118">Se la **Data d'esecuzione ammortamento** è precedente alla metà del mese (il 15 o il 14 febbraio), il mese corrente viene incluso nel numero di mesi, in caso contrario il cespite viene considerato come acquisito nel mese successivo.</span><span class="sxs-lookup"><span data-stu-id="ba56a-118">If the **Depreciation run date** is before the middle of the month (either the 15th or 14th for February), then the current month is included in number of months, otherwise the asset is considered as acquired in the next month.</span></span>
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="emea-ita-depreciation-of-fixed-assets.md" target-language="it-IT">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>emea-ita-depreciation-of-fixed-assets.e2d565.80b0fdd86785f1c503045afe9e8e03a2e0641f9b.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>80b0fdd86785f1c503045afe9e8e03a2e0641f9b</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-ita-depreciation-of-fixed-assets.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Manual depreciation of fixed assets for Italy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ammortamento manuale dei cespiti per l'Italia</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides information about fixed assets depreciation for legal entities in Italy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Manual depreciation of fixed assets for Italy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ammortamento manuale dei cespiti per l'Italia</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides information about fixed assets depreciation for legal entities in Italy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>For legal entities in Italy, the manual depreciation method has additional functionality that includes the following fields:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per le persone giuridiche in Italia, il metodo di ammortamento manuale ha una funzionalità aggiuntiva che include i seguenti campi:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Calculation basis<ept id="p1">&lt;/strong&gt;</ept><ph id="ph1"> -** </ph><bpt id="p2">&lt;strong&gt;</bpt>This field has two options: **Days<ept id="p2">&lt;/strong&gt;</ept> or <bpt id="p3">&lt;strong&gt;</bpt>Months<ept id="p3">&lt;/strong&gt;</ept> on the <bpt id="p4">&lt;strong&gt;</bpt>Depreciation profiles<ept id="p4">&lt;/strong&gt;</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Base di calcolo<ept id="p1">&lt;/strong&gt;</ept><ph id="ph1"> -** </ph><bpt id="p2">&lt;strong&gt;</bpt>Questo campo contiene due opzioni: **Giorni<ept id="p2">&lt;/strong&gt;</ept> o <bpt id="p3">&lt;strong&gt;</bpt>Mesi<ept id="p3">&lt;/strong&gt;</ept> nella pagina <bpt id="p4">&lt;strong&gt;</bpt>Profili di ammortamento<ept id="p4">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Fixed assets depreciation is calculated for the year as follows:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'ammortamento di cespiti viene calcolato per l'anno nel seguente modo:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Days depreciation = Full years depreciation <ph id="ph1">\*</ph> (number of days remaining/total days in the year)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ammortamento in giorni = intero ammortamento <ph id="ph1">\*</ph> (numero di giorni rimanenti/giorni totali nell'anno)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Months depreciation = Full years depreciation <ph id="ph1">\*</ph> (number of months remaining/12)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ammortamento in mesi = intero ammortamento <ph id="ph1">\*</ph> (numero di mesi rimanenti/12)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source><bpt id="p1">**</bpt>Depreciation run date<ept id="p1">**</ept> - This field was added to the following pages:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Data d'esecuzione ammortamento<ept id="p1">**</ept>: questo campo è stato aggiunto alle pagine seguenti:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>General journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Giornale di registrazione generale</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Fixed asset journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Giornale di registrazione cespiti</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Invoice approval journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Giornale di approvazione fatture</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Invoice journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Giornale di registrazione fatture</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Purchase order</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ordine fornitore</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>The <bpt id="p1">**</bpt>Depreciation run date<ept id="p1">**</ept> should be set up at the time of acquisition and is set to the system date during the acquisition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La <bpt id="p1">**</bpt>Data d'esecuzione ammortamento<ept id="p1">**</ept> deve essere configurata al momento dell'acquisto ed essere impostata sulla data del sistema durante l'acquisto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>The <bpt id="p1">**</bpt>Depreciation run date<ept id="p1">**</ept> is used to calculate depreciation for the <bpt id="p2">**</bpt>Number of days remaining<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Number of Months remaining<ept id="p3">**</ept>, depending on the <bpt id="p4">**</bpt>Calculation basis<ept id="p4">**</ept> value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La <bpt id="p1">**</bpt>Data d'esecuzione ammortamento<ept id="p1">**</ept> viene utilizzata per calcolare l'ammortamento per <bpt id="p2">**</bpt>Numero di giorni rimanenti<ept id="p2">**</ept> o <bpt id="p3">**</bpt>Numero di mesi rimanenti<ept id="p3">**</ept>, a seconda del valore di <bpt id="p4">**</bpt>Base di calcolo<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>If the <bpt id="p1">**</bpt>Depreciation run date<ept id="p1">**</ept> is before the middle of the month (either the 15th or 14th for February), then the current month is included in number of months, otherwise the asset is considered as acquired in the next month.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se la <bpt id="p1">**</bpt>Data d'esecuzione ammortamento<ept id="p1">**</ept> è precedente alla metà del mese (il 15 o il 14 febbraio), il mese corrente viene incluso nel numero di mesi, in caso contrario il cespite viene considerato come acquisito nel mese successivo.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
