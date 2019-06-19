@@ -1,204 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="eur-00012-issue-eu-entry-certificate.md" target-language="it-IT">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>eur-00012-issue-eu-entry-certificate.2f67ef.5a566b1d25064e3fccc8953dc883aa63bd16a301.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>5a566b1d25064e3fccc8953dc883aa63bd16a301</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00012-issue-eu-entry-certificate.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>EUR-00012 Issue an EU entry certificate</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 - Emettere un certificato di entrata UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa procedura consente di abilitare un certificato di entrata UE, configurando un conto cliente per utilizzare i certificati di entrata e rilasciare un certificato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>EUR-00012 Issue an EU entry certificate</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 - Emettere un certificato di entrata UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa procedura consente di abilitare un certificato di entrata UE, configurando un conto cliente per utilizzare i certificati di entrata e rilasciare un certificato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This procedure was created using the demo data company DEMF.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa procedura è stata creata utilizzando la società di dati dimostrativi DEMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Enable entry certificate management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Abilita gestione certificati di entrata</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Go to Accounts receivable &gt; Setup &gt; Accounts receivable parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andare a a Contabilità clienti &gt; Impostazioni &gt; Parametri contabilità clienti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Click the Shipments tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic sulla scheda Spedizioni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Expand the Entry certificate section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espandere la sezione Certificato di entrata.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Select Yes in the Enable entry certificate management field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare Sì nel campo Abilita gestione certificati di entrata.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Select Yes in the Enable entry certificate issuing field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare Sì nel campo Abilita rilascio certificato di entrata.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Click the Number sequences tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic sulla scheda Sequenze numeriche.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the list, find and select Entry certificate row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nell'elenco trovare e selezionare la riga Certificato di entrata.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>In the Number sequence code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Codice sequenza numerica immettere o selezionare un valore.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Set up a customer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare un cliente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Go to Accounts receivable &gt; Customers &gt; All customers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andare a Contabilità clienti &gt; Clienti &gt; Tutti i clienti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Use the Quick Filter to find records.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilizzare il filtro rapido per trovare i record.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>For example, filter on the Account field with a value of 'DE-015'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ad esempio, filtrare nel campo Conto con un valore "DE-015".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Open customer account details.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aprire i dettagli del conto cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Modifica.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Expand the Invoice and delivery section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espandere la sezione Fattura e consegna.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Select Yes in the Entry certificate required field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare Sì nel campo Certificato di entrata obbligatorio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Select Yes in the Issue entry certificate field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare Sì nel campo Rilascia certificato di entrata.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Salva.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Create an EU entry certificate automatically</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Creare automaticamente un certificato di entrata UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andare a Contabilità clienti &gt; Ordini &gt; Tutti gli ordini cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Nuovo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>In the Customer account field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Conto cliente, immettere o selezionare un valore.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>In the Item number field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Numero di articoli immettere o selezionare un valore.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Salva.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>On the Action Pane, click Pick and pack.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel riquadro azioni fare clic su Preleva e imballa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Click Post packing slip.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Registra documento di trasporto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Expand the Parameters section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espandere la sezione Parametri.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>In the Quantity field, select 'All'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Quantità selezionare "Tutto".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Clear the Issue entry certificate check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deselezionare la casella di controllo Rilascia certificato di entrata.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>An entry certificate can be issued during packing slip posting or during order invoicing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un certificato di entrata può essere rilasciato durante la registrazione del documento di trasporto o durante la fatturazione dell'ordine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Leave the Issue entry certificate checkbox unchecked to issue it later.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lasciare la casella di controllo Rilascia certificato di entrata deselezionata per rilasciarlo successivamente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel riquadro azioni fare clic su Fattura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Fattura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verificare che le caselle di controllo Certificato di entrata obbligatorio e Rilascia certificato di entrata nella sezione Panoramica siano selezionate.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>You can also select the Print entry certificate check box to allow printing of the certificate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È inoltre possibile selezionare la casella di controllo Stampa certificato di entrata per consentire la stampa del certificato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel riquadro azioni fare clic su Fattura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Fattura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel riquadro azioni fare clic su Fattura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Click View issued entry certificates.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Visualizza certificati di entrata rilasciati.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Click Print.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Stampa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Chiudere la pagina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Click Change status.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Cambia stato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>In the New status field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare un'opzione nel campo Nuovo stato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Chiudere la pagina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Create an EU entry certificate manually</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Creare manualmente un certificato di entrata UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel riquadro azioni fare clic su Fattura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Click Create entry certificate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Crea certificato di entrata.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel riquadro azioni fare clic su Fattura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Click View issued entry certificates.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Visualizza certificati di entrata rilasciati.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: EUR-00012 - Emettere un certificato di entrata UE
+description: Questa procedura consente di abilitare un certificato di entrata UE, configurando un conto cliente per utilizzare i certificati di entrata e rilasciare un certificato.
+author: mrolecki
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustParameters, CustTable, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustEntryCertificateJour_W, SrsReportViewerForm
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: mrolecki
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5a566b1d25064e3fccc8953dc883aa63bd16a301
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566777"
+---
+# <a name="eur-00012-issue-an-eu-entry-certificate"></a><span data-ttu-id="141a6-103">EUR-00012 - Emettere un certificato di entrata UE</span><span class="sxs-lookup"><span data-stu-id="141a6-103">EUR-00012 Issue an EU entry certificate</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="141a6-104">Questa procedura consente di abilitare un certificato di entrata UE, configurando un conto cliente per utilizzare i certificati di entrata e rilasciare un certificato.</span><span class="sxs-lookup"><span data-stu-id="141a6-104">This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</span></span> <span data-ttu-id="141a6-105">Questa procedura è stata creata utilizzando la società di dati dimostrativi DEMF.</span><span class="sxs-lookup"><span data-stu-id="141a6-105">This procedure was created using the demo data company DEMF.</span></span>
+
+
+## <a name="enable-entry-certificate-management"></a><span data-ttu-id="141a6-106">Abilita gestione certificati di entrata</span><span class="sxs-lookup"><span data-stu-id="141a6-106">Enable entry certificate management</span></span>
+1. <span data-ttu-id="141a6-107">Andare a a Contabilità clienti > Impostazioni > Parametri contabilità clienti.</span><span class="sxs-lookup"><span data-stu-id="141a6-107">Go to Accounts receivable > Setup > Accounts receivable parameters.</span></span>
+2. <span data-ttu-id="141a6-108">Fare clic sulla scheda Spedizioni.</span><span class="sxs-lookup"><span data-stu-id="141a6-108">Click the Shipments tab.</span></span>
+3. <span data-ttu-id="141a6-109">Espandere la sezione Certificato di entrata.</span><span class="sxs-lookup"><span data-stu-id="141a6-109">Expand the Entry certificate section.</span></span>
+4. <span data-ttu-id="141a6-110">Selezionare Sì nel campo Abilita gestione certificati di entrata.</span><span class="sxs-lookup"><span data-stu-id="141a6-110">Select Yes in the Enable entry certificate management field.</span></span>
+5. <span data-ttu-id="141a6-111">Selezionare Sì nel campo Abilita rilascio certificato di entrata.</span><span class="sxs-lookup"><span data-stu-id="141a6-111">Select Yes in the Enable entry certificate issuing field.</span></span>
+6. <span data-ttu-id="141a6-112">Fare clic sulla scheda Sequenze numeriche.</span><span class="sxs-lookup"><span data-stu-id="141a6-112">Click the Number sequences tab.</span></span>
+7. <span data-ttu-id="141a6-113">Nell'elenco trovare e selezionare la riga Certificato di entrata.</span><span class="sxs-lookup"><span data-stu-id="141a6-113">In the list, find and select Entry certificate row.</span></span>
+8. <span data-ttu-id="141a6-114">Nel campo Codice sequenza numerica immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="141a6-114">In the Number sequence code field, enter or select a value.</span></span>
+
+## <a name="set-up-a-customer"></a><span data-ttu-id="141a6-115">Impostare un cliente</span><span class="sxs-lookup"><span data-stu-id="141a6-115">Set up a customer</span></span>
+1. <span data-ttu-id="141a6-116">Andare a Contabilità clienti > Clienti > Tutti i clienti.</span><span class="sxs-lookup"><span data-stu-id="141a6-116">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="141a6-117">Utilizzare il filtro rapido per trovare i record.</span><span class="sxs-lookup"><span data-stu-id="141a6-117">Use the Quick Filter to find records.</span></span> <span data-ttu-id="141a6-118">Ad esempio, filtrare nel campo Conto con un valore "DE-015".</span><span class="sxs-lookup"><span data-stu-id="141a6-118">For example, filter on the Account field with a value of 'DE-015'.</span></span>
+3. <span data-ttu-id="141a6-119">Aprire i dettagli del conto cliente.</span><span class="sxs-lookup"><span data-stu-id="141a6-119">Open customer account details.</span></span>
+4. <span data-ttu-id="141a6-120">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="141a6-120">Click Edit.</span></span>
+5. <span data-ttu-id="141a6-121">Espandere la sezione Fattura e consegna.</span><span class="sxs-lookup"><span data-stu-id="141a6-121">Expand the Invoice and delivery section.</span></span>
+6. <span data-ttu-id="141a6-122">Selezionare Sì nel campo Certificato di entrata obbligatorio.</span><span class="sxs-lookup"><span data-stu-id="141a6-122">Select Yes in the Entry certificate required field.</span></span>
+7. <span data-ttu-id="141a6-123">Selezionare Sì nel campo Rilascia certificato di entrata.</span><span class="sxs-lookup"><span data-stu-id="141a6-123">Select Yes in the Issue entry certificate field.</span></span>
+8. <span data-ttu-id="141a6-124">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="141a6-124">Click Save.</span></span>
+
+## <a name="create-an-eu-entry-certificate-automatically"></a><span data-ttu-id="141a6-125">Creare automaticamente un certificato di entrata UE</span><span class="sxs-lookup"><span data-stu-id="141a6-125">Create an EU entry certificate automatically</span></span>
+1. <span data-ttu-id="141a6-126">Andare a Contabilità clienti > Ordini > Tutti gli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="141a6-126">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="141a6-127">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="141a6-127">Click New.</span></span>
+3. <span data-ttu-id="141a6-128">Nel campo Conto cliente, immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="141a6-128">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="141a6-129">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="141a6-129">Click OK.</span></span>
+5. <span data-ttu-id="141a6-130">Nel campo Numero di articoli immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="141a6-130">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="141a6-131">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="141a6-131">Click Save.</span></span>
+7. <span data-ttu-id="141a6-132">Nel riquadro azioni fare clic su Preleva e imballa.</span><span class="sxs-lookup"><span data-stu-id="141a6-132">On the Action Pane, click Pick and pack.</span></span>
+8. <span data-ttu-id="141a6-133">Fare clic su Registra documento di trasporto.</span><span class="sxs-lookup"><span data-stu-id="141a6-133">Click Post packing slip.</span></span>
+9. <span data-ttu-id="141a6-134">Espandere la sezione Parametri.</span><span class="sxs-lookup"><span data-stu-id="141a6-134">Expand the Parameters section.</span></span>
+10. <span data-ttu-id="141a6-135">Nel campo Quantità selezionare "Tutto".</span><span class="sxs-lookup"><span data-stu-id="141a6-135">In the Quantity field, select 'All'.</span></span>
+11. <span data-ttu-id="141a6-136">Deselezionare la casella di controllo Rilascia certificato di entrata.</span><span class="sxs-lookup"><span data-stu-id="141a6-136">Clear the Issue entry certificate check box.</span></span>
+    * <span data-ttu-id="141a6-137">Un certificato di entrata può essere rilasciato durante la registrazione del documento di trasporto o durante la fatturazione dell'ordine.</span><span class="sxs-lookup"><span data-stu-id="141a6-137">An entry certificate can be issued during packing slip posting or during order invoicing.</span></span> <span data-ttu-id="141a6-138">Lasciare la casella di controllo Rilascia certificato di entrata deselezionata per rilasciarlo successivamente.</span><span class="sxs-lookup"><span data-stu-id="141a6-138">Leave the Issue entry certificate checkbox unchecked to issue it later.</span></span>  
+12. <span data-ttu-id="141a6-139">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="141a6-139">Click OK.</span></span>
+13. <span data-ttu-id="141a6-140">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="141a6-140">Click OK.</span></span>
+14. <span data-ttu-id="141a6-141">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="141a6-141">On the Action Pane, click Invoice.</span></span>
+15. <span data-ttu-id="141a6-142">Fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="141a6-142">Click Invoice.</span></span>
+    * <span data-ttu-id="141a6-143">Verificare che le caselle di controllo Certificato di entrata obbligatorio e Rilascia certificato di entrata nella sezione Panoramica siano selezionate.</span><span class="sxs-lookup"><span data-stu-id="141a6-143">Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</span></span>  <span data-ttu-id="141a6-144">È inoltre possibile selezionare la casella di controllo Stampa certificato di entrata per consentire la stampa del certificato.</span><span class="sxs-lookup"><span data-stu-id="141a6-144">You can also select the Print entry certificate check box to allow printing of the certificate.</span></span>  
+16. <span data-ttu-id="141a6-145">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="141a6-145">Click OK.</span></span>
+17. <span data-ttu-id="141a6-146">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="141a6-146">Click OK.</span></span>
+18. <span data-ttu-id="141a6-147">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="141a6-147">On the Action Pane, click Invoice.</span></span>
+19. <span data-ttu-id="141a6-148">Fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="141a6-148">Click Invoice.</span></span>
+20. <span data-ttu-id="141a6-149">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="141a6-149">On the Action Pane, click Invoice.</span></span>
+21. <span data-ttu-id="141a6-150">Fare clic su Visualizza certificati di entrata rilasciati.</span><span class="sxs-lookup"><span data-stu-id="141a6-150">Click View issued entry certificates.</span></span>
+22. <span data-ttu-id="141a6-151">Fare clic su Stampa.</span><span class="sxs-lookup"><span data-stu-id="141a6-151">Click Print.</span></span>
+23. <span data-ttu-id="141a6-152">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="141a6-152">Close the page.</span></span>
+24. <span data-ttu-id="141a6-153">Fare clic su Cambia stato.</span><span class="sxs-lookup"><span data-stu-id="141a6-153">Click Change status.</span></span>
+25. <span data-ttu-id="141a6-154">Selezionare un'opzione nel campo Nuovo stato.</span><span class="sxs-lookup"><span data-stu-id="141a6-154">In the New status field, select an option.</span></span>
+26. <span data-ttu-id="141a6-155">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="141a6-155">Click OK.</span></span>
+27. <span data-ttu-id="141a6-156">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="141a6-156">Close the page.</span></span>
+
+## <a name="create-an-eu-entry-certificate-manually"></a><span data-ttu-id="141a6-157">Creare manualmente un certificato di entrata UE</span><span class="sxs-lookup"><span data-stu-id="141a6-157">Create an EU entry certificate manually</span></span>
+1. <span data-ttu-id="141a6-158">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="141a6-158">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="141a6-159">Fare clic su Crea certificato di entrata.</span><span class="sxs-lookup"><span data-stu-id="141a6-159">Click Create entry certificate.</span></span>
+3. <span data-ttu-id="141a6-160">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="141a6-160">Click OK.</span></span>
+4. <span data-ttu-id="141a6-161">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="141a6-161">On the Action Pane, click Invoice.</span></span>
+5. <span data-ttu-id="141a6-162">Fare clic su Visualizza certificati di entrata rilasciati.</span><span class="sxs-lookup"><span data-stu-id="141a6-162">Click View issued entry certificates.</span></span>
+

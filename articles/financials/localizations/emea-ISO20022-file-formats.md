@@ -1,330 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-ISO20022-file-formats.md" target-language="it-IT">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-ISO20022-file-formats.35e138.d91e937c62d4d498e67d753e39676514835f4161.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>d91e937c62d4d498e67d753e39676514835f4161</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-ISO20022-file-formats.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>ISO20022 files import</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importazione di file ISO20022</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic explains how to import payment files of the ISO 20022 camt.054 and pain.002 formats into Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In questo argomento viene descritto come importare file di pagamento dei formati camt.054 e pain.002 ISO 20022 Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Import ISO20022 files</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importare file ISO20022</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can import payment files that have the following formats:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È possibile importare file di pagamento con i seguenti formati:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source><bpt id="p1">**</bpt>ISO20022 camt.054 credit advice<ept id="p1">**</ept> – Import incoming payments from a file in this format into the Customer payment journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Avviso di accredito ISO20022 camt.054<ept id="p1">**</ept>: importare pagamenti ricevuti da un file in questo formato nel giornale di registrazione pagamenti del cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source><bpt id="p1">**</bpt>ISO20022 pain.002 status return<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ISO20022 camt.054 debit advice<ept id="p2">**</ept> – Import return files in these formats into the AP Payment transfer journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Reso con stato ISO20022 pain.002<ept id="p1">**</ept> e <bpt id="p2">**</bpt>Avviso di addebito ISO20022 camt.054<ept id="p2">**</ept>: importare file di rimborso in questi formati nel giornale di registrazione trasferimenti pagamenti di contabilità fornitori.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Prerequisites for importing the camt.054 credit advice file</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prerequisiti per importare il file di avviso di accredito camt.054</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>You must complete the following prerequisites to import bank notification messages in the camt.054.001.002 format into the Customer payment journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È necessario completare i seguenti prerequisiti per importare i messaggi di notifica della banca nel formato camt.054.001.002 nel giornale di registrazione pagamenti del cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Import the <bpt id="p1">**</bpt>ISO20022 camt.054<ept id="p1">**</ept> Electronic reporting (ER) configuration from Microsoft Dynamics Lifecycle Services (LCS).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importare la configurazione di reporting elettronica (ER) <bpt id="p1">**</bpt>ISO20022 camt.054<ept id="p1">**</ept> da Microsoft Dynamics Lifecycle Services (LCS).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Then, on the <bpt id="p1">**</bpt>Customer method of payment<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Import format configuration<ept id="p2">**</ept> field, select that configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quindi, nella pagina <bpt id="p1">**</bpt>Metodo di pagamento cliente<ept id="p1">**</ept>, nel campo <bpt id="p2">**</bpt>Configurazione formato di importazione<ept id="p2">**</ept>, selezionare la configurazione.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>For more information, see <bpt id="p1">[</bpt>File formats for methods of payment<ept id="p1">](emea-select-file-formats-for-the-method-of-payments.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>Formati di file per i metodi di pagamento<ept id="p1">](emea-select-file-formats-for-the-method-of-payments.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>On the <bpt id="p1">**</bpt>All customers<ept id="p1">**</ept> page, enter a name and organization number for each customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Tutti i clienti<ept id="p1">**</ept> immettere un nome e un numero di organizzazione per ogni cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>On the <bpt id="p1">**</bpt>Customer bank account<ept id="p1">**</ept> page, set up a customer bank account record by entering the following information: IBAN or bank account number, and SWIFT code or routing number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Conto bancario cliente<ept id="p1">**</ept> impostare un record di conto bancario del cliente immettendo le seguenti informazioni: IBAN o numero di conto bancario e codice SWIFT o numero di registrazione.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>On the <bpt id="p1">**</bpt>Bank accounts<ept id="p1">**</ept> page, set up legal entity bank accounts by entering the following information: IBAN or bank account number, SWIFT code or routing number, currency, and address.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Conti bancari<ept id="p1">**</ept> impostare i conti bancari della persona giuridica immettendo le seguenti informazioni: IBAN o numero di conto bancario, codice SWIFT o numero di registrazione, valuta e indirizzo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>If you plan to use Advanced bank reconciliation, on the <bpt id="p1">**</bpt>Reconciliation<ept id="p1">**</ept> FastTab, set the <bpt id="p2">**</bpt>Advanced bank reconciliation<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se si prevede di utilizzare la riconciliazione degli estratti conto avanzata, nella scheda dettaglio <bpt id="p1">**</bpt>Riconciliazione<ept id="p1">**</ept> impostare l'opzione <bpt id="p2">**</bpt>Riconciliazione estratti conto avanzata<ept id="p2">**</ept> su <bpt id="p3">**</bpt>Sì<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>If you plan to reconcile unposted imported payments, set the <bpt id="p1">**</bpt>Use bank statements as confirmation of electronic payments<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se si prevede di riconciliare i pagamenti importati non registrati, impostare l'opzione <bpt id="p1">**</bpt>Utilizza rendiconti bancari come conferma di pagamenti elettronici<ept id="p1">**</ept> su <bpt id="p2">**</bpt>Sì<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Optional: On the <bpt id="p1">**</bpt>Transaction code mapping<ept id="p1">**</ept> page, set up the mapping between bank transaction codes in the file and bank transaction types.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Facoltativo: nella pagina <bpt id="p1">**</bpt>Mapping dei codici transazione<ept id="p1">**</ept> impostare il mapping tra codici di transazione bancaria nel file e tipi di transazioni bancarie.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>If the file contains transaction charges that you want to post together with the incoming payment, create a payment fee on the <bpt id="p1">**</bpt>Customer payment fee<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se il file contiene spese di transazione che si desidera registrare insieme al pagamento ricevuto, creare una commissione di pagamento nella pagina <bpt id="p1">**</bpt>Commissione pagamento cliente<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Then, on the <bpt id="p1">**</bpt>Methods of payment<ept id="p1">**</ept> page, associate the payment fee with the bank account in the payment fee setup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quindi, nella pagina <bpt id="p1">**</bpt>Metodi di pagamento<ept id="p1">**</ept> associare la commissione di pagamento al conto bancario nell'impostazione della commissione di pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>If ESR payments will be imported and will contain ISR references (applicable for legal entities in Switzerland), complete the following setup:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se i pagamenti PVR verranno importati e conterranno i riferimenti ISR (applicabili alle persone giuridiche in Svizzera), completare la seguente configurazione:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the <bpt id="p1">**</bpt>Customer payments, account lengths<ept id="p1">**</ept> field, enter the length of the customer code that is used in ISR references or for automatic identification of the customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo <bpt id="p1">**</bpt>Pagamenti clienti, lunghezza conto<ept id="p1">**</ept> immettere la lunghezza del codice cliente utilizzato nei riferimenti ISR o per l'identificazione automatica del cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Make sure that the customer number and invoice number (number sequences) contain only digits.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verificare che il numero di fattura e il numero cliente (sequenze numeriche) contengano solo cifre.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>They must contain no other characters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Non devono contenere altri caratteri.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>The invoice number must not have leading zeros.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il numero di fattura non deve avere zeri iniziali.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Enter the ESR, BESR, and routing number for the legal entity bank account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Immettere i numeri ESR, BESR e di registrazione del conto bancario della persona giuridica.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>For more information, see <bpt id="p1">[</bpt>legacy ESR feature<ept id="p1">](emea-che-esr-customer-payments-import.md)</ept>, because similar settings are required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>funzionalità PVR precedenti<ept id="p1">](emea-che-esr-customer-payments-import.md)</ept>, poiché impostazioni simili sono necessarie.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Import the camt.054 credit advice file into the Customer payment journal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importare il file di avviso di accredito camt.054 nel giornale di registrazione pagamenti cliente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>On the <bpt id="p1">**</bpt>Customer payment journal lines<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Import payments<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Righe giornale di registrazione pagamenti cliente<ept id="p1">**</ept> fare clic su <bpt id="p2">**</bpt>Funzioni<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Importa pagamenti<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Select the method of payment that has the required settings for the ISO20022 camt.054 format.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare il metodo di pagamento con le impostazioni richieste per il formato ISO20022 camt.054.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Specify the required parameters and the path of the file, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Specificare i parametri necessari e il percorso del file, quindi fare clic su <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>The file is imported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il file viene importato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Prerequisites for importing files in the pain.002 status return and camt.054 debit advice formats into the AP Payment transfer journal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prerequisiti per l'importazione di file nel reso con stato pain.002 e di formati di avviso di addebito camt.054 nel giornale di registrazione trasferimenti pagamenti di contabilità fornitori.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>You must complete the following prerequisites to import bank messages in the following ISO20022 formats to the <bpt id="p1">**</bpt>Vendor payment transfer<ept id="p1">**</ept> page: pain.002.001.003 status return messages and camt.054.001.002 debit advice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È necessario completare i seguenti prerequisiti per importare messaggi bancari nei seguenti formati ISO20022 nella pagina <bpt id="p1">**</bpt>Trasferimento pagamenti fornitore<ept id="p1">**</ept> : messaggi di reso con stato pain.002.001.003 e avviso di addebito camt.054.001.002.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Import the <bpt id="p1">**</bpt>ISO20022 camt.054<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ISO20022 pain.002<ept id="p2">**</ept> ER configurations from LCS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importare le configurazioni ER <bpt id="p2">**</bpt>ISO20022 camt.054<ept id="p2">**</ept> e <bpt id="p1">**</bpt>ISO20022 pain.002<ept id="p1">**</ept> da LCS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>On the <bpt id="p1">**</bpt>Vendor method of payment<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Return format configuration<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Return format secondary configuration<ept id="p3">**</ept> fields, select the ER configurations that you imported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Metodo di pagamento fornitore<ept id="p1">**</ept>, nei campi <bpt id="p3">**</bpt>Configurazione formato risposta<ept id="p3">**</ept> e <bpt id="p2">**</bpt>Configurazione secondaria formato risposta<ept id="p2">**</ept>, selezionare le configurazioni ER importate.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>You will have to activate the generic electronic return format for the selected method of payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sarà necessario attivare il formato di risposta elettronica generica per il metodo di pagamento selezionato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>On the <bpt id="p1">**</bpt>Return format status mapping<ept id="p1">**</ept> page, set up the mapping of status codes between pain.002 statuses and Vendor payment journal statuses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Mapping dello stato formato risposta<ept id="p1">**</ept> impostare il mapping dei codici stato tra gli stati pain.002 e gli stati del giornale di registrazione pagamenti fornitore.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Here is an example of a status setup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Di seguito è riportato un esempio di impostazione dello stato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Return status</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stato di reso</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Payment status</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stato pagamenti</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>RJCT</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RJCT</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Rejected</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rifiutato</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>ACCP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACCP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Accepted</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accettato</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>ACSP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACSP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Received</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ricevuti</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>On the <bpt id="p1">**</bpt>Return format error codes<ept id="p1">**</ept> page, set up pain.002 error codes and descriptions in accordance with external ISO20022 status reason codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Codici di errore formato risposta<ept id="p1">**</ept> impostare i codici di errore pain.002 e le descrizioni in conformità ai codici motivo esterni dello stato ISO20022.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Here is an example of part of an error code setup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Di seguito è riportato un esempio della parte dell'impostazione di un codice di errore.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Codice</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Name</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nome</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>AC01</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AC01</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>IncorrectAccountNumber</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IncorrectAccountNumber</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>AC02</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AC02</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>InvalidDebtorAccountNumber</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">InvalidDebtorAccountNumber</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>AC03</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AC03</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>InvalidCreditorAccountNumber</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">InvalidCreditorAccountNumber</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>AC04</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AC04</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>ClosedAccountNumber</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ClosedAccountNumber</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>AC05</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AC05</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>ClosedDebtorAccountNumber</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ClosedDebtorAccountNumber</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>AC06</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AC06</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>BlockedAccount</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BlockedAccount</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>If the camt.054 file contains transaction charges that you want to post together with the incoming payment, create a payment fee on the <bpt id="p1">**</bpt>Vendor payment fee<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se il file camt.054 contiene spese di transazione che si desidera registrare insieme al pagamento ricevuto, creare una commissione di pagamento nella pagina <bpt id="p1">**</bpt>Commissione pagamento fornitore<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Then, on the <bpt id="p1">**</bpt>Methods of payment<ept id="p1">**</ept> page, associate the payment fee with the bank account in the payment fee setup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quindi, nella pagina <bpt id="p1">**</bpt>Metodi di pagamento<ept id="p1">**</ept> associare la commissione di pagamento al conto bancario nell'impostazione della commissione di pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Import the pain.002 status return or camt.054 debit advice files into the Vendor payment journal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importare i file con avviso di addebito camt.054 o di reso con stato pain.002 nel giornale di registrazione pagamenti fornitore</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Open the <bpt id="p1">**</bpt>Payment transfers<ept id="p1">**</ept> page in Accounts Payable menu.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aprire la pagina <bpt id="p1">**</bpt>Trasferimenti di pagamento<ept id="p1">**</ept> dal menu della Contabilità fornitori.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>On the <bpt id="p1">**</bpt>Payment transfers<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Return file - vendor<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Trasferimenti di pagamento<ept id="p1">**</ept> fare clic su <bpt id="p2">**</bpt>Archivio resi - Fornitore<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Select the method of payment that has the required settings for ISO20022 files, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare il metodo di pagamento con le impostazioni richieste per i file ISO20022, quindi fare clic su <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Select the file format that you plan to import, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare il formato di file che si prevede di importare e fare clic su <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Specify the required parameters and the path of the file, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Specificare i parametri necessari e il percorso del file, quindi fare clic su <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>If you're importing the pain.002 file, the status of vendor payment lines is updated, based the information in the imported file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se si importa il file pain.002, lo stato delle righe di pagamento fornitore viene aggiornato in base alle informazioni incluse nel file importato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>If you're importing the camt.054 file, you should specify the following additional parameters:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se si importa il file camt.054, è necessario specificare i parametri aggiuntivi seguenti:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source><bpt id="p1">**</bpt>Fee ID<ept id="p1">**</ept> – Enter the Fee ID which will define new payment fee lines, which will be created on the Vendor payment journal line if a charge amount is present in the camt.054 file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ID commissione<ept id="p1">**</ept>: immettere l'ID della commissione che definirà le nuove righe della commissione di pagamento, che verranno create nella riga del giornale di registrazione pagamenti fornitore se l'importo dell'addebito è presente nel file camt.054.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source><bpt id="p1">**</bpt>New journal name<ept id="p1">**</ept> and <bpt id="p2">**</bpt>New journal description<ept id="p2">**</ept> – Enter the name and description of the journal that processed transactions will be transferred to.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nuovo nome giornale di registrazione<ept id="p1">**</ept> e <bpt id="p2">**</bpt>Descrizione nuovo giornale di registrazione<ept id="p2">**</ept>: immettere il nome e la descrizione del giornale di registrazione nel quale verranno trasferite le transazioni elaborate.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>After the transfer, new voucher numbers should be assigned in the new journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dopo il trasferimento i nuovi numeri dei giustificativi devono essere assegnati nel nuovo giornale di registrazione.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source><bpt id="p1">**</bpt>Import direct debit transactions<ept id="p1">**</ept> – Set this option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> if outgoing direct debits must be imported into the Vendor payment journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Importa transazioni di addebito diretto<ept id="p1">**</ept>: impostare questa opzione su <bpt id="p2">**</bpt>Sì<ept id="p2">**</ept> se gli addebiti diretti in uscita devono essere importati nel giornale di registrazione pagamenti fornitore.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source><bpt id="p1">**</bpt>Journal name<ept id="p1">**</ept> – Define a new journal name for the imported direct debit transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nome giornale di registrazione<ept id="p1">**</ept>: definire un nuovo nome di giornale di registrazione per le transazioni di addebito diretto importate.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source><bpt id="p1">**</bpt>Settle transactions<ept id="p1">**</ept> – Set this option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> if imported vendor payments must be settled with invoices that are found in the system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Liquida transazioni<ept id="p1">**</ept>: impostare questa opzione su <bpt id="p2">**</bpt>Sì<ept id="p2">**</ept> se i pagamenti fornitore importati devono essere liquidati con fatture presenti nel sistema.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>You can view the imported information on the <bpt id="p1">**</bpt>Payment transfers<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">È possibile visualizzare le informazioni importate nella pagina <bpt id="p1">**</bpt>Trasferimenti di pagamento<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Additional details</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dettagli aggiuntivi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>When you import a format configuration from LCS, you import the whole configuration tree which means that the Model and Model mapping configurations are included.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando si importa una configurazione di formato da LCS, si importa l'intera struttura di configurazione, di conseguenza anche il modello e le configurazioni di mapping di modello.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>In the Payment model starting from version 8, the mappings are located in separate ER configurations in the solution tree (Payment model mapping 1611, Payment model mapping to destination ISO20022, etc).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel modello di pagamento a partire dalla versione 8, i mapping si trovano in configurazioni ER distinte nella struttura della soluzione (mapping di modello di pagamento 1611, mapping di modello di pagamento alla destinazione ISO20022 e così via).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>There are many different payment formats under one model (Payment model), thus separate mapping handling is a key for easy solution maintenance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In un modello (modello di pagamento) vi sono molti formati di pagamento differenti, pertanto la gestione distinta di mapping è fondamentale per gestire facilmente la soluzione.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>For example, consider this scenario: you use ISO20022 payments to generate credit transfer files and then you import the return messages from the bank.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ad esempio, in uno scenario in cui si utilizzano pagamenti ISO20022 per generare file di bonifico e quindi si importano i messaggi di reso dalla banca,</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>In this scenario, you should use the following configurations:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">si utilizzerebbero le configurazioni seguenti:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source><bpt id="p1">**</bpt>Payment model<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Modello di pagamento<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source><bpt id="p1">**</bpt>Payment model mapping 1611<ept id="p1">**</ept> – this mapping will be used to generate the export file</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Mapping di modello di pagamento 1611<ept id="p1">**</ept> - il mapping utilizzato per generare il file di esportazione</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source><bpt id="p1">**</bpt>Payment model mapping to destination ISO20022<ept id="p1">**</ept> – this configuration includes all mappings which will be used to import the data (“to destination” mapping direction)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Mapping di modello di pagamento alla destinazione ISO20022<ept id="p1">**</ept> - questa configurazione include tutti i mapping utilizzati per l'importazione dei dati (direzione del mapping "alla destinazione")</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source><bpt id="p1">**</bpt>ISO20022 Credit transfer<ept id="p1">**</ept> – this configuration includes a format component that is responsible for export file generation (pain.001) based on the Payment model mapping 1611, as well as a format to model mapping component which will be used together with Payment model mapping to destination ISO20022 to register exported payments in the system for further import purposes (import in CustVendProcessedPayments technical table)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Bonifico ISO20022<ept id="p1">**</ept> - questa configurazione include un componente di formato responsabile della generazione del file di esportazione (pain.001) in base al mapping di modello di pagamento 1611; include inoltre un formato per il componente del mapping di modello utilizzato insieme al mapping di modello di pagamento alla destinazione ISO20022 per registrare i pagamenti esportati nel sistema per ulteriori scopi di importazione (importazione nella tabella tecnica CustVendProcessedPayments)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source><bpt id="p1">**</bpt>ISO20022 Credit transfer (CE)<ept id="p1">**</ept>, where CE correspond to country extension – derived format to the ISO20022 Credit transfer with the same structure and with certain country-specific differences</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Bonifico ISO20022 (CE)<ept id="p1">**</ept>, dove CE è il codice del paese - il formato derivato per il bonifico ISO20022 con la stessa struttura e con differenze specifiche del paese</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source><bpt id="p1">**</bpt>Pain.002<ept id="p1">**</ept> – this format will be used together with the Payment model mapping to destination ISO20022 in order to import the pain.002 file into vendor payments transfers journal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pain.002<ept id="p1">**</ept> - il formato utilizzato insieme al mapping di modello di pagamento alla destinazione ISO20022 per importare il file pain.002 nel giornale di registrazione dei trasferimenti relativi ai pagamenti fornitore</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source><bpt id="p1">**</bpt>Camt.054<ept id="p1">**</ept> – this format will be used together with the Payment model mapping to destination ISO20022 to import the camt.054 file into vendor payments transfers journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Camt.054<ept id="p1">**</ept> - il formato utilizzato insieme al mapping di modello di pagamento alla destinazione ISO20022 per importare il file camt.054 nel giornale di registrazione dei trasferimenti relativi ai pagamenti fornitore</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>The same format configuration will be used in customer payments import functionality, but the different mapping will be used in the Payment model mapping to destination ISO20022 configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La stessa configurazione di formato è utilizzata nella funzionalità di importazione dei pagamenti cliente, ma nella configurazione del mapping di modello di pagamento alla destinazione ISO20022 viene utilizzato un mapping differente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>For more information about Electronic reporting, refer to <bpt id="p1">[</bpt>Electronic reporting overview<ept id="p1">](../../dev-itpro/analytics/general-electronic-reporting.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per ulteriori informazioni sui report elettronici, vedere <bpt id="p1">[</bpt>Panoramica dei report elettronici<ept id="p1">](../../dev-itpro/analytics/general-electronic-reporting.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Risorse aggiuntive</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source><bpt id="p1">[</bpt>Create and export vendor payments using ISO20022 payment format<ept id="p1">](./tasks/create-export-vendor-payments-iso20022-payment-format.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Creare ed esportare i pagamenti fornitore usando il formato di pagamento ISO20022<ept id="p1">](./tasks/create-export-vendor-payments-iso20022-payment-format.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source><bpt id="p1">[</bpt>Import ISO20022 credit transfer configuration<ept id="p1">](./tasks/import-iso20022-credit-transfer-configuration.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Importare la configurazione di bonifico ISO20022<ept id="p1">](./tasks/import-iso20022-credit-transfer-configuration.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source><bpt id="p1">[</bpt>Import ISO20022 direct debit configuration<ept id="p1">](./tasks/import-iso20022-direct-debit-configuration.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Importare la configurazione di addebito diretto ISO20022<ept id="p1">](./tasks/import-iso20022-direct-debit-configuration.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source><bpt id="p1">[</bpt>Set up company bank accounts for ISO20022 credit transfers<ept id="p1">](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Impostare i conti bancari della società per i bonifici ISO20022<ept id="p1">](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source><bpt id="p1">[</bpt>Set up company bank accounts for ISO20022 direct debits<ept id="p1">](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Impostare i conti bancari della società per gli addebiti diretti ISO20022<ept id="p1">](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source><bpt id="p1">[</bpt>Set up customers and customer bank accounts for ISO20022 direct debits<ept id="p1">](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Impostare i clienti e i conti bancari dei clienti per gli addebiti diretti ISO20022<ept id="p1">](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source><bpt id="p1">[</bpt>Set up method of payment for ISO20022 credit transfer<ept id="p1">](./tasks/set-up-method-payment-iso20022-credit-transfer.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Impostare un metodo di pagamento per bonifico ISO20022<ept id="p1">](./tasks/set-up-method-payment-iso20022-credit-transfer.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source><bpt id="p1">[</bpt>Set up method of payment for ISO20022 direct debit<ept id="p1">](./tasks/setup-method-payment-iso20022-direct-debit.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Impostare un metodo di pagamento per addebito diretto ISO20022<ept id="p1">](./tasks/setup-method-payment-iso20022-direct-debit.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source><bpt id="p1">[</bpt>Set up vendors and vendor bank accounts for ISO20022 credit transfers<ept id="p1">](./tasks/set-up-vendor-iso20022-credit-transfers.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Impostare i fornitori e i conti bancari dei fornitori per i bonifici ISO20022<ept id="p1">](./tasks/set-up-vendor-iso20022-credit-transfers.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Importazione di file ISO20022
+description: In questo argomento viene descritto come importare file di pagamento dei formati camt.054 e pain.002 ISO 20022 Microsoft Dynamics 365 for Finance and Operations.
+author: neserovleo
+manager: AnnBe
+ms.date: 07/27/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
+ms.author: v-lenest
+ms.search.validFrom: 2017-06-01
+ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: d91e937c62d4d498e67d753e39676514835f4161
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564462"
+---
+# <a name="import-iso20022-files"></a><span data-ttu-id="7adc9-103">Importare file ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-103">Import ISO20022 files</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="7adc9-104">È possibile importare file di pagamento con i seguenti formati:</span><span class="sxs-lookup"><span data-stu-id="7adc9-104">You can import payment files that have the following formats:</span></span>
+
+ - <span data-ttu-id="7adc9-105">**Avviso di accredito ISO20022 camt.054**: importare pagamenti ricevuti da un file in questo formato nel giornale di registrazione pagamenti del cliente.</span><span class="sxs-lookup"><span data-stu-id="7adc9-105">**ISO20022 camt.054 credit advice** – Import incoming payments from a file in this format into the Customer payment journal.</span></span>
+ - <span data-ttu-id="7adc9-106">**Reso con stato ISO20022 pain.002** e **Avviso di addebito ISO20022 camt.054**: importare file di rimborso in questi formati nel giornale di registrazione trasferimenti pagamenti di contabilità fornitori.</span><span class="sxs-lookup"><span data-stu-id="7adc9-106">**ISO20022 pain.002 status return** and **ISO20022 camt.054 debit advice** – Import return files in these formats into the AP Payment transfer journal.</span></span>
+
+## <a name="prerequisites-for-importing-the-camt054-credit-advice-file"></a><span data-ttu-id="7adc9-107">Prerequisiti per importare il file di avviso di accredito camt.054</span><span class="sxs-lookup"><span data-stu-id="7adc9-107">Prerequisites for importing the camt.054 credit advice file</span></span>
+<span data-ttu-id="7adc9-108">È necessario completare i seguenti prerequisiti per importare i messaggi di notifica della banca nel formato camt.054.001.002 nel giornale di registrazione pagamenti del cliente.</span><span class="sxs-lookup"><span data-stu-id="7adc9-108">You must complete the following prerequisites to import bank notification messages in the camt.054.001.002 format into the Customer payment journal.</span></span>
+
+1. <span data-ttu-id="7adc9-109">Importare la configurazione di reporting elettronica (ER) **ISO20022 camt.054** da Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="7adc9-109">Import the **ISO20022 camt.054** Electronic reporting (ER) configuration from Microsoft Dynamics Lifecycle Services (LCS).</span></span> <span data-ttu-id="7adc9-110">Quindi, nella pagina **Metodo di pagamento cliente**, nel campo **Configurazione formato di importazione**, selezionare la configurazione.</span><span class="sxs-lookup"><span data-stu-id="7adc9-110">Then, on the **Customer method of payment** page, in the **Import format configuration** field, select that configuration.</span></span> <span data-ttu-id="7adc9-111">Per ulteriori informazioni, vedere [Formati di file per i metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md).</span><span class="sxs-lookup"><span data-stu-id="7adc9-111">For more information, see [File formats for methods of payment](emea-select-file-formats-for-the-method-of-payments.md).</span></span>
+2. <span data-ttu-id="7adc9-112">Nella pagina **Tutti i clienti** immettere un nome e un numero di organizzazione per ogni cliente.</span><span class="sxs-lookup"><span data-stu-id="7adc9-112">On the **All customers** page, enter a name and organization number for each customer.</span></span>
+3. <span data-ttu-id="7adc9-113">Nella pagina **Conto bancario cliente** impostare un record di conto bancario del cliente immettendo le seguenti informazioni: IBAN o numero di conto bancario e codice SWIFT o numero di registrazione.</span><span class="sxs-lookup"><span data-stu-id="7adc9-113">On the **Customer bank account** page, set up a customer bank account record by entering the following information: IBAN or bank account number, and SWIFT code or routing number.</span></span>
+4. <span data-ttu-id="7adc9-114">Nella pagina **Conti bancari** impostare i conti bancari della persona giuridica immettendo le seguenti informazioni: IBAN o numero di conto bancario, codice SWIFT o numero di registrazione, valuta e indirizzo.</span><span class="sxs-lookup"><span data-stu-id="7adc9-114">On the **Bank accounts** page, set up legal entity bank accounts by entering the following information: IBAN or bank account number, SWIFT code or routing number, currency, and address.</span></span>
+
+   > [!NOTE]
+   > <span data-ttu-id="7adc9-115">Se si prevede di utilizzare la riconciliazione degli estratti conto avanzata, nella scheda dettaglio **Riconciliazione** impostare l'opzione **Riconciliazione estratti conto avanzata** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-115">If you plan to use Advanced bank reconciliation, on the **Reconciliation** FastTab, set the **Advanced bank reconciliation** option to **Yes**.</span></span> <span data-ttu-id="7adc9-116">Se si prevede di riconciliare i pagamenti importati non registrati, impostare l'opzione **Utilizza rendiconti bancari come conferma di pagamenti elettronici** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-116">If you plan to reconcile unposted imported payments, set the **Use bank statements as confirmation of electronic payments** option to **Yes**.</span></span>
+
+5. <span data-ttu-id="7adc9-117">Facoltativo: nella pagina **Mapping dei codici transazione** impostare il mapping tra codici di transazione bancaria nel file e tipi di transazioni bancarie.</span><span class="sxs-lookup"><span data-stu-id="7adc9-117">Optional: On the **Transaction code mapping** page, set up the mapping between bank transaction codes in the file and bank transaction types.</span></span>
+6. <span data-ttu-id="7adc9-118">Se il file contiene spese di transazione che si desidera registrare insieme al pagamento ricevuto, creare una commissione di pagamento nella pagina **Commissione pagamento cliente**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-118">If the file contains transaction charges that you want to post together with the incoming payment, create a payment fee on the **Customer payment fee** page.</span></span> <span data-ttu-id="7adc9-119">Quindi, nella pagina **Metodi di pagamento** associare la commissione di pagamento al conto bancario nell'impostazione della commissione di pagamento.</span><span class="sxs-lookup"><span data-stu-id="7adc9-119">Then, on the **Methods of payment** page, associate the payment fee with the bank account in the payment fee setup.</span></span>
+7. <span data-ttu-id="7adc9-120">Se i pagamenti PVR verranno importati e conterranno i riferimenti ISR (applicabili alle persone giuridiche in Svizzera), completare la seguente configurazione:</span><span class="sxs-lookup"><span data-stu-id="7adc9-120">If ESR payments will be imported and will contain ISR references (applicable for legal entities in Switzerland), complete the following setup:</span></span>
+
+    - <span data-ttu-id="7adc9-121">Nel campo **Pagamenti clienti, lunghezza conto** immettere la lunghezza del codice cliente utilizzato nei riferimenti ISR o per l'identificazione automatica del cliente.</span><span class="sxs-lookup"><span data-stu-id="7adc9-121">In the **Customer payments, account lengths** field, enter the length of the customer code that is used in ISR references or for automatic identification of the customer.</span></span>
+    - <span data-ttu-id="7adc9-122">Verificare che il numero di fattura e il numero cliente (sequenze numeriche) contengano solo cifre.</span><span class="sxs-lookup"><span data-stu-id="7adc9-122">Make sure that the customer number and invoice number (number sequences) contain only digits.</span></span> <span data-ttu-id="7adc9-123">Non devono contenere altri caratteri.</span><span class="sxs-lookup"><span data-stu-id="7adc9-123">They must contain no other characters.</span></span> <span data-ttu-id="7adc9-124">Il numero di fattura non deve avere zeri iniziali.</span><span class="sxs-lookup"><span data-stu-id="7adc9-124">The invoice number must not have leading zeros.</span></span>
+    - <span data-ttu-id="7adc9-125">Immettere i numeri ESR, BESR e di registrazione del conto bancario della persona giuridica.</span><span class="sxs-lookup"><span data-stu-id="7adc9-125">Enter the ESR, BESR, and routing number for the legal entity bank account.</span></span> <span data-ttu-id="7adc9-126">Per ulteriori informazioni, vedere [funzionalità PVR precedenti](emea-che-esr-customer-payments-import.md), poiché impostazioni simili sono necessarie.</span><span class="sxs-lookup"><span data-stu-id="7adc9-126">For more information, see [legacy ESR feature](emea-che-esr-customer-payments-import.md), because similar settings are required.</span></span>
+    
+## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a><span data-ttu-id="7adc9-127">Importare il file di avviso di accredito camt.054 nel giornale di registrazione pagamenti cliente</span><span class="sxs-lookup"><span data-stu-id="7adc9-127">Import the camt.054 credit advice file into the Customer payment journal</span></span>
+1. <span data-ttu-id="7adc9-128">Nella pagina **Righe giornale di registrazione pagamenti cliente** fare clic su **Funzioni** > **Importa pagamenti**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-128">On the **Customer payment journal lines** page, click **Functions** > **Import payments**.</span></span>
+2. <span data-ttu-id="7adc9-129">Selezionare il metodo di pagamento con le impostazioni richieste per il formato ISO20022 camt.054.</span><span class="sxs-lookup"><span data-stu-id="7adc9-129">Select the method of payment that has the required settings for the ISO20022 camt.054 format.</span></span>
+3. <span data-ttu-id="7adc9-130">Specificare i parametri necessari e il percorso del file, quindi fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-130">Specify the required parameters and the path of the file, and then click **OK**.</span></span> <span data-ttu-id="7adc9-131">Il file viene importato.</span><span class="sxs-lookup"><span data-stu-id="7adc9-131">The file is imported.</span></span>
+
+## <a name="prerequisites-for-importing-files-in-the-pain002-status-return-and-camt054-debit-advice-formats-into-the-ap-payment-transfer-journal"></a><span data-ttu-id="7adc9-132">Prerequisiti per l'importazione di file nel reso con stato pain.002 e di formati di avviso di addebito camt.054 nel giornale di registrazione trasferimenti pagamenti di contabilità fornitori.</span><span class="sxs-lookup"><span data-stu-id="7adc9-132">Prerequisites for importing files in the pain.002 status return and camt.054 debit advice formats into the AP Payment transfer journal</span></span>
+<span data-ttu-id="7adc9-133">È necessario completare i seguenti prerequisiti per importare messaggi bancari nei seguenti formati ISO20022 nella pagina **Trasferimento pagamenti fornitore** : messaggi di reso con stato pain.002.001.003 e avviso di addebito camt.054.001.002.</span><span class="sxs-lookup"><span data-stu-id="7adc9-133">You must complete the following prerequisites to import bank messages in the following ISO20022 formats to the **Vendor payment transfer** page: pain.002.001.003 status return messages and camt.054.001.002 debit advice.</span></span>
+
+1. <span data-ttu-id="7adc9-134">Importare le configurazioni ER **ISO20022 camt.054** e **ISO20022 pain.002** da LCS.</span><span class="sxs-lookup"><span data-stu-id="7adc9-134">Import the **ISO20022 camt.054** and **ISO20022 pain.002** ER configurations from LCS.</span></span>
+2. <span data-ttu-id="7adc9-135">Nella pagina **Metodo di pagamento fornitore**, nei campi **Configurazione formato risposta** e **Configurazione secondaria formato risposta**, selezionare le configurazioni ER importate.</span><span class="sxs-lookup"><span data-stu-id="7adc9-135">On the **Vendor method of payment** page, in the **Return format configuration** and **Return format secondary configuration** fields, select the ER configurations that you imported.</span></span> <span data-ttu-id="7adc9-136">Sarà necessario attivare il formato di risposta elettronica generica per il metodo di pagamento selezionato.</span><span class="sxs-lookup"><span data-stu-id="7adc9-136">You will have to activate the generic electronic return format for the selected method of payment.</span></span>
+3. <span data-ttu-id="7adc9-137">Nella pagina **Mapping dello stato formato risposta** impostare il mapping dei codici stato tra gli stati pain.002 e gli stati del giornale di registrazione pagamenti fornitore.</span><span class="sxs-lookup"><span data-stu-id="7adc9-137">On the **Return format status mapping** page, set up the mapping of status codes between pain.002 statuses and Vendor payment journal statuses.</span></span>
+
+    <span data-ttu-id="7adc9-138">Di seguito è riportato un esempio di impostazione dello stato.</span><span class="sxs-lookup"><span data-stu-id="7adc9-138">Here is an example of a status setup.</span></span>
+
+    <span data-ttu-id="7adc9-139">Stato di reso</span><span class="sxs-lookup"><span data-stu-id="7adc9-139">Return status</span></span> | <span data-ttu-id="7adc9-140">Stato pagamenti</span><span class="sxs-lookup"><span data-stu-id="7adc9-140">Payment status</span></span>
+    --------------|---------------
+    <span data-ttu-id="7adc9-141">RJCT</span><span class="sxs-lookup"><span data-stu-id="7adc9-141">RJCT</span></span>          | <span data-ttu-id="7adc9-142">Rifiutato</span><span class="sxs-lookup"><span data-stu-id="7adc9-142">Rejected</span></span>
+    <span data-ttu-id="7adc9-143">ACCP</span><span class="sxs-lookup"><span data-stu-id="7adc9-143">ACCP</span></span>          | <span data-ttu-id="7adc9-144">Accettato</span><span class="sxs-lookup"><span data-stu-id="7adc9-144">Accepted</span></span>
+    <span data-ttu-id="7adc9-145">ACSP</span><span class="sxs-lookup"><span data-stu-id="7adc9-145">ACSP</span></span>          | <span data-ttu-id="7adc9-146">Ricevuti</span><span class="sxs-lookup"><span data-stu-id="7adc9-146">Received</span></span>
+
+4. <span data-ttu-id="7adc9-147">Nella pagina **Codici di errore formato risposta** impostare i codici di errore pain.002 e le descrizioni in conformità ai codici motivo esterni dello stato ISO20022.</span><span class="sxs-lookup"><span data-stu-id="7adc9-147">On the **Return format error codes** page, set up pain.002 error codes and descriptions in accordance with external ISO20022 status reason codes.</span></span>
+
+    <span data-ttu-id="7adc9-148">Di seguito è riportato un esempio della parte dell'impostazione di un codice di errore.</span><span class="sxs-lookup"><span data-stu-id="7adc9-148">Here is an example of part of an error code setup.</span></span>
+
+    <span data-ttu-id="7adc9-149">Codice</span><span class="sxs-lookup"><span data-stu-id="7adc9-149">Code</span></span> | <span data-ttu-id="7adc9-150">Nome</span><span class="sxs-lookup"><span data-stu-id="7adc9-150">Name</span></span>
+    -----|-----
+    <span data-ttu-id="7adc9-151">AC01</span><span class="sxs-lookup"><span data-stu-id="7adc9-151">AC01</span></span> | <span data-ttu-id="7adc9-152">IncorrectAccountNumber</span><span class="sxs-lookup"><span data-stu-id="7adc9-152">IncorrectAccountNumber</span></span>
+    <span data-ttu-id="7adc9-153">AC02</span><span class="sxs-lookup"><span data-stu-id="7adc9-153">AC02</span></span> | <span data-ttu-id="7adc9-154">InvalidDebtorAccountNumber</span><span class="sxs-lookup"><span data-stu-id="7adc9-154">InvalidDebtorAccountNumber</span></span>
+    <span data-ttu-id="7adc9-155">AC03</span><span class="sxs-lookup"><span data-stu-id="7adc9-155">AC03</span></span> | <span data-ttu-id="7adc9-156">InvalidCreditorAccountNumber</span><span class="sxs-lookup"><span data-stu-id="7adc9-156">InvalidCreditorAccountNumber</span></span>
+    <span data-ttu-id="7adc9-157">AC04</span><span class="sxs-lookup"><span data-stu-id="7adc9-157">AC04</span></span> | <span data-ttu-id="7adc9-158">ClosedAccountNumber</span><span class="sxs-lookup"><span data-stu-id="7adc9-158">ClosedAccountNumber</span></span>
+    <span data-ttu-id="7adc9-159">AC05</span><span class="sxs-lookup"><span data-stu-id="7adc9-159">AC05</span></span> | <span data-ttu-id="7adc9-160">ClosedDebtorAccountNumber</span><span class="sxs-lookup"><span data-stu-id="7adc9-160">ClosedDebtorAccountNumber</span></span>
+    <span data-ttu-id="7adc9-161">AC06</span><span class="sxs-lookup"><span data-stu-id="7adc9-161">AC06</span></span> | <span data-ttu-id="7adc9-162">BlockedAccount</span><span class="sxs-lookup"><span data-stu-id="7adc9-162">BlockedAccount</span></span>
+
+5. <span data-ttu-id="7adc9-163">Se il file camt.054 contiene spese di transazione che si desidera registrare insieme al pagamento ricevuto, creare una commissione di pagamento nella pagina **Commissione pagamento fornitore**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-163">If the camt.054 file contains transaction charges that you want to post together with the incoming payment, create a payment fee on the **Vendor payment fee** page.</span></span> <span data-ttu-id="7adc9-164">Quindi, nella pagina **Metodi di pagamento** associare la commissione di pagamento al conto bancario nell'impostazione della commissione di pagamento.</span><span class="sxs-lookup"><span data-stu-id="7adc9-164">Then, on the **Methods of payment** page, associate the payment fee with the bank account in the payment fee setup.</span></span>
+
+## <a name="import-the-pain002-status-return-or-camt054-debit-advice-files-into-the-vendor-payment-journal"></a><span data-ttu-id="7adc9-165">Importare i file con avviso di addebito camt.054 o di reso con stato pain.002 nel giornale di registrazione pagamenti fornitore</span><span class="sxs-lookup"><span data-stu-id="7adc9-165">Import the pain.002 status return or camt.054 debit advice files into the Vendor payment journal</span></span>
+1. <span data-ttu-id="7adc9-166">Aprire la pagina **Trasferimenti di pagamento** dal menu della Contabilità fornitori.</span><span class="sxs-lookup"><span data-stu-id="7adc9-166">Open the **Payment transfers** page in Accounts Payable menu.</span></span>
+2. <span data-ttu-id="7adc9-167">Nella pagina **Trasferimenti di pagamento** fare clic su **Archivio resi - Fornitore**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-167">On the **Payment transfers** page, click **Return file - vendor**.</span></span>
+3. <span data-ttu-id="7adc9-168">Selezionare il metodo di pagamento con le impostazioni richieste per i file ISO20022, quindi fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-168">Select the method of payment that has the required settings for ISO20022 files, and then click **OK**.</span></span>
+4. <span data-ttu-id="7adc9-169">Selezionare il formato di file che si prevede di importare e fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-169">Select the file format that you plan to import, and then click **OK**.</span></span>
+5. <span data-ttu-id="7adc9-170">Specificare i parametri necessari e il percorso del file, quindi fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-170">Specify the required parameters and the path of the file, and then click **OK**.</span></span>
+
+<span data-ttu-id="7adc9-171">Se si importa il file pain.002, lo stato delle righe di pagamento fornitore viene aggiornato in base alle informazioni incluse nel file importato.</span><span class="sxs-lookup"><span data-stu-id="7adc9-171">If you're importing the pain.002 file, the status of vendor payment lines is updated, based the information in the imported file.</span></span>
+
+<span data-ttu-id="7adc9-172">Se si importa il file camt.054, è necessario specificare i parametri aggiuntivi seguenti:</span><span class="sxs-lookup"><span data-stu-id="7adc9-172">If you're importing the camt.054 file, you should specify the following additional parameters:</span></span>
+
+- <span data-ttu-id="7adc9-173">**ID commissione**: immettere l'ID della commissione che definirà le nuove righe della commissione di pagamento, che verranno create nella riga del giornale di registrazione pagamenti fornitore se l'importo dell'addebito è presente nel file camt.054.</span><span class="sxs-lookup"><span data-stu-id="7adc9-173">**Fee ID** – Enter the Fee ID which will define new payment fee lines, which will be created on the Vendor payment journal line if a charge amount is present in the camt.054 file.</span></span>
+- <span data-ttu-id="7adc9-174">**Nuovo nome giornale di registrazione** e **Descrizione nuovo giornale di registrazione**: immettere il nome e la descrizione del giornale di registrazione nel quale verranno trasferite le transazioni elaborate.</span><span class="sxs-lookup"><span data-stu-id="7adc9-174">**New journal name** and **New journal description** – Enter the name and description of the journal that processed transactions will be transferred to.</span></span> <span data-ttu-id="7adc9-175">Dopo il trasferimento i nuovi numeri dei giustificativi devono essere assegnati nel nuovo giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="7adc9-175">After the transfer, new voucher numbers should be assigned in the new journal.</span></span>
+- <span data-ttu-id="7adc9-176">**Importa transazioni di addebito diretto**: impostare questa opzione su **Sì** se gli addebiti diretti in uscita devono essere importati nel giornale di registrazione pagamenti fornitore.</span><span class="sxs-lookup"><span data-stu-id="7adc9-176">**Import direct debit transactions** – Set this option to **Yes** if outgoing direct debits must be imported into the Vendor payment journal.</span></span>
+- <span data-ttu-id="7adc9-177">**Nome giornale di registrazione**: definire un nuovo nome di giornale di registrazione per le transazioni di addebito diretto importate.</span><span class="sxs-lookup"><span data-stu-id="7adc9-177">**Journal name** – Define a new journal name for the imported direct debit transactions.</span></span>
+- <span data-ttu-id="7adc9-178">**Liquida transazioni**: impostare questa opzione su **Sì** se i pagamenti fornitore importati devono essere liquidati con fatture presenti nel sistema.</span><span class="sxs-lookup"><span data-stu-id="7adc9-178">**Settle transactions** – Set this option to **Yes** if imported vendor payments must be settled with invoices that are found in the system.</span></span>
+
+<span data-ttu-id="7adc9-179">È possibile visualizzare le informazioni importate nella pagina **Trasferimenti di pagamento**.</span><span class="sxs-lookup"><span data-stu-id="7adc9-179">You can view the imported information on the **Payment transfers** page.</span></span> 
+
+## <a name="additional-details"></a><span data-ttu-id="7adc9-180">Dettagli aggiuntivi</span><span class="sxs-lookup"><span data-stu-id="7adc9-180">Additional details</span></span>
+
+<span data-ttu-id="7adc9-181">Quando si importa una configurazione di formato da LCS, si importa l'intera struttura di configurazione, di conseguenza anche il modello e le configurazioni di mapping di modello.</span><span class="sxs-lookup"><span data-stu-id="7adc9-181">When you import a format configuration from LCS, you import the whole configuration tree which means that the Model and Model mapping configurations are included.</span></span> <span data-ttu-id="7adc9-182">Nel modello di pagamento a partire dalla versione 8, i mapping si trovano in configurazioni ER distinte nella struttura della soluzione (mapping di modello di pagamento 1611, mapping di modello di pagamento alla destinazione ISO20022 e così via).</span><span class="sxs-lookup"><span data-stu-id="7adc9-182">In the Payment model starting from version 8, the mappings are located in separate ER configurations in the solution tree (Payment model mapping 1611, Payment model mapping to destination ISO20022, etc).</span></span> <span data-ttu-id="7adc9-183">In un modello (modello di pagamento) vi sono molti formati di pagamento differenti, pertanto la gestione distinta di mapping è fondamentale per gestire facilmente la soluzione.</span><span class="sxs-lookup"><span data-stu-id="7adc9-183">There are many different payment formats under one model (Payment model), thus separate mapping handling is a key for easy solution maintenance.</span></span> <span data-ttu-id="7adc9-184">Ad esempio, in uno scenario in cui si utilizzano pagamenti ISO20022 per generare file di bonifico e quindi si importano i messaggi di reso dalla banca,</span><span class="sxs-lookup"><span data-stu-id="7adc9-184">For example, consider this scenario: you use ISO20022 payments to generate credit transfer files and then you import the return messages from the bank.</span></span> <span data-ttu-id="7adc9-185">si utilizzerebbero le configurazioni seguenti:</span><span class="sxs-lookup"><span data-stu-id="7adc9-185">In this scenario, you should use the following configurations:</span></span>
+
+ - <span data-ttu-id="7adc9-186">**Modello di pagamento**</span><span class="sxs-lookup"><span data-stu-id="7adc9-186">**Payment model**</span></span>
+ - <span data-ttu-id="7adc9-187">**Mapping di modello di pagamento 1611** - il mapping utilizzato per generare il file di esportazione</span><span class="sxs-lookup"><span data-stu-id="7adc9-187">**Payment model mapping 1611** – this mapping will be used to generate the export file</span></span>
+ - <span data-ttu-id="7adc9-188">**Mapping di modello di pagamento alla destinazione ISO20022** - questa configurazione include tutti i mapping utilizzati per l'importazione dei dati (direzione del mapping "alla destinazione")</span><span class="sxs-lookup"><span data-stu-id="7adc9-188">**Payment model mapping to destination ISO20022** – this configuration includes all mappings which will be used to import the data (“to destination” mapping direction)</span></span>
+ - <span data-ttu-id="7adc9-189">**Bonifico ISO20022** - questa configurazione include un componente di formato responsabile della generazione del file di esportazione (pain.001) in base al mapping di modello di pagamento 1611; include inoltre un formato per il componente del mapping di modello utilizzato insieme al mapping di modello di pagamento alla destinazione ISO20022 per registrare i pagamenti esportati nel sistema per ulteriori scopi di importazione (importazione nella tabella tecnica CustVendProcessedPayments)</span><span class="sxs-lookup"><span data-stu-id="7adc9-189">**ISO20022 Credit transfer** – this configuration includes a format component that is responsible for export file generation (pain.001) based on the Payment model mapping 1611, as well as a format to model mapping component which will be used together with Payment model mapping to destination ISO20022 to register exported payments in the system for further import purposes (import in CustVendProcessedPayments technical table)</span></span>
+ - <span data-ttu-id="7adc9-190">**Bonifico ISO20022 (CE)**, dove CE è il codice del paese - il formato derivato per il bonifico ISO20022 con la stessa struttura e con differenze specifiche del paese</span><span class="sxs-lookup"><span data-stu-id="7adc9-190">**ISO20022 Credit transfer (CE)**, where CE correspond to country extension – derived format to the ISO20022 Credit transfer with the same structure and with certain country-specific differences</span></span>
+ - <span data-ttu-id="7adc9-191">**Pain.002** - il formato utilizzato insieme al mapping di modello di pagamento alla destinazione ISO20022 per importare il file pain.002 nel giornale di registrazione dei trasferimenti relativi ai pagamenti fornitore</span><span class="sxs-lookup"><span data-stu-id="7adc9-191">**Pain.002** – this format will be used together with the Payment model mapping to destination ISO20022 in order to import the pain.002 file into vendor payments transfers journal</span></span>
+ - <span data-ttu-id="7adc9-192">**Camt.054** - il formato utilizzato insieme al mapping di modello di pagamento alla destinazione ISO20022 per importare il file camt.054 nel giornale di registrazione dei trasferimenti relativi ai pagamenti fornitore</span><span class="sxs-lookup"><span data-stu-id="7adc9-192">**Camt.054** – this format will be used together with the Payment model mapping to destination ISO20022 to import the camt.054 file into vendor payments transfers journal.</span></span> <span data-ttu-id="7adc9-193">La stessa configurazione di formato è utilizzata nella funzionalità di importazione dei pagamenti cliente, ma nella configurazione del mapping di modello di pagamento alla destinazione ISO20022 viene utilizzato un mapping differente.</span><span class="sxs-lookup"><span data-stu-id="7adc9-193">The same format configuration will be used in customer payments import functionality, but the different mapping will be used in the Payment model mapping to destination ISO20022 configuration.</span></span>
+
+<span data-ttu-id="7adc9-194">Per ulteriori informazioni sui report elettronici, vedere [Panoramica dei report elettronici](../../dev-itpro/analytics/general-electronic-reporting.md).</span><span class="sxs-lookup"><span data-stu-id="7adc9-194">For more information about Electronic reporting, refer to [Electronic reporting overview](../../dev-itpro/analytics/general-electronic-reporting.md).</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="7adc9-195">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="7adc9-195">Additional resources</span></span>
+- [<span data-ttu-id="7adc9-196">Creare ed esportare i pagamenti fornitore usando il formato di pagamento ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-196">Create and export vendor payments using ISO20022 payment format</span></span>](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
+- [<span data-ttu-id="7adc9-197">Importare la configurazione di bonifico ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-197">Import ISO20022 credit transfer configuration</span></span>](./tasks/import-iso20022-credit-transfer-configuration.md)
+- [<span data-ttu-id="7adc9-198">Importare la configurazione di addebito diretto ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-198">Import ISO20022 direct debit configuration</span></span>](./tasks/import-iso20022-direct-debit-configuration.md)
+- [<span data-ttu-id="7adc9-199">Impostare i conti bancari della società per i bonifici ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-199">Set up company bank accounts for ISO20022 credit transfers</span></span>](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
+- [<span data-ttu-id="7adc9-200">Impostare i conti bancari della società per gli addebiti diretti ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-200">Set up company bank accounts for ISO20022 direct debits</span></span>](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+- [<span data-ttu-id="7adc9-201">Impostare i clienti e i conti bancari dei clienti per gli addebiti diretti ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-201">Set up customers and customer bank accounts for ISO20022 direct debits</span></span>](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+- [<span data-ttu-id="7adc9-202">Impostare un metodo di pagamento per bonifico ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-202">Set up method of payment for ISO20022 credit transfer</span></span>](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
+- [<span data-ttu-id="7adc9-203">Impostare un metodo di pagamento per addebito diretto ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-203">Set up method of payment for ISO20022 direct debit</span></span>](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [<span data-ttu-id="7adc9-204">Impostare i fornitori e i conti bancari dei fornitori per i bonifici ISO20022</span><span class="sxs-lookup"><span data-stu-id="7adc9-204">Set up vendors and vendor bank accounts for ISO20022 credit transfers</span></span>](./tasks/set-up-vendor-iso20022-credit-transfers.md)
